@@ -25,15 +25,15 @@ Legend for evidence state in STATE.md: **implemented** (code exists) → **teste
 
 | ID | Task | Depends | Acceptance check | Status |
 |----|------|---------|------------------|--------|
-| B1 | Safe fetcher: allowlist, private-IP/metadata block, redirect revalidation, size cap, per-domain rate limit, conditional requests, circuit breaker | A8 | `pytest worker/tests/test_fetcher.py` (SSRF cases, oversized, redirect to private) | todo |
-| B2 | Official-HTML collector → fetch_snapshots with hash, change detection, navigation-noise filter | B1 | `pytest worker/tests/test_collector_html.py` (fixture pages; nav change ≠ material change) | todo |
-| B3 | PDF/table collector (pdfplumber) with page/footnote/academic-year preservation, low-confidence routing | B1 | `pytest worker/tests/test_collector_pdf.py` | todo |
-| B4 | Claim extraction (deterministic selectors on fixtures + model-extraction contract), typed values, per-person/per-unit, academic year, conflicts | A5,B2 | `pytest worker/tests/test_claims.py` (mixed years, room vs building price, conflict blocks critical claim) | todo |
-| B5 | Prompt-injection sanitizer for model inputs | B4 | `pytest worker/tests/test_sanitize.py` | todo |
-| B6 | Question discovery import (official FAQ, suggestions export, discussion export when authorized) + normalization + clustering by answer | A4 | `pytest worker/tests/test_discovery.py` (dup vs independent, synonyms merge, audience split, hypotheses labeled) | todo |
-| B7 | Demand + SERP adapters (unconnected; import from supplied exports), null-preserving | A4 | `pytest worker/tests/test_demand.py` (overlap not summed, suppressed preserved) | todo |
-| B8 | Opportunity scoring (D,G,W,E,M anchors, priority formula, threshold, editorial exception record) + action decision | B6,B7 | `pytest worker/tests/test_scoring.py` | todo |
-| B9 | Source-change propagation via dependencies (claim → page_versions/tools) | B4 | `pytest worker/tests/test_propagation.py` | todo |
+| B1 | Safe fetcher: allowlist, private-IP/metadata block, redirect revalidation, size cap, per-domain rate limit, conditional requests, circuit breaker | A8 | `pytest worker/tests/test_fetcher.py` (SSRF cases, oversized, redirect to private) | done |
+| B2 | Official-HTML collector → fetch_snapshots with hash, change detection, navigation-noise filter | B1 | `pytest worker/tests/test_collector_html.py` (fixture pages; nav change ≠ material change) | done |
+| B3 | PDF/table collector (pdfplumber) with page/footnote/academic-year preservation, low-confidence routing | B1 | `pytest worker/tests/test_collector_pdf.py` | done |
+| B4 | Claim extraction (deterministic selectors on fixtures + model-extraction contract), typed values, per-person/per-unit, academic year, conflicts | A5,B2 | `pytest worker/tests/test_claims.py` (mixed years, room vs building price, conflict blocks critical claim) | done |
+| B5 | Prompt-injection sanitizer for model inputs | B4 | `pytest worker/tests/test_sanitize.py` | done |
+| B6 | Question discovery import (official FAQ, suggestions export, discussion export when authorized) + normalization + clustering by answer | A4 | `pytest worker/tests/test_discovery.py` (dup vs independent, synonyms merge, audience split, hypotheses labeled) | done |
+| B7 | Demand + SERP adapters (unconnected; import from supplied exports), null-preserving | A4 | `pytest worker/tests/test_demand.py` (overlap not summed, suppressed preserved) | done |
+| B8 | Opportunity scoring (D,G,W,E,M anchors, priority formula, threshold, editorial exception record) + action decision | B6,B7 | `pytest worker/tests/test_scoring.py` | done |
+| B9 | Source-change propagation via dependencies (claim → page_versions/tools) | B4 | `pytest worker/tests/test_propagation.py` | done |
 
 ## Stage C — briefs, contracts, editorial gates
 
