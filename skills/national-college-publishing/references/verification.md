@@ -1,0 +1,4 @@
+# Verification (role H)
+Order: deterministic checks (`editorial.checks.run_all`) → if any hard finding, stop (no model spend) → verifier model with the evidence packet and, for final critical-claim checks, raw source excerpts wrapped as untrusted (`run_verifier(source_excerpts=…)`) → `gates.gate_version`.
+Hard failures: unsupported critical claim, unresolved conflict, wrong school/campus/year, invented quote or experience, missing rights, incorrect arithmetic, deceptive headline, superficial duplicate (≥82% similar after audience-label normalization), unsafe code, broken interaction, inaccessible layout, ads obscuring the task, missing privacy behaviour, fake byline, fabricated consensus.
+Rubric 0–4: clarity, specificity, structure, attribution, usefulness, prose. Release: ≥ 20/24, none < 3, < 3 major findings, known template. Findings persist on the page version. Agreement between two models is not independent confirmation; the source excerpt is.

@@ -139,7 +139,7 @@ def audience_guide_justified(conn: psycopg.Connection, *, entity_id: UUID | None
     with conn.cursor() as cur:
         cur.execute(
             """SELECT field, value_text, value_bool, value_number, audience_applicability FROM claims
-               WHERE institution_id=%s AND topic_id=%s AND superseded_by_id IS NULL AND (entity_id=%s OR %s IS NULL)
+               WHERE institution_id=%s AND topic_id=%s AND superseded_by_id IS NULL AND (entity_id=%s OR %s::uuid IS NULL)
                AND (field LIKE 'eligibility.%%' OR field LIKE 'deadline.%%' OR field LIKE 'process.%%' OR field LIKE 'rate.%%')""",
             (institution_id, topic_id, entity_id, entity_id),
         )

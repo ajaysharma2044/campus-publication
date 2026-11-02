@@ -79,10 +79,10 @@ Legend for evidence state in STATE.md: **implemented** (code exists) → **teste
 |----|------|---------|------------------|--------|
 | G1 | Scheduler tick (`run-once`): hourly/daily/weekly plans, lock, checkpoint, heartbeat, exit codes for executing/waiting/paused/blocked | A9,A10 | `pytest worker/tests/test_scheduler.py`; interrupt+resume test | done |
 | G2 | Backup/restore scripts + restore test into test DB | A2 | `scripts/backup.sh`, `scripts/restore_test.sh` pass | done |
-| G3 | Continuation runner (bounded iterations, completes ≥2 dependent backlog items without manual continue; logs stop reason) | G1 | `scripts/continuation_demo.sh` log shows two dependent jobs and stop condition | todo |
-| G4 | Calibration exercises 1–4 on fixtures; report traceability, rubric, holds | C5,D4 | `docs/editorial/calibration.md` with run IDs | todo |
+| G3 | Continuation runner (bounded iterations, completes ≥2 dependent backlog items without manual continue; logs stop reason) | G1 | `scripts/continuation_demo.sh` log shows two dependent jobs and stop condition | done |
+| G4 | Calibration exercises 1–4 on fixtures; report traceability, rubric, holds | C5,D4 | `docs/editorial/calibration.md` with run IDs | done |
 | G5 | Deploy docs; real credential wiring (model key, WP, AdSense, Search Console, IPEDS download) | all | blocked on owner credentials/hosting | blocked |
-| G6 | Usage-optimization evaluation (baseline, candidate tools reviewed, not installed) | — | `docs/ops/usage-optimization.md` | todo |
+| G6 | Usage-optimization evaluation (baseline, candidate tools reviewed, not installed) | — | `docs/ops/usage-optimization.md` | done |
 
 ## Owner dependencies (cannot be completed from this environment)
 - OD1 Anthropic API key (API-billed) or approved automation credential for worker model calls.

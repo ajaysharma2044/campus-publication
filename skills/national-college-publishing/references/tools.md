@@ -1,0 +1,4 @@
+# Tools (role J)
+Comparison (`tools.comparison.compare`): shared claim records only; same period and basis; unknown cells stay unknown and never mean absent; `tradeoffs` never declares a winner; cross-school comparisons need scoped records on both sides.
+Calculator (`tools.calculator.calculate`): explicit billing period and basis per line; per-unit prices need an occupants assumption; refundable deposits shown separately, never added; unknown amounts listed, never zeroed; user-typed figures labeled assumptions; exclusions disclosed. JS (`render/static/tools.js`) mirrors the Python exactly and is checked by `scripts/check_tools_js.js`.
+Every tool page is server-rendered and usable without JS, keyboard-operable, with labelled inputs and field-associated errors. No ads around controls or results. Commute and transfer tools wait for a permitted routing provider / verified articulation records.
