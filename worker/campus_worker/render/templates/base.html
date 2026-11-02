@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site.name }}{% endblock %}</title>
+{% block meta %}{% endblock %}
+<link rel="canonical" href="{{ site.base_url }}{{ canonical_path }}">
+{% if noindex %}<meta name="robots" content="noindex,follow">{% endif %}
+<link rel="preload" href="{{ static_prefix }}fonts/SourceSerif4-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ static_prefix }}campus.css">
+{% block structured_data %}{% endblock %}
+{{ site.ads_loader_tag|safe }}
+</head>
+<body class="tpl-{{ template_name }}">
+<a class="skip-link" href="#main">Skip to main content</a>
+{% if site.staging_banner %}<div class="staging-banner" role="note">Staging preview — {{ site.environment }} environment. Not the published site. No ads or analytics are emitted here.</div>{% endif %}
+<div class="utility"><div class="container">
+  <span>{{ today|datefmt("%A, %B %-d, %Y") }}</span>
+  <span><a href="/search/">Search</a> · <a href="/about/methods/">How this site is made</a></span>
+</div></div>
+<header class="masthead {% if compact_masthead %}masthead--compact container{% endif %}">
+  {% if not compact_masthead %}<div class="container">{% endif %}
+  {% if template_name == "home" %}<h1 class="masthead__name"><a href="/">{{ site.name }}</a></h1>{% else %}<p class="masthead__name"><a href="/">{{ site.name }}</a></p>{% endif %}
+  {% if site.working_title %}<p class="masthead__tag">Independent guidance for college decisions · working masthead</p>{% endif %}
+  {% if not compact_masthead %}</div>{% endif %}
+</header>
+<nav class="nav" aria-label="Sections"><div class="container"><ul>
+  {% for item in site.nav %}<li><a href="{{ item.href }}" {% if item.href == current_section %}aria-current="page"{% endif %}>{{ item.label }}</a></li>{% endfor %}
+</ul></div></nav>
+<main id="main" tabindex="-1">
+{% block content %}{% endblock %}
+</main>
+<footer class="site-footer"><div class="container">
+  <p class="disclosure"><b>{{ site.name }}</b> is an independent publication and is not affiliated with any college or university. Pages are produced by an automated research and writing system with deterministic fact checks and a model-based verification pass; where a human reviewed a page, the correction history says so. Facts carry the date we last verified them and the source we used.</p>
+  <ul>{% for l in site.footer_links %}<li><a href="{{ l.href }}">{{ l.label }}</a></li>{% endfor %}</ul>
+</div></footer>
+{% if site.consent_required and site.ads_loader_tag %}{% include "partials/consent.html" %}{% endif %}
+{{ site.analytics_tag|safe }}
+{% block scripts %}{% endblock %}
+</body>
+</html>

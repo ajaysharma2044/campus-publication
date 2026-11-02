@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}{{ calc.title }} — {{ site.name }}{% endblock %}
+{% block meta %}<meta name="description" content="{{ calc.description }}">{% endblock %}
+{% block content %}
+<div class="container"><article class="article">
+  <p class="eyebrow"><a href="{{ calc.section_href }}">{{ calc.section }}</a></p>
+  <h1>{{ calc.title }}</h1>
+  <p class="deck measure">{{ calc.description }}</p>
+  <div class="grid">
+  <div class="col-12 col-lg-7">
+  <form class="tool" data-calculator method="get" action="{{ calc.action }}" novalidate>
+    <fieldset><legend>Compare on</legend>
+      <div class="field-row">
+        <div class="field"><label for="target">Period</label><select id="target" name="period" data-target-period>{% for p in calc.periods %}<option value="{{ p.value }}" {% if p.value == calc.target_period %}selected{% endif %}>{{ p.label }}</option>{% endfor %}</select></div>
+        <div class="field"><label for="occ">Occupants per unit <span class="hint">(only for per-unit prices)</span></label><input id="occ" name="occupants" type="number" min="1" max="8" inputmode="numeric" data-occupants value="{{ calc.occupants or '' }}"></div>
+      </div>
+    </fieldset>
+    <fieldset><legend>Charges</legend>
+      {% for it in calc.line_items %}
+      <div class="field" data-line data-label="{{ it.label }}" data-period="{{ it.period }}" data-basis="{{ it.basis }}" data-mandatory="{{ 'true' if it.mandatory else 'false' }}" data-refundable="{{ 'true' if it.refundable_deposit else 'false' }}" data-assumption="{{ 'true' if it.is_assumption else 'false' }}">
+        <label for="amt-{{ loop.index }}">{{ it.label }} <span class="hint">{{ it.period|period }}, {{ it.basis|basis }}{% if it.refundable_deposit %}, refundable deposit{% endif %}{% if not it.mandatory %}, optional{% endif %}</span></label>
+        <input id="amt-{{ loop.index }}" name="amt_{{ loop.index }}" type="text" inputmode="decimal" data-amount value="{{ '' if it.amount_minor is none else '%.2f'|format(it.amount_minor / 100) }}" placeholder="unknown" aria-describedby="hint-{{ loop.index }}">
+        <span id="hint-{{ loop.index }}" class="hint">{% if it.amount_minor is none %}No verified source states this. Leave blank to keep it unknown, or type your own estimate.{% elif it.claim_id %}Published figure (verified {{ it.verified_at|datefmt("%b %-d, %Y") }}). Editing it makes it your assumption.{% else %}Your assumption.{% endif %}</span>
+        <span class="error" role="alert"></span>
+      </div>
+      {% endfor %}
+    </fieldset>
+    <button class="btn" type="submit">Recalculate</button>
+    <div class="result" data-result aria-live="polite">
+      <p class="total">{{ calc.result.mandatory_total_minor|money }}<small>mandatory charges, {{ calc.result.target_period|period }}, per person</small></p>
+      {% if calc.result.optional_total_minor %}<p>Optional charges: <b>{{ calc.result.optional_total_minor|money }}</b></p>{% endif %}
+      {% if calc.result.deposits_minor %}<p>Refundable deposits (paid up front, not a cost): <b>{{ calc.result.deposits_minor|money }}</b></p>{% endif %}
+      {% if calc.result.unknown_items %}<p class="value-unknown">Not included because unknown: {{ calc.result.unknown_items|join(', ') }}. The real total is higher.</p>{% endif %}
+      {% for x in calc.result.exclusions %}<p class="table-note">{{ x }}</p>{% endfor %}
+    </div>
+  </form>
+  </div>
+  <aside class="col-12 col-lg-5">
+    <section class="measure"><h2 style="margin-top:0">How this is calculated</h2><p>{{ calc.method }}</p>
+    <h3>Assumptions</h3><ul>{% for k, v in calc.result.assumptions_used.items() if v %}<li>{{ k|replace('_',' ') }}: {{ v }}</li>{% endfor %}</ul>
+    <h3>Limitations</h3><p>{{ calc.limitations }}</p></section>
+  </aside>
+  </div>
+  {% with actions=calc.next_actions %}{% include "partials/next_actions.html" %}{% endwith %}
+  {% with sources=calc.sources, production_note=calc.production_note, page_id=calc.id %}{% include "partials/sources.html" %}{% endwith %}
+</article></div>
+{% endblock %}
+{% block scripts %}<script src="{{ static_prefix }}tools.js" defer></script>{% endblock %}

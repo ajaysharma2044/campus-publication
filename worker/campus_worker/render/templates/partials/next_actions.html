@@ -1,0 +1,4 @@
+{% if actions %}
+<section class="next-actions" aria-labelledby="next-h"><h2 id="next-h" class="section-head" style="border:0;margin-top:0">What to do next</h2>
+<ol>{% for a in actions %}<li><a href="{{ a.target }}">{{ a.text }}</a></li>{% endfor %}</ol></section>
+{% endif %}

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}{{ topic.label }} at {{ school.name }} — {{ site.name }}{% endblock %}
+{% block meta %}<meta name="description" content="{{ topic.description }}">{% endblock %}
+{% block content %}
+<div class="container"><article class="article">
+  <p class="eyebrow"><a href="{{ school.href }}">{{ school.name }}</a></p>
+  <h1>{{ topic.label }} at {{ school.name }}</h1>
+  <p class="deck measure">{{ topic.description }}</p>
+  {% if topic.applicability == 'not_applicable' %}
+    <div class="notice notice--unknown">{{ topic.not_applicable_note }}</div>
+  {% else %}
+  <div class="grid">
+    <section class="col-12 col-lg-8">
+      {% if topic.profiles %}<h2 class="section-head">Profiles</h2>
+      <div class="table-wrap"><table class="facts"><caption class="visually-hidden">{{ topic.label }} profiles</caption>
+      <thead><tr><th scope="col">Name</th><th scope="col">{{ topic.key_fact_label }}</th><th scope="col">Last verified</th></tr></thead>
+      <tbody>{% for p in topic.profiles %}<tr><th scope="row"><a href="{{ p.href }}">{{ p.name }}</a></th><td class="num">{{ p.key_fact }}</td><td class="meta">{{ p.verified_at|datefmt("%b %-d, %Y") }}</td></tr>{% endfor %}</tbody></table></div>
+      {% endif %}
+      {% if topic.guides %}<h2 class="section-head">Guides</h2><ul class="story-list">{% for g in topic.guides %}<li><h3><a href="{{ g.href }}">{{ g.headline }}</a></h3><p>{{ g.deck }}</p></li>{% endfor %}</ul>{% endif %}
+      {% if not topic.profiles and not topic.guides %}<div class="empty"><h2>Nothing verified yet for this topic</h2><p class="coverage-note">{{ topic.empty_note }}</p></div>{% endif %}
+    </section>
+    <aside class="col-12 col-lg-4">
+      <h2 class="section-head" style="margin-top:0">Tools</h2>
+      <ul class="entry-points">{% for t in topic.tools %}<li><a href="{{ t.href }}">{{ t.label }}</a><span class="state">{{ t.state }}</span></li>{% else %}<li><span class="coverage-note">No tools yet for this topic.</span></li>{% endfor %}</ul>
+      {% if topic.unknowns %}<h2 class="section-head">Open questions we are researching</h2><ul class="entry-points">{% for u in topic.unknowns %}<li><span>{{ u }}</span><span class="state">researching</span></li>{% endfor %}</ul>{% endif %}
+    </aside>
+  </div>
+  {% endif %}
+</article></div>
+{% endblock %}

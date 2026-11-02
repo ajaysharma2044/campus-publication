@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}{{ page.headline }} — {{ site.name }}{% endblock %}
+{% block meta %}<meta name="description" content="{{ page.deck }}">{% endblock %}
+{% block structured_data %}{% if structured_data %}<script type="application/ld+json">{{ structured_data|safe }}</script>{% endif %}{% endblock %}
+{% block content %}
+<div class="container"><div class="grid">
+<article class="article col-12 col-lg-8">
+  <p class="eyebrow"><a href="{{ page.section_href }}">{{ page.section }}</a></p>
+  <h1>{{ page.headline }}</h1>
+  {% if page.deck %}<p class="deck measure">{{ page.deck }}</p>{% endif %}
+  <div class="byline"><span><b>{{ page.byline }}</b></span><span>Published <time datetime="{{ page.published_at|isodate }}">{{ page.published_at|datefmt }}</time></span>{% if page.updated_at and page.updated_at|isodate != page.published_at|isodate %}<span>Substantively updated <time datetime="{{ page.updated_at|isodate }}">{{ page.updated_at|datefmt }}</time></span>{% endif %}<span>{{ page.body_markdown|reading_time }} min read</span>{% if page.audience_label %}<span>For: {{ page.audience_label }}</span>{% endif %}</div>
+  {% if page.stale %}<div class="notice notice--stale">Some facts on this page are past their verification date. We are re-checking them; the table shows which.</div>{% endif %}
+  {% set parts = page.body_markdown.split('[[fact-table]]') %}
+  <div class="prose measure">{{ parts[0]|md|safe }}</div>
+  {% if page.fact_table %}{% with caption=page.fact_table_caption, rows=page.fact_table, footnote=page.fact_table_footnote %}{% include "partials/fact_table.html" %}{% endwith %}{% endif %}
+  {% if parts|length > 1 %}<div class="prose measure">{{ parts[1]|md|safe }}</div>{% endif %}
+  {% with slot_html=ad_slots.after_essentials %}{% include "partials/ad_slot.html" %}{% endwith %}
+  {% with actions=page.next_actions %}{% include "partials/next_actions.html" %}{% endwith %}
+  {% with sources=page.sources, production_note=page.production_note, page_id=page.id %}{% include "partials/sources.html" %}{% endwith %}
+</article>
+<aside class="col-12 col-lg-4">{% with slot_html=ad_slots.desktop_sidebar %}{% include "partials/ad_slot.html" %}{% endwith %}
+  {% if related %}<h2 class="section-head" style="margin-top:0">Related tasks</h2><ul class="entry-points">{% for r in related %}<li><a href="{{ r.href }}">{{ r.text }}</a></li>{% endfor %}</ul>{% endif %}
+</aside>
+</div></div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}{{ comp.title }} — {{ site.name }}{% endblock %}
+{% block meta %}<meta name="description" content="{{ comp.description }}">{% endblock %}
+{% block content %}
+<div class="container"><article class="article">
+  <p class="eyebrow"><a href="{{ comp.section_href }}">{{ comp.section }}</a></p>
+  <h1>{{ comp.title }}</h1>
+  <p class="deck measure">{{ comp.description }}</p>
+  <div class="byline"><span><b>{{ comp.byline }}</b></span><span>Facts verified {{ comp.verified_at|datefmt }}</span><span>Basis: {{ comp.period|period }}, {{ comp.basis|basis }}{% if comp.room_type %}, {{ comp.room_type }} room{% endif %}</span></div>
+  {% for n in comp.notes %}<div class="notice">{{ n }}</div>{% endfor %}
+  <div class="table-wrap"><table class="facts compare-table"><caption>Side by side, on the same basis</caption>
+    <thead><tr><th scope="col">Fact</th>{% for e in comp.entities %}<th scope="col" class="entity"><a href="{{ e.href }}">{{ e.name }}</a><br><span class="meta">{{ e.institution }}</span></th>{% endfor %}</tr></thead>
+    <tbody>{% for r in comp.rows %}<tr><th scope="row">{{ r.label }}</th>{% for c in r.cells %}<td class="{% if r.differs and c.status != 'unknown' %}diff{% endif %} {% if c.status == 'unknown' %}value-unknown{% endif %}">{{ c.display }} <span class="evidence-tag evidence-tag--{{ c.status }}">{{ c.status|replace('_',' ') }}</span></td>{% endfor %}</tr>{% endfor %}</tbody>
+  </table></div>
+  <section class="measure"><h2>Tradeoffs the records support</h2><ul>{% for t in comp.tradeoffs %}<li>{{ t }}</li>{% endfor %}</ul>
+  <h2>What this comparison cannot tell you</h2><p>{{ comp.limitations }}</p></section>
+  {% with slot_html=ad_slots.after_results %}{% include "partials/ad_slot.html" %}{% endwith %}
+  {% with actions=comp.next_actions %}{% include "partials/next_actions.html" %}{% endwith %}
+  {% with sources=comp.sources, production_note=comp.production_note, page_id=comp.id %}{% include "partials/sources.html" %}{% endwith %}
+</article></div>
+{% endblock %}

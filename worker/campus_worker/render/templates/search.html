@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Search{% if query %}: {{ query }}{% endif %} — {{ site.name }}{% endblock %}
+{% block content %}
+<div class="container"><article class="article">
+  <h1>Search</h1>
+  <form class="search-form measure" action="/search/" method="get" role="search"><label class="visually-hidden" for="q2">Search</label><input id="q2" type="search" name="q" value="{{ query or '' }}" placeholder="School, building, program, topic"><button class="btn" type="submit">Search</button></form>
+  <div class="filters" role="group" aria-label="Filters">{% for f in filters %}<label><input type="checkbox" name="type" value="{{ f.value }}" {% if f.checked %}checked{% endif %}> {{ f.label }}</label>{% endfor %}</div>
+  {% if disambiguation %}<div class="disambiguation"><b>Several institutions match “{{ query }}”.</b> Pick the one you mean — similarly named schools are different institutions:<ul>{% for d in disambiguation %}<li><a href="{{ d.href }}">{{ d.name }}</a> — {{ d.city }}, {{ d.state }} ({{ d.type_label }}{% if d.is_system %}; university system, not a campus{% endif %})</li>{% endfor %}</ul></div>{% endif %}
+  {% if results %}<ul class="story-list">{% for r in results %}<li><p class="eyebrow">{{ r.kind }} · {{ r.school }}</p><h3><a href="{{ r.href }}">{{ r.title }}</a></h3><p>{{ r.summary }}</p></li>{% endfor %}</ul>
+  {% elif query %}<div class="empty"><h2>No verified pages match “{{ query }}”</h2><p class="coverage-note">Coverage is school-specific. Try the school's name, or browse <a href="/schools/">schools with coverage</a>. If this is a question we should research, <a href="/about/corrections/">tell us</a>.</p></div>
+  {% else %}<p class="coverage-note">Search verified school pages, building profiles, guides and tools.</p>{% endif %}
+</article></div>
+{% endblock %}

@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block title %}Schools with verified coverage — {{ site.name }}{% endblock %}
+{% block content %}
+<div class="container"><article class="article"><h1>Schools</h1><p class="deck measure">Only schools with at least one verified page are listed as covered. The registry holds {{ registry_count }} institutions from the current IPEDS release we imported{% if release %} ({{ release }}){% endif %}; coverage is honest and incomplete.</p>
+<div class="table-wrap"><table class="facts"><caption class="visually-hidden">Schools</caption><thead><tr><th scope="col">School</th><th scope="col">Location</th><th scope="col">Type</th><th scope="col">Verified pages</th></tr></thead>
+<tbody>{% for s in schools %}<tr><th scope="row"><a href="{{ s.href }}">{{ s.name }}</a></th><td>{{ s.city }}, {{ s.state }}</td><td>{{ s.type_label }}</td><td class="num">{{ s.pages }}</td></tr>{% else %}<tr><td colspan="4" class="coverage-note">No school has verified coverage yet.</td></tr>{% endfor %}</tbody></table></div></article></div>
+{% endblock %}

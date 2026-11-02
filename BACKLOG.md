@@ -49,10 +49,10 @@ Legend for evidence state in STATE.md: **implemented** (code exists) → **teste
 
 | ID | Task | Depends | Acceptance check | Status |
 |----|------|---------|------------------|--------|
-| D1 | Design tokens + CSS (paper/ink/navy, 12-col grid, type scale, spacing, focus, reduced motion, print) | — | `scripts/check_css.py` contrast ≥ 4.5:1 for text pairs | todo |
-| D2 | Templates: base, homepage, school hub, topic hub, article, entity profile, comparison, calculator, search, 404/empty/stale states, policies | D1 | `python -m campus_worker.render.preview` renders all without error | todo |
-| D3 | Screenshot QA at 360/390/768/1280/1440 with Playwright; inspect; fix defects | D2 | `scripts/qa_screens.py` produces PNGs; no horizontal overflow; findings logged in docs/design/qa.md | todo |
-| D4 | Comparison + total-cost calculator (server-rendered + progressive JS, deterministic, keyboard, unknown inputs) | D2 | `pytest worker/tests/test_tools.py`; JS unit checks via node | todo |
+| D1 | Design tokens + CSS (paper/ink/navy, 12-col grid, type scale, spacing, focus, reduced motion, print) | — | `scripts/check_css.py` contrast ≥ 4.5:1 for text pairs | done |
+| D2 | Templates: base, homepage, school hub, topic hub, article, entity profile, comparison, calculator, search, 404/empty/stale states, policies | D1 | `python -m campus_worker.render.preview` renders all without error | done |
+| D3 | Screenshot QA at 360/390/768/1280/1440 with Playwright; inspect; fix defects | D2 | `scripts/qa_screens.py` produces PNGs; no horizontal overflow; findings logged in docs/design/qa.md | done |
+| D4 | Comparison + total-cost calculator (server-rendered + progressive JS, deterministic, keyboard, unknown inputs) | D2 | `pytest worker/tests/test_tools.py`; JS unit checks via node | done |
 
 ## Stage E — CMS publication
 

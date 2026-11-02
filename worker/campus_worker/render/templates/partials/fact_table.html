@@ -1,0 +1,16 @@
+<div class="table-wrap">
+<table class="facts">
+  <caption>{{ caption }}</caption>
+  <thead><tr><th scope="col">Fact</th><th scope="col">Value</th><th scope="col">Status</th></tr></thead>
+  <tbody>
+  {% for row in rows %}
+  <tr class="{% if row.status == 'unknown' %}unknown{% endif %}">
+    <th scope="row">{{ row.label }}</th>
+    <td class="{% if row.numeric %}num{% endif %}">{{ row.value }}{% if row.note %} <span class="table-note">{{ row.note }}</span>{% endif %}</td>
+    <td><span class="evidence-tag evidence-tag--{{ row.status }}">{{ row.status_label or row.status }}</span>{% if row.verified_at %} <span class="meta">checked {{ row.verified_at|datefmt("%b %-d, %Y") }}</span>{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% if footnote %}<p class="table-note">{{ footnote }}</p>{% endif %}
