@@ -1,0 +1,3 @@
+{"$id": "campus://contracts/analyst", "type": "object", "additionalProperties": true,
+ "required": ["summary", "findings"],
+ "properties": {"summary": {"type": "string", "maxLength": 1200}, "findings": {"type": "array", "items": {"type": "object", "required": ["kind", "detail"], "properties": {"kind": {"type": "string"}, "detail": {"type": "string", "maxLength": 600}, "severity": {"type": "string", "enum": ["info", "warning", "error"]}}}}, "proposed_changes": {"type": "array", "items": {"type": "object", "required": ["target", "change"], "properties": {"target": {"type": "string"}, "change": {"type": "string", "maxLength": 600}}}}}}

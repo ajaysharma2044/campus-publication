@@ -1,0 +1,12 @@
+{"$id": "campus://contracts/verifier", "type": "object", "additionalProperties": false,
+ "required": ["claim_checks", "hard_failures", "rubric", "publishable"],
+ "properties": {
+   "claim_checks": {"type": "array", "items": {"type": "object", "required": ["claim_id", "status"], "properties": {"claim_id": {"type": "string"}, "status": {"type": "string", "enum": ["supported", "unsupported", "stale", "conflicted", "arithmetic_error", "wrong_scope"]}, "detail": {"type": ["string", "null"], "maxLength": 400}, "source_opened": {"type": "boolean"}}}},
+   "hard_failures": {"type": "array", "items": {"type": "string", "enum": ["unsupported_critical_claim", "unresolved_conflict", "wrong_school_campus_year", "invented_quote_or_experience", "missing_rights", "incorrect_arithmetic", "deceptive_headline", "superficial_duplicate", "unsafe_code", "broken_interaction", "inaccessible_layout", "ads_obscure_task", "missing_privacy_behavior", "fake_byline", "fabricated_consensus"]}},
+   "rubric": {"type": "object", "additionalProperties": false, "required": ["clarity", "specificity", "structure", "attribution", "usefulness", "prose"],
+     "properties": {"clarity": {"type": "integer", "minimum": 0, "maximum": 4}, "specificity": {"type": "integer", "minimum": 0, "maximum": 4}, "structure": {"type": "integer", "minimum": 0, "maximum": 4},
+                    "attribution": {"type": "integer", "minimum": 0, "maximum": 4}, "usefulness": {"type": "integer", "minimum": 0, "maximum": 4}, "prose": {"type": "integer", "minimum": 0, "maximum": 4}}},
+   "rubric_notes": {"type": "object", "additionalProperties": {"type": "string", "maxLength": 400}},
+   "publishable": {"type": "boolean"},
+   "corrections_required": {"type": "array", "items": {"type": "string", "maxLength": 400}}
+ }}

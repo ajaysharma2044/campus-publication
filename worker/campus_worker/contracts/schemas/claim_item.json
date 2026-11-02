@@ -1,0 +1,26 @@
+{
+  "$id": "campus://contracts/claim_item",
+  "type": "object", "additionalProperties": false,
+  "required": ["field", "value_type", "evidence_category", "source_locator"],
+  "properties": {
+    "entity_slug": {"type": ["string", "null"]},
+    "field": {"type": "string", "pattern": "^[a-z_]+(\\.[a-z0-9_]+)*$"},
+    "value_type": {"type": "string", "enum": ["money", "integer", "decimal", "boolean", "text", "date", "enum", "range_money", "duration"]},
+    "value": {},
+    "value_high": {},
+    "unit": {"type": ["string", "null"]},
+    "currency": {"type": ["string", "null"], "pattern": "^[A-Z]{3}$"},
+    "billing_period": {"type": ["string", "null"], "enum": ["per_month", "per_semester", "per_academic_year", "per_term", "per_year", "one_time", "per_week", "per_day", "unknown", null]},
+    "price_basis": {"type": ["string", "null"], "enum": ["per_person", "per_unit", "per_bed", "unknown", null]},
+    "room_type": {"type": ["string", "null"]},
+    "academic_year": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}$"},
+    "audience_applicability": {"type": "array", "items": {"type": "string"}},
+    "effective_from": {"type": ["string", "null"], "format": "date"},
+    "effective_to": {"type": ["string", "null"], "format": "date"},
+    "evidence_category": {"type": "string", "enum": ["verified_fact", "estimate", "attributed_experience", "unknown", "not_applicable"]},
+    "source_locator": {"type": "string", "minLength": 1, "description": "snapshot id + locator (page/table/row or quote) — required so the verifier can open it"},
+    "excerpt": {"type": ["string", "null"], "maxLength": 600},
+    "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "conflicts_with": {"type": "array", "items": {"type": "string"}}
+  }
+}

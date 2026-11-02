@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "campus://contracts/envelope",
+  "title": "Task response envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "run_id", "input_ids", "institution_id", "decision", "output", "evidence_ids", "uncertainties", "next_jobs", "usage"],
+  "properties": {
+    "schema_version": {"type": "string", "pattern": "^1\\.[0-9]+$"},
+    "run_id": {"type": "string", "minLength": 8},
+    "role": {"type": "string", "enum": ["onboarding", "discovery", "opportunity", "researcher", "planner", "writer", "editor", "verifier", "seo", "tool_engineer", "ad_ops", "analyst"]},
+    "input_ids": {"type": "array", "items": {"type": "string"}, "maxItems": 500},
+    "institution_id": {"type": ["string", "null"]},
+    "campus_id": {"type": ["string", "null"]},
+    "decision": {"type": "string", "enum": ["advance", "update", "merge", "watch", "reject", "hold"]},
+    "hold": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["reason", "retry_condition"],
+      "properties": {"reason": {"type": "string", "pattern": "^[a-z_]+$"}, "retry_condition": {"type": "string", "minLength": 5}}
+    },
+    "output": {"type": "object"},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}, "maxItems": 2000},
+    "uncertainties": {"type": "array", "items": {"type": "string", "maxLength": 500}, "maxItems": 100},
+    "next_jobs": {
+      "type": "array", "maxItems": 20,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["job_type", "rationale"],
+        "properties": {
+          "job_type": {"type": "string", "enum": ["collect_source", "extract_claims", "discover_questions", "score_opportunity", "research_entity", "plan_brief", "write_draft", "edit_draft", "verify_draft", "publish_page", "revalidate_page", "build_tool", "seo_review", "watch_cluster"]},
+          "payload": {"type": "object"},
+          "rationale": {"type": "string", "maxLength": 400},
+          "priority": {"type": "integer", "minimum": 0, "maximum": 100}
+        }
+      }
+    },
+    "usage": {
+      "type": "object", "additionalProperties": true,
+      "properties": {"input_tokens": {"type": "integer", "minimum": 0}, "output_tokens": {"type": "integer", "minimum": 0}, "model": {"type": "string"}}
+    }
+  },
+  "allOf": [
+    {"if": {"properties": {"decision": {"const": "hold"}}}, "then": {"required": ["hold"], "properties": {"hold": {"type": "object"}}}}
+  ]
+}

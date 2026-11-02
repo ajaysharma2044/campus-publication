@@ -1,0 +1,12 @@
+{"$id": "campus://contracts/writer", "type": "object", "additionalProperties": false,
+ "required": ["headline", "deck", "body_markdown", "claim_refs", "next_actions"],
+ "properties": {
+   "headline": {"type": "string", "minLength": 15, "maxLength": 110},
+   "deck": {"type": "string", "minLength": 20, "maxLength": 300},
+   "body_markdown": {"type": "string", "minLength": 200, "maxLength": 40000},
+   "claim_refs": {"type": "array", "items": {"type": "string"}, "description": "every claim id used in prose or tables"},
+   "fact_table": {"type": ["array", "null"], "items": {"type": "object", "required": ["label", "value", "claim_id"], "properties": {"label": {"type": "string"}, "value": {"type": "string"}, "claim_id": {"type": ["string", "null"]}, "note": {"type": ["string", "null"]}}}},
+   "next_actions": {"type": "array", "minItems": 1, "maxItems": 6, "items": {"type": "object", "required": ["text", "target"], "properties": {"text": {"type": "string", "maxLength": 140}, "target": {"type": "string"}}}},
+   "sources_used": {"type": "array", "items": {"type": "string"}},
+   "writer_notes": {"type": "array", "items": {"type": "string", "maxLength": 400}}
+ }}

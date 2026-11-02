@@ -1,0 +1,9 @@
+{"$id": "campus://contracts/discovery", "type": "object", "additionalProperties": false,
+ "required": ["observed_questions", "hypotheses"],
+ "properties": {
+   "observed_questions": {"type": "array", "maxItems": 200, "items": {"type": "object", "additionalProperties": false,
+     "required": ["raw_text", "origin"], "properties": {
+       "raw_text": {"type": "string", "maxLength": 400}, "origin": {"type": "string", "enum": ["official_faq", "search_suggestion", "related_question", "discussion", "competitor_gap"]},
+       "audience": {"type": ["string", "null"]}, "constraints": {"type": "array", "items": {"type": "string"}}, "source_ref": {"type": ["string", "null"]}, "observed_at": {"type": ["string", "null"]}}}},
+   "hypotheses": {"type": "array", "maxItems": 100, "items": {"type": "object", "required": ["raw_text"], "properties": {"raw_text": {"type": "string", "maxLength": 300}, "audience": {"type": ["string", "null"]}}}}
+ }}

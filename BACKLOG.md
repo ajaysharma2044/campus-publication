@@ -39,11 +39,11 @@ Legend for evidence state in STATE.md: **implemented** (code exists) → **teste
 
 | ID | Task | Depends | Acceptance check | Status |
 |----|------|---------|------------------|--------|
-| C1 | JSON schemas for all 12 role outputs + common envelope; validator with bounded repair | A11 | `pytest worker/tests/test_contracts.py` (malformed rejected, next_jobs are proposals, no command execution) | todo |
-| C2 | Brief builder from claims/clusters (reader, decision, answer, contribution, critical claims, unresolved, overlap) | B8,C1 | `pytest worker/tests/test_brief.py` | todo |
-| C3 | Deterministic editorial checks: banned openings, unsupported critical claims, fake byline, fabricated consensus, arithmetic, headline/claim consistency, outdated prose vs table, duplicate-audience similarity | C1 | `pytest worker/tests/test_editorial_checks.py` | todo |
-| C4 | Rubric gate (6 × 0–4, ≥20, none <3) + hard gates + findings persistence; versioned drafts | C3 | `pytest worker/tests/test_gates.py` | todo |
-| C5 | Writer/editor/verifier role runners (fixture model) end to end on synthetic evidence | C2,C4,A11 | `pytest worker/tests/test_roles_e2e.py` | todo |
+| C1 | JSON schemas for all 12 role outputs + common envelope; validator with bounded repair | A11 | `pytest worker/tests/test_contracts.py` (malformed rejected, next_jobs are proposals, no command execution) | done |
+| C2 | Brief builder from claims/clusters (reader, decision, answer, contribution, critical claims, unresolved, overlap) | B8,C1 | `pytest worker/tests/test_brief.py` | done |
+| C3 | Deterministic editorial checks: banned openings, unsupported critical claims, fake byline, fabricated consensus, arithmetic, headline/claim consistency, outdated prose vs table, duplicate-audience similarity | C1 | `pytest worker/tests/test_editorial_checks.py` | done |
+| C4 | Rubric gate (6 × 0–4, ≥20, none <3) + hard gates + findings persistence; versioned drafts | C3 | `pytest worker/tests/test_gates.py` | done |
+| C5 | Writer/editor/verifier role runners (fixture model) end to end on synthetic evidence | C2,C4,A11 | `pytest worker/tests/test_roles_e2e.py` | done |
 
 ## Stage D — design system and templates
 

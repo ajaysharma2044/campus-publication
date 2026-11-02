@@ -1,0 +1,9 @@
+{"$id": "campus://contracts/researcher", "type": "object", "additionalProperties": false,
+ "required": ["claims", "not_found", "scope_notes"],
+ "properties": {
+   "claims": {"type": "array", "items": {"$ref": "campus://contracts/claim_item"}, "maxItems": 300},
+   "not_found": {"type": "array", "items": {"type": "string"}, "description": "fields looked for and absent → stored as unknown"},
+   "not_applicable": {"type": "array", "items": {"type": "string"}},
+   "scope_notes": {"type": "array", "items": {"type": "string", "maxLength": 400}},
+   "injection_observed": {"type": "boolean"}
+ }}

@@ -1,0 +1,10 @@
+{"$id": "campus://contracts/editor", "type": "object", "additionalProperties": false,
+ "required": ["revised_body_markdown", "revised_headline", "findings", "substantive_changes"],
+ "properties": {
+   "revised_headline": {"type": "string", "minLength": 15, "maxLength": 110},
+   "revised_deck": {"type": ["string", "null"], "maxLength": 300},
+   "revised_body_markdown": {"type": "string", "minLength": 200, "maxLength": 40000},
+   "findings": {"type": "array", "items": {"type": "object", "required": ["kind", "detail"], "properties": {"kind": {"type": "string", "enum": ["clarity", "specificity", "structure", "attribution", "usefulness", "prose", "filler", "unsupported", "duplicate", "headline"]}, "detail": {"type": "string", "maxLength": 500}, "resolved": {"type": "boolean"}}}},
+   "substantive_changes": {"type": "array", "items": {"type": "string", "maxLength": 300}},
+   "unresolved": {"type": "array", "items": {"type": "string", "maxLength": 300}}
+ }}

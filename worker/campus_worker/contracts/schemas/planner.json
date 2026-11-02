@@ -1,0 +1,19 @@
+{"$id": "campus://contracts/planner", "type": "object", "additionalProperties": false,
+ "required": ["page_format", "audience", "reader_decision", "verified_answer", "unique_contribution", "critical_claim_ids", "structure", "next_tasks"],
+ "properties": {
+   "page_format": {"type": "string", "enum": ["guide", "entity_profile", "comparison", "tool", "explainer"]},
+   "audience": {"type": "string"},
+   "reader_decision": {"type": "string", "minLength": 10, "maxLength": 400},
+   "verified_answer": {"type": "string", "minLength": 20, "maxLength": 1200},
+   "unique_contribution": {"type": "string", "minLength": 10, "maxLength": 600},
+   "critical_claim_ids": {"type": "array", "items": {"type": "string"}},
+   "supporting_claim_ids": {"type": "array", "items": {"type": "string"}},
+   "exceptions": {"type": "array", "items": {"type": "string", "maxLength": 400}},
+   "unresolved_facts": {"type": "array", "items": {"type": "string", "maxLength": 400}},
+   "structure": {"type": "array", "minItems": 2, "maxItems": 12, "items": {"type": "object", "required": ["heading", "purpose"], "properties": {"heading": {"type": "string", "maxLength": 120}, "purpose": {"type": "string", "maxLength": 300}, "claim_ids": {"type": "array", "items": {"type": "string"}}}}},
+   "comparisons": {"type": "array", "items": {"type": "string"}},
+   "allowed_subjective_evidence": {"type": "array", "items": {"type": "string"}},
+   "next_tasks": {"type": "array", "items": {"type": "string", "maxLength": 200}},
+   "overlap_page_ids": {"type": "array", "items": {"type": "string"}},
+   "headline_candidates": {"type": "array", "items": {"type": "string", "maxLength": 120}, "maxItems": 5}
+ }}

@@ -1,0 +1,14 @@
+{"$id": "campus://contracts/opportunity", "type": "object", "additionalProperties": false,
+ "required": ["scores", "observations", "missing_contribution", "action"],
+ "properties": {
+   "scores": {"type": "object", "additionalProperties": false, "required": ["demand", "answer_gap", "winnability", "evidence_advantage", "commercial"],
+     "properties": {"demand": {"type": ["integer", "null"], "minimum": 0, "maximum": 5}, "answer_gap": {"type": ["integer", "null"], "minimum": 0, "maximum": 5},
+                    "winnability": {"type": ["integer", "null"], "minimum": 0, "maximum": 5}, "evidence_advantage": {"type": ["integer", "null"], "minimum": 0, "maximum": 5},
+                    "commercial": {"type": ["integer", "null"], "minimum": 0, "maximum": 5}}},
+   "observations": {"type": "object", "additionalProperties": {"type": "string", "maxLength": 500}},
+   "confidence": {"type": ["string", "null"], "enum": ["low", "medium", "high", null]},
+   "missing_contribution": {"type": "string", "maxLength": 600},
+   "action": {"type": "string", "enum": ["update", "improve_section", "new_page", "new_tool", "merge", "watch", "reject"]},
+   "existing_coverage_checked": {"type": "array", "items": {"type": "string"}},
+   "editorial_exception_rationale": {"type": ["string", "null"], "maxLength": 600}
+ }}
