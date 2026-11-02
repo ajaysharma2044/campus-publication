@@ -1,0 +1,50 @@
+# SYNTHETIC commuter community college used to expose residential assumptions (SPEC §05, §32 ex. 4).
+# Not a real institution. Never publish.
+institution:
+  canonical_name: Riverbend Community College
+  slug: riverbend-community-college-900003
+  institution_type: community_college
+  control: public
+  state_code: OH
+  city: Riverbend
+  primary_domain: www.riverbendcc.example.edu
+  identity_status: synthetic_fixture
+  external_ids:
+    ipeds_unitid: "900003"
+  aliases: [RCC]
+campus:
+  name: Riverbend main campus
+  slug: main
+  is_main: true
+  city: Riverbend
+  state_code: OH
+  timezone: America/New_York
+  status: synthetic_fixture
+config:
+  locale: en-US
+  timezone: America/New_York
+  academic_calendar: semester
+  source_domains: [www.riverbendcc.example.edu]
+  permitted_connectors: [official_html, official_pdf]
+  audiences: [community_college_student, commuter, adult_learner, transfer, parent]
+  coverage_status: onboarding
+  is_underserved: true
+  topic_applicability:
+    housing: not_applicable
+    dining: unknown
+    transportation: applicable
+    costs_aid: applicable
+    admissions: applicable
+    transfer: applicable
+    programs: applicable
+    courses: applicable
+    clubs_events: unknown
+    services: applicable
+    careers: applicable
+    accessibility: applicable
+    daily_life: applicable
+  topic_rationale:
+    housing: "Commuter college with no residence halls (synthetic). not_applicable is distinct from unknown."
+    dining: "Unknown whether a cafeteria operates; needs a source."
+  refresh_policy:
+    transfer_agreements: {interval_hours: 720}

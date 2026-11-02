@@ -10,16 +10,16 @@ Legend for evidence state in STATE.md: **implemented** (code exists) → **teste
 |----|------|---------|------------------|--------|
 | A1 | Control files: SPEC.md, BACKLOG.md, STATE.md, CLAUDE.md | — | files exist; CLAUDE.md < 120 lines | done |
 | A2 | Local PostgreSQL 16 cluster + `campus_research` / `campus_research_test` DBs | — | `psql -c 'select 1'` succeeds | done |
-| A3 | Migration runner (plain SQL, versioned, checksummed, forward-only with documented down scripts) | A2 | `pytest worker/tests/test_migrations.py` | todo |
-| A4 | Core schema migration 0001: all 33 tables from SPEC §14 with FKs, constraints, indexes, enums | A3 | `pytest worker/tests/test_schema.py` (every table present, FK integrity, money integer, UTC) | todo |
-| A5 | Typed records (pydantic) for institution, campus, school_config, claim, job, usage entry | A4 | `pytest worker/tests/test_types.py` | todo |
-| A6 | Institution registry: IPEDS importer (header-driven, release-dated), alias/external-id mapping, system-vs-campus rule | A5 | `pytest worker/tests/test_registry.py` with synthetic IPEDS CSV fixture | todo |
-| A7 | School configs: Cornell (real identity, verified only via owner-supplied IPEDS row) + synthetic commuter community college fixture | A6 | configs load; housing topic `not_applicable` for the commuter fixture | todo |
-| A8 | Source permissions registry + connector capability states | A4 | `pytest worker/tests/test_permissions.py` (Reddit disabled, unknown domain denied) | todo |
-| A9 | Job queue: states, atomic lease, lease expiry reclaim, idempotency keys, 3-retry backoff+jitter, held/dead_letter with reason | A4 | `pytest worker/tests/test_queue.py` (duplicate idempotency, expired lease, retries→dead_letter, hold with retry condition) | todo |
-| A10 | Budget ledger: atomic reservation, daily/monthly caps, unknown-cost hold, reconciliation, headroom | A4 | `pytest worker/tests/test_budget.py` (reservation failure prevents call; unpriced job held) | todo |
-| A11 | Model adapter with role aliases, resolved-model recording, preapproved fallbacks, escalation ceiling; `capability()` = unconnected without key | A10 | `pytest worker/tests/test_model_adapter.py` (fixture provider; escalation ceiling; hold not escalate on missing evidence) | todo |
-| A12 | Config loader + `.env.example` + auth-mode inspection (no secret exposure) | — | `python -m campus_worker.cli status` prints mode | todo |
+| A3 | Migration runner (plain SQL, versioned, checksummed, forward-only with documented down scripts) | A2 | `pytest worker/tests/test_migrations.py` | done |
+| A4 | Core schema migration 0001: all 33 tables from SPEC §14 with FKs, constraints, indexes, enums | A3 | `pytest worker/tests/test_schema.py` (every table present, FK integrity, money integer, UTC) | done |
+| A5 | Typed records (pydantic) for institution, campus, school_config, claim, job, usage entry | A4 | `pytest worker/tests/test_types.py` | done |
+| A6 | Institution registry: IPEDS importer (header-driven, release-dated), alias/external-id mapping, system-vs-campus rule | A5 | `pytest worker/tests/test_registry.py` with synthetic IPEDS CSV fixture | done |
+| A7 | School configs: Cornell (real identity, verified only via owner-supplied IPEDS row) + synthetic commuter community college fixture | A6 | configs load; housing topic `not_applicable` for the commuter fixture | done |
+| A8 | Source permissions registry + connector capability states | A4 | `pytest worker/tests/test_permissions.py` (Reddit disabled, unknown domain denied) | done |
+| A9 | Job queue: states, atomic lease, lease expiry reclaim, idempotency keys, 3-retry backoff+jitter, held/dead_letter with reason | A4 | `pytest worker/tests/test_queue.py` (duplicate idempotency, expired lease, retries→dead_letter, hold with retry condition) | done |
+| A10 | Budget ledger: atomic reservation, daily/monthly caps, unknown-cost hold, reconciliation, headroom | A4 | `pytest worker/tests/test_budget.py` (reservation failure prevents call; unpriced job held) | done |
+| A11 | Model adapter with role aliases, resolved-model recording, preapproved fallbacks, escalation ceiling; `capability()` = unconnected without key | A10 | `pytest worker/tests/test_model_adapter.py` (fixture provider; escalation ceiling; hold not escalate on missing evidence) | done |
+| A12 | Config loader + `.env.example` + auth-mode inspection (no secret exposure) | — | `python -m campus_worker.cli status` prints mode | done |
 
 ## Stage B — collection, claims, discovery, opportunity
 

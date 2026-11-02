@@ -1,0 +1,49 @@
+# Cornell University — initial calibration school (SPEC §05). Identity pending verification against
+# a downloaded IPEDS HD release (UNITID 190415 recorded from owner knowledge, not from a file fetched here).
+institution:
+  canonical_name: Cornell University
+  slug: cornell-university
+  institution_type: university
+  control: private_nonprofit
+  state_code: NY
+  city: Ithaca
+  primary_domain: cornell.edu
+  identity_status: pending_verification
+  external_ids:
+    ipeds_unitid: "190415"
+  aliases: [Cornell]
+campus:
+  name: Ithaca campus
+  slug: ithaca
+  is_main: true
+  city: Ithaca
+  state_code: NY
+  timezone: America/New_York
+config:
+  locale: en-US
+  timezone: America/New_York
+  academic_calendar: semester
+  source_domains: [scl.cornell.edu, living.cornell.edu, housing.cornell.edu, finaid.cornell.edu, admissions.cornell.edu, cornell.edu]
+  permitted_connectors: [official_html, official_pdf, calendar]
+  audiences: [first_year, transfer, returning_undergraduate, graduate, international, parent]
+  coverage_status: pilot
+  is_underserved: false
+  topic_applicability:
+    housing: applicable
+    dining: applicable
+    transportation: applicable
+    costs_aid: applicable
+    admissions: applicable
+    transfer: applicable
+    programs: applicable
+    courses: applicable
+    clubs_events: applicable
+    services: applicable
+    careers: applicable
+    accessibility: applicable
+    daily_life: applicable
+  topic_rationale:
+    housing: "Residential university with first-year live-on requirement (to be verified from official source)."
+  refresh_policy:
+    housing_rates: {interval_hours: 168, season_boost_months: [2,3,4,5]}
+    policies: {interval_hours: 720}

@@ -1,0 +1,6 @@
+UNITID,INSTNM,IALIAS,CITY,STABBR,CONTROL,SECTOR,ICLEVEL,WEBADDR,F1SYSTYP,F1SYSNAM
+900001,Fixture State University,FSU|Fixture State,Fixtureville,NY,1,1,1,www.fixturestate.example.edu,1,Fixture State System
+900002,Fixture State University System Office,,Fixtureville,NY,1,0,-3,www.fixturestate-system.example.edu,,
+900003,Riverbend Community College,RCC,Riverbend,OH,1,4,2,www.riverbendcc.example.edu,2,
+900004,Fixture State University,,Other Town,NY,1,1,1,www.fixturestate-othertown.example.edu,1,Fixture State System
+900005,Lakeside College,,Lakeside,MI,2,2,1,lakeside.example.edu,2,

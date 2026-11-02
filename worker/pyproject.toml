@@ -1,0 +1,24 @@
+[project]
+name = "campus-worker"
+version = "0.1.0"
+description = "Research, editorial, publishing and operations worker for the national college information publication."
+requires-python = ">=3.12"
+dependencies = [
+  "psycopg[binary]>=3.2",
+  "pydantic>=2.6",
+  "jsonschema>=4.20",
+  "Jinja2>=3.1",
+  "httpx>=0.27",
+  "beautifulsoup4>=4.12",
+  "lxml>=5",
+  "pdfplumber>=0.11",
+  "PyYAML>=6",
+  "anthropic>=0.40",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "playwright>=1.45"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
