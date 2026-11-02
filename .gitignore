@@ -7,3 +7,4 @@ worker/build/
 wp-local/
 *.log
 node_modules/
+backups/
