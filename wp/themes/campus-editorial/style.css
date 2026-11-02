@@ -1,0 +1,9 @@
+/*
+Theme Name: Campus Editorial
+Description: Original editorial theme for the national college information publication. Mirrors the worker's Jinja templates; loads the shared design system (campus.css) and self-hosted OFL fonts. No page builder.
+Version: 0.1.0
+Requires PHP: 8.1
+License: GPL-2.0-or-later
+Text Domain: campus-editorial
+*/
+/* All styling lives in assets/campus.css (shared with the worker preview). */

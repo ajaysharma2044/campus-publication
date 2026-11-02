@@ -58,10 +58,10 @@ Legend for evidence state in STATE.md: **implemented** (code exists) → **teste
 
 | ID | Task | Depends | Acceptance check | Status |
 |----|------|---------|------------------|--------|
-| E1 | Campus Core WP plugin: CPTs (school, topic, entity_profile, guide, comparison, tool), meta by stable IDs, REST upsert by external id + content hash | — | `php -l` all files; plugin unit script | todo |
-| E2 | Campus Editorial theme (templates mirror D2) | D2,E1 | `php -l`; renders in local WP | todo |
-| E3 | WP CMS adapter (REST, idempotent upsert, revision, redirects) + local WordPress staging via SQLite drop-in | E1 | `pytest worker/tests/test_cms_adapter.py` (repeat publish = no duplicate); local WP smoke | todo |
-| E4 | Sitemap/robots/canonical/noindex rules; structured data validator; redirects | E2 | `pytest worker/tests/test_seo.py` | todo |
+| E1 | Campus Core WP plugin: CPTs (school, topic, entity_profile, guide, comparison, tool), meta by stable IDs, REST upsert by external id + content hash | — | `php -l` all files; plugin unit script | done |
+| E2 | Campus Editorial theme (templates mirror D2) | D2,E1 | `php -l`; renders in local WP | done |
+| E3 | WP CMS adapter (REST, idempotent upsert, revision, redirects) + local WordPress staging via SQLite drop-in | E1 | `pytest worker/tests/test_cms_adapter.py` (repeat publish = no duplicate); local WP smoke | done |
+| E4 | Sitemap/robots/canonical/noindex rules; structured data validator; redirects | E2 | `pytest worker/tests/test_seo.py` | done |
 
 ## Stage F — analytics, dashboard, ads, revenue, experiments
 
