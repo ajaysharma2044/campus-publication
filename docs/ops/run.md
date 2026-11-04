@@ -54,3 +54,15 @@ Exit codes: 0 executing/completed, 10 waiting (no eligible work), 20 usage-pause
 - Database: `python -m campus_worker.db migrate-down --to N` applies the documented down script for versions > N. Down scripts are labelled safe/unsafe in their header; for unsafe ones restore from backup (`scripts/restore_test.sh` proves the restore path on a scratch DB).
 - Content: every page keeps all `page_versions`; republishing an older passed version is `publisher.publish_version(conn, cms, <older_version_id>)`. The CMS upsert is idempotent by page id, so this overwrites in place and records the change.
 - Ads/analytics: flip the environment/option flags; no template change needed.
+
+## In-session execution mode (added 2026-11-04)
+
+When no worker model credential exists, the language-judgment roles run inside the Claude Code session and the deterministic code does the rest:
+
+```bash
+cd worker
+python -m campus_worker.session_run            # Cornell transfer-housing run: evidence → claims → brief → draft → checks → gate → preview
+python -m campus_worker.render.from_db         # /schools/ and school/topic hubs from real database state
+python -m campus_worker.render.preview         # synthetic fixture pages (home, tools, states)
+```
+Reports land in `docs/research/`. Pages whose critical claims are not verified against an opened primary source are rendered with a "Draft held, not published" notice and never pushed to WordPress.
