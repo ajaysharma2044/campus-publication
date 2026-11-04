@@ -155,7 +155,7 @@ def blocking_claims(conn: psycopg.Connection, claim_ids: list[UUID]) -> list[dic
     with conn.cursor() as cur:
         cur.execute(
             """SELECT id, field, evidence_category, conflict_status, superseded_by_id FROM claims WHERE id = ANY(%s)
-               AND is_critical AND (conflict_status='open' OR evidence_category IN ('stale','unknown','conflicted') OR superseded_by_id IS NOT NULL)""",
+               AND is_critical AND (conflict_status='open' OR evidence_category IN ('stale','unknown','conflicted','estimate') OR superseded_by_id IS NOT NULL)""",
             (claim_ids,),
         )
         return cur.fetchall()

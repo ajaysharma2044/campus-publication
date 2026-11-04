@@ -1,0 +1,111 @@
+{
+  "run_at": "2026-11-04T06:58:38.817803+00:00",
+  "blocker": "Primary Cornell pages could not be opened from this session (scl.cornell.edu and other cornell.edu hosts fail DNS under the environment's network policy). All facts are search-snippet attributions to the named official pages, stored as estimates, so every cost, eligibility and deadline claim is unverified and the page is held.",
+  "claims": {
+    "stored": 17,
+    "actions": [
+      "created"
+    ]
+  },
+  "discovery": {
+    "stored": 8,
+    "duplicate_occurrences": 0,
+    "clusters_created": 8,
+    "hypotheses": 0,
+    "clusters": [
+      {
+        "id": "e879c273-0241-441a-a64d-fa89cf2eba9c",
+        "label": "Is housing guaranteed for first-year students at Cornell?",
+        "audience": "first_year"
+      },
+      {
+        "id": "82c804ad-8e4a-46e0-96e2-3afa7ff24429",
+        "label": "Do transfer students have to live on campus at Cornell?",
+        "audience": "transfer"
+      },
+      {
+        "id": "c40dfc34-4cd8-4432-86a4-d7c90e4f7259",
+        "label": "Is housing guaranteed for transfer students at Cornell?",
+        "audience": "transfer"
+      },
+      {
+        "id": "aa6da76b-4c1b-4812-8bd6-5e2cd09d68bf",
+        "label": "Where do Cornell transfer students live, West or North Campus?",
+        "audience": "transfer"
+      },
+      {
+        "id": "fe7c65b4-bcf8-464b-be40-76fb814ee56d",
+        "label": "When is the Cornell housing application due for transfers?",
+        "audience": "transfer"
+      },
+      {
+        "id": "012d568b-90c3-484d-a0b1-1f9d31782ba6",
+        "label": "Can a transfer student cancel Cornell housing and live off campus?",
+        "audience": "transfer"
+      },
+      {
+        "id": "c3caf05d-0804-4976-bc13-2744d9298268",
+        "label": "Do I have to buy a meal plan as a transfer at Cornell?",
+        "audience": "transfer"
+      },
+      {
+        "id": "a660e296-bf6e-45a3-82db-b193052f27b2",
+        "label": "Why were Cornell transfers put in converted lounges?",
+        "audience": "transfer"
+      }
+    ]
+  },
+  "opportunity": {
+    "cluster_id": "c40dfc34-4cd8-4432-86a4-d7c90e4f7259",
+    "priority": 54.0,
+    "decision": "hold",
+    "rationale": "evidence advantage 2 below 3; research before drafting",
+    "opportunity_id": "e901a5fa-723e-4b01-a3e5-c574731716db"
+  },
+  "draft": {
+    "page_id": "41a4c18d-6a99-4bb6-8019-cecd374988f2",
+    "version_id": "a17ec025-afe8-42c7-bccc-5c108545c748",
+    "brief_id": "d001fe1a-c4de-442f-b7ee-a060de3d88b4",
+    "deterministic_findings": [],
+    "rubric": {
+      "clarity": 4,
+      "specificity": 4,
+      "structure": 4,
+      "attribution": 2,
+      "usefulness": 4,
+      "prose": 4,
+      "total": 22
+    },
+    "gate": {
+      "passed": false,
+      "status": "failed",
+      "hard_failures": [
+        "unsupported_critical_claim: critical claims not verified against a primary source (stale/conflicted/estimate/unknown): rate.room=estimate, rate.room=estimate, rate.room=estimate, rate.room=estimate, rate.includes=estimate, eligibility.residency_years_required=estimate"
+      ],
+      "major_findings": [],
+      "rubric_total": 22,
+      "rubric_failures": [
+        "rubric below 3: ['attribution']"
+      ],
+      "blocking_claim_ids": [
+        "eec476b9-af44-43b8-bcda-7a762a629b7e",
+        "14e2d0cb-3dd8-454a-b0f2-41ef41eae0a6",
+        "8af8e1b1-6f67-4b53-ab4e-34e7e8268687",
+        "1089287f-e68b-420f-92e6-1cec1145177a",
+        "7844bcb4-562d-40ca-9d45-101cc263f9af",
+        "1246e585-3726-40dd-b953-9a6f158c39bc",
+        "fe9ce20c-d558-49a7-9479-3d6b98b024ab",
+        "6d776940-4ae6-48a3-ab6e-0f8d0c04644b",
+        "53fbffb8-da38-4fec-a302-fd3402e2c6bb",
+        "0c21f07e-a717-40f0-b69a-87eac32def29",
+        "1f00430d-f78b-4f15-8110-38903a0bcd0b",
+        "7b526570-e2fe-4989-9090-ec44df410cb9",
+        "0602cf8f-7530-4786-a167-23db875cdae9",
+        "ed9d6a15-1778-46f2-96c4-7026be7c7ca1",
+        "7c8a5389-aedc-4b89-87b3-3f223374120c",
+        "c4db5885-ce0b-45f8-9f6b-f565a13710c5"
+      ]
+    }
+  },
+  "preview_path": "/home/user/campus-publication/build/preview/schools/cornell-university/housing/transfer-housing/index.html"
+}

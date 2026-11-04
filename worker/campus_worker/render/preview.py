@@ -20,7 +20,7 @@ from . import engine
 
 OUT_DEFAULT = REPO_ROOT / "build" / "preview"
 POLICY_DIR = Path(__file__).parent / "content" / "policies"
-TODAY = date(2026, 11, 2)
+TODAY = date.today()
 VERIFIED = datetime(2026, 10, 28, 14, 0, tzinfo=timezone.utc)
 
 

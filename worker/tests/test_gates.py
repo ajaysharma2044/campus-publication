@@ -13,7 +13,7 @@ def test_gate_policy():
     r = gates.evaluate([Finding("fake_byline", "hard", "x")], RUBRIC_OK, blocking=[])
     assert r.status == "failed" and r.hard_failures
     r = gates.evaluate([], RUBRIC_OK, blocking=[{"id": "c1"}])
-    assert not r.passed and "unresolved_conflict" in r.hard_failures[0]
+    assert not r.passed and "unsupported_critical_claim" in r.hard_failures[0]
     r = gates.evaluate([], RUBRIC_OK, blocking=[], novel_template=True)
     assert r.status == "held"
     r = gates.evaluate([Finding("filler", "major", "a"), Finding("filler", "major", "b"), Finding("headline", "major", "c")], RUBRIC_OK, blocking=[])

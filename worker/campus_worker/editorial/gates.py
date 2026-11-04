@@ -42,7 +42,7 @@ def evaluate(findings: list[Finding], rubric: dict | None, *, blocking: list[dic
     major = [f"{f.kind}: {f.detail}" for f in findings if f.severity == "major"]
     blocked = [str(b["id"]) for b in blocking]
     if blocked:
-        hard.append(f"unresolved_conflict/stale critical claims: {blocked[:5]}")
+        hard.append("unsupported_critical_claim: critical claims not verified against a primary source (stale/conflicted/estimate/unknown): " + ", ".join(f"{b.get('field', b.get('id'))}={b.get('evidence_category', '?')}" for b in blocking[:6]))
     rubric_fail: list[str] = []
     total = None
     if rubric is not None:
