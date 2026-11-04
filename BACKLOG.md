@@ -84,6 +84,18 @@ Legend for evidence state in STATE.md: **implemented** (code exists) → **teste
 | G5 | Deploy docs; real credential wiring (model key, WP, AdSense, Search Console, IPEDS download) | all | blocked on owner credentials/hosting | blocked |
 | G6 | Usage-optimization evaluation (baseline, candidate tools reviewed, not installed) | — | `docs/ops/usage-optimization.md` | done |
 
+
+## Session-execution milestones (added 2026-11-04)
+
+| ID | Task | Depends | Acceptance check | Status |
+|----|------|---------|------------------|--------|
+| S1 | In-session Cornell workflow: discovery → opportunity → research → draft → checks → gate → preview render, without a worker model credential | C5,D2 | `python -m campus_worker.session_run` writes docs/research/cornell-transfer-housing-run.{md,json}; preview page renders with held notice | done (held: primary hosts unreachable) |
+| S2 | Real national registry seed from an IPEDS HD2024 mirror (GitHub) with provenance; Cornell row matched | A6 | 6,072 institutions imported; `disambiguate('cornell')` returns 3 distinct entities | done (pending NCES verification) |
+| S3 | Hub pages rendered from database state (honest coverage counts) | S1 | `python -m campus_worker.render.from_db` writes /schools/, /schools/cornell-university/, housing hub | done |
+| S4 | Open Cornell primary pages S1–S7, extract claims deterministically, supersede estimates, re-verify, stage draft in WordPress | network allow-list | gate passes; page status staged | blocked: add scl.cornell.edu, faq.enrollment.cornell.edu, admissions.cornell.edu to the environment's Allowed domains |
+| S5 | West Campus vs South Campus hall comparison for transfers | S4 | comparison renders from shared claims | blocked (S4) |
+| S6 | Verify registry rows against the NCES HD2024 download (checksum recorded) | network allow-list | identity_status verified for Cornell | blocked: nces.ed.gov unreachable |
+
 ## Owner dependencies (cannot be completed from this environment)
 - OD1 Anthropic API key (API-billed) or approved automation credential for worker model calls.
 - OD2 Managed WordPress host + application password for the REST API.

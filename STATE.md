@@ -1,6 +1,14 @@
 # STATE
 
-Last updated: 2026-11-02 (end of build session 1). Update after every completed task.
+Last updated: 2026-11-04 (session 2, in-session execution mode). Update after every completed task.
+
+## Session 2 summary (2026-11-04)
+- Execution approach changed: the language-judgment roles run inside the Claude Code session (no worker model credential needed); deterministic code unchanged.
+- **Cornell transfer-housing guide**: discovered 8 questions, scored the cluster (priority 54, decision hold because E=2), stored 17 snippet-attributed claims as `estimate`, drafted, edited and checked the article (0 deterministic findings, rubric 22/24 with attribution 2), gate **failed** on `unsupported_critical_claim`, page **held**, rendered to `build/preview/schools/cornell-university/housing/transfer-housing/`. Report: `docs/research/cornell-transfer-housing-run.md`; evidence: `docs/research/cornell-transfer-housing-evidence.md`.
+- **Registry**: 6,072 real institutions imported from an IPEDS HD2024 mirror on GitHub (`data/ipeds/README.md`), all `pending_verification`; Cornell row matched (Ithaca, NY, private nonprofit); disambiguation separates Cornell University / Cornell College / Weill.
+- **Hub pages from DB**: `python -m campus_worker.render.from_db` renders /schools/, the Cornell hub and topic hubs with honest counts (0 verified, 1 held).
+- **Exact blocker for publishing anything about Cornell**: `scl.cornell.edu`, `faq.enrollment.cornell.edu`, `admissions.cornell.edu` (and `nces.ed.gov` for identity verification) must be added under Allowed domains in the environment's Network access settings; every path (curl and the session fetch tool) fails DNS for them. Web search works and was used for discovery only.
+- Tests: 130 passing after the gate change (critical claims with category `estimate` now block).
 
 ## Environment inventory (observed 2026-11-02)
 - Container: Linux, Python 3.13, Node 22, PHP 8.3 (pdo_sqlite, mysqli, curl, gd, mbstring, zip), PostgreSQL 16 server (local, started), git, gh, Playwright 1.63 + Chromium. No docker daemon. No wp-cli.
