@@ -25,7 +25,8 @@ _FILE_RE = re.compile(r"^(\d{4})_([a-z0-9_]+)\.sql$")
 
 def connect(database_url: str | None = None) -> psycopg.Connection:
     url = database_url or get_settings().database_url
-    return psycopg.connect(url, row_factory=dict_row, autocommit=False)
+    # TCP keepalives: pipeline stages sit idle for minutes while agents run; a hosted DB drops silent connections
+    return psycopg.connect(url, row_factory=dict_row, autocommit=False, keepalives=1, keepalives_idle=60, keepalives_interval=20, keepalives_count=3)
 
 
 @contextmanager

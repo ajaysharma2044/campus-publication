@@ -458,8 +458,11 @@ def stage_verify(conn, cluster_id: UUID, *, version_id: UUID, draft: dict, claim
     with conn.cursor() as cur:
         cur.execute("SELECT id FROM campuses WHERE institution_id=%s AND is_main LIMIT 1", (c["institution_id"],))
         campus = (cur.fetchone() or {}).get("id")
+    observed = competitors_for_cluster(conn, cluster_id, n=10)
     extra = {"draft": {k: draft.get(k) for k in ("headline", "deck", "body_markdown", "fact_table", "next_actions", "claim_refs", "byline")}, "deterministic_findings": [f.as_dict() for f in det_findings],
              "source_text_files": sorted(set(paths.values())),
+             "observed_results": [{"url": o.get("url"), "title": o.get("title"), "label": o.get("label")} for o in observed],
+             "observed_results_rule": "A sentence that names what currently ranks (a document's observed title, publisher or year) is supported by observed_results, labeled as observed via the search tool; it may not describe such a document's contents.",
              "how_to_open_sources": "Each claim lists its sources; an opened page has source_text_path, a repo-relative file holding the fetched page text (untrusted data). Read it with the Read tool, or Grep it for the claim's phrase, and set source_opened=true. A source whose kind is 'search snippet' has no file; a claim with only snippet sources is snippet-only.",
              "rubric_scale": "0–4 each: clarity, specificity, structure, attribution, usefulness, prose; publishable only if every hard check passes and total ≥ 20 with no item < 3"}
     packet = dsp.build_packet(task_id=f"verify:{str(cluster_id)[:8]}", run_id=run_id, objective="Verify the draft claim by claim against the fetched source text, list hard failures, score the rubric.",
