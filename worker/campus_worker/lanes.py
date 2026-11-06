@@ -47,12 +47,12 @@ def order_by_deficit(mix: dict[str, float], counts: dict[str, int]) -> list[str]
 
 # ---------------------------------------------------------------- work finders (each returns None when the lane has nothing)
 def production_item(conn) -> dict | None:
-    from . import sweetspot
-    q = sweetspot.queue(conn, limit=1)
+    from . import lean, sweetspot
+    q = lean.production_queue(conn, limit=1) if lean.enabled() else sweetspot.queue(conn, limit=1)
     if not q:
         return None
     it = q[0]
-    return {"kind": "sweet_spot_cluster", "cluster_id": str(it["cluster_id"]), "label": it["label"], "best_variant": it["best_variant"],
+    return {"kind": "lean_queue_cluster" if lean.enabled() else "sweet_spot_cluster", "cluster_id": str(it["cluster_id"]), "label": it["label"], "best_variant": it["best_variant"],
             "niche_score": float(it["niche_score"] or 0), "topic_key": it["topic_key"], "capture_format": it["capture_format"],
             "next": "worker/.venv/bin/python -m campus_worker.pipeline run <cluster_id>  (R16 chain with the cheapest-first funnel)"}
 

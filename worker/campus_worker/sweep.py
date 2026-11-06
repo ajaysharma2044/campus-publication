@@ -86,7 +86,17 @@ SWEEP_INTEL_CAP_DEFAULT = 300
 
 
 def sweep_cap() -> int:
-    return int(os.environ.get("CAMPUS_SWEEP_INTEL_CAP", SWEEP_INTEL_CAP_DEFAULT))
+    from . import lean
+    return int(os.environ.get("CAMPUS_SWEEP_INTEL_CAP", lean.SWEEP_INTEL_CAP_LEAN if lean.enabled() else SWEEP_INTEL_CAP_DEFAULT))
+
+
+def reopen_deferred(conn: psycopg.Connection) -> int:
+    """LEAN MODE: every cluster deferred by the first-day cap goes back to the observation queue."""
+    with conn.cursor() as cur:
+        cur.execute("UPDATE intent_clusters SET queue_state='needs_intel', queue_reason=NULL, updated_at=now() WHERE queue_state='watch' AND queue_reason LIKE 'deferred:%%' AND last_intel_at IS NULL")
+        n = cur.rowcount
+    conn.commit()
+    return n
 
 
 def _priority_sql() -> str:
@@ -279,6 +289,8 @@ def main(argv: list[str]) -> int:
             out = run_score(conn, run_id=os.environ.get("CAMPUS_RUN_ID"))
         elif cmd == "map":
             out = write_map(conn)
+        elif cmd == "reopen-deferred":
+            out = {"reopened": reopen_deferred(conn), "status": status(conn)}
         elif cmd == "status":
             out = status(conn)
         else:

@@ -1,4 +1,6 @@
 import os
+
+os.environ.setdefault("CAMPUS_LEAN_MODE", "0")  # the spec's acceptance tests run with the spec's thresholds; tests/test_lean.py covers LEAN MODE
 import pytest
 
 from campus_worker import db as dbmod

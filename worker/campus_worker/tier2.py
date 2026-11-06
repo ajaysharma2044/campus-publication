@@ -100,8 +100,10 @@ def eligibility(conn: psycopg.Connection, entity_id: UUID, *, exclude_page_id: U
     oq = observed_queries(conn, entity_id)
     ov, ov_path = overlap_with_published(conn, fact_rows(cl), exclude_page_id=exclude_page_id)
     reasons = []
-    if len(cl) < MIN_VERIFIED_CLAIMS:
-        reasons.append(f"{len(cl)} verified claims < {MIN_VERIFIED_CLAIMS}")
+    from . import lean
+    min_claims = lean.TIER2_MIN_CLAIMS_LEAN if lean.enabled() else MIN_VERIFIED_CLAIMS
+    if len(cl) < min_claims:
+        reasons.append(f"{len(cl)} verified claims < {min_claims}")
     if oq < 1:
         reasons.append("no observed query targets this entity")
     if ov >= MAX_OVERLAP:

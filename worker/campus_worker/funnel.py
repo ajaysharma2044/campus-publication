@@ -41,6 +41,21 @@ def qualify(conn: psycopg.Connection, cluster_id: UUID, *, intel: dict | None = 
     cs = sweetspot.score_cluster(conn, cluster_id, intel=intel)
     if cs.decision == "needs_intel":
         return Gate(False, "search_intel", cs.reason, cs)
+    from . import lean
+    if lean.enabled():
+        # LEAN MODE (owner decision 2026-11-06): scores only order the work; a page is produced unless the query is navigational,
+        # a strong dedicated incumbent answers it (AGI ≤ 1), or the scope has no verified fact yet
+        if cs.decision == "navigational":
+            return Gate(False, "lean_funnel", f"navigational: {cs.reason}", cs)
+        if cs.agi <= lean.STRONG_INCUMBENT_AGI:
+            return Gate(False, "lean_funnel", f"strong dedicated incumbent (AGI={cs.agi}): {cs.reason}", cs)
+        with conn.cursor() as cur:
+            cur.execute("SELECT institution_id, place_id, topic_id FROM intent_clusters WHERE id=%s", (cluster_id,))
+            row = cur.fetchone()
+        n = lean.verified_claims_in_scope(conn, institution_id=row["institution_id"], place_id=row["place_id"], topic_id=row["topic_id"])
+        if n < 1:
+            return Gate(False, "lean_funnel", "no verified fact in this scope yet: research the official pages first", cs)
+        return Gate(True, "lean_funnel", f"lean: AGI={cs.agi} > {lean.STRONG_INCUMBENT_AGI}, {n} verified facts in scope; {cs.decision} ordered by niche_score", cs)
     if cs.decision != "sweet_spot":
         return Gate(False, "agi_threshold", f"{cs.decision}: {cs.reason}", cs)
     return Gate(True, "agi_threshold", cs.reason, cs)

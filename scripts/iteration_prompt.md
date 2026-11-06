@@ -42,6 +42,13 @@ Pick exactly ONE unit of work, finish it, verify it, commit it, push it, record 
 7. Commit with the task id and spec reference, e.g. `S4: verify Cornell housing claims (specs/continuous-local-run.md R17, AT14)`, then `git push`.
 8. Stop. Do not start a second unit of work. If nothing unblocked remains, report `no_work`.
 
+## LEAN MODE (owner decision 2026-11-06, logged in STATE.md; overrides the spec where they conflict)
+Produce as many verified, useful pages as possible. Scores only order the work: `lanes next` returns the best observed cluster that is not
+navigational, has no strong dedicated incumbent and has a verified fact in scope; run the pipeline on it. Information-gain minimum is 1 verified
+item; tier-2 profiles need 4 verified claims; the competitor-beat review is a 1-in-10 spot check (the pipeline decides). Everything about
+sources, verification, the editorial gates, the SEO gate and the 60% overlap rule is unchanged. Do not build new features; fix only what
+blocks page production.
+
 ## Hard rules
 No fabricated facts, sources, bylines, reviews, demand numbers, rankings, or "live" claims. No spam tactics.
 No scraping against robots or terms; Reddit content collection stays off (search-result observation only).

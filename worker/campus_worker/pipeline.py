@@ -698,6 +698,14 @@ def run_r16(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path
             if until == "write":
                 report["outcome"] = "stopped_after_write"
                 return report
+            from . import lean
+            if lean.enabled() and not lean.spot_check_due(lean.pages_produced(conn) - 1):
+                # LEAN MODE: the competitor-beat review is a 1-in-10 spot check; this page gets the editor pass only
+                with conn.cursor() as cur:
+                    cur.execute("UPDATE page_versions SET beat_review=%s::jsonb WHERE id=%s", (json.dumps({"passed": None, "outcome": "lean_spot_check_skipped", "round": 0, "history": []}), version_id))
+                conn.commit()
+                save(f"beat_review_r{rounds}", {"status": "skipped", "outcome": "lean_spot_check_skipped", "passed": None})
+                break
             round_no = quality.previous_round(conn, version_id) + 1
             b = stage_beat_review(conn, cluster_id, version_id=version_id, draft=draft, claims=claims, competitors=competitors, round_no=round_no, runner=runner, log_path=log_path, run_id=run_id)
             conn = _db(conn)

@@ -56,9 +56,11 @@ def check_information_gain(conn: psycopg.Connection, items: list[dict], *, compe
                 valid.append(it)
             else:
                 missing.append(cid)
-    if len(valid) >= MIN_GAIN_ITEMS:
-        return GainCheck(True, valid, missing, f"{len(valid)} verified, claim-linked items beyond the top 3 results")
-    return GainCheck(False, valid, missing, f"only {len(valid)} verified claim-linked items (need {MIN_GAIN_ITEMS}); cluster set to watch instead of a thinner copy")
+    from . import lean
+    need = lean.MIN_GAIN_ITEMS_LEAN if lean.enabled() else MIN_GAIN_ITEMS
+    if len(valid) >= need:
+        return GainCheck(True, valid, missing, f"{len(valid)} verified, claim-linked items beyond the top 3 results (minimum {need})")
+    return GainCheck(False, valid, missing, f"only {len(valid)} verified claim-linked items (need {need}); cluster set to watch instead of a thinner copy")
 
 
 def apply_information_gain(conn: psycopg.Connection, cluster_id: UUID, items: list[dict], *, competitors_say: list[dict] | None = None,
