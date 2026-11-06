@@ -94,6 +94,15 @@ def build_packet(conn: psycopg.Connection, cluster_id: UUID, *, run_id: str, cac
     return packet, variants, cached
 
 
+def cached_intel(cluster_id: UUID, variants: list[str], cached: dict[str, dict]) -> dict:
+    """A serp_intel document rebuilt from cached query rows (R26): no search call, same shape as an agent reply."""
+    return {"cluster_id": str(cluster_id), "observed_on": max(cached[v]["observed_at"] for v in variants).date().isoformat(),
+            "label": LABEL + max(cached[v]["observed_at"] for v in variants).date().isoformat(),
+            "variants": [{"query": v, "results": cached[v]["results"], "follow_up_questions": cached[v].get("follow_up_questions") or [],
+                          "community_occurrences": cached[v].get("community_occurrences") or [], "navigational": cached[v].get("navigational", False)} for v in variants],
+            "demand_evidence": [e for v in variants for e in (cached[v].get("demand_evidence") or [])]}
+
+
 def ingest_intel(conn: psycopg.Connection, cluster_id: UUID, intel: dict, *, cached: dict[str, dict], now: datetime | None = None) -> dict:
     """Persist a serp_intel output: observations, cache, demand evidence, ledger search calls."""
     now = now or datetime.now(timezone.utc)
@@ -180,16 +189,9 @@ def run_cluster(conn: psycopg.Connection, cluster_id: UUID, *, settings, runner=
     agents = dsp.load_agents()
     packet, variants, cached = build_packet(conn, cluster_id, run_id=run_id or "adhoc", cache_days=settings.quotas.serp_cache_days, place_subs=place_subs, now=now)
     if variants and all(v in cached for v in variants):
-        for v in variants:
-            search_cache.record_search_call(conn, v, cached=True, cluster_id=cluster_id)
-        intel = {"cluster_id": str(cluster_id), "observed_on": max(r["observed_at"] for r in cached.values()).date().isoformat(), "variants":
-                 [{"query": v, "results": cached[v]["results"], "follow_up_questions": cached[v].get("follow_up_questions") or [],
-                   "community_occurrences": cached[v].get("community_occurrences") or [], "navigational": cached[v].get("navigational", False)} for v in variants],
-                 "demand_evidence": [e for v in variants for e in (cached[v].get("demand_evidence") or [])]}
-        with conn.cursor() as cur:
-            cur.execute("UPDATE intent_clusters SET last_intel_at=now(), updated_at=now() WHERE id=%s", (cluster_id,))
-        conn.commit()
-        return {"status": "cached", "dispatched": False, "variants": variants, "intel": intel, "search_calls": 0}
+        intel = cached_intel(cluster_id, variants, cached)
+        ing = ingest_intel(conn, cluster_id, intel, cached=cached, now=now)  # the cluster gets its own observation rows and demand evidence from the cache (zero search calls)
+        return {"status": "cached", "dispatched": False, "variants": variants, "intel": intel, "ingest": ing, "search_calls": 0}
     res = dsp.dispatch(agents["search-intel"], packet, runner=runner, conn=conn, log_path=log_path)
     if res.status not in ("ok", "hold") or not res.doc:
         return {"status": res.status, "dispatched": True, "errors": res.errors, "variants": variants}
@@ -223,12 +225,8 @@ def run_batch(conn: psycopg.Connection, cluster_ids: list[UUID], *, settings, ru
     for cid in cluster_ids:
         packet, variants, cached = build_packet(conn, cid, run_id=run_id or "adhoc", cache_days=settings.quotas.serp_cache_days, place_subs=place_subs, now=now)
         if variants and all(v in cached for v in variants):
-            for v in variants:
-                search_cache.record_search_call(conn, v, cached=True, cluster_id=cid)
-            with conn.cursor() as cur:
-                cur.execute("UPDATE intent_clusters SET last_intel_at=now(), updated_at=now() WHERE id=%s", (cid,))
-            conn.commit()
-            results[str(cid)] = {"status": "cached", "variants": variants}
+            ing = ingest_intel(conn, cid, cached_intel(cid, variants, cached), cached=cached, now=now)  # served from the cache, but stored as this cluster's observation
+            results[str(cid)] = {"status": "cached", "variants": variants, "ingest": ing}
             continue
         cached_by[str(cid)] = cached
         items.append({"cluster_id": str(cid), "label": packet["objective"].split("'")[1] if "'" in packet["objective"] else "", "topic_key": packet.get("topic_key"),
