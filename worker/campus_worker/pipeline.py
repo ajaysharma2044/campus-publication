@@ -735,7 +735,16 @@ def auto_cite(draft: dict, claims: list[dict], *, exclude: set[str] | None = Non
     body = draft.get("body_markdown") or ""
     exclude = set(exclude or ())
     prefer = set(prefer or ())
-    table = [r for r in (draft.get("fact_table") or []) if str(r.get("claim_id") or "") not in exclude]
+    by_id = {k["id"]: k for k in claims}
+    table = []
+    for r in (draft.get("fact_table") or []):
+        cid = str(r.get("claim_id") or "")
+        k = by_id.get(cid)
+        if cid in exclude or (k and not audience_matches(k.get("audience"), page_audience)):
+            continue  # excluded by the verifier, or scoped to an audience this page is not for
+        if k and (not re.search(r"[A-Z]", str(r.get("label") or "")) or "unknown" in str(r.get("value") or "")):
+            r = dict(r, label=fact_label(k), value=money_value(k) if k["value_type"] == "money" else r.get("value"))  # earlier auto-generated rows get readable labels and clean values
+        table.append(r)
     refs = set(str(x) for x in draft.get("claim_refs") or []) - exclude
     table_text = " ".join(f"{r.get('label', '')} {r.get('value', '')}" for r in table)
     # when several claims share a value (the same date for different audiences), the verifier's preferred claims win and excluded ones never return

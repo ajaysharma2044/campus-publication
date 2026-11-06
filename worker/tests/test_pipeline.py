@@ -202,3 +202,7 @@ def test_auto_cite_links_text_claims_the_body_states_and_labels_rows_readably():
     out2 = pipeline.auto_cite(draft, claims, page_audience="first-year undergraduates")
     assert "c-fee" not in out2["claim_refs"] and "c-place" in out2["claim_refs"]
     assert pipeline.money_value({"value": "$500 unknown one time", "value_type": "money"}) == "$500"
+    stale = {"body_markdown": "Late requests cost $500.", "fact_table": [{"label": "cancellation late request fee", "value": "$500 unknown one time", "claim_id": "c-fee"}], "claim_refs": ["c-fee"]}
+    assert pipeline.auto_cite(stale, claims, page_audience="first-year undergraduates")["fact_table"] == []          # a juniors-and-seniors row leaves a first-year page
+    fixed = pipeline.auto_cite(stale, claims)["fact_table"][0]
+    assert fixed["label"].startswith("Cancellation late request fee") and fixed["value"] == "$500 per person"      # an old auto row is re-labeled and cleaned
