@@ -4,6 +4,7 @@
   python -m campus_worker.sweep expand           deterministic: hypotheses for every entity from the pattern library
   python -m campus_worker.sweep next             what the coordinator should do now (harvest / expand / intel batch / score / complete)
   python -m campus_worker.sweep intel --batch N  the next N clusters needing search observation (cheapest first)
+  python -m campus_worker.sweep run-intel [--batch N]  dispatch one search-intel batch (<=25), ingest it, then score
   python -m campus_worker.sweep score            score every cluster (D, AGI, G, E, niche_score, decision) + auto-topics (R46)
   python -m campus_worker.sweep map              write docs/strategy/opportunity-map.md and build/opportunity-map.csv
   python -m campus_worker.sweep status           {complete: bool, ...}
@@ -172,7 +173,7 @@ def next_step(conn: psycopg.Connection, *, batch: int = BATCH_SWEEP) -> dict:
     if st["need_intel"]:
         b = intel_batch(conn, batch=batch)
         return {"step": "intel", "detail": {"batch": [{"cluster_id": str(x["cluster_id"]), "label": x["label"], "topic": x["topic_key"]} for x in b], "remaining": st["need_intel"]},
-                "command": "dispatch search-intel for each cluster via campus_worker.search_intel.run_cluster (≤4 in parallel), then: python -m campus_worker.sweep score", "status": st}
+                "command": "python -m campus_worker.sweep run-intel --batch 25  (one search-intel batch dispatch, ingest, then score)", "status": st}
     if st["undecided"]:
         return {"step": "score", "detail": {"undecided": st["undecided"]}, "command": "python -m campus_worker.sweep score && python -m campus_worker.sweep map", "status": st}
     return {"step": "complete", "sweep_complete": True, "command": "python -m campus_worker.sweep map", "status": st}
@@ -221,6 +222,24 @@ def write_map(conn: psycopg.Connection, *, md_path: Path | None = None, csv_path
     return {"md": str(md_path), "csv": str(csv_path), "rows": len(rows), "status": st, "by_topic": by_topic}
 
 
+def run_intel(conn: psycopg.Connection, *, batch: int, run_id: str | None = None, settings=None) -> dict:
+    """One search-intel batch dispatch (<=25 clusters, R27/R41) through search_intel.run_batch, which validates and ingests the
+    agent output, followed by deterministic scoring. Lets a coordinator restricted to `python -m campus_worker.*` run the lane."""
+    from . import search_intel
+    settings = settings or get_settings()
+    picked = intel_batch(conn, batch=min(batch, BATCH_SWEEP))
+    if not picked:
+        return {"status": "empty", "batch": 0}
+    res = search_intel.run_batch(conn, [UUID(str(x["cluster_id"])) for x in picked], settings=settings, run_id=run_id)
+    scored = run_score(conn, run_id=run_id)
+    summary = {k: v for k, v in res.items() if k != "results"}
+    summary["clusters"] = len(picked)
+    summary["by_status"] = {}
+    for r in (res.get("results") or {}).values():
+        summary["by_status"][r.get("status")] = summary["by_status"].get(r.get("status"), 0) + 1
+    return {"intel": summary, "score": scored}
+
+
 def main(argv: list[str]) -> int:
     from .db import connect
     settings = get_settings()
@@ -236,6 +255,8 @@ def main(argv: list[str]) -> int:
             out = run_expand(conn)
         elif cmd == "intel":
             out = {"batch": intel_batch(conn, batch=batch)}
+        elif cmd == "run-intel":
+            out = run_intel(conn, batch=batch, run_id=os.environ.get("CAMPUS_RUN_ID"))
         elif cmd == "score":
             out = run_score(conn, run_id=os.environ.get("CAMPUS_RUN_ID"))
         elif cmd == "map":
