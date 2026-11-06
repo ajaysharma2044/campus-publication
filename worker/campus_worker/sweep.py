@@ -222,7 +222,7 @@ def write_map(conn: psycopg.Connection, *, md_path: Path | None = None, csv_path
     return {"md": str(md_path), "csv": str(csv_path), "rows": len(rows), "status": st, "by_topic": by_topic}
 
 
-def run_intel(conn: psycopg.Connection, *, batch: int, run_id: str | None = None, settings=None) -> dict:
+def run_intel(conn: psycopg.Connection, *, batch: int, run_id: str | None = None, settings=None, runner=None, log_path=None) -> dict:
     """One search-intel batch dispatch (<=25 clusters, R27/R41) through search_intel.run_batch, which validates and ingests the
     agent output, followed by deterministic scoring. Lets a coordinator restricted to `python -m campus_worker.*` run the lane."""
     from . import search_intel
@@ -230,7 +230,8 @@ def run_intel(conn: psycopg.Connection, *, batch: int, run_id: str | None = None
     picked = intel_batch(conn, batch=min(batch, BATCH_SWEEP))
     if not picked:
         return {"status": "empty", "batch": 0}
-    res = search_intel.run_batch(conn, [UUID(str(x["cluster_id"])) for x in picked], settings=settings, run_id=run_id)
+    kw = {"runner": runner} if runner else {}
+    res = search_intel.run_batch(conn, [UUID(str(x["cluster_id"])) for x in picked], settings=settings, run_id=run_id, log_path=log_path, **kw)
     scored = run_score(conn, run_id=run_id)
     summary = {k: v for k, v in res.items() if k != "results"}
     summary["clusters"] = len(picked)
