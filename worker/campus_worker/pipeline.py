@@ -944,8 +944,11 @@ def correct(conn, version_id: UUID, *, settings, runner=dsp.cli_runner, log_path
     e = stage_edit(conn, v["cluster_id"], draft=draft, det_findings=findings, claims=claims, runner=runner, log_path=log_path, run_id=run_id)
     conn = _db(conn)
     report["edit"] = {k: val for k, val in e.items() if k != "draft"}
+    rp = RUNS_DIR / "pipeline" / f"correct-{str(version_id)[:8]}.json"
+    rp.parent.mkdir(parents=True, exist_ok=True)
     if e.get("status") not in ("ok", "hold") or not e.get("draft"):
         report["outcome"] = "editor_" + str(e.get("status"))
+        rp.write_text(json.dumps(report, indent=1, default=str))
         return report
     draft2 = dict(e["draft"], byline=v["byline"], fact_table=draft["fact_table"], next_actions=draft["next_actions"])
     ids_in_body = set(re.findall(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", draft2["body_markdown"]))
@@ -1002,8 +1005,6 @@ def correct(conn, version_id: UUID, *, settings, runner=dsp.cli_runner, log_path
             report["outcome"] = "published" if report["publish"].get("published") else "publish_" + str(report["publish"].get("reason"))
         else:
             report["outcome"] = "seo_held"
-    rp = RUNS_DIR / "pipeline" / f"correct-{str(version_id)[:8]}.json"
-    rp.parent.mkdir(parents=True, exist_ok=True)
     rp.write_text(json.dumps(report, indent=1, default=str))
     return report
 
