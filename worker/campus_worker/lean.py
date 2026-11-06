@@ -59,7 +59,9 @@ def production_queue(conn: psycopg.Connection, *, limit: int = 20) -> list[dict]
         rows = [dict(r) for r in cur.fetchall()]
     out = []
     for r in rows:
-        if verified_claims_in_scope(conn, institution_id=r["institution_id"], place_id=r["place_id"], topic_id=r["topic_id"], entity_id=r.get("entity_id")) >= 1:
+        # an entity cluster enters the queue without facts: the pipeline researches the entity's own official page first (ensure_research);
+        # a topic cluster needs a verified fact in its scope (there is no single page to research for it)
+        if r.get("entity_id") or verified_claims_in_scope(conn, institution_id=r["institution_id"], place_id=r["place_id"], topic_id=r["topic_id"]) >= 1:
             out.append(r)
             if len(out) >= limit:
                 break
