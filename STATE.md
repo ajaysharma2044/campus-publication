@@ -52,6 +52,16 @@ Spec: `specs/continuous-local-run.md` v2.5 (owner-approved). Plan and AT mapping
 - Claims added for the page during verification: `placement.first_year_residence_halls` and `process.guaranteed_waitlist` (verbatim sentences from the opened pages), `eligibility.residency_years_required` re-scoped to `first_second_year`.
 - Cost of the first live page (R29, from the ledger and dispatch log): 28 dispatches, 876 turns, 227 minutes across the day, which includes the fixes to the pipeline made while running it.
 
+### Owner decision 2026-11-06: LEAN MODE (overrides specs/continuous-local-run.md where they conflict)
+Pasted by the owner after the first live day. In force from this commit; the spec file itself is untouched (owner-only).
+1. Stop building new features. Finish the current loop run and open the PR, then spend all effort on producing pages.
+2. Demand evidence and sweet-spot scores only set the order of work. Any cluster that is not navigational and has no strong dedicated incumbent gets a page if it has verified facts.
+3. Competitor-beat review runs on 1 in 10 pages as a spot check, not on every page; one editor pass for the rest.
+4. Information-gain minimum is 1 new verified fact. Tier-2 pages need 4 verified claims instead of 6.
+5. Kept exactly: verified, sourced, dated facts; no scraping against terms; no fake reviews or copied text; the SEO gate; the 60% overlap rule.
+6. `CAMPUS_SWEEP_INTEL_CAP` raised so every deferred cluster gets checked.
+Implementation: `CAMPUS_LEAN_MODE` (default on) in `config.py`; `funnel.qualify` lean rule (not navigational, AGI ≥ 2 i.e. no strong dedicated incumbent, ≥ 1 verified claim in scope; D only orders); `quality.check_information_gain` minimum 1; tier-2 minimum 4 claims; `pipeline.run_r16` beat review on every 10th produced page, editor pass otherwise; sweep cap default 5000 and the 1,087 deferred clusters re-opened for observation. Gates, rubric, critical-claim rule, SEO gate, overlap rule and all source rules unchanged.
+
 ### Sweep outcome (AT40 live, 2026-11-06)
 - The Cornell + Ithaca sweep is complete: 1,230 clusters (906 Cornell, 324 Ithaca) across all 40 R33 topics, every one scored and decided — 2 sweet-spot (both Cornell housing: "Do Cornell transfer students have to live on campus?" niche 80 and the North Campus transfer cluster 72), 1,161 watch (1,087 of them deferred beyond the first-day intel cap of 125, 18 waiting for a second independent occurrence, the rest observed with a dedicated incumbent), 55 reject, 11 navigational. `docs/strategy/opportunity-map.md` and `build/opportunity-map.csv` are the artifacts. `scripts/run.sh --mode sweep --max 5` (run 20261106T201209Z) found it complete in iteration 1, regenerated and committed the map, reported `sweep_complete`, and switched to the normal lane mix (R41).
 - What the sweep did not find yet: no non-housing sweet spot (AT33), no auto-created topic (AT46), 17 Reddit occurrences across 5 topics or entities (AT36 wants 10), and only 4–5 observed watch clusters each for alumni, parents and jobs (AT45 counts 8–9 only with deferrals). The deferred 1,087 clusters are the discovery lane's queue for the next days.
