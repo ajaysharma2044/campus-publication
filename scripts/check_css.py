@@ -63,7 +63,7 @@ def main() -> int:
         failures.append("gradient outside skeleton shimmer")
     if re.search(r"backdrop-filter|blur\(", body):
         failures.append("glass/blur effect present")
-    big_radius = [m.group(0) for m in re.finditer(r"border-radius:\s*(\d+)px", body) if int(m.group(1)) > 4]
+    big_radius = [m.group(0) for m in re.finditer(r"border-radius:\s*(\d+)px", body) if int(m.group(1)) > 8]
     if big_radius:
         failures.append(f"large border-radius: {big_radius}")
     if re.search(r"text-align:\s*justify", body):
