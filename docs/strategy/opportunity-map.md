@@ -1,6 +1,6 @@
 # Opportunity map (specs/continuous-local-run.md R41, R22)
 
-Generated 2026-11-06T20:12:09+00:00 from database state. Scores are deterministic (D from recorded demand evidence, AGI from observed results, G and E estimates from the authority gap and the source map); priority (SPEC §11) is recorded but not the advance rule for this lane. Sortable CSV: `build/opportunity-map.csv`.
+Generated 2026-11-06T20:13:15+00:00 from database state. Scores are deterministic (D from recorded demand evidence, AGI from observed results, G and E estimates from the authority gap and the source map); priority (SPEC §11) is recorded but not the advance rule for this lane. Sortable CSV: `build/opportunity-map.csv`.
 
 Clusters: 1230 · sweet-spot: 2 · watch: 1161 · reject: 55 · navigational: 11 · undecided: 0 · entities: 178 · auto-created topics: 0 · complete: True
 
