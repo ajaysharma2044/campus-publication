@@ -238,3 +238,6 @@ OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + app
 - Fix: `sweetspot.score_all` now reconnects (`ensure_conn`) and retries the failing cluster once; each cluster already commits on its own. Test `test_score_all_reconnects_once_when_the_connection_drops` added; full suite passed after the change.
 - Open: full scoring of 1,230 clusters takes over 20 minutes on the hosted DB (a `sweep score` run was stopped at the background time limit; per-cluster work is persisted). Likely per-cluster query cost (`demand_points`, `e_estimate`, `latest_intel`); worth batching or scoring only changed clusters. Status after the partial runs: need_intel 74, sweet_spot 1, reject 15, undecided 93; sweep not complete.
 - Next sweep iteration: `sweep next`, then `sweep run-intel --batch 25` (74 clusters left, 3 batches). Consider making `run_intel` score only the clusters in its batch.
+
+## 2026-11-06 iteration 1 (run 20261106T205406Z)
+- Checks: pytest passed, doctor 0 required failures. `lanes next` returned "Cornell housing guaranteed"; `pipeline run` refused it as covered by the existing transfer-housing page and marked the cluster done (lean duplicate guard). A second `lanes next` reports no_work in all lanes.
