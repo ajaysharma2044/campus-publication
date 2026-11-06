@@ -1,0 +1,8 @@
+{
+  "name": "campus-publication-qa",
+  "private": true,
+  "description": "Node dependencies for scripts/qa_screens.js (screenshot + accessibility QA at 5 widths) and scripts/check_tools_js.js",
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}

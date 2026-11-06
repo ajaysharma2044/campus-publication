@@ -15,7 +15,7 @@ filled by the first scout pass; "—" means not yet benchmarked.
 | substantive editing | in-repo `references/editing.md` | repo | — | baseline |
 | on-page SEO (titles, meta, headings) | in-repo `references/seo.md` + `seo.seo_gate` | repo | — | baseline; scout job open |
 | structured data / schema | in-repo `references/seo.md` + `seo.validate_structured_data` | repo | — | baseline |
-| internal linking | in-repo `references/search-strategy.md` + `seo.check_internal_links` | repo | — | baseline |
+| internal linking | in-repo `references/search-strategy.md` + `seo.check_internal_links` | repo | — | **gap**: scout job open |
 | content refresh and decay detection | in-repo `references/maintenance.md` + propagation | repo | — | baseline |
 | technical SEO audit | in-repo `references/seo.md` (sitemap, robots, canonical) | repo | — | **gap**: scout job open |
 | snippet and answer formatting | in-repo `references/search-strategy.md` + `references/writing.md` | repo | — | baseline; scout job open |

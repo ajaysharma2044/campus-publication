@@ -1,5 +1,5 @@
 {
-  "$comment": "Project settings for campus-publication (specs/continuous-local-run.md R32, §7). Committed. Machine-specific overrides go in .claude/settings.local.json (gitignored). This file is protected by .claude/hooks/guard.sh; owner edits only.",
+  "$comment": "Project settings for campus-publication (specs/continuous-local-run.md R32, \u00a77). Committed. Machine-specific overrides go in .claude/settings.local.json (gitignored). This file is protected by .claude/hooks/guard.sh; owner edits only.",
   "permissions": {
     "deny": [
       "Read(./.env)",
@@ -70,7 +70,11 @@
       "Bash(curl -s *)",
       "Bash(psql *)",
       "Bash(test *)",
-      "Bash(jq *)"
+      "Bash(jq *)",
+      "Bash(git clone --depth 1 *)",
+      "Bash(git -C * log *)",
+      "Bash(git -C * rev-parse *)",
+      "Bash(npx playwright *)"
     ]
   },
   "hooks": {

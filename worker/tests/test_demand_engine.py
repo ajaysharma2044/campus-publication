@@ -461,7 +461,7 @@ def test_sweep_status_and_next_step_progression(clean_conn):
     assert sweep.next_step(clean_conn)["step"] == "harvest"
     harvest.harvest_html(clean_conn, HALL_RULE, (FIX / "harvest" / "halls_v1.html").read_bytes(), institution_id=inst, campus_id=campus)
     assert sweep.next_step(clean_conn)["step"] == "expand"
-    sweep.run_expand(clean_conn)
+    sweep.run_expand(clean_conn, include_fixtures=True)
     nxt = sweep.next_step(clean_conn, batch=25)
     assert nxt["step"] == "intel" and 1 <= len(nxt["detail"]["batch"]) <= 25
     # observe every cluster with the forum fixture, then score → complete

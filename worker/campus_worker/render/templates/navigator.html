@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}{{ nav.title }} — {{ site.name }}{% endblock %}
+{% block meta %}<meta name="description" content="{{ nav.description }}">
+<link rel="canonical" href="{{ site.base_url }}{{ canonical_path }}">{% endblock %}
+{% block structured_data %}{% if structured_data %}<script type="application/ld+json">{{ structured_data|safe }}</script>{% endif %}{% endblock %}
+{% block content %}
+<div class="container"><article class="article">
+  <nav aria-label="Breadcrumb" class="breadcrumb"><ol>{% for b in nav.breadcrumbs %}<li><a href="{{ b.href }}">{{ b.text }}</a></li>{% endfor %}</ol></nav>
+  <p class="eyebrow"><a href="{{ nav.section_href }}">{{ nav.section }}</a></p>
+  <h1>{{ nav.title }}</h1>
+  <p class="deck measure">{{ nav.description }}</p>
+  <p class="measure"><strong>{{ nav.answer_first }}</strong></p>
+  <p class="meta">Updated {{ nav.updated_at|datefmt("%b %-d, %Y") }} · {{ nav.academic_year }}</p>
+  <div class="grid">
+  <div class="col-12 col-lg-7">
+  <form class="tool" data-navigator method="get" action="{{ nav.action }}" novalidate>
+    <script type="application/json" data-graph>{{ nav.graph_json|safe }}</script>
+    <fieldset><legend>Where you are and where you want to go</legend>
+      <div class="field-row">
+        <div class="field"><label for="from">Current college or program</label>
+          <select id="from" name="from" data-from>{% for s in nav.from_states %}<option value="{{ s.value }}" {% if s.value == nav.selected_from %}selected{% endif %}>{{ s.label }}</option>{% endfor %}</select></div>
+        <div class="field"><label for="to">Destination</label>
+          <select id="to" name="to" data-to>{% for s in nav.to_states %}<option value="{{ s.value }}" {% if s.value == nav.selected_to %}selected{% endif %}>{{ s.label }}</option>{% endfor %}</select></div>
+      </div>
+      {% if nav.situations %}<fieldset class="field"><legend>Your situation <span class="hint">(pick any that apply)</span></legend>
+        {% for s in nav.situations %}<label class="check"><input type="checkbox" name="situation" value="{{ s.value }}" data-situation {% if s.value in nav.selected_situations %}checked{% endif %}> {{ s.label }}</label>{% endfor %}
+      </fieldset>{% endif %}
+    </fieldset>
+    <button class="btn" type="submit">Show my steps</button>
+    <section class="result" data-result aria-live="polite">
+      <h2>{{ nav.answer.heading }}</h2>
+      {% if nav.answer.found %}
+      <h3>Steps</h3><ol>{% for s in nav.answer.steps %}<li>{{ s }}</li>{% endfor %}</ol>
+      {% if nav.answer.prerequisites or nav.answer.course_requirements or nav.answer.gpa_min %}<h3>Requirements</h3><ul>
+        {% if nav.answer.gpa_min %}<li>Minimum GPA: {{ nav.answer.gpa_min }}</li>{% endif %}
+        {% for p in nav.answer.prerequisites %}<li>Prerequisite: {{ p }}</li>{% endfor %}
+        {% for c in nav.answer.course_requirements %}<li>{{ c }}</li>{% endfor %}</ul>{% endif %}
+      {% if nav.answer.deadlines %}<h3>Deadlines</h3><ul>{% for d in nav.answer.deadlines %}<li>{{ d }}</li>{% endfor %}</ul>{% endif %}
+      {% if nav.answer.forms %}<h3>Forms</h3><ul>{% for f in nav.answer.forms %}<li>{{ f }}</li>{% endfor %}</ul>{% endif %}
+      <h3>Office that owns this</h3><ul>{% for o in nav.answer.offices %}<li>{{ o }}</li>{% endfor %}</ul>
+      {% if nav.answer.exceptions %}<h3>Exceptions</h3><ul>{% for e in nav.answer.exceptions %}<li>{{ e }}</li>{% endfor %}</ul>{% endif %}
+      {% else %}<p class="value-unknown">{{ nav.answer.message }}</p>{% endif %}
+    </section>
+  </form>
+  </div>
+  <aside class="col-12 col-lg-5">
+    <section class="measure tool-notes"><h2>How this works</h2><p>{{ nav.method }}</p>
+    <h3>Limitations</h3><p>{{ nav.limitations }}</p>
+    <h3>Related</h3><ul>{% for r in nav.related %}<li><a href="{{ r.href }}">{{ r.text }}</a></li>{% endfor %}</ul></section>
+  </aside>
+  </div>
+  {% with actions=nav.next_actions %}{% include "partials/next_actions.html" %}{% endwith %}
+  {% with sources=nav.sources, production_note=nav.production_note, page_id=nav.id %}{% include "partials/sources.html" %}{% endwith %}
+</article></div>
+{% endblock %}
+{% block scripts %}<script src="{{ static_prefix }}navigator.js" defer></script>{% endblock %}

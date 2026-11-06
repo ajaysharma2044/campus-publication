@@ -31,13 +31,16 @@ MAP_CSV = REPO_ROOT / "build" / "opportunity-map.csv"
 BATCH_SWEEP, BATCH_NORMAL = 25, 10
 
 
-def scopes(conn: psycopg.Connection) -> dict:
+def scopes(conn: psycopg.Connection, *, include_fixtures: bool = False) -> dict:
+    """Schools and towns in scope. Synthetic fixture institutions are never searched or published live (SPEC fixtures rule);
+    tests pass include_fixtures=True."""
     with conn.cursor() as cur:
         cur.execute("""SELECT i.id, i.canonical_name, i.slug, i.place_id, c.id AS campus_id FROM institutions i
                        LEFT JOIN school_configs sc ON sc.institution_id=i.id LEFT JOIN campuses c ON c.institution_id=i.id AND c.is_main
                        WHERE NOT i.is_system AND COALESCE(sc.coverage_status, 'onboarding') <> 'paused'
+                         AND (%s OR i.identity_status <> 'synthetic_fixture')
                          AND (sc.id IS NOT NULL OR EXISTS (SELECT 1 FROM entities e WHERE e.institution_id=i.id))
-                       ORDER BY i.canonical_name""")
+                       ORDER BY i.canonical_name""", (include_fixtures,))
         schools = [dict(r) for r in cur.fetchall()]
         cur.execute("SELECT id, name, slug FROM places WHERE kind IN ('city','town','village') ORDER BY name")
         towns = [dict(r) for r in cur.fetchall()]
@@ -56,8 +59,8 @@ def run_harvest(conn: psycopg.Connection, fetcher=None, *, force: bool = False) 
     return {"harvested": out, "entities": harvest.entity_counts(conn)}
 
 
-def run_expand(conn: psycopg.Connection) -> dict:
-    sc = scopes(conn)
+def run_expand(conn: psycopg.Connection, *, include_fixtures: bool = False) -> dict:
+    sc = scopes(conn, include_fixtures=include_fixtures)
     out = []
     for s in sc["schools"]:
         out.append(dict(expand.expand_scope(conn, institution_id=s["id"], campus_id=s["campus_id"], school_name=_short_name(s["canonical_name"])), scope=s["slug"]))

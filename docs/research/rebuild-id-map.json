@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-06T06:48:55.740660+00:00",
+  "run_at": "2026-11-06T07:53:02.317962+00:00",
   "blocker": "Primary Cornell pages could not be opened from this session (scl.cornell.edu and other cornell.edu hosts fail DNS under the environment's network policy). All facts are search-snippet attributions to the named official pages, stored as estimates, so every cost, eligibility and deadline claim is unverified and the page is held.",
   "claims": {
     "stored": 17,
@@ -14,58 +14,58 @@
     "hypotheses": 0,
     "clusters": [
       {
-        "id": "8a12f363-0bc6-4851-b2cb-b3cd6c8b09ea",
+        "id": "5d69fed9-d03e-4e94-809e-8c0517e27543",
         "label": "Do transfer students have to live on campus at Cornell?",
         "audience": "transfer"
       },
       {
-        "id": "ca7b6ceb-8c23-432c-8ac6-6cf10c5fa463",
+        "id": "9a73ae33-1b1d-4b98-8906-6a727b725f4b",
         "label": "Is housing guaranteed for transfer students at Cornell?",
         "audience": "transfer"
       },
       {
-        "id": "c3e7edf1-181a-4c6c-ad43-63148cfdf0ba",
+        "id": "07b6edad-998b-460e-a9f0-04b1e8d86093",
         "label": "Where do Cornell transfer students live, West or North Campus?",
         "audience": "transfer"
       },
       {
-        "id": "979b128b-4c3c-401d-a673-bccebccb45fc",
+        "id": "093d953d-606c-4eb3-81cc-43d3205cbfe9",
         "label": "When is the Cornell housing application due for transfers?",
         "audience": "transfer"
       },
       {
-        "id": "95cf8eaf-d868-4923-b6fc-c49f9e35e1f1",
+        "id": "bc26a0b9-9f1f-413e-b06f-da414cb85d85",
         "label": "Can a transfer student cancel Cornell housing and live off campus?",
         "audience": "transfer"
       },
       {
-        "id": "af1722d3-e741-4383-aed3-554c6c2207a1",
+        "id": "4e05efab-ddf6-4c95-80f5-6f5bbe4f8269",
         "label": "Do I have to buy a meal plan as a transfer at Cornell?",
         "audience": "transfer"
       },
       {
-        "id": "0ab9dd3a-59b3-49c0-85ae-dc93c0354e51",
+        "id": "b3c6dbce-4802-48a0-84ca-d36719fbfe32",
         "label": "Why were Cornell transfers put in converted lounges?",
         "audience": "transfer"
       },
       {
-        "id": "484613fb-64ee-4359-af4e-0388816d5aef",
+        "id": "bf4724ae-611d-4fa4-ae11-0dbcdbc8eb72",
         "label": "Is housing guaranteed for first-year students at Cornell?",
         "audience": "first_year"
       }
     ]
   },
   "opportunity": {
-    "cluster_id": "ca7b6ceb-8c23-432c-8ac6-6cf10c5fa463",
+    "cluster_id": "9a73ae33-1b1d-4b98-8906-6a727b725f4b",
     "priority": 54.0,
     "decision": "hold",
     "rationale": "evidence advantage 2 below 3; research before drafting",
-    "opportunity_id": "b24d86bf-3842-42f1-900a-632842a5991f"
+    "opportunity_id": "ca116577-7dac-497c-91f2-3de996ee017a"
   },
   "draft": {
-    "page_id": "76128eee-4237-46e8-b1bb-59b090344d2f",
-    "version_id": "1b1e54d1-b0a7-43fe-bb43-b472ea03cd79",
-    "brief_id": "04585f62-9c3a-45e6-9cd0-14f9153a91f5",
+    "page_id": "a047841f-2df9-46ed-9cb5-dd3869ba407e",
+    "version_id": "03ae15a9-dffa-41fb-a095-76b010fa2bad",
+    "brief_id": "86f09499-392e-4a7a-b760-8c6ee89040b4",
     "deterministic_findings": [],
     "rubric": {
       "clarity": 4,
@@ -88,22 +88,22 @@
         "rubric below 3: ['attribution']"
       ],
       "blocking_claim_ids": [
-        "b4be8a5a-d502-4ae5-81f4-0870345ecfbb",
-        "cb21c03a-b3c3-413c-acfc-1b8978705e79",
-        "e16b1435-a0ce-42ea-ad35-00a4d980302c",
-        "e15bd4e7-6a11-4ca9-a670-a18e31fe22c0",
-        "51a501d9-0382-4460-8b04-bdee7d733c4d",
-        "866ba7ee-a10c-44e1-8490-da64d54a3131",
-        "17f7db46-049f-43be-915a-6dd2f075a8f8",
-        "b5f8152b-4668-498c-8e64-09ff51092d2d",
-        "1686f0af-092e-454d-bc09-7816804dc806",
-        "06277fd8-1db9-44bb-be41-bdce42193e5e",
-        "367efdbc-1ee0-4013-997e-597f8d6908f8",
-        "fb90b14b-3144-4e84-847c-4232b6de35ed",
-        "0ff5b45e-578f-4797-8122-9afa53fd6190",
-        "36eb518e-b4e5-4783-9b3e-fff20c387c3e",
-        "0294f782-d632-4b04-8694-00db57762dac",
-        "030a1ef6-496b-4847-a154-47f1f28f896f"
+        "bd91200e-877a-4307-9647-fb70ebbc7fc1",
+        "42402da1-7d3a-4507-b975-f9f32dd2b321",
+        "5caaabf7-f345-4803-9c6f-8947481fbc61",
+        "0b0e2415-1be4-4216-9ba0-92c905666484",
+        "e4c25c78-761a-4d7c-a6d9-933eb1abba60",
+        "1efb8222-b43a-4717-bc7a-f3c3187eb664",
+        "2599946d-4954-41fb-8ef3-5d4c1cd8f8fa",
+        "4923b291-5bcc-4df7-826d-a9c7a630f4a8",
+        "7c840e01-f931-4784-af44-2cb15c8200cc",
+        "50ced7cb-dbe2-4646-b1a2-ebea926b9ddf",
+        "46c6c549-4774-4c95-a671-2ecfbd86ecc9",
+        "c1165bc1-e083-41bb-affc-5b141e51d599",
+        "932ed9d8-9b05-4992-93fc-fdae9c064066",
+        "093b2e76-fad7-4c42-a77a-a48e7c48b1ef",
+        "871e6eae-09e0-4d8e-9487-9c48465351ac",
+        "952dced0-e9b3-4ce8-942e-47cab04c9932"
       ]
     }
   },

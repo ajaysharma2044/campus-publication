@@ -42,12 +42,17 @@ class Extracted:
 def extract_material(html: bytes | str) -> Extracted:
     soup = BeautifulSoup(html, "lxml")
     title = soup.title.get_text(strip=True) if soup.title else None
-    for tag in soup.find_all(NOISE_TAGS):
-        tag.decompose()
+    # Pick the content root FIRST, then strip noise inside it. Stripping first can delete the root itself when a site
+    # wraps <main> in a <header>/<nav> container (observed on scl.cornell.edu, 2026-11-06), leaving only the <title>.
+    root = soup.find("main") or soup.find(attrs={"role": "main"}) or soup.find("article") or soup.body or soup
+    keep = {id(root)} | {id(p) for p in root.parents}
+    for tag in root.find_all(NOISE_TAGS):
+        if id(tag) not in keep:
+            tag.decompose()
     for sel in NOISE_SELECTORS:
-        for el in soup.select(sel):
-            el.decompose()
-    root = soup.find("main") or soup.find(attrs={"role": "main"}) or soup.body or soup
+        for el in root.select(sel):
+            if id(el) not in keep:
+                el.decompose()
     tables = []
     for t in root.find_all("table"):
         cap = t.find("caption")

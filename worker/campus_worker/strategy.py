@@ -147,3 +147,58 @@ def primary_query_conflict(conn: psycopg.Connection, page_path: str, primary_que
     if r and r["page_path"] != page_path:
         return r["page_path"]
     return None
+
+
+# ---------------------------------------------------------------------------------------------- strategist dispatch (R14, AT13)
+def build_packet(conn: psycopg.Connection, *, institution_id: UUID | None, place_id: UUID | None, topic_key: str, school_slug: str, school_name: str,
+                 run_id: str, max_clusters: int = 14) -> dict:
+    """Small packet for the search-strategist: the scored clusters of one scope/topic with their observed results summary,
+    the pages that already exist, and the win-plan rules. Never whole files."""
+    from .agents import dispatch as dsp
+    from .sweetspot import latest_intel
+    scope_col, scope_id = ("c.institution_id", institution_id) if institution_id else ("c.place_id", place_id)
+    with conn.cursor() as cur:
+        cur.execute(f"""SELECT c.id, c.label, c.best_variant, c.d_score, c.agi, c.g_est, c.e_est, c.niche_score, c.queue_state, c.queue_reason, c.audience, e.name AS entity
+                        FROM intent_clusters c JOIN topics t ON t.id=c.topic_id LEFT JOIN entities e ON e.id=c.entity_id
+                        WHERE {scope_col}=%s AND t.key=%s AND c.last_intel_at IS NOT NULL AND c.queue_state IN ('sweet_spot','watch','in_production')
+                        ORDER BY (c.queue_state='sweet_spot') DESC, c.niche_score DESC NULLS LAST, c.d_score DESC NULLS LAST LIMIT %s""", (scope_id, topic_key, max_clusters))
+        clusters = [dict(r) for r in cur.fetchall()]
+        cur.execute("""SELECT p.path, p.status, p.primary_query, v.headline FROM pages p LEFT JOIN page_versions v ON v.id=p.current_version_id
+                       WHERE p.institution_id IS NOT DISTINCT FROM %s AND p.place_id IS NOT DISTINCT FROM %s AND p.status<>'redirected'""", (institution_id, place_id))
+        pages = [dict(r) for r in cur.fetchall()]
+    rows = []
+    for c in clusters:
+        intel = latest_intel(conn, c["id"]) or {"variants": []}
+        obs = []
+        for v in intel["variants"][:2]:
+            res = [{"pos": r.get("position"), "type": r.get("result_type"), "dedicated": r.get("dedicated"), "answer": r.get("answer_quality"), "fresh": r.get("freshness"),
+                    "url": (r.get("url") or "")[:100], "missing": (r.get("missing_contribution") or "")[:120]} for r in (v.get("results") or [])[:5]]
+            obs.append({"query": v["query"], "top5": res})
+        rows.append({"cluster_id": str(c["id"]), "label": c["label"], "best_variant": c["best_variant"], "entity": c["entity"], "audience": c["audience"],
+                     "scores": {"D": c["d_score"], "AGI": c["agi"], "G": c["g_est"], "E": c["e_est"], "niche_score": float(c["niche_score"] or 0)}, "state": c["queue_state"], "observed": obs})
+    return dsp.build_packet(task_id=f"strategy:{school_slug}:{topic_key}", run_id=run_id,
+                            objective=(f"Search strategy (R14, R23) for {school_name} · topic '{topic_key}': cluster map (one page or tool per query group; no two pages target the same query), "
+                                       "win plan per page (contribution that beats the observed results, target title ≤60 chars, H1, ≤50-word answer-first intro, snippet formats, FAQ only from real observed questions), "
+                                       "hub and internal-link plan with exact anchor text, trust signals, refresh cadence, win criteria. Use ONLY the clusters and observations in the packet. "
+                                       f"Paths must follow /schools/{school_slug}/{topic_key.replace('_', '-')}/<slug>/ (comparisons under /compare/<a>-vs-<b>/, tools under /tools/<name>/). "
+                                       "Reuse an existing page (format 'section') where it already answers a query group."),
+                            input_ids=[r["cluster_id"] for r in rows], institution_id=str(institution_id) if institution_id else None, place_id=str(place_id) if place_id else None,
+                            constraints=["scope.school_slug = " + school_slug, "scope.topic_key = " + topic_key, "watch clusters with a strong dedicated incumbent get no new page; fold them into an existing page or note them as watch",
+                                         "every win plan's contribution names what the top results lack (information gain, R37)"],
+                            extra={"clusters": rows, "existing_pages": pages, "school_slug": school_slug, "school_name": school_name, "topic_key": topic_key})
+
+
+def run_strategist(conn: psycopg.Connection, *, institution_id: UUID | None, place_id: UUID | None, topic_key: str, school_slug: str, school_name: str,
+                   run_id: str = "adhoc", runner=None, log_path=None, md_root: Path | None = None) -> dict:
+    from .agents import dispatch as dsp
+    agents = dsp.load_agents()
+    packet = build_packet(conn, institution_id=institution_id, place_id=place_id, topic_key=topic_key, school_slug=school_slug, school_name=school_name, run_id=run_id)
+    res = dsp.dispatch(agents["search-strategist"], packet, runner=runner or dsp.cli_runner, conn=conn, log_path=log_path)
+    if res.status not in ("ok", "hold") or not res.doc:
+        return {"status": res.status, "errors": res.errors, "turns": res.turns, "duration_s": res.duration_s}
+    doc = res.doc.get("output") or {}
+    try:
+        stored = store(conn, doc, institution_id=institution_id, place_id=place_id, topic_key=topic_key, md_root=md_root)
+    except CannibalizationError as e:
+        return {"status": "cannibalization", "errors": [str(e)], "turns": res.turns, "duration_s": res.duration_s, "doc": doc}
+    return {"status": "ok", "turns": res.turns, "duration_s": res.duration_s, "repaired": res.repaired, **stored, "cluster_map": doc.get("cluster_map"), "win_plans": len(doc.get("win_plans") or [])}

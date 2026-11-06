@@ -1,6 +1,7 @@
 """Scale to thousands of pages (specs/continuous-local-run.md R42, R43, R44, R47; AT41, AT42, AT43, AT47 fixture parts)."""
 import json
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from uuid import uuid4
 
 import pytest
@@ -15,6 +16,7 @@ from tests.test_claims import _money
 from tests.test_gates import RUBRIC_OK
 
 NOW = datetime.now(timezone.utc)
+ROOT = Path(__file__).resolve().parents[2]
 
 
 def _claim(inst, campus, topic, ent, field, **kw):
@@ -184,3 +186,40 @@ def test_volume_counts_and_projection(clean_conn):
     assert rep["counts"]["by_tier"][1]["ready"] == 4 and rep["counts"]["by_tier"][2]["ready"] == 2
     pj = rep["projection"]
     assert pj["ready_total"] == 7 and pj["per_day"] > 0 and pj["projected_days"]["1000"] > 0 and pj["projected_days"]["5000"] > pj["projected_days"]["1000"]
+
+
+def test_navigator_renders_and_passes_seo_gate_and_accessibility(clean_conn, tmp_path):
+    """AT47 render part: the navigator page renders from the fixture graph, answers the fixture path, and passes the R45 gate items
+    that depend on markup (one H1, breadcrumb JSON-LD, canonical, answer-first) plus the 5-width screenshot QA with no overflow."""
+    import json, re, shutil, subprocess
+    from campus_worker import seo_gate
+    from campus_worker.render import site
+    inst, campus, topics = make_school(clean_conn)
+    gid = processes.ensure_graph(clean_conn, institution_id=inst, key="changing-majors", name="Changing majors", topic_key="transfer", description="Changing majors or transferring between colleges at Fixture State: steps, requirements, deadlines and offices from official pages.")
+    base = {"steps": ["Meet your advisor", "Apply through the receiving college"], "deadlines": ["Oct 15 (fixture)"], "offices": ["Receiving college registrar"], "gpa_min": "2.5"}
+    processes.upsert_node(clean_conn, gid, processes.NodeSpec("overview", "Changing majors at Fixture State", 0, rules=base, source_urls=["https://www.fixturestate.example.edu/registrar/change-major"]))
+    processes.upsert_node(clean_conn, gid, processes.NodeSpec("as-to-dyson", "Arts & Sciences → Dyson", 1, parent_key="overview", from_state="arts-sciences", to_state="dyson", rules=dict(base, gpa_min="3.0", prerequisites=["AEM 2100"])))
+    processes.upsert_node(clean_conn, gid, processes.NodeSpec("anthro-to-aem-sophomore", "Anthropology → AEM as a sophomore", 2, parent_key="as-to-dyson", from_state="arts-sciences", to_state="dyson", situation="sophomore", rules=dict(base, gpa_min="3.0", prerequisites=["AEM 2100", "MATH 1110"])))
+    processes.decide_pages(clean_conn, gid, institution_id=inst, school_slug="fixture-state", topic_key="transfer", demand_lookup=lambda k: {"independent_questions": 3, "query_targets": 1})
+    out = site.render_navigator(clean_conn, gid, school_slug="fixture-state", school_name="Fixture State University", topic_key="transfer", out_root=tmp_path, environment="production",
+                                selected={"from": "arts-sciences", "to": "dyson", "situations": ["sophomore"]}, base_url="https://example.org")
+    html = out.read_text()
+    assert out.as_posix().endswith("schools/fixture-state/transfer/tools/changing-majors-navigator/index.html")
+    assert html.count("<h1") == 1 and "MATH 1110" in html and "Oct 15 (fixture)" in html and "Receiving college registrar" in html and "data-graph" in html
+    lds = [json.loads(m) for m in re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)]
+    flat = [b for blk in lds for b in (blk if isinstance(blk, list) else [blk])]
+    page = seo_gate.PageInput(path="/schools/fixture-state/transfer/tools/changing-majors-navigator/", title=re.search(r"<title>(.*?)</title>", html, re.S).group(1).split(" — ")[0],
+                              meta_description=re.search(r'name="description" content="([^"]*)"', html).group(1), h1s=re.findall(r"<h1[^>]*>(.*?)</h1>", html, re.S), h2h3s=re.findall(r"<h[23][^>]*>(.*?)</h[23]>", html, re.S),
+                              opening_paragraph=re.search(r'<p class="measure"><strong>(.*?)</strong></p>', html, re.S).group(1), primary_query="changing majors fixture state", secondary_questions=[],
+                              json_ld=flat, page_type="WebPage", internal_links=[{"href": h, "anchor": re.sub("<[^>]+>", "", a).strip()} for h, a in re.findall(r'<a href="(/[^"]+)"[^>]*>(.*?)</a>', html, re.S)],
+                              topic_hub="/schools/fixture-state/transfer/", scope_hub="/schools/fixture-state/", backlinks=1, canonical="https://example.org/schools/fixture-state/transfer/tools/changing-majors-navigator/",
+                              environment="production", html_css_bytes=len(html.encode()) + (tmp_path / "static" / "campus.css").stat().st_size, visible_updated_date="Updated" in html, time_bound_facts_with_year=True)
+    r = seo_gate.evaluate(page)
+    assert r.passed, r.failed
+    # accessibility + overflow QA at 5 widths (Playwright), on the rendered build
+    node = shutil.which("node")
+    if not node:
+        pytest.skip("node not available")
+    qa = subprocess.run([node, str(ROOT / "scripts" / "qa_screens.js"), str(tmp_path), str(tmp_path / "qa")], capture_output=True, text=True, timeout=600, cwd=str(ROOT))
+    assert qa.returncode == 0, qa.stdout[-2000:] + qa.stderr[-2000:]
+    assert "problems: 0" in qa.stdout or "0 problem" in qa.stdout or '"problems": 0' in qa.stdout, qa.stdout[-1500:]
