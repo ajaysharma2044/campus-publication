@@ -19,6 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 WORKER = ROOT / "worker"
 RENDER_DIR = WORKER / "campus_worker" / "render"
+PHOTOS_DIR = ROOT / "content" / "images"
 OUT = ROOT / "build" / "preview"
 
 _lock = threading.Lock()
@@ -27,7 +28,7 @@ _last_stamp: float | None = None
 
 def _stamp() -> float:
     latest = 0.0
-    for p in RENDER_DIR.rglob("*"):
+    for p in list(RENDER_DIR.rglob("*")) + (list(PHOTOS_DIR.rglob("*")) if PHOTOS_DIR.exists() else []):
         if p.is_file() and "__pycache__" not in p.parts:
             latest = max(latest, p.stat().st_mtime)
     return latest

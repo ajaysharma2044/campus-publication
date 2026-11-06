@@ -11,6 +11,8 @@ from __future__ import annotations
 import json
 import shutil
 import sys
+
+import yaml
 from datetime import date, datetime, timezone
 from pathlib import Path
 
@@ -37,11 +39,48 @@ SOURCES = [
     {"url": "https://www.fixturestate.example.edu/housing/rate-sheet.pdf", "title": "Housing rate sheet (synthetic fixture PDF)", "publisher": "Fixture State University Housing", "retrieved_at": VERIFIED, "kind": "official PDF"},
 ]
 IMG = "/static/img/placeholders/"
+PHOTOS_DIR = REPO_ROOT / "content" / "images"          # owner-supplied photographs + credits.yml
+PHOTOS_URL = "/static/img/photos/"
 CREDIT = "Synthetic placeholder illustration (preview only; published pages carry credited, rights-cleared photographs)"
 
 
+def _photo_credits() -> dict:
+    f = PHOTOS_DIR / "credits.yml"
+    if not f.exists():
+        return {}
+    data = yaml.safe_load(f.read_text()) or {}
+    return data if isinstance(data, dict) else {}
+
+
+PHOTOS = _photo_credits()
+
+
 def pic(name: str, alt: str, caption: str | None = None) -> dict:
+    """Image record for a slot: the owner's photo from content/images/ when credits.yml lists one
+    (file + alt + credit required), else the labeled synthetic placeholder."""
+    entry = PHOTOS.get(name)
+    if isinstance(entry, dict) and entry.get("file") and entry.get("alt") and entry.get("credit") and (PHOTOS_DIR / entry["file"]).exists():
+        stem = Path(entry["file"]).stem
+        return {"src": f"{PHOTOS_URL}{entry['file']}", "src_small": f"{PHOTOS_URL}{stem}-800.jpg", "alt": entry["alt"],
+                "caption": entry.get("caption") or caption, "credit": entry["credit"]}
     return {"src": f"{IMG}{name}.jpg", "src_small": f"{IMG}{name}-800.jpg", "alt": alt, "caption": caption, "credit": CREDIT}
+
+
+def copy_photos(static_out: Path) -> None:
+    """Copy credited photos into the build and write an 800px-wide card copy next to each."""
+    used = [e for e in PHOTOS.values() if isinstance(e, dict) and e.get("file") and (PHOTOS_DIR / e["file"]).exists()]
+    if not used:
+        return
+    from PIL import Image
+    dest = static_out / "img" / "photos"
+    dest.mkdir(parents=True, exist_ok=True)
+    for e in used:
+        src = PHOTOS_DIR / e["file"]
+        shutil.copy2(src, dest / src.name)
+        with Image.open(src) as im:
+            im = im.convert("RGB")
+            w, h = im.size
+            im.resize((800, max(1, round(h * 800 / w))), Image.LANCZOS).save(dest / f"{src.stem}-800.jpg", quality=80, optimize=True)
 
 
 NOTE = ("Produced by the publication's automated research and writing system from the sources listed, with deterministic fact checks and a "
@@ -233,6 +272,7 @@ def build(out: Path = OUT_DEFAULT) -> list[Path]:
     if static_out.exists():
         shutil.rmtree(static_out)
     shutil.copytree(engine.STATIC_DIR, static_out)
+    copy_photos(static_out)
     written = []
     for rel, fn in PAGES.items():
         template, ctx = fn()
