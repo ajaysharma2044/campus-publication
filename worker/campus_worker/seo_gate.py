@@ -96,7 +96,7 @@ INTENT_FORMS = {
     "good": ("good", "worth", "right", "best fit", "what to know"), "transfers": ("transfer",), "transfer": ("transfer",), "guaranteed": ("guarantee",),
     "size": ("size", "square", "sq", "dimensions"), "room": ("room",), "apply": ("apply", "application", "how to"), "deadline": ("deadline", "due", "by"),
 }
-STOP = {"the", "a", "an", "is", "are", "do", "does", "at", "in", "for", "to", "of", "and", "or", "can", "i", "my", "how", "what", "which", "much", "it", "there", "get"}
+STOP = {"the", "a", "an", "is", "are", "do", "does", "at", "in", "for", "to", "of", "and", "or", "can", "i", "my", "how", "what", "which", "much", "it", "there", "get", "being", "been", "be", "was", "were", "will", "would", "could", "should", "shall", "may", "might", "has", "have", "had", "am"}
 
 
 def _contains_query(title: str, query: str) -> bool:

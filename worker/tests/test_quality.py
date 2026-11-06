@@ -145,3 +145,9 @@ def test_seo_gate_treats_typographic_apostrophes_as_the_same_words():
     from campus_worker import seo_gate
     assert seo_gate._contains_query("What is Cornell’s current housing policy for transfer students?", "What is Cornell's current housing policy for transfer students?")
     assert seo_gate._contains_query("Is Housing Guaranteed for Cornell Transfer Students?", "Is housing guaranteed for transfer students at Cornell?")
+
+
+def test_seo_gate_ignores_auxiliary_verbs_in_primary_query_coverage():
+    from campus_worker import seo_gate
+    assert seo_gate._contains_query("Is Cornell's North Campus expansion used to house transfers?", "Is Cornell's North Campus expansion being used to house transfers?")
+    assert not seo_gate._contains_query("Cornell North Campus housing", "Is Cornell's North Campus expansion being used to house transfers?")
