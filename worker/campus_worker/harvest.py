@@ -36,10 +36,13 @@ class HarvestRule:
     heading_regex: str | None = None          # only list items / links under a heading matching this (case-insensitive)
     item_selector: str | None = None          # CSS selector for items (default: anchors)
     exclude_regex: str | None = None          # drop names matching this
+    include_regex: str | None = None          # keep only names matching this
     min_name_len: int = 3
     attributes: dict = field(default_factory=dict)
     publisher: str | None = None
     group_from_heading: bool = False          # store the nearest heading text as attributes.group (for vs-pairs, R19)
+    name_split_regex: str | None = None       # for text items: keep the text BEFORE the first match (e.g. " – in Toni Morrison Hall")
+    detail_from_split: str | None = None      # attribute name for the text AFTER the split (e.g. "located_in")
 
     def as_json(self) -> dict:
         return {k: v for k, v in self.__dict__.items()}
@@ -64,10 +67,20 @@ def extract_entities(html: bytes | str, rule: HarvestRule) -> list[dict]:
     link_re = re.compile(rule.link_regex, re.I) if rule.link_regex else None
     excl = re.compile(rule.exclude_regex, re.I) if rule.exclude_regex else None
     nodes = soup.select(rule.item_selector) if rule.item_selector else soup.find_all("a", href=True)
+    split_re = re.compile(rule.name_split_regex) if rule.name_split_regex else None
     for node in nodes:
         a = node if node.name == "a" else node.find("a", href=True)
-        name = (a.get_text(" ", strip=True) if a else node.get_text(" ", strip=True)) or ""
-        name = re.sub(r"\s+", " ", name).strip(" -–—:·|")
+        raw_text = (a.get_text(" ", strip=True) if (a and not split_re) else node.get_text(" ", strip=True)) or ""
+        raw_text = raw_text.replace("\xa0", " ")
+        detail = None
+        if split_re:
+            m = split_re.search(raw_text)
+            if not m:
+                continue  # text items must match the split pattern (e.g. "<name> – in <building>")
+            name, detail = raw_text[:m.start()], raw_text[m.end():].strip(" .")
+        else:
+            name = raw_text
+        name = re.sub(r"\s+", " ", name).strip(" -–—:·|!")
         if len(name) < rule.min_name_len or len(name) > 120:
             continue
         href = urljoin(base, a["href"]) if a else None
@@ -87,11 +100,13 @@ def extract_entities(html: bytes | str, rule: HarvestRule) -> list[dict]:
                 continue
         if excl and excl.search(name):
             continue
+        if rule.include_regex and not re.search(rule.include_regex, name, re.I):
+            continue
         slug = slugify(name)
         if not slug or slug in found:
             continue
         group = _nearest_heading(node) if rule.group_from_heading else None
-        found[slug] = {"name": name, "slug": slug, "url": href, "group": group}
+        found[slug] = {"name": name, "slug": slug, "url": href, "group": group, "detail": detail}
     return list(found.values())
 
 
@@ -100,6 +115,8 @@ def register_rule(conn: psycopg.Connection, rule: HarvestRule, *, institution_id
     sid = register_source(conn, canonical_url=rule.source_url, institution_id=institution_id, campus_id=campus_id, source_kind=source_kind,
                           publisher=rule.publisher, reliability="official", source_family=f"harvest:{rule.key}", place_id=place_id)
     with conn.cursor() as cur:
+        # one harvest source per rule key: a rule whose URL moved must not leave a stale row that re-harvests the old address
+        cur.execute("DELETE FROM harvest_sources h USING source_registry r WHERE h.source_id=r.id AND h.rule_key=%s AND r.canonical_url<>%s", (rule.key, rule.source_url))
         cur.execute(
             """INSERT INTO harvest_sources (source_id, rule_key, entity_type, topic_key, rule) VALUES (%s,%s,%s,%s,%s::jsonb)
                ON CONFLICT (source_id, rule_key) DO UPDATE SET entity_type=EXCLUDED.entity_type, topic_key=EXCLUDED.topic_key, rule=EXCLUDED.rule RETURNING id""",
@@ -137,6 +154,8 @@ def harvest_html(conn: psycopg.Connection, rule: HarvestRule, html: bytes | str,
                 attrs["group"] = it["group"]
             if it.get("url"):
                 attrs["official_url"] = it["url"]
+            if it.get("detail") and rule.detail_from_split:
+                attrs[rule.detail_from_split] = it["detail"]
             seen_slugs.append(it["slug"])
             if institution_id is not None:
                 cur.execute(
@@ -185,6 +204,15 @@ def harvest_source(conn: psycopg.Connection, fetcher, harvest_source_id: UUID) -
         row = cur.fetchone()
     if not row:
         raise LookupError("harvest source not found")
+    if (row["rule"] or {}).get("kind") == "gtfs":
+        from .collectors.gtfs import parse_routes, store_routes
+        res = fetcher.fetch(row["canonical_url"], expected_types=("application/zip", "application/octet-stream", "application/x-zip-compressed"), use_conditional=False)
+        if res.status >= 400 or not res.body:
+            return {"rule": row["rule"]["key"], "outcome": f"http_{res.status}", "found": 0}
+        with conn.cursor() as cur:
+            cur.execute("SELECT id FROM source_registry WHERE canonical_url=%s", (row["canonical_url"],))
+            sid = cur.fetchone()["id"]
+        return store_routes(conn, parse_routes(res.body), place_id=row["place_id"], source_url=row["canonical_url"], source_id=sid, rule_key=row["rule"]["key"])
     rule = HarvestRule(**row["rule"])
     res = fetcher.fetch(row["canonical_url"], expected_types=("text/html", "application/xhtml+xml"))
     if res.status >= 400 or not res.body:
@@ -192,12 +220,12 @@ def harvest_source(conn: psycopg.Connection, fetcher, harvest_source_id: UUID) -
     return harvest_html(conn, rule, res.body, institution_id=row["institution_id"], campus_id=row["campus_id"], place_id=row["place_id"], snapshot_url=res.final_url)
 
 
-def due_harvest_sources(conn: psycopg.Connection, *, now: datetime | None = None) -> list[dict]:
+def due_harvest_sources(conn: psycopg.Connection, *, now: datetime | None = None, force: bool = False) -> list[dict]:
     now = now or datetime.now(timezone.utc)
     with conn.cursor() as cur:
         cur.execute("""SELECT h.id, h.rule_key, h.entity_type, h.topic_key, r.canonical_url, r.institution_id, r.place_id, h.last_harvested_at
                        FROM harvest_sources h JOIN source_registry r ON r.id=h.source_id
-                       WHERE h.last_harvested_at IS NULL OR r.next_refresh_at IS NULL OR r.next_refresh_at <= %s ORDER BY h.last_harvested_at NULLS FIRST""", (now,))
+                       WHERE %s OR h.last_harvested_at IS NULL OR r.next_refresh_at IS NULL OR r.next_refresh_at <= %s ORDER BY h.last_harvested_at NULLS FIRST""", (force, now))
         return [dict(r) for r in cur.fetchall()]
 
 

@@ -44,11 +44,11 @@ def scopes(conn: psycopg.Connection) -> dict:
     return {"schools": schools, "towns": towns}
 
 
-def run_harvest(conn: psycopg.Connection, fetcher=None) -> dict:
+def run_harvest(conn: psycopg.Connection, fetcher=None, *, force: bool = False) -> dict:
     from .fetcher import SafeFetcher
     fetcher = fetcher or SafeFetcher(conn)
     out = []
-    for src in harvest.due_harvest_sources(conn):
+    for src in harvest.due_harvest_sources(conn, force=force):
         try:
             out.append(harvest.harvest_source(conn, fetcher, src["id"]))
         except Exception as e:  # noqa: BLE001 — one bad source never stops the sweep; it is reported
@@ -182,7 +182,7 @@ def main(argv: list[str]) -> int:
         if "--batch" in argv:
             batch = int(argv[argv.index("--batch") + 1])
         if cmd == "harvest":
-            out = run_harvest(conn)
+            out = run_harvest(conn, force="--force" in argv)
         elif cmd == "expand":
             out = run_expand(conn)
         elif cmd == "intel":

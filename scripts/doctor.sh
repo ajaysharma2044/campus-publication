@@ -37,7 +37,8 @@ command -v caffeinate >/dev/null && pass "caffeinate" "present" || fail "caffein
 if [ -z "${DATABASE_URL:-}" ]; then fail "DATABASE_URL set" "put DATABASE_URL in worker/.env (hosted Postgres 16)"
 elif command -v psql >/dev/null && psql -X -At "$DATABASE_URL" -c 'select 1' >/dev/null 2>&1; then
   pass "DATABASE_URL reachable" "$(psql -X -At "$DATABASE_URL" -c 'show server_version' 2>/dev/null)"
-  if [ -n "$PY" ] && (cd "$ROOT/worker" && "$PY" -m campus_worker.db status 2>/dev/null | grep -q '"pending": \[\]'); then pass "migrations current" ""; else fail "migrations current" "run: cd worker && python -m campus_worker.db migrate"; fi
+  mig="$(cd "$ROOT/worker" && "$PY" -m campus_worker.db status 2>/dev/null)"
+  if [ -n "$mig" ] && ! printf '%s\n' "$mig" | grep -qv 'applied'; then pass "migrations current" "$(printf '%s\n' "$mig" | tail -1 | awk '{print $1, $2}')"; else fail "migrations current" "run: cd worker && python -m campus_worker.db migrate"; fi
 else fail "DATABASE_URL reachable" "connection failed (value not shown)"; fi
 TEST_URL="${TEST_DATABASE_URL:-}"
 if [ -z "$TEST_URL" ]; then fail "TEST_DATABASE_URL set" "local test DB, never the hosted one"

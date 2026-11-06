@@ -200,7 +200,12 @@ def robots_allows(robots_txt: str, path: str, user_agent: str) -> bool:
     rp = RobotFileParser()
     rp.parse((robots_txt or "").splitlines())
     try:
-        return rp.can_fetch(user_agent, path or "/")
+        # We are an automated agent run from Claude Code: a site that disallows Claude/Anthropic crawlers is honoured as a
+        # disallow for us too, even though our own user-agent token is different (R35: never fetch past robots rules).
+        for ua in (user_agent, "ClaudeBot", "Claude-Web", "anthropic-ai", "Claude-User", "Claude-SearchBot"):
+            if not rp.can_fetch(ua, path or "/"):
+                return False
+        return True
     except Exception:  # noqa: BLE001
         return True
 
