@@ -7,5 +7,5 @@ DB_URL="${DATABASE_URL:-postgresql://campus:campus_local_dev@localhost:5432/camp
 pg_dump --format=custom --no-owner --file="$OUT/research.dump" "$DB_URL"
 [ -d "$ROOT/wp-local/wordpress/wp-content/database" ] && tar -czf "$OUT/wordpress-content.tgz" -C "$ROOT/wp-local/wordpress/wp-content" database uploads 2>/dev/null || true
 tar -czf "$OUT/config.tgz" -C "$ROOT" worker/.env.example fixtures/synthetic/school_configs worker/campus_worker/migrations
-sha256sum "$OUT"/* > "$OUT/SHA256SUMS"
+(cd "$OUT" && if command -v sha256sum >/dev/null; then sha256sum *; else shasum -a 256 *; fi > SHA256SUMS)
 echo "backup written to $OUT"; ls -la "$OUT"

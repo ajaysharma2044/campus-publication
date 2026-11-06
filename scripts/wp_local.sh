@@ -11,7 +11,7 @@ case "${1:-}" in
     rm -rf "$WP/wp-content/plugins/sqlite-database-integration"; cp -r "$SQL" "$WP/wp-content/plugins/sqlite-database-integration"
     rm -rf "$WP/wp-content/plugins/sqlite-database-integration/wp-includes/database"; cp -r "$ROOT/wp-local/sqlite-plugin/packages/mysql-on-sqlite/src" "$WP/wp-content/plugins/sqlite-database-integration/wp-includes/database"
     cp "$SQL/db.copy" "$WP/wp-content/db.php"
-    sed -i "s#{SQLITE_IMPLEMENTATION_FOLDER_PATH}#$WP/wp-content/plugins/sqlite-database-integration#; s#{SQLITE_PLUGIN}#sqlite-database-integration/load.php#" "$WP/wp-content/db.php"
+    sed -i.bak "s#{SQLITE_IMPLEMENTATION_FOLDER_PATH}#$WP/wp-content/plugins/sqlite-database-integration#; s#{SQLITE_PLUGIN}#sqlite-database-integration/load.php#" "$WP/wp-content/db.php"; rm -f "$WP/wp-content/db.php.bak"
     ln -sfn "$ROOT/wp/plugins/campus-core" "$WP/wp-content/plugins/campus-core"
     ln -sfn "$ROOT/wp/themes/campus-editorial" "$WP/wp-content/themes/campus-editorial"
     cat > "$WP/wp-config.php" <<CFG

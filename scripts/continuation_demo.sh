@@ -6,7 +6,9 @@
 set -uo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"; MAX="${1:-6}"; LOG="$ROOT/build/continuation.log"; LOCK="$ROOT/build/continuation.lock"
 mkdir -p "$ROOT/build"
-exec 9>"$LOCK"; flock -n 9 || { echo "another continuation run holds $LOCK; exiting" | tee -a "$LOG"; exit 11; }
+# portable single-instance lock (mkdir is atomic on Linux and macOS; flock is not available on macOS)
+if ! mkdir "$LOCK" 2>/dev/null; then echo "another continuation run holds $LOCK; exiting" | tee -a "$LOG"; exit 11; fi
+trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 cd "$ROOT/worker"
 if [ "${2:-}" = "--seed-demo" ]; then
   python - <<'PY'
