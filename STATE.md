@@ -78,6 +78,8 @@ Implementation: `CAMPUS_LEAN_MODE` (default on) in `config.py`; `funnel.qualify`
 - Single-occurrence clusters without hypotheses are decided `watch` ("waiting for a second independent occurrence", R20) so the bounded sweep can reach `complete`.
 - The loop's own iterations fixed two test flakes under load (`CAMPUS_RUN_NO_DIGEST` for the run-loop tests; a connection fixture that tolerates a test-closed connection) and committed them with tests.
 
+- Run 20261106T201209Z iteration 4 (discovery lane): `sweep run-intel --batch 10` observed 10 deferred clusters (2 navigational, 8 watch, 0 sweet-spot); about 1,077 remain deferred.
+
 ### Assumptions (session 3)
 - `living.cornell.edu` resolves (to a static-web load balancer) but never answers on 80 or 443; treated as a retired alias of `scl.cornell.edu` and reported as WARN, not a required failure. The housing source of record is `scl.cornell.edu`.
 - Python runs from `worker/.venv` (Homebrew python is externally managed); every script resolves that interpreter first.
