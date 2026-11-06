@@ -1,0 +1,77 @@
+# Bulk-mode dossier config for the second school (specs/bulk-mode.md B7: a second school completes dossier, question map and 100+ pages
+# using only config changes). Ithaca College shares the town (Ithaca, Tompkins County) with Cornell, so the town sections are reused.
+# Before the first crawl, two data steps outside this file are needed and are recorded in STATE.md when done:
+#   1. a source_permissions row for *.ithaca.edu (official_html, fetch_permitted, excerpts_only, 20/min) after its robots/terms check;
+#   2. the registry record verified against the current IPEDS release (identity_status 'verified'); the slug below is the registry slug.
+school: ithaca-college-191968
+place: ithaca-ny
+county_place: tompkins-county-ny
+max_pages_per_host: 400
+sections:
+  - key: housing
+    topic: housing
+    hosts: [www.ithaca.edu]
+    prefixes: ["/student-life/housing", "/residential-life", "/housing"]
+  - key: dining
+    topic: dining
+    hosts: [www.ithaca.edu]
+    prefixes: ["/student-life/dining", "/dining"]
+  - key: registrar
+    topic: courses
+    hosts: [www.ithaca.edu]
+    prefixes: ["/registrar", "/academics/registrar"]
+  - key: admissions
+    topic: admissions
+    hosts: [www.ithaca.edu]
+    prefixes: ["/admission", "/admissions"]
+  - key: financial_aid
+    topic: costs_aid
+    hosts: [www.ithaca.edu]
+    prefixes: ["/financial-aid", "/tuition", "/bursar", "/student-financial-services"]
+  - key: transportation
+    topic: transportation
+    hosts: [www.ithaca.edu]
+    prefixes: ["/parking", "/transportation", "/campus-safety"]
+    max_pages: 120
+  - key: health
+    topic: health_wellbeing
+    hosts: [www.ithaca.edu]
+    prefixes: ["/health", "/counseling", "/wellness"]
+    max_pages: 120
+  - key: careers
+    topic: careers
+    hosts: [www.ithaca.edu]
+    prefixes: ["/career"]
+    max_pages: 120
+  - key: alumni
+    topic: alumni_benefits
+    hosts: [www.ithaca.edu]
+    prefixes: ["/alumni"]
+    max_pages: 120
+  - key: parents
+    topic: parents_visitors
+    hosts: [www.ithaca.edu]
+    prefixes: ["/families", "/parents"]
+    max_pages: 100
+  - key: catalog
+    topic: programs
+    hosts: [catalog.ithaca.edu]
+    max_pages: 300
+  - key: student_life
+    topic: services
+    hosts: [www.ithaca.edu]
+    prefixes: ["/student-life"]
+    max_pages: 250
+  - key: town
+    place: ithaca-ny
+    topic: town_services
+    hosts: [cityofithacany.gov]
+    max_pages: 150
+  - key: county
+    place: tompkins-county-ny
+    topic: town_services
+    hosts: [tompkinscountyny.gov]
+    max_pages: 150
+observe_only:
+  - host: tcatbus.com
+    reason: source_permissions allows search observation only; the GTFS feed collector covers routes

@@ -134,9 +134,13 @@ def summary_md(d: dict, *, question_stats: dict | None = None, minutes: float | 
         lines += ["## Question map", f"- {question_stats.get('total', 0)} deduped questions ({question_stats.get('generated', 0)} generated from the dossier, {question_stats.get('cluster', 0)} from observed search clusters, {question_stats.get('yaml', 0)} from data/questions).",
                   f"- Incumbent classes: " + ", ".join(f"{k} {v}" for k, v in sorted((question_stats.get('by_class') or {}).items(), key=lambda kv: -kv[1])) + ".", ""]
     lines += ["## Deadlines (dated)"]
-    for c in d["deadlines"][:25]:
+    seen_dl: dict = {}
+    for c in d["deadlines"]:
         if c.get("value_date"):
-            lines.append(f"- {long_date(c['value_date'])}: {c['field'].split('.', 1)[-1].replace('_', ' ')}{' (' + c['academic_year'] + ')' if c.get('academic_year') else ''} — {c['sources'][0]['url'] if c['sources'] else 'no source url'}")
+            key = (str(c["value_date"]), c["sources"][0]["url"] if c["sources"] else "")
+            seen_dl.setdefault(key, []).append(c["field"].split(".", 1)[-1].replace("_", " ").replace(".", " "))
+    for (day, url), names in list(seen_dl.items())[:25]:
+        lines.append(f"- {long_date(day)}: {'; '.join(dict.fromkeys(names))} — {url or 'no source url'}")
     lines += ["", "## Costs (sample)"]
     for c in d["costs"][:25]:
         ent = next((e["name"] for e in d["entities"] if e["id"] == c.get("entity_id")), None)
