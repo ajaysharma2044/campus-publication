@@ -176,3 +176,14 @@ def test_auto_cite_adds_claim_refs_and_fact_rows_for_values_in_prose():
     out = pipeline.auto_cite(draft, claims)
     assert out["claim_refs"] == ["c-date", "c-fee"]
     assert {r["claim_id"] for r in out["fact_table"]} == {"c-date", "c-fee"} and all(r["label"] for r in out["fact_table"])
+
+
+def test_researcher_field_names_stay_on_the_claim_taxonomy():
+    from campus_worker import pipeline
+    from campus_worker.claims import is_critical_field
+    assert pipeline.canonical_field("housing.cancellation.late_request_fee") == "fee.cancellation_late_request_fee"
+    assert pipeline.canonical_field("housing.cancellation.penalty_free_deadline_fall") == "deadline.cancellation_penalty_free_deadline_fall"
+    assert pipeline.canonical_field("housing.rate.fall_semester") == "rate.fall_semester"
+    assert pipeline.canonical_field("housing.placement.random_auto_allocation") == "placement.random_auto_allocation"
+    assert pipeline.canonical_field("eligibility.exempt_if") == "eligibility.exempt_if" and pipeline.canonical_field("capacity.residents") == "capacity.residents"
+    assert is_critical_field(pipeline.canonical_field("housing.cancellation.late_request_fee"))

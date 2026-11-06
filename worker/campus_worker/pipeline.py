@@ -238,6 +238,38 @@ def stage_research(conn, cluster_id: UUID, *, runner=dsp.cli_runner, log_path=No
     return {"status": res.status, "errors": res.errors, "claims_stored": stored}
 
 
+_FIELD_PREFIXES = ("rate.", "cost.", "fee.", "deadline.", "eligibility.", "prerequisite.", "agreement.", "accessibility.", "route.", "placement.", "process.", "policy.", "capacity.", "address.", "hours.", "contact.", "amenity.", "timeline.", "housing.")
+
+
+def canonical_field(field: str) -> str:
+    """Keep researcher field names on the claim taxonomy so the critical-claim rule (rate./fee./deadline./eligibility.) keeps its grip:
+    a topic prefix is dropped and a segment that names a fee, deadline, rate or eligibility rule moves under that prefix."""
+    f = (field or "").strip().lower().replace(" ", "_")
+    parts = [x for x in f.split(".") if x]
+    if parts and parts[0] in ("housing", "dining", "transfer", "transportation", "costs_aid", "admissions", "town"):
+        parts = parts[1:]
+    if not parts:
+        return f or "fact"
+    joined = ".".join(parts)
+    head = parts[0]
+    if head in ("rate", "cost", "fee", "deadline", "eligibility", "prerequisite", "agreement", "accessibility", "route", "placement", "process", "policy", "capacity", "address", "hours", "contact", "amenity", "timeline"):
+        return joined
+    rest = "_".join(parts)
+    if "fee" in rest or "deposit" in rest:
+        return "fee." + rest
+    if "deadline" in rest or "due_date" in rest:
+        return "deadline." + rest
+    if "rate" in rest or "cost" in rest or "price" in rest:
+        return "rate." + rest
+    if any(k in rest for k in ("eligib", "exception", "exempt", "requirement", "required", "guarantee")):
+        return "eligibility." + rest
+    if "placement" in rest or "allocation" in rest or "assign" in rest:
+        return "placement." + rest
+    if "hours" in rest:
+        return "hours." + rest
+    return joined
+
+
 def store_research_claims(conn, c: dict, items: list[dict], *, snapshot_by_page: dict, entity_id=None) -> list[dict]:
     from datetime import date as _date
     from . import claims as cm
@@ -252,7 +284,7 @@ def store_research_claims(conn, c: dict, items: list[dict], *, snapshot_by_page:
             continue
         vt = it.get("value_type")
         val = it.get("value")
-        kw = dict(institution_id=c["institution_id"], campus_id=campus, entity_id=entity_id, topic_id=c["topic_id"], field=it["field"], value_type=vt,
+        kw = dict(institution_id=c["institution_id"], campus_id=campus, entity_id=entity_id, topic_id=c["topic_id"], field=canonical_field(it["field"]), value_type=vt,
                   evidence_category=it["evidence_category"], extraction_method="model", extraction_model="session:researcher", extraction_confidence=it.get("confidence") or 0.8,
                   retrieved_at=now, academic_year=it.get("academic_year"), audience_applicability=it.get("audience_applicability") or [], billing_period=it.get("billing_period"),
                   price_basis=it.get("price_basis"), room_type=it.get("room_type"), unit=it.get("unit"), currency=it.get("currency"))
@@ -275,7 +307,7 @@ def store_research_claims(conn, c: dict, items: list[dict], *, snapshot_by_page:
         snap = snapshot_by_page.get(page_key)
         family = _snapshot_family(conn, snap) if snap else None
         r = cm.store_claim(conn, rec, snapshot_id=UUID(str(snap)) if snap else None, excerpt=(it.get("excerpt") or "")[:500], locator=(it.get("source_locator") or "")[:300], source_family=family)
-        out.append({"field": it["field"], "action": r.action, "claim_id": str(r.claim_id), "audience": it.get("audience_applicability"), "superseded_id": str(r.superseded_id) if r.superseded_id else None})
+        out.append({"field": canonical_field(it["field"]), "action": r.action, "claim_id": str(r.claim_id), "audience": it.get("audience_applicability"), "superseded_id": str(r.superseded_id) if r.superseded_id else None})
     return out
 
 
