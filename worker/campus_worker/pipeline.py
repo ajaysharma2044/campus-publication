@@ -862,6 +862,29 @@ def latest_verifier_corrections(version_id: UUID) -> dict:
             "rubric": o.get("rubric"), "rubric_notes": o.get("rubric_notes") or {}}
 
 
+def page_claim_verdicts(conn, page_id: UUID) -> dict[str, str]:
+    """The verifier's latest verdict per claim across every version of this page (from the saved verifier replies), so a claim once found
+    wrong-scope or unsupported stays off the page in later rounds unless a later verdict supports it."""
+    with conn.cursor() as cur:
+        cur.execute("SELECT id FROM page_versions WHERE page_id=%s", (page_id,))
+        vids = {str(r["id"]) for r in cur.fetchall()}
+    verdicts: dict[str, tuple[str, str]] = {}
+    for f in sorted((RUNS_DIR / "agent-output").glob("*-verifier-*.json")):
+        try:
+            d = json.loads(f.read_text())
+        except json.JSONDecodeError:
+            continue
+        doc = d.get("doc") or {}
+        if not (set(doc.get("input_ids") or []) & vids):
+            continue
+        stamp = f.name[:16]
+        for cc in (doc.get("output") or {}).get("claim_checks") or []:
+            cid = str(cc.get("claim_id") or "")
+            if cid and (cid not in verdicts or verdicts[cid][0] <= stamp):
+                verdicts[cid] = (stamp, cc.get("status") or "")
+    return {cid: st for cid, (stamp, st) in verdicts.items()}
+
+
 def correct(conn, version_id: UUID, *, settings, runner=dsp.cli_runner, log_path=None, run_id="adhoc", siblings: list[UUID] | None = None, publish: bool = True) -> dict:
     """One correction round for a held version: the editor applies the verifier's corrections and the SEO gate's failures (title words,
     links to sibling pages), a new version is created (beat review carried), checked, re-verified when facts changed or the verifier had
@@ -930,6 +953,7 @@ def correct(conn, version_id: UUID, *, settings, runner=dsp.cli_runner, log_path
     # the verifier's claim verdicts are deterministic instructions: wrong-scope/unsupported claims leave the page; claims it names as replacements are preferred
     by_prefix = {k["id"][:8]: k["id"] for k in claims}
     excluded = {w["claim_id"] for w in vc["not_supported"] if w.get("status") in ("wrong_scope", "unsupported", "stale", "conflicted")}
+    excluded |= {cid for cid, st in page_claim_verdicts(conn, v["page_id"]).items() if st in ("wrong_scope", "unsupported", "stale", "conflicted")}  # verdicts from earlier rounds hold
     preferred: set[str] = set()
     for x in vc["corrections"]:
         for pfx in re.findall(r"\b([0-9a-f]{8})\b", x):
