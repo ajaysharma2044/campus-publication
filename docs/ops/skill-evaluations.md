@@ -95,3 +95,58 @@ last scout run: 2026-11-06 · runs: skill-scout-live-1.json, skill-scout-live-2.
 - Seconds and turns are approximate: both arms combined, shared reads apportioned. Total session time to the scoring step was about 165 s by epoch timestamps.
 - Claim ids in task 1 are local labels for the 6 rate cells in the fixture; the fixture has no claim ids. The rate table is for all undergraduate halls; the source does not say it applies to Fixture Hall specifically.
 - Some files were not opened: humanizer README.md, AGENTS.md, CHANGELOG.md, agents/openai.yaml, marketplace.json and .cursor-plugin/plugin.json (docs and manifests, not scripts or hooks), claude-seo references/keyword-density.md, and template.html beyond a grep for URLs.
+
+## Vendored references (instructions only, not installed)
+
+Added 2026-11-06 for `specs/bulk-mode.md` section 4. This is reference text, not adoption under the R12 rule above: nothing is placed under `.claude/skills/`, no row in this section has the status `adopted`, and the guard hook allows nothing new. Rollback: delete `skills/vendor/marketingskills-programmatic-seo/` and revert the vendoring commit.
+
+| name | status | source | pinned sha | license | location | skill version | vendored |
+|---|---|---|---|---|---|---|---|
+| `marketingskills.programmatic-seo` | vendored (reference only) | https://github.com/coreyhaines31/marketingskills (path `skills/programmatic-seo/`, branch `main`) | 96798cf38736ecdba015a1d2b0521b0c8f8f41dd | MIT, Copyright (c) 2025 Corey Haines (full text in `VENDOR.md`) | `skills/vendor/marketingskills-programmatic-seo/` | 2.1.1 | 2026-11-06 |
+
+Copied (Markdown only, byte-identical to upstream at the pinned SHA; sizes and sha256 are in `VENDOR.md`):
+
+- `skills/vendor/marketingskills-programmatic-seo/SKILL.md`
+- `skills/vendor/marketingskills-programmatic-seo/references/playbooks.md`
+- `skills/vendor/marketingskills-programmatic-seo/references/implementation-platforms.md`
+- `skills/vendor/marketingskills-programmatic-seo/VENDOR.md` (written locally: source, SHA, date, license text, file list)
+
+Not copied:
+
+- `skills/programmatic-seo/evals/evals.json`: a JSON eval fixture, data rather than instruction text. It is the only other file in the upstream skill folder.
+- The skill folder has no scripts, no hooks and no binaries, so nothing of that kind was left out of it. The upstream repository does ship code outside the skill folder (CLI tools in `tools/`, `scripts/`, `tests/`, GitHub workflows, and other skills with scripts such as `conversion-tracking`). None of it was copied. Its plugin manifests have no hook entries.
+
+Review (same columns as Source reviews above):
+
+| name | decision | network calls disclosed | writes in scope | license clear | paid required | reasons | files read |
+|---|---|---|---|---|---|---|---|
+| `marketingskills.programmatic-seo` | **vendor as reference** | n/a (no code) | n/a (nothing installed) | True | False | Instruction text only: no scripts, hooks or binaries in the skill folder. MIT license, LICENSE read at the pinned SHA.; No hidden characters or HTML comments in the three Markdown files.; The text speaks to an agent (look for a product-marketing context file, ask intake questions). It is treated as data and not followed.; references/implementation-platforms.md compares site platforms as of 2026-10 and carries partner-disclosure wording for one vendor. Unused: we render statically and deploy to Netlify. | skills/programmatic-seo/SKILL.md, skills/programmatic-seo/references/playbooks.md, skills/programmatic-seo/references/implementation-platforms.md, skills/programmatic-seo/evals/evals.json (shape only), LICENSE, .claude-plugin/plugin.json, skills/seo-audit/SKILL.md lines 265-310 (read for the thin-content question, not vendored); .claude-plugin/marketplace.json, .codex-plugin/plugin.json and .agents/plugins/marketplace.json searched for hook entries only |
+
+### Thin-content checklist and playbook points worth adopting
+
+Upstream has no file or section titled as a thin-content checklist. The guidance is spread across `SKILL.md` (Core Principles, Template Design, Indexation Strategy, Quality Checks, Common Mistakes) and the "Value requirements" lists in `references/playbooks.md`. The points below pull it together in our terms. A short literal "Thin Content Issues" list exists in a different upstream skill (`skills/seo-audit/SKILL.md`, about line 283 at the pinned SHA). It was not vendored because the spec names programmatic-seo only.
+
+- Name-swap test (`SKILL.md` Core Principles 1 and Common Mistakes; `references/playbooks.md` section 6, Locations): a page is thin when its only difference from its siblings is a name or place. Every page needs content that exists only because of its own data. Highest risk for us: hall and dining pages, and the second-school run (B7).
+- Data-gated sections (`SKILL.md` Template Design, uniqueness): render a block only when the data has something for it. No empty, placeholder or boilerplate blocks.
+- Own data first (`SKILL.md` Core Principles 2): public data is the weakest advantage. Lead with what only the dossier has: quote-backed figures, conflicts between official pages, stated gaps.
+- Demand and fold rules (`SKILL.md` Common Mistakes and Indexation Strategy): no page without a real query, one page per query, and noindex or fold very thin variants instead of publishing them.
+- Pre-launch pass/fail list (`SKILL.md` Quality Checks): unique value, intent answered, readable; unique title and meta; heading structure; schema; connected to the site; related pages linked; no orphans; in the sitemap; no conflicting noindex. The R45 gate (`worker/campus_worker/seo_gate.py`) already covers the technical half. The content-quality half has no gate yet.
+- Hub-and-spoke links and sitemaps split by page type (`SKILL.md` Internal Linking Architecture and Indexation Strategy; `references/implementation-platforms.md`, per-page indexation control, limit of 50,000 URLs or 50 MB per sitemap file).
+- Per-playbook value requirements (`references/playbooks.md` sections 4 Comparisons, 7 Personas, 9 Glossary, 12 Profiles): comparisons need same-basis data, balance, a pick by situation and a refresh when either side changes; profiles need sources, refreshes and aggregation rather than a restatement of one page; glossary answers need a definition, an example and related terms; audience pages need audience-specific facts (not testimonials, which we ban).
+- Freshness is a thin-content risk (`references/implementation-platforms.md`, data refresh): stale rows make a page wrong and thin, and updates should reach pages without a full rebuild.
+- Small-batch proof (`references/implementation-platforms.md`, Choosing step 4; `SKILL.md` Post-Launch Monitoring): publish the 20 to 50 strongest pages, confirm they index, then scale. This matches B2 before B3 in the bulk spec.
+
+Not adopted from the playbooks: Curation (best-of lists; our headline rules fail superlatives), persona testimonials (fake reviews are banned), Templates, Examples, Conversions, Integrations and Translations as page types (no match with our four types; the Integrations idea of real setup steps is reused for process guides), and the platform comparison table plus vendor disclosure text in `references/implementation-platforms.md` (we render statically and deploy to Netlify).
+
+Applied to our templates in `docs/ops/bulk-mode-template-notes.md` (proposals only; no template, gate or constant has been changed).
+
+`claude-seo` is not installed. `specs/bulk-mode.md` section 4 says not to install it, or any skill with scripts or hooks, until its code is reviewed and logged, and it is not needed for bulk mode. Its decision stays **reject** (see Source reviews and Rejected above); nothing in this section changes that.
+
+Notes and uncertainties:
+
+- The pinned SHA is the upstream repository HEAD at clone time, a merge of upstream pull request #926 on 2026-11-06T12:52:45-05:00. The last upstream commit that touched the skill folder is 15b38b5388dfdd17f4ab424e986ccd32c24d5b22 (2026-10-27).
+- The `marketingskills` row under Candidates is scout output and was left as written. Its `scripts True` refers to repo-level code that was not copied.
+- No benchmark was run: this is reference text, not a skill adoption. The adoption rule (beat the baseline on the eval set, no hard-rule regression) applies only if someone proposes installing it.
+- Upstream gives no numeric thresholds for thin content. Any number in the template notes is a proposal to tune on the B2 and B3 runs.
+- The checklist points are one reader's synthesis of three files and were not tested against our pages.
+- The clone used for reading lived in a scratch directory outside the repository. Nothing from it other than the three files above entered the repo.
