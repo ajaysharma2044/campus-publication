@@ -30,7 +30,7 @@
 {% else %}
 <header class="masthead"><div class="container">
   <h1 class="masthead__name"><a href="/">{{ site.name }}</a></h1>
-  {% if site.working_title %}<p class="masthead__tag">Independent guidance for college decisions · working masthead</p>{% endif %}
+  <p class="masthead__tag">Independent guidance for college decisions{% if site.working_title %} · working masthead{% endif %}</p>
 </div></header>
 <nav class="nav" aria-label="Sections"><div class="container">{{ nav_items }}</div></nav>
 {% endif %}

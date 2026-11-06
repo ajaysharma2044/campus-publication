@@ -137,8 +137,8 @@ def test_seo_gate_duplicate_meta_and_cannibalization_and_compliant_page(clean_co
 def test_towns_url_policy_and_title_limit():
     assert seo.classify_url("/towns/ithaca-ny/town-transit-local/route-30/").indexable
     assert seo.classify_url("/towns/ithaca-ny/").indexable and not seo.classify_url("/towns/Ithaca/x/").indexable
-    title, desc = seo.title_and_description("Fixture Hall: rooms, cost and what to know for transfer students in 2026-27", "deck", "The Campus Ledger")
-    assert len(title) <= 60 + len(" — The Campus Ledger") + 2
+    title, desc = seo.title_and_description("Fixture Hall: rooms, cost and what to know for transfer students in 2026-27", "deck", "Footnote Daily")
+    assert len(title) <= 60 + len(" — Footnote Daily") + 2
 
 
 def test_seo_gate_treats_typographic_apostrophes_as_the_same_words():

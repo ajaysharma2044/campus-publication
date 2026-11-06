@@ -58,7 +58,7 @@ def version_context(conn: psycopg.Connection, version_id: UUID, *, environment: 
 
 
 def render_version(conn: psycopg.Connection, version_id: UUID, *, out_root: Path = OUT_DEFAULT, environment: str = "staging",
-                   publication_name: str = "The Campus Ledger (working title)", base_url: str = "") -> Path:
+                   publication_name: str = "Footnote Daily", base_url: str = "") -> Path:
     ctx, v = version_context(conn, version_id, environment=environment, publication_name=publication_name, base_url=base_url)
     html = engine.render(TEMPLATE_BY_FORMAT.get(v["page_format"], "article.html"), **ctx)
     out = out_root / v["path"].strip("/") / "index.html"
@@ -69,7 +69,7 @@ def render_version(conn: psycopg.Connection, version_id: UUID, *, out_root: Path
 
 # ---------------------------------------------------------------------------------------------- process navigator (R47)
 def navigator_context(conn: psycopg.Connection, graph_id: UUID, *, school_slug: str, school_name: str, topic_key: str, environment: str = "staging",
-                      publication_name: str = "The Campus Ledger (working title)", base_url: str = "", selected: dict | None = None) -> tuple[dict, str]:
+                      publication_name: str = "Footnote Daily", base_url: str = "", selected: dict | None = None) -> tuple[dict, str]:
     """Server-rendered navigator page context: options, the embedded graph, and the answer for the selected (or first) path."""
     import json as _json
     from ..tools import navigator as nav
@@ -119,7 +119,7 @@ def navigator_context(conn: psycopg.Connection, graph_id: UUID, *, school_slug: 
 
 
 def render_navigator(conn: psycopg.Connection, graph_id: UUID, *, school_slug: str, school_name: str, topic_key: str, out_root: Path = OUT_DEFAULT,
-                     environment: str = "staging", selected: dict | None = None, publication_name: str = "The Campus Ledger (working title)", base_url: str = "") -> Path:
+                     environment: str = "staging", selected: dict | None = None, publication_name: str = "Footnote Daily", base_url: str = "") -> Path:
     ctx, path = navigator_context(conn, graph_id, school_slug=school_slug, school_name=school_name, topic_key=topic_key, environment=environment, selected=selected,
                                   publication_name=publication_name, base_url=base_url)
     html = engine.render("navigator.html", **ctx)
@@ -159,7 +159,7 @@ def published_pages(conn: psycopg.Connection) -> list[dict]:
         return [dict(r) for r in cur.fetchall()]
 
 
-def render_shell(conn: psycopg.Connection, *, out_root: Path = OUT_DEFAULT, environment: str = "staging", publication_name: str = "The Campus Ledger (working title)",
+def render_shell(conn: psycopg.Connection, *, out_root: Path = OUT_DEFAULT, environment: str = "staging", publication_name: str = "Footnote Daily",
                  base_url: str = "") -> list[Path]:
     """Home, schools index, school and topic hubs, policies, search and 404 for the local build, from the database (never fixtures).
     Hubs link every published page, which is where a page's first inbound link comes from (R45 no-orphan rule)."""

@@ -5,7 +5,7 @@ require_once getcwd() . '/wp-load.php';
 require_once ABSPATH . 'wp-admin/includes/upgrade.php';
 require_once ABSPATH . 'wp-admin/includes/plugin.php';
 if ( ! is_blog_installed() ) {
-	$r = wp_install( 'The Campus Ledger (staging)', 'campusadmin', 'admin@example.invalid', false, '', 'local-dev-password-only' );
+	$r = wp_install( 'Footnote Daily (staging)', 'campusadmin', 'admin@example.invalid', false, '', 'local-dev-password-only' );
 	echo "installed user_id={$r['user_id']}\n";
 }
 activate_plugin( 'campus-core/campus-core.php' );

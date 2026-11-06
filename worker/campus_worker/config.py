@@ -157,7 +157,7 @@ class Settings:
                 "postgresql://campus:campus_local_dev@localhost:5432/campus_research",
             ),
             environment=env,
-            publication_name=_env("CAMPUS_PUBLICATION_NAME", "The Campus Ledger (working title)"),
+            publication_name=_env("CAMPUS_PUBLICATION_NAME", "Footnote Daily"),
             model_routing=ModelRouting.from_env(),
             budget=Budget.from_env(),
             quotas=Quotas.from_env(),

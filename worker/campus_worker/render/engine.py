@@ -94,13 +94,13 @@ def render(template: str, **ctx) -> str:
     return _ENV.get_template(template).render(**ctx)
 
 
-def site_defaults(*, publication_name: str = "The Campus Ledger", environment: str = "development", base_url: str = "",
+def site_defaults(*, publication_name: str = "Footnote Daily", environment: str = "development", base_url: str = "",
                   ads_loader_tag: str = "", analytics_tag: str = "", consent_required: bool = True) -> dict:
     """Context shared by every page. Ads/analytics tags are empty unless the adapters emit them."""
     return {
         "site": {
             "name": publication_name,
-            "working_title": True,  # SPEC §02: masthead is an editable placeholder until a brand decision
+            "working_title": False,  # brand decided 2026-11-06: "Footnote Daily"; True re-adds the working-masthead note
             "environment": environment,
             "base_url": base_url,
             "staging_banner": environment != "production",

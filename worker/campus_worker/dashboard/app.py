@@ -85,7 +85,7 @@ def render_html(d: dict) -> str:
     status_line = (f"scheduler: <b>{html.escape(sched['last_status'] or '?')}</b>, last success {sched['last_success_at']}" if sched else "scheduler: <b>never run</b>")
     parts = [
         "<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><meta name=robots content='noindex,nofollow'>",
-        "<title>Operations — Campus Ledger</title><link rel=stylesheet href='/static/campus.css'></head><body class='tpl-dashboard'>",
+        "<title>Operations — Footnote Daily</title><link rel=stylesheet href='/static/campus.css'></head><body class='tpl-dashboard'>",
         f"<div class='staging-banner'>Operations dashboard · {html.escape(d['environment'])} · staff only · generated {html.escape(d['generated_at'])}</div>",
         "<main class='container' style='padding-top:24px'><h1>Operating status</h1>",
         f"<p class='deck'>{status_line}. Model credential: <b>{html.escape(d['auth_mode']['mode'])}</b> ({html.escape(d['auth_mode']['billing'])}). "

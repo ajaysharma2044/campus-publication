@@ -57,6 +57,6 @@ def test_internal_links_broken_and_orphans(clean_conn):
 
 
 def test_title_description_truncate_truthfully():
-    t, d = seo.title_and_description("Mews Hall: what the double-room rate includes and who can live there in 2026-27", "deck", "The Campus Ledger")
+    t, d = seo.title_and_description("Mews Hall: what the double-room rate includes and who can live there in 2026-27", "deck", "Footnote Daily")
     assert len(t) <= 70 and t.endswith("…") or "—" in t
     assert d == "deck"

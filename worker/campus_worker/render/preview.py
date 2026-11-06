@@ -25,7 +25,7 @@ VERIFIED = datetime(2026, 10, 28, 14, 0, tzinfo=timezone.utc)
 
 
 def base_ctx(path: str, template_name: str, section: str = "", **extra) -> dict:
-    ctx = engine.site_defaults(publication_name="The Campus Ledger", environment="preview", base_url="")
+    ctx = engine.site_defaults(publication_name="Footnote Daily", environment="preview", base_url="")
     ctx.update(canonical_path=path, template_name=template_name, static_prefix="/static/", today=TODAY, noindex=True,
                compact_masthead=template_name not in ("home",), current_section=section, ad_slots={}, related=[])
     ctx.update(extra)
@@ -83,7 +83,7 @@ def profile_ctx() -> dict:
                              {"text": "Check whether you are eligible to live here", "target": "/schools/fixture-state/housing/eligibility/"}],
             "sources": SOURCES, "production_note": NOTE, "stale": False}
     sd = {"@context": "https://schema.org", "@type": "Article", "headline": page["headline"], "description": page["deck"], "datePublished": "2026-10-29",
-          "dateModified": "2026-10-29", "author": {"@type": "Organization", "name": "The Campus Ledger — Housing desk"}, "publisher": {"@type": "Organization", "name": "The Campus Ledger"}}
+          "dateModified": "2026-10-29", "author": {"@type": "Organization", "name": "Footnote Daily — Housing desk"}, "publisher": {"@type": "Organization", "name": "Footnote Daily"}}
     related = [{"text": "Riverside Hall profile", "href": "/schools/fixture-state/housing/riverside-hall/"}, {"text": "Housing deadlines at Fixture State", "href": "/schools/fixture-state/housing/deadlines/"}]
     return base_ctx("/schools/fixture-state/housing/fixture-hall/", "entity_profile", "/topics/housing/", page=page, structured_data=json.dumps(sd), related=related)
 
