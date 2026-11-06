@@ -46,6 +46,9 @@ fi
 echo $$ > "$LOCK/pid"
 STOP_FILE="$RUN_DIR/STOP"; rm -f "$STOP_FILE"
 RUN_START="$(date -u +%Y%m%dT%H%M%SZ)"; RUN_LOG="$LOG_DIR/$RUN_START.jsonl"; export CAMPUS_RUN_ID="$RUN_START" CAMPUS_RUN_LOG="$RUN_LOG" CAMPUS_RUN_MODE="$MODE"
+# headless Claude Code stops a coordinator's background shell tasks 10 minutes after its last turn; an intel batch or a full pytest run can
+# take longer, so let the child wait for its own background tasks (the iteration prompt also says to run them in the foreground)
+export CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0
 CAFF_PID=""
 if command -v caffeinate >/dev/null && [ -z "${CAMPUS_NO_CAFFEINATE:-}" ]; then caffeinate -dimsu -w $$ & CAFF_PID=$!; fi
 cleanup() { rm -rf "$LOCK"; [ -n "$CAFF_PID" ] && kill "$CAFF_PID" 2>/dev/null; }

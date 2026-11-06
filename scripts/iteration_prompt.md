@@ -6,8 +6,10 @@ read STATE.md and BACKLOG.md before choosing work. Use observed command output a
 ## Iteration contract (R4)
 Pick exactly ONE unit of work, finish it, verify it, commit it, push it, record it, and exit.
 
-1. Checks first. Run `cd worker && pytest -q -x -p no:cacheprovider`. If anything fails, the unit of work is
-   fixing it (and nothing else). Then run `scripts/doctor.sh`; a required FAIL that you can fix is also work.
+1. Checks first. Run `cd worker && pytest -q -x -p no:cacheprovider` in the foreground and wait for it (never as a
+   background task: headless sessions drop background tasks). If anything fails, the unit of work is fixing it (and
+   nothing else). Then run `scripts/doctor.sh`; a required FAIL that you can fix is also work. Run every long command
+   (pytest, `sweep run-intel`, pipeline stages) in the foreground with a timeout of at least 20 minutes.
 2. Otherwise choose the lane:
    - mode `sweep`: the discovery lane only, via `python -m campus_worker.sweep next` (R41). When it reports the
      map is complete, write `"sweep_complete": true` in your summary.
