@@ -93,6 +93,7 @@ Implementation: `CAMPUS_LEAN_MODE` (default on) in `config.py`; `funnel.qualify`
 
 - Run 20261106T201209Z iteration 4 (discovery lane): `sweep run-intel --batch 10` observed 10 deferred clusters (2 navigational, 8 watch, 0 sweet-spot); about 1,077 remain deferred.
 - Run 20261106T205632Z iteration 6 (discovery lane): checks green (pytest all pass, doctor 0 required failures); `sweep run-intel --batch 10` observed 10 clusters (4 reject, 4 watch, 2 navigational, 0 sweet-spot); about 1,026 remain needing intel.
+- Run 20261106T205632Z iteration 8 (discovery lane): checks green (pytest all pass, doctor 0 required failures, 1 warn living.cornell.edu); `sweep run-intel --batch 10` observed 10 clusters (5 reject, 4 watch, 1 navigational, 0 sweet-spot); 14 search calls; about 1,006 remain needing intel (1,016 before this batch).
 - Run 20261106T205632Z iteration 7 (discovery lane): checks green (pytest all pass, doctor 0 required failures); `sweep run-intel --batch 10` observed 10 clusters (4 reject, 4 watch, 2 navigational, 0 sweet-spot); about 1,016 remain needing intel.
 
 ### Assumptions (session 3)
