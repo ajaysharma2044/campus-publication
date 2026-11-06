@@ -55,9 +55,9 @@ def test_budget_pause_blocks_paid_jobs_but_not_deterministic_ones(clean_conn):
     b.reserve(clean_conn, paused, UsageEntry(provider="anthropic", kind="reservation", amount_minor=10))
     q.enqueue(clean_conn, JobRecord(job_type="write_draft", idempotency_key="paid-x", is_paid=True, estimated_cost_minor=5))
     q.enqueue(clean_conn, JobRecord(job_type="noop", idempotency_key="free-x"))
-    r = run_once(clean_conn, _settings(budget=paused))
+    r = run_once(clean_conn, _settings(budget=paused, execution_mode="api"))  # dollar caps apply in API mode only (R7)
     assert [x["job_type"] for x in r["ran"]] == ["noop"] and r["budget"]["paused"]
-    r2 = run_once(clean_conn, _settings(budget=paused))
+    r2 = run_once(clean_conn, _settings(budget=paused, execution_mode="api"))
     assert r2["status"] == "usage_paused" and r2["exit_code"] == 20
 
 

@@ -27,11 +27,11 @@ def test_repeat_publish_is_idempotent(clean_conn):
     pid, vid = _staged_version(clean_conn)
     cms = InMemoryCMS()
     with pytest.raises(publisher.NotPublishable):
-        publisher.publish_version(clean_conn, cms, vid, environment="staging", auto_publish=False, new_pages_per_day=1)
+        publisher.publish_version(clean_conn, cms, vid, environment="staging", auto_publish=False, live_allowance=None)
     gates.gate_version(clean_conn, vid, [], RUBRIC_OK)
-    o1 = publisher.publish_version(clean_conn, cms, vid, environment="staging", auto_publish=False, new_pages_per_day=1)
+    o1 = publisher.publish_version(clean_conn, cms, vid, environment="staging", auto_publish=False, live_allowance=None)
     assert o1.created and o1.changed and o1.status == "draft" and cms.writes == 1
-    o2 = publisher.publish_version(clean_conn, cms, vid, environment="staging", auto_publish=False, new_pages_per_day=1)
+    o2 = publisher.publish_version(clean_conn, cms, vid, environment="staging", auto_publish=False, live_allowance=None)
     assert not o2.created and not o2.changed and cms.writes == 1 and len(cms.posts) == 1
     with clean_conn.cursor() as cur:
         cur.execute("SELECT status, cms_external_id, cms_content_hash FROM pages WHERE id=%s", (pid,))
@@ -42,11 +42,12 @@ def test_repeat_publish_is_idempotent(clean_conn):
     assert cms.posts[str(pid)]["meta"]["byline"] == "Housing desk"
 
 
-def test_production_auto_publish_respects_daily_quota(clean_conn):
+def test_production_live_allowance_replaces_daily_quota(clean_conn):
+    """R8: production publishing is paced by the live ramp allowance, not a fixed daily quota; updates are never capped."""
     pid, vid = _staged_version(clean_conn)
     gates.gate_version(clean_conn, vid, [], RUBRIC_OK)
     cms = InMemoryCMS()
-    o = publisher.publish_version(clean_conn, cms, vid, environment="production", auto_publish=True, new_pages_per_day=1)
+    o = publisher.publish_version(clean_conn, cms, vid, environment="production", auto_publish=True, live_allowance=1)
     assert o.status == "publish"
     with clean_conn.cursor() as cur:
         cur.execute("INSERT INTO pages (page_format, slug, path) VALUES ('guide','g2','/schools/fixture-state/housing/g2/') RETURNING id")
@@ -56,18 +57,28 @@ def test_production_auto_publish_respects_daily_quota(clean_conn):
                               production_note="n", claim_ids=[], writer_model="m", editor_model=None, verifier_model=None)
     gates.gate_version(clean_conn, v2, [], RUBRIC_OK)
     with pytest.raises(publisher.QuotaExceeded):
-        publisher.publish_version(clean_conn, cms, v2, environment="production", auto_publish=True, new_pages_per_day=1)
+        publisher.publish_version(clean_conn, cms, v2, environment="production", auto_publish=True, live_allowance=0)
     assert len(cms.posts) == 1
+    # an update to the already-live page is never capped
+    v1b = gates.create_version(clean_conn, pid, brief_id=None, headline="Fixture Hall: what the rate includes (updated)", deck="Deck.", body_md="Body paragraph.\n\n## More\n\nNew text " * 20,
+                               body_html=None, structured={}, byline="Housing desk", production_note="auto", claim_ids=[], writer_model="m", editor_model=None, verifier_model=None)
+    gates.gate_version(clean_conn, v1b, [], RUBRIC_OK)
+    ou = publisher.publish_version(clean_conn, cms, v1b, environment="production", auto_publish=True, live_allowance=0)
+    assert ou.status == "publish" and ou.changed
+    with clean_conn.cursor() as cur:
+        cur.execute("SELECT kind, count(*) AS n FROM live_releases GROUP BY kind ORDER BY kind")
+        kinds = {r["kind"]: r["n"] for r in cur.fetchall()}
+    assert kinds == {"new": 1, "update": 1}
 
 
 def test_move_page_registers_redirect(clean_conn):
     pid, vid = _staged_version(clean_conn)
     gates.gate_version(clean_conn, vid, [], RUBRIC_OK)
     cms = InMemoryCMS()
-    publisher.publish_version(clean_conn, cms, vid, environment="staging", auto_publish=False, new_pages_per_day=1)
+    publisher.publish_version(clean_conn, cms, vid, environment="staging", auto_publish=False, live_allowance=None)
     publisher.move_page(clean_conn, cms, pid, "/schools/fixture-state/housing/fixture-tower/", "fixture-tower")
     assert cms.posts["__redirects__"]["map"]["/schools/fixture-state/housing/fixture-hall/"] == "/schools/fixture-state/housing/fixture-tower/"
-    o = publisher.publish_version(clean_conn, cms, vid, environment="staging", auto_publish=False, new_pages_per_day=1)
+    o = publisher.publish_version(clean_conn, cms, vid, environment="staging", auto_publish=False, live_allowance=None)
     assert o.changed and len([k for k in cms.posts if k != "__redirects__"]) == 1  # same post, new path, no duplicate
 
 

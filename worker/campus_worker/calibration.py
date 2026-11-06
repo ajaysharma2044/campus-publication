@@ -142,8 +142,8 @@ def main() -> str:
     v2 = runners.run_verifier(conn, router, version_id=UUID(e.artifact_ids["page_version_id"]), brief=brief, institution_name=fsu["canonical_name"], other_institution_names=["Lakeside College"], academic_year="2026-27", existing_bodies=[], job_id=jid, run_id=rid)
     q.complete(conn, jid, "calibration")
     cms = InMemoryCMS()
-    pub = publisher.publish_version(conn, cms, UUID(e.artifact_ids["page_version_id"]), environment="staging", auto_publish=False, new_pages_per_day=1)
-    pub2 = publisher.publish_version(conn, cms, UUID(e.artifact_ids["page_version_id"]), environment="staging", auto_publish=False, new_pages_per_day=1)
+    pub = publisher.publish_version(conn, cms, UUID(e.artifact_ids["page_version_id"]), environment="staging", auto_publish=False)
+    pub2 = publisher.publish_version(conn, cms, UUID(e.artifact_ids["page_version_id"]), environment="staging", auto_publish=False)
     lines += [f"- Correction: editor (model {e.resolved_model}) removed the fabricated consensus and quote → v2 `{e.artifact_ids['page_version_id']}`.",
               f"- Draft v2: verifier **{v2.status}**, rubric total {v2.output['rubric_total']}/24, hard failures {v2.output['hard_failures'] or 'none'}; page status staged.",
               f"- Staging publication: cms id {pub.cms_id}, created={pub.created}; repeat publish changed={pub2.changed} (idempotent). Job `{jid}` run `{rid}`.",

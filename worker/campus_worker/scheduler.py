@@ -157,7 +157,7 @@ def run_once(conn: psycopg.Connection, settings: Settings, *, max_jobs: int = 10
     conn.commit()
     try:
         res.reclaimed = [str(i) for i in q.reclaim_expired_leases(conn)]
-        bstat = budgetmod.status(conn, settings.budget)
+        bstat = budgetmod.status(conn, settings.budget, execution_mode=getattr(settings, "execution_mode", "api"))
         res.budget = bstat
         # hold unpriced paid jobs before they are ever leased
         with conn.cursor() as cur:

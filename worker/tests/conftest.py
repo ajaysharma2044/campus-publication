@@ -35,6 +35,7 @@ def clean_conn(migrated_url):
     """Connection with operational tables truncated (keeps topics seed)."""
     c = dbmod.connect(migrated_url)
     with c.cursor() as cur:
+        cur.execute("UPDATE ramp_state SET live_since=NULL, hold=FALSE, hold_reason=NULL, hold_rate_per_day=NULL WHERE id=1")
         cur.execute(
             """TRUNCATE jobs, runs, usage_ledger, exceptions, heartbeats, pages, page_versions,
                page_claims, dependencies, briefs, opportunity_scores, serp_observations,
@@ -42,7 +43,7 @@ def clean_conn(migrated_url):
                claim_sources, claims, fetch_snapshots, source_registry, source_permissions,
                entities, school_topic_applicability, school_configs, campuses,
                institution_external_ids, institution_aliases, institutions, tool_configs,
-               experiments, analytics_aggregates, revenue_reports, correction_requests CASCADE"""
+               experiments, analytics_aggregates, revenue_reports, correction_requests, live_releases CASCADE"""
         )
     c.commit()
     try:

@@ -87,11 +87,24 @@ class Budget:
 
 @dataclass(frozen=True)
 class Quotas:
+    """Production is unthrottled (continuous-local-run R8). Only going live is paced, by `live_ramp`.
+
+    `live_ramp` format: comma-separated stages "<per_day>x<days>", the last stage may omit "x<days>"
+    and then runs forever. Default "5x14,15" = 5 pages/day for 14 days, then 15/day. The default
+    literal is guard-protected (.claude/hooks/guard.py); change it only via CAMPUS_LIVE_RAMP in .env.
+    `new_pages_per_day` / `verified_updates_per_day` remain for the API-mode worker (SPEC §26) and are
+    not applied to local/staging publishing.
+    """
+
     new_pages_per_day: int = 1
     verified_updates_per_day: int = 5
     max_concurrent_model_tasks: int = 2
     max_delegation_depth: int = 1
     exploration_share_pct: int = 20  # share of discovery/research jobs reserved for underserved institutions
+    live_ramp: str = "5x14,15"
+    parallel_readonly_agents: int = 4  # owner override of SPEC §37 for coordinator subagents (read-only only)
+    lane_mix: str = "50,30,20"  # production, discovery, maintenance (R24)
+    serp_cache_days: int = 14  # R26
 
     @classmethod
     def from_env(cls) -> "Quotas":
@@ -101,6 +114,10 @@ class Quotas:
             max_concurrent_model_tasks=_env_int("CAMPUS_MAX_CONCURRENT_MODEL_TASKS", 2),
             max_delegation_depth=_env_int("CAMPUS_MAX_DELEGATION_DEPTH", 1),
             exploration_share_pct=_env_int("CAMPUS_EXPLORATION_SHARE_PCT", 20),
+            live_ramp=_env("CAMPUS_LIVE_RAMP", "5x14,15") or "5x14,15",
+            parallel_readonly_agents=_env_int("CAMPUS_PARALLEL_READONLY_AGENTS", 4),
+            lane_mix=_env("CAMPUS_LANE_MIX", "50,30,20") or "50,30,20",
+            serp_cache_days=_env_int("CAMPUS_SERP_CACHE_DAYS", 14),
         )
 
 
@@ -120,10 +137,20 @@ class Settings:
     adsense_publisher_id: str | None
     anthropic_api_key_present: bool
     anthropic_base_url: str | None
+    execution_mode: str = "session"  # session | api (continuous-local-run R7)
+    live_domain: str | None = None  # CAMPUS_LIVE_DOMAIN: set only once a public domain exists (R8)
+
+    @property
+    def is_live(self) -> bool:
+        """A live domain exists and this is the production environment: ready pages go live under the ramp."""
+        return bool(self.live_domain) and self.environment == "production"
 
     @classmethod
     def from_env(cls) -> "Settings":
         env = _env("CAMPUS_ENV", "development")
+        mode = (_env("CAMPUS_EXECUTION_MODE", "session") or "session").lower()
+        if mode not in ("session", "api"):
+            raise ValueError("CAMPUS_EXECUTION_MODE must be 'session' or 'api'")
         return cls(
             database_url=_env(
                 "DATABASE_URL",
@@ -142,10 +169,19 @@ class Settings:
             adsense_publisher_id=_env("CAMPUS_ADSENSE_PUBLISHER_ID"),
             anthropic_api_key_present=bool(_env("ANTHROPIC_API_KEY")),
             anthropic_base_url=_env("ANTHROPIC_BASE_URL"),
+            execution_mode=mode,
+            live_domain=_env("CAMPUS_LIVE_DOMAIN"),
         )
 
     def auth_mode(self) -> dict:
         """Describe how model calls would be billed, without exposing secrets (SPEC §38)."""
+        if self.execution_mode == "session":
+            return {
+                "mode": "session",
+                "billing": "language judgment runs inside the Claude Code session on the subscription; dollar caps do not apply",
+                "connected": True,
+                "note": "continuous-local-run R7: the ledger records unpriced usage per iteration and per agent dispatch",
+            }
         if self.anthropic_api_key_present:
             return {
                 "mode": "api_key",

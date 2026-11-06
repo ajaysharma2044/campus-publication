@@ -46,7 +46,9 @@ def status(conn, settings) -> dict:
         "model_routing": {k: getattr(settings.model_routing, k) for k in (
             "coordinator_model", "classification_model", "extraction_model", "writing_model",
             "editorial_model", "verification_model", "escalation_model")},
-        "budget": budgetmod.status(conn, settings.budget),
+        "budget": budgetmod.status(conn, settings.budget, execution_mode=settings.execution_mode),
+        "execution_mode": settings.execution_mode,
+        "live": settings.is_live,
         "quotas": settings.quotas.__dict__,
         "queue": queuemod.counts(conn),
         "held_or_dead": [dict(r, id=str(r["id"]), age=str(r["age"])) for r in queuemod.held_and_dead(conn)],

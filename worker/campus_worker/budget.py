@@ -116,7 +116,9 @@ def record_unpriced_usage(conn: psycopg.Connection, entry: UsageEntry, *, now: d
     conn.commit()
 
 
-def status(conn: psycopg.Connection, budget: Budget, *, now: datetime | None = None) -> dict:
+def status(conn: psycopg.Connection, budget: Budget, *, now: datetime | None = None, execution_mode: str = "api") -> dict:
+    """Budget state. In session mode (continuous-local-run R7) dollar caps never pause work: the
+    figures are still reported, `paused` is always False, and session usage is counted separately."""
     s = spent(conn, now=now)
     s.update(
         daily_cap_minor=budget.daily_cap_minor,
@@ -124,9 +126,55 @@ def status(conn: psycopg.Connection, budget: Budget, *, now: datetime | None = N
         headroom_pct=budget.headroom_pct,
         daily_remaining_minor=max(0, budget.daily_cap_minor * (100 - budget.headroom_pct) // 100 - s["day_minor"]),
         monthly_remaining_minor=max(0, budget.monthly_cap_minor * (100 - budget.headroom_pct) // 100 - s["month_minor"]),
+        execution_mode=execution_mode,
     )
-    s["paused"] = s["daily_remaining_minor"] == 0 or s["monthly_remaining_minor"] == 0
+    capped = s["daily_remaining_minor"] == 0 or s["monthly_remaining_minor"] == 0
+    s["paused"] = capped if execution_mode == "api" else False
+    s["cap_reached_but_not_enforced"] = capped and execution_mode == "session"
+    if execution_mode == "session":
+        s["session"] = session_usage_summary(conn, now=now)
     return s
+
+
+SESSION_PROVIDER = "session"
+
+
+def record_session_usage(conn: psycopg.Connection, *, kind: str, task_id: str | None, agent: str | None, duration_s: float,
+                         turns: int | None, iteration: int | None = None, run_id: UUID | None = None, job_id: UUID | None = None,
+                         extra: dict | None = None, now: datetime | None = None) -> UUID:
+    """Record one unpriced usage entry per iteration or per agent dispatch (R7). amount is 0 and priced=FALSE,
+    so it never counts toward dollar caps but is always visible. kind: 'iteration' | 'dispatch'."""
+    if kind not in ("iteration", "dispatch"):
+        raise ValueError("session usage kind must be 'iteration' or 'dispatch'")
+    now = now or datetime.now(timezone.utc)
+    day, month = _keys(now)
+    detail = {"session_kind": kind, "task_id": task_id, "agent": agent, "duration_s": round(float(duration_s), 3), "turns": turns, "iteration": iteration}
+    if extra:
+        detail.update(extra)
+    with conn.cursor() as cur:
+        cur.execute(
+            """INSERT INTO usage_ledger (occurred_at, day, month, job_id, run_id, provider, kind, amount_minor, currency, priced, detail)
+               VALUES (%s,%s,%s,%s,%s,%s,'actual',0,'USD',FALSE,%s::jsonb) RETURNING id""",
+            (now, day, month, job_id, run_id, SESSION_PROVIDER, json.dumps(detail, default=str)),
+        )
+        rid = cur.fetchone()["id"]
+    conn.commit()
+    return rid
+
+
+def session_usage_summary(conn: psycopg.Connection, *, now: datetime | None = None) -> dict:
+    day, month = _keys(now)
+    with conn.cursor() as cur:
+        cur.execute(
+            """SELECT count(*) FILTER (WHERE detail->>'session_kind'='iteration') AS iterations,
+                      count(*) FILTER (WHERE detail->>'session_kind'='dispatch') AS dispatches,
+                      COALESCE(SUM((detail->>'duration_s')::numeric),0) AS seconds,
+                      COALESCE(SUM((detail->>'turns')::int),0) AS turns
+               FROM usage_ledger WHERE provider=%s AND day=%s""", (SESSION_PROVIDER, day))
+        d = dict(cur.fetchone())
+        cur.execute("SELECT count(*) AS n FROM usage_ledger WHERE provider=%s AND month=%s", (SESSION_PROVIDER, month))
+        d["month_entries"] = cur.fetchone()["n"]
+    return {k: (float(v) if k == "seconds" else int(v)) for k, v in d.items()}
 
 
 # Pricing table for upper-bound estimates (USD per million tokens). These are *estimates for

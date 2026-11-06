@@ -85,13 +85,18 @@ def build_request(conn: psycopg.Connection, version_id: UUID, *, status: str) ->
     return req, dict(v), meta
 
 
-def publish_version(conn: psycopg.Connection, cms, version_id: UUID, *, environment: str, auto_publish: bool, new_pages_per_day: int) -> PublishOutcome:
+def publish_version(conn: psycopg.Connection, cms, version_id: UUID, *, environment: str, auto_publish: bool,
+                    live_allowance: int | None = None, niche_score: float | None = None) -> PublishOutcome:
+    """Push a passed version to the CMS. status='publish' only in production with auto_publish; otherwise 'draft'
+    (staging/local, never quota'd — continuous-local-run R8). `live_allowance` is the ramp's remaining NEW pages
+    for today (None = unlimited); updates to already-live pages are never capped."""
     status = "publish" if (auto_publish and environment == "production") else "draft"
     req, v, _ = build_request(conn, version_id, status=status)
     page_id = v["page_id"]
     first_time = v["cms_external_id"] is None
-    if status == "publish" and v["page_status"] != "published" and new_pages_published_today(conn) >= new_pages_per_day:
-        raise QuotaExceeded(f"daily new-page quota {new_pages_per_day} reached; publish again tomorrow (version stays staged)")
+    going_live_new = status == "publish" and v["page_status"] != "published"
+    if going_live_new and live_allowance is not None and live_allowance <= 0:
+        raise QuotaExceeded("live ramp allowance for today is exhausted; the page stays ready and goes live on a later day (R8)")
     if v["cms_content_hash"] == req.content_hash and not first_time:
         return PublishOutcome(page_id, version_id, v["cms_external_id"], False, False, status)
     # path change → redirect old path
@@ -108,7 +113,55 @@ def publish_version(conn: psycopg.Connection, cms, version_id: UUID, *, environm
             (res.cms_id, res.content_hash, version_id, status, status, v["is_material_change"] and res.changed, page_id),
         )
     conn.commit()
+    if status == "publish":
+        from .. import ramp
+        ramp.record_release(conn, page_id, version_id, kind="new" if going_live_new else "update", niche_score=niche_score)
     return PublishOutcome(page_id, version_id, res.cms_id, res.created, res.changed, status, redirect_from)
+
+
+def publish_local(conn: psycopg.Connection, cms, version_id: UUID, *, settings, out_root=None) -> dict:
+    """R8 before a live domain exists: render the passed version to build/site/, upsert it as a draft to the
+    local staging CMS when one is connected, mark the page ready and locally published. No quota, ever."""
+    from .. import ramp
+    from ..render import site
+
+    out = site.render_version(conn, version_id, out_root=out_root or site.OUT_DEFAULT, environment="staging",
+                              publication_name=settings.publication_name)
+    with conn.cursor() as cur:
+        cur.execute("SELECT page_id FROM page_versions WHERE id=%s", (version_id,))
+        page_id = cur.fetchone()["page_id"]
+    cms_outcome = None
+    if cms is not None and cms.capability().state in ("connected", "fixture"):
+        cms_outcome = publish_version(conn, cms, version_id, environment="staging", auto_publish=False)
+    ramp.mark_ready(conn, page_id)
+    with conn.cursor() as cur:
+        cur.execute("UPDATE pages SET local_published_at=now(), current_version_id=%s, status=CASE WHEN status IN ('planned','drafting','held') THEN 'staged' ELSE status END WHERE id=%s",
+                    (version_id, page_id))
+    conn.commit()
+    return {"page_id": str(page_id), "version_id": str(version_id), "site_path": str(out), "cms": (cms_outcome.__dict__ if cms_outcome else None)}
+
+
+def release_live(conn: psycopg.Connection, cms, *, settings, now=None) -> dict:
+    """R8 with a live domain: take ready pages best niche_score first and publish up to today's ramp allowance.
+    Pages left over stay ready. Never called without settings.is_live."""
+    from .. import ramp
+
+    if not settings.is_live:
+        return {"released": [], "skipped": "no live domain", "allowance": None}
+    today = ramp._today(now)
+    ramp.ensure_live_since(conn, today)
+    allow = ramp.allowance(conn, settings.quotas.live_ramp, now=now)
+    released = []
+    remaining = allow["remaining"]
+    for row in ramp.ready_queue(conn):
+        if remaining <= 0:
+            break
+        o = publish_version(conn, cms, row["version_id"], environment="production", auto_publish=True, live_allowance=remaining,
+                            niche_score=float(row["niche_score"]) if row["niche_score"] is not None else None)
+        released.append({"page_id": str(o.page_id), "path": row["path"], "niche_score": row["niche_score"]})
+        remaining -= 1
+    allow_after = ramp.allowance(conn, settings.quotas.live_ramp, now=now)
+    return {"released": released, "allowance": allow_after, "still_ready": len(ramp.ready_queue(conn))}
 
 
 def move_page(conn: psycopg.Connection, cms, page_id: UUID, new_path: str, new_slug: str) -> None:
