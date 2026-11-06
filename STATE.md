@@ -142,3 +142,8 @@ OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + app
 - Checks: pytest passed (exit 0, 220 tests); `scripts/doctor.sh` 0 required failures, 1 warning (living.cornell.edu).
 - `sweep next` → step `intel`: 99 clusters still need search observation; sweep not complete. No CLI subcommand dispatches the batch: `search_intel.run_batch` (≤25 clusters, then ingest) is only a Python function, and the iteration allowlist permits only `python -m campus_worker.*`, so the coordinator cannot ingest agent output.
 - Proposed (owner or next build iteration): add `python -m campus_worker.sweep run-intel [--batch N]` that calls `run_batch` and then `run_score`.
+
+### Iteration 4 (run 20261106T093045Z, sweep) — unblocked the intel lane
+- Checks: full pytest passed at start (exit 0); `scripts/doctor.sh` 0 required failures, 1 warning (living.cornell.edu).
+- Implemented `python -m campus_worker.sweep run-intel [--batch N]` (`sweep.run_intel`): picks up to 25 clusters, one `search_intel.run_batch` dispatch (validates + ingests), then `run_score`. `sweep next` now points at it. Test `test_sweep_run_intel_dispatches_one_batch_ingests_and_scores` added; `tests/test_demand_engine.py` passes. Full suite not re-run after the change (it exceeds the 120 s foreground limit); the next iteration's checks-first run covers it.
+- Not yet run live: 99 clusters still need search observation (sweep not complete). Next sweep iteration: `python -m campus_worker.sweep run-intel --batch 25`.
