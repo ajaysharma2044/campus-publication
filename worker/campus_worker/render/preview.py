@@ -37,7 +37,7 @@ SOURCES = [
     {"url": "https://www.fixturestate.example.edu/housing/rate-sheet.pdf", "title": "Housing rate sheet (synthetic fixture PDF)", "publisher": "Fixture State University Housing", "retrieved_at": VERIFIED, "kind": "official PDF"},
 ]
 IMG = "/static/img/placeholders/"
-CREDIT = "Synthetic placeholder illustration, made in-house for the preview; a published page uses a credited, rights-cleared photograph"
+CREDIT = "Synthetic placeholder illustration (preview only; published pages carry credited, rights-cleared photographs)"
 
 
 def pic(name: str, alt: str, caption: str | None = None) -> dict:
