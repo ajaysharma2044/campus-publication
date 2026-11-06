@@ -274,7 +274,8 @@ def main(argv: list[str]) -> int:
     conn = connect(settings.database_url)
     try:
         cmd = argv[0] if argv else "next"
-        batch = BATCH_SWEEP if os.environ.get("CAMPUS_RUN_MODE") == "sweep" else BATCH_NORMAL
+        from . import lean
+        batch = BATCH_SWEEP if (os.environ.get("CAMPUS_RUN_MODE") == "sweep" or lean.enabled()) else BATCH_NORMAL  # LEAN MODE: full batches in every lane
         if "--batch" in argv:
             batch = int(argv[argv.index("--batch") + 1])
         if cmd == "harvest":
