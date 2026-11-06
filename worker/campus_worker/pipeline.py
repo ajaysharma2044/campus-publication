@@ -751,8 +751,8 @@ def auto_cite(draft: dict, claims: list[dict], *, exclude: set[str] | None = Non
     ranked = sorted(claims, key=lambda k: (0 if k["id"] in prefer else 1, 0 if k.get("audience") else 1))
     seen_values: set[str] = set()
     for k in ranked:
-        if k["id"] in exclude or not audience_matches(k.get("audience"), page_audience):
-            continue
+        if k["id"] in exclude or (k["id"] not in prefer and not audience_matches(k.get("audience"), page_audience)):
+            continue  # a verifier-named claim may carry another audience when its row says so (its label names the audience)
         forms: list[str] = []
         if k["value_type"] == "money" and k["value"].startswith("$"):
             forms.append(k["value"].split(" ")[0])
@@ -776,7 +776,7 @@ def auto_cite(draft: dict, claims: list[dict], *, exclude: set[str] | None = Non
     body_paras = [re.findall(r"[a-z0-9]+", para.lower()) for para in re.split(r"\n\s*\n", body)]
     stop = {"the", "a", "an", "of", "to", "in", "on", "for", "and", "or", "is", "are", "be", "by", "with", "at", "as", "that", "this", "it", "its", "their", "they", "will", "not", "no", "all", "any"}
     for k in claims:
-        if k["id"] in exclude or k["id"] in refs or k["value_type"] != "text" or not k.get("value") or not audience_matches(k.get("audience"), page_audience):
+        if k["id"] in exclude or k["id"] in refs or k["value_type"] != "text" or not k.get("value") or (k["id"] not in prefer and not audience_matches(k.get("audience"), page_audience)):
             continue
         words = [w for w in re.findall(r"[a-z0-9]+", k["value"].lower()) if w not in stop]
         if len(words) < 3:
@@ -965,8 +965,8 @@ def correct(conn, version_id: UUID, *, settings, runner=dsp.cli_runner, log_path
                 continue
             if re.search(r"\b(remove|drop|delete)\b", x, re.I) and re.search(r"\b(row|claim)s? for " + pfx, x, re.I):
                 excluded.add(full)
-            if re.search(r"\b(use|replace with|instead)\b", x, re.I):
-                preferred.add(full)
+            else:
+                preferred.add(full)  # a claim the verifier names in a correction is the one it wants on the page
     draft2 = auto_cite(draft2, claims, exclude=excluded, prefer=preferred, page_audience=v.get("audience"))
     report["claims_excluded"] = sorted(x[:8] for x in excluded); report["claims_preferred"] = sorted(x[:8] for x in preferred)
     figs = lambda b: set(re.findall(r"\$[\d,]+|\b20\d\d-\d\d-\d\d\b|\b\d{1,2},\d{3}\b", b))
