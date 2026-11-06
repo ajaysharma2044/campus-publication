@@ -8,6 +8,7 @@ cache window a repeat run makes zero search calls and zero dispatches (R26).
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime, timezone
 from uuid import UUID
 
@@ -20,6 +21,33 @@ from .discovery import QuestionInput, ingest
 
 LABEL = "observed via search tool on "
 
+
+
+COMMUNITY_HOSTS = ("reddit.com", "redd.it", "stackexchange.com", "stackoverflow.com", "collegeconfidential.com", "quora.com")
+
+
+def is_community_mirror(url: str | None, site: str | None = None) -> bool:
+    """True for a third-party mirror, archive or snapshot of a community site (R36: an occurrence is a search result on the
+    community site itself; a mirror re-hosts content under someone else's domain and is never evidence)."""
+    from urllib.parse import urlparse
+    host = (urlparse(url or "").netloc or "").lower().split("@")[-1].split(":")[0]
+    text = f"{host} {site or ''}".lower()
+    if not any(k in text for k in ("reddit", "stackexchange", "stackoverflow", "collegeconfidential", "quora")):
+        return False
+    return not any(host == h or host.endswith("." + h) for h in COMMUNITY_HOSTS)
+
+
+THREAD_ID_RE = re.compile(r"/(?:comments|posts)/([a-z0-9]{5,8})(?:/|$)", re.I)
+
+
+def community_source_ref(url: str | None, site: str | None = None) -> str:
+    """Occurrence reference for a community thread: the thread id when the URL carries one (reddit.com or a mirror of it), else the URL."""
+    from urllib.parse import urlparse
+    m = THREAD_ID_RE.search(urlparse(url or "").path or "")
+    text = f"{urlparse(url or '').netloc} {site or ''}".lower()
+    if m and "reddit" in text:
+        return f"search:reddit:thread:{m.group(1).lower()}"
+    return f"search:{site or 'web'}:{url}"
 
 def variants_for_cluster(conn: psycopg.Connection, cluster_id: UUID, *, max_variants: int = 2) -> list[str]:
     """2 variants (R13, R25): the best observed wording first, then the top hypothesis wording; fallback to the label."""
@@ -72,6 +100,7 @@ def ingest_intel(conn: psycopg.Connection, cluster_id: UUID, intel: dict, *, cac
     observed_on = intel.get("observed_on") or now.date().isoformat()
     label = intel.get("label") or (LABEL + observed_on)
     stored_obs = 0
+    mirrors_labeled = 0
     demand_items: list[QuestionInput] = []
     with conn.cursor() as cur:
         cur.execute("SELECT institution_id, place_id, campus_id, entity_id, t.key AS topic_key FROM intent_clusters c LEFT JOIN topics t ON t.id=c.topic_id WHERE c.id=%s", (cluster_id,))
@@ -96,10 +125,15 @@ def ingest_intel(conn: psycopg.Connection, cluster_id: UUID, intel: dict, *, cac
             demand_items.append(QuestionInput(raw_text=fq, origin="related_question", institution_id=c["institution_id"], campus_id=c["campus_id"], place_id=c["place_id"],
                                               topic_key=c["topic_key"], entity_id=c["entity_id"], observed_at=now, source_ref=f"search:{observed_on}:{q}:paa:{fq[:60]}"))
         for occ in v.get("community_occurrences") or []:
-            # an independent thread asking this cluster's question is demand evidence FOR this cluster (R20)
+            # an independent thread asking this cluster's question is demand evidence FOR this cluster (R20). A result from a third-party
+            # mirror of a community site is still an observed search result: it is kept, labeled mirror_observed, keyed by the thread id so
+            # the same thread seen on two mirrors counts once, and never opened (R36 search observation only).
+            mirror = is_community_mirror(occ.get("url"), occ.get("site"))
+            mirrors_labeled += int(mirror)
             demand_items.append(QuestionInput(raw_text=occ.get("title") or q, origin="discussion", institution_id=c["institution_id"], campus_id=c["campus_id"], place_id=c["place_id"],
                                               topic_key=c["topic_key"], entity_id=c["entity_id"], observed_at=_parse_date(occ.get("date"), now), force_cluster_id=cluster_id,
-                                              source_ref=f"search:{occ.get('site', 'web')}:{occ.get('url')}", constraints=[f"site:{occ.get('site', '')}", "search_observation"]))
+                                              source_ref=community_source_ref(occ.get("url"), occ.get("site")),
+                                              constraints=[f"site:{occ.get('site', '')}", "search_observation"] + (["mirror_observed"] if mirror else [])))
     for ev in intel.get("demand_evidence") or []:
         kind = ev.get("kind")
         if kind in ("official_faq", "keyword_export", "search_console"):
@@ -115,7 +149,7 @@ def ingest_intel(conn: psycopg.Connection, cluster_id: UUID, intel: dict, *, cac
         cur.execute("UPDATE intent_clusters SET last_intel_at=%s, queue_state=CASE WHEN queue_state IN ('needs_intel','candidate') THEN 'candidate' ELSE queue_state END, updated_at=now() WHERE id=%s", (now, cluster_id))
     conn.commit()
     return {"observations": stored_obs, "demand_evidence_stored": demand["stored"], "demand_duplicates": demand.get("duplicate_occurrences", 0),
-            "search_calls_reported": intel.get("search_calls_made"), "label": label}
+            "search_calls_reported": intel.get("search_calls_made"), "label": label, "mirrors_labeled": mirrors_labeled}
 
 
 def _direct_answer_quality(results: list[dict]) -> str | None:

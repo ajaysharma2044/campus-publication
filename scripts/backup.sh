@@ -2,6 +2,8 @@
 # Back up the research database (pg_dump custom format), the local WordPress SQLite DB + uploads, and the
 # non-secret configuration, into backups/<timestamp>/. Credentials are NEVER included (.env is excluded).
 set -euo pipefail
+# macOS: Homebrew postgresql@16 is keg-only, so its client tools are not on PATH by default
+for d in /opt/homebrew/opt/postgresql@16/bin /usr/local/opt/postgresql@16/bin; do [ -d "$d" ] && case ":$PATH:" in *":$d:"*) ;; *) PATH="$d:$PATH";; esac; done; export PATH
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"; TS="$(date -u +%Y%m%dT%H%M%SZ)"; OUT="$ROOT/backups/$TS"; mkdir -p "$OUT"
 DB_URL="${DATABASE_URL:-postgresql://campus:campus_local_dev@localhost:5432/campus_research}"
 pg_dump --format=custom --no-owner --file="$OUT/research.dump" "$DB_URL"

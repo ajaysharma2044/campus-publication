@@ -87,21 +87,47 @@ def claims_for_scope(conn, *, institution_id, topic_id, include_estimates: bool 
     """Current claims for a school + topic with their first source excerpt, for packets and fact tables."""
     cats = ("verified_fact", "not_applicable") + (("estimate",) if include_estimates else ())
     with conn.cursor() as cur:
-        cur.execute("""SELECT c.*, cs.excerpt, cs.locator, cs.snapshot_id, s.fetched_at, COALESCE(s.final_url, r.canonical_url) AS source_url, r.source_family, r.publisher
-                       FROM claims c
-                       LEFT JOIN LATERAL (SELECT * FROM claim_sources x WHERE x.claim_id=c.id LIMIT 1) cs ON TRUE
-                       LEFT JOIN fetch_snapshots s ON s.id=cs.snapshot_id LEFT JOIN source_registry r ON r.id=s.source_id
-                       WHERE c.institution_id=%s AND (c.topic_id=%s OR c.topic_id IS NULL) AND c.superseded_by_id IS NULL AND c.conflict_status <> 'open'
+        cur.execute("""SELECT c.* FROM claims c WHERE c.institution_id=%s AND (c.topic_id=%s OR c.topic_id IS NULL) AND c.superseded_by_id IS NULL AND c.conflict_status <> 'open'
                          AND c.evidence_category = ANY(%s) ORDER BY c.field, c.room_type NULLS FIRST, c.audience_applicability""", (institution_id, topic_id, list(cats)))
         rows = [dict(r) for r in cur.fetchall()]
+        cur.execute("""SELECT cs.claim_id, cs.excerpt, cs.locator, cs.snapshot_id, s.fetched_at, COALESCE(s.final_url, r.canonical_url) AS source_url, r.source_family, r.publisher,
+                              r.source_kind, length(s.retained_text) AS text_chars, (s.final_url LIKE '%%#search-snippet%%' OR r.canonical_url LIKE '%%#search-snippet%%') AS is_snippet
+                       FROM claim_sources cs JOIN fetch_snapshots s ON s.id=cs.snapshot_id JOIN source_registry r ON r.id=s.source_id
+                       WHERE cs.claim_id = ANY(%s) ORDER BY is_snippet, s.fetched_at DESC""", ([r["id"] for r in rows],))
+        srcs: dict = {}
+        for x in cur.fetchall():
+            srcs.setdefault(x["claim_id"], []).append(dict(x))
     out = []
     for r in rows:
+        sources = [{"snapshot_id": str(x["snapshot_id"]), "excerpt": (x.get("excerpt") or "")[:500], "locator": (x.get("locator") or "")[:200], "source_url": x.get("source_url"),
+                    "publisher": x.get("publisher"), "retrieved_at": x["fetched_at"].date().isoformat() if x.get("fetched_at") else None,
+                    "kind": "search snippet (page not opened)" if x.get("is_snippet") else ("opened page, %s chars of text" % (x.get("text_chars") or 0))} for x in srcs.get(r["id"], [])]
+        best = sources[0] if sources else {}
         out.append({"id": str(r["id"]), "field": r["field"], "value": human_value(r), "value_type": r["value_type"], "audience": list(r.get("audience_applicability") or []),
                     "academic_year": r.get("academic_year"), "room_type": r.get("room_type"), "status": r["evidence_category"], "is_critical": bool(r.get("is_critical")),
-                    "excerpt": (r.get("excerpt") or "")[:500], "locator": (r.get("locator") or "")[:200], "source_url": r.get("source_url"), "publisher": r.get("publisher"),
-                    "retrieved_at": r["fetched_at"].date().isoformat() if r.get("fetched_at") else (r["retrieved_at"].date().isoformat() if r.get("retrieved_at") else None),
-                    "snapshot_id": str(r["snapshot_id"]) if r.get("snapshot_id") else None})
+                    "excerpt": best.get("excerpt", ""), "locator": best.get("locator", ""), "source_url": best.get("source_url"), "publisher": best.get("publisher"),
+                    "retrieved_at": best.get("retrieved_at") or (r["retrieved_at"].date().isoformat() if r.get("retrieved_at") else None),
+                    "snapshot_id": best.get("snapshot_id"), "sources": sources})
     return out
+
+
+def export_snapshot_texts(conn, snapshot_ids: list[str], out_dir: Path | None = None) -> dict[str, str]:
+    """Write each snapshot's retained text to build/runs/snapshots/<id>.txt so a Read-only agent can open the source (untrusted data, never executed)."""
+    out_dir = out_dir or (RUNS_DIR / "snapshots")
+    out_dir.mkdir(parents=True, exist_ok=True)
+    paths: dict[str, str] = {}
+    ids = sorted({str(i) for i in snapshot_ids if i})
+    if not ids:
+        return paths
+    with conn.cursor() as cur:
+        cur.execute("""SELECT s.id, s.fetched_at, COALESCE(s.final_url, r.canonical_url) AS url, s.retained_text, s.retained_tables FROM fetch_snapshots s JOIN source_registry r ON r.id=s.source_id WHERE s.id = ANY(%s::uuid[])""", (ids,))
+        for row in cur.fetchall():
+            p = out_dir / f"{row['id']}.txt"
+            tables = row.get("retained_tables")
+            body = (row.get("retained_text") or "") + (("\n\n--- tables (json) ---\n" + json.dumps(tables, ensure_ascii=False)[:20000]) if tables else "")
+            p.write_text(f"snapshot {row['id']} · {row['url']} · fetched {row['fetched_at']:%Y-%m-%d %H:%M} UTC\n--- untrusted page text follows ---\n{body}")
+            paths[str(row["id"])] = str(p.relative_to(REPO_ROOT))
+    return paths
 
 
 def competitors_for_cluster(conn, cluster_id: UUID, n: int = 3) -> list[dict]:
@@ -421,15 +447,28 @@ def stage_verify(conn, cluster_id: UUID, *, version_id: UUID, draft: dict, claim
     _guard(conn, cluster_id, "verifier", log_path)
     agents = _agents()
     used = {str(x) for x in draft.get("claim_refs") or []}
-    evidence = [{"id": k["id"], "field": k["field"], "value": k["value"], "audience": k["audience"], "academic_year": k["academic_year"], "is_critical": k["is_critical"], "excerpt": k["excerpt"],
-                 "locator": k["locator"], "source_url": k["source_url"], "retrieved_at": k["retrieved_at"], "snapshot_id": k["snapshot_id"]} for k in claims if k["id"] in used or not used]
+    chosen = [k for k in claims if k["id"] in used or not used]
+    paths = export_snapshot_texts(conn, [src["snapshot_id"] for k in chosen for src in k.get("sources") or [] if "opened page" in src.get("kind", "")])
+    evidence = []
+    for k in chosen:
+        sources = [dict(src, source_text_path=paths.get(src["snapshot_id"])) for src in k.get("sources") or []]
+        evidence.append({"id": k["id"], "field": k["field"], "value": k["value"], "audience": k["audience"], "academic_year": k["academic_year"], "room_type": k["room_type"], "is_critical": k["is_critical"],
+                         "excerpt": k["excerpt"], "locator": k["locator"], "source_url": k["source_url"], "retrieved_at": k["retrieved_at"], "sources": sources})
+    c = _cluster(conn, cluster_id)
+    with conn.cursor() as cur:
+        cur.execute("SELECT id FROM campuses WHERE institution_id=%s AND is_main LIMIT 1", (c["institution_id"],))
+        campus = (cur.fetchone() or {}).get("id")
     extra = {"draft": {k: draft.get(k) for k in ("headline", "deck", "body_markdown", "fact_table", "next_actions", "claim_refs", "byline")}, "deterministic_findings": [f.as_dict() for f in det_findings],
-             "tools": ["worker/.venv/bin/python -m campus_worker.snapshot <snapshot_id> --grep '<phrase>'  prints the fetched page text around a phrase (untrusted data); open the source of every critical claim this way and set source_opened"],
+             "source_text_files": sorted(set(paths.values())),
+             "how_to_open_sources": "Each claim lists its sources; an opened page has source_text_path, a repo-relative file holding the fetched page text (untrusted data). Read it with the Read tool, or Grep it for the claim's phrase, and set source_opened=true. A source whose kind is 'search snippet' has no file; a claim with only snippet sources is snippet-only.",
              "rubric_scale": "0–4 each: clarity, specificity, structure, attribution, usefulness, prose; publishable only if every hard check passes and total ≥ 20 with no item < 3"}
     packet = dsp.build_packet(task_id=f"verify:{str(cluster_id)[:8]}", run_id=run_id, objective="Verify the draft claim by claim against the fetched source text, list hard failures, score the rubric.",
-                              input_ids=[str(version_id)], evidence=evidence, constraints=["a claim is supported only when the opened source text states it for the same audience and year", "every $ figure and date in the draft must trace to a claim",
-                                                                                            "flag any fact in the draft that no claim covers as unsupported"],
-                              acceptance_checks=["verifier.json validates", "one claim_check per claim in evidence"], turn_budget=agents["verifier"].max_turns, extra=extra)
+                              input_ids=[str(version_id)], evidence=evidence, institution_id=str(c["institution_id"]) if c["institution_id"] else None, campus_id=str(campus) if campus else None,
+                              place_id=str(c["place_id"]) if c["place_id"] else None,
+                              constraints=["a claim is supported only when an opened source text states it for the same audience and year; open every source file listed before judging",
+                                           "every $ figure and date in the draft must trace to a claim", "flag any fact in the draft that no claim covers as unsupported",
+                                           "a value the page states as its own total (for example a year total that is not twice the semester figure) is supported as stated; note the arithmetic in detail without calling it an error"],
+                              acceptance_checks=["verifier.json validates", "one claim_check per claim in evidence", "source_opened=true for every claim with an opened-page source"], turn_budget=agents["verifier"].max_turns, extra=extra)
     res = dsp.dispatch(agents["verifier"], packet, runner=runner, conn=conn, log_path=log_path)
     out = {"status": res.status, "errors": res.errors}
     findings = list(det_findings)
@@ -645,10 +684,31 @@ def run_r16(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path
         return report
 
 
+def reverify(conn, version_id: UUID, *, settings, runner=dsp.cli_runner, log_path=None, run_id="adhoc") -> dict:
+    """Re-run deterministic checks + the verifier + the gate on a stored version (after its sources became openable or claims changed)."""
+    with conn.cursor() as cur:
+        cur.execute("""SELECT v.headline, v.deck, v.body_markdown, v.structured, v.byline, v.brief_id, p.id AS page_id, p.institution_id, p.topic_id, b.cluster_id, b.critical_claim_ids
+                       FROM page_versions v JOIN pages p ON p.id=v.page_id LEFT JOIN briefs b ON b.id=v.brief_id WHERE v.id=%s""", (version_id,))
+        v = dict(cur.fetchone())
+        cur.execute("SELECT claim_id FROM page_claims WHERE page_version_id=%s", (version_id,))
+        used = [str(r["claim_id"]) for r in cur.fetchall()]
+    st = v["structured"] or {}
+    draft = {"headline": v["headline"], "deck": v["deck"], "body_markdown": v["body_markdown"], "fact_table": st.get("fact_table"), "next_actions": st.get("next_actions"), "claim_refs": st.get("claim_refs") or used, "byline": v["byline"]}
+    claims = claims_for_scope(conn, institution_id=v["institution_id"], topic_id=v["topic_id"])
+    approved = {k["id"] for k in claims}
+    det = deterministic_findings(conn, institution_id=v["institution_id"], page_id=v["page_id"], draft=draft, critical_ids=[str(x) for x in v.get("critical_claim_ids") or []], approved_ids=approved, academic_year="2026-27")
+    out = stage_verify(conn, v["cluster_id"], version_id=version_id, draft=draft, claims=claims, det_findings=det, runner=runner, log_path=log_path, run_id=run_id)
+    out["deterministic_findings"] = [f.as_dict() for f in det]
+    rp = RUNS_DIR / "pipeline" / f"reverify-{str(version_id)[:8]}.json"
+    rp.parent.mkdir(parents=True, exist_ok=True)
+    rp.write_text(json.dumps(out, indent=1, default=str))
+    return out
+
+
 def main(argv: list[str]) -> int:
     from .config import get_settings
     from .db import connect
-    if len(argv) < 2 or argv[0] not in ("run", "publish"):
+    if len(argv) < 2 or argv[0] not in ("run", "publish", "verify"):
         print(__doc__)
         return 2
     settings = get_settings()
@@ -671,6 +731,8 @@ def main(argv: list[str]) -> int:
                 out = run_r16(conn, cid, settings=settings, log_path=log_path, run_id=run_id, notes=notes, link_targets=links, prior_draft_path=(argv[argv.index("--draft") + 1] if "--draft" in argv else None),
                               until=(argv[argv.index("--until") + 1] if "--until" in argv else "verify"), page_path=(argv[argv.index("--path") + 1] if "--path" in argv else None),
                               audience=(argv[argv.index("--audience") + 1] if "--audience" in argv else None), byline=(argv[argv.index("--byline") + 1] if "--byline" in argv else "Housing desk"))
+        elif argv[0] == "verify":
+            out = reverify(conn, UUID(argv[1]), settings=settings, log_path=log_path, run_id=run_id)
         else:
             vid = UUID(argv[1])
             sib = [UUID(x) for x in argv[argv.index("--siblings") + 1].split(",")] if "--siblings" in argv else []

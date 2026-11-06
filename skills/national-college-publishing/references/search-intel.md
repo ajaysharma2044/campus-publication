@@ -10,7 +10,7 @@ Spec: continuous-local-run R13, R15, R20, R21, R26, R36. Permitted sources only:
 6. Label everything `observed via search tool on <date>`. It is not Google rank and not measured volume.
 
 ## Reddit site: searches (R36)
-`site:reddit.com/r/Cornell <topic>` and `site:reddit.com/r/ithaca <topic>` (and the town's other subs). Record thread title, URL, date, visible snippet. Do not open the thread.
+`site:reddit.com/r/Cornell <topic>` and `site:reddit.com/r/ithaca <topic>` (and the town's other subs). Record thread title, URL, date, visible snippet. Do not open the thread. Prefer results on reddit.com itself. When the search tool only surfaces a third-party mirror or snapshot of a thread, record it with the mirror URL and `site` naming the mirror host and the subreddit (the coordinator labels it mirror_observed and keys it by the thread id); never open it, never copy its content beyond the title, date and visible snippet, and say in uncertainties that only mirrors surfaced.
 
 ## Cache (R26)
 Before searching, check the packet's `cached_queries`: a query observed inside the last `CAMPUS_SERP_CACHE_DAYS` (14) is reused, not re-searched. Report `search_calls_made` and `cache_hits` truthfully.

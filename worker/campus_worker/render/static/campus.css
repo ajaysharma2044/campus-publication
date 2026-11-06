@@ -137,7 +137,7 @@ table.facts tr.unknown td, .value-unknown { color: var(--warn-ink); }
 @media (min-width: 768px) { table.facts:not(.compare-table) td:last-child { white-space: nowrap; } }
 @media (max-width: 599px) {
   table.facts:not(.compare-table), table.facts:not(.compare-table) tbody, table.facts:not(.compare-table) tr, table.facts:not(.compare-table) td, table.facts:not(.compare-table) th[scope="row"] { display: block; width: 100%; }
-  table.facts:not(.compare-table) caption { display: block; width: 100%; }
+  table.facts:not(.compare-table) caption:not(.visually-hidden) { display: block; width: 100%; }  /* a visually-hidden caption keeps its 1px box, or it widens the document */
   table.facts:not(.compare-table) thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
   table.facts:not(.compare-table) tr { border-bottom: 1px solid var(--rule); padding: var(--s-2) 0; }
   table.facts:not(.compare-table) th[scope="row"], table.facts:not(.compare-table) td { border: 0; padding: 2px 0; }

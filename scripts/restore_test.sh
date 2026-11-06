@@ -5,6 +5,8 @@
 # Env: PG_ADMIN_URL   admin connection used to drop/create the scratch DB (default: local postgres DB as current user)
 #      TEST_DATABASE_URL  only its host/port/user are reused; the scratch DB is always campus_restore_test
 set -euo pipefail
+# macOS: Homebrew postgresql@16 is keg-only, so its client tools are not on PATH by default
+for d in /opt/homebrew/opt/postgresql@16/bin /usr/local/opt/postgresql@16/bin; do [ -d "$d" ] && case ":$PATH:" in *":$d:"*) ;; *) PATH="$d:$PATH";; esac; done; export PATH
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 DIR="${1:-$(ls -d "$ROOT"/backups/*/ | sort | tail -1)}"
 [ -f "$DIR/research.dump" ] || { echo "no research.dump in $DIR"; exit 1; }
