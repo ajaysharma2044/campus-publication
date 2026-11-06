@@ -51,6 +51,7 @@ def test_lean_funnel_orders_by_score_and_requires_a_verified_fact(clean_conn, le
     strong_incumbent = _cluster(clean_conn, inst, campus, housing, "fixture hall address", agi=1, niche=50)
     nav = _cluster(clean_conn, inst, campus, housing, "fixture housing portal login", agi=4, state="navigational", niche=60, nav=True)
     assert not funnel.qualify(clean_conn, weak_incumbent).ok and "no verified fact" in funnel.qualify(clean_conn, weak_incumbent).reason
+    assert funnel.guard(clean_conn, weak_incumbent, "researcher").ok and not funnel.guard(clean_conn, weak_incumbent, "writer").ok  # research first, then the rest
     _verified_claim(clean_conn, inst, campus, housing)
     g = funnel.qualify(clean_conn, weak_incumbent)
     assert g.ok and g.stage == "lean_funnel"

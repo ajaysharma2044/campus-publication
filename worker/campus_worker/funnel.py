@@ -77,6 +77,9 @@ def guard(conn: psycopg.Connection, cluster_id: UUID, agent: str, *, log_path: P
     if agent not in EXPENSIVE:
         return Gate(True, "cheap", "not an expensive stage")
     g = qualify(conn, cluster_id)
+    if not g.ok and agent == "researcher" and g.stage == "lean_funnel" and g.reason.startswith("no verified fact"):
+        # LEAN MODE: the researcher is how the first facts arrive; it may run for a non-navigational cluster without a strong incumbent
+        return Gate(True, "lean_funnel", "lean: research allowed to gather the first verified facts", g.score)
     if not g.ok:
         refuse(agent, cluster_id=cluster_id, stage=g.stage, reason=g.reason, log_path=log_path)
     return g
