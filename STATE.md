@@ -173,6 +173,12 @@ OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + app
 - Verifier: FAILED (hard failure `unsupported_critical_claim`, rubric 16/24). Held version 638e04a1. Corrections required include: the draft says the guaranteed waitlist does not promise a room, but a source says waitlisted students are guaranteed an assignment; room-type request statement; other exemption categories; penalty-free cancellation deadlines (Fall June 15, Spring Dec 1, 2026; $500 fee after); enrollment deposit in step 1. Needs claims backing each, then `pipeline run` again / `pipeline verify`.
 - Not mine: 8 tracked files (funnel, lanes, pipeline, quality, sweep, tier2, conftest, iteration_prompt) plus `lean.py` and `test_lean.py` were modified/untracked in the working tree during this run (tree was clean at start). Left uncommitted for the owner.
 
+## Run 20261106T201209Z iteration 3 (checks fix)
+- pytest first run failed in `tests/test_lean.py`. Two real test bugs fixed: (1) `test_lean_funnel_...` used a `synthetic_fixture` school, which `lean.production_queue` excludes by design, so the test now marks its school `verified`; (2) `lean_on` now clears `CAMPUS_SWEEP_INTEL_CAP` (the run harness exports 125), so `sweep_cap()` is tested at its lean default of 5000.
+- Two other early failures were `relation ... does not exist` on the shared `campus_research_test` DB at varying points, and the full suite then passed (229) on a rerun with no code change. Likely another process using the same test DB (`conftest.migrated_url` drops the schema). Not reproduced; watch for it if it recurs, and do not run two pytest processes at once.
+- `lean.py` and `test_lean.py` (untracked, imported by tracked modules) are committed here so a clean checkout works.
+- doctor: 0 required failures, 1 warning (living.cornell.edu).
+
 ## Next actions (in order)
 1. Owner supplies OD1 → run `python -m campus_worker.calibration` path with `AnthropicProvider` (one real Sonnet worker, one real Opus review), compare against the scripted report, record resolved model ids.
 2. Owner supplies OD9 or files → register Cornell housing sources (`scl.cornell.edu`, `living.cornell.edu`), run `collect_source` → `extract_claims`, verify Cornell identity against the IPEDS release, then exercises 1–3 on real records (still staging, draft status).

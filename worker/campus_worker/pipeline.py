@@ -190,9 +190,10 @@ def _page_for_cluster(conn, cluster_id: UUID) -> dict | None:
                        JOIN page_versions v ON v.brief_id=b.id JOIN pages p ON p.id=v.page_id WHERE b.cluster_id=%s ORDER BY v.created_at DESC LIMIT 1""", (cluster_id,))
         r = cur.fetchone()
         if not r:
-            cur.execute("""SELECT p.id, p.path, p.status, p.current_version_id, p.primary_query, p.audience, p.page_format, b.id AS brief_id FROM briefs b
-                           JOIN pages p ON p.institution_id IS NOT DISTINCT FROM b.institution_id AND p.topic_id=(SELECT topic_id FROM intent_clusters WHERE id=%s)
-                           WHERE b.cluster_id=%s ORDER BY b.created_at DESC LIMIT 1""", (cluster_id, cluster_id))
+            # a page whose primary query is this cluster's label (strategy query target), never any page of the same school + topic
+            cur.execute("""SELECT p.id, p.path, p.status, p.current_version_id, p.primary_query, p.audience, p.page_format, NULL::uuid AS brief_id FROM pages p
+                           JOIN intent_clusters c ON c.id=%s WHERE p.institution_id IS NOT DISTINCT FROM c.institution_id AND p.place_id IS NOT DISTINCT FROM c.place_id
+                           AND lower(p.primary_query) = lower(c.label) LIMIT 1""", (cluster_id,))
             r = cur.fetchone()
     return dict(r) if r else None
 
@@ -518,8 +519,10 @@ def stage_verify(conn, cluster_id: UUID, *, version_id: UUID, draft: dict, claim
     gate = gates.gate_version(conn, version_id, findings, rubric)
     if not gate.passed:
         with conn.cursor() as cur:
-            cur.execute("UPDATE pages SET status='held', revalidation_required=TRUE, revalidation_reason=%s WHERE id=(SELECT page_id FROM page_versions WHERE id=%s) AND status<>'published'",
-                        (("gate %s: " % gate.status) + "; ".join(gate.hard_failures + gate.rubric_failures + gate.major_findings)[:400], version_id))
+            # a failed new version never pulls an already-published (or locally published) version off the site: the page keeps its current version
+            cur.execute("""UPDATE pages SET status=CASE WHEN local_published_at IS NOT NULL OR status='published' THEN status ELSE 'held' END, revalidation_required=TRUE, revalidation_reason=%s
+                           WHERE id=(SELECT page_id FROM page_versions WHERE id=%s)""",
+                        (("gate %s on version %s: " % (gate.status, str(version_id)[:8])) + "; ".join(gate.hard_failures + gate.rubric_failures + gate.major_findings)[:380], version_id))
         conn.commit()
     out["gate"] = gate.as_dict()
     return out
@@ -644,6 +647,15 @@ def run_r16(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path
         win = win_plan_for(conn, institution_id=c["institution_id"], place_id=c["place_id"], page_path=plan_path, primary_query=c["label"])
         if not plan_path and win:
             plan_path = win.get("page_path")
+        from . import lean
+        if lean.enabled() and not existing:
+            covered = lean.covered_by_existing_page(conn, cluster_id=cluster_id)
+            if covered:
+                sweetspot.mark(conn, cluster_id, "done", f"covered by {covered} (an existing page carries this question; no duplicate page)")
+                conn.commit()
+                raise StageRefused(f"covered by existing page {covered}")
+            if not plan_path:
+                plan_path = lean.default_page_path(conn, cluster_id=cluster_id)
         if not plan_path:
             raise StageRefused("no page path: neither an existing page nor a strategy win plan names this cluster")
         claims = claims_for_scope(conn, institution_id=c["institution_id"], topic_id=c["topic_id"])
