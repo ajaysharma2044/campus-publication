@@ -1,0 +1,80 @@
+{
+ "cluster_id": "cl-dedicated_official",
+ "observed_on": "2026-11-06",
+ "label": "observed via search tool on 2026-11-06",
+ "variants": [
+  {
+   "query": "fixture hall",
+   "results": [
+    {
+     "position": 1,
+     "url": "https://housing.fixturestate.example.edu/halls/fixture-hall/",
+     "title": "Fixture Hall",
+     "publisher": "Fixture State Housing",
+     "result_type": "official",
+     "dedicated": true,
+     "answer_quality": "complete",
+     "freshness": "current",
+     "freshness_date": "2026-08-01",
+     "evidence_quality": "sourced",
+     "missing_contribution": null
+    },
+    {
+     "position": 2,
+     "url": "https://agg.example.invalid/2",
+     "title": "x",
+     "publisher": "agg",
+     "result_type": "aggregator",
+     "dedicated": false,
+     "answer_quality": "partial",
+     "freshness": "unknown",
+     "evidence_quality": "unsourced",
+     "missing_contribution": "n/a"
+    },
+    {
+     "position": 3,
+     "url": "https://agg.example.invalid/3",
+     "title": "x",
+     "publisher": "agg",
+     "result_type": "aggregator",
+     "dedicated": false,
+     "answer_quality": "partial",
+     "freshness": "unknown",
+     "evidence_quality": "unsourced",
+     "missing_contribution": "n/a"
+    },
+    {
+     "position": 4,
+     "url": "https://agg.example.invalid/4",
+     "title": "x",
+     "publisher": "agg",
+     "result_type": "aggregator",
+     "dedicated": false,
+     "answer_quality": "partial",
+     "freshness": "unknown",
+     "evidence_quality": "unsourced",
+     "missing_contribution": "n/a"
+    },
+    {
+     "position": 5,
+     "url": "https://agg.example.invalid/5",
+     "title": "x",
+     "publisher": "agg",
+     "result_type": "aggregator",
+     "dedicated": false,
+     "answer_quality": "partial",
+     "freshness": "unknown",
+     "evidence_quality": "unsourced",
+     "missing_contribution": "n/a"
+    }
+   ],
+   "follow_up_questions": [],
+   "community_occurrences": [],
+   "navigational": false
+  }
+ ],
+ "seasonality_notes": "fixture",
+ "demand_evidence": [],
+ "search_calls_made": 1,
+ "cache_hits": 0
+}

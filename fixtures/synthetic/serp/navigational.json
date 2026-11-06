@@ -1,0 +1,31 @@
+{
+ "cluster_id": "cl-navigational",
+ "observed_on": "2026-11-06",
+ "label": "observed via search tool on 2026-11-06",
+ "variants": [
+  {
+   "query": "fixture state housing portal",
+   "results": [
+    {
+     "position": 1,
+     "url": "https://housing.fixturestate.example.edu/portal/",
+     "title": "Housing portal login",
+     "publisher": "Fixture State",
+     "result_type": "official",
+     "dedicated": true,
+     "answer_quality": "navigational_official",
+     "freshness": "current",
+     "evidence_quality": "sourced",
+     "missing_contribution": null
+    }
+   ],
+   "follow_up_questions": [],
+   "community_occurrences": [],
+   "navigational": false
+  }
+ ],
+ "seasonality_notes": "fixture",
+ "demand_evidence": [],
+ "search_calls_made": 1,
+ "cache_hits": 0
+}

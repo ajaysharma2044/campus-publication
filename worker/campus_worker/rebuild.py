@@ -24,6 +24,7 @@ IPEDS_DIR = REPO_ROOT / "data" / "ipeds"
 IPEDS_FILE = IPEDS_DIR / "HD2024_mirror_cshirky_a812f69.csv"
 IPEDS_RELEASE = "HD2024_mirror_cshirky_a812f69"
 IPEDS_RELEASE_DATE = date(2026, 9, 27)  # commit date of the mirror (data/ipeds/README.md)
+EXPECTED_IPEDS_ROWS = 6072
 TRANSFER_HOUSING_PATH = "/schools/cornell-university/housing/transfer-housing/"
 ID_MAP = REPO_ROOT / "docs" / "research" / "rebuild-id-map.json"
 
@@ -69,8 +70,14 @@ def rebuild(conn) -> dict:
     out["steps"].append({"migrate": applied})
     out["steps"].append({"seed": seed_all(conn)})
     sha = verify_checksum()
-    res = import_ipeds_hd(conn, IPEDS_FILE, release=IPEDS_RELEASE, release_date=IPEDS_RELEASE_DATE)
-    out["steps"].append({"ipeds_import": {"sha256": sha, "created": res.created, "updated": res.updated, "systems": res.systems, "skipped": len(res.skipped)}})
+    with conn.cursor() as cur:
+        cur.execute("SELECT count(*) AS n FROM institution_external_ids WHERE system_name='ipeds_unitid' AND source_release=%s", (IPEDS_RELEASE,))
+        already = cur.fetchone()["n"]
+    if already >= EXPECTED_IPEDS_ROWS:
+        out["steps"].append({"ipeds_import": {"sha256": sha, "skipped": f"release {IPEDS_RELEASE} already imported ({already} rows); nothing to change"}})
+    else:
+        res = import_ipeds_hd(conn, IPEDS_FILE, release=IPEDS_RELEASE, release_date=IPEDS_RELEASE_DATE)
+        out["steps"].append({"ipeds_import": {"sha256": sha, "created": res.created, "updated": res.updated, "systems": res.systems, "skipped": len(res.skipped)}})
     # Session-2 replay, guarded: only when the held transfer-housing page has no version yet.
     with conn.cursor() as cur:
         cur.execute("SELECT count(*) AS n FROM page_versions v JOIN pages p ON p.id=v.page_id WHERE p.path=%s", (TRANSFER_HOUSING_PATH,))

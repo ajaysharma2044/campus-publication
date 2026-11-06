@@ -43,8 +43,9 @@ def clean_conn(migrated_url):
                claim_sources, claims, fetch_snapshots, source_registry, source_permissions,
                entities, school_topic_applicability, school_configs, campuses,
                institution_external_ids, institution_aliases, institutions, tool_configs,
-               experiments, analytics_aggregates, revenue_reports, correction_requests, live_releases CASCADE"""
+               experiments, analytics_aggregates, revenue_reports, correction_requests, live_releases, serp_cache, strategies, query_targets, lane_state, digest_events, harvest_sources, places CASCADE"""
         )
+        cur.execute("DELETE FROM topics WHERE auto_created")
     c.commit()
     try:
         yield c

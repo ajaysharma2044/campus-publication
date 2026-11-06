@@ -1,0 +1,172 @@
+{
+ "cluster_id": "cl-forum_only",
+ "observed_on": "2026-11-06",
+ "label": "observed via search tool on 2026-11-06",
+ "variants": [
+  {
+   "query": "fixture hall review",
+   "results": [
+    {
+     "position": 1,
+     "url": "https://forum.example.invalid/t/1",
+     "title": "Fixture Hall thoughts? (1)",
+     "publisher": "forum",
+     "result_type": "forum",
+     "dedicated": false,
+     "answer_quality": "partial",
+     "freshness": "stale",
+     "freshness_date": "2022-05-01",
+     "evidence_quality": "unsourced",
+     "missing_contribution": "verified rates and room types"
+    },
+    {
+     "position": 2,
+     "url": "https://forum.example.invalid/t/2",
+     "title": "Fixture Hall thoughts? (2)",
+     "publisher": "forum",
+     "result_type": "forum",
+     "dedicated": false,
+     "answer_quality": "none",
+     "freshness": "stale",
+     "freshness_date": "2022-05-01",
+     "evidence_quality": "unsourced",
+     "missing_contribution": "verified rates and room types"
+    },
+    {
+     "position": 3,
+     "url": "https://forum.example.invalid/t/3",
+     "title": "Fixture Hall thoughts? (3)",
+     "publisher": "forum",
+     "result_type": "forum",
+     "dedicated": false,
+     "answer_quality": "partial",
+     "freshness": "stale",
+     "freshness_date": "2022-05-01",
+     "evidence_quality": "unsourced",
+     "missing_contribution": "verified rates and room types"
+    },
+    {
+     "position": 4,
+     "url": "https://forum.example.invalid/t/4",
+     "title": "Fixture Hall thoughts? (4)",
+     "publisher": "forum",
+     "result_type": "forum",
+     "dedicated": false,
+     "answer_quality": "none",
+     "freshness": "stale",
+     "freshness_date": "2022-05-01",
+     "evidence_quality": "unsourced",
+     "missing_contribution": "verified rates and room types"
+    },
+    {
+     "position": 5,
+     "url": "https://forum.example.invalid/t/5",
+     "title": "Fixture Hall thoughts? (5)",
+     "publisher": "forum",
+     "result_type": "forum",
+     "dedicated": false,
+     "answer_quality": "partial",
+     "freshness": "stale",
+     "freshness_date": "2022-05-01",
+     "evidence_quality": "unsourced",
+     "missing_contribution": "verified rates and room types"
+    }
+   ],
+   "follow_up_questions": [
+    "is fixture hall good for transfers"
+   ],
+   "community_occurrences": [
+    {
+     "url": "https://forum.example.invalid/t/1",
+     "title": "Fixture Hall thoughts?",
+     "site": "forum.example.invalid",
+     "date": "2022-05-01"
+    },
+    {
+     "url": "https://forum.example.invalid/t/2",
+     "title": "Anyone lived in Fixture Hall?",
+     "site": "forum.example.invalid",
+     "date": "2023-01-10"
+    }
+   ],
+   "navigational": false
+  },
+  {
+   "query": "fixture hall rooms",
+   "results": [
+    {
+     "position": 1,
+     "url": "https://forum.example.invalid/t/1",
+     "title": "Fixture Hall thoughts? (1)",
+     "publisher": "forum",
+     "result_type": "forum",
+     "dedicated": false,
+     "answer_quality": "partial",
+     "freshness": "stale",
+     "freshness_date": "2022-05-01",
+     "evidence_quality": "unsourced",
+     "missing_contribution": "verified rates and room types"
+    },
+    {
+     "position": 2,
+     "url": "https://forum.example.invalid/t/2",
+     "title": "Fixture Hall thoughts? (2)",
+     "publisher": "forum",
+     "result_type": "forum",
+     "dedicated": false,
+     "answer_quality": "none",
+     "freshness": "stale",
+     "freshness_date": "2022-05-01",
+     "evidence_quality": "unsourced",
+     "missing_contribution": "verified rates and room types"
+    },
+    {
+     "position": 3,
+     "url": "https://forum.example.invalid/t/3",
+     "title": "Fixture Hall thoughts? (3)",
+     "publisher": "forum",
+     "result_type": "forum",
+     "dedicated": false,
+     "answer_quality": "partial",
+     "freshness": "stale",
+     "freshness_date": "2022-05-01",
+     "evidence_quality": "unsourced",
+     "missing_contribution": "verified rates and room types"
+    },
+    {
+     "position": 4,
+     "url": "https://forum.example.invalid/t/4",
+     "title": "Fixture Hall thoughts? (4)",
+     "publisher": "forum",
+     "result_type": "forum",
+     "dedicated": false,
+     "answer_quality": "none",
+     "freshness": "stale",
+     "freshness_date": "2022-05-01",
+     "evidence_quality": "unsourced",
+     "missing_contribution": "verified rates and room types"
+    },
+    {
+     "position": 5,
+     "url": "https://forum.example.invalid/t/5",
+     "title": "Fixture Hall thoughts? (5)",
+     "publisher": "forum",
+     "result_type": "forum",
+     "dedicated": false,
+     "answer_quality": "partial",
+     "freshness": "stale",
+     "freshness_date": "2022-05-01",
+     "evidence_quality": "unsourced",
+     "missing_contribution": "verified rates and room types"
+    }
+   ],
+   "follow_up_questions": [],
+   "community_occurrences": [],
+   "navigational": false
+  }
+ ],
+ "seasonality_notes": "fixture",
+ "demand_evidence": [],
+ "search_calls_made": 2,
+ "cache_hits": 0
+}

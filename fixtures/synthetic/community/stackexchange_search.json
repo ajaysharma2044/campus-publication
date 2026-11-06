@@ -1,0 +1,25 @@
+{
+ "items": [
+  {
+   "question_id": 101,
+   "title": "How do I change my major as a sophomore &amp; keep credits?",
+   "link": "https://academia.stackexchange.com/questions/101/x",
+   "creation_date": 1700000000,
+   "owner": {
+    "display_name": "someone",
+    "user_id": 5
+   }
+  },
+  {
+   "question_id": 102,
+   "title": "Is it worth transferring to a top school for CS?",
+   "link": "https://academia.stackexchange.com/questions/102/y",
+   "creation_date": 1700000500,
+   "owner": {
+    "display_name": "x"
+   }
+  }
+ ],
+ "has_more": false,
+ "quota_remaining": 299
+}

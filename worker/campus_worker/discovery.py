@@ -102,6 +102,9 @@ class QuestionInput:
     source_ref: str | None = None
     constraints: list[str] = field(default_factory=list)
     is_hypothesis: bool = False
+    place_id: UUID | None = None          # town scope (continuous-local-run R34); institution_id stays None for town questions
+    pattern_key: str | None = None        # R19: which pattern generated a hypothesis
+    pattern_version: str | None = None
 
 
 def _topic_id(cur, key: str | None) -> UUID | None:
@@ -122,12 +125,12 @@ def ingest(conn: psycopg.Connection, items: list[QuestionInput]) -> dict:
                 continue
             aud = detect_audience(q.raw_text)
             occ = occurrence_key(source_ref=q.source_ref, normalized=norm, origin=q.origin, observed_at=q.observed_at)
-            cur.execute("SELECT id FROM questions WHERE occurrence_key=%s AND institution_id IS NOT DISTINCT FROM %s", (occ, q.institution_id))
+            cur.execute("SELECT id FROM questions WHERE occurrence_key=%s AND institution_id IS NOT DISTINCT FROM %s AND place_id IS NOT DISTINCT FROM %s", (occ, q.institution_id, q.place_id))
             if cur.fetchone():
                 out["duplicate_occurrences"] += 1
                 continue
             tid = _topic_id(cur, q.topic_key)
-            akey = answer_key(institution_id=q.institution_id, topic_key=q.topic_key, entity_id=q.entity_id, normalized=norm, audience=aud)
+            akey = answer_key(institution_id=q.institution_id or q.place_id, topic_key=q.topic_key, entity_id=q.entity_id, normalized=norm, audience=aud)
             cur.execute("SELECT id FROM intent_clusters WHERE answer_key=%s", (akey,))
             r = cur.fetchone()
             if r:
@@ -135,18 +138,18 @@ def ingest(conn: psycopg.Connection, items: list[QuestionInput]) -> dict:
             else:
                 split_aud = aud if (aud and q.topic_key and aud in AUDIENCE_SPLIT_TOPICS.get(q.topic_key, set())) else None
                 cur.execute(
-                    """INSERT INTO intent_clusters (institution_id, campus_id, topic_id, entity_id, label, answer_key, audience, task)
-                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s) RETURNING id""",
-                    (q.institution_id, q.campus_id, tid, q.entity_id, q.raw_text[:140], akey, split_aud, norm[:120]),
+                    """INSERT INTO intent_clusters (institution_id, campus_id, topic_id, entity_id, label, answer_key, audience, task, place_id, queue_state)
+                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,'candidate') RETURNING id""",
+                    (q.institution_id, q.campus_id, tid, q.entity_id, q.raw_text[:140], akey, split_aud, norm[:120], q.place_id),
                 )
                 cluster_id = cur.fetchone()["id"]
                 out["clusters_created"] += 1
             cur.execute(
                 """INSERT INTO questions (institution_id, campus_id, topic_id, entity_id, raw_text, normalized_text, origin, is_hypothesis,
-                   audience, constraints, observed_at, source_ref, occurrence_key, cluster_id)
-                   VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
+                   audience, constraints, observed_at, source_ref, occurrence_key, cluster_id, place_id, pattern_key, pattern_version)
+                   VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
                 (q.institution_id, q.campus_id, tid, q.entity_id, q.raw_text, norm, q.origin, q.is_hypothesis, aud, q.constraints,
-                 q.observed_at, q.source_ref, occ, cluster_id),
+                 q.observed_at, q.source_ref, occ, cluster_id, q.place_id, q.pattern_key, q.pattern_version),
             )
             if q.is_hypothesis:
                 cur.execute("UPDATE intent_clusters SET hypothesis_count=hypothesis_count+1, updated_at=now() WHERE id=%s", (cluster_id,))
@@ -199,3 +202,58 @@ def cluster_summary(conn: psycopg.Connection, cluster_id: UUID) -> dict:
         cur.execute("SELECT raw_text, origin, is_hypothesis, audience FROM questions WHERE cluster_id=%s ORDER BY created_at", (cluster_id,))
         c["questions"] = cur.fetchall()
     return c
+
+
+# ---------------------------------------------------------------------------- open-ended discovery (continuous-local-run R46)
+AUTO_TOPIC_MIN_INDEPENDENT = 3
+_WORD = re.compile(r"[a-z][a-z-]+")
+_SKIP = STOPWORDS | {"cornell", "ithaca", "university", "college", "student", "students", "how", "when", "where", "why", "is", "does", "do", "much", "many", "best", "good"}
+
+
+def _topic_name_from_questions(texts: list[str]) -> tuple[str, str]:
+    """Deterministic name: the most frequent 1–3 content words across the cluster's questions, in first-seen order."""
+    counts: dict[str, int] = {}
+    order: list[str] = []
+    for t in texts:
+        for w in _WORD.findall(normalize(t)):
+            if w in _SKIP or len(w) < 3:
+                continue
+            if w not in counts:
+                order.append(w)
+            counts[w] = counts.get(w, 0) + 1
+    top = sorted(order, key=lambda w: (-counts[w], order.index(w)))[:3]
+    if not top:
+        top = ["uncategorized"]
+    key = "auto_" + "_".join(top)
+    label = " ".join(top).capitalize() + " (auto-created)"
+    return key[:60], label[:120]
+
+
+def auto_create_topics(conn: psycopg.Connection, *, run_id: str | None = None, min_independent: int = AUTO_TOPIC_MIN_INDEPENDENT) -> list[dict]:
+    """R46: a cluster with >= 3 independent observed questions and no topic becomes a new topic, named from its
+    questions, logged as a digest event, and attached to the cluster and its questions. Idempotent."""
+    created = []
+    with conn.cursor() as cur:
+        cur.execute(
+            """SELECT c.id, c.institution_id, c.place_id, c.independent_occurrences FROM intent_clusters c
+               WHERE c.topic_id IS NULL AND c.independent_occurrences >= %s ORDER BY c.created_at""", (min_independent,))
+        clusters = cur.fetchall()
+        for c in clusters:
+            cur.execute("SELECT raw_text FROM questions WHERE cluster_id=%s AND NOT is_hypothesis ORDER BY created_at", (c["id"],))
+            texts = [r["raw_text"] for r in cur.fetchall()]
+            key, label = _topic_name_from_questions(texts)
+            scope = "town" if (c["place_id"] and not c["institution_id"]) else "school"
+            cur.execute(
+                """INSERT INTO topics (key, label, description, sort_order, scope, auto_created, created_from, freshness_risk)
+                   VALUES (%s,%s,%s,900,%s,TRUE,%s,'medium') ON CONFLICT (key) DO UPDATE SET label=topics.label RETURNING id, (xmax = 0) AS inserted""",
+                (key, label, "auto-created from " + "; ".join(t[:80] for t in texts[:3]), scope, str(c["id"])),
+            )
+            r = cur.fetchone()
+            cur.execute("UPDATE intent_clusters SET topic_id=%s, updated_at=now() WHERE id=%s", (r["id"], c["id"]))
+            cur.execute("UPDATE questions SET topic_id=%s WHERE cluster_id=%s", (r["id"], c["id"]))
+            if r["inserted"]:
+                cur.execute("INSERT INTO digest_events (run_id, kind, detail) VALUES (%s,'topic_created',%s::jsonb)",
+                            (run_id, __import__("json").dumps({"key": key, "label": label, "cluster_id": str(c["id"]), "questions": texts[:5], "independent": c["independent_occurrences"]})))
+            created.append({"cluster_id": str(c["id"]), "topic_key": key, "label": label, "new": bool(r["inserted"])})
+    conn.commit()
+    return created

@@ -1,0 +1,50 @@
+{
+ "status": "success",
+ "data": {
+  "classes": [
+   {
+    "crseId": 350001,
+    "subject": "FXTR",
+    "catalogNbr": "1010",
+    "titleLong": "Introduction to Fixtures",
+    "description": "Synthetic course.",
+    "catalogPrereqCoreq": "",
+    "catalogWhenOffered": "Fall, Spring.",
+    "enrollGroups": [
+     {
+      "unitsMinimum": 3,
+      "unitsMaximum": 3,
+      "classSections": [
+       {
+        "ssrComponent": "LEC"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "crseId": 350002,
+    "subject": "FXTR",
+    "catalogNbr": "2200",
+    "titleLong": "Intermediate Fixtures",
+    "description": "Synthetic course.",
+    "catalogPrereqCoreq": "Prerequisite: FXTR 1010 or MATH 1110.",
+    "catalogWhenOffered": "Spring.",
+    "enrollGroups": [
+     {
+      "unitsMinimum": 4,
+      "unitsMaximum": 4,
+      "classSections": [
+       {
+        "ssrComponent": "LEC"
+       },
+       {
+        "ssrComponent": "DIS"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

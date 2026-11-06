@@ -24,7 +24,7 @@ from urllib.parse import urljoin, urlsplit, urlunsplit
 import httpx
 import psycopg
 
-from .permissions import check_url
+from .permissions import check_url, record_robots, robots_allows
 
 MAX_BYTES_DEFAULT = 5 * 1024 * 1024
 MAX_REDIRECTS = 5
@@ -122,7 +122,7 @@ def resolve_and_check(host: str, *, resolver=socket.getaddrinfo) -> list[str]:
 class SafeFetcher:
     def __init__(self, conn: psycopg.Connection, *, transport: httpx.BaseTransport | None = None,
                  resolver=socket.getaddrinfo, rate_limiter: RateLimiter | None = None,
-                 max_bytes: int = MAX_BYTES_DEFAULT, timeout: float = 20.0, sleep=time.sleep):
+                 max_bytes: int = MAX_BYTES_DEFAULT, timeout: float = 20.0, sleep=time.sleep, check_robots: bool = True):
         self.conn = conn
         self.transport = transport
         self.resolver = resolver
@@ -130,6 +130,39 @@ class SafeFetcher:
         self.max_bytes = max_bytes
         self.timeout = timeout
         self._sleep = sleep
+        self.check_robots = check_robots
+        self._robots: dict[str, str | None] = {}   # host → robots.txt text (None = unreachable → treated as allow, recorded as unknown)
+
+    # -- robots.txt (continuous-local-run R35: never fetch past robots rules) -----------------
+    def _robots_text(self, scheme: str, host: str) -> str | None:
+        if host in self._robots:
+            return self._robots[host]
+        text: str | None = None
+        try:
+            with httpx.Client(transport=self.transport, timeout=self.timeout, follow_redirects=True) as client:
+                r = client.get(f"{scheme}://{host}/robots.txt", headers={"User-Agent": USER_AGENT})
+                if r.status_code == 200 and (r.headers.get("content-type", "").startswith("text/") or r.text.lstrip().lower().startswith(("user-agent", "#", "sitemap"))):
+                    text = r.text[:200_000]
+                elif r.status_code in (401, 403):
+                    text = "User-agent: *\nDisallow: /\n"   # conservative: a robots file we are refused counts as disallow
+                else:
+                    text = ""                                   # 404 etc. → no rules
+        except Exception:  # noqa: BLE001 — unreachable robots is not a disallow, but it is recorded as unknown
+            text = None
+        self._robots[host] = text
+        return text
+
+    def robots_ok(self, url: str) -> bool:
+        parts = urlsplit(url)
+        text = self._robots_text(parts.scheme, parts.hostname or "")
+        if text is None:
+            return True
+        ok = robots_allows(text, parts.path or "/", USER_AGENT.split("/")[0])
+        try:
+            record_robots(self.conn, url, ok)
+        except Exception:  # noqa: BLE001
+            pass
+        return ok
 
     # -- circuit breaker -------------------------------------------------
     def _circuit_open(self, url: str) -> bool:
@@ -161,6 +194,8 @@ class SafeFetcher:
             raise FetchRefused("permission_denied", decision.reason)
         if self._circuit_open(url):
             raise FetchRefused("circuit_open", url)
+        if self.check_robots and not self.robots_ok(url):
+            raise FetchRefused("robots_disallow", url)
         etag, last_mod = self._previous_validators(url) if use_conditional else (None, None)
         headers = {"User-Agent": USER_AGENT, "Accept": ", ".join(expected_types) + ", */*;q=0.1"}
         if etag:

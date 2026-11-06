@@ -115,7 +115,7 @@ def collect_html_source(conn: psycopg.Connection, fetcher: SafeFetcher, source_i
         res: FetchResult = fetcher.fetch(url, expected_types=("text/html", "application/xhtml+xml"))
     except FetchRefused as e:
         outcome = {"permission_denied": "blocked", "redirect_permission_denied": "redirect_rejected", "private_address": "redirect_rejected",
-                   "oversized": "oversized", "unexpected_content_type": "unexpected_type"}.get(e.reason, "error")
+                   "oversized": "oversized", "unexpected_content_type": "unexpected_type", "robots_disallow": "blocked"}.get(e.reason, "error")
         sid = record_snapshot(conn, source_id, final_url=url, status=None, content_type=None, content_hash="", raw_hash=None, byte_size=None,
                               etag=None, last_modified=None, confidence=None, retained_text=None, retained_tables=None,
                               material_change=None, outcome=outcome, error_detail=str(e))
@@ -155,17 +155,18 @@ def collect_html_source(conn: psycopg.Connection, fetcher: SafeFetcher, source_i
 
 def register_source(conn: psycopg.Connection, *, canonical_url: str, institution_id: UUID | None, campus_id: UUID | None,
                     source_kind: str, publisher: str | None, reliability: str = "official", refresh_interval_hours: int = 168,
-                    source_family: str | None = None) -> UUID:
+                    source_family: str | None = None, place_id: UUID | None = None) -> UUID:
     from ..permissions import check_url
 
     d = check_url(conn, canonical_url)
     with conn.cursor() as cur:
         cur.execute(
             """INSERT INTO source_registry (institution_id, campus_id, canonical_url, publisher, source_kind, permission_id, reliability,
-               source_family, refresh_interval_hours, next_refresh_at)
-               VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,now())
-               ON CONFLICT (canonical_url) DO UPDATE SET publisher=EXCLUDED.publisher, reliability=EXCLUDED.reliability RETURNING id""",
-            (institution_id, campus_id, canonical_url, publisher, source_kind, d.permission_id, reliability, source_family, refresh_interval_hours),
+               source_family, refresh_interval_hours, next_refresh_at, place_id)
+               VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,now(),%s)
+               ON CONFLICT (canonical_url) DO UPDATE SET publisher=EXCLUDED.publisher, reliability=EXCLUDED.reliability,
+                 place_id=COALESCE(EXCLUDED.place_id, source_registry.place_id) RETURNING id""",
+            (institution_id, campus_id, canonical_url, publisher, source_kind, d.permission_id, reliability, source_family, refresh_interval_hours, place_id),
         )
         sid = cur.fetchone()["id"]
     conn.commit()

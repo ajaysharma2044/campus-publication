@@ -14,9 +14,11 @@ def test_all_required_tables_exist(conn):
 
 
 def test_topics_seeded(conn):
+    """Migration 0001 seeds 13 base topics; the R33 taxonomy (campus_worker.taxonomy.seed) adds more, so the count is a floor."""
     with conn.cursor() as cur:
-        cur.execute("SELECT count(*) AS n FROM topics")
-        assert cur.fetchone()["n"] == 13
+        cur.execute("SELECT key FROM topics")
+        keys = {r["key"] for r in cur.fetchall()}
+    assert len(keys) >= 13 and {"housing", "transfer", "costs_aid", "dining", "transportation", "accessibility"} <= keys
 
 
 def test_money_claims_must_be_integer_minor_units(conn):

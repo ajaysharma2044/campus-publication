@@ -1,0 +1,1 @@
+{"fixture": true, "route": "30", "name": "Route 30 Commons – Airport (SYNTHETIC)", "headway_minutes": {"peak": 15, "off_peak": 30}, "last_bus": "23:40", "fare_usd": 1.50, "academic_year": "2026-27", "source": "fixtures/synthetic/town/route_fixture.json"}
