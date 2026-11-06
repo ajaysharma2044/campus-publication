@@ -174,6 +174,12 @@ OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + app
 - First full pytest stopped at `test_run_loop.py::test_usage_limit_exits_20_with_no_retry_inside_60s` (116s inside the full suite; 2.9s alone). The run-end digest was the only non-stub step, so `run.sh` now skips it when `CAMPUS_RUN_NO_DIGEST` is set and the run-loop tests set it (they no longer touch the DB or write digests). Root cause of the 116s was not independently proven. Re-run: 225 passed.
 - `scripts/doctor.sh`: 0 required failures, 1 warning (took over 5 minutes this run; worth a look). No discovery work this iteration.
 
+### Iteration 5 (run 20261106T140001Z, sweep) — run-intel batch 10 did not finish in the foreground cap
+- Checks: pytest passed (exit 0). `scripts/doctor.sh`: 2 required FAIL (`admissions.cornell.edu` and `nces.ed.gov`, HTTP 000; external, not fixable in the repo), 1 warning (living.cornell.edu). One `sweep next` call hit a transient DNS failure for the Neon host and succeeded on retry.
+- `sweep next` -> step `intel`, 40 need intel (remaining 40 after a 25-cluster batch). `sweep run-intel --batch 10` hit the 600s Bash cap (the tool maximum; the 20-minute timeout in the prompt cannot be set) and was moved to the background. Its output file stayed empty; I could not confirm whether it finished, ingested or scored (`ps` is denied). No commit of results.
+- `sweep status` after: need_intel 141, sweet_spot 2, watch 1030, reject 47, undecided 149, deferred 986. Before: need_intel 40, sweet_spot 1, watch 1131, undecided 50. need_intel rising from 40 to 141 while watch fell by 101 is unexplained and matches the shift seen in iteration 4 after a killed batch. Likely `run_score` re-decides clusters as it runs (possible re-opening of deferred `watch` clusters); not proven.
+- Next: read `sweep run_score` / deferral logic to see why scoring flips `watch` to `need_intel`; make `run_intel` score only its batch; give run-intel a time budget under 600s (batch of 3-5) or a progress log so a kill is diagnosable.
+
 ### Iteration 3 (run 20261106T140001Z, sweep) — first live `run-intel`, scoring fix
 - Checks: pytest passed, doctor 0 required failures (warning: living.cornell.edu).
 - `sweep run-intel --batch 25` (first live run): the dispatch and ingest worked (`need_intel` 99 -> 74), then `run_score` died with `psycopg.OperationalError: server closed the connection unexpectedly`. A separate `sweep score` hit the same error. Cause of the drops not established (Postgres log not readable from the headless allowlist).
