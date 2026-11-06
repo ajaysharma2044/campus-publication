@@ -117,8 +117,12 @@ def score_cluster(conn: psycopg.Connection, cluster_id: UUID, *, intel: dict | N
     intel = intel or latest_intel(conn, cluster_id)
     if intel is None:
         with conn.cursor() as cur:
-            cur.execute("SELECT hypothesis_count, independent_occurrences, queue_state, queue_reason FROM intent_clusters WHERE id=%s", (cluster_id,))
+            cur.execute("SELECT hypothesis_count, independent_occurrences, queue_state, queue_reason, last_intel_at FROM intent_clusters WHERE id=%s", (cluster_id,))
             h = cur.fetchone()
+            if h["last_intel_at"] is not None:
+                # marked observed but no observation survived (a lost or invalid batch reply): observe it again instead of staying undecided forever
+                cur.execute("UPDATE intent_clusters SET last_intel_at=NULL, updated_at=now() WHERE id=%s", (cluster_id,))
+                conn.commit()
         if h["queue_state"] == "watch" and (h["queue_reason"] or "").startswith(("deferred:", "waiting for a second")):
             # the bounded sweep decided this cluster (R41 deferral / R20 single occurrence); scoring without new intel keeps that decision
             cs = ClusterScore(cluster_id, d, 0, 0, e, 0, 0.0, "watch", h["queue_reason"], None, None, False)
