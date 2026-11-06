@@ -19,6 +19,7 @@ from pathlib import Path
 from ..config import REPO_ROOT
 from ..tools.calculator import LineItem, calculate
 from . import engine
+from .figures import figures_for_page
 
 OUT_DEFAULT = REPO_ROOT / "build" / "preview"
 POLICY_DIR = Path(__file__).parent / "content" / "policies"
@@ -129,6 +130,7 @@ def profile_ctx() -> dict:
                              {"text": "Estimate your total housing cost for the year", "target": "/tools/total-cost/?school=fixture-state"},
                              {"text": "Check whether you are eligible to live here", "target": "/schools/fixture-state/housing/eligibility/"}],
             "sources": SOURCES, "production_note": NOTE, "stale": False}
+    page["figures"] = figures_for_page(page, TODAY)   # the same deterministic figures a published page gets, so screenshot QA covers them
     sd = {"@context": "https://schema.org", "@type": "Article", "headline": page["headline"], "description": page["deck"], "datePublished": "2026-10-29",
           "dateModified": "2026-10-29", "author": {"@type": "Organization", "name": "Footnote Daily — Housing desk"}, "publisher": {"@type": "Organization", "name": "Footnote Daily"}}
     related = [{"text": "Riverside Hall profile", "href": "/schools/fixture-state/housing/riverside-hall/"}, {"text": "Housing deadlines at Fixture State", "href": "/schools/fixture-state/housing/deadlines/"}]

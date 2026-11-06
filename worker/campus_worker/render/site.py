@@ -12,7 +12,8 @@ from uuid import UUID
 import psycopg
 
 from ..config import REPO_ROOT
-from . import engine
+from . import engine, photos
+from .figures import figures_for_page
 
 OUT_DEFAULT = REPO_ROOT / "build" / "site"
 TEMPLATE_BY_FORMAT = {"guide": "article.html", "explainer": "article.html", "entity_profile": "article.html", "comparison": "article.html",
@@ -54,7 +55,11 @@ def version_context(conn: psycopg.Connection, version_id: UUID, *, environment: 
                    "fact_table": structured.get("fact_table", []), "fact_table_caption": structured.get("fact_table_caption"),
                    "fact_table_footnote": structured.get("fact_table_footnote"), "next_actions": structured.get("next_actions", []),
                    "production_note": v["production_note"], "sources": _sources_for_version(conn, version_id) or structured.get("sources", []),
-                   "held_notice": None, "stale": False}
+                   "steps": structured.get("steps") or [], "held_notice": None, "stale": False}
+    ctx["page"]["figures"] = figures_for_page(ctx["page"], ctx["today"])        # deterministic SVG from the fact table; nothing invented
+    photo = photos.page_photo(v["path"], static_prefix=ctx["static_prefix"])     # a credited, rights-cleared photo for this path, or no image at all
+    if photo:
+        ctx["page"]["image"] = photo
     return ctx, dict(v)
 
 
@@ -65,6 +70,8 @@ def render_version(conn: psycopg.Connection, version_id: UUID, *, out_root: Path
     out = out_root / v["path"].strip("/") / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html)
+    if ctx["page"].get("image"):
+        photos.copy_photo(ctx["page"]["image"], out_root)   # the photo ships with the build next to the CSS
     return out
 
 

@@ -9,12 +9,13 @@
   <h1>{{ page.headline }}</h1>
   {% if page.deck %}<p class="deck measure">{{ page.deck }}</p>{% endif %}
   <div class="byline"><span><b>{{ page.byline }}</b></span><span>Published <time datetime="{{ page.published_at|isodate }}">{{ page.published_at|datefmt }}</time></span>{% if page.updated_at and page.updated_at|isodate != page.published_at|isodate %}<span>Updated <time datetime="{{ page.updated_at|isodate }}">{{ page.updated_at|datefmt }}</time></span>{% endif %}<span>{{ page.body_markdown|reading_time }} min read</span></div>
-  {% if page.image %}<figure class="lede-figure"><img src="{{ page.image.src }}" alt="{{ page.image.alt }}" width="1600" height="1000"><figcaption>{% if page.image.caption %}{{ page.image.caption }} · {% endif %}{{ page.image.credit }}</figcaption></figure>{% endif %}
+  {% if page.image %}<figure class="lede-figure"><img src="{{ page.image.src }}" alt="{{ page.image.alt }}" width="{{ page.image.width or 1600 }}" height="{{ page.image.height or 1000 }}"{% if page.image.rights %} data-rights="{{ page.image.rights }}"{% endif %}><figcaption>{% if page.image.caption %}{{ page.image.caption }} · {% endif %}{{ page.image.credit }}</figcaption></figure>{% endif %}
   {% if page.held_notice %}<div class="notice notice--unknown" role="note"><b>Draft held, not published.</b> {{ page.held_notice }}</div>{% endif %}
   {% if page.stale %}<div class="notice notice--stale">Some facts on this page are past the date we last checked them. We are re-checking them now.</div>{% endif %}
   {% set parts = page.body_markdown.split('[[fact-table]]') %}
   <div class="prose measure">{{ parts[0]|md|safe }}</div>
   {% if page.fact_table %}{% with caption=page.fact_table_caption, rows=page.fact_table, footnote=page.fact_table_footnote %}{% include "partials/fact_table.html" %}{% endwith %}{% endif %}
+  {% for f in page.figures or [] %}<figure class="figure figure--{{ f.kind }}"><figcaption><b class="figure__title">{{ f.title }}</b> {{ f.caption }}</figcaption>{{ f.svg|safe }}</figure>{% endfor %}
   {% if parts|length > 1 %}<div class="prose measure">{{ parts[1]|md|safe }}</div>{% endif %}
   {% with slot_html=ad_slots.after_essentials %}{% include "partials/ad_slot.html" %}{% endwith %}
   {% with actions=page.next_actions %}{% include "partials/next_actions.html" %}{% endwith %}

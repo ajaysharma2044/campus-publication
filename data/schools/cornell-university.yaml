@@ -1,0 +1,87 @@
+# Bulk-mode dossier config (specs/bulk-mode.md D1): which official sites to crawl through their sitemaps, and the topic each
+# section's facts belong to. Every fetch still goes through the safe fetcher: robots.txt, source_permissions (fetch_permitted hosts
+# only, per-host rate) and the size/redirect guards apply per request. Hosts that are search-observation only (tcatbus.com) are
+# listed under `observe_only` so the report says why they were not crawled.
+school: cornell-university
+place: ithaca-ny
+county_place: tompkins-county-ny
+max_pages_per_host: 400
+sections:
+  - key: housing
+    topic: housing
+    hosts: [scl.cornell.edu]
+    prefixes: ["/residential-life/housing"]
+  - key: dining
+    topic: dining
+    hosts: [scl.cornell.edu]
+    prefixes: ["/residential-life/dining"]
+  - key: student_life
+    topic: services
+    hosts: [scl.cornell.edu]
+    prefixes: ["/"]
+    max_pages: 250
+  - key: registrar
+    topic: courses
+    hosts: [registrar.cornell.edu]
+  - key: admissions
+    topic: admissions
+    hosts: [admissions.cornell.edu, faq.enrollment.cornell.edu]
+  - key: financial_aid
+    topic: costs_aid
+    hosts: [finaid.cornell.edu]
+  - key: bursar
+    topic: costs_aid
+    hosts: [dfa.cornell.edu]
+    prefixes: ["/bursar", "/tuition", "/billing", "/students"]
+  - key: transportation
+    topic: transportation
+    hosts: [transportation.fs.cornell.edu, fcs.cornell.edu]
+    prefixes: ["/"]
+    max_pages: 200
+  - key: health
+    topic: health_wellbeing
+    hosts: [health.cornell.edu]
+    max_pages: 200
+  - key: careers
+    topic: careers
+    hosts: [career.cornell.edu, ccs.cornell.edu]
+    max_pages: 200
+  - key: alumni
+    topic: alumni_benefits
+    hosts: [alumni.cornell.edu]
+    max_pages: 200
+  - key: parents
+    topic: parents_visitors
+    hosts: [parents.cornell.edu, families.cornell.edu]
+    max_pages: 150
+  - key: international
+    topic: admissions
+    hosts: [international.globallearning.cornell.edu]
+    max_pages: 150
+  - key: catalog
+    topic: programs
+    hosts: [courses.cornell.edu]
+    max_pages: 300
+  - key: colleges
+    topic: programs
+    hosts: [as.cornell.edu, engineering.cornell.edu, cals.cornell.edu, ilr.cornell.edu, business.cornell.edu, human.cornell.edu, aap.cornell.edu, brooks.cornell.edu, hotelschool.cornell.edu]
+    max_pages: 120
+  - key: libraries
+    topic: services
+    hosts: [library.cornell.edu]
+    max_pages: 150
+  - key: town
+    place: ithaca-ny
+    topic: town_services
+    hosts: [cityofithacany.gov]
+    max_pages: 150
+  - key: county
+    place: tompkins-county-ny
+    topic: town_services
+    hosts: [tompkinscountyny.gov]
+    max_pages: 150
+observe_only:
+  - host: tcatbus.com
+    reason: source_permissions allows search observation only; the GTFS feed collector covers routes
+apis:
+  class_roster: https://classes.cornell.edu/api/2.0/config/rosters.json

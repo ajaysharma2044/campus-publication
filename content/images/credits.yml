@@ -9,4 +9,14 @@
 #   license: "All rights reserved; licensed to Footnote Daily"
 #   rights_holder: "Jane Doe"
 #   source_url: ""
+#
+# Published pages are keyed by path under `pages:` (file, alt, credit and license required; see README.md):
+# pages:
+#   "/schools/cornell-university/housing/transfer-housing/":
+#     file: cornell-north-campus.jpg
+#     alt: "Low brick residence halls along a tree-lined path on North Campus"
+#     credit: "Photo: Jane Doe for Footnote Daily"
+#     license: "CC BY-SA 4.0"
+#     rights_holder: "Jane Doe"
+#     source_url: "https://commons.wikimedia.org/wiki/File:..."
 {}

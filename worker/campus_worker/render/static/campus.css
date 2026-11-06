@@ -338,3 +338,10 @@ a.topic-tile:hover .topic-tile__label { color: var(--navy); }
 .topic-tile .state { font-size: var(--fs-meta); color: var(--ink-3); }
 .topic-tile--empty { background: transparent; border-style: dashed; }
 .topic-tile--empty .topic-tile__label { color: var(--ink-3); }
+
+/* ---------- figures: inline SVG built from the fact table (render/figures.py); scales with the column, never past it ---------- */
+.figure { margin: var(--s-5) 0; padding: var(--s-4); max-width: 36rem; min-width: 0; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius-lg); font-family: var(--font-sans); break-inside: avoid; }
+.figure svg { display: block; width: 100%; height: auto; max-width: 100%; }
+.figure figcaption { font-size: var(--fs-meta); color: var(--ink-3); margin: 0 0 var(--s-3); }
+.figure__title { display: block; font-size: var(--fs-small); font-weight: 700; color: var(--ink); margin-bottom: 2px; }
+@media (max-width: 599px) { .figure { padding: var(--s-3); } .figure svg { font-size: 14px; } }  /* the 360-unit viewBox scales down on phones; larger type keeps labels legible */

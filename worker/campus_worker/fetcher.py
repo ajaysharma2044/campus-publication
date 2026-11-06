@@ -157,9 +157,12 @@ class SafeFetcher:
         text = self._robots_text(parts.scheme, parts.hostname or "")
         if text is None:
             return True
-        ok = robots_allows(text, parts.path or "/", USER_AGENT.split("/")[0])
+        ua = USER_AGENT.split("/")[0]
+        ok = robots_allows(text, parts.path or "/", ua)
+        # The permission row covers a whole domain pattern, so it records whether robots allows the SITE (its root), not this one path:
+        # a single disallowed path (a /search/ or /user/ URL from a sitemap) must not switch every later fetch of the domain off (bulk crawl, 2026-11-06).
         try:
-            record_robots(self.conn, url, ok)
+            record_robots(self.conn, url, ok if (parts.path or "/") == "/" else robots_allows(text, "/", ua))
         except Exception:  # noqa: BLE001
             pass
         return ok

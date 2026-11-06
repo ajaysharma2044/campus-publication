@@ -43,7 +43,7 @@ def clean_conn(migrated_url):
             """TRUNCATE jobs, runs, usage_ledger, exceptions, heartbeats, pages, page_versions,
                page_claims, dependencies, briefs, opportunity_scores, serp_observations,
                demand_observations, questions, intent_clusters, coverage_edges, conflicts,
-               claim_sources, claims, fetch_snapshots, source_registry, source_permissions,
+               bulk_pages, bulk_questions, bulk_batches, crawl_runs, dossier_runs, claim_sources, claims, fetch_snapshots, source_registry, source_permissions,
                entities, school_topic_applicability, school_configs, campuses,
                institution_external_ids, institution_aliases, institutions, tool_configs,
                experiments, analytics_aggregates, revenue_reports, correction_requests, live_releases, serp_cache, strategies, query_targets, lane_state, digest_events, harvest_sources, places CASCADE"""

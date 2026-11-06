@@ -10,6 +10,9 @@ CAMPUS_LEAN_MODE=1 (the default) switches on:
 Unchanged: verified, sourced, dated facts; access modes and robots; no fake reviews or copied text; the editorial gates and rubric;
 the critical-claim rule; the SEO gate; the 60% overlap rule. CAMPUS_LEAN_MODE=0 restores the spec's thresholds (the test suite runs that way
 for the spec's acceptance tests, plus tests/test_lean.py for this mode).
+
+CLI:  python -m campus_worker.lean queue [--limit N] [--json]   the lean production queue as planned pages (question_id, path, page_type,
+      question, cluster_id): the page-list fallback of scripts/parallel_headless.sh when no `campus_worker.bulk plan` output is given (specs/bulk-mode.md section 3).
 """
 from __future__ import annotations
 
@@ -189,3 +192,43 @@ def last_verified_rubric(conn, page_id) -> dict | None:
         cur.execute("SELECT rubric FROM page_versions WHERE page_id=%s AND rubric IS NOT NULL AND gate_status='passed' ORDER BY version_no DESC LIMIT 1", (page_id,))
         row = cur.fetchone()
     return dict(row["rubric"]) if row and row["rubric"] else None
+
+
+def queue_pages(conn: psycopg.Connection, *, limit: int = 20) -> list[dict]:
+    """`production_queue` as planned pages, the shape `campus_worker.bulk plan --json` prints and scripts/parallel_headless.sh shards
+    (question_id, path, page_type, question, cluster_id; the queue row itself under `queue`). The path is what `pipeline run <cluster_id>` would
+    use: the cluster's existing page, else lean.default_page_path. A lean queue row has no question id (it is a cluster, not a dossier question)."""
+    from .pipeline import _page_for_cluster
+    pages = []
+    for r in production_queue(conn, limit=limit):
+        existing = _page_for_cluster(conn, r["cluster_id"])
+        pages.append({"question_id": None, "path": (existing or {}).get("path") or default_page_path(conn, cluster_id=r["cluster_id"]), "page_type": "guide",
+                      "question": r.get("best_variant") or r.get("label"), "cluster_id": str(r["cluster_id"]), "queue": dict(r)})
+    return pages
+
+
+def main(argv: list[str]) -> int:
+    """python -m campus_worker.lean queue [--limit N] [--json]"""
+    import json
+    from .config import get_settings
+    from .db import connect
+    if not argv or argv[0] != "queue" or "-h" in argv or "--help" in argv:
+        print("usage: python -m campus_worker.lean queue [--limit N] [--json]   the lean production queue as planned pages (scripts/parallel_headless.sh)")
+        return 2
+    limit = int(argv[argv.index("--limit") + 1]) if "--limit" in argv else 20
+    conn = connect(get_settings().database_url)
+    try:
+        pages = queue_pages(conn, limit=limit)
+    finally:
+        conn.close()
+    if "--json" in argv:
+        print(json.dumps(pages, indent=1, default=str))
+    else:
+        for p in pages:
+            print(f"{p['cluster_id'][:8]}  {p['path']}  {p['question']}")
+    return 0
+
+
+if __name__ == "__main__":
+    import sys
+    sys.exit(main(sys.argv[1:]))
