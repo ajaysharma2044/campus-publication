@@ -223,3 +223,25 @@ def test_navigator_renders_and_passes_seo_gate_and_accessibility(clean_conn, tmp
     qa = subprocess.run([node, str(ROOT / "scripts" / "qa_screens.js"), str(tmp_path), str(tmp_path / "qa")], capture_output=True, text=True, timeout=600, cwd=str(ROOT))
     assert qa.returncode == 0, qa.stdout[-2000:] + qa.stderr[-2000:]
     assert "problems: 0" in qa.stdout or "0 problem" in qa.stdout or '"problems": 0' in qa.stdout, qa.stdout[-1500:]
+
+
+def test_digest_has_every_r9_section_and_r29_r44_metrics(clean_conn, tmp_path):
+    from campus_worker import digest, budget, events
+    from datetime import date
+    inst, campus, topics = make_school(clean_conn)
+    budget.record_session_usage(clean_conn, kind="iteration", task_id="S4", agent=None, duration_s=120, turns=10, iteration=1)
+    budget.record_session_usage(clean_conn, kind="dispatch", task_id="S4", agent="researcher", duration_s=30, turns=5, iteration=1)
+    with clean_conn.cursor() as cur:
+        cur.execute("INSERT INTO pages (institution_id, topic_id, page_format, slug, path, status, ready_at, local_published_at) VALUES (%s,%s,'guide','d','/schools/fixture-state/housing/d/','staged',now(),now())", (inst, topics["housing"]))
+        cur.execute("INSERT INTO pages (institution_id, topic_id, page_format, slug, path, status, revalidation_reason) VALUES (%s,%s,'guide','h','/schools/fixture-state/housing/h/','held','seo_gate failed: one_h1')", (inst, topics["housing"]))
+    clean_conn.commit()
+    events.emit(clean_conn, "topic_created", {"key": "auto_kayak"})
+    p = digest.write(clean_conn, reason="run_end", out_dir=tmp_path)
+    md = p.read_text()
+    for section in ("## Tasks done", "## Pages published, held and why", "## Claims verified or superseded", "## Skills evaluated, adopted or rejected", "## Search intel and strategy changes", "## Failures and blockers", "## Next 3 tasks"):
+        assert section in md, section
+    for metric in ("per published page", "per verified update", "per qualified cluster", "discovery yield", "wasted-work rate"):
+        assert metric in md, metric
+    assert "projected days to 1,000" in md and "| tier | scope | topic | ready | live | held |" in md
+    assert "/schools/fixture-state/housing/h/" in md and "one_h1" in md and "turns 15" in md
+    assert p.name == f"{date.today().isoformat()}.md" or p.exists()

@@ -171,3 +171,72 @@ def passed_record(conn: psycopg.Connection, version_id: UUID) -> bool:
         cur.execute("SELECT (seo_gate->>'passed')::boolean AS ok FROM page_versions WHERE id=%s", (version_id,))
         r = cur.fetchone()
     return bool(r and r["ok"])
+
+
+# ---------------------------------------------------------------------------------------------- page input from a rendered build (R45)
+def page_input_from_html(conn: psycopg.Connection, version_id: UUID, html: str, *, css_bytes: int, environment: str, base_url: str,
+                         primary_query: str, secondary_questions: list[str], real_faq_questions: list[str], backlinks: int,
+                         has_sibling_pages: bool, qa_overflow_widths: list[int] | None, qa_checked_widths: int, page_type: str = "Article") -> PageInput:
+    """Build the gate input from the rendered HTML of a version, so the gate judges what readers and crawlers get."""
+    import html as _html
+    from bs4 import BeautifulSoup
+
+    with conn.cursor() as cur:
+        cur.execute("SELECT p.path FROM page_versions v JOIN pages p ON p.id=v.page_id WHERE v.id=%s", (version_id,))
+        path = cur.fetchone()["path"]
+    soup = BeautifulSoup(html, "lxml")
+    title = (soup.title.string if soup.title and soup.title.string else "").split(" — ")[0].strip()
+    meta = soup.find("meta", attrs={"name": "description"})
+    meta_description = _html.unescape(meta["content"]) if meta and meta.get("content") else ""
+    h1s = [h.get_text(" ", strip=True) for h in soup.find_all("h1")]
+    h2h3s = [h.get_text(" ", strip=True) for h in soup.find_all(["h2", "h3"])]
+    article = soup.find("article") or soup.find("main") or soup
+    opening = ""
+    for p in article.find_all("p"):
+        if p.find_parent(class_="byline") or p.find_parent("nav") or p.find_parent("header") or "deck" in (p.get("class") or []):
+            continue
+        txt = p.get_text(" ", strip=True)
+        if len(txt) > 40:
+            opening = txt
+            break
+    blocks: list[dict] = []
+    for s in soup.find_all("script", attrs={"type": "application/ld+json"}):
+        try:
+            data = json.loads(s.string or "")
+        except json.JSONDecodeError:
+            continue
+        blocks += data if isinstance(data, list) else [data]
+    links = []
+    for a in article.find_all("a", href=True):
+        href = a["href"]
+        if href.startswith("/") and not href.startswith("/static/"):
+            links.append({"href": href, "anchor": a.get_text(" ", strip=True)})
+    canonical = soup.find("link", attrs={"rel": "canonical"})
+    noindex = bool(soup.find("meta", attrs={"name": "robots", "content": re.compile("noindex")}))
+    topic_hub, scope_hub = _hubs_for(path)
+    body_text = article.get_text(" ", strip=True)
+    return PageInput(path=path, title=title, meta_description=meta_description, h1s=h1s, h2h3s=h2h3s, opening_paragraph=opening, primary_query=primary_query,
+                     secondary_questions=secondary_questions, json_ld=blocks, page_type=page_type, real_faq_questions=real_faq_questions, internal_links=links,
+                     topic_hub=topic_hub, scope_hub=scope_hub, backlinks=backlinks, has_sibling_pages=has_sibling_pages,
+                     canonical=(canonical["href"] if canonical and canonical.get("href") else None), noindex=noindex, environment=environment,
+                     images=[{"alt": i.get("alt"), "width": i.get("width"), "height": i.get("height"), "rights_recorded": bool(i.get("data-rights")), "bytes": 0} for i in article.find_all("img")],
+                     html_css_bytes=len(html.encode()) + css_bytes, qa_overflow_widths=list(qa_overflow_widths or []), qa_checked_widths=qa_checked_widths,
+                     visible_updated_date=("Published" in html or "Updated" in html), time_bound_facts_with_year=bool(re.search(r"\b20\d{2}[–-]\d{2}\b", body_text)) or not re.search(r"\$\d|deadline", body_text, re.I))
+
+
+def _hubs_for(path: str) -> tuple[str, str]:
+    parts = [p for p in path.split("/") if p]
+    if len(parts) >= 3 and parts[0] in ("schools", "towns"):
+        return "/" + "/".join(parts[:3]) + "/", "/" + "/".join(parts[:2]) + "/"
+    return "/", "/"
+
+
+def count_backlinks(html_by_path: dict[str, str], path: str) -> int:
+    """Inbound links to `path` from the other rendered pages (hubs count once the hub lists the page)."""
+    n = 0
+    for src, html in html_by_path.items():
+        if src == path:
+            continue
+        if re.search(r'href="' + re.escape(path) + r'"', html):
+            n += 1
+    return n

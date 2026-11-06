@@ -434,7 +434,9 @@ def test_parent_variant_with_same_facts_is_merged_as_section(clean_conn):
 
 
 # ------------------------------------------------------------------------------------------------ lanes + sweep status
-def test_lane_mix_orders_by_deficit_and_falls_through_empty_lanes(clean_conn):
+def test_lane_mix_orders_by_deficit_and_falls_through_empty_lanes(clean_conn, monkeypatch):
+    # the repo's docs/ops/skill-evaluations.md may record a scout run from today; the test wants the no-scout-record state regardless
+    monkeypatch.setattr(lanes, "_skill_scout_due", lambda: {"kind": "skill_scout_due", "reason": "no scout record (test)", "next": "dispatch skill-scout"})
     mix = lanes.parse_mix("50,30,20")
     assert lanes.order_by_deficit(mix, {}) == ["production", "discovery", "maintenance"]
     assert lanes.order_by_deficit(mix, {"production": 1})[0] == "discovery"

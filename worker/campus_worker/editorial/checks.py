@@ -42,7 +42,7 @@ QUOTE_PATTERN = re.compile(r"[“\"][^”\"]{25,}[”\"]\s*(,|—|-)?\s*(said|sa
 BYLINE_HUMAN_PATTERN = re.compile(r"^\s*by\s+[A-Z][a-z]+(\s+[A-Z]\.)?\s+[A-Z][a-z]+", re.M | re.I)
 SUPERLATIVE_PATTERN = re.compile(r"\b(the )?(best|worst|cheapest|most affordable|#1|number one|top[- ]rated|ultimate|definitive|complete guide)\b", re.I)
 MONEY_PATTERN = re.compile(r"\$\s?(\d{1,3}(?:,\d{3})+|\d+)(?:\.(\d{2}))?")
-YEAR_PATTERN = re.compile(r"\b(20\d{2})[–\-/](\d{2}|20\d{2})\b")
+YEAR_PATTERN = re.compile(r"\b(20\d{2})[–\-/](\d{2}|20\d{2})\b(?![–\-/]\d)")  # an academic-year range; an ISO date like 2026-05-15 is not one
 ALLOWED_BYLINES = ("Publication desk", "Housing desk", "Admissions desk", "Costs and aid desk", "Transfer desk", "Tools desk")
 
 
@@ -155,7 +155,10 @@ def check_arithmetic(body_md: str) -> list[Finding]:
     return out
 
 
-def check_scope(body_md: str, headline: str, *, institution_name: str, other_institution_names: list[str], academic_year: str | None) -> list[Finding]:
+def check_scope(body_md: str, headline: str, *, institution_name: str, other_institution_names: list[str], academic_year: str | None,
+                labeled_years: set[str] | None = None) -> list[Finding]:
+    """labeled_years: year ranges the fact table labels explicitly (a row about the 2027-28 selection cycle on a 2026-27 page); those are
+    scoped on purpose and are not a wrong-year finding."""
     out = []
     text = headline + "\n" + body_md
     for other in other_institution_names:
@@ -164,7 +167,9 @@ def check_scope(body_md: str, headline: str, *, institution_name: str, other_ins
     if academic_year:
         for m in YEAR_PATTERN.finditer(text):
             found = f"{m.group(1)}-{m.group(2)[-2:]}"
-            if found != academic_year:
+            if int(m.group(2)[-2:]) != int(m.group(1)[-2:]) + 1:
+                continue  # not a consecutive-year range (a month, a page number), so not an academic year
+            if found != academic_year and found not in (labeled_years or set()):
                 out.append(Finding("wrong_year", "major", f"academic year {found} appears but the brief is scoped to {academic_year}"))
     return out
 
@@ -216,7 +221,12 @@ def run_all(*, headline: str, deck: str | None, body_md: str, byline: str, fact_
     f += check_money_in_prose_matches_table(body_md, fact_table)
     f += check_claim_refs(body_claim_ids, critical_ids, approved_ids)
     f += check_arithmetic(body_md)
-    f += check_scope(body_md, headline, institution_name=institution_name, other_institution_names=other_institution_names, academic_year=academic_year)
+    labeled = set()
+    for row in fact_table or []:
+        for m in YEAR_PATTERN.finditer(f"{row.get('label', '')} {row.get('value', '')} {row.get('note', '')}"):
+            if int(m.group(2)[-2:]) == int(m.group(1)[-2:]) + 1:
+                labeled.add(f"{m.group(1)}-{m.group(2)[-2:]}")
+    f += check_scope(body_md, headline, institution_name=institution_name, other_institution_names=other_institution_names, academic_year=academic_year, labeled_years=labeled)
     f += check_next_action(next_actions)
     f += check_duplicate_audience(body_md, existing_bodies)
     f += check_length_padding(body_md)

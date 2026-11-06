@@ -85,11 +85,21 @@ def render_evaluations(m: dict, *, runs: list[str], today: date | None = None) -
     return "\n".join(L)
 
 
+TASK_CAPABILITIES = {  # eval-set task number → the R30 capabilities that task measures (docs/ops/skill-eval-set.md)
+    "1": ("content briefs",), "2": ("content briefs", "local and campus navigation content"), "3": ("content briefs",),
+    "4": ("substantive editing",), "5": ("on-page SEO (titles, meta, headings)", "snippet and answer formatting", "editorial writing"),
+    "6": ("SERP and competitor gap analysis",),
+}
+
+
 def render_coverage(m: dict) -> str:
-    """Refresh docs/ops/skill-coverage.md: a capability is covered by an adopted skill when a benchmark beat baseline; otherwise the in-repo reference stays, with the baseline score when known."""
-    base_scores: dict[str, float] = {}
+    """Refresh docs/ops/skill-coverage.md: a capability is covered by an adopted skill when a benchmark beat baseline; otherwise the
+    in-repo reference stays, with the baseline score of the eval task(s) that measure that capability ("—" when no task does)."""
+    by_cap: dict[str, list[dict]] = {}
     for b in m["benchmarks"]:
-        base_scores.setdefault("baseline", b.get("baseline_score"))
+        task_no = str(b.get("task") or "").split("-")[0]
+        for cap in TASK_CAPABILITIES.get(task_no, ()):
+            by_cap.setdefault(cap, []).append(b)
     covering = {}
     for a in m["adoptions"].values():
         for cap in (next((c.get("capabilities") for c in m["candidates"] if c["name"] == a["name"]), None) or []):
@@ -100,13 +110,20 @@ def render_coverage(m: dict) -> str:
         if line.startswith("| ") and not line.startswith("| capability") and "|" in line[2:]:
             cells = [c.strip() for c in line.strip().strip("|").split("|")]
             cap = cells[0]
+            rows = [b for b in by_cap.get(cap, []) if b.get("baseline_score") is not None and b.get("turns")]
             if cap in covering:
                 a = covering[cap]
                 cells[1] = f"adopted `{a['name']}`"; cells[2] = a.get("sha", "")[:12]; cells[3] = "beat baseline"; cells[4] = "adopted"
-            elif cap in m["gaps"]:
-                cells[4] = "**gap**: scout job open"
             else:
-                cells[3] = str(base_scores.get("baseline", "—"))
+                if rows:
+                    cells[3] = "; ".join(sorted({f"{b['baseline_score']} (task {str(b.get('task')).split('-')[0]})" for b in rows}))
+                    tried = sorted({f"`{b['name']}` {b.get('candidate_score')} vs {b['baseline_score']} on task {str(b.get('task')).split('-')[0]}" for b in rows})
+                    cells[4] = "baseline kept; " + ", ".join(tried)
+                else:
+                    cells[3] = "— (no eval task measures it yet)"
+                    cells[4] = "baseline; no benchmark"
+                if cap in m["gaps"] or any(cap in g for g in m["gaps"]):
+                    cells[4] = "**gap**: scout job open" + (f"; {cells[4]}" if rows else "")
             line = "| " + " | ".join(cells) + " |"
         out.append(line)
     return "\n".join(out) + "\n"

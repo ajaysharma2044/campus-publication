@@ -133,3 +133,108 @@ def render_navigator(conn: psycopg.Connection, graph_id: UUID, *, school_slug: s
         import shutil
         shutil.copytree(static_src, static_dst)
     return out
+
+
+# ---------------------------------------------------------------------------------------------- site shell (R8 local publish)
+POLICY_DIR = Path(__file__).parent / "content" / "policies"
+
+
+def _shell_ctx(path: str, template_name: str, section: str, *, environment: str, publication_name: str, base_url: str, **extra) -> dict:
+    ctx = engine.site_defaults(publication_name=publication_name, environment=environment, base_url=base_url)
+    ctx.update(canonical_path=path, template_name=template_name, static_prefix="/static/", today=datetime.now(timezone.utc).date(), noindex=(environment != "production"),
+               compact_masthead=template_name not in ("home",), current_section=section, ad_slots={}, related=[])
+    ctx.update(extra)
+    return ctx
+
+
+def published_pages(conn: psycopg.Connection) -> list[dict]:
+    """Pages in the local build: every page whose current version passed the editorial gate and is not held (R8 publishes each at once)."""
+    with conn.cursor() as cur:
+        cur.execute("""SELECT p.id, p.path, p.page_format, p.audience, p.status, p.local_published_at, p.first_published_at, p.last_material_update_at, p.institution_id, p.place_id, p.topic_id,
+                              v.headline, v.deck, v.byline, v.created_at AS version_created_at, v.change_summary,
+                              i.canonical_name AS school_name, i.slug AS school_slug, t.key AS topic_key, t.label AS topic_label
+                       FROM pages p JOIN page_versions v ON v.id=p.current_version_id LEFT JOIN institutions i ON i.id=p.institution_id LEFT JOIN topics t ON t.id=p.topic_id
+                       WHERE v.gate_status='passed' AND p.status NOT IN ('held','redirected','retired','planned')
+                       ORDER BY COALESCE(p.last_material_update_at, p.local_published_at, v.created_at) DESC""")
+        return [dict(r) for r in cur.fetchall()]
+
+
+def render_shell(conn: psycopg.Connection, *, out_root: Path = OUT_DEFAULT, environment: str = "staging", publication_name: str = "The Campus Ledger (working title)",
+                 base_url: str = "") -> list[Path]:
+    """Home, schools index, school and topic hubs, policies, search and 404 for the local build, from the database (never fixtures).
+    Hubs link every published page, which is where a page's first inbound link comes from (R45 no-orphan rule)."""
+    import shutil
+
+    out_root.mkdir(parents=True, exist_ok=True)
+    static_out = out_root / "static"
+    if static_out.exists():
+        shutil.rmtree(static_out)
+    shutil.copytree(engine.STATIC_DIR, static_out)
+    pages = published_pages(conn)
+    kw = dict(environment=environment, publication_name=publication_name, base_url=base_url)
+    written: list[Path] = []
+
+    def emit(rel: str, template: str, ctx: dict) -> None:
+        p = out_root / rel
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(engine.render(template, **ctx))
+        written.append(p)
+
+    with conn.cursor() as cur:
+        cur.execute("SELECT count(*) AS n FROM institutions WHERE identity_status IN ('verified','pending_verification')")
+        registry_count = cur.fetchone()["n"]
+        cur.execute("SELECT id, canonical_name, slug, city, state_code, institution_type, control, identity_status FROM institutions WHERE id = ANY(%s) ORDER BY canonical_name",
+                    (list({p["institution_id"] for p in pages if p["institution_id"]}),))
+        schools = [dict(r) for r in cur.fetchall()]
+        cur.execute("SELECT id, key, label, description, sort_order FROM topics WHERE scope='school' AND NOT auto_created ORDER BY sort_order, key")
+        topics = [dict(r) for r in cur.fetchall()]
+    by_school: dict = {}
+    for p in pages:
+        by_school.setdefault(p["institution_id"], []).append(p)
+    type_label = lambda t: (t or "institution").replace("_", " ").capitalize()
+    for s in schools:
+        sp = by_school.get(s["id"], [])
+        by_topic: dict = {}
+        for p in sp:
+            by_topic.setdefault(p["topic_id"], []).append(p)
+        school_href = f"/schools/{s['slug']}/"
+        topic_rows = []
+        for t in topics:
+            n = len(by_topic.get(t["id"], []))
+            topic_rows.append({"label": t["label"], "applicability": "applicable" if n else "unknown", "href": f"{school_href}{t['key']}/" if n else "#", "page_count": n})
+        changes = [{"href": p["path"], "headline": p["headline"], "change": p["change_summary"] or "published", "date": p["last_material_update_at"] or p["local_published_at"] or p["version_created_at"]} for p in sp[:5]]
+        school = {"name": s["canonical_name"], "city": s["city"], "state": s["state_code"], "type_label": type_label(s["institution_type"]), "control": (s["control"] or "").replace("_", " "),
+                  "identity_status": s["identity_status"], "identity_note": "" if s["identity_status"] == "verified" else "Identity pending verification against the NCES institution registry.",
+                  "coverage_note": f"{len(sp)} published guide{'s' if len(sp) != 1 else ''}", "coverage_status": "pilot" if sp else "onboarding",
+                  "topics": topic_rows, "guides": [{"topic": p["topic_label"], "href": p["path"], "headline": p["headline"], "deck": p["deck"]} for p in sp], "tools": [], "changes": changes,
+                  "topics_applicable": [t["label"].lower() for t in topic_rows if t["page_count"]]}
+        emit(f"schools/{s['slug']}/index.html", "school_hub.html", _shell_ctx(school_href, "school_hub", "/schools/", school=school, **kw))
+        for t in topics:
+            tp = by_topic.get(t["id"], [])
+            if not tp:
+                continue
+            topic = {"label": t["label"], "description": t["description"] or f"{t['label']} at {s['canonical_name']}: verified facts from official pages, with the date we checked.", "applicability": "applicable",
+                     "key_fact_label": None, "profiles": [{"name": p["headline"], "href": p["path"], "key_fact": "", "verified_at": p["local_published_at"] or p["version_created_at"]} for p in tp if p["page_format"] in ("entity_profile", "profile")],
+                     "guides": [{"href": p["path"], "headline": p["headline"], "deck": p["deck"]} for p in tp if p["page_format"] not in ("entity_profile", "profile")], "tools": [], "unknowns": [], "empty_note": ""}
+            emit(f"schools/{s['slug']}/{t['key']}/index.html", "topic_hub.html", _shell_ctx(f"{school_href}{t['key']}/", "topic_hub", f"/topics/{t['key']}/", school={"name": s["canonical_name"], "href": school_href}, topic=topic, **kw))
+    school_cards = [{"name": s["canonical_name"], "href": f"/schools/{s['slug']}/", "city": s["city"], "state": s["state_code"], "type_label": type_label(s["institution_type"]), "pages": len(by_school.get(s["id"], []))} for s in schools]
+    emit("schools/index.html", "schools_index.html", _shell_ctx("/schools/", "schools_index", "/schools/", registry_count=registry_count, release="NCES HD2024", schools=school_cards, **kw))
+    lead = None
+    supporting = []
+    if pages:
+        p = pages[0]
+        lead = {"section": f"{p['topic_label']} · {p['school_name']}", "section_href": _hub_for(p["path"])[0], "href": p["path"], "headline": p["headline"], "deck": p["deck"], "byline": p["byline"],
+                "updated": p["last_material_update_at"] or p["local_published_at"] or p["version_created_at"]}
+        supporting = [{"section": q["topic_label"], "href": q["path"], "headline": q["headline"], "deck": q["deck"]} for q in pages[1:4]]
+    updates = [{"href": p["path"], "headline": p["headline"], "change": p["change_summary"] or "published", "date": p["last_material_update_at"] or p["local_published_at"] or p["version_created_at"]} for p in pages[:5]]
+    emit("index.html", "home.html", _shell_ctx("/", "home", "/", lead=lead, supporting=supporting, coverage={"schools_with_coverage": len(schools), "registry_count": registry_count}, tools=[],
+                                              schools=[{"name": c["name"], "href": c["href"], "pages": c["pages"]} for c in school_cards], updates=updates, **kw))
+    for key in ("methods", "corrections", "privacy", "independence"):
+        md_path = POLICY_DIR / f"{key}.md"
+        if not md_path.exists():
+            continue
+        md = md_path.read_text()
+        title, _, body = md.partition("\n")
+        emit(f"about/{key}/index.html", "policy.html", _shell_ctx(f"/about/{key}/", "policy", "/about/methods/", policy={"title": title.lstrip("# ").strip(), "summary": body.strip().split("\n")[0], "body_markdown": body, "updated_at": datetime.now(timezone.utc).date()}, **kw))
+    emit("404.html", "not_found.html", _shell_ctx("/404", "not_found", "/", **kw))
+    return written

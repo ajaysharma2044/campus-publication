@@ -54,6 +54,20 @@ def gather(conn, settings) -> dict:
         d["analytics_rows"] = cur.fetchone()["n"]
         cur.execute("SELECT resolved_model, count(*) AS n FROM runs WHERE resolved_model IS NOT NULL GROUP BY resolved_model")
         d["model_usage"] = {r["resolved_model"]: r["n"] for r in cur.fetchall()}
+    # continuous-local-run R29 (efficiency) and R44 (volume) tiles, from the same functions the digest uses
+    try:
+        from .. import digest as digestmod, sweetspot, volume
+        today = datetime.now(timezone.utc).date()
+        d["efficiency"] = digestmod.efficiency(conn, today)
+        vol = volume.report(conn)
+        d["volume"] = {"totals": vol["counts"]["totals"], "by_tier_scope_topic": [f"tier {r['tier']} · {r['scope']} · {r['topic']}: ready {r['ready']} / live {r['live']} / held {r['held']}" for r in vol["counts"]["rows"]],
+                       "throughput_per_day": vol["projection"]["per_day"], "projected_days_to_1000": vol["projection"]["projected_days"]["1000"], "projected_days_to_5000": vol["projection"]["projected_days"]["5000"], "note": vol["projection"]["note"]}
+        d["sweet_spot_top10"] = [f"{q['label'][:60]} — D {q['d_score']} AGI {q['agi']} G {q['g_est']} E {q['e_est']} niche {q['niche_score']}" for q in sweetspot.queue(conn, limit=10)]
+    except Exception as e:  # noqa: BLE001 — the dashboard must render even when a tile's tables are missing
+        conn.rollback()
+        d["efficiency"] = {"error": f"{type(e).__name__}: {e}"}
+        d["volume"] = {"error": f"{type(e).__name__}: {e}"}
+        d["sweet_spot_top10"] = []
     return d
 
 
@@ -86,7 +100,11 @@ def render_html(d: dict) -> str:
         _kv("Opportunities (latest decision per cluster)", d["opportunities"]), _kv("Pages by status", d["pages"]), _kv("Draft gates", d["gates"]),
         _kv("Model usage (resolved model → runs)", d["model_usage"]), _kv("Experiments", d["experiments"]),
         _kv("Revenue", d["revenue"]), _kv("Analytics", {"aggregate_rows": d["analytics_rows"]}),
-        "</div></div>", _kv("Open exceptions", d["exceptions"]),
+        "</div></div>",
+        "<div class='grid'><div class='col-12 col-md-6'>", _kv("Efficiency today (R29)", d.get("efficiency", {}), "turns and minutes per published page, per verified update, per qualified cluster; discovery yield; wasted-work rate"),
+        "</div><div class='col-12 col-md-6'>", _kv("Volume (R44)", d.get("volume", {}), "ready/live/held by tier, scope and topic; projected days to 1,000 and 5,000 ready pages from actual throughput"),
+        _kv("Sweet-spot queue (top 10)", d.get("sweet_spot_top10", []), "D, AGI, G, E, niche_score; observed via search tool, never measured volume"), "</div></div>",
+        _kv("Open exceptions", d["exceptions"]),
         "<p class='coverage-note'>Nothing on this page is a live-service claim unless the integration state says connected and a heartbeat shows a recent success.</p></main></body></html>",
     ]
     return "".join(parts)
