@@ -1,7 +1,8 @@
 """R16 pipeline per page, as a coordinator-run chain (continuous-local-run R16, R25, R37, R38, R45, R8; AT14, AT23, AT25, AT38).
 
     python -m campus_worker.pipeline run <cluster_id> [--until <stage>] [--notes <json file>] [--links <path,path>] [--draft <path>]
-    python -m campus_worker.pipeline publish <version_id> [--links <path,path>]     SEO gate + local publish for a passed version
+    python -m campus_worker.pipeline publish <version_id> [--siblings <ids>]        SEO gate + local publish for a passed version
+    python -m campus_worker.pipeline correct <version_id> [--no-publish]            one correction round for a held version (verifier corrections + SEO gate failures), then gate, SEO gate, publish
 
 Stages: plan (planner + information gain, R37) → write → deterministic checks → edit → version → beat_review (R38, one resend) →
 verify (verifier dispatch + gates) → seo (rendered-HTML gate + seo agent checklist, R45) → publish (R8). Every stage persists its
@@ -695,6 +696,148 @@ def stage_publish(conn, cluster_id: UUID | None, *, version_id: UUID, settings, 
     return {"published": True, **res}
 
 
+def sibling_link_targets(conn, *, institution_id, place_id, exclude_path: str | None = None) -> list[dict]:
+    """Pages in the same school or town with a passed current version (they are in the build), plus the policy pages: the targets a new
+    page may link to, so the R45 three-contextual-links rule can be met as the scope grows."""
+    with conn.cursor() as cur:
+        cur.execute("""SELECT p.path, v.headline FROM pages p JOIN page_versions v ON v.id=p.current_version_id
+                       WHERE p.institution_id IS NOT DISTINCT FROM %s AND p.place_id IS NOT DISTINCT FROM %s AND v.gate_status='passed' AND p.status NOT IN ('redirected','retired')
+                       ORDER BY p.local_published_at DESC NULLS LAST, v.created_at DESC""", (institution_id, place_id))
+        out = [{"path": r["path"], "anchor_hint": r["headline"]} for r in cur.fetchall() if r["path"] != exclude_path]
+    return out + [{"path": "/about/methods/", "anchor_hint": "how we verify these facts"}, {"path": "/about/corrections/", "anchor_hint": "report an error"}]
+
+
+def latest_verifier_corrections(version_id: UUID) -> dict:
+    """The last verifier reply saved for this version (per-dispatch output files), so a correction round never re-dispatches to learn what to fix."""
+    outdir = RUNS_DIR / "agent-output"
+    best = None
+    for f in sorted(outdir.glob("*-verifier-*.json"), reverse=True):
+        try:
+            d = json.loads(f.read_text())
+        except json.JSONDecodeError:
+            continue
+        doc = d.get("doc") or {}
+        if str(version_id) in (doc.get("input_ids") or []):
+            best = doc
+            break
+    o = (best or {}).get("output") or {}
+    return {"corrections": o.get("corrections_required") or [], "hard_failures": o.get("hard_failures") or [], "not_supported": [c for c in (o.get("claim_checks") or []) if c.get("status") != "supported"],
+            "rubric": o.get("rubric"), "rubric_notes": o.get("rubric_notes") or {}}
+
+
+def correct(conn, version_id: UUID, *, settings, runner=dsp.cli_runner, log_path=None, run_id="adhoc", siblings: list[UUID] | None = None, publish: bool = True) -> dict:
+    """One correction round for a held version: the editor applies the verifier's corrections and the SEO gate's failures (title words,
+    links to sibling pages), a new version is created (beat review carried), checked, re-verified when facts changed or the verifier had
+    hard failures (otherwise the previous rubric is carried), then SEO-gated with the siblings and published locally."""
+    from . import lean
+    with conn.cursor() as cur:
+        cur.execute("""SELECT v.headline, v.deck, v.body_markdown, v.structured, v.byline, v.brief_id, v.rubric, v.gate_status, v.seo_gate, p.id AS page_id, p.path, p.audience, p.page_format,
+                              p.institution_id, p.place_id, p.topic_id, p.primary_query, b.cluster_id, b.critical_claim_ids
+                       FROM page_versions v JOIN pages p ON p.id=v.page_id LEFT JOIN briefs b ON b.id=v.brief_id WHERE v.id=%s""", (version_id,))
+        v = dict(cur.fetchone())
+    c = _cluster(conn, v["cluster_id"]) if v.get("cluster_id") else {"school_name": "", "place_name": "", "topic_label": ""}
+    st = v["structured"] or {}
+    draft = {"headline": v["headline"], "deck": v["deck"], "body_markdown": v["body_markdown"], "fact_table": list(st.get("fact_table") or []), "next_actions": st.get("next_actions"), "claim_refs": list(st.get("claim_refs") or []), "byline": v["byline"]}
+    claims = claims_for_scope(conn, institution_id=v["institution_id"], topic_id=v["topic_id"], place_id=v["place_id"])
+    approved = {k["id"] for k in claims}
+    crit = [str(x) for x in v.get("critical_claim_ids") or []]
+    page = {"id": v["page_id"], "path": v["path"], "audience": v["audience"], "page_format": v["page_format"], "byline": v["byline"]}
+    vc = latest_verifier_corrections(version_id) if v["gate_status"] != "passed" else {"corrections": [], "hard_failures": [], "not_supported": [], "rubric": v["rubric"]}
+    seo_failed = list(((v.get("seo_gate") or {}).get("failed")) or [])
+    links = sibling_link_targets(conn, institution_id=v["institution_id"], place_id=v["place_id"], exclude_path=v["path"])
+    det = deterministic_findings(conn, institution_id=v["institution_id"], page_id=v["page_id"], draft=draft, critical_ids=crit, approved_ids=approved, academic_year="2026-27")
+    findings = list(det)
+    findings += [Finding("attribution", "major", "Verifier correction (every source opened): " + x) for x in vc["corrections"]]
+    findings += [Finding("unsupported", "major", f"Verifier marked claim {w['claim_id'][:8]} {w['status']}: {w.get('detail') or ''} — remove or reword the sentence so it states only what that claim's source says, or drop the claim.") for w in vc["not_supported"]]
+    if vc.get("rubric") and int(vc["rubric"].get("usefulness", 4)) < 3:
+        findings.append(Finding("usefulness", "major", "Verifier scored usefulness below 3: " + str(vc.get("rubric_notes", {}).get("usefulness") or "lead with the facts the reader decides on; cut what the page cannot answer to one short list.")))
+    if "title_contains_primary_query" in seo_failed:
+        findings.append(Finding("headline", "major", f"SEO gate: the headline must contain the content words of the primary query '{v['primary_query']}' and stay ≤ 60 characters."))
+    if "internal_links_three_contextual" in seo_failed or any(f in seo_failed for f in ("internal_links_hub_uplinks",)):
+        findings.append(Finding("structure", "major", "SEO gate: add at least three contextual markdown links, each to one of these existing pages with descriptive anchor text, where the text naturally refers to them: " + "; ".join(f"{l['path']} ({l['anchor_hint']})" for l in links) + f". Also link the hubs {seo_gate._hubs_for(v['path'])[0]} and {seo_gate._hubs_for(v['path'])[1]}."))
+    if "headings_cover_secondary_questions" in seo_failed:
+        findings.append(Finding("headline", "major", "SEO gate: every planned secondary question's content words must appear in some H2/H3; see the version's seo_gate record for the missing ones."))
+    for extra_fail in [f for f in seo_failed if f not in ("title_contains_primary_query", "internal_links_three_contextual", "internal_links_hub_uplinks", "headings_cover_secondary_questions")]:
+        findings.append(Finding("structure", "minor", f"SEO gate item failed: {extra_fail} (see the version's seo_gate record)"))
+    findings.append(Finding("attribution", "major", "Any fact you add must be one of the claims in claim_table (cite its id in claim_refs and give it a fact_table row when it is a date or money value); if no claim covers it, write that the opened pages do not state it."))
+    report: dict = {"version_id": str(version_id), "corrections": vc["corrections"], "seo_failed": seo_failed}
+    asks = [x for x in vc["corrections"] if re.search(r"\b(add|extract|record)\b.*\bclaim", x, re.I) or "as a claim" in x.lower()]
+    if asks and v.get("cluster_id"):
+        # the verifier found facts on the opened pages that no claim carries: one researcher pass on those pages, scoped to the asks, before the editor
+        snaps = sorted({src["snapshot_id"] for k in claims for src in (k.get("sources") or []) if "opened page" in src.get("kind", "")})
+        with conn.cursor() as cur:
+            cur.execute("SELECT s.id, COALESCE(s.final_url, r.canonical_url) AS url, s.retained_text FROM fetch_snapshots s JOIN source_registry r ON r.id=s.source_id WHERE s.id = ANY(%s::uuid[]) AND s.retained_text IS NOT NULL", (snaps,))
+            pages = [dict(r) for r in cur.fetchall()]
+        entity_id = None
+        with conn.cursor() as cur:
+            cur.execute("SELECT entity_id FROM intent_clusters WHERE id=%s", (v["cluster_id"],))
+            entity_id = (cur.fetchone() or {}).get("entity_id")
+        keyed = {f"P{i + 1}": pg for i, pg in enumerate(pages[:8])}
+        extra = {"pages": [{"key": k, "url": pg["url"], "snapshot_id": str(pg["id"]), "text": pg["retained_text"][:20000]} for k, pg in keyed.items()], "snapshot_by_page": {k: str(pg["id"]) for k, pg in keyed.items()},
+                 "entity_id": entity_id, "fields_wanted": asks, "rules": ["Extract only the facts the verifier's asks name, from these pages; source_locator '<key>: <sentence>'; excerpt verbatim; audience from the page's words; money in minor units with its basis; dates as dates."]}
+        r = stage_research(conn, v["cluster_id"], runner=runner, log_path=log_path, run_id=run_id, packet_extra=extra)
+        conn = _db(conn)
+        report["research"] = {"asks": asks, "status": r.get("status"), "claims_stored": [(x.get("field"), x.get("action")) for x in r.get("claims_stored") or []]}
+        claims = claims_for_scope(conn, institution_id=v["institution_id"], topic_id=v["topic_id"], place_id=v["place_id"])
+        approved = {k["id"] for k in claims}
+    e = stage_edit(conn, v["cluster_id"], draft=draft, det_findings=findings, claims=claims, runner=runner, log_path=log_path, run_id=run_id)
+    conn = _db(conn)
+    report["edit"] = {k: val for k, val in e.items() if k != "draft"}
+    if e.get("status") not in ("ok", "hold") or not e.get("draft"):
+        report["outcome"] = "editor_" + str(e.get("status"))
+        return report
+    draft2 = dict(e["draft"], byline=v["byline"], fact_table=draft["fact_table"], next_actions=draft["next_actions"])
+    ids_in_body = set(re.findall(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", draft2["body_markdown"]))
+    draft2["claim_refs"] = sorted((set(draft["claim_refs"]) | ids_in_body) & approved)
+    figs = lambda b: set(re.findall(r"\$[\d,]+|\b20\d\d-\d\d-\d\d\b|\b\d{1,2},\d{3}\b", b))
+    facts_changed = figs(draft["body_markdown"]) != figs(draft2["body_markdown"]) or set(draft2["claim_refs"]) != set(draft["claim_refs"])
+    det2 = deterministic_findings(conn, institution_id=v["institution_id"], page_id=v["page_id"], draft=draft2, critical_ids=crit, approved_ids=approved, academic_year="2026-27")
+    report["checks_after_edit"] = [f.as_dict() for f in det2]
+    new_vid = create_version(conn, page=page, brief_id=v["brief_id"], draft=draft2, claim_ids=list(draft2["claim_refs"]), settings=settings, writer_model="agent:writer/sonnet", editor_model="agent:editor/opus",
+                             change_summary="correction round: " + "; ".join((vc["corrections"] + seo_failed)[:4])[:300], school_name=c.get("school_name") or c.get("place_name") or "", topic_label=c.get("topic_label") or "",
+                             sources_used=sorted({k["source_url"] for k in claims if k.get("source_url")}))
+    with conn.cursor() as cur:
+        cur.execute("UPDATE page_versions SET beat_review=(SELECT beat_review FROM page_versions WHERE id=%s) WHERE id=%s AND beat_review IS NULL", (version_id, new_vid))
+    conn.commit()
+    report["new_version_id"] = str(new_vid)
+    need_verifier = facts_changed or bool(vc["hard_failures"]) or bool(vc["not_supported"]) or v["gate_status"] != "passed"
+    if need_verifier:
+        ver = stage_verify(conn, v["cluster_id"], version_id=new_vid, draft=draft2, claims=claims, det_findings=det2, runner=runner, log_path=log_path, run_id=run_id)
+        conn = _db(conn)
+        report["verify"] = {k: val for k, val in ver.items() if k != "claim_checks"} | {"not_supported": [cc for cc in (ver.get("claim_checks") or []) if cc.get("status") != "supported"]}
+        gate_ok = ver["gate"]["status"] == "passed"
+    else:
+        rubric = {k: v["rubric"][k] for k in ("clarity", "specificity", "structure", "attribution", "usefulness", "prose")}
+        g = gates.gate_version(conn, new_vid, det2, rubric)
+        report["gate_carried"] = g.as_dict()
+        gate_ok = g.passed
+    report["outcome"] = "gate_passed" if gate_ok else "gate_failed"
+    if gate_ok and publish:
+        win = win_plan_for(conn, institution_id=v["institution_id"], place_id=v["place_id"], page_path=v["path"], primary_query=None) or (lean.synthetic_win_plan(conn, cluster_id=v["cluster_id"], page_path=v["path"]) if v.get("cluster_id") else None)
+        sib = siblings if siblings is not None else [UUID(x) for x in _sibling_version_ids(conn, institution_id=v["institution_id"], place_id=v["place_id"], exclude_page_id=v["page_id"])]
+        seo = stage_seo(conn, v["cluster_id"], version_id=new_vid, settings=settings, win_plan=win, sibling_version_ids=sib, runner=runner, log_path=log_path, run_id=run_id)
+        conn = _db(conn)
+        report["seo"] = {"passed": seo["seo_gate"]["passed"], "failed": seo["seo_gate"]["failed"], "agent": (seo.get("agent") or {}).get("status")}
+        if seo["seo_gate"]["passed"]:
+            from .adapters.cms import WordPressAdapter
+            cms = WordPressAdapter.from_settings(settings)
+            report["publish"] = stage_publish(conn, v["cluster_id"], version_id=new_vid, settings=settings, cms=cms if cms.capability().state in ("connected", "fixture") else None)
+            report["outcome"] = "published" if report["publish"].get("published") else "publish_" + str(report["publish"].get("reason"))
+        else:
+            report["outcome"] = "seo_held"
+    rp = RUNS_DIR / "pipeline" / f"correct-{str(version_id)[:8]}.json"
+    rp.parent.mkdir(parents=True, exist_ok=True)
+    rp.write_text(json.dumps(report, indent=1, default=str))
+    return report
+
+
+def _sibling_version_ids(conn, *, institution_id, place_id, exclude_page_id) -> list[str]:
+    with conn.cursor() as cur:
+        cur.execute("""SELECT p.current_version_id FROM pages p JOIN page_versions v ON v.id=p.current_version_id WHERE p.institution_id IS NOT DISTINCT FROM %s AND p.place_id IS NOT DISTINCT FROM %s
+                       AND p.id<>%s AND v.gate_status='passed' AND p.status NOT IN ('redirected','retired')""", (institution_id, place_id, exclude_page_id))
+        return [str(r["current_version_id"]) for r in cur.fetchall()]
+
+
 # ------------------------------------------------------------------------------------------------ orchestration
 def run_r16(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path=None, run_id="adhoc", notes: list[str] | None = None, link_targets: list[dict] | None = None,
             prior_draft_path: str | None = None, until: str = "verify", page_path: str | None = None, audience: str | None = None, byline: str = "Housing desk", report_path: Path | None = None) -> dict:
@@ -736,6 +879,8 @@ def run_r16(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path
             save("research", r)
         claims = claims_for_scope(conn, institution_id=c["institution_id"], topic_id=c["topic_id"], place_id=c["place_id"])
         competitors = competitors_for_cluster(conn, cluster_id)
+        if not link_targets:
+            link_targets = sibling_link_targets(conn, institution_id=c["institution_id"], place_id=c["place_id"], exclude_path=plan_path)
         report.update(page_path=plan_path, claims=len(claims), competitors=len(competitors), win_plan=bool(win))
         plan = stage_plan(conn, cluster_id, claims=claims, win_plan=win, competitors=competitors, page_path=plan_path, audience=audience or (existing or {}).get("audience") or c.get("audience"), notes=notes or [],
                           runner=runner, log_path=log_path, run_id=run_id)
@@ -845,7 +990,7 @@ def reverify(conn, version_id: UUID, *, settings, runner=dsp.cli_runner, log_pat
 def main(argv: list[str]) -> int:
     from .config import get_settings
     from .db import connect
-    if len(argv) < 2 or argv[0] not in ("run", "publish", "verify"):
+    if len(argv) < 2 or argv[0] not in ("run", "publish", "verify", "correct"):
         print(__doc__)
         return 2
     settings = get_settings()
@@ -870,6 +1015,8 @@ def main(argv: list[str]) -> int:
                               audience=(argv[argv.index("--audience") + 1] if "--audience" in argv else None), byline=(argv[argv.index("--byline") + 1] if "--byline" in argv else "Housing desk"))
         elif argv[0] == "verify":
             out = reverify(conn, UUID(argv[1]), settings=settings, log_path=log_path, run_id=run_id)
+        elif argv[0] == "correct":
+            out = correct(conn, UUID(argv[1]), settings=settings, log_path=log_path, run_id=run_id, publish="--no-publish" not in argv)
         else:
             vid = UUID(argv[1])
             sib = [UUID(x) for x in argv[argv.index("--siblings") + 1].split(",")] if "--siblings" in argv else []
