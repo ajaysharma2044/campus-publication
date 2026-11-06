@@ -305,14 +305,15 @@ def ensure_research(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, 
     if not c.get("entity_id"):
         return {"status": "not_entity"}
     with conn.cursor() as cur:
-        cur.execute("SELECT id, name, entity_type, source_url, source_id, institution_id, campus_id, place_id FROM entities WHERE id=%s", (c["entity_id"],))
+        cur.execute("SELECT id, name, entity_type, source_url, source_id, institution_id, campus_id, place_id, attributes FROM entities WHERE id=%s", (c["entity_id"],))
         e = dict(cur.fetchone() or {})
     if not e:
         return {"status": "no_entity_row"}
     have = lean.verified_claims_in_scope(conn, institution_id=None, place_id=None, topic_id=None, entity_id=e["id"])
     if have:
         return {"status": "has_facts", "verified_claims": have}
-    url = e.get("source_url")
+    attrs = e.get("attributes") or {}
+    url = attrs.get("official_url") or attrs.get("url") or e.get("source_url")  # the entity's own page beats the list page it was harvested from
     if not url:
         return {"status": "no_source_url"}
     with conn.cursor() as cur:
@@ -711,6 +712,10 @@ def run_r16(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path
         if not plan_path and win:
             plan_path = win.get("page_path")
         from . import lean
+        if lean.enabled() and not win:
+            # no strategist win plan for most lean-mode clusters: the planner works from the claims and this minimal plan
+            win = lean.synthetic_win_plan(conn, cluster_id=cluster_id, page_path=plan_path or lean.default_page_path(conn, cluster_id=cluster_id))
+            plan_path = plan_path or win["page_path"]
         if lean.enabled() and not existing:
             covered = lean.covered_by_existing_page(conn, cluster_id=cluster_id)
             if covered:

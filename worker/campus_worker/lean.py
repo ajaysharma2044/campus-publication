@@ -114,3 +114,25 @@ def default_page_path(conn: psycopg.Connection, *, cluster_id: UUID) -> str:
     slug = "-".join(words)[:60].strip("-") or "guide"
     scope = f"/schools/{c['school_slug']}/" if c["school_slug"] else f"/towns/{c['place_slug']}/"
     return f"{scope}{c['topic_key']}/{slug}/"
+
+
+def synthetic_win_plan(conn: psycopg.Connection, *, cluster_id: UUID, page_path: str) -> dict:
+    """LEAN MODE: the minimal plan a cluster gets when no strategist win plan names it — the page answers the observed question from
+    verified facts; an entity cluster becomes a factual profile (never a review: no resident experience without an allowed source)."""
+    with conn.cursor() as cur:
+        cur.execute("""SELECT c.label, c.best_variant, c.entity_id, e.name AS entity_name, e.entity_type, i.canonical_name AS school, p.name AS place FROM intent_clusters c
+                       LEFT JOIN entities e ON e.id=c.entity_id LEFT JOIN institutions i ON i.id=c.institution_id LEFT JOIN places p ON p.id=c.place_id WHERE c.id=%s""", (cluster_id,))
+        c = cur.fetchone()
+    scope = c["school"] or c["place"] or ""
+    query = c["best_variant"] or c["label"]
+    if c["entity_id"]:
+        title = f"{c['entity_name']} at {scope}: facts from the official page"[:60] if len(f"{c['entity_name']} at {scope}") <= 40 else f"{c['entity_name']}: the official facts"[:60]
+        fmt, h1 = "entity_profile", f"{c['entity_name']} ({scope})"
+        contribution = f"the verified facts about {c['entity_name']} from its official page, on one page, with the date checked; no ratings and no unattributed resident experience"
+    else:
+        title = query[:60]
+        fmt, h1 = "guide", query
+        contribution = "a dated, sourced answer from the official pages, with what they do not say stated plainly"
+    return {"page_path": page_path, "primary_query": query, "target_title": title, "h1": h1, "page_format": fmt, "lean": True,
+            "contribution": contribution, "answer_first_intro": "", "snippet_formats": ["table"], "faq_real_questions": [], "secondary_questions": [], "beats": [],
+            "note": "LEAN MODE synthetic plan (owner decision 2026-11-06): no strategist win plan exists for this cluster; plan from the claims and this plan; a missing strategist plan is not a reason to hold."}
