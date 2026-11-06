@@ -472,3 +472,27 @@ def test_sweep_status_and_next_step_progression(clean_conn):
     sweep.run_score(clean_conn)
     nxt = sweep.next_step(clean_conn)
     assert nxt["step"] == "complete" and nxt["sweep_complete"] is True
+
+
+def test_search_intel_batch_dispatch_ingests_every_cluster_once(clean_conn, tmp_path):
+    inst, campus, topics = make_school(clean_conn)
+    _official_source(clean_conn, inst, campus)
+    settings = get_settings()
+    ids = [_cluster(clean_conn, inst, campus, topics, t, observed=2) for t in ("fixture hall review", "riverside hall cost", "hilltop house parking")]
+    fx = _intel("forum_only")
+    calls = []
+
+    def runner(a, p):
+        calls.append(a.name)
+        packet = json.loads(p.split("#packet\n", 1)[1].rsplit("\n\nReturn ONE", 1)[0])
+        assert packet["batch_mode"] is True and len(packet["clusters"]) == 3
+        batch = [dict(fx, cluster_id=c["cluster_id"], variants=[dict(v, query=c["variants"][i] if i < len(c["variants"]) else v["query"]) for i, v in enumerate(fx["variants"])][:len(c["variants"])]) for c in packet["clusters"]]
+        return 0, cli_stdout(a.role, text=json.dumps(envelope("search_intel", {"batch": batch, "search_calls_made": 6, "cache_hits": 0}))), ""
+    r = search_intel.run_batch(clean_conn, ids, settings=settings, runner=runner, log_path=tmp_path / "d.jsonl")
+    assert r["status"] == "ok" and calls == ["search-intel"] and len(r["results"]) == 3 and all(v["status"] == "ok" for v in r["results"].values())
+    with clean_conn.cursor() as cur:
+        cur.execute("SELECT count(*) AS n FROM intent_clusters WHERE id = ANY(%s) AND last_intel_at IS NOT NULL", (ids,))
+        assert cur.fetchone()["n"] == 3
+    # second batch inside the cache window: no dispatch at all
+    r2 = search_intel.run_batch(clean_conn, ids, settings=settings, runner=runner, log_path=tmp_path / "d.jsonl")
+    assert r2["dispatched"] is False and calls == ["search-intel"] and all(v["status"] == "cached" for v in r2["results"].values())

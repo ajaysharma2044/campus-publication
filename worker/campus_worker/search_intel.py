@@ -157,3 +157,62 @@ def rank_recheck_packet(conn: psycopg.Connection, page_id: UUID, *, run_id: str)
         queries = [r["query_norm"] for r in cur.fetchall()]
     return dsp.build_packet(task_id=f"recheck:{str(page_id)[:8]}", run_id=run_id, objective=f"Rank re-check (R15) for {path}: observe each target variant and record whether our page appears (position or absent). Label 'observed via search tool on <date>'. No causal claims.",
                             input_ids=[str(page_id)], extra={"page_path": path, "variants": queries[:4]})
+
+
+# ---------------------------------------------------------------------------------------------- batch mode (R27, R41)
+def run_batch(conn: psycopg.Connection, cluster_ids: list[UUID], *, settings, runner=dsp.cli_runner, run_id: str | None = None, log_path=None,
+              place_subs: list[str] | None = None, now: datetime | None = None, max_turns: int | None = None) -> dict:
+    """One search-intel dispatch for up to 25 clusters. Clusters whose variants are all cached are served from the cache
+    and excluded from the packet (zero search calls for them). The agent returns {"batch": [serp_intel, ...]}."""
+    if not cluster_ids:
+        return {"status": "empty", "dispatched": False, "results": {}}
+    if len(cluster_ids) > 25:
+        raise ValueError("batch size is at most 25 (R27/R41)")
+    agents = dsp.load_agents()
+    items, cached_by, results = [], {}, {}
+    for cid in cluster_ids:
+        packet, variants, cached = build_packet(conn, cid, run_id=run_id or "adhoc", cache_days=settings.quotas.serp_cache_days, place_subs=place_subs, now=now)
+        if variants and all(v in cached for v in variants):
+            for v in variants:
+                search_cache.record_search_call(conn, v, cached=True, cluster_id=cid)
+            with conn.cursor() as cur:
+                cur.execute("UPDATE intent_clusters SET last_intel_at=now(), updated_at=now() WHERE id=%s", (cid,))
+            conn.commit()
+            results[str(cid)] = {"status": "cached", "variants": variants}
+            continue
+        cached_by[str(cid)] = cached
+        items.append({"cluster_id": str(cid), "label": packet["objective"].split("'")[1] if "'" in packet["objective"] else "", "topic_key": packet.get("topic_key"),
+                      "variants": variants, "cached_queries": packet.get("cached_queries", {}), "institution_id": packet.get("institution_id"), "place_id": packet.get("place_id")})
+    if not items:
+        return {"status": "cached", "dispatched": False, "results": results, "search_calls": 0}
+    packet = dsp.build_packet(
+        task_id=f"intel-batch:{str(cluster_ids[0])[:8]}+{len(items)}", run_id=run_id or "adhoc",
+        objective=(f"Search intelligence (R13) for {len(items)} clusters in ONE pass. For each cluster observe its listed variants (up to 10 results each), "
+                   f"record follow-up questions, community occurrences incl. site:reddit.com searches for {', '.join(place_subs or ['r/Cornell', 'r/ithaca'])}, and seasonality. "
+                   "Reuse cached queries; never re-search them. Return output = {\"batch\": [one serp_intel object per cluster, cluster_id as given]}."),
+        input_ids=[str(c) for c in cluster_ids],
+        constraints=["label every observation 'observed via search tool on <date>'", "no Google scraping, no autocomplete, no paid tools",
+                     "community sites: titles, URLs, dates, snippets only (search_observation)", "skip nothing: every cluster in the packet gets an object, even with empty results"],
+        extra={"clusters": items, "batch_mode": True},
+    )
+    spec = agents["search-intel"]
+    if max_turns:
+        from dataclasses import replace
+        spec = replace(spec, max_turns=max_turns)
+    res = dsp.dispatch(spec, packet, runner=runner, conn=conn, log_path=log_path)
+    if res.status not in ("ok", "hold") or not res.doc:
+        return {"status": res.status, "dispatched": True, "errors": res.errors, "results": results}
+    out = res.doc.get("output") or {}
+    batch = out.get("batch") if isinstance(out, dict) and "batch" in out else [out]
+    by_id = {str(b.get("cluster_id")): b for b in batch if isinstance(b, dict)}
+    missing = []
+    for it in items:
+        cid = it["cluster_id"]
+        intel = by_id.get(cid)
+        if not intel:
+            missing.append(cid)
+            continue
+        ing = ingest_intel(conn, UUID(cid), intel, cached=cached_by.get(cid, {}), now=now)
+        results[cid] = {"status": "ok", "ingest": ing}
+    return {"status": "ok" if not missing else "partial", "dispatched": True, "results": results, "missing": missing,
+            "search_calls": out.get("search_calls_made") if isinstance(out, dict) else None, "turns": res.turns, "duration_s": res.duration_s}
