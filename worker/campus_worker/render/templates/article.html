@@ -9,6 +9,7 @@
   <h1>{{ page.headline }}</h1>
   {% if page.deck %}<p class="deck measure">{{ page.deck }}</p>{% endif %}
   <div class="byline"><span><b>{{ page.byline }}</b></span><span>Published <time datetime="{{ page.published_at|isodate }}">{{ page.published_at|datefmt }}</time></span>{% if page.updated_at and page.updated_at|isodate != page.published_at|isodate %}<span>Substantively updated <time datetime="{{ page.updated_at|isodate }}">{{ page.updated_at|datefmt }}</time></span>{% endif %}<span>{{ page.body_markdown|reading_time }} min read</span>{% if page.audience_label %}<span>For: {{ page.audience_label }}</span>{% endif %}</div>
+  {% if page.image %}<figure class="lede-figure"><img src="{{ page.image.src }}" alt="{{ page.image.alt }}" width="1600" height="1000"><figcaption>{% if page.image.caption %}{{ page.image.caption }} · {% endif %}{{ page.image.credit }}</figcaption></figure>{% endif %}
   {% if page.held_notice %}<div class="notice notice--unknown" role="note"><b>Draft held, not published.</b> {{ page.held_notice }}</div>{% endif %}
   {% if page.stale %}<div class="notice notice--stale">Some facts on this page are past their verification date. We are re-checking them; the table shows which.</div>{% endif %}
   {% set parts = page.body_markdown.split('[[fact-table]]') %}

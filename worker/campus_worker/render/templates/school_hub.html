@@ -4,14 +4,16 @@
 {% block content %}
 <div class="container">
 <article class="article">
+  <div class="hub-head{% if not school.image %} hub-head--text{% endif %}"><div>
   <p class="eyebrow"><a href="/schools/">Schools</a></p>
   <h1>{{ school.name }}</h1>
-  <dl class="dl-facts" style="margin:var(--s-3) 0 var(--s-5)">
+  <dl class="dl-facts" style="margin:var(--s-3) 0 0">
     <dt>Location</dt><dd>{{ school.city }}, {{ school.state }}</dd>
     <dt>Type</dt><dd>{{ school.type_label }}{% if school.control %} · {{ school.control }}{% endif %}</dd>
     <dt>Identity</dt><dd>{{ school.identity_note }}</dd>
     <dt>Coverage</dt><dd>{{ school.coverage_note }}</dd>
   </dl>
+  </div>{% if school.image %}<figure class="hub-head__media"><img src="{{ school.image.src }}" alt="{{ school.image.alt }}" width="1600" height="1000"><figcaption class="figure-credit">{{ school.image.credit }}</figcaption></figure>{% endif %}</div>
   {% if school.identity_status != 'verified' %}<div class="notice notice--unknown">Institution identity is <b>{{ school.identity_status|replace('_',' ') }}</b>. Pages for this school are not published until the registry record is verified against the current IPEDS release.</div>{% endif %}
   <div class="grid">
     <section class="col-12 col-lg-8">

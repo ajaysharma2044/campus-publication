@@ -36,6 +36,14 @@ SOURCES = [
     {"url": "https://www.fixturestate.example.edu/housing/rates", "title": "Residence hall rates, 2026–27 (synthetic fixture)", "publisher": "Fixture State University Housing", "retrieved_at": VERIFIED, "kind": "official page"},
     {"url": "https://www.fixturestate.example.edu/housing/rate-sheet.pdf", "title": "Housing rate sheet (synthetic fixture PDF)", "publisher": "Fixture State University Housing", "retrieved_at": VERIFIED, "kind": "official PDF"},
 ]
+IMG = "/static/img/placeholders/"
+CREDIT = "Synthetic placeholder illustration, made in-house for the preview; a published page uses a credited, rights-cleared photograph"
+
+
+def pic(name: str, alt: str, caption: str | None = None) -> dict:
+    return {"src": f"{IMG}{name}.jpg", "src_small": f"{IMG}{name}-800.jpg", "alt": alt, "caption": caption, "credit": CREDIT}
+
+
 NOTE = ("Produced by the publication's automated research and writing system from the sources listed, with deterministic fact checks and a "
         "model-based verification pass. No human editor reviewed this version. This preview uses synthetic fixture data.")
 
@@ -77,7 +85,7 @@ def profile_ctx() -> dict:
     page = {"id": "00000000-0000-0000-0000-00000000f001", "headline": "Fixture Hall: what the double-room rate includes", "deck": "Per-person academic-year rate, who can live here, and what we could not verify.",
             "section": "Fixture State University · Housing", "section_href": "/schools/fixture-state/housing/", "byline": "Housing desk",
             "published_at": datetime(2026, 10, 29, tzinfo=timezone.utc), "updated_at": datetime(2026, 10, 29, tzinfo=timezone.utc), "audience_label": "first-year students",
-            "body_markdown": PROFILE_BODY, "fact_table": rows, "fact_table_caption": "Fixture Hall — verified facts", "fact_table_footnote": "Rates are per person, per academic year, as published by the housing office. Unknown means no verified source states it, not that the feature is absent.",
+            "image": pic("fixture-hall", "Fixture Hall, a synthetic residence hall (placeholder illustration)", "Fixture Hall faces the main quad"), "body_markdown": PROFILE_BODY, "fact_table": rows, "fact_table_caption": "Fixture Hall — verified facts", "fact_table_footnote": "Rates are per person, per academic year, as published by the housing office. Unknown means no verified source states it, not that the feature is absent.",
             "next_actions": [{"text": "Compare Fixture Hall with Riverside Hall on the same basis", "target": "/schools/fixture-state/housing/compare/fixture-hall-vs-riverside-hall/"},
                              {"text": "Estimate your total housing cost for the year", "target": "/tools/total-cost/?school=fixture-state"},
                              {"text": "Check whether you are eligible to live here", "target": "/schools/fixture-state/housing/eligibility/"}],
@@ -134,11 +142,13 @@ def calculator_ctx() -> dict:
 
 def home_ctx(empty: bool = False) -> dict:
     lead = None if empty else {"section": "Housing · Fixture State University", "section_href": "/schools/fixture-state/housing/", "href": "/schools/fixture-state/housing/fixture-hall/",
-                               "headline": "Fixture Hall: what the double-room rate includes", "deck": "Per-person academic-year rate, who can live here, and what we could not verify.", "byline": "Housing desk", "updated": VERIFIED}
-    supporting = [] if empty else [{"section": "Housing", "href": "/schools/fixture-state/housing/compare/fixture-hall-vs-riverside-hall/", "headline": "Fixture Hall vs. Riverside Hall: same basis, real differences", "deck": "Two first-year halls compared on the published per-person rate."}]
+                               "headline": "Fixture Hall: what the double-room rate includes", "deck": "Per-person academic-year rate, who can live here, and what we could not verify.", "byline": "Housing desk", "updated": VERIFIED,
+                               "image": pic("fixture-hall", "Fixture Hall, a synthetic residence hall (placeholder illustration)")}
+    supporting = [] if empty else [{"section": "Housing", "href": "/schools/fixture-state/housing/compare/fixture-hall-vs-riverside-hall/", "headline": "Fixture Hall vs. Riverside Hall: same basis, real differences", "deck": "Two first-year halls compared on the published per-person rate.", "image": pic("riverside-hall", "Riverside Hall (placeholder illustration)")},
+                                  {"section": "Housing", "href": "/schools/fixture-state/housing/", "headline": "Housing at Fixture State: rates, eligibility and deadlines", "deck": "The housing hub: every verified page for this school in one place.", "image": pic("quad", "The main quad (placeholder illustration)")}]
     return base_ctx("/", "home", "/", lead=lead, supporting=supporting, coverage={"schools_with_coverage": 0 if empty else 1, "registry_count": 7},
                     tools=[{"label": "Total housing cost calculator", "href": "/tools/total-cost/", "state": "ready"}, {"label": "Side-by-side comparison", "href": "/schools/fixture-state/housing/compare/fixture-hall-vs-riverside-hall/", "state": "ready"}],
-                    schools=[] if empty else [{"name": "Fixture State University (synthetic)", "href": "/schools/fixture-state/", "pages": 3}],
+                    schools=[] if empty else [{"name": "Fixture State University (synthetic)", "href": "/schools/fixture-state/", "pages": 3, "image": pic("fixture-state-campus", "Fixture State University campus (placeholder illustration)")}],
                     updates=[] if empty else [{"href": "/schools/fixture-state/housing/fixture-hall/", "headline": "Fixture Hall double-room rate", "change": "2026-27 rate added; 2025-26 marked historical", "date": VERIFIED}])
 
 
@@ -152,7 +162,7 @@ def school_hub_ctx(commuter: bool = False) -> dict:
                   "guides": [], "tools": [], "changes": [], "topics_applicable": ["transfer", "programs", "transportation", "costs and aid"]}
         return base_ctx("/schools/riverbend-community-college/", "school_hub", "/schools/", school=school)
     school = {"name": "Fixture State University (synthetic)", "city": "Fixtureville", "state": "NY", "type_label": "University", "control": "public", "identity_status": "synthetic_fixture",
-              "identity_note": "Synthetic fixture — not a real institution", "coverage_note": "Pilot: housing", "coverage_status": "pilot",
+              "identity_note": "Synthetic fixture — not a real institution", "coverage_note": "Pilot: housing", "coverage_status": "pilot", "image": pic("fixture-state-campus", "Fixture State University campus (placeholder illustration)"),
               "topics": [{"label": "Housing", "applicability": "applicable", "href": "/schools/fixture-state/housing/", "page_count": 3}, {"label": "Dining", "applicability": "applicable", "href": "#", "page_count": 0},
                          {"label": "Costs and financial aid", "applicability": "applicable", "href": "#", "page_count": 0}, {"label": "Transfer pathways", "applicability": "applicable", "href": "#", "page_count": 0}],
               "guides": [{"topic": "Housing", "href": "/schools/fixture-state/housing/fixture-hall/", "headline": "Fixture Hall: what the double-room rate includes", "deck": "Per-person academic-year rate, who can live here, and what we could not verify."}],
