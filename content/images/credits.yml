@@ -1,0 +1,12 @@
+# One entry per photo. Key = slot name (see README.md). Only `file`, `alt` and `credit` are required
+# for the photo to be used; `license`, `rights_holder` and `source_url` are the rights record.
+#
+# fixture-hall:
+#   file: fixture-hall.jpg
+#   alt: "Red-brick residence hall with trees on either side"
+#   caption: "Fixture Hall faces the main quad"
+#   credit: "Photo: Jane Doe for Footnote Daily"
+#   license: "All rights reserved; licensed to Footnote Daily"
+#   rights_holder: "Jane Doe"
+#   source_url: ""
+{}

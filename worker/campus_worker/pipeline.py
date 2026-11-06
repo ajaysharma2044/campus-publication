@@ -303,8 +303,9 @@ def store_research_claims(conn, c: dict, items: list[dict], *, snapshot_by_page:
         except Exception as e:  # noqa: BLE001 — malformed claim items are reported, never stored
             out.append({"field": it.get("field"), "error": f"{type(e).__name__}: {e}"})
             continue
-        page_key = (it.get("source_locator") or "")[:2]
-        snap = snapshot_by_page.get(page_key)
+        m = re.search(r"\b([Pp]\d+)\b", it.get("source_locator") or "")
+        page_key = m.group(1).upper() if m else ""
+        snap = snapshot_by_page.get(page_key) or (next(iter(snapshot_by_page.values())) if len(snapshot_by_page) == 1 else None)  # a one-page packet needs no key
         family = _snapshot_family(conn, snap) if snap else None
         r = cm.store_claim(conn, rec, snapshot_id=UUID(str(snap)) if snap else None, excerpt=(it.get("excerpt") or "")[:500], locator=(it.get("source_locator") or "")[:300], source_family=family)
         out.append({"field": canonical_field(it["field"]), "action": r.action, "claim_id": str(r.claim_id), "audience": it.get("audience_applicability"), "superseded_id": str(r.superseded_id) if r.superseded_id else None})

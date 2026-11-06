@@ -29,7 +29,7 @@ scripts/wp_local.sh start                     # php -S 127.0.0.1:8089
 CAMPUS_WP_BASE_URL=http://127.0.0.1:8089 CAMPUS_WP_USER=campusadmin CAMPUS_WP_APP_PASSWORD=<printed> python -m campus_worker.cli status
 scripts/wp_local.sh stop
 ```
-Staging facts: `WP_ENVIRONMENT_TYPE=staging` → every page carries `noindex,nofollow`, `/ads.txt` says advertising is not enabled, no ad loader is emitted, the staging banner is shown. The `mu-plugins/local-dev.php` file only allows application passwords over plain HTTP on 127.0.0.1 and must never be deployed.
+Staging facts: `WP_ENVIRONMENT_TYPE=staging` → every page carries `noindex,nofollow`, `/ads.txt` says advertising is not enabled, no ad loader is emitted; there is no staging banner (reader-first decision of 2026-11-06), the `noindex` header is the staging signal. The `mu-plugins/local-dev.php` file only allows application passwords over plain HTTP on 127.0.0.1 and must never be deployed.
 
 ## Scheduler (local, bounded)
 

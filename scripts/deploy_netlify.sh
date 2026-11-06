@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Deploy the local site build (build/site, the R8 local publish output) to the Netlify preview site.
 # The site id is not a secret; the Netlify login lives in ~/.config/netlify (run `npx netlify-cli@17 login` once).
-# This is a hosted PREVIEW of the staging render (noindex + staging banner). Going live and indexable is a separate decision:
+# This is a hosted PREVIEW of the staging render (noindex; no banner since the reader-first decision of 2026-11-06). Going live and indexable is a separate decision:
 # set CAMPUS_LIVE_DOMAIN and CAMPUS_ENVIRONMENT=production in worker/.env so the renderer drops noindex and the live ramp releases pages.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
