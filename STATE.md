@@ -93,6 +93,7 @@ Implementation: `CAMPUS_LEAN_MODE` (default on) in `config.py`; `funnel.qualify`
 
 - Run 20261106T201209Z iteration 4 (discovery lane): `sweep run-intel --batch 10` observed 10 deferred clusters (2 navigational, 8 watch, 0 sweet-spot); about 1,077 remain deferred.
 - Run 20261106T205632Z iteration 6 (discovery lane): checks green (pytest all pass, doctor 0 required failures); `sweep run-intel --batch 10` observed 10 clusters (4 reject, 4 watch, 2 navigational, 0 sweet-spot); about 1,026 remain needing intel.
+- Run 20261106T205632Z iteration 7 (discovery lane): checks green (pytest all pass, doctor 0 required failures); `sweep run-intel --batch 10` observed 10 clusters (4 reject, 4 watch, 2 navigational, 0 sweet-spot); about 1,016 remain needing intel.
 
 ### Assumptions (session 3)
 - `living.cornell.edu` resolves (to a static-web load balancer) but never answers on 80 or 443; treated as a retired alias of `scl.cornell.edu` and reported as WARN, not a required failure. The housing source of record is `scl.cornell.edu`.
@@ -168,6 +169,11 @@ Nothing is live. Nothing runs automatically outside this container. The local Po
 
 ## Blockers (owner action; each blocks only its integration)
 OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + application password · OD3 managed PostgreSQL · OD4 domain/brand (masthead is a placeholder) · OD5 AdSense approval + publisher id · OD6 Search Console property + service account · OD7 keyword/SERP provider or exports · OD8 Reddit Data API commercial authorization (stays disabled) · OD9 egress to cornell.edu / nces.ed.gov (or owner-supplied IPEDS file and page snapshots) · OD10 external scheduler for continuous operation.
+
+## Design direction change (owner, 2026-11-06) — proposed SPEC §04 amendment
+- Owner asked for imagery and a warmer, less newspaper-like look. Implemented in `worker/campus_worker/render/` (templates + `static/campus.css`) and mirrored in `wp/themes/campus-editorial/`: single header band (serif wordmark, mixed-case nav, search link), sans-serif display type with serif body, soft 6–8px radii, tinted section bands, image-led home hero, image cards, lede figures on profiles and school hubs, green accent (`--navy` token now #1F5A4A; contrast pairs re-validated by `scripts/check_css.py`, whose radius limit was raised from 4px to 8px).
+- Deviations from SPEC §04 as written: display face is sans rather than serif; soft radii and tinted bands replace the "fine rules / square surfaces" direction. Still honored: no gradients, glass, blobs, AI photography, emoji, animated counters or fabricated popularity labels.
+- Images: `scripts/make_placeholders.py` generates deterministic, in-house flat illustrations labeled "Synthetic placeholder" (no rights needed) into `render/static/img/placeholders/`; only the synthetic fixture pages use them. Templates render image slots only when a record carries `image` {src, alt, caption, credit}; DB-rendered pages have none yet, so they fall back to the typography-led layout. Real pages require rights-cleared photographs with a credit line (SPEC §04 image rights rule unchanged). The WP theme reads featured images for the front page; `single.php` does not yet render a lede figure.
 
 ## Assumptions recorded
 - Masthead is "Footnote Daily" (owner decision, 2026-11-06), set in `CAMPUS_PUBLICATION_NAME` / WP site name.
