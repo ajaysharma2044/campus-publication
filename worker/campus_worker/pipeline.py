@@ -37,6 +37,27 @@ STYLE_PATHS = ["docs/editorial/style.md", "skills/national-college-publishing/re
 _AGENTS: dict | None = None
 
 
+
+def _db(conn):
+    """The connection the caller holds may have died while an agent ran for minutes (hosted DB idle drop, network blip):
+    return it if it still answers, else a fresh connection. Callers reassign `conn = _db(conn)` after every dispatch."""
+    try:
+        if conn is not None and not conn.closed:
+            with conn.cursor() as cur:
+                cur.execute("SELECT 1")
+            return conn
+    except Exception:  # noqa: BLE001 — any failure means: reconnect
+        pass
+    from .config import get_settings
+    from .db import connect
+    try:
+        if conn is not None:
+            conn.close()
+    except Exception:  # noqa: BLE001
+        pass
+    return connect(get_settings().database_url)
+
+
 class StageRefused(Exception):
     pass
 
@@ -203,6 +224,7 @@ def stage_research(conn, cluster_id: UUID, *, runner=dsp.cli_runner, log_path=No
                               input_ids=[str(cluster_id)], institution_id=str(c["institution_id"]) if c["institution_id"] else None, place_id=str(c["place_id"]) if c["place_id"] else None,
                               constraints=["only facts stated in the pages", "money in minor units", "unknown is a value"], turn_budget=agents["researcher"].max_turns, extra=packet_extra or {})
     res = dsp.dispatch(agents["researcher"], packet, runner=runner, conn=conn, log_path=log_path)
+    conn = _db(conn)
     stored = []
     if res.status in ("ok", "hold") and res.doc:
         stored = store_research_claims(conn, c, (res.doc.get("output") or {}).get("claims") or [], snapshot_by_page=(packet_extra or {}).get("snapshot_by_page") or {})
@@ -272,6 +294,7 @@ def stage_plan(conn, cluster_id: UUID, *, claims: list[dict], win_plan: dict | N
                               acceptance_checks=["planner.json validates", "every claim id exists in evidence", "information_gain ≥ 3 verified items"], turn_budget=agents["planner"].max_turns,
                               extra={"page": {"path": page_path, "audience": audience}, "win_plan": win_plan, "competitors": competitors, "notes": notes, "cluster": {"label": c["label"], "audience": c.get("audience")}})
     res = dsp.dispatch(agents["planner"], packet, runner=runner, conn=conn, log_path=log_path)
+    conn = _db(conn)
     out = {"status": res.status, "errors": res.errors}
     if res.status not in ("ok", "hold") or not res.doc:
         return out
@@ -425,6 +448,7 @@ def stage_beat_review(conn, cluster_id: UUID, *, version_id: UUID, draft: dict, 
                               input_ids=[str(version_id)], constraints=["judge only what the packet contains", "no rewrite", "return beat_review with ours and one entry per competitor"],
                               acceptance_checks=["editor.json validates with beat_review"], turn_budget=agents["editor"].max_turns, extra=extra)
     res = dsp.dispatch(agents["editor"], packet, runner=runner, conn=conn, log_path=log_path)
+    conn = _db(conn)
     out = {"status": res.status, "errors": res.errors, "round": round_no}
     if res.status not in ("ok", "hold") or not res.doc:
         return out
@@ -473,6 +497,7 @@ def stage_verify(conn, cluster_id: UUID, *, version_id: UUID, draft: dict, claim
                                            "a value the page states as its own total (for example a year total that is not twice the semester figure) is supported as stated; note the arithmetic in detail without calling it an error"],
                               acceptance_checks=["verifier.json validates", "one claim_check per claim in evidence", "source_opened=true for every claim with an opened-page source"], turn_budget=agents["verifier"].max_turns, extra=extra)
     res = dsp.dispatch(agents["verifier"], packet, runner=runner, conn=conn, log_path=log_path)
+    conn = _db(conn)
     out = {"status": res.status, "errors": res.errors}
     findings = list(det_findings)
     rubric = None
@@ -561,6 +586,7 @@ def stage_seo(conn, cluster_id: UUID | None, *, version_id: UUID, settings, win_
                               input_ids=[str(version_id)], constraints=["no fabricated rankings or volumes", "proposed changes name the exact target"], acceptance_checks=["seo.json validates"],
                               turn_budget=agents["seo"].max_turns, extra=extra)
     res = dsp.dispatch(agents["seo"], packet, runner=runner, conn=conn, log_path=log_path)
+    conn = _db(conn)
     out["agent"] = {"status": res.status, "errors": res.errors}
     if res.status in ("ok", "hold") and res.doc:
         checklist = res.doc.get("output") or {}
@@ -620,6 +646,7 @@ def run_r16(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path
         report.update(page_path=plan_path, claims=len(claims), competitors=len(competitors), win_plan=bool(win))
         plan = stage_plan(conn, cluster_id, claims=claims, win_plan=win, competitors=competitors, page_path=plan_path, audience=audience or (existing or {}).get("audience") or c.get("audience"), notes=notes or [],
                           runner=runner, log_path=log_path, run_id=run_id)
+        conn = _db(conn)
         save("plan", plan)
         if plan.get("status") != "ok" or not plan.get("page_id"):
             report["outcome"] = plan.get("status")
@@ -638,6 +665,7 @@ def run_r16(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path
             rounds += 1
             w = stage_write(conn, cluster_id, page=page, brief_id=UUID(plan["brief_id"]), claims=claims, win_plan=win, notes=notes or [], link_targets=link_targets or [], prior_draft_path=prior_draft_path, resend=resend,
                             runner=runner, log_path=log_path, run_id=run_id)
+            conn = _db(conn)
             save(f"write_r{rounds}", {k: v for k, v in w.items() if k != "draft"} | {"headline": (w.get("draft") or {}).get("headline")})
             if w.get("status") not in ("ok", "hold") or not w.get("draft"):
                 report["outcome"] = "writer_" + str(w.get("status"))
@@ -646,6 +674,7 @@ def run_r16(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path
             det = deterministic_findings(conn, institution_id=c["institution_id"], page_id=page["id"], draft=draft, critical_ids=crit, approved_ids=approved, academic_year="2026-27")
             save(f"checks_r{rounds}", {"findings": [f.as_dict() for f in det]})
             e = stage_edit(conn, cluster_id, draft=draft, det_findings=det, claims=claims, runner=runner, log_path=log_path, run_id=run_id)
+            conn = _db(conn)
             save(f"edit_r{rounds}", {k: v for k, v in e.items() if k != "draft"})
             if e.get("status") in ("ok", "hold") and e.get("draft"):
                 draft = dict(e["draft"], byline=byline)
@@ -666,6 +695,7 @@ def run_r16(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path
                 return report
             round_no = quality.previous_round(conn, version_id) + 1
             b = stage_beat_review(conn, cluster_id, version_id=version_id, draft=draft, claims=claims, competitors=competitors, round_no=round_no, runner=runner, log_path=log_path, run_id=run_id)
+            conn = _db(conn)
             save(f"beat_review_r{round_no}", b)
             if b.get("passed"):
                 break
@@ -679,6 +709,7 @@ def run_r16(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path
             report["outcome"] = "stopped_after_beat_review"
             return report
         v = stage_verify(conn, cluster_id, version_id=version_id, draft=draft, claims=claims, det_findings=det, runner=runner, log_path=log_path, run_id=run_id)
+        conn = _db(conn)
         save("verify", v)
         report["outcome"] = "gate_" + v["gate"]["status"]
         return report
