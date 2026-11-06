@@ -1,0 +1,47 @@
+Read
+Edit
+Write
+MultiEdit
+Grep
+Glob
+Agent
+Task
+WebSearch
+WebFetch
+Bash(pytest *)
+Bash(cd worker && pytest *)
+Bash(cd worker && .venv/bin/pytest *)
+Bash(worker/.venv/bin/pytest *)
+Bash(python -m campus_worker.*)
+Bash(cd worker && python -m campus_worker.*)
+Bash(cd worker && .venv/bin/python -m campus_worker.*)
+Bash(worker/.venv/bin/python -m campus_worker.*)
+Bash(worker/.venv/bin/python scripts/*)
+Bash(scripts/*)
+Bash(bash scripts/*)
+Bash(node scripts/*)
+Bash(git add *)
+Bash(git commit *)
+Bash(git push)
+Bash(git push origin *)
+Bash(git push -u origin *)
+Bash(git status*)
+Bash(git diff*)
+Bash(git log*)
+Bash(git rev-parse *)
+Bash(git show *)
+Bash(gh pr *)
+Bash(ls *)
+Bash(cat *)
+Bash(head *)
+Bash(tail *)
+Bash(wc *)
+Bash(grep *)
+Bash(find *)
+Bash(mkdir *)
+Bash(date *)
+Bash(echo *)
+Bash(printf *)
+Bash(curl -s *)
+Bash(psql *)
+Bash(jq *)

@@ -27,7 +27,10 @@ else fail "php 8.3 + extensions" "brew install php@8.3"; fi
 if command -v node >/dev/null && node -e 'process.exit(parseInt(process.versions.node)>=22?0:1)'; then pass "node >= 22" "$(ver node --version)"; else fail "node >= 22" "$(command -v node >/dev/null && ver node --version || echo none)"; fi
 command -v git >/dev/null && pass "git" "$(ver git --version)" || fail "git" "not found"
 command -v gh >/dev/null && pass "gh" "$(ver gh --version)" || fail "gh" "not found"
-if command -v claude >/dev/null; then pass "claude --version" "$(ver claude --version)"; else fail "claude --version" "install: curl -fsSL https://claude.ai/install.sh | bash"; fi
+if command -v claude >/dev/null; then pass "claude --version" "$(ver claude --version)"
+  if claude auth status 2>/dev/null | grep -q '"loggedIn": true'; then pass "claude logged in" "$(claude auth status 2>/dev/null | grep -o '"authMethod": "[a-z_]*"' | head -1)"; else fail "claude logged in" "run: claude auth login   (the desktop app login does not carry over to the CLI)"; fi
+  if [ -f "$HOME/.claude.json" ] && "$PY" -c "import json,sys; d=json.load(open('$HOME/.claude.json')); sys.exit(0 if d.get('projects',{}).get('$ROOT',{}).get('hasTrustDialogAccepted') else 1)" 2>/dev/null; then pass "workspace trusted" "~/.claude.json"; else fail "workspace trusted" "run claude once here and accept the trust dialog"; fi
+else fail "claude --version" "install: curl -fsSL https://claude.ai/install.sh | bash"; fi
 command -v caffeinate >/dev/null && pass "caffeinate" "present" || fail "caffeinate" "macOS only"
 
 # --- databases (R1, R32) -----------------------------------------------------------------------

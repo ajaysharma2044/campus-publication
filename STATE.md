@@ -12,7 +12,23 @@ Spec: `specs/continuous-local-run.md` v2.5 (owner-approved). Plan and AT mapping
 - Local WordPress staging: `wp-local/` cloned, `scripts/wp_local.sh setup` + new `install` subcommand (stores the application password in `worker/.env` without printing it), served on 127.0.0.1:8089; `cli status` reports the CMS adapter **connected**; `scripts/wp_roundtrip.py` proves the hash no-op (second upsert created=False changed=False, same post id).
 - Backups: `scripts/backup.sh` + `scripts/restore_test.sh` pass on macOS (checksums no longer include SHA256SUMS itself; `shasum -a 256` fallback; no `su postgres`).
 - Scripts ported from Linux-only tools: BSD-safe `sed -i`, `mkdir` lock instead of `flock` (absent on macOS).
-- `scripts/doctor.sh` (R1/R32) prints PASS/FAIL with versions; current blockers: `DATABASE_URL` not yet in `worker/.env`.
+- Current blockers: `DATABASE_URL` not yet in `worker/.env` (hosted Postgres 16); `claude auth login` not done (CLI is separate from the desktop app login).
+
+### M2 doctor + rebuild — done locally (AT1 partial, AT28 local proof; hosted AT2/AT28/AT32 pending DATABASE_URL)
+- `scripts/doctor.sh`: PASS/FAIL with versions for every R32 item, DB reachability, migrations, git push, Cornell/NCES hosts, claude CLI + login + workspace trust, agent files, skill symlink, settings.json.
+- `scripts/rebuild_from_repo.sh` → `campus_worker.rebuild`: migrate → seed → SHA256-verified IPEDS import → guarded session-2 replay (8 questions, 17 estimate claims, 1 held version). Run twice on a fresh local DB: identical counts (6,072 pending_verification + 1 labeled synthetic fixture; Cornell disambiguation = 3). Replayed ids: `docs/research/rebuild-id-map.json`; the session-2 report is untouched.
+
+### M3 project skill + settings + hooks — done (AT17 by 12 tests; AT30 live listing pending CLI login)
+- `.claude/skills/national-college-publishing` → symlink to `skills/national-college-publishing/`; `.claude/settings.json` (deny `.env` reads, force-push, sudo/brew/pip; allowlist for the loop's commands; PreToolUse hook); `.claude/hooks/guard.sh` + `guard.py` (blocks SPEC/specs, gate constants, live-ramp default, settings.json, unlisted skills; Bash write-ish commands too); `docs/ops/skill-evaluations.md` seeded with the in-repo baseline; CLAUDE.md "Local run mode" (47 lines).
+- Workspace trust flag set for this repo in `~/.claude.json` (the CLI ignores project settings otherwise).
+
+### M4 execution mode + unthrottled production + live ramp — done (AT8, AT9 by tests)
+- `CAMPUS_EXECUTION_MODE=session|api` (default session): `budget.status(..., execution_mode)` never pauses in session mode; `budget.record_session_usage` writes one unpriced ledger row per iteration / dispatch. API-mode cap tests unchanged.
+- Migration 0003: `pages.ready_at/niche_score/tier/local_published_at`, `ramp_state`, `live_releases`. `ramp.py` parses `CAMPUS_LIVE_RAMP` ("5x14,15"), computes the day's allowance, orders the ready queue by niche_score, holds the rate on >20% unindexed. `publisher.publish_local` (build/site + staging draft, no quota) and `publisher.release_live` (ramp). The §26 daily quota no longer applies to publishing (owner decision); `render/site.py` renders passed versions to `build/site/`.
+
+### M5 run loop — built; fixture-proven (AT4–AT7 by 10 tests); AT3 live run pending CLI login
+- `scripts/run.sh` (caffeinate, mkdir lock → exit 11, STOP file / Ctrl-C → finish iteration then stop, 3 consecutive failures → exit 1, usage limit → exit 20 with no retry, auth error → exit 30, `--max N` → exit 12, `--mode sweep` auto-switches to normal on `sweep_complete`), `scripts/stop.sh`, `scripts/iteration_prompt.md` (R4 contract; ends with a parsed `iteration_summary` JSON), `scripts/iteration_tools.txt` (fixed allowlist), `scripts/runlog.py` (R10 lines in `build/runs/<run-start>.jsonl` + session ledger entry), `scripts/fixtures/iteration_stub.sh` (ok/nowork/slow/fail/usage/auth).
+- Observed `claude -p --output-format json` shape on 2.1.319: `type, subtype, is_error, num_turns, result, session_id, total_cost_usd, usage, stop_reason, api_error_status, permission_denials, ...`; "Not logged in · Please run /login" arrives as `is_error: true` with exit 1. `--max-turns` is accepted by the parser; run.sh retries once without it if the CLI ever rejects it.
 
 ### Assumptions (session 3)
 - `living.cornell.edu` resolves (to a static-web load balancer) but never answers on 80 or 443; treated as a retired alias of `scl.cornell.edu` and reported as WARN, not a required failure. The housing source of record is `scl.cornell.edu`.
