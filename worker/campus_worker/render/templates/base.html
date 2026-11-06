@@ -19,15 +19,21 @@
   <span>{{ today|datefmt("%A, %B %-d, %Y") }}</span>
   <span><a href="/search/">Search</a> · <a href="/about/methods/">How this site is made</a></span>
 </div></div>
-<header class="masthead {% if compact_masthead %}masthead--compact container{% endif %}">
-  {% if not compact_masthead %}<div class="container">{% endif %}
-  {% if template_name == "home" %}<h1 class="masthead__name"><a href="/">{{ site.name }}</a></h1>{% else %}<p class="masthead__name"><a href="/">{{ site.name }}</a></p>{% endif %}
-  {% if site.working_title %}<p class="masthead__tag">Independent guidance for college decisions · working masthead</p>{% endif %}
-  {% if not compact_masthead %}</div>{% endif %}
-</header>
-<nav class="nav" aria-label="Sections"><div class="container"><ul>
+{% set nav_items %}<ul>
   {% for item in site.nav %}<li><a href="{{ item.href }}" {% if item.href == current_section %}aria-current="page"{% endif %}>{{ item.label }}</a></li>{% endfor %}
-</ul></div></nav>
+</ul>{% endset %}
+{% if compact_masthead %}
+<div class="chrome chrome--compact"><div class="container chrome__row">
+  <p class="masthead__name"><a href="/">{{ site.name }}</a></p>
+  <nav class="nav" aria-label="Sections">{{ nav_items }}</nav>
+</div></div>
+{% else %}
+<header class="masthead"><div class="container">
+  <h1 class="masthead__name"><a href="/">{{ site.name }}</a></h1>
+  {% if site.working_title %}<p class="masthead__tag">Independent guidance for college decisions · working masthead</p>{% endif %}
+</div></header>
+<nav class="nav" aria-label="Sections"><div class="container">{{ nav_items }}</div></nav>
+{% endif %}
 <main id="main" tabindex="-1">
 {% block content %}{% endblock %}
 </main>

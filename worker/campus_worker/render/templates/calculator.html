@@ -36,7 +36,7 @@
   </form>
   </div>
   <aside class="col-12 col-lg-5">
-    <section class="measure"><h2 style="margin-top:0">How this is calculated</h2><p>{{ calc.method }}</p>
+    <section class="measure tool-notes"><h2>How this is calculated</h2><p>{{ calc.method }}</p>
     <h3>Assumptions</h3><ul>{% for k, v in calc.result.assumptions_used.items() if v %}<li>{{ k|replace('_',' ') }}: {{ v }}</li>{% endfor %}</ul>
     <h3>Limitations</h3><p>{{ calc.limitations }}</p></section>
   </aside>
