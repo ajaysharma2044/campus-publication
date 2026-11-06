@@ -127,8 +127,13 @@ def defer_beyond_cap(conn: psycopg.Connection, *, cap: int | None = None) -> int
         if deferred:
             cur.execute("""UPDATE intent_clusters SET queue_state='watch', queue_reason='deferred: beyond the sweep intel cap; the discovery lane observes it later (R41)', updated_at=now()
                            WHERE id = ANY(%s)""", (deferred,))
+        # a cluster with one observed occurrence and no hypothesis is not eligible for search intel yet (R20: hypotheses are never demand,
+        # one occurrence is not independent evidence); its decision is 'watch' until a second occurrence arrives, so the map can complete
+        cur.execute(f"""UPDATE intent_clusters c SET queue_state='watch', queue_reason='waiting for a second independent occurrence (R20)', updated_at=now()
+                        WHERE c.last_intel_at IS NULL AND c.queue_state IN ('candidate','needs_intel') AND NOT {ELIGIBLE}""")
+        waiting = cur.rowcount
     conn.commit()
-    return len(deferred)
+    return len(deferred) + waiting
 
 
 def run_score(conn: psycopg.Connection, *, run_id: str | None = None) -> dict:

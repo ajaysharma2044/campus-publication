@@ -544,3 +544,18 @@ def test_topic_seed_expansion_covers_every_r33_topic_and_sweep_cap_defers(clean_
     assert st["need_intel"] == 10 and st["watch"] == deferred
     batch = sweep.intel_batch(clean_conn, batch=25)
     assert len(batch) == 10
+
+
+def test_sweep_decides_single_occurrence_clusters_watch_so_the_map_can_complete(clean_conn):
+    inst, campus, topics = make_school(clean_conn)
+    _official_source(clean_conn, inst, campus)
+    lone = _cluster(clean_conn, inst, campus, topics, "fixture hall laundry hours", observed=1)      # one occurrence, no hypothesis: not eligible
+    strong = _cluster(clean_conn, inst, campus, topics, "fixture hall review", observed=2)           # eligible
+    n = sweep.defer_beyond_cap(clean_conn, cap=300)
+    with clean_conn.cursor() as cur:
+        cur.execute("SELECT id, queue_state, queue_reason FROM intent_clusters WHERE id IN (%s, %s)", (lone, strong))
+        rows = {r["id"]: r for r in cur.fetchall()}
+    assert n >= 1 and rows[lone]["queue_state"] == "watch" and "second independent occurrence" in rows[lone]["queue_reason"]
+    assert rows[strong]["queue_state"] in ("candidate", "needs_intel")
+    st = sweep.status(clean_conn)
+    assert st["waiting_second_occurrence"] == 0 and st["undecided"] == 1
