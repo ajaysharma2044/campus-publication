@@ -49,6 +49,14 @@ item; tier-2 profiles need 4 verified claims; the competitor-beat review is a 1-
 sources, verification, the editorial gates, the SEO gate and the 60% overlap rule is unchanged. Do not build new features; fix only what
 blocks page production.
 
+## READER-FIRST (owner decision 2026-11-06, logged in STATE.md; overrides where it conflicts)
+Pages lead with the direct, practical answer a student can act on, built from what the sources do say, in the voice of a knowledgeable
+upperclassman; gaps go in one short "## Not confirmed" note at the end (max 3 bullets); dates read "November 6, 2026". The writer and editor
+packets carry these rules; the pipeline hides internals from public pages (no change log, rubric, registry counts or production notes).
+Topic choice: skip a cluster a real student would not search; `lanes next` already puts costs, deadlines, housing, dining, transit and parents
+first. Verifier rounds: at most 3 per page (`pipeline correct` enforces it); after that the unverifiable claim is cut and the page publishes on
+its last verified rubric, or is skipped. Brand: "Footnote Daily" everywhere; the hosted preview carries no staging banner.
+
 ## Hard rules
 No fabricated facts, sources, bylines, reviews, demand numbers, rankings, or "live" claims. No spam tactics.
 No scraping against robots or terms; Reddit content collection stays off (search-result observation only).

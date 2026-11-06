@@ -55,3 +55,12 @@ are the reference.
 > it's important to note that there are a plethora of options to delve into.
 
 _(filler: "navigating the world of", "whether you're … or", "it's important to note", "a plethora of", "delve into")_
+
+
+## Reader-first rules (owner decision 2026-11-06; these win over anything above that conflicts)
+- Lead with the direct, practical answer a student can act on, built from what the sources do say. The first paragraph answers the question; the next ones give the steps, numbers and dates.
+- Never write "the pages we opened do not say" or any variant of it in the body. Gaps go in one short **Not confirmed** note at the end: at most 3 bullets, each one line, no apology.
+- Voice: a knowledgeable upperclassman explaining it to a friend, not an auditor. No audit trail in prose (no "snippet", "snapshot", "claim", "verified against"), no rubric talk, no "this publication".
+- Dates in prose as "November 6, 2026" (month name, day, year). Money as "$6,872 per person per semester".
+- Fact table rows: plain labels a reader would use ("Double room, 2026-27"), one value each.
+- The page ends with the Not confirmed note (if any), then What to do next.

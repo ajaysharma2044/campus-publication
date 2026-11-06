@@ -14,3 +14,7 @@ Fails: banned opening; filler; fabricated consensus; invented quote; no fact, no
 Passes: decision answered first; basis and period stated; claim-backed; unknown named honestly; next action explains itself. (Dollar figure must come from a stored claim; the example omits it deliberately.)
 
 Output contract: writer (headline, deck, body_markdown, claim_refs for every fact, fact_table, next_actions 1–6).
+
+
+## Reader-first (owner decision 2026-11-06)
+Follow docs/editorial/style.md → Reader-first rules: practical answer first, no 'pages do not say' prose, one 'Not confirmed' note at the end (≤ 3 bullets), upperclassman voice, dates as 'November 6, 2026'.

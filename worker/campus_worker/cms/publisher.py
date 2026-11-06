@@ -13,6 +13,7 @@ Rules:
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from uuid import UUID
@@ -45,15 +46,32 @@ class PublishOutcome:
     redirect_from: str | None = None
 
 
+OFFICIAL_SOURCE_KINDS_PREFIX = "official"   # 'official_html', 'official_pdf', ...: the Sources list shows official pages only (reader-first, 2026-11-06)
+_TITLE_SPLIT = re.compile(r"\s+[|\u2014\u2013·:]\s+|\s+-\s+")
+
+
+def clean_source_title(title: str | None, url: str) -> str:
+    """The page's own title without the site-name suffix ('Housing Rates | Student & Campus Life' → 'Housing Rates');
+    when no title was captured, a readable form of the URL's last path segment."""
+    t = (title or "").strip()
+    if t:
+        first = _TITLE_SPLIT.split(t)[0].strip()
+        return first if len(first) >= 3 else t
+    slug = url.split("#", 1)[0].rstrip("/").rsplit("/", 1)[-1]
+    slug = re.sub(r"^\d+-", "", slug).replace("-", " ").replace("_", " ").strip()
+    return (slug[:1].upper() + slug[1:]) if slug else url
+
+
 def _sources_for_version(conn: psycopg.Connection, version_id: UUID) -> list[dict]:
     with conn.cursor() as cur:
         cur.execute(
-            """SELECT DISTINCT r.canonical_url AS url, r.publisher, r.source_kind AS kind, max(s.fetched_at) AS retrieved_at
+            """SELECT DISTINCT r.canonical_url AS url, r.publisher, r.source_kind AS kind, r.title, max(s.fetched_at) AS retrieved_at
                FROM page_claims pc JOIN claim_sources cs ON cs.claim_id=pc.claim_id JOIN fetch_snapshots s ON s.id=cs.snapshot_id
-               JOIN source_registry r ON r.id=s.source_id WHERE pc.page_version_id=%s GROUP BY r.canonical_url, r.publisher, r.source_kind ORDER BY 1""",
-            (version_id,),
+               JOIN source_registry r ON r.id=s.source_id WHERE pc.page_version_id=%s AND r.source_kind LIKE %s
+               GROUP BY r.canonical_url, r.publisher, r.source_kind, r.title ORDER BY 1""",
+            (version_id, OFFICIAL_SOURCE_KINDS_PREFIX + "%"),
         )
-        return [dict(r, retrieved_at=r["retrieved_at"].isoformat()) for r in cur.fetchall()]
+        return [dict(r, title=clean_source_title(r["title"], r["url"]), retrieved_at=r["retrieved_at"].isoformat()) for r in cur.fetchall()]
 
 
 def new_pages_published_today(conn: psycopg.Connection) -> int:

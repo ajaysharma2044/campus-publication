@@ -1,6 +1,5 @@
-<section class="sources" aria-labelledby="sources-h"><h2 id="sources-h" class="section-head">Sources and verification</h2>
-{% if sources %}<ol>{% for s in sources %}<li><a href="{{ s.url }}" rel="noopener">{{ s.title or s.url }}</a> — {{ s.publisher }}{% if s.retrieved_at %}, retrieved {{ s.retrieved_at|datefmt("%B %-d, %Y") }}{% endif %}{% if s.kind %} <span class="meta">({{ s.kind }})</span>{% endif %}</li>{% endfor %}</ol>
-{% else %}<p class="coverage-note">No external sources are cited on this page.</p>{% endif %}
-{% if production_note %}<p class="aside-note">{{ production_note }}</p>{% endif %}
+<section class="sources" aria-labelledby="sources-h"><h2 id="sources-h" class="section-head">Sources</h2>
+{% if sources %}<ol>{% for s in sources %}<li><a href="{{ s.url }}" rel="noopener">{{ s.title or s.url }}</a>{% if s.retrieved_at %} <span class="meta">checked {{ s.retrieved_at|datefmt }}</span>{% endif %}</li>{% endfor %}</ol>
+{% else %}<p class="coverage-note">This page cites no external sources.</p>{% endif %}
 <p class="corrections-link">Spotted an error? <a href="/about/corrections/?page={{ page_id }}">Request a correction</a>.</p>
 </section>

@@ -1,26 +1,26 @@
-# Editorial methods and automation disclosure
-How pages on this site are researched, written, checked and corrected, and what is automated.
+# How we verify
+Every fact on this site comes from a school's own pages, carries the date we last checked it, and is cut when we cannot confirm it.
 
-## What is automated
+## Where the facts come from
 
-Nearly everything. A scheduled worker collects permitted official sources (housing rate pages, catalogs, PDFs, calendars), extracts facts into typed records with the source, retrieval date and academic year attached, and detects when a source changes. Writing, substantive editing and verification are performed by language models working from those records, inside fixed contracts that reject output that cannot be traced to evidence.
+Each guide is built from the school's official pages: housing, dining, bursar, registrar, admissions and transit pages, plus official PDFs and calendars. We record the page, the date we fetched it and the academic year the fact applies to. The Sources list at the end of every guide names those pages.
 
-## What is not automated
+## What we do not do
 
-Publication of a page that uses a new template, any page whose critical facts (costs, deadlines, eligibility, prerequisites, agreements, accessibility, routes) are in conflict between sources, and any serious allegation about a person or business is held for a human decision. Where a human has reviewed a page, the correction history for that page says so by date.
+We do not invent quotes, resident reviews, surveys or "students agree" consensus. We do not copy text from other sites. We do not use forum posts as facts. No page carries a reporter's name unless a named person reported it; pages are credited to a desk.
 
-## Bylines
+## How a page gets checked
 
-No page carries a human reporter's name unless a named person actually reported it. Pages are credited to a desk ("Housing desk", "Publication desk"). We do not invent quotes, resident experiences, surveys or "students agree" consensus. When we summarise discussion threads, we say how many posts we looked at, over what period, and what they cannot tell you.
+Code does the arithmetic, dates, unit conversions and duplicate detection. Language models draft, edit and check the writing against the recorded facts, inside fixed rules that reject anything that cannot be traced to a source. A page is published only after a verification pass compares every fact to the page it came from. If a fact fails that pass, we cut it rather than soften it.
 
-## Facts, dates and unknowns
+## Dates, money and unknowns
 
-Every fact in a table shows the date we last checked it and its status: verified, estimate, stale, conflicted or unknown. "Unknown" means no source we are permitted to use states it. It never means "no". Money is shown with its billing period and whether it is per person or per unit, because the two are routinely confused on official pages.
+Money is shown with its billing period and whether it is per person or per unit, because official pages routinely mix the two. Dates are written out in full. When a school's pages do not state something a reader would want, the guide says so in a short "Not confirmed" note instead of guessing.
 
-## Models and checks
+## Corrections
 
-Deterministic code does the arithmetic, dates, unit conversions and duplicate detection. Models are used for language judgment only, behind a spending cap. A page must pass fixed checks (no unsupported critical fact, no invented experience, no wrong school or year, no misleading headline, no label-swapped duplicate) and a six-part quality rubric before it is staged.
+If something is wrong, use the [corrections page](/about/corrections/). Material corrections are recorded on the page by date.
 
 ## Limits
 
-This is an independent publication. It is not affiliated with any institution and cannot make admission, housing, aid or credit decisions. The institution's own office is the authority for your case.
+This is an independent publication. It is not affiliated with any institution and cannot make admission, housing, aid or credit decisions. The school's own office is the authority for your case.

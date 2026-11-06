@@ -450,7 +450,9 @@ def stage_write(conn, cluster_id: UUID, *, page: dict, brief_id, claims: list[di
                  "is_critical": k["is_critical"], "excerpt": k["excerpt"][:300], "source_url": k["source_url"], "retrieved_at": k["retrieved_at"]} for k in claims]
     hubs = seo_gate._hubs_for(page["path"])
     constraints = [
-        "State as fact only what a listed claim says, and list every claim you used in claim_refs; no other facts, numbers, dates, names, or history. A fact the claims do not cover is written as not stated on the pages we opened.",
+        "State as fact only what a listed claim says, and list every claim you used in claim_refs; no other facts, numbers, dates, names, or history. A fact the claims do not cover stays out of the body; if a reader would want it, it goes in the Not confirmed note.",
+        "Reader-first (owner decision 2026-11-06): lead with the direct, practical answer a student can act on, built from what the sources DO say; write like a knowledgeable upperclassman explaining it to a friend. Never write 'the pages we opened do not say', 'not stated on the pages', 'we could not verify' or any audit language (snapshot, snippet, claim, verified against) in the body.",
+        "Dates in prose as 'November 6, 2026' (month name, day, year), never ISO dates. No byline, date line or 'pages checked' line in the body: the page chrome shows the byline and dates.",
         "Money: per person and per semester with the academic year written exactly as 2026-27; every dollar amount in prose also appears in fact_table, to the dollar.",
         "Write no other academic-year range anywhere (no 2019-20, 2020-2021); refer to older records without a year range.",
         "Headline ≤ 60 characters and containing the content words of the primary query; deck 120–155 characters (it becomes the meta description) and must state the answer.",
@@ -459,7 +461,7 @@ def stage_write(conn, cluster_id: UUID, *, page: dict, brief_id, claims: list[di
         "Headings: one per secondary question in the win plan, phrased so the question's words appear; include a numbered-steps block and a one-sentence definition where the win plan asks.",
         "Internal links: markdown links only to paths in link_targets (each exists or is published in this same build) and to the hubs " + f"{hubs[0]} and {hubs[1]}; descriptive anchor text; at least three links to link_targets.",
         "No filler phrases (docs/editorial/style.md), no quotations, no invented experiences or consensus, no ratings, no superlatives, no 'best'.",
-        "Byline: " + page.get("byline", "Housing desk") + ". Include a short 'What we could not verify' section listing `not_verified` plainly.",
+        "Byline field: " + page.get("byline", "Housing desk") + ". End the body with one short note headed exactly '## Not confirmed' (at most 3 bullets, one line each, no apology) for the `not_verified` items a reader would care about; nothing after it. Omit the note when there is nothing worth listing. No Sources or methods section in the body.",
         "next_actions: at least two, each a specific action with a target (an internal path from link_targets or an official URL from the claims' source_url).",
     ]
     extra = {"page": {"path": page["path"], "audience": page.get("audience"), "format": page.get("page_format"), "school": c["school_name"] or c["place_name"]}, "brief": _brief_row(conn, brief_id),
@@ -496,7 +498,8 @@ def stage_edit(conn, cluster_id: UUID, *, draft: dict, det_findings: list[Findin
     extra = {"mode": "substantive_edit", "draft": {k: draft.get(k) for k in ("headline", "deck", "body_markdown", "fact_table", "next_actions", "claim_refs")},
              "deterministic_findings": [f.as_dict() for f in det_findings], "claim_table": claim_table, "style_paths": STYLE_PATHS + ["skills/national-college-publishing/references/editing.md"]}
     packet = dsp.build_packet(task_id=f"edit:{str(cluster_id)[:8]}", run_id=run_id, objective="Substantive edit of the draft: resolve every deterministic finding, keep every claim reference, add no fact, cut machine-prose tells; return the revised draft.",
-                              input_ids=[str(cluster_id)], constraints=["no new facts, numbers, dates or sources", "keep [[fact-table]]", "keep the claim ids", "deck 120–155 chars; headline ≤ 60 chars"],
+                              input_ids=[str(cluster_id)], constraints=["no new facts, numbers, dates or sources", "keep [[fact-table]]", "keep the claim ids", "deck 120–155 chars; headline ≤ 60 chars",
+                                                                         "reader-first (owner decision 2026-11-06): the first paragraph is the practical answer; move every 'not stated / could not verify' sentence out of the body into one '## Not confirmed' note at the end (max 3 bullets, one line each); upperclassman voice, no audit language; dates as 'November 6, 2026'; no byline or date line in the body"],
                               acceptance_checks=["editor.json validates", "every deterministic finding addressed or listed in unresolved"], turn_budget=agents["editor"].max_turns, extra=extra)
     res = dsp.dispatch(agents["editor"], packet, runner=runner, conn=conn, log_path=log_path)
     out = {"status": res.status, "errors": res.errors}
@@ -530,7 +533,7 @@ def create_version(conn, *, page: dict, brief_id, draft: dict, claim_ids: list[s
     hubs = seo_gate._hubs_for(page["path"])
     crumbs = [("Home", "/"), ("Schools" if page["path"].startswith("/schools/") else "Towns", "/schools/" if page["path"].startswith("/schools/") else "/towns/"), (school_name, hubs[1]), (topic_label, hubs[0]), (draft["headline"], page["path"])]
     structured = {"fact_table": draft.get("fact_table") or [], "fact_table_caption": draft.get("fact_table_caption") or f"{topic_label} at {school_name}: facts from official pages, 2026-27",
-                  "fact_table_footnote": draft.get("fact_table_footnote") or "Every row cites a claim verified against a fetched official page; the retrieval date is in Sources.",
+                  "fact_table_footnote": draft.get("fact_table_footnote") or "Checked against the official pages listed under Sources.",
                   "next_actions": draft.get("next_actions") or [], "claim_refs": [str(c) for c in claim_ids], "sources_used": sources_used or [],
                   "json_ld": json_ld_for(headline=draft["headline"], deck=draft.get("deck"), path=page["path"], publication_name=settings.publication_name, base_url=getattr(settings, "base_url", "") or "",
                                          published=published, modified=now, crumbs=crumbs)}
@@ -921,8 +924,8 @@ def correct(conn, version_id: UUID, *, settings, runner=dsp.cli_runner, log_path
         findings.append(Finding("headline", "major", "SEO gate: every planned secondary question's content words must appear in some H2/H3; see the version's seo_gate record for the missing ones."))
     for extra_fail in [f for f in seo_failed if f not in ("title_contains_primary_query", "internal_links_three_contextual", "internal_links_hub_uplinks", "headings_cover_secondary_questions")]:
         findings.append(Finding("structure", "minor", f"SEO gate item failed: {extra_fail} (see the version's seo_gate record)"))
-    findings.append(Finding("attribution", "major", "Any fact you add must be one of the claims in claim_table (cite its id in claim_refs and give it a fact_table row when it is a date or money value); if no claim covers it, write that the opened pages do not state it."))
-    findings.append(Finding("prose", "major", "After applying the corrections, re-read the whole page top to bottom: merge choppy one-line paragraphs, keep one idea per paragraph, keep every section's first sentence the answer, and cut repetition. No new facts."))
+    findings.append(Finding("attribution", "major", "Any fact you add must be one of the claims in claim_table (cite its id in claim_refs and give it a fact_table row when it is a date or money value); if no claim covers it, leave it out of the body (a reader-relevant gap may go in the '## Not confirmed' note, max 3 bullets)."))
+    findings.append(Finding("prose", "major", "After applying the corrections, re-read the whole page top to bottom (reader-first, owner decision 2026-11-06): the first paragraph is the practical answer; merge choppy one-line paragraphs, keep one idea per paragraph, keep every section's first sentence the answer, cut repetition and every 'the pages do not say' sentence (one '## Not confirmed' note at the end holds the gaps); upperclassman voice; dates as 'November 6, 2026'. No new facts."))
     report: dict = {"version_id": str(version_id), "corrections": vc["corrections"], "seo_failed": seo_failed}
     asks = [x for x in vc["corrections"] if re.search(r"\b(add|extract|record)\b.*\bclaim", x, re.I) or "as a claim" in x.lower()]
     if asks and v.get("cluster_id"):
@@ -983,13 +986,29 @@ def correct(conn, version_id: UUID, *, settings, runner=dsp.cli_runner, log_path
     conn.commit()
     report["new_version_id"] = str(new_vid)
     need_verifier = facts_changed or bool(vc["hard_failures"]) or bool(vc["not_supported"]) or v["gate_status"] != "passed"
+    rounds_so_far = lean.verifier_rounds(conn, v["page_id"]) if lean.enabled() else 0
+    carried_rubric = v["rubric"] or lean.last_verified_rubric(conn, v["page_id"])
+    if need_verifier and lean.enabled() and rounds_so_far >= lean.MAX_VERIFIER_ROUNDS:
+        # owner decision 2026-11-06 (efficiency): at most 3 verifier rounds per page; the unsupported claims were cut above (excluded), so the page
+        # publishes on the last verified rubric when it has one and the deterministic checks pass, else it is skipped (held) rather than re-verified again
+        report["verifier_rounds_exhausted"] = rounds_so_far
+        if carried_rubric and not vc["hard_failures"]:
+            need_verifier = False
+        else:
+            report["outcome"] = "skipped_after_verifier_rounds"
+            with conn.cursor() as cur:
+                cur.execute("UPDATE pages SET status=CASE WHEN local_published_at IS NOT NULL OR status='published' THEN status ELSE 'held' END, revalidation_reason=%s WHERE id=%s",
+                            (f"lean: {rounds_so_far} verifier rounds used; unverifiable claims cut; no verified rubric to carry", v["page_id"]))
+            conn.commit()
+            rp.write_text(json.dumps(report, indent=1, default=str))
+            return report
     if need_verifier:
         ver = stage_verify(conn, v["cluster_id"], version_id=new_vid, draft=draft2, claims=claims, det_findings=det2, runner=runner, log_path=log_path, run_id=run_id)
         conn = _db(conn)
         report["verify"] = {k: val for k, val in ver.items() if k != "claim_checks"} | {"not_supported": [cc for cc in (ver.get("claim_checks") or []) if cc.get("status") != "supported"]}
         gate_ok = ver["gate"]["status"] == "passed"
     else:
-        rubric = {k: v["rubric"][k] for k in ("clarity", "specificity", "structure", "attribution", "usefulness", "prose")}
+        rubric = {k: carried_rubric[k] for k in ("clarity", "specificity", "structure", "attribution", "usefulness", "prose")}
         g = gates.gate_version(conn, new_vid, det2, rubric)
         report["gate_carried"] = g.as_dict()
         gate_ok = g.passed

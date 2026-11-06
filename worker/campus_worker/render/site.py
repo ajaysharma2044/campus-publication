@@ -47,6 +47,7 @@ def version_context(conn: psycopg.Connection, version_id: UUID, *, environment: 
     ctx.update(canonical_path=v["path"], template_name=v["page_format"], static_prefix="/static/", today=datetime.now(timezone.utc).date(),
                noindex=(environment != "production"), compact_masthead=True, current_section=section_href, ad_slots={}, related=[],
                structured_data=structured.get("json_ld", ""))
+    ctx["site"]["nav"] = site_nav(conn)
     ctx["page"] = {"id": str(v["page_id"]), "headline": v["headline"], "deck": v["deck"], "section": section, "section_href": section_href,
                    "byline": v["byline"], "published_at": published, "updated_at": updated,
                    "audience_label": (v["audience"] or "").replace("_", " ") or None, "body_markdown": v["body_markdown"],
@@ -147,6 +148,12 @@ def _shell_ctx(path: str, template_name: str, section: str, *, environment: str,
     return ctx
 
 
+def site_nav(conn: psycopg.Connection) -> list[dict]:
+    """Schools plus every topic tile that has at least one published guide (empty sections stay hidden)."""
+    pages = published_pages(conn)
+    return [{"label": "Schools", "href": "/schools/"}] + [{"label": t["label"], "href": f"/topics/{t['slug']}/"} for t in TOPIC_TILES if tile_pages(pages, t)]
+
+
 def published_pages(conn: psycopg.Connection) -> list[dict]:
     """Pages in the local build: every page whose current version passed the editorial gate and is not held (R8 publishes each at once)."""
     with conn.cursor() as cur:
@@ -159,10 +166,29 @@ def published_pages(conn: psycopg.Connection) -> list[dict]:
         return [dict(r) for r in cur.fetchall()]
 
 
+TOPIC_TILES = [  # the homepage topic grid (owner decision 2026-11-06): six practical topics; a tile links only once it has a guide
+    {"label": "Housing", "slug": "housing", "keys": ("housing",), "audience": None, "blurb": "Dorms, rates, requirements and how placement works."},
+    {"label": "Costs", "slug": "costs", "keys": ("costs_aid", "parents_billing"), "audience": None, "blurb": "Tuition, fees, room and board, and what aid covers."},
+    {"label": "Transfer", "slug": "transfer", "keys": ("transfer",), "audience": "transfer", "blurb": "Credits, deadlines and housing for transfer students."},
+    {"label": "Dining", "slug": "dining", "keys": ("dining",), "audience": None, "blurb": "Meal plans, what they cost and where you can use them."},
+    {"label": "Getting around", "slug": "getting-around", "keys": ("transportation", "town_transit_local", "town_transit_intercity"), "audience": None, "blurb": "Buses, parking, bikes and getting to campus."},
+    {"label": "Parents", "slug": "parents", "keys": ("parents_visitors", "parents_calendar", "parents_billing", "parents_logistics", "parents_prep"), "audience": "parent", "blurb": "Move-in, billing and what families need to know."},
+]
+
+
+def _page_date(p: dict):
+    return p["last_material_update_at"] or p["local_published_at"] or p["version_created_at"]
+
+
+def tile_pages(pages: list[dict], tile: dict) -> list[dict]:
+    return [p for p in pages if (p.get("topic_key") in tile["keys"]) or (tile["audience"] and (p.get("audience") or "") == tile["audience"])]
+
+
 def render_shell(conn: psycopg.Connection, *, out_root: Path = OUT_DEFAULT, environment: str = "staging", publication_name: str = "Footnote Daily",
                  base_url: str = "") -> list[Path]:
-    """Home, schools index, school and topic hubs, policies, search and 404 for the local build, from the database (never fixtures).
-    Hubs link every published page, which is where a page's first inbound link comes from (R45 no-orphan rule)."""
+    """Home, schools index, school and topic hubs, site-wide topic pages, policies, search and 404 for the local build, from the database
+    (never fixtures). Hubs link every published page, which is where a page's first inbound link comes from (R45 no-orphan rule).
+    Reader-first (owner decision 2026-11-06): no change log, rubric, registry count or production notes on any public page; empty sections are hidden."""
     import shutil
 
     out_root.mkdir(parents=True, exist_ok=True)
@@ -173,16 +199,20 @@ def render_shell(conn: psycopg.Connection, *, out_root: Path = OUT_DEFAULT, envi
     pages = published_pages(conn)
     kw = dict(environment=environment, publication_name=publication_name, base_url=base_url)
     written: list[Path] = []
+    tiles = []
+    for t in TOPIC_TILES:
+        tp = tile_pages(pages, t)
+        tiles.append({"label": t["label"], "slug": t["slug"], "blurb": t["blurb"], "count": len(tp), "href": f"/topics/{t['slug']}/" if tp else None, "pages": tp})
+    nav = [{"label": "Schools", "href": "/schools/"}] + [{"label": t["label"], "href": t["href"]} for t in tiles if t["href"]]
 
     def emit(rel: str, template: str, ctx: dict) -> None:
+        ctx["site"]["nav"] = nav
         p = out_root / rel
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(engine.render(template, **ctx))
         written.append(p)
 
     with conn.cursor() as cur:
-        cur.execute("SELECT count(*) AS n FROM institutions WHERE identity_status IN ('verified','pending_verification')")
-        registry_count = cur.fetchone()["n"]
         cur.execute("SELECT id, canonical_name, slug, city, state_code, institution_type, control, identity_status FROM institutions WHERE id = ANY(%s) ORDER BY canonical_name",
                     (list({p["institution_id"] for p in pages if p["institution_id"]}),))
         schools = [dict(r) for r in cur.fetchall()]
@@ -192,6 +222,7 @@ def render_shell(conn: psycopg.Connection, *, out_root: Path = OUT_DEFAULT, envi
     for p in pages:
         by_school.setdefault(p["institution_id"], []).append(p)
     type_label = lambda t: (t or "institution").replace("_", " ").capitalize()
+    guide_row = lambda p: {"href": p["path"], "headline": p["headline"], "deck": p["deck"], "date": _page_date(p), "topic": p["topic_label"], "school": p["school_name"]}
     for s in schools:
         sp = by_school.get(s["id"], [])
         by_topic: dict = {}
@@ -202,33 +233,37 @@ def render_shell(conn: psycopg.Connection, *, out_root: Path = OUT_DEFAULT, envi
         for t in topics:
             n = len(by_topic.get(t["id"], []))
             topic_rows.append({"label": t["label"], "applicability": "applicable" if n else "unknown", "href": f"{school_href}{t['key']}/" if n else "#", "page_count": n})
-        changes = [{"href": p["path"], "headline": p["headline"], "change": p["change_summary"] or "published", "date": p["last_material_update_at"] or p["local_published_at"] or p["version_created_at"]} for p in sp[:5]]
         school = {"name": s["canonical_name"], "city": s["city"], "state": s["state_code"], "type_label": type_label(s["institution_type"]), "control": (s["control"] or "").replace("_", " "),
-                  "identity_status": s["identity_status"], "identity_note": "" if s["identity_status"] == "verified" else "Identity pending verification against the NCES institution registry.",
-                  "coverage_note": f"{len(sp)} published guide{'s' if len(sp) != 1 else ''}", "coverage_status": "pilot" if sp else "onboarding",
-                  "topics": topic_rows, "guides": [{"topic": p["topic_label"], "href": p["path"], "headline": p["headline"], "deck": p["deck"]} for p in sp], "tools": [], "changes": changes,
+                  "identity_status": s["identity_status"], "coverage_note": f"{len(sp)} published guide{'s' if len(sp) != 1 else ''}", "coverage_status": "pilot" if sp else "onboarding",
+                  "topics": [r for r in topic_rows if r["page_count"]], "guides": [guide_row(p) for p in sp], "tools": [],
                   "topics_applicable": [t["label"].lower() for t in topic_rows if t["page_count"]]}
         emit(f"schools/{s['slug']}/index.html", "school_hub.html", _shell_ctx(school_href, "school_hub", "/schools/", school=school, **kw))
         for t in topics:
             tp = by_topic.get(t["id"], [])
             if not tp:
                 continue
-            topic = {"label": t["label"], "description": t["description"] or f"{t['label']} at {s['canonical_name']}: verified facts from official pages, with the date we checked.", "applicability": "applicable",
-                     "key_fact_label": None, "profiles": [{"name": p["headline"], "href": p["path"], "key_fact": "", "verified_at": p["local_published_at"] or p["version_created_at"]} for p in tp if p["page_format"] in ("entity_profile", "profile")],
-                     "guides": [{"href": p["path"], "headline": p["headline"], "deck": p["deck"]} for p in tp if p["page_format"] not in ("entity_profile", "profile")], "tools": [], "unknowns": [], "empty_note": ""}
+            topic = {"label": t["label"], "description": t["description"] or f"{t['label']} at {s['canonical_name']}: practical guides built from the school's official pages, with the date we checked.", "applicability": "applicable",
+                     "profiles": [{"name": p["headline"], "href": p["path"], "verified_at": _page_date(p)} for p in tp if p["page_format"] in ("entity_profile", "profile")],
+                     "guides": [guide_row(p) for p in tp if p["page_format"] not in ("entity_profile", "profile")], "tools": [], "empty_note": ""}
             emit(f"schools/{s['slug']}/{t['key']}/index.html", "topic_hub.html", _shell_ctx(f"{school_href}{t['key']}/", "topic_hub", f"/topics/{t['key']}/", school={"name": s["canonical_name"], "href": school_href}, topic=topic, **kw))
     school_cards = [{"name": s["canonical_name"], "href": f"/schools/{s['slug']}/", "city": s["city"], "state": s["state_code"], "type_label": type_label(s["institution_type"]), "pages": len(by_school.get(s["id"], []))} for s in schools]
-    emit("schools/index.html", "schools_index.html", _shell_ctx("/schools/", "schools_index", "/schools/", registry_count=registry_count, release="NCES HD2024", schools=school_cards, **kw))
+    emit("schools/index.html", "schools_index.html", _shell_ctx("/schools/", "schools_index", "/schools/", schools=school_cards, **kw))
+    for t in tiles:
+        if not t["pages"]:
+            continue
+        grouped: dict = {}
+        for p in t["pages"]:
+            grouped.setdefault(p["institution_id"], {"name": p["school_name"], "href": f"/schools/{p['school_slug']}/", "guides": []})["guides"].append(guide_row(p))
+        emit(f"topics/{t['slug']}/index.html", "topic_index.html", _shell_ctx(f"/topics/{t['slug']}/", "topic_index", t["href"], topic={"label": t["label"], "blurb": t["blurb"], "schools": list(grouped.values())}, **kw))
     lead = None
-    supporting = []
     if pages:
         p = pages[0]
-        lead = {"section": f"{p['topic_label']} · {p['school_name']}", "section_href": _hub_for(p["path"])[0], "href": p["path"], "headline": p["headline"], "deck": p["deck"], "byline": p["byline"],
-                "updated": p["last_material_update_at"] or p["local_published_at"] or p["version_created_at"]}
-        supporting = [{"section": q["topic_label"], "href": q["path"], "headline": q["headline"], "deck": q["deck"]} for q in pages[1:4]]
-    updates = [{"href": p["path"], "headline": p["headline"], "change": p["change_summary"] or "published", "date": p["last_material_update_at"] or p["local_published_at"] or p["version_created_at"]} for p in pages[:5]]
-    emit("index.html", "home.html", _shell_ctx("/", "home", "/", lead=lead, supporting=supporting, coverage={"schools_with_coverage": len(schools), "registry_count": registry_count}, tools=[],
-                                              schools=[{"name": c["name"], "href": c["href"], "pages": c["pages"]} for c in school_cards], updates=updates, **kw))
+        lead = {"section": f"{p['topic_label']} · {p['school_name']}", "section_href": _hub_for(p["path"])[0], "href": p["path"], "headline": p["headline"], "deck": p["deck"], "updated": _page_date(p)}
+    guides = [guide_row(p) for p in pages]
+    topic_grid = [{k: t[k] for k in ("label", "blurb", "count", "href")} for t in tiles]
+    emit("index.html", "home.html", _shell_ctx("/", "home", "/", lead=lead, guides=guides, topic_grid=topic_grid, tools=[],
+                                              schools=[{"name": c["name"], "href": c["href"], "pages": c["pages"]} for c in school_cards], **kw))
+    emit("search/index.html", "search.html", _shell_ctx("/search/", "search", "/", query="", results=[{"kind": p["topic_label"], "school": p["school_name"], "title": p["headline"], "summary": p["deck"] or "", "href": p["path"]} for p in pages], **kw))
     for key in ("methods", "corrections", "privacy", "independence"):
         md_path = POLICY_DIR / f"{key}.md"
         if not md_path.exists():

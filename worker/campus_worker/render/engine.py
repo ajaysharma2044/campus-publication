@@ -103,23 +103,20 @@ def site_defaults(*, publication_name: str = "Footnote Daily", environment: str 
             "working_title": False,  # brand decided 2026-11-06: "Footnote Daily"; True re-adds the working-masthead note
             "environment": environment,
             "base_url": base_url,
-            "staging_banner": environment != "production",
+            "staging_banner": False,  # owner decision 2026-11-06 (reader-first): no banner on the hosted preview; non-production builds stay noindex
             "ads_loader_tag": ads_loader_tag,
             "analytics_tag": analytics_tag,
             "consent_required": consent_required,
             "nav": [
                 {"label": "Schools", "href": "/schools/"},
                 {"label": "Housing", "href": "/topics/housing/"},
-                {"label": "Costs & aid", "href": "/topics/costs-aid/"},
                 {"label": "Transfer", "href": "/topics/transfer/"},
-                {"label": "Tools", "href": "/tools/"},
-                {"label": "Methods", "href": "/about/methods/"},
-            ],
+            ],  # the site renderer replaces this with the topics that have guides (empty sections are hidden)
             "footer_links": [
-                {"label": "Editorial methods & automation", "href": "/about/methods/"},
+                {"label": "How we verify", "href": "/about/methods/"},
                 {"label": "Corrections", "href": "/about/corrections/"},
                 {"label": "Privacy", "href": "/about/privacy/"},
-                {"label": "Sponsorship & independence", "href": "/about/independence/"},
+                {"label": "Independence", "href": "/about/independence/"},
             ],
         }
     }

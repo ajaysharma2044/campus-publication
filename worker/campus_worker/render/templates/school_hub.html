@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block title %}{{ school.name }} guides and verified facts — {{ site.name }}{% endblock %}
-{% block meta %}<meta name="description" content="Verified, sourced coverage of {{ school.name }}: {{ school.topics_applicable|join(', ') }}.">{% endblock %}
+{% block title %}{{ school.name }} guides — {{ site.name }}{% endblock %}
+{% block meta %}<meta name="description" content="Practical, sourced guides to {{ school.name }}: {{ school.topics_applicable|join(', ') }}.">{% endblock %}
 {% block content %}
 <div class="container">
 <article class="article">
@@ -10,29 +10,26 @@
   <dl class="dl-facts" style="margin:var(--s-3) 0 0">
     <dt>Location</dt><dd>{{ school.city }}, {{ school.state }}</dd>
     <dt>Type</dt><dd>{{ school.type_label }}{% if school.control %} · {{ school.control }}{% endif %}</dd>
-    <dt>Identity</dt><dd>{{ school.identity_note }}</dd>
-    <dt>Coverage</dt><dd>{{ school.coverage_note }}</dd>
+    <dt>Guides</dt><dd>{{ school.coverage_note }}</dd>
   </dl>
   </div>{% if school.image %}<figure class="hub-head__media"><img src="{{ school.image.src }}" alt="{{ school.image.alt }}" width="1600" height="1000"><figcaption class="figure-credit">{{ school.image.credit }}</figcaption></figure>{% endif %}</div>
-  {% if school.identity_status != 'verified' %}<div class="notice notice--unknown">Institution identity is <b>{{ school.identity_status|replace('_',' ') }}</b>. Pages for this school are not published until the registry record is verified against the current IPEDS release.</div>{% endif %}
+  {% if school.identity_status != 'verified' %}<div class="notice notice--unknown">We have not finished confirming this school's record, so its guides are held until we do.</div>{% endif %}
   <div class="grid">
     <section class="col-12 col-lg-8">
       <h2 class="section-head">Start with your task</h2>
       <ul class="entry-points">
       {% for t in school.topics %}
-        {% if t.applicability == 'applicable' %}<li><a href="{{ t.href }}">{{ t.label }}</a><span class="state">{{ t.page_count }} verified page(s)</span></li>
+        {% if t.applicability == 'applicable' %}<li><a href="{{ t.href }}">{{ t.label }}</a><span class="state">{{ t.page_count }} guide{{ "" if t.page_count == 1 else "s" }}</span></li>
         {% elif t.applicability == 'not_applicable' %}<li><span>{{ t.label }}</span><span class="state">not applicable at this school</span></li>{% endif %}
       {% endfor %}
       </ul>
-      {% if school.guides %}<h2 class="section-head">Current guides</h2><ul class="story-list">{% for g in school.guides %}<li><p class="eyebrow">{{ g.topic }}</p><h3><a href="{{ g.href }}">{{ g.headline }}</a></h3><p>{{ g.deck }}</p></li>{% endfor %}</ul>
-      {% else %}<div class="empty"><h2>No published guides yet</h2><p class="coverage-note">This school is in the registry and {{ school.coverage_status|replace('_',' ') }}. We publish a page only when its facts are verified against primary sources.</p></div>{% endif %}
+      {% if school.guides %}<h2 class="section-head">Guides</h2><ul class="story-list">{% for g in school.guides %}<li><p class="eyebrow">{{ g.topic }}{% if g.date %} · {{ g.date|datefmt }}{% endif %}</p><h3><a href="{{ g.href }}">{{ g.headline }}</a></h3><p>{{ g.deck }}</p></li>{% endfor %}</ul>
+      {% else %}<div class="empty"><h2>No guides yet</h2><p class="coverage-note">We publish a page for a school only once its facts are checked against the school's own pages.</p></div>{% endif %}
     </section>
-    <aside class="col-12 col-lg-4">
+    {% if school.tools %}<aside class="col-12 col-lg-4">
       <h2 class="section-head" style="margin-top:0">Compare and calculate</h2>
-      <ul class="entry-points">{% for t in school.tools %}<li><a href="{{ t.href }}">{{ t.label }}</a><span class="state">{{ t.state }}</span></li>{% else %}<li><span class="coverage-note">Tools appear once at least two buildings or programs have verified records.</span></li>{% endfor %}</ul>
-      <h2 class="section-head">Recent material changes</h2>
-      {% if school.changes %}<ul class="story-list">{% for c in school.changes %}<li><h3 style="font-size:1rem"><a href="{{ c.href }}">{{ c.headline }}</a></h3><p>{{ c.change }} · {{ c.date|datefmt }}</p></li>{% endfor %}</ul>{% else %}<p class="coverage-note">None recorded.</p>{% endif %}
-    </aside>
+      <ul class="entry-points">{% for t in school.tools %}<li><a href="{{ t.href }}">{{ t.label }}</a><span class="state">{{ t.state }}</span></li>{% endfor %}</ul>
+    </aside>{% endif %}
   </div>
 </article>
 </div>

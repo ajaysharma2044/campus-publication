@@ -23,6 +23,7 @@ TIER2_MIN_CLAIMS_LEAN = 4
 BEAT_REVIEW_EVERY = 10
 STRONG_INCUMBENT_AGI = 1           # AGI 0 or 1: a dedicated, current, sourced page already answers it
 SWEEP_INTEL_CAP_LEAN = 5000
+MAX_VERIFIER_ROUNDS = 3           # owner decision 2026-11-06 (reader-first, efficiency): after 3 verifier rounds, cut the unverifiable claim and publish, or skip the page
 
 
 def enabled() -> bool:
@@ -47,9 +48,21 @@ def verified_claims_in_scope(conn: psycopg.Connection, *, institution_id: UUID |
         return int(cur.fetchone()["n"])
 
 
+# owner decision 2026-11-06 (reader-first, topic choice): practical, high-traffic questions first; a lower rank wins the queue before niche_score
+PRACTICAL_TOPIC_RANK = {"costs_aid": 0, "parents_billing": 0, "admissions": 1, "housing": 1, "daily_life": 2, "dining": 2, "transportation": 3, "town_transit_local": 3,
+                        "town_transit_intercity": 3, "town_offcampus_housing": 3, "parents_calendar": 4, "parents_prep": 4, "parents_logistics": 4, "parents_visitors": 4, "transfer": 4,
+                        "courses": 5, "programs": 5, "services": 6, "health_wellbeing": 6, "accessibility": 6}
+PRACTICAL_TOPIC_DEFAULT_RANK = 9
+
+
+def topic_rank(topic_key: str | None) -> int:
+    return PRACTICAL_TOPIC_RANK.get(topic_key or "", PRACTICAL_TOPIC_DEFAULT_RANK)
+
+
 def production_queue(conn: psycopg.Connection, *, limit: int = 20) -> list[dict]:
-    """Lean production order: every observed, non-navigational cluster without a strong incumbent, best niche_score first, that has a
-    verified fact in scope. in_production/done clusters are excluded; D only orders."""
+    """Lean production order: every observed, non-navigational cluster without a strong incumbent that has a verified fact in scope,
+    practical topics first (costs, deadlines, housing, dining, transit, parents: owner decision 2026-11-06), then best niche_score.
+    in_production/done clusters are excluded; D only orders."""
     with conn.cursor() as cur:
         cur.execute("""SELECT c.id AS cluster_id, c.label, c.best_variant, c.d_score AS d, c.agi, c.g_est AS g, c.e_est AS e, c.niche_score, c.capture_format,
                               c.queue_state, c.institution_id, c.place_id, c.topic_id, t.key AS topic_key
@@ -57,6 +70,7 @@ def production_queue(conn: psycopg.Connection, *, limit: int = 20) -> list[dict]
                        WHERE c.last_intel_at IS NOT NULL AND c.queue_state IN ('sweet_spot','watch','reject') AND c.agi IS NOT NULL AND c.agi > %s
                        ORDER BY c.niche_score DESC NULLS LAST, c.agi DESC, c.d_score DESC NULLS LAST, c.updated_at LIMIT %s""", (STRONG_INCUMBENT_AGI, limit * 5))
         rows = [dict(r) for r in cur.fetchall()]
+    rows.sort(key=lambda r: (topic_rank(r.get("topic_key")), -(r.get("niche_score") or 0)))
     out = []
     for r in rows:
         # an entity cluster enters the queue without facts: the pipeline researches the entity's own official page first (ensure_research);
@@ -149,3 +163,29 @@ def unservable_intent_stripped(query: str) -> str:
     import re
     words = [w for w in re.findall(r"\S+", query or "") if w.lower().strip("?.,!") not in UNSERVABLE_INTENT]
     return " ".join(words).strip() or (query or "")
+
+
+def verifier_rounds(conn, page_id) -> int:
+    """How many verifier dispatches this page has consumed across all of its versions (one per saved verifier reply)."""
+    import json as _json
+    from .pipeline import RUNS_DIR
+    with conn.cursor() as cur:
+        cur.execute("SELECT id FROM page_versions WHERE page_id=%s", (page_id,))
+        vids = {str(r["id"]) for r in cur.fetchall()}
+    n = 0
+    for f in (RUNS_DIR / "agent-output").glob("*-verifier-*.json"):
+        try:
+            doc = _json.loads(f.read_text()).get("doc") or {}
+        except (ValueError, OSError):
+            continue
+        if set(doc.get("input_ids") or []) & vids:
+            n += 1
+    return n
+
+
+def last_verified_rubric(conn, page_id) -> dict | None:
+    """The most recent verifier rubric recorded on any passed version of this page (carried when no further verifier round is spent)."""
+    with conn.cursor() as cur:
+        cur.execute("SELECT rubric FROM page_versions WHERE page_id=%s AND rubric IS NOT NULL AND gate_status='passed' ORDER BY version_no DESC LIMIT 1", (page_id,))
+        row = cur.fetchone()
+    return dict(row["rubric"]) if row and row["rubric"] else None

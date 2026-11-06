@@ -28,7 +28,7 @@
 </main>
 <footer class="site-footer"><div class="container">
   <p class="wordmark">{{ site.name }}</p>
-  <p class="disclosure"><b>{{ site.name }}</b> is an independent publication and is not affiliated with any college or university. Pages are produced by an automated research and writing system with deterministic fact checks and a model-based verification pass; where a human reviewed a page, the correction history says so. Facts carry the date we last verified them and the source we used.</p>
+  <p class="disclosure"><b>{{ site.name }}</b> is an independent publication and is not affiliated with any college or university. Every fact links to the official page it came from and shows the date we last checked it. The school's own office decides your case.</p>
   <ul>{% for l in site.footer_links %}<li><a href="{{ l.href }}">{{ l.label }}</a></li>{% endfor %}</ul>
 </div></footer>
 {% if site.consent_required and site.ads_loader_tag %}{% include "partials/consent.html" %}{% endif %}

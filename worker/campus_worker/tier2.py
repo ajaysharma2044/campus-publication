@@ -129,7 +129,7 @@ def build_profile(conn: psycopg.Connection, entity_id: UUID, *, intro_md: str, t
     topic_slug = e["topic_key"].replace("_", "-")  # URL policy: lowercase, hyphenated (R45)
     path = f"{scope}/{topic_slug}/{e['slug']}/"
     headline = headline or f"{e['name']}: verified facts"
-    body = f"{intro_md.strip()}\n\n## Facts\n\n[[fact-table]]\n\n## Tradeoffs\n\n{tradeoffs_md.strip()}\n\n## What we could not verify\n\nAnything not in the table above has no verified source yet. Unknown is a value, not a no.\n"
+    body = f"{intro_md.strip()}\n\n## Facts\n\n[[fact-table]]\n\n## Tradeoffs\n\n{tradeoffs_md.strip()}\n\n## Not confirmed\n\n- Anything not in the table above: the official pages do not state it, so ask the school's office before relying on it.\n"
     with conn.cursor() as cur:
         cur.execute("""INSERT INTO pages (institution_id, campus_id, topic_id, entity_id, page_format, slug, path, audience, status, tier, place_id, primary_query)
                        VALUES (%s,%s,%s,%s,'entity_profile',%s,%s,NULL,'drafting',2,%s,%s)

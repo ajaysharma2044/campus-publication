@@ -318,3 +318,23 @@ a.card:hover .card__title { color: var(--navy); }
   body { font-size: 11pt; background: #fff; } a { color: inherit; text-decoration: none; }
   .sources a::after { content: " (" attr(href) ")"; font-size: 9pt; color: #555; }
 }
+
+/* ---------- home: latest guides list & topic grid (reader-first, 2026-11-06) ---------- */
+.guide-list { list-style: none; margin: 0; padding: 0; font-family: var(--font-sans); max-width: var(--measure); }
+.guide-list li { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-1) var(--s-5); padding: var(--s-3) 0; border-bottom: 1px solid var(--rule); min-width: 0; }
+.guide-list__date { font-size: var(--fs-meta); color: var(--ink-3); font-variant-numeric: tabular-nums; white-space: nowrap; padding-top: 0.2em; }
+.guide-list__body { display: grid; gap: 2px; min-width: 0; }
+.guide-list__body a { font-weight: 700; font-size: 1.05rem; color: var(--ink); text-decoration: none; }
+.guide-list__body a:hover { color: var(--navy); }
+.guide-list__meta { font-size: var(--fs-small); color: var(--ink-2); }
+@media (min-width: 600px) { .guide-list li { grid-template-columns: 10rem minmax(0, 1fr); } }
+.topic-grid { display: grid; gap: var(--s-4); grid-template-columns: repeat(2, minmax(0, 1fr)); font-family: var(--font-sans); }
+@media (min-width: 768px) { .topic-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s-5); } }
+.topic-tile { display: grid; gap: var(--s-1); align-content: start; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius-lg); padding: var(--s-4); text-decoration: none; color: inherit; min-width: 0; transition: box-shadow .15s ease, border-color .15s ease; }
+a.topic-tile:hover { box-shadow: var(--shadow); border-color: var(--rule-strong); }
+a.topic-tile:hover .topic-tile__label { color: var(--navy); }
+.topic-tile__label { font-weight: 700; font-size: 1.15rem; color: var(--ink); overflow-wrap: anywhere; }
+.topic-tile__blurb { font-size: var(--fs-small); color: var(--ink-2); }
+.topic-tile .state { font-size: var(--fs-meta); color: var(--ink-3); }
+.topic-tile--empty { background: transparent; border-style: dashed; }
+.topic-tile--empty .topic-tile__label { color: var(--ink-3); }

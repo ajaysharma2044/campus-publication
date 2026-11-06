@@ -13,3 +13,7 @@ Flag, then cut or rewrite, every instance. None of these adds a fact, and each o
 - Questions the page then answers itself ("Wondering about the deposit? Here's the deal.") unless the question is a real observed search query used as a heading.
 Keep: plain declaratives with the fact, the basis (per person, per semester), the academic year, and the source. The deterministic list in `worker/campus_worker/editorial/checks.py` (`FILLER_PHRASES`) catches the exact phrases; the editor catches the patterns.
 
+
+
+## Reader-first (owner decision 2026-11-06)
+Move every 'not stated / we could not verify' sentence out of the body into one 'Not confirmed' note at the end (max 3 bullets); make the first paragraph the practical answer; keep the upperclassman voice; write dates as 'November 6, 2026'.

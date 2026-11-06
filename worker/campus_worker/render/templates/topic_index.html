@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{ topic.label }} guides — {{ site.name }}{% endblock %}
+{% block meta %}<meta name="description" content="{{ topic.blurb }}">{% endblock %}
+{% block content %}
+<div class="container"><article class="article">
+  <p class="eyebrow"><a href="/">Topics</a></p>
+  <h1>{{ topic.label }}</h1>
+  <p class="deck measure">{{ topic.blurb }}</p>
+  {% for s in topic.schools %}
+  <h2 class="section-head"><a href="{{ s.href }}">{{ s.name }}</a></h2>
+  <ul class="story-list">{% for g in s.guides %}<li><p class="eyebrow">{{ g.date|datefmt }}</p><h3><a href="{{ g.href }}">{{ g.headline }}</a></h3><p>{{ g.deck }}</p></li>{% endfor %}</ul>
+  {% endfor %}
+</article></div>
+{% endblock %}

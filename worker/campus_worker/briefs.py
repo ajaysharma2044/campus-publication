@@ -102,7 +102,7 @@ def build_entity_profile_brief(conn: psycopg.Connection, *, entity_id: UUID, aud
         {"heading": "What the room rate includes", "purpose": "billing period, per-person vs per-unit, what is excluded", "claim_ids": [str(c["id"]) for c in critical if c["field"].startswith("rate.")]},
         {"heading": "Building facts", "purpose": "fact table rendered from shared claims; unknowns shown as unknown", "claim_ids": [str(c["id"]) for c in supporting]},
         {"heading": "Tradeoffs", "purpose": "what this building optimises for versus comparable options, grounded in claims only"},
-        {"heading": "What we could not verify", "purpose": "explicit list of unknowns and how to confirm with the institution"},
+        {"heading": "Not confirmed", "purpose": "one short note at the very end (max 3 bullets): what the official pages do not state that a reader would want, and who to ask"},
         {"heading": "Next steps", "purpose": "compare, calculate total cost, check eligibility"},
     ]
     return Brief(

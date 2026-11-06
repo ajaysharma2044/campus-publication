@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block title %}{{ site.name }} — independent college decisions, sourced{% endblock %}
-{% block meta %}<meta name="description" content="Sourced guides, verified fact tables and calculators for college housing, costs, transfer and admissions decisions.">{% endblock %}
+{% block title %}{{ site.name }} — practical college guides, checked against official pages{% endblock %}
+{% block meta %}<meta name="description" content="Practical guides to college housing, costs, transfer, dining and getting around, built from each school's official pages and dated when we checked them.">{% endblock %}
 {% block content %}
 <div class="home">
 <section class="hero"><div class="container">
@@ -11,60 +11,41 @@
       <p class="eyebrow"><a href="{{ lead.section_href }}">{{ lead.section }}</a></p>
       <h2><a href="{{ lead.href }}">{{ lead.headline }}</a></h2>
       <p class="deck">{{ lead.deck }}</p>
-      <p class="meta">{{ lead.byline }} · Verified {{ lead.updated|datefmt }}{% if lead.image and lead.image.credit %} · Image: {{ lead.image.credit }}{% endif %}</p>
+      <p class="meta"><time datetime="{{ lead.updated|isodate }}">{{ lead.updated|datefmt }}</time></p>
       <a class="btn" href="{{ lead.href }}">Read the guide</a>
     </div>
   </div>
   {% else %}
-  <div class="typographic-cover"><p class="big">Nothing published yet.</p><p class="small">The first verified guides appear here when they pass review. No placeholder stories are shown.</p></div>
+  <div class="typographic-cover"><p class="big">Guides are on the way.</p><p class="small">The first ones appear here as soon as they are checked.</p></div>
   {% endif %}
-</div></section>
-
-<section class="band band--search" aria-labelledby="search-head"><div class="container">
-  <h2 id="search-head" class="section-title">Start with your school</h2>
-  <form class="search-form search-form--big" action="/search/" method="get" role="search"><label class="visually-hidden" for="q">Search schools and topics</label><input id="q" type="search" name="q" placeholder="School, building, program…"><button class="btn" type="submit">Search</button></form>
-  <p class="coverage-note">{{ coverage.schools_with_coverage }} school{{ "" if coverage.schools_with_coverage == 1 else "s" }} with verified pages, {{ coverage.registry_count }} institutions in the registry. Coverage is school-specific and labeled.</p>
 </div></section>
 
 <div class="container">
-  {% if supporting %}
-  <section class="home-section" aria-labelledby="recent-head">
-    <h2 id="recent-head" class="section-title">Also verified recently</h2>
-    <div class="card-grid card-grid--3">
-      {% for s in supporting %}<article class="card">{% if s.image %}<a href="{{ s.href }}" tabindex="-1" aria-hidden="true"><img src="{{ s.image.src_small or s.image.src }}" alt="" width="800" height="500" loading="lazy"></a>{% endif %}<div class="card__body"><p class="eyebrow">{{ s.section }}</p><h3><a href="{{ s.href }}">{{ s.headline }}</a></h3><p>{{ s.deck }}</p></div></article>{% endfor %}
-    </div>
+  {% if guides %}
+  <section class="home-section" aria-labelledby="latest-head">
+    <h2 id="latest-head" class="section-title">Latest guides</h2>
+    <ol class="guide-list">{% for g in guides %}<li><span class="guide-list__date"><time datetime="{{ g.date|isodate }}">{{ g.date|datefmt }}</time></span><span class="guide-list__body"><a href="{{ g.href }}">{{ g.headline }}</a><span class="guide-list__meta">{{ g.school }} · {{ g.topic }}</span></span></li>{% endfor %}</ol>
   </section>
   {% endif %}
 
-  <section class="home-section two-up">
-    <div>
-      <h2 class="section-title">Tools</h2>
-      <ul class="entry-points">{% for t in tools %}<li><a href="{{ t.href }}">{{ t.label }}</a><span class="state">{{ t.state }}</span></li>{% endfor %}</ul>
-    </div>
-    <div>
-      <h2 class="section-title">Schools with coverage</h2>
-      {% if schools %}
-      <div class="card-grid">{% for s in schools %}<a class="card" href="{{ s.href }}">{% if s.image %}<img src="{{ s.image.src_small or s.image.src }}" alt="" width="800" height="500" loading="lazy">{% endif %}<span class="card__body"><span class="card__title">{{ s.name }}</span><span class="state">{{ s.pages }} verified page{{ "" if s.pages == 1 else "s" }}</span></span></a>{% endfor %}</div>
-      {% else %}<p class="coverage-note">None yet.</p>{% endif %}
-    </div>
+  <section class="home-section" aria-labelledby="topics-head">
+    <h2 id="topics-head" class="section-title">Browse by topic</h2>
+    <div class="topic-grid">{% for t in topic_grid %}{% if t.href %}<a class="topic-tile" href="{{ t.href }}"><span class="topic-tile__label">{{ t.label }}</span><span class="topic-tile__blurb">{{ t.blurb }}</span><span class="state">{{ t.count }} guide{{ "" if t.count == 1 else "s" }}</span></a>{% else %}<div class="topic-tile topic-tile--empty"><span class="topic-tile__label">{{ t.label }}</span><span class="topic-tile__blurb">{{ t.blurb }}</span><span class="state">Not covered yet</span></div>{% endif %}{% endfor %}</div>
   </section>
+
+  {% if schools %}
+  <section class="home-section" aria-labelledby="schools-head">
+    <h2 id="schools-head" class="section-title">Schools</h2>
+    <div class="card-grid card-grid--3">{% for s in schools %}<a class="card" href="{{ s.href }}">{% if s.image %}<img src="{{ s.image.src_small or s.image.src }}" alt="" width="800" height="500" loading="lazy">{% endif %}<span class="card__body"><span class="card__title">{{ s.name }}</span><span class="state">{{ s.pages }} guide{{ "" if s.pages == 1 else "s" }}</span></span></a>{% endfor %}</div>
+  </section>
+  {% endif %}
+
+  {% if tools %}
+  <section class="home-section" aria-labelledby="tools-head">
+    <h2 id="tools-head" class="section-title">Tools</h2>
+    <ul class="entry-points">{% for t in tools %}<li><a href="{{ t.href }}">{{ t.label }}</a><span class="state">{{ t.state }}</span></li>{% endfor %}</ul>
+  </section>
+  {% endif %}
 </div>
-
-<section class="band band--how" aria-labelledby="how-head" style="margin-top:var(--s-8)"><div class="container">
-  <h2 id="how-head" class="section-title">How this site works</h2>
-  <div class="home-how__cols">
-    <div><h3>Every number carries a date</h3><p>Facts show when we last verified them and the source we used. “Unknown” means no source states it, not that the answer is no.</p></div>
-    <div><h3>Pages are school-specific</h3><p>Coverage is labeled by institution. We do not generalize from one campus to another, and we say when a topic does not apply.</p></div>
-    <div><h3>Tools use the same records</h3><p>The calculator and comparisons are built from the verified fact tables, so a corrected rate updates the guide, the comparison and the total at once.</p></div>
-  </div>
-  <p class="home-how__more"><a href="/about/methods/">How this site is made</a> · <a href="/about/corrections/">Corrections</a></p>
-</div></section>
-
-{% if updates %}
-<div class="container"><section class="home-section" aria-labelledby="updates-head">
-  <h2 id="updates-head" class="section-title">Recent verified updates</h2>
-  <ol class="ledger">{% for u in updates %}<li><span class="ledger__date">{{ u.date|datefmt }}</span><span class="ledger__body"><a href="{{ u.href }}">{{ u.headline }}</a><span class="ledger__change">{{ u.change }}</span></span></li>{% endfor %}</ol>
-</section></div>
-{% endif %}
 </div>
 {% endblock %}

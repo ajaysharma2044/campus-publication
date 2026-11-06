@@ -151,6 +151,9 @@ def collect_html_source(conn: psycopg.Connection, fetcher: SafeFetcher, source_i
         outcome, confidence = "ok", min(1.0, 0.5 + min(len(ex.material_text), 4000) / 8000 + (0.1 if ex.tables else 0))
     retained_text = ex.material_text if retention in ("full_text", "excerpts_only") else None
     retained_tables = ex.tables if retention in ("full_text", "excerpts_only") else None
+    if ex.title:
+        with conn.cursor() as cur:
+            cur.execute("UPDATE source_registry SET title=%s WHERE id=%s", (ex.title[:300], source_id))
     sid = record_snapshot(conn, source_id, final_url=res.final_url, status=res.status, content_type=res.content_type,
                           content_hash=ex.content_hash, raw_hash=hashlib.sha256(res.body).hexdigest(), byte_size=len(res.body),
                           etag=res.etag, last_modified=res.last_modified, confidence=confidence, retained_text=retained_text,
@@ -177,3 +180,31 @@ def register_source(conn: psycopg.Connection, *, canonical_url: str, institution
         sid = cur.fetchone()["id"]
     conn.commit()
     return sid
+
+
+def refresh_titles(conn: psycopg.Connection, fetcher: SafeFetcher, source_ids: list[UUID] | None = None) -> dict:
+    """Fill `source_registry.title` for official HTML sources that have none (backfill for pages fetched before 0006).
+    A plain fetch of the page's <title>: no snapshot is recorded and nothing else changes."""
+    with conn.cursor() as cur:
+        if source_ids:
+            cur.execute("SELECT id, canonical_url FROM source_registry WHERE id = ANY(%s::uuid[]) AND title IS NULL", (source_ids,))
+        else:
+            cur.execute("SELECT id, canonical_url FROM source_registry WHERE title IS NULL AND source_kind LIKE 'official%%' AND health <> 'gone' ORDER BY canonical_url")
+        rows = cur.fetchall()
+    out = {"checked": len(rows), "titled": 0, "failed": []}
+    for r in rows:
+        try:
+            res = fetcher.fetch(r["canonical_url"], expected_types=("text/html", "application/xhtml+xml"), use_conditional=False)
+        except FetchRefused as e:
+            out["failed"].append({"url": r["canonical_url"], "reason": e.reason})
+            continue
+        if res.status >= 400 or not res.body:
+            out["failed"].append({"url": r["canonical_url"], "reason": f"HTTP {res.status}"})
+            continue
+        title = extract_material(res.body).title
+        if title:
+            with conn.cursor() as cur:
+                cur.execute("UPDATE source_registry SET title=%s WHERE id=%s", (title[:300], r["id"]))
+            conn.commit()
+            out["titled"] += 1
+    return out
