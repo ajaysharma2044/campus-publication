@@ -165,7 +165,16 @@ def score_all(conn: psycopg.Connection, *, institution_id: UUID | None = None, p
         else:
             cur.execute("SELECT id FROM intent_clusters")
         ids = [r["id"] for r in cur.fetchall()]
-    return [score_cluster(conn, cid) for cid in ids]
+    # each cluster commits on its own, so a dropped connection mid-sweep loses nothing: reconnect and retry that cluster once
+    from .db import ensure_conn
+    out: list[ClusterScore] = []
+    for cid in ids:
+        try:
+            out.append(score_cluster(conn, cid))
+        except psycopg.OperationalError:
+            conn = ensure_conn(conn)
+            out.append(score_cluster(conn, cid))
+    return out
 
 
 def queue(conn: psycopg.Connection, *, limit: int = 50, institution_id: UUID | None = None, place_id: UUID | None = None) -> list[dict]:

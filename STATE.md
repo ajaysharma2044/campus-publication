@@ -167,3 +167,10 @@ OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + app
 ### Iteration 2 (run 20261106T140001Z, sweep) — checks fix
 - First full pytest stopped at `test_run_loop.py::test_usage_limit_exits_20_with_no_retry_inside_60s` (116s inside the full suite; 2.9s alone). The run-end digest was the only non-stub step, so `run.sh` now skips it when `CAMPUS_RUN_NO_DIGEST` is set and the run-loop tests set it (they no longer touch the DB or write digests). Root cause of the 116s was not independently proven. Re-run: 225 passed.
 - `scripts/doctor.sh`: 0 required failures, 1 warning (took over 5 minutes this run; worth a look). No discovery work this iteration.
+
+### Iteration 3 (run 20261106T140001Z, sweep) — first live `run-intel`, scoring fix
+- Checks: pytest passed, doctor 0 required failures (warning: living.cornell.edu).
+- `sweep run-intel --batch 25` (first live run): the dispatch and ingest worked (`need_intel` 99 -> 74), then `run_score` died with `psycopg.OperationalError: server closed the connection unexpectedly`. A separate `sweep score` hit the same error. Cause of the drops not established (Postgres log not readable from the headless allowlist).
+- Fix: `sweetspot.score_all` now reconnects (`ensure_conn`) and retries the failing cluster once; each cluster already commits on its own. Test `test_score_all_reconnects_once_when_the_connection_drops` added; full suite passed after the change.
+- Open: full scoring of 1,230 clusters takes over 20 minutes on the hosted DB (a `sweep score` run was stopped at the background time limit; per-cluster work is persisted). Likely per-cluster query cost (`demand_points`, `e_estimate`, `latest_intel`); worth batching or scoring only changed clusters. Status after the partial runs: need_intel 74, sweet_spot 1, reject 15, undecided 93; sweep not complete.
+- Next sweep iteration: `sweep next`, then `sweep run-intel --batch 25` (74 clusters left, 3 batches). Consider making `run_intel` score only the clusters in its batch.

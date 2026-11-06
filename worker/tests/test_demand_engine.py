@@ -559,3 +559,24 @@ def test_sweep_decides_single_occurrence_clusters_watch_so_the_map_can_complete(
     assert rows[strong]["queue_state"] in ("candidate", "needs_intel")
     st = sweep.status(clean_conn)
     assert st["waiting_second_occurrence"] == 0 and st["undecided"] == 1
+
+
+def test_score_all_reconnects_once_when_the_connection_drops(clean_conn, monkeypatch):
+    import psycopg
+    from campus_worker import db
+    inst, campus, topics = make_school(clean_conn)
+    _cluster(clean_conn, inst, campus, topics, "fixture hall review", observed=2)
+    _cluster(clean_conn, inst, campus, topics, "riverside hall cost", observed=2)
+    real, calls = sweetspot.score_cluster, {"n": 0}
+
+    def flaky(conn, cid, **kw):
+        calls["n"] += 1
+        if calls["n"] == 2:
+            raise psycopg.OperationalError("server closed the connection unexpectedly")
+        return real(conn, cid, **kw)
+    monkeypatch.setattr(sweetspot, "score_cluster", flaky)
+    monkeypatch.setattr(db, "ensure_conn", lambda c, *a, **k: c)
+    with clean_conn.cursor() as cur:
+        cur.execute("SELECT count(*) AS n FROM intent_clusters")
+        n = cur.fetchone()["n"]
+    assert len(sweetspot.score_all(clean_conn)) == n and calls["n"] == n + 1
