@@ -92,6 +92,7 @@ Implementation: `CAMPUS_LEAN_MODE` (default on) in `config.py`; `funnel.qualify`
 - The loop's own iterations fixed two test flakes under load (`CAMPUS_RUN_NO_DIGEST` for the run-loop tests; a connection fixture that tolerates a test-closed connection) and committed them with tests.
 
 - Run 20261106T201209Z iteration 4 (discovery lane): `sweep run-intel --batch 10` observed 10 deferred clusters (2 navigational, 8 watch, 0 sweet-spot); about 1,077 remain deferred.
+- Run 20261106T205632Z iteration 6 (discovery lane): checks green (pytest all pass, doctor 0 required failures); `sweep run-intel --batch 10` observed 10 clusters (4 reject, 4 watch, 2 navigational, 0 sweet-spot); about 1,026 remain needing intel.
 
 ### Assumptions (session 3)
 - `living.cornell.edu` resolves (to a static-web load balancer) but never answers on 80 or 443; treated as a retired alias of `scl.cornell.edu` and reported as WARN, not a required failure. The housing source of record is `scl.cornell.edu`.
