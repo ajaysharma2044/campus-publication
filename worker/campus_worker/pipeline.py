@@ -644,8 +644,9 @@ def render_build(conn, version_ids: list[UUID], *, settings, out_root: Path, env
     return html_by_path
 
 
-def qa_overflow(out_root: Path) -> tuple[list[int], int]:
-    """scripts/qa_screens.js over the build: (widths with overflow, widths checked). Without node nothing is checked."""
+def qa_overflow(out_root: Path, page_path: str | None = None) -> tuple[list[int], int]:
+    """scripts/qa_screens.js over the build: (widths where THIS page overflows, widths checked). Without node nothing is checked.
+    Problems on other pages of the same build (a hub, a policy page) are not this page's gate failure."""
     node = shutil.which("node")
     if not node:
         return [], 0
@@ -653,7 +654,8 @@ def qa_overflow(out_root: Path) -> tuple[list[int], int]:
     r = subprocess.run([node, str(REPO_ROOT / "scripts" / "qa_screens.js"), str(out_root), str(qa_dir)], capture_output=True, text=True, timeout=900, cwd=str(REPO_ROOT))
     text = r.stdout + r.stderr
     # qa_screens.js prints "pages×widths: N; problems: M" and one " - <url> @<width>: overflow=<bool> ..." line per problem
-    widths = sorted({int(w) for w in re.findall(r"@(\d{3,4}): overflow=true", text)})
+    want = (page_path.rstrip("/") + "/index.html") if page_path else None
+    widths = sorted({int(w) for url, w in re.findall(r"- (\S+) @(\d{3,4}): overflow=true", text) if not want or url.rstrip("/") in (want, page_path.rstrip("/"))})
     m = re.search(r"pages.widths: (\d+); problems: (\d+)", text)
     checked = 5 if m and int(m.group(1)) > 0 else 0
     if r.returncode != 0 and not m:
@@ -672,7 +674,7 @@ def stage_seo(conn, cluster_id: UUID | None, *, version_id: UUID, settings, win_
         html_by_path = render_build(conn, [version_id] + [v for v in sibling_version_ids if v != version_id], settings=settings, out_root=tmp, environment=environment)
         html = html_by_path[page["path"]]
         css_bytes = (tmp / "static" / "campus.css").stat().st_size if (tmp / "static" / "campus.css").exists() else 0
-        overflow, checked = qa_overflow(tmp) if run_qa else ([], 5)
+        overflow, checked = qa_overflow(tmp, page["path"]) if run_qa else ([], 5)
         conn = _db(conn)  # the render + screenshot QA can take minutes; the hosted DB may have dropped the connection meanwhile
         backlinks = seo_gate.count_backlinks(html_by_path, page["path"])
         hubs = seo_gate._hubs_for(page["path"])
