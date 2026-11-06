@@ -46,8 +46,11 @@ def role_schema_name(role: str) -> str:
 def _errors(validator: Draft202012Validator, doc, prefix: str) -> list[str]:
     out = []
     for e in sorted(validator.iter_errors(doc), key=lambda e: list(e.path)):
-        path = "/".join(str(p) for p in e.path) or "<root>"
-        out.append(f"schema:{prefix}{path}: {e.message[:200]}")
+        # a oneOf/anyOf failure at a high level hides the real defect; report the deepest best-matching sub-error instead
+        deep = best_match([e]) if e.context else e
+        path = "/".join(str(p) for p in deep.absolute_path) or "<root>"
+        msg = deep.message if deep.validator in ("maximum", "minimum", "required", "enum", "type", "maxLength", "minLength", "maxItems", "additionalProperties", "pattern", "minItems") else deep.message[:200]
+        out.append(f"schema:{prefix}{path}: {msg[:300]}")
     return out
 
 

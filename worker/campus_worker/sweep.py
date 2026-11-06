@@ -242,7 +242,14 @@ def run_intel(conn: psycopg.Connection, *, batch: int, run_id: str | None = None
     res = search_intel.run_batch(conn, [UUID(str(x["cluster_id"])) for x in picked], settings=settings, run_id=run_id, log_path=log_path, **kw)
     from .db import ensure_conn
     conn = ensure_conn(conn)  # run_batch may have outlived the caller's connection
-    scored = run_score(conn, run_id=run_id)
+    # score the batch's clusters only (scoring all 1,200+ against a hosted DB took 20+ minutes per batch); `sweep score` still scores everything
+    auto = discovery.auto_create_topics(conn, run_id=run_id)
+    by: dict = {}
+    for x in picked:
+        cs = sweetspot.score_cluster(conn, UUID(str(x["cluster_id"])))
+        by[cs.decision] = by.get(cs.decision, 0) + 1
+    defer_beyond_cap(conn)
+    scored = {"scored": len(picked), "by_decision": by, "auto_topics": auto}
     summary = {k: v for k, v in res.items() if k != "results"}
     summary["clusters"] = len(picked)
     summary["by_status"] = {}
