@@ -187,3 +187,14 @@ def test_researcher_field_names_stay_on_the_claim_taxonomy():
     assert pipeline.canonical_field("housing.placement.random_auto_allocation") == "placement.random_auto_allocation"
     assert pipeline.canonical_field("eligibility.exempt_if") == "eligibility.exempt_if" and pipeline.canonical_field("capacity.residents") == "capacity.residents"
     assert is_critical_field(pipeline.canonical_field("housing.cancellation.late_request_fee"))
+
+
+def test_auto_cite_links_text_claims_the_body_states_and_labels_rows_readably():
+    from campus_worker import pipeline
+    claims = [{"id": "c-place", "field": "placement.random_auto_allocation", "value": "Placement is by random auto-allocation based on preferences; students do not rank halls", "value_type": "text", "audience": [], "academic_year": None},
+              {"id": "c-fee", "field": "fee.cancellation_late_request_fee", "value": "$500 per person one time", "value_type": "money", "audience": ["returning_junior_senior"], "academic_year": "2026-27"}]
+    draft = {"body_markdown": "Rooms are assigned by random auto-allocation based on your preferences, and students do not rank halls.\n\nLate requests cost $500.", "fact_table": [], "claim_refs": []}
+    out = pipeline.auto_cite(draft, claims)
+    assert set(out["claim_refs"]) == {"c-place", "c-fee"}
+    row = [r for r in out["fact_table"] if r["claim_id"] == "c-fee"][0]
+    assert row["label"] == "Cancellation late request fee (returning junior senior), 2026-27" and row["value"] == "$500 per person"

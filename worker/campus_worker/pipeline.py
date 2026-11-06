@@ -761,17 +761,45 @@ def auto_cite(draft: dict, claims: list[dict], *, exclude: set[str] | None = Non
         else:
             continue
         if in_body and not in_table:
-            label = k["field"].split(".")[-1].replace("_", " ")
-            if k.get("audience"):
-                label += " (" + ", ".join(a.replace("_", " ") for a in k["audience"]) + ")"
-            if k.get("academic_year"):
-                label += f", {k['academic_year']}"
-            table.append({"label": label[:80], "value": k["value"], "claim_id": k["id"]})
+            table.append({"label": fact_label(k), "value": k["value"].replace(" one time", "").replace(" per person per_person", " per person"), "claim_id": k["id"]})
             table_text += " " + k["value"]
+    # text claims: linked when the body carries the claim's statement (most of its content words in one paragraph)
+    body_paras = [re.findall(r"[a-z0-9]+", para.lower()) for para in re.split(r"\n\s*\n", body)]
+    stop = {"the", "a", "an", "of", "to", "in", "on", "for", "and", "or", "is", "are", "be", "by", "with", "at", "as", "that", "this", "it", "its", "their", "they", "will", "not", "no", "all", "any"}
+    for k in claims:
+        if k["id"] in exclude or k["id"] in refs or k["value_type"] != "text" or not k.get("value"):
+            continue
+        words = [w for w in re.findall(r"[a-z0-9]+", k["value"].lower()) if w not in stop]
+        if len(words) < 4:
+            continue
+        for para in body_paras:
+            pset = set(para)
+            shared = sum(1 for w in words if w in pset)
+            if shared >= 4 and shared / len(words) >= 0.6:
+                refs.add(k["id"])
+                break
     out = dict(draft)
     out["claim_refs"] = sorted(refs)
     out["fact_table"] = table
     return out
+
+
+def fact_label(k: dict) -> str:
+    """A readable fact-table label from a claim's field and scope: 'Late cancellation fee (returning juniors and seniors), 2026-27'."""
+    leaf = k["field"].split(".", 1)[-1].replace("_", " ")
+    prefix = k["field"].split(".")[0]
+    words = [w for w in leaf.split() if w not in (prefix, "cancellation cancellation")]
+    text = " ".join(words)
+    if prefix in ("fee",) and "fee" not in text:
+        text += " fee"
+    if prefix == "deadline" and "deadline" not in text:
+        text += " deadline"
+    text = text[:1].upper() + text[1:]
+    if k.get("audience"):
+        text += " (" + ", ".join(a.replace("_", " ") for a in k["audience"]) + ")"
+    if k.get("academic_year"):
+        text += f", {k['academic_year']}"
+    return text[:90]
 
 
 def sibling_link_targets(conn, *, institution_id, place_id, exclude_path: str | None = None) -> list[dict]:
@@ -838,6 +866,7 @@ def correct(conn, version_id: UUID, *, settings, runner=dsp.cli_runner, log_path
     for extra_fail in [f for f in seo_failed if f not in ("title_contains_primary_query", "internal_links_three_contextual", "internal_links_hub_uplinks", "headings_cover_secondary_questions")]:
         findings.append(Finding("structure", "minor", f"SEO gate item failed: {extra_fail} (see the version's seo_gate record)"))
     findings.append(Finding("attribution", "major", "Any fact you add must be one of the claims in claim_table (cite its id in claim_refs and give it a fact_table row when it is a date or money value); if no claim covers it, write that the opened pages do not state it."))
+    findings.append(Finding("prose", "major", "After applying the corrections, re-read the whole page top to bottom: merge choppy one-line paragraphs, keep one idea per paragraph, keep every section's first sentence the answer, and cut repetition. No new facts."))
     report: dict = {"version_id": str(version_id), "corrections": vc["corrections"], "seo_failed": seo_failed}
     asks = [x for x in vc["corrections"] if re.search(r"\b(add|extract|record)\b.*\bclaim", x, re.I) or "as a claim" in x.lower()]
     if asks and v.get("cluster_id"):
