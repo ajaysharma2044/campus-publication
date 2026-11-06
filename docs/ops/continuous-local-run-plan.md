@@ -20,7 +20,7 @@ One command on Ajay's Mac runs campus-publication unattended: a coordinator sess
 | git / gh | present, `gh` logged in as ajaysharma2044, push works | ok |
 | `flock` | **absent on macOS** (`shlock` exists) | lock must not use flock |
 | `DATABASE_URL` / `.env` | none | owner supplies hosted Postgres URL |
-| Repo | cloned, branch `continuous-local-run` | ok |
+| Repo | cloned, branch `main` (continuous-local-run fast-forwarded into main on 2026-11-06) | ok |
 
 ## Claude Code facts confirmed against the official docs (CLI not yet installed; re-confirm against `claude --help` in M1)
 

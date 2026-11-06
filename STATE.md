@@ -2,7 +2,7 @@
 
 Last updated: 2026-11-06 (session 3, local Mac run; specs/continuous-local-run.md v2.5). Update after every completed task.
 
-## Session 3: continuous local run (2026-11-06, branch `continuous-local-run`)
+## Session 3: continuous local run (2026-11-06, branch `continuous-local-run`, fast-forwarded into `main` on 2026-11-06; `main` is the working branch)
 Spec: `specs/continuous-local-run.md` v2.5 (owner-approved). Plan and AT mapping: `docs/ops/continuous-local-run-plan.md`.
 
 ### M1 Mac parity — done (AT29, AT31, AT32 against the local DB; AT32 hosted re-run pending DATABASE_URL)
@@ -65,6 +65,8 @@ Implementation: `CAMPUS_LEAN_MODE` (default on) in `config.py`; `funnel.qualify`
 ### Owner decisions 2026-11-06 (night): BULK MODE spec and the merge into main
 - BULK MODE (owner decision, pasted 2026-11-06): the owner authorized saving the pasted spec as `specs/bulk-mode.md` (an owner-authorized exception to the "never edit specs/" rule; it overrides fast-mode and earlier specs where they conflict). Instruction: finish whatever is in flight, stop the loop, build the spec in under 2 hours, run it, commit and push per milestone, stop only for owner-only items (the API key, a spend number). Progress is logged under "BULK MODE build log" below.
 - Merge (owner instruction, same message): fast-forward `continuous-local-run` into `main`, make `main` the working branch everywhere, keep the remote `continuous-local-run` branch; evidence for each step is in the session report and under "Merge log" below.
+- 2026-11-06: continuous-local-run fast-forwarded into main; main is the working branch.
+- Merge log: `scripts/stop.sh` (nothing active); tree clean after commit 251671d; `git rev-list --count continuous-local-run..origin/main` = 0 and the branch was 107 ahead; full suite green on f639808 (the one commit after it was docs only); `git merge --ff-only` on main pushed b7649db..251671d; the remote `continuous-local-run` branch is kept.
 - In flight at the time: no loop was running (`scripts/stop.sh` reported nothing to stop); the lean discovery chain (batches of 25 search-intel observations) was on its last three batches and was left to finish.
 - Also asked: pictures in the writing and higher quality. Handled inside bulk mode as deterministic figures built from verified facts (cost charts, deadline timelines, step diagrams) plus photo slots that take rights-cleared photos from `content/images/credits.yml`; no stock or model-generated imagery on real pages.
 

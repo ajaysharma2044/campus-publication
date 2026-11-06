@@ -39,6 +39,7 @@ python -m campus_worker.render.preview      # render static preview site to buil
 See `docs/ops/run.md` for setup, env vars (`.env.example`), rollback, and backup/restore.
 
 ## Local run mode (specs/continuous-local-run.md)
+- Working branch: `main` (the build branch `continuous-local-run` was fast-forwarded into it on 2026-11-06 and is kept on the remote). Bulk mode: `specs/bulk-mode.md` (owner-authorized).
 - Spec: `specs/continuous-local-run.md` (owner-only; propose changes in STATE.md). Plan + AT map: `docs/ops/continuous-local-run-plan.md`.
 - Start: `scripts/run.sh [--max N] [--mode sweep]` · stop: `scripts/stop.sh` · health: `scripts/doctor.sh` · rebuild DB from repo: `scripts/rebuild_from_repo.sh`.
 - Each iteration is one `claude -p` with `scripts/iteration_prompt.md`; the coordinator dispatches subagents in `.claude/agents/` (one per role contract) and is the only writer/committer.
