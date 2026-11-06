@@ -258,3 +258,8 @@ OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + app
 - Checks: pytest passed (exit 0), doctor 0 required failures (warning: living.cornell.edu). `lanes next` -> discovery (production and maintenance had no work; 1047 clusters needed intel).
 - `sweep run-intel --batch 10` (foreground, ~151s, 1 search call, 16 turns): status partial. Only 1 of 10 clusters got intel; 9 are missing and were scored `needs_intel` (they stay in the queue). Scored: 1 reject, 9 needs_intel. No sweet_spot. About 1046 clusters still need intel.
 - Not mine: uncommitted `scripts/check_css.py` change and untracked `scripts/make_placeholders.py` and `worker/campus_worker/render/static/img/` appeared during the run. Left out of this commit.
+
+## 2026-11-06 iteration 5 (run 20261106T205632Z)
+- Checks: pytest passed, doctor 0 required failures (warning: living.cornell.edu). `lanes next` -> discovery (1046 clusters needed intel).
+- `sweep run-intel --batch 10` (foreground, ~72s, 11 search calls): 10 of 10 clusters got intel and were scored: 6 reject, 2 watch, 2 navigational, no sweet_spot. About 1036 clusters still need intel.
+- Not mine: uncommitted render/theme edits and untracked placeholder images were left out of this commit.
