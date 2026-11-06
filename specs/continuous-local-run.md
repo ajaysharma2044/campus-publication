@@ -1,6 +1,6 @@
 # SPEC: Continuous local run + agent team (SEO, search, strategy)
 
-Version: 2.3 · Owner: Ajay · Date: 2026-11-06 · Builds on: SPEC.md v3 (§11, §15, §21, §25, §26, §29, §35, §37, §38), BACKLOG S1 to S6, STATE.md (2026-11-04)
+Version: 2.5 · Owner: Ajay · Date: 2026-11-06 · Builds on: SPEC.md v3 (§11, §15, §21, §25, §26, §29, §35, §37, §38), BACKLOG S1 to S6, STATE.md (2026-11-04)
 
 ## 1. Objective
 
@@ -16,7 +16,7 @@ Every result is saved to GitHub and a hosted Postgres database, and the run cont
 
 Core loop, which never stops while a run is active: find data, then turn it into search terms, then find the searches with decent demand and no clear authority (niche, not too hard to rank, e.g. "Boldt Tower review"), then capture that demand with the best verified page or tool, then re-check, then repeat. Do this with the least wasted work possible.
 
-Coverage is anything a student, applicant, parent, or visitor needs to know about the school or its town. That includes academics, courses, transfer, money, housing, food, getting around, health, jobs, clubs, events, and the town itself (Ithaca: transit, neighborhoods, off-campus housing, food, outdoors, travel in and out, services). Housing is one topic among many. Research runs continuously across official sources and community discussion (R35, R36), and every page must be clearly better written and more useful than what currently ranks (R37 to R39).
+Coverage is anything a student, applicant, parent, alum, job seeker, employee, or visitor needs to know about the school or its town. That includes academics, courses, transfer, money, housing, food, getting around, health, jobs, clubs, events, and the town itself (Ithaca: transit, neighborhoods, off-campus housing, food, outdoors, travel in and out, services). Housing is one topic among many. Research runs continuously across official sources and community discussion (R35, R36), and every page must be clearly better written and more useful than what currently ranks (R37 to R39).
 
 Why: Ajay wants the publication to grow and win search traffic without prompting each step. Running locally also removes the network blocker that held the Cornell article (the laptop can reach cornell.edu and nces.ed.gov).
 
@@ -282,7 +282,27 @@ Out of scope (do not build, even if it seems helpful):
     - banking, phone, healthcare access
     - jobs in town
     - local government services students need (parking permits, voting registration info, leases and tenant rights from official sources)
-  - Each topic declares applicable audiences, freshness risk, and authoritative source families.
+  - Each topic declares applicable audiences, freshness risk, and authoritative source families. Audiences (owner extension of SPEC §03): prospective first-years, prospective transfers, current undergrads, grad and professional students, international students, parents and families, alumni, faculty and staff (and job applicants to the university), visitors, and town residents. Each audience gets its own topic set on top of the shared ones:
+  - Alumni:
+    - benefits (email, library and database access, career services for alumni, discounts)
+    - transcripts and diploma replacement, degree verification
+    - reunions and homecoming, regional alumni clubs by city, the alumni directory and mentoring
+    - continuing education and certificates
+    - giving (how it works, from official pages only)
+    - visiting campus as an alum, alumni housing and parking at events
+  - Parents and families:
+    - family weekend, move-in and move-out, orientation for parents
+    - paying the bill and payment plans, the parent portal, FERPA and what parents can and can't see
+    - sending mail and packages, visiting (hotels, parking, getting there), safety resources
+    - the calendar of key dates, what to buy for a dorm, health insurance waivers
+  - Jobs and careers:
+    - student jobs on campus and work-study, how to apply, typical pay from official sources
+    - internships and co-ops, the career center, recruiting timelines by industry
+    - first-destination outcomes and earnings, only from official reports and the federal College Scorecard, with year and sample stated
+    - working at the university (how to find openings, the application process, benefits overview from HR pages)
+    - grad assistantships and postdocs
+    - jobs in town (major employers and seasonal work), for students and residents
+  - Every audience variant must pass the existing audience-guide test (SPEC §05, `briefs.audience_guide_justified`). A separate parent or alumni page exists only when the rules, steps, or facts actually differ for that audience. Otherwise it's a section on the shared page. The pattern library (R19) gets audience patterns such as `<school> alumni <benefit>`, `<school> parent <task>`, `<school> student jobs <topic>`, `jobs at <school> <role>`, and `<town> jobs for <audience>`.
 - **R34.** Town entity harvesting. Extend R18 with a place entity scope (Ithaca and Tompkins County, NY) and official or authoritative town sources:
   - city and county government sites
   - the local transit agency
@@ -370,6 +390,37 @@ Out of scope (do not build, even if it seems helpful):
   - pages ready, live, and held, by tier, school, and topic
   - the projected days to 1,000 and 5,000 ready pages at the current throughput
   - There is no page-count quota on production. Volume is limited only by usage, verified evidence, and observed demand.
+
+### Open-ended discovery and layered coverage
+
+- **R46.** No fixed box. The R33 taxonomy is a seed, not a limit. Every question collected from any permitted source goes into discovery, whether or not it fits an existing topic. Questions are clustered by answer. When 3 or more independent questions form a cluster that matches no existing topic, a new topic is created automatically (named from the questions, logged in the digest) and added to the taxonomy and pattern library. The taxonomy grows from what people actually ask. Question sources, each registered with its R35 access mode:
+  - search observation across Google results and related questions, Reddit (`site:` searches of r/Cornell, r/ithaca, and other relevant subs), College Confidential, Quora, YouTube titles, and the Cornell Sun
+  - official structured data, fetched in full:
+    - the Cornell Class Roster API for every course, prerequisite, and term offering
+    - Cornell open data
+    - registrar, college, and department FAQs and handbooks
+    - IT and library knowledge bases
+  - Stack Exchange (Academia and others) via its official API, CC BY-SA, with attribution
+  - first-party questions Ajay supplies, e.g. anonymized TransferringUp client questions placed in `data/first_party/` (no names or identifying details)
+  - the Reddit Data API once approved (R36)
+  - Search Console and site search, once connected
+- **R47.** Layered process coverage. Every multi-step process becomes a process graph in the database, and research fills every node with verified claims. Processes include:
+  - changing majors and internal transfer between colleges
+  - adding a minor or double major
+  - transfer credit and AP credit
+  - petitions, leave of absence, study abroad
+  - switching housing, dropping or adding a course after a deadline
+  - applying for a campus job, graduating early
+  - Each graph has states (e.g. "Anthropology major in Arts & Sciences," "Dyson, Applied Economics and Management"), transitions, steps, prerequisites, GPA or course requirements, deadlines, forms, offices, and exceptions. Layers:
+    - L0: the process overview ("Changing majors at Cornell")
+    - L1: each real transition variant (e.g. Arts & Sciences to Dyson, Engineering to Arts & Sciences)
+    - L2: a specific major or situation within it (e.g. Anthropology to AEM as a sophomore, missing a prerequisite)
+    - L3: edge cases (transfer students, deadlines missed, credit limits)
+  - The researcher fills nodes from official college and department pages, the registrar, and the Class Roster API. A node whose rules are identical to its parent inherits from it and stores nothing new. Page decision per node, computed by code:
+    - Standalone page: the node's rules differ from its parent, and there is an observed query or at least 2 independent questions for it.
+    - Section on the parent page: the rules differ, but there's no observed demand.
+    - No page: identical to the parent.
+  - Every process also gets one interactive tool, a process navigator (pick where you are and where you want to go, see your exact steps, requirements, deadlines, and offices). It's rendered from the graph, so every combination is answered without generating doorway pages.
 
 ### Writing quality
 
@@ -515,6 +566,9 @@ Enforced by hook / deny rule (in `.claude/settings.json`):
 - [ ] **AT42.** Expansion: with a fixture where Cornell's map is complete and 10 pages have passed, the next school in `CAMPUS_EXPANSION_LIST` is onboarded, verified, and swept, and the school after it waits. A fixture with 9 passed pages triggers no expansion.
 - [ ] **AT43.** The digest shows ready/live/held counts by tier, school, and topic, plus projected days to 1,000 and 5,000 ready pages, computed from actual run throughput.
 - [ ] **AT44.** SEO gate: unit tests with fixture pages fail on each R45 item individually (long title, duplicate meta, two H1s, missing breadcrumb JSON-LD, fewer than 3 internal links, orphan page, competing primary query) and pass on a compliant page. Every page published during this spec has a stored `seo_gate` pass record.
+- [ ] **AT45.** Audiences: the taxonomy seed contains every audience and its topic set from R33. A sweep produces scored clusters for alumni, parents, and jobs, and the opportunity map shows at least 5 sweet-spot or watch clusters for each. A fixture parent variant whose facts don't differ from the shared page is merged as a section, not published as its own page.
+- [ ] **AT46.** Open discovery: a fixture batch of 20 questions, 4 of which fit no topic and cluster together, creates exactly one new topic with a name and a digest entry. A live sweep shows at least 3 auto-created topics. Class Roster API data is stored for every course in at least one department, with term and prerequisite fields.
+- [ ] **AT47.** Process graph: the "changing majors / internal transfer" graph for Cornell has an L0 overview and L1 nodes for every college pair that Cornell's official pages document, plus L2 nodes where a department adds its own requirements, all with verified claims and source URLs. The page decision is computed per node (standalone / section / none), and a fixture node identical to its parent produces no page. The process navigator renders, answers a fixture path (e.g. Anthropology in Arts & Sciences to AEM in Dyson) with steps, requirements, deadlines, and office, and passes the R45 SEO gate and accessibility checks.
 - [ ] **AT27.** `docs/ops/skill-coverage.md` lists every R30 capability with a covering skill and eval score, or an open skill-scout job.
 
 Verification method: command output in the final report, plus commit SHAs and file paths.
@@ -528,9 +582,9 @@ Verification method: command output in the final report, plus commit SHAs and fi
 5. Run loop + stop conditions + run log (AT3 to AT7)
 6. Agent team: 15 subagent files + 3 new schemas + dispatch tests (AT10)
 7. Skill scout first pass + eval set + coverage matrix (AT11, AT27)
-8. Demand engine + mass sweep mode: harvest (school + town), topic taxonomy, expansion, access modes, Reddit search observation + fixture-tested API collector, AGI, sweet-spot queue, lane mix, funnel, cache (AT19 to AT24, AT33 to AT36, AT40)
+8. Demand engine + mass sweep mode + open discovery: harvest (school + town), topic taxonomy, expansion, access modes, Reddit search observation + fixture-tested API collector, AGI, sweet-spot queue, lane mix, funnel, cache (AT19 to AT24, AT33 to AT36, AT40, AT45, AT46)
 9. Search intel + strategist on Cornell housing (AT12, AT13)
-10. Two-tier pages + multi-school expansion + volume reporting (AT41 to AT43)
+10. Two-tier pages + layered process graphs and navigator + multi-school expansion + volume reporting (AT41 to AT43, AT47)
 11. Writing quality system + SEO gate: style guide, filler check, information gain, competitor-beat review, R45 checks (AT37 to AT39, AT44)
 12. Cornell pipeline through R16: S4, S6, the first review-intent entity guide, S5, then the first non-housing and first town page (AT14, AT15, AT25, AT38)
 13. Digest with efficiency metrics + full regression (AT16, AT18, AT26)
@@ -561,7 +615,7 @@ Open a PR whose description is your final report.
 
 1. Before writing any code, give me a plan: restate the objective in one
    sentence, list the milestones in order, and map every acceptance test
-   (AT1 to AT44) to the step that satisfies it. List anything in the spec
+   (AT1 to AT47) to the step that satisfies it. List anything in the spec
    that is ambiguous, contradicts itself, or conflicts with the existing
    code, and confirm the installed claude CLI flags and subagent format.
 2. Do not change anything in "Decisions already made" or build anything in
