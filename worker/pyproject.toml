@@ -25,4 +25,5 @@ dev = ["pytest>=8", "playwright>=1.45", "pypdf>=4"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "-q"
+addopts = "-q -m 'not live'"
+markers = ["live: dispatches real subagents through the claude CLI (opt-in, uses subscription)"]

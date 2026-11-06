@@ -8,7 +8,7 @@
   "properties": {
     "schema_version": {"type": "string", "pattern": "^1\\.[0-9]+$"},
     "run_id": {"type": "string", "minLength": 8},
-    "role": {"type": "string", "enum": ["onboarding", "discovery", "opportunity", "researcher", "planner", "writer", "editor", "verifier", "seo", "tool_engineer", "ad_ops", "analyst"]},
+    "role": {"type": "string", "enum": ["onboarding", "discovery", "opportunity", "researcher", "planner", "writer", "editor", "verifier", "seo", "tool_engineer", "ad_ops", "analyst", "skill_scout", "search_intel", "search_strategist"]},
     "input_ids": {"type": "array", "items": {"type": "string"}, "maxItems": 500},
     "institution_id": {"type": ["string", "null"]},
     "campus_id": {"type": ["string", "null"]},
@@ -28,7 +28,7 @@
         "type": "object", "additionalProperties": false,
         "required": ["job_type", "rationale"],
         "properties": {
-          "job_type": {"type": "string", "enum": ["collect_source", "extract_claims", "discover_questions", "score_opportunity", "research_entity", "plan_brief", "write_draft", "edit_draft", "verify_draft", "publish_page", "revalidate_page", "build_tool", "seo_review", "watch_cluster"]},
+          "job_type": {"type": "string", "enum": ["collect_source", "extract_claims", "discover_questions", "score_opportunity", "research_entity", "plan_brief", "write_draft", "edit_draft", "verify_draft", "publish_page", "revalidate_page", "build_tool", "seo_review", "watch_cluster", "search_intel", "search_strategy", "skill_eval", "harvest_entities", "expand_queries", "rank_recheck", "beat_review"]},
           "payload": {"type": "object"},
           "rationale": {"type": "string", "maxLength": 400},
           "priority": {"type": "integer", "minimum": 0, "maximum": 100}

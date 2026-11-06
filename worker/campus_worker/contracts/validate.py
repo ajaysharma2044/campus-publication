@@ -39,7 +39,8 @@ def _validator(name: str) -> Draft202012Validator:
 def role_schema_name(role: str) -> str:
     return {"opportunity": "opportunity", "researcher": "researcher", "discovery": "discovery", "planner": "planner",
             "writer": "writer", "editor": "editor", "verifier": "verifier", "onboarding": "onboarding", "seo": "seo",
-            "tool_engineer": "tool_engineer", "ad_ops": "ad_ops", "analyst": "analyst"}[role]
+            "tool_engineer": "tool_engineer", "ad_ops": "ad_ops", "analyst": "analyst",
+            "skill_scout": "skill_eval", "search_intel": "serp_intel", "search_strategist": "search_strategy"}[role]
 
 
 def _errors(validator: Draft202012Validator, doc, prefix: str) -> list[str]:

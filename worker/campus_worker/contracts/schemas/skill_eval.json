@@ -1,0 +1,20 @@
+{"$id": "campus://contracts/skill_eval", "title": "Skill scout output (continuous-local-run R12, R30)", "type": "object", "additionalProperties": true,
+ "required": ["candidates", "source_reviews", "benchmarks", "adoptions", "rejections", "coverage_gaps"],
+ "properties": {
+   "candidates": {"type": "array", "maxItems": 25, "items": {"type": "object", "required": ["name", "url", "author", "license", "last_commit", "stars", "what_it_does", "ships_hooks", "ships_scripts", "kind"], "additionalProperties": true,
+     "properties": {"name": {"type": "string", "pattern": "^[A-Za-z0-9_.-]+$"}, "url": {"type": "string", "pattern": "^https://"}, "author": {"type": "string"},
+                    "license": {"type": "string"}, "last_commit": {"type": ["string", "null"]}, "stars": {"type": ["integer", "null"]},
+                    "what_it_does": {"type": "string", "maxLength": 400}, "ships_hooks": {"type": "boolean"}, "ships_scripts": {"type": "boolean"},
+                    "kind": {"type": "string", "enum": ["skill", "plugin", "mcp_server", "reference"]},
+                    "capabilities": {"type": "array", "items": {"type": "string"}}}}},
+   "source_reviews": {"type": "array", "items": {"type": "object", "required": ["name", "decision", "reasons", "network_calls_disclosed", "writes_in_scope", "license_clear", "paid_required"], "additionalProperties": true,
+     "properties": {"name": {"type": "string"}, "decision": {"type": "string", "enum": ["accept", "reject"]}, "reasons": {"type": "array", "items": {"type": "string", "maxLength": 300}},
+                    "network_calls_disclosed": {"type": "boolean"}, "writes_in_scope": {"type": "boolean"}, "license_clear": {"type": "boolean"}, "paid_required": {"type": "boolean"},
+                    "files_read": {"type": "array", "items": {"type": "string"}}}}},
+   "benchmarks": {"type": "array", "items": {"type": "object", "required": ["name", "task", "baseline_score", "candidate_score", "errors", "turns", "seconds", "hard_rule_regression"], "additionalProperties": true,
+     "properties": {"name": {"type": "string"}, "task": {"type": "string"}, "baseline_score": {"type": "number", "minimum": 0, "maximum": 10}, "candidate_score": {"type": "number", "minimum": 0, "maximum": 10},
+                    "errors": {"type": "integer", "minimum": 0}, "turns": {"type": "integer", "minimum": 0}, "seconds": {"type": "number", "minimum": 0}, "hard_rule_regression": {"type": "boolean"}, "notes": {"type": "string", "maxLength": 400}}}},
+   "adoptions": {"type": "array", "items": {"type": "object", "required": ["name", "sha", "url", "license", "rollback"], "properties": {"name": {"type": "string"}, "sha": {"type": "string", "pattern": "^[0-9a-f]{40}$"}, "url": {"type": "string"}, "license": {"type": "string"}, "rollback": {"type": "string"}, "review_note": {"type": "string"}}}},
+   "rejections": {"type": "array", "items": {"type": "object", "required": ["name", "reason"], "properties": {"name": {"type": "string"}, "reason": {"type": "string", "maxLength": 400}}}},
+   "coverage_gaps": {"type": "array", "items": {"type": "string"}}
+ }}
