@@ -8,3 +8,5 @@ wp-local/
 *.log
 node_modules/
 backups/
+worker/.venv/
+.run/

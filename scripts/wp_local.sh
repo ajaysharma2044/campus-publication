@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Local WordPress staging on SQLite (no MySQL needed) for testing the Campus Core plugin + theme + REST adapter.
-# Usage: scripts/wp_local.sh setup|start|stop|status   (serves on http://127.0.0.1:8089)
+# Usage: scripts/wp_local.sh setup|install|start|stop|status   (serves on http://127.0.0.1:8089)
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 WP="$ROOT/wp-local/wordpress"; SQL="$ROOT/wp-local/sqlite-plugin/packages/plugin-sqlite-database-integration"; PORT=8089; PID="$ROOT/wp-local/php.pid"; LOG="$ROOT/wp-local/php.log"
@@ -33,9 +33,19 @@ CFG
 add_filter( 'wp_is_application_passwords_available', '__return_true' );
 MU
     echo "setup done";;
+  install)
+    # Runs the WordPress installer and stores the application password in worker/.env WITHOUT printing it.
+    ENVF="$ROOT/worker/.env"; touch "$ENVF"
+    out="$(cd "$WP" && php "$ROOT/scripts/wp_install.php" 2>&1)" || { printf "%s\n" "$out" | sed -E "s/^app_password=.*/app_password=<hidden>/"; exit 1; }
+    pw="$(printf "%s\n" "$out" | sed -n "s/^app_password=//p" | tail -1)"
+    printf "%s\n" "$out" | sed -E "s|^app_password=.*|app_password=<stored in worker/.env>|"
+    [ -n "$pw" ] || { echo "no application password printed"; exit 1; }
+    grep -q "^CAMPUS_WP_APP_PASSWORD=" "$ENVF" && sed -i.bak "/^CAMPUS_WP_APP_PASSWORD=/d;/^CAMPUS_WP_BASE_URL=/d;/^CAMPUS_WP_USER=/d" "$ENVF" && rm -f "$ENVF.bak"
+    printf "CAMPUS_WP_BASE_URL=http://127.0.0.1:%s\nCAMPUS_WP_USER=campusadmin\nCAMPUS_WP_APP_PASSWORD=%s\n" "$PORT" "$pw" >> "$ENVF"
+    echo "stored CAMPUS_WP_* in worker/.env";;
   start)
     cd "$WP" && (php -S 127.0.0.1:$PORT "$ROOT/scripts/wp_router.php" > "$LOG" 2>&1 & echo $! > "$PID"); sleep 1; echo "php server pid $(cat "$PID") on :$PORT";;
   stop) [ -f "$PID" ] && kill "$(cat "$PID")" 2>/dev/null && rm -f "$PID" && echo stopped || echo "not running";;
   status) curl -s -o /dev/null -w "%{http_code}\n" "http://127.0.0.1:$PORT/wp-json/campus/v1/status";;
-  *) echo "usage: $0 setup|start|stop|status";;
+  *) echo "usage: $0 setup|install|start|stop|status";;
 esac

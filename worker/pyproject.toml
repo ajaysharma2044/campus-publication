@@ -14,10 +14,14 @@ dependencies = [
   "pdfplumber>=0.11",
   "PyYAML>=6",
   "anthropic>=0.40",
+  "markdown>=3.5",
+  "nh3>=0.2",
+  "starlette>=0.37",
+  "uvicorn>=0.29",
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=8", "playwright>=1.45"]
+dev = ["pytest>=8", "playwright>=1.45", "pypdf>=4"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

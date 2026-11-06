@@ -1,6 +1,29 @@
 # STATE
 
-Last updated: 2026-11-04 (session 2, in-session execution mode). Update after every completed task.
+Last updated: 2026-11-06 (session 3, local Mac run; specs/continuous-local-run.md v2.5). Update after every completed task.
+
+## Session 3: continuous local run (2026-11-06, branch `continuous-local-run`)
+Spec: `specs/continuous-local-run.md` v2.5 (owner-approved). Plan and AT mapping: `docs/ops/continuous-local-run-plan.md`.
+
+### M1 Mac parity — done (AT29, AT31, AT32 against the local DB; AT32 hosted re-run pending DATABASE_URL)
+- Toolchain on the Mac (Apple Silicon, macOS 26.6): Homebrew 7.0.12; Python 3.13.18 in `worker/.venv` (`pip install -e "worker[dev]"`); PostgreSQL 16.15 (`brew services start postgresql@16`, role `campus`, DBs `campus_research_test` for pytest and `campus_research_local` for dev smoke checks); PHP 8.3.36 (`/opt/homebrew/opt/php@8.3`, pdo_sqlite/mbstring/curl/gd/zip present); Node 22.23.4; Playwright chromium-1248; git 2.50.1; gh 2.103.3; Claude Code CLI 2.1.319 at `~/.local/bin/claude` (native installer, user-space).
+- `pyproject.toml` gained runtime deps the cloud container had installed ad hoc but never declared: markdown, nh3, starlette, uvicorn; dev: pypdf.
+- Tests: **130 passed** on the Mac against `TEST_DATABASE_URL` (local). Never the hosted DB.
+- Local WordPress staging: `wp-local/` cloned, `scripts/wp_local.sh setup` + new `install` subcommand (stores the application password in `worker/.env` without printing it), served on 127.0.0.1:8089; `cli status` reports the CMS adapter **connected**; `scripts/wp_roundtrip.py` proves the hash no-op (second upsert created=False changed=False, same post id).
+- Backups: `scripts/backup.sh` + `scripts/restore_test.sh` pass on macOS (checksums no longer include SHA256SUMS itself; `shasum -a 256` fallback; no `su postgres`).
+- Scripts ported from Linux-only tools: BSD-safe `sed -i`, `mkdir` lock instead of `flock` (absent on macOS).
+- `scripts/doctor.sh` (R1/R32) prints PASS/FAIL with versions; current blockers: `DATABASE_URL` not yet in `worker/.env`.
+
+### Assumptions (session 3)
+- `living.cornell.edu` resolves (to a static-web load balancer) but never answers on 80 or 443; treated as a retired alias of `scl.cornell.edu` and reported as WARN, not a required failure. The housing source of record is `scl.cornell.edu`.
+- Python runs from `worker/.venv` (Homebrew python is externally managed); every script resolves that interpreter first.
+- `claude --help` 2.1.319 does not list `--max-turns`; subagents declare `maxTurns` in frontmatter, and `run.sh` probes the flag on its first iteration.
+- `worker/.env` is the canonical env file (spec says `.env`); all scripts source it. Claude never reads it (deny rule in M3).
+
+### Proposed spec changes (SPEC.md v3, not edited)
+- §26 daily publish quota is superseded by the live ramp (continuous-local-run R8, owner decision 2026-11-06); local/staging publishing is unthrottled.
+- §09 "Reddit disabled": collection stays disabled; search-result observation of Reddit titles/URLs is permitted (R35/R36).
+
 
 ## Session 2 summary (2026-11-04)
 - Execution approach changed: the language-judgment roles run inside the Claude Code session (no worker model credential needed); deterministic code unchanged.

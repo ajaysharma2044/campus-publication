@@ -4,7 +4,7 @@
 # Usage: scripts/doctor.sh [--quiet]
 set -uo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-export PATH="$HOME/.local/bin:/opt/homebrew/bin:/opt/homebrew/opt/postgresql@16/bin:/opt/homebrew/opt/python@3.13/bin:/opt/homebrew/opt/php@8.3/bin:$PATH"
+export PATH="$ROOT/worker/.venv/bin:$HOME/.local/bin:/opt/homebrew/opt/php@8.3/bin:/opt/homebrew/opt/postgresql@16/bin:/opt/homebrew/opt/python@3.13/bin:/opt/homebrew/bin:$PATH"
 # load non-secret-safe env: values are never printed
 if [ -f "$ROOT/worker/.env" ]; then set -a; . "$ROOT/worker/.env"; set +a; fi
 FAIL=0; WARN=0
@@ -14,14 +14,14 @@ warn() { printf 'WARN  %-34s %s\n' "$1" "${2:-}"; WARN=$((WARN+1)); }
 ver() { "$@" 2>&1 | head -1; }
 
 # --- toolchain (R32) ---------------------------------------------------------------------------
-PY="$(command -v python3.13 || command -v python3 || true)"
+PY="$( [ -x "$ROOT/worker/.venv/bin/python" ] && echo "$ROOT/worker/.venv/bin/python" || command -v python3.13 || command -v python3 || true)"
 if [ -n "$PY" ] && "$PY" -c 'import sys; sys.exit(0 if sys.version_info[:2] >= (3,12) else 1)'; then pass "python >= 3.12" "$(ver "$PY" --version) ($PY)"; else fail "python >= 3.12" "found: ${PY:-none} $( [ -n "$PY" ] && ver "$PY" --version)"; fi
 if [ -n "$PY" ] && "$PY" -c 'import campus_worker, psycopg, pydantic, jsonschema, jinja2, httpx, bs4, lxml, pdfplumber, yaml, pytest' 2>/dev/null; then pass "worker deps installed" "pip install -e worker[dev]"; else fail "worker deps installed" "run: $PY -m pip install -e \"$ROOT/worker[dev]\""; fi
 if [ -n "$PY" ] && "$PY" -c 'import playwright' 2>/dev/null && [ -d "$HOME/Library/Caches/ms-playwright" ] && ls "$HOME/Library/Caches/ms-playwright" 2>/dev/null | grep -q chromium; then pass "playwright chromium" "$(ls "$HOME/Library/Caches/ms-playwright" | grep chromium | head -1)"; else fail "playwright chromium" "run: $PY -m playwright install chromium"; fi
 if command -v psql >/dev/null; then pass "postgresql client" "$(ver psql --version)"; else fail "postgresql client" "brew install postgresql@16"; fi
 if command -v pg_dump >/dev/null; then pass "pg_dump" "$(ver pg_dump --version)"; else fail "pg_dump" "needed for backups"; fi
 if command -v php >/dev/null; then
-  missing=""; for ext in pdo_sqlite mbstring curl gd zip; do php -m 2>/dev/null | grep -qi "^$ext\$" || missing="$missing $ext"; done
+  mods="$(php -m 2>/dev/null)"; missing=""; for ext in pdo_sqlite mbstring curl gd zip; do printf "%s\n" "$mods" | grep -qi "^$ext$" || missing="$missing $ext"; done
   if [ -z "$missing" ]; then pass "php 8.3 + extensions" "$(ver php --version)"; else fail "php 8.3 + extensions" "missing:$missing"; fi
 else fail "php 8.3 + extensions" "brew install php@8.3"; fi
 if command -v node >/dev/null && node -e 'process.exit(parseInt(process.versions.node)>=22?0:1)'; then pass "node >= 22" "$(ver node --version)"; else fail "node >= 22" "$(command -v node >/dev/null && ver node --version || echo none)"; fi
@@ -47,7 +47,11 @@ if (cd "$ROOT" && git push --dry-run -q origin HEAD >/dev/null 2>&1); then pass 
 # --- network (R1) --------------------------------------------------------------------------------
 for host in scl.cornell.edu living.cornell.edu admissions.cornell.edu nces.ed.gov; do
   code="$(curl -s -o /dev/null -m 15 -w '%{http_code}' -A 'campus-publication-doctor/1.0' "https://$host/" 2>/dev/null)"; code="${code:-000}"
-  case "$code" in 2*|3*) pass "https://$host" "HTTP $code";; 403|429) warn "https://$host" "HTTP $code (reachable, access limited)";; *) fail "https://$host" "HTTP $code";; esac
+  case "$code" in
+    2*|3*) pass "https://$host" "HTTP $code";;
+    403|429) warn "https://$host" "HTTP $code (reachable, access limited)";;
+    *) if [ "$host" = "living.cornell.edu" ]; then warn "https://$host" "HTTP $code — host resolves but never answers (retired alias of scl.cornell.edu; see STATE.md assumptions)"; else fail "https://$host" "HTTP $code"; fi;;
+  esac
 done
 
 # --- Claude Code project files (R1, R32) ---------------------------------------------------------
