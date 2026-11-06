@@ -156,7 +156,7 @@ Nothing is live. Nothing runs automatically outside this container. The local Po
 OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + application password · OD3 managed PostgreSQL · OD4 domain/brand (masthead is a placeholder) · OD5 AdSense approval + publisher id · OD6 Search Console property + service account · OD7 keyword/SERP provider or exports · OD8 Reddit Data API commercial authorization (stays disabled) · OD9 egress to cornell.edu / nces.ed.gov (or owner-supplied IPEDS file and page snapshots) · OD10 external scheduler for continuous operation.
 
 ## Assumptions recorded
-- Masthead "The Campus Ledger" is a working title, editable in `CAMPUS_PUBLICATION_NAME` / WP site name; not a brand decision.
+- Masthead is "Footnote Daily" (owner decision, 2026-11-06), set in `CAMPUS_PUBLICATION_NAME` / WP site name.
 - Local PostgreSQL role `campus` / `campus_local_dev` is development-only.
 - Cornell identity (UNITID 190415) entered by hand; `identity_status = pending_verification` until matched to a downloaded IPEDS HD release. No Cornell facts exist in the database; nothing about Cornell is published.
 - Model price table in `budget.MODEL_PRICE_PER_MTOK_MINOR` is an upper-bound placeholder for reservations; replace from the provider's current price list before connecting a key.
@@ -180,6 +180,12 @@ OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + app
 - Two other early failures were `relation ... does not exist` on the shared `campus_research_test` DB at varying points, and the full suite then passed (229) on a rerun with no code change. Likely another process using the same test DB (`conftest.migrated_url` drops the schema). Not reproduced; watch for it if it recurs, and do not run two pytest processes at once.
 - `lean.py` and `test_lean.py` (untracked, imported by tracked modules) are committed here so a clean checkout works.
 - doctor: 0 required failures, 1 warning (living.cornell.edu).
+
+## Run 20261106T201209Z iteration 5 (production, HELD at SEO gate)
+- pytest passed; doctor 0 required failures (1 warning: living.cornell.edu).
+- `lanes next` → cluster f8b10c5e "Is Cornell's North Campus expansion being used to house transfers?". `pipeline run` ok: planner (info gain 4 verified items), writer, editor, verifier gate PASSED; version 3a9e70fd. Beat review skipped (lean spot check).
+- `pipeline publish 3a9e70fd`: R45 SEO gate FAILED on `title_contains_primary_query` (title "Cornell lists North Campus for transfers, not the expansion" lacks the query terms) and `internal_links_three_contextual` (1 of 3). Not published; gate not weakened.
+- Next: re-publish with `--siblings` once two related Cornell housing pages in scope have passed; the title needs an editor pass that carries the query terms (e.g. "Is Cornell's North Campus expansion housing transfers?", 54 chars) — no new facts.
 
 ## Next actions (in order)
 1. Owner supplies OD1 → run `python -m campus_worker.calibration` path with `AnthropicProvider` (one real Sonnet worker, one real Opus review), compare against the scripted report, record resolved model ids.
