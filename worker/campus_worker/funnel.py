@@ -50,9 +50,9 @@ def qualify(conn: psycopg.Connection, cluster_id: UUID, *, intel: dict | None = 
         if cs.agi <= lean.STRONG_INCUMBENT_AGI:
             return Gate(False, "lean_funnel", f"strong dedicated incumbent (AGI={cs.agi}): {cs.reason}", cs)
         with conn.cursor() as cur:
-            cur.execute("SELECT institution_id, place_id, topic_id FROM intent_clusters WHERE id=%s", (cluster_id,))
+            cur.execute("SELECT institution_id, place_id, topic_id, entity_id FROM intent_clusters WHERE id=%s", (cluster_id,))
             row = cur.fetchone()
-        n = lean.verified_claims_in_scope(conn, institution_id=row["institution_id"], place_id=row["place_id"], topic_id=row["topic_id"])
+        n = lean.verified_claims_in_scope(conn, institution_id=row["institution_id"], place_id=row["place_id"], topic_id=row["topic_id"], entity_id=row["entity_id"])
         if n < 1:
             return Gate(False, "lean_funnel", "no verified fact in this scope yet: research the official pages first", cs)
         return Gate(True, "lean_funnel", f"lean: AGI={cs.agi} > {lean.STRONG_INCUMBENT_AGI}, {n} verified facts in scope; {cs.decision} ordered by niche_score", cs)

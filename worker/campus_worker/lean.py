@@ -29,9 +29,13 @@ def enabled() -> bool:
     return (os.environ.get("CAMPUS_LEAN_MODE", "1") or "1").strip().lower() not in ("0", "false", "no", "off")
 
 
-def verified_claims_in_scope(conn: psycopg.Connection, *, institution_id: UUID | None, place_id: UUID | None, topic_id: UUID | None) -> int:
-    """Current verified facts for the cluster's school-or-town + topic scope (topic-less claims count for every topic of the scope)."""
+def verified_claims_in_scope(conn: psycopg.Connection, *, institution_id: UUID | None, place_id: UUID | None, topic_id: UUID | None, entity_id: UUID | None = None) -> int:
+    """Current verified facts for the cluster's scope: an entity cluster needs facts about that entity; a topic cluster needs facts for the
+    school-or-town + topic (topic-less claims count for every topic of the scope)."""
     with conn.cursor() as cur:
+        if entity_id:
+            cur.execute("""SELECT count(*) AS n FROM claims WHERE entity_id=%s AND evidence_category='verified_fact' AND superseded_by_id IS NULL AND conflict_status <> 'open'""", (entity_id,))
+            return int(cur.fetchone()["n"])
         if institution_id:
             cur.execute("""SELECT count(*) AS n FROM claims WHERE institution_id=%s AND (topic_id=%s OR topic_id IS NULL) AND evidence_category='verified_fact'
                            AND superseded_by_id IS NULL AND conflict_status <> 'open'""", (institution_id, topic_id))
@@ -55,7 +59,7 @@ def production_queue(conn: psycopg.Connection, *, limit: int = 20) -> list[dict]
         rows = [dict(r) for r in cur.fetchall()]
     out = []
     for r in rows:
-        if verified_claims_in_scope(conn, institution_id=r["institution_id"], place_id=r["place_id"], topic_id=r["topic_id"]) >= 1:
+        if verified_claims_in_scope(conn, institution_id=r["institution_id"], place_id=r["place_id"], topic_id=r["topic_id"], entity_id=r.get("entity_id")) >= 1:
             out.append(r)
             if len(out) >= limit:
                 break
@@ -104,7 +108,7 @@ def default_page_path(conn: psycopg.Connection, *, cluster_id: UUID) -> str:
         cur.execute("""SELECT c.label, c.best_variant, t.key AS topic_key, i.slug AS school_slug, p.slug AS place_slug FROM intent_clusters c
                        LEFT JOIN topics t ON t.id=c.topic_id LEFT JOIN institutions i ON i.id=c.institution_id LEFT JOIN places p ON p.id=c.place_id WHERE c.id=%s""", (cluster_id,))
         c = cur.fetchone()
-    text = (c["best_variant"] or c["label"] or "").lower()
+    text = re.sub(r"[\u2019']s\b", "", (c["best_variant"] or c["label"] or "").lower())  # possessives: "cornell's" → "cornell"
     stop = {"a", "an", "the", "of", "at", "in", "on", "for", "to", "is", "are", "do", "does", "did", "what", "when", "where", "how", "can", "i", "my", "and", "or", "be", "with", "by", "it", "its", "there", "any", "have", "has", "will", "should", "you", "your"}
     words = [w for w in re.findall(r"[a-z0-9]+", text) if w not in stop]
     slug = "-".join(words)[:60].strip("-") or "guide"

@@ -99,3 +99,5 @@ def test_lean_coverage_check_and_default_path(clean_conn, lean_on):
     assert lean.covered_by_existing_page(clean_conn, cluster_id=covered) == "/schools/fixture-state/housing/transfer-housing/"
     assert lean.covered_by_existing_page(clean_conn, cluster_id=fresh) is None
     assert lean.default_page_path(clean_conn, cluster_id=fresh) == "/schools/fixture-state/housing/which-fixture-state-halls-air-conditioning/"
+    poss = _cluster(clean_conn, inst, campus, housing, "Is Fixture State's north campus housing transfers?", agi=4, niche=20)
+    assert lean.default_page_path(clean_conn, cluster_id=poss) == "/schools/fixture-state/housing/fixture-state-north-campus-housing-transfers/"
