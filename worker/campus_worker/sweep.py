@@ -97,10 +97,14 @@ def intel_batch(conn: psycopg.Connection, *, batch: int) -> list[dict]:
     """Clusters needing search observation, cheapest/most valuable first: observed demand, then topic-seed and high-value
     patterns (review, cost, vs, …), then everything else, oldest first."""
     with conn.cursor() as cur:
-        cur.execute(f"""SELECT c.id AS cluster_id, c.label, c.best_variant, t.key AS topic_key, c.observed_count, c.hypothesis_count, c.institution_id, c.place_id
-                        FROM intent_clusters c LEFT JOIN topics t ON t.id=c.topic_id
-                        WHERE c.last_intel_at IS NULL AND c.queue_state IN ('candidate','needs_intel') AND {ELIGIBLE}
-                        ORDER BY c.observed_count DESC, {_priority_sql()} ASC, c.hypothesis_count DESC, c.created_at LIMIT %s""", (batch,))
+        # topic breadth first (R41/AT40: the map must cover every R33 topic inside the intel cap): the best cluster of every topic
+        # comes before the second-best of any topic; within a topic, observed demand, then priority, then hypotheses, then age.
+        cur.execute(f"""WITH ranked AS (
+                          SELECT c.id AS cluster_id, c.label, c.best_variant, t.key AS topic_key, c.observed_count, c.hypothesis_count, c.institution_id, c.place_id,
+                                 row_number() OVER (PARTITION BY c.topic_id ORDER BY c.observed_count DESC, {_priority_sql()} ASC, c.hypothesis_count DESC, c.created_at) AS rk
+                          FROM intent_clusters c LEFT JOIN topics t ON t.id=c.topic_id
+                          WHERE c.last_intel_at IS NULL AND c.queue_state IN ('candidate','needs_intel') AND {ELIGIBLE})
+                        SELECT * FROM ranked ORDER BY rk, observed_count DESC, hypothesis_count DESC LIMIT %s""", (batch,))
         return [dict(r) for r in cur.fetchall()]
 
 
@@ -109,8 +113,11 @@ def defer_beyond_cap(conn: psycopg.Connection, *, cap: int | None = None) -> int
     observed later in the normal discovery lane. Returns how many were deferred."""
     cap = sweep_cap() if cap is None else cap
     with conn.cursor() as cur:
-        cur.execute(f"""SELECT c.id FROM intent_clusters c WHERE c.last_intel_at IS NULL AND c.queue_state IN ('candidate','needs_intel') AND {ELIGIBLE}
-                        ORDER BY c.observed_count DESC, {_priority_sql()} ASC, c.hypothesis_count DESC, c.created_at""")
+        cur.execute(f"""WITH ranked AS (
+                          SELECT c.id, c.observed_count, c.hypothesis_count,
+                                 row_number() OVER (PARTITION BY c.topic_id ORDER BY c.observed_count DESC, {_priority_sql()} ASC, c.hypothesis_count DESC, c.created_at) AS rk
+                          FROM intent_clusters c WHERE c.last_intel_at IS NULL AND c.queue_state IN ('candidate','needs_intel') AND {ELIGIBLE})
+                        SELECT id FROM ranked ORDER BY rk, observed_count DESC, hypothesis_count DESC""")
         ids = [r["id"] for r in cur.fetchall()]
         cur.execute("SELECT count(*) AS n FROM intent_clusters WHERE last_intel_at IS NOT NULL")
         observed = cur.fetchone()["n"]

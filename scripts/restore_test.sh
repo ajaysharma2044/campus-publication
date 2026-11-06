@@ -21,6 +21,6 @@ if [ "$(uname -s)" = "Linux" ] && id postgres >/dev/null 2>&1 && [ "$(id -u)" = 
 else
   psql -q "$ADMIN_URL" -c "DROP DATABASE IF EXISTS $SCRATCH;" -c "CREATE DATABASE $SCRATCH OWNER campus;" >/dev/null
 fi
-pg_restore --no-owner --dbname="$SCRATCH_URL" "$DIR/research.dump"
+pg_restore --no-owner --no-privileges --dbname="$SCRATCH_URL" "$DIR/research.dump"
 psql -At "$SCRATCH_URL" -c "SELECT 'institutions=' || count(*) FROM institutions UNION ALL SELECT 'claims=' || count(*) FROM claims UNION ALL SELECT 'jobs=' || count(*) FROM jobs UNION ALL SELECT 'migrations=' || max(version) FROM schema_migrations;"
 echo "restore into $SCRATCH verified"

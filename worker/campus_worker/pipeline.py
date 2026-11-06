@@ -625,6 +625,8 @@ def run_r16(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path
             cur.execute("SELECT id, path, audience, page_format FROM pages WHERE id=%s", (plan["page_id"],))
             page = dict(cur.fetchone())
         page["byline"] = byline
+        sweetspot.mark(conn, cluster_id, "in_production", "R16 pipeline started (brief %s)" % plan["brief_id"][:8])  # the production lane must not restart it
+        conn.commit()
         approved = {k["id"] for k in claims}
         crit = plan["critical_claim_ids"]
         rounds, draft, version_id, det = 0, None, None, []
