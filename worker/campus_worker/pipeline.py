@@ -569,6 +569,7 @@ def stage_seo(conn, cluster_id: UUID | None, *, version_id: UUID, settings, win_
         html = html_by_path[page["path"]]
         css_bytes = (tmp / "static" / "campus.css").stat().st_size if (tmp / "static" / "campus.css").exists() else 0
         overflow, checked = qa_overflow(tmp) if run_qa else ([], 5)
+        conn = _db(conn)  # the render + screenshot QA can take minutes; the hosted DB may have dropped the connection meanwhile
         backlinks = seo_gate.count_backlinks(html_by_path, page["path"])
         hubs = seo_gate._hubs_for(page["path"])
         siblings = [p for p in html_by_path if p.startswith(hubs[0]) and p not in (page["path"], hubs[0])]
@@ -577,6 +578,7 @@ def stage_seo(conn, cluster_id: UUID | None, *, version_id: UUID, settings, win_
                                             real_faq_questions=(win_plan or {}).get("faq_real_questions") or [], backlinks=backlinks, has_sibling_pages=bool(siblings), qa_overflow_widths=overflow, qa_checked_widths=checked)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
+    conn = _db(conn)
     titles, descs = seo_gate.site_uniques(conn, exclude_page_id=page["page_id"])
     other = strategy.primary_query_conflict(conn, pin.path, pin.primary_query) if pin.primary_query else None
     det = seo_gate.evaluate(pin, existing_titles=titles, existing_descriptions=descs, other_page_for_primary=other)
