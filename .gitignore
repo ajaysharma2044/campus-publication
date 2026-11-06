@@ -10,3 +10,4 @@ node_modules/
 backups/
 worker/.venv/
 .run/
+*.egg-info/

@@ -1,0 +1,111 @@
+{
+  "run_at": "2026-11-06T06:48:55.740660+00:00",
+  "blocker": "Primary Cornell pages could not be opened from this session (scl.cornell.edu and other cornell.edu hosts fail DNS under the environment's network policy). All facts are search-snippet attributions to the named official pages, stored as estimates, so every cost, eligibility and deadline claim is unverified and the page is held.",
+  "claims": {
+    "stored": 17,
+    "actions": [
+      "created"
+    ]
+  },
+  "discovery": {
+    "stored": 8,
+    "duplicate_occurrences": 0,
+    "clusters_created": 8,
+    "hypotheses": 0,
+    "clusters": [
+      {
+        "id": "8a12f363-0bc6-4851-b2cb-b3cd6c8b09ea",
+        "label": "Do transfer students have to live on campus at Cornell?",
+        "audience": "transfer"
+      },
+      {
+        "id": "ca7b6ceb-8c23-432c-8ac6-6cf10c5fa463",
+        "label": "Is housing guaranteed for transfer students at Cornell?",
+        "audience": "transfer"
+      },
+      {
+        "id": "c3e7edf1-181a-4c6c-ad43-63148cfdf0ba",
+        "label": "Where do Cornell transfer students live, West or North Campus?",
+        "audience": "transfer"
+      },
+      {
+        "id": "979b128b-4c3c-401d-a673-bccebccb45fc",
+        "label": "When is the Cornell housing application due for transfers?",
+        "audience": "transfer"
+      },
+      {
+        "id": "95cf8eaf-d868-4923-b6fc-c49f9e35e1f1",
+        "label": "Can a transfer student cancel Cornell housing and live off campus?",
+        "audience": "transfer"
+      },
+      {
+        "id": "af1722d3-e741-4383-aed3-554c6c2207a1",
+        "label": "Do I have to buy a meal plan as a transfer at Cornell?",
+        "audience": "transfer"
+      },
+      {
+        "id": "0ab9dd3a-59b3-49c0-85ae-dc93c0354e51",
+        "label": "Why were Cornell transfers put in converted lounges?",
+        "audience": "transfer"
+      },
+      {
+        "id": "484613fb-64ee-4359-af4e-0388816d5aef",
+        "label": "Is housing guaranteed for first-year students at Cornell?",
+        "audience": "first_year"
+      }
+    ]
+  },
+  "opportunity": {
+    "cluster_id": "ca7b6ceb-8c23-432c-8ac6-6cf10c5fa463",
+    "priority": 54.0,
+    "decision": "hold",
+    "rationale": "evidence advantage 2 below 3; research before drafting",
+    "opportunity_id": "b24d86bf-3842-42f1-900a-632842a5991f"
+  },
+  "draft": {
+    "page_id": "76128eee-4237-46e8-b1bb-59b090344d2f",
+    "version_id": "1b1e54d1-b0a7-43fe-bb43-b472ea03cd79",
+    "brief_id": "04585f62-9c3a-45e6-9cd0-14f9153a91f5",
+    "deterministic_findings": [],
+    "rubric": {
+      "clarity": 4,
+      "specificity": 4,
+      "structure": 4,
+      "attribution": 2,
+      "usefulness": 4,
+      "prose": 4,
+      "total": 22
+    },
+    "gate": {
+      "passed": false,
+      "status": "failed",
+      "hard_failures": [
+        "unsupported_critical_claim: critical claims not verified against a primary source (stale/conflicted/estimate/unknown): rate.room=estimate, rate.room=estimate, rate.room=estimate, rate.room=estimate, rate.includes=estimate, eligibility.residency_years_required=estimate"
+      ],
+      "major_findings": [],
+      "rubric_total": 22,
+      "rubric_failures": [
+        "rubric below 3: ['attribution']"
+      ],
+      "blocking_claim_ids": [
+        "b4be8a5a-d502-4ae5-81f4-0870345ecfbb",
+        "cb21c03a-b3c3-413c-acfc-1b8978705e79",
+        "e16b1435-a0ce-42ea-ad35-00a4d980302c",
+        "e15bd4e7-6a11-4ca9-a670-a18e31fe22c0",
+        "51a501d9-0382-4460-8b04-bdee7d733c4d",
+        "866ba7ee-a10c-44e1-8490-da64d54a3131",
+        "17f7db46-049f-43be-915a-6dd2f075a8f8",
+        "b5f8152b-4668-498c-8e64-09ff51092d2d",
+        "1686f0af-092e-454d-bc09-7816804dc806",
+        "06277fd8-1db9-44bb-be41-bdce42193e5e",
+        "367efdbc-1ee0-4013-997e-597f8d6908f8",
+        "fb90b14b-3144-4e84-847c-4232b6de35ed",
+        "0ff5b45e-578f-4797-8122-9afa53fd6190",
+        "36eb518e-b4e5-4783-9b3e-fff20c387c3e",
+        "0294f782-d632-4b04-8694-00db57762dac",
+        "030a1ef6-496b-4847-a154-47f1f28f896f"
+      ]
+    }
+  },
+  "note": "Replay of the 2026-11-04 session-2 run from committed files (R31). Rows carry new UUIDs; evidence stays 'estimate'; the original report docs/research/cornell-transfer-housing-run.json is unchanged."
+}

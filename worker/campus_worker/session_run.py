@@ -210,7 +210,9 @@ def _fact_table(claim_results):
     return rows
 
 
-def run_cornell_transfer_housing() -> dict:
+def run_cornell_transfer_housing(*, render: bool = True, report_path: Path | None = None) -> dict:
+    """render=False skips the preview render; report_path=None writes the session-2 report path (default),
+    a Path writes there instead (used by the rebuild replay so the original report is never overwritten)."""
     settings = get_settings()
     conn = connect(settings.database_url)
     report = {"run_at": NOW.isoformat(), "blocker": BLOCKER}
@@ -251,6 +253,10 @@ def run_cornell_transfer_housing() -> dict:
     with conn.cursor() as cur:
         cur.execute("UPDATE pages SET status='held', revalidation_required=TRUE, revalidation_reason=%s WHERE id=%s", ("primary sources unopened (network policy)", pid))
     conn.commit()
+    if not render:
+        conn.close()
+        (report_path or (REPO_ROOT / "docs" / "research" / "cornell-transfer-housing-run.json")).write_text(json.dumps(report, indent=2, default=str))
+        return report
     # Render the held draft into the preview site, clearly labeled.
     ctx = preview.base_ctx("/schools/cornell-university/housing/transfer-housing/", "guide", "/topics/housing/")
     ctx.update(page={"id": str(pid), "headline": headline, "deck": deck, "section": "Cornell University · Housing · for transfer students", "section_href": "/schools/cornell-university/housing/",
@@ -266,7 +272,7 @@ def run_cornell_transfer_housing() -> dict:
     out.write_text(html)
     report["preview_path"] = str(out)
     conn.close()
-    (REPO_ROOT / "docs" / "research" / "cornell-transfer-housing-run.json").write_text(json.dumps(report, indent=2, default=str))
+    (report_path or (REPO_ROOT / "docs" / "research" / "cornell-transfer-housing-run.json")).write_text(json.dumps(report, indent=2, default=str))
     return report
 
 
