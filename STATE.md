@@ -166,6 +166,13 @@ OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + app
 - `sweep status` before the run: need_intel 50, watch 1128. After the kill: need_intel 462, watch 709. This change is unexplained. Check whether the killed run left partial scoring writes before the next run-intel.
 - Next: use a smaller `--batch` (for example 10), or raise the foreground cap, so one batch finishes inside 600s.
 
+## Run 20261106T201209Z iteration 2 (production, HELD)
+- pytest passed; doctor 0 required failures (1 warning: living.cornell.edu).
+- `lanes next` → sweet-spot cluster 5d69fed9 "Do transfer students have to live on campus at Cornell?". `pipeline run <id>` alone was refused ("no page path"): the strategy win plans are keyed to "Is housing guaranteed for transfer students at Cornell" and the cluster label does not match. Re-ran with `--path /schools/cornell-university/housing/transfer-housing/` (the strategy's transfer-housing win plan). Suggest the win-plan lookup also match cluster variants/queries listed in the strategy's query targets.
+- First planner reply was invalid JSON (extra data); the second run planned (information gain ok, 5 items), wrote, edited and reached the verifier. `competitors` was 0 for this cluster even though search intel exists — check `competitors_for_cluster`.
+- Verifier: FAILED (hard failure `unsupported_critical_claim`, rubric 16/24). Held version 638e04a1. Corrections required include: the draft says the guaranteed waitlist does not promise a room, but a source says waitlisted students are guaranteed an assignment; room-type request statement; other exemption categories; penalty-free cancellation deadlines (Fall June 15, Spring Dec 1, 2026; $500 fee after); enrollment deposit in step 1. Needs claims backing each, then `pipeline run` again / `pipeline verify`.
+- Not mine: 8 tracked files (funnel, lanes, pipeline, quality, sweep, tier2, conftest, iteration_prompt) plus `lean.py` and `test_lean.py` were modified/untracked in the working tree during this run (tree was clean at start). Left uncommitted for the owner.
+
 ## Next actions (in order)
 1. Owner supplies OD1 → run `python -m campus_worker.calibration` path with `AnthropicProvider` (one real Sonnet worker, one real Opus review), compare against the scripted report, record resolved model ids.
 2. Owner supplies OD9 or files → register Cornell housing sources (`scl.cornell.edu`, `living.cornell.edu`), run `collect_source` → `extract_claims`, verify Cornell identity against the IPEDS release, then exercises 1–3 on real records (still staging, draft status).
