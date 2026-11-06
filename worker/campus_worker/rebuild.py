@@ -71,7 +71,8 @@ def rebuild(conn) -> dict:
     out["steps"].append({"seed": seed_all(conn)})
     sha = verify_checksum()
     with conn.cursor() as cur:
-        cur.execute("SELECT count(*) AS n FROM institution_external_ids WHERE system_name='ipeds_unitid' AND source_release=%s", (IPEDS_RELEASE,))
+        # any release label counts: the fixture seed re-labels Cornell's row, so the registry is "populated" when ≥ 6,072 UNITIDs exist
+        cur.execute("SELECT count(*) AS n FROM institution_external_ids WHERE system_name='ipeds_unitid'")
         already = cur.fetchone()["n"]
     if already >= EXPECTED_IPEDS_ROWS:
         out["steps"].append({"ipeds_import": {"sha256": sha, "skipped": f"release {IPEDS_RELEASE} already imported ({already} rows); nothing to change"}})

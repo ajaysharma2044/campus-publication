@@ -484,7 +484,8 @@ def test_search_intel_batch_dispatch_ingests_every_cluster_once(clean_conn, tmp_
 
     def runner(a, p):
         calls.append(a.name)
-        packet = json.loads(p.split("#packet\n", 1)[1].rsplit("\n\nReturn ONE", 1)[0])
+        packet = json.loads(p.split("#packet\n", 1)[1].split("\n\n#contract\n", 1)[0])
+        assert "#contract" in p and '"output_schema"' in p  # every dispatch carries the exact contract
         assert packet["batch_mode"] is True and len(packet["clusters"]) == 3
         batch = [dict(fx, cluster_id=c["cluster_id"], variants=[dict(v, query=c["variants"][i] if i < len(c["variants"]) else v["query"]) for i, v in enumerate(fx["variants"])][:len(c["variants"])]) for c in packet["clusters"]]
         return 0, cli_stdout(a.role, text=json.dumps(envelope("search_intel", {"batch": batch, "search_calls_made": 6, "cache_hits": 0}))), ""

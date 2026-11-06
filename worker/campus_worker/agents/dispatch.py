@@ -24,7 +24,7 @@ from pathlib import Path
 from typing import Callable
 
 from ..config import REPO_ROOT
-from ..contracts.validate import parse_model_json, validate_envelope
+from ..contracts.validate import SCHEMA_DIR, parse_model_json, validate_envelope
 
 AGENTS_DIR = REPO_ROOT / ".claude" / "agents"
 DISPATCH_LOG_DEFAULT = REPO_ROOT / "build" / "runs" / "dispatch.jsonl"
@@ -160,6 +160,7 @@ class DispatchResult:
     turns: int | None = None
     exit_code: int | None = None
     usage_limit: bool = False
+    repaired: bool = False
 
     def as_dict(self) -> dict:
         d = {k: v for k, v in self.__dict__.items() if k not in ("doc", "raw")}
@@ -170,10 +171,51 @@ class DispatchResult:
 _USAGE = re.compile(r"(usage limit|hit your limit|rate limit|too many requests|\b429\b|not logged in|please run /login)", re.I)
 
 
+def contract_for(agent: AgentSpec) -> dict:
+    """The exact shapes the agent must return: envelope keys, next_jobs item shape, and the role's output schema."""
+    env = json.loads((SCHEMA_DIR / "envelope.json").read_text())
+    out_schema = json.loads((SCHEMA_DIR / f"{agent.schema}.json").read_text())
+    return {"envelope_required_keys": env["required"], "decision_values": env["properties"]["decision"]["enum"],
+            "hold_shape": {"reason": "snake_case_reason", "retry_condition": "what must change"},
+            "next_jobs_item_shape": {"job_type": env["properties"]["next_jobs"]["items"]["properties"]["job_type"]["enum"], "payload": {}, "rationale": "string ≤400", "priority": "0-100"},
+            "output_schema": out_schema, "note": "output must validate against output_schema exactly (field names, enums, required keys); next_jobs may be an empty list"}
+
+
+def _prompt(agent: AgentSpec, packet: dict, *, repair: tuple[str, list[str]] | None = None) -> str:
+    base = "#packet\n" + json.dumps(packet, default=str, indent=1) + "\n\n#contract\n" + json.dumps(contract_for(agent), default=str) + \
+           "\n\nReturn ONE JSON envelope for role " + agent.role + " whose `output` validates against #contract.output_schema, and nothing else."
+    if repair:
+        prev, errs = repair
+        base += ("\n\n#repair\nYour previous reply did not validate. Fix ONLY the JSON shape (keep the observations); errors:\n- " + "\n- ".join(errs[:12]) +
+                 "\n\nPrevious reply (truncated):\n" + prev[:6000])
+    return base
+
+
 def dispatch(agent: AgentSpec, packet: dict, *, runner: Runner = cli_runner, conn=None, log_path: Path | None = None,
-             iteration: int | None = None) -> DispatchResult:
+             iteration: int | None = None, repair_once: bool = True) -> DispatchResult:
+    """One dispatch, plus at most ONE same-tier repair when the reply is well-formed JSON that fails the contract
+    (SPEC §15/§36 bounded repair). Never escalates to a bigger model."""
     _assert_no_secrets(packet)
-    prompt = "#packet\n" + json.dumps(packet, default=str, indent=1) + "\n\nReturn ONE JSON envelope for role " + agent.role + " and nothing else."
+    res = _dispatch_once(agent, packet, _prompt(agent, packet), runner=runner)
+    if res.status == "invalid" and repair_once:
+        again = _dispatch_once(agent, packet, _prompt(agent, packet, repair=(res.raw, res.errors)), runner=runner)
+        again.duration_s = round(res.duration_s + again.duration_s, 3)
+        again.turns = (res.turns or 0) + (again.turns or 0) if (res.turns or again.turns) else None
+        again.errors = (["repaired after: " + "; ".join(res.errors[:3])] if again.status in ("ok", "hold") else again.errors)
+        res = again
+        res.repaired = True
+    _log(res, log_path or DISPATCH_LOG_DEFAULT, iteration=iteration)
+    if conn is not None:
+        try:
+            from .. import budget
+            budget.record_session_usage(conn, kind="dispatch", task_id=res.task_id, agent=agent.name, duration_s=res.duration_s, turns=res.turns, iteration=iteration,
+                                        extra={"status": res.status, "role": agent.role, "repaired": res.repaired})
+        except Exception as e:  # noqa: BLE001 — ledger problems never lose the agent's output
+            res.errors.append(f"ledger: {type(e).__name__}: {e}")
+    return res
+
+
+def _dispatch_once(agent: AgentSpec, packet: dict, prompt: str, *, runner: Runner) -> DispatchResult:
     t0 = time.monotonic()
     code, out, err = runner(agent, prompt)
     dur = time.monotonic() - t0
@@ -195,14 +237,6 @@ def dispatch(agent: AgentSpec, packet: dict, *, runner: Runner = cli_runner, con
                 res.status, res.errors = "invalid", verrs
             else:
                 res.status = "hold" if doc.get("decision") == "hold" else "ok"
-    _log(res, log_path or DISPATCH_LOG_DEFAULT, iteration=iteration)
-    if conn is not None:
-        try:
-            from .. import budget
-            budget.record_session_usage(conn, kind="dispatch", task_id=res.task_id, agent=agent.name, duration_s=dur, turns=turns, iteration=iteration,
-                                        extra={"status": res.status, "role": agent.role})
-        except Exception as e:  # noqa: BLE001 — ledger problems never lose the agent's output
-            res.errors.append(f"ledger: {type(e).__name__}: {e}")
     return res
 
 

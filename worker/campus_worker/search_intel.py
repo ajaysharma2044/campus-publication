@@ -38,6 +38,12 @@ def variants_for_cluster(conn: psycopg.Connection, cluster_id: UUID, *, max_vari
             break
     if not out and c:
         out = [c["best_variant"] or c["label"]]
+    if len(out) < max_variants and rows:
+        # second variant: the normalized (synonym-folded, stopword-trimmed) wording students type into a search box
+        from .discovery import normalize
+        norm = normalize(out[0])
+        if norm and norm.lower() != out[0].lower():
+            out.append(norm)
     return out[:max_variants]
 
 
