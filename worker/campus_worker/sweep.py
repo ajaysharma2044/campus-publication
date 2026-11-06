@@ -161,22 +161,22 @@ def status(conn: psycopg.Connection) -> dict:
 def next_step(conn: psycopg.Connection, *, batch: int = BATCH_SWEEP) -> dict:
     st = status(conn)
     if st["harvest_due"]:
-        return {"step": "harvest", "detail": {"due": st["harvest_due"]}, "command": "python -m campus_worker.sweep harvest", "status": st}
+        return {"step": "harvest", "detail": {"due": st["harvest_due"]}, "command": "cd worker && .venv/bin/python -m campus_worker.sweep harvest", "status": st}
     with conn.cursor() as cur:
         cur.execute("SELECT count(*) AS n FROM entities e WHERE e.status='active' AND NOT EXISTS (SELECT 1 FROM questions q WHERE q.entity_id=e.id AND q.is_hypothesis)")
         unexpanded = cur.fetchone()["n"]
     if unexpanded:
-        return {"step": "expand", "detail": {"entities_without_hypotheses": int(unexpanded)}, "command": "python -m campus_worker.sweep expand", "status": st}
+        return {"step": "expand", "detail": {"entities_without_hypotheses": int(unexpanded)}, "command": "cd worker && .venv/bin/python -m campus_worker.sweep expand", "status": st}
     if st["need_intel"]:
         defer_beyond_cap(conn)
         st = status(conn)
     if st["need_intel"]:
         b = intel_batch(conn, batch=batch)
         return {"step": "intel", "detail": {"batch": [{"cluster_id": str(x["cluster_id"]), "label": x["label"], "topic": x["topic_key"]} for x in b], "remaining": st["need_intel"]},
-                "command": "python -m campus_worker.sweep run-intel --batch 25  (one search-intel batch dispatch, ingest, then score)", "status": st}
+                "command": "cd worker && .venv/bin/python -m campus_worker.sweep run-intel --batch 25   (one search-intel batch dispatch, ingest, then score; then run sweep next again)", "status": st}
     if st["undecided"]:
-        return {"step": "score", "detail": {"undecided": st["undecided"]}, "command": "python -m campus_worker.sweep score && python -m campus_worker.sweep map", "status": st}
-    return {"step": "complete", "sweep_complete": True, "command": "python -m campus_worker.sweep map", "status": st}
+        return {"step": "score", "detail": {"undecided": st["undecided"]}, "command": "cd worker && .venv/bin/python -m campus_worker.sweep score && cd worker && .venv/bin/python -m campus_worker.sweep map", "status": st}
+    return {"step": "complete", "sweep_complete": True, "command": "cd worker && .venv/bin/python -m campus_worker.sweep map", "status": st}
 
 
 def write_map(conn: psycopg.Connection, *, md_path: Path | None = None, csv_path: Path | None = None) -> dict:

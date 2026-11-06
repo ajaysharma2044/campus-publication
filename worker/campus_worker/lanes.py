@@ -54,24 +54,24 @@ def production_item(conn) -> dict | None:
     it = q[0]
     return {"kind": "sweet_spot_cluster", "cluster_id": str(it["cluster_id"]), "label": it["label"], "best_variant": it["best_variant"],
             "niche_score": float(it["niche_score"] or 0), "topic_key": it["topic_key"], "capture_format": it["capture_format"],
-            "next": "python -m campus_worker.pipeline run <cluster_id>  (R16 chain with the cheapest-first funnel)"}
+            "next": "cd worker && .venv/bin/python -m campus_worker.pipeline run <cluster_id>  (R16 chain with the cheapest-first funnel)"}
 
 
 def discovery_item(conn, settings) -> dict | None:
     from . import harvest
     due = harvest.due_harvest_sources(conn)
     if due:
-        return {"kind": "harvest_due", "count": len(due), "first": {"rule": due[0]["rule_key"], "url": due[0]["canonical_url"]}, "next": "python -m campus_worker.sweep harvest"}
+        return {"kind": "harvest_due", "count": len(due), "first": {"rule": due[0]["rule_key"], "url": due[0]["canonical_url"]}, "next": "cd worker && .venv/bin/python -m campus_worker.sweep harvest"}
     with conn.cursor() as cur:
         cur.execute("SELECT count(*) AS n FROM intent_clusters WHERE queue_state='needs_intel' OR (queue_state='candidate' AND last_intel_at IS NULL)")
         need = cur.fetchone()["n"]
     if need:
-        return {"kind": "search_intel_batch", "clusters_needing_intel": int(need), "batch_size": 10, "next": "python -m campus_worker.sweep intel --batch 10"}
+        return {"kind": "search_intel_batch", "clusters_needing_intel": int(need), "batch_size": 10, "next": "cd worker && .venv/bin/python -m campus_worker.sweep intel --batch 10"}
     with conn.cursor() as cur:
         cur.execute("SELECT count(*) AS n FROM entities e WHERE e.status='active' AND NOT EXISTS (SELECT 1 FROM questions q WHERE q.entity_id=e.id AND q.is_hypothesis)")
         unexpanded = cur.fetchone()["n"]
     if unexpanded:
-        return {"kind": "expand_pending", "entities_without_hypotheses": int(unexpanded), "next": "python -m campus_worker.sweep expand"}
+        return {"kind": "expand_pending", "entities_without_hypotheses": int(unexpanded), "next": "cd worker && .venv/bin/python -m campus_worker.sweep expand"}
     scout = _skill_scout_due()
     if scout:
         return scout
@@ -100,7 +100,7 @@ def maintenance_item(conn, settings) -> dict | None:
         return {"kind": "recheck_due", "page_id": str(r["id"]), "path": r["path"], "next": "dispatch analyst rank re-check (R15)"}
     counts = q.counts(conn)
     if counts.get("queued", 0) or counts.get("retry_wait", 0):
-        return {"kind": "db_jobs_due", "queued": counts.get("queued", 0), "retry_wait": counts.get("retry_wait", 0), "next": "python -m campus_worker.cli run-once"}
+        return {"kind": "db_jobs_due", "queued": counts.get("queued", 0), "retry_wait": counts.get("retry_wait", 0), "next": "cd worker && .venv/bin/python -m campus_worker.cli run-once"}
     item = first_unblocked_backlog_item()
     if item:
         return {"kind": "backlog_item", **item, "next": "implement it; run its acceptance check; commit with the id"}

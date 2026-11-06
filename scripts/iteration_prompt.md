@@ -24,6 +24,10 @@ Pick exactly ONE unit of work, finish it, verify it, commit it, push it, record 
      A held version whose sources or claims changed is re-gated with `python -m campus_worker.pipeline verify <version_id>`.
      Pages held only on `internal_links_three_contextual` or `not_orphan` wait for sibling pages; re-publish them
      together with `--siblings` once two related pages in the same scope have passed.
+   Command forms: the headless allowlist matches these exact shapes and nothing else — `cd worker && .venv/bin/python -m campus_worker.<module> …`,
+   `worker/.venv/bin/python -m campus_worker.<module> …`, `cd worker && pytest …`, `scripts/<name>.sh …`, `git add/commit/push …`. Never `cd` with an
+   absolute path, never prefix a command with `timeout`, `env`, `time` or `nohup`, never run the worker's python another way; a denied command is a
+   wrong shape, not a missing permission.
 3. Dispatch only the subagents the work needs (`.claude/agents/`, one per role contract). Give each a scoped
    packet by artifact id, never whole files. Read-only agents (search-intel, discovery, researcher, opportunity,
    planner, editor, verifier, seo, analyst, ad-ops, search-strategist, skill-scout) may run up to 4 in parallel;
