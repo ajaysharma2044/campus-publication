@@ -728,7 +728,7 @@ def stage_publish(conn, cluster_id: UUID | None, *, version_id: UUID, settings, 
     return {"published": True, **res}
 
 
-def auto_cite(draft: dict, claims: list[dict], *, exclude: set[str] | None = None, prefer: set[str] | None = None) -> dict:
+def auto_cite(draft: dict, claims: list[dict], *, exclude: set[str] | None = None, prefer: set[str] | None = None, page_audience: str | None = None) -> dict:
     """Deterministic citation repair after an edit: a money or date claim whose value appears in the body or fact table is added to claim_refs,
     and a money/date value cited in prose without a fact-table row gets one (label from the field and audience). Never adds prose."""
     import calendar
@@ -742,7 +742,7 @@ def auto_cite(draft: dict, claims: list[dict], *, exclude: set[str] | None = Non
     ranked = sorted(claims, key=lambda k: (0 if k["id"] in prefer else 1, 0 if k.get("audience") else 1))
     seen_values: set[str] = set()
     for k in ranked:
-        if k["id"] in exclude:
+        if k["id"] in exclude or not audience_matches(k.get("audience"), page_audience):
             continue
         forms: list[str] = []
         if k["value_type"] == "money" and k["value"].startswith("$"):
@@ -761,27 +761,49 @@ def auto_cite(draft: dict, claims: list[dict], *, exclude: set[str] | None = Non
         else:
             continue
         if in_body and not in_table:
-            table.append({"label": fact_label(k), "value": k["value"].replace(" one time", "").replace(" per person per_person", " per person"), "claim_id": k["id"]})
+            table.append({"label": fact_label(k), "value": money_value(k) if k["value_type"] == "money" else k["value"], "claim_id": k["id"]})
             table_text += " " + k["value"]
     # text claims: linked when the body carries the claim's statement (most of its content words in one paragraph)
     body_paras = [re.findall(r"[a-z0-9]+", para.lower()) for para in re.split(r"\n\s*\n", body)]
     stop = {"the", "a", "an", "of", "to", "in", "on", "for", "and", "or", "is", "are", "be", "by", "with", "at", "as", "that", "this", "it", "its", "their", "they", "will", "not", "no", "all", "any"}
     for k in claims:
-        if k["id"] in exclude or k["id"] in refs or k["value_type"] != "text" or not k.get("value"):
+        if k["id"] in exclude or k["id"] in refs or k["value_type"] != "text" or not k.get("value") or not audience_matches(k.get("audience"), page_audience):
             continue
         words = [w for w in re.findall(r"[a-z0-9]+", k["value"].lower()) if w not in stop]
-        if len(words) < 4:
+        if len(words) < 3:
             continue
         for para in body_paras:
             pset = set(para)
             shared = sum(1 for w in words if w in pset)
-            if shared >= 4 and shared / len(words) >= 0.6:
-                refs.add(k["id"])
+            if shared >= 3 and shared / len(words) >= 0.5:
+                refs.add(k["id"])  # the verifier re-checks every linked claim; a wrong link comes back as wrong_scope and is excluded next round
                 break
     out = dict(draft)
     out["claim_refs"] = sorted(refs)
     out["fact_table"] = table
     return out
+
+
+def money_value(k: dict) -> str:
+    """'$500' plus the basis the claim states ('per person', 'per semester'); never 'unknown' or 'one time' noise."""
+    amount = k["value"].split(" ")[0] if k.get("value") else ""
+    rest = k["value"][len(amount):] if k.get("value") else ""
+    parts = [w for w in rest.replace("one time", "").replace("unknown", "").split(" per ") if w.strip()]
+    basis = " ".join("per " + x.strip() for x in parts)
+    return (amount + (" " + basis if basis else "")).strip()
+
+
+def audience_matches(claim_audience: list | None, page_audience: str | None) -> bool:
+    """A claim scoped to an audience is linked only on a page for that audience (a juniors-and-seniors fee never lands on a first-year page)."""
+    if not claim_audience or not page_audience:
+        return True
+    norm = lambda x: set(re.findall(r"[a-z]+", str(x).lower().replace("_", " ")))
+    pa = norm(page_audience) - {"students", "student", "undergraduate", "undergraduates"}
+    for a in claim_audience:
+        ca = norm(a) - {"students", "student", "undergraduate", "undergraduates"}
+        if not pa or not ca or pa & ca:
+            return True
+    return False
 
 
 def fact_label(k: dict) -> str:
@@ -909,7 +931,7 @@ def correct(conn, version_id: UUID, *, settings, runner=dsp.cli_runner, log_path
                 excluded.add(full)
             if re.search(r"\b(use|replace with|instead)\b", x, re.I):
                 preferred.add(full)
-    draft2 = auto_cite(draft2, claims, exclude=excluded, prefer=preferred)
+    draft2 = auto_cite(draft2, claims, exclude=excluded, prefer=preferred, page_audience=v.get("audience"))
     report["claims_excluded"] = sorted(x[:8] for x in excluded); report["claims_preferred"] = sorted(x[:8] for x in preferred)
     figs = lambda b: set(re.findall(r"\$[\d,]+|\b20\d\d-\d\d-\d\d\b|\b\d{1,2},\d{3}\b", b))
     facts_changed = figs(draft["body_markdown"]) != figs(draft2["body_markdown"]) or set(draft2["claim_refs"]) != set(draft["claim_refs"])
@@ -1037,7 +1059,7 @@ def run_r16(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path
             conn = _db(conn)
             save(f"edit_r{rounds}", {k: v for k, v in e.items() if k != "draft"})
             if e.get("status") in ("ok", "hold") and e.get("draft"):
-                draft = auto_cite(dict(e["draft"], byline=byline), claims)
+                draft = auto_cite(dict(e["draft"], byline=byline), claims, page_audience=page.get("audience"))
                 det = deterministic_findings(conn, institution_id=c["institution_id"], page_id=page["id"], draft=draft, critical_ids=crit, approved_ids=approved, academic_year="2026-27")
                 save(f"checks_after_edit_r{rounds}", {"findings": [f.as_dict() for f in det]})
             prev_vid = version_id

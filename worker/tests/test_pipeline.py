@@ -198,3 +198,7 @@ def test_auto_cite_links_text_claims_the_body_states_and_labels_rows_readably():
     assert set(out["claim_refs"]) == {"c-place", "c-fee"}
     row = [r for r in out["fact_table"] if r["claim_id"] == "c-fee"][0]
     assert row["label"] == "Cancellation late request fee (returning junior senior), 2026-27" and row["value"] == "$500 per person"
+    # a juniors-and-seniors fee never lands on a first-year page; an unscoped claim always may
+    out2 = pipeline.auto_cite(draft, claims, page_audience="first-year undergraduates")
+    assert "c-fee" not in out2["claim_refs"] and "c-place" in out2["claim_refs"]
+    assert pipeline.money_value({"value": "$500 unknown one time", "value_type": "money"}) == "$500"
