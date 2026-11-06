@@ -165,3 +165,14 @@ def test_year_check_allows_iso_dates_and_fact_table_labeled_cycles():
                          body_claim_ids=["x"], critical_ids=[], approved_ids={"x"}, institution_name="Fixture State University", other_institution_names=[], academic_year="2026-27",
                          next_actions=[{"text": "Apply in the portal", "target": "https://example.invalid/apply"}], existing_bodies=[])
     assert not [f for f in out if f.kind == "wrong_year"]
+
+
+def test_auto_cite_adds_claim_refs_and_fact_rows_for_values_in_prose():
+    from campus_worker import pipeline
+    claims = [{"id": "c-fee", "field": "fee.late_cancellation", "value": "$500 per person one time", "value_type": "money", "audience": [], "academic_year": "2026-27"},
+              {"id": "c-date", "field": "deadline.spring_cancellation", "value": "2026-12-01", "value_type": "date", "audience": [], "academic_year": "2026-27"},
+              {"id": "c-other", "field": "deadline.fall_cancellation", "value": "2026-06-15", "value_type": "date", "audience": [], "academic_year": "2026-27"}]
+    draft = {"body_markdown": "Requests after December 1, 2026 cost $500.", "fact_table": [], "claim_refs": []}
+    out = pipeline.auto_cite(draft, claims)
+    assert out["claim_refs"] == ["c-date", "c-fee"]
+    assert {r["claim_id"] for r in out["fact_table"]} == {"c-date", "c-fee"} and all(r["label"] for r in out["fact_table"])

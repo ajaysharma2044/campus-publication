@@ -696,6 +696,41 @@ def stage_publish(conn, cluster_id: UUID | None, *, version_id: UUID, settings, 
     return {"published": True, **res}
 
 
+def auto_cite(draft: dict, claims: list[dict]) -> dict:
+    """Deterministic citation repair after an edit: a money or date claim whose value appears in the body or fact table is added to claim_refs,
+    and a money/date value cited in prose without a fact-table row gets one (label from the field and audience). Never adds prose."""
+    import calendar
+    body = draft.get("body_markdown") or ""
+    table = list(draft.get("fact_table") or [])
+    refs = set(str(x) for x in draft.get("claim_refs") or [])
+    table_text = " ".join(f"{r.get('label', '')} {r.get('value', '')}" for r in table)
+    for k in claims:
+        forms: list[str] = []
+        if k["value_type"] == "money" and k["value"].startswith("$"):
+            forms.append(k["value"].split(" ")[0])
+        elif k["value_type"] == "date" and k["value"]:
+            y, m, d = k["value"][:10].split("-")
+            forms += [k["value"][:10], f"{calendar.month_name[int(m)]} {int(d)}, {y}"]
+        if not forms:
+            continue
+        in_body = any(f in body for f in forms)
+        in_table = any(f in table_text for f in forms)
+        if in_body or in_table:
+            refs.add(k["id"])
+        if in_body and not in_table:
+            label = k["field"].split(".")[-1].replace("_", " ")
+            if k.get("audience"):
+                label += " (" + ", ".join(a.replace("_", " ") for a in k["audience"]) + ")"
+            if k.get("academic_year"):
+                label += f", {k['academic_year']}"
+            table.append({"label": label[:80], "value": k["value"], "claim_id": k["id"]})
+            table_text += " " + k["value"]
+    out = dict(draft)
+    out["claim_refs"] = sorted(refs)
+    out["fact_table"] = table
+    return out
+
+
 def sibling_link_targets(conn, *, institution_id, place_id, exclude_path: str | None = None) -> list[dict]:
     """Pages in the same school or town with a passed current version (they are in the build), plus the policy pages: the targets a new
     page may link to, so the R45 three-contextual-links rule can be met as the scope grows."""
@@ -789,6 +824,7 @@ def correct(conn, version_id: UUID, *, settings, runner=dsp.cli_runner, log_path
     draft2 = dict(e["draft"], byline=v["byline"], fact_table=draft["fact_table"], next_actions=draft["next_actions"])
     ids_in_body = set(re.findall(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", draft2["body_markdown"]))
     draft2["claim_refs"] = sorted((set(draft["claim_refs"]) | ids_in_body) & approved)
+    draft2 = auto_cite(draft2, claims)
     figs = lambda b: set(re.findall(r"\$[\d,]+|\b20\d\d-\d\d-\d\d\b|\b\d{1,2},\d{3}\b", b))
     facts_changed = figs(draft["body_markdown"]) != figs(draft2["body_markdown"]) or set(draft2["claim_refs"]) != set(draft["claim_refs"])
     det2 = deterministic_findings(conn, institution_id=v["institution_id"], page_id=v["page_id"], draft=draft2, critical_ids=crit, approved_ids=approved, academic_year="2026-27")
@@ -915,7 +951,7 @@ def run_r16(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path
             conn = _db(conn)
             save(f"edit_r{rounds}", {k: v for k, v in e.items() if k != "draft"})
             if e.get("status") in ("ok", "hold") and e.get("draft"):
-                draft = dict(e["draft"], byline=byline)
+                draft = auto_cite(dict(e["draft"], byline=byline), claims)
                 det = deterministic_findings(conn, institution_id=c["institution_id"], page_id=page["id"], draft=draft, critical_ids=crit, approved_ids=approved, academic_year="2026-27")
                 save(f"checks_after_edit_r{rounds}", {"findings": [f.as_dict() for f in det]})
             prev_vid = version_id
