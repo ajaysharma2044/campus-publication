@@ -1,6 +1,6 @@
 # SPEC: Continuous local run + agent team (SEO, search, strategy)
 
-Version: 2.1 · Owner: Ajay · Date: 2026-11-06 · Builds on: SPEC.md v3 (§11, §15, §21, §25, §26, §29, §35, §37, §38), BACKLOG S1 to S6, STATE.md (2026-11-04)
+Version: 2.3 · Owner: Ajay · Date: 2026-11-06 · Builds on: SPEC.md v3 (§11, §15, §21, §25, §26, §29, §35, §37, §38), BACKLOG S1 to S6, STATE.md (2026-11-04)
 
 ## 1. Objective
 
@@ -15,6 +15,8 @@ When Ajay types one command on his MacBook, Claude Code runs campus-publication 
 Every result is saved to GitHub and a hosted Postgres database, and the run continues until Ajay stops it or nothing unblocked remains.
 
 Core loop, which never stops while a run is active: find data, then turn it into search terms, then find the searches with decent demand and no clear authority (niche, not too hard to rank, e.g. "Boldt Tower review"), then capture that demand with the best verified page or tool, then re-check, then repeat. Do this with the least wasted work possible.
+
+Coverage is anything a student, applicant, parent, or visitor needs to know about the school or its town. That includes academics, courses, transfer, money, housing, food, getting around, health, jobs, clubs, events, and the town itself (Ithaca: transit, neighborhoods, off-campus housing, food, outdoors, travel in and out, services). Housing is one topic among many. Research runs continuously across official sources and community discussion (R35, R36), and every page must be clearly better written and more useful than what currently ranks (R37 to R39).
 
 Why: Ajay wants the publication to grow and win search traffic without prompting each step. Running locally also removes the network blocker that held the Cornell article (the laptop can reach cornell.edu and nces.ed.gov).
 
@@ -37,17 +39,20 @@ In scope:
 - The agent team: Claude Code subagents in `.claude/agents/`, mapped onto the existing role contracts, plus 3 new agents (skill scout, search intelligence, search strategist)
 - Skill discovery and evaluation for SEO, writing, and research. Approved skills get installed, pinned.
 - Search intelligence and a win-the-search strategy per topic cluster, feeding the existing scoring and briefs
-- The Cornell content pipeline (BACKLOG S4, S6, S5), auto-publish within daily limits, the daily digest, and the run log
+- The Cornell content pipeline (BACKLOG S4, S6, S5), unthrottled production with a live ramp, the daily digest, and the run log
+- Every topic module for Cornell and the town of Ithaca (R33, R34)
+- Community-discussion research through permitted access modes (R35, R36)
+- Writing quality system: information gain, competitor-beat review, style guide (R37 to R39)
 
 Out of scope (do not build, even if it seems helpful):
 
 - Cloud schedulers, cron, launchd, scheduled GitHub Actions
 - Anthropic API key wiring or API-billed calls
 - AdSense, Search Console, and paid keyword providers. Their adapters stay unconnected, but the strategist must work without them.
-- Reddit (stays disabled)
+- Collecting Reddit post or comment content through scraping or unofficial endpoints. Reddit API collection is enabled only when R36's owner step is done. Discovery from search results is in scope now.
 - Outreach of any kind: emailing sites, link requests, guest posts, social posting (SPEC §01: no messages to third parties)
 - Buying tools, domains, or hosting
-- Schools beyond Cornell and the synthetic community college, until the Cornell guide publishes and Ajay says to expand
+- Parallel multi-school processing. Expansion is sequential under R43. Every rule is written per school and town (institution_id, place_id).
 
 ## 4. Requirements
 
@@ -77,8 +82,11 @@ Out of scope (do not build, even if it seems helpful):
 - **R7.** Add `CAMPUS_EXECUTION_MODE=session|api` (default session):
   - In session mode, dollar caps never block work. The ledger records one usage entry per iteration and per agent dispatch (task ID, agent, duration, turns).
   - API-mode caps stay as today, configurable via env.
-- **R8.** Auto-publish. Pages that pass every gate publish automatically, up to `CAMPUS_PUBLISH_NEW_PER_DAY` (default 1) new pages and `CAMPUS_PUBLISH_UPDATES_PER_DAY` (default 5) updates. The overflow queues for the next day.
-  - Until a WordPress host exists (STATE OD2), "publish" means: render to `build/site/`, upsert to local WordPress staging when it's running, and record the published version in the database.
+- **R8.** Production is unthrottled. Only going live is paced.
+  - Production: the system researches, writes, edits, and verifies as many pages per run as usage allows. There is no daily cap on producing pages. Every page that passes all gates becomes ready.
+  - Before a live domain exists (STATE OD2): every ready page publishes immediately to the local build (`build/site/`) and to local WordPress staging, with no quota. Nothing is public, so there is nothing to pace.
+  - After a live domain is connected: ready pages go live from the ready queue, best niche_score first, under a ramp read from `.env` (`CAMPUS_LIVE_RAMP`, default 5/day for 14 days, then 15/day). Updates to existing live pages are not capped. If more than 20% of live pages show no sign of being indexed in the analyst's re-check after 14 days, the ramp holds at its current rate and the digest flags it.
+  - Production never waits on publishing. A large ready queue is the intended state.
 - **R9.** Daily digest at `docs/digest/YYYY-MM-DD.md`, written on the first iteration after midnight and the last iteration of each run. Sections:
   - tasks done (IDs, commits)
   - pages published, held and why
@@ -191,7 +199,7 @@ Out of scope (do not build, even if it seems helpful):
     - high when the results are mostly forums, outdated pages, thin aggregators, or official pages that only partly answer
     - low when a dedicated, current, complete page already ranks
   - AGI feeds W and G. Pure navigational queries (e.g. "Cornell housing portal") are tagged navigational and rejected.
-- **R22.** Niche-first selection (owner override of SPEC §11 ordering only; the thresholds stand). A cluster enters the sweet-spot queue when:
+- **R22.** Niche-first selection (owner override of SPEC §11's advance rule for this lane). The priority formula is still computed and recorded for every cluster, but priority >= 65 is not required for sweet-spot clusters. R22's criteria are the advance rule. Do not route this through §11 editorial exceptions, which stay rare and individually justified. The E and G minimums, rubric, and gates are unchanged. A cluster enters the sweet-spot queue when:
   - D ≥ 2, AGI ≥ 3, G ≥ 3, and E ≥ 3
   - at least one result is weak or missing (a forum, outdated page, thin aggregator, or partial official answer)
   - The queue is sorted by `niche_score = (AGI + G) × E × min(D, 3)`, with ties broken by seasonality urgency, then freshness risk. Production always takes the top of this queue. Head terms with a strong dedicated incumbent are logged as watch, not worked.
@@ -248,6 +256,134 @@ Out of scope (do not build, even if it seems helpful):
   - local and campus navigation content
   - Any capability with no covering skill becomes a skill-scout job. If nothing external beats baseline, the scout writes or improves the in-repo reference and benchmarks it.
 
+### Topic breadth: school and town
+
+- **R33.** Topic taxonomy. Create `docs/strategy/topic-taxonomy.md` and a matching topics seed covering, for the school:
+  - admissions and transfer (pathways, credit transfer, deadlines, internal transfer between colleges)
+  - academics (majors, minors, specific courses and prerequisites, course enrollment, grading, advising, study abroad)
+  - money (tuition, fees, aid, scholarships, work-study, cost of living)
+  - housing (on-campus halls, program houses, off-campus and Collegetown)
+  - food (dining halls, meal plans, cafes, grocery)
+  - getting around (buses, parking, bikes, walking routes, winter travel)
+  - health and wellbeing services (locations, hours, how to access; no medical advice)
+  - jobs, internships, career services
+  - clubs, Greek life, sports, recreation, gyms
+  - events and calendar (orientation, move-in, Slope Day, graduation)
+  - campus services (IDs, mail, printing, IT, libraries)
+  - parents and visitors (visiting, hotels, parking, tours)
+  - For the town:
+    - transit in and out (airport, buses to NYC and other cities, car rental)
+    - local transit
+    - neighborhoods
+    - off-campus housing and leases
+    - restaurants and food by need (late night, cheap, groceries)
+    - outdoors (gorges, trails, parks, including safety rules)
+    - weather and what to pack
+    - banking, phone, healthcare access
+    - jobs in town
+    - local government services students need (parking permits, voting registration info, leases and tenant rights from official sources)
+  - Each topic declares applicable audiences, freshness risk, and authoritative source families.
+- **R34.** Town entity harvesting. Extend R18 with a place entity scope (Ithaca and Tompkins County, NY) and official or authoritative town sources:
+  - city and county government sites
+  - the local transit agency
+  - airport and intercity bus operators
+  - NY State Parks
+  - the visitor bureau
+  - public library
+  - official business pages for factual details only (hours, address, prices)
+  - Town entities carry `place_id`, never an `institution_id` unless they are university-owned. Every new source goes through the existing permissions registry before any fetch.
+
+### Community research (Reddit and beyond)
+
+- **R35.** Source access modes. Every community or third-party source is registered with exactly one access mode, enforced by code in `permissions.py`:
+  - `search_observation`: only titles, URLs, dates, and snippets as they appear in search results. Used to detect recurring questions and demand. Allowed for any indexed site, including Reddit.
+  - `fetch_permitted`: full page fetch, only where robots.txt and the site's terms allow automated access. Recorded per domain with the date checked.
+  - `api_authorized`: an official API under terms that allow this use, with credentials in `.env`.
+  - `disabled`.
+  - The researcher may read full community content only in the last two modes. In `search_observation`, community items can create questions and demand evidence, but never quoted content or "what residents report" material. Seed sources to evaluate:
+    - Reddit (r/Cornell, r/ithaca)
+    - College Confidential
+    - The Cornell Sun and the Ithaca Voice
+    - Student Assembly documents
+    - YouTube titles
+    - Wikipedia
+    - official FAQs
+  - Each starts as `search_observation` until its terms are checked and recorded.
+- **R36.** Reddit specifically:
+  - Now: continuous discovery through `search_observation`. Search-intel runs `site:reddit.com/r/Cornell <topic>` and `site:reddit.com/r/ithaca <topic>` style searches for every topic and entity, recording thread titles, URLs, dates, and visible snippets as independent question occurrences (R20).
+  - Later (owner step): Ajay applies for Reddit Data API access for this use. When credentials exist, an `api_authorized` Reddit collector is enabled under SPEC §09 rules:
+    - question extraction, no identity profiling
+    - minimal retention, deletion compliance
+    - attributed synthesis with sample, period, and limits
+  - The collector must be built and tested now against fixtures, ready to switch on.
+- **R40.** The continuous sequence. Each run cycles these lanes per R24, so research never stops:
+  1. Harvest school and town entities (R18, R34).
+  2. Expand into query hypotheses across every topic (R19, R33).
+  3. Listen: community and search observation for real questions (R20, R35, R36).
+  4. Size up demand evidence and the authority gap (R20, R21).
+  5. Select the sweet-spot queue (R22).
+  6. Plan: the strategist picks the format and win plan (R14, R23).
+  7. Research primary sources, extract claims, resolve conflicts.
+  8. Write, then edit, then run the competitor-beat review (R37 to R39), then verify.
+  9. Publish (R8), then re-check (R15).
+  10. Feed results back into scoring and the pattern library, and return to step 1.
+  - Steps 1 to 4 run in batches in the discovery lane. Steps 5 to 9 run in the production lane. Every batch adds new questions, so the queue never runs dry.
+- **R41.** Mass sweep mode. `scripts/run.sh --mode sweep` runs the discovery lane at 100% until the whole school and town map is covered, then switches to the normal lane mix automatically. A sweep:
+  - harvests every entity for every R33 topic from all registered official sources in one pass (deterministic, no model)
+  - generates every query hypothesis from the pattern library
+  - runs search observation (including Reddit `site:` searches) over all of them in batches of 25, cheapest first, using the 14-day cache
+  - scores D, AGI, G, and E for every cluster
+  - It writes `docs/strategy/opportunity-map.md`, plus a sortable CSV at `build/opportunity-map.csv`, with every cluster's topic, entity, best query variant, D, AGI, G, E, niche_score, decision (sweet-spot / watch / reject / navigational), and the reason. Production then pulls from the top of that map. The sweep re-runs whenever a new topic, entity type, or school is added, and incrementally on each source's refresh date.
+- **R45.** Every page is SEO-optimized before it can publish. This is a hard gate, enforced by deterministic code in `seo.py` (new `seo_gate`), plus the seo agent's review against the strategist's win plan. A page that fails any item is held with the item named. Checks:
+  - Title tag: 60 characters or fewer, contains the primary target query (or its closest natural form), no clickbait, unique site-wide.
+  - Meta description: 120 to 155 characters, answers the query, unique site-wide.
+  - Headings: exactly one H1 matching search intent, with H2/H3s covering the secondary questions from search intel.
+  - URL: short, lowercase, hyphenated, follows the SPEC §20 URL policy (`/schools/<school>/<topic>/<slug>/`, `/towns/<town>/<topic>/<slug>/`), and is stable forever (changes need a 301).
+  - Answer first: the opening paragraph answers the primary query within 50 words, formatted to be quotable as a featured snippet. Steps are numbered lists, comparisons are tables, definitions are one sentence.
+  - Structured data: valid JSON-LD for the page type (Article; Place or CollegeOrUniversity for entities; BreadcrumbList on every page; FAQPage only when the questions are real observed ones). Validated by the existing structured-data validator.
+  - Internal links:
+    - at least 3 contextual links to related pages, plus a link up to the topic hub and the school or town hub, with descriptive anchor text
+    - at least 1 existing page updated to link back to the new page
+    - no orphan pages
+  - Canonical tag, sitemap entry with a lastmod that changes only on substantive updates, and indexable in production (noindex only in staging).
+  - Images, if any: rights recorded, descriptive alt text, explicit width/height, compressed.
+  - Performance: passes the existing Playwright screenshot QA at 5 widths with no horizontal overflow, and the page HTML plus CSS stays under 150 KB before images.
+  - Freshness: visible "Updated" date and the academic year on any time-bound fact.
+  - Cannibalization: the primary query is not targeted by any other published page (checked against the strategist's cluster map).
+
+### Scale to thousands of pages
+
+- **R42.** Two page tiers, so volume comes from data rather than filler.
+  - Tier 1, editorial guides: the full R16 pipeline (strategist, writer, editor, competitor-beat review, verifier), used for questions that need explanation, e.g. "is housing guaranteed for transfers."
+  - Tier 2, data profiles: one page per real entity (each residence hall, dining location, bus route, parking lot, library, course, major, club, park, trail, town service). These are rendered deterministically from verified claims through the existing entity_profile and comparison templates, with a short model-written intro and tradeoffs section. Model work is minimal, so cost per page is a fraction of Tier 1.
+  - Tier 2 publishes only when all of these hold:
+    - the entity has at least 6 verified claims of its own
+    - at least 1 observed query targets that entity
+    - its fact table shares less than 60% of rows with any other published page (computed by code)
+    - it passes the existing gates
+  - Comparison pages ("X vs Y") are generated only for pairs with an observed query. Never all combinations.
+- **R43.** Multi-school expansion. Once the Cornell + Ithaca opportunity map is complete and 10 pages have passed the competitor-beat review, expansion starts automatically, one school at a time, from `CAMPUS_EXPANSION_LIST` in `.env`. The default order:
+  - the top-25 transfer destinations (Northwestern, Columbia, UVA, Michigan, Penn, USC, NYU, UC Berkeley, UCLA, Georgetown, Duke, Vanderbilt, Notre Dame, Emory, UNC, Georgia Tech, UT Austin, CMU, Boston College, Rice, Tufts, WashU, Brown, Dartmouth)
+  - then large public flagships and community colleges by registry size
+  - Each new school and its town run onboarding, then IPEDS identity verification, then a sweep (R41), then production. Schools are processed in sequence, never in parallel, so one school's map finishes before the next starts.
+- **R44.** Volume targets and reporting. The digest and dashboard report:
+  - pages ready, live, and held, by tier, school, and topic
+  - the projected days to 1,000 and 5,000 ready pages at the current throughput
+  - There is no page-count quota on production. Volume is limited only by usage, verified evidence, and observed demand.
+
+### Writing quality
+
+- **R37.** Information gain. Before drafting, the planner lists what the top 3 observed results already say. The brief then requires at least 3 verified, decision-relevant facts, comparisons, or steps that none of them contain, each tied to a claim ID. A brief that can't meet this sets the cluster to watch instead of producing a thinner copy.
+- **R38.** Competitor-beat review. After editing, a fresh editor dispatch that has not seen the drafting conversation compares our draft with the top 3 results on the reader's task. It scores these 0 to 4: answers the question in the first 2 sentences, specificity, completeness, accuracy against sources, scannability, and local knowledge (correct local names, places, timing). The draft must beat every competitor on the total and score at least 3 on each item, or it goes back to the writer once with the findings. If it fails again, it's held with the reason. This review runs in addition to the existing rubric and gates.
+- **R39.** Style guide. Write `docs/editorial/style.md` (the writer and editor both load it). It covers:
+  - Answer first: the opening sentence answers the question.
+  - Specifics over adjectives: numbers, names, distances, dates, prices with academic year.
+  - Local terms explained once: e.g. "Collegetown," "the Slope," "TCAT."
+  - Short paragraphs, tables for comparisons, numbered steps for procedures.
+  - No filler or AI tells: extend the existing banned-openings list with common filler phrases ("in today's world," "navigating," "delve," "it's important to note," "whether you're... or..."). It's a deterministic check in `editorial/checks.py`.
+  - A clear byline policy: desk credit, automation disclosed.
+  - Exemplars: 2 accepted and 2 rejected example passages per page type, added as the first pages pass review.
+
 Non-functional:
 
 - Resumable: a crash loses at most the current stage. The next run continues from the DB queue and STATE.md with no duplicate jobs.
@@ -256,7 +392,7 @@ Non-functional:
 
 ## 5. Inputs, data & interfaces
 
-- `.env` (gitignored): `DATABASE_URL`, `CAMPUS_EXECUTION_MODE=session`, publish quotas, optional local WP credentials. `.env.example` lists names only.
+- `.env` (gitignored): `DATABASE_URL`, `CAMPUS_EXECUTION_MODE=session`, `CAMPUS_LIVE_RAMP`, optional local WP credentials. `.env.example` lists names only.
 - Hosted Postgres 15+ created by Ajay (e.g. Neon or Supabase free tier).
 - Headless CLI: `claude -p "<prompt>" --allowedTools <list> --permission-mode dontAsk --max-turns <n> --output-format json`. Before relying on each flag, check it against `claude --help` for the installed version, and adapt if one differs.
 - Subagent file format: check it against the installed Claude Code's docs (`/agents` or `claude --help`) before writing the files.
@@ -271,13 +407,16 @@ Non-functional:
 | When it runs | When Ajay starts it, until stopped or out of work | His call. No schedulers. |
 | Compute | In-session on subscription, no API key | No API billing. Dollar caps don't apply in session mode. |
 | Data store | Hosted Postgres | Survives restarts; readable from any session. |
-| Publishing | Auto-publish after gates, 1 new / 5 updates per day | Mass-publishing similar pages risks search penalties. |
+| Publishing | Unlimited production; unlimited local publish; live ramp 5/day for 14 days then 15/day, configurable | Maximum output now. Pacing only applies once pages are public, where a sudden flood risks search penalties. |
 | Loop driver | Bash loop of separate `claude -p` iterations | Fresh context per task; clean restarts. |
 | Agent model | Claude Code subagents mapped to the existing 12 role contracts + 3 new | Reuses tested contracts; one coordinator. |
 | Concurrency (owner override of SPEC §37) | Up to 4 parallel read-only agents; file-changing stages run one at a time; one delegation layer, no agent spawns agents | More throughput locally without edit conflicts. |
 | Search data | WebSearch tool + official pages + supplied exports, labeled as observed | No paid providers, no Google scraping. |
 | Targeting (owner override of SPEC §11 ordering) | Niche-first: decent demand + weak authority, sorted by niche_score; thresholds unchanged | Fastest path to ranking and traffic for a new domain. |
 | Query generation | Deterministic pattern library, not a model | Cheap, repeatable, auditable. |
+| Coverage | Any topic about the school or its town, starting with Cornell and Ithaca | Most niche, low-competition searches are outside housing. |
+| Community sources | Search-result observation now; full content only where terms allow or via official API | Keeps discovery continuous without legal or ban risk. |
+| Writing bar | Must beat the top 3 results on a blind review, with at least 3 new verified facts | Ranking and trust come from being clearly better, not longer. |
 | Lane mix | 50 production / 30 discovery / 20 maintenance, configurable | Always finding data without starving publishing. |
 | Architecture | Keep SPEC.md v3 | Built and tested; this adds an operating mode and agents. |
 
@@ -302,9 +441,12 @@ Must not:
   - link schemes or buying links
   - copying or spinning competitor content
   - fake FAQ questions or fake freshness (changing dates without substantive updates)
-- Publish above quota.
+- Go live above the configured ramp.
 - Write fake reviews, star ratings, or first-person resident experiences. "Review" intent is served by verified facts plus attributed, permitted experience evidence only.
 - Treat generated query hypotheses as observed demand.
+- Scrape Reddit or any site against its robots.txt or terms, use unofficial endpoints, or quote community content collected in `search_observation` mode.
+- Publish allegations about landlords, businesses, or people (SPEC §09: serious allegations need editorial handling). Hold them for Ajay.
+- Give medical, legal, or financial-eligibility determinations. Point readers to the official office instead.
 - Contact third parties or post anywhere.
 - Install unreviewed or unpinned skills, plugins, or MCP servers; install anything globally; or add paid tools.
 - Force-push, rewrite history, or commit secrets.
@@ -317,7 +459,7 @@ Enforced by hook / deny rule (in `.claude/settings.json`):
 - PreToolUse hook (exit 2) blocking edits to:
   - `SPEC.md` and `specs/**`
   - gate threshold constants in `worker/campus_worker/editorial/gates.py`
-  - publish-quota defaults in `config.py`
+  - live-ramp defaults in `config.py`
   - `.claude/settings.json` itself
 - PreToolUse hook blocking writes into `.claude/skills/` unless `docs/ops/skill-evaluations.md` already lists that skill as adopted with its SHA
 
@@ -331,7 +473,7 @@ Enforced by hook / deny rule (in `.claude/settings.json`):
 - [ ] **AT6.** A forced-failure test flag stops the loop after 3 consecutive failures (`consecutive_failures`).
 - [ ] **AT7.** A simulated usage-limit fixture exits 20 (`usage_paused`), with no retry inside 60 seconds.
 - [ ] **AT8.** In session mode, in-session work is never blocked by dollar caps and still writes ledger usage entries. API-mode cap tests still pass.
-- [ ] **AT9.** Quota 1 with 3 gated pages: 1 publishes, 2 queue.
+- [ ] **AT9.** With no live domain, 10 gated fixture pages all publish to the local build in one run, and none wait for a quota. With a live-domain fixture and ramp 5/day, exactly 5 of 10 go live in the first day, in niche_score order, and the other 5 stay ready. Production of new pages continues while pages wait.
 - [ ] **AT10.** All 15 agent files exist, parse, and declare a contract. A test dispatches each against a fixture packet, and every one returns JSON that validates against its schema.
 - [ ] **AT11.** Skill scout run: `docs/ops/skill-evaluations.md` lists at least 10 candidates with the R12 fields, at least 5 source-reviewed with accept/reject reasons, and benchmark results for every survivor against baseline. Any adopted skill is vendored with a SHA. Writing an unlisted skill into `.claude/skills/` is blocked by the hook.
 - [ ] **AT12.** Search intel for the Cornell transfer-housing cluster: `serp_intel.json` validates and has 2 variants with up to 10 observed results each, dated and labeled "observed via search tool".
@@ -361,6 +503,18 @@ Enforced by hook / deny rule (in `.claude/settings.json`):
 - [ ] **AT30.** A fresh Claude Code session in the repo lists national-college-publishing among available skills. It can open all 12 references through the symlink. `.claude/settings.json` is committed and loads without errors.
 - [ ] **AT31.** On the Mac, local WordPress staging starts, `cli status` shows the CMS adapter connected, and publishing the same fixture page twice creates no duplicate (hash no-op).
 - [ ] **AT32.** `scripts/backup.sh` against the hosted database and `scripts/restore_test.sh` into the local test DB both pass.
+- [ ] **AT33.** The topic taxonomy seed loads with every R33 school and town topic. A discovery batch produces sweet-spot candidates in at least 5 different non-housing topics, including at least 2 town topics, listed in the digest.
+- [ ] **AT34.** Town harvest stores Ithaca entities from at least 3 official town sources (e.g. transit routes, parks, city services), with `place_id`, source URL, and date, and no `institution_id`.
+- [ ] **AT35.** Access modes: unit tests show that `search_observation` sources cannot be fetched in full and cannot feed quotes or experience sections, and that unregistered domains are denied. Reddit is `search_observation` until credentials exist, and the fixture-tested `api_authorized` Reddit collector passes its tests without making network calls.
+- [ ] **AT36.** A live discovery batch records Reddit thread occurrences from search results for at least 10 topics or entities, as independent question evidence with URL and date.
+- [ ] **AT37.** Information gain: a fixture brief with fewer than 3 novel claim-linked items sets the cluster to watch. Every published page's brief lists at least 3, with claim IDs.
+- [ ] **AT38.** Competitor-beat review: the first published non-housing page includes a review record scoring it against the top 3 results on all 6 items, from an editor dispatch with no drafting context. A fixture draft that loses is sent back once, then held.
+- [ ] **AT39.** `docs/editorial/style.md` exists. The filler-phrase check flags a fixture full of AI tells and passes a clean fixture.
+- [ ] **AT40.** `scripts/run.sh --mode sweep --max 5` on Cornell + Ithaca produces `docs/strategy/opportunity-map.md` and `build/opportunity-map.csv` covering every R33 topic, with every cluster scored and given a decision. Search calls never repeat a cached query, and the loop switches to the normal lane mix once the map is complete.
+- [ ] **AT41.** Tier 2: from fixture claims, a hall with at least 6 verified claims and an observed query renders a profile that passes the gates. A hall with 4 claims, or one whose fact table overlaps another page by more than 60%, is not published. No "X vs Y" page is created without an observed query for that pair.
+- [ ] **AT42.** Expansion: with a fixture where Cornell's map is complete and 10 pages have passed, the next school in `CAMPUS_EXPANSION_LIST` is onboarded, verified, and swept, and the school after it waits. A fixture with 9 passed pages triggers no expansion.
+- [ ] **AT43.** The digest shows ready/live/held counts by tier, school, and topic, plus projected days to 1,000 and 5,000 ready pages, computed from actual run throughput.
+- [ ] **AT44.** SEO gate: unit tests with fixture pages fail on each R45 item individually (long title, duplicate meta, two H1s, missing breadcrumb JSON-LD, fewer than 3 internal links, orphan page, competing primary query) and pass on a compliant page. Every page published during this spec has a stored `seo_gate` pass record.
 - [ ] **AT27.** `docs/ops/skill-coverage.md` lists every R30 capability with a covering skill and eval score, or an open skill-scout job.
 
 Verification method: command output in the final report, plus commit SHAs and file paths.
@@ -370,14 +524,16 @@ Verification method: command output in the final report, plus commit SHAs and fi
 1. Mac parity: toolchain, local test DB, WordPress staging, backups (AT29, AT31, AT32)
 2. Doctor + hosted DB + rebuild from repo (AT1, AT2, AT28)
 3. Project skill + `.claude/settings.json` + guardrail hooks + CLAUDE.md section (AT30, AT17)
-4. Execution mode + publish quota (AT8, AT9)
+4. Execution mode + unthrottled production and live ramp (AT8, AT9)
 5. Run loop + stop conditions + run log (AT3 to AT7)
 6. Agent team: 15 subagent files + 3 new schemas + dispatch tests (AT10)
 7. Skill scout first pass + eval set + coverage matrix (AT11, AT27)
-8. Demand engine: harvest, expansion, AGI, sweet-spot queue, lane mix, funnel, cache (AT19 to AT24)
+8. Demand engine + mass sweep mode: harvest (school + town), topic taxonomy, expansion, access modes, Reddit search observation + fixture-tested API collector, AGI, sweet-spot queue, lane mix, funnel, cache (AT19 to AT24, AT33 to AT36, AT40)
 9. Search intel + strategist on Cornell housing (AT12, AT13)
-10. Cornell pipeline through R16: S4, S6, the first review-intent entity guide, then S5 (AT14, AT15, AT25)
-11. Digest with efficiency metrics + full regression (AT16, AT18, AT26)
+10. Two-tier pages + multi-school expansion + volume reporting (AT41 to AT43)
+11. Writing quality system + SEO gate: style guide, filler check, information gain, competitor-beat review, R45 checks (AT37 to AT39, AT44)
+12. Cornell pipeline through R16: S4, S6, the first review-intent entity guide, S5, then the first non-housing and first town page (AT14, AT15, AT25, AT38)
+13. Digest with efficiency metrics + full regression (AT16, AT18, AT26)
 
 Commit after each milestone.
 
@@ -405,7 +561,7 @@ Open a PR whose description is your final report.
 
 1. Before writing any code, give me a plan: restate the objective in one
    sentence, list the milestones in order, and map every acceptance test
-   (AT1 to AT32) to the step that satisfies it. List anything in the spec
+   (AT1 to AT44) to the step that satisfies it. List anything in the spec
    that is ambiguous, contradicts itself, or conflicts with the existing
    code, and confirm the installed claude CLI flags and subagent format.
 2. Do not change anything in "Decisions already made" or build anything in
