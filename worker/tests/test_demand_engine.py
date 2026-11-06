@@ -1,5 +1,6 @@
 """Demand engine (specs/continuous-local-run.md R18–R24, R33–R36, R41, R45, R46; AT19–AT24, AT33–AT35, AT40 fixture part, AT45, AT46 fixture part)."""
 import json
+import tempfile
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -289,7 +290,8 @@ def test_sweet_spot_queue_from_ten_fixture_clusters(clean_conn):
     assert scores == sorted(scores, reverse=True)
     assert any(w["label"] == "fixture hall" and "incumbent" in w["queue_reason"] for w in sweetspot.watch_list(clean_conn))
     # the map lists every cluster with a decision; priority recorded but not the advance rule
-    out = sweep.write_map(clean_conn, md_path=Path("/tmp/claude-501") / "opp.md" if Path("/tmp/claude-501").exists() else None)
+    scratch = Path(tempfile.mkdtemp(prefix="opp-map-"))  # never the real docs/strategy + build/ artifacts: the live sweep writes those
+    out = sweep.write_map(clean_conn, md_path=scratch / "opp.md", csv_path=scratch / "opp.csv")
     assert out["rows"] >= 10 and out["status"]["sweet_spot"] == 5  # follow-up questions from intel create extra (needs_intel) clusters
     with clean_conn.cursor() as cur:
         cur.execute("SELECT agi_detail->'priority' AS p FROM intent_clusters WHERE label='fixture hall review'")
