@@ -59,6 +59,10 @@ Spec: `specs/continuous-local-run.md` v2.5 (owner-approved). Plan and AT mapping
 - An absolute-path `cd … && .venv/bin/python …` was denied in dontAsk mode; every next-step hint and the prompt now use the allowlisted shapes.
 - The Mac slept mid-run once (the CLI reported "Your computer went to sleep mid-response"), which broke a verifier dispatch and two iterations; `caffeinate` cannot prevent lid-close sleep. Owner: keep the Mac awake (lid open or a keep-awake setting) for unattended runs.
 - Hosted-DB connections drop while an agent runs for minutes; pipeline stages now reconnect after every dispatch and after the render + screenshot QA, and the per-dispatch output files let a lost reply be re-ingested without a new dispatch.
+- `dontAsk` mode denies `cd worker && .venv/bin/python …` (verified with three headless probes) while `worker/.venv/bin/python -m campus_worker.<module>` is allowed; the prompt and every next-step hint now use the repo-root shapes, and the checks run as `worker/.venv/bin/pytest worker/tests`.
+- The first sweep batches exposed three defects: `run_score` after each batch re-scored all 1,230 clusters against the hosted DB (20+ minutes a batch) and reopened the 1,087 deferred clusters as `needs_intel`; a reply with an 11th result position failed the contract at the root, so the bounded repair could not see what to fix. Now each batch scores only its own clusters, re-scoring keeps the deferral and single-occurrence decisions, and contract errors name the deepest failing path.
+- Single-occurrence clusters without hypotheses are decided `watch` ("waiting for a second independent occurrence", R20) so the bounded sweep can reach `complete`.
+- The loop's own iterations fixed two test flakes under load (`CAMPUS_RUN_NO_DIGEST` for the run-loop tests; a connection fixture that tolerates a test-closed connection) and committed them with tests.
 
 ### Assumptions (session 3)
 - `living.cornell.edu` resolves (to a static-web load balancer) but never answers on 80 or 443; treated as a retired alias of `scl.cornell.edu` and reported as WARN, not a required failure. The housing source of record is `scl.cornell.edu`.
