@@ -29,6 +29,25 @@ def connect(database_url: str | None = None) -> psycopg.Connection:
     return psycopg.connect(url, row_factory=dict_row, autocommit=False, keepalives=1, keepalives_idle=60, keepalives_interval=20, keepalives_count=3)
 
 
+def ensure_conn(conn: psycopg.Connection | None, database_url: str | None = None) -> psycopg.Connection:
+    """Return `conn` if it still answers, else a fresh connection. A hosted DB drops connections that sit idle while an
+    agent runs for minutes; callers reassign `conn = ensure_conn(conn)` after every long dispatch."""
+    try:
+        if conn is not None and not conn.closed:
+            with conn.cursor() as cur:
+                cur.execute("SELECT 1")
+            conn.rollback()
+            return conn
+    except Exception:  # noqa: BLE001 — any failure means: reconnect
+        pass
+    try:
+        if conn is not None:
+            conn.close()
+    except Exception:  # noqa: BLE001
+        pass
+    return connect(database_url)
+
+
 @contextmanager
 def transaction(conn: psycopg.Connection) -> Iterator[psycopg.Cursor]:
     with conn.cursor() as cur:

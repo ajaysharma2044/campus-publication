@@ -235,6 +235,8 @@ def run_intel(conn: psycopg.Connection, *, batch: int, run_id: str | None = None
         from .agents.dispatch import DISPATCH_LOG_DEFAULT
         log_path = DISPATCH_LOG_DEFAULT  # the loop's dispatches must reach the dispatch log (R10, R29 metrics)
     res = search_intel.run_batch(conn, [UUID(str(x["cluster_id"])) for x in picked], settings=settings, run_id=run_id, log_path=log_path, **kw)
+    from .db import ensure_conn
+    conn = ensure_conn(conn)  # run_batch may have outlived the caller's connection
     scored = run_score(conn, run_id=run_id)
     summary = {k: v for k, v in res.items() if k != "results"}
     summary["clusters"] = len(picked)

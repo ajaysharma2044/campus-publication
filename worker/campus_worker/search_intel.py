@@ -250,6 +250,8 @@ def run_batch(conn: psycopg.Connection, cluster_ids: list[UUID], *, settings, ru
         from dataclasses import replace
         spec = replace(spec, max_turns=max_turns)
     res = dsp.dispatch(spec, packet, runner=runner, conn=conn, log_path=log_path)
+    from .db import ensure_conn
+    conn = ensure_conn(conn)  # the connection may have dropped while the agent ran
     if res.status not in ("ok", "hold") or not res.doc:
         return {"status": res.status, "dispatched": True, "errors": res.errors, "results": results}
     out = res.doc.get("output") or {}
