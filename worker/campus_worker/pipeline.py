@@ -728,15 +728,22 @@ def stage_publish(conn, cluster_id: UUID | None, *, version_id: UUID, settings, 
     return {"published": True, **res}
 
 
-def auto_cite(draft: dict, claims: list[dict]) -> dict:
+def auto_cite(draft: dict, claims: list[dict], *, exclude: set[str] | None = None, prefer: set[str] | None = None) -> dict:
     """Deterministic citation repair after an edit: a money or date claim whose value appears in the body or fact table is added to claim_refs,
     and a money/date value cited in prose without a fact-table row gets one (label from the field and audience). Never adds prose."""
     import calendar
     body = draft.get("body_markdown") or ""
-    table = list(draft.get("fact_table") or [])
-    refs = set(str(x) for x in draft.get("claim_refs") or [])
+    exclude = set(exclude or ())
+    prefer = set(prefer or ())
+    table = [r for r in (draft.get("fact_table") or []) if str(r.get("claim_id") or "") not in exclude]
+    refs = set(str(x) for x in draft.get("claim_refs") or []) - exclude
     table_text = " ".join(f"{r.get('label', '')} {r.get('value', '')}" for r in table)
-    for k in claims:
+    # when several claims share a value (the same date for different audiences), the verifier's preferred claims win and excluded ones never return
+    ranked = sorted(claims, key=lambda k: (0 if k["id"] in prefer else 1, 0 if k.get("audience") else 1))
+    seen_values: set[str] = set()
+    for k in ranked:
+        if k["id"] in exclude:
+            continue
         forms: list[str] = []
         if k["value_type"] == "money" and k["value"].startswith("$"):
             forms.append(k["value"].split(" ")[0])
@@ -747,8 +754,12 @@ def auto_cite(draft: dict, claims: list[dict]) -> dict:
             continue
         in_body = any(f in body for f in forms)
         in_table = any(f in table_text for f in forms)
-        if in_body or in_table:
+        value_key = forms[0]
+        if (in_body or in_table) and (value_key not in seen_values or k["id"] in prefer):
             refs.add(k["id"])
+            seen_values.add(value_key)
+        else:
+            continue
         if in_body and not in_table:
             label = k["field"].split(".")[-1].replace("_", " ")
             if k.get("audience"):
@@ -856,7 +867,21 @@ def correct(conn, version_id: UUID, *, settings, runner=dsp.cli_runner, log_path
     draft2 = dict(e["draft"], byline=v["byline"], fact_table=draft["fact_table"], next_actions=draft["next_actions"])
     ids_in_body = set(re.findall(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", draft2["body_markdown"]))
     draft2["claim_refs"] = sorted((set(draft["claim_refs"]) | ids_in_body) & approved)
-    draft2 = auto_cite(draft2, claims)
+    # the verifier's claim verdicts are deterministic instructions: wrong-scope/unsupported claims leave the page; claims it names as replacements are preferred
+    by_prefix = {k["id"][:8]: k["id"] for k in claims}
+    excluded = {w["claim_id"] for w in vc["not_supported"] if w.get("status") in ("wrong_scope", "unsupported", "stale", "conflicted")}
+    preferred: set[str] = set()
+    for x in vc["corrections"]:
+        for pfx in re.findall(r"\b([0-9a-f]{8})\b", x):
+            full = by_prefix.get(pfx)
+            if not full:
+                continue
+            if re.search(r"\b(remove|drop|delete)\b", x, re.I) and re.search(r"\b(row|claim)s? for " + pfx, x, re.I):
+                excluded.add(full)
+            if re.search(r"\b(use|replace with|instead)\b", x, re.I):
+                preferred.add(full)
+    draft2 = auto_cite(draft2, claims, exclude=excluded, prefer=preferred)
+    report["claims_excluded"] = sorted(x[:8] for x in excluded); report["claims_preferred"] = sorted(x[:8] for x in preferred)
     figs = lambda b: set(re.findall(r"\$[\d,]+|\b20\d\d-\d\d-\d\d\b|\b\d{1,2},\d{3}\b", b))
     facts_changed = figs(draft["body_markdown"]) != figs(draft2["body_markdown"]) or set(draft2["claim_refs"]) != set(draft["claim_refs"])
     det2 = deterministic_findings(conn, institution_id=v["institution_id"], page_id=v["page_id"], draft=draft2, critical_ids=crit, approved_ids=approved, academic_year="2026-27")
