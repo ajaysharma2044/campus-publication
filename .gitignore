@@ -11,3 +11,4 @@ backups/
 worker/.venv/
 .run/
 *.egg-info/
+.claude/settings.local.json

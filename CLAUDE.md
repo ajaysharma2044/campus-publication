@@ -37,3 +37,11 @@ python -m campus_worker.cli run-once        # one bounded scheduler tick
 python -m campus_worker.render.preview      # render static preview site to build/preview
 ```
 See `docs/ops/run.md` for setup, env vars (`.env.example`), rollback, and backup/restore.
+
+## Local run mode (specs/continuous-local-run.md)
+- Spec: `specs/continuous-local-run.md` (owner-only; propose changes in STATE.md). Plan + AT map: `docs/ops/continuous-local-run-plan.md`.
+- Start: `scripts/run.sh [--max N] [--mode sweep]` · stop: `scripts/stop.sh` · health: `scripts/doctor.sh` · rebuild DB from repo: `scripts/rebuild_from_repo.sh`.
+- Each iteration is one `claude -p` with `scripts/iteration_prompt.md`; the coordinator dispatches subagents in `.claude/agents/` (one per role contract) and is the only writer/committer.
+- Project skill: `.claude/skills/national-college-publishing` → symlink to `skills/national-college-publishing/` (one source of truth).
+- Guard: `.claude/settings.json` + `.claude/hooks/guard.sh` block edits to SPEC/specs, gate constants, live-ramp defaults, settings.json, and unlisted skills (`docs/ops/skill-evaluations.md`).
+- Reports: daily digest `docs/digest/YYYY-MM-DD.md`; run log `build/runs/<run-start>.jsonl`; `worker/.env` holds secrets and is never read by Claude.

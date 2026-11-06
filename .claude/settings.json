@@ -1,0 +1,90 @@
+{
+  "$comment": "Project settings for campus-publication (specs/continuous-local-run.md R32, §7). Committed. Machine-specific overrides go in .claude/settings.local.json (gitignored). This file is protected by .claude/hooks/guard.sh; owner edits only.",
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Edit(./.env)",
+      "Write(./.env)",
+      "Read(./worker/.env)",
+      "Edit(./worker/.env)",
+      "Write(./worker/.env)",
+      "Read(./**/.env)",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git push * --force*)",
+      "Bash(git push * -f*)",
+      "Bash(cat ./.env*)",
+      "Bash(cat worker/.env*)",
+      "Bash(sudo *)",
+      "Bash(brew install *)",
+      "Bash(npm install -g *)",
+      "Bash(pip install *)"
+    ],
+    "allow": [
+      "Read",
+      "Edit",
+      "Write",
+      "MultiEdit",
+      "Grep",
+      "Glob",
+      "Agent",
+      "Task",
+      "WebSearch",
+      "WebFetch",
+      "Bash(pytest *)",
+      "Bash(cd worker && pytest *)",
+      "Bash(cd worker && .venv/bin/pytest *)",
+      "Bash(worker/.venv/bin/pytest *)",
+      "Bash(python -m campus_worker.*)",
+      "Bash(cd worker && python -m campus_worker.*)",
+      "Bash(cd worker && .venv/bin/python -m campus_worker.*)",
+      "Bash(worker/.venv/bin/python -m campus_worker.*)",
+      "Bash(worker/.venv/bin/python scripts/*)",
+      "Bash(scripts/*)",
+      "Bash(bash scripts/*)",
+      "Bash(node scripts/*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push)",
+      "Bash(git push origin *)",
+      "Bash(git push -u origin *)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git rev-parse *)",
+      "Bash(git show *)",
+      "Bash(git branch*)",
+      "Bash(git fetch *)",
+      "Bash(gh pr *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(wc *)",
+      "Bash(grep *)",
+      "Bash(find *)",
+      "Bash(mkdir *)",
+      "Bash(date *)",
+      "Bash(echo *)",
+      "Bash(printf *)",
+      "Bash(curl -s *)",
+      "Bash(psql *)",
+      "Bash(test *)",
+      "Bash(jq *)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit|NotebookEdit|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/guard.sh",
+            "timeout": 20
+          }
+        ]
+      }
+    ]
+  }
+}
