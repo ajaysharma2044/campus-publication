@@ -158,3 +158,8 @@ OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + app
 - Checks: full pytest passed at start (exit 0); `scripts/doctor.sh` 0 required failures, 1 warning (living.cornell.edu).
 - Implemented `python -m campus_worker.sweep run-intel [--batch N]` (`sweep.run_intel`): picks up to 25 clusters, one `search_intel.run_batch` dispatch (validates + ingests), then `run_score`. `sweep next` now points at it. Test `test_sweep_run_intel_dispatches_one_batch_ingests_and_scores` added; `tests/test_demand_engine.py` passes. Full suite not re-run after the change (it exceeds the 120 s foreground limit); the next iteration's checks-first run covers it.
 - Not yet run live: 99 clusters still need search observation (sweep not complete). Next sweep iteration: `python -m campus_worker.sweep run-intel --batch 25`.
+
+### Iteration 1 (run 20261106T140001Z, sweep) — checks fix
+- Checks: first pytest run stopped at `tests/test_ensure_conn.py::test_closed_connection_is_replaced` (teardown error: the `conn` fixture called `rollback()` on a connection the test closed on purpose; `ensure_conn` itself was fine). Fixed `worker/tests/conftest.py` so teardown skips rollback/close when the connection is already closed. Re-run: full suite passed (exit 0). `test_ensure_conn.py` is now tracked.
+- `scripts/doctor.sh`: 1 required FAIL — `https://nces.ed.gov` HTTP 000 (external host unreachable from this machine; not fixable in the repo; blocks only IPEDS identity verification, see Next actions 2). Warning: living.cornell.edu (retired alias).
+- No discovery work done this iteration (checks were the unit of work).

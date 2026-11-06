@@ -26,8 +26,9 @@ def conn(migrated_url):
     try:
         yield c
     finally:
-        c.rollback()
-        c.close()
+        if not c.closed:  # a test may close it on purpose (test_ensure_conn)
+            c.rollback()
+            c.close()
 
 
 @pytest.fixture
