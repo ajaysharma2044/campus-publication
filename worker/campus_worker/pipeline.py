@@ -309,11 +309,15 @@ def ensure_research(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, 
         e = dict(cur.fetchone() or {})
     if not e:
         return {"status": "no_entity_row"}
-    have = lean.verified_claims_in_scope(conn, institution_id=None, place_id=None, topic_id=None, entity_id=e["id"])
-    if have:
-        return {"status": "has_facts", "verified_claims": have}
     attrs = e.get("attributes") or {}
     url = attrs.get("official_url") or attrs.get("url") or e.get("source_url")  # the entity's own page beats the list page it was harvested from
+    have = lean.verified_claims_in_scope(conn, institution_id=None, place_id=None, topic_id=None, entity_id=e["id"])
+    with conn.cursor() as cur:  # facts harvested from a list page are not research of the entity's own page: do that once
+        cur.execute("""SELECT count(*) AS n FROM claims c JOIN claim_sources cs ON cs.claim_id=c.id JOIN fetch_snapshots s ON s.id=cs.snapshot_id JOIN source_registry r ON r.id=s.source_id
+                       WHERE c.entity_id=%s AND r.canonical_url=%s""", (e["id"], url))
+        from_own_page = int(cur.fetchone()["n"])
+    if have and (from_own_page or not url):
+        return {"status": "has_facts", "verified_claims": have, "from_own_page": from_own_page}
     if not url:
         return {"status": "no_source_url"}
     with conn.cursor() as cur:
