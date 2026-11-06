@@ -231,6 +231,9 @@ def run_intel(conn: psycopg.Connection, *, batch: int, run_id: str | None = None
     if not picked:
         return {"status": "empty", "batch": 0}
     kw = {"runner": runner} if runner else {}
+    if log_path is None:
+        from .agents.dispatch import DISPATCH_LOG_DEFAULT
+        log_path = DISPATCH_LOG_DEFAULT  # the loop's dispatches must reach the dispatch log (R10, R29 metrics)
     res = search_intel.run_batch(conn, [UUID(str(x["cluster_id"])) for x in picked], settings=settings, run_id=run_id, log_path=log_path, **kw)
     scored = run_score(conn, run_id=run_id)
     summary = {k: v for k, v in res.items() if k != "results"}
