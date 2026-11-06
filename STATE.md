@@ -241,3 +241,7 @@ OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + app
 
 ## 2026-11-06 iteration 1 (run 20261106T205406Z)
 - Checks: pytest passed, doctor 0 required failures. `lanes next` returned "Cornell housing guaranteed"; `pipeline run` refused it as covered by the existing transfer-housing page and marked the cluster done (lean duplicate guard). A second `lanes next` reports no_work in all lanes.
+
+## 2026-11-06 iteration 1 (run 20261106T205632Z)
+- Checks: pytest passed (exit 0), doctor 0 required failures (warning: living.cornell.edu). `lanes next` -> discovery (production had no work; 1077 clusters need intel).
+- `sweep run-intel --batch 10` finished in the foreground (~100s, 15 search calls): 10 clusters ingested and scored: 5 watch, 1 sweet_spot, 2 navigational, 2 reject. The new sweet_spot cluster is available to production on the next `lanes next`.
