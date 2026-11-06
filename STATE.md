@@ -52,6 +52,10 @@ Spec: `specs/continuous-local-run.md` v2.5 (owner-approved). Plan and AT mapping
 - Claims added for the page during verification: `placement.first_year_residence_halls` and `process.guaranteed_waitlist` (verbatim sentences from the opened pages), `eligibility.residency_years_required` re-scoped to `first_second_year`.
 - Cost of the first live page (R29, from the ledger and dispatch log): 28 dispatches, 876 turns, 227 minutes across the day, which includes the fixes to the pipeline made while running it.
 
+### Sweep outcome (AT40 live, 2026-11-06)
+- The Cornell + Ithaca sweep is complete: 1,230 clusters (906 Cornell, 324 Ithaca) across all 40 R33 topics, every one scored and decided — 2 sweet-spot (both Cornell housing: "Do Cornell transfer students have to live on campus?" niche 80 and the North Campus transfer cluster 72), 1,161 watch (1,087 of them deferred beyond the first-day intel cap of 125, 18 waiting for a second independent occurrence, the rest observed with a dedicated incumbent), 55 reject, 11 navigational. `docs/strategy/opportunity-map.md` and `build/opportunity-map.csv` are the artifacts. `scripts/run.sh --mode sweep --max 5` (run 20261106T201209Z) found it complete in iteration 1, regenerated and committed the map, reported `sweep_complete`, and switched to the normal lane mix (R41).
+- What the sweep did not find yet: no non-housing sweet spot (AT33), no auto-created topic (AT46), 17 Reddit occurrences across 5 topics or entities (AT36 wants 10), and only 4–5 observed watch clusters each for alumni, parents and jobs (AT45 counts 8–9 only with deferrals). The deferred 1,087 clusters are the discovery lane's queue for the next days.
+
 ### Loop fixes found by the live runs (M5, 2026-11-06)
 - `run.sh` passed the allowlist word-split (`-m` became a CLI option: every iteration failed in 0 s); now one comma-joined argument with a `--print-argv` test.
 - Headless Claude Code kills a coordinator's background tasks 10 minutes after its last turn; `run.sh` now exports `CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0` and the prompt says to run long commands in the foreground.
