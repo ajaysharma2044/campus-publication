@@ -66,7 +66,7 @@ def discovery_item(conn, settings) -> dict | None:
         cur.execute("SELECT count(*) AS n FROM intent_clusters WHERE queue_state='needs_intel' OR (queue_state='candidate' AND last_intel_at IS NULL)")
         need = cur.fetchone()["n"]
     if need:
-        return {"kind": "search_intel_batch", "clusters_needing_intel": int(need), "batch_size": 10, "next": "cd worker && .venv/bin/python -m campus_worker.sweep intel --batch 10"}
+        return {"kind": "search_intel_batch", "clusters_needing_intel": int(need), "batch_size": 10, "next": "cd worker && .venv/bin/python -m campus_worker.sweep run-intel --batch 10"}
     with conn.cursor() as cur:
         cur.execute("SELECT count(*) AS n FROM entities e WHERE e.status='active' AND NOT EXISTS (SELECT 1 FROM questions q WHERE q.entity_id=e.id AND q.is_hypothesis)")
         unexpanded = cur.fetchone()["n"]
