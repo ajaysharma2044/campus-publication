@@ -151,7 +151,7 @@ def status(conn: psycopg.Connection) -> dict:
                               count(*) FILTER (WHERE queue_state='sweet_spot') AS sweet_spot, count(*) FILTER (WHERE queue_state='watch') AS watch,
                               count(*) FILTER (WHERE queue_state='reject') AS reject, count(*) FILTER (WHERE queue_state='navigational') AS navigational,
                               count(*) FILTER (WHERE queue_state IN ('candidate','needs_intel')) AS undecided,
-                              count(*) FILTER (WHERE c.last_intel_at IS NULL AND NOT {ELIGIBLE}) AS waiting_second_occurrence,
+                              count(*) FILTER (WHERE c.last_intel_at IS NULL AND c.queue_state IN ('candidate','needs_intel') AND NOT {ELIGIBLE}) AS waiting_second_occurrence,
                               count(*) FILTER (WHERE c.queue_state='watch' AND c.queue_reason LIKE 'deferred:%%') AS deferred FROM intent_clusters c""")
         c = dict(cur.fetchone())
         cur.execute("SELECT count(*) AS n FROM entities WHERE status='active'")
