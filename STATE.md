@@ -249,3 +249,7 @@ OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + app
 ## 2026-11-06 iteration 2 (run 20261106T205632Z)
 - Checks: pytest passed (exit 0), doctor 0 required failures (warning: living.cornell.edu). `lanes next` -> discovery (production and maintenance had no work; 1067 clusters need intel).
 - `sweep run-intel --batch 10` (foreground, ~161s, 11 search calls): 10 clusters ingested and scored: 3 watch, 4 reject, 3 navigational, no sweet_spot. 1057 clusters still need intel.
+
+## 2026-11-06 iteration 3 (run 20261106T205632Z)
+- Checks: pytest passed (exit 0), doctor 0 required failures (warning: living.cornell.edu). `lanes next` -> discovery (production and maintenance had no work; 1057 clusters needed intel).
+- `sweep run-intel --batch 10` (foreground, ~176s, 12 search calls): 10 clusters ingested and scored: 5 watch, 4 reject, 1 navigational, no sweet_spot. About 1047 clusters still need intel.
