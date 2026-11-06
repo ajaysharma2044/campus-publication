@@ -163,3 +163,7 @@ OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + app
 - Checks: first pytest run stopped at `tests/test_ensure_conn.py::test_closed_connection_is_replaced` (teardown error: the `conn` fixture called `rollback()` on a connection the test closed on purpose; `ensure_conn` itself was fine). Fixed `worker/tests/conftest.py` so teardown skips rollback/close when the connection is already closed. Re-run: full suite passed (exit 0). `test_ensure_conn.py` is now tracked.
 - `scripts/doctor.sh`: 1 required FAIL — `https://nces.ed.gov` HTTP 000 (external host unreachable from this machine; not fixable in the repo; blocks only IPEDS identity verification, see Next actions 2). Warning: living.cornell.edu (retired alias).
 - No discovery work done this iteration (checks were the unit of work).
+
+### Iteration 2 (run 20261106T140001Z, sweep) — checks fix
+- First full pytest stopped at `test_run_loop.py::test_usage_limit_exits_20_with_no_retry_inside_60s` (116s inside the full suite; 2.9s alone). The run-end digest was the only non-stub step, so `run.sh` now skips it when `CAMPUS_RUN_NO_DIGEST` is set and the run-loop tests set it (they no longer touch the DB or write digests). Root cause of the 116s was not independently proven. Re-run: 225 passed.
+- `scripts/doctor.sh`: 0 required failures, 1 warning (took over 5 minutes this run; worth a look). No discovery work this iteration.

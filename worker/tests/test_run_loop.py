@@ -21,7 +21,7 @@ R10_FIELDS = {"iteration", "start", "end", "task_id", "agents_dispatched", "resu
 
 def _env(tmp_path, **extra):
     env = dict(os.environ, CAMPUS_RUN_DIR=str(tmp_path / "run"), CAMPUS_RUN_LOG_DIR=str(tmp_path / "logs"), CAMPUS_RUN_NO_GIT="1",
-               CAMPUS_NO_CAFFEINATE="1", CAMPUS_ITERATION_CMD=str(STUB), CAMPUS_STUB_MARK_FILE=str(tmp_path / "marks.txt"))
+               CAMPUS_NO_CAFFEINATE="1", CAMPUS_RUN_NO_DIGEST="1",CAMPUS_ITERATION_CMD=str(STUB), CAMPUS_STUB_MARK_FILE=str(tmp_path / "marks.txt"))
     env.pop("DATABASE_URL", None)  # ledger write is skipped and noted; the loop must not depend on the DB
     env.update(extra)
     return env

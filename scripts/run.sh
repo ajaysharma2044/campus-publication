@@ -67,7 +67,7 @@ echo "run $RUN_START mode=$MODE model=$MODEL max=${MAX:-0} log=$RUN_LOG"
 # run one child, surviving trapped signals: a trapped INT interrupts `wait`, so re-wait until the child really exits
 run_child() { "$@" & local c=$!; local rc; while :; do wait "$c"; rc=$?; kill -0 "$c" 2>/dev/null || break; done; return "$rc"; }
 
-digest() { "$PY" -c 'import campus_worker.digest' 2>/dev/null && (cd "$ROOT/worker" && "$PY" -m campus_worker.digest --reason "$1" >/dev/null 2>&1 || true); }
+digest() { [ -n "${CAMPUS_RUN_NO_DIGEST:-}" ] && return 0; "$PY" -c 'import campus_worker.digest' 2>/dev/null && (cd "$ROOT/worker" && "$PY" -m campus_worker.digest --reason "$1" >/dev/null 2>&1 || true); }
 
 while :; do
   if [ -f "$STOP_FILE" ]; then STOP_REASON="stop_file"; EXIT=0; break; fi
