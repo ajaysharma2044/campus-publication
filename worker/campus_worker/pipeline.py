@@ -104,12 +104,16 @@ def human_value(r: dict) -> str:
     return r.get("value_text") or ""
 
 
-def claims_for_scope(conn, *, institution_id, topic_id, include_estimates: bool = False) -> list[dict]:
+def claims_for_scope(conn, *, institution_id, topic_id, include_estimates: bool = False, place_id=None) -> list[dict]:
     """Current claims for a school + topic with their first source excerpt, for packets and fact tables."""
     cats = ("verified_fact", "not_applicable") + (("estimate",) if include_estimates else ())
     with conn.cursor() as cur:
-        cur.execute("""SELECT c.* FROM claims c WHERE c.institution_id=%s AND (c.topic_id=%s OR c.topic_id IS NULL) AND c.superseded_by_id IS NULL AND c.conflict_status <> 'open'
-                         AND c.evidence_category = ANY(%s) ORDER BY c.field, c.room_type NULLS FIRST, c.audience_applicability""", (institution_id, topic_id, list(cats)))
+        if institution_id:
+            cur.execute("""SELECT c.* FROM claims c WHERE c.institution_id=%s AND (c.topic_id=%s OR c.topic_id IS NULL) AND c.superseded_by_id IS NULL AND c.conflict_status <> 'open'
+                             AND c.evidence_category = ANY(%s) ORDER BY c.field, c.room_type NULLS FIRST, c.audience_applicability""", (institution_id, topic_id, list(cats)))
+        else:  # a town scope: claims hang off the town's entities
+            cur.execute("""SELECT c.* FROM claims c JOIN entities e ON e.id=c.entity_id WHERE e.place_id=%s AND (c.topic_id=%s OR c.topic_id IS NULL) AND c.superseded_by_id IS NULL
+                             AND c.conflict_status <> 'open' AND c.evidence_category = ANY(%s) ORDER BY c.field, c.room_type NULLS FIRST, c.audience_applicability""", (place_id, topic_id, list(cats)))
         rows = [dict(r) for r in cur.fetchall()]
         cur.execute("""SELECT cs.claim_id, cs.excerpt, cs.locator, cs.snapshot_id, s.fetched_at, COALESCE(s.final_url, r.canonical_url) AS source_url, r.source_family, r.publisher,
                               r.source_kind, length(s.retained_text) AS text_chars, (s.final_url LIKE '%%#search-snippet%%' OR r.canonical_url LIKE '%%#search-snippet%%') AS is_snippet
@@ -228,11 +232,12 @@ def stage_research(conn, cluster_id: UUID, *, runner=dsp.cli_runner, log_path=No
     conn = _db(conn)
     stored = []
     if res.status in ("ok", "hold") and res.doc:
-        stored = store_research_claims(conn, c, (res.doc.get("output") or {}).get("claims") or [], snapshot_by_page=(packet_extra or {}).get("snapshot_by_page") or {})
+        stored = store_research_claims(conn, c, (res.doc.get("output") or {}).get("claims") or [], snapshot_by_page=(packet_extra or {}).get("snapshot_by_page") or {},
+                                       entity_id=(packet_extra or {}).get("entity_id"))
     return {"status": res.status, "errors": res.errors, "claims_stored": stored}
 
 
-def store_research_claims(conn, c: dict, items: list[dict], *, snapshot_by_page: dict) -> list[dict]:
+def store_research_claims(conn, c: dict, items: list[dict], *, snapshot_by_page: dict, entity_id=None) -> list[dict]:
     from datetime import date as _date
     from . import claims as cm
     from .types import ClaimRecord
@@ -246,7 +251,7 @@ def store_research_claims(conn, c: dict, items: list[dict], *, snapshot_by_page:
             continue
         vt = it.get("value_type")
         val = it.get("value")
-        kw = dict(institution_id=c["institution_id"], campus_id=campus, entity_id=None, topic_id=c["topic_id"], field=it["field"], value_type=vt,
+        kw = dict(institution_id=c["institution_id"], campus_id=campus, entity_id=entity_id, topic_id=c["topic_id"], field=it["field"], value_type=vt,
                   evidence_category=it["evidence_category"], extraction_method="model", extraction_model="session:researcher", extraction_confidence=it.get("confidence") or 0.8,
                   retrieved_at=now, academic_year=it.get("academic_year"), audience_applicability=it.get("audience_applicability") or [], billing_period=it.get("billing_period"),
                   price_basis=it.get("price_basis"), room_type=it.get("room_type"), unit=it.get("unit"), currency=it.get("currency"))
@@ -278,6 +283,64 @@ def _snapshot_family(conn, snapshot_id) -> str | None:
         cur.execute("SELECT r.source_family FROM fetch_snapshots s JOIN source_registry r ON r.id=s.source_id WHERE s.id=%s", (str(snapshot_id),))
         row = cur.fetchone()
     return row["source_family"] if row else None
+
+
+ENTITY_FIELDS = {
+    "residence_hall": "room types and their rates (per person, per semester or year, with the academic year), capacity or number of residents, who lives there (first-year, upper-level, program house), address or campus area, dining or meal-plan requirement, accessibility and air conditioning only if stated, year opened only if stated",
+    "dining_location": "location and campus area, hours by day as stated, meal-plan acceptance, payment options, dietary offerings only if stated",
+    "library": "address or building, hours as stated, who may use it, contact details only if stated",
+    "park": "address, hours, amenities, fees or permits as stated",
+    "bus_route": "route number and name, endpoints, days of service, headways or first and last trips as stated, fare as stated",
+    "town_service": "what the service does, address, hours, phone or email as stated, fees as stated",
+}
+
+
+def ensure_research(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path=None, run_id="adhoc") -> dict:
+    """LEAN MODE production: an entity cluster with no verified facts gets its official page fetched (robots and access modes honoured)
+    and the researcher dispatched on that page before planning. Returns what was collected and stored."""
+    from . import lean
+    from .collectors.html import collect_html_source, register_source
+    from .fetcher import SafeFetcher
+    c = _cluster(conn, cluster_id)
+    if not c.get("entity_id"):
+        return {"status": "not_entity"}
+    with conn.cursor() as cur:
+        cur.execute("SELECT id, name, entity_type, source_url, source_id, institution_id, campus_id, place_id FROM entities WHERE id=%s", (c["entity_id"],))
+        e = dict(cur.fetchone() or {})
+    if not e:
+        return {"status": "no_entity_row"}
+    have = lean.verified_claims_in_scope(conn, institution_id=None, place_id=None, topic_id=None, entity_id=e["id"])
+    if have:
+        return {"status": "has_facts", "verified_claims": have}
+    url = e.get("source_url")
+    if not url:
+        return {"status": "no_source_url"}
+    with conn.cursor() as cur:
+        cur.execute("SELECT id FROM source_registry WHERE canonical_url=%s", (url,))
+        row = cur.fetchone()
+    try:
+        sid = row["id"] if row else register_source(conn, canonical_url=url, institution_id=e.get("institution_id"), campus_id=e.get("campus_id"), place_id=e.get("place_id"),
+                                                     source_kind="official_html", publisher=c.get("school_name") or c.get("place_name"))
+    except Exception as ex:  # noqa: BLE001 — a domain the registry does not permit stays unfetched
+        return {"status": "not_permitted", "detail": str(ex)[:200]}
+    conn.commit()
+    res = collect_html_source(conn, SafeFetcher(conn), sid)
+    conn.commit()
+    if res.get("outcome") not in ("ok", "unchanged"):
+        return {"status": "fetch_" + str(res.get("outcome")), "detail": res.get("error")}
+    with conn.cursor() as cur:
+        cur.execute("SELECT id, retained_text FROM fetch_snapshots WHERE source_id=%s AND retained_text IS NOT NULL ORDER BY fetched_at DESC LIMIT 1", (sid,))
+        snap = cur.fetchone()
+    if not snap or len(snap["retained_text"] or "") < 200:
+        return {"status": "no_text", "snapshot_id": str(snap["id"]) if snap else None}
+    extra = {"pages": [{"key": "E1", "url": url, "snapshot_id": str(snap["id"]), "text": snap["retained_text"][:30000]}], "snapshot_by_page": {"E1": str(snap["id"])}, "entity_id": e["id"],
+             "entity": {"name": e["name"], "type": e["entity_type"]},
+             "fields_wanted": [ENTITY_FIELDS.get(e["entity_type"], "every dated, sourced fact about this entity the page states")],
+             "rules": ["Only facts the page states about " + e["name"] + "; audience_applicability from the page's own words; source_locator 'E1: <sentence>'; excerpt verbatim; academic_year exactly as stated or null; money in minor units with the basis.",
+                       "Fields use the claim taxonomy: rate.<room_type>, capacity.residents, placement.area, eligibility.<rule>, address.street, hours.<day_or_scope>, fee.<name>, contact.<kind>, amenity.<name> (boolean), route.<attribute>."]}
+    out = stage_research(conn, cluster_id, runner=runner, log_path=log_path, run_id=run_id, packet_extra=extra)
+    out["source_id"] = str(sid); out["snapshot_id"] = str(snap["id"])
+    return out
 
 
 def stage_plan(conn, cluster_id: UUID, *, claims: list[dict], win_plan: dict | None, competitors: list[dict], page_path: str, audience: str | None,
@@ -658,7 +721,11 @@ def run_r16(conn, cluster_id: UUID, *, settings, runner=dsp.cli_runner, log_path
                 plan_path = lean.default_page_path(conn, cluster_id=cluster_id)
         if not plan_path:
             raise StageRefused("no page path: neither an existing page nor a strategy win plan names this cluster")
-        claims = claims_for_scope(conn, institution_id=c["institution_id"], topic_id=c["topic_id"])
+        if lean.enabled() and c.get("entity_id"):
+            r = ensure_research(conn, cluster_id, settings=settings, runner=runner, log_path=log_path, run_id=run_id)
+            conn = _db(conn)
+            save("research", r)
+        claims = claims_for_scope(conn, institution_id=c["institution_id"], topic_id=c["topic_id"], place_id=c["place_id"])
         competitors = competitors_for_cluster(conn, cluster_id)
         report.update(page_path=plan_path, claims=len(claims), competitors=len(competitors), win_plan=bool(win))
         plan = stage_plan(conn, cluster_id, claims=claims, win_plan=win, competitors=competitors, page_path=plan_path, audience=audience or (existing or {}).get("audience") or c.get("audience"), notes=notes or [],
