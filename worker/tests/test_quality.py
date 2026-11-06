@@ -139,3 +139,9 @@ def test_towns_url_policy_and_title_limit():
     assert seo.classify_url("/towns/ithaca-ny/").indexable and not seo.classify_url("/towns/Ithaca/x/").indexable
     title, desc = seo.title_and_description("Fixture Hall: rooms, cost and what to know for transfer students in 2026-27", "deck", "The Campus Ledger")
     assert len(title) <= 60 + len(" — The Campus Ledger") + 2
+
+
+def test_seo_gate_treats_typographic_apostrophes_as_the_same_words():
+    from campus_worker import seo_gate
+    assert seo_gate._contains_query("What is Cornell’s current housing policy for transfer students?", "What is Cornell's current housing policy for transfer students?")
+    assert seo_gate._contains_query("Is Housing Guaranteed for Cornell Transfer Students?", "Is housing guaranteed for transfer students at Cornell?")

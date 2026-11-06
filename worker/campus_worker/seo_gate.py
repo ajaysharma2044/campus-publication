@@ -102,8 +102,9 @@ STOP = {"the", "a", "an", "is", "are", "do", "does", "at", "in", "for", "to", "o
 def _contains_query(title: str, query: str) -> bool:
     """The primary query or its closest natural form: every content word of the query (or an accepted natural form of an
     intent word) appears in the title."""
-    words = [w for w in re.findall(r"[a-z0-9']+", query.lower()) if w not in STOP]
-    t = title.lower()
+    norm = lambda x: x.lower().replace("\u2019", "'").replace("\u2018", "'").replace("\u201c", '"').replace("\u201d", '"')  # typographic quotes are the same words
+    words = [w for w in re.findall(r"[a-z0-9']+", norm(query)) if w not in STOP]
+    t = norm(title)
     for w in words:
         forms = INTENT_FORMS.get(w, (w,))
         if not any(f in t for f in forms) and w.rstrip("s") not in t:

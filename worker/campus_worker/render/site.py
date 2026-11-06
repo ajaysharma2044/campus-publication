@@ -154,7 +154,7 @@ def published_pages(conn: psycopg.Connection) -> list[dict]:
                               v.headline, v.deck, v.byline, v.created_at AS version_created_at, v.change_summary,
                               i.canonical_name AS school_name, i.slug AS school_slug, t.key AS topic_key, t.label AS topic_label
                        FROM pages p JOIN page_versions v ON v.id=p.current_version_id LEFT JOIN institutions i ON i.id=p.institution_id LEFT JOIN topics t ON t.id=p.topic_id
-                       WHERE v.gate_status='passed' AND p.status NOT IN ('held','redirected','retired','planned')
+                       WHERE v.gate_status='passed' AND (p.status NOT IN ('held','redirected','retired','planned') OR (p.status='held' AND p.revalidation_reason LIKE 'seo_gate failed%%'))
                        ORDER BY COALESCE(p.last_material_update_at, p.local_published_at, v.created_at) DESC""")
         return [dict(r) for r in cur.fetchall()]
 

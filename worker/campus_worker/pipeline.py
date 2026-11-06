@@ -547,10 +547,13 @@ def qa_overflow(out_root: Path) -> tuple[list[int], int]:
         return [], 0
     qa_dir = out_root / "qa"
     r = subprocess.run([node, str(REPO_ROOT / "scripts" / "qa_screens.js"), str(out_root), str(qa_dir)], capture_output=True, text=True, timeout=900, cwd=str(REPO_ROOT))
-    widths = sorted({int(w) for w in re.findall(r"overflow[^\n]*?(\d{3,4})px", r.stdout + r.stderr)})
-    checked = len(set(re.findall(r"\b(360|390|768|1024|1280|1440)\b", r.stdout))) or 5
-    if r.returncode != 0 and not widths:
-        widths = [0]
+    text = r.stdout + r.stderr
+    # qa_screens.js prints "pages×widths: N; problems: M" and one " - <url> @<width>: overflow=<bool> ..." line per problem
+    widths = sorted({int(w) for w in re.findall(r"@(\d{3,4}): overflow=true", text)})
+    m = re.search(r"pages.widths: (\d+); problems: (\d+)", text)
+    checked = 5 if m and int(m.group(1)) > 0 else 0
+    if r.returncode != 0 and not m:
+        widths = widths or [0]
     return widths, checked
 
 
