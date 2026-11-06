@@ -130,3 +130,15 @@ def test_runlog_classifier_direct():
     assert m.classify({"is_error": False, "result": 'done {"iteration_summary": {"task_id": "S4", "result": "held"}}'}, "", "", 0) == ("held", {"task_id": "S4", "result": "held"})
     assert m.classify(None, "garbage", "", 0)[0] == "failed"
     assert m.extract_summary('x {"a": {"iteration_summary": {"task_id": "T"}}} y')["task_id"] == "T"
+
+
+def test_allowlist_reaches_the_cli_as_one_comma_joined_argument():
+    """A pattern with spaces (Bash(python -m campus_worker.*)) must not be word-split into a stray -m option (AT3 live failure 2026-11-06)."""
+    import subprocess
+    r = subprocess.run(["bash", str(ROOT / "scripts" / "run.sh"), "--print-argv", "--max", "1"], capture_output=True, text=True, timeout=60, cwd=str(ROOT),
+                       env=dict(os.environ, CAMPUS_NO_CAFFEINATE="1", CAMPUS_RUN_DIR=str(ROOT / "build" / "runs" / "argv-test")))
+    assert r.returncode == 0, r.stderr[-500:]
+    argv = r.stdout.splitlines()
+    assert argv[0] == "claude" and "--allowedTools" in argv
+    allowed = argv[argv.index("--allowedTools") + 1]
+    assert allowed == argv[-1] and "Bash(python -m campus_worker.*)" in allowed.split(",") and "-m" not in argv

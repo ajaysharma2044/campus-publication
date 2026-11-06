@@ -22,6 +22,7 @@ while [ $# -gt 0 ]; do
   case "$1" in
     --max) MAX="$2"; shift 2;;
     --mode) MODE="$2"; shift 2;;
+    --print-argv) PRINT_ARGV=1; shift;;
     --model) MODEL="$2"; shift 2;;
     --max-turns) MAX_TURNS="$2"; shift 2;;
     --force-fail) FORCE_FAIL=1; shift;;
@@ -54,7 +55,9 @@ trap on_int INT TERM
 
 cd "$ROOT"
 PROMPT_FILE="$ROOT/scripts/iteration_prompt.md"
-ALLOWED="$(tr '\n' ' ' < "$ROOT/scripts/iteration_tools.txt")"
+# one comma-joined argument: a pattern such as "Bash(python -m campus_worker.*)" must reach the CLI as one token, never word-split
+ALLOWED="$(grep -v '^\s*$' "$ROOT/scripts/iteration_tools.txt" | paste -sd, -)"
+if [ "${PRINT_ARGV:-0}" = 1 ]; then printf '%s\n' claude -p "<prompt>" --output-format json --permission-mode dontAsk --model "$MODEL" --max-turns "$MAX_TURNS" --allowedTools "$ALLOWED"; cleanup; trap - EXIT; exit 0; fi
 ITER=0; FAILS=0; STOP_REASON=""; EXIT=0; LAST_DAY="$(date -u +%F)"
 echo "run $RUN_START mode=$MODE model=$MODEL max=${MAX:-0} log=$RUN_LOG"
 
@@ -79,11 +82,11 @@ while :; do
   else
     PROMPT="$(sed -e "s/{{ITERATION}}/$ITER/g" -e "s/{{MODE}}/$MODE/g" -e "s/{{RUN_ID}}/$RUN_START/g" "$PROMPT_FILE")"
     run_child claude -p "$PROMPT" --output-format json --permission-mode dontAsk --model "$MODEL" --max-turns "$MAX_TURNS" \
-        --allowedTools $ALLOWED > "$OUT" 2> "$ERR" < /dev/null; CODE=$?
+        --allowedTools "$ALLOWED" > "$OUT" 2> "$ERR" < /dev/null; CODE=$?
     if grep -q "unknown option '--max-turns'" "$ERR" 2>/dev/null; then
       echo "note: installed claude has no --max-turns; retrying this iteration without it (turn budget via prompt)"
       run_child claude -p "$PROMPT" --output-format json --permission-mode dontAsk --model "$MODEL" \
-          --allowedTools $ALLOWED > "$OUT" 2> "$ERR" < /dev/null; CODE=$?
+          --allowedTools "$ALLOWED" > "$OUT" 2> "$ERR" < /dev/null; CODE=$?
     fi
   fi
   END="$(date -u +%FT%TZ)"; DUR=$(( $(date +%s) - T0 ))
