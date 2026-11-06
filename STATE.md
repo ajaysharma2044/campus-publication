@@ -142,6 +142,12 @@ OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + app
 - Model price table in `budget.MODEL_PRICE_PER_MTOK_MINOR` is an upper-bound placeholder for reservations; replace from the provider's current price list before connecting a key.
 - Thresholds (priority 65, E/G ≥ 3, rubric 20/24, similarity 0.82) are unvalidated starting policy.
 
+## Run 20261106T140001Z iteration 4 (sweep)
+- pytest passed; doctor: 0 required failures (1 warning: living.cornell.edu).
+- `sweep run-intel --batch 25` exceeded the 600s foreground cap and was killed with no output. Nothing was committed.
+- `sweep status` before the run: need_intel 50, watch 1128. After the kill: need_intel 462, watch 709. This change is unexplained. Check whether the killed run left partial scoring writes before the next run-intel.
+- Next: use a smaller `--batch` (for example 10), or raise the foreground cap, so one batch finishes inside 600s.
+
 ## Next actions (in order)
 1. Owner supplies OD1 → run `python -m campus_worker.calibration` path with `AnthropicProvider` (one real Sonnet worker, one real Opus review), compare against the scripted report, record resolved model ids.
 2. Owner supplies OD9 or files → register Cornell housing sources (`scl.cornell.edu`, `living.cornell.edu`), run `collect_source` → `extract_claims`, verify Cornell identity against the IPEDS release, then exercises 1–3 on real records (still staging, draft status).
