@@ -107,8 +107,9 @@ def record_snapshot(conn: psycopg.Connection, source_id: UUID, *, final_url: str
     return sid
 
 
-def collect_html_source(conn: psycopg.Connection, fetcher: SafeFetcher, source_id: UUID) -> dict:
-    """Fetch one registered HTML source and record a snapshot. Returns a summary dict."""
+def collect_html_source(conn: psycopg.Connection, fetcher: SafeFetcher, source_id: UUID, *, force: bool = False) -> dict:
+    """Fetch one registered HTML source and record a snapshot. Returns a summary dict. force=True skips conditional
+    headers (re-extract after an extractor fix even when the page itself did not change)."""
     with conn.cursor() as cur:
         cur.execute("SELECT r.canonical_url, p.retention_policy FROM source_registry r LEFT JOIN source_permissions p ON p.id=r.permission_id WHERE r.id=%s", (source_id,))
         src = cur.fetchone()
@@ -117,7 +118,7 @@ def collect_html_source(conn: psycopg.Connection, fetcher: SafeFetcher, source_i
     url = src["canonical_url"]
     retention = src["retention_policy"] or "excerpts_only"
     try:
-        res: FetchResult = fetcher.fetch(url, expected_types=("text/html", "application/xhtml+xml"))
+        res: FetchResult = fetcher.fetch(url, expected_types=("text/html", "application/xhtml+xml"), use_conditional=not force)
     except FetchRefused as e:
         outcome = {"permission_denied": "blocked", "redirect_permission_denied": "redirect_rejected", "private_address": "redirect_rejected",
                    "oversized": "oversized", "unexpected_content_type": "unexpected_type", "robots_disallow": "blocked"}.get(e.reason, "error")

@@ -91,16 +91,24 @@ def store_claim(conn: psycopg.Connection, c: ClaimRecord, *, snapshot_id: UUID |
             conn.commit()
             return StoreResult(cid, "created")
         current = existing[0]
+        weak_current = current["evidence_category"] in ("estimate", "unknown") and current["conflict_status"] != "open"
         if _values_equal(current, c):
             # same value from another source: add provenance, refresh retrieved_at/verification due
             _link(cur, current["id"], snapshot_id, excerpt, locator)
             cur.execute("UPDATE claims SET retrieved_at=GREATEST(retrieved_at,%s), verification_due_at=%s WHERE id=%s",
                         (c.retrieved_at, c.retrieved_at + timedelta(days=90), current["id"]))
+            if weak_current and c.evidence_category == "verified_fact":
+                # an opened primary source confirms a snippet estimate: the claim is now verified (continuous-local-run S4)
+                cur.execute("UPDATE claims SET evidence_category='verified_fact', extraction_method=%s, extraction_model=%s, extraction_confidence=%s WHERE id=%s",
+                            (c.extraction_method, c.extraction_model, c.extraction_confidence, current["id"]))
+                conn.commit()
+                return StoreResult(current["id"], "verified")
             conn.commit()
             return StoreResult(current["id"], "confirmed")
         same_family = source_family is not None and current["families"] and source_family in (current["families"] or [])
         newer_effective = (c.effective_from is not None and current["effective_from"] is not None and c.effective_from > current["effective_from"])
-        if same_family or newer_effective:
+        # an opened primary source beats a snippet estimate outright: supersede, never a conflict between a guess and a fact
+        if same_family or newer_effective or (weak_current and c.evidence_category == "verified_fact"):
             cid = _insert_claim(cur, c)
             _link(cur, cid, snapshot_id, excerpt, locator)
             cur.execute("UPDATE claims SET superseded_by_id=%s, evidence_category=CASE WHEN evidence_category='verified_fact' THEN 'stale' ELSE evidence_category END WHERE id=%s", (cid, current["id"]))
