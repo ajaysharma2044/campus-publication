@@ -61,8 +61,10 @@ def run_expand(conn: psycopg.Connection) -> dict:
     out = []
     for s in sc["schools"]:
         out.append(dict(expand.expand_scope(conn, institution_id=s["id"], campus_id=s["campus_id"], school_name=_short_name(s["canonical_name"])), scope=s["slug"]))
+        out.append(dict(expand.expand_topics(conn, institution_id=s["id"], campus_id=s["campus_id"], school_name=_short_name(s["canonical_name"])), scope=s["slug"], kind="topics"))
     for t in sc["towns"]:
         out.append(dict(expand.expand_scope(conn, place_id=t["id"], town_name=t["name"]), scope=t["slug"]))
+        out.append(dict(expand.expand_topics(conn, place_id=t["id"], town_name=t["name"]), scope=t["slug"], kind="topics"))
     return {"expanded": out, "stats": expand.hypothesis_stats(conn)}
 
 
@@ -75,14 +77,47 @@ def _short_name(name: str) -> str:
 ELIGIBLE = "(c.hypothesis_count > 0 OR c.independent_occurrences >= 2)"
 
 
+PRIORITY_PATTERNS = ("topic_seed", "review", "cost", "vs", "good_for_transfers", "hours", "schedule", "apply", "requirements", "prereq")
+SWEEP_INTEL_CAP_DEFAULT = 300
+
+
+def sweep_cap() -> int:
+    return int(os.environ.get("CAMPUS_SWEEP_INTEL_CAP", SWEEP_INTEL_CAP_DEFAULT))
+
+
+def _priority_sql() -> str:
+    cases = " ".join(f"WHEN q.pattern_key='{p}' THEN {i}" for i, p in enumerate(PRIORITY_PATTERNS))
+    return f"(SELECT min(CASE {cases} ELSE 50 END) FROM questions q WHERE q.cluster_id=c.id)"
+
+
 def intel_batch(conn: psycopg.Connection, *, batch: int) -> list[dict]:
-    """Clusters needing search observation, cheapest first: most demand evidence, then most hypotheses, oldest first."""
+    """Clusters needing search observation, cheapest/most valuable first: observed demand, then topic-seed and high-value
+    patterns (review, cost, vs, …), then everything else, oldest first."""
     with conn.cursor() as cur:
         cur.execute(f"""SELECT c.id AS cluster_id, c.label, c.best_variant, t.key AS topic_key, c.observed_count, c.hypothesis_count, c.institution_id, c.place_id
                         FROM intent_clusters c LEFT JOIN topics t ON t.id=c.topic_id
                         WHERE c.last_intel_at IS NULL AND c.queue_state IN ('candidate','needs_intel') AND {ELIGIBLE}
-                        ORDER BY c.observed_count DESC, c.hypothesis_count DESC, c.created_at LIMIT %s""", (batch,))
+                        ORDER BY c.observed_count DESC, {_priority_sql()} ASC, c.hypothesis_count DESC, c.created_at LIMIT %s""", (batch,))
         return [dict(r) for r in cur.fetchall()]
+
+
+def defer_beyond_cap(conn: psycopg.Connection, *, cap: int | None = None) -> int:
+    """R41 bounded sweep: clusters beyond the intel cap (lowest priority first) are decided 'watch' with a deferral reason and
+    observed later in the normal discovery lane. Returns how many were deferred."""
+    cap = sweep_cap() if cap is None else cap
+    with conn.cursor() as cur:
+        cur.execute(f"""SELECT c.id FROM intent_clusters c WHERE c.last_intel_at IS NULL AND c.queue_state IN ('candidate','needs_intel') AND {ELIGIBLE}
+                        ORDER BY c.observed_count DESC, {_priority_sql()} ASC, c.hypothesis_count DESC, c.created_at""")
+        ids = [r["id"] for r in cur.fetchall()]
+        cur.execute("SELECT count(*) AS n FROM intent_clusters WHERE last_intel_at IS NOT NULL")
+        observed = cur.fetchone()["n"]
+        room = max(0, cap - int(observed))
+        deferred = ids[room:]
+        if deferred:
+            cur.execute("""UPDATE intent_clusters SET queue_state='watch', queue_reason='deferred: beyond the sweep intel cap; the discovery lane observes it later (R41)', updated_at=now()
+                           WHERE id = ANY(%s)""", (deferred,))
+    conn.commit()
+    return len(deferred)
 
 
 def run_score(conn: psycopg.Connection, *, run_id: str | None = None) -> dict:
@@ -96,11 +131,12 @@ def run_score(conn: psycopg.Connection, *, run_id: str | None = None) -> dict:
 
 def status(conn: psycopg.Connection) -> dict:
     with conn.cursor() as cur:
-        cur.execute(f"""SELECT count(*) AS clusters, count(*) FILTER (WHERE c.last_intel_at IS NULL AND {ELIGIBLE}) AS need_intel,
+        cur.execute(f"""SELECT count(*) AS clusters, count(*) FILTER (WHERE c.last_intel_at IS NULL AND c.queue_state IN ('candidate','needs_intel') AND {ELIGIBLE}) AS need_intel,
                               count(*) FILTER (WHERE queue_state='sweet_spot') AS sweet_spot, count(*) FILTER (WHERE queue_state='watch') AS watch,
                               count(*) FILTER (WHERE queue_state='reject') AS reject, count(*) FILTER (WHERE queue_state='navigational') AS navigational,
                               count(*) FILTER (WHERE queue_state IN ('candidate','needs_intel')) AS undecided,
-                              count(*) FILTER (WHERE c.last_intel_at IS NULL AND NOT {ELIGIBLE}) AS waiting_second_occurrence FROM intent_clusters c""")
+                              count(*) FILTER (WHERE c.last_intel_at IS NULL AND NOT {ELIGIBLE}) AS waiting_second_occurrence,
+                              count(*) FILTER (WHERE c.queue_state='watch' AND c.queue_reason LIKE 'deferred:%%') AS deferred FROM intent_clusters c""")
         c = dict(cur.fetchone())
         cur.execute("SELECT count(*) AS n FROM entities WHERE status='active'")
         c["entities"] = cur.fetchone()["n"]
@@ -120,6 +156,9 @@ def next_step(conn: psycopg.Connection, *, batch: int = BATCH_SWEEP) -> dict:
         unexpanded = cur.fetchone()["n"]
     if unexpanded:
         return {"step": "expand", "detail": {"entities_without_hypotheses": int(unexpanded)}, "command": "python -m campus_worker.sweep expand", "status": st}
+    if st["need_intel"]:
+        defer_beyond_cap(conn)
+        st = status(conn)
     if st["need_intel"]:
         b = intel_batch(conn, batch=batch)
         return {"step": "intel", "detail": {"batch": [{"cluster_id": str(x["cluster_id"]), "label": x["label"], "topic": x["topic_key"]} for x in b], "remaining": st["need_intel"]},

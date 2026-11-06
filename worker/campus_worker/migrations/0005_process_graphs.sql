@@ -43,3 +43,4 @@ ALTER TABLE page_versions ADD COLUMN beat_review JSONB;    -- R38 record: scores
 ALTER TABLE page_versions ADD COLUMN seo_gate JSONB;       -- R45 record: per-item pass/fail, outcome
 ALTER TABLE page_versions ADD COLUMN information_gain JSONB;  -- R37: items with claim ids, competitors_say
 ALTER TABLE pages ADD COLUMN primary_query TEXT;           -- R45 cannibalization check
+ALTER TABLE serp_cache ADD COLUMN demand_evidence JSONB NOT NULL DEFAULT '[]'::jsonb;   -- R20 evidence reported with the observation

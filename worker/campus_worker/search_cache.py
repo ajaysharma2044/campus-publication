@@ -41,16 +41,19 @@ def get_many(conn: psycopg.Connection, queries: list[str], *, days: int, now: da
 
 
 def store(conn: psycopg.Connection, query: str, *, results: list[dict], follow_up_questions: list[str] | None = None,
-          community_occurrences: list[dict] | None = None, navigational: bool = False, observed_at: datetime | None = None, provider: str = "websearch") -> UUID:
+          community_occurrences: list[dict] | None = None, navigational: bool = False, observed_at: datetime | None = None, provider: str = "websearch",
+          demand_evidence: list[dict] | None = None) -> UUID:
     observed_at = observed_at or datetime.now(timezone.utc)
     with conn.cursor() as cur:
         cur.execute(
-            """INSERT INTO serp_cache (query_norm, query_text, observed_at, provider, results, follow_up_questions, community_occurrences, navigational)
-               VALUES (%s,%s,%s,%s,%s::jsonb,%s::jsonb,%s::jsonb,%s)
+            """INSERT INTO serp_cache (query_norm, query_text, observed_at, provider, results, follow_up_questions, community_occurrences, navigational, demand_evidence)
+               VALUES (%s,%s,%s,%s,%s::jsonb,%s::jsonb,%s::jsonb,%s,%s::jsonb)
                ON CONFLICT (query_norm) DO UPDATE SET query_text=EXCLUDED.query_text, observed_at=EXCLUDED.observed_at, provider=EXCLUDED.provider,
-                 results=EXCLUDED.results, follow_up_questions=EXCLUDED.follow_up_questions, community_occurrences=EXCLUDED.community_occurrences, navigational=EXCLUDED.navigational
+                 results=EXCLUDED.results, follow_up_questions=EXCLUDED.follow_up_questions, community_occurrences=EXCLUDED.community_occurrences, navigational=EXCLUDED.navigational,
+                 demand_evidence=EXCLUDED.demand_evidence
                RETURNING id""",
-            (query_norm(query), query, observed_at, provider, json.dumps(results[:10]), json.dumps(follow_up_questions or []), json.dumps(community_occurrences or []), navigational),
+            (query_norm(query), query, observed_at, provider, json.dumps(results[:10]), json.dumps(follow_up_questions or []), json.dumps(community_occurrences or []), navigational,
+             json.dumps(demand_evidence or [])),
         )
         rid = cur.fetchone()["id"]
     conn.commit()

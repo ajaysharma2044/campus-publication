@@ -241,8 +241,20 @@ def _dispatch_once(agent: AgentSpec, packet: dict, prompt: str, *, runner: Runne
 
 
 def _log(res: DispatchResult, path: Path, *, iteration: int | None) -> None:
+    """One JSON line per dispatch, plus the full reply saved next to the log (agent-output/<ts>-<agent>-<task>.json) so a
+    failure after the dispatch (ingest, DB) never loses the agent's work."""
     path.parent.mkdir(parents=True, exist_ok=True)
+    ts = time.strftime("%Y%m%dT%H%M%SZ", time.gmtime())
     entry = dict(res.as_dict(), ts=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), iteration=iteration, run_id=os.environ.get("CAMPUS_RUN_ID"))
+    try:
+        outdir = path.parent / "agent-output"
+        outdir.mkdir(parents=True, exist_ok=True)
+        safe_task = re.sub(r"[^A-Za-z0-9_.-]+", "_", str(res.task_id or "task"))[:60]
+        outfile = outdir / f"{ts}-{res.agent}-{safe_task}.json"
+        outfile.write_text(json.dumps({"agent": res.agent, "task_id": res.task_id, "status": res.status, "errors": res.errors, "doc": res.doc, "raw": (res.raw or "")[:200000]}, default=str))
+        entry["output_file"] = str(outfile)
+    except OSError:
+        pass
     with path.open("a", encoding="utf-8") as fh:
         fh.write(json.dumps(entry, default=str) + "\n")
 

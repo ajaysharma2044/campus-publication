@@ -3,7 +3,7 @@
 For the top 5 observed results of each variant each result is scored for strength in [0, 1]:
   dedicated page about exactly this question 0.35 · complete answer 0.30 · current 0.20 · evidence/sources 0.15
 (partial answers earn half of "complete"; unknown freshness earns half of "current"; a result that is not dedicated to the
-question is capped at 0.6 of its strength). Positions 4–5 are weighted 0.8.
+question is capped at 0.6 of its strength; a stale result at 0.4). Positions 4–5 are weighted 0.8.
 AGI = round(5 × (1 − strongest weighted result)), clamped to 0–5:
   high when results are mostly forums, outdated pages, thin aggregators or partly-answering official pages;
   low when a dedicated, current, complete page already ranks.
@@ -16,6 +16,7 @@ from dataclasses import dataclass, field
 
 W_DEDICATED, W_COMPLETE, W_CURRENT, W_SOURCED = 0.35, 0.30, 0.20, 0.15
 NON_DEDICATED_CAP = 0.6
+STALE_CAP = 0.4
 WEAK_TYPES = {"forum"}
 
 
@@ -47,6 +48,8 @@ def result_strength(r: dict) -> float:
         s += W_SOURCED
     if not r.get("dedicated"):
         s *= NON_DEDICATED_CAP  # a page that is not about exactly this question cannot be a strong incumbent
+    if r.get("freshness") == "stale":
+        s *= STALE_CAP  # an outdated page (R21: >18 months or wrong academic year) is a weak incumbent whatever else it has
     return round(min(1.0, s), 3)
 
 

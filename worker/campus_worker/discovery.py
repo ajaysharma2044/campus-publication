@@ -103,6 +103,7 @@ class QuestionInput:
     constraints: list[str] = field(default_factory=list)
     is_hypothesis: bool = False
     place_id: UUID | None = None          # town scope (continuous-local-run R34); institution_id stays None for town questions
+    force_cluster_id: UUID | None = None  # R20: an independent thread/related question asking THIS cluster's question attaches to it
     pattern_key: str | None = None        # R19: which pattern generated a hypothesis
     pattern_version: str | None = None
 
@@ -131,8 +132,12 @@ def ingest(conn: psycopg.Connection, items: list[QuestionInput]) -> dict:
                 continue
             tid = _topic_id(cur, q.topic_key)
             akey = answer_key(institution_id=q.institution_id or q.place_id, topic_key=q.topic_key, entity_id=q.entity_id, normalized=norm, audience=aud)
-            cur.execute("SELECT id FROM intent_clusters WHERE answer_key=%s", (akey,))
-            r = cur.fetchone()
+            if q.force_cluster_id:
+                cur.execute("SELECT id FROM intent_clusters WHERE id=%s", (q.force_cluster_id,))
+                r = cur.fetchone()
+            else:
+                cur.execute("SELECT id FROM intent_clusters WHERE answer_key=%s", (akey,))
+                r = cur.fetchone()
             if r:
                 cluster_id = r["id"]
             else:
@@ -257,3 +262,34 @@ def auto_create_topics(conn: psycopg.Connection, *, run_id: str | None = None, m
             created.append({"cluster_id": str(c["id"]), "topic_key": key, "label": label, "new": bool(r["inserted"])})
     conn.commit()
     return created
+
+
+def recount_cluster(conn: psycopg.Connection, cluster_id: UUID) -> dict:
+    """Recompute a cluster's counters from its questions (after re-attachments)."""
+    with conn.cursor() as cur:
+        cur.execute("""UPDATE intent_clusters c SET
+                         observed_count=(SELECT count(*) FROM questions q WHERE q.cluster_id=c.id AND NOT q.is_hypothesis),
+                         independent_occurrences=(SELECT count(DISTINCT COALESCE(q.source_ref, q.id::text)) FROM questions q WHERE q.cluster_id=c.id AND NOT q.is_hypothesis),
+                         hypothesis_count=(SELECT count(*) FROM questions q WHERE q.cluster_id=c.id AND q.is_hypothesis), updated_at=now()
+                       WHERE c.id=%s RETURNING observed_count, independent_occurrences, hypothesis_count""", (cluster_id,))
+        r = dict(cur.fetchone())
+    conn.commit()
+    return r
+
+
+def reattach(conn: psycopg.Connection, question_ids: list[UUID], cluster_id: UUID) -> dict:
+    """Move questions into a cluster (an independent thread asking the same question) and recount both sides."""
+    with conn.cursor() as cur:
+        cur.execute("SELECT DISTINCT cluster_id FROM questions WHERE id = ANY(%s)", (question_ids,))
+        olds = [r["cluster_id"] for r in cur.fetchall() if r["cluster_id"]]
+        cur.execute("UPDATE questions SET cluster_id=%s WHERE id = ANY(%s)", (cluster_id, question_ids))
+        moved = cur.rowcount
+        for old in olds:
+            cur.execute("DELETE FROM intent_clusters WHERE id=%s AND NOT EXISTS (SELECT 1 FROM questions q WHERE q.cluster_id=%s) AND NOT EXISTS (SELECT 1 FROM pages p WHERE p.id IN (SELECT id FROM pages WHERE FALSE))", (old, old))
+    conn.commit()
+    for old in olds:
+        with conn.cursor() as cur:
+            cur.execute("SELECT 1 FROM intent_clusters WHERE id=%s", (old,))
+            if cur.fetchone():
+                recount_cluster(conn, old)
+    return {"moved": moved, "target": recount_cluster(conn, cluster_id)}

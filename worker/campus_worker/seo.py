@@ -21,6 +21,13 @@ PATH_RULES = [
     (re.compile(r"^/schools/[a-z0-9-]+/[a-z0-9-]+/$"), "topic_hub"),
     (re.compile(r"^/schools/[a-z0-9-]+/[a-z0-9-]+/[a-z0-9-]+/$"), "entity_profile_or_guide"),
     (re.compile(r"^/schools/[a-z0-9-]+/[a-z0-9-]+/compare/[a-z0-9-]+-vs-[a-z0-9-]+/$"), "comparison"),
+    (re.compile(r"^/schools/[a-z0-9-]+/[a-z0-9-]+/tools/[a-z0-9-]+/$"), "tool"),
+    # town scope (continuous-local-run R33, R34, R45): /towns/<town>/<topic>/<slug>/
+    (re.compile(r"^/towns/$"), "towns_index"),
+    (re.compile(r"^/towns/[a-z0-9-]+/$"), "town_hub"),
+    (re.compile(r"^/towns/[a-z0-9-]+/[a-z0-9-]+/$"), "topic_hub"),
+    (re.compile(r"^/towns/[a-z0-9-]+/[a-z0-9-]+/[a-z0-9-]+/$"), "entity_profile_or_guide"),
+    (re.compile(r"^/towns/[a-z0-9-]+/[a-z0-9-]+/compare/[a-z0-9-]+-vs-[a-z0-9-]+/$"), "comparison"),
     (re.compile(r"^/tools/[a-z0-9-]+/$"), "tool"),
     (re.compile(r"^/about/[a-z0-9-]+/$"), "policy"),
 ]
@@ -135,7 +142,7 @@ def check_internal_links(conn: psycopg.Connection, html_by_path: dict[str, str])
     return {"broken": broken, "orphans": orphans, "checked": len(html_by_path)}
 
 
-def title_and_description(headline: str, deck: str | None, site_name: str, *, max_title: int = 65, max_desc: int = 155) -> tuple[str, str]:
+def title_and_description(headline: str, deck: str | None, site_name: str, *, max_title: int = 60, max_desc: int = 155) -> tuple[str, str]:
     """Truthful <title> and description from the real headline/deck; no keyword stuffing, no year
     unless already in the headline."""
     title = headline if len(headline) <= max_title else headline[: max_title - 1].rsplit(" ", 1)[0] + "…"

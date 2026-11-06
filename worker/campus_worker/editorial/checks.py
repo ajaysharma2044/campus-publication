@@ -24,7 +24,13 @@ FILLER_PHRASES = (
     "it is important to note", "in conclusion", "look no further", "the perfect choice", "truly", "unparalleled",
     "best of both worlds", "home away from home", "whether you are", "endless opportunities", "something for everyone",
     "exciting journey", "dive into", "delve into", "game-changer", "seamless", "elevate your",
+    # continuous-local-run R39 additions (docs/editorial/style.md §5)
+    "in today's world", "in today’s world", "navigating", "delve", "it's important to note", "it’s important to note",
+    "whether you're", "whether you’re", "here's what you need to know", "here’s what you need to know", "unlock", "embark on",
+    "a testament to", "in the realm of", "when it comes to", "look no further", "rest assured", "at the end of the day",
+    "it goes without saying", "needless to say", "in a nutshell", "the bottom line is", "one size fits all", "leverage",
 )
+STYLE_GUIDE = "docs/editorial/style.md"
 CONSENSUS_PATTERNS = (
     r"\bstudents (all )?agree\b", r"\buniversally (loved|praised|hated)\b", r"\beveryone (loves|hates|says)\b",
     r"\b(most|all) students (love|hate|prefer|say)\b", r"\bresidents rave\b", r"\bconsistently rated\b",
@@ -73,7 +79,7 @@ def check_filler(body_md: str) -> list[Finding]:
     out = []
     if hits:
         sev = "major" if len(hits) >= 3 else "minor"
-        out.append(Finding("filler", sev, f"generic phrasing: {', '.join(hits[:6])}"))
+        out.append(Finding("filler", sev, f"generic phrasing ({len(hits)}): {', '.join(hits[:20])}"))
     return out
 
 

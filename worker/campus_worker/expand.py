@@ -126,3 +126,30 @@ def hypothesis_stats(conn: psycopg.Connection) -> dict:
         cur.execute("""SELECT count(*) FILTER (WHERE is_hypothesis) AS hypotheses, count(*) FILTER (WHERE NOT is_hypothesis) AS observed,
                               count(DISTINCT pattern_key) FILTER (WHERE is_hypothesis) AS patterns FROM questions""")
         return dict(cur.fetchone())
+
+
+def expand_topics(conn: psycopg.Connection, *, institution_id: UUID | None = None, place_id: UUID | None = None, campus_id: UUID | None = None,
+                  school_name: str | None = None, town_name: str | None = None) -> dict:
+    """R33/R19: topic-level hypotheses for every topic in scope (school topics for a school, town topics for a town), so the
+    sweep covers every R33 topic even where no entity directory exists. Idempotent."""
+    from .taxonomy import TOPIC_SEED_QUERIES
+    if (institution_id is None) == (place_id is None):
+        raise ValueError("exactly one of institution_id / place_id")
+    with conn.cursor() as cur:
+        cur.execute("SELECT key, scope FROM topics WHERE NOT auto_created")
+        topics = cur.fetchall()
+    items: list[QuestionInput] = []
+    scope_tag = f"i:{institution_id}" if institution_id else f"p:{place_id}"
+    for t in topics:
+        if institution_id and t["scope"] == "town":
+            continue
+        if place_id and t["scope"] != "town":
+            continue
+        for i, q in enumerate(TOPIC_SEED_QUERIES.get(t["key"], ())):
+            text = q.format(school=school_name or "", town=town_name or "").strip()
+            items.append(QuestionInput(raw_text=text, origin="hypothesis", institution_id=institution_id, campus_id=campus_id, place_id=place_id, topic_key=t["key"],
+                                       is_hypothesis=True, source_ref=f"hyp:{scope_tag}:topic:{t['key']}:{i}", pattern_key="topic_seed", pattern_version=PATTERN_VERSION))
+    res = ingest(conn, items)
+    res["generated"] = len(items)
+    res["pattern_version"] = PATTERN_VERSION
+    return res

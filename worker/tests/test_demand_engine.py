@@ -497,3 +497,29 @@ def test_search_intel_batch_dispatch_ingests_every_cluster_once(clean_conn, tmp_
     # second batch inside the cache window: no dispatch at all
     r2 = search_intel.run_batch(clean_conn, ids, settings=settings, runner=runner, log_path=tmp_path / "d.jsonl")
     assert r2["dispatched"] is False and calls == ["search-intel"] and all(v["status"] == "cached" for v in r2["results"].values())
+
+
+def test_topic_seed_expansion_covers_every_r33_topic_and_sweep_cap_defers(clean_conn):
+    seed_all(clean_conn)
+    inst, campus, topics = make_school(clean_conn)
+    place_id, town = _place(clean_conn)
+    r = expand.expand_topics(clean_conn, institution_id=inst, campus_id=campus, school_name="Fixture State")
+    rt = expand.expand_topics(clean_conn, place_id=place_id, town_name=town)
+    assert r["stored"] > 50 and rt["stored"] >= 20
+    with clean_conn.cursor() as cur:
+        cur.execute("SELECT DISTINCT t.key FROM questions q JOIN topics t ON t.id=q.topic_id WHERE q.pattern_key='topic_seed'")
+        covered = {x["key"] for x in cur.fetchall()}
+    assert taxonomy.REQUIRED_R33_KEYS <= covered, taxonomy.REQUIRED_R33_KEYS - covered
+    with clean_conn.cursor() as cur:
+        cur.execute("SELECT raw_text FROM questions WHERE pattern_key='topic_seed' AND place_id=%s LIMIT 3", (place_id,))
+        assert all("Ithaca" in x["raw_text"] for x in cur.fetchall())
+    # idempotent
+    assert expand.expand_topics(clean_conn, institution_id=inst, campus_id=campus, school_name="Fixture State")["stored"] == 0
+    # bounded sweep: beyond the cap, clusters are deferred as watch with a reason; a topic-seed cluster outranks a plain pattern
+    total = sweep.status(clean_conn)["need_intel"]
+    deferred = sweep.defer_beyond_cap(clean_conn, cap=10)
+    assert deferred == total - 10
+    st = sweep.status(clean_conn)
+    assert st["need_intel"] == 10 and st["watch"] == deferred
+    batch = sweep.intel_batch(clean_conn, batch=25)
+    assert len(batch) == 10

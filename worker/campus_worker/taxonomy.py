@@ -32,6 +32,7 @@ class Topic:
     sort_order: int
     description: str = ""
     parent_key: str | None = None
+    seed_queries: tuple[str, ...] = ()   # R19 topic patterns: "{school}" / "{town}" placeholders; stored as hypotheses, never demand
 
 
 # ---- school topics (R33) — existing keys from migration 0001 are kept and enriched; missing ones are added.
@@ -145,3 +146,48 @@ def write_doc(conn: psycopg.Connection, path: Path | None = None) -> Path:
 
 
 REQUIRED_R33_KEYS = {t.key for t in ALL}
+
+
+# Topic seed queries (R19, R33): applied per school/town by expand.expand_topics(). Placeholders: {school}, {town}.
+TOPIC_SEED_QUERIES: dict[str, tuple[str, ...]] = {
+    "admissions": ("{school} admissions deadline", "{school} early decision deadline", "{school} admissions requirements", "{school} acceptance rate"),
+    "transfer": ("{school} transfer deadline", "{school} transfer credit policy", "{school} internal transfer between colleges", "{school} transfer acceptance rate", "{school} transfer requirements gpa"),
+    "programs": ("{school} how to change major", "{school} double major rules", "{school} add a minor", "{school} study abroad requirements", "{school} advising appointment"),
+    "courses": ("{school} course enrollment dates", "{school} add drop deadline", "{school} prerequisites override", "{school} grading policy s/u"),
+    "costs_aid": ("{school} tuition 2026-27", "{school} cost of attendance", "{school} financial aid deadline", "{school} work-study how to apply", "{school} payment plan"),
+    "housing": ("{school} housing application deadline", "{school} off-campus housing", "{school} housing guaranteed", "{school} housing cost per semester"),
+    "dining": ("{school} meal plan cost", "{school} dining hall hours", "{school} meal plan required", "{school} grocery near campus"),
+    "transportation": ("{school} parking permit cost", "{school} bus pass students", "{school} bike registration", "{school} winter campus travel"),
+    "health_wellbeing": ("{school} health services hours", "{school} counseling appointment how to", "{school} health insurance waiver deadline"),
+    "careers": ("{school} career fair dates", "{school} internship timeline recruiting", "{school} first destination outcomes report"),
+    "clubs_events": ("{school} how to join a club", "{school} greek life rush dates", "{school} gym membership students"),
+    "events_calendar": ("{school} academic calendar 2026-27", "{school} move-in day 2026", "{school} graduation date 2027", "{school} orientation dates"),
+    "services": ("{school} student id replacement", "{school} mail and packages", "{school} printing on campus", "{school} library hours"),
+    "parents_visitors": ("{school} visitor parking", "{school} campus tour booking", "hotels near {school}"),
+    "accessibility": ("{school} disability accommodations how to request", "{school} accessible housing"),
+    "alumni_benefits": ("{school} alumni email", "{school} alumni library access", "{school} alumni career services", "{school} alumni discounts"),
+    "alumni_records": ("{school} transcript request alumni", "{school} diploma replacement", "{school} degree verification"),
+    "alumni_events": ("{school} reunion 2027", "{school} homecoming 2026", "{school} alumni club near me", "{school} alumni directory mentoring"),
+    "alumni_education": ("{school} continuing education certificates", "{school} alumni audit courses"),
+    "alumni_giving": ("{school} how to give annual fund",),
+    "alumni_visiting": ("{school} alumni visiting campus parking", "{school} alumni housing reunion"),
+    "parents_calendar": ("{school} family weekend 2026", "{school} move-in dates parents", "{school} parent orientation"),
+    "parents_billing": ("{school} pay bill parent portal", "{school} payment plan", "{school} ferpa parent access"),
+    "parents_logistics": ("{school} send package to student", "{school} campus safety resources parents", "visiting {school} hotels parking"),
+    "parents_prep": ("{school} what to bring to the dorm", "{school} health insurance waiver", "{school} key dates first year"),
+    "jobs_student": ("{school} student jobs", "{school} work-study jobs how to apply", "{school} student job pay rate"),
+    "jobs_internships": ("{school} internship recruiting timeline", "{school} career center appointment", "{school} co-op program"),
+    "jobs_outcomes": ("{school} graduate earnings by major", "{school} first destination report"),
+    "jobs_university": ("jobs at {school}", "{school} staff benefits overview", "{school} how to apply for a job"),
+    "jobs_grad": ("{school} graduate assistantship stipend", "{school} postdoc positions how to apply"),
+    "town_transit_intercity": ("{town} airport to campus", "bus from {town} to nyc", "{town} to new york city bus", "car rental {town}"),
+    "town_transit_local": ("{town} bus fare", "{town} bus pass students", "{town} bus routes map"),
+    "town_neighborhoods": ("{town} neighborhoods for students", "best neighborhood {town} students", "collegetown vs downtown {town}"),
+    "town_offcampus_housing": ("{town} off-campus housing", "{town} apartment lease student", "{town} tenant rights", "{town} rent average"),
+    "town_food": ("{town} late night food", "{town} cheap eats", "{town} grocery stores near campus"),
+    "town_outdoors": ("{town} gorges safety", "{town} hiking trails", "{town} state parks", "{town} swimming gorges rules"),
+    "town_weather": ("{town} weather winter what to pack", "{town} snow how bad"),
+    "town_services": ("{town} bank near campus", "{town} urgent care", "{town} phone store"),
+    "town_jobs": ("{town} jobs for students", "{town} part time jobs", "{town} summer jobs"),
+    "town_government": ("{town} parking permit residential", "{town} voter registration", "{town} trash recycling schedule", "{town} noise ordinance"),
+}

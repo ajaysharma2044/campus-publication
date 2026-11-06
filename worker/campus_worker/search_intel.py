@@ -26,8 +26,9 @@ def variants_for_cluster(conn: psycopg.Connection, cluster_id: UUID, *, max_vari
     with conn.cursor() as cur:
         cur.execute("SELECT label, best_variant FROM intent_clusters WHERE id=%s", (cluster_id,))
         c = cur.fetchone()
+        # thread titles attached as demand evidence (discussion/reddit/stackexchange) are not search wordings; keep variants stable across re-runs
         cur.execute("""SELECT raw_text, is_hypothesis, count(*) OVER (PARTITION BY normalized_text) AS n FROM questions WHERE cluster_id=%s
-                       ORDER BY is_hypothesis, n DESC, created_at""", (cluster_id,))
+                       AND origin NOT IN ('discussion','reddit_api','stackexchange') ORDER BY is_hypothesis, n DESC, created_at""", (cluster_id,))
         rows = cur.fetchall()
     out: list[str] = []
     for r in rows:
@@ -81,7 +82,8 @@ def ingest_intel(conn: psycopg.Connection, cluster_id: UUID, intel: dict, *, cac
         was_cached = q in cached
         if not was_cached:
             search_cache.store(conn, q, results=results, follow_up_questions=v.get("follow_up_questions") or [], community_occurrences=v.get("community_occurrences") or [],
-                               navigational=bool(v.get("navigational")), observed_at=now)
+                               navigational=bool(v.get("navigational")), observed_at=now,
+                               demand_evidence=[e for e in (intel.get("demand_evidence") or []) if (e.get("query") or "").lower() == q.lower()])
             search_cache.record_search_call(conn, q, cached=False, cluster_id=cluster_id)
         else:
             search_cache.record_search_call(conn, q, cached=True, cluster_id=cluster_id)
@@ -94,14 +96,20 @@ def ingest_intel(conn: psycopg.Connection, cluster_id: UUID, intel: dict, *, cac
             demand_items.append(QuestionInput(raw_text=fq, origin="related_question", institution_id=c["institution_id"], campus_id=c["campus_id"], place_id=c["place_id"],
                                               topic_key=c["topic_key"], entity_id=c["entity_id"], observed_at=now, source_ref=f"search:{observed_on}:{q}:paa:{fq[:60]}"))
         for occ in v.get("community_occurrences") or []:
+            # an independent thread asking this cluster's question is demand evidence FOR this cluster (R20)
             demand_items.append(QuestionInput(raw_text=occ.get("title") or q, origin="discussion", institution_id=c["institution_id"], campus_id=c["campus_id"], place_id=c["place_id"],
-                                              topic_key=c["topic_key"], entity_id=c["entity_id"], observed_at=_parse_date(occ.get("date"), now),
+                                              topic_key=c["topic_key"], entity_id=c["entity_id"], observed_at=_parse_date(occ.get("date"), now), force_cluster_id=cluster_id,
                                               source_ref=f"search:{occ.get('site', 'web')}:{occ.get('url')}", constraints=[f"site:{occ.get('site', '')}", "search_observation"]))
     for ev in intel.get("demand_evidence") or []:
-        if ev.get("kind") in ("official_faq", "keyword_export", "search_console"):
-            demand_items.append(QuestionInput(raw_text=ev.get("query") or "", origin={"official_faq": "official_faq", "keyword_export": "search_suggestion", "search_console": "search_console"}[ev["kind"]],
+        kind = ev.get("kind")
+        if kind in ("official_faq", "keyword_export", "search_console"):
+            demand_items.append(QuestionInput(raw_text=ev.get("query") or "", origin={"official_faq": "official_faq", "keyword_export": "search_suggestion", "search_console": "search_console"}[kind],
                                               institution_id=c["institution_id"], campus_id=c["campus_id"], place_id=c["place_id"], topic_key=c["topic_key"], entity_id=c["entity_id"],
-                                              observed_at=now, source_ref=f"evidence:{ev['kind']}:{ev.get('ref')}"))
+                                              observed_at=now, source_ref=f"evidence:{kind}:{ev.get('ref')}", force_cluster_id=cluster_id))
+        elif kind in ("related_question", "forum_thread"):
+            demand_items.append(QuestionInput(raw_text=ev.get("query") or "", origin="related_question" if kind == "related_question" else "discussion",
+                                              institution_id=c["institution_id"], campus_id=c["campus_id"], place_id=c["place_id"], topic_key=c["topic_key"], entity_id=c["entity_id"],
+                                              observed_at=now, source_ref=f"evidence:{kind}:{ev.get('ref')}", force_cluster_id=cluster_id, constraints=["search_observation"]))
     demand = ingest(conn, demand_items) if demand_items else {"stored": 0, "duplicate_occurrences": 0}
     with conn.cursor() as cur:
         cur.execute("UPDATE intent_clusters SET last_intel_at=%s, queue_state=CASE WHEN queue_state IN ('needs_intel','candidate') THEN 'candidate' ELSE queue_state END, updated_at=now() WHERE id=%s", (now, cluster_id))
@@ -141,7 +149,9 @@ def run_cluster(conn: psycopg.Connection, cluster_id: UUID, *, settings, runner=
         for v in variants:
             search_cache.record_search_call(conn, v, cached=True, cluster_id=cluster_id)
         intel = {"cluster_id": str(cluster_id), "observed_on": max(r["observed_at"] for r in cached.values()).date().isoformat(), "variants":
-                 [{"query": v, "results": cached[v]["results"], "follow_up_questions": cached[v].get("follow_up_questions") or [], "navigational": cached[v].get("navigational", False)} for v in variants]}
+                 [{"query": v, "results": cached[v]["results"], "follow_up_questions": cached[v].get("follow_up_questions") or [],
+                   "community_occurrences": cached[v].get("community_occurrences") or [], "navigational": cached[v].get("navigational", False)} for v in variants],
+                 "demand_evidence": [e for v in variants for e in (cached[v].get("demand_evidence") or [])]}
         with conn.cursor() as cur:
             cur.execute("UPDATE intent_clusters SET last_intel_at=now(), updated_at=now() WHERE id=%s", (cluster_id,))
         conn.commit()
