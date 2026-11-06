@@ -137,3 +137,8 @@ OD1 Anthropic API key for the worker (API-billed) · OD2 managed WordPress + app
 3. Owner supplies OD2/OD3 → deploy plugin/theme, point the worker at managed PostgreSQL and WordPress, publish as drafts.
 4. OD10 → hourly `run-once`, daily `plan_daily`, weekly diagnosis; enable bounded auto-publish (1 page/day, 5 updates/day) for entity_profile and comparison templates only after the three calibration outputs pass with a real model.
 5. OD5/OD6/OD7 as they arrive; each flips one adapter from unconnected to connected without template changes.
+
+### Iteration 2 (run 20261106T093045Z, sweep) — blocked, no work done
+- Checks: pytest passed (exit 0, 220 tests); `scripts/doctor.sh` 0 required failures, 1 warning (living.cornell.edu).
+- `sweep next` → step `intel`: 99 clusters still need search observation; sweep not complete. No CLI subcommand dispatches the batch: `search_intel.run_batch` (≤25 clusters, then ingest) is only a Python function, and the iteration allowlist permits only `python -m campus_worker.*`, so the coordinator cannot ingest agent output.
+- Proposed (owner or next build iteration): add `python -m campus_worker.sweep run-intel [--batch N]` that calls `run_batch` and then `run_score`.
