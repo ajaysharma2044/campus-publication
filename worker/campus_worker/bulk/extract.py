@@ -42,7 +42,7 @@ Examples: fee.housing_application, rate.room.double, deadline.housing_applicatio
 
 Rules:
 - Only facts the page states. No inference, no outside knowledge, no summaries of opinions. Skip marketing language.
-- The quote must be copied verbatim from the page text (same words, same numbers). A claim without a verbatim quote is discarded by code.
+- The quote must be copied character for character from the page text: same words, numbers, punctuation, dashes, capitalization and number formatting; never retype a phone number, email, date or range in another format, and never join two sentences. Use a whole sentence or a whole table cell of at least 12 characters. A claim whose quote is not verbatim on the page is discarded by code.
 - Dates: value as ISO date (YYYY-MM-DD) when a full date is stated; a month-only or relative date goes in value_type "text".
 - Money: value in minor units (cents) as an integer; include the billing period and basis only when the page states them.
 - One fact per claim. Prefer specific fields over generic ones. At most 60 claims per page; pick the ones a student, parent, transfer, alum or job seeker would act on (fees, deadlines, rules, eligibility, locations, contacts, steps, hours).
