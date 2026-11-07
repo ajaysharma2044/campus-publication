@@ -259,3 +259,54 @@ def test_covered_by_catches_paraphrases_but_not_hubs_or_audience_variants():
     assert plan.covered_by(live, "Cornell housing deadlines", "What are Cornell's housing deadlines for 2026-27?") is None          # the broad hub stays
     assert plan.covered_by(live, "Cornell housing deadlines international", "...") is None                                       # another audience keeps its page
     assert plan.covered_by(live, "transfer housing application deadline Cornell ten days", "...") == "/b"                        # specific question inside an existing title
+
+
+def test_check_draft_splits_a_long_answer_at_a_sentence_boundary():
+    filler = "Rates include utilities and the housing office bills them with tuition each term. "
+    draft = {"title": "How much does Barbara Fixture Hall cost in 2026-27?", "meta": "A double in Barbara Fixture Hall is $6,872 per person per semester in 2026-27, billed with tuition; what the rate covers and how to apply.",
+             "h1": "How much does Barbara Fixture Hall cost?", "answer": "A double in Barbara Fixture Hall is $6,872 per person per semester in 2026-27. " + filler * 3 + "Pick a hall early.",
+             "sections": [{"heading": "Details", "body_md": "Rates include utilities."}], "table": None, "steps": None,
+             "next_steps": [{"text": "Read the rates page.", "target": "https://scl.example.edu/rates"}], "not_confirmed": [],
+             "claims": [{"claim_id": "c1", "quote": "A double room costs $6,872 per semester for 2026-27.", "used_for": "the rate"}]}
+    out, rep = check.check_draft(draft, _gathered(), question="How much does Barbara Fixture Hall cost in 2026-27?", hubs=_gathered()["hubs"], existing_bodies=["something else entirely"], source_texts={"s1": PAGE_TEXT})
+    assert rep["answer_split"] == 2 and len(out["answer"].split()) <= 50 and out["answer"].startswith("A double in Barbara Fixture Hall is $6,872")
+    assert out["sections"][0]["body_md"].startswith("Rates include utilities and the housing office") and out["sections"][0]["body_md"].endswith("Pick a hall early.\n\nRates include utilities.")
+    assert rep["seo"]["answer_first_ok"] and rep["status"] == "ok"
+
+
+def test_entity_guides_fit_titles_drop_outside_job_ads_and_merge_name_variants():
+    ents = {}
+    def add(i, name, typ, n):
+        ents[i] = ({"id": i, "name": name, "entity_type": typ, "topic_id": None, "slug": str(i)}, n)
+    add(1, "Resident Advisor (RA)", "program", 17); add(2, "Resident Advisor (RA) Position", "program", 12)
+    add(3, "Summer Session Resident Advisor (RA)", "program", 10); add(4, "Summer Session Resident Advisor", "program", 12)
+    add(5, "Senior Home Lending Advisor – Channahon, IL", "program", 3)
+    add(6, "Dyson School of Applied Economics and Management Career Development", "office", 4)
+    add(7, "3036 - Noyes Community and Rec Center", "building", 3)
+    add(8, "Olin Library", "library", 2); add(9, "Olin Library Cafe", "dining_location", 2); add(10, "Olin Library Annex", "library", 1)
+    guides = questions.entity_guides({i: n for i, (_, n) in ents.items()}, {i: e for i, (e, _) in ents.items()}, school="Cornell University", town="Ithaca", short="Cornell")
+    by = {g["entity_id"]: g for g in guides}
+    assert set(by) == {1, 4, 7, 8, 9}     # the Position variant and the acronym variant merged, the job ad and the untitleable office dropped, the one-fact annex short
+    assert by[1]["primary_query"] == "Resident Advisor Cornell" and by[1]["question"] == "Resident Advisor at Cornell University: what to know" and by[1]["facts"] == 17
+    assert by[4]["primary_query"] == "Summer Session Resident Advisor"
+    assert by[7]["question"].startswith("Noyes Community and Rec Center at") and by[7]["primary_query"] == "Noyes Community and Rec Center"
+
+
+def test_question_build_retires_generated_questions_it_no_longer_produces(clean_conn):
+    inst, campus, topics, hall, snap, ids = _seed_claims(clean_conn)
+    questions.build(clean_conn, slug="fixture-state")
+    with clean_conn.cursor() as cur:
+        cur.execute("""INSERT INTO bulk_questions (institution_id, topic_id, audience, question, question_norm, answer_key, page_type, origin, primary_query)
+                       VALUES (%s, %s, 'general', 'Old Hall at Fixture State: what to know', 'old-hall', 'entity:00000000-0000-0000-0000-000000000000:guide', 'entity_guide', 'generated', 'Old Hall Fixture State')""", (inst, topics["housing"]))
+        cur.execute("UPDATE bulk_questions SET status='planned' WHERE answer_key LIKE 'hub:%%' AND institution_id=%s RETURNING id", (inst,))
+        planned = cur.rowcount
+    clean_conn.commit()
+    questions.build(clean_conn, slug="fixture-state")
+    with clean_conn.cursor() as cur:
+        cur.execute("SELECT status, incumbent_detail->>'skip_reason' AS why FROM bulk_questions WHERE answer_key LIKE 'entity:00000000%%'")
+        row = cur.fetchone()
+        cur.execute("SELECT count(*) AS n FROM bulk_questions WHERE institution_id=%s AND status='planned'", (inst,))
+        still_planned = cur.fetchone()["n"]
+        cur.execute("SELECT count(*) AS n FROM bulk_questions WHERE institution_id=%s AND status='skipped'", (inst,))
+        skipped = cur.fetchone()["n"]
+    assert row["status"] == "skipped" and row["why"] == "no longer generated" and still_planned == planned and skipped == 1

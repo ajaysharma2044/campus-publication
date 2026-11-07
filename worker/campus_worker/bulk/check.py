@@ -14,6 +14,7 @@ from .util import norm_text, quote_in_text
 INTERNAL_TERMS = ("pages we opened", "could not verify", "not stated on the pages", "snapshot", "snippet", "claim id", "verifier", "rubric", "this publication's", "automated system", "no human editor")
 NUMBER_RE = re.compile(r"\$[\d,]+(?:\.\d{2})?|\b(?:January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, 20\d{2}\b|\b20\d\d-\d\d\b|\b\d{1,3}(?:,\d{3})+\b|\b\d+(?:\.\d+)?%|\b(?!20\d\d\b)\d{2,}\b")
 OVERLAP_MAX = 0.60
+ANSWER_MAX_WORDS = 50   # the SEO gate's answer-first rule; the lead is split to fit it, never the rule loosened
 
 
 def _sentences(text: str) -> list[str]:
@@ -73,6 +74,8 @@ def check_draft(draft: dict, gathered: dict, *, question: str, hubs: list[str], 
                 paras.append(clean_block(para, f"section {i}"))
         sec["body_md"] = "\n\n".join(p for p in paras if p.strip())
     draft["sections"] = [s for s in draft.get("sections") or [] if s.get("body_md", "").strip()]
+    # 2b. a lead over the word cap is split at a sentence boundary: the opening sentences stay the answer, the rest open the first section
+    report["answer_split"] = _split_answer(draft)
     if draft.get("table"):
         rows = []
         for r in draft["table"].get("rows") or []:
@@ -120,6 +123,30 @@ def check_draft(draft: dict, gathered: dict, *, question: str, hubs: list[str], 
     report["status"] = "skip" if report["reasons"] else "ok"
     draft["not_confirmed"] = [str(x)[:200] for x in (draft.get("not_confirmed") or [])][:3]
     return draft, report
+
+
+def _split_answer(draft: dict) -> int:
+    """Writers sometimes run the lead past the cap. Keep the longest run of opening sentences within it and move the rest to the top
+    of the first section, so the page keeps every checked sentence. Returns how many sentences moved (0 = untouched)."""
+    answer = draft.get("answer") or ""
+    sents = _sentences(answer)
+    if _words(answer) <= ANSWER_MAX_WORDS or len(sents) < 2:
+        return 0
+    lead: list[str] = []
+    for s in sents:
+        if lead and _words(" ".join(lead + [s])) > ANSWER_MAX_WORDS:
+            break
+        lead.append(s)
+    rest = sents[len(lead):]
+    if not rest:
+        return 0
+    draft["answer"] = " ".join(lead)
+    secs = draft.get("sections") or []
+    if secs:
+        secs[0]["body_md"] = (" ".join(rest) + "\n\n" + (secs[0].get("body_md") or "")).strip()
+    else:
+        draft["sections"] = [{"heading": "The details", "body_md": " ".join(rest)}]
+    return len(rest)
 
 
 def _anchor(path: str, gathered: dict, hubs: list[str]) -> str:

@@ -46,6 +46,61 @@ def humanize(field: str) -> str:
     return name.strip()
 
 
+NAME_STOP = {"a", "an", "the", "of", "at", "in", "on", "for", "to", "and", "or", "&"}
+GENERIC_NAME_WORDS = {"position", "program", "programs", "office", "unit", "service", "services", "system", "department", "division", "center", "committee", "initiative"}
+JOB_AD = re.compile(r"\s[–—-]\s[A-Z][A-Za-z .]+,\s[A-Z]{2}$")   # "Senior Home Lending Advisor – Channahon, IL": an outside job posting, not a campus entity
+CODE_PREFIX = re.compile(r"^\d{3,4}\s*-\s*")                    # "3036 - Noyes Community and Rec Center": a facilities code
+NAME_MAX_CHARS, NAME_MAX_WORDS = 50, 7                           # longer names cannot carry a title within the 60-character rule
+
+
+def display_name(name: str) -> str:
+    """The entity name as a title would carry it: no facilities code, no parenthetical acronym."""
+    return CODE_PREFIX.sub("", re.sub(r"\s*\([^)]*\)", "", name or "")).strip(" -–—:")
+
+
+def name_stems(name: str) -> set[str]:
+    return {w[:-1] if len(w) > 4 and w.endswith("s") else w for w in re.findall(r"[a-z0-9]+", display_name(name).lower()) if w not in NAME_STOP}
+
+
+def same_entity_name(a: set[str], b: set[str]) -> bool:
+    """Two names of one thing: equal after the acronym/code strip, nearly equal, or one is the other plus a generic word
+    ("Resident Advisor (RA) Position" / "Resident Advisor (RA)", "West Campus House System dining rooms" / "West Campus House Dining Rooms");
+    "Olin Library" and "Olin Library Cafe" stay two entities."""
+    if not a or not b:
+        return False
+    if a == b or len(a & b) / len(a | b) >= 0.8:
+        return True
+    small, big = (a, b) if len(a) <= len(b) else (b, a)
+    return len(small) >= 2 and small <= big and (big - small) <= GENERIC_NAME_WORDS
+
+
+def entity_guides(per_entity: dict, entities: dict, *, school: str, town: str, short: str) -> list[dict]:
+    """One guide per entity with enough facts whose name fits a title; outside job ads dropped; name variants merged into the one with more facts."""
+    guides = []
+    for eid, n in per_entity.items():
+        e = entities.get(eid)
+        if not e or n < ENTITY_MIN_CLAIMS.get(e["entity_type"], 99) or JOB_AD.search(e["name"] or ""):
+            continue
+        name = display_name(e["name"])
+        words = [w for w in re.findall(r"[a-z0-9]+", name.lower()) if w not in NAME_STOP]
+        if not words or len(name) > NAME_MAX_CHARS or len(words) > NAME_MAX_WORDS:
+            continue
+        place = e["entity_type"] in TOWN_TYPES
+        q = f"{name} in {town}: what to know" if place else f"{name} at {school}: what to know"
+        pq = name if len(words) > 3 else f"{name} {town if place else short}"   # a long distinctive name is its own search; a short one needs the place
+        guides.append({"question": q, "primary_query": pq, "answer_key": f"entity:{eid}:guide", "page_type": "entity_guide", "entity_id": eid, "topic_id": e["topic_id"],
+                       "audience": "general", "origin": "generated", "facts": n, "_stems": name_stems(e["name"])})
+    guides.sort(key=lambda g: -g["facts"])
+    kept: list[dict] = []
+    for g in guides:
+        if any(same_entity_name(g["_stems"], k["_stems"]) for k in kept):
+            continue
+        kept.append(g)
+    for g in kept:
+        g.pop("_stems")
+    return kept
+
+
 def generate(conn: psycopg.Connection, *, institution_id: UUID, school: str, town: str, year: str) -> list[dict]:
     """Hub pages per topic × family, entity guides for entities with enough facts, one how-to page per distinct process."""
     short = short_school(school)
@@ -61,14 +116,7 @@ def generate(conn: psycopg.Connection, *, institution_id: UUID, school: str, tow
     for c in claims:
         if c["entity_id"]:
             per_entity[c["entity_id"]] = per_entity.get(c["entity_id"], 0) + 1
-    for eid, n in per_entity.items():
-        e = entities.get(eid)
-        if not e or n < ENTITY_MIN_CLAIMS.get(e["entity_type"], 99):
-            continue
-        place = e["entity_type"] in TOWN_TYPES
-        q = f"{e['name']} in {town}: what to know" if place else f"{e['name']} at {school}: what to know"
-        out.append({"question": q, "primary_query": f"{e['name']} {town if place else short}", "answer_key": f"entity:{eid}:guide", "page_type": "entity_guide", "entity_id": eid, "topic_id": e["topic_id"],
-                    "audience": "general", "origin": "generated", "facts": n})
+    out.extend(entity_guides(per_entity, entities, school=school, town=town, short=short))
     # topic hubs
     hub_counts: dict = {}
     hub_aud: dict = {}
@@ -203,5 +251,9 @@ def build(conn: psycopg.Connection, *, slug: str, year: str = "2026-27") -> dict
             cur.executemany(sql, rows[i:i + 500])
         conn.commit()
         n += len(rows[i:i + 500])
+    with conn.cursor() as cur:   # a generated question the generator no longer produces (merged name variant, untitleable or outside entity) leaves the queue
+        cur.execute("""UPDATE bulk_questions SET status='skipped', incumbent_detail=incumbent_detail || '{"skip_reason": "no longer generated"}'::jsonb, updated_at=now()
+                       WHERE institution_id=%s AND origin='generated' AND status='queued' AND NOT (answer_key = ANY(%s))""", (inst["id"], [it["answer_key"][:300] for it in items]))
+    conn.commit()
     stats = {"total": n} | dict(Counter(it["origin"] for it in items)) | {"audiences": dict(Counter(it.get("audience") or "general" for it in items)), "page_types": dict(Counter(it["page_type"] for it in items))}
     return stats
