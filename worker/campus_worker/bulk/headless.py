@@ -41,6 +41,7 @@ STOP_FILE = REPO_ROOT / ".run" / "STOP"
 ALLOWED_TOOLS = "Read,Write(build/bulk/headless/**)"
 DEFAULT_PAUSE_MIN = 20
 MAX_ATTEMPTS = 2
+MIN_CLAIMS_PER_PAGE = 2   # a page with a single supported fact is thin; two verified facts is the floor (owner's lean minimum is one, raised after the first article pass)
 
 
 # ----------------------------------------------------------------------------------------------- sessions
@@ -507,10 +508,11 @@ def articles_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: in
                     p = cby[pid]
                     f = art_dir / f"{pid}.verdict.json"
                     draft, rep = verifymod.apply_verdicts(p["draft"], f.read_text() if f.exists() else None)
-                    survives = bool(draft.get("claims")) and checkmod._words(draft.get("answer") or "") >= 8
-                    _set(vconn, UUID(pid), stage="verified" if survives else "skipped", draft=draft, verdicts=rep, skip_reason=None if survives else "verify: no supported claim left in the answer")
+                    survives = len(draft.get("claims") or []) >= MIN_CLAIMS_PER_PAGE and checkmod._words(draft.get("answer") or "") >= 8
+                    reason = None if survives else ("verify: no supported claim left in the answer" if not draft.get("claims") else f"verify: fewer than {MIN_CLAIMS_PER_PAGE} supported facts (thin page)")
+                    _set(vconn, UUID(pid), stage="verified" if survives else "skipped", draft=draft, verdicts=rep, skip_reason=reason)
                     if not survives:
-                        report["skipped"]["verify: no supported claim left"] = report["skipped"].get("verify: no supported claim left", 0) + 1
+                        report["skipped"][reason] = report["skipped"].get(reason, 0) + 1
                 log(f"  verify chunk: {len(chunk)} pages, {r.duration_s}s; " + progress.line("articles"))
                 return True, None
 

@@ -16,6 +16,7 @@ from ..config import REPO_ROOT
 from .util import slugify
 
 UNDERSERVED_AUDIENCES = ("transfer", "community_college_transfer", "international", "first_gen", "parent", "alumni", "staff", "resident")
+UNSERVABLE = re.compile(r"\b(review|reviews|rating|ratings|reddit|opinions?|experiences?|what is it like|what's it like|worth it|pros and cons|shorter lines|best|worst)\b", re.I)
 # Hub pages (owner decision 2026-11-07 after the first article pass): one page per topic × fact family instead of one per fact, so a
 # student gets "Cornell housing deadlines 2026-27" with every dated deadline in one table rather than a page per field name.
 HUBS = {
@@ -49,7 +50,7 @@ def generate(conn: psycopg.Connection, *, institution_id: UUID, school: str, tow
     """Hub pages per topic × family, entity guides for entities with enough facts, one how-to page per distinct process."""
     short = short_school(school)
     with conn.cursor() as cur:
-        cur.execute("""SELECT c.id, c.entity_id, c.field, c.topic_id, t.key AS topic_key, c.value_text FROM claims c JOIN topics t ON t.id=c.topic_id
+        cur.execute("""SELECT c.id, c.entity_id, c.field, c.topic_id, t.key AS topic_key, c.value_text, c.audience_applicability FROM claims c JOIN topics t ON t.id=c.topic_id
                        WHERE c.institution_id=%s AND c.superseded_by_id IS NULL AND c.evidence_category='verified_fact'""", (institution_id,))
         claims = [dict(r) for r in cur.fetchall()]
         cur.execute("SELECT id, name, entity_type, topic_id, slug FROM entities WHERE institution_id=%s AND status='active'", (institution_id,))
@@ -70,6 +71,7 @@ def generate(conn: psycopg.Connection, *, institution_id: UUID, school: str, tow
                     "audience": "general", "origin": "generated", "facts": n})
     # topic hubs
     hub_counts: dict = {}
+    hub_aud: dict = {}
     topic_ids: dict = {}
     for c in claims:
         if c["entity_id"]:
@@ -79,6 +81,11 @@ def generate(conn: psycopg.Connection, *, institution_id: UUID, school: str, tow
             if fam in spec["families"]:
                 hub_counts[(c["topic_key"], hub)] = hub_counts.get((c["topic_key"], hub), 0) + 1
                 topic_ids[c["topic_key"]] = c["topic_id"]
+                for a in (c.get("audience_applicability") or []):
+                    a = str(a).lower()
+                    for aud in ("transfer", "international", "parent"):
+                        if aud in a:
+                            hub_aud[(c["topic_key"], hub, aud)] = hub_aud.get((c["topic_key"], hub, aud), 0) + 1
     for (tkey, hub), n in hub_counts.items():
         spec = HUBS[hub]
         if n < spec["min_claims"]:
@@ -89,7 +96,7 @@ def generate(conn: psycopg.Connection, *, institution_id: UUID, school: str, tow
         out.append({"question": q, "primary_query": pq, "answer_key": f"hub:{tkey}:{hub}", "page_type": "question_guide", "entity_id": None, "topic_id": topic_ids[tkey], "audience": "general", "origin": "generated", "facts": n})
         if n >= 5:
             for aud in spec["audiences"]:
-                if tkey in HUB_AUDIENCE_TOPICS.get(aud, ()):
+                if tkey in HUB_AUDIENCE_TOPICS.get(aud, ()) and hub_aud.get((tkey, hub, aud), 0) >= 3:   # only when the facts themselves single out that audience
                     suffix = {"transfer": "for transfer students", "international": "for international students", "parent": "for parents"}[aud]
                     out.append({"question": f"{q[:-1]} {suffix}?", "primary_query": f"{pq} {aud}", "answer_key": f"hub:{tkey}:{hub}", "page_type": "question_guide", "entity_id": None, "topic_id": topic_ids[tkey],
                                 "audience": aud, "origin": "generated", "facts": n})
@@ -125,8 +132,8 @@ def from_clusters(conn: psycopg.Connection, *, institution_id: UUID) -> list[dic
         q = (r.get("best_variant") or r["label"] or "").strip()
         if "site:" in q.lower():
             q = (r["label"] or "").strip()          # a mirror-observation variant ("... site:reddit.com/r/Cornell") is not a question a student types
-        if not q or "site:" in q.lower() or len(q) < 8:
-            continue
+        if not q or "site:" in q.lower() or len(q) < 8 or UNSERVABLE.search(q):
+            continue   # reviews, ratings, "what is it like": intents a factual page cannot promise (lean rule); they fold into the entity guide
         if r.get("entity_id"):
             key, pt = f"entity:{r['entity_id']}:guide", "entity_guide"
         else:

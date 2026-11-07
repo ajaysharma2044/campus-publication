@@ -8,9 +8,21 @@ from uuid import UUID
 
 import psycopg
 
-from ..seo_gate import _hubs_for
+from ..seo_gate import _contains_query, _hubs_for
 from .dossier import human_value
 from .util import slugify
+
+
+def covered_by(existing: list[dict], primary_query: str, question: str) -> str | None:
+    """The path of a page (passed version, not held) whose headline or primary query already carries every content word of this
+    question's primary query, or whose primary query this question covers: the owner's one-page-per-question rule (no near-duplicates)."""
+    for e in existing:
+        for mine in (primary_query, question):
+            if mine and (_contains_query(e.get("headline") or "", mine) or _contains_query(e.get("primary_query") or "", mine)):
+                return e["path"]
+        if e.get("primary_query") and primary_query and _contains_query(primary_query, e["primary_query"]) and len(e["primary_query"].split()) >= 3:
+            return e["path"]
+    return None
 
 TEMPLATES = {
     "question_guide": ["answer", "details", "costs_and_dates", "steps_if_any", "not_confirmed", "next_steps"],
@@ -69,16 +81,24 @@ def plan_pages(conn: psycopg.Connection, *, institution_id: UUID, limit: int, ru
         existing = {r["path"] for r in cur.fetchall()}
         cur.execute("SELECT path FROM bulk_pages")
         planned_paths = {r["path"] for r in cur.fetchall()}
+        cur.execute("""SELECT p.path, p.primary_query, v.headline FROM pages p JOIN page_versions v ON v.id=p.current_version_id
+                       WHERE p.institution_id=%s AND v.gate_status='passed' AND p.status NOT IN ('held','retired','redirected','unpublished')""", (institution_id,))
+        live = [dict(r) for r in cur.fetchall()]
+        cur.execute("SELECT path, plan->>'primary_query' AS primary_query, plan->>'question' AS headline FROM bulk_pages WHERE stage IN ('planned','gathered','written','checked','verified')")
+        live += [dict(r) for r in cur.fetchall()]
     planned, skipped = [], []
     for q in qs:
         if len(planned) >= limit:
             break
         path = path_for(q, school_slug=school_slug, place_slug=place_slug)
-        if (path in existing and not include_existing) or path in planned_paths:
-            skipped.append({"question": q["question"], "path": path, "reason": "page exists" if path in existing else "already planned"})
+        pq = q.get("stored_pq") or primary_query_for(q, school_name=school_name)
+        dup = covered_by(live, pq, q["question"])
+        if (path in existing and not include_existing) or path in planned_paths or dup:
+            skipped.append({"question": q["question"], "path": path, "reason": f"answered by {dup}" if dup else ("page exists" if path in existing else "already planned")})
             with conn.cursor() as cur:
                 cur.execute("UPDATE bulk_questions SET status='skipped', updated_at=now() WHERE id=%s", (q["id"],))
             continue
+        live.append({"path": path, "primary_query": pq, "headline": q["question"]})
         plan = {"question": q["question"], "primary_query": q.get("stored_pq") or primary_query_for(q, school_name=school_name), "audience": q["audience"], "page_type": q["page_type"], "sections": TEMPLATES[q["page_type"]], "topic_key": q["topic_key"], "entity_id": str(q["entity_id"]) if q["entity_id"] else None,
                 "entity_name": q.get("entity_name"), "answer_key": q["answer_key"], "win_note": q.get("win_note"), "incumbent_class": q.get("incumbent_class"), "hubs": list(_hubs_for(path)), "order_rank": q.get("order_rank")}
         with conn.cursor() as cur:
