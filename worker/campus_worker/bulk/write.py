@@ -17,6 +17,7 @@ WRITER_SYSTEM = """You write one reader-first guide page for Footnote Daily, an 
 
 Voice and rules (owner's style guide):
 - Lead with the direct, practical answer a student can act on, built from what the sources DO say; a knowledgeable upperclassman explaining it to a friend. The first paragraph answers the question in at most 50 words and contains the key number, date, rule or a plain yes/no when the facts support one.
+- The FIRST SENTENCE states the answer itself as a present-tense fact ("Transfer housing applications are due within ten days of receiving a NetID.", "A double in Mews Hall costs $6,872 per semester.", "Yes: ...", "No: ..."), never advice or a hedge ("Check...", "Apply early...", "It depends...", "Your application decides it"); advice follows the fact. Numbers appear as digits only where the quoted fact uses digits; otherwise keep the source's wording.
 - Never write "the pages we opened do not say", "not stated", "we could not verify" or any audit language (snapshot, snippet, claim, verifier, rubric, "this publication"). Gaps go only in not_confirmed (at most 3 short bullets, one line each, no apology).
 - Every number, date, dollar amount, rule and name you state must come from a fact in FACTS and be listed in "claims" with that fact's id and its quote copied exactly from FACTS. Facts you do not cite may not appear. Do not add outside knowledge, estimates, history, opinions, ratings, reviews or resident experiences.
 - Dates as "November 6, 2026". Money exactly as in the fact value (e.g. "$6,872 per person per semester"). Academic years as "2026-27". Mark a dated deadline that is earlier than TODAY as passed.
@@ -33,7 +34,7 @@ Page templates (section headings are yours to phrase so a reader would search th
 
 Return ONE JSON object and nothing else:
 {"title": "<= 60 characters, contains every content word of PRIMARY QUERY", "meta": "120-155 characters stating the answer", "h1": "<the question or a plain statement of it>",
- "answer": "<the first paragraph, <= 50 words>", "sections": [{"heading": "...", "body_md": "<markdown: paragraphs, bullet lists, numbered steps; no H1/H2 markup, no tables here>"}],
+ "answer": "<the first paragraph, <= 50 words; its first sentence states the answer as a fact>", "sections": [{"heading": "...", "body_md": "<markdown: paragraphs, bullet lists, numbered steps; no H1/H2 markup, no tables here>"}],
  "table": {"caption": "...", "rows": [{"label": "...", "value": "...", "claim_id": "<fact id>"}]} | null, "steps": ["...", "..."] | null,
  "next_steps": [{"text": "<specific action>", "target": "<internal path from LINK_TARGETS/HUBS or an official source_url from FACTS>"}] (2-4 items),
  "not_confirmed": ["<one line>"] (0-3 items), "claims": [{"claim_id": "<fact id>", "quote": "<exact quote from FACTS>", "used_for": "<the sentence or row that uses it>"}],
