@@ -291,7 +291,7 @@ def extract_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: int
             counter["n"] += 1
             n = counter["n"]
         pairs = [(rel(pages_dir / f"{sid}.txt"), rel(out_dir / f"{sid}.json")) for sid in chunk]
-        r = run_session(extraction_prompt(pairs), model=model, max_turns=4 * len(chunk) + 6, timeout_s=1800, runner=runner)
+        r = run_session(extraction_prompt(pairs), model=model, max_turns=4 * len(chunk) + 6, timeout_s=900, runner=runner)
         progress.session(r)
         if r.usage_limit:
             pause.trigger(r.text + " " + r.err)
@@ -439,7 +439,7 @@ def articles_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: in
 
             def write_handle(chunk, wconn):
                 pairs = [(rel(art_dir / f"{pid}.packet.md"), rel(art_dir / f"{pid}.draft.json")) for pid in chunk]
-                r = run_session(WRITE_WORKER_RULES + writemod.WRITER_SYSTEM + "\n\nPAGES\n" + "\n".join(f"- read {a} → write {b}" for a, b in pairs) + "\n", model=model, max_turns=4 * len(chunk) + 6, timeout_s=1800, runner=runner)
+                r = run_session(WRITE_WORKER_RULES + writemod.WRITER_SYSTEM + "\n\nPAGES\n" + "\n".join(f"- read {a} → write {b}" for a, b in pairs) + "\n", model=model, max_turns=4 * len(chunk) + 6, timeout_s=900, runner=runner)
                 progress.session(r)
                 if r.usage_limit:
                     pause.trigger(r.text + " " + r.err)
@@ -486,7 +486,7 @@ def articles_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: in
 
             def verify_handle(chunk, vconn):
                 pairs = [(rel(art_dir / f"{pid}.claims.md"), rel(art_dir / f"{pid}.verdict.json")) for pid in chunk]
-                r = run_session(VERIFY_WORKER_RULES + verifymod.VERIFY_SYSTEM + "\n\nPAGES\n" + "\n".join(f"- read {a} → write {b}" for a, b in pairs) + "\n", model=model, max_turns=4 * len(chunk) + 6, timeout_s=1800, runner=runner)
+                r = run_session(VERIFY_WORKER_RULES + verifymod.VERIFY_SYSTEM + "\n\nPAGES\n" + "\n".join(f"- read {a} → write {b}" for a, b in pairs) + "\n", model=model, max_turns=4 * len(chunk) + 6, timeout_s=900, runner=runner)
                 progress.session(r)
                 if r.usage_limit:
                     pause.trigger(r.text + " " + r.err)
