@@ -40,7 +40,7 @@ while true; do
   if [ -f "$STOP_FILE" ]; then echo "stopped: STOP file"; break; fi
   ATTEMPT=$((ATTEMPT + 1))
   set +e
-  worker/.venv/bin/python -m campus_worker.bulk headless --school "$SCHOOL" --run-id "$RUN" --workers "$WORKERS" --stage "$STAGE" --model "$MODEL" "${EXTRA[@]}" 2>&1 | tee -a "$LOG"
+  worker/.venv/bin/python -m campus_worker.bulk headless --school "$SCHOOL" --run-id "$RUN" --workers "$WORKERS" --stage "$STAGE" --model "$MODEL" ${EXTRA[@]+"${EXTRA[@]}"} 2>&1 | tee -a "$LOG"
   CODE=${PIPESTATUS[0]}
   set -e
   if [ "$CODE" -eq 0 ]; then echo "driver finished (attempt $ATTEMPT)"; break; fi
