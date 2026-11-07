@@ -249,3 +249,13 @@ def test_a_disallowed_path_does_not_switch_the_domain_off(clean_conn):
     f._robots["closed.cornell.edu"] = "User-agent: *\nDisallow: /\n"
     assert f.robots_ok("https://closed.cornell.edu/anything") is False
     assert permissions.check_url(clean_conn, "https://closed.cornell.edu/other").reason == "robots_disallow_recorded"
+
+
+def test_covered_by_catches_paraphrases_but_not_hubs_or_audience_variants():
+    live = [{"path": "/a", "primary_query": "Is housing guaranteed for transfer students at Cornell?", "headline": "Is Housing Guaranteed for Cornell Transfer Students?"},
+            {"path": "/b", "primary_query": "Cornell transfer housing application deadline", "headline": "Cornell Transfer Housing Application Deadline: Ten Days"},
+            {"path": "/c", "primary_query": "Cornell housing deadlines transfer", "headline": "Cornell Housing Deadlines for Transfer Students"}]
+    assert plan.covered_by(live, "Does Cornell guarantee housing for transfer students?", "Does Cornell guarantee housing for transfer students?") == "/a"
+    assert plan.covered_by(live, "Cornell housing deadlines", "What are Cornell's housing deadlines for 2026-27?") is None          # the broad hub stays
+    assert plan.covered_by(live, "Cornell housing deadlines international", "...") is None                                       # another audience keeps its page
+    assert plan.covered_by(live, "transfer housing application deadline Cornell ten days", "...") == "/b"                        # specific question inside an existing title

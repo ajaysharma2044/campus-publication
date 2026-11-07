@@ -13,16 +13,41 @@ from .dossier import human_value
 from .util import slugify
 
 
+def _stems(text: str) -> set[str]:
+    import re
+    from ..seo_gate import STOP
+    out = set()
+    for w in re.findall(r"[a-z0-9']+", (text or "").lower().replace("\u2019", "'")):
+        w = w.replace("'s", "")
+        if w in STOP or len(w) < 2:
+            continue
+        for suf in ("ing", "ies", "ed", "es", "s"):
+            if len(w) > 4 and w.endswith(suf):
+                w = w[: -len(suf)] + ("y" if suf == "ies" else "")
+                break
+        out.add(w)
+    return out
+
+
 def covered_by(existing: list[dict], primary_query: str, question: str) -> str | None:
-    """The path of a page (passed version, not held) whose headline or primary query already carries every content word of this
-    question's primary query, or whose primary query this question covers: the owner's one-page-per-question rule (no near-duplicates)."""
+    """The path of a live or planned page that asks the same question: stemmed content words of the two primary queries overlap at least
+    85% (paraphrases: "Is housing guaranteed for transfers at Cornell?" / "Does Cornell guarantee housing for transfer students?"), or a
+    specific question (4+ content words) whose words all sit in an existing title. A broad hub ("Cornell housing deadlines") is never
+    swallowed by a narrower page, and an audience variant keeps its own page."""
+    mine = _stems(primary_query) | (_stems(question) if not primary_query else set())
+    if not mine:
+        return None
     for e in existing:
-        for mine in (primary_query, question):
-            if mine and (_contains_query(e.get("headline") or "", mine) or _contains_query(e.get("primary_query") or "", mine)):
+        theirs = _stems(e.get("primary_query") or e.get("headline") or "")
+        if theirs:
+            j = len(mine & theirs) / len(mine | theirs)
+            if j >= 0.85:
                 return e["path"]
-        if e.get("primary_query") and primary_query and _contains_query(primary_query, e["primary_query"]) and len(e["primary_query"].split()) >= 3:
+        title = _stems(e.get("headline") or "")
+        if len(mine) >= 4 and mine <= title:
             return e["path"]
     return None
+
 
 TEMPLATES = {
     "question_guide": ["answer", "details", "costs_and_dates", "steps_if_any", "not_confirmed", "next_steps"],
