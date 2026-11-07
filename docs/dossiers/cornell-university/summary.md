@@ -8,8 +8,8 @@ Built November 7, 2026 from 2508 crawled official pages. Every fact below carrie
 - Pages crawled by section: colleges 618, admissions 249, student_life 239, housing 214, transportation 200, health 199, alumni 194, international 150, county 143, libraries 131, registrar 77, dining 65, careers 26, parents 2.
 
 ## Question map
-- 853 deduped questions (763 generated from the dossier, 90 from observed search clusters, 0 from data/questions).
-- Incumbent classes: unscanned 777, strong_dedicated 26, weak 4, outdated 1.
+- 815 deduped questions (725 generated from the dossier, 90 from observed search clusters, 0 from data/questions).
+- Incumbent classes: unscanned 665, strong_dedicated 26, weak 4, outdated 1.
 
 ## Deadlines (dated)
 - September 24, 2012: erecording start — https://www.tompkinscountyny.gov/All-Departments/County-Clerk/E-Recording-Information-and-Forms
