@@ -51,6 +51,112 @@ Rules:
 - If the page has no usable facts, return {"claims": [], "entities": [], "processes": []}."""
 
 
+STEPS_SYSTEM = """You extract step-by-step procedures from one official web page of a US college or its town. Return ONE JSON object and nothing else:
+{"processes": [{"name": "<verb phrase, e.g. apply for housing>", "steps": ["<step 1>", "<step 2>", ...]}]}
+
+Rules:
+- Each step is ONE sentence or list item copied character for character from the page text (same words, numbers, punctuation and capitalization),
+  at least 12 characters, in the page's order. Never paraphrase, merge, split or renumber steps; drop only a leading list marker ("1.", "Step 2:", "•").
+- A procedure needs at least two steps. Only procedures the page itself lays out as steps or an ordered sequence of actions a student, parent,
+  transfer, employee or visitor takes. No inference, no outside knowledge, no marketing text, no navigation.
+- If the page has no procedure, return {"processes": []}."""
+STEP_MIN_CHARS = 12
+MAX_STEPS = 15
+STEP_PATTERN = r"(^|\s)(Step\s*\d|\d{1,2}\.)\s"   # a page whose text carries a numbered step list is a candidate for the steps pass
+STEP_MARKER = re.compile(r"^\s*(?:step\s*\d+[.:)]?|\d{1,2}[.)]|[•\-–*])\s*", re.I)
+
+
+def process_field(name: str) -> str:
+    return f"process.{slugify(name, keep_stop=True)[:60].replace('-', '_')}"
+
+
+def steps_pending_snapshots(conn: psycopg.Connection, *, institution_id: UUID | None, place_ids: list[UUID] | None, limit: int) -> list[dict]:
+    """Pages for the verbatim-steps pass: extracted official pages that yielded a procedure or whose text carries a numbered step list, not yet passed."""
+    with conn.cursor() as cur:
+        cur.execute("""SELECT DISTINCT ON (s.source_id) s.id, s.source_id, s.fetched_at, s.retained_text, COALESCE(s.final_url, r.canonical_url) AS url, r.crawl_section, r.source_family,
+                              r.institution_id, r.place_id, r.publisher
+                       FROM fetch_snapshots s JOIN source_registry r ON r.id=s.source_id
+                       WHERE s.outcome='ok' AND s.retained_text IS NOT NULL AND s.extracted_at IS NOT NULL AND s.steps_extracted_at IS NULL AND r.source_kind LIKE 'official%%'
+                         AND (r.institution_id = %s OR r.place_id = ANY(%s::uuid[]))
+                         AND (EXISTS (SELECT 1 FROM claim_sources cs JOIN claims c ON c.id=cs.claim_id WHERE cs.snapshot_id=s.id AND c.field LIKE 'process.%%') OR s.retained_text ~* %s)
+                       ORDER BY s.source_id, s.fetched_at DESC""", (institution_id, place_ids or [], STEP_PATTERN))
+        rows = [dict(r) for r in cur.fetchall()]
+    return rows[:limit]
+
+
+def _snapshot_row(conn: psycopg.Connection, sid: UUID) -> dict | None:
+    with conn.cursor() as cur:
+        cur.execute("""SELECT s.retained_text, s.fetched_at, r.institution_id, r.place_id, r.crawl_section, r.source_family,
+                              (SELECT id FROM campuses WHERE institution_id=r.institution_id AND is_main LIMIT 1) AS campus_id
+                       FROM fetch_snapshots s JOIN source_registry r ON r.id=s.source_id WHERE s.id=%s""", (sid,))
+        row = cur.fetchone()
+    return dict(row) if row else None
+
+
+def process_step_results(conn: psycopg.Connection, results: list[BatchResult], *, model: str, topic_by_section: dict, batch_id: str, default_institution_id: UUID | None = None) -> dict:
+    """Store each verbatim step of each procedure as its own claim (process.<key>.step_NN, quote = the step) plus the procedure
+    (process.<key>, JSON name and steps, quote = its first step). A step not on the page is dropped; a procedure keeps two or more."""
+    stats = {"pages": 0, "processes_proposed": 0, "processes_stored": 0, "steps_proposed": 0, "steps_stored": 0, "steps_dropped_no_quote": 0, "errors": 0}
+    for res in results:
+        if not res.custom_id.startswith("steps:"):
+            continue
+        sid = UUID(res.custom_id.split(":", 1)[1])
+        stats["pages"] += 1
+        snap = _snapshot_row(conn, sid)
+        if not snap:
+            continue
+        doc = parse_json_object(res.text or "") if res.ok else None
+        if doc is None:
+            stats["errors"] += 1
+            _mark_steps(conn, sid)
+            continue
+        topic_id = topic_by_section.get(snap["crawl_section"] or "default") or topic_by_section.get("default")
+        if snap["institution_id"] is None and default_institution_id is not None:
+            snap["institution_id"] = default_institution_id   # town pages: claims live under the school, scoped by their town topic
+            with conn.cursor() as cur:
+                cur.execute("SELECT id FROM campuses WHERE institution_id=%s AND is_main LIMIT 1", (default_institution_id,))
+                snap["campus_id"] = (cur.fetchone() or {}).get("id")
+        text = snap["retained_text"] or ""
+        fetched = snap["fetched_at"] or datetime.now(timezone.utc)
+        for p in doc.get("processes") or []:
+            if not (isinstance(p, dict) and p.get("name") and isinstance(p.get("steps"), list)):
+                continue
+            stats["processes_proposed"] += 1
+            steps = []
+            for raw in p["steps"][:MAX_STEPS]:
+                step = STEP_MARKER.sub("", str(raw).strip()).strip()
+                stats["steps_proposed"] += 1
+                if len(step) >= STEP_MIN_CHARS and quote_in_text(step, text):
+                    steps.append(step[:500])
+                else:
+                    stats["steps_dropped_no_quote"] += 1
+            if len(steps) < 2 or not snap["institution_id"]:
+                continue
+            name = str(p["name"]).strip()[:120]
+            base = process_field(name)
+
+            def rec(field: str, value: str) -> ClaimRecord:
+                return ClaimRecord(institution_id=snap["institution_id"], campus_id=snap["campus_id"], entity_id=None, topic_id=topic_id, field=field, value_type="text", value_text=value,
+                                   evidence_category="verified_fact", extraction_method="model", extraction_model=f"batch:{model}", extraction_confidence=0.85, retrieved_at=fetched, is_critical=False)
+            try:
+                cm.store_claim(conn, rec(base, json.dumps({"name": name, "steps": steps})), snapshot_id=sid, excerpt=steps[0], locator="bulk-extract:process", source_family=snap["source_family"])
+                for i, step in enumerate(steps, start=1):
+                    cm.store_claim(conn, rec(f"{base}.step_{i:02d}", step), snapshot_id=sid, excerpt=step, locator=f"bulk-extract:process-step:{i}", source_family=snap["source_family"])
+                    stats["steps_stored"] += 1
+                stats["processes_stored"] += 1
+            except Exception as e:  # noqa: BLE001 — a malformed record is a count, never a crash of the batch
+                conn.rollback()
+                stats.setdefault("store_errors", []).append(f"{base}: {type(e).__name__}: {str(e)[:100]}")
+        _mark_steps(conn, sid)
+    return stats
+
+
+def _mark_steps(conn: psycopg.Connection, sid: UUID) -> None:
+    with conn.cursor() as cur:
+        cur.execute("UPDATE fetch_snapshots SET steps_extracted_at=now() WHERE id=%s", (sid,))
+    conn.commit()
+
+
 def pending_snapshots(conn: psycopg.Connection, *, institution_id: UUID | None, place_ids: list[UUID] | None, limit: int, only_crawled: bool = True) -> list[dict]:
     with conn.cursor() as cur:
         cur.execute("""SELECT DISTINCT ON (s.source_id) s.id, s.source_id, s.fetched_at, s.retained_text, COALESCE(s.final_url, r.canonical_url) AS url, r.crawl_section, r.source_family,
@@ -200,7 +306,7 @@ def process_results(conn: psycopg.Connection, results: list[BatchResult], *, mod
                 stats.setdefault("store_errors", []).append(f"{rec.field}: {type(e).__name__}: {str(e)[:100]}")
         for p in doc.get("processes") or []:
             if isinstance(p, dict) and p.get("name") and p.get("steps") and quote_in_text(str(p.get("quote") or ""), text) and snap["institution_id"]:
-                rec = ClaimRecord(institution_id=snap["institution_id"], campus_id=snap["campus_id"], entity_id=None, topic_id=topic_id, field=f"process.{slugify(p['name'], keep_stop=True)[:60].replace('-', '_')}",
+                rec = ClaimRecord(institution_id=snap["institution_id"], campus_id=snap["campus_id"], entity_id=None, topic_id=topic_id, field=process_field(p['name']),
                                   value_type="text", value_text=json.dumps({"name": p["name"], "steps": [str(x)[:300] for x in p["steps"]][:12]}), evidence_category="verified_fact",
                                   extraction_method="model", extraction_model=f"batch:{model}", extraction_confidence=0.8, retrieved_at=snap["fetched_at"] or datetime.now(timezone.utc), is_critical=False)
                 try:

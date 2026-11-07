@@ -310,3 +310,32 @@ def test_question_build_retires_generated_questions_it_no_longer_produces(clean_
         cur.execute("SELECT count(*) AS n FROM bulk_questions WHERE institution_id=%s AND status='skipped'", (inst,))
         skipped = cur.fetchone()["n"]
     assert row["status"] == "skipped" and row["why"] == "no longer generated" and still_planned == planned and skipped == 1
+
+
+def test_plan_pages_replans_a_flagged_question_over_its_own_page(clean_conn):
+    inst, campus, topics, hall, snap, ids = _seed_claims(clean_conn)
+    questions.build(clean_conn, slug="fixture-state")
+    rank.rank_all(clean_conn, institution_id=inst, official_domains=("example.edu",), today=date(2026, 11, 6))
+    first = plan.plan_pages(clean_conn, institution_id=inst, limit=3, run_id="t-replan-1")["planned"]
+    assert first
+    target = first[0]
+    with clean_conn.cursor() as cur:   # the page went out; later its evidence changed, so the question is flagged to plan again
+        cur.execute("UPDATE bulk_pages SET stage='published', draft='{\"title\": \"old\"}'::jsonb WHERE path=%s", (target["path"],))
+        cur.execute("UPDATE bulk_questions SET status='done' WHERE id <> %s::uuid AND institution_id=%s", (target["question_id"], inst))
+        cur.execute("UPDATE bulk_questions SET status='queued', incumbent_detail=incumbent_detail || '{\"replan\": \"steps\"}'::jsonb WHERE id=%s::uuid", (target["question_id"],))
+    clean_conn.commit()
+    again = plan.plan_pages(clean_conn, institution_id=inst, limit=3, run_id="t-replan-2")
+    assert [p["path"] for p in again["planned"]] == [target["path"]] and again["skipped"] == []
+    with clean_conn.cursor() as cur:
+        cur.execute("SELECT stage, run_id, draft, gathered FROM bulk_pages WHERE path=%s", (target["path"],))
+        row = cur.fetchone()
+        cur.execute("SELECT status, incumbent_detail->>'replan' AS replan FROM bulk_questions WHERE id=%s::uuid", (target["question_id"],))
+        q = cur.fetchone()
+    assert row["stage"] == "planned" and row["run_id"] == "t-replan-2" and row["draft"] is None and row["gathered"] is None
+    assert q["status"] == "planned" and q["replan"] is None
+    # without the flag the same question is skipped as already planned
+    with clean_conn.cursor() as cur:
+        cur.execute("UPDATE bulk_questions SET status='queued' WHERE id=%s::uuid", (target["question_id"],))
+    clean_conn.commit()
+    third = plan.plan_pages(clean_conn, institution_id=inst, limit=3, run_id="t-replan-3")
+    assert third["planned"] == [] and third["skipped"][0]["reason"] == "already planned"

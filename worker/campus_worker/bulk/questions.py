@@ -74,6 +74,33 @@ def same_entity_name(a: set[str], b: set[str]) -> bool:
     return len(small) >= 2 and small <= big and (big - small) <= GENERIC_NAME_WORDS
 
 
+PROCESS_TAIL_STOP = NAME_STOP | {"as", "your", "my", "with", "from", "into", "after", "before", "that", "who", "which", "through", "via"}
+PROCESS_QUERY_CHARS = 36
+
+
+def _leading_phrase(words: list[str], content_words: int) -> list[str]:
+    out, n = [], 0
+    for w in words:
+        out.append(w)
+        if w.lower().strip(",") not in PROCESS_TAIL_STOP:
+            n += 1
+            if n == content_words:
+                break
+    while out and out[-1].lower().strip(",") in PROCESS_TAIL_STOP:
+        out.pop()
+    return out
+
+
+def process_query(verb: str, short: str) -> str:
+    """The how-to page's search query: the verb phrase's opening four content words (three when that runs long) plus the school, so a
+    long procedure name ("prepare to enter the United States as international faculty/staff") still fits a 60-character title."""
+    words = verb.split()
+    phrase = _leading_phrase(words, 4)
+    if len(" ".join(phrase)) > PROCESS_QUERY_CHARS:
+        phrase = _leading_phrase(words, 3)
+    return f"{' '.join(phrase)} {short}".strip()
+
+
 def entity_guides(per_entity: dict, entities: dict, *, school: str, town: str, short: str) -> list[dict]:
     """One guide per entity with enough facts whose name fits a title; outside job ads dropped; name variants merged into the one with more facts."""
     guides = []
@@ -150,22 +177,23 @@ def generate(conn: psycopg.Connection, *, institution_id: UUID, school: str, tow
                                 "audience": aud, "origin": "generated", "facts": n})
     # how-to pages, one per distinct process
     seen_proc: set = set()
+    verbatim_steps = Counter(c["field"].rsplit(".step_", 1)[0] for c in claims if not c["entity_id"] and c["field"].startswith("process.") and ".step_" in c["field"])
     for c in claims:
-        if c["entity_id"] or not c["field"].startswith("process."):
+        if c["entity_id"] or not c["field"].startswith("process.") or ".step_" in c["field"]:
             continue
         try:
             doc = json.loads(c["value_text"]) if (c.get("value_text") or "").startswith("{") else {}
         except json.JSONDecodeError:
             doc = {}
         name = (doc.get("name") or humanize(c["field"])).strip().rstrip(".")
-        steps = doc.get("steps") or []
+        steps = verbatim_steps.get(c["field"], 0)   # only steps copied verbatim from the page (the steps pass) are evidence; a paraphrased list plans no page
         key = slugify(name, keep_stop=True)
-        if len(steps) < 2 or not name or len(name) > 70 or key in seen_proc:
+        if steps < 2 or not name or len(name) > 70 or key in seen_proc:
             continue
         seen_proc.add(key)
         verb = name[0].lower() + name[1:] if name[:1].isupper() and not name.split()[0].isupper() else name
-        out.append({"question": f"How do I {verb} at {school}?", "primary_query": f"{verb} {short}", "answer_key": f"process:{key}", "page_type": "process_guide", "entity_id": None, "topic_id": c["topic_id"],
-                    "audience": "general", "origin": "generated", "facts": len(steps)})
+        out.append({"question": f"How do I {verb} at {school}?", "primary_query": process_query(verb, short), "answer_key": f"process:{key}", "page_type": "process_guide", "entity_id": None, "topic_id": c["topic_id"],
+                    "audience": "general", "origin": "generated", "facts": steps})
     return out
 
 

@@ -398,7 +398,7 @@ def main(argv: list[str]) -> int:
     r.add_argument("--resume", action="store_true"); r.add_argument("--deploy", action="store_true"); r.add_argument("--include-existing", action="store_true")
     sub.add_parser("status", parents=[common])
     h = sub.add_parser("headless", parents=[common], help="subscription-only: the stages through parallel claude -p workers (never the API)")
-    h.add_argument("--workers", type=int, default=6); h.add_argument("--model", default="sonnet"); h.add_argument("--stage", choices=["all", "extract", "dossier", "articles"], default="all")
+    h.add_argument("--workers", type=int, default=6); h.add_argument("--model", default="sonnet"); h.add_argument("--stage", choices=["all", "extract", "steps", "dossier", "articles"], default="all")
     h.add_argument("--chunk", type=int, default=10); h.add_argument("--deploy-every", type=int, default=25); h.add_argument("--no-deploy", action="store_true")
     h.add_argument("--max-chunks", type=int); h.add_argument("--max-batches", type=int)
     args = ap.parse_args(argv)

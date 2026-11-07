@@ -245,16 +245,29 @@ EXTRACTION RULES
 """
 
 
-def extraction_prompt(pairs: list[tuple[str, str]]) -> str:
+STEPS_WORKER_RULES = """You are an extraction worker in a batch run. For EACH page listed below: use Read on the page file, then use Write to create its
+output file with ONE JSON object following the step rules. Do nothing else: no other files, no commands, no web. Work through the whole
+list even if some pages have no procedure (then write {"processes": []}). When every output file exists, reply with exactly: DONE <number of files written>
+
+STEP RULES
+"""
+
+
+def extraction_prompt(pairs: list[tuple[str, str]], mode: str = "facts") -> str:
     listing = "\n".join(f"- read {src} → write {dst}" for src, dst in pairs)
+    if mode == "steps":
+        return STEPS_WORKER_RULES + extractmod.STEPS_SYSTEM + "\n\nPAGES\n" + listing + "\n"
     return EXTRACT_WORKER_RULES + extractmod.EXTRACTION_SYSTEM + "\n\nPAGES\n" + listing + "\n"
 
 
 def extract_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: int = 10, model: str = "sonnet", pause: Pause, log=print, runner=None, max_chunks: int | None = None,
-                  progress: Progress | None = None, dsn: str | None = None) -> dict:
+                  progress: Progress | None = None, dsn: str | None = None, mode: str = "facts") -> dict:
+    """mode "facts": claims, entities and procedures from every crawled page not yet extracted. mode "steps": the verbatim-steps pass over
+    extracted pages that carry a procedure (each step becomes its own quoted claim), so how-to pages rest on quotes, not paraphrase."""
     dsn = _dsn(dsn)
+    label = "extract" if mode == "facts" else "steps"
     run_dir = RUN_ROOT / run_id
-    pages_dir, out_dir = run_dir / "pages", run_dir / "extract"
+    pages_dir, out_dir = run_dir / "pages", run_dir / ("extract" if mode == "facts" else "steps")
     pages_dir.mkdir(parents=True, exist_ok=True)
     out_dir.mkdir(parents=True, exist_ok=True)
     progress = progress or Progress(run_dir, log=log)
@@ -270,10 +283,13 @@ def extract_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: int
         except FileNotFoundError:
             cfg = {"sections": []}   # a school without a crawl config (fixtures): every page falls under the default topic
         topic_by_section = extractmod.section_topic(conn, cfg)
-        pending = extractmod.pending_snapshots(conn, institution_id=inst, place_ids=places, limit=100_000)
+        if mode == "steps":
+            pending = extractmod.steps_pending_snapshots(conn, institution_id=inst, place_ids=places, limit=100_000)
+        else:
+            pending = extractmod.pending_snapshots(conn, institution_id=inst, place_ids=places, limit=100_000)
     finally:
         conn.close()
-    log(f"extract: {len(pending)} pages pending, {workers} workers, {chunk_size} pages per session, model {model}")
+    log(f"{label}: {len(pending)} pages pending, {workers} workers, {chunk_size} pages per session, model {model}")
     rel = lambda p: str(p.relative_to(REPO_ROOT))
     for s in pending:
         f = pages_dir / f"{s['id']}.txt"
@@ -292,7 +308,7 @@ def extract_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: int
             counter["n"] += 1
             n = counter["n"]
         pairs = [(rel(pages_dir / f"{sid}.txt"), rel(out_dir / f"{sid}.json")) for sid in chunk]
-        r = run_session(extraction_prompt(pairs), model=model, max_turns=4 * len(chunk) + 6, timeout_s=900, runner=runner)
+        r = run_session(extraction_prompt(pairs, mode=mode), model=model, max_turns=4 * len(chunk) + 6, timeout_s=900, runner=runner)
         progress.session(r)
         if r.usage_limit:
             pause.trigger(r.text + " " + r.err)
@@ -303,28 +319,37 @@ def extract_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: int
         for sid in chunk:
             f = out_dir / f"{sid}.json"
             if f.exists() and f.stat().st_size > 2:
-                results.append(BatchResult(f"extract:{sid}", True, f.read_text(), {}, None, f"headless:{model}"))
+                results.append(BatchResult(f"{label}:{sid}", True, f.read_text(), {}, None, f"headless:{model}"))
             else:
                 missing.append(sid)
-        stats = extractmod.process_results(conn, results, model=f"headless:{model}", topic_by_section=topic_by_section, batch_id=f"headless:{run_id}:{n}", default_institution_id=inst) if results else {}
-        progress.add(pages=len(results), claims=stats.get("claims_stored", 0), dropped_no_quote=stats.get("claims_dropped_no_quote", 0), entities=stats.get("entities_created", 0), processes=stats.get("processes", 0))
+        if mode == "steps":
+            stats = extractmod.process_step_results(conn, results, model=f"headless:{model}", topic_by_section=topic_by_section, batch_id=f"headless:{run_id}:{n}", default_institution_id=inst) if results else {}
+            progress.add(pages=len(results), processes=stats.get("processes_stored", 0), steps=stats.get("steps_stored", 0), dropped_no_quote=stats.get("steps_dropped_no_quote", 0))
+            detail = f"{stats.get('processes_stored', 0)} procedures, {stats.get('steps_stored', 0)} steps stored ({stats.get('steps_dropped_no_quote', 0)} steps dropped without a verbatim quote)"
+        else:
+            stats = extractmod.process_results(conn, results, model=f"headless:{model}", topic_by_section=topic_by_section, batch_id=f"headless:{run_id}:{n}", default_institution_id=inst) if results else {}
+            progress.add(pages=len(results), claims=stats.get("claims_stored", 0), dropped_no_quote=stats.get("claims_dropped_no_quote", 0), entities=stats.get("entities_created", 0), processes=stats.get("processes", 0))
+            detail = f"{stats.get('claims_stored', 0)} claims stored ({stats.get('claims_dropped_no_quote', 0)} dropped without a verbatim quote)"
         retry = []
         for sid in missing:
             attempts[sid] = attempts.get(sid, 0) + 1
             if attempts[sid] >= MAX_ATTEMPTS:
                 with conn.cursor() as cur:
-                    cur.execute("UPDATE fetch_snapshots SET extracted_at=now(), extraction_batch_id=%s WHERE id=%s", (f"headless:{run_id}:skipped", UUID(sid)))
+                    if mode == "steps":
+                        cur.execute("UPDATE fetch_snapshots SET steps_extracted_at=now() WHERE id=%s", (UUID(sid),))
+                    else:
+                        cur.execute("UPDATE fetch_snapshots SET extracted_at=now(), extraction_batch_id=%s WHERE id=%s", (f"headless:{run_id}:skipped", UUID(sid)))
                 conn.commit()
                 progress.add(skipped=1)
             else:
                 retry.append(sid)
-        log(f"  extract chunk {n}: {len(results)}/{len(chunk)} pages, {stats.get('claims_stored', 0)} claims stored ({stats.get('claims_dropped_no_quote', 0)} dropped without a verbatim quote), {r.duration_s}s, turns {r.turns}; " + progress.line("extract"))
-        progress.write("extract", {"chunk": n, "pages": len(results), "claims": stats.get("claims_stored", 0), "session_s": r.duration_s})
+        log(f"  {label} chunk {n}: {len(results)}/{len(chunk)} pages, {detail}, {r.duration_s}s, turns {r.turns}; " + progress.line(label))
+        progress.write(label, {"chunk": n, "pages": len(results), "stored": stats.get("claims_stored", stats.get("steps_stored", 0)), "session_s": r.duration_s})
         return True, (retry or None)
 
-    stats = run_chunks(chunks, workers=workers, handle=handle, pause=pause, log=log, label="extract", dsn=dsn)
+    stats = run_chunks(chunks, workers=workers, handle=handle, pause=pause, log=log, label=label, dsn=dsn)
     out = {"pending_at_start": len(pending), "chunks": len(chunks), **stats, "counts": dict(progress.counts), "sessions": progress.sessions, "hours": round(progress.hours(), 2)}
-    log("extract done: " + json.dumps(out))
+    log(f"{label} done: " + json.dumps(out))
     return out
 
 
@@ -563,6 +588,11 @@ def run_all(*, school: str, run_id: str, workers: int = 6, model: str = "sonnet"
     out: dict = {"run_id": run_id, "stage": stage, "started": datetime.now(timezone.utc).isoformat()}
     if stage in ("all", "extract"):
         out["extract"] = extract_stage(school=school, run_id=run_id, workers=workers, chunk_size=chunk_size, model=model, pause=pause, log=log, runner=runner, max_chunks=max_chunks, dsn=dsn)
+        if stopped():
+            out["stopped"] = True
+            return out
+    if stage in ("all", "steps"):   # verbatim steps for every page that carries a procedure, so how-to pages rest on quoted steps
+        out["steps"] = extract_stage(school=school, run_id=run_id, workers=workers, chunk_size=chunk_size, model=model, pause=pause, log=log, runner=runner, max_chunks=max_chunks, dsn=dsn, mode="steps")
         if stopped():
             out["stopped"] = True
             return out

@@ -100,7 +100,7 @@ def plan_pages(conn: psycopg.Connection, *, institution_id: UUID, limit: int, ru
         cur.execute("SELECT slug FROM places WHERE kind IN ('city','town') ORDER BY name LIMIT 1")
         place_slug = (cur.fetchone() or {}).get("slug")
         cur.execute("""SELECT q.id, q.question, q.audience, q.page_type, q.answer_key, q.entity_id, q.topic_id, q.cluster_id, q.win_note, q.incumbent_class, q.tier, q.order_rank, q.primary_query AS stored_pq,
-                              t.key AS topic_key, e.slug AS entity_slug, e.name AS entity_name
+                              q.incumbent_detail->>'replan' AS replan, t.key AS topic_key, e.slug AS entity_slug, e.name AS entity_name
                        FROM bulk_questions q LEFT JOIN topics t ON t.id=q.topic_id LEFT JOIN entities e ON e.id=q.entity_id
                        WHERE q.institution_id=%s AND q.status='queued' ORDER BY q.order_rank NULLS LAST, q.created_at""", (institution_id,))
         qs = [dict(r) for r in cur.fetchall()]
@@ -119,8 +119,11 @@ def plan_pages(conn: psycopg.Connection, *, institution_id: UUID, limit: int, ru
             break
         path = path_for(q, school_slug=school_slug, place_slug=place_slug)
         pq = q.get("stored_pq") or primary_query_for(q, school_name=school_name)
+        replan = bool(q.get("replan"))   # a flagged question plans again over its own page (held, or republished with new evidence) as a new version
         dup = covered_by(live, pq, q["question"], is_hub=(q.get("answer_key") or "").startswith("hub:"))
-        if (path in existing and not include_existing) or path in planned_paths or dup:
+        if dup == path:
+            dup = None
+        if ((path in existing or path in planned_paths) and not include_existing and not replan) or dup:
             skipped.append({"question": q["question"], "path": path, "reason": f"answered by {dup}" if dup else ("page exists" if path in existing else "already planned")})
             with conn.cursor() as cur:
                 cur.execute("UPDATE bulk_questions SET status='skipped', updated_at=now() WHERE id=%s", (q["id"],))
@@ -129,18 +132,31 @@ def plan_pages(conn: psycopg.Connection, *, institution_id: UUID, limit: int, ru
         plan = {"question": q["question"], "primary_query": q.get("stored_pq") or primary_query_for(q, school_name=school_name), "audience": q["audience"], "page_type": q["page_type"], "sections": TEMPLATES[q["page_type"]], "topic_key": q["topic_key"], "entity_id": str(q["entity_id"]) if q["entity_id"] else None,
                 "entity_name": q.get("entity_name"), "answer_key": q["answer_key"], "win_note": q.get("win_note"), "incumbent_class": q.get("incumbent_class"), "hubs": list(_hubs_for(path)), "order_rank": q.get("order_rank")}
         with conn.cursor() as cur:
-            cur.execute("""INSERT INTO bulk_pages (question_id, path, page_type, stage, plan, run_id) VALUES (%s, %s, %s, 'planned', %s::jsonb, %s)
-                           ON CONFLICT (path) DO NOTHING RETURNING id""", (q["id"], path, q["page_type"], json.dumps(plan), run_id))
+            if replan and path in planned_paths:   # reuse the page's row: a fresh plan and packet, the old draft kept in its page version
+                cur.execute("""UPDATE bulk_pages SET question_id=%s, page_type=%s, stage='planned', plan=%s::jsonb, gathered=NULL, draft=NULL, checks=NULL, verdicts=NULL, skip_reason=NULL, run_id=%s, updated_at=now()
+                               WHERE path=%s RETURNING id""", (q["id"], q["page_type"], json.dumps(plan), run_id, path))
+            else:
+                cur.execute("""INSERT INTO bulk_pages (question_id, path, page_type, stage, plan, run_id) VALUES (%s, %s, %s, 'planned', %s::jsonb, %s)
+                               ON CONFLICT (path) DO NOTHING RETURNING id""", (q["id"], path, q["page_type"], json.dumps(plan), run_id))
             row = cur.fetchone()
             if row:
-                cur.execute("UPDATE bulk_questions SET status='planned', updated_at=now() WHERE id=%s", (q["id"],))
+                cur.execute("UPDATE bulk_questions SET status='planned', incumbent_detail=incumbent_detail - 'replan', updated_at=now() WHERE id=%s", (q["id"],))
                 planned.append({"bulk_page_id": str(row["id"]), "question_id": str(q["id"]), "path": path, "page_type": q["page_type"], "question": q["question"], "cluster_id": str(q["cluster_id"]) if q["cluster_id"] else None})
                 planned_paths.add(path)
         conn.commit()
     return {"planned": planned, "skipped": skipped}
 
 
+def _step_prefix(answer_key: str) -> str | None:
+    """process:<key> → the field prefix of that procedure's verbatim step claims (process.<key_with_underscores>.step_)."""
+    if not answer_key.startswith("process:"):
+        return None
+    return "process." + answer_key.split(":", 1)[1][:60].replace("-", "_") + ".step_"
+
+
 def _families_for(answer_key: str, page_type: str) -> list[str]:
+    if answer_key.startswith("process:"):
+        return ["process", "deadline", "fee"]
     if answer_key.startswith("entity:") and ":" in answer_key[7:]:
         fam = answer_key.rsplit(":", 1)[-1]
         return [] if fam == "guide" else fam.split("+")
@@ -154,6 +170,7 @@ def gather(conn: psycopg.Connection, bulk_page: dict, *, institution_id: UUID) -
     plan = bulk_page["plan"]
     entity_id = UUID(plan["entity_id"]) if plan.get("entity_id") else None
     families = _families_for(plan.get("answer_key") or "", plan["page_type"])
+    step_prefix = _step_prefix(plan.get("answer_key") or "")
     with conn.cursor() as cur:
         cur.execute("SELECT id FROM topics WHERE key=%s", (plan.get("topic_key") or "housing",))
         topic_id = (cur.fetchone() or {}).get("id")
@@ -164,12 +181,13 @@ def gather(conn: psycopg.Connection, bulk_page: dict, *, institution_id: UUID) -
                                  WHERE cs.claim_id=c.id AND cs.excerpt IS NOT NULL AND cs.excerpt <> '' AND r.source_kind LIKE 'official%%' ORDER BY s.fetched_at DESC LIMIT 1) AS source
                        FROM claims c LEFT JOIN entities e ON e.id=c.entity_id
                        WHERE c.institution_id=%s AND c.superseded_by_id IS NULL AND c.evidence_category='verified_fact' AND c.conflict_status IS DISTINCT FROM 'conflicted'
-                         AND (c.entity_id=%s OR (c.entity_id IS NULL AND c.topic_id=%s))
-                       ORDER BY (c.entity_id IS NOT NULL) DESC, c.is_critical DESC, c.field""", (institution_id, entity_id, topic_id))
+                         AND (c.entity_id=%s OR (c.entity_id IS NULL AND c.topic_id=%s) OR (%s::text IS NOT NULL AND c.field LIKE %s))
+                         AND NOT (c.field LIKE 'process.%%' AND c.value_text LIKE '{%%')
+                       ORDER BY (c.entity_id IS NOT NULL) DESC, c.is_critical DESC, c.field""", (institution_id, entity_id, topic_id, step_prefix, (step_prefix or "") + "%"))
         rows = [dict(r) for r in cur.fetchall() if r["source"]]
-    def score(c):
+    def score(c):   # a how-to page's own verbatim steps first, then the entity's facts, then the page's fact families, then the rest
         fam = c["field"].split(".", 1)[0]
-        return (0 if c["entity_id"] else 1, 0 if (families and fam in families) else 1, 0 if c["is_critical"] else 1)
+        return (0 if (step_prefix and c["field"].startswith(step_prefix)) else 1, 0 if c["entity_id"] else 1, 0 if (families and fam in families) else 1, 0 if c["is_critical"] else 1)
     rows.sort(key=score)
     facts = []
     for c in rows[:MAX_FACTS]:

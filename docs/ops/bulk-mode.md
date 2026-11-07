@@ -46,6 +46,11 @@ Fallback without a key: `scripts/parallel_headless.sh 4 --pages <bulk plan --jso
   worker per host so the permitted rate is exact; text stored by content hash in `fetch_snapshots` with URL and date.
 - Extract: the model proposes typed claims with a quote; code keeps a claim only when the quote is verbatim on the page (whitespace- and
   quote-insensitive), the field is in the taxonomy and the value parses; `claims.store_claim` dedupes across pages.
+- Steps (subscription-only run, 2026-11-07): a second pass over extracted pages that carry a procedure or a numbered step list
+  (`--stage steps`, included in `all`). Workers return each procedure's steps as sentences copied from the page; code keeps a step only
+  when it is verbatim on the page and stores it as its own claim (`process.<key>.step_NN`, quote = the step) beside the procedure claim
+  (`process.<key>`). A how-to page is planned only for a procedure with two or more verbatim steps, and its packet opens with them; the
+  JSON procedure blob never reaches a writer. `fetch_snapshots.steps_extracted_at` marks the pages covered (resumable).
 - Dossier: `docs/dossiers/<school>/` (identity, entities, claims, processes, deadlines, costs, policies, contacts, town, conflicts, gaps,
   crawl, stats, `summary.md`); the database stays the source of truth.
 - Questions: generated from the facts that exist (so each has an answer) plus `data/questions/*.yaml` and the observed intent clusters,

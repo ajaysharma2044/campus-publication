@@ -9,7 +9,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from campus_worker.bulk import batch_client as bc
-from campus_worker.bulk import headless, questions, rank, run
+from campus_worker.bulk import headless, plan as planmod, questions, rank, run
 from tests.test_bulk import PAGE_TEXT, _seed, _seed_claims
 
 PAIR_RE = re.compile(r"^- read (\S+) → write (\S+)$", re.M)
@@ -127,3 +127,54 @@ def test_articles_through_fake_workers_publish_and_report(clean_conn, migrated_u
     assert stages.get("published", 0) >= 1 and n >= 1
     assert (tmp_path / "headless" / "t-art" / "progress.md").read_text().startswith("# Subscription-only run t-art")
     assert any("subscription-only run" in f.read_text() for f in (tmp_path / "docs" / "digest").glob("*.md"))
+
+
+def test_steps_pass_stores_each_verbatim_step_as_a_quoted_claim_and_plans_the_how_to_page(clean_conn, migrated_url, tmp_path, monkeypatch):
+    inst, campus, topics, hall, sid, snap = _seed(clean_conn)
+    text = PAGE_TEXT + " How to apply: Step 1. Submit the housing application in the portal. Step 2. Pay the housing deposit."
+    with clean_conn.cursor() as cur:
+        cur.execute("UPDATE fetch_snapshots SET retained_text=%s, extracted_at=now() WHERE id=%s", (text, snap))
+    clean_conn.commit()
+    monkeypatch.setattr(headless, "RUN_ROOT", tmp_path / "headless")
+    monkeypatch.setattr(headless, "STOP_FILE", tmp_path / "STOP")
+    monkeypatch.setattr(headless, "REPO_ROOT", tmp_path)
+
+    def runner(prompt: str, *, model: str, max_turns: int) -> headless.SessionResult:
+        assert "STEP RULES" in prompt and "character for character" in prompt
+        for src, dst in PAIR_RE.findall(prompt):
+            (tmp_path / dst).write_text(json.dumps({"processes": [{"name": "apply for housing", "steps": ["1. Submit the housing application in the portal.", "Pay the housing deposit.", "Move in on August 20."]},
+                                                                  {"name": "cancel housing", "steps": ["Email the housing office."]}]}))
+        return headless.SessionResult(0, "DONE 1", "", False, 0.1, 3, 0.02)
+
+    pause = headless.Pause(log=lambda m: None, probe=lambda: True)
+    out = headless.extract_stage(school="fixture-state", run_id="t-steps", workers=1, chunk_size=5, model="sonnet", pause=pause, log=lambda m: None, runner=runner, dsn=migrated_url, mode="steps")
+    assert out["pending_at_start"] == 1 and out["counts"] == {"pages": 1, "processes": 1, "steps": 2, "dropped_no_quote": 2}
+    with clean_conn.cursor() as cur:
+        cur.execute("SELECT c.field, c.value_text, cs.excerpt FROM claims c JOIN claim_sources cs ON cs.claim_id=c.id WHERE c.field LIKE 'process.apply_for_housing%%' ORDER BY c.field")
+        rows = cur.fetchall()
+        cur.execute("SELECT steps_extracted_at IS NOT NULL AS done FROM fetch_snapshots WHERE id=%s", (snap,))
+        done = cur.fetchone()["done"]
+    assert [r["field"] for r in rows] == ["process.apply_for_housing", "process.apply_for_housing.step_01", "process.apply_for_housing.step_02"] and done
+    assert rows[1]["excerpt"] == rows[1]["value_text"] == "Submit the housing application in the portal." and rows[2]["value_text"] == "Pay the housing deposit."
+    assert rows[0]["excerpt"] == "Submit the housing application in the portal." and json.loads(rows[0]["value_text"])["steps"] == [rows[1]["value_text"], rows[2]["value_text"]]
+    assert headless.extract_stage(school="fixture-state", run_id="t-steps", workers=1, chunk_size=5, model="sonnet", pause=pause, log=lambda m: None, runner=runner, dsn=migrated_url, mode="steps")["pending_at_start"] == 0
+    # the question map plans the how-to page from the verbatim steps (a paraphrased step list alone plans none), with a title-sized query
+    gen = questions.generate(clean_conn, institution_id=inst, school="Fixture State", town="Fixtown", year="2026-27")
+    proc = [g for g in gen if g["page_type"] == "process_guide"]
+    assert [g["primary_query"] for g in proc] == ["apply for housing Fixture State"] and proc[0]["facts"] == 2 and proc[0]["answer_key"] == "process:apply-for-housing"
+    assert questions.process_query("prepare to enter the United States as international faculty/staff", "Cornell") == "prepare to enter the United States Cornell"
+    assert questions.process_query("complete Spring Housing Selection as a rising sophomore", "Cornell") == "complete Spring Housing Selection Cornell"
+    assert questions.process_query("request an individual exemption from the residential requirement", "Cornell") == "request an individual exemption Cornell"
+    assert questions.process_query("change my major", "Cornell") == "change my major Cornell"
+    # the packet for that page opens with its own verbatim steps and carries no JSON procedure blob
+    questions.build(clean_conn, slug="fixture-state")
+    rank.rank_all(clean_conn, institution_id=inst, official_domains=("example.edu",), today=date(2026, 11, 6))
+    planmod.plan_pages(clean_conn, institution_id=inst, limit=50, run_id="t-steps")
+    with clean_conn.cursor() as cur:
+        cur.execute("SELECT * FROM bulk_pages WHERE run_id='t-steps' AND plan->>'answer_key' = 'process:apply-for-housing'")
+        page = cur.fetchone()
+    assert page is not None
+    gathered = planmod.gather(clean_conn, dict(page), institution_id=inst)
+    fields = [f["field"] for f in gathered["facts"]]
+    assert fields[:2] == ["process.apply_for_housing.step_01", "process.apply_for_housing.step_02"] and "process.apply_for_housing" not in fields
+    assert all(not f["value"].startswith("{") for f in gathered["facts"])
