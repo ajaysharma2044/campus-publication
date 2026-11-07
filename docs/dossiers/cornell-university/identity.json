@@ -1,0 +1,31 @@
+{
+ "id": "4c9437a0-86ac-4cbc-8394-c02ecb8116a5",
+ "canonical_name": "Cornell University",
+ "slug": "cornell-university",
+ "city": "Ithaca",
+ "state_code": "NY",
+ "institution_type": "university",
+ "control": "private_nonprofit",
+ "identity_status": "verified",
+ "config": {
+  "source_domains": [
+   "scl.cornell.edu",
+   "living.cornell.edu",
+   "housing.cornell.edu",
+   "finaid.cornell.edu",
+   "admissions.cornell.edu",
+   "cornell.edu"
+  ],
+  "audiences": [
+   "first_year",
+   "transfer",
+   "returning_undergraduate",
+   "graduate",
+   "international",
+   "parent"
+  ],
+  "coverage_status": "pilot",
+  "academic_calendar": "semester",
+  "timezone": "America/New_York"
+ }
+}

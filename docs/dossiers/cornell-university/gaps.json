@@ -1,0 +1,896 @@
+{
+ "entities": [
+  {
+   "entity": "104West",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Amit Bhatia Libe Caf\u00e9",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Atrium Caf\u00e9",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Bear Necessities",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Becker House Dining Room",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Big Red Barn",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Bus Stop Bagels",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Caf\u00e9 Jennie",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "College of Veterinary Medicine Caf\u00e9",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Cook House Dining Room",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Cornell Dairy Bar",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Crossings Caf\u00e9",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Goldie's",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Green Dragon",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Jansen's Market",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Jansen\u2019s Dining Room at Hans Bethe House",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Keeton House Dining Room",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Mann Caf\u00e9",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Martha's Caf\u00e9",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Mattin's Caf\u00e9",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "McCormick's at Moakley House",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Morrison Dining",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "North Star Dining Room",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Novick's Caf\u00e9",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Okenshields",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Risley Dining",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Rose House Dining Room",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Rusty's",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Trillium",
+   "entity_type": "dining_location",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Alumni",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Catherwood Library",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Clark Physical Sciences Library",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Clarke Africana Library",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Cornell Tech Library Services",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Cox Library of Music and Dance",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Engineering Library",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Flower-Sprecher Veterinary Library",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "HELP",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Kroch Asia Collections",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Law Library",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Library Annex",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "MENU",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Management Library",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Mann Library",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Mathematics Library",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Medical Center Archives",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Mui Ho Fine Arts Library",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Nestl\u00e9 Library",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Olin Library",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "POPULAR LINKS",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Rare and Manuscript Collections",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Uris Library",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "Wood Library",
+   "entity_type": "library",
+   "missing": [
+    "hours",
+    "location"
+   ]
+  },
+  {
+   "entity": "1 Forest Park Lane",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "104 Mary Ann Wood Drive",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "112 Edgemoor",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "301 College Avenue",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Akwe:kon",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Alice Cook House",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Balch Hall",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Barbara McClintock Hall",
+   "entity_type": "residence_hall",
+   "missing": [
+    "location"
+   ]
+  },
+  {
+   "entity": "Carl Becker House",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Cascadilla Hall",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Clara Dickson Hall",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Court-Kay-Bauer Hall",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Ecology House",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Equity & Engagement Community",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Equity & Engagement Community (EEC)",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Flora Rose House",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Hans Bethe House",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "High Rise #5",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Holland International Living Center (HILC)",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Hu Shih Hall",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Jameson Hall",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Just About Music (JAM)",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Language House",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Latino Living Center (LLC)",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Loving House",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Low Rise #6",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Low Rise #7",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Mary Donlon Hall",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Mews Hall",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Multicultural Living Learning Unit (McLLU)",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Program House Mission and Expectations",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Risley Residential College",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Ruth Bader Ginsburg Hall",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Schuyler House",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Sheldon Court",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Sober Living Community",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Toni Morrison Hall",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Townhouse Apartments",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Ujamaa Residential College",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "Veterans House",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "William Keeton House",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  },
+  {
+   "entity": "program house mission",
+   "entity_type": "residence_hall",
+   "missing": [
+    "rate",
+    "capacity",
+    "amenity",
+    "location",
+    "eligibility"
+   ]
+  }
+ ],
+ "institution": [
+  "policy.cancellation",
+  "eligibility.residency_requirement",
+  "deadline.financial_aid",
+  "fee.tuition",
+  "deadline.add_drop",
+  "process.change_major",
+  "process.transfer_credit",
+  "contact.housing_office"
+ ]
+}

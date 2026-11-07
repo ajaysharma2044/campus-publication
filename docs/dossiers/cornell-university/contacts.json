@@ -1,0 +1,68 @@
+[
+ {
+  "id": "c8fd1598-b1b7-49e8-9eb9-7fda2534d905",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "contact.email",
+  "value_type": "text",
+  "value_text": "mcclintock_hall@cornell.edu",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "residents",
+   "prospective residents"
+  ],
+  "academic_year": null,
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T20:36:48.628534+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall",
+    "fetched_at": "2026-11-06T20:36:01.285323+00:00",
+    "excerpt": "Questions? Email\nmcclintock_hall@cornell.edu",
+    "snapshot_id": "4e371f11-909e-4f03-9d9e-d8d39454d1a1",
+    "title": "Barbara McClintock Hall | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "mcclintock_hall@cornell.edu",
+  "family": "contact"
+ },
+ {
+  "id": "95df7f74-ea3b-451f-9da5-3d96d62a4014",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "contact.phone",
+  "value_type": "text",
+  "value_text": "(607) 254-3444",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "residents",
+   "prospective residents"
+  ],
+  "academic_year": null,
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T20:36:48.628534+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall",
+    "fetched_at": "2026-11-06T20:36:01.285323+00:00",
+    "excerpt": "Residence Hall Director (RHD)\nBarbara McClintock Hall\n(607) 254-3444",
+    "snapshot_id": "4e371f11-909e-4f03-9d9e-d8d39454d1a1",
+    "title": "Barbara McClintock Hall | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "(607) 254-3444",
+  "family": "contact"
+ }
+]

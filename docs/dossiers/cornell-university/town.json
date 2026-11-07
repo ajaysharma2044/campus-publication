@@ -1,0 +1,20 @@
+{
+ "places": [
+  {
+   "id": "594068bc-01c3-4b3c-95ee-d0897163bfa0",
+   "name": "Ithaca",
+   "slug": "ithaca-ny",
+   "kind": "city",
+   "state_code": "NY"
+  },
+  {
+   "id": "68da437e-8de4-4e31-b1dd-25b62b3f1a60",
+   "name": "Tompkins County",
+   "slug": "tompkins-county-ny",
+   "kind": "county",
+   "state_code": "NY"
+  }
+ ],
+ "entities": [],
+ "claims": []
+}

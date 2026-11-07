@@ -1,0 +1,1257 @@
+[
+ {
+  "id": "46bc3f70-4d54-4163-8841-817ef6875150",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.cancellation_exception_affiliated_housing",
+  "value_type": "text",
+  "value_text": "A required on-campus housing assignment may be cancelled if the student has been accepted to live in an approved Greek house, affiliated house, or University Co-op prior to the rising sophomore selection deadline.",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "new students (first-year and newly enrolled transfer)",
+   "second-year students, including transfer students admitted as second-year students"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:06:05.372774+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "have been accepted to live in an approved Greek house, affiliated house, or University Co-op prior to the rising sophomore selection deadline",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "A required on-campus housing assignment may be cancelled if the student has been accepted to live in an approved Greek house, affiliated house, or University Co-op prior to the rising sophomore selection deadline.",
+  "family": "eligibility"
+ },
+ {
+  "id": "21e64bf3-04d8-4301-b863-063ca752d45b",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.cancellation_exception_approved_exemption",
+  "value_type": "text",
+  "value_text": "A required on-campus housing assignment may be cancelled if the student has applied and been approved for an exemption (second-year students only).",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "second-year students"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:06:05.372774+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "has applied and been approved for an exemption\n(second-year students only)",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "A required on-campus housing assignment may be cancelled if the student has applied and been approved for an exemption (second-year students only).",
+  "family": "eligibility"
+ },
+ {
+  "id": "65cd83e1-7501-4a40-8b19-90114a2cda39",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.cancellation_exception_no_longer_attending",
+  "value_type": "text",
+  "value_text": "New students (first-year and newly enrolled transfer) and second-year students may cancel a required on-campus housing assignment if the student is no longer attending the University.",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "new students (first-year and newly enrolled transfer)",
+   "second-year students, including transfer students admitted as second-year students"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:06:05.372774+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "New students (first-year and newly enrolled transfer) and second-year students, including transfer students admitted as second-year students, are required to live in on-campus housing and cannot cancel a housing assignment unless the student:\nis no longer attending the University",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "New students (first-year and newly enrolled transfer) and second-year students may cancel a required on-campus housing assignment if the student is no longer attending the University.",
+  "family": "eligibility"
+ },
+ {
+  "id": "2efd6a6b-f962-4a09-90b8-ebc2be996195",
+  "entity_id": null,
+  "field": "eligibility.exempt_if",
+  "value_type": "text",
+  "value_text": "two years of on-campus residential experience at previous institution, or matriculating as a junior or senior",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "transfer"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates",
+    "fetched_at": "2026-11-06T08:30:22.615139+00:00",
+    "excerpt": "Students transferring to Cornell who had two years of an on-campus residential experience at their previous institution, or who are matriculating as a junior or senior, will not be subject to the residency requirement.",
+    "snapshot_id": "c6d3141a-4b7f-4ebd-af9a-b6c0c6c861e4",
+    "title": "New Transfer Undergraduates | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "two years of on-campus residential experience at previous institution, or matriculating as a junior or senior",
+  "family": "eligibility"
+ },
+ {
+  "id": "d608f288-a226-418a-8892-8eca4bf1f795",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.first_year_guarantee",
+  "value_type": "boolean",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": true,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "first-year students"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:24:17.726064+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+    "fetched_at": "2026-11-06T08:30:32.604293+00:00",
+    "excerpt": "All first-year students are guaranteed on-campus housing.",
+    "snapshot_id": "e4be27d7-bd85-4384-a1de-f94990be603d",
+    "title": "New Undergrad Application Process | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "yes",
+  "family": "eligibility"
+ },
+ {
+  "id": "726979ff-ae19-4525-9070-cf3493dd8b55",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.first_year_guaranteed",
+  "value_type": "boolean",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": true,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "first_year"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:21:33.106864+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+    "fetched_at": "2026-11-06T08:30:32.604293+00:00",
+    "excerpt": "All first-year students are guaranteed on-campus housing. Room assignments will be finalized on a rolling basis throughout the summer as spaces are confirmed.",
+    "snapshot_id": "e4be27d7-bd85-4384-a1de-f94990be603d",
+    "title": "New Undergrad Application Process | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "yes",
+  "family": "eligibility"
+ },
+ {
+  "id": "50270b2f-ece4-4353-90b9-77ba72db5411",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.first_year_undergraduate",
+  "value_type": "boolean",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": true,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "first-year undergraduate students"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T20:29:14.023901+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls",
+    "fetched_at": "2026-11-06T20:28:05.71109+00:00",
+    "excerpt": "Residence Halls for First-Year Undergraduate Students",
+    "snapshot_id": "f77ee571-b71f-4f60-bbdb-b208be8fbfbc",
+    "title": "Residence Halls | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "yes",
+  "family": "eligibility"
+ },
+ {
+  "id": "0d856949-28b6-4a9b-9880-86757b6a9000",
+  "entity_id": null,
+  "field": "eligibility.guaranteed_housing",
+  "value_type": "text",
+  "value_text": "Rising juniors and seniors who would like to live on campus for the 2027-2028 academic year are strongly encouraged to apply to and participate in their fall selection process.",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "rising_junior_senior"
+  ],
+  "academic_year": "2027-28",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T09:02:57.911263+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/current-undergraduate-application-process",
+    "fetched_at": "2026-11-06T09:02:01.792133+00:00",
+    "excerpt": "Rising juniors and seniors who would like to live on campus for the 2027-2028 academic year are strongly encouraged to apply to and participate in their fall selection process.",
+    "snapshot_id": "62ec5879-8ba6-482e-88f0-739cba37e378",
+    "title": "Current Undergraduate Application Process | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "Rising juniors and seniors who would like to live on campus for the 2027-2028 academic year are strongly encouraged to apply to and participate in their fall selection process.",
+  "family": "eligibility"
+ },
+ {
+  "id": "46c6c549-4774-4c95-a671-2ecfbd86ecc9",
+  "entity_id": null,
+  "field": "eligibility.guaranteed_housing",
+  "value_type": "boolean",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": true,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "first_year"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://faq.enrollment.cornell.edu/kb/article/377-as-an-admitted-student-how-do-i-sign-up-for-housing/",
+    "fetched_at": "2026-11-06T08:30:53.225468+00:00",
+    "excerpt": "Housing is guaranteed for first-year students.",
+    "snapshot_id": "5eddef9a-64db-40ce-9751-44d893e5bd81",
+    "title": "As an admitted student, how do I sign up for housing? - Frequently Asked Questions"
+   },
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+    "fetched_at": "2026-11-06T08:30:32.604293+00:00",
+    "excerpt": "All first-year students are guaranteed on-campus housing.",
+    "snapshot_id": "e4be27d7-bd85-4384-a1de-f94990be603d",
+    "title": "New Undergrad Application Process | Student & Campus Life | Cornell University"
+   },
+   {
+    "url": "https://faq.enrollment.cornell.edu/kb/article/377-as-an-admitted-student-how-do-i-sign-up-for-housing/#search-snippet-2026-11-04",
+    "fetched_at": "2026-11-06T07:53:11.398261+00:00",
+    "excerpt": "All first-year students are guaranteed on-campus housing",
+    "snapshot_id": "5d8c04c3-275d-4050-9b19-30f4102a28d5",
+    "title": null
+   }
+  ],
+  "value": "yes",
+  "family": "eligibility"
+ },
+ {
+  "id": "eca6b42b-9042-46a4-9f69-b5abfc5d1bb6",
+  "entity_id": null,
+  "field": "eligibility.guaranteed_housing",
+  "value_type": "text",
+  "value_text": "Juniors and seniors are not guaranteed on-campus housing.",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "junior_senior"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T09:02:57.911263+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/current-undergraduate-application-process",
+    "fetched_at": "2026-11-06T09:02:01.792133+00:00",
+    "excerpt": "Juniors and seniors are not guaranteed on-campus housing.",
+    "snapshot_id": "62ec5879-8ba6-482e-88f0-739cba37e378",
+    "title": "Current Undergraduate Application Process | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "Juniors and seniors are not guaranteed on-campus housing.",
+  "family": "eligibility"
+ },
+ {
+  "id": "54ebe227-bcbb-49d9-bc06-ec09e20e5b75",
+  "entity_id": null,
+  "field": "eligibility.guaranteed_waitlist_policy",
+  "value_type": "text",
+  "value_text": "Students placed on the guaranteed waitlist are guaranteed an on-campus housing assignment and receive it on a rolling basis throughout the summer as assignments are finalized",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "students placed on the guaranteed waitlist",
+   "first-year students"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T22:21:50.675385+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+    "fetched_at": "2026-11-06T08:30:32.604293+00:00",
+    "excerpt": "Students who are placed on the guaranteed waitlist will receive weekly updates as room assignments are finalized and their Fall housing is confirmed. They are guaranteed an on-campus housing assignment and will receive their housing assignment on a rolling basis throughout the summer as they become finalized.",
+    "snapshot_id": "e4be27d7-bd85-4384-a1de-f94990be603d",
+    "title": "New Undergrad Application Process | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "Students placed on the guaranteed waitlist are guaranteed an on-campus housing assignment and receive it on a rolling basis throughout the summer as assignments are finalized",
+  "family": "eligibility"
+ },
+ {
+  "id": "296f225d-bc2e-447e-a5a4-8bf6b2ce406f",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.housing_cancellation_exception_approved_exemption",
+  "value_type": "text",
+  "value_text": "Cancellation is permitted for a second-year student who has applied and been approved for an exemption from the residential requirement. The page marks this exception as second-year students only.",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "second-year students"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:10:59.594119+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "has applied and been approved for an exemption\n(second-year students only)",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "Cancellation is permitted for a second-year student who has applied and been approved for an exemption from the residential requirement. The page marks this exception as second-year students only.",
+  "family": "eligibility"
+ },
+ {
+  "id": "5d03ac84-9c04-4e20-9cd1-aeada2f28732",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.housing_cancellation_exception_no_longer_attending",
+  "value_type": "text",
+  "value_text": "Required-to-live-on-campus students (new first-year, newly enrolled transfer, and second-year students including transfers admitted as second-years) cannot cancel a housing assignment unless the student is no longer attending the University.",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "new first-year students",
+   "newly enrolled transfer students",
+   "second-year students, including transfer students admitted as second-year students"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:10:59.594119+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "New students (first-year and newly enrolled transfer) and second-year students, including transfer students admitted as second-year students, are required to live in on-campus housing and cannot cancel a housing assignment unless the student:\nis no longer attending the University",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "Required-to-live-on-campus students (new first-year, newly enrolled transfer, and second-year students including transfers admitted as second-years) cannot cancel a housing assignment unless the student is no longer attending the University.",
+  "family": "eligibility"
+ },
+ {
+  "id": "beb0253b-f5df-4d9d-8859-692347910216",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.housing_cancellation_required_housing_exception_approved_exemption",
+  "value_type": "text",
+  "value_text": "The same required-housing students may cancel if they have applied and been approved for an exemption. The page places the qualifier '(second-year students only)' on the line directly after this bullet.",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "new students (first-year and newly enrolled transfer)",
+   "second-year students, including transfer students admitted as second-year students"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:16:02.712768+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "has applied and been approved for an exemption\n(second-year students only)",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "The same required-housing students may cancel if they have applied and been approved for an exemption. The page places the qualifier '(second-year students only)' on the line directly after this bullet.",
+  "family": "eligibility"
+ },
+ {
+  "id": "18b280b1-8ced-4723-8d82-170b50a07ea1",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.housing_cancellation_required_housing_exception_approved_exemption_audience_qualifier",
+  "value_type": "text",
+  "value_text": "(second-year students only)",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "second-year students"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:16:02.712768+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "has applied and been approved for an exemption\n(second-year students only)\nhave been accepted to live in an approved Greek house, affiliated house, or University Co-op prior to the rising sophomore selection deadline",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "(second-year students only)",
+  "family": "eligibility"
+ },
+ {
+  "id": "fe29ed7b-044b-41dc-9253-868676a11432",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.housing_cancellation_required_housing_exception_no_longer_attending",
+  "value_type": "text",
+  "value_text": "New students (first-year and newly enrolled transfer) and second-year students (including transfer students admitted as second-year) are required to live on campus and cannot cancel a housing assignment unless the student is no longer attending the University.",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "new students (first-year and newly enrolled transfer)",
+   "second-year students, including transfer students admitted as second-year students"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:16:02.712768+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "New students (first-year and newly enrolled transfer) and second-year students, including transfer students admitted as second-year students, are required to live in on-campus housing and cannot cancel a housing assignment unless the student:\nis no longer attending the University",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "New students (first-year and newly enrolled transfer) and second-year students (including transfer students admitted as second-year) are required to live on campus and cannot cancel a housing assignment unless the student is no longer attending the University.",
+  "family": "eligibility"
+ },
+ {
+  "id": "e27d2eb3-52f7-4172-a394-492186f9ed1b",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.layout",
+  "value_type": "text",
+  "value_text": "Corridor-style; floors are mixed gender",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "residents"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T20:36:48.628534+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall",
+    "fetched_at": "2026-11-06T20:36:01.285323+00:00",
+    "excerpt": "Corridor-style with bedrooms are directly off a hallway. Floors are mixed gender.",
+    "snapshot_id": "4e371f11-909e-4f03-9d9e-d8d39454d1a1",
+    "title": "Barbara McClintock Hall | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "Corridor-style; floors are mixed gender",
+  "family": "eligibility"
+ },
+ {
+  "id": "4f68093a-f2d2-4647-bc5c-7ebebffe24d5",
+  "entity_id": null,
+  "field": "eligibility.leave_students",
+  "value_type": "text",
+  "value_text": "Students who are on leave, but subject to the residential requirement, are encouraged to complete a Housing application to ensure they are able to fulfill the residential requirement upon return.",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "on_leave_students"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T09:02:57.911263+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/current-undergraduate-application-process",
+    "fetched_at": "2026-11-06T09:02:01.792133+00:00",
+    "excerpt": "Students who are on leave, but subject to the residential requirement, are encouraged to complete a Housing application to ensure they are able to fulfill the residential requirement upon return.",
+    "snapshot_id": "62ec5879-8ba6-482e-88f0-739cba37e378",
+    "title": "Current Undergraduate Application Process | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "Students who are on leave, but subject to the residential requirement, are encouraged to complete a Housing application to ensure they are able to fulfill the residential requirement upon return.",
+  "family": "eligibility"
+ },
+ {
+  "id": "e1fde55e-99a7-46b1-910b-b9492d3491de",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.license_cancellation_exception_second_year_only_note",
+  "value_type": "text",
+  "value_text": "The page prints '(second-year students only)' on its own line between the exemption item and the Greek/affiliated house/co-op item. Which item it qualifies is not explicit in the page text. It most plausibly qualifies the Greek/affiliated/co-op item, since that item refers to the rising sophomore selection deadline, but this is an inference.",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "second-year students"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:00:10.863901+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "has applied and been approved for an exemption\n(second-year students only)\nhave been accepted to live in an approved Greek house, affiliated house, or University Co-op prior to the rising sophomore selection deadline",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "The page prints '(second-year students only)' on its own line between the exemption item and the Greek/affiliated house/co-op item. Which item it qualifies is not explicit in the page text. It most plausibly qualifies the Greek/affiliated/co-op item, since that item refers to the rising sophomore selection deadline, but this is an inference.",
+  "family": "eligibility"
+ },
+ {
+  "id": "0bec1bf8-1a0f-4111-b72e-100cc6f40af3",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.license_cancellation_required_students_exceptions",
+  "value_type": "text",
+  "value_text": "New students (first-year and newly enrolled transfer) and second-year students, including transfer students admitted as second-year students, are required to live on campus and cannot cancel a housing assignment unless the student: (1) is no longer attending the University; (2) has applied and been approved for an exemption; (3) has been accepted to live in an approved Greek house, affiliated house, or University Co-op prior to the rising sophomore selection deadline.",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "new first-year students",
+   "newly enrolled transfer students",
+   "second-year students",
+   "transfer students admitted as second-year students"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:00:10.863901+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "New students (first-year and newly enrolled transfer) and second-year students, including transfer students admitted as second-year students, are required to live in on-campus housing and cannot cancel a housing assignment unless the student: is no longer attending the University / has applied and been approved for an exemption / (second-year students only) / have been accepted to live in an approved Greek house, affiliated house, or University Co-op prior to the rising sophomore selection deadl",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "New students (first-year and newly enrolled transfer) and second-year students, including transfer students admitted as second-year students, are required to live on campus and cannot cancel a housing assignment unless the student: (1) is no longer attending the University; (2) has applied and been approved for an exemption; (3) has been accepted to live in an approved Greek house, affiliated hous",
+  "family": "eligibility"
+ },
+ {
+  "id": "50ced7cb-dbe2-4646-b1a2-ebea926b9ddf",
+  "entity_id": null,
+  "field": "eligibility.meal_plan_required",
+  "value_type": "boolean",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": true,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates",
+    "fetched_at": "2026-11-06T08:30:22.615139+00:00",
+    "excerpt": "All students living on campus in residence halls are required to enroll in a university meal plan.",
+    "snapshot_id": "c6d3141a-4b7f-4ebd-af9a-b6c0c6c861e4",
+    "title": "New Transfer Undergraduates | Student & Campus Life | Cornell University"
+   },
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy#search-snippet-2026-11-04",
+    "fetched_at": "2026-11-06T07:53:09.318202+00:00",
+    "excerpt": "with a required meal plan",
+    "snapshot_id": "cf1c90e1-2997-49b6-88a1-f157a94772bb",
+    "title": null
+   }
+  ],
+  "value": "yes",
+  "family": "eligibility"
+ },
+ {
+  "id": "d9858e9f-033d-4dea-bbd9-0fe8973fdf0d",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.meal_plan_required_on_campus",
+  "value_type": "boolean",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": true,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "first_year",
+   "second_year"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:21:33.106864+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy",
+    "fetched_at": "2026-11-06T08:30:12.677948+00:00",
+    "excerpt": "Students living in on-campus housing are required to have a meal plan.",
+    "snapshot_id": "7f35c00b-6b28-4a2f-bf28-136276d24ba0",
+    "title": "Residential Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "yes",
+  "family": "eligibility"
+ },
+ {
+  "id": "9bf59e69-12f9-4aea-9acf-b98475ac09d8",
+  "entity_id": null,
+  "field": "eligibility.new_students_required_on_campus",
+  "value_type": "boolean",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": true,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+    "fetched_at": "2026-11-06T08:30:32.604293+00:00",
+    "excerpt": "Newly admitted students for the 2026-2027 academic year are required to live on campus.",
+    "snapshot_id": "e4be27d7-bd85-4384-a1de-f94990be603d",
+    "title": "New Undergrad Application Process | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "yes",
+  "family": "eligibility"
+ },
+ {
+  "id": "4a9c3cea-9b0d-43ea-9d27-609d1a236e04",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.new_students_required_to_live_on_campus",
+  "value_type": "boolean",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": true,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "first_year",
+   "transfer"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:21:33.106864+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+    "fetched_at": "2026-11-06T08:30:32.604293+00:00",
+    "excerpt": "Newly admitted students for the 2026-2027 academic year are required to live on campus.",
+    "snapshot_id": "e4be27d7-bd85-4384-a1de-f94990be603d",
+    "title": "New Undergrad Application Process | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "yes",
+  "family": "eligibility"
+ },
+ {
+  "id": "357dcedb-a640-45aa-8c2b-e23670cb9350",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.population",
+  "value_type": "text",
+  "value_text": "1st Year",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "first-year undergraduates"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T20:36:48.628534+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall",
+    "fetched_at": "2026-11-06T20:36:01.285323+00:00",
+    "excerpt": "Housing Population Type\n1st Year",
+    "snapshot_id": "4e371f11-909e-4f03-9d9e-d8d39454d1a1",
+    "title": "Barbara McClintock Hall | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "1st Year",
+  "family": "eligibility"
+ },
+ {
+  "id": "1efb8222-b43a-4717-bc7a-f3c3187eb664",
+  "entity_id": null,
+  "field": "eligibility.residency_years_required",
+  "value_type": "integer",
+  "value_text": null,
+  "value_number": "1",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "transfer"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates",
+    "fetched_at": "2026-11-06T08:30:22.615139+00:00",
+    "excerpt": "All new transfer students are required to live on campus for one academic year.",
+    "snapshot_id": "c6d3141a-4b7f-4ebd-af9a-b6c0c6c861e4",
+    "title": "New Transfer Undergraduates | Student & Campus Life | Cornell University"
+   },
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy#search-snippet-2026-11-04",
+    "fetched_at": "2026-11-06T07:53:09.318202+00:00",
+    "excerpt": "transfers ... must live on campus for one academic year",
+    "snapshot_id": "cf1c90e1-2997-49b6-88a1-f157a94772bb",
+    "title": null
+   }
+  ],
+  "value": "1",
+  "family": "eligibility"
+ },
+ {
+  "id": "2599946d-4954-41fb-8ef3-5d4c1cd8f8fa",
+  "entity_id": null,
+  "field": "eligibility.residency_years_required",
+  "value_type": "integer",
+  "value_text": null,
+  "value_number": "2",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "first_second_year"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy",
+    "fetched_at": "2026-11-06T08:30:12.677948+00:00",
+    "excerpt": "Cornell has a 2-year residential requirement for our full-time, Ithaca-based campus, first-year and second-year students, including a required meal plan.",
+    "snapshot_id": "7f35c00b-6b28-4a2f-bf28-136276d24ba0",
+    "title": "Residential Policy | Student & Campus Life | Cornell University"
+   },
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy#search-snippet-2026-11-04",
+    "fetched_at": "2026-11-06T07:53:09.318202+00:00",
+    "excerpt": "two-year residential requirement",
+    "snapshot_id": "cf1c90e1-2997-49b6-88a1-f157a94772bb",
+    "title": null
+   }
+  ],
+  "value": "2",
+  "family": "eligibility"
+ },
+ {
+  "id": "8235ebe3-a771-460a-8bbc-7bb66b1359ee",
+  "entity_id": null,
+  "field": "eligibility.residential_requirement",
+  "value_type": "text",
+  "value_text": "All first- and second-year undergraduate students who are studying full-time on the Ithaca campus are required to live on campus, or in affiliated housing that has been approved to fulfill the residential requirement, through the spring semester of their second academic year of enrollment.",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "first_second_year"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T09:02:57.911263+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/current-undergraduate-application-process",
+    "fetched_at": "2026-11-06T09:02:01.792133+00:00",
+    "excerpt": "All first- and second-year undergraduate students who are studying full-time on the Ithaca campus are required to live on campus, or in affiliated housing that has been approved to fulfill the residential requirement, through the spring semester of their second academic year of enrollment.",
+    "snapshot_id": "62ec5879-8ba6-482e-88f0-739cba37e378",
+    "title": "Current Undergraduate Application Process | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "All first- and second-year undergraduate students who are studying full-time on the Ithaca campus are required to live on campus, or in affiliated housing that has been approved to fulfill the residential requirement, through the spring semester of their second academic year of enrollment.",
+  "family": "eligibility"
+ },
+ {
+  "id": "831d0047-8a4a-490c-bda7-15c5341a74ac",
+  "entity_id": null,
+  "field": "eligibility.residential_requirement_exemption_reasons",
+  "value_type": "text",
+  "value_text": "Married/Partnered; Veteran and military status; Dependents; Age (21 or older by the start of the academic year, or 16 and younger and living with a custodial parent or legal guardian)",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "students subject to the two-year residential requirement"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T22:40:36.021914+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy",
+    "fetched_at": "2026-11-06T08:30:12.677948+00:00",
+    "excerpt": "Married/Partnered - Students who are married will not be subject to the residency requirement. Veteran and military status - Students who served in the active military, naval, or air service, and who were discharged or released therefrom under conditions other than dishonorable will not be subject to the residential requirement. This exemption will also apply to international students who served u",
+    "snapshot_id": "7f35c00b-6b28-4a2f-bf28-136276d24ba0",
+    "title": "Residential Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "Married/Partnered; Veteran and military status; Dependents; Age (21 or older by the start of the academic year, or 16 and younger and living with a custodial parent or legal guardian)",
+  "family": "eligibility"
+ },
+ {
+  "id": "c3ae1eb1-056c-4423-8898-68e97a06545e",
+  "entity_id": null,
+  "field": "eligibility.residential_requirement_exemption_request",
+  "value_type": "text",
+  "value_text": "Students can request to be exempt from the residential requirement for the listed reasons; supporting documentation may be required.",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "full-time Ithaca-based first-year students",
+   "full-time Ithaca-based second-year students"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T22:40:36.021914+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy",
+    "fetched_at": "2026-11-06T08:30:12.677948+00:00",
+    "excerpt": "Students can request to be exempt from this policy for the reasons below. Supporting documentation may be required. Married/Partnered - Students who are married will not be subject to the residency requirement. Veteran and military status - Students who served in the active military, naval, or air service, and who were discharged or released therefrom under conditions other than dishonorable will ",
+    "snapshot_id": "7f35c00b-6b28-4a2f-bf28-136276d24ba0",
+    "title": "Residential Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "Students can request to be exempt from the residential requirement for the listed reasons; supporting documentation may be required.",
+  "family": "eligibility"
+ },
+ {
+  "id": "299d2ff6-c4c5-4b80-bae9-97111f6db865",
+  "entity_id": null,
+  "field": "eligibility.residential_requirement_exemption_transfer_student",
+  "value_type": "text",
+  "value_text": "Students transferring to Cornell who had two years of an on-campus residential experience at their previous institution, or who are matriculating as a junior or senior, are not subject to the residential requirement.",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "transfer students"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T22:40:36.021914+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy",
+    "fetched_at": "2026-11-06T08:30:12.677948+00:00",
+    "excerpt": "Students transferring to Cornell who had two years of an on-campus residential experience at their previous institution, or who are matriculating as a junior or senior, will not be subject to the residential requirement. Commuter - Students who have resided at a permanent residence for a minimum of six months with a custodial parent or legal guardian and within 25 miles of campus will not be subje",
+    "snapshot_id": "7f35c00b-6b28-4a2f-bf28-136276d24ba0",
+    "title": "Residential Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "Students transferring to Cornell who had two years of an on-campus residential experience at their previous institution, or who are matriculating as a junior or senior, are not subject to the residential requirement.",
+  "family": "eligibility"
+ },
+ {
+  "id": "1e212dc2-200e-4f67-9a71-4108312d93d3",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "eligibility.residential_requirement_length",
+  "value_type": "text",
+  "value_text": "Two-year residential requirement for full-time Ithaca-based first- and second-year students, including a required meal plan",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "first_year",
+   "second_year"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:21:33.106864+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy",
+    "fetched_at": "2026-11-06T08:30:12.677948+00:00",
+    "excerpt": "Cornell has a 2-year residential requirement for our full-time, Ithaca-based campus, first-year and second-year students, including a required meal plan.",
+    "snapshot_id": "7f35c00b-6b28-4a2f-bf28-136276d24ba0",
+    "title": "Residential Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "Two-year residential requirement for full-time Ithaca-based first- and second-year students, including a required meal plan",
+  "family": "eligibility"
+ },
+ {
+  "id": "3eb03927-bdac-41c0-9e3a-85f261e33576",
+  "entity_id": null,
+  "field": "eligibility.spring_transfer_rule",
+  "value_type": "text",
+  "value_text": "required to live on campus for incoming spring semester as well as the following academic year",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "transfer"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates",
+    "fetched_at": "2026-11-06T08:30:22.615139+00:00",
+    "excerpt": "Spring transfers are required to live on campus for their incoming spring semester as well as the following academic year.",
+    "snapshot_id": "c6d3141a-4b7f-4ebd-af9a-b6c0c6c861e4",
+    "title": "New Transfer Undergraduates | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "required to live on campus for incoming spring semester as well as the following academic year",
+  "family": "eligibility"
+ },
+ {
+  "id": "bd740f3c-f6d5-4cef-b495-6c14ee194a4e",
+  "entity_id": null,
+  "field": "eligibility.transfer_housing_first_year_qualifying_transfer_exception",
+  "value_type": "text",
+  "value_text": "Note: In limited situations, transfer students who qualify as first-year students are placed in first-year residences.",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "transfer students who qualify as first-year students"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T22:21:50.675385+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates",
+    "fetched_at": "2026-11-06T08:30:22.615139+00:00",
+    "excerpt": "Note: In limited situations, transfer students who qualify as first-year students are placed in first-year residences.",
+    "snapshot_id": "c6d3141a-4b7f-4ebd-af9a-b6c0c6c861e4",
+    "title": "New Transfer Undergraduates | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "Note: In limited situations, transfer students who qualify as first-year students are placed in first-year residences.",
+  "family": "eligibility"
+ },
+ {
+  "id": "17decb74-10c8-4d6f-a3ac-ffe08f0354b3",
+  "entity_id": null,
+  "field": "policy.cancellation_after_occupancy",
+  "value_type": "text",
+  "value_text": "If cancellation is allowed after occupancy, charged a per diem rate for each day occupied; University retains sole and absolute discretion",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": "2026-27",
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "If cancellation is allowed, you will be charged a per diem rate for each day you occupied your assigned housing.",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "If cancellation is allowed after occupancy, charged a per diem rate for each day occupied; University retains sole and absolute discretion",
+  "family": "policy"
+ },
+ {
+  "id": "caca48e0-f7dc-46ff-b18f-ee96a2d9cde3",
+  "entity_id": null,
+  "field": "policy.cancellation_eligibility",
+  "value_type": "text",
+  "value_text": "New students (first-year and newly enrolled transfer) and second-year students, including transfers admitted as second-year, are required to live on campus and cannot cancel unless: no longer attending the University; approved for an exemption (second-year only); or accepted to live in an approved Greek house, affiliated house, or University Co-op prior to the rising sophomore selection deadline",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": "2026-27",
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "New students (first-year and newly enrolled transfer) and second-year students, including transfer students admitted as second-year students, are required to live in on-campus housing and cannot cancel a housing assignment unless the student:",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "New students (first-year and newly enrolled transfer) and second-year students, including transfers admitted as second-year, are required to live on campus and cannot cancel unless: no longer attending the University; approved for an exemption (second-year only); or accepted to live in an approved Greek house, affiliated house, or University Co-op prior to the rising sophomore selection deadline",
+  "family": "policy"
+ },
+ {
+  "id": "c4eceaef-d4ad-486d-afaa-419ff68d2160",
+  "entity_id": null,
+  "field": "policy.cancellation_penalty_free_reasons",
+  "value_type": "text",
+  "value_text": "study away from Ithaca (e.g. Cornell in Washington/Rome, Cornell global program, Engineering Co-op, academic internship, ILR in NYC); medical, voluntary, or required leave of absence; deferring admission, withdrawing, or graduating",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": "2026-27",
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "Students cancelling to participate in a study away from Ithaca (e.g. Cornell in Washington/Rome, Cornell global program, Engineering Co-op, academic internship, ILR in NYC); taking a medical, voluntary, or required leave of absence; deferring admission, withdrawing, or graduating may cancel without penalty by the following deadlines:",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "study away from Ithaca (e.g. Cornell in Washington/Rome, Cornell global program, Engineering Co-op, academic internship, ILR in NYC); medical, voluntary, or required leave of absence; deferring admission, withdrawing, or graduating",
+  "family": "policy"
+ },
+ {
+  "id": "a269559c-b5ba-466a-bc59-37ac46a21c14",
+  "entity_id": null,
+  "field": "policy.cancellation_schedule",
+  "value_type": "text",
+  "value_text": "Returning juniors and seniors who have fulfilled the residential requirement may cancel via the Housing & Dining Portal. Through January 31: $50; February 1 to March 31: $500; April 1 to June 30: $1,000; July 1 to August 15: $2,000; After August 15: 50% of fall semester room rate",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "returning_junior_senior"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "Returning juniors and seniors who have already fulfilled the residential requirement are eligible to cancel their housing license and may cancel prior to checking in or occupying a residence.",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "Returning juniors and seniors who have fulfilled the residential requirement may cancel via the Housing & Dining Portal. Through January 31: $50; February 1 to March 31: $500; April 1 to June 30: $1,000; July 1 to August 15: $2,000; After August 15: 50% of fall semester room rate",
+  "family": "policy"
+ }
+]

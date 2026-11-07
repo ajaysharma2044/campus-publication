@@ -1,0 +1,29 @@
+[
+ {
+  "name": "process.guaranteed_waitlist",
+  "field": "process.guaranteed_waitlist",
+  "steps": [
+   "Students whose room accommodations have not yet been assigned are placed on the guaranteed waitlist and emailed weekly about their waitlist status until the housing assignment is finalized; housing confirmations (a building and room, or the guaranteed waitlist) begin in mid-June."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+  "claim_id": "44421e16-a919-47b4-aead-eabb9c4daa8f"
+ },
+ {
+  "name": "process.selection_options",
+  "field": "process.selection_options",
+  "steps": [
+   "Same Area and Open Room Selection"
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/current-undergraduate-application-process",
+  "claim_id": "604bf479-f0e8-4256-a77b-ec17a0443c66"
+ },
+ {
+  "name": "process.spring_selection_description",
+  "field": "process.spring_selection_description",
+  "steps": [
+   "Spring Housing Selection for Rising Sophomores is when students receive a timeslot to reserve a room in an upper-level residence hall or house."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/current-undergraduate-application-process",
+  "claim_id": "c47bfe7c-eeaf-4bda-9f7c-24f6c0152c73"
+ }
+]

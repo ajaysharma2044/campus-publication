@@ -1,0 +1,618 @@
+[
+ {
+  "id": "b0484de4-1c4e-458e-bb75-07e91bc1d776",
+  "entity_id": null,
+  "field": "north_campus_expansion.final_buildings_open_date",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2022-08-15",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": null,
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T22:21:50.675385+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life",
+    "fetched_at": "2026-11-06T22:19:59.662464+00:00",
+    "excerpt": "As students begin moving in on Aug. 15, Cornell will mark a milestone in residential life \u2013 the final three buildings of the North Campus Residential Expansion will open",
+    "snapshot_id": "cbcdf9d5-93db-4dd2-9f29-2c629ba24c06",
+    "title": "Cornell welcomes students, marks milestone in residential life | Cornell Chronicle"
+   }
+  ],
+  "value": "August 15, 2022",
+  "family": "north_campus_expansion"
+ },
+ {
+  "id": "51730e44-9709-4a71-9a7b-4616ed4a0821",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "deadline.application_deadline_first_second_year",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-04-06",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "first_year",
+   "second_year"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:21:33.106864+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy",
+    "fetched_at": "2026-11-06T08:30:12.677948+00:00",
+    "excerpt": "All first and second-year students (even those who anticipate living in-house) must complete the Academic Year 2026-27 Housing Application by April 6, 2026 through the Housing and Dining Portal.",
+    "snapshot_id": "7f35c00b-6b28-4a2f-bf28-136276d24ba0",
+    "title": "Residential Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "April 6, 2026",
+  "family": "deadline"
+ },
+ {
+  "id": "abe101aa-0fb4-4687-b59d-a090e3caa014",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "deadline.application_deadline",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-05-15",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "admitted students"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:24:17.726064+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://faq.enrollment.cornell.edu/kb/article/377-as-an-admitted-student-how-do-i-sign-up-for-housing/",
+    "fetched_at": "2026-11-06T08:30:53.225468+00:00",
+    "excerpt": "After you submit your enrollment deposit and receive your Cornell NetID, you can sign up for housing through the Housing Portal. The deadline is Friday, May 15, 2026.",
+    "snapshot_id": "5eddef9a-64db-40ce-9751-44d893e5bd81",
+    "title": "As an admitted student, how do I sign up for housing? - Frequently Asked Questions"
+   }
+  ],
+  "value": "May 15, 2026",
+  "family": "deadline"
+ },
+ {
+  "id": "5fa70988-d21c-40d8-9c6b-6470bb8574cf",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "deadline.application_deadline_admitted_students",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-05-15",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "admitted_students"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:21:33.106864+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://faq.enrollment.cornell.edu/kb/article/377-as-an-admitted-student-how-do-i-sign-up-for-housing/",
+    "fetched_at": "2026-11-06T08:30:53.225468+00:00",
+    "excerpt": "After you submit your enrollment deposit and receive your Cornell NetID, you can sign up for housing through the Housing Portal. The deadline is Friday, May 15, 2026.",
+    "snapshot_id": "5eddef9a-64db-40ce-9751-44d893e5bd81",
+    "title": "As an admitted student, how do I sign up for housing? - Frequently Asked Questions"
+   }
+  ],
+  "value": "May 15, 2026",
+  "family": "deadline"
+ },
+ {
+  "id": "b6b35a70-911f-453f-b16f-1d5a1cb3aac7",
+  "entity_id": null,
+  "field": "deadline.housing_application",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-05-15",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://faq.enrollment.cornell.edu/kb/article/377-as-an-admitted-student-how-do-i-sign-up-for-housing/",
+    "fetched_at": "2026-11-06T08:30:53.225468+00:00",
+    "excerpt": "After you submit your enrollment deposit and receive your Cornell NetID, you can sign up for housing through the Housing Portal. The deadline is Friday, May 15, 2026.",
+    "snapshot_id": "5eddef9a-64db-40ce-9751-44d893e5bd81",
+    "title": "As an admitted student, how do I sign up for housing? - Frequently Asked Questions"
+   }
+  ],
+  "value": "May 15, 2026",
+  "family": "deadline"
+ },
+ {
+  "id": "db34f671-ccda-4473-ba93-5f85f0960107",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "deadline.cancellation_penalty_free_deadline_fall",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-06-15",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "undergraduate_cancelling_for_study_away_leave_deferral_withdrawal_or_graduation"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:21:33.106864+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "Fall Semester: June 15, 2026 Spring Semester: December 1, 2026 Submission requests received after these deadlines will result in a $500 cancellation fee.",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "June 15, 2026",
+  "family": "deadline"
+ },
+ {
+  "id": "1fe3b785-e54b-4817-b56f-f559a942dcf8",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "deadline.cancellation_penalty_free_deadline_fall",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-06-15",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "students cancelling for study away, leave of absence, deferral, withdrawal, or graduation"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:30:13.520122+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "Fall Semester: June 15, 2026",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "June 15, 2026",
+  "family": "deadline"
+ },
+ {
+  "id": "4b623f1c-c734-49ff-8f74-ae41f50a713f",
+  "entity_id": null,
+  "field": "deadline.fall_cancellation",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-06-15",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "Fall Semester: June 15, 2026",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "June 15, 2026",
+  "family": "deadline"
+ },
+ {
+  "id": "8a1c33bc-97d0-4666-804b-9d17f0ef8683",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "housing.cancellation.fall_no_penalty_deadline",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-06-15",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "students cancelling for study away, leave of absence, deferral, withdrawal, or graduation"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T20:44:32.063070+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "Fall Semester: June 15, 2026",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "June 15, 2026",
+  "family": "housing"
+ },
+ {
+  "id": "900c431b-383d-488b-81d4-1be01e9d9502",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "housing.cancellation.penalty_free_deadline_fall",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-06-15",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "undergraduate students cancelling to study away from Ithaca, take a medical, voluntary or required leave of absence, defer admission, withdraw, or graduate"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T20:53:43.363247+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "Fall Semester: June 15, 2026",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "June 15, 2026",
+  "family": "housing"
+ },
+ {
+  "id": "77767a08-8758-47fe-95f1-42a07e2cc88a",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "housing.cancellation.penalty_free_deadline_fall",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-06-15",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "undergraduate students cancelling for study away, leave of absence, deferral, withdrawal or graduation"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T20:49:20.579782+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "Fall Semester: June 15, 2026",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "June 15, 2026",
+  "family": "housing"
+ },
+ {
+  "id": "da408901-7deb-4861-a857-160455384478",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "deadline.cancellation_penalty_free_deadline_spring",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-12-01",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "students cancelling for study away, leave of absence, deferral, withdrawal, or graduation"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:30:13.520122+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "Spring Semester: December 1, 2026",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "December 1, 2026",
+  "family": "deadline"
+ },
+ {
+  "id": "871e6eae-09e0-4d8e-9487-9c48465351ac",
+  "entity_id": null,
+  "field": "deadline.spring_cancellation",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-12-01",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "Spring Semester: December 1, 2026",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   },
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy#search-snippet-2026-11-04",
+    "fetched_at": "2026-11-06T07:53:10.879883+00:00",
+    "excerpt": "Cancellation requests for the spring term are due December 1, 2026",
+    "snapshot_id": "bd163f10-b9df-4056-812e-3dc11cf5e493",
+    "title": null
+   }
+  ],
+  "value": "December 1, 2026",
+  "family": "deadline"
+ },
+ {
+  "id": "c96c992b-5319-4343-8fcb-011ea9db1d70",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "housing.cancellation.penalty_free_deadline_spring",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-12-01",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "undergraduate students cancelling to study away from Ithaca, take a medical, voluntary or required leave of absence, defer admission, withdraw, or graduate"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T20:53:43.363247+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "Spring Semester: December 1, 2026",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "December 1, 2026",
+  "family": "housing"
+ },
+ {
+  "id": "bccca226-6032-4224-824b-1c7c709396a2",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "housing.cancellation.penalty_free_deadline_spring",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-12-01",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "undergraduate students cancelling for study away, leave of absence, deferral, withdrawal or graduation"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T20:49:20.579782+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "Spring Semester: December 1, 2026",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "December 1, 2026",
+  "family": "housing"
+ },
+ {
+  "id": "fc852b4f-621f-4cf8-90bc-1c3f10a1a718",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "housing.cancellation.spring_no_penalty_deadline",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-12-01",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "students cancelling to participate in a study away from Ithaca, taking a medical, voluntary, or required leave of absence, deferring admission, withdrawing, or graduating"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T20:44:32.063070+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "Students cancelling to participate in a study away from Ithaca (e.g. Cornell in Washington/Rome, Cornell global program, Engineering Co-op, academic internship, ILR in NYC); taking a medical, voluntary, or required leave of absence; deferring admission, withdrawing, or graduating may cancel without penalty by the following deadlines: Fall Semester: June 15, 2026 Spring Semester: December 1, 2026",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "December 1, 2026",
+  "family": "housing"
+ },
+ {
+  "id": "932ed9d8-9b05-4992-93fc-fdae9c064066",
+  "entity_id": null,
+  "field": "deadline.housing_application",
+  "value_type": "text",
+  "value_text": "within ten days of receiving NetID",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "transfer"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+    "fetched_at": "2026-11-06T08:30:32.604293+00:00",
+    "excerpt": "Transfer students should also apply for housing within ten days of receiving your NetID.",
+    "snapshot_id": "e4be27d7-bd85-4384-a1de-f94990be603d",
+    "title": "New Undergrad Application Process | Student & Campus Life | Cornell University"
+   },
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process#search-snippet-2026-11-04",
+    "fetched_at": "2026-11-06T07:53:10.391552+00:00",
+    "excerpt": "apply within ten days of receiving your NetID",
+    "snapshot_id": "3291fb45-28b0-4fb2-9339-bc50af841abf",
+    "title": null
+   }
+  ],
+  "value": "within ten days of receiving NetID",
+  "family": "deadline"
+ },
+ {
+  "id": "48271f6a-63cc-4159-82dd-2defcd8492c1",
+  "entity_id": null,
+  "field": "deadline.housing_application",
+  "value_type": "text",
+  "value_text": "encouraged to apply within ten days of receiving NetID",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "first_year"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:42:02.573153+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+    "fetched_at": "2026-11-06T08:30:32.604293+00:00",
+    "excerpt": "Newly admitted first-year students will need their activated NetID to apply and are encouraged to apply within ten days of receiving their NetID.",
+    "snapshot_id": "e4be27d7-bd85-4384-a1de-f94990be603d",
+    "title": "New Undergrad Application Process | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "encouraged to apply within ten days of receiving NetID",
+  "family": "deadline"
+ },
+ {
+  "id": "aea4e2dd-6c32-438f-b521-cf01de75ad3f",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "deadline.move_in_timeslot_change_deadline",
+  "value_type": "text",
+  "value_text": "Move-in timeslot may be adjusted up to August 1 in the Housing and Dining Portal (EDT)",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "first_year",
+   "transfer"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:21:33.106864+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+    "fetched_at": "2026-11-06T08:30:32.604293+00:00",
+    "excerpt": "Should you need to change your plans, you may adjust your selected timeslot up to August 1 within the Housing and Dining Portal. All timeslots are listed in Eastern Daylight Time (EDT).",
+    "snapshot_id": "e4be27d7-bd85-4384-a1de-f94990be603d",
+    "title": "New Undergrad Application Process | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "Move-in timeslot may be adjusted up to August 1 in the Housing and Dining Portal (EDT)",
+  "family": "deadline"
+ }
+]

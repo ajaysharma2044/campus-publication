@@ -1,0 +1,1521 @@
+[
+ {
+  "id": "00e6e8b8-5438-4979-84f7-a9e7e0843866",
+  "name": "104West",
+  "slug": "104west",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "dining_room",
+   "group": "West Campus dining rooms:",
+   "located_in": "West Campus",
+   "official_url": "https://now.dining.cornell.edu/eatery/104-West"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "64a76ee4-44ba-4e3f-a5aa-180fea5079df",
+  "name": "Amit Bhatia Libe Caf\u00e9",
+  "slug": "amit-bhatia-libe-caf",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "Central Campus locations:",
+   "description": "a caf\u00e9/coffee shop in Olin Library",
+   "official_url": "https://now.dining.cornell.edu/eatery/Amit-Bhatia-Libe-Cafe"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "9025eb9a-6f52-42a4-a60f-7d24482c6cf1",
+  "name": "Atrium Caf\u00e9",
+  "slug": "atrium-caf",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "Central Campus locations:",
+   "description": "a caf\u00e9 in Sage Hall",
+   "official_url": "https://now.dining.cornell.edu/eatery/Atrium-Cafe"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "496c75c6-b667-4ec2-8368-c6e24d9e14ca",
+  "name": "Bear Necessities",
+  "slug": "bear-necessities",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "convenience_store",
+   "group": "North Campus locations:",
+   "description": "a convenience store & grill in Robert Purcell Community Center",
+   "official_url": "https://now.dining.cornell.edu/eatery/Bear-Necessities"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "2008af37-bedf-4f93-8930-46085cd921dd",
+  "name": "Becker House Dining Room",
+  "slug": "becker-house-dining-room",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "dining_room",
+   "group": "West Campus dining rooms:",
+   "located_in": "Carl Becker House",
+   "official_url": "https://now.dining.cornell.edu/eatery/Becker-House-Dining"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "deaae0e3-a71f-4d5a-9f0b-31625c05f901",
+  "name": "Big Red Barn",
+  "slug": "big-red-barn",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "Central Campus locations:",
+   "description": "a caf\u00e9 and graduate/professional student community center",
+   "official_url": "https://now.dining.cornell.edu/eatery/Big-Red-Barn"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "543b9faa-dab8-4cc3-ae6e-884fcbdd0341",
+  "name": "Bus Stop Bagels",
+  "slug": "bus-stop-bagels",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "Central Campus locations:",
+   "description": "breakfast and lunch bagels and coffee in Kennedy Hall",
+   "official_url": "https://now.dining.cornell.edu/eatery/Bug-Stop-Bagels"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "486de23f-62cb-4fea-a23c-b474a42061dc",
+  "name": "Caf\u00e9 Jennie",
+  "slug": "caf-jennie",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "Central Campus locations:",
+   "description": "a caf\u00e9 and sandwich/pastry shop in The Cornell Store",
+   "official_url": "https://now.dining.cornell.edu/eatery/Cafe-Jennie"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "866e6a5c-44f6-48d9-9e1b-46e112954e0d",
+  "name": "College of Veterinary Medicine Caf\u00e9",
+  "slug": "college-of-veterinary-medicine-caf",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "Central Campus locations:",
+   "description": "a caf\u00e9 in Schurman Hall",
+   "official_url": "https://now.dining.cornell.edu/eatery/vet-cafe"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "5daed40d-7b68-43cd-bca1-e867aad8231d",
+  "name": "Cook House Dining Room",
+  "slug": "cook-house-dining-room",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "dining_room",
+   "group": "West Campus dining rooms:",
+   "located_in": "Alice Cook House",
+   "official_url": "https://now.dining.cornell.edu/eatery/Cook-House-Dining"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "87a6c2bc-6c0f-4040-8453-7256ec260518",
+  "name": "Cornell Dairy Bar",
+  "slug": "cornell-dairy-bar",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "Central Campus locations:",
+   "description": "a caf\u00e9 featuring Cornell Dairy items in Stocking Hall",
+   "official_url": "https://now.dining.cornell.edu/eatery/Cornell-Dairy-Bar"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "c6e39743-b374-4c2b-9d8b-4e7de30e36bc",
+  "name": "Crossings Caf\u00e9",
+  "slug": "crossings-caf",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "North Campus locations:",
+   "description": "a caf\u00e9 in the new Toni Morrison Hall",
+   "official_url": "https://now.dining.cornell.edu/eatery/Crossings-Cafe"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "69db26e8-215e-403c-bab6-4e6666903c66",
+  "name": "Goldie's",
+  "slug": "goldie-s",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "Central Campus locations:",
+   "description": "a caf\u00e9 in the Physical Sciences Building",
+   "official_url": "https://now.dining.cornell.edu/eatery/Goldies-Cafe"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "af6ce295-9a80-4c1a-90c0-b6e792cb2b2f",
+  "name": "Green Dragon",
+  "slug": "green-dragon",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "Central Campus locations:",
+   "description": "a caf\u00e9/coffee shop in Sibley Hall",
+   "official_url": "https://now.dining.cornell.edu/eatery/Green-Dragon"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "d1cf42ea-27c0-498d-a8f5-8b3b9b0ed299",
+  "name": "Jansen's Market",
+  "slug": "jansen-s-market",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "convenience_store",
+   "group": "West Campus locations:",
+   "description": "a convenience store and coffee shop in Noyes Community Recreation Center",
+   "official_url": "https://now.dining.cornell.edu/eatery/Jansens-Market"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "e3864914-4db7-4d7d-a43c-8d7b80bac402",
+  "name": "Jansen\u2019s Dining Room at Hans Bethe House",
+  "slug": "jansen-s-dining-room-at-hans-bethe-house",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "dining_room",
+   "group": "West Campus dining rooms:",
+   "located_in": "Hans Bethe House",
+   "official_url": "https://now.dining.cornell.edu/eatery/Jansens-Dining"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "9ea3a256-9ed0-404b-93ad-51e3c83c1c1a",
+  "name": "Keeton House Dining Room",
+  "slug": "keeton-house-dining-room",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "dining_room",
+   "group": "West Campus dining rooms:",
+   "located_in": "William Keeton House",
+   "official_url": "https://now.dining.cornell.edu/eatery/Keeton-House-Dining"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "0c558318-3222-4783-b653-5a0f5b99b5f1",
+  "name": "Mann Caf\u00e9",
+  "slug": "mann-caf",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "Central Campus locations:",
+   "description": "a caf\u00e9 in Mann Library on the Ag Quad",
+   "official_url": "https://now.dining.cornell.edu/eatery/Mann-Cafe"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "fd5274c7-fd3c-46f8-91dc-e58d082ad5ee",
+  "name": "Martha's Caf\u00e9",
+  "slug": "martha-s-caf",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "Central Campus locations:",
+   "description": "a caf\u00e9 in Martha Van Rensselaer Hall",
+   "official_url": "https://now.dining.cornell.edu/eatery/Marthas-Cafe"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "841b61eb-3653-43be-a18e-073ec68bab1a",
+  "name": "Mattin's Caf\u00e9",
+  "slug": "mattin-s-caf",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "Central Campus locations:",
+   "description": "a caf\u00e9 in Duffield Hall",
+   "official_url": "https://now.dining.cornell.edu/eatery/Mattins-Cafe"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "5e1b9dd8-7c49-4dac-b84c-cc1e43f98291",
+  "name": "McCormick's at Moakley House",
+  "slug": "mccormick-s-at-moakley-house",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "North Campus locations:",
+   "description": "at Robert Trent Jones Golf Course",
+   "official_url": "https://now.dining.cornell.edu/eatery/mccormicks"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "6506b54e-341a-4e73-8d8a-3e8eddc56912",
+  "name": "Morrison Dining",
+  "slug": "morrison-dining",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "dining_room",
+   "group": "North Campus dining rooms:",
+   "located_in": "Toni Morrison Hall",
+   "official_url": "https://now.dining.cornell.edu/eatery/Morrison-Dining"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "9d4e8864-a203-4526-93f8-686a8b7ddb54",
+  "name": "North Star Dining Room",
+  "slug": "north-star-dining-room",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "dining_room",
+   "group": "North Campus dining rooms:",
+   "located_in": "Appel Commons",
+   "official_url": "https://now.dining.cornell.edu/eatery/North-Star"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "18ce5ecb-ac30-4070-814f-02faba359bf9",
+  "name": "Novick's Caf\u00e9",
+  "slug": "novick-s-caf",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "North Campus locations:",
+   "description": "a caf\u00e9 in Ruth Bader Ginsburg Hall",
+   "official_url": "https://now.dining.cornell.edu/eatery/Novicks-Cafe"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "54a4ceda-8472-46be-9824-56f54a78cc2e",
+  "name": "Okenshields",
+  "slug": "okenshields",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "dining_room",
+   "group": "Central Campus dining rooms:",
+   "located_in": "Willard Straight Hall",
+   "official_url": "https://now.dining.cornell.edu/eatery/Okenshields"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "a9445e52-4ae2-4e6d-931f-2fc61364a87c",
+  "name": "Risley Dining",
+  "slug": "risley-dining",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "dining_room",
+   "group": "North Campus dining rooms:",
+   "located_in": "Risley Residential College",
+   "official_url": "https://now.dining.cornell.edu/eatery/Risley-Dining"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "bf83a799-bd4f-48fd-a868-07c53bf9e437",
+  "name": "Rose House Dining Room",
+  "slug": "rose-house-dining-room",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "dining_room",
+   "group": "West Campus dining rooms:",
+   "located_in": "Flora Rose House",
+   "official_url": "https://now.dining.cornell.edu/eatery/Rose-House-Dining"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "1929d9d3-69c0-4246-a704-e39f3244da6c",
+  "name": "Rusty's",
+  "slug": "rusty-s",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "Central Campus locations:",
+   "description": "a coffee shop in Uris Hall",
+   "official_url": "https://now.dining.cornell.edu/eatery/Rustys"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "21e51616-4333-45b9-92d8-cf0376cc509f",
+  "name": "Trillium",
+  "slug": "trillium",
+  "entity_type": "dining_location",
+  "topic_key": "dining",
+  "attributes": {
+   "kind": "cafe",
+   "group": "Central Campus locations:",
+   "description": "a food court in Kennedy Hall",
+   "official_url": "https://now.dining.cornell.edu/eatery/Trillium"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "517a7266-6790-491a-ae20-195373a0b8d9",
+  "name": "Alumni",
+  "slug": "alumni",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "189b8c57-d72f-428a-9349-38df139d1895",
+  "name": "Catherwood Library",
+  "slug": "catherwood-library",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "https://catherwood.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "409b2225-02f0-4759-94f1-73999dd34e4b",
+  "name": "Clark Physical Sciences Library",
+  "slug": "clark-physical-sciences-library",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "https://psl.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "00461001-95b7-4cfe-bdba-a5a7dd9da826",
+  "name": "Clarke Africana Library",
+  "slug": "clarke-africana-library",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "http://africana.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "5459e572-7fe4-4dba-a846-caaf4602e114",
+  "name": "Cornell Tech Library Services",
+  "slug": "cornell-tech-library-services",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "https://tech.library.cornell.edu"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "25c4b092-96a7-4a08-a4ff-6afd38b2dfda",
+  "name": "Cox Library of Music and Dance",
+  "slug": "cox-library-of-music-and-dance",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "http://music.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "315ef0bb-a179-4fda-9c76-7445689a7d90",
+  "name": "Engineering Library",
+  "slug": "engineering-library",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "http://engineering.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "f7da24a1-d9d2-4d0a-82ae-4d010c0d7074",
+  "name": "Flower-Sprecher Veterinary Library",
+  "slug": "flower-sprecher-veterinary-library",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "https://vet.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "9e31cbd3-ed7d-477d-b86f-cb6dc1f72b1e",
+  "name": "HELP",
+  "slug": "help",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "94f15558-7248-4029-abdc-0a6ffe668722",
+  "name": "Kroch Asia Collections",
+  "slug": "kroch-asia-collections",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "http://asia.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "5fec8262-ae23-423e-82bd-13a3ba941345",
+  "name": "Law Library",
+  "slug": "law-library",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "http://law.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "b7480bc0-73aa-45a9-bd1b-9271681fcd66",
+  "name": "Library Annex",
+  "slug": "library-annex",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "http://annex.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "8a3b3e61-89b3-4c9a-882f-f60cea384fd5",
+  "name": "MENU",
+  "slug": "menu",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "da486da8-da87-4af5-9deb-5e144359fb01",
+  "name": "Management Library",
+  "slug": "management-library",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "http://johnson.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "2facca08-7d74-442f-92b0-bf76e6380027",
+  "name": "Mann Library",
+  "slug": "mann-library",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "http://mannlib.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "283b683b-aba4-44af-9a2a-93c6f4a7e79f",
+  "name": "Mathematics Library",
+  "slug": "mathematics-library",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "http://mathematics.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "39201f0f-1593-4798-8cdf-ec70f8152e33",
+  "name": "Medical Center Archives",
+  "slug": "medical-center-archives",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "http://www.med.cornell.edu/archives/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "987ff7af-da93-44aa-ab6e-49cce8d863f0",
+  "name": "Mui Ho Fine Arts Library",
+  "slug": "mui-ho-fine-arts-library",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "http://finearts.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "0fa05324-9acd-4896-b5de-509e966d0c67",
+  "name": "Nestl\u00e9 Library",
+  "slug": "nestl-library",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "https://hotel.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "c4faf7f5-1e81-4f88-a447-d811bdef2726",
+  "name": "Olin Library",
+  "slug": "olin-library",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "https://olinuris.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "821940a8-581d-4e25-ac8d-6cf36a5a32a2",
+  "name": "POPULAR LINKS",
+  "slug": "popular-links",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "86445a5f-0bc1-408b-8017-9b320e14b177",
+  "name": "Rare and Manuscript Collections",
+  "slug": "rare-and-manuscript-collections",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "http://rare.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "ba304641-ef93-4ff5-90f8-8fc32ff33031",
+  "name": "Uris Library",
+  "slug": "uris-library",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "https://olinuris.library.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "a2ca6e92-39cf-4d28-acda-083cdf95ef28",
+  "name": "Wood Library",
+  "slug": "wood-library",
+  "entity_type": "library",
+  "topic_key": "services",
+  "attributes": {
+   "kind": "library",
+   "official_url": "https://library.weill.cornell.edu/"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "83dcdf1d-f658-4653-80a8-ee03a957595b",
+  "name": "1 Forest Park Lane",
+  "slug": "1-forest-park-lane",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "population": "upper-level",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/1-forest-park-lane"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "e57a8b00-cae8-47e3-a57d-49630a3c3044",
+  "name": "104 Mary Ann Wood Drive",
+  "slug": "104-mary-ann-wood-drive",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "population": "upper-level",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/104-mary-ann-wood-drive"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "db3d8dce-7130-465d-975c-019b9026eb50",
+  "name": "112 Edgemoor",
+  "slug": "112-edgemoor",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "population": "upper-level",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/112-edgemoor"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "27beea7e-104d-441f-b9f8-4551ce6b6b99",
+  "name": "301 College Avenue",
+  "slug": "301-college-avenue",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "population": "upper-level",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "a3a506cc-fff7-4538-86f4-8123169e55ca",
+  "name": "Akwe:kon",
+  "slug": "akwe-kon",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/akwekon"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "c0f2c543-503c-48b4-891b-dd5b5e839872",
+  "name": "Alice Cook House",
+  "slug": "alice-cook-house",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "West Campus",
+   "group": "West Campus House System",
+   "population": "upper-level",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/alice-cook-house"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "2b25a87c-07c3-43b9-868d-c857391ed44b",
+  "name": "Balch Hall",
+  "slug": "balch-hall",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "North Campus",
+   "population": "first-year",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "name": "Barbara McClintock Hall",
+  "slug": "barbara-mcclintock-hall",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "North Campus",
+   "population": "first-year",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall"
+  },
+  "claim_count": 125,
+  "families": [
+   "amenities",
+   "amenity",
+   "application",
+   "billing",
+   "building",
+   "cancellation",
+   "capacity",
+   "confirmation",
+   "contact",
+   "deadline",
+   "eligibility",
+   "fee",
+   "first_year_residence_hall_listed",
+   "first_year_residences_location",
+   "housing",
+   "newly_admitted_must_live_on_campus",
+   "placement",
+   "rate",
+   "residence_hall_ranking_allowed",
+   "residence_halls",
+   "residence_halls_room_types_general",
+   "room_change",
+   "room_types"
+  ],
+  "facts": [
+   {
+    "field": "amenities.building_variation_caveat",
+    "value": "Not every building has elevator access, air conditioning, wheelchair accessible rooms, and/or private bathrooms; see individual housing pages or contact Housing & Residential Life.",
+    "academic_year": null,
+    "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls"
+   },
+   {
+    "field": "amenity.bike_room",
+    "value": "no",
+    "academic_year": null,
+    "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall"
+   },
+   {
+    "field": "amenity.elevator",
+    "value": "yes",
+    "academic_year": null,
+    "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall"
+   },
+   {
+    "field": "amenity.kitchen",
+    "value": "yes",
+    "academic_year": null,
+    "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall"
+   },
+   {
+    "field": "amenity.laundry",
+    "value": "yes",
+    "academic_year": null,
+    "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall"
+   },
+   {
+    "field": "amenity.privacy_option_bathrooms",
+    "value": "yes",
+    "academic_year": null,
+    "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall"
+   },
+   {
+    "field": "amenity.wireless_internet",
+    "value": "yes",
+    "academic_year": null,
+    "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall"
+   },
+   {
+    "field": "application.netid_timing",
+    "value": "Apply within ten days of receiving activated NetID",
+    "academic_year": null,
+    "source": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process"
+   },
+   {
+    "field": "application.residence_hall_ranking",
+    "value": "no",
+    "academic_year": "2026-27",
+    "source": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process"
+   },
+   {
+    "field": "billing.undergraduate_schedule",
+    "value": "Bursar-billed in August for fall semester and December for spring semester (P1); P4 says July or August for fall and December for spring",
+    "academic_year": "2026-27",
+    "source": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates"
+   },
+   {
+    "field": "building.barbara_mcclintock_hall.first_year_residence_hall",
+    "value": "yes",
+    "academic_year": null,
+    "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls"
+   },
+   {
+    "field": "cancellation.new_and_second_year_students",
+    "value": "New (first-year and transfer) and second-year students cannot cancel a housing assignment unless no longer attending the University, approved for an exemption (second-year only), or accepted to an approved Greek house, affiliated house, or University Co-op before the rising sophomore selection deadline",
+    "academic_year": "2026-27",
+    "source": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy"
+   }
+  ]
+ },
+ {
+  "id": "54db5039-c2b2-4549-914d-ad58b091fb25",
+  "name": "Carl Becker House",
+  "slug": "carl-becker-house",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "West Campus",
+   "group": "West Campus House System",
+   "population": "upper-level",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/carl-becker-house"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "f0cee38c-3a91-4c47-bf34-b59a47183364",
+  "name": "Cascadilla Hall",
+  "slug": "cascadilla-hall",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "population": "upper-level",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/cascadilla-hall"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "53ab48e7-7155-4895-907e-4204adabec60",
+  "name": "Clara Dickson Hall",
+  "slug": "clara-dickson-hall",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "North Campus",
+   "population": "first-year",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/clara-dickson-hall"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "f8f1eca6-cf9b-422a-9bd3-9ac01fd1e5ed",
+  "name": "Court-Kay-Bauer Hall",
+  "slug": "court-kay-bauer-hall",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "North Campus",
+   "population": "first-year",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/court-kay-bauer-hall"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "b5170fdf-2fa9-4480-9d8d-fc68c046e465",
+  "name": "Ecology House",
+  "slug": "ecology-house",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "97a9f130-7d61-4648-821c-5e25cd722757",
+  "name": "Equity & Engagement Community",
+  "slug": "equity-engagement-community",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/equity-engagement-community-eec"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "a64a954a-a8e1-47f1-8f75-ec79b58a3878",
+  "name": "Equity & Engagement Community (EEC)",
+  "slug": "equity-engagement-community-eec",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/equity-engagement-community-eec"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "18a5eed0-ef30-4fd6-acfb-335b0a1cfbf7",
+  "name": "Flora Rose House",
+  "slug": "flora-rose-house",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "West Campus",
+   "group": "West Campus House System",
+   "population": "upper-level",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/flora-rose-house"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "c69263a3-a5f1-45f6-83ea-f191bbd51952",
+  "name": "Hans Bethe House",
+  "slug": "hans-bethe-house",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "West Campus",
+   "group": "West Campus House System",
+   "population": "upper-level",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/hans-bethe-house"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "02578c62-db50-478b-b1f1-c32615cc2916",
+  "name": "High Rise #5",
+  "slug": "high-rise-5",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "North Campus",
+   "population": "first-year",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/high-rise-5"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "030ddd08-9f3c-4c28-8f73-5f22252e5570",
+  "name": "Holland International Living Center (HILC)",
+  "slug": "holland-international-living-center-hilc",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/holland-international-living-center-hilc"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "d55bf4ce-2d8f-4e44-8201-5bbc54941fc6",
+  "name": "Hu Shih Hall",
+  "slug": "hu-shih-hall",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "North Campus",
+   "population": "first-year",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/hu-shih-hall"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "bc5e01a3-7bc6-475a-ae1d-1fc98225181e",
+  "name": "Jameson Hall",
+  "slug": "jameson-hall",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "North Campus",
+   "population": "first-year",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/jameson-hall"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "e149e6a2-f220-42e8-a43f-e25909e3c24c",
+  "name": "Just About Music (JAM)",
+  "slug": "just-about-music-jam",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "0815b875-4869-4157-ace7-e52d5998a1a8",
+  "name": "Language House",
+  "slug": "language-house",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "5aa4641c-7b4f-4e55-a746-39e59f45627f",
+  "name": "Latino Living Center (LLC)",
+  "slug": "latino-living-center-llc",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/latino-living-center-llc"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "bd046949-39f8-4572-ad01-802e58afa3fd",
+  "name": "Loving House",
+  "slug": "loving-house",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "9d4e283a-396d-46e7-b39d-6e4bdee7b407",
+  "name": "Low Rise #6",
+  "slug": "low-rise-6",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "North Campus",
+   "population": "first-year",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/low-rise-6"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "12a7e480-c4d6-43c5-92d2-2bfe52301a79",
+  "name": "Low Rise #7",
+  "slug": "low-rise-7",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "North Campus",
+   "population": "first-year",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/low-rise-7"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "64d971c3-37b3-424f-badb-5486b8abb6a0",
+  "name": "Mary Donlon Hall",
+  "slug": "mary-donlon-hall",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "North Campus",
+   "population": "first-year",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "664d3181-8460-4da3-900a-1609de6a46a3",
+  "name": "Mews Hall",
+  "slug": "mews-hall",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "North Campus",
+   "population": "first-year",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mews-hall"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "c508e73d-81e5-4bba-bb81-1c865705a6af",
+  "name": "Multicultural Living Learning Unit (McLLU)",
+  "slug": "multicultural-living-learning-unit-mcllu",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/multicultural-living-learning-unit-mcllu"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "05cd2009-297c-4aad-9323-a5654979ebce",
+  "name": "Program House Mission and Expectations",
+  "slug": "program-house-mission-and-expectations",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/program-houses/program-house-mission-and-expectations"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "e2cf84e4-99d5-46d9-afd4-58c7a5d78209",
+  "name": "Risley Residential College",
+  "slug": "risley-residential-college",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "8cee70a3-3160-491e-900a-21ce548bdf2f",
+  "name": "Ruth Bader Ginsburg Hall",
+  "slug": "ruth-bader-ginsburg-hall",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "North Campus",
+   "population": "first-year",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/ruth-bader-ginsburg-hall"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "aca2edaf-7722-4629-895c-bc83304db3af",
+  "name": "Schuyler House",
+  "slug": "schuyler-house",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "population": "upper-level",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/schuyler-house"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "7ed914d8-ccf3-4177-b9fb-32916d56753f",
+  "name": "Sheldon Court",
+  "slug": "sheldon-court",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "population": "upper-level",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/sheldon-court"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "20f92e50-b176-40ae-8dd7-65f66a6a7b68",
+  "name": "Sober Living Community",
+  "slug": "sober-living-community",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/sober-living-community"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "eee6964e-ba02-49c5-9a12-a6a4eaca88bc",
+  "name": "Toni Morrison Hall",
+  "slug": "toni-morrison-hall",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "population": "upper-level",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "48591f41-23ae-46bb-957a-2fc9af010c3e",
+  "name": "Townhouse Apartments",
+  "slug": "townhouse-apartments",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "population": "upper-level",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/townhouse-apartments"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "8548b232-2ccd-4da1-baff-668990daea94",
+  "name": "Ujamaa Residential College",
+  "slug": "ujamaa-residential-college",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ujamaa-residential-college"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "4c873a90-4573-4685-8e34-33971c66136a",
+  "name": "Veterans House",
+  "slug": "veterans-house",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "a9679267-011d-4ad0-afb3-f257cde260b6",
+  "name": "William Keeton House",
+  "slug": "william-keeton-house",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "area": "West Campus",
+   "group": "West Campus House System",
+   "population": "upper-level",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/william-keeton-house"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ },
+ {
+  "id": "1bcf9bc2-161b-4e90-a92f-109708c8c870",
+  "name": "program house mission",
+  "slug": "program-house-mission",
+  "entity_type": "residence_hall",
+  "topic_key": "housing",
+  "attributes": {
+   "kind": "program_house",
+   "group": "Program Houses",
+   "official_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/program-houses/program-house-mission-and-expectations"
+  },
+  "claim_count": 0,
+  "families": [],
+  "facts": []
+ }
+]

@@ -1,0 +1,20 @@
+{
+ "entities": 95,
+ "entities_with_facts": 1,
+ "claims": 196,
+ "claims_with_quote": 196,
+ "processes": 3,
+ "deadlines": 19,
+ "costs": 62,
+ "policies": 38,
+ "contacts": 2,
+ "conflicts": 0,
+ "entity_gaps": 95,
+ "institution_gaps": 8,
+ "pages_crawled": 2504,
+ "by_entity_type": {
+  "dining_location": 29,
+  "library": 24,
+  "residence_hall": 42
+ }
+}
