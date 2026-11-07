@@ -82,11 +82,39 @@ def win_note(cls: str, detail: dict, *, has_costs: bool, has_deadlines: bool, ha
     return f"{lead}; we win with {what}."
 
 
-def rank_all(conn: psycopg.Connection, *, institution_id: UUID, official_domains: tuple[str, ...] = ("cornell.edu",), today: date | None = None) -> dict:
+PRACTICAL = (  # owner decision 2026-11-07: practical, high-traffic questions first; (rank, regex on question/answer key/topic/audience/page type)
+    (0, r"\b(cost|costs|fee|fees|tuition|price|prices|rate|rates|how much|bill|billing|deposit)\b"),
+    (0, r"\b(deadline|deadlines|when is|when are|due date|last day|what date|by when)\b"),
+    (1, r"\b(how do i|how to|apply|application|process|steps|register|enroll|change my major|transfer credit|add/drop|add drop|leave of absence)\b"),
+    (1, r"\b(dorm|dorms|residence hall|hall|housing|room|rooms|live on campus|roommate|move-in|move in)\b"),
+    (2, r"\b(dining|meal plan|meal plans|eatery|cafe|dining hall|food)\b"),
+    (2, r"\b(bus|tcat|transit|parking|commute|shuttle|bike|getting around|transportation)\b"),
+    (1, r"\btransfer\b"),
+    (2, r"\b(parent|parents|family|families)\b"),
+)
+PRACTICAL_TOPICS = {"costs_aid": 0, "parents_billing": 0, "admissions": 1, "housing": 1, "courses": 1, "dining": 2, "transportation": 2, "town_transit_local": 2, "town_transit_intercity": 2,
+                    "transfer": 1, "parents_visitors": 2, "parents_calendar": 2, "parents_prep": 2, "parents_logistics": 2, "daily_life": 3}
+
+
+def practical_rank(q: dict) -> int:
+    """0 = costs/deadlines, 1 = how-to/dorms/transfer, 2 = dining/transit/parents, 3 = other practical topics, 5 = the rest."""
+    text = " ".join(str(q.get(k) or "") for k in ("question", "answer_key", "page_type")).lower()
+    aud = (q.get("audience") or "").lower()
+    best = 5
+    for rank, pat in PRACTICAL:
+        if re.search(pat, text) or (rank == 1 and aud == "transfer") or (rank == 2 and aud == "parent"):
+            best = min(best, rank)
+    if q.get("page_type") == "process_guide":
+        best = min(best, 1)
+    best = min(best, PRACTICAL_TOPICS.get(q.get("topic_key") or "", 5))
+    return best
+
+
+def rank_all(conn: psycopg.Connection, *, institution_id: UUID, official_domains: tuple[str, ...] = ("cornell.edu",), today: date | None = None, practical_first: bool = True) -> dict:
     today = today or datetime.now(timezone.utc).date()
     with conn.cursor() as cur:
-        cur.execute("""SELECT q.id, q.question, q.audience, q.cluster_id, q.entity_id, q.answer_key, q.incumbent_detail, c.best_variant, c.label, c.agi, c.d_score
-                       FROM bulk_questions q LEFT JOIN intent_clusters c ON c.id=q.cluster_id WHERE q.institution_id=%s AND q.status <> 'done'""", (institution_id,))
+        cur.execute("""SELECT q.id, q.question, q.audience, q.cluster_id, q.entity_id, q.answer_key, q.incumbent_detail, q.page_type, t.key AS topic_key, c.best_variant, c.label, c.agi, c.d_score
+                       FROM bulk_questions q LEFT JOIN topics t ON t.id=q.topic_id LEFT JOIN intent_clusters c ON c.id=q.cluster_id WHERE q.institution_id=%s AND q.status <> 'done'""", (institution_id,))
         qs = [dict(r) for r in cur.fetchall()]
         cur.execute("""SELECT entity_id, bool_or(value_type='money') AS costs, bool_or(value_date IS NOT NULL OR field LIKE 'deadline.%%') AS deadlines, bool_or(field LIKE 'process.%%') AS steps
                        FROM claims WHERE institution_id=%s AND superseded_by_id IS NULL GROUP BY entity_id""", (institution_id,))
@@ -114,12 +142,13 @@ def rank_all(conn: psycopg.Connection, *, institution_id: UUID, official_domains
         note = win_note(cls, detail, has_costs=bool(f.get("costs")), has_deadlines=bool(f.get("deadlines")), has_steps=bool(f.get("steps")))
         aud_rank = 0 if (q.get("audience") or "general") in UNDERSERVED_AUDIENCES else 1
         demand = float(q.get("d_score") or 0)
-        ranked.append((TIER[cls], aud_rank, -demand, q["question"], q["id"], cls, detail, note))
+        pr = practical_rank(q) if practical_first else 0
+        ranked.append((pr, TIER[cls], aud_rank, -demand, q["question"], q["id"], cls, detail, note))
         classes[cls] += 1
-    ranked.sort(key=lambda t: t[:4])
+    ranked.sort(key=lambda t: t[:5])
     with conn.cursor() as cur:
-        for i, (tier, _aud, _dem, _q, qid, cls, detail, note) in enumerate(ranked, start=1):
+        for i, (_pr, tier, _aud, _dem, _q, qid, cls, detail, note) in enumerate(ranked, start=1):
             cur.execute("UPDATE bulk_questions SET incumbent_class=%s, incumbent_detail=incumbent_detail || %s::jsonb, win_note=%s, tier=%s, order_rank=%s, updated_at=now() WHERE id=%s",
                         (cls, json.dumps(detail, default=str), note, tier, i, qid))
     conn.commit()
-    return {"ranked": len(ranked), "by_class": dict(classes), "underserved_first": sum(1 for t in ranked if t[0] == 1)}
+    return {"ranked": len(ranked), "by_class": dict(classes), "underserved_first": sum(1 for t in ranked if t[1] == 1), "practical_first": practical_first, "practical_0_2": sum(1 for t in ranked if t[0] <= 2)}

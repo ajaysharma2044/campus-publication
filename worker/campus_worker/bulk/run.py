@@ -373,6 +373,17 @@ def cmd_status(args, settings, conn=None) -> int:
     return 0
 
 
+def cmd_headless(args, settings, conn=None) -> int:
+    """SUBSCRIPTION ONLY (owner decision 2026-11-07): the stages through parallel `claude -p` workers; never the API."""
+    from . import headless
+    log = lambda m: print(time.strftime("%H:%M:%S"), m, flush=True)
+    out = headless.run_all(school=args.school, run_id=args.run_id, workers=args.workers, model=args.model, stage=args.stage, chunk_size=args.chunk, deploy_every=args.deploy_every,
+                           deploy=not args.no_deploy, log=log, max_chunks=args.max_chunks, max_batches=args.max_batches)
+    print(json.dumps({k: out.get(k) for k in ("run_id", "stage", "stopped", "pauses")} | {"extract": {k: v for k, v in (out.get("extract") or {}).items() if k in ("pending_at_start", "done", "counts", "sessions", "hours")},
+                      "dossier": out.get("dossier"), "articles": {k: v for k, v in (out.get("articles") or {}).items() if k in ("published", "skipped", "failed", "batches", "deploys", "hours", "pages_per_hour")}}, indent=1, default=json_default))
+    return 0
+
+
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(prog="campus_worker.bulk", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -386,9 +397,13 @@ def main(argv: list[str]) -> int:
     r = sub.add_parser("run", parents=[common]); r.add_argument("--limit", type=int, default=20); r.add_argument("--chunk", type=int, default=500); r.add_argument("--dry-run", action="store_true"); r.add_argument("--fake", action="store_true")
     r.add_argument("--resume", action="store_true"); r.add_argument("--deploy", action="store_true"); r.add_argument("--include-existing", action="store_true")
     sub.add_parser("status", parents=[common])
+    h = sub.add_parser("headless", parents=[common], help="subscription-only: the stages through parallel claude -p workers (never the API)")
+    h.add_argument("--workers", type=int, default=6); h.add_argument("--model", default="sonnet"); h.add_argument("--stage", choices=["all", "extract", "dossier", "articles"], default="all")
+    h.add_argument("--chunk", type=int, default=10); h.add_argument("--deploy-every", type=int, default=25); h.add_argument("--no-deploy", action="store_true")
+    h.add_argument("--max-chunks", type=int); h.add_argument("--max-batches", type=int)
     args = ap.parse_args(argv)
     settings = get_settings()
-    return {"crawl": cmd_crawl, "extract": cmd_extract, "dossier": cmd_dossier, "plan": cmd_plan, "run": cmd_run, "status": cmd_status}[args.cmd](args, settings)
+    return {"crawl": cmd_crawl, "extract": cmd_extract, "dossier": cmd_dossier, "plan": cmd_plan, "run": cmd_run, "status": cmd_status, "headless": cmd_headless}[args.cmd](args, settings)
 
 
 if __name__ == "__main__":

@@ -19,6 +19,19 @@
 # Exit: 0 merged without conflicts · 1 merge conflicts · 2 bad arguments or empty page list · 3 a worker exited non-zero (the merge still ran)
 #       11 locked (run.sh or another parallel_headless.sh is active)
 set -euo pipefail
+# --mode extract|dossier|articles|all (owner decision 2026-11-07, SUBSCRIPTION ONLY): the bulk stages through N parallel `claude -p`
+# workers, never the API. Delegates to scripts/headless_bulk.sh, which keeps the Mac awake, pauses on a usage limit and resumes after
+# the reset, redeploys the preview every 25 pages and reports pages per hour. Everything below this block is the page-shard fallback.
+_N=""; _MODE=""; _REST=()
+for _a in "$@"; do
+  if [ "$_a" = "--mode" ]; then _MODE="__next__"; continue; fi
+  if [ "$_MODE" = "__next__" ]; then _MODE="$_a"; continue; fi
+  if [ -z "$_N" ] && [[ "$_a" =~ ^[0-9]+$ ]]; then _N="$_a"; continue; fi
+  _REST+=("$_a")
+done
+if [ -n "$_MODE" ]; then
+  exec "$(cd "$(dirname "$0")" && pwd)/headless_bulk.sh" --workers "${_N:-6}" --stage "$_MODE" ${_REST[@]+"${_REST[@]}"}
+fi
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 export PATH="$ROOT/worker/.venv/bin:$HOME/.local/bin:/opt/homebrew/opt/php@8.3/bin:/opt/homebrew/opt/postgresql@16/bin:/opt/homebrew/bin:$PATH"
 N=4; PAGES=""; LIMIT=20; DRY=0; RUN_ID=""; MODEL="${CAMPUS_COORDINATOR_MODEL:-sonnet}"; MAX_TURNS=60
