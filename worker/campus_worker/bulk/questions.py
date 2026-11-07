@@ -152,17 +152,20 @@ def build(conn: psycopg.Connection, *, slug: str, year: str = "2026-27") -> dict
         raise LookupError(slug)
     items = generate(conn, institution_id=inst["id"], school=inst["canonical_name"], town=inst["city"] or "town", year=year) + from_clusters(conn, institution_id=inst["id"]) + from_yaml(institution_slug=slug)
     items = dedupe(items)
+    rows = []
+    for it in items:
+        topic_id = it.get("topic_id") or topic_ids.get(it.get("topic_key") or "") or topic_ids.get("housing")
+        rows.append((inst["id"], topic_id, it.get("entity_id"), it.get("cluster_id"), it.get("audience") or "general", it["question"][:300], slugify(it["question"], max_words=20, keep_stop=True), it["answer_key"][:300],
+                     it["page_type"], it["origin"], json.dumps({"demand": it.get("demand"), "agi": it.get("agi")})))
+    sql = """INSERT INTO bulk_questions (institution_id, topic_id, entity_id, cluster_id, audience, question, question_norm, answer_key, page_type, origin, incumbent_detail)
+             VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s::jsonb)
+             ON CONFLICT (COALESCE(institution_id::text, ''), COALESCE(place_id::text, ''), answer_key, audience)
+             DO UPDATE SET question=EXCLUDED.question, question_norm=EXCLUDED.question_norm, page_type=EXCLUDED.page_type, topic_id=EXCLUDED.topic_id, entity_id=EXCLUDED.entity_id, cluster_id=COALESCE(EXCLUDED.cluster_id, bulk_questions.cluster_id), updated_at=now()"""
     n = 0
-    with conn.cursor() as cur:
-        for it in items:
-            topic_id = it.get("topic_id") or topic_ids.get(it.get("topic_key") or "") or topic_ids.get("housing")
-            cur.execute("""INSERT INTO bulk_questions (institution_id, topic_id, entity_id, cluster_id, audience, question, question_norm, answer_key, page_type, origin, incumbent_detail)
-                           VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s::jsonb)
-                           ON CONFLICT (COALESCE(institution_id::text, ''), COALESCE(place_id::text, ''), answer_key, audience)
-                           DO UPDATE SET question=EXCLUDED.question, question_norm=EXCLUDED.question_norm, page_type=EXCLUDED.page_type, topic_id=EXCLUDED.topic_id, entity_id=EXCLUDED.entity_id, cluster_id=COALESCE(EXCLUDED.cluster_id, bulk_questions.cluster_id), updated_at=now()""",
-                        (inst["id"], topic_id, it.get("entity_id"), it.get("cluster_id"), it.get("audience") or "general", it["question"][:300], slugify(it["question"], max_words=20, keep_stop=True), it["answer_key"][:300],
-                         it["page_type"], it["origin"], json.dumps({"demand": it.get("demand"), "agi": it.get("agi")})))
-            n += 1
-    conn.commit()
+    for i in range(0, len(rows), 500):   # batched: one round trip per 500 questions, committed per batch (a dropped connection loses at most one batch)
+        with conn.cursor() as cur:
+            cur.executemany(sql, rows[i:i + 500])
+        conn.commit()
+        n += len(rows[i:i + 500])
     stats = {"total": n} | dict(Counter(it["origin"] for it in items)) | {"audiences": dict(Counter(it.get("audience") or "general" for it in items)), "page_types": dict(Counter(it["page_type"] for it in items))}
     return stats

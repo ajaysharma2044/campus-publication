@@ -326,7 +326,20 @@ def extract_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: int
 
 
 # ----------------------------------------------------------------------------------------------- dossier
-def dossier_stage(*, school: str, log=print, dsn: str | None = None) -> dict:
+def dossier_stage(*, school: str, log=print, dsn: str | None = None, _retry: bool = True) -> dict:
+    import psycopg as _pg
+
+    try:
+        return _dossier_stage(school=school, log=log, dsn=dsn)
+    except _pg.OperationalError as e:
+        if not _retry:
+            raise
+        log(f"dossier: database connection dropped ({str(e)[:80]}); reconnecting once and retrying (the inserts are idempotent)")
+        time.sleep(15)
+        return dossier_stage(school=school, log=log, dsn=dsn, _retry=False)
+
+
+def _dossier_stage(*, school: str, log=print, dsn: str | None = None) -> dict:
     conn = connect(_dsn(dsn))
     try:
         with conn.cursor() as cur:

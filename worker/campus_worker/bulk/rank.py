@@ -120,21 +120,22 @@ def rank_all(conn: psycopg.Connection, *, institution_id: UUID, official_domains
                        FROM claims WHERE institution_id=%s AND superseded_by_id IS NULL GROUP BY entity_id""", (institution_id,))
         facts = {r["entity_id"]: r for r in cur.fetchall()}
     inst_facts = facts.get(None) or {"costs": False, "deadlines": False, "steps": False}
+    with conn.cursor() as cur:   # the whole fresh cache and the latest observation per cluster, loaded once (not three queries per question)
+        cur.execute("SELECT query_norm, results FROM serp_cache WHERE observed_at >= now() - make_interval(days => %s) AND jsonb_array_length(results) > 0", (CACHE_DAYS,))
+        cache = {r["query_norm"]: r["results"] for r in cur.fetchall()}
+        cur.execute("SELECT DISTINCT ON (cluster_id) cluster_id, results FROM serp_observations ORDER BY cluster_id, observed_at DESC")
+        observed = {r["cluster_id"]: r["results"] or [] for r in cur.fetchall()}
     classes = Counter()
     ranked = []
     for q in qs:
         queries = [q["question"]] + [x for x in (q.get("best_variant"), q.get("label")) if x and x != q["question"]]
-        cached = search_cache.get_many(conn, queries[:3], days=CACHE_DAYS)
         results = []
-        for c in cached.values():
-            results = c.get("results") or results
+        for text in queries[:3]:
+            results = cache.get(search_cache.query_norm(text)) or []
             if results:
                 break
         if not results and q.get("cluster_id"):
-            with conn.cursor() as cur:
-                cur.execute("SELECT results FROM serp_observations WHERE cluster_id=%s ORDER BY observed_at DESC LIMIT 1", (q["cluster_id"],))
-                row = cur.fetchone()
-                results = (row or {}).get("results") or []
+            results = observed.get(q["cluster_id"]) or []
         cls, detail = classify(results, question=q["question"], official_domains=official_domains, today=today)
         if q.get("agi") is not None and int(q["agi"]) <= 1 and cls in ("unscanned", "none", "weak"):
             cls, detail = "strong_dedicated", detail | {"agi": q["agi"]}
@@ -146,9 +147,9 @@ def rank_all(conn: psycopg.Connection, *, institution_id: UUID, official_domains
         ranked.append((pr, TIER[cls], aud_rank, -demand, q["question"], q["id"], cls, detail, note))
         classes[cls] += 1
     ranked.sort(key=lambda t: t[:5])
-    with conn.cursor() as cur:
-        for i, (_pr, tier, _aud, _dem, _q, qid, cls, detail, note) in enumerate(ranked, start=1):
-            cur.execute("UPDATE bulk_questions SET incumbent_class=%s, incumbent_detail=incumbent_detail || %s::jsonb, win_note=%s, tier=%s, order_rank=%s, updated_at=now() WHERE id=%s",
-                        (cls, json.dumps(detail, default=str), note, tier, i, qid))
-    conn.commit()
+    updates = [(cls, json.dumps(detail, default=str), note, tier, i, qid) for i, (_pr, tier, _aud, _dem, _q, qid, cls, detail, note) in enumerate(ranked, start=1)]
+    for i in range(0, len(updates), 500):
+        with conn.cursor() as cur:
+            cur.executemany("UPDATE bulk_questions SET incumbent_class=%s, incumbent_detail=incumbent_detail || %s::jsonb, win_note=%s, tier=%s, order_rank=%s, updated_at=now() WHERE id=%s", updates[i:i + 500])
+        conn.commit()
     return {"ranked": len(ranked), "by_class": dict(classes), "underserved_first": sum(1 for t in ranked if t[1] == 1), "practical_first": practical_first, "practical_0_2": sum(1 for t in ranked if t[0] <= 2)}
