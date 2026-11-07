@@ -25,6 +25,8 @@ def _stems(text: str) -> set[str]:
             if len(w) > 4 and w.endswith(suf):
                 w = w[: -len(suf)] + ("y" if suf == "ies" else "")
                 break
+        if len(w) > 4 and w.endswith("e"):
+            w = w[:-1]          # guarantee / guaranteed, deadline / deadlines, house / housing all meet
         out.add(w)
     return out
 
