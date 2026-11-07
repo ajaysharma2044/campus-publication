@@ -144,8 +144,8 @@ def rank_all(conn: psycopg.Connection, *, institution_id: UUID, official_domains
         aud_rank = 0 if (q.get("audience") or "general") in UNDERSERVED_AUDIENCES else 1
         demand = float(q.get("d_score") or 0)
         pr = practical_rank(q) if practical_first else 0
-        observed = 0 if q.get("cluster_id") else 1   # a question a real search points at comes before a generated one of the same kind
-        ranked.append((pr, observed, TIER[cls], aud_rank, -demand, q["question"], q["id"], cls, detail, note))
+        obs_rank = 0 if q.get("cluster_id") else 1   # a question a real search points at comes before a generated one of the same kind
+        ranked.append((pr, obs_rank, TIER[cls], aud_rank, -demand, q["question"], q["id"], cls, detail, note))
         classes[cls] += 1
     ranked.sort(key=lambda t: t[:6])
     updates = [(cls, json.dumps(detail, default=str), note, tier, i, qid) for i, (_pr, _obs, tier, _aud, _dem, _q, qid, cls, detail, note) in enumerate(ranked, start=1)]
