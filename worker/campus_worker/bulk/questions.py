@@ -16,26 +16,27 @@ from ..config import REPO_ROOT
 from .util import slugify
 
 UNDERSERVED_AUDIENCES = ("transfer", "community_college_transfer", "international", "first_gen", "parent", "alumni", "staff", "resident")
-ENTITY_TEMPLATES = {
-    "residence_hall": [(("rate",), "How much does {name} cost in {year}?", "question_guide"), (("amenity",), "What amenities does {name} have?", "question_guide"),
-                       (("eligibility", "placement", "capacity"), "Who lives in {name} and how are students placed there?", "question_guide"),
-                       (("location", "address"), "Where is {name} on the {school} campus?", "question_guide"), ((), "{name} at {school}: rooms, cost and what to know", "entity_guide")],
-    "dining_location": [(("hours",), "What are {name}'s hours?", "question_guide"), (("rate", "fee", "policy"), "Does {name} take meal plans and what does it cost?", "question_guide"),
-                        ((), "{name} at {school}: hours, meal plans and what to know", "entity_guide")],
-    "library": [(("hours",), "What are {name}'s hours?", "question_guide"), ((), "{name} at {school}: hours, access and what to know", "entity_guide")],
-    "bus_route": [(("route", "hours"), "Where does {name} go and how often does it run?", "question_guide"), ((), "{name}: stops, schedule and what to know", "entity_guide")],
-    "office": [(("contact", "hours", "location"), "How do I contact {name} at {school}?", "question_guide")],
-    "program": [(("requirement", "prerequisite", "deadline"), "What are the requirements to get into {name} at {school}?", "question_guide"), ((), "{name} at {school}: requirements, deadlines and what to know", "entity_guide")],
-    "major": [(("requirement", "prerequisite"), "What are the requirements for the {name} major at {school}?", "question_guide")],
-    "parking_lot": [(("rate", "fee"), "How much does parking at {name} cost?", "question_guide")],
-    "town_service": [((), "How do I use {name} in {town}?", "entity_guide")],
-    "park": [((), "{name} near {school}: what to know", "entity_guide")],
-    "meal_plan": [(("rate", "fee", "cost"), "How much does the {name} cost at {school}?", "question_guide")],
+# Hub pages (owner decision 2026-11-07 after the first article pass): one page per topic × fact family instead of one per fact, so a
+# student gets "Cornell housing deadlines 2026-27" with every dated deadline in one table rather than a page per field name.
+HUBS = {
+    "deadlines": {"families": ("deadline", "timeline"), "question": "What are {school}'s {topic} deadlines for {year}?", "pq": "{short} {topic} deadlines", "min_claims": 3, "audiences": ("transfer", "international")},
+    "costs": {"families": ("fee", "rate", "cost"), "question": "What does {topic} cost at {school} in {year}?", "pq": "{short} {topic} costs", "min_claims": 3, "audiences": ("parent",)},
+    "rules": {"families": ("policy", "eligibility", "requirement", "prerequisite", "agreement", "accessibility"), "question": "What are {school}'s {topic} rules, and who qualifies?", "pq": "{short} {topic} rules", "min_claims": 3, "audiences": ("transfer", "international")},
 }
-AUDIENCE_VARIANTS = {  # (field families) → audiences that ask the same question with their own rules
-    ("eligibility", "policy", "deadline", "process", "placement"): ("transfer", "international"),
-    ("fee", "rate", "cost", "deadline"): ("parent",),
-}
+TOPIC_PHRASE = {"housing": "housing", "admissions": "admissions", "costs_aid": "tuition and financial aid", "dining": "dining", "transportation": "parking and transportation", "courses": "course enrollment",
+                "programs": "academic programs", "health_wellbeing": "student health", "careers": "career services", "services": "campus services", "transfer": "transfer", "daily_life": "campus life",
+                "alumni_benefits": "alumni", "alumni_records": "transcripts and records", "alumni_events": "alumni events", "alumni_education": "continuing education", "alumni_giving": "giving", "alumni_visiting": "visiting campus",
+                "parents_visitors": "families and visitors", "parents_calendar": "family weekend and move-in", "parents_billing": "billing", "parents_logistics": "mail, visiting and safety", "parents_prep": "preparing for move-in",
+                "jobs_student": "student jobs", "jobs_internships": "internships", "jobs_outcomes": "career outcomes", "jobs_university": "working at the university", "jobs_grad": "graduate assistantships",
+                "accessibility": "accessibility", "clubs_events": "clubs and recreation", "events_calendar": "events", "town_services": "city services", "town_transit_local": "local transit", "town_transit_intercity": "intercity transit",
+                "town_offcampus_housing": "off-campus housing", "town_food": "food", "town_outdoors": "parks and trails", "town_weather": "weather", "town_jobs": "jobs in town", "town_government": "local government", "town_neighborhoods": "neighborhoods"}
+HUB_AUDIENCE_TOPICS = {"transfer": ("housing", "admissions", "courses", "transfer"), "international": ("admissions", "housing"), "parent": ("costs_aid", "housing", "dining", "parents_billing")}
+ENTITY_MIN_CLAIMS = {"residence_hall": 2, "dining_location": 2, "library": 2, "meal_plan": 2, "bus_route": 2, "parking_lot": 2, "park": 2, "office": 3, "program": 3, "major": 3, "building": 3, "town_service": 3, "course": 4}
+TOWN_TYPES = {"town_service", "park", "bus_route"}
+
+
+def short_school(name: str) -> str:
+    return re.sub(r"\b(University|College|Institute|of Technology|the)\b", "", name).strip(" ,-") or name
 
 
 def humanize(field: str) -> str:
@@ -45,70 +46,90 @@ def humanize(field: str) -> str:
 
 
 def generate(conn: psycopg.Connection, *, institution_id: UUID, school: str, town: str, year: str) -> list[dict]:
+    """Hub pages per topic × family, entity guides for entities with enough facts, one how-to page per distinct process."""
+    short = short_school(school)
     with conn.cursor() as cur:
-        cur.execute("""SELECT c.id, c.entity_id, c.field, c.topic_id, c.academic_year, c.value_type, c.value_text, c.value_date FROM claims c
+        cur.execute("""SELECT c.id, c.entity_id, c.field, c.topic_id, t.key AS topic_key, c.value_text FROM claims c JOIN topics t ON t.id=c.topic_id
                        WHERE c.institution_id=%s AND c.superseded_by_id IS NULL AND c.evidence_category='verified_fact'""", (institution_id,))
         claims = [dict(r) for r in cur.fetchall()]
         cur.execute("SELECT id, name, entity_type, topic_id, slug FROM entities WHERE institution_id=%s AND status='active'", (institution_id,))
         entities = {r["id"]: dict(r) for r in cur.fetchall()}
     out: list[dict] = []
-    fams_by_entity: dict = {}
+    # entity guides
+    per_entity: dict = {}
     for c in claims:
         if c["entity_id"]:
-            fams_by_entity.setdefault(c["entity_id"], set()).add(c["field"].split(".", 1)[0])
-    for eid, e in entities.items():
-        fams = fams_by_entity.get(eid, set())
-        if not fams:
-            continue  # lean rule: a question needs a verified fact behind it
-        for families, template, page_type in ENTITY_TEMPLATES.get(e["entity_type"], []):
-            if families and not (set(families) & fams):
-                continue
-            q = template.format(name=e["name"], school=school, town=town, year=year)
-            key = f"entity:{eid}:{'+'.join(families) if families else 'guide'}"
-            out.append({"question": q, "answer_key": key, "page_type": page_type, "entity_id": eid, "topic_id": e["topic_id"], "audience": "general", "origin": "generated"})
-    seen_fields = set()
+            per_entity[c["entity_id"]] = per_entity.get(c["entity_id"], 0) + 1
+    for eid, n in per_entity.items():
+        e = entities.get(eid)
+        if not e or n < ENTITY_MIN_CLAIMS.get(e["entity_type"], 99):
+            continue
+        place = e["entity_type"] in TOWN_TYPES
+        q = f"{e['name']} in {town}: what to know" if place else f"{e['name']} at {school}: what to know"
+        out.append({"question": q, "primary_query": f"{e['name']} {town if place else short}", "answer_key": f"entity:{eid}:guide", "page_type": "entity_guide", "entity_id": eid, "topic_id": e["topic_id"],
+                    "audience": "general", "origin": "generated", "facts": n})
+    # topic hubs
+    hub_counts: dict = {}
+    topic_ids: dict = {}
     for c in claims:
         if c["entity_id"]:
             continue
         fam = c["field"].split(".", 1)[0]
-        label = humanize(c["field"])
-        if c["field"] in seen_fields:
+        for hub, spec in HUBS.items():
+            if fam in spec["families"]:
+                hub_counts[(c["topic_key"], hub)] = hub_counts.get((c["topic_key"], hub), 0) + 1
+                topic_ids[c["topic_key"]] = c["topic_id"]
+    for (tkey, hub), n in hub_counts.items():
+        spec = HUBS[hub]
+        if n < spec["min_claims"]:
             continue
-        seen_fields.add(c["field"])
-        if fam == "deadline":
-            q, pt = f"When is the {label} deadline at {school}?", "question_guide"
-        elif fam in ("fee", "rate", "cost"):
-            q, pt = f"How much is the {label} at {school}?", "question_guide"
-        elif fam in ("policy", "eligibility", "requirement"):
-            q, pt = f"What is {school}'s {label} policy?", "question_guide"
-        elif fam == "process":
-            name = json.loads(c["value_text"]).get("name") if (c.get("value_text") or "").startswith("{") else label
-            q, pt = f"How do I {name} at {school}?", "process_guide"
-        elif fam in ("contact", "hours", "location"):
-            q, pt = f"How do I reach {school}'s {label}?", "question_guide"
-        else:
+        phrase = TOPIC_PHRASE.get(tkey, tkey.replace("_", " "))
+        q = spec["question"].format(school=school, topic=phrase, year=year)
+        pq = spec["pq"].format(short=short, topic=phrase)
+        out.append({"question": q, "primary_query": pq, "answer_key": f"hub:{tkey}:{hub}", "page_type": "question_guide", "entity_id": None, "topic_id": topic_ids[tkey], "audience": "general", "origin": "generated", "facts": n})
+        if n >= 5:
+            for aud in spec["audiences"]:
+                if tkey in HUB_AUDIENCE_TOPICS.get(aud, ()):
+                    suffix = {"transfer": "for transfer students", "international": "for international students", "parent": "for parents"}[aud]
+                    out.append({"question": f"{q[:-1]} {suffix}?", "primary_query": f"{pq} {aud}", "answer_key": f"hub:{tkey}:{hub}", "page_type": "question_guide", "entity_id": None, "topic_id": topic_ids[tkey],
+                                "audience": aud, "origin": "generated", "facts": n})
+    # how-to pages, one per distinct process
+    seen_proc: set = set()
+    for c in claims:
+        if c["entity_id"] or not c["field"].startswith("process."):
             continue
-        out.append({"question": q, "answer_key": f"claim:{c['field']}", "page_type": pt, "entity_id": None, "topic_id": c["topic_id"], "audience": "general", "origin": "generated"})
-        for families, audiences in AUDIENCE_VARIANTS.items():
-            if fam in families:
-                for aud in audiences:
-                    suffix = {"transfer": "as a transfer student", "international": "as an international student", "parent": "for parents"}[aud]
-                    out.append({"question": f"{q[:-1]} {suffix}?", "answer_key": f"claim:{c['field']}", "page_type": pt, "entity_id": None, "topic_id": c["topic_id"], "audience": aud, "origin": "generated"})
+        try:
+            doc = json.loads(c["value_text"]) if (c.get("value_text") or "").startswith("{") else {}
+        except json.JSONDecodeError:
+            doc = {}
+        name = (doc.get("name") or humanize(c["field"])).strip().rstrip(".")
+        steps = doc.get("steps") or []
+        key = slugify(name, keep_stop=True)
+        if len(steps) < 2 or not name or len(name) > 70 or key in seen_proc:
+            continue
+        seen_proc.add(key)
+        verb = name[0].lower() + name[1:] if name[:1].isupper() and not name.split()[0].isupper() else name
+        out.append({"question": f"How do I {verb} at {school}?", "primary_query": f"{verb} {short}", "answer_key": f"process:{key}", "page_type": "process_guide", "entity_id": None, "topic_id": c["topic_id"],
+                    "audience": "general", "origin": "generated", "facts": len(steps)})
     return out
 
 
 def from_clusters(conn: psycopg.Connection, *, institution_id: UUID) -> list[dict]:
+    """Observed searches only (a hypothesis cluster is never demand); a cluster about an entity joins that entity's guide."""
     with conn.cursor() as cur:
-        cur.execute("""SELECT id, label, best_variant, answer_key, audience, topic_id, entity_id, queue_state, capture_format, d_score, niche_score, agi
-                       FROM intent_clusters WHERE institution_id=%s AND COALESCE(queue_state, '') NOT IN ('navigational') ORDER BY niche_score DESC NULLS LAST""", (institution_id,))
+        cur.execute("""SELECT id, label, best_variant, answer_key, audience, topic_id, entity_id, queue_state, capture_format, d_score, niche_score, agi, observed_count
+                       FROM intent_clusters WHERE institution_id=%s AND observed_count > 0 AND COALESCE(queue_state, '') NOT IN ('navigational') ORDER BY d_score DESC NULLS LAST""", (institution_id,))
         rows = [dict(r) for r in cur.fetchall()]
     out = []
     for r in rows:
         q = (r.get("best_variant") or r["label"] or "").strip()
         if not q:
             continue
-        pt = "entity_guide" if (r.get("capture_format") in ("entity_profile", "profile") or (r.get("entity_id") and not re.search(r"\?$", q))) else ("comparison" if " vs " in q.lower() else "question_guide")
-        out.append({"question": q, "answer_key": f"cluster:{r['answer_key'] or r['id']}", "page_type": pt, "entity_id": r.get("entity_id"), "topic_id": r.get("topic_id"),
+        if r.get("entity_id"):
+            key, pt = f"entity:{r['entity_id']}:guide", "entity_guide"
+        else:
+            key, pt = f"cluster:{r['answer_key'] or r['id']}", ("comparison" if " vs " in q.lower() else "question_guide")
+        out.append({"question": q, "primary_query": q, "answer_key": key, "page_type": pt, "entity_id": r.get("entity_id"), "topic_id": r.get("topic_id"),
                     "audience": (r.get("audience") or "general"), "origin": "cluster", "cluster_id": r["id"], "demand": float(r.get("d_score") or 0), "agi": r.get("agi")})
     return out
 
@@ -129,12 +150,17 @@ def from_yaml(*, institution_slug: str) -> list[dict]:
 
 
 def dedupe(items: list[dict]) -> list[dict]:
-    """One question per (answer key, audience); exact-text duplicates across origins collapse too (the first, best-ranked origin wins)."""
+    """One question per (answer key, audience); a later duplicate hands its observed cluster and demand to the kept one, so an entity
+    guide carries the real search that points at it. Exact-text duplicates across origins collapse too."""
     out, by_key, by_text = [], {}, {}
     for it in items:
         key = (it["answer_key"], it.get("audience") or "general")
         text = re.sub(r"[^a-z0-9 ]+", "", it["question"].lower()).strip()
-        if key in by_key or text in by_text:
+        kept = by_key.get(key) or by_text.get(text)
+        if kept is not None:
+            if it.get("cluster_id") and not kept.get("cluster_id"):
+                kept["cluster_id"], kept["demand"], kept["agi"] = it["cluster_id"], it.get("demand"), it.get("agi")
+                kept["primary_query"] = kept.get("primary_query") or it.get("primary_query")
             continue
         by_key[key] = it
         by_text[text] = it
@@ -150,17 +176,18 @@ def build(conn: psycopg.Connection, *, slug: str, year: str = "2026-27") -> dict
         topic_ids = {r["key"]: r["id"] for r in cur.fetchall()}
     if not inst:
         raise LookupError(slug)
-    items = generate(conn, institution_id=inst["id"], school=inst["canonical_name"], town=inst["city"] or "town", year=year) + from_clusters(conn, institution_id=inst["id"]) + from_yaml(institution_slug=slug)
+    items = from_yaml(institution_slug=slug) + generate(conn, institution_id=inst["id"], school=inst["canonical_name"], town=inst["city"] or "town", year=year) + from_clusters(conn, institution_id=inst["id"])
     items = dedupe(items)
     rows = []
     for it in items:
         topic_id = it.get("topic_id") or topic_ids.get(it.get("topic_key") or "") or topic_ids.get("housing")
         rows.append((inst["id"], topic_id, it.get("entity_id"), it.get("cluster_id"), it.get("audience") or "general", it["question"][:300], slugify(it["question"], max_words=20, keep_stop=True), it["answer_key"][:300],
-                     it["page_type"], it["origin"], json.dumps({"demand": it.get("demand"), "agi": it.get("agi")})))
-    sql = """INSERT INTO bulk_questions (institution_id, topic_id, entity_id, cluster_id, audience, question, question_norm, answer_key, page_type, origin, incumbent_detail)
-             VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s::jsonb)
+                     it["page_type"], it["origin"], json.dumps({"demand": it.get("demand"), "agi": it.get("agi"), "facts": it.get("facts")}), (it.get("primary_query") or it["question"])[:200]))
+    sql = """INSERT INTO bulk_questions (institution_id, topic_id, entity_id, cluster_id, audience, question, question_norm, answer_key, page_type, origin, incumbent_detail, primary_query)
+             VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s::jsonb, %s)
              ON CONFLICT (COALESCE(institution_id::text, ''), COALESCE(place_id::text, ''), answer_key, audience)
-             DO UPDATE SET question=EXCLUDED.question, question_norm=EXCLUDED.question_norm, page_type=EXCLUDED.page_type, topic_id=EXCLUDED.topic_id, entity_id=EXCLUDED.entity_id, cluster_id=COALESCE(EXCLUDED.cluster_id, bulk_questions.cluster_id), updated_at=now()"""
+             DO UPDATE SET question=EXCLUDED.question, question_norm=EXCLUDED.question_norm, page_type=EXCLUDED.page_type, topic_id=EXCLUDED.topic_id, entity_id=EXCLUDED.entity_id,
+                           cluster_id=COALESCE(EXCLUDED.cluster_id, bulk_questions.cluster_id), primary_query=EXCLUDED.primary_query, incumbent_detail=bulk_questions.incumbent_detail || EXCLUDED.incumbent_detail, updated_at=now()"""
     n = 0
     for i in range(0, len(rows), 500):   # batched: one round trip per 500 questions, committed per batch (a dropped connection loses at most one batch)
         with conn.cursor() as cur:

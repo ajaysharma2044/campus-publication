@@ -104,11 +104,18 @@ def _store(conn, inst, campus, topic, snap, *, field, entity_id=None, **kw):
 def _seed_claims(conn):
     inst, campus, topics, hall, sid, snap = _seed(conn)
     housing = topics["housing"]
-    quotes = {"rate.room.double": "A double room costs $6,872 per semester for 2026-27.", "amenity.elevator": "Barbara Fixture Hall has two elevators.", "deadline.housing_application": "The housing application deadline is May 15, 2026."}
+    quotes = {"rate.room.double": "A double room costs $6,872 per semester for 2026-27.", "amenity.elevator": "Barbara Fixture Hall has two elevators.", "deadline.housing_application": "The housing application deadline is May 15, 2026.",
+              "deadline.cancellation_fall": "The housing application deadline is May 15, 2026.", "deadline.cancellation_spring": "The housing application deadline is May 15, 2026.",
+              "policy.residency": "Barbara Fixture Hall has two elevators.", "policy.meal_plan": "Barbara Fixture Hall has two elevators.", "eligibility.first_year": "Barbara Fixture Hall has two elevators."}
     ids = {}
     for field, kw in (("rate.room.double", dict(value_type="money", value_number=687200, unit="minor_units", currency="USD", billing_period="per_semester", price_basis="per_person", academic_year="2026-27", room_type="double", entity_id=hall)),
                       ("amenity.elevator", dict(value_type="text", value_text="two elevators", entity_id=hall)),
-                      ("deadline.housing_application", dict(value_type="date", value_date=date(2026, 5, 15), academic_year="2026-27"))):
+                      ("deadline.housing_application", dict(value_type="date", value_date=date(2026, 5, 15), academic_year="2026-27")),
+                      ("deadline.cancellation_fall", dict(value_type="date", value_date=date(2026, 6, 15), academic_year="2026-27")),
+                      ("deadline.cancellation_spring", dict(value_type="date", value_date=date(2026, 12, 1), academic_year="2026-27")),
+                      ("policy.residency", dict(value_type="text", value_text="two years on campus", academic_year="2026-27")),
+                      ("policy.meal_plan", dict(value_type="text", value_text="meal plan required", academic_year="2026-27")),
+                      ("eligibility.first_year", dict(value_type="text", value_text="first-year students", academic_year="2026-27"))):
         rec = ClaimRecord(institution_id=inst, campus_id=campus, topic_id=housing, field=field, evidence_category="verified_fact", extraction_method="manual", retrieved_at=datetime.now(timezone.utc),
                           is_critical=cm.is_critical_field(field), **kw)
         ids[field] = cm.store_claim(conn, rec, snapshot_id=snap, excerpt=quotes[field], locator="test").claim_id
@@ -119,13 +126,15 @@ def _seed_claims(conn):
 def test_question_map_ranking_plan_and_gather(clean_conn):
     inst, campus, topics, hall, snap, ids = _seed_claims(clean_conn)
     qstats = questions.build(clean_conn, slug="fixture-state")
-    assert qstats["total"] >= 4 and qstats["generated"] >= 4
+    assert qstats["total"] >= 3 and qstats["generated"] >= 3
     with clean_conn.cursor() as cur:
-        cur.execute("SELECT question, audience, page_type FROM bulk_questions WHERE institution_id=%s ORDER BY question", (inst,))
+        cur.execute("SELECT question, audience, page_type, primary_query, answer_key FROM bulk_questions WHERE institution_id=%s ORDER BY question", (inst,))
         qs = cur.fetchall()
     texts = [q["question"] for q in qs]
-    assert any("How much does Barbara Fixture Hall cost" in t for t in texts) and any("When is the housing application deadline" in t for t in texts)
-    assert any(q["audience"] == "transfer" for q in qs) and any(q["page_type"] == "entity_guide" for q in qs)
+    assert any(t.startswith("Barbara Fixture Hall at Fixture State University") for t in texts)                       # entity guide (2 facts)
+    assert any("housing deadlines for 2026-27" in t for t in texts) and any("housing rules" in t for t in texts)          # hubs: 3 deadline claims, 3 policy/eligibility claims
+    assert all(q["primary_query"] for q in qs) and any(q["primary_query"] == "Fixture State housing deadlines" for q in qs)
+    assert any(q["page_type"] == "entity_guide" for q in qs) and not any("for parents" in t for t in texts)              # audience variants need 5+ facts
     r = rank.rank_all(clean_conn, institution_id=inst, official_domains=("example.edu",), today=date(2026, 11, 6))
     assert r["ranked"] == len(qs) and r["by_class"].get("unscanned") == len(qs)
     out = plan.plan_pages(clean_conn, institution_id=inst, limit=3, run_id="t1")

@@ -31,6 +31,8 @@ def path_for(q: dict, *, school_slug: str, place_slug: str | None) -> str:
         scope = f"/schools/{school_slug}"
     if q["page_type"] == "entity_guide" and q.get("entity_slug"):
         slug = q["entity_slug"]
+    elif q.get("answer_key", "").startswith("hub:"):
+        slug = slugify(q.get("stored_pq") or q["question"], keep_stop=False)   # /schools/cornell-university/housing/cornell-housing-deadlines/
     else:
         slug = slugify(q["question"])
         if (q.get("audience") or "general") not in ("general", None) and q["page_type"] != "entity_guide":
@@ -58,7 +60,7 @@ def plan_pages(conn: psycopg.Connection, *, institution_id: UUID, limit: int, ru
         school_slug, school_name = inst_row["slug"], inst_row["canonical_name"]
         cur.execute("SELECT slug FROM places WHERE kind IN ('city','town') ORDER BY name LIMIT 1")
         place_slug = (cur.fetchone() or {}).get("slug")
-        cur.execute("""SELECT q.id, q.question, q.audience, q.page_type, q.answer_key, q.entity_id, q.topic_id, q.cluster_id, q.win_note, q.incumbent_class, q.tier, q.order_rank,
+        cur.execute("""SELECT q.id, q.question, q.audience, q.page_type, q.answer_key, q.entity_id, q.topic_id, q.cluster_id, q.win_note, q.incumbent_class, q.tier, q.order_rank, q.primary_query AS stored_pq,
                               t.key AS topic_key, e.slug AS entity_slug, e.name AS entity_name
                        FROM bulk_questions q LEFT JOIN topics t ON t.id=q.topic_id LEFT JOIN entities e ON e.id=q.entity_id
                        WHERE q.institution_id=%s AND q.status='queued' ORDER BY q.order_rank NULLS LAST, q.created_at""", (institution_id,))
@@ -77,7 +79,7 @@ def plan_pages(conn: psycopg.Connection, *, institution_id: UUID, limit: int, ru
             with conn.cursor() as cur:
                 cur.execute("UPDATE bulk_questions SET status='skipped', updated_at=now() WHERE id=%s", (q["id"],))
             continue
-        plan = {"question": q["question"], "primary_query": primary_query_for(q, school_name=school_name), "audience": q["audience"], "page_type": q["page_type"], "sections": TEMPLATES[q["page_type"]], "topic_key": q["topic_key"], "entity_id": str(q["entity_id"]) if q["entity_id"] else None,
+        plan = {"question": q["question"], "primary_query": q.get("stored_pq") or primary_query_for(q, school_name=school_name), "audience": q["audience"], "page_type": q["page_type"], "sections": TEMPLATES[q["page_type"]], "topic_key": q["topic_key"], "entity_id": str(q["entity_id"]) if q["entity_id"] else None,
                 "entity_name": q.get("entity_name"), "answer_key": q["answer_key"], "win_note": q.get("win_note"), "incumbent_class": q.get("incumbent_class"), "hubs": list(_hubs_for(path)), "order_rank": q.get("order_rank")}
         with conn.cursor() as cur:
             cur.execute("""INSERT INTO bulk_pages (question_id, path, page_type, stage, plan, run_id) VALUES (%s, %s, %s, 'planned', %s::jsonb, %s)

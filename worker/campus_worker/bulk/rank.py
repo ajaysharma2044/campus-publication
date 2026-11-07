@@ -144,12 +144,13 @@ def rank_all(conn: psycopg.Connection, *, institution_id: UUID, official_domains
         aud_rank = 0 if (q.get("audience") or "general") in UNDERSERVED_AUDIENCES else 1
         demand = float(q.get("d_score") or 0)
         pr = practical_rank(q) if practical_first else 0
-        ranked.append((pr, TIER[cls], aud_rank, -demand, q["question"], q["id"], cls, detail, note))
+        observed = 0 if q.get("cluster_id") else 1   # a question a real search points at comes before a generated one of the same kind
+        ranked.append((pr, observed, TIER[cls], aud_rank, -demand, q["question"], q["id"], cls, detail, note))
         classes[cls] += 1
-    ranked.sort(key=lambda t: t[:5])
-    updates = [(cls, json.dumps(detail, default=str), note, tier, i, qid) for i, (_pr, tier, _aud, _dem, _q, qid, cls, detail, note) in enumerate(ranked, start=1)]
+    ranked.sort(key=lambda t: t[:6])
+    updates = [(cls, json.dumps(detail, default=str), note, tier, i, qid) for i, (_pr, _obs, tier, _aud, _dem, _q, qid, cls, detail, note) in enumerate(ranked, start=1)]
     for i in range(0, len(updates), 500):
         with conn.cursor() as cur:
             cur.executemany("UPDATE bulk_questions SET incumbent_class=%s, incumbent_detail=incumbent_detail || %s::jsonb, win_note=%s, tier=%s, order_rank=%s, updated_at=now() WHERE id=%s", updates[i:i + 500])
         conn.commit()
-    return {"ranked": len(ranked), "by_class": dict(classes), "underserved_first": sum(1 for t in ranked if t[1] == 1), "practical_first": practical_first, "practical_0_2": sum(1 for t in ranked if t[0] <= 2)}
+    return {"ranked": len(ranked), "by_class": dict(classes), "underserved_first": sum(1 for t in ranked if t[2] == 1), "practical_first": practical_first, "practical_0_2": sum(1 for t in ranked if t[0] <= 2), "observed": sum(1 for t in ranked if t[1] == 0)}
