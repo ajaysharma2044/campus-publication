@@ -25,13 +25,13 @@ def _stems(text: str) -> set[str]:
             if len(w) > 4 and w.endswith(suf):
                 w = w[: -len(suf)] + ("y" if suf == "ies" else "")
                 break
-        if len(w) > 4 and w.endswith("e"):
+        while len(w) > 4 and w.endswith("e"):
             w = w[:-1]          # guarantee / guaranteed, deadline / deadlines, house / housing all meet
         out.add(w)
     return out
 
 
-def covered_by(existing: list[dict], primary_query: str, question: str) -> str | None:
+def covered_by(existing: list[dict], primary_query: str, question: str, *, is_hub: bool = False) -> str | None:
     """The path of a live or planned page that asks the same question: stemmed content words of the two primary queries overlap at least
     85% (paraphrases: "Is housing guaranteed for transfers at Cornell?" / "Does Cornell guarantee housing for transfer students?"), or a
     specific question (4+ content words) whose words all sit in an existing title. A broad hub ("Cornell housing deadlines") is never
@@ -46,7 +46,7 @@ def covered_by(existing: list[dict], primary_query: str, question: str) -> str |
             if j >= 0.85:
                 return e["path"]
         title = _stems(e.get("headline") or "")
-        if len(mine) >= 4 and mine <= title:
+        if not is_hub and len(mine) >= 4 and mine <= title:   # a broad hub (all housing deadlines) is never covered by one narrower page's title
             return e["path"]
     return None
 
@@ -119,7 +119,7 @@ def plan_pages(conn: psycopg.Connection, *, institution_id: UUID, limit: int, ru
             break
         path = path_for(q, school_slug=school_slug, place_slug=place_slug)
         pq = q.get("stored_pq") or primary_query_for(q, school_name=school_name)
-        dup = covered_by(live, pq, q["question"])
+        dup = covered_by(live, pq, q["question"], is_hub=(q.get("answer_key") or "").startswith("hub:"))
         if (path in existing and not include_existing) or path in planned_paths or dup:
             skipped.append({"question": q["question"], "path": path, "reason": f"answered by {dup}" if dup else ("page exists" if path in existing else "already planned")})
             with conn.cursor() as cur:
