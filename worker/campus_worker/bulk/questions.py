@@ -123,7 +123,9 @@ def from_clusters(conn: psycopg.Connection, *, institution_id: UUID) -> list[dic
     out = []
     for r in rows:
         q = (r.get("best_variant") or r["label"] or "").strip()
-        if not q:
+        if "site:" in q.lower():
+            q = (r["label"] or "").strip()          # a mirror-observation variant ("... site:reddit.com/r/Cornell") is not a question a student types
+        if not q or "site:" in q.lower() or len(q) < 8:
             continue
         if r.get("entity_id"):
             key, pt = f"entity:{r['entity_id']}:guide", "entity_guide"
