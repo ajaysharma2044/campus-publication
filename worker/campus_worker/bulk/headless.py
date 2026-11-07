@@ -296,6 +296,8 @@ def extract_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: int
         if r.usage_limit:
             pause.trigger(r.text + " " + r.err)
             return False, chunk
+        if r.code == 124:   # a 10-page session normally takes under a minute; a 15-minute stall means the plan is being throttled: pause, probe, resume
+            pause.trigger("session timed out after 15 minutes (plan throttling); pausing before new sessions")
         results, missing = [], []
         for sid in chunk:
             f = out_dir / f"{sid}.json"
@@ -444,8 +446,12 @@ def articles_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: in
                 if r.usage_limit:
                     pause.trigger(r.text + " " + r.err)
                     return False, chunk
+                if r.code == 124:
+                    pause.trigger("session timed out after 15 minutes (plan throttling); pausing before new sessions")
                 for pid in chunk:
                     f = art_dir / f"{pid}.draft.json"
+                    if not f.exists() and r.code == 124:
+                        continue   # stays 'gathered'; the next pass writes it after the pause
                     draft, err = writemod.parse_draft(f.read_text()) if f.exists() else (None, "no draft file written")
                     if draft is None:
                         _set(wconn, UUID(pid), stage="failed", skip_reason=f"write: {err}")
@@ -491,6 +497,8 @@ def articles_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: in
                 if r.usage_limit:
                     pause.trigger(r.text + " " + r.err)
                     return False, chunk
+                if r.code == 124:
+                    pause.trigger("session timed out after 15 minutes (plan throttling); pausing before new sessions")
                 for pid in chunk:
                     p = cby[pid]
                     f = art_dir / f"{pid}.verdict.json"
