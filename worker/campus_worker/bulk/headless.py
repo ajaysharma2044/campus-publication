@@ -428,6 +428,7 @@ def articles_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: in
                     break
                 report["batches"] += 1
                 log(f"articles batch {report['batches']}: {len(out['planned'])} pages planned ({len(out['skipped'])} skipped)")
+            conn.commit()
             for p in _pages(conn, run_id=run_id, stages=("planned",)):
                 g = planmod.gather(conn, p, institution_id=inst)
                 if g["fact_count"] == 0:
@@ -462,11 +463,14 @@ def articles_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: in
                 log(f"  write chunk: {len(chunk)} pages, {r.duration_s}s, turns {r.turns}; " + progress.line("articles"))
                 return True, None
 
+            conn.commit()   # end the read transaction before the long wait: the hosted DB closes idle-in-transaction sessions
             if chunks:
                 st = run_chunks(chunks, workers=workers, handle=write_handle, pause=pause, log=log, label="write", dsn=dsn)
                 if st.get("stopped"):
                     report["stopped"] = True
                     break
+                conn.close()
+                conn = connect(dsn)
             # ---- check (code)
             with conn.cursor() as cur:
                 cur.execute("SELECT v.body_markdown FROM pages p JOIN page_versions v ON v.id=p.current_version_id WHERE p.institution_id=%s AND v.gate_status='passed'", (inst,))
@@ -510,11 +514,14 @@ def articles_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: in
                 log(f"  verify chunk: {len(chunk)} pages, {r.duration_s}s; " + progress.line("articles"))
                 return True, None
 
+            conn.commit()
             if vchunks:
                 st = run_chunks(vchunks, workers=workers, handle=verify_handle, pause=pause, log=log, label="verify", dsn=dsn)
                 if st.get("stopped"):
                     report["stopped"] = True
                     break
+                conn.close()
+                conn = connect(dsn)
             # ---- publish
             for p in _pages(conn, run_id=run_id, stages=("verified",)):
                 try:
