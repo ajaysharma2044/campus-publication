@@ -105,3 +105,8 @@ Planned siblings not started yet (path | title): the publish step removes a link
 7. Reply with four lines, nothing else: one line per reader you played ("Reader <key>: <the open questions and confusions it found, and what you changed>", one sentence each; these notes stay in this session's log for the learn step Ajay runs), then DONE {{organization_name}}-first draft, <words> words, <sources> sources, <reader blocks> reader blocks, <tables> tables, <images> images, <brief edits> brief edits.
 
 Read pages the way a person would: no logins, no bulk scraping, respect robots and site terms. Write only the draft (and the brief, for a filled hole); nothing else anywhere.
+
+PHOTOS: the image finder accepts a photo only when its title or description names Cornell or Ithaca AND matches the page's subject, so set the
+frontmatter field `subject:` to the most photographable concrete thing on the page, in two to five words a Wikimedia Commons title would use
+(for example "TCAT bus Ithaca", "Ithaca Tompkins International Airport", "Collegetown apartments", "Cornell Campus-to-Campus bus", "Schoellkopf Field").
+A page with no lead photo does not publish, so choose a subject that exists in photos; a street, building, bus, airport or neighborhood beats an idea.

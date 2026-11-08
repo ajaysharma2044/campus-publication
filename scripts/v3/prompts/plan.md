@@ -47,3 +47,5 @@ RULES
 - Every promise in the plan is backed by the brief: name the sections. Never invent numbers, sources or demand.
 - Titles say what the page answers; no clever titles.
 - Write the file with Write when it is complete (if it exists, Read it first and keep the rows that are already queued, with their slugs). Then reply with one line: PLANNED <rows> rows: 1 pillar, <s> spokes, <r> reader guides, <t> tools, <d> datasets, <h> start-here, <w> rewrites.
+
+For every row, end the notes column with `image: <two to five words naming a photographable thing for the page, as a Wikimedia Commons title would>` (a bus, airport, building, street or neighborhood); the image step searches that first.
