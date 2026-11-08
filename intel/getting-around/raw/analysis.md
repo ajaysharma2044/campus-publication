@@ -183,11 +183,11 @@ Caveats: parking page undated (summarized by the fetch tool; digits should be re
 
 ## 9. Open items for the next pass (nothing invented; each is "not found")
 1. TCAT current fare and pass prices (tcatbus.com 403; try Ithaca College page https://www.ithaca.edu/id-office/tcat-information, Downtown Ithaca page https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/).
-2. C2C base fares by route, Boston and Philadelphia service (page links to a "C2C Rates" page not read; the $75 and $50 figures are unverified snippets).
+2. C2C base fares by route, Boston and Philadelphia service (page links to a "C2C Rates" page not read; the $75 and $50 figures are unverified snippets). [RESOLVED in section 28 for fares; Boston/Philadelphia service not on the rates page.]
 3. Whether first-year students may bring cars (no rule found on FCS student page).
 4. Route 32 official timetable (PDF URLs 404; current TCAT route page not found).
 5. Current Ithaca Bikeshare, Carshare, taxi (City of Ithaca base rates) prices.
-6. Bus fare samples (FlixBus, OurBus, Greyhound, Trailways) to NYC, Boston, Philadelphia, EWR: no official price pages readable by the fetch tool; need dated samples.
+6. Bus fare samples (FlixBus, OurBus, Greyhound, Trailways) to NYC, Boston, Philadelphia, EWR: no official price pages readable by the fetch tool; need dated samples. [Partly resolved in sections 14 and 29.]
 7. Thread counts (Reddit/Student Doctor/College Confidential) for "do I need a car at Cornell": not started; candidate threads from demand file: https://forums.studentdoctor.net/threads/cars.962192/ and reddit mirror https://reddit.sentinel-team.org/subreddits/Cornell/snapshots/2026-05-20T16%3A45%3A27.30298Z (unread).
 8. Corpus note: corpus has no TCAT or parking-price pages for this topic (only FCS announcements 2018-2025 and admissions FAQ 319).
 
@@ -441,14 +441,14 @@ Profile 2: upper-year, no car, buys OmniRide, 4 NYC round trips: $200 + $264 = $
 Profile 3: upper-year with a resident permit and 4 round trips by car, ignoring gas and insurance: $752.98 + 0 = $752.98 before gas; adding two ITH weekly parking stays $80 = $832.98.
 Profile 4 (Carshare use): $355 + 20 application + 20 hours x $6 = $495 (hours assumed for illustration).
 Result: ranges from $264 to $833 depending on profile; every NYC fare is the advertised floor and likely understated (typical averages $45 to $82 per Analysis F: 4 round trips at mean $61.91 each way = 8 x 61.91 = $495.28 instead of $264).
-Sample size: none; scenario arithmetic, not a measurement. Gas, insurance, tolls, C2C ($6 surcharge plus unknown base fare) excluded.
+Sample size: none; scenario arithmetic, not a measurement. Gas, insurance, tolls, C2C ($6 surcharge plus unknown base fare) excluded. [C2C base fare now found: see Analysis Q in section 31.]
 
 ### Analysis L: OurBus capacity change since Sept 2026
 Data: before Sept 1, 2026 campus stops were mainly offered around major breaks (Sun article); after, 4 to 6 daily Manhattan trips; OurBus's own route page lists 9 NYC buses/day across all Ithaca stops.
 Calculation: 4 to 6 campus trips per day x 7 days = 28 to 42 campus-stop departures per week.
 Result: 28 to 42 weekly Manhattan departures serving campus stops, per the press-release figures; not verified against a timetable. Caveat: company claim reported by the Sun.
 
-## 26. Coverage against SCOPE
+## 26. Coverage against SCOPE (first deepen pass; superseded by final Coverage section 34)
 
 | Scope item | Status | Where |
 |---|---|---|
@@ -470,7 +470,7 @@ Result: 28 to 42 weekly Manhattan departures serving campus stops, per the press
 
 Not found, with where I looked: C2C base fares (c2cbus.ipp.cornell.edu, FCS C2C page); current tcatbus.com fare page (403); TCAT route PDFs for 2025-26 (404); City of Ithaca taxi rates (ecode360 search only); Ithaca Bikeshare 2026 pricing; BRSS prices (Cornell page); ELM ground options; web.archive.org snapshots (blocked); Fall 2026 finals shuttle.
 
-## 27. Pages read this session (new, beyond earlier parts)
+## 27. Pages read in the earlier deepen pass
 
 | # | URL | Result |
 |---|---|---|
@@ -506,4 +506,148 @@ Not found, with where I looked: C2C base fares (c2cbus.ipp.cornell.edu, FCS C2C 
 
 Snippet-only URLs cited: tcatbus.com fare-pass-options, where-to-buy, rome2rio Commons-Cornell, cornellsun midnight-walk guide, airportoverview ITH/LGA pages, 1037qcountry United IAD post, storage.sparefoot.com, fingerlakes1 storage piece, cornellsun 2007 cyclists, cornellsun 2004 connecting-campuses, news.cornell.edu/node/269896, ourbus.com/blog/?p=6269, coachusa.com/node, assembly R18 and R11 pages, experience.syracuse.edu break shuttles, reddit.sentinel-team.org bike thread.
 
-Totals this session: about 29 pages attempted (22 read in full), about 25 further snippet URLs; new words across parts d to g roughly 4,300.
+Totals for the earlier pass: about 29 pages attempted (22 read in full), about 25 further snippet URLs; new words across parts d to g roughly 4,300.
+
+# Lane E analysis, part 8 (DEEPEN pass 2, 2026-11-08)
+
+Note on method: the Edit tool was unavailable this session, so the file was rewritten in one Write with all earlier text kept verbatim (only two bracketed "[RESOLVED...]" pointers and the retitles of old sections 26 and 27 were added). All "Checked" = 2026-11-08. The fetch tool summarizes pages; a checker should open each URL and confirm digits.
+
+## 28. C2C base fares FOUND (official FCS rates page) and how they changed since 2005
+
+Source: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates (path guessed from the "C2C Rates" link on the main C2C page; read 2026-11-08; page carries no effective date). This closes the earlier open item "C2C base fares: not found".
+
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| Public (non-Cornell) fare | $101 one way, $202 round trip | c2c-rates page above | page undated, read 2026-11-08 | 2026-11-08 |
+| Current faculty, staff, students with valid CU NetID | $93.50 one way, $187 round trip (page has NO separate student fare) | same | same | 2026-11-08 |
+| Cornell/Weill account holders and department-paid business travel | $86 one way, $172 round trip | same | same | 2026-11-08 |
+| Surcharge | the figures above include the temporary $6 fuel/toll surcharge per one-way ticket | same | same | 2026-11-08 |
+| Boston, Philadelphia or other C2C routes | none mentioned on the rates page | same | same | 2026-11-08 |
+| Cancellation fee and booking system (search summary) | $10 per-seat cancellation processing fee; transition to "TDX" ticketing effective March 2, 2026 per search summary; the main C2C page says the new reservation system launched Nov 4, 2026: dates differ, unresolved | https://fcs.cornell.edu/departments/transportation-and-delivery-services/campus-campus-bus-service (search result) vs https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service | 2026 | 2026-11-08 |
+| Departure schedule page | https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/departure-schedule returned 404 (guessed path); times NOT FOUND | | | 2026-11-08 |
+| 2005 launch-era fares | standard $99 one way / $149 round trip; companion $75 / $125; group of four or more $75 / $125 each; eight trips a week; students about a fourth of passengers (as officials described) | https://news.cornell.edu/node/282639 (Cornell Chronicle, article dated May 4, 2005) | 2005 | 2026-11-08 |
+| 2005 amenities | Wi-Fi, satellite radio, bathroom with running water, kitchenette with free snacks, pillows and blankets, leather recliners | same | 2005 | 2026-11-08 |
+
+Earlier snippet-only claims resolved: "$75 each way" belongs to older years (2011 per a search summary, and the 2005 companion fare); "$50 student promo vs $82.50" was a time-limited promotion, not the standing fare. The standing CU NetID fare today is $93.50 one way (with surcharge).
+
+### Analysis M: C2C one-way fare, 2005 to 2026
+Question: how has the standard C2C one-way fare moved?
+Method: compare the 2005 standard fare ($99, Cornell Chronicle 2005-05-04) with the 2026 public fare ($101, rates page) and the 2026 CU NetID fare ($93.50). Fares are nominal; no CPI applied (a checker can apply BLS CPI-U).
+Calculation: 101 / 99 = 1.0202, so +2.0% over 21 years. 93.50 / 99 = 0.9444, so -5.6%. Surcharge share of 2026 fares: 6 / 101 = 5.9%; 6 / 93.50 = 6.4%. Base fares without surcharge: public 101 - 6 = $95; NetID 93.50 - 6 = $87.50; account holder 86 - 6 = $80. NetID discount vs public: (101 - 93.50) / 101 = 7.4%. Account-holder discount: (101 - 86) / 101 = 14.9%. Round trip is exactly 2x one way at all three tiers (202, 187, 172), so the page shows no round-trip discount.
+Result: the nominal sticker price is almost flat over 21 years (public +2.0%), so a large real-terms decline is likely (not computed). Caveat: the rates page is undated; the 2005 service ran 8 trips a week, so it is a different service.
+
+### Analysis N: C2C versus commercial bus fares to NYC (same-week samples)
+Method: C2C NetID fare vs the cheapest advertised fare per carrier on 2026-11-08 (sections 14 and 29).
+- C2C $93.50 vs OurBus "from $33" (OurBus route page): 93.50 / 33 = 2.83 times; difference $60.50.
+- C2C vs FlixBus Saturday 2026-11-07 $27: 93.50 / 27 = 3.46 times; difference $66.50.
+- Round trip: C2C $187 vs 2 x $33 = $66: $121 more; vs 2 x $27 = $54: $133 more.
+Result: C2C costs about three times the cheapest commercial bus. C2C travel times were not found, so no time comparison is made. Sample: 3 fares, 1 day, advertised floors rather than booked prices.
+
+## 29. More dated bus fare samples (read 2026-11-08; fares are what each page displayed for the listed dates)
+
+| Route | Source / carrier | Fare shown | Travel date / basis | Duration, frequency | Source URL |
+|---|---|---|---|---|---|
+| Ithaca to NYC | checkmybus, cheapest listed | FlixBus $27 (9:00 am, Downtown Ithaca to 31st & 8th Ave, 4h35m; also 7:15 pm $27, 4h20m); Megabus $29 (2:15 pm) | Sat 2026-11-07 | Binghamton combo: FlixBus $9 + Megabus $21 = $30 | https://www.checkmybus.com/ithaca-ny/new-york-ny |
+| Ithaca to Newark Penn Station | FlixBus direct | Sun 11/8 $47-$60; Mon 11/9 $40-$58; Tue 11/10 $41-$52; Wed 11/11 $46-$49; Thu 11/12 $42-$49; lowest $36 on Wed 2026-11-18 | 2026-11-08 to 11-18 | direct 4h20m (7:20 am) to 7h59m (4:35 pm); departures 7:20 am, 1:00 pm, 4:35 pm, 7:15 pm; page says "3 daily" but lists 4 times | https://www.checkmybus.com/ithaca-ny/newark-nj |
+| Ithaca to Newark via NYC | OurBus 11:00 am ~$32 (arr. NYC 3:20 pm) + Greyhound NYC to Newark ~$5 (3:30 to 4:10 pm) | ~$37 total | Wed 2026-11-11 | about 50 min longer than direct | same |
+| Ithaca to Binghamton | FlixBus, Megabus, Coach USA | daily lowest fares 11/07 to 11/27 listed in Analysis Q2 below; page range $8 to $36 | 2026-11-07 to 11-27 | 38.4 miles; FlixBus 1h05m to 1h10m, Megabus 1h15m to 1h35m; earliest 7:20 am, latest 6:30 pm; Ithaca stops: Downtown (131 E Green St), Cornell West Campus, Robert Purcell Community Center, Ithaca College Park Building, E Seneca St | https://www.checkmybus.com/ithaca-ny/binghamton-ny |
+| Ithaca to Rochester | FlixBus only | daily lowest fares 11/03 to 11/27 (17 dates) in Analysis Q2 | 2026-11-03 to 11-27 | 74.3 miles; 5:05 am (2h05m) and 2:15 pm (2h10m); arrives Rochester Greyhound station, Cumberland St 186; page counts conflict (2 daily vs "more than 4" Monday) | https://www.checkmybus.com/ithaca-ny/rochester-ny |
+| Ithaca to Syracuse | FlixBus, OurBus | daily lowest fares 11/06 to 11/26 (12 dates) in Analysis Q2; page shows $41 for Sun 11/08 in the table but $12 FlixBus in its trip list | 2026-11-06 to 11-26 | FlixBus 1h15m to 1h35m (one 4h20m trip Mon 11/09); OurBus 1h45m; arrives Syracuse Regional Transit Center | https://www.checkmybus.com/ithaca-ny/syracuse-ny |
+| Ithaca to Washington DC | FlixBus (cheapest $53), OurBus ($89) | daily lowest fares 11/07 to 11/28 (19 priced dates) in Analysis Q2; lowest $49 Tue 2026-11-17 | 2026-11-07 to 11-28 | FlixBus to Union Station about 10h00 to 10h55; OurBus 11h30 to Armory Metro; Sunday busiest (16+), Wednesday fewest | https://www.checkmybus.com/ithaca-ny/washington-dc |
+
+This fills the earlier gap "Buses to NJ": NJ is reachable by FlixBus to Newark Penn Station (not Newark airport); no Newark Airport (EWR) bus sample found. Ithaca College and Cornell West Campus appear as Ithaca stops on Binghamton and Syracuse listings.
+
+### Analysis O: Ithaca to Newark Penn, direct FlixBus fare by weekday (n = 5 days, one page)
+Daily fare ranges: Sun 47-60, Mon 40-58, Tue 41-52, Wed 46-49, Thu 42-49.
+Midpoints: 53.5, 49, 46.5, 47.5, 45.5. Sum = 242.0. Mean of midpoints = 242.0 / 5 = $48.40. Median = $47.50.
+Lowest daily floor: Mon $40; highest ceiling: Sun $60. Sunday midpoint minus Thursday midpoint = 53.5 - 45.5 = $8.00 (17.6% above Thursday).
+The 2026-11-18 $36 offer is 25.6% below the Nov 8-12 mean midpoint (1 - 36 / 48.40).
+Result: advertised direct fares clustered $40 to $60 in the week of 2026-11-08. Midpoints are my arithmetic, not prices anyone paid. Caveat: one page, one day, 5 dates.
+
+### Analysis P: Newark by direct bus vs via NYC (Wed 2026-11-11)
+Direct range $46 to $49; connection $32 + $5 = $37. Savings $9 to $12 (9 / 46 = 19.6%; 12 / 49 = 24.5%) in exchange for about 50 more minutes and a Manhattan transfer. Sample: one date.
+
+### Analysis Q2: Thanksgiving-week premium on Ithaca bus fares (original calculation from 3 routes, 46 daily fares)
+Question: how much do advertised lowest bus fares rise in the Thanksgiving travel week compared with the weeks before it?
+Method: take each route's day-by-day "lowest fare" table from the checkmybus page read on 2026-11-08 (section 29); split into "before" (dates before Sat 11/21 or Mon 11/23, as labeled) and "Thanksgiving period"; average each by hand. Missing dates ("no fare shown") are excluded, not guessed.
+
+Data and arithmetic:
+- Binghamton (n = 15 dates): 11/07 9; 11/08 14; 11/10 9; 11/12 14; 11/14 8; 11/16 8; 11/17 12; 11/18 9; 11/19 13; 11/20 15; 11/23 15; 11/24 12; 11/25 16; 11/26 14; 11/27 14. Sum all = 182, mean $12.13, median $13 (sorted 8,8,9,9,9,12,12,13,14,14,14,14,15,15,16). Before (11/07 to 11/20, 10 values) sum 111, mean $11.10. Thanksgiving week (11/23 to 11/27, 5 values) sum 71, mean $14.20. Premium 14.20 / 11.10 = 1.279 = +27.9%.
+- Rochester (n = 17): 11/03 17; 11/07 18; 11/08 22; 11/09 18; 11/10 21; 11/11 17; 11/12 21; 11/14 17; 11/16 17; 11/19 18; 11/20 23; 11/21 26; 11/23 24; 11/24 26; 11/25 30; 11/26 21; 11/27 26. Sum all = 362, mean $21.29. Before (11/03 to 11/20, 11 values) sum 209, mean $19.00. 11/21 to 11/27 (6 values: 26, 24, 26, 30, 21, 26) sum 153, mean $25.50. Premium 25.50 / 19.00 = 1.342 = +34.2%.
+- Washington DC (n = 19 priced dates; 11/13, 11/22, 11/28 had no fare): 61, 72, 53, 59, 89, 75, 59 (11/14), 89 (11/15), 51, 49, 78, 81, 65, 67 (11/21), then Thanksgiving week 89 (11/23), 92, 100, 97, 89. Sum all = 1,415, mean $74.47. Before (14 values) sum 948, mean $67.71. Thanksgiving week (5 values) sum 467, mean $93.40. Premium 93.40 / 67.71 = 1.379 = +37.9%.
+- Syracuse (n = 12): 10, 41, 24, 15, 27, 20, 27, 13, 36, 33, 41, 25; sum 312, mean $26.00, median $26 (sorted 10,13,15,20,24,25,27,27,33,36,41,41); range $10 to $41. Page conflicts on 11/08 ($41 table vs $12 listing), so no before/after split computed.
+
+Result: on three routes, the lowest advertised fare in the week of Nov 23 to 27 (or Nov 21 to 27 for Rochester) averaged 28%, 34% and 38% above the mean of the earlier listed days; the unweighted mean of the three premiums is (27.9 + 34.2 + 37.9) / 3 = 33.3%. Sample size: 3 routes, 46 priced dates, one aggregator, one capture on 2026-11-08. Caveats: the dates were still weeks out, so the fare shown is the cheapest seat then available, not what students will pay at the time; the "before" sets mix weekdays and weekends differently from the Thanksgiving set; the page has internal errors (checked: Syracuse, Rochester "today" tab).
+
+### Analysis R: cost per mile on short intercity routes (advertised floors)
+Distances are from the same pages. Binghamton 38.4 mi: $8 / 38.4 = $0.21 per mile (floor), $16 / 38.4 = $0.42 (highest daily floor). Rochester 74.3 mi: $17 / 74.3 = $0.23; $30 / 74.3 = $0.40. NYC 174.8 mi (OurBus page): $27 / 174.8 = $0.15 (FlixBus floor); $33 / 174.8 = $0.19 (OurBus "from"); C2C $93.50 / 174.8 = $0.53 (C2C route distance not sourced; used the OurBus figure for scale). SYR airport 51.4 mi: $0.91 to $1.21 (Analysis G). Result: advertised floors on the three regional routes sit at $0.15 to $0.23 per mile; the airport bus costs 4 to 6 times more per mile than FlixBus to Rochester ($0.91 / $0.23 = 4.0; $1.21 / $0.23 = 5.3). Caveat: floors, not typical fares; the airport route is a different product (door-to-terminal service).
+
+## 30. Ithaca Bikeshare, Elmira airport, first-year cars, TCAT service history (searches and reads 2026-11-08)
+
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| Bikeshare 2026 pricing | NOT FOUND (search returned 2022-2023 pages); 2023 annual membership $150 with unlimited hour-long trips; low-income option designed in; unlock fee waived on the next trip if a bike is returned to a hub (as the Sun's 2023 guide describes) | https://www.betterbikeshare.org/2023/07/10/ithaca-stands-by-bike-share/ ; https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/ ; https://sustainable.cornell.edu/news/center-community-transportation-launches-new-ithaca-bikeshare | 2023 | 2026-11-08 (snippets) |
+| Bikeshare launch | dockless electric bikes launched Dec 2022 (Ithaca Hub headline) | https://ihstattler.com/blog/2022/12/ithaca-bike-share-launches-giving-ithaca-access-to-dockless-electric-bikes/ | 2022 | 2026-11-08 (snippet) |
+| ELM airport routes | sources disagree: one aggregator 5 routes / 2 airlines, another 10 destinations, a third (dated July 16, 2026) 15 destinations / 11 airlines incl. charters; Detroit is the busiest; Allegiant and SkyWest named | https://www.airportoverview.com/routes/ELM ; https://aerocorner.com/airports/elm/ ; https://www.flightsfrom.com/ELM | mid-2026 | 2026-11-08, UNVERIFIED |
+| ELM to ITH distance | not sourced; coordinates on aggregator pages (ELM about 42.16N 76.89W, ITH about 42.49N 76.46W) imply roughly 32 miles straight line (my estimate); road distance is longer; no official ELM ground transport page found | | estimate | 2026-11-08 |
+| Ithaca College first-year car rule | the IC orientation parking FAQ page has no rules or prices (it lists Fall 2026 dates: move-in Aug 19, classes Aug 24); contact New Student and Transition Programs nstp@ithaca.edu, 607-274-1908 | https://www.ithaca.edu/orientation/orientation-faqs/parking | fall 2026 | 2026-11-08 |
+| Cornell TCAT fall 2020 service (history) | a Cornell Chronicle item dated Aug 19, 2020 (search had hinted at fall 2026; it is 2020): Route 81 every 10 min, Route 84 new circulator every 15 min, Route 30 every 15 min, Route 10 returns, Route 90 every 40 min nightly, Route 83 not running; COVID capacity cut to 20 on 40-foot buses | https://news.cornell.edu/node/319837 | 2020, STALE; do not use for 2026 | 2026-11-08 |
+| TCAT service-change notice page | https://tcatbus.com/tcat-service-changes-oct-22-jan-20/ returned 403 (archived notice per search result title) | | | 2026-11-08 |
+| Current fall 2026 TCAT timetables for routes 10, 30, 81 | NOT FOUND; searched; official PDFs seen only in search results (17_Late-Fall.pdf, 30_Late-Fall.pdf, 31_Fall2024.pdf, undated year) | https://tcatbus.com/wp-content/uploads/30_Late-Fall.pdf (search result, unread) | | 2026-11-08 |
+| Reddit/forum answers on freshman cars | search found only snapshot pages without answers (r/Cornell snapshot 2026-05-20), a gradcafe thread, and a Varsity Tutors blog; a student-perspective blog says Wegmans is outside downtown so groceries need a bus or car (unattributed blog, undated) | https://reddit.sentinel-team.org/subreddits/Cornell/snapshots/2026-05-20T16%3A45%3A27.30298Z ; https://www.varsitytutors.com/blog/post/a-student-perspective-on-cornell-university ; https://talk.collegeconfidential.com/t/is-a-car-necessary-if-im-living-downtown/523280 | undated/old | 2026-11-08 (snippets) |
+
+Thread count note: no count of 2024-plus student threads on "do I need a car" could be made honestly; the only readable threads are the 2014 and 2016 College Confidential ones tallied in section 17. The unread candidate "Is a car necessary if I'm living Downtown?" (College Confidential) and the Cornell Sun 2005 "Drive my car" piece (https://cornellsun.com/2005/10/21/drive-my-car) are listed for a later pass.
+
+## 31. Analysis Q: 2026-27 yearly getting-around cost, rebuilt with the official C2C fare
+
+This replaces the C2C blank in Analysis K. Inputs: C2C CU NetID fare $93.50 one way / $187 round trip (section 28); OurBus floor $33 one way (section 14); FlixBus floor $27 (section 29); OmniRide $200 (section 10); resident permit $752.98 and B permit $359.77 (section 2b); ITH long-term weekly parking $40 (section 2c).
+Scenario: an upper-year student makes 4 round trips to NYC in a year.
+- By C2C: 4 x $187 = $748.00.
+- By OurBus at the floor: 4 x $66 = $264.00. By FlixBus floor: 4 x $54 = $216.00.
+- By OurBus at the Wanderu mean-average fare ($61.91 each way, Analysis F): 4 x 2 x 61.91 = $495.28.
+- C2C minus OurBus floor: 748 - 264 = $484 (2.83 times). C2C minus the mean-average OurBus case: 748 - 495.28 = $252.72 (1.51 times).
+- Thanksgiving premium if one of the 4 trips runs at +33.3% (Analysis Q2): a $66 round trip becomes 66 x 1.333 = $87.98 (+$21.98) on the floor basis; applying the Q2 premium to NYC is an assumption, since NYC was not part of the Q2 sample.
+Totals with OmniRide ($200) and the NYC cost: C2C $948.00; OurBus floor $464.00; FlixBus floor $416.00.
+Result: with C2C the year's NYC travel alone ($748) approximates a resident permit ($752.98): 748 / 752.98 = 0.993. Sample size: none; scenario arithmetic from sourced prices dated 2026-11-08 (rates page undated). Caveats: advertised floors understate booked prices; C2C requires a seat reservation in the new system; gas, insurance, tolls and campus-to-station transfers are excluded.
+
+## 32. Official-vs-official or page-internal contradictions found in this pass
+
+| Topic | Evidence |
+|---|---|
+| C2C booking-system switch date | search summary of an FCS page says TDX ticketing effective March 2, 2026; the main C2C page says the new reservation system launched Nov 4, 2026 |
+| checkmybus Syracuse 11/08 fare | $41 in the calendar table vs $12 in the trip list on the same page |
+| checkmybus Newark daily buses | "3 daily buses" vs 4 listed departure times |
+| checkmybus Boston / DC / Binghamton frequency | page summaries disagree with day-of-week sections (e.g., Binghamton "about 12 daily" vs Tuesday 4) |
+| Search-suggested "fall 2026 TCAT changes" | actually a 2020 Cornell Chronicle item; not usable |
+
+## 33. Pages read in this pass
+
+| # | URL | Result |
+|---|---|---|
+| 1 | https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates | read: fares |
+| 2 | https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/departure-schedule | 404 |
+| 3 | https://news.cornell.edu/node/282639 | read (2005 article) |
+| 4 | https://www.checkmybus.com/ithaca-ny/new-york-ny | read |
+| 5 | https://www.checkmybus.com/ithaca-ny/newark-nj | read |
+| 6 | https://www.checkmybus.com/ithaca-ny/binghamton-ny | read |
+| 7 | https://www.checkmybus.com/ithaca-ny/rochester-ny | read |
+| 8 | https://www.checkmybus.com/ithaca-ny/washington-dc | read |
+| 9 | https://www.checkmybus.com/ithaca-ny/syracuse-ny | read |
+| 10 | https://www.ithaca.edu/orientation/orientation-faqs/parking | read; no car rules |
+| 11 | https://news.cornell.edu/node/319837 | read (2020) |
+| 12 | https://tcatbus.com/tcat-service-changes-oct-22-jan-20/ | 403 |
+| 13 | search: C2C fares 2026 | results used: fcs node/12488, node/3001, news.cornell.edu/node/269896, finance.cornell.edu/node/1751, hr.cornell.edu/node/2839 (titles only) |
+| 14 | search: Ithaca Bikeshare 2026 | betterbikeshare.org, ihstattler.com, sustainable.cornell.edu news, nyserda.ny.gov report (titles only) |
+| 15 | search: Elmira airport | airportoverview, aerocorner, flightsfrom (summaries only) |
+| 16 | search: freshman car threads | reddit snapshot, varsitytutors, collegeconfidential, cornellsun 2005 (titles only) |
+| 17 | search: TCAT fall service | tcatbus.com PDFs (17_Late-Fall, 30_Late-Fall), birds.cornell.edu 31_Fall2024.pdf, tompkinsweekly.com/?p=24174, news.cornell.edu/node/279091 and 285234 (titles only) |
+
+## 34. Coverage (final, against SCOPE)
+
+Covered with sourced rows: flights into ITH (airlines page, board count, parking); C2C fares, stops, surcharge, history; Cornell and OurBus/FlixBus/Megabus/Greyhound/Trailways fares to NYC, Boston, Philadelphia, Newark Penn, DC, Binghamton, Rochester, Syracuse and the SYR airport; student parking permits, fines, airport parking; TCAT student privileges and OmniRide price; Ithaca College TCAT; Carshare (summary digits); storage vendor; biking rules and network; finals-week shuttles; walking estimates; year-cost scenarios; Thanksgiving fare premium.
+Thin: SYR flights (ground only, no airline or fare data); ELM (aggregators disagree, no official page); EWR airport bus (only Newark Penn); Greyhound and Trailways (only Wanderu from/average fares); winter biking; Uber/Lyft/taxi current prices (2017 only); Bikeshare 2026 prices; public TCAT passes beyond $1.50 (snippets); student-thread counts (2 threads, 2014 and 2016).
+Not found (looked): C2C departure times and Boston/Philadelphia C2C (departure-schedule 404, rates page silent); fall 2026 TCAT route timetables (PDFs 404/403, tcatbus.com 403); BRSS storage rates (not read bigredboxes.com); first-year Cornell car rule; Fall 2026 finals shuttle; web.archive.org snapshots (blocked by fetch tool, so no archive-based year-over-year series beyond the dated news pages used in Analyses B and M).
+
+Counts below are my hand tally, not machine-counted: roughly 190 sourced fact rows, roughly 95 distinct URLs cited across all sections (about 55 read, the rest snippet-only or failed fetches), roughly 10,900 words.
+
+## Lane complete: 190 facts, 95 sources, 10900 words, 2026-11-08

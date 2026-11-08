@@ -41,7 +41,7 @@ Method note: live pages were read through a fetch tool that summarizes pages; fi
 | NYC stops | Weill Medical 1300 York Ave; Cornell Club 6 East 44th Street | same | | 2026-11-07 |
 | Departure times | Weekday mapping unreadable in my fetch. Ithaca N. Campus: 5:30 a.m., 7:30, 9:30, 11:30 a.m., 5:30 p.m. (Sage +15 min, B-Lot +30 min). NYC Weill: 5:45 a.m., 7:45, 9:45, 11:45 a.m., 1:45 p.m., 3:45, 5:45 p.m.; Cornell Club: 6:30 a.m., 8:30, 10:30, 12:30 p.m., 2:30, 4:30, 6:30 p.m. Use the live table for day-specific times. | same | | 2026-11-07 |
 | Trip length | About 4.5 to 5 hours from the final Ithaca stop; may change for events or closures | same | | 2026-11-07 |
-| Aug 1, 2026 schedule change; NYC "F Train" stop dropped | Search summary only; not on the pages I read. Source needed. | unconfirmed | From Aug 1, 2026 | 2026-11-07 |
+| Aug 1, 2026 schedule change; NYC "F Train" stop dropped | Now supported by a search summary of a Cornell FCS notice (see section 12) and by a note at the foot of the departure-schedule page (details not in the text I got) | see section 12 | From Aug 1, 2026 | 2026-11-08 |
 | Package service | $20/package, Cornell dept or Weill account; max 8 cubic feet; phone 8-4 Mon-Fri | https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-additional-information | | 2026-11-07 |
 | Wheelchair | Call 607-254-8747 at least 2 weeks (10 business days) ahead | same | | 2026-11-07 |
 
@@ -75,7 +75,7 @@ Method note: live pages were read through a fetch tool that summarizes pages; fi
 | Grad assistants | Full assistantship, Ithaca main campus (Workday check); A and E permits free | same | Grad assistants | 2026-11-07 |
 | Commuter benefits | Unlimited TCAT and RideShare discounts limited to faculty/staff with regular appointments | same | | 2026-11-07 |
 | Purchase | myparking.cornell.edu; TDS ticket portal for help | same | | 2026-11-07 |
-| NOT FOUND | First-year / transfer / international eligibility; Collegetown and overnight off-campus rules. The page does not say whether first-years may have a car. | | | 2026-11-07 |
+| NOT FOUND | First-year / transfer / international eligibility; Collegetown and overnight off-campus rules. The page does not say whether first-years may have a car. (Corpus grep of fcs.cornell.edu parking pages for "first-year" returned no files, 2026-11-08.) | | | 2026-11-08 |
 | Inconsistency | Resident prorate from Sept 1 vs permits prorate from Aug 16 | same | | 2026-11-07 |
 
 ## 5. Move-in and move-out parking
@@ -109,7 +109,7 @@ Method note: live pages were read through a fetch tool that summarizes pages; fi
 | Fares | Adult $1.50; $0.75 age 60+ or disability (search summary). Airport site confirms adults $1.50 and under 17/seniors $0.75 each way. | https://tcatbus.com/fare-pass-options ; https://www.flyithaca.com/news/traveling-to-and-from-ith | Airport page article dated "Apr 5", year not stated | 2026-11-07 |
 | Passes | Fall 2025 book reportedly $3 day pass, $45 monthly; current store reportedly lists 5-day, 15-ride half-fare, monthly; prices unconfirmed | https://tcatbus.com/store/ | 2025 vs 2026 conflict | 2026-11-07 |
 | Ithaca College | IC subsidizes TFare app passes 2026-27 (summary) | https://tcatbus.com/college-students | 2026-27 | 2026-11-07 |
-| Airport route | Airport site says Routes 32 and 72 run between ITH and the Ithaca Commons; search summary says 32 weekdays, 72 weekends; days and times not on the airport page; a May 2025 Cornell Sun guide (outlet, not official) says roughly 7:30 a.m.-6:40 p.m. for 32. Payment: driver or Token Transit app (search summary of airport site). TCAT phone 607-277-7433 per summary vs 607-277-RIDE on Cornell pages (same number, different format). Timetable PDFs: https://tcatbus.com/wp-content/uploads/32_Late-Fall.pdf (not read). | https://www.flyithaca.com/news/traveling-to-and-from-ith | | 2026-11-07 |
+| Airport route | Airport site says Routes 32 and 72 run between ITH and the Ithaca Commons; search summary says 32 weekdays, 72 weekends; days and times not on the airport page; a May 2025 Cornell Sun guide (outlet, not official) says roughly 7:30 a.m.-6:40 p.m. for 32. Payment: driver or Token Transit app (search summary of airport site). TCAT phone 607-277-7433 per summary vs 607-277-RIDE on Cornell pages (same number, different format). Timetable PDFs: https://tcatbus.com/wp-content/uploads/32_Late-Fall.pdf (404 on 2026-11-08 fetch). | https://www.flyithaca.com/news/traveling-to-and-from-ith | | 2026-11-07 |
 
 ## 8. ITH airport
 
@@ -118,12 +118,12 @@ Method note: live pages were read through a fetch tool that summarizes pages; fi
 | Address | 1 Culligan Drive, Ithaca NY 14850 | https://flyithaca.com | Current | 2026-11-07 |
 | Phones | Main 607-257-0456; parking 607-220-4699 | same | | 2026-11-07 |
 | Hours | Terminal 3:30 a.m.-midnight; runway 24/7 | same | | 2026-11-07 |
-| Short-term parking | 30 min free; 31-60 min $2; 1-2 h $3; 2-3 h $5; 3-4 h $7; 4-5 h $8; 5-24 h $9.50; weekly $48 | same | Undated | 2026-11-07 |
+| Short-term parking | 30 min free; 31-60 min $2; 1-2 h $3; 2-3 h $5; 3-4 h $7; 4-5 h $8; 5-24 h $9.50; weekly $48 | same; confirmed https://www.flyithaca.com/parking on 2026-11-08 | Undated | 2026-11-07 |
 | Long-term parking | 30 min free; 31-60 min $2; 1-2 h $3; 2-3 h $4; 3-4 h $5; 4-5 h $6; 5-24 h $8; weekly $40 | same | Undated | 2026-11-07 |
 | Airlines | Delta daily nonstop to JFK; United nonstop to Washington Dulles; Taughannock Aviation private charters | https://flyithaca.com/airlines | Undated | 2026-11-07 |
 | Taxis | Ithaca Airport Cab 607-252-9052; Collegetown Cab 607-588-8888; Ithaca Dispatch 607-277-7777; no fares listed; 24/7; prebook late flights | https://flyithaca.com/taxis | Undated | 2026-11-07 |
 | Rideshare | Uber and Lyft by app | same | | 2026-11-07 |
-| Page 404 | https://flyithaca.com/ground/bus-service/ | | | 2026-11-07 |
+| Page 404 | https://flyithaca.com/ground/bus-service/ (a search result shows the same URL titled with date Nov 18, 2025) | | | 2026-11-07 |
 
 ## 9. Other airports and intercity options
 
@@ -135,7 +135,7 @@ Method note: live pages were read through a fetch tool that summarizes pages; fi
 | Train | Amtrak 1-800-872-7245; nearest station Syracuse, 1 Walsh Circle, Syracuse NY 13208 | same | | 2026-11-07 |
 | Syracuse-Ithaca ground | Big D's Limousines 607-273-3030 ext 2 | same | | 2026-11-07 |
 | Rideshare tools | Finger Lakes Rideshare (511nyrideshare.org); Commuter Match; Student Rideboard | same | | 2026-11-07 |
-| Syracuse (SYR) | 1000 Col. Eileen Collins Blvd, Syracuse NY 13212; 315-454-3263; parking office 315-455-3550; "nonstop service to 27 destinations"; pre-booked parking has a non-refundable $2.99 booking fee; page lists ground categories (taxi/rideshare, public transport, rentals, commercial ground transportation) with no Ithaca details. Ground-transportation subpage URL guess returned 404. | https://www.syrairport.org/ | Undated | 2026-11-07 |
+| Syracuse (SYR) | 1000 Col. Eileen Collins Blvd, Syracuse NY 13212; 315-454-3263; parking office 315-455-3550; "nonstop service to 27 destinations"; pre-booked parking has a non-refundable $2.99 booking fee; page lists ground categories with no Ithaca details. Ground-transportation subpage guesses returned 404 (two tried). | https://www.syrairport.org/ | Undated | 2026-11-07 |
 | Elmira Corning (ELM) | Airlines shown: Allegiant, Delta. 276 Sing Sing Rd #1, Horseheads NY 14845; 607-739-5621; manager's office Mon-Fri 8:00-4:30; security/ops 24/7; parking rates and Ithaca shuttle not on page | https://www.chemungcountyny.gov/850/Elmira-Corning-Regional-Airport | Undated | 2026-11-07 |
 
 ## 10. City of Ithaca parking
@@ -149,7 +149,7 @@ Method note: live pages were read through a fetch tool that summarizes pages; fi
 | Monthly permits (search summary of 2026 budget table; a proposal document) | Green and Seneca $117; Cayuga $108 standard / $180 premium; Dryden 24/7 $232; worker special $185; Green and Seneca weekly $39; lost ticket $20 | https://cityofithaca.org/DocumentCenter/View/20272/2026-Final-Budget-Proposal-20251107?bidId= | 2026 | 2026-11-07 |
 | Contact (search summary) | Parking Division (607) 882-2352; parking@cityofithaca.org | https://www.cityofithaca.org/731/Permit-Issuance | | 2026-11-07 |
 
-## 11. Biking, bike share, car share
+## 11. Biking, bike share, car share (first pass)
 
 | Fact | Value | Source URL | Applies to | Checked |
 |---|---|---|---|---|
@@ -159,17 +159,95 @@ Method note: live pages were read through a fetch tool that summarizes pages; fi
 | Winter storage, repair | Not covered | same | | 2026-11-07 |
 | Path rules | White = bike lane, yellow = shared walk (yield), red/unmarked = dismount; Botanic Garden paths no riding (search summary) | https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling/cycling-rules-regulations | Possibly dated | 2026-11-07 |
 | Winter riding guidance | Not found on official pages; 2011-era master plan says paved routes should be cleared (search summary) | https://fcs.cornell.edu/sites/default/files/masterplan/transportation_circulation.pdf | 2011 | 2026-11-07 |
-| Bike share (WARNING, stale) | The Cornell news page behind the Bikeshare demand row describes Big Red Bikes: 25 free hours/week, $5/h for next 5 hours then $20/h, free with Cornell ID at Uris Library desk; article dated May 3, 2011. Not current Ithaca Bikeshare info. Current operator/rates not found. | https://news.cornell.edu/node/270417 | 2011 | 2026-11-07 |
-| Ithaca Carshare | About 20 vehicles around Downtown, Northside, Southside, Fall Creek, Collegetown, West End, East Hill; maintenance and insurance included; office Mon-Fri 9-5; rates, fees, age minimum, student discount not on home page | https://www.ithacacarshare.org | News post Apr 22, 2025 | 2026-11-07 |
+| Bike share (WARNING, stale) | Cornell news page on Big Red Bikes: 25 free hours/week, $5/h next 5 hours then $20/h, free with Cornell ID at Uris Library desk; dated May 3, 2011. Not current. See section 12 for current Ithaca Bikeshare. | https://news.cornell.edu/node/270417 | 2011 | 2026-11-07 |
+| Ithaca Carshare | About 20 vehicles around Downtown, Northside, Southside, Fall Creek, Collegetown, West End, East Hill; maintenance and insurance included; office Mon-Fri 9-5 | https://www.ithacacarshare.org | News post Apr 22, 2025 | 2026-11-07 |
+
+## 12. Deepen session 2026-11-08
+
+### 12a. Airport, TCAT to airport, rental, rail
+
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| ITH to town by bus | Routes 32 and 72 run between airport and Ithaca Commons; adults $1.50, under 17 and seniors $0.75 each way; prepaid card can be bought before arrival. Article dated "April 5", no year | https://www.flyithaca.com/news/traveling-to-and-from-ith | Undated | 2026-11-08 |
+| ITH public transportation page | Route 32 weekdays, Route 72 weekends; to downtown and other destinations; no times or fares on page; schedules at tcatbus.com/bus-schedules; TCAT (607) 277-7433. Pay driver with exact cash, credit/debit card, digital wallet, Tcard or TFare app. Also lists taxis 24/7, Uber/Lyft pickups, rentals by several companies, Ithaca Carshare, parking steps from terminal | https://www.flyithaca.com/public-transportation | Undated | 2026-11-08 |
+| Contactless TCAT payment | Cornell Sun (Sept 26, 2025, outlet): TCAT testing contactless/Apple Pay on Genfare fareboxes; launch date was to be announced early Oct 2025; page does not confirm it happened | https://www.cornellsun.com/article/2025/09/tcat-to-offer-contactless-payment-options-such-as-apple-pay-on-buses | 2025-09-26 | 2026-11-08 |
+| ITH rental cars | Airport recommends renting for longer stays or groups; no companies or rates on the news page; /ground/rental-cars guess: 404 | same news page | | 2026-11-08 |
+| ITH parking payment | Take ticket at entrance; pay credit/debit at exit gate; cash at machine inside terminal first. Short-term lot nearest terminal, small covered section. Long-term lot: no maximum stay stated; stranded vehicles should contact airport. No effective date or holiday pricing. Questions 607-220-4699 | https://www.flyithaca.com/parking | Undated | 2026-11-08 |
+| ITH airlines (re-read) | Delta daily to JFK; United nonstop to Washington Dulles; Taughannock Aviation charters. Page does not mention Newark or American | https://www.flyithaca.com/airlines | Undated | 2026-11-08 |
+| Newark flight loss | Cornell Sun (Sept 2026) quotes OurBus co-founder tying NYC bus demand to higher fuel prices and "the 2025 loss of Ithaca's direct Newark flight". Attributed claim; not an airport statement | https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk | 2026-09 | 2026-11-08 |
+| Route 72 detail | TCAT Summer 2024 timetable (search result, not read) reportedly notes some Sunday evening Route 72 trips end at the airport. No 2026 weekend timetable found. | https://tcatbus.com/wp-content/uploads/32_Summer24.pdf | 2024 | 2026-11-08 |
+| Downtown Ithaca Alliance transport page | Airport about 10 minutes from downtown; TCAT 32 (weekdays), 72 (weekends) or taxi; phone 607-257-0456. Page footer copyright 2018 (stale) | https://www.downtownithaca.com/getting-around-visit/ | 2018 | 2026-11-08 |
+| Amtrak Syracuse | William F. Walsh Regional Transportation Center, 1 Walsh Circle, Syracuse NY 13208, opened 1998, brings together Amtrak, intercity and CENTRO buses; page gives no hours, parking or ticket office details | https://www.amtrak.com/stations/syr | Undated | 2026-11-08 |
+| 511NY | NYSDOT traffic and travel information map; fetch returned only the title | https://www.511ny.org | | 2026-11-08 |
+
+### 12b. Intercity buses
+
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| Greyhound Ithaca-NYC | Operated by Greyhound; FlixBus trips may appear in same search. Ithaca stops: 131 E Green St (curbside in front of Urban Outfitters; do not wait inside the Tompkins County Public Library); Cornell North Campus, 121 Jessup Rd (south side, near Robert Purcell); Cornell West Campus, 240 West Ave (west side, in front of Mennen Hall) | https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny | Undated | 2026-11-08 |
+| Greyhound NYC details | Minimum 4 h 20 min; about 227-228 miles; fares from $43.98; 5 departures per day, first 7:20 a.m., last 8:30 p.m. (a search summary of an earlier view said from $37.98 and last 7:15 p.m.: the page changes). NYC stops include Port Authority, 625 8th Ave (ticket counter North wing, subway level; gates lower level); Midtown 300 W 31st St; Hudson Yards 600 W 34th St; GW Bridge 4211 Broadway; Chinatown 28 Allen St; Canal St 145 Canal St; Jamaica Queens 91-91 144th Pl; Flushing 41-32 Kissena Blvd; Brooklyn 3rd Ave at 38th St; White Plains 11 Ferris Ave. Amenities listed: Wi-Fi, outlets, toilets, luggage storage (subject to availability) | same | Undated | 2026-11-08 |
+| Downtown Ithaca intercity pickup | In front of Urban Outfitters, 131 E. Green Street. New York Trailways (800) 776-7548; OurBus 1 (844) 800-6828; Shortline/CoachUSA (800) 631-8405 | https://www.downtownithaca.com/getting-around-visit/ | 2018 page | 2026-11-08 |
+| Contradiction: Trailways phone | Cornell Travel Resources lists Trailways of New York 1-800-858-8555; Downtown Ithaca page lists (800) 776-7548 | travel-resources URL in section 9; downtownithaca URL above | | 2026-11-08 |
+| OurBus expansion | Per Cornell Sun, Sept 2, 2026 (outlet, not official): 4-6 buses a day, 7 days a week, campus to Manhattan; stops at Ithaca Commons, West Campus, North Campus; weekend routes add Fresh Meadows (Queens), Melville (Long Island), Cortland, Binghamton, Middletown, Nanuet; Cornell-Syracuse 6 days a week with stops at Syracuse Hancock International Airport and Destiny USA; OurBus says it coordinates with Cornell's transportation department; cited a reported 20% rise in Ithaca-NYC ridership in Spring 2026. Fares not given. | https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk | 2026-09 | 2026-11-08 |
+| C2C schedule page (re-read) | Stops: N. Campus 217 Jessup Rd (shelters in front of Robert Purcell); Sage Hall 114 Feeney Way (TCAT shelter near East Ave and Campus Rd); B Lot 930 Campus Rd (shelter SE side). NYC: Weill 1300 York Ave (wait in lobby); Cornell Club 6 E 44th St (pickup sometimes moved; alternate at 5th and E 44th during disruption; club facilities members and guests only). Arrive 10 min early. Trip about 4.5-5 h from B Lot / Cornell Club. Page ends with note on Aug 1, 2026 update, F Train stop and added departures (details not in text) | https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule | Undated | 2026-11-08 |
+| C2C Aug 1, 2026 change | Search summary of Cornell FCS notice: from Aug 1, 2026 updated schedule and stops; NYC F Train stop (64th St and 3rd Ave) discontinued; times adjusted; added Tuesday Ithaca-to-NYC departure and extra Wednesday, Saturday, Sunday NYC-to-Ithaca departures. Exact node unverified | https://fcs.cornell.edu/node/17782 | From 2026-08-01 | 2026-11-08 |
+| Older reservation host | c2cbus.ipp.cornell.edu, replaced Nov 4, 2026 | https://c2cbus.ipp.cornell.edu/Start.aspx | | 2026-11-08 |
+| Past change | Oxley Equestrian Center stop moved to B Lot in 2013 (history; title from search result) | https://news.cornell.edu/node/282047 | 2013 | 2026-11-08 |
+
+### 12c. TCAT and student passes
+
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| Free access history | Cornell Sun (Nov 3, 2024): non-first-year students lost de facto 24/7 free TCAT in mid-Oct 2024 after a farebox ID glitch had given all students free rides; Cornell updated eligibility list Oct 16, 2024 (per TCAT GM Matthew Rosenbloom-Jones). First-years (incl. transfers): free OmniRide any time. Others with $200 OmniRide: any time. Others without a pass: free after 6 p.m. weekdays and all weekend, drivers override rejected IDs; otherwise $1.50 cash. Cause: magstripe IDs poorly compatible with farebox; TCAT recommended app model like Ithaca College | https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free | 2024-11 | 2026-11-08 |
+| OmniRide price context | Cornell Sun (Sept 2025): discounted OmniRide $200 a year, down from typical $450 (outlet figure; the Cornell page says $200) | https://www.cornellsun.com/article/2025/09/tcat-to-offer-contactless-payment-options-such-as-apple-pay-on-buses | 2025-09 | 2026-11-08 |
+| Student Assembly Resolution 69 (2025-26) | Urges Cornell to fund free bus passes for all undergraduates and graduate workers in 2026 Service Level Agreement talks. Says Cornell pays 15% of TCAT's budget while 70% of service is to Cornell (the resolution's claims). Presented Mar 5, 2026; adopted Mar 26, 2026; conveyed Mar 30; returned by President Apr 24, 2026. No outcome found. | https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026 | 2026 | 2026-11-08 |
+| Ithaca College TCAT | Ithaca College gives students, staff, faculty passes via TFare app (2024 reports); 2026-27 subsidy unconfirmed (search summary) | https://ithaca.edu/intercom/2024-08-30-riding-tcat-bus-process-change-starting-september-1 | 2024 | 2026-11-08 |
+| tcatbus.com college page | 403 | https://www.tcatbus.com/learn/college-students/ | | 2026-11-08 |
+| TCAT fall 2026 changes | None found; TCAT runs three service periods per year (search summary); latest found is fall 2025 schedule through Jan 11, 2026 | search only | | 2026-11-08 |
+
+### 12d. Bike share, e-bikes, car share
+
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| Ithaca Bikeshare prices | Pay as you go $1.50 unlock + $0.25/min + tax; Day Pass $25 (unlimited trips up to 2 h, then $0.25/min); Monthly $60 (30 min/day free, then $0.25/min); $1.50 fee for trips not ending in a hub. Easy Access for GO ITHACA members at or below 150% federal poverty guideline. Season dates, station count, student discounts and winter operation not on page; help@ithacabikeshare.org | https://www.ithacabikeshare.org | Undated | 2026-11-08 |
+| Bikeshare operator | Nonprofit Center for Community Transportation; all bikes Class 1 pedal-assist, max about 16 mph (Bike Walk Tompkins) | https://www.bikewalktompkins.org/e-bikes | Undated | 2026-11-08 |
+| Bikeshare older pricing | 2022-23 coverage: $1 unlock + $0.15/min, $20 day pass; prices have since risen | https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/ | 2023 | 2026-11-08 |
+| Lime exit | Lime left Ithaca in 2020 (search summary) | https://cornellsun.com/2019/04/30/limebikes-could-turn-opportunity-into-nightmare-cornell-press-release-says/ | 2019-2020 | 2026-11-08 |
+| E-bike classes | Bike Walk Tompkins runs e-bike classes at Swamp City Community Cycles, 803 Cascadilla St; pre-registration required. State law, helmet, age rules not summarized on page. NYS DMV e-bike URL guess: 404 | same | | 2026-11-08 |
+| Carshare fees (community plan) | Just In Case (under 6 h/month): $7.50/month or $75/year; It's My Car (over 6 h/month): $35/month or $355/year; one-time non-refundable $20 per driver | https://www.ithacacarshare.org/rates | Undated | 2026-11-08 |
+| Carshare usage | Just In Case $9/h; It's My Car $6/h; mileage 42 cents car, 44 cents van, 52 cents truck; 8% NY sales tax plus 12% special passenger car rental tax; full-day rate caps hourly at 10 h per 24 h (not highest-demand cars) | same | | 2026-11-08 |
+| Carshare student/commuter pricing | Cornell subsidizes annual memberships for undergrad, grad, staff, faculty through Commuter Alternative Program; Ithaca College and TC3 students qualify; Just In Case Annual $30/yr; It's My Car Annual $310/yr (each $45 off); monthly plans no discount; up to two drivers; It's My Car includes gas/EV charging, maintenance, insurance. Apply at reserve.ithacacarshare.org/orientation | https://www.ithacacarshare.org/students-commuters | Undated | 2026-11-08 |
+| Carshare eligibility | Min age 18; full unrestricted license held 2+ years; no suspension in 3 years; under 21: spotless record, own insurance policy, Younger Driver Insurance Consent Form, declarations page with at least $300,000 per accident liability; over 21: at most two accidents/violations in 3 years; disqualifiers include DUI/DWI in last 7 years; foreign license holders need official driving record (page mentions both 2 and 3 year lookbacks: internal inconsistency); International Driving Permit not accepted as record; some countries cannot be approved; $20 fee non-refundable | https://www.ithacacarshare.org/eligibility | Undated | 2026-11-08 |
+| Carshare contact | (607) 277-3210; info@ithacacarshare.org | same | | 2026-11-08 |
+
+### 12e. City rules, driving in NY, break housing
+
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| City residential parking permit | $45/year, valid issue date to July 31, no partial-year permits; visitor pass $10; one plate; residents only (landlords cannot obtain for tenants); needs registration copy and proof of residency (deed, lease, license, or utility/phone bill); issued by City Clerk first come first served; display on driver-side rear window, never windshield; replacement free if remnants returned else $45. City of Ithaca, 108 E Green Street, Ithaca NY 14850. No phone or hours on page | https://www.cityofithacany.gov/731/Permit-Issuance | Undated | 2026-11-08 |
+| Odd/even rule (code) | Search summary: Nov 1 to Apr 1, 7:00 p.m. to 6:00 a.m.; odd side on even dates and reverse (code wording as summarized: no parking on the odd side on even dates; conflicts with the Feb 2026 FingerLakes1 phrasing of "even side on even dates", so read the code text); activated and suspended by the city based on weather; ticketed, towing possible after 72 h. Snow emergency routes separate, towing. | https://ecode360.com/8395630 | Code, undated | 2026-11-08 |
+| Odd/even status Feb 2026 | In effect per news report | https://www.fingerlakes1.com/2026/02/14/ithaca-sidewalk-snow-rules-in-effect/ | 2026-02-14 | 2026-11-08 |
+| Cornell winter parking notices | Annual notices exist, e.g. 2023-11-16 | https://fcs.cornell.edu/announcements/2023-11-16/winter-parking-transportation-information | 2023 | 2026-11-08 |
+| Out-of-state students driving | NY DMV guidance (search summary): students from other states or countries attending school in NY are normally not NY residents and need not exchange their license; foreign students may need an International Driving Permit alongside home license (Fordham page); NY-registered vehicles need NY insurance. Not read directly | https://dmv.ny.gov/driver-license/exchange-out-of-state-driver-license ; https://dmv.ny.gov/driver-license/drive-new-york-state | Undated | 2026-11-08 |
+| Winter break housing | Open to students returning to on-campus housing for spring; applications open Oct 1, deadline Dec 1; $125 per one-week option, $500 full break, flat fee; mail and packages end Dec 23, resume Jan 7; dining usually closed the week the university is closed; 2026-27 open buildings include Ganędagǫ: Hall, High Rise 5, HILC/Low Rise 8, Hu Shih, Loving House, Mews, Toni Morrison, Townhouse Apartments, Cascadilla, Veterans House. No storage or vehicle rules on page. | https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing | 2026-27 | 2026-11-08 |
+| 2025 closing precedent | Search summary: undergrad residences closed Sun Dec 21, 2025, 2 p.m., recess to Jan 13, 2026. 2026-27 closing notice not found | https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice | 2025 | 2026-11-08 |
+| Ithaca College parking 2026-27 | Search summary: upper-class $232, graduate $90, first-year $500; online from Mon Jul 13, 2026; spring temporary permits $116 / $45 / $250 | https://www.ithaca.edu/public-safety-and-emergency-management/parking-services/student-parking | 2026-27 | 2026-11-08 |
 
 ## Gaps and contradictions to resolve
 1. First-year car/permit eligibility: not stated on Cornell pages read; TDS parking-students page is silent.
 2. C2C cancellation fee: $10 + $30 vs $30-only (search summary); confirm on terms page.
-3. C2C Aug 1, 2026 schedule/stop change (F Train stop): no page found.
-4. TCAT student wording: Cornell pages say free after 6 p.m./weekends after first year; tcatbus.com unreadable (403). Passes and fares for 2026 unconfirmed.
+3. C2C Aug 1, 2026 change: now seen in two places, exact page and new times still unread.
+4. TCAT student wording: Cornell pages and Cornell Sun agree on free after 6 p.m./weekends after first year; tcatbus.com unreadable (403). 2026 passes and fares unconfirmed.
 5. Student spouse night-route lists differ (90/92 vs 90/92/93).
-6. Airport TCAT days: 32 weekdays/72 weekends per summaries; an old Cornell student project said daily. Official timetable not read.
-7. Not yet read: Cornell alumni "arriving and getting around"; NYS 511 / winter driving; Bikeshare current operator; Carshare rates; SYR ground transport; parking short-term/night pages; Cornell break storage; ITH-NYC fares.
+6. Airport TCAT days: 32 weekdays/72 weekends on airport and downtown pages; no official 2026 timetable read.
+7. Trailways phone differs between Cornell and Downtown Ithaca pages.
+8. Odd/even wording needs the code text checked.
+9. Not read: ELM-Ithaca shuttle, SYR ground transport, FlixBus/Trailways own pages, NYS winter driving, Cornell break storage (none found), ITH-NYC airfare.
+
+## Coverage
+- Covered with sourced rows: C2C (fares, rules, stops), Cornell parking permits/fines/winter rules, move-in/out, TCAT for Cornell people, ITH airport (parking, airlines, taxis, transit), Greyhound/OurBus, bike share, car share, city permit and parking rates, winter break housing.
+- Thin: SYR/ELM ground links, FlixBus/Trailways, TCAT 2026 fares, e-bike law, bike winter guidance, break storage, DMV.
+- Not found: first-year car policy, official 2026 route 32/72 timetable, Cornell storage service.
 
 ## Pages read
 | URL | Title | Date on page |
@@ -185,15 +263,35 @@ Method note: live pages were read through a fetch tool that summarizes pages; fi
 | .../campus-campus-bus-service (main, c2c-rates, c2c-departure-schedule, c2c-policies-regulations, c2c-additional-information) | C2C pages | none |
 | https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1 | Citation Fines Increasing September 1 | 2023-08-01 |
 | https://fcs.cornell.edu/announcements/2024-10-22/unlimited-tcat-access-faculty-staff | Unlimited TCAT Access for Faculty and Staff | 2024-10-22 |
-| https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus | Move instructions, North Campus | none (Aug 17-22 dates) |
+| https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus | Move instructions, North Campus | none |
 | https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information | Important Loading and Parking Information | none |
 | https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting | Bus & Commuting | none |
 | https://news.cornell.edu/node/270417 | Big Red Bikes article | 2011-05-03 |
 | https://faq.enrollment.cornell.edu/kb/article/319-where-is-the-nearest-airport/ | Where is the nearest airport? | none |
-| https://flyithaca.com ; /airlines ; /taxis ; https://www.flyithaca.com/news/traveling-to-and-from-ith | ITH airport pages | none; last "Apr 5" no year |
+| https://flyithaca.com ; /airlines ; /taxis | ITH airport pages | none |
+| https://www.flyithaca.com/news/traveling-to-and-from-ith | Traveling to and from ITH | "Apr 5", no year |
+| https://www.flyithaca.com/parking | ITH parking | none |
+| https://www.flyithaca.com/public-transportation | ITH public transportation | none |
 | https://www.syrairport.org/ | Syracuse airport | none |
+| https://www.amtrak.com/stations/syr | Amtrak Syracuse station | none |
+| https://www.511ny.org | 511NY | none |
 | https://www.chemungcountyny.gov/850/Elmira-Corning-Regional-Airport | Elmira Corning Regional Airport | none |
 | https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328 | City of Ithaca updated parking rates | 2025-12-18 |
+| https://www.cityofithacany.gov/731/Permit-Issuance | Residential permits | none |
 | https://www.ithacacarshare.org | Ithaca Carshare | news 2025-04-22 |
-| Corpus: fcs.cornell.edu/departments/transportation-delivery-services, faq.enrollment.cornell.edu article 319, three fcs announcements, scl move-out page | (same URLs as above) | FETCHED 2026-11-06 |
-| Failed: tcatbus.com college-students, fare-pass-options (403); c2c-cancellation-policy (403); flyithaca.com/ground/bus-service/ (404); several guessed URLs (404) | | |
+| https://www.ithacacarshare.org/rates | Rates | none |
+| https://www.ithacacarshare.org/eligibility | Eligibility | none |
+| https://www.ithacacarshare.org/students-commuters | Students and commuters | none |
+| https://www.ithacabikeshare.org | Ithaca Bikeshare | none |
+| https://www.bikewalktompkins.org/e-bikes | Electric Bike Resources | none |
+| https://www.downtownithaca.com/getting-around-visit/ | Local Buses / getting around | © 2018 |
+| https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny | Greyhound Ithaca to New York | none |
+| https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk | OurBus expansion (Cornell Sun) | 2026-09-02 |
+| https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free | Cornell Sun, TCAT access | 2024-11-03 |
+| https://www.cornellsun.com/article/2025/09/tcat-to-offer-contactless-payment-options-such-as-apple-pay-on-buses | Cornell Sun, contactless | 2025-09-26 |
+| https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026 | SA R69 | 2026-04-24 |
+| https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing | Winter break housing | none |
+| Search-result only (not read): ecode360.com/8395630; dmv.ny.gov pages; ithaca.edu parking; fcs node/17782; scl winter-closing-notice | | |
+| Failed: tcatbus.com college-students, fare-pass-options (403); 32_Late-Fall.pdf (404); c2c-cancellation-policy (403); flyithaca ground pages, SYR getting-here, DMV e-bike, ithaca.edu/transportation (404) | | |
+
+## Lane complete: 150 facts, 40 sources, 5400 words, 2026-11-08
