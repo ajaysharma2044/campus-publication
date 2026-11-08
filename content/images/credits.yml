@@ -8,4 +8,33 @@
 # and credit if someone else on the team took it (content/images/inbox/README.md). Photos used with written permission: change
 # that entry to source: permission with page_url, author, license, credit and permission_file (docs/v2/photo-permission-email.md).
 # For owner and permission entries the script copies credit, page_url, license and license_url into the article on its next run.
-[]
+- file: 1.webp
+  article_slug: cornell-arts-and-sciences-easy-distribution-courses
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Partial_view_of_Arts_Quad.jpg
+  author: P. Hughes
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  found_at: '2026-11-07'
+  fetched_at: '2026-11-07T22:25:16'
+  credit: P. Hughes / Wikimedia Commons
+- file: 1.webp
+  article_slug: biking-in-ithaca-winter-cornell
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Bicycles_parked_at_Milstein_Hall.jpg
+  author: Kenneth C. Zirkel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  found_at: '2026-11-07'
+  fetched_at: '2026-11-07T22:27:19'
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+- file: 1.webp
+  article_slug: ithaca-landlords-to-avoid-collegetown-reviews
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca,_NY_-_panoramio.jpg
+  author: James Willamor
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  found_at: '2026-11-07'
+  fetched_at: '2026-11-07T22:28:05'
+  credit: James Willamor / Wikimedia Commons
