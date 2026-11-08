@@ -29,7 +29,7 @@ Voice and rules (owner's style guide):
 Page templates (section headings are yours to phrase so a reader would search them; keep this order):
 - question_guide: answer paragraph; details that explain the rule or number; a table of costs or dates when the facts give two or more; numbered steps when the facts describe a process; not_confirmed; next_steps.
 - entity_guide: answer paragraph (what it is, who it is for, the one key number); an at-a-glance table; what is there (amenities, hours, location); who lives/uses it and how placement or access works; rules and costs; how to apply or get there; contact; not_confirmed; next_steps.
-- process_guide: answer paragraph (the process in one or two sentences with the deadline); numbered steps; deadlines table; exceptions; contact; not_confirmed; next_steps.
+- process_guide: answer paragraph that states what the process IS and its size in digits ("Setting up a laundry account at Cornell is a 3-step process: ...", "Housing applications are due within 10 days ..."), never a bare imperative; numbered steps copied from the quoted step facts in order; deadlines table; exceptions; contact; not_confirmed; next_steps.
 - comparison: answer paragraph; a comparison table (one row per item, columns from the facts); the differences that matter; not_confirmed; next_steps.
 
 Return ONE JSON object and nothing else:
