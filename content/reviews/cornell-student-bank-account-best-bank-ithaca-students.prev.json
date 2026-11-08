@@ -1,0 +1,58 @@
+{
+  "slug": "cornell-student-bank-account-best-bank-ithaca-students",
+  "queue_id": "q-money-0027",
+  "verdict": "fix",
+  "fact_check": [
+    {"claim": "Cornell does not recommend a bank", "source_url": "https://international.globallearning.cornell.edu/getting-started/your-first-week-0", "status": "ok", "note": "Page says International Services doesn't recommend any particular bank."},
+    {"claim": "You don't need an SSN to open a bank account", "source_url": "https://international.globallearning.cornell.edu/employment-and-taxes/apply-ssn", "status": "ok", "note": "Page: \"You don't need an SSN to open a bank account, rent an apartment, or get a credit card.\""},
+    {"claim": "An SSN is only available with authorized employment", "source_url": "https://international.globallearning.cornell.edu/employment-and-taxes/apply-ssn", "status": "mismatch", "note": "Source says \"In general\" international students need authorized employment to be eligible, and lists exceptions (e.g. J-2 dependents with a USCIS work card). Article states it as absolute."},
+    {"claim": "Local account helps write checks to off-campus businesses that may not accept out-of-town checks; bank reps on campus at orientation", "source_url": "https://bursar.cornell.edu/students-parents/student-resources/local-banking-services", "status": "ok", "note": "Both stated on the Bursar page."},
+    {"claim": "Bursar lists banks with branches outside Ithaca so you can keep the account", "source_url": "https://bursar.cornell.edu/students-parents/student-resources/local-banking-services", "status": "ok", "note": "Page says a few community banks have branches elsewhere; it does not name which."},
+    {"claim": "Bursar lists nine institutions with phone numbers but no fees, addresses or SSN rules", "source_url": "https://bursar.cornell.edu/students-parents/student-resources/local-banking-services", "status": "ok", "note": "Nine banks with phones; no fees or SSN rules. Page lists phones only, no addresses."},
+    {"claim": "Direct deposit: 24 hours after refund generated, else check; direct deposit 2-3 business days; check 7-10 business days after printing", "source_url": "https://bursar.cornell.edu/students-parents/deposit-refunds", "status": "ok", "note": "All matched."},
+    {"claim": "Nelnet Business Services with NetID, choose Direct Deposit, enter routing and account numbers", "source_url": "https://bursar.cornell.edu/students-parents/deposit-refunds", "status": "ok", "note": "Matches; page also requires Two-Step Login."},
+    {"claim": "Alternatives: $2 one-time enrollment, $5 stays on deposit, no minimum for checking, $2 monthly fee waived without paper statements", "source_url": "https://www.alternatives.org/accounts/checking/", "status": "ok", "note": "All matched."},
+    {"claim": "Alternatives ATMs surcharge-free at over 30,000 through CO-OP Network", "source_url": "https://www.alternatives.org/accounts/checking/", "status": "ok", "note": "Matches. The table cell has no inline link to this source."},
+    {"claim": "Alternatives requires only a lease with a local address (SSN rule per Cornell)", "source_url": "https://international.globallearning.cornell.edu/getting-started/your-first-week-0", "status": "ok", "note": "Cornell page says so. Alternatives' own page also lists ID requirements, which the article covers separately."},
+    {"claim": "Alternatives ID: state driver's license, learner's permit, non-driver ID or U.S. passport; proof of address: paycheck stub, utility bill or signed lease", "source_url": "https://www.alternatives.org/accounts/open-an-account/", "status": "ok", "note": "Matches (unexpired, government-issued)."},
+    {"claim": "Alternatives membership requires living in a listed county; Tompkins is one", "source_url": "https://www.alternatives.org/accounts/open-an-account/", "status": "ok", "note": "Tompkins is in the list of 17 counties."},
+    {"claim": "Tompkins: no monthly fee; $3.50 paper statements; $0 to open in branch, $25 online", "source_url": "https://www.tompkinsbank.com/student-checking-101", "status": "ok", "note": "All matched."},
+    {"claim": "Tompkins: no fee for non-Tompkins ATMs / 'its ATM policy helps if you travel'", "source_url": "https://www.tompkinsbank.com/student-checking-101", "status": "mismatch", "note": "Tompkins charges no fee itself, but the page does not address fees charged by the ATM owner. Article implies free use anywhere."},
+    {"claim": "Tompkins student account without an SSN only for students up to age 25", "source_url": "https://international.globallearning.cornell.edu/getting-started/your-first-week-0", "status": "ok", "note": "Matches Cornell page."},
+    {"claim": "Tompkins: full or part-time student; reverts to Direct Checking terms at 26; age 25 or younger", "source_url": "https://www.tompkinsbank.com/student-checking-101", "status": "ok", "note": "Matches."},
+    {"claim": "Bursar lists Tompkins; article names it Tompkins Bank & Trust", "source_url": "https://bursar.cornell.edu/students-parents/student-resources/local-banking-services", "status": "ok", "note": "Bursar and Cornell International say 'Tompkins Trust Company'; the bank's own page names Tompkins Bank & Trust. Not a conflict in facts, but the article does not explain the naming."},
+    {"claim": "CFCU is now Beginnings Credit Union", "source_url": "https://www.beginnings.com/personal/deposit-accounts/banking-for-college-students", "status": "mismatch", "note": "No fetched page says CFCU was renamed Beginnings. Only evidence is the matching phone number (607-257-8500) on both Bursar and Beginnings pages. No source link in the article for the rename."},
+    {"claim": "CFCU: debit card and online banking without an SSN or ITIN", "source_url": "https://international.globallearning.cornell.edu/getting-started/your-first-week-0", "status": "ok", "note": "Matches for 'CFCU'."},
+    {"claim": "Beginnings: more than 85,000 surcharge-free ATMs; student checking offered; fees not listed", "source_url": "https://www.beginnings.com/personal/deposit-accounts/banking-for-college-students", "status": "ok", "note": "'over 85,000 surcharge-free ATMs'; page lists no fees."},
+    {"claim": "Beginnings membership: live, work, worship, attend school or own a business in service area; keep $5 in share account", "source_url": "https://www.beginnings.com/about-us/about-beginnings-credit-union/who-can-become-a-member", "status": "ok", "note": "Matches (33-county service area)."},
+    {"claim": "Beginnings phone 607-257-8500", "source_url": "https://www.beginnings.com/about-us/about-beginnings-credit-union/who-can-become-a-member", "status": "ok", "note": "Call Center number matches."},
+    {"claim": "Ithaca Community Bank: accounts, debit cards, online banking without SSN", "source_url": "https://international.globallearning.cornell.edu/getting-started/your-first-week-0", "status": "ok", "note": "Matches."},
+    {"claim": "Cornell's Bursar lists Ithaca Community Bank as Community Bank", "source_url": "https://bursar.cornell.edu/students-parents/student-resources/local-banking-services", "status": "mismatch", "note": "Bursar lists 'Community Bank' (866-764-8638); no source equates it with Ithaca Community Bank. Unsupported identification."},
+    {"claim": "M&T: debit cards and online banking without SSN", "source_url": "https://international.globallearning.cornell.edu/getting-started/your-first-week-0", "status": "ok", "note": "Matches."},
+    {"claim": "Bank of America: driver's license and passport, in person; nearest location Syracuse", "source_url": "https://international.globallearning.cornell.edu/getting-started/your-first-week-0", "status": "ok", "note": "Matches."},
+    {"claim": "Bursar lists Bank of America, M&T, Key and Citizens", "source_url": "https://bursar.cornell.edu/students-parents/student-resources/local-banking-services", "status": "ok", "note": "All four are on the list."},
+    {"claim": "Open in person 'since Bank of America and some others require it'", "source_url": "https://international.globallearning.cornell.edu/getting-started/your-first-week-0", "status": "mismatch", "note": "Only Bank of America is stated to require in-person. 'Some others' is unsourced."},
+    {"claim": "Alternatives asks for proof of a physical street address (FAQ)", "source_url": "https://www.alternatives.org/accounts/open-an-account/", "status": "unverifiable", "note": "Page lists proof of address documents; the phrase 'physical street address' and the claim that Cornell pages do not say whether you can open before arrival are not in the sources."}
+  ],
+  "beats_top": {
+    "query": "cornell student bank account best bank Ithaca students",
+    "top_url": "https://bursar.cornell.edu/students-parents/student-resources/local-banking-services",
+    "better": "yes",
+    "why": "The #1 result is a bare list of nine banks with phone numbers and no fees, SSN rules or comparison; our page answers the SSN question in the first paragraph and compares fees and requirements. Non-Cornell listicles for the query are national, not Ithaca-specific.",
+    "changes": [
+      "Fix the unsourced identifications (CFCU = Beginnings, Ithaca Community Bank = Community Bank) so the table is trustworthy.",
+      "Qualify the Tompkins ATM claim and the SSN-only-with-employment claim so no student is misled.",
+      "Add Alternatives' Ithaca address and hours (from its checking page) so the checklist is actionable."
+    ]
+  },
+  "fixes": [
+    "Change 'CFCU (now Beginnings Credit Union)' in the table: either remove the claim that CFCU is now Beginnings, or add a source link that states the rename. Until one is found, write 'CFCU (the Bursar and Cornell International list CFCU; Beginnings Credit Union at the same phone number 607-257-8500 publishes the 85,000-ATM figure)' and make clear the Cornell SSN rule is stated for 'CFCU'.",
+    "Remove 'Cornell's Bursar lists it as Community Bank' for Ithaca Community Bank, or reword to: 'The Bursar's list includes a bank called Community Bank (866-764-8638); we could not confirm it is the same as Ithaca Community Bank.' Source https://bursar.cornell.edu/students-parents/student-resources/local-banking-services",
+    "Tompkins ATM: change 'no fee for non-Tompkins ATMs' to 'Tompkins charges no fee for using non-Tompkins ATMs; the ATM's owner may still charge its own fee'. Change 'Its ATM policy helps if you travel' to match. Source https://www.tompkinsbank.com/student-checking-101",
+    "Change 'An SSN is only available with authorized employment' to 'In general, international students need authorized employment to be eligible to apply for an SSN; there are exceptions such as J-2 dependents with a USCIS work card'. Source https://international.globallearning.cornell.edu/employment-and-taxes/apply-ssn",
+    "In checklist step 3, change 'since Bank of America and some others require it' to 'since Bank of America requires it (Cornell's page)'. Source https://international.globallearning.cornell.edu/getting-started/your-first-week-0",
+    "Add an inline link to https://www.alternatives.org/accounts/checking/ for the 30,000 ATM figure in the Alternatives table row, and add Alternatives' Ithaca branch address (125 N. Fulton Street) and hours (Mon, Tue, Thu, Fri 9-5; Wed 9-3; Sat 10-1) from that page.",
+    "In the FAQ, change 'proof of a physical street address' to 'proof of address (a paycheck stub, utility bill or signed lease)' per https://www.alternatives.org/accounts/open-an-account/, and drop or soften 'Cornell's pages do not say' unless checked."
+  ],
+  "reviewed_at": "2026-11-07"
+}

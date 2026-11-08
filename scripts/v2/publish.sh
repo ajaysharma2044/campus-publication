@@ -27,6 +27,7 @@ cd "$ROOT"
 exec "$PY" - "$@" <<'PY'
 import argparse
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -106,6 +107,14 @@ for r, art in cands:
         log("STOP file found; stopping before the next article")
         break
     errs = lint.lint_article(art, root=REPO, web=web, published=published, live=live)
+    dead = [e.split(": ", 1)[1].strip() for e in errs if e.startswith("internal link does not resolve: ")]
+    if dead:   # a link to an article that was rejected or renamed: unlink it (text stays), a mechanical repair, then lint again
+        text = art.read_text(encoding="utf-8")
+        for path_ in dead:
+            text = re.sub(r"\[([^\]]+)\]\(" + re.escape(path_) + r"\)", r"\1", text)
+        art.write_text(text, encoding="utf-8")
+        log(f"  unlinked {len(dead)} internal link(s) that no longer resolve in {rel(art)}: {', '.join(dead)}")
+        errs = lint.lint_article(art, root=REPO, web=web, published=published, live=live)
     if errs:
         log(f"FAIL {rel(art)} ({r['id']}):")
         for e in errs:

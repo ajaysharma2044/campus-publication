@@ -1,0 +1,50 @@
+[
+ {
+  "source": "wikimedia",
+  "title": "Edinburgh Castle from Grass Market",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Edinburgh_Castle_from_Grass_Market.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Edinburgh_Castle_from_Grass_Market.jpg",
+  "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Edinburgh_Castle_from_Grass_Market.jpg/960px-Edinburgh_Castle_from_Grass_Market.jpg",
+  "author": "George Washington Wilson / Adam Cuerden",
+  "license": "Public domain",
+  "license_url": "",
+  "width": 3460,
+  "height": 2300
+ },
+ {
+  "source": "openverse",
+  "title": "_MG_4143",
+  "page_url": "https://www.flickr.com/photos/12357841@N02/4579514465",
+  "file_url": "https://live.staticflickr.com/4004/4579514465_24c25e471d_b.jpg",
+  "thumb_url": "https://api.openverse.org/v1/images/4548443d-50d6-4fbf-89de-8e737f6dca66/thumb/",
+  "author": "Me in ME",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "width": 1024,
+  "height": 683
+ },
+ {
+  "source": "wikimedia",
+  "title": "Bella 'Righted' by the Golden Dustman",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Bella_%27Righted%27_by_the_Golden_Dustman.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Bella_%27Righted%27_by_the_Golden_Dustman.jpg",
+  "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Bella_%27Righted%27_by_the_Golden_Dustman.jpg",
+  "author": "Marcus Stone",
+  "license": "Public domain",
+  "license_url": "",
+  "width": 720,
+  "height": 456
+ },
+ {
+  "source": "wikimedia",
+  "title": "Elegant preventive of the cholera. (BM 1868,0808.12313)",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Elegant_preventive_of_the_cholera._(BM_1868,0808.12313).jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Elegant_preventive_of_the_cholera._%28BM_1868%2C0808.12313%29.jpg",
+  "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Elegant_preventive_of_the_cholera._%28BM_1868%2C0808.12313%29.jpg/960px-Elegant_preventive_of_the_cholera._%28BM_1868%2C0808.12313%29.jpg",
+  "author": "Print made by: Robert Seymour Published by: Thomas McLean",
+  "license": "Public domain",
+  "license_url": "",
+  "width": 1600,
+  "height": 1200
+ }
+]

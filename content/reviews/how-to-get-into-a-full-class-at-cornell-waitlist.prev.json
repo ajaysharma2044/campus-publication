@@ -1,0 +1,63 @@
+{
+  "slug": "how-to-get-into-a-full-class-at-cornell-waitlist",
+  "queue_id": "q-academics-0001",
+  "verdict": "fix",
+  "fact_check": [
+    {"claim": "Only a limited number of classes have online wait lists", "source_url": "https://registrar.cornell.edu/students/enrollment/a-guide-to-enrollment", "status": "ok", "note": "Page: 'A limited number of classes have online wait lists.'"},
+    {"claim": "Wait List Capacity of 0 means no waitlist; larger number means one is available", "source_url": "https://registrar.cornell.edu/students/enrollment/common-enrollment-questions", "status": "ok", "note": "Page: 'If the capacity is 0, there is not a wait list.'"},
+    {"claim": "Check the Wait List box on the 'Select classes to add' Enrollment Preferences screen", "source_url": "https://registrar.cornell.edu/students/enrollment/common-enrollment-questions", "status": "ok", "note": "Box labeled 'Wait list if class is full' on that screen."},
+    {"claim": "To leave a waitlist, do a drop transaction", "source_url": "https://registrar.cornell.edu/students/enrollment/common-enrollment-questions", "status": "ok", "note": "Page says to perform a drop transaction in Student Center."},
+    {"claim": "Shopping cart does not save a spot", "source_url": "https://registrar.cornell.edu/students/enrollment/common-enrollment-questions", "status": "ok", "note": "Page: 'Use of the shopping cart does not save you a spot in the class.'"},
+    {"claim": "Error 'Class XXXX is full. You have been placed on the wait list in position number 3'", "source_url": "https://registrar.cornell.edu/students/enrollment/common-enrollment-errors", "status": "ok", "note": "Exact message appears; the article's gloss that it is an example of success is a fair reading."},
+    {"claim": "No waitlist: contact offering department to ask about a departmental waitlist; check back / ask about more seats or sections", "source_url": "https://registrar.cornell.edu/students/enrollment/common-enrollment-errors", "status": "ok", "note": "Both points appear on the page (in separate error entries)."},
+    {"claim": "Consent class: contact instructor or department named on padlock", "source_url": "https://registrar.cornell.edu/students/enrollment/common-enrollment-questions", "status": "ok", "note": "Padlock on Class Roster; hover shows instructor or department consent."},
+    {"claim": "Class and waitlist both full: contact offering college or department", "source_url": "https://registrar.cornell.edu/students/enrollment/common-enrollment-errors", "status": "ok", "note": "Matches."},
+    {"claim": "Add/drop deadline passed: contact your college or school registrar", "source_url": "https://registrar.cornell.edu/students/enrollment/common-enrollment-questions", "status": "ok", "note": "Matches."},
+    {"claim": "Unlisted error message: coursenroll@cornell.edu", "source_url": "https://registrar.cornell.edu/students/enrollment/common-enrollment-errors", "status": "ok", "note": "Page names the Curriculum and Scheduling Team at coursenroll@cornell.edu."},
+    {"claim": "'Available seats are reserved' means class limited to a population such as A&S juniors", "source_url": "https://registrar.cornell.edu/students/enrollment/common-enrollment-errors", "status": "ok", "note": "Matches."},
+    {"claim": "Permission numbers are issued to individual students and cannot be shared", "source_url": "https://registrar.cornell.edu/students/enrollment/common-enrollment-errors", "status": "ok", "note": "Matches."},
+    {"claim": "Logging in from multiple windows, browsers or devices can leave requests stuck in 'pending'", "source_url": "https://registrar.cornell.edu/students/enrollment/a-guide-to-enrollment", "status": "ok", "note": "Matches."},
+    {"claim": "Check for holds first if you cannot enroll at your appointment", "source_url": "https://registrar.cornell.edu/students/enrollment/a-guide-to-enrollment", "status": "ok", "note": "Page describes holds shown at top right of Student Center."},
+    {"claim": "Have back-up courses planned in case you need to change your schedule", "source_url": "https://registrar.cornell.edu/students/enrollment/a-guide-to-enrollment", "status": "ok", "note": "Matches."},
+    {"claim": "Swaps only work into open sections", "source_url": "https://registrar.cornell.edu/students/enrollment/student-center-help/swapping-sections-within-a-course", "status": "mismatch", "note": "Registrar calls swapping only into open sections 'best practice', not a hard rule. Article states it as a rule and links it to the registrar."},
+    {"claim": "Checking the waitlist box during a swap: if added to the waitlist you are dropped from all sections of that class", "source_url": "https://registrar.cornell.edu/students/enrollment/student-center-help/swapping-sections-within-a-course", "status": "ok", "note": "Page says you are dropped from all sections of the class you were changing."},
+    {"claim": "Student Center waitlist numbers do not reflect actual priority (Bowers)", "source_url": "https://bowers.cornell.edu/offices/registrar", "status": "ok", "note": "Matches."},
+    {"claim": "Bowers PIN priority: department majors, other Bowers majors, everyone else; seniors first within each group", "source_url": "https://bowers.cornell.edu/offices/registrar", "status": "ok", "note": "Matches."},
+    {"claim": "PINs start end of first week of add/drop, go out every other day as space allows, end with add period", "source_url": "https://bowers.cornell.edu/offices/registrar", "status": "ok", "note": "Matches."},
+    {"claim": "PIN by email, non-transferable, typically valid 24 hours; do not submit ticket for waitlist/PIN status", "source_url": "https://bowers.cornell.edu/offices/registrar", "status": "ok", "note": "Matches."},
+    {"claim": "Bowers: swapping into a full discussion automatically drops you from the course; always enroll in a backup course", "source_url": "https://bowers.cornell.edu/offices/registrar", "status": "ok", "note": "Matches."},
+    {"claim": "Application-based courses: professor emails a PIN to accepted students", "source_url": "https://bowers.cornell.edu/offices/registrar", "status": "ok", "note": "Matches."},
+    {"claim": "CS 1000-3000 open first-come first-served, CS 3700 and 3780 majors-only for pre-enrollment; 4000 level majors-only pre-enrollment with waitlists for others", "source_url": "https://bowers.cornell.edu/offices/registrar", "status": "ok", "note": "Matches."},
+    {"claim": "No waitlists for CS 1000, 2000, 3000 level courses (Engineering advising)", "source_url": "https://www.duffield.cornell.edu/advising/course-enrollment-challenges/", "status": "ok", "note": "Matches; page says monitor open seats."},
+    {"claim": "Physics waitlists open just before pre-enroll window and close at 4pm ET on the day the add period closes", "source_url": "https://www.physics.cornell.edu/enrollment-guide", "status": "ok", "note": "Matches."},
+    {"claim": "Physics guarantees a spot in PHYS 1110, 1112, 1116, 2210, 2213, 2214, 2217, 2218 only to students who join during pre-enroll", "source_url": "https://www.physics.cornell.edu/enrollment-guide", "status": "mismatch", "note": "Course list and pre-enroll condition match, but the guarantee is for Physics and Engineering students; the article omits that condition. 'Joining later is not guaranteed' is the article's inference, not stated."},
+    {"claim": "Physics: cannot swap into a full class or section; dropping yourself means you are not added back; do not enroll in conflicting sections", "source_url": "https://www.physics.cornell.edu/enrollment-guide", "status": "ok", "note": "All three appear."},
+    {"claim": "Physics full-section request: email physicsenrollment@cornell.edu with NetID, Cornell ID, conflicting class, required class, advisor contact; specific time/section requests not accepted", "source_url": "https://www.physics.cornell.edu/enrollment-guide", "status": "ok", "note": "Matches."},
+    {"claim": "BIOMG 1350: use swap because dropping may mean the department cannot re-enroll you", "source_url": "https://www.duffield.cornell.edu/advising/course-enrollment-challenges/", "status": "ok", "note": "Page: Biology office will not be able to re-enroll you."},
+    {"claim": "Some Engineering (MAE) courses: Sibley Qualtrics form does not guarantee placement", "source_url": "https://www.duffield.cornell.edu/advising/course-enrollment-challenges/", "status": "ok", "note": "Matches."},
+    {"claim": "First-year writing seminars: you can enroll in only one", "source_url": "https://www.duffield.cornell.edu/advising/course-enrollment-challenges/", "status": "mismatch", "note": "Page says only to enroll in a seminar with open spots; it does not limit students to one. The 'seminars fill fast' claim is also not on the page."},
+    {"claim": "Juniors and seniors may prefer ENGL 2880 or 2860, which can substitute for FWS credit", "source_url": "https://www.duffield.cornell.edu/advising/course-enrollment-challenges/", "status": "ok", "note": "Matches."},
+    {"claim": "Tommy Tsai '24 said getting into classes means checking Student Center daily during add/drop", "source_url": "https://www.cornellsun.com/article/2023/01/computer-and-information-science-students-struggle-with-course-enrollment-adding-stress-instead-of-classes", "status": "ok", "note": "Quote found; used as attributed student experience, not policy."},
+    {"claim": "Emma Warden '25: so many people on the waitlist that about fifteen students tried to reach the professor after class", "source_url": "https://www.cornellsun.com/article/2023/01/computer-and-information-science-students-struggle-with-course-enrollment-adding-stress-instead-of-classes", "status": "ok", "note": "Source: 'a line of fifteen kids trying to talk to the professor after the class'. The article's 'so many people were on the waitlist' framing was not confirmed in the fetched excerpt; soften."},
+    {"claim": "CIS degrees nearly doubled between 2017 and 2022", "source_url": "https://www.cornellsun.com/article/2023/01/computer-and-information-science-students-struggle-with-course-enrollment-adding-stress-instead-of-classes", "status": "ok", "note": "Source: 682 to 1,250."}
+  ],
+  "beats_top": {
+    "query": "how to get into a full class at Cornell waitlist",
+    "top_url": "https://stat.cornell.edu/node/3030",
+    "better": "yes",
+    "why": "The #1 result (a Statistics department page; returned 403 on fetch, so unread) and the next results (Bowers registrar, Engineering ENGRC waitlist) are single-department pages; ours combines registrar rules, waitlist checkbox, swap traps and who-to-contact in one flow. Judged from the search snippets and the Bowers page, not the top page itself.",
+    "changes": [
+      "Add a short dated note that Cornell course waitlists are unrelated to the undergraduate admissions waitlist, so searchers landing here from that noise are oriented.",
+      "Add the Computer Science detail that CS urges students to pre-enroll in a backup, and mention that both lecture and lab seats must be open, with a link to an official page.",
+      "Fix the sourcing slips listed in fixes so no claim goes beyond the cited page."
+    ]
+  },
+  "fixes": [
+    "Change 'Swaps only work into open sections' to say the registrar calls swapping only into open sections 'best practice', then keep the sentence that checking the waitlist box during a swap drops you from all sections; source https://registrar.cornell.edu/students/enrollment/student-center-help/swapping-sections-within-a-course",
+    "In the first-year writing seminar bullet, delete 'seminars fill fast and you can enroll in only one'; replace with 'enroll only in a seminar that has open spots', which is what https://www.duffield.cornell.edu/advising/course-enrollment-challenges/ says.",
+    "In the Physics paragraph, say the waitlist guarantee for PHYS 1110, 1112, 1116, 2210, 2213, 2214, 2217 and 2218 applies to Physics and Engineering students who join during their pre-enroll period; delete or label as our inference the sentence 'joining later is not guaranteed'; source https://www.physics.cornell.edu/enrollment-guide",
+    "In 'What students report', replace 'so many people were on the waitlist that about fifteen students were trying to reach the professor' with 'described a line of fifteen students trying to talk to the professor after class'; source the Sun article.",
+    "Add one sentence near the top: this guide is about course waitlists, not the undergraduate admissions waitlist."
+  ],
+  "reviewed_at": "2026-11-07"
+}

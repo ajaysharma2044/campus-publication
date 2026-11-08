@@ -1,0 +1,47 @@
+{
+  "slug": "cornell-add-drop-deadline-w-on-transcript",
+  "queue_id": "q-academics-0003",
+  "verdict": "fix",
+  "fact_check": [
+    {"claim": "Fall 2026 last day to drop regular classes is October 19; spring 2027 is March 22", "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar", "status": "ok", "note": "Calendar lists Oct 19 (fall) and Mar 22 (spring) as last day to drop, regular courses."},
+    {"claim": "Fall last day to add Sep 8, 2026; spring Feb 8, 2027", "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar", "status": "ok", "note": "Matches calendar."},
+    {"claim": "Last day of instruction Dec 7, 2026 (fall) and May 11, 2027 (spring)", "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar", "status": "ok", "note": "Matches calendar."},
+    {"claim": "Fall 7-week 2 drop deadline Nov 11, last day of instruction Dec 4; spring 7-week 1 drop Feb 22, 7-week 2 drop Apr 14", "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar", "status": "ok", "note": "All four dates match the calendar tables."},
+    {"claim": "Drop deadline is also the last day to change grading basis", "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar", "status": "ok", "note": "Calendar lists Nov 11 / Apr 14 as grading basis and drop deadline for 7-week 2; CALS page also says grading option deadline equals drop deadline."},
+    {"claim": "A&S: regular courses can be added during the first 15 calendar days", "source_url": "https://as.cornell.edu/index%2Ephp/registrar/policies", "status": "ok", "note": "Page says first 15 calendar days of the semester."},
+    {"claim": "A&S: course dropped within first 57 days comes off the transcript (no academic integrity issue)", "source_url": "https://as.cornell.edu/index%2Ephp/registrar/policies", "status": "ok", "note": "Stated on page."},
+    {"claim": "A&S: after day 57 a W appears; W is a matter of record and cannot be petitioned; petitions not accepted after published deadlines except exceptional circumstances", "source_url": "https://as.cornell.edu/index%2Ephp/registrar/policies", "status": "ok", "note": "Page says withdrawal by petition until the withdrawal deadline in the college calendar, W on transcript, 'a matter of record and cannot be petitioned'."},
+    {"claim": "Short/modular courses may not follow standard deadlines (A&S)", "source_url": "https://as.cornell.edu/index%2Ephp/registrar/policies", "status": "ok", "note": "Page says deadlines are adjusted for course length."},
+    {"claim": "CALS: W requested by last day of classes, no exceptions after", "source_url": "https://cals.cornell.edu/undergraduate-students/cals-student-services/academic-resources/withdrawing-course", "status": "ok", "note": "Page: last day of classes is the deadline to request a W; 'NO exceptions past the deadline'."},
+    {"claim": "CALS: W does not affect GPA, F does; both count as attempted credits, neither earned", "source_url": "https://cals.cornell.edu/undergraduate-students/cals-student-services/academic-resources/withdrawing-course", "status": "ok", "note": "Stated on page."},
+    {"claim": "CALS: consult advisor if dropping below 12 credits; aid recipients, veterans, international students, athletes should consult relevant office", "source_url": "https://cals.cornell.edu/undergraduate-students/cals-student-services/academic-resources/withdrawing-course", "status": "ok", "note": "Stated on page."},
+    {"claim": "Brooks: W through last day of instruction for full-semester and 7-week classes; follows university dates; short courses may differ", "source_url": "https://www.publicpolicy.cornell.edu/?p=23333", "status": "ok", "note": "Matches page."},
+    {"claim": "Graduate School: drop by posted date; later drop gives W; last day of classes is W deadline", "source_url": "https://gradschool.cornell.edu/academic-progress/enrollment-status-progress/enrolling-in-courses/", "status": "ok", "note": "Matches page; exceptions only by petition in truly exceptional circumstances."},
+    {"claim": "ILR: after the deadline drop only by petition to the Faculty Committee on Academic Standards and Scholarships; poor performance alone is not a reason; petitions may be denied; W stays on record if course retaken", "source_url": "https://www.ilr.cornell.edu/current-students/academic-policies/dropping-course", "status": "ok", "note": "All supported. The quoted phrase 'not regarded as a reason' was checked via paraphrase of the page; keep it as a short phrase."},
+    {"claim": "Engineering: free drop is the 57th day (table row)", "source_url": "https://www.duffield.cornell.edu/registrar/leave-of-absence-and-withdrawal/", "status": "mismatch", "note": "Page only names the 57th day as the Cornell drop deadline in the context of leaves/full-term withdrawals; it gives no single-course rule. The table row presents it as Engineering's single-course free-drop rule."},
+    {"claim": "Engineering: in-semester leave/withdrawal after day 57 through last day of term gives W grades; W does not affect GPA", "source_url": "https://www.duffield.cornell.edu/registrar/leave-of-absence-and-withdrawal/", "status": "ok", "note": "Page: 'W grades do not impact a student's GPA'."},
+    {"claim": "Engineering: W grades may negatively impact financial aid packaging, international visa status and athletics eligibility", "source_url": "https://www.duffield.cornell.edu/registrar/leave-of-absence-and-withdrawal/", "status": "ok", "note": "All three stated on page."},
+    {"claim": "March 24, 2026 Educational Policy Committee resolution: add through day 10, drop with no notation through day 11, W from day 12 through Friday of Week 9 by self-service, college petition from Monday of Week 10", "source_url": "https://deanoffaculty.cornell.edu/?p=64112", "status": "ok", "note": "Posted 24 March 2026; text matches. Suggested timeline lists Faculty Senate vote in Spring 2026; under Pending Matters. Section 3.h says 'through Week 8', so the inconsistency note is correct."},
+    {"claim": "Spring 2021: drop allowed through last day of instruction, May 14, without transcript notation", "source_url": "https://cornellsun.com/2021/04/13/citing-widespread-stressors-cornell-extends-drop-deadline-to-last-day-of-classes", "status": "ok", "note": "Sun confirms May 14 and no 'Withdrawn' notation, one semester. Used only for history, not a current rule."},
+    {"claim": "The senate proposal is still pending (lede: 'still pending when we checked')", "source_url": "https://deanoffaculty.cornell.edu/?p=64112", "status": "unverifiable", "note": "Page lists it as pending but is dated March 2026 with a spring 2026 vote suggested; the article's body already says no result was found. Soften the lede to match."}
+  ],
+  "beats_top": {
+    "query": "cornell add drop deadline W on transcript",
+    "top_url": "https://as.cornell.edu/index%2Ephp/registrar/policies",
+    "why": "The #1 result is the A&S registrar policy page, which covers only A&S and gives no dates. Ours has dates, a college comparison and a what-to-do section, so it is already stronger for most students, but it leaves out several colleges and does not give the A&S W cutoff, which is the question many students will ask.",
+    "better": "yes",
+    "changes": [
+      "Add the A&S withdrawal deadline from the A&S important-dates page, so the A&S row is not left blank",
+      "Add rows for the Vet College, Hotel School, AAP, Dyson and CIS where an official page states a rule, or say plainly which could not be found",
+      "Make the 'where you are today' answer sharper: it is Nov 7, past Oct 19, so say W with petition (A&S) or W by request (CALS, Brooks, Grad) and give Dec 7"
+    ]
+  },
+  "fixes": [
+    "In the A&S table row and in step 3 of 'What happens at each stage', replace 'the A&S page does not give that date' with the A&S withdrawal-by-petition deadline taken from https://as.cornell.edu/index%2Ephp/registrar/important-dates (search results suggest Dec 7, 2026 fall and May 11, 2027 spring, with Oct 20 / Mar 23 the first days a W appears). Open the page, confirm these dates, and link it. If the page does not state them, leave the row as is.",
+    "In the College by college table, change the Engineering 'Free drop (no W)' cell from '57th day' to 'University drop deadline (page covers leaves/withdrawals only; no single-course rule found)'.",
+    "Add table rows for the Vet College (try https://www.vet.cornell.edu/sites/default/files/003-Add-DropPolicy.pdf), the School of Hotel Administration, AAP, Dyson and CIS, each only if an official page you open states the rule, with the link. For any college not found, keep one sentence listing it as not checked.",
+    "In the first paragraph, change 'it was still pending when we checked' to say the resolution was posted March 24, 2026 and we found no recorded vote.",
+    "Add one sentence under 'If you are...' for the reader's situation as of early November: fall drop deadline Oct 19 has passed, last day of instruction is Dec 7, and the Nov 11 7-week 2 drop deadline is days away."
+  ],
+  "reviewed_at": "2026-11-07"
+}

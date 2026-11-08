@@ -1,0 +1,46 @@
+{
+  "slug": "wegmans-vs-aldi-vs-price-chopper-ithaca-cheapest-grocery",
+  "queue_id": "q-money-0024",
+  "verdict": "fix",
+  "fact_check": [
+    {"claim": "Market Report survey priced 50 staples at 30 Northeast stores in late August and early September 2025", "source_url": "https://www.marketreportblog.com/2025/09/the-cheapest-grocery-stores-in-northeast.html", "status": "ok", "note": "30 stores; priced Aug 26, 27, 31 and Sep 1, 2025."},
+    {"claim": "Aldi (Johnston, RI) $255.94, ranked 1st of 30", "source_url": "https://www.marketreportblog.com/2025/09/the-cheapest-grocery-stores-in-northeast.html", "status": "ok", "note": "Matches table."},
+    {"claim": "Wegmans (Montvale, NJ) $312.91, 12th", "source_url": "https://www.marketreportblog.com/2025/09/the-cheapest-grocery-stores-in-northeast.html", "status": "ok", "note": "Matches table."},
+    {"claim": "Tops (New Paltz, NY) $336.54, 18th", "source_url": "https://www.marketreportblog.com/2025/09/the-cheapest-grocery-stores-in-northeast.html", "status": "ok", "note": "Matches table."},
+    {"claim": "Price Chopper (Warwick, NY) $341.90, 21st", "source_url": "https://www.marketreportblog.com/2025/09/the-cheapest-grocery-stores-in-northeast.html", "status": "ok", "note": "Matches table."},
+    {"claim": "Gap between Aldi and Wegmans about $57", "source_url": "https://www.marketreportblog.com/2025/09/the-cheapest-grocery-stores-in-northeast.html", "status": "ok", "note": "312.91 - 255.94 = 56.97."},
+    {"claim": "Aldi beat the next-cheapest store in the survey by $15", "source_url": "https://www.marketreportblog.com/2025/09/the-cheapest-grocery-stores-in-northeast.html", "status": "ok", "note": "Next lowest was Walmart Neighborhood Market, Levittown NY, $271.01 (about $15.07 higher)."},
+    {"claim": "Many chains charge different prices at different locations; Tops is a sister store to Price Chopper", "source_url": "https://www.marketreportblog.com/2025/09/the-cheapest-grocery-stores-in-northeast.html", "status": "ok", "note": "Both stated in the post."},
+    {"claim": "Sun 2022 list names two Aldi, a Wegmans, Trader Joe's, a Tops, two GreenStar and Anabel's Grocery; no Price Chopper", "source_url": "https://cornellsun.com/2022/11/30/lack-of-nearby-grocery-stores-leave-students-with-limited-options/", "status": "ok", "note": "Store list matches; Price Chopper not mentioned. This is a 2022 student newspaper, so the 'no Price Chopper in Ithaca' claim is correctly hedged as 'we found none'."},
+    {"claim": "Route 30 reaches Tops; Route 15 reaches Wegmans and Trader Joe's; Route 15 hourly on weekdays; fastest trip to Wegmans about half an hour", "source_url": "https://cornellsun.com/2022/11/30/lack-of-nearby-grocery-stores-leave-students-with-limited-options/", "status": "ok", "note": "All stated; half-hour is a Google Maps estimate in the article. Dated 2022 and flagged as such. Schedule is a hard fact resting on a newspaper; acceptable only because dated and flagged, but an official TCAT link would be better."},
+    {"claim": "Katie Go '22, an Anabel's employee, said Collegetown options without a car were more expensive than Wegmans or Walmart", "source_url": "https://cornellsun.com/2022/11/30/lack-of-nearby-grocery-stores-leave-students-with-limited-options/", "status": "mismatch", "note": "Source: when she lived in Collegetown the nearby options cost more than Wegmans or Walmart, which were themselves hard to reach without a car. 'Without a car' attaches to reaching Wegmans/Walmart, not to the Collegetown options."},
+    {"claim": "Alexandra Michael '23 and roommate went three weeks without grocery shopping because they had no car; unreliable transportation the biggest factor", "source_url": "https://cornellsun.com/2022/11/30/lack-of-nearby-grocery-stores-leave-students-with-limited-options/", "status": "ok", "note": "Matches."},
+    {"claim": "Carlin Reyen, a third-year student, calls Tops and P&C Fresh some of the most affordable options near campus", "source_url": "https://cornellsun.com/2024/04/22/a-cheapskates-guide-to-navigating-cornell", "status": "mismatch", "note": "Quote about affordability is correct, but the source is inconsistent on her year (third year, junior, and fourth year in bio). Drop the year."},
+    {"claim": "Reyen calls the trip to Tops and P&C Fresh without a car a logistical nightmare and mentions a TCAT shortage that left her stranded in Lansing", "source_url": "https://cornellsun.com/2024/04/22/a-cheapskates-guide-to-navigating-cornell", "status": "ok", "note": "'logistical nightmare' and 'abandoned in Lansing during a TCAT shortage' both appear. Short phrase use is fine."},
+    {"claim": "Ithaca Wegmans at 500 South Meadow Street, open 6 AM to midnight seven days a week", "source_url": "https://www.wegmans.com/stores/ithaca-ny", "status": "ok", "note": "Matches."},
+    {"claim": "Cornell Health tells students to try different Ithaca-area stores for best prices and buy generic/store brands", "source_url": "https://health.cornell.edu/services/nutrition-services/affordable-food", "status": "ok", "note": "Both stated."},
+    {"claim": "Anabel's Grocery in Anabel Taylor Hall is student-run, offers discounted groceries, accepts SNAP, runs during the academic year", "source_url": "https://health.cornell.edu/services/nutrition-services/affordable-food", "status": "ok", "note": "All confirmed."},
+    {"claim": "Aldi is the likeliest cheapest in Ithaca (inference from Northeast survey)", "source_url": "https://www.marketreportblog.com/2025/09/the-cheapest-grocery-stores-in-northeast.html", "status": "ok", "note": "Labeled clearly as inference from non-Ithaca stores. Source also notes Aldi had more substitutions because of fewer national brands, which the article omits."},
+    {"claim": "We could not confirm Aldi's address or bus service, or a current TCAT fare", "source_url": "https://tcatbus.com", "status": "unverifiable", "note": "Not a claim to check, but a gap: these are findable on official pages (Aldi store locator, TCAT site) and the article should supply them."}
+  ],
+  "beats_top": {
+    "query": "wegmans vs aldi vs price chopper ithaca cheapest grocery store",
+    "top_url": "https://epfreelancewriting.blogspot.com/2011/11/as-promised.html",
+    "better": "yes",
+    "why": "The #1 result is a 2011 blog post comparing Aldi, Tops and Wegmans in rough dollar terms, with no Price Chopper, no 2025 data and no transit. Ours is current, sourced and honest about its limits, but the opening is heavily hedged and lacks Aldi's location and the bus fare, which a student needs to act.",
+    "changes": [
+      "Add Aldi's Ithaca address(es) and whether a TCAT route serves them, from Aldi's store locator and TCAT's site.",
+      "Add the current TCAT fare/Cornell pass note from tcatbus.com so the 'add bus cost' step has a number.",
+      "Lead the first paragraph with the answer and the key number (Aldi about $57 below Wegmans on 50 items in a Northeast survey) before the caveats."
+    ]
+  },
+  "fixes": [
+    "Rewrite the Katie Go sentence to match the source: she said that when she lived in Collegetown, nearby grocery options cost more than Wegmans or Walmart, which were hard to reach without a car; source https://cornellsun.com/2022/11/30/lack-of-nearby-grocery-stores-leave-students-with-limited-options/",
+    "Remove 'a third-year student' from the Carlin Reyen sentence (the source gives her year inconsistently); say 'Sun columnist Carlin Reyen'; source https://cornellsun.com/2024/04/22/a-cheapskates-guide-to-navigating-cornell",
+    "Replace 'We did not confirm either Aldi's address or its bus service' with Aldi's Ithaca address(es) from Aldi's official store locator (aldi.us) and the TCAT route that serves it from https://tcatbus.com, each linked inline; if either cannot be found, say so in one sentence.",
+    "Add the current TCAT fare (and any Cornell student pass note) from https://tcatbus.com with an inline link, replacing 'We could not confirm a current TCAT fare'; update the Route 15 frequency from TCAT's current timetable if available, otherwise keep the 2022 label.",
+    "Add one sentence in the survey section that Aldi carried fewer national brands and had more substitutions than most stores in the survey (source: the Market Report post), so the Aldi ranking is not read as like-for-like.",
+    "Rewrite the first paragraph to lead with the answer and number: Aldi was about $57 cheaper than Wegmans on a 50-item basket in a Sept 2025 Northeast survey (not Ithaca stores), Wegmans is the documented bus trip, and no Price Chopper was found in Ithaca; keep the caveat after."
+  ],
+  "reviewed_at": "2026-11-07"
+}
