@@ -20,7 +20,7 @@ Generated 2026-11-08 with Lighthouse (mobile emulation, simulated throttling) ag
 | 14 | 404 | 100 | 100 | 100 | 66 | 0.8 s | 0 | 14-404.report.html |
 | 15 | styleguide | 100 | 100 | 100 | 69 | 0.8 s | 0 | 15-styleguide.report.html |
 | 16 | pillar-sample | 97 | 100 | 100 | 69 | 2.6 s | 0 | 16-pillar-sample.report.html |
-| 17 | tool | 100 | 95 | 100 | 100 | 0.8 s | 0 | 17-tool.report.html |
+| 17 | tool | 100 | 100 | 100 | 100 | 0.8 s | 0 | 17-tool.report.html |
 | 18 | dataset | 100 | 100 | 100 | 100 | 0.8 s | 0 | 18-dataset.report.html |
 | 19 | start | 100 | 100 | 100 | 100 | 0.8 s | 0 | 19-start.report.html |
 
@@ -33,5 +33,5 @@ The live Netlify deploy is a noindex preview, so its SEO score is capped; perfor
 | # | Page | Performance | Accessibility | Best practices | SEO | LCP | CLS | Report |
 |---|---|---|---|---|---|---|---|---|
 | L1 | live-homepage | 100 | 100 | 100 | 66 | 1.8 s | 0 | L1-live-homepage.report.html |
-| L2 | live-pillar | 98 | 100 | 100 | 69 | 2.4 s | 0 | L2-live-pillar.report.html |
-| L3 | live-topic-hub | 98 | 100 | 100 | 66 | 2.3 s | 0 | L3-live-topic-hub.report.html |
+| L2 | live-pillar | 99 | 100 | 100 | 69 | 2.0 s | 0 | L2-live-pillar.report.html |
+| L3 | live-topic-hub | 98 | 100 | 100 | 66 | 2.3 s | 0.001 | L3-live-topic-hub.report.html |
