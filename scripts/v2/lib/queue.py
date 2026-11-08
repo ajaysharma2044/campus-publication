@@ -39,7 +39,7 @@ TRANSITIONS = {
     "proposed": {"approved", "rejected"},
     "approved": {"writing", "rejected"},
     "writing": {"written", "approved", "fix"},     # back to approved (or fix) when the session left no complete article
-    "written": {"reviewing", "published"},         # published only with a passing review (publish.sh)
+    "written": {"reviewing", "published", "fix", "rejected"},   # published only with a passing review; publish.sh's lint may send it to one revision or reject a duplicate
     "reviewing": {"written", "fix", "rejected"},   # written = the review passed (verdict lives in content/reviews/<slug>.json)
     "fix": {"writing", "rejected"},
     "published": set(),
