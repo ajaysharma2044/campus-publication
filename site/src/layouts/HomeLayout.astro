@@ -16,7 +16,7 @@ for (const s of [...site.schools].sort((a, b) => a.name.localeCompare(b.name))) 
 const data = dataPages(m.pages).slice(0, 4);
 const rows = site.homeTopics.map((id) => ({ topic: topicById(id)!, items: m.pages.filter((p) => p.topic.id === id && !p.crossSchool).slice(0, 4) })).filter((r) => r.items.length);
 ---
-<Base title={`${site.name}: ${site.tagline}`} description={`${site.tagline} of Cornell University and Ithaca. Every price, date and rule links to the official page it came from.`} path="/" bodyClass="home">
+<Base title={`${site.name}: ${site.tagline}`} description={`${site.tagline} of Cornell University and Ithaca. Every price, date and rule links to the official page it came from.`} path="/" bodyClass="home" searchable={false}>
   <h1 class="visually-hidden">{site.name}: {site.tagline}</h1>
   {lead ? (
     <section class="front" aria-label="Front page">

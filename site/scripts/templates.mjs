@@ -5,7 +5,7 @@ export const TEMPLATES = [
   { n: 3, slug: 'topic-hub', url: '/cornell/money/' },
   { n: 4, slug: 'audience-hub', url: '/cornell/parents/' },
   { n: 5, slug: 'pillar', url: '/cornell/housing/cornell-transfer-housing/' },
-  { n: 6, slug: 'answer', url: '/cornell/academics/cornell-s-u-grading-option-should-i-take/' },
+  { n: 6, slug: 'answer', url: '/cornell/alumni/cornell-fitness-centers-alumni-membership/' },
   { n: 7, slug: 'place', url: '/styleguide/place/' },
   { n: 8, slug: 'data', url: '/styleguide/data/' },
   { n: 9, slug: 'comparison', url: '/styleguide/comparison/' },

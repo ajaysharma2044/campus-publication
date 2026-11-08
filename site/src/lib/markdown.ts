@@ -60,7 +60,7 @@ function figureHtml(body: string): string {
   }
   if (fig.kind === 'steps') {
     return `<section class="steps"><h3 class="steps__title">${title}</h3><ol class="steps__list">` +
-      rows.map((r: any, i: number) => `<li class="steps__item"><span class="steps__num" aria-hidden="true">${i + 1}</span><div class="steps__body"><p class="steps__label">${esc(r.label)}</p>${r.value ? `<p class="steps__detail">${esc(r.value)}</p>` : ''}</div></li>`).join('') +
+      rows.map((r: any) => `<li class="steps__item"><div class="steps__body"><p class="steps__label">${esc(r.label)}</p>${r.value ? `<p class="steps__detail">${esc(r.value)}</p>` : ''}</div></li>`).join('') +
       `</ol></section>`;
   }
   if (fig.kind === 'timeline') {

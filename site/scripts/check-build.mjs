@@ -3,6 +3,7 @@
 //  - every internal link resolves to a built file
 //  - no orphans: every page links to at least 3 other pages from its main content (breadcrumbs and the shell excluded)
 //  - every child page of a topic appears on its topic hub (and data pages on the data index, cross-school guides on /guides/)
+//  - writes dist/_redirects: the Jinja site's URLs (/{topic}/{slug}/, /{topic}/, /editorial-policy/) 301 to the new ones
 //  - page_type, required fields and place fact fields are checked earlier, in src/lib/model.ts, where a throw fails the build
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
@@ -44,7 +45,14 @@ for (const p of manifest.pages) {
   if (!hub) { failures.push(`${p.url}: its hub ${p.hub} was not built`); continue; }
   if (!hub.includes(`href="${p.url}"`)) failures.push(`${p.hub}: does not list its child page ${p.url}`);
 }
-console.log(`check-build: ${files.length} pages, ${manifest.pages.length} content pages checked against their hubs`);
+// Netlify redirects from the Jinja renderer's URLs to the Astro ones
+const redirects = [];
+const seen = new Set();
+for (const p of manifest.pages) { if (p.oldUrl && p.oldUrl !== p.url && !seen.has(p.oldUrl)) { seen.add(p.oldUrl); redirects.push(`${p.oldUrl} ${p.url} 301`); } }
+for (const t of new Set(manifest.pages.map((p) => p.topic))) { const from = `/${t}/`; if (!exists.has(from) && !seen.has(from)) { seen.add(from); redirects.push(`${from} /${manifest.pages.find((p) => p.topic === t).school}/${t}/ 301`); } }
+redirects.push('/editorial-policy/ /editorial-standards/ 301');
+await fs.writeFile(path.join(dist, '_redirects'), redirects.join('\n') + '\n');
+console.log(`check-build: ${files.length} pages, ${manifest.pages.length} content pages checked against their hubs, ${redirects.length} redirects written`);
 for (const w of warn) console.log('warning:', w);
 if (failures.length) { console.error(`check-build: ${failures.length} failure(s)`); for (const f of failures) console.error(' -', f); process.exit(1); }
 console.log('check-build: all checks passed');

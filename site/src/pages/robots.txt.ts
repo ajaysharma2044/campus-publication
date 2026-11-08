@@ -1,8 +1,18 @@
 import type { APIRoute } from 'astro';
+import { readFileSync, existsSync } from 'node:fs';
+import path from 'node:path';
+import yaml from 'js-yaml';
 import { site } from '../../site.config';
+
+/** The production robots.txt follows config/crawlers.yml (allow and disallow lists per user agent), like scripts/v2/render_site.py;
+ *  a preview build stays Disallow: / for everyone. */
 export const GET: APIRoute = () => {
-  const body = site.production
-    ? `User-agent: *\nAllow: /\nDisallow: /search/\nDisallow: /styleguide/\n\nSitemap: ${site.url}/sitemap.xml\n`
-    : `User-agent: *\nDisallow: /\n`;
-  return new Response(body, { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
+  if (!site.production) return new Response('User-agent: *\nDisallow: /\n', { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
+  const file = path.resolve('..', 'config', 'crawlers.yml');
+  const crawlers: any = existsSync(file) ? (yaml.load(readFileSync(file, 'utf8')) as any) : {};
+  const lines = ['# Footnote Daily crawler policy; the lists live in config/crawlers.yml'];
+  for (const ua of crawlers?.allow ?? []) lines.push('', `User-agent: ${ua}`, 'Allow: /');
+  for (const ua of crawlers?.disallow ?? []) lines.push('', `User-agent: ${ua}`, 'Disallow: /');
+  lines.push('', 'User-agent: *', 'Allow: /', 'Disallow: /search/', 'Disallow: /styleguide/', '', `Sitemap: ${site.url}/sitemap.xml`, '');
+  return new Response(lines.join('\n'), { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
 };

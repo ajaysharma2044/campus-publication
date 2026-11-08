@@ -6,6 +6,6 @@ const { title, steps } = Astro.props;
 <section class="steps">
   {title ? <h3 class="steps__title">{title}</h3> : null}
   <ol class="steps__list">
-    {steps.map((s, i) => <li class="steps__item"><span class="steps__num" aria-hidden="true">{i + 1}</span><div class="steps__body"><p class="steps__label">{s.label}</p>{s.detail ? <p class="steps__detail">{s.detail}</p> : null}</div></li>)}
+    {steps.map((s) => <li class="steps__item"><div class="steps__body"><p class="steps__label">{s.label}</p>{s.detail ? <p class="steps__detail">{s.detail}</p> : null}</div></li>)}
   </ol>
 </section>

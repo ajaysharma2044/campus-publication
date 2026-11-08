@@ -1,5 +1,5 @@
 // One Lighthouse run (mobile, the default) per template into reports/lighthouse/, plus a summary table.
-import { spawnSync } from 'node:child_process';
+import { spawn } from 'node:child_process';
 import path from 'node:path';
 import { promises as fs } from 'node:fs';
 import { serve } from './serve.mjs';
@@ -7,14 +7,24 @@ import { TEMPLATES } from './templates.mjs';
 const out = path.resolve('..', 'reports', 'lighthouse');
 await fs.mkdir(out, { recursive: true });
 const { server, url } = await serve('dist');
-const chrome = process.env.CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+import { existsSync } from 'node:fs';
+import os from 'node:os';
+// Lighthouse runs as an async child process: the static server lives in this same process, so a blocking spawn would starve it
+// (the first version did exactly that and every run timed out). Chrome for Testing (Playwright's) is preferred for a fixed version.
+const cft = path.join(os.homedir(), 'Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing');
+const chrome = process.env.CHROME_PATH || (existsSync(cft) ? cft : '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome');
 const bin = path.resolve('node_modules', '.bin', 'lighthouse');
 const rows = [];
 for (const t of TEMPLATES) {
   const nn = String(t.n).padStart(2, '0');
   const base = path.join(out, `${nn}-${t.slug}`);
-  const r = spawnSync(bin, [url + t.url, '--output=html', '--output=json', `--output-path=${base}`, '--quiet', '--chrome-flags=--headless=new --no-sandbox --disable-gpu', '--only-categories=performance,accessibility,best-practices,seo'],
-    { env: { ...process.env, CHROME_PATH: chrome }, stdio: ['ignore', 'inherit', 'inherit'], timeout: 180000 });
+  const r = await new Promise((resolve) => {
+    const child = spawn(bin, [url + t.url, '--output=html', '--output=json', `--output-path=${base}`, '--quiet', '--chrome-flags=--headless=new --no-sandbox --disable-gpu', '--only-categories=performance,accessibility,best-practices,seo'],
+      { env: { ...process.env, CHROME_PATH: chrome }, stdio: ['ignore', 'inherit', 'inherit'] });
+    const timer = setTimeout(() => child.kill('SIGKILL'), 180000);
+    child.on('exit', (status) => { clearTimeout(timer); resolve({ status }); });
+    child.on('error', () => { clearTimeout(timer); resolve({ status: -1 }); });
+  });
   let scores = null;
   try {
     const j = JSON.parse(await fs.readFile(`${base}.report.json`, 'utf8'));

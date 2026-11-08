@@ -8,7 +8,7 @@ import GuideList from '../../components/GuideList.astro';
 const crumbs = [{ label: 'Home', href: '/' }, { label: 'Authors' }];
 const dek = 'Who researches, writes and checks Footnote Daily guides, and how.';
 ---
-<Base title="Authors and staff" description={dek} path="/authors/" jsonld={[breadcrumbList(crumbs), webPage({ title: 'Authors and staff', dek, url: '/authors/' })]}>
+<Base title="Authors and staff" description={dek} path="/authors/" searchable={false} jsonld={[breadcrumbList(crumbs), webPage({ title: 'Authors and staff', dek, url: '/authors/' })]}>
   <div class="page--single"><div class="main">
     <Breadcrumbs crumbs={crumbs} />
     <header class="head"><h1>Authors and staff</h1><p class="dek">{dek}</p></header>

@@ -26,7 +26,7 @@ const versions = page.data.school_versions ?? [];
 const jsonld = [breadcrumbList(crumbsFor(page)), article({ title: page.title, dek: page.dek, url: page.url, updated: page.updated, image: page.lead?.src, author: { name: page.author.name, url: authorUrl(page.author), kind: page.author.kind }, words: page.words })];
 if (b.faq.length) jsonld.push(faqPage(b.faq));
 ---
-<Base title={page.title} description={page.dek} path={page.url} ogType="article" ogImage={page.lead?.src} preloadImage={page.lead?.src} school={crossSchool ? null : page.school} current={page.topic.id} noindex={page.sample} jsonld={jsonld}>
+<Base title={page.title} description={page.dek} path={page.url} ogType="article" ogImage={page.lead?.src} preloadSrcset={page.lead?.srcsetAvif || undefined} preloadImage={page.lead?.srcsetAvif ? undefined : page.lead?.src} school={crossSchool ? null : page.school} current={page.topic.id} noindex={page.sample} jsonld={jsonld}>
   <div class="page--article">
     <article class="main">
       <ArticleHead page={page} kicker={crossSchool ? `Cross-school guide · ${page.topic.label}` : undefined} />

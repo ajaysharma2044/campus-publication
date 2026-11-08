@@ -18,7 +18,13 @@ for (const t of TEMPLATES) {
   for (const w of [375, 1280]) {
     const page = await browser.newPage({ viewport: { width: w, height: w < 768 ? 812 : 900 }, deviceScaleFactor: 1 });
     await page.goto(url + t.url, { waitUntil: 'networkidle' });
-    await page.waitForTimeout(400);
+    // lazy images never enter the viewport in a full-page capture: switch them to eager and give them up to 5s to arrive
+    await page.evaluate(async () => {
+      document.querySelectorAll('img[loading="lazy"]').forEach((i) => { i.loading = 'eager'; });
+      const pending = [...document.images].filter((i) => !i.complete).map((i) => new Promise((r) => { i.addEventListener('load', r, { once: true }); i.addEventListener('error', r, { once: true }); }));
+      await Promise.race([Promise.all(pending), new Promise((r) => setTimeout(r, 5000))]);
+    });
+    await page.waitForTimeout(300);
     const file = `${nn}-${t.slug}-${w}.png`;
     await page.screenshot({ path: path.join(out, file), fullPage: true });
     files[w] = file;

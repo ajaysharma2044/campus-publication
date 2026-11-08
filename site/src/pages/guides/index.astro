@@ -10,7 +10,7 @@ const title = 'Cross-school guides';
 const dek = 'Guides that apply at any school, each with links to the school-specific version where one exists.';
 const crumbs = [{ label: 'Home', href: '/' }, { label: 'Guides' }];
 ---
-<Base title={title} description={dek} path="/guides/" jsonld={[breadcrumbList(crumbs), collectionPage({ title, dek, url: '/guides/', items: items.map((p) => ({ title: p.title, url: p.url })) })]}>
+<Base title={title} description={dek} path="/guides/" searchable={false} jsonld={[breadcrumbList(crumbs), collectionPage({ title, dek, url: '/guides/', items: items.map((p) => ({ title: p.title, url: p.url })) })]}>
   <div class="page--single"><div class="main">
     <Breadcrumbs crumbs={crumbs} />
     <header class="head"><h1>{title}</h1><p class="dek">{dek}</p></header>

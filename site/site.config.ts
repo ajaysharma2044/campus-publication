@@ -50,7 +50,7 @@ export const site = {
   content: {
     // The Python renderer publishes only articles whose queue row is `published`. The Astro build renders every article in
     // content/articles by default so templates can be reviewed on real pages; set false to mirror the renderer's rule.
-    includeUnpublished: true,
+    includeUnpublished: false,
     pillarMinWords: 1200,   // a v2 page without page_type renders as a pillar at or above this count, else as a quick answer
   },
   schools: [

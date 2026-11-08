@@ -30,7 +30,7 @@ const jsonld = [breadcrumbList(crumbsFor(page)), article({ title: page.title, de
   placeSchema({ name: pl.name, type: pl.schema_type, url: page.url, description: page.dek, facts: pl.facts })];
 if (b.faq.length) jsonld.push(faqPage(b.faq));
 ---
-<Base title={page.title} description={page.dek} path={page.url} ogType="article" ogImage={page.lead?.src} preloadImage={page.lead?.src} school={page.school} current={page.topic.id} noindex={page.sample} jsonld={jsonld}>
+<Base title={page.title} description={page.dek} path={page.url} ogType="article" ogImage={page.lead?.src} preloadSrcset={page.lead?.srcsetAvif || undefined} preloadImage={page.lead?.srcsetAvif ? undefined : page.lead?.src} school={page.school} current={page.topic.id} noindex={page.sample} jsonld={jsonld}>
   <div class="page--article">
     <article class="main">
       <ArticleHead page={page} />
