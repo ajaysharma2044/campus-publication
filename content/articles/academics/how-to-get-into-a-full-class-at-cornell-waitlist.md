@@ -33,7 +33,7 @@ This guide is about course waitlists in Student Center, not the undergraduate ad
 
 When you enroll, [check the Wait List box on the "Select classes to add" Enrollment Preferences screen](https://registrar.cornell.edu/students/enrollment/common-enrollment-questions). The error message "Class XXXX is full. You have been placed on the wait list in position number 3" is the registrar's own example of success. To leave a waitlist, [do a drop transaction](https://registrar.cornell.edu/students/enrollment/common-enrollment-questions) in Student Center.
 
-Your shopping cart does not hold a seat: [using it does not save you a spot or guarantee you can take the class](https://registrar.cornell.edu/students/enrollment/common-enrollment-questions). Dates for enrollment appointments and add/drop deadlines come from the academic calendar and the Enrollment Dates box in Student Center; they change each term. For how those dates fit together, see our [pre-enroll and add/drop strategy](/academics/cornell-course-enrollment-strategy-pre-enroll-tips/) and the [add/drop deadline and W guide](/academics/cornell-add-drop-deadline-w-on-transcript/).
+Your shopping cart does not hold a seat: [using it does not save you a spot or guarantee you can take the class](https://registrar.cornell.edu/students/enrollment/common-enrollment-questions). Dates for enrollment appointments and add/drop deadlines come from the academic calendar and the Enrollment Dates box in Student Center; they change each term. For how those dates fit together, see our [pre-enroll and add/drop strategy](/academics/cornell-course-enrollment-strategy-pre-enroll-tips/) and the add/drop deadline and W guide.
 
 ## Step 3: Do not trust the position number
 

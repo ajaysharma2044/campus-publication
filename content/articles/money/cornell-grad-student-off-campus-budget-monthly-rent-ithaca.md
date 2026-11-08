@@ -107,4 +107,4 @@ Our advice:
 
 **How do I cut the budget further?** Food is the most flexible line; see [meal plan or cook yourself](/money/cornell-off-campus-meal-plan-or-cook-yourself-cost/), and [student discounts in Ithaca](/money/how-to-save-money-at-cornell-student-discounts-ithaca/).
 
-**Can I earn extra income?** See [off-campus part-time jobs](/money/cornell-off-campus-jobs-ithaca-students-part-time/), and check your appointment terms first.
+**Can I earn extra income?** See off-campus part-time jobs, and check your appointment terms first.

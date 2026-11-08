@@ -1,0 +1,354 @@
+---
+title: The cheapest ways to get home and around Cornell
+meta: The cheapest bus to NYC ran $25 to $43 on Nov 8, 2026, against $93.50 on C2C. Book 14 days out, ride TCAT in its free hours and skip OmniRide.
+primary_query: cheapest way to get home from Cornell bus
+topic: getting-around
+school: cornell-university
+type: scenario
+updated: 2026-11-08
+queue_id: q-getting-around-0056
+kind: reader_guide
+readers:
+- low-budget
+- first-year
+- upper-year-no-car
+- staying-over-break
+- beyond-nyc
+- far-from-home
+pillar: /getting-around/getting-to-ithaca-and-around-cornell/
+brief: intel/getting-around/brief.md
+tools:
+- cornell-bus-home-cost-calculator
+- omniride-break-even-calculator
+- ithaca-carshare-plan-calculator
+sources:
+- url: https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/
+  title: Ithaca to New York bus, Wanderu
+  accessed: '2026-11-08'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates
+  title: C2C Rates, Cornell Transportation and Delivery Services
+  accessed: '2026-11-08'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations
+  title: C2C Policies and Regulations, Cornell Transportation and Delivery Services
+  accessed: '2026-11-08'
+- url: https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny
+  title: Ithaca, NY to New York, NY bus, OurBus
+  accessed: '2026-11-08'
+- url: https://www.ourbus.com/blog/?p=6269
+  title: 'OurBus blog: OurBus Select and student travel'
+  accessed: '2026-11-08'
+- url: https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university
+  title: 'OurBus: Cornell University'
+  accessed: '2026-11-07'
+- url: https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny
+  title: Ithaca, NY to Syracuse Airport bus, OurBus
+  accessed: '2026-11-08'
+- url: https://www.cornellsun.com/article/2023/11/inside-ourbus-cornellians-preferred-method-of-travel
+  title: Inside OurBus, Cornellians' preferred method of travel, The Cornell Daily Sun, November 2023
+  accessed: '2026-11-08'
+- url: https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes
+  title: Got baggage? Inside Cornell's luggage transport woes, The Cornell Daily Sun, February 1, 2024
+  accessed: '2026-11-08'
+- url: https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/
+  title: OurBus moves Ithaca stop to South Cayuga Street Monday as TCAT shifts stops, FingerLakes1, November 6, 2026
+  accessed: '2026-11-08'
+- url: https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny
+  title: Ithaca, NY to New York, NY bus, Greyhound
+  accessed: '2026-11-08'
+- url: https://www.checkmybus.com/ithaca-ny/new-york-ny
+  title: Bus Ithaca to New York, CheckMyBus
+  accessed: '2026-11-08'
+- url: https://www.checkmybus.com/ithaca-ny/washington-dc
+  title: Bus Ithaca to Washington DC, CheckMyBus
+  accessed: '2026-11-08'
+- url: https://www.checkmybus.com/ithaca-ny/rochester-ny
+  title: Bus Ithaca to Rochester, CheckMyBus
+  accessed: '2026-11-08'
+- url: https://www.checkmybus.com/ithaca-ny/binghamton-ny
+  title: Bus Ithaca to Binghamton, CheckMyBus
+  accessed: '2026-11-08'
+- url: https://www.checkmybus.com/ithaca-ny/boston-ma
+  title: Bus Ithaca to Boston, CheckMyBus
+  accessed: '2026-11-08'
+- url: https://www.checkmybus.com/ithaca-ny/philadelphia-pa
+  title: Bus Ithaca to Philadelphia, CheckMyBus
+  accessed: '2026-11-08'
+- url: https://www.cornellsun.com/article/2025/05/busses-trains-and-planes-getting-to-and-from-cornell
+  title: 'Busses, trains and planes: getting to and from Cornell, The Cornell Daily Sun, May 4, 2025'
+  accessed: '2026-11-08'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
+  title: Bus Services, Privileges and Passes, Cornell Transportation and Delivery Services
+  accessed: '2026-11-08'
+- url: https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free
+  title: Non-first-year Cornell students no longer able to access TCAT for free, The Cornell Daily Sun, November 3, 2024
+  accessed: '2026-11-08'
+- url: https://www.flyithaca.com/public-transportation
+  title: Public Transportation, Ithaca Tompkins International Airport
+  accessed: '2026-11-08'
+- url: https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026
+  title: SA Resolution 69 (2025-26), Cornell Student Assembly
+  accessed: '2026-11-08'
+- url: https://assembly.cornell.edu/resolutions/student-assembly/sa-r83-2025-2026
+  title: SA Resolution 83 (2025-26), Cornell Student Assembly
+  accessed: '2026-11-08'
+- url: https://assembly.cornell.edu/resolutions/student-assembly/sa-r18-2025-2026
+  title: SA Resolution 18 (2025-26), Cornell Student Assembly
+  accessed: '2026-11-08'
+- url: https://cornellsun.com/2024/05/07/student-assembly-funds-free-charter-buses-to-syracuse-ithaca-airports/
+  title: Student Assembly funds free charter buses to Syracuse, Ithaca airports, The Cornell Daily Sun, May 7, 2024
+  accessed: '2026-11-08'
+- url: https://www.ithacabikeshare.org
+  title: Ithaca Bikeshare
+  accessed: '2026-11-08'
+- url: https://www.ithacacarshare.org/students-commuters
+  title: Students and Commuters, Ithaca Carshare
+  accessed: '2026-11-08'
+- url: https://www.ithacacarshare.org/rates
+  title: Rates, Ithaca Carshare
+  accessed: '2026-11-08'
+- url: https://www.ithacacarshare.org/eligibility
+  title: Eligibility, Ithaca Carshare
+  accessed: '2026-11-08'
+- url: https://www.ithacacarshare.org/wp-content/uploads/IthacaCarshareHandbook.pdf
+  title: Ithaca Carshare Member Handbook, Summer 2024
+  accessed: '2026-11-08'
+- url: https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing
+  title: Winter Break Housing, Cornell Student & Campus Life
+  accessed: '2026-11-08'
+- url: https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice
+  title: Winter Closing Notice, Cornell Student & Campus Life
+  accessed: '2026-11-08'
+- url: https://registrar.cornell.edu/calendars-exams/academic-calendar
+  title: Academic Calendar, Cornell Office of the University Registrar
+  accessed: '2026-11-08'
+- url: https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved
+  title: 'Oh, Thanksgiving in Ithaca: stranded and starved, The Cornell Daily Sun, December 1, 2013'
+  accessed: '2026-11-08'
+- url: https://cornellsun.com/2022/11/16/students-share-upcoming-thanksgiving-break-plans
+  title: Students share upcoming Thanksgiving break plans, The Cornell Daily Sun, November 16, 2022
+  accessed: '2026-11-08'
+- url: https://cornellsun.com/2019/05/06/international-students-travel-cornell/
+  title: International students on travel to Cornell, The Cornell Daily Sun, May 6, 2019
+  accessed: '2026-11-08'
+images:
+- file: 1.webp
+  alt: Black-and-white photo of a car parked on a country road beneath a tall wooden railroad trestle
+  caption: Route 330, now Brooktondale Road, outside Ithaca, under a rail trestle 800 feet long and 85 feet high that no longer stands. The trains are gone; today the cheap way out of Ithaca is a bus.
+  credit: Unknown author / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Brooktondale_Road_Under_Trestle_2.png
+  license: Public domain
+  license_url: ''
+  author: Unknown author
+  source_url: https://commons.wikimedia.org/wiki/File:Brooktondale_Road_Under_Trestle_2.png
+---
+
+```glance
+- Cheapest seat to NYC: "from" fares of $25 (OurBus) to $43 (Trailways) one way in a Nov 8, 2026 sample; C2C is $93.50 with a NetID.
+- Book about 14 days ahead. Thanksgiving-week floors ran about a third higher; January averaged about $41 against about $66 in November.
+- TCAT is free at all hours in your first year. After that it is free after 6 p.m. on weekdays and all weekend, and $1.50 a ride otherwise.
+- OmniRide costs $200 a year and pays off only past about 134 paid daytime rides. Most budget riders should skip it.
+- Free finals-week charters to the Ithaca and Syracuse airports ran in fall 2025 and spring 2026 for undergraduates; fall 2026 is not announced as of Nov 8.
+- Staying in campus housing over winter break costs $125 a week or $500; apply by Dec 1. OurBus cancellations come back as credit, not cash.
+```
+
+The cheapest way home from Cornell to New York City is a commercial bus booked about two weeks ahead: advertised floors ran [$25 to $43 one way across six carriers on Nov 8, 2026](https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/), against [$93.50 on Cornell's C2C with a NetID](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates). Around Ithaca, the cheapest plan is to time errands for TCAT's free hours, [after 6 p.m. on weekdays and all weekend](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) once your first year ends, and pay $1.50 for the rest. Spend money on a pass, a Carshare plan or a C2C seat only when the math below says it beats that.
+
+```reader "If you're a first-year paying your own way"
+Your Cornell ID gives you free TCAT at all hours [until Aug 31 of next year](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). Transfers count as first-years. So your real cost is the trips home. Four NYC round trips at the OurBus floor of $33 come to $264 a year, our math. The same four on C2C cost $748. Your costliest mistake is booking Thanksgiving late: floors ran about a third higher that week in a Nov 8 sample. Buy your seat for Wednesday, Nov 25 by about Nov 11.
+```
+
+```reader "If you're past first year with no car"
+Free rides now run only [after 6 p.m. on weekdays and all weekend](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). Daytime weekday rides are $1.50 each. The $200 OmniRide pass beats cash only past about 134 paid rides a year, our math. That is about 4.5 a week over a 30-week year. Move errands to evenings and weekends and pay cash for class-time rides. The costly mistake is buying OmniRide and then rarely riding. A refund before Mar 31 still costs you $40.
+```
+
+```reader "If you're thinking of staying for winter break"
+[Winter break housing](https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing) costs $125 per one-week option or $500 for the whole break. Applications close Dec 1. One week costs about the same as an NYC round trip at the average fare ($123.82, our math from a Nov 8 sample). It costs about twice a floor-fare round trip ($54 to $66). If home is a bus ride away, going is cheaper. Staying makes sense when home is a flight or your job is here. Missing Dec 1 is the expensive error.
+```
+
+```reader "If you're headed somewhere other than New York City"
+Your route sets the price. CheckMyBus daily low fares read on Nov 8, 2026 ran $8 to $16 to Binghamton and $17 to $30 to Rochester. Lows to [Washington DC](https://www.checkmybus.com/ithaca-ny/washington-dc) averaged $74.47. [Boston](https://www.checkmybus.com/ithaca-ny/boston-ma) showed $46 to $101 and [Philadelphia](https://www.checkmybus.com/ithaca-ny/philadelphia-pa) a low of $41. C2C [lists no route but New York](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates), so a commercial bus is your only bus. The costly mistake is Thanksgiving week: DC low fares averaged $93.40 that week, against $67.71 before it.
+```
+
+```reader "If you fly home"
+The ride to the airport is the part you control. OurBus to Syracuse airport costs [$46.70 to $62.10 each way](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny). TCAT to the Ithaca airport is [$1.50 on Route 32 weekdays and Route 72 weekends](https://www.flyithaca.com/public-transportation). Weekends fall in Cornell's free hours. At the end of finals, watch Campus Groups for the Student Assembly's free charters to both airports. They are for undergraduates, first come, first served. Missing the sign-up costs you up to $62.10 one way.
+```
+
+## What a bus to NYC costs, by carrier
+
+On Nov 8, 2026, [Wanderu](https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/) listed six carriers on Ithaca to New York for the week of Nov 8 to 14. "From" is the cheapest seat a carrier advertised, not what most riders paid. The average column is closer to a typical fare.
+
+| Carrier | "From" one way | Average one way | Departures a day |
+|---|---|---|---|
+| OurBus | $25.00 | $69.23 | 20 |
+| Coach USA | $28.98 | $44.54 | 13 (14 weekends) |
+| Megabus | $29.00 | $44.77 | 8 |
+| FlixBus | $30.00 | $73.50 | 5 |
+| Greyhound | $37.00 | $82.31 | 2 |
+| Adirondack Trailways | $43.00 | $57.13 | 1 |
+| C2C, NetID fare (posted) | $93.50 | $93.50 | Fixed schedule |
+
+Carriers' own pages give slightly different floors on the same day. [OurBus's route page](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny) said "From $33" with 9 buses a day. [Greyhound's](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny) said from $43.98. [CheckMyBus](https://www.checkmybus.com/ithaca-ny/new-york-ny) showed FlixBus at $27 for Saturday, Nov 7. Prices move by the hour, so treat any floor as a target, not a promise.
+
+C2C costs about three times the cheapest seat. By our math, it is $60.50 more each way than OurBus at $33 and $66.50 more than FlixBus at $27. It is also about 1.5 times the six carriers' mean average fare of $61.91. C2C does not discount round trips: $187 is two times $93.50. The NetID fare saves you only $7.50 against the [$101 public fare](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates). Travel time is no tiebreaker: C2C takes about 4.5 to 5 hours, and OurBus 4 hours 10 minutes to 7.
+
+What C2C buys you is luggage. It allows [2 suitcases below deck plus 2 small carry-ons](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations) per passenger. If you are moving out with three bags, price the extra bag fees before you pick the cheap seat.
+
+```tool cornell-bus-home-cost-calculator```
+
+## What a year of trips home costs
+
+Our math for four NYC round trips, using the floors and averages above:
+
+| Choice | Four round trips |
+|---|---|
+| FlixBus at the $27 floor | $216 |
+| OurBus at the $33 floor | $264 |
+| OurBus at the six-carrier mean average ($61.91) | $495.28 |
+| C2C at the NetID fare ($187 round trip) | $748 |
+
+The gap between the first and last rows is $532. That is more than two and a half years of OmniRide at $200.
+
+Example: a sophomore from Queens with no car goes home for fall break, Thanksgiving, winter break and spring break. They book OurBus each time and land near the $33 floor on three trips. Thanksgiving costs about a third more, so that round trip is about $88 instead of $66. The year comes to about $286 in bus fare. On C2C the same four trips would be $748.
+
+## When to book
+
+Book about 14 days ahead. That is [Wanderu's own claim](https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/) for this route, not a measured rule. The same page showed a November average of about $66 and a January average of about $41, with the cheapest November date on Nov 19, 2026.
+
+Some days always sell. [OurBus names three peak days](https://www.ourbus.com/blog/?p=6269): the Wednesday before Thanksgiving, the last day of December finals and the Friday spring break begins. On Cornell's [2026-27 calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar), Thanksgiving break runs Nov 25 to 29, fall finals end Dec 19, and spring break runs Mar 27 to Apr 4, 2027.
+
+The Thanksgiving markup is real. In our reading of [CheckMyBus](https://www.checkmybus.com/ithaca-ny/binghamton-ny) day-by-day low fares on Nov 8, 2026, Thanksgiving-week floors ran 27.9% higher to Binghamton, 34.2% higher to [Rochester](https://www.checkmybus.com/ithaca-ny/rochester-ny) and 37.9% higher to [Washington DC](https://www.checkmybus.com/ithaca-ny/washington-dc). The mean was 33.4% across 51 priced dates. NYC was not in the sample, so a third more for NYC is an estimate.
+
+```figure
+kind: timeline
+title: Booking dates for a budget trip home, 2026-27
+rows:
+  - {label: "Book a Thanksgiving seat (about 14 days ahead)", date: "By Nov 11, 2026"}
+  - {label: "Cheapest November date in the Wanderu sample", date: "Nov 19, 2026"}
+  - {label: "Peak day: Wednesday before Thanksgiving", date: "Nov 25, 2026"}
+  - {label: "Winter break housing applications close", date: "Dec 1, 2026"}
+  - {label: "Peak day: last day of fall finals", date: "Dec 19, 2026"}
+  - {label: "C2C 2027 booking link covers trips from", date: "Jan 6, 2027"}
+  - {label: "Spring break begins", date: "Mar 27, 2027"}
+```
+
+Book cheap early, but only trips you will take. The 2019 Sun piece on [international students' travel](https://cornellsun.com/2019/05/06/international-students-travel-cornell/) made the same point: early cheap tickets can be wasted if plans change, and late ones can double.
+## The fine print that costs money
+
+**OurBus refunds in credit.** The Sun reported in 2023 that [OurBus cancellations give credit, not cash, and rescheduling has a fee](https://www.cornellsun.com/article/2023/11/inside-ourbus-cornellians-preferred-method-of-travel). Credit is fine if you ride OurBus again. It is lost money if you switch carriers.
+
+**OurBus Select.** The [OurBus blog](https://www.ourbus.com/blog/?p=6269) describes Select as $15 off each of your next 10 intercity tickets, up to $150. Signup asks for a college name. A separate student discount uses verification, and the blog gives no amount. Not confirmed: what Select costs to join.
+
+**Bags.** OurBus guarantees one large bag per ticket, and extra bags ride only if space remains. At peak move-in, two large bags [effectively means buying two seats](https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes). OurBus's Cornell page lists [$30 prepaid per extra bag](https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university). [Greyhound](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny) includes one carry-on and one checked bag. C2C's two-suitcase allowance can beat a cheap seat plus fees.
+
+**C2C changes.** Cancel at least 8 hours ahead and C2C charges [$10 per seat; inside 8 hours, $30](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations). You can cancel only in the reservation system. If you miss the bus, the full fare is kept.
+
+**Where to board.** OurBus picks up at West Campus and North Campus, so you can skip the trip downtown. Its downtown stop [moves to 235 S. Cayuga St on Monday, Nov 9, 2026](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/). Greyhound and FlixBus stop at 121 Jessup Rd on North Campus, 240 West Ave on West Campus and 131 E Green St downtown.
+
+## Getting around Ithaca for little or nothing
+
+TCAT does most of the work. Cornell's [bus pass page](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) sets the rules:
+
+- First-years, transfers included, ride free at all hours until Aug 31. Spring entrants ride free Jan 1 to Dec 31.
+- PhD students and graduate assistants get a free OmniRide pass.
+- Everyone else rides free after 6 p.m. on weekdays and all day Saturday and Sunday, as long as they stay registered.
+- Outside those hours, a ride is $1.50.
+- The discounted OmniRide pass is $200 a year, prorated monthly, sold at MyParking.Cornell.Edu. It expires Aug 31. A refund before Mar 31 costs $40.
+
+The paid daytime rides date from fall 2024. Until mid-October 2024, a farebox ID glitch let every student ride free, [the Sun reported](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free). If the farebox rejects your ID in the free hours, drivers override it, per the same report. Otherwise you pay $1.50 in cash.
+
+The OmniRide math is simple. $200 divided by $1.50 is 133.3, so the pass pays only from the 134th paid ride. Over a 30-week academic year, our assumption, that is about 4.5 paid daytime rides a week.
+
+Example: a junior in Collegetown takes the bus to class twice a week in bad weather and does groceries on Saturday. That is about 2 paid rides a week, or about 60 over 30 weeks: $90 in cash against $200 for the pass. Cash wins by $110.
+
+```tool omniride-break-even-calculator```
+
+Student government wants the rule changed. In March 2026 the Student Assembly [adopted Resolution 69](https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026), urging Cornell to fund free bus passes for all undergraduates and graduate workers. The president returned it on Apr 24, 2026. Not confirmed: any change for 2026-27.
+
+## Bikes and cars when the bus will not do
+
+| Option | Price | When it is the cheap choice |
+|---|---|---|
+| TCAT, free hours | $0 | Evenings, weekends, first year |
+| TCAT, daytime weekday | $1.50 a ride | Under about 134 paid rides a year |
+| OmniRide pass | $200 a year | Above about 134 paid rides a year |
+| Ithaca Bikeshare, pay as you go | $1.50 a ride to start + $0.25 a minute + tax | Short one-off hops |
+| Ithaca Bikeshare, day pass | $25 | Long ride days only |
+| Carshare Just In Case, student | $30 a year + $9 an hour | Under about 93 hours of driving a year |
+| Carshare It's My Car, student | $310 a year + $6 an hour | Above about 93 hours a year |
+| Carshare Easy Access | $10 a month + $6 an hour, $20 a month in driving credits | If you qualify |
+
+**Bikeshare is not cheap per trip.** At [Ithaca Bikeshare's posted prices](https://www.ithacabikeshare.org), a 10-minute ride costs $4.00 before tax and a 20-minute ride $6.50, our math. A monthly plan is $60 with 30 minutes a day free. Ending a trip outside a hub adds $1.50. Against a $1.50 or free bus, Bikeshare makes sense only when no bus fits. The program offers Easy Access for GO ITHACA members at or below 150% of the federal poverty guideline. Not confirmed: what Easy Access costs and whether it has a student discount.
+
+**Carshare beats owning a car.** Cornell subsidizes annual student memberships, per [Ithaca Carshare's student page](https://www.ithacacarshare.org/students-commuters): Just In Case is $30 a year and It's My Car $310, each $45 off. Every driver also pays a one-time, non-refundable $20. [Usage](https://www.ithacacarshare.org/rates) adds 42 cents a mile in a car, plus 8% sales tax and a 12% rental tax. By our math, Just In Case is cheaper under about 93 hours of driving a year.
+
+Example: a sophomore makes ten 2-hour grocery runs a year on Just In Case. That is $20 to join, $30 for the year and $180 in hourly charges: $230 before mileage and taxes.
+
+The [member handbook](https://www.ithacacarshare.org/wp-content/uploads/IthacaCarshareHandbook.pdf), titled Summer 2024, lists an Easy Access plan at $10 a month plus $6 an hour, with $20 a month in driving credits. Not confirmed: who qualifies for Easy Access.
+
+Check eligibility before you count on Carshare. [Drivers must be 18 or older](https://www.ithacacarshare.org/eligibility) with a full license held 2 or more years. Under 21, you need a spotless record and your own insurance policy with at least $300,000 per accident liability. Without your own policy, Carshare is not an option yet.
+
+```tool ithaca-carshare-plan-calculator```
+
+## Free rides to the airport at the end of finals
+
+The Student Assembly has paid for free charter buses to the Ithaca and Syracuse airports at the end of recent terms:
+
+- Fall 2025: [Resolution 18](https://assembly.cornell.edu/resolutions/student-assembly/sa-r18-2025-2026), adopted Nov 13, 2025, moved $7,853.32 for finals-week charters.
+- Spring 2026: [Resolution 83](https://assembly.cornell.edu/resolutions/student-assembly/sa-r83-2025-2026), adopted Apr 16, 2026, moved $10,668.87. The rides were free for undergraduates, with sign-up through Campus Groups, first come, first served.
+- The May 2024 pilot ran 20 shuttles from [Baker Flagpole and RPCC](https://cornellsun.com/2024/05/07/student-assembly-funds-free-charter-buses-to-syracuse-ithaca-airports/), with group registration.
+
+Not confirmed: a fall 2026 charter, as of Nov 8. The spring 2026 money was approved about a month before finals, so watch Campus Groups from mid-November. The paid alternative to Syracuse is OurBus at [$46.70 to $62.10 each way](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny).
+
+## Staying in Ithaca instead of going home
+
+Some low-budget students stay. A 2013 Sun columnist wrote that [Thanksgiving airfares run two to three times normal and that family income decides who goes home](https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved). In a [2022 Sun roundup](https://cornellsun.com/2022/11/16/students-share-upcoming-thanksgiving-break-plans), one student stayed for the dining hall's Thanksgiving meal because home is far. Another spent the holiday with a friend's family in Cleveland because getting home takes a full day.
+
+Winter break is where staying costs money. [Winter break housing](https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing) is open to students returning to on-campus housing for spring. It costs $125 per one-week option or $500 for the full break, a flat fee. Applications opened Oct 1 and close Dec 1. Mail and packages stop Dec 23 and resume Jan 7, and dining is usually closed the week the university is closed. In 2025, undergraduate residences [closed at 2 p.m. on Sunday, Dec 21](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice) for students without approval. Not confirmed: the 2026 closing time.
+
+Example: a student from Manhattan weighs a week of winter housing against going home. The week costs $125. A floor-fare round trip is $54 to $66, and one at the six-carrier mean average is $123.82, our math. Going home is cheaper unless something keeps them in Ithaca.
+
+```figure
+kind: cost_table
+title: Staying or going home over winter break, Manhattan example
+rows:
+  - {label: "Winter break housing, one week", value: "$125"}
+  - {label: "Winter break housing, full break", value: "$500"}
+  - {label: "NYC bus round trip at floor fares", value: "$54 to $66"}
+  - {label: "NYC bus round trip at the six-carrier mean average", value: "$123.82"}
+  - {label: "C2C round trip, NetID fare", value: "$187"}
+```
+
+Not confirmed: TCAT service on Thanksgiving Day 2026 and Thanksgiving dining hours. The 2013 column said there was no TCAT on Thanksgiving.
+
+Not confirmed: whether Cornell offers travel aid or emergency travel funds for students who cannot afford the trip home. Ask your financial aid counselor before you book.
+
+## Common mistakes
+
+- **Taking C2C by habit.** It costs $60.50 to $66.50 more each way than the cheapest commercial seat on Nov 8, 2026, or $532 more over four round trips.
+- **Booking Thanksgiving late.** Thanksgiving-week floors ran about 33% higher on three Ithaca routes. On a $66 NYC round trip, that is about $22.
+- **Buying OurBus tickets you might cancel.** You get credit, not cash, and rescheduling has a fee.
+- **Buying OmniRide and riding rarely.** The pass is $200. A refund before Mar 31 still costs $40, and most budget riders take fewer than 134 paid rides.
+- **Bringing a second large bag on OurBus.** It costs $30 prepaid, or a second seat at peak.
+- **Missing the Dec 1 winter housing deadline.** In 2025, undergraduate halls closed at 2 p.m. on Dec 21 to anyone not approved to stay.
+- **Assuming TCAT is free all day after first year.** Daytime weekday rides are $1.50 unless you ride after 6 p.m. or on weekends.
+
+## FAQ
+
+**Is there a student discount on C2C?** No separate student fare exists. Anyone with a valid NetID on the account pays [$93.50 one way](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates), $7.50 less than the public fare.
+
+**Which aggregator should I compare on?** The 2025 Sun student guide [named Wanderu](https://www.cornellsun.com/article/2025/05/busses-trains-and-planes-getting-to-and-from-cornell). Compare there, then book on the operator's own site.
+
+**Can I take TCAT to the Ithaca airport for free?** Route 72 runs on weekends, inside the free hours for upper-years, and first-years ride free at any hour. Route 32 runs weekdays, [at $1.50](https://www.flyithaca.com/public-transportation) before 6 p.m. for everyone else.
+
+**Is Bikeshare free for Cornell students?** No. [Ithaca Bikeshare](https://www.ithacabikeshare.org) charges $1.50 to start a ride plus $0.25 a minute, and its price list shows no student discount.
+
+**Do C2C tickets cost less in January?** No. C2C has [one posted fare](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates) year round. Commercial fares are the ones that drop.
+
+## Related guides
+
+- [Getting to Ithaca and around Cornell, 2026-27](/getting-around/getting-to-ithaca-and-around-cornell/): the full topic, from airports to parking.
+- [NYC to Cornell by bus: C2C, OurBus, FlixBus, Greyhound](/getting-around/nyc-to-cornell-bus-c2c-ourbus-flixbus-greyhound/): stops at both ends and how each carrier works.
+- [Cornell Campus-to-Campus bus: who can ride, how to book](/getting-around/cornell-c2c-bus-booking-fares-rules/): the new booking system and its two links.
+- [Getting around Cornell after first year without a car](/getting-around/getting-around-cornell-upper-years-no-car/): TCAT, walking and Carshare after the free year.
+- [Ithaca to Boston, Philadelphia, DC or Toronto by bus](/getting-around/ithaca-bus-to-boston-philadelphia-dc-toronto/): routes and fares beyond New York.
+- [Flying home from Cornell: airports, rides, bags, timing](/getting-around/flying-home-from-cornell-airports-rides/): which airport and how to reach it cheaply.

@@ -92,7 +92,7 @@ Katherine Yao, a junior in Arts and Sciences when [writing in The Cornell Daily 
 - If you are a first-year or sophomore with a thin schedule, pre-enroll in what you can, then check Student Center regularly once add/drop opens. Remember your window: the first-year start is the last of the four.
 - Do not hold a seat you will not use. Drop it before the deadline.
 
-We could not open the registrar's gateway-course page when we checked on November 7, 2026, so this section rests on the 2021 column plus the [add/drop dates](https://registrar.cornell.edu/calendars-exams/academic-calendar) above. Departments also set their own rules, so check your department's enrollment page. See also [the add/drop deadline and when a W shows up](/academics/cornell-add-drop-deadline-w-on-transcript/).
+We could not open the registrar's gateway-course page when we checked on November 7, 2026, so this section rests on the 2021 column plus the [add/drop dates](https://registrar.cornell.edu/calendars-exams/academic-calendar) above. Departments also set their own rules, so check your department's enrollment page. See also the add/drop deadline and when a W shows up.
 
 ## Common mistakes
 

@@ -60,7 +60,7 @@ Our advice: split it. Pay the predictable, lumpy costs yourself (books, travel h
 
 - Check whether the [meal plan fits how your student eats](/money/cornell-meal-plan-worth-it/). Swipes unused are money spent.
 - Point them to [student discounts in Ithaca](/money/how-to-save-money-at-cornell-student-discounts-ithaca/).
-- If they want to earn cash, [off-campus jobs](/money/cornell-off-campus-jobs-ithaca-students-part-time/) pay for the outings the personal line does not.
+- If they want to earn cash, off-campus jobs pay for the outings the personal line does not.
 
 ## Common mistakes
 
