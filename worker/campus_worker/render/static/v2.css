@@ -1,0 +1,55 @@
+/* Footnote Daily v2 additions, loaded after campus.css (which holds the tokens, shell, lists and figure styles).
+   Only what the v2 pages need: article photos, Markdown tables, the FAQ, the affiliate note, and the three ad slots
+   (in-content, desktop sidebar, mobile sticky footer), which exist in the HTML only when a provider is configured. */
+
+/* ---------- home ---------- */
+.hero--plain { padding: var(--s-7) 0 var(--s-3); }
+.hero--plain .deck { margin: 0; }
+
+/* ---------- topic index ---------- */
+.story-list h2 { margin: 0 0 var(--s-1); font-size: 1.25rem; }
+.story-list h2 a { color: var(--ink); text-decoration: none; }
+.story-list h2 a:hover { color: var(--navy); }
+
+/* ---------- article photos (frontmatter images; the first one is the lede) ---------- */
+.photo { margin: var(--s-5) 0; min-width: 0; }
+.photo--lede { margin: 0 0 var(--s-6); }
+.photo img { width: 100%; height: auto; border-radius: var(--radius-lg); background: var(--band); }
+.photo figcaption { font-family: var(--font-sans); font-size: var(--fs-meta); color: var(--ink-3); margin-top: var(--s-2); }
+.photo__credit { white-space: normal; }
+.photo__credit a { color: inherit; }
+.prose img { max-width: 100%; height: auto; border-radius: var(--radius); }
+
+/* ---------- Markdown tables: the fact-table look, scrolling inside their box on narrow screens ---------- */
+.prose .table-wrap { margin: var(--s-5) 0; border: 1px solid var(--rule); border-radius: var(--radius-lg); background: var(--surface); overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.prose table { width: 100%; border-collapse: collapse; font-family: var(--font-sans); font-size: var(--fs-small); margin: 0; }
+.prose th, .prose td { text-align: left; padding: var(--s-3) var(--s-4); border-bottom: 1px solid var(--rule); vertical-align: top; }
+.prose thead th { background: var(--band); font-weight: 700; font-size: var(--fs-meta); text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-2); }
+.prose tbody tr:last-child td, .prose tbody tr:last-child th { border-bottom: 0; }
+
+/* ---------- FAQ (an "FAQ" or "Frequently asked questions" section in the body) ---------- */
+.faq { margin-top: var(--s-6); padding: var(--s-4) var(--s-5); background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius-lg); }
+.faq h2 { margin-top: 0; padding-top: 0; }
+.faq h3 { font-size: 1.1rem; margin-top: var(--s-5); }
+.faq p > strong:first-child { display: block; font-family: var(--font-sans); font-size: 1.05rem; margin-bottom: 2px; }
+@media (max-width: 599px) { .faq { padding: var(--s-4); } }
+
+/* ---------- notes, related, sources ---------- */
+.disclosure--affiliate { margin: 0 0 var(--s-5); }
+.disclosure--money { margin-top: var(--s-3); }
+.related { margin-top: var(--s-7); }
+.related .section-head { margin-top: 0; }
+.sources .meta { white-space: nowrap; }
+
+/* ---------- ad slots (campus.css draws .ad-slot; these place the three v2 slots) ---------- */
+.ad-slot--in_content { margin: var(--s-6) 0; }
+.ad-slot--sidebar { min-height: 250px; margin: 0; position: sticky; top: var(--s-4); }
+@media (max-width: 1023px) { .ad-slot--sidebar { display: none; } }
+/* the mobile footer holds one fixed 320x50 unit (render_site.ad_slot), so the 58px bar never clips an ad */
+.ad-slot--sticky_footer { display: none; }
+@media (max-width: 1023px) {
+  .ad-slot--sticky_footer { display: flex; justify-content: center; align-items: center; position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; margin: 0; min-height: 0; height: 58px; padding: 0; border-radius: 0; border-width: 1px 0 0; box-shadow: 0 -1px 8px rgba(27, 27, 27, 0.08); }
+  .has-sticky-ad { padding-bottom: 58px; }
+}
+.ad-slot--in_content ins.adsbygoogle, .ad-slot--sidebar ins.adsbygoogle { display: block; width: 100%; }
+@media print { .ad-slot, .disclosure--money { display: none !important; } }

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}{{ topic.label }} guides for Cornell and Ithaca | {{ site.name }}{% endblock %}
+{% block content %}
+<div class="container"><article class="article">
+  <p class="eyebrow"><a href="/">Topics</a></p>
+  <h1>{{ topic.label }}</h1>
+  <p class="deck measure">{{ topic.blurb }}</p>
+  <ul class="story-list">{% for a in articles %}
+    <li><p class="eyebrow">{% if a.type_label %}{{ a.type_label }} · {% endif %}<time datetime="{{ a.updated_iso }}">{{ a.updated_text }}</time></p><h2><a href="{{ a.path }}">{{ a.title }}</a></h2><p>{{ a.meta }}</p></li>
+  {% endfor %}</ul>
+</article></div>
+{% endblock %}

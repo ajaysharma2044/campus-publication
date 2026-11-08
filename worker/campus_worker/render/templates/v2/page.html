@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}{{ p.title }} | {{ site.name }}{% endblock %}
+{% block content %}
+<div class="container"><article class="article">
+  <p class="eyebrow">About {{ site.name }}</p>
+  <h1>{{ p.title }}</h1>
+  <p class="deck measure">{{ p.meta }}</p>
+  {% if p.updated_text %}<div class="byline"><span>Updated <time datetime="{{ p.updated_iso }}">{{ p.updated_text }}</time></span></div>{% endif %}
+  <div class="prose measure">{{ p.body_html|safe }}</div>
+</article></div>
+{% endblock %}

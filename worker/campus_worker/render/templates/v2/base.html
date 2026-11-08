@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site.name }}{% endblock %}</title>
+{% if meta %}<meta name="description" content="{{ meta }}">{% endif %}
+{% if site.base_url and path %}<link rel="canonical" href="{{ site.base_url }}{{ path }}">{% endif %}
+{% if not production %}<meta name="robots" content="noindex,follow">{% endif %}
+{% if head.gsc %}<meta name="google-site-verification" content="{{ head.gsc }}">{% endif %}
+<link rel="preload" href="/static/fonts/SourceSans3-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/static/fonts/SourceSerif4-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/static/campus.css">
+<link rel="stylesheet" href="/static/v2.css">
+{% block head %}{% endblock %}
+{{ head.scripts|safe }}
+</head>
+<body class="tpl-{{ template }}{% if ads.sticky_footer %} has-sticky-ad{% endif %}">
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header"><div class="container site-header__row">
+  {% if template == "home" %}<h1 class="wordmark"><a href="/">{{ site.name }}</a></h1>{% else %}<p class="wordmark"><a href="/">{{ site.name }}</a></p>{% endif %}
+  {% if nav %}<nav class="nav" aria-label="Topics"><ul>
+    {% for t in nav %}<li><a href="{{ t.href }}"{% if t.href == section %} aria-current="page"{% endif %}>{{ t.label }}</a></li>{% endfor %}
+  </ul></nav>{% endif %}
+</div></header>
+<main id="main" tabindex="-1">
+{% block content %}{% endblock %}
+</main>
+<footer class="site-footer"><div class="container">
+  <p class="wordmark">{{ site.name }}</p>
+  <p class="disclosure"><b>{{ site.name }}</b> is an independent publication for students, parents and alumni. It is not affiliated with any college or university. Every hard fact links to the official page it came from; student experience is attributed and linked. The school's own office decides your case.</p>
+  {% if ads.provider or affiliates %}<p class="disclosure disclosure--money">{{ site.name }} is funded by {% if ads.provider %}advertising{% endif %}{% if ads.provider and affiliates %} and {% endif %}{% if affiliates %}affiliate links{% endif %}. {% if ads.provider and affiliates %}Neither changes{% else %}That never changes{% endif %} what an article says. <a href="/editorial-policy/">How that works</a>.</p>{% endif %}
+  {% if footer_links %}<ul>{% for l in footer_links %}<li><a href="{{ l.href }}">{{ l.label }}</a></li>{% endfor %}</ul>{% endif %}
+</div></footer>
+{{ ads.sticky_footer|safe }}
+</body>
+</html>

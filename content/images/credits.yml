@@ -1,22 +1,11 @@
-# One entry per photo. Key = slot name (see README.md). Only `file`, `alt` and `credit` are required
-# for the photo to be used; `license`, `rights_holder` and `source_url` are the rights record.
-#
-# fixture-hall:
-#   file: fixture-hall.jpg
-#   alt: "Red-brick residence hall with trees on either side"
-#   caption: "Fixture Hall faces the main quad"
-#   credit: "Photo: Jane Doe for Footnote Daily"
-#   license: "All rights reserved; licensed to Footnote Daily"
-#   rights_holder: "Jane Doe"
-#   source_url: ""
-#
-# Published pages are keyed by path under `pages:` (file, alt, credit and license required; see README.md):
-# pages:
-#   "/schools/cornell-university/housing/transfer-housing/":
-#     file: cornell-north-campus.jpg
-#     alt: "Low brick residence halls along a tree-lined path on North Campus"
-#     credit: "Photo: Jane Doe for Footnote Daily"
-#     license: "CC BY-SA 4.0"
-#     rights_holder: "Jane Doe"
-#     source_url: "https://commons.wikimedia.org/wiki/File:..."
-{}
+# Image credits ledger (Footnote Daily v2, docs/v2/spec.md "Images and visuals"): the rights record for every photo the site shows.
+# A YAML list, one entry per file under content/images/<article_slug>/, written by scripts/v2/find_images.py (--article, --fetch):
+#   file, article_slug, source (wikimedia|openverse|unsplash|pexels|owner|permission), page_url, author, license, license_url
+#   (empty for a public-domain Commons file, which has no license deed), found_at, fetched_at, credit ("Author / Source";
+#   the page shows "Photo: <credit>, <license>" with the credit linked to page_url and the license to license_url).
+# Internet photos: every license field is copied from the API response, never guessed.
+# Owner photos dropped in content/images/inbox/ get a source: owner entry from the script, credited to the site; edit its author
+# and credit if someone else on the team took it (content/images/inbox/README.md). Photos used with written permission: change
+# that entry to source: permission with page_url, author, license, credit and permission_file (docs/v2/photo-permission-email.md).
+# For owner and permission entries the script copies credit, page_url, license and license_url into the article on its next run.
+[]

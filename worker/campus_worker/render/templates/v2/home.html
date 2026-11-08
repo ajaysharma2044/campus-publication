@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}{{ site.name }}: research-first guides to Cornell and Ithaca{% endblock %}
+{% block content %}
+<div class="container home">
+  <section class="hero hero--plain">
+    <p class="deck measure">Practical guides for students, parents and alumni of Cornell University and Ithaca: housing, getting around, classes, money, daily life, careers. Every hard fact links to the official page it came from, and student experience is attributed to where we read it.</p>
+  </section>
+
+  {% if latest %}
+  <section class="home-section" aria-labelledby="latest-head">
+    <h2 id="latest-head" class="section-title">Latest guides</h2>
+    <ol class="guide-list">{% for a in latest %}<li><span class="guide-list__date"><time datetime="{{ a.updated_iso }}">{{ a.updated_text }}</time></span><span class="guide-list__body"><a href="{{ a.path }}">{{ a.title }}</a><span class="guide-list__meta">{{ a.topic_label }}{% if a.type_label %} · {{ a.type_label }}{% endif %}</span></span></li>{% endfor %}</ol>
+  </section>
+  {% endif %}
+
+  {% if topics %}
+  <section class="home-section" aria-labelledby="topics-head">
+    <h2 id="topics-head" class="section-title">Browse by topic</h2>
+    <div class="topic-grid">{% for t in topics %}<a class="topic-tile" href="{{ t.href }}"><span class="topic-tile__label">{{ t.label }}</span><span class="topic-tile__blurb">{{ t.blurb }}</span><span class="state">{{ t.count }} guide{{ "" if t.count == 1 else "s" }}</span></a>{% endfor %}</div>
+  </section>
+  {% else %}
+  <div class="typographic-cover"><p class="big">Guides are on the way.</p><p class="small">The first ones appear here as soon as they are reviewed.</p></div>
+  {% endif %}
+</div>
+{% endblock %}

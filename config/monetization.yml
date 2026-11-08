@@ -1,0 +1,36 @@
+# Footnote Daily monetization and launch settings (docs/v2/spec.md, "Ads and money").
+# scripts/v2/render_site.py reads this file. Every key is present; an empty value means the feature is off and its
+# markup collapses (no empty ad boxes, no scripts). Third-party scripts and ad containers are emitted only on a
+# production build (--production, or site.production: true), so the noindex preview never carries them.
+# Switching AdSense to Mediavine or Raptive later is a change here, not a rebuild of the templates.
+
+site:
+  name: "Footnote Daily"
+  domain: ""              # the real domain without scheme, e.g. footnotedaily.com; sets canonical URLs, robots.txt and the sitemap
+  production: false       # true removes noindex, allows crawling and lists the sitemap; the --production flag does the same
+
+analytics:
+  ga4_measurement_id: ""  # G-XXXXXXXXXX from the GA4 property
+  gsc_verification: ""    # the content value of Google Search Console's HTML-tag verification
+
+consent:
+  provider: ""            # name of the Google-certified consent platform (e.g. cookieyes, iubenda, usercentrics)
+  script_url: ""          # the platform's script URL; when set, Google Consent Mode defaults to denied until the visitor chooses
+
+ads:
+  provider: none          # none | adsense | mediavine | raptive
+  adsense_client: ""      # ca-pub-XXXXXXXXXXXXXXXX (also written to ads.txt)
+  script_url: ""          # Mediavine or Raptive only: the script src the network gives you; they place their own ads, so no slots
+  slots:                  # AdSense slot ids (an empty id leaves that slot out of the page); Mediavine and Raptive ignore these
+    in_content: ""        # a responsive unit after the third paragraph of an article
+    sidebar: ""           # a responsive unit in the desktop sidebar, sticky
+    sticky_footer: ""     # a fixed 320x50 unit in a bar at the bottom of phone and tablet screens (not on policy pages or the 404)
+
+grow:
+  enabled: false          # Grow by Mediavine; install at launch so Journey's 30-day clock starts
+  site_id: ""             # the data-grow-faves-site-id value from Grow
+
+affiliates:
+  disclosure: ""          # the one-line disclosure shown on a page that links to a program below; empty uses the default line
+  programs: []            # list of {name, domain}; a page with a link to that domain shows the disclosure
+  # - {name: "Example renters insurance", domain: "example-insurance.com"}

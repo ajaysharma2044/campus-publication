@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}{{ a.title }} | {{ site.name }}{% endblock %}
+{% block head %}<script type="application/ld+json">{{ a.json_ld|safe }}</script>{% endblock %}
+{% block content %}
+<div class="container"><div class="grid">
+<article class="article col-12 col-lg-8">
+  <p class="eyebrow"><a href="{{ a.topic_href }}">{{ a.topic_label }}</a>{% if a.type_label %} · {{ a.type_label }}{% endif %}</p>
+  <h1>{{ a.title }}</h1>
+  <div class="byline"><span>Updated <time datetime="{{ a.updated_iso }}">{{ a.updated_text }}</time></span><span>{{ a.reading_time }} min read</span></div>
+  {{ a.lede_html|safe }}
+  {% if a.disclosure %}<p class="aside-note disclosure--affiliate">{{ a.disclosure }}</p>{% endif %}
+  <div class="prose measure">{{ a.body_html|safe }}</div>
+  {% if a.related %}
+  <section class="related" aria-labelledby="related-h"><h2 id="related-h" class="section-head">Related guides</h2>
+    <ul class="entry-points">{% for r in a.related %}<li><a href="{{ r.path }}">{{ r.title }}</a><span class="state">{{ r.topic_label }}</span></li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+  <section class="sources" aria-labelledby="sources-h"><h2 id="sources-h" class="section-head">Sources</h2>
+    {% if a.sources %}<ol>{% for s in a.sources %}<li><a href="{{ s.url }}" rel="noopener">{{ s.title }}</a>{% if s.accessed %} <span class="meta">accessed {{ s.accessed }}</span>{% endif %}</li>{% endfor %}</ol>
+    {% else %}<p class="coverage-note">This page cites no external sources.</p>{% endif %}
+    <p class="corrections-link">Spotted an error? <a href="/corrections/">Tell us and we will check it</a>.</p>
+  </section>
+</article>
+{% if ads.sidebar %}<aside class="col-12 col-lg-4" aria-label="Advertisement">{{ ads.sidebar|safe }}</aside>{% endif %}
+</div></div>
+{% endblock %}

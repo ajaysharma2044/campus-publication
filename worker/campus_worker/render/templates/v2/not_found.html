@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Page not found | {{ site.name }}{% endblock %}
+{% block content %}
+<div class="container"><article class="article measure">
+  <div class="typographic-cover"><p class="big" aria-hidden="true">404</p><h1 style="font-size:var(--fs-h2)">Page not found</h1><p class="small">That page does not exist or was removed.</p></div>
+  <p>If you followed a link from our site, <a href="/corrections/">tell us</a> so we can fix it.</p>
+  {% if nav %}<p>Browse by topic: {% for t in nav %}<a href="{{ t.href }}">{{ t.label }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+</article></div>
+{% endblock %}
