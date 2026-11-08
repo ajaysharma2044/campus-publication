@@ -4,6 +4,7 @@ TOPIC: {{topic_title}} (slug {{topic_slug}}; articles under content/articles/{{t
 SCOPE: {{topic_scope}}
 BRIEF: {{brief_path}} ({{brief_words}} words; read it in full with offset and limit; it is the only source of facts)
 DEMAND ROWS (real questions people search, with what ranks): {{demand_path}}
+EXISTING READER KEYS from other topics and the start pages already built (a key is also the shared /start/<key>/ page, so a reader who is the same person as one of these keeps that key exactly): {{existing_keys}}
 STUDENT VOICE (the words students use, their complaints and tips, with counts):
 {{voice_files}}
 OUTPUT: {{out_path}}
@@ -20,7 +21,7 @@ A build note (date, brief word count), then one overview table: | Reader | Key |
 
 Then one section per reader, in the order of the table:
 ## Reader: <name>
-Key: <lowercase-hyphen key, such as transfer-junior; the plan's readers column and the articles' reader blocks use it>
+Key: <lowercase-hyphen key, such as transfer-junior; the plan's readers column, the articles' reader blocks and the /start/<key>/ page use it; reuse an EXISTING READER KEY when the reader is the same person, and coin a new one only for a reader no topic has mapped>
 ### Situation
 Their constraints: year, start term, budget, car, visa, family, time in Ithaca, what they already know, who pays.
 ### Questions in their words

@@ -86,7 +86,18 @@ if out.exists():
 else:
     status = "No reader map exists yet."
 template = (B.PROMPTS / "readers.md").read_text(encoding="utf-8")
-prompt = sessions.fill(template, today=today, topic_title=t["title"], topic_scope=t["scope"], topic_slug=a.topic, topic_dir=t["dir"], brief_path=B.rel(brief),
+# reader keys other topics already use: a key is also the shared /start/<key>/ page, so the same person keeps the same key across topics
+existing = []
+for sp in sorted((B.REPO / "content" / "start").glob("*.md")):
+    fm = q.frontmatter(sp)
+    existing.append(f"{sp.stem} (/start/{sp.stem}/: {fm.get('title') or sp.stem})")
+for rm in sorted(B.REPO.glob("intel/*/readers.md")):
+    if rm.resolve() != out.resolve():
+        for r in P.reader_map(rm.read_text(encoding="utf-8")):
+            if not any(e.startswith(r["key"] + " ") for e in existing):
+                existing.append(f"{r['key']} ({rm.parent.name}: {r['name']})")
+existing_keys = "; ".join(existing) or "(none yet)"
+prompt = sessions.fill(template, today=today, existing_keys=existing_keys, topic_title=t["title"], topic_scope=t["scope"], topic_slug=a.topic, topic_dir=t["dir"], brief_path=B.rel(brief),
                        demand_path=B.rel(demand) if demand.exists() else "(none exported)", voice_files=B.file_list(B.lane_files(tdir / "raw", "voice")),
                        out_path=B.rel(out), min_readers=a.min_readers, status=status, brief_words=f"{B.words(brief.read_text(encoding='utf-8')):,}")
 sessions.save_prompt("readers", a.topic, prompt)

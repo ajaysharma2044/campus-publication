@@ -1058,6 +1058,7 @@ in one table (| Number | Value | Applies to | Source |) so a reader can redo the
 embeds it with a ```tool {{slug}}``` fence). Requirements:
 - one root element <div class="tool" id="tool-{{slug}}" data-tool="{{slug}}" data-as-of="YYYY-MM-DD">, labelled inputs (<label for=...>, ids prefixed
   "{{slug}}-"), sensible defaults and ranges, and a result area with aria-live="polite";
+- headings inside the fragment are <h3> only (the tool page's <h1> and an article's <h2> sit above the embed): no <h1>, <h2> or <h4>;
 - one inline <script> in plain JavaScript: no frameworks, no fetch or XMLHttpRequest, no localStorage, sessionStorage or cookies, no external
   scripts, fonts or images; it must not break other tools on the same page (wrap it in an IIFE, look elements up inside the root);
 - every constant (a rent, fare, distance, minutes, rate) lives in one `const NUMBERS = {...}` where each entry carries {value, asOf: "YYYY-MM-DD",
