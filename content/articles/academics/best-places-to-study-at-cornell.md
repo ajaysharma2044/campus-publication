@@ -20,7 +20,7 @@ images: []
 
 For a late night, go to the Cocktail Lounge in Uris Library: Cornell describes it as [available for quiet and group study 24 hours a day, 7 days a week](https://olinuris.library.cornell.edu/use/spaces), with a current Cornell ID needed after building hours. For true quiet, the Clark Physical Sciences Library and the Engineering Library are the other two libraries the [library hours page](https://www.library.cornell.edu/libraries/) lists as open around the clock. For groups, Mann 112 and the reservable rooms in Olin, Uris and Mann are the places to start. Hours change by semester and around finals, so check the linked pages before you walk across the Arts Quad.
 
-One caution on the pages we found: the library site showed most libraries as "Closed" when we looked, so we could not confirm regular opening hours for Olin, Uris or Mann. Where a spot is described below, the source and its date are stated.
+One caution: the library site showed most libraries as "Closed" when we looked, so we could not confirm regular opening hours for Olin, Uris or Mann. Where a spot is described below, the source and its date are stated.
 
 ## Quick picks by need
 
@@ -62,13 +62,13 @@ We could not verify hours for Collegetown or downtown Ithaca cafes from an offic
 - **A night owl:** Cocktail Lounge first, Clark if it is full or too social. Bring your ID.
 - **In a group project:** book a room early, especially in finals weeks.
 - **Easily distracted:** skip the cafes and A.D. White; pick Clark or an Olin carrel.
-- **Short on gear:** the Mann 112 page notes printers; see our guide to [cheap textbooks](/money/cornell-textbooks-cheap-where-to-buy-used-ithaca/) to cut course costs.
+- **Studying on a budget:** our guide to [cheap textbooks](/money/cornell-textbooks-cheap-where-to-buy-used-ithaca/) covers cutting course costs.
 
 ## Common mistakes
 
 - Trusting a 2019 or 2022 list for 2026 hours. Check the library site.
 - Forgetting your Cornell ID after hours.
-- Showing up on a Saturday morning at Olin without a plan: an admissions blogger, as quoted in search results, said students queue for window seats. We could not open that page, so treat it as hearsay.
+- Assuming a room is free. Olin and Uris rooms can be reserved, so book ahead.
 
 ## FAQ
 

@@ -21,7 +21,7 @@ sources:
 images: []
 ---
 
-Use [CU Reviews](https://www.cureviews.org/) to judge the course and [RateMyProfessors](https://www.ratemyprofessors.com/) to judge the instructor, then read the newest written comments instead of the star average. Cornell no longer publishes official median grades, so no site gives you a reliable grade picture. Most students end up combining several sources, and that is the right instinct. Here is what each one is good for and where it misleads.
+Use [CU Reviews](https://www.cureviews.org/) to judge the course and RateMyProfessors to judge the instructor, then read the newest written comments instead of the star average. Cornell no longer publishes official median grades, so no site gives you a reliable grade picture. Most students end up combining several sources, and that is the right instinct. Here is what each one is good for and where it misleads.
 
 ## The sources side by side
 
@@ -43,7 +43,7 @@ The Sun's 2018 piece also said submitted comments are reviewed before they post,
 It is the one most students know, and it is the most criticized. A [2019 Sun report](https://www.cornellsun.com/article/2019/11/longtime-teacher-evaluation-website-ratemyprofessors-receives-mixed-ratings-from-cornellians) found mixed views at Cornell:
 
 - Student Becky Borrazzo '22 uses it to narrow choices, especially for electives, and reads the written comments rather than relying on the average.
-- Prof. Jane-Marie Law (Asian studies) said online reviews skew toward unhappy students, and Prof. Simone Pinet (romance studies) said she hesitates to read them because of research on gender and racial bias in evaluations.
+- Prof. Jane-Marie Law (Asian studies) said online reviews skew toward unhappy students, and Prof. Simone Pinet (romance studies) said the research on gender and racial bias in evaluations makes hesitation about reading them reasonable.
 - Prof. Peter Katzenstein (government), who had 139 ratings and a 4.3 out of 5 at the time, called the site a valuable, mostly accurate resource that fills a gap left by the lack of public official evaluations.
 - The article said no Cornell professor had more than 250 ratings, so small samples are normal. That figure is from 2019.
 
@@ -56,7 +56,7 @@ Cornell used to publish these, and many students still look for them. The [Sun r
 ## How to read them without being misled
 
 1. **Start with the course, then the instructor.** Look up the course on CU Reviews, then check the instructor on RateMyProfessors if a section choice depends on it.
-2. **Read comments, not averages.** Ballard's [November 2025 Sun column](https://cornellsun.com/article/2025/11/grading-the-graders-empathy-for-professors-during-the-course-selection-process) says the most useful reviews are the most recent, since course content, syllabi and instructors change over time, and that decade-old Reddit threads are examples of outdated information.
+2. **Read comments, not averages.** Richard Ballard's [November 2025 Sun column](https://cornellsun.com/article/2025/11/grading-the-graders-empathy-for-professors-during-the-course-selection-process) says the most useful reviews are the most recent, since course content, syllabi and instructors change over time, and cites decade-old Reddit threads as examples of outdated information.
 3. **Look for patterns, not outliers.** Because reviewers skew to the extremes, ignore the angriest and the most glowing and look for what several comments repeat.
 4. **Separate "hard" from "bad."** If a review complains about grading, ask whether it describes the teaching or only the grade.
 5. **Check the count and the dates.** A 4.8 from four reviews means little. Our advice: if there are fewer than about ten reviews, or none from the last two years, lean on other sources.
@@ -74,8 +74,6 @@ ProfessorPeek is a Chrome extension that, per its [store listing](https://chrome
 - **Stuck on a full class:** Our guides on [pre-enrollment and add/drop](/academics/cornell-course-enrollment-strategy-pre-enroll-tips/) and [the waitlist](/academics/how-to-get-into-a-full-class-at-cornell-waitlist/) cover what to do next.
 
 ## FAQ
-
-**Do professors see their ratings?** The sources we read do not say. Pinet told the Sun she hesitates to read them, which suggests some do.
 
 **Are official course evaluations public?** The Sun's 2019 report quoted Katzenstein on a lack of public official evaluations. We could not confirm a current college-by-college rule, so ask your college's advising office.
 
