@@ -1,29 +1,22 @@
-# Footnote Daily (campus-publication), v2
+# Footnote Daily (campus-publication), v3
 
-Research-first guides for students, parents and alumni of a school and its town. Cornell and Ithaca first.
-Owner specs: `docs/v3/spec.md` (2026-11-08, wins where it conflicts) over `docs/v2/spec.md` (files, lint, render, images, monetization, deploy still apply); v1 is under `archive/v1/`. Style: `docs/v2/style.md`. Quality bar: `docs/v2/exemplar.md`. Status: `STATE.md` (overwritten, under 60 lines).
+Research-first guides for students, parents and alumni of Cornell University and Ithaca. Owner specs: `docs/v3/spec.md` (2026-11-08, wins where it conflicts) over `docs/v2/spec.md` (files, lint, render, images, monetization, deploy). Style: `docs/v2/style.md`. Quality bar: `docs/v2/exemplar.md`. Status: `STATE.md`, overwritten, under 60 lines. This file and STATE.md describe only what exists and runs.
 
-## Pipeline (files, not a database)
-v3 (current): `scripts/v3/research.sh <topic>` (five lanes to `intel/<topic>/raw/`), `brief.sh` (`intel/<topic>/brief.md`, facts checked once), `readers.sh`, `plan.sh` (plan rows to the queue; Ajay approves), `write.sh` (opus writes and edits from the brief), `check.sh` (facts not in the brief), then v2 publish. Topics: `scripts/v3/topics.yml`.
-v2 steps still used:
-1. Find demand: `scripts/v2/find_demand.sh <topic>` appends rows to `queue/queue.csv` (verdict gap, weak or owned; gap and weak become `proposed`). Ajay marks rows `approved`, or run with `--auto-approve`.
-2. Research and write: `scripts/v2/write.sh --workers 4` writes `content/articles/<topic>/<slug>.md` (one `claude -p` session per approved row; web, corpus, style guide, exemplar).
-3. Review: `scripts/v2/review.sh` writes `content/reviews/<slug>.json` (fact check plus beats-#1 test; pass, fix or reject; one fix round).
-4. Lint and publish: `scripts/v2/publish.sh` runs the code checks, renders `build/site/` with `render/`, deploys to Netlify every 10 articles.
-Stop any step cleanly with `touch .run/STOP`. Usage-limit pauses resume on their own.
+## What exists today
+- Research sprint (v3 step 1): `scripts/v3/research.sh <topic> [--lanes A,B,C,D,E] [--workers N] [--model sonnet|opus] [--deepen]` writes dated, sourced raw notes to `intel/<topic>/raw/<lane>.md` (official, market, voice, competition, analysis). Topics and scopes: `scripts/v3/topics.yml`. Done so far: getting-around (all lanes), money (all lanes), dining (A to C), off-campus housing (in progress).
+- v2 steps still in use: `scripts/v2/find_demand.sh` (queue rows), `write.sh`, `review.sh`, `publish.sh` (lint, render, Netlify deploy), `lint.py`, `render_site.py`, `find_images.py` (licensed photos and the credits ledger), `run_continuous.sh` (stopped; superseded by v3 once its steps exist), `export_corpus.py`.
+- Content and data: `content/articles/<topic>/<slug>.md`, `content/reviews/`, `content/images/` (`credits.yml`, `inbox/`), `queue/queue.csv`, `corpus/<host>/<path>.txt` (2,522 crawled pages), `intel/`, `reports/`, `config/monetization.yml`.
+- Kept worker code: `worker/campus_worker/render/` (templates, static assets, figures) and the modules the scripts import; everything else from v1 is under `archive/v1/`.
 
-## Layout
-- `content/articles/`, `content/reviews/`, `content/images/` (`credits.yml`, `inbox/`), `queue/queue.csv`, `corpus/<host>/<path>.txt` (2,522 crawled pages; `scripts/v2/export_corpus.py`).
-- `scripts/v2/` (bash and python; prompts in `scripts/v2/prompts/`), `config/monetization.yml`, `docs/v2/`.
-- `worker/campus_worker/`: kept infrastructure only: `fetcher.py`, `permissions.py`, `crawl.py` (sitemap crawler), `collectors/`, `db.py`, `config.py`, `render/` (templates, static assets, figures).
-- `archive/v1/`: the v1 pipeline (specs, agents, bulk mode, gates, WordPress, old STATE and BACKLOG). Reference only; nothing runs from it.
+## Not built yet (v3 steps 2 to 7)
+`brief.sh`, `readers.sh`, `plan.sh`, `write.sh`, `check.sh` under `scripts/v3/`, the v3 publish requirements in `lint.py`, and the v3 render blocks. Until they land, no v3 article is written.
 
 ## Rules
-- Every hard fact links inline to the official source it came from. Student experience is paraphrased, attributed and linked. Never invent quotes, people, ratings or numbers; never copy more than a short phrase.
-- Respect robots and site terms; never log in; read a page the way a person would. Images only with a reuse license or written permission, credited.
-- Quality problems are fixed in the prompts, the style guide and the exemplar, never with code rules. No new gates, agents, scores or databases.
-- Secrets live only in `worker/.env`, which Claude never reads (the one remaining hook rule). Commit per milestone; never force-push.
+- Every hard fact links inline to its source; student experience is paraphrased and attributed; never invent facts, numbers, quotes or people.
+- Respect robots and site terms; no logins; no bulk scraping; images only with a reuse license or written permission, credited.
+- Quality fixes go in prompts, the style guide, the exemplar and the briefs, never in code rules. No new gates, scores or databases. No scheduled jobs.
+- Secrets live only in `worker/.env`, which Claude never reads (the one remaining hook rule). Commit per step; never force-push.
 
 ## Running
-- Python: `worker/.venv` (`psycopg`, `httpx`, `jinja2`, `markdown`, `pyyaml`). Tests: `cd worker && .venv/bin/python -m pytest -q`.
-- Deploy: `bash scripts/deploy_netlify.sh` (site `campus-ledger-preview`). Crawl more official pages: `worker/.venv/bin/python -m campus_worker.crawl --school <slug>`.
+- Python: `worker/.venv` (pyyaml, markdown, jinja2, httpx, Pillow, psycopg). Tests: `cd worker && .venv/bin/python -m pytest -q`.
+- Stop any step cleanly: `scripts/v2/stop.sh`. Deploy: `bash scripts/deploy_netlify.sh`. Logs: `build/runs/v2/`.

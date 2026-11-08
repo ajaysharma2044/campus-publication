@@ -116,3 +116,6 @@ Reliability key: [A] opened and read; [S] search-result summary only, not opened
 
 ## 7. Merge note
 voice-part2.md in this folder holds an earlier partial save of rows S11-S22; everything in it is included above (S11-S22 retained, text lightly tightened). Nothing was dropped.
+
+<!-- merged from voice-part2.md -->
+Superseded. This was an interim save; all of its rows (S11-S22) are now in voice.md in this folder. Use voice.md only.

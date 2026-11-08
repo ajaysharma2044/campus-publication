@@ -1,56 +1,63 @@
 ---
-title: "Cornell transfer housing: how it actually works"
-meta: "Transfers live on campus for a year. Apply within 10 days of your NetID, expect West, South or a Program House, and budget $6,872 a semester for a double."
-primary_query: "Cornell transfer housing"
+title: 'Cornell transfer housing: how it actually works'
+meta: Transfers live on campus for a year. Apply within 10 days of your NetID, expect West, South or a Program House, and budget $6,872 a semester for a double.
+primary_query: Cornell transfer housing
 topic: housing
 school: cornell-university
 type: how-to
 updated: 2026-11-07
 queue_id: q-housing-0001
 sources:
-  - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
-    title: "New Transfer Undergraduates, Cornell Student & Campus Life"
-    accessed: 2026-11-06
-  - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus
-    title: "Apply for Housing On Campus, Cornell Student & Campus Life"
-    accessed: 2026-11-06
-  - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process
-    title: "New Undergrad Application Process, Cornell Student & Campus Life"
-    accessed: 2026-11-06
-  - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
-    title: "Residential Policy, Cornell Student & Campus Life"
-    accessed: 2026-11-06
-  - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
-    title: "Housing Rates 2026-2027, Cornell Student & Campus Life"
-    accessed: 2026-11-06
-  - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy
-    title: "Housing License Cancellation Policy, Cornell Student & Campus Life"
-    accessed: 2026-11-06
-  - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/cooperative-housing
-    title: "Cooperative Housing, Cornell Student & Campus Life"
-    accessed: 2026-11-06
-  - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/program-houses
-    title: "Program Houses, Cornell Student & Campus Life"
-    accessed: 2026-11-06
-  - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-schedule
-    title: "Move-in Schedule, Cornell Student & Campus Life"
-    accessed: 2026-11-06
-  - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/room-change-processes-cornell
-    title: "Room Change Processes at Cornell, Cornell Student & Campus Life"
-    accessed: 2026-11-06
-  - url: https://talk.collegeconfidential.com/t/cornell-transfer-co-2027-28-for-fall-2025/3684687
-    title: "Cornell Transfer CO 2027/28 (For Fall 2025), College Confidential"
-    accessed: 2026-11-07
-  - url: https://cornellsun.com/2018/12/04/isolated-vulnerable-and-nervous-transfer-students-express-frustration-over-not-being-able-to-live-on-campus/
-    title: "Transfer Students Express Frustration Over Not Being Able to Live On Campus, The Cornell Daily Sun, December 4, 2018"
-    accessed: 2026-11-07
-  - url: https://cornellsun.com/2016/10/03/transfer-students-forced-to-live-in-north-campus-lounges/
-    title: "Transfer Students Forced to Live in North Campus Lounges, The Cornell Daily Sun, October 3, 2016"
-    accessed: 2026-11-07
-images: []
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
+  title: New Transfer Undergraduates, Cornell Student & Campus Life
+  accessed: 2026-11-06
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus
+  title: Apply for Housing On Campus, Cornell Student & Campus Life
+  accessed: 2026-11-06
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process
+  title: New Undergrad Application Process, Cornell Student & Campus Life
+  accessed: 2026-11-06
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
+  title: Residential Policy, Cornell Student & Campus Life
+  accessed: 2026-11-06
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
+  title: Housing Rates 2026-2027, Cornell Student & Campus Life
+  accessed: 2026-11-06
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy
+  title: Housing License Cancellation Policy, Cornell Student & Campus Life
+  accessed: 2026-11-06
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/cooperative-housing
+  title: Cooperative Housing, Cornell Student & Campus Life
+  accessed: 2026-11-06
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/program-houses
+  title: Program Houses, Cornell Student & Campus Life
+  accessed: 2026-11-06
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-schedule
+  title: Move-in Schedule, Cornell Student & Campus Life
+  accessed: 2026-11-06
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/room-change-processes-cornell
+  title: Room Change Processes at Cornell, Cornell Student & Campus Life
+  accessed: 2026-11-06
+- url: https://talk.collegeconfidential.com/t/cornell-transfer-co-2027-28-for-fall-2025/3684687
+  title: Cornell Transfer CO 2027/28 (For Fall 2025), College Confidential
+  accessed: 2026-11-07
+- url: https://cornellsun.com/2018/12/04/isolated-vulnerable-and-nervous-transfer-students-express-frustration-over-not-being-able-to-live-on-campus/
+  title: Transfer Students Express Frustration Over Not Being Able to Live On Campus, The Cornell Daily Sun, December 4, 2018
+  accessed: 2026-11-07
+- url: https://cornellsun.com/2016/10/03/transfer-students-forced-to-live-in-north-campus-lounges/
+  title: Transfer Students Forced to Live in North Campus Lounges, The Cornell Daily Sun, October 3, 2016
+  accessed: 2026-11-07
+images:
+- file: 1.webp
+  alt: Paul Cornell (1822-1904)
+  caption: Paul Cornell (1822-1904)
+  credit: TonyTheTiger at en.wikipedia / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Paul_Cornell_(1822-1904).jpg
+  license: Public domain
+  license_url: ''
 ---
 
-If you transfer to Cornell as a first-year or sophomore, you live on campus for your first academic year, and Cornell assigns you a room rather than guaranteeing a specific one. You apply through the Housing & Dining Portal, and Cornell's advice is to do it [within ten days of receiving your NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process). Confirmations start in mid-June, and Cornell says transfers [may be placed in the West Campus House System, South Campus Residence Halls, North Campus Residence Halls, and Program Houses](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process). A double costs [$6,872 per semester for 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), and a meal plan is required on top. Here is the whole process, what you can control, and where transfers have ended up.
+New Cornell transfers who enter as first-years or sophomores live on campus for their first academic year, and Cornell assigns the room rather than guaranteeing a specific one. You apply through the Housing & Dining Portal, and Cornell's advice is to do it [within ten days of receiving your NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process). Confirmations start in mid-June, and Cornell says transfers [may be placed in the West Campus House System, South Campus Residence Halls, North Campus Residence Halls, and Program Houses](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process). A double costs [$6,872 per semester for 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), and a meal plan is required on top. Here is the whole process, what you can control, and where transfers have ended up.
 
 ## Do you have to live on campus?
 
