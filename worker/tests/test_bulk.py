@@ -310,6 +310,17 @@ def test_question_build_retires_generated_questions_it_no_longer_produces(clean_
         cur.execute("SELECT count(*) AS n FROM bulk_questions WHERE institution_id=%s AND status='skipped'", (inst,))
         skipped = cur.fetchone()["n"]
     assert row["status"] == "skipped" and row["why"] == "no longer generated" and still_planned == planned and skipped == 1
+    # a generated question retired that way comes back to the queue when the generator produces it again (new evidence after a later pass)
+    with clean_conn.cursor() as cur:
+        cur.execute("""UPDATE bulk_questions SET status='skipped', incumbent_detail=incumbent_detail || '{"skip_reason": "no longer generated"}'::jsonb
+                       WHERE institution_id=%s AND origin='generated' AND status='queued' RETURNING id""", (inst,))
+        retired = cur.rowcount
+    clean_conn.commit()
+    questions.build(clean_conn, slug="fixture-state")
+    with clean_conn.cursor() as cur:
+        cur.execute("SELECT count(*) AS n FROM bulk_questions WHERE institution_id=%s AND origin='generated' AND status='queued' AND incumbent_detail->>'skip_reason' IS NULL", (inst,))
+        back = cur.fetchone()["n"]
+    assert retired > 0 and back == retired
 
 
 def test_plan_pages_replans_a_flagged_question_over_its_own_page(clean_conn):

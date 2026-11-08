@@ -98,7 +98,7 @@ def assemble(data: dict, *, today: date | None = None) -> dict:
                          "facts": [{"field": c["field"], "value": c["value"], "academic_year": c.get("academic_year"), "source": (c["sources"][0]["url"] if c["sources"] else None)} for c in ecs[:12]]})
     processes = [{"name": json.loads(c["value_text"]).get("name") if (c.get("value_text") or "").startswith("{") else c["field"], "field": c["field"],
                   "steps": (json.loads(c["value_text"]).get("steps") if (c.get("value_text") or "").startswith("{") else [c.get("value_text")]), "source": (c["sources"][0]["url"] if c["sources"] else None), "claim_id": str(c["id"])}
-                 for c in claims if c["family"] == "process"]
+                 for c in claims if c["family"] == "process" and ".step_" not in c["field"]]   # step claims belong to their procedure, not a procedure each
     for g in data["graphs"]:
         processes.append({"name": g["name"], "field": f"graph.{g['key']}", "steps": [n["label"] for n in (g.get("nodes") or []) if n.get("layer", 0) <= 1], "source": None, "graph": True})
     deadlines = sorted([c for c in claims if c["family"] == "deadline" or c.get("value_date")], key=lambda c: (c.get("value_date") or date.max, c["field"]))

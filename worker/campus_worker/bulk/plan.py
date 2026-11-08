@@ -10,7 +10,7 @@ import psycopg
 
 from ..seo_gate import _contains_query, _hubs_for
 from .dossier import human_value
-from .util import slugify
+from .util import norm_text, slugify
 
 
 def _stems(text: str) -> set[str]:
@@ -185,9 +185,20 @@ def gather(conn: psycopg.Connection, bulk_page: dict, *, institution_id: UUID) -
                          AND NOT (c.field LIKE 'process.%%' AND c.value_text LIKE '{%%')
                        ORDER BY (c.entity_id IS NOT NULL) DESC, c.is_critical DESC, c.field""", (institution_id, entity_id, topic_id, step_prefix, (step_prefix or "") + "%"))
         rows = [dict(r) for r in cur.fetchall() if r["source"]]
-    def score(c):   # a how-to page's own verbatim steps first, then the entity's facts, then the page's fact families, then the rest
+        step_order: dict[str, int] = {}
+        if step_prefix:   # the procedure's current step list is its identity: a step claim outside it (a stale slot, a same-named list) never reaches the writer
+            cur.execute("""SELECT value_text FROM claims WHERE institution_id=%s AND entity_id IS NULL AND field=%s AND superseded_by_id IS NULL AND evidence_category='verified_fact' AND value_text LIKE '{%%'
+                           ORDER BY retrieved_at DESC LIMIT 1""", (institution_id, step_prefix[: -len(".step_")]))
+            parent = cur.fetchone()
+            try:
+                step_order = {norm_text(x): i for i, x in enumerate((json.loads(parent["value_text"]).get("steps") or []) if parent else [])}
+            except (json.JSONDecodeError, AttributeError, TypeError):
+                step_order = {}
+            rows = [r for r in rows if not r["field"].startswith(step_prefix) or norm_text(r.get("value_text") or "") in step_order]
+    def score(c):   # a how-to page's own verbatim steps first (in the page's order), then the entity's facts, then the page's fact families, then the rest
         fam = c["field"].split(".", 1)[0]
-        return (0 if (step_prefix and c["field"].startswith(step_prefix)) else 1, 0 if c["entity_id"] else 1, 0 if (families and fam in families) else 1, 0 if c["is_critical"] else 1)
+        is_step = bool(step_prefix and c["field"].startswith(step_prefix))
+        return (0 if is_step else 1, step_order.get(norm_text(c.get("value_text") or ""), 99) if is_step else 0, 0 if c["entity_id"] else 1, 0 if (families and fam in families) else 1, 0 if c["is_critical"] else 1)
     rows.sort(key=score)
     facts = []
     for c in rows[:MAX_FACTS]:

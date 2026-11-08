@@ -324,7 +324,7 @@ def extract_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: int
                 missing.append(sid)
         if mode == "steps":
             stats = extractmod.process_step_results(conn, results, model=f"headless:{model}", topic_by_section=topic_by_section, batch_id=f"headless:{run_id}:{n}", default_institution_id=inst) if results else {}
-            progress.add(pages=len(results), processes=stats.get("processes_stored", 0), steps=stats.get("steps_stored", 0), dropped_no_quote=stats.get("steps_dropped_no_quote", 0))
+            progress.add(pages=len(results), processes=stats.get("processes_stored", 0), steps=stats.get("steps_stored", 0), dropped_no_quote=stats.get("steps_dropped_no_quote", 0), errors=stats.get("errors", 0))
             detail = f"{stats.get('processes_stored', 0)} procedures, {stats.get('steps_stored', 0)} steps stored ({stats.get('steps_dropped_no_quote', 0)} steps dropped without a verbatim quote)"
         else:
             stats = extractmod.process_results(conn, results, model=f"headless:{model}", topic_by_section=topic_by_section, batch_id=f"headless:{run_id}:{n}", default_institution_id=inst) if results else {}
@@ -336,7 +336,7 @@ def extract_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: int
             if attempts[sid] >= MAX_ATTEMPTS:
                 with conn.cursor() as cur:
                     if mode == "steps":
-                        cur.execute("UPDATE fetch_snapshots SET steps_extracted_at=now() WHERE id=%s", (UUID(sid),))
+                        cur.execute("UPDATE fetch_snapshots SET steps_extracted_at=now(), steps_batch_id=%s WHERE id=%s", (f"headless:{run_id}:skipped", UUID(sid)))
                     else:
                         cur.execute("UPDATE fetch_snapshots SET extracted_at=now(), extraction_batch_id=%s WHERE id=%s", (f"headless:{run_id}:skipped", UUID(sid)))
                 conn.commit()

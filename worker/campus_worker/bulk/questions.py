@@ -13,7 +13,7 @@ import psycopg
 import yaml
 
 from ..config import REPO_ROOT
-from .util import slugify
+from .util import norm_text, slugify
 
 UNDERSERVED_AUDIENCES = ("transfer", "community_college_transfer", "international", "first_gen", "parent", "alumni", "staff", "resident")
 UNSERVABLE = re.compile(r"\b(review|reviews|rating|ratings|reddit|opinions?|experiences?|what is it like|what's it like|worth it|pros and cons|shorter lines|best|worst)\b", re.I)
@@ -177,7 +177,15 @@ def generate(conn: psycopg.Connection, *, institution_id: UUID, school: str, tow
                                 "audience": aud, "origin": "generated", "facts": n})
     # how-to pages, one per distinct process
     seen_proc: set = set()
-    verbatim_steps = Counter(c["field"].rsplit(".step_", 1)[0] for c in claims if not c["entity_id"] and c["field"].startswith("process.") and ".step_" in c["field"])
+    parent_steps: dict[str, set] = {}
+    for c in claims:
+        if not c["entity_id"] and c["field"].startswith("process.") and ".step_" not in c["field"] and (c.get("value_text") or "").startswith("{"):
+            try:
+                parent_steps[c["field"]] = {norm_text(x) for x in (json.loads(c["value_text"]).get("steps") or [])}
+            except (json.JSONDecodeError, AttributeError, TypeError):
+                pass
+    verbatim_steps = Counter(base for base, value in ((c["field"].rsplit(".step_", 1)[0], c.get("value_text") or "") for c in claims if not c["entity_id"] and c["field"].startswith("process.") and ".step_" in c["field"])
+                             if norm_text(value) in parent_steps.get(base, set()))   # a step counts only inside its procedure's current list
     for c in claims:
         if c["entity_id"] or not c["field"].startswith("process.") or ".step_" in c["field"]:
             continue
@@ -272,7 +280,9 @@ def build(conn: psycopg.Connection, *, slug: str, year: str = "2026-27") -> dict
              VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s::jsonb, %s)
              ON CONFLICT (COALESCE(institution_id::text, ''), COALESCE(place_id::text, ''), answer_key, audience)
              DO UPDATE SET question=EXCLUDED.question, question_norm=EXCLUDED.question_norm, page_type=EXCLUDED.page_type, topic_id=EXCLUDED.topic_id, entity_id=EXCLUDED.entity_id,
-                           cluster_id=COALESCE(EXCLUDED.cluster_id, bulk_questions.cluster_id), primary_query=EXCLUDED.primary_query, incumbent_detail=bulk_questions.incumbent_detail || EXCLUDED.incumbent_detail, updated_at=now()"""
+                           cluster_id=COALESCE(EXCLUDED.cluster_id, bulk_questions.cluster_id), primary_query=EXCLUDED.primary_query,
+                           status=CASE WHEN bulk_questions.status='skipped' AND bulk_questions.incumbent_detail->>'skip_reason'='no longer generated' THEN 'queued' ELSE bulk_questions.status END,
+                           incumbent_detail=(bulk_questions.incumbent_detail - 'skip_reason') || EXCLUDED.incumbent_detail, updated_at=now()"""
     n = 0
     for i in range(0, len(rows), 500):   # batched: one round trip per 500 questions, committed per batch (a dropped connection loses at most one batch)
         with conn.cursor() as cur:

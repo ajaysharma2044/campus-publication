@@ -63,7 +63,7 @@ Rules:
 STEP_MIN_CHARS = 12
 MAX_STEPS = 15
 STEP_PATTERN = r"(^|\s)(Step\s*\d|\d{1,2}\.)\s"   # a page whose text carries a numbered step list is a candidate for the steps pass
-STEP_MARKER = re.compile(r"^\s*(?:step\s*\d+[.:)]?|\d{1,2}[.)]|[•\-–*])\s*", re.I)
+STEP_MARKER = re.compile(r"^\s*(?:step\s*\d+\s*[.:)\-–—]|\d{1,2}[.)](?!\d)|[•\-–*])\s*", re.I)   # "1. ", "Step 2: ", "• "; never the 3 of "3.5 GPA" or the "Step 2" of "Step 2 of the form"
 
 
 def process_field(name: str) -> str:
@@ -108,7 +108,7 @@ def process_step_results(conn: psycopg.Connection, results: list[BatchResult], *
         doc = parse_json_object(res.text or "") if res.ok else None
         if doc is None:
             stats["errors"] += 1
-            _mark_steps(conn, sid)
+            _mark_steps(conn, sid, batch_id + ":error")
             continue
         topic_id = topic_by_section.get(snap["crawl_section"] or "default") or topic_by_section.get("default")
         if snap["institution_id"] is None and default_institution_id is not None:
@@ -139,21 +139,33 @@ def process_step_results(conn: psycopg.Connection, results: list[BatchResult], *
                 return ClaimRecord(institution_id=snap["institution_id"], campus_id=snap["campus_id"], entity_id=None, topic_id=topic_id, field=field, value_type="text", value_text=value,
                                    evidence_category="verified_fact", extraction_method="model", extraction_model=f"batch:{model}", extraction_confidence=0.85, retrieved_at=fetched, is_critical=False)
             try:
-                cm.store_claim(conn, rec(base, json.dumps({"name": name, "steps": steps})), snapshot_id=sid, excerpt=steps[0], locator="bulk-extract:process", source_family=snap["source_family"])
+                parent = cm.store_claim(conn, rec(base, json.dumps({"name": name, "steps": steps})), snapshot_id=sid, excerpt=steps[0], locator="bulk-extract:process", source_family=snap["source_family"])
+                kept = []
                 for i, step in enumerate(steps, start=1):
-                    cm.store_claim(conn, rec(f"{base}.step_{i:02d}", step), snapshot_id=sid, excerpt=step, locator=f"bulk-extract:process-step:{i}", source_family=snap["source_family"])
+                    kept.append(cm.store_claim(conn, rec(f"{base}.step_{i:02d}", step), snapshot_id=sid, excerpt=step, locator=f"bulk-extract:process-step:{i}", source_family=snap["source_family"]).claim_id)
                     stats["steps_stored"] += 1
+                if parent.action != "conflict":   # this page's list is the procedure: step slots it did not re-store (a longer earlier version, a same-named list) go stale with it
+                    with conn.cursor() as cur:
+                        cur.execute("""UPDATE claims SET superseded_by_id=%s, evidence_category=CASE WHEN evidence_category='verified_fact' THEN 'stale' ELSE evidence_category END
+                                       WHERE institution_id=%s AND campus_id IS NOT DISTINCT FROM %s AND entity_id IS NULL AND superseded_by_id IS NULL AND field LIKE %s AND NOT (id = ANY(%s::uuid[]))""",
+                                    (parent.claim_id, snap["institution_id"], snap["campus_id"], _like_escape(base) + r".step\_%", kept))
+                        stats["steps_retired"] = stats.get("steps_retired", 0) + cur.rowcount
+                    conn.commit()
                 stats["processes_stored"] += 1
             except Exception as e:  # noqa: BLE001 — a malformed record is a count, never a crash of the batch
                 conn.rollback()
                 stats.setdefault("store_errors", []).append(f"{base}: {type(e).__name__}: {str(e)[:100]}")
-        _mark_steps(conn, sid)
+        _mark_steps(conn, sid, batch_id)
     return stats
 
 
-def _mark_steps(conn: psycopg.Connection, sid: UUID) -> None:
+def _like_escape(s: str) -> str:
+    return s.replace("\\", "\\\\").replace("%", r"\%").replace("_", r"\_")
+
+
+def _mark_steps(conn: psycopg.Connection, sid: UUID, marker: str) -> None:
     with conn.cursor() as cur:
-        cur.execute("UPDATE fetch_snapshots SET steps_extracted_at=now() WHERE id=%s", (sid,))
+        cur.execute("UPDATE fetch_snapshots SET steps_extracted_at=now(), steps_batch_id=%s WHERE id=%s", (marker, sid))
     conn.commit()
 
 
