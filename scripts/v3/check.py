@@ -22,6 +22,7 @@ at a stub for tests; --runs-dir moves logs, prompts and the rewrite backups for 
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import sys
 from datetime import date
@@ -44,6 +45,16 @@ def load(path: Path) -> dict:
         return d if isinstance(d, dict) else {}
     except (OSError, ValueError):
         return {}
+
+
+def page_sha(files: list[Path]) -> str:
+    """sha256 of the page's files as they are now. A passing check vouches for exactly this content; a writer round changes it, so the
+    next check run checks the page again (older check files without the field count as current)."""
+    h = hashlib.sha256()
+    for f in files:
+        if f.exists():
+            h.update(f.read_bytes())
+    return h.hexdigest()
 
 
 def check_problems(d: dict, qid: str) -> list[str]:
@@ -144,7 +155,9 @@ def main(argv: list[str]) -> int:
         chk = P.checks / f"{slug}.json"
         cur = load(chk)
         if cur.get("verdict") == "pass" and not a.recheck and not ids:
-            continue
+            if not cur.get("page_sha") or cur["page_sha"] == page_sha(files):
+                continue
+            log(f"{r['id']}: {slug} changed since its passing check (a writer round); checking it again")
         prev = cur if cur.get("verdict") == "fix" else load(chk.with_name(f"{slug}.prev.json"))
         rnd = 2 if prev.get("verdict") == "fix" else 1
         previous = ("\n" + "\n".join(f"  - {f}" for f in prev["fixes"])) if prev.get("fixes") else "none (first check)"
@@ -163,7 +176,7 @@ def main(argv: list[str]) -> int:
                 chk.replace(chk.with_name(f"{chk.stem}.prev.json"))
 
         jobs.append({"id": r["id"], "prompt": prompt, "expect": [str(chk)], "prepare": prepare, "check": (lambda c=chk, rid=r["id"]: (lambda: check_problems(load(c), rid)))(),
-                     "row": r, "chk": chk, "slug": slug, "kind": kind, "round": rnd, "page": page})
+                     "row": r, "chk": chk, "slug": slug, "kind": kind, "round": rnd, "page": page, "files": files})
         if a.limit and len(jobs) >= a.limit:
             break
     if v2_rows:
@@ -187,6 +200,8 @@ def main(argv: list[str]) -> int:
             log(f"[{rid}] check did not finish ({'; '.join(problems)[:300]}); the row stays written for the next run")
             return
         d = load(job["chk"])
+        d["page_sha"] = page_sha(job["files"])
+        job["chk"].write_text(json.dumps(d, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
         verdict = d["verdict"]
         n = len(d.get("checked") or [])
         fixed = sum(1 for c in d.get("checked") or [] if c.get("status") == "fixed")
