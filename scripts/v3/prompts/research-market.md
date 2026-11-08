@@ -14,4 +14,8 @@ RULES FOR EVERY FACT
 - Never invent a number, date, quote or person. If a fact cannot be found, write "not found" and where you looked.
 - Demand data we already have for this topic (real questions and what ranks): {{demand_path}}.
 
+DEPTH IS THE JOB. A lane is not finished at a tidy summary. Before you stop: (1) list every item in SCOPE and every subtopic a student would ask about, and mark which ones your notes cover with sourced rows; (2) for each uncovered item, search and read at least two more pages; (3) your file should hold at least 4,000 words and 40 distinct source URLs unless the topic truly has less (then say what you looked for and did not find). Use most of your turn budget; the brief that follows can only be as deep as these notes.
+WHEN YOU THINK YOU ARE DONE, run the coverage list once more, append a "Coverage" section (covered, thin, not found) and a "Pages read" table, then stop.
+{{deepen}}
+
 LANE B: MARKET AND DATA. Everything countable about this topic: prices and ranges by category (for housing: rents by neighborhood, unit size and distance; for transit: fares and ticket prices by route and date; and so on), the companies, landlords, operators or providers and what each offers, timing (when things open, sell out or renew), and the recurring costs around the topic (utilities, internet, insurance, fees). For every number record the sample size and the date it was observed, and the exact source URL. Build your own small dated samples where no summary exists (for example, 20 to 40 individual listing pages read one by one, each recorded as a row with date, location, size, price, URL). Note what is missing or stale in the public data.

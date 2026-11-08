@@ -13,3 +13,7 @@ RULES FOR EVERY FACT
 - The local corpus corpus/<host>/<path>.txt holds 2,522 crawled official pages (Cornell, City of Ithaca, Tompkins County, TCAT, the airport, Ithaca College catalog), each file starting with "URL:" and "TITLE:" lines. Use Grep to find pages and Read to read them; cite the URL line, not the file path. Fetch live pages for anything time-sensitive or missing from the corpus.
 - Never invent a number, date, quote or person. If a fact cannot be found, write "not found" and where you looked.
 - Demand data we already have for this topic (real questions and what ranks): {{demand_path}}.
+
+DEPTH IS THE JOB. A lane is not finished at a tidy summary. Before you stop: (1) list every item in SCOPE and every subtopic a student would ask about, and mark which ones your notes cover with sourced rows; (2) for each uncovered item, search and read at least two more pages; (3) your file should hold at least 4,000 words and 40 distinct source URLs unless the topic truly has less (then say what you looked for and did not find). Use most of your turn budget; the brief that follows can only be as deep as these notes.
+WHEN YOU THINK YOU ARE DONE, run the coverage list once more, append a "Coverage" section (covered, thin, not found) and a "Pages read" table, then stop.
+{{deepen}}

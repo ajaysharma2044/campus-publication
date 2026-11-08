@@ -15,7 +15,7 @@ sys.path.insert(0, str(REPO / "scripts" / "v2"))
 from lib import sessions  # noqa: E402
 
 LANES = {"A": "official", "B": "market", "C": "voice", "D": "competition", "E": "analysis"}
-TOOLS = "WebSearch,WebFetch,Read,Grep,Glob,Write(intel/**)"
+TOOLS = "WebSearch,WebFetch,Read,Grep,Glob,Write(intel/**),Edit(intel/**)"
 
 
 def topics() -> dict[str, dict]:
@@ -40,6 +40,7 @@ def main(argv: list[str]) -> int:
     ap.add_argument("--model", default="sonnet")
     ap.add_argument("--max-turns", type=int, default=120)
     ap.add_argument("--timeout", type=int, default=7200)
+    ap.add_argument("--deepen", action="store_true", help="extend each lane's existing notes (gaps against the scope) instead of starting fresh")
     a = ap.parse_args(argv)
     t = topics().get(a.topic)
     if not t:
@@ -56,8 +57,13 @@ def main(argv: list[str]) -> int:
         name = LANES[lane]
         out = raw / f"{name}.md"
         template = (REPO / "scripts/v3/prompts" / f"research-{name}.md").read_text(encoding="utf-8")
+        deepen = ""
+        if a.deepen and out.exists():
+            deepen = (f"DEEPEN MODE: {out.relative_to(REPO)} already holds your earlier notes ({len(out.read_text(encoding='utf-8').split())} words). Read it first. "
+                      "Do not rewrite or shorten it. Find the gaps against SCOPE and the coverage list, read new pages, and APPEND new sourced rows and sections "
+                      "(use Edit to add at the end or under the right heading). Target: at least 2,000 new words and 20 new source URLs this session.")
         prompt = sessions.fill(template, topic_title=t["title"], topic_scope=t["scope"], topic_slug=a.topic, topic_dir=t["dir"], out_path=str(out.relative_to(REPO)),
-                               demand_path=str((raw / "demand-questions.md").relative_to(REPO)), today=date.today().isoformat())
+                               demand_path=str((raw / "demand-questions.md").relative_to(REPO)), today=date.today().isoformat(), deepen=deepen)
         jobs.append({"id": f"{a.topic}:{lane}", "prompt": prompt, "expect": [str(out)]})
     st = sessions.run_jobs(jobs, workers=a.workers, label="research", model=a.model, max_turns=a.max_turns, allowed_tools=TOOLS, timeout_s=a.timeout, log=log)
     for j in jobs:

@@ -14,4 +14,8 @@ RULES FOR EVERY FACT
 - Never invent a number, date, quote or person. If a fact cannot be found, write "not found" and where you looked.
 - Demand data we already have for this topic (real questions and what ranks): {{demand_path}}.
 
+DEPTH IS THE JOB. A lane is not finished at a tidy summary. Before you stop: (1) list every item in SCOPE and every subtopic a student would ask about, and mark which ones your notes cover with sourced rows; (2) for each uncovered item, search and read at least two more pages; (3) your file should hold at least 4,000 words and 40 distinct source URLs unless the topic truly has less (then say what you looked for and did not find). Use most of your turn budget; the brief that follows can only be as deep as these notes.
+WHEN YOU THINK YOU ARE DONE, run the coverage list once more, append a "Coverage" section (covered, thin, not found) and a "Pages read" table, then stop.
+{{deepen}}
+
 LANE D: THE COMPETITION. Take the 30 most-searched questions in this topic (start from the demand rows in {{demand_path}}, then fill gaps with your own searches for what students ask). For each question: the top 5 results for its query (URL, title, publisher, date if shown), what each says in two lines, what it gets wrong or leaves out, and a short "typical AI answer" written as a large language model would answer the question today from general knowledge, marked clearly as such, with what that answer misses or risks getting wrong for Cornell and Ithaca specifically. End with a ranked list of the gaps we can fill (facts, numbers, decisions, local detail) and the questions where the official page already wins.

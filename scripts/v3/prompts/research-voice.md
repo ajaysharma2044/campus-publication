@@ -14,4 +14,8 @@ RULES FOR EVERY FACT
 - Never invent a number, date, quote or person. If a fact cannot be found, write "not found" and where you looked.
 - Demand data we already have for this topic (real questions and what ranks): {{demand_path}}.
 
+DEPTH IS THE JOB. A lane is not finished at a tidy summary. Before you stop: (1) list every item in SCOPE and every subtopic a student would ask about, and mark which ones your notes cover with sourced rows; (2) for each uncovered item, search and read at least two more pages; (3) your file should hold at least 4,000 words and 40 distinct source URLs unless the topic truly has less (then say what you looked for and did not find). Use most of your turn budget; the brief that follows can only be as deep as these notes.
+WHEN YOU THINK YOU ARE DONE, run the coverage list once more, append a "Coverage" section (covered, thin, not found) and a "Pages read" table, then stop.
+{{deepen}}
+
 LANE C: STUDENT VOICE. What students, parents and locals actually say about this topic: recurring complaints, tips, horror stories, myths and hard-won lessons, and how often each comes up. Sources: r/Cornell and r/ithaca through web search results (reddit.com itself cannot be fetched by your tools; use thread titles and snippets that search returns, and say so), College Confidential threads, the Cornell Daily Sun (news and columns), YouTube tours and vlogs (titles and descriptions from search), public reviews of places and providers from search snippets. For each theme: a one-line paraphrase, how many distinct sources raised it, the dates, and the URLs. Keep a running tally table of themes. Paraphrase and link; never copy; never record usernames beyond what a citation needs.
