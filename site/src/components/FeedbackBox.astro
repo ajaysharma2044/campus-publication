@@ -1,7 +1,9 @@
 ---
 /* "Did this answer your question?" The same Netlify form as the Jinja renderer's _feedback.html: name `answered`, fields answered
    (yes|no), need (free text), page (the path), honeypot `bot-field`, posting to /thanks/. No name or contact field. Without script
-   the "No" path is the textarea and its Send button; public/site.js turns it into a "No, I still need..." button that reveals them. */
+   the "No" path is the textarea and its Send button; public/site.js turns it into a "No, I still need..." button that reveals them.
+   Netlify registers input and textarea fields only, not the buttons' `answered` value, so the No path requires text: an empty
+   `need` is a yes, text is a no. The Yes button skips that validation (formnovalidate). */
 interface Props { path: string }
 const { path } = Astro.props;
 ---
@@ -12,12 +14,12 @@ const { path } = Astro.props;
     <p hidden aria-hidden="true"><label>Leave this field empty: <input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
     <h2 class="feedback__q" id="feedback-h">Did this answer your question?</h2>
     <div class="feedback__row">
-      <button class="btn btn--navy" type="submit" name="answered" value="yes">Yes</button>
+      <button class="btn btn--navy" type="submit" name="answered" value="yes" formnovalidate>Yes</button>
       <button class="btn btn--outline" type="button" data-feedback-no hidden aria-expanded="false" aria-controls="feedback-need-wrap">No, I still need…</button>
     </div>
     <div class="feedback__need" id="feedback-need-wrap" data-feedback-need>
       <label for="feedback-need">No? Tell us what you still need. One or two lines is plenty; please leave out names and contact details.</label>
-      <textarea class="feedback__text" id="feedback-need" name="need" rows="3" maxlength="600"></textarea>
+      <textarea class="feedback__text" id="feedback-need" name="need" rows="3" maxlength="600" required></textarea>
       <button class="btn btn--navy" type="submit" name="answered" value="no">Send</button>
     </div>
     <p class="feedback__note">Your answer goes to the editor with the page address only; nothing identifies you.</p>
