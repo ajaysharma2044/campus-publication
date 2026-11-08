@@ -524,7 +524,7 @@ def v3_checks(fm: dict, body: str, path: Path | str, root: Path | str = REPO, li
     none_found = str(fm.get("lead_photo") or "").startswith("none-found")
     if not images and not none_found:
         errs.append("lead photo: images is empty (a lead photo under the title is required; the image step supplies it)")
-    else:
+    elif images:
         first = str(images[0].get("file") or "")
         if not image_file(root, slug, first):
             errs.append(f"lead photo: content/images/{slug}/{first or '?'} not found (the image step stores it)")
