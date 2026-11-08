@@ -1,6 +1,6 @@
 ---
 title: "Cornell transfer housing: how it actually works"
-meta: "Transfers live on campus for a year. Apply within 10 days of getting your NetID, expect West, South or a Program House, and budget $6,872 a semester for a double."
+meta: "Transfers live on campus for a year. Apply within 10 days of your NetID, expect West, South or a Program House, and budget $6,872 a semester for a double."
 primary_query: "Cornell transfer housing"
 topic: housing
 school: cornell-university
