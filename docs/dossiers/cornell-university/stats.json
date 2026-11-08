@@ -1,9 +1,9 @@
 {
  "entities": 2027,
  "entities_with_facts": 1298,
- "claims": 7154,
- "claims_with_quote": 7154,
- "processes": 450,
+ "claims": 7731,
+ "claims_with_quote": 7731,
+ "processes": 538,
  "deadlines": 389,
  "costs": 453,
  "policies": 3023,

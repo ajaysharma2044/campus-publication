@@ -3,12 +3,12 @@
 Updated: 2026-11-07 19:4x EST. Spec: docs/v2/spec.md.
 
 ## Running now
-- Nothing. The v1 subscription-only run and the Ithaca College crawl were stopped at 19:20 EST when the v2 spec arrived. v2 pipeline scripts are being built.
+- A build workflow (3 builders, 3 verifiers) is writing scripts/v2 (find_demand, write, review, publish, prompts, sessions lib, lint), scripts/v2/render_site.py with config/monetization.yml and the policy pages, and scripts/v2/find_images.py. The v1 run and the Ithaca College crawl were stopped at 19:20 EST when the v2 spec arrived.
 
 ## Counts
 - v1 pages unpublished: 833 (the preview at https://campus-ledger-preview.netlify.app shows a holding page).
 - Corpus: 2,522 crawled pages from 26 hosts in corpus/ (15 MB), exported by scripts/v2/export_corpus.py.
-- v2 queue rows: 0. v2 articles: 0. Reviews: 0.
+- v2 queue rows: 0. v2 articles: 0 (docs/v2/exemplar.md drafted: "Cornell transfer housing: how it actually works", 1,400 words, 12 sources; Ajay edits it before the batch run). Reviews: 0.
 
 ## Last 5 decisions
 1. 2026-11-07: Footnote Daily v2 spec adopted; it replaces bulk-mode, subscription-only, lean mode and continuous-local-run wherever they conflict.
@@ -18,6 +18,7 @@ Updated: 2026-11-07 19:4x EST. Spec: docs/v2/spec.md.
 5. 2026-11-07: official-only source filters removed from kept code (collectors, crawler); v1's UNSERVABLE filter left in the archive.
 
 ## Open questions (owner)
+- reddit.com blocks Anthropic's fetcher (WebSearch and WebFetch return a 400 for the domain), so writer and demand sessions cannot open r/Cornell or r/ithaca threads directly; they can use thread titles and snippets surfaced by general web search, College Confidential, the Cornell Daily Sun and YouTube. If Reddit matters, an owner-supplied Reddit API credential (read-only, within Reddit's terms) would be needed; the v1 "Reddit collection stays off" rule still stands until you say otherwise.
 - `footnote-style-guide.md` was not in the repo or home folder; docs/v2/style.md is a draft stand-in written from the spec's content rules. Replace it verbatim when provided.
 - Monetization and launch items that need owner accounts or keys: real domain and DNS, Google Search Console and GA4 property ids, a Google-certified consent platform, AdSense (after 25 to 40 articles), affiliate programs, Grow by Mediavine, Unsplash and Pexels API keys (Wikimedia Commons and Openverse need none). Config lives in config/monetization.yml.
 - Ithaca College (v1 acceptance B7) is outside the v2 scope as written (one school and its town); its crawl was stopped. Say the word if a second school should enter the queue.

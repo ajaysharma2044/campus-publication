@@ -5659,15 +5659,15 @@
    },
    {
     "field": "route.travel_time",
-    "value": "About five hours between Ithaca and Cornell Tech in New York City",
-    "academic_year": null,
-    "source": "https://international.globallearning.cornell.edu/getting-started/travel-ithaca"
-   },
-   {
-    "field": "route.travel_time",
     "value": "about five hours",
     "academic_year": null,
     "source": "https://international.globallearning.cornell.edu/getting-started/travel-campus"
+   },
+   {
+    "field": "route.travel_time",
+    "value": "About five hours between Ithaca and Cornell Tech in New York City",
+    "academic_year": null,
+    "source": "https://international.globallearning.cornell.edu/getting-started/travel-ithaca"
    },
    {
     "field": "timeline.campus_to_campus_trip",
@@ -5996,13 +5996,13 @@
     "field": "timeline.course_dates",
     "value": "Dec 14 - 16, 2026, Live Online",
     "academic_year": null,
-    "source": "https://www.ilr.cornell.edu/programs/professional-education/topic/human-resources"
+    "source": "https://www.ilr.cornell.edu/programs/professional-education/topic/employee-relations-investigations"
    },
    {
     "field": "timeline.course_dates",
     "value": "Dec 14 - 16, 2026, Live Online",
     "academic_year": null,
-    "source": "https://www.ilr.cornell.edu/programs/professional-education/topic/employee-relations-investigations"
+    "source": "https://www.ilr.cornell.edu/programs/professional-education/topic/human-resources"
    }
   ]
  },
@@ -6326,13 +6326,13 @@
     "field": "timeline.course_dates",
     "value": "Nov 16 - 17, 2026, In-Person, New York, NY",
     "academic_year": null,
-    "source": "https://www.ilr.cornell.edu/programs/professional-education/topic/employee-relations-investigations"
+    "source": "https://www.ilr.cornell.edu/programs/professional-education/topic/employment-law"
    },
    {
     "field": "timeline.course_dates",
     "value": "Nov 16 - 17, 2026, In-Person, New York, NY",
     "academic_year": null,
-    "source": "https://www.ilr.cornell.edu/programs/professional-education/topic/employment-law"
+    "source": "https://www.ilr.cornell.edu/programs/professional-education/topic/employee-relations-investigations"
    }
   ]
  },
@@ -9623,13 +9623,13 @@
     "field": "contact.phone",
     "value": "(607) 255-5069",
     "academic_year": null,
-    "source": "https://www.library.cornell.edu/collections/borrow-renew-return/return-books/"
+    "source": "https://www.library.cornell.edu/collections/borrow-renew-return/policies/proxy-borrower/"
    },
    {
     "field": "contact.phone",
     "value": "(607) 255-5069",
     "academic_year": null,
-    "source": "https://www.library.cornell.edu/collections/borrow-renew-return/policies/proxy-borrower/"
+    "source": "https://www.library.cornell.edu/collections/borrow-renew-return/return-books/"
    },
    {
     "field": "hours.friday",
@@ -9657,15 +9657,15 @@
    },
    {
     "field": "hours.weekday",
-    "value": "Monday through Thursday, 8:30 a.m. to 4:30 p.m.",
-    "academic_year": null,
-    "source": "https://www.library.cornell.edu/collections/borrow-renew-return/renew-books/"
-   },
-   {
-    "field": "hours.weekday",
     "value": "Monday through Thursday, 8:30 a.m.\u20134:30 p.m.",
     "academic_year": null,
     "source": "https://www.library.cornell.edu/collections/borrow-renew-return/return-books/"
+   },
+   {
+    "field": "hours.weekday",
+    "value": "Monday through Thursday, 8:30 a.m. to 4:30 p.m.",
+    "academic_year": null,
+    "source": "https://www.library.cornell.edu/collections/borrow-renew-return/renew-books/"
    },
    {
     "field": "location.office",
@@ -11791,9 +11791,9 @@
    },
    {
     "field": "rate.meal_plan.sfl_supplemental",
-    "value": "$2,088.77 per semester per person",
-    "academic_year": null,
-    "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental"
+    "value": "$2,167.51 per semester per person",
+    "academic_year": "2026-27",
+    "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
    },
    {
     "field": "rate.meal_plan.sfl_supplemental",
@@ -11803,9 +11803,9 @@
    },
    {
     "field": "rate.meal_plan.sfl_supplemental",
-    "value": "$2,167.51 per semester per person",
-    "academic_year": "2026-27",
-    "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+    "value": "$2,088.77 per semester per person",
+    "academic_year": null,
+    "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental"
    }
   ]
  },
@@ -11965,13 +11965,13 @@
    },
    {
     "field": "rate.meal_plan.unlimited",
-    "value": "$3,802 per semester per person",
+    "value": "$7,604 per academic year per person",
     "academic_year": "2026-27",
     "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
    },
    {
     "field": "rate.meal_plan.unlimited",
-    "value": "$7,604 per academic year per person",
+    "value": "$3,802 per semester per person",
     "academic_year": "2026-27",
     "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
    },
@@ -12154,13 +12154,13 @@
     "field": "contact.email",
     "value": "as_careers@cornell.edu",
     "academic_year": null,
-    "source": "https://as.cornell.edu/careers/pathways-internship-program"
+    "source": "https://as.cornell.edu/careers/student-funding-opportunities"
    },
    {
     "field": "contact.email",
     "value": "as_careers@cornell.edu",
     "academic_year": null,
-    "source": "https://as.cornell.edu/careers/student-funding-opportunities"
+    "source": "https://as.cornell.edu/careers/pathways-internship-program"
    },
    {
     "field": "contact.phone",
@@ -15916,13 +15916,13 @@
     "field": "contact.cornell_police",
     "value": "(607) 255-1111",
     "academic_year": null,
-    "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-out"
+    "source": "https://scl.cornell.edu/residential-life/housing/housing-details/winter-closing-checklist"
    },
    {
     "field": "contact.cornell_police",
     "value": "(607) 255-1111",
     "academic_year": null,
-    "source": "https://scl.cornell.edu/residential-life/housing/housing-details/winter-closing-checklist"
+    "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-out"
    },
    {
     "field": "contact.phone",
@@ -16970,13 +16970,13 @@
     "field": "contact.email",
     "value": "coursenroll@cornell.edu",
     "academic_year": null,
-    "source": "https://registrar.cornell.edu/students/enrollment/common-enrollment-errors"
+    "source": "https://registrar.cornell.edu/students/enrollment/common-enrollment-questions"
    },
    {
     "field": "contact.email",
     "value": "coursenroll@cornell.edu",
     "academic_year": null,
-    "source": "https://registrar.cornell.edu/students/enrollment/common-enrollment-questions"
+    "source": "https://registrar.cornell.edu/students/enrollment/common-enrollment-errors"
    }
   ]
  },
@@ -17400,13 +17400,13 @@
     "field": "contact.email",
     "value": "dcaps@cornell.edu",
     "academic_year": null,
-    "source": "https://www.library.cornell.edu/collections/visual-resources/visual-resources-faq/"
+    "source": "https://www.library.cornell.edu/about/staff/central-departments/dcaps/program-av-initiative-and-services/"
    },
    {
     "field": "contact.email",
     "value": "dcaps@cornell.edu",
     "academic_year": null,
-    "source": "https://www.library.cornell.edu/about/staff/central-departments/dcaps/program-av-initiative-and-services/"
+    "source": "https://www.library.cornell.edu/collections/visual-resources/visual-resources-faq/"
    },
    {
     "field": "fee.digitization_services",
@@ -19618,17 +19618,11 @@
     "field": "contact.email",
     "value": "ilrgradapplicant@cornell.edu",
     "academic_year": null,
-    "source": "https://www.ilr.cornell.edu/programs/graduate-degree-programs/master-industrial-and-labor-relations-milr"
+    "source": "https://www.ilr.cornell.edu/programs/graduate-degree-programs/doctoral-program"
    },
    {
     "field": "contact.email",
     "value": "ilrgradapplicant@cornell.edu",
-    "academic_year": null,
-    "source": "https://www.ilr.cornell.edu/programs/graduate-degree-programs/doctoral-program"
-   },
-   {
-    "field": "contact.phone",
-    "value": "(607) 255-1522",
     "academic_year": null,
     "source": "https://www.ilr.cornell.edu/programs/graduate-degree-programs/master-industrial-and-labor-relations-milr"
    },
@@ -19637,6 +19631,12 @@
     "value": "(607) 255-1522",
     "academic_year": null,
     "source": "https://www.ilr.cornell.edu/programs/master-science-ms"
+   },
+   {
+    "field": "contact.phone",
+    "value": "(607) 255-1522",
+    "academic_year": null,
+    "source": "https://www.ilr.cornell.edu/programs/graduate-degree-programs/master-industrial-and-labor-relations-milr"
    },
    {
     "field": "location.address",
@@ -21480,15 +21480,15 @@
    },
    {
     "field": "hours.service_center_aug17",
-    "value": "August 17, 8:00 a.m. - 8:00 p.m.",
-    "academic_year": null,
-    "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-balch-hall"
-   },
-   {
-    "field": "hours.service_center_aug17",
     "value": "August 17, 8:00a.m. - 8:00p.m.",
     "academic_year": null,
     "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-risley-hall"
+   },
+   {
+    "field": "hours.service_center_aug17",
+    "value": "August 17, 8:00 a.m. - 8:00 p.m.",
+    "academic_year": null,
+    "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-balch-hall"
    },
    {
     "field": "hours.service_center_aug18",
@@ -21504,15 +21504,15 @@
    },
    {
     "field": "hours.service_center_aug19_23",
-    "value": "August 19-23, 9:00 a.m. - 7:00 p.m.",
-    "academic_year": null,
-    "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-balch-hall"
-   },
-   {
-    "field": "hours.service_center_aug19_23",
     "value": "August 19-23, 9:00a.m. - 7:00p.m.",
     "academic_year": null,
     "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-risley-hall"
+   },
+   {
+    "field": "hours.service_center_aug19_23",
+    "value": "August 19-23, 9:00 a.m. - 7:00 p.m.",
+    "academic_year": null,
+    "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-balch-hall"
    },
    {
     "field": "hours.service_center_aug_17",
@@ -22334,13 +22334,13 @@
     "field": "contact.email",
     "value": "humec_students@cornell.edu",
     "academic_year": null,
-    "source": "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/first-year/course-enrollment/college-school-links"
+    "source": "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment/college-school-links"
    },
    {
     "field": "contact.email",
     "value": "humec_students@cornell.edu",
     "academic_year": null,
-    "source": "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment/college-school-links"
+    "source": "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/first-year/course-enrollment/college-school-links"
    }
   ]
  },
@@ -22598,12 +22598,6 @@
     "field": "contact.email",
     "value": "univreg@cornell.edu",
     "academic_year": null,
-    "source": "https://registrar.cornell.edu/faculty-staff/faculty-resources/faculty-grading"
-   },
-   {
-    "field": "contact.email",
-    "value": "univreg@cornell.edu",
-    "academic_year": null,
     "source": "https://registrar.cornell.edu/students/certifications-enrollment-and-degree"
    },
    {
@@ -22611,6 +22605,12 @@
     "value": "univreg@cornell.edu",
     "academic_year": null,
     "source": "https://scl.cornell.edu/belonging-support-services/centers-student-equity-empowerment-and-belonging/lgbt-resource-center/trans-resources-cornell"
+   },
+   {
+    "field": "contact.email",
+    "value": "univreg@cornell.edu",
+    "academic_year": null,
+    "source": "https://registrar.cornell.edu/faculty-staff/faculty-resources/faculty-grading"
    },
    {
     "field": "contact.phone",
@@ -24493,13 +24493,13 @@
     "field": "hours.weekday",
     "value": "Monday-Friday, 8:00 am \u2013 5:00 pm",
     "academic_year": null,
-    "source": "https://health.cornell.edu/initiatives/resources-faculty-staff/wise"
+    "source": "https://health.cornell.edu/resources/especially-for/parents-families/well-being"
    },
    {
     "field": "hours.weekday",
     "value": "Monday-Friday, 8:00 am \u2013 5:00 pm",
     "academic_year": null,
-    "source": "https://health.cornell.edu/resources/especially-for/parents-families/well-being"
+    "source": "https://health.cornell.edu/initiatives/resources-faculty-staff/wise"
    },
    {
     "field": "location.office",
@@ -24985,13 +24985,13 @@
    },
    {
     "field": "policy.form_submission",
-    "value": "Do not fax forms to the Board of Elections; original signatures are required",
+    "value": "Do not fax forms; original signatures are required",
     "academic_year": null,
     "source": "https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Forms"
    },
    {
     "field": "policy.form_submission",
-    "value": "Do not fax forms; original signatures are required",
+    "value": "Do not fax forms to the Board of Elections; original signatures are required",
     "academic_year": null,
     "source": "https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Forms"
    },
@@ -25680,13 +25680,13 @@
     "field": "contact.email",
     "value": "transportation@cornell.edu",
     "academic_year": null,
-    "source": "https://fcs.cornell.edu/announcements/2023-01-12/winter-weather-reminders-grounds-department"
+    "source": "https://fcs.cornell.edu/announcements/2020-11-13/temporary-parking-accommodation-permit-holders"
    },
    {
     "field": "contact.email",
     "value": "transportation@cornell.edu",
     "academic_year": null,
-    "source": "https://fcs.cornell.edu/announcements/2020-11-13/temporary-parking-accommodation-permit-holders"
+    "source": "https://fcs.cornell.edu/announcements/2023-01-12/winter-weather-reminders-grounds-department"
    },
    {
     "field": "deadline.permit_renewal",
@@ -25942,13 +25942,13 @@
     "field": "contact.email",
     "value": "career@cornell.edu",
     "academic_year": null,
-    "source": "https://career.cornell.edu/channels/college-of-human-ecology/"
+    "source": "https://career.cornell.edu"
    },
    {
     "field": "contact.email",
     "value": "career@cornell.edu",
     "academic_year": null,
-    "source": "https://career.cornell.edu"
+    "source": "https://career.cornell.edu/channels/college-of-human-ecology/"
    },
    {
     "field": "contact.phone",
@@ -26955,13 +26955,13 @@
    },
    {
     "field": "policy.snow_parking_recommendation",
-    "value": "A Lot (North Campus) or B Lot (Vet College) are first to be cleared.",
+    "value": "A Lot (North Campus) or B Lot (Vet College) are cleared first",
     "academic_year": null,
     "source": "https://fcs.cornell.edu/announcements/2020-12-08/winter-parking-transportation-information"
    },
    {
     "field": "policy.snow_parking_recommendation",
-    "value": "A Lot (North Campus) or B Lot (Vet College) are cleared first",
+    "value": "A Lot (North Campus) or B Lot (Vet College) are first to be cleared.",
     "academic_year": null,
     "source": "https://fcs.cornell.edu/announcements/2020-12-08/winter-parking-transportation-information"
    },
@@ -35865,15 +35865,15 @@
    },
    {
     "field": "hours.lets_talk",
-    "value": "Free, confidential, available daily Monday\u2013Friday",
-    "academic_year": null,
-    "source": "https://health.cornell.edu/about/news/top-10-tips-for-thriving"
-   },
-   {
-    "field": "hours.lets_talk",
     "value": "Monday\u2013Friday daily; free and confidential",
     "academic_year": null,
     "source": "https://health.cornell.edu/about/news/thrive"
+   },
+   {
+    "field": "hours.lets_talk",
+    "value": "Free, confidential, available daily Monday\u2013Friday",
+    "academic_year": null,
+    "source": "https://health.cornell.edu/about/news/top-10-tips-for-thriving"
    },
    {
     "field": "hours.lets_talk_lynah",
@@ -49303,15 +49303,15 @@
    },
    {
     "field": "eligibility.food_pantry",
-    "value": "Cornell undergraduate and graduate students, staff and faculty",
-    "academic_year": null,
-    "source": "https://scl.cornell.edu/residential-life/dining/about-dining/food-security/swipe-out-hunger"
-   },
-   {
-    "field": "eligibility.food_pantry",
     "value": "Free, confidential access to food and personal care items for Cornell undergraduate and graduate students, staff and faculty.",
     "academic_year": null,
     "source": "https://scl.cornell.edu/residential-life/dining/about-dining/food-security"
+   },
+   {
+    "field": "eligibility.food_pantry",
+    "value": "Cornell undergraduate and graduate students, staff and faculty",
+    "academic_year": null,
+    "source": "https://scl.cornell.edu/residential-life/dining/about-dining/food-security/swipe-out-hunger"
    },
    {
     "field": "eligibility.income",
@@ -49699,13 +49699,13 @@
    },
    {
     "field": "policy.daily_decision_parking",
-    "value": "Daily Decision program uses the Parkmobile app for low-cost, short-term parking",
+    "value": "Daily Decision program gives commuters low-cost, short-term parking options using the Parkmobile app",
     "academic_year": null,
     "source": "https://fcs.cornell.edu/announcements/2020-10-28/expanded-daily-decision-parking-options"
    },
    {
     "field": "policy.daily_decision_parking",
-    "value": "Daily Decision program gives commuters low-cost, short-term parking options using the Parkmobile app",
+    "value": "Daily Decision program uses the Parkmobile app for low-cost, short-term parking",
     "academic_year": null,
     "source": "https://fcs.cornell.edu/announcements/2020-10-28/expanded-daily-decision-parking-options"
    },
@@ -50131,15 +50131,15 @@
   "facts": [
    {
     "field": "fee.mobile_ordering",
-    "value": "No fee for using GET Order",
-    "academic_year": null,
-    "source": "https://scl.cornell.edu/residential-life/dining/eateries-menus/order-ahead"
-   },
-   {
-    "field": "fee.mobile_ordering",
     "value": "$0",
     "academic_year": null,
     "source": "https://scl.cornell.edu/residential-life/dining/about-dining/guide-cornell-dining"
+   },
+   {
+    "field": "fee.mobile_ordering",
+    "value": "No fee for using GET Order",
+    "academic_year": null,
+    "source": "https://scl.cornell.edu/residential-life/dining/eateries-menus/order-ahead"
    },
    {
     "field": "policy.mobile_order_no_smartphone",
@@ -52244,15 +52244,15 @@
    },
    {
     "field": "policy.report_animal_bites",
-    "value": "All animal bites or scratches should be reported to Tompkins County Environmental Health.",
-    "academic_year": null,
-    "source": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2026-06-June/Rabid-Cat-Hasbrouck"
-   },
-   {
-    "field": "policy.report_animal_bites",
     "value": "All animal bites or scratches must be reported to Tompkins County Environmental Health at 607-274-6688",
     "academic_year": null,
     "source": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2024-09-September/Health-Alert-TC-Environmental-Health-Seeks-Information-About-a-Dog-Bite-on-N-Cayuga-St-City-of-Ithaca"
+   },
+   {
+    "field": "policy.report_animal_bites",
+    "value": "All animal bites or scratches should be reported to Tompkins County Environmental Health.",
+    "academic_year": null,
+    "source": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2026-06-June/Rabid-Cat-Hasbrouck"
    }
   ]
  },

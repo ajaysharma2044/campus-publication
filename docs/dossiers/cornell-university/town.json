@@ -405,15 +405,15 @@
     },
     {
      "field": "route.travel_time",
-     "value": "About five hours between Ithaca and Cornell Tech in New York City",
-     "academic_year": null,
-     "source": "https://international.globallearning.cornell.edu/getting-started/travel-ithaca"
-    },
-    {
-     "field": "route.travel_time",
      "value": "about five hours",
      "academic_year": null,
      "source": "https://international.globallearning.cornell.edu/getting-started/travel-campus"
+    },
+    {
+     "field": "route.travel_time",
+     "value": "About five hours between Ithaca and Cornell Tech in New York City",
+     "academic_year": null,
+     "source": "https://international.globallearning.cornell.edu/getting-started/travel-ithaca"
     },
     {
      "field": "timeline.campus_to_campus_trip",
@@ -1516,13 +1516,13 @@
     },
     {
      "field": "policy.form_submission",
-     "value": "Do not fax forms to the Board of Elections; original signatures are required",
+     "value": "Do not fax forms; original signatures are required",
      "academic_year": null,
      "source": "https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Forms"
     },
     {
      "field": "policy.form_submission",
-     "value": "Do not fax forms; original signatures are required",
+     "value": "Do not fax forms to the Board of Elections; original signatures are required",
      "academic_year": null,
      "source": "https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Forms"
     },
@@ -4138,15 +4138,15 @@
     },
     {
      "field": "eligibility.food_pantry",
-     "value": "Cornell undergraduate and graduate students, staff and faculty",
-     "academic_year": null,
-     "source": "https://scl.cornell.edu/residential-life/dining/about-dining/food-security/swipe-out-hunger"
-    },
-    {
-     "field": "eligibility.food_pantry",
      "value": "Free, confidential access to food and personal care items for Cornell undergraduate and graduate students, staff and faculty.",
      "academic_year": null,
      "source": "https://scl.cornell.edu/residential-life/dining/about-dining/food-security"
+    },
+    {
+     "field": "eligibility.food_pantry",
+     "value": "Cornell undergraduate and graduate students, staff and faculty",
+     "academic_year": null,
+     "source": "https://scl.cornell.edu/residential-life/dining/about-dining/food-security/swipe-out-hunger"
     },
     {
      "field": "eligibility.income",
@@ -4534,13 +4534,13 @@
     },
     {
      "field": "policy.daily_decision_parking",
-     "value": "Daily Decision program uses the Parkmobile app for low-cost, short-term parking",
+     "value": "Daily Decision program gives commuters low-cost, short-term parking options using the Parkmobile app",
      "academic_year": null,
      "source": "https://fcs.cornell.edu/announcements/2020-10-28/expanded-daily-decision-parking-options"
     },
     {
      "field": "policy.daily_decision_parking",
-     "value": "Daily Decision program gives commuters low-cost, short-term parking options using the Parkmobile app",
+     "value": "Daily Decision program uses the Parkmobile app for low-cost, short-term parking",
      "academic_year": null,
      "source": "https://fcs.cornell.edu/announcements/2020-10-28/expanded-daily-decision-parking-options"
     },
@@ -4966,15 +4966,15 @@
    "facts": [
     {
      "field": "fee.mobile_ordering",
-     "value": "No fee for using GET Order",
-     "academic_year": null,
-     "source": "https://scl.cornell.edu/residential-life/dining/eateries-menus/order-ahead"
-    },
-    {
-     "field": "fee.mobile_ordering",
      "value": "$0",
      "academic_year": null,
      "source": "https://scl.cornell.edu/residential-life/dining/about-dining/guide-cornell-dining"
+    },
+    {
+     "field": "fee.mobile_ordering",
+     "value": "No fee for using GET Order",
+     "academic_year": null,
+     "source": "https://scl.cornell.edu/residential-life/dining/eateries-menus/order-ahead"
     },
     {
      "field": "policy.mobile_order_no_smartphone",
@@ -7079,15 +7079,15 @@
     },
     {
      "field": "policy.report_animal_bites",
-     "value": "All animal bites or scratches should be reported to Tompkins County Environmental Health.",
-     "academic_year": null,
-     "source": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2026-06-June/Rabid-Cat-Hasbrouck"
-    },
-    {
-     "field": "policy.report_animal_bites",
      "value": "All animal bites or scratches must be reported to Tompkins County Environmental Health at 607-274-6688",
      "academic_year": null,
      "source": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2024-09-September/Health-Alert-TC-Environmental-Health-Seeks-Information-About-a-Dog-Bite-on-N-Cayuga-St-City-of-Ithaca"
+    },
+    {
+     "field": "policy.report_animal_bites",
+     "value": "All animal bites or scratches should be reported to Tompkins County Environmental Health.",
+     "academic_year": null,
+     "source": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2026-06-June/Rabid-Cat-Hasbrouck"
     }
    ]
   },
@@ -7919,36 +7919,6 @@
    "family": "amenity"
   },
   {
-   "id": "e19554b2-92d6-4bd7-9a8b-699bfe92e001",
-   "entity_id": "54c1c90d-2386-4173-8a6a-05bb7cc3b4ed",
-   "field": "amenity.parking",
-   "value_type": "text",
-   "value_text": "ample and free on-site parking",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:37:12.577098+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-to-temporarily-relocate-the-Office-for-the-Aging-and-Department-of-Assessment-during-the-Center-of-Government-project",
-     "fetched_at": "2026-11-06T23:37:12.577098+00:00",
-     "excerpt": "The Lansing location offers ample and free on-site parking",
-     "snapshot_id": "17d44a88-2f1e-4168-ac86-048718528ced",
-     "title": "Office for the Aging, Department of Assessment to temporarily relocate | Tompkins County"
-    }
-   ],
-   "value": "ample and free on-site parking",
-   "family": "amenity"
-  },
-  {
    "id": "b4288d8f-a2fa-46bf-ba23-922813a19d9c",
    "entity_id": null,
    "field": "amenity.parking",
@@ -7976,6 +7946,36 @@
     }
    ],
    "value": "Dedicated parking for voters is available at each early-voting site",
+   "family": "amenity"
+  },
+  {
+   "id": "e19554b2-92d6-4bd7-9a8b-699bfe92e001",
+   "entity_id": "54c1c90d-2386-4173-8a6a-05bb7cc3b4ed",
+   "field": "amenity.parking",
+   "value_type": "text",
+   "value_text": "ample and free on-site parking",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:37:12.577098+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-to-temporarily-relocate-the-Office-for-the-Aging-and-Department-of-Assessment-during-the-Center-of-Government-project",
+     "fetched_at": "2026-11-06T23:37:12.577098+00:00",
+     "excerpt": "The Lansing location offers ample and free on-site parking",
+     "snapshot_id": "17d44a88-2f1e-4168-ac86-048718528ced",
+     "title": "Office for the Aging, Department of Assessment to temporarily relocate | Tompkins County"
+    }
+   ],
+   "value": "ample and free on-site parking",
    "family": "amenity"
   },
   {
@@ -8419,6 +8419,126 @@
    "family": "contact"
   },
   {
+   "id": "c98a233c-dd6e-42d1-b656-8742dcdfa31c",
+   "entity_id": "e0cfb61b-4c01-41c2-96da-246558a772b7",
+   "field": "contact.email",
+   "value_type": "text",
+   "value_text": "dsprague@tompkins-co.org",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:37:42.614744+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Aging/Services-of-Our-Office/Project-CARE",
+     "fetched_at": "2026-11-06T23:37:42.614744+00:00",
+     "excerpt": "dsprague@tompkins-co.org",
+     "snapshot_id": "50c29977-1285-4e33-863f-d985e328cce4",
+     "title": "Project CARE | Tompkins County"
+    }
+   ],
+   "value": "dsprague@tompkins-co.org",
+   "family": "contact"
+  },
+  {
+   "id": "c6a17150-f5f8-4548-9e09-75d59bc9878d",
+   "entity_id": "51d11100-78b7-44ce-bf3e-0e08500ae601",
+   "field": "contact.email",
+   "value_type": "text",
+   "value_text": "ctyadmin@tompkins-co.org",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:02:57.625114+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-starts-search-for-new-County-Historian",
+     "fetched_at": "2026-11-07T00:02:57.625114+00:00",
+     "excerpt": "ctyadmin@tompkins-co.org",
+     "snapshot_id": "02b12d6f-5087-4ac9-8b1b-7651514c685b",
+     "title": "Tompkins County starts search for new County Historian | Tompkins County"
+    }
+   ],
+   "value": "ctyadmin@tompkins-co.org",
+   "family": "contact"
+  },
+  {
+   "id": "c14f7962-25c6-4fde-8514-ac5501cdb078",
+   "entity_id": "b824d383-300a-4696-87a0-fce3a31ba769",
+   "field": "contact.email",
+   "value_type": "text",
+   "value_text": "kfritjofson@tompkins-co.org",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:08:27.610372+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Planning-and-Sustainability/Transportation",
+     "fetched_at": "2026-11-07T00:08:27.610372+00:00",
+     "excerpt": "If you wish to join, please reach out to Kurt Fritjofson at",
+     "snapshot_id": "166cfeb9-b9ba-47a6-9c4e-d0e4b37bd878",
+     "title": "Transportation | Tompkins County"
+    }
+   ],
+   "value": "kfritjofson@tompkins-co.org",
+   "family": "contact"
+  },
+  {
+   "id": "6f5fdff3-55a2-4d4a-963e-982040265fc6",
+   "entity_id": "7d80e8c6-1f81-4e47-b55f-d6906d91fc63",
+   "field": "contact.email",
+   "value_type": "text",
+   "value_text": "sara.bilinski@unityhouse.org",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:48:12.603326+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Workforce-Development/Job-Seeker-Services/Find-a-Job/Certified-Nursing-Assistant-CNA-Unity-House-of-Cayuga-County",
+     "fetched_at": "2026-11-06T23:48:12.603326+00:00",
+     "excerpt": "sara.bilinski@unityhouse.org",
+     "snapshot_id": "27bb05fb-b3b5-425e-95dd-47364b4d5272",
+     "title": "Certified Nursing Assistant (CNA) - Unity House of Cayuga County | Tompkins County"
+    }
+   ],
+   "value": "sara.bilinski@unityhouse.org",
+   "family": "contact"
+  },
+  {
    "id": "42574fb1-fd54-4142-8f01-bea5c2e797e8",
    "entity_id": "531dfd4a-6b61-4a3b-9b1d-5c98fb0aa0c8",
    "field": "contact.email",
@@ -8516,66 +8636,6 @@
    "family": "contact"
   },
   {
-   "id": "c14f7962-25c6-4fde-8514-ac5501cdb078",
-   "entity_id": "b824d383-300a-4696-87a0-fce3a31ba769",
-   "field": "contact.email",
-   "value_type": "text",
-   "value_text": "kfritjofson@tompkins-co.org",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:08:27.610372+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Planning-and-Sustainability/Transportation",
-     "fetched_at": "2026-11-07T00:08:27.610372+00:00",
-     "excerpt": "If you wish to join, please reach out to Kurt Fritjofson at",
-     "snapshot_id": "166cfeb9-b9ba-47a6-9c4e-d0e4b37bd878",
-     "title": "Transportation | Tompkins County"
-    }
-   ],
-   "value": "kfritjofson@tompkins-co.org",
-   "family": "contact"
-  },
-  {
-   "id": "6f5fdff3-55a2-4d4a-963e-982040265fc6",
-   "entity_id": "7d80e8c6-1f81-4e47-b55f-d6906d91fc63",
-   "field": "contact.email",
-   "value_type": "text",
-   "value_text": "sara.bilinski@unityhouse.org",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:48:12.603326+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Workforce-Development/Job-Seeker-Services/Find-a-Job/Certified-Nursing-Assistant-CNA-Unity-House-of-Cayuga-County",
-     "fetched_at": "2026-11-06T23:48:12.603326+00:00",
-     "excerpt": "sara.bilinski@unityhouse.org",
-     "snapshot_id": "27bb05fb-b3b5-425e-95dd-47364b4d5272",
-     "title": "Certified Nursing Assistant (CNA) - Unity House of Cayuga County | Tompkins County"
-    }
-   ],
-   "value": "sara.bilinski@unityhouse.org",
-   "family": "contact"
-  },
-  {
    "id": "59f3f352-d67c-4cf6-a7f8-7cbdb0d2d0fb",
    "entity_id": "c41a9696-3881-487c-9813-a9e6cbeb8a93",
    "field": "contact.email",
@@ -8638,6 +8698,36 @@
    "family": "contact"
   },
   {
+   "id": "855e2e5c-759b-46db-99b2-ca07c73fe08d",
+   "entity_id": "5f6714aa-717c-49c8-9716-7d2152c0f925",
+   "field": "contact.email",
+   "value_type": "text",
+   "value_text": "hdelisle@tompkins-co.org",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:57:57.758290+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-expands-Business-Energy-Advisors-program-to-support-nonprofits-with-expert-energy-consulting-and-incentives",
+     "fetched_at": "2026-11-06T23:57:57.75829+00:00",
+     "excerpt": "hdelisle@tompkins-co.org,",
+     "snapshot_id": "c2de4e53-68bb-4f3a-8336-08bb5663ab03",
+     "title": "Tompkins County expands Business Energy Advisors program | Tompkins County"
+    }
+   ],
+   "value": "hdelisle@tompkins-co.org",
+   "family": "contact"
+  },
+  {
    "id": "260f4394-58f5-44fd-91b6-7caf091048df",
    "entity_id": "8171eaea-d350-4258-8348-3d82c7bd86ff",
    "field": "contact.email",
@@ -8675,11 +8765,11 @@
    "family": "contact"
   },
   {
-   "id": "855e2e5c-759b-46db-99b2-ca07c73fe08d",
-   "entity_id": "5f6714aa-717c-49c8-9716-7d2152c0f925",
-   "field": "contact.email",
+   "id": "cb7063f0-53e3-4312-8c31-2b2118633711",
+   "entity_id": "ac199c79-f9c2-470c-b908-a6d0a736c044",
+   "field": "contact.fax",
    "value_type": "text",
-   "value_text": "hdelisle@tompkins-co.org",
+   "value_text": "(607) 274-5313",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -8690,78 +8780,18 @@
    "academic_year": null,
    "is_critical": false,
    "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:57:57.758290+00:00",
+   "retrieved_at": "2026-11-06T23:43:42.595598+00:00",
    "topic_key": "town_services",
    "sources": [
     {
-     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-expands-Business-Energy-Advisors-program-to-support-nonprofits-with-expert-energy-consulting-and-incentives",
-     "fetched_at": "2026-11-06T23:57:57.75829+00:00",
-     "excerpt": "hdelisle@tompkins-co.org,",
-     "snapshot_id": "c2de4e53-68bb-4f3a-8336-08bb5663ab03",
-     "title": "Tompkins County expands Business Energy Advisors program | Tompkins County"
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Youth-Services",
+     "fetched_at": "2026-11-06T23:43:42.595598+00:00",
+     "excerpt": "(607) 274-5313",
+     "snapshot_id": "c3cbc89a-2630-4254-8961-9af83eacebb0",
+     "title": "Youth Services | Tompkins County"
     }
    ],
-   "value": "hdelisle@tompkins-co.org",
-   "family": "contact"
-  },
-  {
-   "id": "c6a17150-f5f8-4548-9e09-75d59bc9878d",
-   "entity_id": "51d11100-78b7-44ce-bf3e-0e08500ae601",
-   "field": "contact.email",
-   "value_type": "text",
-   "value_text": "ctyadmin@tompkins-co.org",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:02:57.625114+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-starts-search-for-new-County-Historian",
-     "fetched_at": "2026-11-07T00:02:57.625114+00:00",
-     "excerpt": "ctyadmin@tompkins-co.org",
-     "snapshot_id": "02b12d6f-5087-4ac9-8b1b-7651514c685b",
-     "title": "Tompkins County starts search for new County Historian | Tompkins County"
-    }
-   ],
-   "value": "ctyadmin@tompkins-co.org",
-   "family": "contact"
-  },
-  {
-   "id": "c98a233c-dd6e-42d1-b656-8742dcdfa31c",
-   "entity_id": "e0cfb61b-4c01-41c2-96da-246558a772b7",
-   "field": "contact.email",
-   "value_type": "text",
-   "value_text": "dsprague@tompkins-co.org",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:37:42.614744+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Aging/Services-of-Our-Office/Project-CARE",
-     "fetched_at": "2026-11-06T23:37:42.614744+00:00",
-     "excerpt": "dsprague@tompkins-co.org",
-     "snapshot_id": "50c29977-1285-4e33-863f-d985e328cce4",
-     "title": "Project CARE | Tompkins County"
-    }
-   ],
-   "value": "dsprague@tompkins-co.org",
+   "value": "(607) 274-5313",
    "family": "contact"
   },
   {
@@ -8792,36 +8822,6 @@
     }
    ],
    "value": "(607) 266-5436",
-   "family": "contact"
-  },
-  {
-   "id": "cb7063f0-53e3-4312-8c31-2b2118633711",
-   "entity_id": "ac199c79-f9c2-470c-b908-a6d0a736c044",
-   "field": "contact.fax",
-   "value_type": "text",
-   "value_text": "(607) 274-5313",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:43:42.595598+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Youth-Services",
-     "fetched_at": "2026-11-06T23:43:42.595598+00:00",
-     "excerpt": "(607) 274-5313",
-     "snapshot_id": "c3cbc89a-2630-4254-8961-9af83eacebb0",
-     "title": "Youth Services | Tompkins County"
-    }
-   ],
-   "value": "(607) 274-5313",
    "family": "contact"
   },
   {
@@ -8982,75 +8982,11 @@
    "family": "contact"
   },
   {
-   "id": "8825d02c-7d29-4c67-8a60-281bf5556c6e",
-   "entity_id": "a0c0347b-a05b-4ebc-95b2-c24241ff847b",
+   "id": "1eeb2880-cfcc-436e-9744-13ebb2a92a4b",
+   "entity_id": "ce57e6eb-3aa1-4c14-aeb3-fb1426f1382b",
    "field": "contact.phone",
    "value_type": "text",
-   "value_text": "607-277-4500",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [
-    "resident"
-   ],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:37:57.570344+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Aging/Services-of-Our-Office/Minor-Home-and-Safety-Repair-Program",
-     "fetched_at": "2026-11-06T23:37:57.570344+00:00",
-     "excerpt": "For more information or to apply please contact INHS at 607-277-4500.",
-     "snapshot_id": "2a919cf4-c0b3-4502-996b-6b0c8db2cba2",
-     "title": "Minor Home and Safety Repair Program | Tompkins County"
-    }
-   ],
-   "value": "607-277-4500",
-   "family": "contact"
-  },
-  {
-   "id": "e2fb8845-d8eb-4dac-9d64-b75ce4249603",
-   "entity_id": "c24c819d-c733-4794-80eb-387829cf9c22",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "(607) 274-5680",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [
-    "resident"
-   ],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:34:12.597972+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-encourages-donations-to-support-residents-facing-SNAP-benefit-delays-as-the-federal-shutdown-continues",
-     "fetched_at": "2026-11-06T23:34:12.597972+00:00",
-     "excerpt": "Call the Tompkins County DSS at (607) 274-5680.",
-     "snapshot_id": "03c9a392-55a6-4842-85d3-79fb12c48fe3",
-     "title": "Donations encouraged to support residents facing SNAP delays | Tompkins County"
-    }
-   ],
-   "value": "(607) 274-5680",
-   "family": "contact"
-  },
-  {
-   "id": "cb3aa663-c028-4553-9abf-7a90bb9d6bf3",
-   "entity_id": "039ec1e8-c07f-484f-adcd-c84b21b718d5",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-272-2444",
+   "value_text": "(607) 257-3888",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -9059,7 +8995,159 @@
    "room_type": null,
    "audience_applicability": [],
    "academic_year": null,
-   "is_critical": true,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:00:27.643986+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Emergency-Response",
+     "fetched_at": "2026-11-07T00:00:27.643986+00:00",
+     "excerpt": "(607) 257-3888",
+     "snapshot_id": "be8f1513-d98f-4f99-b77a-fcc3a02f4080",
+     "title": "Emergency Response | Tompkins County"
+    }
+   ],
+   "value": "(607) 257-3888",
+   "family": "contact"
+  },
+  {
+   "id": "c741e406-4d71-4897-a593-b9baff06db71",
+   "entity_id": "5f6714aa-717c-49c8-9716-7d2152c0f925",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-274-5560",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:57:57.758290+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-expands-Business-Energy-Advisors-program-to-support-nonprofits-with-expert-energy-consulting-and-incentives",
+     "fetched_at": "2026-11-06T23:57:57.75829+00:00",
+     "excerpt": "or phone at 607-274-5560.",
+     "snapshot_id": "c2de4e53-68bb-4f3a-8336-08bb5663ab03",
+     "title": "Tompkins County expands Business Energy Advisors program | Tompkins County"
+    }
+   ],
+   "value": "607-274-5560",
+   "family": "contact"
+  },
+  {
+   "id": "04b5a616-51e6-449d-82e0-44afe128c739",
+   "entity_id": "fb8632be-da82-4a14-8116-889f22431775",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-274-5482",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [
+    "staff"
+   ],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:57:42.481040+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2025-02-February/Our-Roadmap-to-Health-Final-Week-to-Take-Community-Health-Survey",
+     "fetched_at": "2026-11-06T23:57:42.48104+00:00",
+     "excerpt": "Older adults can complete the survey over the phone by calling County Office for the Aging (COFA) at 607-274-5482 during business hours 8:30 am \u2013 4:30 pm.",
+     "snapshot_id": "09811532-9e80-4a9b-ae28-652c5602552f",
+     "title": "Our Roadmap to Health: Final Week to Take Community Health Survey | Tompkins County"
+    }
+   ],
+   "value": "607-274-5482",
+   "family": "contact"
+  },
+  {
+   "id": "42d1c75d-0cff-4748-adc2-4f4a8b70e3d5",
+   "entity_id": "8a4f079c-bc07-41bb-b977-d1e8a3581991",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "(607) 272-7570 ext. 231",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:49:27.726725+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Workforce-Development/Youth-Employment-Ages-14-24",
+     "fetched_at": "2026-11-06T23:49:27.726725+00:00",
+     "excerpt": "call (607) 272-7570 ext. 231; or complete the interest survey and someone will reach out",
+     "snapshot_id": "300f6ccb-356c-4801-adce-eb997c3a4f7d",
+     "title": "Youth Employment (Ages 14-24) | Tompkins County"
+    }
+   ],
+   "value": "(607) 272-7570 ext. 231",
+   "family": "contact"
+  },
+  {
+   "id": "705b7aaf-af0a-409b-9bef-bfb1382e4e4b",
+   "entity_id": "defa8d42-9375-40ce-a358-3940e017c7ee",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-274-5560",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:20:08.531515+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Fall-2022-Tourism-Grants-Available",
+     "fetched_at": "2026-11-06T23:20:08.531515+00:00",
+     "excerpt": "607-274-5560",
+     "snapshot_id": "35f65b4b-d0c9-49b7-8f69-bce65c0da271",
+     "title": "Fall 2022 Tourism Grants Available | Tompkins County"
+    }
+   ],
+   "value": "607-274-5560",
+   "family": "contact"
+  },
+  {
+   "id": "3c303bd9-67f1-4210-b2b5-22e00bfb92eb",
+   "entity_id": "1d98305c-1bd0-4b93-b856-5fbdb86dcbb3",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-274-5201",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
    "conflict_status": "none",
    "retrieved_at": "2026-11-06T23:48:27.507022+00:00",
    "topic_key": "town_services",
@@ -9067,12 +9155,79 @@
     {
      "url": "https://www.tompkinscountyny.gov/All-Departments/Social-Services",
      "fetched_at": "2026-11-06T23:48:27.507022+00:00",
-     "excerpt": "After hours and on weekends, please call Non-Emergency Dispatch at 607-272-2444, who will connect you to the DSS staff who is on-call.",
+     "excerpt": "Call SNAP at 607-274-5201.",
      "snapshot_id": "2d982aca-8492-40c3-8a1b-fabee25b9601",
      "title": "Social Services | Tompkins County"
     }
    ],
-   "value": "607-272-2444",
+   "value": "607-274-5201",
+   "family": "contact"
+  },
+  {
+   "id": "700b7e01-4adc-4ffe-a02c-befe1289f069",
+   "entity_id": "e0cfb61b-4c01-41c2-96da-246558a772b7",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-274-5499",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:37:42.614744+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Aging/Services-of-Our-Office/Project-CARE",
+     "fetched_at": "2026-11-06T23:37:42.614744+00:00",
+     "excerpt": "or call 607-274-5499",
+     "snapshot_id": "50c29977-1285-4e33-863f-d985e328cce4",
+     "title": "Project CARE | Tompkins County"
+    },
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Aging/Services-of-Our-Office/Project-CARE",
+     "fetched_at": "2026-11-06T23:22:23.702486+00:00",
+     "excerpt": "or call 607-274-5499",
+     "snapshot_id": "6e2555f9-fadf-41d3-8b5b-a20da9b59f40",
+     "title": "Project CARE | Tompkins County"
+    }
+   ],
+   "value": "607-274-5499",
+   "family": "contact"
+  },
+  {
+   "id": "c9106258-c3d2-4a8b-9ae6-bcba89735e9e",
+   "entity_id": "fefe2028-43c0-433b-8c03-e814ebd4c185",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "877-211-8667",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:08:27.610372+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Planning-and-Sustainability/Transportation",
+     "fetched_at": "2026-11-07T00:08:27.610372+00:00",
+     "excerpt": "\u2014 or call 877-211-8667",
+     "snapshot_id": "166cfeb9-b9ba-47a6-9c4e-d0e4b37bd878",
+     "title": "Transportation | Tompkins County"
+    }
+   ],
+   "value": "877-211-8667",
    "family": "contact"
   },
   {
@@ -9108,11 +9263,11 @@
    "family": "contact"
   },
   {
-   "id": "42d1c75d-0cff-4748-adc2-4f4a8b70e3d5",
-   "entity_id": "8a4f079c-bc07-41bb-b977-d1e8a3581991",
+   "id": "4c837c53-99e7-4887-84b1-2da89d20bd9b",
+   "entity_id": "010fa8c9-88d6-415b-9ae2-e8d743487fd0",
    "field": "contact.phone",
    "value_type": "text",
-   "value_text": "(607) 272-7570 ext. 231",
+   "value_text": "(607) 274-5551",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -9123,118 +9278,26 @@
    "academic_year": null,
    "is_critical": false,
    "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:49:27.726725+00:00",
+   "retrieved_at": "2026-11-06T23:47:27.745591+00:00",
    "topic_key": "town_services",
    "sources": [
     {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Workforce-Development/Youth-Employment-Ages-14-24",
-     "fetched_at": "2026-11-06T23:49:27.726725+00:00",
-     "excerpt": "call (607) 272-7570 ext. 231; or complete the interest survey and someone will reach out",
-     "snapshot_id": "300f6ccb-356c-4801-adce-eb997c3a4f7d",
-     "title": "Youth Employment (Ages 14-24) | Tompkins County"
+     "url": "https://www.tompkinscountyny.gov/About/Center-of-Government",
+     "fetched_at": "2026-11-06T23:47:27.745591+00:00",
+     "excerpt": "(607) 274-5551",
+     "snapshot_id": "50044521-9fa4-4f79-8d11-f43f41ac5953",
+     "title": "Center of Government | Tompkins County"
     }
    ],
-   "value": "(607) 272-7570 ext. 231",
+   "value": "(607) 274-5551",
    "family": "contact"
   },
   {
-   "id": "86f8142a-9341-434f-a070-a3d6ecb69735",
-   "entity_id": "c951ac27-db55-459d-bed0-a004a1ae25ed",
+   "id": "08828553-0fd9-4e26-ae01-a32d29f283f3",
+   "entity_id": "ec786591-8eca-4993-82ba-b1ab8ac2af4a",
    "field": "contact.phone",
    "value_type": "text",
-   "value_text": "607-274-6200",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [
-    "all"
-   ],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:04:12.628380+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services/Local-Resources",
-     "fetched_at": "2026-11-07T00:04:12.62838+00:00",
-     "excerpt": "24/7 Mobile Crisis team available",
-     "snapshot_id": "08269ddb-be86-42a2-946b-f50cf8d6ff64",
-     "title": "Local Mental Health Resources | Tompkins County"
-    }
-   ],
-   "value": "607-274-6200",
-   "family": "contact"
-  },
-  {
-   "id": "d3c80ea5-38b1-4218-9f75-425dc7dcc642",
-   "entity_id": "59e0d054-5cb7-439a-981c-90080dbeb48c",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-274-5551",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:57:27.576046+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Human-Rights/LEPLAP",
-     "fetched_at": "2026-11-06T23:57:27.576046+00:00",
-     "excerpt": "For further information, please contact the Tompkins County Compliance Officer or Compliance Program Coordinator at 607-274-5551.",
-     "snapshot_id": "1f8023a8-d842-4776-a54c-a9ab48533580",
-     "title": "LEP/LAP | Tompkins County"
-    }
-   ],
-   "value": "607-274-5551",
-   "family": "contact"
-  },
-  {
-   "id": "3c303bd9-67f1-4210-b2b5-22e00bfb92eb",
-   "entity_id": "1d98305c-1bd0-4b93-b856-5fbdb86dcbb3",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-274-5201",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:48:27.507022+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Social-Services",
-     "fetched_at": "2026-11-06T23:48:27.507022+00:00",
-     "excerpt": "Call SNAP at 607-274-5201.",
-     "snapshot_id": "2d982aca-8492-40c3-8a1b-fabee25b9601",
-     "title": "Social Services | Tompkins County"
-    }
-   ],
-   "value": "607-274-5201",
-   "family": "contact"
-  },
-  {
-   "id": "47b66a59-d08e-4857-931c-b2adc291325d",
-   "entity_id": "c11f6341-8fb0-47b7-945c-d562e3af9090",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-277-5000",
+   "value_text": "607-272-1616",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -9253,20 +9316,50 @@
     {
      "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services/Local-Resources",
      "fetched_at": "2026-11-07T00:04:12.62838+00:00",
-     "excerpt": "24-hour hotline: 607-277-5000",
+     "excerpt": "The Crisis line is open 24/7. Free and confidential. Call 988, 1-800-273-TALK or 607-272-1616.",
      "snapshot_id": "08269ddb-be86-42a2-946b-f50cf8d6ff64",
      "title": "Local Mental Health Resources | Tompkins County"
     }
    ],
-   "value": "607-277-5000",
+   "value": "607-272-1616",
    "family": "contact"
   },
   {
-   "id": "4a32dfe1-1ddb-4ed4-862b-948aabddbe50",
-   "entity_id": "ac199c79-f9c2-470c-b908-a6d0a736c044",
+   "id": "cb3aa663-c028-4553-9abf-7a90bb9d6bf3",
+   "entity_id": "039ec1e8-c07f-484f-adcd-c84b21b718d5",
    "field": "contact.phone",
    "value_type": "text",
-   "value_text": "(607) 274-5310",
+   "value_text": "607-272-2444",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": true,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:48:27.507022+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Social-Services",
+     "fetched_at": "2026-11-06T23:48:27.507022+00:00",
+     "excerpt": "After hours and on weekends, please call Non-Emergency Dispatch at 607-272-2444, who will connect you to the DSS staff who is on-call.",
+     "snapshot_id": "2d982aca-8492-40c3-8a1b-fabee25b9601",
+     "title": "Social Services | Tompkins County"
+    }
+   ],
+   "value": "607-272-2444",
+   "family": "contact"
+  },
+  {
+   "id": "085595bc-0af2-4ff9-aa5e-0facb4576f02",
+   "entity_id": "a0c0347b-a05b-4ebc-95b2-c24241ff847b",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-277-4500",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -9277,117 +9370,18 @@
    "academic_year": null,
    "is_critical": false,
    "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:43:42.595598+00:00",
+   "retrieved_at": "2026-11-06T23:22:38.479784+00:00",
    "topic_key": "town_services",
    "sources": [
     {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Youth-Services",
-     "fetched_at": "2026-11-06T23:43:42.595598+00:00",
-     "excerpt": "(607) 274-5310",
-     "snapshot_id": "c3cbc89a-2630-4254-8961-9af83eacebb0",
-     "title": "Youth Services | Tompkins County"
-    },
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Youth-Services",
-     "fetched_at": "2026-11-06T23:28:23.513528+00:00",
-     "excerpt": "(607) 274-5310",
-     "snapshot_id": "d3d3de10-9a60-42a8-9323-c9386cdadb47",
-     "title": "Youth Services | Tompkins County"
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Aging/Services-of-Our-Office/Minor-Home-and-Safety-Repair-Program",
+     "fetched_at": "2026-11-06T23:22:38.479784+00:00",
+     "excerpt": "For more information or to apply please contact INHS at 607-277-4500.",
+     "snapshot_id": "087624bc-b5a2-4c6b-89dd-3f1aaf980b6e",
+     "title": "Minor Home and Safety Repair Program | Tompkins County"
     }
    ],
-   "value": "(607) 274-5310",
-   "family": "contact"
-  },
-  {
-   "id": "3ecb4e54-c27f-40e2-b8fe-29499b336100",
-   "entity_id": "c8d07c34-2f35-4ee4-bec1-426811c212b9",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "(607) 274-5482",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:41:13.473474+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Aging/Services-of-Our-Office/Yard-Work-Snow-Shoveling",
-     "fetched_at": "2026-11-06T23:41:13.473474+00:00",
-     "excerpt": "Contact our office for more details (607) 274-5482.",
-     "snapshot_id": "bb1968b6-49fe-46aa-a98c-b9867c1cb35d",
-     "title": "Yard Work & Snow Shoveling | Tompkins County"
-    }
-   ],
-   "value": "(607) 274-5482",
-   "family": "contact"
-  },
-  {
-   "id": "e3952a1c-c7d2-41a3-8f1f-cf409210eb65",
-   "entity_id": "86a9eac2-63bb-4d9d-828b-f5fbaf788446",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-330-0000",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [
-    "all"
-   ],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:01:27.815335+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/News-articles/July-24-2025-Public-Advisory",
-     "fetched_at": "2026-11-07T00:01:27.815335+00:00",
-     "excerpt": "IPD Police Tipline: 607-330-0000",
-     "snapshot_id": "100d8c7c-2201-4020-bdd3-27f8bb04bc02",
-     "title": "July 24, 2025 - Public Advisory | Tompkins County"
-    }
-   ],
-   "value": "607-330-0000",
-   "family": "contact"
-  },
-  {
-   "id": "6417f96c-5d3d-4f38-90dc-9aff6df3fa55",
-   "entity_id": "dac19d40-b2ad-4edc-8bc3-d90f4a63e15d",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607 274 5521",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:27:53.475640+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Forms",
-     "fetched_at": "2026-11-06T23:27:53.47564+00:00",
-     "excerpt": "Note: if you requested we mail you an absentee ballot and you haven't received it 7 - 10 days before the election, please call us (607 274 5521).",
-     "snapshot_id": "b4f76735-8249-444b-b945-868749dbea74",
-     "title": "Forms | Tompkins County"
-    }
-   ],
-   "value": "607 274 5521",
+   "value": "607-277-4500",
    "family": "contact"
   },
   {
@@ -9418,6 +9412,36 @@
     }
    ],
    "value": "(607) 274-5266",
+   "family": "contact"
+  },
+  {
+   "id": "3ecb4e54-c27f-40e2-b8fe-29499b336100",
+   "entity_id": "c8d07c34-2f35-4ee4-bec1-426811c212b9",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "(607) 274-5482",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:41:13.473474+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Aging/Services-of-Our-Office/Yard-Work-Snow-Shoveling",
+     "fetched_at": "2026-11-06T23:41:13.473474+00:00",
+     "excerpt": "Contact our office for more details (607) 274-5482.",
+     "snapshot_id": "bb1968b6-49fe-46aa-a98c-b9867c1cb35d",
+     "title": "Yard Work & Snow Shoveling | Tompkins County"
+    }
+   ],
+   "value": "(607) 274-5482",
    "family": "contact"
   },
   {
@@ -9458,36 +9482,6 @@
    "family": "contact"
   },
   {
-   "id": "085595bc-0af2-4ff9-aa5e-0facb4576f02",
-   "entity_id": "a0c0347b-a05b-4ebc-95b2-c24241ff847b",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-277-4500",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:22:38.479784+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Aging/Services-of-Our-Office/Minor-Home-and-Safety-Repair-Program",
-     "fetched_at": "2026-11-06T23:22:38.479784+00:00",
-     "excerpt": "For more information or to apply please contact INHS at 607-277-4500.",
-     "snapshot_id": "087624bc-b5a2-4c6b-89dd-3f1aaf980b6e",
-     "title": "Minor Home and Safety Repair Program | Tompkins County"
-    }
-   ],
-   "value": "607-277-4500",
-   "family": "contact"
-  },
-  {
    "id": "a5d64634-8b6a-4d0f-afc7-780c20401c89",
    "entity_id": "c3ee3ee9-da33-43ce-80c0-a839bf158d8b",
    "field": "contact.phone",
@@ -9518,73 +9512,11 @@
    "family": "contact"
   },
   {
-   "id": "652d030d-461a-4202-9f9e-c87246869162",
-   "entity_id": "ee87e628-7f14-4dc5-8ef5-6ae00149ef25",
+   "id": "a7f92fb3-ff1e-482c-977a-5e0ab80bca07",
+   "entity_id": "3413771e-e0a8-4c67-9cd4-b831936089b6",
    "field": "contact.phone",
    "value_type": "text",
-   "value_text": "(607) 277-4080",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:55:27.992666+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-Announces-Restructure-of-Office-of-Human-Rights-OHR",
-     "fetched_at": "2026-11-06T23:55:27.992666+00:00",
-     "excerpt": "If you are in need of assistance by the Office of Human Rights, please call the office at (607) 277-4080.",
-     "snapshot_id": "8e07b495-4133-4dea-b90d-7a624477254b",
-     "title": "Tompkins County Announces Restructure of Office of Human Rights (OHR) | Tompkins County"
-    }
-   ],
-   "value": "(607) 277-4080",
-   "family": "contact"
-  },
-  {
-   "id": "08828553-0fd9-4e26-ae01-a32d29f283f3",
-   "entity_id": "ec786591-8eca-4993-82ba-b1ab8ac2af4a",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-272-1616",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [
-    "all"
-   ],
-   "academic_year": null,
-   "is_critical": true,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:04:12.628380+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services/Local-Resources",
-     "fetched_at": "2026-11-07T00:04:12.62838+00:00",
-     "excerpt": "The Crisis line is open 24/7. Free and confidential. Call 988, 1-800-273-TALK or 607-272-1616.",
-     "snapshot_id": "08269ddb-be86-42a2-946b-f50cf8d6ff64",
-     "title": "Local Mental Health Resources | Tompkins County"
-    }
-   ],
-   "value": "607-272-1616",
-   "family": "contact"
-  },
-  {
-   "id": "c5c6f61a-be04-4f01-97d2-c6d1c5411ea9",
-   "entity_id": "3db906b1-9219-487a-a755-36933e51c864",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "1-800-342-3720",
+   "value_text": "211",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -9601,348 +9533,12 @@
     {
      "url": "https://www.tompkinscountyny.gov/All-Departments/Social-Services",
      "fetched_at": "2026-11-06T23:48:27.507022+00:00",
-     "excerpt": "1-800-342-3720",
+     "excerpt": "service is staffed 24 hours a day and can be reached either by dialing 211 or through the",
      "snapshot_id": "2d982aca-8492-40c3-8a1b-fabee25b9601",
      "title": "Social Services | Tompkins County"
     }
    ],
-   "value": "1-800-342-3720",
-   "family": "contact"
-  },
-  {
-   "id": "c741e406-4d71-4897-a593-b9baff06db71",
-   "entity_id": "5f6714aa-717c-49c8-9716-7d2152c0f925",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-274-5560",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:57:57.758290+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-expands-Business-Energy-Advisors-program-to-support-nonprofits-with-expert-energy-consulting-and-incentives",
-     "fetched_at": "2026-11-06T23:57:57.75829+00:00",
-     "excerpt": "or phone at 607-274-5560.",
-     "snapshot_id": "c2de4e53-68bb-4f3a-8336-08bb5663ab03",
-     "title": "Tompkins County expands Business Energy Advisors program | Tompkins County"
-    }
-   ],
-   "value": "607-274-5560",
-   "family": "contact"
-  },
-  {
-   "id": "2ead9dbe-9554-4cf6-9353-07e14d765159",
-   "entity_id": "1924ebf0-ad41-4a1c-aaf4-868c9136f290",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-898-5035",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:09:27.616266+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Planning-and-Sustainability/Tourism/Events",
-     "fetched_at": "2026-11-07T00:09:27.616266+00:00",
-     "excerpt": "607-898-5035",
-     "snapshot_id": "2af4a9f0-7cbd-481b-9b04-fe514630def5",
-     "title": "Events | Tompkins County"
-    }
-   ],
-   "value": "607-898-5035",
-   "family": "contact"
-  },
-  {
-   "id": "1eeb2880-cfcc-436e-9744-13ebb2a92a4b",
-   "entity_id": "ce57e6eb-3aa1-4c14-aeb3-fb1426f1382b",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "(607) 257-3888",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:00:27.643986+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Emergency-Response",
-     "fetched_at": "2026-11-07T00:00:27.643986+00:00",
-     "excerpt": "(607) 257-3888",
-     "snapshot_id": "be8f1513-d98f-4f99-b77a-fcc3a02f4080",
-     "title": "Emergency Response | Tompkins County"
-    }
-   ],
-   "value": "(607) 257-3888",
-   "family": "contact"
-  },
-  {
-   "id": "1e63ab1f-e5e3-4304-bf44-2b09968ab8e4",
-   "entity_id": "24dffb3e-ce1d-4fc5-88b4-794502909794",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-274-5264",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:48:27.507022+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Social-Services",
-     "fetched_at": "2026-11-06T23:48:27.507022+00:00",
-     "excerpt": "Home Energy Assistance Program (HEAP)\n(607) 274-5264",
-     "snapshot_id": "2d982aca-8492-40c3-8a1b-fabee25b9601",
-     "title": "Social Services | Tompkins County"
-    }
-   ],
-   "value": "607-274-5264",
-   "family": "contact"
-  },
-  {
-   "id": "4c837c53-99e7-4887-84b1-2da89d20bd9b",
-   "entity_id": "010fa8c9-88d6-415b-9ae2-e8d743487fd0",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "(607) 274-5551",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:47:27.745591+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/About/Center-of-Government",
-     "fetched_at": "2026-11-06T23:47:27.745591+00:00",
-     "excerpt": "(607) 274-5551",
-     "snapshot_id": "50044521-9fa4-4f79-8d11-f43f41ac5953",
-     "title": "Center of Government | Tompkins County"
-    }
-   ],
-   "value": "(607) 274-5551",
-   "family": "contact"
-  },
-  {
-   "id": "c1b7e29a-8563-431b-9c7a-45011421d99f",
-   "entity_id": "84fdd5cd-e3cc-4f6d-8e99-67cd7a36dc45",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "877-336-2627 (FEMA Mapping and Insurance eXchange, FMIX)",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [
-    "resident"
-   ],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:41:42.689319+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/Government-Resources/Flood-Information/Flood-Information-Archive",
-     "fetched_at": "2026-11-06T23:41:42.689319+00:00",
-     "excerpt": "Call the FEMA Mapping and Insurance eXchange (FMIX) at 877-336-2627 to get specific details about your location.",
-     "snapshot_id": "ec410f98-8e4b-40a5-9ccb-d0a0d1142c67",
-     "title": "Flood Information Archive | Tompkins County"
-    }
-   ],
-   "value": "877-336-2627 (FEMA Mapping and Insurance eXchange, FMIX)",
-   "family": "contact"
-  },
-  {
-   "id": "b5321527-a5a8-41c8-9d65-af48bdd14532",
-   "entity_id": "d4159501-59a3-4a67-9e40-328a1bc0f591",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-844-6577",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [
-    "all"
-   ],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:04:12.628380+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services/Local-Resources",
-     "fetched_at": "2026-11-07T00:04:12.62838+00:00",
-     "excerpt": "607-844-6577",
-     "snapshot_id": "08269ddb-be86-42a2-946b-f50cf8d6ff64",
-     "title": "Local Mental Health Resources | Tompkins County"
-    }
-   ],
-   "value": "607-844-6577",
-   "family": "contact"
-  },
-  {
-   "id": "4fc058cf-fa32-43df-ab8a-a539a9d92410",
-   "entity_id": "54c1c90d-2386-4173-8a6a-05bb7cc3b4ed",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-274-5482",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:03:12.552389+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Aging/COFA-Cooling-Program",
-     "fetched_at": "2026-11-07T00:03:12.552389+00:00",
-     "excerpt": "607-274-5482",
-     "snapshot_id": "6987470e-569e-40ab-b3f3-f582f5dbc7aa",
-     "title": "COFA Cooling Program | Tompkins County"
-    }
-   ],
-   "value": "607-274-5482",
-   "family": "contact"
-  },
-  {
-   "id": "50ef0f0e-f561-48dc-b174-712e2e7500c2",
-   "entity_id": "b3a0175f-9fef-4a93-b358-56feb315a88f",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-274-5560",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:53:42.552102+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/News-articles/2025-09-03_transportation_scout_september",
-     "fetched_at": "2026-11-06T23:53:42.552102+00:00",
-     "excerpt": "For more information about Scout September events and prizes, contact Courtney Horner, Transportation Planner, Tompkins County Department of Planning and Sustainability, 607-274-5560.",
-     "snapshot_id": "58f1c14f-d02f-456b-94ab-cf63352bf694",
-     "title": "County launches \"Scout September\" transportation challenge | Tompkins County"
-    }
-   ],
-   "value": "607-274-5560",
-   "family": "contact"
-  },
-  {
-   "id": "04b5a616-51e6-449d-82e0-44afe128c739",
-   "entity_id": "fb8632be-da82-4a14-8116-889f22431775",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-274-5482",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [
-    "staff"
-   ],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:57:42.481040+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2025-02-February/Our-Roadmap-to-Health-Final-Week-to-Take-Community-Health-Survey",
-     "fetched_at": "2026-11-06T23:57:42.48104+00:00",
-     "excerpt": "Older adults can complete the survey over the phone by calling County Office for the Aging (COFA) at 607-274-5482 during business hours 8:30 am \u2013 4:30 pm.",
-     "snapshot_id": "09811532-9e80-4a9b-ae28-652c5602552f",
-     "title": "Our Roadmap to Health: Final Week to Take Community Health Survey | Tompkins County"
-    }
-   ],
-   "value": "607-274-5482",
-   "family": "contact"
-  },
-  {
-   "id": "d699f952-a6b6-444b-8f14-1e1e23763500",
-   "entity_id": "5d313485-00f2-486f-9597-7811700df9b1",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-274-6630",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:24:38.467065+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Family-Child/WIC",
-     "fetched_at": "2026-11-06T23:24:38.467065+00:00",
-     "excerpt": "Call 607-274-6630",
-     "snapshot_id": "593e98b2-d084-486c-a1d3-a472a059fe74",
-     "title": "Women, Infants and Children (WIC) Program | Tompkins County"
-    }
-   ],
-   "value": "607-274-6630",
+   "value": "211",
    "family": "contact"
   },
   {
@@ -9978,43 +9574,11 @@
    "family": "contact"
   },
   {
-   "id": "29b71018-d093-4299-9fa2-cbf68d725752",
-   "entity_id": "771cad9d-f913-42a3-9167-db69f51ed209",
+   "id": "c1b7e29a-8563-431b-9c7a-45011421d99f",
+   "entity_id": "84fdd5cd-e3cc-4f6d-8e99-67cd7a36dc45",
    "field": "contact.phone",
    "value_type": "text",
-   "value_text": "607-272-9973",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [
-    "all"
-   ],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:01:27.815335+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/News-articles/July-24-2025-Public-Advisory",
-     "fetched_at": "2026-11-07T00:01:27.815335+00:00",
-     "excerpt": "IPD Police Administration: 607-272-9973",
-     "snapshot_id": "100d8c7c-2201-4020-bdd3-27f8bb04bc02",
-     "title": "July 24, 2025 - Public Advisory | Tompkins County"
-    }
-   ],
-   "value": "607-272-9973",
-   "family": "contact"
-  },
-  {
-   "id": "3551879a-53f4-430b-92d9-4b0920ba7c8f",
-   "entity_id": "156cb6c1-c1e8-44be-b903-6a4f71efd719",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "(607) 274-5030",
+   "value_text": "877-336-2627 (FEMA Mapping and Insurance eXchange, FMIX)",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -10027,26 +9591,26 @@
    "academic_year": null,
    "is_critical": false,
    "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:01:42.752679+00:00",
+   "retrieved_at": "2026-11-06T23:41:42.689319+00:00",
    "topic_key": "town_services",
    "sources": [
     {
-     "url": "https://www.tompkinscountyny.gov/News-articles/Code-Blue-shelter-to-remain-open-through-April-30",
-     "fetched_at": "2026-11-07T00:01:42.752679+00:00",
-     "excerpt": "(Monday through Friday, 8:00 a.m. \u2013 4:30 p.m.), individuals seeking shelter may visit the Department of Social Services at 320 West Martin Luther King Jr./State Street or call (607) 274-5030.",
-     "snapshot_id": "ad52dde1-5424-4d67-915f-81c2716b28e3",
-     "title": "Code Blue shelter to remain open through April 30 | Tompkins County"
+     "url": "https://www.tompkinscountyny.gov/Government-Resources/Flood-Information/Flood-Information-Archive",
+     "fetched_at": "2026-11-06T23:41:42.689319+00:00",
+     "excerpt": "Call the FEMA Mapping and Insurance eXchange (FMIX) at 877-336-2627 to get specific details about your location.",
+     "snapshot_id": "ec410f98-8e4b-40a5-9ccb-d0a0d1142c67",
+     "title": "Flood Information Archive | Tompkins County"
     }
    ],
-   "value": "(607) 274-5030",
+   "value": "877-336-2627 (FEMA Mapping and Insurance eXchange, FMIX)",
    "family": "contact"
   },
   {
-   "id": "05d17f51-e7c8-45e5-8d95-4108a6db1dd8",
-   "entity_id": "97c25aaa-7df4-4e5f-ab93-3e8e3745d5ef",
+   "id": "06cfaef3-deab-445b-8c8e-6f51495b8e8a",
+   "entity_id": "6f975a4f-afdc-4477-8846-2fabfca68f41",
    "field": "contact.phone",
    "value_type": "text",
-   "value_text": "(607) 274-5219",
+   "value_text": "(607) 274-6688",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -10057,80 +9621,18 @@
    "academic_year": null,
    "is_critical": false,
    "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:48:27.507022+00:00",
+   "retrieved_at": "2026-11-07T00:07:27.549218+00:00",
    "topic_key": "town_services",
    "sources": [
     {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Social-Services",
-     "fetched_at": "2026-11-06T23:48:27.507022+00:00",
-     "excerpt": "at (607) 274-5219.",
-     "snapshot_id": "2d982aca-8492-40c3-8a1b-fabee25b9601",
-     "title": "Social Services | Tompkins County"
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2026-06-June/Rabid-Cat-Hasbrouck",
+     "fetched_at": "2026-11-07T00:07:27.549218+00:00",
+     "excerpt": "Report\nthe following incidents to Tompkins County Environmental Health at 607-274-6688:",
+     "snapshot_id": "4113651b-18d7-441d-97ba-aea3b6ef48fd",
+     "title": "Health Alert: Rabid Cat Found on Pleasant Grove Road (Ithaca) | Tompkins County"
     }
    ],
-   "value": "(607) 274-5219",
-   "family": "contact"
-  },
-  {
-   "id": "75bb24f5-9ab4-4ba1-b540-3b1f864781f1",
-   "entity_id": "dac19d40-b2ad-4edc-8bc3-d90f4a63e15d",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607 274 5521",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [
-    "resident"
-   ],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:43:12.549241+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Forms",
-     "fetched_at": "2026-11-06T23:43:12.549241+00:00",
-     "excerpt": "please call us (607 274 5521)",
-     "snapshot_id": "37898163-466a-4369-9b36-4d873779d9e0",
-     "title": "Forms | Tompkins County"
-    }
-   ],
-   "value": "607 274 5521",
-   "family": "contact"
-  },
-  {
-   "id": "c9106258-c3d2-4a8b-9ae6-bcba89735e9e",
-   "entity_id": "fefe2028-43c0-433b-8c03-e814ebd4c185",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "877-211-8667",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:08:27.610372+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Planning-and-Sustainability/Transportation",
-     "fetched_at": "2026-11-07T00:08:27.610372+00:00",
-     "excerpt": "\u2014 or call 877-211-8667",
-     "snapshot_id": "166cfeb9-b9ba-47a6-9c4e-d0e4b37bd878",
-     "title": "Transportation | Tompkins County"
-    }
-   ],
-   "value": "877-211-8667",
+   "value": "(607) 274-6688",
    "family": "contact"
   },
   {
@@ -10173,11 +9675,103 @@
    "family": "contact"
   },
   {
-   "id": "da3ceb57-0c49-4e55-b2e5-f3ce04161bff",
-   "entity_id": "c76998b7-9d88-418c-9244-72e85d16dcc8",
+   "id": "6417f96c-5d3d-4f38-90dc-9aff6df3fa55",
+   "entity_id": "dac19d40-b2ad-4edc-8bc3-d90f4a63e15d",
    "field": "contact.phone",
    "value_type": "text",
-   "value_text": "(607) 274-5680",
+   "value_text": "607 274 5521",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:27:53.475640+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Forms",
+     "fetched_at": "2026-11-06T23:27:53.47564+00:00",
+     "excerpt": "Note: if you requested we mail you an absentee ballot and you haven't received it 7 - 10 days before the election, please call us (607 274 5521).",
+     "snapshot_id": "b4f76735-8249-444b-b945-868749dbea74",
+     "title": "Forms | Tompkins County"
+    }
+   ],
+   "value": "607 274 5521",
+   "family": "contact"
+  },
+  {
+   "id": "2ead9dbe-9554-4cf6-9353-07e14d765159",
+   "entity_id": "1924ebf0-ad41-4a1c-aaf4-868c9136f290",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-898-5035",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:09:27.616266+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Planning-and-Sustainability/Tourism/Events",
+     "fetched_at": "2026-11-07T00:09:27.616266+00:00",
+     "excerpt": "607-898-5035",
+     "snapshot_id": "2af4a9f0-7cbd-481b-9b04-fe514630def5",
+     "title": "Events | Tompkins County"
+    }
+   ],
+   "value": "607-898-5035",
+   "family": "contact"
+  },
+  {
+   "id": "75bb24f5-9ab4-4ba1-b540-3b1f864781f1",
+   "entity_id": "dac19d40-b2ad-4edc-8bc3-d90f4a63e15d",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607 274 5521",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [
+    "resident"
+   ],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:43:12.549241+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Forms",
+     "fetched_at": "2026-11-06T23:43:12.549241+00:00",
+     "excerpt": "please call us (607 274 5521)",
+     "snapshot_id": "37898163-466a-4369-9b36-4d873779d9e0",
+     "title": "Forms | Tompkins County"
+    }
+   ],
+   "value": "607 274 5521",
+   "family": "contact"
+  },
+  {
+   "id": "05d17f51-e7c8-45e5-8d95-4108a6db1dd8",
+   "entity_id": "97c25aaa-7df4-4e5f-ab93-3e8e3745d5ef",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "(607) 274-5219",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -10194,20 +9788,20 @@
     {
      "url": "https://www.tompkinscountyny.gov/All-Departments/Social-Services",
      "fetched_at": "2026-11-06T23:48:27.507022+00:00",
-     "excerpt": "(607) 274-5680",
+     "excerpt": "at (607) 274-5219.",
      "snapshot_id": "2d982aca-8492-40c3-8a1b-fabee25b9601",
      "title": "Social Services | Tompkins County"
     }
    ],
-   "value": "(607) 274-5680",
+   "value": "(607) 274-5219",
    "family": "contact"
   },
   {
-   "id": "06cfaef3-deab-445b-8c8e-6f51495b8e8a",
-   "entity_id": "6f975a4f-afdc-4477-8846-2fabfca68f41",
+   "id": "c5c6f61a-be04-4f01-97d2-c6d1c5411ea9",
+   "entity_id": "3db906b1-9219-487a-a755-36933e51c864",
    "field": "contact.phone",
    "value_type": "text",
-   "value_text": "(607) 274-6688",
+   "value_text": "1-800-342-3720",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -10218,18 +9812,18 @@
    "academic_year": null,
    "is_critical": false,
    "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:07:27.549218+00:00",
+   "retrieved_at": "2026-11-06T23:48:27.507022+00:00",
    "topic_key": "town_services",
    "sources": [
     {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2026-06-June/Rabid-Cat-Hasbrouck",
-     "fetched_at": "2026-11-07T00:07:27.549218+00:00",
-     "excerpt": "Report\nthe following incidents to Tompkins County Environmental Health at 607-274-6688:",
-     "snapshot_id": "4113651b-18d7-441d-97ba-aea3b6ef48fd",
-     "title": "Health Alert: Rabid Cat Found on Pleasant Grove Road (Ithaca) | Tompkins County"
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Social-Services",
+     "fetched_at": "2026-11-06T23:48:27.507022+00:00",
+     "excerpt": "1-800-342-3720",
+     "snapshot_id": "2d982aca-8492-40c3-8a1b-fabee25b9601",
+     "title": "Social Services | Tompkins County"
     }
    ],
-   "value": "(607) 274-6688",
+   "value": "1-800-342-3720",
    "family": "contact"
   },
   {
@@ -10265,11 +9859,300 @@
    "family": "contact"
   },
   {
-   "id": "a7f92fb3-ff1e-482c-977a-5e0ab80bca07",
-   "entity_id": "3413771e-e0a8-4c67-9cd4-b831936089b6",
+   "id": "50ef0f0e-f561-48dc-b174-712e2e7500c2",
+   "entity_id": "b3a0175f-9fef-4a93-b358-56feb315a88f",
    "field": "contact.phone",
    "value_type": "text",
-   "value_text": "211",
+   "value_text": "607-274-5560",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:53:42.552102+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/2025-09-03_transportation_scout_september",
+     "fetched_at": "2026-11-06T23:53:42.552102+00:00",
+     "excerpt": "For more information about Scout September events and prizes, contact Courtney Horner, Transportation Planner, Tompkins County Department of Planning and Sustainability, 607-274-5560.",
+     "snapshot_id": "58f1c14f-d02f-456b-94ab-cf63352bf694",
+     "title": "County launches \"Scout September\" transportation challenge | Tompkins County"
+    }
+   ],
+   "value": "607-274-5560",
+   "family": "contact"
+  },
+  {
+   "id": "4a32dfe1-1ddb-4ed4-862b-948aabddbe50",
+   "entity_id": "ac199c79-f9c2-470c-b908-a6d0a736c044",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "(607) 274-5310",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:43:42.595598+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Youth-Services",
+     "fetched_at": "2026-11-06T23:43:42.595598+00:00",
+     "excerpt": "(607) 274-5310",
+     "snapshot_id": "c3cbc89a-2630-4254-8961-9af83eacebb0",
+     "title": "Youth Services | Tompkins County"
+    },
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Youth-Services",
+     "fetched_at": "2026-11-06T23:28:23.513528+00:00",
+     "excerpt": "(607) 274-5310",
+     "snapshot_id": "d3d3de10-9a60-42a8-9323-c9386cdadb47",
+     "title": "Youth Services | Tompkins County"
+    }
+   ],
+   "value": "(607) 274-5310",
+   "family": "contact"
+  },
+  {
+   "id": "652d030d-461a-4202-9f9e-c87246869162",
+   "entity_id": "ee87e628-7f14-4dc5-8ef5-6ae00149ef25",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "(607) 277-4080",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:55:27.992666+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-Announces-Restructure-of-Office-of-Human-Rights-OHR",
+     "fetched_at": "2026-11-06T23:55:27.992666+00:00",
+     "excerpt": "If you are in need of assistance by the Office of Human Rights, please call the office at (607) 277-4080.",
+     "snapshot_id": "8e07b495-4133-4dea-b90d-7a624477254b",
+     "title": "Tompkins County Announces Restructure of Office of Human Rights (OHR) | Tompkins County"
+    }
+   ],
+   "value": "(607) 277-4080",
+   "family": "contact"
+  },
+  {
+   "id": "47b66a59-d08e-4857-931c-b2adc291325d",
+   "entity_id": "c11f6341-8fb0-47b7-945c-d562e3af9090",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-277-5000",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [
+    "all"
+   ],
+   "academic_year": null,
+   "is_critical": true,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:04:12.628380+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services/Local-Resources",
+     "fetched_at": "2026-11-07T00:04:12.62838+00:00",
+     "excerpt": "24-hour hotline: 607-277-5000",
+     "snapshot_id": "08269ddb-be86-42a2-946b-f50cf8d6ff64",
+     "title": "Local Mental Health Resources | Tompkins County"
+    }
+   ],
+   "value": "607-277-5000",
+   "family": "contact"
+  },
+  {
+   "id": "86f8142a-9341-434f-a070-a3d6ecb69735",
+   "entity_id": "c951ac27-db55-459d-bed0-a004a1ae25ed",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-274-6200",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [
+    "all"
+   ],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:04:12.628380+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services/Local-Resources",
+     "fetched_at": "2026-11-07T00:04:12.62838+00:00",
+     "excerpt": "24/7 Mobile Crisis team available",
+     "snapshot_id": "08269ddb-be86-42a2-946b-f50cf8d6ff64",
+     "title": "Local Mental Health Resources | Tompkins County"
+    }
+   ],
+   "value": "607-274-6200",
+   "family": "contact"
+  },
+  {
+   "id": "3551879a-53f4-430b-92d9-4b0920ba7c8f",
+   "entity_id": "156cb6c1-c1e8-44be-b903-6a4f71efd719",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "(607) 274-5030",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [
+    "resident"
+   ],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:01:42.752679+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Code-Blue-shelter-to-remain-open-through-April-30",
+     "fetched_at": "2026-11-07T00:01:42.752679+00:00",
+     "excerpt": "(Monday through Friday, 8:00 a.m. \u2013 4:30 p.m.), individuals seeking shelter may visit the Department of Social Services at 320 West Martin Luther King Jr./State Street or call (607) 274-5030.",
+     "snapshot_id": "ad52dde1-5424-4d67-915f-81c2716b28e3",
+     "title": "Code Blue shelter to remain open through April 30 | Tompkins County"
+    }
+   ],
+   "value": "(607) 274-5030",
+   "family": "contact"
+  },
+  {
+   "id": "b5321527-a5a8-41c8-9d65-af48bdd14532",
+   "entity_id": "d4159501-59a3-4a67-9e40-328a1bc0f591",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-844-6577",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [
+    "all"
+   ],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:04:12.628380+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services/Local-Resources",
+     "fetched_at": "2026-11-07T00:04:12.62838+00:00",
+     "excerpt": "607-844-6577",
+     "snapshot_id": "08269ddb-be86-42a2-946b-f50cf8d6ff64",
+     "title": "Local Mental Health Resources | Tompkins County"
+    }
+   ],
+   "value": "607-844-6577",
+   "family": "contact"
+  },
+  {
+   "id": "8825d02c-7d29-4c67-8a60-281bf5556c6e",
+   "entity_id": "a0c0347b-a05b-4ebc-95b2-c24241ff847b",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-277-4500",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [
+    "resident"
+   ],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:37:57.570344+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Aging/Services-of-Our-Office/Minor-Home-and-Safety-Repair-Program",
+     "fetched_at": "2026-11-06T23:37:57.570344+00:00",
+     "excerpt": "For more information or to apply please contact INHS at 607-277-4500.",
+     "snapshot_id": "2a919cf4-c0b3-4502-996b-6b0c8db2cba2",
+     "title": "Minor Home and Safety Repair Program | Tompkins County"
+    }
+   ],
+   "value": "607-277-4500",
+   "family": "contact"
+  },
+  {
+   "id": "29b71018-d093-4299-9fa2-cbf68d725752",
+   "entity_id": "771cad9d-f913-42a3-9167-db69f51ed209",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-272-9973",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [
+    "all"
+   ],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:01:27.815335+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/July-24-2025-Public-Advisory",
+     "fetched_at": "2026-11-07T00:01:27.815335+00:00",
+     "excerpt": "IPD Police Administration: 607-272-9973",
+     "snapshot_id": "100d8c7c-2201-4020-bdd3-27f8bb04bc02",
+     "title": "July 24, 2025 - Public Advisory | Tompkins County"
+    }
+   ],
+   "value": "607-272-9973",
+   "family": "contact"
+  },
+  {
+   "id": "1e63ab1f-e5e3-4304-bf44-2b09968ab8e4",
+   "entity_id": "24dffb3e-ce1d-4fc5-88b4-794502909794",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-274-5264",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -10286,20 +10169,20 @@
     {
      "url": "https://www.tompkinscountyny.gov/All-Departments/Social-Services",
      "fetched_at": "2026-11-06T23:48:27.507022+00:00",
-     "excerpt": "service is staffed 24 hours a day and can be reached either by dialing 211 or through the",
+     "excerpt": "Home Energy Assistance Program (HEAP)\n(607) 274-5264",
      "snapshot_id": "2d982aca-8492-40c3-8a1b-fabee25b9601",
      "title": "Social Services | Tompkins County"
     }
    ],
-   "value": "211",
+   "value": "607-274-5264",
    "family": "contact"
   },
   {
-   "id": "705b7aaf-af0a-409b-9bef-bfb1382e4e4b",
-   "entity_id": "defa8d42-9375-40ce-a358-3940e017c7ee",
+   "id": "4fc058cf-fa32-43df-ab8a-a539a9d92410",
+   "entity_id": "54c1c90d-2386-4173-8a6a-05bb7cc3b4ed",
    "field": "contact.phone",
    "value_type": "text",
-   "value_text": "607-274-5560",
+   "value_text": "607-274-5482",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -10310,26 +10193,26 @@
    "academic_year": null,
    "is_critical": false,
    "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:20:08.531515+00:00",
+   "retrieved_at": "2026-11-07T00:03:12.552389+00:00",
    "topic_key": "town_services",
    "sources": [
     {
-     "url": "https://www.tompkinscountyny.gov/News-articles/Fall-2022-Tourism-Grants-Available",
-     "fetched_at": "2026-11-06T23:20:08.531515+00:00",
-     "excerpt": "607-274-5560",
-     "snapshot_id": "35f65b4b-d0c9-49b7-8f69-bce65c0da271",
-     "title": "Fall 2022 Tourism Grants Available | Tompkins County"
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Aging/COFA-Cooling-Program",
+     "fetched_at": "2026-11-07T00:03:12.552389+00:00",
+     "excerpt": "607-274-5482",
+     "snapshot_id": "6987470e-569e-40ab-b3f3-f582f5dbc7aa",
+     "title": "COFA Cooling Program | Tompkins County"
     }
    ],
-   "value": "607-274-5560",
+   "value": "607-274-5482",
    "family": "contact"
   },
   {
-   "id": "700b7e01-4adc-4ffe-a02c-befe1289f069",
-   "entity_id": "e0cfb61b-4c01-41c2-96da-246558a772b7",
+   "id": "d3c80ea5-38b1-4218-9f75-425dc7dcc642",
+   "entity_id": "59e0d054-5cb7-439a-981c-90080dbeb48c",
    "field": "contact.phone",
    "value_type": "text",
-   "value_text": "607-274-5499",
+   "value_text": "607-274-5551",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -10340,25 +10223,18 @@
    "academic_year": null,
    "is_critical": false,
    "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:37:42.614744+00:00",
+   "retrieved_at": "2026-11-06T23:57:27.576046+00:00",
    "topic_key": "town_services",
    "sources": [
     {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Aging/Services-of-Our-Office/Project-CARE",
-     "fetched_at": "2026-11-06T23:37:42.614744+00:00",
-     "excerpt": "or call 607-274-5499",
-     "snapshot_id": "50c29977-1285-4e33-863f-d985e328cce4",
-     "title": "Project CARE | Tompkins County"
-    },
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Aging/Services-of-Our-Office/Project-CARE",
-     "fetched_at": "2026-11-06T23:22:23.702486+00:00",
-     "excerpt": "or call 607-274-5499",
-     "snapshot_id": "6e2555f9-fadf-41d3-8b5b-a20da9b59f40",
-     "title": "Project CARE | Tompkins County"
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Human-Rights/LEPLAP",
+     "fetched_at": "2026-11-06T23:57:27.576046+00:00",
+     "excerpt": "For further information, please contact the Tompkins County Compliance Officer or Compliance Program Coordinator at 607-274-5551.",
+     "snapshot_id": "1f8023a8-d842-4776-a54c-a9ab48533580",
+     "title": "LEP/LAP | Tompkins County"
     }
    ],
-   "value": "607-274-5499",
+   "value": "607-274-5551",
    "family": "contact"
   },
   {
@@ -10394,6 +10270,190 @@
    "family": "contact"
   },
   {
+   "id": "ebc3b37d-cdc1-4900-89f7-2165fe8cc5c1",
+   "entity_id": "c3ee696b-c721-452d-bc28-46fa905ec85f",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-274-6630",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:39:57.628148+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Family-Child/WIC",
+     "fetched_at": "2026-11-06T23:39:57.628148+00:00",
+     "excerpt": "Call 607-274-6630",
+     "snapshot_id": "7cac9e88-43bb-4c58-9d74-6b1342e54343",
+     "title": "Women, Infants and Children (WIC) Program | Tompkins County"
+    }
+   ],
+   "value": "607-274-6630",
+   "family": "contact"
+  },
+  {
+   "id": "fefb3e24-640d-40b7-9e43-c5bc865e16ce",
+   "entity_id": "b5fec3e2-6105-4754-9cf9-ea244366db02",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "(607) 257-1345",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:53:57.639069+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Sheriffs-Office/Civil-Records/Evictions",
+     "fetched_at": "2026-11-06T23:53:57.639069+00:00",
+     "excerpt": "Once the Warrant has been served the landlord will be notified by mail and will need to contact the Civil Division to schedule the removal (607) 257-1345.",
+     "snapshot_id": "ce7a5c80-072f-4e7a-8b57-bc2b8f985574",
+     "title": "Evictions | Tompkins County"
+    }
+   ],
+   "value": "(607) 257-1345",
+   "family": "contact"
+  },
+  {
+   "id": "da3ceb57-0c49-4e55-b2e5-f3ce04161bff",
+   "entity_id": "c76998b7-9d88-418c-9244-72e85d16dcc8",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "(607) 274-5680",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:48:27.507022+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Social-Services",
+     "fetched_at": "2026-11-06T23:48:27.507022+00:00",
+     "excerpt": "(607) 274-5680",
+     "snapshot_id": "2d982aca-8492-40c3-8a1b-fabee25b9601",
+     "title": "Social Services | Tompkins County"
+    }
+   ],
+   "value": "(607) 274-5680",
+   "family": "contact"
+  },
+  {
+   "id": "f8d034bd-2777-4600-bdde-18db0fa4bc07",
+   "entity_id": "9e138669-a2e9-4335-b0a2-2a2dd0529ce5",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-273-7494",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [
+    "all"
+   ],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:04:12.628380+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services/Local-Resources",
+     "fetched_at": "2026-11-07T00:04:12.62838+00:00",
+     "excerpt": "If you are unable to fill out this form, please call us at 607-273-7494 and our staff would be happy to assist you in doing so.",
+     "snapshot_id": "08269ddb-be86-42a2-946b-f50cf8d6ff64",
+     "title": "Local Mental Health Resources | Tompkins County"
+    }
+   ],
+   "value": "607-273-7494",
+   "family": "contact"
+  },
+  {
+   "id": "e2fb8845-d8eb-4dac-9d64-b75ce4249603",
+   "entity_id": "c24c819d-c733-4794-80eb-387829cf9c22",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "(607) 274-5680",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [
+    "resident"
+   ],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:34:12.597972+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-encourages-donations-to-support-residents-facing-SNAP-benefit-delays-as-the-federal-shutdown-continues",
+     "fetched_at": "2026-11-06T23:34:12.597972+00:00",
+     "excerpt": "Call the Tompkins County DSS at (607) 274-5680.",
+     "snapshot_id": "03c9a392-55a6-4842-85d3-79fb12c48fe3",
+     "title": "Donations encouraged to support residents facing SNAP delays | Tompkins County"
+    }
+   ],
+   "value": "(607) 274-5680",
+   "family": "contact"
+  },
+  {
+   "id": "d699f952-a6b6-444b-8f14-1e1e23763500",
+   "entity_id": "5d313485-00f2-486f-9597-7811700df9b1",
+   "field": "contact.phone",
+   "value_type": "text",
+   "value_text": "607-274-6630",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:24:38.467065+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Family-Child/WIC",
+     "fetched_at": "2026-11-06T23:24:38.467065+00:00",
+     "excerpt": "Call 607-274-6630",
+     "snapshot_id": "593e98b2-d084-486c-a1d3-a472a059fe74",
+     "title": "Women, Infants and Children (WIC) Program | Tompkins County"
+    }
+   ],
+   "value": "607-274-6630",
+   "family": "contact"
+  },
+  {
    "id": "f54a2d25-c3ed-4d29-a6e5-0493bd5c3b59",
    "entity_id": "4bc7206d-3410-4aac-a956-c9487d9712f6",
    "field": "contact.phone",
@@ -10426,33 +10486,35 @@
    "family": "contact"
   },
   {
-   "id": "fefb3e24-640d-40b7-9e43-c5bc865e16ce",
-   "entity_id": "b5fec3e2-6105-4754-9cf9-ea244366db02",
+   "id": "e3952a1c-c7d2-41a3-8f1f-cf409210eb65",
+   "entity_id": "86a9eac2-63bb-4d9d-828b-f5fbaf788446",
    "field": "contact.phone",
    "value_type": "text",
-   "value_text": "(607) 257-1345",
+   "value_text": "607-330-0000",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
    "billing_period": null,
    "price_basis": null,
    "room_type": null,
-   "audience_applicability": [],
+   "audience_applicability": [
+    "all"
+   ],
    "academic_year": null,
    "is_critical": false,
    "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:53:57.639069+00:00",
+   "retrieved_at": "2026-11-07T00:01:27.815335+00:00",
    "topic_key": "town_services",
    "sources": [
     {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Sheriffs-Office/Civil-Records/Evictions",
-     "fetched_at": "2026-11-06T23:53:57.639069+00:00",
-     "excerpt": "Once the Warrant has been served the landlord will be notified by mail and will need to contact the Civil Division to schedule the removal (607) 257-1345.",
-     "snapshot_id": "ce7a5c80-072f-4e7a-8b57-bc2b8f985574",
-     "title": "Evictions | Tompkins County"
+     "url": "https://www.tompkinscountyny.gov/News-articles/July-24-2025-Public-Advisory",
+     "fetched_at": "2026-11-07T00:01:27.815335+00:00",
+     "excerpt": "IPD Police Tipline: 607-330-0000",
+     "snapshot_id": "100d8c7c-2201-4020-bdd3-27f8bb04bc02",
+     "title": "July 24, 2025 - Public Advisory | Tompkins County"
     }
    ],
-   "value": "(607) 257-1345",
+   "value": "607-330-0000",
    "family": "contact"
   },
   {
@@ -10504,68 +10566,6 @@
     }
    ],
    "value": "607-274-5570",
-   "family": "contact"
-  },
-  {
-   "id": "f8d034bd-2777-4600-bdde-18db0fa4bc07",
-   "entity_id": "9e138669-a2e9-4335-b0a2-2a2dd0529ce5",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-273-7494",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [
-    "all"
-   ],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:04:12.628380+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services/Local-Resources",
-     "fetched_at": "2026-11-07T00:04:12.62838+00:00",
-     "excerpt": "If you are unable to fill out this form, please call us at 607-273-7494 and our staff would be happy to assist you in doing so.",
-     "snapshot_id": "08269ddb-be86-42a2-946b-f50cf8d6ff64",
-     "title": "Local Mental Health Resources | Tompkins County"
-    }
-   ],
-   "value": "607-273-7494",
-   "family": "contact"
-  },
-  {
-   "id": "ebc3b37d-cdc1-4900-89f7-2165fe8cc5c1",
-   "entity_id": "c3ee696b-c721-452d-bc28-46fa905ec85f",
-   "field": "contact.phone",
-   "value_type": "text",
-   "value_text": "607-274-6630",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:39:57.628148+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Family-Child/WIC",
-     "fetched_at": "2026-11-06T23:39:57.628148+00:00",
-     "excerpt": "Call 607-274-6630",
-     "snapshot_id": "7cac9e88-43bb-4c58-9d74-6b1342e54343",
-     "title": "Women, Infants and Children (WIC) Program | Tompkins County"
-    }
-   ],
-   "value": "607-274-6630",
    "family": "contact"
   },
   {
@@ -11947,36 +11947,6 @@
    "family": "eligibility"
   },
   {
-   "id": "2b6e72ed-72c0-42a7-9e40-8dc83c498d01",
-   "entity_id": "8a4f079c-bc07-41bb-b977-d1e8a3581991",
-   "field": "eligibility.age",
-   "value_type": "text",
-   "value_text": "JobLink is a year-round program for Tompkins County young people ages 14-24.",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": true,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:49:27.726725+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Workforce-Development/Youth-Employment-Ages-14-24",
-     "fetched_at": "2026-11-06T23:49:27.726725+00:00",
-     "excerpt": "JobLink is a year-round program for Tompkins County young people ages 14-24",
-     "snapshot_id": "300f6ccb-356c-4801-adce-eb997c3a4f7d",
-     "title": "Youth Employment (Ages 14-24) | Tompkins County"
-    }
-   ],
-   "value": "JobLink is a year-round program for Tompkins County young people ages 14-24.",
-   "family": "eligibility"
-  },
-  {
    "id": "223d3557-757e-46f4-a937-e183e89ef4d5",
    "entity_id": "418b4197-222b-4108-a0cf-3cf6433e0b46",
    "field": "eligibility.age",
@@ -12006,6 +11976,36 @@
     }
    ],
    "value": "Age 60+, or caregivers of eligible individuals 60+",
+   "family": "eligibility"
+  },
+  {
+   "id": "2b6e72ed-72c0-42a7-9e40-8dc83c498d01",
+   "entity_id": "8a4f079c-bc07-41bb-b977-d1e8a3581991",
+   "field": "eligibility.age",
+   "value_type": "text",
+   "value_text": "JobLink is a year-round program for Tompkins County young people ages 14-24.",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": true,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:49:27.726725+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Workforce-Development/Youth-Employment-Ages-14-24",
+     "fetched_at": "2026-11-06T23:49:27.726725+00:00",
+     "excerpt": "JobLink is a year-round program for Tompkins County young people ages 14-24",
+     "snapshot_id": "300f6ccb-356c-4801-adce-eb997c3a4f7d",
+     "title": "Youth Employment (Ages 14-24) | Tompkins County"
+    }
+   ],
+   "value": "JobLink is a year-round program for Tompkins County young people ages 14-24.",
    "family": "eligibility"
   },
   {
@@ -13706,6 +13706,36 @@
    "family": "hours"
   },
   {
+   "id": "bb5f587c-564f-4f8b-9e64-14b345d6ac68",
+   "entity_id": "b3e2c5fb-72b7-4456-ab06-084280037ed2",
+   "field": "hours.closure",
+   "value_type": "text",
+   "value_text": "Closed to the public from 2:00 p.m. to close on Wednesday August 23, 2023",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:03:42.568780+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-Finance-Department-Scheduled-to-be-Closed-August-23-200p.m",
+     "fetched_at": "2026-11-07T00:03:42.56878+00:00",
+     "excerpt": "The Tompkins County Finance Department, including the tax paying, accounts payable, payroll, and purchasing divisions, will be closing to the public from 2:00 p.m. to close on Wednesday August 23, 2023.",
+     "snapshot_id": "57824a00-9e70-4aab-a650-5c4e2f6b963d",
+     "title": "Finance Department Scheduled to be Closed August 23 2:00 pm | Tompkins County"
+    }
+   ],
+   "value": "Closed to the public from 2:00 p.m. to close on Wednesday August 23, 2023",
+   "family": "hours"
+  },
+  {
    "id": "d6d63add-8014-44ca-9106-a2fd880f3042",
    "entity_id": "7a20be77-bc40-4d53-a9ff-abfc583a882d",
    "field": "hours.closure",
@@ -13735,36 +13765,6 @@
     }
    ],
    "value": "January 29, 2025",
-   "family": "hours"
-  },
-  {
-   "id": "bb5f587c-564f-4f8b-9e64-14b345d6ac68",
-   "entity_id": "b3e2c5fb-72b7-4456-ab06-084280037ed2",
-   "field": "hours.closure",
-   "value_type": "text",
-   "value_text": "Closed to the public from 2:00 p.m. to close on Wednesday August 23, 2023",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:03:42.568780+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-Finance-Department-Scheduled-to-be-Closed-August-23-200p.m",
-     "fetched_at": "2026-11-07T00:03:42.56878+00:00",
-     "excerpt": "The Tompkins County Finance Department, including the tax paying, accounts payable, payroll, and purchasing divisions, will be closing to the public from 2:00 p.m. to close on Wednesday August 23, 2023.",
-     "snapshot_id": "57824a00-9e70-4aab-a650-5c4e2f6b963d",
-     "title": "Finance Department Scheduled to be Closed August 23 2:00 pm | Tompkins County"
-    }
-   ],
-   "value": "Closed to the public from 2:00 p.m. to close on Wednesday August 23, 2023",
    "family": "hours"
   },
   {
@@ -14290,38 +14290,6 @@
    "family": "hours"
   },
   {
-   "id": "b9d9756d-ddfa-4762-8cc7-93eafeb4a412",
-   "entity_id": "7fcbe7c1-97ed-4f1d-9b7a-1c557fdd75f6",
-   "field": "hours.rabies_clinic",
-   "value_type": "text",
-   "value_text": "Wednesday, May 27th, 6pm-8pm, Danby Fire Hall (1780 Danby Road, Ithaca)",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [
-    "resident"
-   ],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:30:42.397577+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2026-04-April/Dog-Bite-Monkey-Run",
-     "fetched_at": "2026-11-06T23:30:42.397577+00:00",
-     "excerpt": "Our next clinic will be held on Wednesday, May 27th, from 6pm-8pm, at the Danby Fire Hall (1780 Danby Road, Ithaca).",
-     "snapshot_id": "679bbd69-0a4d-41b3-9491-2bc5bad715bd",
-     "title": "Health Alert: Dog Bite on Monkey Run Trail (Freese Road, Varna) | Tompkins County"
-    }
-   ],
-   "value": "Wednesday, May 27th, 6pm-8pm, Danby Fire Hall (1780 Danby Road, Ithaca)",
-   "family": "hours"
-  },
-  {
    "id": "14219467-c525-4d85-a22e-99d0b0d11681",
    "entity_id": "a9003f36-fae7-49fa-a9e2-848e1b9a605b",
    "field": "hours.rabies_clinic",
@@ -14347,6 +14315,38 @@
      "fetched_at": "2026-11-06T23:15:23.396413+00:00",
      "excerpt": "Our next clinic will be held on Wednesday, May 27th, from 6pm-8pm, at the Danby Fire Hall (1780 Danby Road, Ithaca).",
      "snapshot_id": "975a592d-6125-4608-b55f-070a20a70dc5",
+     "title": "Health Alert: Dog Bite on Monkey Run Trail (Freese Road, Varna) | Tompkins County"
+    }
+   ],
+   "value": "Wednesday, May 27th, 6pm-8pm, Danby Fire Hall (1780 Danby Road, Ithaca)",
+   "family": "hours"
+  },
+  {
+   "id": "b9d9756d-ddfa-4762-8cc7-93eafeb4a412",
+   "entity_id": "7fcbe7c1-97ed-4f1d-9b7a-1c557fdd75f6",
+   "field": "hours.rabies_clinic",
+   "value_type": "text",
+   "value_text": "Wednesday, May 27th, 6pm-8pm, Danby Fire Hall (1780 Danby Road, Ithaca)",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [
+    "resident"
+   ],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:30:42.397577+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2026-04-April/Dog-Bite-Monkey-Run",
+     "fetched_at": "2026-11-06T23:30:42.397577+00:00",
+     "excerpt": "Our next clinic will be held on Wednesday, May 27th, from 6pm-8pm, at the Danby Fire Hall (1780 Danby Road, Ithaca).",
+     "snapshot_id": "679bbd69-0a4d-41b3-9491-2bc5bad715bd",
      "title": "Health Alert: Dog Bite on Monkey Run Trail (Freese Road, Varna) | Tompkins County"
     }
    ],
@@ -14602,6 +14602,105 @@
    "family": "hours"
   },
   {
+   "id": "d7ffa8bf-2d93-4f98-94c2-b067319942ea",
+   "entity_id": "c3ee696b-c721-452d-bc28-46fa905ec85f",
+   "field": "hours.weekday",
+   "value_type": "text",
+   "value_text": "Daily except Tuesdays: 8:45 am-4:00 pm",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:39:57.628148+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Family-Child/WIC",
+     "fetched_at": "2026-11-06T23:39:57.628148+00:00",
+     "excerpt": "Daily except Tuesdays: 8:45 am-4:00 pm",
+     "snapshot_id": "7cac9e88-43bb-4c58-9d74-6b1342e54343",
+     "title": "Women, Infants and Children (WIC) Program | Tompkins County"
+    }
+   ],
+   "value": "Daily except Tuesdays: 8:45 am-4:00 pm",
+   "family": "hours"
+  },
+  {
+   "id": "c694f412-03f0-411f-9e03-cf45c4bc03f9",
+   "entity_id": "e0d612ab-b306-4679-9fea-f79c0d7d9454",
+   "field": "hours.weekday",
+   "value_type": "text",
+   "value_text": "Monday-Thursday, 9:00am \u2013 5:00pm (Wednesdays open at 10am); closed Fridays",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [
+    "all"
+   ],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:04:12.628380+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services/Local-Resources",
+     "fetched_at": "2026-11-07T00:04:12.62838+00:00",
+     "excerpt": "The Mental Health Association in Tompkins County (MHATC) is open Monday-Thursday, 9:00am \u2013 5:00pm (on Wednesdays, opens at 10am). MHATC is closed on Fridays.",
+     "snapshot_id": "08269ddb-be86-42a2-946b-f50cf8d6ff64",
+     "title": "Local Mental Health Resources | Tompkins County"
+    }
+   ],
+   "value": "Monday-Thursday, 9:00am \u2013 5:00pm (Wednesdays open at 10am); closed Fridays",
+   "family": "hours"
+  },
+  {
+   "id": "4e8620de-d916-4fb5-834b-1096559c1220",
+   "entity_id": "8b57cda0-5683-4ac6-a93c-0971bd196102",
+   "field": "hours.weekday",
+   "value_type": "text",
+   "value_text": "Monday - Friday 9:00 a.m. - 4:30 p.m.",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:42:57.566301+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/County-Attorney",
+     "fetched_at": "2026-11-06T23:42:57.566301+00:00",
+     "excerpt": "9:00 a.m. - 4:30 p.m.",
+     "snapshot_id": "38800e06-b4ca-4661-a734-c218b450e5b3",
+     "title": "County Attorney | Tompkins County"
+    },
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/County-Attorney",
+     "fetched_at": "2026-11-06T23:27:38.692644+00:00",
+     "excerpt": "9:00 a.m. - 4:30 p.m.",
+     "snapshot_id": "68eb8fa3-65a2-4b5b-8372-12dbfd1af71d",
+     "title": "County Attorney | Tompkins County"
+    }
+   ],
+   "value": "Monday - Friday 9:00 a.m. - 4:30 p.m.",
+   "family": "hours"
+  },
+  {
    "id": "7269bf85-ba51-4c1d-8525-f2b759f4a128",
    "entity_id": "ce57e6eb-3aa1-4c14-aeb3-fb1426f1382b",
    "field": "hours.weekday",
@@ -14629,6 +14728,73 @@
     }
    ],
    "value": "Monday - Friday 8:00 a.m. - 4:00 p.m.",
+   "family": "hours"
+  },
+  {
+   "id": "3e9d2f84-ee8f-4183-899e-20919b494e37",
+   "entity_id": "472b271a-6a0e-4b0c-89bc-64c387a83e55",
+   "field": "hours.weekday",
+   "value_type": "text",
+   "value_text": "Monday - Friday, 8:30 a.m. to 4:30 p.m.",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:44:12.490753+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Ithaca-Tompkins-County-Transportation-Council/About-ITCTC",
+     "fetched_at": "2026-11-06T23:44:12.490753+00:00",
+     "excerpt": "We are open Monday - Friday, 8:30 a.m. to 4:30 p.m.",
+     "snapshot_id": "7c53c9cf-ce23-45ae-bc6d-d0f27d3b99df",
+     "title": "About ITCTC | Tompkins County"
+    },
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Ithaca-Tompkins-County-Transportation-Council/About-ITCTC",
+     "fetched_at": "2026-11-06T23:28:53.516433+00:00",
+     "excerpt": "We are open Monday - Friday, 8:30 a.m. to 4:30 p.m.",
+     "snapshot_id": "60daf551-5c59-4fa7-a387-4511fa67e94a",
+     "title": "About ITCTC | Tompkins County"
+    }
+   ],
+   "value": "Monday - Friday, 8:30 a.m. to 4:30 p.m.",
+   "family": "hours"
+  },
+  {
+   "id": "81f599d9-ca8d-48bc-a658-c755b97324cd",
+   "entity_id": "dac19d40-b2ad-4edc-8bc3-d90f4a63e15d",
+   "field": "hours.weekday",
+   "value_type": "text",
+   "value_text": "Monday - Friday, 9:00 am - 5:00 pm",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": true,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:51:27.673818+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Contact-Information",
+     "fetched_at": "2026-11-06T23:51:27.673818+00:00",
+     "excerpt": "Monday - Friday, 9:00 am - 5:00 pm",
+     "snapshot_id": "112e6b20-3baa-4c54-86f4-8832b7c5d9be",
+     "title": "Contact Information | Tompkins County"
+    }
+   ],
+   "value": "Monday - Friday, 9:00 am - 5:00 pm",
    "family": "hours"
   },
   {
@@ -14699,73 +14865,11 @@
    "family": "hours"
   },
   {
-   "id": "81f599d9-ca8d-48bc-a658-c755b97324cd",
-   "entity_id": "dac19d40-b2ad-4edc-8bc3-d90f4a63e15d",
-   "field": "hours.weekday",
+   "id": "55e64815-260e-4275-bd7e-328b2c597555",
+   "entity_id": "62fc4845-6b16-4fd8-bbae-e0a73fe1bf4d",
+   "field": "location.address",
    "value_type": "text",
-   "value_text": "Monday - Friday, 9:00 am - 5:00 pm",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": true,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:51:27.673818+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Contact-Information",
-     "fetched_at": "2026-11-06T23:51:27.673818+00:00",
-     "excerpt": "Monday - Friday, 9:00 am - 5:00 pm",
-     "snapshot_id": "112e6b20-3baa-4c54-86f4-8832b7c5d9be",
-     "title": "Contact Information | Tompkins County"
-    }
-   ],
-   "value": "Monday - Friday, 9:00 am - 5:00 pm",
-   "family": "hours"
-  },
-  {
-   "id": "c694f412-03f0-411f-9e03-cf45c4bc03f9",
-   "entity_id": "e0d612ab-b306-4679-9fea-f79c0d7d9454",
-   "field": "hours.weekday",
-   "value_type": "text",
-   "value_text": "Monday-Thursday, 9:00am \u2013 5:00pm (Wednesdays open at 10am); closed Fridays",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [
-    "all"
-   ],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:04:12.628380+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services/Local-Resources",
-     "fetched_at": "2026-11-07T00:04:12.62838+00:00",
-     "excerpt": "The Mental Health Association in Tompkins County (MHATC) is open Monday-Thursday, 9:00am \u2013 5:00pm (on Wednesdays, opens at 10am). MHATC is closed on Fridays.",
-     "snapshot_id": "08269ddb-be86-42a2-946b-f50cf8d6ff64",
-     "title": "Local Mental Health Resources | Tompkins County"
-    }
-   ],
-   "value": "Monday-Thursday, 9:00am \u2013 5:00pm (Wednesdays open at 10am); closed Fridays",
-   "family": "hours"
-  },
-  {
-   "id": "3e9d2f84-ee8f-4183-899e-20919b494e37",
-   "entity_id": "472b271a-6a0e-4b0c-89bc-64c387a83e55",
-   "field": "hours.weekday",
-   "value_type": "text",
-   "value_text": "Monday - Friday, 8:30 a.m. to 4:30 p.m.",
+   "value_text": "55 Brown Rd., Ithaca, NY 14850",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -14776,93 +14880,19 @@
    "academic_year": null,
    "is_critical": false,
    "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:44:12.490753+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Ithaca-Tompkins-County-Transportation-Council/About-ITCTC",
-     "fetched_at": "2026-11-06T23:44:12.490753+00:00",
-     "excerpt": "We are open Monday - Friday, 8:30 a.m. to 4:30 p.m.",
-     "snapshot_id": "7c53c9cf-ce23-45ae-bc6d-d0f27d3b99df",
-     "title": "About ITCTC | Tompkins County"
-    },
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Ithaca-Tompkins-County-Transportation-Council/About-ITCTC",
-     "fetched_at": "2026-11-06T23:28:53.516433+00:00",
-     "excerpt": "We are open Monday - Friday, 8:30 a.m. to 4:30 p.m.",
-     "snapshot_id": "60daf551-5c59-4fa7-a387-4511fa67e94a",
-     "title": "About ITCTC | Tompkins County"
-    }
-   ],
-   "value": "Monday - Friday, 8:30 a.m. to 4:30 p.m.",
-   "family": "hours"
-  },
-  {
-   "id": "4e8620de-d916-4fb5-834b-1096559c1220",
-   "entity_id": "8b57cda0-5683-4ac6-a93c-0971bd196102",
-   "field": "hours.weekday",
-   "value_type": "text",
-   "value_text": "Monday - Friday 9:00 a.m. - 4:30 p.m.",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:42:57.566301+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/County-Attorney",
-     "fetched_at": "2026-11-06T23:42:57.566301+00:00",
-     "excerpt": "9:00 a.m. - 4:30 p.m.",
-     "snapshot_id": "38800e06-b4ca-4661-a734-c218b450e5b3",
-     "title": "County Attorney | Tompkins County"
-    },
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/County-Attorney",
-     "fetched_at": "2026-11-06T23:27:38.692644+00:00",
-     "excerpt": "9:00 a.m. - 4:30 p.m.",
-     "snapshot_id": "68eb8fa3-65a2-4b5b-8372-12dbfd1af71d",
-     "title": "County Attorney | Tompkins County"
-    }
-   ],
-   "value": "Monday - Friday 9:00 a.m. - 4:30 p.m.",
-   "family": "hours"
-  },
-  {
-   "id": "d7ffa8bf-2d93-4f98-94c2-b067319942ea",
-   "entity_id": "c3ee696b-c721-452d-bc28-46fa905ec85f",
-   "field": "hours.weekday",
-   "value_type": "text",
-   "value_text": "Daily except Tuesdays: 8:45 am-4:00 pm",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:39:57.628148+00:00",
+   "retrieved_at": "2026-11-06T23:24:38.467065+00:00",
    "topic_key": "town_services",
    "sources": [
     {
      "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Family-Child/WIC",
-     "fetched_at": "2026-11-06T23:39:57.628148+00:00",
-     "excerpt": "Daily except Tuesdays: 8:45 am-4:00 pm",
-     "snapshot_id": "7cac9e88-43bb-4c58-9d74-6b1342e54343",
+     "fetched_at": "2026-11-06T23:24:38.467065+00:00",
+     "excerpt": "55 Brown Rd., Ithaca, NY 14850",
+     "snapshot_id": "593e98b2-d084-486c-a1d3-a472a059fe74",
      "title": "Women, Infants and Children (WIC) Program | Tompkins County"
     }
    ],
-   "value": "Daily except Tuesdays: 8:45 am-4:00 pm",
-   "family": "hours"
+   "value": "55 Brown Rd., Ithaca, NY 14850",
+   "family": "location"
   },
   {
    "id": "6c55b1fb-5373-4580-a551-56173f7f1d89",
@@ -14899,218 +14929,6 @@
     }
    ],
    "value": "320 West MLK Jr./State Street, Ithaca, NY 14850",
-   "family": "location"
-  },
-  {
-   "id": "ca1eb19f-56d4-42a1-81a2-2a83a27a83c0",
-   "entity_id": "b77b0651-56ba-4102-9881-be12f12a6d8d",
-   "field": "location.address",
-   "value_type": "text",
-   "value_text": "31 Dutch Mill Road, Town of Lansing",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": true,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:37:12.577098+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-to-temporarily-relocate-the-Office-for-the-Aging-and-Department-of-Assessment-during-the-Center-of-Government-project",
-     "fetched_at": "2026-11-06T23:37:12.577098+00:00",
-     "excerpt": "The Tompkins County Office for the Aging (COFA) and Department of Assessment will temporarily relocate to 31 Dutch Mill Road in the Town of Lansing as part of the county\u2019s ongoing Center of Government project.",
-     "snapshot_id": "17d44a88-2f1e-4168-ac86-048718528ced",
-     "title": "Office for the Aging, Department of Assessment to temporarily relocate | Tompkins County"
-    }
-   ],
-   "value": "31 Dutch Mill Road, Town of Lansing",
-   "family": "location"
-  },
-  {
-   "id": "55e64815-260e-4275-bd7e-328b2c597555",
-   "entity_id": "62fc4845-6b16-4fd8-bbae-e0a73fe1bf4d",
-   "field": "location.address",
-   "value_type": "text",
-   "value_text": "55 Brown Rd., Ithaca, NY 14850",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:24:38.467065+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Family-Child/WIC",
-     "fetched_at": "2026-11-06T23:24:38.467065+00:00",
-     "excerpt": "55 Brown Rd., Ithaca, NY 14850",
-     "snapshot_id": "593e98b2-d084-486c-a1d3-a472a059fe74",
-     "title": "Women, Infants and Children (WIC) Program | Tompkins County"
-    }
-   ],
-   "value": "55 Brown Rd., Ithaca, NY 14850",
-   "family": "location"
-  },
-  {
-   "id": "832f4de7-86b2-4b6f-a013-4cd6e241aaa2",
-   "entity_id": "3757c4b4-ab24-480c-a9fc-b80ddbb36341",
-   "field": "location.address",
-   "value_type": "text",
-   "value_text": "North Tioga and East Buffalo Streets",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:50:57.865270+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/News-articles/Highlights-of-the-5-20-25-Tompkins-County-Legislature-Meeting",
-     "fetched_at": "2026-11-06T23:50:57.86527+00:00",
-     "excerpt": "The Center of Government Building (North Tioga and East Buffalo Streets)",
-     "snapshot_id": "86e700fa-9134-42c4-8d7b-eb764356e343",
-     "title": "Highlights of the 5/20/25 Tompkins County Legislature Meeting | Tompkins County"
-    }
-   ],
-   "value": "North Tioga and East Buffalo Streets",
-   "family": "location"
-  },
-  {
-   "id": "6736a4ad-1730-44b3-bf1b-d512026cbca1",
-   "entity_id": "0f01e615-002c-4156-97b3-f965a1fdac70",
-   "field": "location.address",
-   "value_type": "text",
-   "value_text": "214 West State Street",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:50:57.865270+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/News-articles/Highlights-of-the-5-20-25-Tompkins-County-Legislature-Meeting",
-     "fetched_at": "2026-11-06T23:50:57.86527+00:00",
-     "excerpt": "Human Services Annex (214 West State Street)",
-     "snapshot_id": "86e700fa-9134-42c4-8d7b-eb764356e343",
-     "title": "Highlights of the 5/20/25 Tompkins County Legislature Meeting | Tompkins County"
-    }
-   ],
-   "value": "214 West State Street",
-   "family": "location"
-  },
-  {
-   "id": "7f4763ed-1cfb-405b-a091-848f22c56e33",
-   "entity_id": "be797281-17b5-4347-81d3-7fc376d9f3c6",
-   "field": "location.address",
-   "value_type": "text",
-   "value_text": "227 Cherry Street, Ithaca",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [
-    "resident"
-   ],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:01:42.752679+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/News-articles/Code-Blue-shelter-to-remain-open-through-April-30",
-     "fetched_at": "2026-11-07T00:01:42.752679+00:00",
-     "excerpt": "Tompkins County announces that the Code Blue shelter at 227 Cherry Street in Ithaca will remain open through April 30, 2026, marking the conclusion of its first winter season in this location.",
-     "snapshot_id": "ad52dde1-5424-4d67-915f-81c2716b28e3",
-     "title": "Code Blue shelter to remain open through April 30 | Tompkins County"
-    }
-   ],
-   "value": "227 Cherry Street, Ithaca",
-   "family": "location"
-  },
-  {
-   "id": "54fd8840-d0cf-4047-b0a8-35a86e3b4ad6",
-   "entity_id": "c76998b7-9d88-418c-9244-72e85d16dcc8",
-   "field": "location.address",
-   "value_type": "text",
-   "value_text": "320 W Martin Luther King Jr./State St., Ithaca, NY 14850",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:48:27.507022+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Social-Services",
-     "fetched_at": "2026-11-06T23:48:27.507022+00:00",
-     "excerpt": "320 W Martin Luther King Jr./State St.",
-     "snapshot_id": "2d982aca-8492-40c3-8a1b-fabee25b9601",
-     "title": "Social Services | Tompkins County"
-    }
-   ],
-   "value": "320 W Martin Luther King Jr./State St., Ithaca, NY 14850",
-   "family": "location"
-  },
-  {
-   "id": "e07ca50f-4f32-43c4-b480-85bb35b1cac6",
-   "entity_id": "54c1c90d-2386-4173-8a6a-05bb7cc3b4ed",
-   "field": "location.address",
-   "value_type": "text",
-   "value_text": "31 Dutch Mill Road, Town of Lansing",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": true,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:37:12.577098+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-to-temporarily-relocate-the-Office-for-the-Aging-and-Department-of-Assessment-during-the-Center-of-Government-project",
-     "fetched_at": "2026-11-06T23:37:12.577098+00:00",
-     "excerpt": "The Tompkins County Office for the Aging (COFA) and Department of Assessment will temporarily relocate to 31 Dutch Mill Road in the Town of Lansing as part of the county\u2019s ongoing Center of Government project.",
-     "snapshot_id": "17d44a88-2f1e-4168-ac86-048718528ced",
-     "title": "Office for the Aging, Department of Assessment to temporarily relocate | Tompkins County"
-    }
-   ],
-   "value": "31 Dutch Mill Road, Town of Lansing",
    "family": "location"
   },
   {
@@ -15181,6 +14999,156 @@
    "family": "location"
   },
   {
+   "id": "54fd8840-d0cf-4047-b0a8-35a86e3b4ad6",
+   "entity_id": "c76998b7-9d88-418c-9244-72e85d16dcc8",
+   "field": "location.address",
+   "value_type": "text",
+   "value_text": "320 W Martin Luther King Jr./State St., Ithaca, NY 14850",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:48:27.507022+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Social-Services",
+     "fetched_at": "2026-11-06T23:48:27.507022+00:00",
+     "excerpt": "320 W Martin Luther King Jr./State St.",
+     "snapshot_id": "2d982aca-8492-40c3-8a1b-fabee25b9601",
+     "title": "Social Services | Tompkins County"
+    }
+   ],
+   "value": "320 W Martin Luther King Jr./State St., Ithaca, NY 14850",
+   "family": "location"
+  },
+  {
+   "id": "6736a4ad-1730-44b3-bf1b-d512026cbca1",
+   "entity_id": "0f01e615-002c-4156-97b3-f965a1fdac70",
+   "field": "location.address",
+   "value_type": "text",
+   "value_text": "214 West State Street",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:50:57.865270+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Highlights-of-the-5-20-25-Tompkins-County-Legislature-Meeting",
+     "fetched_at": "2026-11-06T23:50:57.86527+00:00",
+     "excerpt": "Human Services Annex (214 West State Street)",
+     "snapshot_id": "86e700fa-9134-42c4-8d7b-eb764356e343",
+     "title": "Highlights of the 5/20/25 Tompkins County Legislature Meeting | Tompkins County"
+    }
+   ],
+   "value": "214 West State Street",
+   "family": "location"
+  },
+  {
+   "id": "ca1eb19f-56d4-42a1-81a2-2a83a27a83c0",
+   "entity_id": "b77b0651-56ba-4102-9881-be12f12a6d8d",
+   "field": "location.address",
+   "value_type": "text",
+   "value_text": "31 Dutch Mill Road, Town of Lansing",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": true,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:37:12.577098+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-to-temporarily-relocate-the-Office-for-the-Aging-and-Department-of-Assessment-during-the-Center-of-Government-project",
+     "fetched_at": "2026-11-06T23:37:12.577098+00:00",
+     "excerpt": "The Tompkins County Office for the Aging (COFA) and Department of Assessment will temporarily relocate to 31 Dutch Mill Road in the Town of Lansing as part of the county\u2019s ongoing Center of Government project.",
+     "snapshot_id": "17d44a88-2f1e-4168-ac86-048718528ced",
+     "title": "Office for the Aging, Department of Assessment to temporarily relocate | Tompkins County"
+    }
+   ],
+   "value": "31 Dutch Mill Road, Town of Lansing",
+   "family": "location"
+  },
+  {
+   "id": "c39b7d71-9b89-4f60-be08-143e8ec5652b",
+   "entity_id": "95ce3b41-379e-42f6-807e-09896d1c3b76",
+   "field": "location.address",
+   "value_type": "text",
+   "value_text": "125 East Court Street",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:50:57.865270+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Highlights-of-the-5-20-25-Tompkins-County-Legislature-Meeting",
+     "fetched_at": "2026-11-06T23:50:57.86527+00:00",
+     "excerpt": "The Old Jail Building (125 East Court Street)",
+     "snapshot_id": "86e700fa-9134-42c4-8d7b-eb764356e343",
+     "title": "Highlights of the 5/20/25 Tompkins County Legislature Meeting | Tompkins County"
+    }
+   ],
+   "value": "125 East Court Street",
+   "family": "location"
+  },
+  {
+   "id": "832f4de7-86b2-4b6f-a013-4cd6e241aaa2",
+   "entity_id": "3757c4b4-ab24-480c-a9fc-b80ddbb36341",
+   "field": "location.address",
+   "value_type": "text",
+   "value_text": "North Tioga and East Buffalo Streets",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:50:57.865270+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Highlights-of-the-5-20-25-Tompkins-County-Legislature-Meeting",
+     "fetched_at": "2026-11-06T23:50:57.86527+00:00",
+     "excerpt": "The Center of Government Building (North Tioga and East Buffalo Streets)",
+     "snapshot_id": "86e700fa-9134-42c4-8d7b-eb764356e343",
+     "title": "Highlights of the 5/20/25 Tompkins County Legislature Meeting | Tompkins County"
+    }
+   ],
+   "value": "North Tioga and East Buffalo Streets",
+   "family": "location"
+  },
+  {
    "id": "7603f304-f7d2-40ba-8027-aa0b7208954f",
    "entity_id": "ce57e6eb-3aa1-4c14-aeb3-fb1426f1382b",
    "field": "location.address",
@@ -15218,11 +15186,43 @@
    "family": "location"
   },
   {
-   "id": "c39b7d71-9b89-4f60-be08-143e8ec5652b",
-   "entity_id": "95ce3b41-379e-42f6-807e-09896d1c3b76",
+   "id": "7f4763ed-1cfb-405b-a091-848f22c56e33",
+   "entity_id": "be797281-17b5-4347-81d3-7fc376d9f3c6",
    "field": "location.address",
    "value_type": "text",
-   "value_text": "125 East Court Street",
+   "value_text": "227 Cherry Street, Ithaca",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [
+    "resident"
+   ],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:01:42.752679+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Code-Blue-shelter-to-remain-open-through-April-30",
+     "fetched_at": "2026-11-07T00:01:42.752679+00:00",
+     "excerpt": "Tompkins County announces that the Code Blue shelter at 227 Cherry Street in Ithaca will remain open through April 30, 2026, marking the conclusion of its first winter season in this location.",
+     "snapshot_id": "ad52dde1-5424-4d67-915f-81c2716b28e3",
+     "title": "Code Blue shelter to remain open through April 30 | Tompkins County"
+    }
+   ],
+   "value": "227 Cherry Street, Ithaca",
+   "family": "location"
+  },
+  {
+   "id": "f74672c0-13a5-455a-9248-584e0288f8d2",
+   "entity_id": "c3ee696b-c721-452d-bc28-46fa905ec85f",
+   "field": "location.address",
+   "value_type": "text",
+   "value_text": "Whole Health, Brown Road Office, 55 Brown Rd., Ithaca, NY 14850",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -15233,18 +15233,18 @@
    "academic_year": null,
    "is_critical": false,
    "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:50:57.865270+00:00",
+   "retrieved_at": "2026-11-06T23:39:57.628148+00:00",
    "topic_key": "town_services",
    "sources": [
     {
-     "url": "https://www.tompkinscountyny.gov/News-articles/Highlights-of-the-5-20-25-Tompkins-County-Legislature-Meeting",
-     "fetched_at": "2026-11-06T23:50:57.86527+00:00",
-     "excerpt": "The Old Jail Building (125 East Court Street)",
-     "snapshot_id": "86e700fa-9134-42c4-8d7b-eb764356e343",
-     "title": "Highlights of the 5/20/25 Tompkins County Legislature Meeting | Tompkins County"
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Family-Child/WIC",
+     "fetched_at": "2026-11-06T23:39:57.628148+00:00",
+     "excerpt": "55 Brown Rd., Ithaca, NY 14850",
+     "snapshot_id": "7cac9e88-43bb-4c58-9d74-6b1342e54343",
+     "title": "Women, Infants and Children (WIC) Program | Tompkins County"
     }
    ],
-   "value": "125 East Court Street",
+   "value": "Whole Health, Brown Road Office, 55 Brown Rd., Ithaca, NY 14850",
    "family": "location"
   },
   {
@@ -15278,11 +15278,11 @@
    "family": "location"
   },
   {
-   "id": "f74672c0-13a5-455a-9248-584e0288f8d2",
-   "entity_id": "c3ee696b-c721-452d-bc28-46fa905ec85f",
+   "id": "e07ca50f-4f32-43c4-b480-85bb35b1cac6",
+   "entity_id": "54c1c90d-2386-4173-8a6a-05bb7cc3b4ed",
    "field": "location.address",
    "value_type": "text",
-   "value_text": "Whole Health, Brown Road Office, 55 Brown Rd., Ithaca, NY 14850",
+   "value_text": "31 Dutch Mill Road, Town of Lansing",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -15291,20 +15291,20 @@
    "room_type": null,
    "audience_applicability": [],
    "academic_year": null,
-   "is_critical": false,
+   "is_critical": true,
    "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:39:57.628148+00:00",
+   "retrieved_at": "2026-11-06T23:37:12.577098+00:00",
    "topic_key": "town_services",
    "sources": [
     {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Family-Child/WIC",
-     "fetched_at": "2026-11-06T23:39:57.628148+00:00",
-     "excerpt": "55 Brown Rd., Ithaca, NY 14850",
-     "snapshot_id": "7cac9e88-43bb-4c58-9d74-6b1342e54343",
-     "title": "Women, Infants and Children (WIC) Program | Tompkins County"
+     "url": "https://www.tompkinscountyny.gov/News-articles/Tompkins-County-to-temporarily-relocate-the-Office-for-the-Aging-and-Department-of-Assessment-during-the-Center-of-Government-project",
+     "fetched_at": "2026-11-06T23:37:12.577098+00:00",
+     "excerpt": "The Tompkins County Office for the Aging (COFA) and Department of Assessment will temporarily relocate to 31 Dutch Mill Road in the Town of Lansing as part of the county\u2019s ongoing Center of Government project.",
+     "snapshot_id": "17d44a88-2f1e-4168-ac86-048718528ced",
+     "title": "Office for the Aging, Department of Assessment to temporarily relocate | Tompkins County"
     }
    ],
-   "value": "Whole Health, Brown Road Office, 55 Brown Rd., Ithaca, NY 14850",
+   "value": "31 Dutch Mill Road, Town of Lansing",
    "family": "location"
   },
   {
@@ -16788,36 +16788,6 @@
    "family": "policy"
   },
   {
-   "id": "7eb1839a-20e7-45fa-8e09-98ed385d4c74",
-   "entity_id": "dac19d40-b2ad-4edc-8bc3-d90f4a63e15d",
-   "field": "policy.form_submission",
-   "value_type": "text",
-   "value_text": "Do not fax forms to the Board of Elections; original signatures are required",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:27:53.475640+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Forms",
-     "fetched_at": "2026-11-06T23:27:53.47564+00:00",
-     "excerpt": "Do not fax forms to BOE.",
-     "snapshot_id": "b4f76735-8249-444b-b945-868749dbea74",
-     "title": "Forms | Tompkins County"
-    }
-   ],
-   "value": "Do not fax forms to the Board of Elections; original signatures are required",
-   "family": "policy"
-  },
-  {
    "id": "aa75a8f9-7c70-49f8-a49c-7f94b51d3c9d",
    "entity_id": "dac19d40-b2ad-4edc-8bc3-d90f4a63e15d",
    "field": "policy.form_submission",
@@ -16847,6 +16817,36 @@
     }
    ],
    "value": "Do not fax forms; original signatures are required",
+   "family": "policy"
+  },
+  {
+   "id": "7eb1839a-20e7-45fa-8e09-98ed385d4c74",
+   "entity_id": "dac19d40-b2ad-4edc-8bc3-d90f4a63e15d",
+   "field": "policy.form_submission",
+   "value_type": "text",
+   "value_text": "Do not fax forms to the Board of Elections; original signatures are required",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:27:53.475640+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Forms",
+     "fetched_at": "2026-11-06T23:27:53.47564+00:00",
+     "excerpt": "Do not fax forms to BOE.",
+     "snapshot_id": "b4f76735-8249-444b-b945-868749dbea74",
+     "title": "Forms | Tompkins County"
+    }
+   ],
+   "value": "Do not fax forms to the Board of Elections; original signatures are required",
    "family": "policy"
   },
   {
@@ -17714,36 +17714,6 @@
    "family": "policy"
   },
   {
-   "id": "84ded021-0cd9-4f27-82c3-5d98799fc0a5",
-   "entity_id": "6f975a4f-afdc-4477-8846-2fabfca68f41",
-   "field": "policy.report_animal_bites",
-   "value_type": "text",
-   "value_text": "All animal bites or scratches should be reported to Tompkins County Environmental Health.",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:07:27.549218+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2026-06-June/Rabid-Cat-Hasbrouck",
-     "fetched_at": "2026-11-07T00:07:27.549218+00:00",
-     "excerpt": "All animal bites or scratches.",
-     "snapshot_id": "4113651b-18d7-441d-97ba-aea3b6ef48fd",
-     "title": "Health Alert: Rabid Cat Found on Pleasant Grove Road (Ithaca) | Tompkins County"
-    }
-   ],
-   "value": "All animal bites or scratches should be reported to Tompkins County Environmental Health.",
-   "family": "policy"
-  },
-  {
    "id": "b5e3e3dd-5cf6-40f9-94c2-ea1fbb484114",
    "entity_id": "6f975a4f-afdc-4477-8846-2fabfca68f41",
    "field": "policy.report_animal_bites",
@@ -17773,6 +17743,36 @@
     }
    ],
    "value": "All animal bites or scratches must be reported to Tompkins County Environmental Health at 607-274-6688",
+   "family": "policy"
+  },
+  {
+   "id": "84ded021-0cd9-4f27-82c3-5d98799fc0a5",
+   "entity_id": "6f975a4f-afdc-4477-8846-2fabfca68f41",
+   "field": "policy.report_animal_bites",
+   "value_type": "text",
+   "value_text": "All animal bites or scratches should be reported to Tompkins County Environmental Health.",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:07:27.549218+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2026-06-June/Rabid-Cat-Hasbrouck",
+     "fetched_at": "2026-11-07T00:07:27.549218+00:00",
+     "excerpt": "All animal bites or scratches.",
+     "snapshot_id": "4113651b-18d7-441d-97ba-aea3b6ef48fd",
+     "title": "Health Alert: Rabid Cat Found on Pleasant Grove Road (Ithaca) | Tompkins County"
+    }
+   ],
+   "value": "All animal bites or scratches should be reported to Tompkins County Environmental Health.",
    "family": "policy"
   },
   {
@@ -17960,36 +17960,6 @@
    "family": "policy"
   },
   {
-   "id": "964e7705-5558-4e19-bb03-0bd0d14db198",
-   "entity_id": null,
-   "field": "policy.vaccination_age",
-   "value_type": "text",
-   "value_text": "All cats, dogs and ferrets must have initial rabies vaccinations administered no later than four months of age.",
-   "value_number": null,
-   "value_bool": null,
-   "value_date": null,
-   "billing_period": null,
-   "price_basis": null,
-   "room_type": null,
-   "audience_applicability": [],
-   "academic_year": null,
-   "is_critical": false,
-   "conflict_status": "none",
-   "retrieved_at": "2026-11-07T00:01:13.251421+00:00",
-   "topic_key": "town_services",
-   "sources": [
-    {
-     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2025-09-September/Dog-Bite-Hanshaw-Road",
-     "fetched_at": "2026-11-07T00:01:13.251421+00:00",
-     "excerpt": "All cats, dogs and ferrets must have initial rabies vaccinations administered no later than four months of age.",
-     "snapshot_id": "6e879a21-60b7-4810-a22e-eac8b9cf5a37",
-     "title": "TCWH EH Seeks Info Dog Bite on Birchwood Drive/Hanshaw Road (Ithaca) | Tompkins County"
-    }
-   ],
-   "value": "All cats, dogs and ferrets must have initial rabies vaccinations administered no later than four months of age.",
-   "family": "policy"
-  },
-  {
    "id": "74466fbf-252f-4bba-a220-c2b84cfb8ae2",
    "entity_id": null,
    "field": "policy.vaccination_age",
@@ -18016,6 +17986,36 @@
      "excerpt": "All cats, dogs and ferrets must have initial rabies vaccinations administered no later than four months of age.",
      "snapshot_id": "5c955725-556b-49fb-91b5-5357da7c4aba",
      "title": "Update: Confirmed Rabid Fox in Stone Quarry/Elmira Road Area | Tompkins County"
+    }
+   ],
+   "value": "All cats, dogs and ferrets must have initial rabies vaccinations administered no later than four months of age.",
+   "family": "policy"
+  },
+  {
+   "id": "964e7705-5558-4e19-bb03-0bd0d14db198",
+   "entity_id": null,
+   "field": "policy.vaccination_age",
+   "value_type": "text",
+   "value_text": "All cats, dogs and ferrets must have initial rabies vaccinations administered no later than four months of age.",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:01:13.251421+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Whole-Health-Press-Room/2025-09-September/Dog-Bite-Hanshaw-Road",
+     "fetched_at": "2026-11-07T00:01:13.251421+00:00",
+     "excerpt": "All cats, dogs and ferrets must have initial rabies vaccinations administered no later than four months of age.",
+     "snapshot_id": "6e879a21-60b7-4810-a22e-eac8b9cf5a37",
+     "title": "TCWH EH Seeks Info Dog Bite on Birchwood Drive/Hanshaw Road (Ithaca) | Tompkins County"
     }
    ],
    "value": "All cats, dogs and ferrets must have initial rabies vaccinations administered no later than four months of age.",
@@ -18146,6 +18146,96 @@
    "family": "process"
   },
   {
+   "id": "30c0b34c-c183-4fe2-8d77-ebd8d7078d0f",
+   "entity_id": null,
+   "field": "process.apply_to_the_joblink_program",
+   "value_type": "text",
+   "value_text": "{\"name\": \"apply to the JobLink program\", \"steps\": [\"Young Adults seeking employment, training, and job readiness resources can complete the survey linked above\", \"A JobLink staff member will be in contact to review your submission and enroll you in the program if you are eligible\"]}",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:49:27.726725+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Workforce-Development/Youth-Employment-Ages-14-24",
+     "fetched_at": "2026-11-06T23:49:27.726725+00:00",
+     "excerpt": "Young Adults seeking employment, training, and job readiness resources can complete the survey linked above",
+     "snapshot_id": "300f6ccb-356c-4801-adce-eb997c3a4f7d",
+     "title": "Youth Employment (Ages 14-24) | Tompkins County"
+    }
+   ],
+   "value": "{\"name\": \"apply to the JobLink program\", \"steps\": [\"Young Adults seeking employment, training, and job readiness resources can complete the survey linked above\", \"A JobLink staff member will be in contact to review your submission and enroll you in the program if you are eligible\"]}",
+   "family": "process"
+  },
+  {
+   "id": "8893e774-e898-41ab-a7fa-b12255fccb06",
+   "entity_id": null,
+   "field": "process.apply_to_the_joblink_program.step_01",
+   "value_type": "text",
+   "value_text": "Young Adults seeking employment, training, and job readiness resources can complete the survey linked above",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:49:27.726725+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Workforce-Development/Youth-Employment-Ages-14-24",
+     "fetched_at": "2026-11-06T23:49:27.726725+00:00",
+     "excerpt": "Young Adults seeking employment, training, and job readiness resources can complete the survey linked above",
+     "snapshot_id": "300f6ccb-356c-4801-adce-eb997c3a4f7d",
+     "title": "Youth Employment (Ages 14-24) | Tompkins County"
+    }
+   ],
+   "value": "Young Adults seeking employment, training, and job readiness resources can complete the survey linked above",
+   "family": "process"
+  },
+  {
+   "id": "f2d2f789-cc01-41ff-a29c-549adac73d5c",
+   "entity_id": null,
+   "field": "process.apply_to_the_joblink_program.step_02",
+   "value_type": "text",
+   "value_text": "A JobLink staff member will be in contact to review your submission and enroll you in the program if you are eligible",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:49:27.726725+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Workforce-Development/Youth-Employment-Ages-14-24",
+     "fetched_at": "2026-11-06T23:49:27.726725+00:00",
+     "excerpt": "A JobLink staff member will be in contact to review your submission and enroll you in the program if you are eligible",
+     "snapshot_id": "300f6ccb-356c-4801-adce-eb997c3a4f7d",
+     "title": "Youth Employment (Ages 14-24) | Tompkins County"
+    }
+   ],
+   "value": "A JobLink staff member will be in contact to review your submission and enroll you in the program if you are eligible",
+   "family": "process"
+  },
+  {
    "id": "f63fa486-8023-450e-a3fc-ad85f770a2fb",
    "entity_id": null,
    "field": "process.bed_bug_laundry",
@@ -18178,11 +18268,11 @@
    "family": "process"
   },
   {
-   "id": "f9242b3c-f0f1-41cb-aef3-fa74a648a852",
+   "id": "081895e2-a69c-4a99-bca1-e4f41992fe63",
    "entity_id": null,
    "field": "process.challenge_a_property_assessment",
    "value_type": "text",
-   "value_text": "{\"name\": \"challenge a property assessment\", \"steps\": [\"Call the Assessment Department\", \"File an Informal Assessment Review (mid-March through early April)\", \"File a grievance (May 1 through the 4th Tuesday in May)\"]}",
+   "value_text": "{\"name\": \"challenge a property assessment\", \"steps\": [\"File an Informal Assessment Review (Mid-March through early-April)\", \"File a Grievance - (May 1 through the 4th Tuesday in May)\"]}",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -18193,18 +18283,279 @@
    "academic_year": null,
    "is_critical": false,
    "conflict_status": "none",
-   "retrieved_at": "2026-11-06T23:21:38.550569+00:00",
+   "retrieved_at": "2026-11-06T23:36:57.625440+00:00",
    "topic_key": "town_services",
    "sources": [
     {
      "url": "https://www.tompkinscountyny.gov/Government-Resources/Assessment/Review-or-Challenge-My-Assessment",
+     "fetched_at": "2026-11-06T23:36:57.62544+00:00",
+     "excerpt": "File an Informal Assessment Review (Mid-March through early-April)",
+     "snapshot_id": "45a7058b-ca52-4ffb-9a7c-3f843e8b7914",
+     "title": "Review or Challenge My Assessment | Tompkins County"
+    },
+    {
+     "url": "https://www.tompkinscountyny.gov/Government-Resources/Assessment/Review-or-Challenge-My-Assessment",
      "fetched_at": "2026-11-06T23:21:38.550569+00:00",
-     "excerpt": "Here are the steps you can take to challenge your assessment:",
+     "excerpt": "File an Informal Assessment Review (Mid-March through early-April)",
      "snapshot_id": "6311f353-c9b5-41ef-8539-798902127d09",
      "title": "Review or Challenge My Assessment | Tompkins County"
     }
    ],
-   "value": "{\"name\": \"challenge a property assessment\", \"steps\": [\"Call the Assessment Department\", \"File an Informal Assessment Review (mid-March through early April)\", \"File a grievance (May 1 through the 4th Tuesday in May)\"]}",
+   "value": "{\"name\": \"challenge a property assessment\", \"steps\": [\"File an Informal Assessment Review (Mid-March through early-April)\", \"File a Grievance - (May 1 through the 4th Tuesday in May)\"]}",
+   "family": "process"
+  },
+  {
+   "id": "26c3304b-f1e7-47bb-a5fc-afa7ff93c136",
+   "entity_id": null,
+   "field": "process.challenge_a_property_assessment.step_01",
+   "value_type": "text",
+   "value_text": "File an Informal Assessment Review (Mid-March through early-April)",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:36:57.625440+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/Government-Resources/Assessment/Review-or-Challenge-My-Assessment",
+     "fetched_at": "2026-11-06T23:36:57.62544+00:00",
+     "excerpt": "File an Informal Assessment Review (Mid-March through early-April)",
+     "snapshot_id": "45a7058b-ca52-4ffb-9a7c-3f843e8b7914",
+     "title": "Review or Challenge My Assessment | Tompkins County"
+    },
+    {
+     "url": "https://www.tompkinscountyny.gov/Government-Resources/Assessment/Review-or-Challenge-My-Assessment",
+     "fetched_at": "2026-11-06T23:21:38.550569+00:00",
+     "excerpt": "File an Informal Assessment Review (Mid-March through early-April)",
+     "snapshot_id": "6311f353-c9b5-41ef-8539-798902127d09",
+     "title": "Review or Challenge My Assessment | Tompkins County"
+    }
+   ],
+   "value": "File an Informal Assessment Review (Mid-March through early-April)",
+   "family": "process"
+  },
+  {
+   "id": "d0542dce-30be-4211-8964-fee8bb390019",
+   "entity_id": null,
+   "field": "process.challenge_a_property_assessment.step_02",
+   "value_type": "text",
+   "value_text": "File a Grievance - (May 1 through the 4th Tuesday in May)",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:36:57.625440+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/Government-Resources/Assessment/Review-or-Challenge-My-Assessment",
+     "fetched_at": "2026-11-06T23:36:57.62544+00:00",
+     "excerpt": "File a Grievance - (May 1 through the 4th Tuesday in May)",
+     "snapshot_id": "45a7058b-ca52-4ffb-9a7c-3f843e8b7914",
+     "title": "Review or Challenge My Assessment | Tompkins County"
+    },
+    {
+     "url": "https://www.tompkinscountyny.gov/Government-Resources/Assessment/Review-or-Challenge-My-Assessment",
+     "fetched_at": "2026-11-06T23:21:38.550569+00:00",
+     "excerpt": "File a Grievance - (May 1 through the 4th Tuesday in May)",
+     "snapshot_id": "6311f353-c9b5-41ef-8539-798902127d09",
+     "title": "Review or Challenge My Assessment | Tompkins County"
+    }
+   ],
+   "value": "File a Grievance - (May 1 through the 4th Tuesday in May)",
+   "family": "process"
+  },
+  {
+   "id": "2ae0da06-72e8-4e21-aded-f2b96ca8d97e",
+   "entity_id": null,
+   "field": "process.control_a_bed_bug_problem_in_your_home",
+   "value_type": "text",
+   "value_text": "{\"name\": \"control a bed bug problem in your home\", \"steps\": [\"Clean and get rid of clutter, especially in your bedroom.\", \"Move your bed away from walls or furniture.\", \"Vacuum molding, windows and floors every day. Vacuum sides and seams of mattresses, box springs and furniture. Empty the vacuum or the bag immediately and dispose of outside in a sealed container or bag.\", \"Wash sheets, pillow cases, blankets and bed skirts and put them in a hot dryer for at least 30 minutes. Consider using mattress and box spring covers \\u2013the kind used for dust mite control\\u2013and put duct tape over the zippers.\", \"Seal cracks and crevices and any openings where pipes or wires come into the home.\"]}",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:36:27.609974+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Community/HNP/Bed-Bugs",
+     "fetched_at": "2026-11-06T23:36:27.609974+00:00",
+     "excerpt": "Clean and get rid of clutter, especially in your bedroom.",
+     "snapshot_id": "82465ee9-86e9-4d87-ac8a-d3b9ce1b1a6b",
+     "title": "Bed Bugs | Tompkins County"
+    }
+   ],
+   "value": "{\"name\": \"control a bed bug problem in your home\", \"steps\": [\"Clean and get rid of clutter, especially in your bedroom.\", \"Move your bed away from walls or furniture.\", \"Vacuum molding, windows and floors every day. Vacuum sides and seams of mattresses, box springs and furniture. Empty the vacuum or the bag immediately and dispose of outside in a sealed container or bag.\", \"Wash sheets, pillow cas",
+   "family": "process"
+  },
+  {
+   "id": "9f27b19e-a8ab-415e-8f34-03e575b0f79a",
+   "entity_id": null,
+   "field": "process.control_a_bed_bug_problem_in_your_home.step_01",
+   "value_type": "text",
+   "value_text": "Clean and get rid of clutter, especially in your bedroom.",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:36:27.609974+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Community/HNP/Bed-Bugs",
+     "fetched_at": "2026-11-06T23:36:27.609974+00:00",
+     "excerpt": "Clean and get rid of clutter, especially in your bedroom.",
+     "snapshot_id": "82465ee9-86e9-4d87-ac8a-d3b9ce1b1a6b",
+     "title": "Bed Bugs | Tompkins County"
+    }
+   ],
+   "value": "Clean and get rid of clutter, especially in your bedroom.",
+   "family": "process"
+  },
+  {
+   "id": "d3aa96ca-bb4d-431d-8eef-f1d086333522",
+   "entity_id": null,
+   "field": "process.control_a_bed_bug_problem_in_your_home.step_02",
+   "value_type": "text",
+   "value_text": "Move your bed away from walls or furniture.",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:36:27.609974+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Community/HNP/Bed-Bugs",
+     "fetched_at": "2026-11-06T23:36:27.609974+00:00",
+     "excerpt": "Move your bed away from walls or furniture.",
+     "snapshot_id": "82465ee9-86e9-4d87-ac8a-d3b9ce1b1a6b",
+     "title": "Bed Bugs | Tompkins County"
+    }
+   ],
+   "value": "Move your bed away from walls or furniture.",
+   "family": "process"
+  },
+  {
+   "id": "af3d8ae8-75fa-4220-85fa-e93ccf706be5",
+   "entity_id": null,
+   "field": "process.control_a_bed_bug_problem_in_your_home.step_03",
+   "value_type": "text",
+   "value_text": "Vacuum molding, windows and floors every day. Vacuum sides and seams of mattresses, box springs and furniture. Empty the vacuum or the bag immediately and dispose of outside in a sealed container or bag.",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:36:27.609974+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Community/HNP/Bed-Bugs",
+     "fetched_at": "2026-11-06T23:36:27.609974+00:00",
+     "excerpt": "Vacuum molding, windows and floors every day. Vacuum sides and seams of mattresses, box springs and furniture. Empty the vacuum or the bag immediately and dispose of outside in a sealed container or bag.",
+     "snapshot_id": "82465ee9-86e9-4d87-ac8a-d3b9ce1b1a6b",
+     "title": "Bed Bugs | Tompkins County"
+    }
+   ],
+   "value": "Vacuum molding, windows and floors every day. Vacuum sides and seams of mattresses, box springs and furniture. Empty the vacuum or the bag immediately and dispose of outside in a sealed container or bag.",
+   "family": "process"
+  },
+  {
+   "id": "9d4abb8b-403e-4014-88e5-884b26ae2c0e",
+   "entity_id": null,
+   "field": "process.control_a_bed_bug_problem_in_your_home.step_04",
+   "value_type": "text",
+   "value_text": "Wash sheets, pillow cases, blankets and bed skirts and put them in a hot dryer for at least 30 minutes. Consider using mattress and box spring covers \u2013the kind used for dust mite control\u2013and put duct tape over the zippers.",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:36:27.609974+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Community/HNP/Bed-Bugs",
+     "fetched_at": "2026-11-06T23:36:27.609974+00:00",
+     "excerpt": "Wash sheets, pillow cases, blankets and bed skirts and put them in a hot dryer for at least 30 minutes. Consider using mattress and box spring covers \u2013the kind used for dust mite control\u2013and put duct tape over the zippers.",
+     "snapshot_id": "82465ee9-86e9-4d87-ac8a-d3b9ce1b1a6b",
+     "title": "Bed Bugs | Tompkins County"
+    }
+   ],
+   "value": "Wash sheets, pillow cases, blankets and bed skirts and put them in a hot dryer for at least 30 minutes. Consider using mattress and box spring covers \u2013the kind used for dust mite control\u2013and put duct tape over the zippers.",
+   "family": "process"
+  },
+  {
+   "id": "5150d7ad-c74f-4ce7-a69c-4b4953b3a0a6",
+   "entity_id": null,
+   "field": "process.control_a_bed_bug_problem_in_your_home.step_05",
+   "value_type": "text",
+   "value_text": "Seal cracks and crevices and any openings where pipes or wires come into the home.",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-06T23:36:27.609974+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Community/HNP/Bed-Bugs",
+     "fetched_at": "2026-11-06T23:36:27.609974+00:00",
+     "excerpt": "Seal cracks and crevices and any openings where pipes or wires come into the home.",
+     "snapshot_id": "82465ee9-86e9-4d87-ac8a-d3b9ce1b1a6b",
+     "title": "Bed Bugs | Tompkins County"
+    }
+   ],
+   "value": "Seal cracks and crevices and any openings where pipes or wires come into the home.",
    "family": "process"
   },
   {
@@ -18238,11 +18589,11 @@
    "family": "process"
   },
   {
-   "id": "d09061d9-6df1-4569-ae08-ad3b545724cc",
+   "id": "896b5c4d-1c61-41e0-a271-44aee6e836bc",
    "entity_id": null,
    "field": "process.drop_off_a_holiday_tree_for_recycling",
    "value_type": "text",
-   "value_text": "{\"name\": \"drop off a holiday tree for recycling\", \"steps\": [\"Visit the Scale House to get a holiday tree recycling ticket\", \"Proceed to the yard waste drop-off area\", \"Hand the ticket to the attendant on duty and drop off your tree\"]}",
+   "value_text": "{\"name\": \"drop off a holiday tree for recycling\", \"steps\": [\"Upon arrival at the RSWC, visit the Scale House to get a holiday tree recycling ticket.\", \"Proceed to the yard waste drop-off area, hand the ticket to the attendant on duty and drop off your tree.\"]}",
    "value_number": null,
    "value_bool": null,
    "value_date": null,
@@ -18264,7 +18615,67 @@
      "title": "Free Holiday Tree Drop-Off at Recycling and Solid Waste Center | Tompkins County"
     }
    ],
-   "value": "{\"name\": \"drop off a holiday tree for recycling\", \"steps\": [\"Visit the Scale House to get a holiday tree recycling ticket\", \"Proceed to the yard waste drop-off area\", \"Hand the ticket to the attendant on duty and drop off your tree\"]}",
+   "value": "{\"name\": \"drop off a holiday tree for recycling\", \"steps\": [\"Upon arrival at the RSWC, visit the Scale House to get a holiday tree recycling ticket.\", \"Proceed to the yard waste drop-off area, hand the ticket to the attendant on duty and drop off your tree.\"]}",
+   "family": "process"
+  },
+  {
+   "id": "5d546e53-76b8-4ccc-9e6a-6f62760a28aa",
+   "entity_id": null,
+   "field": "process.drop_off_a_holiday_tree_for_recycling.step_01",
+   "value_type": "text",
+   "value_text": "Upon arrival at the RSWC, visit the Scale House to get a holiday tree recycling ticket.",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:04:27.719354+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Free-Holiday-Tree-Drop-Off-at-Recycling-and-Solid-Waste-Center",
+     "fetched_at": "2026-11-07T00:04:27.719354+00:00",
+     "excerpt": "Upon arrival at the RSWC, visit the Scale House to get a holiday tree recycling ticket.",
+     "snapshot_id": "12379d69-1f38-40df-8f89-87a3f997b2ef",
+     "title": "Free Holiday Tree Drop-Off at Recycling and Solid Waste Center | Tompkins County"
+    }
+   ],
+   "value": "Upon arrival at the RSWC, visit the Scale House to get a holiday tree recycling ticket.",
+   "family": "process"
+  },
+  {
+   "id": "62aaaa44-7706-4c3a-9574-2b959b04e8e1",
+   "entity_id": null,
+   "field": "process.drop_off_a_holiday_tree_for_recycling.step_02",
+   "value_type": "text",
+   "value_text": "Proceed to the yard waste drop-off area, hand the ticket to the attendant on duty and drop off your tree.",
+   "value_number": null,
+   "value_bool": null,
+   "value_date": null,
+   "billing_period": null,
+   "price_basis": null,
+   "room_type": null,
+   "audience_applicability": [],
+   "academic_year": null,
+   "is_critical": false,
+   "conflict_status": "none",
+   "retrieved_at": "2026-11-07T00:04:27.719354+00:00",
+   "topic_key": "town_services",
+   "sources": [
+    {
+     "url": "https://www.tompkinscountyny.gov/News-articles/Free-Holiday-Tree-Drop-Off-at-Recycling-and-Solid-Waste-Center",
+     "fetched_at": "2026-11-07T00:04:27.719354+00:00",
+     "excerpt": "Proceed to the yard waste drop-off area, hand the ticket to the attendant on duty and drop off your tree.",
+     "snapshot_id": "12379d69-1f38-40df-8f89-87a3f997b2ef",
+     "title": "Free Holiday Tree Drop-Off at Recycling and Solid Waste Center | Tompkins County"
+    }
+   ],
+   "value": "Proceed to the yard waste drop-off area, hand the ticket to the attendant on duty and drop off your tree.",
    "family": "process"
   },
   {

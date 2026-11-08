@@ -1,15 +1,15 @@
 # Cornell University dossier
-Built November 7, 2026 from 2508 crawled official pages. Every fact below carries a verbatim quote from its page in the database.
+Built November 8, 2026 from 2508 crawled official pages. Every fact below carries a verbatim quote from its page in the database.
 
 ## Numbers
 - Entities: 2027 (570 office, 549 program, 222 town service, 196 building, 133 residence hall, 83 library, 72 dining location, 64 course, 48 parking lot, 33 meal plan, 30 major, 17 park, 10 bus route); 1298 have at least one fact.
-- Claims: 7154 (7154 with a quote); costs 453, deadlines 389, policies 3023, contacts 1612, processes 450.
+- Claims: 7731 (7731 with a quote); costs 453, deadlines 389, policies 3023, contacts 1612, processes 538.
 - Open conflicts between official pages: 96. Gaps: 1680 entities missing an expected fact family; 5 institution-level facts not found.
 - Pages crawled by section: colleges 618, admissions 249, student_life 239, housing 214, transportation 200, health 199, alumni 194, international 150, county 143, libraries 131, registrar 77, dining 65, careers 26, parents 2.
 
 ## Question map
-- 815 deduped questions (725 generated from the dossier, 90 from observed search clusters, 0 from data/questions).
-- Incumbent classes: unscanned 665, strong_dedicated 26, weak 4, outdated 1.
+- 752 deduped questions (662 generated from the dossier, 90 from observed search clusters, 0 from data/questions).
+- Incumbent classes: unscanned 323, strong_dedicated 23, weak 4, outdated 1.
 
 ## Deadlines (dated)
 - September 24, 2012: erecording start — https://www.tompkinscountyny.gov/All-Departments/County-Clerk/E-Recording-Information-and-Forms
@@ -66,6 +66,7 @@ Built November 7, 2026 from 2508 crawled official pages. Every fact below carrie
 - cost.financial aid from program for Rawlings Cornell Presidential Research Scholars: $4,000 per year
 
 ## Processes
+- access a telehealth Zoom counseling appointment: 3 steps — https://health.cornell.edu/services/mental-health-care/individual-counseling
 - process.access_appointment: 1 steps — https://health.cornell.edu/services/mental-health-care
 - access Code Blue sheltering: 2 steps — https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Public-Health-Preparedness
 - activate F-1 or J-1 student status: 2 steps — https://international.globallearning.cornell.edu/getting-started/status-activation-students
@@ -75,6 +76,7 @@ Built November 7, 2026 from 2508 crawled official pages. Every fact below carrie
 - process.add_brbs: 1 steps — https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs
 - process.add_drop_form_availability: 1 steps — https://registrar.cornell.edu/students/enrollment/adddrop-enrollment-request-form
 - process.add_funds: 1 steps — https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/mealchoice-terms
+- add new reserve items via Canvas: 3 steps — https://www.library.cornell.edu/research-teaching/course-reserves-for-instructors/
 - add supplemental information to an application: 3 steps — https://faq.enrollment.cornell.edu/kb/article/186-how-can-i-add-supplemental-information-to-my-application-file/
 - add yourself to a class wait list: 1 steps — https://registrar.cornell.edu/students/enrollment/common-enrollment-questions
 - process.adult_veteran_application: 1 steps — https://faq.enrollment.cornell.edu/kb/article/407-is-there-a-separate-application-process-for-adult-students-and-veterans/
@@ -84,8 +86,6 @@ Built November 7, 2026 from 2508 crawled official pages. Every fact below carrie
 - process.ap_credit: 1 steps — https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment
 - appeal a Community Living Standards decision: 4 steps — https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads
 - process.applicant_portal: 1 steps — https://faq.enrollment.cornell.edu/kb/article/197-what-is-the-status-of-my-application-for-admission/
-- process.application_fee_waiver_request: 1 steps — https://faq.enrollment.cornell.edu/kb/article/408-does-cornell-offer-a-fee-waiver-for-veterans/
-- process.application_materials: 1 steps — https://as.cornell.edu/education/mellon-mays
 
 ## Conflicts between official pages
 - contact.email vs contact.email (value): co-ops@cornell.edu vs transportation@cornell.edu
@@ -142,4 +142,4 @@ Built November 7, 2026 from 2508 crawled official pages. Every fact below carrie
 - Institution-level: no contact.housing_office claim
 
 ## Cost and time
-- Extraction cost recorded: $0.00; dossier build 0.01 minutes.
+- Extraction cost recorded: $0.00; dossier build 0.02 minutes.

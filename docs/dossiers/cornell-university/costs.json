@@ -2309,36 +2309,6 @@
   "family": "eligibility"
  },
  {
-  "id": "ad48ec38-5a17-4969-b992-8349da7e6d08",
-  "entity_id": "27337631-9e74-48d2-8a0c-2041d2df8b7a",
-  "field": "fee.access_appointment",
-  "value_type": "text",
-  "value_text": "free 25-minute visit",
-  "value_number": null,
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": null,
-  "price_basis": null,
-  "room_type": null,
-  "audience_applicability": [],
-  "academic_year": null,
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:32:07.850832+00:00",
-  "topic_key": "health_wellbeing",
-  "sources": [
-   {
-    "url": "https://health.cornell.edu/services/mental-health-care/individual-counseling",
-    "fetched_at": "2026-11-06T23:32:07.850832+00:00",
-    "excerpt": "During this free 25-minute visit, a CAPS access counselor will assist with matching you with the right mental health resources to meet your needs.",
-    "snapshot_id": "009558c1-f967-42fe-8d0c-a8ddef8dee27",
-    "title": "Individual Counseling | Cornell Health"
-   }
-  ],
-  "value": "free 25-minute visit",
-  "family": "fee"
- },
- {
   "id": "733ebe05-267f-49ed-be8a-d96a697336de",
   "entity_id": "0bcf333e-af62-4c73-a3f6-83fb44548a36",
   "field": "fee.access_appointment",
@@ -2366,6 +2336,36 @@
    }
   ],
   "value": "free 20-minute Zoom appointment",
+  "family": "fee"
+ },
+ {
+  "id": "ad48ec38-5a17-4969-b992-8349da7e6d08",
+  "entity_id": "27337631-9e74-48d2-8a0c-2041d2df8b7a",
+  "field": "fee.access_appointment",
+  "value_type": "text",
+  "value_text": "free 25-minute visit",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:32:07.850832+00:00",
+  "topic_key": "health_wellbeing",
+  "sources": [
+   {
+    "url": "https://health.cornell.edu/services/mental-health-care/individual-counseling",
+    "fetched_at": "2026-11-06T23:32:07.850832+00:00",
+    "excerpt": "During this free 25-minute visit, a CAPS access counselor will assist with matching you with the right mental health resources to meet your needs.",
+    "snapshot_id": "009558c1-f967-42fe-8d0c-a8ddef8dee27",
+    "title": "Individual Counseling | Cornell Health"
+   }
+  ],
+  "value": "free 25-minute visit",
   "family": "fee"
  },
  {
@@ -2501,8 +2501,8 @@
   "family": "fee"
  },
  {
-  "id": "208ecbf6-9dd9-4188-848a-f45a265bc912",
-  "entity_id": null,
+  "id": "9b7a67f6-c6ff-4749-b73e-f4b1a8f1dd61",
+  "entity_id": "38ab6336-c1f9-4da8-ba94-aa1db7945cd3",
   "field": "fee.application",
   "value_type": "money",
   "value_text": null,
@@ -2510,27 +2510,26 @@
   "value_bool": null,
   "value_date": null,
   "billing_period": "one_time",
-  "price_basis": "per_person",
+  "price_basis": "unknown",
   "room_type": null,
   "audience_applicability": [
-   "first_year",
-   "transfer"
+   "first_year"
   ],
   "academic_year": null,
   "is_critical": true,
   "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:16:31.637910+00:00",
-  "topic_key": "admissions",
+  "retrieved_at": "2026-11-06T23:15:21.977376+00:00",
+  "topic_key": "programs",
   "sources": [
    {
-    "url": "https://faq.enrollment.cornell.edu/kb/article/8-application-fee-waiver/",
-    "fetched_at": "2026-11-06T23:16:31.63791+00:00",
-    "excerpt": "The application fee for both first-year and transfer students is $85.",
-    "snapshot_id": "83da58d8-de86-4a94-a9b6-836a5ba7dce2",
-    "title": "Can the application fee be waived? - Frequently Asked Questions"
+    "url": "https://as.cornell.edu/admissions/admissions-requirements-and-process",
+    "fetched_at": "2026-11-06T23:15:21.977376+00:00",
+    "excerpt": "$85 application fee or Fee Waiver",
+    "snapshot_id": "ae845909-ecf7-4438-9ae8-470637644a24",
+    "title": "Admissions requirements and process"
    }
   ],
-  "value": "$85 one time per person",
+  "value": "$85 one time",
   "family": "fee"
  },
  {
@@ -2564,8 +2563,8 @@
   "family": "fee"
  },
  {
-  "id": "9b7a67f6-c6ff-4749-b73e-f4b1a8f1dd61",
-  "entity_id": "38ab6336-c1f9-4da8-ba94-aa1db7945cd3",
+  "id": "208ecbf6-9dd9-4188-848a-f45a265bc912",
+  "entity_id": null,
   "field": "fee.application",
   "value_type": "money",
   "value_text": null,
@@ -2573,26 +2572,27 @@
   "value_bool": null,
   "value_date": null,
   "billing_period": "one_time",
-  "price_basis": "unknown",
+  "price_basis": "per_person",
   "room_type": null,
   "audience_applicability": [
-   "first_year"
+   "first_year",
+   "transfer"
   ],
   "academic_year": null,
   "is_critical": true,
   "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:15:21.977376+00:00",
-  "topic_key": "programs",
+  "retrieved_at": "2026-11-06T23:16:31.637910+00:00",
+  "topic_key": "admissions",
   "sources": [
    {
-    "url": "https://as.cornell.edu/admissions/admissions-requirements-and-process",
-    "fetched_at": "2026-11-06T23:15:21.977376+00:00",
-    "excerpt": "$85 application fee or Fee Waiver",
-    "snapshot_id": "ae845909-ecf7-4438-9ae8-470637644a24",
-    "title": "Admissions requirements and process"
+    "url": "https://faq.enrollment.cornell.edu/kb/article/8-application-fee-waiver/",
+    "fetched_at": "2026-11-06T23:16:31.63791+00:00",
+    "excerpt": "The application fee for both first-year and transfer students is $85.",
+    "snapshot_id": "83da58d8-de86-4a94-a9b6-836a5ba7dce2",
+    "title": "Can the application fee be waived? - Frequently Asked Questions"
    }
   ],
-  "value": "$85 one time",
+  "value": "$85 one time per person",
   "family": "fee"
  },
  {
@@ -5137,36 +5137,6 @@
   "family": "fee"
  },
  {
-  "id": "d75f6704-c2ad-46aa-880e-447b9b02a631",
-  "entity_id": null,
-  "field": "fee.housing_application",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "0",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "one_time",
-  "price_basis": "unknown",
-  "room_type": null,
-  "audience_applicability": [],
-  "academic_year": null,
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:37:58.532829+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
-    "fetched_at": "2026-11-06T23:37:58.532829+00:00",
-    "excerpt": "There is no fee to apply for housing",
-    "snapshot_id": "bb29c748-a32d-4dd9-bee8-9487f4ff4ca2",
-    "title": "New Undergrad Application Process | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$0 one time",
-  "family": "fee"
- },
- {
   "id": "093b2e76-fad7-4c42-a77a-a48e7c48b1ef",
   "entity_id": null,
   "field": "fee.housing_application",
@@ -5227,6 +5197,36 @@
     "fetched_at": "2026-11-06T08:30:32.604293+00:00",
     "excerpt": "There is no fee to apply for housing",
     "snapshot_id": "e4be27d7-bd85-4384-a1de-f94990be603d",
+    "title": "New Undergrad Application Process | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$0 one time",
+  "family": "fee"
+ },
+ {
+  "id": "d75f6704-c2ad-46aa-880e-447b9b02a631",
+  "entity_id": null,
+  "field": "fee.housing_application",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "0",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "one_time",
+  "price_basis": "unknown",
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:37:58.532829+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+    "fetched_at": "2026-11-06T23:37:58.532829+00:00",
+    "excerpt": "There is no fee to apply for housing",
+    "snapshot_id": "bb29c748-a32d-4dd9-bee8-9487f4ff4ca2",
     "title": "New Undergrad Application Process | Student & Campus Life | Cornell University"
    }
   ],
@@ -5525,36 +5525,6 @@
   "family": "fee"
  },
  {
-  "id": "24369bc4-3ff5-4f92-ad76-e58f6c745611",
-  "entity_id": "5f3f871e-8fad-409f-9ed1-36b63c2a2b57",
-  "field": "fee.individual_counseling_visit",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "1000",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "unknown",
-  "price_basis": "unknown",
-  "room_type": null,
-  "audience_applicability": [],
-  "academic_year": null,
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:37:35.118694+00:00",
-  "topic_key": "health_wellbeing",
-  "sources": [
-   {
-    "url": "https://health.cornell.edu/services/mental-health-care/embedded/athletics",
-    "fetched_at": "2026-11-06T23:37:35.118694+00:00",
-    "excerpt": "($10 visit charge)",
-    "snapshot_id": "a8c7558d-1081-4031-809e-c4560df4a2d3",
-    "title": "Embedded Therapist Services: Athletics & Physical Education | Cornell Health"
-   }
-  ],
-  "value": "$10",
-  "family": "fee"
- },
- {
   "id": "8375c04f-55a1-41f8-aa48-8efa4216ba9f",
   "entity_id": "f84e94f9-ce78-48fb-8df6-fccd7ce67b00",
   "field": "fee.individual_counseling_visit",
@@ -5585,36 +5555,6 @@
   "family": "fee"
  },
  {
-  "id": "d277ccba-cf91-4ad3-823a-2f763fdd4937",
-  "entity_id": "af5205cb-c996-4b6a-a3f6-f9b22ca4a1d2",
-  "field": "fee.individual_counseling_visit",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "1000",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "unknown",
-  "price_basis": "unknown",
-  "room_type": null,
-  "audience_applicability": [],
-  "academic_year": null,
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:36:02.474974+00:00",
-  "topic_key": "health_wellbeing",
-  "sources": [
-   {
-    "url": "https://health.cornell.edu/services/mental-health-care/embedded/CVM",
-    "fetched_at": "2026-11-06T23:36:02.474974+00:00",
-    "excerpt": "($10 visit charge)",
-    "snapshot_id": "cc32e1cd-534b-44d9-8ee6-08feefd62c45",
-    "title": "Embedded Therapist Services: CVM | Cornell Health"
-   }
-  ],
-  "value": "$10",
-  "family": "fee"
- },
- {
   "id": "3e070691-0877-4810-ab46-cbde225a096b",
   "entity_id": "45963775-b017-4ef1-91ad-38d8448e0f3e",
   "field": "fee.individual_counseling_visit",
@@ -5639,6 +5579,66 @@
     "excerpt": "($10 visit charge)",
     "snapshot_id": "cb1a0b08-5cc9-4a98-97ff-e17e902070b6",
     "title": "Embedded Therapist Services: Ives Hall | Cornell Health"
+   }
+  ],
+  "value": "$10",
+  "family": "fee"
+ },
+ {
+  "id": "24369bc4-3ff5-4f92-ad76-e58f6c745611",
+  "entity_id": "5f3f871e-8fad-409f-9ed1-36b63c2a2b57",
+  "field": "fee.individual_counseling_visit",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "1000",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "unknown",
+  "price_basis": "unknown",
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:37:35.118694+00:00",
+  "topic_key": "health_wellbeing",
+  "sources": [
+   {
+    "url": "https://health.cornell.edu/services/mental-health-care/embedded/athletics",
+    "fetched_at": "2026-11-06T23:37:35.118694+00:00",
+    "excerpt": "($10 visit charge)",
+    "snapshot_id": "a8c7558d-1081-4031-809e-c4560df4a2d3",
+    "title": "Embedded Therapist Services: Athletics & Physical Education | Cornell Health"
+   }
+  ],
+  "value": "$10",
+  "family": "fee"
+ },
+ {
+  "id": "d277ccba-cf91-4ad3-823a-2f763fdd4937",
+  "entity_id": "af5205cb-c996-4b6a-a3f6-f9b22ca4a1d2",
+  "field": "fee.individual_counseling_visit",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "1000",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "unknown",
+  "price_basis": "unknown",
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:36:02.474974+00:00",
+  "topic_key": "health_wellbeing",
+  "sources": [
+   {
+    "url": "https://health.cornell.edu/services/mental-health-care/embedded/CVM",
+    "fetched_at": "2026-11-06T23:36:02.474974+00:00",
+    "excerpt": "($10 visit charge)",
+    "snapshot_id": "cc32e1cd-534b-44d9-8ee6-08feefd62c45",
+    "title": "Embedded Therapist Services: CVM | Cornell Health"
    }
   ],
   "value": "$10",
@@ -5958,6 +5958,38 @@
   "family": "fee"
  },
  {
+  "id": "286d53b7-6c28-4b6e-a2c0-bff7b9fb9105",
+  "entity_id": null,
+  "field": "fee.late_cancellation",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "50000",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "one_time",
+  "price_basis": "unknown",
+  "room_type": null,
+  "audience_applicability": [
+   "resident"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:37:20.034065+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/12-month-undergraduate-housing-license-2026-2027",
+    "fetched_at": "2026-11-06T23:37:20.034065+00:00",
+    "excerpt": "Submission requests received after these deadlines will result in a $500 cancellation fee.",
+    "snapshot_id": "ca5e7a76-01f0-42b6-961b-16eba50e178e",
+    "title": "12 Month Undergraduate Housing License 2026-2027 | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$500 one time",
+  "family": "fee"
+ },
+ {
   "id": "952dced0-e9b3-4ce8-942e-47cab04c9932",
   "entity_id": null,
   "field": "fee.late_cancellation",
@@ -5992,38 +6024,6 @@
    }
   ],
   "value": "$500 one time per person",
-  "family": "fee"
- },
- {
-  "id": "286d53b7-6c28-4b6e-a2c0-bff7b9fb9105",
-  "entity_id": null,
-  "field": "fee.late_cancellation",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "50000",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "one_time",
-  "price_basis": "unknown",
-  "room_type": null,
-  "audience_applicability": [
-   "resident"
-  ],
-  "academic_year": "2026-27",
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:37:20.034065+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/12-month-undergraduate-housing-license-2026-2027",
-    "fetched_at": "2026-11-06T23:37:20.034065+00:00",
-    "excerpt": "Submission requests received after these deadlines will result in a $500 cancellation fee.",
-    "snapshot_id": "ca5e7a76-01f0-42b6-961b-16eba50e178e",
-    "title": "12 Month Undergraduate Housing License 2026-2027 | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$500 one time",
   "family": "fee"
  },
  {
@@ -6096,38 +6096,6 @@
   "family": "fee"
  },
  {
-  "id": "7e7e9013-b138-4795-8ed9-c7bc676f5827",
-  "entity_id": "36e70a2b-05e7-457d-9cd5-50368690bf9b",
-  "field": "fee.late_checkout",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "6000",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "per_week",
-  "price_basis": "unknown",
-  "room_type": null,
-  "audience_applicability": [
-   "all"
-  ],
-  "academic_year": null,
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:17:42.763005+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus",
-    "fetched_at": "2026-11-06T23:17:42.763005+00:00",
-    "excerpt": "Any resident who is still in room after 10am will incur a charge of $60.00 per hour or partial hour thereafter until they have vacated.",
-    "snapshot_id": "9f5215cf-0b16-4f27-8a0d-0ebfd897696b",
-    "title": "Summer Housing On Campus | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$60 per week",
-  "family": "fee"
- },
- {
   "id": "c2601363-1361-4883-9243-0bd2a8c218ba",
   "entity_id": null,
   "field": "fee.late_checkout",
@@ -6157,6 +6125,38 @@
    }
   ],
   "value": "$50",
+  "family": "fee"
+ },
+ {
+  "id": "7e7e9013-b138-4795-8ed9-c7bc676f5827",
+  "entity_id": "36e70a2b-05e7-457d-9cd5-50368690bf9b",
+  "field": "fee.late_checkout",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "6000",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "per_week",
+  "price_basis": "unknown",
+  "room_type": null,
+  "audience_applicability": [
+   "all"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:17:42.763005+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus",
+    "fetched_at": "2026-11-06T23:17:42.763005+00:00",
+    "excerpt": "Any resident who is still in room after 10am will incur a charge of $60.00 per hour or partial hour thereafter until they have vacated.",
+    "snapshot_id": "9f5215cf-0b16-4f27-8a0d-0ebfd897696b",
+    "title": "Summer Housing On Campus | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$60 per week",
   "family": "fee"
  },
  {
@@ -6753,6 +6753,36 @@
   "family": "fee"
  },
  {
+  "id": "d47154a0-d24b-4023-84a1-0926686da243",
+  "entity_id": "ce8829be-7100-45c4-a0c4-ca4595af006f",
+  "field": "fee.meal_plan_administrative",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "5000",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "per_academic_year",
+  "price_basis": "per_person",
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:44:07.580730+00:00",
+  "topic_key": "dining",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates",
+    "fetched_at": "2026-11-06T23:44:07.58073+00:00",
+    "excerpt": "A non-refundable $50 administrative fee is charged once each academic year upon enrollment in most meal plans.",
+    "snapshot_id": "47a4d4e5-a7d8-4039-bca8-cfcf2d0997c7",
+    "title": "Meal Plans & Rates | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$50 per academic year per person",
+  "family": "fee"
+ },
+ {
   "id": "eec40ada-8ccb-4770-9f6f-6df07b50a645",
   "entity_id": null,
   "field": "fee.meal_plan_administrative",
@@ -6842,36 +6872,6 @@
    }
   ],
   "value": "A non-refundable administrative fee is charged once each academic year upon enrollment in most meal plans",
-  "family": "fee"
- },
- {
-  "id": "d47154a0-d24b-4023-84a1-0926686da243",
-  "entity_id": "ce8829be-7100-45c4-a0c4-ca4595af006f",
-  "field": "fee.meal_plan_administrative",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "5000",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "per_academic_year",
-  "price_basis": "per_person",
-  "room_type": null,
-  "audience_applicability": [],
-  "academic_year": "2026-27",
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:44:07.580730+00:00",
-  "topic_key": "dining",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates",
-    "fetched_at": "2026-11-06T23:44:07.58073+00:00",
-    "excerpt": "A non-refundable $50 administrative fee is charged once each academic year upon enrollment in most meal plans.",
-    "snapshot_id": "47a4d4e5-a7d8-4039-bca8-cfcf2d0997c7",
-    "title": "Meal Plans & Rates | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$50 per academic year per person",
   "family": "fee"
  },
  {
@@ -6976,36 +6976,6 @@
   "family": "fee"
  },
  {
-  "id": "bcc808f5-def9-47ca-93be-7ddc10a88f04",
-  "entity_id": "55eb7755-4a38-4b25-a8ed-9594a68727b2",
-  "field": "fee.mobile_ordering",
-  "value_type": "text",
-  "value_text": "No fee for using GET Order",
-  "value_number": null,
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": null,
-  "price_basis": null,
-  "room_type": null,
-  "audience_applicability": [],
-  "academic_year": null,
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:42:43.532301+00:00",
-  "topic_key": "dining",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/dining/eateries-menus/order-ahead",
-    "fetched_at": "2026-11-06T23:42:43.532301+00:00",
-    "excerpt": "There is no fee for using GET Order to place your order.",
-    "snapshot_id": "d1ea999c-9071-4bac-adaa-57a8a97e02bc",
-    "title": "Order Ahead | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "No fee for using GET Order",
-  "family": "fee"
- },
- {
   "id": "9de0569c-4ee2-4796-978c-211faeded8fa",
   "entity_id": "55eb7755-4a38-4b25-a8ed-9594a68727b2",
   "field": "fee.mobile_ordering",
@@ -7033,6 +7003,36 @@
    }
   ],
   "value": "$0",
+  "family": "fee"
+ },
+ {
+  "id": "bcc808f5-def9-47ca-93be-7ddc10a88f04",
+  "entity_id": "55eb7755-4a38-4b25-a8ed-9594a68727b2",
+  "field": "fee.mobile_ordering",
+  "value_type": "text",
+  "value_text": "No fee for using GET Order",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:42:43.532301+00:00",
+  "topic_key": "dining",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/dining/eateries-menus/order-ahead",
+    "fetched_at": "2026-11-06T23:42:43.532301+00:00",
+    "excerpt": "There is no fee for using GET Order to place your order.",
+    "snapshot_id": "d1ea999c-9071-4bac-adaa-57a8a97e02bc",
+    "title": "Order Ahead | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "No fee for using GET Order",
   "family": "fee"
  },
  {
@@ -9384,38 +9384,6 @@
   "family": "housing"
  },
  {
-  "id": "3c0b5878-f783-429b-b0d4-beb3466a059c",
-  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
-  "field": "housing.rate.academic_year_total",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "1264400",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "per_academic_year",
-  "price_basis": "unknown",
-  "room_type": "Triple or One-Room Quad",
-  "audience_applicability": [
-   "Residence Halls, Program Houses, and West Campus Houses"
-  ],
-  "academic_year": "2026-27",
-  "is_critical": false,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T20:44:32.063070+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
-    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
-    "excerpt": "Triple or\nOne-Room Quad\n$6,322\n$6,322\n$12,644",
-    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
-    "title": "Housing Rates | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$12,644 per academic year",
-  "family": "housing"
- },
- {
   "id": "785bb51b-b340-4665-a7ed-b1a27cdfd8d6",
   "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
   "field": "housing.rate.academic_year_total",
@@ -9480,6 +9448,102 @@
   "family": "housing"
  },
  {
+  "id": "3c0b5878-f783-429b-b0d4-beb3466a059c",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "housing.rate.academic_year_total",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "1264400",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "per_academic_year",
+  "price_basis": "unknown",
+  "room_type": "Triple or One-Room Quad",
+  "audience_applicability": [
+   "Residence Halls, Program Houses, and West Campus Houses"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T20:44:32.063070+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
+    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
+    "excerpt": "Triple or\nOne-Room Quad\n$6,322\n$6,322\n$12,644",
+    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
+    "title": "Housing Rates | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$12,644 per academic year",
+  "family": "housing"
+ },
+ {
+  "id": "c9924d2b-c1d9-4c23-964f-73c4052fb90c",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "housing.rate.fall_semester",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "632200",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "per_semester",
+  "price_basis": "unknown",
+  "room_type": "Triple or One-Room Quad",
+  "audience_applicability": [
+   "Residence Halls, Program Houses, and West Campus Houses"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T20:44:32.063070+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
+    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
+    "excerpt": "Triple or\nOne-Room Quad\n$6,322\n$6,322\n$12,644",
+    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
+    "title": "Housing Rates | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$6,322 per semester",
+  "family": "housing"
+ },
+ {
+  "id": "a137499f-91ce-493f-8ad3-5dba6ca7843b",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "housing.rate.fall_semester",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "687200",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "per_semester",
+  "price_basis": "unknown",
+  "room_type": "Quad",
+  "audience_applicability": [
+   "Residence Halls, Program Houses, and West Campus Houses"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T20:44:32.063070+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
+    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
+    "excerpt": "Quad\n$6,872\n$6,872\n$13,744",
+    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
+    "title": "Housing Rates | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$6,872 per semester",
+  "family": "housing"
+ },
+ {
   "id": "492e55e1-3252-424b-add7-b0a54e326ca4",
   "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
   "field": "housing.rate.fall_semester",
@@ -9541,70 +9605,6 @@
    }
   ],
   "value": "$6,872 per semester",
-  "family": "housing"
- },
- {
-  "id": "a137499f-91ce-493f-8ad3-5dba6ca7843b",
-  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
-  "field": "housing.rate.fall_semester",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "687200",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "per_semester",
-  "price_basis": "unknown",
-  "room_type": "Quad",
-  "audience_applicability": [
-   "Residence Halls, Program Houses, and West Campus Houses"
-  ],
-  "academic_year": "2026-27",
-  "is_critical": false,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T20:44:32.063070+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
-    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
-    "excerpt": "Quad\n$6,872\n$6,872\n$13,744",
-    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
-    "title": "Housing Rates | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$6,872 per semester",
-  "family": "housing"
- },
- {
-  "id": "c9924d2b-c1d9-4c23-964f-73c4052fb90c",
-  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
-  "field": "housing.rate.fall_semester",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "632200",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "per_semester",
-  "price_basis": "unknown",
-  "room_type": "Triple or One-Room Quad",
-  "audience_applicability": [
-   "Residence Halls, Program Houses, and West Campus Houses"
-  ],
-  "academic_year": "2026-27",
-  "is_critical": false,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T20:44:32.063070+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
-    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
-    "excerpt": "Triple or\nOne-Room Quad\n$6,322\n$6,322\n$12,644",
-    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
-    "title": "Housing Rates | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$6,322 per semester",
   "family": "housing"
  },
  {
@@ -10278,36 +10278,6 @@
   "family": "rate"
  },
  {
-  "id": "4e9bcc27-7f83-4dda-bf11-2833605f5a49",
-  "entity_id": "5c8b9407-b6d0-4af3-b333-abe2eed0423a",
-  "field": "rate.dining_room.dinner_door",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "2080",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "one_time",
-  "price_basis": "per_person",
-  "room_type": null,
-  "audience_applicability": [],
-  "academic_year": "2026-27",
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:44:07.580730+00:00",
-  "topic_key": "dining",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates",
-    "fetched_at": "2026-11-06T23:44:07.58073+00:00",
-    "excerpt": "Dinner: $20.80",
-    "snapshot_id": "47a4d4e5-a7d8-4039-bca8-cfcf2d0997c7",
-    "title": "Meal Plans & Rates | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$20.80 one time per person",
-  "family": "rate"
- },
- {
   "id": "93707832-c070-4123-bbb0-bf81e6cedfab",
   "entity_id": null,
   "field": "rate.dining_room.dinner_door",
@@ -10335,6 +10305,36 @@
    }
   ],
   "value": "$19.26",
+  "family": "rate"
+ },
+ {
+  "id": "4e9bcc27-7f83-4dda-bf11-2833605f5a49",
+  "entity_id": "5c8b9407-b6d0-4af3-b333-abe2eed0423a",
+  "field": "rate.dining_room.dinner_door",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "2080",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "one_time",
+  "price_basis": "per_person",
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:44:07.580730+00:00",
+  "topic_key": "dining",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates",
+    "fetched_at": "2026-11-06T23:44:07.58073+00:00",
+    "excerpt": "Dinner: $20.80",
+    "snapshot_id": "47a4d4e5-a7d8-4039-bca8-cfcf2d0997c7",
+    "title": "Meal Plans & Rates | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$20.80 one time per person",
   "family": "rate"
  },
  {
@@ -10398,36 +10398,6 @@
   "family": "rate"
  },
  {
-  "id": "5d09d123-8df4-4c2d-b540-82db550a901b",
-  "entity_id": null,
-  "field": "rate.dining_room.lunch_door",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "1556",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "unknown",
-  "price_basis": "unknown",
-  "room_type": null,
-  "audience_applicability": [],
-  "academic_year": null,
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:42:07.530196+00:00",
-  "topic_key": "dining",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/summer-meal-plans",
-    "fetched_at": "2026-11-06T23:42:07.530196+00:00",
-    "excerpt": "Lunch $15.56 plus tax",
-    "snapshot_id": "19fe6477-b3e3-439c-876d-7913aa30e644",
-    "title": "Summer Meal Plans | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$15.56",
-  "family": "rate"
- },
- {
   "id": "8c8d93a4-eb16-47f8-ae44-963d3be1120f",
   "entity_id": "5c8b9407-b6d0-4af3-b333-abe2eed0423a",
   "field": "rate.dining_room.lunch_door",
@@ -10455,6 +10425,36 @@
    }
   ],
   "value": "$16.80 one time per person",
+  "family": "rate"
+ },
+ {
+  "id": "5d09d123-8df4-4c2d-b540-82db550a901b",
+  "entity_id": null,
+  "field": "rate.dining_room.lunch_door",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "1556",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "unknown",
+  "price_basis": "unknown",
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:42:07.530196+00:00",
+  "topic_key": "dining",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/summer-meal-plans",
+    "fetched_at": "2026-11-06T23:42:07.530196+00:00",
+    "excerpt": "Lunch $15.56 plus tax",
+    "snapshot_id": "19fe6477-b3e3-439c-876d-7913aa30e644",
+    "title": "Summer Meal Plans | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$15.56",
   "family": "rate"
  },
  {
@@ -11419,38 +11419,6 @@
   "family": "rate"
  },
  {
-  "id": "640c5a68-a6c4-4226-aa02-cc94ebecaef0",
-  "entity_id": "3fe1cbbf-996c-4b1f-8597-6a39ba7c5b17",
-  "field": "rate.meal_plan.semester",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "380200",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "per_semester",
-  "price_basis": "per_person",
-  "room_type": null,
-  "audience_applicability": [
-   "graduate"
-  ],
-  "academic_year": "2026-27",
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:42:01.542982+00:00",
-  "topic_key": "dining",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/graduate-meal-plans",
-    "fetched_at": "2026-11-06T23:42:01.542982+00:00",
-    "excerpt": "- $3,802 per semester; $7,604 per year",
-    "snapshot_id": "4457289d-dd50-469c-b43e-0bdf1f28b6c5",
-    "title": "Graduate Meal Plans | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$3,802 per semester per person",
-  "family": "rate"
- },
- {
   "id": "2e329b4c-c56c-4b5c-8fed-0a328554aab9",
   "entity_id": "eb9db0f7-a4cb-4d3d-878b-461b69807ee9",
   "field": "rate.meal_plan.semester",
@@ -11515,12 +11483,12 @@
   "family": "rate"
  },
  {
-  "id": "2302c8ca-fc6e-4c42-874e-8bd6debb3fbe",
-  "entity_id": "214e7d6b-2eae-4c46-adea-6302c8e401a7",
+  "id": "65e3aac4-f557-4b75-b47d-2372d3859745",
+  "entity_id": "e7d25871-fa36-4466-98ca-77aa7dfd7698",
   "field": "rate.meal_plan.semester",
   "value_type": "money",
   "value_text": null,
-  "value_number": "352800",
+  "value_number": "91230",
   "value_bool": null,
   "value_date": null,
   "billing_period": "per_semester",
@@ -11538,12 +11506,12 @@
    {
     "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/graduate-meal-plans",
     "fetched_at": "2026-11-06T23:42:01.542982+00:00",
-    "excerpt": "- $3,528 per semester; $7,056 per year",
+    "excerpt": "- $912.30 per semester; $1,824.60 per year",
     "snapshot_id": "4457289d-dd50-469c-b43e-0bdf1f28b6c5",
     "title": "Graduate Meal Plans | Student & Campus Life | Cornell University"
    }
   ],
-  "value": "$3,528 per semester per person",
+  "value": "$912.30 per semester per person",
   "family": "rate"
  },
  {
@@ -11579,12 +11547,12 @@
   "family": "rate"
  },
  {
-  "id": "65e3aac4-f557-4b75-b47d-2372d3859745",
-  "entity_id": "e7d25871-fa36-4466-98ca-77aa7dfd7698",
+  "id": "2302c8ca-fc6e-4c42-874e-8bd6debb3fbe",
+  "entity_id": "214e7d6b-2eae-4c46-adea-6302c8e401a7",
   "field": "rate.meal_plan.semester",
   "value_type": "money",
   "value_text": null,
-  "value_number": "91230",
+  "value_number": "352800",
   "value_bool": null,
   "value_date": null,
   "billing_period": "per_semester",
@@ -11602,21 +11570,21 @@
    {
     "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/graduate-meal-plans",
     "fetched_at": "2026-11-06T23:42:01.542982+00:00",
-    "excerpt": "- $912.30 per semester; $1,824.60 per year",
+    "excerpt": "- $3,528 per semester; $7,056 per year",
     "snapshot_id": "4457289d-dd50-469c-b43e-0bdf1f28b6c5",
     "title": "Graduate Meal Plans | Student & Campus Life | Cornell University"
    }
   ],
-  "value": "$912.30 per semester per person",
+  "value": "$3,528 per semester per person",
   "family": "rate"
  },
  {
-  "id": "f08f99ca-dbd0-4152-81d5-a1b6fad497d2",
-  "entity_id": "5d13737c-2f25-45ef-bb6c-73c3c5167b94",
+  "id": "640c5a68-a6c4-4226-aa02-cc94ebecaef0",
+  "entity_id": "3fe1cbbf-996c-4b1f-8597-6a39ba7c5b17",
   "field": "rate.meal_plan.semester",
   "value_type": "money",
   "value_text": null,
-  "value_number": "50000",
+  "value_number": "380200",
   "value_bool": null,
   "value_date": null,
   "billing_period": "per_semester",
@@ -11634,12 +11602,12 @@
    {
     "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/graduate-meal-plans",
     "fetched_at": "2026-11-06T23:42:01.542982+00:00",
-    "excerpt": "- $500 per semester; $1,000 per year",
+    "excerpt": "- $3,802 per semester; $7,604 per year",
     "snapshot_id": "4457289d-dd50-469c-b43e-0bdf1f28b6c5",
     "title": "Graduate Meal Plans | Student & Campus Life | Cornell University"
    }
   ],
-  "value": "$500 per semester per person",
+  "value": "$3,802 per semester per person",
   "family": "rate"
  },
  {
@@ -11675,35 +11643,65 @@
   "family": "rate"
  },
  {
-  "id": "93f830da-2fb6-4f11-82fd-f7300cd93ae9",
-  "entity_id": "e5bcd897-e81d-4435-9751-3d9d35f963ee",
-  "field": "rate.meal_plan.sfl_supplemental",
+  "id": "f08f99ca-dbd0-4152-81d5-a1b6fad497d2",
+  "entity_id": "5d13737c-2f25-45ef-bb6c-73c3c5167b94",
+  "field": "rate.meal_plan.semester",
   "value_type": "money",
   "value_text": null,
-  "value_number": "208877",
+  "value_number": "50000",
   "value_bool": null,
   "value_date": null,
   "billing_period": "per_semester",
   "price_basis": "per_person",
   "room_type": null,
   "audience_applicability": [
-   "resident"
+   "graduate"
   ],
-  "academic_year": null,
+  "academic_year": "2026-27",
   "is_critical": true,
   "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:43:46.607582+00:00",
+  "retrieved_at": "2026-11-06T23:42:01.542982+00:00",
   "topic_key": "dining",
   "sources": [
    {
-    "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental",
-    "fetched_at": "2026-11-06T23:43:46.607582+00:00",
-    "excerpt": "$2,088.77 per semester; $4,177.54 per year",
-    "snapshot_id": "0fb13f80-4db8-4933-95a6-5eeab1ea45e0",
-    "title": "If You're Thinking of Joining a Fraternity or Sorority | Student & Campus Life | Cornell University"
+    "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/graduate-meal-plans",
+    "fetched_at": "2026-11-06T23:42:01.542982+00:00",
+    "excerpt": "- $500 per semester; $1,000 per year",
+    "snapshot_id": "4457289d-dd50-469c-b43e-0bdf1f28b6c5",
+    "title": "Graduate Meal Plans | Student & Campus Life | Cornell University"
    }
   ],
-  "value": "$2,088.77 per semester per person",
+  "value": "$500 per semester per person",
+  "family": "rate"
+ },
+ {
+  "id": "adbbfb5b-9e86-421e-a2e2-bac624d73a37",
+  "entity_id": "e5bcd897-e81d-4435-9751-3d9d35f963ee",
+  "field": "rate.meal_plan.sfl_supplemental",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "216751",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "per_semester",
+  "price_basis": "per_person",
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:41:58.541580+00:00",
+  "topic_key": "dining",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+    "fetched_at": "2026-11-06T23:41:58.54158+00:00",
+    "excerpt": "- $2,167.51 per semester; $4,335.02 per year",
+    "snapshot_id": "dfa21063-6108-460a-8cf0-5155cd326296",
+    "title": "Undergraduate Meal Plans | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$2,167.51 per semester per person",
   "family": "rate"
  },
  {
@@ -11739,33 +11737,35 @@
   "family": "rate"
  },
  {
-  "id": "adbbfb5b-9e86-421e-a2e2-bac624d73a37",
+  "id": "93f830da-2fb6-4f11-82fd-f7300cd93ae9",
   "entity_id": "e5bcd897-e81d-4435-9751-3d9d35f963ee",
   "field": "rate.meal_plan.sfl_supplemental",
   "value_type": "money",
   "value_text": null,
-  "value_number": "216751",
+  "value_number": "208877",
   "value_bool": null,
   "value_date": null,
   "billing_period": "per_semester",
   "price_basis": "per_person",
   "room_type": null,
-  "audience_applicability": [],
-  "academic_year": "2026-27",
+  "audience_applicability": [
+   "resident"
+  ],
+  "academic_year": null,
   "is_critical": true,
   "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:41:58.541580+00:00",
+  "retrieved_at": "2026-11-06T23:43:46.607582+00:00",
   "topic_key": "dining",
   "sources": [
    {
-    "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
-    "fetched_at": "2026-11-06T23:41:58.54158+00:00",
-    "excerpt": "- $2,167.51 per semester; $4,335.02 per year",
-    "snapshot_id": "dfa21063-6108-460a-8cf0-5155cd326296",
-    "title": "Undergraduate Meal Plans | Student & Campus Life | Cornell University"
+    "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental",
+    "fetched_at": "2026-11-06T23:43:46.607582+00:00",
+    "excerpt": "$2,088.77 per semester; $4,177.54 per year",
+    "snapshot_id": "0fb13f80-4db8-4933-95a6-5eeab1ea45e0",
+    "title": "If You're Thinking of Joining a Fraternity or Sorority | Student & Campus Life | Cornell University"
    }
   ],
-  "value": "$2,167.51 per semester per person",
+  "value": "$2,088.77 per semester per person",
   "family": "rate"
  },
  {
@@ -11799,38 +11799,6 @@
   "family": "rate"
  },
  {
-  "id": "d689d094-2911-4cc2-b581-d693f890ca1a",
-  "entity_id": "3fe1cbbf-996c-4b1f-8597-6a39ba7c5b17",
-  "field": "rate.meal_plan.unlimited",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "380200",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "per_semester",
-  "price_basis": "per_person",
-  "room_type": null,
-  "audience_applicability": [
-   "first_year"
-  ],
-  "academic_year": "2026-27",
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:41:58.541580+00:00",
-  "topic_key": "dining",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
-    "fetched_at": "2026-11-06T23:41:58.54158+00:00",
-    "excerpt": "- $3,802 per semester; $7,604 per year",
-    "snapshot_id": "dfa21063-6108-460a-8cf0-5155cd326296",
-    "title": "Undergraduate Meal Plans | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$3,802 per semester per person",
-  "family": "rate"
- },
- {
   "id": "c6e975a6-843c-4ad8-869e-2e3d1c447e29",
   "entity_id": "3fe1cbbf-996c-4b1f-8597-6a39ba7c5b17",
   "field": "rate.meal_plan.unlimited",
@@ -11860,6 +11828,38 @@
    }
   ],
   "value": "$7,604 per academic year per person",
+  "family": "rate"
+ },
+ {
+  "id": "d689d094-2911-4cc2-b581-d693f890ca1a",
+  "entity_id": "3fe1cbbf-996c-4b1f-8597-6a39ba7c5b17",
+  "field": "rate.meal_plan.unlimited",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "380200",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "per_semester",
+  "price_basis": "per_person",
+  "room_type": null,
+  "audience_applicability": [
+   "first_year"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:41:58.541580+00:00",
+  "topic_key": "dining",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+    "fetched_at": "2026-11-06T23:41:58.54158+00:00",
+    "excerpt": "- $3,802 per semester; $7,604 per year",
+    "snapshot_id": "dfa21063-6108-460a-8cf0-5155cd326296",
+    "title": "Undergraduate Meal Plans | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$3,802 per semester per person",
   "family": "rate"
  },
  {
@@ -13033,47 +13033,17 @@
   "family": "rate"
  },
  {
-  "id": "4321d590-2ac8-48c5-921a-788e1ea274fe",
+  "id": "5caaabf7-f345-4803-9c6f-8947481fbc61",
   "entity_id": null,
   "field": "rate.room",
   "value_type": "money",
   "value_text": null,
-  "value_number": "1556600",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "per_academic_year",
-  "price_basis": "per_person",
-  "room_type": "single",
-  "audience_applicability": [],
-  "academic_year": "2026-27",
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T08:31:31.725029+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
-    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
-    "excerpt": "Single: Academic Year 2026-2027 total $15,566",
-    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
-    "title": "Housing Rates | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$15,566 per academic year per person",
-  "family": "rate"
- },
- {
-  "id": "0b0e2415-1be4-4216-9ba0-92c905666484",
-  "entity_id": null,
-  "field": "rate.room",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "829800",
+  "value_number": "632200",
   "value_bool": null,
   "value_date": null,
   "billing_period": "per_semester",
   "price_basis": "per_person",
-  "room_type": "super single",
+  "room_type": "triple or one-room quad",
   "audience_applicability": [],
   "academic_year": "2026-27",
   "is_critical": true,
@@ -13084,109 +13054,19 @@
    {
     "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
     "fetched_at": "2026-11-06T08:30:12.000202+00:00",
-    "excerpt": "Super Single: Fall 2026 $8,298, Spring 2027 $8,298",
+    "excerpt": "Triple or One-Room Quad: Fall 2026 $6,322, Spring 2027 $6,322",
     "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
     "title": "Housing Rates | Student & Campus Life | Cornell University"
    },
    {
     "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates#search-snippet-2026-11-04",
     "fetched_at": "2026-11-06T07:53:08.821355+00:00",
-    "excerpt": "super single $8,298 per semester",
+    "excerpt": "triple or one-room quad $6,322 per semester",
     "snapshot_id": "2dafb37d-4299-4595-954a-99793f95ee96",
     "title": null
    }
   ],
-  "value": "$8,298 per semester per person",
-  "family": "rate"
- },
- {
-  "id": "5108f0ce-9258-4b20-b887-24930b75c3ee",
-  "entity_id": null,
-  "field": "rate.room",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "1659500",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "per_academic_year",
-  "price_basis": "per_person",
-  "room_type": "super single",
-  "audience_applicability": [],
-  "academic_year": "2026-27",
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T08:31:31.725029+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
-    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
-    "excerpt": "Super Single: Academic Year 2026-2027 total $16,595",
-    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
-    "title": "Housing Rates | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$16,595 per academic year per person",
-  "family": "rate"
- },
- {
-  "id": "bf6adbd5-6ca7-4ac8-bb69-ce47cfd5d29d",
-  "entity_id": null,
-  "field": "rate.room",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "1374400",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "per_academic_year",
-  "price_basis": "per_person",
-  "room_type": "double",
-  "audience_applicability": [],
-  "academic_year": "2026-27",
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T08:31:31.725029+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
-    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
-    "excerpt": "Double: Academic Year 2026-2027 total $13,744",
-    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
-    "title": "Housing Rates | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$13,744 per academic year per person",
-  "family": "rate"
- },
- {
-  "id": "4e162d7c-df79-47d6-a3d3-829f4076a42e",
-  "entity_id": null,
-  "field": "rate.room",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "778300",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "per_semester",
-  "price_basis": "per_person",
-  "room_type": "townhouse double",
-  "audience_applicability": [],
-  "academic_year": "2026-27",
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T08:31:31.725029+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
-    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
-    "excerpt": "Townhouse Double: Fall 2026 $7,783, Spring 2027 $7,783",
-    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
-    "title": "Housing Rates | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$7,783 per semester per person",
+  "value": "$6,322 per semester per person",
   "family": "rate"
  },
  {
@@ -13257,17 +13137,17 @@
   "family": "rate"
  },
  {
-  "id": "5caaabf7-f345-4803-9c6f-8947481fbc61",
+  "id": "5108f0ce-9258-4b20-b887-24930b75c3ee",
   "entity_id": null,
   "field": "rate.room",
   "value_type": "money",
   "value_text": null,
-  "value_number": "632200",
+  "value_number": "1659500",
   "value_bool": null,
   "value_date": null,
-  "billing_period": "per_semester",
+  "billing_period": "per_academic_year",
   "price_basis": "per_person",
-  "room_type": "triple or one-room quad",
+  "room_type": "super single",
   "audience_applicability": [],
   "academic_year": "2026-27",
   "is_critical": true,
@@ -13278,33 +13158,93 @@
    {
     "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
     "fetched_at": "2026-11-06T08:30:12.000202+00:00",
-    "excerpt": "Triple or One-Room Quad: Fall 2026 $6,322, Spring 2027 $6,322",
+    "excerpt": "Super Single: Academic Year 2026-2027 total $16,595",
+    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
+    "title": "Housing Rates | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$16,595 per academic year per person",
+  "family": "rate"
+ },
+ {
+  "id": "4e162d7c-df79-47d6-a3d3-829f4076a42e",
+  "entity_id": null,
+  "field": "rate.room",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "778300",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "per_semester",
+  "price_basis": "per_person",
+  "room_type": "townhouse double",
+  "audience_applicability": [],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:31:31.725029+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
+    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
+    "excerpt": "Townhouse Double: Fall 2026 $7,783, Spring 2027 $7,783",
+    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
+    "title": "Housing Rates | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$7,783 per semester per person",
+  "family": "rate"
+ },
+ {
+  "id": "0b0e2415-1be4-4216-9ba0-92c905666484",
+  "entity_id": null,
+  "field": "rate.room",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "829800",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "per_semester",
+  "price_basis": "per_person",
+  "room_type": "super single",
+  "audience_applicability": [],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:31:31.725029+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
+    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
+    "excerpt": "Super Single: Fall 2026 $8,298, Spring 2027 $8,298",
     "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
     "title": "Housing Rates | Student & Campus Life | Cornell University"
    },
    {
     "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates#search-snippet-2026-11-04",
     "fetched_at": "2026-11-06T07:53:08.821355+00:00",
-    "excerpt": "triple or one-room quad $6,322 per semester",
+    "excerpt": "super single $8,298 per semester",
     "snapshot_id": "2dafb37d-4299-4595-954a-99793f95ee96",
     "title": null
    }
   ],
-  "value": "$6,322 per semester per person",
+  "value": "$8,298 per semester per person",
   "family": "rate"
  },
  {
-  "id": "b1702dda-6d08-4d15-b022-78758cfe7bba",
+  "id": "4321d590-2ac8-48c5-921a-788e1ea274fe",
   "entity_id": null,
   "field": "rate.room",
   "value_type": "money",
   "value_text": null,
-  "value_number": "1374400",
+  "value_number": "1556600",
   "value_bool": null,
   "value_date": null,
   "billing_period": "per_academic_year",
   "price_basis": "per_person",
-  "room_type": "quad",
+  "room_type": "single",
   "audience_applicability": [],
   "academic_year": "2026-27",
   "is_critical": true,
@@ -13315,12 +13255,12 @@
    {
     "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
     "fetched_at": "2026-11-06T08:30:12.000202+00:00",
-    "excerpt": "Quad: Academic Year 2026-2027 total $13,744",
+    "excerpt": "Single: Academic Year 2026-2027 total $15,566",
     "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
     "title": "Housing Rates | Student & Campus Life | Cornell University"
    }
   ],
-  "value": "$13,744 per academic year per person",
+  "value": "$15,566 per academic year per person",
   "family": "rate"
  },
  {
@@ -13361,6 +13301,36 @@
   "family": "rate"
  },
  {
+  "id": "bf6adbd5-6ca7-4ac8-bb69-ce47cfd5d29d",
+  "entity_id": null,
+  "field": "rate.room",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "1374400",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "per_academic_year",
+  "price_basis": "per_person",
+  "room_type": "double",
+  "audience_applicability": [],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:31:31.725029+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
+    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
+    "excerpt": "Double: Academic Year 2026-2027 total $13,744",
+    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
+    "title": "Housing Rates | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$13,744 per academic year per person",
+  "family": "rate"
+ },
+ {
   "id": "87b65789-d3d9-4fb5-b26d-e45c0ef33012",
   "entity_id": null,
   "field": "rate.room",
@@ -13388,6 +13358,36 @@
    }
   ],
   "value": "$15,566 per academic year per person",
+  "family": "rate"
+ },
+ {
+  "id": "b1702dda-6d08-4d15-b022-78758cfe7bba",
+  "entity_id": null,
+  "field": "rate.room",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "1374400",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "per_academic_year",
+  "price_basis": "per_person",
+  "room_type": "quad",
+  "audience_applicability": [],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:31:31.725029+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
+    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
+    "excerpt": "Quad: Academic Year 2026-2027 total $13,744",
+    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
+    "title": "Housing Rates | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$13,744 per academic year per person",
   "family": "rate"
  },
  {
@@ -13705,38 +13705,6 @@
   "family": "rate"
  },
  {
-  "id": "8176c458-9334-49ef-83d8-964772c377de",
-  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
-  "field": "rate.single",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "1556600",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "per_academic_year",
-  "price_basis": "unknown",
-  "room_type": "Single",
-  "audience_applicability": [
-   "residence halls, program houses, west campus houses"
-  ],
-  "academic_year": "2026-27",
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T21:24:17.726064+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
-    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
-    "excerpt": "Single\n$7,783\n$7,783\n$15,566",
-    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
-    "title": "Housing Rates | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$15,566 per academic year",
-  "family": "rate"
- },
- {
   "id": "d067e6fd-86c0-488b-9901-8f662401f117",
   "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
   "field": "rate.single",
@@ -13771,6 +13739,38 @@
   "family": "rate"
  },
  {
+  "id": "8176c458-9334-49ef-83d8-964772c377de",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "rate.single",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "1556600",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "per_academic_year",
+  "price_basis": "unknown",
+  "room_type": "Single",
+  "audience_applicability": [
+   "residence halls, program houses, west campus houses"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:24:17.726064+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
+    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
+    "excerpt": "Single\n$7,783\n$7,783\n$15,566",
+    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
+    "title": "Housing Rates | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$15,566 per academic year",
+  "family": "rate"
+ },
+ {
   "id": "b23a8045-6648-4f25-89c5-6c28197c2c97",
   "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
   "field": "rate.single_academic_year",
@@ -13802,38 +13802,6 @@
    }
   ],
   "value": "$15,566 per academic year",
-  "family": "rate"
- },
- {
-  "id": "d6cd6c43-3945-4d3c-8ea0-a558bd59a07a",
-  "entity_id": "054476a6-f16f-4603-9e38-838e8472b117",
-  "field": "rate.stipend",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "200000",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "one_time",
-  "price_basis": "per_person",
-  "room_type": null,
-  "audience_applicability": [
-   "graduate"
-  ],
-  "academic_year": null,
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:55:12.838816+00:00",
-  "topic_key": "services",
-  "sources": [
-   {
-    "url": "https://www.library.cornell.edu/about/staff/central-departments/digital-scholarship/colab-programs/summer-dh/",
-    "fetched_at": "2026-11-06T23:55:12.838816+00:00",
-    "excerpt": "A stipend of $2000.",
-    "snapshot_id": "96f76927-8f77-4376-b003-3d89e188e876",
-    "title": "Summer DH \u2013 Cornell University Library"
-   }
-  ],
-  "value": "$2,000 one time per person",
   "family": "rate"
  },
  {
@@ -13898,6 +13866,38 @@
    }
   ],
   "value": "$2,880 one time per person",
+  "family": "rate"
+ },
+ {
+  "id": "d6cd6c43-3945-4d3c-8ea0-a558bd59a07a",
+  "entity_id": "054476a6-f16f-4603-9e38-838e8472b117",
+  "field": "rate.stipend",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "200000",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "one_time",
+  "price_basis": "per_person",
+  "room_type": null,
+  "audience_applicability": [
+   "graduate"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:55:12.838816+00:00",
+  "topic_key": "services",
+  "sources": [
+   {
+    "url": "https://www.library.cornell.edu/about/staff/central-departments/digital-scholarship/colab-programs/summer-dh/",
+    "fetched_at": "2026-11-06T23:55:12.838816+00:00",
+    "excerpt": "A stipend of $2000.",
+    "snapshot_id": "96f76927-8f77-4376-b003-3d89e188e876",
+    "title": "Summer DH \u2013 Cornell University Library"
+   }
+  ],
+  "value": "$2,000 one time per person",
   "family": "rate"
  },
  {
@@ -14223,6 +14223,38 @@
   "family": "rate"
  },
  {
+  "id": "9cfadf24-4e24-4cc5-88f6-491067554f6b",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "rate.triple_or_one_room_quad",
+  "value_type": "money",
+  "value_text": null,
+  "value_number": "1264400",
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": "per_academic_year",
+  "price_basis": "unknown",
+  "room_type": "Triple or One-Room Quad",
+  "audience_applicability": [
+   "residence halls, program houses, west campus houses"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:24:17.726064+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
+    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
+    "excerpt": "Triple or\nOne-Room Quad\n$6,322\n$6,322\n$12,644",
+    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
+    "title": "Housing Rates | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "$12,644 per academic year",
+  "family": "rate"
+ },
+ {
   "id": "0399fae0-7104-4255-8754-9434711be6ce",
   "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
   "field": "rate.triple_or_one_room_quad",
@@ -14254,38 +14286,6 @@
    }
   ],
   "value": "$6,322 per semester",
-  "family": "rate"
- },
- {
-  "id": "9cfadf24-4e24-4cc5-88f6-491067554f6b",
-  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
-  "field": "rate.triple_or_one_room_quad",
-  "value_type": "money",
-  "value_text": null,
-  "value_number": "1264400",
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": "per_academic_year",
-  "price_basis": "unknown",
-  "room_type": "Triple or One-Room Quad",
-  "audience_applicability": [
-   "residence halls, program houses, west campus houses"
-  ],
-  "academic_year": "2026-27",
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T21:24:17.726064+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
-    "fetched_at": "2026-11-06T08:30:12.000202+00:00",
-    "excerpt": "Triple or\nOne-Room Quad\n$6,322\n$6,322\n$12,644",
-    "snapshot_id": "9a16a5e6-0b8f-47ed-b36e-5efa28c7ae8c",
-    "title": "Housing Rates | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "$12,644 per academic year",
   "family": "rate"
  },
  {

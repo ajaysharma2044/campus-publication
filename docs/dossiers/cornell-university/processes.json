@@ -1,5 +1,16 @@
 [
  {
+  "name": "access a telehealth Zoom counseling appointment",
+  "field": "process.access_a_telehealth_zoom_counseling_appointment",
+  "steps": [
+   "Check in for your appointment \u2013 Go to \u201cAppointments\u201d and click \u201cAppointment Check In.\u201d",
+   "Complete your survey \u2013 After you check in, go to \u201cSurveys\u201d in the menu bar and complete the Wellbeing Assessment survey.",
+   "Start your Zoom session \u2013 Return to the \u201cAppointments\u201d page and click \u201cJoin Meeting.\u201d"
+  ],
+  "source": "https://health.cornell.edu/services/mental-health-care/individual-counseling",
+  "claim_id": "8e4ebc62-489c-4deb-8695-2cecb567d71f"
+ },
+ {
   "name": "process.access_appointment",
   "field": "process.access_appointment",
   "steps": [
@@ -91,6 +102,17 @@
   ],
   "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/mealchoice-terms",
   "claim_id": "5800dd0f-4ccb-4fd2-8b40-e0da3df7b9c2"
+ },
+ {
+  "name": "add new reserve items via Canvas",
+  "field": "process.add_new_reserve_items_via_canvas",
+  "steps": [
+   "On your current course\u2019s Canvas page, choose \u201c Library Reserves \u201d from the left-side menu.",
+   "Click \u201c Add Requests \u201c, then using the item icons below, choose the type of item you would like to place on reserve (you can hover over each type to see a more detailed description).",
+   "Fill out the form, choose your course or courses from the table below, and click \u201c Submit Item .\u201d"
+  ],
+  "source": "https://www.library.cornell.edu/research-teaching/course-reserves-for-instructors/",
+  "claim_id": "69b32511-872b-4b06-b933-6dd9015ad796"
  },
  {
   "name": "add supplemental information to an application",
@@ -200,19 +222,19 @@
   "name": "process.application_method",
   "field": "process.application_method",
   "steps": [
-   "Cornell accepts the Common Application (CA), completed and submitted via the Common Application website"
+   "Common Application"
   ],
-  "source": "https://faq.enrollment.cornell.edu/kb/article/50-does-cornell-accept-a-paper-application/",
-  "claim_id": "2af055b3-b75b-4de9-8774-d765bd14c11f"
+  "source": "https://faq.enrollment.cornell.edu/kb/article/196-what-is-the-admissions-process-of-non-traditional-students/",
+  "claim_id": "05f2db40-5b54-45e5-a855-35697a509cd3"
  },
  {
   "name": "process.application_method",
   "field": "process.application_method",
   "steps": [
-   "Common Application"
+   "Cornell accepts the Common Application (CA), completed and submitted via the Common Application website"
   ],
-  "source": "https://faq.enrollment.cornell.edu/kb/article/196-what-is-the-admissions-process-of-non-traditional-students/",
-  "claim_id": "05f2db40-5b54-45e5-a855-35697a509cd3"
+  "source": "https://faq.enrollment.cornell.edu/kb/article/50-does-cornell-accept-a-paper-application/",
+  "claim_id": "2af055b3-b75b-4de9-8774-d765bd14c11f"
  },
  {
   "name": "process.application_status",
@@ -245,13 +267,38 @@
   "name": "apply for a B-2 visitor visa",
   "field": "process.apply_for_a_b_2_visitor_visa",
   "steps": [
-   "Complete the DS-160 form and pay an application fee",
-   "Make a visa interview appointment",
-   "Gather documents",
-   "Attend the visa interview"
+   "Complete the form and pay an application fee.",
+   "Make a visa interview appointment.",
+   "Gather documents.",
+   "Attend the visa interview."
   ],
   "source": "https://international.globallearning.cornell.edu/life-cornell/invite-friends-or-family",
-  "claim_id": "18203aea-97df-422c-b725-5a6564b83eb9"
+  "claim_id": "b59902c4-bf45-494b-a4c2-bfed2727903e"
+ },
+ {
+  "name": "apply for a J-1 extension",
+  "field": "process.apply_for_a_j_1_extension",
+  "steps": [
+   "Verify your eligibility and meet all extension criteria.",
+   "Work with HR to file the request form.",
+   "Receive and sign your new DS-2019."
+  ],
+  "source": "https://international.globallearning.cornell.edu/maintaining-your-status/maintain-and-extend-j-1-status",
+  "claim_id": "ddc2b176-43cb-4533-9795-7bcb38f9438f"
+ },
+ {
+  "name": "apply for a student entry visa",
+  "field": "process.apply_for_a_student_entry_visa",
+  "steps": [
+   "Apply for student status at Cornell.",
+   "Make your visa interview appointment.",
+   "Prepare to demonstrate \u201cnonimmigrant intent.\u201d",
+   "Gather your documents.",
+   "Attend your visa interview.",
+   "Receive and review the entry visa in your passport."
+  ],
+  "source": "https://international.globallearning.cornell.edu/getting-started/apply-student-entry-visa",
+  "claim_id": "9095005f-bce4-4195-a4be-434bd0d69afe"
  },
  {
   "name": "apply for an entry visa",
@@ -278,16 +325,28 @@
   "claim_id": "ccaf0d0f-04db-48d8-95c6-e3f0d84fefe2"
  },
  {
+  "name": "apply for an O-1 visa for a Cornell employee",
+  "field": "process.apply_for_an_o_1_visa_for_a",
+  "steps": [
+   "Employee Must Meet with International Services.",
+   "Employee Prepares Draft Evidence.",
+   "Initiate the Application (Hiring Unit).",
+   "Submit the Petition (International Services).",
+   "Troubleshooting as Needed.",
+   "Receive the Decision."
+  ],
+  "source": "https://international.globallearning.cornell.edu/administrators/employment-visas/o-1-extraordinary-ability",
+  "claim_id": "7032aa86-a96e-4b5b-967c-b88be86bf329"
+ },
+ {
   "name": "apply for an SSN",
   "field": "process.apply_for_an_ssn",
   "steps": [
    "Gather your documents.",
-   "Complete the online SSN application.",
-   "Go to the Social Security Office.",
    "Wait up to three weeks to receive your Social Security card in the mail."
   ],
   "source": "https://international.globallearning.cornell.edu/employment-and-taxes/apply-ssn",
-  "claim_id": "a4a08ccb-7ba6-498f-b76e-a02dba7904f1"
+  "claim_id": "39bf6517-b566-4dac-989b-fd640b02673d"
  },
  {
   "name": "apply for B-1/B-2 visitor status",
@@ -360,6 +419,17 @@
   "claim_id": "49561e88-4134-4e66-a23d-ef011062e4fe"
  },
  {
+  "name": "apply for housing",
+  "field": "process.apply_for_housing",
+  "steps": [
+   "Log in to the Housing & Dining Portal to apply",
+   "Indicate room type preferences.",
+   "Tell us about yourself or your preference for a roommate."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+  "claim_id": "011001c2-bcd3-4827-8852-6941cba219d7"
+ },
+ {
   "name": "apply for internal transfer to Arts and Sciences",
   "field": "process.apply_for_internal_transfer_to_arts_and_sciences",
   "steps": [
@@ -369,6 +439,17 @@
   ],
   "source": "https://as.cornell.edu/admissions/admissions-requirements-and-process",
   "claim_id": "a5429c65-8b3f-42c3-a298-3a6264b626aa"
+ },
+ {
+  "name": "apply for internal transfer to Arts & Sciences",
+  "field": "process.apply_for_internal_transfer_to_arts_sciences",
+  "steps": [
+   "Confirm eligibility",
+   "Review A&S degree and intended major requirements",
+   "Submit the Internal Transfer application (including course plan and major department approval, if required) by the deadline"
+  ],
+  "source": "https://as.cornell.edu/admissions/admissions-requirements-and-process",
+  "claim_id": "5c8db4c0-700f-47ea-a16c-9b4cb949798d"
  },
  {
   "name": "apply for J-1 Academic Training",
@@ -393,6 +474,17 @@
   "claim_id": "11470cef-d872-4e1a-a5b3-472ec63f4208"
  },
  {
+  "name": "apply for new undergraduate housing",
+  "field": "process.apply_for_new_undergraduate_housing",
+  "steps": [
+   "Log in to the Housing & Dining Portal to apply",
+   "Indicate room type preferences.",
+   "Tell us about yourself or your preference for a roommate."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+  "claim_id": "ec249b21-ee89-437b-8e06-c4d0f550658e"
+ },
+ {
   "name": "apply for O-1",
   "field": "process.apply_for_o_1",
   "steps": [
@@ -410,32 +502,46 @@
   "name": "apply for O-1 status",
   "field": "process.apply_for_o_1_status",
   "steps": [
-   "Employee must meet with International Services.",
-   "Employee prepares draft evidence.",
-   "Hiring unit initiates the application in myStatus.",
-   "International Services submits the petition to USCIS.",
-   "Troubleshoot any request for evidence.",
-   "Receive the decision."
+   "Employee Must Meet with International Services.",
+   "Employee Prepares Draft Evidence.",
+   "Initiate the Application (Hiring Unit).",
+   "Submit the Petition (International Services).",
+   "Troubleshooting as Needed.",
+   "Receive the Decision."
   ],
   "source": "https://international.globallearning.cornell.edu/administrators/employment-visas/o-1-extraordinary-ability",
-  "claim_id": "dc502493-8142-4722-985b-7de2775cda73"
+  "claim_id": "74fec50c-8bcc-4f2f-a4cd-88f7957c661e"
+ },
+ {
+  "name": "apply for OPT",
+  "field": "process.apply_for_opt",
+  "steps": [
+   "Choose a start date.",
+   "For post-completion OPT: pay the OPT service fee.",
+   "Request an OPT I-20.",
+   "Get new photos.",
+   "Submit your OPT application to USCIS.",
+   "Wait to get your EAD document."
+  ],
+  "source": "https://international.globallearning.cornell.edu/employment-and-taxes/f-1-opt",
+  "claim_id": "ebf18ee9-c951-48dd-adb9-7e27edef7b34"
  },
  {
   "name": "apply for OPT STEM extension",
   "field": "process.apply_for_opt_stem_extension",
   "steps": [
-   "Complete an I-983 training plan",
-   "Pay the OPT STEM service maintenance fee",
-   "Request a STEM OPT I-20",
-   "Complete an I-765 form",
-   "Download your I-94",
-   "Get new photos",
+   "Complete the Department of Homeland Security\u2019s I-983 training plan with your work supervisor.",
+   "Pay the OPT STEM service maintenance fee.",
+   "Request a STEM OPT I-20.",
+   "Follow the directions on the USCIS online application portal.",
+   "Go to the \"get most recent I-94\" tab, and download the page it generates after entering your passport information.",
+   "Get new photos.",
    "Order your academic transcript",
-   "Submit your OPT STEM application to USCIS",
-   "Wait to get your EAD"
+   "Submit your OPT STEM application to USCIS.*",
+   "Wait to get your EAD."
   ],
   "source": "https://international.globallearning.cornell.edu/employment-and-taxes/opt-stem-extension",
-  "claim_id": "e220ce04-5748-4499-a495-524460e0585c"
+  "claim_id": "fed58468-6541-4c7e-8df9-7eb0b2745af5"
  },
  {
   "name": "apply for post-completion OPT",
@@ -494,13 +600,12 @@
   "name": "apply for student status",
   "field": "process.apply_for_student_status",
   "steps": [
-   "Show proof of financial support",
-   "Receive an I-20 or DS-2019 form",
-   "Pay the SEVIS fee",
-   "Apply for an entry visa at a U.S. consulate"
+   "Show proof of financial support.",
+   "Receive an I-20 or DS-2019 form.",
+   "Apply for an entry visa at a U.S. consulate."
   ],
   "source": "https://international.globallearning.cornell.edu/getting-started/apply-student-status",
-  "claim_id": "e43f2236-635e-4dfc-8baa-dbc016c98252"
+  "claim_id": "6439e7b3-e242-447f-b8d8-dc1d9ee4b665"
  },
  {
   "name": "apply for the Cornell Tradition wage subsidy (students)",
@@ -534,6 +639,16 @@
   ],
   "source": "https://www.library.cornell.edu/about/staff/central-departments/digital-scholarship/colab-programs/summer-dh/",
   "claim_id": "f199f932-6092-45a9-93bd-78de8c401679"
+ },
+ {
+  "name": "apply for the Summer Graduate Fellowship in Digital Humanities",
+  "field": "process.apply_for_the_summer_graduate_fellowship_in_digital",
+  "steps": [
+   "Express interest and meet with a librarian",
+   "Submit an application"
+  ],
+  "source": "https://www.library.cornell.edu/about/staff/central-departments/digital-scholarship/colab-programs/summer-dh/",
+  "claim_id": "e06ac987-3c42-4a25-a890-785fe1fb75af"
  },
  {
   "name": "apply for TN status as a Canadian citizen",
@@ -585,15 +700,6 @@
   "name": "process.apply_program_house",
   "field": "process.apply_program_house",
   "steps": [
-   "Rising juniors and seniors select a program house in fall Housing Selection; rising sophomores during spring General Room Selection; new students indicate preference on the New Student Housing Application."
-  ],
-  "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/latino-living-center-llc",
-  "claim_id": "873513fc-3720-4001-b745-9a047dcc17ee"
- },
- {
-  "name": "process.apply_program_house",
-  "field": "process.apply_program_house",
-  "steps": [
    "List the houses you're interested in as preferences when you complete the housing application"
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/program-houses",
@@ -607,6 +713,15 @@
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house",
   "claim_id": "4a583b87-8148-46d4-8e1f-03bf0802a79a"
+ },
+ {
+  "name": "process.apply_program_house",
+  "field": "process.apply_program_house",
+  "steps": [
+   "Rising juniors and seniors select a program house in fall Housing Selection; rising sophomores during spring General Room Selection; new students indicate preference on the New Student Housing Application."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/latino-living-center-llc",
+  "claim_id": "873513fc-3720-4001-b745-9a047dcc17ee"
  },
  {
   "name": "process.apply_student_job",
@@ -630,12 +745,11 @@
   "name": "apply to graduate",
   "field": "process.apply_to_graduate",
   "steps": [
-   "Fill out and submit Part I: College Requirements, which includes your DUST report and a chart of all courses and credits.",
-   "Receive an email confirmation and make an appointment with your advisor.",
-   "Work with your faculty advisor to fill out Part II: Major Requirements (one per major)."
+   "After you submit this form, you'll receive an email confirmation and be asked to make an appointment with your advisor to fill out Part II, Major Requirements.",
+   "Work with your faculty advisor to fill out Part II: Major Requirements."
   ],
   "source": "https://as.cornell.edu/registrar/graduation-honors-diplomas",
-  "claim_id": "f6d64d2b-f895-46d9-a478-5575706c08ff"
+  "claim_id": "8ef98c6e-ba42-4b57-bd08-ebdd0de09379"
  },
  {
   "name": "apply to live at Triphammer Cooperative",
@@ -683,6 +797,16 @@
   "claim_id": "2adb7583-22ad-42eb-abf0-557c087e5d93"
  },
  {
+  "name": "apply to the JobLink program",
+  "field": "process.apply_to_the_joblink_program",
+  "steps": [
+   "Young Adults seeking employment, training, and job readiness resources can complete the survey linked above",
+   "A JobLink staff member will be in contact to review your submission and enroll you in the program if you are eligible"
+  ],
+  "source": "https://www.tompkinscountyny.gov/All-Departments/Workforce-Development/Youth-Employment-Ages-14-24",
+  "claim_id": "30c0b34c-c183-4fe2-8d77-ebd8d7078d0f"
+ },
+ {
   "name": "process.appointment",
   "field": "process.appointment",
   "steps": [
@@ -712,6 +836,17 @@
   "claim_id": "4070a6ff-8d1b-4db5-ac3f-be389647a562"
  },
  {
+  "name": "arrange a leave of absence as an international student",
+  "field": "process.arrange_a_leave_of_absence_as_an_international",
+  "steps": [
+   "Visit your advising office.",
+   "Determine the type of leave.",
+   "Develop a plan for returning to Cornell."
+  ],
+  "source": "https://international.globallearning.cornell.edu/maintaining-your-status/leave-absence",
+  "claim_id": "4178c8bf-2b9a-46d3-8fa4-24a462a3dc89"
+ },
+ {
   "name": "process.arrive_by_bus",
   "field": "process.arrive_by_bus",
   "steps": [
@@ -719,6 +854,18 @@
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-west-campus",
   "claim_id": "ea6f57fb-e03a-47c8-a29f-161dd96d5f9f"
+ },
+ {
+  "name": "attend a student conduct meeting",
+  "field": "process.attend_a_student_conduct_meeting",
+  "steps": [
+   "Review of student\u2019s rights and responsibilities",
+   "Review of student conduct procedure",
+   "Review of incident and alleged violations",
+   "Fact-Finding discussion"
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads",
+  "claim_id": "279a8c8f-946e-4fb3-aaba-b00c8ad896ed"
  },
  {
   "name": "authorize a library proxy borrower",
@@ -732,6 +879,18 @@
   ],
   "source": "https://www.library.cornell.edu/collections/borrow-renew-return/policies/proxy-borrower/",
   "claim_id": "c1211e88-1f12-4d80-b2df-68d0556b7dea"
+ },
+ {
+  "name": "be selected as a Rawlings Cornell Presidential Research Scholar",
+  "field": "process.be_selected_as_a_rawlings_cornell_presidential_research",
+  "steps": [
+   "The student must have a nomination from a faculty mentor with whom he/she is already working.  We solicit nominations from faculty early in the spring semester.",
+   "Student applications include a statement of interest and a research proposal.  The complete application is due at the end of April.",
+   "After all of the materials are received, the committee makes its selections based on the number of openings the program has for the upcoming academic year.  RCPRS anticipates accepting up to 25 rising juniors.",
+   "Students receive notice of their acceptance or denial over the summer."
+  ],
+  "source": "https://scl.cornell.edu/get-involved/cornell-commitment/rawlings-cornell-presidential-research-scholars/faculty/sophomore-information/nominating-sophomores",
+  "claim_id": "0b1a979b-fa3f-4769-a8c6-00322144f61f"
  },
  {
   "name": "process.bed_bug_laundry",
@@ -834,30 +993,29 @@
   "name": "process.caps_access_appointment",
   "field": "process.caps_access_appointment",
   "steps": [
-   "Free 25-minute CAPS access appointment, needed before scheduling counseling with MacKenzie"
-  ],
-  "source": "https://health.cornell.edu/services/mental-health-care/embedded/mvr",
-  "claim_id": "64d9b669-db32-4f7e-88b5-790deda0d939"
- },
- {
-  "name": "process.caps_access_appointment",
-  "field": "process.caps_access_appointment",
-  "steps": [
    "To see Taylor for counseling, first schedule a free 25-minute CAPS access appointment."
   ],
   "source": "https://health.cornell.edu/services/mental-health-care/embedded/athletics",
   "claim_id": "93c77ef8-457b-4f9c-9ebf-2904e84d2b3b"
  },
  {
+  "name": "process.caps_access_appointment",
+  "field": "process.caps_access_appointment",
+  "steps": [
+   "Free 25-minute CAPS access appointment, needed before scheduling counseling with MacKenzie"
+  ],
+  "source": "https://health.cornell.edu/services/mental-health-care/embedded/mvr",
+  "claim_id": "64d9b669-db32-4f7e-88b5-790deda0d939"
+ },
+ {
   "name": "challenge a property assessment",
   "field": "process.challenge_a_property_assessment",
   "steps": [
-   "Call the Assessment Department",
-   "File an Informal Assessment Review (mid-March through early April)",
-   "File a grievance (May 1 through the 4th Tuesday in May)"
+   "File an Informal Assessment Review (Mid-March through early-April)",
+   "File a Grievance - (May 1 through the 4th Tuesday in May)"
   ],
   "source": "https://www.tompkinscountyny.gov/Government-Resources/Assessment/Review-or-Challenge-My-Assessment",
-  "claim_id": "f9242b3c-f0f1-41cb-aef3-fa74a648a852"
+  "claim_id": "081895e2-a69c-4a99-bca1-e4f41992fe63"
  },
  {
   "name": "change major or degree level as an international student",
@@ -881,6 +1039,17 @@
   "claim_id": "c715611e-9879-43fd-b26f-9105247bde16"
  },
  {
+  "name": "change your preferred name in Student Center",
+  "field": "process.change_your_preferred_name_in_student_center",
+  "steps": [
+   "After you log in, at the bottom of the page under personal information select \u201cNames\u201d.",
+   "Select the pencil icon to the right of the \u201cPreferred\u201d name type, then you will be able to update a prefix and first name.",
+   "Make sure to select the date for the changes to take effect and press \u201cSave.\u201d"
+  ],
+  "source": "https://scl.cornell.edu/belonging-support-services/centers-student-equity-empowerment-and-belonging/lgbt-resource-center/trans-resources-cornell",
+  "claim_id": "7beed27f-34e7-4dbf-9e2a-992b9650ea5c"
+ },
+ {
   "name": "process.chat_transcript_deletion",
   "field": "process.chat_transcript_deletion",
   "steps": [
@@ -888,6 +1057,17 @@
   ],
   "source": "https://www.library.cornell.edu/get-help/ask/chat/",
   "claim_id": "d62e8eae-8849-48d7-9bec-bccb15f8ab34"
+ },
+ {
+  "name": "check if you've satisfied the veterinary rabies vaccine requirement",
+  "field": "process.check_if_you_ve_satisfied_the_veterinary_rabies",
+  "steps": [
+   "Log in to myCornellHealth using your Cornell NetID and password",
+   "Go to \"Clearances & Requirements\" in the menu bar",
+   "The status of \"Veterinary Rabies Vaccine\" must be \"Satisfied\""
+  ],
+  "source": "https://health.cornell.edu/getcare/healthrequirements/undergrad-grad-prof/vet",
+  "claim_id": "c0ddf4d8-e36b-4e90-b793-631eed90a815"
  },
  {
   "name": "process.check_in",
@@ -911,6 +1091,58 @@
   "claim_id": "cb5d4e6a-ddc3-44ac-b6b6-89073879c3fb"
  },
  {
+  "name": "check in and unload at Akwe:kon move-in",
+  "field": "process.check_in_and_unload_at_akwe_kon_move",
+  "steps": [
+   "Check-in at RPCC room 103-105 to receive your keys, student ID and other move-in materials.",
+   "Once checked-in, you\u2019ll be guided to your building\u2019s unloading zone.",
+   "When you arrive at your designated unloading zone, you will sign out a cart or carts and unload your vehicle."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-akwekon",
+  "claim_id": "0502d3a5-10c0-4a9f-a9cf-7a52d1723b8b"
+ },
+ {
+  "name": "check in and unload for move-in after arriving between 11:30a.m. and 7:00p.m.",
+  "field": "process.check_in_and_unload_for_move_in_after",
+  "steps": [
+   "Once checked-in, you\u2019ll be guided to your building\u2019s unloading zone.",
+   "When you arrive at your designated unloading zone, you will sign out a cart or carts and unload your vehicle."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-104-mary-ann-wood-drive",
+  "claim_id": "03ed5568-fe87-4ed5-95d0-4ff0a1c38d1b"
+ },
+ {
+  "name": "check in at Cascadilla Service Center on move-in day",
+  "field": "process.check_in_at_cascadilla_service_center_on_move",
+  "steps": [
+   "Proceed directly to the Cascadilla Service Center to check in and pick up your keys/ID (if applicable).",
+   "You will then proceed to your building for unloading."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-sheldon-court",
+  "claim_id": "30a44d3e-9720-4f20-9322-e7edc3eda82a"
+ },
+ {
+  "name": "check in at the Robert Purcell Community Center for Risley Hall move-in",
+  "field": "process.check_in_at_the_robert_purcell_community_center",
+  "steps": [
+   "Arrive on campus and proceed to the Robert Purcell Community Center (RPCC) parking lot.",
+   "Check-in at RPCC room 103-105 to receive your keys, student ID and other move-in materials.",
+   "Once checked-in, you\u2019ll be guided to your building\u2019s unloading zone."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-risley-hall",
+  "claim_id": "6eed316b-d4a3-4152-b8f5-1f7bf56b5f95"
+ },
+ {
+  "name": "check in for a CAPS phone appointment",
+  "field": "process.check_in_for_a_caps_phone_appointment",
+  "steps": [
+   "Go to \u201cSurveys\u201d in the menu (listed on the left or by clicking the menu icon) and complete the Wellbeing Assessment survey.",
+   "After you complete your survey, your provider will call you at the phone number you provided when you scheduled your appointment."
+  ],
+  "source": "https://health.cornell.edu/get-care/appointments/accessing-your-appointment",
+  "claim_id": "99ed82dd-bb26-4378-986d-cee6c7b0b964"
+ },
+ {
   "name": "check in for move-in at 104 Mary Ann Wood Drive",
   "field": "process.check_in_for_move_in_at_104_mary",
   "steps": [
@@ -922,6 +1154,29 @@
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-104-mary-ann-wood-drive",
   "claim_id": "30614f19-d143-4ae0-a659-ebab6a5107ea"
+ },
+ {
+  "name": "check in for move-in at Robert Purcell Community Center",
+  "field": "process.check_in_for_move_in_at_robert_purcell",
+  "steps": [
+   "Check-in at RPCC room 103-105 to receive your keys, student ID and other move-in materials.",
+   "Once checked-in, you\u2019ll be guided to your building\u2019s unloading zone.",
+   "When you arrive at your designated unloading zone, you will sign out a cart or carts and unload your vehicle."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-latino-living-center-llc-anna-comstock-hall",
+  "claim_id": "817c1f00-41d3-411d-847f-61dde692438d"
+ },
+ {
+  "name": "check in on the Housing and Dining Portal after winter break",
+  "field": "process.check_in_on_the_housing_and_dining_portal",
+  "steps": [
+   "Log in to the Housing and Dining Portal with your Cornell NetID",
+   "Click the \"Undergraduate\" tab or button",
+   "Click \"Continue\" for your 2026-27 Academic Year application",
+   "Navigate to the Spring Check-in page and click \"Check In\""
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/returning-winter-break",
+  "claim_id": "4e33b151-c736-4868-9e72-347bedcb259e"
  },
  {
   "name": "check rabies vaccine requirement status",
@@ -962,15 +1217,57 @@
   "claim_id": "3c6e14a4-ce07-4b14-a606-0dfff124d10a"
  },
  {
+  "name": "clone previously-used reserve items via Canvas",
+  "field": "process.clone_previously_used_reserve_items_via_canvas",
+  "steps": [
+   "On your current course\u2019s Canvas page, choose \u201c Library Reserves \u201d from the left-side menu.",
+   "Click \u201c Add Requests \u201c, then using the \u201cCurrent and Previous Courses\u201d list below, choose first the course by clicking the \u201cImport Items\u201d link at left, and then the item(s) within that course you would like to place on reserve."
+  ],
+  "source": "https://www.library.cornell.edu/research-teaching/course-reserves-for-instructors/",
+  "claim_id": "b1e1d91c-a3a1-409c-9eb6-49aae2e6cf28"
+ },
+ {
+  "name": "come into compliance with health requirements",
+  "field": "process.come_into_compliance_with_health_requirements",
+  "steps": [
+   "Go to \"Clearances & Requirements\" in the menu.",
+   "Review your requirements list, and look for items listed with a \"No Data\" or \"Not Satisfied\" status."
+  ],
+  "source": "https://health.cornell.edu/getcare/healthrequirements/compliance-problems",
+  "claim_id": "b454dc37-1d4b-44ae-bd6c-dbe9419d6676"
+ },
+ {
+  "name": "complete a traditional systematic review",
+  "field": "process.complete_a_traditional_systematic_review",
+  "steps": [
+   "Assemble systematic review team and select project manager",
+   "Identify appropriate review methodology",
+   "Define research question",
+   "Define inclusion/exclusion criteria",
+   "Select databases",
+   "Select grey literature resources",
+   "Write search strategy for \u201cmaster\u201d database",
+   "Write and register protocol (written compilation of previous steps)",
+   "Translate search strategy to syntax of all databases (including grey literature)",
+   "Search and export results into citation management software",
+   "De-duplicate results",
+   "Title and abstract screening",
+   "Retrieve full-text articles",
+   "Full-text screening",
+   "Risk-of-bias assessment"
+  ],
+  "source": "https://www.library.cornell.edu/research-teaching/research-support/evidence-synthesis-service/evidence-synthesis-how-librarians-can-help/",
+  "claim_id": "990b57c0-116d-414d-97e1-d72954db20c3"
+ },
+ {
   "name": "complete J-1 status activation",
   "field": "process.complete_j_1_status_activation",
   "steps": [
-   "Gather passport, DS-2019, university identification number and PIN, I-94, local address, U.S. phone number and email",
-   "Complete the online required status activation in myStatus (J-1 Scholar Services > J-1 Scholar Arrival)",
-   "Complete the J-1 scholar orientation"
+   "Take a screenshot of the I-94 or print a copy.",
+   "You must also complete the J-1 scholar orientation."
   ],
   "source": "https://international.globallearning.cornell.edu/getting-started/status-activation-scholars",
-  "claim_id": "1a0a2581-4c13-4f6d-8ae4-acf1ab9be571"
+  "claim_id": "bd2db38a-10dc-49f4-bf5b-4c938c69aeb3"
  },
  {
   "name": "complete move-in steps after moving into off-campus housing",
@@ -989,14 +1286,15 @@
   "name": "complete new student health requirements",
   "field": "process.complete_new_student_health_requirements",
   "steps": [
-   "Identify your requirements in myCornellHealth",
-   "Obtain your immunization records",
-   "If needed, schedule an appointment with your health care provider",
-   "Submit your information by the deadline",
-   "Watch for follow-up messages from Cornell Health"
+   "Identify your requirements.",
+   "Gather or request your official immunization records for submission to Cornell Health.",
+   "Schedule an appointment with your health care provider if you need to receive any required immunizations / TB testing.",
+   "Complete and submit any remaining forms / items listed, and enter immunization / test information.",
+   "Upload official documentation (in English, from a health care provider, school, or military) for each immunization / test you enter.",
+   "Watch for follow-up messages from Cornell Health."
   ],
   "source": "https://health.cornell.edu/getcare/healthrequirements/DC",
-  "claim_id": "8c1da356-9d2c-47e8-a18a-4873b69471ca"
+  "claim_id": "70a29f59-b870-40fb-a965-6a9986be7983"
  },
  {
   "name": "complete Spring Housing Selection as a rising sophomore",
@@ -1012,6 +1310,28 @@
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/current-undergrad-application-process/spring-housing-selection-rising-sophomores",
   "claim_id": "6cb7fb16-8b20-4eb6-8722-e448f62242d6"
+ },
+ {
+  "name": "complete the Humanities Scholars Program junior year plan",
+  "field": "process.complete_the_humanities_scholars_program_junior_year_plan",
+  "steps": [
+   "Students should enroll in SHUM 2750 (fall or spring) and SHUM 3750 (spring) or their equivalents.",
+   "Near the end of junior year, students should articulate a research question that can be developed into a senior capstone project.",
+   "Identify a faculty member to advise the project by the end of junior year."
+  ],
+  "source": "https://as.cornell.edu/research/humanities-scholars-program",
+  "claim_id": "1bc80b1c-4ffa-4962-8aae-ea1563298dd5"
+ },
+ {
+  "name": "complete the Humanities Scholars Program senior year plan",
+  "field": "process.complete_the_humanities_scholars_program_senior_year_plan",
+  "steps": [
+   "Students should enroll in SHUM 4750 (fall and spring).",
+   "Set up an Independent Study for spring semester with your advisor to work on the project (recommended, but not required).",
+   "Spring semester should focus on writing/completing the project and preparing to present it at the Humanities Scholars Research Conference in May."
+  ],
+  "source": "https://as.cornell.edu/research/humanities-scholars-program",
+  "claim_id": "cf13549d-8b09-44cc-b75b-e0a952128bec"
  },
  {
   "name": "complete the New Student To Do List",
@@ -1032,6 +1352,33 @@
   ],
   "source": "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-do-list",
   "claim_id": "ffb8781f-1aca-418f-a162-6e3ff2a80673"
+ },
+ {
+  "name": "complete the Pathways Internship Program requirements",
+  "field": "process.complete_the_pathways_internship_program_requirements",
+  "steps": [
+   "Meet frequently with your career counselor",
+   "Complete all career related assignments throughout the program",
+   "Complete at least 10 summer experience applications",
+   "Complete and submit a summer budget",
+   "Complete a career-related summer experience",
+   "Complete and submit summer reflection"
+  ],
+  "source": "https://as.cornell.edu/careers/pathways-internship-program",
+  "claim_id": "56dd927e-2a2c-4bbc-9f69-134928077f92"
+ },
+ {
+  "name": "configure the Get it! Cornell connector in Google Scholar",
+  "field": "process.configure_the_get_it_cornell_connector_in_google",
+  "steps": [
+   "Click on the Google Scholar menu icon.",
+   "Go to Settings > Select Library links.",
+   "Enter \u201cCornell University\u201d in the \u201cShow library access links\u201d search box.",
+   "Click the checkbox for \u201cCornell University \u2013 Get it! Cornell.\u201d",
+   "Click \u201cSave.\u201d"
+  ],
+  "source": "https://www.library.cornell.edu/collections/off-campus-access/",
+  "claim_id": "e29e6609-ab64-4d60-aef3-df8346a5fd9e"
  },
  {
   "name": "process.confirm_two_year_rule",
@@ -1059,6 +1406,19 @@
   ],
   "source": "https://health.cornell.edu/services/sexual-health-care/contraception",
   "claim_id": "6d2b9647-b774-4aeb-8e5a-64656951b81f"
+ },
+ {
+  "name": "control a bed bug problem in your home",
+  "field": "process.control_a_bed_bug_problem_in_your_home",
+  "steps": [
+   "Clean and get rid of clutter, especially in your bedroom.",
+   "Move your bed away from walls or furniture.",
+   "Vacuum molding, windows and floors every day. Vacuum sides and seams of mattresses, box springs and furniture. Empty the vacuum or the bag immediately and dispose of outside in a sealed container or bag.",
+   "Wash sheets, pillow cases, blankets and bed skirts and put them in a hot dryer for at least 30 minutes. Consider using mattress and box spring covers \u2013the kind used for dust mite control\u2013and put duct tape over the zippers.",
+   "Seal cracks and crevices and any openings where pipes or wires come into the home."
+  ],
+  "source": "https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Community/HNP/Bed-Bugs",
+  "claim_id": "2ae0da06-72e8-4e21-aded-f2b96ca8d97e"
  },
  {
   "name": "process.coop_application",
@@ -1111,10 +1471,10 @@
   "name": "process.counseling_appointment",
   "field": "process.counseling_appointment",
   "steps": [
-   "First schedule a CAPS access appointment (free, 25 minutes) and request a counseling appointment"
+   "First schedule a free 25-minute CAPS access appointment"
   ],
-  "source": "https://health.cornell.edu/services/mental-health-care/embedded/Tech",
-  "claim_id": "2bb26239-4819-4e82-8665-b82fee4aac46"
+  "source": "https://health.cornell.edu/services/mental-health-care/embedded/CVM",
+  "claim_id": "cc16f3e5-795b-45b1-91db-24a97d00186d"
  },
  {
   "name": "process.counseling_appointment",
@@ -1129,10 +1489,10 @@
   "name": "process.counseling_appointment",
   "field": "process.counseling_appointment",
   "steps": [
-   "First schedule a free 25-minute CAPS access appointment"
+   "First schedule a CAPS access appointment (free, 25 minutes) and request a counseling appointment"
   ],
-  "source": "https://health.cornell.edu/services/mental-health-care/embedded/CVM",
-  "claim_id": "cc16f3e5-795b-45b1-91db-24a97d00186d"
+  "source": "https://health.cornell.edu/services/mental-health-care/embedded/Tech",
+  "claim_id": "2bb26239-4819-4e82-8665-b82fee4aac46"
  },
  {
   "name": "process.counseling_appointment",
@@ -1183,6 +1543,19 @@
   ],
   "source": "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment/creating-your-schedule",
   "claim_id": "e0f8a168-5b2f-41ee-8326-7dd3354ca21f"
+ },
+ {
+  "name": "create your course schedule",
+  "field": "process.create_your_course_schedule",
+  "steps": [
+   "Activate your Cornell NetID, email, and Two-Step Login.",
+   "Review your college's course enrollment information and degree requirements.",
+   "Complete your Re-Entry Term Checklist.",
+   "Review the Class Roster, use Scheduler to plan a term schedule, and add classes to your Shopping Cart within Student Center.",
+   "Verify your schedule via Student Center prior to the end of the Add period and again prior to the Drop enrollment period."
+  ],
+  "source": "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment/creating-your-schedule",
+  "claim_id": "d491d081-8173-4e13-8051-7dd94ae2f0cb"
  },
  {
   "name": "process.curricular_gaps",
@@ -1248,6 +1621,17 @@
   "claim_id": "86074044-8856-4487-a7d5-4b2d475d21e7"
  },
  {
+  "name": "download an official Cornell eTranscript",
+  "field": "process.download_an_official_cornell_etranscript",
+  "steps": [
+   "You will receive an email notification that a document has been sent to you. Click the link to the secure website.",
+   "On the secure website, click Next to generate an email to yourself containing the passcode.",
+   "Enter the passcode and click Next. You will then have access to download the official eTranscript."
+  ],
+  "source": "https://registrar.cornell.edu/students/transcripts/validating-etranscript",
+  "claim_id": "e9575fb5-ec67-4b80-9d4c-adee0690831f"
+ },
+ {
   "name": "download an official eTranscript",
   "field": "process.download_an_official_etranscript",
   "steps": [
@@ -1293,12 +1677,11 @@
   "name": "drop off a holiday tree for recycling",
   "field": "process.drop_off_a_holiday_tree_for_recycling",
   "steps": [
-   "Visit the Scale House to get a holiday tree recycling ticket",
-   "Proceed to the yard waste drop-off area",
-   "Hand the ticket to the attendant on duty and drop off your tree"
+   "Upon arrival at the RSWC, visit the Scale House to get a holiday tree recycling ticket.",
+   "Proceed to the yard waste drop-off area, hand the ticket to the attendant on duty and drop off your tree."
   ],
   "source": "https://www.tompkinscountyny.gov/News-articles/Free-Holiday-Tree-Drop-Off-at-Recycling-and-Solid-Waste-Center",
-  "claim_id": "d09061d9-6df1-4569-ae08-ad3b545724cc"
+  "claim_id": "896b5c4d-1c61-41e0-a271-44aee6e836bc"
  },
  {
   "name": "process.early_admission_authorization",
@@ -1404,16 +1787,12 @@
   "name": "enroll in a class",
   "field": "process.enroll_in_a_class",
   "steps": [
-   "Log in to Student Center, click Enroll, and select Add under the Enroll tab",
-   "Select the term in which you will be changing your enrollment",
-   "Enter the Class Number in Enter Class Nbr and select Enter",
-   "Confirm the grading basis and number of units on the Enrollment Preferences page and click Next",
-   "Select Proceed to Step 2 of 3",
-   "Select Finish Enrolling",
-   "View results: a success message and green check mark, or an error message and red X"
+   "Select the term in which you will be changing your enrollment.",
+   "Select Proceed to Step 2 of 3 to continue with your enrollment request.",
+   "Select Finish Enrolling"
   ],
   "source": "https://registrar.cornell.edu/students/enrollment/student-center-help/enrolling-a-class",
-  "claim_id": "12a128dc-1739-4989-a8f5-ac56b4ba6048"
+  "claim_id": "e083dfa1-e249-4c5d-b864-163f2631267a"
  },
  {
   "name": "enroll in a class requiring permission",
@@ -1463,11 +1842,11 @@
   "name": "enroll in Lead 1960",
   "field": "process.enroll_in_lead_1960",
   "steps": [
-   "Email Chris Bode to get an Enrollment Code, including which area of COE you work in and what you are doing",
-   "Use the permission code to add the appropriate Lead 1960 Section in Students Center"
+   "Include which area of COE you work in and what you are doing (for example, PE Instructor teaching B-Rock or first year Odyssey Guide)",
+   "Use the permission code to add the appropriate Lead 1960 Section in Students Center."
   ],
   "source": "https://scl.cornell.edu/coe/lead_1960",
-  "claim_id": "2f8c855b-d5fb-4be6-9fe3-4d8766f26571"
+  "claim_id": "fed37cde-5034-4eb8-a310-f7d0910d3aa9"
  },
  {
   "name": "process.enrollment",
@@ -1491,12 +1870,11 @@
   "name": "enter final grades in Faculty Center",
   "field": "process.enter_final_grades_in_faculty_center",
   "steps": [
-   "Click the grade roster icon next to your class in Faculty Center",
-   "Enter grades for each student",
-   "Click the save button at the bottom of the page"
+   "To enter each grade individually, click on the grade roster icon next to your class in Faculty Center.",
+   "Enter grades for each student and then click the save button at the bottom of the page."
   ],
   "source": "https://registrar.cornell.edu/faculty-staff/faculty-resources/faculty-grading",
-  "claim_id": "aac7d064-2554-4fa4-8401-fdac9ad9679b"
+  "claim_id": "b32e9c63-9034-43a8-b6c6-a554faf1fad3"
  },
  {
   "name": "enter the U.S. as a Cornell employee",
@@ -1617,16 +1995,38 @@
   "claim_id": "b293dced-c6f6-431c-b307-a87bdc732d2c"
  },
  {
+  "name": "extend status with Form I-539",
+  "field": "process.extend_status_with_form_i_539",
+  "steps": [
+   "At Cornell, individuals will work with International Services to apply for and receive an extended I-20 or DS-2019.",
+   "Then they will submit that signed form, along with a completed and signed Form I-539, to USCIS to request an extension of status."
+  ],
+  "source": "https://international.globallearning.cornell.edu/maintaining-your-status/rule-ending-ds-current-analysis",
+  "claim_id": "40842b47-e825-400e-905d-f6c76da779b9"
+ },
+ {
+  "name": "extend your end date",
+  "field": "process.extend_your_end_date",
+  "steps": [
+   "Leave yourself plenty of time.",
+   "Obtain proof of your financial support.",
+   "Meet graduate student requirements.",
+   "Submit your extension request to International Services."
+  ],
+  "source": "https://international.globallearning.cornell.edu/maintaining-your-status/extend-your-end-date",
+  "claim_id": "2fa3191b-bb2b-4fbb-b3da-6e35a9eef46d"
+ },
+ {
   "name": "extend your I-20 or DS-2019 end date",
   "field": "process.extend_your_i_20_or_ds_2019_end",
   "steps": [
-   "Plan ahead: apply at least 30 days before the end date and stay registered in your current program",
-   "Obtain proof of financial support",
-   "Meet graduate student requirements, including the Graduate School signature where applicable",
-   "Submit the F-1 or J-1 Extension Request form to International Services"
+   "Leave yourself plenty of time.",
+   "Obtain proof of your financial support.",
+   "Meet graduate student requirements.",
+   "Submit your extension request to International Services."
   ],
   "source": "https://international.globallearning.cornell.edu/maintaining-your-status/extend-your-end-date",
-  "claim_id": "cfc52824-b2c4-40d1-83c6-e0edbc7adab9"
+  "claim_id": "f09d47f9-e72f-4cc3-bfa9-7d5111e287fe"
  },
  {
   "name": "process.extension_of_status",
@@ -1660,12 +2060,24 @@
   "field": "process.file_a_federal_tax_return_with_sprintax",
   "steps": [
    "Gather your documents.",
-   "Create a Sprintax account.",
+   "Create a Sprintax account",
    "Follow the Sprintax Returns instructions.",
    "Don\u2019t forget your state taxes!"
   ],
   "source": "https://international.globallearning.cornell.edu/employment-and-taxes/file-your-return-sprintax",
-  "claim_id": "969d119b-8ba0-4b0d-8e91-8771ef7c3550"
+  "claim_id": "2307a1e3-cb4d-46a1-97f7-13724f7edbd7"
+ },
+ {
+  "name": "file a tax return with Sprintax",
+  "field": "process.file_a_tax_return_with_sprintax",
+  "steps": [
+   "Gather your documents.",
+   "Create a Sprintax account",
+   "Follow the Sprintax Returns instructions.",
+   "Don\u2019t forget your state taxes!"
+  ],
+  "source": "https://international.globallearning.cornell.edu/employment-and-taxes/file-your-return-sprintax",
+  "claim_id": "e8c0e70e-0971-4b58-881a-3c0da9bd9086"
  },
  {
   "name": "file an EB-2 PERM permanent residency case",
@@ -1686,6 +2098,16 @@
   ],
   "source": "https://www.tompkinscountyny.gov/All-Departments/Veterans-Services/Tompkins-Resources-for-Veterans",
   "claim_id": "ee8f8ad8-7286-4673-804a-aa2a4957e8d6"
+ },
+ {
+  "name": "file Form I-539 on paper with a Cornell-sponsored petition",
+  "field": "process.file_form_i_539_on_paper_with_a",
+  "steps": [
+   "Print your I-539 and any I-539A single-sided, not on both sides of the paper.",
+   "Drop off your completed I-539/I-539A with the International Services scholars team in 115 Day Hall or mail it to International Services, Cornell University, 115 Day Hall, Ithaca, NY 14853."
+  ],
+  "source": "https://international.globallearning.cornell.edu/maintaining-your-status/tips-form-i-539",
+  "claim_id": "1f3509ba-1d9b-48fb-b60f-743830f799a4"
  },
  {
   "name": "finalize a room swap",
@@ -1730,6 +2152,18 @@
   ],
   "source": "https://health.cornell.edu/services/medical/primary-care",
   "claim_id": "37002801-cec2-4d57-8ded-338a0b1cb872"
+ },
+ {
+  "name": "fix the Stellic is not available to you message",
+  "field": "process.fix_the_stellic_is_not_available_to_you",
+  "steps": [
+   "Confirm you received the notification email that Stellic is available to you, titled \u201cIntroducing Stellic @ Cornell, Your New Degree Planning Tool!\u201d from cals-studentservices@cornell.edu to your Cornell-assigned email address.",
+   "Check your spam/junk/deleted items folders.",
+   "Run a search in your inbox and other email folders for \u201ccals-studentservices@cornell.edu\u201d and \u201cStellic.\u201d",
+   "If you have mail-forwarding set up, log in to and check your connected email accounts."
+  ],
+  "source": "https://registrar.cornell.edu/stellic-cornell/stellic-faq",
+  "claim_id": "153516d3-5b5a-4e04-96eb-41d4e1d67730"
  },
  {
   "name": "process.form_i20_ds2019",
@@ -1811,10 +2245,29 @@
   "claim_id": "c0c78c00-7336-4666-8d49-0ed571cfeb02"
  },
  {
+  "name": "get a free headshot at the Profile Picture Kiosk",
+  "field": "process.get_a_free_headshot_at_the_profile_picture",
+  "steps": [
+   "Simply sit in the booth, follow the on-screen instructions, and take up to three photos.",
+   "Once you have three photos you like, edit them in the booth or send them to your email to be edited on your own time."
+  ],
+  "source": "https://scl.cornell.edu/news-events/news/photo-kiosk-helps-cornellians-elevate-their-personal-brands",
+  "claim_id": "7c757d3d-0366-4779-be8e-2aea8b47640e"
+ },
+ {
+  "name": "get a J-1 visa status",
+  "field": "process.get_a_j_1_visa_status",
+  "steps": [
+   "After your hiring department starts a J-1 request in myStatus, you receive an email inviting you to complete your portion of the forms.",
+   "If the request is approved, your DS-2019 (certificate of eligibility for exchange visitor status, J-nonimmigrant) arrives in myStatus documents for you to download."
+  ],
+  "source": "https://international.globallearning.cornell.edu/getting-started/visa-basics",
+  "claim_id": "56b6acf3-58d8-4ba3-bddc-09a8466f5c6a"
+ },
+ {
   "name": "get a New York driver's license",
   "field": "process.get_a_new_york_driver_license",
   "steps": [
-   "Study the driver's manual and take practice tests.",
    "Bring proof of identity to the DMV.",
    "Fill out the application for a learner's permit.",
    "Take a five-hour pre-licensing course.",
@@ -1822,7 +2275,7 @@
    "Receive your license."
   ],
   "source": "https://international.globallearning.cornell.edu/life-cornell/driving-us",
-  "claim_id": "8641f199-f3e3-456a-b4df-59ccaf6b5736"
+  "claim_id": "bc5cad9b-415b-4c09-959e-8c400ae74b8e"
  },
  {
   "name": "get a virtual A or E permit",
@@ -1834,6 +2287,16 @@
   ],
   "source": "https://fcs.cornell.edu/announcements/2023-01-30/virtual-e-permit-renewal-opens-february-1-2023",
   "claim_id": "08507561-850a-41bb-8ac5-b0209256bb7e"
+ },
+ {
+  "name": "get E-3 visa status",
+  "field": "process.get_e_3_visa_status",
+  "steps": [
+   "Your hiring department submits an E-3 request in myStatus. You don\u2019t have to complete any part of this form.",
+   "International Services files a labor condition application (LCA) with the Department of Labor."
+  ],
+  "source": "https://international.globallearning.cornell.edu/getting-started/visa-basics",
+  "claim_id": "908e7950-d9e7-4abb-9fb7-eddb1df06a09"
  },
  {
   "name": "process.get_login",
@@ -1853,6 +2316,27 @@
   ],
   "source": "https://health.cornell.edu/services/sexual-health-care/contraception/EC/options",
   "claim_id": "dd5bdecc-20ae-4f50-b80d-15dd661c28c5"
+ },
+ {
+  "name": "get ready to enter the United States as faculty or staff",
+  "field": "process.get_ready_to_enter_the_united_states_as",
+  "steps": [
+   "Receive your visa eligibility document.",
+   "Before applying for your visa, review and sign the form if necessary."
+  ],
+  "source": "https://international.globallearning.cornell.edu/getting-started/you-arrive",
+  "claim_id": "9c509cb7-b33c-40fe-b809-3853c1bd3ae5"
+ },
+ {
+  "name": "get started on a lounge PC",
+  "field": "process.get_started_on_a_lounge_pc",
+  "steps": [
+   "Log into the ggLeap software on the PC using your Cornell NetID credentials.",
+   "Select a game you would like to play from a variety of pre-installed and updated titles, or open a digital distribution service app (Steam, Epic Games, etc) to download and install another title you own.",
+   "When launching a game, you will be prompted to log in using the digital distribution service for that game."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/community-centers/robert-purcell-community-center/esports-gaming-lounge",
+  "claim_id": "0364f43c-e2f0-4c9c-a156-479a56bd3a8f"
  },
  {
   "name": "get study abroad courses approved",
@@ -1905,17 +2389,17 @@
   "name": "host a J-1 student intern",
   "field": "process.host_a_j_1_student_intern",
   "steps": [
-   "Identify faculty mentor",
-   "Initiate J-1 intern request in myStatus",
-   "Pay student intern fee",
-   "Submit required forms",
-   "Receive DS-2019 and DS-7002",
-   "Apply for J-1 visa",
-   "Arrive and activate status",
-   "Submit evaluation"
+   "Identify faculty mentor.",
+   "Initiate J-1 intern request.",
+   "Pay student intern fee.",
+   "Submit required forms.",
+   "Receive DS-2019 and DS-7002.",
+   "Apply for J-1 visa.",
+   "Arrive and activate status.",
+   "Submit evaluation."
   ],
   "source": "https://international.globallearning.cornell.edu/administrators/short-term-visits/j-1-student-interns",
-  "claim_id": "d3884a3a-1f64-4368-887b-36e87253edbb"
+  "claim_id": "21d89b55-31d5-4373-a694-a1b3e408a869"
  },
  {
   "name": "host an event with alcohol",
@@ -2109,13 +2593,13 @@
   "name": "inspect your fire extinguisher",
   "field": "process.inspect_your_fire_extinguisher",
   "steps": [
-   "Locate the fire extinguisher. It should be hanging on its holder.",
+   "Locate the fire extinguisher.",
    "Check that the arrow is pointing in the green zone of the gauge.",
    "Check the seal and safety pin to make certain they are both in place.",
    "Complete the online inspection log."
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/contact-us/maintenance-requests/fire-extinguisher-inspections",
-  "claim_id": "b9101b98-2403-49a1-9b89-ba3071c12920"
+  "claim_id": "2ef5fd10-e57a-4277-ae8f-4bc616fadea7"
  },
  {
   "name": "install a window air conditioner",
@@ -2159,14 +2643,13 @@
   "name": "invite or extend a J-1 visitor",
   "field": "process.invite_or_extend_a_j_1_visitor",
   "steps": [
-   "Complete a request form for a new J-1 visitor",
-   "Correct or amend your request in myStatus",
-   "The visitor receives a DS-2019",
-   "Tell your J-1 visitor to complete the status activation",
-   "Extend a J-1 program"
+   "Correct or amend your request.",
+   "The visitor receives a DS-2019.",
+   "Tell your J-1 visitor to complete the status activation.",
+   "Extend a J-1 program."
   ],
   "source": "https://international.globallearning.cornell.edu/administrators/j-1-exchange-visa/invite-or-extend-j-1-visitors",
-  "claim_id": "35e359f2-ac9d-40bf-a18b-13b4bbf9c822"
+  "claim_id": "604312f9-2339-400c-adab-473530065dd7"
  },
  {
   "name": "process.itin_application_method",
@@ -2347,7 +2830,7 @@
    "Request service via the CSCPay Mobile app or visit CSC ServiceWorks and enter the machine ID"
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/contact-us/your-laundry-account",
-  "claim_id": "7bc0d93c-55ea-4fd2-86da-0b46e4a4a643"
+  "claim_id": "d06232e6-95d2-4427-ac9a-0b47b354bae5"
  },
  {
   "name": "process.laundry_report_problem",
@@ -2356,7 +2839,7 @@
    "Request service via the CSCPay Mobile app or visit CSC ServiceWorks and enter the machine ID"
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/contact-us/your-laundry-account",
-  "claim_id": "d06232e6-95d2-4427-ac9a-0b47b354bae5"
+  "claim_id": "7bc0d93c-55ea-4fd2-86da-0b46e4a4a643"
  },
  {
   "name": "process.leaving_cornell_form",
@@ -2406,6 +2889,18 @@
   "claim_id": "58158233-1998-4307-b06b-73d444432dcb"
  },
  {
+  "name": "make an F-2 or J-2 request",
+  "field": "process.make_an_f_2_or_j_2_request",
+  "steps": [
+   "Learn about applying for an entry visa.",
+   "Gather proof of financial support.",
+   "Submit your request.",
+   "Pick up your family\u2019s paperwork."
+  ],
+  "source": "https://international.globallearning.cornell.edu/life-cornell/bring-spouse-or-children",
+  "claim_id": "0dd8ca6e-ac30-4020-83d0-4371e971d765"
+ },
+ {
   "name": "process.meal_plan_selection",
   "field": "process.meal_plan_selection",
   "steps": [
@@ -2422,6 +2917,17 @@
   ],
   "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/staff-faculty-meal-plans",
   "claim_id": "3add58d5-50e4-4e8e-959f-8af4daab70d0"
+ },
+ {
+  "name": "meet OPT STEM reporting requirements",
+  "field": "process.meet_opt_stem_reporting_requirements",
+  "steps": [
+   "Report changes of status within 10 days.",
+   "Submit a OPT STEM report every six months.",
+   "Track the number of days you are unemployed."
+  ],
+  "source": "https://international.globallearning.cornell.edu/employment-and-taxes/report-your-opt-employment",
+  "claim_id": "30855902-5e1d-4aa3-848d-45eac47246bf"
  },
  {
   "name": "meet Pathways Internship Program requirements",
@@ -2456,13 +2962,35 @@
   "claim_id": "f0faca1e-2328-48b5-9847-905e024254b6"
  },
  {
-  "name": "process.move_in_date_selection",
-  "field": "process.move_in_date_selection",
+  "name": "move in after 7:00 p.m.",
+  "field": "process.move_in_after_7_00_p_m",
   "steps": [
-   "New students select a move-in date in June"
+   "Proceed directly to your residence hall\u2019s unloading area.",
+   "Call the staff member on-call phone number posted at your building entrance.",
+   "You must return to the North Campus Service Center the following morning to officially check in and obtain your keys/ID."
   ],
-  "source": "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/first-year/your-arrival",
-  "claim_id": "8ffb4900-b4cb-4d46-9b8f-9727483b547b"
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/early-arrival-north-and-south-campus",
+  "claim_id": "239b5233-9040-48d6-bc3e-9c3e67dc72ce"
+ },
+ {
+  "name": "move in after the House Office closes",
+  "field": "process.move_in_after_the_house_office_closes",
+  "steps": [
+   "When you get to your building, call the posted number for access to your room.  The GRF on call will assist you with accessing your room so you may unload your belongings.",
+   "Staff unloading assistance will not be available. You and your guests will be responsible for unloading and moving your belongings to your room."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-1-forest-park-lane",
+  "claim_id": "e0f94e76-4456-457b-81e0-392d64d36088"
+ },
+ {
+  "name": "move in after the Service Center closes",
+  "field": "process.move_in_after_the_service_center_closes",
+  "steps": [
+   "When you get to your building, call the posted number for access to your room.",
+   "Once unloading is complete, move the vehicle to the end of the University Ave Parking Lot."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-301-college-avenue",
+  "claim_id": "d6c638e1-e60a-4b6e-b0b1-07efb02c004d"
  },
  {
   "name": "process.move_in_date_selection",
@@ -2474,17 +3002,47 @@
   "claim_id": "8688f6e9-4d49-4870-a80e-9f1ed3505c60"
  },
  {
+  "name": "process.move_in_date_selection",
+  "field": "process.move_in_date_selection",
+  "steps": [
+   "New students select a move-in date in June"
+  ],
+  "source": "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/first-year/your-arrival",
+  "claim_id": "8ffb4900-b4cb-4d46-9b8f-9727483b547b"
+ },
+ {
+  "name": "move in during North Campus service center hours",
+  "field": "process.move_in_during_north_campus_service_center_hours",
+  "steps": [
+   "Proceed directly to RPCC room 103-105 to check in and pick up your keys/ID (if applicable).",
+   "Proceed to your residence hall unloading area.",
+   "Once unloading is complete, move your vehicle to a designated Move-in parking lot to make space for other arrivals."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/early-arrival-north-and-south-campus",
+  "claim_id": "f066cc87-07ab-4068-b3c3-2a5b21d03f9a"
+ },
+ {
+  "name": "move in during Service Center hours",
+  "field": "process.move_in_during_service_center_hours",
+  "steps": [
+   "You will then proceed to your building for unloading.",
+   "Once unloading is complete, the driver will be asked to move the vehicle to the end of the parking lot."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-301-college-avenue",
+  "claim_id": "1f0feed2-26ab-4800-900a-a89f8e91625f"
+ },
+ {
   "name": "move in on campus",
   "field": "process.move_in_on_campus",
   "steps": [
-   "Check in: arrive and report to your designated arrival location during your timeslot",
-   "Unload your belongings and receive your keys and ID",
-   "Move your vehicle to short-term parking",
-   "Unpack your belongings",
-   "Move your vehicle off campus once three-hour parking expires"
+   "Arrive on campus and report to your designated arrival location during your timeslot.",
+   "Assistance will be provided to unload your vehicle.",
+   "Once your vehicle is unloaded, you\u2019ll be instructed to move your vehicle to short-term parking for up to three hours so that other students and families can access the building.",
+   "Settle into your room at your own pace, keeping in mind your 3-hour parking expiration time.",
+   "Families will need to move their vehicle off campus once their three-hour parking expires."
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus",
-  "claim_id": "cf0ed739-0d82-4e11-ad73-a2854c9f8026"
+  "claim_id": "139d1c6b-0440-4de9-9f45-932f9aa410c2"
  },
  {
   "name": "process.move_in_out_photos",
@@ -2494,6 +3052,69 @@
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out",
   "claim_id": "29b3971e-5bfe-46d0-90a8-66c864c26b68"
+ },
+ {
+  "name": "process.move_in_ticket",
+  "field": "process.move_in_ticket",
+  "steps": [
+   "Print your Move-In Ticket (available in the Housing and Dining Portal after August 1) and have ready to scan upon arrival."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-latino-living-center-llc-anna-comstock-hall",
+  "claim_id": "38a8ab56-bd7a-4c4d-b28a-78b0aa2ca4df"
+ },
+ {
+  "name": "process.move_in_ticket",
+  "field": "process.move_in_ticket",
+  "steps": [
+   "Print your Move-In Ticket (available in the Housing and Dining Portal after August 1) and have ready to scan upon arrival"
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-akwekon",
+  "claim_id": "a5d44293-42c1-4514-809a-2422ffe3cbda"
+ },
+ {
+  "name": "process.move_in_ticket",
+  "field": "process.move_in_ticket",
+  "steps": [
+   "Print your Move-In Ticket (available in the Housing and Dining Portal after August 1) and have ready to scan upon arrival."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall",
+  "claim_id": "40940f9c-1147-416f-9db6-39512577d3c4"
+ },
+ {
+  "name": "process.move_in_ticket",
+  "field": "process.move_in_ticket",
+  "steps": [
+   "Print Move-In Ticket from the Housing and Dining Portal after August 1"
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-west-campus",
+  "claim_id": "b201d1f0-fe71-4b8c-9798-b48b869e702b"
+ },
+ {
+  "name": "process.move_in_ticket",
+  "field": "process.move_in_ticket",
+  "steps": [
+   "Print your Move-In Ticket (available in the Housing and Dining Portal after August 1) and have it ready to scan upon arrival."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-sheldon-court",
+  "claim_id": "1516240d-c3a6-4403-83ae-4548e995bd08"
+ },
+ {
+  "name": "process.move_in_ticket",
+  "field": "process.move_in_ticket",
+  "steps": [
+   "Print Move-In Ticket (available in the Housing and Dining Portal after August 1) and have ready to scan upon arrival"
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus",
+  "claim_id": "6d56f3df-bcb5-4283-ab4d-0a96227ff70f"
+ },
+ {
+  "name": "process.move_in_ticket",
+  "field": "process.move_in_ticket",
+  "steps": [
+   "Print your Move-In Ticket (available in the Housing and Dining Portal after August 1) and have ready to scan upon arrival."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-balch-hall",
+  "claim_id": "8829c38a-5a13-4d6b-b953-61c4ea665231"
  },
  {
   "name": "process.move_in_ticket",
@@ -2512,69 +3133,6 @@
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-104-mary-ann-wood-drive",
   "claim_id": "d1cf5610-281e-4994-a17f-2bf6261a4c9f"
- },
- {
-  "name": "process.move_in_ticket",
-  "field": "process.move_in_ticket",
-  "steps": [
-   "Print Move-In Ticket (available in the Housing and Dining Portal after August 1) and have ready to scan upon arrival"
-  ],
-  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus",
-  "claim_id": "6d56f3df-bcb5-4283-ab4d-0a96227ff70f"
- },
- {
-  "name": "process.move_in_ticket",
-  "field": "process.move_in_ticket",
-  "steps": [
-   "Print your Move-In Ticket (available in the Housing and Dining Portal after August 1) and have ready to scan upon arrival"
-  ],
-  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-akwekon",
-  "claim_id": "a5d44293-42c1-4514-809a-2422ffe3cbda"
- },
- {
-  "name": "process.move_in_ticket",
-  "field": "process.move_in_ticket",
-  "steps": [
-   "Print Move-In Ticket from the Housing and Dining Portal after August 1"
-  ],
-  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-west-campus",
-  "claim_id": "b201d1f0-fe71-4b8c-9798-b48b869e702b"
- },
- {
-  "name": "process.move_in_ticket",
-  "field": "process.move_in_ticket",
-  "steps": [
-   "Print your Move-In Ticket (available in the Housing and Dining Portal after August 1) and have ready to scan upon arrival."
-  ],
-  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-latino-living-center-llc-anna-comstock-hall",
-  "claim_id": "38a8ab56-bd7a-4c4d-b28a-78b0aa2ca4df"
- },
- {
-  "name": "process.move_in_ticket",
-  "field": "process.move_in_ticket",
-  "steps": [
-   "Print your Move-In Ticket (available in the Housing and Dining Portal after August 1) and have it ready to scan upon arrival."
-  ],
-  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-sheldon-court",
-  "claim_id": "1516240d-c3a6-4403-83ae-4548e995bd08"
- },
- {
-  "name": "process.move_in_ticket",
-  "field": "process.move_in_ticket",
-  "steps": [
-   "Print your Move-In Ticket (available in the Housing and Dining Portal after August 1) and have ready to scan upon arrival."
-  ],
-  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-balch-hall",
-  "claim_id": "8829c38a-5a13-4d6b-b953-61c4ea665231"
- },
- {
-  "name": "process.move_in_ticket",
-  "field": "process.move_in_ticket",
-  "steps": [
-   "Print your Move-In Ticket (available in the Housing and Dining Portal after August 1) and have ready to scan upon arrival."
-  ],
-  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall",
-  "claim_id": "40940f9c-1147-416f-9db6-39512577d3c4"
  },
  {
   "name": "process.move_in_ticket",
@@ -2607,42 +3165,6 @@
   "name": "process.move_in_timeslot",
   "field": "process.move_in_timeslot",
   "steps": [
-   "Select a Move-In timeslot in the Housing and Dining Portal."
-  ],
-  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-risley-hall",
-  "claim_id": "10210a0d-e4b2-4478-b58c-c297595b279e"
- },
- {
-  "name": "process.move_in_timeslot",
-  "field": "process.move_in_timeslot",
-  "steps": [
-   "Select a Move-In timeslot in the Housing and Dining Portal; the reserved timeslot is for arrival and check-in only, not unloading"
-  ],
-  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus",
-  "claim_id": "03c47b9d-4f66-40e2-a495-5ba0180656c2"
- },
- {
-  "name": "process.move_in_timeslot",
-  "field": "process.move_in_timeslot",
-  "steps": [
-   "Select a Move-In timeslot in the Housing and Dining Portal; the reserved timeslot is for arrival and check-in only, not unloading"
-  ],
-  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-akwekon",
-  "claim_id": "c0716667-f7ec-45e8-92d5-8708180364fd"
- },
- {
-  "name": "process.move_in_timeslot",
-  "field": "process.move_in_timeslot",
-  "steps": [
-   "Select a Move-In timeslot in the Housing and Dining Portal; the reserved timeslot is for arrival and check-in only, not unloading."
-  ],
-  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-301-college-avenue",
-  "claim_id": "92c7a7d2-7b49-4895-b9bd-e615b3bcee5e"
- },
- {
-  "name": "process.move_in_timeslot",
-  "field": "process.move_in_timeslot",
-  "steps": [
    "Select a Move-In timeslot in the Housing and Dining Portal; the timeslot is for arrival and check-in only, not unloading."
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-104-mary-ann-wood-drive",
@@ -2654,8 +3176,8 @@
   "steps": [
    "Select a Move-In timeslot in the Housing and Dining Portal; the reserved timeslot is for arrival and check-in only, not unloading."
   ],
-  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-equity-and-engagement-community",
-  "claim_id": "71911bfb-21d7-4355-8af9-f2d95f0fbf24"
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-301-college-avenue",
+  "claim_id": "92c7a7d2-7b49-4895-b9bd-e615b3bcee5e"
  },
  {
   "name": "process.move_in_timeslot",
@@ -2685,6 +3207,74 @@
   "claim_id": "af66ab4a-b35d-41db-ad0c-853eb84222ee"
  },
  {
+  "name": "process.move_in_timeslot",
+  "field": "process.move_in_timeslot",
+  "steps": [
+   "Select a Move-In timeslot in the Housing and Dining Portal; the reserved timeslot is for arrival and check-in only, not unloading"
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-akwekon",
+  "claim_id": "c0716667-f7ec-45e8-92d5-8708180364fd"
+ },
+ {
+  "name": "process.move_in_timeslot",
+  "field": "process.move_in_timeslot",
+  "steps": [
+   "Select a Move-In timeslot in the Housing and Dining Portal; the reserved timeslot is for arrival and check-in only, not unloading"
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus",
+  "claim_id": "03c47b9d-4f66-40e2-a495-5ba0180656c2"
+ },
+ {
+  "name": "process.move_in_timeslot",
+  "field": "process.move_in_timeslot",
+  "steps": [
+   "Select a Move-In timeslot in the Housing and Dining Portal; the reserved timeslot is for arrival and check-in only, not unloading."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-equity-and-engagement-community",
+  "claim_id": "71911bfb-21d7-4355-8af9-f2d95f0fbf24"
+ },
+ {
+  "name": "process.move_in_timeslot",
+  "field": "process.move_in_timeslot",
+  "steps": [
+   "Select a Move-In timeslot in the Housing and Dining Portal."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-risley-hall",
+  "claim_id": "10210a0d-e4b2-4478-b58c-c297595b279e"
+ },
+ {
+  "name": "move in to 112 Edgemoor (arriving 8:00 a.m. to 11:00 a.m. on August 18)",
+  "field": "process.move_in_to_112_edgemoor_arriving_8_00",
+  "steps": [
+   "You will sign out a cart or carts and unload your vehicle.",
+   "You and your guests will be responsible for unloading and moving your belongings to your room.",
+   "Once your vehicle is unloaded, proceed to your building check-in location to receive your keys, student ID, and other move-in materials."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-112-edgemoor",
+  "claim_id": "e0c1fb2b-f331-4e76-903a-c5b1e4d98bc6"
+ },
+ {
+  "name": "move in to 1 Forest Park Lane on August 21-22",
+  "field": "process.move_in_to_1_forest_park_lane_on",
+  "steps": [
+   "Arrive on campus and proceed to your residence hall unloading zone. You will sign out a cart or carts and unload your vehicle. You and your guests will be responsible for unloading and moving your belongings to your room.",
+   "Once your vehicle is unloaded, proceed to your check-in location to receive your keys, student ID, and other move-in materials."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-1-forest-park-lane",
+  "claim_id": "57b6db7f-4468-4016-b66b-69a8725d5f78"
+ },
+ {
+  "name": "move in to a North Campus residence after 8:00 p.m. on Monday, August 17",
+  "field": "process.move_in_to_a_north_campus_residence_after",
+  "steps": [
+   "Proceed to your residence hall unloading zone (listed below).",
+   "When you get to your building, call the posted number for access to your room.",
+   "The following day, visit the North Campus Check-in Desk located in Robert Purcell Community Center to retrieve keys and ID beginning at 8 am."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus",
+  "claim_id": "39d75da2-b818-43ac-a6a4-0352871a0db3"
+ },
+ {
   "name": "move in to a North Campus residence by vehicle",
   "field": "process.move_in_to_a_north_campus_residence_by",
   "steps": [
@@ -2696,6 +3286,16 @@
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus",
   "claim_id": "89901d00-582e-4f26-b995-d4349ae61802"
+ },
+ {
+  "name": "move in to a North Campus residence on Friday, August 21 or Saturday, August 22 between 9:00 a.m. and 5:00 p.m.",
+  "field": "process.move_in_to_a_north_campus_residence_on",
+  "steps": [
+   "Once checked-in, you\u2019ll be guided to your building\u2019s unloading zone.",
+   "When you arrive at your designated unloading zone, you will sign out a bin or bins and unload your vehicle. We will provide assistance to unload your vehicle, but please know that you and your guests will be responsible for moving your belongings to your room."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus",
+  "claim_id": "85ce2bf2-e7cf-48db-a679-fa96ed8a8d12"
  },
  {
   "name": "move in to Akwe:kon after the Service Center opens",
@@ -2711,6 +3311,18 @@
   "claim_id": "b8722a85-c70e-4b07-bb00-27789f3d393d"
  },
  {
+  "name": "move in to Balch Hall when arriving between 12:30 p.m. and 8:00 p.m. on August 17",
+  "field": "process.move_in_to_balch_hall_when_arriving_between",
+  "steps": [
+   "Check-in at RPCC room 103-105 to receive your keys, student ID and other move-in materials.",
+   "Once checked-in, you\u2019ll be guided to your building\u2019s unloading zone.",
+   "When you arrive at your designated unloading zone, you will sign out a cart or carts and unload your vehicle.",
+   "Once your vehicle is unloaded, follow directions to your 3-hour short-term parking."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-balch-hall",
+  "claim_id": "cc37c540-a10a-4ff8-9fa1-36a18a9d0dd0"
+ },
+ {
   "name": "move in to Cascadilla Hall",
   "field": "process.move_in_to_cascadilla_hall",
   "steps": [
@@ -2722,6 +3334,16 @@
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall",
   "claim_id": "9e170f05-4088-4f97-a6bc-f9f53e00a33f"
+ },
+ {
+  "name": "move in to Cascadilla Hall when arriving 8:00 a.m.-11:00 a.m. on August 18",
+  "field": "process.move_in_to_cascadilla_hall_when_arriving_8",
+  "steps": [
+   "Proceed directly to your residence hall unloading zone.  You will sign out a cart or carts and unload your vehicle.",
+   "Once your vehicle is unloaded, proceed to your building check-in location to receive your keys, student ID, and other move-in materials."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall",
+  "claim_id": "02ae7f54-ef2c-4cb4-963c-b1c6be11395c"
  },
  {
   "name": "move in to Equity and Engagement Community (arrival 11:30a.m.\u20137:00p.m.)",
@@ -2775,6 +3397,60 @@
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-schuyler-house",
   "claim_id": "2b94c8a0-3da9-4d6a-8e6e-0ba8332b5087"
+ },
+ {
+  "name": "move in to Schuyler House when arriving between 8:00 a.m. and 11:00 a.m. on August 18",
+  "field": "process.move_in_to_schuyler_house_when_arriving_between",
+  "steps": [
+   "You will sign out a bin or bins and unload your vehicle.",
+   "Once your vehicle is unloaded, proceed to your building check-in location to receive your keys, student ID, and other move-in materials.",
+   "Once unloading is complete, the driver will be asked to move the vehicle to the spaces furthest from the door in the building parking lot."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-schuyler-house",
+  "claim_id": "73f800d6-560b-4944-a002-bfe74c8fad53"
+ },
+ {
+  "name": "move in to the Equity and Engagement Community when arriving between 11:30a.m. and 7:00p.m. on August 18",
+  "field": "process.move_in_to_the_equity_and_engagement_community",
+  "steps": [
+   "Once checked-in, you\u2019ll be guided to your building\u2019s unloading zone.",
+   "When you arrive at your designated unloading zone, you will sign out a cart or carts and unload your vehicle."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-equity-and-engagement-community",
+  "claim_id": "94dfb254-d0ce-4f30-8898-867e3e036272"
+ },
+ {
+  "name": "move in to West Campus housing by vehicle",
+  "field": "process.move_in_to_west_campus_housing_by_vehicle",
+  "steps": [
+   "Arrive on campus and proceed directly to the University Ave Lot where your vehicle will be queued for Move-In.",
+   "Once checked in, you\u2019ll be guided to your building\u2019s unloading zone.",
+   "When you arrive at your designated unloading zone, you will sign out a bin or bins and unload your vehicle.",
+   "Once your vehicle is unloaded, follow directions to your 3-hour short-term parking."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-west-campus",
+  "claim_id": "4bd895e7-5a40-44e2-959c-b0879f708dfc"
+ },
+ {
+  "name": "move out of an undergraduate residence hall",
+  "field": "process.move_out_of_an_undergraduate_residence_hall",
+  "steps": [
+   "Complete the Spring Semester Closing Notice and Checklist posted on your suite/room/exterior door.",
+   "Dispose of all trash and recycling in the proper building dumpsters. (Charges apply for excess trash left behind.)",
+   "Donate usable items to the Project ReCollect collection area in your lobby.",
+   "Clean your bathroom and kitchen (if applicable).",
+   "Place all items \u201cborrowed\u201d from dining rooms in the collection bins \u2014 do not throw them away.",
+   "Remove all decorations from walls, doors, and furniture.",
+   "Remove personal food from shared refrigerators",
+   "Defrost, clean, unplug, and prop open your MicroFridge.",
+   "Vacuum or sweep your floor.",
+   "Clean any marks on walls or doors that you can.",
+   "Close and lock windows; close drapes/shades; turn off lights.",
+   "Lock your room/suite/apartment door.",
+   "Turn in *all keys* at the Service Center or House Office before you leave"
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-out",
+  "claim_id": "3abe48ee-0835-488d-bacd-b9dbc646fd27"
  },
  {
   "name": "move out of undergraduate residence hall",
@@ -2855,6 +3531,17 @@
   "claim_id": "62c535b4-f2f1-4979-9bb5-5d147978da13"
  },
  {
+  "name": "obtain a J-1 exchange visitor visa",
+  "field": "process.obtain_a_j_1_exchange_visitor_visa",
+  "steps": [
+   "The department is responsible for initiating the J-1 initial scholar request in myStatus.",
+   "International Services creates the DS-2019 certificate of eligibility.",
+   "The visitor applies for a J-1 visa stamp at a U.S. consulate."
+  ],
+  "source": "https://international.globallearning.cornell.edu/administrators/visa-sponsorship/scholar-visa-types",
+  "claim_id": "6ec6bb42-083a-446b-9af8-62a57d84dcdf"
+ },
+ {
   "name": "obtain a spouse/partner ID card",
   "field": "process.obtain_a_spouse_partner_id_card",
   "steps": [
@@ -2911,12 +3598,11 @@
   "name": "order an official transcript through Student Center",
   "field": "process.order_an_official_transcript_through_student_center",
   "steps": [
-   "Log in to Student Center with netID and password",
    "Navigate to \"Other Academics\"",
    "Select \"Official Transcript\" from the drop-down menu"
   ],
   "source": "https://registrar.cornell.edu/students/transcripts/ordering-official-transcript",
-  "claim_id": "2ee7dc2a-6484-49d3-ab90-865289d9fd28"
+  "claim_id": "92392e75-f01f-4803-a742-f27330302f05"
  },
  {
   "name": "process.ordering_url",
@@ -3070,6 +3756,21 @@
   "claim_id": "e307372f-4ca9-47df-b99f-17342a43a1c8"
  },
  {
+  "name": "prepare for moving out of an apartment",
+  "field": "process.prepare_for_moving_out_of_an_apartment",
+  "steps": [
+   "Confirm Move Out Date & Time with Landlord/Property Manager",
+   "Schedule Final Inspection Landlord/Property Manager",
+   "Review Lease for conditions for moving out",
+   "Change Address with Post Office",
+   "Call to schedule disconnection of services (if you pay for these services).",
+   "Clean your apartment",
+   "Provide a forwarding address"
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out",
+  "claim_id": "fcaf535f-f3cc-43d7-97c5-5efa12762eab"
+ },
+ {
   "name": "prepare for West Campus move-in",
   "field": "process.prepare_for_west_campus_move_in",
   "steps": [
@@ -3095,6 +3796,33 @@
   "claim_id": "e332b313-26b9-4e6e-b305-8dbc5dd2d858"
  },
  {
+  "name": "prepare to leave the country after graduating",
+  "field": "process.prepare_to_leave_the_country_after_graduating",
+  "steps": [
+   "Change your address with the U.S. Post Office.",
+   "Share your mailing address and preferred email with friends, professors, student groups, and professional associations.",
+   "Clear all accounts.",
+   "Return any department or work keys.",
+   "Return any other items you may have borrowed.",
+   "Check out of your dorm or apartment."
+  ],
+  "source": "https://international.globallearning.cornell.edu/maintaining-your-status/graduating",
+  "claim_id": "27278915-6151-4d11-b8aa-64cfcd30e8dd"
+ },
+ {
+  "name": "prepare to leave the U.S.",
+  "field": "process.prepare_to_leave_the_u_s",
+  "steps": [
+   "End your data plan and make sure your final bill is paid. If you have a land line, contact the phone company to disconnect it. Notify utility companies (NYSEG, cable, etc.). Ask if you can pay the bills before you leave.",
+   "Clear all debts and accounts. Contact credit card companies to see if you can settle your outstanding payments before you leave. Close your U.S. bank account.",
+   "File any medical insurance claims that are still outstanding. Pay any balance you owe. Note when your health insurance expires to see if you are leaving the United States after this date.",
+   "If you checked out books or other materials from the library, be sure to return them. Fines are imposed on missing books.",
+   "Check out of your apartment or rental. Leave forwarding contact information with the manager. Return your keys, and request the return of your security deposit."
+  ],
+  "source": "https://international.globallearning.cornell.edu/maintaining-your-status/transfer-or-leave",
+  "claim_id": "cc8e6494-a178-43e7-a783-d0d2608672f7"
+ },
+ {
   "name": "prepare to move out of an apartment",
   "field": "process.prepare_to_move_out_of_an_apartment",
   "steps": [
@@ -3108,6 +3836,18 @@
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out",
   "claim_id": "e2bfb9ab-0c7a-4970-a481-1dc6dc7f4524"
+ },
+ {
+  "name": "prepare your room before leaving for Winter Break",
+  "field": "process.prepare_your_room_before_leaving_for_winter_break",
+  "steps": [
+   "Take all trash and recycling to the trash room/dumpster",
+   "Unplug all electronic devices and surge protectors from wall outlets",
+   "Turn off lights",
+   "Take keys, ID card, and documents you need for travel"
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads",
+  "claim_id": "d5752a67-4b4f-464b-922e-92f86ed0a3bf"
  },
  {
   "name": "process.prescription_ec_timing",
@@ -3131,17 +3871,35 @@
   "name": "print a basic document on the Braille embosser",
   "field": "process.print_a_basic_document_on_the_braille_embosser",
   "steps": [
-   "Turn the printer on",
-   "Check that the paper is properly fed into the front of the printer",
-   "Press the OL switch, then press TF to advance the paper to the top of the page",
-   "Open the Duxbury app on the connected computer",
-   "Open the file with File > Open or CTRL+O and select a template",
-   "Translate with File > Translate or Ctrl+T",
-   "Emboss with CTRL+E or the Emboss button",
-   "Press OL, then FF to eject the paper, separate it from the tractor roll, and turn off the printer"
+   "Turn the printer on.",
+   "Check that the paper is properly fed into the front of the printer.",
+   "On the connected computer, open the Duxbury app.",
+   "Go to File > Translate or press Ctrl+T to turn the text into Braille.",
+   "To start embossing, press CTRL+E or click on the Emboss button in Duxbury."
   ],
   "source": "https://www.library.cornell.edu/get-help/disability-services/braille-embosser-instructions/",
-  "claim_id": "804b1ed4-707f-4107-9358-3951672db4a7"
+  "claim_id": "f6b97e9c-2995-4608-bef7-a71b49eff0a5"
+ },
+ {
+  "name": "print a test print of sample graphics",
+  "field": "process.print_a_test_print_of_sample_graphics",
+  "steps": [
+   "Press and hold the LF and TF buttons at the same time and keep pressing them.",
+   "Turn on the printer."
+  ],
+  "source": "https://www.library.cornell.edu/get-help/disability-services/braille-embosser-instructions/",
+  "claim_id": "471c3931-e896-4ceb-aa9c-f5726cd15a53"
+ },
+ {
+  "name": "print a test print of text",
+  "field": "process.print_a_test_print_of_text",
+  "steps": [
+   "Press and hold down the FF button.",
+   "Turn the printer on.",
+   "It will print a test message with the current model number and the firmware version number."
+  ],
+  "source": "https://www.library.cornell.edu/get-help/disability-services/braille-embosser-instructions/",
+  "claim_id": "1ff96210-3064-4427-a392-0af2f41497d8"
  },
  {
   "name": "process.program_house_application",
@@ -3151,33 +3909,6 @@
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/program-houses",
   "claim_id": "8bc73aff-2e11-4298-b43b-7e9e1a7ca0fa"
- },
- {
-  "name": "process.program_house_selection",
-  "field": "process.program_house_selection",
-  "steps": [
-   "Rising junior and rising senior students select during fall Housing Selection; rising sophomores during spring General Room Selection; new students indicate preference on the New Student Housing Application"
-  ],
-  "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/equity-engagement-community-eec",
-  "claim_id": "e0cedb79-e642-46c0-9f6f-d4b422dac576"
- },
- {
-  "name": "process.program_house_selection",
-  "field": "process.program_house_selection",
-  "steps": [
-   "Rising juniors and seniors select a program house in fall Housing Selection; rising sophomores in spring General Room Selection; new students on the New Student Housing Application"
-  ],
-  "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam",
-  "claim_id": "a51334da-2d16-40e1-bfed-412709f123a8"
- },
- {
-  "name": "process.program_house_selection",
-  "field": "process.program_house_selection",
-  "steps": [
-   "Rising juniors and seniors select in the fall Housing Selection process; rising sophomores during spring General Room Selection; new students indicate preference on the New Student Housing Application"
-  ],
-  "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/multicultural-living-learning-unit-mcllu",
-  "claim_id": "98ae7c34-9271-44a3-8ebf-8d121d14aa9d"
  },
  {
   "name": "process.program_house_selection",
@@ -3201,6 +3932,24 @@
   "name": "process.program_house_selection",
   "field": "process.program_house_selection",
   "steps": [
+   "Rising juniors and seniors select in the fall Housing Selection process; rising sophomores during spring General Room Selection; new students indicate preference on the New Student Housing Application"
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/multicultural-living-learning-unit-mcllu",
+  "claim_id": "98ae7c34-9271-44a3-8ebf-8d121d14aa9d"
+ },
+ {
+  "name": "process.program_house_selection",
+  "field": "process.program_house_selection",
+  "steps": [
+   "Rising juniors and seniors select a program house in fall Housing Selection; rising sophomores in spring General Room Selection; new students on the New Student Housing Application"
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam",
+  "claim_id": "a51334da-2d16-40e1-bfed-412709f123a8"
+ },
+ {
+  "name": "process.program_house_selection",
+  "field": "process.program_house_selection",
+  "steps": [
    "Rising juniors and seniors select in fall Housing Selection; rising sophomores in spring General Room Selection; new students on New Student Housing Application"
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house",
@@ -3214,6 +3963,15 @@
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/latino-living-center-llc",
   "claim_id": "6fc2dbf5-ab06-4977-8946-9eef76c86153"
+ },
+ {
+  "name": "process.program_house_selection",
+  "field": "process.program_house_selection",
+  "steps": [
+   "Rising junior and rising senior students select during fall Housing Selection; rising sophomores during spring General Room Selection; new students indicate preference on the New Student Housing Application"
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/equity-engagement-community-eec",
+  "claim_id": "e0cedb79-e642-46c0-9f6f-d4b422dac576"
  },
  {
   "name": "process.proxy_checkout_affiliated",
@@ -3232,6 +3990,16 @@
   ],
   "source": "https://www.library.cornell.edu/collections/borrow-renew-return/policies/proxy-borrower/",
   "claim_id": "14441b88-87a0-40e5-968f-301ffc8a66c6"
+ },
+ {
+  "name": "put a FERPA restriction on your record",
+  "field": "process.put_a_ferpa_restriction_on_your_record",
+  "steps": [
+   "Click \u2018Edit FERPA/Directory Restrictions\u2019 and then mark the \u2018No Information Releasable\u2019 checkbox and press \u2018Save\u2019.",
+   "Click OK to confirm."
+  ],
+  "source": "https://registrar.cornell.edu/policies/ferpa",
+  "claim_id": "8ffb7edf-715a-492a-83f2-b695b9995a8d"
  },
  {
   "name": "process.ra_interview_signup",
@@ -3255,11 +4023,11 @@
   "name": "receive credit by exam as an external transfer student",
   "field": "process.receive_credit_by_exam_as_an_external_transfer",
   "steps": [
-   "Contact the relevant testing agency and request that the testing agency send scores to Cornell",
-   "Submit a written request to the college/school registrar that the credit earned by exam be applied to degree requirements"
+   "contact the relevant testing agency and request that the testing agency send their scores to Cornell and",
+   "submit a written request to their college/school registrar that the credit earned by exam be applied to their degree requirements."
   ],
   "source": "https://registrar.cornell.edu/students/credit-evaluation-services",
-  "claim_id": "676d444a-1b8e-4ace-94ec-d29d4c86b4b8"
+  "claim_id": "371a0969-48bf-4059-a5a4-c837635add29"
  },
  {
   "name": "process.recommendation_submission",
@@ -3320,6 +4088,16 @@
   "claim_id": "35e5bd05-ef09-4add-bebf-62b69c5c475d"
  },
  {
+  "name": "register a bicycle or micromobility device and request bike room access",
+  "field": "process.register_a_bicycle_or_micromobility_device_and_request",
+  "steps": [
+   "All devices must be registered on campus via the",
+   "Once you have registered your bike or micromobility device, you can fill out the"
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/bicycle-registration-storage",
+  "claim_id": "6c5d4894-8035-402b-bc43-91b7a894566e"
+ },
+ {
   "name": "register a bike or micromobility device",
   "field": "process.register_a_bike_or_micromobility_device",
   "steps": [
@@ -3337,6 +4115,26 @@
   ],
   "source": "https://www.library.cornell.edu/collections/borrow-renew-return/request/borrow-direct/",
   "claim_id": "897c7ad9-cf17-489c-af87-eb88fb024e46"
+ },
+ {
+  "name": "renew BorrowDirect and Interlibrary Loan items in My Account",
+  "field": "process.renew_borrowdirect_and_interlibrary_loan_items_in_my",
+  "steps": [
+   "Under the View menu, select \u201cChecked out items\u201d and click on the Transaction Number of the item to be renewed",
+   "Click \u201cRenew request\u201d at the top of the page."
+  ],
+  "source": "https://www.library.cornell.edu/collections/borrow-renew-return/renew-books/",
+  "claim_id": "79c834c0-e589-4a99-8a2b-2b13c8392b07"
+ },
+ {
+  "name": "renew BorrowDirect and Interlibrary Loan items through My Account",
+  "field": "process.renew_borrowdirect_and_interlibrary_loan_items_through_my",
+  "steps": [
+   "Under the View menu, select \u201cChecked out items\u201d and click on the Transaction Number of the item to be renewed",
+   "Click \u201cRenew request\u201d at the top of the page."
+  ],
+  "source": "https://www.library.cornell.edu/collections/borrow-renew-return/renew-books/",
+  "claim_id": "3328be82-8871-4e5a-bfd3-2d1c0f0f163a"
  },
  {
   "name": "renew Cornell-owned library items",
@@ -3385,23 +4183,21 @@
   "name": "request a bed height adjustment",
   "field": "process.request_a_bed_height_adjustment",
   "steps": [
-   "Place a maintenance request",
-   "In the \"Request Type\" box, select \"Repair, Maintenance,Service.\"",
+   "Place a maintenance request (link below), and in the \"Request Type\" box, select \"Repair, Maintenance,Service.\"",
    "In the \"Request Summary\" box, type in your request to have your bed lowered."
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/contact-us/maintenance-requests/bed-elevation-furniture-configuration",
-  "claim_id": "6bb17b12-9805-40b4-a42d-5c11cdf2c612"
+  "claim_id": "66133c71-98d1-401d-907e-55ca5e986333"
  },
  {
   "name": "request a club sports verification",
   "field": "process.request_a_club_sports_verification",
   "steps": [
-   "Complete the OUR Verification Request.",
-   "Complete the organization verification form with name, 7 digit Cornell ID number and signature for each student.",
-   "Submit completed forms in-person (245 Day Hall) or via Secure File Transfer."
+   "Complete the organization verification form.",
+   "Submit completed forms in-person (245 Day Hall; M-Th, 9am-1pm, 2pm-4pm) or via"
   ],
   "source": "https://registrar.cornell.edu/students/services/club-sports-verifications",
-  "claim_id": "d91cb2b3-a439-4645-8117-b522c1d2b44e"
+  "claim_id": "984fe393-d3ee-4794-8440-66e0eacd3a9a"
  },
  {
   "name": "request a credit transfer",
@@ -3438,6 +4234,16 @@
   "claim_id": "b62ad4c1-434e-40fe-9599-37dd15451096"
  },
  {
+  "name": "request a prescription transfer",
+  "field": "process.request_a_prescription_transfer",
+  "steps": [
+   "You must have refills left on your prescription.",
+   "Select \u201cPharmacy Requests\u201d > \u201cNew Message\u201d > \"Request pharmacy services or send a message to the pharmacy.\""
+  ],
+  "source": "https://health.cornell.edu/services/pharmacy",
+  "claim_id": "bc3292ae-5aac-43be-8687-74d4c892c87c"
+ },
+ {
   "name": "request an enrollment deferral",
   "field": "process.request_an_enrollment_deferral",
   "steps": [
@@ -3446,6 +4252,17 @@
   ],
   "source": "https://faq.enrollment.cornell.edu/kb/article/51-does-cornell-grant-deferrals/",
   "claim_id": "c5e4bb81-a9f7-4377-9688-25c875023623"
+ },
+ {
+  "name": "request an enrollment verification through Student Center",
+  "field": "process.request_an_enrollment_verification_through_student_center",
+  "steps": [
+   "Under Academics, click the Other Academic Information drop-down",
+   "Click Enrollment Verification and arrow.",
+   "A new window will open to the NSC request page"
+  ],
+  "source": "https://registrar.cornell.edu/students/certifications-enrollment-and-degree",
+  "claim_id": "f9df5acb-1bc3-47f4-9837-59ad098b3dc1"
  },
  {
   "name": "request an event that may require a waiver",
@@ -3458,17 +4275,34 @@
   "claim_id": "f6582344-8daa-4406-964a-efb9945b8b9f"
  },
  {
+  "name": "request an Incomplete grade in Faculty Center",
+  "field": "process.request_an_incomplete_grade_in_faculty_center",
+  "steps": [
+   "To request an Incomplete, click Initiate Incomplete for the student.",
+   "Complete the Incomplete Grade Details section for the student\u2019s request.",
+   "Complete the attestation checkbox that the incomplete request meets Faculty Handbook requirements",
+   "Enter the Remaining Work to be completed by student",
+   "Enter the Remaining Work Required By date",
+   "Select the Expected Grade if Completed (if unknown, select TBD)",
+   "Select the Current Final Grade",
+   "Select the Registrar Action if deadline is missed by student",
+   "Click Submit"
+  ],
+  "source": "https://registrar.cornell.edu/incomplete-requests-faculty-center",
+  "claim_id": "e0ab9af0-3c8a-4af8-80df-1e018ff76465"
+ },
+ {
   "name": "request an Incomplete (INC) date extension",
   "field": "process.request_an_incomplete_inc_date_extension",
   "steps": [
-   "In Faculty Center, navigate to the term and class for the student.",
-   "Click Initiate Grade Change on the student.",
+   "In Faculty Center, navigate to the term and class for the student where the date extension is being requested.",
+   "Click \u2018Initiate Grade Change\u2019 on the student",
    "Select the Reason of Incomplete Grade Extension.",
-   "Enter the new Remaining Work Required by date.",
-   "Click Submit; the College Registrar approvers review the request."
+   "The \u2018Remaining Work Required by\u2019 date will be required for entry.",
+   "Click Submit."
   ],
   "source": "https://registrar.cornell.edu/incomplete-requests-faculty-center",
-  "claim_id": "d4a72295-86de-46e2-a5c3-0a70b8046b68"
+  "claim_id": "59aa202d-b60f-45c3-af7a-5cfcb0fae4a0"
  },
  {
   "name": "request an individual exemption from the residential requirement",
@@ -3660,13 +4494,13 @@
   "name": "reset a tripped circuit breaker",
   "field": "process.reset_a_tripped_circuit_breaker",
   "steps": [
-   "Check that your room has a circuit breaker (it may be in your closet).",
-   "Turn off your light switches and unplug all devices from the affected power outlet(s).",
-   "Open your circuit breaker box and find switches in the middle position between \"on\" and \"off.\"",
+   "First check to make sure your room has a circuit breaker (it may be in your closet).",
+   "Next, turn off your light switches and unplug all devices from the affected power outlet(s).",
+   "Open your circuit breaker box, and find switches that are in the middle position between \"on\" and \"off.\"",
    "Move these switches first to \"off\" and then to \"on.\""
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/contact-us/maintenance-requests/tripped-breaker",
-  "claim_id": "40f65767-911f-4bd7-b3de-f72407fb3070"
+  "claim_id": "e73cf3b5-1286-48ab-b92d-725936b98751"
  },
  {
   "name": "resolve a conflict with a neighbor or roommate",
@@ -3695,11 +4529,15 @@
   "field": "process.resolve_an_incomplete_inc_grade",
   "steps": [
    "In Faculty Center, navigate to the term and class for the student.",
-   "Click Initiate Grade Change on the student, select the Reason of Incomplete Resolved, select the New Official Grade, enter the Date Final Work Submitted, complete the attestation checkbox and click Submit.",
-   "The College Registrar approvers review the request; if approved the grade is updated to the New Official Grade."
+   "Click \u2018Initiate Grade Change\u2019 on the student",
+   "Select the Reason of Incomplete Resolved.",
+   "Select the New Official Grade",
+   "Enter the Date Final Work Submitted.",
+   "Complete the attestation checkbox indicating the student\u2019s grade change meets the student\u2019s incomplete requirements (which may or may not have been fully completed).",
+   "Click Submit."
   ],
   "source": "https://registrar.cornell.edu/incomplete-requests-faculty-center",
-  "claim_id": "b8c15d1c-f793-4792-a189-48b6efd6c5b8"
+  "claim_id": "063703e3-72b1-4259-a6bc-fc369f73ad51"
  },
  {
   "name": "process.return_from_leave_new_i20",
@@ -3778,10 +4616,10 @@
   "field": "process.schedule_a_caps_access_appointment",
   "steps": [
    "Log in to myCornellHealth using your Cornell NetID and password, and select \"Appointments\"",
-   "Or call Cornell Health during business hours to speak with a scheduler: 607-255-5155"
+   "Or call Cornell Health during business hours to speak with a scheduler:"
   ],
-  "source": "https://health.cornell.edu/services/mental-health-care/embedded/ives",
-  "claim_id": "8cca665a-dfb0-423f-9956-63b20527d9a9"
+  "source": "https://health.cornell.edu/services/mental-health-care/embedded/CVM",
+  "claim_id": "eee58adb-9036-4e6f-995a-90d0c3939582"
  },
  {
   "name": "schedule a Cornell Health appointment",
@@ -3853,12 +4691,36 @@
   "name": "search for housing",
   "field": "process.search_for_housing",
   "steps": [
-   "Prepare",
-   "Search",
-   "Signing the Lease"
+   "Before beginning your housing search, reflect carefully on essentials and preferences.",
+   "Take your time reviewing all available options.",
+   "Signing a lease is an important step when securing a rental."
   ],
   "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process",
-  "claim_id": "283f54d1-c761-402c-ac84-82a0c2e7ae26"
+  "claim_id": "3be889e3-ca79-44ba-924b-a46a9da923d1"
+ },
+ {
+  "name": "search for off-campus housing",
+  "field": "process.search_for_off_campus_housing",
+  "steps": [
+   "Begin your search using the widest criteria possible. Narrow your choices by adding more features.",
+   "Inspect the actual unit you intend to lease, and consider writing necessary repairs into the lease.",
+   "Check the security of the unit.",
+   "Check the fire safety of the unit (a smoke detector is required by law).",
+   "Be sure that there are two means of egress (exit) from the unit.",
+   "Arrange for telephone service and utilities to be turned on by the time you move in."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations",
+  "claim_id": "1af00835-6b78-4538-a75a-91fa64760e8f"
+ },
+ {
+  "name": "select a room during Spring Housing Selection",
+  "field": "process.select_a_room_during_spring_housing_selection",
+  "steps": [
+   "At the beginning of your timeslot, sign in to the Housing and Dining Portal and pick your room, and your blockmates' rooms if you are in a block.",
+   "Once you select a room(s), you will be asked to electronically accept the housing Terms and Conditions and sign your housing license."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/current-undergrad-application-process/room-selection-faqs",
+  "claim_id": "6d1bd7f2-5b8e-4b67-ac68-d3235de1a671"
  },
  {
   "name": "process.selection_options",
@@ -3918,6 +4780,16 @@
   "claim_id": "471daf39-4f88-4074-9b44-cac57493d093"
  },
  {
+  "name": "set up a laundry account in CSCPay Mobile",
+  "field": "process.set_up_a_laundry_account_in_cscpay_mobile",
+  "steps": [
+   "To set up your account, enter your email and choose your password.",
+   "To set your laundry location, enter the zip code for Cornell University (14853) and select Cornell University as your location."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/contact-us/your-laundry-account",
+  "claim_id": "07b11f05-2ec5-4d53-a6d8-637e1ff98751"
+ },
+ {
   "name": "set up auto deposit in GET Funds",
   "field": "process.set_up_auto_deposit_in_get_funds",
   "steps": [
@@ -3927,6 +4799,19 @@
   ],
   "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/manage-your-account",
   "claim_id": "9defe4a7-6561-40bb-b409-0b3f9251fec9"
+ },
+ {
+  "name": "settle in after moving into off-campus housing",
+  "field": "process.settle_in_after_moving_into_off_campus_housing",
+  "steps": [
+   "Complete a thorough inventory of your apartment.",
+   "Give a copy of your inspection form and pictures to the landlord.",
+   "Purchase renter\u2019s insurance.",
+   "Consider purchasing additional fire safety equipment (fire extinguisher, and/or smoke detectors).",
+   "Always get a written receipt from your landlord when you pay rent or deposits."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations",
+  "claim_id": "0f2f8d9c-09d8-4a9f-918f-f182f1f1119b"
  },
  {
   "name": "sign up for Fall Housing Selection",
@@ -3993,6 +4878,20 @@
   ],
   "source": "https://fcs.cornell.edu/announcements/2023-01-12/winter-weather-reminders-grounds-department",
   "claim_id": "188ee5a6-6b93-4a41-8736-91da158ba067"
+ },
+ {
+  "name": "sponsor a permanent residency petition through EB-2 labor certification (PERM)",
+  "field": "process.sponsor_a_permanent_residency_petition_through_eb_2",
+  "steps": [
+   "The department submits information about the position to International Services in myStatus.",
+   "International Services files a prevailing wage determination with DOL.",
+   "Once International Services notifies you that the prevailing wage determination has been certified, the department and employee submit information about the search and other details in myStatus.",
+   "International Services files the PERM application with DOL.",
+   "Once International Services notifies you that the PERM application has been certified by DOL, the department and employee submit information in myStatus.",
+   "International Services files the I-140 petition with USCIS."
+  ],
+  "source": "https://international.globallearning.cornell.edu/administrators/employment-visas/permanent-residency",
+  "claim_id": "4068463b-74f0-41d9-8d97-e03b517188c4"
  },
  {
   "name": "sponsor an international scholar's visa",
@@ -4130,14 +5029,24 @@
   "name": "submit a payment request",
   "field": "process.submit_a_payment_request",
   "steps": [
-   "Log into Cornell.CampusGroups.",
-   "As an officer, visit your group's \"Dashboard.\"",
-   "Find \"Accounting Book\" and click.",
-   "Click the button on the right side of the screen that says \"Payment/Budget Request\".",
-   "Follow the prompts carefully."
+   "As an officer, you can visit your group's",
+   "Once in the account book, click the button on the right side of the screen that says",
+   "From there, follow the prompts carefully!"
   ],
   "source": "https://scl.cornell.edu/PaymentRequests",
-  "claim_id": "b60e1c92-054d-4c88-8674-deefca920ffe"
+  "claim_id": "87cf6725-d63b-40cf-9315-182d930c57d3"
+ },
+ {
+  "name": "submit a visa request",
+  "field": "process.submit_a_visa_request",
+  "steps": [
+   "Access myStatus and orient yourself.",
+   "Create a myStatus record for your new scholar.",
+   "Complete and submit the request forms.",
+   "Pay any required USCIS fee."
+  ],
+  "source": "https://international.globallearning.cornell.edu/administrators/visa-sponsorship/submit-visa-request",
+  "claim_id": "68d48248-28ef-47aa-a513-b994501e7830"
  },
  {
   "name": "submit a visa request for an incoming scholar",
@@ -4150,6 +5059,16 @@
   ],
   "source": "https://international.globallearning.cornell.edu/administrators/visa-sponsorship/submit-visa-request",
   "claim_id": "89a2fdaa-3480-415c-83fe-b33457e55be0"
+ },
+ {
+  "name": "submit an employee referral",
+  "field": "process.submit_an_employee_referral",
+  "steps": [
+   "Log in to Sharepoint",
+   "Click on \"Submit a new referral and enter the candidate's contact information (name, email, telephone number)."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/dining/about-dining/employment-cornell-dining/employee-referral-program/employee-referral-program-faqs",
+  "claim_id": "16af9b45-1d76-4643-aa2f-e9e1e3e71f47"
  },
  {
   "name": "submit course reserves via Canvas",
@@ -4167,13 +5086,13 @@
   "name": "submit new student health information",
   "field": "process.submit_new_student_health_information",
   "steps": [
-   "Obtain your immunization records",
-   "If you do not have records, schedule an appointment with a health care provider to receive your immunizations",
-   "Submit your information through myCornellHealth by the deadline",
-   "Watch for follow-up messages from Cornell Health"
+   "Obtain your immunizations records.",
+   "If you do not have records of the required immunizations, schedule an appointment with a health care provider to receive your immunizations.",
+   "Submit your information by the deadline.",
+   "Watch for follow-up messages from Cornell Health."
   ],
   "source": "https://health.cornell.edu/get-care/health-requirements-new-students/china",
-  "claim_id": "bfa72df5-b90d-42fa-809d-03dba1415362"
+  "claim_id": "2ee7e676-a736-468f-a56e-ebda90464589"
  },
  {
   "name": "submit new student health requirements",
@@ -4186,6 +5105,18 @@
   ],
   "source": "https://health.cornell.edu/get-care/health-requirements-new-students/china-programs",
   "claim_id": "eb3e004f-753a-4862-808f-eb602d4da4e4"
+ },
+ {
+  "name": "submit new student health requirements to Cornell Health",
+  "field": "process.submit_new_student_health_requirements_to_cornell_health",
+  "steps": [
+   "Obtain your immunizations records.",
+   "If you do not have records of the required immunizations, schedule an appointment with a health care provider to receive your immunizations.",
+   "Submit your information by the deadline.",
+   "Watch for follow-up messages from Cornell Health."
+  ],
+  "source": "https://health.cornell.edu/get-care/health-requirements-new-students/china-programs",
+  "claim_id": "ef990fc7-50f0-4274-88dd-fbfe38f25dd1"
  },
  {
   "name": "submit Senior Expo abstract and layman's description",
@@ -4239,15 +5170,26 @@
   "name": "swap a class",
   "field": "process.swap_a_class",
   "steps": [
-   "Log in to Student Center and click Enroll",
-   "Select Swap under the Enroll tab",
-   "Select the term, choose the class to drop in Swap This Class, enter the class number in With This Class and click Enter",
-   "On the Enrollment Preferences screen verify grading option, units and class information and click Next",
-   "Confirm the information and click Finish Swapping",
-   "View results: a success message and green check mark, or an error message and red X"
+   "Select the term in which you will be changing your enrollment.",
+   "Select the class that you wish to drop in the Swap This Class section.",
+   "Confirm that the information on this page is accurate and click Finish Swapping."
   ],
   "source": "https://registrar.cornell.edu/students/enrollment/student-center-help/swapping-a-class",
-  "claim_id": "9c23c619-59a3-495e-a6e6-653fc9dee772"
+  "claim_id": "ab4e140a-a74f-4f96-a4e7-0645c65f7e45"
+ },
+ {
+  "name": "swap rooms with another student",
+  "field": "process.swap_rooms_with_another_student",
+  "steps": [
+   "Students will click the button to select their current booking to get the process started.",
+   "Students will then be able to add preferences of what room type they are looking for.",
+   "Students can search for other student preferences during this process to find a match for a potential swap.",
+   "A swap must be requested",
+   "The swap must be accepted by the recipient",
+   "The requestor of the swap must accept"
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/room-change-processes-cornell",
+  "claim_id": "25e79452-ec8b-4575-936c-08e28c83e90b"
  },
  {
   "name": "process.swap_sections",
@@ -4301,6 +5243,16 @@
   ],
   "source": "https://www.tompkinscountyny.gov/News-articles/Highlights-of-the-5526-and-42126-Tompkins-County-Legislature-meetings",
   "claim_id": "e156489a-b2ea-46e0-bc89-7a8dd3547e7a"
+ },
+ {
+  "name": "test a Hasbrouck apartment carbon monoxide detector",
+  "field": "process.test_a_hasbrouck_apartment_carbon_monoxide_detector",
+  "steps": [
+   "Push and hold the test button for three seconds until a short beep is heard.",
+   "Release test button."
+  ],
+  "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/hasbrouck-apartments/hasbrouck-apartment-carbon-monoxide-detectors",
+  "claim_id": "73dc79ad-c4af-471a-9d4c-a57e8adcd88a"
  },
  {
   "name": "test and certify carbon monoxide detectors",
@@ -4385,13 +5337,13 @@
   "name": "transfer F-1 immigration status to Cornell",
   "field": "process.transfer_f_1_immigration_status_to_cornell",
   "steps": [
-   "Visit your current school's international office with your Cornell acceptance letter and any forms from your Cornell program's admissions office.",
-   "Decide on a release date; your advisor enters it in the SEVIS database.",
-   "Get an I-20 from your Cornell admissions office after the release date.",
-   "Complete the Required Status Activation procedure on the website after arriving in Ithaca."
+   "Visit your current school\u2019s international office.",
+   "Decide on a release date.",
+   "Get an I-20 from your Cornell admissions office.",
+   "Made it to Ithaca? Remember to activate your status!"
   ],
   "source": "https://international.globallearning.cornell.edu/getting-started/f-1-transfer-students",
-  "claim_id": "df055ddc-fbda-40c3-8911-9a9aef20b230"
+  "claim_id": "d67e07b6-583a-4ef4-8b17-66b3e0320826"
  },
  {
   "name": "transfer F-1 or J-1 status from Cornell",
@@ -4439,16 +5391,39 @@
   "claim_id": "96308ee4-69bc-4dcb-8af1-9cbdc9841581"
  },
  {
+  "name": "transfer your F-1 or J-1 status from Cornell",
+  "field": "process.transfer_your_f_1_or_j_1_status",
+  "steps": [
+   "Talk with us about your plans.",
+   "Decide on a transfer date.",
+   "Be sure you meet your deadline!",
+   "Complete the Transfer Out form"
+  ],
+  "source": "https://international.globallearning.cornell.edu/maintaining-your-status/transfer-cornell",
+  "claim_id": "23b8c204-74de-4730-bbda-ce72bfa7de31"
+ },
+ {
+  "name": "transfer your immigration status to a new school",
+  "field": "process.transfer_your_immigration_status_to_a_new_school",
+  "steps": [
+   "Talk with us about your plans.",
+   "Decide on a transfer date.",
+   "Be sure you meet your deadline!"
+  ],
+  "source": "https://international.globallearning.cornell.edu/maintaining-your-status/transfer-cornell",
+  "claim_id": "b6fb3f75-c36e-4dd3-9b64-5b28a265d99e"
+ },
+ {
   "name": "transfer your J-1 visa to Cornell",
   "field": "process.transfer_your_j_1_visa_to_cornell",
   "steps": [
-   "Determine your transfer date with your Cornell hiring department",
-   "Complete the J-1 transfer-in form: the hiring department initiates a J-1 request in the myStatus portal, then you complete your portion",
-   "Receive your updated DS-2019",
-   "Arrive at Cornell and complete status activation with International Services"
+   "Determine your transfer date.",
+   "Complete the J-1 transfer-in form.",
+   "Receive your updated DS-2019.",
+   "Arrive at Cornell."
   ],
   "source": "https://international.globallearning.cornell.edu/getting-started/transfer-your-j-1-visa-cornell",
-  "claim_id": "c5482185-d7fb-47a2-99a9-ab3599c7af77"
+  "claim_id": "82a3e031-2122-4b8f-8371-7cc9d25bd217"
  },
  {
   "name": "process.travel_signature",
@@ -4523,6 +5498,18 @@
   "claim_id": "a97c450b-84e0-40c8-8af9-50860e01f7b0"
  },
  {
+  "name": "use Access Anywhere to reach library resources off campus",
+  "field": "process.use_access_anywhere_to_reach_library_resources_off",
+  "steps": [
+   "If you would like to use Web of Science while off campus, you would navigate to the Web of Science home page.",
+   "Click on the Access Anywhere bookmarklet that is either on your bookmark bar or in your bookmark folder.",
+   "After clicking on the Access Anywhere bookmarklet, you will be prompted to enter your NetID and password to verify your Cornell affiliation.",
+   "Web of Science will now recognize you as a member of the current Cornell community, and you will have access to the site."
+  ],
+  "source": "https://www.library.cornell.edu/collections/off-campus-access/",
+  "claim_id": "42c81e0c-594c-4a7b-ba09-9bfcfde09ae6"
+ },
+ {
   "name": "process.va_benefits_form_notice",
   "field": "process.va_benefits_form_notice",
   "steps": [
@@ -4558,6 +5545,18 @@
   "claim_id": "9ee8d534-33ba-4a70-9613-bb7eda2596aa"
  },
  {
+  "name": "view your unofficial transcript",
+  "field": "process.view_your_unofficial_transcript",
+  "steps": [
+   "Begin by logging into Student Center with your NetID and password.",
+   "Select Transcript: View Unofficial, then click the blue arrow.",
+   "On the View Unofficial Transcript page, Report Type should be set to Unofficial Transcript-Student.",
+   "Click View Report."
+  ],
+  "source": "https://registrar.cornell.edu/students/transcripts/viewing-unofficial-transcript",
+  "claim_id": "c0fbc6dc-96f6-4c3a-8c57-4a0f57b1a843"
+ },
+ {
   "name": "process.visa_no_appointment",
   "field": "process.visa_no_appointment",
   "steps": [
@@ -4588,19 +5587,19 @@
   "name": "process.yellow_ribbon_application",
   "field": "process.yellow_ribbon_application",
   "steps": [
-   "Undergraduate students do not need to submit a separate application"
+   null
   ],
   "source": "https://faq.enrollment.cornell.edu/kb/article/176-does-cornell-participate-in-the-yellow-ribbon-program/",
-  "claim_id": "31d47fe4-8c99-4067-a5b1-740e1b28b3ea"
+  "claim_id": "c1e6e4d2-52fa-4dec-b0f0-36c04826f3bd"
  },
  {
   "name": "process.yellow_ribbon_application",
   "field": "process.yellow_ribbon_application",
   "steps": [
-   null
+   "Undergraduate students do not need to submit a separate application"
   ],
   "source": "https://faq.enrollment.cornell.edu/kb/article/176-does-cornell-participate-in-the-yellow-ribbon-program/",
-  "claim_id": "c1e6e4d2-52fa-4dec-b0f0-36c04826f3bd"
+  "claim_id": "31d47fe4-8c99-4067-a5b1-740e1b28b3ea"
  },
  {
   "name": "process.yellow_ribbon_certificate",

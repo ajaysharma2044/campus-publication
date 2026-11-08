@@ -3120,38 +3120,6 @@
   "family": "deadline"
  },
  {
-  "id": "db34f671-ccda-4473-ba93-5f85f0960107",
-  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
-  "field": "deadline.cancellation_penalty_free_deadline_fall",
-  "value_type": "date",
-  "value_text": null,
-  "value_number": null,
-  "value_bool": null,
-  "value_date": "2026-06-15",
-  "billing_period": null,
-  "price_basis": null,
-  "room_type": null,
-  "audience_applicability": [
-   "undergraduate_cancelling_for_study_away_leave_deferral_withdrawal_or_graduation"
-  ],
-  "academic_year": "2026-27",
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T21:21:33.106864+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
-    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
-    "excerpt": "Fall Semester: June 15, 2026 Spring Semester: December 1, 2026 Submission requests received after these deadlines will result in a $500 cancellation fee.",
-    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
-    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "June 15, 2026",
-  "family": "deadline"
- },
- {
   "id": "1fe3b785-e54b-4817-b56f-f559a942dcf8",
   "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
   "field": "deadline.cancellation_penalty_free_deadline_fall",
@@ -3176,6 +3144,38 @@
     "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
     "fetched_at": "2026-11-06T08:30:42.639924+00:00",
     "excerpt": "Fall Semester: June 15, 2026",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "June 15, 2026",
+  "family": "deadline"
+ },
+ {
+  "id": "db34f671-ccda-4473-ba93-5f85f0960107",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "deadline.cancellation_penalty_free_deadline_fall",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-06-15",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "undergraduate_cancelling_for_study_away_leave_deferral_withdrawal_or_graduation"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T21:21:33.106864+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "Fall Semester: June 15, 2026 Spring Semester: December 1, 2026 Submission requests received after these deadlines will result in a $500 cancellation fee.",
     "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
     "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
    }
@@ -4577,38 +4577,6 @@
   "family": "deadline"
  },
  {
-  "id": "c96c992b-5319-4343-8fcb-011ea9db1d70",
-  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
-  "field": "housing.cancellation.penalty_free_deadline_spring",
-  "value_type": "date",
-  "value_text": null,
-  "value_number": null,
-  "value_bool": null,
-  "value_date": "2026-12-01",
-  "billing_period": null,
-  "price_basis": null,
-  "room_type": null,
-  "audience_applicability": [
-   "undergraduate students cancelling to study away from Ithaca, take a medical, voluntary or required leave of absence, defer admission, withdraw, or graduate"
-  ],
-  "academic_year": "2026-27",
-  "is_critical": false,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T20:53:43.363247+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
-    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
-    "excerpt": "Spring Semester: December 1, 2026",
-    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
-    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "December 1, 2026",
-  "family": "housing"
- },
- {
   "id": "bccca226-6032-4224-824b-1c7c709396a2",
   "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
   "field": "housing.cancellation.penalty_free_deadline_spring",
@@ -4627,6 +4595,38 @@
   "is_critical": false,
   "conflict_status": "none",
   "retrieved_at": "2026-11-06T20:49:20.579782+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy",
+    "fetched_at": "2026-11-06T08:30:42.639924+00:00",
+    "excerpt": "Spring Semester: December 1, 2026",
+    "snapshot_id": "3637f007-d921-45d0-95ed-9c890023807e",
+    "title": "Housing License Cancellation Policy | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "December 1, 2026",
+  "family": "housing"
+ },
+ {
+  "id": "c96c992b-5319-4343-8fcb-011ea9db1d70",
+  "entity_id": "3fc2d978-7755-4ad3-b164-48e9edabd728",
+  "field": "housing.cancellation.penalty_free_deadline_spring",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-12-01",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "undergraduate students cancelling to study away from Ithaca, take a medical, voluntary or required leave of absence, defer admission, withdraw, or graduate"
+  ],
+  "academic_year": "2026-27",
+  "is_critical": false,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T20:53:43.363247+00:00",
   "topic_key": "housing",
   "sources": [
    {
@@ -4705,36 +4705,6 @@
   "family": "timeline"
  },
  {
-  "id": "fef638f4-ef89-4123-975d-732a170e3268",
-  "entity_id": "a4438f4a-5151-4f72-a043-1936dc6c998a",
-  "field": "deadline.job_listing_expiration",
-  "value_type": "date",
-  "value_text": null,
-  "value_number": null,
-  "value_bool": null,
-  "value_date": "2026-12-06",
-  "billing_period": null,
-  "price_basis": null,
-  "room_type": null,
-  "audience_applicability": [],
-  "academic_year": null,
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:17:25.407983+00:00",
-  "topic_key": "careers",
-  "sources": [
-   {
-    "url": "https://career.cornell.edu/jobs/jpmorganchase-senior-home-lending-advisor-channahon-il/",
-    "fetched_at": "2026-11-06T23:17:25.407983+00:00",
-    "excerpt": "Expires on December 6, 2026",
-    "snapshot_id": "4a7dec89-d8d0-4d76-8ad5-65b1bb6ff612",
-    "title": "Senior Home Lending Advisor \u2013 Channahon, IL \u2013 Cornell Career Network"
-   }
-  ],
-  "value": "December 6, 2026",
-  "family": "deadline"
- },
- {
   "id": "eb747296-fa10-492f-a2e8-9e0efa44468e",
   "entity_id": null,
   "field": "deadline.job_listing_expiration",
@@ -4759,6 +4729,36 @@
     "excerpt": "Expires on December 6, 2026",
     "snapshot_id": "a3b09567-b118-42e3-ad4a-c0aa688207eb",
     "title": "Financial Representative \u2013 Cornell Career Network"
+   }
+  ],
+  "value": "December 6, 2026",
+  "family": "deadline"
+ },
+ {
+  "id": "fef638f4-ef89-4123-975d-732a170e3268",
+  "entity_id": "a4438f4a-5151-4f72-a043-1936dc6c998a",
+  "field": "deadline.job_listing_expiration",
+  "value_type": "date",
+  "value_text": null,
+  "value_number": null,
+  "value_bool": null,
+  "value_date": "2026-12-06",
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:17:25.407983+00:00",
+  "topic_key": "careers",
+  "sources": [
+   {
+    "url": "https://career.cornell.edu/jobs/jpmorganchase-senior-home-lending-advisor-channahon-il/",
+    "fetched_at": "2026-11-06T23:17:25.407983+00:00",
+    "excerpt": "Expires on December 6, 2026",
+    "snapshot_id": "4a7dec89-d8d0-4d76-8ad5-65b1bb6ff612",
+    "title": "Senior Home Lending Advisor \u2013 Channahon, IL \u2013 Cornell Career Network"
    }
   ],
   "value": "December 6, 2026",
@@ -6776,6 +6776,36 @@
   "family": "deadline"
  },
  {
+  "id": "5208adbe-ee1a-4389-b3e6-84cb4dd13b2c",
+  "entity_id": "5d7e7e9d-4c65-4ca8-b2c0-4af2044403ef",
+  "field": "deadline.application",
+  "value_type": "text",
+  "value_text": "December 1",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:38:44.356032+00:00",
+  "topic_key": "programs",
+  "sources": [
+   {
+    "url": "https://www.ilr.cornell.edu/programs/master-science-ms",
+    "fetched_at": "2026-11-06T23:38:44.356032+00:00",
+    "excerpt": "If you are interested in a career in labor research and policy, apply by December 1st.",
+    "snapshot_id": "875e40ca-4896-4ee4-9625-f56d3d1a8cf9",
+    "title": "M.S. PROGRAM | The ILR School"
+   }
+  ],
+  "value": "December 1",
+  "family": "deadline"
+ },
+ {
   "id": "3a664eaf-9029-4b4a-9b7b-ebd5c7066438",
   "entity_id": "0a35ef9f-ae0c-44b8-bcff-bc43fd597614",
   "field": "deadline.application",
@@ -6863,36 +6893,6 @@
    }
   ],
   "value": "SYEP application currently closed; will reopen Spring 2027.",
-  "family": "deadline"
- },
- {
-  "id": "5208adbe-ee1a-4389-b3e6-84cb4dd13b2c",
-  "entity_id": "5d7e7e9d-4c65-4ca8-b2c0-4af2044403ef",
-  "field": "deadline.application",
-  "value_type": "text",
-  "value_text": "December 1",
-  "value_number": null,
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": null,
-  "price_basis": null,
-  "room_type": null,
-  "audience_applicability": [],
-  "academic_year": null,
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:38:44.356032+00:00",
-  "topic_key": "programs",
-  "sources": [
-   {
-    "url": "https://www.ilr.cornell.edu/programs/master-science-ms",
-    "fetched_at": "2026-11-06T23:38:44.356032+00:00",
-    "excerpt": "If you are interested in a career in labor research and policy, apply by December 1st.",
-    "snapshot_id": "875e40ca-4896-4ee4-9625-f56d3d1a8cf9",
-    "title": "M.S. PROGRAM | The ILR School"
-   }
-  ],
-  "value": "December 1",
   "family": "deadline"
  },
  {
@@ -8642,6 +8642,38 @@
   "family": "deadline"
  },
  {
+  "id": "992cfcbb-a079-4692-84f3-4978771b4d5c",
+  "entity_id": "7d953200-1fc3-44cc-8b1e-509d2a82b3c5",
+  "field": "deadline.housing_application",
+  "value_type": "text",
+  "value_text": "April 4 at 11:59pm",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "first_year"
+  ],
+  "academic_year": "2027-28",
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:35:41.582707+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/current-undergrad-application-process/spring-housing-selection-rising-sophomores",
+    "fetched_at": "2026-11-06T23:35:41.582707+00:00",
+    "excerpt": "Application deadline is April 4 at 11:59pm",
+    "snapshot_id": "ab7eb9cc-b679-4cd6-af74-2900b4961a79",
+    "title": "Spring Housing Selection for Rising Sophomores | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "April 4 at 11:59pm",
+  "family": "deadline"
+ },
+ {
   "id": "932ed9d8-9b05-4992-93fc-fdae9c064066",
   "entity_id": null,
   "field": "deadline.housing_application",
@@ -8678,38 +8710,6 @@
    }
   ],
   "value": "within ten days of receiving NetID",
-  "family": "deadline"
- },
- {
-  "id": "992cfcbb-a079-4692-84f3-4978771b4d5c",
-  "entity_id": "7d953200-1fc3-44cc-8b1e-509d2a82b3c5",
-  "field": "deadline.housing_application",
-  "value_type": "text",
-  "value_text": "April 4 at 11:59pm",
-  "value_number": null,
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": null,
-  "price_basis": null,
-  "room_type": null,
-  "audience_applicability": [
-   "first_year"
-  ],
-  "academic_year": "2027-28",
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:35:41.582707+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/current-undergrad-application-process/spring-housing-selection-rising-sophomores",
-    "fetched_at": "2026-11-06T23:35:41.582707+00:00",
-    "excerpt": "Application deadline is April 4 at 11:59pm",
-    "snapshot_id": "ab7eb9cc-b679-4cd6-af74-2900b4961a79",
-    "title": "Spring Housing Selection for Rising Sophomores | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "April 4 at 11:59pm",
   "family": "deadline"
  },
  {
@@ -9063,38 +9063,6 @@
   "family": "deadline"
  },
  {
-  "id": "b7b35a5e-beab-411d-92d9-34b1d2d90dcf",
-  "entity_id": null,
-  "field": "deadline.j1_status_activation",
-  "value_type": "text",
-  "value_text": "No later than 30 days after the start date on your DS-2019",
-  "value_number": null,
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": null,
-  "price_basis": null,
-  "room_type": null,
-  "audience_applicability": [
-   "staff"
-  ],
-  "academic_year": null,
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:16:39.882215+00:00",
-  "topic_key": "admissions",
-  "sources": [
-   {
-    "url": "https://international.globallearning.cornell.edu/getting-started/status-activation-scholars",
-    "fetched_at": "2026-11-06T23:16:39.882215+00:00",
-    "excerpt": "No later than 30 days after the start date on your DS-2019",
-    "snapshot_id": "3c05f4de-bf17-4f8e-9691-9ba161332079",
-    "title": "Status Activation for Scholars | International Services"
-   }
-  ],
-  "value": "No later than 30 days after the start date on your DS-2019",
-  "family": "deadline"
- },
- {
   "id": "81f0a512-0fbd-4110-b2d0-c37c36b54724",
   "entity_id": "d8f6b065-801c-48ae-b3e1-9d065c62ca31",
   "field": "deadline.j1_status_activation",
@@ -9161,6 +9129,38 @@
   "family": "deadline"
  },
  {
+  "id": "b7b35a5e-beab-411d-92d9-34b1d2d90dcf",
+  "entity_id": null,
+  "field": "deadline.j1_status_activation",
+  "value_type": "text",
+  "value_text": "No later than 30 days after the start date on your DS-2019",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "staff"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:16:39.882215+00:00",
+  "topic_key": "admissions",
+  "sources": [
+   {
+    "url": "https://international.globallearning.cornell.edu/getting-started/status-activation-scholars",
+    "fetched_at": "2026-11-06T23:16:39.882215+00:00",
+    "excerpt": "No later than 30 days after the start date on your DS-2019",
+    "snapshot_id": "3c05f4de-bf17-4f8e-9691-9ba161332079",
+    "title": "Status Activation for Scholars | International Services"
+   }
+  ],
+  "value": "No later than 30 days after the start date on your DS-2019",
+  "family": "deadline"
+ },
+ {
   "id": "52e87bed-cbe7-42f0-a634-07601ed7bd20",
   "entity_id": null,
   "field": "deadline.j1_transfer_request",
@@ -9194,36 +9194,6 @@
   "family": "deadline"
  },
  {
-  "id": "70df3662-8a4a-4fe0-927b-988ea3bb09d8",
-  "entity_id": null,
-  "field": "deadline.job_listing_expiry",
-  "value_type": "text",
-  "value_text": "2026-12-06",
-  "value_number": null,
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": null,
-  "price_basis": null,
-  "room_type": null,
-  "audience_applicability": [],
-  "academic_year": null,
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:16:55.389931+00:00",
-  "topic_key": "careers",
-  "sources": [
-   {
-    "url": "https://career.cornell.edu/jobs/jpmorganchase-senior-home-lending-advisor-bronx-ny/",
-    "fetched_at": "2026-11-06T23:16:55.389931+00:00",
-    "excerpt": "Expires on December 6, 2026",
-    "snapshot_id": "b9ccfc0c-3845-4aa1-94ff-6ebab767d261",
-    "title": "Senior Home Lending Advisor \u2013 Bronx, NY \u2013 Cornell Career Network"
-   }
-  ],
-  "value": "2026-12-06",
-  "family": "deadline"
- },
- {
   "id": "004d67ac-0e7c-41ea-896e-37f27b6325bd",
   "entity_id": "f17637eb-71e0-4d3d-b16f-78dc1d6d729f",
   "field": "deadline.job_listing_expiry",
@@ -9251,6 +9221,36 @@
    }
   ],
   "value": "Expires on December 6, 2026",
+  "family": "deadline"
+ },
+ {
+  "id": "70df3662-8a4a-4fe0-927b-988ea3bb09d8",
+  "entity_id": null,
+  "field": "deadline.job_listing_expiry",
+  "value_type": "text",
+  "value_text": "2026-12-06",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:16:55.389931+00:00",
+  "topic_key": "careers",
+  "sources": [
+   {
+    "url": "https://career.cornell.edu/jobs/jpmorganchase-senior-home-lending-advisor-bronx-ny/",
+    "fetched_at": "2026-11-06T23:16:55.389931+00:00",
+    "excerpt": "Expires on December 6, 2026",
+    "snapshot_id": "b9ccfc0c-3845-4aa1-94ff-6ebab767d261",
+    "title": "Senior Home Lending Advisor \u2013 Bronx, NY \u2013 Cornell Career Network"
+   }
+  ],
+  "value": "2026-12-06",
   "family": "deadline"
  },
  {
@@ -9560,36 +9560,6 @@
   "family": "deadline"
  },
  {
-  "id": "6ae27f90-9c24-4992-a8f0-e2f2ec94d33a",
-  "entity_id": null,
-  "field": "deadline.move_in_timeslot_change",
-  "value_type": "text",
-  "value_text": "up to August 1",
-  "value_number": null,
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": null,
-  "price_basis": null,
-  "room_type": null,
-  "audience_applicability": [],
-  "academic_year": null,
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T08:30:32.604293+00:00",
-  "topic_key": "housing",
-  "sources": [
-   {
-    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
-    "fetched_at": "2026-11-06T08:30:32.604293+00:00",
-    "excerpt": "All timeslots are listed in Eastern Daylight Time (EDT).",
-    "snapshot_id": "e4be27d7-bd85-4384-a1de-f94990be603d",
-    "title": "New Undergrad Application Process | Student & Campus Life | Cornell University"
-   }
-  ],
-  "value": "up to August 1",
-  "family": "deadline"
- },
- {
   "id": "575128ee-1495-4506-afc9-48a92fbc8c2f",
   "entity_id": null,
   "field": "deadline.move_in_timeslot_change",
@@ -9617,6 +9587,36 @@
    }
   ],
   "value": "August 1",
+  "family": "deadline"
+ },
+ {
+  "id": "6ae27f90-9c24-4992-a8f0-e2f2ec94d33a",
+  "entity_id": null,
+  "field": "deadline.move_in_timeslot_change",
+  "value_type": "text",
+  "value_text": "up to August 1",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T08:30:32.604293+00:00",
+  "topic_key": "housing",
+  "sources": [
+   {
+    "url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+    "fetched_at": "2026-11-06T08:30:32.604293+00:00",
+    "excerpt": "All timeslots are listed in Eastern Daylight Time (EDT).",
+    "snapshot_id": "e4be27d7-bd85-4384-a1de-f94990be603d",
+    "title": "New Undergrad Application Process | Student & Campus Life | Cornell University"
+   }
+  ],
+  "value": "up to August 1",
   "family": "deadline"
  },
  {
@@ -10381,6 +10381,38 @@
   "family": "deadline"
  },
  {
+  "id": "7787bf91-3b72-497f-8b01-87322cc9e421",
+  "entity_id": null,
+  "field": "deadline.regular_decision",
+  "value_type": "text",
+  "value_text": "January 2",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "first_year"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:39:54.769544+00:00",
+  "topic_key": "admissions",
+  "sources": [
+   {
+    "url": "https://faq.enrollment.cornell.edu/kb/article/199-when-is-the-application-deadline/",
+    "fetched_at": "2026-11-06T23:39:54.769544+00:00",
+    "excerpt": "application deadline is January 2. Applicants are notified in early April of Cornell\u2019s decision.",
+    "snapshot_id": "deb77dc7-a3a4-45e4-886f-6652b899473d",
+    "title": "When is the application deadline? - Frequently Asked Questions"
+   }
+  ],
+  "value": "January 2",
+  "family": "deadline"
+ },
+ {
   "id": "e24435db-1537-4c02-af72-92ebb0aae95e",
   "entity_id": null,
   "field": "deadline.regular_decision",
@@ -10415,38 +10447,6 @@
     "excerpt": "International first-year applicants are welcome to apply under the early decision plan (deadline November 1) or the regular decision plan (deadline January 2).",
     "snapshot_id": "cb3fde8c-b986-45c1-95e7-677c198e10c6",
     "title": "Can international students apply under the early decision plan? - Frequently Asked Questions"
-   }
-  ],
-  "value": "January 2",
-  "family": "deadline"
- },
- {
-  "id": "7787bf91-3b72-497f-8b01-87322cc9e421",
-  "entity_id": null,
-  "field": "deadline.regular_decision",
-  "value_type": "text",
-  "value_text": "January 2",
-  "value_number": null,
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": null,
-  "price_basis": null,
-  "room_type": null,
-  "audience_applicability": [
-   "first_year"
-  ],
-  "academic_year": null,
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:39:54.769544+00:00",
-  "topic_key": "admissions",
-  "sources": [
-   {
-    "url": "https://faq.enrollment.cornell.edu/kb/article/199-when-is-the-application-deadline/",
-    "fetched_at": "2026-11-06T23:39:54.769544+00:00",
-    "excerpt": "application deadline is January 2. Applicants are notified in early April of Cornell\u2019s decision.",
-    "snapshot_id": "deb77dc7-a3a4-45e4-886f-6652b899473d",
-    "title": "When is the application deadline? - Frequently Asked Questions"
    }
   ],
   "value": "January 2",
@@ -12019,6 +12019,38 @@
   "family": "deadline"
  },
  {
+  "id": "15bcf68a-0af1-405a-86b7-ef59bd3905e2",
+  "entity_id": null,
+  "field": "deadline.us_tax_return",
+  "value_type": "text",
+  "value_text": "mid-April",
+  "value_number": null,
+  "value_bool": null,
+  "value_date": null,
+  "billing_period": null,
+  "price_basis": null,
+  "room_type": null,
+  "audience_applicability": [
+   "international"
+  ],
+  "academic_year": null,
+  "is_critical": true,
+  "conflict_status": "none",
+  "retrieved_at": "2026-11-06T23:16:45.802129+00:00",
+  "topic_key": "admissions",
+  "sources": [
+   {
+    "url": "https://international.globallearning.cornell.edu/getting-started/your-first-week",
+    "fetched_at": "2026-11-06T23:16:45.802129+00:00",
+    "excerpt": "Your U.S. tax return is due in mid-April.",
+    "snapshot_id": "6706666f-0f6f-424a-93ba-fca31bff384e",
+    "title": "Your First Week | International Services"
+   }
+  ],
+  "value": "mid-April",
+  "family": "deadline"
+ },
+ {
   "id": "882a9762-43a8-477d-b14a-a5428b8225ea",
   "entity_id": null,
   "field": "deadline.us_tax_return",
@@ -12045,38 +12077,6 @@
     "fetched_at": "2026-11-06T23:32:04.743224+00:00",
     "excerpt": "Your U.S. tax return is due in mid-April.",
     "snapshot_id": "e26b4bf3-ebd9-4ef8-a4a4-6a24e75e14b3",
-    "title": "Your First Week | International Services"
-   }
-  ],
-  "value": "mid-April",
-  "family": "deadline"
- },
- {
-  "id": "15bcf68a-0af1-405a-86b7-ef59bd3905e2",
-  "entity_id": null,
-  "field": "deadline.us_tax_return",
-  "value_type": "text",
-  "value_text": "mid-April",
-  "value_number": null,
-  "value_bool": null,
-  "value_date": null,
-  "billing_period": null,
-  "price_basis": null,
-  "room_type": null,
-  "audience_applicability": [
-   "international"
-  ],
-  "academic_year": null,
-  "is_critical": true,
-  "conflict_status": "none",
-  "retrieved_at": "2026-11-06T23:16:45.802129+00:00",
-  "topic_key": "admissions",
-  "sources": [
-   {
-    "url": "https://international.globallearning.cornell.edu/getting-started/your-first-week",
-    "fetched_at": "2026-11-06T23:16:45.802129+00:00",
-    "excerpt": "Your U.S. tax return is due in mid-April.",
-    "snapshot_id": "6706666f-0f6f-424a-93ba-fca31bff384e",
     "title": "Your First Week | International Services"
    }
   ],
