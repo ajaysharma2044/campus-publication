@@ -38,14 +38,7 @@ sources:
 - url: https://talk.collegeconfidential.com/t/should-i-bring-a-car/1811430
   title: Should I bring a car?, College Confidential
   accessed: '2026-11-07'
-images:
-- file: 1.webp
-  alt: TCAT Bus 2107 on Route 30
-  caption: TCAT Bus 2107 on Route 30
-  credit: Hbithaca / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2107_on_Route_30.jpg
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
+images: []
 ---
 
 Most Cornell students do not need a car, and the numbers explain why. A resident permit is about $753 a year and sold in limited numbers, first-year students ride TCAT buses free, and Ithaca Carshare covers the occasional errand for $30 a year plus usage. A car makes sense mainly if you live off campus far from a bus line, commute, or have a regular trip home that no bus serves. **All permit and TCAT prices below come from Cornell pages labeled 2025-26. Rates for 2026-27 were not posted when we checked, so confirm them on Cornell's page before you buy.**

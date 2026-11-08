@@ -26,14 +26,7 @@ sources:
 - url: https://www.gradschool.cornell.edu/announcements/grad-tips-renting/
   title: 'Grad Tips: Renting, Cornell Graduate School'
   accessed: '2026-11-07'
-images:
-- file: 1.webp
-  alt: Collegetown Wine & Spririts, Ithaca New York
-  caption: Collegetown Wine & Spririts, Ithaca New York
-  credit: Kenneth C. Zirkel / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown_Wine_%26_Spririts,_Ithaca_New_York.jpg
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
+images: []
 ---
 
 Read your lease first, then ask your landlord for consent in writing. In New York, if your building has four or more residential units, the landlord [cannot unreasonably withhold consent to a sublease](https://www.nysenate.gov/legislation/laws/RPP/226-B), and silence counts as a yes. You stay on the hook for the rent and any damage whoever lives there. Cornell's Off-Campus Living office answers lease questions at [607-255-2310](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease). Below: the steps, the legal clock, what landlords usually add, and where to list.

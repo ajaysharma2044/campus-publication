@@ -47,14 +47,7 @@ sources:
 - url: https://cornellsun.com/2023/09/27/obaseki-a-brokies-guide-to-having-no-meal-plan/
   title: A Broke Student's Guide to Having No Meal Plan, The Cornell Daily Sun, September 27, 2023
   accessed: '2026-11-07'
-images:
-- file: 1.webp
-  alt: Collegetown Wine & Spririts, Ithaca New York
-  caption: Collegetown Wine & Spririts, Ithaca New York
-  credit: Kenneth C. Zirkel / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown_Wine_%26_Spririts,_Ithaca_New_York.jpg
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
+images: []
 ---
 
 Cooking every meal yourself costs about $2,960 a year in groceries by our estimate, built on [USDA's September 2026 food plan costs](https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf) and 36 weeks of the school year. The cheapest debit plans are [Just Bucks at $1,000 a year and Off-Campus Value at $1,824.60 a year for 2026-27](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans). Those two do not feed you for the year on their own, so most off-campus students who cook still pair groceries with a small plan or none. Cooking works out to about $3.90 a meal; a dining room swipe on the bigger plans works out to $12 to $17. Cook most meals, and add a plan only for the days you will really eat on campus.
