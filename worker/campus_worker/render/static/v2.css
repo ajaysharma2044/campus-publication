@@ -109,7 +109,9 @@
 .tool-embed fieldset { border: 0; padding: 0; margin: 0 0 var(--s-4); min-width: 0; }
 .tool-embed legend { font-weight: 700; padding: 0; margin-bottom: var(--s-2); }
 .tool-embed .field, .tool-embed p { margin: 0 0 var(--s-3); }
-.tool-embed .result, .tool-embed [data-result], .tool-embed output { display: block; margin-top: var(--s-4); padding: var(--s-3) var(--s-4); background: var(--navy-wash); border-radius: var(--radius); font-size: var(--fs-small); }
+.tool-embed .result, .tool-embed [data-result], .tool-embed output { display: block; margin-top: var(--s-4); padding: var(--s-3) var(--s-4); background: var(--navy-wash); border: 0; border-radius: var(--radius); font-size: var(--fs-small); }
+/* a fragment's root is <div class="tool"> (scripts/v3/write.py's tool deliverable); campus.css frames .tool on its own, so inside the embed it loses that frame */
+.tool-embed > .tool { background: transparent; border: 0; border-radius: 0; box-shadow: none; padding: 0; margin: 0; }
 .tool-embed table { width: 100%; border-collapse: collapse; font-size: var(--fs-small); }
 .tool-embed th, .tool-embed td { text-align: left; padding: var(--s-2) var(--s-3); border-bottom: 1px solid var(--rule); vertical-align: top; }
 .tool-embed .meta, .tool-embed small { font-size: var(--fs-meta); color: var(--ink-3); }
@@ -144,3 +146,6 @@
 .feedback__note { margin: var(--s-3) 0 0; font-size: var(--fs-meta); color: var(--ink-3); }
 @media (max-width: 599px) { .feedback { padding: var(--s-4); } }
 @media print { .feedback, .crumbs, .toc { display: none !important; } .reader__body { display: block !important; } }
+
+/* the hidden attribute wins over any display rule above (the feedback box's "No" button and textarea toggle with it) */
+[hidden] { display: none !important; }

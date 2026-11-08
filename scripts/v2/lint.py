@@ -12,7 +12,8 @@ published article (title + primary_query token Jaccard >= 0.8), and no run of mo
 Articles with a frontmatter `kind` (v3: pillar | spoke | reader_guide | rewrite) also meet the publish requirements of docs/v3/spec.md.
 The published v2 pages carry no kind and keep the v2 checks alone until they are rewritten.
     frontmatter: kind; readers (a non-empty list); pillar (/<dir>/<slug>/ of the topic pillar, empty for the pillar itself, and it
-      resolves); brief (an intel/.../*.md path that exists); tools (the slugs the body embeds, each with content/tools/<slug>/tool.md
+      resolves; missing_keys asks only for the key, so a spoke written before its pillar is complete and fails here, once, with a
+      clear message); brief (an intel/.../*.md path that exists); tools (the slugs the body embeds, each with content/tools/<slug>/tool.md
       and tool.html)
     lead photo: images[0] present and its file stored under content/images/<slug>/
     visuals: beyond the lead photo, one photo, ```figure fence, ```tool fence or <iframe> embed per 600 words (words // 600)
@@ -22,10 +23,12 @@ The published v2 pages carry no kind and keep the v2 checks alone until they are
     detail: words >= 1,200 (spoke, rewrite), 3,000 (pillar), 1,500 (reader_guide); >= 1 Markdown table; sources >= 8 (pillar 20);
       a "## Common mistakes" heading; a "## FAQ" section with >= 4 questions (bold lead-ins or ### headings); a link to the pillar
       path and to >= 2 other articles in the same topic dir; every ![alt](n.webp) reference has an images entry
-    writing: no research-narration phrase (docs/v2/style.md Part 7); average sentence under 18 words over the prose (tables, fences,
-      headings and link URLs excluded; reader blocks included)
+    writing: no research-narration phrase (docs/v2/style.md Part 7) in the prose, the reader blocks or the glance box; average
+      sentence under 18 words over the prose (tables, fences, headings and link URLs excluded; reader blocks included)
 Every message names its requirement, so publish.sh routes it as a text-level failure (one revision) unless it is a dead source URL
-(wait) or a near-duplicate (reject). A rewrite (kind: rewrite) is never a duplicate of the published row whose file it overwrites.
+(wait) or a near-duplicate (reject). A rewrite (kind: rewrite) is never a duplicate of the published row whose file it overwrites
+(matched by file, or by primary query once the file carries the rewrite's queue_id). /tools/, /datasets/ and /start/ resolve as link
+targets only when that section has a page, since the renderer builds those indexes only then.
 
     worker/.venv/bin/python scripts/v2/lint.py content/articles/housing/x.md [...] [--root DIR] [--queue FILE] [--no-network] [--all] [--explain]
     -> "OK <path>" or "FAIL <path>" plus one "  - problem" line each; exit 1 when any article fails.
@@ -35,7 +38,7 @@ Every message names its requirement, so publish.sh routes it as a text-level fai
     measures, errors = lint.v3_checks(fm, body, path, root)          # the v3 numbers and messages alone
 The banned words and the narration phrases are read from docs/v2/style.md (the "No filler:" line and the research-narration lines), with
 the built-in lists as the fallback; topic dirs come from scripts/v2/lib/queue.py plus scripts/v3/topics.yml. scripts/v2/render_site.py
-imports split_fences(), TOPIC_DIRS and KINDS from here so both read an article the same way.
+imports split_fences(), word_count() and SECTION_DIRS from here so the checks and the site read an article the same way.
 Caches: build/runs/v2/lint/urls.json (2xx results) and build/runs/v2/lint/pages/<sha1>.txt (page text).
 """
 from __future__ import annotations
@@ -64,8 +67,9 @@ IMAGE_OPTIONAL = ("credit_url", "license_url")   # keys present, values may be e
 DEFAULT_BANNED = ("navigating", "it's important to note", "delve", "vibrant", "journey", "seamless", "robust", "leverage", "unlock", "dive into", "in today's")
 DEFAULT_NARRATION = ("we found", "we checked", "our research", "the pages we opened", "the pages we checked", "sources say", "according to our review",
                      "we were unable to confirm", "it is worth noting", "as of our review", "we looked at", "our research shows")
-POLICY_PAGES = {"/", "/about/", "/privacy/", "/contact/", "/editorial-policy/", "/corrections/", "/thanks/", "/tools/", "/datasets/", "/start/"}
+POLICY_PAGES = {"/", "/about/", "/privacy/", "/contact/", "/editorial-policy/", "/corrections/", "/thanks/"}
 SECTION_DIRS = ("tools", "datasets", "start")   # /tools/<slug>/, /datasets/<slug>/, /start/<reader>/ (docs/v3 contracts 4 and 3)
+SECTION_INDEX_GLOB = {"tools": "*/tool.md", "datasets": "*.md", "start": "*.md"}   # /tools/, /datasets/, /start/ exist once the section has a page
 MAX_COPY = 25
 TIMEOUT = 10
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 FootnoteDailyLint/1.0"
@@ -201,7 +205,7 @@ def split_fences(body: str) -> list[tuple]:
 
 def missing_keys(fm: dict) -> list[str]:
     """Completeness only (write.sh uses this to decide written vs back to approved); lengths and values are check_frontmatter's.
-    With a `kind` (v3) the readers list, the brief path and, except for the pillar, the pillar path are part of completeness too."""
+    With a `kind` (v3) the readers list, the brief path and, except for the pillar, the presence of the pillar key count too."""
     miss = [k for k in REQUIRED if fm.get(k) in (None, "", [])]
     sources = fm.get("sources")
     if isinstance(sources, list):
@@ -222,8 +226,9 @@ def missing_keys(fm: dict) -> list[str]:
             miss.append("readers")
         if not fm.get("brief"):
             miss.append("brief")
-        if str(fm.get("kind") or "").strip() != "pillar" and not fm.get("pillar"):
-            miss.append("pillar")
+        if str(fm.get("kind") or "").strip() != "pillar" and "pillar" not in fm:
+            miss.append("pillar")   # the key; its value (the pillar's site path) is v3_checks' business at publish, so a spoke written
+            # before the topic's pillar exists is complete and fails later with a clear message instead of bouncing back to approved
     return miss
 
 
@@ -294,8 +299,17 @@ def resolves(path: str, root: Path, live: set[str] | None = None) -> bool:
     return False
 
 
+def section_index_exists(section: str, root: Path, live: set[str] | None = None) -> bool:
+    """/tools/, /datasets/ and /start/ are rendered only when the section has a page (render_site.py), so a link to one of them
+    resolves only then."""
+    if live is not None and any(p.startswith(f"/{section}/") for p in live):
+        return True
+    return any((root / "content" / section).glob(SECTION_INDEX_GLOB[section]))
+
+
 def check_links(body: str, root: Path, live: set[str] | None = None) -> list[str]:
-    """An internal link resolves when it lands on a topic index, a policy page, an image, or a page resolves() knows."""
+    """An internal link resolves when it lands on a topic index, a policy page, an image, a section index with pages, or a page
+    resolves() knows. The message stays "internal link does not resolve: <target>", which publish.sh parses to unlink the target."""
     errs = []
     for target in link_targets(body):
         if not target.startswith("/"):
@@ -305,6 +319,8 @@ def check_links(body: str, root: Path, live: set[str] | None = None) -> list[str
             continue
         parts = path.strip("/").split("/")
         if len(parts) == 1 and parts[0] in TOPIC_DIRS:
+            continue
+        if len(parts) == 1 and parts[0] in SECTION_DIRS and section_index_exists(parts[0], root, live):
             continue
         if len(parts) == 2 and resolves(site_path(path), root, live):
             continue
@@ -592,9 +608,9 @@ def v3_checks(fm: dict, body: str, path: Path | str, root: Path | str = REPO, li
     if len(sibs) < SIBLINGS_MIN:
         errs.append(f"links: {len(sibs)} link(s) to other articles in /{topic}/ ({SIBLINGS_MIN} required besides the pillar)")
 
-    # writing
+    # writing: narration anywhere the reader reads (prose, reader blocks, the glance box); the sentence average over the prose and reader blocks
     prose = prose_text(segs)
-    hits = sorted({x.lower() for x in NARRATION_RE.findall(strip_urls(prose).replace("’", "'"))})
+    hits = sorted({x.lower() for x in NARRATION_RE.findall(strip_urls(prose + "\n" + "\n".join(s[3] for s in glance)).replace("’", "'"))})
     m["narration"] = hits
     if hits:
         errs.append("research narration: " + ", ".join(hits))
@@ -709,9 +725,11 @@ def lint_article(path: Path | str, *, root: Path | str = REPO, web: Web | None =
     if fm.get("topic") and path.parent.name != fm["topic"]:
         errs.append(f"file is under {path.parent.name}/ but topic is {fm['topic']}")
     pub = list(published or [])
-    if str(fm.get("kind") or "").strip() == "rewrite":   # a rewrite overwrites a published v2 file in place; that file's own row is not a duplicate
-        mine = path.resolve()
-        pub = [p for p in pub if (q.article_for(p[0], root) or Path("/nonexistent")).resolve() != mine]
+    if str(fm.get("kind") or "").strip() == "rewrite":
+        # a rewrite overwrites a published v2 file in place under a new queue_id, so the old row maps to this file (before the
+        # rewrite) or to no file and the same primary query (after it); neither is a duplicate of the rewrite
+        mine, mine_pq = path.resolve(), " ".join(str(fm.get("primary_query") or "").lower().split())
+        pub = [p for p in pub if (q.article_for(p[0], root) or Path("/nonexistent")).resolve() != mine and " ".join(str(p[2]).lower().split()) != mine_pq]
     errs += check_duplicate(fm, pub)
     if "kind" in fm:
         measures, v3_errs = v3_checks(fm, body, path, root, live)

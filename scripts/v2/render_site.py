@@ -9,7 +9,7 @@
 
 Reads content/articles/<topic>/<slug>.md (frontmatter + Markdown with the fenced blocks below), content/tools/<slug>/{tool.md,tool.html},
 content/datasets/<slug>.{md,csv}, content/start/<reader>.md, content/pages/*.md and config/monetization.yml, and writes:
-    /  /<topic>/  /<topic>/<slug>/  /tools/  /tools/<slug>/  /datasets/  /datasets/<slug>/ (+ <slug>.csv)  /start/<reader>/  /<page>/
+    /  /<topic>/  /<topic>/<slug>/  /tools/  /tools/<slug>/  /datasets/  /datasets/<slug>/ (+ <slug>.csv)  /start/  /start/<reader>/  /<page>/
     404.html  robots.txt  sitemap.xml  ads.txt  /static/  /images/<slug>/<n>.webp
 Fenced blocks in an article body (scripts/v2/lint.py's split_fences reads them the same way; fences do not nest):
     ```figure  (YAML: kind cost_table | timeline | steps, title, rows)  -> an inline SVG drawn from the block's own text (v2)
@@ -18,9 +18,11 @@ Fenced blocks in an article body (scripts/v2/lint.py's split_fences reads them t
     ```tool <slug>```  (one line)                                        -> the tool's HTML fragment embedded in place, with a link to /tools/<slug>/
     any other fence stays a code block.
 An article with a frontmatter `kind` (v3) also gets images[0] as the lead photo under the title, a table of contents when it is the
-pillar, breadcrumbs topic > pillar > page when `pillar` is set, and the in-content ad slot before its first section instead of after the
-third paragraph. Every article, tool, dataset and start page ends with the "Did this answer your question? Yes / No, I still need..."
-box: a Netlify form named `answered` (data-netlify, honeypot, free text only) posting to /thanks/ (content/pages/thanks.md, noindex).
+pillar (in place of the writer's "## What's in this guide" list when there is one), breadcrumbs topic > pillar > page when `pillar` is
+set, and the in-content ad slot before its first section instead of after the third paragraph. A body that ends with its own
+"## Related guides" list gets no second list from the template. Every article, tool, dataset and start page ends with the "Did this
+answer your question? Yes / No, I still need..." box: a Netlify form named `answered` (data-netlify, honeypot, free text only) posting
+to /thanks/ (content/pages/thanks.md, noindex). An internal link to a page or index that is not on the site becomes plain text.
 Only articles whose queue row (queue/queue.csv) is in status published are rendered: publish.sh sets that after the checks pass and
 the lint is clean, so a draft or an article waiting for its check never reaches the site. --all renders every article (a local
 preview); a review (content/reviews/<slug>.json) with verdict reject is skipped either way. A tool or dataset renders when its
@@ -77,12 +79,15 @@ KIND_LABELS = {"pillar": "Complete guide", "spoke": "Guide", "reader_guide": "Re
 PAGE_ORDER = ("about", "editorial-policy", "corrections", "contact", "privacy")
 HIDDEN_PAGES = ("thanks",)    # rendered, but not in the footer or the sitemap, and noindex: the form's landing page
 FAQ_HEAD = re.compile(r"<h2[^>]*>\s*(?:FAQs?|Frequently asked questions|Common questions|Related questions)\s*</h2>", re.I)
+RELATED_HEAD = re.compile(r"<h2[^>]*>\s*(?:Related guides?|Related articles?|Related reading|Read next|More guides?)\s*</h2>", re.I)   # the body's own list (contract 3): the template then adds none
+TOC_TITLE = re.compile(r"(?:What(?:&#x27;|&#39;|&rsquo;|['’])?s in this guide|In this guide|Contents|Table of contents|On this page)", re.I)
+TOC_HEAD = re.compile(r'<h2 id="[^"]+"[^>]*>\s*' + TOC_TITLE.pattern + r"\s*</h2>", re.I)
 PARAGRAPH_END = re.compile(r"</p>\n(?=<(?:p|h[2-6]|ul|ol|div|figure|table|blockquote|pre|hr|section|aside|details|nav)\b)")   # top-level paragraphs only
 DEFAULT_DISCLOSURE = "This guide contains affiliate links. If you buy through one we may earn a commission at no extra cost to you; it never changes what we recommend."
 IMAGE_MAX_BYTES = 150_000
 IMAGE_MAX_WIDTH = 1600
 FRAGMENT_FLAGS = ("<script src", "fetch(", "xmlhttprequest", "localstorage", "sessionstorage", "indexeddb", "<link ", "<iframe", "sendbeacon", "document.cookie")
-TO_READ_ENTRY = re.compile(r"^- (\d{4}-\d{2}-\d{2}) \| (.*?) \| (/\S+/) \| (.*?) \| (\S+)\s*$")
+TO_READ_ENTRY = re.compile(r"^- (\d{4}-\d{2}-\d{2}) \| (.*?) \| (/\S+/) \| (.*?) \| (\S+)(?: \((q-[a-z-]+-\d{4})\))?\s*$")   # the shape scripts/v3/run.sh appends
 WARNINGS: list[str] = []
 
 
@@ -353,9 +358,11 @@ def reader_html(title: str, content: str) -> str:
 
 
 def tool_embed_html(t: dict) -> str:
-    """A tool embedded in an article: the fragment under a one-line head with the date of its numbers and a link to its page."""
+    """A tool embedded in an article: the fragment under a one-line head with the date of its numbers and a link to its page. The
+    wrapper's ids carry an embed- prefix because the fragment's own root is <div id="tool-<slug>"> (scripts/v3/write.py's tool
+    deliverable), so the two never share an id."""
     s = html.escape(t["slug"])
-    return (f'<section class="tool-embed" id="tool-{s}" aria-labelledby="tool-{s}-h"><p class="tool-embed__head"><b id="tool-{s}-h">{html.escape(t["title"])}</b> '
+    return (f'<section class="tool-embed" id="embed-{s}" aria-labelledby="embed-{s}-h"><p class="tool-embed__head"><b id="embed-{s}-h">{html.escape(t["title"])}</b> '
             f'<span class="meta">Numbers as of {html.escape(t["as_of_text"])}. <a href="{t["path"]}">How this tool works</a></span></p>{t["fragment"]}</section>')
 
 
@@ -402,12 +409,27 @@ def body_to_html(body: str, slug: str, today: date, tools: dict[str, dict]) -> t
 
 
 def toc_html(body_html: str) -> str:
-    """A pillar's table of contents: every h2 of the body (three or more), linked to its id."""
-    heads = re.findall(r'<h2 id="([^"]+)"[^>]*>(.*?)</h2>', body_html, re.S)
+    """A pillar's table of contents: every h2 of the body (three or more), linked to its id; a heading that is itself a contents
+    list ("What's in this guide") is left out."""
+    heads = [(i, t) for i, t in re.findall(r'<h2 id="([^"]+)"[^>]*>(.*?)</h2>', body_html, re.S) if not TOC_TITLE.fullmatch(strip_tags(t))]
     if len(heads) < 3:
         return ""
     items = "".join(f'<li><a href="#{html.escape(i)}">{html.escape(strip_tags(t))}</a></li>' for i, t in heads)
     return f'<nav class="toc" aria-labelledby="toc-h"><p class="toc__title" id="toc-h">In this guide</p><ol>{items}</ol></nav>'
+
+
+def place_toc(body_html: str) -> str:
+    """Give a pillar one table of contents. scripts/v3/prompts/write-pillar.md asks the writer for a "## What's in this guide" bullet
+    list of the section names right after the reader blocks; that heading and its list are replaced by the generated nav (the same
+    list, linked to the headings) so the page does not carry two. Without such a section the nav goes before the first h2."""
+    toc = toc_html(body_html)
+    m = TOC_HEAD.search(body_html)
+    if m:
+        end = body_html.find("<h2", m.end())
+        end = len(body_html) if end < 0 else end
+        if re.fullmatch(r"\s*(?:<p>(?:(?!</p>).)*</p>\s*)?<(?:ul|ol)>.*?</(?:ul|ol)>\s*", body_html[m.end():end], re.S):
+            return body_html[:m.start()] + (toc + "\n" if toc else "") + body_html[end:]
+    return insert_before_first_h2(body_html, toc)
 
 
 def insert_before_first_h2(body_html: str, snippet: str) -> str:
@@ -559,12 +581,13 @@ def copy_image(src: Path, out_dir: Path, name: str) -> tuple[str, int, int] | No
 
 def unlink_missing(body_html: str, live_paths: set[str]) -> str:
     """An internal link whose target is not on the site (an article still in its checks or rejected, a tool, dataset or start page
-    not rendered) becomes plain text: no dead links."""
+    not rendered, a topic or section index with nothing in it yet) becomes plain text: no dead links. live_paths holds every
+    rendered page and index under the topic and section dirs."""
     def repl(m):
         href = m.group(1).split("#")[0].split("?")[0]
         href = href if href.endswith("/") else href + "/"
         parts = href.strip("/").split("/")
-        if len(parts) == 2 and (parts[0] in TOPICS or parts[0] in lint.SECTION_DIRS) and href not in live_paths:
+        if len(parts) in (1, 2) and (parts[0] in TOPICS or parts[0] in lint.SECTION_DIRS) and href not in live_paths:
             return m.group(2)
         return m.group(0)
     return re.sub(r'<a href="(/[^"]+)"[^>]*>(.*?)</a>', repl, body_html, flags=re.S)
@@ -839,15 +862,16 @@ def build(args) -> int:
     no_ads = {"ads": {**ads, "sticky_footer": ""}, "head": {**head, "scripts": head_scripts(cfg, production, ads=False)}}
 
     live_paths = {x["path"] for x in arts} | {t["path"] for t in tools.values()} | {d["path"] for d in datasets} | {s["path"] for s in starts}
+    live_paths |= {f"/{t}/" for t in TOPICS if by_topic[t]} | ({"/tools/"} if tools else set()) | ({"/datasets/"} if datasets else set()) | ({"/start/"} if starts else set())
     for a in arts:
         body_html, embedded = body_to_html(a["body"], a["slug"], today, tools)
         for s in embedded:
             if a not in tools[s]["used_in"]:
                 tools[s]["used_in"].append(a)
         body_html = wrap_tables(unlink_missing(body_html, live_paths))
+        if a["kind"] == "pillar":   # before the photos, which land in front of the second and later h2s
+            body_html = place_toc(body_html)
         lede, body_html = place_images(body_html, a["images"], a["slug"], lead_first=bool(a["kind"]))
-        if a["kind"] == "pillar":
-            body_html = insert_before_first_h2(body_html, toc_html(body_html))
         body_html, faq = faq_section(body_html)
         body_html = insert_before_first_h2(body_html, ads["in_content"]) if a["kind"] else insert_after_paragraph(body_html, 3, ads["in_content"])
         hrefs = [h.lower() for h in re.findall(r'href="([^"]+)"', body_html)]
@@ -859,8 +883,10 @@ def build(args) -> int:
             if pil:
                 crumbs.append({"label": pil["title"], "href": pil["path"]})
             crumbs.append({"label": a["title"], "href": ""})
+        # a v3 body ends with its own "## Related guides" list (the pillar and two siblings, contract 3); the template's list is for pages without one
+        related = [] if RELATED_HEAD.search(body_html) else related_for(a, arts)
         emit(f"{a['topic']}/{a['slug']}/index.html", "article.html", template="article", path=a["path"], meta=a["meta"], section=a["topic_href"],
-             a={**a, "body_html": body_html, "lede_html": lede, "disclosure": disclosure, "related": related_for(a, arts), "crumbs": crumbs,
+             a={**a, "body_html": body_html, "lede_html": lede, "disclosure": disclosure, "related": related, "crumbs": crumbs,
                 "has_readers": 'class="reader"' in body_html, "json_ld": json_ld(a, site, faq, crumbs)})
 
     for t in tools.values():
@@ -870,7 +896,7 @@ def build(args) -> int:
         emit("tools/index.html", "list.html", template="list", path="/tools/", section="/tools/",
              meta=f"Calculators, quizzes and checklists from {site['name']}, built from the numbers in our topic briefs, each dated.",
              page={"eyebrow": "Tools", "title": "Tools", "deck": "Calculators, quizzes and checklists built from the numbers in our topic briefs. Each one shows the date its numbers are from; nothing you type is stored or sent anywhere.",
-                   "items": sorted(tools.values(), key=lambda x: (x["updated"], x["title"]), reverse=True), "label": "Tool"})
+                   "entries": sorted(tools.values(), key=lambda x: (x["updated"], x["title"]), reverse=True), "label": "Tool"})
     for d in datasets:
         d_body = wrap_tables(unlink_missing(md_html(d["body"], ids=True), live_paths))
         emit(f"datasets/{d['slug']}/index.html", "dataset.html", template="dataset", path=d["path"], meta=d["meta"], section=d["topic_href"],
@@ -879,10 +905,16 @@ def build(args) -> int:
         emit("datasets/index.html", "list.html", template="list", path="/datasets/", section="/datasets/",
              meta=f"Original datasets from {site['name']}: tables we built ourselves from dated samples and official prices, each with its method, sample size and a CSV download.",
              page={"eyebrow": "Data", "title": "Datasets", "deck": "Tables we built ourselves from dated samples and official prices. Each page states the method, the sample size and the date, and offers the data as a CSV file.",
-                   "items": datasets, "label": "Dataset"})
+                   "entries": datasets, "label": "Dataset"})
     for s in starts:
         s_body = wrap_tables(unlink_missing(md_html(s["body"], ids=True), live_paths))
         emit(f"start/{s['slug']}/index.html", "start.html", template="start", path=s["path"], meta=s["meta"], section="", s={**s, "body_html": s_body})
+    if starts:   # /start/ (lint.py accepts links to it, so it has to exist whenever a start page does)
+        emit("start/index.html", "list.html", template="list", path="/start/", section="/start/",
+             meta=f"Start-here paths from {site['name']}: for each kind of reader, the right guides in the order they need them.",
+             page={"eyebrow": "Start here", "title": "Start here", "deck": "Pick the path that fits your situation; each one lists the right guides in the order you need them.",
+                   "entries": [{**s, "topic_label": TOPICS[s["topics"][0]][0] if s["topics"] else "", "topic_href": f"/{s['topics'][0]}/" if s["topics"] else ""} for s in starts],
+                   "label": "Path"})
 
     for t, (label, blurb) in TOPICS.items():
         if by_topic[t]:
@@ -910,7 +942,7 @@ def build(args) -> int:
         entries += [(a["path"], a["updated_iso"]) for a in arts]
         entries += ([("/tools/", max(x["updated"] for x in tools.values()).isoformat())] if tools else []) + [(x["path"], x["updated_iso"]) for x in tools.values()]
         entries += ([("/datasets/", max(d["updated"] for d in datasets).isoformat())] if datasets else []) + [(d["path"], d["updated_iso"]) for d in datasets]
-        entries += [(s["path"], s["updated_iso"] or today.isoformat()) for s in starts]
+        entries += ([("/start/", today.isoformat())] if starts else []) + [(s["path"], s["updated_iso"] or today.isoformat()) for s in starts]
         entries += [(p["path"], p["updated_iso"] or today.isoformat()) for p in pages if not p["noindex"]]
     else:
         robots, entries = "User-agent: *\nDisallow: /\n", []
@@ -935,13 +967,14 @@ def build(args) -> int:
 DEFAULT_TO_READ_HEADER = "# To read: Ajay's spot check\n\nSee the header in reports/to-read.md in the repo for the conventions.\n"
 
 
-def to_read(path: Path, queue_path: Path, articles_dir: Path) -> int:
-    """Regenerate the entries of reports/to-read.md from the published queue rows (docs/v3/spec.md, step 8). The header (everything
-    above the first entry) and every "Ajay:" mark already on the list are kept; entries are rewritten newest first, three lines each:
-        - <updated> | <title> | <path> | <kind> | <topic>
+def to_read(path: Path, queue_path: Path, articles_dir: Path, tools_dir: Path | None = None, datasets_dir: Path | None = None) -> int:
+    """Regenerate the entries of reports/to-read.md from the published queue rows (docs/v3/spec.md, step 8): every published article,
+    tool and dataset. The header (everything above the first entry) and every "Ajay:" mark already on the list are kept (by page
+    path); entries are rewritten newest first, three lines each, in the shape scripts/v3/run.sh appends after each publish:
+        - <updated> | <title> | <path> | <kind> | <topic> (<queue id>)
           Summary: <meta>
           Ajay: <👍 or a one-line note>
-    publish.sh may append entries in the same shape as it publishes; this helper is the alternative that rebuilds the list from the queue."""
+    kind is pillar, spoke, reader_guide, rewrite, tool or dataset, and v2 for a page not yet rewritten."""
     text = path.read_text(encoding="utf-8") if path.exists() else DEFAULT_TO_READ_HEADER
     lines = text.split("\n")
     first = next((i for i, l in enumerate(lines) if TO_READ_ENTRY.match(l)), len(lines))
@@ -957,24 +990,37 @@ def to_read(path: Path, queue_path: Path, articles_dir: Path) -> int:
         if mm and cur and mm.group(1).strip():
             marks[cur] = mm.group(1).strip()
     pub = published_ids(queue_path)
-    entries = []
-    for p in sorted(articles_dir.glob("*/*.md")):
+
+    def load(p: Path) -> dict | None:
         try:
             fm, _ = frontmatter(p.read_text(encoding="utf-8"))
-        except ValueError:
-            continue
-        if str(fm.get("queue_id") or "") not in pub:
-            continue
-        d = to_date(fm.get("updated")) or date.today()
-        kind = str(fm.get("kind") or "").strip() or f"{fm.get('type') or 'article'} (v2)"
-        entries.append((d, " ".join(str(fm.get("title") or p.stem).split()), f"/{p.parent.name}/{p.stem}/", kind, p.parent.name, " ".join(str(fm.get("meta") or "").split())))
+        except (ValueError, OSError):
+            return None
+        return fm if str(fm.get("queue_id") or "") in pub else None
+
+    entries = []
+    for p in sorted(articles_dir.glob("*/*.md")):
+        if fm := load(p):
+            kind = str(fm.get("kind") or "").strip() or "v2"
+            entries.append((to_date(fm.get("updated")) or date.today(), " ".join(str(fm.get("title") or p.stem).split()), f"/{p.parent.name}/{p.stem}/", kind,
+                            p.parent.name, " ".join(str(fm.get("meta") or "").split()), str(fm["queue_id"])))
+    for p in sorted(tools_dir.glob("*/tool.md")) if tools_dir and tools_dir.is_dir() else []:
+        if fm := load(p):
+            entries.append((to_date(fm.get("updated")) or to_date(fm.get("numbers_as_of")) or date.today(), " ".join(str(fm.get("title") or p.parent.name).split()),
+                            f"/tools/{p.parent.name}/", "tool", str(fm.get("topic") or ""), " ".join(str(fm.get("meta") or "").split()), str(fm["queue_id"])))
+    for p in sorted(datasets_dir.glob("*.md")) if datasets_dir and datasets_dir.is_dir() else []:
+        if fm := load(p):
+            entries.append((to_date(fm.get("updated")) or to_date(fm.get("as_of")) or date.today(), " ".join(str(fm.get("title") or p.stem).split()),
+                            f"/datasets/{p.stem}/", "dataset", str(fm.get("topic") or ""), " ".join(str(fm.get("meta") or "").split()), str(fm["queue_id"])))
     entries.sort(key=lambda e: (e[0], e[1]), reverse=True)
     out = [header, ""]
-    for d, title, path_, kind, topic, summary in entries:
-        out += [f"- {d.isoformat()} | {title} | {path_} | {kind} | {topic}", f"  Summary: {summary}", f"  Ajay: {marks.get(path_, '')}".rstrip(), ""]
+    kept = 0
+    for d, title, path_, kind, topic, summary, qid in entries:
+        kept += path_ in marks
+        out += [f"- {d.isoformat()} | {title} | {path_} | {kind} | {topic} ({qid})", f"  Summary: {summary}", f"  Ajay: {marks.get(path_, '')}".rstrip(), ""]
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(out).rstrip("\n") + "\n", encoding="utf-8")
-    print(f"{len(entries)} published article(s) listed in {path} ({len(marks)} mark(s) kept)")
+    print(f"{len(entries)} published page(s) listed in {path} ({kept} of {len(marks)} mark(s) kept)")
     return 0
 
 
@@ -997,7 +1043,7 @@ def main(argv: list[str] | None = None) -> int:
                     help="instead of rendering, regenerate the entries of reports/to-read.md from the published rows (keeps the header and Ajay's marks)")
     a = ap.parse_args(argv)
     if a.to_read:
-        return to_read(Path(a.to_read), Path(a.queue), Path(a.articles_dir))
+        return to_read(Path(a.to_read), Path(a.queue), Path(a.articles_dir), Path(a.tools_dir), Path(a.datasets_dir))
     return build(a)
 
 

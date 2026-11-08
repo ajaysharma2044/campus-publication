@@ -5,8 +5,8 @@
   <p class="eyebrow"><a href="/">{{ page.eyebrow }}</a></p>
   <h1>{{ page.title }}</h1>
   <p class="deck measure">{{ page.deck }}</p>
-  <ul class="story-list">{% for i in page.items %}
-    <li><p class="eyebrow">{{ page.label }} · <a href="{{ i.topic_href }}">{{ i.topic_label }}</a> · <time datetime="{{ i.updated_iso }}">{{ i.updated_text }}</time></p><h2><a href="{{ i.path }}">{{ i.title }}</a></h2><p>{{ i.meta }}</p>{% if i.as_of_text %}<p class="meta">Numbers as of {{ i.as_of_text }}{% if i.csv_href %} · CSV download{% endif %}</p>{% endif %}</li>
+  <ul class="story-list">{% for i in page.entries %}
+    <li><p class="eyebrow">{{ page.label }}{% if i.topic_label %} · <a href="{{ i.topic_href }}">{{ i.topic_label }}</a>{% endif %}{% if i.updated_iso %} · <time datetime="{{ i.updated_iso }}">{{ i.updated_text }}</time>{% endif %}</p><h2><a href="{{ i.path }}">{{ i.title }}</a></h2><p>{{ i.meta }}</p>{% if i.as_of_text %}<p class="meta">Numbers as of {{ i.as_of_text }}{% if i.csv_href %} · CSV download{% endif %}</p>{% endif %}</li>
   {% endfor %}</ul>
 </article></div>
 {% endblock %}
