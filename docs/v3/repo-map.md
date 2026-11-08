@@ -22,7 +22,7 @@ Everything a v3 run touches lives at the top level. v1 is under `archive/v1/` fo
 | `queue/queue.csv` | Every question: id, question, primary query, topic, evidence, verdict, angle, status. |
 | `intel/<topic>/` | v3 intelligence: `raw/<lane>.md` now; `brief.md`, `readers.md`, `plan.md` when built. |
 | `corpus/<host>/<path>.txt` | 2,522 crawled official pages as text, with URL, title and fetch date. |
-| `reports/` | `blind-compare.md` (Ajay's comparisons), `to-read.md`, weekly and lessons notes, plan summaries for approval. |
+| `reports/` | `blind-compare.md` (Ajay's comparisons), `to-read.md` (pages for his spot check), `learn-<date>.md` and `lessons.md` (only when he runs `scripts/v3/learn.sh`), plan summaries for approval. |
 | `config/monetization.yml` | Ads, consent, analytics, affiliates and Grow switches read by the renderer. |
 | `data/questions/` | The owner's question list, read by the demand step. |
 | `worker/campus_worker/render/` | Jinja templates (`templates/`, `templates/v2/`), static CSS and fonts, `figures.py` (SVG cost tables, timelines, step diagrams). `worker/.venv` holds the Python dependencies; `worker/.env` the secrets. |
