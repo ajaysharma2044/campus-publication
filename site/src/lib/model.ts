@@ -3,9 +3,10 @@
    required field, an unknown school or topic, or a place/data/comparison page without its block. */
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { promises as fs } from 'node:fs';
+import fsSync from 'node:fs';
 import path from 'node:path';
 import { site, type School, type Topic, type Author, type Audience } from '../../site.config';
-import { renderArticle, countWords, type RenderedArticle } from './markdown';
+import { renderArticle, renderMarkdown, countWords, type RenderedArticle, type EmbeddableTool } from './markdown';
 import manifest from '../data/images.json';
 
 export type PageType = 'pillar' | 'answer' | 'place' | 'data' | 'comparison' | 'guide';
@@ -23,9 +24,13 @@ export interface Page {
   author: Author; reviewedBy?: string; body: RenderedArticle; sample: boolean; crossSchool: boolean; typeLabel: string;
   data: CollectionEntry<'articles'>['data']; file: string; primaryQuery: string;
 }
+export interface Tool { slug: string; url: string; title: string; dek: string; topic: Topic; school: School; updated: string; asOf: string; sources: Source[]; html: string; fragment: string; usedIn: Page[]; readers: string[]; file: string }
+export interface Dataset { slug: string; url: string; title: string; dek: string; topic: Topic; school: School; updated: string; asOf: string; sampleSize: string; method: string; sources: Source[]; body: RenderedArticle; csvHref: string; csvRows: number; columns: string[]; rows: string[][]; csvText: string; file: string }
+export interface StartPage { slug: string; url: string; title: string; dek: string; topics: Topic[]; school: School; updated: string; html: string; readers: string[]; file: string }
 export interface SiteModel {
   pages: Page[];        // real pages (no samples)
   samples: Page[];
+  tools: Tool[]; datasets: Dataset[]; starts: StartPage[];
   schools: School[]; topics: Topic[]; linkMap: Map<string, string>; knownUrls: Set<string>;
 }
 
@@ -36,6 +41,9 @@ export const fmtDate = (iso: string) => {
 export const schoolUrl = (s: School) => `/${s.slug}/`;
 export const topicUrl = (s: School, t: Topic | string) => `/${s.slug}/${typeof t === 'string' ? t : t.id}/`;
 export const dataIndexUrl = (s: School) => `/${s.slug}/data/`;
+export const toolsIndexUrl = '/tools/';
+export const datasetsIndexUrl = '/datasets/';
+export const startIndexUrl = '/start/';
 export const authorUrl = (a: Author) => `/authors/${a.slug}/`;
 export const schoolById = (id?: string) => site.schools.find((s) => s.id === id || s.slug === id);
 export const topicById = (id?: string) => site.topics.find((t) => t.id === id);
@@ -97,13 +105,33 @@ async function publishedIds(): Promise<Set<string> | null> {
   } catch { return new Set(); }
 }
 
+/** A small RFC 4180 reader: quoted fields may hold commas, quotes and newlines. */
+export function parseCsv(text: string): string[][] {
+  const rows: string[][] = []; let row: string[] = []; let cell = ''; let q = false;
+  const s = text.replace(/^\uFEFF/, '');
+  for (let i = 0; i < s.length; i++) {
+    const c = s[i];
+    if (q) { if (c === '"') { if (s[i + 1] === '"') { cell += '"'; i++; } else q = false; } else cell += c; continue; }
+    if (c === '"') q = true;
+    else if (c === ',') { row.push(cell); cell = ''; }
+    else if (c === '\n' || c === '\r') { if (c === '\r' && s[i + 1] === '\n') i++; row.push(cell); rows.push(row); row = []; cell = ''; }
+    else cell += c;
+  }
+  if (cell.length || row.length) { row.push(cell); rows.push(row); }
+  return rows.filter((r) => r.some((v) => v !== ''));
+}
+
 let cache: Promise<SiteModel> | null = null;
 export function getSite(): Promise<SiteModel> { return (cache ??= build()); }
 
 async function build(): Promise<SiteModel> {
   const articles = await getCollection('articles');
   const samples = await getCollection('samples');
+  const toolEntries = await getCollection('tools');
+  const datasetEntries = await getCollection('datasets');
+  const startEntries = await getCollection('starts');
   const published = await publishedIds();
+  const isPublished = (qid?: string) => !published || !qid || published.has(qid);
   const draft: { entry: any; sample: boolean }[] = [
     ...articles.filter((e) => !published || !e.data.queue_id || published.has(e.data.queue_id)).map((entry) => ({ entry, sample: false })),
     ...samples.map((entry) => ({ entry, sample: true })),
@@ -134,10 +162,34 @@ async function build(): Promise<SiteModel> {
   linkMap.set('/editorial-policy/', '/editorial-standards/');
   for (const a of site.authors) knownUrls.add(authorUrl(a));
 
+  // the pipeline's tools, datasets and start pages keep the renderer's paths: /tools/<slug>/, /datasets/<slug>/, /start/<reader>/
+  const school0 = site.schools[0];
+  const toolDraft = toolEntries.filter((e) => e.id.endsWith('/tool') && isPublished(e.data.queue_id)).map((e) => {
+    const slug = e.id.split('/')[0];
+    const topic = topicById(e.data.topic); if (!topic) throw new Error(`content/tools/${slug}/tool.md: unknown topic "${e.data.topic}"`);
+    const fragPath = path.resolve('..', 'content', 'tools', slug, 'tool.html');
+    if (!fsSync.existsSync(fragPath)) throw new Error(`content/tools/${slug}: a tool needs tool.md and tool.html`);
+    return { e, slug, topic, url: `/tools/${slug}/`, fragment: fsSync.readFileSync(fragPath, 'utf8') };
+  });
+  const datasetDraft = datasetEntries.filter((e) => isPublished(e.data.queue_id)).map((e) => {
+    const slug = e.id; const topic = topicById(e.data.topic); if (!topic) throw new Error(`content/datasets/${slug}.md: unknown topic "${e.data.topic}"`);
+    return { e, slug, topic, url: `/datasets/${slug}/` };
+  });
+  const startDraft = startEntries.map((e) => ({ e, slug: e.id, url: `/start/${e.id}/`, topics: (e.data.topics.length ? e.data.topics : [e.data.topic]).map((t: string | undefined) => topicById(t)).filter(Boolean) as Topic[] }));
+  for (const t of toolDraft) knownUrls.add(t.url);
+  for (const d of datasetDraft) knownUrls.add(d.url);
+  for (const st of startDraft) knownUrls.add(st.url);
+  if (toolDraft.length) knownUrls.add(toolsIndexUrl);
+  if (datasetDraft.length) knownUrls.add(datasetsIndexUrl);
+  if (startDraft.length) knownUrls.add(startIndexUrl);
+  const toolMap = new Map<string, EmbeddableTool>(toolDraft.map((t) => [t.slug, { slug: t.slug, url: t.url, title: t.e.data.title.trim(), fragment: t.fragment }]));
+  const usedIn = new Map<string, Page[]>();
+
   const make = (p: typeof pre[number]): Page => {
     const sources: Source[] = (p.d.sources ?? []).map((s: any) => ({ url: s.url, title: s.title || s.url, accessed: s.accessed }));
     const images = photosFor((p.d as any).images_from ?? p.slug, p.d.images ?? []);
-    const body = renderArticle(p.entry.body ?? '', { sources, linkMap, knownUrls, photos: images });
+    const embedded: string[] = [];
+    const body = renderArticle(p.entry.body ?? '', { sources, linkMap, knownUrls, photos: images, tools: toolMap, embedded });
     const page: Page = {
       id: p.entry.id, slug: p.slug, url: p.url, oldUrl: p.oldUrl, title: p.d.title.trim(), dek: p.d.meta.trim(), school: p.school, topic: p.topic,
       pageType: p.pageType, updated: p.d.updated, year: p.d.year ?? Number(String(p.d.updated).slice(0, 4)), words: body.words, sources, images, lead: images[0] ?? null,
@@ -145,10 +197,33 @@ async function build(): Promise<SiteModel> {
       data: p.d, file: p.file, primaryQuery: p.d.primary_query ?? '',
     };
     validate(page);
+    if (!p.sample) for (const slug of new Set(embedded)) usedIn.set(slug, [...(usedIn.get(slug) ?? []), page]);
     return page;
   };
   const all = pre.map(make);
-  return { pages: all.filter((p) => !p.sample).sort((a, b) => (a.updated < b.updated ? 1 : -1)), samples: all.filter((p) => p.sample), schools: site.schools, topics: site.topics, linkMap, knownUrls };
+  const srcs = (d: any): Source[] => (d.sources ?? []).map((s: any) => ({ url: s.url, title: s.title || s.url, accessed: s.accessed }));
+  const tools: Tool[] = toolDraft.map((t) => ({
+    slug: t.slug, url: t.url, title: t.e.data.title.trim(), dek: t.e.data.meta.trim(), topic: t.topic, school: school0, updated: t.e.data.updated, asOf: t.e.data.numbers_as_of,
+    sources: srcs(t.e.data), html: renderMarkdown(t.e.body ?? '', { sources: srcs(t.e.data), linkMap, knownUrls }).html, fragment: t.fragment, usedIn: usedIn.get(t.slug) ?? [],
+    readers: t.e.data.readers ?? [], file: `content/tools/${t.slug}/tool.md`,
+  }));
+  const datasets: Dataset[] = datasetDraft.map((d) => {
+    const csvPath = path.resolve('..', 'content', 'datasets', `${d.slug}.csv`);
+    const csvText = fsSync.existsSync(csvPath) ? fsSync.readFileSync(csvPath, 'utf8') : '';
+    const table = csvText ? parseCsv(csvText) : [];
+    const sources = srcs(d.e.data);
+    return {
+      slug: d.slug, url: d.url, title: d.e.data.title.trim(), dek: d.e.data.meta.trim(), topic: d.topic, school: school0, updated: d.e.data.updated, asOf: d.e.data.as_of,
+      sampleSize: String(d.e.data.sample_size ?? ''), method: String(d.e.data.method ?? '').split(/\s+/).join(' '), sources,
+      body: renderArticle(d.e.body ?? '', { sources, linkMap, knownUrls }), csvHref: csvText ? `/datasets/${d.slug}/${d.slug}.csv` : '', csvRows: Math.max(0, table.length - 1),
+      columns: table[0] ?? [], rows: table.slice(1), csvText, file: `content/datasets/${d.slug}.md`,
+    };
+  }).sort((a, b) => (a.updated < b.updated ? 1 : -1));
+  const starts: StartPage[] = startDraft.map((st) => ({
+    slug: st.slug, url: st.url, title: st.e.data.title.trim(), dek: st.e.data.meta.trim(), topics: st.topics, school: school0, updated: st.e.data.updated ?? '',
+    html: renderMarkdown(st.e.body ?? '', { linkMap, knownUrls }).html, readers: st.e.data.readers ?? [], file: `content/start/${st.slug}.md`,
+  }));
+  return { pages: all.filter((p) => !p.sample).sort((a, b) => (a.updated < b.updated ? 1 : -1)), samples: all.filter((p) => p.sample), tools, datasets, starts, schools: site.schools, topics: site.topics, linkMap, knownUrls };
 }
 
 /* ---------- groupings ---------- */
@@ -156,6 +231,9 @@ export const forSchool = (m: SiteModel, s: School) => m.pages.filter((p) => p.sc
 export const forTopic = (m: SiteModel, s: School, t: Topic | string) => forSchool(m, s).filter((p) => p.topic.id === (typeof t === 'string' ? t : t.id));
 export const pillars = (pages: Page[]) => pages.filter((p) => p.pageType === 'pillar').sort((a, b) => b.words - a.words);
 export const dataPages = (pages: Page[]) => pages.filter((p) => p.pageType === 'data');
+export const toolsFor = (m: SiteModel, t: Topic | string) => m.tools.filter((x) => x.topic.id === (typeof t === 'string' ? t : t.id));
+export const datasetsFor = (m: SiteModel, t: Topic | string) => m.datasets.filter((x) => x.topic.id === (typeof t === 'string' ? t : t.id));
+export const startsFor = (m: SiteModel, t: Topic | string) => m.starts.filter((x) => x.topics.some((tt) => tt.id === (typeof t === 'string' ? t : t.id)));
 
 /** Traffic-ranked lists come from site.config; without analytics the fallback is the longest pillar guides, labeled honestly. */
 export function mostRead(m: SiteModel, s: School | null, n = 5): { label: string; items: Page[] } {

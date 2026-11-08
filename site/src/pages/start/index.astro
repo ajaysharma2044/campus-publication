@@ -1,0 +1,9 @@
+---
+import { site } from '../../../site.config';
+import { getSite, fmtDate } from '../../lib/model';
+import KindIndex from '../../components/KindIndex.astro';
+const m = await getSite();
+const school = site.schools[0];
+const rows = m.starts.map((s) => ({ title: s.title, url: s.url, dek: s.dek, category: `Start here · ${s.topics.map((t) => t.label).join(', ')}`, meta: s.updated ? `Updated ${fmtDate(s.updated)}` : undefined }));
+---
+<KindIndex m={m} school={school} title="Start here" dek="For each kind of reader, the right guides in the order they need them, with the dates to watch." path="/start/" label="Start here" rows={rows} empty="No start pages are published yet." />

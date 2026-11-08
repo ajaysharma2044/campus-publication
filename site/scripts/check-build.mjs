@@ -24,9 +24,10 @@ for (const f of files) {
   const rel = '/' + path.relative(dist, f).replace(/\\/g, '/');
   const url = rel.replace(/index\.html$/, '');
   const html = await fs.readFile(f, 'utf8');
-  const h1s = (html.match(/<h1[\s>]/g) || []).length;
+  const own = html.replace(/<section class="tool-embed[\s\S]*?<\/section>/g, '');   // tool fragments are the pipeline's HTML (scripts/v2/lint.py checks them)
+  const h1s = (own.match(/<h1[\s>]/g) || []).length;
   if (h1s !== 1) failures.push(`${url}: ${h1s} H1 elements`);
-  if (/\sstyle="/.test(html)) failures.push(`${url}: inline style attribute`);
+  if (/\sstyle="/.test(own)) failures.push(`${url}: inline style attribute`);
   for (const [re, what] of [[/<title>[^<]+<\/title>/, 'title'], [/<meta name="description" content="[^"]+"/, 'meta description'], [/<link rel="canonical"/, 'canonical'], [/<meta property="og:image"/, 'og:image'], [/application\/ld\+json/, 'JSON-LD'], [/<main\b/, 'main landmark'], [/class="skip"/, 'skip link']]) if (!re.test(html)) failures.push(`${url}: missing ${what}`);
   const mainHtml = (html.match(/<main[\s\S]*?<\/main>/) || [''])[0].replace(/<nav class="crumbs"[\s\S]*?<\/nav>/, '');
   const links = new Set();

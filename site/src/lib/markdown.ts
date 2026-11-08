@@ -18,8 +18,11 @@ export interface Section { heading?: Heading; blocks: Block[]; words: number }
 export interface FaqItem { q: string; a: string; text: string }
 export interface Link { title: string; url: string }
 export interface BodyPhoto { file: string; src: string; width: number; height: number; srcsetAvif: string; srcsetWebp: string; alt: string; caption: string; credit: string; creditUrl: string; license: string; licenseUrl: string }
+export interface EmbeddableTool { slug: string; url: string; title: string; fragment: string }
 export interface RenderContext {
   sources?: { url: string }[];
+  tools?: Map<string, EmbeddableTool>;  // published tools, by slug, for the ```tool fence
+  embedded?: string[];                 // filled while rendering: the tool slugs the body embeds
   photos?: BodyPhoto[];              // the article's photos; photos[0] is the lead and is never repeated in the body
   linkMap?: Map<string, string>;     // old internal URL -> new URL
   knownUrls?: Set<string>;           // new URLs that exist on the site
@@ -80,6 +83,11 @@ function figureHtml(body: string): string {
   return '';
 }
 
+/** A tool embedded in a page: the self-contained fragment under a one-line head that links to the tool's own page. */
+export function toolEmbedHtml(tool: EmbeddableTool): string {
+  return `<section class="tool-embed" aria-label="${esc(tool.title)}"><p class="tool-embed__head"><span class="tool-embed__kicker">Tool</span> <a href="${tool.url}">${esc(tool.title)}</a></p>${tool.fragment}<p class="tool-embed__foot">Runs in your browser; nothing you type is stored or sent. <a href="${tool.url}">About this tool and its numbers</a>.</p></section>`;
+}
+
 function glanceHtml(body: string): string {
   const items = body.split('\n').map((l) => l.replace(/^\s*[-*]\s*/, '').trim()).filter(Boolean);
   if (!items.length) return '';
@@ -94,8 +102,18 @@ function inlineMd(s: string): string {
     .replace(/\*([^*]+)\*/g, '<em>$1</em>');
 }
 
-function remarkFences() {
+function remarkFences(ctx: RenderContext) {
   return (tree: any) => {
+    // the pipeline writes a tool embed on one line, ```tool <slug>```, which Markdown reads as inline code in a paragraph of its own
+    visit(tree, 'paragraph', (node: any, index: number | undefined, parent: any) => {
+      if (!parent || index === undefined || node.children.length !== 1 || node.children[0].type !== 'inlineCode') return;
+      const m = /^tool\s+([a-z0-9-]+)$/i.exec(String(node.children[0].value).trim());
+      if (!m) return;
+      const tool = ctx.tools?.get(m[1]);
+      if (tool) { ctx.embedded?.push(m[1]); parent.children[index] = { type: 'html', value: toolEmbedHtml(tool) }; }
+      else parent.children.splice(index, 1);
+      return index;
+    });
     visit(tree, 'code', (node: any, index: number | undefined, parent: any) => {
       if (!parent || index === undefined) return;
       const lang = String(node.lang ?? '');
@@ -107,7 +125,10 @@ function remarkFences() {
         const title = meta.replace(/^"|"$/g, '') || 'If you are';
         html = `<details class="reader" open><summary class="reader__title">${esc(title)}</summary><div class="reader__body">${renderMarkdown(node.value).html}</div></details>`;
       } else if (lang === 'tool') {
-        html = `<p class="tool-ref">Interactive tool: ${esc(meta || node.value.trim())} (available on the current site).</p>`;
+        const slug = (meta || node.value).trim().split(/\s+/)[0];
+        const tool = ctx.tools?.get(slug);
+        if (tool) { ctx.embedded?.push(slug); html = toolEmbedHtml(tool); }
+        else html = '';   // a tool that is not published: nothing, never a dead link
       } else return;
       parent.children[index] = html ? { type: 'html', value: html } : { type: 'html', value: '' };
     });
@@ -175,7 +196,7 @@ export function renderMarkdown(md: string, ctx: RenderContext = {}): { html: str
   const headings: Heading[] = [];
   const footnotes = new Map<number, string>();
   const counters = { ref: 0, used: new Set<number>() };
-  const processor = unified().use(remarkParse).use(remarkGfm).use(remarkFences).use(remarkRehype, { allowDangerousHtml: true })
+  const processor = unified().use(remarkParse).use(remarkGfm).use(remarkFences, ctx).use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeRaw).use(rehypeSlug).use(rehypeLinks, ctx, footnotes, counters).use(collectHeadings, headings);
   const tree: any = processor.runSync(processor.parse(md));
   const blocks: Block[] = [];

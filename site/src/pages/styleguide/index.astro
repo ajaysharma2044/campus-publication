@@ -43,6 +43,7 @@ const templates = [
   { n: 8, name: 'Data page', url: '/styleguide/data/', real: false }, { n: 9, name: 'Comparison page', url: '/styleguide/comparison/', real: false }, { n: 10, name: 'Cross-school guide', url: '/styleguide/guide/', real: false },
   { n: 11, name: 'Author page', url: '/authors/footnote-daily-editors/', real: true }, { n: 12, name: 'Trust pages', url: '/editorial-standards/', real: true }, { n: 13, name: 'Search results', url: '/search/?q=meal+plan', real: true },
   { n: 14, name: '404', url: '/404.html', real: true },
+  { n: 15, name: 'Tool page (pipeline)', url: m.tools[0]?.url ?? '/tools/', real: true }, { n: 16, name: 'Dataset page (pipeline)', url: m.datasets[0]?.url ?? '/datasets/', real: true }, { n: 17, name: 'Start-here page (pipeline)', url: m.starts[0]?.url ?? '/start/', real: true },
 ];
 const swatches = [['navy', '#0E1B33'], ['navy-2', '#26385E'], ['navy-3', '#B8C2D6'], ['gold', '#D6A738'], ['gold-ink', '#7E5F0B'], ['highlight', '#FBE3A1'], ['ink', '#16181D'], ['text', '#2A2D33'], ['muted', '#5E6573'], ['rule', '#E2E4E8'], ['surface', '#F4F5F7'], ['link', '#1C4791']];
 const sampleShort = renderArticle('Sample short answer: the **first marked phrase** and the **second marked phrase** get the marker stroke; a **third strong run** stays bold. A hard fact carries a marker.').shortAnswer;

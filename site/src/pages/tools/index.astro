@@ -1,0 +1,9 @@
+---
+import { site } from '../../../site.config';
+import { getSite, fmtDate } from '../../lib/model';
+import KindIndex from '../../components/KindIndex.astro';
+const m = await getSite();
+const school = site.schools[0];
+const rows = m.tools.map((t) => ({ title: t.title, url: t.url, dek: t.dek, category: `${t.topic.label} · Tool`, meta: `Numbers as of ${fmtDate(t.asOf)}` }));
+---
+<KindIndex m={m} school={school} title="Tools" dek="Calculators, quizzes and checklists built from the numbers in our topic briefs. Each one shows the date its numbers are from; nothing you type is stored or sent anywhere." path="/tools/" label="Tools" rows={rows} empty="No tools are published yet." />

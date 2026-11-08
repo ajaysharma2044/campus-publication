@@ -3,7 +3,7 @@
 import Base from './Base.astro';
 import { site, type School } from '../../site.config';
 import type { SiteModel } from '../lib/model';
-import { forSchool, forTopic, pillars, dataPages, schoolUrl, topicUrl, dataIndexUrl, isAudience } from '../lib/model';
+import { forSchool, forTopic, pillars, dataPages, schoolUrl, topicUrl, dataIndexUrl, isAudience, fmtDate, startIndexUrl, datasetsIndexUrl } from '../lib/model';
 import { breadcrumbList, collectionPage } from '../lib/schema';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import GuideCard from '../components/GuideCard.astro';
@@ -16,6 +16,8 @@ const all = forSchool(m, school);
 const start = pillars(all).slice(0, 5);
 const sections = site.topics.filter((t) => !isAudience(t.id)).map((t) => { const items = forTopic(m, school, t); const feat = pillars(items)[0] ?? items[0]; return { t, feat, rest: items.filter((p) => p !== feat).slice(0, 6), count: items.length }; }).filter((s) => s.count);
 const data = dataPages(all);
+const dataRows = [...data.map((p) => ({ title: p.title, url: p.url, dek: p.dek, category: `${p.topic.label} · Data`, meta: `Updated ${fmtDate(p.updated)}` })), ...m.datasets.map((d) => ({ title: d.title, url: d.url, dek: d.dek, category: `${d.topic.label} · Data`, meta: `Data as of ${fmtDate(d.asOf)}` }))];
+const startRows = m.starts.map((s) => ({ title: s.title, url: s.url, dek: s.dek, category: s.topics.map((t) => t.label).join(', ') }));
 const crumbs = [{ label: 'Home', href: '/' }, { label: school.short }];
 const title = `${school.short} Student Guide`;
 const jsonld = [breadcrumbList(crumbs), collectionPage({ title, dek: school.dek, url: schoolUrl(school), items: all.map((p) => ({ title: p.title, url: p.url })) })];
@@ -44,10 +46,11 @@ const jsonld = [breadcrumbList(crumbs), collectionPage({ title, dek: school.dek,
       <section class="section" aria-labelledby="audience-title">
         <div class="section__head"><h2 id="audience-title">Guides by reader</h2></div>
         <ul class="audience-links">{site.audiences.map((a) => <li><a href={topicUrl(school, a.id)}>{a.label}</a></li>)}</ul>
+        {startRows.length ? <Fragment><p class="kicker">Start here, by situation</p><GuideList rows={startRows.slice(0, 8)} dek={false} compact /><p class="card__dek"><a href={startIndexUrl}>All {startRows.length} start pages</a></p></Fragment> : null}
       </section>
       <section class="section" aria-labelledby="data-title">
-        <div class="section__head"><h2 id="data-title">Data for {school.short}</h2><a class="section__more" href={dataIndexUrl(school)}>All data pages</a></div>
-        {data.length ? <GuideList items={data} meta /> : <p class="card__dek">Trackers for {school.short} are being compiled. The <a href={dataIndexUrl(school)}>data index</a> lists each one as it is published.</p>}
+        <div class="section__head"><h2 id="data-title">Data for {school.short}</h2><a class="section__more" href={datasetsIndexUrl}>All datasets</a></div>
+        {dataRows.length ? <GuideList rows={dataRows.slice(0, 6)} meta /> : <p class="card__dek">Trackers for {school.short} are being compiled. The <a href={dataIndexUrl(school)}>data index</a> lists each one as it is published.</p>}
       </section>
     </div>
     <Sidebar m={m} school={school} newsletterTitle={`The ${school.short} guide, weekly`} blurb={undefined} />

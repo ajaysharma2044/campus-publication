@@ -1,0 +1,34 @@
+---
+/* A start-here page (pipeline contract 4): one reader's path through the guides, in order, with dates to watch. */
+import Base from './Base.astro';
+import type { SiteModel, StartPage } from '../lib/model';
+import { schoolUrl, topicUrl, startIndexUrl, fmtDate } from '../lib/model';
+import { breadcrumbList, webPage } from '../lib/schema';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import FeedbackBox from '../components/FeedbackBox.astro';
+import GuideList from '../components/GuideList.astro';
+import Sidebar from '../components/Sidebar.astro';
+interface Props { m: SiteModel; start: StartPage }
+const { m, start: s } = Astro.props;
+const topic = s.topics[0];
+const crumbs = [{ label: 'Home', href: '/' }, { label: s.school.short, href: schoolUrl(s.school) }, ...(topic ? [{ label: topic.label, href: topicUrl(s.school, topic) }] : []), { label: 'Start here', href: startIndexUrl }, { label: s.title }];
+const others = m.starts.filter((x) => x.url !== s.url && x.topics.some((t) => s.topics.some((tt) => tt.id === t.id))).slice(0, 6);
+---
+<Base title={s.title} description={s.dek} path={s.url} school={s.school} current={topic?.id} jsonld={[breadcrumbList(crumbs), webPage({ title: s.title, dek: s.dek, url: s.url, updated: s.updated || undefined })]}>
+  <div class="page--article">
+    <article class="main">
+      <Breadcrumbs crumbs={crumbs} />
+      <header class="head"><p class="kicker" data-pagefind-meta="category">Start here{topic ? ` · ${topic.label}` : ''}</p><h1>{s.title}</h1><p class="dek">{s.dek}</p></header>
+      {s.updated ? <div class="byline byline--compact"><p class="byline__meta"><span class="byline__updated">Updated {fmtDate(s.updated)}</span><span>{s.topics.map((t) => t.label).join(', ')}</span></p></div> : null}
+      <div class="prose start-path" set:html={s.html} />
+      {others.length ? (
+        <section class="section" aria-labelledby="other-starts">
+          <div class="section__head"><h2 id="other-starts">Other starting points</h2><a class="section__more" href={startIndexUrl}>All start pages</a></div>
+          <GuideList rows={others.map((o) => ({ title: o.title, url: o.url, dek: o.dek, category: o.topics.map((t) => t.label).join(', ') }))} compact />
+        </section>
+      ) : null}
+      <FeedbackBox path={s.url} />
+    </article>
+    <Sidebar m={m} school={s.school} />
+  </div>
+</Base>

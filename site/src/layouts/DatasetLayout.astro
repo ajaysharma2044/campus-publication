@@ -1,0 +1,48 @@
+---
+/* A dataset page (pipeline contract 4) on the spec's data template: key finding, method, the body, the full table sortable, CSV, citation. */
+import Base from './Base.astro';
+import { site } from '../../site.config';
+import type { SiteModel, Dataset } from '../lib/model';
+import { schoolUrl, topicUrl, datasetsIndexUrl, fmtDate } from '../lib/model';
+import { breadcrumbList, dataset as datasetSchema } from '../lib/schema';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ShortAnswer from '../components/ShortAnswer.astro';
+import DataTable from '../components/DataTable.astro';
+import ArticleSections from '../components/ArticleSections.astro';
+import FAQ from '../components/FAQ.astro';
+import SourcesList from '../components/SourcesList.astro';
+import FeedbackBox from '../components/FeedbackBox.astro';
+import AdSlot from '../components/AdSlot.astro';
+import Sidebar from '../components/Sidebar.astro';
+interface Props { m: SiteModel; dataset: Dataset }
+const { m, dataset: d } = Astro.props;
+const b = d.body;
+const crumbs = [{ label: 'Home', href: '/' }, { label: d.school.short, href: schoolUrl(d.school) }, { label: d.topic.label, href: topicUrl(d.school, d.topic) }, { label: 'Datasets', href: datasetsIndexUrl }, { label: d.title }];
+const pageUrl = new URL(d.url, site.url).toString();
+const citation = `${site.name}, “${d.title}”, data as of ${fmtDate(d.asOf)}. ${pageUrl}`;
+const jsonld = [breadcrumbList(crumbs), datasetSchema({ title: d.title, dek: d.dek, url: d.url, updated: d.asOf, csv: d.csvHref || undefined, license: 'https://creativecommons.org/licenses/by/4.0/' })];
+---
+<Base title={d.title} description={d.dek} path={d.url} school={d.school} current="data" jsonld={jsonld}>
+  <div class="page--article">
+    <article class="main">
+      <Breadcrumbs crumbs={crumbs} />
+      <header class="head"><p class="kicker" data-pagefind-meta="category">{d.topic.label} · Data</p><h1>{d.title}</h1><p class="dek">{d.dek}</p></header>
+      <div class="byline byline--compact"><p class="byline__meta"><span class="byline__updated byline__updated--strong">Data as of {fmtDate(d.asOf)}</span>{d.sampleSize ? <span>Sample: {d.sampleSize}</span> : null}<span class="byline__updated">Updated {fmtDate(d.updated)}</span></p></div>
+      {b.shortAnswer ? <ShortAnswer html={b.shortAnswer} title="Key finding" /> : null}
+      {d.csvHref ? <p><a class="btn btn--navy" href={d.csvHref} download>Download CSV ({d.csvRows} rows)</a> <span class="card__dek">Free to reuse with a link to this page.</span></p> : null}
+      {d.method ? <section class="note"><h3 class="note__title">How we built it</h3><p>{d.method}</p></section> : null}
+      <ArticleSections intro={b.intro} sections={b.sections} every={1200} maxAds={0} />
+      {d.columns.length ? <DataTable columns={d.columns} rows={d.rows} caption="The full table" csvHref={d.csvHref || undefined} foot={`${d.csvRows} rows, data as of ${fmtDate(d.asOf)}.`} /> : null}
+      <AdSlot size="300x250" position="inContent" />
+      <FAQ items={b.faq} />
+      <SourcesList sources={d.sources} footnotes={b.footnotes} />
+      <section class="cite" aria-labelledby="cite-title">
+        <h2 class="cite__title" id="cite-title">Embed or cite this data</h2>
+        <p class="cite__line">{citation}</p>
+        <p>{d.csvHref ? <Fragment><a href={d.csvHref} download>Download the CSV</a>. </Fragment> : null}Reuse with a link back to this page. A row looks wrong? <a href="/corrections/">Tell us and we will check it</a>.</p>
+      </section>
+      <FeedbackBox path={d.url} />
+    </article>
+    <Sidebar m={m} school={d.school} />
+  </div>
+</Base>

@@ -13,7 +13,7 @@ const { m } = Astro.props;
 const [lead, ...side] = featured(m, 4);
 const letters = new Map<string, typeof site.schools>();
 for (const s of [...site.schools].sort((a, b) => a.name.localeCompare(b.name))) { const L = s.name[0].toUpperCase(); letters.set(L, [...(letters.get(L) ?? []), s]); }
-const data = dataPages(m.pages).slice(0, 4);
+const data = [...dataPages(m.pages).map((p) => ({ title: p.title, url: p.url, dek: p.dek, category: `${p.topic.label} · Data`, meta: `Updated ${fmtDate(p.updated)}` })), ...m.datasets.map((d) => ({ title: d.title, url: d.url, dek: d.dek, category: `${d.topic.label} · Data`, meta: `Data as of ${fmtDate(d.asOf)}` }))].slice(0, 4);
 const rows = site.homeTopics.map((id) => ({ topic: topicById(id)!, items: m.pages.filter((p) => p.topic.id === id && !p.crossSchool).slice(0, 4) })).filter((r) => r.items.length);
 ---
 <Base title={`${site.name}: ${site.tagline}`} description={`${site.tagline} of Cornell University and Ithaca. Every price, date and rule links to the official page it came from.`} path="/" bodyClass="home" searchable={false}>
@@ -33,8 +33,8 @@ const rows = site.homeTopics.map((id) => ({ topic: topicById(id)!, items: m.page
   <AdSlot size="728x90" position="leaderboard" />
   {data.length ? (
     <section class="section" aria-labelledby="data-title">
-      <div class="section__head"><h2 id="data-title">Data and trackers</h2><a class="section__more" href={`/${site.schools[0].slug}/data/`}>All data pages</a></div>
-      <div class="trackers">{data.map((p) => <GuideCard page={p} size="small" photo={false} showMeta />)}</div>
+      <div class="section__head"><h2 id="data-title">Data and trackers</h2><a class="section__more" href="/datasets/">All datasets</a></div>
+      <div class="trackers">{data.map((r) => <article class="card card--small"><p class="card__kicker">{r.category}</p><h3 class="card__title"><a href={r.url}>{r.title}</a></h3><p class="card__meta">{r.meta}</p></article>)}</div>
     </section>
   ) : null}
   <div class="topic-rows">

@@ -3,10 +3,11 @@ import { spawn } from 'node:child_process';
 import path from 'node:path';
 import { promises as fs } from 'node:fs';
 import { serve } from './serve.mjs';
-import { TEMPLATES } from './templates.mjs';
+import { resolveTemplates } from './templates.mjs';
 const out = path.resolve('..', 'reports', 'lighthouse');
 await fs.mkdir(out, { recursive: true });
 const { server, url } = await serve(process.env.DIST || 'dist');
+const TEMPLATES = await resolveTemplates(process.env.DIST || 'dist');
 import { existsSync } from 'node:fs';
 import os from 'node:os';
 // Lighthouse runs as an async child process: the static server lives in this same process, so a blocking spawn would starve it

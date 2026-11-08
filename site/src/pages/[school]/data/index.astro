@@ -1,6 +1,6 @@
 ---
 import { site } from '../../../../site.config';
-import { getSite, forSchool, dataPages, schoolUrl, dataIndexUrl } from '../../../lib/model';
+import { getSite, forSchool, dataPages, schoolUrl, dataIndexUrl, fmtDate } from '../../../lib/model';
 import { breadcrumbList, collectionPage } from '../../../lib/schema';
 import Base from '../../../layouts/Base.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
@@ -10,16 +10,17 @@ export async function getStaticPaths() { return site.schools.map((s) => ({ param
 const { school } = Astro.props;
 const m = await getSite();
 const items = dataPages(forSchool(m, school));
+const rows = [...items.map((p) => ({ title: p.title, url: p.url, dek: p.dek, category: `${p.topic.label} · Data`, meta: `Updated ${fmtDate(p.updated)}` })), ...m.datasets.map((d) => ({ title: d.title, url: d.url, dek: d.dek, category: `${d.topic.label} · Data`, meta: `Data as of ${fmtDate(d.asOf)}${d.csvRows ? ` · ${d.csvRows} rows` : ''}` }))];
 const title = `${school.short} Data and Trackers`;
 const dek = `Original compiled data about ${school.name} and ${school.town}: rents, rates, dates and counts, updated on a schedule and downloadable as CSV.`;
 const crumbs = [{ label: 'Home', href: '/' }, { label: school.short, href: schoolUrl(school) }, { label: 'Data' }];
 ---
-<Base title={title} description={dek} path={dataIndexUrl(school)} school={school} current="data" jsonld={[breadcrumbList(crumbs), collectionPage({ title, dek, url: dataIndexUrl(school), items: items.map((p) => ({ title: p.title, url: p.url })) })]}>
+<Base title={title} description={dek} path={dataIndexUrl(school)} school={school} current="data" jsonld={[breadcrumbList(crumbs), collectionPage({ title, dek, url: dataIndexUrl(school), items: rows.map((p) => ({ title: p.title, url: p.url })) })]}>
   <div class="page--article">
     <div class="main">
       <Breadcrumbs crumbs={crumbs} />
       <header class="head"><p class="kicker">{school.short} · Data</p><h1>{title}</h1><p class="dek">{dek}</p></header>
-      {items.length ? <GuideList items={items} meta /> : <p>The first {school.short} trackers are being compiled. Until they are published, the <a href={schoolUrl(school)}>{school.short} student guide</a>, the <a href={`/${school.slug}/money/`}>money guides</a> and the <a href={`/${school.slug}/housing/`}>housing guides</a> carry the sourced numbers.</p>}
+      {rows.length ? <GuideList rows={rows} meta /> : <p>The first {school.short} trackers are being compiled. Until they are published, the <a href={schoolUrl(school)}>{school.short} student guide</a>, the <a href={`/${school.slug}/money/`}>money guides</a> and the <a href={`/${school.slug}/housing/`}>housing guides</a> carry the sourced numbers.</p>}
     </div>
     <Sidebar m={m} school={school} />
   </div>

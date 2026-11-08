@@ -1,0 +1,9 @@
+---
+import { site } from '../../../site.config';
+import { getSite, fmtDate } from '../../lib/model';
+import KindIndex from '../../components/KindIndex.astro';
+const m = await getSite();
+const school = site.schools[0];
+const rows = m.datasets.map((d) => ({ title: d.title, url: d.url, dek: d.dek, category: `${d.topic.label} · Data`, meta: `Data as of ${fmtDate(d.asOf)}${d.csvRows ? ` · ${d.csvRows} rows` : ''}` }));
+---
+<KindIndex m={m} school={school} title="Datasets" dek="Original compiled data about Cornell and Ithaca: prices, fares, dates and counts, each with its method, its sources and a CSV you can download and reuse with a link." path="/datasets/" label="Datasets" rows={rows} empty="No datasets are published yet." />

@@ -59,4 +59,12 @@ const pages = defineCollection({
   schema: z.object({ title: z.string(), meta: z.string(), updated: dateish.optional(), noindex: z.boolean().optional(), hidden: z.boolean().optional(), eyebrow: z.string().optional() }).passthrough(),
 });
 
-export const collections = { articles, samples, pages };
+const dated = z.object({ title: z.string(), meta: z.string(), topic: z.string(), updated: dateish, queue_id: z.string().optional(), kind: z.string().optional(),
+  readers: z.array(z.string()).optional(), brief: z.string().optional(), sources: z.array(source).default([]) }).passthrough();
+
+// The pipeline's three other page kinds (docs/v3/spec.md contract 4), read as the renderer reads them.
+const tools = defineCollection({ loader: markdownLoader({ bases: ['../content/tools'] }), schema: dated.extend({ numbers_as_of: dateish }) });
+const datasets = defineCollection({ loader: markdownLoader({ bases: ['../content/datasets'] }), schema: dated.extend({ as_of: dateish, sample_size: z.union([z.string(), z.number()]).optional(), method: z.string().optional() }) });
+const starts = defineCollection({ loader: markdownLoader({ bases: ['../content/start'] }), schema: z.object({ title: z.string(), meta: z.string(), topic: z.string().optional(), topics: z.array(z.string()).default([]), updated: dateish.optional(), queue_id: z.string().optional(), readers: z.array(z.string()).optional() }).passthrough() });
+
+export const collections = { articles, samples, pages, tools, datasets, starts };

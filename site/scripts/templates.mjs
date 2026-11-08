@@ -16,4 +16,23 @@ export const TEMPLATES = [
   { n: 14, slug: '404', url: '/404.html' },
   { n: 15, slug: 'styleguide', url: '/styleguide/' },
   { n: 16, slug: 'pillar-sample', url: '/styleguide/pillar/' },
+  { n: 17, slug: 'tool', url: '/tools/', first: true },        // resolved to the first listed tool, dataset or start page when one exists
+  { n: 18, slug: 'dataset', url: '/datasets/', first: true },
+  { n: 19, slug: 'start', url: '/start/', first: true },
 ];
+
+// The pipeline kinds point at their index page; when the built index lists entries, measure the first entry instead.
+import { promises as fs } from 'node:fs';
+import path from 'node:path';
+export async function resolveTemplates(distDir) {
+  const out = [];
+  for (const t of TEMPLATES) {
+    if (!t.first) { out.push(t); continue; }
+    try {
+      const html = await fs.readFile(path.join(distDir, t.url, 'index.html'), 'utf8');
+      const m = html.match(/class="glist__title"><a href="([^"]+)"/);
+      out.push(m ? { ...t, url: m[1] } : t);
+    } catch { out.push(t); }
+  }
+  return out;
+}

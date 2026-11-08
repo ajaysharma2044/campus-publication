@@ -1,0 +1,8 @@
+---
+import { getSite, type StartPage } from '../../lib/model';
+import StartLayout from '../../layouts/StartLayout.astro';
+export async function getStaticPaths() { const m = await getSite(); return m.starts.map((s) => ({ params: { slug: s.slug }, props: { start: s } })); }
+const { start } = Astro.props as { start: StartPage };
+const m = await getSite();
+---
+<StartLayout m={m} start={start} />

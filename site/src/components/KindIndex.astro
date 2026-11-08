@@ -1,0 +1,25 @@
+---
+/* The index pages for the pipeline's kinds: /tools/, /datasets/, /start/. */
+import type { School } from '../../site.config';
+import type { SiteModel } from '../lib/model';
+import type { Row } from './GuideList.astro';
+import { schoolUrl } from '../lib/model';
+import { breadcrumbList, collectionPage } from '../lib/schema';
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import GuideList from './GuideList.astro';
+import Sidebar from './Sidebar.astro';
+interface Props { m: SiteModel; school: School; title: string; dek: string; path: string; label: string; rows: Row[]; empty: string }
+const { m, school, title, dek, path, label, rows, empty } = Astro.props;
+const crumbs = [{ label: 'Home', href: '/' }, { label: school.short, href: schoolUrl(school) }, { label }];
+---
+<Base title={title} description={dek} path={path} school={school} jsonld={[breadcrumbList(crumbs), collectionPage({ title, dek, url: path, items: rows.map((r) => ({ title: r.title, url: r.url })) })]}>
+  <div class="page--article">
+    <div class="main">
+      <Breadcrumbs crumbs={crumbs} />
+      <header class="head"><p class="kicker">{school.short} · {label}</p><h1>{title}</h1><p class="dek">{dek}</p></header>
+      {rows.length ? <GuideList rows={rows} meta /> : <p>{empty} Start with the <a href={schoolUrl(school)}>{school.short} student guide</a>.</p>}
+    </div>
+    <Sidebar m={m} school={school} />
+  </div>
+</Base>

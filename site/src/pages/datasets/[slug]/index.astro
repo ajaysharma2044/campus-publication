@@ -1,0 +1,8 @@
+---
+import { getSite, type Dataset } from '../../../lib/model';
+import DatasetLayout from '../../../layouts/DatasetLayout.astro';
+export async function getStaticPaths() { const m = await getSite(); return m.datasets.map((d) => ({ params: { slug: d.slug }, props: { dataset: d } })); }
+const { dataset } = Astro.props as { dataset: Dataset };
+const m = await getSite();
+---
+<DatasetLayout m={m} dataset={dataset} />

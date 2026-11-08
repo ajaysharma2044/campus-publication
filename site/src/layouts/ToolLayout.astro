@@ -1,0 +1,38 @@
+---
+/* A tool page (pipeline contract 4): the self-contained tool, its explanation, the guides that use it, its sources. */
+import Base from './Base.astro';
+import type { SiteModel, Tool } from '../lib/model';
+import { schoolUrl, topicUrl, toolsIndexUrl, fmtDate } from '../lib/model';
+import { breadcrumbList, webPage } from '../lib/schema';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import SourcesList from '../components/SourcesList.astro';
+import GuideList from '../components/GuideList.astro';
+import FeedbackBox from '../components/FeedbackBox.astro';
+import AdSlot from '../components/AdSlot.astro';
+import Sidebar from '../components/Sidebar.astro';
+interface Props { m: SiteModel; tool: Tool }
+const { m, tool } = Astro.props;
+const crumbs = [{ label: 'Home', href: '/' }, { label: tool.school.short, href: schoolUrl(tool.school) }, { label: tool.topic.label, href: topicUrl(tool.school, tool.topic) }, { label: 'Tools', href: toolsIndexUrl }, { label: tool.title }];
+---
+<Base title={tool.title} description={tool.dek} path={tool.url} school={tool.school} current={tool.topic.id} jsonld={[breadcrumbList(crumbs), webPage({ title: tool.title, dek: tool.dek, url: tool.url, updated: tool.updated })]}>
+  <div class="page--article">
+    <article class="main">
+      <Breadcrumbs crumbs={crumbs} />
+      <header class="head"><p class="kicker" data-pagefind-meta="category">{tool.topic.label} · Tool</p><h1>{tool.title}</h1><p class="dek">{tool.dek}</p></header>
+      <div class="byline byline--compact"><p class="byline__meta"><span class="byline__updated byline__updated--strong">Numbers as of {fmtDate(tool.asOf)}</span><span class="byline__updated">Updated {fmtDate(tool.updated)}</span><span>Runs in your browser; nothing you type is stored or sent</span></p></div>
+      <section class="tool-embed tool-embed--page" aria-label={tool.title} set:html={tool.fragment} />
+      <AdSlot size="300x250" position="inContent" />
+      <div class="prose" set:html={tool.html} />
+      {tool.usedIn.length ? (
+        <section class="section" aria-labelledby="used-title">
+          <div class="section__head"><h2 id="used-title">Guides that use this tool</h2></div>
+          <GuideList items={tool.usedIn} dek={false} compact />
+        </section>
+      ) : null}
+      <SourcesList sources={tool.sources} title="Sources for the numbers" />
+      <p class="card__dek">A number looks wrong? <a href="/corrections/">Tell us and we will check it</a>.</p>
+      <FeedbackBox path={tool.url} />
+    </article>
+    <Sidebar m={m} school={tool.school} />
+  </div>
+</Base>

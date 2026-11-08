@@ -1,0 +1,8 @@
+---
+import { getSite, type Tool } from '../../lib/model';
+import ToolLayout from '../../layouts/ToolLayout.astro';
+export async function getStaticPaths() { const m = await getSite(); return m.tools.map((t) => ({ params: { slug: t.slug }, props: { tool: t } })); }
+const { tool } = Astro.props as { tool: Tool };
+const m = await getSite();
+---
+<ToolLayout m={m} tool={tool} />

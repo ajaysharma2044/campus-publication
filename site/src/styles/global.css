@@ -319,6 +319,20 @@ mark { background: transparent; color: inherit; }
 .feedback__text:focus { border-color: var(--navy); }
 .feedback__note { margin: var(--s-3) 0 0; font-size: var(--fs-1); color: var(--muted); }
 
+/* ---------- embedded tools (the fragment brings its own scoped styles) ---------- */
+.tool-embed { margin: var(--s-6) 0; padding: var(--s-4) 0 var(--s-3); border-top: 3px solid var(--navy); border-bottom: 1px solid var(--rule); }
+.tool-embed--page { border-top: 0; padding-top: 0; }
+.tool-embed__head { font-family: var(--serif); font-size: var(--fs-4); font-weight: 600; margin: 0 0 var(--s-3); }
+.tool-embed__head a { color: var(--ink); text-decoration: none; }
+.tool-embed__head a:hover { text-decoration: underline; text-decoration-color: var(--gold); }
+.tool-embed__kicker { font-family: var(--sans); font-size: var(--fs-1); font-weight: 600; color: var(--gold-ink); margin-right: var(--s-2); }
+.tool-embed__foot { font-size: var(--fs-1); color: var(--muted); margin: var(--s-3) 0 0; }
+.tool-embed select, .tool-embed input[type="number"], .tool-embed input[type="text"] { font: inherit; font-size: var(--fs-2); min-height: 44px; padding: 0 var(--s-3); border: 1px solid var(--muted); border-radius: var(--radius); background: #fff; color: var(--ink); }
+.tool-embed button { font: inherit; font-weight: 600; min-height: 44px; padding: 0 var(--s-4); border: 1px solid var(--navy); border-radius: var(--radius); background: var(--navy); color: #fff; cursor: pointer; }
+.tool-embed button:hover { background: var(--navy-2); }
+.tool-embed table { font-variant-numeric: tabular-nums; }
+.start-path ol li { margin-bottom: var(--s-3); }
+
 /* ---------- cite box, compare links ---------- */
 .cite { border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding: var(--s-4) 0; margin: var(--s-6) 0; }
 .cite__title { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: var(--fs-4); color: var(--navy); margin: 0 0 var(--s-2); }
