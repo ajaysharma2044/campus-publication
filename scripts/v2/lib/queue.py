@@ -259,6 +259,41 @@ def slugify(text: str, limit: int = 60) -> str:
 
 
 # ------------------------------------------------------------------------------------------ CLI
+
+def _tokens(*texts: str) -> set[str]:
+    import re as _re
+    stop = {"a", "an", "the", "of", "at", "in", "on", "for", "to", "and", "or", "is", "are", "do", "does", "how", "what", "when", "where", "which", "who", "my", "i", "can", "cornell", "ithaca", "students", "student"}
+    return {w for t in texts for w in _re.findall(r"[a-z0-9]+", (t or "").lower()) if w not in stop and len(w) > 2}
+
+
+def dedupe(path: Path | str = QUEUE, threshold: float = 0.8) -> list[tuple[str, str]]:
+    """Merge rows that ask the same thing (token Jaccard of question + primary query >= threshold within a topic): the earlier row
+    keeps its status and gains the other's demand evidence; the later row becomes rejected unless it is already published."""
+    merged = []
+    with locked(path):
+        rows = read(path)
+        kept: list[dict] = []
+        for r in rows:
+            if r["status"] in ("published",):
+                kept.append(r); continue
+            t = _tokens(r["question"], r["primary_query"])
+            dup = None
+            for k in kept:
+                if k["topic"] != r["topic"] or k["status"] == "rejected":
+                    continue
+                kt = _tokens(k["question"], k["primary_query"])
+                if t and kt and len(t & kt) / len(t | kt) >= threshold:
+                    dup = k; break
+            if dup is not None and r["status"] not in ("published",):
+                dup["demand_evidence"] = SEP.join(x for x in dict.fromkeys((dup["demand_evidence"] + SEP + r["demand_evidence"]).split(SEP)) if x)
+                r["status"] = "rejected"
+                r["angle"] = (r["angle"] + "; " if r["angle"] else "") + f"duplicate of {dup['id']}"
+                merged.append((r["id"], dup["id"]))
+            kept.append(r)
+        write(rows, path)
+    return merged
+
+
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(prog="queue.py", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--file", default=str(QUEUE), help="queue csv (default queue/queue.csv)")
@@ -321,36 +356,3 @@ def main(argv: list[str]) -> int:
 if __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))
 
-
-def _tokens(*texts: str) -> set[str]:
-    import re as _re
-    stop = {"a", "an", "the", "of", "at", "in", "on", "for", "to", "and", "or", "is", "are", "do", "does", "how", "what", "when", "where", "which", "who", "my", "i", "can", "cornell", "ithaca", "students", "student"}
-    return {w for t in texts for w in _re.findall(r"[a-z0-9]+", (t or "").lower()) if w not in stop and len(w) > 2}
-
-
-def dedupe(path: Path | str = QUEUE, threshold: float = 0.8) -> list[tuple[str, str]]:
-    """Merge rows that ask the same thing (token Jaccard of question + primary query >= threshold within a topic): the earlier row
-    keeps its status and gains the other's demand evidence; the later row becomes rejected unless it is already published."""
-    merged = []
-    with locked(path):
-        rows = read(path)
-        kept: list[dict] = []
-        for r in rows:
-            if r["status"] in ("published",):
-                kept.append(r); continue
-            t = _tokens(r["question"], r["primary_query"])
-            dup = None
-            for k in kept:
-                if k["topic"] != r["topic"] or k["status"] == "rejected":
-                    continue
-                kt = _tokens(k["question"], k["primary_query"])
-                if t and kt and len(t & kt) / len(t | kt) >= threshold:
-                    dup = k; break
-            if dup is not None and r["status"] not in ("published",):
-                dup["demand_evidence"] = SEP.join(x for x in dict.fromkeys((dup["demand_evidence"] + SEP + r["demand_evidence"]).split(SEP)) if x)
-                r["status"] = "rejected"
-                r["angle"] = (r["angle"] + "; " if r["angle"] else "") + f"duplicate of {dup['id']}"
-                merged.append((r["id"], dup["id"]))
-            kept.append(r)
-        write(rows, path)
-    return merged
