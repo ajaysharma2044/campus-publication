@@ -85,3 +85,7 @@ PRECISION (reviewers reject articles for these)
 BEFORE YOU WRITE THE FILE, check your own draft: the title is 60 characters or fewer; the meta is 120 to 155 characters (count them);
 no em dash character anywhere; none of the banned words (navigating, it's important to note, delve, vibrant, journey, seamless, robust,
 leverage, unlock, dive into, in today's); every internal link points at an existing article or topic page. Fix, then write.
+
+SELF FACT-CHECK (the reviewer rejects any mismatch, so do this before you write): for every hard fact in your draft, re-read the exact
+sentence of the source you fetched and make your wording match it (same number, date, unit, period and who said it). Attribute each
+piece of student experience to the exact poster or author as the page names them. If you cannot find the sentence again, drop the fact.
