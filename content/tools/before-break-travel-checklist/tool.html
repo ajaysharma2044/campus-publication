@@ -213,7 +213,7 @@
       ['now', 'before', 'day', 'back'].forEach(function (g) {
         if (!items[g].length) return;
         count += items[g].length;
-        html += '<h4>' + G[g] + '</h4><ul>' + items[g].map(function (h) { return '<li>' + h + '</li>'; }).join('') + '</ul>';
+        html += '<h3>' + G[g] + '</h3><ul>' + items[g].map(function (h) { return '<li>' + h + '</li>'; }).join('') + '</ul>';
       });
       var next = dates.filter(function (d) { return left(d[0]) !== 'already passed'; }).sort(function (x, y) { return utc(x[0]) - utc(y[0]); })[0];
       var head = '<p><strong>' + count + ' things on your list for ' + (winter ? 'winter break 2026-27' : 'Thanksgiving 2026') + '.</strong>' +

@@ -271,6 +271,16 @@ def queue_rows(planned: list[dict], *, topic_dir: str, brief_path: str, existing
     return new, skipped, updates
 
 
+def existing_start_text(content: Path) -> str:
+    """The start pages already on disk (one per reader across topics): the planner reuses a key when the reader is the same person."""
+    lines = []
+    for p in sorted((content / "start").glob("*.md")):
+        fm = q.frontmatter(p)
+        topics = fm.get("topics") if isinstance(fm.get("topics"), list) else []
+        lines.append(f"  /start/{p.stem}/ | {fm.get('title') or p.stem} | topics: {', '.join(str(t) for t in topics) or '-'}")
+    return "\n".join(lines) or "  (none yet)"
+
+
 def existing_articles_text(topic_dir: str, queue_path: Path, articles: Path) -> str:
     status = {r["id"]: r["status"] for r in q.read(queue_path)}
     lines = []
@@ -339,6 +349,7 @@ def main(argv: list[str]) -> int:
         prompt = sessions.fill(template, today=today, topic_title=t["title"], topic_scope=t["scope"], topic_slug=a.topic, topic_dir=t["dir"],
                                brief_path=B.rel(brief), readers_path=B.rel(readers), reader_keys=", ".join(f"{k} ({v})" for k, v in reader_keys.items()) or "(none found in the reader map)",
                                demand_path=B.rel(demand) if demand.exists() else "(none exported)", existing_articles=existing_articles_text(t["dir"], queue_path, articles),
+                               existing_start=existing_start_text(content),
                                out_path=B.rel(plan), status=status, min_spokes=min(MIN_SPOKES, a.limit_spokes), max_spokes=min(MAX_SPOKES, a.limit_spokes))
         sessions.save_prompt("plan", a.topic, prompt)
         log(f"plan for {t['title']} ({a.topic}): one {a.model} session, {a.max_turns} turns; {len(reader_keys)} reader keys; brief {B.words(brief.read_text(encoding='utf-8')):,} words")
