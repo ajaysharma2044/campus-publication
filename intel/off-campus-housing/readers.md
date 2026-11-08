@@ -605,3 +605,7 @@ Needs a unit with step-free access or other features, and an accessible commute 
 - Not in the brief: the cost of a missed accommodation request; send this back to research.
 ### Brief facts that matter
 2.16 (AP permit); 2.18 (half fare); 2.23 (register with SDS); 3.8 (hills and walk times); 5.2 (elevators in listed buildings); 8.3 (discrimination page not read).
+
+## Shared start-here keys
+
+Start pages are one per reader across topics (/start/<key>/). Housing readers that getting-around already has a start page for use its key: upper-year-renter and car-owner -> off-campus; no-car -> upper-year-no-car; transfer -> transfer-spring; international, grad-student, low-budget, parent, first-year, summer-in-ithaca and accessibility keep the same key. New keys this topic adds: sophomore, student-family, away-semester, exempt-underclass, affiliated-housing, short-stay, alum-landlord.
