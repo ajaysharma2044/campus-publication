@@ -3,7 +3,7 @@
 frontmatter complete (title, meta, primary_query, topic, school, type, updated, queue_id, sources[url,title,accessed]; images
 entries complete when present, credit_url and license_url may be empty), title <= 60 and meta 120..155 chars, no em dash (U+2014) anywhere, the banned-phrase list,
 internal links resolve to an existing article (for publish.sh: one that will be live), topic index or policy page, every cited
-URL returns 2xx (HEAD then GET, 10 s, cached), no near-duplicate of a published article (title + primary_query token Jaccard >= 0.8), and no run of more than 25
+URL returns 2xx (HEAD then GET, 10 s, cached; 401/403/429 count as blocked, a warning, since the page exists but refuses automated clients), no near-duplicate of a published article (title + primary_query token Jaccard >= 0.8), and no run of more than 25
 consecutive words copied from any cited page (word shingles against the fetched page text).
 
     worker/.venv/bin/python scripts/v2/lint.py content/articles/housing/x.md [...] [--root DIR] [--queue FILE] [--no-network] [--all]
@@ -263,6 +263,9 @@ def check_copy(body: str, urls: list[str], web: Web) -> list[str]:
 
 
 # ------------------------------------------------------------------------------------------ all together
+BLOCKED = (401, 403, 429)   # refused or rate-limited, not gone: 404/410/5xx and connection errors stay failures
+
+
 def lint_article(path: Path | str, *, root: Path | str = REPO, web: Web | None = None, published: list | None = None,
                  live: set[str] | None = None) -> list[str]:
     path, root = Path(path), Path(root)
@@ -279,6 +282,8 @@ def lint_article(path: Path | str, *, root: Path | str = REPO, web: Web | None =
             st = web.status(u)
             if isinstance(st, int) and 200 <= st < 300:
                 live.append(u)
+            elif st in BLOCKED:   # the page exists but refuses automated clients (bot protection); the reviewer opened it, so it is a warning, not a dead link
+                print(f"  warning: source url blocked our checker ({st}), not counted as dead: {u}", file=sys.stderr)
             else:
                 errs.append(f"source url returned {st}: {u}")
         errs += check_copy(body, live, web)
