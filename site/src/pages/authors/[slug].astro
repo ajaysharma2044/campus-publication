@@ -1,0 +1,9 @@
+---
+import { site } from '../../../site.config';
+import { getSite } from '../../lib/model';
+import AuthorLayout from '../../layouts/AuthorLayout.astro';
+export async function getStaticPaths() { return site.authors.map((a) => ({ params: { slug: a.slug }, props: { author: a } })); }
+const { author } = Astro.props;
+const m = await getSite();
+---
+<AuthorLayout m={m} author={author} />

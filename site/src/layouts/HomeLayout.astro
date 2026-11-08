@@ -1,0 +1,49 @@
+---
+/* Template 1: the homepage sends authority to school hubs and the best guides. No hero, no slogans, no counters. */
+import Base from './Base.astro';
+import { site } from '../../site.config';
+import type { SiteModel } from '../lib/model';
+import { featured, forTopic, dataPages, schoolUrl, topicUrl, fmtDate, topicById } from '../lib/model';
+import GuideCard from '../components/GuideCard.astro';
+import GuideList from '../components/GuideList.astro';
+import AdSlot from '../components/AdSlot.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
+interface Props { m: SiteModel }
+const { m } = Astro.props;
+const [lead, ...side] = featured(m, 4);
+const letters = new Map<string, typeof site.schools>();
+for (const s of [...site.schools].sort((a, b) => a.name.localeCompare(b.name))) { const L = s.name[0].toUpperCase(); letters.set(L, [...(letters.get(L) ?? []), s]); }
+const data = dataPages(m.pages).slice(0, 4);
+const rows = site.homeTopics.map((id) => ({ topic: topicById(id)!, items: m.pages.filter((p) => p.topic.id === id && !p.crossSchool).slice(0, 4) })).filter((r) => r.items.length);
+---
+<Base title={`${site.name}: ${site.tagline}`} description={`${site.tagline} of Cornell University and Ithaca. Every price, date and rule links to the official page it came from.`} path="/" bodyClass="home">
+  <h1 class="visually-hidden">{site.name}: {site.tagline}</h1>
+  {lead ? (
+    <section class="front" aria-label="Front page">
+      <GuideCard page={lead} size="lead" />
+      <div class="front__side">{side.map((p) => <GuideCard page={p} size="small" photo={false} />)}</div>
+    </section>
+  ) : null}
+  <section class="section directory" id="schools" aria-labelledby="schools-title">
+    <div class="section__head"><h2 id="schools-title">Find your school</h2></div>
+    <div class="directory__groups">
+      {[...letters.entries()].map(([L, schools]) => <div><p class="directory__letter">{L}</p><ul class="directory__list">{schools.map((s) => <li><a href={schoolUrl(s)}>{s.name}</a></li>)}</ul></div>)}
+    </div>
+  </section>
+  <AdSlot size="728x90" position="leaderboard" />
+  {data.length ? (
+    <section class="section" aria-labelledby="data-title">
+      <div class="section__head"><h2 id="data-title">Data and trackers</h2><a class="section__more" href={`/${site.schools[0].slug}/data/`}>All data pages</a></div>
+      <div class="trackers">{data.map((p) => <GuideCard page={p} size="small" photo={false} showMeta />)}</div>
+    </section>
+  ) : null}
+  <div class="topic-rows">
+    {rows.map((r) => (
+      <section class="section" aria-labelledby={`row-${r.topic.id}`}>
+        <div class="section__head"><h2 id={`row-${r.topic.id}`}>{r.topic.label}</h2><a class="section__more" href={topicUrl(site.schools[0], r.topic)}>All {r.topic.label.toLowerCase()} guides</a></div>
+        <GuideList items={r.items} dek={false} category={false} compact meta />
+      </section>
+    ))}
+  </div>
+  <NewsletterSignup wide />
+</Base>

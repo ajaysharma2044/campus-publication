@@ -1,0 +1,13 @@
+---
+import { site } from '../../../../site.config';
+import { getSite, audienceById } from '../../../lib/model';
+import TopicHubLayout from '../../../layouts/TopicHubLayout.astro';
+import AudienceHubLayout from '../../../layouts/AudienceHubLayout.astro';
+export async function getStaticPaths() {
+  return site.schools.flatMap((s) => site.topics.map((t) => ({ params: { school: s.slug, topic: t.id }, props: { school: s, topic: t } })));
+}
+const { school, topic } = Astro.props;
+const m = await getSite();
+const audience = audienceById(topic.id);
+---
+{audience ? <AudienceHubLayout m={m} school={school} audience={audience} /> : <TopicHubLayout m={m} school={school} topic={topic} />}

@@ -1,0 +1,57 @@
+---
+/* The shell every template shares: head (title, description, canonical, Open Graph, JSON-LD, font preloads), skip link,
+   Masthead, SchoolSubnav (school pages only), main landmark, Footer, mobile anchor ad. */
+import '../styles/global.css';
+import { site, type School } from '../../site.config';
+import { graph, organization, webSite } from '../lib/schema';
+import Masthead from '../components/Masthead.astro';
+import SchoolSubnav from '../components/SchoolSubnav.astro';
+import Footer from '../components/Footer.astro';
+import AdSlot from '../components/AdSlot.astro';
+interface Props { title: string; description: string; path: string; ogImage?: string; ogType?: string; noindex?: boolean; school?: School | null; current?: string; jsonld?: object[]; bodyClass?: string; preloadImage?: string }
+const { title, description, path, ogImage = '/og-default.png', ogType = 'website', noindex = false, school = null, current, jsonld = [], bodyClass, preloadImage } = Astro.props;
+const canonical = new URL(path, site.url).toString();
+const robots = !site.production || noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large';
+const fullTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
+const ld = graph([organization(), webSite(), ...jsonld]);
+const anchor = site.ads.provider !== 'none';
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <meta name="robots" content={robots} />
+  <meta name="theme-color" content="#0E1B33" />
+  <meta property="og:site_name" content={site.name} />
+  <meta property="og:type" content={ogType} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:image" content={new URL(ogImage, site.url).toString()} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="preload" href="/fonts/Newsreader-Variable.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/fonts/LibreFranklin-Variable.woff2" as="font" type="font/woff2" crossorigin />
+  {preloadImage ? <link rel="preload" as="image" href={preloadImage} /> : null}
+  <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+  <script src="/site.js" defer></script>
+  {site.ads.provider === 'adsense' && site.ads.adsenseClient && site.production ? <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${site.ads.adsenseClient}`} crossorigin="anonymous"></script> : null}
+</head>
+<body class:list={[bodyClass, { 'body-has-anchor': anchor }]}>
+  <a class="skip" href="#main">Skip to content</a>
+  <Masthead />
+  {school ? <SchoolSubnav school={school} current={current} /> : null}
+  <main id="main" class="wrap page" tabindex="-1" data-pagefind-body={noindex ? undefined : ""}>
+    <slot />
+  </main>
+  <Footer />
+  {anchor ? <AdSlot size="320x50" position="anchor" device="mobile" lazy={false} /> : null}
+</body>
+</html>

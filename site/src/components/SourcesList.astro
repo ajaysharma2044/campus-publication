@@ -1,0 +1,21 @@
+---
+import type { Source } from '../lib/model';
+import { fmtDate } from '../lib/model';
+interface Props { sources: Source[]; footnotes?: Map<number, string>; title?: string }
+const { sources, footnotes, title = 'Sources' } = Astro.props;
+const host = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
+---
+<section class="sources" aria-labelledby="sources-title">
+  <div class="section__head"><h2 id="sources-title">{title}</h2><span class="sources__count">{sources.length} {sources.length === 1 ? 'source' : 'sources'}</span></div>
+  <ol class="sources__list">
+    {sources.map((s, i) => (
+      <li class="sources__item" id={`source-${i + 1}`}>
+        <div>
+          <a href={s.url} rel="noopener">{s.title}</a>
+          <span class="sources__meta"> {host(s.url)}{s.accessed ? `, accessed ${fmtDate(s.accessed)}` : ''}</span>
+          {footnotes?.get(i + 1) ? <a class="sources__back" href={`#${footnotes.get(i + 1)}`} aria-label={`Back to the text for source ${i + 1}`}>↑</a> : null}
+        </div>
+      </li>
+    ))}
+  </ol>
+</section>

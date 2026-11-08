@@ -1,0 +1,20 @@
+---
+/* One ad component for every unit. Fixed reserved height per size so the layout never shifts. With provider "none" the slot is
+   empty reserved space; the label and a dashed outline appear only in dev builds so the slot can be seen in review. */
+import { site } from '../../site.config';
+type Size = '300x600' | '728x90' | '970x250' | '300x250' | '336x280' | '320x50';
+interface Props { size: Size; position: string; lazy?: boolean; sticky?: boolean; device?: 'desktop' | 'mobile' | 'all' }
+const { size, position, lazy = true, sticky = false, device = 'all' } = Astro.props;
+const provider = site.ads.provider;
+const dev = import.meta.env.DEV;
+const label = provider !== 'none' || dev;
+const [w, h] = size.split('x').map(Number);
+---
+<div class:list={['ad', `ad--${size}`, `ad--${position}`, { 'ad--outline': provider === 'none' && dev, 'sidebar__sticky': sticky, 'ad--desktop': device === 'desktop', 'ad--mobile': device === 'mobile' }]} data-ad-position={position} data-ad-size={size} data-ad-lazy={lazy ? 'true' : 'false'} aria-hidden={provider === 'none' ? 'true' : undefined}>
+  {label ? <p class="ad__label">Advertisement</p> : null}
+  {provider === 'adsense' && site.ads.adsenseClient ? (
+    <ins class="ad__unit adsbygoogle" data-ad-client={site.ads.adsenseClient} data-ad-slot={(site.ads.slots as any)[position] ?? ''} data-ad-format="fixed" data-full-width-responsive="false" data-ad-width={w} data-ad-height={h}></ins>
+  ) : (
+    <div class="ad__unit"></div>
+  )}
+</div>

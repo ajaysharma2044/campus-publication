@@ -1,0 +1,21 @@
+---
+import { site } from '../../site.config';
+import Logo from './Logo.astro';
+---
+<header class="masthead">
+  <div class="wrap">
+    <div class="masthead__top">
+      <p class="masthead__tagline">{site.tagline}</p>
+      <a class="logo" href="/" aria-label={`${site.name} home`}><Logo /></a>
+      <div class="masthead__actions">
+        <a class="btn btn--search" href="/search/"><span class="btn__text">Search</span><svg class="btn__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a>
+        <a class="btn btn--gold" href="#newsletter">Newsletter</a>
+      </div>
+    </div>
+    <nav class="nav" aria-label="Site">
+      <ul class="nav__list">
+        {site.nav.map((n) => <li><a class="nav__link" href={n.href}>{n.label}</a></li>)}
+      </ul>
+    </nav>
+  </div>
+</header>

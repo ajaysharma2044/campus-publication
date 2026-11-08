@@ -1,0 +1,56 @@
+---
+/* Template 7: a review of one place (dorm, apartment, dining hall). The fact fields come from site.config placeCategories. */
+import Base from './Base.astro';
+import { site } from '../../site.config';
+import type { Page, SiteModel } from '../lib/model';
+import { crumbsFor, authorUrl } from '../lib/model';
+import { breadcrumbList, article, faqPage, place as placeSchema } from '../lib/schema';
+import ArticleHead from '../components/ArticleHead.astro';
+import Byline from '../components/Byline.astro';
+import LeadPhoto from '../components/LeadPhoto.astro';
+import VerdictBox from '../components/VerdictBox.astro';
+import ShortAnswer from '../components/ShortAnswer.astro';
+import FactsTable from '../components/FactsTable.astro';
+import ProsCons from '../components/ProsCons.astro';
+import ArticleSections from '../components/ArticleSections.astro';
+import FAQ from '../components/FAQ.astro';
+import SourcesList from '../components/SourcesList.astro';
+import GuideList from '../components/GuideList.astro';
+import AdSlot from '../components/AdSlot.astro';
+import Sidebar from '../components/Sidebar.astro';
+interface Props { m: SiteModel; page: Page }
+const { m, page } = Astro.props;
+const b = page.body;
+const pl = page.data.place!;
+const fields = site.placeCategories[pl.category];
+const rows = fields.map((f) => ({ label: f, value: pl.facts[f] }));
+const compare = pl.compare_with.map((u) => m.pages.find((p) => p.url === u || p.oldUrl === u) ?? m.samples.find((p) => p.url === u)).filter(Boolean) as Page[];
+const comparison = pl.comparison_url ? (m.pages.find((p) => p.url === pl.comparison_url) ?? m.samples.find((p) => p.url === pl.comparison_url)) : null;
+const jsonld = [breadcrumbList(crumbsFor(page)), article({ title: page.title, dek: page.dek, url: page.url, updated: page.updated, image: page.lead?.src, author: { name: page.author.name, url: authorUrl(page.author), kind: page.author.kind }, words: page.words }),
+  placeSchema({ name: pl.name, type: pl.schema_type, url: page.url, description: page.dek, facts: pl.facts })];
+if (b.faq.length) jsonld.push(faqPage(b.faq));
+---
+<Base title={page.title} description={page.dek} path={page.url} ogType="article" ogImage={page.lead?.src} preloadImage={page.lead?.src} school={page.school} current={page.topic.id} noindex={page.sample} jsonld={jsonld}>
+  <div class="page--article">
+    <article class="main">
+      <ArticleHead page={page} />
+      <Byline author={page.author} updated={page.updated} sourceCount={page.sources.length} reviewedBy={page.reviewedBy} />
+      {page.lead ? <LeadPhoto photo={page.lead} /> : null}
+      <VerdictBox verdict={pl.verdict} bestFor={pl.best_for} skipIf={pl.skip_if} />
+      {b.shortAnswer ? <ShortAnswer html={b.shortAnswer} /> : null}
+      <FactsTable title={`${pl.name} at a glance`} rows={rows} />
+      <AdSlot size="300x250" position="inContent" />
+      <ProsCons pros={pl.pros} cons={pl.cons} />
+      <ArticleSections intro={b.intro} sections={b.sections} />
+      <FAQ items={b.faq} />
+      <SourcesList sources={page.sources} footnotes={b.footnotes} />
+      {compare.length ? (
+        <section class="section" aria-labelledby="compare-title">
+          <div class="section__head"><h2 id="compare-title">Compare with</h2>{comparison ? <a class="section__more" href={comparison.url}>{comparison.title}</a> : null}</div>
+          <GuideList items={compare} compact />
+        </section>
+      ) : null}
+    </article>
+    <Sidebar m={m} school={page.school} />
+  </div>
+</Base>

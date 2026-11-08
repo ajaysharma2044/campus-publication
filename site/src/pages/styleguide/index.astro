@@ -1,0 +1,101 @@
+---
+/* The styleguide: every component and every template with clearly labeled sample content. noindex. */
+import Base from '../../layouts/Base.astro';
+import { site } from '../../../site.config';
+import { getSite } from '../../lib/model';
+import { renderArticle } from '../../lib/markdown';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Byline from '../../components/Byline.astro';
+import LeadPhoto from '../../components/LeadPhoto.astro';
+import ShortAnswer from '../../components/ShortAnswer.astro';
+import FactsTable from '../../components/FactsTable.astro';
+import TOC from '../../components/TOC.astro';
+import Footnote from '../../components/Footnote.astro';
+import SourcesList from '../../components/SourcesList.astro';
+import Note from '../../components/Note.astro';
+import Steps from '../../components/Steps.astro';
+import FAQ from '../../components/FAQ.astro';
+import RelatedGrid from '../../components/RelatedGrid.astro';
+import MostRead from '../../components/MostRead.astro';
+import NewsletterSignup from '../../components/NewsletterSignup.astro';
+import GuideCard from '../../components/GuideCard.astro';
+import GuideList from '../../components/GuideList.astro';
+import DataTable from '../../components/DataTable.astro';
+import Chart from '../../components/Chart.astro';
+import VerdictBox from '../../components/VerdictBox.astro';
+import ProsCons from '../../components/ProsCons.astro';
+import Pagination from '../../components/Pagination.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import Logo from '../../components/Logo.astro';
+const m = await getSite();
+const sample = m.samples.find((p) => p.slug === 'pillar')!;
+const dataSample = m.samples.find((p) => p.slug === 'data')!;
+const placeSample = m.samples.find((p) => p.slug === 'place')!;
+const real = m.pages.slice(0, 6);
+const sampleAuthor = { slug: site.defaultAuthor, name: 'Sample Author', kind: 'person' as const, role: 'Sample role', bio: 'Sample bio.' };
+const crumbs = [{ label: 'Home', href: '/' }, { label: 'Styleguide' }];
+const templates = [
+  { n: 1, name: 'Homepage', url: '/', real: true }, { n: 2, name: 'School hub', url: '/cornell/', real: true }, { n: 3, name: 'Topic hub', url: '/cornell/money/', real: true },
+  { n: 4, name: 'Audience hub', url: '/cornell/parents/', real: true }, { n: 5, name: 'Pillar guide', url: '/styleguide/pillar/', real: false, realUrl: m.pages.find((p) => p.pageType === 'pillar')?.url },
+  { n: 6, name: 'Quick answer', url: '/styleguide/answer/', real: false, realUrl: m.pages.find((p) => p.pageType === 'answer')?.url }, { n: 7, name: 'Place review', url: '/styleguide/place/', real: false },
+  { n: 8, name: 'Data page', url: '/styleguide/data/', real: false }, { n: 9, name: 'Comparison page', url: '/styleguide/comparison/', real: false }, { n: 10, name: 'Cross-school guide', url: '/styleguide/guide/', real: false },
+  { n: 11, name: 'Author page', url: '/authors/footnote-daily-editors/', real: true }, { n: 12, name: 'Trust pages', url: '/editorial-standards/', real: true }, { n: 13, name: 'Search results', url: '/search/?q=meal+plan', real: true },
+  { n: 14, name: '404', url: '/404.html', real: true },
+];
+const swatches = [['navy', '#0E1B33'], ['navy-2', '#26385E'], ['navy-3', '#B8C2D6'], ['gold', '#D6A738'], ['gold-ink', '#7E5F0B'], ['highlight', '#FBE3A1'], ['ink', '#16181D'], ['text', '#2A2D33'], ['muted', '#5E6573'], ['rule', '#E2E4E8'], ['surface', '#F4F5F7'], ['link', '#1C4791']];
+const sampleShort = renderArticle('Sample short answer: the **first marked phrase** and the **second marked phrase** get the marker stroke; a **third strong run** stays bold. A hard fact carries a marker.').shortAnswer;
+---
+<Base title="Styleguide" description="Every Footnote Daily component and template with sample content, for visual review." path="/styleguide/" noindex>
+  <div class="page--single"><div class="main">
+    <Breadcrumbs crumbs={crumbs} />
+    <header class="head"><p class="kicker">Internal · noindex</p><h1>Styleguide</h1><p class="dek">Every shared component and every template, with sample content. Nothing on this page is a fact about Cornell or Ithaca; sample bylines, sources and numbers are labeled as samples.</p></header>
+    <p class="sg-note">Source of truth: the owner's design notes (Newsreader + Libre Franklin, navy and gold, hairlines, no cards). design/reference-article.html is not in the repository; see DECISIONS.md.</p>
+
+    <section class="sg-section" id="templates"><h2>Templates</h2>
+      <ol class="sg-templates">{templates.map((t) => <li><span>{t.name}{t.real ? '' : ' (sample content)'}</span><span><a href={t.url}>{t.real ? 'Open' : 'Open sample'}</a>{t.realUrl ? <Fragment> · <a href={t.realUrl}>real page</a></Fragment> : null}</span></li>)}</ol>
+    </section>
+
+    <section class="sg-section" id="palette"><h2>Palette</h2>
+      <ul class="sg-swatches">{swatches.map(([n, hex]) => <li class="sg-swatch"><span class={`sw-${n}`}></span><span>{n}</span><span>{hex}</span></li>)}</ul>
+    </section>
+
+    <section class="sg-section sg-type" id="type"><h2>Type</h2>
+      <p class="logo" aria-hidden="true"><Logo /></p>
+      <p><strong>Newsreader</strong> for headlines, the logo, section titles and numerals, with optical sizing. <strong>Libre Franklin</strong> for body and interface text.</p>
+      <p class="sg-h1">Headline, Newsreader 600, balanced wrapping across two lines</p>
+      <p class="dek">A dek in Newsreader at 20px, muted, under the headline.</p>
+      <h2>Section title, Newsreader 600, 24px</h2>
+      <h3>Subsection, Newsreader 600, 20px</h3>
+      <p>Body text in Libre Franklin at 17px with 1.6 line height. Links are <a href="/about/">underlined in link blue</a>. Numerals in tables are tabular: 1,234 and 5,678.</p>
+      <p class="kicker">A kicker line in gold ink, never all caps</p>
+    </section>
+
+    <section class="sg-section" id="components"><h2>Components</h2>
+      <h3>Breadcrumbs</h3><Breadcrumbs crumbs={[{ label: 'Home', href: '/' }, { label: 'Cornell', href: '/cornell/' }, { label: 'Housing', href: '/cornell/housing/' }, { label: 'Sample page' }]} />
+      <h3>Byline</h3><Byline author={sampleAuthor} updated="2026-11-08" sourceCount={12} reviewer={{ ...sampleAuthor, name: 'Sample Reviewer' }} /><p class="sg-note">Compact variant (quick answers):</p><Byline author={sampleAuthor} updated="2026-11-08" sourceCount={3} compact />
+      <h3>LeadPhoto</h3>{sample.lead ? <LeadPhoto photo={sample.lead} priority={false} /> : <p class="sg-note">No photo variants built; run npm run build once to sync photos.</p>}
+      <h3>ShortAnswer</h3><ShortAnswer html={sampleShort} id="sg-short" />
+      <h3>FactsTable</h3><FactsTable title="Sample facts" rows={[{ label: 'Sample rate', value: '$0,000 per semester', note: 1 }, { label: 'Sample deadline', value: 'Month 00' }, { label: 'Sample distance', value: '0.0 miles' }]} footnote="Footnote markers link to the Sources list." />
+      <h3>TOC</h3><TOC headings={[{ depth: 2, id: 'a', text: 'Sample section one' }, { depth: 2, id: 'b', text: 'Sample section two' }, { depth: 2, id: 'c', text: 'Sample section three' }, { depth: 2, id: 'd', text: 'Sample section four' }]} />
+      <h3>Footnote and SourcesList</h3><p>A sentence with a sample fact<Footnote n={1} id="sg-ref-1" /> and another<Footnote n={2} id="sg-ref-2" />.</p>
+      <SourcesList sources={[{ url: 'https://example.org/sample-1', title: 'Sample source one (not real)', accessed: '2026-11-08' }, { url: 'https://example.org/sample-2', title: 'Sample source two (not real)', accessed: '2026-11-08' }]} footnotes={new Map([[1, 'sg-ref-1'], [2, 'sg-ref-2']])} />
+      <h3>Note</h3><Note title="A sample note"><p>Hairline above and below, Newsreader italic heading, body text inside. Used for asides that should not interrupt the sequence.</p></Note>
+      <h3>Steps</h3><Steps title="Sample sequence" steps={[{ label: 'Sample first step', detail: 'What to do first (sample).' }, { label: 'Sample second step' }, { label: 'Sample third step', detail: 'The last step (sample).' }]} />
+      <h3>FAQ</h3><FAQ items={[{ q: 'Sample question one?', a: '<p>Sample answer one.</p>', text: 'Sample answer one.' }, { q: 'Sample question two?', a: '<p>Sample answer two.</p>', text: 'Sample answer two.' }]} title="Sample FAQ" />
+      <h3>RelatedGrid</h3><RelatedGrid items={real.slice(0, 3)} title="Related guides (real pages)" />
+      <h3>MostRead</h3><MostRead items={real.slice(0, 5)} label="Most read (sample order)" />
+      <h3>NewsletterSignup</h3><NewsletterSignup id="sg-newsletter" /><NewsletterSignup id="sg-newsletter-wide" wide title="The Cornell guide, weekly" />
+      <h3>GuideCard</h3><div class="sg-grid">{real.slice(0, 2).map((p) => <GuideCard page={p} size="featured" />)}<GuideCard page={real[2]} size="small" /></div>
+      <h3>GuideList</h3><GuideList items={real.slice(0, 3)} meta />
+      <h3>DataTable</h3><DataTable id="sg-table" columns={dataSample.data.data!.columns} rows={dataSample.data.data!.rows} caption="Sample table (sortable, sticky header, CSV)" csvHref="/csv/data.csv" stickyFirst />
+      <h3>Chart</h3><Chart title={dataSample.data.data!.chart!.title} rows={dataSample.data.data!.chart!.rows} unit="$" source="Sample compilation (not real data)" accent={0} />
+      <h3>VerdictBox</h3><VerdictBox verdict={placeSample.data.place!.verdict} bestFor={placeSample.data.place!.best_for} skipIf={placeSample.data.place!.skip_if} />
+      <h3>ProsCons</h3><ProsCons pros={placeSample.data.place!.pros} cons={placeSample.data.place!.cons} />
+      <h3>Pagination</h3><Pagination current={2} total={5} hrefFor={(n) => `/styleguide/?page=${n}`} />
+      <h3>SearchBox</h3><SearchBox id="sg-q" />
+      <h3>AdSlot</h3><p class="sg-note">Provider is "{site.ads.provider}". Reserved heights: 300x600 sidebar, 728x90 leaderboard, 300x250 in-content, 320x50 anchor. In a dev build the slot shows a dashed outline; in production with provider "none" it is empty reserved space.</p>
+      <AdSlot size="728x90" position="leaderboard" /><AdSlot size="300x250" position="inContent" />
+    </section>
+  </div></div>
+</Base>

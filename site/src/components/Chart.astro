@@ -1,0 +1,26 @@
+---
+/* A pre-rendered horizontal bar chart in the palette: inline SVG built at build time, classes only. */
+interface Props { title: string; rows: { label: string; value: number }[]; unit?: string; source?: string; accent?: number }
+const { title, rows, unit = '', source, accent } = Astro.props;
+const W = 720, labelW = 220, rowH = 34, pad = 8, top = 6;
+const H = top + rows.length * rowH + pad;
+const max = Math.max(...rows.map((r) => r.value), 1);
+const barMax = W - labelW - 90;
+const fmt = (v: number) => (unit === '$' ? `$${v.toLocaleString('en-US')}` : `${v.toLocaleString('en-US')}${unit ? ` ${unit}` : ''}`);
+const trunc = (s: string) => (s.length > 30 ? s.slice(0, 29) + '…' : s);
+---
+<figure class="chart">
+  <figcaption class="chart__title">{title}</figcaption>
+  <svg class="chart__svg" viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`${title}: ${rows.map((r) => `${r.label} ${fmt(r.value)}`).join(', ')}`}>
+    <line class="chart__axis" x1={labelW} y1={top} x2={labelW} y2={H - pad} stroke-width="1" />
+    {rows.map((r, i) => {
+      const y = top + i * rowH; const w = Math.max(2, Math.round((r.value / max) * barMax));
+      return (<g>
+        <text class="chart__label" x={labelW - 10} y={y + 21} text-anchor="end">{trunc(r.label)}</text>
+        <rect class:list={['chart__bar', { 'chart__bar--accent': accent === i }]} x={labelW + 1} y={y + 6} width={w} height={rowH - 12} />
+        <text class="chart__value" x={labelW + w + 8} y={y + 21}>{fmt(r.value)}</text>
+      </g>);
+    })}
+  </svg>
+  {source ? <p class="chart__source">Source: {source}</p> : null}
+</figure>

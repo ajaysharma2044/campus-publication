@@ -1,0 +1,20 @@
+---
+import type { Author } from '../../site.config';
+import { authorUrl, fmtDate, authorBySlug } from '../lib/model';
+interface Props { author: Author; updated: string; sourceCount?: number; reviewedBy?: string; reviewer?: Author; compact?: boolean; dataUpdated?: string }
+const { author, updated, sourceCount, reviewedBy, compact = false, dataUpdated } = Astro.props;
+const reviewer = Astro.props.reviewer ?? (reviewedBy ? authorBySlug(reviewedBy) : null);
+const initials = author.name.split(/\s+/).map((w) => w[0]).slice(0, 2).join('');
+---
+<div class:list={['byline', { 'byline--compact': compact }]}>
+  {author.avatar ? <img class:list={['avatar', { 'avatar--sm': compact }]} src={author.avatar} alt="" width={compact ? 32 : 44} height={compact ? 32 : 44} loading="lazy" /> : <span class:list={['avatar', { 'avatar--sm': compact }]} aria-hidden="true">{initials}</span>}
+  <div>
+    <p class="byline__meta">
+      <span>By <a href={authorUrl(author)} rel="author">{author.name}</a></span>
+      {dataUpdated ? <span class="byline__updated byline__updated--strong">Data updated {fmtDate(dataUpdated)}</span> : null}
+      <span class="byline__updated">Updated {fmtDate(updated)}</span>
+      {sourceCount ? <span>{sourceCount} {sourceCount === 1 ? 'source' : 'sources'}</span> : null}
+    </p>
+    {reviewer && !compact ? <p class="byline__reviewed">Reviewed by <a href={authorUrl(reviewer)}>{reviewer.name}</a></p> : null}
+  </div>
+</div>

@@ -1,0 +1,9 @@
+---
+import type { Page } from '../lib/model';
+interface Props { items: Page[]; label?: string }
+const { items, label = 'Most read' } = Astro.props;
+---
+<section class="most" aria-labelledby="most-title">
+  <h2 class="most__title" id="most-title">{label}</h2>
+  <ol class="most__list">{items.map((p) => <li class="most__item"><a href={p.url}>{p.title}</a></li>)}</ol>
+</section>

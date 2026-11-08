@@ -1,0 +1,48 @@
+---
+/* Template 6: one question, answered fast. */
+import Base from './Base.astro';
+import type { Page, SiteModel } from '../lib/model';
+import { crumbsFor, forTopic, forSchool, parentPillar, authorUrl } from '../lib/model';
+import { stripTags } from '../lib/markdown';
+import { breadcrumbList, article, faqPage } from '../lib/schema';
+import ArticleHead from '../components/ArticleHead.astro';
+import Byline from '../components/Byline.astro';
+import ShortAnswer from '../components/ShortAnswer.astro';
+import ArticleSections from '../components/ArticleSections.astro';
+import GuideList from '../components/GuideList.astro';
+import SourcesList from '../components/SourcesList.astro';
+import Note from '../components/Note.astro';
+import AdSlot from '../components/AdSlot.astro';
+import Sidebar from '../components/Sidebar.astro';
+interface Props { m: SiteModel; page: Page }
+const { m, page } = Astro.props;
+const b = page.body;
+const pillar = parentPillar(m, page);
+const sameTopic = forTopic(m, page.school, page.topic).filter((p) => p.url !== page.url && p.pageType === 'answer');
+const fill = forSchool(m, page.school).filter((p) => p.url !== page.url && p.pageType === 'answer' && !sameTopic.includes(p));
+const relatedQ = [...sameTopic, ...fill].slice(0, 6);
+const question = /\?$/.test(page.title) ? page.title : page.primaryQuery ? page.title : page.title;
+const jsonld = [breadcrumbList(crumbsFor(page)), article({ title: page.title, dek: page.dek, url: page.url, updated: page.updated, author: { name: page.author.name, url: authorUrl(page.author), kind: page.author.kind }, words: page.words }),
+  faqPage([{ q: question, text: stripTags(b.shortAnswer) || page.dek }, ...b.faq])];
+---
+<Base title={page.title} description={page.dek} path={page.url} ogType="article" school={page.school} current={page.topic.id} noindex={page.sample} jsonld={jsonld}>
+  <div class="page--article">
+    <article class="main">
+      <ArticleHead page={page} dek={false} />
+      <Byline author={page.author} updated={page.updated} sourceCount={page.sources.length} compact />
+      {b.shortAnswer ? <ShortAnswer html={b.shortAnswer} /> : null}
+      <AdSlot size="300x250" position="inContent" />
+      <ArticleSections intro={b.intro} sections={b.sections} every={900} maxAds={1} />
+      {b.faq.length ? <ArticleSections sections={[]} /> : null}
+      {relatedQ.length ? (
+        <section class="section" aria-labelledby="related-q-title">
+          <div class="section__head"><h2 id="related-q-title">Related questions</h2></div>
+          <GuideList items={relatedQ} dek={false} compact category={false} />
+        </section>
+      ) : null}
+      <SourcesList sources={page.sources} footnotes={b.footnotes} />
+      {pillar ? <Note title="Part of a longer guide"><p>This answer comes from <a href={pillar.url}>{pillar.title}</a>, the complete {page.topic.label.toLowerCase()} guide for {page.school.short}.</p></Note> : null}
+    </article>
+    <Sidebar m={m} school={page.school} />
+  </div>
+</Base>

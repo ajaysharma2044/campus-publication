@@ -1,0 +1,6 @@
+---
+import NotFoundLayout from '../layouts/NotFoundLayout.astro';
+import { getSite } from '../lib/model';
+const m = await getSite();
+---
+<NotFoundLayout m={m} />

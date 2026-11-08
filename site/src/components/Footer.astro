@@ -1,0 +1,26 @@
+---
+import { site } from '../../site.config';
+import Logo from './Logo.astro';
+const year = new Date().getUTCFullYear();
+---
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__cols">
+      <div class="footer__about">
+        <p class="footer__title"><Logo /></p>
+        <p>{site.tagline}. Every hard fact links to the page it came from.</p>
+        <p><a href="/editorial-standards/">How we work</a></p>
+      </div>
+      {site.footer.columns.map((c) => (
+        <div class="footer__col">
+          <p class="footer__title">{c.title}</p>
+          <ul class="footer__list">{c.links.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+        </div>
+      ))}
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__disclaimer">{site.footer.disclaimer}</p>
+      <p>© {year} {site.name}</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,21 @@
+---
+/* Renders the body sections of an article and places an in-content ad between sections every ~`every` words. Ads never land
+   inside a list, table or step sequence because they are only ever inserted between top-level sections. */
+import type { Block, Section } from '../lib/markdown';
+import AdSlot from './AdSlot.astro';
+interface Props { intro?: Block[]; sections: Section[]; every?: number; startWords?: number; maxAds?: number }
+const { intro = [], sections, every = 700, startWords = 0, maxAds = 6 } = Astro.props;
+let since = startWords + intro.reduce((n, b) => n + b.words, 0);
+let ads = 0;
+const out = sections.map((s) => { const ad = since >= every && ads < maxAds; if (ad) { ads += 1; since = 0; } since += s.words; return { s, ad }; });
+---
+<div class="prose">
+  {intro.map((b) => <Fragment set:html={b.html} />)}
+  {out.map(({ s, ad }) => (
+    <Fragment>
+      {ad ? <AdSlot size="300x250" position="inContent" /> : null}
+      {s.heading ? <h2 id={s.heading.id}>{s.heading.text}</h2> : null}
+      {s.blocks.map((b) => <Fragment set:html={b.html} />)}
+    </Fragment>
+  ))}
+</div>

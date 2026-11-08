@@ -1,0 +1,6 @@
+---
+import HomeLayout from '../layouts/HomeLayout.astro';
+import { getSite } from '../lib/model';
+const m = await getSite();
+---
+<HomeLayout m={m} />

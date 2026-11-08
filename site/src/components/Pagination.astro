@@ -1,0 +1,14 @@
+---
+interface Props { current: number; total: number; hrefFor: (n: number) => string; label?: string }
+const { current, total, hrefFor, label = 'Pages' } = Astro.props;
+const pages = Array.from({ length: total }, (_, i) => i + 1);
+---
+{total > 1 ? (
+  <nav aria-label={label}>
+    <ul class="pager">
+      {current > 1 ? <li><a href={hrefFor(current - 1)} rel="prev">Previous</a></li> : null}
+      {pages.map((n) => <li>{n === current ? <span aria-current="page">{n}</span> : <a href={hrefFor(n)}>{n}</a>}</li>)}
+      {current < total ? <li><a href={hrefFor(current + 1)} rel="next">Next</a></li> : null}
+    </ul>
+  </nav>
+) : null}

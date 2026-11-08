@@ -1,0 +1,9 @@
+---
+import { markHighlights } from '../lib/markdown';
+interface Props { html: string; title?: string; id?: string }
+const { html, title = 'The short answer', id = 'short-answer' } = Astro.props;
+---
+<section class="short" aria-labelledby={id}>
+  <h2 class="short__title" id={id}>{title}</h2>
+  <Fragment set:html={markHighlights(html, 2)} />
+</section>

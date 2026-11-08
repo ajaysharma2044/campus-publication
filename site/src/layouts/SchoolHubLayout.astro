@@ -1,0 +1,55 @@
+---
+/* Template 2: the authority page for one school. */
+import Base from './Base.astro';
+import { site, type School } from '../../site.config';
+import type { SiteModel } from '../lib/model';
+import { forSchool, forTopic, pillars, dataPages, schoolUrl, topicUrl, dataIndexUrl, isAudience } from '../lib/model';
+import { breadcrumbList, collectionPage } from '../lib/schema';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import GuideCard from '../components/GuideCard.astro';
+import GuideList from '../components/GuideList.astro';
+import AdSlot from '../components/AdSlot.astro';
+import Sidebar from '../components/Sidebar.astro';
+interface Props { m: SiteModel; school: School }
+const { m, school } = Astro.props;
+const all = forSchool(m, school);
+const start = pillars(all).slice(0, 5);
+const sections = site.topics.filter((t) => !isAudience(t.id)).map((t) => { const items = forTopic(m, school, t); const feat = pillars(items)[0] ?? items[0]; return { t, feat, rest: items.filter((p) => p !== feat).slice(0, 6), count: items.length }; }).filter((s) => s.count);
+const data = dataPages(all);
+const crumbs = [{ label: 'Home', href: '/' }, { label: school.short }];
+const title = `${school.short} Student Guide`;
+const jsonld = [breadcrumbList(crumbs), collectionPage({ title, dek: school.dek, url: schoolUrl(school), items: all.map((p) => ({ title: p.title, url: p.url })) })];
+---
+<Base title={title} description={school.dek} path={schoolUrl(school)} school={school} jsonld={jsonld}>
+  <div class="page--article">
+    <div class="main">
+      <Breadcrumbs crumbs={crumbs} />
+      <header class="head"><p class="kicker">{school.name} · {school.town}</p><h1>{title}</h1><p class="dek">{school.dek}</p></header>
+      {start.length ? (
+        <section class="section start" aria-labelledby="start-title">
+          <div class="section__head"><h2 id="start-title">Start here</h2></div>
+          <GuideList items={start} />
+        </section>
+      ) : null}
+      {sections.map((s, i) => (
+        <Fragment>
+          {(i === 2 || (i > 2 && (i - 2) % 3 === 0)) ? <AdSlot size="300x250" position="inContent" /> : null}
+          <section class="hub-topic" aria-labelledby={`topic-${s.t.id}`}>
+            <div class="section__head"><h2 id={`topic-${s.t.id}`}>{s.t.label}</h2><a class="section__more" href={topicUrl(school, s.t)}>All {s.count} {s.t.label.toLowerCase()} {s.count === 1 ? 'guide' : 'guides'}</a></div>
+            <GuideCard page={s.feat} size="featured" />
+            {s.rest.length ? <GuideList items={s.rest} dek={false} compact category={false} /> : <p class="card__dek">More {s.t.label.toLowerCase()} guides are in research.</p>}
+          </section>
+        </Fragment>
+      ))}
+      <section class="section" aria-labelledby="audience-title">
+        <div class="section__head"><h2 id="audience-title">Guides by reader</h2></div>
+        <ul class="audience-links">{site.audiences.map((a) => <li><a href={topicUrl(school, a.id)}>{a.label}</a></li>)}</ul>
+      </section>
+      <section class="section" aria-labelledby="data-title">
+        <div class="section__head"><h2 id="data-title">Data for {school.short}</h2><a class="section__more" href={dataIndexUrl(school)}>All data pages</a></div>
+        {data.length ? <GuideList items={data} meta /> : <p class="card__dek">Trackers for {school.short} are being compiled. The <a href={dataIndexUrl(school)}>data index</a> lists each one as it is published.</p>}
+      </section>
+    </div>
+    <Sidebar m={m} school={school} newsletterTitle={`The ${school.short} guide, weekly`} blurb={undefined} />
+  </div>
+</Base>

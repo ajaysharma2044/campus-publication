@@ -1,0 +1,18 @@
+---
+/* Sample pages for the templates that have no real content yet. Clearly labeled, noindex. */
+import { getSite, type Page } from '../../lib/model';
+import PillarLayout from '../../layouts/PillarLayout.astro';
+import AnswerLayout from '../../layouts/AnswerLayout.astro';
+import PlaceLayout from '../../layouts/PlaceLayout.astro';
+import DataLayout from '../../layouts/DataLayout.astro';
+import ComparisonLayout from '../../layouts/ComparisonLayout.astro';
+import CrossSchoolGuideLayout from '../../layouts/CrossSchoolGuideLayout.astro';
+export async function getStaticPaths() {
+  const m = await getSite();
+  return m.samples.map((p) => ({ params: { slug: p.slug }, props: { page: p } }));
+}
+const { page } = Astro.props as { page: Page };
+const m = await getSite();
+const L = { pillar: PillarLayout, answer: AnswerLayout, place: PlaceLayout, data: DataLayout, comparison: ComparisonLayout, guide: CrossSchoolGuideLayout }[page.pageType];
+---
+<L m={m} page={page} />

@@ -1,0 +1,51 @@
+---
+/* Template 8: a data page. Chart, sortable table with CSV, methodology, citation box. */
+import Base from './Base.astro';
+import { site } from '../../site.config';
+import type { Page, SiteModel } from '../lib/model';
+import { crumbsFor, authorUrl, fmtDate } from '../lib/model';
+import { breadcrumbList, article, faqPage, dataset } from '../lib/schema';
+import ArticleHead from '../components/ArticleHead.astro';
+import Byline from '../components/Byline.astro';
+import ShortAnswer from '../components/ShortAnswer.astro';
+import Chart from '../components/Chart.astro';
+import DataTable from '../components/DataTable.astro';
+import ArticleSections from '../components/ArticleSections.astro';
+import FAQ from '../components/FAQ.astro';
+import SourcesList from '../components/SourcesList.astro';
+import AdSlot from '../components/AdSlot.astro';
+import Sidebar from '../components/Sidebar.astro';
+interface Props { m: SiteModel; page: Page }
+const { m, page } = Astro.props;
+const b = page.body;
+const d = page.data.data!;
+const csvHref = `/csv/${page.slug}.csv`;
+const pageUrl = new URL(page.url, site.url).toString();
+const citation = `${site.name}, “${page.title}”, data updated ${fmtDate(d.updated)}. ${pageUrl}`;
+const embed = `<a href="${pageUrl}">${page.title}</a> (${site.name})`;
+const jsonld = [breadcrumbList(crumbsFor(page)), dataset({ title: page.title, dek: page.dek, url: page.url, updated: d.updated, csv: csvHref, license: d.license }),
+  article({ title: page.title, dek: page.dek, url: page.url, updated: page.updated, author: { name: page.author.name, url: authorUrl(page.author), kind: page.author.kind }, words: page.words })];
+if (b.faq.length) jsonld.push(faqPage(b.faq));
+---
+<Base title={page.title} description={page.dek} path={page.url} ogType="article" school={page.school} current="data" noindex={page.sample} jsonld={jsonld}>
+  <div class="page--article">
+    <article class="main">
+      <ArticleHead page={page} kicker="Data" />
+      <Byline author={page.author} updated={page.updated} sourceCount={page.sources.length} dataUpdated={d.updated} />
+      {b.shortAnswer ? <ShortAnswer html={b.shortAnswer} title="Key finding" /> : null}
+      {d.chart ? <Chart title={d.chart.title} rows={d.chart.rows} unit={d.chart.unit ?? d.unit} source={d.chart.source} /> : null}
+      <DataTable columns={d.columns} rows={d.rows} caption={page.title} csvHref={csvHref} foot={`Data updated ${fmtDate(d.updated)}. Download the CSV for the full table.`} />
+      <AdSlot size="300x250" position="inContent" />
+      <ArticleSections intro={b.intro} sections={b.sections} every={1200} maxAds={1} />
+      <FAQ items={b.faq} />
+      <SourcesList sources={page.sources} footnotes={b.footnotes} />
+      <section class="cite" aria-labelledby="cite-title">
+        <h2 class="cite__title" id="cite-title">Embed or cite this data</h2>
+        <p class="cite__line">{citation}</p>
+        <p class="cite__html">{embed}</p>
+        <p><a href={csvHref} download>Download the CSV</a>. Reuse with a link back to this page.</p>
+      </section>
+    </article>
+    <Sidebar m={m} school={page.school} />
+  </div>
+</Base>

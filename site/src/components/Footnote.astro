@@ -1,0 +1,6 @@
+---
+/* An inline source marker. The Markdown renderer emits the same markup for links that match a listed source. */
+interface Props { n: number; id?: string }
+const { n, id } = Astro.props;
+---
+<sup class="fn"><a class="fn__link" href={`#source-${n}`} id={id} aria-label={`Source ${n}`}>{n}</a></sup>

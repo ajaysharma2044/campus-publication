@@ -1,0 +1,17 @@
+---
+import { site } from '../../site.config';
+interface Props { title?: string; blurb?: string; wide?: boolean; side?: boolean; id?: string }
+const { title = 'The Footnote Daily newsletter', blurb = 'One email a week: the guides we published, the numbers that changed, and the deadlines coming up. No lists sold, unsubscribe in one click.', wide = false, side = false, id = 'newsletter' } = Astro.props;
+---
+<section class:list={['newsletter', { 'newsletter--wide': wide, 'newsletter--side': side }]} id={id} aria-labelledby={`${id}-title`}>
+  <div>
+    <h2 class="newsletter__title" id={`${id}-title`}>{title}</h2>
+    <p class="newsletter__blurb">{blurb}</p>
+  </div>
+  <form class="newsletter__form" action={site.newsletter.endpoint} method={site.newsletter.method}>
+    <label class="visually-hidden" for={`${id}-email`}>Email address</label>
+    <input class="newsletter__input" id={`${id}-email`} type="email" name="email" autocomplete="email" placeholder="you@example.edu" required />
+    <button class="btn btn--gold" type="submit">Subscribe</button>
+    <p class="newsletter__note">Weekly. Free. Read the <a href="/privacy/">privacy policy</a>.</p>
+  </form>
+</section>

@@ -1,0 +1,41 @@
+---
+/* Template 9: every option in one table, one short section per option. */
+import Base from './Base.astro';
+import type { Page, SiteModel } from '../lib/model';
+import { crumbsFor, authorUrl } from '../lib/model';
+import { breadcrumbList, article, faqPage, itemList } from '../lib/schema';
+import ArticleHead from '../components/ArticleHead.astro';
+import Byline from '../components/Byline.astro';
+import ShortAnswer from '../components/ShortAnswer.astro';
+import DataTable from '../components/DataTable.astro';
+import ArticleSections from '../components/ArticleSections.astro';
+import FAQ from '../components/FAQ.astro';
+import SourcesList from '../components/SourcesList.astro';
+import AdSlot from '../components/AdSlot.astro';
+import Sidebar from '../components/Sidebar.astro';
+interface Props { m: SiteModel; page: Page }
+const { m, page } = Astro.props;
+const b = page.body;
+const c = page.data.comparison!;
+const columns = ['Option', ...c.fields];
+const rows = c.items.map((it) => [it.name, ...c.fields.map((f) => it.values[f] ?? '')]);
+const links = c.items.map((it) => it.url);
+const jsonld = [breadcrumbList(crumbsFor(page)), article({ title: page.title, dek: page.dek, url: page.url, updated: page.updated, author: { name: page.author.name, url: authorUrl(page.author), kind: page.author.kind }, words: page.words }),
+  itemList(c.items.map((it) => ({ title: it.name, url: it.url ?? page.url })), page.title)];
+if (b.faq.length) jsonld.push(faqPage(b.faq));
+---
+<Base title={page.title} description={page.dek} path={page.url} ogType="article" school={page.school} current={page.topic.id} noindex={page.sample} jsonld={jsonld}>
+  <div class="page--article">
+    <article class="main">
+      <ArticleHead page={page} />
+      <Byline author={page.author} updated={page.updated} sourceCount={page.sources.length} reviewedBy={page.reviewedBy} />
+      {b.shortAnswer ? <ShortAnswer html={b.shortAnswer} title="Which one fits you" /> : null}
+      <DataTable columns={columns} rows={rows} caption={`${c.items.length} options compared`} stickyFirst linkFirst={links} id="comparison" />
+      <AdSlot size="300x250" position="inContent" />
+      <ArticleSections intro={b.intro} sections={b.sections} every={900} maxAds={2} />
+      <FAQ items={b.faq} />
+      <SourcesList sources={page.sources} footnotes={b.footnotes} />
+    </article>
+    <Sidebar m={m} school={page.school} />
+  </div>
+</Base>

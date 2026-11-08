@@ -1,0 +1,12 @@
+---
+interface Props { verdict: string; bestFor: string; skipIf: string }
+const { verdict, bestFor, skipIf } = Astro.props;
+---
+<section class="verdict" aria-labelledby="verdict-title">
+  <h2 class="verdict__title" id="verdict-title">Verdict</h2>
+  <p class="verdict__text">{verdict}</p>
+  <dl class="verdict__grid">
+    <div><dt>Best for</dt><dd>{bestFor}</dd></div>
+    <div><dt>Skip if</dt><dd>{skipIf}</dd></div>
+  </dl>
+</section>

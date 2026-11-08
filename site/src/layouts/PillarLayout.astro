@@ -1,0 +1,52 @@
+---
+/* Template 5, the reference article layout. Also used by template 10 (cross-school guide: no school sub-nav, "at your school" list). */
+import Base from './Base.astro';
+import type { Page, SiteModel } from '../lib/model';
+import { crumbsFor, related, authorUrl } from '../lib/model';
+import { breadcrumbList, article, faqPage } from '../lib/schema';
+import ArticleHead from '../components/ArticleHead.astro';
+import Byline from '../components/Byline.astro';
+import LeadPhoto from '../components/LeadPhoto.astro';
+import ShortAnswer from '../components/ShortAnswer.astro';
+import FactsTable from '../components/FactsTable.astro';
+import TOC from '../components/TOC.astro';
+import ArticleSections from '../components/ArticleSections.astro';
+import FAQ from '../components/FAQ.astro';
+import SourcesList from '../components/SourcesList.astro';
+import RelatedGrid from '../components/RelatedGrid.astro';
+import GuideList from '../components/GuideList.astro';
+import AdSlot from '../components/AdSlot.astro';
+import Sidebar from '../components/Sidebar.astro';
+interface Props { m: SiteModel; page: Page; crossSchool?: boolean }
+const { m, page, crossSchool = false } = Astro.props;
+const b = page.body;
+const facts = (page.data as any).facts as { label: string; value: string; note?: number }[] | undefined;
+const rel = related(m, page, 6);
+const versions = page.data.school_versions ?? [];
+const jsonld = [breadcrumbList(crumbsFor(page)), article({ title: page.title, dek: page.dek, url: page.url, updated: page.updated, image: page.lead?.src, author: { name: page.author.name, url: authorUrl(page.author), kind: page.author.kind }, words: page.words })];
+if (b.faq.length) jsonld.push(faqPage(b.faq));
+---
+<Base title={page.title} description={page.dek} path={page.url} ogType="article" ogImage={page.lead?.src} preloadImage={page.lead?.src} school={crossSchool ? null : page.school} current={page.topic.id} noindex={page.sample} jsonld={jsonld}>
+  <div class="page--article">
+    <article class="main">
+      <ArticleHead page={page} kicker={crossSchool ? `Cross-school guide · ${page.topic.label}` : undefined} />
+      <Byline author={page.author} updated={page.updated} sourceCount={page.sources.length} reviewedBy={page.reviewedBy} />
+      {page.lead ? <LeadPhoto photo={page.lead} /> : null}
+      {b.shortAnswer ? <ShortAnswer html={b.shortAnswer} /> : null}
+      <AdSlot size="300x250" position="inContent" />
+      {facts?.length ? <FactsTable title={(page.data as any).facts_title ?? 'The facts'} rows={facts} /> : null}
+      <TOC headings={b.headings} />
+      <ArticleSections intro={b.intro} sections={b.sections} />
+      <FAQ items={b.faq} />
+      <SourcesList sources={page.sources} footnotes={b.footnotes} />
+      {crossSchool && versions.length ? (
+        <section class="section" aria-labelledby="versions-title">
+          <div class="section__head"><h2 id="versions-title">This guide at your school</h2></div>
+          <GuideList rows={versions.map((v) => ({ title: v.title, url: v.url, category: v.school }))} dek={false} />
+        </section>
+      ) : null}
+      <RelatedGrid items={rel} />
+    </article>
+    <Sidebar m={m} school={crossSchool ? null : page.school} />
+  </div>
+</Base>

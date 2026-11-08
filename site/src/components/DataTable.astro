@@ -1,0 +1,22 @@
+---
+interface Props { columns: string[]; rows: (string | number)[][]; caption: string; csvHref?: string; stickyFirst?: boolean; id?: string; foot?: string; linkFirst?: (string | undefined)[] }
+const { columns, rows, caption, csvHref, stickyFirst = false, id = 'data-table', foot, linkFirst } = Astro.props;
+const isNum = (v: string | number) => typeof v === 'number' || /^\s*[$€£]?-?[\d,.]+\s*%?\s*$/.test(String(v));
+const numCol = columns.map((_, i) => rows.length > 0 && rows.every((r) => r[i] === '' || r[i] === undefined || isNum(r[i])));
+const fmt = (v: string | number) => (typeof v === 'number' ? v.toLocaleString('en-US') : v);
+---
+<div class:list={['dtable', { 'dtable--sticky-first': stickyFirst }]} id={id}>
+  <div class="dtable__bar">
+    <span class="dtable__caption" id={`${id}-caption`}>{caption}</span>
+    {csvHref ? <a href={csvHref} download>Download CSV</a> : null}
+  </div>
+  <div class="dtable__scroll">
+    <table aria-labelledby={`${id}-caption`}>
+      <thead><tr>{columns.map((c, i) => <th scope="col" class:list={{ num: numCol[i] }}><button class="dtable__sort" type="button">{c}</button></th>)}</tr></thead>
+      <tbody>
+        {rows.map((r, ri) => <tr>{r.map((v, i) => (i === 0 ? <th scope="row">{linkFirst?.[ri] ? <a href={linkFirst[ri]}>{fmt(v)}</a> : fmt(v)}</th> : <td class:list={{ num: numCol[i] }}>{fmt(v)}</td>))}</tr>)}
+      </tbody>
+    </table>
+  </div>
+  {foot ? <p class="dtable__foot">{foot}</p> : null}
+</div>

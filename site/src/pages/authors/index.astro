@@ -1,0 +1,18 @@
+---
+import { site } from '../../../site.config';
+import { authorUrl } from '../../lib/model';
+import { breadcrumbList, webPage } from '../../lib/schema';
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import GuideList from '../../components/GuideList.astro';
+const crumbs = [{ label: 'Home', href: '/' }, { label: 'Authors' }];
+const dek = 'Who researches, writes and checks Footnote Daily guides, and how.';
+---
+<Base title="Authors and staff" description={dek} path="/authors/" jsonld={[breadcrumbList(crumbs), webPage({ title: 'Authors and staff', dek, url: '/authors/' })]}>
+  <div class="page--single"><div class="main">
+    <Breadcrumbs crumbs={crumbs} />
+    <header class="head"><h1>Authors and staff</h1><p class="dek">{dek}</p></header>
+    <GuideList rows={site.authors.map((a) => ({ title: a.name, url: authorUrl(a), dek: a.role, category: a.kind === 'person' ? 'Author' : 'Staff' }))} />
+    <p>Read the <a href="/editorial-standards/">editorial standards</a>, the <a href="/sources/">sourcing policy</a> and the <a href="/corrections/">corrections log</a>.</p>
+  </div></div>
+</Base>

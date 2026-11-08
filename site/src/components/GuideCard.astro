@@ -1,0 +1,23 @@
+---
+import type { Page } from '../lib/model';
+import { fmtDate } from '../lib/model';
+interface Props { page: Page; size?: 'lead' | 'featured' | 'small'; photo?: boolean; showMeta?: boolean }
+const { page, size = 'small', photo = size !== 'small', showMeta = false } = Astro.props;
+const p = page.lead;
+const headingTag = size === 'lead' ? 'h2' : 'h3';
+const sizes = size === 'lead' ? '(min-width: 980px) 780px, 100vw' : '(min-width: 980px) 380px, 100vw';
+---
+<article class:list={['card', `card--${size}`]}>
+  {photo && p ? (
+    <a class="card__photo" href={page.url} tabindex="-1" aria-hidden="true">
+      <picture>
+        {p.srcsetAvif ? <source type="image/avif" srcset={p.srcsetAvif} sizes={sizes} /> : null}
+        <img src={p.src} srcset={p.srcsetWebp} sizes={sizes} alt="" width={p.width} height={p.height} loading={size === 'lead' ? 'eager' : 'lazy'} fetchpriority={size === 'lead' ? 'high' : undefined} decoding="async" />
+      </picture>
+    </a>
+  ) : null}
+  <p class="card__kicker">{page.topic.label} · {page.typeLabel}</p>
+  {headingTag === 'h2' ? <h2 class="card__title"><a href={page.url}>{page.title}</a></h2> : <h3 class="card__title"><a href={page.url}>{page.title}</a></h3>}
+  {size !== 'small' ? <p class="card__dek">{page.dek}</p> : null}
+  {showMeta ? <p class="card__meta">Updated {fmtDate(page.updated)}</p> : null}
+</article>

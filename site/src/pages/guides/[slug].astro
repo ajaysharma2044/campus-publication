@@ -1,0 +1,11 @@
+---
+import { getSite, type Page } from '../../lib/model';
+import CrossSchoolGuideLayout from '../../layouts/CrossSchoolGuideLayout.astro';
+export async function getStaticPaths() {
+  const m = await getSite();
+  return m.pages.filter((p) => p.crossSchool).map((p) => ({ params: { slug: p.slug }, props: { page: p } }));
+}
+const { page } = Astro.props as { page: Page };
+const m = await getSite();
+---
+<CrossSchoolGuideLayout m={m} page={page} />

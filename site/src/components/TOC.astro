@@ -1,0 +1,12 @@
+---
+import type { Heading } from '../lib/markdown';
+interface Props { headings: Heading[]; title?: string }
+const { headings, title = 'In this guide' } = Astro.props;
+const items = headings.filter((h) => h.depth === 2);
+---
+{items.length >= 3 ? (
+  <nav class="toc" aria-labelledby="toc-title">
+    <h2 class="toc__title" id="toc-title">{title}</h2>
+    <ol class="toc__list">{items.map((h) => <li class="toc__item"><a href={`#${h.id}`}>{h.text}</a></li>)}</ol>
+  </nav>
+) : null}

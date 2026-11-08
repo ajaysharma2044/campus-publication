@@ -1,0 +1,8 @@
+---
+interface Props { title: string; html?: string }
+const { title, html } = Astro.props;
+---
+<aside class="note">
+  <h3 class="note__title">{title}</h3>
+  {html ? <Fragment set:html={html} /> : <slot />}
+</aside>

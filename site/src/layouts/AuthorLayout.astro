@@ -1,0 +1,36 @@
+---
+/* Template 11: an author or staff page. */
+import Base from './Base.astro';
+import type { Author } from '../../site.config';
+import type { SiteModel } from '../lib/model';
+import { byAuthor, authorUrl } from '../lib/model';
+import { breadcrumbList, person, profilePage } from '../lib/schema';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import GuideList from '../components/GuideList.astro';
+interface Props { m: SiteModel; author: Author }
+const { m, author } = Astro.props;
+const { written, reviewed } = byAuthor(m, author);
+const url = authorUrl(author);
+const crumbs = [{ label: 'Home', href: '/' }, { label: 'Authors', href: '/authors/' }, { label: author.name }];
+const a = { name: author.name, url, role: author.role, bio: author.bio, kind: author.kind };
+const initials = author.name.split(/\s+/).map((w) => w[0]).slice(0, 2).join('');
+---
+<Base title={author.name} description={`${author.name}, ${author.role} at Footnote Daily: ${author.bio.slice(0, 140)}`} path={url} ogType="profile" jsonld={[breadcrumbList(crumbs), person(a), profilePage(a)]}>
+  <div class="page--single">
+    <div class="main">
+      <Breadcrumbs crumbs={crumbs} />
+      <header class="author">
+        {author.avatar ? <img class="avatar avatar--lg" src={author.avatar} alt="" width="96" height="96" /> : <span class="avatar avatar--lg" aria-hidden="true">{initials}</span>}
+        <div><p class="kicker">{author.kind === 'person' ? 'Author' : 'Staff'}</p><h1>{author.name}</h1><p class="author__role">{author.role}</p><p class="dek">{author.bio}</p></div>
+      </header>
+      <section class="section" aria-labelledby="written-title">
+        <div class="section__head"><h2 id="written-title">Guides written</h2><span class="sources__count">{written.length}</span></div>
+        {written.length ? <GuideList items={written} meta /> : <p>No guides yet.</p>}
+      </section>
+      <section class="section" aria-labelledby="reviewed-title">
+        <div class="section__head"><h2 id="reviewed-title">Guides reviewed</h2><span class="sources__count">{reviewed.length}</span></div>
+        {reviewed.length ? <GuideList items={reviewed} meta /> : <p>Reviews are recorded on each guide's byline when a named reviewer signs off. See the <a href="/editorial-standards/">editorial standards</a> for how a guide is checked.</p>}
+      </section>
+    </div>
+  </div>
+</Base>

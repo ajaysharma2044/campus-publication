@@ -1,0 +1,19 @@
+---
+import { getSite } from '../../lib/model';
+import { breadcrumbList, collectionPage } from '../../lib/schema';
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import GuideList from '../../components/GuideList.astro';
+const m = await getSite();
+const items = m.pages.filter((p) => p.crossSchool);
+const title = 'Cross-school guides';
+const dek = 'Guides that apply at any school, each with links to the school-specific version where one exists.';
+const crumbs = [{ label: 'Home', href: '/' }, { label: 'Guides' }];
+---
+<Base title={title} description={dek} path="/guides/" jsonld={[breadcrumbList(crumbs), collectionPage({ title, dek, url: '/guides/', items: items.map((p) => ({ title: p.title, url: p.url })) })]}>
+  <div class="page--single"><div class="main">
+    <Breadcrumbs crumbs={crumbs} />
+    <header class="head"><h1>{title}</h1><p class="dek">{dek}</p></header>
+    {items.length ? <GuideList items={items} meta /> : <p>No cross-school guides are published yet. Every guide so far is written for <a href="/cornell/">Cornell</a>; see the <a href="/cornell/housing/">housing</a> and <a href="/cornell/money/">money</a> hubs.</p>}
+  </div></div>
+</Base>

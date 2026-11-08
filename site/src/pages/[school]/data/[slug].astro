@@ -1,0 +1,11 @@
+---
+import { getSite, type Page } from '../../../lib/model';
+import DataLayout from '../../../layouts/DataLayout.astro';
+export async function getStaticPaths() {
+  const m = await getSite();
+  return m.pages.filter((p) => p.pageType === 'data').map((p) => ({ params: { school: p.school.slug, slug: p.slug }, props: { page: p } }));
+}
+const { page } = Astro.props as { page: Page };
+const m = await getSite();
+---
+<DataLayout m={m} page={page} />

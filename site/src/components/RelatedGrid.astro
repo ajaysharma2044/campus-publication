@@ -1,0 +1,13 @@
+---
+import type { Page } from '../lib/model';
+interface Props { items: Page[]; title?: string }
+const { items, title = 'Related guides' } = Astro.props;
+---
+{items.length ? (
+  <section class="related" aria-labelledby="related-title" data-pagefind-ignore>
+    <div class="section__head"><h2 id="related-title">{title}</h2></div>
+    <div class="related__grid">
+      {items.map((p) => <article class="card card--small"><p class="card__kicker">{p.topic.label} · {p.typeLabel}</p><h3 class="card__title"><a href={p.url}>{p.title}</a></h3></article>)}
+    </div>
+  </section>
+) : null}

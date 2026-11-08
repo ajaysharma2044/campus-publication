@@ -1,0 +1,15 @@
+---
+import type { Photo } from '../lib/model';
+interface Props { photo: Photo; priority?: boolean; sizes?: string }
+const { photo, priority = true, sizes = '(min-width: 980px) 720px, 100vw' } = Astro.props;
+const credit = photo.credit ? (photo.creditUrl ? `<a href="${photo.creditUrl}" rel="noopener">${photo.credit}</a>` : photo.credit) : '';
+const license = photo.license ? (photo.licenseUrl ? `<a href="${photo.licenseUrl}" rel="noopener license">${photo.license}</a>` : photo.license) : '';
+---
+<figure class="lead">
+  <picture>
+    {photo.srcsetAvif ? <source type="image/avif" srcset={photo.srcsetAvif} sizes={sizes} /> : null}
+    {photo.srcsetWebp ? <source type="image/webp" srcset={photo.srcsetWebp} sizes={sizes} /> : null}
+    <img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading={priority ? 'eager' : 'lazy'} fetchpriority={priority ? 'high' : undefined} decoding="async" />
+  </picture>
+  <figcaption>{photo.caption ? <span>{photo.caption}. </span> : null}{credit ? <span class="photo__credit" set:html={`Photo: ${credit}${license ? `, ${license}` : ''}`} /> : null}</figcaption>
+</figure>

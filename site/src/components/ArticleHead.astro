@@ -1,0 +1,13 @@
+---
+import type { Page } from '../lib/model';
+import { crumbsFor } from '../lib/model';
+import Breadcrumbs from './Breadcrumbs.astro';
+interface Props { page: Page; kicker?: string; h1?: string; dek?: boolean }
+const { page, kicker = `${page.topic.label} · ${page.typeLabel}`, h1 = page.title, dek = true } = Astro.props;
+---
+<Breadcrumbs crumbs={crumbsFor(page)} />
+<header class="head">
+  <p class="kicker" data-pagefind-meta="category">{page.sample ? 'Sample content · ' : ''}{kicker}</p>
+  <h1>{h1}</h1>
+  {dek ? <p class="dek">{page.dek}</p> : null}
+</header>

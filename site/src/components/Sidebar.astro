@@ -1,0 +1,17 @@
+---
+/* The article and hub sidebar: 300x600 sticky ad, MostRead, NewsletterSignup. */
+import type { School } from '../../site.config';
+import type { SiteModel } from '../lib/model';
+import { mostRead } from '../lib/model';
+import AdSlot from './AdSlot.astro';
+import MostRead from './MostRead.astro';
+import NewsletterSignup from './NewsletterSignup.astro';
+interface Props { m: SiteModel; school: School | null; newsletterTitle?: string; newsletterBlurb?: string }
+const { m, school, newsletterTitle, newsletterBlurb } = Astro.props;
+const mr = mostRead(m, school);
+---
+<aside class="sidebar" aria-label="Sidebar" data-pagefind-ignore>
+  <AdSlot size="300x600" position="sidebar" lazy={false} sticky device="desktop" />
+  <MostRead items={mr.items} label={mr.label} />
+  <NewsletterSignup title={newsletterTitle} blurb={newsletterBlurb} side />
+</aside>

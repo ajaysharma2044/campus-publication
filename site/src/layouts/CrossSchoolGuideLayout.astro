@@ -1,0 +1,8 @@
+---
+/* Template 10: the pillar layout with no school sub-nav and a "This guide at your school" list. */
+import PillarLayout from './PillarLayout.astro';
+import type { Page, SiteModel } from '../lib/model';
+interface Props { m: SiteModel; page: Page }
+const { m, page } = Astro.props;
+---
+<PillarLayout m={m} page={page} crossSchool />

@@ -1,0 +1,41 @@
+---
+/* Template 4: a topic hub organized by the reader's journey stage, pulling relevant guides from every topic. */
+import Base from './Base.astro';
+import type { School, Audience } from '../../site.config';
+import type { SiteModel } from '../lib/model';
+import { audienceGroups, schoolUrl, topicUrl, topicById } from '../lib/model';
+import { breadcrumbList, collectionPage } from '../lib/schema';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import GuideList from '../components/GuideList.astro';
+import AdSlot from '../components/AdSlot.astro';
+import Sidebar from '../components/Sidebar.astro';
+interface Props { m: SiteModel; school: School; audience: Audience }
+const { m, school, audience } = Astro.props;
+const groups = audienceGroups(m, school, audience);
+const topic = topicById(audience.id)!;
+const url = topicUrl(school, audience.id);
+const title = `${school.short} for ${audience.label}: Every Guide`;
+const dek = `${topic.blurb} Organized in the order you will need it.`;
+const crumbs = [{ label: 'Home', href: '/' }, { label: school.short, href: schoolUrl(school) }, { label: audience.label }];
+const all = groups.flatMap((g) => g.items);
+const jsonld = [breadcrumbList(crumbs), collectionPage({ title, dek, url, items: all.map((p) => ({ title: p.title, url: p.url })) })];
+---
+<Base title={title} description={dek} path={url} school={school} current={audience.id} jsonld={jsonld}>
+  <div class="page--article">
+    <div class="main">
+      <Breadcrumbs crumbs={crumbs} />
+      <header class="head"><p class="kicker">{school.short} · {audience.label}</p><h1>{title}</h1><p class="dek">{dek}</p></header>
+      {groups.map((g, i) => (
+        <Fragment>
+          <section class="section" aria-labelledby={`stage-${i}`}>
+            <div class="section__head"><h2 id={`stage-${i}`}>{g.name}</h2><span class="sources__count">{g.items.length}</span></div>
+            <GuideList items={g.items} meta />
+          </section>
+          {i === 0 ? <AdSlot size="300x250" position="inContent" /> : null}
+        </Fragment>
+      ))}
+      {!groups.length ? <p>No guides for {audience.label.toLowerCase()} at {school.short} are published yet. Start with the <a href={schoolUrl(school)}>{school.short} student guide</a>.</p> : null}
+    </div>
+    <Sidebar m={m} school={school} newsletterTitle={`The ${school.short} guide, weekly`} />
+  </div>
+</Base>

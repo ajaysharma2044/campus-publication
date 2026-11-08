@@ -1,0 +1,18 @@
+---
+import type { Page } from '../lib/model';
+import { fmtDate } from '../lib/model';
+export interface Row { title: string; url: string; dek?: string; category?: string; meta?: string }
+interface Props { items?: Page[]; rows?: Row[]; dek?: boolean; category?: boolean; compact?: boolean; meta?: boolean; headingLevel?: 'h3' | 'h4' | 'p' }
+const { items = [], rows: given, dek = true, category = true, compact = false, meta = false, headingLevel = 'h3' } = Astro.props;
+const rows: Row[] = given ?? items.map((p) => ({ title: p.title, url: p.url, dek: p.dek, category: `${p.topic.label} · ${p.typeLabel}`, meta: `Updated ${fmtDate(p.updated)}` }));
+---
+<ul class:list={['glist', { 'glist--compact': compact }]}>
+  {rows.map((r) => (
+    <li class="glist__item">
+      {category && r.category ? <p class="glist__kicker">{r.category}</p> : null}
+      {headingLevel === 'h3' ? <h3 class="glist__title"><a href={r.url}>{r.title}</a></h3> : headingLevel === 'h4' ? <h4 class="glist__title"><a href={r.url}>{r.title}</a></h4> : <p class="glist__title"><a href={r.url}>{r.title}</a></p>}
+      {dek && r.dek ? <p class="glist__dek">{r.dek}</p> : null}
+      {meta && r.meta ? <p class="glist__meta">{r.meta}</p> : null}
+    </li>
+  ))}
+</ul>

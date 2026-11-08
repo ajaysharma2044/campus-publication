@@ -1,0 +1,20 @@
+---
+/* One-segment routes: school hubs (/{school}/) and the trust pages (/about/ ...), dispatched by what the segment names. */
+import { getCollection } from 'astro:content';
+import { site } from '../../../site.config';
+import { getSite } from '../../lib/model';
+import { renderMarkdown } from '../../lib/markdown';
+import SchoolHubLayout from '../../layouts/SchoolHubLayout.astro';
+import TrustLayout from '../../layouts/TrustLayout.astro';
+export const TRUST: Record<string, string> = { about: 'about', 'editorial-standards': 'editorial-policy', sources: 'sources', corrections: 'corrections', contact: 'contact', privacy: 'privacy', advertise: 'advertise' };
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  const trust = Object.entries(TRUST).map(([slug, id]) => ({ params: { root: slug }, props: { kind: 'trust', entry: pages.find((p) => p.id === id) } })).filter((p) => p.props.entry);
+  const schools = site.schools.map((s) => ({ params: { root: s.slug }, props: { kind: 'school', school: s } }));
+  return [...schools, ...trust];
+}
+const { kind, school, entry } = Astro.props as any;
+const m = await getSite();
+const page = kind === 'trust' ? renderMarkdown(entry.body ?? '', { linkMap: m.linkMap, knownUrls: m.knownUrls }) : null;
+---
+{kind === 'school' ? <SchoolHubLayout m={m} school={school} /> : <TrustLayout title={entry.data.title} dek={entry.data.meta} path={`/${Astro.params.root}/`} html={page!.html} updated={entry.data.updated} noindex={entry.data.noindex} />}

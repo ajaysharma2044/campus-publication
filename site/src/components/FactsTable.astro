@@ -1,0 +1,14 @@
+---
+interface Row { label: string; value: string; note?: number | string }
+interface Props { title: string; rows: Row[]; footnote?: string }
+const { title, rows, footnote } = Astro.props;
+---
+<figure class="facts">
+  <figcaption class="facts__title">{title}</figcaption>
+  <table class="facts__table">
+    <tbody>
+      {rows.map((r) => <tr class="facts__row"><th class="facts__label" scope="row">{r.label}</th><td class="facts__value">{r.value}{r.note ? <sup class="fn"><a class="fn__link" href={`#source-${r.note}`}>{r.note}</a></sup> : null}</td></tr>)}
+    </tbody>
+  </table>
+  {footnote ? <p class="facts__note">{footnote}</p> : null}
+</figure>

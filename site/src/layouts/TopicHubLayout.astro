@@ -1,0 +1,43 @@
+---
+/* Template 3: every guide in one topic for one school, grouped by page type. */
+import Base from './Base.astro';
+import type { School, Topic } from '../../site.config';
+import type { SiteModel } from '../lib/model';
+import { forTopic, pillars, groupByType, schoolUrl, topicUrl } from '../lib/model';
+import { breadcrumbList, collectionPage } from '../lib/schema';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import GuideCard from '../components/GuideCard.astro';
+import GuideList from '../components/GuideList.astro';
+import AdSlot from '../components/AdSlot.astro';
+import Sidebar from '../components/Sidebar.astro';
+interface Props { m: SiteModel; school: School; topic: Topic }
+const { m, school, topic } = Astro.props;
+const items = forTopic(m, school, topic);
+const feat = pillars(items)[0];
+const groups = groupByType(items.filter((p) => p !== feat));
+const url = topicUrl(school, topic);
+const title = `${school.short} ${topic.label}: Every Guide`;
+const dek = `${topic.blurb} Every ${school.short} ${topic.label.toLowerCase()} guide on ${'Footnote Daily'}, with the date it was last checked.`;
+const crumbs = [{ label: 'Home', href: '/' }, { label: school.short, href: schoolUrl(school) }, { label: topic.label }];
+const jsonld = [breadcrumbList(crumbs), collectionPage({ title, dek, url, items: items.map((p) => ({ title: p.title, url: p.url })) })];
+---
+<Base title={title} description={dek} path={url} school={school} current={topic.id} jsonld={jsonld}>
+  <div class="page--article">
+    <div class="main">
+      <Breadcrumbs crumbs={crumbs} />
+      <header class="head"><p class="kicker">{school.short} · {topic.label}</p><h1>{title}</h1><p class="dek">{topic.blurb}</p></header>
+      {feat ? <section class="section" aria-label="The complete guide"><GuideCard page={feat} size="featured" showMeta /></section> : null}
+      {groups.map((g, i) => (
+        <Fragment>
+          <section class="section" aria-labelledby={`group-${g.key}`}>
+            <div class="section__head"><h2 id={`group-${g.key}`}>{g.label}</h2><span class="sources__count">{g.items.length}</span></div>
+            <GuideList items={g.items} category={false} meta />
+          </section>
+          {i === 0 ? <AdSlot size="300x250" position="inContent" /> : null}
+        </Fragment>
+      ))}
+      {!items.length ? <p>No {topic.label.toLowerCase()} guides for {school.short} are published yet. Start with the <a href={schoolUrl(school)}>{school.short} student guide</a>.</p> : null}
+    </div>
+    <Sidebar m={m} school={school} newsletterTitle={`The ${school.short} guide, weekly`} />
+  </div>
+</Base>
