@@ -336,6 +336,24 @@ def main(argv: list[str]) -> int:
     on_disk = existing_files(t["dir"], content, articles)
     planned, warnings, errors = validate(rows, reader_keys=set(reader_keys), on_disk=on_disk, limit_spokes=a.limit_spokes, topic_dir=t["dir"])
     summary(planned, problems + warnings, errors, plan, t["title"], log)
+    # the approval copy for Ajay (docs/v3 catch-up, step 6): reports/plan-<topic>.md = counts, how to approve, the plan table
+    from collections import Counter
+    kinds = Counter(r["kind"] for r in planned)
+    report = REPO / "reports" / f"plan-{a.topic}.md"
+    report.parent.mkdir(parents=True, exist_ok=True)
+    report.write_text("\n".join([
+        f"# Plan for approval: {t['title']} ({a.topic})",
+        "",
+        f"Source: intel/{a.topic}/plan.md, built from intel/{a.topic}/brief.md and readers.md on {date.today().isoformat()}.",
+        "Counts: " + ", ".join(f"{k} {v}" for k, v in sorted(kinds.items())) + f"; {len(planned)} rows queued as status proposed.",
+        "",
+        f"Approve: `scripts/v3/plan.sh {a.topic} --approve` (flips this topic's proposed plan rows to approved), then start writing with `scripts/v3/run.sh {a.topic}`.",
+        "To change the plan first, edit intel/" + a.topic + "/plan.md (add, remove or reword rows), rerun `scripts/v3/plan.sh " + a.topic + "` to sync the queue, then approve.",
+        "",
+        plan.read_text(encoding="utf-8").strip(),
+        "",
+    ]), encoding="utf-8")
+    log(f"approval copy written: {report.relative_to(REPO)}")
     if errors:
         log("plan not queued: fix the errors above in the plan file, then run plan.sh <topic> --approve (no new session)")
         return 1

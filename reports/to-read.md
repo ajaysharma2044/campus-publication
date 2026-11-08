@@ -6,19 +6,19 @@ Every newly published page lands here with a one-line summary. Ajay reads all of
 
 Each entry is three lines. Write your mark on the `Ajay:` line and leave the other two alone:
 
-- `Ajay: 👍` means the page is good. The weekly lessons step copies it to `docs/v3/best/` with a two-line note on why.
+- `Ajay: 👍` means the page is good. The learn step Ajay runs copies it to `docs/v3/best/` with a two-line note on why.
 - `Ajay: <one line>` means something is wrong or weak ("the rent table is 2024 numbers", "reads like a memo after the reader blocks"). The page goes to `docs/v3/worst/` with that note, and the note becomes a style-guide, exemplar or brief edit. Notes never become code rules.
 - An empty `Ajay:` line means not read yet.
 
-Entry shape (`scripts/v2/publish.sh` appends one per published page; `worker/.venv/bin/python scripts/v2/render_site.py --to-read` rebuilds the list from the published queue rows, newest first, and keeps every mark already written):
+Entry shape (`scripts/v3/run.sh` appends one per newly published page after each publish step; `worker/.venv/bin/python scripts/v2/render_site.py --to-read` rebuilds the whole list from the published queue rows, newest first, articles, tools and datasets alike, and keeps every mark already written for a page path):
 
 ```
-- <published date> | <title> | <site path> | <kind> | <topic dir>
+- <published date> | <title> | <site path> | <kind> | <topic dir> (<queue id>)
   Summary: <the page's one-line meta>
   Ajay: <👍 or a one-line note>
 ```
 
-`kind` is pillar, spoke, reader_guide or rewrite for v3 pages and `<type> (v2)` for pages not yet rewritten. Nothing below the entries is read by the scripts; keep general remarks in `reports/lessons.md`.
+`kind` is pillar, spoke, reader_guide or rewrite for v3 articles, tool or dataset for those pages, and `v2` for pages not yet rewritten. A rewrite keeps its path, so a mark written for the old page stays on the entry until you change it. Nothing below the entries is read by the scripts; keep general remarks in `reports/lessons.md`.
 
 ## Entries
 
