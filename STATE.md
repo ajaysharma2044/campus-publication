@@ -1,8 +1,9 @@
 # STATE (v3, overwritten; keep under 60 lines)
 
-Updated: 2026-11-08 01:57 EST. Spec: docs/v3/spec.md (owner's file, byte for byte). Preview: https://campus-ledger-preview.netlify.app (noindex until the real domain). Repo map: docs/v3/repo-map.md.
+Updated: 2026-11-08 16:45 EST. Spec: docs/v3/spec.md (owner's file, byte for byte). Preview: https://campus-ledger-preview.netlify.app (noindex until the real domain). Repo map: docs/v3/repo-map.md.
 
 ## Running now
+- getting-around run, cycle 2 of the restart (16:42 EST): 31 of 59 plan rows published (pillar, 7 tools, 4 datasets, 19 spokes and reader guides), 18 pending. Speed since the restart: 9 pages in 0.27 h (33 pages per hour), 10.2 session-minutes per published page, 0 minutes paused. The laptop slept from about 05:00 to 16:25 EST (lid or manual sleep; the scripts hold off idle sleep only), and the run resumed on wake.
 - 04:5x EST: the run was paused for 40 minutes and restarted after a routing defect: my publish step rejected the pillar after its single revision and sent lint failures to the writer, while the v3 spec says missing pieces go to the image step or the writer and never to a reject. Now: lead-photo failures run scripts/v3/images.py (subject, plan hint, place names, topic scenes from topics.yml, then campus; figures-only only after all of those), other lint failures give a v3 page up to three writer rounds, transient link errors wait, and only duplicates reject. The photo relevance config gained local names (TCAT, Campus-to-Campus, Ho Plaza, Ithaca Commons, ...); all 17 written pages got a lead photo. The first cycle's checks also ran slow (17 to 26 minutes a session, throttling) so a timed-out session now triggers the pause and probe.
 - Ajay approved the getting-around plan at 01:56 EST; `scripts/v3/run.sh getting-around` (8 workers, opus writes and edits, sonnet checks, deploy every 10) is writing its 59 rows: pillar first, then spokes, reader guides, tools, datasets, start pages and one rewrite. REPORT lines (articles per hour, session-minutes per article, minutes paused) land in build/runs/v2/run-<ts>.log and here as they arrive. Stop: scripts/v2/stop.sh.
 
