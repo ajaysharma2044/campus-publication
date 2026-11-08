@@ -1,9 +1,9 @@
 # STATE (v2, overwritten; keep under 60 lines)
 
-Updated: 2026-11-07 23:0x EST. Spec: docs/v2/spec.md. Preview: https://campus-ledger-preview.netlify.app (noindex until the real domain).
+Updated: 2026-11-07 23:1x EST. Spec: docs/v2/spec.md. Preview: https://campus-ledger-preview.netlify.app (noindex until the real domain).
 
 ## Running now
-- Nothing. The pilot (acceptance 1) finished at 22:56 EST. Continuous operation (acceptance 4) waits for acceptance 2 and 3, which are Ajay's: the blind comparison of 5 articles against the #1 Google result, and a 20-fact spot check.
+- Continuous run (acceptance 4) started 2026-11-07 23:0x EST on Ajay's go-ahead: scripts/v2/run_continuous.sh with 4 workers, batches of 12 (write, review, one fix round, review, publish with a deploy every 10, demand refill when approved rows drop below 20). Log: build/runs/v2/continuous-<ts>.log. Stop: scripts/v2/stop.sh.
 
 ## Counts
 - Queue: 217 rows from the first demand pass (8 topic sessions, 5 minutes): 25 gap, 137 weak, 55 owned; 151 approved rows still unwritten.
