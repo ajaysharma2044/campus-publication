@@ -267,7 +267,7 @@ def _tokens(*texts: str) -> set[str]:
 
 
 def dedupe(path: Path | str = QUEUE, threshold: float = 0.8) -> list[tuple[str, str]]:
-    """Merge rows that ask the same thing (token Jaccard of question + primary query >= threshold within a topic): the earlier row
+    """Merge rows that ask the same thing (token Jaccard of question + primary query >= threshold, across topics): the earlier row
     keeps its status and gains the other's demand evidence; the later row becomes rejected unless it is already published."""
     merged = []
     with locked(path):
@@ -279,7 +279,7 @@ def dedupe(path: Path | str = QUEUE, threshold: float = 0.8) -> list[tuple[str, 
             t = _tokens(r["question"], r["primary_query"])
             dup = None
             for k in kept:
-                if k["topic"] != r["topic"] or k["status"] == "rejected":
+                if k["status"] == "rejected":   # the same question under two topics is still one question
                     continue
                 kt = _tokens(k["question"], k["primary_query"])
                 if t and kt and len(t & kt) / len(t | kt) >= threshold:
