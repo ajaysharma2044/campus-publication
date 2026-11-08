@@ -1,9 +1,11 @@
 # Footnote Daily (campus-publication), v2
 
 Research-first guides for students, parents and alumni of a school and its town. Cornell and Ithaca first.
-Owner spec: `docs/v2/spec.md` (authoritative; it replaces the v1 specs now under `archive/v1/`). Style: `docs/v2/style.md`. Quality bar: `docs/v2/exemplar.md`. Status: `STATE.md` (overwritten, under 60 lines).
+Owner specs: `docs/v3/spec.md` (2026-11-08, wins where it conflicts) over `docs/v2/spec.md` (files, lint, render, images, monetization, deploy still apply); v1 is under `archive/v1/`. Style: `docs/v2/style.md`. Quality bar: `docs/v2/exemplar.md`. Status: `STATE.md` (overwritten, under 60 lines).
 
 ## Pipeline (files, not a database)
+v3 (current): `scripts/v3/research.sh <topic>` (five lanes to `intel/<topic>/raw/`), `brief.sh` (`intel/<topic>/brief.md`, facts checked once), `readers.sh`, `plan.sh` (plan rows to the queue; Ajay approves), `write.sh` (opus writes and edits from the brief), `check.sh` (facts not in the brief), then v2 publish. Topics: `scripts/v3/topics.yml`.
+v2 steps still used:
 1. Find demand: `scripts/v2/find_demand.sh <topic>` appends rows to `queue/queue.csv` (verdict gap, weak or owned; gap and weak become `proposed`). Ajay marks rows `approved`, or run with `--auto-approve`.
 2. Research and write: `scripts/v2/write.sh --workers 4` writes `content/articles/<topic>/<slug>.md` (one `claude -p` session per approved row; web, corpus, style guide, exemplar).
 3. Review: `scripts/v2/review.sh` writes `content/reviews/<slug>.json` (fact check plus beats-#1 test; pass, fix or reject; one fix round).

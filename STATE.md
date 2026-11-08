@@ -3,7 +3,8 @@
 Updated: 2026-11-08 00:0x EST. Spec: docs/v2/spec.md. Preview: https://campus-ledger-preview.netlify.app (noindex until the real domain).
 
 ## Running now
-- Continuous run (acceptance 4) started 2026-11-07 23:0x EST on Ajay's go-ahead: scripts/v2/run_continuous.sh with 4 workers, batches of 12 (write, review, one fix round, review, publish with a deploy every 10, demand refill when approved rows drop below 20). Log: build/runs/v2/continuous-<ts>.log. Stop: scripts/v2/stop.sh.
+- v3 (docs/v3/spec.md, 2026-11-08) is the operating spec. Research sprints started 2026-11-07 23:5x EST: off-campus housing (lanes A to E) and getting-around (lanes A to C), sonnet, 8 sessions; raw notes land in intel/<topic>/raw/. The v2 continuous run was stopped at 23:55 EST (16 published, 11 rejected, 15 drafts waiting; those go through v3's write and check later).
+- (ended) v2 continuous run, started 23:09 EST on Ajay's go-ahead: scripts/v2/run_continuous.sh with 4 workers, batches of 12 (write, review, one fix round, review, publish with a deploy every 10, demand refill when approved rows drop below 20). Log: build/runs/v2/continuous-<ts>.log. Stop: scripts/v2/stop.sh.
 
 ## Counts
 - Queue: 217 rows from the first demand pass (8 topic sessions, 5 minutes): 25 gap, 137 weak, 55 owned; 151 approved rows still unwritten.
@@ -19,6 +20,7 @@ Updated: 2026-11-08 00:0x EST. Spec: docs/v2/spec.md. Preview: https://campus-le
 4. 2026-11-07: style guide and writer prompt gained a "precision when paraphrasing" block (exact attribution, no added detail, official wording for categories, apply every listed fix), because all four rejections were of that kind.
 
 ## Open questions (owner)
+- The v3 paste named footnote-v2-fixes-1.md and footnote-style-guide.md; neither is in the repo or home folder. docs/v2/style.md stays the stand-in (now with Part 6 editing passes and Part 7 swap test written from the v3 spec). A Reddit API key (PRAW, read-only) would let lane C and E read threads; without it they use search results.
 - Rejections run about 30% of attempted articles (11 of 36), nearly all on a second review round for paraphrase precision (a word the source does not use, a poster's point stated more strongly than they did, a rent figure that turned out to be for Trumansburg). Every rejected piece still beat the #1 result on the reviewer's test. The writer prompt already carries the self-fact-check; the spec's one-revision rule stands. If you want these back, say so and they re-enter as fresh rows.
 - footnote-style-guide.md was not in the repo or home folder; docs/v2/style.md is a draft stand-in. Replace it verbatim when provided.
 - The 4 rejected pilot questions are real gaps; say the word and they re-enter the queue as fresh rows after the style and exemplar edits (the spec's one-revision rule stands as written).

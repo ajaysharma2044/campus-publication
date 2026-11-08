@@ -36,3 +36,16 @@ A student, parent or alum with one practical question about Cornell or Ithaca. T
 - Title 60 characters or fewer, says what the page answers. Meta 120 to 155 characters, states the answer.
 - At least one useful visual (a photo we have the rights to, a cost chart or timeline built from the facts, a map). Every image has alt text and a caption with its credit.
 - At least two internal links to related articles when they exist.
+
+## Part 6: the seven editing passes (run on every draft, in this order)
+1. Structure: does the first paragraph answer the question in 3 sentences or fewer? Is the "At a glance" box the whole page in six lines? Do the "If you're..." blocks come before the long sections? Move, merge or cut sections until a hurried reader gets the answer, then their situation, then the detail.
+2. Cut 20 to 30 percent: every sentence that restates another, every paragraph that explains what the page is about to do, every hedge stacked on a hedge. Keep every fact, number, date and link.
+3. Line edit: one idea per sentence, average under 18 words, verbs not nouns, the specific word not the category ("Collegetown Terrace" not "a large complex").
+4. Slop sweep: remove the banned words and every research-narration phrase ("we found", "our research shows", "the pages we checked", "sources say", "it is worth noting", "as of our review"). State the fact and link it.
+5. Specificity: every claim that could carry a number, date, name or place carries it. Replace "many students", "often", "recently" with the count, the frequency or the date from the brief.
+6. Read-aloud: read the page as the target reader would; wherever you stumble, rewrite the sentence.
+7. Visual: one table, figure or tool for every long run of numbers; lists for parallel items; a photo caption that adds information the picture alone does not.
+
+## Part 7: the swap test and research narration
+- Swap test: if a paragraph would read the same with another school's name swapped in, it is generic; cut it or make it specific to Cornell and Ithaca.
+- Research narration (banned): "we found", "we checked", "our research", "the pages we opened", "sources say", "according to our review", "we were unable to confirm", "it is worth noting", "as of our review", "we looked at". Say what is true and link the source; put gaps in one short "Not confirmed" line, not in the prose.
