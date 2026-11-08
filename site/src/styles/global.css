@@ -149,8 +149,9 @@ mark { background: transparent; color: inherit; }
 .table th, .table td, .facts__table th, .facts__table td { text-align: left; padding: var(--s-3) var(--s-3) var(--s-3) 0; border-bottom: 1px solid var(--rule); vertical-align: top; font-size: var(--fs-2); }
 .table thead th { font-weight: 700; color: var(--ink); border-bottom: 2px solid var(--ink); }
 .table td { font-variant-numeric: tabular-nums; }
+.table td a, .table th a, .facts__table td a { display: inline-block; padding: 3px 0; }   /* 24px touch targets for links in table cells */
 .fn { font-size: 0.7em; line-height: 0; vertical-align: baseline; }
-.fn__link { display: inline-block; min-width: 24px; height: 24px; line-height: 24px; text-align: center; position: relative; top: -0.6em; margin: 0 -6px; color: var(--gold-ink); text-decoration: none; font-weight: 700; vertical-align: baseline; }
+.fn__link { display: inline-block; min-width: 24px; height: 24px; line-height: 24px; text-align: left; padding-left: 1px; position: relative; top: -0.6em; margin: 0 -10px 0 0; color: var(--gold-ink); text-decoration: none; font-weight: 700; vertical-align: baseline; }   /* the 24px hit box extends to the right, never over the link before it */
 .fn__link:hover { text-decoration: underline; }
 .fn__link:target { background: var(--highlight); }
 .tool-ref { color: var(--muted); font-size: var(--fs-2); }
