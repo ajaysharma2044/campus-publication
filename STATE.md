@@ -3,12 +3,12 @@
 Updated: 2026-11-07 19:4x EST. Spec: docs/v2/spec.md.
 
 ## Running now
-- A build workflow (3 builders, 3 verifiers) is writing scripts/v2 (find_demand, write, review, publish, prompts, sessions lib, lint), scripts/v2/render_site.py with config/monetization.yml and the policy pages, and scripts/v2/find_images.py. The v1 run and the Ithaca College crawl were stopped at 19:20 EST when the v2 spec arrived.
+- Pilot (acceptance 1): write.sh is writing 10 approved questions (one per topic plus two) with 4 workers; review.sh is re-checking the exemplar. The v1 run and the Ithaca College crawl were stopped at 19:20 EST when the v2 spec arrived.
 
 ## Counts
 - v1 pages unpublished: 833 (the preview at https://campus-ledger-preview.netlify.app shows a holding page).
 - Corpus: 2,522 crawled pages from 26 hosts in corpus/ (15 MB), exported by scripts/v2/export_corpus.py.
-- v2 queue rows: 0. v2 articles: 0 (docs/v2/exemplar.md drafted: "Cornell transfer housing: how it actually works", 1,400 words, 12 sources; Ajay edits it before the batch run). Reviews: 0.
+- v2 queue: 217 rows from the first demand pass (8 topic sessions, 5 minutes): 25 gap, 137 weak (161 auto-approved), 55 owned. v2 articles: 1 written (the exemplar, "Cornell transfer housing: how it actually works", in review after one fix round); 10 pilot articles being written. Reviews: 1.
 
 ## Last 5 decisions
 1. 2026-11-07: Footnote Daily v2 spec adopted; it replaces bulk-mode, subscription-only, lean mode and continuous-local-run wherever they conflict.
