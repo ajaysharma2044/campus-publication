@@ -50,13 +50,13 @@ sources:
 images: []
 ---
 
-If you transfer to Cornell as a first-year or sophomore, you live on campus for your first academic year, and Cornell assigns you a room rather than guaranteeing a specific one. You apply through the Housing & Dining Portal, and Cornell's advice is to do it [within ten days of receiving your NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process). Confirmations start in mid-June, and Cornell says transfers [may be placed in the West Campus House System, South Campus Residence Halls, North Campus Residence Halls, and Program Houses](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process). A double costs [$6,872 per semester for 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), meal plan not included. Here is the whole process, what you can control, and where transfers have ended up.
+If you transfer to Cornell as a first-year or sophomore, you live on campus for your first academic year, and Cornell assigns you a room rather than guaranteeing a specific one. You apply through the Housing & Dining Portal, and Cornell's advice is to do it [within ten days of receiving your NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process). Confirmations start in mid-June, and Cornell says transfers [may be placed in the West Campus House System, South Campus Residence Halls, North Campus Residence Halls, and Program Houses](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process). A double costs [$6,872 per semester for 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), and a meal plan is required on top. Here is the whole process, what you can control, and where transfers have ended up.
 
 ## Do you have to live on campus?
 
 Almost always, yes. Cornell has a two-year residential requirement for new undergraduates, and the transfer version is one academic year: [all new transfer students who have not already met the requirement elsewhere must live on campus for one academic year](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus). If you start in the spring, the rule covers that spring semester plus the following full academic year. Living on campus comes with a required meal plan.
 
-There are two exemptions on the [transfer housing page](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates): you already lived on campus for two years at your previous school, or you are matriculating as a junior or senior. If either fits, you can look in Collegetown or downtown instead (see our [housing guides](/housing/)). The [residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy) says you request an exemption by logging in to the Housing application and applying for the exemption term while the application is open, and not after you have signed a housing license.
+There are two exemptions on the [transfer housing page](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates): you already lived on campus for two years at your previous school, or you are matriculating as a junior or senior. If either fits, you can look in Collegetown or downtown instead. The [residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy) says you request an exemption by logging in to the Housing application and applying for the exemption term while the application is open, and not after you have signed a housing license.
 
 ## The timeline
 
@@ -72,7 +72,7 @@ rows:
   - label: Move in (new students arrived August 18 and 19 in 2025)
 ```
 
-1. **April 1.** The 2026-27 new student application [opens on April 1](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus). You cannot start it without an activated Cornell NetID, so set that up as soon as your admission materials tell you how.
+1. **April 1.** The 2026-27 new student application [opens on April 1](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus). Newly admitted students [need their activated NetID to apply](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process), so set that up as soon as your admission materials tell you how.
 2. **Within ten days of your NetID.** Cornell's guidance is that transfer students [should apply for housing within ten days of receiving the NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process). It is advice rather than a published cut-off, but it is the only timing Cornell gives, and the clock is personal: it starts when your NetID arrives, not on a calendar date.
 3. **Mid-June onward.** Confirmations go out [beginning in mid-June](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process): either a building and room, or a spot on the guaranteed waitlist with weekly updates while rooms open up.
 4. **Summer.** Once you have an assignment and a signed license, you pick a move-in timeslot in the portal. For fall 2025 the timeslot deadline was [August 1, and new students moved in on August 18 and 19](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-schedule); the 2026 schedule had not been posted when we checked.
@@ -85,13 +85,13 @@ The application page says transfers [may be placed in the West Campus House Syst
 - **South Campus** is Cascadilla Hall, Schuyler House, Sheldon Court, 112 Edgemoor, 104 Mary Ann Wood Drive and 109 McGraw Place, per the [same page](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates).
 - **Program Houses** are themed halls for first-year and upper-level students (the Equity & Engagement Community is upper-level only), from Risley to the Holland International Living Center to Loving House. You join one by [listing it as a preference and acknowledging its mission](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/program-houses) in the application. More than [500 first-year and transfer students live in Program Houses](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process) each year.
 
-What that looks like in practice: in a [2025 College Confidential thread](https://talk.collegeconfidential.com/t/cornell-transfer-co-2027-28-for-fall-2025/3684687) from the fall 2025 transfer cycle, one poster says transfers are placed after current students and most end up in a West Campus house, and another notes that in one recent year many went to Cascadilla and Schuyler on South Campus. Treat those as snapshots, not the rule.
+What that looks like in practice: in a [2025 College Confidential thread](https://talk.collegeconfidential.com/t/cornell-transfer-co-2027-28-for-fall-2025/3684687) from the fall 2025 transfer cycle, the poster Momofthree24 says transfers get placed after current students and thinks many went to Cascadilla and Schuyler on South Campus one year, while HopefulHotelieMom says most transfers get housing in one of the West Campus living communities and disputes the idea that transfers are the last pick. Treat both as snapshots, not the rule.
 
 The history matters too. The Cornell Daily Sun reported in [2016 that some transfers were temporarily housed in North Campus lounges](https://cornellsun.com/2016/10/03/transfer-students-forced-to-live-in-north-campus-lounges/) and in [2018 that transfers did not have a housing guarantee and some learned their assignment in June](https://cornellsun.com/2018/12/04/isolated-vulnerable-and-nervous-transfer-students-express-frustration-over-not-being-able-to-live-on-campus/). The residential requirement [applies to first-year and transfer students who arrived in fall 2022 or later](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates), so today a new transfer is housed, but does not choose.
 
 ## What it costs
 
-Rates are per semester. Every room includes gas, electricity, garbage pickup and internet up to 200 GB a month, per the [2026-27 rate page](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates). The meal plan is separate.
+Rates are per semester and cover the room: gas, electricity, garbage pickup and internet up to 200 GB a month are included, per the [2026-27 rate page](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates). Residents [must also enroll in a meal plan](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus), which the rate page does not price.
 
 ```figure
 kind: cost_table
@@ -128,9 +128,9 @@ New transfers [cannot cancel a housing assignment](https://scl.cornell.edu/resid
 
 Our advice, drawn from the rules above:
 
-- Treating the ten-day guidance as optional. It is the only timing Cornell publishes, and confirmations are rolling.
+- Treating the ten-day guidance as optional. It is the only timing Cornell publishes.
 - Assuming you can cancel if you find a cheaper apartment. New transfers cannot.
-- Skipping the co-ops because they are not in the main application. They have their own process and their own prices.
+- Not asking about the co-ops. Each house runs its own selection and sets its own rate, and whether a first-year transfer qualifies is unclear from Cornell's pages, so ask the house.
 - Arriving late without telling Housing. The no-show rule cancels the room and bills half the semester.
 
 ## FAQ
@@ -139,6 +139,6 @@ Our advice, drawn from the rules above:
 
 **Can I live with a friend who is a current student?** You can name a roommate on the application, but transfer rooms are grouped together where possible and the request is not guaranteed.
 
-**When do I find out my room?** From mid-June on, by email, rolling through the summer.
+**When do I find out my room?** Confirmations [begin in mid-June](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process); students on the guaranteed waitlist get weekly updates while rooms open up.
 
 **Can I switch rooms after I arrive?** The [room change application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/room-change-processes-cornell) is open during select times of the fall and spring semesters, and Room Swap lets two students trade assignments during set windows; new transfers can swap with sophomores, juniors and seniors, not with first-years.
