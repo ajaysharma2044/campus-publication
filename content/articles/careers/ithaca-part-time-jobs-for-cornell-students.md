@@ -1,6 +1,6 @@
 ---
 title: "Off-campus part-time jobs for Cornell students in Ithaca"
-meta: "Cornell students can work off campus through Community Work-Study, downtown hotels and restaurants, or tutoring. Here is where to look and how to get there."
+meta: "Cornell students can work off campus through Community Work-Study, downtown hotels and restaurants, or tutoring. Where to look and how to get there."
 primary_query: "ithaca part time jobs for cornell students"
 topic: careers
 school: cornell-university

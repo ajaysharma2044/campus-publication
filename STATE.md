@@ -8,7 +8,7 @@ Updated: 2026-11-07 23:0x EST. Spec: docs/v2/spec.md. Preview: https://campus-le
 ## Counts
 - Queue: 217 rows from the first demand pass (8 topic sessions, 5 minutes): 25 gap, 137 weak, 55 owned; 151 approved rows still unwritten.
 - Pilot: 10 questions written in 5 minutes (10 sessions, 1.2 to 3.2 min each, 1,000 to 1,650 words). Every first review said fix (2 to 5 mismatches each). After the one allowed revision: 6 passed and are published, 4 rejected on a second round of attribution and paraphrase errors (academics distribution courses, Collegetown landlords, winter biking, care packages); 3 of the 4 still beat the #1 result on the reviewer's test.
-- Published: 6 articles (the exemplar "Cornell transfer housing: how it actually works" plus 6 pilot articles: meal plan vs cooking, Collegetown vs Fall Creek vs downtown, subletting, pharmacies near campus, alumni gym access, part-time jobs in Ithaca). Photos: 3 with Wikimedia Commons credits in content/images/credits.yml.
+- Published: 7 articles (the exemplar "Cornell transfer housing: how it actually works" plus 6 pilot articles: meal plan vs cooking, Collegetown vs Fall Creek vs downtown, subletting, pharmacies near campus, alumni gym access, part-time jobs in Ithaca). Photos: 3 with Wikimedia Commons credits in content/images/credits.yml.
 - Pilot cost: 51 sessions (8 demand, 10 write, 10 fix, 23 review) and 88 session-minutes; 6.7 session-minutes per article on average (4.2 to 11.3); wall time 40 minutes from demand to the last publish. No usage pause.
 - v1: 833 pages unpublished; corpus/ holds 2,522 crawled pages (15 MB).
 
