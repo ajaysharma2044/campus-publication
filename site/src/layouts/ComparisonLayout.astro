@@ -13,6 +13,7 @@ import FAQ from '../components/FAQ.astro';
 import SourcesList from '../components/SourcesList.astro';
 import AdSlot from '../components/AdSlot.astro';
 import Sidebar from '../components/Sidebar.astro';
+import FeedbackBox from '../components/FeedbackBox.astro';
 interface Props { m: SiteModel; page: Page }
 const { m, page } = Astro.props;
 const b = page.body;
@@ -35,6 +36,7 @@ if (b.faq.length) jsonld.push(faqPage(b.faq));
       <ArticleSections intro={b.intro} sections={b.sections} every={900} maxAds={2} />
       <FAQ items={b.faq} />
       <SourcesList sources={page.sources} footnotes={b.footnotes} />
+      <FeedbackBox path={page.url} />
     </article>
     <Sidebar m={m} school={page.school} />
   </div>

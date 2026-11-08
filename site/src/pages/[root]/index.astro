@@ -6,7 +6,7 @@ import { getSite } from '../../lib/model';
 import { renderMarkdown } from '../../lib/markdown';
 import SchoolHubLayout from '../../layouts/SchoolHubLayout.astro';
 import TrustLayout from '../../layouts/TrustLayout.astro';
-export const TRUST: Record<string, string> = { about: 'about', 'editorial-standards': 'editorial-policy', sources: 'sources', corrections: 'corrections', contact: 'contact', privacy: 'privacy', advertise: 'advertise' };
+export const TRUST: Record<string, string> = { about: 'about', 'editorial-standards': 'editorial-policy', sources: 'sources', corrections: 'corrections', contact: 'contact', privacy: 'privacy', advertise: 'advertise', thanks: 'thanks' };
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
   const trust = Object.entries(TRUST).map(([slug, id]) => ({ params: { root: slug }, props: { kind: 'trust', entry: pages.find((p) => p.id === id) } })).filter((p) => p.props.entry);

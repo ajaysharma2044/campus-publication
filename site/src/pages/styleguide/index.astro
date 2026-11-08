@@ -27,6 +27,7 @@ import ProsCons from '../../components/ProsCons.astro';
 import Pagination from '../../components/Pagination.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import AdSlot from '../../components/AdSlot.astro';
+import FeedbackBox from '../../components/FeedbackBox.astro';
 import Logo from '../../components/Logo.astro';
 const m = await getSite();
 const sample = m.samples.find((p) => p.slug === 'pillar')!;
@@ -94,6 +95,7 @@ const sampleShort = renderArticle('Sample short answer: the **first marked phras
       <h3>ProsCons</h3><ProsCons pros={placeSample.data.place!.pros} cons={placeSample.data.place!.cons} />
       <h3>Pagination</h3><Pagination current={2} total={5} hrefFor={(n) => `/styleguide/?page=${n}`} />
       <h3>SearchBox</h3><SearchBox id="sg-q" />
+      <h3>FeedbackBox</h3><p class="sg-note">The reader feedback form at the end of every article: a Netlify form named answered (yes or no plus free text), posting to /thanks/.</p><FeedbackBox path="/styleguide/" />
       <h3>AdSlot</h3><p class="sg-note">Provider is "{site.ads.provider}". Reserved heights: 300x600 sidebar, 728x90 leaderboard, 300x250 in-content, 320x50 anchor. In a dev build the slot shows a dashed outline; in production with provider "none" it is empty reserved space.</p>
       <AdSlot size="728x90" position="leaderboard" /><AdSlot size="300x250" position="inContent" />
     </section>

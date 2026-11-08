@@ -11,5 +11,5 @@ const license = photo.license ? (photo.licenseUrl ? `<a href="${photo.licenseUrl
     {photo.srcsetWebp ? <source type="image/webp" srcset={photo.srcsetWebp} sizes={sizes} /> : null}
     <img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading={priority ? 'eager' : 'lazy'} fetchpriority={priority ? 'high' : undefined} decoding="async" />
   </picture>
-  <figcaption>{photo.caption ? <span>{photo.caption}. </span> : null}{credit ? <span class="photo__credit" set:html={`Photo: ${credit}${license ? `, ${license}` : ''}`} /> : null}</figcaption>
+  <figcaption>{photo.caption ? <span>{photo.caption}{/[.!?…]$/.test(photo.caption.trim()) ? '' : '.'} </span> : null}{credit ? <span class="photo__credit" set:html={`Photo: ${credit}${license ? `, ${license}` : ''}`} /> : null}</figcaption>
 </figure>

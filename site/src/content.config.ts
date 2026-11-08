@@ -1,5 +1,5 @@
 import { defineCollection, z } from 'astro:content';
-import { glob } from 'astro/loaders';
+import { markdownLoader } from './lib/md-loader';
 
 const dateish = z.union([z.string(), z.date()]).transform((v) => (v instanceof Date ? v.toISOString().slice(0, 10) : String(v).slice(0, 10)));
 
@@ -44,18 +44,18 @@ export const articleSchema = z.object({
 }).passthrough();
 
 const articles = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: '../content/articles' }),
+  loader: markdownLoader({ bases: ['../content/articles'] }),
   schema: articleSchema,
 });
 
 // Sample pages: clearly labeled sample content for the templates that have no real page yet (styleguide only, noindex).
 const samples = defineCollection({
-  loader: glob({ pattern: '*.md', base: './src/content/samples' }),
+  loader: markdownLoader({ bases: ['./src/content/samples'] }),
   schema: articleSchema,
 });
 
 const pages = defineCollection({
-  loader: glob({ pattern: ['content/pages/*.md', 'site/src/content/pages-extra/*.md'], base: '..', generateId: ({ entry }) => entry.split('/').pop()!.replace(/\.md$/, '') }),
+  loader: markdownLoader({ bases: ['../content/pages', './src/content/pages-extra'], idFrom: 'basename' }),
   schema: z.object({ title: z.string(), meta: z.string(), updated: dateish.optional(), noindex: z.boolean().optional(), hidden: z.boolean().optional(), eyebrow: z.string().optional() }).passthrough(),
 });
 

@@ -15,6 +15,7 @@ import FAQ from '../components/FAQ.astro';
 import SourcesList from '../components/SourcesList.astro';
 import AdSlot from '../components/AdSlot.astro';
 import Sidebar from '../components/Sidebar.astro';
+import FeedbackBox from '../components/FeedbackBox.astro';
 interface Props { m: SiteModel; page: Page }
 const { m, page } = Astro.props;
 const b = page.body;
@@ -45,6 +46,7 @@ if (b.faq.length) jsonld.push(faqPage(b.faq));
         <p class="cite__html">{embed}</p>
         <p><a href={csvHref} download>Download the CSV</a>. Reuse with a link back to this page.</p>
       </section>
+      <FeedbackBox path={page.url} />
     </article>
     <Sidebar m={m} school={page.school} />
   </div>

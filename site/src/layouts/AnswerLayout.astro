@@ -14,6 +14,7 @@ import SourcesList from '../components/SourcesList.astro';
 import Note from '../components/Note.astro';
 import AdSlot from '../components/AdSlot.astro';
 import Sidebar from '../components/Sidebar.astro';
+import FeedbackBox from '../components/FeedbackBox.astro';
 interface Props { m: SiteModel; page: Page }
 const { m, page } = Astro.props;
 const b = page.body;
@@ -42,6 +43,7 @@ const jsonld = [breadcrumbList(crumbsFor(page)), article({ title: page.title, de
       ) : null}
       <SourcesList sources={page.sources} footnotes={b.footnotes} />
       {pillar ? <Note title="Part of a longer guide"><p>This answer comes from <a href={pillar.url}>{pillar.title}</a>, the complete {page.topic.label.toLowerCase()} guide for {page.school.short}.</p></Note> : null}
+      <FeedbackBox path={page.url} />
     </article>
     <Sidebar m={m} school={page.school} />
   </div>

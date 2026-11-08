@@ -13,7 +13,7 @@ export const PAGE_TYPES: PageType[] = ['pillar', 'answer', 'place', 'data', 'com
 export const TYPE_LABELS: Record<PageType, string> = { pillar: 'Guide', answer: 'Quick answer', place: 'Review', data: 'Data', comparison: 'Comparison', guide: 'Guide' };
 
 export interface Photo {
-  src: string; width: number; height: number; srcsetAvif: string; srcsetWebp: string;
+  file: string; src: string; width: number; height: number; srcsetAvif: string; srcsetWebp: string;
   alt: string; caption: string; credit: string; creditUrl: string; license: string; licenseUrl: string;
 }
 export interface Source { url: string; title: string; accessed?: string }
@@ -51,7 +51,7 @@ function photosFor(slug: string, images: any[]): Photo[] {
     const webp = m.variants.webp ?? [], avif = m.variants.avif ?? [];
     const biggest = webp[webp.length - 1];
     return {
-      src: biggest?.src ?? '', width: biggest?.w ?? m.width, height: Math.round((biggest?.w ?? m.width) * m.height / m.width),
+      file: im.file, src: biggest?.src ?? '', width: biggest?.w ?? m.width, height: Math.round((biggest?.w ?? m.width) * m.height / m.width),
       srcsetWebp: webp.map((v: any) => `${v.src} ${v.w}w`).join(', '), srcsetAvif: avif.map((v: any) => `${v.src} ${v.w}w`).join(', '),
       alt: im.alt ?? '', caption: im.caption ?? '', credit: im.credit ?? '', creditUrl: im.credit_url ?? '', license: im.license ?? '', licenseUrl: im.license_url ?? '',
     } as Photo;
@@ -136,8 +136,8 @@ async function build(): Promise<SiteModel> {
 
   const make = (p: typeof pre[number]): Page => {
     const sources: Source[] = (p.d.sources ?? []).map((s: any) => ({ url: s.url, title: s.title || s.url, accessed: s.accessed }));
-    const body = renderArticle(p.entry.body ?? '', { sources, linkMap, knownUrls });
     const images = photosFor((p.d as any).images_from ?? p.slug, p.d.images ?? []);
+    const body = renderArticle(p.entry.body ?? '', { sources, linkMap, knownUrls, photos: images });
     const page: Page = {
       id: p.entry.id, slug: p.slug, url: p.url, oldUrl: p.oldUrl, title: p.d.title.trim(), dek: p.d.meta.trim(), school: p.school, topic: p.topic,
       pageType: p.pageType, updated: p.d.updated, year: p.d.year ?? Number(String(p.d.updated).slice(0, 4)), words: body.words, sources, images, lead: images[0] ?? null,

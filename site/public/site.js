@@ -24,6 +24,16 @@
     });
   });
 
+  // Reader feedback: with script, a "No, I still need..." button reveals the textarea and its Send button.
+  var fb = document.querySelector('.feedback__form');
+  if (fb) {
+    var noBtn = fb.querySelector('[data-feedback-no]'), need = fb.querySelector('[data-feedback-need]');
+    if (noBtn && need) {
+      need.hidden = true; noBtn.hidden = false;
+      noBtn.addEventListener('click', function () { need.hidden = false; noBtn.setAttribute('aria-expanded', 'true'); noBtn.hidden = true; var t = need.querySelector('textarea'); if (t) t.focus(); });
+    }
+  }
+
   // Search page: Pagefind's static index rendered as GuideList rows with our own pagination.
   var search = document.querySelector('[data-search]');
   if (search) {

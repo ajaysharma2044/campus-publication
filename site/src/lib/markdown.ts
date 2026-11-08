@@ -17,8 +17,10 @@ export interface Block { html: string; tag: string; words: number; id?: string; 
 export interface Section { heading?: Heading; blocks: Block[]; words: number }
 export interface FaqItem { q: string; a: string; text: string }
 export interface Link { title: string; url: string }
+export interface BodyPhoto { file: string; src: string; width: number; height: number; srcsetAvif: string; srcsetWebp: string; alt: string; caption: string; credit: string; creditUrl: string; license: string; licenseUrl: string }
 export interface RenderContext {
   sources?: { url: string }[];
+  photos?: BodyPhoto[];              // the article's photos; photos[0] is the lead and is never repeated in the body
   linkMap?: Map<string, string>;     // old internal URL -> new URL
   knownUrls?: Set<string>;           // new URLs that exist on the site
 }
@@ -31,6 +33,13 @@ export interface RenderedArticle {
   related: Link[];
   words: number;
   footnotes: Map<number, string>;   // source index (1-based) -> id of its first in-text marker
+}
+
+export function photoFigureHtml(p: BodyPhoto, sizes = '(min-width: 980px) 720px, 100vw'): string {
+  const credit = p.credit ? (p.creditUrl ? `<a href="${esc(p.creditUrl)}" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit)) : '';
+  const license = p.license ? (p.licenseUrl ? `<a href="${esc(p.licenseUrl)}" rel="noopener license">${esc(p.license)}</a>` : esc(p.license)) : '';
+  const cap = `${p.caption ? `<span>${esc(p.caption)}${/[.!?…]$/.test(p.caption.trim()) ? '' : '.'} </span>` : ''}${credit ? `<span class="photo__credit">Photo: ${credit}${license ? `, ${license}` : ''}</span>` : ''}`;
+  return `<figure class="photo"><picture>${p.srcsetAvif ? `<source type="image/avif" srcset="${p.srcsetAvif}" sizes="${sizes}">` : ''}<img src="${p.src}" srcset="${p.srcsetWebp}" sizes="${sizes}" alt="${esc(p.alt)}" width="${p.width}" height="${p.height}" loading="lazy" decoding="async"></picture>${cap ? `<figcaption>${cap}</figcaption>` : ''}</figure>`;
 }
 
 const esc = (s: string) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -106,11 +115,21 @@ function remarkFences() {
 }
 
 /* ---------- rehype: links, footnotes, tables ---------- */
-function rehypeLinks(ctx: RenderContext, footnotes: Map<number, string>, counters: { ref: number }) {
+function rehypeLinks(ctx: RenderContext, footnotes: Map<number, string>, counters: { ref: number; used: Set<number> }) {
   const sourceIndex = new Map<string, number>();
   (ctx.sources ?? []).forEach((s, i) => { if (s?.url) sourceIndex.set(normalizeUrl(s.url), i + 1); });
   return (tree: any) => {
     visit(tree, 'element', (node: any, index: number | undefined, parent: any) => {
+      if (node.tagName === 'p' && parent && index !== undefined && ctx.photos?.length) {
+        const kids = node.children.filter((c: any) => !(c.type === 'text' && !c.value.trim()));
+        if (kids.length === 1 && kids[0].type === 'element' && kids[0].tagName === 'img') {
+          const name = String(kids[0].properties?.src ?? '').split('/').pop();
+          const i = ctx.photos.findIndex((p) => p.file === name);
+          if (i === 0) { parent.children.splice(index, 1); return index; }          // the lead photo is already under the title
+          if (i > 0) { counters.used.add(i); parent.children[index] = { type: 'raw', value: photoFigureHtml(ctx.photos[i]) }; return; }
+          parent.children.splice(index, 1); return index;                           // a file the build does not have: dropped, never a broken image
+        }
+      }
       if (node.tagName === 'table' && parent && index !== undefined && parent.tagName !== 'div' && parent.tagName !== 'figure') {
         const existing = ([] as string[]).concat((node.properties?.className as string[]) ?? []);
         node.properties = { ...(node.properties ?? {}), className: [...existing, 'table'] };
@@ -152,11 +171,12 @@ function collectHeadings(headings: Heading[]) {
 }
 
 /* ---------- public API ---------- */
-export function renderMarkdown(md: string, ctx: RenderContext = {}): { html: string; headings: Heading[]; blocks: Block[]; footnotes: Map<number, string> } {
+export function renderMarkdown(md: string, ctx: RenderContext = {}): { html: string; headings: Heading[]; blocks: Block[]; footnotes: Map<number, string>; usedPhotos: Set<number> } {
   const headings: Heading[] = [];
   const footnotes = new Map<number, string>();
+  const counters = { ref: 0, used: new Set<number>() };
   const processor = unified().use(remarkParse).use(remarkGfm).use(remarkFences).use(remarkRehype, { allowDangerousHtml: true })
-    .use(rehypeRaw).use(rehypeSlug).use(rehypeLinks, ctx, footnotes, { ref: 0 }).use(collectHeadings, headings);
+    .use(rehypeRaw).use(rehypeSlug).use(rehypeLinks, ctx, footnotes, counters).use(collectHeadings, headings);
   const tree: any = processor.runSync(processor.parse(md));
   const blocks: Block[] = [];
   for (const child of tree.children) {
@@ -166,7 +186,7 @@ export function renderMarkdown(md: string, ctx: RenderContext = {}): { html: str
     const tag = child.type === 'element' ? child.tagName : (child.type === 'raw' ? (html.match(/^<([a-z0-9]+)/i)?.[1] ?? 'raw') : child.type);
     blocks.push({ html, tag, words: countWords(html), id: child.properties?.id ? String(child.properties.id) : undefined, text: child.type === 'element' ? hastText(child) : undefined });
   }
-  return { html: blocks.map((b) => b.html).join('\n'), headings, blocks, footnotes };
+  return { html: blocks.map((b) => b.html).join('\n'), headings, blocks, footnotes, usedPhotos: counters.used };
 }
 
 const FAQ_HEAD = /^(faqs?|frequently asked questions|common questions|related questions|questions people ask)$/i;
@@ -174,7 +194,7 @@ const RELATED_HEAD = /^(related guides?|related articles?|related reading|read n
 const TOC_HEAD = /^(what(’|'|&#x27;)?s in this guide|in this guide|contents|table of contents|on this page)$/i;
 
 export function renderArticle(md: string, ctx: RenderContext = {}): RenderedArticle {
-  const { blocks, headings, footnotes } = renderMarkdown(md, ctx);
+  const { blocks, headings, footnotes, usedPhotos } = renderMarkdown(md, ctx);
   let shortAnswer = '';
   const rest = [...blocks];
   if (rest[0]?.tag === 'p') shortAnswer = rest.shift()!.html;
@@ -212,6 +232,9 @@ export function renderArticle(md: string, ctx: RenderContext = {}): RenderedArti
     if (TOC_HEAD.test(t)) continue;
     kept.push(s);
   }
+  const spare = (ctx.photos ?? []).map((p, i) => ({ p, i })).filter(({ i }) => i > 0 && !usedPhotos.has(i)).map(({ p }) => p);
+  for (let k = 1; k < kept.length && spare.length; k++) kept[k].blocks.unshift({ html: photoFigureHtml(spare.shift()!), tag: 'figure', words: 0 });
+  if (spare.length && kept.length) kept[kept.length - 1].blocks.push(...spare.map((p) => ({ html: photoFigureHtml(p), tag: 'figure', words: 0 })));
   const words = countWords(shortAnswer) + intro.reduce((n, b) => n + b.words, 0) + kept.reduce((n, s) => n + s.words, 0);
   const keptHeadings = headings.filter((h) => h.depth === 2 ? kept.some((s) => s.heading?.id === h.id) : true);
   return { shortAnswer, intro, sections: kept, headings: keptHeadings, faq, related, words, footnotes };
