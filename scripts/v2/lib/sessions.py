@@ -204,6 +204,8 @@ def run_jobs(jobs: list[dict], *, workers: int, label: str, model: str, max_turn
                 f"exit {r['code']} turns {r['turns']} duration {r['duration_s']}s cost {r['cost_usd']}\n\n{r['text']}\n\n--- stderr ---\n{r['err'][-3000:]}\n")
             if r["usage_limit"]:
                 pause.trigger(r["text"] + " " + r["err"])
+            elif r["code"] == 124:   # a session that hits the timeout is being throttled (v1 lesson): pause and probe before anything new starts
+                pause.trigger(f"session timed out after {timeout_s}s (throttling); probing before new sessions")
                 if job["sessions"] < MAX_SESSIONS:
                     with lock:
                         q.append(job)
