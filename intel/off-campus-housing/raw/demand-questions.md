@@ -1,4 +1,4 @@
-# Demand rows for Off-campus housing in Ithaca for Cornell students (from queue/queue.csv, 2026-11-07)
+# Demand rows for Off-campus housing in Ithaca for Cornell students (from queue/queue.csv, 2026-11-08)
 
 | id | question | primary query | verdict | top results |
 |---|---|---|---|---|
