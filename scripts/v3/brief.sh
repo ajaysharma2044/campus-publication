@@ -8,6 +8,7 @@
 # Topics: scripts/v3/topics.yml. Stop cleanly: scripts/v2/stop.sh. Log: build/runs/v2/brief-<ts>.log
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/../.." && pwd)"; cd "$ROOT"
+if command -v caffeinate >/dev/null 2>&1; then caffeinate -i -w $$ & fi   # no idle sleep while this runs (a closed lid still sleeps)
 set -a; [ -f worker/.env ] && . worker/.env; set +a
 export PATH="$HOME/.local/bin:$PATH"
 exec worker/.venv/bin/python scripts/v3/brief.py "$@"
