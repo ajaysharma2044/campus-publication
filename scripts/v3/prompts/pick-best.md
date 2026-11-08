@@ -2,10 +2,11 @@ You are the reader. Today is {{today}}. Two sessions wrote two drafts of the sam
 
 - Working title: {{title}}
 - The question the page answers: {{question}}
-- Readers (from the reader map {{readers_path}}): {{readers}}; read first as: {{primary_reader}}
+- Readers (reader keys; Grep "Key: <key>" in the reader map {{readers_path}} for each one's section): {{readers}}; read first as: {{primary_reader}}
 - Draft A (decision-first): {{draft_a}}
 - Draft B (timeline-first): {{draft_b}}
 - The brief both drafts drew on: {{brief_path}} (Grep it only to settle a disagreement between the drafts)
+- Image candidates the drafts picked from (a JSON list; may be missing or empty): {{candidates_path}}
 - Save the final article to exactly this path with the Write tool: {{article_path}}
 
 ## Work in this order
@@ -18,7 +19,7 @@ You are the reader. Today is {{today}}. Two sessions wrote two drafts of the sam
    - Keep the winner's frontmatter otherwise; the title and meta may come from either draft (title 60 characters or fewer; meta 120 to 155).
    - The page shape holds: the glance box (4 to 6 bullets) first, the answer paragraph (3 sentences or fewer), the reader blocks (at least {{reader_floor}}, the first before the first `##` heading), the detail with at least one table, `## Common mistakes`, `## FAQ` (at least 4 bold questions), `## Related guides` (the pillar {{pillar_path}} and at least 2 siblings in /{{topic_dir}}/). A pillar keeps its `## What's in this guide` list and updates it to the final sections.
 5. One editing pass over the merged page, docs/v2/style.md Part 6 passes 2, 4 and 6: cut what the merge duplicated; sweep banned words (navigating, it's important to note, delve, vibrant, journey, seamless, robust, leverage, unlock, dive into, in today's), research narration ("we found", "we checked", "our research", "sources say", "it is worth noting", "as of our review", "we looked at") and em dashes (U+2014); read aloud and rewrite the sentences you stumble on. Average sentence under 18 words.
-6. Check the floors: at least {{word_floor}} words in the body, at least {{source_floor}} sources, at least {{reader_floor}} reader blocks, at least one table, the FAQ's 4 questions, the pillar and sibling links, a lead photo entry (images[0]) when either draft had one. Fix, then save the final page with the Write tool to the path above.
+6. Check the floors: at least {{word_floor}} words in the body, at least {{source_floor}} sources, at least {{reader_floor}} reader blocks, at least one table, the FAQ's 4 questions, the pillar and sibling links, and a lead photo entry (images[0]): keep the winner's, else the loser's; when neither draft has one and the candidates file lists a photo of the subject, its neighborhood or the campus, add it as images[0] in the entry format the drafts use (file "1.webp", alt, caption, credit, credit_url = the candidate's page_url exactly, license and license_url exactly as the file gives them). Fix, then save the final page with the Write tool to the path above.
 7. Reply with three lines:
    PICKED A|B: <one sentence, as the reader, why>
    MERGED: <what you took from the other draft>

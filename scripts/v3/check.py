@@ -4,24 +4,25 @@ topic brief (brief facts were checked once when the brief was built), plus our o
 dates and attributions in place and logs content/checks/<slug>.json (contract 5).
 
     scripts/v3/check.sh <topic> [--workers 8] [--model sonnet] [--limit N] [--ids a,b] [--recheck] [--max-turns 50] [--timeout 1800]
-                        [--intel-dir DIR] [--queue FILE] [--articles-dir DIR] [--content-dir DIR]
+                        [--intel-dir DIR] [--queue FILE] [--articles-dir DIR] [--content-dir DIR] [--runs-dir DIR]
 
-Takes the topic's rows in status written whose page exists and has no passing check yet (--recheck: every written page; --ids: these rows).
+Takes the topic's plan rows (angle kind=...) in status written whose page exists and has no passing check yet (--recheck: every written
+page; --ids: these rows). A v2 row (no plan angle) is not this step's: scripts/v2/review.sh reviews it, and the log names it once.
 The row is reviewing while the session runs. Verdict pass unless the core answer is wrong or a fact cannot be sourced after one search
 (reject); fix only when the session could not apply its own fix. Afterwards:
   pass   -> written, and content/reviews/<slug>.json gets the v2 review shape (verdict, fact_check, beats_top, fixes) with verdict pass, so
-            scripts/v2/publish.sh lints and publishes it unchanged. A tool or dataset row (no article for publish.sh to lint) goes to
-            published here; the renderer takes it from content/tools/ and content/datasets/.
+            scripts/v2/publish.sh lints and publishes it unchanged. A tool, dataset or start-here row (no article for publish.sh to lint)
+            goes to published here; the renderer takes it from content/tools/, content/datasets/ and content/start/.
   fix    -> fix (write.sh --fix runs the one revision, then this step checks again; a second fix verdict rejects)
   reject -> rejected (a rejected rewrite gets its old page and queue row back)
 A session that leaves no valid check file puts the row back to written for the next run. Logs: build/runs/v2/check-<ts>.log.
-Stop cleanly: scripts/v2/stop.sh. CLAUDE_BIN points the sessions at a stub for tests.
+Stop cleanly: scripts/v2/stop.sh. The sessions never inherit worker/.env (scripts/v3/write.py scrub_env). CLAUDE_BIN points the sessions
+at a stub for tests; --runs-dir moves logs, prompts and the rewrite backups for a test run.
 """
 from __future__ import annotations
 
 import argparse
 import json
-import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -32,8 +33,8 @@ sys.path.insert(0, str(REPO / "scripts" / "v3"))
 from lib import queue as q, sessions  # noqa: E402
 import write as w  # noqa: E402  (the shared helpers: topics, angles, paths, rewrite restore; it also turns Edit on for the sessions)
 
-CHECK_TOOLS = "Read,Grep,Glob,WebFetch,WebSearch,Write(content/checks/**),Edit(content/**),Edit(intel/**)"
 STATUSES = ("ok", "fixed", "unverifiable")
+PUBLISH_HERE = ("tool", "dataset", "start_here")   # no article for publish.sh to lint; the renderer filters them by their published row
 TODAY = date.today().isoformat()
 
 
@@ -96,29 +97,41 @@ def main(argv: list[str]) -> int:
     ap.add_argument("--articles-dir")
     ap.add_argument("--content-dir")
     ap.add_argument("--state-file")
+    ap.add_argument("--runs-dir", help="logs, prompts and rewrite backups go here instead of build/runs/v2 (tests)")
     a = ap.parse_args(argv)
     topic = w.resolve_topic(a.topic)
     tdir = topic["dir"]
     P = w.Paths(a, topic)
     log, log_path = sessions.open_log("check")
     sessions.clear_stop(log)
+    scrubbed = w.scrub_env()
+    if scrubbed:
+        log(f"{scrubbed} worker/.env variable(s) removed from the sessions' environment")
     P.checks.mkdir(parents=True, exist_ok=True)
     P.reviews.mkdir(parents=True, exist_ok=True)
     template = (w.PROMPTS / "check.md").read_text(encoding="utf-8")
+    check_tools = ",".join(["Read", "Grep", "Glob", "WebFetch", "WebSearch", w.rule("Write", P.checks), w.rule("Edit", P.articles), w.rule("Edit", P.tools),
+                            w.rule("Edit", P.datasets), w.rule("Edit", P.start), w.rule("Edit", P.topic_intel)])
     ids = {i.strip() for i in a.ids.split(",") if i.strip()}
 
-    jobs = []
+    jobs, v2_rows = [], []
     for r in q.by_status("written", path=P.queue):
         if r["topic"] != tdir or (ids and r["id"] not in ids):
             continue
         ang = w.parse_angle(r["angle"])
-        kind = ang.get("kind") or "v2"
+        kind = ang.get("kind") or ""
+        if kind not in w.HANDLED:
+            v2_rows.append(r["id"])
+            continue
         if kind == "tool":
             page = P.tools / ang["slug"] / "tool.md"
             files = [page, P.tools / ang["slug"] / "tool.html"]
         elif kind == "dataset":
             page = P.datasets / f"{ang['slug']}.md"
             files = [page, P.datasets / f"{ang['slug']}.csv"]
+        elif kind == "start_here":
+            page = P.start / f"{ang['slug']}.md"
+            files = [page]
         else:
             page = w.find_article(r["id"], P.articles)
             if not page and ang.get("slug"):
@@ -153,9 +166,19 @@ def main(argv: list[str]) -> int:
                      "row": r, "chk": chk, "slug": slug, "kind": kind, "round": rnd, "page": page})
         if a.limit and len(jobs) >= a.limit:
             break
+    if v2_rows:
+        log(f"{len(v2_rows)} written row(s) of {tdir} without a plan angle are v2 drafts, not this step's (scripts/v2/review.sh reviews them, "
+            f"or requeue them as v3 rewrites once published): {', '.join(v2_rows[:12])}{' ...' if len(v2_rows) > 12 else ''}")
     if not jobs:
-        log(f"nothing to do: no written page of {tdir} without a passing check")
+        log(f"nothing to do: no written plan page of {tdir} without a passing check")
         return 0
+
+    def undo_rewrite(job, rid):
+        side_path = w.rewrite_sidecar(P.backups, tdir, job["slug"])
+        if job["kind"] in w.ARTICLE_KINDS and side_path.exists():
+            side = json.loads(side_path.read_text(encoding="utf-8"))
+            if side.get("new_id") == rid and not side.get("restored"):
+                w.restore_rewrite(side, P.queue, log)
 
     def on_done(job, ok, r, problems):
         rid, slug = job["id"], job["slug"]
@@ -172,9 +195,9 @@ def main(argv: list[str]) -> int:
         (P.reviews / f"{slug}.json").write_text(json.dumps(review_from_check(d, slug, rid, job["row"]["primary_query"]), indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
         if verdict == "pass":
             q.set_status(rid, "written", P.queue)
-            if job["kind"] in ("tool", "dataset"):
+            if job["kind"] in PUBLISH_HERE:
                 q.set_status(rid, "published", P.queue)
-                log(f"[{rid}] PASS {job['kind']} {slug} ({n} facts, {fixed} fixed, {unv} unverifiable, {briefs} brief updates) -> published (no article lint applies; the renderer takes content/{job['kind']}s/)")
+                log(f"[{rid}] PASS {job['kind']} {slug} ({n} facts, {fixed} fixed, {unv} unverifiable, {briefs} brief updates) -> published (no article lint applies; the renderer takes it from {w.rel(job['page'].parent)}/)")
             else:
                 log(f"[{rid}] PASS ({n} facts, {fixed} fixed in place, {unv} unverifiable, {briefs} brief updates); publish.sh will take it")
         elif verdict == "fix" and job["round"] >= 2:
@@ -190,15 +213,8 @@ def main(argv: list[str]) -> int:
             log(f"[{rid}] REJECT: core answer {why!r}; {n} facts, {unv} unverifiable")
             undo_rewrite(job, rid)
 
-    def undo_rewrite(job, rid):
-        side_path = w.rewrite_sidecar(P.backups, tdir, job["slug"])
-        if job["kind"] == "rewrite" and side_path.exists():
-            side = json.loads(side_path.read_text(encoding="utf-8"))
-            if side.get("new_id") == rid and not side.get("restored"):
-                w.restore_rewrite(side, P.queue, log)
-
     log(f"{topic['title']} ({tdir}): {len(jobs)} check session(s) with {a.model}, {a.workers} workers; brief {w.rel(P.brief)}; log {w.rel(log_path)}")
-    st = sessions.run_jobs(jobs, workers=a.workers, label="check", model=a.model, max_turns=a.max_turns, allowed_tools=CHECK_TOOLS, timeout_s=a.timeout, log=log, on_done=on_done)
+    st = sessions.run_jobs(jobs, workers=a.workers, label="check", model=a.model, max_turns=a.max_turns, allowed_tools=check_tools, timeout_s=a.timeout, log=log, on_done=on_done)
     counts: dict[str, int] = {}
     for r in q.read(P.queue):
         if r["topic"] == tdir:

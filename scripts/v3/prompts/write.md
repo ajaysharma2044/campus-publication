@@ -5,7 +5,7 @@ You are writing one page for Footnote Daily, a research-first publication for st
 - The question the page answers: {{question}}
 - Primary query (what the reader types): {{primary_query}}
 - Page type: {{type}} (how-to: a process; decision: a choice with a recommendation by situation; scenario: one reader's situation end to end; comparison: side by side with prices; place: one building, street or route; checklist: a timeline or list to work through; roundup: ranked options with the criteria stated)
-- Readers it serves (names from the reader map): {{readers}}
+- Readers it serves (reader keys; each matches a `Key:` line under a `## Reader:` heading in the reader map): {{readers}}
 - Brief sections to read first: {{brief_sections}}
 - Plan notes: {{notes}}
 - Topic: {{topic_title}}; site section /{{topic_dir}}/; the topic's pillar page: {{pillar_path}}
@@ -20,7 +20,7 @@ You are writing one page for Footnote Daily, a research-first publication for st
 1. docs/v2/style.md, all of it (Part 6 is the editing routine you will run on your own draft; Part 7 is the swap test), then docs/v2/exemplar.md, the quality bar.
 2. The best pages closest to this one, for shape and tone, not for facts:
 {{best_pages}}
-3. The reader map {{readers_path}}: the "## Reader:" sections for the readers named above, then a skim of the others (available: {{reader_names}}). Three of them test-read your page later.
+3. The reader map {{readers_path}}: Grep "Key: <key>" for each reader key named above and Read that "## Reader:" section (situation, questions in their words, decisions with numbers, timeline, mistakes and cost, brief facts that matter), then skim the others (available: {{reader_names}}). Three of them test-read your page later.
 4. The brief {{brief_path}}: Grep it for the section headings ("## 1.", "## 2." and so on) to get line numbers, then Read the sections named above in full. Always also read section 1 (the topic in one page) and section 8 (contradictions and unknowns), and more sections when the page needs them. Read it in sections, never the whole file in one call; it is long.
 5. The plan {{plan_path}}: this page's row and its siblings' rows, so this page answers its own question and leaves theirs to them.
 
@@ -74,7 +74,7 @@ cost_table rows are {label, value}; timeline rows are {label, date}; steps rows 
 
 Tools: embed a built tool where it serves the reader with one line, the fence opened and closed on the same line, for example ```tool rent-commute-calculator``` ; list each embedded slug under `tools:`. Tools you may embed: {{tools_available}}
 
-Images: Read the candidates file if it exists: a JSON list of licensed photos, each {source, title, page_url, file_url, thumb_url, author, license, license_url, width, height}. Pick 1 to 4 that show what the page is about (the street, the building, the bus, the office); a photo that merely decorates is worse than none. images[0] is the lead photo, which the renderer places under the title; any further photo goes in the body on its own line as ![alt](2.webp), ![alt](3.webp), in the order of the entries. For each entry: file "1.webp", "2.webp", ... in order; alt text that describes the picture; a caption that adds information the picture alone does not; credit "<author> / <source>"; credit_url = the candidate's page_url exactly as the file gives it (the pipeline matches on it and downloads the file after your session); license and license_url exactly as the file gives them (a public-domain file may have an empty license_url; keep the key). Never guess a license. With no candidates or none that fit: `images: []`, say so in your final line, and give the page its visuals with figures and tables.
+Images: Read the candidates file if it exists: a JSON list of licensed photos, each {source, title, page_url, file_url, thumb_url, author, license, license_url, width, height}. The publish lint requires a lead photo (images[0], which the renderer places under the title), so pick one: the photo that shows what the page is about (the street, the building, the bus, the office), else the neighborhood, the campus or the scene the finder fell back to, with a caption that says what it shows and how it relates. Add up to 3 more only where they show something the text discusses; a photo that merely decorates is worse than none. Further photos go in the body on their own line as ![alt](2.webp), ![alt](3.webp), in the order of the entries. For each entry: file "1.webp", "2.webp", ... in order; alt text that describes the picture; a caption that adds information the picture alone does not; credit "<author> / <source>"; credit_url = the candidate's page_url exactly as the file gives it (the pipeline matches on it and downloads the file after your session); license and license_url exactly as the file gives them (a public-domain file may have an empty license_url; keep the key). Never guess a license. Only when the candidates file is missing or empty: `images: []`, say so in your final line, and give the page its visuals with figures and tables (the image step then looks again before the page publishes).
 
 ## Floors the publish lint enforces (a page under any of them does not go live)
 - Words: at least {{word_floor}} in the body (frontmatter excluded). A floor, not a target: the brief has enough real detail to pass it without padding, and padding is cut later anyway.
@@ -86,7 +86,9 @@ Images: Read the candidates file if it exists: a JSON list of licensed photos, e
 
 Existing pages in this topic (path | title), link freely:
 {{existing_articles}}
-Planned siblings not written yet (path | title), link where the reader needs them (the renderer shows the text without a link until the page is live):
+Pages being written in this same batch (path | title); they will exist when this page publishes, so link them freely too:
+{{batch_articles}}
+Planned siblings not started yet (path | title): the publish step removes a link to a page that does not exist yet (the text stays), so the two required sibling links and the pillar link come from the two lists above; link a planned page only where the reader needs the pointer anyway:
 {{planned_articles}}
 
 ## Work in this order
@@ -96,6 +98,6 @@ Planned siblings not written yet (path | title), link where the reader needs the
 4. Run the seven editing passes of docs/v2/style.md Part 6 on your own draft, in order, editing the file with Edit after each: structure (answer first, glance box whole, reader blocks before the long sections); cut 20 to 30 percent (restatements, announcements of what comes next, hedge stacks; keep every fact, number, date and link); line edit (one idea per sentence, average under 18 words, verbs not nouns, the specific word); slop sweep (banned words, research narration, em dashes); specificity (every "many", "often", "recently", "some students" becomes the brief's count, frequency or date); read-aloud (rewrite every sentence you stumble on); visual (a table, figure or tool for every long run of numbers; captions that add information).
 5. Reader test: play three readers from the reader map, the page's own readers first, one at a time. As each, read the page from the top and list the questions it leaves open, the places it confused you, and what read as filler. Fix all three lists once, with Edit. Answer an open question with the brief's fact, never with filler; a question the brief cannot answer gets one "Not confirmed:" line or nothing.
 6. Final check against the floors above: count the words, sources, reader blocks, tables and FAQ questions; measure the title and meta; search the text for em dashes, banned words and narration phrases; confirm every internal link is in the lists. Fix, and make sure the saved file is the final one.
-7. Reply with one line: DONE <words> words, <sources> sources, <reader blocks> reader blocks, <tables> tables, <images> images, <brief edits> brief edits.
+7. Reply with four lines, nothing else: one line per reader you played ("Reader <key>: <the open questions and confusions it found, and what you changed>", one sentence each; these notes stay in this session's log for the learn step Ajay runs), then DONE <words> words, <sources> sources, <reader blocks> reader blocks, <tables> tables, <images> images, <brief edits> brief edits.
 
 Read pages the way a person would: no logins, no bulk scraping, respect robots and site terms. Write only the page (and the brief, for a filled hole); nothing else anywhere.

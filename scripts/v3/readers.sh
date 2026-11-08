@@ -21,7 +21,7 @@ sys.path.insert(0, "scripts/v3")
 sys.path.insert(0, "scripts/v2")
 import brief as B
 import plan as P
-from lib import sessions
+from lib import queue as q, sessions
 
 ap = argparse.ArgumentParser(prog="readers.sh", add_help=False)
 ap.add_argument("topic")
@@ -41,9 +41,34 @@ sessions.clear_stop(log)
 today = date.today().isoformat()
 
 
+def repair_keys():
+    """A reader section without a Key: line gets one from its name (a mechanical repair, like publish.sh unlinking a dead link): the
+    plan's readers column and the writers' Grep "Key: <key>" need the line, and a session's formatting of it varies."""
+    text = out.read_text(encoding="utf-8")
+    heads = list(P.READER_RE.finditer(text))
+    taken = {r["key"] for r in P.reader_map(text) if r["has_key"]}
+    added, pieces, pos = [], [], 0
+    for i, m in enumerate(heads):
+        body = text[m.end(): heads[i + 1].start() if i + 1 < len(heads) else len(text)]
+        if P.KEY_RE.search(body):
+            continue
+        key, k = q.slugify(m.group(1), 40), 2
+        while key in taken:
+            key, k = f"{q.slugify(m.group(1), 40)}-{k}", k + 1
+        taken.add(key)
+        pieces.append(text[pos: m.end()] + f"\nKey: {key}")
+        pos = m.end()
+        added.append(key)
+    if added:
+        out.write_text("".join(pieces) + text[pos:], encoding="utf-8")
+        log(f"  added a Key line to {len(added)} reader section(s) that had none: {', '.join(added)}")
+    return added
+
+
 def check():
     if not out.exists():
         return [f"missing {B.rel(out)}"]
+    repair_keys()
     readers = P.reader_map(out.read_text(encoding="utf-8"))
     problems = [f"{r['name']}: missing {', '.join(r['missing'])}" for r in readers if r["missing"]]
     if len(readers) < a.min_readers:

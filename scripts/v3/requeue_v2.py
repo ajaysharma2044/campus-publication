@@ -8,7 +8,8 @@ gets a plan row (contract 2) with kind=rewrite, so scripts/v3/write.sh rewrites 
 The new row: id from queue.py next_id; question = the article's title; primary_query = the article's; topic = the dir;
 demand_evidence = intel/<topic>/brief.md; verdict plan; angle "kind=rewrite; slug=<slug>; readers=; type=<type>; replaces=<old id>";
 status proposed (--approve: approved at once, as plan.sh --approve would). An article that already has a rewrite row is skipped unless
---again (then a rejected rewrite may be queued once more). Prints what it queued.
+--again (then a rejected rewrite may be queued once more). Prints what it queued. A rewrite publishes only with the topic pillar to link
+(the lint checks the pillar link), so write.sh holds rewrite rows until plan.sh has queued the pillar; the script says so when none exists.
 """
 from __future__ import annotations
 
@@ -34,13 +35,15 @@ def main(argv: list[str]) -> int:
     ap.add_argument("--intel-dir")
     ap.add_argument("--content-dir")
     ap.add_argument("--state-file")
+    ap.add_argument("--runs-dir")
     a = ap.parse_args(argv)
-    topic = w.resolve_topic(a.topic)
+    topic = w.resolve_topic(a.topic)   # also adds the topic dirs of topics.yml to queue.py's list, so append() accepts dining, transfer, health
     tdir = topic["dir"]
     P = w.Paths(a, topic)
     rows = q.read(P.queue)
     status = {r["id"]: r for r in rows}
     rewrites = {}   # slug -> status of the existing rewrite row(s)
+    pillar = any(w.parse_angle(r["angle"]).get("kind") == "pillar" and r["status"] != "rejected" for r in rows if r["topic"] == tdir)
     for r in rows:
         ang = w.parse_angle(r["angle"])
         if r["topic"] == tdir and ang.get("kind") == "rewrite" and ang.get("slug"):
@@ -72,6 +75,10 @@ def main(argv: list[str]) -> int:
     if not new:
         print(f"nothing to queue: no published v2 article of {tdir} without a rewrite row")
         return 0
+    if not P.brief.exists():
+        print(f"note: {brief_rel} does not exist yet; the rewrites wait for brief.sh, readers.sh and plan.sh {topic['slug']}")
+    if not pillar and not any(q.frontmatter(p).get("kind") == "pillar" for p in (P.articles / tdir).glob("*.md")):
+        print(f"note: {tdir} has no pillar row or page yet; write.sh holds rewrite rows until plan.sh {topic['slug']} queues the pillar (their pillar link must resolve at publish)")
     if a.dry_run:
         for r in new:
             print(f"+ (dry run) {r['angle']} | {r['question'][:70]}")

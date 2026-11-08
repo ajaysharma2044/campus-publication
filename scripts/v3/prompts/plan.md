@@ -17,7 +17,8 @@ WHAT TO PLAN
 - Tools, kind tool: calculators, quizzes and checklists built from the brief's numbers, each showing the date its numbers are from. For housing the spec names a rent + commute calculator, a "when should I sign a lease" timeline by start term and a move-in checklist by situation; for dining and money a meal plan calculator; for getting around a "do I need a car" quiz; otherwise whatever this brief's numbers can feed. Notes name the brief sections that hold the numbers, the inputs and the outputs.
 - Datasets, kind dataset: at least one original table from brief section 10 (our own analysis) that other sites and AI answers will cite, titled with its date and sample size ("Ithaca rent by neighborhood, fall 2026, from N listings").
 - Start-here paths, kind start_here: one per reader key that gets a reader guide, or whose path through the guides differs; slug = the reader key; notes list the guides in reading order.
-- Rewrites, kind rewrite: an existing article from the list above whose question this topic owns; slug = its existing slug, exactly; notes say what the brief adds. It is rewritten in place.
+- Rewrites, kind rewrite: an existing article under /{{topic_dir}}/ (the first group of the list above) whose question this topic owns; slug = its existing slug, exactly; notes say what the brief adds. It is rewritten in place. An article under another topic's dir is rewritten by that topic, never here: do not list it, and do not plan a new page that answers its question.
+- Slugs are unique across the whole site (images are stored by slug): a new slug may not match any slug in the list above, in any dir.
 
 FORMAT (exact; a script parses the table)
 # Content and data plan: {{topic_title}}
