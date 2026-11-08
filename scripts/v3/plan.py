@@ -145,7 +145,17 @@ def existing_files(topic_dir: str, content: Path, articles: Path) -> dict:
             "elsewhere": {p.stem: p.parent.name for p in articles.glob("*/*.md") if p.parent.name != topic_dir},
             "tool": {p.parent.name for p in (content / "tools").glob("*/tool.md")},
             "dataset": {p.stem for p in (content / "datasets").glob("*.md")},
-            "start_here": {p.stem for p in (content / "start").glob("*.md")}}
+            "start_here": {p.stem: start_topics(p) for p in (content / "start").glob("*.md")}}
+
+
+def start_topics(page: Path) -> list[str]:
+    """The topics a start page already has a path for (its `topics:` list). A start page is one per reader, shared by the topics
+    (docs/v3/spec.md §4: start-here paths are additions to /start/<reader>/ pages), so another topic adds its path instead of skipping."""
+    try:
+        t = q.frontmatter(page).get("topics")
+    except Exception:
+        return []
+    return [str(x).strip() for x in t] if isinstance(t, list) else []
 
 
 def validate(rows: list[dict], *, reader_keys: set[str], on_disk: dict, limit_spokes: int, topic_dir: str = "") -> tuple[list[dict], list[str], list[str]]:
@@ -250,8 +260,13 @@ def queue_rows(planned: list[dict], *, topic_dir: str, brief_path: str, existing
             skipped.append((p["slug"], why))
             continue
         if p["kind"] in BUILT_DIRS and p["slug"] in on_disk[p["kind"]]:
-            skipped.append((p["slug"], f"already built under content/{BUILT_DIRS[p['kind']]}/"))
-            continue
+            if p["kind"] != "start_here":
+                skipped.append((p["slug"], f"already built under content/{BUILT_DIRS[p['kind']]}/"))
+                continue
+            if topic_dir in on_disk["start_here"][p["slug"]]:
+                skipped.append((p["slug"], f"content/start/{p['slug']}.md already has a {topic_dir} path"))
+                continue
+            p = {**p, "notes": (p.get("notes") or "").strip() + f" Extends the existing content/start/{p['slug']}.md (written for another topic) with this topic's path."}
         new.append(queue_row(p, topic_dir, brief_path))
     return new, skipped, updates
 
@@ -287,6 +302,7 @@ def main(argv: list[str]) -> int:
     ap.add_argument("--limit-spokes", type=int, default=MAX_SPOKES, help="queue at most N spokes (the plan may list more)")
     ap.add_argument("--approve", action="store_true", help="flip this topic's proposed plan rows to approved (no session when plan.md exists)")
     ap.add_argument("--dry-run", action="store_true", help="parse an existing plan and print the rows; the queue is not touched")
+    ap.add_argument("--sync", action="store_true", help="queue the rows of the existing plan.md (new rows as proposed, edits synced); no session")
     ap.add_argument("--intel-dir", default=None)
     ap.add_argument("--queue", default=None, help="queue csv (default queue/queue.csv)")
     ap.add_argument("--content-dir", default=None, help="content folder (default content/; tests)")
@@ -305,7 +321,7 @@ def main(argv: list[str]) -> int:
     sessions.clear_stop(log)
     today = date.today().isoformat()
     reader_keys = {r["key"]: r["name"] for r in reader_map(readers.read_text(encoding="utf-8"))} if readers.exists() else {}
-    run_session = not a.dry_run and not (a.approve and plan.exists())
+    run_session = not a.dry_run and not (a.sync and plan.exists()) and not (a.approve and plan.exists())
     if run_session:
         for p, step in ((brief, "brief.sh"), (readers, "readers.sh")):
             if not p.exists():
@@ -348,7 +364,7 @@ def main(argv: list[str]) -> int:
         "Counts: " + ", ".join(f"{k} {v}" for k, v in sorted(kinds.items())) + f"; {len(planned)} rows queued as status proposed.",
         "",
         f"Approve: `scripts/v3/plan.sh {a.topic} --approve` (flips this topic's proposed plan rows to approved), then start writing with `scripts/v3/run.sh {a.topic}`.",
-        "To change the plan first, edit intel/" + a.topic + "/plan.md (add, remove or reword rows), rerun `scripts/v3/plan.sh " + a.topic + "` to sync the queue, then approve.",
+        "To change the plan first, edit intel/" + a.topic + "/plan.md (add, remove or reword rows), run `scripts/v3/plan.sh " + a.topic + " --sync` to queue the changes without a new session, then approve.",
         "",
         plan.read_text(encoding="utf-8").strip(),
         "",

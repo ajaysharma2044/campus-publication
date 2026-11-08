@@ -4,7 +4,7 @@ Source: intel/off-campus-housing/plan.md, built from intel/off-campus-housing/br
 Counts: dataset 4, pillar 1, reader_guide 8, rewrite 4, spoke 21, start_here 18, tool 8; 64 rows queued as status proposed.
 
 Approve: `scripts/v3/plan.sh off-campus-housing --approve` (flips this topic's proposed plan rows to approved), then start writing with `scripts/v3/run.sh off-campus-housing`.
-To change the plan first, edit intel/off-campus-housing/plan.md (add, remove or reword rows), rerun `scripts/v3/plan.sh off-campus-housing` to sync the queue, then approve.
+To change the plan first, edit intel/off-campus-housing/plan.md (add, remove or reword rows), run `scripts/v3/plan.sh off-campus-housing --sync` to queue the changes without a new session, then approve.
 
 # Content and data plan: Off-campus housing in Ithaca for Cornell students
 This plan covers off-campus housing for Cornell students. It runs from who may rent at all, through the Collegetown rush, per-bed prices, neighborhoods and the city line, leases, deposits, the 120-day rule, Good Cause, repairs, sublets, leaving early, moving out, co-ops and Greek houses, to landlords' duties. The pillar is cornell-off-campus-housing-guide.

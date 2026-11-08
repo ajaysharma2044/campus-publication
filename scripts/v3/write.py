@@ -905,6 +905,9 @@ def main(argv: list[str]) -> int:
                 deliverable = sessions.fill(TOOL_DELIVERABLE, tool_md=rel(ctx["files"][0]), tool_html=rel(ctx["files"][1]), **keys)
             elif ctx["kind"] == "dataset":
                 deliverable = sessions.fill(DATASET_DELIVERABLE, dataset_md=rel(ctx["files"][0]), dataset_csv=rel(ctx["files"][1]), **keys)
+            elif ctx["page"].exists() and tdir not in start_topics(ctx["page"]):
+                # one start page per reader, shared by the topics (docs/v3/spec.md §4: "additions to /start/<reader>/ pages")
+                deliverable = sessions.fill(START_EXTEND_DELIVERABLE, start_md=rel(ctx["files"][0]), topic_label=tdir.replace("-", " ").capitalize(), **keys)
             else:
                 deliverable = sessions.fill(START_DELIVERABLE, start_md=rel(ctx["files"][0]), **keys)
             prompt = sessions.fill(templates["tool"], deliverable=deliverable, **fill)
@@ -1092,6 +1095,38 @@ the table itself in Markdown with the same columns and rows as the CSV; "## Cave
 lowercase_snake_case; dates ISO (YYYY-MM-DD); money as plain numbers with a unit column (usd_per_month); a sample_size column where rows are
 aggregates; a source_url column where rows differ in source; a notes column for caveats. Rows come from the brief's tables, never from memory.
 Reply with one line: DONE dataset {{slug}}: <rows> rows as of <date>."""
+
+def start_topics(page: Path) -> list[str]:
+    """The topics a start page already has a path for (its `topics:` list)."""
+    try:
+        t = q.frontmatter(page).get("topics")
+    except Exception:
+        return []
+    return [str(x).strip() for x in t] if isinstance(t, list) else []
+
+
+START_EXTEND_DELIVERABLE = """## Deliverable: add this topic's path to an existing start-here page (one file, edited in place)
+The page {{start_md}} already exists: it is the /start/{{slug}}/ page for this reader, written for another topic (see its `topics:` list).
+Start-here pages are one per reader and shared by the topics (docs/v3/spec.md §4: "additions to /start/<reader>/ pages"), so read the file
+first and then edit it with the Edit tool. Do not rewrite or remove the other topics' sections, links or dates.
+Frontmatter: add {{topic_dir}} to `topics:` (keep `topic:` as it is); set `updated: {{today}}`; add `queue_ids: [{{id}}]`, or append {{id}} when
+the list exists; add `briefs: [{{brief_path}}]`, or append to it; keep every other key. Rewrite `title` (60 characters or fewer) and `meta`
+(120 to 155 characters) so they name the reader and cover every topic the page now has ("International students at Cornell: start here").
+Body:
+- Rewrite the opening two or three sentences for this reader across all the page's topics, in the reader map's words for their situation.
+- Rename the existing "## Read in this order", "## Tools" and "## Dates to watch" headings to "## Read in this order: <that topic's short
+  name>", "## Tools: <short name>" and "## Dates to watch: <short name>" (the short name is the topic page's name, e.g. "Getting around"), so
+  each topic's path stands on its own. Keep their content.
+- Add, before "## When you're done": "## Read in this order: {{topic_label}}", a numbered list of this topic's guides in the order the plan
+  notes give (the pillar {{pillar_path}} first unless the notes say otherwise, then the reader guide, then the spokes), each a link to its
+  site path with one line on what the reader gets there and when to read it; link only paths from the Existing, Batch and Planned lists
+  below (a planned page shows as plain text until it is live). Then "## Tools: {{topic_label}}", this topic's tool pages (/tools/<slug>/)
+  that serve this reader, one line each (leave it out when there is none), and "## Dates to watch: {{topic_label}}", three to six dated
+  lines for this reader from the reader map's timeline, each date as the brief gives it.
+- "## When you're done" stays one section at the end; add one line for this topic (the related topic's start page or pillar when one exists).
+No facts beyond those dates and the pages' own titles; no em dashes; none of the banned words.
+Reply with one line: DONE start {{slug}} (+{{topic_dir}}): <n> guides, <t> tools."""
+
 
 START_DELIVERABLE = """## Deliverable: a start-here page (one file)
 Write this file with the Write tool: {{start_md}}
