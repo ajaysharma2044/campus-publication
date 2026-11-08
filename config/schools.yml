@@ -1,0 +1,12 @@
+# Schools and towns the photo finder (scripts/v2/find_images.py) knows. A photo is relevant to an article only when its title or
+# description names the article's school or town AND relates to the article's subject (the frontmatter `subject`, else the title
+# and primary query). `exclude` lists namesakes that share a word with the school or town but are somewhere else; a photo whose
+# title or description names one is never used. `default` is the school an article gets when its frontmatter names none.
+default: cornell-university
+schools:
+  cornell-university:
+    name: Cornell University
+    terms: [Cornell, Big Red]
+    town: Ithaca
+    town_terms: [Ithaca, Collegetown, Tompkins County, Cayuga Lake, Cayuga Heights, Fall Creek, Cascadilla]
+    exclude: [Cornell College, Mount Vernon, Ithaca College, Ithaca Michigan, Ithaca Greece, Ithaki, Cornell Iowa, Ezra Cornell portrait]

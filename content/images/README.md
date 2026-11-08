@@ -12,9 +12,16 @@ Every article gets at least one useful visual, and we never publish an image we 
 | `credits.yml` | the ledger: one entry per stored file | `find_images.py`; owner adds permission photos by hand |
 | `inbox/` | photos Ajay or the team drop in as `<slug>.jpg` or `<slug>-<n>.jpg`; `find_images.py --article` makes them image 1 or n of that article, credited to the site (see `inbox/README.md`) | owner |
 
-`candidates/<queue_id>.json` is a list of `{source, title, page_url, file_url, thumb_url, author, license, license_url, width, height}`
-where `source` is `wikimedia`, `openverse`, `unsplash` or `pexels`. Only accepted licenses appear there: CC0, Public Domain / PDM,
-CC BY, CC BY-SA, Unsplash License, Pexels License. Never NC or ND, and never anything without a clear license.
+`candidates/<queue_id>.json` is a list of `{source, title, description, page_url, file_url, thumb_url, author, license, license_url,
+width, height}` where `source` is `wikimedia` or `openverse`. Only licenses that allow commercial use appear there: CC0, Public Domain /
+PDM, CC BY, CC BY-SA. Never NC or ND, never a stock site's own license, and never anything without a clear license.
+
+Relevance (`config/schools.yml`): a photo is used only when its title or description names the article's school or town (namesakes
+such as Cornell College or Ithaca College never pass) and relates to the article's subject: the frontmatter `subject` (a string or a
+list, e.g. `subject: Morrison Dining Hall`), else the title and primary query. `find_images.py --query` filters candidates with
+`--school` and `--subject`; `--article` reads them from the frontmatter and refuses an entry that fails (stderr and
+`build/runs/v2/photos.log`), so a page gets no photo rather than an unrelated one. `find_images.py --audit` re-checks every published
+page's photos and writes `reports/photo-audit.md`.
 
 `credits.yml` is a list of `{file, article_slug, source, page_url, author, license, license_url, found_at, fetched_at}`. The license
 data comes from the API response; nobody guesses it. For a permission photo, `source` is `permission`, `page_url` is where the
@@ -33,7 +40,12 @@ images:
     credit_url: "https://commons.wikimedia.org/wiki/File:..."
     license: "CC BY-SA 4.0"
     license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+    author: "Jane Doe"                   # written by find_images.py --article from the API, with source_url (= the photo's page)
+    source_url: "https://commons.wikimedia.org/wiki/File:..."
 ```
+
+The page prints the credit line from these fields: "Photo: <author> / <source>, <license>", the credit linked to `source_url` and the
+license to `license_url`.
 
 `credit` may also be the finder's full line, "Photo: Jane Doe / Wikimedia Commons, CC BY-SA 4.0"; the renderer prints the credit
 once either way. `file` may say `1.jpg` when the stored file is `1.webp` (same stem): the renderer finds it.

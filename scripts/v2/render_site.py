@@ -203,6 +203,41 @@ def load_config(path: Path) -> dict:
     return cfg
 
 
+def load_crawlers(path: Path) -> dict:
+    """config/crawlers.yml: allow and disallow lists of user agents and the IndexNow settings; empty lists when the file is missing."""
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) if path.exists() else {}
+    data = data if isinstance(data, dict) else {}
+    return {"allow": [str(x) for x in (data.get("allow") or [])], "disallow": [str(x) for x in (data.get("disallow") or [])],
+            "indexnow": dict(data.get("indexnow") or {})}
+
+
+def robots_txt(crawlers: dict, base_url: str) -> str:
+    """The production robots.txt: each allowed agent with Allow: /, each disallowed agent with Disallow: /, every other agent allowed,
+    then the sitemap URL (needs site.domain). A preview build never calls this; it stays Disallow: / for everyone."""
+    out = ["# Footnote Daily crawler policy; the lists live in config/crawlers.yml"]
+    for ua in crawlers["allow"]:
+        out += ["", f"User-agent: {ua}", "Allow: /"]
+    for ua in crawlers["disallow"]:
+        out += ["", f"User-agent: {ua}", "Disallow: /"]
+    out += ["", "User-agent: *", "Allow: /"]
+    if base_url:
+        out += ["", f"Sitemap: {base_url}/sitemap.xml"]
+    return "\n".join(out) + "\n"
+
+
+def indexnow_key(crawlers: dict) -> str:
+    """The IndexNow key (32 hex characters) from the key file named in config/crawlers.yml, or '' when there is none."""
+    kf = str(crawlers["indexnow"].get("key_file") or "")
+    if not kf:
+        return ""
+    path = Path(kf) if Path(kf).is_absolute() else REPO / kf
+    key = path.read_text(encoding="utf-8").strip() if path.exists() else ""
+    if key and not re.fullmatch(r"[A-Za-z0-9-]{8,128}", key):
+        warn(f"{kf}: not a valid IndexNow key (8 to 128 letters, digits or hyphens); skipped")
+        return ""
+    return key
+
+
 # ------------------------------------------------------------------------------------------------ monetization markup
 def head_scripts(cfg: dict, production: bool, ads: bool = True) -> str:
     """Consent platform, GA4 and Grow, plus the ad network's loader when `ads` (articles, topic pages and the home; the policy pages
@@ -389,9 +424,13 @@ def photo_figure(img: dict, slug: str, lede: bool = False) -> str:
     credit = re.sub(r"^\s*photo:\s*", "", " ".join(str(img.get("credit") or "").split()), flags=re.I)
     if lic_text and credit.lower().endswith(", " + lic_text.lower()):
         credit = credit[: -len(lic_text) - 2].rstrip()
+    if not credit and img.get("author"):   # stored fields (author, source URL): the credit line is built from them when no credit text was written
+        host = urlsplit(str(img.get("source_url") or img.get("credit_url") or "")).netloc.lower().removeprefix("www.")
+        credit = f"{img['author']} / {'Wikimedia Commons' if host.endswith('wikimedia.org') else host}" if host else str(img["author"])
     credit = html.escape(credit)
-    if credit and img.get("credit_url"):
-        credit = f'<a href="{html.escape(img["credit_url"])}" rel="noopener">{credit}</a>'
+    source_url = str(img.get("source_url") or img.get("credit_url") or "")
+    if credit and source_url:
+        credit = f'<a href="{html.escape(source_url)}" rel="noopener">{credit}</a>'
     lic = html.escape(lic_text)
     if lic and img.get("license_url"):
         lic = f'<a href="{html.escape(img["license_url"])}" rel="license noopener">{lic}</a>'
@@ -557,7 +596,7 @@ def article_images(fm: dict, slug: str, images_dir: Path, out: Path, path: Path)
             continue
         copied = copy_image(src, out / "images" / slug, name)
         if copied:
-            images.append({**{k: str(im.get(k) or "") for k in ("alt", "caption", "credit", "credit_url", "license", "license_url")},
+            images.append({**{k: str(im.get(k) or "") for k in ("alt", "caption", "credit", "credit_url", "license", "license_url", "author", "source_url")},
                            "file": str(im["file"]), "out": copied[0], "width": copied[1], "height": copied[2]})
     return images
 
@@ -769,6 +808,7 @@ def build(args) -> int:
     today = date.today()
     domain = str(cfg["site"].get("domain") or "").strip().rstrip("/")
     site = {"name": str(cfg["site"].get("name") or "Footnote Daily"), "base_url": f"https://{domain}" if domain else ""}
+    crawlers = load_crawlers(Path(args.crawlers))
     if production and not domain:
         warn("production build without site.domain: canonical URLs and the sitemap need it")
 
@@ -865,7 +905,7 @@ def build(args) -> int:
         src = STATIC / name
         (shutil.copytree if src.is_dir() else shutil.copy2)(src, out / "static" / name)
     if production:
-        robots = "User-agent: *\nAllow: /\n" + (f"\nSitemap: {site['base_url']}/sitemap.xml\n" if site["base_url"] else "")
+        robots = robots_txt(crawlers, site["base_url"])
         entries = [("/", today.isoformat())] + [(f"/{t}/", max(a["updated"] for a in by_topic[t]).isoformat()) for t in TOPICS if by_topic[t]]
         entries += [(a["path"], a["updated_iso"]) for a in arts]
         entries += ([("/tools/", max(x["updated"] for x in tools.values()).isoformat())] if tools else []) + [(x["path"], x["updated_iso"]) for x in tools.values()]
@@ -876,6 +916,9 @@ def build(args) -> int:
         robots, entries = "User-agent: *\nDisallow: /\n", []
     urls = "".join(f"<url><loc>{html.escape(site['base_url'] + path)}</loc><lastmod>{mod}</lastmod></url>\n" for path, mod in entries)
     (out / "robots.txt").write_text(robots, encoding="utf-8")
+    key = indexnow_key(crawlers)
+    if key:
+        (out / f"{key}.txt").write_text(key + "\n", encoding="utf-8")   # IndexNow key file at the site root (scripts/v2/indexnow.py)
     (out / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls + "</urlset>\n", encoding="utf-8")
     (out / "ads.txt").write_text(ads_txt(cfg), encoding="utf-8")
 
@@ -949,6 +992,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--start-dir", default=str(REPO / "content" / "start"))
     ap.add_argument("--queue", default=str(REPO / "queue" / "queue.csv"))
     ap.add_argument("--config", default=str(REPO / "config" / "monetization.yml"))
+    ap.add_argument("--crawlers", default=str(REPO / "config" / "crawlers.yml"), help="crawler allow and disallow lists and the IndexNow key file")
     ap.add_argument("--to-read", nargs="?", const=str(REPO / "reports" / "to-read.md"), metavar="FILE",
                     help="instead of rendering, regenerate the entries of reports/to-read.md from the published rows (keeps the header and Ajay's marks)")
     a = ap.parse_args(argv)

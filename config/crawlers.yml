@@ -1,0 +1,23 @@
+# Crawler and indexing policy for the live site, in one place (owner spec, v3 catch-up part 2, step 5).
+# scripts/v2/render_site.py writes robots.txt from the two lists on a production build (a preview build stays Disallow: / and
+# noindex), and copies the IndexNow key file to the site root as /<key>.txt. scripts/v2/indexnow.py (run by publish.sh after each
+# deploy) submits only the URLs whose sitemap <lastmod> is new or changed since the last run, and logs every URL and response code.
+allow:
+  - Googlebot
+  - Bingbot
+  - OAI-SearchBot
+  - ChatGPT-User
+  - PerplexityBot
+  - Perplexity-User
+disallow:
+  - GPTBot
+  - CCBot
+  - Google-Extended
+  - ClaudeBot
+  - anthropic-ai
+  - Bytespider
+indexnow:
+  key_file: config/indexnow.key            # 32 hex characters; served at https://<domain>/<key>.txt
+  endpoint: https://api.indexnow.org/indexnow
+  log: reports/indexnow.log                # one line per URL: time | response code | URL
+  state: build/indexnow-state.json         # URL -> lastmod last submitted, so a publish resubmits only new and changed pages

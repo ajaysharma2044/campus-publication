@@ -3,7 +3,7 @@
 # and whose row is not yet published; a clean article's row becomes published; a failing one is printed and either waits (sources unreachable), goes to one
 # revision (text-level failures, status fix) or is rejected (duplicate, or failures after its revision).
 # Then scripts/v2/render_site.py renders build/site/ and scripts/deploy_netlify.sh deploys, every N newly published articles and
-# once more at the end. Log: build/runs/v2/publish-<timestamp>.log. No claude sessions in this step.
+# once more at the end; after each successful deploy scripts/v2/indexnow.py submits the new and changed URLs (production builds only). Log: build/runs/v2/publish-<timestamp>.log. No claude sessions in this step.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 PY="$ROOT/worker/.venv/bin/python"
@@ -82,7 +82,11 @@ def render_and_deploy():
         log("deploy skipped (--no-deploy)")
         return
     log("deploying with scripts/deploy_netlify.sh")
-    log("deployed" if run(["bash", "scripts/deploy_netlify.sh"], 1200) == 0 else "deploy failed")
+    if run(["bash", "scripts/deploy_netlify.sh"], 1200) != 0:
+        log("deploy failed")
+        return
+    log("deployed; IndexNow: submitting new and changed URLs (scripts/v2/indexnow.py; a preview build submits nothing)")
+    run([PY, "scripts/v2/indexnow.py"], 300)
 
 
 cands = []
