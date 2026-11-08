@@ -20,7 +20,8 @@ const crumbs = [{ label: 'Home', href: '/' }, { label: tool.school.short, href: 
       <Breadcrumbs crumbs={crumbs} />
       <header class="head"><p class="kicker" data-pagefind-meta="category">{tool.topic.label} · Tool</p><h1>{tool.title}</h1><p class="dek">{tool.dek}</p></header>
       <div class="byline byline--compact"><p class="byline__meta"><span class="byline__updated byline__updated--strong">Numbers as of {fmtDate(tool.asOf)}</span><span class="byline__updated">Updated {fmtDate(tool.updated)}</span><span>Runs in your browser; nothing you type is stored or sent</span></p></div>
-      <section class="tool-embed tool-embed--page" aria-label={tool.title} set:html={tool.fragment} />
+      <h2 class="visually-hidden" id="tool-title">The tool</h2>
+      <section class="tool-embed tool-embed--page" aria-labelledby="tool-title" set:html={tool.fragment} />
       <AdSlot size="300x250" position="inContent" />
       <div class="prose" set:html={tool.html} />
       {tool.usedIn.length ? (
