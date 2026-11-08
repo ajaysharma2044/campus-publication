@@ -76,3 +76,8 @@ cost_table rows are {label, value}; timeline rows are {label, date}; steps rows 
 - Prices and dates carry their period and year ("$6,872 per semester for 2026-27"). Say when something changes each year.
 - Read pages the way a person would: no logins, no bulk scraping, respect robots and site terms.
 - Write the file once, complete. If the file already exists (a revision or a retry), Read it before you overwrite it. Then reply with one line: DONE <word count> words, <n> sources.
+
+PRECISION (reviewers reject articles for these)
+- Attribute exactly: the speaker's name and role as the source gives them, and only the pronoun the source uses; otherwise "the article" or "one poster". Never merge two people's words into one voice.
+- A paraphrase may not add detail the source lacks. Definitions, categories, rules and eligibility use the official page's own words or a tight paraphrase of them.
+- In a fix revision, apply every listed fix, then re-read the list and confirm each item is done before you write the file.

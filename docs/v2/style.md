@@ -17,6 +17,13 @@ A student, parent or alum with one practical question about Cornell or Ithaca. T
 - Student experience is paraphrased, attributed and linked ("Several 2025 r/Cornell threads say..."). It is experience, never the source of a hard fact.
 - Never invent quotes, people, ratings or numbers. Never copy more than a short phrase. When sources disagree, say so and say which to trust.
 
+## Precision when you paraphrase (the pilot's reviewers rejected articles for exactly this)
+- Say who said it, as the source does: name and role, and only the pronoun the source uses. If the source does not say, write "the article" or "one poster".
+- Do not add detail a paraphrase does not contain. "Wash and re-lube after every ride" is not "wash the chain"; "most would say the buildings are nice" is not "most would say the company rips people off".
+- Definitions, categories, rules and eligibility use the official page's own words or a tight paraphrase of them, never your summary of what the category "covers".
+- Two posters are two posters. Never merge quotes or opinions from different people into one voice.
+- When a reviewer lists fixes, apply every item, then re-read the list and check each one off before you finish.
+
 ## Voice
 - Direct, specific, warm, a little dry. Second person is fine ("you apply within ten days").
 - Advice is welcome when it is clearly advice and follows from the facts ("If you need a single, apply in the first window").
