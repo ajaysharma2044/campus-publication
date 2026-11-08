@@ -11,10 +11,10 @@ const crumbs = [{ label: 'Home', href: '/' }, { label: 'Search' }];
       <Breadcrumbs crumbs={crumbs} />
       <header class="head"><h1>Search</h1></header>
       <SearchBox />
-      <p class="search__count" data-count aria-live="polite"></p>
-      <ul class="glist" data-results></ul>
-      <nav aria-label="Result pages"><ul class="pager" data-pager></ul></nav>
       <p class="card__dek">Looking for something broad? Browse the <a href="/cornell/">Cornell student guide</a>, the <a href="/cornell/housing/">housing guides</a> or the <a href="/cornell/money/">money guides</a>.</p>
+      <p class="search__count" data-count aria-live="polite"></p>
+      <ul class="glist search__results" data-results></ul>
+      <nav aria-label="Result pages"><ul class="pager" data-pager></ul></nav>
     </div>
   </div>
 </Base>

@@ -146,8 +146,8 @@ mark { background: transparent; color: inherit; }
 .table th, .table td, .facts__table th, .facts__table td { text-align: left; padding: var(--s-3) var(--s-3) var(--s-3) 0; border-bottom: 1px solid var(--rule); vertical-align: top; font-size: var(--fs-2); }
 .table thead th { font-weight: 700; color: var(--ink); border-bottom: 2px solid var(--ink); }
 .table td { font-variant-numeric: tabular-nums; }
-.fn { font-size: 0.7em; line-height: 0; vertical-align: super; margin-left: 1px; }
-.fn__link { color: var(--gold-ink); text-decoration: none; font-weight: 700; padding: 0 1px; }
+.fn { font-size: 0.7em; line-height: 0; vertical-align: baseline; }
+.fn__link { display: inline-block; min-width: 24px; height: 24px; line-height: 24px; text-align: center; position: relative; top: -0.6em; margin: 0 -6px; color: var(--gold-ink); text-decoration: none; font-weight: 700; vertical-align: baseline; }
 .fn__link:hover { text-decoration: underline; }
 .fn__link:target { background: var(--highlight); }
 .tool-ref { color: var(--muted); font-size: var(--fs-2); }
@@ -211,7 +211,7 @@ mark { background: transparent; color: inherit; }
 .sources__item::before { content: counter(src); font-family: var(--serif); font-weight: 600; color: var(--gold-ink); font-variant-numeric: tabular-nums; }
 .sources__item:target { background: var(--highlight); }
 .sources__meta { color: var(--muted); font-size: var(--fs-1); }
-.sources__back { color: var(--gold-ink); text-decoration: none; margin-left: var(--s-2); }
+.sources__back { color: var(--gold-ink); text-decoration: underline; text-underline-offset: 0.2em; margin-left: var(--s-2); display: inline-block; min-width: 24px; text-align: center; }
 .sources__count { color: var(--muted); font-size: var(--fs-2); }
 
 /* ---------- cards and lists ---------- */
@@ -318,7 +318,8 @@ mark { background: transparent; color: inherit; }
 .search { display: flex; gap: var(--s-2); margin: var(--s-4) 0; }
 .search__input { flex: 1; min-height: 44px; padding: 0 var(--s-3); border: 1px solid var(--muted); border-radius: var(--radius); background: #fff; color: var(--ink); min-width: 0; }
 .search__input:focus { border-color: var(--navy); }
-.search__count { color: var(--muted); font-size: var(--fs-2); margin: var(--s-4) 0; }
+.search__count { color: var(--muted); font-size: var(--fs-2); margin: var(--s-4) 0; min-height: 1.6em; }
+.search__results { min-height: 60vh; }
 
 /* ---------- ads ---------- */
 .ad { display: flex; flex-direction: column; align-items: center; justify-content: flex-start; margin: var(--s-6) auto; width: 100%; }

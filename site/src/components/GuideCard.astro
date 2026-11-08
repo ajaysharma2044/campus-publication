@@ -1,10 +1,10 @@
 ---
 import type { Page } from '../lib/model';
 import { fmtDate } from '../lib/model';
-interface Props { page: Page; size?: 'lead' | 'featured' | 'small'; photo?: boolean; showMeta?: boolean }
-const { page, size = 'small', photo = size !== 'small', showMeta = false } = Astro.props;
+interface Props { page: Page; size?: 'lead' | 'featured' | 'small'; photo?: boolean; showMeta?: boolean; heading?: 'h2' | 'h3' }
+const { page, size = 'small', photo = size !== 'small', showMeta = false, heading } = Astro.props;
 const p = page.lead;
-const headingTag = size === 'lead' ? 'h2' : 'h3';
+const headingTag = heading ?? (size === 'lead' ? 'h2' : 'h3');
 const sizes = size === 'lead' ? '(min-width: 980px) 780px, 100vw' : '(min-width: 980px) 380px, 100vw';
 ---
 <article class:list={['card', `card--${size}`]}>

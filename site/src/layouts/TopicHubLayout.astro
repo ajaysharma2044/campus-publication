@@ -26,7 +26,7 @@ const jsonld = [breadcrumbList(crumbs), collectionPage({ title, dek, url, items:
     <div class="main">
       <Breadcrumbs crumbs={crumbs} />
       <header class="head"><p class="kicker">{school.short} · {topic.label}</p><h1>{title}</h1><p class="dek">{topic.blurb}</p></header>
-      {feat ? <section class="section" aria-label="The complete guide"><GuideCard page={feat} size="featured" showMeta /></section> : null}
+      {feat ? <section class="section" aria-label="The complete guide"><GuideCard page={feat} size="featured" showMeta heading="h2" /></section> : null}
       {groups.map((g, i) => (
         <Fragment>
           <section class="section" aria-labelledby={`group-${g.key}`}>

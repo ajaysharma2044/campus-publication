@@ -13,7 +13,7 @@ export const TEMPLATES = [
   { n: 11, slug: 'author', url: '/authors/footnote-daily-editors/' },
   { n: 12, slug: 'trust', url: '/editorial-standards/' },
   { n: 13, slug: 'search', url: '/search/?q=meal+plan' },
-  { n: 14, slug: '404', url: '/this-page-does-not-exist/' },
+  { n: 14, slug: '404', url: '/404.html' },
   { n: 15, slug: 'styleguide', url: '/styleguide/' },
   { n: 16, slug: 'pillar-sample', url: '/styleguide/pillar/' },
 ];
