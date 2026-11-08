@@ -32,7 +32,14 @@ sources:
 - url: https://dol.ny.gov/minimum-wage-0
   title: Minimum Wage, New York State Department of Labor
   accessed: '2026-11-07'
-images: []
+images:
+- file: 1.webp
+  alt: Ithaca Commons (New York)
+  caption: Ithaca Commons (New York)
+  credit: Kenneth C. Zirkel / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca_Commons_(New_York).jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 The most reliable off-campus route for a Cornell undergraduate with Federal Work-Study is the [Community Work-Study Program](https://einhorn.cornell.edu/?p=407), which places students at Ithaca and Tompkins County nonprofits, schools and municipalities. Without work-study, your best bets are downtown hotels, restaurants and event venues that post with the [Tompkins County Chamber](https://business.tompkinschamber.org/jobs), plus walking into Collegetown and Commons businesses, which Cornell itself [suggests as an option](https://as.cornell.edu/news/campus-work-can-provide-fulfilling-experiences). Most of the rest of this page is about picking among those, and getting to the job on a bus.

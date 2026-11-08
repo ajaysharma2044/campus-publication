@@ -23,7 +23,14 @@ sources:
 - url: https://www.finaid.cornell.edu/appeal-application
   title: Financial Aid Appeal Form, Cornell Student Financial Services
   accessed: '2026-11-07'
-images: []
+images:
+- file: 1.webp
+  alt: Cornell University - Ho Plaza, looking north
+  caption: Cornell University - Ho Plaza, looking north
+  credit: P. Hughes / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Ho_Plaza,_looking_north.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 Yes, Cornell does change aid on appeal, but only for a narrow set of documented reasons, and we found no published success rate and no first-hand report of a win. Cornell's own page says an appeal is [a request to reconsider the specific information you provided on your financial aid application](https://finaid.cornell.edu/node/41699), and an approved one lowers your expected family contribution and raises your grant or endowed scholarship aid. Job loss, a big unreimbursed medical bill and an error on your application are in. Cost alone, a better offer from another school and a sibling in college are not. Below, each situation, what to attach and what to expect.

@@ -41,7 +41,14 @@ sources:
 - url: https://theithacan.org/?p=3741
   title: Downtown Ithaca businesses attract students with new discount program, The Ithacan, October 8, 2014
   accessed: '2026-11-07'
-images: []
+images:
+- file: 1.webp
+  alt: Cornell University - Ho Plaza, looking north
+  caption: Cornell University - Ho Plaza, looking north
+  credit: P. Hughes / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Ho_Plaza,_looking_north.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 The biggest savings for a Cornell student in Ithaca are free or cheap ones you only get by asking: TCAT rides are free in your first year, the Johnson Museum is free for everyone, Short Line takes 15% off bus tickets to New York, and Ithaca Carshare takes $45 off an annual membership. Below is each discount we could verify against an official page, what it saves, and which ones we could not confirm as current.

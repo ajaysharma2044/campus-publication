@@ -32,7 +32,14 @@ sources:
 - url: https://offcampus.housing.cornell.edu/
   title: Off-Campus Housing Marketplace, Cornell
   accessed: '2026-11-07'
-images: []
+images:
+- file: 1.webp
+  alt: Cornell University - Cascadilla Bridge entrance to Campus
+  caption: Cornell University - Cascadilla Bridge entrance to Campus
+  credit: Souvenir Post Card Co. (publisher) / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Cascadilla_Bridge_entrance_to_Campus.jpg
+  license: Public domain
+  license_url: ''
 ---
 
 If you are an undergraduate who wants to be close to classes and friends, live in Collegetown and accept the rent and the noise. If you are a graduate student, or you want quiet and a lower price, look at Fall Creek or downtown and plan on the bus. Cornell's own housing guide puts Collegetown [0.1 to 0.5 miles from campus](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods), Fall Creek 0.5 to 1 mile and downtown 0.5 to 1.5 miles, with the last two a 20 to 30 minute uphill walk. Rents are the weak spot in the public data, so the numbers below come with caveats.

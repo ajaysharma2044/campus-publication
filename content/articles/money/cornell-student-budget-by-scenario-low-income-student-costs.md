@@ -47,7 +47,14 @@ sources:
 - url: https://www.cornellsun.com/article/2024/04/a-cheapskates-guide-to-navigating-cornell
   title: A Cheapskate's Guide to Cornell, The Cornell Daily Sun, April 2024
   accessed: '2026-11-07'
-images: []
+images:
+- file: 1.webp
+  alt: Cornell University - Ho Plaza, looking north
+  caption: Cornell University - Ho Plaza, looking north
+  credit: P. Hughes / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Ho_Plaza,_looking_north.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 Plan on about $380 a month in real spending money for books and personal costs, plus travel, whatever your aid situation. What changes is the size of the bill from Cornell. The aid office's cost table shows [$96,318 in billed costs and $3,416 in non-billed costs, $99,734 in total](https://finaid.cornell.edu/cost-attend), before travel and health insurance, but that table is labeled 2025-26 and the page's 2026-27 table is empty. We treat the $73,946 tuition and $13,744 housing as 2026-27 because [the trustees' announcement](https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters) and the [housing rates page](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) confirm them. Families with income up to $75,000 and typical assets are told that [grants, scholarships and work-study cover the full cost of attendance](https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters). A grad student on a standard assistantship should plan about $3,070 a month in non-tuition costs. Below are the four scenarios, with the math shown.

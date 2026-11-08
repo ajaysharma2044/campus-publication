@@ -35,7 +35,14 @@ sources:
 - url: https://studentaffairs.tech.cornell.edu/student-life-2/international-students/employment-and-taxes
   title: Employment and Taxes, Cornell Tech Student & Academic Affairs
   accessed: '2026-11-07'
-images: []
+images:
+- file: 1.webp
+  alt: Cornell University - Ho Plaza, looking north
+  caption: Cornell University - Ho Plaza, looking north
+  credit: P. Hughes / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Ho_Plaza,_looking_north.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 If you are on an F-1 or J-1 visa, you can work on campus for Cornell for up to 20 hours a week while classes are in session. You find the job yourself in Workday, complete the Form I-9 with the hiring department, and apply for a Social Security number once the job has started. F-1 students need no special work authorization. J-1 students need an authorization letter first. Here is the path in order, with the limits that can cost you your status.

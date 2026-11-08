@@ -35,7 +35,14 @@ sources:
 - url: https://talk.collegeconfidential.com/t/big-red-bucks-and-or-meal-plans-worth-it/1145525
   title: Big Red Bucks and/or Meal Plans- worth it?, College Confidential
   accessed: '2026-11-07'
-images: []
+images:
+- file: 1.webp
+  alt: Morrison Dining Hall, Cornell University
+  caption: Morrison Dining Hall, Cornell University
+  credit: Kenneth C. Zirkel / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Morrison_Dining_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 As a money saver, a Cornell meal plan is worth it only if you will eat in the dining rooms close to the maximum the plan allows. The official 2026-27 rates work out to roughly $15 to $19 a swipe at full use once you subtract the Big Red Bucks, and a Monday to Saturday lunch at the door costs [$16.80, tax included, on Cornell's 2026-27 dining room price list](https://scl.cornell.edu/residential-life/dining/meal-plans-rates). A February 2025 Sun column had put [the door lunch at $15.50](https://cornellsun.com/2025/02/25/meal-swipes-belong-on-central-campus), so prices have moved. For most students the choice is made for them: the [Unlimited plan is required for first-year undergraduates](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans) at $7,604 for the year. If you do have a choice, the smaller the plan you can honestly use, the better the math.
