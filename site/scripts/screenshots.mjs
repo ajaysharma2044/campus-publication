@@ -8,7 +8,7 @@ const require = createRequire(path.resolve('..', 'package.json'));
 const { chromium } = require('playwright');
 const out = path.resolve('..', 'reports', 'templates');
 await fs.mkdir(out, { recursive: true });
-const { server, url } = await serve('dist');
+const { server, url } = await serve(process.env.DIST || 'dist');
 const browser = await chromium.launch();
 const lines = ['# Template screenshots', '', `Generated ${new Date().toISOString().slice(0, 10)} from the Astro build in site/dist at 375px and 1280px (full page).`, '',
   'design/reference-article.html is not in the repository, so the side-by-side of the pillar template against it could not be produced; the pillar screenshots stand alone until the owner supplies the file.', '', '| # | Template | Page | 375 | 1280 |', '|---|---|---|---|---|'];

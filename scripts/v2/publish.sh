@@ -26,6 +26,7 @@ for a in "$@"; do case "$a" in -h|--help) usage; exit 0;; esac; done
 cd "$ROOT"
 exec "$PY" - "$@" <<'PY'
 import argparse
+import os
 import json
 import re
 import shutil
@@ -86,7 +87,8 @@ def render_and_deploy():
         log("deploy failed")
         return
     log("deployed; IndexNow: submitting new and changed URLs (scripts/v2/indexnow.py; a preview build submits nothing)")
-    run([PY, "scripts/v2/indexnow.py"], 300)
+    site_dir = "build/site" if os.environ.get("CAMPUS_DEPLOY_LEGACY") == "1" else "site/dist"   # deploy_netlify.sh deploys the Astro build since 2026-11-08
+    run([PY, "scripts/v2/indexnow.py", "--site", site_dir], 300)
 
 
 cands = []
