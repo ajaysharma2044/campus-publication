@@ -79,8 +79,10 @@ def body_markdown(draft: dict) -> str:
 def publish(conn: psycopg.Connection, bulk_page: dict, *, institution_id: UUID, settings, model: str, run_id: str) -> dict:
     d, plan = bulk_page["draft"], bulk_page["plan"]
     with conn.cursor() as cur:
-        cur.execute("SELECT canonical_name, slug FROM institutions WHERE id=%s", (institution_id,))
+        cur.execute("SELECT canonical_name, slug, identity_status FROM institutions WHERE id=%s", (institution_id,))
         inst = cur.fetchone()
+        if inst["identity_status"] != "verified":   # SPEC §07: nothing publishes for a school whose identity is not verified against the official NCES file
+            raise PermissionError(f"institution identity {inst['identity_status']}: publishing waits for NCES verification")
         cur.execute("SELECT id, label FROM topics WHERE key=%s", (plan.get("topic_key") or "housing",))
         topic = cur.fetchone()
         cur.execute("SELECT id FROM campuses WHERE institution_id=%s AND is_main LIMIT 1", (institution_id,))

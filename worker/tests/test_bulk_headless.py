@@ -221,3 +221,27 @@ def test_steps_pass_marks_a_parse_failure_and_moves_on(clean_conn, migrated_url,
         cur.execute("SELECT count(*) AS n FROM claims WHERE field LIKE 'process.%%' AND institution_id=%s", (inst,))
         n = cur.fetchone()["n"]
     assert mark["done"] and mark["steps_batch_id"].endswith(":error") and n == 0   # marked, recoverable by clearing the marker, nothing stored
+
+
+def test_articles_stage_refuses_an_unverified_institution(clean_conn, migrated_url, tmp_path, monkeypatch):
+    inst, campus, topics, hall, snap, ids = _seed_claims(clean_conn)
+    questions.build(clean_conn, slug="fixture-state")
+    rank.rank_all(clean_conn, institution_id=inst, official_domains=("example.edu",), today=date(2026, 11, 6))
+    with clean_conn.cursor() as cur:
+        cur.execute("UPDATE institutions SET identity_status='pending_verification' WHERE id=%s", (inst,))
+    clean_conn.commit()
+    monkeypatch.setattr(headless, "RUN_ROOT", tmp_path / "headless")
+    monkeypatch.setattr(headless, "STOP_FILE", tmp_path / "STOP")
+    monkeypatch.setattr(headless, "REPO_ROOT", tmp_path)
+    log = []
+    rep = headless.articles_stage(school="fixture-state", run_id="t-unverified", workers=1, chunk_size=2, model="sonnet", pause=headless.Pause(log=lambda m: None, probe=lambda: True), log=log.append,
+                                  runner=_fake_runner(tmp_path), deploy=False, dsn=migrated_url)
+    assert rep["published"] == 0 and rep["blocked"] == "identity pending verification" and any("identity is pending_verification" in l for l in log)
+    with clean_conn.cursor() as cur:
+        cur.execute("SELECT count(*) AS n FROM bulk_pages WHERE run_id='t-unverified'")
+        assert cur.fetchone()["n"] == 0
+    # the publish step is the last gate: it refuses too
+    from campus_worker.bulk import verify as verifymod
+    import pytest
+    with pytest.raises(PermissionError):
+        verifymod.publish(clean_conn, {"draft": {}, "plan": {"topic_key": "housing"}}, institution_id=inst, settings=None, model="x", run_id="t-unverified")

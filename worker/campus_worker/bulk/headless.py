@@ -421,6 +421,17 @@ def articles_stage(*, school: str, run_id: str, workers: int = 6, chunk_size: in
     today = datetime.now(timezone.utc).date()
     report = {"published": 0, "skipped": {}, "failed": 0, "batches": 0, "deploys": 0, "stopped": False}
     since_deploy = {"n": 0}
+    conn0 = connect(dsn)
+    try:
+        with conn0.cursor() as cur:
+            cur.execute("SELECT identity_status FROM institutions WHERE slug=%s", (school,))
+            row = cur.fetchone()
+    finally:
+        conn0.close()
+    if not row or row["identity_status"] != "verified":   # SPEC §07: a school's pages are planned and published only after NCES identity verification
+        log(f"articles: {school} identity is {(row or {}).get('identity_status', 'unknown')}; no pages planned or published until it is verified against the official NCES file")
+        report["blocked"] = "identity pending verification"
+        return report
 
     def milestone(conn) -> None:
         site.render_shell(conn, out_root=site.OUT_DEFAULT, environment="staging", publication_name=settings.publication_name)
