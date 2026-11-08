@@ -1,6 +1,6 @@
 ---
-title: "Is the Cornell meal plan worth it? Cost per swipe by plan"
-meta: "Cost per swipe, plan by plan, for 2026-27: Unlimited is $7,604 a year. Only heavy eaters beat the $16.80 lunch door price at Cornell."
+title: Is the Cornell meal plan worth it? Cost per swipe by plan
+meta: 'Cost per swipe, plan by plan, for 2026-27: Unlimited is $7,604 a year. Only heavy eaters beat the $16.80 lunch door price at Cornell.'
 primary_query: cornell meal plan worth it
 topic: money
 school: cornell-university
@@ -8,16 +8,41 @@ type: decision
 updated: 2026-11-07
 queue_id: q-money-0003
 sources:
-  - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates", title: "Meal Plans & Rates (Dining room prices: 2026-2027), Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans", title: "Undergraduate Meal Plans, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms", title: "Deadlines & Terms, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs", title: "Meal Plan FAQs, Cornell Student & Campus Life", accessed: "2026-11-06"}
-  - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/apply-meal-plan-or-change-your-meal-plan", title: "Apply for a Meal Plan or Change Your Meal Plan, Cornell Student & Campus Life", accessed: "2026-11-06"}
-  - {url: "https://cornellsun.com/2025/02/25/meal-swipes-belong-on-central-campus", title: "Meal Swipes Belong on Central Campus, The Cornell Daily Sun, February 25, 2025", accessed: "2026-11-07"}
-  - {url: "https://www.cornellsun.com/article/2019/04/jones-stop-forcing-west-campus-residents-to-buy-unlimited-meal-swipes", title: "Jones: Stop Forcing West Campus Residents to Buy Unlimited Meal Swipes, The Cornell Daily Sun, April 23, 2019", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/2020/10/26/a-skidmore-medal-topped-with-runny-pasta-freshman-year-with-zero-meal-plan", title: "A Skidmore Medal Topped with Runny Pasta: Freshman Year with Zero Meal Plan, The Cornell Daily Sun, October 26, 2020", accessed: "2026-11-07"}
-  - {url: "https://talk.collegeconfidential.com/t/big-red-bucks-and-or-meal-plans-worth-it/1145525", title: "Big Red Bucks and/or Meal Plans- worth it?, College Confidential", accessed: "2026-11-07"}
-images: []
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates
+  title: 'Meal Plans & Rates (Dining room prices: 2026-2027), Cornell Student & Campus Life'
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
+  title: Undergraduate Meal Plans, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms
+  title: Deadlines & Terms, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs
+  title: Meal Plan FAQs, Cornell Student & Campus Life
+  accessed: '2026-11-06'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/apply-meal-plan-or-change-your-meal-plan
+  title: Apply for a Meal Plan or Change Your Meal Plan, Cornell Student & Campus Life
+  accessed: '2026-11-06'
+- url: https://cornellsun.com/2025/02/25/meal-swipes-belong-on-central-campus
+  title: Meal Swipes Belong on Central Campus, The Cornell Daily Sun, February 25, 2025
+  accessed: '2026-11-07'
+- url: https://www.cornellsun.com/article/2019/04/jones-stop-forcing-west-campus-residents-to-buy-unlimited-meal-swipes
+  title: 'Jones: Stop Forcing West Campus Residents to Buy Unlimited Meal Swipes, The Cornell Daily Sun, April 23, 2019'
+  accessed: '2026-11-07'
+- url: https://cornellsun.com/2020/10/26/a-skidmore-medal-topped-with-runny-pasta-freshman-year-with-zero-meal-plan
+  title: 'A Skidmore Medal Topped with Runny Pasta: Freshman Year with Zero Meal Plan, The Cornell Daily Sun, October 26, 2020'
+  accessed: '2026-11-07'
+- url: https://talk.collegeconfidential.com/t/big-red-bucks-and-or-meal-plans-worth-it/1145525
+  title: Big Red Bucks and/or Meal Plans- worth it?, College Confidential
+  accessed: '2026-11-07'
+images:
+- file: 1.webp
+  alt: California brown pelican is photographed having a meal during the annual California Brown Pelican Survey (41546103784)
+  caption: California brown pelican is photographed having a meal during the annual California Brown Pelican Su
+  credit: USFWS Pacific Southwest Region / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:California_brown_pelican_is_photographed_having_a_meal_during_the_annual_California_Brown_Pelican_Survey_(41546103784).jpg
+  license: Public domain
+  license_url: ''
 ---
 
 As a money saver, a Cornell meal plan is worth it only if you will eat in the dining rooms close to the maximum the plan allows. The official 2026-27 rates work out to roughly $15 to $19 a swipe at full use once you subtract the Big Red Bucks, and a Monday to Saturday lunch at the door costs [$16.80, tax included, on Cornell's 2026-27 dining room price list](https://scl.cornell.edu/residential-life/dining/meal-plans-rates). A February 2025 Sun column had put [the door lunch at $15.50](https://cornellsun.com/2025/02/25/meal-swipes-belong-on-central-campus), so prices have moved. For most students the choice is made for them: the [Unlimited plan is required for first-year undergraduates](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans) at $7,604 for the year. If you do have a choice, the smaller the plan you can honestly use, the better the math.

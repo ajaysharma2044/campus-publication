@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}{{ d.title }} | {{ site.name }}{% endblock %}
+{% block head %}<script type="application/ld+json">{{ d.json_ld|safe }}</script>{% endblock %}
+{% block content %}
+<div class="container"><article class="article">
+  <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="{{ d.topic_href }}">{{ d.topic_label }}</a></li><li><a href="/datasets/">Datasets</a></li><li><span aria-current="page">{{ d.title }}</span></li></ol></nav>
+  <h1>{{ d.title }}</h1>
+  <p class="deck measure">{{ d.meta }}</p>
+  <div class="byline"><span>Data as of <time datetime="{{ d.as_of_iso }}">{{ d.as_of_text }}</time></span>{% if d.sample_size %}<span>Sample: {{ d.sample_size }}</span>{% endif %}<span>Updated <time datetime="{{ d.updated_iso }}">{{ d.updated_text }}</time></span></div>
+  {% if d.csv_href %}<p class="dataset__download"><a class="btn" href="{{ d.csv_href }}" download>Download CSV{% if d.csv_rows %} ({{ d.csv_rows }} rows){% endif %}</a> <span class="meta">Free to reuse with a link to this page.</span></p>{% endif %}
+  {% if d.method %}<section class="dataset__method" aria-labelledby="method-h"><h2 id="method-h" class="section-head">How we built it</h2><p>{{ d.method }}</p></section>{% endif %}
+  <div class="prose measure">{{ d.body_html|safe }}</div>
+  {% include "_feedback.html" %}
+  <section class="sources" aria-labelledby="sources-h"><h2 id="sources-h" class="section-head">Sources</h2>
+    {% if d.sources %}<ol>{% for s in d.sources %}<li><a href="{{ s.url }}" rel="noopener">{{ s.title }}</a>{% if s.accessed %} <span class="meta">accessed {{ s.accessed }}</span>{% endif %}</li>{% endfor %}</ol>
+    {% else %}<p class="coverage-note">This dataset lists no external sources.</p>{% endif %}
+    <p class="corrections-link">A row looks wrong? <a href="/corrections/">Tell us and we will check it</a>.</p>
+  </section>
+</article></div>
+{% endblock %}

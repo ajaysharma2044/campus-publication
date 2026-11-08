@@ -53,3 +53,94 @@
 }
 .ad-slot--in_content ins.adsbygoogle, .ad-slot--sidebar ins.adsbygoogle { display: block; width: 100%; }
 @media print { .ad-slot, .disclosure--money { display: none !important; } }
+
+/* ======================================================================================================================
+   v3 additions (docs/v3/spec.md): the three layers (At a glance box, reader blocks), pillar table of contents, breadcrumbs,
+   embedded tools, dataset pages, start-here paths, the topic page's pillar card and the "Did this answer your question?" box. */
+
+/* ---------- At a glance ---------- */
+.glance { margin: 0 0 var(--s-5); padding: var(--s-4) var(--s-5); background: var(--navy-wash); border-left: 4px solid var(--navy); border-radius: 0 var(--radius-lg) var(--radius-lg) 0; font-family: var(--font-sans); }
+.glance__title { margin: 0 0 var(--s-2); font-size: var(--fs-meta); font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--navy-ink); }
+.glance ul, .glance ol { margin: 0; padding-left: 1.2em; font-size: var(--fs-small); line-height: 1.5; }
+.glance li + li { margin-top: var(--s-2); }
+.glance p { margin: 0 0 var(--s-2); font-size: var(--fs-small); }
+.glance a { color: var(--navy-ink); }
+@media (max-width: 599px) { .glance { padding: var(--s-3) var(--s-4); } }
+
+/* ---------- reader blocks ("If you're ...") ---------- */
+.prose .reader { margin: var(--s-3) 0 0; border: 1px solid var(--rule); border-radius: var(--radius-lg); background: var(--surface); }
+.prose .reader + .reader { margin-top: var(--s-3); }
+.prose .reader + :not(.reader) { margin-top: var(--s-6); }
+.reader__title { cursor: pointer; display: flex; align-items: baseline; gap: var(--s-3); padding: var(--s-3) var(--s-4); font-family: var(--font-sans); font-weight: 700; font-size: 1.05rem; color: var(--ink); list-style: none; }
+.reader__title::-webkit-details-marker { display: none; }
+.reader__title::before { content: ""; flex: 0 0 auto; width: 0.55em; height: 0.55em; border-right: 2px solid var(--navy); border-bottom: 2px solid var(--navy); transform: translateY(-0.15em) rotate(-45deg); transition: transform .15s ease; }
+.reader[open] > .reader__title::before { transform: translateY(-0.3em) rotate(45deg); }
+.reader[open] > .reader__title { border-bottom: 1px solid var(--rule); }
+.reader__title:hover { color: var(--navy); }
+.reader__body { padding: var(--s-3) var(--s-4) var(--s-4); font-size: var(--fs-small); }
+.reader__body > * + * { margin-top: var(--s-3); }
+.reader__body p:last-child { margin-bottom: 0; }
+.reader__body .table-wrap { margin: var(--s-3) 0; }
+
+/* ---------- pillar table of contents, breadcrumbs ---------- */
+.toc { margin: var(--s-6) 0; padding: var(--s-4) var(--s-5); border: 1px solid var(--rule); border-radius: var(--radius-lg); background: var(--band); font-family: var(--font-sans); }
+.toc__title { margin: 0 0 var(--s-2); font-size: var(--fs-meta); font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2); }
+.toc ol { margin: 0; padding-left: 1.4em; columns: 1; font-size: var(--fs-small); }
+.toc li { break-inside: avoid; padding: 2px 0; }
+.toc a { color: var(--ink); text-decoration-color: var(--rule-strong); }
+.toc a:hover { color: var(--navy); }
+@media (min-width: 768px) { .toc ol { columns: 2; column-gap: var(--s-6); } }
+.crumbs { font-family: var(--font-sans); font-size: var(--fs-small); margin: 0 0 var(--s-3); }
+.crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--s-1) 0; }
+.crumbs li { display: inline-flex; align-items: center; min-width: 0; }
+.crumbs li + li::before { content: "\203A"; padding: 0 var(--s-2); color: var(--ink-3); }
+.crumbs a { color: var(--navy); font-weight: 600; text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+.crumbs [aria-current="page"] { color: var(--ink-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 60vw; }
+
+/* ---------- embedded tools (content/tools/<slug>/tool.html, inside .tool-embed) ---------- */
+.tool-embed { margin: var(--s-5) 0; padding: var(--s-4) var(--s-5); border: 1px solid var(--rule-strong); border-radius: var(--radius-lg); background: var(--surface); font-family: var(--font-sans); min-width: 0; overflow-wrap: anywhere; }
+.tool-embed--page { margin: 0 0 var(--s-6); max-width: var(--measure); }
+.tool-embed__head { margin: 0 0 var(--s-3); padding-bottom: var(--s-3); border-bottom: 1px solid var(--rule); font-size: var(--fs-small); }
+.tool-embed__head b { display: block; font-size: 1.05rem; color: var(--ink); }
+.tool-embed label { display: block; font-weight: 600; font-size: var(--fs-small); margin-bottom: var(--s-1); }
+.tool-embed input, .tool-embed select, .tool-embed textarea { width: 100%; max-width: 100%; box-sizing: border-box; font: inherit; font-size: 1rem; padding: var(--s-2) var(--s-3); border: 1px solid var(--rule-strong); border-radius: var(--radius); background: var(--paper); color: var(--ink); }
+.tool-embed input[type="checkbox"], .tool-embed input[type="radio"] { width: auto; }
+.tool-embed fieldset { border: 0; padding: 0; margin: 0 0 var(--s-4); min-width: 0; }
+.tool-embed legend { font-weight: 700; padding: 0; margin-bottom: var(--s-2); }
+.tool-embed .field, .tool-embed p { margin: 0 0 var(--s-3); }
+.tool-embed .result, .tool-embed [data-result], .tool-embed output { display: block; margin-top: var(--s-4); padding: var(--s-3) var(--s-4); background: var(--navy-wash); border-radius: var(--radius); font-size: var(--fs-small); }
+.tool-embed table { width: 100%; border-collapse: collapse; font-size: var(--fs-small); }
+.tool-embed th, .tool-embed td { text-align: left; padding: var(--s-2) var(--s-3); border-bottom: 1px solid var(--rule); vertical-align: top; }
+.tool-embed .meta, .tool-embed small { font-size: var(--fs-meta); color: var(--ink-3); }
+@media (max-width: 599px) { .tool-embed { padding: var(--s-3) var(--s-4); } }
+
+/* ---------- datasets, start paths, topic page extras ---------- */
+.dataset__download { margin: 0 0 var(--s-5); display: flex; flex-wrap: wrap; gap: var(--s-3); align-items: center; font-family: var(--font-sans); }
+.dataset__method { margin: 0 0 var(--s-5); max-width: var(--measure); }
+.dataset__method .section-head { margin-top: 0; }
+.start-path ol > li { margin-bottom: var(--s-3); }
+.start-path ol > li::marker { font-family: var(--font-sans); font-weight: 700; color: var(--navy); }
+.start-grid .topic-tile__blurb { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.pillar-card { margin: var(--s-5) 0 var(--s-6); padding: var(--s-4) var(--s-5); border: 1px solid var(--rule-strong); border-left: 4px solid var(--navy); border-radius: var(--radius-lg); background: var(--surface); max-width: var(--measure); }
+.pillar-card .eyebrow { margin-bottom: var(--s-2); }
+.pillar-card h2 { margin: 0 0 var(--s-2); font-size: 1.4rem; }
+.pillar-card h2 a { color: var(--ink); text-decoration: none; }
+.pillar-card h2 a:hover { color: var(--navy); }
+.pillar-card p { margin: 0 0 var(--s-2); }
+.topic-aside { margin: 0 0 var(--s-6); max-width: var(--measure); }
+.topic-aside .section-head { margin-top: 0; }
+.topic-aside .entry-points .state { display: block; white-space: normal; }
+
+/* ---------- "Did this answer your question?" (Netlify form on every article, tool, dataset and start page) ---------- */
+.feedback { margin: var(--s-7) 0 0; padding: var(--s-5); background: var(--band); border-radius: var(--radius-lg); font-family: var(--font-sans); max-width: var(--measure); }
+.feedback__q { margin: 0 0 var(--s-3); font-weight: 700; font-size: 1.15rem; color: var(--ink); }
+.feedback__row { display: flex; flex-wrap: wrap; gap: var(--s-3); align-items: center; }
+.feedback__need { margin-top: var(--s-4); display: grid; gap: var(--s-2); }
+.feedback__need label { font-size: var(--fs-small); color: var(--ink-2); }
+.feedback textarea { width: 100%; box-sizing: border-box; font: inherit; font-size: 1rem; line-height: 1.5; padding: var(--s-2) var(--s-3); border: 1px solid var(--rule-strong); border-radius: var(--radius); background: var(--surface); color: var(--ink); resize: vertical; }
+.feedback textarea:focus { outline: 2px solid var(--focus); outline-offset: 1px; }
+.feedback__need .btn { justify-self: start; }
+.feedback__note { margin: var(--s-3) 0 0; font-size: var(--fs-meta); color: var(--ink-3); }
+@media (max-width: 599px) { .feedback { padding: var(--s-4); } }
+@media print { .feedback, .crumbs, .toc { display: none !important; } .reader__body { display: block !important; } }

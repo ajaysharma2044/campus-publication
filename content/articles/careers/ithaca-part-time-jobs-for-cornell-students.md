@@ -1,22 +1,45 @@
 ---
-title: "Off-campus part-time jobs for Cornell students in Ithaca"
-meta: "Cornell students can work off campus through Community Work-Study, downtown hotels and restaurants, or tutoring. Where to look and how to get there."
-primary_query: "ithaca part time jobs for cornell students"
+title: Off-campus part-time jobs for Cornell students in Ithaca
+meta: Cornell students can work off campus through Community Work-Study, downtown hotels and restaurants, or tutoring. Where to look and how to get there.
+primary_query: ithaca part time jobs for cornell students
 topic: careers
 school: cornell-university
 type: roundup
 updated: 2026-11-07
 queue_id: q-careers-0009
 sources:
-  - {url: "https://einhorn.cornell.edu/?p=407", title: "Community Work-Study Program, Einhorn Center for Community Engagement", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/growth-opportunities/student-employment/students", title: "For Students, Student & Campus Life, Cornell University", accessed: "2026-11-07"}
-  - {url: "https://as.cornell.edu/news/campus-work-can-provide-fulfilling-experiences", title: "Campus work can provide fulfilling experiences, Cornell Arts & Sciences", accessed: "2026-11-07"}
-  - {url: "https://business.tompkinschamber.org/jobs", title: "Job listings, Tompkins County Chamber of Commerce", accessed: "2026-11-07"}
-  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", title: "Bus Services, Privileges and Passes, Cornell Transportation Services", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/2024/11/03/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free/", title: "Non-first-year Cornell students no longer able to access TCAT for free, The Cornell Daily Sun, November 3, 2024", accessed: "2026-11-07"}
-  - {url: "https://international.globallearning.cornell.edu/employment-and-taxes/f-1-cpt", title: "F-1 Curricular Practical Training, Cornell International Services", accessed: "2026-11-07"}
-  - {url: "https://dol.ny.gov/minimum-wage-0", title: "Minimum Wage, New York State Department of Labor", accessed: "2026-11-07"}
-images: []
+- url: https://einhorn.cornell.edu/?p=407
+  title: Community Work-Study Program, Einhorn Center for Community Engagement
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/growth-opportunities/student-employment/students
+  title: For Students, Student & Campus Life, Cornell University
+  accessed: '2026-11-07'
+- url: https://as.cornell.edu/news/campus-work-can-provide-fulfilling-experiences
+  title: Campus work can provide fulfilling experiences, Cornell Arts & Sciences
+  accessed: '2026-11-07'
+- url: https://business.tompkinschamber.org/jobs
+  title: Job listings, Tompkins County Chamber of Commerce
+  accessed: '2026-11-07'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
+  title: Bus Services, Privileges and Passes, Cornell Transportation Services
+  accessed: '2026-11-07'
+- url: https://cornellsun.com/2024/11/03/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free/
+  title: Non-first-year Cornell students no longer able to access TCAT for free, The Cornell Daily Sun, November 3, 2024
+  accessed: '2026-11-07'
+- url: https://international.globallearning.cornell.edu/employment-and-taxes/f-1-cpt
+  title: F-1 Curricular Practical Training, Cornell International Services
+  accessed: '2026-11-07'
+- url: https://dol.ny.gov/minimum-wage-0
+  title: Minimum Wage, New York State Department of Labor
+  accessed: '2026-11-07'
+images:
+- file: 1.webp
+  alt: Printing the past- 3-D archaeology and the first Americans (32581836344)
+  caption: Printing the past- 3-D archaeology and the first Americans (32581836344)
+  credit: BLM Oregon & Washington / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Printing_the_past-_3-D_archaeology_and_the_first_Americans_(32581836344).jpg
+  license: Public domain
+  license_url: ''
 ---
 
 The most reliable off-campus route for a Cornell undergraduate with Federal Work-Study is the [Community Work-Study Program](https://einhorn.cornell.edu/?p=407), which places students at Ithaca and Tompkins County nonprofits, schools and municipalities. Without work-study, your best bets are downtown hotels, restaurants and event venues that post with the [Tompkins County Chamber](https://business.tompkinschamber.org/jobs), plus walking into Collegetown and Commons businesses, which Cornell itself [suggests as an option](https://as.cornell.edu/news/campus-work-can-provide-fulfilling-experiences). Most of the rest of this page is about picking among those, and getting to the job on a bus.

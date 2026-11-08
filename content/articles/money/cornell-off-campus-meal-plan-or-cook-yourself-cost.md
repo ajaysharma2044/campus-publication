@@ -1,6 +1,6 @@
 ---
-title: "Cornell off campus: meal plan or cook yourself?"
-meta: "Cooking runs about $2,960 a year in groceries by USDA figures; Just Bucks is $1,000 and Off-Campus Value $1,824.60. Full math for 2026-27."
+title: 'Cornell off campus: meal plan or cook yourself?'
+meta: Cooking runs about $2,960 a year in groceries by USDA figures; Just Bucks is $1,000 and Off-Campus Value $1,824.60. Full math for 2026-27.
 primary_query: cornell off campus meal plan or cook yourself cost
 topic: money
 school: cornell-university
@@ -8,20 +8,53 @@ type: decision
 updated: 2026-11-07
 queue_id: q-money-0009
 sources:
-  - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans", title: "Undergraduate Meal Plans, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027", title: "Cornell Dining Terms and Conditions 2026-2027", accessed: "2026-11-06"}
-  - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms", title: "Deadlines & Terms, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks", title: "City Bucks, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks/city-bucks-faqs", title: "City Bucks FAQs, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://finaid.cornell.edu/cost-attend", title: "Costs & Affordability, Cornell Financial Aid", accessed: "2026-11-07"}
-  - {url: "https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf", title: "USDA Food Plans: Cost of Food at Home at Three Levels, September 2026", accessed: "2026-11-07"}
-  - {url: "https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026Thrifty.pdf", title: "USDA Thrifty Food Plan: U.S. Average, September 2026", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/2017/05/09/collegetown-meal-plan-to-launch-in-fall", title: "Collegetown Meal Plan to Launch in Fall, The Cornell Daily Sun, May 9, 2017", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/2020/10/26/a-skidmore-medal-topped-with-runny-pasta-freshman-year-with-zero-meal-plan", title: "Freshman Year With Zero Meal Plan, The Cornell Daily Sun, October 26, 2020", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/2022/11/30/lack-of-nearby-grocery-stores-leave-students-with-limited-options/", title: "Lack of Nearby Grocery Stores Leave Students With Limited Options, The Cornell Daily Sun, November 30, 2022", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/2023/05/03/culinary-autonomy-cooking-for-yourself", title: "Culinary Autonomy: Cooking for Yourself, The Cornell Daily Sun, May 3, 2023", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/2023/09/27/obaseki-a-brokies-guide-to-having-no-meal-plan/", title: "A Broke Student's Guide to Having No Meal Plan, The Cornell Daily Sun, September 27, 2023", accessed: "2026-11-07"}
-images: []
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
+  title: Undergraduate Meal Plans, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027
+  title: Cornell Dining Terms and Conditions 2026-2027
+  accessed: '2026-11-06'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms
+  title: Deadlines & Terms, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks
+  title: City Bucks, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks/city-bucks-faqs
+  title: City Bucks FAQs, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+- url: https://finaid.cornell.edu/cost-attend
+  title: Costs & Affordability, Cornell Financial Aid
+  accessed: '2026-11-07'
+- url: https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf
+  title: 'USDA Food Plans: Cost of Food at Home at Three Levels, September 2026'
+  accessed: '2026-11-07'
+- url: https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026Thrifty.pdf
+  title: 'USDA Thrifty Food Plan: U.S. Average, September 2026'
+  accessed: '2026-11-07'
+- url: https://cornellsun.com/2017/05/09/collegetown-meal-plan-to-launch-in-fall
+  title: Collegetown Meal Plan to Launch in Fall, The Cornell Daily Sun, May 9, 2017
+  accessed: '2026-11-07'
+- url: https://cornellsun.com/2020/10/26/a-skidmore-medal-topped-with-runny-pasta-freshman-year-with-zero-meal-plan
+  title: Freshman Year With Zero Meal Plan, The Cornell Daily Sun, October 26, 2020
+  accessed: '2026-11-07'
+- url: https://cornellsun.com/2022/11/30/lack-of-nearby-grocery-stores-leave-students-with-limited-options/
+  title: Lack of Nearby Grocery Stores Leave Students With Limited Options, The Cornell Daily Sun, November 30, 2022
+  accessed: '2026-11-07'
+- url: https://cornellsun.com/2023/05/03/culinary-autonomy-cooking-for-yourself
+  title: 'Culinary Autonomy: Cooking for Yourself, The Cornell Daily Sun, May 3, 2023'
+  accessed: '2026-11-07'
+- url: https://cornellsun.com/2023/09/27/obaseki-a-brokies-guide-to-having-no-meal-plan/
+  title: A Broke Student's Guide to Having No Meal Plan, The Cornell Daily Sun, September 27, 2023
+  accessed: '2026-11-07'
+images:
+- file: 1.webp
+  alt: Women in fashion design(Garment Making) or tailoring
+  caption: Women in fashion design(Garment Making) or tailoring
+  credit: Ruky Wunpini / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Women_in_fashion_design(Garment_Making)_or_tailoring.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 Cooking every meal yourself costs about $2,960 a year in groceries by our estimate, built on [USDA's September 2026 food plan costs](https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf) and 36 weeks of the school year. The cheapest debit plans are [Just Bucks at $1,000 a year and Off-Campus Value at $1,824.60 a year for 2026-27](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans). Those two do not feed you for the year on their own, so most off-campus students who cook still pair groceries with a small plan or none. Cooking works out to about $3.90 a meal; a dining room swipe on the bigger plans works out to $12 to $17. Cook most meals, and add a plan only for the days you will really eat on campus.

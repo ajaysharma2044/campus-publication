@@ -1,6 +1,6 @@
 ---
-title: "Do you need a car at Cornell? Costs vs the alternatives"
-meta: "Most Cornell students skip the car. A resident permit runs about $753 a year, TCAT is free for first-years, and Ithaca Carshare covers errands."
+title: Do you need a car at Cornell? Costs vs the alternatives
+meta: Most Cornell students skip the car. A resident permit runs about $753 a year, TCAT is free for first-years, and Ithaca Carshare covers errands.
 primary_query: should I bring a car cornell ithaca cost
 topic: money
 school: cornell-university
@@ -8,17 +8,44 @@ type: decision
 updated: 2026-11-07
 queue_id: q-money-0014
 sources:
-  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking/parking-students", title: "Parking for Students, Cornell Transportation Services", accessed: "2026-11-07"}
-  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus", title: "Parking on Campus, Cornell Transportation Services", accessed: "2026-11-07"}
-  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", title: "Bus Services Privileges and Passes, Cornell Transportation Services", accessed: "2026-11-07"}
-  - {url: "https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing", title: "Ride and Car Sharing, Cornell Sustainable Campus", accessed: "2026-11-07"}
-  - {url: "https://www.ithacacarshare.org/students-commuters/", title: "Students and Commuters, Ithaca Carshare", accessed: "2026-11-07"}
-  - {url: "https://www.ithacacarshare.org/eligibility/", title: "Eligibility, Ithaca Carshare", accessed: "2026-11-07"}
-  - {url: "https://www.ithacacarshare.org/", title: "Ithaca Carshare", accessed: "2026-11-07"}
-  - {url: "https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk", title: "OurBus expands Ithaca to New York City service, The Cornell Daily Sun, September 2026", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/2024/11/03/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free/", title: "Non-first-year Cornell students no longer able to access TCAT for free, The Cornell Daily Sun, November 3, 2024", accessed: "2026-11-07"}
-  - {url: "https://talk.collegeconfidential.com/t/should-i-bring-a-car/1811430", title: "Should I bring a car?, College Confidential", accessed: "2026-11-07"}
-images: []
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking/parking-students
+  title: Parking for Students, Cornell Transportation Services
+  accessed: '2026-11-07'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus
+  title: Parking on Campus, Cornell Transportation Services
+  accessed: '2026-11-07'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
+  title: Bus Services Privileges and Passes, Cornell Transportation Services
+  accessed: '2026-11-07'
+- url: https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing
+  title: Ride and Car Sharing, Cornell Sustainable Campus
+  accessed: '2026-11-07'
+- url: https://www.ithacacarshare.org/students-commuters/
+  title: Students and Commuters, Ithaca Carshare
+  accessed: '2026-11-07'
+- url: https://www.ithacacarshare.org/eligibility/
+  title: Eligibility, Ithaca Carshare
+  accessed: '2026-11-07'
+- url: https://www.ithacacarshare.org/
+  title: Ithaca Carshare
+  accessed: '2026-11-07'
+- url: https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk
+  title: OurBus expands Ithaca to New York City service, The Cornell Daily Sun, September 2026
+  accessed: '2026-11-07'
+- url: https://cornellsun.com/2024/11/03/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free/
+  title: Non-first-year Cornell students no longer able to access TCAT for free, The Cornell Daily Sun, November 3, 2024
+  accessed: '2026-11-07'
+- url: https://talk.collegeconfidential.com/t/should-i-bring-a-car/1811430
+  title: Should I bring a car?, College Confidential
+  accessed: '2026-11-07'
+images:
+- file: 1.webp
+  alt: Road construction crew grading on Soos Creek, vicinity of Auburn, King County, Washington, 1915 (INDOCC 567)
+  caption: Road construction crew grading on Soos Creek, vicinity of Auburn, King County, Washington, 1915 (IND
+  credit: Unknown author Unknown author / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Road_construction_crew_grading_on_Soos_Creek,_vicinity_of_Auburn,_King_County,_Washington,_1915_(INDOCC_567).jpg
+  license: Public domain
+  license_url: ''
 ---
 
 Most Cornell students do not need a car, and the numbers explain why. A resident permit is about $753 a year and sold in limited numbers, first-year students ride TCAT buses free, and Ithaca Carshare covers the occasional errand for $30 a year plus usage. A car makes sense mainly if you live off campus far from a bus line, commute, or have a regular trip home that no bus serves. **All permit and TCAT prices below come from Cornell pages labeled 2025-26. Rates for 2026-27 were not posted when we checked, so confirm them on Cornell's page before you buy.**

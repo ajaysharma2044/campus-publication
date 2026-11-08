@@ -1,22 +1,45 @@
 ---
-title: "Collegetown vs Fall Creek vs downtown Ithaca: where to live"
-meta: "Collegetown is closest and loudest, Fall Creek is quieter with a steep walk, downtown has the best bus access. Pick by your situation."
-primary_query: "collegetown vs fall creek vs downtown ithaca where to live"
+title: 'Collegetown vs Fall Creek vs downtown Ithaca: where to live'
+meta: Collegetown is closest and loudest, Fall Creek is quieter with a steep walk, downtown has the best bus access. Pick by your situation.
+primary_query: collegetown vs fall creek vs downtown ithaca where to live
 topic: housing
 school: cornell-university
 type: decision
 updated: 2026-11-07
 queue_id: q-housing-0003
 sources:
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", title: "Ithaca Neighborhoods, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/", title: "Collegetown, Ithaca, NY Rental Market Trends, RentCafe", accessed: "2026-11-07"}
-  - {url: "https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/", title: "Ithaca, NY Rental Market Trends, RentCafe", accessed: "2026-11-07"}
-  - {url: "https://www.veryapt.com/guides/neighborhood/372-ithaca-fall-creek/", title: "Fall Creek, VeryApt neighborhood guide", accessed: "2026-11-07"}
-  - {url: "https://www.veryapt.com/guides/neighborhood/366-ithaca-downtown-ithaca/", title: "Downtown Ithaca, VeryApt neighborhood guide", accessed: "2026-11-07"}
-  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes", title: "Bus Services, Privileges, OmniRide Passes, Cornell Transportation", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/", title: "The tale of Cornell's broken housing market, The Cornell Daily Sun, August 4, 2022", accessed: "2026-11-07"}
-  - {url: "https://offcampus.housing.cornell.edu/", title: "Off-Campus Housing Marketplace, Cornell", accessed: "2026-11-07"}
-images: []
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+  title: Ithaca Neighborhoods, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+- url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/
+  title: Collegetown, Ithaca, NY Rental Market Trends, RentCafe
+  accessed: '2026-11-07'
+- url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/
+  title: Ithaca, NY Rental Market Trends, RentCafe
+  accessed: '2026-11-07'
+- url: https://www.veryapt.com/guides/neighborhood/372-ithaca-fall-creek/
+  title: Fall Creek, VeryApt neighborhood guide
+  accessed: '2026-11-07'
+- url: https://www.veryapt.com/guides/neighborhood/366-ithaca-downtown-ithaca/
+  title: Downtown Ithaca, VeryApt neighborhood guide
+  accessed: '2026-11-07'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes
+  title: Bus Services, Privileges, OmniRide Passes, Cornell Transportation
+  accessed: '2026-11-07'
+- url: https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/
+  title: The tale of Cornell's broken housing market, The Cornell Daily Sun, August 4, 2022
+  accessed: '2026-11-07'
+- url: https://offcampus.housing.cornell.edu/
+  title: Off-Campus Housing Marketplace, Cornell
+  accessed: '2026-11-07'
+images:
+- file: 1.webp
+  alt: Cornell University - Cascadilla Bridge entrance to Campus
+  caption: Cornell University - Cascadilla Bridge entrance to Campus
+  credit: Souvenir Post Card Co. (publisher) / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Cascadilla_Bridge_entrance_to_Campus.jpg
+  license: Public domain
+  license_url: ''
 ---
 
 If you are an undergraduate who wants to be close to classes and friends, live in Collegetown and accept the rent and the noise. If you are a graduate student, or you want quiet and a lower price, look at Fall Creek or downtown and plan on the bus. Cornell's own housing guide puts Collegetown [0.1 to 0.5 miles from campus](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods), Fall Creek 0.5 to 1 mile and downtown 0.5 to 1.5 miles, with the last two a 20 to 30 minute uphill walk. Rents are the weak spot in the public data, so the numbers below come with caveats.

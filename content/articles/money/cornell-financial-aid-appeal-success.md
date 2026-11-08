@@ -1,6 +1,6 @@
 ---
-title: "Cornell financial aid appeals: what works, by situation"
-meta: "Cornell says appeals can consider documented job loss, errors or major medical bills, not rival offers or cost. What to file for each."
+title: 'Cornell financial aid appeals: what works, by situation'
+meta: Cornell says appeals can consider documented job loss, errors or major medical bills, not rival offers or cost. What to file for each.
 primary_query: cornell financial aid appeal success
 topic: money
 school: cornell-university
@@ -8,12 +8,29 @@ type: decision
 updated: 2026-11-07
 queue_id: q-money-0006
 sources:
-  - {url: "https://finaid.cornell.edu/node/41699", title: "Financial Aid Appeals, Cornell Student Financial Services", accessed: "2026-11-07"}
-  - {url: "https://finaid.cornell.edu/special-circumstances", title: "Special Circumstances, Cornell Student Financial Services", accessed: "2026-11-07"}
-  - {url: "https://talk.collegeconfidential.com/t/has-anyone-had-success-appealing-their-cornell-financial-aid-offer/3702366", title: "Has anyone had success appealing their Cornell financial aid offer?, College Confidential", accessed: "2026-11-07"}
-  - {url: "https://www.collegexpress.com/articles-and-advice/financial-aid/articles/financial-aid-admissions/how-appeal-your-college-financial-aid-package/", title: "How to Appeal Your College Financial Aid Package, CollegeXpress", accessed: "2026-11-07"}
-  - {url: "https://www.finaid.cornell.edu/appeal-application", title: "Financial Aid Appeal Form, Cornell Student Financial Services", accessed: "2026-11-07"}
-images: []
+- url: https://finaid.cornell.edu/node/41699
+  title: Financial Aid Appeals, Cornell Student Financial Services
+  accessed: '2026-11-07'
+- url: https://finaid.cornell.edu/special-circumstances
+  title: Special Circumstances, Cornell Student Financial Services
+  accessed: '2026-11-07'
+- url: https://talk.collegeconfidential.com/t/has-anyone-had-success-appealing-their-cornell-financial-aid-offer/3702366
+  title: Has anyone had success appealing their Cornell financial aid offer?, College Confidential
+  accessed: '2026-11-07'
+- url: https://www.collegexpress.com/articles-and-advice/financial-aid/articles/financial-aid-admissions/how-appeal-your-college-financial-aid-package/
+  title: How to Appeal Your College Financial Aid Package, CollegeXpress
+  accessed: '2026-11-07'
+- url: https://www.finaid.cornell.edu/appeal-application
+  title: Financial Aid Appeal Form, Cornell Student Financial Services
+  accessed: '2026-11-07'
+images:
+- file: 1.webp
+  alt: St. Louis Post-Dispatch of St. Louis, Missouri on August 2, 1943
+  caption: St. Louis Post-Dispatch of St. Louis, Missouri on August 2, 1943
+  credit: Unknown author Unknown author / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:St._Louis_Post-Dispatch_of_St._Louis,_Missouri_on_August_2,_1943.jpg
+  license: Public domain
+  license_url: ''
 ---
 
 Yes, Cornell does change aid on appeal, but only for a narrow set of documented reasons, and we found no published success rate and no first-hand report of a win. Cornell's own page says an appeal is [a request to reconsider the specific information you provided on your financial aid application](https://finaid.cornell.edu/node/41699), and an approved one lowers your expected family contribution and raises your grant or endowed scholarship aid. Job loss, a big unreimbursed medical bill and an error on your application are in. Cost alone, a better offer from another school and a sibling in college are not. Below, each situation, what to attach and what to expect.

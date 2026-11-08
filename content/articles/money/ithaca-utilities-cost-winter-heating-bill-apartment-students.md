@@ -1,19 +1,36 @@
 ---
-title: "Ithaca winter utility bills: what to expect and ask"
-meta: "State winter forecasts put gas heat near $241 a month and Ithaca electric near $280. Ask the landlord for last winter's bills and what heats the unit."
-primary_query: "ithaca utilities cost winter heating bill apartment students"
+title: 'Ithaca winter utility bills: what to expect and ask'
+meta: State winter forecasts put gas heat near $241 a month and Ithaca electric near $280. Ask the landlord for last winter's bills and what heats the unit.
+primary_query: ithaca utilities cost winter heating bill apartment students
 topic: money
 school: cornell-university
 type: how-to
 updated: 2026-11-07
 queue_id: q-money-0017
 sources:
-  - {url: "https://dps.ny.gov/winter", title: "Winter Preparedness Overview, NYS Department of Public Service", accessed: "2026-11-07"}
-  - {url: "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/", title: "Cost of electricity in Ithaca, NY, EnergySage", accessed: "2026-11-07"}
-  - {url: "https://www.ithaca.edu/sustainability-ithaca/resources/energy", title: "On-Campus Energy Efficiency, Ithaca College", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", title: "Ithaca Neighborhoods, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations", title: "Checklists and Considerations, Cornell Student & Campus Life", accessed: "2026-11-07"}
-images: []
+- url: https://dps.ny.gov/winter
+  title: Winter Preparedness Overview, NYS Department of Public Service
+  accessed: '2026-11-07'
+- url: https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/
+  title: Cost of electricity in Ithaca, NY, EnergySage
+  accessed: '2026-11-07'
+- url: https://www.ithaca.edu/sustainability-ithaca/resources/energy
+  title: On-Campus Energy Efficiency, Ithaca College
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+  title: Ithaca Neighborhoods, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+  title: Checklists and Considerations, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+images:
+- file: 1.webp
+  alt: Ithaca - Winter scene in Ithaca Gorge
+  caption: Ithaca - Winter scene in Ithaca Gorge
+  credit: The Corner Bookstores, Ithaca / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca_-_Winter_scene_in_Ithaca_Gorge.jpg
+  license: Public domain
+  license_url: ''
 ---
 
 Budget roughly $240 to $315 a month for a whole unit's winter heat and electricity if it heats with gas, or about $280 a month if it heats with electricity, then divide by your roommates and confirm with the landlord's past bills. Those figures come from New York's utility regulator, which forecasts [about $241 a month for gas during the November to March heating season](https://dps.ny.gov/winter) in 2026-27 (based on 140 therms a month), and from EnergySage, which reports an Ithaca average of [about $280 a month on about 1,116 kWh](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/). Neither is Ithaca student-apartment data, and we found none published. The most useful move is to ask the landlord for last winter's bills for the exact unit and to find out what heats it.

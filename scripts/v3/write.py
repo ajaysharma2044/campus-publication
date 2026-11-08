@@ -279,8 +279,6 @@ def restore_rewrite(side: dict, queue_path: Path, log) -> None:
     backup, art = Path(side["backup"]), Path(side["article"])
     if backup.exists():
         shutil.copy2(backup, art)
-    for new_path in (Path(side["article"]).parent.parent.parent / "reviews" / f"{side['slug']}.json",):
-        pass
     for orig, moved in (side.get("moved") or {}).items():
         if Path(moved).exists():
             Path(orig).unlink(missing_ok=True)
@@ -703,8 +701,6 @@ def main(argv: list[str]) -> int:
             sessions.save_prompt(step, r["id"], prompt)
             jobs.append({"id": r["id"], "prompt": prompt, "expect": [str(f) for f in ctx["files"]], "prepare": prepare(ctx), "check": final_check(ctx), "ctx": ctx})
         elif ctx["kind"] in two_draft_kinds and not a.fix:
-            if ctx["kind"] == "rewrite" and ctx["page"].exists():
-                pass
             drafts = {}
             for org, desc in ORGANIZATIONS.items():
                 draft = P.drafts / ctx["slug"] / f"{org}.md"

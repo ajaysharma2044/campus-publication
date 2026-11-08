@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}{{ s.title }} | {{ site.name }}{% endblock %}
+{% block content %}
+<div class="container"><article class="article">
+  <p class="eyebrow"><a href="/">Start here</a></p>
+  <h1>{{ s.title }}</h1>
+  <p class="deck measure">{{ s.meta }}</p>
+  {% if s.updated_text %}<div class="byline"><span>Updated <time datetime="{{ s.updated_iso }}">{{ s.updated_text }}</time></span></div>{% endif %}
+  <div class="prose measure start-path">{{ s.body_html|safe }}</div>
+  {% include "_feedback.html" %}
+</article></div>
+{% endblock %}

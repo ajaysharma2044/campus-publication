@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}{{ t.title }} | {{ site.name }}{% endblock %}
+{% block content %}
+<div class="container"><article class="article">
+  <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="{{ t.topic_href }}">{{ t.topic_label }}</a></li><li><a href="/tools/">Tools</a></li><li><span aria-current="page">{{ t.title }}</span></li></ol></nav>
+  <h1>{{ t.title }}</h1>
+  <p class="deck measure">{{ t.meta }}</p>
+  <div class="byline"><span>Numbers as of <time datetime="{{ t.as_of_iso }}">{{ t.as_of_text }}</time></span><span>Updated <time datetime="{{ t.updated_iso }}">{{ t.updated_text }}</time></span><span>Runs in your browser; nothing you type is stored or sent</span></div>
+  <section class="tool-embed tool-embed--page" aria-label="{{ t.title }}">{{ t.fragment|safe }}</section>
+  <div class="prose measure">{{ t.body_html|safe }}</div>
+  {% if t.used_in %}
+  <section class="related" aria-labelledby="used-h"><h2 id="used-h" class="section-head">Guides that use this tool</h2>
+    <ul class="entry-points">{% for a in t.used_in %}<li><a href="{{ a.path }}">{{ a.title }}</a><span class="state">{{ a.topic_label }}</span></li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+  {% include "_feedback.html" %}
+  <section class="sources" aria-labelledby="sources-h"><h2 id="sources-h" class="section-head">Sources for the numbers</h2>
+    {% if t.sources %}<ol>{% for s in t.sources %}<li><a href="{{ s.url }}" rel="noopener">{{ s.title }}</a>{% if s.accessed %} <span class="meta">accessed {{ s.accessed }}</span>{% endif %}</li>{% endfor %}</ol>
+    {% else %}<p class="coverage-note">This tool lists no external sources.</p>{% endif %}
+    <p class="corrections-link">A number looks wrong? <a href="/corrections/">Tell us and we will check it</a>.</p>
+  </section>
+</article></div>
+{% endblock %}

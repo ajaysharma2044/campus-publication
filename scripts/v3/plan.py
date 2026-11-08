@@ -128,7 +128,7 @@ def validate(rows: list[dict], *, reader_keys: set[str], on_disk: dict[str, set[
         kind = r["kind"].strip().lower().replace("-", "_").replace(" ", "_")
         kind = {"reader": "reader_guide", "readerguide": "reader_guide", "starthere": "start_here", "start": "start_here", "data": "dataset"}.get(kind, kind)
         if kind not in KINDS:
-            errors.append(f"{label}: kind {r['kind']!r} is not one of {', '.join(KINDS)}; row dropped")
+            warnings.append(f"{label}: kind {r['kind']!r} is not one of {', '.join(KINDS)}; row dropped")
             continue
         slug = r["slug"].strip().strip("`/").lower()
         if not SLUG_RE.match(slug) or len(slug) > 60:
@@ -136,11 +136,11 @@ def validate(rows: list[dict], *, reader_keys: set[str], on_disk: dict[str, set[
             warnings.append(f"{label}: slug {r['slug']!r} is not lowercase-hyphen (60 max); using {fixed!r}")
             slug = fixed
         if slug in seen:
-            errors.append(f"{slug}: duplicate slug; later row dropped")
+            warnings.append(f"{slug}: duplicate slug; the later row is dropped")
             continue
         seen.add(slug)
         if not r["title"]:
-            errors.append(f"{slug}: no title; row dropped")
+            warnings.append(f"{slug}: no title; row dropped")
             continue
         if len(r["title"]) > 60:
             warnings.append(f"{slug}: title is {len(r['title'])} characters (60 max; the writer shortens it)")

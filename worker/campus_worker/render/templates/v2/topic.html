@@ -5,8 +5,34 @@
   <p class="eyebrow"><a href="/">Topics</a></p>
   <h1>{{ topic.label }}</h1>
   <p class="deck measure">{{ topic.blurb }}</p>
+  {% if pillar %}
+  <section class="pillar-card" aria-labelledby="pillar-h">
+    <p class="eyebrow" id="pillar-h">Start with the complete guide</p>
+    <h2><a href="{{ pillar.path }}">{{ pillar.title }}</a></h2>
+    <p>{{ pillar.meta }}</p>
+    <p class="meta">Updated <time datetime="{{ pillar.updated_iso }}">{{ pillar.updated_text }}</time> · {{ pillar.reading_time }} min read</p>
+  </section>
+  {% endif %}
+  {% if starts %}
+  <section class="topic-aside" aria-labelledby="starts-h">
+    <h2 id="starts-h" class="section-head">Start here</h2>
+    <ul class="entry-points">{% for s in starts %}<li><a href="{{ s.path }}">{{ s.title }}</a><span class="state">{{ s.meta }}</span></li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+  {% if tools or datasets %}
+  <section class="topic-aside" aria-labelledby="tools-h">
+    <h2 id="tools-h" class="section-head">Tools and data</h2>
+    <ul class="entry-points">
+      {% for t in tools %}<li><a href="{{ t.path }}">{{ t.title }}</a><span class="state">Tool · numbers as of {{ t.as_of_text }}</span></li>{% endfor %}
+      {% for d in datasets %}<li><a href="{{ d.path }}">{{ d.title }}</a><span class="state">Dataset · {{ d.as_of_text }}</span></li>{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+  {% if articles %}
+  <h2 class="section-head">{% if pillar %}Guides{% else %}All guides{% endif %}</h2>
   <ul class="story-list">{% for a in articles %}
-    <li><p class="eyebrow">{% if a.type_label %}{{ a.type_label }} · {% endif %}<time datetime="{{ a.updated_iso }}">{{ a.updated_text }}</time></p><h2><a href="{{ a.path }}">{{ a.title }}</a></h2><p>{{ a.meta }}</p></li>
+    <li><p class="eyebrow">{% if a.kind_label %}{{ a.kind_label }} · {% elif a.type_label %}{{ a.type_label }} · {% endif %}<time datetime="{{ a.updated_iso }}">{{ a.updated_text }}</time></p><h2><a href="{{ a.path }}">{{ a.title }}</a></h2><p>{{ a.meta }}</p></li>
   {% endfor %}</ul>
+  {% endif %}
 </article></div>
 {% endblock %}

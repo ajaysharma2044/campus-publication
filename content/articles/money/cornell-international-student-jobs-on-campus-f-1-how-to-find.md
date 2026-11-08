@@ -1,6 +1,6 @@
 ---
-title: "How international students find on-campus jobs at Cornell"
-meta: "F-1 and J-1 students can work up to 20 hours a week on campus for Cornell: search Workday, complete the I-9, then get an SSN. Steps and limits."
+title: How international students find on-campus jobs at Cornell
+meta: 'F-1 and J-1 students can work up to 20 hours a week on campus for Cornell: search Workday, complete the I-9, then get an SSN. Steps and limits.'
 primary_query: cornell international student jobs on campus F-1 how to find
 topic: money
 school: cornell-university
@@ -8,16 +8,41 @@ type: how-to
 updated: 2026-11-07
 queue_id: q-money-0011
 sources:
-  - {url: "https://international.globallearning.cornell.edu/node/182", title: "On-Campus Work, Cornell Office of Global Learning", accessed: "2026-11-07"}
-  - {url: "https://international.globallearning.cornell.edu/node/185", title: "F-1 Curricular Practical Training, Cornell Office of Global Learning", accessed: "2026-11-07"}
-  - {url: "https://international.globallearning.cornell.edu/employment-and-taxes/apply-ssn", title: "Apply for a Social Security Number, Cornell Office of Global Learning", accessed: "2026-11-07"}
-  - {url: "https://international.globallearning.cornell.edu/employment-and-taxes/us-income-tax-basics", title: "U.S. Income Tax Basics, Cornell Office of Global Learning", accessed: "2026-11-07"}
-  - {url: "https://studentemployment.cornell.edu/find-a-job", title: "Find a Job, Cornell Student Employment", accessed: "2026-11-07"}
-  - {url: "https://studentemployment.cornell.edu/resources/i-9-form", title: "Completing Form I-9, Cornell Student Employment", accessed: "2026-11-07"}
-  - {url: "https://studentemployment.cornell.edu/frequently-asked-questions", title: "Frequently Asked Questions, Cornell Student Employment", accessed: "2026-11-07"}
-  - {url: "https://hr.cornell.edu/browse-self-service/workday-help-student-workers", title: "Workday Help for Student Workers, Cornell HR", accessed: "2026-11-07"}
-  - {url: "https://studentaffairs.tech.cornell.edu/student-life-2/international-students/employment-and-taxes", title: "Employment and Taxes, Cornell Tech Student & Academic Affairs", accessed: "2026-11-07"}
-images: []
+- url: https://international.globallearning.cornell.edu/node/182
+  title: On-Campus Work, Cornell Office of Global Learning
+  accessed: '2026-11-07'
+- url: https://international.globallearning.cornell.edu/node/185
+  title: F-1 Curricular Practical Training, Cornell Office of Global Learning
+  accessed: '2026-11-07'
+- url: https://international.globallearning.cornell.edu/employment-and-taxes/apply-ssn
+  title: Apply for a Social Security Number, Cornell Office of Global Learning
+  accessed: '2026-11-07'
+- url: https://international.globallearning.cornell.edu/employment-and-taxes/us-income-tax-basics
+  title: U.S. Income Tax Basics, Cornell Office of Global Learning
+  accessed: '2026-11-07'
+- url: https://studentemployment.cornell.edu/find-a-job
+  title: Find a Job, Cornell Student Employment
+  accessed: '2026-11-07'
+- url: https://studentemployment.cornell.edu/resources/i-9-form
+  title: Completing Form I-9, Cornell Student Employment
+  accessed: '2026-11-07'
+- url: https://studentemployment.cornell.edu/frequently-asked-questions
+  title: Frequently Asked Questions, Cornell Student Employment
+  accessed: '2026-11-07'
+- url: https://hr.cornell.edu/browse-self-service/workday-help-student-workers
+  title: Workday Help for Student Workers, Cornell HR
+  accessed: '2026-11-07'
+- url: https://studentaffairs.tech.cornell.edu/student-life-2/international-students/employment-and-taxes
+  title: Employment and Taxes, Cornell Tech Student & Academic Affairs
+  accessed: '2026-11-07'
+images:
+- file: 1.webp
+  alt: Printing the past- 3-D archaeology and the first Americans (32581836344)
+  caption: Printing the past- 3-D archaeology and the first Americans (32581836344)
+  credit: BLM Oregon & Washington / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Printing_the_past-_3-D_archaeology_and_the_first_Americans_(32581836344).jpg
+  license: Public domain
+  license_url: ''
 ---
 
 If you are on an F-1 or J-1 visa, you can work on campus for Cornell for up to 20 hours a week while classes are in session. You find the job yourself in Workday, complete the Form I-9 with the hiring department, and apply for a Social Security number once the job has started. F-1 students need no special work authorization. J-1 students need an authorization letter first. Here is the path in order, with the limits that can cost you your status.

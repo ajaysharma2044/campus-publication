@@ -1,20 +1,39 @@
 ---
-title: "Pharmacies near Cornell campus: hours and late options"
-meta: "The closest pharmacy is on campus at Cornell Health. Off campus, the latest counter closes at 9 PM on weekdays. Hours, transfers and bus notes."
-primary_query: "pharmacy near Cornell campus Ithaca"
+title: 'Pharmacies near Cornell campus: hours and late options'
+meta: The closest pharmacy is on campus at Cornell Health. Off campus, the latest counter closes at 9 PM on weekdays. Hours, transfers and bus notes.
+primary_query: pharmacy near Cornell campus Ithaca
 topic: daily-life
 school: cornell-university
 type: place
 updated: 2026-11-07
 queue_id: q-daily-life-0006
 sources:
-  - {url: "https://health.cornell.edu/services/pharmacy", title: "Cornell Health Pharmacy", accessed: "2026-11-07"}
-  - {url: "https://health.cornell.edu/services/pharmacy/vending", title: "Pharmacy vending machine, Cornell Health", accessed: "2026-11-07"}
-  - {url: "https://health.cornell.edu/get-care/hours", title: "Hours, Cornell Health", accessed: "2026-11-07"}
-  - {url: "https://www.wegmans.com/stores/ithaca-ny", title: "Wegmans Ithaca", accessed: "2026-11-07"}
-  - {url: "https://www.walgreens.com/locator/walgreens-330+pine+tree+rd-ithaca-ny-14850/id=19684", title: "Walgreens, 330 Pine Tree Rd, Ithaca", accessed: "2026-11-07"}
-  - {url: "https://www.walgreens.com/locator/walgreens-615+s+meadow+st-ithaca-ny-14850/id=19370", title: "Walgreens, 615 S Meadow St, Ithaca", accessed: "2026-11-07"}
-images: []
+- url: https://health.cornell.edu/services/pharmacy
+  title: Cornell Health Pharmacy
+  accessed: '2026-11-07'
+- url: https://health.cornell.edu/services/pharmacy/vending
+  title: Pharmacy vending machine, Cornell Health
+  accessed: '2026-11-07'
+- url: https://health.cornell.edu/get-care/hours
+  title: Hours, Cornell Health
+  accessed: '2026-11-07'
+- url: https://www.wegmans.com/stores/ithaca-ny
+  title: Wegmans Ithaca
+  accessed: '2026-11-07'
+- url: https://www.walgreens.com/locator/walgreens-330+pine+tree+rd-ithaca-ny-14850/id=19684
+  title: Walgreens, 330 Pine Tree Rd, Ithaca
+  accessed: '2026-11-07'
+- url: https://www.walgreens.com/locator/walgreens-615+s+meadow+st-ithaca-ny-14850/id=19370
+  title: Walgreens, 615 S Meadow St, Ithaca
+  accessed: '2026-11-07'
+images:
+- file: 1.webp
+  alt: LBX Pharmacy near Muqiao Station in Changsha
+  caption: LBX Pharmacy near Muqiao Station in Changsha
+  credit: Huangdan2060 / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:LBX_Pharmacy_near_Muqiao_Station_in_Changsha.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 The nearest pharmacy is on campus: the [Cornell Health pharmacy](https://health.cornell.edu/services/pharmacy), on Level 4 just inside the Ho Plaza entrance at 110 Ho Plaza. Off campus, the closest chains and Wegmans are a short bus or car ride away. Among the pharmacies we checked, none keeps its counter open past 9 PM, even on weekdays, so "open late" in Ithaca mostly means planning ahead, or using the 24/7 vending machine at Cornell Health for basic over-the-counter items.

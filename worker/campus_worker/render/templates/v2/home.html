@@ -6,10 +6,18 @@
     <p class="deck measure">Practical guides for students, parents and alumni of Cornell University and Ithaca: housing, getting around, classes, money, daily life, careers. Every hard fact links to the official page it came from, and student experience is attributed to where we read it.</p>
   </section>
 
+  {% if starts %}
+  <section class="home-section" aria-labelledby="start-head">
+    <h2 id="start-head" class="section-title">Start here</h2>
+    <p class="coverage-note measure">Pick the path that fits your situation; each one lists the right guides in the order you need them.</p>
+    <div class="topic-grid start-grid">{% for s in starts %}<a class="topic-tile" href="{{ s.path }}"><span class="topic-tile__label">{{ s.title }}</span><span class="topic-tile__blurb">{{ s.meta }}</span></a>{% endfor %}</div>
+  </section>
+  {% endif %}
+
   {% if latest %}
   <section class="home-section" aria-labelledby="latest-head">
     <h2 id="latest-head" class="section-title">Latest guides</h2>
-    <ol class="guide-list">{% for a in latest %}<li><span class="guide-list__date"><time datetime="{{ a.updated_iso }}">{{ a.updated_text }}</time></span><span class="guide-list__body"><a href="{{ a.path }}">{{ a.title }}</a><span class="guide-list__meta">{{ a.topic_label }}{% if a.type_label %} · {{ a.type_label }}{% endif %}</span></span></li>{% endfor %}</ol>
+    <ol class="guide-list">{% for a in latest %}<li><span class="guide-list__date"><time datetime="{{ a.updated_iso }}">{{ a.updated_text }}</time></span><span class="guide-list__body"><a href="{{ a.path }}">{{ a.title }}</a><span class="guide-list__meta">{{ a.topic_label }}{% if a.kind_label %} · {{ a.kind_label }}{% elif a.type_label %} · {{ a.type_label }}{% endif %}</span></span></li>{% endfor %}</ol>
   </section>
   {% endif %}
 
@@ -20,6 +28,17 @@
   </section>
   {% else %}
   <div class="typographic-cover"><p class="big">Guides are on the way.</p><p class="small">The first ones appear here as soon as they are reviewed.</p></div>
+  {% endif %}
+
+  {% if tools or datasets %}
+  <section class="home-section" aria-labelledby="tools-head">
+    <h2 id="tools-head" class="section-title">Tools and data</h2>
+    <ul class="entry-points">
+      {% for t in tools %}<li><a href="{{ t.path }}">{{ t.title }}</a><span class="state">Tool · numbers as of {{ t.as_of_text }}</span></li>{% endfor %}
+      {% for d in datasets %}<li><a href="{{ d.path }}">{{ d.title }}</a><span class="state">Dataset · {{ d.as_of_text }}{% if d.csv_href %} · CSV{% endif %}</span></li>{% endfor %}
+    </ul>
+    {% if tools %}<p class="coverage-note"><a href="/tools/">All tools</a>{% if datasets %} · <a href="/datasets/">All datasets</a>{% endif %}</p>{% elif datasets %}<p class="coverage-note"><a href="/datasets/">All datasets</a></p>{% endif %}
+  </section>
   {% endif %}
 </div>
 {% endblock %}

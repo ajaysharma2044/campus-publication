@@ -1,20 +1,39 @@
 ---
-title: "How to sublet an Ithaca apartment and get landlord consent"
-meta: "Check your lease, then ask in writing. In a New York building with four or more units, a landlord cannot unreasonably refuse a sublet."
-primary_query: "cornell summer sublet how to sublet apartment ithaca landlord permission"
+title: How to sublet an Ithaca apartment and get landlord consent
+meta: Check your lease, then ask in writing. In a New York building with four or more units, a landlord cannot unreasonably refuse a sublet.
+primary_query: cornell summer sublet how to sublet apartment ithaca landlord permission
 topic: housing
 school: cornell-university
 type: how-to
 updated: 2026-11-07
 queue_id: q-housing-0004
 sources:
-  - {url: "https://www.nysenate.gov/legislation/laws/RPP/226-B", title: "Real Property Law Section 226-b, Subletting and assignment, NY State Senate", accessed: "2026-11-07"}
-  - {url: "https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease", title: "Breaking a Lease, Cornell Law School Tenants Advocacy Program", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease", title: "Signing a Lease, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources", title: "Rental Listings & Resources, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://offcampus.housing.cornell.edu/", title: "Off-Campus Housing Marketplace, Cornell", accessed: "2026-11-07"}
-  - {url: "https://www.gradschool.cornell.edu/announcements/grad-tips-renting/", title: "Grad Tips: Renting, Cornell Graduate School", accessed: "2026-11-07"}
-images: []
+- url: https://www.nysenate.gov/legislation/laws/RPP/226-B
+  title: Real Property Law Section 226-b, Subletting and assignment, NY State Senate
+  accessed: '2026-11-07'
+- url: https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease
+  title: Breaking a Lease, Cornell Law School Tenants Advocacy Program
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+  title: Signing a Lease, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+  title: Rental Listings & Resources, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+- url: https://offcampus.housing.cornell.edu/
+  title: Off-Campus Housing Marketplace, Cornell
+  accessed: '2026-11-07'
+- url: https://www.gradschool.cornell.edu/announcements/grad-tips-renting/
+  title: 'Grad Tips: Renting, Cornell Graduate School'
+  accessed: '2026-11-07'
+images:
+- file: 1.webp
+  alt: Negro men, all coal miners, on the front steps of their house. One man rents the house and sublets to the other three...
+  caption: Negro men, all coal miners, on the front steps of their house. One man rents the house and sublets t
+  credit: Russell Lee / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Negro_men,_all_coal_miners,_on_the_front_steps_of_their_house._One_man_rents_the_house_and_sublets_to_the_other_three..._-_NARA_-_540941.jpg
+  license: Public domain
+  license_url: ''
 ---
 
 Read your lease first, then ask your landlord for consent in writing. In New York, if your building has four or more residential units, the landlord [cannot unreasonably withhold consent to a sublease](https://www.nysenate.gov/legislation/laws/RPP/226-B), and silence counts as a yes. You stay on the hook for the rent and any damage whoever lives there. Cornell's Off-Campus Living office answers lease questions at [607-255-2310](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease). Below: the steps, the legal clock, what landlords usually add, and where to list.

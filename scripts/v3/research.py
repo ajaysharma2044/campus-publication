@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -32,6 +33,31 @@ def demand_notes(topic: dict, out: Path) -> int:
     return len(rows)
 
 
+COMPLETE = re.compile(r"^## Lane complete:.*$", re.M)
+
+
+def lane_complete(path: Path) -> bool:
+    """A lane is done only when its file ends with the '## Lane complete: ...' line (docs/v3 catch-up, step 5)."""
+    if not path.exists():
+        return False
+    tail = path.read_text(encoding="utf-8").rstrip().splitlines()[-3:]
+    return any(COMPLETE.match(l) for l in tail)
+
+
+def merge_fragments(raw: Path, lane: str, log=print) -> None:
+    """One file per lane: fold any stray part files a session created (<lane>-b.md, <lane>-part2.md, <lane>.md.part2, <lane>-sections-*.md) into <lane>.md."""
+    target = raw / f"{lane}.md"
+    frags = sorted(p for p in raw.iterdir() if p.is_file() and p != target and (p.name.startswith(lane + "-") or p.name.startswith(lane + ".md.")) and p.suffix in (".md", ".part2", ".txt"))
+    for f in frags:
+        text = f.read_text(encoding="utf-8").strip()
+        if text:
+            cur = target.read_text(encoding="utf-8") if target.exists() else ""
+            cur = COMPLETE.sub("", cur).rstrip()   # the merged file is not complete until a session says so again
+            target.write_text(cur + f"\n\n<!-- merged from {f.name} -->\n" + text + "\n", encoding="utf-8")
+        f.unlink()
+        log(f"  merged {f.name} into {target.name}")
+
+
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(prog="research.sh", description=__doc__)
     ap.add_argument("topic")
@@ -41,6 +67,7 @@ def main(argv: list[str]) -> int:
     ap.add_argument("--max-turns", type=int, default=120)
     ap.add_argument("--timeout", type=int, default=7200)
     ap.add_argument("--deepen", action="store_true", help="extend each lane's existing notes (gaps against the scope) instead of starting fresh")
+    ap.add_argument("--force", action="store_true", help="rerun a lane even if its file ends with a Lane complete line")
     a = ap.parse_args(argv)
     t = topics().get(a.topic)
     if not t:
@@ -56,6 +83,12 @@ def main(argv: list[str]) -> int:
     for lane in [x.strip().upper() for x in a.lanes.split(",") if x.strip()]:
         name = LANES[lane]
         out = raw / f"{name}.md"
+        merge_fragments(raw, name, log)
+        if lane_complete(out) and not a.force:
+            log(f"  {a.topic}:{lane}: already complete ({out.relative_to(REPO)} ends with a Lane complete line); use --force to redo or --deepen to extend")
+            continue
+        if out.exists() and not a.deepen and out.read_text(encoding="utf-8").strip():
+            a.deepen = True   # an unfinished lane is continued in the same file, never restarted
         template = (REPO / "scripts/v3/prompts" / f"research-{name}.md").read_text(encoding="utf-8")
         deepen = ""
         if a.deepen and out.exists():
@@ -65,11 +98,14 @@ def main(argv: list[str]) -> int:
         prompt = sessions.fill(template, topic_title=t["title"], topic_scope=t["scope"], topic_slug=a.topic, topic_dir=t["dir"], out_path=str(out.relative_to(REPO)),
                                demand_path=str((raw / "demand-questions.md").relative_to(REPO)), today=date.today().isoformat(), deepen=deepen)
         jobs.append({"id": f"{a.topic}:{lane}", "prompt": prompt, "expect": [str(out)]})
+    if not jobs:
+        log("every requested lane is complete; nothing to run")
+        return 0
     st = sessions.run_jobs(jobs, workers=a.workers, label="research", model=a.model, max_turns=a.max_turns, allowed_tools=TOOLS, timeout_s=a.timeout, log=log)
     for j in jobs:
         f = Path(j["expect"][0])
         words = len(f.read_text(encoding="utf-8").split()) if f.exists() else 0
-        log(f"  {j['id']}: {words} words in {f.relative_to(REPO)}")
+        log(f"  {j['id']}: {words} words in {f.relative_to(REPO)}; {'complete' if lane_complete(f) else 'NOT complete (rerun research.sh to continue it)'}")
     log(f"research done: {st['ok']} ok, {st['failed']} failed; {st['sessions']} sessions; {st['hours']:.2f} h; {st['pauses']} pause(s)")
     return 0 if st["failed"] == 0 else 1
 

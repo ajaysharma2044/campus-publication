@@ -274,12 +274,19 @@ def main(argv: list[str]) -> int:
     p.add_argument("--force", action="store_true")
     sub.add_parser("approve").add_argument("--ids", help="comma-separated ids (default: every proposed row)")
     sub.add_parser("next-id").add_argument("topic", choices=TOPICS)
+    sub.add_parser("dedupe", help="merge rows that ask the same thing within a topic (the later row becomes rejected)")
     p = sub.add_parser("merge")
     p.add_argument("csv")
     p.add_argument("--topic", choices=TOPICS)
     p.add_argument("--approve", action="store_true")
     a = ap.parse_args(argv)
     path = Path(a.file)
+    if a.cmd == "dedupe":
+        pairs = dedupe(a.queue if hasattr(a, "queue") and a.queue else QUEUE)
+        for dup, kept_id in pairs:
+            print(f"{dup} -> duplicate of {kept_id}")
+        print(f"{len(pairs)} duplicate row(s) merged")
+        return 0
     if a.cmd == "list":
         rows = [r for r in read(path) if (not a.status or r["status"] == a.status) and (not a.topic or r["topic"] == a.topic)]
         if a.json:
@@ -313,3 +320,37 @@ def main(argv: list[str]) -> int:
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))
+
+
+def _tokens(*texts: str) -> set[str]:
+    import re as _re
+    stop = {"a", "an", "the", "of", "at", "in", "on", "for", "to", "and", "or", "is", "are", "do", "does", "how", "what", "when", "where", "which", "who", "my", "i", "can", "cornell", "ithaca", "students", "student"}
+    return {w for t in texts for w in _re.findall(r"[a-z0-9]+", (t or "").lower()) if w not in stop and len(w) > 2}
+
+
+def dedupe(path: Path | str = QUEUE, threshold: float = 0.8) -> list[tuple[str, str]]:
+    """Merge rows that ask the same thing (token Jaccard of question + primary query >= threshold within a topic): the earlier row
+    keeps its status and gains the other's demand evidence; the later row becomes rejected unless it is already published."""
+    merged = []
+    with locked(path):
+        rows = read(path)
+        kept: list[dict] = []
+        for r in rows:
+            if r["status"] in ("published",):
+                kept.append(r); continue
+            t = _tokens(r["question"], r["primary_query"])
+            dup = None
+            for k in kept:
+                if k["topic"] != r["topic"] or k["status"] == "rejected":
+                    continue
+                kt = _tokens(k["question"], k["primary_query"])
+                if t and kt and len(t & kt) / len(t | kt) >= threshold:
+                    dup = k; break
+            if dup is not None and r["status"] not in ("published",):
+                dup["demand_evidence"] = SEP.join(x for x in dict.fromkeys((dup["demand_evidence"] + SEP + r["demand_evidence"]).split(SEP)) if x)
+                r["status"] = "rejected"
+                r["angle"] = (r["angle"] + "; " if r["angle"] else "") + f"duplicate of {dup['id']}"
+                merged.append((r["id"], dup["id"]))
+            kept.append(r)
+        write(rows, path)
+    return merged

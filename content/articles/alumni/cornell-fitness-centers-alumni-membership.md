@@ -1,6 +1,6 @@
 ---
-title: "Can Cornell alumni use the campus gyms? What the rules say"
-meta: "Cornell's fitness center rules require current registration and list no alumni membership. Here is what that means and what to do in Ithaca."
+title: Can Cornell alumni use the campus gyms? What the rules say
+meta: Cornell's fitness center rules require current registration and list no alumni membership. Here is what that means and what to do in Ithaca.
 primary_query: Cornell Fitness Centers alumni membership
 topic: alumni
 school: cornell-university
@@ -8,17 +8,44 @@ type: decision
 updated: 2026-11-07
 queue_id: q-alumni-0008
 sources:
-  - {url: "https://scl.cornell.edu/recreation/fitness-centers/student-memberships-day-passes", title: "Student Memberships & Day Passes, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/recreation/recreation/fitness-centers/fitness-center-policies-faq", title: "Fitness Center Policies FAQ, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://hr.cornell.edu/understand-your-benefits/health-care/endowed/cphl-plan/wellness-recreation-membership", title: "Wellness Recreation Membership, Cornell Human Resources", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/recreation/recreation/employee-wellness-program/wellness-membership-policies-faqs", title: "Wellness Membership Policies & FAQs, Cornell Recreational Services", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/recreation/employee-wellness-program/employee-wellness-recreation-memberships/membership-perks", title: "Membership Perks, Cornell Recreational Services", accessed: "2026-11-07"}
-  - {url: "http://www.cornellclubnyc.com/member-resource-center", title: "Member Resource Center, The Cornell Club-New York", accessed: "2026-11-07"}
-  - {url: "https://www.ithacaymca.com", title: "YMCA of Ithaca & Tompkins County", accessed: "2026-11-07"}
-  - {url: "https://www.ithacaymca.com/membership/rates-and-discounts/", title: "Rates and Discounts, YMCA of Ithaca & Tompkins County", accessed: "2026-11-07"}
-  - {url: "https://www.islandhealthfitness.com", title: "Island Health & Fitness, Ithaca", accessed: "2026-11-07"}
-  - {url: "https://www.islandhealthfitness.com/become-a-member/", title: "Become a Member, Island Health & Fitness", accessed: "2026-11-07"}
-images: []
+- url: https://scl.cornell.edu/recreation/fitness-centers/student-memberships-day-passes
+  title: Student Memberships & Day Passes, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/recreation/recreation/fitness-centers/fitness-center-policies-faq
+  title: Fitness Center Policies FAQ, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+- url: https://hr.cornell.edu/understand-your-benefits/health-care/endowed/cphl-plan/wellness-recreation-membership
+  title: Wellness Recreation Membership, Cornell Human Resources
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/recreation/recreation/employee-wellness-program/wellness-membership-policies-faqs
+  title: Wellness Membership Policies & FAQs, Cornell Recreational Services
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/recreation/employee-wellness-program/employee-wellness-recreation-memberships/membership-perks
+  title: Membership Perks, Cornell Recreational Services
+  accessed: '2026-11-07'
+- url: http://www.cornellclubnyc.com/member-resource-center
+  title: Member Resource Center, The Cornell Club-New York
+  accessed: '2026-11-07'
+- url: https://www.ithacaymca.com
+  title: YMCA of Ithaca & Tompkins County
+  accessed: '2026-11-07'
+- url: https://www.ithacaymca.com/membership/rates-and-discounts/
+  title: Rates and Discounts, YMCA of Ithaca & Tompkins County
+  accessed: '2026-11-07'
+- url: https://www.islandhealthfitness.com
+  title: Island Health & Fitness, Ithaca
+  accessed: '2026-11-07'
+- url: https://www.islandhealthfitness.com/become-a-member/
+  title: Become a Member, Island Health & Fitness
+  accessed: '2026-11-07'
+images:
+- file: 1.webp
+  alt: Cornell Mayer
+  caption: Cornell Mayer
+  credit: Rights NRAO/AUI/NSF Photographer Woodruff T. Sullivan III Ph / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_Mayer.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 Probably not. Cornell's [fitness center policies](https://scl.cornell.edu/recreation/recreation/fitness-centers/fitness-center-policies-faq) say a valid and current registration status with the university is necessary for membership, with the exception of a day pass. Alumni are not currently registered, and none of the pages we read lists an alumni membership, alumni rate or community membership. We have not had a direct answer from Cornell Recreation, so treat this as what the published rules say, and email fitness@cornell.edu before you plan around a workaround.

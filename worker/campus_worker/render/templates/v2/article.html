@@ -4,12 +4,17 @@
 {% block content %}
 <div class="container"><div class="grid">
 <article class="article col-12 col-lg-8">
-  <p class="eyebrow"><a href="{{ a.topic_href }}">{{ a.topic_label }}</a>{% if a.type_label %} · {{ a.type_label }}{% endif %}</p>
+  {% if a.crumbs %}
+  <nav class="crumbs" aria-label="Breadcrumb"><ol>{% for c in a.crumbs %}<li>{% if c.href %}<a href="{{ c.href }}">{{ c.label }}</a>{% else %}<span aria-current="page">{{ c.label }}</span>{% endif %}</li>{% endfor %}</ol></nav>
+  {% else %}
+  <p class="eyebrow"><a href="{{ a.topic_href }}">{{ a.topic_label }}</a>{% if a.kind_label %} · {{ a.kind_label }}{% elif a.type_label %} · {{ a.type_label }}{% endif %}</p>
+  {% endif %}
   <h1>{{ a.title }}</h1>
-  <div class="byline"><span>Updated <time datetime="{{ a.updated_iso }}">{{ a.updated_text }}</time></span><span>{{ a.reading_time }} min read</span></div>
+  <div class="byline"><span>Updated <time datetime="{{ a.updated_iso }}">{{ a.updated_text }}</time></span><span>{{ a.reading_time }} min read</span>{% if a.crumbs and a.kind_label %}<span>{{ a.kind_label }}</span>{% endif %}</div>
   {{ a.lede_html|safe }}
   {% if a.disclosure %}<p class="aside-note disclosure--affiliate">{{ a.disclosure }}</p>{% endif %}
   <div class="prose measure">{{ a.body_html|safe }}</div>
+  {% include "_feedback.html" %}
   {% if a.related %}
   <section class="related" aria-labelledby="related-h"><h2 id="related-h" class="section-head">Related guides</h2>
     <ul class="entry-points">{% for r in a.related %}<li><a href="{{ r.path }}">{{ r.title }}</a><span class="state">{{ r.topic_label }}</span></li>{% endfor %}</ul>
@@ -23,4 +28,7 @@
 </article>
 {% if ads.sidebar %}<aside class="col-12 col-lg-4" aria-label="Advertisement">{{ ads.sidebar|safe }}</aside>{% endif %}
 </div></div>
+{% if a.has_readers %}
+<script>(function(){if(window.matchMedia&&window.matchMedia("(max-width: 599px)").matches){var d=document.querySelectorAll("details.reader[open]");for(var i=0;i<d.length;i++){d[i].removeAttribute("open");}}})();</script>
+{% endif %}
 {% endblock %}

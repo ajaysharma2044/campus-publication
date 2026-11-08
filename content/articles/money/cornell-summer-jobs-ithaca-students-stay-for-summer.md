@@ -1,6 +1,6 @@
 ---
-title: "Summer money options for Cornell students staying in Ithaca"
-meta: "Staying in Ithaca for summer? Campus jobs start at $16 an hour, summer housing runs $57 to $69.50 a night, and grants cover unpaid work."
+title: Summer money options for Cornell students staying in Ithaca
+meta: Staying in Ithaca for summer? Campus jobs start at $16 an hour, summer housing runs $57 to $69.50 a night, and grants cover unpaid work.
 primary_query: cornell summer jobs ithaca students stay for summer
 topic: money
 school: cornell-university
@@ -8,21 +8,56 @@ type: checklist
 updated: 2026-11-07
 queue_id: q-money-0018
 sources:
-  - {url: "https://www.studentemployment.cornell.edu/jobs/wages-and-classifications/student-wage-scale", title: "Student Wage Scale, Cornell Student Employment", accessed: "2026-11-07"}
-  - {url: "https://studentemployment.cornell.edu/important-dates", title: "Important Dates, Cornell Student Employment", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus", title: "Summer Housing on Campus, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/summer-meal-plans", title: "Summer Meal Plans 2026, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://experience.cornell.edu/opportunities/summer-experience-grant/requirements", title: "Summer Experience Grant requirements, Experience Cornell", accessed: "2026-11-07"}
-  - {url: "https://as.cornell.edu/careers/summer-experience-grant-funding", title: "Summer Experience Grants, College of Arts & Sciences", accessed: "2026-11-07"}
-  - {url: "https://as.cornell.edu/careers/pathways-internship-program", title: "Pathways Internship Program, College of Arts & Sciences", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/growth-opportunities/cornell-commitment/cornell-tradition/tradition-funding-options", title: "Tradition Funding Options, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://international.globallearning.cornell.edu/employment-and-taxes/f-1-cpt", title: "F-1 CPT, Cornell International Services", accessed: "2026-11-07"}
-  - {url: "https://career.cornell.edu/channels/search-for-a-job-internship/", title: "Jobs and Internships, Cornell Career Services", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/2022/06/09/international-students-share-summer-plans-in-ithaca-and-abroad/", title: "International students share summer plans in Ithaca and abroad, The Cornell Daily Sun, June 9, 2022", accessed: "2026-11-07"}
-  - {url: "https://as.cornell.edu/news/spotlight-summer-opportunities-work-around-ithaca", title: "Spotlight on the Summer: Opportunities to Work around Ithaca, College of Arts & Sciences", accessed: "2026-11-07"}
-  - {url: "https://alumni.cornell.edu/students/work-with-us", title: "Reunion student jobs, Alumni Affairs and Development", accessed: "2026-11-07"}
-  - {url: "https://smallfarms.cornell.edu/about/interns/now-hiring-student-positions/", title: "Now hiring student positions, Cornell Small Farms Program", accessed: "2026-11-07"}
-images: []
+- url: https://www.studentemployment.cornell.edu/jobs/wages-and-classifications/student-wage-scale
+  title: Student Wage Scale, Cornell Student Employment
+  accessed: '2026-11-07'
+- url: https://studentemployment.cornell.edu/important-dates
+  title: Important Dates, Cornell Student Employment
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus
+  title: Summer Housing on Campus, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/summer-meal-plans
+  title: Summer Meal Plans 2026, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+- url: https://experience.cornell.edu/opportunities/summer-experience-grant/requirements
+  title: Summer Experience Grant requirements, Experience Cornell
+  accessed: '2026-11-07'
+- url: https://as.cornell.edu/careers/summer-experience-grant-funding
+  title: Summer Experience Grants, College of Arts & Sciences
+  accessed: '2026-11-07'
+- url: https://as.cornell.edu/careers/pathways-internship-program
+  title: Pathways Internship Program, College of Arts & Sciences
+  accessed: '2026-11-07'
+- url: https://scl.cornell.edu/growth-opportunities/cornell-commitment/cornell-tradition/tradition-funding-options
+  title: Tradition Funding Options, Cornell Student & Campus Life
+  accessed: '2026-11-07'
+- url: https://international.globallearning.cornell.edu/employment-and-taxes/f-1-cpt
+  title: F-1 CPT, Cornell International Services
+  accessed: '2026-11-07'
+- url: https://career.cornell.edu/channels/search-for-a-job-internship/
+  title: Jobs and Internships, Cornell Career Services
+  accessed: '2026-11-07'
+- url: https://cornellsun.com/2022/06/09/international-students-share-summer-plans-in-ithaca-and-abroad/
+  title: International students share summer plans in Ithaca and abroad, The Cornell Daily Sun, June 9, 2022
+  accessed: '2026-11-07'
+- url: https://as.cornell.edu/news/spotlight-summer-opportunities-work-around-ithaca
+  title: 'Spotlight on the Summer: Opportunities to Work around Ithaca, College of Arts & Sciences'
+  accessed: '2026-11-07'
+- url: https://alumni.cornell.edu/students/work-with-us
+  title: Reunion student jobs, Alumni Affairs and Development
+  accessed: '2026-11-07'
+- url: https://smallfarms.cornell.edu/about/interns/now-hiring-student-positions/
+  title: Now hiring student positions, Cornell Small Farms Program
+  accessed: '2026-11-07'
+images:
+- file: 1.webp
+  alt: Kreta (GR), Asomatos, Kloster Preveli, Baum im Hof -- 2023 -- 8491
+  caption: Kreta (GR), Asomatos, Kloster Preveli, Baum im Hof -- 2023 -- 8491
+  credit: Dietmar Rabich / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Kreta_(GR),_Asomatos,_Kloster_Preveli,_Baum_im_Hof_--_2023_--_8491.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 You can earn money in Ithaca over the summer from an on-campus student job, a paid or funded internship, an off-campus seasonal job, or by subletting your own room, and the numbers only work if you plan housing and food first. Cornell's student wage scale starts at [$16.00 an hour for Level I in 2026](https://www.studentemployment.cornell.edu/jobs/wages-and-classifications/student-wage-scale), while campus summer housing costs [$57.00 a night for a double or $69.50 for a single](https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus), plus a $1.50 nightly admin fee.

@@ -1,6 +1,6 @@
 ---
-title: "Cornell student discounts in Ithaca: what each one saves"
-meta: "Ride TCAT free, get into the Johnson Museum free, take $45 off Carshare and 15% off Short Line. Here are the verified Ithaca student discounts."
+title: 'Cornell student discounts in Ithaca: what each one saves'
+meta: Ride TCAT free, get into the Johnson Museum free, take $45 off Carshare and 15% off Short Line. Here are the verified Ithaca student discounts.
 primary_query: how to save money at Cornell student discounts Ithaca
 topic: money
 school: cornell-university
@@ -8,18 +8,47 @@ type: roundup
 updated: 2026-11-07
 queue_id: q-money-0013
 sources:
-  - {url: "https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting", title: "Bus & Commuting, Cornell Campus Sustainability Office", accessed: "2026-11-07"}
-  - {url: "https://www.gradschool.cornell.edu/student-experience/student-perks-and-discounts/", title: "Student Perks and Discounts, Cornell Graduate School", accessed: "2026-11-07"}
-  - {url: "https://www.cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall", title: "From bikes to buses: how to sustainably navigate campus this fall, The Cornell Daily Sun, November 11, 2025", accessed: "2026-11-07"}
-  - {url: "https://www.coachusa.com/shortline/college-student-discounts/go-anytime", title: "Go Anytime student discount, Short Line", accessed: "2026-11-07"}
-  - {url: "https://fcs.cornell.edu/content/c2c-rates", title: "C2C rates, Cornell Facilities and Campus Services", accessed: "2026-11-07"}
-  - {url: "https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing", title: "Ridesharing & Carsharing, Cornell Campus Sustainability Office", accessed: "2026-11-07"}
-  - {url: "https://www.ithacacarshare.org/rates-plans/students-commuters/", title: "Students & Commuters, Ithaca Carshare", accessed: "2026-11-07"}
-  - {url: "https://museum.cornell.edu/visit/", title: "Visit, Herbert F. Johnson Museum of Art", accessed: "2026-11-07"}
-  - {url: "https://health.cornell.edu/node/25941", title: "Options for support at Cornell and in Ithaca, Cornell Health", accessed: "2026-11-07"}
-  - {url: "https://www.anabelsgrocery.org", title: "Anabel's Grocery", accessed: "2026-11-07"}
-  - {url: "https://theithacan.org/?p=3741", title: "Downtown Ithaca businesses attract students with new discount program, The Ithacan, October 8, 2014", accessed: "2026-11-07"}
-images: []
+- url: https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting
+  title: Bus & Commuting, Cornell Campus Sustainability Office
+  accessed: '2026-11-07'
+- url: https://www.gradschool.cornell.edu/student-experience/student-perks-and-discounts/
+  title: Student Perks and Discounts, Cornell Graduate School
+  accessed: '2026-11-07'
+- url: https://www.cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall
+  title: 'From bikes to buses: how to sustainably navigate campus this fall, The Cornell Daily Sun, November 11, 2025'
+  accessed: '2026-11-07'
+- url: https://www.coachusa.com/shortline/college-student-discounts/go-anytime
+  title: Go Anytime student discount, Short Line
+  accessed: '2026-11-07'
+- url: https://fcs.cornell.edu/content/c2c-rates
+  title: C2C rates, Cornell Facilities and Campus Services
+  accessed: '2026-11-07'
+- url: https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing
+  title: Ridesharing & Carsharing, Cornell Campus Sustainability Office
+  accessed: '2026-11-07'
+- url: https://www.ithacacarshare.org/rates-plans/students-commuters/
+  title: Students & Commuters, Ithaca Carshare
+  accessed: '2026-11-07'
+- url: https://museum.cornell.edu/visit/
+  title: Visit, Herbert F. Johnson Museum of Art
+  accessed: '2026-11-07'
+- url: https://health.cornell.edu/node/25941
+  title: Options for support at Cornell and in Ithaca, Cornell Health
+  accessed: '2026-11-07'
+- url: https://www.anabelsgrocery.org
+  title: Anabel's Grocery
+  accessed: '2026-11-07'
+- url: https://theithacan.org/?p=3741
+  title: Downtown Ithaca businesses attract students with new discount program, The Ithacan, October 8, 2014
+  accessed: '2026-11-07'
+images:
+- file: 1.webp
+  alt: Group of students playing Palestinian music at The People's University for Palestine at Cornell University
+  caption: Group of students playing Palestinian music at The People's University for Palestine at Cornell Un
+  credit: Hstoops / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Group_of_students_playing_Palestinian_music_at_%22The_People%27s_University_for_Palestine%22_at_Cornell_University.png
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
 ---
 
 The biggest savings for a Cornell student in Ithaca are free or cheap ones you only get by asking: TCAT rides are free in your first year, the Johnson Museum is free for everyone, Short Line takes 15% off bus tickets to New York, and Ithaca Carshare takes $45 off an annual membership. Below is each discount we could verify against an official page, what it saves, and which ones we could not confirm as current.
