@@ -1,0 +1,56 @@
+{
+  "slug": "cornell-international-student-jobs-on-campus-f-1-how-to-find",
+  "queue_id": "q-money-0011",
+  "verdict": "fix",
+  "fact_check": [
+    {"claim": "F-1 and J-1 students are limited to on-campus work for Cornell, paid by the university", "source_url": "https://international.globallearning.cornell.edu/node/182", "status": "ok", "note": "Page says F-1 and J-1 students may work only for Cornell in jobs the university pays for."},
+    {"claim": "Up to 20 hours a week while classes are in session and registered", "source_url": "https://international.globallearning.cornell.edu/node/182", "status": "ok", "note": "Page: 'Exactly 20 hours is the maximum weekly time you can work.'"},
+    {"claim": "20 hours is a total across all campus jobs / a combined total", "source_url": "https://international.globallearning.cornell.edu/node/182", "status": "unverifiable", "note": "The page gives 20 hours as the weekly maximum but the fetched text does not say 'across all jobs'. Reasonable inference, but the article states it as Cornell's rule in the table."},
+    {"claim": "Summer and winter breaks, not registered: full-time or part-time", "source_url": "https://international.globallearning.cornell.edu/node/182", "status": "ok", "note": "Matches."},
+    {"claim": "End of semester: full-time only after last class day and last exam; other non-class periods full-time but must end before classes resume", "source_url": "https://international.globallearning.cornell.edu/node/182", "status": "ok", "note": "Matches."},
+    {"claim": "Going over 20 hours, even once, is a serious violation of status; contact an International Services advisor", "source_url": "https://international.globallearning.cornell.edu/node/182", "status": "ok", "note": "Page uses 'a serious violation of your immigration status' and advises speaking with an advisor immediately."},
+    {"claim": "F-1 needs no special authorization; J-1 needs an authorization letter before starting, granted 12 months at a time", "source_url": "https://international.globallearning.cornell.edu/node/182", "status": "ok", "note": "Matches."},
+    {"claim": "J-1 with Cornell DS-2019 requests letter through iStart; other sponsors such as Fulbright issue their own letter", "source_url": "https://international.globallearning.cornell.edu/node/182", "status": "ok", "note": "Page links an online request form (iStart-style URL); other sponsors issue their own letter."},
+    {"claim": "Foreign national students not eligible for Federal Work Study; many campus jobs open anyway", "source_url": "https://international.globallearning.cornell.edu/node/182", "status": "ok", "note": "Matches."},
+    {"claim": "Form I-9 is done with the hiring department, not International Services; J-1 must update it annually", "source_url": "https://international.globallearning.cornell.edu/node/182", "status": "ok", "note": "Page says complete with hiring department; International Services does not process it; J-1 update annually."},
+    {"claim": "Authorization ends on finishing final semester, leave of absence, or I-20/DS-2019 expiry", "source_url": "https://international.globallearning.cornell.edu/node/182", "status": "ok", "note": "Matches."},
+    {"claim": "International students should visit International Services before seeking on-campus employment; cannot work during scheduled class times", "source_url": "https://studentemployment.cornell.edu/frequently-asked-questions", "status": "ok", "note": "Both stated on the FAQ."},
+    {"claim": "Paid bi-weekly on Thursdays, by direct deposit or paper check", "source_url": "https://studentemployment.cornell.edu/frequently-asked-questions", "status": "ok", "note": "Paid every two weeks on Thursdays; direct deposit or paper check."},
+    {"claim": "Resume and cover letter are the first step on the Find a Job page", "source_url": "https://studentemployment.cornell.edu/find-a-job", "status": "ok", "note": "Page's first step is 'Prepare' resume and cover letter."},
+    {"claim": "Part-time hourly student jobs are posted on the student job board in Workday", "source_url": "https://studentemployment.cornell.edu/find-a-job", "status": "ok", "note": "Matches."},
+    {"claim": "Student Employment says students are not placed in jobs and jobs are not guaranteed (linked to Find a Job page)", "source_url": "https://studentemployment.cornell.edu/find-a-job", "status": "mismatch", "note": "The cited Find a Job page does not contain this statement. It may be elsewhere on Cornell's student-employment or International Services pages, but the link given does not support it."},
+    {"claim": "Find a Job page warns about phishing; verify against IT Phish Bowl", "source_url": "https://studentemployment.cornell.edu/find-a-job", "status": "ok", "note": "Matches."},
+    {"claim": "Student Employment contact sesemp@cornell.edu and 607-255-5145", "source_url": "https://studentemployment.cornell.edu/find-a-job", "status": "ok", "note": "Page lists both (607.255.5145)."},
+    {"claim": "I-9 Section 1 by first day of work but not before accepting offer; documents within three business days; originals only, no photocopies or digital images", "source_url": "https://studentemployment.cornell.edu/resources/i-9-form", "status": "ok", "note": "Matches. Page says documents go to an authorized Cornell Representative."},
+    {"claim": "Student workers can submit the I-9 through Workday (linked to HR Workday help page)", "source_url": "https://hr.cornell.edu/browse-self-service/workday-help-student-workers", "status": "ok", "note": "HR page links a guide for students completing the electronic Form I-9 in Workday. The I-9 page itself says students get a Workday notification and present documents in person; the article could say so."},
+    {"claim": "HR has a how-to video on applying and a job aid and video for entering time", "source_url": "https://hr.cornell.edu/browse-self-service/workday-help-student-workers", "status": "ok", "note": "Student Job Application Tutorial video, time entry job aid and video all listed."},
+    {"claim": "Apply for SSN after at least 10 days in the U.S. and job started; 45 days to bring original documents to SSA office", "source_url": "https://international.globallearning.cornell.edu/employment-and-taxes/apply-ssn", "status": "ok", "note": "Matches."},
+    {"claim": "F-1 campus job SSN documents: passport, I-94, I-20, International Services eligibility letter, pay stub or hiring-department letter; J-1 letter required", "source_url": "https://international.globallearning.cornell.edu/employment-and-taxes/apply-ssn", "status": "ok", "note": "Matches (DS-2019 is the J-1 equivalent of I-20; article lists the eligibility letter for J-1, which is consistent)."},
+    {"claim": "Eligibility letter valid 30 days", "source_url": "https://international.globallearning.cornell.edu/employment-and-taxes/apply-ssn", "status": "ok", "note": "Matches."},
+    {"claim": "Ithaca SSA office at 127 West State Street, second floor of the Greenstate Building", "source_url": "https://international.globallearning.cornell.edu/employment-and-taxes/apply-ssn", "status": "ok", "note": "Matches."},
+    {"claim": "Page does not say whether you can work before SSN arrives; existing SSN means no new application", "source_url": "https://international.globallearning.cornell.edu/employment-and-taxes/apply-ssn", "status": "ok", "note": "Page does not address it directly; says an SSN is not a work permit; 'yours for life'."},
+    {"claim": "Federal and New York returns for 2026 tax year due April 15, 2027", "source_url": "https://international.globallearning.cornell.edu/employment-and-taxes/us-income-tax-basics", "status": "ok", "note": "Matches."},
+    {"claim": "With no income you must still send one form to the IRS; Sprintax provided free", "source_url": "https://international.globallearning.cornell.edu/employment-and-taxes/us-income-tax-basics", "status": "ok", "note": "Page: no return generally, but Form 8843 required. Article could name Form 8843."},
+    {"claim": "Many nonresidents exempt from Social Security and Medicare tax in first five years; ask employer for refund or claim when filing", "source_url": "https://international.globallearning.cornell.edu/employment-and-taxes/us-income-tax-basics", "status": "ok", "note": "Matches."},
+    {"claim": "Foreign National Questionnaire applies tax treaty benefits to campus pay", "source_url": "https://international.globallearning.cornell.edu/employment-and-taxes/us-income-tax-basics", "status": "ok", "note": "Matches."},
+    {"claim": "Cornell Tech encourages Masters students to limit work to 10 hours a week; advises against TurboTax", "source_url": "https://studentaffairs.tech.cornell.edu/student-life-2/international-students/employment-and-taxes", "status": "ok", "note": "Matches."},
+    {"claim": "CPT needs U.S.-based employer, job related to major, myStatus application, and new CPT I-20 before work", "source_url": "https://international.globallearning.cornell.edu/node/185", "status": "ok", "note": "Matches."}
+  ],
+  "beats_top": {
+    "query": "cornell international student jobs on campus F-1 how to find",
+    "top_url": "https://international.globallearning.cornell.edu/node/182",
+    "better": "yes",
+    "why": "The #1 result is Cornell's official rules page, which gives limits but not the ordered path (Workday search, I-9 timing, SSN sequencing, taxes). Our first paragraph answers the question and the steps fill that gap.",
+    "changes": [
+      "Fix the unsupported 'not placed, not guaranteed' attribution so every claim is traceable.",
+      "Name Form 8843 in the tax section and say how the I-9 is actually done (Workday notice, then original documents shown to a Cornell representative)."
+    ]
+  },
+  "fixes": [
+    "In step 3, remove the sentence 'Student Employment says students are not placed in jobs, and jobs are not guaranteed' with its link to https://studentemployment.cornell.edu/find-a-job (that page does not say it), or replace it with a link to an official Cornell page that does say it. Do not attribute it to the Find a Job page.",
+    "In the hours table and 'Common mistakes', either remove 'total across all campus jobs' and 'combined total' or present it as our reading of the 20-hour maximum rather than a Cornell statement; https://international.globallearning.cornell.edu/node/182 says only that exactly 20 hours is the weekly maximum.",
+    "In step 4, replace 'Student workers can submit the form through Workday' with wording the sources support: after hiring you get a Workday notification to complete Form I-9, then present original documents to an authorized Cornell representative (https://studentemployment.cornell.edu/resources/i-9-form); link the HR guide for students completing the I-9 in Workday (https://hr.cornell.edu/browse-self-service/workday-help-student-workers).",
+    "In the Taxes section, name the form you must send the IRS even with no U.S. income as Form 8843 (source https://international.globallearning.cornell.edu/employment-and-taxes/us-income-tax-basics) and note that you generally do not file a return in that case."
+  ],
+  "reviewed_at": "2026-11-07"
+}

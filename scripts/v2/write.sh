@@ -100,6 +100,10 @@ def revision_text(slug):
     d = json.loads(rev.read_text(encoding="utf-8"))
     lines = ["This is the one revision round. A reviewer checked the first draft. Read the current article, apply exactly these fixes, "
              "keep everything else as it is, then overwrite the file."]
+    if d.get("lint_fixes"):
+        lines += ["Publish checks (code) failed on these points; fix each one exactly and change nothing else:"] + [f"- {f}" for f in d["lint_fixes"]]
+        if d.get("verdict") == "pass":
+            lines.append("The fact check and the beats-#1 test already passed; do not alter facts, sources or structure beyond these points.")
     if d.get("fixes"):
         lines += ["Fixes:"] + [f"- {f}" for f in d["fixes"]]
     mism = [f for f in d.get("fact_check") or [] if f.get("status") == "mismatch"]

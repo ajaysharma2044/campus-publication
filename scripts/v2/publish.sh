@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Step 4 of docs/v2/spec.md: lint and publish. Code checks (scripts/v2/lint.py) over every article whose review verdict is pass
-# and whose row is not yet published; a clean article's row becomes published, a failing one is printed and stays unpublished.
+# and whose row is not yet published; a clean article's row becomes published; a failing one is printed and either waits (sources unreachable), goes to one
+# revision (text-level failures, status fix) or is rejected (duplicate, or failures after its revision).
 # Then scripts/v2/render_site.py renders build/site/ and scripts/deploy_netlify.sh deploys, every N newly published articles and
 # once more at the end. Log: build/runs/v2/publish-<timestamp>.log. No claude sessions in this step.
 set -euo pipefail
@@ -106,9 +107,28 @@ for r, art in cands:
         break
     errs = lint.lint_article(art, root=REPO, web=web, published=published, live=live)
     if errs:
-        log(f"FAIL {rel(art)} ({r['id']}) stays unpublished:")
+        log(f"FAIL {rel(art)} ({r['id']}):")
         for e in errs:
             log(f"  - {e}")
+        # what happens next depends on the kind of failure (spec: lint is code only, one revision per article)
+        transient = all(e.startswith("source url returned") for e in errs)
+        duplicate = any(e.startswith("near-duplicate") for e in errs)
+        rev = REPO / "content" / "reviews" / f"{art.stem}.json"
+        revised_before = (REPO / "content" / "reviews" / f"{art.stem}.prev.json").exists()
+        if transient:
+            log("  source pages unreachable right now; stays written, checked again next run")
+        elif duplicate:
+            q.set_status(r["id"], "rejected")
+            log("  duplicate of a published article -> rejected")
+        elif revised_before or not rev.exists():
+            q.set_status(r["id"], "rejected")
+            log("  text-level failures after the one revision -> rejected")
+        else:
+            d = json.loads(rev.read_text(encoding="utf-8"))
+            d["lint_fixes"] = errs
+            rev.write_text(json.dumps(d, indent=1, ensure_ascii=False), encoding="utf-8")
+            q.set_status(r["id"], "fix")
+            log("  text-level failures -> status fix (the one revision), review runs again after it")
         continue
     q.set_status(r["id"], "published")
     fm = q.frontmatter(art)

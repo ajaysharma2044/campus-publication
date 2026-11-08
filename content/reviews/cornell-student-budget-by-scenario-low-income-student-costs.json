@@ -1,0 +1,169 @@
+{
+ "slug": "cornell-student-budget-by-scenario-low-income-student-costs",
+ "queue_id": "q-money-0012",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Aid cost table: $96,318 billed, $3,416 non-billed, $99,734 total; table labeled 2025-26, 2026-27 table empty",
+   "source_url": "https://finaid.cornell.edu/cost-attend",
+   "status": "ok",
+   "note": "Tables are under the 2025-26 heading with those totals; the 2026-27 heading has tab labels but no values. Article now says exactly this (previous fix applied in lede, 'How we built', and figure title)."
+  },
+  {
+   "claim": "Fees $1,024 = $424 student activity fee + $600 Cornell Health fee; books $1,234; personal $2,182; transportation varies by region",
+   "source_url": "https://finaid.cornell.edu/cost-attend",
+   "status": "ok",
+   "note": "Matches the 2025-26 table and footnotes; article labels these as unconfirmed for 2026-27."
+  },
+  {
+   "claim": "SHP not in aid cost of attendance; students may request loan funding for it",
+   "source_url": "https://finaid.cornell.edu/cost-attend",
+   "status": "ok",
+   "note": "Page says SHP is not included in cost of attendance and loan funding may be requested."
+  },
+  {
+   "claim": "2026-27 tuition $73,946 (endowed colleges)",
+   "source_url": "https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters",
+   "status": "ok",
+   "note": "Trustees' announcement: $73,946, up 3.76%."
+  },
+  {
+   "claim": "Non-aided students' cost increase of $1,806 to $2,680 for 2026-27",
+   "source_url": "https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters",
+   "status": "ok",
+   "note": "Source gives that range as the increase for non-aided students."
+  },
+  {
+   "claim": "Families up to $75,000 (typical assets): grants, scholarships and work-study cover full cost of attendance; up to $125,000: grant aid covers tuition",
+   "source_url": "https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters",
+   "status": "ok",
+   "note": "Both statements appear in the announcement."
+  },
+  {
+   "claim": "Income up to $75,000: $0 expected contributions, no loans, typical $5,000 work-study award (no 'most'/'typical families')",
+   "source_url": "https://finaid.cornell.edu/affordability",
+   "status": "ok",
+   "note": "Page confirms $0 EFC, $0 loans, typical offer includes $5,000 work-study. Previous fix applied."
+  },
+  {
+   "claim": "Maximum loan $2,000 for $75,001-$125,000 and $4,000 for $125,001-$175,000",
+   "source_url": "https://finaid.cornell.edu/affordability",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Affordability page does not say whether aid covers books/personal; SHP is an optional cost loans can finance",
+   "source_url": "https://finaid.cornell.edu/affordability",
+   "status": "ok",
+   "note": "Page does not mention books or personal expenses; SHP listed as optional cost that loans can finance."
+  },
+  {
+   "claim": "Housing standard double $6,872 per semester, $13,744 per year, 2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Co-op double $3,487 to $4,981 per semester",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
+   "status": "ok",
+   "note": "Matches; rates vary by co-op."
+  },
+  {
+   "claim": "Unlimited meal plan $7,604 a year (2026-27)",
+   "source_url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+   "status": "ok",
+   "note": "$3,802 per semester, $7,604 per year. Bear Basic comparison has been removed from the full-pay scenario (previous fix applied)."
+  },
+  {
+   "claim": "Cornell Student Health Plan $4,092 for 12 months, about $341 a month",
+   "source_url": "https://studenthealthbenefits.cornell.edu/shp-costs-billing-important-dates/shp-costs-dates-2026-27",
+   "status": "ok",
+   "note": "Page: $4,092 for 12 months; 4,092/12 = 341."
+  },
+  {
+   "claim": "Fall waiver deadline July 31, 2026; spring new matriculated students January 21, 2027; spring reverification January 31, 2027; waiver approved every semester; after deadline a termination of coverage request is needed for a refund",
+   "source_url": "https://studenthealthbenefits.cornell.edu/node/179",
+   "status": "ok",
+   "note": "All present. Page says after the deadline waivers are locked and the only option is a termination of coverage request, which may result in a prorated refund. Previous fix applied."
+  },
+  {
+   "claim": "Ithaca grad/professional 2026-27: fees $701, housing $19,962, food $5,768, books $2,464, transportation $3,754, personal $4,196, non-billed subtotal $36,144; no health insurance line",
+   "source_url": "https://finaid.cornell.edu/graduate-students",
+   "status": "ok",
+   "note": "All match. 36,144/12 = $3,012; adding $701 fees gives 36,845/12 = $3,070."
+  },
+  {
+   "claim": "Stipend minimums effective Aug 21, 2026: $36,684 nine months; $48,912 12-month assistantship; $44,463 12-month fellowship",
+   "source_url": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+   "status": "ok",
+   "note": "Matches. Arithmetic checked: 36,684/9 = 4,076; /12 = 3,057 (about $13 below $3,070); 48,912/12 = 4,076, margin about $1,006; 44,463/12 = 3,705, margin about $635; $341 is about a third of $1,006 and over half of $635. Previous fix applied."
+  },
+  {
+   "claim": "Registered PhD students and graduate assistants get free TCAT OmniRide passes",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
+   "status": "ok",
+   "note": "Page says so."
+  },
+  {
+   "claim": "Students enrolled a year or more ride free after 6 p.m. weekdays and all day weekends; standard pass $200 a year, current rate shown at purchase",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
+   "status": "ok",
+   "note": "Page lists $200 per year as the general annual price and refers to MyParking for the current rate; the article hedges accordingly."
+  },
+  {
+   "claim": "Off-campus: look for housing costing less for 12 months than the off-campus budget; aid cannot cover deposit or rent in unregistered months; 607-255-5145, finaid@cornell.edu",
+   "source_url": "https://finaid.cornell.edu/special-circumstances/living-campus",
+   "status": "ok",
+   "note": "All present."
+  },
+  {
+   "claim": "Sun 2025: books, travel and professional clothing weigh on students (Michelle Van-Ess Grant, Centers for Student Equity, Empowerment, and Belonging)",
+   "source_url": "https://www.cornellsun.com/article/2025/09/financial-gymnastics-cornell-s-cost-of-attendance-surpasses-100k-for-some-students-in-2025-2026",
+   "status": "ok",
+   "note": "Source says costs beyond tuition can weigh heavily on first-generation and limited-income students; she is with the Centers. The title 'senior associate dean of students' did not appear in the page text I received, so it is unverified, but it is not a hard number."
+  },
+  {
+   "claim": "Parking $752.86 a year, OMNI Ride $200, gym $150 to $168 (2025-26), left out of the estimate",
+   "source_url": "https://www.cornellsun.com/article/2025/09/financial-gymnastics-cornell-s-cost-of-attendance-surpasses-100k-for-some-students-in-2025-2026",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Hayden Watkins, Student Assembly finance VP, said his family had to do 'some financial gymnastics, even with aid'; placed in partial-aid scenario",
+   "source_url": "https://www.cornellsun.com/article/2025/09/financial-gymnastics-cornell-s-cost-of-attendance-surpasses-100k-for-some-students-in-2025-2026",
+   "status": "ok",
+   "note": "Source paraphrase: family had to do 'financial gymnastics, even with aid'. The word 'some' sits outside the quoted words in my summary and the '28 class year was not shown; both minor and student-voice only, not a hard fact. Move is applied (previous fix)."
+  },
+  {
+   "claim": "Carlin Reyen estimated $450 a year for required books; has not bought books since first semester; Canvas syllabi, library, BorrowDirect; Anabel's Grocery in Anabel Taylor Hall low-priced and accepts SNAP",
+   "source_url": "https://www.cornellsun.com/article/2024/04/a-cheapskates-guide-to-navigating-cornell",
+   "status": "ok",
+   "note": "Source: 'Even with the CAMP Program, I would be paying $450 a year on books'; the rest matches. She is a Sun student columnist."
+  },
+  {
+   "claim": "Arithmetic: $3,416/9 = about $380; $5,000/9 = about $556; partial-aid ceiling $22,372 a year = $11,186 a semester = $2,486 a month, +$380 = $2,866; $2,000/9 = about $222; full pay $96,318/2 = $48,159, /9 = $10,702, +$380 = $11,082",
+   "source_url": "https://finaid.cornell.edu/cost-attend",
+   "status": "ok",
+   "note": "All recomputed and correct."
+  },
+  {
+   "claim": "Cornell gives no dollar figure for what families above $75,000 are expected to contribute; no published off-campus budget figure found",
+   "source_url": "https://finaid.cornell.edu/affordability",
+   "status": "unverifiable",
+   "note": "A claim of absence; the pages fetched give none, and the article says so and sends readers to calculators and the aid office. Acceptable."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell student budget by scenario low income student costs beyond tuition",
+  "top_url": "https://www.collegefactual.com/colleges/cornell-university/paying-for-college/",
+  "better": "yes",
+  "why": "The top result gives net price by income band and loan-payment projections, including implausible negative payments for low-income students, with no monthly living budget or Cornell/Ithaca cost lines. Our page answers in the first paragraph with a per-month figure for each of four situations, dated official sources and the arithmetic shown.",
+  "changes": []
+ },
+ "fixes": [],
+ "reviewed_at": "2026-11-07",
+ "lint_fixes": [
+  "banned phrase(s): navigating"
+ ]
+}

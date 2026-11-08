@@ -81,3 +81,7 @@ PRECISION (reviewers reject articles for these)
 - Attribute exactly: the speaker's name and role as the source gives them, and only the pronoun the source uses; otherwise "the article" or "one poster". Never merge two people's words into one voice.
 - A paraphrase may not add detail the source lacks. Definitions, categories, rules and eligibility use the official page's own words or a tight paraphrase of them.
 - In a fix revision, apply every listed fix, then re-read the list and confirm each item is done before you write the file.
+
+BEFORE YOU WRITE THE FILE, check your own draft: the title is 60 characters or fewer; the meta is 120 to 155 characters (count them);
+no em dash character anywhere; none of the banned words (navigating, it's important to note, delve, vibrant, journey, seamless, robust,
+leverage, unlock, dive into, in today's); every internal link points at an existing article or topic page. Fix, then write.

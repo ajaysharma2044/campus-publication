@@ -1,0 +1,48 @@
+{
+  "slug": "ithaca-utilities-cost-winter-heating-bill-apartment-students",
+  "queue_id": "q-money-0017",
+  "verdict": "fix",
+  "fact_check": [
+    {"claim": "Gas-heat household pays about $241 a month during the Nov-Mar heating season in 2026-27, based on 140 therms", "source_url": "https://dps.ny.gov/winter", "status": "ok", "note": "Page: 'estimated $241 per month during the winter heating season (November through March)'; 2026-27 season named in the forecast intro."},
+    {"claim": "Electric: 600 kWh a month, about $74 a month for supply, up 4.6% from a year earlier", "source_url": "https://dps.ny.gov/winter", "status": "ok", "note": "Page says about $74 per month for supply, up 4.6%; amounts vary by utility."},
+    {"claim": "Natural gas about $241 a month, down 3.2%", "source_url": "https://dps.ny.gov/winter", "status": "ok", "note": "Page says down 3.2% from a year earlier."},
+    {"claim": "Supply is roughly 35 to 45% of a bill", "source_url": "https://dps.ny.gov/winter", "status": "ok", "note": "Page: roughly 35-45%, depending on local utility."},
+    {"claim": "A colder-than-normal winter raises usage and bills", "source_url": "https://dps.ny.gov/winter", "status": "ok", "note": "Page: 'A colder-than-normal winter will cause usage and bills to increase.'"},
+    {"claim": "State recommends 68 degrees while home and lower when away or asleep", "source_url": "https://dps.ny.gov/winter", "status": "ok", "note": "Matches."},
+    {"claim": "State suggests sealing drafts around windows and doors and opening curtains on sunny winter days", "source_url": "https://dps.ny.gov/winter", "status": "ok", "note": "Matches."},
+    {"claim": "Balanced billing spreads costs evenly across the year; lowers monthly swings but not annual total", "source_url": "https://dps.ny.gov/winter", "status": "ok", "note": "Page: equal monthly payments, does not lower annual total."},
+    {"claim": "Cold Weather Rules run November 1 to April 15", "source_url": "https://dps.ny.gov/winter", "status": "ok", "note": "Dates match. The article's description of the rule (utilities must make a special effort to check health or safety harm before shutting off heat service) was not separately confirmed in the extract but the dates are right."},
+    {"claim": "NYSEG holiday pause December 22, 2025 to January 2, 2026 (2026-27 dates not posted)", "source_url": "https://dps.ny.gov/winter", "status": "ok", "note": "Page lists those dates for 2025-26 and says to check for updated dates."},
+    {"claim": "HEAP phone 1-800-342-3009", "source_url": "https://dps.ny.gov/winter", "status": "ok", "note": "Matches HEAP hotline on page."},
+    {"claim": "Ithaca electricity about 25 cents per kWh", "source_url": "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/", "status": "ok", "note": "$0.25/kWh, about 16% above national average."},
+    {"claim": "EnergySage Ithaca average about $280 a month on about 1,116 kWh, updated November 1, 2026", "source_url": "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/", "status": "ok", "note": "Matches, including update date."},
+    {"claim": "Figures come from residents who requested quotes; solar shoppers may use more electricity than typical", "source_url": "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/", "status": "ok", "note": "Page says so."},
+    {"claim": "Ithaca College: 65 degree daytime setting can cut heating use by as much as 15%; 58 degrees before winter break", "source_url": "https://www.ithaca.edu/sustainability-ithaca/resources/energy", "status": "ok", "note": "Matches the Off-Campus & Circle Apartment section; page does not state the unit but degrees F is implied."},
+    {"claim": "Cornell neighborhoods page: lakeside areas northwest of the city, 'cottages' probably not insulated, houses probably are, winter heating bills 'can be astronomical'", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", "status": "ok", "note": "West Hill entry says this. Short quoted phrases only."},
+    {"claim": "Cornell tells renters to check with NYSEG, which has a listed phone number there, for average yearly heating bills", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", "status": "ok", "note": "Page lists NYSEG at (800) 572-1111. Article could print it."},
+    {"claim": "Cornell checklist: include utilities when calculating maximum affordable rent; arrange utilities on by move-in", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations", "status": "ok", "note": "Both sentences are on the page."},
+    {"claim": "Several recent threads on other New York subreddits describe resistance electric heat as the costly option", "source_url": "", "status": "mismatch", "note": "No source link; the article admits it could not open the threads. An unverifiable claim about sources not read must not be published."},
+    {"claim": "Some listings advertise utilities included (FAQ)", "source_url": "", "status": "mismatch", "note": "No source link. Search shows apartment listings with utilities included in Ithaca, but the article cites none."},
+    {"claim": "State figures are 'a ceiling check, not a promise'; a one-bedroom shared by two will use far less than 140 therms, a poorly insulated four-roommate house could use more", "source_url": "https://dps.ny.gov/winter", "status": "mismatch", "note": "Not supported by the source; the state page gives no ceiling and no per-apartment usage. Presented as fact with no basis, and self-contradictory (ceiling, then 'could use more')."}
+  ],
+  "beats_top": {
+    "query": "ithaca utilities cost winter heating bill apartment students",
+    "top_url": "https://www.ithaca.edu/sustainability-ithaca/resources/energy",
+    "why": "The #1 result is an Ithaca College thermostat-tips page with no dollar figures, so our page is already more useful. But the planned angle was ranges by heat type, and ours gives none: a student still has no usable monthly estimate for their own unit.",
+    "better": "yes",
+    "changes": [
+      "Add a worked, labeled estimate for electric-heat and gas-heat units from the sourced inputs (for example 1,116 kWh x $0.25 = about $280, and the $74 supply and $241 gas state forecasts), clearly marked as illustrative, with the sources linked and the per-roommate split shown.",
+      "Print the NYSEG number from the Cornell page, (800) 572-1111, in the landlord/average-bills section.",
+      "Remove claims that have no source (Reddit, 'ceiling check', FAQ utilities-included) so the lead no longer disclaims its own numbers."
+    ]
+  },
+  "fixes": [
+    "Delete the paragraph beginning 'Several recent threads on other New York subreddits' (no source; the article admits it could not open them). If the point about resistance electric heat is kept, phrase it only as a question to ask the landlord, with no claim about what others say.",
+    "In the FAQ answer 'Is heat usually included in Ithaca student rent?', remove 'Some listings advertise utilities included' or link a specific Ithaca listing page that shows it (for example https://www.apartmentfinder.com/New-York/East-Ithaca-Apartments-With-Utilities-Included); keep 'ask and get it in the lease'.",
+    "In 'What the official numbers say', delete 'They are a ceiling check, not a promise.' and the sentences saying a shared one-bedroom 'will use far less than 140 therms' and a four-roommate house 'could use more'; replace with: 'These are statewide forecasts for a typical household; the state says actual amounts vary by utility and region.' (source https://dps.ny.gov/winter).",
+    "Add the NYSEG phone number (800) 572-1111 to the 'Older houses and lakeside rentals' paragraph and the FAQ answer 'Who do I call for average bills?', linking https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods.",
+    "Add a short 'Rough monthly arithmetic' section after the heat-type table giving winter ranges by heat type using only sourced inputs: electric (EnergySage 1,116 kWh x $0.25 = about $280/month, noting its sample bias and that this includes delivery), and gas heat (state forecast $241/month at 140 therms plus the $74 electric supply forecast). Label as illustrative, not Ithaca student-apartment data, and show the split by 2, 3 and 4 roommates as simple division. Do not invent summer figures; keep 'we found no Ithaca-specific figure' for winter vs summer.",
+    "Rewrite the first paragraph so the first sentence gives the usable answer (the sourced numbers and what to do) instead of opening with 'any single number you see online is a guess, including ours'."
+  ],
+  "reviewed_at": "2026-11-07"
+}
