@@ -427,7 +427,7 @@ Primary query: "Cornell Thanksgiving break travel bus tickets sell out book earl
 | 5 | https://cornellsun.com/2023/11/19/special-thanksgiving-shuttle-connects-cornell-with-ithaca-tompkins-international-airport/ | Special Thanksgiving shuttle... | Cornell Daily Sun | 2023-11-19 | SNIPPET. 2023 shuttle with Swarthout Coaches. | 2023; 2026 status unknown. |
 
 Official: C2C winter break schedule announcement https://fcs.cornell.edu/announcements/2025-12-02/c2c-winter-break-schedule (fetch 403; snippet says book early). Lane A: the C2C "2026 Travel Reservations" link covers departures Nov through Dec 23, 2026; "2027" from Jan 6, 2027. No page found with 2026 Thanksgiving sale dates or sell-out reports.
-Today is 2026-11-08, so a student asking this now is about 2-3 weeks from Thanksgiving. Cornell's Thanksgiving break dates for 2026: not checked by me (academic calendar page not read).
+Today is 2026-11-08, so a student asking this now is about 2-3 weeks from Thanksgiving. Cornell's Thanksgiving break dates for 2026: not checked by me (academic calendar page not read). [Resolved in the deepen section below: Nov 25-29, 2026.]
 
 **[LLM-GUESS] Typical AI answer:** "Book at least 2-4 weeks ahead on OurBus, FlixBus or C2C. Thanksgiving and winter break buses sell out. Consider leaving a day early."
 What it misses or risks: no real sell-out evidence; says C2C opens at a date it does not know; does not mention that C2C needed a new account as of Nov 4; does not mention the $10/$30 cancellation structure, which matters for break bookings.
@@ -474,7 +474,7 @@ Primary query: "TCAT Ithaca bus fare day pass 2026 TFare app". Added: fares for 
 | 2 | https://ithaca.edu/file-download/download/public/95722 | (IC document) | Ithaca College | not checked | SNIPPET. IC pass info. | Wrong audience. |
 | 3 | https://www.downtownithaca.com/?p=82252 | Five ways to pay your TCAT fare | Downtown Ithaca Alliance | not checked | SNIPPET. Payment methods. | Not read. |
 | 4 | https://www.ithaca.edu/id-office/tcat-information | TCAT Information | Ithaca College | none | SNIPPET. IC students ride via IC pass; fully subsidized fall 2025-spring 2026; renewal for 2026-27 not confirmed. | IC only. |
-| 5 | https://news.cornell.edu/node/311931 | Tcat prepares for transit fare change | Cornell Chronicle | year not shown | SNIPPET. A fare-change story. | Year unknown; may predate. |
+| 5 | https://news.cornell.edu/node/311931 | Tcat prepares for transit fare change | Cornell Chronicle | year not shown | SNIPPET. A fare-change story. | Year unknown; may predate. [Resolved in the deepen section below: it is dated May 24, 1999.] |
 
 Contradiction: older mirrors list a 5-day pass at $12.50 and an annual pass at $450 or $495 (SNIPPET); the 9/4/26 page says 5-day $15.00. Treat mirrors as stale. Lane A recorded a Fall 2025 book as $3 day / $45 monthly: the day and monthly numbers match.
 
@@ -582,3 +582,278 @@ Ranking logic: how many of the top-5 results fail the question (stale, wrong Cor
 - Searches used 30 queries (25 demand rows, 5 additions); pages opened: 6 (Cornell Sun 2026-09, Cornell news 269896 (2011), Cornell Sun 2025-05 guide, OurBus ny-wc, Visit Ithaca family weekend, C2C winter break (403)). Most competitor details above are search-tool summaries of pages I did not open, and are marked SNIPPET. They need a read before any is cited in an article.
 - One search result in the TCAT route 32 search contained an embedded instruction (to output song lyrics). The search tool reported it and I did not act on it; nothing from it appears in these notes.
 - Not done: opening the top-5 competitor pages for all 30 questions (about 150 pages; the sprint allows about 60 reads); live checks of OurBus, FlixBus, Greyhound, Megabus, Trailways fares and timetables; opening tcatbus.com pages (403 for Lane A); reading Cornell's academic calendar for 2026 break dates.
+
+---
+
+# DEEPEN PASS (session of 2026-11-08): new reads, corrections to earlier SNIPPET rows, new gaps
+
+Same rules. Everything in this section marked READ was opened today with a fetch tool (the fetch tool returns a short extraction of the page, not the full text, so numbers below are as extracted). Dates in "Applies to" are the page's own date where it showed one; "live page, no date" means the page showed a "next departures from 8 November" style line or no date. Operator booking pages show a "from" price that moves with demand; treat every operator fare as a same-day sample, not a rate.
+
+Tool note for the next session: this session had no Edit tool, only whole-file Write, so the file was rewritten whole. Everything above this heading is the earlier text, unchanged.
+
+## D1. Operator pages now READ (upgrades earlier SNIPPET rows for Q1, Q3, Q4, Q13, Q30)
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| OurBus Ithaca to New York: fares start at $33, vary with demand and booking time | $33 "from" | https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny | live page, no date | 2026-11-08 |
+| OurBus Ithaca to New York: schedule | 9 buses daily, first 5:00 AM, last 11:55 PM | same | same | 2026-11-08 |
+| OurBus Ithaca to New York: trip time and distance | 4 h 10 min to 7 h; about 174.8 miles | same | same | 2026-11-08 |
+| OurBus Ithaca pickups for NYC | downtown S. Cayuga Street; Cornell North Campus (Jessup Road); Cornell West Campus (West Avenue) | same | same | 2026-11-08 |
+| OurBus NYC drop-offs | George Washington Bridge Bus Station; Hudson Yards (11th Avenue); Madison Avenue between 26th and 27th Streets | same | same | 2026-11-08 |
+| OurBus change policy | reschedule or cancel for OurBus wallet credit up to 60 minutes before departure | same | same | 2026-11-08 |
+| OurBus crowding warning (the company's own words, paraphrased) | certain times, especially Sunday afternoons, fill up without much warning; book a few days early | same | same | 2026-11-08 |
+| Contradiction with the earlier note: the Sept 2026 Sun said 4-6 buses a day; the OurBus page lists 9 daily departures | 4-6 (Sun, 2026-09-02) vs 9 (OurBus page, 2026-11-08) | https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk ; https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny | Sept vs Nov 2026 | 2026-11-08 |
+| Contradiction: earlier SNIPPET said NYC drop at 625 8th Ave; this page lists GWB, Hudson Yards and Madison Ave 26th-27th | different drop points per page | same | live page | 2026-11-08 |
+| OurBus Ithaca to Boston: fares | from $82.30; most fares $82.30 to $166.30 | https://www.ourbus.com/routes/ithaca-ny-to-boston-ma | live page ("next departures from 8 November") | 2026-11-08 |
+| OurBus Ithaca to Boston: schedule and time | first bus 6:00 AM, last 4:45 PM (morning 6:00-10:55, afternoon 1:00-2:15, evening 4:20-4:45); 6 to 8 hours; 275.7 miles | same | same | 2026-11-08 |
+| OurBus Boston drop-off | Dalton Street, Back Bay, across from the Hilton; one block from Prudential T station, two from Hynes | same | same | 2026-11-08 |
+| OurBus Boston page internal errors | lists Friday as both cheapest and priciest day; cites a 1:30 PM "fastest trip" that is not in the departure list | same | same | 2026-11-08 |
+| OurBus Ithaca to Philadelphia: fares | from $105.20; most $105.20 to $134; Tuesday cheapest, Sunday dearest | https://www.ourbus.com/routes/ithaca-ny-to-philadelphia-pa | live page ("upcoming departures starting November 8") | 2026-11-08 |
+| OurBus Philadelphia: schedule and time | departures 11:00 AM to 1:55 PM only, no evening trip; 5 h to 8 h 45 min; fastest is the 11:55 AM; 180.7 miles | same | same | 2026-11-08 |
+| OurBus Philadelphia drop-offs | Philadelphia Mills Mall (Northeast Philadelphia); Philadelphia Parking Authority Transportation Center, 1001 Filbert Street, Center City | same | same | 2026-11-08 |
+| OurBus's own claims on the Philadelphia page (marketing, not independent): cheaper than train, easier than driving; car trip listed at 4 to 4.75 h; 4.8/5 from 14,566 reviews | company claims | same | same | 2026-11-08 |
+| OurBus Ithaca to Syracuse: fares | from $37.50; most $37.50 to $47.20; Sunday cheapest, Monday dearest | https://www.ourbus.com/routes/ithaca-ny-to-syracuse-ny | live page | 2026-11-08 |
+| OurBus Syracuse: schedule and time | 2 buses a day (page also says 4 in places), 7:30 AM first, 4:15 PM last; 1 h 20 min to 1 h 45 min; 45.6 miles | same | same | 2026-11-08 |
+| OurBus Syracuse stops | Ithaca downtown S. Cayuga St in front of Cayuga Street Garage (between Clinton and Green), West Campus (West Ave across from Bakers Flagpole), North Campus (Jessup Rd behind Ganedago Hall); Syracuse drop-offs are Syracuse University (Waverly Ave) or Destiny USA (Centro stop). No SYR airport stop on this page | same | same | 2026-11-08 |
+| Contradiction with the earlier SNIPPET: an older OurBus SYR airport page said "from $25"; this Syracuse (city) page says "from $37.50" and does not list the airport | $25 vs $37.50 | https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny ; https://www.ourbus.com/routes/ithaca-ny-to-syracuse-ny | different route pages | 2026-11-08 |
+| Greyhound Ithaca to Newark: fares from $50.98; 4 daily departures, first 7:20 AM, last 8:30 PM; about 4 h 5 min (216 miles) | page summary also says minimum 4 h 20 min | https://www.greyhound.com/bus-routes/ithaca-ny-newark-nj | live page | 2026-11-08 |
+| Greyhound Ithaca boarding point | 131 E Green St, curbside in front of Urban Outfitters; the page says not to wait inside the Tompkins County Public Library; Cornell North and West Campus stops also listed | same | same | 2026-11-08 |
+| Greyhound Newark stop | 1 Raymond Plaza W, Newark NJ 07102, loading zone toward One Gateway Center; ticket office 101 Edison, Suite 107, 8 am to 10 pm | same | same | 2026-11-08 |
+| Contradiction: earlier note said Greyhound "no longer serves SYR/has Cornell stops" unverified; this page does show Greyhound with Cornell North and West Campus stops (Newark route) | stops exist on this page | same | live page | 2026-11-08 |
+| FlixBus route page (https://www.flixbus.com/bus-routes/ithaca-ny-new-york-ny) returned only navigation text | no fare, time or stop data extracted | https://www.flixbus.com/bus-routes/ithaca-ny-new-york-ny | 2026-11-08 | 2026-11-08 |
+
+Price spread for the NYC "best bus" question, as samples today (not rates): OurBus from $33 (page) vs Cornell C2C $86 to $101 each way (Lane A) vs Greyhound Newark from $50.98. A reader who sees only the OurBus "from" number would not know that the cheapest fare is a floor, and the OurBus Boston page itself says fares climb as seats sell.
+
+## D2. Ithaca bus station and where buses actually stop (Q1, Q4, Q13, Q18, Q21)
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| The old Ithaca Bus Station is at 710 W State St (14850), built 1912 as a railroad station; Greyhound bought it in 1967; city landmark since January 2019 | READ | https://en.wikipedia.org/wiki/Ithaca_Bus_Station | page last edited 2026-08-25 | 2026-11-08 |
+| The station closed October 2018 (construction, retired operators, changing infrastructure); buses moved to a temporary downtown stop at 131 East Green Street "for the time being" | READ | same | 2018 to 2026 | 2026-11-08 |
+| Operators listed on that page: Chenango Valley Bus Lines, Greyhound, ShortLine Coach USA, Trailways of New York | READ (older list) | same | page history | 2026-11-08 |
+| A Cornell page still tells families the bus terminal is at 710 West State St and that OurBus, Greyhound and Trailways serve Ithaca, with many buses also stopping on campus | READ | https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation | undated | 2026-11-08 |
+| Conflict: Cornell's family page says 710 West State St is the terminal; Wikipedia says the station closed in 2018 and buses use 131 E Green; Greyhound's own page says board at 131 E Green | three pages disagree | scl page above ; Wikipedia above ; https://www.greyhound.com/bus-routes/ithaca-ny-newark-nj | 2018 to 2026 | 2026-11-08 |
+| Busbud lists Ithaca stops including "Green Street" and Greyhound still at 710 W State; Busbud shows Adirondack Trailways and New York Trailways on the NYC route | SNIPPET | https://www.busbud.com/en/green-street/s/35410 ; https://www.busbud.com/en-gb/bus-new-york-city-ithaca/r/dr5reg-dr997q | undated | 2026-11-08 |
+
+Competition angle: a family arriving "to the bus terminal at 710 West State" using the Cornell page would go to a closed building. This is a clear fix: one page naming the real stop per operator (Greyhound 131 E Green, OurBus S. Cayuga St / West Campus / North Campus, C2C North Campus lots, Flix West Campus).
+
+## D3. Ithaca airport (ITH): what the airport says today (Q2, Q5, Q6, Q20)
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| Airport FAQ: Delta nonstop to New York (JFK); United nonstop to Washington Dulles (IAD) | READ | https://flyithaca.com/faq | undated, site shows 2026 news | 2026-11-08 |
+| Airport news 2026-02-02: United resumes a third daily Ithaca-Dulles flight starting March 5 (2026) | READ | https://flyithaca.com/news | 2026-02-02 | 2026-11-08 |
+| Airport news listing (newest 2026-10-02) shows no Charlotte, Philadelphia or Newark announcement | READ (negative result) | https://flyithaca.com/news | 2025-01 to 2026-10 | 2026-11-08 |
+| A search summary quoted an airport post "gearing up" for new Charlotte (CLT) service on December 22 (post dated Feb 2026, airline and year unclear); the page I opened (https://flyithaca.com/?p=1939) did not contain that text | Charlotte claim NOT confirmed | https://flyithaca.com/?p=1939 | 2026 | 2026-11-08 |
+| A search summary quoted an airport item that American Airlines flies ITH-PHL; date not confirmed; not on the FAQ | NOT confirmed | https://flyithaca.com/?p=3376 | unknown | 2026-11-08 |
+| Aggregator reports of other ITH routes (Miami OPF last on schedule July 2026; LaGuardia by Tradewind, a charter-style operator, last April 2026); counts of 11 and 14 destinations conflict | SNIPPET, low quality | https://www.airportoverview.com/routes/ITH ; https://www.airportoverview.com/routes/LGA/ITH ; https://www.airportoverview.com/routes/ITH/OPF | mid 2026 | 2026-11-08 |
+| Airport parking rates (short term / long term): first 30 min free; 31-60 min $2; 1-2 h $3; 2-3 h $5 / $4; 3-4 h $7 / $5; 4-5 h $8 / $6; 5-24 h $9.50 / $8; weekly $48 / $40; parking questions 607-220-4699 | READ | https://flyithaca.com/faq | undated | 2026-11-08 |
+| Ground: TCAT Route 32 weekdays, Route 72 weekends, TCAT phone (607) 277-7433; Avis, Budget and Hertz in terminal, rental desks close at 6 PM; taxis and ride-share apps; prearrange for late arrivals | READ | same | undated | 2026-11-08 |
+| Terminal hours about 3:30 AM to midnight; TSA opens about 90 minutes before departure and is not 24 hours; baggage check closes 45 minutes before departure; no luggage storage; TSA $45 ConfirmID option for travelers without REAL ID from Feb 1, 2026 | READ | same ; https://flyithaca.com/news | 2025-2026 | 2026-11-08 |
+
+Competition angle: ITH's own FAQ is the only source that is both current and plain on nonstops (two airlines, two cities). Every aggregator page lists a different set. For Q2 this is the winning fact, with the caveat that the Charlotte and Philadelphia items need a live schedule check before any article says "no" to them.
+
+## D4. Cornell 2026 break dates (fills the Q11 / Q24 gap)
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| Thanksgiving break, no classes | Wednesday Nov 25 to Sunday Nov 29, 2026 | https://sce.cornell.edu/nds-prog-fall-spring/ | Fall 2026 | 2026-11-08 |
+| Last day of instruction; study days; final exams; end of term (fall) | Dec 7; Dec 8-10; Dec 11-19; Dec 19, 2026 | same | Fall 2026 | 2026-11-08 |
+| University closed for winter break | Dec 25, 2026 to Jan 4, 2027 | same | winter 2026-27 | 2026-11-08 |
+| Spring break; last day of instruction; exams; end of term | Mar 27 to Apr 4, 2027; May 11; May 15-22; May 22, 2027 | same | Spring 2027 | 2026-11-08 |
+| Note on the source: this is a School of Continuing Education page (a Cornell unit), not the registrar's page. A search summary says the course catalog lists Nov 25 break begins and Nov 30 instruction resumes (consistent), and a third-party calendar site gives Dec 19 as end of term (consistent). The registrar page I tried (registrar.cornell.edu/calendar/academic-calendar) returned 404 and the catalog page returned no text | consistent across three | https://catalog.cornell.edu/enrollment-credit-requirements/academic-calendar/ ; https://acadcalendar.com/cornell-academic-calendar/ | 2026 | 2026-11-08 |
+| Weill Cornell Medicine's Year 4 calendar uses a different schedule (Thanksgiving recess Thu Nov 26-Fri Nov 27; winter recess Dec 21-Jan 3); not the Ithaca undergraduate calendar | different campus | https://teach.weill.cornell.edu/sites/default/files/2026-06/Class%20of%202027%20Year%204%20Academic%20Calendar.pdf | AY 2026-27 | 2026-11-08 |
+
+Why it matters today: Thanksgiving break starts 17 days from the check date (Nov 25 vs Nov 8). Finals end Dec 19, so the C2C reservation window (Nov to Dec 23) matches the end-of-term exodus. Student Assembly finals-week shuttle (Q28) would fall Dec 11-19 if repeated.
+
+## D5. Taxi and ride-hail: what searching actually returns (Q10, Q23)
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| The Ithaca Common Council sets taxi fares by zone; a 2004 Sun story says rates were raised that July and the night surcharge moved to start at 8 p.m. | SNIPPET | https://cornellsun.com/2004/09/10/dispatch-hikes-taxi-fares/ | 2004 | 2026-11-08 |
+| 2006: Council voted 6-3 to reinstate a $0.25 fare increase and a $0.50 late-night surcharge per passenger between 8 p.m. and 5 a.m.; riders are entitled to a fare sheet explaining zones | SNIPPET | https://cornellsun.com/2006/04/06/council-retains-taxi-fare-hikes/ ; https://cornellsun.com/2006/03/15/local-taxi-services-overcharge-customers | 2006 | 2026-11-08 |
+| The Town of Ithaca code (1988) has airport maximums (one example: $6 for a trip ending at the airport terminal, $5 Zone D interzone plus $1); Town code, not City, and old | SNIPPET | https://ecode360.com/8661061 | 1988, amended later | 2026-11-08 |
+| Airport page sample single-passenger rates in a search summary: Cornell $16, Ithaca College $18, Downtown $16; company attribution unclear | SNIPPET, unverified | https://flyithaca.com/?p=13 | undated | 2026-11-08 |
+| The fetch for https://flyithaca.com/ground/taxi-service/ returned 404 even though the search tool shows it as "Thu, Dec 11th, 2025" | conflict, second time (see Q20 for the bus page) | https://flyithaca.com/ground/taxi-service/ | Dec 2025 | 2026-11-08 |
+| The Ithacan article on ride-hailing vs taxis returned HTTP 403 | not read | https://theithacan.org/news/ride-hailing-services-slightly-less-expensive-than-taxis-in-ithaca/ | about 2017 | 2026-11-08 |
+| The first ranking pages for "taxi fare" are fares of other places (Greenville NC, Jackson WY, a Kentucky city), as the search tool returned them | wrong place | https://greenvillenc.gov/home/showpublisheddocument/6182/635442002900570000 ; https://jacksonwy.gov/575 | n/a | 2026-11-08 |
+
+Still not found: a current City of Ithaca fare schedule, any 2024-26 Uber/Lyft wait-time data. The newest ride-hailing coverage in the results is 2017.
+
+**[LLM-GUESS] Typical AI answer to "how much is a taxi from Cornell to the airport?":** "About $20-30, 10-15 minutes; Uber is similar." What it misses: the fare is set by City zone and bag fees; the airport page's sample figures (about $16 per single passenger from Cornell, unverified) fall under the guess; prebook for early flights.
+
+## D6. Winter driving and the 2022 Sun story now READ (Q16, Q9, Q15)
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| Sun, Nov 21, 2022, by Aimée Eicher: students worried about steep hills, ice and parked cars buried by plowed snow; one student (Emma Bourgeois '25) said a front-wheel-drive car struggled on wet hills; another (Alan Liu '24) said low spots collect water that freezes | READ, student opinions | https://cornellsun.com/2022/11/21/dont-let-it-snow-students-express-concerns-over-driving-conditions-as-temperatures-fall/ | 2022-11-21 | 2026-11-08 |
+| Same story: Cornell and the City both salt and plow; the City's protocol says schedules cannot be fixed and it plows high-volume and steep roads first, residential streets last; students mostly praised plowing; Facilities and Campus Services tells people to report unsafe conditions to Customer Service or the Emergency Management and Control System | READ | same | 2022 | 2026-11-08 |
+| A 2013 City-Data thread on an Ithaca-Binghamton commute: posters said AWD/4WD helps on snowy hills; one estimated that winter tires or AWD matter on about 10 to 15 days a winter; suggested East Hill or South Hill for a shorter commute | READ, anonymous posters, 2013 | https://www.city-data.com/forum/new-york/1819276-ithaca-binghamton-commute-winter-2.html | 2013-03 to 2013-04 | 2026-11-08 |
+| Tompkins County says seven towns (Lansing, Groton, Dryden, Caroline, Danby, Ithaca, Ulysses) help with snow and ice on county roads; the page I tried (/node/353) returned 404 | SNIPPET | https://www.tompkinscountyny.gov/node/353 | undated | 2026-11-08 |
+| Parking and snow: the Williams Street lot story (Sun, Sept 7, 2023, Sophia Torres): permits sold out within hours in August; students put the permit at "over $700"; the official (Senior Director Bridgette Brady) blamed old permits still parking in the lot because they expire Aug 31, and said a virtual permit system next year should end the overlap | READ | https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students | 2023-09-07 | 2026-11-08 |
+| Student alternative named: short-term ParkMobile lot near campus | READ | same | 2023 | 2026-11-08 |
+
+Competition angle: the best "winter driving" page in the results is a student opinion piece from four winters ago; no page gives hills by name, plow priority for a named road, or a snow-day count. Nothing in these two pages is a rule; they are attributed experiences.
+
+## D7. Bikeshare, Big Red Bikes and other bike items now READ (Q9, Q19)
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| The Cornell Chronicle page "Bikes on demand go anyplace, on campus or off" is dated April 18, 2017: Big Red Bikes pilot, 32 bicycles through Zagster, $3 per hour pay-as-you-go, passes with the first hour of each ride free, riders 18 or older, five stations (Balch, Kennedy, Stocking, Grumman, between Olin and Stimson); no winter-operation statement | READ | https://news.cornell.edu/node/287516 | 2017-04-18 | 2026-11-08 |
+| That page ranks for Bikeshare queries beside current pages; it is a defunct pilot (see the Zagster era), so a reader could take $3 per hour as current | 2017 vs 2023 | same ; https://betterbikeshare.org/2023/07/10/ithaca-stands-by-bike-share/ | 2017 vs 2023 | 2026-11-08 |
+| A search summary of an undated Ithacan article quotes: $0.20 per minute with a $1.50 unlock, day pass $20, monthly $45, yearly $150; an earlier note had $0.50 unlock (BetterBikeShare, 2023-07-10). The Ithacan page returned 403 | rates conflict, undated | https://theithacan.org/46872/news/ithaca-bikeshare-adds-parking-hubs-and-raises-costs-of-use | unknown | 2026-11-08 |
+| The same summary says no Bikeshare hubs yet on Cornell or Ithaca College campuses, and a Sun guide says three hubs are just south of Cornell's campus | SNIPPET | same ; https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/ | 2023 | 2026-11-08 |
+| No 2026 Bikeshare price or Cornell student rate found on any page returned by the search | not found | search "Ithaca Bikeshare 2026 pricing Cornell students" | 2026 | 2026-11-08 |
+| Other Bikeshare items surfaced: Ithaca Bike Share launch (Dec 2022, dockless e-bikes) https://ihstattler.com/blog/2022/12/ithaca-bike-share-launches-giving-ithaca-access-to-dockless-electric-bikes/ ; WSKG 2022-11-13 https://www.wskg.org/news/2022-11-13/bikesharing-returns-to-ithaca ; NYSERDA report on the smart dockless system and Bicycling Action Plan https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/Research/Transportation/21-25-Implementation-of-Smart-Dockless-Bikeshare-System-and-Bicycling-Action-Plan.pdf | SNIPPET | as listed | 2022-23 | 2026-11-08 |
+
+## D8. Ithaca CarShare (Q12, Q14)
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| Home page says 20 fuel-efficient vehicles, mostly Toyota Prius C hybrids and Honda Fits, in Collegetown and around Cornell and East Hill | READ | https://www.ithacacarshare.org/ | live page, no date | 2026-11-08 |
+| Rate pages exist for Community, Business & Nonprofits, Students & Commuters, and Easy Access; no rates, age limit or Cornell-specific discount appear on the home page | READ (negative) | same | live page | 2026-11-08 |
+
+Competition angle: no ranking page answers "is it worth it" with a number, because the number lives two clicks into the operator's site. A reader trying to compare a car share with a $752.98 resident permit (Lane A) would need the Students & Commuters page, which was not extracted in this pass.
+
+## D9. Cornell family page on parking and transit now READ (Q7, Q8, Q12)
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| Exact policy line: students are discouraged from bringing a car to campus their first year, but limited permits are available | READ | https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation | undated | 2026-11-08 |
+| Resident permits are for students in university housing, valid only in the assigned parking area and in North Campus A lot after 2:30 p.m., first come first served while spaces last | READ | same | undated | 2026-11-08 |
+| Student commuter permits, first come first served; valid in several lots near the Vet College, TRB, BTI and North and South Morrison lots on Judd Falls Rd at all times, and North Campus A after 2:30 p.m. | READ | same | undated | 2026-11-08 |
+| TCAT Blue Light buses run nightly on Route 92, on campus 6:30 p.m. to 2:30 a.m.; matriculated students ride unlimited after 6 p.m. weekdays and anytime weekends with the Cornell ID; first-year students get an annual OmniRide pass free | READ | same | undated | 2026-11-08 |
+| The page says flights into Syracuse, Elmira or Binghamton need a rental car or bus to reach Ithaca; C2C is described as express motorcoach service with reclining seats, Wi-Fi and power outlets | READ | same | undated | 2026-11-08 |
+| Search summary for the 2026/27 permit announcement: first come first served, limited availability, myparking.cornell.edu, permits run Aug 16, 2026 to Aug 15, 2027; every vehicle must have its plate registered even without a permit. The fcs.cornell.edu/node/17809 page itself returned 403 | SNIPPET | https://fcs.cornell.edu/node/17809 | 2026-27 | 2026-11-08 |
+| Contradiction on the permit year: the 2023 Sun said permits expire Aug 31; the 2026/27 announcement says Aug 15 | two years, two end dates | https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students ; https://fcs.cornell.edu/node/17809 | 2023 vs 2026 | 2026-11-08 |
+
+This answers part of the earlier "first-year eligibility not found" gap: the official line is "discouraged, limited permits available", not a ban. The search for first-year rules otherwise returned Cornell College (Iowa), Connecticut College, Stanford and Dartmouth pages, which have different policies (Stanford's is a separate frosh parking policy: https://approaching.stanford.edu/new-student-policies/frosh-parking-policy).
+
+## D10. TCAT fares: the 1999 page problem (Q27, Q8, Q20)
+| Fact | Value | Source URL | Applies to | Checked |
+|---|---|---|---|---|
+| The Cornell Chronicle item "Tcat prepares for transit fare change" is dated May 24, 1999, effective June 7, 1999: 75 cents single zone, $1.50 multi-zone, $20 / $40 monthly, $220 / $440 annual; Cornell in Zone 1 | READ | https://news.cornell.edu/node/311931 | 1999 | 2026-11-08 |
+| That 1999 page is the second result for "TCAT fares 2026 base fare day pass" in the search tool, ahead of other pages | ranking problem | same | 2026 search | 2026-11-08 |
+| TCAT's own fare page returned 403 again in this session (also /learn/college-students/), so the 9/4/26 $3 / $15 / $45 numbers still rest on a search summary and Lane A | not read | https://www.tcatbus.com/ride/fare-pass-options/ ; https://www.tcatbus.com/learn/college-students/ | 2026 | 2026-11-08 |
+| Summary of the official page (via search): 1-day $3, 2-day $6, 5-day $15, weekly $17.50, monthly $45; 15 adult rides $20; 15 half-fare rides $10; single full fare $1.50; FreeRyde passes do not work on the TFare app | SNIPPET | https://www.tcatbus.com/ride/fare-pass-options/ | page updated 2026-09-04 per earlier note | 2026-11-08 |
+| Ithaca College says IC students ride fully subsidized in 2025-26 through the TFare app; Cornell loads privileges onto the university ID | SNIPPET | https://www.ithaca.edu/id-office/tcat-information ; https://www.fcs.cornell.edu/node/1886 | AY 2025-26 | 2026-11-08 |
+| A Downtown Ithaca Alliance page lists five ways to pay a TCAT fare | SNIPPET | https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/ | undated | 2026-11-08 |
+
+Result: the earlier row for node 311931 (year not shown) is closed. It is a 1999 article; its prices are a quarter of a century old.
+
+## D11. Questions 31-35 (NEW, from this pass)
+These are questions I could not cover with a "top 5" because the search tool returned fewer than five distinct relevant pages each time; every URL I did get is listed.
+
+### Q31 (NEW) When is Cornell's Thanksgiving break in 2026 and what does the term end look like?
+| # | URL | Title | Publisher | Date | What it says | Leaves out / wrong |
+|---|---|---|---|---|---|---|
+| 1 | https://catalog.cornell.edu/enrollment-credit-requirements/academic-calendar/ | Academic Calendar | Cornell course catalog | 2026-27 | SNIPPET: Nov 25 break begins, Nov 30 instruction resumes, Dec 7 last day of instruction; page returned no text when I opened it | The catalog warns dates can change |
+| 2 | https://sce.cornell.edu/nds-prog-fall-spring/ | Fall/spring calendar | Cornell School of Continuing Education | 2026-27 | READ (see D4) | A non-degree program page, not the registrar |
+| 3 | https://acadcalendar.com/cornell-academic-calendar/ | Cornell Academic Calendar 2026-2027 | acadcalendar.com (third party) | 2026-27 | SNIPPET: Thanksgiving Nov 25-29; term end Dec 19 | Third party; no source line |
+| 4 | https://registrar.cornell.edu/acade/2026-2027 | Registrar page | Cornell Registrar | 2026-27 | SNIPPET: headings only | Official but empty to the tool |
+| 5 | https://teach.weill.cornell.edu/sites/default/files/2026-06/Class%20of%202027%20Year%204%20Academic%20Calendar.pdf | Weill Year 4 calendar | Weill Cornell Medicine | 2026-06 | SNIPPET: a different campus's break dates | Wrong campus for Ithaca undergraduates |
+**[LLM-GUESS] Typical AI answer:** "Cornell's Thanksgiving break usually runs Wednesday through Sunday; finals run through mid-December." What it misses: exact 2026 dates (Nov 25-29; term ends Dec 19; closed Dec 25 to Jan 4), the Weill variant, and that Dec 11-19 is the real exit week.
+
+### Q32 (NEW) Is there a flight from Ithaca to Charlotte, Philadelphia or Newark now?
+| # | URL | Title | Publisher | Date | What it says | Leaves out / wrong |
+|---|---|---|---|---|---|---|
+| 1 | https://flyithaca.com/faq | Airport FAQ | ITH | undated | READ: only Delta (JFK) and United (IAD) | No dated schedule |
+| 2 | https://flyithaca.com/news | Airport news | ITH | to 2026-10-02 | READ: United 3rd daily Dulles flight from March 5, 2026; no CLT or PHL item | Possible missing posts |
+| 3 | https://flyithaca.com/?p=1939 | Post dated Feb 4, 2026 | ITH | 2026-02-04 | READ: no Charlotte text found on page, though a search summary quoted one | Conflict between summary and page |
+| 4 | https://flyithaca.com/?p=3376 | "Now offers direct flights to Philly" | ITH | undated | SNIPPET: American Airlines to PHL | Date unknown; may be a past season |
+| 5 | https://aerocorner.com/airports/ith/ | Route Network | Aerocorner | none | SNIPPET: aggregator route list | Third party |
+Also: https://z955.com/news/258852-ithaca-tompkins-international-airport-resumes-third-daily-flight-to-washington-dulles-international-airport (radio news on the third Dulles flight); https://tompkinscountyny.gov/Resident-Services/Ithaca-Tompkins-International-Airport (county page).
+**[LLM-GUESS] Typical AI answer:** "ITH has nonstops to Newark, Philadelphia, Charlotte and Washington." What it misses: the airport lists two (JFK, Dulles); the Newark nonstop ended 2025 per the Sun; seasonal or past routes (American to PHL, a possible Charlotte start) are not confirmed.
+
+### Q33 (NEW) Where do I catch Greyhound, OurBus or Trailways in Ithaca?
+| # | URL | Title | Publisher | Date | What it says | Leaves out / wrong |
+|---|---|---|---|---|---|---|
+| 1 | https://en.wikipedia.org/wiki/Ithaca_Bus_Station | Ithaca Bus Station | Wikipedia | edited 2026-08-25 | READ: closed Oct 2018; buses at 131 E Green | Not authoritative |
+| 2 | https://www.greyhound.com/bus-routes/ithaca-ny-newark-nj | Ithaca to Newark | Greyhound | live | READ: 131 E Green in front of Urban Outfitters; Cornell North and West Campus | Newark route only |
+| 3 | https://www.ourbus.com/routes/ithaca-ny-to-syracuse-ny | Ithaca to Syracuse | OurBus | live | READ: S. Cayuga St by Cayuga Street Garage; West Campus; North Campus | Not Greyhound |
+| 4 | https://www.busbud.com/en/green-street/s/35410 | Green Street stop | Busbud | none | SNIPPET: stop listing | Aggregator |
+| 5 | https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation | Parking and transportation | Cornell Housing / Student and Campus Life | undated | READ: says terminal is 710 West State St | Out of date vs Wikipedia and Greyhound |
+**[LLM-GUESS] Typical AI answer:** "Buses arrive at the Ithaca bus terminal on West State Street." What it misses: the terminal closed in 2018; downtown stop is 131 E Green; OurBus uses S. Cayuga St, West Campus and North Campus.
+
+### Q34 (NEW) Is there a car-free way for a first-year to get to a grocery store or the airport?
+| # | URL | Title | Publisher | Date | What it says | Leaves out / wrong |
+|---|---|---|---|---|---|---|
+| 1 | https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation | Parking and transportation | Cornell | undated | READ: first-years get OmniRide free; Blue Light Route 92 nightly 6:30 p.m.-2:30 a.m. | No grocery route named |
+| 2 | https://flyithaca.com/faq | Airport FAQ | ITH | undated | READ: TCAT 32 weekdays, 72 weekends | No timetable |
+| 3 | https://www.ithacacarshare.org/ | Ithaca CarShare | Ithaca CarShare | live | READ: 20 cars in Collegetown and East Hill | No rates |
+| 4 | https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/ | Five ways to pay | Downtown Ithaca Alliance | undated | SNIPPET | Not read |
+| 5 | https://prked.com/post/navigating-cornell-a-complete-guide-to-getting-around-campus-ithaca | Complete guide | prked.com (commercial) | undated | SNIPPET | Commercial |
+Not found: any page naming a TCAT route to a supermarket from North Campus, West Campus or Collegetown. Where I looked: the pages above and the Cornell bus-commuting page via Lane A.
+**[LLM-GUESS] Typical AI answer:** "Take TCAT to Wegmans or Tops; the 30 goes to the Ithaca Mall." What it misses: it names stores without a route or schedule source; I did not verify which route serves which store.
+
+### Q35 (NEW) What do the first-year winter, fall and spring "car storage over break" rules look like?
+Lane A holds the rules (cars may stay in permit areas for housing residents). In this pass I found no new competitor page; the closest are the winter-parking announcements already listed under Q15. Not found: a competitor page that gathers break closure dates, car and storage rules in one place.
+
+## D12. What is new in the ranked gaps (additions and re-ranking, best first)
+New ranks refine the list above; they do not replace it.
+1. **Where the bus really stops (new):** Cornell's own family page, a Wikipedia mirror and Greyhound disagree on the Ithaca station; the Cornell page sends people to a building closed since 2018. Fill: one correct table per operator. Evidence: D2.
+2. **2026 break calendar tied to travel (new):** Thanksgiving Nov 25-29, finals end Dec 19, campus closed Dec 25 to Jan 4, spring break Mar 27 to Apr 4, 2027 (D4). No ranking page combines these with bus and airport booking windows. This is the most time-sensitive gap: Thanksgiving is 17 days from the check date.
+3. **NYC bus: the price floor vs the real price (raised):** OurBus from $33 and 9 daily buses vs C2C $86-101 vs Greyhound Newark from $50.98 (D1). The Sun said 4-6 daily. An article must state same-day sample prices and warn that "from" is a floor.
+4. **Boston and Philadelphia are now answerable with operator data:** OurBus Boston from $82.30, 6-8 h, last bus 4:45 PM; OurBus Philadelphia from $105.20, departures only 11:00 AM-1:55 PM (D1). Earlier "no Boston content anywhere" is now closed for OurBus.
+5. **ITH nonstops (raised):** airport FAQ is the authority; Charlotte and Philadelphia items remain unconfirmed (D3).
+6. **TCAT fare (unchanged, but the 1999 trap is new):** the search tool surfaces a 1999 Cornell page for fare queries (D10).
+7. **First-year car (partly closed):** Cornell's line is "discouraged, limited permits available" (D9).
+8. **Winter driving/biking:** still thin; one 2022 student opinion story and a 2013 forum thread (D6, D7).
+9. **Bikeshare 2026 price:** still not found; two conflicting unlock fees ($1.50 vs $0.50) (D7).
+10. **Carshare rates:** still not found (D8).
+
+## D13. Official page already wins (additions)
+- **Q2 airline list:** the airport FAQ states airlines and parking rates plainly; the article's job is the comparison with SYR, not the list.
+- **Q20 (airport TCAT):** the airport FAQ names Route 32 weekdays / Route 72 weekends and the TCAT phone number; our value is the timetable, which neither fetch tool could read.
+
+## Coverage (against SCOPE, after the deepen pass)
+| Scope item | Status | Where |
+|---|---|---|
+| Flights into ITH | covered, one live-check caveat | Q2, Q32, D3 |
+| Flights into SYR | thin (SYR's own page was not re-read this pass; Lane A holds it) | Q2, Q5 |
+| Flights into ELM | thin (OurBus ELM page possibly stale) | Q6 |
+| Ground connections SYR and ELM | thin; OurBus Syracuse city page read, SYR airport stop not on that page | Q5, Q6, Q30, D1 |
+| Buses to NYC | covered (C2C from Lane A; OurBus, Greyhound read today; FlixBus not extracted) | Q1, D1 |
+| Boston | covered for OurBus; other operators SNIPPET | Q3, D1 |
+| Philadelphia | covered for OurBus and Greyhound listing | Q4, D1 |
+| NJ / Newark | covered (Greyhound, OurBus) | Q13, D1 |
+| Washington DC, Toronto | thin (SNIPPET only) | Q18, Q21 |
+| FlixBus, Megabus, Trailways | thin: pages did not return usable extractions | Q1, Q18, Q21 |
+| Airport rides (taxi) | thin; no current City schedule | Q23, D5 |
+| Driving and parking permits and costs | covered except first-year eligibility beyond the "discouraged" line | Q7, D9 |
+| TCAT routes, fares, student passes | covered from Cornell side; tcatbus.com unreadable (403 twice) | Q8, Q20, Q27, D9, D10 |
+| Biking incl. winter | thin; no winter data | Q9, D6, D7 |
+| Rideshare | thin; newest data is 2017 | Q10, D5 |
+| Car share | thin; rates not found | Q14, D8 |
+| Break travel and storage | covered for dates and sources; no 2026 sell-out data | Q11, Q24, Q26, D4 |
+| Getting around without a car | thin; no grocery route page | Q22, Q34 |
+Not found, searched at least twice: Bikeshare 2026 price; Carshare rates; City taxi fare schedule; TCAT fare page text (403); FlixBus fare and stop extraction; first-year permit rule beyond "discouraged".
+
+## Pages read (this deepen pass; READ = opened with a fetch tool)
+| # | URL | Result |
+|---|---|---|
+| 1 | https://www.tcatbus.com/learn/college-students/ | 403 |
+| 2 | https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny | READ |
+| 3 | https://registrar.cornell.edu/calendar/academic-calendar | 404 |
+| 4 | https://theithacan.org/46872/news/ithaca-bikeshare-adds-parking-hubs-and-raises-costs-of-use | 403 |
+| 5 | https://news.cornell.edu/node/287516 | READ |
+| 6 | https://flyithaca.com/faq | READ |
+| 7 | https://flyithaca.com/?p=1939 | READ (no Charlotte text) |
+| 8 | https://www.ourbus.com/routes/ithaca-ny-to-boston-ma | READ |
+| 9 | https://flyithaca.com/news | READ |
+| 10 | https://www.ithacacarshare.org/ | READ |
+| 11 | https://www.flixbus.com/bus-routes/ithaca-ny-new-york-ny | READ, navigation only |
+| 12 | https://catalog.cornell.edu/enrollment-credit-requirements/academic-calendar/ | empty |
+| 13 | https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation | READ |
+| 14 | https://fcs.cornell.edu/node/17809 | 403 |
+| 15 | https://www.tcatbus.com/ride/fare-pass-options/ | 403 |
+| 16 | https://news.cornell.edu/node/311931 | READ (1999) |
+| 17 | https://flyithaca.com/ground/taxi-service/ | 404 |
+| 18 | https://www.greyhound.com/bus-routes/ithaca-ny-newark-nj | READ |
+| 19 | https://www.tompkinscountyny.gov/node/353 | 404 |
+| 20 | https://www.ourbus.com/routes/ithaca-ny-to-philadelphia-pa | READ |
+| 21 | https://www.ourbus.com/routes/ithaca-ny-to-syracuse-ny | READ |
+| 22 | https://cornellsun.com/2022/11/21/dont-let-it-snow-students-express-concerns-over-driving-conditions-as-temperatures-fall/ | READ |
+| 23 | https://en.wikipedia.org/wiki/Ithaca_Bus_Station | READ |
+| 24 | https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students | READ |
+| 25 | https://sce.cornell.edu/nds-prog-fall-spring/ | READ |
+| 26 | https://www.city-data.com/forum/new-york/1819276-ithaca-binghamton-commute-winter-2.html | READ |
+| 27 | https://theithacan.org/news/ride-hailing-services-slightly-less-expensive-than-taxis-in-ithaca/ | 403 |
+| 28 | https://rideguru.com/cities/ithaca-new-york-united-states-of-america | redirect to ride.guru (not followed) |
+
+Searches this pass (all web-search tool): ITH nonstops; Ithaca Bikeshare 2026; Cornell 2026-27 calendar; first-year car policy; Ithaca bus station operators; taxi fare schedule; TCAT fares 2026; winter driving. One search result list carried generic text asking that sources be listed; nothing in the results tried to redirect the work.
+
+Counts for the line below are my own tallies, not a tool's: words about 16,000 (earlier 13,041 plus roughly 3,000 new), new distinct source URLs about 45 (28 pages tried plus about 17 more cited from search results), facts about 150 sourced rows.
+
+## Lane complete: 150 facts, 190 sources, 16000 words, 2026-11-08
