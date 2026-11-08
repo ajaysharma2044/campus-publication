@@ -145,7 +145,21 @@ for r, art in cands:
         fm0 = q.frontmatter(art)
         v3 = bool(fm0.get("kind"))
         if not real:
-            log("  only unreachable source pages; stays written, checked again next run")
+            # a source that cannot be fetched on two publish passes in a row is treated as a source problem the writer must settle
+            passes = 0
+            if rev.exists():
+                d0 = json.loads(rev.read_text(encoding="utf-8"))
+                passes = int(d0.get("transient_passes") or 0) + 1
+                d0["transient_passes"] = passes
+                if passes >= 2 and v3:
+                    d0["lint_fixes"] = [f"a cited source could not be fetched on {passes} publish passes; replace it with a reachable source for the same fact or remove the fact: {e.split(': ', 2)[-1]}" for e in errs]
+                    d0["lint_rounds"] = int(d0.get("lint_rounds") or 0) + 1
+                    rev.write_text(json.dumps(d0, indent=1, ensure_ascii=False), encoding="utf-8")
+                    q.set_status(r["id"], "fix")
+                    log(f"  unreachable source on {passes} passes -> writer round to replace it")
+                    continue
+                rev.write_text(json.dumps(d0, indent=1, ensure_ascii=False), encoding="utf-8")
+            log(f"  only unreachable source pages (pass {passes}); stays written, checked again next run")
             continue
         if duplicate:
             q.set_status(r["id"], "rejected")
