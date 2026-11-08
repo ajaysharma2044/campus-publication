@@ -22,3 +22,6 @@ design/reference-article.html is not in the repository, so the side-by-side of t
 | 14 | 404 | /404.html | 14-404-375.png | 14-404-1280.png |
 | 15 | styleguide | /styleguide/ | 15-styleguide-375.png | 15-styleguide-1280.png |
 | 16 | pillar-sample | /styleguide/pillar/ | 16-pillar-sample-375.png | 16-pillar-sample-1280.png |
+| 17 | tool | /tools/before-break-travel-checklist/ | 17-tool-375.png | 17-tool-1280.png |
+| 18 | dataset | /datasets/thanksgiving-bus-fare-premium-ithaca-2026/ | 18-dataset-375.png | 18-dataset-1280.png |
+| 19 | start | /start/accessibility/ | 19-start-375.png | 19-start-1280.png |
