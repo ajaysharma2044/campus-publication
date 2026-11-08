@@ -8,5 +8,5 @@ schools:
     name: Cornell University
     terms: [Cornell, Big Red]
     town: Ithaca
-    town_terms: [Ithaca, Collegetown, Tompkins County, Cayuga Lake, Cayuga Heights, Fall Creek, Cascadilla]
+    town_terms: [Ithaca, Collegetown, Tompkins County, Tompkins, Cayuga Lake, Cayuga Heights, Cayuga, Fall Creek, Cascadilla, TCAT, Campus-to-Campus, Ithaca Commons, Lansing NY, Trumansburg, Dryden NY, Ithaca Carshare, Ithaca Bikeshare, Big Red Bikes, Sage Chapel, Libe Slope, Ho Plaza, Arts Quad, Ag Quad, McGraw Tower, Beebe Lake, Schoellkopf, Barton Hall, Bailey Hall]
     exclude: [Cornell College, Mount Vernon, Ithaca College, Ithaca Michigan, Ithaca Greece, Ithaki, Cornell Iowa, Ezra Cornell portrait]

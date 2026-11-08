@@ -110,3 +110,5 @@ PHOTOS: the image finder accepts a photo only when its title or description name
 frontmatter field `subject:` to the most photographable concrete thing on the page, in two to five words a Wikimedia Commons title would use
 (for example "TCAT bus Ithaca", "Ithaca Tompkins International Airport", "Collegetown apartments", "Cornell Campus-to-Campus bus", "Schoellkopf Field").
 A page with no lead photo does not publish, so choose a subject that exists in photos; a street, building, bus, airport or neighborhood beats an idea.
+
+VISUALS ARITHMETIC: one visual per 600 words beyond the lead photo (a 7,500-word pillar needs 12): figure blocks from the brief's numbers, every tool of the topic embedded where it helps, extra photos from the candidates. Count them before you save.

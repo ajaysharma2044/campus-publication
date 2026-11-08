@@ -134,22 +134,57 @@ for r, art in cands:
         log(f"FAIL {rel(art)} ({r['id']}):")
         for e in errs:
             log(f"  - {e}")
-        # what happens next depends on the kind of failure (spec: lint is code only, one revision per article)
-        transient = all(e.startswith("source url returned") for e in errs)
-        duplicate = any(e.startswith("near-duplicate") for e in errs)
+        # what happens next depends on the kind of failure. v2 pages: one revision, then rejected. v3 pages (frontmatter kind):
+        # missing pieces go back to the image step or the writer, never to a reject (docs/v3/spec.md, publish requirements).
+        def transient(e: str) -> bool:
+            return e.startswith("source url returned error") or e.startswith("source url returned 5") or "timed out" in e
+        real = [e for e in errs if not transient(e)]
+        duplicate = any(e.startswith("near-duplicate") for e in real)
         rev = REPO / "content" / "reviews" / f"{art.stem}.json"
         revised_before = (REPO / "content" / "reviews" / f"{art.stem}.prev.json").exists()
-        if transient:
-            log("  source pages unreachable right now; stays written, checked again next run")
-        elif duplicate:
+        fm0 = q.frontmatter(art)
+        v3 = bool(fm0.get("kind"))
+        if not real:
+            log("  only unreachable source pages; stays written, checked again next run")
+            continue
+        if duplicate:
             q.set_status(r["id"], "rejected")
             log("  duplicate of a published article -> rejected")
-        elif revised_before or not rev.exists():
+            continue
+        if v3 and any(e.startswith("lead photo") for e in real):
+            log("  lead photo missing -> image step (scripts/v3/images.py)")
+            run([PY, "scripts/v3/images.py", str(art)], 900)
+            real = [e for e in lint.lint_article(art, root=REPO, web=web, published=published, live=live) if not transient(e)]
+            if not real:
+                log("  clean after the image step")
+                q.set_status(r["id"], "published")
+                fm = q.frontmatter(art)
+                published.append((r["id"], str(fm.get("title") or ""), str(fm.get("primary_query") or "")))
+                new += 1
+                since += 1
+                log(f"PUBLISHED {r['id']} -> /{art.parent.name}/{art.stem}/")
+                if a.deploy_every > 0 and since >= a.deploy_every:
+                    render_and_deploy()
+                    since = 0
+                continue
+        if not rev.exists():
+            log("  no review file; stays written")
+            continue
+        d = json.loads(rev.read_text(encoding="utf-8"))
+        rounds = int(d.get("lint_rounds") or 0)
+        if v3:
+            if rounds >= 3:
+                log(f"  still failing after {rounds} lint-driven revisions; stays written for a hand look (never rejected on lint)")
+                continue
+            d["lint_fixes"], d["lint_rounds"] = real, rounds + 1
+            rev.write_text(json.dumps(d, indent=1, ensure_ascii=False), encoding="utf-8")
+            q.set_status(r["id"], "fix")
+            log(f"  text-level failures -> status fix (lint round {rounds + 1} of 3), check runs again after it")
+        elif revised_before:
             q.set_status(r["id"], "rejected")
             log("  text-level failures after the one revision -> rejected")
         else:
-            d = json.loads(rev.read_text(encoding="utf-8"))
-            d["lint_fixes"] = errs
+            d["lint_fixes"] = real
             rev.write_text(json.dumps(d, indent=1, ensure_ascii=False), encoding="utf-8")
             q.set_status(r["id"], "fix")
             log("  text-level failures -> status fix (the one revision), review runs again after it")

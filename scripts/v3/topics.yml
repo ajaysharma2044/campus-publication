@@ -4,43 +4,54 @@
   dir: housing
   title: Off-campus housing in Ithaca for Cornell students
   scope: Collegetown, Fall Creek, downtown, Northside, South Hill, Lansing and beyond; apartments, houses, co-ops off campus; landlords and management companies; leases, timing of the leasing rush, deposits, renewals and the city's notice rules; subletting; roommates; utilities, internet and renters insurance; move-in and move-out; storage; parking; walking and TCAT commutes from each neighborhood to central campus; tenant rights in Ithaca and New York; how this differs for transfers, international students, grad students, students with families and those exempt from the residential requirement.
+  image_scenes: [Collegetown Ithaca, Collegetown Terrace Ithaca, Fall Creek Ithaca, Ithaca Commons, Cascadilla Gorge Ithaca, Cornell University campus Ithaca]
 - slug: getting-around
   dir: getting-around
   title: Getting to Ithaca and getting around it
   scope: flights into ITH, SYR and ELM and ground connections; buses and shuttles to NYC, Boston, Philadelphia and NJ (Cornell Campus-to-Campus, OurBus, FlixBus, Greyhound, Trailways); airport rides; driving and parking permits and costs; TCAT routes, fares and student passes; biking including winter; rideshare and car share; break travel and storage; getting around without a car.
+  image_scenes: [TCAT bus Ithaca, Ithaca Tompkins International Airport, Cornell Campus-to-Campus bus, Ithaca bus station, Syracuse Hancock International Airport, Cornell University parking, Cornell University campus Ithaca]
 - slug: money
   dir: money
   title: Money and the cost of living for Cornell students in Ithaca
   scope: real cost of living by situation; groceries and where to buy cheap; meal plan math; on- and off-campus jobs and pay; financial aid appeals and how aid changes; budgets by scenario (full aid, parents paying, international, grad stipend); banking, phones, taxes for students; discounts and free things.
+  image_scenes: [Ho Plaza Cornell, Cornell Store, Ithaca Commons, Day Hall Cornell, Cornell University campus Ithaca]
 - slug: dining
   dir: dining
   title: Dining and food at Cornell and in Ithaca
   scope: dining halls and all-you-care-to-eat rooms, cafes and eateries, meal plans and Big Red Bucks, hours and late-night options, dietary needs, Collegetown and downtown restaurants and prices, groceries, food trucks and farmers markets, cooking in an apartment.
+  image_scenes: [Cornell University dining hall, Okenshields Cornell, Collegetown Ithaca restaurants, Ithaca Farmers Market, Cornell University campus Ithaca]
 - slug: academics
   dir: academics
   title: Classes, requirements and registration at Cornell
   scope: specific courses and professors from public review sites and student discussion, distribution requirements by college, registration strategy and pre-enrollment, add and drop and W grades, waitlists and permission numbers, switching colleges and internal transfer, grading basis, study spots, tutoring and academic support.
+  image_scenes: [Cornell University Arts Quad, Olin Library Cornell, Uris Library Cornell, Klarman Hall Cornell, Cornell University campus Ithaca]
 - slug: transfer
   dir: transfer
   title: Transferring to Cornell
   scope: applying as a transfer and the transfer option, credit evaluation and what transfers, housing and the residential requirement for transfers, orientation and community, academic adjustment, financial aid for transfers, spring versus fall entry, community college and guaranteed transfer pathways.
+  image_scenes: [Cornell University West Campus, Day Hall Cornell, Cornell University campus Ithaca]
 - slug: careers
   dir: careers
   title: Careers, internships and jobs for Cornell students
   scope: recruiting timelines by industry, career fairs and Handshake, employers that hire from Cornell, internships and summer funding, on-campus and Ithaca part-time work, resumes and interviews as Cornell career services teach them, international student work authorization basics (CPT, OPT) as official pages state them.
+  image_scenes: [Barnes Hall Cornell, Statler Hall Cornell, Ithaca Commons, Cornell University campus Ithaca]
 - slug: parents
   dir: parents
   title: Parents and families of Cornell students
   scope: visiting Ithaca and where to stay, move-in and move-out weekends, graduation logistics, what to send and care packages, billing and paying the bursar, proxy access, health insurance decisions, emergencies and who to call, family weekend.
+  image_scenes: [Cornell University Arts Quad, McGraw Tower Cornell, Ithaca Commons, Statler Hotel Cornell, Cornell University campus Ithaca]
 - slug: health
   dir: health
   title: Health, insurance and wellbeing at Cornell
   scope: Cornell Health services, hours and costs; the student health plan and waivers; pharmacies; mental health services and CAPS; urgent care and hospitals in Ithaca; insurance billing basics as official pages state them; immunization requirements; accessibility services. Information only, never medical advice.
+  image_scenes: [Cornell Health Ithaca, Cayuga Medical Center, Cornell University campus Ithaca]
 - slug: daily-life
   dir: daily-life
   title: Daily life in Ithaca as a Cornell student
   scope: gyms and recreation, phones and banking, winter gear and weather, safety and Blue Lights, nightlife and Collegetown, clubs and how to join, laundry, haircuts, printing, mail and packages, errands without a car, things to do in the Finger Lakes.
+  image_scenes: [Ithaca Commons, Teagle Hall Cornell, Collegetown Ithaca, Beebe Lake Cornell, Cornell University campus Ithaca]
 - slug: alumni
   dir: alumni
   title: Cornell alumni
   scope: alumni benefits and library or gym access, reunion and homecoming, staying in Ithaca after graduation, alumni networks and clubs, transcripts and diplomas, giving, Cornell Store and email for life.
+  image_scenes: [Cornell University Arts Quad, Schoellkopf Field Cornell, McGraw Tower Cornell, Cornell University campus Ithaca]

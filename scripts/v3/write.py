@@ -724,8 +724,13 @@ def main(argv: list[str]) -> int:
         fm, body, _, errs = lint.parse(art)
         images = fm.get("images") or []
         if errs or not isinstance(images, list) or not images or a.no_images or not FIND_IMAGES.exists():
-            if not errs and not images and ctx["kind"] in ARTICLE_KINDS:
-                log(f"[{ctx['id']}] no images in the frontmatter (the publish lint wants a lead photo)")
+            if not errs and not images and ctx["kind"] in ARTICLE_KINDS and not a.no_images:
+                log(f"[{ctx['id']}] no images in the frontmatter: running the image step (scripts/v3/images.py)")
+                try:
+                    p = subprocess.run([sys.executable, str(REPO / "scripts/v3/images.py"), str(art), "--images-dir", str(P.images)], cwd=REPO, env=finder_env(), capture_output=True, text=True, timeout=1200)
+                    log(f"[{ctx['id']}] {(p.stdout.strip().splitlines() or [''])[-1][:160]}")
+                except Exception as e:  # noqa: BLE001
+                    log(f"[{ctx['id']}] image step failed: {type(e).__name__}: {str(e)[:120]}")
             return
         try:
             p = subprocess.run([sys.executable, str(FIND_IMAGES), "--article", str(art), "--out", str(ctx["cand"]), "--images-dir", str(P.images)],
