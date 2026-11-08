@@ -27,16 +27,16 @@ If you are an undergraduate who wants to be close to classes and friends, live i
 |---|---|---|---|
 | Distance to campus | 0.1 to 0.5 miles | 0.5 to 1 mile | 0.5 to 1.5 miles |
 | Walk to campus | Up to 15 minutes, uphill from lower Collegetown | 20 to 30 minutes, uphill | 20 to 30 minutes, uphill |
-| Bus | Walkable, little need | Frequent service | Frequent service, the hub |
-| Rent | Highest | Lower, by Cornell's account | Lower, by Cornell's account |
-| Noise | Highest | Quiet, per reviewers | Loud near the Commons on weekends |
-| Typical resident | Mostly undergraduates | Graduate students, families | Grad and professional students, young professionals |
+| Bus | Cornell gives no bus info; walkable (up to 15 min) | Frequent service (Cornell) | Frequent service (Cornell); reviewers praise TCAT (VeryApt) |
+| Rent | Highest | Lower, by Cornell's account; no official dollar figure | Lower, by Cornell's account; no official dollar figure |
+| Noise | Highest | Quiet, per reviewers (VeryApt, 6 reviews) | Some weekend noise near the Commons, per reviewers (VeryApt, mixed) |
+| Typical resident | Mostly undergraduates | Many graduate students (Cornell) | Many graduate students (Cornell) |
 
-Walk times, distances and the rent and noise comparisons come from [Cornell's neighborhood guide](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods). One catch: that page uses the same paragraph for Downtown, Fall Creek and The Commons, so the shared "20 to 30 minute uphill walk" and "frequent bus service" are the one estimate Cornell gives for all of them. Treat it as a range, not a per-street measurement.
+Distances, walk times and the Collegetown rent and noise remark come from [Cornell's neighborhood guide](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods). Fall Creek and downtown noise comes from reviewers on [VeryApt's Fall Creek guide](https://www.veryapt.com/guides/neighborhood/372-ithaca-fall-creek/) and [VeryApt's downtown guide](https://www.veryapt.com/guides/neighborhood/366-ithaca-downtown-ithaca/); Cornell says nothing about noise there. One catch: Cornell's page uses the same paragraph for Downtown, Fall Creek and The Commons, so the shared "20 to 30 minute uphill walk" and "frequent bus service" are the one estimate Cornell gives for all of them. Treat it as a range, not a per-street measurement. We found no official or dated rent figure for Fall Creek or downtown specifically, so the table gives none.
 
 ## Collegetown
 
-Cornell calls it a [miniature city with shopping, restaurants and services](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods), very popular with mostly undergraduate students, which "increases rent, noise, and congestion." Housing is a mix of apartment complexes, multiple-unit houses and room rentals. Lower Collegetown means an uphill walk to campus, which Cornell frames as exercise.
+Cornell describes it as a kind of miniature city with shopping, restaurants and other services, very popular with mostly undergraduate students, which it says raises rent, noise and congestion. Housing is a mix of apartment complexes, multiple-unit houses and room rentals. Lower Collegetown means an uphill walk to campus, which Cornell frames as exercise.
 
 What it costs: RentCafe lists Collegetown averages as of October 30, 2026 of [$2,006 for a studio, $2,342 for a one-bedroom and $3,414 for a two-bedroom](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/). Those are whole-unit asking rents in a dataset with very small average unit sizes, so they overstate what a student pays per bedroom in a shared house. A 2022 Cornell Daily Sun column found that [Collegetown listings often advertised over $1,000 a month per person](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/), and that newer buildings charged far more, such as a one-bedroom up to $2,625. Those are 2022 figures; expect higher now.
 
@@ -46,7 +46,7 @@ The timing is the real gotcha. The same column says students start hunting for n
 
 Cornell describes the area as [at the base of East Hill, within walking distance of shopping, parks and city services](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods), with mostly subdivided houses, single-unit houses and apartments over shops. It says many graduate students prefer it for lower rents and a city-neighborhood feel.
 
-Reviewers on [VeryApt's Fall Creek guide](https://www.veryapt.com/guides/neighborhood/372-ithaca-fall-creek/) describe it as quiet, with one saying it is far enough from Collegetown and the fraternities that weekends are calm. One reviewer says they can walk to Cornell in about 20 minutes, which is at the short end of Cornell's range, and opinions on buses are mixed. Those are individual reviews, not measurements. The site had no median rent for Fall Creek when we checked, so we cannot give you a reliable neighborhood price. Compare live listings.
+Reviewers on [VeryApt's Fall Creek guide](https://www.veryapt.com/guides/neighborhood/372-ithaca-fall-creek/) describe it as quiet, with one saying it is far enough from Collegetown and the fraternities that weekends are calm. The page rates the neighborhood 7.8/10, but from only 6 reviews, so treat that as a few opinions, not a measurement. One reviewer says they can walk to Cornell in about 20 minutes, which is at the short end of Cornell's range, and opinions on buses are mixed. The site had no median rent for Fall Creek when we checked, so we cannot give you a reliable neighborhood price. Compare live listings.
 
 ## Downtown Ithaca
 
@@ -72,7 +72,7 @@ Living off the Collegetown strip only works if the bus does. Per Cornell Transpo
 
 ## If you are...
 
-- **A first or second-year undergraduate:** Cornell's marketplace says first- and second-year students [should not sign a lease without an approved exemption](https://offcampus.housing.cornell.edu/). Read our [transfer housing guide](/housing/cornell-transfer-housing/) and the [housing index](/housing/) first.
+- **A first or second-year undergraduate:** Cornell's marketplace says first- and second-year students [should not sign a lease without an approved exemption](https://offcampus.housing.cornell.edu/). The marketplace page looks partly out of date, so confirm your status with Cornell Housing (housing@cornell.edu, 607-255-5368) before signing. Read our [transfer housing guide](/housing/cornell-transfer-housing/) and the [housing index](/housing/) first.
 - **A junior or senior who wants a social, walk-to-class life:** Collegetown. Sign early and read the lease.
 - **A graduate student on a budget:** Fall Creek or downtown, near a bus stop. Cornell itself points graduate students there.
 - **Someone who values quiet over convenience:** Fall Creek, away from the Commons.

@@ -19,6 +19,8 @@ images: []
 
 Read your lease first, then ask your landlord for consent in writing. In New York, if your building has four or more residential units, the landlord [cannot unreasonably withhold consent to a sublease](https://www.nysenate.gov/legislation/laws/RPP/226-B), and silence counts as a yes. You stay on the hook for the rent and any damage whoever lives there. Cornell's Off-Campus Living office answers lease questions at [607-255-2310](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease). Below: the steps, the legal clock, what landlords usually add, and where to list.
 
+**What to do first:** count the residential units in your building and read the sublet clause in your lease. In a building with three or fewer units, or in a subsidized unit, you have no statutory right to sublet, and the lease and the landlord decide.
+
 ## Do you need your landlord's permission?
 
 Yes, in practice. The state law gives you a right to ask and limits how the landlord can say no. It does not let you skip asking.
@@ -74,7 +76,7 @@ rows:
 ```
 
 1. **Read the lease.** Cornell's lease checklist lists [the ability to sublet and the conditions for sublet](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) as terms to confirm. If yours is silent, ask the landlord.
-2. **Ask about policy and fees before you list.** Some landlords require subtenants to be students or to pass the same screening as any tenant. That is a landlord's rule to state, so get it in writing.
+2. **Ask about policy and fees before you list.** Some landlords may require subtenants to be students or to pass the same screening as any tenant. We did not verify any single Ithaca landlord's rule for this page, so treat that as an example of what to ask about, not a finding. Get the answer in writing.
 3. **Find a subtenant** (see the next section) and write a sublease with the dates, rent, deposit and who pays utilities.
 4. **Send the request** with everything the statute lists, by certified mail. An email is a good extra, not a substitute.
 5. **Wait out the clock,** and get the answer in writing. Do not hand over keys on an informal "sure."
@@ -82,13 +84,13 @@ rows:
 
 ## Fees
 
-The Cornell Law guide says a landlord may charge a [background or credit check fee, but no sublet fees that are not listed in the lease](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease). If the lease does allow one, [it must be reasonable](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease). We did not find a published Ithaca-wide sublet fee schedule, so check your own lease.
+The Cornell Law guide says a landlord may charge a [background or credit check fee, but no sublet fees that are not listed in the lease](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease). If the lease does allow one, [it must be reasonable](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease). We did not find a published Ithaca-wide sublet fee schedule, so check your own lease. To be plain about it: we could not source a usual Ithaca sublet fee from any official landlord page, so we give no figure. Your landlord's own sublet policy is the place to ask.
 
 ## Where to list
 
-- **Cornell's Off-Campus Housing Marketplace.** It has a [Subleases section and a "List/Find Sublets" option](https://offcampus.housing.cornell.edu/). Cornell says that [only people affiliated with Cornell, or who can prove it, can view and contact listers](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources), which screens out most strangers. Cornell's Graduate School describes it as [free to use](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/) and particularly helpful for grad students who want to sublet.
+- **Cornell's Off-Campus Housing Marketplace.** It has a [Subleases section and a "List/Find Sublets" option](https://offcampus.housing.cornell.edu/). Cornell says that [only people affiliated with Cornell, or who can prove it, can view and contact listers](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources), which screens out most strangers. Cornell's Graduate School describes it as [free to use for those with Cornell credentials](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/) and particularly helpful for grad students who want to sublet.
 - **The Off-Campus Living email list.** It is [a forum for people who want to sublet their apartment](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources), open to the Cornell community with a NetID.
-- **Other sites.** Cornell lists the Daily Sun, Ithacarents.com, the Ithaca Journal and the Ithaca Times, but [does not endorse them](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources). Public listings on Craigslist and similar sites work, and they also reach scammers.
+- **Other sites.** Cornell lists the Daily Sun, Ithacarents.com, the Ithaca Journal and the Ithaca Times, but [does not endorse them](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources). Per the same page, Ithacarents.com only lets members of the Landlords Association of Tompkins County post, so a tenant cannot list a sublet there. The Daily Sun, Ithaca Journal and Ithaca Times are the other options Cornell lists. Our view: public sites reach more people and also more scammers.
 
 ## Avoid scams and bad subtenants
 
@@ -102,7 +104,7 @@ Cornell's advice is to [view properties in person and read the whole lease befor
 ## If you are...
 
 - **Leaving for a summer internship:** a sublet fits. You keep the lease and cover the gap. Ask the landlord early in spring, because the 30-day window can eat most of April.
-- **Leaving for good:** consider an assignment instead. The Law School guide says [you are not liable if the new tenant fails to pay](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease), and an unreasonable refusal obliges the landlord to end the lease on 30 days' notice.
+- **Leaving for good:** consider an assignment instead, but do not assume it is easier to get than a sublet. Under the [statute](https://www.nysenate.gov/legislation/laws/RPP/226-B), an owner may refuse an assignment without giving a reason, and the remedy for an unreasonable refusal is your right to request release from the lease on 30 days' notice. The upside: the Law School guide says [you are not liable if the new tenant fails to pay](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease).
 - **Stuck in a building that bans subletting:** ask the landlord about a mutual termination. The guide names that as an option.
 - **A first- or second-year undergraduate:** check your residential requirement before signing any lease. See [Cornell transfer housing](/housing/cornell-transfer-housing/) and our [housing guides](/housing/).
 

@@ -10,6 +10,7 @@ queue_id: q-academics-0005
 sources:
   - {url: "https://as.cornell.edu/degree-requirements", title: "Degree Requirements, Cornell College of Arts & Sciences", accessed: "2026-11-07"}
   - {url: "https://as.cornell.edu/registrar/course-enrollment", title: "Course Enrollment, Cornell College of Arts & Sciences", accessed: "2026-11-07"}
+  - {url: "https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/", title: "Distribution Codes: Arts and Sciences, Cornell University Catalog", accessed: "2026-11-07"}
   - {url: "https://www.news.cornell.edu/stories/2018/11/arts-and-sciences-faculty-approves-new-undergrad-curriculum", title: "Arts and Sciences faculty approves new undergrad curriculum, Cornell Chronicle", accessed: "2026-11-07"}
   - {url: "https://as.cornell.edu/news/arts-sciences-faculty-approve-new-curriculum", title: "Arts & Sciences faculty approve new curriculum, Cornell College of Arts & Sciences", accessed: "2026-11-07"}
   - {url: "https://as.cornell.edu/news/how-complete-distribution-requirements-while-watching-music-videos", title: "How to Complete Distribution Requirements While Watching Music Videos, Cornell College of Arts & Sciences", accessed: "2026-11-07"}
@@ -18,11 +19,11 @@ images:
   - {file: "1.webp", alt: "Part of the Arts Quad at Cornell, with campus buildings and lawn", caption: "The Arts Quad, home of most College of Arts & Sciences classrooms.", credit: "P. Hughes / Wikimedia Commons", credit_url: "https://commons.wikimedia.org/wiki/File:Cornell_University_-_Partial_view_of_Arts_Quad.jpg", license: "CC BY-SA 4.0", license_url: "https://creativecommons.org/licenses/by-sa/4.0"}
 ---
 
-Nobody, including Cornell, publishes a trustworthy ranked list of the easiest Arts & Sciences distribution courses, and we will not invent one. What you can do is cut the work with the rules. You need [a minimum of 8 courses to cover all 10 distribution categories](https://as.cornell.edu/degree-requirements), because the college lets some courses count twice. Then you pick the lightest option in each category from the current semester's official list, using the tools below. This page gives the rules, the tools, and the few course examples we could verify.
+Nobody, including Cornell, publishes a trustworthy ranked list of the easiest Arts & Sciences distribution courses, and we will not invent one. What you can do is cut the work with the rules. You need [a minimum of 8 courses to cover all 10 distribution categories](https://as.cornell.edu/degree-requirements), because faculty can list a course under up to two categories and [up to two courses may count twice](https://www.news.cornell.edu/stories/2018/11/arts-and-sciences-faculty-approves-new-undergrad-curriculum), so check each course's listing before you count on it. Distribution courses [can be taken S/U](https://as.cornell.edu/degree-requirements) if they are not also used for a major or minor requirement. Then pick the lightest option in each category from [the catalog's official per-category course lists](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/), using the workload checks below.
 
 ## What the requirement is
 
-Students who matriculated in fall 2020 or later follow the [current curriculum](https://as.cornell.edu/degree-requirements), which has ten categories:
+Students who [matriculate in fall 2020 or after](https://as.cornell.edu/degree-requirements) follow the current curriculum, which has ten categories:
 
 | Code | Category |
 |---|---|
@@ -37,33 +38,34 @@ Students who matriculated in fall 2020 or later follow the [current curriculum](
 | SDS-AS | Statistics and Data Science |
 | SMR-AS | Symbolic and Mathematical Reasoning |
 
-A course counts only if its code ends in [-AS](https://as.cornell.edu/registrar/course-enrollment); a code without that suffix does not satisfy an A&S distribution requirement.
+A course counts only if its code ends in [-AS](https://as.cornell.edu/registrar/course-enrollment); a course without that suffix does not satisfy an A&S distribution requirement.
 
 ## How to finish in 8 courses
 
-The Cornell Chronicle reported when the curriculum was approved that students [may count up to two courses as satisfying two distribution requirements at once](https://www.news.cornell.edu/stories/2018/11/arts-and-sciences-faculty-approves-new-undergrad-curriculum), and that faculty can list a course under up to two categories. Ten categories minus two double-counted courses gives eight courses. That is the minimum, not a target: the 8 courses are the floor, and anything you take for your major or out of interest can also cover a category.
+The Cornell Chronicle reported when the curriculum was approved that students [may count up to two courses as satisfying two distribution requirements at once](https://www.news.cornell.edu/stories/2018/11/arts-and-sciences-faculty-approves-new-undergrad-curriculum), and that faculty can list a course under up to two categories. Ten categories minus two double-counted courses gives eight courses. That is the minimum, not a target: anything you take for your major or out of interest can also cover a category.
 
 ```figure
 kind: steps
 title: Finishing all 10 categories in 8 courses
 rows:
   - label: Check your DUST report for categories already covered
-  - label: Open the current semester's course list for each open category
-  - label: Look for courses coded with two categories (up to two courses can double count)
-  - label: Fill the quantitative categories (SDS, SMR) with the option that fits your skills
+  - label: Open the official course list for each open category
+  - label: Check each course's listing for a second category
+  - label: Judge workload with the syllabus, instructor and credits
   - label: Use the first 15 days to add and the first 57 days to drop if a course is wrong
 ```
 
-1. **Start with what you already have.** The A&S says you have [8 semesters to fulfill these requirements](https://as.cornell.edu/degree-requirements), and many are covered by courses in your major. Your [DUST report](https://as.cornell.edu/registrar/course-enrollment), updated after each semester, shows what is done.
-2. **Search for double-coded courses.** The [Class Roster](https://as.cornell.edu/registrar/course-enrollment) searches by subject, instructor, credits and other filters, so look for courses showing two -AS codes. Those are your two double counts.
+1. **Start with what you already have.** The college gives you [8 semesters to fulfill these requirements](https://as.cornell.edu/degree-requirements), and many are covered by courses in your major. Your [DUST report](https://as.cornell.edu/registrar/course-enrollment), updated after each semester, shows what is done.
+2. **Look for double-listed courses.** Faculty can list a course under up to two categories ([Chronicle](https://www.news.cornell.edu/stories/2018/11/arts-and-sciences-faculty-approves-new-undergrad-curriculum)); check each course's listing on the Class Roster or the [catalog list](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/).
 3. **Spend the double counts on the categories you like least.** Our advice: use them on the quantitative or lab-heavy ones, since a course that covers SDS-AS plus something else saves a full course in your weakest area.
-4. **Use S/U where allowed.** [Distribution requirements can be taken S/U](https://as.cornell.edu/degree-requirements) if they are not also being used for a major or minor requirement, and S/U courses [can fulfill the distribution requirement](https://as.cornell.edu/registrar/course-enrollment). A pass/fail course lowers the cost of a hard category even if it does not lower the work.
+4. **Judge the workload before you enroll.** Our advice, using tools the college points to: the [Class Roster](https://as.cornell.edu/registrar/course-enrollment) lets you search by subject, instructor and credits, so compare credit counts and look up the instructor. Then open the course's syllabus if one is posted and count the papers, problem sets and exams. A 3-credit lecture with two exams is a different semester from a lab course with weekly write-ups.
+5. **Use S/U where allowed.** [Distribution requirements can be taken S/U](https://as.cornell.edu/degree-requirements) if they are not also used for a major or minor requirement. The [enrollment page](https://as.cornell.edu/registrar/course-enrollment) words the limit as courses that count toward major requirements or serve as major admission prerequisites, and says S/U courses can still fulfill distribution requirements.
 
 ## Where to find the real list
 
-The degree requirements page carries a link per category, labeled with the current term (for example "Fall '26 ALC-AS courses"), so the list stays current. Course offerings change by semester, which is why any fixed "easy list" goes stale. Use the roster to filter, then read each course's description for the workload.
+The catalog publishes [the official per-category course list](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/). The [degree requirements page](https://as.cornell.edu/degree-requirements) also links each category to the current term's Class Roster results (for example "Fall '26 ALC-AS courses"), so the list stays current. Course offerings change by semester, which is why any fixed "easy list" goes stale. Use the lists to filter, then read each course's description for the workload.
 
-Two safety nets from the [enrollment page](https://as.cornell.edu/registrar/course-enrollment): you can add a regular course in the first 15 calendar days of a semester, and drop one without a transcript record in the first 57 days. After day 57, a withdrawal shows as a "W". Also, courses with overlapping content cannot both count toward your degree, so do not stack two near-duplicates.
+Safety nets from the [enrollment page](https://as.cornell.edu/registrar/course-enrollment): you can add a regular course in the first 15 calendar days of a semester, except courses with special deadlines, and drop one without a transcript record in the first 57 days. After day 57, a withdrawal shows as a "W". Also, courses with overlapping content cannot both count toward your degree, so do not stack two near-duplicates.
 
 ## What students and the college say about specific courses
 
@@ -76,13 +78,14 @@ Treat both as leads to check, not recommendations. We opened the r/Cornell threa
 
 ## Category by category: what to look for
 
-The official descriptions tell you what each category expects. Our read of the workload comes from those descriptions, not from grade data.
+The official descriptions on the [degree requirements page](https://as.cornell.edu/degree-requirements) tell you what each category expects; the [catalog](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/) is the official per-category course list for every bullet below. Any read of workload is our advice, not grade data.
 
-- **ALC-AS and HST-AS:** [analysis of artworks, texts and documentary evidence](https://as.cornell.edu/degree-requirements). Expect reading and papers rather than problem sets. The creative-writing, film and performing-arts side of ALC-AS is described as including expression itself.
-- **ETM-AS:** philosophy, psychology or linguistics courses on the mind or on ethics. Method varies a lot by department, so read the syllabus.
-- **GLC-AS, SCD-AS, SSC-AS:** the broadest lists, so the most room to find a topic you would read anyway. Social Difference explicitly covers class, race, gender, language, religion and ability.
-- **BIO-AS and PHS-AS:** the official text says these [expose students to the process and substance of science](https://as.cornell.edu/degree-requirements). Plan on lectures with exams, and check for lab sections.
-- **SDS-AS and SMR-AS:** data literacy and mathematical reasoning. If these are your weak spots, spend a double count here.
+- **ALC-AS:** creative expression and analysis of texts, artworks and belief systems. Expect reading and papers more than problem sets. [Course list](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/).
+- **HST-AS:** analysis of documentary, material and oral evidence. Expect reading and papers. [Course list](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/).
+- **ETM-AS:** courses on the human mind and its capacities, including cognition, language, reasoning and how ethical values are formed, drawing on psychology, linguistics or philosophy. Method varies by department, so read the syllabus. [Course list](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/).
+- **GLC-AS, SCD-AS, SSC-AS:** among the broadest areas, so likely the most room to find a topic you would read anyway (our read). Social Difference covers differences such as class, race and gender, per the [degree page](https://as.cornell.edu/degree-requirements). [Course list](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/).
+- **BIO-AS:** life from cells to ecosystems, including molecular makeup, evolution and genetic information. **PHS-AS:** physics, chemistry, Earth science, astronomy and scientific inquiry. Our advice: check the roster listing for lab sections before you enroll. [Course list](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/).
+- **SDS-AS and SMR-AS:** SDS-AS covers statistical and computational methods for collecting, analyzing and interpreting data; SMR-AS covers abstract, logical and quantitative reasoning, including mathematical modeling and algorithm design, per the [degree page](https://as.cornell.edu/degree-requirements). If these are your weak spots, spend a double count here. [Course list](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/).
 
 ## Common mistakes
 
@@ -91,7 +94,7 @@ Our advice:
 - Choosing a course because someone calls it easy, then finding its code is missing -AS.
 - Leaving SDS-AS or SMR-AS to senior year. The college wants students to [explore early](https://as.cornell.edu/news/arts-sciences-faculty-approve-new-curriculum): the 2018 plan called for five different categories within the first four semesters, though the current degree page does not repeat that rule, so ask your advising dean whether it applies to you.
 - Using a course for a major requirement and then taking it S/U. That combination is not allowed.
-- Counting on a double count without checking that the course lists both codes.
+- Counting on a double count without checking that the course lists both categories.
 
 ## FAQ
 
@@ -99,7 +102,7 @@ Our advice:
 
 **Can I take them S/U?** Yes, if they are not also counting toward a major or minor requirement.
 
-**Do AP or transfer credits cover distribution?** The degree requirements page does not say for distribution categories. It says AP, IB or A-Level scores [do not fulfill the language requirement](https://as.cornell.edu/degree-requirements). Ask your advising dean about distribution; transfer students must also complete at least 60 academic credits at Cornell.
+**Do AP or transfer credits cover distribution?** The degree requirements page does not say for distribution categories. It says AP, IB or A-Level scores [do not fulfill the language requirement](https://as.cornell.edu/degree-requirements). Ask your advising dean about distribution. Transfer students must also complete at least 60 academic credits at Cornell and spend at least four semesters in residence, per the [degree page](https://as.cornell.edu/degree-requirements).
 
 **Where do I check my progress?** Your DUST report, plus an appointment with your advising dean.
 

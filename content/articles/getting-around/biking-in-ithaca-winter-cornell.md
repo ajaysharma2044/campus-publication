@@ -22,14 +22,14 @@ images:
   - {file: "1.webp", alt: "Rows of bicycles parked at racks outside Milstein Hall on the Cornell campus", caption: "Bike racks outside Milstein Hall. Cornell says it has over 1,000 bike parking stations on campus.", credit: "Kenneth C. Zirkel / Wikimedia Commons", credit_url: "https://commons.wikimedia.org/wiki/File:Bicycles_parked_at_Milstein_Hall.jpg", license: "CC BY-SA 4.0", license_url: "https://creativecommons.org/licenses/by-sa/4.0"}
 ---
 
-Yes, you can bike in Ithaca in winter, and a minority of Cornell riders do, but it is a commitment rather than a default. The cold is manageable with the right layers. The hard parts are ice, hills and the edges of roads where plowed snow piles up. Plan on riding most days in November and March, some days in December through February, and keeping a TCAT bus route in your pocket for the rest. The Cornell Daily Sun has said the same thing for years: [many riders stop at the first snow, but some keep going](https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather).
+Yes, you can bike in Ithaca in winter, but few Cornell riders do, and it is a commitment rather than a default. For scale, a Transportation Services survey reported by the Sun in 2007 [found 1.4% of undergraduates biked to campus and 71% walked](https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather). The cold is manageable with the right layers. The hard parts are ice, hills and the edges of roads where plowed snow piles up. Plan on riding most days in November and March, some days in December through February, and keeping a TCAT bus route in your pocket for the rest. The Cornell Daily Sun has said the same thing for years: [many riders stop at the first snow, but some keep going](https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather).
 
 We could not find a current official guide to winter cycling in Ithaca, and the best-known student piece is from 2007. So this page combines the campus and city rules that are published today with that older reporting, and labels advice as advice. We did not find usable Reddit threads this time, so the student experience below comes from Sun reporting only.
 
 ## What is different about winter riding here
 
 - **Hills.** The Sun's 2023 bikeshare guide notes that [Ithaca and Cornell's campus pose challenges to bikers because of the cold climate and hilly terrain](https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/). Hills are fine when dry. Going downhill on ice is the real risk, so most of your caution belongs on the descents, not the climbs.
-- **Plowed snow in the bike lane.** In 2007, riders told the Sun that [plowed snow and pothole covers in bike lanes can push cyclists out into traffic](https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather). Neither Cornell's snow page nor the news coverage we found says bike lanes get special treatment.
+- **Plowed snow in the bike lane.** In 2007, riders told the Sun they sometimes [have to swerve out of the bike lane to avoid danger](https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather) because of plowed snow and pothole covers. Neither Cornell's snow page nor the news coverage we found says bike lanes get special treatment.
 - **Salt.** Cornell's bicycle specialist quoted in that article recommended a second bike for winter, since [salt, snow and ice wear down a year-round bike](https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather), and washing and lubricating the chain after every ride once roads are salted.
 - **Less traffic on the path, more on the road.** Few people bike to campus even in mild weather, and the numbers fall further with snow and ice, per the same article. That helps on empty paths and hurts on roads where drivers are not expecting you.
 
@@ -39,11 +39,11 @@ Cornell's Grounds crew clears roads, parking lots, steps and sidewalks, and the 
 
 Off campus, the city puts sidewalk clearing on property owners. A February 2026 report says residents, businesses and owners [must keep sidewalks free of snow and ice](https://www.fingerlakes1.com/2026/02/14/ithaca-sidewalk-snow-rules-in-effect/) and that the city may clear a sidewalk and bill the owner if it is not done in time. Expect uneven results from block to block, and expect cars to be parked tighter along the curb after a storm.
 
-Cornell also requires you to stay off sidewalks and pathways unless they are marked shared; the rule page says [you ride on streets, not sidewalks](https://sustainable.cornell.edu/news/rules-road-biking-season), and bikes have the same road rights and duties as other vehicles. In winter that means you cannot simply hop onto an uncleared-street alternative.
+Cornell says bicycles, like other vehicles, [belong on streets, not on sidewalks](https://sustainable.cornell.edu/news/rules-road-biking-season), and have the same rights to the road as other vehicles.
 
 ## What you are required to have
 
-Winter means more dusk and dark. Cornell says you must use [legal headlights and taillights at dusk or at night](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus), plus a bell or horn, and that a personal strobe is not a legal taillight. Registering a bike is [free](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus). By late afternoon in December it is dark, so lights are not optional.
+Winter means more dusk and dark. Cornell says you must use [legal headlights and taillights at dusk or at night](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus), plus a bell or horn, and that a personal strobe is not a legal taillight. Registering a bike is [free](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus).
 
 Park only at racks. Bikes locked to railings, signposts or trees [may be impounded](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus), and that does not change in snow. Cornell says it has [over 1,000 bike parking stations](https://sustainable.cornell.edu/focus-areas/transportation/biking), and about seven miles of bike lanes plus two miles of shared paths, per the [Sun's 2025 guest column](https://www.cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall).
 
@@ -55,11 +55,11 @@ Advice from the 2007 Sun piece, which still holds up, plus our own:
 - **Head and eyes.** A hat or headband that fits under the helmet, and eye protection against wind.
 - **Synthetic or wool layers, no cotton.** Ski clothing works.
 - **A cheap winter bike.** Use something you do not mind salting.
-- **Our advice:** if you ride on ice at all, ask a bike shop about studded tires. Bike Walk Tompkins keeps a [list of local shops](https://sustainable.cornell.edu/focus-areas/transportation/biking) for repairs and purchases.
+- **Our advice:** if you ride on ice at all, ask a bike shop about studded tires. Cornell's [biking page](https://sustainable.cornell.edu/focus-areas/transportation/biking) links to a Bike Walk Tompkins list of local shops for repairs and purchases.
 
 ## When to give up and take TCAT
 
-The 2007 article's cyclist stops when it drops below 40°F, which is stricter than most people. A more practical rule is our own: skip the bike on mornings with fresh snow, freezing rain, or an icy forecast on your hill. Do not try to be the one who rides every day.
+Lois Chaplin, Cornell's bicycle and pedestrian specialist, told the Sun in 2007 that [she stops biking when the temperature drops below 40 degrees](https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather), which is stricter than most people. A more practical rule is our own: skip the bike on mornings with fresh snow, freezing rain, or an icy forecast on your hill. Do not try to be the one who rides every day.
 
 Every TCAT bus has a [front-mounted bike rack at no extra fare](https://sustainable.cornell.edu/focus-areas/transportation/biking), so you can ride one direction and bus home if the weather turns. We could not open TCAT's own page to confirm winter rack rules, so check the driver or the app.
 
@@ -71,19 +71,21 @@ title: TCAT for Cornell students (Transportation Services)
 rows:
   - label: First-year degree students
     value: "Unlimited rides"
-  - label: Other registered students
+  - label: Registered degree-program students who stay registered
     value: "Free after 6 p.m. weekdays and all weekend"
+  - label: PhD students and graduate assistants
+    value: "Free OmniRide pass"
   - label: OmniRide annual pass
     value: "$200 per year"
-  - label: Cash fare, no pass
+  - label: Cash fare if your CU ID is not accepted
     value: "$1.50"
 ```
 
-Per Transportation Services, [first-year students get unlimited rides, other registered students ride free after 6 p.m. on weekdays and all day on weekends, an OmniRide pass is $200 a year, and the cash fare is $1.50](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). The rates shown there can change, and the current price appears at purchase. If you are a first-year, you pay nothing for the bus, which makes quitting the bike on a bad day cheap.
+Per Transportation Services, [first-year students get unlimited rides, registered degree-program students who stay registered ride free after 6 p.m. on weekdays and all day on weekends, and PhD students and graduate assistants get free OmniRide passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). The same page lists an OmniRide pass at $200 a year, and says that if your CU ID card is not accepted you may need to pay a [$1.50 fare in cash](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). The rates shown there can change, and the current price appears at purchase. If you are a first-year, you pay nothing for the bus, which makes quitting the bike on a bad day cheap.
 
 ## Ithaca Bikeshare in winter
 
-Ithaca Bikeshare lists [$1.50 to unlock plus $0.25 per minute, a $25 day pass and a $60 monthly plan](https://ithacabikeshare.org), on class 1 pedal-assist e-bikes that need riders to be 16 or older. Those are the current prices, and they are higher than the per-minute rate the Sun printed in 2023. The page does not say whether service pauses in winter, and the Sun's 2023 article quotes a student saying it was [too snowy for bikeshare at the time](https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/). Email the operator at help@ithacabikeshare.org before you count on it from December to February.
+Ithaca Bikeshare lists [$1.50 to unlock plus $0.25 per minute, a $25 day pass and a $60 monthly plan](https://ithacabikeshare.org), on class 1 pedal-assist e-bikes that need riders to be 16 or older. Trips that do not end in a hub carry an [additional $1.50 convenience fee](https://ithacabikeshare.org). Those are the current prices, and they are higher than the per-minute rate the Sun printed in 2023. The page does not say whether service pauses in winter, and the Sun's 2023 article quotes a student saying it was [too snowy for bikeshare at the time](https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/). Email the operator at help@ithacabikeshare.org before you count on it from December to February.
 
 ## If you are...
 

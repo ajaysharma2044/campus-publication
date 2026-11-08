@@ -1,0 +1,56 @@
+{
+  "slug": "cornell-arts-and-sciences-easy-distribution-courses",
+  "queue_id": "q-academics-0005",
+  "verdict": "fix",
+  "fact_check": [
+    {"claim": "Ten distribution categories with codes ALC, BIO, ETM, GLC, HST, PHS, SCD, SSC, SDS, SMR (-AS)", "source_url": "https://as.cornell.edu/degree-requirements", "status": "ok", "note": "Page lists the same ten names and codes."},
+    {"claim": "Minimum of 8 courses to cover all 10 categories", "source_url": "https://as.cornell.edu/degree-requirements", "status": "ok", "note": "Page says at least 8 courses are needed for all 10 categories."},
+    {"claim": "Up to two courses may count for two distribution requirements at once; faculty can list a course under up to two categories", "source_url": "https://www.news.cornell.edu/stories/2018/11/arts-and-sciences-faculty-approves-new-undergrad-curriculum", "status": "ok", "note": "2018 Chronicle quotes both statements. The current degree page does not state the 'up to two' limit, so the article's 'reported when approved' attribution is correct."},
+    {"claim": "Students who matriculated in fall 2020 or later follow the current curriculum", "source_url": "https://as.cornell.edu/degree-requirements", "status": "unverifiable", "note": "The fetched page text did not contain a fall 2020 matriculation date."},
+    {"claim": "Degree page links per category are labeled with the current term, e.g. 'Fall '26 ALC-AS courses'", "source_url": "https://as.cornell.edu/degree-requirements", "status": "unverifiable", "note": "Link labels did not appear in the fetched text; the search result snippet says lists are by area and change each semester."},
+    {"claim": "A course counts only if its code includes -AS", "source_url": "https://as.cornell.edu/registrar/course-enrollment", "status": "ok", "note": "Page says the designation must include -AS."},
+    {"claim": "Students have 8 semesters to fulfill the requirements", "source_url": "https://as.cornell.edu/degree-requirements", "status": "ok", "note": "Stated on page."},
+    {"claim": "DUST report is updated after each semester and shows progress", "source_url": "https://as.cornell.edu/registrar/course-enrollment", "status": "ok", "note": "Matches."},
+    {"claim": "Class Roster searches by subject, instructor, credits and other filters", "source_url": "https://as.cornell.edu/registrar/course-enrollment", "status": "ok", "note": "Matches."},
+    {"claim": "Look for courses showing two -AS codes in the Class Roster; those are your two double counts", "source_url": "https://as.cornell.edu/registrar/course-enrollment", "status": "mismatch", "note": "Source does not say the roster shows or filters two distribution codes; the claim is unsourced and the 'two double counts' wording overstates the 2018 rule."},
+    {"claim": "Distribution requirements can be taken S/U if not also used for a major or minor requirement; S/U courses can fulfill distribution", "source_url": "https://as.cornell.edu/degree-requirements", "status": "ok", "note": "Degree page matches; enrollment page words it as major requirements or major admission prerequisite, a slight difference."},
+    {"claim": "Add a regular course in the first 15 calendar days", "source_url": "https://as.cornell.edu/registrar/course-enrollment", "status": "ok", "note": "Matches, with exceptions for special deadlines (article omits)."},
+    {"claim": "Drop without transcript record in first 57 days; after day 57 a withdrawal shows as W", "source_url": "https://as.cornell.edu/registrar/course-enrollment", "status": "ok", "note": "Matches."},
+    {"claim": "Courses with overlapping content cannot both count toward the degree", "source_url": "https://as.cornell.edu/registrar/course-enrollment", "status": "ok", "note": "Matches."},
+    {"claim": "ALC-AS and HST-AS: analysis of artworks, texts and documentary evidence; ALC includes creative-writing, film and performing-arts side", "source_url": "https://as.cornell.edu/degree-requirements", "status": "mismatch", "note": "Source says creative expression and analysis of texts, artworks, belief systems (ALC) and documentary, material and oral evidence (HST). 'creative-writing, film and performing arts' is not in the source."},
+    {"claim": "ETM-AS covers philosophy, psychology or linguistics courses on the mind or ethics", "source_url": "https://as.cornell.edu/degree-requirements", "status": "mismatch", "note": "No ETM description or departments were found in the fetched page; claim is unsourced."},
+    {"claim": "Social Difference explicitly covers class, race, gender, language, religion and ability", "source_url": "https://as.cornell.edu/degree-requirements", "status": "mismatch", "note": "Source lists class, race, ethnicity, gender, sexuality and ability; language and religion not found."},
+    {"claim": "BIO-AS and PHS-AS expose students to the process and substance of science; plan on lectures with exams, check for lab sections", "source_url": "https://as.cornell.edu/degree-requirements", "status": "mismatch", "note": "Source describes BIO and PHS content differently; the quoted 'process and substance of science' phrase was not confirmed, and the exams/lab workload is unsourced (marked as read of descriptions)."},
+    {"claim": "SDS-AS and SMR-AS are data literacy and mathematical reasoning", "source_url": "https://as.cornell.edu/degree-requirements", "status": "unverifiable", "note": "Descriptions for SDS and SMR not captured in the fetched text."},
+    {"claim": "AP, IB or A-Level scores do not fulfill the language requirement", "source_url": "https://as.cornell.edu/degree-requirements", "status": "ok", "note": "Used for placement only."},
+    {"claim": "Transfer students must complete at least 60 academic credits at Cornell", "source_url": "https://as.cornell.edu/degree-requirements", "status": "ok", "note": "Page also requires at least four semesters in residence, which the article omits."},
+    {"claim": "Beyoncé Nation, taught by Riché Richardson, cross-listed in American Studies, Africana Studies, English and FGSS; author a biology and society major calls it fun; post uses 'Literature and the Arts'", "source_url": "https://as.cornell.edu/news/how-complete-distribution-requirements-while-watching-music-videos", "status": "ok", "note": "All confirmed. Author is Sheyla Finkner '19 (not named in article; not required)."},
+    {"claim": "2017 Cornell Daily Sun opinion column named Oceanography as easy-A science route and a tour guide pitched history of mathematics as a math-requirement escape", "source_url": "https://www.cornellsun.com/article/2017/09/biweekly-jokes-for-everyday-folks-how-cornell-markets-liberal-arts", "status": "ok", "note": "Column mentions both; author is criticizing the attitude. Article's framing as one writer's critique is accurate."},
+    {"claim": "2018 plan called for five different categories within the first four semesters; current degree page does not repeat it", "source_url": "https://as.cornell.edu/news/arts-sciences-faculty-approve-new-curriculum", "status": "ok", "note": "Both sources state the five-in-four-semesters goal; the degree page has no such rule."},
+    {"claim": "r/Cornell thread did not load", "source_url": "https://www.reddit.com/r/Cornell/", "status": "unverifiable", "note": "Not cited with a link; the article honestly says it was not relayed."}
+  ],
+  "beats_top": {
+    "query": "cornell arts and sciences easy distribution courses",
+    "top_url": "https://as.cornell.edu/degree-requirements",
+    "better": "no",
+    "why": "Search returns the official degree requirements page and the catalog's per-category course lists, which give the actual courses. Our page names only two courses (a 2019 blog pick and a 2017 opinion jab) and no per-category picks, so a student wanting names leaves with less than the official lists provide.",
+    "changes": [
+      "Link the official catalog course lists (https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/) from each category in the category section so the student can reach real courses in one click.",
+      "Add a short 'how to judge a course's workload' step with official or verifiable tools (syllabus, instructor, credits, Class Roster) and cite only what sources support.",
+      "Put the 8-course rule, the double-count caveat and the S/U rule in the first paragraph with the catalog link, so the answer to 'what do I do' appears at once."
+    ]
+  },
+  "fixes": [
+    "Remove or source the line 'look for courses showing two -AS codes ... Those are your two double counts' in step 2. Replace with: 'Faculty can list a course under up to two categories (Chronicle, https://www.news.cornell.edu/stories/2018/11/arts-and-sciences-faculty-approves-new-undergrad-curriculum); check each course's listing on the Class Roster or the catalog list.' Do not claim the roster filters by two codes.",
+    "In the category section, replace 'The creative-writing, film and performing-arts side of ALC-AS is described as including expression itself' with the source wording: ALC-AS covers creative expression and analysis of texts, artworks and belief systems (https://as.cornell.edu/degree-requirements).",
+    "Delete the ETM-AS bullet's 'philosophy, psychology or linguistics' claim, or replace it with the official ETM description from https://as.cornell.edu/degree-requirements or the catalog page.",
+    "Change the Social Difference sentence to 'class, race, ethnicity, gender, sexuality and ability' (remove language and religion) per https://as.cornell.edu/degree-requirements.",
+    "For BIO-AS and PHS-AS, quote the official descriptions only (BIO: life from cells to ecosystems, molecular makeup, evolution, genetic information; PHS: physics, chemistry, Earth science, astronomy and scientific inquiry). Remove or mark as advice 'Plan on lectures with exams' and remove the 'process and substance of science' quote unless you find it on the page.",
+    "Remove 'Students who matriculated in fall 2020 or later' or cite where the degree page or catalog says so; likewise remove the example label 'Fall '26 ALC-AS courses' unless you confirm it on the page.",
+    "Remove the SDS-AS/SMR-AS 'data literacy and mathematical reasoning' gloss or replace it with the official descriptions.",
+    "Add the catalog link https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/ in 'Where to find the real list' and in each category bullet, naming it as the official per-category course list.",
+    "In the transfer line, add that transfer students also need at least four semesters in residence (https://as.cornell.edu/degree-requirements), and in the S/U line note the enrollment page words it as major requirements or major admission prerequisites (https://as.cornell.edu/registrar/course-enrollment).",
+    "Add the exception that the 15-day add period does not apply to courses with special deadlines (https://as.cornell.edu/registrar/course-enrollment)."
+  ],
+  "reviewed_at": "2026-11-07"
+}
