@@ -28,12 +28,12 @@ sources:
   accessed: '2026-11-07'
 images:
 - file: 1.webp
-  alt: LBX Pharmacy near Muqiao Station in Changsha
-  caption: LBX Pharmacy near Muqiao Station in Changsha
-  credit: Huangdan2060 / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:LBX_Pharmacy_near_Muqiao_Station_in_Changsha.jpg
-  license: CC BY 4.0
-  license_url: https://creativecommons.org/licenses/by/4.0
+  alt: Cornell Health, Cornell University
+  caption: Cornell Health, Cornell University
+  credit: Kenneth C. Zirkel / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_Health,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 The nearest pharmacy is on campus: the [Cornell Health pharmacy](https://health.cornell.edu/services/pharmacy), on Level 4 just inside the Ho Plaza entrance at 110 Ho Plaza. Off campus, the closest chains and Wegmans are a short bus or car ride away. Among the pharmacies we checked, none keeps its counter open past 9 PM, even on weekdays, so "open late" in Ithaca mostly means planning ahead, or using the 24/7 vending machine at Cornell Health for basic over-the-counter items.

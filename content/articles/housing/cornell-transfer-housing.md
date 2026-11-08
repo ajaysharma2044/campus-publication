@@ -49,12 +49,12 @@ sources:
   accessed: 2026-11-07
 images:
 - file: 1.webp
-  alt: Paul Cornell (1822-1904)
-  caption: Paul Cornell (1822-1904)
-  credit: TonyTheTiger at en.wikipedia / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Paul_Cornell_(1822-1904).jpg
-  license: Public domain
-  license_url: ''
+  alt: Cornell University West Campus entrance
+  caption: Cornell University West Campus entrance
+  credit: 颐园居 / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_West_Campus_entrance.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 New Cornell transfers who enter as first-years or sophomores live on campus for their first academic year, and Cornell assigns the room rather than guaranteeing a specific one. You apply through the Housing & Dining Portal, and Cornell's advice is to do it [within ten days of receiving your NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process). Confirmations start in mid-June, and Cornell says transfers [may be placed in the West Campus House System, South Campus Residence Halls, North Campus Residence Halls, and Program Houses](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process). A double costs [$6,872 per semester for 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), and a meal plan is required on top. Here is the whole process, what you can control, and where transfers have ended up.

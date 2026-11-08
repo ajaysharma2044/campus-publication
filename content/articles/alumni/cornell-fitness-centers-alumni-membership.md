@@ -40,12 +40,12 @@ sources:
   accessed: '2026-11-07'
 images:
 - file: 1.webp
-  alt: Cornell Mayer
-  caption: Cornell Mayer
-  credit: Rights NRAO/AUI/NSF Photographer Woodruff T. Sullivan III Ph / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_Mayer.jpg
-  license: CC BY 4.0
-  license_url: https://creativecommons.org/licenses/by/4.0
+  alt: Cornell University - Teagle Hall
+  caption: Cornell University - Teagle Hall
+  credit: William Jubb, Syracuse (publisher) / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Teagle_Hall.jpg
+  license: Public domain
+  license_url: ''
 ---
 
 Probably not. Cornell's [fitness center policies](https://scl.cornell.edu/recreation/recreation/fitness-centers/fitness-center-policies-faq) say a valid and current registration status with the university is necessary for membership, with the exception of a day pass. Alumni are not currently registered, and none of the pages we read lists an alumni membership, alumni rate or community membership. We have not had a direct answer from Cornell Recreation, so treat this as what the published rules say, and email fitness@cornell.edu before you plan around a workaround.

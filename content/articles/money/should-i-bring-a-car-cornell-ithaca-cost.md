@@ -40,12 +40,12 @@ sources:
   accessed: '2026-11-07'
 images:
 - file: 1.webp
-  alt: Road construction crew grading on Soos Creek, vicinity of Auburn, King County, Washington, 1915 (INDOCC 567)
-  caption: Road construction crew grading on Soos Creek, vicinity of Auburn, King County, Washington, 1915 (IND
-  credit: Unknown author Unknown author / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Road_construction_crew_grading_on_Soos_Creek,_vicinity_of_Auburn,_King_County,_Washington,_1915_(INDOCC_567).jpg
-  license: Public domain
-  license_url: ''
+  alt: TCAT Bus 2107 on Route 30
+  caption: TCAT Bus 2107 on Route 30
+  credit: Hbithaca / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2107_on_Route_30.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 Most Cornell students do not need a car, and the numbers explain why. A resident permit is about $753 a year and sold in limited numbers, first-year students ride TCAT buses free, and Ithaca Carshare covers the occasional errand for $30 a year plus usage. A car makes sense mainly if you live off campus far from a bus line, commute, or have a regular trip home that no bus serves. **All permit and TCAT prices below come from Cornell pages labeled 2025-26. Rates for 2026-27 were not posted when we checked, so confirm them on Cornell's page before you buy.**

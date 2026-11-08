@@ -52,10 +52,10 @@ sources:
   accessed: '2026-11-07'
 images:
 - file: 1.webp
-  alt: Kreta (GR), Asomatos, Kloster Preveli, Baum im Hof -- 2023 -- 8491
-  caption: Kreta (GR), Asomatos, Kloster Preveli, Baum im Hof -- 2023 -- 8491
-  credit: Dietmar Rabich / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Kreta_(GR),_Asomatos,_Kloster_Preveli,_Baum_im_Hof_--_2023_--_8491.jpg
+  alt: Ithaca Commons (New York)
+  caption: Ithaca Commons (New York)
+  credit: Kenneth C. Zirkel / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca_Commons_(New_York).jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---

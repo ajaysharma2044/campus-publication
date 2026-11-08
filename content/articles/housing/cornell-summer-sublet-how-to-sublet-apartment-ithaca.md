@@ -28,12 +28,12 @@ sources:
   accessed: '2026-11-07'
 images:
 - file: 1.webp
-  alt: Negro men, all coal miners, on the front steps of their house. One man rents the house and sublets to the other three...
-  caption: Negro men, all coal miners, on the front steps of their house. One man rents the house and sublets t
-  credit: Russell Lee / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Negro_men,_all_coal_miners,_on_the_front_steps_of_their_house._One_man_rents_the_house_and_sublets_to_the_other_three..._-_NARA_-_540941.jpg
-  license: Public domain
-  license_url: ''
+  alt: Collegetown Wine & Spririts, Ithaca New York
+  caption: Collegetown Wine & Spririts, Ithaca New York
+  credit: Kenneth C. Zirkel / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown_Wine_%26_Spririts,_Ithaca_New_York.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 Read your lease first, then ask your landlord for consent in writing. In New York, if your building has four or more residential units, the landlord [cannot unreasonably withhold consent to a sublease](https://www.nysenate.gov/legislation/laws/RPP/226-B), and silence counts as a yes. You stay on the hook for the rent and any damage whoever lives there. Cornell's Off-Campus Living office answers lease questions at [607-255-2310](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease). Below: the steps, the legal clock, what landlords usually add, and where to list.

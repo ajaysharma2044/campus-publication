@@ -9,36 +9,6 @@
 # that entry to source: permission with page_url, author, license, credit and permission_file (docs/v2/photo-permission-email.md).
 # For owner and permission entries the script copies credit, page_url, license and license_url into the article on its next run.
 - file: 1.webp
-  article_slug: cornell-arts-and-sciences-easy-distribution-courses
-  source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Partial_view_of_Arts_Quad.jpg
-  author: P. Hughes
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  found_at: '2026-11-07'
-  fetched_at: '2026-11-07T22:25:16'
-  credit: P. Hughes / Wikimedia Commons
-- file: 1.webp
-  article_slug: biking-in-ithaca-winter-cornell
-  source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:Bicycles_parked_at_Milstein_Hall.jpg
-  author: Kenneth C. Zirkel
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  found_at: '2026-11-07'
-  fetched_at: '2026-11-07T22:27:19'
-  credit: Kenneth C. Zirkel / Wikimedia Commons
-- file: 1.webp
-  article_slug: ithaca-landlords-to-avoid-collegetown-reviews
-  source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca,_NY_-_panoramio.jpg
-  author: James Willamor
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  found_at: '2026-11-07'
-  fetched_at: '2026-11-07T22:28:05'
-  credit: James Willamor / Wikimedia Commons
-- file: 1.webp
   article_slug: cornell-textbooks-cheap-where-to-buy-used-ithaca
   source: wikimedia
   page_url: https://commons.wikimedia.org/wiki/File:Cornell_syllabuses_for_Physics_112_and_Physics_213_and_Halliday_and_Resnick_textbook_used_by_both.jpg
@@ -48,38 +18,6 @@
   found_at: '2026-11-07'
   fetched_at: '2026-11-07T23:16:33'
   credit: Jonathan Schilling / Wikimedia Commons
-- file: 1.webp
-  article_slug: cornell-fitness-centers-alumni-membership
-  source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:Cornell_Mayer.jpg
-  author: Rights NRAO/AUI/NSF Photographer Woodruff T. Sullivan III Photo Credit NRAO/AUI
-    Archives, Sullivan Collection
-  license: CC BY 4.0
-  license_url: https://creativecommons.org/licenses/by/4.0
-  found_at: '2026-11-08'
-  fetched_at: '2026-11-08T00:20:29'
-  credit: Rights NRAO/AUI/NSF Photographer Woodruff T. Sullivan III Photo Credit NRAO/AUI
-    Archives, Sullivan Collection / Wikimedia Commons
-- file: 1.webp
-  article_slug: ithaca-part-time-jobs-for-cornell-students
-  source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:Printing_the_past-_3-D_archaeology_and_the_first_Americans_(32581836344).jpg
-  author: BLM Oregon & Washington
-  license: Public domain
-  license_url: ''
-  found_at: '2026-11-08'
-  fetched_at: '2026-11-08T00:20:34'
-  credit: BLM Oregon & Washington / Wikimedia Commons
-- file: 1.webp
-  article_slug: pharmacy-near-cornell-campus-ithaca
-  source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:LBX_Pharmacy_near_Muqiao_Station_in_Changsha.jpg
-  author: Huangdan2060
-  license: CC BY 4.0
-  license_url: https://creativecommons.org/licenses/by/4.0
-  found_at: '2026-11-08'
-  fetched_at: '2026-11-08T00:20:38'
-  credit: Huangdan2060 / Wikimedia Commons
 - file: 1.webp
   article_slug: collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live
   source: wikimedia
@@ -91,96 +29,6 @@
   fetched_at: '2026-11-08T00:20:42'
   credit: Souvenir Post Card Co. (publisher) / Wikimedia Commons
 - file: 1.webp
-  article_slug: cornell-summer-sublet-how-to-sublet-apartment-ithaca
-  source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:Negro_men,_all_coal_miners,_on_the_front_steps_of_their_house._One_man_rents_the_house_and_sublets_to_the_other_three..._-_NARA_-_540941.jpg
-  author: Russell Lee
-  license: Public domain
-  license_url: ''
-  found_at: '2026-11-08'
-  fetched_at: '2026-11-08T00:20:49'
-  credit: Russell Lee / Wikimedia Commons
-- file: 1.webp
-  article_slug: cornell-transfer-housing
-  source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:Paul_Cornell_(1822-1904).jpg
-  author: TonyTheTiger at en.wikipedia
-  license: Public domain
-  license_url: ''
-  found_at: '2026-11-08'
-  fetched_at: '2026-11-08T00:20:53'
-  credit: TonyTheTiger at en.wikipedia / Wikimedia Commons
-- file: 1.webp
-  article_slug: cornell-financial-aid-appeal-success
-  source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:St._Louis_Post-Dispatch_of_St._Louis,_Missouri_on_August_2,_1943.jpg
-  author: Unknown author Unknown author
-  license: Public domain
-  license_url: ''
-  found_at: '2026-11-08'
-  fetched_at: '2026-11-08T00:20:57'
-  credit: Unknown author Unknown author / Wikimedia Commons
-- file: 1.webp
-  article_slug: cornell-international-student-jobs-on-campus-f-1-how-to-find
-  source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:Printing_the_past-_3-D_archaeology_and_the_first_Americans_(32581836344).jpg
-  author: BLM Oregon & Washington
-  license: Public domain
-  license_url: ''
-  found_at: '2026-11-08'
-  fetched_at: '2026-11-08T00:21:01'
-  credit: BLM Oregon & Washington / Wikimedia Commons
-- file: 1.webp
-  article_slug: cornell-meal-plan-worth-it
-  source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:California_brown_pelican_is_photographed_having_a_meal_during_the_annual_California_Brown_Pelican_Survey_(41546103784).jpg
-  author: USFWS Pacific Southwest Region
-  license: Public domain
-  license_url: ''
-  found_at: '2026-11-08'
-  fetched_at: '2026-11-08T00:21:04'
-  credit: USFWS Pacific Southwest Region / Wikimedia Commons
-- file: 1.webp
-  article_slug: cornell-off-campus-meal-plan-or-cook-yourself-cost
-  source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:Women_in_fashion_design(Garment_Making)_or_tailoring.jpg
-  author: Ruky Wunpini
-  license: CC BY 4.0
-  license_url: https://creativecommons.org/licenses/by/4.0
-  found_at: '2026-11-08'
-  fetched_at: '2026-11-08T00:21:08'
-  credit: Ruky Wunpini / Wikimedia Commons
-- file: 1.webp
-  article_slug: cornell-student-budget-by-scenario-low-income-student-costs
-  source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:15th_century_egyptian_anatomy_of_horse.jpg
-  author: Unknown author Unknown author
-  license: Public domain
-  license_url: ''
-  found_at: '2026-11-08'
-  fetched_at: '2026-11-08T00:21:11'
-  credit: Unknown author Unknown author / Wikimedia Commons
-- file: 1.webp
-  article_slug: cornell-summer-jobs-ithaca-students-stay-for-summer
-  source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:Kreta_(GR),_Asomatos,_Kloster_Preveli,_Baum_im_Hof_--_2023_--_8491.jpg
-  author: Dietmar Rabich
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  found_at: '2026-11-08'
-  fetched_at: '2026-11-08T00:21:18'
-  credit: Dietmar Rabich / Wikimedia Commons
-- file: 1.webp
-  article_slug: how-to-save-money-at-cornell-student-discounts-ithaca
-  source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:Group_of_students_playing_Palestinian_music_at_%22The_People%27s_University_for_Palestine%22_at_Cornell_University.png
-  author: Hstoops
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  found_at: '2026-11-08'
-  fetched_at: '2026-11-08T00:21:24'
-  credit: Hstoops / Wikimedia Commons
-- file: 1.webp
   article_slug: ithaca-utilities-cost-winter-heating-bill-apartment-students
   source: wikimedia
   page_url: https://commons.wikimedia.org/wiki/File:Ithaca_-_Winter_scene_in_Ithaca_Gorge.jpg
@@ -191,12 +39,132 @@
   fetched_at: '2026-11-08T00:21:29'
   credit: The Corner Bookstores, Ithaca / Wikimedia Commons
 - file: 1.webp
-  article_slug: should-i-bring-a-car-cornell-ithaca-cost
+  article_slug: cornell-fitness-centers-alumni-membership
   source: wikimedia
-  page_url: https://commons.wikimedia.org/wiki/File:Road_construction_crew_grading_on_Soos_Creek,_vicinity_of_Auburn,_King_County,_Washington,_1915_(INDOCC_567).jpg
-  author: Unknown author Unknown author
+  page_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Teagle_Hall.jpg
+  author: William Jubb, Syracuse (publisher)
   license: Public domain
   license_url: ''
   found_at: '2026-11-08'
-  fetched_at: '2026-11-08T00:21:31'
-  credit: Unknown author Unknown author / Wikimedia Commons
+  fetched_at: '2026-11-08T00:26:18'
+  credit: William Jubb, Syracuse (publisher) / Wikimedia Commons
+- file: 1.webp
+  article_slug: ithaca-part-time-jobs-for-cornell-students
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Ithaca_Commons_(New_York).jpg
+  author: Kenneth C. Zirkel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  found_at: '2026-11-08'
+  fetched_at: '2026-11-08T00:26:21'
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+- file: 1.webp
+  article_slug: pharmacy-near-cornell-campus-ithaca
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Cornell_Health,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  found_at: '2026-11-08'
+  fetched_at: '2026-11-08T00:26:24'
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+- file: 1.webp
+  article_slug: cornell-summer-sublet-how-to-sublet-apartment-ithaca
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Collegetown_Wine_%26_Spririts,_Ithaca_New_York.jpg
+  author: Kenneth C. Zirkel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  found_at: '2026-11-08'
+  fetched_at: '2026-11-08T00:26:27'
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+- file: 1.webp
+  article_slug: cornell-transfer-housing
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Cornell_University_West_Campus_entrance.jpg
+  author: 颐园居
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  found_at: '2026-11-08'
+  fetched_at: '2026-11-08T00:26:31'
+  credit: 颐园居 / Wikimedia Commons
+- file: 1.webp
+  article_slug: cornell-financial-aid-appeal-success
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Ho_Plaza,_looking_north.jpg
+  author: P. Hughes
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  found_at: '2026-11-08'
+  fetched_at: '2026-11-08T00:26:36'
+  credit: P. Hughes / Wikimedia Commons
+- file: 1.webp
+  article_slug: cornell-international-student-jobs-on-campus-f-1-how-to-find
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Ho_Plaza,_looking_north.jpg
+  author: P. Hughes
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  found_at: '2026-11-08'
+  fetched_at: '2026-11-08T00:26:39'
+  credit: P. Hughes / Wikimedia Commons
+- file: 1.webp
+  article_slug: cornell-meal-plan-worth-it
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Morrison_Dining_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  found_at: '2026-11-08'
+  fetched_at: '2026-11-08T00:26:41'
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+- file: 1.webp
+  article_slug: cornell-off-campus-meal-plan-or-cook-yourself-cost
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Collegetown_Wine_%26_Spririts,_Ithaca_New_York.jpg
+  author: Kenneth C. Zirkel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  found_at: '2026-11-08'
+  fetched_at: '2026-11-08T00:26:44'
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+- file: 1.webp
+  article_slug: cornell-student-budget-by-scenario-low-income-student-costs
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Ho_Plaza,_looking_north.jpg
+  author: P. Hughes
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  found_at: '2026-11-08'
+  fetched_at: '2026-11-08T00:26:47'
+  credit: P. Hughes / Wikimedia Commons
+- file: 1.webp
+  article_slug: cornell-summer-jobs-ithaca-students-stay-for-summer
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Ithaca_Commons_(New_York).jpg
+  author: Kenneth C. Zirkel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  found_at: '2026-11-08'
+  fetched_at: '2026-11-08T00:26:49'
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+- file: 1.webp
+  article_slug: how-to-save-money-at-cornell-student-discounts-ithaca
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Ho_Plaza,_looking_north.jpg
+  author: P. Hughes
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  found_at: '2026-11-08'
+  fetched_at: '2026-11-08T00:26:52'
+  credit: P. Hughes / Wikimedia Commons
+- file: 1.webp
+  article_slug: should-i-bring-a-car-cornell-ithaca-cost
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2107_on_Route_30.jpg
+  author: Hbithaca
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  found_at: '2026-11-08'
+  fetched_at: '2026-11-08T00:26:55'
+  credit: Hbithaca / Wikimedia Commons
