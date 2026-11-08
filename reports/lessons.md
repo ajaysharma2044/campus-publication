@@ -1,12 +1,12 @@
 # Weekly lessons (docs/v3/spec.md, the quality ratchet, loop 4)
 
 When Ajay runs scripts/v3/learn.sh, one session reads the edit logs since the last run (`content/edits/`), fact-check fixes (`content/checks/`), reader-test findings
-(the write sessions' logs), Ajay's marks and notes (`reports/to-read.md`) and the Search Console part of `reports/weekly.md`, and
+(the write sessions' logs), Ajay's marks and notes (`reports/to-read.md`) and the Search Console part of the latest `reports/learn-<date>.md`, and
 proposes at most 5 changes to `docs/v2/style.md`, `docs/v2/exemplar.md` or a topic brief, each with its evidence. Ajay writes
 approve or reject next to each one; approved changes are applied in the next session and the commit is linked. Nothing here becomes
 a code rule, a gate or a score: a lesson is a sentence in the style guide, a better passage in the exemplar, a fact in a brief.
 
-Also every Monday: the 5 weakest live pages from `reports/weekly.md` are queued for a rewrite (kind rewrite, same slug), and every
+Each learn run also lists the 5 weakest live pages (in `reports/learn-<date>.md`), which are queued for a rewrite (kind rewrite, same slug), and every
 page Ajay marked 👍 since the last run is copied to `docs/v3/best/`, every page with a note to `docs/v3/worst/` (see the READMEs there).
 
 ## Template (copy below, fill, keep the headings; newest week first)

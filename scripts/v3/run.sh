@@ -55,6 +55,22 @@ print(' '.join(sorted(f\"{r['id']}:{r['status']}\" for r in rows if r['topic'] =
 count_published() { published_ids | wc -w | tr -d ' '; }
 START=$(date +%s); START_PUB=$(count_published); NEXT_REPORT=$(( (START_PUB / 10 + 1) * 10 )); CYCLE=0
 echo "$(ts) v3 run for $TOPIC ($TDIR): workers=$WORKERS write model=$MODEL check model=$CHECK_MODEL deploy every $DEPLOY_EVERY; $START_PUB published in the topic so far; pending $(pending); log $LOG"
+# "Research and write" (docs/v3/spec.md, "Nothing runs on a schedule"): one command takes a topic from nothing to writing, stopping once
+# for Ajay's plan approval. Each step is skipped when its file already exists.
+if [ ! -d "intel/$TOPIC/raw" ] || [ -z "$(ls intel/"$TOPIC"/raw/*.md 2>/dev/null)" ]; then
+  echo "$(ts) no research for $TOPIC yet: running scripts/v3/research.sh"; bash scripts/v3/research.sh "$TOPIC" --workers "$WORKERS" || exit 1
+fi
+if [ ! -f "intel/$TOPIC/brief.md" ]; then
+  echo "$(ts) no brief for $TOPIC yet: running scripts/v3/brief.sh"; bash scripts/v3/brief.sh "$TOPIC" --model "$MODEL" --check-model "$CHECK_MODEL" || exit 1
+fi
+if [ ! -f "intel/$TOPIC/readers.md" ]; then
+  echo "$(ts) no reader map for $TOPIC yet: running scripts/v3/readers.sh"; bash scripts/v3/readers.sh "$TOPIC" --model "$MODEL" || exit 1
+fi
+if [ ! -f "intel/$TOPIC/plan.md" ]; then
+  echo "$(ts) no plan for $TOPIC yet: running scripts/v3/plan.sh"; bash scripts/v3/plan.sh "$TOPIC" --model "$MODEL" || exit 1
+  echo "$(ts) plan written: intel/$TOPIC/plan.md (summary: reports/plan-$TOPIC.md). Ajay approves it with: scripts/v3/plan.sh $TOPIC --approve   then runs this command again."
+  exit 0
+fi
 while true; do
   if [ -f .run/STOP ]; then echo "$(ts) STOP file present: stopping"; break; fi
   PENDING=$(pending)
