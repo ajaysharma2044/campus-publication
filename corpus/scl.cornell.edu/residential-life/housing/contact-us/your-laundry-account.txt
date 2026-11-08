@@ -1,0 +1,15 @@
+URL: https://scl.cornell.edu/residential-life/housing/contact-us/your-laundry-account
+TITLE: Your Laundry Account | Student & Campus Life | Cornell University
+FETCHED: 2026-11-06
+
+Your Laundry Account
+CSCPay Mobile
+To add funds and start doing laundry, students should download the CSCPay Mobile application from the appropriate app store:
+iOS/Apple:
+https://apps.apple.com/us/app/cscpay-mobile/id1368674385
+Android/Google:
+https://play.google.com/store/apps/details?id=com.csc.cpmobile&hl=en_US&gl=US
+The app uses Bluetooth to connect to and start washers and dryers and will need your permission to connect.  To set up your account, enter your email and choose your password.  To set your laundry location, enter the zip code for Cornell University (14853) and select Cornell University as your location. Funds may be added via credit card (Visa, Mastercard, Discover, American Express), Google Pay, and Apple Pay.  The recommended starting amount is $25; subsequent deposits can be made any time.
+To report a problem with a washer or dryer, please request service via the CSCPay Mobile app or visit
+CSC ServiceWorks
+and enter the machine ID. Refund requests should be submitted directly to CSCPay Mobile via the app.

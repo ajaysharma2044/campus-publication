@@ -1,0 +1,41 @@
+URL: https://cals.cornell.edu/news/2017/02/water-sensor-moves-basic-research-promising-business
+TITLE: Water Sensor Moves from Basic Research to Promising Business | CALS
+FETCHED: 2026-11-06
+
+Share
+A water sensor technology that began as basic research at Cornell is blooming into a business that fills a vital need for grape, nut, apple, and other growers.
+While current water sensing tools are expensive, inaccurate, or labor intensive, the new sensor tells growers when their plants need irrigation with accurate, real-time readings at reasonable cost.
+Much like a blood pressure gauge for humans, the sensor reads the water pressure inside the plant. When plants are thirsty, their water pressure is low, sometimes even negative. The sensor reads this pressure inside the plant to help growers ensure plant health and optimize water use in drought-stricken agricultural areas. Applying water at the right time can also greatly improve the quality of fruits, nuts, and especially grapes for red wines.
+In mid-2016, Cornell engineers and horticulturalists who developed the sensor launched FloraPulse, a startup aimed at commercializing the sensor and using it to provide agricultural services. The first target markets are grape and nut growers in California’s Central and Napa valleys.
+“We’re developing a service for growers to know exactly when, where, and how much to irrigate,” said Michael Santiago, Ph.D. ’16, entrepreneurial lead for FloraPulse and a postdoctoral researcher in the lab of Abraham Stroock, the project’s principal investigator. Santiago helped develop the technology while pursuing his doctorate in Stroock’s lab.
+In 2009, Stroock, director of the School of Chemical and Biomolecular Engineering, and Alan Lakso, professor emeritus of Horticulture, began development of a microsensor using new technologies developed in Stroock’s lab. The sensor, made in the Cornell Nanofabrication Facility, is a silicon chip with a tiny cavity that holds water. When the chip is embedded in a plant with drought stress, water leaves this cavity through a nanoporous membrane and the resulting tension is turned into an electrical signal.
+Over the past three years, the Cornell team developed a prototype of a commercial water sensor with a fingertip-sized chip and a probe for inserting into plant stems.
+The sensor is compatible with electronic plug-and-play readers that are the industry standard for billions of sensors, including tire pressure sensors in today’s cars, for example. This compatibility extends to wireless integration that is rapidly transforming agricultural practice.
+A sensor installed in the trunk of a grapevine. After the installation of the sensor, the researchers cover and insulate the trunk. Photo by Alan Lasko/Provided.
+“That’s a crucial piece of our strategy, take a measurement that’s hard to get and turn it into something that is very common,” said Stroock. This year, the group will continue to tweak the technology and they will conduct further greenhouse and field testing this spring and summer at Cornell and in California.
+“We’re going to help make better wines, because there is a strong relationship between water pressure or the stress that we measure and the quality of red wine,” Santiago said.
+The initial basic research was supported by the United States Department of Agriculture’s (USDA) National Innovations in Food and Agriculture (NIFA), the National Science Foundation (NSF) and the U.S. Air Force.
+From Science to Business
+Though Santiago is trained as a mechanical engineer, he has been teaching himself how to commercialize the sensor. In his fourth year as a graduate student, he participated in
+eLab
+, a non-profit business “accelerator” for Cornell students. There, he learned to develop a business model and pitch an idea.
+In November 2016, the group became one of four university teams to win the first national Innovations in Food and Agricultural Science and Technology (I-FAST) prize competition. The USDA-NIFA prize provided $50,000 to attend an intensive NSF program, Innovation Corps (I-Corps), that supports and guides university scientists to translate their tech innovations into the marketplace.
+The grant has been instrumental in developing the business, Santiago said. “The I-Corps program enabled us to interview over 100 potential customers so that we can build our business model using real customer data,” he explained. Over a six-week period at the end of 2016, Santiago traveled throughout California’s wine country, where he interviewed potential customers.
+The group also added MBA student Zachary Leidig, who has taken a leave of absence from Cornell’s Samuel Curtis Johnson Graduate School of Management this semester to build the business. Santiago and Leidig will move to California in the next few months. Together, they are building a business model, talking to potential investors and suppliers, arranging for licensing technology from Cornell’s Center for Technology Licensing, and testing sensors this spring and summer.
+Keep Exploring
+News
+November 6, 2026
+Cost share and market access are the top drivers of digester adoption
+U.S. dairy production has continued its decades-long consolidation into fewer, larger operations [1], [2]. Recent news coverage has suggested that the growth in anaerobic digester adoption over the past decade may have encouraged this expansion...
+Cornell Cooperative Extension
+Animal Science
+PRO-DAIRY
+News
+November 5, 2026
+Library story time is also learning time for parents
+Cornell Cooperative Extension
+Explore All Stories
+We openly share valuable knowledge.
+Sign up for more insights, discoveries and solutions.
+Please enter a valid email address to subscribe to the newsletter.
+Email Address

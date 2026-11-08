@@ -1,0 +1,35 @@
+URL: https://cals.cornell.edu/news/2017/03/ipad-app-lets-plant-specialists-assess-disease-severity
+TITLE: iPad App Lets Plant Specialists Assess Disease Severity | CALS
+FETCHED: 2026-11-06
+
+Share
+A new iPad app, called Estimate, connects plant professionals with a portable database of photographs of diseased leaves to help determine plant disease severity.
+Estimate relies on Standard Area Diagrams (SADs), a series of photographs of diseased leaves, with each photo containing a leaf incrementally more diseased than the previous one. Each SAD shows disease severity in terms of the percent of the leaf that is diseased. Users then examine a leaf in the field, for example, and compare and match it with SADs to estimate the disease severity.
+“This app is useful for crop consultants and research scientists looking to cut costs and improve the time and accuracy for assessing disease severity in plants,” said Sarah Pethybridge, Cornell assistant professor of plant pathology, who developed the app with Scot Nelson, a plant disease epidemiologist at the University of Hawaii-Manoa.
+The app comes with an initial set of SADs of yellow and red table beet leaves affected by Cercospora leaf spot, a fungal disease that affects beets, chards and spinach. Pethybridge and Nelson hope to offer sets of SADs for five other vegetable diseases within the Estimate app by next year.
+The new app expands on
+a previous app developed by Nelson called Leaf Doctor
+, which allows users to take a photo of a diseased leaf with an iPhone or iPad. The app quantifies the percentage of disease on that leaf. This algorithm allowed the creation of new, realistic SADs based on digital images. Pethybridge and Nelson will work with users to develop SADs for use in Estimate, based on their needs and diseases of interest.
+In this way, Estimate provides a program for eventually creating a database of SADs for use in the field.
+Estimate lets users interactively edit or save data for future reference, verification, and study. The app will also email the information for use in spreadsheets for statistical analysis.
+Users can enter data as single samples from the field or they may group data according to a plot or subplot in a field experiment, such as when researchers have trial plots to test the efficacy of a fungicide or other treatment, for example.
+The app is available for free download from iTunes and is compatible with an iPad Air 2 or equivalent using iOS 9.0 or greater.
+Estimate is licensed with the Center for Technology Licensing at Cornell University.
+The app was developed with support from a United States Department of Agriculture, National Institute of Food and Agriculture (USDA-NIFA) Hatch project managed by the New York State Agricultural Experiment Station in Geneva, and the USDA-NIFA Hatch project managed by the College of Tropical Agriculture and Human Resources, University of Hawaii-Manoa.
+Keep Exploring
+News
+November 6, 2026
+Cost share and market access are the top drivers of digester adoption
+U.S. dairy production has continued its decades-long consolidation into fewer, larger operations [1], [2]. Recent news coverage has suggested that the growth in anaerobic digester adoption over the past decade may have encouraged this expansion...
+Cornell Cooperative Extension
+Animal Science
+PRO-DAIRY
+News
+November 5, 2026
+Library story time is also learning time for parents
+Cornell Cooperative Extension
+Explore All Stories
+We openly share valuable knowledge.
+Sign up for more insights, discoveries and solutions.
+Please enter a valid email address to subscribe to the newsletter.
+Email Address

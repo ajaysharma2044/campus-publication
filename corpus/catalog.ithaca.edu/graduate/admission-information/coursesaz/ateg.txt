@@ -1,0 +1,90 @@
+URL: https://catalog.ithaca.edu/graduate/admission-information/coursesaz/ateg/
+TITLE: Athletic Training (ATEG) < Ithaca College
+FETCHED: 2026-11-08
+
+Athletic Training (ATEG)
+ATEG 50100 Connective Tissues (NLA)
+Introduces the properties of all connective tissue as related to musculoskeletal injuries by examining the foundational anatomical, mechanical, and physiological principles essential to clinical practice and future expertise in risk reduction, diagnosis, and intervention for musculoskeletal injuries. Covers the pathoanatomy and pathomechanics of tissue injury, microdamage and macrodamage, pain and pain modulation, the healing response and tissue adaptation, and factors that influence the healing process, including magnitude & frequency of loading, force application, time, health status, age, overtraining, and other relevant determinants. (F,Y)
+3 Credits
+ATEG 50200 Acute Care and Critical Incident Management (NLA)
+Describes the appropriate assessment and intervention for acute care and emergency situations in the athletic setting, such as cardiac arrest, concussion, spinal injury, heat illness, and other athletic-related trauma. Presents methods of risk reduction for emergent injuries and illnesses. Examines the epidemiology and etiology of emergent injuries and illnesses. (S,Y)
+4 Credits
+ATEG 50300 Clinical Anatomy (NLA)
+Examines human anatomy with an emphasis on neuromusculoskeletal system structure and function. Introduces common injuries associated with physical activity though a combined examination of normal and abnormal anatomy and mechanics. (F,Y)
+3 Credits
+ATEG 50400 Professional Practice in Athletic Training (NLA)
+Introduces the athletic training professional practice, including athletic training policies and procedures. Demonstrates standard documentation procedures, including use of electronic medical records. Instructs on effective communication in health care. Provides skill practice and application of injury treatment, such as taping and wrapping. (F,Y)
+3 Credits
+ATEG 50500 Athletic Training Practicum I (NLA)
+Practical experience in a clinical setting under the supervision of an approved preceptor. Apply clinical skills acquired in didactic courses to a patient population. Introduces the Core Competencies and Practice Domains of athletic training. Enhance professionalization through direct interaction with various clinical professionals. The 1st of 4 athletic training practical courses. (F,Y)
+3 Credits
+ATEG 50600 Assessment of Musculoskeletal Conditions (NLA)
+Examines the etiology, pathology, process, diagnosis, and treatment of neuromusculoskeletal conditions and injuries. Emphasizes conditions that affect the physically active patient population. (F,Y)
+4 Credits
+ATEG 50700 Assessment of General Medical Conditions (NLA)
+Examines the etiology, pathology, process, diagnosis and treatment of diseases of the human body. Emphasizes disorders and conditions of the immune, cardiovascular, pulmonary, gastrointestinal, endocrine, renal, urogenital, and dermatological systems. Discusses the application of pharmacological interventions. Prerequisites:
+ATEG 50100
+. (S)
+4 Credits
+ATEG 50800 Therapeutic Interventions in Athletic Training I (NLA)
+Through integrated didactic and laboratory instruction and practice, students will acquire evidence-based theories and techniques for therapeutic interventions commonly utilized during the “Preparation for Healing” phase in the management of acute and chronic injuries and conditions in active populations and sport. Prerequisites:
+ATEG 50100
+. (S)
+4 Credits
+ATEG 51000 Athletic Training Practicum II (NLA)
+Practical experience in a clinical setting under the supervision of an approved preceptor. Apply clinical skills acquired in didactic courses to a patient population. Reinforce the Core Competencies and Practice Domains of athletic training. Enhance professionalization through direct interaction with various clinical professionals. The 2nd of 4 athletic training practical courses. Prerequisites:
+ATEG 50500
+. (S,Y)
+3 Credits
+ATEG 51100 Clinical Research in Athletic Training I (NLA)
+Prepares athletic training students to be clinician-scientists by addressing key elements of clinical research in athletic training. Introduces clinical research and the initial steps to conducting a clinical research project. Builds on foundational content from Evidence-Based Practice, Research Methods, and Statistics. Focuses on didactic instruction of clinical research and initiating a clinical research project (case report or critically appraised topic), including 1) developing a focused & answerable clinical question OR describing a clinical case, 2) conducting a systematic search of the scientific literature to answer the clinical question OR to develop the foundation background knowledge to describe the anatomical, mechanical, and physiological considerations that lead to a unique diagnosis or intervention. Part 1 of a 2-course Clinical Research in Athletic Training series. Prerequisites:
+ATEG 50100
+. (U)
+2 Credits
+ATEG 51500 Clinical Capabilities in Athletic Training (NLA)
+Examine various aspects of clinical practice common in active and athletic populations including pharmacology, dermatology, and diagnostic imaging. Identify commonly used medications and differentiate various categories of pharmaceuticals used in athletic training. Explore and gain an understanding of diagnostic imagining techniques and laboratory testing. Describe and identify common dermatological conditions and treatment paradigms. Prerequisites:
+ATEG 51000
+. (U)
+2 Credits
+ATEG 52100 Exercise Physiology in Athletic Training (NLA)
+The physiological mechanisms that regulate the body's responses and adaptations to exercise. Special physiological considerations of gender, development and aging, obesity, pregnancy, and environmental stress (e.g., altitude, pollution, extreme temperature) are emphasized. Popular pharmaceutical and dietary manipulations used to enhance exercise performance are discussed. Experimental research in exercise physiology is introduced, and limited laboratory experiences are scheduled during class time. Students may not get credit for both
+ESSG 52100
+and
+EXSS 42100
+. Graduate students have additional workload and responsibilities. Prerequisites: One course in exercise physiology. (F,S,Y)
+3 Credits
+ATEG 55000 Immersive Fieldwork in Athletic Training (NLA)
+Supervised immersive clinical experience. Provides opportunities to participate in the day-to-day and week-to-week role of an athletic trainer for a period of time identified by the preceptor. Permission of instructor required. (IRR,U,W)
+1-3 Credits
+ATEG 60400 Health Care Delivery and Administration in Athletic Training (NLA)
+Addresses the organization and administration of health care delivery systems specific to athletic training. Emphasizes continual quality improvement, patient and clinical outcomes, payor systems and reimbursement, legal aspects, and operational management. Prerequisites:
+ATEG 50400
+. (F,Y)
+3 Credits
+ATEG 60500 Athletic Training Practicum III (NLA)
+Practical experience in a clinical setting under the supervision of an approved preceptor. Apply clinical skills acquired in didactic courses to a patient population. Reinforces the Core Competencies and Practice Domains of athletic training. Enhance professionalization through direct interaction with various clinical professionals. The 3rd of 4 athletic training practical courses. Prerequisites:
+ATEG 51000
+. (F,Y)
+3 Credits
+ATEG 60800 Therapeutic Interventions in Athletic Training II (NLA)
+Acquistion and application of essential theories, skills, and practices for the restoration of function and return to participation will be presented. Evidence-based theories, principles and techniques will be utilized to develop, maintain and/or improve components of functional performance. Emphasis will be placed upon therapeutic reasoning related to the dynamics of skill acquisition and rehabilitation of athletic injuries and conditions. Skill instruction and lab-based practice will be included to develop essential practical skills germane to therapeutic interventions for restoring functional performance and participation in physical activity. Prerequisites:
+ATEG 50800
+. (F)
+4 Credits
+ATEG 61000 Athletic Training Practicum IV (NLA)
+Engage in practical experience in a clinical setting under the supervision of an approved preceptor. Apply clinical skills acquired in didactic courses to a patient population. Reinforces the Core Competencies and Practice Domains of athletic training. Enhance professionalization through direct interaction with various clinical professionals. Includes 5-week, full time clinical immersion rotation either on, or off campus. The 4th of 4 athletic training practical courses. Prerequisites:
+ATEG 60500
+. (S,Y)
+6 Credits
+ATEG 61100 Clinical Research in Athletic Training II (NLA)
+Prepares athletic training students to be clinician-scientists by addressing key elements of clinical research in athletic training. Continues with the conduct of a clinical research project that was initiated in
+ATEG 51100
+: Clinical Research in Athletic Training I. Focuses on 1) critical appraisal of clinical research studies identified in systematic search, 2) extracting and synthesizing relevant data from the included studies, 3) interpreting and generating clinical recommendations from the results, and 4) generating products to disseminate results and interpretations. Part 2 of a 2-course Clinical Research in Athletic Training series. Prerequisites:
+ATEG 51100
+. (F,Y)
+2 Credits
+ATEG 61500 Advanced Topics in Athletic Training (NLA)
+Emphasizes advanced evidence-based theory and techniques for injury mitigation and intervention in the physically active population. Addresses emerging trends in the profession. Prerequisites:
+ATEG 60500
+. (S,Y)
+4 Credits

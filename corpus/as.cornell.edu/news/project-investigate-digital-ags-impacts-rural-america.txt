@@ -1,0 +1,55 @@
+URL: https://as.cornell.edu/news/project-investigate-digital-ags-impacts-rural-america
+TITLE: Project to investigate digital ag’s impacts on rural America
+FETCHED: 2026-11-06
+
+Project to investigate digital ag’s impacts on rural America
+Science & Technology Studies
+By |
+Melanie Lefkowitz
+,
+Cornell Chronicle
+7/16/2020
+As technology begins to transform farming, a team of Cornell researchers is exploring how digital agriculture could affect small and midsized farms, as well as its likely effect on the environment, to inform the design of these developing technologies.
+The project, which will focus specifically on the impact of high-bandwidth farm networking, has received a four-year, $1.2 million grant from the National Science Foundation.
+Phoebe Sengers
+, associate professor of information science and of science and technology studies in the College of Arts and Sciences, is principal investigator on the grant; Hakim Weatherspoon, associate professor of computer science, and Steven Wolf, associate professor of natural resources in the College of Agriculture and Life Sciences, are collaborating.
+“Typically, the large-scale farms, the ones that can amass the most resources, benefit the most from new technologies. And there are all kinds of environmental questions,” said Sengers, whose research has explored technology design and rural communities. “We don’t know what the impact of digital agriculture will be.”
+The research project is part of the
+Cornell Initiative for Digital Agriculture
+, one of Cornell’s Radical Collaboration initiatives.
+New technology is enabling some farms to increasingly rely on sensors, data and networking to make better decisions. Researchers hope digital agriculture can increase productivity and minimize the overuse of water or chemicals, since it provides farmers with precise, real-time information about factors including weather, water levels and plant health.
+It’s important to consider the potential social impact while these tools are still being developed, Sengers said, because tools and technology are far harder to change once they’ve been built and implemented. And technological innovation has not always had a positive impact on rural communities in the past, she said.
+“We want to think about how this technology can be designed in order to make sure it does the things we hope that it will do,” Sengers said. “Rural communities in the U.S. face a lot of economic challenges as well as environmental challenges. We all hope these technologies can have a transformative potential, but given the amount of optimism that’s tied to this and with the evidence we have about previous technologies, it seems unwise to just assume it’s going to work out.”
+The team will focus on the research that’s currently being done and the technology that’s already being developed, in order to understand what factors are influencing design decisions. For example, Sengers said, if sensors or cameras are being designed for large, industrial farms that tend to be flat and planted in rows, they may not function well on smaller farms that are situated on hills or include multiple crops.
+The researchers will also conduct fieldwork with stakeholders, such as farmers and manufacturers of farming supplies, to ascertain how technology is likely to be used.
+“Once we understand that better,” Sengers said, “we’re going to be making scenarios of the different kinds of future possibilities for this technology that can then ground decisions today and influence what that technology could be in future.”
+The project grew out of conversations surrounding the Software-defined Farm, which Weatherspoon and other Cornell researchers are developing in collaboration with Microsoft’s FarmBeats program, to develop and study new applications for farming.
+In addition to informing the design of new tools, the researchers hope their findings can guide future policy.
+“Policymakers can be behind the eight ball if they don’t understand what’s coming out, or what the possibilities are, before it’s actually on the market,” she said. “Then it can be a little late to think about how to react.”
+Read the story in the
+Cornell Chronicle
+.
+More News from A&S
+Victoria Smith/Laude
+Members of the Cornell “Moonshot” lab will develop a novel infrastructure to ensure trust in online communication. From left: Natalie Bazarova, Robert Kleinberg, Cristian Danescu-Niculescu-Mizil, Jon Kleinberg, David Rand and Mor Naaman.
+Project to rebuild trust in AI era lands Laude’s $10M ‘moonshot’ award
+Psychology
+11/6/2026
+Cornell Chronicle
+Courtesy of Demo Lab Foundation
+From left: Marian Vidaurri, Rachel Riedl, Nia Demming at the July Cornell Tech event.
+‘Train the trainers’ event convenes democracy leaders, educators, activists
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+Sheryl Sinkow/Cornell University
+(From left to right): Professors Stewart Schwab, Oumar Ba, Nelson Tebbe, Mildred Warner, and Natasha Raheja.
+Scholarly leadership to protect and strengthen democracy
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+New book details history of sound’s claim on our attention
+Music
+11/6/2026
+A&S Communications
+View all news

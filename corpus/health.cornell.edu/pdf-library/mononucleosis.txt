@@ -1,0 +1,13 @@
+URL: https://health.cornell.edu/pdf-library/mononucleosis
+TITLE: Mononucleosis | Cornell Health
+FETCHED: 2026-11-06
+
+File
+mononucleosis.pdf
+398.52 KB
+PDF Category
+Medical concerns
+Keywords
+mono, kissing, sore throat, EBV, virus
+PDF Replacement
+/sites/health/files/pdf-library/mononucleosis.pdf

@@ -1,0 +1,32 @@
+URL: https://www.library.cornell.edu/about/commitment-to-privacy/new-york-civil-practice-law-and-rules-cplr-%c2%a7-4509/
+TITLE: New York Civil Practice Law and Rules (CPLR) § 4509 – Cornell University Library
+FETCHED: 2026-11-07
+
+Under
+New York Civil Practice Law and Rules (CPLR) § 4509
+, library records — including, but not limited to, the circulation of library materials, database searches, interlibrary loan transactions, reference queries, requests for photocopies of library materials, reserve requests, and the use of audiovisual materials, films, and sound recordings — are considered confidential.
+These records may only be disclosed under very limited circumstances:
+With the user’s request or consent;
+As necessary for the proper operation of the Library;
+Or pursuant to a subpoena, court order, or other statutory requirement.
+This legal protection reflects the legislative intent to safeguard library patrons’ right to access information freely and without fear of surveillance or intrusion. CPLR § 4509 ensures that a user’s personally identifiable information — such as borrowing history, research topics, or interlibrary loan activity — remains private, fostering intellectual freedom.
+It is important to note that confidentiality under CPLR § 4509 is not an absolute privilege. Courts have clarified that while library records are confidential, they can be disclosed through legal processes such as subpoenas and court orders:
+In
+Quad/Graphics, Inc. v. Southern Adirondack Library Sys., 174 Misc. 2d 291
+, the court emphasized that library records cannot be freely disclosed even for pre-litigation discovery purposes without satisfying legal standards.
+In
+Adams v. Rizzo, 13 Misc. 3d 1235(A)
+, the court distinguished confidentiality from privilege, confirming that while libraries must protect records, disclosure can be compelled under specific legal circumstances such as a subpoena or court order.
+Library users should also be aware that federal legislation, such as the USA PATRIOT Act of 2001 and the USA Freedom Act, has expanded circumstances under which federal authorities may request library records. If a federal agency demands access to patron information, the Library is prohibited by law from notifying the affected user.
+In all cases, law enforcement or government requests for patron records are referred to the Office of University Counsel in accordance with University Policy 4.13,
+Acceptance of Legal Papers
+, to ensure compliance with applicable legal protections and procedures.
+To safeguard your privacy, the Library has in place procedures that minimize instances of the retention of Library records.  In addition, the Library follows relevant Cornell policies, including University Policy 4.5,
+Access to Student Information
+, University Policy 4.12,
+Data Stewardship and Custodianship
+, University Policy 4.13,
+Acceptance of Legal Papers
+, and University Policy 5.9,
+Access to Information Technology Data and Monitoring Network Transmissions
+.

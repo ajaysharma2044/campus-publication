@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-# PreToolUse guard (specs/continuous-local-run.md §7 "Enforced by hook"; AT17, AT11). Logic lives in guard.py.
+# PreToolUse guard (Footnote Daily v2, owner spec 2026-11-07): only the .env block remains. Logic lives in guard.py.
 # Reads the hook JSON on stdin. Exit 2 + a message on stderr blocks the tool call; exit 0 allows it.
-# Protected: SPEC.md, specs/**, .claude/settings.json, gate constants in editorial/gates.py,
-#            live-ramp defaults in config.py, and .claude/skills/<name> unless adopted in docs/ops/skill-evaluations.md.
+# Protected: .env files (Claude never reads, prints or copies them; sourcing from a script stays allowed).
 set -u
 ROOT="${CLAUDE_PROJECT_DIR:-$(cd "$(dirname "$0")/../.." && pwd)}"
 PY="$ROOT/worker/.venv/bin/python"; [ -x "$PY" ] || PY="$(command -v python3)"

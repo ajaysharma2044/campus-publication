@@ -1,0 +1,179 @@
+URL: https://health.cornell.edu/covid-19-survey-data-tables
+TITLE: COVID-19 Survey Data Tables | Cornell Health
+FETCHED: 2026-11-06
+
+The following tables include responses for all (undergraduate, graduate, and professional) Cornell students.
+Table 1.
+I believe it is my responsibility to practice physical distancing to reduce the spread of COVID-19
+.
+Frequency
+Percent
+Valid Percent
+Cumulative Percent
+Valid
+Strongly disagree
+396
+4.2
+4.2
+4.2
+Disagree
+25
+0.3
+0.3
+4.5
+Agree
+1,244
+13.2
+13.3
+17.8
+Strongly Agree
+7,701
+82.0
+82.0
+100.0
+Total
+9,366
+99.7
+100.0
+Missing
+System
+27
+0.3
+Total
+9,393
+100.0
+Table 2.
+I practice physical distancing to reduce the spread of COVID-19.
+Frequency
+Percent
+Valid Percent
+Cumulative Percent
+Valid
+Never
+8
+0.1
+0.1
+0.1
+Rarely
+12
+0.1
+0.1
+01
+Sometimes
+101
+1.1
+1.1
+1.1
+Often
+517
+5.5
+5.5
+5.5
+Very Often
+3,099
+33.0
+33.1
+33.1
+Always
+5,622
+59.9
+60.1
+60.1
+Total
+9,359
+99.6
+100.0
+100.0
+Missing
+System
+34
+0.4
+Total
+9,393
+100.0
+Table 3.
+I believe that washing my hands or using hand sanitizer to reduce the spread of COVID-19 is:
+Frequency
+Percent
+Valid Percent
+Cumulative Percent
+Valid
+Not at all important
+6
+0.1
+0.1
+0.1
+Slightly important
+23
+0.2
+0.2
+0.3
+Moderately important
+294
+3.1
+3.1
+3.5
+Very important
+2,052
+21.8
+21.9
+25.4
+Extremely important
+6,978
+74.2
+74.6
+100.0
+Total
+9,353
+99.6
+100.0
+Missing
+System
+40
+0.4
+Total
+9,393
+100.0
+Table 4.
+Based on what you know about COVID-19, how likely are you to attend a party in the next two weeks?
+Frequency
+Percent
+Valid Percent
+Cumulative Percent
+Valid
+Very likely
+37
+0.4
+0.4
+0.4
+Likely
+69
+0.7
+0.7
+1.1
+Unlikely
+841
+9.0
+9.0
+10.1
+Not at all
+8,395
+89.4
+89.0
+100.0
+Total
+9,342
+99.5
+100.0
+Missing
+System
+51
+0.5
+Total
+9,393
+100.0
+If you have questions about these or other data related to the COVID-19 Survey, please
+contact Laura Santacrose, MPH
+, Assistant Director of the
+Skorton Center for Health Initiatives
+.

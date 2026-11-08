@@ -1,5 +1,5 @@
 {
-  "$comment": "Project settings for campus-publication (specs/continuous-local-run.md R32, \u00a77). Committed. Machine-specific overrides go in .claude/settings.local.json (gitignored). This file is protected by .claude/hooks/guard.sh; owner edits only.",
+  "$comment": "Project settings for campus-publication (Footnote Daily v2, owner spec 2026-11-07 in docs/v2/spec.md). The only hook rule is the .env block in .claude/hooks/guard.py. Machine-specific overrides go in .claude/settings.local.json (gitignored).",
   "permissions": {
     "deny": [
       "Read(./.env)",
@@ -21,72 +21,22 @@
       "Bash(pip install *)"
     ],
     "allow": [
-      "Read",
-      "Edit",
-      "Write",
-      "MultiEdit",
-      "Grep",
-      "Glob",
-      "Agent",
-      "Task",
-      "WebSearch",
-      "WebFetch",
-      "Bash(pytest *)",
-      "Bash(cd worker && pytest *)",
-      "Bash(cd worker && .venv/bin/pytest *)",
-      "Bash(worker/.venv/bin/pytest *)",
-      "Bash(python -m campus_worker.*)",
-      "Bash(cd worker && python -m campus_worker.*)",
-      "Bash(cd worker && .venv/bin/python -m campus_worker.*)",
-      "Bash(worker/.venv/bin/python -m campus_worker.*)",
-      "Bash(worker/.venv/bin/python scripts/*)",
-      "Bash(scripts/*)",
-      "Bash(bash scripts/*)",
-      "Bash(node scripts/*)",
-      "Bash(git add *)",
-      "Bash(git commit *)",
-      "Bash(git push)",
-      "Bash(git push origin *)",
-      "Bash(git push -u origin *)",
-      "Bash(git status*)",
-      "Bash(git diff*)",
-      "Bash(git log*)",
-      "Bash(git rev-parse *)",
-      "Bash(git show *)",
-      "Bash(git branch*)",
-      "Bash(git fetch *)",
-      "Bash(gh pr *)",
-      "Bash(ls *)",
-      "Bash(cat *)",
-      "Bash(head *)",
-      "Bash(tail *)",
-      "Bash(wc *)",
-      "Bash(grep *)",
-      "Bash(find *)",
-      "Bash(mkdir *)",
-      "Bash(date *)",
-      "Bash(echo *)",
-      "Bash(printf *)",
-      "Bash(curl -s *)",
-      "Bash(psql *)",
-      "Bash(test *)",
-      "Bash(jq *)",
-      "Bash(git clone --depth 1 *)",
-      "Bash(git -C * log *)",
-      "Bash(git -C * rev-parse *)",
-      "Bash(npx playwright *)"
+      "Read", "Edit", "Write", "MultiEdit", "Grep", "Glob", "Agent", "Task", "WebSearch", "WebFetch",
+      "Bash(pytest *)", "Bash(cd worker && pytest *)", "Bash(cd worker && .venv/bin/pytest *)", "Bash(worker/.venv/bin/pytest *)",
+      "Bash(python -m campus_worker.*)", "Bash(cd worker && .venv/bin/python -m campus_worker.*)", "Bash(worker/.venv/bin/python -m campus_worker.*)",
+      "Bash(worker/.venv/bin/python scripts/*)", "Bash(scripts/*)", "Bash(bash scripts/*)", "Bash(node scripts/*)",
+      "Bash(git add *)", "Bash(git commit *)", "Bash(git mv *)", "Bash(git push)", "Bash(git push origin *)", "Bash(git push -u origin *)", "Bash(git status*)", "Bash(git diff*)", "Bash(git log*)",
+      "Bash(git rev-parse *)", "Bash(git show *)", "Bash(git branch*)", "Bash(git fetch *)", "Bash(gh pr *)",
+      "Bash(ls *)", "Bash(cat *)", "Bash(head *)", "Bash(tail *)", "Bash(wc *)", "Bash(grep *)", "Bash(find *)", "Bash(mkdir *)", "Bash(date *)", "Bash(echo *)", "Bash(printf *)",
+      "Bash(curl -s *)", "Bash(psql *)", "Bash(test *)", "Bash(jq *)", "Bash(npx playwright *)"
     ]
   },
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": "Edit|Write|MultiEdit|NotebookEdit|Bash",
+        "matcher": "Read|Edit|Write|MultiEdit|NotebookEdit|Bash",
         "hooks": [
-          {
-            "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/guard.sh",
-            "timeout": 20
-          }
+          { "type": "command", "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/guard.sh", "timeout": 20 }
         ]
       }
     ]

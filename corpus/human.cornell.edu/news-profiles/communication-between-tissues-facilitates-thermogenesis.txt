@@ -1,0 +1,25 @@
+URL: https://human.cornell.edu/news-profiles/communication-between-tissues-facilitates-thermogenesis
+TITLE: Communication between tissues facilitates thermogenesis | Cornell Human Ecology
+FETCHED: 2026-11-06
+
+Daniel Berry
+, assistant professor in the
+Division of Nutritional Sciences
+, and graduate students in his lab have identified the cellular and molecular mechanisms that govern adaptive thermogenesis, a biological process that researchers believe could be the key to treating obesity, type 2 diabetes and other metabolic disorders.
+Their study,
+published in the journal Cell Reports
+, outlines the complex intra-organ communication that allows brown adipose tissue to burn calories to produce heat to maintain body temperature and provides a potential clue to why mammals lose the tissue.
+The paper’s lead authors are Derek Lee ’21, M.S. ’23 and Abigail Benvie, a graduate student in the field of molecular nutrition. Co-authors are Benjamin Steiner Ph.D. ’22; Sean McCabe ’23; Josie Ford ’22; Yuwei Jiang, an assistant professor in physiology and biophysics at the University of Illinois at Chicago; and Berry.
+Brown adipose tissue contains adipocytes, as well as blood vessels and nerve fibers that connect it to the sympathetic nervous system. Berry said that the team was working on a different research question when they noticed that some of the smooth muscle cells that make up those blood vessels produce adipocytes, but others do not.
+They found that vascular smooth muscle cells expressing alpha-smooth muscle actin (SMA) don’t generate new brown adipocytes, but instead support brown adipose tissue homeostasis and thermogenesis.
+Further research revealed that these vascular cells regulate thermogenesis by secreting the signaling protein Cxcl12, which supports and retains local anti-inflammatory macrophages and maintains the sympathetic nerve fibers that stimulate thermogenesis. The team found that mice without Cxcl12 were more susceptible to metabolic dysfunction when fed a high-fat diet, while administering the protein to these mice restored homeostasis in their brown adipose tissue. Furthermore, administering the protein to obese male mice improved the rodents’ ability to maintain their body temperature and increased their energy expenditure when exposed to cold. In other words, Cxcl12 improved their thermogenic response.
+“It was surprising to see how much cells communicate with each other to coordinate immunological, metabolic and sympathetic processes,” Berry said. “It’s quite the circuit to think about.”
+Overall, the study suggests that using Cxcl12 to maintain supportive macrophages in brown adipose tissue could improve brown adipocyte persistence and metabolic homeostasis. Investigating Cxcl12 regulatory pathways could help explain why the tissue declines with age.
+“We want to understand how to allow brown fat to perdure – to have longevity across the lifespan,” Berry said. “Find out how this process actually works and how cells communicate with each other to regulate thermogenesis could lead to therapies for serious health issues like obesity.”
+Posted on
+06/20/2024
+Author
+Emily Groff
+Tags
+Holistic Human Health
+Share

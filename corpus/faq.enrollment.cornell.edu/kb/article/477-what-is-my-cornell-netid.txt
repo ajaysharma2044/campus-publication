@@ -1,0 +1,64 @@
+URL: https://faq.enrollment.cornell.edu/kb/article/477-what-is-my-cornell-netid/
+TITLE: What is my Cornell NetID? - Frequently Asked Questions
+FETCHED: 2026-11-06
+
+What is my Cornell NetID?
+Author:
+Cornell Undergraduate Admissions
+9078
+views
+Your NetID is a unique identifier that, combined with a strong passphrase, provides access to non-public Cornell resources and information.
+Activate Your NetID, Email, and Two-Step Login
+After the university has received your enrollment response and deposit, you will receive an email from "
+[email protected]
+" at your admissions email address that your NetID was created and what to do next.
+Sometimes this email goes to spam/junk folders, so check there if you do not find it in your Inbox
+. It can take up to two business days for your NetID to be created after your deposit is processed.
+After you receive the activation email, you will sign in with your Application Portal login information to
+activate your NetID and email
+.
+Don't forget to set up
+Two-Step Login
+so you can access services vital to getting started as a new student. This two-factor authentication service prevents the use of stolen Cornell passwords by requiring confirmation from something a third party does not have, such as a mobile phone.
+Review the
+IT checklist
+before you arrive to select an email system to access your Cornell email, register for campus Wi-Fi, set up a password recovery email, and more.
+Please activate your NetID immediately.
+Your email will be activated with your NetID. Your email address will look something like this—
+[email protected]
+—where "ewe1" is your Cornell NetID.
+After you activate your NetID, it will be your permanent account, and you will use it to log in to Cornell services moving forward. NetIDs carry both additional privileges and additional responsibilities. Use a strong, unique
+passphrase
+with your NetID and keep it private.
+Feedback
+1 out of 1 found this helpful
+Need additional information
+Hard to understand
+Inaccurate/irrelevant content
+Missing/broken link
+Please let us know why this article wasn't helpful to you:
+Tags
+ID
+(2)
+2 articles
+admitted student
+(16)
+16 articles
+IT
+(3)
+3 articles
+admitted
+(11)
+11 articles
+NetID
+(2)
+2 articles
+admit
+(9)
+9 articles
+student
+(1)
+1 article
+Still have questions? Email
+[email protected]
+.

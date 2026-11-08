@@ -1,0 +1,76 @@
+URL: https://as.cornell.edu/news/laser-jolts-microscopic-electronic-robots-motion
+TITLE: Laser jolts microscopic electronic robots into motion
+FETCHED: 2026-11-06
+
+Laser jolts microscopic electronic robots into motion
+Physics
+By |
+David Nutt
+,
+Cornell Chronicle
+8/26/2020
+In 1959, former Cornell physicist Richard Feynman delivered his famous lecture “There’s Plenty of Room at the Bottom,” in which he described the opportunity for shrinking technology, from machines to computer chips, to incredibly small sizes. Well, the bottom just got more crowded.
+A Cornell-led collaboration has created the first microscopic robots that incorporate semiconductor components, allowing them to be controlled – and made to walk – with standard electronic signals.
+These robots, roughly the size of paramecium, provide a template for building even more complex versions that utilize silicon-based intelligence, can be mass produced, and may someday travel through human tissue and blood.
+Researchers from Cornell and the University of Pennsylvania built microsopic robots that consist of a simple circuit made from silicon photovoltaics – essentially the torso and brain – and four electrochemical actuators that function as legs. Provided
+The collaboration is led by
+Itai Cohen
+, professor of physics,
+Paul McEuen
+, the John A. Newman Professor of Physical Science – both in the College of Arts and Sciences – and their former postdoctoral researcher Marc Miskin, who is now an assistant professor at the University of Pennsylvania.
+The team’s paper, “
+Electronically Integrated, Mass-Manufactured, Microscopic Robots
+,” published Aug. 26 in Nature.
+The walking robots are the latest iteration, and in many ways an evolution, of Cohen and McEuen’s previous nanoscale creations, from
+microscopic sensors
+to graphene-based
+origami machines
+.
+The new robots are about 5 microns thick (a micron is one-millionth of a meter), 40 microns wide and range from 40 to 70 microns in length. Each bot consists of a simple circuit made from silicon photovoltaics – which essentially functions as the torso and brain – and four electrochemical actuators that function as legs.
+As basic as the tiny machines may seem, creating the legs was an enormous feat.
+“In the context of the robot’s brains, there’s a sense in which we’re just taking existing semiconductor technology and making it small and releasable,” said McEuen, who co-chairs the Nanoscale Science and Microsystems Engineering (NEXT Nano) Task Force, part of the provost’s
+Radical Collaboration initiative
+, and directs the
+Kavli Institute at Cornell for Nanoscale Science
+.
+“But the legs did not exist before,” McEuen said. “There were no small, electrically activatable actuators that you could use. So we had to invent those and then combine them with the electronics.”
+Using atomic layer deposition and lithography, the team constructed the legs from strips of platinum only a few dozen atoms thick, capped on one side by a thin layer of inert titanium. Upon applying a positive electric charge to the platinum, negatively charged ions adsorb onto the exposed surface from the surrounding solution to neutralize the charge. These ions force the exposed platinum to expand, making the strip bend. The ultra-thinness of the strips enables the material to bend sharply without breaking. To help control the 3D limb motion, the researchers patterned rigid polymer panels on top of the strips. The gaps between the panels function like a knee or ankle, allowing the legs to bend in a controlled manner and thus generate motion.
+The researchers control the robots by flashing laser pulses at different photovoltaics, each of which charges up a separate set of legs. By toggling the laser back and forth between the front and back photovoltaics, the robot walks.
+“While these robots are primitive in their function – they’re not very fast, they don’t have a lot of computational capability – the innovations that we made to make them compatible with standard microchip fabrication open the door to making these microscopic robots smart, fast and mass producible,” Cohen said. “This is really just the first shot across the bow that, hey, we can do electronic integration on a tiny robot.”
+The robots are certainly high-tech, but they operate with low voltage (200 millivolts) and low power (10 nanowatts), and remain strong and robust for their size. Because they are made with standard lithographic processes, they can be fabricated in parallel: About 1 million bots fit on a 4-inch silicon wafer.
+The researchers are exploring ways to soup up the robots with more complicated electronics and onboard computation – improvements that could one day result in swarms of microscopic robots crawling through and restructuring materials, or suturing blood vessels, or being dispatched en masse to probe large swaths of the human brain.
+“Controlling a tiny robot is maybe as close as you can come to shrinking yourself down. I think machines like these are going to take us into all kinds of amazing worlds that are too small to see,” said Miskin, the study’s lead author.
+Co-authors include David Muller, the Samuel B. Eckert Professor of Engineering; Alejandro Cortese, Ph.D. ’19, a Cornell Presidential Postdoctoral Fellow; postdoctoral researcher Qingkun Liu; doctoral students Michael Cao ’14, Kyle Dorsey and Michael Reynolds; and Edward Esposito, a former university staff member and technician in Cohen’s lab.
+“This research breakthrough provides exciting scientific opportunity for investigating new questions relevant to the physics of active matter and may ultimately lead to futuristic robotic materials,” said Sam Stanton, program manager for the Army Research Office, an element of the Combat Capabilities Development Command’s Army Research Laboratory, which supported the research.
+Additional support was provided by the Air Force Office of Scientific Research, the
+Cornell Center for Materials Research
+, which is supported by the National Science Foundation’s Materials Research Science and Engineering Center program, and the Kavli Institute at Cornell for Nanoscale Science. The work was performed at the
+Cornell NanoScale Science and Technology Facility
+.
+Read the story in the
+Cornell Chronicle
+.
+More News from A&S
+Victoria Smith/Laude
+Members of the Cornell “Moonshot” lab will develop a novel infrastructure to ensure trust in online communication. From left: Natalie Bazarova, Robert Kleinberg, Cristian Danescu-Niculescu-Mizil, Jon Kleinberg, David Rand and Mor Naaman.
+Project to rebuild trust in AI era lands Laude’s $10M ‘moonshot’ award
+Psychology
+11/6/2026
+Cornell Chronicle
+Courtesy of Demo Lab Foundation
+From left: Marian Vidaurri, Rachel Riedl, Nia Demming at the July Cornell Tech event.
+‘Train the trainers’ event convenes democracy leaders, educators, activists
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+Sheryl Sinkow/Cornell University
+(From left to right): Professors Stewart Schwab, Oumar Ba, Nelson Tebbe, Mildred Warner, and Natasha Raheja.
+Scholarly leadership to protect and strengthen democracy
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+New book details history of sound’s claim on our attention
+Music
+11/6/2026
+A&S Communications
+View all news

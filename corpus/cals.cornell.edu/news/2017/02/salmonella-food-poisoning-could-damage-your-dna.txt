@@ -1,0 +1,38 @@
+URL: https://cals.cornell.edu/news/2017/02/salmonella-food-poisoning-could-damage-your-dna
+TITLE: Salmonella Food Poisoning Could Damage Your DNA | CALS
+FETCHED: 2026-11-06
+
+Share
+Salmonella food poisoning wallops you for several days, but new research by Cornell food scientists indicates that some of its serotypes – variations of the bacterial species – can have permanent repercussions. It may damage your DNA.
+Rachel Miller
+“Not all salmonella serotypes are equal,” said author Rachel Miller, a doctoral candidate in food science.
+Salmonella causes about 1.2 million non-typhoidal salmonella illnesses and about 450 deaths annually in the United States, according to Center for Disease Control statistics. There are over 2,500 serotypes for salmonella, but fewer than 100 serotypes cause the vast majority of foodborne illness, according to the CDC.
+Miller and Martin Wiedmann, the Gellert Family Professor in Food Safety, examined multiple serotypes of salmonella that encode for cytolethal distending toxin, or S-CDT, a virulence component for serotype Typhi – the cause of typhoid fever. As it happens, the salmonella serotypes called Javiana, Montevideo, Oranienburg, and Mississippi – common culprits in the foodborne illness world – also carry the genetic material that encodes S-CDT, the researchers found.
+In human cells grown in the lab, Salmonella strains with S-CDT were also found to lead to hallmark signatures that indicate the presence of DNA damage. The ability to cause DNA damage may contribute to long-term disease consequences, Miller said.
+“Think about possible DNA damage this way: We apply sunscreen to keep the sun from damaging our skin. If you don’t apply
+Martin Wiedmann
+sunscreen, you can get a sunburn – and possibly develop skin problems later in life,” said Miller. “While not the sun, salmonella bacteria may work in a similar way. The more you expose your body’s cells to DNA damage, the more DNA damage that needs to be repaired, and there may one day be a chance that the DNA damage is not correctly repaired. We don’t really know right now the true permanent damage from these salmonella infections.”
+For a half-century, scientists have used salmonella serotyping to track foodborne illness outbreaks and their sources.
+“A person’s damaged DNA from salmonella could lead to long-term health consequences after the infection subsides, such as longer bouts with foodborne illness,” said Wiedmann.
+Salmonella is named for Daniel Elmer Salmon (Cornell B.V.M. 1872, D.V.M 1876), who received the first doctorate of veterinary medicine in the United States.
+The research, “
+The Cytolethal Distending Toxin Produced by Nontyphoidal Salmonella Serotypes
+Javiana, Montevideo, Oranienburg, and Mississippi Induces DNA Damage in a Manner Similar to That of Serotype Typhi,” was published in the journal mBio (November/December 2016), published by the American Society of Microbiology. The U.S. Department of Agriculture provided funding.
+This article also appeared in the Cornell Chronicle.
+Keep Exploring
+News
+November 6, 2026
+Cost share and market access are the top drivers of digester adoption
+U.S. dairy production has continued its decades-long consolidation into fewer, larger operations [1], [2]. Recent news coverage has suggested that the growth in anaerobic digester adoption over the past decade may have encouraged this expansion...
+Cornell Cooperative Extension
+Animal Science
+PRO-DAIRY
+News
+November 5, 2026
+Library story time is also learning time for parents
+Cornell Cooperative Extension
+Explore All Stories
+We openly share valuable knowledge.
+Sign up for more insights, discoveries and solutions.
+Please enter a valid email address to subscribe to the newsletter.
+Email Address

@@ -1,0 +1,42 @@
+URL: https://business.cornell.edu/news/2019/08/14/how-chinese-citizens-activism-curbs-pollution/
+TITLE: How Chinese citizens’ activism curbs pollution- Cornell SC Johnson College of Business
+FETCHED: 2026-11-06
+
+August 14, 2019
+How Chinese citizens’ activism curbs pollution
+In early August 2011, a typhoon struck the Chinese city of Dalian, damaging a protective dyke at a local paraxylene petrochemical plant. Soon after, thousands of protesters gathered to express their concern over future breaches and demand the plant be shut down and moved. Local government authorities eventually ordered the plant’s closure and relocation.
+China’s tolerance of civil protests was relatively new, and international news agencies took note, as did Christopher Marquis, the Samuel C. Johnson Professor in Sustainable Global Enterprise at Johnson. Marquis had an idea: Why not examine which companies receive government sanctions to determine whether the government’s response to the high-profile protest in Dalian was an exception or an example of a general trend?
+In subsequent research, Marquis and his co-author, Yanhua Bird, a doctoral candidate in organizational behavior at Harvard, found that civil protests can, in fact, catalyze reform, but that their success is tightly tied to the capacity of local government and the capabilities of local media. It also revealed that seeking redress for environmental wrongs through more established channels can backfire. (“The Paradox of Responsive Authoritarianism: How Civic Activism Spurs Environmental Penalties in China,”
+Organization Science,
+Sept. 2018.)
+Christopher Marquis, the Samuel C. Johnson Professor in Sustainable Global Enterprise and professor of management at Johnson
+To start their investigation, Marquis and Bird gathered data on publicly traded Chinese firms in the most environmentally damaging industries — mining, manufacturing, and power generation — between 2007 and 2011. They examined whether these companies were sanctioned by the government over that period of time, and if so, how severely — from a simple warning to a suspension of operations.
+Alongside this data, they looked at the companies’ financial condition, the age of their equipment, and whether they were state owned. Then they compiled local, national, and international news reports of environmental protests in China. They also collected records of public petitions to local environmental protection bureaus. (The petition process, which has existed in different forms for more than a thousand years, gives Chinese citizens a formal avenue for lodging complaints.) Marquis and Bird then assessed the relative capacity of local bureaucracies by taking into account protection of property rights, judicial effectiveness, and the efficiency of public administration. Finally, they studied the development of local media through two established measures, the Media Marketization Index and the China Media Development Index; these look broadly at consumer base, market penetration, and profitability. Taking this data together, they analyzed how protests and petitions influenced the likelihood of a firm being penalized in provinces with varying levels of government and media efficiency.
+“Civil society actions are enhanced in areas where the government and media are more developed. Ironically, privately communicated information is used in ways to constrain society’s ability to get what it wants.” — Professor Chris Marquis
+Marquis and Bird found that civil protests are especially effective at driving reform in provinces where both the local government and the media function well. These structures appear to bolster the power of the protest and make it more likely that the company being targeted, as well as other local firms in the same industry, will be penalized. “In many ways, this is what one would hope — civil society actions are enhanced in areas where the government and media are more developed,” says Marquis. However, when looking at how petitions affect change, he and Bird found that their effect on penalties is dampened in areas with well-run local governments and media.
+“The effect of protest on environmental quality is amplified because of the better-performing government and because of better mechanisms to communicate the issues,” Marquis says. Petitions, unlike protests, are not aired in public. So governments can use petitions as private feedback to manage their own environmental image as opposed to addressing the underlying issues by penalizing firms. “Thus, ironically, such privately communicated information is used in ways to constrain society’s ability to get what it wants,” says Marquis. In essence, well-run governments sweep environmental petitions under the rug.
+The contrast between these results flows from what Marquis and Bird call the “paradox of responsive authoritarianism.” Over the last several decades, China has selectively opened itself to public appeals for reform, creating a delicate balance between responding to these appeals and maintaining centralized authority; between the practice of tolerance and the exertion of control. Because public protests break free of government control, and because the media can draw attention to them, local environmental protection bureaus respond both swiftly and relatively severely to maintain legitimacy in the public eye — they make a show of addressing the problem. Conversely, when petitions are submitted to local governments, those that are run more effectively can translate complaints into narrow solutions and milder penalties, thus letting off steam without triggering widespread grievances.
+Marquis highlights two key insights from this research. First, while the news media in China still regularly upholds authoritarian systems, vociferous civic activism can push media to highlight the need for change. Second, the research builds a more thorough understanding of regulatory risk for companies operating in authoritarian states, which play an increasingly prominent role in the global economy. Taking into account the distinct balance that regimes strike between liberalization and control, notes Marquis, along with the effectiveness of governance and media, can offer insights into business vulnerability in authoritarian contexts like China.
+Marquis and Bird’s paper
+was recognized by Responsible Research in Business and Management
+(RRBM) and the International Association for Chinese Management Research as one of eight finalists for the 2019 IACMR-RRBM Award for Responsible Research in Management, an award that “recognizes excellent scholarship that focuses on important issues for business and society using sound research methods with credible results.”
+Illustration by John Krause/ The I Spot.com
+In this article
+Article Information
+Categories
+Energy & Sustainability
+Policy & Advocacy
+Related Stories
+November 5, 2026
+Climate Week NYC 2026: Mobilizing for the environment
+Accounting, Economics & Finance
+Energy & Sustainability
+Policy & Advocacy
+November 5, 2026
+A new financial era requires an updated system
+Energy & Sustainability
+Global Development & International Business
+Policy & Advocacy
+October 28, 2026
+People over profit: The case for business reform
+Policy & Advocacy

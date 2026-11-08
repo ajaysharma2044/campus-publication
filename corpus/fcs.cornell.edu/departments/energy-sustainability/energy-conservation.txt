@@ -1,0 +1,44 @@
+URL: https://fcs.cornell.edu/departments/energy-sustainability/energy-conservation
+TITLE: Energy Conservation | Facilities and Campus Services
+FETCHED: 2026-11-06
+
+Energy and Sustainability
+Energy Conservation
+The cheapest and cleanest energy is that which is not used
+Using energy efficiently, conserving energy and materials will reduce Cornell's energy use and greenhouse gas emissions and is the focus of Energy Management.
+Our goal is to cost-effectively minimize Cornell's energy use and associated environmental impacts. Our Energy Management staff work to identify and implement conservation-focused outreach, maintenance, energy studies, and capital projects to meet the university's needs with less energy use.  The program includes all the Ithaca, NY campus, Geneva Experiment Station and other off-central campus facilities in the region.
+The Ithaca campus includes over 14 million square feet, and campus facilities are dominated by high technology research and teaching complexes, requiring complex mechanical and electrical systems to support these missions. Energy use is fully metered in all campus buildings, and energy systems are managed by Building Automation and Control Systems (BACS) connected to a central monitoring and control system. University design and construction standards provide guidance to engineers, architects, designers, and maintenance staff on how to minimize energy use. [All features included in the buildings are added based on their need and value for the program or New York State Energy Code, and their ability to pay for themselves in energy savings.]  Cornell has been an award-winning innovator in energy efficiency for decades, and adoption of a Kyoto compliance goal in 2001 and a 2009 Climate Action Plan roadmap with a goal to reach climate neutrality by 2035 will ensure innovation continues until that latest visionary goal is met.
+Energy Metering
+Public access to historical metered usage and real-time meter data is a powerful enabler for conservation. Full metering of central energy plant production and building energy use is critical to tracking and cost-effectively minimizing energy usage.
+Building Energy Use Data
+(exits to EMCS dashboard)
+Curious about specific building energy use? Like data and trend analysis? This is the place!
+Energy Conservation
+Dramatic and lasting conservation results are achieved by continuously optimizing our building automation and control systems, heat recovery systems, and lighting systems.
+Energy Fast Facts
+Energy Fast Facts contain the energy production, consumption, and emissions associated with the central energy plants from 1998 to the current year.
+Campus Energy Metrics
+Central Energy Plant and Entire Campus Energy Metrics are produced annually.
+Building Automation and Control Systems Integration (BACSI)
+The controls in building energy systems are the brains controlling our indoor environment. They are critical to providing the most efficient operation of the energy system components.
+Quick Links
+How Can You Make a Difference?
+(Click on images below)
+Contact Us
+Michael Boggs
+– Metering Program Coordinator
+607/255-5310
+mtb4@cornell.edu
+Jason Collins, EMIT
+– Energy Project Coordinator
+607/254-4728
+jdc388@cornell.edu
+Samuel Fairchild, CEM
+– Energy Engineer
+607/254-2352
+svf9@cornell.edu
+131 Humphreys Service Building
+Ithaca, NY 14853
+Tools
+The EMCS portal provides access to real-time energy consumption for campus buildings, electric generation from our solar photovoltaic electric systems, central energy plant electric generation, and weather data.
+The Building Dashboard provides contextualized real-time utility data in a transparent effort to reduce the campus’ energy consumption and carbon footprint. It also provides information about campus sustainability initiatives, energy conservation tips, and an interactive discussion board.

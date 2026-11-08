@@ -1,0 +1,97 @@
+URL: https://alumni.cornell.edu/article/xr-is-the-future/
+TITLE: XR is the future - Alumni, parents, and friends | Cornell University
+FETCHED: 2026-11-06
+
+XR is the future
+Milan Fashion Week in September 2020 featured avatars like this one, modeling in a virtual space.
+By
+Linda Copman
+April 14, 2021
+Extended Reality, or XR, uses a variety of computer technologies to immerse the viewer in a virtual experience. These technologies provide viewers with more information—to enhance their senses and transport them more fully into the virtual environment. Viewers may employ special eyewear, headsets, or handheld devices, or simply view the XR-enhanced content on their phone or computer screens.
+One of pioneers of the XR revolution is Nonny de la Peña, a journalist who has been named “
+the Godmother of VR
+” by
+Engadget
+, and the founder of
+Emblematic Group
+.
+“What if I could present you a story that you remember with your whole body and not just your mind?” —Nonny de la Peña, founder of Emblematic Group
+On April 8, Nonny de la Peña shared her story in a focus talk,
+Embodied Narratives: Engaging the Future of Immersive Content
+, produced by eCornell. The talk was co-sponsored by the
+Milstein Program in Technology & Humanity
+at Cornell and the
+Digital Arts Program at Hamilton College
+. Anna Huff, assistant professor of digital arts at Hamilton, moderated the event.
+Standing on the verge of an XR revolution
+Extended Reality (XR) includes Augmented Reality (AR), Virtual Reality (VR), and Mixed Reality (MR). These technologies are already changing the online marketplace by allowing consumers to upload photos and try out different paint colors or furniture in their living rooms, or try on different shoes or jewelry on simulated versions of their actual bodies.
+According to
+Forbes
+, the field of XR is projected to
+expand eightfold by 2022
+.
+Forbes
+writer Bernard Marr says, “this tremendous growth could mean the realities of our 2030 lives are beyond our imagination’s ability to grasp.” The technology is poised to change everything from how we learn, to how we interact in the workplace, to how we communicate.
+“We are at the beginning of this XR moment,” Nonny says. “I see this really growing movement to bring this into the curriculum. Hamilton is committed and the Milstein program is way ahead,” she adds.
+Coming full circle back to Ithaca
+Nonny’s XR journey grew out of her desire to bring the audience closer to the heart of the story. She started her career in journalism, as a reporter for
+Time
+and
+Newsweek
+. For one of her early pieces, “Hour by Hour: Crack,” she spent 24 hours in a crack den in order to capture the details that would bring the reader into the scene with her.
+Newsweek “Hour by Hour: Crack” cover
+She says that her desire to bring the audience closer to the story motivated her to begin experimenting with XR technologies. “With VR, I can give people the view from the ground, so you feel that you’re in the middle of something you’re watching on TV. I call this immersive journalism,” she says.
+Nonny shares that her first foray into the field began in Ithaca, where her husband was working as a faculty member at Cornell. She wanted to bring the viewer into the cell of a prisoner at Guantánamo Bay detention camp. In 2007, she received funding from the MacArthur Foundation to create “
+Gone Gitmo
+,” a game in which the player’s VR-powered avatar enters a simulated cell at the camp.
+A scene from “Gone Gitmo” video game
+Gone Gitmo, released in 2009, was one of the first examples of XR-powered storytelling. Details in the simulation are based on interviews with former prisoners and archived video footage. It allows players to experience firsthand how detainees might feel as they lose their civil liberties.
+“That launched my career,” Nonny says. “The first ideas of immersive journalism were born in Ithaca, and it’s great to bring this story full circle back to Ithaca,” she adds.
+Bringing attention to the issues
+Nonny’s desire to bring attention to the issues that matter to her has taken her from crack dens, to prison cells, to under the ice of melting glaciers. Over the 12 years since Gone Gitmo, Nonny has been at the cutting edge of developing the technologies to enable audiences to witness a narrative from the inside, as if they were there firsthand.
+A scene from “Hunger in Los Angeles”
+“
+Hunger in Los Angeles
+” brings viewers into the experience of a man who falls into a diabetic coma after not getting enough to eat.
+Nonny 3D-printed her own goggles and trackers in order to create “
+Use of Force
+,” which brings audience members into a scene where they witness border patrol officers beating a handcuffed migrant, Anastasio Hernandez Rojas. “The real case got no attention,” Nonny says, “but after we made this piece in 2015, we got nearly a million views. This was the only medium I could use that created attention about this issue,” she adds.
+I’m giving people the tools to tell their own stories.
+—Nonny de la Peña, founder of Emblematic Group
+A scene from “Out of Exile: Daniel’s Story”
+“
+Out of Exile: Daniel’s Story
+” brings viewers into the experience of Daniel, an LBGTQ youth whose family throws him out of their home when he comes out to them. Nonny explains that about
+40 percent of homeless youth in the U.S. identify as LGBTQ
+. She says that she made this piece in close collaboration with Daniel, so that the audience could feel his experience. “If you’re there, you connect with Daniel and you feel physically vulnerable in a way that you would not without this technology,” she says.
+A scene from “Greenland Melting”
+Nonny has also used XR technology to bring audience members face to face with the impact of climate change on glaciers, in “
+Greenland Melting
+.” Viewers experience a virtual helicopter ride over the glaciers and then submerge under the surface to see how warming ocean currents are melting the ice. “Putting you there with the scientists who are taking these measurements helps you understand that these are not people making things up. This is real, and you are there with them,” she explains.
+Among other projects, Nonny is currently using XR technologies to create a simulation of
+Mary Katharine Goddard signing the Declaration of Independence
+for the
+National Women’s History Museum
+in Washington, D.C.
+Reaching into the future
+Nonny and her colleagues at Emblematic Group recently launched a WebVR platform called
+REACH
+. The platform is available to anyone to use, free of charge, and requires no special tools or coding knowledge.
+Screenshot of REACH platform
+The platform allows users to create their own room-scale VR. The name conveys Nonny’s hope that this tool will allow users to reach into the future—where, she says, “the stories we tell are as real as they feel.”
+She says that she is bootstrapping this effort, with the hope of diversifying the XR space. “I’m giving people the tools to tell their own stories,” she says. “We are giving future leaders the chance to play with the tools. The hope is that, as we grow in this space, our leaders will better reflect our country.”
+Person wearing VR goggles and holding a tracker
+Nonny remarks on recent research into how the tools we use create changes in our brains. She cites a few examples showing that people who frequently play the violin or use a hammer experience distinctive changes in their brains. She suggests that using a VR headset might produce similar changes.
+“Computers are changing things,” she says, “and the way we experience content will change us.”
+Nonny believes that XR technologies do something that activists say we need to do more of in the current cultural moment. “Rather than saying we should look away, they are saying we should look at what’s going on in the George Floyd trial. By doing so, we are not just being voyeuristic,” Nonny says, “but rather, we are becoming more aware of his experience.”
+Watch the recorded keynote
+. Experience the best of Cornell live and on demand. Check out upcoming
+eCornell keynotes
+.
+Categories
+Alumni news
+Learning
+Tags
+Alumni Affairs
+Cornell Tech
+eCornell

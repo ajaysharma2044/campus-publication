@@ -1,0 +1,92 @@
+URL: https://news.cornell.edu/stories/2023/04/shapeshifters-can-buildings-behave-organisms
+TITLE: Shapeshifters: Can buildings behave like organisms? | Cornell Chronicle
+FETCHED: 2026-11-06
+
+Credit:
+Sabin Design Lab/College of Architecture, Art, and Planning, and the DEfECT Lab, Arizona State University.
+This rendering is an example of the type of bio-informed responsive architecture that a team of Cornell researchers and their colleagues hope to create using design parameters based on morphogenesis. The rendering is of the Agrivoltaic Pavilion, part of the project Sustainable Architecture & Aesthetics, which was funded by the Grainger Foundation.
+Biomedical engineer Jonathan Butcher never thought he could learn how to fix cardiac malformations by analyzing brain cancer or plants.
+But that’s exactly what he and a team of Cornell researchers and their colleagues aim to do, with
+a five-year, $3 million grant from the National Science Foundation
+.
+The project reimagines the convergence of architecture and biology to understand how organisms create internal structures – and to inform a new approach to architecture.
+They plan to study how plants, fetal chick hearts and adult brain cancers create forms like leaves and ventricles, and they’ll use the organisms’ process to create a living, breathing building façade that reacts to its environment in real time, like an organism.
+Their work could help create climate-adaptable plants, prevent heart defects, treat brain cancer and design more sustainable buildings.
+“Our overarching goal is to see if there are common rules that apply across plants and animals, through which shape and size emerge from the interaction of the cells
+,” says
+Adrienne Roeder
+, the lead principal investigator (PI) of 13 researchers spanning plant biology, biomedical engineering and architecture from Cornell,
+Tuskegee University and the University of Minnesota.
+Credit:
+Jonathan Butcher/Cornell Engineering
+This spatial transcriptomic map shows different cell phenotypes within a slice of an embryonic chick heart. The orange are cells that make up the valves inside the heart (mitral and tricuspid); the cells at left make up the wall of the left ventricle. Each dot represents a different cell with up to 10,000 genes that are measured.
+“How does a plant cell know how to make a leaf? How does it know how big it should get? How does it know how to interact with its neighbors to make the leaf the right shape? It’s those kinds of questions that we’re really interested in,” Roeder says.
+The project upends the traditional genetic approach that is more widespread in biology, says
+Butcher
+, professor in the
+Meinig School of Biomedical Engineering, part of Cornell Engineering.
+Rather, they’re looking at a meso-scale – a cellular community with a higher level of organization than genes, but a lower scale than organs.
+“The cellular building blocks are very dynamic, and they’re exhibiting important signaling information at that scale that’s not captured in any gene profiling,” he said.
+And the project is unusual in the equal weight it places on architecture and biology. Throughout the research, architects, including Sasa Zivkovic, senior personnel and assistant professor in architecture, will analyze and model the biological data, with 3D prints, prototypes of materials and forms based on the biological process of morphogenesis, or the emergence of form, says
+Jenny Sabin
+, co-PI and the Arthur L. and Isabel B. Weisenberger Professor in Architecture, and the inaugural chair of the new multicollege Department of Design Tech in the College of Architecture, Art and Planning.
+“We’re able to bring a spatial way of thinking and a set of technical skills to the data through modeling that isn’t part of the biological science,” Sabin says. “We’re distilling and extracting from the data a rule of life that we could then translate across multiple biological systems and then bring into architecture.”
+Iteration
+The researchers hypothesize all organisms, from plants to animals, create internal structures in the same way: Their cells interact over and over in cycles of iteration as they respond to the mechanical forces in their environment. For example, external mechanical forces include blood pressure and tissue stiffness in chick hearts, and rain and wind on buildings. Internal mechanical forces include the pressure a growing tumor puts on a brain or the pressure of water on the cell wall of a plant due to outside pressures such as drought and soil salinity.
+With each iterative cycle, the cells respond by altering their state, growth, movement, adhesion and more until they morph into a new form, like a ventricle in a heart or a flower in a plant. That iterative process can inform new ways of designing and fabricating architecture, they believe.
+To test that hypothesis, their first step is to understand the mechanical properties of the cells in the biological systems they’re targeting.
+For the plant systems, Roeder is manipulating the flowers of Arabidopsis, also known as thale cress, which is closely related to canola, broccoli and cabbage and which is an established as a model for biological research. Meanwhile, colleagues at Tuskegee University, led by co-PI Marceline Egnin, will explore
+the plant’s somatic embryos and their ability to regenerate and orchestrate the development of a whole new plant from scratch.
+Colleagues at the University of Minnesota, led by co-PI David Odde, will tackle the glioblastoma work, while co-PI Butcher leads the chick heart work.
+Across all three organ systems, they’ll test how the cells in each system react to the mechanical aspects of their environments, using
+a microscope invented by
+Steven Adie
+, associate professor in the Meinig School. The technique – optical coherence elastography – p
+rovides a high-resolution 3D “palpation” by mechanically perturbing a sample and precisely imaging the corresponding displacements.
+The second step is to see whether cells adapt to the mechanical stress by changing gene expression, by assessing which genes turn off and which turn on. They’ll work with
+Iwijn De Vlaminck
+, associate professor in the Meinig School, who will use spatial transcriptomics to assess what every cell in a tissue is and what it is trying to do, Butcher says.
+“W
+e now have essentially a really rich census of the social community,” he says. “So we get to know what each cell does every day and how good they are at it, and how these communities are connected in places that form certain tissues.”
+Third, they’ll tag each biological system with up to seven fluorescent markers and watch them develop in a process called hyperspectral multiphoton microscopy as the organisms generate shapes in varying environments.
+Chris Schaffer
+, professor in the Meinig School, pioneered the technique and image analysis and will direct the use of the technology. The results will suggest how the growth, division and movement of cells, over cycles of iteration, eventually morph into a robust form.
+“We can track a bunch of different biological properties at the same time,” says Roeder,
+associate professor in Section of Plant Biology in the School of Integrative Plant Science, in the College of Agriculture and Life Sciences and at the Weill Institute for Cell and Molecular Biology.
+“How do cells grow and respond to mechanical stress? How do they create new shapes? And how is that shape more resistant to the mechanics?”
+The team believes mechanical forces – together with gene circuits – encourage a complex tissue to make decisions collectively to create new structures or take a certain shape. “We now have what could be a very simple yet elegant way of cells being able to interrogate their environment, and decide ‘we need to speed up growth,’ or ‘we need to stop growing,’” Butcher says. “In that way, you could have different chambers of the heart able to grow a little faster or slower than each other, but overall converge to this robust structure.”
+The different properties of each target organism – plants, glioblastoma and chick hearts – are each helping the team understand the process of morphogenesis.
+For example, hearts have a surprising amount of variability when they are very young, in the embryonic stages. Some are big, some are small, with different regions growing faster than others, Butcher says. “But 99% of the time, it converges to the same general size, same composition, same functional architecture.”
+But glioblastoma is the opposite. It starts in a structure – the brain – that is already fully formed and homogeneous. The cancer breaks that homogeneity, generating variable cells that become more and more variable as the tumor grows unconstrained.
+Whereas the embryonic heart starts highly variable and becomes extremely constrained, the glioblastoma starts highly constrained and ends up extremely variable, Butcher says. “And in the middle of that, you have plants that have a continuous cycle of generating variants and utilizing its variations to be able to survive in various conditions and weather patterns. So a plant one day can be engineered to make more leaves, or flowers.”
+In each organ system, the cellular collectives are interrogating their environmental signals to make decisions on what to morph, Butcher says. “If we could learn these rules, we might be able to twist these levers to achieve a different response by either changing the environment or changing the sensitivity of the cells to that environment.”
+The architecture team will probably elaborate these rules better than biologists or engineers, Butcher says. “They have a design language that engineers don’t have, that deals with spatial perspective, form and order and function, causality – very much biological terms, but within the built environment. They can do amazing things with an array of those different design principles, that I think is going to unlock a really interesting set of new knowledge.”
+Responsivity
+Imagine a building with a living, breathing skin that could cool itself in the heat of the day by creating a window on demand, or changing color, or shifting from transparent to opaque to block UV rays.
+That’s the type of responsivity to the environment that Sabin envisions from the project’s fourth phase.
+“One of the fundamental questions that drives both my core research and also what I do in practice is, how might buildings behave more like organisms, responding to and adapting to their local contexts? And that is very much at root in this project,” Sabin says.
+But what exactly the building façade will do, what it looks like, how it is made and what it is made of will depend on the biological data they collect.
+For example, in Arabidopsis, plant growth partially occurs because of the presence of auxin, a type of growth hormone. Sabin envisions swapping out auxin in the biological systems for, say, façade materials that are responsive to sunlight and that would morph based on the path of the sun in the sky, and using that factor to constrain their designs.
+“We are definitely not looking at these datasets, which are oftentimes exquisitely beautiful, and then translating that into an architectural form,” Sabin says. “But through deep inquiry, [we’re] looking at the processes and behaviors and applying that thinking to architecture. So it’s much more of a synthesis, as opposed to a direct, formal mimicking.”
+After analyzing and modeling the biological data, they’ll create prototypes and models based on the biological processes the team has detected. They’ll construct the facade on campus in the project’s last phase.
+Credit:
+Jenny E. Sabin/College of Architecture, Art and Planning
+This piece, Branching Morphogenesis, explores fundamental processes in living systems and their potential application in architecture. It is by Sabin+Jones LabStudio, 2008; Jenny E. Sabin, Andrew Lucia, Peter Lloyd Jones; originally on view at the Design and Computation Gallery, SIGGRAPH 2008 and subsequently at Ars Electronica, Linz, Austria, 2009-2010.
+Sabin believes the project will create “a complete rethinking” of ecological design models and aspects of sustainability, “where we’re not focusing on resource consumption but really thinking about how the building itself can be a living and breathing entity, in a very integrated and reciprocal set of relationships with the local environment,” she says.
+And the project could offer insights into how other emergent systems work, from stock market crashes to weather patterns and wars, diseases and agricultural problems, Roeder says.
+“We can understand what the parts are doing. But trying to understand how they give rise to these larger overarching patterns is really difficult,” she says. “If you understand how things work, you can tweak the system. But we’ve got to understand what’s going on first.”
+Susan Kelley is features editor at the Cornell Chronicle.
+Architecture & Design
+Food & Agriculture
+Physical Sciences & Engineering
+Features
+Media Inquiries
+Media Contact
+Becka Bowyer
+rpb224@cornell.edu
+6072204185
+Get Cornell news delivered right to your inbox.
+Subscribe
+You might also like
+Cornell students help Tarrytown envision waterfront future
+Returning solar panel production to US eases climate change

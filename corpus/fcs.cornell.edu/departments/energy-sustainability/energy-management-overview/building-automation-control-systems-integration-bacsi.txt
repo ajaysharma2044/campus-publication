@@ -1,0 +1,93 @@
+URL: https://fcs.cornell.edu/departments/energy-sustainability/energy-management-overview/building-automation-control-systems-integration-bacsi
+TITLE: Building Automation and Control Systems Integration (BACSI) | Facilities and Campus Services
+FETCHED: 2026-11-06
+
+Energy Conservation
+Building Automation and Control Systems Integration (BACSI)
+Building Automation and Control Systems Integration (BACSI)
+The Building Automation and Controls Systems Integration (BACSI) group has, historically, been called "Energy Management and Control System (EMCS) Management" since our major task has been to support the EMCS in all its facets, including design, installation, networking, user interfaces, databases and operations.
+"BACS" refers to:
+Microprocessor-based computers are used to meter, monitor and control the whole range of building systems.
+These include heating, ventilating, air-conditioning, refrigeration, lighting, fire and smoke control, utilities, elevators, access control, intrusion detection, etc. At Cornell, elevators, access control and intrusion detection are in other jurisdictions, although the systems themselves are still in the realm of "BACS."
+BACS computers have these characteristics:
+Use vendor-provided, non-Microsoft operating systems.
+Are configured and programmed using proprietary software.
+Attach to building systems via sensors and actuators.
+BACS computers are most akin to the Programmable Logic Controllers used in industrial process control.
+The purposes of "BACS integration" are:
+To present a unified alarm interface, regardless of originating device or communication protocol.
+To allow graphics and trends to show related data, again from any device in the system.
+To provide emergency access to information that is normally viewed elsewhere, e.g., utility system data.
+BACSI's users include:
+EMCS Operations
+Control Shop
+Energy & Sustainability's Energy Conservation Initiative
+Building Operating Personnel
+Increasingly, the Campus Community
+BACSI's Projects and Goals
+Reduce the vulnerability of critical building systems.
+Our campus BACS infrastructure is widely distributed. We have equipment in over 200 buildings and maintain more than 300 networks. Several communication faults in the past few years have pointed out the need to provide more comprehensive and real-time monitoring of remote network conditions. Some of the measures we have taken, or are in the process of taking, include:
+Improve VLAN segregation of critical buildings
+Provide remote monitoring of VLAN BACnet traffic
+Provide more flexible and continuous monitoring of traffic in our EMCS computer room
+Provide dedicated VPN capability for vendors on large projects prior to commissioning
+Improve EMCS infrastructure.
+This is an ongoing goal and, in essence, is one of continuous incremental improvement. Some of the specific challenges are:
+Refine existing EMCS database to allow for easier access to related data items
+Provide better cross-references for each point in the system so that any changes (e.g., a name change) can be more readily tracked and affected graphics, trends and other calculated points can be updated accordingly.
+Develop more systematic training materials for all software tools and building automation systems
+Make use of VMware virtualization to increase system availability in the face of various outage scenarios
+Better diagnostic tools for EMCS operators.
+Significant progress has already been made in this area, but there is always room for more. For example, we recently installed monitoring of the individual circuit breakers at all three major campus electrical substations, Kite Hill, Campus Road and Plantations Road. This allows the operators to immediately determine the fault station of the distribution circuits in the event of isolated power outages.
+Develop "expert system" rules for diagnosing building alarms and suggest possible/likely causes for alarm conditions
+Continue to improve integration with existing Facilities Services databases
+Provide improved campus map display with utility overlays and critical values (CW DP, steam pressures, etc.)
+Color code buildings to show the presence of alarms, excessive energy use, etc.
+Fault Detection and Diagnosis (FDD).
+We currently have trended or "interval data" for nearly 25,000 BACS points (temperatures, pressures, flows, statuses, etc.) in nearly 2,500 trend displays. We need to be able to automate the process of reviewing this data to determine current or potential problems. Many algorithms are suggested in the literature. For example:
+Setpoint deviations of controlled variable (amount and duration)
+Status deviations (device is on/off, should be off/on)
+Steam or chilled water reduction (lack of sufficient heating or cooling)
+Improve public access to data.
+An important goal is to provide the campus community with easier access to our BACS data, particularly in the area of energy use. To that end, we have developed a freely accessible "portal" at
+portal.emcs.cornell.edu
+. The portal provides:
+Provides electric, steam and chilled water graphs and near-real-time values and costs intended to incentivize energy conservation
+Allows for the download of daily, weekly, monthly and yearly datasets in tab-delimited, comma-separated-value or MS-Excel spreadsheet formats.
+BACnet
+.
+BACnet
+is a standard data communication protocol for building automation and control networks that has been developed by the American Society of Heating, Refrigerating and Air-Conditioning Engineers (
+ASHRAE
+) with strong input from BACSI personnel. We use BACnet to network all of our new computerized building monitoring and control systems and have developed the necessary software interfaces to accomplish this objective. We are also continuing to support the ongoing ASHRAE effort to maintain and enhance the standard.
+BACSI and EMCS Operations are both located at the Julius F. Weinhold Chilled Water Plant on Beebe Lake.
+Quick Links
+Energy Management and Control System
+Project Manager Info
+Contact Us
+Joel Bender,
+Software Engineer V
+Chilled Water Plant I – Weinhold
+607-255-8880
+jjb5@cornell.edu
+Steve Mandl,
+Applications Programmer IV
+Chilled Water Plant I – Weinhold
+607-255-8010
+sjm34@cornell.edu
+Bob Wise,
+Network Engineer II
+Chilled Water Plant I – Weinhold
+Ithaca, NY 14853
+607-255-6641
+rw17@cornell.edu
+Ken Lassey,
+Systems Administrator
+Information Technology
+Chilled Water Plant I – Weinhold
+Ithaca, NY 14853
+607-255-4098
+kal43@cornell.edu
+Tools
+BACnet
+Facility Smart Grid Information Standard

@@ -1,0 +1,22 @@
+URL: https://www.library.cornell.edu/about/staff/central-departments/information-technology/
+TITLE: Information Technology – Cornell University Library
+FETCHED: 2026-11-06
+
+Cornell University Library Information Technology (CUL-IT) is responsible for user-facing and internal IT systems in support of the Library’s mission. CUL-IT activities include: support for individual and public computers; IT security; IT project management; core services such as the library catalog; management and integration of external services; design, development and maintenance of websites and software applications; user experience design and accessibility; scholarly communications; and repository systems for access and preservation.
+CUL-IT staff are part of
+IT at Cornell
+, collaborate closely with other library units, and engage in national and international library IT initiatives. As part of the IT at Cornell model, CUL-IT Director Debra Howell has a dual reporting relationship to Chief Information Officer Ben Maddox and to Associate University Librarian Simeon Warner.
+Managerial Staff
+Information Technology
+Debra Howell, Director
+Computing & A/V Services
+Peter Magnus, Manager
+Library Computing and AV Services (CAVS)
+Library Systems
+Greg Delisle, Manager
+Software Development
+Philip Robinson, Assistant Director
+Library Applications Development
+Jesi Buell, Manager
+Digital Lifecycle Services
+Michelle Paolillo, Manager

@@ -1,0 +1,70 @@
+URL: https://www.library.cornell.edu/get-help/disability-services/
+TITLE: Disability Services – Cornell University Library
+FETCHED: 2026-11-06
+
+We are committed to providing accommodations for patrons with disabilities. Please contact Library Disability Services at
+LibraryDisabilityServices@cornell.edu
+if you need assistance in accessing our library facilities, materials, and services. You can also find additional resources, including
+BookShare
+, at
+Student Disability Services
+.
+Assistive Technology in the Library
+All of our public computers include assistive software, Adobe Creative Suite, NaturalReader plug-ins for Chrome, and NVDA screen-reading software. Adobe Creative Suite includes Adobe Acrobat Pro for creating accessible PDFs; you must create a free Adobe ID (which doesn’t have to be attached to your Cornell NetID) in order to use Adobe Creative Suite. For advanced PDF accessibility, look for the libraries below with ABBYY FineReader PDF.
+Some of our libraries include different types of Assistive Technology. You do not need to identify as a person with disabilities in order to use this equipment; this equipment is available to anyone who wants to use it. For a full list of which libraries have the
+Sensory Lending Library items
+,
+please view the Neurodiversity at Cornell website.
+Catherwood Library
+has 3 adjustable height tables, including one with a color e-ink monitor and ABBYY FineReader PDF software. Noise-cancelling headphones are also available for checkout (ask at the circulation desk), and the reference office and lobby have fidget toys. Sensory Lending Library items include passive noise-blocking earmuffs, visual timers, weighted lap blankets, light and sound machine, and light shades.
+John Henrik Clarke Africana Library
+has an adjustable height desk and a laptop riser available for all students.
+Mann Library
+has an Assistive Technology workstation, which consists of two computers; one computer with a Braille Printer and associated software (
+instructions for the Braille Embosser
+), and a second computer with a scanner and ABBYY FineReader PDF software. They also have an Assistive Laptop with Dragon Naturally Speaking (ask for it at circulation). Mann has a
+Sensory Study Room
+available for reservation, which includes a black and white e-ink monitor, adjustable lights, comfortable chairs, and an adjustable height table. There are also e-ink Android tablets, laptops, and noise-cancelling headphones available for checkout. Sensory Lending Library items include passive noise-blocking earmuffs, weighted blankets, visual timers, to-do list, light and sound machine, fidget toys, and light shades.
+Mui Ho Fine Arts Library
+has some Sensory Lending Library items available, including visual timers, noise-cancelling headphones, passive noise-blocking earmuffs, weighted lap blanket, light and sound machine, and light shades.
+Olin Library
+has a Merlin text magnification LCD screen, noise-cancelling headphones, and a scanning computer with ABBYY FineReader PDF software in room B12. Olin also has a printer on a low table for easy accessibility and other scanning computers with different software available for students.
+Sidney Cox Library of Music and Dance (Music Library)
+has noise-cancelling headphones for use in the library. Sensory Lending Library items include passive noise-blocking earmuffs and visual timers.
+The Flower-Sprecher Veterinary Library
+has some fidget toys available for vet students to keep. Sensory Lending Library items include fidget toys and visual timers.
+The Law Library
+has an assistive laptop with the Legal version of Dragon NaturallySpeaking software (ask for it at circulation; you may need to reserve it ahead of time). Use is limited to Law School students and faculty. Sensory Lending Library items include visual timers and light and sound machine. There is a video magnifier and scanner in the reading room, as well as two laptop risers.
+HathiTrust Equitable Access
+In participation with HathiTrust, Cornell University Library provides access for eligible patrons with print disabilities to items within the
+HathiTrust Digital Library
+. Access is facilitated through a proxy. If you wish to use this service, please refer to the
+Patron Guide to Equitable Access for Books in HathiTrust (PDF)
+for step-by-step instructions, and contact the Library’s proxies through
+CUL-HTPROXY-L@lists.cornell.edu
+.
+Definitions:
+Eligible patron
+: an affiliated user at a supporting institution who has a print disability for which access to digital copies of library books is a reasonable and appropriate accommodation.
+Print disability
+: a disability, such as a visual impairment, learning disability, physical disability, or other disability that impedes access to printed content in the standard way.
+Proxy
+: a representative designated by a HathiTrust Supporting Institution who accesses in-copyright content on behalf of an eligible patron.
+Additional Services
+We offer the following services to help you use the library effectively:
+ScanIt
+:
+Library staff will scan a book chapter or journal article and send it to you as a PDF via email to view on your own computer.
+Library-to-library book delivery:
+You can request that materials be paged and sent to the library of your choice.
+BorrowDirect
+: If Cornell does not own a particular book that you would like access to, or Cornell’s copy is checked out to someone, you can search for the item in BorrowDirect. BorrowDirect is a shared database of 12 partnering institutions that share materials by shipping them rapidly to one another for a 56-day loan period. Turnaround is usually 1 week or less.
+Interlibrary Loan
+: Materials that Cornell does not own and that are not available through BorrowDirect can be requested through Interlibrary Loan.
+Private study or work spaces
+: In some of our libraries, privately assigned study desks are available for semester-long use. Please check with each
+individual library
+for more information.
+Disability Studies resource guide
+:
+Information about the accessibility of library resources, finding information about disabilities, making research more accessible, and suggested reading lists.

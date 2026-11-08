@@ -1,0 +1,166 @@
+URL: https://international.globallearning.cornell.edu/administrators/visa-sponsorship/submit-visa-request
+TITLE: Submit Your Visa Request | International Services
+FETCHED: 2026-11-06
+
+Submit Your Visa Request
+Ready to submit your visa request?
+This page provides the know-how you need to complete Step 1 of the
+Sponsorship Process
+and then manage the remaining prearrival steps. Before you read more, please review the sponsorship process and who is responsible for each step.
+In Step 1, your department or unit confirms the academic appointment, funding, employment eligibility, and employment dates with the scholar. Then you or an authorized representative of your department creates a record for the scholar if needed and completes the first section of the visa request in myStatus.
+What is myStatus?
+MyStatus is Cornell's
+international case management platform. It is integrated with the Department of Homeland Security's
+Student and Exchange Visitor Information System
+(SEVIS)
+for federal compliance.
+International Services uses myStatus to process visa requests, manage immigration records, and maintain compliance for all Cornell-sponsored international scholars and students. We also rely on it to communicate with our international population and generate reports.
+Department administrators play a key role in myStatus by initiating most visa requests—such as J-1, H-1B, O-1, and permanent residency requests—on behalf of incoming and continuing international scholars. In myStatus, you can review the department's current and closed cases and see your scholars' immigration documents.
+Step 1: How Departments Initiate a Request
+We recommend starting Step 1 of the
+Sponsorship Process
+as early as possible
+—particularly if your incoming scholar is based outside the United States. Learn more about factors related to the
+incoming employee's location
+.
+O-1 requests
+: O-1 cases begin with a consultation. International Services reviews the applicant's materials before the department submits the visa request.
+Access myStatus
+Create Record
+Complete Forms
+Pay Fee
+1
+Access myStatus and orient yourself.
+When you
+log in to myStatus
+, you'll see a "tasks" section of the homepage featuring common requests. For example, you can "add new scholar or employee"—you'll select this when you have new scholar without a Cornell employee ID. From the homepage, you can also initiate and submit visa sponsorship requests and pay fees for Cornell-sponsored USCIS petitions.
+2
+Create a myStatus record for your new scholar.
+The incoming employee needs a myStatus record before you can open a visa request. If your new scholar already has a seven-digit employee ID assigned during Cornell onboarding, you can skip this step. Use the employee ID number to start the visa request.
+In many cases, new employees may not yet have Cornell employee ID numbers. That's okay! You can create a temporary ID in myStatus and use it to initiate your request. Go to
+add new scholar or employee
+and complete the temporary ID form. Here's what the form requires.
+Temporary myStatus ID for New Employees
+Create a temporary ID only if the new employee has not yet received a seven-digit Cornell employee ID. Provide all personal information as it appears on the individual's passport:
+Last name
+First name
+Middle name (if any)
+Date of birth
+Gender
+Cornell campus (Ithaca, Cornell Tech, etc.)
+Email address (address where myStatus notifications will be sent)
+3
+Complete and submit the request forms.
+In myStatus, you'll find request options for various visa types and situations. Select the appropriate request for your scholar, and complete all forms within the request. After you submit the department forms, you'll get an email from myStatus acknowledging receipt, and the employee will get a myStatus invitation to complete the scholar section.
+Here's a general overview of information departments provide for some common requests.
+Initial J-1 Visitor and J-1 Transfer-in Requests (Professors, Researchers, and Short-term Scholars)
+These two requests require similar information. Review the
+J-1 Exchange Visa
+section of the website before you begin.
+J-1 category (professor, research scholar, or short-term scholar)
+Scholar’s last job in home country
+Information about previous J-1 programs: Departments must confirm that the prospective J-1 scholar is not subject to the
+two-year rule and bars
+.
+Program dates:
+J-1 program dates must align with the expected appointment dates at Cornell.
+The dates must not exceed the maximum time permitted by the J-1 category—five years for professor or researcher or six months for short-term scholar. Time limits do not reset if the J-1 scholar is transferring to Cornell.
+For J-1 transfer-ins, the start date must be on or before the end date of their current DS-2019. There cannot be a gap in employment.
+Cornell job title
+Academic specialty that aligns with the work they'll do at Cornell
+Worksite:
+Important! All J-1 exchange visitors are required to be in person at least 60 percent of the time (three out of five workdays).
+Departments are responsible for ensuring that J-1 exchange visitors comply with this requirement.
+English language proficiency: Departments must attest that J-1 exchange visitors have sufficient English skills to meet the
+J-1 language requirement
+.
+Financial information: Departments must provide the total amount of funding that an individual will receive over the entire duration of their program to meet the
+J-1 financial support
+requirement.
+J-1 Student Intern Request
+Forms required for J-1 student interns and scholars are similar. In addition to the information listed above for initial J-1 visitors and transfer-ins, departments must provide information about the intern's training plan. Learn more about the application process for
+J-1 student interns
+, and review the
+J-1 Exchange Visa
+section of the website before you begin.
+Information about the J-1 student intern’s primary faculty supervisor
+How the internship will complement the intern's academic program at home institution
+What the intern will learn:
+Specific goals and objectives
+What specific knowledge, skills, or techniques will be learned
+How, specifically, these knowledge, skills, or techniques will be taught
+How the intern's acquisition of new skills and competencies will be measured
+How the intern will participate in American cultural activities
+H-1B Request
+All types of H-1B petitions require similar information from the department. Departments submit initial H-1B requests on behalf of employees who are new to H-1B status (for example, currently in F-1 or J-1 status), and portability requests for those already working in H-1B status for a different employer. H-1B extension and amendment requests are for employees who are already in H-1B status at Cornell. Review
+H-1B Temporary Workers
+before you begin.
+Type of petition
+Initial: Applicant does not currently hold H-1B status and will receive H-1B status through this Cornell position.
+Portability (change of employer): Applicant currently has H-1B status from another employer and will transfer H-1B employment exclusively to Cornell.
+Concurrent: Applicant has and will continue H-1B status with another employer.
+Extension (continuation of previously approved employment with same employer): Applicant has H-1B status at Cornell and will continue the same position in H-1B status.
+Amendment: Applicant has H-1B status at Cornell, and there will be a change in the position.
+Cornell job title
+Highest degree held
+H-1B start and end date: The dates must not exceed three years, the maximum time permitted.
+Department support letter: You can find a sample letter in the instructions form of the myStatus request.
+Supervisor's job title (not the person's name)
+Salary (annual or hourly)
+Hours worked per week: If an H-1B employee is part-time, the department must track work hours per week (even if salaried part-time)
+Position requirements: required degree(s), experience, special skills, travel, and supervision of non-student employees
+Job duties
+Worksite:
+It’s important to list all worksites.
+H-1B employees are only authorized to work at a worksite listed in the H-1B petition. Working elsewhere may be a serious violation of their legal status.
+Pay range for similar employees in the department and explanation of any variation
+Factors used to determine the wage offered to the H-1B employee
+System used to evaluate the H-1B employee’s performance and provide pay increases
+4
+Pay any required USCIS fee.
+Visa petitions submitted to U.S. Citizenship and Immigration Services (USCIS) require a filing fee. In some cases, the fee must be paid by the department; in others, the fee may be paid by either the department or scholar.
+At this stage, you must pay any required fee or notify the scholar to pay it. Find information about current fees for J-1s on
+Invite or Extend J-1 Visitors
+and fees for H-1Bs and other visa types in the pages under
+Employment Visas
+.
+If the department is paying: Submit a "USCIS fee payment request" in addition to your visa request. You’ll be asked to select fees and provide an account number.
+If the scholar is paying: The department needs to notify the scholar of the obligation to pay, as well as the fees and amounts. Scholars drop off or mail a signed authorization for credit card transactions (Form G-1450) to our
+campus office for scholars
+.
+Steps 2–4: After the myStatus Request
+Please review the remaining prearrival steps of the
+Sponsorship Process
+. Most visa requests have two sections. The department completes one section of the visa request form (Step 1).
+Submitting it triggers a myStatus invitation to the scholar to complete the second section of the request (Step 2). Most scholars can bring dependents—spouses and unmarried children under the age of 21—to join them in the United States. Scholars provide information about their dependents in their portion of the myStatus visa request.
+When both of these steps are complete in myStatus, International Services begins processing your request (Step 3). We'll keep you updated throughout the processing and reach out if we need further information or evidence from you or your scholar.
+For
+J-1 scholars
+: International Services creates a DS-2019.
+For
+J-1 student interns
+: International Services creates a DS-2019 and DS-7002.
+For
+H-1B
+and
+O-1
+workers: International Services files an I-129 petition with USCIS. We share the receipt and approval notices with you and the scholar.
+For
+E-3 workers
+outside the U.S.: International Services shares the certified and signed labor condition application (ETA-9035) by the requested method.
+After International Services shares these visa documents in myStatus, the scholar reviews them for accuracy (Step 4)—concluding the steps that must be completed before the new employee travels to campus.
+Mandatory Consultation for Permanent Teaching Positions
+Don't forget your new employee's
+consultation with International Services
+. This meeting is required for all
+foreign nationals accepting permanent teaching positions—including tenure-track faculty, lecturers, instructors, and other teaching staff with an expectation of permanent employment.
+The department is responsible for scheduling the consultation with International Services, department representatives, and the incoming scholar (with spouse or partner, if desired). It should be held shortly after the job offer is accepted.
+Next Up:
+External Legal Counsel
+Administrator Resources
+Cornell HR
+Contact Central HR
+U.S. Department of State
+Visa Appointment Wait Times
+U.S. Citizenship and Immigration Services
+Case Processing Times

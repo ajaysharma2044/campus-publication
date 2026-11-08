@@ -1,0 +1,46 @@
+URL: https://fcs.cornell.edu/departments/finance-administration/information-technology
+TITLE: Information Technology | Facilities and Campus Services
+FETCHED: 2026-11-06
+
+Finance & Administration
+Information Technology
+FCS Information Technology and Business Analytics
+Under the guidance of the
+IT Liaison, Rhea Gibson,
+IT and Business Analytics
+serves as the steward of Facilities and Campus Services’ IT resources, data resources, and policies. The objective is to liaise with CIT to ensure that we receive the high level of support we have come to expect. This group also provides business analytics, acts as a bridge between business problems and technology solutions, and analyzes, transforms, and resolves business problems with the help of technology.
+Services Provided
+FCS Access to Systems
+When requiring access to an FCS-owned system, please view the
+Access Policy and Chart
+page to request access.
+Guidance for Central IT Governance Processes
+The liaison will assist FCS departments in adhering to
+Central IT's governance process
+including statement of needs and project charters.
+CIT Support Liaison
+The liaison will assist in escalating and communicating technology needs for FCS departments including general ticket concerns, computer requests and inventory, applications support.
+Project Management
+The liaison will serve as a project manager on internal, small-medium sized projects.
+Business Analysis
+The liaison will serve as a business analyst when assisting on larger FCS projects, including process improvement.
+Data Analytics
+Committees
+FCS IT Steering Committee:
+This committee is comprised of a representative from each department within FCS, including CIT's Desktop Support and Admin Applications managers. This committee keeps a pulse on the IT needs within the departments, across FCS as a whole, in tandem with Central IT's vision and goal.
+FCS Web Content Owners:
+This committee is comprised of a representative from each department that contributes content to the overall FCS website. This committee is charged with creating content consumable to the public while adhering to web accessibility standards.
+Quick Links
+Need IT Support?
+Submit a CIT General Support Ticket
+Contact Us
+For IT and Business Analysis
+Rhea Gibson
+Business Systems Advisor/ IT Liaison
+rg833@cornell.edu
+607-255-5436
+For Data Analytics
+Stephen Gervase
+Informatics/Data Analyst III
+smg364@cornell.edu
+607-255-4287

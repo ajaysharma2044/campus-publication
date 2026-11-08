@@ -1,0 +1,35 @@
+URL: https://cals.cornell.edu/news/2017/03/random-process-may-determine-specialized-cells-organs
+TITLE: Random Process May Determine Specialized Cells in Organs | CALS
+FETCHED: 2026-11-06
+
+Share
+What is the process that allows plant and animal organs to produce different specialized cells from an original set of identical cells? In the case of small and giant cells found in the sepals – the leaf-like covering of petals in a bud – of flowering Arabidopsis plants, the answer is randomness.
+The ratio of small cells to giant cells is important for the sepal to be the right shape to properly hold the petals closed and in place until the flower is ready to bloom.
+The research,
+published recently in the journal eLife
+, identified for the first time a random patterning mechanism that decides each cell’s fate with regard to size, which leads to the right ratio of small to giant cells for proper functioning.
+“The main question for the future is whether this patterning mechanism is also used in other systems, like in organs of animals and other plants, where special cell types are being made in beautiful patterns,” said Adrienne Roeder, a Nancy M. & Samuel C. Fleming Term Assistant Professor at the Weill Institute for Cell and Molecular Biology and a senior author of the paper. Heather Meyer, a graduate student in Roeder’s lab, is the paper’s first author.
+For sepals to have the right curvature and open properly when the flower is ready to bloom, cells must maintain a ratio of roughly 110 small cells for every giant cell. Giant cells may be as large as 360 microns compared to small cells that may be as small as 10 microns, though they are not all uniform.
+Typically, a cell grows, replicates its DNA, grows again and then divides. Through live microscopic imaging, the researchers saw that small cells divide, keeping them small in size. But the giant cells undergo a process called endoreduplication, where they replicate their DNA but do not divide and instead grow bigger. Endoreduplication is common in the nutritional parts of corn, wheat, and beans, for example.
+The study reports that a protein called ATML1 is expressed in all the epidermal cells (the outer layer of tissue) in the sepal, but levels of ATML1 fluctuate at random in each cell. Meyer created a version of the ATML1 protein that fluoresces, so she could image ATML1 concentrations over time. By imaging cells every 8 hours, Meyer recognized that when ATML1 levels were high enough to surpass a threshold while a cell was in its second growth phase, that cell would enter a state of endoreduplication and become a giant. Otherwise, the cells divided.
+Roeder’s lab collaborated with co-authors Pau Formosa-Jordan, José Teles, Henrik Jönsson and James Locke at the University of Cambridge, U.K. Teles and Formosa-Jordan created a single cell image processing platform that was necessary for quantifying the threshold behavior. This platform was coupled with a computer model to verify the results and reproduce the pattern of giant and small cells based on random fluctuations of ATML1.
+“The discovery gives us a new perspective on how a cell can make a decision about what type of cell to become,” said Roeder. “Such random patterning mechanisms could be going on all over the place and we haven’t had the imaging and quantification capability to see it.”
+Co-author Gwyneth Ingram, a researcher at the University of Lyon, France, collaborated to determine ATML1’s role in determining cell size.
+The study was funded by the National Science Foundation, the Gatsby Charitable Foundation, the Swedish Research Council, and the Herchel Smith Foundation.
+Keep Exploring
+News
+November 6, 2026
+Cost share and market access are the top drivers of digester adoption
+U.S. dairy production has continued its decades-long consolidation into fewer, larger operations [1], [2]. Recent news coverage has suggested that the growth in anaerobic digester adoption over the past decade may have encouraged this expansion...
+Cornell Cooperative Extension
+Animal Science
+PRO-DAIRY
+News
+November 5, 2026
+Library story time is also learning time for parents
+Cornell Cooperative Extension
+Explore All Stories
+We openly share valuable knowledge.
+Sign up for more insights, discoveries and solutions.
+Please enter a valid email address to subscribe to the newsletter.
+Email Address

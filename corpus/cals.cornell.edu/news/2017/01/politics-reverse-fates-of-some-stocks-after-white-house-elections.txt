@@ -1,0 +1,44 @@
+URL: https://cals.cornell.edu/news/2017/01/politics-reverse-fates-of-some-stocks-after-white-house-elections
+TITLE: Politics Reverse Fates of Some Stocks After White House Elections | CALS
+FETCHED: 2026-11-06
+
+Share
+In the year after a presidential election, the portfolio benefiting from an outgoing administration lost 6 percent in risk adjusted returns. In contrast, the portfolio benefiting from an incoming administration earned about 5 percent in risk adjusted returns. Photo by Wendy Kenigsberg/University Communications.
+With President-elect Donald Trump’s inauguration approaching, the stock market has been more volatile than in non-election years. Investors are driving these fluctuations, as they try to predict which industries will do well under a Trump administration – and which will tank.
+There is significant money to be made in this scenario, according to a new study by a Cornell economist and his colleague.
+Models in the study produced monthly risk-adjusted returns of 1 percent during the six months surrounding presidential elections from 1939 through 2011, said
+Jawad Addoum
+, co-author of the study and assistant professor of finance.
+“Some industries that were favored by the previous administration tend to perform poorly when there’s a change in power,” said Addoum, the Robert R. Dyson Sesquicentennial Fellow. “That’s what our strategy says: you need to flip the portfolio now, and take advantage of stock returns in politically sensitive industries starting to move in a predictable way in opposite directions.”
+The study, “
+Political Sentiment and Predictable Returns
+,” was published in the December issue of The Review of Financial Studies. Addoum’s co-author is Alok Kumar of the University of Miami.
+The researchers found stock returns in politically sensitive industries fall into predictable patterns after a new president is elected – and the effect is twice as strong when there’s a change in party. Investors sell off stocks in industries they think will fall out of favor under the new administration, and buy up stocks in those they predict will be administration darlings.
+“For example, while optimistic Democrat investors may choose to buy health care stocks when a Democrat comes to power, pessimistic Republicans may choose to sell their holdings in tobacco stocks at the same time,” the study said. “…This correlated trading behavior may drive prices away from fundamentals among stocks in politically sensitive industries such as health care and tobacco.”
+But there’s another key factor at play, the researchers said.
+Sophisticated market players known as arbitrageurs, who normally balance out market fluctuations with their own buying and selling activity, choose instead to exit the market to avoid exposure to risk.
+“When there’s a change in power, there may be too much uncertainty for arbitrageurs to handle. They seem to just get out of politically sensitive sectors,” Addoum said.
+For example, it’s unclear if, when and to what extent a president-elect’s campaign promises will become a reality. “As an arbitrageur you don’t want to tie up your capital for an uncertain, and potentially long, period of time,” Addoum said. “For many of them, five, six, seven months is a long period of time.”
+With arbitrageurs out of the game, the political sentiment of retail investors and mutual fund managers drive prices and returns.
+The researchers analyzed industry data over the 1939-2011 period, determining which industries earned better returns under a Democrat president versus a Republican. For example, tobacco, candy, soda, and lab equipment have traditionally performed well during Republican administrations. Under Democrats, electronic chips, real estate, and construction have earned better returns. More recently, coal has performed better under a Republican president, while healthcare has done better under a Democrat. Overall, these politically sensitive industries made up between 17 percent to 27 percent of market capitalization, the researchers found. “This is not a dusty corner of the market,” Addoum said.
+Then the researchers created two model portfolios to exploit this predictability. A “short” portfolio consisted of the five industries predicted to have the lowest returns in the next month, depending on the presidential party. A “long” portfolio was made of the five industries predicted to have the highest. They used those models to see how well each portfolio would have done given presidential elections since 1939.
+Their model took advantage of the volatility in the market in the year before and after an election, yielding 6 percent in annual risk-adjusted returns. In the last 35 years of the data sample, the annual return was even higher, producing 7 percent risk-adjusted returns.
+At the same time, the researchers found a marked decrease in arbitrage activity during the pre- and post-election years, Addoum said. “The arbitrageurs seem to say, ‘We’ll come back when the dust settles.’”
+This article also appeared in the Cornell Chronicle.
+Keep Exploring
+News
+November 6, 2026
+Cost share and market access are the top drivers of digester adoption
+U.S. dairy production has continued its decades-long consolidation into fewer, larger operations [1], [2]. Recent news coverage has suggested that the growth in anaerobic digester adoption over the past decade may have encouraged this expansion...
+Cornell Cooperative Extension
+Animal Science
+PRO-DAIRY
+News
+November 5, 2026
+Library story time is also learning time for parents
+Cornell Cooperative Extension
+Explore All Stories
+We openly share valuable knowledge.
+Sign up for more insights, discoveries and solutions.
+Please enter a valid email address to subscribe to the newsletter.
+Email Address

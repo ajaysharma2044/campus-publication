@@ -1,0 +1,26 @@
+URL: https://www.library.cornell.edu/web-accessibility/
+TITLE: Web Accessibility Assistance – Cornell University Library
+FETCHED: 2026-11-06
+
+Cornell University Library seeks to provide an accessible and “barrier-free” environment and equal access to library services and collections for all library users and adhere to
+University Policy 5.12 Web Accessibility Standards
+.
+We accommodate reasonable requests for assistance in obtaining, accessing, and making use of library resources, materials, and services.
+Some services require advance notice to ensure staff availability. For specific accommodations, please contact
+libaccessibility@cornell.edu
+or
+Ask a Librarian
+.
+Along with support from librarians and staff, there are campus partners with additional resources to help support the best possible user experience:
+Accessibility Information at Cornell
+Cornell Student Disability Services
+IT@Cornell
+Cornell Center for Teaching Innovation
+Office of Civil Rights
+About the Readability Widget
+Built by NC State University Libraries, the
+Readability Widget
+is a tool to improve readability for some users, and is just one part of how we make our site accessible.
+For feedback or questions about this widget, please email us at
+libaccessibility@cornell.edu
+.

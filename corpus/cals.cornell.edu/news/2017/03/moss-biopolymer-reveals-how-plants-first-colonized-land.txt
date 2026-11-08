@@ -1,0 +1,44 @@
+URL: https://cals.cornell.edu/news/2017/03/moss-biopolymer-reveals-how-plants-first-colonized-land
+TITLE: Moss Biopolymer Reveals How Plants First Colonized Land | CALS
+FETCHED: 2026-11-06
+
+Share
+Environment
+Land
+Plants
+A new study of mosses brings scientists one step closer to solving a mystery in plant biology: how plants made the transition from water to land 450 million years ago.
+An international team of researchers report in the
+March 8 issue of Nature Communications
+that a gene found in a moss may hold the blueprint for a biopolymer that provided structure and a protective outer layer necessary for early land plants to survive life outside of water.
+Land plants evolved from freshwater green algae, but needed to adapt to biomechanical stresses, desiccation, rapid temperature shifts, and damaging UV light on land.
+“The discovery is important for evolutionary biologists because it helps us understand how plants colonized land,” said Jocelyn Rose, professor of plant biology, director of the Cornell Institute of Biotechnology and a co-author of the paper. The study was led by senior author Danièle Werck-Reichhart, a plant biologist at the University of Strasbourg, France.
+“If we can understand the nature and function of some of these polymers in plants, then maybe we can use them in biotechnology applications,” Rose said. These might include controlling water use in crops and breaking down polymers to create biofuels or other biomaterials.
+Plant biologists describe three major types of biopolymers in modern land plants that create cuticles, outer layers of protective tissue. These include cutin, a water-resistant component of the cuticle; suberin, which regulates water movement in roots; and lignin, which enhances long-distance water transport and provides a supportive structure for erect growth in most land plants. Wood and bark, for example, are rich in lignin, and understanding how to break down lignin would greatly enhance biofuel development.
+The research began when Werck-Reichhart and colleagues in France first discovered a gene in a moss (Physcomitrella patens) that resembled other genes found in modern plants that biosynthesize lignin. They were surprised since mosses and ferns and early land plants do not have lignin. So the group created a line of moss where they silenced that gene to discover its function.
+Without the gene, the experimental moss lacked a protective outer layer. Its surface was very permeable; it withered and dried up and didn’t grow properly. The gene and the biopolymer it expressed were likely critically important for development and moss evolution, Rose said.
+“We realized that in moss this polymer looks rather like the great-grandfather of cuticles and lignin; it has elements of both,” including the hydrophobic qualities of cutin, and it is rich in phenols, compounds that are the backbone of lignin’s structure and that are also found in suberin, Rose said.
+“This looks like an ancestral polymer,” Rose said. “As all land plants radiated and developed and moved into new habitats, this ancient polymer evolved structurally into the lignin and cuticle polymers we see today.”
+The finding hints that there may be many other types of similar biopolymers to be discovered beyond cutin, lignin, and suberin, Rose said.
+Eric Fich, a graduate student in Rose’s lab, provided the biochemical analysis of the moss polymer. Researchers from the University of Freiburg, Germany, also contributed to the study.
+The study was supported by the Freiburg Institute for Advanced Studies and the University of Strasbourg Institute for Advanced Study, the Agence Nationale de la Recherche, the U.S. National Science Foundation’s Plant Genome Research Program, the U.S. Department of Agriculture’s National Institute of Food and Agriculture, the Natural Sciences and Engineering Research Council of Canada, the Excellence Initiative of the German Federal and States governments and the People Programme (Marie Curie Actions) of the European Union’s 7th Framework Programme, and the French Ministry of Education and Research.
+Keep Exploring
+Play
+News
+November 5, 2026
+Plant Science Building renovations honor past, look to future
+This summer, the College of Agriculture and Life Sciences celebrated the completion of one-half of a long-planned renovation and the news that New York state will support renovations of the other half starting next year. “The renovation has...
+Plants
+School of Integrative Plant Science
+Horticulture Section
+News
+November 4, 2026
+More tools, better weed control
+For farmers, weeds are a relentless problem, and the ones that sprout right next to the crop are the hardest to manage. New research from Cornell AgriTech shows that farmers may be able to gain better control of those stubborn in-row weeds by...
+Cornell AgriTech
+Cornell Integrated Pest Management
+Horticulture
+Explore All Stories
+We openly share valuable knowledge.
+Sign up for more insights, discoveries and solutions.
+Please enter a valid email address to subscribe to the newsletter.
+Email Address

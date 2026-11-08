@@ -1,0 +1,61 @@
+URL: https://business.cornell.edu/news/2020/06/02/present-value-gautam-ahuja-innovation-prerequisites-life-as-a-scholar/
+TITLE: Present Value: Gautam Ahuja on innovation prerequisites and life as a professor and scholar- Cornell SC Johnson College of Business
+FETCHED: 2026-11-06
+
+June 2, 2020
+Present Value: Gautam Ahuja on innovation prerequisites and life as a professor and scholar
+Gautam Ahuja, the Eleanora and George Landew professor of management and organizations
+Present Value, an independent editorial project produced and hosted by Johnson students, had the pleasure of interviewing
+Gautam Ahuja
+, the Eleanora and George Landew Professor of Management at the Samuel Curtis Johnson Graduate School of Management.
+Present Value can be streamed through the
+Present Value website
+or listened to through Apple Podcasts, Spotify, or wherever you get your podcasts.
+Two kinds of innovation: Primary and generative
+Professor Gautam Ahuja, an expert in strategy and innovation, studies what prerequisites a firm needs to create and sustain organizational innovation.
+To understand how a firm promotes innovation, Ahuja believes you must first understand the two key sources of innovation: primary and generative appropriability. Primary appropriability refers to the direct use of a new innovation to generate revenues through a product or a service, such as applying a certain kind of vibration to move the small bristles in an electric toothbrush to help clean your teeth. Generative appropriability, in contrast, builds on top of an existing innovation to create a product or service. To extend the toothbrush example, the same vibration principle could be applied to a skin cleanser brush.
+When reviewing the existing literature, Ahuja noticed that almost all of the research was focused on primary appropriability, but very little analyzed the impacts of actions on generative appropriability. Ahuja set out to examine generative appropriability in his 2013 paper, “
+The Second Face of Appropriability: Generative Appropriability and its Determinants
+” (
+Academy of Management Review
+), which received the SIEE-EBS Award for the best paper on innovation management. A counter-intuitive finding he discovered was the negative impact of patents on future innovation. Patents increase primary appropriability and maximize the revenue potential of an existing innovation by allowing for enforcement of patent infringements. The same patent protection mechanism, however, reduces generative appropriability by placing knowledge of the innovation in the public domain—allowing competitors to reverse-engineer the innovation and extend it to new inventions.
+In this Present Value episode, Ahuja provides a cultural example from the movie
+The Social Network
+to illustrate the application of primary and generative appropriability in the technology industry. The movie depicts the rivalry between twin brothers Cameron and Tyler Vinklewoss, on the one hand, and Mark Zuckerburg, on the other, over the founding of Facebook, a large social networking platform. The Winklevoss brothers sue Mark Zuckerberg, saying Facebook is a derivative of the social networking website they developed, HarvardConnection. But Zuckerberg counters, stating: “If you were the inventors of Facebook, you would have invented Facebook.” In other words, Zuckerberg uses the concept of generative appropriability—whereby Facebook extended the Harvard-centric social network to multiple colleges and eventually the world—to distinguish Facebook from HarvardConnection.
+Career trajectory: From struggling to get published to rising star
+Reflecting back on his success, Ahuja believes that his career might have been drastically different save for a few chance encounters. As he put it, “The difference between notable success and abject failure is very fine.”
+In contrast to many in academia, Ahuja joined higher education later in his career, choosing to leave behind a successful regional sales manager position at a large, consumer packaged goods company to become a teacher. After completing his PhD and on his way to becoming a professor, he realized that teaching was less than half a professor’s job; the other half, researching and publishing papers, he was unprepared for. Ahuja, now a prominent and widely published scholar, discusses his initial struggles with academia in depth.
+He credits two well-respected advisers with kick-starting his career by taking him under their wings to help develop a research question. Given a growing consensus that a firm’s networks (direct and indirect ties) and structural holes (gaps in access to information) played crucial roles in generating innovation as a whole, the question they came to was: What role does each specific element play in the network?  Ahuja would approach this by examining the relationship between network position and innovation output.
+While Ahuja is now widely recognized for his contributions to innovation research, he jokes in the Present Value episode that, looking back, “if they told me that studying blue cheese was a great idea, I would have done that without a second thought!”
+After researching the relationship between networks and innovation for a year and a half, Ahuja submitted a paper to one of his field’s top journals,
+Administrative Science Quarterly
+,
+for the peer review process. Discouragingly, the journal’s peer reviewer returned a 40-page, single-spaced critique. According to Ahuja, the journal’s message via this feedback was that “it was not a publishable paper… However, the editor of the journal decided to take a chance on me and basically gave me an opportunity to revise and resubmit the paper.” Discouraged but not defeated, he spent a year and a half addressing the points in the critique. The paper, “
+Collaboration networks, structural holes, and innovation: A longitudinal study
+,” was published in 2000. Afterwards, to his surprise, it garnered wide acclaim in the field of management and organizations, receiving over 6,000 citations to date.
+Ahuja believes that if his two colleagues did not pull him aside to plan out his research; if the editor did not decide to take a chance on him; and if the peer reviewers did not decide to invest the time into his paper, he could be in a very different career position. Each chance encounter or decision reflects what Ahuja presents as the tight rope between success and failure.
+For more, check out the full-length Present Value podcast,
+Innovation, Technological Mergers, and the Pursuit of Teaching | Gautam Ahuja
+. Listen, subscribe, and share!
+About Gautam Ahuja
+Gautam Ahuja is the Eleanora and George Landew professor of management and organizations at the Samuel Curtis Johnson Graduate School of Management at Cornell University. He is an award-winning researcher in the fields of competitive analysis and innovation, globalization, and the impact of mergers, acquisitions, and alliances on these topics. Ahuja serves as editor in chief of
+Organization Science,
+one of the premier journals in his field. At Johnson, he teaches the popular course Cases in Strategic Management. He has been selected as the best professor by student vote 17 times across MBA, Executive MBA, and PhD programs. In 2011,
+Bloomberg
+BusinessWeek
+ranked Ahuja number two on its first list of Most Popular Professors in the United States of America.
+In this article
+Article Information
+Categories
+Inside SC Johnson
+Related Stories
+November 5, 2026
+Thomas Richard Dyckman, accounting scholar and university leader, dies at 94
+Inside SC Johnson
+October 23, 2026
+2026 Atkinson postdocs improve antibiotics, emissions data, green transition
+Inside SC Johnson
+October 23, 2026
+From running partners to business partners: The rise of Kube & Co.
+Food & Agriculture
+Inside SC Johnson

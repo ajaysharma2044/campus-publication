@@ -1,0 +1,107 @@
+URL: https://international.globallearning.cornell.edu/administrators/j-1-exchange-visa/invite-or-extend-j-1-visitors
+TITLE: Invite or Extend J-1 Visitors | International Services
+FETCHED: 2026-11-06
+
+Invite or Extend J-1 Visitors
+Rule Ending D
+uration of Status
+Temporarily Blocked
+A federal court has blocked the rule
+ending D/S from
+taking effect on September 15.
+Read the alert
+.
+This page is for Cornell administrators.
+J-1 faculty and staff:
+Please visit our
+Maintain and Extend J-1 Status
+page for scholars.
+How to Invite or Extend J-1 Visitors
+Complete Form
+Correct or Amend
+Get DS-2019
+Activate Status
+Extend Status
+1
+Complete a request form for a new J-1 visitor
+.
+You must be pre-approved to access the J-1 request form. If you are new to your administrative role, please
+contact us
+to request authorization.
+Submit this form for
+new J-1 exchange visitors
+.
+If your visitor is transferring to Cornell from another institution, submit a “J-1 Scholar Transfer-In” request instead.
+Once a prospective visitor has completed their portion of the form, allow five business days for processing.
+2
+Correct or amend your request.
+Making a change to a J-1 program? Submit a request in
+myStatus
+:
+Change to program dates:
+Submit a “J-1 Program Amendment” with the new dates. The J-1 program start date should align with the exchange visitor's anticipated start date at Cornell.
+Change to funding source or amount:
+Submit a “J-1 Financial Amendment” with the new funding information.
+New department or job duties at Cornell:
+The new department must submit a “J-1 Internal Change of Department” request in myStatus. International Services must approve the request before the new position can begin.
+New title at Cornell:
+If there's no change in department or job duties, submit a “J-1 Program Amendment” to let us know about a J-1 exchange visitor's new title.
+New worksite:
+Submit a “J-1 Program Amendment” with information about the new worksite. International Services must approve the request before the J-1 exchange visitor can begin working at the new worksite.
+Error or change to J-1 scholar's biographic information
+(e.g., name, country of birth, permanent residency or citizenship, etc.): Direct your exchange visitor to submit a “J-1 Biographic Amendment” in myStatus (under J-1 Scholar Services). Departments are not authorized to submit a biographic amendment on behalf of an exchange visitor.
+Error or change to a J-2 dependent's biographic information
+(e.g., name, country of birth, permanent residency or citizenship, etc.): Direct your exchange visitor to submit a “J-2 Dependent Update” in myStatus (under J-1 Scholar Services). Departments are not authorized to submit an amendment on behalf of a J-2 dependent.
+Please allow five business days before inquiring about an amendment request you or your exchange visitor has submitted.
+3
+The visitor receives a DS-2019.
+After processing your request, we will prepare a DS-2019 form. The DS-2019 allows new visitors to
+secure a J-1 visa from a U.S. consulate
+and enter the United States, or to
+file an I-539 application
+to change their status within the U.S.
+Departments can access a DS-2019 by submitting a “Scholar/Employee PDF Document View” request in myStatus. Have the exchange visitor’s employee or temporary ID and date of birth ready.
+J-1 exchange visitors can access their DS-2019 through the documents icon (top right) in myStatus.
+4
+Tell your J-1 visitor to complete the status activation.
+All newly arrived J-1 exchange visitors are required to complete the
+mandatory status activation
+. International Services will email the department representative who submitted the request and the J-1 exchange visitor to confirm work authorization dates.
+Prospective J-1 exchange visitors cannot begin working until they are in J-1 status and until the start date on their DS-2019.
+If a prospective scholar never entered the U.S. in J-1 status and is no longer coming to Cornell in J-1 status, submit a “J-1 Scholar/Intern Cancellation” request in myStatus so that we can close out the J-1 record.
+5
+Extend a J-1 program.
+If a J-1 exchange visitor will be staying at Cornell longer than the end date listed on the DS-2019, then their J-1 status will need to be extended.
+Before submitting a request for a J-1 program extension, verify that your exchange visitor is eligible for an extension.
+J-1 faculty and researchers:
+5 years maximum
+J-1 short-term scholars:
+6 months maximum
+J-1 student interns:
+12 months maximum
+Submit a “J-1 Scholar Extension” request in myStatus.
+As part of the request, J-1 exchange visitors must attest that they have not started the
+J-1 waiver process (212e)
+and that they are maintaining sufficient
+health insurance
+. J-1 exchange visitors must also have sufficient funding for the duration of the J-1 extension request.
+The department can indicate title changes as part of the request.
+J-2 dependents are automatically extended as part of the process.
+Once the J-1 exchange visitor has completed their portion of the request, please allow five business days for processing. International Services will update Workday and reverify the I-9.
+myStatus Portal
+Get Advice
+Bring Dependents
+Transfers
+To transfer a J-1 professor or researcher from another institution to Cornell (transfer-in), see step 1 above. International Services can't prepare a DS-2019 form for a transfer-in J-1 until the other program sponsor releases the SEVIS record to us. This will most often be on the date that the Cornell appointment begins.
+We strongly recommend against J-1 exchange visitors traveling internationally during the J-1 transfer in process. Prospective J-1 exchange visitors with urgent travel needs must contact us.
+J-1 transfer-ins must be able to supply an address within commuting distance of their approved worksite for their Status Activation form. Per federal regulations, all J-1 exchange visitors must be in person at a Cornell worksite at least 60% of the time (e.g., three out of five workdays).
+J-1 students are not eligible to transfer to Cornell as a J-1 professor, researcher, short-term scholar, or intern.
+Next Up:
+Two-Year Rule and Bars
+Administrator Resources
+International Services
+Maintaining J-1 Status (for Scholars)
+International Services
+Rule Ending D/S: Analysis
+International Services
+Change Your Status: I-539 (for Scholars)

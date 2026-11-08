@@ -1,0 +1,62 @@
+URL: https://www.library.cornell.edu/collections/borrow-renew-return/request/borrow-direct/
+TITLE: BorrowDirect – Cornell University Library
+FETCHED: 2026-11-06
+
+Search BorrowDirect
+BorrowDirect is a rapid physical item request and delivery system. Cornell faculty, staff, and students can search the combined library catalogs of Brown, Columbia, Cornell, Dartmouth, Harvard, University of Pennsylvania, University of Chicago, Johns Hopkins, MIT, Duke, Stanford, Princeton and Yale, a collection of over 90 million volumes, and directly request expedited delivery of circulating items.
+How does BorrowDirect work?
+Submit a request
+from anywhere, or search for material you need in the
+BorrowDirect VuFind catalog
+.
+Once you locate the item you need, click the “request” button.
+If you have never used the BorrowDirect or Interlibrary Loan forms before, you will need to fill out a one-time registration form.
+If the item you need is available from one of the BorrowDirect partner libraries, you will receive a notice when the item arrives.
+If the item you need is not available, we will attempt to fulfill your request via
+Interlibrary Loan
+.
+What can be requested through BorrowDirect?
+Books, printed music, and some audio-visual materials (DVDs, videos, CDs) not owned by Cornell libraries
+Books, printed music, and some audio-visual materials that are currently unavailable at Cornell, e.g., checked out, lost, missing, etc.
+Books, printed music, and some audio-visual materials that normally circulate from the partner universities’ collections
+What cannot be requested through BorrowDirect?
+Books, printed music, and some audio-visual material currently showing as “available” in the Cornell Library catalog
+E-books
+Journals, magazines, newspapers, and other serials
+Photocopies of journal articles, conference proceedings, etc.
+Reference books, microfilm and other non-circulating material
+Books from most of our partners’ medical and law libraries
+If you need an item that is not available from BorrowDirect, your request will be sent to
+Interlibrary Loan
+.
+When will the item arrive from BorrowDirect?
+Most items will be available for pick-up at the circulation desk of your choosing within 4 working days of the date you placed your request.
+What is the loan period for BorrowDirect books? Can items be renewed?
+Eight weeks (subject to recall by the owning library). BorrowDirect books can be renewed one time for an additional eight weeks. The renewal request can be placed at any time, giving a total loan period of 16 weeks.
+How do I cancel my request?
+Please email
+olin-ils@cornell.edu
+to ask for a cancellation.
+How do I register for BorrowDirect?
+The first time you use
+BorrowDirect, Interlibrary Loan and ScanIt
+you will be asked to register. This is a one-time registration. During your registration you will be asked to select your Interlibrary Loan unit: Olin Library or Law Library.
+Only Law School faculty, staff, and students should select the Law Library.
+All other schools should choose Olin Library.
+If you have any further questions
+or can’t find what you need, please
+ask a librarian
+, or contact any Interlibrary Loan office directly. Staff are happy to answer any questions via email, phone or in-person.
+Olin Library
+(607) 255-9564
+olin-ils@cornell.edu
+Law Library
+(607) 255-5750
+law-ils@cornell.edu
+Questions about BorrowDirect or interested in BorrowDirect Plus?
+Ask a librarian
+, or contact Olin Library Interlibrary Services at
+olin-ils@cornell.edu
+. If you are interested in BorrowDirect Plus, or are planning to visit a BorrowDirect partner institution and would like to obtain on-site borrowing privileges, please see
+BorrowDirect Plus
+.

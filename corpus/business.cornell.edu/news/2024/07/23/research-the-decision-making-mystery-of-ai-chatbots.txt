@@ -1,0 +1,37 @@
+URL: https://business.cornell.edu/news/2024/07/23/research-the-decision-making-mystery-of-ai-chatbots/
+TITLE: Research: The Decision-Making Mystery of AI Chatbots- Cornell SC Johnson College of Business
+FETCHED: 2026-11-06
+
+July 23, 2024
+Research: The Decision-Making Mystery of AI Chatbots
+Have you ever wondered how AI chatbots make decisions? This question arose in a classroom at the Cornell Tech campus and prompted a new study from Cornell SC Johnson College of Business that delves into the differences between decision-making processes in human and artificial intelligence.
+In the working paper, “
+Do AI Chatbots Provide an Outside View?
+” Stephen Shu, professor of practice at the Charles H. Dyson School of Applied Economics and Management, part of the SC Johnson College, and his co-authors explore the decision-making characteristics of AI chatbots.
+“Surprisingly, our study revealed that AI chatbots, despite their computational prowess, exhibit decision-making patterns that are neither purely human nor entirely rational,” Shu said. “They possess what we term as an ‘inside view’ akin to humans, characterized by falling prey to cognitive biases such as the conjunction fallacy, overconfidence, and confirmation biases.” Conjunction fallacy is a common error in reasoning where individuals assume that specific conditions are more probable than a single general one. Confirmation bias means people prefer information that supports what they already believe.
+AI chatbots also offer what Shu termed an “outside view,” complementing human decision-making in certain aspects. They excel in considering base rates, remain less susceptible to biases stemming from limited memory recall, and demonstrate insensitivity to availability and endowment effect biases. For example, whereas humans tend to exhibit an endowment effect bias where they value items more when they possess an item (versus when they do not own them), AI chatbots do not seem to exhibit this bias.
+The study encompassed various AI platforms, including ChatGPT, Google Bard, Bing Chat AI, ChatGLM Pro, and Ernie Bot. Researchers evaluated their decision-making processes against 17 principles derived from behavioral economics, shedding light on the connection between humans and AI.
+One of the most intriguing findings was that AI chatbot decision-making doesn’t mirror human behavior as closely as the researchers expected. Despite being trained on vast datasets, AI chatbots exhibit decision-making tendencies that sometimes defy traditional human or rational logic. For example, whereas humans often tend to seek risk when facing losses (e.g., take a gamble to minimize loss), when making a choice AI chatbots may more often seek certainty in the face of losses (e.g., accept the losses as opposed to trying to take a gamble to minimize loss).
+For business professionals leveraging AI chatbots, awareness of these decision-making dynamics is paramount. While AI can offer valuable insights and assistance, it’s essential to maintain a level of skepticism. Recognizing situations where AI provides an “inside view” can help mitigate the risks of overconfidence and confirmation biases. Conversely, embracing the “outside view” capabilities of AI can enhance decision-making by leveraging its strengths in considering base rates and mitigating biases stemming from human limitations.
+As AI continues to permeate various aspects of society, understanding its decision-making dynamics becomes increasingly crucial. Shu’s research sheds light on AI’s capabilities, limitations, and potential to complement human decision-making processes.
+Business managers relying on AI or advocating its usage may find this research of interest. Media outlets that focus on technology and behavioral science topics, such as
+Harvard Business Review (HBR),
+are also likely to take a keen interest in the findings.
+“Exploring the unknown territory of AI decision-making has brought together diverse perspectives, paving the way for a deeper understanding of this rapidly evolving technology and its implications for society,” Shu said. “As we continue on this journey, we aim to foster responsible and informed usage of AI, ensuring that it serves as a tool for progress and empowerment in the hands of decision-makers.”
+Shu’s co-authors include Sreyoshi Das, assistant professor of practice in the Cornell Ann S. Bowers College of Computing and Information Science, and independent researchers Daniela Hernandez Correal, Omar Fayaz, Junhui Lei, Prem Kumar Mullai Manavalan, Xinguo Peng, Nicholas Sakaguchi, and Sneha Suresh.
+In this article
+Article Information
+Categories
+AI & Technology
+Schools & Departments
+Dyson School
+Related Stories
+September 14, 2026
+Can AI boost open-mindedness? Team wins $1.49M grant to find out
+AI & Technology
+September 10, 2026
+AI-enabled method enhances marketing research
+AI & Technology
+September 3, 2026
+Limited personal data doesn’t have to limit personalization
+AI & Technology

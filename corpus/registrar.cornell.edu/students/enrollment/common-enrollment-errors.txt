@@ -1,0 +1,40 @@
+URL: https://registrar.cornell.edu/students/enrollment/common-enrollment-errors
+TITLE: Common Enrollment Errors | Registrar
+FETCHED: 2026-11-06
+
+Common Enrollment Errors
+Error Message
+What It Means
+You cannot add this class due to a time conflict with class XXXX. Select another class, or drop the conflicting class and resubmit your request.
+You will not be able to enroll in two classes that meet at the same time. If you have an exceptional situation that requires enrollment in conflicting classes, contact your college registrar’s office to determine how to proceed.
+Available seats are reserved. You do not meet the enrollment group criteria to enroll in this class at this time.
+This class is limited to a certain population of students — for example, A&S juniors. If a course has a reserve cap in place and you don't meet the requirement, you will not be allowed to enroll.
+Instructor Consent Required. You must obtain permission to take this class. If you have a permission number: go to Add Another Class, select the class, enter the permission number and submit the request.
+Contact the instructor of the class for permission to enroll.
+Department Consent Required. You must obtain permission to take this class. If you have a permission number: go to Add Another Class, select the class, enter the permission number and submit the request.
+Contact the department offering the class for permission to enroll.
+Class XXXX is full. You have been placed on the wait list in position number 3.
+The class you are attempting to enroll in has reached its capacity. It is recommended you seek another course. You may check back to see if any spots open up, or contact the department offering the class to see if additional seats or sections will be made available.
+Class XXXX is full. If a wait list is available, click Fix Errors to return to step 1. Click the class link, select the wait list option and resubmit your request.
+The class has reached its capacity. If no wait list is available online, you can contact the offering department to see if a departmental wait list is available.
+Class XXXX is full. There are currently no seats available and the wait list is full.
+This class and its associated wait list is full. Students who are still interested in enrolling should contact the offering college or department.
+You are already enrolled in this class. Verify you are using the correct class number and term and resubmit the request.
+You have already enrolled in this class. Double check that you have entered the class number and term correctly. If you are concerned about your enrollment status, contact your
+college or school registrar office
+.
+The permission number entered is incorrect. Verify that the number you entered is correct and that the permission has not expired.
+Be sure you have entered the permission number correctly. Permission numbers are issued to individual students and cannot be shared. Contact the instructor/department for a new permission number.
+Unable to add this class — term maximum exceeded. Adding this class would exceed the maximum number of units or courses allowed for this term.
+Individual colleges set a limit on the number of credits a student can take in a given semester. Some colleges may allow you to petition to exceed your maximum credits for a semester. Contact your
+college or school registrar office
+for petition procedures.
+You are unable to add this class at this time. Adding this class would exceed your course limit for this session.
+There may be a limit on the number of courses you can take in a given session. For example, students may only enroll in one First-Year Writing Seminar (FWS) at a time. Contact your
+college or school registrar office
+with concerns.
+Class Number XXXX: Not in Active Status. Cannot Enroll. The add transaction was not processed. The class to be added is not in 'ACTIVE' status for enrollment.
+You are attempting to enroll in a course that has been cancelled. Contact the offering department or instructor with any concerns.
+If you receive an error message not included here and you don't know what it means, please contact the Curriculum and Scheduling Team at
+coursenroll@cornell.edu
+.

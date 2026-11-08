@@ -1,0 +1,54 @@
+URL: https://as.cornell.edu/news/can-i-even-do
+TITLE: Can I Even Do That?
+FETCHED: 2026-11-06
+
+Can I Even Do That?
+Physics
+By |
+Jackie Swift
+,
+Cornell Research
+8/21/2020
+Ivan V. Bazarov, Physics, doesn’t just like to solve problems; he likes to create them, too, and accelerator physics gives him a chance to do both. “When you work with accelerators and you find solutions for problems, they translate into real-life applications or enable other scientists to do research they otherwise couldn’t do, which is cool,” he says. “But along with solving problems, we also like to create them—to take more of a risk. In accelerator physics there’s this aspect of ‘OK, let’s go out there and see what can be done, what new things we can discover.’”
+Bazarov is part of the Cornell Laboratory for Accelerator-based Sciences and Education (CLASSE), a group of Cornell researchers who focus on photon science, accelerator physics, particle physics, and astrophysics. They manipulate x-rays, high-energy electrons, and proton beams using the high-intensity x-ray facility known as the Cornell High Energy Synchrotron Source (CHESS) and the Cornell Electron Storage Ring (CESR), which provides the x-rays for CHESS and functions as a test-bed accelerator. “We don’t just make things work,” Bazarov says. “We come up with new ideas no one has come up with before.”
+Cooling Down Particle Beams
+Bazarov’s expertise is in bright electron sources that spit out electrons in tightly focused, collimated, or accurately parallel beams. The more focused the beam, the brighter it is—typically millions of times brighter than the sun. Together with David L. Rubin and Jared M. Maxson, both Physics, Bazarov is currently using CESR to investigate a new idea called optical stochastic cooling (OSC), which addresses a problem common to all accelerators: beam particles heat up and subsequently scatter.
+When researchers inject electron particles into an accelerator like CESR, which is a ring 768 meters long, the particles traverse the circle millions of times as they accelerate to near-light-speed. “The tendency of all particle beams is to diffuse and have a higher amplitude of motion,” Bazarov explains. “The beam will not remain perfectly small and collimated. Charged particles like electrons will tend to scatter off. This process creates heat, or noise. The problem is that you don’t want the hot particles to leave your beam. If they go off, that means the intensity of the beam is dropping. Besides, beams with more spread in them are not nearly as useful as collimated ones.”
+“We don’t just make things work. We come up with new ideas no one has come up with before.”
+Bazarov and his colleagues want to introduce a special cooling mechanism. If an electron reaches too high of an amplitude, the particle beam will emit a photon. “That photon properly manipulated gets reabsorbed by the beam and reduces the amplitude of the electron,” Bazarov says. “The photon is a tiny quantum of energy compared to the overall energy we put into the beam, but if you subtract it from the beam, then this noise, this diffusion of the beam, is shrunk back down. It gives us a new way of making beams.”
+The new cooling mechanism requires that hardware engineering, simulations, and laser technology all come together. The researchers are two years into the project, which they expect will take around six years to complete. “It’s hard," Bazarov says. “That’s why it’s never been done before, but we think we can make a real contribution to accelerator physics with it. And the really cool thing is that CESR is flexible enough that we can carry out this sort of research on campus here at Cornell. This is very, very unique. Other accelerators are either national labs or not sufficiently flexible to allow us to try an approach like this.”
+Increasing Photocathode Lifetime
+While the OSC project is large in size and scope, Bazarov also works with small accelerator setups. In one project, he is investigating ways to preserve the fragile photocathodes that emit spin-polarized electrons—electrons whose fundamental spin properties are all aligned in the same orientation—for use in accelerators. Photocathodes are tiny pieces of material, one centimeter square, that readily emit electrons when light is shone on them.
+“These cathodes that produce spin-polarized electrons are extremely delicate,” Bazarov says. “They require a very stringent vacuum. Each time you extract a beam from one of them, the cathode’s sensitivity dies. We refer to this as the cathode’s lifetime.” Depending on parameters, a cathode lifetime can be as short as ten minutes. After that, it has to be replaced, which cuts down on how prolonged an experiment can be.
+“Conditions inside accelerators are very harsh because there’s a lot going on,” Bazarov explains. “A robust cathode that can stand abuse would be very enabling for the field. People who are working with electrons—especially spin-polarized electrons—have to worry about wearing out the cathodes, about replacing them on an hourly basis or reducing the beam intensity. If we had robust cathodes, they could perhaps run for weeks at a time without compromising the machine performance.”
+To address the problem, Bazarov is collaborating with Jared Maxson, as well as with Luca Cultrera, senior research associate, and other members of the Bazarov lab to create a protective coating for the cathodes that will prevent them from losing their sensitivity. Normally cathodes are made of a gallium nitride or gallium arsenide, neither of which emits electrons. Then they are coated with cesium one atom thick. Cesium has a very loosely bound outer electron that it easily emits—too easily.
+“Cesium is so sensitive that pretty much anything—for instance, any residual gas—kills the cathodes,” Bazarov says. “We’re trying to engineer this very topmost layer of cesium to bind it to the surface more strongly, so it won’t just leave and cause a short cathode lifespan. On the other hand, we don’t want whatever we’re doing to the top layer to interfere with the cathode being a good photometer.”
+In initial results, the researchers have increased cathode lifespan by more than a factor of ten. “Now we are trying to go further,” Bazarov says. “We don’t want to just manipulate the top layer but actually start deeper and engineer the material in bulk so it has all the properties we want in addition to being robust with a longer lifespan.”
+Back to the Fundamentals
+Bazarov relishes the applied aspects of accelerator physics, along with the complexities. “You start out with a fundamental question: ‘What do I want to do?’ And then you ask, ‘Can I even
+do
+that?’” he says. “If you have a good idea, you can actually test it out and see how well it works. Some of the ideas we propose never work because the problem is so complex. We do the experiment and realize we need to go back to the fundamentals and find new ways to attack the problem.”
+More News from A&S
+Victoria Smith/Laude
+Members of the Cornell “Moonshot” lab will develop a novel infrastructure to ensure trust in online communication. From left: Natalie Bazarova, Robert Kleinberg, Cristian Danescu-Niculescu-Mizil, Jon Kleinberg, David Rand and Mor Naaman.
+Project to rebuild trust in AI era lands Laude’s $10M ‘moonshot’ award
+Psychology
+11/6/2026
+Cornell Chronicle
+Courtesy of Demo Lab Foundation
+From left: Marian Vidaurri, Rachel Riedl, Nia Demming at the July Cornell Tech event.
+‘Train the trainers’ event convenes democracy leaders, educators, activists
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+Sheryl Sinkow/Cornell University
+(From left to right): Professors Stewart Schwab, Oumar Ba, Nelson Tebbe, Mildred Warner, and Natasha Raheja.
+Scholarly leadership to protect and strengthen democracy
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+New book details history of sound’s claim on our attention
+Music
+11/6/2026
+A&S Communications
+View all news

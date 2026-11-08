@@ -1,0 +1,80 @@
+URL: https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/first-year/itcornell
+TITLE: IT@Cornell | Student & Campus Life | Cornell University
+FETCHED: 2026-11-06
+
+IT@Cornell
+Information Technologies at Cornell
+Purchase Computers and Software
+Review computer recommendations
+: Find out what sort of personal computer you need in the campus environment and what to consider when purchasing a new system.
+Check out student discounts at The Cornell Store
+: The Cornell Store offers academic pricing on selected technology products for Cornell students. Many software vendors offer student or educational pricing, and The Cornell Store has these available. Some software is free for students with a Cornell NetID. Their experienced staff will help you find the solution that’s right for you, plus they have a local repair center.
+Get free software:
+Microsoft Office
+(the most current versions of Word, Excel, PowerPoint, and more) and
+antivirus solutions
+are provided for FREE to students.
+Look into other software options: Depending on your field of study, you may find the software you need in the university's computer labs; software differs for each lab. Most software required for classes can be purchased at
+The Cornell Store
+or through
+CU Software Licensing Services
+.
+Get Connected to the Internet
+Set up eduroam
+ahead of your arrival. This is Cornell’s
+campus-wide Wi-Fi service
+. Setting up eduroam ahead of time means that when you step on to campus you will automatically connect to Cornell’s Wi-Fi network without having to log in with your NetID and password.
+Protect Your Computer, Your Identity, and Your Privacy
+Uninstall file sharing programs (for music, movies, software, etc. you don't own) prior to arriving at Cornell to
+avoid copyright infringement risks
+.
+Find answers to all your questions about Cornell's IT Services including free tools to help you collaborate and stay organized. Plus, learn what to do if your computer or NetID password are ever compromised at
+Student IT Resources
+.
+Set your NetID password security questions
+so you can reset your password if you ever forget it or suspect it has been stolen.
+Enroll in
+Two-Step Login
+so you can access services vital to getting started as a new student, such as Student Center, Student Essentials, and more,
+which require it to sign in
+. Two-Step Login blocks criminals from using stolen Cornell passwords by also requiring something they do not have, such as your cell phone.
+Always
+practice risk prevention
+to minimize the chances of theft or compromise to your devices. Safeguard your mobile devices against malicious software and loss or theft by using recommended
+security precautions
+. Find more online security tips and information at the
+IT Security and Policy
+.
+Student IT Resources
+Canvas
+Many instructors use the
+Canvas
+learning management system to provide online course materials, including notes, slideshows, quizzes, and more.
+Computer labs
+Computer Labs: Work on projects, use software you don't have, and print in the university's computer labs around campus. The labs have a variety of software, Windows and Mac computers, and networked laser printers.
+CU Print
+Install
+CU Print
+and start using your $15 annual print allocation.
+CU Print printers are available in many high-use areas
+around campus. Find out more about
+CU Print sustainability
+.
+LinkedIn Learning and Skillsoft
+Thousands of free online courses, videos, books, and software on the latest technical, creative, and business skills are available on
+LinkedIn Learning
+and
+Skillsoft
+.
+Manage passwords safely
+Manage your passwords safely
+by using a password manager like
+LastPass
+to simplify your online life and remember all your passwords on any device. Set a unique password or passphrase for each account.
+Zoom
+Activate your Cornell Zoom account
+and make a habit of logging into Cornell’s site (
+https://cornell.zoom.us
+) with your
+Cornell NetID and password
+, instead of using the generic Zoom site and a non-Cornell account. Many colleges and academic programs will be hosting required Zoom sessions before you arrive on campus that may require you to be signed in with your Cornell NetID.

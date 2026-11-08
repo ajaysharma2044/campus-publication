@@ -1,0 +1,103 @@
+URL: https://tech.cornell.edu/news/cornell-tech-announces-winners-of-its-2023-startup-awards/
+TITLE: Cornell Tech - Cornell Tech Announces Winners of its 2023 Startup Awards
+FETCHED: 2026-11-06
+
+Four student companies receive co-working space and $100,000 in pre-seed funding to pursue their startups after graduation
+NEW YORK, NY – Cornell Tech awarded four student startup companies with pre-seed funding worth up to $100,000 each in its tenth annual Startup Awards competition. The awards were announced at Cornell Tech’s Open Studio, the campus’ end-of-year celebration of startups and presentation of cutting-edge research, projects, and companies founded at Cornell Tech. A panel of tech industry leaders and executives, along with members of the Cornell and Cornell Tech faculty and staff, selected the winning student teams.
+“I am incredibly proud of the finalists for this year’s Cornell Tech Startup Awards and how much they have already achieved. They are taking exciting new ideas, devices, and algorithms and putting them to work on real-world problems. They have made their mark here at Cornell Tech, and it has been a pleasure to watch these students build some truly impressive companies,” said
+Greg Morrisett, the Jack and Rilla Neafsey Dean and Vice Provost of Cornell Tech
+. “I am confident that these companies will positively impact the world and I am excited to see what they accomplish in the coming years.”
+The 2023 Startup Award Winners are:
+Esger
+, a SaaS platform that simplifies the ESG certification process for small and medium-sized businesses so they are certification-ready in weeks, not months.
+Fig
+, which facilitates the Prior Authorization process for healthcare providers through intelligent automation and predictive analytics. So doctors can focus on patients, not paperwork.
+Gaia
+, whose intelligent design tools help architects unleash creativity, design faster, and streamline collaboration. Gaia generates beautiful form, and can follow function. Gaia thinks like an architect.
+Project B
+, which creates custom-fit bras that are tailored to each customer’s unique breasts using 3D body scans and produces them on demand. We provide our customers with an empowering experience by enabling them to define their fit and style preferences.
+Newsroom AI
+, a copiloting platform that accelerates news article generation in journalists’ own style, making journalists more productive while maintaining the quality and accuracy of their work, was a runner-up.
+Since the inception of Startup Studio, nine alumni companies have been acquired:
+Pilota
+, acquired by Hopper;
+Otari
+acquired by Peloton;
+Datalogue
+acquired by Nike;
+Auggi
+acquired by Seed Health;
+Uru
+, acquired by Adobe;
+Trigger Finance
+, acquired by Circle;
+Gitlinks
+, acquired by Infor;
+Bowtie
+, acquired by MINDBODY; and
+Thread
+Learning
+, acquired by CentralReach. In total, startups that have been founded and spun out on campus — including Startup Studio and the Runway Startup Postdocs at the Jacobs Technion-Cornell Institute — have raised more than $300 million in funding and employ more than 400 people in NYC.
+This year’s Open Studio also included a presentation of select BigCo Studio teams, where they showcased the challenges they worked on with Studio’s partner organizations throughout the semester. In BigCo Studio, students learn how to navigate working within big companies (BigCos) by being matched with a C-suite or VP advisor from a real BigCo to research, prototype, and present a new product that helps the company achieve its mission. This year’s BigCo Studio partner organizations featured Anheuser Busch, Adobe, CapitalOne, Google, IHG Hotels & Resorts, Microsoft, and Zinnia Health.
+This year, the Startup Studio program was led by Jenny Fielding, Sam Dix, and Alberto Escarlate, along with Cornell Tech’s Chief Practice Officer Josh Hartmann; Lyel Resner, Head of PiTech Studio; and studio directors Naomi Cervantes and Tyler Rhorick. The Startup Awards are a capstone of the Studio curriculum, a critical component of the master’s experience at Cornell Tech which brings together multi-disciplinary teams to solve real-world problems. In their final semester, students can choose to form teams and enroll in Startup Studio, where they combine their diverse program disciplines — computer science, operations research and information engineering, business, health tech, urban tech, connective media, electrical and computer engineering, and law — to develop ideas and prototypes for their startup in an academic setting.
+Students who don’t enroll in Startup Studio could choose to take the BigCo Studio or PiTech Studio tracks. In PiTech Studio, or Public Interest Tech Studio, students focus specifically on product development and business models that accelerate positive change in public, non-profit, for-profit, and hybrid sectors.
+Each Startup Award winner also receives coworking space at the Tata Innovation Center as part of the $100,000 investment.
+###
+About Cornell Tech
+Cornell Tech is Cornell University’s groundbreaking campus for technology research and education on Roosevelt Island in New York City. Our faculty, students, and industry partners work together in an ultra-collaborative environment, pushing inquiry further and developing meaningful technologies for a digital society. Founded in partnership with the Technion-Israel Institute of Technology and the City of New York, Cornell Tech achieves global reach and local impact, extending Cornell University’s long history of leading innovation in computer science and engineering.
+< Back to News
+SHARE THIS ON:
+Media Highlights
+Bloomberg Law
+Ripple Ruling Blurs Definition of Cryptocurrencies as Securities
+Mental Daily
+Study Takes A Closer Look At NYPD Patrol Patterns Using Dashcam Footage
+Tech Policy Press
+Content Moderation, Encryption, and the Law
+Princeton University
+Tech Expert Arvind Narayanan Takes the Helm at Princeton Center for Information Technology Policy
+Marktechpost
+A New AI Research from Stanford, Cornell, and Oxford Introduces a Generative Model that Discovers Object Intrinsics from Just a Few Instances in a Single Image
+RELATED STORIES
+News Category
+Startups
+News Category
+News
+Cornell Tech Professor’s Startup Receives $1.75 Million to Improve AI Efficiency
+Read the story
+about Cornell Tech Professor’s Startup Receives $1.75 Million to Improve AI Efficiency
+News Publisher
+Cornell Chronicle
+News Category
+AI
+AI-Enhanced Petitions on Change.org: More Text, Less Success
+Read the story
+about AI-Enhanced Petitions on Change.org: More Text, Less Success
+News Category
+Startups
+News Category
+News
+Cornell Tech Welcomes 13 Startups Changing How We Live, Work, and Heal
+Read the story
+about Cornell Tech Welcomes 13 Startups Changing How We Live, Work, and Heal
+News Publisher
+Cornell Chronicle
+News Category
+Press Room
+Campaign Closes With Record Support for Students and Research
+Read the story
+about Campaign Closes With Record Support for Students and Research
+News Publisher
+Cornell Chronicle
+News Category
+Press Room
+‘Hitting Dead Ends and Rethinking Everything’ – Bure Summer Scholars Explore Research Life
+Read the story
+about ‘Hitting Dead Ends and Rethinking Everything’ – Bure Summer Scholars Explore Research Life
+News Publisher
+Cornell Chronicle
+News Category
+Press Room
+Research Matters Returns, Following Ideas From the Lab To Real Life
+Read the story
+about Research Matters Returns, Following Ideas From the Lab To Real Life

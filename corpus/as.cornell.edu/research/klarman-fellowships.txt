@@ -1,0 +1,232 @@
+URL: https://as.cornell.edu/research/klarman-fellowships
+TITLE: Klarman Fellowships
+FETCHED: 2026-11-06
+
+Klarman Fellowships
+About the Fellowships
+The Klarman Fellowships in the College of Arts & Sciences provide postdoctoral opportunities to early-career scholars of outstanding talent, initiative and promise. Among the most selective of its kind in the country, the program offers independence from constraints of particular grants, enabling the recipients to devote themselves to frontline, innovative research without being tied to specific outcomes or teaching responsibilities.
+Recipients may conduct research in any discipline in the College: natural, quantitative, and social sciences, humanistic inquiry, the creative arts, and emerging fields that transcend traditional disciplinary boundaries. Fellows are selected from a global pool of applicants based on their research accomplishments, potential for future contributions, and alignment of scholarly interests with those of their proposed faculty mentors in Arts & Sciences. The candidates will also be assessed on how their work can benefit from and contribute to the momentum in strategic research areas in the College.
+Klarman Fellowships are made possible by Seth Klarman, a 1979 graduate of the College of Arts & Sciences, and Beth Schultz Klarman. Seth Klarman is CEO of the Boston-based Baupost Group, LLC, and Beth Klarman is co-chair of The Klarman Family Foundation.
+Eligibility
+Klarman Fellowships are awarded to emerging researchers of exceptional promise in any of the disciplines in the College of Arts & Sciences at Cornell University. Competitive applications will demonstrate the candidate’s capacity for original thought, combined with intellectual rigor and discipline to investigate their ideas in meaningful ways. A tenure-track or tenured faculty member holding a current, primary appointment in the College of Arts & Sciences must agree to serve as the faculty host for the candidate, as confirmed by a host faculty sponsorship form at the time of application. The faculty host agrees to mentor and support the candidate throughout the entire fellowship period. Applicants may also have a Cornell faculty co-host. The co-host must be a tenured or tenure-track faculty member at Cornell University and may be appointed in any Cornell school or college.
+Note that a particular faculty member can sponsor a maximum of two applicants in a given application cycle. It is the applicant’s responsibility to identify and communicate with potential hosts well ahead of the application deadline. Additionally, each applicant should arrange for letters of recommendation to be submitted by three references, one of whom must normally be the applicant’s primary doctoral advisor.
+Awardees must have earned the doctoral degree within two years of beginning the Klarman Fellowship (i.e., for 2027 recipients, no earlier than 1 May 2025). Candidates with two or more years of postdoctoral experience and those who received their PhD from Cornell or have held any position at Cornell for more than six months at the time of application are not eligible. Candidates who received an undergraduate or master's degree from Cornell are, however, welcome to apply. Awardees may not simultaneously hold any other paid or unpaid position during the term of the appointment. Prior to the start of the fellowship, candidates will be asked to provide proof that their doctoral degree has been conferred.
+Current Fellows
+2026 Cohort:
+Luca Abbattista
+(PhD, Italian and comparative literature, Columbia University). Luca's research examines how aesthetic artifacts coming from the U.S. shaped the Italian national imagination from its fascist era to the Cold War, aiming to offer a new paradigm for understanding how international circulation of culture makes up national imagined communities. The research explores lives of fascists, G.I.s, writers and U.S. Information Service personnel, creating bridges between material history, literary studies and political theory. Abbattista’s faculty host is
+Caroline Levine
+, the David and Kathleen Ryan Professor of Humanities in literatures in English.
+Jonathan DeStefano
+(PhD, physics, University of Washington). His research interests include a wide variety of quantum materials. One of these, 2D materials, show great technological potential, but their study is hindered by the small number of experiments able to measure them. Currently, ultrasound experiments are useful in the study of quantum states of matter but are limited to macroscopic three-dimensional materials. As a Klarman Fellow, DeStefano will develop a form of nanomechanical ultrasound to study atomically thin 2D materials, which will allow for a new way to directly probe their fascinating states. This research contributes to development of the next generation of technology, which will require a thorough understanding of more exotic types of quantum materials, such as unconventional superconductors that can be used as important platforms for studying fault-tolerant quantum computing. DeStefano’s faculty host is
+Brad Ramshaw
+, associate professor of physics.
+Nomaan Hasan
+(PhD, anthropology, Brown University). His research seeks to develop conceptual resources for living with difference at a moment when cultural particularity is mobilized by exclusionary political projects. Drawing on ethnographic fieldwork in India, he studies the ideological and aesthetic strategies through which ordinary citizens confront the rise of post-liberal populism. Hasan’s faculty host is
+Natasha Raheja
+, assistant professor of anthropology.
+Alec Hegg
+(PhD, chemistry, Yale University). As a Klarman Fellow, he aims to develop atomically precise quantum materials through the assembly of molecular metal oxide building blocks. Quantum materials exhibit emergent properties – such as magnetism and superconductivity – arising from correlated electron spins, particularly in geometries that produce spin frustration. Hegg’s project focuses on high symmetry metal oxide clusters, whose quantum‑confined electronic structures show promise for tunable spin correlations. By modifying the organic ligands bound to iron, cobalt and nickel clusters, Hegg will control stability, electronic structure and magnetic behavior. These tailored clusters will then be linked using bridging ligands to assemble 1D, 2D, and 3D hierarchical materials. His faculty host is
+Jonathan Kephart
+, assistant professor of chemistry and chemical biology.
+Julia Laterza Barbosa
+(PhD, ecology and evolutionary biology, Yale University). Julia's research investigates how frog physiology and behavior evolve in response to environmental demands, focusing on water balance and temperature regulation. In frogs, skin is central to respiration, hydration, and defense and therefore highly permeable. Frogs are especially vulnerable to desiccation, particularly under climate change, yet they occupy diverse habitats worldwide, suggesting repeated evolutionary solutions to shared challenges. As a Klarman Fellow, Laterza Barbosa will examine whether similar climates and microhabitats drive convergent evolution in skin traits across distantly related species of frogs. By testing how skin microanatomy, texture and other traits co-evolve across frog lineages, her research addresses whether evolution is repeatable under similar selective pressures. Her faculty host is
+Molly Womack
+, assistant professor of ecology and evolutionary biology.
+Jenny Lee
+(PhD, Annenberg School for Communication, University of Pennsylvania). Her research examines the intersections of labor, identity and culture behind surveillance use and investment. As a Klarman Fellow, she will expand on her book project, which focuses on doorbell camera users and the historical and racial politics of neighborhood surveillance. Her qualitative fieldwork in the cities of Ithaca and New York City will examine the processes, narratives and relationships behind smart city and smart policing initiatives. Lee’s faculty host is
+Malte Ziewitz
+, associate professor of science and technology studies. Her faculty co-host is
+Karen Levy
+, associate professor of information science in the Cornell Ann S. Bowers College of Computing and Information Science and associate member of the Law School faculty.
+Matthew Carrozo
+Adam Mahler
+Adam Mahler
+(PhD, Romance languages and literatures, Harvard University). Adam researches the social history embedded in the formal features of literary texts in Spanish, Portuguese, and the languages and varieties of the Sephardic diaspora. Rather than treating literary form as a function of genre or influence, his scholarship investigates how it registers major ecological, political and social transformations over time. As a Klarman Fellow, he will complete a book tracing how changes in poetic form emerged under ecological pressure and start another book examining how colonial expansion and violence against minoritized communities affect literary transmission and reception. His faculty hosts are
+Manuel Olmedo Gobante
+, assistant professor in early modern Hispanic studies, and
+Cynthia Robinson
+, the Mary Donlon Alger Professor of history of art and visual studies.
+Karann Putrevu
+(PhD, environment and resources, University of Wisconsin, Madison). He studies tiger ecology and conservation with field and computational approaches. As a Klarman Fellow, he will study the prey depletion pressure faced by tigers due to African Swine Fever (ASF). ASF has spread throughout Asia and kills wild pigs at lethality rates approaching 100%, posing a critical threat to tiger populations that depend on pig species as primary prey; this includes populations in the Russian Far East, peninsular Malaysia and Sumatra. Putrevu will use population and energetic modeling alongside field data collection to identify high risk landscapes for tigers and to plan interventions. His faculty host is
+Andrew Clark
+, the Jacob Gould Schurman Professor of Population Genetics, and he will also collaborate with
+Martin Gilbert
+, wildlife veterinarian and epidemiologist with the Cornell K. Lisa Yang Center for Wildlife Health.
+Say Jye Quah
+(PhD, politics and international studies, University of Cambridge). A political theorist of postcolonial modernity, Say Jye draws on international relations, Southeast Asian studies and postcolonial studies to examine how Third World actors – especially in Southeast Asia – reshaped international order. His dissertation traces divergent visions of postcolonial socialism within the political thought of Indonesian President Sukarno and Singaporean Prime Minister Lee Kuan Yew, rethinking socialism’s global afterlives after empire. His postdoctoral project investigates how Singaporean politicians and diplomats helped co-produce the liberal international order through interventions in Cold War, post-Cold War and post-2015 debates. His faculty host is
+Oumar Ba
+, the Hardis Family Assistant Professor for Teaching Excellence in the Department of Government.
+David Rose
+(PhD, psychology, Stanford University and PhD, philosophy, Rutgers University). Studying moral psychology, Rose focuses on questions of responsibility and causation, arguing that there are different kinds of causes, each with their own profile and developmental trajectory in how they shape responsibility. As a Klarman Fellow, he will develop a new research program exploring how different kinds of causes structure moral responsibility. Working with faculty hosts
+Shaun Nichols
+, Distinguished Professor of Arts & Sciences in Philosophy, and
+David Pizarro
+, professor of psychology, on three projects, Rose will investigate aspects of moral psychology and causation: fault and punishment; mental states and causes; and causal deviance. His research rethinks the foundations of moral responsibility and advances our understanding of how humans connect causation and responsibility, alongside value and purpose.
+Terry Song
+(PhD, mathematics, University of Cambridge). His research is on moduli spaces in algebraic geometry – spaces that parametrize geometric objects and are described algebraically. He studies their geometry and topology via their natural combinatorial structures – partitions, graphs and polyhedral – that capture how objects degenerate. As a Klarman Fellow, Song will pursue projects on tropical geometry and combinatorics of moduli spaces involving algebraic curves and geometry and enumerative invariants of logarithmic moduli spaces. His faculty host is
+Rachel Webb
+, assistant professor of mathematics
+2025 Cohort:
+Kendall Artz
+(PhD, American studies, William and Mary). Artz’s research examines a purportedly mixed-race group in Western Louisiana called the Redbones, considering how Redbone racial difference, which is largely imperceptible to outsiders, is identified by locals familiar with regional racial markers including surname, geography, and socioeconomic class. Artz argues that the perception of phenotypical difference is colored by the ideological lens of race and highlights the interpersonal construction of race that takes place every day in the U.S. Artz’s faculty host is
+Michell Chresfield
+, assistant professor in the Africana Studies and Research Center.
+Tatiana Bebchuk
+(PhD, geography, University of Cambridge) studies climate and environmental changes of the past. She uses relict, well-preserved trees, to develop high-resolution climate reconstructions and place recent warming in a long-term context of climate natural variability. At Cornell, Bebchuk will focus on the “4.2ka event,” abrupt climate changes that occurred circa 4,200 years ago and are believed to have contributed to the decline of several ancient civilizations. She will reconstruct climate conditions for the North Atlantic and the Middle East, aiming to unveil the causes and better understand societal consequences of this highly-debated climate event. Bebchuk’s faculty host is
+Sturt Manning
+, Distinguished Professor of Arts and Sciences in classics.
+Rahul Jayaraman
+(PhD, physics, Massachusetts Institute of Technology, with a focus on astrophysics). His research project proposes to use all-sky data collected from ground-based survey telescopes and space-based observatories, leveraging their synergies to characterize the early-time behavior of some of the most enigmatic classes of transient astrophysical events: gamma-ray bursts and the newly-discovered class of “Fast Blue Optical Transients.” Both classes of transients are thought to result from the deaths of massive stars, although the moment of explosion and its immediate aftermath remain poorly understood. Studying these transients will yield insights into the final moments of massive stars and the environments surrounding them. His faculty host is
+Anna Y. Q. Ho
+, assistant professor of astronomy.
+Stephanie Leitzel
+(PhD, history, Harvard University). Her book project examines early globalization and capitalist development through the uniquely revealing lens of color, focusing on natural dyes – plants, insects, and minerals – that were the most global raw materials used in European textile industries. Her faculty advisor is
+Ernesto Bassi
+, associate professor of history.
+Annina Lieberherr
+(PhD, chemistry, University of Oxford). She is working on formulating a quantum version of transition path theory which is used to calculate chemical reaction rates, testing it on model potentials and applying it to study enzymatic reactions. This work will enable the calculation of rates of electron, proton, and energy transfer which are key to understanding a diverse set of processes, including enzyme catalysis and ion transport through polymer electrolytes. Her faculty host is
+Nandini Ananth
+, associate professor of chemistry and chemical biology and her co-host is
+Erik Thiede
+, assistant professor of chemistry and chemical biology.
+Arthur Platschorre
+(PhD, theoretical physics, University of Oxford). Platschorre’s research is aimed at applying generalized symmetries – powerful new theoretical tools – to current models of new particles in order to identify well-motivated pathways for experiments in particle physics. His projects include work on the axion, a promising candidate for resolving several shortcomings of the Standard Model of particle physics. His faculty host is
+Csaba Csáki
+, the John A. Newman Professor of Physical Sciences.
+Taylor Vincent
+(PhD, government, University of Maryland). Vincent’s research addresses questions related to civil conflict and political violence, with a focus on the gendered consequences of civil war. Her book project speaks directly to the growing literature on gender and conflict, centering on the variation of women’s status in countries emerging from civil war. Her faculty host is
+Sabrina Karim
+, associate professor of government.
+Masayoshi Yamada
+(PhD, history, University of California, Los Angeles). His research examines the intersection of popular music and social change, with a focus on the political potential of listening in the 20th-century United States and globally. His book project on the history of jazz fandom explores how jazz listeners transformed the social space of music listening into a site for advancing racial justice, both locally and transnationally, throughout the Great Depression, the long Civil Rights Movement, the Cold War and the postindustrial era. His faculty host is
+Benjamin Piekut
+, professor of music and his co-host is
+Russell Rickford
+, associate professor of history.
+Hamed Yousefi
+(PhD, art history, Northwestern University). His research project questions the formative assumption in art history that modern art is secular. Following the consequences that emerge from the invention of the category of “Islamic art” in modern scholarship, he examines the careers of six Iranian-born artists who variably lived and worked in Iran, Europe, and the United States between 1880 and 1980, to show how and why artists refashioned the Islamic notion of imagination (khayal) and Neoplatonic image theories in response to new questions concerning reality and representation in this period. His faculty host is
+Seema Golestaneh
+, associate professor of Near Eastern studies.
+2024 Cohort:
+Lili Alderson
+(PhD, physics, University of Bristol) studies exo-Neptunes – Neptune-sized planets outside of our Solar System. As a Klarman Fellow, Alderson will undertake uniform analysis and modeling of exo-Neptune atmospheres to search for trends across the population. Her research will provide important insights into the processes and compositions at play within a variety of Neptunian atmospheres, forming the first step in interpreting the exo-Neptunes as a class of planets in their own right. Alderson’s faculty host is
+Nikole Lewis
+, associate professor of astronomy.
+Katharine Lindquist
+(PhD, anthropology, Emory University). Her book project investigates the political subjectivities of young, middle-class professionals in urban Uganda and their role in the recent wave of social justice movements in the country, based on 24 months of ethnographic research in the capital, Kampala. She will work with faculty host
+Saida Hodžić
+, associate professor of anthropology, on a broader critique of westernized ideals of “progressive” social justice movements through an ethnographic analysis of the experience of Ugandan activists.
+Davide Napoli
+(PhD, classics, Harvard University) offers a new literary history of classical Greece and a political theory of democratic polarization, which demonstrates that ancient Greek polarization largely avoided the divisive extremes affecting many contemporary polities and provided instead a generative framework for intellectual innovation. His faculty host is
+Jill Frank
+, the President White Professor of History and Political Science.
+Inbal Ravreby
+(PhD, brain sciences, Weizmann Institute of Science) focuses on social cognitive neuroscience at the behavioral, physiological and neural levels. As a Klarman Fellow, Ravreby will examine subconscious self-other comparisons that are linked to self-other blurring. Within this line of research, she will examine whether people subconsciously compare between the specific typical dynamics of their own facial expressions and others’ facial expressions, and in turn, the similarity influences the degree of liking, familiarity, emotional understanding and memory performance. Her faculty hosts are
+Vivian Zayas
+, professor of psychology (A&S) and
+Adam Anderson
+, professor of psychology in the College of Human Ecology.
+Victor Souza
+(PhD, pure mathematics, University of Cambridge) studies the phenomena of synchronization from the mathematical point of view with the goal of providing rigorous and informed descriptions of the conditions under which spontaneous synchronization occur. As a Klarman Fellow, he will extend previous research on networks of oscillators to realistic scenarios, such as power grids, the internet and social networks. Souza’s faculty host is
+Steven Strogatz
+, the Susan and Baron Winokur Distinguished Professor for the Public Understanding of Science and Mathematics, and his co-host is
+Martin Kassabov
+, professor of mathematics.
+Past Fellows
+Click here to view past Klarman Fellows
+Klarman Fellows in the news
+Engine House and Hannah Wakeford/Provided
+The shape of WASP-17b’s atmosphere mapped using transmission strings. The planet has a broad banded jet around the equator with vast wind speeds which transport material and heat from the permanently irradiated dayside to the permanently shadowed nightside.
+Engine House and Hannah Wakeford/Provided
+The shape of WASP-17b’s atmosphere mapped using transmission strings. The planet has a broad banded jet around the equator with vast wind speeds which transport material and heat from the permanently irradiated dayside to the permanently shadowed nightside.
+Astronomy
+Pulling strings: New method maps exoplanet’s true shape
+10/15/2026
+Cornell Chronicle
+Provided
+Maya K'iche' broadcaster Beatriz Guarchaj Guarchaj
+Provided
+Maya K'iche' broadcaster Beatriz Guarchaj Guarchaj
+Klarman Fellows
+Panel explores Indigenous voices in Abiayala/Latin America
+3/30/2026
+A&S Communications
+Jason Koski/Cornell University
+Peter John Loewen, the Harold Tanner Dean of Arts and Sciences, leads his government class, Disagreement.
+Jason Koski/Cornell University
+Peter John Loewen, the Harold Tanner Dean of Arts and Sciences, leads his government class, Disagreement.
+Government
+Course introduces students to constructive disagreement
+3/16/2026
+Cornell Chronicle
+Terms of the Fellowship
+Typically, ten Klarman Fellows are appointed each year.
+Klarman Fellows may be appointed for up to three years. Annual reappointment is subject to evaluation of scholarly progress by the faculty host and the College.
+The Klarman Fellowship may not be held concurrently with any other funded fellowship or employment.
+Fellowship start date is negotiable between 1 July and 1 September.
+Candidates are usually notified of selection decisions between mid-December and mid-January. Cornell University also publishes an announcement of awardees once the cycle is complete.
+Klarman Fellows are provided an annual stipend of $80,000, plus Cornell benefits.
+In addition to the annual stipend, Klarman Fellows are provided with an annual research fund of $12,000. Up to $2,000 in the first year may be used to help cover moving expenses (not including large non-household items such as automobiles, storage costs, or additional costs for more than one pick-up and/or drop-off location, or personal travel costs).
+Publications, presentations, and creative works drawn from research or activities conducted during the Fellow's appointment must acknowledge, verbally and/or in writing, the support of the Klarman Fellowship.
+Limited teaching may be allowed by prior approval as part of the Fellowship, specifically if it supports the professional development of a Klarman Fellow.
+The Klarman Fellowship is a residential program based at Cornell University, and with the exception of limited absences for fieldwork, research trips, conferences, and the like, Klarman Fellows are expected to be in Ithaca during the Fellowship term.
+How to Apply
+The application portal for the next cycle will open on
+15 August 2026
+.
+All applications and supporting materials must be submitted electronically via the
+Klarman Fellows portal
+.
+Three letters of recommendation and a Cornell faculty host sponsorship form must be submitted by
+Thursday 15 October 2026, 11:59 pm EDT.
+Applicants with a Cornell faculty co-host must also secure a sponsorship form from the co-host.
+Applications without these materials submitted by this deadline will not advance for review
+(see below for details).
+The full application must be completed, submitted, and received by the final deadline of
+Thursday 15 October 2026, 11:59 pm EDT.
+Applicants will be required to provide biographical information, including expected (or actual) date that the PhD degree will be conferred. Note that the PhD degree must be received before beginning the Klarman Fellowship.
+Full CV in PDF format. List accepted publications (with DOI, if applicable). It is acceptable to list submitted publications in review or in revision, but do not list papers in preparation. Please list refereed publications separately from non-refereed publications, conference proceedings, etc. Do not include publication reprints.
+Description of proposed research (maximum 2 pages, single spaced, 12 point font, 1 inch margins, PDF format. Citations are not required but if included may be on a 3rd page). The applicant must describe their research clearly, concisely, and free of jargon so that its purpose, significance to advancing the discipline, and methodological rigor can be evaluated by faculty reviewers from diverse disciplines. In addition, the proposal must describe resources necessary to conduct the project and an informed evaluation of resource availability at Cornell.
+Full name and contact information of the Cornell faculty host. The Cornell host must be an active tenured or tenure-track Cornell faculty member whose primary appointment is in the College of Arts & Sciences and who commits to supporting the Fellow throughout their fellowship appointment.
+The prospective Cornell faculty host will receive a system-generated email with instructions for submitting their sponsorship form. We strongly suggest that applicants inform their Cornell faculty host to check their spam/clutter filters if necessary. It is the applicant’s responsibility to verify their host’s Cornell email address and to ensure that they complete the sponsorship form by
+15 October 2026
+, 11:59 pm EDT.
+Applications without a Cornell faculty host sponsorship form submitted by the deadline will not be reviewed
+.
+Full name and contact information of three references, including the applicant’s doctoral advisor. References should be scholars who are very familiar with the applicant’s research and can speak in detail about their prior working relationship with the applicant, the importance of the proposed research, and the scholarly and professional qualities that enable the applicant to complete the proposed research successfully. Prospective Cornell faculty hosts or co-hosts should
+not
+be one of the three references. References may not be relatives, either direct or through marriage/domestic partnership, of the applicant. Except in rare circumstances, one of the three references should be the applicant’s primary doctoral advisor. For questions about exceptions, please contact
+KlarmanFellows@cornell.edu
+.
+References will receive a system-generated email with instructions for uploading their letter. We strongly suggest that applicants notify their references to check their spam/clutter filters if necessary. It is the applicant’s responsibility to verify their references' email addresses and to ensure that they upload a letter of recommendation, in PDF format, by
+15 October 2026
+, 11:59 pm EDT.
+Applications without three letters of recommendation will not be reviewed
+.
+Applicants will receive email verification when each reference submits their letter of recommendation.
+Note: once all materials are submitted, the applicant must log in to the application portal and click "review and submit" by the application deadline of 15 October 2026 at 11:59 p.m. EDT.
+For this reason, we
+strongly recommend
+that applicants request that their references submit letters one day prior to the application deadline.
+Applications that are not reviewed and submitted will not advance
+.
+Applicants who proceed to the final stage of selection will be invited to participate in an interview via video conference with the selection committee.
+Non-US citizens are welcome to apply.
+Candidates will be notified of selection decisions from mid-December to mid-January.
+Klarman Fellows portal
+Process Timetable
+mid-August
+Application submission opens
+mid-October
+Applications (including all letters of reference and faculty sponsorship form) due online
+early December
+Finalists invited for interview (by video conference)
+mid-December – mid-January
+Successful candidates are notified
+1 July – 1 September
+Klarman Fellows will begin at Cornell
+Contacts
+If you have questions about the program or the application process, please contact the Klarman Fellows Office at:
+KlarmanFellows@cornell.edu
+.

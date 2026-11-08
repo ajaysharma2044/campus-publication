@@ -1,0 +1,74 @@
+URL: https://fcs.cornell.edu/departments/energy-sustainability/energy-management-overview/energy-conservation-overview
+TITLE: Energy Conservation Overview | Facilities and Campus Services
+FETCHED: 2026-11-06
+
+Energy Conservation
+Energy Conservation Overview
+Dramatic and lasting conservation results are achieved by continuously optimizing our building automation and control systems, heat recovery systems, and lighting systems.  Conservation-focused preventive maintenance on these systems reduces usage and maintains performance.  Conservation studies and capital improvement projects add the latest features that can be cost-effectively retrofitted to existing systems.  New construction and renovation on campus are guided by mandated features, energy usage intensity goals, and life cycle cost benefit analysis.
+As full-time staff members, a Senior Engineer and a Project Coordinator oversee the energy management program for all facilities on central campus. Building energy use is being tracked now through
+Cornell's GRITS public dashboard
+.
+(Sort by choosing only Cornell in the top left-hand side box.)
+Energy Conservation Initiative (ECI) Project Savings
+As of the early 2020s, the ECI program at Cornell had saved the university over $75 million dollars and avoided over 320,000 MTCO2e, or greenhouse gas emissions that contribute to climate change.
+Browse data about
+our progress towards neutrality
+to understand the impact of ECI projects in context.
+Cornell uses the
+Green Revolving Investment Tracking System (GRITS)
+to track and calculate project-level energy, financial, and carbon savings data for all ECI projects and efficiency improvements. Check out
+Cornell's GRITS public dashboard
+.
+(Sort by choosing only Cornell in the top left-hand side box.)
+The energy-saving benefits of Cornell's ECI approach are substantial. As of early 2024, ECI projects have saved the University a cumulative 3.5 million MMBtus, which is equivalent to taking our Central Energy Plant completely offline for more than a year. The CEP is powered by natural gas, meaning ECI projects have significantly reduced Cornell's carbon footprint and prepared the institution to transition to renewable energy with a lower overall energy load.
+Another way to understand these savings is through Cornell's "flat line" energy use. Cornell University has seen no growth in energy use since 2000 as a result of energy conservation efforts, in spite of campus square footage growing by 20% during that same time.
+Of special note was the
+Campus-Wide LED Replacement Project,
+completed in 2019, with the replacement of 156,000 four-foot fluorescent tube lamps with more energy-efficient lighting across a significant portion of campus buildings. By replacing traditional fluorescent lighting with high-efficient LED tubes with a longer life, Cornell has realized $635,000 in savings annually, and over $8 million in total savings over the lifetime of the bulbs' expected life. In addition, the project saves over 8.5 million kWh of energy annually, equating to an annual carbon savings of 3,370 MTCO2e.
+Lighting upgrades save Cornell $2.9 million, reduce carbon footprint
+, Campus Sustainability Office November 7, 2019
+Present efforts
+Energy Conservation Initiative
+Conservation focused on preventive maintenance
+Energy studies
+Building systems' conservation projects - lighting and heating, ventilating, and air conditioning, weatherization, insulation
+i.e.
+nearly 20,000 horsepower of building variable speed drives were installed on fans and pumps in heating, ventilating, and air conditioning (HVAC) systems. The alternating current drive technology on campus saves approximately 30,000,000 kWh/yr. This technology alone saves nearly 10% of campus electricity consumption.
+Demand-controlled ventilation/occupancy sensor-based control strategies
+New sensor technology allows the installation of occupancy sensors for lighting and for heating/cooling/ventilation in spaces where they could be cost-effective. The sensors are installed throughout many parts of the campus to turn off or set back systems when people are not moving in the spaces.  Daylight-level-based controls are used whenever cost-effective in new construction.
+User-friendly environmental controls
+Green office equipment and computing
+High efficiency humidification and controls
+Growth chamber lighting and controls retrofits
+Heat recovery retrofits
+New construction and major renovation features
+Dedicated outdoor air with heat recovery and decoupled space conditioning
+Sensible heating and cooling systems - chilled beams, radiant floors
+Demand-controlled ventilation/occupancy sensor-based control strategies
+Adaptive fume hoods
+Adaptive reset on building air and water systems
+High-performance envelopes
+High efficiency lighting and lighting controls
+Over 83,000 two-lamp fixtures were modified or replaced. This project reduced lighting energy use on average by 30 percent, and in many places improved light levels in work areas.
+Heat recovery
+There are a number of building systems on campus that require 100% outside air and full exhaust from the space, totaling over 3 million cubic feet of air per minute!  In some of these cases, it has been possible to utilize heat recovery to preheat the incoming outside air with some of the heat in the leaving exhaust air.
+Hybrid growth chambers - refrigeration and campus heating/cooling
+High efficiency humidification and controls
+Quick Links
+Energy Conservation Initiative
+Conservation Focused Preventive Maintenance
+Contact Us
+Michael Boggs
+– Metering Program Coordinator
+607/255-5310
+mtb4@cornell.edu
+Jason Collins
+– Energy Project Coordinator
+607/254-4728
+jdc388@cornell.edu
+Samuel Fairchild
+– Energy Engineer
+607/254-2352
+svf9@cornell.edu
+131 Humphreys Service Building
+Ithaca, NY 14853

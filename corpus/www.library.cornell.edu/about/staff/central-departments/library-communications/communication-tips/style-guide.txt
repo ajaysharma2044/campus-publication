@@ -1,0 +1,258 @@
+URL: https://www.library.cornell.edu/about/staff/central-departments/library-communications/communication-tips/style-guide/
+TITLE: Style Guide – Cornell University Library
+FETCHED: 2026-11-06
+
+About this Guide
+As we create different outward-facing communications — from websites and newsletters to emails — this resource will help us achieve consistency in tone, language, and terminology.
+Consistency, in turn, will foster a sense of coherence and familiarity: Throughout our individual libraries, we’re able to communicate a
+unified Cornell University Library identity
+that will help our users and audiences know and recognize us.
+This style guide is based on the
+Chicago Manual of Style Online
+, which is a comprehensive guide with many examples and detailed, practical advice. If you have a question not covered by our style guide, please contact us at
+libcomm@cornell.edu
+.
+On This Page
+Voice and Tone
+Names and Terms
+Cornell University Library
+Names of Unit Libraries and Departments in Relation to Cornell University Library
+Names of Unit Libraries
+Names of Departments, Committees, Etc.
+Other Terms
+Numbers, Dates, and Times
+Punctuation and Special Characters
+“And” Instead of “&”
+Dashes
+Hyphens
+Serial Commas
+Webpage Headings
+Accessibility Best Practices
+Voice and Tone
+We communicate both to inform and to engage. In appealing to our readers,
+use warm, conversational language as much as possible
+, and avoid the use of jargon, or overly formal and technical language.
+Where it’s appropriate, use the first-person plural pronoun “
+we
+” to represent our Cornell University Library community.
+Also, remember to use
+active voice
+.
+Example:
+Original:
+The research needs of different patrons and students at Cornell and outside the university are met by Cornell University Library staff members.
+Revised:
+Whether you’re a student or researcher at Cornell or beyond, we’re here to help you find the research materials you need.
+Top
+Names and Terms
+Cornell University Library
+Upon first mention: Cornell University Library
+Subsequent mentions: the Library
+Our name “Cornell University Library” should always be singular
+. This emphasizes and clarifies that we are one library organization, even though we are composed of several unit libraries.
+Don’t use the definite article as in “
+the
+Cornell University Library.”
+Don’t refer to us as “the library system.”
+Upon first reference in text where the first-person plural pronoun is not appropriate, use “Cornell University Library.”
+For subsequent references, if repeating the full name becomes cumbersome, you may simply use “the Library” as long as the reference is clear. For outward-facing communications, please avoid the use of the initialism “CUL,” although it is acceptable for staff communications.
+We only use the word “Library” in its capitalized form as a shortened reference to Cornell University Library
+as a whole
+.
+When used as a generic adjective to refer to services, resources, or staff of libraries in general, don’t capitalize. But capitalize when used to refer to our own specific Library, especially if there’s potential for confusion.
+Examples:
+All across the country, library employees are holding events for Banned Books Week. Our Library employees are participating by creating displays to help raise awareness about censorship. [Or: The Library’s employees are participating by creating displays to help raise awareness about censorship.]
+Cornell University Library is essential to teaching and scholarship. The Library is also one of the biggest employers of student workers on campus.
+Cornell University Library is composed of several individual libraries across campus. Some of these libraries are also closely connected with colleges and schools. Catherwood Library, for example, has vital ties to the ILR School community.
+From her experience as a librarian in several institutions prior to joining the Library, she knows how to adapt to different library settings.
+Names of Unit Libraries and Departments in Relation to Cornell University Library
+On websites or on promotional material we can rely on the
+Cornell University Library brand
+to set the appropriate context for unit libraries and departments. When writing an article, for example, include a statement somewhere in the piece that describes the unit’s relationship to the whole organization.
+Examples:
+Students visited the Kheel Center in Catherwood Library. Catherwood, located in the ILR School, is part of Cornell University Library.
+The Donovan Nuremberg Trials Collection was established in the Law Library of Cornell University Library, located in the Law School.
+The A. D. White Library is one of Cornell University Library’s most popular locations, especially among visitors.
+Names of Unit Libraries
+Legal/formal use
+– required for legal and formal business documents such as bylaws
+Standard use
+– minimum requirement on first mention in most settings such as web site banners and articles, ordinary course of business
+Shorthand use
+– for subsequent mentions and verbal situations, or when the character count is limited
+Legal/formal use
+Standard use
+Shorthand use
+Not approved
+Albert R. Mann Library
+Mann Library
+Mann
+Carl A. Kroch Library
+Kroch Library
+Kroch
+Carl A. Kroch Library Division of Asia Collections
+Kroch Asia Collections
+Kroch Asia, Asia Collections
+Asia Library
+Carl A. Kroch Library Division of Rare and Manuscript Collections
+Rare and Manuscript Collections
+RMC
+Edna McConnell Clark Library of Physical Sciences
+Clark Physical Sciences Library
+Physical Sciences Library
+Engineering Library
+Engineering Library
+Engineering Library
+Flower-Sprecher Veterinary Library
+Flower-Sprecher Veterinary Library
+Veterinary Library
+John Henrik Clarke Africana Library
+Clarke Africana Library
+Africana Library
+John M. Olin Library
+Olin Library
+Olin
+Kheel Center for Labor-Management Documentation & Archives
+Kheel Center
+Kheel
+Law Library
+Law Library
+Law Library
+Law School Library
+Library Annex
+Library Annex
+the Annex
+Management Library
+Management Library
+Management Library
+Johnson School Library
+Martin P. Catherwood Library
+Catherwood Library
+Catherwood Library
+ILR Library
+Mathematics Library
+Mathematics Library
+Mathematics Library, Math Library
+Medical Center Archives
+Medical Center Archives
+Medical Archives
+Mui Ho Fine Arts Library
+Mui Ho Fine Arts Library
+Fine Arts Library
+Nestlé Library
+Nestlé Library
+Nestlé
+Hotel School Library
+Samuel J. Wood Library
+Wood Library
+Wood Library
+Sidney Cox Library of Music and Dance
+Cox Library of Music and Dance
+Music Library
+Uris Library
+Uris Library
+Uris
+Names of Departments, Committees, Etc.
+Spell out and capitalize the first reference to the department or library group. If the department uses an initialism or acronym as its shortened form, indicate this shortened form in parenthesis after the first mention and then use the shortened form in subsequent references.
+Example:
+Founded in 2003, Digital Consulting and Production Services (DCAPS) was created to be the Library’s single point of service for those wishing to create digital collections. DCAPS provides […]
+Other Terms
+“BorrowDirect” (no space) not “Borrow Direct”
+“course reserves” not “Course Reserves”
+FOLIO (always capitalize as an acronym for “the Future Of Libraries Is Open”)
+“Interlibrary Loan” not “InterLibrary Loan”
+“library catalog” not “library catalogue”
+“webpage” not “web page”
+“website” not “web site”
+Top
+Numbers, Dates, and Times
+Spell out one through nine (cardinal and ordinal); use numerals for 10 and higher. Use numerals for dates and time.
+Always spell out numbers when beginning a sentence.
+Examples:
+Forty years ago, card catalogs were used in libraries.
+I was seven years old when I visited my first library. I got my first library job at age 17.
+For dates, use the cardinal form and not ordinal. Also use the American sequence (month followed by date and year).
+Examples:
+January 18, 2022 (not January 18th, 2022 or 18 January, 2022)
+Our regular schedule begins February 7. (not February 7th)
+For time, use a.m. and p.m. For date ranges, use en dash with no spaces (“–”) or “from” and “to.”
+Examples:
+The lecture is at 5:30 p.m.
+February 2, 8:00 a.m.–5:00 p.m.
+5–7:30 p.m.
+The book talk is from 5 to 6:30 p.m.
+Monday–Friday, 8 a.m.–4 p.m.
+Monday and Wednesday, 8 a.m.–4 p.m.
+Top
+Punctuation and Special Characters
+“And” Instead of “&”
+Avoid using special characters like the ampersand. Use “and” instead of the ampersand.
+Dashes
+Not to be confused with the hyphen (which is shorter and used to combine words), dashes have different lengths and functions.
+Use en dashes (–) to indicate a range, as with
+dates and times
+.
+Use em dashes (—) to off-set an interrupting element in a sentence. In this way, em dashes could be used instead of commas, parentheses, or colons. (See the
+Chicago Manual of Style Online, 6.85
+.)
+Example:
+Olin and Uris Libraries—both located on the Arts Quad—are very popular with visitors.
+Hyphens
+Familiarize yourself with words and phrases that require a hyphen versus words that don’t.
+“
+E-book
+” vs. “
+email
+“
+“
+On-site
+visit” vs. “We went
+on site
+.” (compound modifier vs. prepositional phrase)
+“
+Pickup
+location” vs. “I usually
+pick up
+my requested books at Olin.”
+“
+Checkout
+counter” vs. “I often
+check out
+textbooks before deciding to buy them.”
+“
+Online
+,” not “on-line”
+For more examples and guidelines, refer to the Chicago Manual of Style Online, especially
+5.92
+and
+7.89
+.
+Serial Commas
+To aid in clarity, use a serial comma to separate items in a list containing three or more.
+Example:
+The student thanked her parents, President Pollack, and Provost Kotlikoff.
+Note: If the last comma was missing in this example, “parents” could be misread as referring to the Cornell president and the provost.
+Top
+Webpage Headings
+Keep headings short to allow for easy scanning.
+For headings on webpages, we use
+title-case capitalization
+, where the first letter of the first word is capitalized as well as most words in the title, except for articles, conjunctions, and prepositions (unless these are the first or last word).
+Examples:
+Introduction to Research
+Citations–What Are They For?
+Licensing Electronic Resources
+Workshops and Events
+Don’t link headings.
+Top
+Accessibility Best Practices
+Avoid all caps. It is harder to read and scan.
+Avoid overuse of italics and bold. Bold text is easier to read than italics, but using too much of either negates each style’s effectiveness.
+Don’t underline text on web pages. Users expect underlined text to be a link. Use bold or italic for emphasis, but sparingly.
+Use HTML headings in the proper order (h1, h2, h3, etc.).
+The color contrast of foreground and background content, primarily text, should be great enough to ensure legibility. See
+WCAG 2 guidelines on contrast and color
+, or try the
+link contrast checker
+.
+Top

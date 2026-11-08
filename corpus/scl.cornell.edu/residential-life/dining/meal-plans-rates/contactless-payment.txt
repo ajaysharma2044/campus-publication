@@ -1,0 +1,14 @@
+URL: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/contactless-payment
+TITLE: Contactless payment | Student & Campus Life | Cornell University
+FETCHED: 2026-11-06
+
+Contactless payment
+Cornell Dining offers contactless payment methods, and instead of handing your Cornell ID card to a door-checker or cashier in our eateries, you'll use the GET My Card feature of the GET app to show a unique bar code representing your Cornell ID for both meal swipes and BRBs. We also have self-serve payment terminals for credit and debit cards, supporting Apple Pay and Google Wallet as well as chip cards.
+If guests prefer to use cash, there is a cash-to-card kiosk located in the Statler Hotel, offering a seamless, fast way to convert cash into a card for universal acceptance, both on and off campus.
+Access GET at
+get.cbord.com/cornell
+or search for "CBORD GET" in the app store
+Having trouble with GET?
+Android users may run into a glitch with two-step login using DUO with the GET app. More details at our
+Manage Your Account page
+.

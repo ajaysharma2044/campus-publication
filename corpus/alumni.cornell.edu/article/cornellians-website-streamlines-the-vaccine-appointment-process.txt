@@ -1,0 +1,39 @@
+URL: https://alumni.cornell.edu/article/cornellians-website-streamlines-the-vaccine-appointment-process/
+TITLE: Cornellian’s website streamlines the vaccine appointment process - Alumni, parents, and friends | Cornell University
+FETCHED: 2026-11-06
+
+Cornellian’s website streamlines the vaccine appointment process
+Olivia Adams ’14, MEng ’15 and her newborn son. Adams created the website during her maternity leave.
+By
+Kaitlin Provost
+February 15, 2021
+Olivia Adams ’14, MEng ’15 saw a problem: people in Massachusetts were having a difficult time signing up for COVID-19 vaccine appointments. So, she built a solution.
+Adams created the website
+macovidvaccines.com
+to make it easier for MA residents to find and book appointments. The website compiles appointment availability from vaccination sites across the state, which each have their own webpage, into one easy-to-use platform that refreshes automatically.
+“The hardest part is that for each website that you’re trying to grab information from, you have to tell the computer exactly how to read that website,” Adams explains. “It’s not as easy as a human looking at it. You look at a table and you know how to read it, but a computer just sees a bunch of letters and has no idea what to do with that information, so you have to train it.”
+If you have an idea, run with it as much as you can. You might be surprised at how it takes off.
+—Olivia Adams ’14, MEng ’15
+Although Adams never expected the site to take off as quickly or widely as it has, she’s grateful that it has already been able to help people. She says her next goal is to make the website more complete, adding in information from more vaccination sites across the state. She notes that she is making most of her code open source, so other people can contribute to making the site easier to use and quicker to update.
+Olivia Adams at her Cornell graduation
+Adams is also hopeful that other states can find inspiration in the work she’s done, and says she’s willing to help in any way that she can.
+“Most of the states are having the same exact problem Massachusetts is having. People are frustrated,” she says. “We want the bottleneck to be supply. We don’t want it to be, does someone have ten hours and enough technical literacy to figure out how to sign up? That’s a problem. My goal is to get as many people vaccinated as quickly as possible, and the way I can help is by offering my technical skills.”
+Adams’ experience positioned her well for a project like this. While at Cornell, she studied electrical and computer engineering, and says she enjoyed working with embedded hardware and writing code. “Because I got into that, I did quite a bit of programming—not web programming, though.”
+After graduation, Adams wanted to work on hardware, but a friend from Cornell convinced her to apply at
+athenahealth, Inc.
+, where she has been for nearly six years and now works as a software developer.
+“I have Cornell to thank for this whole thing,” Adams says, “because I had that connection that caused me to go into web development, which gave me the skills to make this project a reality.”
+Adams started building the site about one month ago, during her maternity leave, and says the experience has been rewarding and a lot of fun. She credits her family for their support throughout the process, particularly her husband, whom she thanks for allowing her to devote so many hours toward creating and expanding the website.
+Olivia Adams with her husband and two young sons
+“I always had a dream of being an entrepreneur, but I never thought I’d have the guts or be in the financial position to do so,” Adams says. “If this is my entry point and things pan out, that would be amazing. I’m along for the ride, as long as we can do it. There’s clearly such a need.”
+Adams’ work on the vaccine website has been featured by news organizations across Massachusetts,
+and on CNN
+. She hopes her story will inspire others with bold ideas to take initiative and try to make a difference any way they can in the fight against COVID-19.
+“If you have an idea, run with it as much as you can,” she says. “You might be surprised at how it takes off. Don’t doubt yourself.”
+Categories
+Alumni news
+Alumni profile
+Tags
+Alumni Affairs
+Cornell Engineering
+Entrepreneurship

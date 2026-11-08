@@ -1,0 +1,37 @@
+URL: https://business.cornell.edu/news/2024/03/18/to-vape-or-not-to-vape-when-an-e-cigarette-tax-has-an-impact/
+TITLE: To Vape or Not to Vape: When an E-Cigarette Tax Has an Impact- Cornell SC Johnson College of Business
+FETCHED: 2026-11-06
+
+March 18, 2024
+To Vape or Not to Vape: When an E-Cigarette Tax Has an Impact
+E-cigarettes have become a big concern for public health, especially when it comes to young people using these harmful products. The U.S. government has considered a tax on vaping products to discourage people, especially underage users, from vaping. A new study from the Cornell SC Johnson College of Business aims to determine how much of an impact a tax might have by analyzing behavior on a social media platform.
+In the paper “
+Smoke and Mirrors: Impact of E-cigarette Taxes on Underage Social Media Posting
+,” published in
+Marketing Science
+on March 8,
+Vrinda Kadiyali
+, professor at the Samuel Curtis Johnson Graduate School of Management, and co-author Piyush Anand, assistant professor at the Jones Graduate School of Business at Rice University, sought to cut through the barrier to data for the underage category and uncovered some interesting findings.
+Kadiyali and Anand looked at Instagram pictures from 2016 to 2018 to see if the number of posts about vaping changed after a tax on vaping products was introduced in California. They figured that if they found fewer posts about vaping, especially from underage users, it might mean that the tax was working to reduce vaping among young people.
+They chose Instagram because it’s a popular social media platform, especially among people younger than 21. By looking at the pictures people post, researchers could get an idea of how much vaping was going on, especially among underage users. Their posting behavior is a potential proxy for consumption behavior.
+They used neural networks and deep learning models to analyze the pictures and figure out things like the age, gender, and race of the people in them. They found that after the tax was introduced in California, the number of posts about vaping by underage users decreased for about six months but then went back to normal.
+“Our findings show us that the tax might have had some effect on stopping young people from vaping, at least for a little while,” said Kadiyali, who is also the director of graduate studies for management in the Johnson School. “After six months, things returned to how they were before the tax was introduced. The discussions in California suggest vaping companies might have responded to this tax increase with their own increase in marketing activities, reducing the dampening impact of the tax on underage posting.  California subsequently enacted a further tax to overcome these company actions.”
+The paper suggests that taxation could have some initial impact on reducing vaping among young people, but it might not be a long-term solution unless vaping and other newer tobacco delivery companies commit to protecting young people from the dangers their products pose.
+“Managers of vaping products may want to pay close attention to our findings and think about how they can support higher taxes on vaping products to help protect young people,” Anand said. “They should also consider monitoring social media to see if their products are being used by underage people and develop strategies to reduce it.”
+The researchers believe that regulators such as government officials should design a tax so that it has the biggest impact on reducing vaping among young people. And they should also keep an eye on social media to see if their policies are actually working.
+“Our research shows that taxing vaping products could help reduce vaping among young people, but it’s not a perfect solution,” Kadiyali said. “We need to keep studying the issue and coming up with new ideas to protect young people from the dangers of vaping.”
+In this article
+Article Information
+Categories
+Inside SC Johnson
+Related Stories
+November 5, 2026
+Thomas Richard Dyckman, accounting scholar and university leader, dies at 94
+Inside SC Johnson
+October 23, 2026
+2026 Atkinson postdocs improve antibiotics, emissions data, green transition
+Inside SC Johnson
+October 23, 2026
+From running partners to business partners: The rise of Kube & Co.
+Food & Agriculture
+Inside SC Johnson

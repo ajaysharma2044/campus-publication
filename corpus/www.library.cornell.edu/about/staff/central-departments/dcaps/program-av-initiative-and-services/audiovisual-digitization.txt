@@ -1,0 +1,46 @@
+URL: https://www.library.cornell.edu/about/staff/central-departments/dcaps/program-av-initiative-and-services/audiovisual-digitization/
+TITLE: Audiovisual Digitization – Cornell University Library
+FETCHED: 2026-11-06
+
+We have deep expertise in the details of legacy media, including magnetic tape, cartridge-based, machine-readable technology, as well as the principles, design, and function of the playback machines we need to digitize your content at international standards.
+We can handle any audiovisual media you might have, from old cassettes to digital files on your computer or hard drive. We currently digitize several formats in our AV preservation lab, and we work closely with external vendors to minimize cost with media types we don’t. Email us at
+dcaps@cornell.edu
+for more information about our audiovisual digitization services.
+Formats
+We can digitally preserve the following formats:
+VHS/SVHS
+U-Matic (3/4”)
+Cassette
+Vinyl LP (33rpm)
+1/4” open reel audio
+DV/MiniDV
+all formats of non-tape based, digital-born audio and video
+Video equipment
+We use the following equipment for video preservation:
+Sony SVO-5800 (VHS/SVHS)
+JVC BR-605 (VHS/rewinding deck)
+Sony BVU-900 (Umatic)
+Sony VO-9800 (Umatic rehousing)
+DPS-295 (time base corrector/signal processor)
+Sony Trinitron PVM14M4U (monitor)
+Techtronix 1720/1730 (scope/waveform monitor)
+Blackmagic Decklink 2 (PCI RF conversion)
+Blackmagic Ultrastudio 4K (RF conversion and digital transcoding)
+Blackmagic Media Express (capture)
+AVID (linear based editing/color correction)
+Final Cut X (linear based editing/color correction)
+Mac Pro (digital video workstation)
+Audio equipment
+We use the following equipment for audio preservation:
+Studer A810 (reel to reel)
+Technics 1500 (reel to reel)
+Nakamichi CR-7A (cassette)
+Gaines Audio 610 (line balancer)
+Music Hall MF5.1 (phono)
+Souvenir KAB EQS MK12 (phono preamp)
+Lynx Hilo (analog to digital/digital to analog converter)
+Lynx 16e (PCI card for AES in)
+Spectra Foo (metering)
+Wavelab 8 (mastering software)
+Izotope RX Advanced (spectral based repair)
+Mac Pro (digital audio workstation)

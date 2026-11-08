@@ -1,0 +1,110 @@
+URL: https://international.globallearning.cornell.edu/administrators/visa-sponsorship/sponsorship-process
+TITLE: Sponsorship Process | International Services
+FETCHED: 2026-11-06
+
+Sponsorship Process
+Good news: Your search is complete, and an international citizen has accepted the position!
+After you've confirmed an
+academic appointment
+and discussed
+employment eligibility
+with your new colleague, the department's next order of business is requesting Cornell's sponsorship for the individual in a specific visa classification.
+Start by identifying the most suitable visa type for your incoming scholar. Consult
+Scholar Visa Types
+for a summary of options and
+J-1 and H-1B Decision Guide
+for a point-by-point comparison of the two most common scholar visa types at Cornell. Don't hesitate to
+contact us
+if you'd like additional advice.
+When you've decided on the visa type, you're ready to review the sponsorship steps on this page and
+submit your visa request
+.
+Process Overview and Roles
+The chart below shows the basic visa sponsorship process at Cornell and who is responsible for each step. Your department, the incoming international scholar, and International Services all have roles to play.
+Who represents the department?
+The department representative who submits the visa request in myStatus must be someone with the authority to act and accept certain responsibilities on behalf of the department for university compliance with federal regulations.
+Department representatives must be HR or administrative professionals.
+Scholars and faculty members are not authorized to serve as department representatives.
+Scholar's Location
+The process varies somewhat for international scholars currently based outside the United States versus those already in the country. Review factors related to your
+incoming employee's location
+.
+Department
+1
+Department confirms academic appointment and submits visa request.
+The department confirms the academic appointment, funding, employment eligibility, and employment dates with the scholar. In myStatus, the department representative creates a record for the scholar if needed and then completes the initial pieces of the visa request. Visit
+Submit Your Visa Request
+for detailed advice on this step.
+O-1 cases begin with a consultation. International Services reviews the applicant's materials before the department initiates the request in myStatus.
+Scholar
+2
+Scholar receives email prompt and completes request.
+After the department submits all required forms, a myStatus invitation is automatically emailed to the scholar. The scholar completes the scholar section of the visa request in myStatus.
+International Services
+3
+International Services processes request.
+When the department and scholar sections of the request are both received in myStatus, International Services begins work on the request.
+We reach out to the department representative or scholar if further information or evidence is needed.
+We share visa documents in myStatus as they are created or received from U.S. Citizenship and Immigration Services (USCIS).
+Scholar
+4
+Scholar reviews visa documents.
+The scholar receives the visa documents and reviews them for accuracy.
+J-1 exchange visitors and their J-2 dependents also print and sign their DS-2019s.
+If a change of status petition or application is approved, the approval notice includes an I-94. The new status automatically begins on the approved start date.
+Scholar
+5
+Scholar travels to campus by employment start date.
+Scholars based outside the U.S. schedule a visa appointment at a U.S. consulate or embassy and obtain a visa stamp. The scholar enters the U.S. in the appropriate status. Scholars already in the U.S. must be at the approved worksite when their Cornell-sponsored status begins.
+Review factors related to your
+incoming employee's location
+.
+Department
+6
+Department reminds scholar to activate status.
+The department welcomes the newly arrived scholar to campus, manages all appointment procedures and onboarding, and reminds the scholar to complete mandatory status activation promptly.
+If a J-1 scholar's planned arrival falls after the J-1 program start date, the department submits a J-1 program amendment in myStatus as soon as possible.
+Review
+When to Contact IS
+: Reach out to us at key touchpoints during your international employee's time on campus.
+International Services
+7
+International Services completes status activation.
+International Services completes the scholar's status activation, confirms work authorization dates, and notifies the department and scholar.
+Your Employee's Location
+Scholars Outside the U.S.
+Scholars outside the U.S. (except for most Canadians) must apply for an entry visa after receiving their immigration documents.
+We recommend starting Step 1 as early as possible to allow time for potential visa delays.
+Visa applications may take a few days—or several months. Turnaround depends on the scholar’s country of origin, wait times at the U.S. embassy or consulate, and any security clearances or administrative processing that may be conducted. Cornell can't intervene to speed up scholars' applications, although scholars might be able to schedule expedited appointments at some embassy locations. Your department will have to push back the planned employment start date if an international scholar is not able to enter the U.S. on time.
+Consult these webpages and share them with incoming scholars:
+Apply for an Entry Visa
+|
+Visa Delays
+|
+Enter the U.S.
+Scholars Based in the U.S.
+Most nonimmigrant visa statuses are employer-specific, so scholars already in the U.S. and sponsored by other institutions typically need to transfer their visa status to Cornell. The transfer must be complete before employment begins.
+If you’re unsure if someone is
+authorized to work for Cornell
+, reach out to us before approving employment.
+J-1 Scholars
+For J-1 transfers, International Services creates a Cornell DS-2019 on or shortly after the requested transfer-in date. The scholar can begin work after receiving the Cornell DS-2019. Consult
+Invite or Extend J-1 Visitors
+, and point incoming scholars to
+Transfer Your J-1 Visa to Cornell
+.
+Scholars in other statuses changing to J-1 at Cornell may not begin work until they obtain both a Cornell-issued DS-2019 and an I-94 indicating J-1 status. After receiving a Cornell DS-2019, the scholar is responsible for filing
+Form I-539 to change status to J-1
+. The scholar receives an I-94 on the I-539 approval notice. Alternately, the scholar may leave the U.S., apply for a J-1 visa stamp, and receive an I-94 upon reentering the U.S.
+H-1B/O-1 Scholars
+If the scholar currently has H-1B status from another employer, and Cornell has filed an H-1B petition on their behalf, the scholar can begin working with just the H-1B petition receipt notice.
+For H-1B/O-1 change of status petitions and O-1 change of employer petitions, the scholar must wait for the approval notice. If a petition is approved, International Services will receive the approval notice from USCIS and share it with the department and scholar. An I-797A approval notice has an I-94 on the bottom. The scholar can begin working on the approved start date.
+Next Up:
+Submit Your Visa Request
+Administrator Resources
+Cornell HR
+Contact Central HR
+U.S. Department of State
+Visa Appointment Wait Times
+U.S. Citizenship and Immigration Services
+Case Processing Times

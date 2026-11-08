@@ -1,0 +1,42 @@
+URL: https://business.cornell.edu/news/2021/05/18/researchers-find-grocery-taxes-harm-low-income-households/
+TITLE: Researchers find grocery taxes harm low income households- Cornell SC Johnson College of Business
+FETCHED: 2026-11-06
+
+May 18, 2021
+Researchers find grocery taxes harm low income households
+Since the COVID-19 pandemic hit in early 2020, food insecurity has more than doubled for low-income households in the United States. Most counties in southern states such as Alabama, Mississippi, and Arkansas, where food insecurity tends to be the most severe, do not exempt food from sales taxes applied to groceries and those poorer households experience substantial inequities as a result.
+While academic research on grocery taxes as it relates to food insecurity has received little attention in the past, a team of researchers from across the U.S., including two from Cornell University, has uncovered new findings which may potentially play a role in future policy efforts.
+In 2020, grocery food tax policy varied at both state and county levels with 17 states having grocery taxes and several states engaged in active debates about whether to remove or impose taxes. Approximately one third of all U.S. counties do not exempt grocery foods from the general sales tax, which means the lowest income families living in those areas are more susceptible to food insecurity.
+Harry Kaiser
+, professor of applied economics and management at the
+Charles H. Dyson School of Applied Economics and Management
+, and his co-authors find that across 14 states, the average grocery tax is just over 4 percent.
+“An increase of 1 to 4 percent may sound small, but after several trips to the grocery store, the extra costs can create serious burdens for the lowest-income families,” Kaiser said. “We found that even the slightest increase in tax rate correlated to an increased likelihood of food insecurity. Grocery taxes which rose by just one percentage point led to a higher risk of hunger in households.”
+Their paper, “
+Putting Grocery Food Taxes on the Table: Evidence for Food Security Policy-Makers
+,” focused on sales taxes on foods at retail outlets such as grocery stores, convenience stores, but not on restaurants. The research looked at data from low-income households and excluded households with income above $30K. They based this poverty threshold on the federal poverty level, a poverty measure that accounts for household income relative to household size. For example, the poverty level for a single-person household was $12,060 and for a two-person household was $16,240 in 2017 for the 48 contiguous states and the District of Columbia.
+The paper was co-authored by Yuqing Zhang and Steve Buck, professors at
+University of Kentucky
+; Jianqiang Zhao, a PhD student at Cornell Dyson; Norbert Wilson, professor at
+Duke University
+; and Shaheer Burney, professor at
+University of Wisconsin-River Falls
+.
+Data for the study were obtained by merged tax rate information from 2006 through 2017 with data from the Current Population Survey Food Security Supplement, a nationally representative survey about consumer behavior. The researchers were able to run calculations analyzing self-reported food insecurity in the areas that levy taxes on groceries.
+One example from the study pointed out that households in Alabama, where the grocery tax rate is as high as 9 percent, translates into an annual expense of $630 dollars. For households living at or near the poverty level, this tax expense represents a sizeable portion of their household income, which has an established link to food insecurity. They predict that the average food insecurity (with income less than $30K) will decrease by 3.2 percent due to the tax removal.
+“We hope that by sharing our current data and findings on grocery taxes as it relates to food insecurity, policy makers will take a much closer look at the tax burden in certain areas which are hurt hardest,” Kaiser said.
+In this article
+Article Information
+Categories
+Inside SC Johnson
+Related Stories
+November 5, 2026
+Thomas Richard Dyckman, accounting scholar and university leader, dies at 94
+Inside SC Johnson
+October 23, 2026
+2026 Atkinson postdocs improve antibiotics, emissions data, green transition
+Inside SC Johnson
+October 23, 2026
+From running partners to business partners: The rise of Kube & Co.
+Food & Agriculture
+Inside SC Johnson

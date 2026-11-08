@@ -1,0 +1,23 @@
+URL: https://catalog.ithaca.edu/graduate/admission-information/coursesaz/math/
+TITLE: Mathematics (MATH) < Ithaca College
+FETCHED: 2026-11-08
+
+Mathematics (MATH)
+MATH 51000 Graduate Seminar in Mathematics Education (LA)
+The seminar will address a selection of topics in mathematics education, devoting several weeks to each topic. Topics will be chosen to examine theoretical aspects of the teaching and learning of mathematics at the secondary (7-12) level and will be connected to related discussions of pedagogical design and implementation. Class discussions, presentations and projects will be central to the course. (F,Y)
+3 Credits
+MATH 54000 Selected Topics in Applied Mathematics (LA)
+Advanced study of mathematics in an applied setting. Topics may include but are not limited to the following: stochastic processes, actuarial mathematics, partial differential equations and applied dynamical systems, numerical analysis, and applied statistics. Prerequisite: Graduate student in good standing or permission of instructor. can be repeated for credit. (F, E)
+3 Credits
+MATH 56000 History of Mathematical Ideas
+This course will explore the historical development of mathematical ideas that appear in the high school mathematics curriculum. Students will select a topic and research its history, then present their work and lead the class in explorations that use the historical development to better understand the concept.
+3 Credits
+MATH 57000 Connections between Secondary and Advanced Algebra
+This course will explore the connections between algebra topics from the high school (7-12) mathematics curriculum and the content of the algebra courses that math majors have learned in college. In particular, ideas from advanced algebra will be used to develop a deeper understanding of fundamental algebraic ideas. Class discussions, individual research, presentations and projects will be central to the course.
+3 Credits
+MATH 58000 Connections in Advanced Mathematics (LA)
+Advanced study of connections and relationships among various disciplines within mathematics. Specific content varies. Topics may include but are not limited to the following: historical development of mathematics and various philosophies of mathematics, cultural similarities and differences in viewpoints and developments in mathematics, cross-discipline approaches that combine subdisciplines such as probability techniques in number theory and random graph theory, field theory and geometric constructions, and algebraic topology. Prerequisite: Graduate student in good standing or permission of instructor. can be repeated for credit. (S, E)
+3 Credits
+MATH 59900 Independent Study in Mathematics (LA)
+Reading on selected advanced subjects, with frequent, informal discussions with the instructor. Fulfills a required mathematics elective. This course may be repeated for credit. Prerequisites: permission of instructor. (IRR)
+1-3 Credits

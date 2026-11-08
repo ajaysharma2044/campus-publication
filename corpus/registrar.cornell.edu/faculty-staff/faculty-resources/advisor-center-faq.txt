@@ -1,0 +1,52 @@
+URL: https://registrar.cornell.edu/faculty-staff/faculty-resources/advisor-center-faq
+TITLE: Advisor Center FAQ | Registrar
+FETCHED: 2026-11-06
+
+Advisor Center FAQ
+Advisee name, photo, address, email, college/major, expected graduation term, and class schedule are available through
+Advisor Center
+. See the
+Advisor Center how-to
+for additional information.
+The My Advisees page lists advisees alphabetically and provides a link to their picture. Clicking view student details brings you to the student center tab for the student. From this tab you can view personal information such as address and email and also review their current class schedule. The academics tab provides information on expected graduation date, program, and plan.
+Using drop-in advising, you can find information about former students and students who are not your advisees. Through the “view data for other students” button under the my advisees tab you can search for a student by 7-digit ID number, name, or netid. After searching you can navigate through the student center, general info, and academics tab for the student.
+All students for whom you serve as an undergraduate advisor, graduate committee chair, or graduate committee member will be available for you to view through Advisor Center.
+From the Student Center tab in Advisor Center, select Transcript: View Unofficial from the other academics drop down menu. On the next page select Cornell University and the report type. View report generates a pdf unofficial transcript. Unofficial transcripts may not be shared with a student.
+There are several types of
+University Record holds
+.
+Enrollment holds are generally set by college registrars. When an enrollment hold is set, your advisee will not be able to add, drop, or swap any classes online until the hold is released. A hold may be applied and removed at any time during enrollment periods.
+You can view the details of a hold by selecting details in the Holds box of the Student Center tab of Advisor Center.
+In the Milestones box in Student Center, view details for specific requirements (e.g. Swim Test, Master’s Thesis), including completion status.
+During pre-enrollment, which generally occurs in October/November and April, students enroll in classes for the upcoming semester. Students are assigned a 3 day enrollment appointment during which they have 24/7 access to add, drop, or swap classes. Classes students enroll in during the enrollment period are not guaranteed due to class offering changes, section balancing, or other circumstances. Students should check their schedule during the add/drop period at the beginning of the semester, as it may have changed since enrollment.
+Add/drop periods begin just before the start of each semester. For full semester classes, the add period ends on the 15th calendar day of the semester and drop ends on the 57th calendar day. Students have the ability to change credits through the end of the add period and grading basis through the end of the drop period.
+Students with an active enrollment appointment can enter class requests in Student Center. For resources and additional information, please see the
+Enrollment
+webpage.
+The
+Unive
+rs
+ity
+Catal
+og
+contains the catalog of course descriptions for the academic year. Students use it to browse course offerings in which you may want to enroll.
+The
+Class Roster
+is the schedule of classes for a specific semester and reflects when and where classes will be taught. The Roster can be used to search for classes by department, meeting pattern, instructor and other options, and to save classes to a list of favorites. The Class Number is found at the left of each class section; students can use this number to expedite enrollment through Student Center.
+Student Center
+is the most current source for class information for students, and in addition to Class Search it provides access to tools such as My Academics and My Planner.
+During enrollment periods, students can log in as many times as they like, 24 hours a day, to make changes to enrollment requests through their Student Center. See the
+Enrollment
+webpage for additional information regarding adding, dropping, and swapping classes.
+Students can add courses to their Planner by selecting from the Student Center course catalog, or from the list of courses required for completion of their program.  As an advisor, you have access to view your advisee’s My Planner.
+The classes that students add to My Planner serve as a guide for what students wish to take in the future. Adding courses to My Planner does not reserve a spot in the class. Students can use My Planner as a reference during an advising appointment, or to expedite the enrollment process by enrolling from My Planner.
+My Planner allows students to move courses to a specific term for planning purposes, but there is no guarantee that the course will be offered in the term they have chosen.
+Students can add or remove courses to My Planner at any time.
+My Advisement Report (or Academic Requirements) shows the student’s university and program-specific requirements, and the completion status of those requirements. Using My Academic Requirements, students can see which courses will fulfill requirements that are not yet satisfied and add them to My Planner.
+My Advisement Report and My Academic Requirements are only available to specific programs at this time. Students should contact their
+C
+ollege
+o
+r School Registrar's office
+with questions.
+Course History is a feature under My Academics that lists all of the classes a student has taken, received transfer credit for, are in the process of taking, or plan to take. This comprehensive list includes course name, term, grade, units and status. Course history can help you determine what the student has completed if My Academic Requirements is not be available or configured.

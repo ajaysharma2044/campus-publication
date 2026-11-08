@@ -1,0 +1,96 @@
+URL: https://registrar.cornell.edu/students/enrollment/student-center-help/swapping-sections-within-a-course
+TITLE: Swapping Sections within a Course | Registrar
+FETCHED: 2026-11-06
+
+Swapping Sections within a Course
+You may swap sections of a class directly through your
+Student Center
+during either pre-enrollment or open enrollment (prior to the start of each semester). If your enrollment window has closed or an enrollment deadline has passed, please reach out to your
+College or School Registrar
+for further guidance.
+Swaps are usually performed when changing between sections of a course or if you are only dropping a class from your schedule to get into a different class.
+Important!
+It is best practice to only ever perform a swap into open class sections. Do not check the 'Wait List if class is full' box when swapping! If you are successfully added to the waitlist, you are dropped from all sections of the class that you were seeking to change sections within.
+For our example, you are currently enrolled in Physics 2208 lecture 001, discussion 201, and lab 401. You wish to swap into discussion 207, remaining enrolled in lecture 001 and lab 401.
+To start, after logging in to your
+Student Center
+, click on
+Enroll
+.
+Select
+Swap
+under the
+Enroll
+tab.
+Step 1 - Select a Class to Swap
+If prompted, select the term in which you will be changing your enrollment.
+Select the class that you wish to drop in the
+Swap This Class
+section. After selecting the appropriate class, you have two options. Option 1) Enter the class number for the section that you wish to swap into within the class that you are already enrolled and click
+Enter
+or Option 2) Perform a
+Class Search
+by clicking
+Search
+.
+Option 1: Select a Class to Swap by Class Number
+Enter the
+class number
+for discussion 207 (5547), the new section that you would like to be enrolled in, in the
+Enter Class Nbr
+box and click
+Enter
+.
+To continue swapping sections within the same class, please see
+Selecting and Verifying Class Swap Information below.
+Option 2: Select a Class to Swap by Class Search
+Ensure the
+Search for Class
+drop-down reads Class Search and click
+Search
+.
+Enter the
+Subject
+and
+Course Number
+for which you are currently enrolled in.
+On the
+Search Results
+screen, click
+Select
+on the row for the section that you wish to swap into (Discussion 207).
+Selecting and Verifying Class Swap Information
+After you have selected the section that you wish to swap into (via option 1 or option 2), you will be prompted to select the sections that you wish to remain enrolled in (Lecture 001 and Lab 401). Mark the appropriate radio button and click
+Next
+on the
+Enrollment Section
+screen and
+Related Class Section
+screen.
+On the Enrollment Preferences screen, verify that the grading option, number of units, and class information is correct. If you were provided a Permission Number, enter the number and click
+Next
+.
+Step 2 - Confirm your selection
+Confirm the data on the
+Confirm your selection
+screen. If the
+You are replacing this class
+and
+with this class
+sections are correct, click
+Finish Swapping
+.
+Step 3 - View results
+On the
+View results
+screen, review the
+Message
+and/or
+Status
+of your request.
+A successful swap will display a success
+message
+and a green check mark in the
+status
+field.
+A failed swap will display an error message and a red X in the status field.

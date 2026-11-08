@@ -1,0 +1,53 @@
+URL: https://as.cornell.edu/news/ammonia-sparks-unexpected-exotic-lightning-jupiter
+TITLE: Ammonia sparks unexpected, exotic lightning on Jupiter
+FETCHED: 2026-11-06
+
+Ammonia sparks unexpected, exotic lightning on Jupiter
+Astronomy
+By |
+Blaine Friedlander
+8/6/2020
+NASA’s Juno spacecraft – orbiting and closely observing the planet Jupiter – has unexpectedly discovered lightning in the planet’s upper atmosphere, according to a multi-institutional study led by the NASA/Jet Propulsion Laboratory (JPL), which includes two Cornell researchers.
+The work was published Aug. 5 in the journal Nature.
+Jupiter’s gaseous atmosphere seems placid from a distance, but up close the clouds roil in a turbulent, chemically dynamic realm. As scientists have probed the opaque surface with Juno’s sensitive instrumentation, they’ve learned that Jupiter’s lightning occurs not only deep within the water clouds but also in shallow atmospheric regions (at high altitudes with lower pressure) that feature clouds of ammonia mixed with water.
+“On the night side of Jupiter, you see fairly frequent flashes – as if you were above an active thunderstorm on Earth,” said
+Jonathan I. Lunine
+, the David C. Duncan Professor in the Physical Sciences and chair of the Department of Astronomy in the College of Arts and Sciences. “You get these tall columns and anvils of clouds, and the lightning is going continuously. We can get some pretty substantial lightning here on Earth, and the same is true for Jupiter.”
+The research, “Small Lightning Flashes From Shallow Electrical Storms on Jupiter,” was directed by Heidi N. Becker, the Radiation Monitoring Investigation lead of NASA’s Juno mission. Lunine and doctoral candidate Youry Aglyamov, M.S. ’20, were the two Cornell co-authors in the study.
+Previous missions to Jupiter – such as Voyager 1, Galileo and New Horizons – had all observed lightning. But thanks to Juno’s Stellar Reference Unit, a camera designed to detect dim sources of light, the spacecraft’s close observational distance and instrument sensitivity enabled lightning detection at a higher resolution than previously possible.
+Ammonia is the key. While there is water and other chemical elements such as molecular hydrogen and helium in Jupiter’s clouds, ammonia is the “antifreeze” that keeps water in those upper atmospheric clouds from freezing entirely.
+Lunine notes Aglyamov’s ongoing dissertation work focuses on how lightning is generated under these conditions. The collision of the falling droplets of mixed ammonia and water with suspended water-ice particles constitutes a way to separate charge and produce cloud electrification – resulting in lightning storms in the upper atmosphere.
+“The shallow lightning really points to the role of ammonia, and Youry’s models are starting to confirm this,” Lunine said. “This would be unlike any process that occurs on Earth.”
+This illustration used data obtained by NASA’s Juno mission to depict high-altitude electrical storms on Jupiter. Juno's sensitive Stellar Reference Unit camera detected unusual lightning flashes on the planet’s dark side during the spacecraft's close flybys of the planet. Credit: NASA/JPL-Caltech/SwRI/MSSS/Gerald Eichstädt
+Jupiter’s wild gaseous world fascinates Aglyamov.
+“Giant planets in general are a fundamentally different kind of world from Earth and other terrestrial planets,” he said. “There are hydrogen seas transitioning gradually into skies stacked with cloud decks, weather systems the size of the Earth and who-knows-what in the interior.”
+The discovery of shallow lightning on Jupiter shifts our understanding of the planet, Aglyamov said.
+“Shallow lightning hadn’t really been expected and indicates that there’s an unexpected process causing it,” he said. “It’s one more way in which Juno’s observations show a much more complex atmosphere of Jupiter than had been predicted. We know enough now to ask the right questions about processes going on there, but as Juno shows, we’re in a stage where every answer also tends to multiply the questions.”
+Funding for the Cornell portion of this research comes from the Southwest Research Institute.
+Read the story in the
+Cornell Chronicle
+.
+More News from A&S
+Victoria Smith/Laude
+Members of the Cornell “Moonshot” lab will develop a novel infrastructure to ensure trust in online communication. From left: Natalie Bazarova, Robert Kleinberg, Cristian Danescu-Niculescu-Mizil, Jon Kleinberg, David Rand and Mor Naaman.
+Project to rebuild trust in AI era lands Laude’s $10M ‘moonshot’ award
+Psychology
+11/6/2026
+Cornell Chronicle
+Courtesy of Demo Lab Foundation
+From left: Marian Vidaurri, Rachel Riedl, Nia Demming at the July Cornell Tech event.
+‘Train the trainers’ event convenes democracy leaders, educators, activists
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+Sheryl Sinkow/Cornell University
+(From left to right): Professors Stewart Schwab, Oumar Ba, Nelson Tebbe, Mildred Warner, and Natasha Raheja.
+Scholarly leadership to protect and strengthen democracy
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+New book details history of sound’s claim on our attention
+Music
+11/6/2026
+A&S Communications
+View all news

@@ -1,0 +1,148 @@
+URL: https://international.globallearning.cornell.edu/administrators/employment-visas/h-1b-temporary-workers
+TITLE: H-1B Temporary Workers | International Services
+FETCHED: 2026-11-06
+
+H-1B Temporary Workers
+This page is for Cornell administrators.
+H-1B faculty and staff:
+Please visit the H-1B section of our
+Visa Basics
+page for scholars to learn more about your visa type.
+About the H-1B Temporary Worker Visa
+H-1B temporary workers are eligible for professional positions that require specialized training. The H-1B temporary worker visa allows foreign nationals to work in the United States in specialty occupations for a period of up to six years.
+Each application can be made for a period of up to three years.
+Extensions are possible if Cornell has filed an employment-based permanent petition before the end of the fifth year of a temporary worker’s H-1B status.
+The application must be filed by the employer; the worker cannot file the application.
+H-1B Petitions Are Job- and Location-Specific
+Remote work is only possible if the H-1B petition has been filed for that specific remote location.
+Changes in employment, including changes in salary, job location, title, and job duties or responsibilities, may require an H-1B amendment. Contact International Services before approving any change in employment.
+Scholar Visa Types
+Getting Started
+Employment/ Non-Cornell
+Travel Documents
+H-1Bs for Academic Positions
+Cornell will file H-1B petitions only for academic positions. In most cases, these positions require a PhD.
+Refer to the policy and list of approved academic titles
+.
+How to Apply for H-1B
+Get App
+Initiate App
+Submit App
+Get Decision
+1
+Get the application.
+2
+Initiate the application (hiring unit).
+The hiring unit assembles and submits the H-1B department application materials. The H-1B applicant is then prompted to submit their portion of the application materials.
+H-1B Fees
+$460 filing fee (required for all H-1B petitions)
+$500 anti-fraud fee (required for all initial H-1B petitions and not required for H-1B extensions or amendments)
+$2,965 premium processing fee (optional and in addition to other fees)
+Consular-processed H-1B petitions are subject to an additional
+$100,000 fee
+. See the Consular Processing section below for details.
+H-1B fees are subject to change
+3
+Submit the application (International Services).
+When all application materials are received, International Services determines the H-1B prevailing wage, based on the U.S. Department of Labor regulations and the hiring unit’s Actual Wage statement (submitted with the application materials). If necessary, we submit a prevailing wage request to the Department of Labor. Once the actual or prevailing wage has been determined, we submit a
+labor condition application (LCA)
+to the Department of Labor. If the LCA is approved by the DOL, we submit the H-1B petition to U.S. Citizenship and Immigration Services (USCIS).
+4
+Receive the decision.
+USCIS reviews the case. When the case is approved, we will notify you (the hiring unit) and the applicant. This part of the process may take two to six months, depending on current federal processing times and whether a premium processing fee is paid.
+Timing of Application
+Please note that we cannot guarantee that a H-1B petition will be approved by any specific date. We can only provide estimates of the timing.
+When to apply
+International Services recommends starting the H-1B application exactly six months in advance of a proposed H-1B start date.
+Applications cannot be submitted sooner per U.S. Department of Labor regulations. (Please do not submit an H-1B application more than six months ahead of the proposed H-1B start date.)
+Premium Processing
+There is a premium processing option that reduces the federal government’s processing time for H-1B visas.
+This option requires payment of the premium processing fee and guarantees a response within 15 business days of the petition being received by the federal government. This fee is in addition to the filing fee.
+Keep in Mind
+The premium processing service only covers the USCIS processing time. It does not provide any mechanism for expediting a prevailing wage request or LCA with the U.S. Department of Labor.
+An approved LCA is required before submission of the H-1B petition can be made to USCIS.
+If USCIS decides that more information is required and sends a request for evidence (RFE), the 15-day clock begins again when USCIS receives the requested additional evidence.
+Even with these limitations, premium processing can cut filing times considerably.
+Release of Controlled Technology
+Export Administration Regulations (EAR) and International Traffic in Arms Regulations (ITAR) determine whether a license is required from the U.S. Department of Commerce or the U.S. Department of State to allow an international employee access to controlled technology or technical data.
+What You Need to Know
+This attestation is required for all H-1B petitions. Please review the information on U.S. export controls at Cornell's
+Office of Research Integrity and Assurance
+.
+Change of Status
+When the applicant is changing from another visa status to H-1B, he or she may not begin employment until an H-1B approval notice has been received from U.S. Citizenship and Immigration Services.
+The applicant may not travel outside the United States until the H-1B is approved. In some cases, applicants may wish to pay for premium processing if immediate travel is necessary.
+Consular Processing
+If an applicant lives outside the U.S. or has international travel plans that cannot be changed, the petition can be filed for consular processing. This option requires the worker to obtain an H-1B visa stamp (Canadians exempt) and enter or reenter the U.S. in H-1B status. Consular-processed petitions are subject to an additional
+$100,000 fee
+.
+If you are seeking to hire someone who lives outside the U.S. or has international travel plans that cannot be changed, please
+contact us
+as soon as possible to discuss fee payment, the “extraordinarily rare” national interest exemption, and other visa options.
+National Interest Exemption
+The Department of Homeland Security may grant an exception to the $100,000 fee only in “extraordinarily rare” circumstances. To qualify, International Services must submit proof of the following:
+The individual's presence in the U.S. as an H-1B worker is in the national interest,
+No American worker is available to fill the role,
+The H-1B worker does not pose a threat to the security or welfare of the United States, and
+Requiring the petitioning employer (Cornell) to make the payment on the H-1B worker's behalf will significantly undermine the interests of the United States.
+Extension of Status
+Applications for H-1B extensions have the same application requirements as new H-1B petitions.
+Important Details
+With extensions of H-1B status, Cornell may be able to employ the individual for 240 days while the extension case is pending with USCIS.
+Leaving the U.S. during the H-1B filing process may subject the applicant's petition to an additional
+$100,000 fee
+. Review the
+Current Travel Advisory
+for more information. Applicants must
+contact us
+as soon as possible if they have international travel plans and
+an H-1B request has been or will be submitted on their behalf in the near future
+.
+Portability
+The portability provision enables an H-1B worker already in the United States to change to a different job while preserving his/her legal status.
+Important Details
+H-1B petitions are not transferable between employers.
+If an applicant decides to change employers, he or she must begin the entire process again.
+For portability H-1B petitions, Cornell may be able to employ the individual for up to 240 days while the portability petition is pending with USCIS. The official H-1B receipt notices is needed before Cornell employment can begin.
+Concurrent Employment
+H-1Bs may have more than one H-1B petition active—in other words, more than one H-1B employer. Each employer files its own H-1B specific to the job and duties the H-1B temporary worker will have at that place of employment.
+Please let International Services know if your temporary worker has an H-1B somewhere besides Cornell, if the additional H-1B is concurrent with the Cornell position.
+Reimbursement for Non-Cornell Activities
+The office now called USCIS stated: "H-1B workers are permitted to make occasional lectures at other institutions, but they may not receive compensation for these activities. H-1B workers may be reimbursed for expenses incurred in connection with travel to other institutions or conferences. This is not considered employment, as long as the payments are truly reimbursements and not disguised as compensation." (Interpreter Releases, No. 658, 1994)
+Travel and Reentry
+Leaving the U.S. during the H-1B filing process may subject the applicant's petition to an additional
+$100,000 fee
+. Review the
+Current Travel Advisory
+for more information. Applicants must
+contact us
+as soon as possible if they have international travel plans and
+an H-1B request has been or will be submitted on their behalf in the near future
+.
+When traveling outside the United States, H-1B temporary workers will need a valid visa stamp in their passport to reenter the United States.
+Important Details
+Workers who have changed their immigration status to H-1B since entering the United States and have not yet traveled abroad will need to apply for an H-1B visa stamp in their passport to reenter the United States.
+Find out more.
+Others may have an expired visa in their passport and will need to have the H-1B visa stamp renewed.
+In cases of travel to Canada or Mexico, it may be possible to reenter the United States with an expired H-1B visa.
+Dependents
+An H-1B employee's spouse and children under 21 may be eligible for H-4 status.
+H-4s are typically not authorized to accept employment, with
+limited exceptions
+.
+However, H-4 visa holders may apply to change their visa status to H-1B, if they find an employer who is willing to file a petition on their behalf.
+No "Benching" and Early Termination
+H-1B regulations prohibit the practice known as benching.
+Important Details
+Once the H-1B applicant has arrived to begin employment, pursuant to an H-1B approval notice, Cornell may not place that worker in unpaid or nonproductive status (which is "benching").
+Cornell must provide return transportation for any H-1B worker terminated prematurely.
+If an H-1B worker leaves Cornell employment before the end date on their H-1B approval notice, you must submit a "Leaving Cornell" request in myStatus.
+Next Up:
+O-1 Extraordinary Ability
+Administrator Resources
+International Services
+Maintaining H-1B Status (for Scholars)
+International Services
+Maintaining O-1/TN/E-3 Status (for Scholars)
+U.S. Citizenship and Immigration Services
+Case Processing Times

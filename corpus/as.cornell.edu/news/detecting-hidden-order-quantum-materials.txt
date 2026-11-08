@@ -1,0 +1,38 @@
+URL: https://as.cornell.edu/news/detecting-hidden-order-quantum-materials
+TITLE: Detecting Hidden Order in Quantum Materials
+FETCHED: 2026-11-06
+
+Detecting Hidden Order in Quantum Materials
+Physics
+By |
+Staff
+,
+Cornell Research
+8/6/2020
+The electrons in quantum materials strongly interact and influence one another’s behavior. In addition, some materials have significant spin-orbit coupling, in which electrons’ spins are coupled with their own orbital momenta. Researchers predict that spin-orbit coupling will generate exotic forms of cooperative electron ordering that should alter the material’s crystal structure. Optical spectroscopy has provided evidence of such cooperative electron ordering, but neither x-ray nor neutron diffraction has discovered the expected changes to the crystal structure—perhaps because of limitations in conventional methods of measuring diffraction.
+Eun-Ah Kim, Physics, and Kilian Q. Weinberger, Computer Science, are part of a transdisciplinary team at the Argonne National Laboratory that is developing tools to reveal the unobserved, hidden order in quantum materials. The researchers are developing machine-learning tools that can identify multiple order parameters in x-ray scattering, whether weak or broad, by monitoring their variation as a function of temperature. The project takes advantage of recent improvements in the brightness of x-ray synchrotron sources, combined with technological advances in fast area detectors and computational analysis, that have greatly enhanced the speed and sensitivity of x-ray diffraction.
+The research aims to elucidate the interactions between electrons and atoms that underlie the hidden order in spin-orbit-coupled materials so that these interactions can be harnessed in future applications. By combining high-energy x-ray scattering and machine learning, the project will produce a suite of innovative tools that will facilitate future investigations of crystalline materials whose properties depend on structural correlations that are short-ranged or too weak to be measurable by conventional diffraction.
+More News from A&S
+Victoria Smith/Laude
+Members of the Cornell “Moonshot” lab will develop a novel infrastructure to ensure trust in online communication. From left: Natalie Bazarova, Robert Kleinberg, Cristian Danescu-Niculescu-Mizil, Jon Kleinberg, David Rand and Mor Naaman.
+Project to rebuild trust in AI era lands Laude’s $10M ‘moonshot’ award
+Psychology
+11/6/2026
+Cornell Chronicle
+Courtesy of Demo Lab Foundation
+From left: Marian Vidaurri, Rachel Riedl, Nia Demming at the July Cornell Tech event.
+‘Train the trainers’ event convenes democracy leaders, educators, activists
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+Sheryl Sinkow/Cornell University
+(From left to right): Professors Stewart Schwab, Oumar Ba, Nelson Tebbe, Mildred Warner, and Natasha Raheja.
+Scholarly leadership to protect and strengthen democracy
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+New book details history of sound’s claim on our attention
+Music
+11/6/2026
+A&S Communications
+View all news

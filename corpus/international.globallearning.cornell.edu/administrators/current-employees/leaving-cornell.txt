@@ -1,0 +1,61 @@
+URL: https://international.globallearning.cornell.edu/administrators/current-employees/leaving-cornell
+TITLE: Leaving Cornell | International Services
+FETCHED: 2026-11-06
+
+Leaving Cornell
+This page is for Cornell administrators.
+Faculty and staff:
+Please visit our
+Transfer or Leave
+page for scholars.
+Leaving Cornell Request Form
+Under most circumstances, a Leaving Cornell form should be submitted in myStatus when an international scholar's time at Cornell is coming to an end—whether the person is taking a job with another U.S. employer or leaving the United States entirely. After receiving the Leaving Cornell request, International Services closes the scholar's record in myStatus, SEVIS, and other government databases.
+When the Form is Required
+The federal government requires notification when scholars in certain statuses leave Cornell before their program end dates. The form is not required when someone is leaving on the expected end date.
+J-1 scholars and student interns:
+The form is required when leaving more than 15 days before the program end date listed on the DS-2019. International Services updates the program end date in SEVIS and provides a new DS-2019 showing the revised date.
+H-1B/O-1 scholars:
+The form is required when leaving anytime before the program end date listed on the I-797. On the new end date, International Services notifies USCIS of the end of employment.
+Who Submits the Form
+Departing employees may submit the Leaving Cornell form themselves in myStatus (General Services > Leaving Cornell). If they do not, your department is responsible for completing the
+form in myStatus
+. Please submit the form as soon as the end date has been confirmed.
+New Job in the United States
+If your employee is leaving Cornell for a job with another U.S. employer, the required procedures for maintaining legal status in the United States depend on the visa type. A J-1 visa can be transferred to a new sponsor through a SEVIS record update, but H-1B and O-1 visas require the future employer to submit a new petition.
+J-1 Visa Transfer
+To transfer the Cornell-sponsored J-1 visa to a new J-1 sponsor, the employee must submit a
+transfer-out request
+. The department cannot request a visa transfer on an employee's behalf.
+J-1 visa holders must request visa transfers before the end date of the J-1 program listed on their DS-2019s. International Services and the new employer will update the SEVIS record to approve the transfer.
+H-1B/O-1 Change of Employer
+If an H-1B or O-1 employee is planning to start a new position outside Cornell, the future employer must submit a new petition. The employee should check with their new employer if they have questions about the petition process or when they can begin working.
+Different employers have different processes and document requirements, so International Services can't advise scholars—but please encourage your employees to inform us as soon as possible when they're
+leaving Cornell
+.
+Leaving the U.S.
+Taxes
+Employees leaving the U.S. will need to file taxes from abroad if they had income from a U.S. source in the past year. Visit our
+taxes pages
+for more information.
+Grace Period
+Based on their visa status, some international scholars have a grace period to settle their affairs and prepare to return home.
+J-1 Grace Period
+J-1 exchange visitors have a
+30-day grace period
+after the end date on their DS-2019.
+They may not work or complete any J-1 program activities during the grace period.
+The J-1 program can’t be transferred during the grace period.
+H-1B/O-1/TN/E-3 Grace Period
+Scholars in H-1B, O-1, TN, or E-3 status may have been granted a discretionary 10-day grace period. They can find out by checking their most recent I-94—either at the bottom of their I-797 approval notice or from their
+most recent U.S. entry
+, whichever occurred most recently.
+They must leave the U.S. or file for an extension or change of status before the end date on their I-94.
+If their employment ends early, scholars with H-1B, O-1, TN, or E-3 status may have up to a 60-day grace period to find new employment, change or extend their status, or leave the country. They may not work during the grace period.
+H-1B/O-1/TN/E-3 Employment Terminated
+When your department terminates employment before the end of an employee's H-1B, O-1, TN, or E-3 status, the department must give the employee clear notice of the termination. The department is also responsible for offering in writing to pay the reasonable cost of return transportation to the employee's home country or country of last residence.
+Your department is not required to provide this offer if the employee voluntarily resigns or is terminated at the end of the period of authorized employment. There is no obligation to pay the return transportation costs of dependent family members or personal belongings.
+Administrator Resources
+International Services
+Alerts: Immigration Policy Guidance
+Global Cornell
+Supporting Our International Community

@@ -1,0 +1,38 @@
+URL: https://cals.cornell.edu/news/2017/01/decoded-microbial-metabolism-explains-biofuel-yield
+TITLE: Decoded Microbial Metabolism Explains Biofuel Yield | CALS
+FETCHED: 2026-11-06
+
+Share
+To unravel how intricate waste biomass converts to biofuels, a Cornell professor studied the bacterium Clostridium acetobutylicum to decipher its metabolism. Understanding the bacterium’s sugar-processing complexities may lead to improved biofuel yields.
+Ludmilla Aristilde
+“It is recognized for over a century that Clostridium acetobutylicum [a soil bacterium] is a viable biofuel producer. Right now, though, this bacterium is not very efficient at processing complex wastes to biofuel production,” said
+Ludmilla Aristilde
+, assistant professor of biological and environmental engineering.
+Using nonedible plant materials for biofuel production is important to sustainable energy options, and processing these materials involves metabolizing the plant’s sugars. “Now, we seek to understand the complexities of utilizing the different sugars we find in plant biomass. So instead of having to separate the different sugars, we look to save time and money by using the whole complex biomass and turn it into fuel,” she said.
+Think of the bacterial cell as a factory, Aristilde said.
+“If we better understand the assembly line in the metabolic mill that processes all the different sugars, we will be in a better place to implement bioengineering strategies. In other words, we can use all the different plant components from biomass waste without compromising on the yield of fuel production.”
+Aristilde used an emerging biochemical approach, called metabolomics, to track different sugar carbon atoms inside the bacterial cells and learn why the cell factory does not efficiently convert all sugar carbons into biofuel. Specifically, she found that the bacterium incorporates pentose carbons (five-carbon sugars) in the metabolic network to make nucleotides (the building blocks of DNA), but it does not lead to making biofuel. But some hexose carbons (six-carbon sugars) are preferentially channeled through glycolysis, a metabolic pathway that connects to biofuel production.
+The United States and most other countries seek to reduce greenhouse gas emissions to stave off global warming, and most gasoline sold in the U.S. contains ethanol because such plant-based biofuels are carbon-neutral. All plant materials used to produce biofuels, such as grasses and nonedible crops, capture carbon dioxide from the atmosphere through photosynthesis, offsetting car exhaust.
+Significant effort is being employed to engineer bacteria to metabolize complex wastes.
+“The ultimate goal is to understand the cycling of complex organic mixtures by anaerobic soil bacteria. These bacteria are important in the natural conversion of organic carbons in soils and they are exploited for industrial biofuel production,” Aristilde said. “This study teaches us a little more on how the network works and what prevents the cell from routing some components to biofuel and other components not.”
+Aristilde’s research, “
+Metabolite Labeling Reveals Hierarchies in Clostridium Acetobutylicum that Selectively Channel Carbons from Sugar Mixtures Towards Biofuel Precursors
+,” was published online in Microbial Biotechnology, Nov. 22. The National Science Foundation funded the work.
+This article also appeared in the Cornell Chronicle.
+Keep Exploring
+News
+November 6, 2026
+Cost share and market access are the top drivers of digester adoption
+U.S. dairy production has continued its decades-long consolidation into fewer, larger operations [1], [2]. Recent news coverage has suggested that the growth in anaerobic digester adoption over the past decade may have encouraged this expansion...
+Cornell Cooperative Extension
+Animal Science
+PRO-DAIRY
+News
+November 5, 2026
+Library story time is also learning time for parents
+Cornell Cooperative Extension
+Explore All Stories
+We openly share valuable knowledge.
+Sign up for more insights, discoveries and solutions.
+Please enter a valid email address to subscribe to the newsletter.
+Email Address

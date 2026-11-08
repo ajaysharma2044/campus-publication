@@ -1,0 +1,51 @@
+URL: https://registrar.cornell.edu/students/enrollment/student-center-help/swapping-a-class
+TITLE: Swapping a Class | Registrar
+FETCHED: 2026-11-06
+
+Swapping a Class
+You may swap a class directly through your
+Student Center
+during either pre-enrollment or open enrollment (prior to the start of each semester). If your enrollment window has closed or an enrollment deadline has passed, please reach out to your
+College or School Registrar
+for further guidance.
+Swaps are usually performed when changing between sections of a class or if you are only dropping a class from your schedule if you can get into the class that you are trying to swap into.
+Important!
+it is best practice to only ever perform a swap into open class sections. Do not check the 'Wait List if class is full' box when swapping!  If you are successfully added to the waitlist, you are dropped from the class that you are attempting to edit by swapping (changes sections within the same class) or swap out of only if you can get into another class.
+To start, after logging in to your
+Student Center
+, click on
+Enroll
+.
+Select
+Swap
+under the
+Enroll
+tab.
+Step 1 - Select a Class to Swap
+Select the term in which you will be changing your enrollment.
+Select the class that you wish to drop in the
+Swap This Class
+section. You will then enter the class number for the class that you wish to enroll in the
+With This Class
+section and click
+Enter
+.
+On the
+Enrollment Preferences
+screen, verify that the grading option, number of units, and class information are correct and click
+Next
+.
+Step 2 - Confirm your selection
+Confirm that the information on this page is accurate and click
+Finish Swapping.
+Step 3 - View results
+If you were successful in swapping your classes, you will receive a success
+message
+and a green check mark in the
+status
+field.
+If the swap was unsuccessful, you will receive an error
+message
+and a red X in the
+status
+field.

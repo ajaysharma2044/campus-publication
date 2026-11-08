@@ -1,0 +1,36 @@
+URL: https://cals.cornell.edu/news/2017/01/plants-chemical-messages-keep-pests-moving
+TITLE: Plants' Chemical Messages Keep Pests Moving | CALS
+FETCHED: 2026-11-06
+
+Share
+When leaf beetle larvae eat goldenrod, the damaged plant emits a chemical message, which informs the insect that the plant is damaged and is a poor source of food. The airborne chemicals are also noticed by undamaged neighboring plants, warning them to produce their own chemical defenses so they are ready for approaching enemies.
+These chemical defense systems keep insect herbivores moving to new plants in dense populations, thereby distributing damage evenly and leaving behind minimal damage on each individual plant throughout a field, according to a recent study in the journal
+Functional Ecology
+.
+The findings have implications for understanding dynamics between plants and insects that eat them and for controlling pests in dense populations of plants, such as fields of agricultural crops.
+“If you have plant populations that are very dense, like goldenrod or agricultural crops, plant-to-plant communication can play a very important role in herbivory distribution,” said Andre Kessler, assistant professor of ecology and evolutionary biology. Kimberly Morrell, Ph.D. ’15, a former graduate student in Kessler’s lab, is the first author of the paper.
+Plants can tolerate a small amount of damage without major effects on fitness or yield; goldenrod, for example, can tolerate up to 30 percent of its leaves being eaten. For agricultural crops there is the potential for no loss in yields when herbivore damage is evenly distributed across the population and is kept at tolerable minimum levels for each individual plant, Kessler said.
+Plant communication has been documented in more than 35 plant species, including goldenrod in this study. Chemicals, called volatile organic compounds (VOCs), have been shown to attract predator insects that protect plants from pests. Other types of VOCs can elicit a response in neighboring plants to turn on their own defenses, or emit their own VOCs, regardless of whether the signal comes from a related species.
+In the study, experiments in the field examined goldenrod exposure to leaf beetle larvae, while VOC analyses and tests were done in the lab.
+The researchers tested the spatial distance where VOCs might induce resistance to insect herbivores in neighboring plants. They discovered that VOCs reach their immediate neighbors and cause the larvae to move two plants over before feeding again. That’s because fields of goldenrod are dense – with goldenrod accounting for 75 percent or more of the plants – much like in agricultural fields. The density causes airflow to rise upward, limiting the horizontal spread of VOCs. The researchers learned that leaf beetle larvae prefer undamaged plants over damaged plants or those exposed to VOCs, Kessler said.
+“To our surprise, the larvae avoided exposed plants in the same way they avoided actually damaged plants,” Kessler said. Therefore, mobile larvae leave a small amount of damage on each plant they feed on and distribute that damage across a field, according to the study.
+In the future, scientists could possibly manipulate VOCs to limit pest damage in agricultural crops, said Kessler.
+Next steps in the work include looking at genetic variation in plant VOC emitters and receivers and the role of natural selection in the evolution of plant communication.
+The study was funded by the Biogeochemistry and Environmental Biocomplexity Graduate Group at Cornell and the National Science Foundation.
+Keep Exploring
+News
+November 6, 2026
+Cost share and market access are the top drivers of digester adoption
+U.S. dairy production has continued its decades-long consolidation into fewer, larger operations [1], [2]. Recent news coverage has suggested that the growth in anaerobic digester adoption over the past decade may have encouraged this expansion...
+Cornell Cooperative Extension
+Animal Science
+PRO-DAIRY
+News
+November 5, 2026
+Library story time is also learning time for parents
+Cornell Cooperative Extension
+Explore All Stories
+We openly share valuable knowledge.
+Sign up for more insights, discoveries and solutions.
+Please enter a valid email address to subscribe to the newsletter.
+Email Address

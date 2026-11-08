@@ -1,0 +1,37 @@
+URL: https://alumni.cornell.edu/article/csv16-highlights-innovation-pays-tribute-to-president-garrett/
+TITLE: CSV16 highlights innovation, pays tribute to President Garrett
+FETCHED: 2026-11-06
+
+CSV16 highlights innovation, pays tribute to President Garrett
+By
+AAD Staff
+March 15, 2016
+More than 400 Cornell alumni, parents, and friends gathered on March 8 for Cornell
+Silicon Valley’s
+marquee event, “CSV16: Expanding Horizons through Innovation,” at the
+Computer History Museum
+in Mountain View, California. The day-long conference featured panel discussions and presentations by faculty and alumni leaders in the fields of finance, technology, biotech, and design.
+Researchers have made impressive advances in the fields of robotics and artificial intelligence, but the possibility of robot butlers—or evil robots who seek to destroy humanity—still exist only in the realm of science fiction, according to first presenter Hadas Kress-Gazit, associate professor at Cornell’s
+Sibley School of Mechanical and Aerospace Engineering.
+Kress-Gazit explained that, before we can have autonomous robots we can trust to make our lives easier, researchers have to find a way to “transform language-based instruction into provably-correct robot behavior.” Artificial intelligence should also have the ability to reason about the feasibility of a project and give feedback accordingly.
+Hadas Kress-Gazit
+Shaun Stewart
+Dan Huttenlocher
+In another presentation, Greg Morrisett, dean of Cornell’s
+Computing and Information Science
+, discussed vital advances in the development of secure and reliable software and data. “We live in a world where data is the new oil,” he said. “A leak is toxic.”
+Alumni leaders in different companies presented on several topics:
+Adelin Cai MPA ’07 of Pinterest discussed how to moderate content to keep users safe while also providing a vast library of information.
+Shaun Stewart ’02 of Airbnb explained ways to identify and develop successful strategies to expand businesses and pursue areas of growth, online and elsewhere.
+M. Arthur Gensler ’57 of the world-class design firm Gensler talked about Cornell’s powerful impact on his long and storied career and shared experiences designing iconic buildings for high-profile clients that included the late Steve Jobs.
+Alumni and faculty also participated in two panel discussions. In “Academic Entrepreneurship: From Scientific Discovery to Innovation,” panelists discussed how university research labs have become engines of innovation, giving rise to new technology and business ventures. The panelists included Michael Roach, J. Thomas and Nancy W. Clark Assistant Professor of Entrepreneurship at Cornell’s
+Charles H. Dyson School of Applied Economics and Management
+; Molly Morse ’03 of Mango Materials; and Diego Rey MS ’08, PhD ’12, and Jason Springs MBA ’09, both of GeneWEAVE.
+The “Internet of Things: What Matters to Me?” focused on the reasons why some consumers are still unfamiliar with emerging technology that allows everyday objects to communicate through the Internet. Panelists included Randall Davies ’95 of Under Armour; Chris Hasser ’90 of Element Science, Inc.; Quinn Li MBA ’03, of Qualcomm Ventures; and Eve Saltman ’86 of GoPro.
+CSV16 concluded with a tribute to the Cornell President Elizabeth Garrett, led by Dan Huttenlocher, founding dean and provost of
+Cornell Tech.
+Huttenlocher praised the late president and reiterated her priority areas for Cornell: attracting and retaining top faculty in key academic areas that have broad impact; enhancing the student learning and living experience; and increasing cross-campus connections, particularly between Ithaca and New York City.
+Quoting Garrett, Huttenlocher also affirmed her inspiring vision for a Cornell that is “at once realistic and idealistic … always in quest of something better.”
+See more pictures from CSV16 on Flickr
+Categories
+Networking

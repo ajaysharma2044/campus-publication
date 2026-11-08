@@ -1,0 +1,113 @@
+URL: https://health.cornell.edu/initiatives/skorton-center/mental-health-initiatives/fall-2020-mental-health-well-being-survey
+TITLE: Fall 2020 Mental Health & Well-Being Survey | Cornell Health
+FETCHED: 2026-11-06
+
+About the survey
+Between October 12–26, 2020, the
+Skorton Center for Health Initiatives
+at Cornell Health conducted a survey of Cornell undergraduate, graduate, and professional students to assess the mental health and well-being of Cornell students during the fall 2020 semester.
+The survey sought to address four main goals:
+Expand our understanding of Cornell student mental health, building on limited data from items previously embedded in institutional surveys. This is the University’s first dedicated survey of undergraduate, graduate, and professional student mental health.
+Assess the mental health impact of the COVID-19 pandemic, corresponding economic crisis, and most recent national reckoning with racial injustice to inform the University’s response.
+Examine mental health disparities (e.g., according to gender identity, racial identity, and sexual orientation) and potential contributing factors.
+Establish initial data for evaluation of strategies recommended in the
+Final Report of the 2020 Mental Health Review
+, recognizing the potential effects of history on the outcome variables (e.g., higher levels of distress) and likely “natural” return to baseline even in the absence of intervention.
+About the sample
+The survey was anonymous and voluntary. The survey invitation was sent to students in Ithaca (n = 9,000) who were previously invited to participate in Cornell’s Fall 2020 SHIELD Survey (assessing COVID-related behaviors and attitudes), as well as all registered students residing outside of Ithaca (n = 5,645). The resulting sample included 4,408 students with a response rate of 30.1 %.
+Sample size by student status
+Among those who indicated their student status, a total of 59.5% (n = 2,486) were undergraduate students, 34% (n = 1,420) were graduate students, and 6.5% (n = 273) were professional students. The sample is largely representative of the student body. Approximately two-thirds of student respondents were based in Ithaca and one-third were studying from elsewhere (within the U.S. or internationally).
+Key findings and practical implications
+The Fall 2020 Mental Health & Well-Being Survey was Cornell’s first dedicated survey of undergraduate, graduate, and professional student mental health. The results highlighted the negative impact of major societal stressors (e.g., COVID-19 pandemic, racial injustice) and heightened mental health effects of academic responsibilities during this challenging time. Moreover, the results demonstrated the disproportionate impact of these stressors among students with identities that historically have been marginalized. Overall, the findings underscore the need for a campus-wide, public health approach to addressing student mental health as set forth in the recent Mental Health Review, and point to the importance of ongoing evaluation of students’ mental health and well-being. The following summary provides a review of key findings, practical implications, and corresponding action steps in line with the recommendations provided in the
+Final Report of the Mental Health Review
+.
+Psychological distress
+Findings
+: Students reported experiencing higher levels of psychological distress during the Fall 2020 semester than observed in prior semesters. This higher level of distress likely reflects predictable difficulties navigating considerable current societal stressors.
+Practical Implications
+: These findings highlight the importance of utilizing a comprehensive and sustained public health approach, as opposed to a pathology-based treatment only approach, to promoting student mental health and well-being. Furthermore, these results suggest that addressing the impact of societal stressors within the campus community may have a positive impact on student mental health and well-being (e.g., strategies to address social isolation, racism, and other forms of bias).
+Application to the Mental Health Review
+: These findings support the work of the Executive Accountability Committee as they continue to implement 131 recommendations from the Mental Health Review in relation to three major areas of campus life: the academic environment, the campus community, and clinical services. The collective implementation of these recommendations over time may address psychological distress and enhance student well-being using a university-wide, culture change approach. In line with Cornell’s Mental Health Framework, the recommendations are organized according to the following four areas:
+Section A
+: Fostering a healthy campus environment including addressing academic policies and practices and providing mental health trainings for faculty and staff.
+Section B
+: Promoting social connectedness and resilience through orientation and programming, residential living experiences, college-based first-year seminar classes, and specifically assess needs and expand ongoing outreach and support for vulnerable populations with regard to advising on course enrollment, careers and internships, and social connection.
+Section C
+: Increasing help-seeking behavior and identify people in need of care, and;
+Section D
+: Provide medical and mental health services
+Functional academic impairment, suicidal thoughts, and suicide attempts
+Findings:
+Despite higher level of distress, students did not report higher levels of academic impairment, suicidal ideation, or suicide attempts compared to prior time periods.
+Practical Implications:
+While these results did not suggest a relative increase in rates of academic impairment or suicidality at the time of this survey, they nonetheless represent a significant number of students who are seriously struggling. These findings underscore the ongoing need to (a) identify students in distress, promote help seeking, and provide collaborative mental and medical health services, and; (b) galvanize the entire campus community in relation to members’ shared responsibility to support one another’s well-being and mitigate stressors – including unnecessary academic-related stress – as students navigate this unprecedented time.
+Application to the Mental Health Review
+: Implementation of the following sample recommendations from the Mental Health Review may help to increase the identification of students in distress and connection to collaborative mental and medical health services available at Cornell Health:
+Recommendation A.2.1. Require that faculty and staff attend at least one mental health training opportunity every two years
+Recommendation C.1.3. Ensure that all new students (undergraduate, graduate, and professional) receive information about how to recognize symptoms of mental illness, where to find resources and support, how to talk to friends who might be struggling, and provide appropriate support to friends.
+Recommendation C.1.4. Add proactive communication about mental health to the parent orientation guide that will equip families to encourage help-seeking behavior among students, recognize signs of distress, and reduce stigma.
+Recommendation C.1.9. Establish a clear protocol for students to notify course faculty of health or well-being issues that affect attendance or work completion.
+Recommendation C.2.1. Implement a “Big Red Folder” initiative to provide a quick reference guide for faculty, staff, Teaching Assistants, and Resident Advisors who may interact with distressing or distressed students.
+Recommendation C.2.2. Address faculty concerns associated with the Student of Concern system.
+Recommendation C.2.3. Accelerate efforts that are already underway (Triple Aim Project) to improve student experience of HLOA.
+Recommendation D.1.5. Assess care patterns in Cornell Health overall, and in CAPS, against best practice standards in suicide care by using the Zero suicide self-study to direct any needed improvements.
+Recommendation D.1.6. Conduct ongoing assessment of outcomes and experiences related to the new service delivery model in CAPS.
+Sources of stress
+Findings:
+Students identified a wide range of stressors, including the COVID-19 pandemic, racial crisis, and political climate as sources of significant stress during the Fall 2020 semester. Despite these unique stressors, students nearly universally ranked academic responsibilities as their greatest source of stress, and emphatically reported that the degree and intensity was higher than normal and unique to the Fall 2020 semester.
+Practical Implications:
+These results highlight that academic experiences are paramount to addressing student distress, and are in line with the Mental Health Review recommendations identifying investing in efforts aimed at fostering a healthy campus/academic environment as likely yielding large returns for student mental health and well-being. Additionally, the results (a) underscore the importance of changes (e.g., wellness breaks) implemented in the Spring 2021 semester, and (b) suggest that the significant challenges associated with delivering virtual and hybrid educational experiences may inadvertently heighten academic demands in unique and unanticipated ways, which may warrant ongoing consideration.
+Application to the Mental Health Review:
+Implementation of the following sample recommendations from the Mental Health Review, which identified a culture of academic competition and heavy course loads as negatively impacting student well-being, may help to address the stress related to academic responsibilities:
+Recommendation A.1.1. Create a centralized mechanism for institutional oversight of academic policies and practices that negatively influence student mental health. This process necessitates close engagement with college/school leadership and faculty from across Cornell to examine practices (e.g., use of grading on a curve, exploration of a first semester of Pass/Fail grading for first-year students and certain types of classes depending on declared/intended major, adherence to Faculty Senate Resolution 85: Academic Work During Scheduled Breaks).
+Recommendation A.1.2. Address aspects of prelim administration, which students identified as significant source of stress (e.g., develop a policy around multiple prelims, coordinate prelim scheduling to avoid clustering).
+Recommendation A.1.3. Develop and launch a uniform course feedback instrument, to be used university wide that includes questions about student well-being and inclusiveness.
+Recommendation A.1.4. Raise the profile of advising as a critical component of student success.
+Recommendation A.1.5. Encourage academic departments to conduct a self-study to identify key stressors in the student experience and strategies to mitigate them.
+Recommendation A.1.6. Address the concerns raised by graduate students.
+Recommendation A.2.2. Encourage faculty and staff to model and discuss behaviors that promote support for mental health as part of course orientation lectures and initial meetings (e.g., establishing and articulating boundaries around evening and weekend communication and deadlines, endorsing sleep, learning from disappointment, and accessing resources).
+High-risk alcohol and other drug use
+Findings
+: Undergraduate students reported lower rates of high-risk drinking, similar rates of marijuana use, and somewhat higher rates of other drug use compared to prior time periods. Consistent with prior data, social fraternity and sorority members reported significantly higher rates of high-risk drinking and drug use compared to other students. This survey was the first to provide baseline data for graduate and professional students, which included similar levels of high-risk drinking and lower levels of other drug use compared to undergraduate students. Of note, students who drank more reported significantly higher psychological distress and ratings of sources of stress (p < .01), suggesting that high-risk drinking may reflect and/or contribute to psychological distress.
+Practical Implications:
+While these results highlight that the majority of Cornell students did not report high-risk drinking and other drug use, the significant link between higher alcohol use and psychological distress suggests that limiting these behaviors and/or promoting alternative coping mechanisms may play a key role in enhancing student well-being. Overall, the findings lend support to the importance of efforts aimed at preventing high-risk alcohol use and other drug misuse among higher-risk groups (e.g., “Greek” members, students in recovery) and expanding access to alcohol and other drug-free spaces, programs, and events to promote student mental health and well-being.
+Application to the Mental Health Review:
+Implementation of the following sample recommendations from the Mental Health Review may help to reduce the rate of high-risk drinking and use of other drugs among the Cornell student population:
+Recommendation B.3.3. Establish and promote a weekly slate of late-night, alcohol-free social programming for all students.
+Recommendation C.1.8. Evaluate the intersection of mental health and alcohol use in the campus environment for undergraduate, graduate, and professional students, and developing a comprehensive strategy for mitigation.
+Loneliness, resilience, and coping strategies
+Findings
+: Students reported higher levels of loneliness and lower levels of resilience relative to national comparison data. On a positive note, students reported engaging in a wide variety of coping strategies (e.g., exercise, meditation) to help support their well-being.
+Practical Implications:
+These results underscore the importance of developing and delivering evidence-based programs aimed at improving students’ sense of belonging and resilience, as well as initiatives to increase students’ access to positive coping activities that promote mental health and well-being.
+Application to the Mental Health Review
+: Implementation of the following sample recommendations from the Mental Health Review may help to promote sense of belonging and opportunities to build resilience and coping strategies among the Cornell student population:
+Recommendation B.1.1. Review orientation and programming for new students to foster greater understanding of and competence with navigating university resources, facilitate social connections, and manage student expectations related to the college transition process.
+Recommendation B.1.2. Explore best practices within housing and residential life to provide adequate training and support for student staff (RAs), so they are better equipped to manage the changing mental health needs of students in residential communities.
+Recommendation B.1.3. Develop consistent learning outcomes regarding well-being, accessing resources, and social connection for college-based first-year seminar classes, and expand offerings to all colleges.
+Recommendation B.1.4. Assess needs and expand ongoing outreach and support for vulnerable populations (e.g., international students, transfer students, student veterans, first generation/low income students) with regard to advising on course enrollment, careers and internships, and social connection.
+Recommendation B.2.2. Expand access to free physical fitness opportunities.
+Recommendation B.3.5. Offer opportunities for student organizations to support campus-based student resilience efforts.
+Recommendation C.1.1. Develop a single comprehensive and centrally maintained source of information about health, mental health, and well-being that brings together Cornell Health services, as well as resources available in Student & Campus Life, the colleges, and other units on campus.
+Recommendation C.1.7. Provide a social media platform for faculty, staff, and students to model help-seeking by sharing their stories of asking for help, seeking professional assistance, and experiences challenges and disappointment.
+Mental health disparities
+Findings
+: One major and overarching finding of this survey is the evidence for the widely assumed, but rarely studied (i.e., in the college health literature) mental health disparities among students with identities that have historically been marginalized:
+Racial/ethnic identity: Students of Color, and particularly Black (US) and Latinx (US) students, reported significantly higher psychological distress, stress, and loneliness compared to White (US) students (p < .01).
+Gender identity: Women and students who identified as another gender identity reported significantly higher psychological distress, stress, and loneliness compared to men (p < .01).
+Sexual orientation: LGBQIA+ students reported significantly higher distress, stress, and loneliness compared to heterosexual students (p < .01)
+Practical Implications
+: These results demonstrate that mental health disparities found in the overall US adult population exist among the Cornell student body, and warrant further, college-student-specific study, as well as ongoing attention, evaluation, and amelioration efforts to recognize and dismantle systemic bias and oppression. Students with identities that have been marginalized reported higher levels of bias-related stress and loneliness, which represent known risk factors for negative physical and mental health outcomes and may partially account for these observed mental health disparities. These findings highlight the importance of implementing comprehensive, campus-wide efforts to promote social belonging, combat bias, and create a culturally responsive environment given the known negative mental health impacts of bias among students with marginalized identities.
+Application to the Mental Health Review
+: Implementation of the following sample recommendations from the Mental Health Review may help to mobilize a university-wide approach to addressing the mental health disparities found among the Cornell student body:
+Recommendation A.2.4. Provide faculty and staff with information and feedback about the student experience in order to bridge gaps (e.g., generational, socio-economic, racial, national, etc.) between their own experience and that of our current student population.
+Recommendation A.3.2. Identify the opportunities that are central to a Cornell education, and ensure that funding is available to provide equitable access.
+Recommendation B.1.4. Assess needs and expand ongoing outreach and support for vulnerable populations (e.g., international students, transfer students, student veterans, first generation/low income students) with regard to advising on course enrollment, careers and internships, and social connection.
+Recommendation B.3.1. Regulate exclusive or application-based student organizations.
+Recommendation B.3.2. Assess needs and develop intentional interventions and programmatic solutions in Residential Life to improve sense of belonging and inclusion among students who live in campus housing.
+Recommendation B.3.6: Create and expand spaces on campus for programming and social interaction (prioritize fundraising for the Center for Equity and Belonging under Diversity and Equity within the capital campaign).
+Recommendation C.2.6. Offer training for faculty and staff about invisible disabilities.
+Recommendation D.1.4. Utilize best practices to provide optimal care to underserved populations, such as the Healthcare Equality Index (HEI) Certification and the Equity in Mental Health (EMH) Framework.
+Recommendation D.1.12. Implement annual professional development expectations for all clinical staff, funded by Cornell Health, on crucial topics in collegiate mental health (e.g., multicultural competency).
+View the full 25-page Quantitative Survey Report
+(pdf)

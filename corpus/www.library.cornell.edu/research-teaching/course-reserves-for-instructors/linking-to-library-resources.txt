@@ -1,0 +1,51 @@
+URL: https://www.library.cornell.edu/research-teaching/course-reserves-for-instructors/linking-to-library-resources/
+TITLE: Linking to Library Resources – Cornell University Library
+FETCHED: 2026-11-06
+
+Use of Online Library Resources for Course Reserves
+Please note that off-campus access to the Library’s licensed resources is restricted to current students, employees, and faculty with NetIDs. Patrons with GuestIDs will not have access off-campus. This should be the only major restriction to linking directly to licensed resources.
+Instructors usually may assume that if the Library has a database or journal available in electronic format, they can point to it or its articles for a class. See instructions for linking to articles and databases, below.
+The Library always tries to secure the rights to use materials in the classroom when negotiating licenses. NOTE: Harvard Business School (HBS) publications are the one major exception to this rule. Although they are available electronically through the Library, HBS articles may not be used in classes without additional permission. This limitation is clearly indicated on each article.
+Although in most cases, you may link directly to an article, you might not be able to provide copies of articles by printing them out or putting PDFs or other electronic documents on a Canvas site for download. The Library’s
+E-Journals Titles
+listing includes a “View Terms of Use” link. This link leads to a page with information regarding the use of each resource.
+It is important to note that the information in the “View Terms of Use” button is for all titles from the supplier of the electronic copy. Individual journals or articles may have more restrictive or more generous policies; many publishers also have a “Terms and Conditions” link on their websites. Individual articles might also have copyright notices regarding permission to include articles on course websites, in the course reserve system, or in course packs without having to pay additional permission.
+Directly linking to articles within a licensed database or journal (except for Harvard Business School publications) is often the surest way to include them without the need for additional permission.
+Cornell-Restricted Databases and E-Journals
+You can bookmark or link to databases and e-journals, but your links need to be prefaced with:
+https://login.proxy.library.cornell.edu/login?url=
+This URL prefix kicks in the authentication process necessary to access restricted resources; it allows you to  identify yourself as a Cornell user from a computer outside the Cornell network,
+To find the correct URL for linking, find the resource in the online catalog, or the “Articles & Full Text,” “Databases,” E-Journal,” and “Images” searches.  Any links you obtain from the Cornell University Library catalogs, will usually have the correct URL prefix already in place.
+Windows users: Right-click on the resource’s link and choose Add to Favorites (for Internet Explorer) or Bookmark This Link (for Firefox).
+Mac users: Left-click on the resource’s link while holding the Ctrl key and choose Add Link to Bookmarks (for Safari). These links can be added to web pages and Canvas course sites.
+Individual Articles in a Licensed Journal
+Articles can be difficult to bookmark or link, since not all publishers offer permanent URLs. Even if a permanent URL does exist, it may not be obvious what it is because different journals have different methods for constructing permanent links. On journal Web sites, some providers include permanent links to specific articles, sometimes identified as OpenURLs or DOIs (Digital Object Identifiers). Other providers give information on how to build a permanent link from their systems.
+Regardless of the exact form of the permanent link, access to licensed journals is normally restricted to Cornell users. Because of the authentication process needed to access restricted resources, your links need to be prefaced with:
+https://login.proxy.library.cornell.edu/login?url=
+Linking to an Article with a DOI
+In addition to the
+https://login.proxy.library.cornell.edu/login?url=
+add the following:
+http://dx.doi.org/
+, making the whole prefix:
+https://login.proxy.library.cornell.edu/login?url=http://dx.doi.org/
+For example, if an article had the following DOI: doi:10.1038/nature04674, the link would be:
+https://login.proxy.library.cornell.edu/login?url=http://dx.doi.org/doi:10.1038/nature04674
+Linking to an Article with Another Type of Permanent URL
+If the article does not have a DOI but the database or journal provides another type of permanent link, use:
+https://login.proxy.library.cornell.edu/login?url=
+For example, to link to an article with a permanent link of
+http://jeb.biologists.org/cgi/content/abstract/199/1/21
+, the URL that will allow both on- and off-campus access is:
+https://login.proxy.library.cornell.edu/login?url=http://jeb.biologists.org/cgi/content/abstract/199/1/21
+If the database does not provide a permanent link, try using the link provided in the browser, but please be aware that this link may not always work.
+Note:
+It is important to test your links from off-campus after creation. If they do not work, make sure there are no extra spaces or punctuation in your URL and verify that the library has licensed access to the article. If the link is correctly formed and you should have access and you are still encountering difficulties, contact
+LIBGATEWAY-L@lists.cornell.edu
+.
+OpenURL Links
+If you are using a service outside of Cornell’s regularly licensed resources that asks for the library’s OpenURL resolver to link to articles (such as some social bookmarking services), you can use the following:
+http://resolver.library.cornell.edu/net/openurl/?
+If you are not sure what a particular service needs, please e-mail
+LIBGATEWAY-L@lists.cornell.edu
+so that our IT department can add the service to our link resolver. After this is completed, you will be notified and you should be able to use the service.

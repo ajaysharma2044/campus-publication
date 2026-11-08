@@ -1,0 +1,47 @@
+URL: https://cals.cornell.edu/news/2017/04/science-shorts
+TITLE: Science Shorts | CALS
+FETCHED: 2026-11-06
+
+Share
+periodiCALS
+, Vol. 7, Issue 1, 2017
+Plants’ chemical messages keep pests moving
+Think of it as a “neighborhood watch” for plant life. A new study by
+André Kessler
+, assistant professor of ecology and evolutionary biology, and Kimberly Morrell, Ph.D. ’15, explains how plant-to-plant communication keeps insects on the move and distributes damage evenly across a field.
+When leaf beetle larvae eat goldenrod, the injured plant emits a chemical signal using VOCs (volatile organic compounds). This tells the insect that the plant is damaged and a poor source of food—time to move on—but the airborne message is also a warning to neighboring plants to ramp up their own chemical defenses. “To our surprise, the larvae avoided VOC-exposed plants in the same way they avoided actually damaged plants,” Kessler said.
+They discovered that VOCs caused the larvae to move two plants over before feeding again. “If you have plant populations that are very dense, like goldenrod or agricultural crops, plant-to-plant communication can play a very important role in the distribution of plant-eating insects,” Kessler said.
+He noted the potential for no loss in yield in an agricultural field if insect feeding is evenly distributed across all plants and is kept at tolerable minimum levels for each individual plant, making VOC manipulation a promising avenue to protect crops from insect damage, at least for relatively mobile pests.
+Microalgae create green fuel, reduce food insecurity
+microalgae
+Industrial cultivation of marine microalgae may soon become a top-tier contender for combating global warming while simultaneously providing energy and food security, according to a new study published by the Cornell Algal Biofuels Consortium. Microalgae—single-celled, microscopic organisms—can be a rich source of lipids for aviation and shipping fuel production.
+In addition, the protein-rich, nutritious by-products of fuel production can be added to feeds for domesticated farm animals, including chickens and pigs, or aquacultured animals, like salmon and shrimp.
+“I think marine microalgae can provide food security for the world,” said Charles H. Greene, professor of earth and atmospheric sciences, and lead author of the paper. “They can also provide our liquid fuel needs, not to mention their benefits in terms of land use. We can grow algae for food and fuels in only one-tenth to one one-hundredth the amount of land we currently use to grow food and energy crops.”
+Marine microalgae need not compete with terrestrial agriculture for arable land, nor does growing them require fresh water. Many arid, subtropical regions—such as Mexico, North Africa, the Middle East and Australia—would provide suitable locations for producing vast amounts of microalgae.
+“We may have stumbled on to the next green revolution,” Greene said. “We got into this looking to produce fuels, and in the process, we found an integrated solution to so many of society’s greatest challenges.”
+Merlin Bird Photo ID mobile app launches
+Person using Merlin Bird Photo ID mobile app on smartphone
+The Merlin Bird Photo ID mobile app has officially taken flight. Thanks to machine-learning technology, the recently launched app can identify hundreds of North American species it “sees” in photos. The app was developed by Cornell Tech and California Institute of Technology computer vision researchers in partnership with the
+Cornell Lab of Ornithology
+and bird enthusiasts.
+“When you open the Merlin Bird Photo ID app, you’re asked if you want to take a picture with your smartphone or pull in an image from your digital camera,” said Merlin project leader Jessie Barry of the Lab of Ornithology. “You zoom in on the bird, confirm the date and location, and Merlin will show you the top choices for a match from among the 650 North American species it knows.”
+Like any good birder, the system considers species that would be found at that specific time of year and in that location using information from the eBird program, which collects an average of 7 million bird observation records each month from around the world.
+How good of a birder is Merlin? Accuracy is around 90 percent for a good quality photo, but the odds of getting an accurate match go down if the photo is fuzzy or if the bird is obscured.
+Down the road, the Merlin team will produce versions for South America, Europe, Asia, Africa and Australia, and developers hope to create an open platform that can be used to make visual classification tools for other organisms, from frogs to ferns.
+Keep Exploring
+News
+November 6, 2026
+Cost share and market access are the top drivers of digester adoption
+U.S. dairy production has continued its decades-long consolidation into fewer, larger operations [1], [2]. Recent news coverage has suggested that the growth in anaerobic digester adoption over the past decade may have encouraged this expansion...
+Cornell Cooperative Extension
+Animal Science
+PRO-DAIRY
+News
+November 5, 2026
+Library story time is also learning time for parents
+Cornell Cooperative Extension
+Explore All Stories
+We openly share valuable knowledge.
+Sign up for more insights, discoveries and solutions.
+Please enter a valid email address to subscribe to the newsletter.
+Email Address

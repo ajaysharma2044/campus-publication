@@ -1,0 +1,27 @@
+URL: https://registrar.cornell.edu/students/transcripts/validating-etranscript
+TITLE: Validating an eTranscript | Registrar
+FETCHED: 2026-11-06
+
+Validating an eTranscript
+Cornell University provides official electronic transcripts in certified PDF format for all students who have attended Cornell since 1982. These eTranscripts are official documents that contain Parchment's digital signature and can be instantly validated. You must use
+Adobe Reader
+to view electronic transcripts.
+When you receive an eTranscript from Cornell, follow these steps to download the document:
+You will receive an email notification that a document has been sent to you. Click the link to the secure website.
+On the secure website, click Next to generate an email to yourself containing the passcode.
+Enter the passcode and click Next. You will then have access to download the official eTranscript.
+Note to Mac and Linux users: To view an electronic transcript, you must use
+Adobe Reader
+. The electronic transcript cannot be viewed with other PDF viewers.
+Cornell’s official eTranscript is a certified PDF that displays a blue ribbon on the notification bar across the top of Adobe Reader, ensuring the recipient that the digital signature is authentic and the contents of the eTranscript have not been altered. On older versions of Adobe Reader, the blue ribbon will be displayed on a pop-up screen and in the lower left corner of the application’s frame.
+Valid Signature
+When the blue ribbon indicates that the document is Valid, Parchment's digital signature is true and authentic and the document’s contents have not been changed or altered in any way.
+Invalid Signature
+If the blue ribbon indicates that the document is Invalid, then the document should be rejected. The invalid status could be due to several reasons, such as an inauthentic digital signature or an alteration to the document. In all cases, reject a document that is Invalid.
+Author Unknown
+If the blue ribbon indicates that the validity of the document is Unknown, make sure the computer has an active internet connection. If there is a properly working internet connection and the digital signature cannot be validated, reject the document.
+Note: The eTranscript is considered official in PDF format only. If printed, the words VOID VOID VOID will appear to indicate that the paper copy is not an official institutional document.
+For More Information
+If you have any questions regarding the authenticity of a document, please contact the Office of the University Registrar at (607) 255-4232 or
+univreg@cornell.edu
+.

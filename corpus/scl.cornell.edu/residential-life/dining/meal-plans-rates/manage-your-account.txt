@@ -1,0 +1,34 @@
+URL: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/manage-your-account
+TITLE: Manage Your Account | Student & Campus Life | Cornell University
+FETCHED: 2026-11-06
+
+Manage Your Account
+Manage Your Account with GET Funds
+Cornell Dining is now
+using GET Funds
+for dining plan account management. (Note: Laundry plans are now managed via CSCPay Mobile. Check the
+Laundry Accounts page
+before adding funds to your account.)
+The GET app uses your Cornell NetID login, and requires two-step login to keep your account safe. Read more about two-step login and set up DUO for iPhone or Android at
+it.cornell.edu
+.
+Download the GET app for your phone by searching for "CBORD GET" in the iOS App Store or Google Play Store. If this is the first time you're using GET, you'll need to select "Cornell University" as your institution, and then you'll be presented the CUWebLogin screen where you'll enter your NetID and password.
+Having trouble logging in?
+On Android, you must use the actions in the popup notification, rather than exiting the GET app to switch to the DUO app, in order to successfully connect to GET. If you find yourself in a loop where you're returned to the login screen and not the GET app, use these instructions:
+After you enter your NetID and password, you'll be shown the two-step DUO login screen. Tap "send me a push." In the notification, tap "tap to view actions" and then tap "approve."
+If you get to the full DUO screen with the green and red boxes, the process will loop and you won't be able to get into the GET app. The key is to tap "approve" in the small notification at the top of the screen while the GET app is still visible.
+This video illustrates the process:
+https://youtu.be/-b-rL7eynpo
+If you have further trouble, please contact IT@Cornell for assistance using the contact information at https://it.cornell.edu/twostep
+Auto Deposit Now Available for MealChoice in GET Funds
+Cornell Dining's GET Funds now offers auto deposit based on a low balance trigger for BRBs, MealChoice, and MealChoice Encore meal plan holders.
+Log in to Cornell GET
+using your web browser and look for the "Settings" icon and link in the upper right corner of your screen. Mobile web users will find "Settings" in the menu in the top right corner.
+"Amount to deposit:"
+is the amount added automatically once the low balance threshold is met.
+"Low Balance Amount:"
+is the dollar amount threshold at which an auto deposit is triggered.
+"Source account:"
+is a dropdown list of credit cards you have stored in GET.
+Parents and guardians:
+To make deposits you only need the recipient's NetID and their name exactly as it appears on their Cornell ID card.

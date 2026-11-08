@@ -1,0 +1,33 @@
+URL: https://www.library.cornell.edu/libraries/policies/public-computing/
+TITLE: Public Computing – Cornell University Library
+FETCHED: 2026-11-06
+
+These policies are intended to ensure efficient, safe, and ethical use of Cornell University Library’s public computers. They apply to any device that uses our networks, including laptops brought in by patrons and laptops loaned out by the Library. Individual libraries may have additional policies.
+The Library currently provides 106 public kiosks, and around 90 loaner laptops. See
+Technology and Equipment
+for a list of locations.
+For All Cornell University Library Computers
+Priorities of use:
+Priority use of the computing equipment is for academic rather than recreational purposes. If there are people waiting to use a computer and you are engaging in non-academic pursuits, you may be asked to give up the computer you are using.
+Use of machines:
+The Library is not responsible for damages or loss of files should you connect your personal peripheral devices to its public computers. Illegal copying of software from the Library computers is prohibited, as is the installation of any form of malicious files or software.
+Unattended computers:
+Be advised that if you leave your machine unattended you may lose what you were working on. To allow for fair and equitable access to our resources, staff are authorized to remove personal belongings from unattended workstations. Belongings that have been removed may be retrieved from the lost and found at the Circulation desk.
+Support:
+Other than re-booting computers, do not attempt to fix any computing equipment on your own. Report all computer or printer problems to Library staff. Computing supplies such as paper and toner are to be managed by library staff.
+Data and backups:
+You are responsible for keeping backups of your work, by emailing or otherwise transferring it to yourself, or via your own storage media. Work saved on the local hard drive may be lost due to such events as hardware failure at any time and without notice. Be sure to save your files often and before you leave the computer, restart it when you are done. Upon restart, the system will be restored to original state and all personal and settings are removed.
+For Cornell University Library Computers and Personal Computers in the Library
+Behavior:
+The user is responsible for observing all copyright laws. Illegal copying of licensed software, music, movies, etc. is a violation of federal copyright laws and of Cornell University policy. Please see
+Responsible Use of Information Technology Resources
+.
+All users must wear headphones when listening to audio. The volume must not distract other users. Study groups may use computers as long as conversations and noise levels do not disrupt the work environment of other users.
+Support
+: The Library does not diagnose or repair personal laptops.
+Use of all university computers and networks is governed by university policies, codes, and applicable federal, state and local laws.
+For more information visit:
+Responsible Use of Information Technology Resources
+IT@Cornell Policies
+Cornell University Library’s Commitment to Privacy
+Updated November 2022

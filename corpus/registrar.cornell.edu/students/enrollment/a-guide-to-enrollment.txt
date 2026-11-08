@@ -1,0 +1,93 @@
+URL: https://registrar.cornell.edu/students/enrollment/a-guide-to-enrollment
+TITLE: A Guide to Enrollment | Registrar
+FETCHED: 2026-11-06
+
+A Guide to Enrollment
+What is an instruction mode?
+Instruction mode refers to how typical classroom activities involving instructors and students are provided, such as lectures, discussions, and labs. Instruction mode does not refer to out-of-class requirements such as homework, reading, studying, writing assignments, or exams.
+Instruction Mode
+Description
+In Person
+Course is delivered in-person (face-to-face instruction). All required class meetings occur on campus, during scheduled meeting times.
+Distance Learning Online
+Course combines both asynchronous and synchronous distance learning interactions.
+Hybrid — Online & In Person
+Course combines in-person instruction during required class meetings on campus, combined with online learning. Some in-person activity is required.
+Distance Learning Asynchronous
+All students and instructors interact online. Involves well-designed, pre-recorded content and curated asynchronous interaction. Content is accessed by students at unspecified times.
+Distance Learning Synchronous
+All students and instructors interact online. Involves well-designed content and synchronous interaction.
+Directed Research
+Research work supervised by an advisor or a faculty member. Delivery varies.
+Independent Studies
+Coursework supervised by an advisor or a faculty member. Delivery varies
+Enrollment: When and how?
+Enrollment dates can be found on the
+Academic Calendar
+.
+As in previous semesters, all courses, regardless of instruction mode, have enrollment caps. Specific enrollment restrictions may be enforced at the discretion of faculty or departments.
+Review information in
+Student Center
+; double-check enrollment appointment time details (your start and end time for enrollment activity) in the Enrollment Dates section on the right-side navigation. You may review your maximum enrollment credits in this area too. Follow the link for Open Enrollment Dates to confirm your enrollment appointment.
+Colleges or schools have specific policies on permissible maximum credit hours per semester. Contact your faculty advisor or college advising office if you have any questions regarding your maximum credit hours.
+Tips for successful course enrollment:
+Planning for enrollment
+Course offerings are subject to change, be sure to have back-up courses planned in case you need to change your schedule.
+Plan your schedule with no course time conflicts;
+Student Center
+will generate an error message if you attempt to enroll in classes with overlapping times.
+Plan your semester in advance using the
+Scheduler tool
+in
+Class Roster
+. Review your proposed schedule with your advisor.
+You may place your enrollment requests into your
+Student Center
+Shopping Cart before your enrollment appointment begins.
+Check for holds
+There are several different types of holds — some are informational and some require action. Your Holds are listed at the top right of the page when logged in to
+Student Center
+. Click on "more information" for complete details on the hold, including steps to resolve if necessary
+Navigating wait lists
+A limited number of classes have online wait lists. If wait listing is an option, you will see a "wait list if class is full" checkbox on the "Select a Class to Add - Enrollment Preferences" page in
+Student Center
+.
+You can also determine if a class has a wait list by selecting the class section details. Under "Class Availability", see the wait list capacity item. If there is a '0', there is no wait list. A number indicates a wait list is available.
+Course consent and permission numbers
+A class number is different than the permission. The class number is in the leftmost column of class search results in Student Center, and at the far left of each section in the Class Roster. You can find class numbers in advance of your enrollment appointment. If using Scheduler, click on the “Review” section for a list of class numbers in your preferred schedule; then enter class numbers into your shopping cart in Student Center.
+If you need to add a course that requires consent to enroll, contact the department or instructor as applicable. If you receive a permission number, you may use this number to enroll in the course via Student Center. Numbers should not be shared or given to others. Permission numbers can be entered in Student Center in step 1 of the enrollment process, in the “Permission Nbr” field. See the
+Using a Permission Number
+how-to for additional information.
+Enrollment tips for success
+During your enrollment appointment, submit your enrollment requests through
+Student Center
+.
+IMPORTANT
+: Do not log into Student Center from multiple windows, multiple browsers or multiple devices. Doing so may result in class enrollment requests stuck in “pending” status, and the inability to successfully submit requests.
+Once you have submitted your enrollment request wait until you receive the success or error messages before refreshing or closing your browser.
+If you are logged in to Student Center and are inactive for more than 30 minutes, you will be logged out.
+Complete all necessary steps to add your course requests. In "Step 3: View Results," a green checkmark in the "Status" column indicates successful enrollment.
+If you are unable to enroll the morning of your enrollment appointment, first check for holds. If you continue to have concerns, contact your
+college or school registrar office
+.
+Information for First-Year Writing (FWS) Seminar Enrollment
+First-Year Writing Seminar (FWS)
+Who can help you
+College Advising, Career Services, and Support
+Faculty Advisor — Assigned Faculty Advisor contact information is available in Student Center.
+College or School Registrar
+Office of the University Registrar
+First-Year Writing Seminar (FWS)
+Physical Education
+Course Offerings and Campus Activities Agreement
+I
+nstruction mode for courses will vary depending on the class. Please be aware, however, that the University reserves the right, as it deems necessary, to adjust course offerings (including but not limited to instructors, course modality, course duration, and course scheduling), program majors and minors, campus activities, and campus services over the period of any term to respond to factors including but not limited to health and safety concerns, government directives, regulatory requirements, instructor or staff availability, pedagogical needs, construction projects, or student enrollment numbers.
+It is the student’s responsibility to review all course information prior to the start of the term, including but not limited to any updated information concerning the format in which and duration for which courses are anticipated to be offered;
+Students are expected to participate in each course in the format in which the course is offered (even if that format changes over the course of the term);
+At any time, Cornell may change the format or duration of courses based on factors including but not limited to health or safety concerns, the judgment of the instructor, instructor status, pedagogical needs, or student enrollment numbers;
+It is the student’s responsibility to make course enrollment changes (e.g. drop, withdraw, adjust credits, or change grading basis, if available) if the student does not think they can participate fully in a course in the format in which it is offered;
+Absent compelling circumstances, students are expected to take exams in the exam modality determined by the instructor or university. It is the responsibility of students to timely obtain approval and coordinate exemptions to in-person exams with the appropriate university unit, college and/or instructor;
+At any time, Cornell may restrict or prohibit student access to certain Cornell University-maintained facilities or services based on factors including but not limited to health or safety concerns, government directives, or construction projects;
+There may be disruptions or cancellations of campus services, programs, activities, or events;
+Students must follow all applicable university policies or rules (including the Student Code of Conduct and all campus health and safety requirements), and by failing to abide by all such policies and rules, students may have their access restricted to Canvas, university- maintained facilities, enrollment activity, campus services, programs, activities, or other campus events;
+Cornell may be required to shift all classes to an online or hybrid format, or modify the duration of the term, if Cornell or the government (at the local, state, or federal level) determines for any reason that continued in-person instruction is unsafe. In no such case will there be a tuition or fee refund other than those that take place in accordance with the published schedule of course drop dates.

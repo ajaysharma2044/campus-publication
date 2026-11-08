@@ -1,0 +1,348 @@
+URL: https://scl.cornell.edu/belonging-support-services/centers-student-equity-empowerment-and-belonging/lgbt-resource-center/trans-resources-cornell
+TITLE: Trans Resources at Cornell | Student & Campus Life | Cornell University
+FETCHED: 2026-11-06
+
+Trans Resources at Cornell
+This resource guide was originally created by the student group
+Transitioning at Cornell (TAC)
+with the goal of aiding students who are looking to transition on campus. This guide pertains exclusively to the Cornell-specific aspects of transition. If you are looking for support or assistance with other aspects of transition, there are a plethora of resources on campus (that will be outlined in this document) that you can utilize. Throughout this document, the term ‘Preferred Named’ is used to describe a chosen name that is not your legal or deadname. Ideally, the term chosen name would be used in place of ‘preferred name,’ however, 'preferred name’ is the language used in many official places throughout campus and therefore it is used here too, in context, to lessen any confusion. Also of note, some offices use the term ‘Primary Name’ to refer to legal name.
+The LGBT Resource Center thanks the students, staff, and faculty who have contributed to the development of these procedures and the content displayed on this page. If you know of updates or other information that should be added to this page, please contact the LGBT Resource Center at
+lgbtrc@cornell.edu
+.
+Name, Pronouns, and Gender Marker
+Can I change my name on my Cornell ID card before it’s legally changed?
+Yes! Cornell allows you to change the name on your ID card and will provide a replacement free of charge. To have this change made, you will need to update your name in Student Essentials. Follow instructions on the Registrar’s “Names and Name Changes” page.
+https://registrar.cornell.edu/service-resources/names-and-name-changes
+I have legally changed my name; how do I get it changed in Cornell’s system?
+Congratulations! Now that you have your name change documents, the process for changing your name in Cornell’s system is simple. Follow the steps provided on the “Names and Name Changes” page under Making Changes to Primary Name.
+https://registrar.cornell.edu/service-resources/names-and-name-changes
+Essentially, you can do this via secure file transfer, by fax, mail, or in person at Day Hall. To update or change your primary name on your student record, please provide a copy of: appropriate documentation (any form of I-9 documentation is sufficient)
+,
+photo identification, and completed "Name Change Form"  to the Office of the University Registrar.
+Can I change my name in Student Center?
+You can change your “preferred name” via the Student Center, which is what the student center will display and the name that will populate to other systems that draw from PeopleSoft (database software utilized across most of campus). After you log in, at the bottom of the page under personal information select “Names”. Select the pencil icon to the right of the “Preferred” name type, then you will be able to update a prefix and first name. Make sure to select the date for the changes to take effect and press “Save.”
+Canvas:
+When you update your name via the Student Center this will change how your name appears in Canvas as well.
+CampusGroups:
+When you update your name via the Student Center this will change how your name appears in CampusGroups too.
+Other applications:
+Updating your preferred name in the Student Center will update your name in a number of applications across campus, including Canvas for example, a full list of where these updates happen is currently being created.
+Can I change my name in Workday?
+Workday pulls preferred names from the Student Center. When you update your preferred name in the Student Center it will automatically update your display name in Workday.
+Can I change my display name on Google?
+Yes! The upper right-hand corner of your Gmail will display a circle with either your picture or initials in it. Click that and select “Manage your Google Account”. From here select “Personal info,” then you should see a box called “Basic info”. Here you can update your name. This will be the name displayed when people receive emails from you.
+Can I change my net ID?
+Your net ID is permanent unless you legally change your name.
+Where can I update my pronouns?
+Currently there are only three platforms where you can update your pronouns: Canvas, Campus Groups, and the myCornellHealth Patient Portal. Due to rigid programming from the provider of the Canvas platform, students must select from a prepopulated listed of options. Cornell is petitioning for a write in option to be available.
+In the myCornellHealth Patient Portal and CampusGroups you can select from a prepopulated list or write in an option that is not listed.
+Can I update my gender marker?
+For any current or former student who wants to update their gender marker in Student Center, please submit a written request by email or paper to the Registrar. If by email, send your message to
+univreg@cornell.edu
+from your Cornell email account. In your message include your name, netID/student ID, and the gender you would like reflected in the system (male/female/undisclosed). If by paper, please deliver it to the registrar in person. This will populate to any system that is downstream from PeopleSoft. This will not change your gender marker in Cornell Health systems.
+Counseling and Psychological Services
+What mental health services does Cornell provide to transgender students?
+Counseling & Psychological Services (CAPS) offers
+individual counseling
+and
+group counseling
+related to gender identity, as well as
+Let's Talk drop-in consultation
+and
+other support
+.
+Cornell Health counselors can also help you secure an official
+gender dysphoria / gender identity disorder
+(
+GID
+) diagnosis, and provide letters required to initiate gender-affirming surgeries.
+Mental health services
+are provided under the direction of
+Karen Williams
+, PhD, Mental Health Therapist.
+Can I get individual counseling?
+Yes!
+This page
+has more information about individual care, as well as a link to a
+page with counselor bios
+so you can choose the best fit for you.
+What group counseling is available?
+Each semester, CAPS offers
+group counseling
+on a variety of topics and identity-specific experiences. The
+group counseling
+page is updated each semester with the offerings. There are typically groups specifically for LGBTQ+ students; groups for gender-expansive students are sometimes offered as well.
+Is there a drop in opportunity?
+Yes!
+Let's Talk
+offers weekly drop-in hours with CAPS counselors at different campus locations (and online). Typically, the CAPS LGBTQ+ liaison offers weekly Let’s Talk hours at the DOS Suite (under Okenshields). Check the
+Let's Talk webpage
+for information about the current semester's offerings, including other locations and online options.
+Cornell Health
+A message for our students:
+Cornell Health remains committed to providing gender-affirming services for students at this time; and we are monitoring rapidly changing legal developments in this area which could affect individuals under 19. Students with specific questions about their care should contact their medical provider or plan administrator regarding insurance coverage.
+What services does Cornell Health provide to transgender students?
+Cornell Health offers medical care, mental health services, and support to students who are transgender, gender-expansive, questioning their gender identity, and/or considering hormonal or surgical gender transition. Cornell Health’s services are guided and informed by best practices developed by the
+World Professional Association for Transgender Health (WPATH)
+. To read more, visit Cornell Health’s
+Gender-Affirming Care
+page.
+Cornell Health providers who specialize in gender-affirming care can provide:
+medical care for the initiation and management of gender-affirming hormones
+prescriptions for gender-affirming hormones and syringes that can be filled at
+Cornell Health's pharmacy
+(or elsewhere)
+referrals to surgeons who specialize in gender-affirming surgical procedures
+pre-operative testing and post-operative care (i.e., bandage changing/application)
+official letters to support gender-affirming surgery and to document gender marker changes (e.g., for passports, drivers licenses, etc.)
+binding and tucking supplies
+available for no charge in the Cornell Health pharmacy
+individual counseling
+with therapists who specialize in serving gender-expansive students
+group counseling
+on a variety of topics, including groups especially for LGBTQ+ students
+workshops and outreach programs to support gender-expansive students
+What are my rights as a patient of Cornell Health?
+To be treated in a professional, courteous, and caring manner that respects and appreciates differences related to race, ethnicity, national origin, gender, sexuality, religion, personal values, age, disability, and economic or veteran status.
+To have access to a patient advocate who can assist you with questions and concerns related to your care experience. Visit the
+Patient Advocacy
+web page for more information.
+How do I establish care at Cornell Health?
+All care providers at Cornell Health are sensitive to the needs of transgender students, so you do not need to select a particular provider for your general medical care. If you are specifically seeking gender-affirming care, request your appointment with one of Cornell Health’s medical Gender Services specialists. At your appointment, you will have the opportunity to discuss your needs including physical care, emotional and social well-being, and any questions or concerns you may have.
+Medical services are provided under the direction of an Associate Medical Director in collaboration with the Clinical Director of Sexual Health and a team of trained providers.
+Before accessing mental health services, you will meet with an Access Counselor who will assess your needs and refer you to the services that best match your concerns.
+Visit Cornell Health’s
+Mental Health Care
+page to learn more about the services offered by the Counseling and Psychological Services (CAPS) team, including group and individual counseling options. You may also access free, informal consultation with a CAPS counselor through “
+Let’s Talk
+” drop-in hours, offered daily Monday-Friday.
+How do I schedule appointments?
+Schedule an appointment by calling
+607-255-5155
+during
+business hours
+and ask to schedule a Gender Services appointment with a medical provider, or a Mental Health Access appointment with a CAPS provider.
+Most appointments can also be booked online at
+myCornellHealth
+. Visit
+health.cornell.edu/appointments
+to learn about what appointment types can be scheduled online.
+Where do I pick up my prescription?
+All prescriptions can be filled and retrieved at the
+Cornell Health Pharmacy
+(Level 4). In addition to your HRT prescription, sharps, syringes, sharps disposal containers, and alcohol prep pads are all available at the pharmacy. Note, when prescriptions are written they cannot always be filled immediately, so please plan ahead and be prepared to wait a few days before your prescription is ready.
+Where can I dispose of sharps?
+You have two options for sharps (injection needle) disposal at Cornell.
+You can collect your sharps and dispose of them through
+local programs
+.
+You can purchase a sharps container from the Cornell Health Pharmacy and simply return the container to the front desk (Level 4) when it’s full. They will dispose of it for free.
+What if I have concerns about privacy?
+Your care at Cornell Health is confidential.
+Health records
+are maintained through a secure electronic health records (EHR) system, accessible only to Cornell Health’s workforce. The privacy of this information is protected by law.
+For more details on how Cornell Health protects your confidentiality, including information on how to access your health record and how to share it with others if you choose to, visit our
+Confidentiality & Patient Rights page.
+Will my bill contain information about my care that may be seen by others?
+Cornell Health charges are automatically applied to your Bursar account, unless you request to pay online through
+myCornellHealth
+(pharmacy payments may also be made in person at the pharmacy). Charges will appear as “Cornell Health services” on your Bursar bill and will not include any information about the type of service you received, or any personal health information.
+Can I add my chosen name and gender identity in myCornellHealth?
+Yes! Cornell’s patient portal,
+myCornellHealth
+, allows you to schedule appointments, complete health questionnaires, and receive messages from your health care providers at Cornell Health. (This information is confidential and not shared across the university.) To add or change your personal information, visit
+myCornellHealth
+, click on “Profile” and select the relevant “Edit” buttons.  (Note that changing your information within myCornellHealth will not change your name elsewhere at Cornell, but it will be linked to the entirety of your health record, so it will be visible to any of the health care providers you work with at Cornell Health.)
+Does Cornell Health have a binder / tucking supplies program?
+Yes! Students can get high-quality chest binders, tucking underwear, and transtape at the
+Cornell Health Pharmacy
+for no charge.
+Each semester, students studying on the Ithaca campus can get
+(a)
+two chest binders
+or
+(b) two pairs of tucking underwear
+or
+(c) a transtape option (starter kit or two rolls)
+at no charge
+from the pharmacy. If you want additional items, please check with pharmacy staff for current pricing.
+Chest binder options:
+gc2b binders
+For Them binders
+TomboyX compression tops
+Underworks tri-top binders
+Tucking underwear options:
+TomboyX tucking underwear
+Transtape options:
+Transtape starter kit
+2 rolls of transtape of your choice
+How to order:
+Order online by
+logging in to myCornellHealth
+and selecting "Pharmacy Requests" > "New Message" > "Send a message to the Pharmacy" > "Request gender-affirming supplies and/or fitting." In your message, indicate what product, brand, size, and color (etc.) you would like.
+OR you may go into the pharmacy
+and fill out an order form
+and give it to one of our pharmacy staff members. Order forms are located with our sexual health supplies.
+We will contact you by secure message when your supplies are ready for pickup.
+Request a fitting / samples:
+Students may request a private fitting with our trained Gender-Affirming Supplies Consultant,
+Amanda Wyatt
+. During your fitting, you can get help taking measurements, see samples, and try on different products.
+To schedule a fitting
+, please send the pharmacy a secure message by
+logging in to myCornellHealth
+and selecting "Pharmacy Requests" > "New Message" > "Send a message to the Pharmacy" > "Request gender-affirming supplies and/or fitting."
+For those ordering gc2b binders,
+this helpful video
+can help with sizing.
+Additional binding / tucking / taping resources:
+Our Gender Services providers recommend the following resources:
+Tips for Safer Binding
+(from LGBTQ+ healthcare provider
+Callen-Lorde
+)
+Tips for Safer Tucking
+(from LGBTQ+ healthcare provider
+Callen-Lorde
+)
+Transtape application instructions
+(from
+Transtape
+)
+Student Health Benefits
+What is SHP?
+SHP is Cornell’s Student Health Plan, managed through Cornell’s
+Office of Student Health Benefits
+. Each year all Cornell students must either confirm their ernollment in SHP, or waive SHP with a private insurance plan that meets Cornell’s requirements. SHP uses the Aetna provider network and Aetna processes all medical claims.
+SHP is an equitable and inclusive health insurance plan. If you are enrolled in SHP and transitioning, SHP supports
+Gender Affirming surgeries
+,
+hormonal therapies
+and
+some electrolysis procedures
+.
+For further information about insurance coverage, including the percentage of surgery costs to be paid by patients (called “co-insurance”), see SHP’s
+Certificate of Coverage.
+For further information about what surgical procedures are covered and what criteria need to be met, see Aetna’s
+Clinical Policy Bulletin 0615
+.
+Who do I talk to about signing up for SHP?
+Enrollment in SHP occurs before the start of the academic year. Alternatively, if you lose health insurance coverage due to loss of coverage or aging off a parent/guardian’s insurance plan, you can enroll in the health plan. Visit the
+Student Health Benefits
+website for more information on enrollment processes. Please contact Aetna’s customer service at
+800-859-8475
+for specific information about the clinical policy or benefit questions. You can also search
+Aetna’s provider directory
+for service providers.
+Housing
+Who can I talk to about housing?
+The best way to address any housing-related concerns is to contact the
+Housing Office
+(1501 Clara Dickson Hall) which can be reached via email at
+housing@cornell.edu
+, or by phone at
+(607) 255-5368
+. The Housing Office will be able to offer you any information you’re not able to find below, including discussing room changes, special placement, or gender-inclusive housing options.
+What are my housing options?
+You have a variety of housing options at Cornell. You can choose the
+general application
+(the same one all incoming first year students go through) or housing lottery (the same one all rising sophomores, juniors, and seniors go through), you can apply for a program house or co-op, or you can contact the Housing Office and request special placement.
+Gender Inclusive Housing Policy: According to the housing website, “gender-inclusive housing is a policy that affords all Cornell students the option to live on campus with whomever they choose, regardless of biological sex, gender, or gender identity.” When a student selects gender-inclusive housing, they will be contacted by the Housing Office to determine what housing accommodations will offer them the best living experience. You can learn more by following this link,
+https://scl.cornell.edu/residential-life/housing/housing-details/gender-inclusive-housing
+Loving House: This is the LGBTQ+ Living-Learning Unit. The purpose of Loving House is to create an environment that protects and supports Cornell University's community of LGBTQIA+ students.
+https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house
+How does the housing application work?
+As an incoming first year student, you will fill out a housing application indicating your room preference (single, double, triple, quad) and housing option (general housing, program house, suite). You will then enter a lottery and be assigned a room. Things to consider about the general housing application are as follows: If you applied for a single, housing will do their best to make this happen but there is no guarantee you will get one. If you are being placed in a single, your single could be part of a suite (which are single gender). Even if you end up in a single that isn’t in a suite, hallways and sometimes even floors, can be gender divided.
+If your sex marker is legally female, you also could be placed in Balch, which is exclusively for women
+.
+How does the housing lottery work?
+Housing for sophomores and upperclassmen is determined by a housing lottery. Everyone receives a timeslot in which they can select a room. Students are permitted to block with each other or apply individually with an indicated room preference (single, double, triple, suite). Considerations for the housing lottery include: When attempting to block with friends, or when selecting a suite, any involved individuals will see the name and gender marker in Cornell’s system. You will also not be allowed to create a mixed gender suite unless you are applying for continuing residence (as a rising junior) in one of the west campus dorms, or if you are applying for gender inclusive housing.
+What are mixed gender suites/block?
+Students applying to
+continue residence
+in a west campus dorm are permitted to form mixed gender suites/blocks.
+What about gender inclusive housing?
+Gender inclusive housing is a Cornell policy that allows people to live on campus with anyone regardless of legal sex, gender, or gender identity. All students can block with people of different legal sexes but may not room with someone of a different sex unless they select gender-inclusive housing. When a student selects gender-inclusive housing, they will be contacted by the Housing Office to determine what housing accommodations will offer them the best living experience.
+How do co-ops work?
+Co-ops run on an
+individual basis
+and housing queries would need to be directed to the co-op you’re interested in as there are no blanket policies.
+How does special placement work?
+The best way for students to receive special placement is through the Housing Office. Housing will work with transgender students to ensure that they are placed in a living situation that will accommodate their needs, based on space availability. Time is of the essence, and your needs are far more likely to be able to be accommodated if you reach out to housing BEFORE housing assignments are sent out. Special placement can be important in guaranteeing a specific room type (i.e. a single room) or specific dorm (i.e. trans women who would like to live in Balch), or for students who do not yet have their gender marker changed, and would like to be placed in a particular dorm, floor, or hall that matches their gender identity. Please note that the availability of single rooms is limited, and housing cannot always guarantee placement in a single if there are no open spots in singles. Again, we highly encourage you to reach out to housing regarding your needs before housing assignments are sent out – the sooner the better!
+What is the best place to go for first year residence halls?
+If you decide not to opt for gender-neutral housing but want to ensure you have access to a gender-neutral bathroom and are living in a completely co-ed environment, Mary Donlon Hall or Risley are good options. Donlon, one of the main first year residence halls, has gender-neutral bathrooms on every floor, mixed-gender floors and hallways, and a mix of singles, doubles, triples, and quads. Therefore, a single in Donlon has the option of gender-neutral bathrooms and is completely non-separated based on legal sex or gender. Additionally, Risley is mixed gender everywhere except the first floor, and all the bathrooms on floors 2-6 are gender inclusive as well. There are also a lot of singles in this building. It is open to first year students and upperclassmen.
+Does Cornell offer amnesty housing?
+Yes!
+Unfortunately, transgender individuals are not always welcome or safe in their homes because of their gender identities. For students who find themselves in this position, Cornell can offer winter, and even summer break on-campus housing. This can be arranged, if necessary, through the Housing Office.
+Bathrooms
+What is the bathroom policy?
+In keeping with the University’s policy of nondiscrimination and the commitment to inclusion, the University allows students, staff, faculty, and visitors to use the restroom or facility that corresponds to their gender identity. In addition, the University maintains a number of
+all-gender bathrooms
+across campus. It is important to note that this bathroom map also shows bathrooms that are private and/or behind locked doors and therefore may not always be accessible.
+The “
+Accessibility at Cornell
+” map also has a tab where all-gender bathrooms are listed.
+All-gender restroom signage on campus does not say “all-gender,” instead it just says “restroom.” Here is an image of what a gender inclusive bathroom signage looks like on campus:
+What about residence hall bathrooms and showering?
+All showers in on-campus housing are single stall showers with either a door or a large curtain. Some newer residence halls have facilities for men, women, and all-gender  bathroom/shower options.
+Are there period products in all bathrooms?
+The student assembly passed a referendum stating that there will be free menstrual products in all bathrooms across campus, regardless of gender. Although this was passed, you may not always find these products readily accessible.
+Professors
+How can I make sure my professors refer to me using the correct name and gender?
+There is no one right way to do this, one suggestion is to set a preferred name with the student center (as discussed above) and correct your pronouns with them on the first day (until you can have your gender marker changed). Or, if you would like to be sure your professors refer to you correctly on the first day and you feel comfortable being in touch with them directly, you can email them ahead of time explaining your situation. Most professors are extremely understanding and accommodating.
+Something to consider: In large lecture classes, you most likely won’t be addressed by your professors and your name and pronouns will therefore not come up. However, you will be interacting much more closely with your TAs, so it will be important to inform them as well.
+What do I say to a professor?
+Below is a generic email template:
+Dear [professor’s name],
+I am enrolled in your class this semester, and I am a [identity here] individual. I use the name ________ and ____ pronouns. Would it be possible for you to share this information with any TAs I will be working with as well?
+Thank you for your help and looking forward to your class!
+Swim Requirement
+Do I have to complete the swim requirement?
+Yes.
+Like all undergraduates who matriculate as first year students,
+you will need to complete the swim requirement to graduate.
+The Faculty Advisory Committee on Athletics and Physical Education (FACAPE) has established a basic swimming and water safety competency requirement for all entering first-year undergraduates. Normally, the requirement is taken during the Fall orientation process at Helen Newman Hall or Teagle Hall pools. Upon an evaluation and
+recommendation
+by FACAPE, the Cornell swim requirement has been assessed and updated to a more modern water safety competency based on industry standards and
+American Red Cross
+.
+To complete the updated Cornell Water Competency Graduation Requirement, students must:
+-Jump or step feet-first into the deep end of the pool
+-Float or tread water for one minute
+-Turn around in a full circle
+-Swim 25 yards (1 length) using any stroke(s) of choice without touching the bottom or holding on to the sides (there is no time limit)
+-Exit from the water
+What accommodations are available?
+Cornell is working towards ensuring that trans students can take the swim requirement in a way that, if desired, is as private and comfortable as possible. Navigating locker rooms and swimwear in front of your peers can sometimes feel a bit daunting. To address this, three options are available to students:
+1) Cornell Physical Education Department can administer a private swim requirement during a time when the pool is closed to other people.
+2) There are designated all gender changing areas located in Helen Newman Hall and Teagle and two all gender bathrooms at Teagle that you can use at any time in the facility.
+3) The LGBT Resource Center, in collaboration with Physical Education, aims to offer a Trans Inclusive Swim Time once per semester. This is a swim time just for Trans, nonbinary and gender nonconforming students.  Dates and times for these are determined semesterly. Please check in with the LGBT Resource Center for this information.
+For more information about
+Locker Rooms, Changing Areas, Restrooms and Showers Inside Recreation Buildings
+or additional requests, please reach out to the LGBTRC or Brigitta Putnam, the Associate Director of Physical Education, at
+255-7738
+or bar28@cornell.edu
+.
+Study Abroad
+Is it possible to study abroad as a trans student?
+Yes!
+Cornell aims to make global education accessible to all students, regardless of what social identities they may hold.
+Will I be safe in a different country as a trans person?
+The answer to this question is a little more complicated and will vary from one country to the next. While the world has been changing in a lot of positive ways for trans people, there are still countries and cultures that are not welcoming or accepting of LGBTQ+ people. The
+Office of Global Learning
+can assist you in figuring out where the safest places for you to travel abroad might be, or help you figure out the best ways to safely navigate a place that might not be particularly welcoming to LGBTQ+ individuals.
+Who can I talk to about study abroad?
+The
+Office of Global Learning has several advisors
+, each with a different geographic or programmatic focus. They can assist you with the general study abroad process. Additionally, their website has resources that can answer questions about
+safety
+,
+housing
+, travel insurance, travel documents, traveling with medications,
+and other topics related to your identity.
+What have other students said about studying abroad with their identity?
+The Office of Global Learning in collaboration with the Centers for Student Equity, Empowerment, and Belonging hosted a student panel,
+People Like Me: A Student Panel about Navigating Identity Abroad.
+You can watch the entire panel
+here
+.

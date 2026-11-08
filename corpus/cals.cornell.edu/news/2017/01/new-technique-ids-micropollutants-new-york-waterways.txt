@@ -1,0 +1,36 @@
+URL: https://cals.cornell.edu/news/2017/01/new-technique-ids-micropollutants-new-york-waterways
+TITLE: New Technique IDs Micropollutants in New York Waterways | CALS
+FETCHED: 2026-11-06
+
+Share
+Cornell engineers hope that clean water runs deep. They have developed a new technique to test for a wide range of micropollutants in lakes, rivers, and other potable water sources that vastly outperforms conventional methods.
+“Water quality monitoring is conventionally done by narrowly investigating one or a few contaminants at a time. We aimed to develop an analytical method that would be as broad as possible,” said Damian Helbling, assistant professor of civil and environmental engineering. Helbling and Amy Pochodylo, M.S. ’14, published their research as the cover story in the journal
+Environmental Science: Water Research & Technology
+.
+“We demonstrate that our approach can more than double the amount of information that would otherwise be obtained from more conventional methods,” Helbling said, “This has important implications for risk characterization and exposure assessment.”
+The new technique – using high-resolution mass spectrometry – assessed 18 water samples collected from New York state waterways. A total of 112 so-called micropollutants were found in at least one of the samples – chemicals including pharmaceuticals, pesticides, and personal care products. Helbling said that eight of the chemicals were found in every sample and dozens more were found in most samples.
+Helbling and Pochodylo refer to their approach as “suspect screening.” The spectrometer analyzed the chemical composition of the water samples and the researchers compared the resulting data with a large list of 1,100 “suspect chemicals” by employing a nimble data-mining algorithm.
+The unmasked contaminants read like a soup recipe concocted in a pharmacist’s nightmare, as they found anticonvulsants (levetiracetam), antihistamines (fexofenadine), and muscle relaxants (carisoprodol, metaxalone and methocarbamol) – all chemicals that have rarely been reported as water contaminants and some of which are being reported for the first time.
+Prominent chemicals found in New York’s waterways include triclosan, an anti-bacterial agent found in liquid hand soaps and toothpaste; the anesthetic and heart medicine lidocaine; diethyl-phthalate, a component of plastics; and the herbicide atrazine.
+In all of the 18 waterways, researchers detected atenolol acid (a high-blood-pressure medication component); 5-methyl-1H-benzotriazole (a corrosion inhibitor found in dishwasher detergent); caffeine; the insect repellant DEET; gabapentin (an epilepsy medication); metformin (a medication that controls blood sugar); saccharin and sucralose (Splenda).
+Citing how this new technique represents a broad range of chemical structures unlikely to be found using conventional means, Helbling said, “These results are not only interesting from a novelty perspective, but demonstrate the breadth of chemical coverage that our suspect screening affords.”
+Helbling hopes that local and regional stakeholders – responsible for ensuring that waterways are monitored effectively – adopt their approach.
+“It is no secret that the chemicals we use in our daily lives often find their way into our air and water. This work contributes to our understanding of the specific types of chemicals that influence our water resources,” he said, noting that he believes this broad method will one day become routine in monitoring. “This is probably several years down the line.”
+The National Science Foundation funded this work.
+Keep Exploring
+News
+November 6, 2026
+Cost share and market access are the top drivers of digester adoption
+U.S. dairy production has continued its decades-long consolidation into fewer, larger operations [1], [2]. Recent news coverage has suggested that the growth in anaerobic digester adoption over the past decade may have encouraged this expansion...
+Cornell Cooperative Extension
+Animal Science
+PRO-DAIRY
+News
+November 5, 2026
+Library story time is also learning time for parents
+Cornell Cooperative Extension
+Explore All Stories
+We openly share valuable knowledge.
+Sign up for more insights, discoveries and solutions.
+Please enter a valid email address to subscribe to the newsletter.
+Email Address

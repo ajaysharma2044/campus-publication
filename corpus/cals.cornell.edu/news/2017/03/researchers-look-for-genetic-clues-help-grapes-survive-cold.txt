@@ -1,0 +1,48 @@
+URL: https://cals.cornell.edu/news/2017/03/researchers-look-for-genetic-clues-help-grapes-survive-cold
+TITLE: Researchers Look for Genetic Clues to Help Grapes Survive Cold | CALS
+FETCHED: 2026-11-06
+
+Share
+Months before northern vineyards burst into their lush summer peak, the delicate grape buds holding the nascent fruit in its tiny core must first withstand the freezing onslaught of winter.
+Understanding how grape buds respond to subzero temperatures is of paramount concern to vineyard managers in New York and other northerly grape-producing states. Some of the more popular varieties used in the wine and juice industries can survive temperatures far below the freezing point of water. By a process known as supercooling, cellular mechanisms within the bud maintain water in liquid state down to around minus 4 to minus 30 degrees Fahrenheit, depending on the species. Beyond a certain low-temperature threshold, ice forms inside the cells, cellular functions cease and the bud dies.
+Horticulturists have long relied on traditional methods to study freezing in plants. Now a researcher in the College of Agriculture and Life Sciences is using powerful technologies on campus to explore in new ways the cellular mechanics that allow grape buds to survive brutal cold. The research has implications for vineyard economics, especially as climate change opens more northerly land for cultivation and current growing regions experience more extreme weather.
+Al Kovaleski, a doctoral student in the field of horticulture, is using the
+Cornell High Energy Synchrotron Source
+(CHESS) to create 3-D images of grape buds. The images produced at CHESS are providing a unique perspective as Kovaleski unravels the genetic underpinnings of supercooling in grape buds.
+Supercooling is a dynamic process: Different parts within the bud freeze at different temperatures, and those levels and locations change based on the season. When seasonal temperatures plummet, the grape bud responds by expressing cold resistance genes as the cells marshal resources to survive.
+“Regions within the bud have different behaviors related to cold resistance. We know there must be a genetic control of what’s going on as the bud responds to freezing temperatures,” Kovaleski said. “By identifying which genes are expressed at various times in the seasons, we can isolate those that are most active when temperatures are coldest and pinpoint the genes responsible for supercooling.”
+Plants that overwinter above ground have buds to protect the flower primordia and vegetative growing tips. The current understanding is that as ice forms in extracellular spaces, water leaves the cell until a point where no more can be lost for the cell to survive. At that point the supercooling process begins.
+Now, Cornell researchers are teaming with physicists to visualize supercooling. Using the high-energy parallel X-ray beams produced at CHESS, Kovaleski is imaging grape buds by taking advantage of how X-rays scatter when passing through varying tissue densities within the bud. The scattering gives rise to phase contrast images, from which Kovaleski constructs digital images that allow him to visualize how water shifts. When combined with genetic sequencing data, Kovaleski can create a robust portrait of how buds react at the coldest temperatures.
+Play
+Grape Bud Imaging
+The pursuit is not trivial. Winter freezes have been known to decimate grape crops, such as a cold blast in
+2014 that wiped out around half of many winemaking varieties
+in New York, forcing growers to purchase grapes from outside the state. Subzero cold snaps routinely ravage vineyards across the Northeast, such as the “
+Christmas massacre” of 1980
+. In the Finger Lakes region, deep lakes that typically remain unfrozen during winter help maintain temperatures slightly warmer on the slopes around the lakes, opening these areas for grape growing. But even these protected regions are prone to devastating freezes.
+Deepening the scientific understanding of supercooling provides grape breeders with insights to select the best breeding lines. By working with his adviser and Cornell grape breeder Bruce Reisch, Kovaleski is identifying genes responsible for cold hardiness. The data gives Reisch and other breeders the information to select individuals with the ability to survive colder temperatures while retaining the flavor and growing qualities demanded by consumers and vineyard owners.
+Grape buds are the structures that contain the flower primordia and vegetative growing tips. Subzero temperatures can kill these plant parts and destroy the crop before it starts. Photo by Chris Kitchen / University Photography.
+“For a trait as complex as low-temperature survival, there is not likely to be a single gene that will impart cold tolerance to seedlings in the breeding program. But the more we understand the complexities of the genetic system, the better breeders will be able to improve cold tolerance,” said Reisch, professor in the Horticulture Section of the School of Integrative Plant Science and research leader of the
+Cornell-Geneva Grapevine Breeding and Genetics Program
+. “Al’s work is bringing much needed clarity to this field of research, with potential applicability to a wide range of perennial crops.”
+According to Kovaleski, peaches and other fruit trees that supercool to survive winter could benefit from this fundamental science. If the same genes at work in buds also are active in green tissues, the genetic data might reduce the risk of spring frosts as well.
+“By understanding the genes governing cold resistance in grapes, it’s possible that we can reduce the risk of winter kill and protect fruit crops crucial to the Northeast economy,” Kovaleski said.
+Along with Reisch, Kovaleski is advised by Robert Thorne, professor in the Department of Physics; and Jason Londo, a research geneticist with the U.S. Department of Agriculture–Agricultural Research Service’s Grape Genetics Research Unit.
+This article also appeared in the Cornell Chronicle.
+Keep Exploring
+News
+November 6, 2026
+Cost share and market access are the top drivers of digester adoption
+U.S. dairy production has continued its decades-long consolidation into fewer, larger operations [1], [2]. Recent news coverage has suggested that the growth in anaerobic digester adoption over the past decade may have encouraged this expansion...
+Cornell Cooperative Extension
+Animal Science
+PRO-DAIRY
+News
+November 5, 2026
+Library story time is also learning time for parents
+Cornell Cooperative Extension
+Explore All Stories
+We openly share valuable knowledge.
+Sign up for more insights, discoveries and solutions.
+Please enter a valid email address to subscribe to the newsletter.
+Email Address

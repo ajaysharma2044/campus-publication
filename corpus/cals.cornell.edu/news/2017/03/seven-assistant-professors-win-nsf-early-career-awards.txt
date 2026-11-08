@@ -1,0 +1,46 @@
+URL: https://cals.cornell.edu/news/2017/03/seven-assistant-professors-win-nsf-early-career-awards
+TITLE: Seven Assistant Professors Win NSF Early-Career Awards | CALS
+FETCHED: 2026-11-06
+
+Share
+Seven assistant professors, representing the colleges of Engineering and Agriculture and Life Sciences, have been recognized with National Science Foundation (NSF) Faculty Early Career Development Program awards, which support junior faculty members’ research projects and outreach efforts.
+This year’s winners from Cornell are:
+Ludmilla Aristilde
+, biological and environmental engineering;
+Jacob Bien
+, biological statistics and computational biology;
+Lena Kourkoutis
+, the Rebecca Q. and James C. Morgan Sesquicentennial Faculty Fellow in applied and engineering physics;
+Andreea Minca
+, operations research and information engineering;
+Perrine Pepiot
+and
+Meredith Silberstein
+, both mechanical and aerospace engineering; and
+Christoph Studer
+, electrical and computer engineering.
+Aristilde received $600,000 over five years to study mechanisms underlying the trapping of organic matter, including contaminants and biomolecules within environmental matrices. The trapping studied by Aristilde controls transformation and transport rates within lake and river sediments, soil subsurface, landfills, waste sludge, and water filtration systems. The overarching goal of the proposed research is to develop a novel approach that combines experimental and computational approaches to obtain nanoscale to molecular characterization of complex organo-mineral mixtures.
+Bien will use his award, $400,000 over five years, to develop new statistical methods that can handle the increasingly complex data that the public relies on to make decisions impacting everyday life. The internet has led to unprecedented quantities of data, from news and commercial websites to consumer reviews and various forms of social media. Such data represent a potential treasure trove of insights into the world; Bien’s goal is to design improved statistical methods whose outputs can be interpreted simply by nonexperts.
+Kourkoutis was awarded $550,000 over five years for a project aimed at understanding the processes at interfaces between liquids and solids that, for example, determine how batteries function and fail. The objective of this project is to develop and apply novel electron microscopy techniques that allow not only solid/solid, but also liquid/solid and soft/hard interfaces to be studied at the nanometer to atomic scale. This project will have an impact on science and technology by providing high-resolution characterization techniques of materials that are of interest for a wide range of technologies.
+Minca’s project was awarded $500,000 over five years; the goal is to advance methodologies in both operations research and stochastic (randomly determined) analysis. Such systems arise in many contexts, including distributed retail operations, where resources are inventories of goods and backordering is allowed, and financial networks, where resources are cash and other capital assets and individual nodes may experience cash shortfalls. In December, Minca won the 2016 Early Career Prize from the Society for Industrial and Applied Mathematics.
+Pepiot’s project, awarded $501,233 over five years, aims to develop an integrated approach to understand, model and, eventually, leverage interactions between fuel molecular components during combustion. The fuel landscape is changing due to the introduction of alternative and bio-derived fuels, and this change provides new opportunities to design more efficient fuel blends for advanced combustion technologies to help mitigate environmental impact. The long-term goal: to enable better control of the combustion chemistry process and explore alternative engine concepts.
+Silberstein was awarded $500,000 over five years to study mechanochemically responsive polymers – materials that react to the onset of damage by strengthening themselves locally via mechanophores – chemical units that transform themselves under stress. These polymers would be used in such safety-critical products as tires, helmets, and airplanes. Most polymer development to date has focused on improving the material’s initial properties, but eventually these properties degrade at a somewhat unpredictable rate. Mechanochemically responsive polymers would have longer life spans and be less susceptible to accumulated damage through high-intensity stressors, such as helmet impact.
+Studer was awarded $606,661 over five years for his research of Bayesian inference – a powerful method for extracting statistical information from noisy, corrupted or nonlinear measurements. Sophisticated algorithms have been designed for time-insensitive tasks, but real-time applications – especially in the fields of wireless communications and imaging – typically rely on simplistic methods that prevent the use of accurate system and signal models. Studer proposes to resolve the dichotomy between recent advances on the theory side and real-world hardware constraints by pursuing a bottom-up research approach in which hardware limitations drive efforts on the algorithm and theory levels.
+All projects have an outreach component, generally involving K-12 students and people from underrepresented communities.
+Keep Exploring
+News
+November 6, 2026
+Cost share and market access are the top drivers of digester adoption
+U.S. dairy production has continued its decades-long consolidation into fewer, larger operations [1], [2]. Recent news coverage has suggested that the growth in anaerobic digester adoption over the past decade may have encouraged this expansion...
+Cornell Cooperative Extension
+Animal Science
+PRO-DAIRY
+News
+November 5, 2026
+Library story time is also learning time for parents
+Cornell Cooperative Extension
+Explore All Stories
+We openly share valuable knowledge.
+Sign up for more insights, discoveries and solutions.
+Please enter a valid email address to subscribe to the newsletter.
+Email Address

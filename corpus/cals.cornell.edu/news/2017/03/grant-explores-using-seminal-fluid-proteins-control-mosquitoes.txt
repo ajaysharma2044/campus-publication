@@ -1,0 +1,31 @@
+URL: https://cals.cornell.edu/news/2017/03/grant-explores-using-seminal-fluid-proteins-control-mosquitoes
+TITLE: Grant Explores Using Seminal Fluid Proteins to Control Mosquitoes | CALS
+FETCHED: 2026-11-06
+
+Share
+The spread of mosquito-borne viruses, including dengue, chikungunya, and Zika, has created a public health crisis that poses risks to nearly 4 billion people living in 120 countries.
+Cornell researchers are exploring a new approach to reducing the spread of the viruses by identifying, and then manipulating seminal fluid proteins from male mosquitoes to disrupt the reproductive biology in females. Only female mosquitoes bite, feed on blood, and thus spread diseases. The project is made possible by a five-year, $2.4 million grant from the National Institutes of Health (NIH) that started Feb. 1, and is a continuation of a previous NIH grant.
+Over the last seven years, the project’s investigators have identified and studied seminal fluid proteins (SFPs) that are transferred from male to female mosquitoes during mating. They have found that once inside the female these proteins rapidly influence the female’s mating and egg production. Other proteins may increase her appetite for and digestion of blood meals. The researchers are also studying the female genes that respond to SFPs.
+“At the end of five years, we hope to have a list of important seminal fluid proteins and molecules that have critical influence on mosquitoes, and we would like to be ready to have those characterized for field experiments, to investigate them as control strategies,” said Laura Harrington, professor of entomology, and one of the project’s co-principal investigators.
+Potential control strategies could include creating and releasing genetically modified male mosquitoes that disrupt the female’s reproduction biology or creating very specific and safe “smart insecticides” based on SFPs.
+“Seminal proteins have very important effects on regulating the fertility of females, and many SFPs are pretty species-specific,” said Mariana Wolfner, the Goldwin Smith Professor of Molecular Biology and Genetics and the other co-principal investigator of the project. “If we find one that is critical, and if it is species-specific, then manipulating it is unlikely to have consequences on other species.”
+The researchers plan to use gene editing with CRISPR-Cas9 in mosquitoes to create genetic deletions and mutations to understand the functions of the seminal fluid proteins. In addition to understanding the physiological effects of SFPs on females, the researchers, in collaboration with co-investigator Jeffrey Pleiss, assistant professor of molecular biology and genetics, will identify female genes that respond to these male proteins.
+Results from these studies can be used to develop mosquitoes that are sterile or whose males more strongly inhibit female reproduction in the field. These males could provide a highly-effective strategy for control of vector reproduction in the field, because male mosquitoes have evolved to efficiently find and mate with female mosquitoes, Harrington said.
+However, “we’re probably a long way from doing field releases because of all the work that needs to be done – working with people, making sure that they understand it and want this type of control. We’d want to take lots of time and think about it carefully,” said Harrington.
+Keep Exploring
+News
+November 6, 2026
+Cost share and market access are the top drivers of digester adoption
+U.S. dairy production has continued its decades-long consolidation into fewer, larger operations [1], [2]. Recent news coverage has suggested that the growth in anaerobic digester adoption over the past decade may have encouraged this expansion...
+Cornell Cooperative Extension
+Animal Science
+PRO-DAIRY
+News
+November 5, 2026
+Library story time is also learning time for parents
+Cornell Cooperative Extension
+Explore All Stories
+We openly share valuable knowledge.
+Sign up for more insights, discoveries and solutions.
+Please enter a valid email address to subscribe to the newsletter.
+Email Address

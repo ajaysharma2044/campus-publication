@@ -1,0 +1,27 @@
+URL: https://registrar.cornell.edu/about
+TITLE: About | Registrar
+FETCHED: 2026-11-06
+
+About
+The Office of the University Registrar (OUR) supports students, faculty, and staff through the educational experience. Our office manages the student information system, implements tools to bring efficiencies across campus, and provides central services including ID cards, diplomas, and transcripts, and collaborates with college and school registrar offices for student success.
+Transcripts
+Transfer Credit
+Diplomas
+ID cards
+Implementation of Stellic
+University Catalog
+Class Roster
+Implementation of CourseLeaf
+Data Requests
+Enrollment troubleshooting
+Creation of Academic Calendar
+Management of Student Information System
+Including Enrollment Appointments, placement of University Holds, etc.
+Course Evaluation for transfer coursework, AP and other tests for credit, and other credit for learning.
+Explore More Resources:
+Class Roster
+University Catalog
+Data Request
+University Registrar Directory
+Use of Student data
+bulk email requests

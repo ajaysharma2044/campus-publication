@@ -1,0 +1,40 @@
+URL: https://business.cornell.edu/news/2021/07/27/background-noise-tv-advertising-affects-real-time-investor-behavior/
+TITLE: Background Noise? TV Advertising Affects Real-Time Investor Behavior- Cornell SC Johnson College of Business
+FETCHED: 2026-11-06
+
+July 27, 2021
+Background Noise? TV Advertising Affects Real-Time Investor Behavior
+Sourced from
+Stock trading volumes in the United States have soared over the last year and much of it seems to be driven by retail investors. With thousands of stocks to choose from, one question that often arises is what factors influence investors’ decisions?
+In
+a new study from Cornell
+, researchers show that one of noteworthy influences behind retail stock investing is advertising.
+Jura Liaukonyte
+, the Dake Family Associate Professor at the
+Charles H. Dyson School of Applied Economics and Management
+, and her co-author, found that 15 minutes after a TV ad aired a number of investors seek out financial information about the advertiser. This results in an average of a 3 percent increase in online searches to the Securities and Exchange Commission’s Edgar database of company filings and an 8 percent increase in Google searches.
+The nature and timing of the ads made a difference. For example, commercials aired during primetime hours and involving the financial sector sparked the strongest investor response. Ads for pharmaceutical products and consumer staples also generated more interest. Products with names that matched or shared similarities with the name of the publicly traded company itself spurred greater reaction. The most influential commercials were longer, aired first among several during ad breaks, and surfaced in new, rather than long-running, campaigns.
+“The evidence presented in our paper suggests that the advertising effect on investor actions is more immediate and far-reaching than has previously been documented,” said Professor Liaukonyte. “The advertising-induced trading volume is less than 1 percent of the advertiser’s stock on a given day, but this increase is notable and isn’t an insignificant number.”
+The study additionally explored a sample of 495 firms on Robinhood, the online trading platform, over 2019-2020. These results indicate that the hourly turnover of retail investors holding a specific stock on Robinhood is 24 percent higher when a TV ad for that company is aired in that hour. This number rises to 28.7 percent for ads that were aired during live programs such as sporting events.
+“One aspect that is surprising is that we found that television ads also trigger investor interest and subsequent trading in the advertiser’s closest rival, major suppliers, and other firms,” said Professor Liaukonyte.
+Liaukonyte worked with
+Alminas Zaldokas
+, an associate professor of finance at the
+Hong Kong University of Science and Technology
+, on the research.
+The study suggests that firms might benefit from placing more ads after releasing announcements about impressive financial performance or after their key competitors release positive financial performance results to counterbalance the increased investor attention targeted to rivals.
+In this article
+Article Information
+Categories
+Inside SC Johnson
+Related Stories
+November 5, 2026
+Thomas Richard Dyckman, accounting scholar and university leader, dies at 94
+Inside SC Johnson
+October 23, 2026
+2026 Atkinson postdocs improve antibiotics, emissions data, green transition
+Inside SC Johnson
+October 23, 2026
+From running partners to business partners: The rise of Kube & Co.
+Food & Agriculture
+Inside SC Johnson

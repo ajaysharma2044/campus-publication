@@ -1,0 +1,48 @@
+URL: https://as.cornell.edu/news/student-researchers-focus-cancer-obesity-prevention
+TITLE: Student researchers focus on cancer, obesity prevention
+FETCHED: 2026-11-06
+
+Student researchers focus on cancer, obesity prevention
+Summer experiences
+By |
+Kathy Hovis
+,
+A&S Communications
+8/20/2020
+Though the pandemic interrupted most in-person summer research, many Arts & Sciences students were able to secure fascinating opportunities in healthcare research during the summer.
+Chunlu Li’s ’22 summer position at the Canary Center at Stanford for Cancer Early Detection is helping doctors differentiate between various subtypes of lung cancer, aiding in both detection and treatment. Leone Farquharson ’22 is working with a professor from New York University’s Grossman School of Medicine studying the connection between sleep and obesity in children and families.
+Both students were awarded funding from the College’s Summer Experience Grant Program, which is helping 86 students with unpaid or minimally paid internships afford living, transportation and housing expenses.
+Dr. Alicia Chung, left and Leone Farquharson, right, met for lunch before the pandemic struck last spring.
+“I’ve never done anything like what I’m doing this summer,” said Farquharson, who is majoring in biology and society. “I’m learning how to think critically and make connections within a bulk of literature. It’s interesting to see how other researchers pose their research questions and build their work. There’s so much to learn.”
+Farquharson’s work with Alicia Chung, assistant professor in the Department of Population Health at NYU’s Grossman School of Medicine, includes research into the connections between  circadian rhythms and childhood obesity. She is also helping Chung with a social media campaign as part of a marketing initiative with CEO’s of digital health companies as part of a mobile app telehealth solution that Chung is developing with her colleagues to help families monitor their sleep and adhere to healthier lifestyles. Farquharson is working remotely from her home in Ontario, Canada.
+“When sleep duration is insufficient, or the timing doesn’t happen at the right hour, it can lead to circadian rhythm disruption and weight gain that’s difficult to intervene upon,” said Chung. “Not only does it affect metabolism and weight gain, it can also affect mood and exhibit as ADHD.”
+Li, who is majoring in statistical science on the premed track with an interest in childhood medicine, originally had an internship at a summer camp for children with autism and ADHD, but when the pandemic struck, she started looking for a remote work opportunity and found the position at Stanford.
+The 27 interns in her program work with a variety of principal investigators on research projects. Li’s work focuses on using machine learning to analyze radiomic data taken from images of lung cancer and divide those cancers into subtypes based on various features.
+Although she’s taken classes on computer science and machine learning, the methods Li is using this summer are new to her.
+“It’s challenging to deal with radiomic data,” she said, because unlike data she might have used in a course, actual data from real patients is not clean and simple. “We think that for different subtypes of lung cancer, the data will cluster in different positions on the graph. We are trying a variety of algorithms for data visualizations.”
+Identifying these new subtypes and their characteristics could help doctors catch cancer earlier and provide more customized treatment protocols, she said.
+“I was surprised to learn how closely the computer science, engineering and data science fields are built into the medical field,” she said. “Most people in my lab have hard core engineering backgrounds.”
+More News from A&S
+Victoria Smith/Laude
+Members of the Cornell “Moonshot” lab will develop a novel infrastructure to ensure trust in online communication. From left: Natalie Bazarova, Robert Kleinberg, Cristian Danescu-Niculescu-Mizil, Jon Kleinberg, David Rand and Mor Naaman.
+Project to rebuild trust in AI era lands Laude’s $10M ‘moonshot’ award
+Psychology
+11/6/2026
+Cornell Chronicle
+Courtesy of Demo Lab Foundation
+From left: Marian Vidaurri, Rachel Riedl, Nia Demming at the July Cornell Tech event.
+‘Train the trainers’ event convenes democracy leaders, educators, activists
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+Sheryl Sinkow/Cornell University
+(From left to right): Professors Stewart Schwab, Oumar Ba, Nelson Tebbe, Mildred Warner, and Natasha Raheja.
+Scholarly leadership to protect and strengthen democracy
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+New book details history of sound’s claim on our attention
+Music
+11/6/2026
+A&S Communications
+View all news

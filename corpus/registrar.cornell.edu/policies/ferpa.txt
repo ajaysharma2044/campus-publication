@@ -1,0 +1,122 @@
+URL: https://registrar.cornell.edu/policies/ferpa
+TITLE: FERPA | Registrar
+FETCHED: 2026-11-06
+
+FERPA
+FERPA is short for the Family Educational Rights and Privacy Act, a federal law enacted in 1974. FERPA protects the privacy of student education records. All educational institutions that receive federal funding, including Cornell, must comply with FERPA. FERPA begins for a Cornell student on the first day of classes/semester or attendance, whichever comes first, and the student continues to be protected by FERPA for their lifetime.
+FERPA gives students four basic rights with respect to their education record:
+The right to inspect and review their education record.
+The right to some control over the disclosure of their education record.
+The right to request the amendment of their education record where appropriate.
+The right to file a complaint with the U.S. Department of Education concerning alleged failures by the University to comply with the requirements of FERPA.
+The below
+FERPA FAQ
+provides answers to many FERPA related questions. Any additional questions can be sent to
+univreg@cornell.edu
+.
+FERPA 101
+Your browser does not support the video tag.
+FERPA 101 Audio Transcript
+Presentation Links
+College and School Registrars
+OUR FERPA FAQs
+Cornell University Office of the University Registrar Annual Notification Under FERPA
+Cornell University Policy 4.5: Access to Student Information
+American Association of Collegiate Registrars and Admissions Officers (AACRAO)
+U.S. Department of Education Student Privacy Policy Office (SPPO)
+FASE FERPA Release form
+Salesforce Documentation Best Practices
+CIT Regulated Data Chart
+Secure File Transfer
+FERPA FAQ
+FERPA is the Family Educational Rights and Privacy Act and is a federal law enacted in 1974. FERPA protects the privacy of student educational records. All educational institutions that receive federal funding, including Cornell University, must comply with FERPA. FERPA begins for a Cornell student on the first day of classes/semester or attendance, whichever comes first, and the student continues to be protected by FERPA for their lifetime.
+FERPA gives students four basic rights with respect to their education record:
+The right to inspect and review their education record
+The right to some control over the disclosure of their education record
+The right to request the amendment of their education record where appropriate
+The right to file a complaint with the U.S. Department of Education concerning alleged failures by the University to comply with the requirements of FERPA
+Education records are defined as paper or electronic records, files, documents, email messages, and other materials that contain information directly related to a student and are maintained by Cornell University or by a person acting for the University. Education records include:
+Assignments, exams, papers with student name or netID
+Grades
+Class lists
+Student course schedules
+Disciplinary records (including letters from the Office of Student Conduct and Community Standards)
+Student financial records
+Disability accommodation records
+Payroll records for students who are employed as a direct result of their status as students (e.g. work-study, assistantships, resident assistants, fellowships)
+Education records identify a student on its face or a student's identity can be deduced from descriptive or other information contained in the record, either alone or in combination with other publicly available information. They may be maintained in any format.
+Directory information is information contained in a student's education record that would not generally be considered harmful or an invasion of privacy if disclosed. Cornell University identifies the following as directory information:
+name
+local and cell phone numbers
+email address
+photograph
+major field of study and college attended
+academic level
+dates of attendance
+enrollment status
+university assistantship status (e.g. teaching assistantship, graduate research assistantship, research assistantship, graduate assistantship)
+participation in officially recognized activities and sports
+weight and height (of members of athletic teams)
+any degrees earned and awards received
+date of birth and local address (for sole purpose of federal census data responses)
+A request for a full academic record can be made by emailing
+univreg@cornell.edu
+. The university has 45 days to respond to the request and produce the academic record for review.
+Students are often interested in reviewing their admissions files. Admissions files consist the Common application and transcripts, not application reviewers ratings or comments.
+Current students can contact the Admissions Office to review their record at
+admissions@cornell.edu
+. Graduated or former students can contact the Office of the University Registrar at
+univreg@cornell.edu
+.
+Education records may be disclosed to school officials who have legitimate educational interests related to the information, with school officials at another institution where a student seeks or intends to enroll, in response to subpoenas, with a third party with whom the University has a contract, or in a health or safety emergency where the student's safety is at risk. The University may not disclose education records or personally identifiable information about students contained in education records without written permission of the student unless such action is covered by exceptions contained in FERPA. One of the exceptions involves the receipt of a subpoena or other compulsory legal process (e.g., because a student is involved in civil or criminal litigation or investigations). FERPA permits the university to comply with such compulsory process without your consent, and requires the university to notify you of that compliance unless the university is expressly prohibited by law from doing so.
+Questions about disclosing information in one of the above situations should be directed to the Office of University Counsel at 607-255-5124.
+Admission files contain the Common Application and transcripts submitted by the student. Reviewer notes are not maintained as part of the file. Current students should contact the Undergraduate Admissions Office (UAO) at
+admissions@cornell.edu
+. Alumni should contact the Office of the University Registrar at
+univreg@cornell.edu
+.
+In primary and secondary educational institutions (i.e. K-12), all FERPA rights belong to the parent or guardian. However, when the student reaches the age of 18 or begins to attend a post-secondary institution regardless of age, all FERPA rights transfer to the student.
+For Cornell students, FERPA rights belong to the students, not the parents. This can be a significant shift for families as students begin college. Before a student begins attending Cornell University, families are encouraged to discuss how they will maintain an open dialogue about student experiences, enrollment, and grades.
+Disclosure of FERPA protected information to parents or guardians of students is permitted without consent in the following instances:
+In the best interest of students, as determined by the institution (dependent students only).
+Released by the student (e.g. student participating in a phone conversation with their advisor and parent).
+Used by Financial Aid to determine eligibility for or amount of aid.
+Cornell's practice is to not allow students to enact a blanket FERPA release. FERPA releases are put in place on a case-by-case situation. When a situation arises, the student can sign a release with their
+College or School Registrar
+for specific information.
+FERPA permits each institution to define a class of information as "directory information." FERPA permits public disclosure of directory information without the student's consent.
+No. The only required disclosure of education records is to the student. All other disclosures, including those with student consent and disclosures of directory information, are at the discretion of the institution.
+FERPA requires each institution to allow students to block disclosure of their directory information. At Cornell, we refer to this action as "FERPA suppression." The following are consequences of a student placing a FERPA suppression on their record:
+Student name/address is excluded from the Cornell University online directory
+Student name will not appear in the commencement program
+Verification of enrollment, graduation, or degrees awarded will not be provided to third parties, including potential employers and insurance companies
+No information will be released to any person on the telephone or via email
+Requests for FERPA suppression are permanent until removed in
+Student Center
+by the student.
+To put a FERPA restriction on your record:
+Log in to your
+Student Center
+Click on ‘Privacy Settings’ under the drop down bar in the ‘Personal Information’ tab and click the double arrow circle next to the drop down box to proceed.
+Click ‘Edit FERPA/Directory Restrictions’ and then mark the ‘No Information Releasable’ checkbox and press ‘Save’.
+Click OK to confirm.
+If you're a student, it's important for you to understand your rights under FERPA. If you're a parent, you'll need to understand how the law changes once your student enters a post-secondary institution. If you're an employee of Cornell University with access to student education records, you're obligated to comply with FERPA and protect those records according to the law.
+There are many offices at Cornell University that record comments and notes regarding students. These may be kept in the student file in a department or college. It is important for anyone recording motes regarding an interaction with a student to understand that unless these notes fall into the category of "sole possession" records, then they are part of the student's education record and subject to FERPA. Since FERPA gives the student the right to review any or all of their education record, these notes could be included in that review. Therefore, it is important that notes or comments be factual and objective and that University employees who are recording notes or comments avoid making value judgements or using inappropriate language.
+It means that a student's education records may be disclosed
+only with
+the student's prior written consent. The prior  written consent must:
+Specify the records to be released
+State the purpose of the disclosure
+Identify the party(ies) to whom disclosure may be made
+Be signed and dated by the student
+No. The U.S. Department of Education has clarified that an electronic signature may substitute for a written one. In order to qualify as an electronic signature, appropriate authentication must occur. An email from a student's Cornell University email account satisfies the requirements for an electronic signature since students must log in to Cornell's email system. In addition, written consent via Canvas or Qualtrics support electronic signature efforts, as these systems capture credentials through SSO.
+With electronic consent, the Code of Federal Regulations states that consent may include and electronic form that "(1) Identifies and authenticates a particular person as the source of the electronic consent; and (2) Indicates such person's approval of the information contained in the electronic consent." In order to use Qualtrics to obtain consent, one must ensure that there is an authentication process to verify the student's identity. Simply sending an email to a student's Cornell email address is not enough; one must ensure that the link to the Qualtrics survey/consent form can only be accessed by the intended recipient (e.g.that the email with the link cannot be forwarded to another email address that can access/enter information). Qualtrics provides information on how to enable
+SSO authenticators
+for this type of use of the tool. An email received from a non-Cornell email account will NOT qualify as written consent.
+The answer to this question depends on a few key factors:
+Do you need this data to be able to fulfill your professional responsibility?
+What are you planning to do with this data?
+A legitimate educational interest establishes that someone cannot complete their professional tasks without access to the information. The question of research often arises for individuals who are hired as faculty and research constitute some portion of their professional duties. The section of the Code of Federal Regulations (CFR) states that prior consent is not required when conducting studies for or on behalf of an institution. The interpretation is that this is to produce information for the improvement of services at an institution, not to produce generalizable knowledge for distribution beyond the institution. Consent is required for the use of any personally identifiable information that will not remain internal to those who have a legitimate educational interest.
+Contact the Office of the University Registrar at
+univreg@cornell.edu
+.

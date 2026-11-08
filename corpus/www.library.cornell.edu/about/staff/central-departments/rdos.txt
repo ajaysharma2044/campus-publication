@@ -1,0 +1,109 @@
+URL: https://www.library.cornell.edu/about/staff/central-departments/rdos/
+TITLE: Research Data and Open Scholarship – Cornell University Library
+FETCHED: 2026-11-06
+
+Research Data and Open Scholarship (RDOS) supports the Cornell community in managing and sharing research outputs.
+We facilitate ethical stewardship of research and scholarship, making scholarly outputs “as open as possible, as closed as necessary.”
+Research Data Services
+RDOS provides training, consultations, and infrastructure to help Cornell researchers manage and steward research data with the services and resources listed below:
+Data stewardship consultation and instruction
+Working with data
+throughout the life cycle
+Understanding and complying with Public Access Policies
+Tools we support:
+Open Science Framework
+(OSF)*
+LabArchives
+electronic lab notebook
+DMPTool
+* Important! OSF is phasing out Projects, beginning November 17, 2026.
+Learn more.
+Data curation and sharing support
+Data Curation Network
+membership
+Data curation services
+Cornell Data Services (CDS)
+Leadership and engagement
+in campus-wide
+Cornell Data Services
+group
+Website and educational resources for
+working with data
+throughout the life cycle
+Monthly
+newsletter
+with data-related tips, trainings, research data policy updates and more
+Cornell
+Data Storage Finder
+Cornell services
+: comprehensive list of data-related services from campus providers
+Data management and sharing plans
+(DMSP)
+Funder data requirements
+for top Cornell funders
+Open Scholarship Services
+RDOS provides training, consultations, and infrastructure to support open scholarship at Cornell.
+Persistent Identifier (PID) Creation, Management and Support
+PIDs make research and scholarship more findable, accessible, interoperable, and reusable (
+FAIR
+).
+ORCID
+(Open Research & Contributor iD)
+A free and unique persistent digital identifier for researchers
+DOI
+(Digital Object Identifier)
+A unique persistent digital identifier for any object: physical, digital, or abstract
+eCommons Open Access Repository Services
+eCommons
+provides long-term access to Cornell-related digital content, including documents, research papers, images, data, code and software, electronic theses and dissertations (ETDs), and more.
+DSpace leadership
+DataCite membership
+Open Scholarship Consultation and Education
+We support open scholarship by helping researchers and authors understand their rights and the publishing process.
+Understanding and complying with Public Access Policies
+Author rights
+Copyright
+Fair Use
+Publishing agreements
+Open Access
+(OA)
+Open Educational Resources
+(OER)
+Self-Archiving / Self-Deposit in a repository
+Other questions about publishing
+Local, National, and International Initiatives
+Building relationships with Cornell leaders, researchers, and peers is critical to understanding needs, solutions, and what role the Library can play in closing those gaps. Examples of how we do this include:
+Cornell
+Cornell Research Security Compliance Committee
+and subgroups, including the Open Research Working Group
+Cornell Statistical Consulting Unit
+Faculty Advisory Board
+Cornell University New Faculty Infrastructure Support Group
+Institutional memberships
+Data Curation Network
+Higher Education Leadership Initiative for Open Scholarship
+(HELIOS Open) and HELIOS Open working groups
+Copyright First Responders (CFR) and Copyright First Responders-New York (CFR-NY)
+National and international advisory work
+Re3Data Editorial Board
+DataCite America’s Expert Group
+DSpace Community Advisory Team (DCAT) and
+DSpace Steering Governance Working Group
+People
+Wendy Kozlowski
+Director, Research Data and Open Scholarship
+wak57
+Sarah J. Wright
+Lead for Research Data Services
+sjw256
+Erica M. Johns
+Lead for eCommons Institutional Repository Service
+emj73
+Gabriella Evergreen
+Research Data Librarian
+gme37
+Lencia McKee
+Research Data Librarian
+lcb235
+Lindsay Zack
+Open Scholarship Librarian

@@ -183,13 +183,13 @@ def register_source(conn: psycopg.Connection, *, canonical_url: str, institution
 
 
 def refresh_titles(conn: psycopg.Connection, fetcher: SafeFetcher, source_ids: list[UUID] | None = None) -> dict:
-    """Fill `source_registry.title` for official HTML sources that have none (backfill for pages fetched before 0006).
+    """Fill `source_registry.title` for HTML sources that have none (backfill for pages fetched before 0006).
     A plain fetch of the page's <title>: no snapshot is recorded and nothing else changes."""
     with conn.cursor() as cur:
         if source_ids:
             cur.execute("SELECT id, canonical_url FROM source_registry WHERE id = ANY(%s::uuid[]) AND title IS NULL", (source_ids,))
         else:
-            cur.execute("SELECT id, canonical_url FROM source_registry WHERE title IS NULL AND source_kind LIKE 'official%%' AND health <> 'gone' ORDER BY canonical_url")
+            cur.execute("SELECT id, canonical_url FROM source_registry WHERE title IS NULL AND health <> 'gone' ORDER BY canonical_url")
         rows = cur.fetchall()
     out = {"checked": len(rows), "titled": 0, "failed": []}
     for r in rows:

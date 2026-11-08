@@ -1,0 +1,40 @@
+URL: https://business.cornell.edu/news/2021/04/27/cryptocurrency/
+TITLE: Research: Regulation is vital for future of cryptocurrency industry- Cornell SC Johnson College of Business
+FETCHED: 2026-11-06
+
+April 27, 2021
+Research: Regulation is vital for future of cryptocurrency industry
+Regulation and regulatory policy play a critical role in the health and longevity of cryptocurrency markets, according to a first-of-its-kind comprehensive study of cryptocurrency trading activity, from Johnson Finance Professor Will Cong and his co-authors.
+“The decentralized nature of blockchains and the nascent status of cryptocurrency industry provide a unique environment in which to observe both regulated and unregulated exchanges that wield tremendous power and influence in the ecosystem,” said Will Cong, the Rudd Family Professor of Management in the Samuel Curtis Johnson Graduate School of Management.
+The study examined three aspects of trade sizes and compared regulated exchanges with unregulated exchanges in crypto markets. They found a high rate of activity in “crypto wash trading,” a type of market manipulation, in unregulated exchanges. Crypto wash trading involves buying and selling with the purpose of manipulating the market. Traders (mostly bots), brokers or exchanges, fabricate transactions that cancel, or “wash”, each other out.
+“We detect over 70% of trading on unregulated crypto exchanges are “faked”, which amounts to over $1 trillion USD transaction volume every month,” said Professor Cong. “This is much higher than the transaction volume total for US equities.”
+Some of the reasons for crypto wash trading is that the perceived value of the exchanges is highly dependent on the total volume of transactions. Exchanges pump up their numbers to appear more attractive to cryptocurrency projects, which want to get their coin listed. Other traders use wash trading to help with capital gains reporting. Most
+cryptocurrency exchanges
+accrue revenue through listing fees, transaction fees, and withdrawal fees. This profit structure allows exchanges for a consistent flow of revenue, no matter the value of the cryptocurrencies listed.
+“Wash trading distorts investor attention and therefore the demand of cryptocurrencies, hindering price discovery and harming the healthy development of the cryptocurrency industry in the long run,” said Professor Cong. “Our findings imply that regulation makes a huge impact in cryptocurrency markets, with ramifications on investor protection, price discovery and financial stability.”
+The paper was co-authored by
+Xi Li
+, Newcastle University Business School,
+Ke Tang
+and Yang Yang, Institute of Economics at Tsinghua University. In the study, the researchers present rigorous empirical evidence of crypto wash trading focusing on four major trading pairs: Bitcoin, Ethereum, Litecoin and Ripple. They examine the properties of trade sizes on each exchange and test them against well-established statistical and behavioral benchmarks. They also estimated crypto exchanges’ fake volume to quantify the extent of wash trading.
+Contrary to common beliefs, the researchers noted that the five regulated spot market exchanges only constitute .8 percent of the total transaction volume in the crypto market, based on CoinMarketCap data.
+“Given that wash trading is pervasive among new and less reputable unregulated crypto exchanges, our findings provide a cautionary tale to regulators around the globe,” said Professor Cong. “We remind our readers of the tremendous effect of regulation in emerging industries and the utility of statistical tools and behavioral benchmarks for forensic finance and manipulation detection.”
+In this article
+Article Information
+Categories
+Accounting, Economics & Finance
+AI & Technology
+Inside SC Johnson
+Related Stories
+November 5, 2026
+Thomas Richard Dyckman, accounting scholar and university leader, dies at 94
+Inside SC Johnson
+November 5, 2026
+Climate Week NYC 2026: Mobilizing for the environment
+Accounting, Economics & Finance
+Energy & Sustainability
+Policy & Advocacy
+November 2, 2026
+Podcast: Why has global instability become the new normal?
+Accounting, Economics & Finance
+Global Development & International Business

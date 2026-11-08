@@ -1,0 +1,42 @@
+URL: https://human.cornell.edu/news-profiles/meet-e-mobo-playful-robot-helps-kids-express-emotions
+TITLE: Meet e-MoBo: The playful robot that helps kids express emotions | Cornell Human Ecology
+FETCHED: 2026-11-06
+
+Researchers in Cornell Human Ecology (CHE) have designed a robot that can help traumatized children living in residential treatment facilities communicate with their caregivers.
+e-MoBo, a plastic sphere that sits on three legs, has gentle flashing lights, tactile spots and a fiber optic spray that wags like a dog’s tail. The robot comes with soft cubes inscribed with emotions and plastic figures to support storytelling.
+The multidisciplinary team brings together expertise in robotics, developmental psychology and interaction design. They will present the paper,
+e-MoBo, a Low-Cost, “Robo-Mediator” Helping Therapists Teach Children How to Express Emotions: Insights from Field Testing
+, this month at
+IEEE RO-MAN
+, the international conference on human-robot interaction (HRI).
+“e-MoBo is a therapy mediator, facilitating communication between child and care provider, and not a replacement for the care provider,” said Keith Green, the Jean and Douglas McLean Professor of Human Centered Design and professor in the Sibley School of Mechanical and Aerospace Engineering.
+Working with psychologists, psychiatrists, social workers, and administrators from Hillside, a residential treatment center for traumatized children in Rochester, NY, the team set out to design a robot that helps these children with challenges of trust, openness, and understanding and expressing emotions.
+“The staff at Hillside have been co-designers on this project, providing feedback and communicating their challenges in providing the best care for these children,” said Green, who directs the Architectural Robotics Lab (ARL). ARL explores human-machine interaction through meticulously designed, cyber-physical environments that support and augment humans at work, school and home, through the life cycle.
+In the field of social robotics, there is growing research into robot-assisted therapy. These robots can take on a variety of roles, from capturing and analyzing children’s activity to teaching turn-taking. State-of-the-art robots designed to teach social-emotional learning (SEL) include humanoid robots that come with a hefty price. eMoBo is designed as an effective and affordable solution to support SEL.
+“Children who experience trauma have lost trust and are often not willing to share their emotions,” said Yarden Kedar, CHE visiting professor in the departments of Human Centered Design and Psychology and paper co-author. “We know that for these children it is a challenge to build emotional language. e-MoBo gives children a safe-space where the child, robot and trusted adult can communicate.”
+Here's how a therapist might engage a child using e-MoBo:
+Do you want to play?
+Wake up e-MoBo and play a flashing-light game.
+Ready for the next step?
+Insert a cube labeled with an emotion and emoji and watch e-MoBo express the emotion using lights, sounds and movement.
+How are you feeling today?
+Pick a cube with that emotion; let’s see how e-MoBo expresses that emotion again.
+Use the figures to tell me a story of how you’re feeling.
+The prototype combines the strengths of three earlier prototypes E, Mo and Bo. Raquel Cañete Yaque, a Fulbright scholar working in the ARL and paper co-author, led a student team that tested e-MoBo with neurotypical children, ages 5-9 at Ithaca Community Childcare Center and the Sciencenter. Further improvements were made, and the new prototype is ready to be tested with the vulnerable population at Hillside.
+“I came to the U.S. to study with Professor Green because I’ve admired his multidisciplinary approach to designing robots and technology for the wellbeing of children,” said Cañete, a Ph.D. student at the University of Seville with experience in product engineering for children with autism. “You can attain great things when you have people from different backgrounds and mindsets working together.”
+e-MoBo is designed for a specific population – children who have been removed from their home due to traumatic stress – but the team is expanding their research to support children suffering traumatic stress in Israel.
+“This translational research is about helping children who are suffering. We have an opportunity to make a difference not only for these children, but really any child,” said Kedar. “We are thinking about how these robots could be applied to language development broadly to help more children and their parents.”
+e-MoBo is funded by the
+Residential Child Care Project
+(RCCP). Part of the
+Bronfenbrenner Center for Translational Research
+, RCCP helps organizations create conditions where children who have experienced the pain of trauma in self-damaging ways can heal with help from understanding adults.
+Image: e-MoBo is a robot-mediator that helps children express their emotions by working together with a caregiver.  Photo credit: Ryan Issa
+Posted on
+08/21/2024
+Author
+Marisa LaFalce
+Tags
+Holistic Human Health,
+ Technology + Human Thriving
+Share

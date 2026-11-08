@@ -1,0 +1,87 @@
+URL: https://www.library.cornell.edu/research-teaching/research-support/evidence-synthesis-service/evidence-synthesis-how-librarians-can-help/
+TITLE: Evidence Synthesis: How Librarians Can Help – Cornell University Library
+FETCHED: 2026-11-06
+
+As you embark on your evidence synthesis project, librarians can help at either the consultant or co-author level.
+Collaborating with a librarian as a:
+Consultant
+Co-Author
+As a consultant, a librarian can step in at different points of your systematic review and:
+Provide background information and resources on the systematic review process.
+Recommend databases, protocol registration platforms, and citation management software.
+Suggest edits for your search strategy. As a consultant, your librarian can provide
+up to 4 hours
+of support throughout the project. (These hours may vary depending on the project).
+A systematic review will typically require a year or more to complete, and librarians’ availability may vary, so please plan ahead and reach out to us as early as you can.
+Co-authoring is a more substantial commitment, and a librarian will typically devote more than a year to partner with you on your systematic review. As a co-author, the librarian will be more hands-on and can:
+Select databases and grey literature resources
+Write the search strategy
+Translate searches to syntax of all databases
+Perform searches and export them to citation management software
+Comment on the protocol
+Perform de-duplication, or train your team on the process
+Advise on the use of article screening software
+Write a portion of the methods section specific to searching
+A systematic review will typically require a year or more to complete, and librarians’ availability may vary, so please plan ahead and reach out to us as early as you can.
+Below is a detailed chart that breaks down the steps of a traditional systematic review and the librarian co-author’s potential contributions. (Please note that these time estimates may vary depending on the project, and some steps may happen concurrently.)
+Steps in a traditional systematic review
+Estimated time investment
+Potential librarian contribution as co-author
+1. Assemble systematic review team and select project manager
+Varies
+Provide guidance
+2. Identify appropriate review methodology
+2 weeks
+Provide guidance
+3. Define research question
+2 weeks
+Provide information on appropriate question frameworks (e.g. PICO)
+4. Define inclusion/exclusion criteria
+1 week
+Provide guidance
+5. Select databases
+1 week
+Suggest appropriate databases
+6. Select grey literature resources
+1 week
+Suggest grey literature resources
+7. Write search strategy for “master” database
+1 week
+Lead writing of the search strategy
+8. Write and register protocol (written compilation of previous steps)
+Varies
+Provide comments on protocol and guide protocol registration process
+9. Translate search strategy to syntax of all databases (including grey literature)
+2 weeks
+Translate search strategy
+10. Search and export results into citation management software
+2 weeks
+Perform searches and export results
+11. De-duplicate results
+2–4 weeks
+Perform de-duplication, or train your team on the process
+12. Title and abstract screening
+2–3 months*
+Recommend article screening software and advise on use of software
+13. Retrieve full-text articles
+1 month*
+Train team on full-text article retrieval
+14. Full-text screening
+2–3 months*
+Provide guidance
+15. Risk-of-bias assessment
+2–3 months
+Provide guidance
+16. Data extraction
+2–3 months
+Provide guidance
+17. Meta-analysis or synthesis of results
+2–3 months
+Provide guidance
+18. Write the manuscript
+2–3 months
+Write information retrieval portion of the methods section
+* Timeframe can vary significantly depending on number of citations identified for screening.
+This work is licensed under a
+Creative Commons Attribution 4.0 International License
+.

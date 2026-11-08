@@ -1,0 +1,20 @@
+URL: https://www.library.cornell.edu/about/staff/central-departments/digital-scholarship/people/
+TITLE: People – Cornell University Library
+FETCHED: 2026-11-06
+
+Eliza Bettinger
+Director of Digital Scholarship Services
+ecb4@cornell.edu
+Eliza leads Olin Library’s research and teaching services for digital scholarship in the humanities and interpretive social sciences. Throughout the year, she collaborates with scholars and students on computational projects in mapping, visualization, text analysis, and digital exhibits and publishing, and in the summer, she oversees the Graduate Summer Fellowship in Digital Humanities. She also teaches and consults on issues related to digital privacy and surveillance, and is a member of the Library Freedom Project. Uniting all her work is a deep concern for helping people make meaning from, and exercise control over, data, information, and narratives. She has previously worked as the geospatial data librarian at University of Wisconsin-Milwaukee, and as a project manager for the national interview project StoryCorps. She holds an M.A. in Geography from Hunter College, City University of New York, an M.L.I.S from UW-Milwaukee, and an undergraduate degree in Biological Sciences (Evolution and Ecology) from Cornell.
+Iliana Burgos
+Emerging Data Practices Librarian
+itb23@cornell.edu
+Iliana supports instruction, consultations, and outreach for researchers on topics like text analysis, data preparation, and open data practices.  She holds an M.S. in Library Science from the University of North Carolina at Chapel Hill and a B.A. in Japanese Studies and Comparative Literature from the University of Delaware.
+Keith Jenkins
+GIS & Geospatial Applications Librarian
+kgj2@cornell.edu
+Keith helps students, staff, and faculty find geospatial data and use GIS (geographic information systems) software for mapping or analysis. He also manages CUGIR, the Cornell University Geospatial Information Repository. Keith has a B.A. in Mathematics, and an M.S. in Library and Information Science.
+Kiran Mohammadi-Williams
+Collections as Data Librarian
+kam535@cornell.edu
+Kiran teaches on and supports research in building and managing digital collections and exhibits and showcasing data using public-facing interfaces including websites and interactive visualizations. She holds an M.S. in Library and Information Science from the University of Illinois Urbana-Champaign, and a B.A. in Art History and Classics from Oberlin College.

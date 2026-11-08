@@ -1,0 +1,51 @@
+URL: https://registrar.cornell.edu/faculty-staff/faculty-resources/faculty-grading
+TITLE: Faculty Grading | Registrar
+FETCHED: 2026-11-06
+
+Faculty Grading
+Faculty Center Updates — Beginning with Summer 2025 Grading and Beyond
+Starting Summer 2025, Cornell University will transition the processing of Incomplete Requests, Grade Change Requests, and Unearned Grade Information from the Online Grade Adjustment Application (OLGAA) to the
+Faculty Center
+. Effective June 12, 2025, all new submissions for these requests must be made through the
+Faculty Center
+. This change allows users to enter information at the time of grade entry or on the day of the request — eliminating the previous 24-hour delay. This transition also enhances data accessibility and supports improved audit reporting and dashboard capabilities, ensuring compliance and accurate data collection for both central and college/school registrar offices.
+For more details and documentation on this update, please visit the
+Faculty Center Documentation
+page (Cornell employees only — NetID login required).
+Entering Grades in Faculty Center
+REMINDER: During the grading period, refrain from entering or updating grades between 2:00 PM – 3:00 PM.
+The Office of the University Registrar creates grade rosters in batch after the last day of classes. Rosters for any class ending during or after the final exam period for a given term will be created on a set date, typically scheduled for the first Monday of the final exam period. Contact your college or school registrar if a grade roster is required prior to the scheduled creation date. Grade rosters will only be created for the graded component of the class.
+Final grades are entered in the grade roster (not gradebook) in
+Faculty Center
+. Grades may be entered for each student individually, or multiple grades may be uploaded from a spreadsheet by using the
+grade upload
+feature. To enter each grade individually, click on the grade roster icon next to your class in Faculty Center. Enter grades for each student and then click the save button at the bottom of the page. Save frequently when entering grades for large classes.
+Posting of Grades and Grade Changes
+REMINDER: During the grading period, refrain from entering or updating grades between 2:00 PM – 3:00 PM.
+Grades are posted by the Office of the University Registrar during the grading period on a daily basis, excluding weekends and holidays. The grading period typically begins on the third day of exams. Grades submitted by 2:00 PM will be available to view in Student Center and Faculty Center by 4:00 PM.
+Once grades have been posted, changes can be submitted through
+Faculty Center
+. For further documentation on this, please visit our
+Faculty Center Documentation
+page (Cornell employees only — NetID login required). Manual grade forms may be obtained from your college registrar's office.
+Grade Submission Due Dates for Faculty
+Colleges and schools may set earlier grade deadlines, but grades must be submitted on or before the date set by the University Registrar each semester. Please contact your
+college or school registrar
+for information on your college's or school's deadlines prior to the start of the official grading period.
+Student Data Safety Reminders
+Grades are protected by
+FERPA
+and universi
+ty policy. Grades should never be posted or made public. Email should never be used to communicate or discuss grades. If grade rosters, reports, and other confidential material must be distributed within the university, use the
+Secure File Upload
+. Student information must be stored on a secure, password-protected server.
+Grading Help
+For problems entering grades, grading policy questions, or submission deadlines, contact your
+college or school registrar
+.
+For questions or feedback for the University Registrar, contact
+univreg@cornell.edu
+.
+For additional information, see the University Catalog “
+Grading Guidelines
+.”

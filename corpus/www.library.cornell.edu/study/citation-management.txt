@@ -1,0 +1,67 @@
+URL: https://www.library.cornell.edu/study/citation-management/
+TITLE: Citation Management – Cornell University Library
+FETCHED: 2026-11-06
+
+Guides for Citing Sources
+American Psychological Association (APA) citation style and grammar guide
+Modern Language Association (MLA) Handbook (2022)
+recommended section:
+Works-Cited-List Entries by Publication Format
+Chicago Manual of Style (CMS) online
+Scientific Style and Format (CSE) online
+Citation Styles Library Guide
+Annotated Bibliography Tutorial
+Code of Academic Integrity
+Have a question about citing sources or citation styles?
+Ask a Librarian
+.
+Citation Tools
+ZoteroBib
+is a free service that helps you build a bibliography or make citations instantly from any computer or device, without creating an account or installing any software.
+Citation Management Software
+What is citation management software?
+Citation management tools allow a user to organize and retrieve information, such as citations for books, articles, and Web sites, by interfacing with library databases. The citation manager then works with word-processing software to insert properly formatted footnotes or citations into a paper and create a properly formatted bibliography.
+Which citation management programs are used at Cornell?
+Individuals at Cornell use a variety of programs. The Cornell University Library currently supports the following:
+Zotero
+Mendeley
+EndNote
+For questions about citation management software or help choosing a citation manager,
+contact us!
+Zotero
+Mendeley
+EndNote
+Zotero
+Zotero
+is a free, open-source, web-based tool for managing citations, organizing pdfs, and creating bibliographies.
+Free campus workshops on Zotero: Olin-Uris Library and Mann Library
+Self-guided instruction in the form of tutorials, FAQs, and help are available through
+Zotero.
+In addition, our Library has several Zotero guides:
+Getting Started with Zotero
+and
+Zotero Advanced Frequently Asked Questions
+.
+Mendeley
+Mendeley
+is a free, web-based tool from Elsevier for managing references, creating bibliographies, and pdf organizer.
+Self-guided instruction in the form of tutorials, FAQs, & videos are available through
+Mendeley help guides
+.
+For individual help with Mendeley from a Cornell librarian, please
+contact us
+.
+EndNote
+EndNote is citation management software produced by Clarivate. A free 30-day trial or purchase is available through
+EndNote
+.
+Two Cornell colleges offer their communities free access to Endnote via site license:
+Human Ecology
+(under Software) and
+Agriculture & Life Sciences
+.
+Self-guided instruction in the form of tutorials, FAQs, & videos are available through
+Endnote
+.
+To increase success with Endnote’s “Find Full Text” feature, add Cornell’s OpenURL in preferences:
+http://resolver.library.cornell.edu/net/openurl/

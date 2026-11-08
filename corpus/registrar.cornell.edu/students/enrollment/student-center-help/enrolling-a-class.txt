@@ -1,0 +1,50 @@
+URL: https://registrar.cornell.edu/students/enrollment/student-center-help/enrolling-a-class
+TITLE: Enrolling in a Class | Registrar
+FETCHED: 2026-11-06
+
+Enrolling in a Class
+You may add a class directly through your
+Student Center
+during either pre-enrollment or open enrollment (prior to the start of each semester). If your enrollment window has closed or an enrollment deadline has passed, please reach out to your
+College or School Registrar
+for further guidance.
+To start, after logging in to your
+Student Center
+, click on
+Enroll
+.
+Select
+Add
+under the Enroll tab.
+Step 1 - Select classes to add
+Select the term in which you will be changing your enrollment.
+Enter the Class Number in
+Enter Class Nbr
+and then select
+Enter
+.
+Confirm that you will be enrolling in the appropriate grading basis and number of units on the
+Enrollment Preferences
+page and click
+Next
+.
+Once you select
+Next
+, the class will appear in your shopping cart. Select
+Proceed to Step 2 of 3
+to continue with your enrollment request.
+Step 2 - Confirm classes
+Select
+Finish Enrolling
+.
+Step 3 - View Results
+A successful enrollment attempt will produce a success
+message
+and green check mark in the
+status
+field.
+An unsuccessful enrollment attempt will produce an error
+message
+and a red X in the
+status
+field.

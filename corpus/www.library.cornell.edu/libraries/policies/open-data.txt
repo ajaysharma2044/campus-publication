@@ -1,0 +1,49 @@
+URL: https://www.library.cornell.edu/libraries/policies/open-data/
+TITLE: Cornell University Library Open Data – Cornell University Library
+FETCHED: 2026-11-06
+
+Overview
+Since its inception, Cornell University has been committed to free and open dissemination, publication, and distribution of knowledge, information and research results.  This commitment is a pillar of Cornell’s commitment to knowledge by accretion and publicly accessible information.  These foundational principles have been formally recognized in university policy and faculty resolution since 1948.  In alignment with Cornell’s commitment to promote
+equitable access to resources
+and to support advances in the broader library and academic community, Cornell University Library provides data openly where possible.
+Cornell University Library Open Metadata Policy
+Open sharing and reuse of library metadata improves the discoverability and usefulness of library resources and supports innovation. Cornell University Library will not place restrictions on the metadata that Cornell creates about its library resources. We will openly disseminate library metadata, subject to practical, contractual and privacy considerations. We will label datasets with a waiver or an open license that indicates that it may be reused.
+We exclude from our distributions metadata that are contractually encumbered. Library business data are also excluded.
+Note that this policy does not apply to information about library users or their use of library resources, which are protected by
+our commitment to privacy and confidentiality
+.
+Bibliographic Metadata
+The Cornell University Library catalog contains over 7.5 million MARC bibliographic records associated with our print holdings. This dataset is made available in MARC XML format as periodic snapshots via our
+eCommons repository
+.
+These data are provided under the
+Creative Commons CC0
+dedication.
+Although Cornell does not impose any legally binding conditions on access to the Metadata, Cornell requests that you act in accordance with the following community norms of the Cornell University Library with respect to the Metadata:
+Cornell requests that the Cornell University Library and OCLC, Inc. be given attribution as a source of the Metadata, to the extent it is technologically feasible to do so.
+Cornell requests that you make the Metadata and any improvements thereto freely available on the same terms as Cornell has done, i.e., without claiming any legal right in, or imposing any legally binding conditions on access to, the Metadata or your improvements, and with a request to act in accordance with these community norms.
+Catalog records may also be accessed through our FOLIO library service platform’s
+Z39.50
+interface.
+eCommons Metadata
+eCommons
+is the institutional repository service of Cornell University Library that provides long-term access to a broad range of Cornell-related digital content of enduring value. Metadata for items in eCommons is available for download via the
+OAI-PMH feed
+.
+HathiTrust Metadata
+Cornell University Library is a member and significant contributor to
+HathiTrust
+. Metadata from HathiTrust is available for reuse through the
+OAI-PMH feed
+and the
+HathiFiles
+service, in accord with the
+HathiTrust Metadata Sharing and Use Policy
+.
+Public Domain works and metadata on the Internet Archive
+The Internet Archive provides access to 76,384 public domain works from Cornell University Library that were digitized in collaboration with Microsoft Corporation in 2008. All content and metadata are available for reuse from the
+Internet Archive
+.
+Additional Datasets Under Consideration
+Cornell University Library Special Collections finding aids (EAD)
+Cornell University Library Digital Collections metadata

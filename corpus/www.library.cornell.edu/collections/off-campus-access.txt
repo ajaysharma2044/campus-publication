@@ -1,0 +1,53 @@
+URL: https://www.library.cornell.edu/collections/off-campus-access/
+TITLE: Off-Campus Access – Cornell University Library
+FETCHED: 2026-11-06
+
+Start on the Library Homepage
+While off-campus, start your search on the
+library home page
+for full access to our online journals and other resources. When you click on subscription-only resources, you’ll be asked for your NetID and password.
+Install Access Anywhere on Your Browser
+When not starting from the library homepage, you can install Access Anywhere on your web browser and use it to directly access databases, journals, and e-books that would otherwise be restricted or hidden behind paywalls.
+In your web browser (Firefox, Chrome, Edge, or Safari), make sure the bookmark toolbar is visible and then drag the Access Anywhere icon to it.
+You can also add a direct link to your favorites or bookmarks by bookmarking any page, renaming it, and then pasting the following (including the semicolon at the end):
+javascript:void(location.href="http://proxy.library.cornell.edu/login?url="+location.href);
+Visit the
+Access Anywhere library guide
+for more installation information.
+Using Access Anywhere
+How does Access Anywhere work?
+Access Anywhere allows you to access electronic resources when you’re not on campus. After installing Access Anywhere, it will show up as a bookmark in your web browser. To use it, just go to any website you’re trying to access, click the Access Anywhere bookmarklet and it will “show” the website that you’re affiliated with Cornell.
+For example:
+Step 1.
+If you would like to use Web of Science while off campus, you would navigate to the
+Web of Science
+home page.
+Step 2.
+Now you can use the Access Anywhere bookmarklet to “show” Web of Science that you are affiliated with Cornell and gain access to it. Click on the Access Anywhere bookmarklet that is either on your bookmark bar or in your bookmark folder.
+Step 3.
+After clicking on the Access Anywhere bookmarklet, you will be prompted to enter your NetID and password to verify your Cornell affiliation.
+Step 4.
+Web of Science will now recognize you as a member of the current Cornell community, and you will have access to the site.
+Step 5.
+When you find an article you want, you can use the Get it! Cornell button to access the full text.
+For more information on installing Access Anywhere, visit our
+library guide
+.
+What if Access Anywhere isn’t working for me?
+There are some cases in which Access Anywhere will not work properly. Here are a couple of reasons it might not work:
+The resource is free and does not require authentication.
+Cornell University Library does not subscribe to the resource. Please check the
+library catalog
+or
+ask a librarian
+for assistance. It is possible the resource is available elsewhere and we can help you find it!
+Google Scholar and Get it! Cornell
+How to configure the Cornell University Library ‘Get It’ connector in
+Google Scholar
+:
+Click on the Google Scholar menu icon.
+Go to Settings > Select Library links.
+Enter “Cornell University” in the “Show library access links” search box.
+Click the checkbox for “Cornell University – Get it! Cornell.”
+Click “Save.”
+When available, Google Scholar results will have a ‘Get It! Cornell’ link, which will connect you to the relevant EBSCO page.

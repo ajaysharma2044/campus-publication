@@ -1,0 +1,42 @@
+URL: https://registrar.cornell.edu/stellic-cornell/stellic-log-issues
+TITLE: Stellic Log-In Issues | Registrar
+FETCHED: 2026-11-06
+
+Stellic Log-In Issues
+If you have attempted these troubleshooting methods and are still unable to log-in, please contact your
+Home College or School Student Services Office
+.
+If you have not received an email notification from CALS indicating that Stellic is available to you, then Stellic is not yet accessible to you and you will not be able to log-in.
+Make sure you are using the following web address for logging into Stellic:
+https://stellic.cornell.edu/
+For instructions on clearing your browser’s cache, please see
+Clear Your Browser’s Cookies, Cache, and History
+.
+For enabling cookies in Chrome, please see
+Clear, allow & manage cookies in Chrome
+.
+For enabling cookies in Safari, please see
+Enable cookies in Safari on Mac
+.
+For enabling cookies in Firefox, please see
+Websites say cookies are blocked — Unblock them
+.
+This issue is caused by a bad cookie and can be removed. You may wish to remove this cookie without deleting history by selectively deleting only the Stellic-related cookie (stellic.cornell.edu or cornell.stellic.com).
+For removing a cookie using Google Chrome, please see
+Clear, allow and manage cookies in Chrome
+.
+For removing a cookie using Safari, please see
+Clear cookies in Safari on Mac
+.
+For enabling cookies in Firefox, please see
+Websites say cookies are blocked — Unblock them
+.
+For Mac, to check for updates, please see the instructions at
+Mac Third-Party Applications and Operating Systems Update Process
+.
+For PC, to check for updates, please see the instructions at
+Windows Third-Party Applications and Operating Systems Update Process
+.
+To check out your privacy extensions, see
+Check if your browser recently updated its privacy settings
+.

@@ -1,0 +1,45 @@
+URL: https://business.cornell.edu/news/2023/09/08/how-do-consumers-make-online-shopping-choices-the-mouse-may-hold-the-answer/
+TITLE: How Do Consumers Make Online Shopping Choices? The Mouse May Hold The Answer.- Cornell SC Johnson College of Business
+FETCHED: 2026-11-06
+
+September 8, 2023
+How Do Consumers Make Online Shopping Choices? The Mouse May Hold The Answer.
+Consumers are not always predictable when it comes to choosing products online—a concept that lies at the core of Cornell’s latest research in consumer psychology.
+In the paper, “
+How Consumers Resolve Conflict over Branded Products: Evidence from Mouse Cursor Trajectories
+,” published in the
+Journal of Marketing Research
+,
+Cornell SC Johnson College of Business
+faculty members used a novel mouse cursor-tracking method to reveal an intriguing interplay of cognitive processes that influence consumer decisions about brands and products.
+Geoffrey Fisher
+, an associate professor at the
+Charles H. Dyson Applied School of Economics and Management
+, and
+Kaitlin Woolley
+, an associate professor at the
+Samuel Curtis Johnson Graduate School of Management
+, conducted several cursor-tracking studies for the article. In one, 46 students completed tasks involving 25 food brands (e.g., Chipotle, Shake Shack, Starbucks) and 39 clothing brands (e.g., J.Crew, Nike, Patagonia). In each task, participants made 200 choices between two items of different brands.
+“By capturing the trajectory of a cursor’s locations, we estimate brand consideration time—the initial time at which consumers start to consider a brand’s desirability—and product consideration time—the initial time at which consumers start to consider a product’s desirability,” said Fisher, whose research focuses on marketing and neuroeconomics. “We find that such attribute consideration times differ and that these relative differences in consideration time influence consumers’ choice of branded products.”
+Results indicated that while consumers typically process brand attributes relatively later than product attributes, the timing of this processing affects choice. When consumers trade off brand and product desirability, the earlier that they consider brand attributes, the more likely they are to choose the option from the preferred brand.
+“This research unearths the complex interplay of consumer decision-making, where the sequence and timing of brand and product are attributed amidst multiple choices,” said Woolley, who researches the psychological processes underlying consumer motivation. “By shedding light on these nuanced processes, the study paves the way for a deeper understanding of how consumers navigate the complex landscape of brand preferences.”
+In one of the studies, results extended to decisions involving three attributes, such as brand, product, and price. They found that consumers process product desirability earlier than price desirability, whereas they process price and brand desirability at a similar time.
+Another study revealed that advertisements can influence brand consideration: When ads succeed at making brand information top of mind over product information, consumers tend to resolve the conflict between choice options by selecting options from a preferred brand, even if it means choosing a less preferred product.
+“Our findings suggest that any intervention that increases the relative time at which brands are processed should encourage consumers to make more brand-based choices by increasing the display of brand attributes on product packaging and in advertising,” Fisher said. “Collecting cursor-tracking data is accessible, cheap, and scalable. Companies can integrate the tools we introduce here to improve their ability to segment customers by identifying those who are likely to initially attend to brand-relevant features.”
+In this article
+Article Information
+Categories
+Inside SC Johnson
+Schools & Departments
+Dyson School
+Related Stories
+November 5, 2026
+Thomas Richard Dyckman, accounting scholar and university leader, dies at 94
+Inside SC Johnson
+October 23, 2026
+2026 Atkinson postdocs improve antibiotics, emissions data, green transition
+Inside SC Johnson
+October 23, 2026
+From running partners to business partners: The rise of Kube & Co.
+Food & Agriculture
+Inside SC Johnson

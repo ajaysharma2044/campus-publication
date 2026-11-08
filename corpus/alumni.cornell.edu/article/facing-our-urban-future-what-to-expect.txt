@@ -1,0 +1,97 @@
+URL: https://alumni.cornell.edu/article/facing-our-urban-future-what-to-expect/
+TITLE: Facing our urban future: what to expect - Alumni, parents, and friends | Cornell University
+FETCHED: 2026-11-06
+
+Facing our urban future: what to expect
+Slide by Vishaan Chakrabarti '88, founder and Creative Director, PAU, illustrating what he calls the “incredible thud of the same apartment building” in cities across the globe
+By
+Linda Copman
+June 16, 2021
+Hundreds of Cornellians in cities and communities around the world tuned in to Virtual Reunion 2021 on June 11, to hear from a panel of experts about
+The Future of Cities
+.
+While online participants waited for the live stream to begin, Bobbie Horowitz ’61 typed in the chat, “Hope the future of my city (NYC) is as bright as it can possibly be!”
+As cities across the globe reopen after the pandemic, they face urgent challenges around how to maintain public health—while safely and smartly scaling up public transit, commerce, tourism, education, and dining. Alongside these pandemic-related challenges, they must also grapple with longstanding issues of inequity, aging infrastructure, lack of basic services, and threats posed by a changing climate.
+J. Meejin Yoon ’95
+, the Gale and Ira Drukier Dean at the College of
+Architecture, Art, and Planning
+(AAP), explained in her opening remarks, “Cities are the critical inflection point. Climate adaptation, access and affordability, economic growth, infrastructure, and public health are among the many layered challenges facing cities today.”
+Screenshot of The Future of Cities presenters
+In an hour-long conversation, three experts and Rubacha Featured Speakers shared their thoughts on the challenges facing our cities over the next three decades: Victoria Beard, Professor, Department of City and Regional Planning in AAP; Anthony Townsend, Urbanist-in-Residence, Urban Tech Hub at the
+Jacobs Technion-Cornell Institute
+at Cornell Tech; and Vishaan Chakrabarti ’88, William W. Wurster Dean, College of Environmental Design University of California, Berkeley. The event was moderated by
+David Folkenflik ’91
+, media correspondent for National Public Radio, who celebrated his 30th Cornell Reunion this year.
+Screenshot of David Folkenflik ’91
+“I’m always happy and proud to do things for Cornell. My parents met there as modest graduate students, my sister was born in Ithaca, and I feel a connection to Cornell myself, to this day.” —David Folkenflik ’91
+Making cities more equal
+Will residents have a bathroom in their home, be able to make a cup of coffee or tea, have safe water to drink?
+—Victoria Beard, Professor, Department of City and Regional Planning
+Slide by Victoria Beard, Professor, Department of City and Regional Planning, showing a city she refers to as her “urban touchpoint”
+Victoria Beard kicked off the event by asking audience members to close their eyes and imagine themselves waking up in a city. She proceeded to walk them through a typical morning: starting with washing their hands, making a cup of coffee or tea, showering, and walking outside.
+“This is your urban touchpoint,” she said, asking them to keep this scene in mind as they considered how cities around the world might look 30 years from now. “Will residents have a bathroom in their home, be able to make a cup of coffee or tea, have safe water to drink?” she asked.
+Victoria laid out some sobering projections for our urban future. According to her data, 2.5 billion people will move to cities in the next three decades. About 90 percent of global population growth will occur in Asia and Africa—while the proportion of the urban population living in Europe and North America will decline. Currently, 70 percent of urban residents in rapidly expanding Asian and African cities lack access to one or more core services like electricity, water, or sanitation.
+Screenshot of self-provided sanitation solutions, in which wastewater is released into an open canal
+“When residents lack these services, they provide these services themselves,” Victoria explained, by pumping water from wells, collecting surface water, and releasing their wastewater into their neighborhoods. “Water and sanitation when they’re self-provisioned create huge inefficiencies, both economically and for the environment,” she said. “The black water (untreated human waste) and gray water is being released into streams, storm drains, and open canals.”
+Victoria’s work at Cornell and for the
+World Resources Institute
+includes a recent analysis of 15 cities in sub-Saharan Africa, South Asia, and Latin America. In 12 of the 15 cities, water delivery is intermittent—or not available 24-7. Only 58 percent of residents in the 15 cities have access to piped water at their home or plot, and alternative sources of water are often lower quality, very distant, or unaffordable.
+She explained that very few of the 15 cities can afford the upfront costs required to build out their water and sanitation infrastructure. Victoria suggested that solutions will require national and international subsidies to pay for this infrastructure. “A lot of this is about political will,” she said. “We need to change our ethos about water—we cannot think about water as a commodity. We need to think about water as a basic human need, a public good in the broadest sense.”
+Victoria closed by inviting viewers to visit
+citiesforall.org
+to learn more about her work to ensure that future cities are “more equal.”
+Making cities smarter
+There are big geopolitical forces playing out on our streets, and we need to take action to pull the algorithms out of the software and into the open and examine them.
+—Anthony Townsend, Urbanist-in-Residence, Urban Tech Hub
+Screenshot of an Urban Tech forecasting model, in which the graphic dots represent elements of urban life that may grow over the next decade
+Last year the Jacobs Technion-Cornell Institute at Cornell Tech launched a new
+masters degree with a concentration in Urban Tech
+and invited Anthony Townsend to serve as an Urbanist-in-Residence for the campus’ new
+Urban Tech Hub
+. The hub’s mission is to make cities stronger, fairer, and more resilient.
+Anthony said that he and his colleagues are trying to figure out how to make cities smarter, by weaving the internet into “everything that is built and grows around us, from water distribution to transportation.” He explained that the term
+urban tech
+goes beyond smart cities because urban dwellers have the technology in their hands, via cell phones and computers, to interact with the infrastructure around them.
+“A lot of engineering and design work is going on to redesign cities,” Anthony said. “We are figuring it out as we go,” he added. “We look ten years out to anticipate key developments, what to expect, and what to slow down and regulate.”
+Anthony and the Urban Tech team have honed in some preliminary forecasts they expect to play a key role in the life of cities over the next decade. They are:
+Forecasts to inform future-proofing
+Supercharged Infrastructure:
+Anthony said that urban water, power, transport, and waste systems will become increasingly connected via digital networks managed by artificial intelligence (AI). One example is virtual power plants, which incorporate multiple power sources, including renewables, and multiple plant sites into a coordinated operation, managed by AI.
+Resilient Corridors:
+This forecast anticipates the large-scale work individual cities will do to deal with challenges such as climate change, severe weather, and migration. “This work has been going on at the city-scale for a long time,” Anthony said. “It is expensive to do this work, but it provides a Plan B for resilience to absorb climate shocks.”
+Wild & Well Cities:
+“Last year, we saw nature surging back into cities during the pandemic, and this was something that many welcomed,” Anthony said. He explained that the movement to rewild cities brings a whole host of environmental and public health benefits. Architects and urban designers around the world are exploring bio-inspired designs for structures and for networks, along with approaches like wastewater sensing to detect potential bio-threats to urban residents.
+Dark Plans:
+Anthony summarized this forecast as follows, “The chaos of urban life is replaced by algorithmic software which tracks people to see where they’re going and what they’re doing.” One example is Uber’s zone congestion pricing. “Uber was supposed to save us, but created more traffic than we’ve ever seen in NYC, just by turning on a piece of software,” he said, adding that there are now thousands of companies doing this. “There are big geopolitical forces playing out on our streets, and we need to take action to pull the algorithms out of the software and into the open and examine them.”
+New Screen Deal:
+Anthony said they borrowed this
+term from author Naomi Klein
+, but turned it around to become an aspiration. The idea is “to take all that tech has offered, sand off the rough spots, and reintegrate it in a better way.” This effort will require a new set of scholarship to identify ways to automatically audit existing algorithms, in order to improve them. “I see this as a big opportunity,” Anthony said.
+Urban Innovation Industrializes:
+Anthony said that this forecast involves meeting the need for solutions to the kinds of massive water delivery and sanitation issues that Victoria described. “The market is there, and the need for solutions is there,” he said. “We will have a new set of tools so that when politicians and communities choose to address these problems, they’ll have more tools at their disposal.”
+The Urban Tech team expect to roll out their forecasts later this summer. They are currently modeling the various forecasts and making predictions about how likely they think each will be in the city of the future. “It’s a very exciting place—a scary place, but also a place of great hope and opportunity,” Anthony said.
+Making cities more human-centered
+I see people from lots of different walks of life coming together and mixing in a way that I don’t think that they would have had this public space not been there.
+—Vishaan Chakrabarti '88, William W. Wurster Dean, College of Environmental Design University of California, Berkeley
+Domino Park in NYC, which Vishaan helped design, brings together residents from different communities and socio-economic groups.
+Vishaan Chakrabarti began his talk with a warning that the pandemic we just experienced is “just a preview of the huge challenges we are facing, including climate change, inequity, and the enormous changes in technology that Anthony talked about.” Vishaan used the automobile as an example of how human technology has altered the face of the planet.
+“We completely changed our world in reaction to this one technology,” he said. He believes that the redesign that occurred to accommodate cars and highways has resulted in “cities taking on a strange homogeneity, where no one knows where they are any more.”
+Yet, Vishaan argued that cities are critical to the future of humanity. He believes that cities can serve as centers of human culture and aspiration. They can promote “positive social friction,” which might help to heal the great political divisions between us. He cited research that shows that increased density leads to greater innovation and patent creation. He also noted the environmental benefits of density.
+Slide showing annual carbon emissions per household of suburban versus urban dwellers
+“When people live in cities, whether in row homes or apartment buildings, they share party walls that heat and cool each other, they use mass transit, and they drastically lower their carbon footprint,” Vishaan said.
+In his architectural practice, Vishaan is focusing on bringing the human needs of urban dwellers to the forefront. He believes that cities should “allow us to be human, have breathable air, and promote equity,” and they should reflect the place they’re located in, as opposed to recreating the same city everywhere.
+“The work we’re trying to do is revive the idea of the public in architecture,” he explained. “The idea is that we’re moving more and more to a latticed system where you can achieve most of your daily life within a 20-minute walking radius.”
+Vishaan shared that these ideas are not new. He cited the words of renowned urban planner
+Catherine Bauer
+, whom, he noted, studied architecture for a year at Cornell. “She talked about the fact that many have forgotten or never knew that modern architecture was once concerned with social and civic improvement,” Vishaan said. “At this moment of emerging from global crisis, we need to rethink and really refocus our efforts in this way, across multiple scales and hierarchies, in the cities in which we work.”
+Watch The Future of Cities on-demand now
+, or enjoy more
+highlights of Virtual Reunion 2021
+.
+Categories
+Alumni news
+Learning
+Tags
+AAP
+Alumni Affairs
+Cornell Tech

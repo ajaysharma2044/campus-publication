@@ -1,0 +1,121 @@
+URL: https://catalog.ithaca.edu/graduate/admission-information/coursesaz/educ/
+TITLE: Education (EDUC) < Ithaca College
+FETCHED: 2026-11-08
+
+Education (EDUC)
+EDUC 50000 Professional Development Seminar
+Seminar in the development of a personal philosophy of education; the preparation of a professional portfolio; and the design, completion, and presentation of an action research project. Students must pass two summer semesters of this course, one in the first summer of the program, and the other in the final summer of the program. Required. Pass/fail only. (Sum)
+Attributes: TE
+0 Credit
+EDUC 50100 Literacy Development for Linguistically Diverse Learners (LA)
+Study of the acquisition of a new language and implications for pedagogical practices in K-12 education. Topics include the role of culture in language acquisition, stages and processes in the development of an additional language, facilitating oral and written language acquisition, teaching and learning in the content areas for language learners, culturally and linguistically appropriate assessments for language learners, relevant laws and policies that guide practice, and methods for collaborating with linguistically diverse families. Prepares teacher candidates for a related field experience. (Y)
+Attributes: TE
+3 Credits
+EDUC 50300 The Exceptional Child and the Classroom (NLA)
+Analysis of the instructional elements, modifications, and behavioral management techniques for the unique needs of exceptional children in middle and secondary, subject-specific class settings; explores the role of teachers and other school professionals and parents in providing services to these students; development of appropriate I.E.P.s and review of state and federal laws governing students with disabilities. (SU,F,Y)
+Attributes: TE
+3 Credits
+EDUC 50400 Advanced Topics in Special Education (NLA)
+Prepares special education teacher candidates in the fundamental practices of special education program design and instruction. The course prepares candidates in the implementation and monitoring of the process of assessing, diagnosing, and evaluating students with disabilities and developing individualized education plans. Further, the course prepares candidates in the collaborative planning and implementation of instruction to students with disabilities. Prerequisites:
+EDUC 50300
+;
+EDUC 50810
+OR
+EDUC 64000
+;
+EDUC 56500
+OR
+EDUC 56600
+. (W)
+3 Credits
+EDUC 50510 Pedagogy and Practice for the Mathematics Teacher (NLA)
+Examination of current research and practice in the effective teaching of mathematics at the middle and high school levels. Focus on national and state standards in mathematics, instructional planning and differentiation, appropriate use of technology, approaches to assessment, and the integration of literacy in the mathematics curriculum. Introduction to professional organizations, journals, and resources. Field experience required. Prerequisite: Graduate student in good standing or permission of instructor. (F, Y)
+Attributes: TE
+3 Credits
+EDUC 50700 Advanced Content Knowledge in the Discipline (NLA)
+Identifies and addresses gaps in teacher candidates’ content knowledge in their respective disciplines and provides them with resources and approaches for assessing and updating their knowledge as the secondary curriculum evolves. Guides students in exploring how central topics in their content area connect with particular pedagogical approaches. Course is repeatable for a maximum of six credits. Permission of Instructor. (U,Y)
+3 Credits
+EDUC 50800 Assessment in the Disciplines (NLA)
+Prepares secondary teacher candidates to design, implement, and analyze classroom assessments in their discipline. Teacher candidates are introduced to different approaches to formative and summative assessment, understanding purposes and limitations of both quantitative and qualitative assessment constructs, as well as how to communicate about assessment results with their students and use findings to inform their ongoing instructional planning. Permission of instructor. (F,Y)
+3 Credits
+EDUC 50810 Pedagogy and Practice across the Disciplines (NLA)
+Research and practice in models of teaching, motivation, and classroom management that span the disciplines and promote effective teaching at the middle and high school levels. Emphasis on instructional planning, assessment of student learning, differentiation, and the integration of literacy across the disciplines. Introduction to structured observation, reflective practice, and action research. Field experience required. Prerequisite: Graduate student in good standing or permission of instructor. 3 credits.
+Attributes: TE
+3 Credits
+EDUC 50900 Selected Topics in Agriculture Education (NLA)
+Provides current students in the MAT program in Agriculture Education, as well as practicing Agriculture educators, with the opportunity to continue their content and pedagogical knowledge in technical fields related to agriculture education. Focuses on a specific technical topic (topics will vary) and prepares students to work within the Curriculum for Agriculture Science Education (CASE) framework and earn certification to teach CASE-recognized courses on the P-12 level. Permission of instructor required. (U)
+3 Credits
+EDUC 50910 Pedagogy and Practice in the Teaching of Social Studies (NLA)
+Examination of current research and practice in the effective teaching of social studies at the middle and high school levels. Focus on national and state standards in social studies, mastery of theoretical concepts and their application in the classroom, instructional planning and differentiation, appropriate use of technology, approaches to assessment, and the integration of literacy in the social studies curriculum. Introduction to professional organizations, journals, and resources. Field experience required. Prerequisite: Graduate student in good standing or permission of instructor. (F, Y)
+Attributes: TE
+3 Credits
+EDUC 51010 Pedagogy and Practice for the Science Teacher (NLA)
+Examination of current research and practice in the effective teaching of science at the middle and high school levels. Focus on national and state standards in science, instructional planning and differentiation, appropriate use of technology, approaches to assessment, laboratory organization and safety, and the integration of literacy in the science curriculum. Introduction to professional organizations, journals, and resources. Field experience required. Prerequisite: Graduate student in good standing or permission of instructor. (F, Y)
+Attributes: TE
+3 Credits
+EDUC 51110 Pedagogy and Practice for the English Teacher (NLA)
+Examination of current research and practice in the effective teaching of English at the middle and high school levels. Focus on national and state standards in English language arts, instructional planning and differentiation, appropriate use of technology, approaches to assessment, and support for students’ literacy development. Introduction to professional organizations, journals, and resources. Field experience required. Prerequisite: Graduate student in good standing or permission of instructor. (F, Y)
+Attributes: TE
+3 Credits
+EDUC 51210 Seminar in Reflective Practice (LA)
+Taken concurrently with
+EDUC 60000
+. Critical reflection on teaching and learning, including content knowledge, planning and instruction, positive learning environment, diversity, technology, assessment, collaboration and outreach, and professional development. Literacy issues and methodologies. Teachers as action researchers. Prerequisite: Graduate student in good standing. (Y)
+Attributes: TE
+3 Credits
+EDUC 51310 Pedagogy and Practice of Teaching Languages Other Than English (NLA)
+Examination of current research and practice in the effective teaching of languages other than English at the middle and high school levels. Focus on national and state standards in the teaching of modern languages, instructional planning and differentiation, appropriate use of technology, approaches to assessment, and issues related to second language acquisition and literacy development. Introduction to professional organizations, journals, and resources. Field experience required. Prerequisite: Graduate student in good standing or permission of instructor. (F, Y)
+Attributes: TE
+3 Credits
+EDUC 51410 Pedagogy and Practice for the Art Teacher (NLA)
+Examination of current research and practice in the effective teaching of art at the elementary, middle and high school levels. Focus on national and state standards in art, mastery of theoretical concepts and their application in the classroom, instructional planning and differentiation, appropriate use of technology, approaches to assessment, and the integration of literacy in the art curriculum. Introduction to professional organizations, journals, and resources. Field experience required. (F)
+3 Credits
+EDUC 51610 Pedagogy and Practice for the Computer Science Teacher (NLA)
+Examines current research and practice in the effective teaching of computer science at the elementary, middle and high school levels. Focuses on national and state standards in computer science, mastery of theoretical concepts and their application in the classroom, instructional planning and differentiation, appropriate use of technology, approaches to assessment, and the integration of literacy in the computer science curriculum. Introduction to professional organizations, journals, and resources. Field experience required. Permission of instructor required. (F)
+3 Credits
+EDUC 53200 Educational Programs in Agricultural Science (NLA)
+Provides an overview of the organization and structure of programs and curriculum in agricultural science and the professional responsibilities of teachers in agricultural science education. Principles of developing and managing courses, instructional materials, curriculum, and programs in agricultural science education will be discussed. (F,U,Y)
+3 Credits
+EDUC 53500 Youth Leadership and Organizations (NLA)
+Provides a comprehensive overview of the elements of youth leadership and their relationship to youth organizations. Examines factors affecting membership, purpose, design, operation, and administration of career and technical student organizations, including FFA and 4-H. Field experience required. (F,U,Y)
+3 Credits
+EDUC 53800 Advanced Concepts in Agricultural Education (NLA)
+This course focuses on advanced concepts in three overarching areas: agriculture laboratory and program establishment, curriculum and program diversity, and professional development and support networks. (F,U,Y)
+3 Credits
+EDUC 56500 Educational Technology for Childhood Educators (NLA)
+Examines the theory and practice of educational computing and technology. Emphasis is on applying and integrating technology to enhance pedagogy and practice. Project oriented, focusing on designing products for instructional activities and environments with various technologies. (Y)
+3 Credits
+EDUC 56600 Educational Technology for Middle and Secondary Educators (NLA)
+Examines the theory and practice of educational computing and technology. Emphasis is on applying and integrating technology to enhance pedagogy in classroom and online environments. Project oriented, focusing on designing products for instructional activities and online environments with various technologies. (Y)
+3 Credits
+EDUC 59900 Independent Study in Education (LA)
+Study with a faculty member or specific problems in education. Written proposal to the graduate chair, describing the terms of the particular project, is required. Prerequisites: Permission of instructor. (IRR)
+1-3 Credits
+EDUC 60000 Professional Semester in Education (NLA)
+A full semester of observation and supervised teaching at the ​elementary, middle​, and/or high school levels​, as appropriate to the certification program in which the teacher candidate is enrolled. Additional coursework may not be taken without permission of department chair and coordinator of teacher education. Prerequisites:
+EDUC 60500
+. (S,Y)
+Attributes: TE, UND
+6 Credits
+EDUC 60500 Foundations of Language, Literacy, and Culture
+Study of research and theory related to literacy development, early childhood through adolescence. Includes attention to language and literacy in inquiry, literacy in diverse families and communities, literate practices inside and outside of classrooms, biliteracy and literacy across cultures, psycholinguistic theories of reading, reader response, and the research on literacy methods, curricula, and texts commonly used in classrooms. 3 credits. (Y, Summer)
+3 Credits
+EDUC 61000 Teaching and Learning in Diverse Elementary Schools (NLA)
+Provides an overview of the elementary school curriculum and environment; the roles and responsibilities of childhood educators; the relationship of school, family, and community; a focus on the integrative nature of elementary school curriculum with a focus on visual art and music integration; and principles and practices of motivation, management, and social interaction. Emphasizes on culturally responsive teaching in diverse school settings. (Y)
+3 Credits
+EDUC 62000 Curriculum and Instruction in Elementary School Social Studies
+This course focuses on the content and design of the social studies curriculum in the elementary school; current research, theory, and standards in social studies; strategies for instruction, differentiation, and assessment; and available resources. Integration of literacy and technology. Emphasis on community and citizenship, critical thinking, multidisciplinary approaches, and the use of primary resources. Field experience required. Prerequisite: Graduate student in good standing, or permission of instructor. Required. (Y)
+Attributes: TE
+3 Credits
+EDUC 63000 Curriculum and Instruction in Elementary School Science
+This course focuses on the content and design of the science curriculum in the elementary school; current research, theory, and standards in science; strategies for science instruction, differentiation, and assessment; laboratory procedures and safety practices; and available resources. Integration of content-area literacy and technology. Emphasis on the development of an inquiry-oriented approach. Field experience required. Prerequisite: Graduate student in good standing, or permission of instructor. Required. (Y)
+Attributes: TE
+3 Credits
+EDUC 64000 Curriculum and Instruction in Elementary School Mathematics
+This course focuses on the content and design of the mathematics curriculum in the elementary school; current research, theory, and standards in mathematics; strategies for mathematics instruction, differentiation, and assessment; and available resources. Integration of content-area literacy and technology. Emphasis on children's conceptual understandings of mathematics and the development of pedagogical proficiency for using both "traditional" and "reform" math curricula. Field experience required. Prerequisite: Graduate student in good standing, or permission of instructor. Required. (Y)
+Attributes: TE
+3 Credits
+EDUC 65000 Curriculum and Instruction in Elementary School Language Arts and Literacy (NLA)
+This course focuses on the content and design of the language arts and literacy curriculum in the elementary school; current research, theory, and standards in literacy, strategies for literacy instruction, differentiation, and assessment; and available resources. Emphasis on reading processes, writing processes, word study (including phonemic awareness, word analysis, spelling, and vocabulary), listening, speaking, and dramatic expression. Integration of technology. Field experience is required. Prerequisite: Graduate student in good standing, or permission of instructor. (F, Y)
+Attributes: TE
+3 Credits

@@ -1,0 +1,30 @@
+URL: https://fcs.cornell.edu/facility-signage/building-name-1
+TITLE: Building Name 1 | Facilities and Campus Services
+FETCHED: 2026-11-06
+
+Building Name 1
+Location
+123 Campus Road
+Preferred Entrances
+How would you describe to someone that is visually impaired any type of restriction or modifications to the entrances?
+Enter the building using door two on the North side of the building from Campus Road
+Exit the building using door five on the East side of the building from Hoy Road
+For Dining:
+Please enter through atrium through ??? Hall from ??? Road......
+Directional Flow Considerations
+There is a clockwise rotation on the first floor.
+The center stair case in the atrium is used for moving to upper floors.
+The stair cases on the east and west are used for moving to lower floors.
+Building-Specific Info
+This will be a place holder about specific information about your building information.
+Restroom Protocols for this Building
+This will be special information about the restrooms within the building.  Such as single use, restricted stalls, etc.
+The restrooms on the first floor of this building have two stalls open, the first and second.
+The restrooms on the second and third floors are single occupant use only.
+Contact for More Information
+First Last
+email@cornell.edu
+607-555-1234
+Person Name
+email@cornell.edu
+607-555-1234

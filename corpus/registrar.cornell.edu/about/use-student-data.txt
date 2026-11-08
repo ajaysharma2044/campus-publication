@@ -1,0 +1,44 @@
+URL: https://registrar.cornell.edu/about/use-student-data
+TITLE: Use of Student Data | Registrar
+FETCHED: 2026-11-06
+
+Use of Student Data
+Student data is a university resource and must be used for university purposes only. As the custodian of academic data, the Office of the University Registrar is responsible for establishing or enforcing policies and procedures to protect data and ensure its appropriate use.
+FERPA
+-defined directory information is public-eligible and may be released without permission of the student (unless they have suppressed their directory information). Before directory information is released, thought should be given to the appropriateness of its intended use. For example, never provide email addresses for the purpose of solicitation or marketing.
+Other student information (non-directory information) should never be released to any outside organization or company, including those which may be acting as agents for the university.
+Storing and Sharing Data
+Data should be stored on a secure, password protected server. It may not be stored on a personal computer or removable storage device (including USB thumb drives, removable hard drives, CDs, etc.)
+Data, including grade rosters or individual grades, should never be sent via email or stored in a web service, such as Google Docs, that is not FERPA protected. When it is necessary to share student information and data, use the University
+Secure File Transfer
+. See the
+full list
+of campus IT services available to manage protected data.
+Grades and Graded Materials
+It is not appropriate to leave any student-identifiable graded papers, projects, or exams in a public place for students to pick up. If graded materials cannot be directly given to students in class, they may be placed in a sealed envelope in students’ mailboxes or distributed by an individual who can verify the student’s identity.
+Electronic or paper posting of grades by student names, NetID’s, or Social Security numbers is prohibited. If lists of grades must be posted, they should be listed by students’ Cornell 7-digit ID number. If students who do not want their student ID number used, a unique identifier known only to that student and the instructor may be posted. Posting of student grades within systems, such as Blackboard, that require individual students to authenticate in order to view their own grades is permissible. Instructors wishing to send grade rosters must use the University Dropbox.
+Median grade
+information is not calculated or made publicly available.
+Data Requests
+Student data may be available to members of the Cornell community who have a specific business need. Individuals should request access to data via the
+Special Request
+system. All requests must be reviewed and approved by the University Registrar. Requests to send bulk email may require approval of the Vice President for Student and Campus Life.
+In general, requests for student information that support student organizations or student/class research/projects will be denied.
+Please plan ahead when making requests for data. A minimum of 15 business days to fulfill your request should be anticipated. Requests for complex data sets may take longer to fulfill.
+The data is only for the use specified in the request. Do not share it with others or reuse it.
+Use of Student Data in Research
+In general, the Office of the University Registrar does not provide student data to support student or faculty research projects. The Office may provide anonymized data sets to faculty and other administrators who are conducting research on behalf of a college or department.
+Student-specific data may be provided to researchers who are conducting research projects approved by senior administration and the
+Institutional Review Board
+. Note that approval of the Institutional Review Board does not imply or guarantee access to student data. Review the policy on
+Access to Cornell Constituencies
+for more information.
+Faculty may use student exam, project, report, and homework grades for assessment and learning research and studies without permission of the University Registrar. Students should always be notified that their data will be used and should be given the opportunity to opt-out.
+Institutional Research & Planning
+conducts research and analysis in support of institutional planning, decision-making, and reporting obligations. The results of some research projects can be found on the Institutional Research & Planning website under Survey Research and
+University Factbook
+.
+Requests for Student Information from Individuals Outside Cornell
+Requests for student information from courts and attorneys, including those with a subpoena, should be forwarded to the
+Office of the University Counsel
+. Other requests, such as those from law enforcement or government agencies, bar associations, and businesses, should be forwarded to the Office of the University Registrar. As a private institution, Cornell is not required to provide information under the Freedom of Information Law.

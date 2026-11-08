@@ -1,0 +1,120 @@
+URL: https://registrar.cornell.edu/students/enrollment/common-enrollment-questions
+TITLE: Common Enrollment Questions | Registrar
+FETCHED: 2026-11-06
+
+Common Enrollment Questions
+The Electronic Student Add/Drop Enrollment Request and/or my Student Center is requesting me to enter the Class Number. How do I find this information?
+Class Numbers can be found in either the class roster or through your
+Student Center
+.  For further direction, please see our
+Locating a Class Number
+How-To!
+The class I wish to enroll in requires department and/or instructor permission. How do I receive the appropriate approval?
+Classes that require this consent are noted with a padlock on the Class Roster. Departments and/or Instructors have two options to allow enrollment in the class.
+Your contact for requesting permission to enroll in a class that has add consent depends on the add consent listed. To confirm the type of consent listed on a class, you can:
+Step One: Hover over the
+padlock
+in the Class Roster
+Step Two: Review the Enrollment Information in your Student Center Shopping cart.
+A Permission Number (commonly known as PIN number) can be given to a student by either the instructor or department coordinator (again, depending on the consent listed). The student is then able to enroll in the class through their
+Student Center
+using the Permission Number.
+Need additional guidance on how to use the Permission Number in your
+Student Center
+? Please see our
+Using a Permission Number
+How-To!
+I want to make a change to my current enrollment in a class. Can I do this through my Student Center?
+Yes, as long as you have an active enrollment appointment, you can make most changes to your enrollment directly through your
+Student Center
+.  These changes include — dropping a class, swapping a class, or editing grade option and/or units (where applicable). Below are a few reasons why you might not be able to make a change directly through your
+Student Center
+:
+Instructor or Department Consent is required.
+Class is closed.
+Time conflict with a class you are already enrolled in.
+Enrollment request/change will cause you to go over the maximum credit hours.
+Once your enrollment appointment has closed, please contact your
+College or School Registrar office
+for further guidance.
+My class enrollment request was unsuccessful and I have received an error message. What are my next steps?
+Please review our list of
+Common Enrollment Errors
+for clarification on the error and what your next step should be.
+If the error message that you have received is not listed, please reach out to either your
+College or School Registrar office
+or the Curriculum and Scheduling Team in the University Registrar’s Office at
+coursenroll@cornell.edu
+.
+How do I verify my enrollment appointment through my Student Center?
+You may verify your enrollment appointment through the homepage of your
+Student Center
+under
+Enrollment Dates
+. In the
+Enrollment Dates
+section, you may also select
+Details
+for further information regarding the add and/or drop deadlines and credit maximums for the term.
+During my enrollment appointment, I will not have access to the internet. How can I enroll for my classes?
+Please reach out to your
+College or School Registrar office
+for guidance.
+I have an active enrollment appointment but am still unable to make changes to my class schedule (add, drop, change units or credits)?
+If you are unable to enroll in or drop classes, check for holds in the holds box on your
+Student Center
+home page.
+If you have a hold, f
+or additional information regarding the hold on your account, please see
+University Record Holds
+.
+If you do not have any holds on your student record, please reach out to the Curriculum and Scheduling Team in OUR,
+coursenroll@cornell.edu
+, or to you
+r
+College or School Registrar office
+for assistance.
+I would like to use the My Shopping Cart feature through my Student Center. Is this allowed? What additional steps must I take to ensure I am enrolled in the classes during my active enrollment period?
+Yes, you may use the My Shopping Cart feature that is available through your
+Student Center
+prior to your enrollment appointment. Once you have an active enrollment appointment, you
+must
+complete the actual enrollment process through your
+Student Center
+to request enrollment in the classes that are in your shopping cart.
+Important!
+Class details may change after you add the class to your shopping cart.
+Use of the shopping cart does not save you a spot in the class nor does it guarantee that you will be able to take the class.
+The class I wish to enroll in has a wait list. How do I add myself to the wait list? How do I drop myself from the wait list?
+Adding yourself to a wait list:
+Check the
+Wait List
+checkbox on the
+Select classes to add — Enrollment Preferences
+screen in your
+Student Center
+.
+Not sure if a class has a wait list? When performing a Class Search within
+Student Center
+, you can click on the
+Section
+to view details.
+Under
+Class Availability
+you can view the
+Wait List Capacity
+on the class section. If the capacity is '0', there is not a wait list. Any number greater then ‘0’ indicates a wait list is available.
+Dropping yourself from a wait list:
+Simply perform a
+drop transaction
+through your
+Student Center
+.
+What are the enrollment (add/drop) deadlines for classes?
+Deadlines are different depending on the academic session and can be found on the
+Academic Calendar
+.
+The enrollment (add/drop) deadline has passed and I need to make a change to my schedule. What do I do?
+Reach out to your
+College or School Registrar office
+for next steps.

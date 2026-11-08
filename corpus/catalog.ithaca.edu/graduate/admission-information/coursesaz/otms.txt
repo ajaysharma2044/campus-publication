@@ -1,0 +1,238 @@
+URL: https://catalog.ithaca.edu/graduate/admission-information/coursesaz/otms/
+TITLE: Occupational Therapy-Grad (OTMS) < Ithaca College
+FETCHED: 2026-11-08
+
+Occupational Therapy-Grad (OTMS)
+OTMS 50000 Functional Human Anatomy
+Study of the gross anatomical components of the human body through the use of lecture and lab activities without dissection. Emphasis is placed on the musculoskeletal and neurovascular systems found in the extremities, and in the head and neck trunk, with less emphasis on the thorax and abdominal walls. (SU,Y)
+5 Credits
+OTMS 50500 Occupational Therapy Theory
+Occupational therapy process, principles, and theory are introduced and explored with a focus on clinical reasoning and models of practice. Occupation as the core of practice, its elements as they are viewed today, and their historical and philosophical background are discussed. The analysis, synthesis, and implementation of occupations for use in assessment and intervention are practiced through experiential labs and assignments. Methods for the evaluation and critique of existing and emerging theories are applied to selected theoretical models of practice. (SU,Y)
+4 Credits
+OTMS 51000 Neuroscience
+Introduction to the science of the nervous system. Provides a framework for understanding the nervous system and the area of applied neurosciences. This course provides a scientific basis for improved patient care by clarifying the relationships between the nervous system and behavior. Selected laboratory and experiential activities enhance lecture, discussion, and reading materials. Prerequisites:
+OTMS 50000
+. (F,Y)
+3 Credits
+OTMS 51100 Evidence in Occupational Therapy I (NLA)
+Focuses on the use of evidence to inform occupational therapy practice. Develops strategies to identify, locate, and critically examine sources of evidence. Emphasizes the value of a diversity of sources to guide professional decision making. Compares quantitative and qualitative methodologies for answering clinical questions. (Y)
+3 Credits
+OTMS 52000 Kinesiology
+The application of gross anatomy to the study of human movement, with emphasis on understanding the interrelated kinetics of normal motion of the musculoskeletal system as they influence functional activities. Evaluation procedures such as manual muscle testing (MMT), joint range of motion (ROM), palpation of surface anatomy, and kinesiological analysis of functional activities are used in laboratory sessions. Evidence-based practice in kinesiological assessment and intervention will be emphasized through advanced research projects. Prerequisites:
+OTMS 50000
+. (F,Y)
+4 Credits
+OTMS 52200 Psychiatry in Occupational Therapy
+This course will explore the psychiatric conditions that are commonly seen in clinical and community settings. The effects of diagnoses and challenges of medication side effects will be reviewed in detail, including how these conditions affect body functions and structures and common functional limitations. Pertinent medical assessments, medicines, and team involvement will be included. Particular attention will be paid to dual or multi-diagnosis and multi-medication regimens and the challenges these scenarios present. A specific focus will include the role of support networks, including peer and consumer organizations and their role in mental health services and information sharing. An emerging practice-focused literature search will enable the student to search the Internet and other resources for diagnostic information, latest research and practice information, and related material. This paper will provide the foundation for a community-focused project that will connect students with community-based resources and needs. (W,Y)
+3 Credits
+OTMS 53000 Applied Interventions in Occupational Therapy
+Focus on selected preparatory and supporting methods used in OT practice. Emphasis is on selected occupational therapy intervention methods. The use of orthotics as a method in intervention supporting occupational therapy practice, the evaluation and intervention of selected biomechanical components, and prosthetics as an occupation-based activity are explored. Adaptation of methods for performing activities of daily living and design of equipment are also covered. Prerequisites:
+OTMS 57100
+;
+OTMS 52000
+. (S,Y)
+0-3 Credits
+OTMS 53500 Group Process in Occupational Therapy
+This course focuses on therapeutic use of self in group relationships. Emphasis is on an action-based, helping, problem-solving model to guide individual interventions. Provides the cognitive, affective, and occupational basis to helping groups for various client populations and settings across the lifespan. Presents knowledge and experiential opportunity to gain skills to be a competent group leader using proven models of intervention. Emphasis will be placed on best practices across settings with a foundation in current research. Lecture and lab format. (S,Y)
+4 Credits
+OTMS 54000 Concepts in Adult Occupational Therapy (NLA)
+Concepts in occupational therapy for the adult population will be explored. Practice models that are suitable for the adult client population will be addressed within the context of the occupational therapy process. Includes a case based seminar to integrate theory with practice. Prerequisites:
+OTMS 50000
+;
+OTMS 50500
+. (F,Y)
+4 Credits
+OTMS 54500 Concepts in Pediatric Occupational Therapy (NLA)
+Concepts in occupational therapy for the pediatric population will be explored. Practice models that are suitable for the pediatric client population will be addressed within the context of the occupational therapy process. Includes a case based seminar to integrate theory with practices. Prerequisites:
+OTMS 50000
+;
+OTMS 50500
+. Corequisites:
+OTMS 55500
+;
+OTMS 57500
+. (S,Y)
+4 Credits
+OTMS 55000 Adult Evaluation and Intervention Processes in Occupational Therapy (NLA)
+The occupational therapy evaluation and intervention processes for the adult population will be explored. This includes development of an occupational profile of the client and conducting an analysis of occupational performance. The intervention phase involves implementation and re-evaluation of the intervention plan. The course includes a clinical fieldwork experience. Prerequisites:
+OTMS 50000
+;
+OTMS 50500
+. Corequisites:
+OTMS 52000
+;
+OTMS 51000
+;
+OTMS 57100
+;
+OTMS 54000
+. (F,Y)
+3 Credits
+OTMS 55500 Pediatric Evaluation and Intervention Processes in Occupational Therapy (NLA)
+The occupational therapy evaluation and intervention processes for the pediatric population will be explored. This includes development of an occupational profile of the client and conducting an analysis of occupational performance. The intervention phase involves implementation and re-evaluation of the intervention plan. The course includes a clinical fieldwork experience. Prerequisites:
+OTMS 50000
+;
+OTMS 50500
+. Corequisites:
+OTMS 54500
+;
+OTMS 57500
+. (S,Y)
+3 Credits
+OTMS 56500 Research Seminar
+A graduate seminar to focus student research in an area of faculty interest through a critical review of the literature and construction of structured research paper. Students develop a problem statement and question suitable for thesis research, supported with background, definitions, rationale, and a detailed outline of a research methodology. Oral presentation of a research proposal is required. (S,Y)
+1 Credit
+OTMS 57100 Adult Clinical Conditions (NLA)
+A study of selected systemic, medical-surgical, orthopedic, and neurological conditions. Includes concepts in the identification, definition, and medical management of these conditions affecting adults and older persons. Emphasis is placed on integration of etiology, pathology, and medical treatment of selected conditions with emerging evidence research and practice recommendations across disciplines, focusing on implications for future occupational therapy practice. (F,Y)
+3 Credits
+OTMS 57500 Pediatric Clinical Conditions (NLA)
+This course will explore the pediatric conditions that are commonly seen by occupational therapists. Clinical settings where children may be seen will be introduced and discussed. Pediatric diagnoses will be reviewed in detail, including body functions and structures and common functional limitations. Pertinent medical assessments, medicines, and team involvement will be included. A literature-enhanced paper will enable the student to search the Internet and other resources for diagnostic information, latest research information, and related material. Prerequisites:
+OTMS 50000
+;
+OTMS 51000
+. (S,Y)
+2 Credits
+OTMS 59800 Special Topics in Occupational Therapy
+Formal instruction in topics of current interest to graduate students and faculty in occupational therapy. Experimental and topical courses will be offered under this number and title. Course may be repeated for credit for different selected topics. Prerequisites: Permission of instructor. (IRR)
+1-3 Credits
+OTMS 60000 Clinical Fieldwork II - Children and Adolescents
+Three months of full-time, supervised clinical experience with the opportunity to treat pediatric patients/clients. Assignment in a training center program approved in accordance with the American Occupational Therapy Association's standards of practice for occupational therapy education. Required course. Satisfactory/unsatisfactory only. (Sum,Y)
+6 Credits
+OTMS 60200 Advocacy and Population Health (NLA)
+Expands knowledge and awareness of the occupational therapy process using a broad lens of cultural humility, sustainability, epidemiology, and social determinants of health. Critically examines contextual factors, including federal and state legislation/regulations/policy issues on persons, groups, and populations of diverse and intersecting identities. Explores the impact access to community resources and delivery of occupational therapy services within community and primary care programs have on the health and wellness of persons, groups, and populations. Focuses on the importance of advocacy and how political and societal changes impact occupational and social justice. (Y)
+3 Credits
+OTMS 60300 Leadership and Professional Advancement (NLA)
+Examines key fundamentals for managing service delivery, including business aspects of practice, program and resource management, staff development, marketing, and quality management and improvement. Supports the development of plans for professional advancement within the field of occupational therapy through application of leadership theories and principles. Includes supervisory roles, interprofessional collaboration, national and state requirements for credentialing and licensure, and preparation for professional presentations. Prerequisites:
+OTMS 60200
+. (Y)
+3 Credits
+OTMS 60400 Evidence in Occupational Therapy II (NLA)
+Reviews basic quantitative statistics to analyze quantitative data and basic qualitative methods to analyze and synthesize qualitative data. Explores ideas about rigor in research and ethical questions related to research design. Examines the history and current practices related to human subjects’ research review. Prerequisites:
+OTMS 51100
+. (Y)
+3 Credits
+OTMS 61200 Complementary Health Approaches, Integrative Health, and Occupational Therapy (NLA)
+This elective explores personal health perspectives, occupational therapy education, and occupational therapy practice through the lens of diverse health approaches and integrative health. Knowledge of mind and body practices that occupational therapy clients’ use and how these complementary health approaches are being integrated into occupational therapy plans of care is expanded through active and experiential learning opportunities, review of professional documents, and current literature. (S)
+Attributes: OTGE
+2 Credits
+OTMS 62000 Advanced OT Theory and Practice
+Examination and critique of definitions, philosophy, generic base, and concepts in occupational therapy. Occupational therapy theory development, structure, and function are analyzed and critiqued as they relate to basic assumptions, frames of reference, and implications for practice and research. Focus is on research and theory development, and the application to theory to occupational therapy practice. (S,Y)
+3 Credits
+OTMS 62500 Clinical Management in Occupational Therapy
+This course focuses on the practice of efficient and effective administration in a health care setting. Focus includes health systems perspective; service delivery models and mechanisms; service management of various clinical settings; resource management of personnel, finances, materials, and physical plant; and risk management. (S,Y)
+3 Credits
+OTMS 62600 Professional Practice in the Community
+Focuses on practice in educator, consultant, and advocacy roles in emerging areas of OT practice as well as nontraditional alternatives. Also examines transition to professional role in the community, including career development, professional responsibilities, current trends and issues, and engaging in clinical education. Prerequisites:
+OTMS 66500
+. 3 credits. (S,Y)
+3 Credits
+OTMS 63900 Graduate OT Clinic (NLA)
+This graduate elective course will allow students the opportunity for observation, participation, supervision of undergraduate students, and management of clinical cases provided through the Ithaca College affiliated Occupational Therapy Clinic with faculty supervision. Treatment of occupational therapy clients, as well as participation in other occupational therapy-related services provided by the clinic will be the focus of this course. The clinic will provide students with an experiential learning opportunity, while serving the needs of clients in the college and community. (F,S,U,Y)
+0-1 Credits
+OTMS 64100 Adaptation and Environmental Modification (NLA)
+Study of theories regarding human behavioral adaptation and development of skills to modify physical, emotional, social, and cultural environments to promote appropriate behavioral adaptations that facilitate engagement with the tasks that comprise life roles. Methods of environmental assessment and techniques for modification of physical spaces and equipment, temporal structures, and patterns of use are examined. (S,IRR)
+Attributes: OTGE
+2 Credits
+OTMS 64300 Cognitive Rehabilitation (NLA)
+This course will closely examine occupational therapy assessments and interventions for persons with cognitive dysfunction. Evaluation instruments are derived from various theoretical perspectives. The focus is on assessment and intervention with brain-injured adults, but other patient populations are also considered. Intervention strategies and critical analysis of research are emphasized. Multiple disciplines addressed for a comprehensive approach and understanding of cognitive rehabilitation in the clinical setting.
+Attributes: OTGE
+2 Credits
+OTMS 64500 Vocational Readiness (NLA)
+The role of occupational therapy in the vocational readiness process. Includes a review of vocational development and values, theoretical models, assessment, planning, treatment, and documentation. Vocational programming for children, adolescents, and adults with a variety of disabilities is discussed. Laboratory activities in vocational assessment and training are included. (S,IRR)
+Attributes: OTGE
+2 Credits
+OTMS 64600 Play and Leisure (NLA)
+Further exploration of the occupational concepts of play and leisure and their application to occupational therapy theory and practice. Developmental, theoretical, cultural, and philosophical aspects of play in normal individuals and individuals with disabling conditions. Use of play/leisure in assessment, play as means, and play as end in occupational therapy practice. Seminar and discussions are supplemented with experiential learning and laboratories. (S,IRR)
+Attributes: OTGE
+2 Credits
+OTMS 65000 Advanced Pediatric Evidence Based Practice (APEBP) (NLA)
+The use and application of current theory and evidence related to neuroscience in occupational therapy practice with the pediatric population. This advanced practice course incorporates experiential opportunities in both the lecture and laboratory settings. Elective alternative to
+OTMS 65000
+. Prerequisites:
+OTBS 41000
+or
+OTMS 51000
+. (F,Y)
+3 Credits
+OTMS 65100 Advanced Adult Evidence Based Practice (AAEBP) (NLA)
+The use and application of current theory and evidence related to neuroscience in occupational therapy practice with the adult population. This advanced practice course incorporates experiential opportunities in both the lecture and laboratory settings. Elective alternative to
+OTMS 65100
+. Prerequisites:
+OTBS 41000
+or
+OTMS 51000
+. (F,Y)
+3 Credits
+OTMS 65500 Technological Interventions in Occupational Therapy (NLA)
+Examines the role of occupational therapists as part of an interdisciplinary team in the assessment, selection, application, and outcome of assistive technology for individuals with disabilities. Considers the use of technology to allow greater accessibility and independence for people of all ages with physical, sensory, and cognitive disabilities in the performance of life skills, including self-care, education, recreation, vocation, mobility, and communication. Prerequisites:
+OTMS 57100
+or
+OTBS 47100
+and
+OTMS 57500
+or
+OTBS 47500
+. (F,Y)
+3 Credits
+OTMS 66500 Gerontic Occupational Therapy
+Health care and community support of wellness, occupational performance, and quality of life as they relate to the needs of people over 65. Includes skills and knowledge required to work effectively in interdisciplinary teams -- with clients and caregivers, as individuals, and in groups. Disease and disability prevention, environmental adaptation to facilitate continuing engagement in occupations, factors contributing to successful aging, and legislative and reimbursement issues as they apply to service delivery with the elderly. Students participate in discussions, problem-solving seminars, interaction with well and frail elderly, and review of the current literature regarding effective practice with the elderly. Prerequisites:
+OTMS 54000
+or
+OTBS 44000
+. (F,Y)
+Attributes: SL
+3 Credits
+OTMS 67100 Group Research I
+A research course for students who do not elect to conduct individual research for a thesis. It includes the reading and criticism of research related to a faculty-designed research project, collecting and analyzing data, and the writing of results and discussion of findings of the project. Elective alternate to
+OTMS 67300
+. (F,Y)
+3 Credits
+OTMS 67120 Group Research II
+This is a research course for students who did not elect to conduct individual research for a thesis (elective alternative to
+OTMS 67300
+). It covers the process of completing and reporting a designed research project. This course follows OTMS 67110, wherein students have initiated the research process. This course will allow students the opportunity to complete data collection, analyze, discuss, and report findings both orally and in writing. (S)
+3 Credits
+OTMS 67200 Individual Thesis Research I (NLA)
+Preparation of a thesis proposal and the first three chapters (introduction, literature review, and methodology) of an independent, scholarly research paper under the supervision of a member of the graduate faculty in occupational therapy. Data collection is initiated. The graduate committee must approve the proposal. Prerequisites:
+OTBS 46500
+or
+OTMS 56500
+. (F,Y)
+3 Credits
+OTMS 67300 Individual Thesis Research II
+Completion of independent research, including collecting data and analyzing results. Preparation of a scholarly research paper under the supervision of a member of the graduate faculty in occupational therapy. An oral presentation of the thesis is required. Elective. (S,Y)
+3 Credits
+OTMS 68400 School-Based Occupational Therapy (NLA)
+Exploration of the current trends in occupational therapy practice in schools. Includes the individual educational plan (IEP) process, the education team and system, treatment implementation, and documentation methodologies appropriate to school systems. Programming for children from birth to age 21 is included. (S, IRR)
+Attributes: OTGE
+2 Credits
+OTMS 68500 Hand Therapy (NLA)
+Seminar on the knowledge, skills, and practices of hand therapy and rehabilitation. Hand injuries and surgery, use of physical agent modalities in hand therapy, treatment protocols, advanced splinting, and ethical and legal issues are covered. (S,Y)
+Attributes: OTGE
+2 Credits
+OTMS 68800 Occupational Therapy in Early Intervention (NLA)
+A study of the impact of biological, psychological, and sociocultural factors on the occupational development of young children with disabilities. Practice skills in assessment and family-centered intervention for infants and toddlers with disabilities and their families. (S,IRR)
+Attributes: OTGE
+2 Credits
+OTMS 69000-69001 Clinical Fieldwork II - Adult/Geriatric
+Three months of full-time, supervised clinical experience with the opportunity to treat adult/geriatric patients. Assignment in training center programs approved in accordance with the American Occupational Therapy Association standards of practice for occupational therapy education. Required course. Satisfactory/unsatisfactory only. (April-June,Y)
+6 Credits
+OTMS 69500 Clinical Fieldwork II - Elective Specialty
+Two or three months of full-time, supervised clinical experience with opportunity to plan, implement, and evaluate treatment for patients or clients in a specialty area selected by the student in consultation with the fieldwork coordinator. Required course. Satisfactory/unsatisfactory only. Prerequisites:
+OTMS 60000
+;
+OTMS 69000
+. (SU,Y)
+4 Credits
+OTMS 69600 Elective Internship
+An eight-week, full-time (or equivalent) internship that provides the opportunity for the student to apply occupational therapy theory and principles in a nontraditional setting under the supervision of a person with demonstrated competence in a specialized area of consultation or service delivery. Alternative to
+OTMS 69500
+. Prerequisites: Successful completion of all courses in the graduate program and Clinical Fieldwork II (
+OTMS 60000
+and
+OTMS 69000
+). (SU,Y)
+4 Credits
+OTMS 69900 Graduate Independent Study
+Individual research and writing in an area of occupational therapy practice, research, or theory under supervision of an occupational therapy faculty member. An approved design statement is required upon registration. Prerequisites: Permission of supervising faculty member, graduate department chair, and dean. (F,S,SU)
+1-3 Credits

@@ -1,0 +1,88 @@
+URL: https://as.cornell.edu/news/alumni-startup-making-student-votes-count
+TITLE: Alumni startup: making student votes count
+FETCHED: 2026-11-06
+
+Alumni startup: making student votes count
+Alumni
+By |
+Linda Copman
+8/13/2020
+Juliana Bain ’20, Noe Abernathy ’20, and Devki Trivedi ’20 met during their first year at Cornell. Bain and Trivedi lived in the same dorm (floor 5 of High Rise 5), and Bain and Abernathy shared a house together for most of the next three years. Today, the trio are part of the core team behind
+Voteology
+, a startup focused on motivating college students to vote.
+According to the US Census Bureau,
+only 46.1 percent of young voters ages 18 to 29 voted
+in the last presidential election in 2016. The Voteology team has set an ambitious goal to reach 50 colleges and help 500,000 students register to vote before the 2020 election on November 3.
+“Our nearest-term mission is welcoming the next generation into political empowerment,” says Bain, who was a math and computer science double major in the College of Arts and Sciences. “For now, we are focused on the one thing we do better than anyone else: determining the objectively better, more impactful location to vote for a given election cycle.”
+Because many students can choose to vote in either their home or school districts, Voteology helps them make this choice strategically, based on where their vote will have the greatest impact. For example, based on Voteology’s algorithm, a Cornell student might choose to vote from their home state in VA-08, rather than voting at school in NY-23. The tool is non-partisan and is not partial to a certain political leaning.
+Clockwise from top left: Abernathy, Bain, and Trivedi applying for the “Pitch for the People” competition through Cornell’s Center for Technology Licensing.
+This is a passion project for the three recent graduates. Bain,
+who founded Voteology in her senior year at Cornell
+, will soon start a new job at Twitter. Abernathy, who serves as Voteology COO, works for the Pennsylvania Democratic Committee, and Trivedi, who serves as CTO, works for Google.
+Time is of the essence
+Time is of the essence, given a
+recent estimate in the New York Times
+that “as many as eight million Americans in 16 states will have already started voting by September 29, when the candidates are scheduled to meet for the first debate.” Bain points out that the
+majority of U.S. states have an early October deadline
+for voter registration.
+The team is targeting their efforts in four swing states—Wisconsin, Michigan, Florida, and Pennsylvania—and in states with significant student populations, including North Carolina, Virginia, and Arizona.
+“We’ve compiled a list of around 100 schools in key states that will be the most impactful this fall,” says Bain. For example, the Michigan list includes Michigan State University, University of Michigan, Wayne State University, Central Michigan University, Grand Valley State University, Western Michigan University, Eastern Michigan University, Oakland University, and Ferris State University.
+“We believe that raising awareness and the political-IQ of new voters raises the probability of them following through and delivering their vote on election day,” says Bain.
+Voteology also provides links to voter registration information and offers opt-in communications to remind students of registration deadlines and polling locations in their states, as well as information about new candidates in their districts.
+Going viral is the key
+The site has now logged several thousand users, and the team is focused on upping their “viral coefficient,” or the number of people with whom each user shares the site. “We hope that students using the site and posting the result of their comparison will encourage their peers to follow suit,” says Abernathy.
+Their latest TikTok received 28,300 views, 5,000 likes, and resulted in over 300 new users in just 48 hours. Miranda Philps from the University of Wisconsin runs Voteology’s TikTok.
+To achieve their goal of 500,000 enfranchised participants, the team has also been developing digital artifacts that students can share. Stella Sotos from the University of Virginia has designed a collection of shareable graphics on the
+Voteology Instagram page
+. The team is currently working on digital artifacts that will be custom-generated for each user, based on where they choose to register—at home or at school.
+The team is also developing an informational packet for Resident Advisors to share with incoming first-year students and launching a campus ambassador program later this month. Abernathy encourages students to “follow our socials @voteologyorg to be the first to know when the application for our ambassador program is live.”
+“I think there’s a myth that college students are apathetic,” says Abernathy. “In reality, our passion for issues runs deep on such topics as the environment, equality in all its dimensions, and preventing gun violence.”
+She points out that there are many distractions and competing demands for college students, especially for those who may be living away from home for the first time. Abernathy talks to student voters every day in her work as a field organizer for the Pennsylvania Democratic Committee.
+“When I talk to a college student who doesn’t know whether to vote or not, or whom to vote for, I ask them, ‘What do you care about?’ We don’t get to vote on every bill or law that gets passed, which is why it is imperative that we vote for candidates that we believe will vote with our best interests at heart,” Abernathy says.
+Abernathy reports that the first- and second-year college students she’s talked to are really excited to vote in 2020 because this is their first election. She says that many Cornellians, both students and alumni, have reached out to her to volunteer to help with the upcoming election. “It really delights me to see how politically engaged Cornellians are,” she says.
+Cornellians are stepping up
+The team is grateful to the Cornell community for supporting the evolution of Voteology over the past year.
+“I’d really like to give a big shout out to Sandy Khaund for very timely guidance and support through the
+Weiji Summer Foundry
+,” says Bain. “Weiji provided validation of the importance of our mission, a community to share our highs and lows with, and an opportunity to help others and be helped by others,” she says.
+In late July, Bain, Abernathy, and Trivedi submitted their project to the “
+Pitch for the People
+” competition hosted by Cornell’s Center for Technology Licensing. This virtual competition allows Cornellians to pitch an idea that solves a social problem. If the team is selected, they could receive up to $2,000 in funding.
+The team encourages Cornell alumni to share Voteology with prospective voters, including their direct or extended family, and even neighbors.
+A passion for democracy
+In the longer term, the team hopes to obtain non-profit status and scale up to address what they call “the correctable flaws” that reduce the equality and stability of America’s democracy.
+“Our big-picture vision is to draw attention to the disparity in the empirical values of votes across districts and states in America, which is due to gerrymandering and electoral-college driven inequality,” explains Bain.
+Juliana Bain ’20 founded Voteology in the spring semester of her senior year at Cornell.
+She believes that this disparity is critically important. “Every American and every free person should be concerned with the fact that democracy as a central pillar of the social contract of Homo sapiens is being overtly challenged in the world by authoritarian models,” she says. “The right to participate in our own governance in a way that strives for equality is a cornerstone of our form of government. Full stop.”
+Bain is quick to point out that Voteology today is “just a nifty app and an energetic community.” “Not to get ahead of our skis or too big for our britches, we will be very glad if Voteology can simply highlight a metric or two against which democracies can self-improve.”
+100 Years Strong: a woman’s right to vote
+The Cornell Women’s Advocacy Network, the Mary Kennedy Brown Society, and the President’s Council of Cornell Women invite you to join
+100 Years Strong
+on Tuesday, August 18, from noon to 1:00 p.m. EDT. This panel discussion marks the 100th anniversary of the ratification of the 19th amendment, which granted American women the right to vote. Panelists will talk about the evolution and impact of women voting in America and Cornell’s role in the women’s suffrage movement.
+Read the story on the
+Cornell Alumni website
+.
+More News from A&S
+Victoria Smith/Laude
+Members of the Cornell “Moonshot” lab will develop a novel infrastructure to ensure trust in online communication. From left: Natalie Bazarova, Robert Kleinberg, Cristian Danescu-Niculescu-Mizil, Jon Kleinberg, David Rand and Mor Naaman.
+Project to rebuild trust in AI era lands Laude’s $10M ‘moonshot’ award
+Psychology
+11/6/2026
+Cornell Chronicle
+Courtesy of Demo Lab Foundation
+From left: Marian Vidaurri, Rachel Riedl, Nia Demming at the July Cornell Tech event.
+‘Train the trainers’ event convenes democracy leaders, educators, activists
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+Sheryl Sinkow/Cornell University
+(From left to right): Professors Stewart Schwab, Oumar Ba, Nelson Tebbe, Mildred Warner, and Natasha Raheja.
+Scholarly leadership to protect and strengthen democracy
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+New book details history of sound’s claim on our attention
+Music
+11/6/2026
+A&S Communications
+View all news

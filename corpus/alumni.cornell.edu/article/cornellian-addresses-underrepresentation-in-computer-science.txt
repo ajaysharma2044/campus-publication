@@ -1,0 +1,44 @@
+URL: https://alumni.cornell.edu/article/cornellian-addresses-underrepresentation-in-computer-science/
+TITLE: Cornellian addresses underrepresentation in computer science - Alumni, parents, and friends | Cornell University
+FETCHED: 2026-11-06
+
+Cornellian addresses underrepresentation in computer science
+Members of Underrepresented Minorities in Computing at Cornell in early 2020, at the last event held under the leadership of Jehron Petty '20 and Rami Abdou '20.
+By
+Kaitlin Provost
+November 23, 2020
+Jehron Petty ’20 doesn’t shy away from a problem. After realizing during his time at Cornell that there was underrepresentation of Black and Latinx students in engineering and computer science, he set out not only to change that at his alma mater, but at universities around the country.
+“It motivated me to look at the problem and try to figure out what’s going on,” Petty says. “I really wanted to move the needle within an environment I could influence.”
+Turning an idea into reality
+After graduating, Petty founded
+ColorStack
+, which works to increase entrance, retention, and success of Black, Latinx, and Native American computer science students. So far, the platform has connected more than 1,000 students from different universities. Students connect in an online community that Petty says can help further not only their college experiences, but their career paths, too.
+Jehron Petty ’20
+The idea for ColorStack came from
+Petty’s work on Cornell’s campus as a student
+, where he was co-president of
+Underrepresented Minorites in Computing at Cornell
+(URMC). While part of this club, aimed at supporting and inspiring students of color in computing, Petty began mentoring other students. His outreach efforts helped to triple club membership.
+Seeing that success, Petty says, and “hearing from other campuses how rare it was, convinced me this was something more impactful than I realized. I thought, ‘Let’s bring this experience around the country.’”
+ColorStack, founded on that idea, houses an open Slack community, campus chapters, and fellowships. Because of COVID-19 restrictions, some of these chapters and fellowships have not been able to launch, but Petty hopes they will do so as restrictions begin to lift. He’s excited about the first fellowship, hopefully kicking off later this spring.
+“I really want to get back to working with schools and working with students on campus,” he says. “I want to see us track participation and retention in computer science programs across the country. I want to know our work is impactful at scale.”
+Power of the network
+The success of ColorStack so far can be attributed to Petty’s hard work, perseverance despite challenges presented by the pandemic, and the power of networking.
+“As you meet more people, dots start to connect,” he says. “Community isn’t just 100 people in a group chat—it’s the people you’re connecting with on an intimate level. That’s something we’ve baked in [to ColorStack] from day one. Our motto is ‘Community First.’”
+Petty’s own network enabled him to found ColorStack in 2020. Among others, Makinde Adeagbo, the founder of
+devcolor.org
+and now a member of ColorStack’s board, became a mentor to Petty and encouraged Petty to turn his idea for increasing retention and success of Black computer science students at Cornell into a national nonprofit. Through weekly calls, Petty was able to bounce ideas off of Adeagbo and get advice about funding, partnerships, and sponsorships, and turn his business plan into a functional company.
+Community isn’t just 100 people in a group chat – it’s the people you’re connecting with on an intimate level.
+—Jehron Petty '20
+Petty says his story is a testament to the power of networking. “[Adeagbo] convinced me that I could do it,” he says. “At the end of the day, your network is going to do much more for you than you know,” Petty says.
+Rami Abdou ’20, left, and Jehron Petty ’20, former co-presidents of Underrepresented Minorities in Computing at Cornell.
+Petty hopes the connections ColorStack fosters between computer science students will continue to increase over the next five years. The company is already on track to make this happen. While growth has been different than expected this year due to the pandemic, this time has provided an opportunity for the company to look hard at their market and make adjustments.
+“There are always lessons to be learned when things don’t go the way you want them to,” Petty says. “Because we were forced to start without campus chapters, we were forced to learn where the majority of these students are. The demand for what we’re building wasn’t necessarily coming from the schools I was going to target – it’s the mid-tier schools that are often overlooked. These students are really hungry for a program like this and want to feel seen.”
+ColorStack is poised to help thousands of Black, Latinx, and Native American computer science students across the U.S. be successful in their careers—thanks to a commitment to helping each individual person who asks for help.
+Categories
+Alumni news
+Alumni profile
+Tags
+Diversity
+Students
+Young Alumni

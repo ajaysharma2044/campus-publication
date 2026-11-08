@@ -1,0 +1,52 @@
+URL: https://as.cornell.edu/news/student-spotlight-manisha-munasinghe
+TITLE: Student Spotlight: Manisha Munasinghe
+FETCHED: 2026-11-06
+
+Student Spotlight: Manisha Munasinghe
+Molecular Biology and Genetics
+By |
+Staff
+,
+Cornell University Graduate School
+6/29/2020
+Manisha Munasinghe is a doctoral candidate in computational biology from Troy, Michigan. After earning a bachelor’s degree at Michigan State University, she chose to pursue further study at Cornell due to the variety of engaging research and its community of scholars.
+What is your area of research and why is it important?
+A foundational question in evolutionary biology is the origin and maintenance of distinct species. The biological species concept frames this process as the accumulation of genetic variants between populations that ultimately lead to their inability to produce fertile offspring, also known as reproductive isolation. My research focuses on exploring the genetic, behavioral, and environmental factors that contribute to speciation. I do this by integrating theory and computer simulations with large-scale, empirical datasets to model genetic processes and identify genes underlying reproductive isolation. We have demonstrated how genes with differential transmission from parent to offspring can interact with each other to generate reproductive barriers.
+What are the larger implications of this research?
+Fields such as agriculture and conservation genetics routinely seek to integrate useful genetic variants from closely related species to increase the health or fitness of a key population. Exploring the genetic underpinnings of reproductive isolation is key to advancing these techniques as it allows a more robust prediction of the fitness of offspring between two species. A better understanding of the potential genetic barriers to wide crosses between populations will improve our ability to fully and efficiently harness existing genetic diversity to improve crop and animal species.
+What inspired you to choose this field of study?
+A species is a fundamental unit in biology, yet it is still unclear to us how and why new species form. Advancements in genetic modeling and sequencing technology allow us to explore these questions in novel ways. I chose this field of study because it really gets to the heart of one of the most interesting questions in biology: why is there such an incredible diversity of species on this planet?
+What does it mean to you to be a Bouchet scholar?
+It is our responsibility, as those who hold power within academic communities, to advocate for the creation of inclusive, accessible spaces for all students, faculty, and staff, and it is an incredible honor to join a community of scholars working towards this goal. Becoming a Bouchet scholar is making a commitment not only to scholarly excellence but also to building a diverse and equitable environment. It is incredibly humbling to join a network of individuals who are both excellent scholars and incredible advocates for equitable policies.
+How do you exemplify the five pillars of the Bouchet Society – character, leadership, advocacy, scholarship, and service?
+A true commitment to inclusion and equity requires the removal of structural barriers to student success, both by investing financially in programs that support underrepresented communities and by rewriting academic policy that disproportionately affects certain students. Throughout my two years on the Graduate and Professional Student Assembly Executive Committee and my current position as a student-elected member of Cornell’s Board of Trustees, I have routinely advocated for new policies such as mandatory TA training in inclusive pedagogy, increasing accessibility of university websites for those with visual impairments, and dedicated mental health resources for graduate students.
+What are your hobbies or interests outside of your research or scholarship?
+Outside of my research, I love gardening and taking care of house plants.
+Why did you choose Cornell to pursue your degree?
+I chose Cornell not only for the variety of engaging research taking place but also for the community of scholars working here. It was apparent during my campus visit that the department was a collaborative and supportive space. The academic community here seemed to truly care about the success of their graduate students, and, since coming, I’ve found this to be true.
+Read the story on the Cornell University Graduate School website
+.
+More News from A&S
+Victoria Smith/Laude
+Members of the Cornell “Moonshot” lab will develop a novel infrastructure to ensure trust in online communication. From left: Natalie Bazarova, Robert Kleinberg, Cristian Danescu-Niculescu-Mizil, Jon Kleinberg, David Rand and Mor Naaman.
+Project to rebuild trust in AI era lands Laude’s $10M ‘moonshot’ award
+Psychology
+11/6/2026
+Cornell Chronicle
+Courtesy of Demo Lab Foundation
+From left: Marian Vidaurri, Rachel Riedl, Nia Demming at the July Cornell Tech event.
+‘Train the trainers’ event convenes democracy leaders, educators, activists
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+Sheryl Sinkow/Cornell University
+(From left to right): Professors Stewart Schwab, Oumar Ba, Nelson Tebbe, Mildred Warner, and Natasha Raheja.
+Scholarly leadership to protect and strengthen democracy
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+New book details history of sound’s claim on our attention
+Music
+11/6/2026
+A&S Communications
+View all news

@@ -1,0 +1,43 @@
+URL: https://www.library.cornell.edu/collections/borrow-renew-return/request/scanit/
+TITLE: ScanIt – Cornell University Library
+FETCHED: 2026-11-06
+
+ScanIt
+is a service for Cornell students, faculty and staff that provides electronic scans of articles and book chapters from material held by Cornell University Library. The Ithaca campus libraries provide this service to all Cornell faculty, students, and staff regardless of location.
+Login to request a scan
+What items can be scanned?
+Articles from journals, conference proceedings and newspapers
+Book chapters
+Parts of musical works
+Parts from manuscripts
+Pamphlets
+Documents from CDs
+Microform material held at the Library Annex
+Maps held at Olin Library
+What materials are not available for scanning?
+Microform items held by any other library except the Library Annex
+Items held in the
+Rare and Manuscript Collections
+including Cornell theses and dissertations (contact them directly)
+Items on course reserve
+Items already available electronically
+Items restricted by copyright policy
+How soon can I expect my article?
+Most ScanIt requests are available in about 48 hours; however, we cannot guarantee a 48 hour turnaround time.
+What are the limitations on scanning?
+We must adhere to copyright fair use guidelines in providing articles and book chapters through ScanIt.
+Articles are provided for the purpose of private study or research. Any other use may require the permission of the copyright owner. It is the responsibility of the requestor to comply with all applicable copyright laws.
+We can only provide one article or chapter from a book or single issue of a journal at a time.
+Due to demand and capacity, the Library Annex can scan up to 50 pages.
+Documents are scanned at 300 dpi, black and white, but color is available upon request. Note that images are not generally print-quality.
+How do I place a request?
+Log into
+Interlibrary Loan and ScanIt
+using your NetID and password. The first time you use this service you will have to register and select your processing unit. This is the unit that will receive and process your request: Olin Library, Mann Library, the Law Library or the Veterinary Library.
+Select “Request an article.”
+Fill in your citation information and submit request. Including the article’s DOI (Digital Object Identifier found in databases and references) on the form will auto-populate the request form and provide a link to an open-access version of the article, if available.
+You will receive an email notification when your article is available to view through your ScanIt account. All articles will remain available for viewing in your account for 30 days.
+Questions?
+Contact the Olin Library Interlibrary Services Department at
+olin-ils@cornell.edu
+.

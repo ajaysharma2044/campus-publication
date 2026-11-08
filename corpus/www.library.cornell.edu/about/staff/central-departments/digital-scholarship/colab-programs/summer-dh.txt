@@ -1,0 +1,102 @@
+URL: https://www.library.cornell.edu/about/staff/central-departments/digital-scholarship/colab-programs/summer-dh/
+TITLE: Summer DH – Cornell University Library
+FETCHED: 2026-11-06
+
+Support for humanities Ph.D. students pursuing digital projects
+About the Program
+The Summer Graduate Fellowship in Digital Humanities (Summer DH) supports a small interdisciplinary cohort of Cornell Ph.D. students who together investigate approaches to digital scholarship through collaborative workshops, readings, discussion, and co-work on independent projects. The fellowship is a project of the Digital CoLab, sponsored by Cornell University Library and the Society for Humanities.
+Time and location
+The 2026 fellowship program will take place over six weeks,
+Monday, June 1 – Thursday, July 9, 2026
+, in person at Olin Library. Meetings will be held on about three weekdays per week, 10am – noon, excluding holidays. Exact schedule to follow. Fellows are expected to attend every meeting of the cohort, except in unusual circumstances that have been approved in advance.
+Eligibility
+Current Cornell Ph.D. students working in the humanities, who will continue to be enrolled at Cornell in the 2026-27 academic year, are invited to apply. Fellows are selected for their potential to benefit from the program, and their willingness and ability to contribute to a collaborative learning environment. Students who have expressed interest or applied in the past, but who did not participate in the Fellowship, are eligible to apply again. There are no technical prerequisites.
+Requirements
+Status as a Cornell Ph.D. student in a humanities or closely related discipline, and continued enrollment in the 2026-27 academic year.
+Desire to explore digital approaches to research and teaching through workshops, readings, discussions, and exchange of feedback with other students.
+Commitment to contribute to a mutually supportive, interdisciplinary summer learning community.
+Commitment to building an independent digital project related to your scholarly goals in research, pedagogy, or public engagement. Methods that Summer DH can support include: computational text analysis; the design, visualization, and analysis of datasets and databases; network analysis; creation of digital collections and exhibits.
+Residence in the Ithaca area during the six weeks of the fellowship period.
+What the program provides
+Small-group tutorials on digital scholarship tools, skills, and approaches, tailored to participants’ interests and prior experiences.
+Orienting readings and discussions.
+An introduction to practical aspects of developing, implementing, and managing complex digital humanities projects, ranging from technical considerations to broader scholarly impact.
+Ongoing guidance and technical support for participants while they develop their own digital projects.
+A stipend of $2000.
+How to apply
+Step 1: Express interest and meet with a librarian
+Access the 2026 Summer DH Interest form
+to express interest in the program and schedule an individual meeting with CoLab staff to discuss your project idea. The purpose of this meeting is to help you to determine if your project idea is a good fit for the program’s capabilities, and if not, to identify other resources to support you. If you have any questions about expressing interest in the program, please contact
+digitalcolab@cornell.edu
+or visit the CoLab during
+Office Hours
+.
+Step 2: Submit an application
+Access the 2026 Summer DH application at this link
+. Applications are due by
+Monday, March 23 at 9am ET
+. Applicants will be notified about their application results as close to March 30, 2026 as possible.
+Recent Summer DH projects
+Explore descriptions of recent Summer DH projects, and a few examples by graduate students at other institutions. Some projects are public-facing and include accompanying links, while others do not. For more project examples, please see the
+Digital Scholarship Guides
+.
+Examples of digital collections, digital exhibits, and digital publishing
+Visually Barkcloth
+Iris Luo
+(Human Centered Design)
+“In ‘Visually Barkcloth,’ I experimented with taxonomy and created an alternative metadata schema based on visual semiotics. What if we deconstruct the motif and pattern down to the basic units – the building blocks and structural forms? What commonalities might we find among those digitized objects in museum online systems?”
+The Seneca Combs Project
+Dusti Bridges (Anthropology)
+“This project seeks to connect Hodinöhsö:ni’ community members and the general public with archaeological material currently held in museum collections. The focus for this collection is the carved comb, removed from Onöndowa’ga:’ (Seneca) archaeological sites in what is now known as New York State.”
+Revisualize Archives: Visualizing Joy in 19th-century Studio Portraiture
+Victoria Baugh
+(Literatures in English)
+“This digital collection is meant to teach us how to look and relook at images, how to ask better questions, and how to discover new things about the archival images of Black life in the nineteenth century.”
+Periodical Poets
+Charline Jao
+(Literatures in English)
+“A digital humanities project containing over 500 poems printed in New York-based, nineteenth-century periodicals run by Black editors … it reflects on literary trends, nineteenth-century reading practices, and the role of poetry in abolition and protest.”
+Examples of datasets, databases, and visualizations
+Venesporan Artists Project
+Waleska Solórzano
+(Romance Studies, Spanish & Portuguese section)
+“The
+Venesporan Artists Project (VAP)
+works as an archival and experimental platform on the open-source platform Collection Builder that can support us in discovering artists of the Venezuela diaspora, or what I term the Venespora, by engaging with digital tools and methodologies.”
+Medieval Sri Lankan Inscription Database
+Bruno Shirley
+(Asian Studies)
+“I’ve used a SQL database to keep track of my inscriptional corpus. It lets me record data about the inscriptions themselves–where they were found, what language they’re in, who created them–but also about relationship between the inscriptions and their creators. This allows me to identify patterns in inscriptional practices across time and space, and (almost as importantly) create pretty visualisations of those patterns for presentation slides and dissertation illustrations.” (Bruno’s project is not public-facing, hence no website. He uses it in service of his own research questions and answers.)
+Virtual Cartographies: Visualizing Mass Grave Recovery in Contemporary Spain
+Wendy Perla Kurtz (UCLA, Spanish and Portuguese)
+“A digital map that combines data collected from the Spanish Ministry of Justice—which identifies over 2,600 mass grave found throughout Spain—with a rich collection of multimedia texts directly related to specific grave sites.”
+Examples of computational text analysis
+The following project descriptions are abstracts from final presentations of the Summer DH Fellowship.
+“
+Topic Modeling and Data Visualization for Relational Readings of the Old English Guthlac Texts
+“
+Sarah LaVoy-Brunette
+,
+Medieval Studies
+“In this presentation, I discuss the various computational text analysis tools that were not only approachable, but supplemental for relational readings of the Old English Guthlac texts as a tech-averse scholar. Specifically, I highlight the ways in which I gained more intimacy with the sources through data preparation, and how running web-based tools such as Voyant Tools and jsLDA helped to retain context and show relationships within texts.”
+“
+Cicero’s Greek in his
+Letters
+“
+Hyeonseo Kim
+(Classics)
+“Cicero often slips into Greek in his
+Letters
+. Are these instances of code-switching, and does this mean that Cicero was bilingual? To explore these questions, I compiled a dataset of all the Greek found in Cicero’s letter collections.”
+“
+On the Origins of English Free Verse
+“
+Sanghoon Oh
+, (Literatures in English)
+“The following is a proof of concept for a project that looks at the origins, development and transmission of English free verse. Through the use of zero-shot learning with large language models and network analysis, this project aims to trace the diffusion of the free verse form in the cultural field between 1910 and 1930.”
+“
+Toward Computational Economic Humanities
+“
+Kyhl Stephen
+(Literatures in English)
+“This talk describes the process of running topic modeling analyses across a couple sub-corpora to disaggregate how differently positioned texts discuss the term ‘corporation’ differently. In this way, it aims to offer digital humanist methods as a means of bridging between the nuanced attention to form and genre in literary studies and the nascent sub-field of economics called narrative economics.”

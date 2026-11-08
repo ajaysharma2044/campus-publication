@@ -1,0 +1,34 @@
+URL: https://www.library.cornell.edu/about/staff/central-departments/digital-scholarship/privacy-resources/
+TITLE: Privacy Services and Support at the Library – Cornell University Library
+FETCHED: 2026-11-06
+
+Consultations and Workshops
+As part of CUL’s mission to facilitate free inquiry, collaboration, creativity, and discovery, we offer education and practical assistance on multiple aspects of managing digital privacy, including: data brokers and your rights, phishing and other social hacking frauds, understanding terms of services and contracts, and when and how to choose digital tools like virtual private networks (VPNs), onion routers, message encryption, anti-doxing practices, and more.
+We offer both
+consultations for individuals and workshops for groups
+(e.g. classes, departments, labs, and organizations). If you are a Cornell scholar, student, or staffer, contact
+cul-privacy@cornell.edu
+for assistance on the following topics:
+Digital Harassment Self-Defense
+Coordinated intimidation and harassment is a growing occupational hazard for academic researchers. Learn digital self-defense strategies that, applied proactively, can lessen the harm of a targeted attack.
+See also:
+Guide to Digital Harassment Self-Defense
+Protecting Vulnerable Human Research Subjects
+Digital communication with research subjects can sometimes expose them to threats. Create a travel, research, and communication plan that proactively lessens the risks for research subjects of participating in your research. (These plans are highly individualized, so consultations only; no workshops.)
+Anonymity Online
+Protecting privacy includes supporting researchers’ and students’ need to read online anonymously, free of surveillance. We can help you create a strategy to protect your anonymity online, based on your particular needs and situation.
+Digital Privacy Literacy
+General Privacy workshops help your group understand how the Internet works, how to identify potential risks to privacy, security, and anonymity encountered in research, teaching, and day-to-day life, and how to apply strategies and practices to improve your digital security and safety.
+Anything Else
+Have other questions about privacy or security that impact your ability to learn, work, study, or read? Let us know:
+cul-privacy@cornell.edu
+Public Computing
+To support user confidentiality and anonymous research, we provide public computer kiosks that have anonymous logins and that are set up to purge data from individual user sessions when restarted.
+Public Computer Kiosks
+Public computer kiosks are available to all Library users and do not require login credentials. When restarted, the system will be restored to the original state and all personal files and settings are removed. Public computers managed by the Library are also set up to restart after a period of inactivity to help ensure that no identifying information is left behind by the user. A list of public computers available at the Library can be found on the
+technology and equipment
+webpage. Note that computers at some libraries are managed by IT@Cornell rather than the Library (for example, at the Engineering Library, and the teaching computer labs at Mann); the privacy practices described here do not apply to devices managed by IT@Cornell.
+Loaner Laptops
+A Cornell ID card is required to check out laptops, and you will also need to use your NetID to log into loaner laptops. Between users, the loaner laptops are programmed to retain the user’s profile for several weeks but inaccessible to other users, except IT administrators.  After that time, the user’s profile is deleted and all personal files, settings and data and settings are removed.  For these reasons, activities conducted on loaner laptops are not fully anonymous. For more information on loaner laptops visit the
+technology and equipment
+webpage.

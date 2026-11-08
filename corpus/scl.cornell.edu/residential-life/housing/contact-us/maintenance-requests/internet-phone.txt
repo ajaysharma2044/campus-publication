@@ -1,0 +1,28 @@
+URL: https://scl.cornell.edu/residential-life/housing/contact-us/maintenance-requests/internet-phone
+TITLE: Internet & Phone | Student & Campus Life | Cornell University
+FETCHED: 2026-11-06
+
+Internet & Phone
+Information for students
+Cornell's wireless internet service is available in all rooms and apartments with the exception of some cooperative residence student rooms. Please refer to the
+IT@Cornell Wi-Fi webpage
+for assistance in connecting to Cornell's secure wireless (Wi-FI) network.
+Students should connect to Eduroam network.
+Wireless network issues
+If you are experiencing connectivity issues with wireless service, please visit the
+IT support webpage
+for assistance. You are also able to visit
+https://thiscomputer.cit.cornell.edu
+to check signal strength of your device while connected to Cornell wireless.
+Wired network issues
+Hasbrouck and Co-op residents without wireless access in student rooms may connect to Cornell's wired network through a wired data jack (one per occupant per student room or apartment). The service includes activation of the network jack, cable, software, and phone support. You must supply a computer with internet capabilities and ethernet hardware. If you are experiencing issues connecting to the wired network, please visit the
+IT support webpage
+for assistance.
+Phone issues
+Undergraduate student communities: Because most students have cell phones*, landline phones are not provided in most undergraduate student rooms. Common area phones are available in all residential buildings for emergency, campus, local, and toll-free calls. Long-distance calls may be made on common area phones with the use of a phone card or Cornell PIN number. You may also have a phone jack activated in your room for a fee if you want to use a landline phone. To inquire about phone jack activation, fees, and billing, visit
+Cornell Information Technologies
+.
+Graduate/professional student communities: For residents of Hasbrouck, local telephone service is included in the housing rate. All students are billed monthly on their University bursar accounts for long distance service and toll calls. Other long distance or international phone services may be obtained by using telephone cards.
+* Smartphones and services are available for purchase at
+The Cornell Store
+.

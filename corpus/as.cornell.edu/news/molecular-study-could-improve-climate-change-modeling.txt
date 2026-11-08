@@ -1,0 +1,52 @@
+URL: https://as.cornell.edu/news/molecular-study-could-improve-climate-change-modeling
+TITLE: Molecular study could improve climate-change modeling
+FETCHED: 2026-11-06
+
+Molecular study could improve climate-change modeling
+Chemistry & Chemical Biology
+By |
+Staff
+,
+A&S Communications
+8/7/2020
+For the first time, a team of chemists has unveiled the mechanics involved in the mysterious interplay between sunlight and molecules in the atmosphere known as “roaming reactions.” The research could lead to more accurate modeling of climate change and other atmospheric phenomena.
+A detailed study of roaming reactions – where atoms split off from compounds and orbit other atoms to form unexpected new compounds – could enable scientists to make much more accurate predictions about molecules in the atmosphere, including models of urban pollution and ozone depletion.
+In a
+paper published Aug. 6 in Science
+, a team of researchers that includes
+Paul Houston
+, the Peter J.W. Debye Professor Emeritus of chemistry and chemical biology in the College of Arts and Sciences, showed in unprecedented detail exactly what happens during roaming reactions of chemical compounds.
+The research team was led by Scott Kable, professor of chemistry at the University of New South Wales and a former postdoctoral researcher in the Houston Group at Cornell. Other contributors came from the University of Sydney and from Emory University.
+As the researchers explain, plant and animal emissions, and human activity, result in chemical reactions in the atmosphere. These reactions, in which atoms are rearranged to make new substances, occur all the time. Sunlight, for example, can split apart molecules, which contributes to photochemical smog and the production of carbon dioxide.
+Houston performed and analyzed the trajectory calculations that confirmed and interpreted the experimental results. ”Some of the results were quite surprising,” he said, such as when the researchers looked at the roaming reaction in formaldehyde (CH2O) and saw two quite distinct signals instead of the expected one.
+Kable likened the study to lifting the hood on roaming reactions and seeing for the first time how the parts fit together. He says the study will give scientists new tools to understand the machinations of reactions in the atmosphere.
+“For a long time, scientists thought these reactions happened in a simple way, that sunlight was absorbed and then the molecule explodes, sending atoms in different directions,” Kable said. “But in the last few years, it was found that where the energy from the sun was only just enough to break a chemical bond, the fragments perform an intimate dance before exchanging atoms and creating new, unanticipated chemical products – known as roaming reactions.”
+Co-author Meredith Jordan from University of Sydney said their work suggests roaming reactions straddle the classical and quantum worlds of physics and chemistry.
+“We expect these characteristics to be present in all roaming reactions,” she said.
+The results of this study will provide theoreticians with the data needed to hone their theories, which in turn will allow scientists to accurately predict the outcomes of sunlight-initiated reactions in the atmosphere.
+The researchers said the study could also benefit scientists working in the areas of combustion and astrophysics, who use complex models to describe how molecules interact with each other in gaseous form.
+The research was funded by the Australian Research Council and the U.S. Army Research Office.
+More News from A&S
+Victoria Smith/Laude
+Members of the Cornell “Moonshot” lab will develop a novel infrastructure to ensure trust in online communication. From left: Natalie Bazarova, Robert Kleinberg, Cristian Danescu-Niculescu-Mizil, Jon Kleinberg, David Rand and Mor Naaman.
+Project to rebuild trust in AI era lands Laude’s $10M ‘moonshot’ award
+Psychology
+11/6/2026
+Cornell Chronicle
+Courtesy of Demo Lab Foundation
+From left: Marian Vidaurri, Rachel Riedl, Nia Demming at the July Cornell Tech event.
+‘Train the trainers’ event convenes democracy leaders, educators, activists
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+Sheryl Sinkow/Cornell University
+(From left to right): Professors Stewart Schwab, Oumar Ba, Nelson Tebbe, Mildred Warner, and Natasha Raheja.
+Scholarly leadership to protect and strengthen democracy
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+New book details history of sound’s claim on our attention
+Music
+11/6/2026
+A&S Communications
+View all news

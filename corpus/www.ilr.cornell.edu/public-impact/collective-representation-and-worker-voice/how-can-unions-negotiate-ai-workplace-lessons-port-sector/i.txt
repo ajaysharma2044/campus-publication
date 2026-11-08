@@ -1,0 +1,50 @@
+URL: https://www.ilr.cornell.edu/public-impact/collective-representation-and-worker-voice/how-can-unions-negotiate-ai-workplace-lessons-port-sector/i
+TITLE: How Can Unions Negotiate AI in the Workplace? Lessons from the Port Sector | The ILR School
+FETCHED: 2026-11-06
+
+Jan 21, 2026
+How Can Unions Negotiate AI in the Workplace? Lessons from the Port Sector
+A new resource developed for the International Transport Workers’ Federation (ITF) – the
+Dockers’ AI Toolkit
+, authored by José Luis Gallegos, Ph.D. candidate at the Rotterdam School of Management and current research visitor at Cornell University’s ILR School – offers practical, forward-looking guidance on how workers can negotiate over artificial intelligence (AI) in the workplace. Although the toolkit is grounded in the port sector, its lessons extend far beyond dock work. Across industries, AI is increasingly used to allocate tasks, evaluate workers, and influence organizational decision-making. As these systems become embedded in everyday operations, worker voice becomes essential to ensuring that technological change strengthens rather than erodes rights at work.
+The toolkit provides two distinctive features. First, it offers an integral approach: instead of treating job loss, algorithmic bias, surveillance, and data rights as separate issues, it brings them together into a coherent negotiation strategy. This enables unions to build leverage by addressing all dimensions of AI-enabled change simultaneously, rather than reacting to each technological development in isolation. Second, the toolkit is highly practical: it proposes concrete contract clauses, governance structures, and decision rules that unions can take directly to the negotiating table.
+Below, we highlight the most notable insights.
+Beyond Consultation:
+The toolkit emphasizes that worker involvement must extend well beyond traditional “notice and comment” approaches, which are too weak when AI systems fundamentally reorganize work. Instead, it argues for binding governance rights that give workers a meaningful role in shaping technological decisions. These include requirements that employers secure union consent before deploying high-risk systems and that workers have the right to engage independent technical, legal or ethical experts to evaluate proposed tools.
+Defining the Scope and Establishing Red Lines:
+AI systems are flexible and can be designed to prioritize very different outcomes – efficiency, safety, cost reduction, or tighter performance control. For this reason, the toolkit urges unions to negotiate clear, written definitions of each system’s scope, purpose and intended effects. It also calls for the creation of non-negotiable red lines, such as bans on biometric surveillance, emotion-recognition tools, covert data collection or fully automated decision-making affecting employment conditions. These risks are not confined to ports: they appear in warehouses, call centers, hospitals and public services.
+Joint Committees for Ongoing Oversight:
+Drawing on codetermination traditions, the toolkit proposes joint technology review committees (JTRC) staffed equally by management and workers. Unlike one-off consultations, the JTRC would provide a structure for continuous oversight. Its responsibilities would include reviewing impact assessments, monitoring the behavior of deployed systems, overseeing algorithmic audits, evaluating data-collection practices, and pausing or renegotiating tools when harmful effects emerge. This institutional anchor is critical in an environment where AI systems evolve over time and often drift from their original purpose.
+Protecting Jobs:
+The toolkit highlights that AI-driven restructuring often reduces staffing not through explicit layoffs but through attrition, non-replacement or the quiet erosion of planning and clerical roles. To prevent efficiency gains from becoming disguised workforce reductions, it recommends minimum staffing guarantees, work-sharing mechanisms, and rules linking employment levels to negotiated rosters. These protections ensure that technological change would not hollow out the workforce unnoticed.
+A Broader Policy Agenda:
+Recognizing that workplace bargaining alone is insufficient. The toolkit advances a broader policy agenda that includes:
+automation taxes on job-displacing technologies;
+public investment in lifelong learning and union-led reskilling;
+worker representation in national AI and data-governance bodies; and
+stronger transparency and audit requirements for algorithmic systems used in employment.
+These proposals reflect a growing consensus that governments must shape the regulatory terrain in which AI is deployed.
+Data as Labor:
+Perhaps the toolkit’s most striking contribution is its documentation of how workers’ data is increasingly being used to fuel AI systems. Every crane override, workflow adjustment, or error correction produces training data that improves algorithmic models. As the publication notes, workers are
+“hired to move boxes, not to train AI.”
+Yet these data traces contain years of tacit knowledge – the same knowledge that allows AI systems to gradually replicate or replace aspects of workers’ expertise. To address this, the toolkit recommends compensation models such as wage premiums, data-stewardship agreements and union-managed transition funds that capture a portion of the value generated by worker-trained AI.
+A Realistic but Optimistic Vision
+The guide is clear-eyed: employers rarely grant rights or protections voluntarily, and meaningful worker influence depends on organizing capacity, institutional safeguards and workplace leverage. Yet it maintains a crucial optimism – technology is not destiny.
+AI systems reflect human choices about design, implementation and governance. However just as such objectives have been promoted by tech companies and employers, it also means that with strong worker voice and enforceable rules, technological changes can be steered toward fairness, safety and shared prosperity.
+The toolkit ultimately calls for understanding digital rights as work rights, and mobilizing for them.
+Photo credit:
+Shinsei Motions
+You may also like:
+New Paper Explores Black Workers in the South and Their Views on Unions
+Mar 11, 2026
+Black workers in the Southeast face numerous challenges, but they also believe unions could alleviate some of these issues, according to a working paper co-authored by Kate Bronfenbrenner, Ph.D. ’93, director of Labor Education Research at the ILR School.
+New Paper Explores Black Workers in the South and Their Views on Unions
+Empowering Workers, Building Leaders
+Oct 22, 2025
+On October 9, 2025, thirty participants celebrated their graduation from the first Housekeeping Technician and Leadership Development Workshop Series, a collaborative training effort between Labor Leadership Initiatives at Cornell’s ILR School and the Worker Justice Project (WJP).
+Empowering Workers, Building Leaders
+Global Labor Leadership Initiative (GLLI) 2025: Global labor leaders unite for stronger, more democratic unions!
+Sep 19, 2025
+Earlier this year, 19 union leaders from across Africa, Asia, and Europe gathered in South Africa through the ILR School and The Solidarity Center’s Global Labor Leadership Initiative (GLLI).
+Global Labor Leadership Initiative (GLLI) 2025: Global labor leaders unite for stronger, more democratic unions!
+Originally published in Center for Applied Research on Work.

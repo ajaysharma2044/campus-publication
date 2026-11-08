@@ -1,0 +1,55 @@
+URL: https://registrar.cornell.edu/faculty-staff/courseleaf-cornell
+TITLE: CourseLeaf @ Cornell | Registrar
+FETCHED: 2026-11-06
+
+CourseLeaf @ Cornell
+CourseLeaf
+CourseLeaf offers Curriculum Lifecycle Management (CLM) tools, which will allow the University to streamline, update, and improve several aspects of the academic business cycle. Cornell will implement modules for curriculum management workflow (CIM), class scheduling (CLSS), and University Catalog publication (CAT). These tools will integrate with Cornell’s student information system, PeopleSoft.
+Who will benefit from CourseLeaf modules?
+Prospective students will find a more inviting, intuitive, and modern Catalog to reflect Cornell’s broad range of academic programs and courses.
+Current students from all colleges, schools, and units on Ithaca and Cornell Tech campuses will benefit from a more accessible, consistent, and user-friendly catalog. Weill Cornell’s catalog will be modernized in a future project.
+College and school registrars, faculty, and staff will benefit from streamlined processes, direct integrations, and an overall reduction in administrative burden. From an institutional perspective, curriculum and lifecycle management functions will shift to a more efficient, stable, and sustainable technological infrastructure.
+CourseLeaf Modules Overview
+What is CourseLeaf CAT?
+CAT is the module that will be used to generate and maintain the University Catalog, which is the institution’s annual publication of courses and programs (formerly known as “Courses of Study”). This public-facing application will integrate directly with PeopleSoft courses, reducing duplicated data entry and effort. CAT will provide current and prospective students with a more consistent and user-friendly catalog.
+When will we publish the first Catalog in CourseLeaf CAT?
+The 2025-2026 University Catalog was the first in CAT and published in July 2025.
+What changes are expected with the transition to CAT?
+University Catalogs in CAT will have a new look and feel, with an updated and improved Home Page, streamlined navigation, and more consistent organization of content.
+Users will be able to generate PDFs of specific University Catalog pages, as well as the University Catalog in its entirety.
+Each department will no longer have a separate page, in keeping with best practices, and instead Departments will be referenced from the College or School, and Program pages.
+Course Data will be sourced directly from PeopleSoft through an integration with CAT, eliminating the need to maintain course data in a separate application for inclusion in the University Catalog.
+For downstream consumers of Catalog API data, the data structure changes will be impactful.
+Reach out to
+catalog@cornell.edu
+to request access to the CAT API information page, or with any questions or concerns.
+What is CourseLeaf CLSS?
+CLSS is the Section Scheduler tool that colleges, schools, and academic departments will use to submit section edits and class schedules each term. CLSS will integrate directly with PeopleSoft and replace the existing Course Class Interface (CCI). The direct integration with PeopleSoft will eliminate the duplicate data entry that was necessary with CCI. The CLSS tool is not public facing; it will be available to central administration, colleges/schools, and academic departments only.
+What is the timeline for the CLSS implementation?
+The first class schedules edited in CLSS are Winter 2026 and Spring 2026 semesters. CLSS was launched May 2025.
+What changes are expected with the transition to CLSS?
+CLSS provides new functionality for heat map views, data validation, historical enrollment information, and approval workflow for class schedules.
+Class edits submitted during “Refine Mode” will update PeopleSoft in real time.
+All course edits will be submitted through the new
+Course Request Form
+.
+CCI course edits will close permanently in April 2025.
+CCI class edits will close permanently by December 2025.
+What is CourseLeaf CIM?
+CIM is curriculum inventory management technology that provides workflow and approval processes for all course and academic program changes, including new proposals and edits to existing offerings. CIM will replace outdated and decentralized curriculum management workflows. Course and academic program changes will integrate with the catalog publishing cycle, and course data will sync with PeopleSoft. CIM includes configurable workflows that will allow for improved transparency, efficiency, and compliance. This tool is not public facing; it will be available to central administration, colleges/schools, and academic departments only.
+What is the timeline for the CIM implementation?
+CIM implementation is tentatively scheduled to begin late fall of 2025, and is expected to be fully implemented in 2028.
+What changes are expected with the transition to CIM?
+Course and program proposals will be managed in one centrally supported system.
+CIM provides Educational Policy Committees/Curriculum Committees with highly configurable workflows that can accommodate complex and interdisciplinary programs.
+Cornell will benefit from transparent and streamlined processes, and reduced manual effort in curriculum management.
+Support
+Email the Catalog team at
+catalog@cornell.edu
+with questions or feedback related to CourseLeaf CAT.
+Email the Classes team at
+classes@cornell.edu
+with questions or feedback related to CourseLeaf CLSS.
+CLM Project Website
+CLSS: CourseLeaf Support
+CAT: CourseLeaf Support

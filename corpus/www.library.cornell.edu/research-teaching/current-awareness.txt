@@ -1,0 +1,60 @@
+URL: https://www.library.cornell.edu/research-teaching/current-awareness/
+TITLE: Current Awareness – Cornell University Library
+FETCHED: 2026-11-06
+
+Keeping up with the latest scholarship and information is vital for researchers and academics. Below are a few of our current-awareness services to help you stay up to date. Need more help?
+Ask a Librarian
+.
+New Books at Cornell
+Browse new library books
+by month, individual library, language, and subject classification. You can also create a customized RSS feed to get monthly updates.
+Table of Contents (TOC) Alerts
+Table of Contents alerts allow you to be automatically notified when the new issue of a journal is published.
+E-mail (or RSS) alerts from databases subscribed to by Cornell University Library
+Examples of vendor databases that include journals from multiple publishers and provide TOC e-mail alerts include:
+EBSCO
+databases
+You must create a MyEBSCO account in order to create journal alerts.
+Click on “Publications” link underneath the search box to access the list of journals.
+Select a journal you wish to create an alert for.
+Above the journal title, there is a three dot menu for “Publication Tools.”
+Select “Create alert” in that menu to get updates.
+ProQuest
+databases
+Click on the “Publications” tab above the search box.
+Browse and select the desired journal.
+Once selected, click “set up alert” or “create RSS feed” from publication page.
+ISI’s Web of Science
+You must have a separate Web of Science account to create journal alerts.
+Use the advance search and change the default “All Fields” to “Publication Titles.” The search box will suggest titles as you type, select the desired journal from the auto-generated suggestions and run the search.
+Click on “Create Alert” from the search results page.
+Publisher-provided TOC alerts
+Another option is to sign up for TOC alerts sent directly from publishers of journals or article databases to which Cornell University subscribes. This usually requires creating an individual profile at a publisher’s Web site.
+Social Bookmarking (and Beyond)
+“Have you read this new article?” Word of mouth between colleagues is an excellent way to keep current. Several services attempt to replicate this experience online.
+Social bookmarking
+sites allow you to save references and bookmarks to an online account, which you may choose to share with others. You may also browse by subject or tags, and some services allow you to upload files. Here are a couple of examples:
+Bibsonomy
+Diigo
+Some
+citation management
+programs allow you to share reference lists:
+Zotero
+– share references with your Zotero contacts
+Mendeley
+– share references and files with small group of contacts, and view aggregate statistics in your field
+Citation Alerts
+A citation alert notifies you when new publications cite a particular work.
+ISI’s Web of Knowledge
+offers this service if users create personal profiles.
+Other Alerts
+Subject alerts
+Subject alerts allow you to be notified when articles are published that match your subject criteria. For example, after conducting a search in a ProQuest database for the terms “wind power” and “local government”, you could set up an alert to be notified of any new articles that get added to the database with those keyword terms. This service is also available in databases produced by ISI’s Web of Knowledge, EBSCOhost, CSA Illumina, Elsevier (ScienceDirect), Google (Google Scholar) and more.
+Web page alerts
+Stay up-to-date with new online content in your subject area. There are a number of services that provide alerting services for new publications on the Web, including:
+Google Alerts
+tracking service for search-engine results that watches for online new content by monitoring Web pages indexed by Google and e-mails users when it locates new items
+The Scout Report
+– weekly reports offering a selection of new and newly discovered Web resources of interest to researchers and educators
+Conference Alerts
+– Receive information about upcoming conferences in your areas of interest.

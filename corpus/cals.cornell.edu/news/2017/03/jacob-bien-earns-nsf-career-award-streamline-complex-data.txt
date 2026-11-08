@@ -1,0 +1,31 @@
+URL: https://cals.cornell.edu/news/2017/03/jacob-bien-earns-nsf-career-award-streamline-complex-data
+TITLE: Jacob Bien Earns NSF CAREER Award to Streamline Complex Data | CALS
+FETCHED: 2026-11-06
+
+Share
+Jacob Bien, assistant professor in the Department of Biological Statistics and Computational Biology, has received a National Science Foundation (NSF) CAREER award to develop new statistical methods that can handle the increasingly complex data that the public relies on in order to make decisions impacting everyday life.
+The prestigious CAREER Program, launched in 1996, provides support to junior faculty members for research and outreach. Bien will receive $400,000 over five years from the NSF to design improved statistical methods whose outputs can be interpreted simply by non-experts.
+The internet has led to unprecedented quantities of data in the form of text, from news and commercial websites, to blogs, consumer reviews, and various forms of social media. Such data represent a potential treasure trove of insights into the world: what people are thinking, how their thinking changes over time, and how it varies by location and other factors. But how do we glean useful information from this deluge of data?
+In order to achieve his results, Bien will develop open-source code that scientists can use to analyze their data, along with mathematical theorems that provide guarantees that the methods work. He will also continue to develop a software platform for increasing the efficiency of the process of performing statistical research so that it is easier to share across the community of statistical researchers.
+The methods that are developed will allow for more accurate forecasting, which is crucial in many areas, including public health, medicine, and the development of lower-cost energy systems.
+Bien plans to apply his research objectives to educating students and providing outreach to non-statisticians and non-scientists.
+More information about Bien and his research can be found at
+http://faculty.bscb.cornell.edu/~bien/
+.
+Keep Exploring
+News
+November 6, 2026
+Cost share and market access are the top drivers of digester adoption
+U.S. dairy production has continued its decades-long consolidation into fewer, larger operations [1], [2]. Recent news coverage has suggested that the growth in anaerobic digester adoption over the past decade may have encouraged this expansion...
+Cornell Cooperative Extension
+Animal Science
+PRO-DAIRY
+News
+November 5, 2026
+Library story time is also learning time for parents
+Cornell Cooperative Extension
+Explore All Stories
+We openly share valuable knowledge.
+Sign up for more insights, discoveries and solutions.
+Please enter a valid email address to subscribe to the newsletter.
+Email Address

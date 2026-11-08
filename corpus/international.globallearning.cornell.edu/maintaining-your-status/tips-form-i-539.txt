@@ -1,0 +1,194 @@
+URL: https://international.globallearning.cornell.edu/maintaining-your-status/tips-form-i-539
+TITLE: Tips for Form I-539 | International Services
+FETCHED: 2026-11-06
+
+Tips for Form I-539
+For Everyone
+Form I-539
+allows some nonimmigrants to apply to extend their stay in the United States or change visa status. Find out
+who can use the I-539
+before continuing.
+Why can't International Services answer my I-539 question?
+Please read this webpage carefully. All the questions we are able to answer are addressed here.
+Form I-539 is a personal application, so it is your responsibility to ensure it is accurately completed and submitted by the necessary date. International Services advisors can't legally review your form or provide additional guidance. We can't answer questions about filling out the form, filing fees, or related visa status issues. Cornell is not responsible for decisions made by U.S. Citizenship and Immigration Services.
+If you need help filling out your I-539, have any questions about your application, or require other legal advice, we encourage you to consult with a
+licensed and experienced immigration attorney
+at your own expense.
+For Dependents Seeking H-4 Status
+This page's tips are for
+H-1B employees' dependents who are currently in the United States
+and applying for H-4 status. Learn about H-4 requests in the
+H-1B section of this page
+.
+The dependent must complete and sign the I-539 and submit it
+as a personal application
+, along with the required documents and application fee. The form is typically completed by the spouse or oldest child of the H-1B employee.
+References to “you” on this page mean the dependent, not the H-1B employee.
+H-1B visa holders
+do not sign the I-539 or fill in the form's fields with their own information.
+Form I-539A is used for additional dependents. An I-539A submitted for a minor child (under age 14) must be signed by a parent.
+Dependents arriving from outside the U.S. obtain an H-4 entry visa stamp from a U.S. consulate and enter the country in H-4 status. Read
+Apply for an Entry Visa
+. They do not submit Form I-539.
+Use the Current Form or File Online
+U.S. Citizenship and Immigration Services (USCIS) routinely updates forms, including Form I-539. Your application will be rejected if it is filed on an outdated version of the form.
+This makes filing online the safest choice,
+if you are eligible.
+Check your eligibility to file online
+.
+USCIS I-539
+File Online
+Legal Advice
+Form I-539 by Section
+Info About You
+Application Type
+Processing Info
+Additional Info
+Signatures
+Filing and Fee
+1
+Part 1: Information About You
+1a. Family Name: Enter your family or last name as it appears on the supporting documentation (the dependent's passport). Throughout your application, use only A–Z and 0–9. Avoid accents and characters not in English.
+1b. Given Name: Enter your given or first name as it appears on the supporting documentation (passport).
+1c. Middle Name: If you do not have a middle name, you may want to leave this field blank. If you enter “none,” “not applicable” or “N/A,” this may appear on your future USCIS notices of action.
+2. Alien Registration Number: Most nonimmigrants do not have an alien registration number. If you have an A-number and know it, enter it here.
+3. USCIS Online Account Number: If you have a USCIS online account number, enter it here. If you have a number, consider filing electronically, if you are eligible.
+Mailing Address
+4a. In Care of Name: People living at someone else’s address temporarily may identify the owner of the address in this section—but be careful. The U.S. Postal Service doesn't forward mail from government agencies like USCIS, so use an address where you expect to receive mail during the
+projected processing time
+.
+4b. Enter the house number and street name here.
+4c. If the residence is an apartment or has a suite or floor number, put that information here.
+4d. The official name of the town where the street is located goes here.
+4e. The state can be found in a dropdown menu. New York is “NY.”
+4f. The zip code goes here. Use the
+USPS ZIP Code Lookup
+tool if you're not sure.
+Physical Address
+5. Same Address: Check "yes" if the address where you physically reside in the United States is the same as the mailing address you entered above.
+6. Current Physical Address: Enter the address where you physically reside if it's different than your mailing address.
+Other Information About You
+7. Country of Birth: Enter the country where you were born.
+8. Country of Citizenship or Nationality: Enter only one country to correspond to the passport information you are providing.
+9. Date of Birth: Use the U.S. date format (month/day/year).
+10. U.S. Social Security Number: If you have one, enter it here.
+Note:
+Items 11a–f refer to your immigration status information at the time of last entry. A later section asks for current information.
+11a. Date of Last Arrival: Use the U.S. date format. If you are unsure of your arrival date,
+obtain your most recent I-94
+. The I-94 record includes your arrival date.
+11b. I-94 Arrival-Departure Number: If you have not already located your I-94,
+get it here
+.
+11c. Passport Number: Enter the number of the passport you used to enter the U.S. most recently. If you have renewed your passport, record that information later in the I-539.
+11d. Travel Document Number: Most nonimmigrants have a passport. If you don’t have a passport but have been issued a travel document, put the number here.
+11e. Country of Passport: Enter the country that issued your passport or travel document.
+11f. Passport Expiration Date: Enter the expiration date of the passport or travel document here.
+12a. Current Nonimmigrant Status: Enter the status you currently hold, such as H-4, J-2, or F-2.
+12b. Date Status Expires: Enter the date (mm/dd/yyyy) your current status will expire. If you are in J-2 or F-2 status, enter N/A here and follow the instructions in 12c.
+12c. D/S Box: If you are J-2 or F-2, your “expiration date” should be listed as duration of status (D/S) on your I-94. Look at your I-94 to confirm. If you were granted D/S, check this box.
+2
+Part 2: Application Type
+1a. Reinstatement: This field is not applicable to H-4. If you are a student needing reinstatement, please
+contact us
+.
+1b. Extension of Stay: Check this box if you are already in H-4 status and want to extend your stay to match your spouse's or parent’s.
+1c. Change of Status: Check this box if you want to change your status to H-4 or another visa status.
+2a. Change Requested: If you selected 1c, enter the new visa status you are requesting, such as H-4. Don’t complete this field if you checked 1b for an extension of your current status.
+2b. New Status Effective Date: If you selected 1c, enter the date you want your new status to begin. This date typically matches the requested start date of the H-1B filed by Cornell, so you need to get this information from your spouse or parent.
+3a. Only Applicant: Check this box if there are no other dependents seeking the extension or change.
+3b. Filing for Others: Check this box if you have other dependent family members seeking the same benefit (extending their stay in the same status or changing to H-4).
+4. Total Number: Enter the total number of people, including yourself, seeking the extension or change of status. Do not count your spouse or parent (H-1B). As the instructions indicate, each additional dependent needs a separate I-539A.
+5–6: These fields are for students. Leave them blank if you are extending your stay or applying for H-4 status.
+3
+Part 3: Processing Information
+1. Requested Date: Again, you need to make sure this information matches the date on your
+spouse’s or parent's petition.
+2. Application Based on Extension or Change Already Granted: Check “yes” if you are filing this application after your spouse's or parent's H-1B petition has already been approved. (This can sometimes occur when someone is leaving their own H-1B status—for example, to become a spouse's H-4 dependent.) Check “no” when Cornell includes your I-539 with its petition for the employee's H-1B status.
+3a.
+Application Based on Separate Petition: Check “Yes, filed with this Form I-539” when your I-539 will be submitted with an H-1B petition Cornell is filing for your spouse or parent.
+3b. Don't check this box. A “no” response is not relevant to H-4 applications.
+3c. Check “Yes, filed previously and pending with USCIS” if the related H-1B petition has already been sent.
+4. Form Type: S
+elect the form your spouse or parent used (typically I-129) if
+you answered
+“yes” to 2, 3a, or 3c above.
+5. If
+you answered
+“yes” to 2, 3a, or 3c, enter the receipt number (IOE number is most common).
+6. If you
+answered
+“yes” to 3c, enter the first (given) and last (family) name of the H-1B spouse or parent.
+7. If you
+answered
+“yes” to 3c, enter the date the petition was filed. This date is listed on the receipt notice in the “Received Date” field.
+4
+Part 4: Additional Information About You
+1a–c. Passports can expire and be extended or replaced. If you have obtained a new passport since your last arrival in the U.S., enter your new passport information in fields 1a–c. This should be different than the passport information you entered in Part 1.
+2. Physical Address Abroad: These fields are for an address in your home country. You can use the address of parents, other family, or friends. The fields are structured to accommodate U.S.-style addresses. See Part 1 (Mailing Address) for the address format. Do your best to fit the address into these fields. If the address can't fit, write “See Part 8,” and use one of the “Additional Information” sections for your physical address abroad.
+3–15: Answer these questions for you and dependents listed in an accompanying I-539A. If you have any “yes” answers, you must provide an explanation in Part 8.
+3. Immigrant Visa: This question refers to you or dependents listed in an accompanying I-539A—not to
+your spouse or parent (H-1B)
+. It asks
+if you have an active application for an immigrant visa pending with a U.S. consulate overseas. Check “yes” if you do.
+4. Immigrant Petition:
+This question refers to you or dependents listed in an accompanying I-539A—not to
+your spouse or parent (H-1B)
+.
+It is intended to determine if you’ve been named by a sponsor on an immigrant petition. This includes family-based or self-sponsored petitions, employer or self-sponsored petitions, those that have been filed and decided, and those that are pending. Check “yes” if you have
+.
+If your spouse or parent is the beneficiary of an I-140 or I-130 but you are not, check “no.”
+5. I-485 Application:
+This question refers to you or dependents listed in an accompanying I-539A—not to
+your spouse or parent (H-1B)
+.
+The adjustment application is filed when an immigrant petition of some kind has been approved that allows you to apply for adjustment of status, and you have filed the actual application for a green card. Check “yes” if this is the case.
+6–11: Answer these questions for you and dependents listed in an accompanying I-539A.
+12–13. Violations of Your Status and Removal: For dependent classifications, the most common violations are working without authorization and overstay. You are likely to know if you are currently in removal proceedings. If you have concerns about whether you may have violated your current status, seek the advice of an
+immigration attorney
+.
+14. Employment: This question refers to any employment you or dependents in an accompanying I-539A have had since your last arrival in the U.S. or since you were granted an extension or change of status. Either response (14a–b) requires an explanation in Part 8.
+14a. Yes: Perhaps you have J-2 or H-4 work authorization, so you may have periods of employment to list. In Part 8, reference Part 4, item 14, and give your name, how you were authorized to work, the name and address of your employer/s, and how much you were paid each week. A copy of the EAD (both sides) you were issued must be included with your application.
+14b. No: If you have not been employed, go to Part 8. Reference Part 4, item 14, and explain how you are being supported while in the U.S. Typically dependents are supported by the Cornell employee.
+15. Exchange Visitor History: Check “yes” if you or dependents in an accompanying I-539A were ever in J-1 or J-2 status. Go to Part 8, and referencing Part 4, item 15, provide the dates you were in that status.
+5
+Parts 5–8: Certifications, Signatures, and Additional Information
+Part 5. Applicant:
+As the person seeking the change of status or extension of stay, you are the applicant. Answer all questions and sign. Make sure your
+signature is valid
+, and don't forget to date the form.
+Part 6. Interpreter:
+If you had any help translating the I-539 or your responses, that person must complete and sign this section. It doesn't matter if the interpreter was paid or unpaid. The language you speak goes in the “English and ___” field.
+Part 7. Preparer:
+If someone else prepared the I-539 for you—even your spouse or parent—that person must complete and sign this section.
+Part 8. Additional Information: Every I-539 application will have some additional information in this section. For each piece of information, reference the part of the form, the item number, and the page number if not applying online.
+6
+Filing, Required Evidence, and Fee
+Filing Online
+Follow all instructions in the online form. See the
+H-4 section of this checklist
+and
+I-539 instructions
+for required evidence to accompany your application.
+You are responsible for paying the correct
+filing fee using one of the methods USCIS accepts
+.
+Filing on Paper with a Cornell-Sponsored Petition
+Print your I-539 and any I-539A single-sided, not on both sides of the paper.
+See the
+H-4 section of this checklist
+and
+I-539 instructions
+for required evidence to accompany your application. Cornell is not responsible for a failure to include required evidence and will not verify that all evidence is present.
+Include a
+Form G-1450
+for credit card payment of the filing fee.
+You are responsible for paying the correct amount. Filing fees change occasionally, so be sure to check the current amount before submitting your I-539. If you pay an incorrect amount, your application will be rejected.
+Drop off your completed I-539/I-539A with the International Services scholars team in 115 Day Hall or mail it to International Services, Cornell University, 115 Day Hall, Ithaca, NY 14853.
+Next Up:
+Maintaining Your Status
+Campus Resources
+Information on Executive Orders
+Guidance on New Executive Order Impacts
+Tax Office
+Foreign National Tax Profile and More

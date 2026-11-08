@@ -1,0 +1,67 @@
+URL: https://health.cornell.edu/about/styleguide
+TITLE: Styleguide | Cornell Health
+FETCHED: 2026-11-06
+
+Find a Physician
+CMC's Physician Referral Center will help you find a medical provider.
+Use
+Physician Finder
+Call 607 274-4615
+This is an H2 Heading
+The following is an unordered list
+list item 1
+list item 2
+list item 3
+The following is an ordered list
+item one
+item two
+item three
+This is an H3 heading
+The bulb has 6px of padding around it by default.  Bacon ipsum dolor amet porchetta ribeye chicken frankfurter strip steak, sirloin bresaola pancetta andouille landjaeger jerky cow. Tri-tip pork loin tenderloin doner, pork boudin ham hock burgdoggen. Sausage pig ham, leberkas shoulder ground round fatback. Tri-tip cupim beef, jowl andouille short ribs t-bone meatball porchetta. Doner chuck andouille pig jowl beef rump pancetta leberkas tail. Drumstick pork chop ground round, biltong ham bacon boudin. Beef biltong shank, ground round cupim turducken bacon porchetta meatball hamburger ham frankfurter jowl corned beef.
+Pork belly brisket landjaeger, frankfurter ham hock drumstick spare ribs alcatra cow strip steak meatloaf short ribs. Turducken capicola alcatra, chuck tongue pastrami brisket flank spare ribs kielbasa. Doner beef picanha bresaola pig tri-tip burgdoggen drumstick boudin alcatra salami. Cow chicken beef ribs alcatra, drumstick short ribs spare ribs. Beef ribs meatball filet mignon, ham cow chicken sausage fatback venison shankle corned beef alcatra capicola picanha pastrami.
+Section 1
+Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+Section 2
+Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna.
+Section 3
+Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+List item one
+List item two
+List item three
+Section 4
+Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est.
+Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Callout and sub-footer icons
+“Physician” icon: Font Awesome: fa-user-md [&#xf0f0;]
+“See Also” icon: Iconic: https://github.com/somerandomdude/Iconic “read_more”
+“Trusted Sources” icon: custom
+“Alert” icon: Font Awesome: fa-warning (alias) [&#xf071;]
+Default Table Formatting
+heading one
+heading two
+heading three
+col 1 item 1
+col 2 item 1
+col 3 item 1
+col 1 item 2
+col 2 item 2
+col 3 item 2
+col 1 item 3
+col 2 item 3
+col 3 item 3
+col 1 item 4
+col 2 item 4
+col 3 item 4
+Sit by the fire roll on the floor purring your whiskers off
+Cat ipsum dolor sit amet, flop over run outside as soon as door open touch water with paw then
+recoil in horror
+sleep on dog bed, force dog to sleep on floor.
+Chase mice run in circles, but spit up on light gray carpet instead of adjacent linoleum  eat from dog's food  meow loudly just to annoy owners but sleep nap, yet spot something, big eyes, big eyes, crouch, shake butt,
+prepare to pounce
+.
+Drink water out of the faucet pelt around the house and up and down stairs chasing phantoms  jump off balcony, onto stranger's head  spot something,
+big eyes, big eyes
+, crouch, shake butt, prepare to pounce.
+Scratch at the door then walk away pooping rainbow while flying in a toasted bread costume in space but climb a tree, wait for a fireman jump to fireman then scratch his face for
+lounge in doorway
+.

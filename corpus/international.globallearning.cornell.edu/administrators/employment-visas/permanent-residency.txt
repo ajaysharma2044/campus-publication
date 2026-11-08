@@ -1,0 +1,138 @@
+URL: https://international.globallearning.cornell.edu/administrators/employment-visas/permanent-residency
+TITLE: Permanent Residency | International Services
+FETCHED: 2026-11-06
+
+Permanent Residency
+This page is for Cornell administrators.
+International employees:
+Please visit our
+Apply for a Green Card
+page to learn about eligibility for permanent residency and filing procedures.
+Sponsorship Eligibility
+Cornell University only files petitions for lawful permanent residency (“green card”) for international academic staff holding permanent
+academic appointments
+.
+Postdoctoral associates or fellows and those with “visiting” or “temporary” in their job titles are not considered permanent employees and do not qualify for Cornell sponsorship. Positions with renewable terms without a maximum time limit, such as research associates, may be eligible for permanent residency sponsorship only if the position has the expectation of continued employment.
+Employee Must Meet with International Services
+Before initiating a permanent residency petition, interested employees must discuss their eligibility with an International Services advisor. We will consult with the employee to determine the best possible path to permanent residency and communicate the results of that discussion to the employee's department or unit.
+If the individual is a new permanent teaching hire, the department is responsible for
+scheduling a required consultation
+shortly after an offer has been accepted. We recommend starting this process early, as individuals can only remain in H-1B status for up to six years. Further H-1B extensions are only possible if Cornell has filed an employment-based permanent residence petition before year five of H-1B status.
+Note: Cornell does not allow
+external legal counsel
+to represent the university in employment-based permanent residency cases, except on rare occasions when a matter requires more specialized expertise.
+Types of Permanent Residency Petitions
+Most Cornell permanent residency petitions use the EB-1B priority worker category for outstanding professors or researchers. Cornell can also support the EB-2 national interest waiver (NIW) category for scholars whose work is of substantial merit and national importance.
+In some cases, we recommend permanent residency by EB-2 labor certification (PERM). On rare occasions, more than one option may be recommended.
+EB-1B Outstanding Professor or Researcher
+This is the most common permanent residency petition filed at Cornell. This pathway requires submitting a petition to U.S. Citizenship and Immigration Services (USCIS) containing evidence that a professor or researcher is recognized internationally as outstanding in their academic field.
+To meet basic eligibility requirements for this category, employees must have at least three years of teaching or research experience in their academic field. We strongly recommend that employees have the full three years of required experience. However, experience gained while working on an advanced degree may be acceptable if 1) the employee earned a degree, and 2) the research conducted toward the degree was recognized as outstanding, or the teaching duties were such that the employee had full responsibility for the class.
+Cases filed on behalf of employees who do not have the full three years of experience are more likely to be denied.
+EB-2 National Interest Waiver (NIW)
+This pathway requires submitting a petition to
+USCIS
+containing evidence that a scholar’s work is of substantial merit and national importance. Endeavors such as classroom teaching without broader implications for a field or region generally do not rise to the level of having national importance for the purpose of establishing eligibility for a national interest waiver.
+Individuals can self-petition in the EB-2 NIW category. Individuals who are self-petitioning can use public resources, such as this
+guide from Cornell Law School
+, or work with outside counsel. If an employee is self-petitioning, they do so without Cornell support. International Services cannot review or advise on self-petitioned EB-2 NIW petitions.
+EB-2 Labor Certification (PERM)
+This pathway may be a good option for permanent teaching hires with little or no research experience. It requires documenting that there was a recent test of the U.S. labor market, and no U.S. workers were more qualified than the foreign national selected for the position. International Services will file PERM cases when a hiring department's employment search has been completed and meets U.S. Department of Labor (DOL) requirements.
+Applying for permanent residence through labor certification is complicated and lengthy. There can be significant backlogs for people born in certain countries, making the PERM route impractical for some. In PERM cases, the employee may not participate in gathering documentation for DOL. The hiring department is responsible for this step in the process.
+In order to succeed, Cornell must demonstrate to DOL that the department’s employment search has met federal requirements. Applications will be rejected if there is any indication that the job advertisement or description were tailored to make only the successful individual appear qualified.
+If a retest of the U.S. labor market is required, International Services cannot assist departments in conducting new searches. We will recommend retaining
+external legal counsel
+to help manage the search.
+Requirements
+Teaching must be at least 20 percent of the employee’s duties.
+There must have been a recent national search done for the position. Most normal Cornell search practices generally fall within the standards set by DOL.
+The offer to the successful employee cannot have been made more than 18 months prior to the PERM application (Step 2 below), and evidence must show that the successful individual was the most qualified.
+DOL processing times vary significantly, so submit materials to International Services as soon as possible after the conclusion of your search. Individuals who defer their start date may not be eligible for this process due to timing constraints.
+Process
+Step 1: Prevailing Wage Determination
+The department submits information about the position to International Services in myStatus.
+International Services files a prevailing wage determination with DOL. Prevailing wage processing times usually take several months. There is no way to expedite DOL processing times.
+While the prevailing wage determination is pending, the department must comply with posting notice requirements.
+Step 2: PERM Application
+This step must be filed within 18 months of the job offer date. Once International Services notifies you that the prevailing wage determination has been certified, the department and employee submit information about the search and other details in myStatus.
+International Services files the PERM application with DOL. PERM processing times usually take several months and can exceed a year. There is no way to expedite DOL processing times.
+Step 3: I-140 Petition
+Once International Services notifies you that the PERM application has been certified by DOL, the department and employee submit information in myStatus. International Services files the I-140 petition with USCIS.
+USCIS processing times are usually several months and can exceed a year. Petitions can be expedited for an additional fee.
+Self-Petitioned Pathways
+There are many
+pathways to permanent residency
+outside of Cornell sponsorship, including family-based options (e.g., marriage to a U.S. citizen) and self-petitioned EB-2 NIWs or EB-1As.
+International Services cannot advise on these options, and scholars do not need permission from their department to pursue them. We encourage scholars with questions about these pathways to work with an
+immigration attorney
+.
+After EB-1B, EB-2 NIW, or EB-2 PERM Approval
+Approval of an EB-1B, EB-2 NIW, or EB-2 PERM petition is an important step in the permanent residency process, but it does not grant permanent residency. The approved petition simply establishes that someone is eligible to apply to become a permanent resident.
+To become a permanent resident, the employee must file a separate I-485 adjustment of status application and be approved. The I-485 application can only be filed when the
+priority date
+(typically the date the I-140 petition or PERM application is filed) is current—which for some people may involve a wait of several years.
+International Services cannot review or advise on I-485 applications. International Services will complete the employer portion of Form I-485J. Employees can work with a personal
+immigration attorney
+at their own expense.
+In the meantime, the department can continue to support the employee’s underlying nonimmigrant status—typically H-1B. In most cases, we can continue to extend employees' H-1B status in one- or three-year increments until they become permanent residents. We typically advise employees to continue to maintain their underlying status until they receive their physical permanent resident card ("green card").
+Permanent Resident Card Obtained
+When an international faculty or staff member receives the green card, the department or scholar can upload images of the card's front and back in myStatus. International Services will update Workday and our internal records.
+Once employees have completed I-9s using their permanent resident cards, they should not be asked to reverify their
+employment eligibility
+, even if the permanent resident card later expires.
+USCIS provides helpful information
+about how permanent residents can maintain their status, their rights and responsibilities, and international travel as a permanent resident.
+How We Work with You
+Our advisors work with hiring departments and eligible employees to determine the best route to lawful permanent residency and advise employees through the process. Find out more below about roles, responsibilities, and the services we provide.
+Employee Responsibilities
+Employees are responsible for preparing their EB-1B or EB-2 NIW materials. The I-140 filing fee and optional premium processing fee must be paid by the employee or department.
+Employees are responsible for preparing their own I-485 and adjustment petitions, either independently or with outside legal help. An adjustment petition (with fee) is also required for each applying family member. Review the
+May 2026 alert
+on adjustment of status applications (Form I-485).
+We suggest directing employees to
+Legal Resources
+if they'd like to explore obtaining personal legal advice. Employees are responsible for their own legal fees.
+Department Responsibilities
+Departments are responsible for scheduling a
+mandatory consultation
+shortly after an offer has been accepted by a new permanent teaching hire. Departments do not need to attend consultations with other permanent hires (e.g., research associates).
+EB-1B and EB-2 NIW
+Departments are responsible for providing letters supporting permanent residency and confirming that the scholar has a permanent academic position.
+Departments are responsible for initiating a request in myStatus. It's important to wait until after the scholar's materials have been reviewed by International Services. If the request is submitted too early, it may need to be resubmitted so that information is accurate at the time of USCIS submission.
+Departments may pay I-140 fees but are not required to.
+EB-2 PERM
+Departments are responsible for submitting the prevailing wage request in myStatus (under Permanent Residence Process). Typically, this should be started as soon as possible after an offer has been accepted and the EB-2 PERM is confirmed as the preferred pathway, as this process is time-sensitive.
+Departments are responsible for posting a notice between 30 and 180 days before International Services files the PERM application.
+Once the prevailing wage is certified by DOL, departments are responsible for submitting the PERM request in myStatus (under Permanent Residence Process). Departments are responsible for providing detailed information and documentation about the search and retaining documentation for five years.
+At the I-140 stage, departments are responsible for providing letters supporting permanent residency and confirming that the scholar has a permanent academic position.
+Departments may pay I-140 fees but are not required to.
+Our Services
+Initial Meeting
+During this meeting, we review the process, timeline, and expectations. For EB-1B and EB-2 NIW, we provide instructions to the employee about how to collect and arrange evidence for the I-140 petition.
+Departments must
+set up a consultation
+for all new permanent teaching hires shortly after an offer has been accepted. Direct other employees to
+contact us
+to schedule an initial meeting.
+Review Materials
+EB-1B and EB-2 NIW: Employees contact us with a draft of their materials. International Services reviews evidence and sends the employee feedback.
+EB-2 PERM: Departments submit PERM materials in myStatus. International Services reviews these materials and reaches out with any questions or concerns.
+Forms Submission
+We complete and submit all forms to government agencies, including the I-140 with USCIS and prevailing wage and PERM with DOL. International Services confirms fee amounts and processing time estimates at the time of submission.
+The department or employee pays the I-140 filing fee. Premium processing requires the payment of an additional optional fee by the department or employee.
+Receipt and Approval Notice Processing
+We share I-140 receipt and approval notices with the department and scholar through myStatus, along with information about next steps.
+Problem Solving
+If necessary, International Services responds to any DOL audits and USCIS requests for evidence or intent to deny letters. Departments and/or employees may be responsible for submitting additional materials or information when necessary.
+I-485J Form
+We prepare the employer portion of the I-485J and provide the form for inclusion in the employee's I-485 packet.
+Employee and Department Support
+We assist employees and departments with troubleshooting and guidance as needed.
+Next Up:
+When to Contact IS
+Administrator Resources
+International Services
+Maintaining H-1B Status (for Scholars)
+International Services
+Maintaining O-1/TN/E-3 Status (for Scholars)
+U.S. Citizenship and Immigration Services
+Case Processing Times

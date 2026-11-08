@@ -1,0 +1,27 @@
+URL: https://www.library.cornell.edu/libraries/policies/nondisclosure-clauses/
+TITLE: Nondisclosure Clauses – Cornell University Library
+FETCHED: 2026-11-06
+
+Cornell University Library’s Position on Nondisclosure Clauses in Licenses
+To promote openness and fairness among libraries licensing scholarly resources, Cornell University Library will not enter into vendor contracts that require nondisclosure of pricing information or other information that does not constitute a trade secret. All new and renewed licenses submitted with nondisclosure clauses will not be signed but henceforth will be referred to the Associate University Librarian for Assessment and Planning, Collections and Technical Services for further negotiation.
+Background and Rationale
+Occasionally in licenses governing electronic resources, publishers will request that the Cornell University Library treat the subscription price as confidential information and not disclose it to third parties. In the past, some libraries have tolerated these clauses in the belief that they might result in a lower cost. This, however, is a position that our Library can no longer accept.
+It has become apparent to the library community that the anticompetitive conduct engaged in by some publishing firms is in part a result of the inclusion of nondisclosure agreements in contracts.
+1
+As Robert Darnton recently noted, by “keeping the terms secret, … one library cannot negotiate for cheaper rates by citing an advantage obtained by another library.”
+2
+For this reason, the International Coalition of Library Consortia’s “Statement of Current Perspective and Preferred Practices for the Selection and Purchase of Electronic Information” states that “non-disclosure language should not be required for any licensing agreement, particularly language that would preclude library consortia from sharing pricing and other significant terms and conditions with other consortia.”
+3
+The more that libraries are able to communicate with one another about vendor offers, the better they are able to weigh the costs and benefits of any individual offer. An open market will result in better licensing terms.
+Additionally, nondisclosure agreements conflict with the needs of our librarians and staff to work openly, collaboratively, and transparently. This conflict increases the likelihood that the terms of a nondisclosure agreement would be inadvertently violated, posing a threat to the university.
+We endorse, therefore, the position of the Association of Research Libraries that its member libraries should not sign (or accept new or revised) agreements that include confidentiality or nondisclosure clauses. We will share upon request information contained in these agreements (save for trade secrets or proprietary technical details).
+4
+Most publishers find that non-disclosure agreements are not necessary. Among the numerous journal and ebook publishers and aggregators whose current contracts with us omit non-disclosure clauses are the American Institute of Physics (AIP), American Physical Society (APS), ASTM International, American Society for Microbiology (ASM), American Chemical Society (ACS), Bloomberg, Cambridge University Press, EBSCO, Elsevier, IEEE, Institute of Physics (IOP), Knovel, Oxford University Press, Proquest, Sage, SPIE, Taylor & Francis, and Wiley.
+1. Susman, Thomas M., “Statement By Thomas M. Susman on Behalf of the Information Access Alliance Prepared for the U.S. Department Of Justice and Federal Trade Commission Hearings on Single-Firm Anticompetitive Conduct, Washington, D.C., November 2006.”
+http://www.arl.org/storage/documents/publications/iaa-doj-ftc-nov2006.pdf
+2. Darnton, Robert, “The Library: Three Jeremiads,” New York Review of Books, 57:20 (Dec. 23, 2010).
+https://www.nybooks.com/articles/2010/12/23/library-three-jeremiads/
+3. International Coalition of Library Consortia (ICOLC), “Statement of Current Perspective and Preferred Practices for Selection and Purchase of Electronic Information (Update No. 2, Pricing and Economics, October, 2004).”
+http://icolc.net/statement/statement-current-perspective-and-preferred-practices-selection-and-purchase-electronic
+4. “ARL Encourages Members to Refrain from Signing Nondisclosure or Confidentiality Clauses.” Research Library Issues: A Bimonthly Report from ARL, CNI, and SPARC, no. 264 (June 2009): 1–2.
+http://www.arl.org/news/arl-news/3062-arl-encourages-members-to-refrain-from-signing-nondisclosure-or-confidentiality-clauses

@@ -1,0 +1,69 @@
+URL: https://www.library.cornell.edu/about/staff/central-departments/assessment-planning/cul-data/
+TITLE: Cornell University Library Data – Cornell University Library
+FETCHED: 2026-11-06
+
+Accounting and Labor Distribution Reports
+KFS ID&R dashboards
+Contact Ann Crowley (
+ama8@cornell.edu
+) for information.
+Acquisitions Vendor Databases
+Vendor database
+s
+Contact Peter McCracken (
+phm64@cornell.edu
+) for access.
+Annual Data Collection
+Annual Data Collection Tableau dashboards & Excel reports
+Annual Data Collection wiki
+Contact Library Assessment and Planning (
+assessmentandplanning@cornell.edu
+) with questions.
+E-resources Usage Statistics
+CUL data dashboards
+(Selector, Annual Data Collection Tableau dashboards via Confluence, with supporting documentation)
+CUL Usage Statistics wiki
+Contact Adam Chandler (
+alc28@cornell.edu
+) with usage data requests.
+FOLIO Data
+CUL data dashboards (Access Services, Selector, Reference & Instruction, Annual Data Collection
+Tableau dashboards via Confluence, with supporting documentation)
+Confluence page
+FOLIO canned reports directory
+Contact Sharon Markus (
+slm5@cornell.edu
+) for more information.
+Interlibrary Loan (ILL) Data
+ILLiad (traditional interlibrary loans) and BorrowDirect’s Research Sharing Assessment Tool
+Contact Caitlin Finlay (
+cmf7@cornell.edu
+).
+In-Person Visits
+SenSource
+Contact A&P for software help (
+assessmentandplanning@cornell.edu
+).
+Contact Jon Ladley for hardware help (
+jfl65@cornell.edu
+).
+Instruction, Reference, Outreach
+Dashboard for reference and instruction
+(access link via Confluence)
+Springshare data sets
+(login with your LibApps credentials; contact
+libinsight@cornell.edu
+for access)
+LibGuides
+(Springshare) – contact A&P (
+assessmentandplanning@cornell.edu
+) for info
+Web Usage Statistics
+Google Analytics
+: Contact
+CUL-LIBSYS-L@cornell.edu
+for access.
+Matomo
+: Contact
+CUL_LIBSYS-L@cornell.edu
+for access.

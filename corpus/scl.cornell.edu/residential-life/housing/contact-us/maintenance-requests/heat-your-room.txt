@@ -1,0 +1,40 @@
+URL: https://scl.cornell.edu/residential-life/housing/contact-us/maintenance-requests/heat-your-room
+TITLE: Heat in Your Room | Student & Campus Life | Cornell University
+FETCHED: 2026-11-06
+
+Heat in Your Room
+How and when are buildings heated?
+The heat is typically turned on in the residential communities in early October.  Building temperatures are set at approximately 68-72 degrees Fahrenheit (20-22 degrees Celsius).  Most buildings are heated with hot water, and you may be able to hear when the heating system is operating.
+Can I adjust the heat in my room?
+Yes, to some extent.  You usually can adjust your heat about 2-3 degrees up or down.  This allows buildings to maintain a consistent temperature of 68-72 degrees Fahrenheit (20-22 degrees Celsius).
+Rooms with radiators:
+You may adjust your heat by turning the control dial on your radiator (examples are pictured below). The "*" symbol turns off the radiator, meaning your room will be heated only as a result of its proximity to the hallway and other heated spaces in the building. "1" is the minimum heat level, and "5" is the maximum.
+TOO WARM?
+Turn the dial down toward "*" to turn the radiator down or off.  Open your door to increase the airflow from the hallway.
+TOO COLD?
+Turn the dial up toward "5" to turn up the radiator.  Be sure that your windows and door are closed, and that there is sufficient space for airflow around the radiator.
+Having trouble?
+Remember that you can only adjust your room's heat about 2-3 degrees up or down, and only during the months when the building is heated.
+Be sure that there is enough room for airflow around the radiator. If you restrict the airflow (due to items being pushed up against it, for example) the radiator will not work properly, regardless of the dial setting.
+In some older buildings, you might experience a long response time after you adjust the radiator dial. It may even take a couple of hours before you notice a temperature difference.
+If after a couple of hours you still don't notice a difference, try "exercising" the control dial by turning it slowly from low to high a few times.
+If you believe your heat is not working, please
+place a maintenance request
+.
+(You must have a Cornell NetID to enter your request. Residents without a NetID should contact their
+service center
+.)
+Rooms with wall-mounted sensors:
+TOO WARM?
+Push the lever DOWN to reduce your heat. Open your door to increase airflow from the hallway.
+TOO COLD?
+Push the lever UP to increase your heat. Be sure your windows and door are closed, and there is sufficient space for airflow around the sensor.
+Having trouble?
+Remember that you can only adjust your room's heat about 2-3 degrees up or down, and only during the months when the building is heated.
+Be sure that there is enough room for airflow around the temperature sensor.
+If you believe your heat is not working, please
+place a maintenance request
+.
+(You must have a Cornell NetID to enter your request. Residents without a NetID should contact their
+service center
+.)

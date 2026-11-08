@@ -1,0 +1,50 @@
+URL: https://registrar.cornell.edu/faculty-staff/faculty-resources/faculty-center-and-advisor-center
+TITLE: Faculty Center and Advisor Center | Registrar
+FETCHED: 2026-11-06
+
+Faculty Center and Advisor Center
+Faculty Center and Advisor Center
+are accessed from the same URL
+. A Network ID and password are required to access the site. Starting June 30, 2018, all individuals accessing Faculty Center and Advisor Center will be required to use Cornell's
+Two-Step Login
+service. Faculty and/or instructors affiliated with a class will see the Faculty Center tab. Advisors and graduate committee members will see the Advisor Center tab.
+Faculty Center
+Faculty Center
+provides a single point of entry to access your class information. View your teaching schedule, room assignments, class rosters with photos, and grade rosters. Faculty Center is where you will enter or upload grades. For additional information, please visit the
+Faculty Grading
+webpage.
+Advisor Center
+Advisor Center, available in
+Faculty Center
+, is where advisors and graduate committee members can access a variety of tools to review an advisee's historical record, current schedule, requirements, and future academic planning. See the
+Advisor Center help document
+for additional information.
+Under the academics area of the student center tab, view an advisee's:
+Class Schedule:
+Advisee class schedule for a selected term.
+Shopping Cart:
+Shopping cart of classes not yet in enrolled status.
+My Planner: S
+tudents can add courses to their planner by selecting from the course catalog in Student Center, or from the list of courses required for completion of their program. My Planner allows students to move courses to a specific term for planning purposes, but there is no guarantee that the course will be offered in the term that they have chosen.
+Milestones:
+In the Milestones box on the right, view details for specific requirements (e.g. Swim Test, Master's Thesis), including completion status.
+Additionally, from the "other academic" drop-down menu, access an advisee's:
+Academic Requirements:
+Academic requirements, status of satisfied or not satisfied, and the courses that would fulfill each requirement. Not all degree programs have been set up to display academic requirements or degree progress in My Academics.
+Course History:
+Review an advisee's course record, including completed, in progress, and planned courses. This sortable report displays term, grade, and credits.
+Unofficial Transcript:
+Select academic institution and report type to quickly view an unofficial transcript. Unofficial transcripts are not to be shared with students.
+Transfer Credit Report:
+See a summary of the test and transfer credits that are part of an advisee's academic record.
+Data Protection
+As a university official with access to student information and records, you are a custodian of this data and responsible for ensuring the privacy and security of education records and personal information in accordance with all university policies and federal and state laws. The
+University Policy on Access to Student Information
+provides guidelines on appropriate use of data.
+Need Help?
+See the
+Advisor Center FAQ page
+.
+Send an email to
+pssr-support@cornell.edu
+.

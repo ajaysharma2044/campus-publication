@@ -1,0 +1,69 @@
+URL: https://alumni.cornell.edu/article/game-changing-gift-for-public-interest-tech/
+TITLE: Game-changing gift for Public Interest Tech - Alumni, parents, and friends | Cornell University
+FETCHED: 2026-11-06
+
+Game-changing gift for Public Interest Tech
+Cornell Tech Campus on Roosevelt Island
+By
+Linda Copman
+May 20, 2020
+Cornell Tech has announced a $1 million grant from The Atlantic Philanthropies to jumpstart its Public Interest Tech (PiTech) initiative. PiTech will be geared toward developing the tools, systems, data sets, research, and education needed to address significant public sector concerns.
+The gift will help Cornell Tech create the foundational infrastructure for the PiTech initiative, which bridges the gap between the public and private sectors in much the same way public interest law does. The goal is to build a community of researchers and practitioners dedicated to addressing societal challenges that might otherwise “fall between the cracks” of federal research funding, commercial investment, and foundation support.
+The Atlantic Philanthropies’ new grant to launch the Public Interest Tech initiative is the foundation’s very last to Cornell University—a capstone to an extraordinary legacy of support from Chuck Feeney for his alma mater.
+—Fred Van Sickle, vice president for Alumni Affairs and Development, Cornell University
+A full circle of giving to Cornell
+The Atlantic Philanthropies, founded by Charles F. Feeney ’56, has a long history of giving to Cornell University. In 2011,
+Atlantic made its largest ever commitment
+, $350 million, to support the establishment of Cornell Tech at a critical moment in Cornell’s winning bid to build an applied sciences and technology campus in New York City.
+The establishment of Cornell Tech is one of the great success stories of U.S. higher education, thanks in large part to the generosity, vision, and support of The Atlantic Philanthropies.
+—Greg Morrisett, Jack and Rilla Neafsey Dean and vice provost, Cornell Tech
+Greg Morrisett, Jack and Rilla Neafsey Dean and vice provost at Cornell Tech
+“The Atlantic Philanthropies’ new grant to launch the Public Interest Tech initiative is the foundation’s very last to Cornell University—a capstone to an extraordinary legacy of support from Chuck Feeney for his alma mater,” said Fred Van Sickle, vice president for Alumni Affairs and Development at Cornell. “Atlantic will complete its grant-making and close its doors this year, achieving Chuck’s goal of giving away his entire fortune in his lifetime. Cornell and Cornell Tech are proud to have played such an important role in Chuck’s mission of ‘giving while living,’ which has resulted in more than $8 billion in philanthropy around the world and nearly $1 billion to our university.”
+“We are honored that one of our final gifts will support the Cornell Tech campus once more,” said Christopher Oechsli, president and CEO of The Atlantic Philanthropies, “and can think of no better use than Public Interest Tech—advancing technology as a means to a better quality of life for communities in New York City, across the nation, and around the world.”
+A great differentiator for Cornell Tech
+Upon joining Cornell Tech in summer 2019, Greg Morrisett, Jack and Rilla Neafsey Dean and vice provost of Cornell Tech, elevated PiTech as a priority for campus.
+“Our commitment to initiatives like Public Interest Tech will be what sets Cornell Tech apart from other institutions,” said Morrisett. “We are distinguished by a drive not simply to advance tech for tech’s sake, but to build a better world. I am enormously grateful for The Atlantic Philanthropies’ support of this vision.”
+Deborah Estrin, associate dean for impact and Robert V. Tishman ’37 Professor at Cornell Tech
+Associate dean for impact and Robert V. Tishman ’37 Professor Deborah Estrin was also instrumental in coordinating the Atlantic gift. She works to strengthen Cornell Tech’s external relationships with public, private, and non-profit organizations
+—
+in service of campus-wide initiatives.
+“This generous seed gift from The Atlantic Philanthropies will enable early concept testing as a foundation for our large-scale launch,” said Estrin, “creating a platform for shaping new technologies to meet unmet public interest needs
+.
+”
+A model for collaboration in the public interest
+In the near term, the Atlantic gift will help Cornell Tech seed the infrastructure necessary to catalyze collaboration among technical, policy, and community experts and develop technologies in the public interest. The initiative will span both Cornell Tech and Ithaca campuses, uniting public interest tech activity across the university.
+One of the driving inspirations for PiTech was the tech clinic, a form of public interest tech which emerged organically at Cornell Tech. The first tech clinic launched in fall 2019, in partnership with the Mayor’s Office to End Domestic and Gender-Based Violence. The
+Clinic to End Tech Abuse (CETA)
+supports survivors of intimate partner violence (IPV). By pairing Cornell Tech’s expertise in human-computer interaction and security with engagement by IPV victims and policymakers, Professors Nicki Dell and Tom Ristenpart developed
+a computer security clinic that helps IPV survivors navigate technology abuse
+. They are now scaling the clinic to serve the larger New York City metropolitan region and helping to create a model that is replicable across the country.
+Thomas Ristenpart, associate professor of Computer Science, partnered with assistant professor Nicola Dell to develop the Clinic to End Tech Abuse (CETA), a first-of-its-kind computer security clinic to help survivors of intimate partner violence navigate technology abuse.
+The Atlantic gift will help support the establishment of two additional tech clinics over the next two years. These clinics will focus the expertise of Cornell Tech faculty on public interest research. “For example, the current COVID-19 pandemic has amplified the need for sociotechnical solutions around disease surveillance and home-based medical care,” explained Estrin.
+A strategy for the post-COVID-19 world
+The Atlantic Philanthropies’ gift will support the launch of a Public Interest Tech Studio, allowing master’s students to gain product development experience addressing real-world public interest challenges.
+As New York City and communities around the world look to rebound in the post-COVID-19 era, there is widespread consensus that recovery should be driven by sound data. Shalini Mimani, associate vice president for Alumni Affairs and Development at Cornell Tech, believes that Cornell Tech and its researchers are well positioned to fill the need for data-science based decision making and technology-enabled interventions that will be critical to drive the recovery effort in New York City, New York state, and beyond.
+“Cornell Tech researchers and students are poised to work across technology, policy, and industry networks to assess and develop approaches that can support communities affected by these challenges. PiTech will be particularly relevant as New York City and the world at large struggle to recover from the social and economic impact of the pandemic.” Mimani said.
+We are distinguished by a drive not simply to advance tech for tech’s sake, but to build a better world.
+—Greg Morrisett, Jack and Rilla Neafsey Dean and vice provost of Cornell Tech
+The gift will support the launch of a Public Interest Tech Studio, which will provide master’s students with product development and entrepreneurial experience addressing real-world public interest challenges with non-profits and other socially-minded organizations. In Studio, a core part of the Cornell Tech curriculum, students work in interdisciplinary teams to develop tech solutions for startups, companies, and organizations in New York City.
+Examples of the kinds of issues PiTech could help address include:
+How might we rapidly build tools for monitoring and managing a public health crisis?
+How might we support public school systems in assessing the fairness and privacy features of the software platforms they increasingly depend upon?
+How might we bring the ease and enjoyment of consumer technologies to the elderly, or others with impaired sight, hearing, or mobility?
+How might we leverage community participation in data-driven decision making to help cities address the challenges of climate change?
+A grand vision fueled by an in-house engine
+The long-term goal is to create an Institute for Public Interest Technology at Cornell Tech, which would incubate and launch tech clinics and support related research, education, and policy making in the public interest.
+Cornell Tech students and faculty co-create with industry partners and user communities to design technologies with direct impact.
+“Cornell Tech attracts faculty and students who are compelled by the unique social impact mission of the campus and its unparalleled offering of world-class technical depth in the heart of NYC,” said Estrin. “This gift will give us the resources to further expand this social impact work.”
+Since its founding,
+Cornell Tech
+has graduated 800 students, recruited 27 faculty, and established eight technical and industry-focused master’s degree programs. There are currently about 440 master’s and PhD students enrolled.
+Cornell Tech is slated to enroll 1800 students and employ 250 faculty by 2043, as part of its commitment to the city. The campus plans to double the size of its faculty and student body over the next five years.
+“The establishment of Cornell Tech is one of the great success stories of U.S. higher education, thanks in large part to the generosity, vision, and support of The Atlantic Philanthropies,” said Morrisett.
+Categories
+Alumni news
+Giving
+Tags
+Cornell Tech
+Entrepreneurship
+giving

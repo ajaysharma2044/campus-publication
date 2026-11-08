@@ -1,0 +1,59 @@
+URL: https://as.cornell.edu/news/revised-tree-ring-data-confirms-ancient-mediterranean-dates
+TITLE: Revised tree ring data confirms ancient Mediterranean dates
+FETCHED: 2026-11-06
+
+Revised tree ring data confirms ancient Mediterranean dates
+Archaeology Program, Classics
+By |
+Kate Blackwood
+,
+Cornell Chronicle
+8/26/2020
+Sturt Manning
+is leading investigations into the timelines of ancient events, using tree ring data to refine the widely used radiocarbon dating method.
+In research
+published Aug. 17 in Scientific Reports
+, Manning, the Goldwin Smith Professor of Classical Archaeology in the College of Arts and Sciences, fine-tunes date ranges for ancient events in Mesopotamia, Egypt and Anatolia, and a controversial volcanic eruption on ancient Thera. He and collaborators, including Brita Lorentzen, research associate in the
+Cornell Tree Ring Laboratory
+, used IntCal20, an international calibration curve released this year, in search of higher-resolution historical chronologies.
+Radiocarbon dating measures the decomposition of carbon-14, an unstable isotope of carbon found in all organic matter and created by cosmic radiation. Because cosmic radiation is not constant at all times, a database of known-age tree rings helps archaeologists calibrate radiocarbon readings against a second standard for dating objects. A standard calibration curve based on tree ring data was introduced in 1986; it is updated every few years as more data is added.
+IntCal20 contains twice as much data as the previous curve, from 2013, using crowdsourced tree ring data from all over the world. Nevertheless, problems remain, Manning said, largely based on the fact that IntCal20 encompasses the entire Northern Hemisphere, which has many different growing seasons.
+A section of a tree from Taybet Zaman, Jordan after sampling for radiocarbon dating. Sturt Manning/Provided
+As demonstrated by this and previous papers from the Cornell Tree Ring Lab, problematic offsets occur in the data from different regions, depending on climate and elevation of various trees within the Northern Hemisphere. An oak growing near sea level in southwestern California grows from October to April, whereas a bristlecone pine growing in the White Mountains in eastern California grows from mid-June to early August.
+These variations lead to small differences in radiocarbon levels. Applied in the east Mediterranean several thousand years ago, this could move dates by as much as 50 calendar years – changing history.
+“While small,” Manning said, “these differences could be vital to high-resolution chronology in the history-rich east Mediterranean.”
+Investigating ancient Mesopotamia, the team compared IntCal20 against their independent analysis of tree ring data related to the Old Assyrian/Old Babylonian period in the Bronze Age. While IntCal20 data proved incomplete, the researchers’ analysis aligns closely with textual evidence related to the reign of Shamshi-Adad I.
+“This gives us a pretty secure and precise date for this king and thence the Old Assyrian and Old Babylonian periods,” Manning said. “We have substantially refined and reinforced previous work from 2016 and, in principle, this finding largely resolves many decades of scholarly debate.”
+Similar investigations into Egypt confirmed existing timelines for the New Kingdom, which is related to another site and event: a volcanic eruption on ancient Thera, now known as Santorini.
+The new calibration curve, together with investigation into tree ring offsets, narrow the possible date range substantially, Manning said. Before, the “early” dates for this event were about 1628 B.C. and the “late” dates 1530-1500 B.C.
+“Our modeling exercise finds the early range is much smaller and a little later than previously assessed: 1619-1600 B.C.,” Manning said. “And the later range cannot be any later than around 1540 B.C.”
+Debated for years by archaeologists, the date of this major eruption, which spread ash across the Mediterranean and sent tsunamis onto the shores of Crete, has ramifications for the understanding of Bronze Age history and cultural influence in the region. A precise date for the Thera eruption would also benefit further archaeological research all over the region; researchers could date sites and artifacts to the year of the eruption whenever they hit a layer of ash.
+Ideally, regional versions of future international calibration curves will account for growing season differences, Manning said, leading to more accurate understanding of ancient events.
+This research was funded in part by grants from the National Science Foundation and the Social Science and Humanities Research Council, Canada.
+Read the story in the
+Cornell Chronicle
+.
+More News from A&S
+Victoria Smith/Laude
+Members of the Cornell “Moonshot” lab will develop a novel infrastructure to ensure trust in online communication. From left: Natalie Bazarova, Robert Kleinberg, Cristian Danescu-Niculescu-Mizil, Jon Kleinberg, David Rand and Mor Naaman.
+Project to rebuild trust in AI era lands Laude’s $10M ‘moonshot’ award
+Psychology
+11/6/2026
+Cornell Chronicle
+Courtesy of Demo Lab Foundation
+From left: Marian Vidaurri, Rachel Riedl, Nia Demming at the July Cornell Tech event.
+‘Train the trainers’ event convenes democracy leaders, educators, activists
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+Sheryl Sinkow/Cornell University
+(From left to right): Professors Stewart Schwab, Oumar Ba, Nelson Tebbe, Mildred Warner, and Natasha Raheja.
+Scholarly leadership to protect and strengthen democracy
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+New book details history of sound’s claim on our attention
+Music
+11/6/2026
+A&S Communications
+View all news

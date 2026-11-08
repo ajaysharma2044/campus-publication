@@ -1,0 +1,30 @@
+URL: https://registrar.cornell.edu/stellic-cornell/stellic-support
+TITLE: Stellic Support | Registrar
+FETCHED: 2026-11-06
+
+Stellic Support
+For questions on Stellic, the first point of contact for students and advisors will be their
+Home College Student Services Office
+.
+Contact your college or school
+if your question is regarding:
+Stellic is functioning correctly, but specific information looks incorrect (student information, course information, etc. )
+Any access issues (ex. Advisor unable to access Stellic)
+Transfer courses are not appearing under Courses on a student in Stellic
+Contact the Office of the University Registrar Stellic Team (
+stellic@cornell.edu
+)  if your question is regarding:
+Stellic is not working as expected (ex. something is not applying in the audit as expected)
+You receive an error message in Stellic
+Stellic is not loading or acting slow, please clear cache before reaching out.
+Training for advisors and access to the Sharepoint site that has the Stellic Training videos
+If you are unsure who to contact, please
+contact your college or school
+first and they will triage to the Stellic Team if needed.
+General support for using and navigating Stellic can be found on the
+Stellic Help Center
+. Additionally, the Stellic support team is available to students and advisors via chat directly within the portal.
+For questions about the tool itself (i.e. navigation, features, bugs, etc.), please utilize the "Questions? Reach out here" button in the lower left-hand corner of Stellic to be connected  with a Stellic representative. Please note: Stellic representatives will not be able to answer any questions about degree programs or academics. Those questions must go through advisors. Click on the "?" symbol in the upper right corner of Stellic to access user guides and other useful information.
+For assistance with logging into Stellic, please visit
+the Stellic login help website
+.

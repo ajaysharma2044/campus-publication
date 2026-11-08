@@ -1,0 +1,58 @@
+URL: https://as.cornell.edu/news/study-machine-learning-can-predict-market-behavior
+TITLE: Study: Machine learning can predict market behavior
+FETCHED: 2026-11-06
+
+Study: Machine learning can predict market behavior
+Economics
+By |
+Melanie Lefkowitz
+,
+Cornell Chronicle
+8/11/2020
+Machine learning can assess the effectiveness of mathematical tools used to predict the movements of financial markets, according to new Cornell research based on the largest dataset ever used in this area.
+The model created by a team of Cornell researchers that includes lead author
+Maureen O’Hara
+, the Robert W. Purcell Professor of Management at the SC Johnson College of Business, and corresponding author
+David Easley
+, the Henry Scarborough Professor of Social Science in the College of Arts and Sciences and professor of information science in Computing and Information Science, could also predict future market movements, an extraordinarily difficult task because of markets’ massive amounts of information and high volatility.
+“What we were trying to do is bring the power of machine learning techniques to not only evaluate how well our current methods and models work, but also to help us extend these in a way that we never could do without machine learning,” said O’Hara.
+Their paper “
+Microstructure in the Machine Age
+” published July 7 in The Review of Financial Studies. Also contributing was Marcos Lopez de Prado, professor of practice in Operations Research and Information Engineering in the College of Engineering and chief information officer of True Positive Technologies.
+Zhibai Zhang of New York University’s Tandon School of Engineering, also a quantitative researcher at Bank of America, joined in the research.
+“Trying to estimate these sorts of things using standard techniques gets very tricky, because the databases are so big. The beauty of machine learning is that it’s a different way to analyze the data,” O’Hara said. “The key thing we show in this paper is that in some cases, these microstructure features that attach to one contract are so powerful, they can predict the movements of other contracts. So we can pick up the patterns of how markets affect other markets, which is very difficult to do using standard tools.”
+Markets generate vast amounts of data, and billions of dollars are at stake in mining that data for patterns to shed light on future market behavior. Companies on Wall Street and elsewhere employ various algorithms, examining different variables and factors, to find such patterns and predict the future.
+In the study, the researchers used what’s known as a random forest machine learning algorithm to better understand the effectiveness of some of these models. They assessed the tools using a dataset of 87 futures contracts – agreements to buy or sell assets in the future at predetermined prices.
+“Our sample is basically all active futures contracts around the world for five years, and we use every single trade – tens of millions of them – in our analysis,” O’Hara said. “What we did is use machine learning to try to understand how well microstructure tools developed for less complex market settings work to predict the future price process both within a contract and then collectively across contracts. We find that some of the variables work very, very well – and some of them not so great.”
+Machine learning has long been used in finance, but typically as a so-called “black box” – in which an artificial intelligence algorithm uses reams of data to predict future patterns but without revealing how it makes its determinations. This method can be effective in the short term, O’Hara said, but sheds little light on what actually causes market patterns.
+“Our use for machine learning is: I have a theory about what moves markets, so how can I test it?” she said. “How can I really understand whether my theories are any good? And how can I use what I learned from this machine learning approach to help me build better models and understand things that I can’t model because it’s too complex?”
+Huge amounts of historical market data are available – every trade has been recorded since the 1980's – and vast volumes of information are generated every day. Increased computing power and greater availability of data have made it possible to perform more fine-grained and comprehensive analyses, but these datasets, and the computing power needed to analyze them, can be prohibitively expensive for scholars.
+In this research, finance industry practitioners partnered with the academic researchers to provide the data and the computers for the study as well as expertise in machine learning algorithms used in practice.
+“This partnership brings benefits to both,” said O’Hara, adding that the paper is one in a line of research she, Easley and Lopez de Prado have completed over the last decade. “It allows us to do research in ways generally unavailable to academic researchers.”
+Read the story in the
+Cornell Chronicle
+.
+More News from A&S
+Victoria Smith/Laude
+Members of the Cornell “Moonshot” lab will develop a novel infrastructure to ensure trust in online communication. From left: Natalie Bazarova, Robert Kleinberg, Cristian Danescu-Niculescu-Mizil, Jon Kleinberg, David Rand and Mor Naaman.
+Project to rebuild trust in AI era lands Laude’s $10M ‘moonshot’ award
+Psychology
+11/6/2026
+Cornell Chronicle
+Courtesy of Demo Lab Foundation
+From left: Marian Vidaurri, Rachel Riedl, Nia Demming at the July Cornell Tech event.
+‘Train the trainers’ event convenes democracy leaders, educators, activists
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+Sheryl Sinkow/Cornell University
+(From left to right): Professors Stewart Schwab, Oumar Ba, Nelson Tebbe, Mildred Warner, and Natasha Raheja.
+Scholarly leadership to protect and strengthen democracy
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+New book details history of sound’s claim on our attention
+Music
+11/6/2026
+A&S Communications
+View all news

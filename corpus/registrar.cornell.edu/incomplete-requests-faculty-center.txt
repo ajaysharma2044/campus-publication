@@ -1,0 +1,48 @@
+URL: https://registrar.cornell.edu/incomplete-requests-faculty-center
+TITLE: Incomplete Requests - Faculty Center | Registrar
+FETCHED: 2026-11-06
+
+Incomplete Requests - Faculty Center
+Video
+Video file
+Initiating an Incomplete Request
+Navigation: Faculty Center > My Schedule > Grade Roster Icon (
+)
+Step 1: To request an Incomplete, click Initiate Incomplete for the student. This will open the Incomplete Request page.
+If a student has an incomplete request currently under review by the College Registrar, the link will display Pending Incomplete.
+Users can view the student’s grade change history for this course by clicking Grd Chg History — this will open in a new tab or window.
+If an NGR grade is present and an INC needs to be requested, the user will submit a Grade Change Request and select INC as the new grade which will require completion of the Incomplete fields.
+Step 2: Complete the Incomplete Grade Details section for the student’s request.
+Complete the attestation checkbox that the incomplete request meets Faculty Handbook requirements
+Enter the Remaining Work to be completed by student
+Enter the Remaining Work Required By date
+Select the Expected Grade if Completed (if unknown, select TBD)
+Select the Current Final Grade
+Select the Registrar Action if deadline is missed by student
+Click Submit
+Step 3: Once submitted, the request will be sent to the student’s College for review. The workflow information will appear on the page with a comments section. If any comments are needed, these can be entered at this time.
+Step 4: The student’s College Registrar Office will review the request.
+If approved; the student and the submitter will receive an email with details pertaining to the approved Incomplete. The INC grade will also be added to the student and visible on the grade roster.
+If denied, the submitter of the request will receive an email notification to review the student’s grade change in Faculty Center under the Grade Change History link.
+Resolving an Incomplete (INC) grade
+Navigation: Faculty Center > My Schedule > Grade Roster Icon ( )
+Step 1: In Faculty Center, navigate to the term and class for the student.
+Step 2: Click ‘Initiate Grade Change’ on the student
+Select the Reason of Incomplete Resolved.
+Select the New Official Grade
+If the grade is a U/UX/F value, the user will be prompted to enter Unearned Grade Information.
+Enter the Date Final Work Submitted.
+Complete the attestation checkbox indicating the student’s grade change meets the student’s incomplete requirements (which may or may not have been fully completed).
+Click Submit.
+Step 3: The College Registrar approvers will review the request.
+If denied, the user will be notified to review the request in Faculty Center for the denial reason.
+If approved, the student’s grade will be updated to the New Official Grade value from the request.
+Requesting an Incomplete (INC) Date Extension:
+Navigation: Faculty Center > My Schedule > Grade Roster Icon ( )
+Step 1:  In Faculty Center, navigate to the term and class for the student where the date extension is being requested.
+Step 2: Click ‘Initiate Grade Change’ on the student
+Step 3: Select the Reason of Incomplete Grade Extension. The New Grade will gray out as an INC grade.
+Step 4: The ‘Remaining Work Required by’ date will be required for entry. Update with the new date being requested for the student.
+Step 5: Click Submit. The College Registrar approvers will review the request.
+If denied, the user will be notified the reason for the denial
+If approved, the date will be updated on the student’s incomplete record request in PeopleSoft for tracking purposes.

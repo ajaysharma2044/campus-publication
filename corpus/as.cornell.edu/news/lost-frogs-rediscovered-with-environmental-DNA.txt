@@ -1,0 +1,62 @@
+URL: https://as.cornell.edu/news/lost-frogs-rediscovered-with-environmental-DNA
+TITLE: Lost frogs rediscovered with environmental DNA
+FETCHED: 2026-11-06
+
+Lost frogs rediscovered with environmental DNA
+Ecology and Evoluntionary Biology
+By |
+James Dean
+,
+Cornell Chronicle
+9/8/2020
+Scientists have detected signs of a frog listed extinct and not seen since 1968, using an innovative technique to locate declining and missing species in two regions of Brazil.
+The frog, Megaelosia bocainensis, was among seven total species – including four other declining species, and two that had disappeared locally for many years – that were detected. The findings appeared in a paper, “
+Lost and Found: Frogs in a Biodiversity Hotspot Rediscovered with Environmental DNA
+,” published in August in Molecular Ecology.
+The jungles of Brazil
+In the study, the researchers collected and screened environmental DNA (eDNA) in the biodiverse Atlantic Coastal Forest and Cerrado grasslands of Brazil.
+The eDNA technique offers a way to survey that can confirm the presence of species undetected by traditional methods, providing a tool for conservation scientists to evaluate the presence of threatened species, especially those with low population densities and those not seen in years.
+After careful research to identify species at various levels of threat in these regions of Brazil, the researchers used the eDNA method to search for 30 target amphibian species in six localities where the frogs were known to previously live.
+“Little bits of DNA in the environment don’t tell us about how many individuals there are or whether those individuals are healthy, but it does tell us that the species is still present,” said senior author
+Kelly Zamudio
+, the Goldwin Smith Professor of Ecology and Evolutionary Biology in the College of Arts and Sciences.
+“This is one more kind of survey data, and for species that are declining or locally disappeared, it not only means they are there, but there’s now the potential to study them in more detail,” she said, noting that for many species, very little is known.
+Délio Baêta/Provided
+Megaelosia bocainensis. A disappeared species from Parque Nacional da Serra da Bocaina, Brazil, known only from this museum specimen collected in 1968, and detected by eDNA surveys.
+Around the world, conservationists have been challenged to keep pace with declining and disappearing amphibians. At the same time, living organisms leave DNA traces in the soil, water and air. Now, scientists are increasingly using highly sensitive sampling techniques to detect eDNA for conservation purposes.
+In the study, the researchers targeted 13 frog species that have totally disappeared and are presumed extinct; 12 frogs that have disappeared locally but are still found in other parts of their range; and five species that were once very abundant and are still there but hard to find.
+A long hike for discovery
+The researchers hiked into the sampling sites carrying battery packs, a shoebox-sized peristaltic pump and backpacks of sterile tubing. They used the pump and tubing to draw up to 60 liters of stream or pond water through a capsule fitted with a filter for capturing DNA. A buffer was then applied to stabilize and preserve the DNA on the filter.
+Back in the lab, the researchers extracted the DNA, genetically sequenced it, weeded out genetic material from humans, pigs, chickens and other organisms until they could isolate all the frog DNA.
+“Now you’ve got a subset of genetic sequences that we know only belong to frogs, and then it’s step by step, going finer and finer, until you get to the genus and species you are looking for,” Zamudio said.
+Identifying M. bocainensis required clever detective work: The species disappeared long ago, and there were no tissues from which to extract DNA for comparison with the eDNA. But the researchers did have the sequences for all the sister species in the genus Megaelosia and they knew the ranges of the sister species and M. bocainensis.
+“We know there’s a Megaelosia there,” Zamudio said, “we just don’t know which one it is, but the only one that has ever been reported there historically is the one that went missing. Do we believe it? That’s how far the analysis can take us.”
+Zamudio added that samples from nearby areas may be worth collecting for more signs of M. bocainensis.
+Carla Martins Lopes, a researcher at São Paulo State University in Brazil, is the paper’s first author.
+The Brazilian National Council for Scientific and Technological Development and the São Paulo Research Foundation funded the study.
+More News from A&S
+Victoria Smith/Laude
+Members of the Cornell “Moonshot” lab will develop a novel infrastructure to ensure trust in online communication. From left: Natalie Bazarova, Robert Kleinberg, Cristian Danescu-Niculescu-Mizil, Jon Kleinberg, David Rand and Mor Naaman.
+Project to rebuild trust in AI era lands Laude’s $10M ‘moonshot’ award
+Psychology
+11/6/2026
+Cornell Chronicle
+Courtesy of Demo Lab Foundation
+From left: Marian Vidaurri, Rachel Riedl, Nia Demming at the July Cornell Tech event.
+‘Train the trainers’ event convenes democracy leaders, educators, activists
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+Sheryl Sinkow/Cornell University
+(From left to right): Professors Stewart Schwab, Oumar Ba, Nelson Tebbe, Mildred Warner, and Natasha Raheja.
+Scholarly leadership to protect and strengthen democracy
+Center on Democracy
+11/6/2026
+Cornell Chronicle
+New book details history of sound’s claim on our attention
+Music
+11/6/2026
+A&S Communications
+View all news
+Leo Malagoli/Provided
+A locally disappeared tree frog species from Parque Nacional da Serra dos Órgãos, Brazil, which has not been registered since 1977, and was rediscovered by eDNA.

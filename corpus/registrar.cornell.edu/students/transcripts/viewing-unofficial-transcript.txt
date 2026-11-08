@@ -1,0 +1,28 @@
+URL: https://registrar.cornell.edu/students/transcripts/viewing-unofficial-transcript
+TITLE: Viewing Unofficial Transcript | Registrar
+FETCHED: 2026-11-06
+
+Viewing Unofficial Transcript
+This will explain how to view your unofficial transcript in
+Student Center.
+Begin by logging into
+Student Center
+with your NetID and password. NOTE: Alumni will need to
+set-up DUO Authentication
+prior to accessing Student Center.
+Under the Academic header, click the dropdown under
+Other Academic Information
+.
+Select
+Transcript: View Unofficial,
+then click the blue arrow.
+On the View Unofficial Transcript page, Report Type should be set to
+Unofficial Transcript-Student.
+Click
+View Report.
+When the transcript has generated, depending your browser, you will see a pop-up that prompts you to open the file, or another indicator that your transcript has been downloaded.
+It may be difficult to see the indicator, or you may have pop-ups blocked. If nothing seems to happen, you probably have pop-ups blocked.
+Please see
+How to Allow Pop-ups
+for instructions on allowing pop-ups on most browsers on desktop and mobile devices.
+To view a transcript that was previously generated, click the View All Requested Report button, check the box next to the report you want to view, then click View Report.

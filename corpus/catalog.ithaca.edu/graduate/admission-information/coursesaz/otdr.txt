@@ -1,0 +1,56 @@
+URL: https://catalog.ithaca.edu/graduate/admission-information/coursesaz/otdr/
+TITLE: Occupational Therapy - Doctorate (OTDR) < Ithaca College
+FETCHED: 2026-11-08
+
+Occupational Therapy - Doctorate (OTDR)
+OTDR 51100 Evidence in Occupational Therapy I (NLA)
+Focuses on the use of evidence to inform occupational therapy practice. Develops strategies to identify, locate, and critically examine sources of evidence. Emphasizes the value of a diversity of sources to guide professional decision making. Compares quantitative and qualitative methodologies for answering clinical questions. (Y)
+3 Credits
+OTDR 60200 Advocacy and Population health (NLA)
+Expands knowledge and awareness of the occupational therapy process using a broad lens of cultural humility, sustainability, epidemiology, and social determinants of health. Critically examines contextual factors, including federal and state legislation/regulations/policy issues on persons, groups, and populations of diverse and intersecting identities. Explores the impact access to community resources and delivery of occupational therapy services within community and primary care programs have on the health and wellness of persons, groups, and populations. Focuses on the importance of advocacy and how political and societal changes impact occupational and social justice. (U,Y)
+3 Credits
+OTDR 60300 Leadership and Professional Advancement (NLA)
+Examines key fundamentals for managing service delivery, including business aspects of practice, program and resource management, staff development, marketing, and quality management and improvement. Supports the development of plans for professional advancement within the field of occupational therapy through application of leadership theories and principles. Includes supervisory roles, interprofessional collaboration, national and state requirements for credentialing and licensure, and preparation for professional presentations. Prerequisites:
+OTDR 60200
+. (Y)
+3 Credits
+OTDR 60400 Evidence in OT II (NLA)
+Reviews basic quantitative statistics to analyze quantitative data and basic qualitative methods to analyze and synthesize qualitative data. Explores ideas about rigor in research and ethical questions related to research design. Examines the history and current practices related to human subjects’ research review. Prerequisites:
+OTDR 51100
+. (Y)
+3 Credits
+OTDR 61100 Applied Adult Practice (NLA)
+Examines current occupational therapy theory and evidence for implementation of the occupational therapy process with individual adults, groups, or populations across varied practice settings and contexts. Emphasizes collaboration and engagement with inter- and intra-professional colleagues in the consultative process while working with individuals, groups, or populations. (Y)
+3 Credits
+OTDR 61200 Applied Pediatric Practice (NLA)
+Examines current occupational therapy theory and evidence for implementation of the occupational therapy process with individual adults, groups, or populations across varied practice settings and contexts. Emphasizes collaboration and engagement with inter- and intra-professional colleagues in the consultative process while working with individuals, groups, or populations. (Y)
+3 Credits
+OTDR 61300 Evidence in Occupational Therapy III (NLA)
+Develops the ability to design and implement a scholarly project following synthesis and critique of evidence that supports knowledge translation, professional practice, service delivery, or professional issues. Supports the dissemination of scholarly project outcomes and facilitates professional decision-making. (Y)
+3 Credits
+OTDR 61500 Advanced Topics in Occupational Therapy (NLA)
+Explores specialized topics within occupational therapy practice while examining the intersection of professional development, leadership development, and occupational therapy education. Provides advanced professional knowledge related to instructional design through a blend of theory, practical application, peer review, and reflective practices. Specific content covered varies by section, topic, and instructor. Prerequisites:
+OTDR 60300
+. (Y)
+2 Credits
+OTDR 62000 Fieldwork Level IIA (NLA)
+Synthesize academic knowledge with hands-on experience at an occupational therapy practice setting. Perform all components of the occupational therapy process with entry-level competence while under the supervision of a licensed occupational therapist. (U,Y)
+6 Credits
+OTDR 62100 Fieldwork Level IIB (NLA)
+Synthesize academic knowledge with hands-on experience at an occupational therapy practice setting. Perform all components of the occupational therapy process with entry-level competence while under the supervision of a licensed occupational therapist. Occupational therapy practice setting or client population must be different than the Fieldwork Level IIA setting or client population. Prerequisites:
+OTDR 62000
+. (F,Y)
+6 Credits
+OTDR 63100 Capstone Project I (NLA)
+Supports the development of a comprehensive literature review to guide the occupational therapy capstone project. Facilitates the selection of a Doctoral Capstone Experience (DCE) site, mentor, and initiation of the memorandum of understanding process. Introduces the needs assessment process and formulation of goals and objectives for the capstone project. (Y)
+3 Credits
+OTDR 63200 Capstone Project II (NLA)
+Finalize occupational therapy doctoral capstone project needs assessment, goals and objectives. Create an evaluation plan for the capstone project, including seeking IRB approval where appropriate. Finalize memorandum of understanding, including plan for scholarly dissemination. Prerequisites:
+OTDR 63100
+. (S,Y)
+3 Credits
+OTDR 63300 Doctoral Experiential Component (NLA)
+Implement doctoral capstone project onsite as outlined in the memorandum of understanding. Evaluate project impact and outcomes and develop sustainability plan. Disseminate project results to site, program, and profession as appropriate. Prerequisites:
+OTDR 63200
+. (S,Y)
+6 Credits

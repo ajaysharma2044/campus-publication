@@ -1,0 +1,77 @@
+URL: https://www.library.cornell.edu/about/commitment-to-privacy/
+TITLE: Commitment to Privacy – Cornell University Library
+FETCHED: 2026-11-06
+
+As expressed in its
+mission
+, Cornell University aims to “discover, preserve, and disseminate knowledge” and “promote a culture of broad inquiry throughout and beyond the Cornell community.” Fundamental to these aims is the need to safeguard the intellectual freedom and privacy of Cornell’s students, scholars, and staff. The Library’s efforts to protect researchers’ privacy while they are reading, writing, and experimenting with ideas supports self-determination, democracy, and the production of new knowledge.
+Privacy for library patrons has been codified in New York state law (
+CPLR 4509
+) since 1988 and enshrined in the
+American Library Association’s Core Values
+since 1939.
+These laws and professional values lead us to:
+Destroy circulation records on an ongoing basis;
+Treat research consultations with a high degree of confidentiality;
+Require a judicial subpoena before revealing any existing records of a patron’s activities in the library.
+This webpage details the Library’s policies and practices related to student and researcher privacy.
+The Library offers workshops and consultations to assist the Cornell community with privacy-related issues. We also maintain desktop workstations that can be used for anonymous research. For full details, see
+Privacy Services
+.
+Some of our systems that collect patron data are managed by the Library itself, like
+the library catalog
+and the systems that store records of who has borrowed which physical materials. These systems give us control over what data is collected, and how long it is retained.
+Research Databases: Privacy Practices
+Much of the digital content that patrons access through the library, such as databases of academic literature, electronic books, and streaming media, are
+owned by commercial platforms whose business practices include collecting, recombining, and retaining behavioral data about students and scholars
+. In some cases, these companies produce new commercial “information products” from that data and sell it back to universities and other customers for profit.
+When third-party digital platforms control the dissemination of academic literature, libraries do not control how personal information is handled.
+For strategies to better protect yourself against tracking, see our
+Privacy Services
+.
+Library Policies and Practices
+It is Library policy to keep circulation records, catalog searches, information requests, and any other records with identifying details of library users, confidential. Such records will not be shared or used for any purpose unrelated to library services without a search warrant or a judicial subpoena, or at the judgement of Library administration. To further protect patron privacy, certain types of data are regularly purged or deidentified, as described in each section below.
+Catalog Circulation Records
+The library keeps records of which materials are checked out to borrowers until the materials are returned. After the item is returned and checked back in, the borrowing history is removed from your library account and is not recorded or saved. At the item level, department or school-level usage data is collected and useful for planning library services; separated from the individual borrower, deidentified /anonymized.
+Interlibrary Loan (ILL)
+Only limited number of library staff have access to patron requests;
+Transactional information (e.g. title of requested item, date requested, transaction number) shared with external libraries does not include patron information;
+Once per year old request transactions and inactive patron records are deleted from the ILL transaction database.  This includes:
+All transaction in the status of cancelled older than 18 months.
+All transactions in the status of finished over 4 years from the finished date.
+All patrons with no requests in over 4 years.
+BorrowDirect (BD)
+Any personal data associated with BorrowDirect transactions is retained in a centralized fulfillment system shared among
+partner libraries
+. Cornell has used this system since 2022. At this time, there is no policy or practice of regularly purging this data.
+Patron Data
+For Cornell users, personal data including name, email, department, and mailing address are supplied by IT@Cornell to the library circulation system. The sources of the data are the Office of the Bursar, Human Resources, and the Office of the University Registrar. The Library receives an update each workday.
+For the visitor library card program, user name and contact information are stored in a library-controlled system while the user is active. If the library card is not renewed, all patron data is purged after two years.
+Reference Interactions
+Research and reference questions that come in via “Ask a Librarian” email or chat are tracked in a database controlled by the third-party vendor Springshare. These data are deleted from the database after 90 days. However, email threads containing your research questions, including personally identifiable information, may remain on university servers indefinitely, depending on the individual email-deletion practices of the library staff who receive them in the course of answering your question
+In day-to-day practice, reference questions are treated as confidential. The name of a person who has asked particular question(s) is not disclosed to people who are not directly involved in answering the question, unless, in rare cases, when we have explicitly asked for your permission to use your question and name or likeness to include in marketing or for other purposes.
+Library Websites (https://*.library.cornell.edu)
+Traffic on library websites is analyzed using web analytics services from
+Matomo Analytics
+or
+Google Analytics
+. Data collected normally includes:
+IP address;
+Type and version of operation system and browser used;
+Date and time of access;
+Pages visited;
+Search queries and result sets;
+Referring URL (the web address of the page from which you followed a link to our site).
+Within the catalog, book cover images are pulled from Google Books to display alongside the catalog record. This service employs trackers and the user’s IP address, but it can be blocked with a tracker-blocking browser extension. For guidance, consult
+Privacy Services at the Library.
+Single Sign-On (SSO) Data Passed on to Vendors
+When Cornell users connect to library-subscribed databases using SSO, Cornell’s identity management service passes to the vendor information about the user’s institutional affiliation and whether that person has permission to access the vended resources. With a few exceptions we do not pass along the user’s name or other identifying details. In these situations, we try to add a note to the catalog record with additional information.
+Some resources require personally identifiable information, such as name and email address, in order to set up user accounts or otherwise fully function.
+Exceptions for Special Collections and Archives
+The Rare and Manuscript Collection (RMC) and Kheel Center have different retention policies for patron data. Information related to requests, appointments, visits, and reference queries is stored permanently in systems maintained by RMC and Kheel, for security purposes.
+However, this data is considered confidential, and is not shared outside of these units, except as required by law.
+Note: Under Cornell University
+Policy 8.1
+, footage from security cameras is required to be stored in a centralized system viewable by the Division of Public Safety Communications Center, the Cornell University Police Department, and the Access Control Program.
+About Centrally-Managed Technologies
+IT@Cornell provides services in library spaces, including ethernet and wireless networks, such as eduroam.  Likewise, the Cornell University Division of Public Safety oversees card access to facilities and surveillance cameras in or around buildings, including some libraries. Data collected by such services are governed by the policies of those units.

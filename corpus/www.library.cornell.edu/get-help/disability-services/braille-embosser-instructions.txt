@@ -1,0 +1,55 @@
+URL: https://www.library.cornell.edu/get-help/disability-services/braille-embosser-instructions/
+TITLE: Braille Embosser Instructions – Cornell University Library
+FETCHED: 2026-11-06
+
+The Mann Library Braille Printer should only be used for printing short texts of no more than 50 pages.
+It works best with short texts of 10 pages or less.
+Once you get into larger documents, there’s further formatting that needs to be done to create a proper Braille text in order for that amount of Braille to be usable. Questions can be directed to
+LibraryDisabilityServices@cornell.edu
+. Students (or faculty creating materials for students) can also work with Student Disability Services
+sds_cu@cornell.edu
+for more expert assistance.
+Keypad Controls
+From left to right, the top row of buttons are:
+FF: Form Feed
+LF: Line Feed
+TF: Top of Form
+From top to bottom, the left column buttons are:
+Read
+Double/Single Sided (never play with this button)
+OL: On-line/Off-line
+Directions for Printing a Basic Document
+Turn the printer on. The On button is a rocker switch locked at the back of the embosser on the right side, inside a vertical cutout. Press down on the left side to turn the printer on, and press the right to turn it off.
+When the printer is turned on, it’s in automatically On-Line mode, ready to print. You’ll hear the “Charge” tune. There is currently no way to switch it to single-sided print, so leave the switch alone, like the sign says. Everything will come out double-sided. If this is a problem, then the user may need to find another place to print, or only send one page at a time to the printer.
+If, instead of “Charge,” you hear a long descending tone, that means the printer isn’t set up correctly. Turn it off and try again. If it’s still not working, that means there’s something wrong that CUL-IT needs to check out. Email
+LibraryDisabilityServices@cornell.edu
+that there’s a problem.
+Check that the paper is properly fed into the front of the printer. It should be straight.
+You want to be sure that you’re starting the print job at the top of the page, so that there isn’t any Braille embossed on the perforations.
+Press the OL switch once, and you should hear “The Entertainer.” This means it’s offline.
+Then press TF. It will advance the paper to the top of the page. If things go correctly, you’ll hear the “Charge” tune again, meaning that it is online and ready to print.
+On the connected computer, open the Duxbury app. This is the app you’ll use to print to the Braille embosser.
+Duxbury will open many file types, such as Word, Open Document Format, eBraille, brf, txt, or dxt. RTF files don’t always work, so make sure it’s saved as a Word document instead.
+Documents in word or Open Document Format should be only text. If there are images, remove them and replace them with an image description. While the Braille embosser can do some simple images, it’s not a simple task to make images compatible with the Braille embosser. Don’t include textboxes or tables. For more information about formatting a Word file for Braille,
+this webpage
+from Duxbury is useful.
+To import a non-Braille document into Duxbury, go to File > Open or press CTRL+O, and browse to the file. Duxbury will ask for you to select a template.
+If the user isn’t sure what template to use, and the text doesn’t include any Math coding, then use “English (UEB) – BANA.”
+If the user isn’t sure what template to use, and the test DOES include Math coding (LaTex, MathType, etc.), then use “English (UEB) – BANA with Nemeth.”
+Go to File > Translate or press Ctrl+T to turn the text into Braille.
+To start embossing, press CTRL+E or click on the Emboss button in Duxbury. The Braille printer should be the default.
+Once the embossing is finished, press the OL button to turn the printer offline. You’ll hear the “Entertainer.” Then press FF to eject the paper enough to remove it.
+Separate the paper carefully from the tractor roll, and then leave blank page fed through the printer to prevent damage. Then turn off the printer.
+Directions for Printing a Test Print of Text
+Press and hold down the FF button.
+Turn the printer on.
+You should hear a long beep. Take your fingers off the button. Then you’ll hear “Charge,” and then “The Entertainer.”
+It will print a test message with the current model number and the firmware version number.
+Once finished, press the OL button, the FF button, and then rip off the test print from the tractor roll. Shut off the printer, leaving a sheet of paper fed through the printer to prevent damage to the printer.
+Directions for Printing a Test Print of Sample Graphics
+Press and hold the LF and TF buttons at the same time and keep pressing them.
+Turn on the printer.
+You should hear a long beep. Take your fingers off the buttons. Then you’ll hear “Charge,” and then “The Entertainer.” Then it’ll start printing.
+It will print a test graphic of the Blazie Technology logo and the keypad controls.
+Once finished, press the OL button, the FF button, and then rip off the test print from the tractor roll. Finally, turn off the printer, leaving a sheet of paper fed through the printer to prevent damage to the printer.
+Updated April 11, 2025

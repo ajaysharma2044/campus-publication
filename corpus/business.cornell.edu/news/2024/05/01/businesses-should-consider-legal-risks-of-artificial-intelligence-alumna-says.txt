@@ -1,0 +1,44 @@
+URL: https://business.cornell.edu/news/2024/05/01/businesses-should-consider-legal-risks-of-artificial-intelligence-alumna-says/
+TITLE: Businesses Should Consider Legal Risks of Artificial Intelligence, Alumna Says- Cornell SC Johnson College of Business
+FETCHED: 2026-11-06
+
+May 1, 2024
+Businesses Should Consider Legal Risks of Artificial Intelligence, Alumna Says
+Garylene "Gage" Javier presents at the 2024 EMBA Alumni Summit (photo by Jesse Winter)
+“Raise your hand if you’re excited about artificial intelligence,” said Garylene “Gage” Javier, EMBA ’16, privacy and cybersecurity associate at Crowell & Moring LLP.
+Javier stood in front of a room full of about 200 businesspeople, all attendees of the inaugural
+EMBA Alumni Summit
+at Cornell Tech on Feb. 3. Hands flew into the air, and the audience laughed because the entire afternoon, including Javier’s talk, featured AI.
+“Now raise your hand if you’ve spoken to your lawyers about artificial intelligence,” she continued. Nearly every hand went right back down. That response didn’t surprise her.
+Businesses are quickly adopting AI in customer operations, marketing and sales, software engineering, research and development, and other areas. And if they aren’t, they’re watching their competitors and feeling the pressure. But most are not prioritizing conversations about the technology’s legal concerns.
+Amid all the excitement around AI, Javier said, there are major risks. She has seen these risks play out firsthand, as she guides companies through policy development, handles legal implications of security breaches, and litigates against cyber-attackers.
+“Threat actors vary widely in sophistication and profile,” she said. “The most prevalent threat groups may even include teenagers showing off for their friends. But their efforts, nonetheless, can cause major harm to your business if you’re not prepared.”
+Threat actors can steal data, replace datasets, change algorithms, and introduce bias into AI systems. AI relies on data and data-ingestion, and businesses do not always know exactly what’s in their databases. Personal data? Trade Secrets? It’s all at risk without the proper protections, and those protections are not just technical.
+“When thinking about incorporating AI in your organization, think about how you can mitigate the risk as you’re developing the system itself,” Javier said. “You can use governance, policies, and cybersecurity to strengthen the business.”
+Throughout the day-long event, attendees asked Javier a lot of questions – about privacy issues, data ownership, notifying customers of data usage, for example – but she’s more concerned about what people aren’t asking. She recommended business leaders consider some fundamentals before rushing forward with AI.
+First, before looking at specifics like services and contracts, she said, business leaders need to consider whether their companies are ready for AI, asking themselves questions like: Why pursue AI in the first place? Is the entire organization in alignment on AI strategy and purpose? What are the use cases? Are basic security measures in place, like multifactor authentication? Are there sufficient staff to train employees on proper use of AI without jeopardizing data security?Senior leadership, department heads, customer operations, developers, other key stakeholders – and especially legal counsel – should all be in on these conversations.
+“If you don’t have these conversations, you’ll eventually find yourself contacting someone like me,” Javier said. “Not managing risk at the onset may ultimately be a costly endeavor in the end.”
+Second, companies need to address governance and risk management, she said. The
+National Institute of Standards and Technology’s AI Risk Management Framework
+, released in 2023, offers guidance. Specifically, business leaders need to map the context for AI use within the organization, know how they will measure whether the AI system is doing what it’s supposed to do, and ensure that it’s managed and monitored effectively.
+Javier acknowledged that the regulatory landscape for AI is incredibly challenging. Federal law is lacking, and states define privacy differently. Some states, for example, regulate automated decision-making. Others require an option to opt-out. Worldwide, Europe is introducing regulations that are expected to take effect in 2025, while many other countries are regulatory deserts.
+This is one reason she encourages everyone to engage with legal counsel well-versed in business concerns and technology before any issues arise.
+Finally, business leaders need to ensure that their privacy policies, cybersecurity defenses, and incident response plans are sound. Companies can hire a third party to walk leaders through a mock security threat. Such an exercise will help answer questions like – If there was a ransomware incident, how would we respond? Is the plan sufficient to efficiently keep data safe and allow for business continuation? – before a real attack truly endangers the company.
+“Don’t underestimate the importance of being prepared for cyber security incidents,” Javier said. “And don’t be afraid to seek outside counsel.”
+The EMBA Alumni Summit also featured small group discussions (photo by Jesse Winter).
+Alison Fromme
+In this article
+Article Information
+Categories
+Inside SC Johnson
+Related Stories
+November 5, 2026
+Thomas Richard Dyckman, accounting scholar and university leader, dies at 94
+Inside SC Johnson
+October 23, 2026
+2026 Atkinson postdocs improve antibiotics, emissions data, green transition
+Inside SC Johnson
+October 23, 2026
+From running partners to business partners: The rise of Kube & Co.
+Food & Agriculture
+Inside SC Johnson

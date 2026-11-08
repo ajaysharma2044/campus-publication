@@ -1,0 +1,29 @@
+URL: https://scl.cornell.edu/residential-life/housing/contact-us/maintenance-requests/tripped-breaker
+TITLE: Tripped Breaker | Student & Campus Life | Cornell University
+FETCHED: 2026-11-06
+
+Tripped Breaker
+What is a circuit breaker?
+A circuit breaker is a safety mechanism that cuts off electricity – or "trips" – when an electrical circuit has overloaded.  It serves the same function as a fuse box.
+Some student rooms have their own circuit breakers (sometimes located in the closet) that students can control.  In other cases, there is a centralized circuit breaker for multiple rooms, which students cannot access.
+Has my circuit breaker tripped?
+If electronic devices at a particular power outlet or multiple power outlets suddenly turn off or do not receive any power, then your circuit breaker has probably tripped.
+How do I reset my circuit breaker?
+First check to make sure your room has a circuit breaker (it may be in your closet).
+Next, turn off your light switches and unplug all devices from the affected power outlet(s).
+Open your circuit breaker box, and find switches that are in the middle position between "on" and "off."
+Move these switches first to "off" and then to "on."
+If your room does NOT have its own circuit breaker
+If the previous instructions above does not fix the issue – please
+contact your building staff
+, or call the SAS Facilities Management Office at 607-255-0328, Monday-Friday, 8:00am-4:00pm. After hours and during weekends, please contact your on-call RA or staff person.
+Please keep in mind:
+Before you plug devices back into the affected outlets, try to figure out what may have caused the overload (a malfunctioning device, too many plugs in one outlet, etc.).  Otherwise, the circuit breaker may trip again.
+Still having problems?
+Place a Maintenance Request
+(You must have a Cornell NetID to enter your request. Residents without a NetID should contact their
+service center
+)
+Contact your building staff
+Call the SAS Facilities Management Office
+at 607-255-0328, Monday-Friday, 8:00am-4:00pm (after hours and during weekends, please contact your on-call RA or staff person)

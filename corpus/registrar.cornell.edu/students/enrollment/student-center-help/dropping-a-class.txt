@@ -1,0 +1,42 @@
+URL: https://registrar.cornell.edu/students/enrollment/student-center-help/dropping-a-class
+TITLE: Dropping a Class | Registrar
+FETCHED: 2026-11-06
+
+Dropping a Class
+You may drop a class directly through your
+Student Center
+during either pre-enrollment or open enrollment (prior to the start of each semester). If your enrollment window has closed or an enrollment deadline has passed, please reach out to your
+College or School Registrar
+for further guidance.
+To start, after logging in to your
+Student Center
+, click on
+Enroll
+in your
+Student Center
+.
+Select
+Drop
+under the
+Enroll
+tab.
+Step 1 - Select classes to drop
+Select the term in which you will be changing your enrollment.
+Select the course from which you would like to drop and click
+Drop Selected Classes
+.
+Step 2 - Confirm your selection
+Select
+Finish Dropping
+.
+Step 3 - View Results
+If you have successfully dropped the class, you will receive a success
+message
+and a green check mark in the
+status
+field.
+If you have been unsuccessful in dropping the class, you will receive an error
+message
+and a red X in the
+status
+field.

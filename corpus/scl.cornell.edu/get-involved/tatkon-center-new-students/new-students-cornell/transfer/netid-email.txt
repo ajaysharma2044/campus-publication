@@ -1,0 +1,47 @@
+URL: https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/netid-email
+TITLE: NetID & Email | Student & Campus Life | Cornell University
+FETCHED: 2026-11-06
+
+NetID & Email
+Cornell NetIDs
+Your NetID is a unique identifier that,
+combined with a strong password,
+provides access to non-public Cornell resources and information.
+Activate Your NetID, Email, and Two-Step Login
+After the university has received your enrollment response and deposit, you will receive an email from "noreply-netid@cornell.edu" at your admissions email address that your NetID was created and what to do next.
+Sometimes this email goes to spam/junk folders, so check there if you do not find it in your Inbox
+. It can take up to two business days for your NetID to be created after your deposit is processed.
+After you receive the activation email, you will sign in with your Application Status Page login information to
+activate your NetID and email
+.
+Don't forget to set up
+Two-Step Login
+so you can access services vital to getting started as a new student.
+This two-factor authentication service prevents the use of stolen Cornell passwords by requiring confirmation from something a third party does not have, such as a mobile phone.
+Learn more about NetIDs, Cornell email, and Two-Step Login
+.
+Please activate your NetID immediately. Your email will be set up when you activate your NetID. Your email address will look something like this—ewe1@cornell.edu—where "ewe1" is your Cornell NetID.
+After you activate your NetID, it will be your permanent account, and you will use it to log in to Cornell services moving forward. NetIDs carry both additional privileges and additional responsibilities.
+Use a strong, unique password with your NetID and keep it private.
+Your Email Options
+All incoming Cornell students are set up by default with Gmail through a Cornell Google Workspace for Education account. You also have the option to instead use Outlook through Microsoft 365 for your Cornell email needs.
+Explore reasons
+to choose Gmail through Google Workspace or Outlook through Microsoft 365 for your email at Cornell.
+Regardless of which email option you choose, you can still use the collaboration services offered through Cornell Google Workspace for Students.
+Frequently Asked Questions
+I forgot my Application Status Page password. How do I reset it?
+Visit the
+Application Status Page
+and follow the "Forgot your password?" link to reset your password.
+What if I forget my NetID password?
+Passwords are kept in an encrypted database, and cannot be looked up by anyone. If you set up your password's security questions in advance, you can go to the
+Manage Your NetID
+page to set a new password yourself.
+Consider setting up a
+recovery email address
+, so that you can reset a forgotten password yourself.
+If you forget  your NetID password, and you did not set up your recovery email address, you will need to request a new activation code so that you can reset your password. To make this request, contact the
+IT Service Desk
+to set up a video chat. During the chat, you will need to provide proof of identity: your Cornell ID card or your valid government-issued photo ID card, such as a driver's license or passport.
+Can I share my NetID and password with family or friends?
+No. Your NetID is for your exclusive personal use. It is a violation to share your NetID and password with anyone, including friends and family members. If someone has your NetID and password, they can look up and/or change personal and confidential information, violate federal privacy laws through your account, and more. Keeping your NetID password safe is one way you help protect your personal information and Cornell's data.

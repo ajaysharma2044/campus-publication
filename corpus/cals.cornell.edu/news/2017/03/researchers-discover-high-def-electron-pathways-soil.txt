@@ -1,0 +1,33 @@
+URL: https://cals.cornell.edu/news/2017/03/researchers-discover-high-def-electron-pathways-soil
+TITLE: Researchers Discover High-Def Electron Pathways in Soil | CALS
+FETCHED: 2026-11-06
+
+Share
+All plants need electrons to aid biological and chemical tasks. Cornell scientists have discovered a new high-definition system that allows electrons to travel through soil farther and more efficiently than previously thought.
+“Microorganisms need electrons for everything they do. If they consume nutrients or spew out methane or expel carbon dioxide – for any living, biological process – they need electrons,” said Tianran Sun, postdoctoral researcher in soil and crop sciences and lead author of the paper that appears March 31 in Nature Communications.
+Like large volumes of electricity that flow from Niagara Falls throughout upstate New York, electrons convey through soil via carbon. “We weren’t aware of this high-definition soil distribution system transporting electrons from far away. It’s not kilometers, it’s not meters, but centimeter distances that matter in soil,” said Johannes Lehmann, professor of soil science.
+In fact, amending the soil with pyrogenic carbon – known as biochar – brings high definition to the electron network. In turn, the electrons spur conductive networks and growth, said Sun.
+“Previously we thought there were only low-performing electron pathways in the soil – and now we’ve learned the electrons are channeled through soil very efficiently in a high-performing way,” said Lehmann.
+Lehmann and the members of his laboratory had struggled to understand why microorganisms thrived in the presence of biochar. The group removed soil phosphorus, making the environment inhospitable. They ruled out water and nutrients. They discarded the use of biochar as a food source because microorganisms cannot consume much of it. Through Sun’s background in environmental chemistry, the scientists found that microorganisms may be drawn to electrons that the biochar can transport.
+“These results will lead to a better understanding of microbial responses in soil and microbial metabolism, including long-term effects on greenhouse gas emissions,” Sun said.
+In addition to Lehmann and Sun, who published “Rapid Electron Transfer by the Carbon Matrix in Natural Pyrogenic Carbon,” the paper’s other authors are Barnaby Levin, doctoral student in materials science; doctoral student Juan Guzman, biological and environmental engineering; Akio Enders, technician, soil and crop sciences; David Muller, professor of applied and engineering physics; and Lars Argenent, professor, University of Tübingen, Germany.
+Lehmann credits cross-disciplinary work with finding this idea. “I could not have completed this work without Tianran Sun’s chemistry expertise, nor without Lars Angenent’s microbiology expertise, or David Muller’s or Barnaby Levin’s physical knowledge of carbon structure,” said Lehmann. “They played a big part.”
+The National Science Foundation and the U.S. Department of Agriculture funded this research.
+This article also appeared in the Cornell Chronicle.
+Keep Exploring
+News
+November 6, 2026
+Cost share and market access are the top drivers of digester adoption
+U.S. dairy production has continued its decades-long consolidation into fewer, larger operations [1], [2]. Recent news coverage has suggested that the growth in anaerobic digester adoption over the past decade may have encouraged this expansion...
+Cornell Cooperative Extension
+Animal Science
+PRO-DAIRY
+News
+November 5, 2026
+Library story time is also learning time for parents
+Cornell Cooperative Extension
+Explore All Stories
+We openly share valuable knowledge.
+Sign up for more insights, discoveries and solutions.
+Please enter a valid email address to subscribe to the newsletter.
+Email Address

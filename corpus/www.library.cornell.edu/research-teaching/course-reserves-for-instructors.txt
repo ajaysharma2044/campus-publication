@@ -1,0 +1,138 @@
+URL: https://www.library.cornell.edu/research-teaching/course-reserves-for-instructors/
+TITLE: Course Reserves for Instructors – Cornell University Library
+FETCHED: 2026-11-06
+
+Submitting Course Reserves
+There are two ways to submit course reserve requests at any of our libraries, via
+Canvas
+(recommended) or via
+reserves staff
+.
+For electronic reserves (e-books, scanned articles, web links, or streaming video), instructors
+must
+request a Canvas site for their course via the
+Faculty Center
+in order for those items to be accessed by students through course reserves.
+Submit via Canvas
+Submit via Reserves Staff
+Media Reserves
+Deadlines and Additional Info
+Submit via Canvas (recommended)
+The best way to submit course reserves is via
+Canvas
+, which will automatically place them in the appropriate reserves processing queue. You can also “clone” items from courses where they have been used previously, instead of manually filling out submission forms. If you have not already done so, you will need to request a Canvas page for your current course via the
+Faculty Center
+before submitting or reactivating reserve items this way.
+Add New Reserve Items via Canvas
+On your current course’s
+Canvas
+page, choose “
+Library Reserves
+” from the left-side menu.
+Click “
+Add Requests
+“, then using the
+item icons
+below, choose the type of item you would like to place on reserve (you can hover over each type to see a more detailed description).
+Fill out the form, choose your course or courses from the table below, and click “
+Submit Item
+.”
+If you see your item listed under “
+Your Requests
+“, it has been submitted successfully and will now be processed by reserves staff at the library location you have selected.
+“Clone” Previously-Used Reserve Items via Canvas
+On your current course’s
+Canvas
+page, choose “
+Library Reserves
+” from the left-side menu.
+Click “
+Add Requests
+“, then using the
+“Current and Previous Courses”
+list below, choose first the course by clicking the
+“Import Items”
+link at left, and then the item(s) within that course you would like to place on reserve.
+Edit or Delete Reserve Items via Canvas
+On your current course’s
+Canvas
+page, choose “
+Library Reserves
+” from the left-side menu.
+Under “
+Your Requests
+“, the current processing status of each item is shown in a column to the right.
+If an item has the status “Awaiting Reserves Processing”, you can edit or delete it by clicking on the item, then choosing “
+Edit this item
+” or “
+Delete this item
+” on the page that follows. If you wish to edit an item that is marked with a status other than “Awaiting Reserves Processing”, you will need to
+contact reserves staff
+for assistance.
+Submit via Reserves Staff
+Note that emailing requests to reserves staff instead of submitting via Canvas may require extra time for processing.
+If you are unable to submit reserve items via
+Canvas
+we can also accept your list via email. You may send a
+list or clearly-formatted syllabus
+(preferably with requested reserve items highlighted or otherwise parsed out) to
+reserves staff
+at your preferred library location, along with any special instructions. All inquiries or requests concerning media reserves (streaming media, DVDs, Blu-Ray, CDs, video games, etc.), should be directed to
+culmediareserves@cornell.edu
+.
+Please be sure to include the following information with your message:
+Course number
+, including any cross-listed courses
+SIS ID
+, which can be found in the Settings section of your course’s Canvas page
+The date(s) when the material will be used in your course
+If you have taught your course before and will be reusing some or all of your reserve items, please specify the last time you taught the course and be sure to let us know if there are any items you would like to add or remove from your previous reserves list.
+Media Reserves Information
+Media Reserves include all streaming media requests (video or audio), as well as physical media such as DVDs, CDs, video game discs and cartridges, and less common media (e.g. VHS, audio cassette, etc).
+Please submit all media reserve requests via the
+“Library Reserves”
+section of your course’s
+Canvas
+page. We prioritize adding items as streaming media wherever possible (subject to institutional licensing availability), and make every effort to have media available by their specified needed-by dates. Note that some items can be added immediately, while others may have less predictable wait times if recall, purchasing, reacquisition, licensing search, or other less typical action is required.
+Note that not all rightsholders offer institutional streaming licensing, and having had access in previous semesters/years unfortunately does not guarantee continued access.
+If inquiring about media reserves via email, please contact
+culmediareserves@cornell.edu
+and be sure to include the following information:
+Course number
+, including any cross-listed courses.
+SIS ID
+, which can be found in the Settings section of your course’s Canvas page.
+The date(s) when the material will be used in your course.
+If items cannot be made available as streaming media they will be held on physical reserve instead if possible. Course reserve physical media (DVDs, Blu-Ray, CDs, video games, etc.) are shelved at the Olin Library circulation desk, as 4-hour loans unless otherwise specified (video games are 3-day loans unless otherwise specified). Olin also has DVD/Blu-Ray players and a limited number of game consoles to loan that will allow students to better use those materials.
+It may also be an option to screen DVDs for your course—if you would like to place a media reservation to ensure a reserve item is available when you need it, instructors may contact
+culmediareserves@cornell.edu
+and let us know the day and time you’d like to pick it up, as well as for roughly how long you’d like to check the item out.
+Additional Information for Instructors
+Submission Deadlines
+Staff work hard to process all requests for course reserves.  If you submit multiple requests, please let us know the priority order for those items as this will help when processing items.
+If the library does not currently own an item that you would like placed on reserve, we will purchase the item if at all possible—please submit a request for this material just as you would an item that the library does own. We will always prioritize adding reserves as e-resources if they are available, unless otherwise specified.
+To ensure availability for the first day of classes, all reserves should be submitted by the following dates:
+Fall semester:
+August 3
+Winter sessions:
+December 1
+Spring semester:
+December 15
+Summer session:
+4 weeks before the start of the session
+What can be placed on electronic reserve?
+E-books, films and TV shows, journal articles, book chapters, syllabi, practice exams, lecture notes and audio files.
+Electronic items, including items found in course packets, must meet
+Copyright Fair Use Guidelines (PDF)
+or have the permission of the copyright holder for this type of use.
+Access to scanned course reserve materials must be restricted to members of the class, and access must be terminated at the end of final exams.
+Reproduced (scanned or photocopied) materials should include proper attribution and include the original work’s copyright statement. If no statement can be found, a standard statement of copyright protection may be used.
+Accessing Reserves Materials
+Students can access their reserves list (including the location of physical items) as well as direct links to electronic reserves via the “
+Library Reserves
+” menu link on their course’s
+Canvas
+site. If the “Library Reserves” section is not shown on the course’s Canvas site it may need to be enabled by the instructor via the Settings menu in Canvas.
+Note that
+reserves staff are not able to add items to any part of Canvas other than the “Library Reserves” section.
+Articles or other readings that have been uploaded to Canvas by the instructor will be found in a different location, as determined by the instructor.

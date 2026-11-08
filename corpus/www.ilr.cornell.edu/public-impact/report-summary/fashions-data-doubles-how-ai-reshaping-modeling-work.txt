@@ -1,0 +1,57 @@
+URL: https://www.ilr.cornell.edu/public-impact/report-summary/fashions-data-doubles-how-ai-reshaping-modeling-work
+TITLE: Fashion’s Data Doubles: How AI Is Reshaping Modeling Work | The ILR School
+FETCHED: 2026-11-06
+
+Fashion’s Data Doubles: How AI Is Reshaping Modeling Work
+Artificial Intelligence
+Author(s)
+Zoë West, Alexandra Mateescu and Sanjay Pinto
+Read the Report
+Jump to:
+Overview
+Key Findings
+Recommendations
+Research Impact
+Related Information
+Contact
+Overview
+This brief shares key findings from research investigating how artificial intelligence (AI) technologies impact workers in the fashion industry, how they experience and perceive the use of AI in their industry, and what it may mean for the future of modeling as a profession.
+In an industry long characterized by major power asymmetries and serious job-quality challenges, the use of AI technologies appears to be amplifying existing inequities and dynamics of exploitation. We found that a variety of actors – including modeling agencies, brands and AI startups – take advantage of existing industry gray areas, often treating models’ labor as “data” to be collected in order to bypass contractual protections and increase opportunities to profit. In turn, models struggle with a lack of control over their own “likeness,” worsening job precarity and extending dehumanizing practices that have long been entrenched in the industry.
+Key Findings
+AI technologies heighten models’ vulnerability to nonconsensual uses of their images.
+Generative AI is being used to exploit existing power inequities and gray areas in the fashion industry. By treating models’ images and measurements as data to be extracted for profit, brands can use AI tools to generate additional value and profit without compensating models further or rehiring them.
+The increasing use of AI tools contributes to greater job precarity for fashion workers.
+Generative AI is being used to take advantage of existing power inequities and gray areas within the fashion industry, enabling fashion brands and others to more intensely exploit models’ labor.
+Recommendations
+Advance legislative and enforcement efforts that bolster workers’ rights generally while also contending with specific forms of AI-enabled labor exploitation. For example, the recently implemented New York State Fashion Workers Act strengthens the rights of models broadly, and requires their consent around the creation and use of digital replicas through AI and other means.
+Support the enforcement of protections through rights training and education that support fashion workers’ ability to advocate for their rights on the job.
+Research Impact
+This research reveals how brands and other fashion industry actors are using a variety of AI technologies to cut labor costs and shorten production timelines, exacerbating the major power asymmetries and job-quality challenges in the modeling industry.
+This research has received significant media attention and was featured in a panel discussion during New York Fashion Week in 2025. Stakeholders have also used the research to help advocate for legislative protections for fashion models – who are independent contractors and thus do not have the right to unionize and bargain collectively – and to educate models about this issue so they can more effectively advocate for themselves on the job and collectively for stronger protections.
+Related Information
+Blog post sharing the report
+Model Alliance NYFW Fashion + AI event
+(video of panel)
+Teen Vogue coverage
+(article)
+BBC Tech Life interview
+(audio)
+AUTHORS:
+Zoë West
+, Worker Institute senior researcher; Alexandra Mateescu, Data & Society researcher;
+Sanjay Pinto
+, Worker Institute fellow
+CONTACTS:
+Patricia Campos-Medina
+Executive Director
+Worker Institute
+pec1@cornell.edu
+Risa Lieberwitz
+Academic Director
+Worker Institute
+rll5@cornell.edu
+The
+Worker Institute
+engages in research and education on contemporary labor issues to generate innovative thinking and solutions to problems related to work, economy and society. The institute brings together researchers, educators and students with practitioners in labor, business and policymaking to confront growing economic and social inequalities, in the interests of working people and their families. A core value of the Worker Institute is that collective representation and workers’ rights are vital to a fair economy, robust democracy and just society.
+NY@Work Home
+Next Report

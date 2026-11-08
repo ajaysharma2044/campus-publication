@@ -1,0 +1,55 @@
+URL: https://registrar.cornell.edu/stellic-cornell/stellic-faq
+TITLE: Stellic FAQ | Registrar
+FETCHED: 2026-11-06
+
+Stellic FAQ
+Watch the
+Introduction to Stellic at Cornell University video
+to see how Stellic can help students plan classes, track degree progress, and more.
+This message is shown when someone signs into Stellic, but hasn’t been activated in the system. Not all students, faculty, and professional advisors in CALS or across the institution will have access (be activated) to Stellic at the same time. Students and advisors will receive an email to their Cornell-assigned email address as the platform becomes available to them. There is currently no need to take any special action to gain access.
+If you are a CALS student and
+you have received email notification
+from CALS that Stellic is available to you, and you’re getting the “Stellic is not available to you” message
+:
+Confirm you received the notification email that Stellic is available to you, titled “Introducing Stellic @ Cornell, Your New Degree Planning Tool!” from cals-studentservices@cornell.edu to your Cornell-assigned email address.
+Check your spam/junk/deleted items folders.
+Run a search in your inbox and other email folders for “cals-studentservices@cornell.edu” and “Stellic.”
+If you have mail-forwarding set up, log in to and check your connected email accounts.
+Review the
+common issues
+that could be affecting your ability to log in.
+If access issues continue, please contact your
+Home College Student Services Office
+.
+Stellic has a
+Stellic Help Center
+. Additionally, the Stellic support team is available to students and advisors via chat directly within the portal. Students who have questions for their advisor, or who need help with their academic records, should check the
+Support section
+.
+Not at this time. Students will continue to register for classes in
+Student Center
+.
+We realize how important it is for students to track their degree progress during this transitional time. Each Cornell college/school manages and tracks degree progress with systems/practices individualized to their college/school. CALS students who don't have access to Stellic can continue to track their degree process using DUST and any other major resources they've been provided with. Students from other colleges/schools should contact their
+Home College Student Services Office
+for additional information on how to plan and track their academic progress.
+The data sync indicator in Stellic signifies that data is syncing from PeopleSoft, Cornell's Student Information System. These syncs usually occur overnight but may occasionally happen during working hours. If you see the indicator during the day, please know that data may be refreshing from PeopleSoft and will be updated once the "Data Sync" indicator goes away.
+There's three possible reasons you can't find a major to try on an audit in Stellic:
+The major has not yet been built in Stellic. Check out the Office of the University Registrar website
+for a full list of majors
+that are live in Stellic.
+There is an "&" in the major name.  Try using a "&" instead of "and".
+There is a spelling error or variation in what you entered in the major search.
+We recommend you do not search course titles, major names, or anything else with an ampersand (&).  Instead, search key words or phrases.
+In Stellic, you will only see the transfer credits that have been officially posted. In the Student Center, you will see all transfer credits, including those that are unposted.
+Users with department-level access (Advisors, Directors of Undergraduate Studies (DUSs), Coordinators, and others that are requested by the department) can view the Stellic @ Cornell records of all active students in their area, regardless of whether the student has launched in Stellic @ Cornell. In a student’s record, the “Live in Stellic” tag indicates the student has launched. Note that it may be necessary to click “more” to see all tags.
+When you Prioritize a course, you move it from one area it can count in your audit to another area it can count.  For example, if your major has multiple areas that CHEM 2070 can count, you can prioritize the course to move to the second area it could count rather than where it is now.
+Exceptions are exceptions to the rules of an audit and can only be created by faculty and staff.  For example, if the requirement is MATH 1110 but the student took MATH 2220, the student's advisor could submit an exception to count MATH 2220.  A more stark example is a Chemistry requirement that an advisor submits an exception to count a History course to complete the requirement.
+When in doubt: Prioritization is moving a course to where it can already count, it just hasn't gone.  Exceptions are exceptions to the rule.
+The Justification field is an advisor or student's way to communicate to future viewers of the student's record.
+Both students and advisors can use the Prioritization feature.  They use the Justification field to explain why they Prioritized a course to count over another course in a subrequirement.
+Only advisors can use the Exception feature.  Advisors use the Justification field to explain why a course that normally wouldn't count toward a subrequirement should be used as an Exception to complete the requirement.
+No.  Manually Pick Courses should not be used as it bypasses all constraints.  Exceptions using “Manually Pick Courses” cannot be completed in the workflow.
+Instead, use “Substitute Course” and use the Advanced Options to bypass specific constraints impacting your ability to use a particular course.
+Email
+stellic@cornell.edu
+and we’ll help reject the exception so you can replace it with a Substitution instead.

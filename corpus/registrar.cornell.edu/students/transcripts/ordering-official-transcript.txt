@@ -1,0 +1,52 @@
+URL: https://registrar.cornell.edu/students/transcripts/ordering-official-transcript
+TITLE: Ordering Official Transcript | Registrar
+FETCHED: 2026-11-06
+
+Ordering Official Transcript
+Official transcript services are provided in partnership with Parchment. All requests must be submitted by the current or former student. Requests submitted by parents or any unauthorized parties will not be honored. During peak processing times; May to June, August to mid-October, and December to February, processing and mail delivery times may take additional time. For any issues using Parchment, please contact Parchment.
+Learners who took courses through eCornell or for a certificate program need to contact eCornell at
+info@ecornell.com
+.
+Parchment Multi-Factor Authentication
+Starting July 1st all Parchment Users will be required to set up Multi-Factor Authentication (MFA) for their Parchment Account. When you log in you will be required to enter a one-time access code that will be sent to the email address that you have registered with Parchment.
+Student Center
+— login with netID and password
+Navigate to "Other Academics"
+Select "Official Transcript" from the drop-down menu
+If you cannot access the ordering site, you may need to turn off pop-up blocking on your web browser or allow that site to open pop-up windows in your browser preferences.
+After you submit your order, you will receive email messages confirming your order and updates to your order processing status. All requests for official electronic transcripts are typically processed within four hours of the order being placed unless you receive an email notification that your order was placed "on-hold". If your order is placed "on-hold" it could take 2-3 business days to be processed. Anyone with Adobe Reader will be able to receive a secure transcript. Paper transcripts are typically processed within 1-2 business days.
+To identify your NetID, please visit
+Cornell IT
+.
+Self Registration Ordering Site
+— create new account and set password
+After you submit your order, you will receive email messages confirming your order. Your order will be placed "on-hold" while our staff research your record, verify your identity, and processes your request, this can take 2-3 days. Please make sure your contact information is updated in your Student Center. Requests for paper or electronic transcripts prior to 1982 will be processed within 4-5 business days.
+Parchment Multi-Factor Authentication
+Starting July 1st all Parchment Users will be required to set up Multi-Factor Authentication (MFA) for their Parchment Account. When you log in you will be required to enter a one-time access code that will be sent to the email address that you have registered with Parchment. If you are having a problem with accessing your account, please contact Parchment directly.
+The transcript ordering site now includes the capability of adding attachments to both paper and electronic copies of your transcript. Accepted file types include .pdf, .jpg, .doc, .docx, .tiff, .txt, and .png. Please note that all attachments are delivered as submitted. If you require any part of the form to be completed by a college official, please work with the appropriate office(s) prior to uploading and submitting your attachments.
+Students and alumni applying to medical schools can submit secure pdf electronic transcripts from our online ordering site directly to AMCAS (American Medical College Application Service).
+Begin your order as specified above. After selecting Order Now from the welcome page, select the AMCAS eTranscript option. Enter your 8-digit AAMC ID & 7-digit Transcript ID (required). The two IDs may be found in your AMCAS application. The AAMC ID should be visible in the main menu and the Transcript ID is visible in the Schools Attended Summary. The IDs are also located on the AMCAS transcript form.
+Please note that transcripts cannot be held until grades or degrees are finalized. Orders are processed as soon as possible.
+The Office of the University Registrar is committed to maintaining the integrity, accuracy, and security of every current and former student’s academic record. As part of our ongoing efforts to enhance services and ensure the long-term sustainability of our operations, we charge a fee for official transcript requests. This fee supports:
+The secure processing and delivery of official transcripts
+Maintenance and enhancement of our academic records systems
+Continued investment in technology and infrastructure to ensure timely and accurate recordkeeping
+Compliance with institutional and federal standards for data integrity and privacy
+We understand the importance of transparency and accountability in all financial matters. This fee structure has been carefully considered to balance service quality with fiscal responsibility, without impacting staffing or reducing support for our students and alumni. All transcripts are processed through our ordering partner, Parchment. The official transcript fee includes Parchment professing fees.
+Parchment will increase the cost of shipping your Official Transcript via FedEx Domestic Overnight to $35.00 and FedEx International to $65.00 starting December 16, 2025.
+No. Once you submit your order through Parchment it will be processed as soon as possible. Orders are not held for missing grades/degree information. Current students should review their
+Unofficial Transcript
+in
+Student Center
+to make sure all information is present and correct before ordering their Official Transcript.
+If your order has been placed on hold with this note "
+Learner did not authenticate via SSO. Admin review required." it means that you did not place your order through
+Student Center
+and your order will need to be manually reviewed by the Cornell Transcript Team. This is a mandatory review step that can only be bypassed by placing your order through
+Student Center
+.
+If you need to set up Duo Mobile to gain access to Student Center, please follow these steps:
+Get Started with Two-Step Login: Quick Guide
+If your NetID has expired, you will not be able to log into Student Center and must place your order through the Self-Registration Ordering Site that can be found on
+Ordering Official Transcript
+.

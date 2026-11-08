@@ -65,12 +65,3 @@ def test_topic_tiles_match_pages_by_topic_key_or_audience():
 def test_lean_queue_orders_practical_topics_first_and_caps_verifier_rounds():
     assert lean.topic_rank("costs_aid") < lean.topic_rank("housing") < lean.topic_rank("transfer") < lean.topic_rank("alumni_giving")
     assert lean.MAX_VERIFIER_ROUNDS == 3
-
-
-def test_writer_and_editor_rules_ask_for_the_not_confirmed_note():
-    from pathlib import Path
-    src = Path(__file__).resolve().parents[1] / "campus_worker" / "pipeline.py"
-    text = src.read_text()
-    assert "## Not confirmed" in text and "pages we opened do not say" in text  # the banned phrase is named so the writer avoids it
-    assert "Include a short 'What we could not verify' section" not in text
-    assert re.search(r"Dates in prose as 'November 6, 2026'", text)

@@ -1,0 +1,41 @@
+URL: https://business.cornell.edu/news/2023/08/28/research-status-symbols-in-online-debates-can-create-bias/
+TITLE: Research: ‘Status Symbols’ in Online Debates Can Create Bias- Cornell SC Johnson College of Business
+FETCHED: 2026-11-06
+
+August 28, 2023
+Research: ‘Status Symbols’ in Online Debates Can Create Bias
+A debate team’s reward usually comes in the form of a trophy; however, in today’s online world, recognition for winning a debate is a small and valuable symbol.
+Online discussions on platforms such as Reddit and GitHub have grown in popularity with these platforms rewarding participation with virtual symbols. These rewards have become a powerful motivator for participation, but do they infringe on a fair discussion?
+In new research from Cornell, professors used machine learning to examine 1 million online discussions, and they determined that the persuasive power of “symbolic status” from virtual badges and titles has the potential to create an imbalance of power by favoring “high-status” users. They found that status has inherent persuasive power and significantly increases a user’s persuasion rate over and above the content of their arguments and ultimately undermines the principles of authentic deliberation.
+“We find that despite users’ experience and awareness and the long interactive conversations that take place between users, the persuasive power of status still seeps through to undermine the fairness of discussions,” said
+Emaad Manzoor
+, assistant professor of marketing in the
+Samuel Curtis Johnson Graduate School of Management
+, part of the
+Cornell SC Johnson College of Business
+.
+In the paper “
+Influence via Ethos: On the Persuasive Power of Reputation in Deliberation Online
+,” published in the journal
+Management Science,
+Manzoor, and coauthors reported a significant positive effect of reputation on debate success, with 10 units of reputation increasing the probability of persuasion by 31%.
+“The concern is a strong concentration of a small number of core users actively contributing and potentially marginalizing other voices,” Manzoor said. “The design of online deliberation platforms, including public and private organizations, should consider factors such as gender, social status, and knowledge to mitigate power distortions and promote diversity among users.”
+The researchers studied a seven-year panel of debates and quantified the persuasive power of status in online discussions on Reddit’s Change My View platform. Change My View is a virtual forum where participants discuss topics such as politics, media, and popular culture for the purpose of understanding opposing viewpoints. Change My View was their preferred platform because it is heavily moderated and contains good-faith discussions, unlike conversations on Facebook and Twitter, which can sometimes devolve into hostility and groupthink.
+Their findings have implications for organizations engaged in online persuasion, such as sales, addressing customer complaints, and reducing societal polarization. Since individuals online are often under information overload, they are likely to rely on a quick way to process a persuasive message. The findings show that those organizations could benefit from simplifying their messages to induce less cognitive overload.
+According to Manzoor, in response to a growing body of research regarding the negativity of virtual status symbols, firms such as Alibaba have now chosen to adopt “status-hiding” policies both online and offline to improve inter-employee equitability. The company now hides employee titles on its online discussion platform.
+Manzoor’s co-authors include George Chen, assistant professor of information systems and machine learning at Carnegie Mellon University; Dokyun Lee, associate professor of information systems at Boston University; and Michael Smith, professor of information technology and marketing at Carnegie Mellon University. Their paper received the Best Paper Award at the AI for Behavioral Change workshop, an event of the Behavior Change for Good Initiative of the Wharton School at the University of Pennsylvania.
+In this article
+Article Information
+Categories
+Inside SC Johnson
+Related Stories
+November 5, 2026
+Thomas Richard Dyckman, accounting scholar and university leader, dies at 94
+Inside SC Johnson
+October 23, 2026
+2026 Atkinson postdocs improve antibiotics, emissions data, green transition
+Inside SC Johnson
+October 23, 2026
+From running partners to business partners: The rise of Kube & Co.
+Food & Agriculture
+Inside SC Johnson
