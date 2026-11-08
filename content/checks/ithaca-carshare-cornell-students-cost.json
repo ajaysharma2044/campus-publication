@@ -1,0 +1,40 @@
+{
+  "slug": "ithaca-carshare-cornell-students-cost",
+  "queue_id": "q-getting-around-0042",
+  "verdict": "pass",
+  "checked": [
+    {"claim": "No Zipcar in Ithaca; Cornell points to Ithaca Carshare", "source_url": "brief §2.20", "status": "ok", "note": "Brief cross-check; Cornell sustainability page names Ithaca Carshare and does not mention Zipcar."},
+    {"claim": "About 20 vehicles, maintenance and insurance included; pods in Downtown, Northside, Southside, Fall Creek, Collegetown, West End, East Hill; office weekdays 9 to 5", "source_url": "brief §2.20", "status": "ok", "note": "Matches brief row."},
+    {"claim": "Fleet includes fuel-efficient cars, a minivan, a pickup; 24/7 access", "source_url": "https://www.ithaca.edu/orientation/family-and-guest-resources/transportation", "status": "ok", "note": "Fetched; the page says this. Also brief §2.20."},
+    {"claim": "Student plans: Just In Case $30/yr + $9/hr, It's My Car $310/yr + $6/hr, each $45 off; up to two drivers; IC and TC3 qualify; no discount on monthly", "source_url": "https://www.ithacacarshare.org/students-commuters", "status": "ok", "note": "Fetched. 75-30=45 and 355-310=45 recomputed."},
+    {"claim": "Community plans $7.50/mo or $75/yr; $35/mo or $355/yr; $20 non-refundable sign-up per driver; mileage 42/44/52 cents", "source_url": "https://www.ithacacarshare.org/rates", "status": "ok", "note": "Fetched, matches; also brief §2.20."},
+    {"claim": "Taxes 8% sales + 12% rental; page said whether they apply to mileage is our assumption", "source_url": "https://www.ithacacarshare.org/rates", "status": "fixed", "note": "Rates and student pages say both taxes are added to hourly and mileage charges. Replaced the 'our assumption' sentence with the source's statement. The 20% on miles in our math is therefore correct."},
+    {"claim": "10-hour daily cap, excluding highest-demand cars", "source_url": "https://www.ithacacarshare.org/rates", "status": "ok", "note": "Fetched."},
+    {"claim": "It's My Car includes gas/EV charging, maintenance, insurance", "source_url": "https://www.ithacacarshare.org/students-commuters", "status": "ok", "note": "Fetched; page says the student page lists this for It's My Car only, as the source does."},
+    {"claim": "Four on-campus pickup spots plus four in Collegetown and nearby", "source_url": "https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing", "status": "ok", "note": "Fetched; brief §6.10."},
+    {"claim": "Eligibility table: 18+, license 2 years, no suspension in 3 years; under 21 own policy with $300,000 liability; IDP not accepted; some countries cannot be approved; (607) 277-3210", "source_url": "brief §2.20, §6.10", "status": "ok", "note": "Matches brief; 2-year vs 3-year lookback disclosed on the page as the brief advises."},
+    {"claim": "Easy Access plan $10/mo + $6/hr with $20/mo driving credits (Summer 2024 handbook)", "source_url": "brief §2.20", "status": "ok", "note": "Matches brief; page marks eligibility as not confirmed."},
+    {"claim": "Break-even about 93 hours (280/3) and about 78 with tax (280/3.60); about 39 two-hour trips", "source_url": "brief §10.17", "status": "ok", "note": "Recomputed: 280/3=93.3; 3x1.2=3.60, 280/3.6=77.8; 78/2=39."},
+    {"claim": "Trip table: 2h/8mi $25.63 and $18.43; 4h/20mi $53.28 and $38.88; 10h/120mi $168.48 and $132.48; year 20h/100mi $316.40 and $524.40", "source_url": "our math", "status": "ok", "note": "Recomputed all eight: e.g. (18+3.36)x1.2=25.632; (12+3.36)x1.2=18.432; (36+8.40)x1.2=53.28; (24+8.40)x1.2=38.88; (90+50.40)x1.2=168.48; (60+50.40)x1.2=132.48; (180+42)x1.2+50=316.40; (120+42)x1.2+330=524.40."},
+    {"claim": "Junior example: 32 hours, 128 miles; JIC $460.11, IMC $624.91, JIC wins by $164.80", "source_url": "our math", "status": "ok", "note": "Recomputed: (288+53.76)x1.2=410.11, +50=460.11; (192+53.76)x1.2=294.91, +330=624.91; difference 164.80."},
+    {"claim": "Winter break: four 2-hour, 8-mile runs cost about $152.53 first year with sign-up", "source_url": "our math", "status": "ok", "note": "4 x 25.632 = 102.53 + 30 + 20 = 152.53."},
+    {"claim": "Resident permit $752.98; commuter permit $359.77", "source_url": "brief §2.14", "status": "ok", "note": "Matches brief."},
+    {"claim": "Permit vs Carshare: 752.98-310-20 = $422.98; about 70 hours at $6; about 59 at $7.20", "source_url": "brief §10.17", "status": "ok", "note": "Recomputed 422.98/6=70.5; 422.98/7.2=58.7."},
+    {"claim": "Profile: 20 hours IMC plus four NYC OurBus round trips at $33 floor = $714", "source_url": "brief §10.18", "status": "ok", "note": "310+20+120+264=714; 4 round trips x 2 x 33 = 264."},
+    {"claim": "Summer: 3 months monthly JIC $22.50; 12 months $90; OmniRide expires Aug 31", "source_url": "brief §2.10, §2.20", "status": "ok", "note": "3x7.50=22.50; 12x7.50=90."},
+    {"claim": "TCAT $1.50 a ride; free for upper-years after 6 p.m. weekdays and all weekend; lost free daytime TCAT after first year", "source_url": "brief §2.10", "status": "ok", "note": "Matches brief."},
+    {"claim": "Bikeshare 20-minute trip $6.50 before tax", "source_url": "brief §10.17", "status": "ok", "note": "1.50 + 0.25x20 = 6.50."},
+    {"claim": "Dining usually closed the week the university closes", "source_url": "brief §winter break housing", "status": "ok", "note": "Matches brief."},
+    {"claim": "54% of Carshare trips by on-campus Cornell students were grocery runs (2013-era Cornell report)", "source_url": "brief §2.20", "status": "unverifiable", "note": "In the brief (trusted), attributed to a search summary of the Cornell sustainability page. The fetch of that page did not return the 54% figure, so the page's link may not show it now. Left as the brief states it."},
+    {"claim": "2012-13: 584 Cornell students and 237 employees used the membership incentive", "source_url": "brief §2.20", "status": "ok", "note": "Matches brief."},
+    {"claim": "Shutdown May 2023 (insurer left, Vermont risk retention group); returned March 2024 with 12 cars, down from 30, goal 20", "source_url": "brief §2.20", "status": "ok", "note": "Matches brief."},
+    {"claim": "2008: It's My Car was $200 a year plus $4.95 an hour and 20 cents a mile", "source_url": "https://cornellsun.com/2008/08/11/carshare-program-fosters-sustainable-transportation-ithaca", "status": "fixed", "note": "Numbers confirmed ($200, $4.95, $0.20), but the 2008 article does not use the name It's My Car; it calls it the frequent-use plan. Changed the wording to 'the frequent-use plan'."},
+    {"claim": "Five sources from 2016 to 2024 treat car share as a safety net; 2016 College Confidential posters told a first-year to skip the car; 2023 Sun grad student used Carshare as backup then Bikeshare and planned to buy a car", "source_url": "brief §6 and §9 forum and Sun rows", "status": "ok", "note": "Attributions consistent with the brief rows on these sources; page adds no detail beyond them."}
+  ],
+  "brief_updates": [
+    "Clarified in 10.17 that the 8% and 12% taxes apply to hourly and mileage charges (was 'hourly, as an assumption'); change-log line added; source https://www.ithacacarshare.org/rates"
+  ],
+  "fixes": [],
+  "core_answer": "right",
+  "checked_at": "2026-11-08"
+}

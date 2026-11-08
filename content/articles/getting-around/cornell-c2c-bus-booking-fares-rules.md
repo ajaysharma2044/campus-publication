@@ -172,6 +172,16 @@ rows:
 4. **Check the day's times.** Read the [departure schedule](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule) for your exact date. Not every time slot runs every day.
 5. **Arrange extras early.** Email c2cbus@cornell.edu for free B Lot parking. Call 607-254-8747 ten business days ahead for wheelchair access.
 
+```figure
+kind: timeline
+title: C2C booking dates around winter break, 2026-27
+rows:
+  - {label: "New reservation system goes live; new accounts needed", date: "Nov 4, 2026"}
+  - {label: "Last listed departure on the 2026 link", date: "Dec 23, 2026"}
+  - {label: "No departures listed", date: "Dec 24, 2026 to Jan 5, 2027"}
+  - {label: "First listed departure on the 2027 link", date: "Jan 6, 2027"}
+```
+
 Questions go to [c2cbus@cornell.edu or the help portal at tdx.cornell.edu](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources), or by phone to 607-254-8747 (also written 607-254-TRIP). The [office at 209 Solidago Rd is open 8:00 a.m. to 4:00 p.m., Monday to Friday](https://fcs.cornell.edu/departments/transportation-and-delivery-services/campus-campus-bus-service).
 
 ## Where it stops and when

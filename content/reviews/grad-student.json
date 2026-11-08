@@ -1,0 +1,109 @@
+{
+ "slug": "grad-student",
+ "queue_id": "q-getting-around-0074",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Aug 16: the permit year starts",
+   "source_url": "brief §11 dates table",
+   "status": "ok",
+   "note": "brief: permit year valid Aug 16, 2026 to Aug 15, 2027."
+  },
+  {
+   "claim": "Free A or E permits with a full assistantship",
+   "source_url": "brief §2 (graduate assistants row)",
+   "status": "ok",
+   "note": "brief: full assistantship on Ithaca main campus gets free Outer Tier A and E permits; resident students not eligible. Page's glance wording matches."
+  },
+  {
+   "claim": "Fall registration: your OmniRide turns on; activation can take 24 hours",
+   "source_url": "brief §2.10 and §10",
+   "status": "ok",
+   "note": "brief: grads get a free OmniRide pass; activation can take up to 24 hours. Matches the grad-students guide."
+  },
+  {
+   "claim": "Nov 1: city odd/even on-street parking season begins (to Apr 1, when activated)",
+   "source_url": "brief §2.16 and dates table",
+   "status": "ok",
+   "note": "brief: Nov 1 to Apr 1, activated and suspended by the city."
+  },
+  {
+   "claim": "Nov 4, 2026: new C2C reservation system launched; every rider needs a new account",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief: launched Nov 4, 2026, new account for every rider; Oct 22 notice."
+  },
+  {
+   "claim": "Mar 31: last day for a refund on a paid OmniRide or permit",
+   "source_url": "brief §2.10 and dates table",
+   "status": "ok",
+   "note": "brief: Mar 31 is the last day for a prorated permit refund and an OmniRide refund (less $40)."
+  },
+  {
+   "claim": "Aug 31: OmniRide passes expire; renew for the next year",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief: OmniRide expires Aug 31 of the next year. 'Renew' is the page's advice; the brief does not say how grads' free pass renews, but the claim adds no checkable number."
+  },
+  {
+   "claim": "OmniRide costs $200 (tool label and guide descriptions: paid vs free)",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief: $200 a year; PhD students and graduate assistants get it free."
+  },
+  {
+   "claim": "Permit sales open in August",
+   "source_url": "brief §2 (2026-27 sales row)",
+   "status": "ok",
+   "note": "brief: 2026-27 sales began Aug 4, 2026."
+  },
+  {
+   "claim": "Guide 6 covers personal and department-billed C2C fares for NYC or Weill trips",
+   "source_url": "brief; content/articles/getting-around/cornell-c2c-bus-booking-fares-rules.md",
+   "status": "ok",
+   "note": "$93.50 NetID personal, $86 department-paid Cornell business travel per brief and the guide."
+  },
+  {
+   "claim": "Guide 5: Carshare has two student plans",
+   "source_url": "content/articles/getting-around/ithaca-carshare-cornell-students-cost.md",
+   "status": "ok",
+   "note": "Guide meta: Just In Case ($30) and It's My Car ($310)."
+  },
+  {
+   "claim": "Guide 7: garages, meters and the city residential permit",
+   "source_url": "content/articles/getting-around/parking-collegetown-downtown-ithaca-garages-permits.md",
+   "status": "ok",
+   "note": "Guide meta: garages, streets, $45 city resident permit."
+  },
+  {
+   "claim": "Guide titles, URLs and descriptions for items 1 to 6 match the guides' own titles and metas",
+   "source_url": "guide frontmatter",
+   "status": "ok",
+   "note": "Titles abbreviate nothing wrongly; each guide exists at the linked slug."
+  },
+  {
+   "claim": "Tool link labels (three of four) matched the tools' own titles",
+   "source_url": "content/tools/*/tool.md",
+   "status": "ok",
+   "note": "fixed in place: Three labels drifted from the tools' titles; replaced with the exact titles: car quiz ('Quiz with 2026-27 costs'), OmniRide calculator ('OmniRide break-even calculator: $200 pass vs $1.50 fares'), ITH/SYR ('ITH or SYR trip cost calculator: parking, bus and airfare'). The Carshare label already matched."
+  },
+  {
+   "claim": "Reader premise: grad students ride TCAT free (OmniRide) at all hours; assistantship covers A or E permits",
+   "source_url": "brief §2.10; grad-students guide",
+   "status": "ok",
+   "note": "brief line 11 and the grad guide table agree."
+  }
+ ],
+ "beats_top": {
+  "query": "Cornell grad student transportation",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

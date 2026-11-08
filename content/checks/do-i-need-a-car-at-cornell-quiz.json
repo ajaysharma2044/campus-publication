@@ -1,0 +1,33 @@
+{
+  "slug": "do-i-need-a-car-at-cornell-quiz",
+  "queue_id": "q-getting-around-0058",
+  "verdict": "pass",
+  "checked": [
+    {"claim": "Resident permit $752.98 a year; B commuter $359.77; Outer Tier A/E free with full assistantship; resident students not eligible for A/E", "source_url": "brief §2.14", "status": "ok", "note": "brief §2.14 rows match."},
+    {"claim": "TCAT fare $1.50; OmniRide $200 a year; first-years/PhD/GA free; others free after 6 p.m. and weekends; fall first-year pass to Aug 31 2027, spring entrants Jan 1 to Dec 31", "source_url": "brief §2.10", "status": "ok", "note": "brief §2.10 first-year pass dates, OmniRide row and PhD/GA row match."},
+    {"claim": "Transfers count as first-years per a 2024 Cornell Sun report, TCAT manager not quoted on it", "source_url": "brief §2.10", "status": "ok", "note": "Brief marks this as the reporter's own statement; page attribution matches. Phone 607-255-4600 is in the brief."},
+    {"claim": "Johnson MBA page says first year free", "source_url": "brief §2.10", "status": "ok", "note": "brief MBA page wording row."},
+    {"claim": "C2C NetID round trip $187", "source_url": "brief §2.2", "status": "ok", "note": "$93.50 one way, $187 round trip."},
+    {"claim": "OurBus floor $33 one way; Wanderu average advertised fare $61.91, mean of 6 carriers", "source_url": "brief §2.4, §10.6", "status": "ok", "note": "Brief: From $33; averages mean $61.91, n = 6, 1 day."},
+    {"claim": "Thanksgiving week ran about a third higher on other routes", "source_url": "brief §10.9", "status": "ok", "note": "Unweighted mean +33.3% on 3 other routes."},
+    {"claim": "ITH long-term parking $40 a week; 14-day stay about $80", "source_url": "brief §2.7, §10.2", "status": "ok", "note": "2 x 40 = 80 recomputed."},
+    {"claim": "Carshare Just In Case $30/yr and It's My Car $310/yr student plans; $9 and $6 an hour; $20 sign-up; 20% tax (8% + 12%); mileage 42 to 52 cents", "source_url": "brief §2.20", "status": "ok", "note": "Brief §10.17 row and §2.20 usage rates match. Page flags the tax-on-fees question as its own assumption."},
+    {"claim": "Carshare eligibility: 18+, license 2+ years; under 21 own policy with $300,000 per accident; foreign license needs official driving record, IDP not accepted", "source_url": "brief §2.20", "status": "ok", "note": "Rows match."},
+    {"claim": "Bikeshare $1.50 unlock + $0.25 a minute; $60 a month; 20 minutes = $6.50", "source_url": "brief §2.19", "status": "ok", "note": "1.50 + 20 x 0.25 = 6.50 recomputed."},
+    {"claim": "City of Ithaca residential permit $45 a year", "source_url": "brief §10", "status": "ok", "note": "Brief table row."},
+    {"claim": "Ticket $50 plus $10 if unpaid in 10 days, from 2023-09-01", "source_url": "brief §2.15", "status": "ok", "note": "Matches the brief row (newer schedule not checked, as the brief notes)."},
+    {"claim": "2026-27 permit sale opened Aug 4, 2026, permits valid Aug 16 2026 to Aug 15 2027; resident permits capped to North Campus per a summary only", "source_url": "brief §2.14", "status": "ok", "note": "Brief marks the cap as a search summary with the page returning 403; the page says the same and tells readers to check."},
+    {"claim": "Winter parking Dec 1 to Apr 1; odd/even Nov 1 to Apr 1; car left on street over break can be towed as abandoned", "source_url": "brief §2.16", "status": "ok", "note": "Rows match."},
+    {"claim": "TCAT routes 14S and 83 suspended since fall 2023", "source_url": "brief §2.10", "status": "ok", "note": "Brief route suspensions row."},
+    {"claim": "Forum: 67% to 80% of arguments against a first-year car, one thread 2016-04-23 to 2016-05-13, 8 to 10 posters", "source_url": "https://talk.collegeconfidential.com/t/should-i-bring-a-car/1811430", "status": "fixed", "note": "Brief §10.19: 6 of 9 arguments (67%) against; about 8 of 10 posters (80%) against. The page applied both to 'arguments'. Reworded in tool.md and tool.html to '67% of the arguments (about 80% of the posters)'. Thread opened: 16 posts, 10 distinct posters, Apr 23 to May 13 2016."},
+    {"claim": "Break-even 200 / 1.50 = 133.3, so 134 rides", "source_url": "brief §10.14", "status": "ok", "note": "Recomputed: 133.33, rounded up to 134."},
+    {"claim": "Permit per day $2.06; 502 TCAT rides", "source_url": "brief §10.13", "status": "ok", "note": "Recomputed 752.98 / 365 = 2.063; 752.98 / 1.50 = 501.99."},
+    {"claim": "Carshare plan break-even 93.3 hours; permit equals 70.5 hours of It's My Car", "source_url": "brief §10.17", "status": "ok", "note": "Recomputed (310-30)/(9-6) = 93.3; (752.98-310-20)/6 = 70.5."},
+    {"claim": "NYC round trips: $66, $123.82, $187; four trips $264, $495.28, $748", "source_url": "brief §10.18", "status": "ok", "note": "Recomputed 2x33, 2x61.91, 187, each times 4. Matches the brief's $264 floor."},
+    {"claim": "Quiz decision rules and the tool.html compute() logic agree with the tool.md steps", "source_url": "tool.html", "status": "ok", "note": "Read the code; the five steps match the branches. The with-car total is permit plus ITH weeks only, as stated."}
+  ],
+  "brief_updates": [],
+  "fixes": [],
+  "core_answer": "right",
+  "checked_at": "2026-11-08"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "car-on-campus",
+  "queue_id": "q-getting-around-0072",
+  "verdict": "pass",
+  "checked": [
+    {"claim": "Tue Aug 4, 2026, 9 a.m.: student permit sales open, first come first served (fcs.cornell.edu/node/17809)", "source_url": "brief §2 (permit sales row; calendar table)", "status": "ok", "note": "Brief gives the same date, time and source. The brief itself notes the source page returned 403 and the figure came from a search summary; the page does not claim more than the brief."},
+    {"claim": "Aug 16: new permit year starts, valid Aug 16, 2026 to Aug 15, 2027", "source_url": "brief §2 (calendar table, 2026-27 sales row)", "status": "ok", "note": "Same dates and same node 17809 source in the brief."},
+    {"claim": "Nov 1: city odd/even on-street parking season begins, to Apr 1 (ecode360.com/8395630)", "source_url": "brief §2.16 and calendar table", "status": "ok", "note": "Brief gives Nov 1 to Apr 1 with the same code URL. The brief says it applies when activated for snow removal; the page's 'season' wording is consistent."},
+    {"claim": "Dec 1 to Apr 1: Cornell winter overnight parking rules (winter-break-parking-rules page)", "source_url": "brief §2.16 and calendar table", "status": "ok", "note": "Same dates and URL in the brief."},
+    {"claim": "Mar 31: last day to return your permit for a prorated refund (parking-students page)", "source_url": "brief §2 (validity and refunds row)", "status": "ok", "note": "Brief: prorated refund only if returned by Mar 31; same source."},
+    {"claim": "Residents of North, West, South and Hasbrouck are the target reader", "source_url": "brief §2 (resident permit row: FH Hasbrouck, ND North, SW South, WD West)", "status": "ok", "note": "Matches the four resident permit areas in the brief and the readers.md definition of car-on-campus."},
+    {"claim": "Guide 1 'Having a car at Cornell: permits, winter, breaks, costs' covers the whole year with a car", "source_url": "content/articles/getting-around/having-a-car-at-cornell-student-guide.md", "status": "ok", "note": "Title matches exactly; the meta covers permit, winter parking and break; it has a 'car owner's year' table."},
+    {"claim": "Guide 2 permits: which permit you can buy, cost, how sale morning works", "source_url": "content/articles/getting-around/cornell-student-parking-permit-cost-rules.md", "status": "ok", "note": "Title matches; meta covers cost, who qualifies and Aug 4 sale at 9 a.m.; the page has a 'Getting a Cornell student parking permit' block."},
+    {"claim": "Guide 3 winter parking: where the car can stay overnight from November and over winter break", "source_url": "content/articles/getting-around/ithaca-winter-parking-rules-cornell-odd-even.md", "status": "ok", "note": "Title matches; meta covers odd/even from Nov 1, Dec 1 to Apr 1 nine areas, and never leaving a car on a street over break."},
+    {"claim": "Guide 4 winter storms: driving the hills and highways in a storm, when to change plans, before Thanksgiving drive", "source_url": "content/articles/getting-around/cornell-winter-storms-travel-driving-ithaca.md", "status": "ok", "note": "Title matches; meta covers Thanksgiving and January returns, traveling a day early and 511NY."},
+    {"claim": "Guide 5 'Getting to Ithaca and around Cornell, 2026-27': whole topic, buses, airports, TCAT", "source_url": "content/articles/getting-around/getting-to-ithaca-and-around-cornell.md", "status": "ok", "note": "Title matches exactly; meta covers bus, ITH flights, TCAT."},
+    {"claim": "Tools: car quiz, ITH or SYR trip cost calculator, before-break checklist, with the descriptions given", "source_url": "content/tools/*/tool.md", "status": "ok", "note": "All three exist; titles match exactly; the quiz compares no car, Carshare and permits; the calculator compares ITH and SYR including parking and bus; the checklist is a dated to-do list including car location."},
+    {"claim": "Move-in, move-out and Collegetown/downtown parking guides are linked with accurate titles", "source_url": "content/articles/getting-around/{cornell-move-in-day-parking-unloading,cornell-move-out-storage-shipping-options,parking-collegetown-downtown-ithaca-garages-permits}.md", "status": "ok", "note": "Titles match, including '2026 rates' for the parking guide; the meta mentions garages and meters."}
+  ],
+  "brief_updates": [],
+  "fixes": [],
+  "core_answer": "right",
+  "checked_at": "2026-11-08"
+}

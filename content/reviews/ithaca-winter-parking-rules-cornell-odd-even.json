@@ -1,0 +1,163 @@
+{
+ "slug": "ithaca-winter-parking-rules-cornell-odd-even",
+ "queue_id": "q-getting-around-0037",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Campus winter rule: Dec 1 to Apr 1, snowing or snow forecast, 5 p.m. to 7:30 a.m., designated areas open to all registered vehicles",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules",
+   "status": "ok",
+   "note": "brief §2.16; also re-read the live Cornell page, same dates, hours and wording."
+  },
+  {
+   "claim": "Nine designated areas table (A Lot west/mid, B Lot east/west, Crescent north bay, Wilson Lab west bay, Alumni Field east end near Wing Drive, Forest Home garage, Hoy Road garage except roof, Myron Taylor NW end, Morrison Hall lot)",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules",
+   "status": "ok",
+   "note": "brief §2.16 and live page match; counted 9 rows."
+  },
+  {
+   "claim": "Resident permit holders (FH, ND, SW, WD) park in own lots as usual; students in university housing may leave car in permit area over winter break",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules",
+   "status": "ok",
+   "note": "Live page confirms both statements."
+  },
+  {
+   "claim": "City odd/even Nov 1 to Apr 1, 7 p.m. to 6 a.m., activated by city on weather, towing possible after 72 hours, snow emergency routes separate",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "brief §2.16 (code row)."
+  },
+  {
+   "claim": "Car left on city street over winter break may be treated as abandoned, ticketed, towed, possibly impounded",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "Brief and live Cornell page agree."
+  },
+  {
+   "claim": "Feb 14, 2026: even side on even dates, per FingerLakes1",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "brief §2.16; 14 is even so even side is consistent with the rule."
+  },
+  {
+   "claim": "$752.98 resident permit; valid in A Lot after 2:30 p.m.; prorated daily from Sept 1; commuter B $359.77 prorated from Aug 16; Mar 31 refund deadline; no cash refunds",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief §2.14 rows for resident, commuter and validity/refunds."
+  },
+  {
+   "claim": "Graduate assistants with a full Ithaca assistantship get free Outer Tier A and E permits as non-resident commuter",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief §2.14 graduate assistants row."
+  },
+  {
+   "claim": "Fines: winter rules $50; no permit/payment $50 (+$10 after 10 days); no parking $50; fire lane/accessible/life-safety $150 plus automatic tow; boot release $150; fines effective Sept 1, 2023, first rise since 2014; permit/payment about 85% of tickets",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief §2.15 and appendix fines rows."
+  },
+  {
+   "claim": "ParkMobile: text PARK to 77223 or app, $0.45 fee per transaction",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief short-term parking rows."
+  },
+  {
+   "claim": "Commuter lots paid Mon to Fri 7:30 a.m. to 5 p.m., including holidays and breaks",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief commuter-lot payment hours row."
+  },
+  {
+   "claim": "Plate registration at MyParking.Cornell.edu required, even short-term; enforcement whenever university open, suspended on closed staff holidays; no-parking, fire lane, reserved, service, accessible never suspended",
+   "source_url": "brief §2.15/2.16",
+   "status": "ok",
+   "note": "brief plate registration and enforcement rows; live page matches."
+  },
+  {
+   "claim": "After heavy snow A and B lots are cleared first",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "brief plowing order row; live page confirms."
+  },
+  {
+   "claim": "Cornell winter notice 2023 dated Nov 16; look for this year's mid-November",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "brief annual notices row and calendar."
+  },
+  {
+   "claim": "C2C riders: free B Lot parking by emailing c2cbus@cornell.edu with plate and dates (since Oct 2024); B Lot temporary parking up to 14 days at a time",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief rows for B Lot parking (effective 2024-10-10; 14 days)."
+  },
+  {
+   "claim": "City garages $2.25 an hour; $12 daily max at Green and Cayuga; $18 at Dryden Road",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "brief city garage rows."
+  },
+  {
+   "claim": "$45 city residential permit valid to July 31; only the resident can get it",
+   "source_url": "brief §2.17 / calendar",
+   "status": "ok",
+   "note": "brief permit steps: pay $45, valid to July 31."
+  },
+  {
+   "claim": "Winter break housing $125 a week or $500 full break; application closes Dec 1",
+   "source_url": "brief §2.22",
+   "status": "ok",
+   "note": "brief §2.22."
+  },
+  {
+   "claim": "2025-26 residences closed Sun Dec 21 at 2 p.m., recess to Jan 13, 2026; 2026-27 dates not posted",
+   "source_url": "brief §2.22",
+   "status": "ok",
+   "note": "brief 2025 closing precedent row (marked search summary); page labels it 2025-26."
+  },
+  {
+   "claim": "TDS at 116 Maple Avenue, 607-255-4600, Mon to Fri 7:30 a.m. to noon",
+   "source_url": "brief appendix (TDS)",
+   "status": "ok",
+   "note": "brief glossary entry."
+  },
+  {
+   "claim": "Residential streets plowed last (2014 College Confidential thread, 2022 Sun) and 2022 Sun report on buried Collegetown cars",
+   "source_url": "brief §6 theme 20",
+   "status": "ok",
+   "note": "brief theme row 20 lists both sources for icy hills, buried cars, residential streets plowed last."
+  },
+  {
+   "claim": "Example: Dec 19 to Jan 12 is 24 days; 24 days is eight times the 72-hour mark; 24 x $12 = $288",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "Recomputed: 12 days Dec 19 to Dec 31 plus 12 days in Jan = 24; 24 / 3 = 8; 24 x 12 = 288."
+  },
+  {
+   "claim": "Winter break 2025-26 'more than three weeks'",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "Dec 21 to Jan 13 = 23 days, over three weeks."
+  },
+  {
+   "claim": "Thanksgiving Day 2026 is Nov 26",
+   "source_url": "calendar",
+   "status": "ok",
+   "note": "Nov 8, 2026 is a Sunday, so Thursdays are Nov 5, 12, 19, 26; fourth Thursday is Nov 26."
+  }
+ ],
+ "beats_top": {
+  "query": "Cornell winter parking rules Ithaca odd even",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

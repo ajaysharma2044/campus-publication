@@ -1,0 +1,205 @@
+{
+ "slug": "cornell-move-out-storage-shipping-options",
+ "queue_id": "q-getting-around-0047",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "BRSS: small box $39, large $49, Blue Moving Bag $65, 3 to 4 month term, pickup/storage/delivery included",
+   "source_url": "http://www.bigredboxes.com/BRSS_Pricing",
+   "status": "ok",
+   "note": "Opened the pricing page; all values match. Giant box priced by dimensions, matches."
+  },
+  {
+   "claim": "Item tiers: small $49, medium $75, large $100, giant $150, with the example items listed",
+   "source_url": "http://www.bigredboxes.com/BRSS_Pricing",
+   "status": "ok",
+   "note": "Tiers and examples match the pricing page (page uses a shortened example list)."
+  },
+  {
+   "claim": "Shipping by FedEx at rates calculated at pickup; international shipments and customs paperwork carry extra fees, no amounts",
+   "source_url": "http://www.bigredboxes.com/BRSS_Pricing",
+   "status": "ok",
+   "note": "Matches pricing page."
+  },
+  {
+   "claim": "Extra fees: overweight, oversized, fragile, late reschedules, missed appointments, non-BRSS boxes; no amounts",
+   "source_url": "http://www.bigredboxes.com/BRSS_Pricing",
+   "status": "ok",
+   "note": "Matches pricing page list."
+  },
+  {
+   "claim": "Supplies at 409 College Ave front desk or delivered for a fee; orders confirmed 48 hours before",
+   "source_url": "brief §2.22",
+   "status": "ok",
+   "note": "brief §2.22 (row for BRSS supplies and confirmation)."
+  },
+  {
+   "claim": "Free in-room pickup and delivery, must be present, Housing cannot give access, appointments limited, Cornell says BRSS prices are the most affordable in Ithaca, no rates on Cornell page",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options",
+   "status": "ok",
+   "note": "Opened the Cornell page; matches, and brief §2.22."
+  },
+  {
+   "claim": "BRSS contact: bigredboxes.com, 607-524-3130, brss@studentagencies.com",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options",
+   "status": "ok",
+   "note": "Phone and email confirmed on the Cornell page."
+  },
+  {
+   "claim": "Building closes 2 p.m. Sunday May 17, 2026; unattended items donated",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options",
+   "status": "ok",
+   "note": "Confirmed on page; brief §2.22. Page correctly marks 2027 date as not confirmed."
+  },
+  {
+   "claim": "BRSS run by Student Agencies; Cornell contracts with it",
+   "source_url": "brief §2.22",
+   "status": "ok",
+   "note": "brief §2.22."
+  },
+  {
+   "claim": "Six large boxes plus mini fridge = $369",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "6 x 49 = 294; mini fridge is a medium item at $75; 294 + 75 = 369."
+  },
+  {
+   "claim": "Four small boxes = $156; five large boxes = $245",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "4 x 39 = 156; 5 x 49 = 245."
+  },
+  {
+   "claim": "BRSS totals land inside the market ranges ($150-300 boxes, $300-500 room)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "156 and 245 are within 150-300; 369 within 300-500."
+  },
+  {
+   "claim": "5x5 self-storage $64 to $110 a month; about $192 to $330 for three months",
+   "source_url": "https://www.storagescholars.com/cities-we-serve/ithaca-ny",
+   "status": "ok",
+   "note": "Storage Scholars FAQ says $64-$110/month for 5x5 in Ithaca. 3 x 64 = 192; 3 x 110 = 330."
+  },
+  {
+   "claim": "Storage Scholars advises booking by early April; Ithaca page prices only self-storage units",
+   "source_url": "https://www.storagescholars.com/cities-we-serve/ithaca-ny",
+   "status": "ok",
+   "note": "Page says 'Book by early April'; brief §2.22."
+  },
+  {
+   "claim": "Market ranges: $150-300 for 5-8 boxes; $300-500 full room; $14-40 per item per month; 4-month minimum; surcharge up to $300 off-date; pickup truck $30-60 a day",
+   "source_url": "https://www.storagescholars.com/blog/college-storage-cost-calculator-pricing",
+   "status": "ok",
+   "note": "Opened blog; all values match; truck rental is a general estimate, as the page says ('on a company blog')."
+  },
+  {
+   "claim": "Climate control adds $20 to $50 a month for self-storage",
+   "source_url": "https://www.storagescholars.com/blog/college-storage-cost-calculator-pricing",
+   "status": "unverifiable",
+   "note": "Not asked of the fetch and not in the brief rows I found; the page's source for this is not clearly linked. Minor table cell; does not affect the core answer."
+  },
+  {
+   "claim": "SpareFoot average booked Ithaca unit $107.19 over 180 days",
+   "source_url": "brief §2.22",
+   "status": "ok",
+   "note": "brief §2.22 and §6."
+  },
+  {
+   "claim": "Other local names: Storage Squad, Uncle Marty's on the Commons, Bolt Storage in Freeville (FingerLakes1, 2026, no prices)",
+   "source_url": "brief §2.22",
+   "status": "ok",
+   "note": "brief §2.22."
+  },
+  {
+   "claim": "Ithaca Carshare Just In Case: $30 a year plus $9 an hour, plus mileage and tax",
+   "source_url": "https://www.ithacacarshare.org/students-commuters",
+   "status": "ok",
+   "note": "fixed in place: The page linked the rates page, which lists $75 a year for the community plan; $30 student price is on students-commuters (brief §2.20, §10.17). Repointed body link to students-commuters and added it to frontmatter sources; kept rates page as a source for $9/hr, mileage and tax, which it shows."
+  },
+  {
+   "claim": "Sun 2024: Nebraska student travels about 15 hours home and shipped extras",
+   "source_url": "https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes",
+   "status": "ok",
+   "note": "Opened article: trip about 15 hours; student ships extra belongings. Close paraphrase."
+  },
+  {
+   "claim": "Sun 2024: carriers raised rates; Robert Purcell handled nearly 28,000 packages in two weeks in 2022",
+   "source_url": "https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes",
+   "status": "ok",
+   "note": "Confirmed in article; brief §2.22."
+  },
+  {
+   "claim": "Sun: at peak, two large bags on OurBus guaranteed only by buying two seats",
+   "source_url": "https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes",
+   "status": "ok",
+   "note": "Confirmed in article; brief §2.3."
+  },
+  {
+   "claim": "OurBus: one suitcase up to 50 lb plus handbag; extra bags $30 prepaid",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief §2.3."
+  },
+  {
+   "claim": "C2C: 2 suitcases below deck plus 2 small carry-ons",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief luggage row for C2C."
+  },
+  {
+   "claim": "Greyhound: 1 carry-on and 1 checked bag; Flexible fare adds a second checked bag",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief §2.3."
+  },
+  {
+   "claim": "C2C package service $20 a package, Cornell department or Weill accounts only",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-additional-information",
+   "status": "ok",
+   "note": "Page: $20 per package, payment by Cornell department or Weill Medical College account number, restricted to Cornell business use."
+  },
+  {
+   "claim": "Spring 2027 finals May 15 to 22, 2027",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar",
+   "status": "ok",
+   "note": "Registrar calendar confirms May 15 to May 22, 2027."
+  },
+  {
+   "claim": "Winter closing: residences close Sunday Dec 20, 2026 at 2 p.m.; take valuables, passports, medications; unplug appliances except fridges",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice",
+   "status": "ok",
+   "note": "Confirmed on the notice; brief change log 2026-11-08."
+  },
+  {
+   "claim": "Loading spots by area (North, West, Cascadilla and Sheldon, Gothics Way and Becker Drive not accessible)",
+   "source_url": "brief §2.22",
+   "status": "ok",
+   "note": "brief rows for move-out loading, North and South; West list agrees with brief §9 summary (West Ave, Stewart Ave, Mary Ann Wood Dr; Forest Park Ln not separately verified)."
+  },
+  {
+   "claim": "Housing line 607-255-5368",
+   "source_url": "brief §2.22",
+   "status": "ok",
+   "note": "brief Housing contact row."
+  },
+  {
+   "claim": "2020 free storage was a pandemic-era program, not a standing one",
+   "source_url": "https://cornellsun.com/2020/03/13/local-storage-services-left-boxed-in-after-new-cornell-paid-solution/",
+   "status": "ok",
+   "note": "Brief records it as a 2020 Sun story (brief §8 gap table); characterization consistent."
+  }
+ ],
+ "beats_top": {
+  "query": "Cornell summer storage move out options",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

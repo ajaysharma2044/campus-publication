@@ -1,0 +1,22 @@
+{
+  "slug": "transfer-spring",
+  "queue_id": "q-getting-around-0070",
+  "verdict": "pass",
+  "checked": [
+    {"claim": "Nov 1: city odd/even on-street parking season runs to Apr 1", "source_url": "brief §2.16 / §dates", "status": "ok", "note": "brief §2.16 and date table: Nov 1 to Apr 1."},
+    {"claim": "Dec 1: Cornell winter overnight parking rules start (to Apr 1)", "source_url": "brief §2.16 / §dates", "status": "ok", "note": "brief: Dec 1 to Apr 1."},
+    {"claim": "Jan 1: spring entrant's free TCAT starts, ends Dec 31 of the same year, not Aug 31, no extensions", "source_url": "brief §2.10", "status": "ok", "note": "brief §2.10 first-year pass dates row; matches the TCAT guide's own table."},
+    {"claim": "Jan 6, 2027: first C2C departures on the separate \"2027\" booking link", "source_url": "brief §2.1", "status": "ok", "note": "brief §2.1 booking links row and date table."},
+    {"claim": "Mar 31: last day for a prorated permit refund", "source_url": "brief §2.14", "status": "ok", "note": "brief permit validity and refunds row."},
+    {"claim": "Apr 1: Cornell winter overnight rules and city odd/even season end", "source_url": "brief §2.16", "status": "ok", "note": "brief date table."},
+    {"claim": "Transfers count as first-years for TCAT", "source_url": "https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free", "status": "fixed", "note": "Brief §2.10 says this is the Cornell Sun reporter's own statement; Cornell's pass page does not name transfers. The page stated it as fact. Reworded to attribute it to the Sun report, hedged with 'likely', and linked the Sun article. Did not re-open the Sun page; relied on brief."},
+    {"claim": "Guide 2 covers what the first-year pass covers and the date it ends for your entry term", "source_url": "brief §2.10; guide tcat-free-for-cornell-students-hours-routes", "status": "ok", "note": "Guide has entry-term pass-date table and reader block for transfer-spring."},
+    {"claim": "Guide 4 covers how a permit bought mid-year is priced and refunded", "source_url": "guide cornell-student-parking-permit-cost-rules; brief §2.14", "status": "ok", "note": "Guide has a permit-year section; brief has prorating (daily from Sept 1 / Aug 16) and Mar 31 refund."},
+    {"claim": "Guide 6 covers which booking link covers a January trip and what late cancelling costs", "source_url": "guide cornell-c2c-bus-booking-fares-rules", "status": "ok", "note": "Guide has the 2027 link from Jan 6 and a $30 late-cancel fee section."},
+    {"claim": "Guide 3, 5, 7, 8 descriptions (winter parking rules; winter storms; off-campus commute/parking by area; full topic)", "source_url": "guide titles and metas", "status": "ok", "note": "Each matches its guide's title and meta; all eight linked guides plus the upper-years guide exist in content/articles/getting-around."}
+  ],
+  "brief_updates": [],
+  "fixes": [],
+  "core_answer": "right",
+  "checked_at": "2026-11-08"
+}

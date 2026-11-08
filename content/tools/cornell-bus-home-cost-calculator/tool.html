@@ -1,0 +1,193 @@
+<div class="tool" id="tool-cornell-bus-home-cost-calculator" data-tool="cornell-bus-home-cost-calculator" data-as-of="2026-11-08">
+  <style>
+    #tool-cornell-bus-home-cost-calculator .tool-row { margin: 0 0 0.9rem; }
+    #tool-cornell-bus-home-cost-calculator label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
+    #tool-cornell-bus-home-cost-calculator .tool-hint { display: block; font-size: 0.875em; opacity: 0.8; }
+    #tool-cornell-bus-home-cost-calculator input, #tool-cornell-bus-home-cost-calculator select { font: inherit; max-width: 100%; }
+    #tool-cornell-bus-home-cost-calculator .tool-table-wrap { overflow-x: auto; }
+    #tool-cornell-bus-home-cost-calculator table { border-collapse: collapse; width: 100%; font-size: 0.9375em; }
+    #tool-cornell-bus-home-cost-calculator th, #tool-cornell-bus-home-cost-calculator td { text-align: left; padding: 0.35rem 0.5rem; border-bottom: 1px solid currentColor; border-bottom-color: rgba(128,128,128,0.35); vertical-align: top; }
+    #tool-cornell-bus-home-cost-calculator .tool-asof, #tool-cornell-bus-home-cost-calculator .tool-note { font-size: 0.875em; opacity: 0.85; }
+  </style>
+
+  <form class="tool-form" onsubmit="return false;">
+    <div class="tool-row">
+      <label for="cornell-bus-home-cost-calculator-trips">Round trips home to NYC this school year</label>
+      <input type="number" id="cornell-bus-home-cost-calculator-trips" name="trips" min="1" max="12" step="1" value="4" inputmode="numeric">
+      <span class="tool-hint">Count Thanksgiving, winter break, spring break and any weekends. 1 to 12.</span>
+    </div>
+    <div class="tool-row">
+      <label for="cornell-bus-home-cost-calculator-fare">Your C2C fare</label>
+      <select id="cornell-bus-home-cost-calculator-fare" name="fare">
+        <option value="netid" selected>NetID (student, faculty, staff): $93.50 one way</option>
+        <option value="public">Public, no NetID (parents, guests): $101 one way</option>
+      </select>
+      <span class="tool-hint" data-as-of="2026-11-08">C2C posted rates, read Nov 8, 2026. Only C2C has a NetID price.</span>
+    </div>
+    <div class="tool-row">
+      <label for="cornell-bus-home-cost-calculator-carrier">Commercial bus to compare with C2C</label>
+      <select id="cornell-bus-home-cost-calculator-carrier" name="carrier">
+        <option value="ourbus" selected>OurBus</option>
+        <option value="flixbus">FlixBus</option>
+        <option value="greyhound">Greyhound</option>
+      </select>
+    </div>
+    <div class="tool-row">
+      <label for="cornell-bus-home-cost-calculator-thanksgiving">Is one of those round trips at Thanksgiving?</label>
+      <select id="cornell-bus-home-cost-calculator-thanksgiving" name="thanksgiving">
+        <option value="yes" selected>Yes, I go home for Thanksgiving</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    <div class="tool-row">
+      <label for="cornell-bus-home-cost-calculator-bags">Large bags you bring each way</label>
+      <select id="cornell-bus-home-cost-calculator-bags" name="bags">
+        <option value="1" selected>1 large bag</option>
+        <option value="2">2 large bags</option>
+        <option value="3">3 large bags</option>
+      </select>
+      <span class="tool-hint">Carry-ons not counted.</span>
+    </div>
+  </form>
+
+  <p class="tool-note">Fares used, one way, Ithaca to NYC:
+    C2C <span data-as-of="2026-11-08">$93.50 NetID, $101 public</span>;
+    OurBus <span data-as-of="2026-11-08">from $25, average $69.23</span>;
+    FlixBus <span data-as-of="2026-11-08">from $30, average $73.50</span>;
+    Greyhound <span data-as-of="2026-11-08">from $37, average $82.31</span>
+    (Wanderu, week of Nov 8 to 14, 2026). Thanksgiving week <span data-as-of="2026-11-08">+33.3% (range +27.9% to +37.9%)</span>.
+    OurBus extra bag <span data-as-of="2026-11-07">$30 prepaid</span>.</p>
+
+  <div class="tool-result" id="cornell-bus-home-cost-calculator-result" aria-live="polite">
+    <p>Turn on JavaScript to see your total, or multiply by hand: one way fare × 2 × round trips.</p>
+  </div>
+
+  <script>
+  (function () {
+    var root = document.getElementById('tool-cornell-bus-home-cost-calculator');
+    if (!root) return;
+    var P = 'cornell-bus-home-cost-calculator-';
+    function el(id) { return root.querySelector('#' + P + id); }
+
+    var C2C = 'https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates';
+    var WANDERU = 'https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/';
+    var TG = 'https://www.checkmybus.com/ithaca-ny/rochester-ny';
+    const NUMBERS = {
+      c2cNetid:       { value: 93.50, asOf: '2026-11-08', source: C2C },
+      c2cPublic:      { value: 101,   asOf: '2026-11-08', source: C2C },
+      c2cBagsFree:    { value: 2,     asOf: '2026-11-08', source: 'https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations' },
+      ourbusFloor:    { value: 25,    asOf: '2026-11-08', source: WANDERU },
+      ourbusAvg:      { value: 69.23, asOf: '2026-11-08', source: WANDERU },
+      flixbusFloor:   { value: 30,    asOf: '2026-11-08', source: WANDERU },
+      flixbusAvg:     { value: 73.50, asOf: '2026-11-08', source: WANDERU },
+      greyhoundFloor: { value: 37,    asOf: '2026-11-08', source: WANDERU },
+      greyhoundAvg:   { value: 82.31, asOf: '2026-11-08', source: WANDERU },
+      tgPremium:      { value: 0.333, asOf: '2026-11-08', source: TG },
+      tgPremiumLow:   { value: 0.279, asOf: '2026-11-08', source: 'https://www.checkmybus.com/ithaca-ny/binghamton-ny' },
+      tgPremiumHigh:  { value: 0.379, asOf: '2026-11-08', source: 'https://www.checkmybus.com/ithaca-ny/washington-dc' },
+      ourbusBagsFree: { value: 1,     asOf: '2024-02-01', source: 'https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes' },
+      ourbusBagFee:   { value: 30,    asOf: '2026-11-07', source: 'https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university' },
+      greyhoundBagsFree: { value: 1,  asOf: '2026-11-08', source: 'https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny' }
+    };
+    function N(k) { return NUMBERS[k].value; }
+
+    var CARRIERS = {
+      ourbus:    { name: 'OurBus',    floor: 'ourbusFloor',    avg: 'ourbusAvg' },
+      flixbus:   { name: 'FlixBus',   floor: 'flixbusFloor',   avg: 'flixbusAvg' },
+      greyhound: { name: 'Greyhound', floor: 'greyhoundFloor', avg: 'greyhoundAvg' }
+    };
+
+    function money(x) {
+      var r = Math.round(x * 100) / 100;
+      var cents = Math.abs(r - Math.round(r)) > 0.001;
+      return (r < 0 ? '-$' : '$') + Math.abs(r).toLocaleString('en-US', { minimumFractionDigits: cents ? 2 : 0, maximumFractionDigits: 2 });
+    }
+    function pct(x) { return (x * 100).toFixed(1) + '%'; }
+    function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+    // Bag fee for the year and a note; fee is null when the brief has no price.
+    function bags(key, count, legs) {
+      if (key === 'ourbus') {
+        var extra = Math.max(0, count - N('ourbusBagsFree'));
+        return { fee: legs * extra * N('ourbusBagFee'), note: extra ? extra + ' extra × ' + money(N('ourbusBagFee')) + ' × ' + legs + ' one-way trips (search summary; also only if space remains)' : '1 large bag guaranteed' };
+      }
+      if (key === 'greyhound') {
+        return count > N('greyhoundBagsFree') ? { fee: null, note: '1 checked bag free; extra-bag fee not in our data (a Flexible fare adds a 2nd free bag)' } : { fee: 0, note: '1 checked bag free' };
+      }
+      if (key === 'flixbus') return { fee: null, note: 'bag allowance and fees not in our data' };
+      return count > N('c2cBagsFree') ? { fee: null, note: 'over the C2C limit of 2 suitcases below deck (plus 2 small carry-ons)' } : { fee: 0, note: '2 suitcases free' };
+    }
+
+    function compute() {
+      var trips = parseInt(el('trips').value, 10);
+      if (!(trips >= 1)) trips = 1;
+      if (trips > 12) trips = 12;
+      var legs = trips * 2;
+      var netid = el('fare').value !== 'public';
+      var pick = CARRIERS[el('carrier').value] ? el('carrier').value : 'ourbus';
+      var tg = el('thanksgiving').value === 'yes';
+      var bagCount = parseInt(el('bags').value, 10) || 1;
+
+      var c2cFare = netid ? N('c2cNetid') : N('c2cPublic');
+      var c2cBag = bags('c2c', bagCount, legs);
+      var c2cYear = legs * c2cFare;
+
+      var rows = {};
+      Object.keys(CARRIERS).forEach(function (k) {
+        var c = CARRIERS[k], f = N(c.floor), a = N(c.avg), b = bags(k, bagCount, legs);
+        var add = b.fee || 0;
+        rows[k] = {
+          name: c.name, floorFare: f, avgFare: a, bag: b,
+          tgFloor: tg ? 2 * f * N('tgPremium') : 0,
+          tgAvg: tg ? 2 * a * N('tgPremium') : 0,
+          tgLow: 2 * f * N('tgPremiumLow'), tgHigh: 2 * f * N('tgPremiumHigh'),
+          floorYear: legs * f + (tg ? 2 * f * N('tgPremium') : 0) + add,
+          avgYear: legs * a + (tg ? 2 * a * N('tgPremium') : 0) + add
+        };
+      });
+
+      var r = rows[pick];
+      var dF = c2cYear - r.floorYear, dA = c2cYear - r.avgYear;
+      function diff(d, where) { return d >= 0 ? money(d) + ' more ' + where : money(-d) + ' less ' + where; }
+
+      var h = '';
+      h += '<p><strong>' + trips + ' round trip' + (trips > 1 ? 's' : '') + ' home to NYC this year: C2C costs ' + money(c2cYear) +
+        ' with ' + (netid ? 'a NetID' : 'the public fare') + '. ' + r.name + ' costs ' + money(r.floorYear) +
+        ' at the cheapest advertised seat and about ' + money(r.avgYear) + ' at the average fare.</strong></p>';
+      h += '<p>C2C premium: ' + diff(dF, 'than ' + r.name + ' at the floor') + ' (' + (c2cYear / r.floorYear).toFixed(1) + ' times as much), and ' +
+        diff(dA, 'at the average fare') + ' (' + (c2cYear / r.avgYear).toFixed(1) + ' times).</p>';
+      if (tg) {
+        h += '<p>Thanksgiving premium: your Thanksgiving round trip adds about ' + money(r.tgFloor) + ' on ' + r.name + ' at the floor (+' +
+          pct(N('tgPremium')) + '; ' + money(r.tgLow) + ' to ' + money(r.tgHigh) + ' at +' + pct(N('tgPremiumLow')) + ' to +' + pct(N('tgPremiumHigh')) +
+          ') and about ' + money(r.tgAvg) + ' at the average. <em>Assumption:</em> the premium was measured on Ithaca fares to Binghamton, Rochester and DC, not NYC. C2C\'s posted fare does not change.</p>';
+      }
+      h += '<p>Luggage, ' + bagCount + ' large bag' + (bagCount > 1 ? 's' : '') + ' each way: C2C ' + esc(c2cBag.note) + '; ' + r.name + ' ' +
+        (r.bag.fee ? money(r.bag.fee) + ' for the year (' + esc(r.bag.note) + ')' : esc(r.bag.note)) + '.</p>';
+
+      h += '<div class="tool-table-wrap"><table><caption class="tool-note">Your year, every carrier (' + legs + ' one-way trips' + (tg ? ', one at Thanksgiving' : '') + ')</caption>' +
+        '<thead><tr><th scope="col">Carrier</th><th scope="col">One way</th><th scope="col">Year at the floor</th><th scope="col">Year at the average</th><th scope="col">Bags</th></tr></thead><tbody>';
+      h += '<tr><th scope="row">C2C (' + (netid ? 'NetID' : 'public') + ')</th><td data-as-of="' + NUMBERS.c2cNetid.asOf + '">' + money(c2cFare) + ' posted</td><td>' + money(c2cYear) +
+        '</td><td>' + money(c2cYear) + '</td><td>' + esc(c2cBag.note) + '</td></tr>';
+      Object.keys(rows).forEach(function (k) {
+        var x = rows[k];
+        h += '<tr><th scope="row">' + x.name + '</th><td data-as-of="' + NUMBERS[CARRIERS[k].floor].asOf + '">from ' + money(x.floorFare) + ', avg ' + money(x.avgFare) +
+          '</td><td>' + money(x.floorYear) + '</td><td>' + money(x.avgYear) + '</td><td>' + (x.bag.fee ? money(x.bag.fee) + ' extra' : esc(x.bag.note)) + '</td></tr>';
+      });
+      h += '</tbody></table></div>';
+
+      h += '<p class="tool-asof">Fares as of Nov 8, 2026: C2C posted rates; OurBus, FlixBus and Greyhound from one Wanderu sample, week of Nov 8 to 14, 2026 (6 carriers). Thanksgiving premium from 51 priced dates on 3 routes, read Nov 8, 2026.</p>';
+      h += '<p class="tool-note">Estimated: the floor is the cheapest seat advertised, not a fare you are sure to get; averages cover unknown dates; the Thanksgiving premium is an assumption for NYC. Bag fees we have no price for are left out of the totals. Subway, TCAT and rides to the stop are not included.</p>';
+
+      el('result').innerHTML = h;
+    }
+
+    ['trips', 'fare', 'carrier', 'thanksgiving', 'bags'].forEach(function (id) {
+      var input = el(id);
+      if (!input) return;
+      input.addEventListener('input', compute);
+      input.addEventListener('change', compute);
+    });
+    compute();
+  })();
+  </script>
+</div>

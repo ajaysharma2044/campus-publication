@@ -1,0 +1,212 @@
+{
+ "slug": "tcat-free-for-cornell-students-hours-routes",
+ "queue_id": "q-getting-around-0034",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "First-years (fall entrants to Aug 31, spring entrants to Dec 31), PhD students and graduate assistants ride free at all hours; Cornell ID is the pass",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
+   "status": "ok",
+   "note": "brief §2 and Cornell bus pass page fetched 2026-11-08: new first-years automatic OmniRide, expiring Aug 31 (fall) / Dec 31 (spring); PhD and graduate assistants free OmniRide."
+  },
+  {
+   "claim": "Other registered students ride free after 6 p.m. weekdays and all day Saturday and Sunday",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Matches Cornell page (enrolled a year or more: free after 6 p.m. weekdays, all weekend)."
+  },
+  {
+   "claim": "OmniRide $200 a year, prorated monthly, MyParking.Cornell.Edu, refund until Mar 31 less $40, expires Aug 31 of next year, activation up to 24 hours, cash fare $1.50",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
+   "status": "ok",
+   "note": "All confirmed on the Cornell page and in brief §2."
+  },
+  {
+   "claim": "Break-even about 134 paid rides (200 / 1.50)",
+   "source_url": "brief §10.14",
+   "status": "ok",
+   "note": "Recomputed: 200/1.5 = 133.3, so 134 rides. The brief's cross-source table said 133; corrected to 134 there."
+  },
+  {
+   "claim": "About 4.5 paid rides a week over an assumed 30-week year",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "134/30 = 4.47, rounds to 4.5; page labels the 30 weeks as an assumption."
+  },
+  {
+   "claim": "Junior example: 10 paid rides a week, $15 a week, passes 134 rides in about 14 weeks",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "10 x 1.50 = 15; 134/10 = 13.4, about 14 weeks."
+  },
+  {
+   "claim": "Sophomore example: 4 paid rides a week, 120 over 30 weeks, $180 vs $200",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "4 x 30 = 120; 120 x 1.50 = 180."
+  },
+  {
+   "claim": "Spring 2027 entrant's pass ends Dec 31, 2027; fall entrants' pass ends Aug 31, 2027; timeline dates",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Spring entrants Jan 1 to Dec 31 of the same year per Cornell page; year arithmetic correct."
+  },
+  {
+   "claim": "Transfers ride free in their first year (Cornell Sun reporter's statement, GM quoted only on evening/weekend rides)",
+   "source_url": "https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free",
+   "status": "ok",
+   "note": "Sun fetched: freshmen and transfer students get free OmniRide; GM quote only on overrides. Brief §2 agrees; page hedges properly."
+  },
+  {
+   "claim": "Cornell updated eligibility list Oct 16, 2024 after a farebox glitch let all students ride free; magstripe IDs work poorly; drivers override rejected IDs in free hours",
+   "source_url": "https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free",
+   "status": "ok",
+   "note": "Confirmed in the Sun article (Oct. 16, compatibility problem, magstripes, override on nights and weekends)."
+  },
+  {
+   "claim": "Cornell ended free passes for continuing students in 2007",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief free-pass history row."
+  },
+  {
+   "claim": "Spouse or partner can buy OmniRide at 116 Maple Ave for night routes; pages list 90 and 92 in one place and 90, 92, 93 in another",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
+   "status": "ok",
+   "note": "Cornell page: spouses of students 90 and 92; continuing-ed and employee spouses 90, 92, 93. Page's hedge is accurate."
+  },
+  {
+   "claim": "Johnson MBA page: free first year, then free after 6 p.m. weekdays and all weekend",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief MBA row."
+  },
+  {
+   "claim": "Phone numbers: Transportation Services 607-255-4600; Registrar 607-255-4232; TCAT 607-277-RIDE, Mon-Fri 7:30 a.m. to 5 p.m.",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "First two confirmed on Cornell page; TCAT line and hours in brief."
+  },
+  {
+   "claim": "Fares: $1.50; $0.75 for seniors 60+ and riders with disabilities (tell driver before tapping); children under 12 free with paying adult; five ways to pay incl. TFare QR expiring after one minute",
+   "source_url": "https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/",
+   "status": "ok",
+   "note": "Fetched; all confirmed. Page's 'four' numbered list merges the two T-card types, fine."
+  },
+  {
+   "claim": "Routes: 81/82 campus, 10, 15, 30, 32 and 72 airport, 90/92/93 night; 83 and 14S suspended since fall 2023, board extended Apr 25, 2024",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief route suspension row and Sustainable Cornell routes."
+  },
+  {
+   "claim": "Blue Light bus nightly on Route 92, 6:30 p.m. to 2:30 a.m., year-round",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief Blue Light row."
+  },
+  {
+   "claim": "Route 32 weekdays, Route 72 weekends (airport page)",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief airport transit bullet."
+  },
+  {
+   "claim": "Every TCAT bus has a front bike rack at no extra fare",
+   "source_url": "https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall",
+   "status": "ok",
+   "note": "Confirmed in the Sun guest column and brief."
+  },
+  {
+   "claim": "A Cornell transportation official wrote in 2025 that nearly a third of students use TCAT as main way to campus",
+   "source_url": "https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall",
+   "status": "ok",
+   "note": "Column author is Reed Huegerich, assistant director of transportation at Cornell; quote 'nearly a third ... primary mode'."
+  },
+  {
+   "claim": "Nov 9, 2026 East Seneca stop shift: about 60 yards east, 15 routes at stop 1, routes 30, 30W, 90 at stop 2, Route 10 stays on North Tioga, to ease congestion",
+   "source_url": "https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/",
+   "status": "ok",
+   "note": "Fetched; routes counted: 15. Brief §2.6 agrees."
+  },
+  {
+   "claim": "Seneca Street garage closed in spring 2026",
+   "source_url": "https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/",
+   "status": "ok",
+   "note": "fixed in place: Source says only 'in the spring' with no year. Changed 'in spring 2026' to 'in the spring'."
+  },
+  {
+   "claim": "OurBus moves to 235 S. Cayuga St on Nov 9",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief row."
+  },
+  {
+   "claim": "Drivers fell from about 90 in 2018 to about 60 full-time in Oct 2023; all 8 electric buses off road in April 2024",
+   "source_url": "https://www.yahoo.com/news/bus-riders-bemoan-aging-fleet-181118830.html",
+   "status": "ok",
+   "note": "Fetched: 'had 90 drivers as of 2018', 'about 60 full-time drivers' (Oct 2023 report), all eight Proterra buses pulled."
+  },
+  {
+   "claim": "West Hill rider described up to a 55-minute unsheltered wait",
+   "source_url": "https://www.yahoo.com/news/bus-riders-bemoan-aging-fleet-181118830.html",
+   "status": "ok",
+   "note": "One resident's letter: 55-minute unsheltered wait with groceries. Page's 'up to' is a slight softening, acceptable."
+  },
+  {
+   "claim": "Coco Wen '26 waited because a mapping app showed wrong time, then took an Uber (2022)",
+   "source_url": "https://cornellsun.com/2022/09/06/tcat-implements-massive-service-cut-due-to-driver-shortage/",
+   "status": "ok",
+   "note": "Fetched: tracked buses with a mapping app known for wrong times, took an Uber. Page names Google Maps; the source says 'a mapping app', and the brief records it as a Google Maps account, so left as is."
+  },
+  {
+   "claim": "June 2025: buses overheated June 23, TCAT cut service next day, frequent routes 10, 30, 81, 82 kept running first",
+   "source_url": "https://cornellsun.com/article/2025/06/tcat-reduces-service-due-to-overheating-buses",
+   "status": "ok",
+   "note": "Article published June 24, 2025: overheated Monday (June 23), reduced service from Tuesday; routes 10, 30, 81, 82 'prioritized'. Calendar dates inferred from weekdays, correct."
+  },
+  {
+   "claim": "SA Resolution 69 adopted Mar 26, 2026; calls buses late and unreliable; asks free passes for undergraduates and graduate workers; president returned Apr 24, 2026; no outcome posted",
+   "source_url": "https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026",
+   "status": "ok",
+   "note": "Fetched; all confirmed (the ask is 'every reasonable effort' tied to SLA talks; page says 'asks', fair)."
+  },
+  {
+   "claim": "Our tally counts 10 distinct articles and documents from 2019 to March 2026 on late buses",
+   "source_url": "brief voice lane tally",
+   "status": "ok",
+   "note": "Brief voice-lane tally; counted by the brief, trusted."
+  },
+  {
+   "claim": "Cornell faculty and staff ride free since Oct 22, 2024, seven days a week with photo ID",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief Employees row."
+  },
+  {
+   "claim": "Summer after first year covered; OmniRide expires Aug 31 and is prorated monthly",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Consistent with Cornell page."
+  }
+ ],
+ "beats_top": {
+  "query": "TCAT free for Cornell students routes",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [
+  "Corrected the OmniRide break-even in the cross-source table from 133 to 134 paid rides (200/1.50 = 133.3, rounded up, matching 10.14); source: Cornell bus pass page; change log line added."
+ ],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh",
+ "lint_fixes": [
+  "a cited source could not be fetched on 2 publish passes; replace it with a reachable source for the same fact or remove the fact: illegal request line: https://www.yahoo.com/news/bus-riders-bemoan-aging-fleet-181118830.html"
+ ],
+ "lint_rounds": 2,
+ "transient_passes": 2
+}

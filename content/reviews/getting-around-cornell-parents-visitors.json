@@ -1,0 +1,203 @@
+{
+ "slug": "getting-around-cornell-parents-visitors",
+ "queue_id": "q-getting-around-0057",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "C2C public fare $101 one way, $202 round trip; NetID fare $93.50",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief C2C rates rows; round trip is 2 x $101"
+  },
+  {
+   "claim": "C2C open to public/family; one reservation holds several passengers; everyone needs a new account from Nov 4, 2026",
+   "source_url": "https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4",
+   "status": "ok",
+   "note": "Opened the notice: open to public incl. family and visitors, multi-passenger reservations, new account for every passenger"
+  },
+  {
+   "claim": "Every rider needs photo ID with a name matching the reservation (reader block and FAQ)",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations",
+   "status": "ok",
+   "note": "fixed in place: Not in the brief and not on the policies page, FAQ page or the Nov 4 notice (policies page has no 'ID' at all). Removed it from the reader block (replaced with the sourced 10-minutes-early rule) and from the FAQ"
+  },
+  {
+   "claim": "C2C child under 2 free on lap; age 2+ pays full fare, no child discount; stroller/backpack taking a seat counts; 12 and under with an adult",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations",
+   "status": "ok",
+   "note": "brief §2 and confirmed on policies page ('Minor children 12 and under must be accompanied by an adult')"
+  },
+  {
+   "claim": "C2C luggage 2 suitcases + 2 small carry-ons; cancel $10/seat 8+ hours ahead, $30 inside 8 hours, only in system; 10 minutes early; fare forfeited when bus leaves last stop",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief C2C policy rows"
+  },
+  {
+   "claim": "C2C stops: Weill 1300 York Ave, Cornell Club 6 E 44th St, North Campus 217 Jessup Rd, Sage Hall 114 Feeney Way, B Lot; ride about 4.5 to 5 hours",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief stop and trip-length rows"
+  },
+  {
+   "claim": "C2C wheelchair: call 607-254-8747 at least 2 weeks (10 business days) ahead",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief wheelchair row"
+  },
+  {
+   "claim": "Example: 3 paid seats at $101 = $303 one way, $606 round trip; $30 per seat change inside 8 hours",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Recomputed 3 x 101 = 303; 303 x 2 = 606. Change fee per brief"
+  },
+  {
+   "claim": "OurBus from $33; Greyhound from $43.98; Greyhound/FlixBus stop 131 E Green St, 121 Jessup Rd, 240 West Ave; OurBus moves to 235 S. Cayuga St Nov 9, 2026",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief OurBus, Greyhound, FlixBus and stop-move rows"
+  },
+  {
+   "claim": "TCAT adult $1.50; senior 60+/disability $0.75 (tell driver before tapping); children under 12 free with paying adult",
+   "source_url": "https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/",
+   "status": "ok",
+   "note": "Opened the page: adult $1.50, seniors and disability $0.75, children under 12 free with a paying adult (FreeRyde)"
+  },
+  {
+   "claim": "Airport page lists riders under 17 at $0.75",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief airport bus row"
+  },
+  {
+   "claim": "TFare QR expires after a minute; payment methods",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief ways-to-pay row"
+  },
+  {
+   "claim": "Family of 2 adults + 2 kids under 12 pays $3 a trip; example day: 4 rides = $12",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Recomputed 2 x 1.50 = 3 per trip; 4 trips x 3 = 12"
+  },
+  {
+   "claim": "ITH about 10 minutes from downtown; TCAT 32 weekdays, 72 weekends; terminal 3:30 a.m. to midnight; taxis 24 hours; Delta to JFK, United to Dulles",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief airport rows"
+  },
+  {
+   "claim": "Taxi numbers: Ithaca Airport Cab 607-252-9052, Collegetown Cab 607-588-8888, Ithaca Dispatch 607-277-7777; older page Collegetown Cab $12 base within 1 mile, $15 minimum beyond, $1.50 a bag",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief taxi rows; the page flags the fares as old and not confirmed"
+  },
+  {
+   "claim": "SYR: 27 nonstop destinations; OurBus 1 h 25 min to 2 h 05 min, most fares $46.70 to $62.10, Sunday cheapest; Terminal A; stops North Campus, West Campus, Cayuga St Garage",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief OurBus SYR row"
+  },
+  {
+   "claim": "Elmira about 36 miles; Allegiant and Delta fly there; no confirmed scheduled link",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "36 miles in brief; page marks the missing link as unconfirmed"
+  },
+  {
+   "claim": "Blue Light bus on Route 92, 6:30 p.m. to 2:30 a.m., year-round",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief Blue Light row"
+  },
+  {
+   "claim": "Hotels often sell out for Family Weekend and Commencement",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "brief families page row"
+  },
+  {
+   "claim": "Commencement weekend May 28 to 30, 2027; spring finals May 15 to 22, 2027; Thanksgiving break Nov 25 to 29, 2026; fall term ends Dec 19, 2026",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar",
+   "status": "ok",
+   "note": "Opened the registrar page; all four dates match. It does not list Family Weekend 2027, consistent with the page's 'Not confirmed' line"
+  },
+  {
+   "claim": "Reunion 2027 June 10 to 13; no scooter/golf cart rental for individual use",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "brief Reunion rows"
+  },
+  {
+   "claim": "Move-In Ticket prints after August 1, shows parking area; timeslot is check-in only; A Lot for Uber/taxi; staff help ends 8 p.m. Mon, 11 a.m. Tue, 5 p.m. Fri and Sat; move-in Aug 17, 18, 21 to 22",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus",
+   "status": "ok",
+   "note": "Ticket, parking area and check-in-only wording confirmed on the page; the rest per brief move-in rows"
+  },
+  {
+   "claim": "Move-out: halls closed 2 p.m. Sunday May 17, 2026, leftovers donated; Big Red Shipping and Storage with free in-room pickup, limited slots",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief move-out and BRSS rows"
+  },
+  {
+   "claim": "Tang Welcome Center Zone 4119, $1.50 an hour or $10 a day, $0.45 ParkMobile fee, text PARK to 77223, pay station out of service since Sept 8, 2026",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "brief short-term parking rows"
+  },
+  {
+   "claim": "Fines: $50 for no permit or payment; $150 plus tow for accessible space or fire lane",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "brief 2023 fine schedule; brief notes the newer schedule was not checked"
+  },
+  {
+   "claim": "City garages $2.25 an hour; daily max $12 Green/Cayuga, $18 Dryden; street $2.50 an hour; Cayuga garage 245 S. Cayuga St, 300+ spaces, about 5 minutes' walk from the Commons",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "brief downtown parking rows"
+  },
+  {
+   "claim": "Seneca Street garage closed since spring 2026; free Saturday parking ended in 2026; Sunday still free",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "brief rows and discrepancy table; Sunday free per the cited FingerLakes1 article"
+  },
+  {
+   "claim": "710 W State St terminal is closed",
+   "source_url": "https://en.wikipedia.org/wiki/Ithaca_Bus_Station",
+   "status": "ok",
+   "note": "brief notes it as stale advice"
+  },
+  {
+   "claim": "First-years ride TCAT free at all hours until August 31; after the first year, free after 6 p.m. weekdays and all weekend; the page said '$1.50 otherwise'",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
+   "status": "ok",
+   "note": "fixed in place: First-year and after-6 p.m. terms confirmed. The page says nothing about what students pay outside the free hours; it mentions $1.50 only as the cash fare if a CU ID is not accepted. Removed '$1.50 otherwise'"
+  },
+  {
+   "claim": "Photo caption: Route 330 trestle 800 feet long and 85 feet high",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Brooktondale_Road_Under_Trestle_2.png",
+   "status": "unverifiable",
+   "note": "Not in the brief and not opened; the figure comes from the image record and is not part of the travel advice"
+  }
+ ],
+ "beats_top": {
+  "query": "Cornell parent visit weekend Ithaca getting around without a car",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh",
+ "lint_fixes": [
+  "visuals: 3 beyond the lead photo for 2543 words (4 required: one photo, figure, map or tool per 600 words)",
+  "source url returned 404: https://alumni.cornell.edu/come-back/reunion/arriving-getting-around"
+ ]
+}

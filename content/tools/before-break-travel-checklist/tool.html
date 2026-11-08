@@ -1,0 +1,229 @@
+<div class="tool" id="tool-before-break-travel-checklist" data-tool="before-break-travel-checklist" data-as-of="2026-11-08">
+  <style>
+    #tool-before-break-travel-checklist .bbc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:.75rem 1rem;margin:0 0 1rem}
+    #tool-before-break-travel-checklist label{display:block;font-weight:600;margin-bottom:.2rem}
+    #tool-before-break-travel-checklist select,#tool-before-break-travel-checklist input[type=number]{width:100%;max-width:100%}
+    #tool-before-break-travel-checklist .bbc-check label{display:inline;font-weight:600}
+    #tool-before-break-travel-checklist .bbc-result h4{margin:1rem 0 .3rem}
+    #tool-before-break-travel-checklist .bbc-result ul{padding-left:1.2rem;margin:0}
+    #tool-before-break-travel-checklist .bbc-result li{margin:.35rem 0}
+    #tool-before-break-travel-checklist .bbc-note{font-size:.875em;opacity:.8;margin-top:.75rem}
+  </style>
+  <form class="bbc-grid" onsubmit="return false">
+    <div><label for="before-break-travel-checklist-break">Which break</label>
+      <select id="before-break-travel-checklist-break">
+        <option value="thanksgiving" selected>Thanksgiving (Thu Nov 26, 2026)</option>
+        <option value="winter">Winter break 2026-27</option>
+      </select></div>
+    <div><label for="before-break-travel-checklist-stay">Leaving or staying</label>
+      <select id="before-break-travel-checklist-stay">
+        <option value="leaving" selected>Leaving Ithaca</option>
+        <option value="staying">Staying in Ithaca</option>
+      </select></div>
+    <div><label for="before-break-travel-checklist-mode">How you travel</label>
+      <select id="before-break-travel-checklist-mode">
+        <option value="c2c" selected>Cornell C2C bus to NYC</option>
+        <option value="bus">Commercial bus (OurBus, FlixBus, Greyhound, others)</option>
+        <option value="plane">Plane</option>
+        <option value="car">Driving my own car</option>
+      </select></div>
+    <div><label for="before-break-travel-checklist-airport">If flying: from which airport</label>
+      <select id="before-break-travel-checklist-airport">
+        <option value="ith" selected>Ithaca (ITH)</option>
+        <option value="syr">Syracuse (SYR)</option>
+        <option value="nyc">A NYC airport (JFK, LGA, EWR)</option>
+      </select></div>
+    <div><label for="before-break-travel-checklist-live">Where you live</label>
+      <select id="before-break-travel-checklist-live">
+        <option value="campus" selected>University housing</option>
+        <option value="off">Off campus</option>
+      </select></div>
+    <div><label for="before-break-travel-checklist-car">Your car in Ithaca</label>
+      <select id="before-break-travel-checklist-car">
+        <option value="none" selected>No car</option>
+        <option value="permit">In a campus lot with my permit</option>
+        <option value="street">On a city street</option>
+      </select></div>
+    <div><label for="before-break-travel-checklist-days">Days away (for airport parking)</label>
+      <input id="before-break-travel-checklist-days" type="number" min="1" max="40" step="1" value="5"></div>
+    <div class="bbc-check"><input id="before-break-travel-checklist-store" type="checkbox">
+      <label for="before-break-travel-checklist-store">I'm storing or shipping things</label></div>
+  </form>
+  <div class="bbc-result" id="before-break-travel-checklist-result" aria-live="polite">
+    <p>Pick your break, how you travel, your car and your housing, and your checklist appears here. Every date and price is from pages read on 2026-11-08.</p>
+  </div>
+  <script>
+  (function () {
+    var root = document.getElementById('tool-before-break-travel-checklist');
+    if (!root) return;
+    var P = 'before-break-travel-checklist-';
+    function el(id) { return root.querySelector('#' + P + id); }
+    var U = {
+      c2c: 'https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service',
+      c2cNew: 'https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4',
+      c2cRates: 'https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates',
+      c2cPol: 'https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations',
+      c2cFaq: 'https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-frequently-asked-questions',
+      bLot: 'https://fcs.cornell.edu/node/12488',
+      obBlog: 'https://www.ourbus.com/blog/?p=6269',
+      cmbBing: 'https://www.checkmybus.com/ithaca-ny/binghamton-ny',
+      cmbRoc: 'https://www.checkmybus.com/ithaca-ny/rochester-ny',
+      cmbDc: 'https://www.checkmybus.com/ithaca-ny/washington-dc',
+      wanderu: 'https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/',
+      obMove: 'https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/',
+      obCredit: 'https://www.cornellsun.com/article/2023/11/inside-ourbus-cornellians-preferred-method-of-travel',
+      bags: 'https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes',
+      ithAir: 'https://flyithaca.com/airlines', ithTransit: 'https://www.flyithaca.com/news/traveling-to-and-from-ith',
+      taxis: 'https://flyithaca.com/taxis', ithPark: 'https://www.flyithaca.com/parking', syrPark: 'https://www.syrairport.org/parking/',
+      obSyr: 'https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny', newark: 'https://www.checkmybus.com/ithaca-ny/newark-nj',
+      sa: 'https://assembly.cornell.edu/resolutions/student-assembly/sa-r83-2025-2026',
+      tgShuttle: 'https://cornellsun.com/2023/11/19/special-thanksgiving-shuttle-connects-cornell-with-ithaca-tompkins-international-airport/',
+      intl: 'https://cornellsun.com/2019/05/06/international-students-travel-cornell/',
+      winterPark: 'https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules',
+      oddEven: 'https://ecode360.com/8395630',
+      housing: 'https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing',
+      closing: 'https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice',
+      storage: 'https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options',
+      ssBlog: 'https://www.storagescholars.com/blog/college-storage-cost-calculator-pricing',
+      carshare: 'https://www.ithacacarshare.org/students-commuters',
+      storm19: 'https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs',
+      stormTip: 'https://cornellsun.com/2019/11/30/under-heavy-snow-forecast-university-mum-on-class-cancellation',
+      stormJan: 'https://cornellsun.com/2019/01/20/canceled-flights-and-impromptu-housing-winter-storm-frustrates-students-travel-plans-to-cornell/',
+      tcatSnow: 'https://www.cornellsun.com/article/2019/01/tcat-prepares-to-swerve-away-winter-storm-conditions'
+    };
+    var D = '2026-11-08';
+    const NUMBERS = {
+      c2cNewSystem: { value: '2026-11-04', asOf: '2026-10-22', source: U.c2cNew },
+      c2cNetid: { value: 93.5, asOf: D, source: U.c2cRates },
+      c2cPublic: { value: 101, asOf: D, source: U.c2cRates },
+      c2cLink2026End: { value: '2026-12-23', asOf: D, source: U.c2c },
+      c2cLink2027Start: { value: '2027-01-06', asOf: D, source: U.c2c },
+      c2cCancelEarly: { value: 10, asOf: D, source: U.c2cPol },
+      c2cCancelLate: { value: 30, asOf: D, source: U.c2cPol },
+      c2cCancelHours: { value: 8, asOf: D, source: U.c2cPol },
+      c2cBoardMinutes: { value: 10, asOf: D, source: U.c2cPol },
+      c2cSuitcases: { value: 2, asOf: D, source: U.c2cPol },
+      bLotTempDays: { value: 14, asOf: D, source: U.c2cFaq },
+      bLotEmailRule: { value: '2024-10-10', asOf: '2024-10-10', source: U.bLot },
+      peakWednesday: { value: '2026-11-25', asOf: D, source: U.obBlog },
+      tgPremiumLow: { value: 27.9, asOf: D, source: U.cmbBing },
+      tgPremiumMean: { value: 33.3, asOf: D, source: U.cmbRoc },
+      tgPremiumHigh: { value: 37.9, asOf: D, source: U.cmbDc },
+      nycAvgNov: { value: 66, asOf: D, source: U.wanderu },
+      nycAvgJan: { value: 41, asOf: D, source: U.wanderu },
+      ourbusStopMove: { value: '2026-11-09', asOf: '2026-11-06', source: U.obMove },
+      ourbusExtraBag: { value: 30, asOf: '2024-02-01', source: U.bags },
+      tcatAirportFare: { value: 1.5, asOf: D, source: U.ithTransit },
+      ourbusSyrLow: { value: 46.7, asOf: D, source: U.obSyr },
+      ourbusSyrHigh: { value: 62.1, asOf: D, source: U.obSyr },
+      ithLongDay: { value: 8, asOf: D, source: U.ithPark },
+      ithLongWeek: { value: 40, asOf: D, source: U.ithPark },
+      syrEconomyDay: { value: 14, asOf: D, source: U.syrPark },
+      campusWinterStart: { value: '2026-12-01', asOf: D, source: U.winterPark },
+      oddEvenTowHours: { value: 72, asOf: D, source: U.oddEven },
+      housingDeadline: { value: '2026-12-01', asOf: D, source: U.housing },
+      housingWeek: { value: 125, asOf: D, source: U.housing },
+      housingFull: { value: 500, asOf: D, source: U.housing },
+      mailEnd: { value: '2026-12-23', asOf: D, source: U.housing },
+      mailResume: { value: '2027-01-07', asOf: D, source: U.housing },
+      closing2025: { value: '2025-12-21', asOf: '2025-12-21', source: U.closing },
+      storageBoxLow: { value: 150, asOf: D, source: U.ssBlog },
+      storageBoxHigh: { value: 300, asOf: D, source: U.ssBlog },
+      carshareJicYear: { value: 30, asOf: D, source: U.carshare },
+      carshareJicHour: { value: 9, asOf: D, source: U.carshare }
+    };
+    var WD = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    var MO = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    function utc(iso) { var p = iso.split('-'); return Date.UTC(+p[0], +p[1] - 1, +p[2]); }
+    function fd(iso) { var d = new Date(utc(iso)); return WD[d.getUTCDay()] + ' ' + MO[d.getUTCMonth()] + ' ' + d.getUTCDate() + ', ' + d.getUTCFullYear(); }
+    function left(iso) {
+      var t = new Date(), today = Date.UTC(t.getFullYear(), t.getMonth(), t.getDate());
+      var n = Math.round((utc(iso) - today) / 86400000);
+      return n > 1 ? n + ' days from today' : n === 1 ? 'tomorrow' : n === 0 ? 'today' : 'already passed';
+    }
+    function money(v) { return '$' + (v % 1 ? v.toFixed(2) : String(v)); }
+    function n(k, txt) {
+      var e = NUMBERS[k], v = e.value;
+      if (txt == null) txt = typeof v === 'string' ? fd(v) : String(v);
+      return '<span data-as-of="' + e.asOf + '">' + txt + '</span>';
+    }
+    function $n(k) { return n(k, money(NUMBERS[k].value)); }
+    function a(href, txt) { return '<a href="' + href + '" rel="noopener">' + txt + '</a>'; }
+    function render() {
+      var brk = el('break').value, stay = el('stay').value, mode = el('mode').value, ap = el('airport').value;
+      var live = el('live').value, car = el('car').value, store = el('store').checked;
+      var days = Math.max(1, Math.min(40, Math.round(+el('days').value || 1)));
+      var winter = brk === 'winter', leaving = stay === 'leaving';
+      var G = leaving ? { now: 'Do now', before: 'Before you leave', day: 'Travel day', back: 'Coming back' }
+                      : { now: 'Do now', before: 'Before the break starts', day: 'During the break', back: 'After the break' };
+      var items = { now: [], before: [], day: [], back: [] }, dates = [];
+      function add(g, h) { items[g].push(h); }
+      function due(label, k) { dates.push([NUMBERS[k].value, label]); }
+      if (leaving && mode === 'c2c') {
+        add('now', 'Make a new C2C account: since ' + n('c2cNewSystem') + ' everyone needs one, past riders too. Sign in with Cornell single sign-on for the ' + $n('c2cNetid') + ' NetID fare; a plain account pays ' + $n('c2cPublic') + ' one way. ' + a(U.c2cNew, 'C2C notice'));
+        if (winter) { add('now', 'Use the right link: the trip out goes on "2026 Travel Reservations" (departures through ' + n('c2cLink2026End') + '), the return on "2027 Travel Reservations" (departures from ' + n('c2cLink2027Start') + '). Nothing is listed Dec 24 to Jan 5. ' + a(U.c2c, 'C2C')); due('Last C2C departure on the 2026 link', 'c2cLink2026End'); }
+        else add('now', 'Book both legs on the "2026 Travel Reservations" link, which covers departures through ' + n('c2cLink2026End') + '. If a bus is full, check other times; the office may add trips "when feasible". ' + a(U.c2c, 'C2C'));
+        add('before', 'Plans changed? Cancel the unused leg yourself, only in the reservation system: ' + $n('c2cCancelEarly') + ' a seat at least ' + n('c2cCancelHours') + ' hours ahead, ' + $n('c2cCancelLate') + ' inside that. Missing the bus out does not cancel the return. ' + a(U.c2cPol, 'C2C policies'));
+        if (car !== 'none') add('before', 'Parking at B Lot for the trip: email c2cbus@cornell.edu with your plate and dates for the fee exemption (rule effective ' + n('bLotEmailRule') + '), or buy temporary B Lot parking for up to ' + n('bLotTempDays') + ' days. ' + a(U.bLot, 'TDS notice'));
+        add('day', 'Be at the stop ' + n('c2cBoardMinutes') + ' minutes early with a photo ID that matches the booking. Limit: ' + n('c2cSuitcases') + ' suitcases below deck plus 2 small carry-ons. ' + a(U.c2cPol, 'C2C policies'));
+      }
+      if (leaving && mode === 'bus') {
+        add('now', 'Book peak days now. OurBus names the Wednesday before Thanksgiving (' + n('peakWednesday') + ', ' + left(NUMBERS.peakWednesday.value) + '), the last day of December finals and the Friday spring break begins. ' + a(U.obBlog, 'OurBus'));
+        if (!winter) add('now', 'Expect higher fares: Thanksgiving-week lowest fares on 3 Ithaca routes ran ' + n('tgPremiumLow', '+' + NUMBERS.tgPremiumLow.value + '%') + ' to ' + n('tgPremiumHigh', '+' + NUMBERS.tgPremiumHigh.value + '%') + ' above earlier November days (mean ' + n('tgPremiumMean', '+' + NUMBERS.tgPremiumMean.value + '%') + '; 51 fares read Nov 8, 2026; NYC not sampled).');
+        else add('now', 'Coming back in January costs less: Ithaca-NYC fares averaged about ' + $n('nycAvgJan') + ' in January against about ' + $n('nycAvgNov') + ' in November on Wanderu. ' + a(U.wanderu, 'Wanderu'));
+        add('before', 'Check your stop: from ' + n('ourbusStopMove') + ' the OurBus downtown stop is 235 S. Cayuga St. OurBus refunds a cancellation as credit, not cash, and rescheduling has a fee. ' + a(U.obMove, 'stop move') + ', ' + a(U.obCredit, 'Sun 2023'));
+        add('day', 'Bags: OurBus guarantees one bag per ticket and extra bags are ' + $n('ourbusExtraBag') + ' prepaid; Greyhound includes one carry-on and one checked bag. ' + a(U.bags, 'Sun 2024'));
+      }
+      if (leaving && mode === 'plane') {
+        add('now', 'Book flights early and keep a backup airport. ' + (winter ? 'Free Student Assembly charters to ITH and SYR ran in past finals weeks; none was found for fall 2026 as of Nov 8, so watch Campus Groups. ' + a(U.sa, 'SA R83') : 'No Cornell Thanksgiving airport shuttle was found for 2026; the last one ran in 2023. ' + a(U.tgShuttle, 'Sun 2023')));
+        if (ap === 'ith') add('before', 'ITH has two scheduled nonstops (JFK on Delta, IAD on United), so one cancellation can strand you. TCAT 32 (weekdays) and 72 (weekends) run to the Commons for ' + $n('tcatAirportFare') + ', but no bus meets dawn flights: prebook a taxi (Ithaca Airport Cab 607-252-9052, Collegetown Cab 607-588-8888, Ithaca Dispatch 607-277-7777). ' + a(U.ithAir, 'airlines') + ', ' + a(U.taxis, 'taxis'));
+        if (ap === 'syr') add('before', 'Book the OurBus to SYR Terminal A with the flight: ' + $n('ourbusSyrLow') + ' to ' + $n('ourbusSyrHigh') + ' each way, Sunday cheapest, six days a week, from North Campus behind Ganedago Hall, West Ave across from Baker Flagpole or the Cayuga St Garage. ' + a(U.obSyr, 'OurBus'));
+        if (ap === 'nyc') add('before', 'No bus runs direct to JFK or LaGuardia: ride to Manhattan and transfer. For Newark, FlixBus runs direct to Newark Penn, not the airport. Leave a big buffer between bus and flight. ' + a(U.newark, 'checkmybus') + ', ' + a(U.intl, 'Sun 2019'));
+        if (car !== 'none' && ap !== 'nyc') {
+          var ith = Math.floor(days / 7) * NUMBERS.ithLongWeek.value + Math.min((days % 7) * NUMBERS.ithLongDay.value, NUMBERS.ithLongWeek.value);
+          var syr = days * NUMBERS.syrEconomyDay.value;
+          add('before', 'Leaving the car at the airport for ' + days + ' days: about ' + n('ithLongWeek', money(ith)) + ' at ITH long-term (' + $n('ithLongDay') + ' a day, ' + $n('ithLongWeek') + ' a week) or about ' + n('syrEconomyDay', money(syr)) + ' at SYR economy (' + $n('syrEconomyDay') + ' daily max, no weekly rate shown). ' + a(U.ithPark, 'ITH') + ', ' + a(U.syrPark, 'SYR'));
+        }
+        add('day', 'Pack spare clothes and toiletries in your carry-on, a tip from an international student in 2019, and double-check the bus times. ' + a(U.intl, 'Sun 2019'));
+      }
+      if (leaving && mode === 'car') add('before', 'Driving: plan the trip back around the forecast (storm plan below) and clear the car before you go.');
+      if (car === 'permit') add('before', 'Leave the car in your campus permit area for the break; Cornell allows it for students in university housing, year-round. Campus winter overnight rules start ' + n('campusWinterStart') + '; FH, ND, SW and WD permit holders park in their own lots as usual. ' + a(U.winterPark, 'winter rules'));
+      if (car === 'street') {
+        add(leaving ? 'before' : 'day', (leaving ? 'Move the car off the city street before you go. ' : 'Watch the city odd/even rule all break. ') + 'Odd/even runs Nov 1 to Apr 1, 7 p.m. to 6 a.m., when the city turns it on; ticketing and towing are possible after ' + n('oddEvenTowHours') + ' hours, and a car left on a street over winter break may be treated as abandoned, towed and impounded. ' + a(U.winterPark, 'Cornell') + ', ' + a(U.oddEven, 'city code'));
+      }
+      if (leaving && live === 'campus' && winter) {
+        add('before', 'Residence halls close for the break: in 2025 undergraduate residences closed at 2 p.m. ' + n('closing2025') + '. The 2026 date was not found, so read Housing\'s closing notice. ' + a(U.closing, 'closing notice'));
+        add('before', 'Campus mail and packages stop ' + n('mailEnd') + ' and resume ' + n('mailResume') + ': nothing you order to campus arrives in between. ' + a(U.housing, 'Housing')); due('Campus mail stops', 'mailEnd');
+      }
+      if (!leaving && live === 'campus') {
+        if (winter) { add('now', 'Apply for winter break housing by ' + n('housingDeadline') + ' (' + left(NUMBERS.housingDeadline.value) + '): ' + $n('housingWeek') + ' per one-week option or ' + $n('housingFull') + ' for the full break, flat fee, for students returning to campus housing in spring. Ten buildings stay open, among them Mews, Toni Morrison, Cascadilla and the Townhouse Apartments. ' + a(U.housing, 'Housing')); due('Winter break housing deadline', 'housingDeadline'); }
+        else add('now', 'Staying past Thanksgiving into winter break too? Apply for winter break housing by ' + n('housingDeadline') + ' (' + left(NUMBERS.housingDeadline.value) + '). ' + a(U.housing, 'Housing'));
+        if (winter) add('day', 'Mail and packages stop ' + n('mailEnd') + ' and resume ' + n('mailResume') + '. ' + a(U.housing, 'Housing'));
+      }
+      if (!leaving && live === 'off') add('now', 'Off campus you need no break housing application. ' + a(U.housing, 'Housing'));
+      if (!leaving) add('day', 'Plan food and errands: dining is usually closed the week the university is closed. Ithaca Carshare\'s student Just In Case plan costs ' + $n('carshareJicYear') + ' a year plus ' + $n('carshareJicHour') + ' an hour. TCAT holiday service is unconfirmed; a 2013 Sun column said no buses ran on Thanksgiving Day. ' + a(U.housing, 'Housing') + ', ' + a(U.carshare, 'Carshare'));
+      if (store) add('now', 'Book storage or shipping early. Big Red Shipping and Storage (bigredboxes.com, 607-524-3130) picks up packed boxes from your room free, but slots are limited, you must be there, and Housing will not let movers in. It posts no prices; a Storage Scholars blog lists boxes-only student packages at ' + $n('storageBoxLow') + ' to ' + $n('storageBoxHigh') + ' (company blog, not an Ithaca quote). ' + a(U.storage, 'Cornell storage page'));
+      if (leaving) {
+        add('back', (winter ? 'January storm plan: in Jan 2019 a storm kept buses off most highways and Cornell\'s bus cancelled its Syracuse run. Keep a backup travel day. ' + a(U.stormJan, 'Sun 2019')
+          : 'Return storm plan: the Dec 1-2, 2019 storm cancelled OurBus trips and stranded students. Operators cancel early and add earlier trips; a student forecaster advised returning Saturday night or early Sunday. ' + a(U.storm19, 'Sun 2019') + ', ' + a(U.stormTip, 'forecast tip'))
+          + (mode === 'c2c' ? ' A C2C date change is allowed up to ' + n('c2cCancelHours') + ' hours ahead; inside that it costs ' + $n('c2cCancelLate') + ' a seat.' : ''));
+        add('back', 'Back in Ithaca in snow, check TCAT Bus Tracker or the Transit or MyStop apps for snow routes. ' + a(U.tcatSnow, 'Sun 2019'));
+      }
+      var count = 0, html = '';
+      ['now', 'before', 'day', 'back'].forEach(function (g) {
+        if (!items[g].length) return;
+        count += items[g].length;
+        html += '<h4>' + G[g] + '</h4><ul>' + items[g].map(function (h) { return '<li>' + h + '</li>'; }).join('') + '</ul>';
+      });
+      var next = dates.filter(function (d) { return left(d[0]) !== 'already passed'; }).sort(function (x, y) { return utc(x[0]) - utc(y[0]); })[0];
+      var head = '<p><strong>' + count + ' things on your list for ' + (winter ? 'winter break 2026-27' : 'Thanksgiving 2026') + '.</strong>' +
+        (next ? ' Next date: ' + next[1] + ', ' + fd(next[0]) + ' (' + left(next[0]) + ').' : '') + '</p>';
+      el('result').innerHTML = head + html +
+        '<p class="bbc-note">Dates and prices as of 2026-11-08 (official pages read that day; fare samples read that day). Estimated: airport parking for stays under a week, and the Thanksgiving fare rise, which comes from 3 non-NYC routes.</p>';
+    }
+    root.addEventListener('input', render);
+    root.addEventListener('change', render);
+    render();
+  })();
+  </script>
+</div>

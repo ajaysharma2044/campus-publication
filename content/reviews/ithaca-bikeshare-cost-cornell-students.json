@@ -1,0 +1,205 @@
+{
+ "slug": "ithaca-bikeshare-cost-cornell-students",
+ "queue_id": "q-getting-around-0043",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Pay as you go $1.50 to start + $0.25 a minute + tax",
+   "source_url": "https://www.ithacabikeshare.org",
+   "status": "ok",
+   "note": "brief §2.19; operator page re-read, matches"
+  },
+  {
+   "claim": "Day pass $25, unlimited rides up to 2 hours each, then $0.25 a minute",
+   "source_url": "https://www.ithacabikeshare.org",
+   "status": "ok",
+   "note": "brief §2.19; operator page matches"
+  },
+  {
+   "claim": "Monthly $60, 30 minutes a day free, then $0.25 a minute",
+   "source_url": "https://www.ithacabikeshare.org",
+   "status": "ok",
+   "note": "brief §2.19; operator page matches"
+  },
+  {
+   "claim": "Not confirmed: whether the monthly plan also charges the $1.50 start fee",
+   "source_url": "https://www.ithacabikeshare.org",
+   "status": "ok",
+   "note": "fixed in place: Operator page says day pass and monthly have no unlock fees. Replaced the 'Not confirmed' with the statement, and changed 'if no start fee applies' to 'with no unlock fees' in the junior example. Brief row updated."
+  },
+  {
+   "claim": "$1.50 fee when a ride does not end in a hub; hubs highlighted on the app map",
+   "source_url": "https://www.ithacabikeshare.org",
+   "status": "ok",
+   "note": "brief §2.19; operator page matches (page dates the fee from March 4, 2024; page's 'none carries a date' refers to the plans)"
+  },
+  {
+   "claim": "Easy Access for GO ITHACA members at or below 150% of the federal poverty guideline; contact help@ithacabikeshare.org",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief §2.19; operator page matches"
+  },
+  {
+   "claim": "No student discount listed",
+   "source_url": "https://www.ithacabikeshare.org",
+   "status": "ok",
+   "note": "Operator page does not mention students; brief §2.19 and Better Bike Share 2023"
+  },
+  {
+   "claim": "Class 1 pedal-assist e-bikes, about 16 mph; nonprofit Center for Community Transportation",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief §2.19"
+  },
+  {
+   "claim": "Cornell requires Bikeshare bikes to be parked at racks (2023 Sun guide)",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "In brief row 'Bikeshare hubs, 2023'. My summarised fetch of the Sun page did not surface this sentence, so trusted the brief, not independently confirmed"
+  },
+  {
+   "claim": "Cornell cycling page: designated racks only; railings, signposts, trees, poles can be impounded",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief §2.19"
+  },
+  {
+   "claim": "More than 1,000 bike parking spots and about 7 miles of bike lanes, per Cornell's assistant director of transportation, 2025",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief §2.19"
+  },
+  {
+   "claim": "Four 2023 hubs: Collegetown Bagels on College Ave, Oak Ave at Dryden Rd, Maplewood Apartments, Stewart at University near Alice Cook House; no hubs on campus at launch",
+   "source_url": "https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/",
+   "status": "ok",
+   "note": "Sun page lists the four hubs; brief §2.19"
+  },
+  {
+   "claim": "January 2023 prices: $1 start, $0.15/min, day $20, monthly $45, annual $150",
+   "source_url": "https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/",
+   "status": "ok",
+   "note": "Sun page confirms; brief §2.19"
+  },
+  {
+   "claim": "July 2023: $0.50 start, $0.20/min, annual $150, $1 off-hub fee, 85 e-bikes, 34,000+ trips, 250-275 a day, about 60% on campus, no student discount, operator hoped for Cornell deal",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief §2.19; page flags the start-fee conflict between 2023 sources"
+  },
+  {
+   "claim": "Bikeshare launched late 2022",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief cross-source table: say 'late 2022'"
+  },
+  {
+   "claim": "Big Red Bikes 2011: free with Cornell ID at Uris Library, 25 free hours a week",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief §2.19"
+  },
+  {
+   "claim": "LimeBike entered downtown 2018, 50 cents per 30 minutes for students with college emails; 2019 Cornell press release story; Lime left 2020",
+   "source_url": "https://cornellsun.com/2018/04/26/new-dockless-bikesharing-service-enters-downtown-ithaca/",
+   "status": "ok",
+   "note": "Sun 2018 page confirms 50 cents per 30 minutes with college email, April 26, 2018; brief §2.19 for the 2020 exit"
+  },
+  {
+   "claim": "TCAT $1.50 fare; free after 6 p.m. weekdays and all weekend for upper-years; first-years, transfers, PhD and graduate assistants free at all hours; OmniRide $200; first-year pass to Aug 31",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 and OmniRide rows"
+  },
+  {
+   "claim": "Carshare student plans $30 a year + $9 an hour; $310 a year + $6 an hour",
+   "source_url": "brief §10.17",
+   "status": "ok",
+   "note": "brief §10.17"
+  },
+  {
+   "claim": "2023 Sun Carshare article: graduate student used Carshare as a safety net, moved to Bikeshare, planned to buy a car",
+   "source_url": "https://cornellsun.com/2023/09/19/ithaca-carshare-to-resume-operations-march-2024/",
+   "status": "ok",
+   "note": "Cited in brief §8 voice table (pain point row 17); attribution not re-opened"
+  },
+  {
+   "claim": "20-minute ride $6.50; 10-minute $4.00; 15-minute $5.25; 30-minute $9.00; outside-hub variants $5.50, $6.75, $8.00, $10.50",
+   "source_url": "brief §10.17",
+   "status": "ok",
+   "note": "Recomputed 1.50 + 0.25 x minutes (+1.50): all match"
+  },
+  {
+   "claim": "Day pass beats pay as you go after 88 minutes with two rides",
+   "source_url": "brief §10.17",
+   "status": "ok",
+   "note": "(25 - 3) / 0.25 = 88"
+  },
+  {
+   "claim": "Monthly pays off after ten 20-minute rides ($65) or fifteen 10-minute rides ($60); one trip each weekday passes it in three weeks",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "10 x 6.50 = 65; 15 x 4.00 = 60; 15 weekdays = 3 weeks"
+  },
+  {
+   "claim": "Junior example: 40 rides at $4.50 = $180 vs $60 monthly; TCAT 40 x $1.50 = $60",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1.50 + 12 x 0.25 = 4.50; x40 = 180; 24 min under 30"
+  },
+  {
+   "claim": "Sophomore: four 15-minute rides = $21",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "4 x 5.25 = 21"
+  },
+  {
+   "claim": "Summer: three months $180; ten extra minutes add $2.50",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "3 x 60; 10 x 0.25"
+  },
+  {
+   "claim": "Ten rides pay-as-you-go 20 minutes = $65; 30-minute ride $10.50 outside hub; 20 off-hub rides = $30",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "10 x 6.50; 9.00 + 1.50; 20 x 1.50"
+  },
+  {
+   "claim": "20-minute ride $4.00 in Jan 2023 vs $6.50 now, about 63% rise; per-minute rate up 25% since mid-2023",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1 + 20 x 0.15 = 4.00; 6.5/4 = 1.625; 0.25/0.20 = 1.25"
+  },
+  {
+   "claim": "2023 prices undercount a 20-minute ride by $1 to $2.50",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "$0.20 plan with $1.50 start: 5.50, gap 1.00; Jan 2023: 4.00, gap 2.50"
+  },
+  {
+   "claim": "15-minute Bikeshare ride after 6 p.m. costs $5.25",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1.50 + 15 x 0.25"
+  }
+ ],
+ "beats_top": {
+  "query": "Ithaca Bikeshare cost Cornell students",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [
+  "Bikeshare current prices row in §2.19: added that day pass and monthly have no unlock fees and unused daily minutes do not roll over; change log line added; source https://www.ithacabikeshare.org"
+ ],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh",
+ "lint_fixes": [
+  "banned phrase(s): unlock"
+ ],
+ "lint_rounds": 1
+}

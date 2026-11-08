@@ -1,0 +1,185 @@
+{
+ "slug": "ithaca-bus-to-boston-philadelphia-dc-toronto",
+ "queue_id": "q-getting-around-0033",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Boston FlixBus $44 to $88 FAQ range, 8 h 05 min to 12 h 05 min, about 11 buses a day; Fri Nov 6 $51, Tue Nov 17 $46, Fri Nov 20 $101",
+   "source_url": "brief §3.2",
+   "status": "ok",
+   "note": "brief §3.2 Boston row matches."
+  },
+  {
+   "claim": "Boston saving $55 (101 - 46)",
+   "source_url": "brief §3.2",
+   "status": "ok",
+   "note": "Recomputed 101 - 46 = 55."
+  },
+  {
+   "claim": "Rome2rio Amtrak via Syracuse about 8 h 50 min, $45 to $300; planner may mean Cornell, Wisconsin",
+   "source_url": "brief §3.2",
+   "status": "ok",
+   "note": "brief §3.2 planner row and §9 gap table."
+  },
+  {
+   "claim": "Amtrak station: William F. Walsh Regional Transportation Center, 1 Walsh Circle, Syracuse; Amtrak phone 1-800-872-7245",
+   "source_url": "brief §2.9",
+   "status": "ok",
+   "note": "brief §2.9 rows."
+  },
+  {
+   "claim": "Ithaca-to-Syracuse city bus daily lows $10 to $41, Nov 6 to 26, FlixBus 1 h 15 min to 1 h 35 min",
+   "source_url": "brief §3.2",
+   "status": "ok",
+   "note": "brief §3.2 Syracuse city row."
+  },
+  {
+   "claim": "Philadelphia: FlixBus $44 Mon Nov 9 (9:00 a.m. 9 h; 1:00 p.m. 7 h 50 min); lowest $41 Wed Nov 18; Binghamton connection $9 + $41",
+   "source_url": "brief §3.2",
+   "status": "ok",
+   "note": "brief §3.2 Philadelphia row."
+  },
+  {
+   "claim": "Binghamton connection total $50, more than $41 direct",
+   "source_url": "brief §3.2",
+   "status": "ok",
+   "note": "Recomputed 9 + 41 = 50."
+  },
+  {
+   "claim": "Greyhound Ithaca-Philadelphia 6 buses a day, as little as 7 h 10 min; OurBus from $105.2, 5 h to 8 h 45 min, resumes Oct 26 (no year)",
+   "source_url": "brief §2.5, §3.2",
+   "status": "ok",
+   "note": "brief rows match."
+  },
+  {
+   "claim": "Cornell travel resources names a Cornell-Philadelphia bus; Finger Lakes Rideshare and Student Rideboard",
+   "source_url": "brief §8.2",
+   "status": "ok",
+   "note": "Brief marks the bus status unknown; page carries a Not confirmed line."
+  },
+  {
+   "claim": "DC: 19 priced daily lows, mean $74.47; FlixBus cheapest $53; lowest $49 Tue Nov 17; FlixBus about 10 h to 10 h 55 min; OurBus $89, 11 h 30 min",
+   "source_url": "brief §3.2, §10.9",
+   "status": "ok",
+   "note": "brief §3.2 and §10.9."
+  },
+  {
+   "claim": "DC Thanksgiving-week mean $93.40 vs earlier $67.71, 37.9% higher",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Recomputed from the brief's values: 467/5 = 93.40; 948/14 = 67.71; 93.40/67.71 = 1.379."
+  },
+  {
+   "claim": "All 19 dates mean $74.47",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "(948 + 467)/19 = 74.47."
+  },
+  {
+   "claim": "Example: two floor fares about $187 at Thanksgiving-week mean, about $135 earlier, about $51 less",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Recomputed 2 x 93.40 = 186.80; 2 x 67.71 = 135.42; difference 51.38."
+  },
+  {
+   "claim": "Thanksgiving-week floor about $26 above the earlier mean",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "93.40 - 67.71 = 25.69."
+  },
+  {
+   "claim": "Thanksgiving-week fares about a third higher",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Brief: 28% to 38%, mean about 33%."
+  },
+  {
+   "claim": "OurBus DC page: from $75, about 7 h 40 min, 130 E Seneca St; stop moves to 235 S. Cayuga St from Mon Nov 9, 2026",
+   "source_url": "brief §2.4, §2.6",
+   "status": "ok",
+   "note": "brief rows match."
+  },
+  {
+   "claim": "Toronto: OurBus from $55, 6 h 40 min; Greyhound 2 buses a day from about $43 (Toronto-to-Ithaca page); Megabus up to 1 a day, earliest 10:50 a.m., fastest 7 h 15 min, 131 East Green St",
+   "source_url": "brief §2.5, §3.2",
+   "status": "ok",
+   "note": "brief rows match. The page flags that the Greyhound page covers the other direction."
+  },
+  {
+   "claim": "FlixBus Toronto stop: Union Station Bus Terminal, 81 Bay St, 2nd floor; trips 8:30 a.m. to 2:05 p.m.",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief row matches."
+  },
+  {
+   "claim": "U.S. citizen adults by land: passport, passport card, enhanced driver's license, NEXUS/SENTRI/FAST; children under 16 birth record; passport card not valid for international air travel",
+   "source_url": "https://www.cbp.gov/travel/us-citizens/western-hemisphere-travel-initiative/faqs",
+   "status": "ok",
+   "note": "Opened the CBP page. The list matches; children under 16 may use a birth certificate; the page says passport cards are not accepted for international air travel. CBP's list also includes other items (military ID, tribal cards) that the page leaves out."
+  },
+  {
+   "claim": "ITH nonstops: JFK on Delta, Washington Dulles on United",
+   "source_url": "brief §3.1 airlines row",
+   "status": "ok",
+   "note": "brief airlines row."
+  },
+  {
+   "claim": "C2C rates page lists only Manhattan; NetID fare $93.50 one way",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief §2.2 rows."
+  },
+  {
+   "claim": "Stops: 121 Jessup Rd, 240 West Ave, 131 E Green St (Urban Outfitters), curb not inside the library; OurBus stops West Ave across from Baker Flagpole",
+   "source_url": "brief §2.x stops table",
+   "status": "ok",
+   "note": "brief stops table (131 E Green St row matches)."
+  },
+  {
+   "claim": "Greyhound includes one carry-on and one checked bag; OurBus one suitcase up to 50 lb plus handbag, extra bags $30 prepaid",
+   "source_url": "brief §2.4, §2.5",
+   "status": "ok",
+   "note": "brief rows match."
+  },
+  {
+   "claim": "OurBus Select $15 off each of the next 10 tickets; separate student discount of unstated size; OurBus gives credit not cash",
+   "source_url": "brief §2.4, 6.x",
+   "status": "ok",
+   "note": "brief rows."
+  },
+  {
+   "claim": "Peak days: Wed Nov 25, 2026; Sat Dec 19 (last day of finals); Fri Mar 26, 2027 (spring break starts Sat Mar 27)",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar",
+   "status": "ok",
+   "note": "Opened the registrar page: Thanksgiving break Wed Nov 25 to Sun Nov 29, 2026; finals Dec 11 to Dec 19 (Sat); spring break Sat Mar 27 to Sun Apr 4, 2027. Friday before is Mar 26."
+  },
+  {
+   "claim": "Thanksgiving break runs Nov 25 to 29, 2026",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar",
+   "status": "ok",
+   "note": "Matches the registrar page."
+  },
+  {
+   "claim": "Ranking: Philadelphia, Boston, DC, Toronto by lowest dated fare ($41, $46, $49, undated)",
+   "source_url": "brief §3.2",
+   "status": "ok",
+   "note": "Order follows the stated criteria."
+  }
+ ],
+ "beats_top": {
+  "query": "Cornell to Boston bus or train",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh",
+ "lint_fixes": [
+  "visuals: 2 beyond the lead photo for 2163 words (3 required: one photo, figure, map or tool per 600 words)",
+  "source url returned error: ReadTimeout: The read operation timed out: https://www.amtrak.com/stations/syr"
+ ]
+}

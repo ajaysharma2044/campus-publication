@@ -1,0 +1,105 @@
+{
+ "slug": "thanksgiving-bus-fare-premium-ithaca-2026",
+ "queue_id": "q-getting-around-0066",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "All 63 CSV rows (Binghamton 15, Rochester 17, DC 19, Syracuse 12) match the page table row for row",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief §10.9 lists the same values for every route and date; Binghamton also re-read on the live checkmybus page and all 15 date/fare pairs match."
+  },
+  {
+   "claim": "Binghamton before mean $11.10 (111/10), week mean $14.20 (71/5), +27.9%",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Recomputed from the CSV: 111/10 = 11.10; 71/5 = 14.20; 14.20/11.10 = 1.279."
+  },
+  {
+   "claim": "Rochester before mean $19.00 (209/11), week mean $25.50 (153/6), +34.2%",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Recomputed from the CSV: sums 209 and 153; 25.50/19.00 = 1.342."
+  },
+  {
+   "claim": "DC before mean $67.71 (948/14), week mean $93.40 (467/5), +37.9%",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Recomputed from the CSV: sums 948 and 467; 93.40/67.714 = 1.379."
+  },
+  {
+   "claim": "Mean premium across three routes +33.3%",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "fixed in place: Averaging the rounded premiums gave 33.3%, but unrounded they are 27.928, 34.211 and 37.932, sum 100.071, /3 = 33.36, which is 33.4%. Changed to +33.4% in meta, answer paragraph, summary table and method step 7, and in brief 10.9."
+  },
+  {
+   "claim": "Counts: 51 premium fares (15+17+19), 35 before, 16 in week, 63 total with 12 Syracuse",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Counted from the CSV: 10+11+14 = 35; 5+6+5 = 16; 35+16 = 51; 51+12 = 63."
+  },
+  {
+   "claim": "All-date means: Binghamton $12.13 (median $13), Rochester $21.29, DC $74.47",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "182/15 = 12.13; 362/17 = 21.29; 1,415/19 = 74.47. Binghamton sorted 15 values, 8th is 13."
+  },
+  {
+   "claim": "Syracuse 12 fares, sum 312, mean $26.00, median $26; Nov 8 shows $41 in table and $12 in listing",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Sum recomputed as 312; sorted median (25+27)/2 = 26. The $41 vs $12 conflict is in brief §10.9."
+  },
+  {
+   "claim": "Highest Rochester and DC fare was Wed Nov 25 ($30, $100); lowest DC fare $49 on Nov 17",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Checked against the CSV values; Nov 25 is the maximum for both routes and Nov 17 is the DC minimum."
+  },
+  {
+   "claim": "OurBus also names that Wednesday (before Thanksgiving) as a peak travel day",
+   "source_url": "https://www.ourbus.com/blog/?p=6269",
+   "status": "ok",
+   "note": "Brief §2.4 carries it, and the OurBus blog page names 'the Wednesday before Thanksgiving' as a peak departure."
+  },
+  {
+   "claim": "Thanksgiving Day 2026 is Thursday Nov 26; Thanksgiving week treated as Nov 23 to 27; weekdays in the table",
+   "source_url": "brief §2 calendar note (line 676)",
+   "status": "ok",
+   "note": "Nov 26, 2026 is the fourth Thursday; weekdays in the CSV were checked and are consistent."
+  },
+  {
+   "claim": "On Ithaca to NYC the cheapest advertised seat was about 40% of a typical average fare in a Nov 8 reading (brief 10.6)",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "Brief line 1257 states the same 40% finding."
+  },
+  {
+   "claim": "DC dates with no fare: Nov 13, 22, 28; Binghamton none for Nov 21 or 22",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Brief lists the same missing DC dates, and the Binghamton series has no Nov 21 or 22."
+  },
+  {
+   "claim": "Thanksgiving-week premium is 'about a third higher'; NYC not sampled and +33% for NYC is an assumption",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "The brief makes the same caveat."
+  }
+ ],
+ "beats_top": {
+  "query": "Thanksgiving bus prices Ithaca",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [
+  "Corrected the mean Thanksgiving-week premium in brief 10.9 from +33.3% to +33.4% (unrounded premiums average 33.36) and added a line to 11. Change log; source: recomputed from the route tables, https://www.checkmybus.com/ithaca-ny/binghamton-ny"
+ ],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

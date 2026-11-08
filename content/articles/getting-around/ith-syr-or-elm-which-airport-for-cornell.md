@@ -36,8 +36,8 @@ sources:
 - url: https://www.downtownithaca.com/getting-around-visit/
   title: Getting Around, Downtown Ithaca
   accessed: '2026-11-08'
-- url: https://www.tompkinscountyny.gov/News-articles/Ithaca-Tompkins-International-Airport-to-add-third-daily-flight-to-Washington-D.C.-starting-in-October-2025
-  title: Ithaca Tompkins International Airport to add third daily flight to Washington, D.C. starting in October 2025, Tompkins County
+- url: https://flyithaca.com/news/category/Flights
+  title: Flights news, Ithaca Tompkins International Airport
   accessed: '2026-11-08'
 - url: https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk
   title: OurBus expands Cornell service, The Cornell Daily Sun, September 2026
@@ -105,13 +105,10 @@ sources:
 - url: https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university
   title: Cornell University, OurBus
   accessed: '2026-11-08'
-- url: https://transfers.th.edreams.com/blog/usa-syracuse-airport-to-cornell-university
-  title: Syracuse airport to Cornell University, eDreams transfers blog
-  accessed: '2026-11-08'
 images:
 - file: 1.webp
-  alt: TCAT Bus 2107 on Route 30
-  caption: TCAT Bus 2107 on Route 30
+  alt: A TCAT city bus, number 2107, signed for Route 30 on an Ithaca street
+  caption: A TCAT bus in Ithaca. TCAT Routes 32 (weekdays) and 72 (weekends) link the Ithaca airport and the Commons for $1.50, a ground leg Syracuse cannot match.
   credit: Hbithaca / Wikimedia
   credit_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2107_on_Route_30.jpg
   license: CC BY-SA 4.0
@@ -149,7 +146,7 @@ Your long-haul flight lands at JFK or Dulles either way, so ITH is often one sho
 | Public link to Cornell | TCAT 32 (weekdays), 72 (weekends), $1.50 | OurBus, 6 days a week, $46.7 to $62.1 | None confirmed |
 | Week of parking | $40 (long-term) | About $98 (economy, 7 x $14) | Not posted |
 
-ITH sits at 1 Culligan Drive, [about 10 minutes from downtown](https://www.downtownithaca.com/getting-around-visit/). United added a [third daily Dulles flight in October 2025](https://www.tompkinscountyny.gov/News-articles/Ithaca-Tompkins-International-Airport-to-add-third-daily-flight-to-Washington-D.C.-starting-in-October-2025). A later airport post spoke of "resuming" that third flight, so treat Dulles as up to three a day. Delta flies JFK. American left in 2022 and Newark ended in 2025.
+ITH sits at 1 Culligan Drive, [about 10 minutes from downtown](https://www.downtownithaca.com/getting-around-visit/). United added a [third daily Dulles flight in October 2025](https://flyithaca.com/news/category/Flights). A later airport post spoke of "resuming" that third flight, so treat Dulles as up to three a day. Delta flies JFK. American left in 2022 and Newark ended in 2025.
 
 SYR is the bigger airport. Its [destinations page](https://syrairport.org/destinations/) lists American, Delta, United and JetBlue plus four leisure carriers: Allegiant, Breeze, Sun Country and Frontier. The drive is [about 1 h 15 min and 65 miles](https://www.ithaca.edu/orientation/family-and-guest-resources/transportation) per Ithaca College; an older Cornell lab document put it nearer 1.5 hours.
 
@@ -158,6 +155,16 @@ ELM is at 276 Sing Sing Rd in Horseheads. The [Chemung County airport page](http
 ## How few flights is "few"?
 
 On Saturday, Nov 7, 2026, four planes landed at ITH: JFK at 12:23 p.m., Dulles at 7:02 p.m., JFK at 10:29 p.m. and Dulles at 11:44 p.m. That is our count from the [Avionio arrivals board](https://www.avionio.com/widget/en/ITH/arrivals), merging codeshare rows into one plane each. One day is a small sample, but it matches the airlines page.
+
+```figure
+kind: timeline
+title: ITH arrivals on Saturday, Nov 7, 2026 (our count)
+rows:
+  - {label: "From JFK (Delta)", date: "12:23 p.m."}
+  - {label: "From Dulles (United)", date: "7:02 p.m."}
+  - {label: "From JFK (Delta)", date: "10:29 p.m."}
+  - {label: "From Dulles (United)", date: "11:44 p.m."}
+```
 
 Four arrivals means a cancellation can push you to the evening or the next day. Delta's ITH to JFK flight 5265 had [several cancelled dates in July 2026](https://www.avionio.com/en/flight/dl-5265), July 6, 7 and 10, among mostly landed flights. Our tally of student and news accounts finds the same point in 7 sources, from 2014 forum threads to a July 2026 flight tracker: ITH flights are few, and one cancellation means a long wait.
 
@@ -181,7 +188,7 @@ rows:
 
 **To ITH.** TCAT [Route 32 runs on weekdays and Route 72 on weekends](https://www.flyithaca.com/public-transportation), between the airport and the Commons, for $1.50. Pay with exact cash, a card, a digital wallet, a Tcard or the TFare app. No bus meets the first flights. In 2024 the Student Assembly president said that for 5:30 a.m. flights there is "literally no transportation available" beyond costly rides, per the [Cornell Sun](https://cornellsun.com/2024/05/07/student-assembly-funds-free-charter-buses-to-syracuse-ithaca-airports/). The airport lists three taxi firms that run 24/7 and says to prebook for late flights: Ithaca Airport Cab 607-252-9052, Collegetown Cab 607-588-8888 and Ithaca Dispatch 607-277-7777.
 
-**To SYR.** OurBus runs [six days a week](https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk). It picks up on [Jessup Road behind Ganedago Hall, on West Ave across from Baker Flagpole, and at the Cayuga St Garage](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny), and drops at Terminal A. Sunday is cheapest and Monday dearest. Each ticket includes [one suitcase up to 50 lb](https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university); extra bags cost $30 each and must be prepaid when you book. Cornell lists one car service, [Big D's Limousines at 607-273-3030 ext 2](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources), with no price posted. One commercial transfer site puts a taxi at [about $200](https://transfers.th.edreams.com/blog/usa-syracuse-airport-to-cornell-university), unverified.
+**To SYR.** OurBus runs [six days a week](https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk). It picks up on [Jessup Road behind Ganedago Hall, on West Ave across from Baker Flagpole, and at the Cayuga St Garage](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny), and drops at Terminal A. Sunday is cheapest and Monday dearest. Each ticket includes [one suitcase up to 50 lb](https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university); extra bags cost $30 each and must be prepaid when you book. Cornell lists one car service, [Big D's Limousines at 607-273-3030 ext 2](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources), with no price posted.
 
 **Parking.** ITH long-term is [$8 a day or $40 a week](https://www.flyithaca.com/parking); short-term is $9.50 a day or $48 a week. SYR posts [daily maximums only](https://www.syrairport.org/parking/): $14 economy, $16 Blue Lot, $22 garage. Seven days at those maximums is our math, about $98 and $154; SYR may sell a weekly rate its page does not show.
 

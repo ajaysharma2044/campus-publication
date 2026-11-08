@@ -1,0 +1,43 @@
+{
+  "slug": "cornell-break-travel-timeline-2026-27",
+  "queue_id": "q-getting-around-0063",
+  "verdict": "pass",
+  "checked": [
+    {"claim": "Move-In Ticket from Aug 1; North Campus move-in Mon Aug 17, Tue Aug 18, Fri Aug 21, Sat Aug 22 (year inferred)", "source_url": "brief §2.21", "status": "ok", "note": "brief rows match; weekdays recomputed as 2026 (Aug 1 2026 is a Saturday, so Aug 17 is Monday)"},
+    {"claim": "Permit sale Tue Aug 4, 2026, 9 a.m.; permit year Aug 16, 2026 to Aug 15, 2027", "source_url": "brief §2.14", "status": "ok", "note": "brief matches; Aug 4, 2026 is a Tuesday"},
+    {"claim": "Resident permit $752.98 prorated from Sept 1; commuter B $359.77 prorated from Aug 16; refund deadline Mar 31", "source_url": "brief §2.14", "status": "ok", "note": "brief matches"},
+    {"claim": "Free TCAT: fall entrants to Aug 31 next year; spring entrants Jan 1 to Dec 31; returning students free after 6 p.m. weekdays and weekends; cash $1.50; OmniRide $200, refund until Mar 31 less $40, expires Aug 31", "source_url": "brief §2.10", "status": "ok", "note": "brief matches"},
+    {"claim": "Transfers count as first-years for TCAT (reporter's statement, not the TCAT manager's)", "source_url": "brief §2.10 (line 266)", "status": "ok", "note": "Page attribution matches the brief's detailed source reading. The brief's guide-section line 723 said 'per TCAT's general manager', which contradicted line 266; I corrected the brief to the reporter-only wording."},
+    {"claim": "OurBus campus-to-Manhattan 4 to 6 trips a day from Sept 1, 2026", "source_url": "brief §2.6", "status": "ok", "note": "brief matches"},
+    {"claim": "Winter break housing opens Oct 1, deadline Dec 1; $125 per week, $500 full break; mail stops Dec 23, resumes Jan 7; ten open buildings; dining usually closed", "source_url": "brief §2.22", "status": "ok", "note": "brief matches"},
+    {"claim": "City odd/even Nov 1 to Apr 1, 7:00 p.m. to 6:00 a.m., towing after 72 hours", "source_url": "brief §2.16", "status": "ok", "note": "brief matches"},
+    {"claim": "Campus winter overnight rule Dec 1 to Apr 1, when snow is forecast, 5 p.m. to 7:30 a.m., designated areas; FH, ND, SW, WD own lots; winter-rules fine $50", "source_url": "brief §2.15/2.16", "status": "ok", "note": "brief matches, including the brief's own note that snow-dependence is unclear"},
+    {"claim": "No permit or payment fine $50, +$10 if unpaid in 10 days", "source_url": "brief §2.15", "status": "ok", "note": "brief matches"},
+    {"claim": "New C2C booking system Nov 4, 2026; '2026' link through Dec 23, '2027' link from Jan 6", "source_url": "brief §2.1", "status": "ok", "note": "brief matches"},
+    {"claim": "C2C one way to NYC $93.50 NetID, $101 public", "source_url": "brief §2.2", "status": "ok", "note": "brief matches"},
+    {"claim": "Nov 9, 2026: OurBus to 235 S. Cayuga St; TCAT East Seneca stops shift", "source_url": "brief §2.6", "status": "ok", "note": "brief matches"},
+    {"claim": "Yearly winter parking notice mid-November (2023 notice dated Nov 16)", "source_url": "brief §9 timeline (line 696)", "status": "ok", "note": "brief matches"},
+    {"claim": "Thanksgiving-week fare rise +27.9% Binghamton (n=15), +34.2% Rochester (n=17), +37.9% DC (n=19)", "source_url": "brief §10.9", "status": "ok", "note": "brief matches, n counts match brief's raw lists (lines 1277-1279)"},
+    {"claim": "Average rise 33.3%", "source_url": "brief §10.9", "status": "ok", "note": "Recomputed (27.9 + 34.2 + 37.9) / 3 = 100.0 / 3 = 33.33; brief gives unweighted mean +33.3%"},
+    {"claim": "Thanksgiving is Thu Nov 26, 2026; Wednesday before is Nov 25", "source_url": "own math", "status": "ok", "note": "Nov 1, 2026 is a Sunday; fourth Thursday = Nov 26. Checked the JS formula gives the same"},
+    {"claim": "C2C gap Dec 24 to Jan 5", "source_url": "own math", "status": "ok", "note": "Day after Dec 23 to day before Jan 6"},
+    {"claim": "OurBus peak days: Wednesday before Thanksgiving, last day of December finals, Friday spring break begins", "source_url": "brief §2.4", "status": "ok", "note": "brief matches"},
+    {"claim": "Dec 1-2, 2019 storm cancelled OurBus trips; Jan 2019 storm, buses banned on most highways", "source_url": "brief §9 timeline (lines 698, 705)", "status": "ok", "note": "brief matches"},
+    {"claim": "Residences closed 2 p.m. Sun Dec 21, 2025; recess to Jan 13, 2026", "source_url": "brief §2.22", "status": "ok", "note": "brief matches; Dec 21, 2025 is a Sunday"},
+    {"claim": "Ithaca-NYC bus fares about $41 in January vs about $66 in November (Wanderu)", "source_url": "brief §10.9", "status": "ok", "note": "brief matches, marked as aggregator claim"},
+    {"claim": "Summer storage booking by early April (Storage Scholars); Big Red Shipping limited slots, no prices", "source_url": "brief §2.22", "status": "ok", "note": "brief matches"},
+    {"claim": "SA adopted finals charter money Apr 16, 2026; May 2024 charters May 15 to 18, registration by May 12; fall 2024 and 2025 finals charters", "source_url": "brief §2.8 / §9", "status": "ok", "note": "brief matches"},
+    {"claim": "Move-out closing 2 p.m. Sun May 17, 2026; items donated", "source_url": "brief §2.21", "status": "ok", "note": "brief matches; May 17, 2026 is a Sunday"},
+    {"claim": "TCAT heat cutbacks June 2025", "source_url": "brief §2.10", "status": "ok", "note": "brief matches (buses pulled 2025-06-23, reduced service 06-24)"},
+    {"claim": "City residential permit $45 a year, expires July 31", "source_url": "brief §2.16", "status": "ok", "note": "brief matches"},
+    {"claim": "Thanksgiving 2013 column said no holiday TCAT service", "source_url": "brief §8 voice (line 1008)", "status": "ok", "note": "brief matches, marked as 2013 opinion"},
+    {"claim": "Page said Cornell's 2026-27 Thanksgiving break days, last day of December finals, spring break and May finals were 'not yet published' and 'not in the brief'", "source_url": "brief §2.22 (Cornell 2026-27 academic calendar row)", "status": "fixed", "note": "The brief carries the Registrar calendar: no classes Nov 25 to 29, 2026; fall finals Dec 11 to 19; spring term begins Jan 25, 2027; no classes Mar 27 to Apr 4, 2027; spring finals May 15 to 22. Page misreported the brief. Fixed in tool.html (new NUMBERS thxBreakStart/End, finalsEnd, springClasses, springBreakFri, springBreakEnd, mayFinalsStart/End; rows now dated, 'not yet published' badges removed from the finals-end, classes-resume and spring-break rows, Thanksgiving row now states Nov 25 to 29) and tool.md (assumptions bullet and sources list)."},
+    {"claim": "Peak day for spring break placed on Fri Mar 26, 2027", "source_url": "brief §2.22 + own math", "status": "ok", "note": "Brief gives no-class days starting Mar 27, 2027, a Saturday (Jan 1, 2027 is a Friday, so Mar 27 is day 86, a Saturday), so the Friday it begins after is Mar 26. This is an inference and the row text says the break is Mar 27 to Apr 4."}
+  ],
+  "brief_updates": [
+    "Corrected the transfer-TCAT sentence in the guide section (line 723) from 'per TCAT's general manager' to the Cornell Sun reporter's own statement, to match the brief's detailed row at line 266; source https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free; change-log line added."
+  ],
+  "fixes": [],
+  "core_answer": "right",
+  "checked_at": "2026-11-08"
+}

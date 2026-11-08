@@ -1,62 +1,175 @@
 {
-  "slug": "biking-in-ithaca-winter-cornell",
-  "queue_id": "q-getting-around-0009",
-  "verdict": "fix",
-  "fact_check": [
-    {"claim": "Many riders stop at the first snow, but some keep going", "source_url": "https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather", "status": "ok", "note": "Source: many cyclists 'put a hold on their cycling at the first sign of snow,' some keep riding in severe conditions. Dated 2007."},
-    {"claim": "Ithaca and Cornell's campus pose challenges to bikers because of cold climate and hilly terrain", "source_url": "https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/", "status": "ok", "note": "Source: 'Between its cold climate and hilly terrain, Ithaca and Cornell's campus pose challenges to bikers.'"},
-    {"claim": "In 2007 riders told the Sun that plowed snow and pothole covers in bike lanes can push cyclists out into traffic", "source_url": "https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather", "status": "mismatch", "note": "Source says riders sometimes 'have to swerve out of the bike lane to avoid danger' because of plowed snow and pothole covers. 'Into traffic' is not in the source."},
-    {"claim": "Cornell's snow page does not say bike lanes get special treatment", "source_url": "https://fcs.cornell.edu/services/repair-maintenance/snow-removal", "status": "ok", "note": "Page does not mention bike lanes."},
-    {"claim": "Cornell's bicycle specialist recommended a second bike for winter because salt, snow and ice wear down a year-round bike", "source_url": "https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather", "status": "ok", "note": "Lois Chaplin, bicycle and pedestrian specialist, recommends a separate winter bike; wear from 'snow, ice and salt.'"},
-    {"claim": "Wash and lubricate the chain after every ride once roads are salted", "source_url": "https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather", "status": "ok", "note": "Source says clean and lubricate bikes after each ride, especially once roads are salted. Source says 'bikes', article narrows to 'chain'; acceptable."},
-    {"claim": "Few people bike to campus even in mild weather; numbers fall further with snow and ice, per the same article", "source_url": "https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather", "status": "ok", "note": "Source gives a Transportation Services survey: 71% of undergraduates walk, 1.4% bike. Snow drop-off supported by 'hold on cycling at first snow'. Figures are 2007 and could be added with a date."},
-    {"claim": "Grounds covers about 15 miles of roads, 61 miles of walkways, 114 acres of parking lots", "source_url": "https://fcs.cornell.edu/services/repair-maintenance/snow-removal", "status": "ok", "note": "Page lists '15 Miles of Roads, 61 Miles of Walkways, 114 Acres of Parking Lots.'"},
-    {"claim": "Report slippery spots on campus at 607-255-5322", "source_url": "https://fcs.cornell.edu/services/repair-maintenance/snow-removal", "status": "ok", "note": "Page directs to Customer Service/EMCS at 607-255-5322 for slippery conditions."},
-    {"claim": "City requires residents, businesses and owners to keep sidewalks free of snow and ice; city may clear and bill the owner", "source_url": "https://www.fingerlakes1.com/2026/02/14/ithaca-sidewalk-snow-rules-in-effect/", "status": "ok", "note": "Source cites City Code Chapter 178-3; city may clear and charge if not done within 'the required timeframe' (not stated)."},
-    {"claim": "Cornell requires you to stay off sidewalks and pathways unless they are marked shared", "source_url": "https://sustainable.cornell.edu/news/rules-road-biking-season", "status": "mismatch", "note": "Source says only 'Bicycles, like other vehicles, belong on streets not on sidewalks.' It has no exception for marked shared paths, and does not mention pathways. The following sentence ('you cannot simply hop onto an uncleared-street alternative') is also unsupported and unclear."},
-    {"claim": "Bikes have the same road rights and duties as other vehicles", "source_url": "https://sustainable.cornell.edu/news/rules-road-biking-season", "status": "ok", "note": "Source: 'Bicycles have the same rights to the road as other vehicles' and must follow the same traffic laws."},
-    {"claim": "Must use legal headlights and taillights at dusk or night", "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus", "status": "ok", "note": "Page: 'legal headlights and taillights if you ever ride at dusk or at night.'"},
-    {"claim": "Bell or horn required; a personal strobe is not a legal taillight", "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus", "status": "ok", "note": "Both stated on the page."},
-    {"claim": "Registering a bike is free; Cornell asks you to register with it and your local municipality", "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus", "status": "ok", "note": "Page: 'free of charge'; register with Cornell Commuter & Parking Services and the local municipality."},
-    {"claim": "Bikes locked to railings, signposts or trees may be impounded", "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus", "status": "ok", "note": "Listed among impound reasons."},
-    {"claim": "Cornell has over 1,000 bike parking stations", "source_url": "https://sustainable.cornell.edu/focus-areas/transportation/biking", "status": "ok", "note": "Page: 'over 1,000 bike parking stations across campus.'"},
-    {"claim": "About seven miles of bike lanes and two miles of shared paths on campus", "source_url": "https://www.cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall", "status": "ok", "note": "Guest column: 'approximately seven miles of bike lanes, and two miles of shared paths on campus.' A student guest column, not an official source; ideally link an official Cornell page."},
-    {"claim": "Every TCAT bus has a front-mounted bike rack at no extra fare", "source_url": "https://sustainable.cornell.edu/focus-areas/transportation/biking", "status": "ok", "note": "Stated on page."},
-    {"claim": "Bike Walk Tompkins keeps a list of local bike shops", "source_url": "https://sustainable.cornell.edu/focus-areas/transportation/biking", "status": "ok", "note": "Page says the nonprofit maintains a local resources list with a 'Local Bike Shops' section linking to it. Better to link Bike Walk Tompkins' own page."},
-    {"claim": "One rider said good brakes matter more than anything for stopping", "source_url": "https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather", "status": "ok", "note": "Wine: braking matters most; 'If you have good brakes, your stopping distance isn't too affected by weather conditions.' Paraphrase is slightly stronger than the quote."},
-    {"claim": "Hat or headband under helmet, eye protection, synthetic or wool layers, no cotton, ski clothing works", "source_url": "https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather", "status": "ok", "note": "All in Chaplin's advice."},
-    {"claim": "The 2007 article's cyclist stops biking below 40°F", "source_url": "https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather", "status": "ok", "note": "Chaplin stops when it drops 'below 40 degrees.' The article attributes it to 'the cyclist'; name her (Cornell's bicycle specialist)."},
-    {"claim": "First-year degree students get unlimited TCAT rides", "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", "status": "ok", "note": "Automatic OmniRide privileges; expire Aug 31 for fall entrants, Dec 31 for spring entrants."},
-    {"claim": "Other registered students ride free after 6 p.m. weekdays and all weekend", "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", "status": "mismatch", "note": "Source ties this to registered degree-program students (a year or more) who stay registered; 'other registered students' drops that condition. Page also says PhD students and graduate assistants get free OmniRide passes, which the article omits."},
-    {"claim": "OmniRide annual pass is $200 per year", "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", "status": "ok", "note": "$200 per year, pro-rated monthly, expires Aug 31 of the following year."},
-    {"claim": "Cash fare, no pass: $1.50", "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", "status": "mismatch", "note": "Page mentions $1.50 only as a fallback: 'If your CU ID card isn't accepted, you may need to pay the $1.50 fare with cash.' It is not presented as the general no-pass fare. Link TCAT's own fare page instead."},
-    {"claim": "Ithaca Bikeshare: $1.50 to unlock plus $0.25 per minute, $25 day pass, $60 monthly plan", "source_url": "https://ithacabikeshare.org", "status": "ok", "note": "Pay as You Go $1.50 + $0.25/min plus tax; day pass $25 (2 hrs); monthly $60 (30 min/day). Page also lists a $1.50 convenience fee for trips not ending in a hub, which is omitted."},
-    {"claim": "Class 1 pedal-assist e-bikes, riders must be 16 or older", "source_url": "https://ithacabikeshare.org", "status": "ok", "note": "Confirmed; under-18 riders need a parent or guardian's consent."},
-    {"claim": "The Sun's 2023 article quotes a student saying it was too snowy for bikeshare, and its per-minute rate was lower", "source_url": "https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/", "status": "ok", "note": "Student said 'It's just a little too snowy at the moment.' Article printed 15 cents per minute plus $1 unlock, so current prices are higher."},
-    {"claim": "Bikeshare page does not say whether service pauses in winter; email help@ithacabikeshare.org", "source_url": "https://ithacabikeshare.org", "status": "ok", "note": "No winter statement found. help@ithacabikeshare.org appears as the main contact, though one page link points to support@goithaca.org."},
-    {"claim": "By late afternoon in December it is dark", "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus", "status": "unverifiable", "note": "No source cited for the daylight claim. Cornell page only says lights are required at dusk or night. Add a sunset time with a source (e.g. timeanddate.com Ithaca) or soften."}
-  ],
-  "beats_top": {
-    "query": "biking in Ithaca winter Cornell",
-    "top_url": "https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather",
-    "better": "yes",
-    "why": "The #1 result is a 2007 Sun feature with gear tips and no current rules, costs, snow-clearing info or TCAT backup plan; our page answers the question in the first paragraph and adds current Cornell rules, bus costs and bikeshare prices. It loses ground only where it repeats the 2007 advice without its numbers and where a few facts are wrong.",
-    "changes": [
-      "Fix the sourced facts that currently mismatch (sidewalk rule, TCAT fare conditions) so a student acting on the page is not misled.",
-      "Give the 2007 survey figures with the year (71% of undergraduates walk, 1.4% bike to campus) in place of the vague 'a minority of riders', and name Lois Chaplin, Cornell's bicycle and pedestrian specialist, as the source of the 40°F rule.",
-      "Add one concrete winter daylight fact with a source (sunset time in Ithaca in December) so the lights advice has a number."
-    ]
+ "slug": "biking-in-ithaca-winter-cornell",
+ "queue_id": "q-getting-around-0084",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Cornell cycling page gives no winter guidance and recommends a local bike shop",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief §2.19 row 'Winter riding, storage, repair'"
   },
-  "fixes": [
-    "In the bullet 'Plowed snow in the bike lane', change 'can push cyclists out into traffic' to say riders told the Sun they sometimes have to swerve out of the bike lane to avoid danger because of plowed snow and pothole covers; source https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather",
-    "In the paragraph beginning 'Cornell also requires you to stay off sidewalks', remove 'and pathways unless they are marked shared' and delete the sentence 'In winter that means you cannot simply hop onto an uncleared-street alternative.' Say only that Cornell says bicycles belong on streets, not sidewalks, and have the same rights to the road as other vehicles; source https://sustainable.cornell.edu/news/rules-road-biking-season",
-    "In the TCAT cost_table and the paragraph below it, change 'Other registered students' to the condition on the source page (registered degree-program students who stay registered ride free after 6 p.m. weekdays and all day weekends), and add that PhD students and graduate assistants get free OmniRide passes; source https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
-    "Replace the table row 'Cash fare, no pass: $1.50' and the matching sentence, because the Cornell page gives $1.50 only as the cash fare if your CU ID card is not accepted. Either relabel it 'Cash fare if your CU ID is not accepted: $1.50' with that Cornell link, or drop it and link TCAT's own fare page (tcatbus.com) after opening it to confirm the general fare.",
-    "In the first paragraph, replace 'a minority of Cornell riders do' with the dated figure from the 2007 Sun article: a Transportation Services survey then found 1.4% of undergraduates biked to campus and 71% walked; source https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather",
-    "In 'When to give up and take TCAT', change 'The 2007 article's cyclist' to 'Lois Chaplin, Cornell's bicycle and pedestrian specialist, told the Sun in 2007 that she stops biking when the temperature drops below 40 degrees'.",
-    "In 'What you are required to have', replace 'By late afternoon in December it is dark' with a sourced Ithaca December sunset time and link, or delete the sentence.",
-    "In the Ithaca Bikeshare paragraph, add that trips that do not end in a hub carry a $1.50 convenience fee; source https://ithacabikeshare.org",
-    "Replace the sustainable.cornell.edu biking page link used for 'Bike Walk Tompkins keeps a list of local shops' with Bike Walk Tompkins' own bike shop page, or reword to 'Cornell's biking page links to a Bike Walk Tompkins list of local shops'."
-  ],
-  "reviewed_at": "2026-11-07"
+  {
+   "claim": "Grounds clears roads, parking lots, steps, sidewalks: 15 miles of roads, 61 miles of walkways, 114 acres of lots; bike lanes not mentioned; response times vary with snowfall and priority roads/walkways",
+   "source_url": "https://fcs.cornell.edu/services/repair-maintenance/snow-removal",
+   "status": "ok",
+   "note": "Opened the page; all numbers and wording match. Also in brief change log."
+  },
+  {
+   "claim": "Customer Service/EMCS 607-255-5322 for unsafe or slippery conditions",
+   "source_url": "https://fcs.cornell.edu/services/repair-maintenance/snow-removal",
+   "status": "ok",
+   "note": "Phone and office name confirmed on the page."
+  },
+  {
+   "claim": "2011 master plan says paved routes should be cleared",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief §2.19 row 'Old master plan' (page marks it as a plan, not a current order)"
+  },
+  {
+   "claim": "More than 1,000 bike parking spots, about 7 miles of bike lanes, 2 miles of shared paths, per Cornell's assistant director of transportation (2025 opinion column)",
+   "source_url": "https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall",
+   "status": "ok",
+   "note": "brief §2.19; re-opened the column: 'over 1,000 bike parking stations', 'approximately seven miles of bike lanes', 'two miles of shared paths'; author Reed Huegerich, assistant director of transportation."
+  },
+  {
+   "claim": "Every TCAT bus has a front bike rack at no extra fare",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief row 'TCAT bike racks'; column confirms every bus has a front-mounted rack; 'no extra fare' trusted from brief."
+  },
+  {
+   "claim": "Fall 2024: 51 bike and scooter thefts, at least $41,177, one arrest, four bikes recovered intact; Cornell advises registering and a U-lock",
+   "source_url": "https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far",
+   "status": "ok",
+   "note": "brief §2.19; confirmed on the article."
+  },
+  {
+   "claim": "Theft table: $600 bike (Liv Licursi '25), Collegetown, unlocked about ten minutes; $2,025 e-bike (Samantha Davies, PhD), rack, cheap lock; $400 bike (Reid Fleishman '25), Carpenter rack, cable + U-lock + two AirTags now",
+   "source_url": "https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far",
+   "status": "ok",
+   "note": "Not in brief; all names, prices, places and lock details match the article. Davies' rack was Riley Robb (page says 'a rack'), fine."
+  },
+  {
+   "claim": "2007 Sun: riders said gear and good brakes matter; one kept a separate winter bike because snow, ice and salt wear a year-round bike",
+   "source_url": "https://cornellsun.com/2007/11/12/cyclists-persevere-through-wintry-weather",
+   "status": "ok",
+   "note": "fixed in place: Article: only Mike Wine speaks to brakes ('good brakes, your stopping distance isn't too affected'); Lois Chaplin advises hat under helmet, synthetic clothing and a second bike for winter (not that she 'kept' one). Page said riders (plural) on brakes and one rider 'kept' a winter bike; table said 'matter most'. Reworded in the intro, glance, reader blocks, tips table, steps and mistakes to name the two riders or 'a rider' and use 'advised'. Brief §10.x line already states the advice generally; no brief change."
+  },
+  {
+   "claim": "2023 Sun, Taylor Brown '25: avoid the Slope while snowing, stay off metal bridge panels",
+   "source_url": "brief §3.x tips table",
+   "status": "ok",
+   "note": "brief 'Avoid the Slope...' row naming Taylor Brown '25, 2023-01-22."
+  },
+  {
+   "claim": "2022 Sun: students described icy hills and snowbanks that buried cars in Collegetown",
+   "source_url": "https://cornellsun.com/2022/11/21/dont-let-it-snow-students-express-concerns-over-driving-conditions-as-temperatures-fall/",
+   "status": "ok",
+   "note": "fixed in place: Article: Emma Bourgeois '25 and Alan Liu '24 worry about icy roads and hills while driving; Ethan Abbate '24 worries snow banks would accumulate around his street-parked car in Collegetown. 'Buried' overstated. Reworded in body and renter reader block."
+  },
+  {
+   "claim": "Collegetown to central campus walk takes 15 to 20 minutes (Sun, Oct 2025)",
+   "source_url": "https://cornellsun.com/article/2025/10/embrace-your-inner-intellectual-go-on-a-midnight-walk",
+   "status": "ok",
+   "note": "fixed in place: Brief row and page misread the source. Article gives 15 to 20 minutes each way for the North Campus to Collegetown route and says the Collegetown trip back is usually uphill; no central-campus time. Page now says North Campus to Collegetown in two reader blocks and the junior example; brief row 3.5 corrected and change-log line added."
+  },
+  {
+   "claim": "Commons is about 2 miles from campus",
+   "source_url": "brief §3.5 / 10.15",
+   "status": "ok",
+   "note": "brief: rome2rio distance, about 2 miles; walking estimate not used on page."
+  },
+  {
+   "claim": "Register free; page urges, does not call mandatory; lock to racks, railings/trees/poles can be impounded; written permission for indoor storage; impound fee not on page",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief §2.19 rows Bike registration and Bike parking (fine amounts not on page)."
+  },
+  {
+   "claim": "Cornell housing requires external racks or sprinklered bike rooms",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief row 'Housing bike storage'."
+  },
+  {
+   "claim": "E-bike: motor no more than 750 W, no wider than 36 in, working pedals; no charging in residential rooms, offices, academic buildings; parts of Botanic Gardens and Six Mile Gorge closed to bikes",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief rows E-bike definition, Battery charging, Closed areas."
+  },
+  {
+   "claim": "Sage Hall has showers at classroom level (Johnson)",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief row 'Showers for riders'."
+  },
+  {
+   "claim": "TCAT: first-years free at all hours; PhD students and graduate assistants free OmniRide; others free after 6 p.m. weekdays and all weekend, else $1.50 or $200 a year OmniRide",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief rows at lines 11-12, 270-275. Page says 'all day Saturday and Sunday' for weekend; same as brief 'all weekend'."
+  },
+  {
+   "claim": "Break-even about 134 paid daytime rides a year",
+   "source_url": "brief §10.14",
+   "status": "ok",
+   "note": "Recomputed 200 / 1.50 = 133.3, so 134 rides; matches brief."
+  },
+  {
+   "claim": "Snowy weekday with a bus each way costs $3.00",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "2 x $1.50 = $3.00."
+  },
+  {
+   "claim": "Ithaca Bikeshare $1.50 unlock + $0.25/min + tax; $25 day pass; $60 monthly; $1.50 off-hub fee; 10-minute trip $4.00, 20-minute trip $6.50 before tax",
+   "source_url": "brief §2.19 / 10.17",
+   "status": "ok",
+   "note": "Prices from brief. Recomputed 1.50 + 0.25 x 10 = 4.00; 1.50 + 0.25 x 20 = 6.50 (hub return assumed)."
+  },
+  {
+   "claim": "July 2023: 85 e-bikes, 250 to 275 trips a day in good weather, no student discount; site does not say whether service pauses in winter; help@ithacabikeshare.org",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief rows July 2023, Bikeshare contact, current prices (winter operation not on page)."
+  },
+  {
+   "claim": "2019 storm: routes 51, 92, 93 detoured around parts of University, Stewart and Thurston Avenues; check Bus Tracker, Transit, MyStop",
+   "source_url": "brief §2.10 snow routes",
+   "status": "ok",
+   "note": "brief row 'Snow routes'."
+  },
+  {
+   "claim": "Route 92 Blue Light bus runs 6:30 p.m. to 2:30 a.m., year-round",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief row 'Blue Light bus'."
+  },
+  {
+   "claim": "C2C: a bike only in a bike box, counted as one of two suitcases",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief Luggage row."
+  }
+ ],
+ "beats_top": {
+  "query": "biking in Ithaca winter Cornell",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [
+  "Corrected the 3.5 walking row: the Sun's 15 to 20 minutes is North Campus to Collegetown, not Collegetown to central campus; added a change-log line. Source https://cornellsun.com/article/2025/10/embrace-your-inner-intellectual-go-on-a-midnight-walk. Note: brief 10.15 (line ~1345-1347) still says 'Collegetown 15 to 20 minutes' and was left as is."
+ ],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh",
+ "lint_fixes": [
+  "visuals: 2 beyond the lead photo for 2332 words (3 required: one photo, figure, map or tool per 600 words)"
+ ],
+ "lint_rounds": 1
 }

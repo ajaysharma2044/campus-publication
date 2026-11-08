@@ -1,0 +1,139 @@
+{
+ "slug": "ithaca-carshare-plan-calculator",
+ "queue_id": "q-getting-around-0061",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Just In Case student annual $30 a year ($45 off); It's My Car student annual $310 a year ($45 off), includes gas/EV charging, maintenance, insurance",
+   "source_url": "brief §2.20 / https://www.ithacacarshare.org/students-commuters",
+   "status": "ok",
+   "note": "In the brief (rows 961, 658); students-commuters page re-read 2026-11-08 shows the same."
+  },
+  {
+   "claim": "Monthly community plans $7.50 and $35; community annual $75 and $355",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "Brief row 473; rates page matches."
+  },
+  {
+   "claim": "Hourly $9 (Just In Case) and $6 (It's My Car); sign-up $20 per driver one-time non-refundable",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "Brief rows 473-474; rates page matches."
+  },
+  {
+   "claim": "Mileage car 42, van 44, truck 52 cents",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "Brief row 474; rates page matches."
+  },
+  {
+   "claim": "Taxes 8% NY sales + 12% special passenger car rental = 20%, on usage (hourly and mileage); page does not say whether fees are taxed",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "Brief row 474; rates page says taxes are added to hourly and mileage charges and is silent on fees, as the page states."
+  },
+  {
+   "claim": "Daily cap: hourly charges capped at 10 h per 24 h, not on highest-demand cars",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "Brief row 474; rates page matches."
+  },
+  {
+   "claim": "Minimum age 18; full unrestricted license 2+ years; no suspension in 3 years",
+   "source_url": "https://www.ithacacarshare.org/eligibility",
+   "status": "ok",
+   "note": "Eligibility page re-read: same values. Brief carries the eligibility table."
+  },
+  {
+   "claim": "Under 21: spotless record, own policy with at least $300,000 per accident liability, Younger Driver Insurance Consent Form",
+   "source_url": "brief §2.20 (row 479)",
+   "status": "ok",
+   "note": "Brief matches; eligibility page confirms $300,000 per accident and the form."
+  },
+  {
+   "claim": "21 and over: at most 2 accidents or violations in 3 years; no DUI or DWI in 7 years",
+   "source_url": "https://www.ithacacarshare.org/eligibility",
+   "status": "ok",
+   "note": "Page: over 21, up to two accidents or moving violations in 3 years; DUI/DWI within 7 years disqualifies. Matches."
+  },
+  {
+   "claim": "Foreign license: official driving record needed; IDP not accepted; some countries cannot be approved; page mentions both 2-year and 3-year lookbacks; phone (607) 277-3210",
+   "source_url": "https://www.ithacacarshare.org/eligibility",
+   "status": "ok",
+   "note": "All confirmed on the page; phone also in brief row 482."
+  },
+  {
+   "claim": "Resident permit $752.98 a year; commuter B $359.77 a year",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "Brief rows 358, 360; Cornell page re-read shows the same."
+  },
+  {
+   "claim": "Student annual plans cover up to two drivers; second driver's sign-up another $20",
+   "source_url": "https://www.ithacacarshare.org/students-commuters",
+   "status": "ok",
+   "note": "Page: each membership covers up to two drivers; $20 per driver per application."
+  },
+  {
+   "claim": "Ithaca College and TC3 students qualify",
+   "source_url": "https://www.ithacacarshare.org/students-commuters",
+   "status": "ok",
+   "note": "Confirmed on the page."
+  },
+  {
+   "claim": "Cornell subsidizes annual student memberships through its Commuter Alternative Program",
+   "source_url": "https://www.ithacacarshare.org/students-commuters",
+   "status": "ok",
+   "note": "fixed in place: The page ties the Commuter Alternative Program to staff and faculty, not students; for students it says Cornell helps subsidize annual memberships for undergraduate and graduate students. Reworded in the Who it is for section."
+  },
+  {
+   "claim": "Four on-campus pods and four in Collegetown and nearby",
+   "source_url": "brief §6 (row 962) / https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing",
+   "status": "ok",
+   "note": "Brief says four campus pods and four in Collegetown and nearby; Cornell page lists four on-campus and four Collegetown/nearby locations."
+  },
+  {
+   "claim": "Break-even 93.3 h before tax; 77.8 h with tax (about 78)",
+   "source_url": "brief §10.17",
+   "status": "ok",
+   "note": "Recomputed: fee gap 310-30 = 280; hourly saving 9-6 = 3; 280/3 = 93.3; 280/(3 x 1.20) = 280/3.6 = 77.8. Matches brief's about 93."
+  },
+  {
+   "claim": "Worked example: Just In Case $316.40; It's My Car $524.40 (20 h, 100 mi, car, joining)",
+   "source_url": "our calc",
+   "status": "ok",
+   "note": "Recomputed: JIC 30+20+(180+42)x1.2 = 50+266.40 = 316.40; IMC 310+20+(120+42)x1.2 = 330+194.40 = 524.40."
+  },
+  {
+   "claim": "Permit comparison: 752.98 - 310 - 20 = $422.98, about 70 h at $6, about 59 h at $7.20",
+   "source_url": "our calc",
+   "status": "ok",
+   "note": "Recomputed: 422.98/6 = 70.5; 422.98/7.2 = 58.7; 'about' covers both."
+  },
+  {
+   "claim": "tool.html NUMBERS constants (30, 310, 7.5, 35, 9, 6, 20, 0.42/0.44/0.52, 0.08, 0.12, 10, 18, 21, 2, 300000, 752.98, 359.77) and glance text",
+   "source_url": "brief §2.20, §2.14",
+   "status": "ok",
+   "note": "Each value equals the rates, students-commuters, eligibility and Cornell pages; JS math matches the page formula and break-even formulas."
+  },
+  {
+   "claim": "Easy Access plan: 2024 handbook lists $10 a month plus $6 an hour with $20 a month in driving credits",
+   "source_url": "brief §2.20 (row 475)",
+   "status": "ok",
+   "note": "Brief row 475 matches, flagged as a Summer 2024 handbook search summary."
+  }
+ ],
+ "beats_top": {
+  "query": "Ithaca Carshare cost calculator",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

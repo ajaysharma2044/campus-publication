@@ -1,0 +1,266 @@
+{
+ "slug": "cornell-winter-break-travel-home-2026",
+ "queue_id": "q-getting-around-0040",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Residences close Sun Dec 20, 2026 at 2 p.m.; reopen Tue Jan 19, 2027 at 9 a.m.",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice",
+   "status": "ok",
+   "note": "brief §2.22 and re-read on the notice page."
+  },
+  {
+   "claim": "$60 per hour or part hour late fee, not prorated; late-departure request by Mon Dec 7; meal plan ends brunch Dec 20, resumes lunch Jan 19; take passports and medications; keep keys if returning",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice",
+   "status": "ok",
+   "note": "all confirmed on the notice page."
+  },
+  {
+   "claim": "Fall finals Dec 11-19, 2026; Dec 19 last day of term",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar",
+   "status": "ok",
+   "note": "Not in brief; registrar page shows Dec 11-19 and last day of term Dec 19."
+  },
+  {
+   "claim": "Classes start Jan 26, 2027",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar",
+   "status": "ok",
+   "note": "fixed in place: Registrar lists spring term beginning Mon Jan 25, 2027; the housing notice says Tue Jan 26. Page now says Jan 25 per the registrar and notes the notice's Jan 26 (glance, timeline, reader block, dates section). Dependent figures recomputed: return window Jan 19-24; Philadelphia example (Thu Jan 21 arrival) leaves Jan 22, 23, 24 = three days of slack (was four); no-slack mistake now Jan 24. Jan 24, 2027 is a Sunday since Jan 19 is a Tuesday. Brief change log notes the conflict."
+  },
+  {
+   "claim": "Dec 19 is a peak OurBus day (last day of December finals)",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief §2.4 peak dates; Dec 19 = Saturday since Dec 20 is Sunday."
+  },
+  {
+   "claim": "C2C $93.50 with NetID, $101 public; $7.50 difference",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "101 - 93.50 = 7.50."
+  },
+  {
+   "claim": "New C2C booking system Nov 4, 2026; new accounts for everyone; 2026 link through Dec 23 and changes; 2027 link from Jan 6; none Dec 24 to Jan 5",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1 booking-links rows."
+  },
+  {
+   "claim": "C2C bags 2 suitcases below and 2 small carry-ons; cancel $10 a seat 8+ hours ahead, $30 inside 8 hours; changes up to 8 hours ahead, $30 inside; C2C keeps missed fare",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief rows on luggage, cancellation, changes."
+  },
+  {
+   "claim": "C2C trip about 4.5 to 5 hours from B Lot; free B Lot parking via email c2cbus@cornell.edu with plate and dates",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief trip-length and B Lot email-route rows."
+  },
+  {
+   "claim": "C2C NYC stops: Upper East Side (Weill) and East 44th St; Ithaca stops North Campus, Sage Hall, B Lot",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief stop rows."
+  },
+  {
+   "claim": "OurBus 4 to 6 buses a day since Sept 1, 2026, seven days a week",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief fall 2026 expansion row."
+  },
+  {
+   "claim": "OurBus downtown stop moves to 235 S. Cayuga St from Nov 9",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Greyhound/FlixBus stops: North Campus 121 Jessup Rd, West Campus 240 West Ave, 131 E Green St; Port Authority and 12 other stops; 1 carry-on and 1 checked bag",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief Greyhound/FlixBus rows; FlixBus 13 stops = Port Authority plus 12."
+  },
+  {
+   "claim": "OurBus NYC drops GWB, Hudson Yards, Madison Ave at 26th; bag rule 1 suitcase up to 50 lb, extras $30 prepaid",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Wanderu six-carrier floors $25 to $43 (OurBus $25, FlixBus $30, Greyhound $37); averages $44.54 to $82.31; January about $41 vs November about $66; 14 days ahead claim",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "brief rows 570-573."
+  },
+  {
+   "claim": "OurBus Select $15 off each of next 10 tickets; student discount with no amount",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief Select row; blog source."
+  },
+  {
+   "claim": "Thanksgiving-week floors about a third higher than earlier November dates",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief: unweighted mean +33.3%."
+  },
+  {
+   "claim": "Round trip C2C $187; OurBus floor round trip $50; gap $137",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "93.50 x 2 = 187; 25 x 2 = 50; 187 - 50 = 137."
+  },
+  {
+   "claim": "ITH nonstops: Delta to JFK and United to Dulles; Newark flight ended 2025",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief airline and Newark rows."
+  },
+  {
+   "claim": "Syracuse nonstop service to 27 destinations; OurBus to SYR $46.7 to $62.1 each way",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief; live page now shows most fares up to $71 but brief value kept as the writer's sampled range."
+  },
+  {
+   "claim": "OurBus to SYR runs six days a week, Sunday cheapest",
+   "source_url": "https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny",
+   "status": "ok",
+   "note": "fixed in place: Page lists about three daily departures with demand-based weekend extras and says holiday timings may vary; it names Sunday as both cheapest and most expensive. Replaced 'six days a week' and 'Sunday cheapest' in the text and table with the three-departures wording. Brief corrected too."
+  },
+  {
+   "claim": "SYR pickups: North Campus behind Ganedago Hall, West Ave across from Baker Flagpole, Cayuga St Garage; drop at Terminal A",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief SYR route row."
+  },
+  {
+   "claim": "TCAT 32 weekdays, 72 weekends, $1.50, free on first-year pass",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief airport bus rows; first-year pass rows."
+  },
+  {
+   "claim": "ITH taxis: Ithaca Airport Cab 607-252-9052, Collegetown Cab 607-588-8888, Ithaca Dispatch 607-277-7777, 24/7, prebook late flights",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief taxi row. Page claim 'no bus runs that early' for 5:30 a.m. is the writer's inference; marked in text as advice and not stated as a source fact."
+  },
+  {
+   "claim": "ITH long-term parking $8 a day, $40 a week; about $160 for four weeks",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "40 x 4 = 160."
+  },
+  {
+   "claim": "SA Resolution 18 moved $7,853.32 for free finals-week charters to ITH and SYR in fall 2025; no fall 2026 resolution found",
+   "source_url": "brief §2.12",
+   "status": "ok",
+   "note": "brief rows 333-335."
+  },
+  {
+   "claim": "Winter break housing $125 a week or $500, applications close Dec 1, mail stops Dec 23 and resumes Jan 7, dining usually closed",
+   "source_url": "brief §2.22",
+   "status": "ok",
+   "note": "brief row 531."
+  },
+  {
+   "claim": "Winter overnight rule Dec 1 to Apr 1, 5 p.m. to 7:30 a.m. in designated areas (A Lot west and mid bays, B Lot east and west bays, Forest Home garage); FH, ND, SW, WD residents exempt; students in university housing may leave cars in permit area over break",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules",
+   "status": "ok",
+   "note": "Not fully in brief; confirmed on Cornell's page. Rule applies when snow falls or is forecast; page says 'when snow is forecast'."
+  },
+  {
+   "claim": "City odd/even Nov 1 to Apr 1, 7 p.m. to 6 a.m., towing after 72 hours; car on city street may be ticketed, towed, impounded or treated as abandoned",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "brief rows 404-405."
+  },
+  {
+   "claim": "First-year TCAT pass to Aug 31; spring entrant pass Jan 1 to Dec 31 of same year",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief row 271."
+  },
+  {
+   "claim": "2019 Sun story: 2 p.m. JFK landing, sprint for 4:30 p.m. bus",
+   "source_url": "https://cornellsun.com/2019/05/06/international-students-travel-cornell/",
+   "status": "ok",
+   "note": "Confirmed; the student (Ludovica Stilli '22) said her flight landed at 2 p.m. and the next bus was 4:30 p.m."
+  },
+  {
+   "claim": "January 2019: Coach USA cancelled all NYC departures after noon Saturday",
+   "source_url": "https://cornellsun.com/2019/01/20/canceled-flights-and-impromptu-housing-winter-storm-frustrates-students-travel-plans-to-cornell/",
+   "status": "ok",
+   "note": "fixed in place: Article says 'the operators' cancelled all buses after noon Saturday; Coach USA is named only as the line one student planned to take. Changed to 'the bus operators'."
+  },
+  {
+   "claim": "January 2019: Cornell Syracuse-to-Cornell run cancelled; governor banned buses on most highways",
+   "source_url": "https://cornellsun.com/2019/01/20/canceled-flights-and-impromptu-housing-winter-storm-frustrates-students-travel-plans-to-cornell/",
+   "status": "ok",
+   "note": "Both confirmed."
+  },
+  {
+   "claim": "Singaporean students stuck in NYC housed through Singapore student associations at NYU and Columbia",
+   "source_url": "https://cornellsun.com/2019/01/20/canceled-flights-and-impromptu-housing-winter-storm-frustrates-students-travel-plans-to-cornell/",
+   "status": "ok",
+   "note": "fixed in place: Source says compatriots at NYU and Columbia offered housing in dorms and apartments; 'associations' was added detail. Fixed in the body and in the international reader block."
+  },
+  {
+   "claim": "Dec 2019 storm: a student forecaster told the Sun to return by Saturday night or early Sunday",
+   "source_url": "https://cornellsun.com/2019/11/30/under-heavy-snow-forecast-university-mum-on-class-cancellation",
+   "status": "ok",
+   "note": "Aidan Mahoney '22, co-president of Cornell's American Meteorological Society; article paraphrases the advice. Page's 'student forecaster' fits."
+  },
+  {
+   "claim": "2017 College Confidential posters: ITH flights limited, advised backup airport; December 2016 SYR snow cancelled flights up to two days (one poster)",
+   "source_url": "https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899",
+   "status": "ok",
+   "note": "fixed in place: Posters said flights are limited and suggested Syracuse as a backup; 'a cancellation means a long wait' was not in the source. Reworded line 216. The 'up to two days' claim is from one poster (TiggyB62), as the page says."
+  },
+  {
+   "claim": "OurBus credits not cash for cancellations",
+   "source_url": "https://www.cornellsun.com/article/2023/11/inside-ourbus-cornellians-preferred-method-of-travel",
+   "status": "ok",
+   "note": "brief OurBus cancellation row; not re-opened."
+  },
+  {
+   "claim": "If round trip costs more than $500, full-break housing may be cheaper",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "$500 full break fee versus a round trip over $500: comparison is arithmetically right; flagged as a conditional."
+  },
+  {
+   "claim": "Finals-week airport charters free for undergraduates; Campus Groups sign-up",
+   "source_url": "brief §2.12",
+   "status": "ok",
+   "note": "brief spring 2026 row; page marks fall 2026 as not confirmed."
+  },
+  {
+   "claim": "Not confirmed lines: tow and impound cost; 2026 taxi cost to ITH",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "Marked holes on the page; brief also lists no fares."
+  }
+ ],
+ "beats_top": {
+  "query": "how Cornell students get home for break bus flight",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [
+  "Corrected 'OurBus runs from campus six days a week' to about three departures a day with demand-based weekend extras (OurBus SYR page lists three daily departures, Sunday as both cheapest and dearest); change log line added; source https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny",
+  "Change log notes the registrar lists spring 2027 term beginning Mon Jan 25, 2027, while the housing closing notice says classes begin Tue Jan 26; source https://registrar.cornell.edu/calendars-exams/academic-calendar"
+ ],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh",
+ "lint_fixes": [
+  "reader block title 'If money is tight' should read \"If you're ...\""
+ ],
+ "lint_rounds": 1
+}

@@ -15,7 +15,7 @@ readers:
 - parent
 pillar: /getting-around/getting-to-ithaca-and-around-cornell/
 brief: intel/getting-around/brief.md
-tools: []
+tools: [ith-or-syr-trip-cost-calculator, before-break-travel-checklist]
 sources:
 - url: https://www.ourbus.com/routes/ithaca-ny-to-newark-airport-nj
   title: Ithaca, NY to Newark Airport, NJ, OurBus
@@ -113,9 +113,6 @@ sources:
 - url: https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes
   title: Got baggage? Inside Cornell's luggage transport woes, The Cornell Daily Sun, February 1, 2024
   accessed: '2026-11-08'
-- url: https://www.amtrak.com/stations/syr
-  title: Syracuse, NY (SYR) station, Amtrak
-  accessed: '2026-11-08'
 - url: https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/
   title: OurBus moves Ithaca stop to South Cayuga Street Monday as TCAT shifts stops, FingerLakes1, November 6, 2026
   accessed: '2026-11-08'
@@ -205,6 +202,16 @@ From Newark Penn, the [MTA's Newark airport guide](https://www.mta.info/guides/a
 3. Change to the AirTrain at Newark Airport Rail Station. It takes about 15 to 20 minutes to reach your terminal.
 4. On weekdays from 5 a.m. to 3 p.m., shuttle buses replace the AirTrain between the train station and the terminals.
 
+```figure
+kind: steps
+title: Newark Penn Station to a Newark Airport terminal
+rows:
+  - {label: "Buy NJ Transit to Newark Airport Station ($11.95, AirTrain included)"}
+  - {label: "Board a Northeast Corridor or North Jersey Coast Line train"}
+  - {label: "Change to the AirTrain at Newark Airport Rail Station"}
+  - {label: "Ride 15 to 20 minutes to your terminal (shuttle bus weekdays 5 a.m. to 3 p.m.)"}
+```
+
 The same guide lists NJ Transit bus #62 from Newark Penn as a cheaper option, without a fare for that leg alone.
 
 Example: a hypothetical student flying out of Newark on a Thursday takes the direct FlixBus at $42, the low end of the Nov 12 sample, then NJ Transit at $11.95. That is $53.95 and two tickets. The direct OurBus, at the $82 seen for a February date, would cost $28.05 more but drops at the AirTrain.
@@ -231,11 +238,26 @@ The guide gives no travel times. Greyhound and FlixBus list a Jamaica stop, and 
 
 Example: a hypothetical sophomore with one suitcase takes OurBus at its $33 floor, then the subway and AirTrain for $11.75. That is $44.75 to JFK. The same trip on C2C with a NetID is $93.50 plus $11.75, or $105.25, and buys room for a second suitcase.
 
+```figure
+kind: cost_table
+title: Cornell to JFK by bus and subway, one way (example, our arithmetic)
+rows:
+  - {label: "OurBus to Manhattan (from, Nov 8, 2026)", value: "$33"}
+  - {label: "C2C to Manhattan with a NetID", value: "$93.50"}
+  - {label: "Subway plus AirTrain", value: "$11.75"}
+  - {label: "Total via OurBus", value: "$44.75"}
+  - {label: "Total via C2C", value: "$105.25"}
+```
+
 ## LaGuardia: no direct bus, no Ithaca flight
 
 There is no bus from Ithaca to LaGuardia and no flight from ITH. A Tradewind route [appears to have last been scheduled in April 2026](https://www.airportoverview.com/routes/LGA/ITH) and is not on the airport's airlines page. Not confirmed: the transit leg from Manhattan to LaGuardia.
 
 The other way in is Syracuse. Delta flies SYR to LaGuardia and JFK, and JetBlue flies SYR to JFK, per the [SYR destinations page](https://syrairport.org/destinations/). OurBus reaches SYR Terminal A from campus in 1 h 25 min to 2 h 05 min.
+
+To weigh an Ithaca flight against the bus to Syracuse, run your own numbers here:
+
+```tool ith-or-syr-trip-cost-calculator```
 
 ## Flying from Ithaca to JFK
 
@@ -265,6 +287,10 @@ Weather adds risk. In January 2019 Coach USA cancelled all NYC departures after 
 
 Our advice: for an international departure, book the bus one run earlier than the one that looks right. OurBus's own NYC trip time spans almost three hours, from 4 h 10 min to 7 h.
 
+Work through the list before a break departure:
+
+```tool before-break-travel-checklist```
+
 ## When to book
 
 OurBus names three peak days: [the Wednesday before Thanksgiving, the last day of December finals and the Friday spring break begins](https://www.ourbus.com/blog/?p=6269). Book those early. Thanksgiving Day 2026 is Nov 26. OurBus's downtown Ithaca stop moves to [235 S. Cayuga St from Nov 9, 2026](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/); campus stops are unchanged.
@@ -287,9 +313,6 @@ OurBus names three peak days: [the Wednesday before Thanksgiving, the last day o
 **Is there an OurBus discount for students?** OurBus Select gives [$15 off each of the next 10 tickets](https://www.ourbus.com/blog/?p=6269), and a separate student discount needs verification. OurBus does not state that discount's size.
 
 **Where do I board OurBus downtown now?** At 235 S. Cayuga St from Nov 9, 2026. Greyhound and FlixBus still list 131 E Green St.
-
-**Can I take a train from Ithaca?** The nearest Amtrak station is in [Syracuse, at 1 Walsh Circle](https://www.amtrak.com/stations/syr). A bus or a flight starts the trip either way.
-
 ## Related guides
 
 - [Getting to Ithaca and around Cornell, 2026-27](/getting-around/getting-to-ithaca-and-around-cornell/): the whole topic, from TCAT to parking to breaks.

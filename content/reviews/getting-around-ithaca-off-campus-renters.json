@@ -1,0 +1,240 @@
+{
+ "slug": "getting-around-ithaca-off-campus-renters",
+ "queue_id": "q-getting-around-0052",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Collegetown to central campus 15 to 20 minutes on foot",
+   "source_url": "brief §10 walking row",
+   "status": "ok",
+   "note": "brief; Sun column"
+  },
+  {
+   "claim": "Commons about 2 miles, about 40 minutes at 3 mph",
+   "source_url": "brief §10.15",
+   "status": "ok",
+   "note": "brief; recomputed 2 mi / 3 mph = 40 min"
+  },
+  {
+   "claim": "After first year TCAT free after 6 p.m. weekdays and all weekend; $1.50 daytime; OmniRide $200",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10"
+  },
+  {
+   "claim": "134 paid rides break-even; $15 a week; 13 or 14 weeks",
+   "source_url": "brief §10.14",
+   "status": "ok",
+   "note": "Recomputed: 134 x $1.50 = $201 > $200 (133 = $199.50); 10 rides x $1.50 = $15; 134/10 = 13.4 weeks"
+  },
+  {
+   "claim": "OmniRide prorated monthly, refund until Mar 31 less $40, expires Aug 31, activation up to 24 hours",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "B permit $359.77, about $29.98 a month, prorated from Aug 16, valid to Aug 15, A Lot after 2:30 p.m., refund by Mar 31",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief; recomputed 359.77/12 = 29.98"
+  },
+  {
+   "claim": "Daily Decision from about $1 a day ($0.65 permit + $0.35 fee); rates updated Aug 1, 2026",
+   "source_url": "brief §2.14, §9 conflicts",
+   "status": "ok",
+   "note": "brief; sum 0.65+0.35 = 1.00; page already says check price in the app"
+  },
+  {
+   "claim": "ParkMobile $0.45 fee; Mon-Fri 7:30 a.m. to 5 p.m.",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Free A and E permits for full graduate assistantship; free OmniRide for PhD students and GAs",
+   "source_url": "brief §2.14 / §2.10",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Daily Decision 120 days = $120, a third of B permit; break-even about $3 a day",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Recomputed: 4 days x 30 weeks = 120; 120/359.77 = 33%; 359.77/120 = $3.00"
+  },
+  {
+   "claim": "Fines $50 + $10 after 10 days; $150 fire lane/accessible with tow; winter-rules fine $50",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Williams Street lot permit about $700, sold out within hours",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Deana Druz '24 called finding a space a \"treasure hunt\"",
+   "source_url": "https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students",
+   "status": "ok",
+   "note": "fixed in place: Source quote is \"a daily challenge and never-ending treasure hunt.\" Page now quotes it in full instead of putting 'daily' outside the quote."
+  },
+  {
+   "claim": "Routes 14S and 83 suspended since fall 2023; board extended Apr 25, 2024",
+   "source_url": "brief §3 route suspensions",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "A West Hill resident told the Ithaca Journal of an unsheltered wait of up to 55 minutes (reader block, body, table, common mistakes)",
+   "source_url": "https://www.yahoo.com/news/bus-riders-bemoan-aging-fleet-181118830.html",
+   "status": "ok",
+   "note": "fixed in place: Source: a letter from Nikki Dirkin of Ithaca (not identified as a West Hill resident), read aloud by the board chair at the Apr 17 TCAT meeting, describing a 'a 55-minute unsheltered wait with groceries' when the 15 does not line up with the 14. Not 'up to'. Reworded all four places to 'a rider's letter ... a 55-minute unsheltered wait'."
+  },
+  {
+   "claim": "Coco Wen '26 described waiting because Google Maps times were wrong, then paying for an Uber",
+   "source_url": "https://cornellsun.com/2022/09/06/tcat-implements-massive-service-cut-due-to-driver-shortage/",
+   "status": "ok",
+   "note": "fixed in place: Source: she relied on Google Maps, the bus did not arrive, she took an Uber. It does not say the times were wrong. Reworded in body; common-mistakes bullet changed from 'Students have missed buses and paid for Ubers' to one student in 2022."
+  },
+  {
+   "claim": "Student Assembly in March 2026 called buses late and unreliable; 10 sources 2019 to March 2026",
+   "source_url": "https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026",
+   "status": "ok",
+   "note": "Resolution adopted Mar 26, 2026: 'plagued by late and unreliable buses'; count of 10 from brief §7.1"
+  },
+  {
+   "claim": "Collegetown cars buried by snowbanks in 2022 Sun report",
+   "source_url": "https://cornellsun.com/2022/11/21/dont-let-it-snow-students-express-concerns-over-driving-conditions-as-temperatures-fall/",
+   "status": "ok",
+   "note": "fixed in place: Source: Ethan Abbate '24 worried snow banks would accumulate around his car after plowing; no report of buried cars. Reworded in reader block, table and winter section. Front-wheel-drive car on wet hills (Emma Bourgeois '25) confirmed."
+  },
+  {
+   "claim": "Route 10 is the downtown and campus route Cornell names",
+   "source_url": "https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting",
+   "status": "ok",
+   "note": "Page lists '10 - Get downtown and circulate around campus'"
+  },
+  {
+   "claim": "Route 10 every 6 to 12 minutes (Summer 2024), expected wait 3 to 6 min",
+   "source_url": "brief §3 / §10.15",
+   "status": "ok",
+   "note": "brief; page marks it not confirmed for 2026; wait = half of headway"
+  },
+  {
+   "claim": "Nov 9, 2026 downtown stop changes: East Seneca stops 1 and 2 with route lists; Route 10 stays on N. Tioga; OurBus to 235 S. Cayuga; Greyhound/FlixBus/Trailways list 131 E Green",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief rows match page tables"
+  },
+  {
+   "claim": "Seneca Street garage closed since spring 2026; Cayuga St garage 245 S. Cayuga, more than 300 spaces",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "City on-street $2.50/hr from Jan 5, 2026; coin meters $1.50; garages $2.25/hr, $12 / $18 daily max",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Dryden Road ramp 210 spaces; proposed monthly permits $232 Dryden, $117 Green, $108/$180 Cayuga",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Dryden 20 days x $18 = $360; $232 permit saves $128",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed 20 x 18 = 360; 360 - 232 = 128"
+  },
+  {
+   "claim": "Free Saturday parking ended; Sunday still free",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "City residential permit $45, to July 31, visitor pass $10, City Clerk 108 E Green St, steps",
+   "source_url": "brief §2.17 / action list",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Odd/even Nov 1 to Apr 1; in effect Feb 2026 (even side on even dates)",
+   "source_url": "https://www.fingerlakes1.com/2026/02/14/ithaca-sidewalk-snow-rules-in-effect/",
+   "status": "ok",
+   "note": "Source: odd-even rules remain in effect; even-numbered side on even-numbered days. Dates from brief §2.16."
+  },
+  {
+   "claim": "Campus winter overnight Dec 1 to Apr 1, 5 p.m. to 7:30 a.m., designated lots; break towing warning",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Blue Light bus on Route 92, 6:30 p.m. to 2:30 a.m. year-round",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Every bus has a front bike rack at no extra fare; drivers override in free hours",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Ithaca Carshare about 20 vehicles",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Bikeshare $1.50 + $0.25/min; 20-minute ride $6.50",
+   "source_url": "brief §10.17",
+   "status": "ok",
+   "note": "Recomputed 1.50 + 20 x 0.25 = 6.50"
+  },
+  {
+   "claim": "TDS 116 Maple Ave, 607-255-4600; spouses/partners can buy OmniRide for night routes",
+   "source_url": "brief §8 / §3",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "MBA page: TCAT free first year, then after 6 p.m. weekdays and weekend",
+   "source_url": "brief §3 MBA row",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Resident permits for FH, ND, SW, WD only",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief"
+  }
+ ],
+ "beats_top": {
+  "query": "Collegetown commute to Cornell parking bus",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh",
+ "transient_passes": 2,
+ "lint_fixes": [
+  "a cited source could not be fetched on 2 publish passes; replace it with a reachable source for the same fact or remove the fact: illegal request line: https://www.yahoo.com/news/bus-riders-bemoan-aging-fleet-181118830.html"
+ ],
+ "lint_rounds": 1
+}

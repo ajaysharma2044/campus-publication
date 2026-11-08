@@ -1,0 +1,191 @@
+{
+ "slug": "syracuse-airport-to-cornell-ourbus-car-service",
+ "queue_id": "q-getting-around-0030",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "OurBus runs Cornell to Syracuse six days a week, stopping at SYR and Destiny USA",
+   "source_url": "https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk",
+   "status": "ok",
+   "note": "Opened the Sun article; says six days a week with SYR and Destiny USA stops. Also brief §2.4."
+  },
+  {
+   "claim": "OurBus started daily campus service to Manhattan on Sept 1, 2026",
+   "source_url": "https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk",
+   "status": "ok",
+   "note": "fixed in place: Sun describes an expansion to seven days a week (existing service), not a new start. Reworded to 'expanded its campus service to Manhattan to seven days a week from Sept 1, 2026'."
+  },
+  {
+   "claim": "Posted fares $46.70 to $62.10, Sunday cheapest, Monday dearest; 51.4 miles; 1 h 25 min to 2 h 05 min; Terminal A drop; Ithaca stops",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "Matches the brief's OurBus route row."
+  },
+  {
+   "claim": "Round trip $93 to $124 ($93.40 to $124.20); $0.91 to $1.21 a mile",
+   "source_url": "brief §10.8",
+   "status": "ok",
+   "note": "Recomputed: 46.70/51.4 = 0.909, 62.10/51.4 = 1.208; 2 x 46.70 = 93.40, 2 x 62.10 = 124.20."
+  },
+  {
+   "claim": "Sunday Nov 8 sample: $48 at 8 p.m., $51 at 1:05 and 6:30 p.m., three direct trips 1 h 35 to 1 h 40 min; transfer option $32, about 3 h",
+   "source_url": "brief §3.2",
+   "status": "ok",
+   "note": "Matches the brief's sample row."
+  },
+  {
+   "claim": "Trailways $42 economy, about 4 h 35 min",
+   "source_url": "brief §3.2",
+   "status": "ok",
+   "note": "Brief marks it as a search-summary aggregator figure; the page labels it undated."
+  },
+  {
+   "claim": "Syracuse city buses: daily lows $10 to $41, median $26, Nov 6 to Nov 26",
+   "source_url": "brief §10.8",
+   "status": "ok",
+   "note": "Recomputed from the brief's 12 values: sorted middle pair 25 and 27, median 26."
+  },
+  {
+   "claim": "Big D's Limousines 607-273-3030 ext 2, no posted price; listings are a courtesy, not an endorsement",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "Brief row and §3 vendor note."
+  },
+  {
+   "claim": "SYR nonstop service to 27 destinations; Ithaca has two nonstops (JFK, Dulles)",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "Brief home-page figure; Ithaca's two nonstops are in the brief summary."
+  },
+  {
+   "claim": "Airlines: American, Delta, United, JetBlue, Allegiant, Breeze, Sun Country, Frontier",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "Matches the brief's airlines row."
+  },
+  {
+   "claim": "SYR parking table, $2.99 pre-book fee, phones 315-454-3263 and 315-455-3550, address 1000 Col. Eileen Collins Blvd",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "All match the brief rows."
+  },
+  {
+   "claim": "A week of economy parking about $98 (7 x $14) vs $40 at ITH",
+   "source_url": "brief §10.2",
+   "status": "ok",
+   "note": "Recomputed 7 x 14 = 98."
+  },
+  {
+   "claim": "Parent example: 2 hours in the garage costs $13",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "1 to 3 h band is $13; 2 h falls in it. Round trip 2 x 1 h 15 min = 2.5 h, 2 x 1.5 h = 3 h, matches 2.5 to 3 h."
+  },
+  {
+   "claim": "Extra bag $30 prepaid, one suitcase up to 50 lb plus one handbag free",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "Brief page-read row."
+  },
+  {
+   "claim": "OurBus Select $15 off the next 10 tickets, up to $150; student discount with no amount",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "OurBus is a broker owning no buses, at Cornell since 2017; credit not cash, reschedule fee",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Two large bags effectively mean two seats at peak (Sun 2024)",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Downtown OurBus stop moves to 235 S. Cayuga St from Monday Nov 9, 2026",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Distances: OurBus 51.4 mi, conference services about 60, Ithaca College about 65 mi and 1 h 15 min; drive 1 h 15 min to 1.5 h",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "Matches the brief's conflict resolution."
+  },
+  {
+   "claim": "Old CLASSE doc routes I-81 south to US-11 toward Homer and Cortland, about 1.5 h; I-81 northbound roadwork from May 3, 2026",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Student Assembly charters: R76 $18,000, 20 shuttles, deadlines and dates; R18 $7,853.32 adopted Nov 13, 2025; R83 $10,668.87 adopted Apr 16, 2026",
+   "source_url": "brief §2.12",
+   "status": "ok",
+   "note": "All match the brief rows."
+  },
+  {
+   "claim": "2019 Sun international students: five-minute missed bus, buffer and schedule advice, spare clothes in carry-on",
+   "source_url": "https://cornellsun.com/2019/05/06/international-students-travel-cornell/",
+   "status": "ok",
+   "note": "fixed in place: Opened the article. The five-minute miss was Jaewon Sim '21 alone; Sim said he now triple-checks the bus schedule; Stilli '22 said 'timing is everything'; Bocanegra '19 said she packs extra clothes and toiletries. The page had called it advice from Stilli and Sim and attributed the miss to 'students'. Reworded to match."
+  },
+  {
+   "claim": "Amtrak station is William F. Walsh Regional Transportation Center, 1 Walsh Circle, Syracuse NY 13208",
+   "source_url": "brief §2.9",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "2017 College Confidential thread: snow cancelled SYR flights up to two days in Dec 2016; some took cabs to Amtrak; 2014 parent called Syracuse the better winter choice; Jan 2019 Cornell bus cancelled Syracuse run",
+   "source_url": "brief §6 and row 15",
+   "status": "ok",
+   "note": "Brief carries these; the governor bus ban is in the brief's storm notes."
+  },
+  {
+   "claim": "Taxi about $200 from a commercial blog",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "Brief marks it unverified; the page labels it unverified."
+  },
+  {
+   "claim": "Cornell family page says SYR flights need a rental car or a bus; MBA page says arrange ground transport in advance",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "ITH long-term parking $40 a week",
+   "source_url": "brief §10.2",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Page marks as 'Not confirmed': days with no bus, buses per day, first and last departures, fall 2026 charter",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "The brief records the 3 vs 10 buses contradiction and the Sun's six-day statement."
+  }
+ ],
+ "beats_top": {
+  "query": "how to get from Syracuse airport to Cornell",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh",
+ "lint_fixes": [
+  "lead photo: images is empty (a lead photo under the title is required; the image step supplies it)",
+  "source url returned error: ReadTimeout: The read operation timed out: https://www.amtrak.com/stations/syr"
+ ]
+}

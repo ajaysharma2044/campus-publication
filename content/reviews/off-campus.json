@@ -1,0 +1,67 @@
+{
+ "slug": "off-campus",
+ "queue_id": "q-getting-around-0073",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Nov 9, 2026: downtown stops move; TCAT East Seneca stops reshuffled",
+   "source_url": "brief §2.6, §10 calendar",
+   "status": "ok",
+   "note": "brief §2.6 and calendar row; FingerLakes1 URL matches the brief's."
+  },
+  {
+   "claim": "Nov 1 to Apr 1: city odd/even on-street parking season, when activated",
+   "source_url": "brief §2.16, §10 calendar",
+   "status": "ok",
+   "note": "brief rows cite ecode360.com/8395630, 'activated and suspended by the city based on weather'."
+  },
+  {
+   "claim": "Mar 31: last day for a prorated Cornell permit refund",
+   "source_url": "brief §10 calendar",
+   "status": "ok",
+   "note": "brief: prorated refund only if returned by Mar 31; same Cornell parking-students URL."
+  },
+  {
+   "claim": "July 31: city residential parking permit expires",
+   "source_url": "brief §10 calendar",
+   "status": "ok",
+   "note": "brief: city permits expire July 31; cityofithacany.gov/731/Permit-Issuance."
+  },
+  {
+   "claim": "Early Aug (Tue Aug 4, 2026, 9 a.m.): Cornell student permit sales open; commuter permits prorate daily from Aug 16",
+   "source_url": "brief §10 calendar",
+   "status": "ok",
+   "note": "brief: sales began Tue Aug 4, 2026 9:00 a.m.; commuter prorated daily from Aug 16; node 17809 URL matches."
+  },
+  {
+   "claim": "Campus resident permits are not open to an off-campus renter",
+   "source_url": "brief §2 permits",
+   "status": "ok",
+   "note": "brief: resident permits capped to North Campus residents."
+  },
+  {
+   "claim": "Commute options: on foot, Route 10 or another TCAT route, by bike; Cornell commuter permit, city residential permit, city garage, or no car",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Route 10 stays on North Tioga (brief); commuter B permit, $45 city permit and garages all in the brief."
+  },
+  {
+   "claim": "Guide descriptions for the seven linked guides (parking, winter parking, TCAT, Carshare, biking, getting-to-Ithaca, off-campus renters) and the closing link to the car guide",
+   "source_url": "guide frontmatter titles and metas",
+   "status": "ok",
+   "note": "All eight target files exist; each description matches the guide's own title and meta. Winter-parking line 'Read it before November' is already past on Nov 8; left as is (not a fact error)."
+  }
+ ],
+ "beats_top": {
+  "query": "off campus Cornell commute parking",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

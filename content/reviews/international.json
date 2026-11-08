@@ -1,0 +1,67 @@
+{
+ "slug": "international",
+ "queue_id": "q-getting-around-0075",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Oct 1 to Dec 1: the winter break housing application window",
+   "source_url": "brief §2.22 / §10 (calendar rows Oct 1, Dec 1)",
+   "status": "ok",
+   "note": "Brief gives apply Oct 1 to Dec 1, $125 a week or $500."
+  },
+  {
+   "claim": "Nov 26, 2026: Thanksgiving Day",
+   "source_url": "brief §10 (Thursday Nov 26 by calendar)",
+   "status": "ok",
+   "note": "Fourth Thursday of Nov 2026 is the 26th; brief agrees."
+  },
+  {
+   "claim": "Many students from far away stay in Ithaca at Thanksgiving",
+   "source_url": "https://cornellsun.com/2022/11/16/students-share-upcoming-thanksgiving-break-plans",
+   "status": "ok",
+   "note": "fixed in place: Only anecdotal support (one student stayed, another went to a friend's family, per the linked guide). Changed 'many' to 'some' so the page does not overstate."
+  },
+  {
+   "claim": "Dec 23: winter-break mail stops, and the last C2C departure on the '2026' booking link",
+   "source_url": "brief §10 row Dec 23; §2.1",
+   "status": "ok",
+   "note": "Brief states both with C2C and winter-housing sources."
+  },
+  {
+   "claim": "Jan 6, 2027: C2C departures resume on the '2027' booking link",
+   "source_url": "brief §10 row Jan 6, 2027; §2.1",
+   "status": "ok",
+   "note": "Same as brief."
+  },
+  {
+   "claim": "Mid-January return: storms have cancelled buses and flights before",
+   "source_url": "brief §1 item 5, §10 (Jan 2019 storm)",
+   "status": "ok",
+   "note": "Brief cites the Jan 2019 storm and the post-Thanksgiving Dec 2019 storm."
+  },
+  {
+   "claim": "Guide descriptions for the 7 guides (JFK international guide, airport bus, ITH/SYR/ELM, NYC bus, staying over breaks, winter storms, topic hub) and the flying-home guide",
+   "source_url": "titles and metas of each guide's own file",
+   "status": "ok",
+   "note": "Compared each one-line description with the guide's title and meta; all consistent. All linked guide files exist."
+  },
+  {
+   "claim": "Tool descriptions for the four tools",
+   "source_url": "content/tools/*/tool.md titles and metas",
+   "status": "ok",
+   "note": "fixed in place: Bus calculator was described as comparing fares 'for your dates'; its meta says it takes round trips a year and gives a yearly cost. Reworded to match. The other three descriptions match their metas."
+  }
+ ],
+ "beats_top": {
+  "query": "international student getting to Cornell",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

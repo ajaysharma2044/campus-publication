@@ -1,0 +1,213 @@
+<div class="tool" id="tool-ithaca-carshare-plan-calculator" data-tool="ithaca-carshare-plan-calculator" data-as-of="2026-11-08">
+  <style>
+    #tool-ithaca-carshare-plan-calculator .icp-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 0.75rem 1rem; margin: 0 0 1rem; }
+    #tool-ithaca-carshare-plan-calculator .icp-field label { display: block; font-weight: 600; margin-bottom: 0.2rem; }
+    #tool-ithaca-carshare-plan-calculator .icp-field input, #tool-ithaca-carshare-plan-calculator .icp-field select { width: 100%; box-sizing: border-box; padding: 0.35rem; }
+    #tool-ithaca-carshare-plan-calculator .icp-hint { display: block; font-size: 0.85em; opacity: 0.8; margin-top: 0.15rem; }
+    #tool-ithaca-carshare-plan-calculator fieldset { border: 1px solid currentColor; border-radius: 4px; padding: 0.5rem 0.75rem 0.75rem; margin: 0 0 1rem; }
+    #tool-ithaca-carshare-plan-calculator table { width: 100%; border-collapse: collapse; margin: 0.5rem 0; }
+    #tool-ithaca-carshare-plan-calculator th, #tool-ithaca-carshare-plan-calculator td { text-align: left; padding: 0.3rem 0.4rem; border-bottom: 1px solid rgba(127,127,127,0.35); }
+    #tool-ithaca-carshare-plan-calculator td.icp-num { text-align: right; font-variant-numeric: tabular-nums; }
+    #tool-ithaca-carshare-plan-calculator .icp-best { font-weight: 700; }
+    #tool-ithaca-carshare-plan-calculator .icp-headline { font-size: 1.15em; font-weight: 700; margin: 0.5rem 0; }
+    #tool-ithaca-carshare-plan-calculator .icp-small { font-size: 0.85em; opacity: 0.85; }
+  </style>
+
+  <fieldset>
+    <legend>How much you drive</legend>
+    <div class="icp-grid">
+      <div class="icp-field">
+        <label for="ithaca-carshare-plan-calculator-hours">Hours of driving a year</label>
+        <input id="ithaca-carshare-plan-calculator-hours" type="number" min="0" max="2000" step="1" value="20" inputmode="numeric">
+        <span class="icp-hint">Example: 20 grocery runs of 1 hour = 20. Count at most 10 hours for any one day.</span>
+      </div>
+      <div class="icp-field">
+        <label for="ithaca-carshare-plan-calculator-miles">Miles a year</label>
+        <input id="ithaca-carshare-plan-calculator-miles" type="number" min="0" max="20000" step="1" value="100" inputmode="numeric">
+        <span class="icp-hint">Total miles driven in Carshare vehicles.</span>
+      </div>
+      <div class="icp-field">
+        <label for="ithaca-carshare-plan-calculator-vehicle">Vehicle you book most</label>
+        <select id="ithaca-carshare-plan-calculator-vehicle">
+          <option value="car" selected>Car (42 cents a mile)</option>
+          <option value="van">Minivan (44 cents a mile)</option>
+          <option value="truck">Pickup truck (52 cents a mile)</option>
+        </select>
+      </div>
+      <div class="icp-field">
+        <label for="ithaca-carshare-plan-calculator-months">Months you need it</label>
+        <input id="ithaca-carshare-plan-calculator-months" type="number" min="1" max="12" step="1" value="12" inputmode="numeric">
+        <span class="icp-hint">Under 12 if you only need it for a summer or a break; prices the monthly plans too.</span>
+      </div>
+      <div class="icp-field">
+        <label for="ithaca-carshare-plan-calculator-member">Already a member?</label>
+        <select id="ithaca-carshare-plan-calculator-member">
+          <option value="no" selected>No, I am joining (pay the $20 sign-up)</option>
+          <option value="yes">Yes, renewing (no sign-up fee)</option>
+        </select>
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Can you join?</legend>
+    <div class="icp-grid">
+      <div class="icp-field">
+        <label for="ithaca-carshare-plan-calculator-age">Your age</label>
+        <input id="ithaca-carshare-plan-calculator-age" type="number" min="16" max="99" step="1" value="21" inputmode="numeric">
+      </div>
+      <div class="icp-field">
+        <label for="ithaca-carshare-plan-calculator-licensed">Years with a full, unrestricted license</label>
+        <input id="ithaca-carshare-plan-calculator-licensed" type="number" min="0" max="80" step="0.5" value="3" inputmode="decimal">
+      </div>
+      <div class="icp-field">
+        <label for="ithaca-carshare-plan-calculator-foreign">License from outside the US?</label>
+        <select id="ithaca-carshare-plan-calculator-foreign">
+          <option value="no" selected>No</option>
+          <option value="yes">Yes</option>
+        </select>
+      </div>
+    </div>
+  </fieldset>
+
+  <div class="icp-result" aria-live="polite">
+    <p class="icp-out">Cornell-subsidized student plans: Just In Case <span data-as-of="2026-11-08">$30 a year plus $9 an hour</span>; It's My Car <span data-as-of="2026-11-08">$310 a year plus $6 an hour</span>. Both add a <span data-as-of="2026-11-08">$20 one-time sign-up</span>, mileage of <span data-as-of="2026-11-08">42 to 52 cents</span> and <span data-as-of="2026-11-08">8% sales tax plus 12% rental tax</span> on usage. Turn on JavaScript to see your yearly total.</p>
+  </div>
+  <p class="icp-small">Prices as of 2026-11-08, from <a href="https://www.ithacacarshare.org/students-commuters">Ithaca Carshare student plans</a>, <a href="https://www.ithacacarshare.org/rates">rates</a> and <a href="https://www.ithacacarshare.org/eligibility">eligibility</a>, and <a href="https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students">Cornell student parking</a>. Nothing you enter is stored or sent.</p>
+
+  <script>
+  (function () {
+    var root = document.getElementById("tool-ithaca-carshare-plan-calculator");
+    if (!root) return;
+    var P = "ithaca-carshare-plan-calculator-";
+    var CS = "https://www.ithacacarshare.org/students-commuters";
+    var CR = "https://www.ithacacarshare.org/rates";
+    var CE = "https://www.ithacacarshare.org/eligibility";
+    var FCS = "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students";
+    var D = "2026-11-08";
+
+    const NUMBERS = {
+      jicStudentYear: { value: 30, asOf: D, source: CS },
+      imcStudentYear: { value: 310, asOf: D, source: CS },
+      jicMonth: { value: 7.5, asOf: D, source: CR },
+      imcMonth: { value: 35, asOf: D, source: CR },
+      jicHour: { value: 9, asOf: D, source: CR },
+      imcHour: { value: 6, asOf: D, source: CR },
+      signUp: { value: 20, asOf: D, source: CR },
+      mileCar: { value: 0.42, asOf: D, source: CR },
+      mileVan: { value: 0.44, asOf: D, source: CR },
+      mileTruck: { value: 0.52, asOf: D, source: CR },
+      salesTax: { value: 0.08, asOf: D, source: CR },
+      rentalTax: { value: 0.12, asOf: D, source: CR },
+      dailyCapHours: { value: 10, asOf: D, source: CR },
+      minAge: { value: 18, asOf: D, source: CE },
+      youngDriverAge: { value: 21, asOf: D, source: CE },
+      minYearsLicensed: { value: 2, asOf: D, source: CE },
+      youngLiability: { value: 300000, asOf: D, source: CE },
+      residentPermit: { value: 752.98, asOf: D, source: FCS },
+      commuterPermit: { value: 359.77, asOf: D, source: FCS }
+    };
+    var N = function (k) { return NUMBERS[k].value; };
+
+    function el(id) { return root.querySelector("#" + P + id); }
+    function num(id, lo, hi, dflt) {
+      var v = parseFloat(el(id).value);
+      if (isNaN(v)) v = dflt;
+      return Math.min(hi, Math.max(lo, v));
+    }
+    function money(x) {
+      return "$" + x.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+    function esc(s) { return String(s).replace(/[&<>]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]; }); }
+
+    function compute() {
+      var hours = num("hours", 0, 2000, 0);
+      var miles = num("miles", 0, 20000, 0);
+      var months = Math.round(num("months", 1, 12, 12));
+      var vehicle = el("vehicle").value;
+      var joining = el("member").value === "no";
+      var age = num("age", 0, 120, 21);
+      var years = num("licensed", 0, 100, 0);
+      var foreign = el("foreign").value === "yes";
+
+      var perMile = vehicle === "truck" ? N("mileTruck") : vehicle === "van" ? N("mileVan") : N("mileCar");
+      var tax = N("salesTax") + N("rentalTax");
+      var signUp = joining ? N("signUp") : 0;
+      var mileCost = miles * perMile;
+
+      function plan(name, note, fee, hourly) {
+        var usage = hours * hourly + mileCost;
+        var total = fee + signUp + usage * (1 + tax);
+        return { name: name, note: note, fee: fee, usage: usage, taxAmt: usage * tax, total: total };
+      }
+      var plans = [
+        plan("Just In Case, student annual", "Cornell-subsidized", N("jicStudentYear"), N("jicHour")),
+        plan("It's My Car, student annual", "Cornell-subsidized; includes gas", N("imcStudentYear"), N("imcHour"))
+      ];
+      if (months < 12) {
+        plans.push(plan("Just In Case, monthly x " + months, "no student discount", N("jicMonth") * months, N("jicHour")));
+        plans.push(plan("It's My Car, monthly x " + months, "no student discount", N("imcMonth") * months, N("imcHour")));
+      }
+      var best = plans.reduce(function (a, b) { return b.total < a.total ? b : a; });
+      var jic = plans[0], imc = plans[1];
+
+      var feeGap = N("imcStudentYear") - N("jicStudentYear");
+      var hrGap = N("jicHour") - N("imcHour");
+      var breakPre = feeGap / hrGap;
+      var breakTax = feeGap / (hrGap * (1 + tax));
+
+      var h = [];
+      h.push('<p class="icp-headline">' + esc(best.name) + " is cheapest for you: " + money(best.total) + " for " +
+        (months < 12 ? months + " month" + (months === 1 ? "" : "s") : "the year") + ", " + hours + " hours and " + miles + " miles.</p>");
+      h.push("<p>Between the two student plans: Just In Case " + money(jic.total) + ", It's My Car " + money(imc.total) +
+        " (a difference of " + money(Math.abs(jic.total - imc.total)) + ").</p>");
+
+      h.push('<table><thead><tr><th scope="col">Plan</th><th scope="col">Fee</th><th scope="col">Hours and miles</th><th scope="col">20% tax</th><th scope="col">Total</th></tr></thead><tbody>');
+      plans.forEach(function (p) {
+        h.push('<tr class="' + (p === best ? "icp-best" : "") + '"><td>' + esc(p.name) + '<br><span class="icp-small">' + esc(p.note) + "</span></td>" +
+          '<td class="icp-num">' + money(p.fee + signUp) + '</td><td class="icp-num">' + money(p.usage) +
+          '</td><td class="icp-num">' + money(p.taxAmt) + '</td><td class="icp-num">' + money(p.total) + "</td></tr>");
+      });
+      h.push("</tbody></table>");
+      h.push('<p class="icp-small">Fee column includes the ' + (joining ? "$" + N("signUp") + " sign-up" : "no sign-up (renewing)") +
+        ". Mileage: " + Math.round(perMile * 100) + " cents a mile = " + money(mileCost) + ".</p>");
+
+      h.push("<p>Break-even: It's My Car beats Just In Case above about " + Math.round(breakTax) +
+        " hours a year with the 20% tax on hourly charges, or about " + Math.round(breakPre) +
+        " hours before tax. Miles cost the same on both plans, so they do not move this line. " +
+        (hours > breakTax ? "You are above it." : "You are below it.") + "</p>");
+
+      var gap = N("residentPermit") - best.total;
+      h.push("<p>Against owning: a Cornell resident parking permit alone is " + money(N("residentPermit")) +
+        " a year (the commuter B permit is " + money(N("commuterPermit")) + "), before the car, gas or insurance. " +
+        (gap >= 0 ? "Your Carshare total is " + money(gap) + " less than the resident permit by itself."
+                  : "Your Carshare total is " + money(-gap) + " more than the resident permit by itself; at this much driving, price the car too.") + "</p>");
+
+      var flags = [];
+      if (age < N("minAge")) flags.push("Not eligible: the minimum age is " + N("minAge") + ".");
+      if (years < N("minYearsLicensed")) flags.push("Not eligible yet: you need a full, unrestricted license held " + N("minYearsLicensed") + " or more years.");
+      if (age >= N("minAge") && age < N("youngDriverAge")) {
+        flags.push("Under " + N("youngDriverAge") + ": you need a spotless record, your own insurance policy with at least $" +
+          N("youngLiability").toLocaleString("en-US") + " per accident in liability (send the declarations page), and the Younger Driver Insurance Consent Form. Without your own policy the application cannot be approved.");
+      }
+      if (age >= N("youngDriverAge")) flags.push("21 or older: at most two accidents or violations in 3 years; a DUI or DWI in the last 7 years disqualifies you.");
+      flags.push("Everyone: no license suspension in the last 3 years.");
+      if (foreign) flags.push("License from abroad: send an official driving record from the issuing country. An International Driving Permit is not accepted as that record, and some countries cannot be approved. The eligibility page mentions both 2-year and 3-year lookbacks, so ask the office: (607) 277-3210.");
+      h.push("<p><strong>Can you join?</strong></p><ul>" + flags.map(function (f) { return "<li>" + esc(f) + "</li>"; }).join("") + "</ul>");
+
+      h.push('<p class="icp-small" data-as-of="' + D + '">Prices as of ' + D + ". Estimate: the 20% tax is applied to hourly and mileage charges, not to fees, which the rates page does not settle; the 10-hour daily cap is not applied, so enter at most 10 hours for any one day.</p>");
+
+      root.querySelector(".icp-out").outerHTML = '<div class="icp-out">' + h.join("") + "</div>";
+    }
+
+    var ids = ["hours", "miles", "vehicle", "months", "member", "age", "licensed", "foreign"];
+    ids.forEach(function (id) {
+      var e = el(id);
+      if (!e) return;
+      e.addEventListener("input", compute);
+      e.addEventListener("change", compute);
+    });
+    compute();
+  })();
+  </script>
+</div>

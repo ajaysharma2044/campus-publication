@@ -24,9 +24,6 @@ sources:
 - url: https://www.rome2rio.com/s/Cornell/Boston
   title: Cornell to Boston, Rome2rio
   accessed: '2026-11-08'
-- url: https://www.amtrak.com/stations/syr
-  title: Syracuse, NY (SYR) station, Amtrak
-  accessed: '2026-11-08'
 - url: https://www.ithaca.edu/orientation/family-and-guest-resources/transportation
   title: Transportation, Ithaca College family and guest resources
   accessed: '2026-11-08'
@@ -151,7 +148,17 @@ FlixBus is the direct carrier. Its [FAQ range is $44 to $88](https://www.checkmy
 
 Example: a sophomore heading to Boston for a long weekend can pick Tuesday Nov 17 or Friday Nov 20. The Tuesday seat costs $46 and the Friday one $101, so the weekday saves $55 each way.
 
-The train is possible but not direct. The nearest Amtrak station is the [William F. Walsh Regional Transportation Center at 1 Walsh Circle in Syracuse](https://www.amtrak.com/stations/syr), about [60 miles north of Ithaca](https://www.ithaca.edu/orientation/family-and-guest-resources/transportation). A [trip planner](https://www.rome2rio.com/s/Cornell/Boston) estimates about 8 h 50 min and $45 to $300 for the bus-plus-Amtrak trip. That is a planner range, and the page is one that may read "Cornell" as Cornell, Wisconsin, so treat its times as rough. To reach Syracuse, the Ithaca-to-Syracuse city bus had [daily lows of $10 to $41](https://www.checkmybus.com/ithaca-ny/syracuse-ny) between Nov 6 and 26, 2026, with FlixBus taking 1 h 15 min to 1 h 35 min.
+```figure
+kind: cost_table
+title: Ithaca to Boston by FlixBus, one-way fares by date, November 2026 sample
+rows:
+  - {label: "Friday Nov 6", value: "$51"}
+  - {label: "Tuesday Nov 17", value: "$46"}
+  - {label: "Friday Nov 20", value: "$101"}
+  - {label: "FAQ range, any date", value: "$44 to $88"}
+```
+
+The train is possible but not direct. The nearest Amtrak station is the [William F. Walsh Regional Transportation Center at 1 Walsh Circle in Syracuse](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources), about [60 miles north of Ithaca](https://www.ithaca.edu/orientation/family-and-guest-resources/transportation). A [trip planner](https://www.rome2rio.com/s/Cornell/Boston) estimates about 8 h 50 min and $45 to $300 for the bus-plus-Amtrak trip. That is a planner range, and the page is one that may read "Cornell" as Cornell, Wisconsin, so treat its times as rough. To reach Syracuse, the Ithaca-to-Syracuse city bus had [daily lows of $10 to $41](https://www.checkmybus.com/ithaca-ny/syracuse-ny) between Nov 6 and 26, 2026, with FlixBus taking 1 h 15 min to 1 h 35 min.
 
 Not confirmed: whether the Syracuse city bus stop is the Walsh Center itself, and current Amtrak fares from Syracuse to Boston. Check both before you rely on the connection.
 
@@ -226,7 +233,7 @@ OurBus names three [peak days](https://www.ourbus.com/blog/?p=6269) to book earl
 
 **Is there a direct Greyhound from Ithaca to Boston?** The direct trips listed are FlixBus, about [11 buses a day](https://www.checkmybus.com/ithaca-ny/boston-ma). Greyhound and FlixBus share Ithaca stops, and FlixBus trips can appear in a Greyhound search.
 
-**Can I take the train from Ithaca?** Not from Ithaca itself. The nearest Amtrak station is at [1 Walsh Circle in Syracuse](https://www.amtrak.com/stations/syr), and Amtrak's phone line is [1-800-872-7245](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources).
+**Can I take the train from Ithaca?** Not from Ithaca itself. The nearest Amtrak station is at 1 Walsh Circle in Syracuse, and Amtrak's phone line is [1-800-872-7245](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources).
 
 **What about New Jersey?** FlixBus runs direct to Newark Penn, which is not Newark Airport. The [Ithaca to JFK, LaGuardia or Newark guide](/getting-around/ithaca-to-jfk-lga-newark-airport-bus/) has the fares by weekday.
 

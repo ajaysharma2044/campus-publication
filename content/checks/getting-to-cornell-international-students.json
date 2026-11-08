@@ -1,0 +1,31 @@
+{
+  "slug": "getting-to-cornell-international-students",
+  "queue_id": "q-getting-around-0054",
+  "verdict": "pass",
+  "checked": [
+    {"claim": "C2C $93.50 with NetID, $101 public; 4.5 to 5 hours; bags; cancel fees $10/$30 at 8 hours", "source_url": "brief §2.1", "status": "ok", "note": "brief §2.1 values match"},
+    {"claim": "OurBus 9 buses a day, 5:00 a.m. to 11:55 p.m., 4 h 10 min to 7 h; stops", "source_url": "brief §2.2", "status": "ok", "note": "brief values match"},
+    {"claim": "Fare floors OurBus $25, FlixBus $30, Greyhound $37/$43.98; averages $44.77 to $82.31", "source_url": "brief §10", "status": "ok", "note": "brief values match"},
+    {"claim": "Rome2rio: bus 6 h 43 min, $20 to $80; flight 2 h 46 min, $35 to $270", "source_url": "brief §10", "status": "ok", "note": "brief rows match"},
+    {"claim": "Newark Penn FlixBus fares by weekday, $36 on Nov 18, midpoint mean $48.40, via NYC saves $9 to $12 for ~50 min", "source_url": "brief §10.16", "status": "ok", "note": "Recomputed midpoints 53.5, 49, 46.5, 47.5, 45.5 sum 242.0 /5 = 48.40; 37 vs 46 and 49 gives 9 and 12"},
+    {"claim": "Ithaca-Newark flight ended March 29, 2025", "source_url": "brief §2.x", "status": "ok", "note": "brief: ended 2025-03-29 per Wikipedia"},
+    {"claim": "ITH routes, hours 3:30 a.m. to midnight, TCAT 32/72 $1.50, taxi phone numbers, Nov 7 arrivals", "source_url": "brief §2", "status": "ok", "note": "brief values match; 4 arrivals counted from brief's board list"},
+    {"claim": "Winter break housing $125/week, $500, Oct 1 to Dec 1; ten buildings; mail Dec 23 to Jan 7; 2025 closing Dec 21 2 p.m.", "source_url": "brief §2.22", "status": "ok", "note": "brief values match"},
+    {"claim": "Four one-week options = 4 x $125 = $500", "source_url": "own math", "status": "ok", "note": "recomputed 4*125=500"},
+    {"claim": "Academic dates: Thanksgiving Nov 25 to 29, finals Dec 11 to 19, spring Jan 25, spring break Mar 27 to Apr 4", "source_url": "brief §2", "status": "ok", "note": "brief line 528 matches"},
+    {"claim": "Thanksgiving-week fares 28% to 38% above earlier November, 51 priced dates", "source_url": "brief §10", "status": "ok", "note": "brief states 28% and 51 priced dates"},
+    {"claim": "Wanderu January about $41 vs November about $66", "source_url": "brief §10", "status": "ok", "note": "brief match"},
+    {"claim": "Ithaca Carshare: 18+, 2 years license, under-21 $300,000 liability, $20 sign-up fee, IDP not accepted", "source_url": "brief §2.20", "status": "ok", "note": "brief match"},
+    {"claim": "OurBus Toronto from $55, about 6 h 40 min", "source_url": "brief", "status": "ok", "note": "brief match"},
+    {"claim": "Big Red Shipping 607-524-3130, no prices posted", "source_url": "brief", "status": "ok", "note": "brief match"},
+    {"claim": "2019 Sun: Ludovica Stilli '22 and Jaewon Sim '21 advised a big buffer and double-checking schedules", "source_url": "https://cornellsun.com/2019/05/06/international-students-travel-cornell/", "status": "fixed", "note": "Source: Sim advised triple-checking the bus schedule; Christine Relander advised arriving early and an extra hour for traffic; Stilli did not give that advice. Rewrote the attribution."},
+    {"claim": "Nine international students; door-to-door times ran 14 to 35 hours", "source_url": "https://cornellsun.com/2019/05/06/international-students-travel-cornell/", "status": "fixed", "note": "Nine students confirmed. No 14 to 35 range in source: 35 hours is Yang's Tianjin trip, 14 hours is a hypothetical. Changed to 'The longest ran about 35 hours door to door'."},
+    {"claim": "One counted a 9-hour flight plus 5-hour bus as technically 14 hours once buffers were added", "source_url": "https://cornellsun.com/2019/05/06/international-students-travel-cornell/", "status": "fixed", "note": "Relander's 14 hours is a hypothetical example; reworded and dropped the 'once buffers were added' detail."},
+    {"claim": "Tianjin/Newark 10 p.m., 15 hours, 7 on bench; JFK 2 p.m. sprint for 4:30 bus; missed bus by 5 minutes; strike and night at Port Authority; Bocanegra spare clothes", "source_url": "https://cornellsun.com/2019/05/06/international-students-travel-cornell/", "status": "ok", "note": "All confirmed in source."},
+    {"claim": "Cheap early tickets can be wasted, late ones can double (students warned)", "source_url": "https://cornellsun.com/2019/05/06/international-students-travel-cornell/", "status": "fixed", "note": "Source: early ticket may be wasted if plans change; waiting until March or April may roughly double prices. Reworded to match."}
+  ],
+  "brief_updates": [],
+  "fixes": [],
+  "core_answer": "right",
+  "checked_at": "2026-11-08"
+}

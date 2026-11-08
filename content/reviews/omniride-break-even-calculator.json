@@ -1,0 +1,133 @@
+{
+ "slug": "omniride-break-even-calculator",
+ "queue_id": "q-getting-around-0060",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "OmniRide costs $200 a year, prorated monthly, expires Aug 31",
+   "source_url": "brief §2.10 (row 269); reopened https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
+   "status": "ok",
+   "note": "Brief matches; Cornell page re-read today shows $200/year, prorated monthly, current rate at purchase on myparking.cornell.edu."
+  },
+  {
+   "claim": "TCAT cash fare is $1.50 a ride",
+   "source_url": "https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/",
+   "status": "ok",
+   "note": "Brief §2.11/row 645; Downtown Ithaca page and Cornell page both show $1.50."
+  },
+  {
+   "claim": "Refund until Mar 31 less a $40 fee (prorated)",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "Cornell page: 'Refunds can be issued up until March 31st, minus a $40 fee.' Prorated wording is in the brief (line 915)."
+  },
+  {
+   "claim": "Largest possible refund is less than $160 (200 - 40)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed 200 - 40 = 160; page says 'less than $160' and calculator maxRefund = 160."
+  },
+  {
+   "claim": "Break-even is 134 paid rides (200 / 1.50 = 133.3)",
+   "source_url": "brief §10.14",
+   "status": "ok",
+   "note": "Recomputed 200/1.5 = 133.33, rounded up to 134; matches brief and the calculator's Math.ceil."
+  },
+  {
+   "claim": "About 4.5 rides a week over 30 weeks (134 / 30 = 4.47), roughly 5 a week",
+   "source_url": "brief §10.14",
+   "status": "ok",
+   "note": "Recomputed 134/30 = 4.467; calculator rounds up to one decimal = 4.5. 30 weeks is marked as an assumption, as in the brief."
+  },
+  {
+   "claim": "3 rides x 30 weeks = 90 rides = $135, keep $65; 5 x 30 = 150 = $225, save $25; 10 x 30 = 300 = $450, save $250",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed 90 x 1.5 = 135 (200 - 135 = 65); 150 x 1.5 = 225 (225 - 200 = 25); 300 x 1.5 = 450 (450 - 200 = 250)."
+  },
+  {
+   "claim": "Farebox daily cap $3 (two $1.50 fares), at most 5 x $3 = $15 a week = $450 over 30 weeks; not yet on TFare app; page reportedly updated 2026-09-04",
+   "source_url": "brief §2.11 (rows 296-297)",
+   "status": "ok",
+   "note": "Brief carries the cap from a search summary of the tcatbus.com page (403) and flags it unverified; the page flags it the same way. Recomputed 5 x 3 = 15; 15 x 30 = 450. The Downtown Ithaca page does not mention a cap, consistent with the brief's source."
+  },
+  {
+   "claim": "Fall first-years ride free any time until Aug 31 of the next year; spring entrants Jan 1 to Dec 31 of the same year; no extensions",
+   "source_url": "brief §2.10 (row 265); Cornell bus passes page",
+   "status": "ok",
+   "note": "Cornell page re-read: Aug 31 for fall entrants, Jan 1 to Dec 31 for spring entrants."
+  },
+  {
+   "claim": "Transfers count as first-years per the Cornell Sun reporter's November 2024 statement; the TCAT GM is quoted only on free evening and weekend rides",
+   "source_url": "brief §2.10 (row 266)",
+   "status": "ok",
+   "note": "Attribution matches the brief exactly. The Cornell page does not mention transfers, and the page already says to confirm with Transportation Services."
+  },
+  {
+   "claim": "PhD students and graduate assistants get OmniRide free",
+   "source_url": "brief §2.10 (row 268); Cornell bus passes page",
+   "status": "ok",
+   "note": "Cornell page: free OmniRide passes for PhD students and graduate assistants."
+  },
+  {
+   "claim": "Everyone else rides free after 6 p.m. on weekdays and all day Saturday and Sunday while registered",
+   "source_url": "brief §2.10 (line 12); Cornell bus passes page",
+   "status": "ok",
+   "note": "Cornell page re-read, same hours and the stay-registered condition."
+  },
+  {
+   "claim": "Transportation Services phone 607-255-4600",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
+   "status": "ok",
+   "note": "Number listed on the Cornell page I fetched."
+  },
+  {
+   "claim": "Buy at MyParking.Cornell.Edu; activation can take up to 24 hours",
+   "source_url": "brief §2.10 (row 269)",
+   "status": "ok",
+   "note": "Brief states both."
+  },
+  {
+   "claim": "$0.75 half fare applies to riders 60 and over and riders with disabilities",
+   "source_url": "https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/",
+   "status": "ok",
+   "note": "Brief row 293 matches; Downtown Ithaca page re-read and says seniors 60+ and riders with disabilities."
+  },
+  {
+   "claim": "Outside free hours you pay $1.50 cash, exact change; drivers override a failed ID in free hours (Nov 2024 report)",
+   "source_url": "brief §6 (lines 918-919); Downtown Ithaca page",
+   "status": "ok",
+   "note": "Brief has both; Downtown Ithaca page says exact change only."
+  },
+  {
+   "claim": "Public monthly pass $45 and 15-ride card $20 (TCAT search summary)",
+   "source_url": "brief §2.11 (row 296)",
+   "status": "ok",
+   "note": "Matches the brief row, which flags the source as a search summary of a 403 page."
+  },
+  {
+   "claim": "Johnson MBA page says TCAT is free in the first year",
+   "source_url": "brief §2.10 (row 280)",
+   "status": "ok",
+   "note": "Brief: MBA page says free first year, then free weekday evenings after 6 p.m. and weekends."
+  },
+  {
+   "claim": "Calculator constants: cashFare 1.5, omniRide 200, refundFee 40, dailyCap 3 (as of 2026-09-04); breakEven = ceil(200/1.5) = 134",
+   "source_url": "brief §10.14",
+   "status": "ok",
+   "note": "All values match the sources above. Logic recomputed: ceil(133.33) = 134; the capped line applies only above 10 rides a week and gives 5 x min(perDay x 1.5, 3) x weeks."
+  }
+ ],
+ "beats_top": {
+  "query": "Cornell OmniRide pass worth it",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

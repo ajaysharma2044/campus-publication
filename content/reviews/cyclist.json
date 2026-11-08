@@ -1,0 +1,109 @@
+{
+ "slug": "cyclist",
+ "queue_id": "q-getting-around-0080",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Theft is common on campus",
+   "source_url": "brief §6 (fall 2024: 51 bike and scooter thefts)",
+   "status": "ok",
+   "note": "brief; guide 1 meta repeats the 51 figure"
+  },
+  {
+   "claim": "Winter riding has no official guidance",
+   "source_url": "brief §6 (no official winter guidance exists)",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Register the bike and buy a U-lock before classes start",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief: Cornell advises registering and a U-lock; registration is urged, free, not stated mandatory; page does not call it mandatory"
+  },
+  {
+   "claim": "North Campus move-in Mon Aug 17, Tue Aug 18, Fri Aug 21 to Sat Aug 22; year inferred as 2026",
+   "source_url": "brief §10 / row for North Campus move-in dates",
+   "status": "ok",
+   "note": "brief; page keeps the 'year inferred' flag"
+  },
+  {
+   "claim": "Nov 4, 2026: C2C new reservation system; every rider needs a new account",
+   "source_url": "https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4",
+   "status": "ok",
+   "note": "brief §2.1; same URL"
+  },
+  {
+   "claim": "Bike box home on C2C is booked through the new account",
+   "source_url": "brief §2 luggage row",
+   "status": "ok",
+   "note": "brief: bike only in a bike box, counted as 1 suitcase"
+  },
+  {
+   "claim": "Dec 23 last departure on '2026' link; Jan 6, 2027 first on '2027' link",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief, same C2C URL"
+  },
+  {
+   "claim": "TCAT changes schedules three times a year; fall 2025 schedule ran to Jan 11, 2026",
+   "source_url": "brief §4 service periods",
+   "status": "ok",
+   "note": "brief, same tcatbus.com URL"
+  },
+  {
+   "claim": "Move-out: buildings close 2 p.m. Sun May 17, 2026; unclaimed items donated",
+   "source_url": "brief §6 move-out row",
+   "status": "ok",
+   "note": "brief, same URL; the date is the 2026 precedent and is dated as such on the page"
+  },
+  {
+   "claim": "Guide 1 description: registration, where to lock, e-bike/scooter limits, battery charging, theft",
+   "source_url": "content/articles/getting-around/cornell-bike-ebike-scooter-rules-theft.md",
+   "status": "ok",
+   "note": "title and meta match (750 W, 100 lb/20 mph, racks only, no charging in rooms, 51 thefts)"
+  },
+  {
+   "claim": "Guide 2 description: snow, salt, the Slope and the bridges",
+   "source_url": "content/articles/getting-around/biking-in-ithaca-winter-cornell.md",
+   "status": "ok",
+   "note": "meta mentions salting and no winter guidance; brief covers Slope and bridge panels"
+  },
+  {
+   "claim": "Guide 3 description: ride, day, month cost and where to leave the bike",
+   "source_url": "content/articles/getting-around/ithaca-bikeshare-cost-cornell-students.md",
+   "status": "ok",
+   "note": "meta: $1.50 + $0.25/min, $25 day, $60 month; page says park at a rack, not railing/tree/pole"
+  },
+  {
+   "claim": "Guide 4 description: when you ride free, routes that climb, front bike rack",
+   "source_url": "content/articles/getting-around/tcat-free-for-cornell-students-hours-routes.md",
+   "status": "ok",
+   "note": "free-hours table, route list and front rack line (Sun 2025) are in the article"
+  },
+  {
+   "claim": "Guide 5 description: full topic including bike home on C2C bus",
+   "source_url": "content/articles/getting-around/getting-to-ithaca-and-around-cornell.md",
+   "status": "ok",
+   "note": "hub exists; 25 bike mentions; C2C bike-box rule is in the brief"
+  },
+  {
+   "claim": "Closing link: Getting around Cornell after first year without a car",
+   "source_url": "content/articles/getting-around/getting-around-cornell-upper-years-no-car.md",
+   "status": "ok",
+   "note": "article exists with that title"
+  }
+ ],
+ "beats_top": {
+  "query": "biking at Cornell guide",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

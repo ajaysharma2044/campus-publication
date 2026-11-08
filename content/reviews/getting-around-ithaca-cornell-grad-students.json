@@ -1,0 +1,223 @@
+{
+ "slug": "getting-around-ithaca-cornell-grad-students",
+ "queue_id": "q-getting-around-0053",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "PhD students and graduate assistants get free TCAT OmniRide; full assistantship gets free Outer Tier A and E permits (not in university housing); E needs work in its zone",
+   "source_url": "brief §2 (rows on bus passes and graduate assistants)",
+   "status": "ok",
+   "note": "Brief matches the page wording."
+  },
+  {
+   "claim": "B commuter permit $359.77/yr, valid to Aug 15, prorated from Aug 16, B Lot always and A Lot after 2:30 p.m.; resident permit $752.98; refund by Mar 31",
+   "source_url": "brief §2 (parking rows)",
+   "status": "ok",
+   "note": "Same values in brief."
+  },
+  {
+   "claim": "$359.77 is about $30 a month",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Recomputed 359.77/12 = 29.98."
+  },
+  {
+   "claim": "OmniRide $200/yr, prorated monthly, expires Aug 31, refund until Mar 31 less $40; $1.50 cash fare; free after 6 p.m. weekdays and weekends",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Break-even 134 paid rides; about 4.5 rides a week over 30 weeks",
+   "source_url": "brief §10.14",
+   "status": "ok",
+   "note": "200/1.5 = 133.3, so 134 rides to exceed $200 (brief line 31 also says 134; one table row says 133 as the fractional break-even). 134/30 = 4.47."
+  },
+  {
+   "claim": "Example: 4 rides/week x 30 = 120 rides = $180; cash wins by $20; one more ride a week makes 150 rides = $225, pass wins",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed 120 x 1.5 = 180; 150 x 1.5 = 225."
+  },
+  {
+   "claim": "$559.77 a year saved = $359.77 + $200",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Sum recomputed."
+  },
+  {
+   "claim": "Spouse OmniRide at 116 Maple Ave; routes 90 and 92 vs 90, 92, 93; TDS 607-255-4600",
+   "source_url": "brief §2 and TDS contact entry",
+   "status": "ok",
+   "note": "Brief matches; page already flags the route discrepancy."
+  },
+  {
+   "claim": "Blue Light bus on Route 92 runs nightly 6:30 p.m. to 2:30 a.m., year-round",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Children under 12 ride TCAT free with a paying adult; ways to pay: exact cash, tapped card or phone, TFare app, T-card",
+   "source_url": "https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/",
+   "status": "ok",
+   "note": "Page confirms under 12 free with a paying adult (FreeRyde) and the five payment ways."
+  },
+  {
+   "claim": "Late TCAT buses are the most corroborated complaint, 10 distinct articles and threads from 2019 to March 2026",
+   "source_url": "brief §7.1",
+   "status": "ok",
+   "note": "Brief says 10 sources, most corroborated complaint."
+  },
+  {
+   "claim": "Student Assembly March 2026 resolution calls buses late and unreliable, asks Cornell to fund free passes for all undergraduates and graduate workers; president returned it Apr 24, 2026; no outcome public",
+   "source_url": "https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026",
+   "status": "ok",
+   "note": "Opened the page: adopted Mar 26, 2026; status 'Returned by the President' Apr 24, 2026; wording about late and unreliable buses and free passes for undergraduates and graduate workers matches."
+  },
+  {
+   "claim": "Law school housing page: many law students go without a car and find the bus reliable",
+   "source_url": "brief §6 (law school row)",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Routes 14S and 83 suspended since fall 2023",
+   "source_url": "brief §2 (route suspensions)",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Non-first-years denied at fareboxes after mid-October 2024 fix",
+   "source_url": "brief timeline (mid-Oct)",
+   "status": "ok",
+   "note": "Brief matches the Sun report."
+  },
+  {
+   "claim": "Daily Decision as little as $1/day; $0.65 permit plus $0.35 fee; ParkMobile $0.45 per transaction",
+   "source_url": "brief §2 and change line on Daily Decision",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Parking without permit or payment $50, +$10 if unpaid in 10 days",
+   "source_url": "brief §2 (fines)",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "City residential permit $45/yr, runs to July 31, 108 E Green St; odd/even Nov 1-Apr 1, 7 p.m.-6 a.m., towing after 72 hours",
+   "source_url": "brief §2 (city permit and odd/even rows)",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "GradCafe poster said a car helps for groceries but is not strictly needed ('graduate poster')",
+   "source_url": "https://forum.thegradcafe.com/topic/153-ithaca-ny/?page=8",
+   "status": "ok",
+   "note": "fixed in place: Source poster 'nevermind' said a car is 'a pretty good thing to have' for groceries and big-box stores, did not own one and relied on a bus pass, car-share and rides; the page does not say they are a grad student, and 'not strictly needed' was another poster's view. Reworded to the poster's own words without the 'graduate' label."
+  },
+  {
+   "claim": "Cornell Sun 2023: grad student used Carshare as a safety net, moved to Bikeshare when Carshare paused, planned to buy a car",
+   "source_url": "https://cornellsun.com/2023/09/19/ithaca-carshare-to-resume-operations-march-2024/",
+   "status": "ok",
+   "note": "Article: graduate student Orion Smedley relied on Carshare as backup, used Bikeshare after shutdown, 'I think I'm planning to get a car now'."
+  },
+  {
+   "claim": "Carshare plans: Just In Case $30 + $9/h; It's My Car $310 + $6/h; $20 sign-up; mileage 42-52 cents; 8% sales and 12% rental tax; 10-hour cap; two drivers per plan",
+   "source_url": "brief §6 (Ithaca Carshare rows)",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Below about 93 hours a year Just In Case is cheaper",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "30 + 9h = 310 + 6h gives h = 93.3."
+  },
+  {
+   "claim": "Example: 40 hours: JIC $30 + $360 = $390; IMC $310 + $240 = $550; JIC wins by $160",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed."
+  },
+  {
+   "claim": "Carshare eligibility: 18, 2+ years full license, under 21 needs $300,000 per accident, foreign license needs driving record, IDP not accepted",
+   "source_url": "brief §6 (eligibility rows)",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Four campus pickup spots plus four in Collegetown; 54% of trips by on-campus students were grocery runs (2013-era report)",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "C2C fares $101/$93.50/$86 one way, $202/$187/$172 round trip; $6 fuel surcharge included",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief matches; round trips are 2x."
+  },
+  {
+   "claim": "$7.50 saving each way, $15 round trip",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "93.50 - 86 = 7.50; 187 - 172 = 15."
+  },
+  {
+   "claim": "Trip example $295.50 one way (93.50 + 101 + 101)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Sum recomputed."
+  },
+  {
+   "claim": "New C2C reservation system Nov 4, 2026; new account; SSO shows $93.50; multi-passenger reservations",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief matches the FCS announcement."
+  },
+  {
+   "claim": "C2C family rules: under 2 lap free, from age 2 paid seat, cancel $10 / $30 at 8 hours",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief cancellation row matches; lap rule already in brief."
+  },
+  {
+   "claim": "C2C riders park free in B Lot by emailing c2cbus@cornell.edu",
+   "source_url": "https://fcs.cornell.edu/node/12488 (linked on page)",
+   "status": "ok",
+   "note": "Treated as brief-covered parking notice; not re-opened."
+  },
+  {
+   "claim": "Employees, affiliates included, ride TCAT free with Cornell photo ID",
+   "source_url": "brief §2 (Employees row)",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Every TCAT bus has a front bike rack at no extra fare; MBA showers at Sage Hall",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief rows match."
+  },
+  {
+   "claim": "Timeline dates: Aug 16, Nov 1, Dec 1 to Apr 1 campus winter rules, Mar 31, July 31, Aug 15, Aug 31",
+   "source_url": "brief calendar",
+   "status": "ok",
+   "note": "Brief calendar matches."
+  }
+ ],
+ "beats_top": {
+  "query": "Cornell graduate student TCAT parking",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

@@ -1,0 +1,54 @@
+[
+ {
+  "source": "wikimedia",
+  "title": "Bicycles parked at Milstein Hall",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Bicycles_parked_at_Milstein_Hall.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bicycles_parked_at_Milstein_Hall.jpg",
+  "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Bicycles_parked_at_Milstein_Hall.jpg/960px-Bicycles_parked_at_Milstein_Hall.jpg",
+  "author": "Kenneth C. Zirkel",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "width": 3000,
+  "height": 2000,
+  "description": "Bikes parked at Milstein Hall, Cornell University at night in winter"
+ },
+ {
+  "source": "openverse",
+  "title": "Buttermilk Falls in Winter",
+  "page_url": "https://www.flickr.com/photos/81808814@N00/4338241547",
+  "file_url": "https://live.staticflickr.com/4049/4338241547_b2a9b38aaf_b.jpg",
+  "thumb_url": "https://api.openverse.org/v1/images/286a857e-100c-4e15-9311-cc877e6dba49/thumb/",
+  "author": "Hobbes vs Boyle",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "width": 1024,
+  "height": 727,
+  "description": "buttermilkfallsstatepark ithaca newyorkstate waterfall winter"
+ },
+ {
+  "source": "openverse",
+  "title": "Buttermilk Falls in Winter",
+  "page_url": "https://www.flickr.com/photos/81808814@N00/4338983110",
+  "file_url": "https://live.staticflickr.com/4005/4338983110_f401fd3794_b.jpg",
+  "thumb_url": "https://api.openverse.org/v1/images/4a3e2e5c-ed4c-486a-958a-275cd94401b5/thumb/",
+  "author": "Hobbes vs Boyle",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "width": 1024,
+  "height": 568,
+  "description": "buttermilkfallsstatepark ithaca newyorkstate waterfall winter"
+ },
+ {
+  "source": "openverse",
+  "title": "Buttermilk Falls in Winter",
+  "page_url": "https://www.flickr.com/photos/81808814@N00/4338240913",
+  "file_url": "https://live.staticflickr.com/2772/4338240913_8303e208db_b.jpg",
+  "thumb_url": "https://api.openverse.org/v1/images/3d75ad35-8bb9-434b-86f6-e6fd78577027/thumb/",
+  "author": "Hobbes vs Boyle",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "width": 1024,
+  "height": 681,
+  "description": "buttermilkfallsstatepark ithaca newyorkstate waterfall winter"
+ }
+]

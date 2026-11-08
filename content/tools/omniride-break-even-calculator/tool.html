@@ -1,0 +1,134 @@
+<div class="tool" id="tool-omniride-break-even-calculator" data-tool="omniride-break-even-calculator" data-as-of="2026-11-08">
+  <style>
+    #tool-omniride-break-even-calculator .obe-field { margin: 0 0 0.9rem; }
+    #tool-omniride-break-even-calculator .obe-field label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
+    #tool-omniride-break-even-calculator .obe-field select,
+    #tool-omniride-break-even-calculator .obe-field input { width: 100%; max-width: 22rem; padding: 0.4rem; font: inherit; box-sizing: border-box; }
+    #tool-omniride-break-even-calculator .obe-hint { display: block; font-size: 0.875em; opacity: 0.8; margin-top: 0.2rem; }
+    #tool-omniride-break-even-calculator .obe-result { border-top: 1px solid currentColor; padding-top: 0.9rem; margin-top: 1rem; }
+    #tool-omniride-break-even-calculator .obe-result ul { padding-left: 1.2rem; margin: 0.5rem 0; }
+    #tool-omniride-break-even-calculator .obe-small { font-size: 0.875em; opacity: 0.85; }
+  </style>
+
+  <p class="obe-small">Cornell's prices: OmniRide <span data-as-of="2026-11-08">$200 a year</span>, cash fare <span data-as-of="2026-11-08">$1.50 a ride</span>, refund until Mar 31 less <span data-as-of="2026-11-08">$40</span>. From Cornell's bus passes page, checked Nov 8, 2026 (the page is undated; TCAT's own fare page returned an error to us).</p>
+
+  <div class="obe-field">
+    <label for="omniride-break-even-calculator-status">Your status this year</label>
+    <select id="omniride-break-even-calculator-status">
+      <option value="fall-first-year">First-year who started in fall</option>
+      <option value="spring-entrant">First term started in spring (January)</option>
+      <option value="transfer">Transfer who started in fall</option>
+      <option value="phd-ga">PhD student or graduate assistant</option>
+      <option value="other" selected>Other: sophomore or later, or a master's or professional student after year one</option>
+    </select>
+    <span class="obe-hint">A transfer who starts in January should pick "spring".</span>
+  </div>
+
+  <div class="obe-field">
+    <label for="omniride-break-even-calculator-rides">Paid rides a week (weekdays before 6 p.m.)</label>
+    <input id="omniride-break-even-calculator-rides" type="number" min="0" max="40" step="1" value="5" inputmode="numeric">
+    <span class="obe-hint">Count each boarding. Rides after 6 p.m. on weekdays and all weekend are free, so leave them out.</span>
+  </div>
+
+  <div class="obe-field">
+    <label for="omniride-break-even-calculator-weeks">Weeks you ride in the pass year (to Aug 31)</label>
+    <input id="omniride-break-even-calculator-weeks" type="number" min="1" max="52" step="1" value="30" inputmode="numeric">
+    <span class="obe-hint">30 weeks is our rough academic year, an assumption. Add summer weeks if you stay in Ithaca. Spring entrants: count only weeks from Jan 1 to Aug 31 after your free year.</span>
+  </div>
+
+  <div class="obe-result" id="omniride-break-even-calculator-result" aria-live="polite">
+    <p><strong>How it works:</strong> paid rides a week times weeks times $1.50 is your pay-as-you-go cost. If that is more than $200, buy OmniRide. The pass pays for itself at 134 paid rides (200 / 1.50 = 133.3). First-years, transfers in their first year, PhD students and graduate assistants already ride free.</p>
+  </div>
+</div>
+<script>
+(function () {
+  var root = document.getElementById("tool-omniride-break-even-calculator");
+  if (!root) return;
+
+  var FCS = "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes";
+  var NUMBERS = {
+    cashFare: { value: 1.5, asOf: "2026-11-08", source: FCS },
+    omniRide: { value: 200, asOf: "2026-11-08", source: FCS },
+    refundFee: { value: 40, asOf: "2026-11-08", source: FCS },
+    dailyCap: { value: 3, asOf: "2026-09-04", source: "https://www.tcatbus.com/ride/fare-pass-options/" }
+  };
+
+  function el(name) { return root.querySelector("#omniride-break-even-calculator-" + name); }
+  var statusEl = el("status"), ridesEl = el("rides"), weeksEl = el("weeks"), out = el("result");
+
+  function num(input, lo, hi, fallback) {
+    var v = parseFloat(input.value);
+    if (isNaN(v)) return fallback;
+    return Math.min(hi, Math.max(lo, Math.round(v)));
+  }
+  function money(n) {
+    var s = (Math.round(n * 100) / 100).toFixed(2);
+    if (s.slice(-3) === ".00") s = s.slice(0, -3);
+    return "$" + s.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+  function li(text) { return "<li>" + text + "</li>"; }
+
+  var breakEven = Math.ceil(NUMBERS.omniRide.value / NUMBERS.cashFare.value); // 134
+  var maxRefund = NUMBERS.omniRide.value - NUMBERS.refundFee.value;           // 160
+
+  var FOOT = '<p class="obe-small">Cornell prices as of Nov 8, 2026 (Cornell bus passes page check; the page is undated). ' +
+    'The $3 daily cap is from a search summary of TCAT\'s fare page, reported updated Sept 4, 2026, not read directly. ' +
+    'Estimated: your ride count and weeks are your own guess; the 30-week year is our assumption.</p>';
+
+  function render() {
+    var status = statusEl.value;
+    var rides = num(ridesEl, 0, 40, 5);
+    var weeks = num(weeksEl, 1, 52, 30);
+    var fare = NUMBERS.cashFare.value, pass = NUMBERS.omniRide.value;
+    var yearRides = rides * weeks;
+    var cash = yearRides * fare;
+    var perWeekNeeded = Math.ceil((breakEven / weeks) * 10) / 10;
+    var html = "", lines = [];
+
+    if (status === "fall-first-year") {
+      html = "<p><strong>Free for you. Do not buy OmniRide.</strong> Your Cornell ID gives you unlimited TCAT rides from fall registration to Aug 31 of next year, with no extensions.</p>";
+      lines.push(li("Buying the pass now would cost " + money(pass) + " for rides you already have; a refund before Mar 31 keeps " + money(NUMBERS.refundFee.value) + "."));
+      lines.push(li("From Sept 1 next year, weekday rides before 6 p.m. cost " + money(fare) + " each. At " + rides + " a week for " + weeks + " weeks that would be " + money(cash) + " cash against " + money(pass) + " for the pass. Come back and rerun this then."));
+    } else if (status === "transfer") {
+      html = "<p><strong>Free for you in your first year, most likely. Confirm before you buy anything.</strong> The Cornell Sun reported in Nov 2024 that first-years, transfers included, ride free any time. Cornell's own pages say \"new students\". Call Transportation Services at 607-255-4600 to confirm.</p>";
+      lines.push(li("Fall transfers keep the free pass to Aug 31 of next year. After that, weekday rides before 6 p.m. cost " + money(fare) + "."));
+      lines.push(li("If it turns out you are not covered: " + rides + " paid rides a week for " + weeks + " weeks is " + money(cash) + " cash against " + money(pass) + " for OmniRide (break-even " + breakEven + " rides)."));
+    } else if (status === "phd-ga") {
+      html = "<p><strong>Free for you. Do not pay " + money(pass) + ".</strong> Cornell gives PhD students and graduate assistants a free OmniRide pass, so the after-6 p.m. limit does not apply.</p>";
+      lines.push(li("Get the free pass through Transportation Services (MyParking.Cornell.Edu); activation can take up to 24 hours."));
+      lines.push(li("A master's or professional student without an assistantship is not on this list: pick \"Other\" after your first year."));
+    } else if (status === "spring-entrant") {
+      html = "<p><strong>Free for you through Dec 31 of the year you start.</strong> Spring entrants ride free Jan 1 to Dec 31, not to Aug 31, with no extensions.</p>";
+      lines.push(li("From Jan 1 after that, weekday rides before 6 p.m. cost " + money(fare) + ". At " + rides + " a week for " + weeks + " weeks: " + money(cash) + " cash."));
+      lines.push(li("An OmniRide bought in January still ends Aug 31 and is prorated monthly, so it costs less than " + money(pass) + ". Cornell shows the exact price at purchase; it is not in our research. Buy it if that price is below " + money(cash) + "."));
+      if (cash > pass) lines.push(li("Your cash total is above even the full " + money(pass) + " price, so the pass wins at any prorated price."));
+    } else {
+      var buy = yearRides >= breakEven;
+      if (yearRides === 0) {
+        html = "<p><strong>Pay as you go: $0.</strong> If you only ride after 6 p.m. on weekdays and on weekends, TCAT is free with your Cornell ID while you are registered.</p>";
+      } else if (buy) {
+        html = "<p><strong>Buy OmniRide. It saves you " + money(cash - pass) + " this year.</strong> " + yearRides + " paid rides cost " + money(cash) + " at " + money(fare) + " each, against " + money(pass) + " for the pass.</p>";
+      } else {
+        html = "<p><strong>Pay as you go. You save " + money(pass - cash) + " this year.</strong> " + yearRides + " paid rides cost " + money(cash) + " at " + money(fare) + " each, against " + money(pass) + " for the pass.</p>";
+      }
+      lines.push(li("Pay as you go: " + rides + " rides a week x " + weeks + " weeks x " + money(fare) + " = " + money(cash) + " a year."));
+      lines.push(li("OmniRide: " + money(pass) + " for the year, ending Aug 31. Buy at MyParking.Cornell.Edu; it can take 24 hours to start working."));
+      lines.push(li("Break-even: " + breakEven + " paid rides (" + money(pass) + " / " + money(fare) + " = 133.3). Over " + weeks + " weeks that is about " + perWeekNeeded + " paid rides a week."));
+      if (rides > 10) {
+        var perDay = rides / 5;
+        var cappedWeek = 5 * Math.min(perDay * fare, NUMBERS.dailyCap.value);
+        var capped = cappedWeek * weeks;
+        lines.push(li("TCAT reportedly caps a day at " + money(NUMBERS.dailyCap.value) + " at the farebox (not yet in the TFare app). If your rides spread over five weekdays, cash would be about " + money(capped) + " a year with the cap" + (capped < pass ? ", under the pass price." : ", still above the pass price.")));
+      }
+      lines.push(li("Changed your mind? Until Mar 31 Cornell refunds a prorated amount less " + money(NUMBERS.refundFee.value) + ", so at most " + money(maxRefund) + " back. After Mar 31, no refund."));
+      lines.push(li("Bought mid-year? The price is prorated monthly; Cornell shows it at purchase."));
+    }
+
+    out.innerHTML = html + "<ul>" + lines.join("") + "</ul>" + FOOT;
+  }
+
+  root.addEventListener("input", render);
+  root.addEventListener("change", render);
+  render();
+})();
+</script>

@@ -1,0 +1,97 @@
+{
+ "slug": "low-budget",
+ "queue_id": "q-getting-around-0078",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Winter break housing applications run Oct 1 to Dec 1",
+   "source_url": "brief §2.22 / §10 dates table",
+   "status": "ok",
+   "note": "brief §2.22 and dates table: Oct 1 open, Dec 1 deadline; matches the staying-in-Ithaca guide meta."
+  },
+  {
+   "claim": "About two weeks before each break: the booking window Wanderu claims is cheapest",
+   "source_url": "brief §2.4 (Wanderu monthly signals)",
+   "status": "ok",
+   "note": "brief: booking about 14 days ahead claimed cheapest by Wanderu; page attributes it as a claim."
+  },
+  {
+   "claim": "Thanksgiving week is Nov 23 to 27, 2026",
+   "source_url": "brief §10.9 / dates section",
+   "status": "ok",
+   "note": "brief treats Nov 23 to 27 as Thanksgiving week (Thanksgiving Thu Nov 26). The Thanksgiving guide's Cornell break is Nov 25 to 29; the start page says 'week', not break, so no conflict."
+  },
+  {
+   "claim": "Thanksgiving week: lowest advertised bus fares ran 28% to 38% above earlier November days in a Nov 8 sample",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "fixed in place: Page said 'the dearest week for bus fares', which the brief does not support (it only compares to earlier November days). Replaced with the brief's 28% to 38% sample wording."
+  },
+  {
+   "claim": "OurBus names the Wednesday before Thanksgiving a peak day",
+   "source_url": "https://www.ourbus.com/blog/?p=6269",
+   "status": "ok",
+   "note": "brief §2.4 peak dates row and dates table."
+  },
+  {
+   "claim": "Student Assembly has funded free airport charters in past finals weeks",
+   "source_url": "brief §10.5 / dates table",
+   "status": "ok",
+   "note": "brief: May 2024 pilot, fall 2024, fall 2025 (R18), spring 2026 (R83)."
+  },
+  {
+   "claim": "No Student Assembly finals charter found for fall 2026 as of Nov 8",
+   "source_url": "brief §2.12",
+   "status": "ok",
+   "note": "Brief lists no fall 2026 resolution and advises watching for one; a dated negative claim, consistent with the brief."
+  },
+  {
+   "claim": "January: Wanderu showed Ithaca to NYC fares averaging about $41, against about $66 in November",
+   "source_url": "brief §2.4 Wanderu monthly signals",
+   "status": "ok",
+   "note": "fixed in place: Page said January was 'the cheapest month', but the brief compares only January with November. Replaced with the brief's two figures."
+  },
+  {
+   "claim": "Mar 31: last day for an OmniRide refund",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
+   "status": "ok",
+   "note": "brief §2.10 and dates table: refund until Mar 31 less $40."
+  },
+  {
+   "claim": "OmniRide break-even calculator: $200 pass vs $1.50 fares",
+   "source_url": "brief §2.10 / §10.14",
+   "status": "ok",
+   "note": "$200 a year and $1.50 a ride in the brief; the tool's own title and meta match (134-ride break-even; 200/1.50 = 133.3)."
+  },
+  {
+   "claim": "Cornell bus home cost calculator compares C2C, OurBus, FlixBus",
+   "source_url": "content/tools/cornell-bus-home-cost-calculator/tool.md",
+   "status": "ok",
+   "note": "Tool title and meta match the page's description (it also covers Greyhound, which the page does not claim to exclude)."
+  },
+  {
+   "claim": "Guide descriptions: cheapest-ways, Thanksgiving, staying-over-breaks, Bikeshare 'plans, prices and the low-income option', pillar, winter break, TCAT guides",
+   "source_url": "guide titles and metas",
+   "status": "ok",
+   "note": "Checked against each guide's title and meta. Titles match. Bikeshare meta shows plans and prices; the 'low-income option' is not in its meta, so it was not confirmed there (the page body was not read)."
+  },
+  {
+   "claim": "Staying in Ithaca guide: 'before winter break housing closes'",
+   "source_url": "brief §2.22",
+   "status": "ok",
+   "note": "Dec 1 deadline per brief."
+  }
+ ],
+ "beats_top": {
+  "query": "cheapest way to travel Cornell",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

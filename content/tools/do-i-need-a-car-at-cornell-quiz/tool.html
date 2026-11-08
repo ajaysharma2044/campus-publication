@@ -1,0 +1,202 @@
+<div class="tool" id="tool-do-i-need-a-car-at-cornell-quiz" data-tool="do-i-need-a-car-at-cornell-quiz" data-as-of="2026-11-08">
+<style>
+#tool-do-i-need-a-car-at-cornell-quiz .tq-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.75rem 1.25rem;margin:0 0 1rem}
+#tool-do-i-need-a-car-at-cornell-quiz label{display:block;font-weight:600;margin-bottom:.25rem}
+#tool-do-i-need-a-car-at-cornell-quiz select,#tool-do-i-need-a-car-at-cornell-quiz input[type=number]{width:100%;max-width:100%;box-sizing:border-box;padding:.35rem}
+#tool-do-i-need-a-car-at-cornell-quiz .tq-hint{display:block;font-size:.85em;opacity:.8;margin-top:.15rem}
+#tool-do-i-need-a-car-at-cornell-quiz .tq-check label{display:inline;font-weight:400}
+#tool-do-i-need-a-car-at-cornell-quiz .tool-result{border-top:2px solid currentColor;padding-top:.75rem}
+#tool-do-i-need-a-car-at-cornell-quiz .tq-pick{font-size:1.2em;font-weight:700;margin:0 0 .5rem}
+#tool-do-i-need-a-car-at-cornell-quiz .tq-small{font-size:.85em;opacity:.85}
+</style>
+<form class="tq-form" onsubmit="return false">
+<div class="tq-grid">
+<div><label for="do-i-need-a-car-at-cornell-quiz-status">Your year and status</label>
+<select id="do-i-need-a-car-at-cornell-quiz-status">
+<option value="first" selected>First-year, started in fall 2026</option>
+<option value="spring">Spring entrant or transfer, first year at Cornell</option>
+<option value="upper">Sophomore, junior or senior</option>
+<option value="phd">PhD student or graduate assistant (full assistantship)</option>
+<option value="masters">Master's or professional student, no assistantship</option>
+</select></div>
+<div><label for="do-i-need-a-car-at-cornell-quiz-home">Where you live</label>
+<select id="do-i-need-a-car-at-cornell-quiz-home">
+<option value="north" selected>North Campus (university housing)</option>
+<option value="west">West Campus (university housing)</option>
+<option value="south">South Campus (university housing)</option>
+<option value="hasbrouck">Hasbrouck (university housing)</option>
+<option value="collegetown">Collegetown (off campus)</option>
+<option value="downtown">Downtown (off campus)</option>
+<option value="fallcreek">Fall Creek (off campus)</option>
+<option value="westhill">West Hill (off campus)</option>
+</select></div>
+<div><label for="do-i-need-a-car-at-cornell-quiz-months">Months a year you are in Ithaca</label>
+<input type="number" id="do-i-need-a-car-at-cornell-quiz-months" min="1" max="12" step="1" value="9">
+<span class="tq-hint">Count the summer if you stay for research, a job or classes.</span></div>
+<div><label for="do-i-need-a-car-at-cornell-quiz-trips">Round trips home a year</label>
+<input type="number" id="do-i-need-a-car-at-cornell-quiz-trips" min="0" max="12" step="1" value="4"></div>
+<div><label for="do-i-need-a-car-at-cornell-quiz-dest">How you get home</label>
+<select id="do-i-need-a-car-at-cornell-quiz-dest">
+<option value="nyc" selected>New York City area, by bus</option>
+<option value="busother">Another city by bus (Boston, Philadelphia, DC, Toronto)</option>
+<option value="fly">I fly home</option>
+<option value="drive">It's a drive, with no good bus</option>
+</select></div>
+<div><label for="do-i-need-a-car-at-cornell-quiz-hours">Hours a month you'd drive in Ithaca</label>
+<input type="number" id="do-i-need-a-car-at-cornell-quiz-hours" min="0" max="120" step="1" value="2">
+<span class="tq-hint">Groceries, big-box stores, a job: the hours you would have a car out.</span></div>
+<div><label for="do-i-need-a-car-at-cornell-quiz-job">A job, internship or placement off campus</label>
+<select id="do-i-need-a-car-at-cornell-quiz-job">
+<option value="none" selected>None</option>
+<option value="bus">Yes, on a bus line or walkable</option>
+<option value="far">Yes, not on a bus line, every week</option>
+</select></div>
+<div><label for="do-i-need-a-car-at-cornell-quiz-age">Your age</label>
+<input type="number" id="do-i-need-a-car-at-cornell-quiz-age" min="15" max="80" step="1" value="18"></div>
+<div><label for="do-i-need-a-car-at-cornell-quiz-licensed">Years you've held a full driver's license</label>
+<input type="number" id="do-i-need-a-car-at-cornell-quiz-licensed" min="0" max="60" step="1" value="2">
+<span class="tq-hint">Enter 0 if you have no license or only a learner's permit.</span></div>
+<div class="tq-check"><input type="checkbox" id="do-i-need-a-car-at-cornell-quiz-foreign">
+<label for="do-i-need-a-car-at-cornell-quiz-foreign">My license is from outside the US</label></div>
+</div>
+</form>
+<div class="tool-result" id="do-i-need-a-car-at-cornell-quiz-result" aria-live="polite">
+<p>Your result appears here. If it does not, every number and formula is listed on this page so you can work it out by hand.</p>
+</div>
+<p class="tq-small" data-as-of="2026-11-08">Numbers as of 2026-11-08, from Cornell, Ithaca Carshare, Ithaca Bikeshare, airport and bus pages read that day.</p>
+<script>
+(function () {
+  var root = document.getElementById('tool-do-i-need-a-car-at-cornell-quiz');
+  if (!root) return;
+  var P = 'do-i-need-a-car-at-cornell-quiz-';
+  var PARK = 'https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students';
+  var BUS = 'https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes';
+  var CSS = 'https://www.ithacacarshare.org/students-commuters', CSR = 'https://www.ithacacarshare.org/rates', CSE = 'https://www.ithacacarshare.org/eligibility';
+  var D = '2026-11-08';
+  var NUMBERS = {
+    residentPermit: {value: 752.98, asOf: D, source: PARK},
+    commuterPermit: {value: 359.77, asOf: D, source: PARK},
+    gradAssistantPermit: {value: 0, asOf: D, source: PARK},
+    tcatCash: {value: 1.50, asOf: D, source: BUS},
+    omniRide: {value: 200, asOf: D, source: BUS},
+    c2cRoundTrip: {value: 187, asOf: D, source: 'https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates'},
+    ourbusFloorOneWay: {value: 33, asOf: D, source: 'https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny'},
+    nycAverageFareOneWay: {value: 61.91, asOf: D, source: 'https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/'},
+    ithLongTermWeek: {value: 40, asOf: D, source: 'https://www.flyithaca.com/parking'},
+    jicStudentYear: {value: 30, asOf: D, source: CSS},
+    imcStudentYear: {value: 310, asOf: D, source: CSS},
+    carshareSignup: {value: 20, asOf: D, source: CSR},
+    jicHour: {value: 9, asOf: D, source: CSR},
+    imcHour: {value: 6, asOf: D, source: CSR},
+    carshareUsageTax: {value: 0.20, asOf: D, source: CSR},
+    mileageLow: {value: 0.42, asOf: D, source: CSR},
+    mileageHigh: {value: 0.52, asOf: D, source: CSR},
+    carshareMinAge: {value: 18, asOf: D, source: CSE},
+    carshareMinYearsLicensed: {value: 2, asOf: D, source: CSE},
+    carshareYoungDriverAge: {value: 21, asOf: D, source: CSE},
+    carshareYoungLiability: {value: 300000, asOf: D, source: CSE},
+    bikeUnlock: {value: 1.50, asOf: D, source: 'https://www.ithacabikeshare.org'},
+    bikePerMinute: {value: 0.25, asOf: D, source: 'https://www.ithacabikeshare.org'},
+    bikeMonth: {value: 60, asOf: D, source: 'https://www.ithacabikeshare.org'},
+    cityResidentialPermit: {value: 45, asOf: D, source: 'https://www.cityofithacany.gov/731/Permit-Issuance'},
+    fineNoPermit: {value: 50, asOf: '2023-09-01', source: 'https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/'},
+    fineLateAdd: {value: 10, asOf: '2023-09-01', source: 'https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1'},
+    forumAgainstLowPct: {value: 67, asOf: '2016-05-13', source: 'https://talk.collegeconfidential.com/t/should-i-bring-a-car/1811430'},
+    forumAgainstHighPct: {value: 80, asOf: '2016-05-13', source: 'https://talk.collegeconfidential.com/t/should-i-bring-a-car/1811430'}
+  };
+  function v(k) { return NUMBERS[k].value; }
+  function $(id) { return root.querySelector('#' + P + id); }
+  function num(id, lo, hi) { var x = parseFloat($(id).value); if (isNaN(x)) x = lo; return Math.min(hi, Math.max(lo, x)); }
+  function m(x) { return '$' + x.toLocaleString('en-US', {minimumFractionDigits: (Math.round(x * 100) % 100) ? 2 : 0, maximumFractionDigits: 2}); }
+  function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+  function li(text, asOf) { return '<li data-as-of="' + (asOf || D) + '">' + esc(text) + '</li>'; }
+  var CODES = {north: 'ND (North)', west: 'WD (West)', south: 'SW (South)', hasbrouck: 'FH (Hasbrouck)'};
+
+  function compute() {
+    var status = $('status').value, home = $('home').value, dest = $('dest').value, job = $('job').value;
+    var months = num('months', 1, 12), trips = num('trips', 0, 12), hm = num('hours', 0, 120);
+    var age = num('age', 15, 80), yrs = num('licensed', 0, 60), foreign = $('foreign').checked;
+    var onCampus = !!CODES[home], firstYear = status === 'first' || status === 'spring';
+    var permit;
+    if (onCampus) permit = {kind: 'resident', name: 'a resident ' + CODES[home] + ' permit', price: v('residentPermit')};
+    else if (status === 'phd') permit = {kind: 'ga', name: 'a free Outer Tier A or E permit', price: v('gradAssistantPermit')};
+    else permit = {kind: 'b', name: 'a B student commuter permit', price: v('commuterPermit')};
+
+    var tcatHi = (status === 'upper' || status === 'masters') ? v('omniRide') : 0;
+    var hy = hm * months, tax = 1 + v('carshareUsageTax');
+    var jic = v('jicStudentYear') + v('carshareSignup') + v('jicHour') * hy;
+    var imc = v('imcStudentYear') + v('carshareSignup') + v('imcHour') * hy;
+    var useJic = jic <= imc, planName = useJic ? 'Just In Case' : "It's My Car";
+    var csLo = Math.min(jic, imc), csHi = csLo + (useJic ? v('jicHour') : v('imcHour')) * hy * (tax - 1);
+    var csOk = age >= v('carshareMinAge') && yrs >= v('carshareMinYearsLicensed');
+
+    var busLo = 0, busAvg = 0, busHi = 0;
+    if (dest === 'nyc') { busLo = trips * 2 * v('ourbusFloorOneWay'); busAvg = trips * 2 * v('nycAverageFareOneWay'); busHi = trips * v('c2cRoundTrip'); }
+    var flyPark = dest === 'fly' ? trips * v('ithLongTermWeek') : 0;
+
+    var pick;
+    if (dest === 'drive') pick = 'permit';
+    else if (hy === 0) pick = 'none';
+    else if (!csOk) pick = job === 'far' ? 'permit' : 'none';
+    else if (job === 'far') pick = csHi < permit.price ? 'carshare' : 'permit';
+    else if (permit.price > 0 && csLo >= permit.price) pick = 'permit';
+    else pick = 'carshare';
+
+    var head;
+    if (pick === 'none') head = 'Our pick: no car. Walk, ride TCAT and take the bus home.';
+    else if (pick === 'carshare') head = 'Our pick: no car of your own. Join Ithaca Carshare on the ' + planName + ' student plan.';
+    else head = 'Our pick: a car can make sense here, with ' + permit.name + (permit.price ? ' at ' + m(permit.price) + ' a year.' : '.');
+
+    var noLo = busLo + (pick === 'carshare' ? csLo : 0), noHi = tcatHi + busHi + (pick === 'carshare' ? csHi : 0);
+    var carCost = permit.price + flyPark;
+    var costs = 'Without a car: about ' + (noLo === noHi ? m(noLo) : m(noLo) + ' to ' + m(noHi)) + ' a year' +
+      (dest === 'nyc' ? ' for TCAT' + (pick === 'carshare' ? ', Carshare' : '') + ' and ' + trips + ' bus round trips to NYC.' : ' for TCAT' + (pick === 'carshare' ? ' and Carshare' : '') + ', not counting fares home.') +
+      ' With a car: ' + m(carCost) + ' a year for parking' + (flyPark ? ' (permit plus ' + m(flyPark) + ' at ITH long-term parking)' : '') + ', before gas, insurance, tolls and the car itself.';
+
+    var r = [], f = [];
+    if (status === 'first') r.push(li('Your Cornell ID rides TCAT free at all hours until Aug 31, 2027, so the bus costs you nothing this year.'));
+    else if (status === 'spring') r.push(li('A spring entrant rides TCAT free Jan 1 to Dec 31; a 2024 Cornell Sun report says transfers ride free as first-years (fall transfers to Aug 31 of the next year). Confirm at 607-255-4600.'));
+    else if (status === 'phd') r.push(li('PhD students and graduate assistants get a free TCAT OmniRide pass, good at all hours.'));
+    else r.push(li('You ride TCAT free after 6 p.m. on weekdays and all weekend. Daytime weekday rides are ' + m(v('tcatCash')) + ', or ' + m(v('omniRide')) + ' a year for OmniRide, which pays off after ' + Math.ceil(v('omniRide') / v('tcatCash')) + ' paid rides.' + (status === 'masters' ? " Johnson's MBA page says the first year is free." : '')));
+    if (permit.price > 0) r.push(li('A ' + m(permit.price) + ' permit works out to ' + m(Math.round(permit.price / 365 * 100) / 100) + ' a day, or ' + Math.round(permit.price / v('tcatCash')) + ' TCAT cash rides.'));
+    if (hy > 0) {
+      r.push(li('At ' + hy + ' hours of driving a year (' + hm + ' a month for ' + months + ' months), Just In Case costs ' + m(jic) + " and It's My Car " + m(imc) + ' with the ' + m(v('carshareSignup')) + ' sign-up, before the ' + Math.round(v('carshareUsageTax') * 100) + '% usage tax (' + m(csHi) + ' for ' + planName + ' with it). Below about ' + Math.round((v('imcStudentYear') - v('jicStudentYear')) / (v('jicHour') - v('imcHour'))) + ' hours a year Just In Case is cheaper. Mileage, ' + Math.round(v('mileageLow') * 100) + ' to ' + Math.round(v('mileageHigh') * 100) + ' cents a mile, is extra.'));
+      var hrs = (permit.price - v('imcStudentYear') - v('carshareSignup')) / v('imcHour');
+      if (hrs > 1) r.push(li('The permit price alone would buy about ' + Math.round(hrs * 10) / 10 + " hours of It's My Car driving at " + m(v('imcHour')) + ' an hour, before mileage and taxes.'));
+      if (pick === 'permit' && dest !== 'drive' && csOk) r.push(li('On parking alone the permit beats this much Carshare, but a car also costs gas, insurance and the car itself, which our numbers do not price. If you would buy a car only for this, compare those first.'));
+    } else r.push(li('You said you would not drive in Ithaca at all, so a car would mostly sit in a lot.'));
+    if (dest === 'nyc') r.push(li(trips + ' round trips to NYC cost ' + m(busLo) + ' at the OurBus floor (' + m(v('ourbusFloorOneWay')) + ' each way), ' + m(busAvg) + ' at the average advertised fare (' + m(v('nycAverageFareOneWay')) + '), or ' + m(busHi) + ' on Cornell\'s C2C (' + m(v('c2cRoundTrip')) + ' round trip with a NetID).'));
+    else if (dest === 'fly') r.push(li('Airfares and rides to the airport are not in our numbers. If you drive and park at ITH, long-term parking is ' + m(v('ithLongTermWeek')) + ' a week; we count one week per trip, so longer breaks cost more.'));
+    else if (dest === 'busother') r.push(li('This quiz prices NYC trips only; fares to other cities are in our bus guides.'));
+    else r.push(li('Your trip home is a drive with no good bus, the strongest reason to keep a car here. Gas and tolls are not in our numbers.'));
+    if (pick !== 'permit') r.push(li('For short hops, Ithaca Bikeshare is ' + m(v('bikeUnlock')) + ' to unlock plus ' + m(v('bikePerMinute')) + ' a minute (' + m(v('bikeUnlock') + 20 * v('bikePerMinute')) + ' for 20 minutes, before tax), or ' + m(v('bikeMonth')) + ' a month.'));
+    if (firstYear) r.push(li('In a 2016 College Confidential thread, ' + v('forumAgainstLowPct') + '% of the arguments (and about ' + v('forumAgainstHighPct') + '% of the posters) told an incoming first-year to skip the car. One thread, not a survey.', '2016-05-13'));
+
+    if (firstYear) f.push(li("Cornell's families page says first-years are discouraged from bringing a car, though limited permits exist." + (home === 'north' ? ' The ND permit is extremely limited and capped to North Campus residents.' : '')));
+    if (permit.kind === 'resident') f.push(li('Resident permits are only for students in university housing in that area. The 2026-27 sale opened Aug 4, 2026, first come first served, for permits valid Aug 16, 2026 to Aug 15, 2027; whether any are left now is not in our numbers.' + (home === 'west' || home === 'south' ? ' A summary of the sale notice says resident permits were capped to North Campus residents, so check before counting on one.' : '')));
+    if (permit.kind === 'resident' && status === 'phd') f.push(li('Grad students in university housing are not eligible for the free A or E permit, so you would pay the resident price.'));
+    if (permit.kind === 'ga') f.push(li('The free Outer Tier A and E permits need a full assistantship on the Ithaca campus, checked in Workday; E also needs work in its zone. Without one, the B commuter permit is ' + m(v('commuterPermit')) + '.'));
+    if (permit.kind === 'b') f.push(li('Off campus you cannot get a resident permit; the B permit (' + m(v('commuterPermit')) + ', B Lot any time, A Lot after 2:30 p.m.) is limited and sold first come first served.'));
+    if (!onCampus) f.push(li('At home, a City of Ithaca residential parking permit is ' + m(v('cityResidentialPermit')) + ' a year if your street needs one; your landlord cannot get it for you.'));
+    if (home === 'westhill') f.push(li('TCAT routes 14S and 83 for West Hill have been suspended since fall 2023, which makes the bus harder from there.'));
+    if (age < v('carshareMinAge')) f.push(li('Ithaca Carshare members must be ' + v('carshareMinAge') + ' or older.'));
+    if (yrs < v('carshareMinYearsLicensed')) f.push(li('Ithaca Carshare needs a full, unrestricted license held ' + v('carshareMinYearsLicensed') + ' years or more, so you cannot join yet.'));
+    if (csOk && age < v('carshareYoungDriverAge')) f.push(li('Under ' + v('carshareYoungDriverAge') + ', Carshare needs a spotless record, your own insurance policy with at least ' + m(v('carshareYoungLiability')) + ' per accident liability, and a Younger Driver consent form.'));
+    if (foreign) f.push(li('With a foreign license, Carshare needs an official driving record; an International Driving Permit does not count, and some countries cannot be approved.'));
+    if (pick === 'permit' || dest === 'drive') f.push(li('Winter: Dec 1 to Apr 1, overnight campus parking follows the snow rules (resident-permit holders stay in their lots). On city streets, odd/even parking runs Nov 1 to Apr 1, and a car left on a street over break can be towed as abandoned.'));
+    if (months >= 10) f.push(li('Summer: student permits end Aug 15 and the next year\'s start Aug 16; TCAT passes run to Aug 31.'));
+    if (pick === 'permit' || dest === 'drive') f.push(li('Parking on campus without a permit or payment is a ' + m(v('fineNoPermit')) + ' ticket, plus ' + m(v('fineLateAdd')) + ' if unpaid after 10 days.', '2023-09-01'));
+
+    root.querySelector('#' + P + 'result').innerHTML =
+      '<p class="tq-pick">' + esc(head) + '</p><p data-as-of="' + D + '">' + esc(costs) + '</p>' +
+      '<p><strong>Why</strong></p><ul>' + r.join('') + '</ul>' +
+      (f.length ? '<p><strong>Check before you decide</strong></p><ul>' + f.join('') + '</ul>' : '') +
+      '<p class="tq-small" data-as-of="' + D + '">Numbers as of 2026-11-08; the forum tally is from 2016 and the fine schedule from Sept 1, 2023.</p>' +
+      '<p class="tq-small">Estimated: your driving hours are your guess; bus fares are advertised floors and averages, not booked fares; gas, insurance, tolls, airfare and the car itself are not counted.</p>';
+  }
+  var inputs = root.querySelectorAll('input, select');
+  for (var i = 0; i < inputs.length; i++) { inputs[i].addEventListener('input', compute); inputs[i].addEventListener('change', compute); }
+  compute();
+})();
+</script>
+</div>

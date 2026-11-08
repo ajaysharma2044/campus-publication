@@ -1,0 +1,157 @@
+{
+ "slug": "uber-lyft-taxi-ithaca-cornell",
+ "queue_id": "q-getting-around-0045",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Three taxi firms 24/7 with phones 607-252-9052, 607-588-8888, 607-277-7777; no fares; prebook for late flights; Ithaca Airport Cab all payment types no card fee; Collegetown Cab phone/online/app",
+   "source_url": "brief §2 (flyithaca.com/taxis)",
+   "status": "ok",
+   "note": "brief §2 taxis row"
+  },
+  {
+   "claim": "Older airport page: Collegetown Cab $12 base within 1 mile, $15 minimum beyond, $1.50 bag; ASAPCAB $14 per person",
+   "source_url": "brief §2 (flyithaca.com/?p=13)",
+   "status": "ok",
+   "note": "brief §2"
+  },
+  {
+   "claim": "Uber and Lyft by app at ITH; Uber does not offer taxis at ITH",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2 rideshare row"
+  },
+  {
+   "claim": "Visit Ithaca May 12, 2026: Uber/Lyft limited outside downtown; car not needed for family weekend",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief rideshare/visitor guide row"
+  },
+  {
+   "claim": "Uber/Lyft trial began mid-2017; MBA page lists Lyft, Uber, local cabs",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief rows"
+  },
+  {
+   "claim": "Blue Light bus Route 92, 6:30 p.m. to 2:30 a.m., year-round; night routes 90, 92, 93",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief Blue Light and night routes rows"
+  },
+  {
+   "claim": "TCAT free for upper-years after 6 p.m. weekdays and all weekend",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief 2.10"
+  },
+  {
+   "claim": "ITH terminal 3:30 a.m. to midnight; TCAT 32 weekdays, 72 weekends, $1.50",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief airport hours and bus rows; $1.50 from brief TCAT fare"
+  },
+  {
+   "claim": "2017 Ithacan sample: UberX $7.35-$9.59, UberXL $10.50-$14.18, taxi $11 to Commons; airport UberX $17.49, UberXL $27.56, taxi $19; sample size not stated; six zones",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief 2017 fare sample and taxi zones rows"
+  },
+  {
+   "claim": "UberX $1.51 less than cab to airport; UberXL $8.56 more",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "19-17.49=1.51; 27.56-19=8.56"
+  },
+  {
+   "claim": "Example: $15 + 3 x $1.50 = $19.50; 3 x $14 = $42",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "recomputed, correct"
+  },
+  {
+   "claim": "Nine years old (2017 sample)",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "2026-2017=9"
+  },
+  {
+   "claim": "2017 surge: 3.5-mile ride over $20; students liked apps in a hurry",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief rows, surge example and theme 23"
+  },
+  {
+   "claim": "Late-night gaps in four sources 2016 to 2024 (two Sun, Ithacan, one Reddit mirror)",
+   "source_url": "brief §7.1 theme 14",
+   "status": "ok",
+   "note": "brief theme 14"
+  },
+  {
+   "claim": "SA president 2024: 'literally no transportation available' for 5:30 a.m. flights",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief line quoting the Sun 2024"
+  },
+  {
+   "claim": "Big D's Limousines 607-273-3030 ext 2, no price; Finger Lakes Rideshare and Student Rideboard, no price",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief rows"
+  },
+  {
+   "claim": "North Campus move-in: Uber and taxi go to A Lot",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief move-in row"
+  },
+  {
+   "claim": "Ithaca Dispatch largest fleet; also dispatches University Taxi, Yellow Cab, Cayuga Taxi",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief LocalWiki row"
+  },
+  {
+   "claim": "Coco Wen '26 described a long wait because Google Maps times were wrong, then an Uber; other students worried about 20-30 min walk after 10:30 p.m. class",
+   "source_url": "https://cornellsun.com/2022/09/06/tcat-implements-massive-service-cut-due-to-driver-shortage/",
+   "status": "ok",
+   "note": "fixed in place: Source: Wen herself said the bus had not come ten minutes before her internship so she took an Uber (Sun notes Google Maps often lists inaccurate times), and that her night classes end ~10:30 p.m. and she would probably walk 20 to 30 minutes. Page had split this into Wen plus 'other students'; rewritten as Wen only."
+  },
+  {
+   "claim": "Students said Uber is hard to get downtown late at night (plural)",
+   "source_url": "https://cornellsun.com/2022/09/06/tcat-implements-massive-service-cut-due-to-driver-shortage/",
+   "status": "ok",
+   "note": "fixed in place: Source quote is one student, Ribo Li '24: 'I find it especially hard to call Uber in downtown Ithaca at night.' Changed plural to one student in the answer paragraph and the reliability section."
+  },
+  {
+   "claim": "Common mistakes: 'Students in 2022 paid for rides after waiting on buses'",
+   "source_url": "same Sun 2022 story",
+   "status": "ok",
+   "note": "fixed in place: One student (Wen); reworded to singular. Page said 'she'; source/pronoun usage consistent with the article's 'her'."
+  },
+  {
+   "claim": "Ithaca Carshare Just In Case plan is $30 a year plus $9 an hour",
+   "source_url": "https://www.ithacacarshare.org/rates",
+   "status": "ok",
+   "note": "fixed in place: Rates page and brief 2.20 show Just In Case $75 a year ($7.50/month), $9 an hour. $30 is a student plan figure from elsewhere in the brief, not on the linked page. Changed to $75."
+  },
+  {
+   "claim": "Holiday service not confirmed; a 2013 Sun column said no TCAT on Thanksgiving",
+   "source_url": "brief §2 (Sun 2025 TCAT holidays)",
+   "status": "ok",
+   "note": "fixed in place: Brief has a newer source: TCAT has no service Thanksgiving or Christmas (Sun 2025-07-02). Sentence now states this and keeps the 2013 column (confirmed: 'no TCAT service on Thanksgiving'); source added to frontmatter."
+  }
+ ],
+ "beats_top": {
+  "query": "Uber Lyft Ithaca reliable taxi",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

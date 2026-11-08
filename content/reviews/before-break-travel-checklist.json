@@ -1,0 +1,211 @@
+{
+ "slug": "before-break-travel-checklist",
+ "queue_id": "q-getting-around-0064",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "C2C new system and new account for all riders from Nov 4, 2026",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1 and Key facts"
+  },
+  {
+   "claim": "C2C fare $93.50 NetID, $101 public, one way",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief rates table rows"
+  },
+  {
+   "claim": "2026 link through Dec 23, 2026; 2027 link from Jan 6, 2027; nothing Dec 24 to Jan 5",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief two-link row and checklist step 2"
+  },
+  {
+   "claim": "C2C cancel $10 a seat at 8+ hours, $30 inside 8 hours; date change inside 8 hours $30",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief policies rows"
+  },
+  {
+   "claim": "Board 10 minutes early with matching photo ID; missing outbound does not cancel return",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief boarding and missed-bus rows"
+  },
+  {
+   "claim": "C2C luggage: 2 suitcases below deck plus 2 small carry-ons",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief luggage row"
+  },
+  {
+   "claim": "B Lot: temporary parking up to 14 days; email exemption rule effective Oct 10, 2024",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief B Lot rows"
+  },
+  {
+   "claim": "OurBus peak days: Wed before Thanksgiving (Nov 25, 2026), last day of December finals, Friday spring break begins",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief peak-dates row; Nov 25, 2026 is a Wednesday (Nov 26 Thursday), recomputed from the calendar"
+  },
+  {
+   "claim": "Thanksgiving-week fare rise +27.9% Binghamton, +34.2% Rochester, +37.9% DC; mean +33.3%; 51 priced dates",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief row; recomputed mean (27.9+34.2+37.9)/3 = 33.33 and 15+17+19 = 51; both match"
+  },
+  {
+   "claim": "Wanderu Ithaca-NYC about $66 in November vs about $41 in January",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief Wanderu monthly signals row (aggregator claim, labelled as such)"
+  },
+  {
+   "claim": "OurBus downtown stop moves to 235 S. Cayuga St from Nov 9, 2026",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief row; Nov 9, 2026 is a Monday, matches the source URL's 'Monday'"
+  },
+  {
+   "claim": "OurBus extra bag $30 prepaid (search summary, 2024); OurBus credit not cash on cancellation; Greyhound one carry-on and one checked bag",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief carries the same hedge ('search summary, not opened'); the page repeats the hedge in the table"
+  },
+  {
+   "claim": "TCAT 32 (weekdays) and 72 (weekends) to the airport cost $1.50",
+   "source_url": "https://www.flyithaca.com/news/traveling-to-and-from-ith",
+   "status": "ok",
+   "note": "fixed in place: The linked ITH public-transportation page lists no fare (only payment options); the ITH news page 'Traveling to and from ITH' states $1.50 adults and routes 32/72 to the Commons. Replaced the source link in the table, frontmatter sources and tool.html U.ithTransit. Value unchanged. Weekday/weekend split is on the public-transportation page and in brief §2.7."
+  },
+  {
+   "claim": "ITH has two scheduled nonstops (JFK Delta, IAD United); taxi names and phone numbers",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief airlines and taxis rows: 607-252-9052, 607-588-8888, 607-277-7777"
+  },
+  {
+   "claim": "No bus meets dawn flights",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief states it, attributed to the SA president in the Sun 2024 for 5:30 a.m. flights; the ITH pages give no bus times either way"
+  },
+  {
+   "claim": "OurBus to SYR $46.70 to $62.10 each way, Sunday cheapest, six days a week, three campus pickups, Terminal A",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief OurBus SYR route row"
+  },
+  {
+   "claim": "FlixBus runs direct to Newark Penn, not the airport; no direct bus to JFK/LaGuardia",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief NYC airports entry; the page cites the 2019 Sun piece alongside checkmybus, but the page's wording does not attribute those routes to the Sun alone"
+  },
+  {
+   "claim": "ITH long-term parking $8 a day, $40 a week; SYR economy $14 daily max",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief parking rows (ITH 5 to 24 h $8, weekly $40; SYR Red/Purple economy daily max $14)"
+  },
+  {
+   "claim": "Airport parking formula: ITH = whole weeks x $40 + min(leftover days x $8, $40); SYR = days x $14; 5 days ITH $40, SYR $70; 14 days ITH $80, SYR $196",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: 5 days: 0x40 + min(40,40) = 40; 5x14 = 70. 14 days: 2x40 + min(0,40) = 80; 14x14 = 196. The JS in tool.html uses the same formula. Page states the weekly-rate/partial-week assumption openly."
+  },
+  {
+   "claim": "Campus winter overnight rules start Dec 1 (to Apr 1); FH, ND, SW, WD permit holders park in their own lots; students in university housing may leave cars in permit area year-round",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "brief key facts and winter-break parking rows"
+  },
+  {
+   "claim": "City odd/even Nov 1 to Apr 1, 7 p.m. to 6 a.m.; ticketing, towing possible after 72 hours; car left on street over break may be treated as abandoned, towed, impounded",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "brief city odd/even rows (code via search summary; page labels it so)"
+  },
+  {
+   "claim": "Winter break housing: apply by Dec 1, 2026 (opened Oct 1); $125 per one-week option, $500 full break; for students returning to campus housing in spring",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing",
+   "status": "ok",
+   "note": "Brief §2.22 and re-read live 2026-11-08; page also says flat fees and eligibility as stated"
+  },
+  {
+   "claim": "Ten open buildings incl. Mews, Toni Morrison, Cascadilla, Townhouse Apartments",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing",
+   "status": "ok",
+   "note": "Live page lists exactly ten 2026-27 buildings including those four; matches brief"
+  },
+  {
+   "claim": "Campus mail and packages stop Dec 23 and resume Jan 7, 2027; dining usually closed the week the university is closed",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing",
+   "status": "ok",
+   "note": "Live page: last delivery Dec 23, resumes Jan 7; Dining 'traditionally closes all operations' that week"
+  },
+  {
+   "claim": "In 2025 undergraduate residences closed 2 p.m. Sunday Dec 21",
+   "source_url": "brief §2.22",
+   "status": "ok",
+   "note": "brief 2025 closing precedent row; Dec 21, 2025 is a Sunday; page says 2026 date not found"
+  },
+  {
+   "claim": "Student storage boxes-only $150 to $300 (company blog); Big Red Shipping and Storage 607-524-3130, free in-room pickup, limited slots, no prices",
+   "source_url": "brief §2.21",
+   "status": "ok",
+   "note": "brief storage rows; page labels the figure as company blog, not an Ithaca quote"
+  },
+  {
+   "claim": "Ithaca Carshare student Just In Case $30 a year plus $9 an hour",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "brief Carshare rows"
+  },
+  {
+   "claim": "Spare clothes and toiletries in the carry-on, a tip from an international student in 2019; double-check bus times",
+   "source_url": "https://cornellsun.com/2019/05/06/international-students-travel-cornell/",
+   "status": "ok",
+   "note": "Source: Pia Bocanegra '19 says to bring extra clothes and toiletries in her carry-on; a second student (Jaewon Sim '21) says to triple-check the bus schedule. Page says 'a tip from an international student' for the first and 'double-check the bus times' as its own line, so no misattribution."
+  },
+  {
+   "claim": "A 2013 Sun column said no buses ran on Thanksgiving Day",
+   "source_url": "https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved",
+   "status": "ok",
+   "note": "Column text: 'With dining halls closed and no TCAT service on Thanksgiving'"
+  },
+  {
+   "claim": "Storm items: Jan 2019 storm, Cornell bus cancelled its Syracuse run; Dec 1-2, 2019 storm cancelled OurBus trips, student forecaster advised Saturday night or early Sunday; TCAT snow routes and Bus Tracker/Transit/MyStop apps",
+   "source_url": "brief §2.8 / §2.9 / §10",
+   "status": "ok",
+   "note": "brief storm rows and TCAT snow-routes row"
+  },
+  {
+   "claim": "Free Student Assembly charters ran in past finals weeks; none found for fall 2026; no Thanksgiving airport shuttle found for 2026, last one in 2023 (Swarthout)",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief SA R18/R83 and Thanksgiving 2023 shuttle rows; absence claim is dated 'as of Nov 8' and framed as not found"
+  },
+  {
+   "claim": "Thanksgiving is Thursday Nov 26, 2026",
+   "source_url": "calendar",
+   "status": "ok",
+   "note": "Nov 1, 2026 is a Sunday, so Nov 26 is a Thursday; brief §9 says the same"
+  }
+ ],
+ "beats_top": {
+  "query": "Cornell before break checklist",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

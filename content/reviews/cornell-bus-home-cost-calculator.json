@@ -1,0 +1,163 @@
+{
+ "slug": "cornell-bus-home-cost-calculator",
+ "queue_id": "q-getting-around-0059",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "C2C NetID $93.50 one way, $187 round trip, includes $6 surcharge",
+   "source_url": "brief §2 (C2C rates)",
+   "status": "ok",
+   "note": "brief §2 and §3.1; same value and date."
+  },
+  {
+   "claim": "C2C public $101 one way, $202 round trip",
+   "source_url": "brief §2 (C2C rates)",
+   "status": "ok",
+   "note": "brief §2; $101 - $93.50 = $7.50 recomputed."
+  },
+  {
+   "claim": "C2C luggage: 2 suitcases below deck plus 2 small carry-ons",
+   "source_url": "brief §2 (C2C policies)",
+   "status": "ok",
+   "note": "brief §2 luggage row."
+  },
+  {
+   "claim": "C2C cancellation/change fees $10 or $30",
+   "source_url": "brief §2 (C2C policies)",
+   "status": "ok",
+   "note": "brief §2."
+  },
+  {
+   "claim": "C2C stops: Weill Cornell 1300 York Ave, Cornell Club 6 E 44th St; trip 4.5 to 5 h from B Lot",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2 stops and trip-length rows."
+  },
+  {
+   "claim": "Wanderu floors OurBus $25, FlixBus $30, Greyhound $37; Coach USA $28.98, Megabus $29, Trailways $43",
+   "source_url": "brief §3.1",
+   "status": "ok",
+   "note": "brief §3.1 six-carrier row, week of 2026-11-08."
+  },
+  {
+   "claim": "Wanderu averages OurBus $69.23, FlixBus $73.50, Greyhound $82.31",
+   "source_url": "brief §3.1",
+   "status": "ok",
+   "note": "brief §3.1 and §10.6."
+  },
+  {
+   "claim": "Average of six carriers' averages $61.91, range $44.54 to $82.31, n = 6",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "brief sum 371.48 / 6 = 61.91 rechecked."
+  },
+  {
+   "claim": "Cheapest advertised seat about 40% of a typical average fare",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "Recomputed 25 / 61.91 = 0.404."
+  },
+  {
+   "claim": "OurBus own page from $33; Greyhound own page from $43.98 (earlier $37.98)",
+   "source_url": "brief §3.1",
+   "status": "ok",
+   "note": "brief §3.1 rows. $33 x 8 = $264 vs $200 matches brief 10.18 range."
+  },
+  {
+   "claim": "Thanksgiving premium +33.3% mean; +27.9% Binghamton (n=15), +34.2% Rochester (n=17), +37.9% DC (n=19); 51 dates",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief §3.2 and §10.9; 15+17+19 = 51."
+  },
+  {
+   "claim": "OurBus 1 large bag guaranteed per ticket, extra only if space remains (Sun, 2024-02-01)",
+   "source_url": "brief §2 (OurBus luggage)",
+   "status": "ok",
+   "note": "brief line 133."
+  },
+  {
+   "claim": "OurBus extra bag $30 prepaid, search summary, page not opened",
+   "source_url": "brief §2 (OurBus extra bag fee)",
+   "status": "ok",
+   "note": "brief line 134 marks it as an unopened search summary; the page says the same."
+  },
+  {
+   "claim": "Greyhound: 1 carry-on (16 x 12 x 7 in, 25 lb) and 1 checked bag free; Flexible fare adds a second",
+   "source_url": "brief §2 (Greyhound luggage)",
+   "status": "ok",
+   "note": "brief line 153."
+  },
+  {
+   "claim": "OurBus trip time 4 h 10 min to 7 h; Greyhound 4 h 20 min fastest",
+   "source_url": "brief §2 / §10.7",
+   "status": "ok",
+   "note": "brief lines 126, 1267."
+  },
+  {
+   "claim": "Wanderu claims about 14 days ahead is cheapest",
+   "source_url": "brief §3.1",
+   "status": "ok",
+   "note": "brief Wanderu signals row."
+  },
+  {
+   "claim": "Default example: C2C 8 x $93.50 = $748",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "93.5 x 8 = 748."
+  },
+  {
+   "claim": "OurBus floor $200 + $16.65 Thanksgiving = $216.65",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "8 x 25 = 200; 2 x 25 x 0.333 = 16.65."
+  },
+  {
+   "claim": "OurBus average 8 x $69.23 = $553.84 + $46.11 = $599.95",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "553.84; 2 x 69.23 x 0.333 = 46.107; sum 599.95."
+  },
+  {
+   "claim": "C2C $531.35 more than OurBus floor (3.5 times); $148.05 more at average (1.2 times)",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "748 - 216.65 = 531.35, 748 / 216.65 = 3.45; 748 - 599.95 = 148.05, ratio 1.25 (toFixed(1) gives 1.2)."
+  },
+  {
+   "claim": "C2C's $60.50 to $66.50 extra each way over the cheapest seat",
+   "source_url": "brief §10.7",
+   "status": "ok",
+   "note": "fixed in place: Those brief figures use OurBus $33 and FlixBus $27, not the $25 floor the tool uses. Changed to $68.50 extra each way over the $25 OurBus floor (93.50 - 25 = 68.50)."
+  },
+  {
+   "claim": "Commercial buses use West Side and Port Authority stops",
+   "source_url": "brief §2 / §9",
+   "status": "ok",
+   "note": "fixed in place: Brief says OurBus drops at GWB, Hudson Yards and Madison Ave at 26th; only Greyhound and FlixBus use Port Authority. Reworded to name each."
+  },
+  {
+   "claim": "Public fare costs $7.50 more a trip",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "101 - 93.50 = 7.50."
+  },
+  {
+   "claim": "Thanksgiving range for the default: +27.9% to +37.9% applied to 2 x floor",
+   "source_url": "tool.html NUMBERS",
+   "status": "ok",
+   "note": "Constants in tool.html match the brief; as-of dates match the page."
+  }
+ ],
+ "beats_top": {
+  "query": "Cornell bus home cost C2C vs OurBus",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

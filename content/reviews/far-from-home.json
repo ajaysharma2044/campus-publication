@@ -1,0 +1,103 @@
+{
+ "slug": "far-from-home",
+ "queue_id": "q-getting-around-0076",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Winter break housing applications run Oct 1 to Dec 1",
+   "source_url": "brief §2.22, §7 dates table (rows Oct 1, Dec 1)",
+   "status": "ok",
+   "note": "brief §2.22 and the dates table: applications open Oct 1, close Dec 1."
+  },
+  {
+   "claim": "Thanksgiving Day is Thu Nov 26, 2026",
+   "source_url": "brief §7 dates note",
+   "status": "ok",
+   "note": "Brief states Thursday Nov 26, 2026; recomputed: Nov 1, 2026 is a Sunday, so Nov 26 is a Thursday."
+  },
+  {
+   "claim": "The Wednesday before Thanksgiving is a peak travel day",
+   "source_url": "brief §2.4 (OurBus peak dates)",
+   "status": "ok",
+   "note": "brief names the Wednesday before Thanksgiving as an OurBus peak day."
+  },
+  {
+   "claim": "Return weekend after Thanksgiving carries storm risk",
+   "source_url": "brief §7 dates table",
+   "status": "ok",
+   "note": "Brief row cites the Dec 1-2, 2019 storm that cancelled OurBus trips."
+  },
+  {
+   "claim": "Student Assembly has funded free airport charters in past finals weeks; none found for fall 2026 as of Nov 8",
+   "source_url": "brief §2.12, §6.9, §10.5",
+   "status": "ok",
+   "note": "Brief: charters funded May 2024, fall 2025 (R18), spring 2026 (R83); 'No fall 2026 run was found as of Nov 8' (§6.9)."
+  },
+  {
+   "claim": "Buildings close for move-out at 2 p.m. Sun May 17 in 2026",
+   "source_url": "brief §2 move-out row, §7 (Mid-May)",
+   "status": "ok",
+   "note": "Brief matches: 2:00 p.m. Sunday May 17, 2026."
+  },
+  {
+   "claim": "Guide 1 /getting-around/flying-home-from-cornell-airports-rides/ covers the whole trip by airport and break",
+   "source_url": "content/articles/getting-around/flying-home-from-cornell-airports-rides.md",
+   "status": "ok",
+   "note": "File exists; title and meta (ITH/SYR, rides, bags, timing) match the description."
+  },
+  {
+   "claim": "Guide 2 compares ITH, SYR, ELM side by side",
+   "source_url": "content/articles/getting-around/ith-syr-or-elm-which-airport-for-cornell.md",
+   "status": "ok",
+   "note": "Exists; title matches."
+  },
+  {
+   "claim": "Guide 3 covers campus to SYR (OurBus, car service, driving)",
+   "source_url": "content/articles/getting-around/syracuse-airport-to-cornell-ourbus-car-service.md",
+   "status": "ok",
+   "note": "Exists; title matches."
+  },
+  {
+   "claim": "Guide 4 covers campus to ITH incl. TCAT 32 and 72, taxis, parking, early flights",
+   "source_url": "content/articles/getting-around/cornell-to-ithaca-airport-tcat-taxi-parking.md",
+   "status": "ok",
+   "note": "Exists; title matches; meta mentions dawn flights; brief §2.7 TCAT 32 weekdays / 72 weekends."
+  },
+  {
+   "claim": "Guide 5 covers Thanksgiving: when to book and what it costs",
+   "source_url": "content/articles/getting-around/cornell-thanksgiving-break-bus-tickets-when-to-book.md",
+   "status": "ok",
+   "note": "Exists; title matches."
+  },
+  {
+   "claim": "Guide 6 covers move-out storage, shipping, loading zones",
+   "source_url": "content/articles/getting-around/cornell-move-out-storage-shipping-options.md",
+   "status": "ok",
+   "note": "Exists; title matches."
+  },
+  {
+   "claim": "Guide 7 is the pillar covering every way in and out of Ithaca",
+   "source_url": "content/articles/getting-around/getting-to-ithaca-and-around-cornell.md",
+   "status": "ok",
+   "note": "Exists; title 'Getting to Ithaca and around Cornell, 2026-27' matches."
+  },
+  {
+   "claim": "Closing links: winter break travel home guide and staying-in-Ithaca guide",
+   "source_url": "content/articles/getting-around/cornell-winter-break-travel-home-2026.md ; staying-in-ithaca-over-cornell-breaks.md",
+   "status": "ok",
+   "note": "Both exist; link text 'Getting home for Cornell winter break, 2026-27' matches the title exactly; staying guide title shortened in link text but same page."
+  }
+ ],
+ "beats_top": {
+  "query": "flying home from Cornell",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "beyond-nyc",
+  "queue_id": "q-getting-around-0077",
+  "verdict": "pass",
+  "checked": [
+    {"claim": "Cornell's own C2C bus only runs to Manhattan", "source_url": "brief §2.3, §11 (C2C stops: Weill and Cornell Club)", "status": "ok", "note": "brief; matches the Boston/Philadelphia/DC/Toronto guide's meta 'C2C stops at NYC'"},
+    {"claim": "OurBus's downtown Ithaca stop moves to 235 S. Cayuga St on Mon Nov 9, 2026", "source_url": "brief §2.6", "status": "ok", "note": "brief §2.6 (FingerLakes1 relaying City of Ithaca release); Nov 9, 2026 is a Monday (Nov 8 is Sunday per brief sample dates). Matches the bus-stops guide's meta."},
+    {"claim": "Tue Nov 17 and Wed Nov 18, 2026 are the cheapest dates seen to DC, Philadelphia and Newark in the Nov 8 fare sample", "source_url": "brief §10 fare samples", "status": "ok", "note": "brief: DC lowest $49 Tue 11/17; Philadelphia lowest $41 Wed 11/18; Newark Penn lowest $36 Wed 11/18. Sample read 2026-11-08."},
+    {"claim": "Thanksgiving week Nov 23 to 27, 2026; Thanksgiving Day is Thu Nov 26; fares run higher", "source_url": "brief §10.9, timeline", "status": "ok", "note": "brief: Thanksgiving week Nov 23 to 27, fares 28% to 38% above earlier November days. Thanksgiving is the fourth Thursday, Nov 26, 2026; recomputed from Nov 8 = Sunday."},
+    {"claim": "The Wednesday before Thanksgiving is a peak day", "source_url": "brief §2.4 (OurBus blog)", "status": "ok", "note": "brief: OurBus names the Wednesday before Thanksgiving as a peak day."},
+    {"claim": "Return weekend after Thanksgiving: storm risk on the way back", "source_url": "brief timeline (Dec 1-2, 2019 storm cancelled OurBus trips)", "status": "ok", "note": "brief; stated as risk only, no number."},
+    {"claim": "Last day of December finals is a peak travel day", "source_url": "brief §2.4", "status": "ok", "note": "brief: OurBus names last day of December finals as a peak day."},
+    {"claim": "Guide 2: Newark Penn ticket is not a Newark Airport ticket; New Jersey trip", "source_url": "brief §2.9, §10.16 caveat", "status": "ok", "note": "brief: 'Newark Penn is not Newark Airport'; guide meta says only Newark Airport has a direct bus (OurBus)."},
+    {"claim": "Guide descriptions (main guide covers Boston, Philadelphia, DC, Toronto; stops guide covers campus and downtown stops; Thanksgiving guide covers peak days and when to buy; pillar covers every way in and out incl. flights; winter break and flying guides)", "source_url": "guide titles and metas in content/articles/getting-around/", "status": "ok", "note": "All seven linked guides exist; titles and metas match what the start page says each covers. Flying guide meta covers ITH and SYR flights; pillar covers flights per brief calendar addition."}
+  ],
+  "brief_updates": [],
+  "fixes": [],
+  "core_answer": "right",
+  "checked_at": "2026-11-08"
+}

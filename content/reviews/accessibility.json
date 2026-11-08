@@ -1,0 +1,91 @@
+{
+ "slug": "accessibility",
+ "queue_id": "q-getting-around-0081",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Contact SDS about the AP (accessible) permit before student permit sales open Tue Aug 4, 2026, 9 a.m., first come first served",
+   "source_url": "brief §2 (permit sales rows), §4 timeline; https://fcs.cornell.edu/node/17809",
+   "status": "ok",
+   "note": "brief §2 has Tue Aug 4, 2026 9 a.m., first come first served, and AP via SDS first. The brief marks node 17809 as 403 on re-check; no contradicting source. Aug 4, 2026 is a Tuesday (recomputed)."
+  },
+  {
+   "claim": "North Campus move-in days Mon Aug 17, Tue Aug 18, Fri Aug 21 to Sat Aug 22 (year inferred as 2026)",
+   "source_url": "brief §2 move-in dates",
+   "status": "ok",
+   "note": "Same dates and the same 'year inferred' caveat as the brief. Weekdays recomputed for 2026: Aug 17 Mon, 18 Tue, 21 Fri, 22 Sat."
+  },
+  {
+   "claim": "Nov 4, 2026: new C2C reservation system starts, everyone needs a new account",
+   "source_url": "brief §2 and §4 timeline",
+   "status": "ok",
+   "note": "Matches the brief and the Oct 22, 2026 Cornell announcement it cites."
+  },
+  {
+   "claim": "Call to arrange wheelchair access ten business days before any C2C trip",
+   "source_url": "brief §2 (C2C additional information)",
+   "status": "ok",
+   "note": "Brief says at least 2 weeks (10 business days) ahead, phone 607-254-8747. Same figure appears in the C2C guide."
+  },
+  {
+   "claim": "Dec 1 to Apr 1: Cornell winter overnight parking rules",
+   "source_url": "brief §2.16 and §4 timeline",
+   "status": "ok",
+   "note": "Brief gives Dec 1 to Apr 1 for Cornell overnight rules, linked to the winter-break parking rules page."
+  },
+  {
+   "claim": "Parking guide: how the AP permit works and why SDS comes first",
+   "source_url": "brief §2 permit table",
+   "status": "ok",
+   "note": "The permit guide's table says AP goes through Student Disability Services first, $359.77; matches the brief."
+  },
+  {
+   "claim": "C2C guide covers booking with a wheelchair or a service animal, and the phone call before the trip",
+   "source_url": "brief §2 (C2C rows)",
+   "status": "ok",
+   "note": "The brief lists ADA service animals allowed and the wheelchair call. The C2C guide has the wheelchair call and a reader block for wheelchair users."
+  },
+  {
+   "claim": "TCAT guide: when you ride free, when a fare applies, how to ask for the reduced fare",
+   "source_url": "brief §2 TCAT reduced-fare row",
+   "status": "ok",
+   "note": "The TCAT guide states the $0.75 fare for riders with disabilities, which the brief carries. The airport guide has the 'tell the driver before you tap' wording. Fine as a summary."
+  },
+  {
+   "claim": "Move-in guide covers where to unload, where a taxi or Uber drops you, and when staff help ends",
+   "source_url": "brief §2 move-in rows",
+   "status": "ok",
+   "note": "Guide has A Lot for Uber and taxi arrivals (brief) and staff-help end times per day. The page does not repeat the times."
+  },
+  {
+   "claim": "Airport guide (TCAT 32 and 72, taxis, parking): which flights a bus can reach and when you need a taxi",
+   "source_url": "brief §2 airport rows",
+   "status": "ok",
+   "note": "Guide title and meta cover Routes 32 and 72 and say no bus meets dawn flights; the brief carries Routes 32 and 72."
+  },
+  {
+   "claim": "Not in the brief: paratransit in Tompkins County and the accessibility features of OurBus, Greyhound and FlixBus",
+   "source_url": "brief (grep for paratransit: no matches)",
+   "status": "ok",
+   "note": "Confirmed the brief has no paratransit row. The page marks this as a hole and tells the reader to ask SDS and the carrier, so it is not a reject."
+  },
+  {
+   "claim": "All six guide links and the two 'When you're done' links point to existing guides with titles matching the page's labels",
+   "source_url": "content/articles/getting-around/*.md",
+   "status": "ok",
+   "note": "All guide files exist. Titles match the link labels, except that the page's link text for the winter parking and flying guides matches their titles exactly."
+  }
+ ],
+ "beats_top": {
+  "query": "Cornell accessible parking transportation",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

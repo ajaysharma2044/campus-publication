@@ -1,0 +1,180 @@
+{
+ "slug": "cornell-bike-ebike-scooter-rules-theft",
+ "queue_id": "q-getting-around-0044",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "E-bike: motor 750 W or less, 36 in wide or less, operable pedals, one of NY's three classes; e-scooter under 100 lb, 20 mph",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus",
+   "status": "ok",
+   "note": "brief §10 and Cornell page confirm all limits."
+  },
+  {
+   "claim": "Registration is free and urged (Cornell Commuter and Parking Services and municipality), not stated as required on the main page",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus",
+   "status": "ok",
+   "note": "Page: 'Make sure to register your bike, e-bike, or scooter - it's free of charge!' No mandate stated."
+  },
+  {
+   "claim": "Weill Hall page says all bicycles must be registered with the university",
+   "source_url": "https://facilities.research.cornell.edu/weill-hall-facilities-services/about-weill-hall/rules-for-cycling-electric-mobility-devices",
+   "status": "ok",
+   "note": "Page quote: 'all bicycles must be registered with the University'."
+  },
+  {
+   "claim": "Never charge e-bike/scooter batteries in residential rooms, offices or academic buildings",
+   "source_url": "brief §10 (guidance PDF)",
+   "status": "ok",
+   "note": "Brief carries it; the PDF text would not load for me, so trusted on the brief."
+  },
+  {
+   "claim": "Lock only at designated racks; railings, signposts, trees, poles can be impounded; hazard/blocking/abandoned also; lock frame and wheel; indoor needs written permission of building coordinator",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus",
+   "status": "ok",
+   "note": "Matches the page and brief §10."
+  },
+  {
+   "claim": "Impound fee not published; Transportation Services 607-255-4600",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Cycling and rules pages mention no impound fee; phone confirmed on the cycling and bus pass pages."
+  },
+  {
+   "claim": "Path colors: white bike lane, yellow shared walkway (yield), red or unmarked dismount",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling/cycling-rules-regulations",
+   "status": "ok",
+   "note": "Confirmed on the rules page."
+  },
+  {
+   "claim": "Parts of Botanic Gardens and Six Mile Gorge closed to bikes",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus",
+   "status": "ok",
+   "note": "Confirmed on the page."
+  },
+  {
+   "claim": "More than 1,000 bike parking spots, about 7 miles bike lanes, 2 miles shared paths, per Cornell's assistant director of transportation, Nov 2025 Sun column",
+   "source_url": "https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall",
+   "status": "ok",
+   "note": "Column author Reed Huegerich, assistant director of transportation; numbers match (brief §10 too)."
+  },
+  {
+   "claim": "Fall 2024: 51 bike and scooter thefts, at least $41,177, one arrest, four bikes recovered intact",
+   "source_url": "https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far",
+   "status": "ok",
+   "note": "Sun confirms; arrest per article correction. Brief carries 41,177."
+  },
+  {
+   "claim": "Liv Licursi '25 lost $600 bike left unlocked about ten minutes (Collegetown)",
+   "source_url": "https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far",
+   "status": "ok",
+   "note": "Unlocked outside a friend's Collegetown apartment for 10 minutes."
+  },
+  {
+   "claim": "Samantha Davies, PhD student, lost $2,025 e-bike from a campus rack with a cheap lock",
+   "source_url": "https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far",
+   "status": "ok",
+   "note": "First-year PhD student; Riley Robb rack; cheap lock."
+  },
+  {
+   "claim": "Reid Fleishman '25 lost $400 bike from Carpenter Hall rack; now uses cable, U-lock, two AirTags",
+   "source_url": "https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far",
+   "status": "ok",
+   "note": "Confirmed (stolen May 2024, about $400)."
+  },
+  {
+   "claim": "After the thefts Cornell advised registering and using a U-lock",
+   "source_url": "https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far",
+   "status": "ok",
+   "note": "Cornell urged registering with Transportation Services and a U-lock rather than a cable lock."
+  },
+  {
+   "claim": "Cornell requires bikeshare bikes be parked at racks (attributed to the 2023 Sun guide)",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling/cycling-rules-regulations",
+   "status": "ok",
+   "note": "fixed in place: The Sun 2023 guide does not say it (it only says bikes can be left anywhere in the zone). Cornell's cycling rules page carries the rack rule (per search result). Rewrote the sentence to attribute the rule to Cornell and the leave-anywhere point to the Sun."
+  },
+  {
+   "claim": "Moped/motorcycle/scooter with plate: plates registered on MyParking, motorcycle permit $120.01 prorated monthly",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "$120.01 in brief."
+  },
+  {
+   "claim": "Residence halls store bikes on external racks or sprinklered bike rooms",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief row from Housing page."
+  },
+  {
+   "claim": "TCAT: first-years free until Aug 31 of next year (spring entrants Dec 31); PhD/GAs free OmniRide; others free after 6 p.m. weekdays and weekends, else $1.50, OmniRide $200/yr",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
+   "status": "ok",
+   "note": "Matches the page and brief."
+  },
+  {
+   "claim": "Every TCAT bus has a front bike rack at no extra fare",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Confirmed in the Sun 2025 column too."
+  },
+  {
+   "claim": "C2C takes a bike only in a bike box counted as one suitcase; two suitcases below deck plus two small carry-ons",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief luggage row. 'Leaves room for one bag' is 2 minus 1 = 1."
+  },
+  {
+   "claim": "Ithaca Bikeshare: $1.50 start + $0.25/min; $25 day; $60 month; $1.50 off-hub; Class 1, about 16 mph",
+   "source_url": "https://www.ithacabikeshare.org",
+   "status": "ok",
+   "note": "Confirmed on the site (plus tax)."
+  },
+  {
+   "claim": "20-minute Bikeshare ride is $6.50 before tax",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Recomputed: 1.50 + 20 x 0.25 = 6.50."
+  },
+  {
+   "claim": "Bike Walk Tompkins e-bike classes at Swamp City Community Cycles, 803 Cascadilla St, pre-registration required",
+   "source_url": "https://www.bikewalktompkins.org/e-bikes",
+   "status": "ok",
+   "note": "Confirmed."
+  },
+  {
+   "claim": "Johnson lists showers at Sage Hall, classroom level",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "2023 student tip: avoid the Slope while snowing, stay off metal bridge panels",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief mentions the Sun 2023 winter piece."
+  },
+  {
+   "claim": "Cornell cycling page points riders to a local bike shop; no repair or winter storage guidance",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus",
+   "status": "ok",
+   "note": "Page says to have the bike adjusted at a local shop."
+  }
+ ],
+ "beats_top": {
+  "query": "Cornell e-bike scooter rules bike registration",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh",
+ "lint_fixes": [
+  "banned phrase(s): unlock",
+  "visuals: 2 beyond the lead photo for 1999 words (3 required: one photo, figure, map or tool per 600 words)"
+ ],
+ "lint_rounds": 1
+}

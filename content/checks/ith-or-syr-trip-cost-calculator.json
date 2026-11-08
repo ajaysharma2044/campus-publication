@@ -1,0 +1,33 @@
+{
+  "slug": "ith-or-syr-trip-cost-calculator",
+  "queue_id": "q-getting-around-0062",
+  "verdict": "pass",
+  "checked": [
+    {"claim": "ITH long-term parking $8 a day (5 to 24 h), $40 a week", "source_url": "brief §ITH parking (long-term row)", "status": "ok", "note": "brief §ITH parking: 5 to 24 h $8; weekly $40"},
+    {"claim": "ITH short-term parking $9.50 a day, $48 a week", "source_url": "brief §ITH parking (short-term row)", "status": "ok", "note": "brief §ITH parking: 5 to 24 h $9.50; weekly $48"},
+    {"claim": "SYR daily max $14 Red/Purple economy, $16 Blue Lot, $22 garage", "source_url": "brief §SYR parking", "status": "ok", "note": "brief §SYR parking rows: $14 / $16 / $22 daily max, no effective date"},
+    {"claim": "OurBus Ithaca to SYR $46.70 to $62.10 each way; 1 h 25 min to 2 h 05 min", "source_url": "brief §OurBus route pages (Ithaca-SYR airport row)", "status": "ok", "note": "brief: most fares $46.7 to $62.1; 1 h 25 min to 2 h 05 min. The calculator constants 85 and 125 minutes match."},
+    {"claim": "OurBus SYR to Ithaca sample fares $48, $51, $51 (3 direct trips), Sun 2026-11-08", "source_url": "brief §checkmybus sample table", "status": "ok", "note": "brief: $48 (8:00 p.m.), $51 (1:05 p.m.), $51 (6:30 p.m.); 3 direct trips; Sun 2026-11-08"},
+    {"claim": "TCAT Routes 32 and 72 fare $1.50 each way (under 17 and seniors $0.75), between airport and Ithaca Commons", "source_url": "https://www.flyithaca.com/news/traveling-to-and-from-ith", "status": "ok", "note": "Opened the page: Routes 32 and 72 give direct trips between the airport and Ithaca Commons; $1.50 each way for adults, $0.75 for children under 17 and seniors."},
+    {"claim": "Route 32 runs weekdays and Route 72 weekends", "source_url": "brief §ITH distance to downtown", "status": "ok", "note": "brief: TCAT 32 weekdays, 72 weekends (downtownithaca.com). The ITH news page does not give days, but the brief's source does."},
+    {"claim": "ITH is about 10 minutes from downtown (page footer 2018)", "source_url": "brief §ITH distance to downtown", "status": "ok", "note": "brief: about 10 minutes, footer 2018"},
+    {"claim": "SYR from Ithaca by car about 1 h 15 min, 65 miles (ithaca.edu)", "source_url": "brief §SYR from Ithaca College", "status": "ok", "note": "brief: About 1 h 15 min (65 miles), Ithaca College page"},
+    {"claim": "Older ITH taxi page: $12 base within 1 mile, $15 minimum beyond, $1.50 a bag", "source_url": "brief §Taxi fares on an older airport page", "status": "ok", "note": "brief: Collegetown Cab $12 base within 1 mile, $15 minimum beyond, $1.50 per bag; undated, possibly old. The page labels it undated and not used in the math."},
+    {"claim": "Syracuse airport to Cornell taxi about $200, unverified, not used", "source_url": "brief §SYR to Cornell taxi", "status": "ok", "note": "brief: about $200 (transfer site, unverified). The page marks it unverified and does not use it."},
+    {"claim": "ITH has 2 scheduled nonstops: JFK on Delta, Dulles on United", "source_url": "brief §Scheduled airlines", "status": "ok", "note": "brief: Delta daily nonstop to JFK, United nonstop to IAD"},
+    {"claim": "SYR lists nonstop service to 27 destinations", "source_url": "brief §SYR nonstops", "status": "ok", "note": "brief: home page says 27 destinations (destinations page lists 24 cities, 27 airports). The page uses the home page wording."},
+    {"claim": "SYR pre-booked parking adds a non-refundable $2.99 booking fee", "source_url": "brief §SYR pre-booked parking", "status": "ok", "note": "brief: non-refundable $2.99 booking fee"},
+    {"claim": "Cornell lists Big D's Limousines, 607-273-3030 ext 2", "source_url": "brief §Syracuse-Ithaca car service", "status": "ok", "note": "brief: Big D's Limousines 607-273-3030 ext 2, listed by Cornell"},
+    {"claim": "ITH parking: 7 days long-term $40, 3 days $24, 6 days $40 (not $48), 14 days $80", "source_url": "our math", "status": "ok", "note": "Recomputed with the weekly() rule: 7 -> 1 x 40 = 40; 3 -> 3 x 8 = 24; 6 -> min(6 x 8 = 48, 40) = 40; 14 -> 2 x 40 = 80. All match the page."},
+    {"claim": "SYR 7 days: economy 7 x $14 = $98; garage 7 x $22 = $154", "source_url": "our math", "status": "ok", "note": "7 x 14 = 98; 7 x 22 = 154. Brief's ITH-versus-SYR week comparison (about $98) agrees."},
+    {"claim": "OurBus round trip $93.40 to $124.20 per person", "source_url": "our math", "status": "ok", "note": "2 x 46.70 = 93.40; 2 x 62.10 = 124.20"},
+    {"claim": "Worked example: Ithaca $58 cheaper on parking; $90.40 to $121.20 cheaper by bus", "source_url": "our math", "status": "ok", "note": "98 - 40 = 58. Bus: 93.40 - 3 = 90.40; 124.20 - 3 = 121.20 (TCAT 2 x 1.50 = 3)."},
+    {"claim": "TCAT round trip $3 per person; difference = SYR total minus ITH total, with the low end as SYR lowest minus ITH highest", "source_url": "our math", "status": "ok", "note": "2 x 1.50 = 3. The JS compute() uses dLo = b.lo - a.hi and dHi = b.hi - a.lo, matching the text."},
+    {"claim": "Days away: Friday morning to Sunday night counts as 3", "source_url": "our definition", "status": "ok", "note": "Three started 24-hour periods, consistent with the stated rule of counting each started 24 hours."},
+    {"claim": "SYR shows no weekly rate; ITH does not say how stays shorter than a week are charged", "source_url": "brief §ITH and SYR parking rows", "status": "ok", "note": "The brief's SYR rows list only banded rates and daily maxima, and the ITH rows list a weekly rate with no pro-rating rule. The page marks the lower-of-daily-or-weekly rule as its own estimate."}
+  ],
+  "brief_updates": [],
+  "fixes": [],
+  "core_answer": "right",
+  "checked_at": "2026-11-08"
+}

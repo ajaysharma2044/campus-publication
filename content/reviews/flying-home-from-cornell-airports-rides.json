@@ -1,0 +1,179 @@
+{
+ "slug": "flying-home-from-cornell-airports-rides",
+ "queue_id": "q-getting-around-0055",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "ITH has 2 scheduled nonstops (Delta JFK, United Dulles); terminal opens 3:30 a.m.",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2 (airport hours, airlines)"
+  },
+  {
+   "claim": "SYR 27 destinations; OurBus $46.7 to $62.1 each way; Sunday cheapest, Monday dearest; 51.4 miles; 1 h 25 min to 2 h 05 min; Terminal A; pickups",
+   "source_url": "brief §2.8, §10",
+   "status": "ok",
+   "note": "brief route-page row"
+  },
+  {
+   "claim": "Round trip $93.40 to $124.20 (about $93 to $124)",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Recomputed 46.7x2=93.4, 62.1x2=124.2"
+  },
+  {
+   "claim": "SYR wins only if airfare is lower by about $90 to $121",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "93.4-3=90.4 and 124.2-3=121.2 (ITH bus $1.50 each way, $3 round trip)"
+  },
+  {
+   "claim": "Parking: ITH long-term $8/day, $40/week; SYR economy $14/day; about $98/week; $58 difference",
+   "source_url": "brief §10.2",
+   "status": "ok",
+   "note": "Recomputed 14x7=98; 98-40=58"
+  },
+  {
+   "claim": "TCAT 32 weekdays / 72 weekends, $1.50; Route 10 to Commons; first-year free, others free after 6 p.m. weekdays and weekends",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10"
+  },
+  {
+   "claim": "Taxi firms and phone numbers, 24/7; older page $12/$15/$1.50 per bag; Big D's 607-273-3030 ext 2",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief taxi rows"
+  },
+  {
+   "claim": "Thanksgiving break Nov 25 to 29, 2026; finals Dec 11 to 19; spring Jan 25, Mar 27 to Apr 4, finals May 15 to 22",
+   "source_url": "brief §2 calendar row",
+   "status": "ok",
+   "note": "Matches brief calendar row"
+  },
+  {
+   "claim": "Winter housing $125/week or $500; applications close Dec 1; 2025 residences closed 2 p.m. Dec 21",
+   "source_url": "brief §2.22",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "SA R18 $7,853.32; R83 adopted Apr 16, 2026, $10,668.87; Campus Groups; May 2024 charters 20 shuttles, May 15 4 a.m. to May 18 3:30 p.m.",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Student Assembly president said nothing runs for 5:30 a.m. flights (2024)",
+   "source_url": "https://cornellsun.com/2024/05/07/student-assembly-funds-free-charter-buses-to-syracuse-ithaca-airports/",
+   "status": "ok",
+   "note": "Article quotes S.A. President Patrick Kuehl: 'there's literally no transportation available' for 5:30 a.m. flights; fair paraphrase"
+  },
+  {
+   "claim": "2023 Thanksgiving shuttle: Swarthout, $14 one way",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "ELM about 36 miles, 45 minutes; Allegiant and Delta; no bus confirmed",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "OurBus runs to SYR six days a week; ITH-Newark flight ended 2025 cited by OurBus co-founder",
+   "source_url": "https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk",
+   "status": "ok",
+   "note": "Sun article confirms both; Terminal A comes from the OurBus route page (brief)"
+  },
+  {
+   "claim": "Newark AirTrain stop P3 or P4",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief notes the two OurBus pages disagree; page tells reader to check"
+  },
+  {
+   "claim": "Delta 5265 cancelled July 6, 7, 10, 2026",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "On Saturday Nov 7, 2026 our count of the ITH arrivals board showed four aircraft: two from JFK, two from Dulles",
+   "source_url": "https://www.avionio.com/widget/en/ITH/arrivals",
+   "status": "unverifiable",
+   "note": "Live board shows only the current day (one CommuteAir IAD flight on Nov 8) and the brief has no such count. Page labels it as its own count, so left as is."
+  },
+  {
+   "claim": "2013 Sun columnist: Thanksgiving airfares two to three times normal",
+   "source_url": "https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved",
+   "status": "ok",
+   "note": "Column says 'twice or three times the price of a regular fare'"
+  },
+  {
+   "claim": "2017 forum: one poster booked Thanksgiving flights in June or July; backups Binghamton and Albany; Dec 2016 SYR flights cancelled up to two days, cabs to Amtrak",
+   "source_url": "https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899",
+   "status": "ok",
+   "note": "All confirmed (TiggyB62; 2018dad Binghamton; CALSmom Albany); thread dated March to April 2017"
+  },
+  {
+   "claim": "Posters warned that ITH has two routes so one cancellation can strand a student",
+   "source_url": "https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899",
+   "status": "ok",
+   "note": "fixed in place: Posters warned of limited flights and long waits; one poster listed three routes in 2017, none said 'two routes'. Reworded in the parent block and in Common mistakes so 'two routes today' is ours and the warning is 'limited flights'."
+  },
+  {
+   "claim": "Dec 2019 storm cancelled OurBus trips and flights through DC, Detroit and Houston",
+   "source_url": "https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs",
+   "status": "ok",
+   "note": "fixed in place: Sun: OurBus cancelled the majority of trips; connecting flights via DC and Detroit cancelled; Houston was only a departure point, not cancelled. Changed to 'most OurBus trips and connecting flights through DC and Detroit' in the parent block and the storm section."
+  },
+  {
+   "claim": "Cornell did not announce class cancellations until students were already traveling",
+   "source_url": "same",
+   "status": "ok",
+   "note": "Cornell announced Sunday noon; a student said everyone was already on the road or at an airport"
+  },
+  {
+   "claim": "Student forecaster advised returning Saturday night or early Sunday (Nov 30, 2019 Sun)",
+   "source_url": "brief §7.2",
+   "status": "ok",
+   "note": "brief storm rows; not reopened"
+  },
+  {
+   "claim": "BRSS free pickup, 607-524-3130, no rates posted; Hauptman '27 from Nebraska, about 15 hours; one large bag per ticket",
+   "source_url": "brief §3, §7",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "OurBus peak days: Wednesday before Thanksgiving, last day of December finals, Friday spring break begins",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Taxi to SYR about $200 (unverified)",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief carries the $200 estimate; page labels it unverified"
+  }
+ ],
+ "beats_top": {
+  "query": "flying home from Cornell which airport",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh",
+ "lint_fixes": [
+  "lead photo: images is empty (a lead photo under the title is required; the image step supplies it)",
+  "visuals: 3 beyond the lead photo for 2512 words (4 required: one photo, figure, map or tool per 600 words)"
+ ]
+}

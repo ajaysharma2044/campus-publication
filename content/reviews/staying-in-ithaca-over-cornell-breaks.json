@@ -1,0 +1,159 @@
+{
+ "slug": "staying-in-ithaca-over-cornell-breaks",
+ "queue_id": "q-getting-around-0041",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Winter break housing $125 per one-week option, $500 full break, apply Oct 1 to Dec 1, flat fee",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing",
+   "status": "ok",
+   "note": "brief §2.22; page re-read, matches"
+  },
+  {
+   "claim": "Four one-week options add up to $500, same as full break; pick full break if staying four weeks or more",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing",
+   "status": "ok",
+   "note": "fixed in place: Source lists only two one-week options (week after fall term, week before spring term). Replaced 'four options' arithmetic with the two options ($250 together) in the reader block and body; added that non-open-community students can apply only for the full break (on the source page)."
+  },
+  {
+   "claim": "FAQ: leaving part of break is what the $125 one-week options are for",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing",
+   "status": "ok",
+   "note": "fixed in place: Options cover only the week right after fall or right before spring; reworded to 'Partly' with that limit."
+  },
+  {
+   "claim": "Open buildings: ten listed (Ganędagǫ: Hall ... Veterans House)",
+   "source_url": "brief §2.22",
+   "status": "ok",
+   "note": "Matches brief and source page (ten buildings)"
+  },
+  {
+   "claim": "Residences close 2 p.m. ET Sun Dec 20, 2026; reopen Tue Jan 19, 2027 9 a.m.; only approved residents may enter",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice",
+   "status": "ok",
+   "note": "Brief change log (2026-11-08 write session) and notice re-read; matches"
+  },
+  {
+   "claim": "Late fee $60 per hour or fraction, no proration; late-departure request by Mon Dec 7 via Housing and Dining Portal with name, room, reason",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice",
+   "status": "ok",
+   "note": "Notice re-read; matches"
+  },
+  {
+   "claim": "Meal plans end with brunch Dec 20, resume lunch Jan 19; dining usually closed the week the university is closed",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice",
+   "status": "ok",
+   "note": "Both pages re-read. The housing page also says BRBs work at open dining rooms; page's 'Not confirmed' line on dining halls for winter residents is acceptable."
+  },
+  {
+   "claim": "Campus mail and packages stop Dec 23, resume Jan 7; 15 days",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing",
+   "status": "ok",
+   "note": "Dates match source and brief §2.22; Dec 23 to Jan 7 recomputed as 15 days"
+  },
+  {
+   "claim": "Residences closed 30 days, Dec 20 to Jan 19",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "11 days left in Dec after the 20th + 19 in Jan = 30"
+  },
+  {
+   "claim": "Thanksgiving break Nov 25 to 29, 2026 (five days); last day of fall term Dec 19; spring begins Jan 25, 2027, six days after reopening",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar",
+   "status": "ok",
+   "note": "Registrar page re-read; Jan 19 to Jan 25 = 6 days recomputed"
+  },
+  {
+   "claim": "TCAT free after 6 p.m. weekdays and all weekend after first year; $1.50 daytime; first-years incl. transfers free until Aug 31; PhD/graduate assistants free OmniRide",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10"
+  },
+  {
+   "claim": "Routes 15, 30, 10; Blue Light bus Route 92 6:30 p.m. to 2:30 a.m. nightly year-round",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10"
+  },
+  {
+   "claim": "TCAT no service on Independence Day, New Year's Day, Memorial Day, Juneteenth, Thanksgiving, Christmas (Cornell Sun, Jul 2025, following TCAT press release); Nov 26, Dec 25, Jan 1",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10; Thanksgiving 2026 = Nov 26 Thursday"
+  },
+  {
+   "claim": "Carshare student plans: Just In Case $30/yr, It's My Car $310/yr, each $45 off; monthly plans no discount; $20 one-time per driver; $9/$6 an hour; 42 cents mileage; 8% sales tax and 12% rental tax",
+   "source_url": "https://www.ithacacarshare.org/students-commuters",
+   "status": "ok",
+   "note": "Source re-read; matches brief §2.20"
+  },
+  {
+   "claim": "Carshare eligibility: 18+, full license 2+ years, under 21 own insurance $300,000 per accident, foreign license needs official record, IDP not accepted, some countries cannot be approved",
+   "source_url": "https://www.ithacacarshare.org/eligibility",
+   "status": "ok",
+   "note": "Source re-read; matches"
+  },
+  {
+   "claim": "Grocery example: 2 h x $9 = $18 + 10 mi x $0.42 = $4.20; $26.64 with 20% taxes; 8 trips about $213 plus $30 and $20",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "22.20 x 1.20 = 26.64; x 8 = 213.12; 8 trips = 2 a week x 4 weeks"
+  },
+  {
+   "claim": "Taxis: Ithaca Dispatch 607-277-7777, Collegetown Cab 607-588-8888",
+   "source_url": "brief §2.21",
+   "status": "ok",
+   "note": "brief taxi row"
+  },
+  {
+   "claim": "Ithaca to NYC bus floors $25 to $43 one way across six carriers on Nov 8, 2026; round trip $50 to $86",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "brief §10.6 range $25 to $43; 2x25=50, 2x43=86"
+  },
+  {
+   "claim": "Four weekday daytime round trips cost $12",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "8 rides x $1.50 = $12"
+  },
+  {
+   "claim": "C2C last trip Dec 23, resumes Jan 6",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1"
+  },
+  {
+   "claim": "Winter parking: car stays in permit area; Dec 1 to Apr 1 overnight 5 p.m. to 7:30 a.m. limited to designated areas; FH, ND, SW, WD park as usual; city street car may be abandoned, ticketed, towed, impounded; city odd/even Nov 1 to Apr 1",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules",
+   "status": "ok",
+   "note": "Source re-read; matches"
+  },
+  {
+   "claim": "2022 Sun: one student stayed for the Thanksgiving dining hall meal because home was far; another spent it with a friend's family in Cleveland",
+   "source_url": "https://cornellsun.com/2022/11/16/students-share-upcoming-thanksgiving-break-plans",
+   "status": "ok",
+   "note": "Source re-read; Pearce (far from home, dining meal) and Rosenberg (Cleveland, avoids about a full day of travel each way). Wording acceptable."
+  },
+  {
+   "claim": "2013 Sun: closed dining, no TCAT on Thanksgiving, airfares two to three times normal, income decides who goes home; writer called a columnist",
+   "source_url": "https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved",
+   "status": "ok",
+   "note": "fixed in place: Content matches (source says 'twice or three times'). Page does not confirm a columnist role (brief calls it student opinion), so 'columnist' changed to 'writer' in two places."
+  }
+ ],
+ "beats_top": {
+  "query": "Cornell winter break housing staying in Ithaca",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [
+  "Corrected 2.22 winter break housing row: only two one-week options exist, non-open-community students can apply only for the full break; added change-log line; source https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing"
+ ],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

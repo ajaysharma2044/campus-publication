@@ -1,0 +1,194 @@
+<div class="tool" id="tool-ith-or-syr-trip-cost-calculator" data-tool="ith-or-syr-trip-cost-calculator" data-as-of="2026-11-08">
+  <style>
+    #tool-ith-or-syr-trip-cost-calculator .t-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1rem 1.5rem;margin:0 0 1rem}
+    #tool-ith-or-syr-trip-cost-calculator fieldset{border:1px solid currentColor;border-radius:6px;padding:.75rem 1rem;margin:0 0 1rem}
+    #tool-ith-or-syr-trip-cost-calculator legend{font-weight:600;padding:0 .25rem}
+    #tool-ith-or-syr-trip-cost-calculator label{display:block;font-weight:600;margin:.5rem 0 .25rem}
+    #tool-ith-or-syr-trip-cost-calculator input[type=number],#tool-ith-or-syr-trip-cost-calculator select{width:100%;max-width:22rem;box-sizing:border-box;padding:.35rem;font:inherit}
+    #tool-ith-or-syr-trip-cost-calculator .t-check label{display:inline;font-weight:400}
+    #tool-ith-or-syr-trip-cost-calculator .t-hint{display:block;font-size:.875em;opacity:.8;margin-top:.2rem}
+    #tool-ith-or-syr-trip-cost-calculator .t-result{border-left:4px solid currentColor;padding:.5rem 1rem;margin:1rem 0}
+    #tool-ith-or-syr-trip-cost-calculator .t-result p{margin:.4rem 0}
+    #tool-ith-or-syr-trip-cost-calculator .t-verdict{font-size:1.15em;font-weight:700}
+    #tool-ith-or-syr-trip-cost-calculator .t-small{font-size:.875em;opacity:.85}
+  </style>
+
+  <div class="t-grid">
+    <div>
+      <label for="ith-or-syr-trip-cost-calculator-days">Days away</label>
+      <input type="number" id="ith-or-syr-trip-cost-calculator-days" min="1" max="120" step="1" value="7">
+      <span class="t-hint">Count each started 24 hours. Friday morning to Sunday night is 3.</span>
+    </div>
+    <div>
+      <label for="ith-or-syr-trip-cost-calculator-people">People flying</label>
+      <input type="number" id="ith-or-syr-trip-cost-calculator-people" min="1" max="10" step="1" value="1">
+      <span class="t-hint">Bus fares and airfares are per person; parking and a taxi are per car.</span>
+    </div>
+  </div>
+
+  <fieldset>
+    <legend>From Ithaca (ITH)</legend>
+    <label for="ith-or-syr-trip-cost-calculator-ith-fare">Round-trip airfare from ITH, per person ($)</label>
+    <input type="number" id="ith-or-syr-trip-cost-calculator-ith-fare" min="0" max="10000" step="1" value="0">
+    <span class="t-hint" data-as-of="2026-11-08">Look it up for your dates; ITH has nonstops to JFK (Delta) and Washington Dulles (United) only.</span>
+    <label for="ith-or-syr-trip-cost-calculator-ith-ground">How you get to ITH</label>
+    <select id="ith-or-syr-trip-cost-calculator-ith-ground">
+      <option value="long" data-as-of="2026-11-08" selected>Drive and park, long-term lot ($8 a day, $40 a week)</option>
+      <option value="short" data-as-of="2026-11-08">Drive and park, short-term lot ($9.50 a day, $48 a week)</option>
+      <option value="tcat" data-as-of="2026-11-08">TCAT Route 32 or 72 ($1.50 each way)</option>
+      <option value="taxi">Taxi or rideshare (enter your quote)</option>
+      <option value="drop">Someone drops you off ($0)</option>
+    </select>
+    <label for="ith-or-syr-trip-cost-calculator-ith-taxi">Taxi fare to ITH, each way ($)</label>
+    <input type="number" id="ith-or-syr-trip-cost-calculator-ith-taxi" min="0" max="500" step="1" placeholder="your quote">
+    <span class="t-hint" data-as-of="2026-11-08">Current fares are not published. An older, undated airport page listed $12 base within 1 mile of the airport and a $15 minimum beyond.</span>
+    <div class="t-check"><input type="checkbox" id="ith-or-syr-trip-cost-calculator-tcat-pass"> <label for="ith-or-syr-trip-cost-calculator-tcat-pass">My TCAT pass covers the ride (no $1.50 fare)</label></div>
+  </fieldset>
+
+  <fieldset>
+    <legend>From Syracuse (SYR)</legend>
+    <label for="ith-or-syr-trip-cost-calculator-syr-fare">Round-trip airfare from SYR, per person ($)</label>
+    <input type="number" id="ith-or-syr-trip-cost-calculator-syr-fare" min="0" max="10000" step="1" value="0">
+    <span class="t-hint" data-as-of="2026-11-08">Look it up for the same dates; SYR lists nonstops to 27 destinations.</span>
+    <label for="ith-or-syr-trip-cost-calculator-syr-ground">How you get to SYR</label>
+    <select id="ith-or-syr-trip-cost-calculator-syr-ground">
+      <option value="economy" data-as-of="2026-11-08" selected>Drive and park, Red or Purple economy ($14 a day)</option>
+      <option value="blue" data-as-of="2026-11-08">Drive and park, Blue Lot ($16 a day)</option>
+      <option value="garage" data-as-of="2026-11-08">Drive and park, garage ($22 a day)</option>
+      <option value="ourbus" data-as-of="2026-11-08">OurBus from Ithaca ($46.70 to $62.10 each way)</option>
+      <option value="taxi">Car service or taxi (enter your quote)</option>
+      <option value="drop">Someone drives you ($0)</option>
+    </select>
+    <label for="ith-or-syr-trip-cost-calculator-syr-taxi">Car service to SYR, each way ($)</label>
+    <input type="number" id="ith-or-syr-trip-cost-calculator-syr-taxi" min="0" max="1000" step="1" placeholder="your quote">
+    <span class="t-hint" data-as-of="2026-11-08">One commercial transfer site puts a Syracuse airport to Cornell taxi at about $200 (unverified). Cornell lists Big D's Limousines, 607-273-3030 ext 2.</span>
+  </fieldset>
+
+  <div class="t-result" id="ith-or-syr-trip-cost-calculator-result" aria-live="polite">
+    <p>Turn on JavaScript to see the totals. Every rate is in the table below the calculator, so you can add it up by hand.</p>
+  </div>
+
+  <script>
+  (function () {
+    var root = document.getElementById('tool-ith-or-syr-trip-cost-calculator');
+    if (!root) return;
+    var P = 'ith-or-syr-trip-cost-calculator-';
+    function el(id) { return root.querySelector('#' + P + id); }
+
+    const NUMBERS = {
+      ithLongDay:    { value: 8,    asOf: "2026-11-08", source: "https://www.flyithaca.com/parking" },
+      ithLongWeek:   { value: 40,   asOf: "2026-11-08", source: "https://www.flyithaca.com/parking" },
+      ithShortDay:   { value: 9.5,  asOf: "2026-11-08", source: "https://www.flyithaca.com/parking" },
+      ithShortWeek:  { value: 48,   asOf: "2026-11-08", source: "https://www.flyithaca.com/parking" },
+      syrEconomyDay: { value: 14,   asOf: "2026-11-08", source: "https://www.syrairport.org/parking/" },
+      syrBlueDay:    { value: 16,   asOf: "2026-11-08", source: "https://www.syrairport.org/parking/" },
+      syrGarageDay:  { value: 22,   asOf: "2026-11-08", source: "https://www.syrairport.org/parking/" },
+      ourbusLow:     { value: 46.7, asOf: "2026-11-08", source: "https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny" },
+      ourbusHigh:    { value: 62.1, asOf: "2026-11-08", source: "https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny" },
+      ourbusMinLow:  { value: 85,   asOf: "2026-11-08", source: "https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny" },
+      ourbusMinHigh: { value: 125,  asOf: "2026-11-08", source: "https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny" },
+      tcatFare:      { value: 1.5,  asOf: "2026-11-08", source: "https://www.flyithaca.com/news/traveling-to-and-from-ith" },
+      ithMinutes:    { value: 10,   asOf: "2026-11-08", source: "https://www.downtownithaca.com/getting-around-visit/" },
+      syrDriveMin:   { value: 75,   asOf: "2026-11-08", source: "https://www.ithaca.edu/orientation/family-and-guest-resources/transportation" },
+      syrDriveMiles: { value: 65,   asOf: "2026-11-08", source: "https://www.ithaca.edu/orientation/family-and-guest-resources/transportation" },
+      // Printed in the hints only, never used in the math:
+      ithTaxiOldBase:{ value: 12,   asOf: "2026-11-08", source: "https://flyithaca.com/?p=13" },
+      ithTaxiOldMin: { value: 15,   asOf: "2026-11-08", source: "https://flyithaca.com/?p=13" },
+      syrTaxiUnver:  { value: 200,  asOf: "2026-11-08", source: "https://transfers.th.edreams.com/blog/usa-syracuse-airport-to-cornell-university" },
+      syrNonstops:   { value: 27,   asOf: "2026-11-08", source: "https://www.syrairport.org/" }
+    };
+    var N = function (k) { return NUMBERS[k].value; };
+
+    function num(id, def) {
+      var raw = el(id).value;
+      if (raw === '' || raw === null) return def;
+      var v = parseFloat(raw);
+      return isFinite(v) && v >= 0 ? v : def;
+    }
+    function money(x) {
+      var r = Math.round(x * 100) / 100;
+      var whole = Math.abs(r % 1) < 0.005;
+      return '$' + r.toLocaleString('en-US', { minimumFractionDigits: whole ? 0 : 2, maximumFractionDigits: 2 });
+    }
+    function rng(a) { return Math.abs(a[0] - a[1]) < 0.005 ? money(a[0]) : money(a[0]) + ' to ' + money(a[1]); }
+    function mins(m) { var h = Math.floor(m / 60), r = m % 60; return h ? h + ' h' + (r ? ' ' + (r < 10 ? '0' : '') + r + ' min' : '') : r + ' minutes'; }
+    // Whole weeks at the weekly rate, leftover days at the daily rate, never more than one more week.
+    function weekly(days, day, week) { var w = Math.floor(days / 7), r = days % 7; return w * week + Math.min(r * day, week); }
+
+    function ith(days, ppl, notes) {
+      var g = el('ith-ground').value, fare = num('ith-fare', 0) * ppl, ground, what, time = mins(N('ithMinutes')) + ' from downtown';
+      if (g === 'long' || g === 'short') {
+        var d = g === 'long' ? N('ithLongDay') : N('ithShortDay'), w = g === 'long' ? N('ithLongWeek') : N('ithShortWeek');
+        ground = weekly(days, d, w);
+        what = (g === 'long' ? 'long-term' : 'short-term') + ' parking for ' + days + (days === 1 ? ' day' : ' days');
+        if (days % 7 !== 0) notes.push('ITH parking for stays that are not whole weeks is our estimate: the airport does not say how it charges them.');
+      } else if (g === 'tcat') {
+        ground = el('tcat-pass').checked ? 0 : N('tcatFare') * 2 * ppl;
+        what = 'TCAT both ways' + (el('tcat-pass').checked ? ' on your pass' : '');
+        time = 'Route 32 runs weekdays, Route 72 weekends';
+      } else if (g === 'taxi') {
+        var t = num('ith-taxi', NaN);
+        if (isNaN(t)) { t = 0; notes.push('Add your taxi quote to ITH; it counts as $0 until you do.'); }
+        ground = t * 2; what = 'a taxi both ways';
+      } else { ground = 0; what = 'a ride from someone'; }
+      return { lo: fare + ground, hi: fare + ground, fare: fare, ground: [ground, ground], what: what, time: time };
+    }
+
+    function syr(days, ppl, notes) {
+      var g = el('syr-ground').value, fare = num('syr-fare', 0) * ppl, ground, what, time;
+      var lot = { economy: ['syrEconomyDay', 'economy'], blue: ['syrBlueDay', 'Blue Lot'], garage: ['syrGarageDay', 'garage'] }[g];
+      if (lot) {
+        var p = N(lot[0]) * days; ground = [p, p];
+        what = lot[1] + ' parking for ' + days + (days === 1 ? ' day' : ' days') + ' at the daily maximum';
+        time = 'about ' + mins(N('syrDriveMin')) + ' and ' + N('syrDriveMiles') + ' miles by car';
+        notes.push('Gas and tolls for the drive to Syracuse are not counted. SYR shows no weekly rate, so each day is charged at the daily maximum.');
+      } else if (g === 'ourbus') {
+        ground = [N('ourbusLow') * 2 * ppl, N('ourbusHigh') * 2 * ppl];
+        what = 'OurBus both ways (low to high listed fare)';
+        time = mins(N('ourbusMinLow')) + ' to ' + mins(N('ourbusMinHigh')) + ' on OurBus';
+      } else if (g === 'taxi') {
+        var t = num('syr-taxi', NaN);
+        if (isNaN(t)) { t = 0; notes.push('Add your car service quote to SYR; it counts as $0 until you do.'); }
+        ground = [t * 2, t * 2]; what = 'a car service both ways';
+        time = 'about ' + mins(N('syrDriveMin')) + ' by car';
+      } else { ground = [0, 0]; what = 'a ride from someone'; time = 'about ' + mins(N('syrDriveMin')) + ' by car'; }
+      return { lo: fare + ground[0], hi: fare + ground[1], fare: fare, ground: ground, what: what, time: time };
+    }
+
+    function compute() {
+      var days = Math.min(120, Math.max(1, Math.round(num('days', 7))));
+      var ppl = Math.min(10, Math.max(1, Math.round(num('people', 1))));
+      var notes = [];
+      var a = ith(days, ppl, notes), b = syr(days, ppl, notes);
+      el('ith-taxi').disabled = el('ith-ground').value !== 'taxi';
+      el('syr-taxi').disabled = el('syr-ground').value !== 'taxi';
+      el('tcat-pass').disabled = el('ith-ground').value !== 'tcat';
+
+      var dLo = b.lo - a.hi, dHi = b.hi - a.lo, verdict;
+      if (dLo > 0.004) verdict = 'Ithaca is cheaper by ' + rng([dLo, dHi]) + '.';
+      else if (dHi < -0.004) verdict = 'Syracuse is cheaper by ' + rng([-dHi, -dLo]) + '.';
+      else if (Math.abs(dLo) < 0.005 && Math.abs(dHi) < 0.005) verdict = 'Both airports cost the same.';
+      else verdict = 'Too close to call: depending on the OurBus fare, Syracuse is ' + money(-dLo) + ' cheaper to ' + money(dHi) + ' more expensive.';
+
+      var who = ppl === 1 ? 'for you' : 'for ' + ppl + ' people';
+      var noFares = num('ith-fare', 0) === 0 && num('syr-fare', 0) === 0;
+      var html = '<p class="t-verdict">' + verdict + '</p>' +
+        '<p><strong>ITH: ' + rng([a.lo, a.hi]) + ' all in ' + who + '</strong> (' + money(a.fare) + ' airfare plus ' + rng(a.ground) + ' for ' + a.what + '). Ground time: ' + a.time + '.</p>' +
+        '<p><strong>SYR: ' + rng([b.lo, b.hi]) + ' all in ' + who + '</strong> (' + money(b.fare) + ' airfare plus ' + rng(b.ground) + ' for ' + b.what + '). Ground time: ' + b.time + '.</p>';
+      if (noFares) html += '<p>Enter both airfares to compare the whole trip. Right now this compares only the ride and the parking.</p>';
+      html += '<p class="t-small">Prices as of 2026-11-08 (the parking pages are undated; read that day). Estimated: ' +
+        (notes.length ? notes.join(' ') : 'nothing beyond the listed rates; your airfares are your own.') + '</p>';
+      el('result').innerHTML = html;
+    }
+
+    var ids = ['days', 'people', 'ith-fare', 'ith-ground', 'ith-taxi', 'tcat-pass', 'syr-fare', 'syr-ground', 'syr-taxi'];
+    ids.forEach(function (id) {
+      var e = el(id);
+      if (!e) return;
+      e.addEventListener('input', compute);
+      e.addEventListener('change', compute);
+    });
+    compute();
+  })();
+  </script>
+</div>

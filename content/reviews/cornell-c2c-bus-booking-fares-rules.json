@@ -1,0 +1,208 @@
+{
+ "slug": "cornell-c2c-bus-booking-fares-rules",
+ "queue_id": "q-getting-around-0028",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "C2C is open to the public, family and visitors; new reservation system launched Nov 4, 2026; everyone needs a new account",
+   "source_url": "https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4",
+   "status": "ok",
+   "note": "Opened the notice: open to the public incl. family and visitors; everyone must make a new account; launch Wed Nov 4, 2026. Also brief §2.1."
+  },
+  {
+   "claim": "Fares: public $101 one way / $202 round trip; NetID $93.50 / $187; department-paid $86 / $172",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates",
+   "status": "ok",
+   "note": "Rates page matches all six figures. Also in brief."
+  },
+  {
+   "claim": "$6 temporary fuel and toll surcharge per one-way ticket included, no end date",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates",
+   "status": "ok",
+   "note": "Rates page: temporary $6 surcharge included in listed prices; brief row says no end date."
+  },
+  {
+   "claim": "Round trip is exactly two one-way fares; $7.50 more per way and $15 a round trip for plain account",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "Recomputed: 2x101=202, 2x93.50=187, 2x86=172; 101-93.50=7.50; x2=15."
+  },
+  {
+   "claim": "Child under 2 on lap free; 2 and older full fare; stroller taking a seat counts as a passenger; 12 and under with an adult",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations",
+   "status": "ok",
+   "note": "Rates and policies pages confirm; no child discount."
+  },
+  {
+   "claim": "Parent example: parent plus 4-year-old = $202, baby free, stroller seat another $101",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "Recomputed 101+101=202; stroller seat +101."
+  },
+  {
+   "claim": "Sophomore example: $187 round trip, missed outbound loses $93.50, return seat stands, skipped return loses a second $93.50, cancelling 8+ hours ahead costs $10",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations",
+   "status": "ok",
+   "note": "Policies page: missed bus keeps full fare; missed trip does not cancel the return; $10 fee. 187/2=93.50."
+  },
+  {
+   "claim": "Cancel $10 per seat 8+ hours ahead, $30 inside 8 hours; date/time change $30 inside 8 hours; stop change free; substitution allowed; only in the reservation system",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations",
+   "status": "ok",
+   "note": "Policies page matches; voicemail and email do not count."
+  },
+  {
+   "claim": "Be at the stop 10 minutes early; drivers do not leave early; trip forfeited once bus leaves last stop",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-frequently-asked-questions",
+   "status": "ok",
+   "note": "FAQ: reach stop at least ten minutes early; drivers will not leave a stop early."
+  },
+  {
+   "claim": "Luggage 2 suitcases below deck plus 2 small carry-ons; bikes only in a bike box counting as a suitcase; pets in carrier, service animals allowed",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations",
+   "status": "ok",
+   "note": "Policies page matches. Garment bags and the under-13 refusal line are not in the fetched summary; both sit in the same policies page the brief already cites, left as is."
+  },
+  {
+   "claim": "Wheelchair access: call 607-254-8747 at least 2 weeks (10 business days) ahead",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief row 'Wheelchair access'."
+  },
+  {
+   "claim": "B Lot parking: email c2cbus@cornell.edu with plate and dates, exempt since Oct 10, 2024; temporary parking up to 14 days; SC and B permits valid",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-frequently-asked-questions",
+   "status": "ok",
+   "note": "FAQ confirms the 14 days and permits; the email route and date are brief §2."
+  },
+  {
+   "claim": "Two links: 2026 for trips through Dec 23 and changes; 2027 from Jan 6, 2027; nothing listed Dec 24 to Jan 5",
+   "source_url": "https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4",
+   "status": "ok",
+   "note": "Notice confirms both date ranges; the gap is inferred from them and the brief says the same."
+  },
+  {
+   "claim": "Seat selection, several passengers per reservation, browser only with no app; schedules, rates and stops unchanged; trips added 'when feasible'",
+   "source_url": "https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4",
+   "status": "ok",
+   "note": "Notice wording is 'may add additional service when operationally feasible'; the page's 'when feasible' quote is a tight shortening."
+  },
+  {
+   "claim": "Package: $20, up to 8 cubic feet, department or Weill account only",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief package-service row."
+  },
+  {
+   "claim": "Weill CWID not recognized; request a NetID from the IT Service Desk; PCards not accepted",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief rows."
+  },
+  {
+   "claim": "Cornell travel office calls C2C the preferred mode between Ithaca and the NYC campuses",
+   "source_url": "https://finance.cornell.edu/travel/transportation",
+   "status": "ok",
+   "note": "Page says C2C is 'the preferred mode of travel' between Ithaca and New York City."
+  },
+  {
+   "claim": "Stops and addresses: North Campus 217 Jessup Rd; Sage Hall 114 Feeney Way; B Lot 930 Campus Rd; Weill 1300 York Ave; Cornell Club 6 East 44th St",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief stop rows."
+  },
+  {
+   "claim": "Sage about 15 minutes and B Lot about 30 minutes after North Campus",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule",
+   "status": "ok",
+   "note": "Schedule: North 5:30, Sage 5:45, B Lot 6:00, so 15 and 30 minutes; recomputed from the times."
+  },
+  {
+   "claim": "North Campus slots 5:30, 7:30, 9:30, 11:30 a.m. and 5:30 p.m.; Weill 5:45 a.m. to 5:45 p.m. every two hours; Cornell Club 6:30 a.m. to 6:30 p.m.",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule",
+   "status": "ok",
+   "note": "Schedule page matches; NYC times also in brief. The 5:45 and 6:30 end times are 12-hour spans of two-hour steps, correct."
+  },
+  {
+   "claim": "Ride takes about 4.5 to 5 hours from the last pickup",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief trip-length row."
+  },
+  {
+   "claim": "Cornell Club loading moved to Fifth Ave between 43rd and 44th St 'until further notice' as of Nov 8, 2026",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief row sourced to the booking site, dated 2026-11-08."
+  },
+  {
+   "claim": "Aug 1, 2026 update dropped the NYC F Train stop at 64th St and 3rd Ave",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief row on the old stop list and the Aug 1 update."
+  },
+  {
+   "claim": "Office at 209 Solidago Rd, 8:00 a.m. to 4:00 p.m. Mon to Fri; phone 607-254-8747 (607-254-TRIP); c2cbus@cornell.edu; tdx.cornell.edu",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief rows."
+  },
+  {
+   "claim": "Cornell started the service in 2004; runs seven days a week year-round except holidays, with Wi-Fi, bathroom and snacks",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief service-history row."
+  },
+  {
+   "claim": "2011 fare was $75",
+   "source_url": "https://news.cornell.edu/node/269896",
+   "status": "ok",
+   "note": "Chronicle, Jan 4, 2011: $75 one way."
+  },
+  {
+   "claim": "2005 Chronicle: Cornell connection required, standard fare $99 one way",
+   "source_url": "https://news.cornell.edu/node/282639",
+   "status": "ok",
+   "note": "Article dated May 4, 2005: standard fare $99 one way ($149 round trip); 'a Cornell connection is required to ride the bus'."
+  },
+  {
+   "claim": "2020 promotion: $50 student fare through April 5",
+   "source_url": "https://fcs.cornell.edu/announcements/2020-03-14/c2c-student-discounted-rate-through-april-5",
+   "status": "ok",
+   "note": "Notice: students pay $50 one way through Sunday, April 5."
+  },
+  {
+   "claim": "2019 Sun story: students described a 2 p.m. JFK landing with a sprint for a 4:30 p.m. bus, and one missed a campus bus by five minutes",
+   "source_url": "https://cornellsun.com/2019/05/06/international-students-travel-cornell/",
+   "status": "ok",
+   "note": "Ludovica Stilli '22 described the 2 p.m. landing and 4:30 bus; Jaewon Sim '21 missed a campus bus by five minutes. Two students, as the page says."
+  },
+  {
+   "claim": "Dec 1-2, 2019 snowstorm: C2C ran when others did not; OurBus cancelled; one student found C2C was the only way back by Wednesday",
+   "source_url": "https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs",
+   "status": "ok",
+   "note": "fixed in place: Sun says OurBus cancelled the majority of its trips (one student rode CoachUSA Shortline instead), and Aidan Mahoney '22 took C2C because otherwise he would not have reached campus until Wednesday. Changed 'C2C ran when others did not' to 'C2C kept running while OurBus cancelled most of its trips', 'OurBus cancelled' to 'cancelled most of its trips', and 'found C2C was the only way back' to 'took C2C because otherwise he would not have reached campus until Wednesday'. The source's own pronoun 'he' is used."
+  },
+  {
+   "claim": "Commercial buses advertise far lower floor fares than C2C",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief: about $25 to $43.98 at the floor against $93.50."
+  }
+ ],
+ "beats_top": {
+  "query": "Cornell Campus to Campus bus who can ride students tickets",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh",
+ "lint_fixes": [
+  "visuals: 2 beyond the lead photo for 2283 words (3 required: one photo, figure, map or tool per 600 words)"
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "slug": "cheapest-ways-to-get-around-cornell",
+ "queue_id": "q-getting-around-0056",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Wanderu six-carrier table: from-fares $25/$28.98/$29/$30/$37/$43, averages $69.23/$44.54/$44.77/$73.50/$82.31/$57.13, departures 20/13(14)/8/5/2/1",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "brief §10.6, every cell matches"
+  },
+  {
+   "claim": "Six-carrier mean average fare $61.91",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "Recomputed: 371.48 / 6 = 61.91"
+  },
+  {
+   "claim": "C2C NetID fare $93.50, public $101, $7.50 saving, $187 round trip",
+   "source_url": "brief §2.1 / §10.7",
+   "status": "ok",
+   "note": "brief rates rows; 101 - 93.50 = 7.50; 2 x 93.50 = 187"
+  },
+  {
+   "claim": "OurBus page from $33 with 9 buses; Greyhound from $43.98; FlixBus $27 Sat Nov 7 on CheckMyBus",
+   "source_url": "brief §10.7",
+   "status": "ok",
+   "note": "brief §10.7 and §3"
+  },
+  {
+   "claim": "C2C is $60.50 more than OurBus $33 and $66.50 more than FlixBus $27; about 3x; about 1.5x the $61.91 mean",
+   "source_url": "brief §10.7",
+   "status": "ok",
+   "note": "Recomputed 93.50-33=60.50, 93.50-27=66.50, 93.50/61.91=1.51"
+  },
+  {
+   "claim": "C2C 4.5 to 5 hours; OurBus 4 h 10 min to 7 h",
+   "source_url": "brief §10.7",
+   "status": "ok",
+   "note": "brief §10.7"
+  },
+  {
+   "claim": "Four round trips: $216 / $264 / $495.28 / $748; gap $532; more than two and a half years of OmniRide",
+   "source_url": "brief §10.7 and own math",
+   "status": "ok",
+   "note": "Recomputed 4x54=216, 4x66=264, 4x123.82=495.28, 4x187=748, 748-216=532, 532/200=2.66 years"
+  },
+  {
+   "claim": "Sophomore example about $286 in bus fare (three at $66 plus Thanksgiving about $88)",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "3x66=198 + 88 = 286; 66 x 1.33 = 88"
+  },
+  {
+   "claim": "Winter housing week vs NYC fare: $123.82 average round trip, $54 to $66 floor round trip",
+   "source_url": "own math / brief §10.7",
+   "status": "ok",
+   "note": "2 x 61.91 = 123.82; 2x27=54, 2x33=66"
+  },
+  {
+   "claim": "Book about 14 days ahead (Wanderu's claim); November avg about $66, January about $41; cheapest November date Nov 19",
+   "source_url": "brief §10 Wanderu rows",
+   "status": "ok",
+   "note": "brief lines 565, 714, 1194"
+  },
+  {
+   "claim": "Book Thanksgiving seat by about Nov 11 for Wed Nov 25",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "Nov 25 minus 14 days = Nov 11; Nov 25, 2026 is a Wednesday"
+  },
+  {
+   "claim": "Thanksgiving-week premium: 27.9% Binghamton, 34.2% Rochester, 37.9% DC, mean 33.4% over 51 dates; NYC not sampled",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief §10.9 arithmetic reproduced; 15+17+19=51"
+  },
+  {
+   "claim": "$66 NYC round trip, a third more is about $22",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "66 x 0.33 = 21.8"
+  },
+  {
+   "claim": "Binghamton $8 to $16, Rochester $17 to $30, DC avg $74.47 (Thanksgiving week $93.40 vs $67.71), Boston $46 to $101, Philadelphia low $41",
+   "source_url": "brief §3 / §10.9",
+   "status": "ok",
+   "note": "brief lines 581-582, 1173, 1292; Philadelphia $41 at brief line 459 area"
+  },
+  {
+   "claim": "OurBus to Syracuse airport $46.70 to $62.10; TCAT Route 32 weekdays, Route 72 weekends $1.50",
+   "source_url": "brief §10.8 / §2",
+   "status": "ok",
+   "note": "brief §10.8 and TCAT airport rows"
+  },
+  {
+   "claim": "TCAT rules: first-years free all hours until Aug 31, spring entrants Jan 1 to Dec 31, PhD/GA free OmniRide, others free after 6 p.m. weekdays and weekends, $1.50 otherwise; OmniRide $200 expires Aug 31, refund before Mar 31 costs $40",
+   "source_url": "brief §2 (lines 271-276)",
+   "status": "ok",
+   "note": "brief §2 bus passes rows"
+  },
+  {
+   "claim": "OmniRide break-even: 200/1.5 = 133.3, so 134th ride; about 4.5 a week over 30 weeks; junior example 60 rides = $90, cash wins by $110",
+   "source_url": "own math / brief §10.14",
+   "status": "ok",
+   "note": "200/1.5=133.3; 134/30=4.47; 60x1.5=90; 200-90=110"
+  },
+  {
+   "claim": "Student Assembly Resolution 69 adopted March 2026, returned Apr 24, 2026",
+   "source_url": "brief line 291",
+   "status": "ok",
+   "note": "brief §2"
+  },
+  {
+   "claim": "Bikeshare $1.50 + $0.25/min; 10 min = $4.00, 20 min = $6.50; $25 day pass; $60 monthly; $1.50 outside-hub; Easy Access at 150% FPL",
+   "source_url": "brief §2.19 / own math",
+   "status": "ok",
+   "note": "brief lines 459-461; 1.5+0.25x10=4.00, 1.5+0.25x20=6.50"
+  },
+  {
+   "claim": "Carshare: JIC $30/yr + $9/hr, IMC $310/yr + $6/hr, $45 off, $20 one-time, 42 cents/mile, 8% + 12% taxes; break-even about 93 hours",
+   "source_url": "brief §2.20 / own math",
+   "status": "ok",
+   "note": "280/3 = 93.3 hours; example 10 x 2h x $9 = 180 + 20 + 30 = 230"
+  },
+  {
+   "claim": "Carshare eligibility: 18+, 2 years licensed, under 21 needs own policy with $300,000 per accident",
+   "source_url": "brief line 486",
+   "status": "ok",
+   "note": "brief §2"
+  },
+  {
+   "claim": "Easy Access $10 a month + $6 an hour, $20 monthly credits (Summer 2024 handbook)",
+   "source_url": "brief line 482",
+   "status": "ok",
+   "note": "brief §2"
+  },
+  {
+   "claim": "SA charters: Res 18 $7,853.32 (Nov 13, 2025), Res 83 $10,668.87 (Apr 16, 2026); May 2024 pilot 20 shuttles",
+   "source_url": "brief lines 329-333",
+   "status": "ok",
+   "note": "brief §2"
+  },
+  {
+   "claim": "Winter housing $125/week or $500, apply by Dec 1, applications opened Oct 1, mail stops Dec 23 resumes Jan 7; 2025 closing 2 p.m. Sun Dec 21",
+   "source_url": "brief lines 525-528, 709",
+   "status": "ok",
+   "note": "brief §2.22"
+  },
+  {
+   "claim": "Calendar: Thanksgiving break Nov 25 to 29, finals end Dec 19, spring break Mar 27 to Apr 4, 2027",
+   "source_url": "brief line 528",
+   "status": "ok",
+   "note": "brief §2"
+  },
+  {
+   "claim": "C2C cancel $10 at 8+ hours, $30 inside 8 hours; 2 suitcases + 2 carry-ons; booking link covers trips from Jan 6, 2027",
+   "source_url": "brief lines 21, 52, 82-85",
+   "status": "ok",
+   "note": "brief §2.1"
+  },
+  {
+   "claim": "OurBus: credit not cash (Sun 2023), Select $15 off 10 tickets up to $150, $30 prepaid extra bag, Nov 9 stop move to 235 S. Cayuga; Greyhound and FlixBus stops",
+   "source_url": "brief lines 22, 134-136, 150",
+   "status": "ok",
+   "note": "brief §2.6"
+  },
+  {
+   "claim": "2025 Sun student guide named Wanderu; 2013 and 2022 Sun attributions; 2019 Sun international students piece",
+   "source_url": "brief lines 846, 1032",
+   "status": "ok",
+   "note": "attributions are consistent with the brief's paraphrases"
+  }
+ ],
+ "beats_top": {
+  "query": "cheapest way to get home from Cornell bus",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh",
+ "lint_fixes": [
+  "visuals: 4 beyond the lead photo for 3049 words (5 required: one photo, figure, map or tool per 600 words)",
+  "reader block title 'If home is not New York City' should read \"If you're ...\""
+ ]
+}

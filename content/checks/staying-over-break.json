@@ -1,0 +1,29 @@
+{
+  "slug": "staying-over-break",
+  "queue_id": "q-getting-around-0079",
+  "verdict": "pass",
+  "checked": [
+    {"claim": "Winter break housing applications run Oct 1 to Dec 1", "source_url": "brief §2.22, §8 dates table", "status": "ok", "note": "brief §2.22 and the dates table: applications open Oct 1, deadline Dec 1."},
+    {"claim": "Nov 25 to 29, 2026: Thanksgiving break, Thanksgiving Day Thu Nov 26", "source_url": "brief §2.22 (registrar calendar row) and §8", "status": "ok", "note": "brief §2.22: Thanksgiving break/no classes Nov 25 to 29, 2026; §8: Thanksgiving Day 2026 falls on Thu Nov 26. Matches the Thanksgiving guide."},
+    {"claim": "Dec 1: Cornell winter overnight parking rules start (to Apr 1)", "source_url": "brief §8 dates table, §2.16", "status": "ok", "note": "brief: winter overnight parking rules Dec 1 to Apr 1."},
+    {"claim": "Sun Dec 20, 2026, 2 p.m.: undergraduate residences close for anyone without approved winter break housing", "source_url": "brief §2.22 winter closing 2026-27", "status": "ok", "note": "brief §2.22: close Sun Dec 20, 2026 at 2 p.m. ET; only residents with prior approval for designated winter break housing may stay."},
+    {"claim": "Dec 23 to Jan 7: no winter-break mail or packages", "source_url": "brief §8 dates table (Dec 23, Jan 7)", "status": "ok", "note": "brief: mail and packages end Dec 23 and resume Jan 7."},
+    {"claim": "Tue Jan 19, 2027, 9 a.m.: residences reopen", "source_url": "brief §2.22 winter closing 2026-27", "status": "ok", "note": "brief §2.22: reopen Tue Jan 19, 2027 at 9 a.m. ET."},
+    {"claim": "Spring term begins Jan 25, 2027", "source_url": "brief §2.22 academic calendar row; change log", "status": "ok", "note": "brief §2.22 registrar row: spring term begins Jan 25, 2027. The brief change log notes the housing notice says classes begin Jan 26; the page uses the registrar date, which is the official academic calendar."},
+    {"claim": "Guide 1 (staying in Ithaca over breaks) covers break housing, food, mail and getting around while campus is closed", "source_url": "content/articles/getting-around/staying-in-ithaca-over-cornell-breaks.md", "status": "ok", "note": "Guide title and meta cover housing, meals stopping, TCAT holiday gaps; the body covers mail and groceries."},
+    {"claim": "Guide 2 (winter parking) covers where a car can stay over break and where it gets towed", "source_url": "content/articles/getting-around/ithaca-winter-parking-rules-cornell-odd-even.md", "status": "ok", "note": "Guide meta: nine listed overnight areas, odd/even rule, never leave a car on a street over break."},
+    {"claim": "Guide 3 (Ithaca Carshare): a car by the hour for grocery runs; read early since joining takes time", "source_url": "content/articles/getting-around/ithaca-carshare-cornell-students-cost.md", "status": "ok", "note": "Guide advises joining a week ahead of a break, and covers the approval requirements (driving record checks)."},
+    {"claim": "Guide 4 (Uber, Lyft, taxi): what to expect when the town is quiet", "source_url": "content/articles/getting-around/uber-lyft-taxi-ithaca-cornell.md", "status": "ok", "note": "Guide meta: rideshare thins out outside downtown and late at night."},
+    {"claim": "Guide 5 (TCAT): which buses reach the stores and when you ride free", "source_url": "content/articles/getting-around/tcat-free-for-cornell-students-hours-routes.md", "status": "ok", "note": "Guide covers free-ride hours and routes, including Route 15 Southside Shopper (groceries and shopping)."},
+    {"claim": "Guide 6 (pillar) covers every way in and out of Ithaca", "source_url": "content/articles/getting-around/getting-to-ithaca-and-around-cornell.md", "status": "ok", "note": "Pillar title and meta: every way in, out and around Cornell for 2026-27."},
+    {"claim": "Tool: Cornell break travel and parking dates, 2026-27, by term lets you pick the breaks you stay for and see every housing and parking deadline", "source_url": "content/tools/cornell-break-travel-timeline-2026-27/tool.md", "status": "ok", "note": "Tool meta: pick start term, car, and which breaks you stay for; get every 2026-27 deadline, dated."},
+    {"claim": "Tool: Before-break checklist is a dated to-do list for staying, run the week before the break", "source_url": "content/tools/before-break-travel-checklist/tool.md", "status": "ok", "note": "Tool gives a dated to-do list for leaving or staying. 'The week before the break' is the page's usage advice, not a tool fact; tool.md lists steps 'now' and 'before you leave'. Left as is."},
+    {"claim": "Tool: Ithaca Carshare calculator compares Just In Case and It's My Car for grocery runs", "source_url": "content/tools/ithaca-carshare-plan-calculator/tool.md", "status": "ok", "note": "Tool meta: yearly cost of each student plan with break-even."},
+    {"claim": "Opening: dining is closed and buses may run holiday service over break", "source_url": "brief §2.22 and TCAT holidays row", "status": "ok", "note": "brief: dining usually closed the week the university closes; meal plans end brunch Dec 20. TCAT does not run on Thanksgiving or Christmas; 'may run holiday service' is a loose but not wrong summary."},
+    {"claim": "Closing links: Getting home for Cornell winter break, 2026-27, and Cornell Thanksgiving travel: when to book and what it costs", "source_url": "content/articles/getting-around/cornell-winter-break-travel-home-2026.md; cornell-thanksgiving-break-bus-tickets-when-to-book.md", "status": "ok", "note": "Both exist and titles match the link text."}
+  ],
+  "brief_updates": [],
+  "fixes": [],
+  "core_answer": "right",
+  "checked_at": "2026-11-08"
+}

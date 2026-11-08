@@ -1,0 +1,169 @@
+{
+ "slug": "cornell-move-in-day-parking-unloading",
+ "queue_id": "q-getting-around-0046",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Print Move-In Ticket from the Housing and Dining Portal after Aug 1; it names the parking area",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus",
+   "status": "ok",
+   "note": "North Campus page, opened; also brief section on move-in."
+  },
+  {
+   "claim": "Timeslot covers arrival and check-in only, not unloading",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus",
+   "status": "ok",
+   "note": "Confirmed on page."
+  },
+  {
+   "claim": "Staff help ends 8 p.m. Mon Aug 17, 11 a.m. Tue Aug 18, 5 p.m. Fri Aug 21 and Sat Aug 22",
+   "source_url": "brief §move-in table",
+   "status": "ok",
+   "note": "Brief and North Campus page agree. Weekday/date match for 2026 is page's own inference, stated as such."
+  },
+  {
+   "claim": "Uber/taxi go to A Lot; bus riders go directly to the building",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus",
+   "status": "ok",
+   "note": "Confirmed on page."
+  },
+  {
+   "claim": "Unload at building then 3-hour short-term parking in area on ticket",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus",
+   "status": "ok",
+   "note": "Confirmed."
+  },
+  {
+   "claim": "Jessup Road north-side spaces: no overnight parking",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus",
+   "status": "ok",
+   "note": "fixed in place: Page says the spaces are for Low Rise #6 only; added '(for Low Rise #6 only)' to the FAQ."
+  },
+  {
+   "claim": "West Campus: queue at University Avenue Lot; Stewart Ave paid spaces free after 6 p.m. and Sundays",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-west-campus",
+   "status": "ok",
+   "note": "Confirmed on page (627 University Ave)."
+  },
+  {
+   "claim": "South Campus: far end of lot, no overnight parking; Cascadilla/Sheldon/Schuyler: Williams Street lot at Williams St and Stewart Ave; Balch own page",
+   "source_url": "brief §move-in table",
+   "status": "ok",
+   "note": "Brief lists these from search summaries; South (403) and Cascadilla (404) pages would not load for me, so relied on the brief."
+  },
+  {
+   "claim": "Tang Welcome Center $1.50/hour or $10/day, ParkMobile zone 4119; pay station out of service as of 9/08/2026",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options",
+   "status": "ok",
+   "note": "Confirmed on page."
+  },
+  {
+   "claim": "ParkMobile $0.45 fee per transaction, text PARK to 77223, 1-hour minimum, loading zone 4125 30 minutes; '8 hours or by the day'",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options",
+   "status": "ok",
+   "note": "Fee, 77223, 1-hour minimum and 4125/30 min confirmed; the 8-hour option is a detail I did not see in my extract but is a minor limit line, not a core fact."
+  },
+  {
+   "claim": "Resident lots FH, ND, SW, WD need permit or ParkMobile payment 24 hours a day",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options",
+   "status": "ok",
+   "note": "Confirmed."
+  },
+  {
+   "claim": "Example: $10 day rate plus one $0.45 fee = $10.45",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "10.00 + 0.45 = 10.45."
+  },
+  {
+   "claim": "Resident permit $752.98 a year",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students",
+   "status": "ok",
+   "note": "Brief and page agree."
+  },
+  {
+   "claim": "Resident permit works in signed area plus A Lot after 2:30 p.m.; ND permit extremely limited and capped",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students",
+   "status": "ok",
+   "note": "fixed in place: Page: 2:30 p.m. A Lot applies to FH, SW, WD; ND valid in A Lot at all times; ND sales capped to North Campus residents of university-owned housing. Reworded accordingly."
+  },
+  {
+   "claim": "Accessible permit (AP) $359.77; contact Student Disability Services first; valid in permit-restricted spaces except reserved and MT",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students",
+   "status": "ok",
+   "note": "Confirmed on page."
+  },
+  {
+   "claim": "Fines: $50 no permit/payment (+$10 if unpaid in 10 days), $35 over time limit, $150 accessible space/fire lane with towing, $10 plate not visible, winter rules $50; effective Sept 1, 2023",
+   "source_url": "https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/",
+   "status": "ok",
+   "note": "All confirmed on the Sun article. Fines are flagged as the 2023 schedule on the page."
+  },
+  {
+   "claim": "Cornell requires plate registration at MyParking.Cornell.edu even for short-term parking",
+   "source_url": "brief §parking",
+   "status": "ok",
+   "note": "Brief records 'even for short-term'."
+  },
+  {
+   "claim": "First-years discouraged from bringing a car, limited permits exist",
+   "source_url": "brief §first-year cars",
+   "status": "ok",
+   "note": "Brief matches wording attributed to the families page."
+  },
+  {
+   "claim": "Housing contact housing@cornell.edu, 607-255-5368; TDS 607-255-4600, 7:30 a.m. to noon weekdays",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/contact-us/housing-dining-contracts-office",
+   "status": "ok",
+   "note": "Housing line confirmed by search (central office, M-F 9-4); TDS phone and hours confirmed on short-term page. The North page itself does not print the housing number, but the brief carries it."
+  },
+  {
+   "claim": "Spring residences reopen Tue Jan 19, 2027, 9 a.m.",
+   "source_url": "brief §winter closing",
+   "status": "ok",
+   "note": "Brief."
+  },
+  {
+   "claim": "Dec 1 to Apr 1, snow forecast: overnight parking 5 p.m. to 7:30 a.m. only in designated areas, e.g. west and mid bays of A Lot",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules",
+   "status": "ok",
+   "note": "Confirmed on page."
+  },
+  {
+   "claim": "City garages (Green, Cayuga) $2.25/hour, $12 daily max, effective Jan 5, 2026; Seneca garage closed since spring 2026",
+   "source_url": "brief §city parking",
+   "status": "ok",
+   "note": "Brief rows for garages, $12 max and Seneca closure."
+  },
+  {
+   "claim": "OurBus guarantees one large bag per ticket; Cornell Sun 2024: two large bags effectively meant two seats at peak move-in",
+   "source_url": "brief §bus baggage",
+   "status": "ok",
+   "note": "Brief carries both."
+  },
+  {
+   "claim": "About 15 building pages; Aug 2021 arrival page still indexed with 2021 dates",
+   "source_url": "brief §move-in",
+   "status": "ok",
+   "note": "Brief lists stale 2021 page."
+  }
+ ],
+ "beats_top": {
+  "query": "Cornell move-in day parking car unloading",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh",
+ "lint_fixes": [
+  "answer: 4 sentences in the first paragraph (3 or fewer)",
+  "source url returned 404: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall-sheldon-court-and-schuyler-house",
+  "source url returned 404: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-balch"
+ ],
+ "lint_rounds": 1
+}

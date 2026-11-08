@@ -1,0 +1,299 @@
+{
+ "slug": "getting-around-cornell-upper-years-no-car",
+ "queue_id": "q-getting-around-0050",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "After first year TCAT is free after 6 p.m. weekdays and all weekend; other rides $1.50",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 and bus-pass page row."
+  },
+  {
+   "claim": "OmniRide $200/yr, prorated monthly, MyParking.Cornell.Edu, 24 h activation, refund until Mar 31 less $40, expires Aug 31",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 (Discounted annual OmniRide row)."
+  },
+  {
+   "claim": "Break-even: $200/$1.50 = 133.3, so 134th ride; about 4.5 paid rides a week over 30 weeks; 13.4 weeks at 10 a week",
+   "source_url": "brief §10.14",
+   "status": "ok",
+   "note": "Recomputed: 200/1.5=133.33; 134/30=4.47; 134/10=13.4. Brief says 133 rides, page says 134th ride wins: consistent (rounding up)."
+  },
+  {
+   "claim": "Pay-per-ride table (30/60/120/150/300 rides = $45/$90/$180/$225/$450)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed each row at $1.50; all correct. Savings example 200-90=$110 correct."
+  },
+  {
+   "claim": "PhD students and graduate assistants get free OmniRide; master's/professional follow the upper-year rule",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 PhD/GA row."
+  },
+  {
+   "claim": "First-year pass: fall entrants registration to Aug 31; spring entrants Jan 1 to Dec 31",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 first-year pass dates."
+  },
+  {
+   "claim": "Non-first-years lost de facto free rides mid-Oct 2024 after farebox glitch; eligibility list updated Oct 16, 2024 per TCAT GM; drivers override rejected IDs",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 Fall 2024 change row; attribution to GM matches."
+  },
+  {
+   "claim": "Payment methods: cash, card/phone tap, TFare app, T-card; TFare QR expires after a minute",
+   "source_url": "https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/",
+   "status": "ok",
+   "note": "Payment methods in brief §2.11 fare rows; QR-expiry detail is from the page's own source link and was not rechecked beyond the brief; low-risk."
+  },
+  {
+   "claim": "Fare cap of $3 a day (marked Not confirmed)",
+   "source_url": "brief §2.11",
+   "status": "ok",
+   "note": "Brief marks cap as unverified (tcatbus.com 403); page labels it Not confirmed. Consistent."
+  },
+  {
+   "claim": "Blue Light bus Route 92 nightly 6:30 p.m. to 2:30 a.m. year-round",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief Blue Light row."
+  },
+  {
+   "claim": "Routes table: 81/82 circulators, 10, 15, 30, 32, 90/92/93",
+   "source_url": "https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting",
+   "status": "ok",
+   "note": "Route lists consistent with brief §2.10 (90, 92, 93 night routes, 32 airport route); circulator labels follow the page's source."
+  },
+  {
+   "claim": "Every TCAT bus has a front bike rack at no extra fare",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief TCAT bike racks row."
+  },
+  {
+   "claim": "Nov 9, 2026 downtown stop changes: East Seneca stop 1 moves about 60 yards east; routes 30, 30W, 90 at East Seneca/North Tioga; Route 10 stays on North Tioga",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief §2.6 rows for East Seneca stop 1, stop 2 and Route 10."
+  },
+  {
+   "claim": "OurBus downtown stop moves to 235 S. Cayuga St Nov 9, 2026; Greyhound, FlixBus, Trailways still list 131 E Green St",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief §2.6 'Who moves' row."
+  },
+  {
+   "claim": "Routes 14S and 83 suspended since fall 2023; West Hill resident's up-to-55-minute unsheltered wait",
+   "source_url": "brief §2.12 / §7",
+   "status": "ok",
+   "note": "brief route-suspension row and TCAT reliability paragraph."
+  },
+  {
+   "claim": "TCAT about 90 drivers in 2018, about 60 full-time Oct 2023; all 8 electric buses pulled April 2024",
+   "source_url": "brief §2.12",
+   "status": "ok",
+   "note": "brief driver-numbers and Fleet rows."
+  },
+  {
+   "claim": "Late buses the top complaint: 10 distinct sources from 2019 to March 2026",
+   "source_url": "brief §7.1",
+   "status": "ok",
+   "note": "Brief gives 10 sources as most corroborated complaint. The '2019 to March 2026' span was not itemised in the brief lines I read; the count matches and the end date matches the SA R69 (March 2026). Treated as ok."
+  },
+  {
+   "claim": "SA Resolution 69: March 2026, called buses late and unreliable, urged free passes for all undergraduates and graduate workers, returned by the president Apr 24, 2026",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief SA R69 row: returned by the president Apr 24, 2026. Page wording tracks the brief."
+  },
+  {
+   "claim": "Student in 2022 waited on wrong Google Maps times then paid for an Uber; student worried about 20 to 30 minute walk after 10:30 p.m. class",
+   "source_url": "brief §7 TCAT reliability",
+   "status": "ok",
+   "note": "Attribution matches the brief paraphrase of the Sun 2022 article. Page says 'a student' for both, which does not merge posters."
+  },
+  {
+   "claim": "Drivers told the Sun in 2025 the late-night Route 90 Cornell run goes from packed to near empty fast",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Attribution to drivers via the Sun 2025 matches the brief."
+  },
+  {
+   "claim": "Visit Ithaca 2026: Uber and Lyft limited outside downtown",
+   "source_url": "brief §2.21",
+   "status": "ok",
+   "note": "brief Visitor guide row."
+  },
+  {
+   "claim": "Ithaca Dispatch 607-277-7777; Collegetown Cab 607-588-8888",
+   "source_url": "brief §3 taxis",
+   "status": "ok",
+   "note": "brief taxis-listed row."
+  },
+  {
+   "claim": "Registrar 607-255-4232; TCAT 607-277-RIDE Mon to Fri 7:30 to 5:00; Transportation Services 607-255-4600; 116 Maple Ave",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief Contacts row and TDS paragraph."
+  },
+  {
+   "claim": "Collegetown to central campus 15 to 20 minute walk; Commons about 2 miles, about 40 minutes on foot (our estimate)",
+   "source_url": "brief §10.15",
+   "status": "ok",
+   "note": "Brief walking row: Collegetown 15 to 20 min (Sun guide); Commons 2 miles about 40 min at 3 mph. 2 / 3 mph = 40 min recomputed."
+  },
+  {
+   "claim": "Ithaca Carshare student plans: Just In Case $30/yr + $9/h; It's My Car $310/yr + $6/h; $45 off community price; monthly plans no discount",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "brief rates/students rows ($355 community minus $45 = $310; $75 minus $45 = $30, recomputed)."
+  },
+  {
+   "claim": "Carshare costs: $20 one-time non-refundable per driver; mileage 42/44/52 cents; 8% sales tax plus 12% rental tax; 10-hour daily cap except highest-demand cars",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "brief usage rates and community plans rows."
+  },
+  {
+   "claim": "Carshare break-even 93.3 hours: $30 + 9h = $310 + 6h",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: 280/3 = 93.33."
+  },
+  {
+   "claim": "Carshare example: 32 hours costs $338 (Just In Case) vs $522 (It's My Car)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "30+20+32x9=338; 310+20+32x6=522. Both correct. 2 hours x 2 runs x 8 months = 32."
+  },
+  {
+   "claim": "Carshare eligibility: 18+, license 2+ years, under 21 own policy with at least $300,000 per accident, consent form, foreign license needs driving record, IDP not accepted; phone (607) 277-3210",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "brief eligibility rows and contact row."
+  },
+  {
+   "claim": "Cornell subsidizes annual student memberships; four pickup spots on campus plus four in Collegetown and nearby",
+   "source_url": "https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing",
+   "status": "ok",
+   "note": "Fetched page: 'Four locations on the Cornell campus' and four more in Collegetown and nearby neighborhoods; Cornell students eligible for discounted memberships."
+  },
+  {
+   "claim": "Ithaca Bikeshare: $1.50 + $0.25/min + tax; Day Pass $25 (trips up to 2 h); Monthly $60 (30 free min/day); $1.50 off-hub fee",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "brief Bikeshare current prices row."
+  },
+  {
+   "claim": "Bikeshare math: 10-min ride $4.00, 20-min $6.50; 22 ten-minute rides = $88 vs $60 monthly",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1.50+10x0.25=4.00; 1.50+20x0.25=6.50; 22x4=88. Correct."
+  },
+  {
+   "claim": "Bikeshare Easy Access for GO ITHACA members at or below 150% of federal poverty guideline",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "brief low-income access row."
+  },
+  {
+   "claim": "Fall 2024: 51 bike and scooter thefts, at least $41,177, one arrest; Cornell advises registering and U-lock",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "brief Theft row."
+  },
+  {
+   "claim": "Campus bike network more than 1,000 parking spots, about 7 miles of bike lanes, per assistant director of transportation",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "brief Campus bike network row (opinion column)."
+  },
+  {
+   "claim": "C2C $93.50 one way, $187 round trip with NetID; public $101; 2 suitcases plus 2 carry-ons; bike box counts as a suitcase",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief C2C rows; bike-box rule from the C2C policies page the brief cites."
+  },
+  {
+   "claim": "OurBus from $33, 9 buses a day 5:00 a.m. to 11:55 p.m.; Greyhound from $43.98, 5 departures a day; FlixBus $27 for Sat Nov 7, 2026",
+   "source_url": "brief §2.4 / §10.6",
+   "status": "ok",
+   "note": "brief OurBus, Greyhound and FlixBus rows."
+  },
+  {
+   "claim": "Wanderu six carriers Nov 8: floors $25 to $43, averages $45 to $82 (brief: $44.54 to $82.31), mean average $61.91",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "brief six-carrier summary. $44.54 rounds to $45 and $82.31 to $82."
+  },
+  {
+   "claim": "C2C is about 1.5 times $61.91; cheapest commercial seat about a third of C2C",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "93.50/61.91=1.51; 27/93.50=0.29 and 33/93.50=0.35, so 'about a third' holds."
+  },
+  {
+   "claim": "OurBus peak days: Wednesday before Thanksgiving, last day of December finals, Friday spring break begins",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief peak dates row."
+  },
+  {
+   "claim": "Year scenarios: $264 (4 OurBus round trips at $33), $416 (FlixBus floor + OmniRide), $464 (OurBus + OmniRide), $695.28 (average fare + OmniRide), $714 (Carshare + OurBus), $948 (C2C + OmniRide)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: 4x2x33=264; 4x2x27=216 +200=416; 264+200=464; 4x2x61.91=495.28 +200=695.28; 310+20+20x6=450 +264=714; 4x187=748 +200=948. All match; brief range $264 to $948 agrees."
+  },
+  {
+   "claim": "Four C2C round trips ($748) cost about as much as the $752.98 resident parking permit",
+   "source_url": "brief §2.14 / §10.18",
+   "status": "ok",
+   "note": "brief permit row; 4x187=748 recomputed."
+  },
+  {
+   "claim": "Common mistakes: 10 rides a week is $450 a year; at two paid rides a week you spend $200 for $90; C2C vs OurBus difference $484",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "10x30x1.5=450; 2x30x1.5=90; 748-264=484. Correct."
+  },
+  {
+   "claim": "Airport by TCAT: Route 32 on weekdays and Route 72 on weekends",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief airport TCAT bullet citing flyithaca.com/public-transportation."
+  },
+  {
+   "claim": "Spouses and partners can buy OmniRide at 116 Maple Ave for night routes",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief Spouses and partners row; page defers the route list to Transportation Services, which handles the brief's 90/92 versus 90/92/93 inconsistency."
+  },
+  {
+   "claim": "Taxi fares and Uber waits not confirmed; newest fare samples from 2017",
+   "source_url": "brief §2.21",
+   "status": "ok",
+   "note": "brief marks the 2017 samples as stale. Page's Not confirmed line is consistent."
+  }
+ ],
+ "beats_top": {
+  "query": "getting around Ithaca without a car Cornell",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh",
+ "lint_fixes": [
+  "visuals: 4 beyond the lead photo for 3241 words (5 required: one photo, figure, map or tool per 600 words)",
+  "source url returned error: RemoteProtocolError: illegal request line: https://www.yahoo.com/news/bus-riders-bemoan-aging-fleet-181118830.html"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "slug": "first-year",
+ "queue_id": "q-getting-around-0069",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Nov 9, 2026: OurBus downtown Ithaca stop moves to 235 S. Cayuga St",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief §2.6 and §10; same value, date and Finger Lakes 1 source URL."
+  },
+  {
+   "claim": "Nov 23 to 27, 2026 is Thanksgiving week; OurBus names the Wednesday before Thanksgiving a peak day",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief calendar row lists Thanksgiving week Nov 23 to 27 and the OurBus peak day with the blog ?p=6269 source. Thanksgiving is Thu Nov 26, so Mon to Fri is Nov 23 to 27."
+  },
+  {
+   "claim": "Dec 1: deadline to apply for winter break housing",
+   "source_url": "brief §2.22",
+   "status": "ok",
+   "note": "brief §2.22: applications Oct 1, deadline Dec 1; same Cornell Housing URL."
+  },
+  {
+   "claim": "Dec 23: last C2C departure on the '2026' booking link",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1 and calendar row; same TDS URL."
+  },
+  {
+   "claim": "Jan 6, 2027: first C2C departures on the '2027' booking link",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1 and calendar row; same TDS URL."
+  },
+  {
+   "claim": "Aug 31, 2027: free first-year TCAT pass ends",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief: fall entrants ride to Aug 31 of the next year, which for a fall 2026 entrant is Aug 31, 2027; same bus-passes URL."
+  },
+  {
+   "claim": "You ride TCAT free with your Cornell ID (first-year)",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief: first-years ride free any time; Cornell ID is the pass."
+  },
+  {
+   "claim": "Most likely live on North Campus, probably no car",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "Framing sentence for the reader, not a hard fact; brief says first-years are discouraged from bringing cars and limited permits exist. The brief does not state that first-years live on North Campus, but the page hedges it with 'most likely'. Left as is."
+  },
+  {
+   "claim": "Guide descriptions and titles for the seven listed guides (first-year guide, NYC bus, C2C, TCAT free, Thanksgiving, winter break, topic hub) and the upper-years guide",
+   "source_url": "content/articles/getting-around/*.md",
+   "status": "ok",
+   "note": "Opened each guide's title and meta. They exist at the linked slugs and cover what the page says: new account and cancellation rules (C2C), what the pass covers and when it ends (TCAT), peak days and late-booking cost (Thanksgiving), C2C links and break housing (winter break)."
+  },
+  {
+   "claim": "Four tools (car quiz, bus home cost calculator, break travel timeline, before-break checklist) and what each does",
+   "source_url": "content/tools/*/tool.md",
+   "status": "ok",
+   "note": "Titles match exactly and the metas match the one-line descriptions."
+  },
+  {
+   "claim": "Not in the brief: 2026 winter closing time and Cornell's 2026-27 break dates (2025 closing was 2 p.m. Sun Dec 21)",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice",
+   "status": "ok",
+   "note": "fixed in place: The note was stale. The brief now has the 2026 closing (Sun Dec 20, 2026, 2 p.m.) in §2.22 and the academic calendar (Thanksgiving break Nov 25 to 29, 2026). Replaced the 'not in the brief' line with those facts and links to the Registrar calendar and the winter closing notice. Did not reopen the live pages; the brief already carries both, fact-checked."
+  },
+  {
+   "claim": "Thanksgiving break Nov 25 to 29, 2026",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar",
+   "status": "ok",
+   "note": "brief §2.22 academic calendar row."
+  },
+  {
+   "claim": "Undergraduate residences close Sun Dec 20, 2026 at 2 p.m.",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice",
+   "status": "ok",
+   "note": "brief §2.22, two rows."
+  }
+ ],
+ "beats_top": {
+  "query": "Cornell first-year transportation guide",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

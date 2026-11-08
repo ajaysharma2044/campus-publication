@@ -190,3 +190,35 @@ Entry shape (`scripts/v3/run.sh` appends one per newly published page after each
   Summary: For Cornell students in Ithaca from May to August: the order to read our guides on move-out, TCAT, bikeshare, Carshare and when permits and passes end.
   Ajay: 
 
+- 2026-11-08 | Ithaca Bikeshare cost for Cornell students, 2026 prices | /getting-around/ithaca-bikeshare-cost-cornell-students/ | spoke | getting-around
+  Summary: Ithaca Bikeshare costs $1.50 to start plus $0.25 a minute, $25 a day or $60 a month. Cornell students get no discount; a 20-minute ride is $6.50.
+  Ajay: 
+
+- 2026-11-08 | Biking at Cornell: e-bike rules, scooters and theft | /getting-around/cornell-bike-ebike-scooter-rules-theft/ | spoke | getting-around
+  Summary: Cornell e-bikes: 750 W max, 36 in wide. Scooters: under 100 lb, 20 mph. Lock to racks only, never charge in rooms; 51 thefts hit campus in fall 2024.
+  Ajay: 
+
+- 2026-11-08 | Cornell move-in day parking: where to unload and park | /getting-around/cornell-move-in-day-parking-unloading/ | spoke | getting-around
+  Summary: Print the Move-In Ticket after Aug 1, unload at your building, then move to the 3-hour lot it names. Uber and taxi arrivals go to A Lot.
+  Ajay: 
+
+- 2026-11-08 | Biking in Ithaca in winter: what it's like at Cornell | /getting-around/biking-in-ithaca-winter-cornell/ | rewrite | getting-around
+  Summary: Yes, with good brakes, warm layers and a bike you don't mind salting. Cornell has no winter cycling guidance; free TCAT bike racks get you up the hills.
+  Ajay: 
+
+- 2026-11-08 | Is TCAT free for Cornell students? Hours, routes, passes | /getting-around/tcat-free-for-cornell-students-hours-routes/ | spoke | getting-around
+  Summary: First-years and PhD students ride TCAT free all day. Other Cornell students ride free after 6 p.m. weekdays and weekends, or pay $1.50 a ride.
+  Ajay: 
+
+- 2026-11-08 | Parking in Collegetown and downtown Ithaca: 2026 rates | /getting-around/parking-collegetown-downtown-ithaca-garages-permits/ | spoke | getting-around
+  Summary: City garages are $2.25 an hour with a $12 or $18 daily cap, streets $2.50, Saturdays now paid, Seneca garage closed; a city resident permit is $45.
+  Ajay: 
+
+- 2026-11-08 | Winter storms and Cornell travel: driving, buses, flights | /getting-around/cornell-winter-storms-travel-driving-ithaca/ | spoke | getting-around
+  Summary: Storms have hit Cornell's Thanksgiving and January returns. Travel a day early, watch for added earlier buses, check 511NY and park in winter lots.
+  Ajay: 
+
+- 2026-11-08 | Off-campus at Cornell: commute, buses and parking by area | /getting-around/getting-around-ithaca-off-campus-renters/ | reader_guide | getting-around
+  Summary: Walk 15 to 20 minutes from Collegetown, bus from downtown, plan around the suspended West Hill routes, and park on a $359.77 B permit or $45 city permit.
+  Ajay: 
+

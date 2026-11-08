@@ -75,9 +75,6 @@ sources:
 - url: https://cnysignal.com/hancock-airport-adds-flights-and-a-construction-zone-for-summer-2026-plan-accordingly
   title: Hancock Airport adds flights and a construction zone for summer 2026, CNY Signal
   accessed: '2026-11-08'
-- url: https://www.amtrak.com/stations/syr
-  title: Syracuse, NY (SYR) station, Amtrak
-  accessed: '2026-11-08'
 - url: https://assembly.cornell.edu/resolutions/student-assembly/sa-r83-2025-2026
   title: SA R83 (2025-2026), Cornell Student Assembly
   accessed: '2026-11-08'
@@ -113,8 +110,8 @@ sources:
   accessed: '2026-11-08'
 images:
 - file: 1.webp
-  alt: TCAT Bus 2107 on Route 30
-  caption: TCAT Bus 2107 on Route 30
+  alt: A TCAT city bus on Route 30 at Seneca Street Station in downtown Ithaca
+  caption: TCAT Route 30 at Seneca Street Station, downtown Ithaca. TCAT runs around town, not to Syracuse; the airport bus is OurBus.
   credit: Hbithaca / Wikimedia
   credit_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2107_on_Route_30.jpg
   license: CC BY-SA 4.0
@@ -246,7 +243,7 @@ Not confirmed: a fall 2026 finals charter, or any Thanksgiving or winter airport
 
 ## The Syracuse Amtrak station is not the airport
 
-Amtrak stops at the [William F. Walsh Regional Transportation Center, 1 Walsh Circle, Syracuse NY 13208](https://www.amtrak.com/stations/syr). The airport is at [1000 Col. Eileen Collins Blvd, Syracuse NY 13212](https://www.syrairport.org/), phone 315-454-3263. A ticket "to Syracuse" on a train or a city bus does not reach the terminal.
+Amtrak stops at the [William F. Walsh Regional Transportation Center, 1 Walsh Circle, Syracuse NY 13208](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources). The airport is at [1000 Col. Eileen Collins Blvd, Syracuse NY 13212](https://www.syrairport.org/), phone 315-454-3263. A ticket "to Syracuse" on a train or a city bus does not reach the terminal.
 
 ## When snow hits SYR
 

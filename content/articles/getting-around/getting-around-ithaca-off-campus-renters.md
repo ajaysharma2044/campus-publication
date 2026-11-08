@@ -29,9 +29,6 @@ sources:
 - url: https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/
   title: Facing operator and bus shortages, TCAT board prolongs suspension of routes 14S and 83, The Cornell Daily Sun, April 25, 2024
   accessed: '2026-11-08'
-- url: https://www.yahoo.com/news/bus-riders-bemoan-aging-fleet-181118830.html
-  title: Bus riders bemoan aging fleet, Ithaca Journal via Yahoo News, April 2024
-  accessed: '2026-11-08'
 - url: https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/
   title: Ithaca and TCAT will move downtown bus stops Nov. 9, FingerLakes1, November 3, 2026
   accessed: '2026-11-08'
@@ -165,7 +162,7 @@ Downtown is [about 2 miles](https://www.rome2rio.com/s/Ithaca-Commons/Cornell-Un
 
 Not confirmed for 2026: Route 10's frequency. TCAT's Summer 2024 sheet showed a bus every 6 to 12 minutes on weekdays, an expected wait of 3 to 6 minutes by our math.
 
-West Hill lost its buses. Routes 14S and 83 were suspended in fall 2023 for lack of drivers and vehicles, and the [TCAT board extended the suspension](https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/) in April 2024. A rider's letter, read at the April 17, 2024 TCAT board meeting and reported by the [Ithaca Journal](https://www.yahoo.com/news/bus-riders-bemoan-aging-fleet-181118830.html), described a 55-minute unsheltered wait on the transfer home.
+West Hill lost its buses. Routes 14S and 83 were suspended in fall 2023 for lack of drivers and vehicles, and the [TCAT board extended the suspension](https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/) in April 2024.
 
 ## The downtown stop changes on Nov 9, 2026
 

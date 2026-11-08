@@ -1,0 +1,30 @@
+{
+  "slug": "getting-around-cornell-first-year",
+  "queue_id": "q-getting-around-0049",
+  "verdict": "pass",
+  "checked": [
+    {"claim": "C2C $93.50 one way with a NetID, $101 public, $187 round trip", "source_url": "brief §2 (C2C fares)", "status": "ok", "note": "brief §2 rows for public and NetID fares match."},
+    {"claim": "TCAT free at all hours for first-years until Aug 31, 2027; $1.50 daytime weekday from Sept 1, 2027; OmniRide $200 a year; $1.50 cash fare", "source_url": "brief §2.10", "status": "ok", "note": "brief §2.10 and TCAT rows match."},
+    {"claim": "Resident permit $752.98 a year; fines $50 (+$10 after 10 days), $150 fire lane/accessible; Dec 1 to Apr 1 winter parking rule", "source_url": "brief §2.14-2.16", "status": "ok", "note": "brief rows match."},
+    {"claim": "OurBus 4 to 6 trips a day from Sept 1, 2026; weekend Fresh Meadows and Melville; peak days; Select $15 off 10 tickets; $30 extra bag", "source_url": "brief §2.4", "status": "ok", "note": "brief OurBus rows match."},
+    {"claim": "OurBus route page 'from $33'; Greyhound from $43.98; Wanderu floors $25 to $43; averages $44.54 to $82.31; six-carrier mean average $61.91", "source_url": "brief §10.6", "status": "ok", "note": "brief rows match."},
+    {"claim": "Four C2C round trips = 4 x $187 = $748; four OurBus round trips = 4 x $66 = $264; difference $484; FlixBus 4 x 2 x $27 = $216; mean 8 x $61.91 = $495.28", "source_url": "recomputed", "status": "ok", "note": "Recomputed from inputs; all correct."},
+    {"claim": "$7.50 a trip and $15 a round trip C2C public-vs-NetID gap", "source_url": "recomputed", "status": "ok", "note": "$101 - $93.50 = $7.50; x2 = $15."},
+    {"claim": "OmniRide breaks even at 134 paid rides; $752.98 = $2.06 a day = about 502 TCAT rides", "source_url": "recomputed", "status": "ok", "note": "200/1.5 = 133.3, rounded up to 134; 752.98/365 = 2.063; 752.98/1.5 = 501.99. Brief says 'about 500'."},
+    {"claim": "Thanksgiving-week floors 28% to 38% above, mean 33.4% over 51 dates; $66 round trip about $88", "source_url": "brief §10.9", "status": "ok", "note": "brief figures match; 66 x 1.334 = 88.0."},
+    {"claim": "SYR OurBus $46.7 to $62.1; SYR nonstops to 27 destinations; ITH Delta JFK and United IAD; Newark ended 2025", "source_url": "brief §2.8", "status": "ok", "note": "brief rows match."},
+    {"claim": "Winter break housing $125 a week / $500, Dec 1 deadline, mail Dec 23 to Jan 7; residences closed 2 p.m. Dec 21, 2025", "source_url": "brief §2.22", "status": "ok", "note": "brief rows match."},
+    {"claim": "C2C booking links: Nov through Dec 23, 2026 and from Jan 6, 2027; new system Nov 4; cancel $10 / $30; board 10 minutes early; stops +15 / +30 minutes", "source_url": "brief §2.1", "status": "ok", "note": "brief rows match."},
+    {"claim": "C2C and commercial stop addresses (217 Jessup, 1300 York, 6 E 44th, Greyhound 121 Jessup / 240 West Ave / 625 8th Ave)", "source_url": "brief §2.1 and §2.5", "status": "ok", "note": "brief rows match."},
+    {"claim": "Blue Light bus Route 92, 6:30 p.m. to 2:30 a.m.; Registrar 607-255-4232; TDS 607-255-4600; taxi phone numbers", "source_url": "brief §2", "status": "ok", "note": "brief rows match."},
+    {"claim": "SA charters: R83 $10,668.87, approved Apr 16, 2026; no fall 2026 run found; 2023 shuttle $14 one way", "source_url": "brief §6.9", "status": "ok", "note": "brief rows match."},
+    {"claim": "About 31% of first-years from NYC; late buses in 10 sources; forum thread about five of 16 posts, two-thirds to four-fifths, 8 to 10 posters", "source_url": "brief §7.1, §10.19", "status": "ok", "note": "brief rows match."},
+    {"claim": "Cornell 2026-27 calendar: Thanksgiving break Nov 25 to 29, 2026; finals Dec 11 to 19; spring term begins Jan 25, 2027; spring break Mar 27 to Apr 4, 2027", "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar", "status": "ok", "note": "Opened the registrar page; all four date ranges match exactly. Not in the brief, so checked at source."},
+    {"claim": "Ithaca Carshare: drivers 18+, full unrestricted license 2 years; under 21 needs clean record, own policy with at least $300,000 per accident liability", "source_url": "https://www.ithacacarshare.org/eligibility", "status": "ok", "note": "Opened the page; every condition matches the page's wording."},
+    {"claim": "SA president quote 'literally no transportation available' for 5:30 a.m. flights (2024)", "source_url": "brief §6", "status": "ok", "note": "Quote and attribution appear in the brief with the same Sun source."}
+  ],
+  "brief_updates": [],
+  "fixes": [],
+  "core_answer": "right",
+  "checked_at": "2026-11-08"
+}
