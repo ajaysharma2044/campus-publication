@@ -101,6 +101,15 @@ web = lint.Web(REPO)
 published = lint.published_pairs(REPO)
 # an internal link must land on a page that will be live: a published article or one being published in this run
 live = {f"/{a.parent.name}/{a.stem}/" for a in published_articles()} | {f"/{a.parent.name}/{a.stem}/" for _, a in cands}
+# ...or on a sibling still in the pipeline (written, in review, in its fix round): it publishes in this or a later cycle, and the renderer
+# turns a link whose target is not live yet into plain text, so the site never carries a dead internal link
+_rejected = {r["id"] for r in q.by_status("rejected")}
+def _qid(path):
+    for line in path.read_text(encoding="utf-8").splitlines()[:60]:
+        if line.startswith("queue_id:"):
+            return line.split(":", 1)[1].strip().strip('"').strip("'")
+    return ""
+live |= {f"/{a.parent.name}/{a.stem}/" for a in (REPO / "content" / "articles").glob("*/*.md") if _qid(a) not in _rejected}
 new = since = 0
 for r, art in cands:
     if sessions.stopped():

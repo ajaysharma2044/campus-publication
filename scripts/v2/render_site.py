@@ -359,6 +359,17 @@ def copy_image(src: Path, out_dir: Path, name: str) -> tuple[str, int, int] | No
         return None
 
 
+def unlink_missing(body_html: str, live_paths: set[str]) -> str:
+    """An internal article link whose target is not on the site (still in review, or rejected) becomes plain text: no dead links."""
+    def repl(m):
+        href = m.group(1).split("#")[0].split("?")[0]
+        parts = href.strip("/").split("/")
+        if len(parts) == 2 and parts[0] in TOPICS and href not in live_paths:
+            return m.group(2)
+        return m.group(0)
+    return re.sub(r'<a href="(/[^"]+)"[^>]*>(.*?)</a>', repl, body_html, flags=re.S)
+
+
 def published_ids(queue_path: Path) -> set[str]:
     """Ids of the queue rows in status published (queue/queue.csv, contract 1)."""
     if not queue_path.is_file():
@@ -498,9 +509,10 @@ def build(args) -> int:
     # policy pages and the 404 carry no ad and no ad loader (AdSense: no ads on pages without content), only the analytics and consent scripts
     no_ads = {"ads": {**ads, "sticky_footer": ""}, "head": {**head, "scripts": head_scripts(cfg, production, ads=False)}}
 
+    live_paths = {x["path"] for x in arts}
     for a in arts:
         body, figs = extract_figures(a["body"], a["slug"], today)
-        body_html = md_html(body)
+        body_html = unlink_missing(md_html(body), live_paths)
         for token, fig in figs.items():
             body_html = body_html.replace(f"<p>{token}</p>", fig)
         body_html = re.sub(r"<table>", '<div class="table-wrap"><table>', body_html).replace("</table>", "</table></div>")
