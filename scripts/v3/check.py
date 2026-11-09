@@ -155,9 +155,11 @@ def main(argv: list[str]) -> int:
         chk = P.checks / f"{slug}.json"
         cur = load(chk)
         if cur.get("verdict") == "pass" and not a.recheck and not ids:
-            if not cur.get("page_sha") or cur["page_sha"] == page_sha(files):
+            same_row = str(cur.get("queue_id") or "") in ("", r["id"])   # a passing check vouches for the row that produced it (a shared start page gets a new row per topic)
+            same_page = not cur.get("page_sha") or cur["page_sha"] == page_sha(files)
+            if same_row and same_page:
                 continue
-            log(f"{r['id']}: {slug} changed since its passing check (a writer round); checking it again")
+            log(f"{r['id']}: {slug} changed since its passing check (a writer round, or another topic's path on a shared start page); checking it again")
         prev = cur if cur.get("verdict") == "fix" else load(chk.with_name(f"{slug}.prev.json"))
         rnd = 2 if prev.get("verdict") == "fix" else 1
         previous = ("\n" + "\n".join(f"  - {f}" for f in prev["fixes"])) if prev.get("fixes") else "none (first check)"
