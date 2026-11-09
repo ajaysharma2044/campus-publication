@@ -1,0 +1,193 @@
+{
+ "slug": "what-a-month-off-campus-costs-cornell",
+ "queue_id": "q-housing-0092",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Cornell double $13,744 for 2026-27; $1,145 over 12 months, $1,374 over 10",
+   "source_url": "brief §2 (housing rates)",
+   "status": "ok",
+   "note": "brief §2; recomputed 13,744/12 = 1,145.33 and /10 = 1,374.4"
+  },
+  {
+   "claim": "Collegetown medians 2027-28: 1BR $2,025, 2BR $1,377.50, 4BR $1,246.25, 6BR $800; 38 priced rows",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief §10; 4BR row mix (3 Plaza, 1 Aces) matches the 'three of four' trash claim"
+  },
+  {
+   "claim": "Downtown medians: 2BR $992.50, 3BR $795, 1BR $1,625",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "brief §10.10"
+  },
+  {
+   "claim": "Heat/hot water in rent; trash at Collegetown Center, Plaza and Court; electricity included downtown only at Colonial, Commons Studios, Whiton Hall",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief Ithaca Renting building notes"
+  },
+  {
+   "claim": "Electricity: EnergySage ~$280 at ~1,116 kWh; PowerOutage.us $104.20 at 698 kWh",
+   "source_url": "brief §3.7",
+   "status": "ok",
+   "note": "brief; $280 labeled an upper bound as the brief does"
+  },
+  {
+   "claim": "Internet $30 to $120, Spectrum ~$30 for 100 Mbps",
+   "source_url": "brief §3.7",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Renters insurance $5 to $27: SafeButler $5 and $10 (Sept 11, 2026); Insure.com $328/yr, $40,000/$300,000; GradGuard preferred, no price",
+   "source_url": "brief §3.7",
+   "status": "ok",
+   "note": "brief; 328/12 = 27.33"
+  },
+  {
+   "claim": "NYSEG temporary increase June 1, 2026, 0.2% typical electric impact",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Bus: free after 6 p.m. weekdays and weekends after year one; $1.50 a ride; OmniRide $200/yr, valid through Aug 31, refund through Mar 31 for $40",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Break-even 134 rides; 13 to 14 weeks at 10 rides a week; $16.67 a month",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "Recomputed 200/1.5 = 133.3 -> 134; 134/10 = 13.4 weeks; 200/12 = 16.67"
+  },
+  {
+   "claim": "PhD students and graduate assistants get free OmniRide; master's pay",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Trash tag $6.00, $36.00 for six, from Jan 1, 2026; 35 lb; tag sellers",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief; 4 to 5 tags = $24 to $30, /4 = $6 to $7.50 recomputed"
+  },
+  {
+   "claim": "209 Stewart Ave: $20 county solid waste + $80 garbage a year split five ways, $20 each",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief; 100/5 = 20"
+  },
+  {
+   "claim": "709 N Tioga St: landlord pays internet and water; tenant pays electric and buys garbage tags",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "B permit $359.77/yr (~$30/mo); Dryden Road Garage $232/mo; City residential permit $45/yr; no permits in R-3 per older Cornell item",
+   "source_url": "brief §10.14",
+   "status": "ok",
+   "note": "brief; 359.77/12 = 29.98, 232*12 = 2,784, 2,784/359.77 = 7.74, 45/12 = 3.75"
+  },
+  {
+   "claim": "Grad housing budget $19,962 = $1,663.50 a month; Hasbrouck unfurnished 1BR $1,415 incl. utilities/internet; family 2BR townhouse $1,475/$1,530",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief; 19,962/12 = 1,663.50"
+  },
+  {
+   "claim": "Co-op double $6,974 to $9,962 for 2026-27",
+   "source_url": "brief §10.12",
+   "status": "ok",
+   "note": "brief; 3,487*2 and 4,981*2"
+  },
+  {
+   "claim": "Food $7,604 in Cornell's 2025-26 budget; debit plans from $1,000 a year",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "RentCafe Ithaca 2BR average $2,459; citywide $2,263 down 0.59% from $2,277 (Oct 30, 2026)",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief; 2,459+104.20+30 = 2,593 and 2,459+280+120 = 2,859; 2*2,459 = 4,918"
+  },
+  {
+   "claim": "Exemption: 2026-27 deadline April 6, 2026; non-exempt students billed for the full year",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Aid does not cover deposit, first/last month or unregistered months; refunds excess over Bursar charges",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "NY caps deposit plus rent advance at one month (GOL 7-108)",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "No SSN needed to rent or open a bank account; Spouse/partner with CU ID can buy OmniRide at 116 Maple Ave",
+   "source_url": "brief §2.11 / §3",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Downtown and Fall Creek 20 to 30 minute uphill walk; NYSEG (800) 572-1111 for heating bills",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Table rows: all-in per person for 1BR, 2BR, 4BR, 6BR Collegetown and downtown 2BR, 3BR, and gaps vs $1,145",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "Recomputed every cell from median rent plus electricity (104.20/n to 280/n), internet (30/n to 120/n), insurance 5 to 27; all match after rounding (e.g. 4BR 1,246.25+26.05+7.50+5 = 1,284.80; +70+30+27 = 1,373.25)"
+  },
+  {
+   "claim": "Worked months: 4BR $1,284.80 to $1,373.25, $15,418 to $16,479 a year, $1,674 to $2,735 over double; downtown 2BR $1,081.27 to $1,236.17, $12,975 to $14,834, $769 under to $1,090 over",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "Recomputed x12 and minus 13,744; all match. Downtown cheaper by $137 to $204 (1,284.80-1,081.27; 1,373.25-1,236.17) ok"
+  },
+  {
+   "claim": "Sophomore/parent/budget/1BR figures: $446.25 gap, $5,355 a year, $2,492.50 for June and July, 1BR $10,556 above double, 6BR $251 to $318 under, 3BR $190+ under",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "Recomputed: 1,246.25-800 = 446.25, x12 = 5,355; 24,300-13,744 = 10,556"
+  },
+  {
+   "claim": "2021 Sun story found students who thought off-campus rent beat a dorm plus a meal plan",
+   "source_url": "https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/",
+   "status": "ok",
+   "note": "fixed in place: Source: one student (Ashley Jian '24) said her rent is cheaper than living on campus unless in a triple; another (Jonah Gershon '24) called the required meal plan a dealbreaker. The story does not compare total costs. Reworded to the two quotes, no names added."
+  },
+  {
+   "claim": "2019 Sun columnist called rent too damn high",
+   "source_url": "https://cornellsun.com/2019/01/21/pietsch-the-rent-is-too-damn-high/",
+   "status": "ok",
+   "note": "Opinion column by Victoria Pietsch, Jan 21, 2019; concludes rent is still too damn high"
+  }
+ ],
+ "beats_top": {
+  "query": "cornell off campus cost of living per month ithaca",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

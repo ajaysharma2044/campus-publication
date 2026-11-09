@@ -1,0 +1,127 @@
+{
+ "slug": "exempt-underclass",
+ "queue_id": "q-housing-0075",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Exemptions from the two-year requirement: married or partnered, veteran, legal dependents, 21 or older by start of year, transfer entering as junior or senior, local commuter",
+   "source_url": "brief §3 (exemption rows) and the step list",
+   "status": "ok",
+   "note": "Matches the brief's exemption rows (residential policy, AY 2026-27)."
+  },
+  {
+   "claim": "Exemption requires Housing approval before renting like an upperclass student",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief: request in the Housing application; exemption lasts one year."
+  },
+  {
+   "claim": "Spring and fall: exemption term opens in the Housing application; requests not accepted after you complete a housing license",
+   "source_url": "brief §3 'How to request an exemption'",
+   "status": "ok",
+   "note": "Same conditions as the brief row."
+  },
+  {
+   "claim": "April 6, 2026: AY 2026-27 Housing Application deadline, exemption requests included",
+   "source_url": "brief §3 (2026-27 housing application deadline)",
+   "status": "ok",
+   "note": "Brief says April 6, 2026; the quiz and timeline tool.md carry the same date. The brief's decision list also ties exemption filing to the April deadline."
+  },
+  {
+   "claim": "An exemption lasts one academic year, so reapply",
+   "source_url": "brief §3 / reader step list",
+   "status": "ok",
+   "note": "Brief: 'Reapply every year: an exemption lasts one academic year.'"
+  },
+  {
+   "claim": "Early September: Collegetown buildings open leasing for the following year (originally 'Late August to September')",
+   "source_url": "https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/",
+   "status": "ok",
+   "note": "fixed in place: Brief records only that one building was among the first to open leasing in early Sept 2022; a student started looking in August. 'Late August' leasing opening is not supported. Changed to 'Early September ... (in 2022, early September)'."
+  },
+  {
+   "claim": "October: signing 'in October of sophomore year' (originally 'students report')",
+   "source_url": "https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/",
+   "status": "ok",
+   "note": "fixed in place: Brief records one op-ed author who signed in October of sophomore year (n=1). Page said 'students report' and put it in quotes. Reworded to one op-ed author, no quote marks."
+  },
+  {
+   "claim": "The Collegetown rush runs before the spring window",
+   "source_url": "brief §3 / reader step list",
+   "status": "ok",
+   "note": "Brief: rush for a junior-year lease happens in fall of sophomore year, before the April application deadline."
+  },
+  {
+   "claim": "Guide 1 description: whole market, prices and the law",
+   "source_url": "content/articles/housing/cornell-off-campus-housing-guide.md",
+   "status": "ok",
+   "note": "Title and meta match."
+  },
+  {
+   "claim": "Guide 2 description: each exemption, how to request, what happens if you sign early",
+   "source_url": "content/articles/housing/cornell-residential-requirement-exemptions-live-off-campus.md",
+   "status": "ok",
+   "note": "Meta: exemptions listed; 'Sign first and you're billed anyway'; has a 'Getting an exemption, in order' section."
+  },
+  {
+   "claim": "Guide 3 description: how the fall rush lines up against your approval date",
+   "source_url": "content/articles/housing/when-to-sign-collegetown-lease-cornell.md",
+   "status": "ok",
+   "note": "Title and meta cover the sign-early timing and the leasing calendar; the description is a tight summary."
+  },
+  {
+   "claim": "Guide 4 description: neighborhoods by walk, price and how early they lease",
+   "source_url": "content/articles/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live.md",
+   "status": "ok",
+   "note": "Meta: walk-to-class, per-bed price, signs a year early; has a 'When each market leases' figure."
+  },
+  {
+   "claim": "Guide 5 description: clauses, fees and waivers to check",
+   "source_url": "content/articles/housing/how-to-read-ithaca-lease-before-signing.md",
+   "status": "ok",
+   "note": "Meta: 120-day waiver, deposit, banned fees, joint liability."
+  },
+  {
+   "claim": "Guide 6 description: Cornell housing for students with partners or children",
+   "source_url": "content/articles/housing/cornell-student-family-housing-ithaca.md",
+   "status": "ok",
+   "note": "Title and meta: Hasbrouck family units and private options for families."
+  },
+  {
+   "claim": "Tool 1: eligibility quiz shows which exemption, if any, fits",
+   "source_url": "content/tools/can-i-live-off-campus-cornell-quiz/tool.md",
+   "status": "ok",
+   "note": "Meta: see if you may sign a lease and which exemption to file. Page title omits '2026-27'; it matches the queue row."
+  },
+  {
+   "claim": "Tool 2: signing window by start term, against the exemption deadline",
+   "source_url": "content/tools/when-to-sign-lease-timeline-cornell/tool.md",
+   "status": "ok",
+   "note": "tool.html adds the Housing application and exemption deadline to the timeline."
+  },
+  {
+   "claim": "Sophomore without an exemption: guide /housing/off-campus-housing-cornell-sophomores/",
+   "source_url": "content/articles/housing/off-campus-housing-cornell-sophomores.md",
+   "status": "ok",
+   "note": "Title matches; the guide is about junior-year leases."
+  },
+  {
+   "claim": "Not in the brief: handling of an exempt sophomore's fall request and the 2027-28 deadline",
+   "source_url": "page's own 'Not in the brief' line",
+   "status": "ok",
+   "note": "The hole is marked on the page; not a reject. The 2027-28 deadline is not in the brief."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell housing exemption",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

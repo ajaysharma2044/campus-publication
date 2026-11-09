@@ -1,0 +1,132 @@
+{
+ "slug": "ithaca-rent-commute-calculator",
+ "queue_id": "q-housing-0058",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Collegetown per-bed prices 2027-28: studio $1,765 median (1,565-1,950, n7); 1BR $2,025 (1,625-2,545, n8); 2BR $1,377.50 (1,145-1,495, n5); 3BR $1,243.75 mean (1,185-1,345, n2); 4BR $1,246.25 (895-1,395, n4); 5BR $1,102.50 mean (925-1,275, n2); 6BR $800 (695-1,120, n5); 10BR $775 (725-825, n1); room $895 (695-995, n4)",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief §10.9. Medians, means, ranges and n all match the table. Brief notes its own n=33 vs 38 listed-row discrepancy; the page uses the listed rows, same as the brief's medians."
+  },
+  {
+   "claim": "Downtown per-bed: studio $1,395 (1,175-1,595, n7); 1BR $1,625 (1,525-1,725, n3); 2BR $992.50 (825-1,050, n5); 3BR $795 (695-895, n3); 5BR $795 (745-845); 6BR $870 (815-925)",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "brief §10.10. Medians match. Low and high ends re-derived from the listed row ranges (2BR 825 from Old Cigar Factory 2BR/1BA, 1,050 from 154 The Commons)."
+  },
+  {
+   "claim": "Fall Creek whole-unit: studio $2,600, 1BR $1,600 typical (1,375-1,700), 2BR $2,420",
+   "source_url": "brief §5 (Rentable row; 709 N Tioga; 121 Cascadilla)",
+   "status": "ok",
+   "note": "brief Rentable Fall Creek row and the 709 N Tioga ($1,700, $1,600) and 121 Cascadilla ($1,375) rows. Median of 1,375, 1,600, 1,600, 1,700 is 1,600. The page flags the studio as doubtful."
+  },
+  {
+   "claim": "Lansing whole-unit: 1BR $1,193 middle of three (1,038-1,599); 2BR $1,825 middle of three (1,636-1,870); 3BR $1,694",
+   "source_url": "brief §5 (Lansing West row; 2250 N Triphammer)",
+   "status": "ok",
+   "note": "brief Lansing West row, Nov 2026, and the Triphammer snippet at $1,636. Sorted 1,636, 1,825, 1,870 gives a median of 1,825. The rent-free offer (apply by Nov 14, move in by Dec 1) matches the brief."
+  },
+  {
+   "claim": "Cornell double $13,744 a year ($6,872 a semester), utilities and internet included",
+   "source_url": "brief §3 / §10",
+   "status": "ok",
+   "note": "brief rates rows, AY 2026-27."
+  },
+  {
+   "claim": "Break-even $1,145.33 over 12 months; $1,374.40 over 10",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "Recomputed 13,744/12 = 1,145.33 and 13,744/10 = 1,374.40."
+  },
+  {
+   "claim": "Worked example: Collegetown 4BR four ways, rent $1,246.25 + $70 electricity = $1,316.25 a month, $15,795 a year, $2,051 over the double",
+   "source_url": "brief §10.11",
+   "status": "ok",
+   "note": "Recomputed 280/4 = 70; 1,246.25 + 70 = 1,316.25; x12 = 15,795; minus 13,744 = 2,051. Matches brief."
+  },
+  {
+   "claim": "Grad housing budget $19,962 a year ($1,663.50 a month)",
+   "source_url": "brief §3 grad cost of attendance",
+   "status": "ok",
+   "note": "brief AY 2026-27 figure. Recomputed 19,962/12 = 1,663.50."
+  },
+  {
+   "claim": "Electricity: $280 a month (about 1,116 kWh, updated 2026-11-01) high; $104.20 (698 kWh) low",
+   "source_url": "brief §3.7 / §10.11",
+   "status": "ok",
+   "note": "brief EnergySage and Poweroutage.us rows."
+  },
+  {
+   "claim": "TCAT $1.50 a ride; $3 daily cap on Tcard and app; two rides a day hits $3",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "brief TCAT rows. The page marks the fare page as 403. 2 x 1.50 = 3.00."
+  },
+  {
+   "claim": "OmniRide $200 a year, expires Aug 31, free for PhD students and graduate assistants; pays off at 134 rides (200/1.50 = 133.3)",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "Recomputed 200/1.5 = 133.3, so 134 rides."
+  },
+  {
+   "claim": "New degree students ride TCAT free first year; to Aug 31 for fall entrants, Dec 31 for spring entrants; daytime weekday rides before 6 p.m. cost money",
+   "source_url": "brief §2.16-2.18",
+   "status": "ok",
+   "note": "brief new-degree-students row and the commute summary."
+  },
+  {
+   "claim": "Cornell B permit $359.77 a year, commuters only, limited, sold first come from early August",
+   "source_url": "brief §10.14",
+   "status": "ok",
+   "note": "brief parking rows."
+  },
+  {
+   "claim": "Dryden Road Garage $232 a month, no guaranteed space; $2,784 over 12 months, $2,320 over 10",
+   "source_url": "brief §10.14",
+   "status": "ok",
+   "note": "Recomputed 232 x 12 = 2,784 and 232 x 10 = 2,320."
+  },
+  {
+   "claim": "City residential permit $45 a year, valid to July 31, no partial-year permits; no permits in R-3 central Collegetown per an older Cornell item",
+   "source_url": "brief §10 parking rows",
+   "status": "ok",
+   "note": "brief permit row and 'Where permits apply' row."
+  },
+  {
+   "claim": "Walk distances: Collegetown 0.1-0.5 mi, up to 15 min; downtown 0.5-1.5 mi, 20-30 min uphill; Fall Creek 0.5-1 mi, 20-30 min uphill; Lansing 5-10 mi",
+   "source_url": "brief §2 neighborhoods table",
+   "status": "ok",
+   "note": "brief neighborhood rows, crawled 2026-11-06."
+  },
+  {
+   "claim": "Bus about 15 minutes from Hollister Hall (Fall Creek), about 20 minutes (Lansing), from a 2023 grad guide",
+   "source_url": "brief §2 grad guide row",
+   "status": "ok",
+   "note": "brief Reed Group row, 2023. It is dated and attributed on the page."
+  },
+  {
+   "claim": "Ithaca Renting includes heat and hot water everywhere; Collegetown electricity included only at 210 Dryden floors 2-3 and room-rented units; downtown only at Colonial Building, Commons Studios and Whiton Hall",
+   "source_url": "brief §10.9 / §10.10",
+   "status": "ok",
+   "note": "brief source notes."
+  },
+  {
+   "claim": "Break-even rent comparisons, against-the-double and all-in formulas in tool.html",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed the formulas in render(): rent x beds / people, elecHigh / people, bus = min(rides x weeks x 1.5, 200), car = 45 or 232 x months plus 359.77, all-in = housing + (bus + car) / months. They agree with the formulas in tool.md. Every NUMBERS constant equals the table in tool.md."
+  },
+  {
+   "claim": "Parking: Ithaca Renting says parking is extra; every student asked to register a plate",
+   "source_url": "brief §10.14 / §3",
+   "status": "ok",
+   "note": "brief parking and plate-registration rows."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "23a48054679a332422af9ef067d3493cf4d9ed705f98dce7779f25f58e6ba86a"
+}

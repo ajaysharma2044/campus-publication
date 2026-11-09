@@ -1,0 +1,123 @@
+{
+ "slug": "when-to-sign-lease-timeline-cornell",
+ "queue_id": "q-housing-0059",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Two-year rule; exemptions (married, veteran not ROTC, dependents, 21+, qualifying transfers, commuter within 25 miles); exemption lasts one year",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief exemption rows"
+  },
+  {
+   "claim": "Full-year billing: $13,744 for a 2026-27 double; $6,872 a semester",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief rates row; 6,872 x 2 = 13,744"
+  },
+  {
+   "claim": "Fee after Aug 15 at the double: 0.5 x 6,872 = $3,436",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "recomputed 6,872 / 2 = 3,436"
+  },
+  {
+   "claim": "Cancellation fees $50 / $500 / $1,000 / $2,000 / 50%; free cancellation June 15 and Dec 1",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief rows for the 2027-28 license"
+  },
+  {
+   "claim": "Co-op double $3,487 to $4,981 a semester; co-op rounds early Nov and early Feb; eight co-ops; co-ops@cornell.edu",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief co-op rows"
+  },
+  {
+   "claim": "Housing application Apr 6, 2026; Greek affirmation Mar 15, 2026; sophomore in chapter house must be member",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief rows"
+  },
+  {
+   "claim": "Room selection Oct 2 to 8, 2025",
+   "source_url": "brief §2 / §4",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Collegetown signings: 9 dated signings, 6 Sun stories, 8 within 8 to 16 months, mostly 10 to 11, one fallback at 6",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Month math for Aug 2027: 16 back = April 2026, 11 = Sept 2026, 10 = Oct 2026, 8 = Dec 2026; Nov 8, 2026 is 9 months out",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "counted back from August 2027; Aug 2027 minus Nov 2026 = 9"
+  },
+  {
+   "claim": "14 of 67 Ithaca Renting Collegetown rows for 2027-28 sold out on 2026-11-08 (20.9%)",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "fixed",
+   "note": "page shows 67 rows in total, 39 tagged 2027-28, 14 marked sold out. 14/67 = 20.9% is right, but the rows were not all 2027-28. Reworded in tool.md (prose and table) and tool.html (two strings) to 14 of 67 marked sold out, 39 of the 67 tagged 2027-28."
+  },
+  {
+   "claim": "Developer said in 2016 he usually rents most units by end of November; Ithaca Renting opened 9 a.m. Sept 12, 2019; 2019 manager called 'must sign the day you arrive' a myth; 2018 Feb fallback group, 14-person house; transfers learned June 22, 2018",
+   "source_url": "brief §4, §7, §10.6",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Spring transfer about 18 months; transfer page wording",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Aug 2027 / Aug 2028 / Aug 2029 first-lease years by cohort",
+   "source_url": "brief §4.4",
+   "status": "ok",
+   "note": "two-year rule logic rechecked: first-year now Aug 2028; fall 2027 first-year Aug 2029; sophomore transfer Aug 2028"
+  },
+  {
+   "claim": "Free first-year TCAT ends Aug 31 (fall) and Dec 31 of the following year (spring)",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
+   "status": "fixed",
+   "note": "Source: fall entrants until Aug 31 of the following year; spring entrants January 1 to Dec 31 of the same year. Page said spring ends Dec 31 of the following year. Fixed in tool.md prose and table. 'Free all day' changed to 'unlimited' because the source gives no hours limit for new students (also tool.html). The brief carried the same spring error; fixed there."
+  },
+  {
+   "claim": "Visa appointment no more than 120 days before program start; no SSN needed to rent",
+   "source_url": "brief §4.5",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Hasbrouck rolling applications on 12-month contracts; grads search March to April, few places June to July",
+   "source_url": "brief §4.6",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Most 12-month leases run Aug 1 to July 31",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief, 209 Stewart listing"
+  },
+  {
+   "claim": "Landlord must offer a move-in inspection",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief"
+  }
+ ],
+ "brief_updates": [
+  "Section 4: spring entrants' TCAT access runs to Dec 31 of the same year they start (fall entrants Aug 31 of the following year); source fcs.cornell.edu bus-services-privileges-passes. Change log line added.",
+  "Ithaca Renting row: added that 39 of 67 rows are tagged 2027-2028; source ithacarenting.com/collegetown. Change log line added."
+ ],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "91d2997f34a0187dc7fd144a7f555216c31e3c2703cc3b3b2abc2a8ff86ceeb9"
+}

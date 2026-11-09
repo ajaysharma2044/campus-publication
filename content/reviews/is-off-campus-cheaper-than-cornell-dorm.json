@@ -1,0 +1,187 @@
+{
+ "slug": "is-off-campus-cheaper-than-cornell-dorm",
+ "queue_id": "q-housing-0039",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "2026-27 double $13,744 a year, $6,872 per semester, with gas, electricity, garbage, internet up to 200 GB",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief rows for housing rates"
+  },
+  {
+   "claim": "$13,744 / 12 = $1,145.33; / 10 = $1,374.40",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "recomputed"
+  },
+  {
+   "claim": "Single $15,566; $8,734 less than 1BR at $24,300",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "single in brief; 24,300-15,566 = 8,734"
+  },
+  {
+   "claim": "Co-op triple Red Bud $5,530; doubles $6,974 to $9,962; eight houses; $3,782 to $6,770 less",
+   "source_url": "brief §2, §10.12",
+   "status": "ok",
+   "note": "2,765x2, 3,487x2, 4,981x2 recomputed; differences recomputed"
+  },
+  {
+   "claim": "Ithaca Renting Collegetown medians (6BR $800, 10BR $775, suite $895, 5BR $1,102.50, 3BR $1,243.75, 4BR $1,246.25, 2BR $1,377.50, studio $1,765, 1BR $2,025); 38 priced rows",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "row counts sum to 38; yearly and vs-double figures recomputed, all match"
+  },
+  {
+   "claim": "Downtown medians (studio $1,395, 2BR $992.50, 3BR $795, 6BR $870); 20 rows",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "counts 7+3+5+3+1+1 = 20; yearly figures recomputed"
+  },
+  {
+   "claim": "Collegetown premium over downtown 26.5%, 24.6%, 38.8%",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "370/1395, 400/1625, 385/992.5 recomputed"
+  },
+  {
+   "claim": "14 of 67 Collegetown rows sold out on Nov 8, 2026, including an 8BR and 14BR",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief availability line"
+  },
+  {
+   "claim": "RentCafe Ithaca 3BR $3,039 split three = $1,013, $12,156, $1,588 less; Collegetown 2BR $3,414 split two = $20,484, $6,740 over",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "recomputed"
+  },
+  {
+   "claim": "The Ivy 3BR $5,500 to $5,800 (Sun, Dec 2025): $1,833 to $1,933, $22,000 to $23,200, $8,256 to $9,456 more",
+   "source_url": "brief §10.7",
+   "status": "ok",
+   "note": "recomputed"
+  },
+  {
+   "claim": "6BR to 4BR adds $446.25 a month, $5,355 a year",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "1,246.25-800 = 446.25; x12 = 5,355"
+  },
+  {
+   "claim": "Electricity: EnergySage ~$280 a month, updated Nov 1, 2026; split $140/$70/$46.67; $1,680/$840/$560",
+   "source_url": "brief §10.11",
+   "status": "ok",
+   "note": "recomputed; Poweroutage.us $104.20 also in brief"
+  },
+  {
+   "claim": "Rent plus electricity: downtown 2BR $13,590 ($154 less), 4BR $15,795 ($2,051 more), 6BR $10,160 ($3,584 less)",
+   "source_url": "brief §10.11",
+   "status": "ok",
+   "note": "recomputed"
+  },
+  {
+   "claim": "Meal plans: Unlimited and House $7,604; Bear Traditional and Collegetown $7,056; $50 fee; Bear Choice $6,150 and Bear Basic $4,978 restricted; Just Bucks $1,000",
+   "source_url": "brief §10 meal plan row",
+   "status": "ok",
+   "note": "matches brief row"
+  },
+  {
+   "claim": "Double + $7,056 + $50 = $20,850; West Campus $21,398; $5,055 left for food after 4BR plus electricity; 1BR $3,450 over the $20,850-style total",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "13,744+7,056+50 = 20,850; 13,744+7,604+50 = 21,398; 20,850-15,795 = 5,055; 24,300-20,850 = 3,450"
+  },
+  {
+   "claim": "Cancellation $50 through Jan 31, then $500, $1,000, $2,000; no Cornell deposit; 2027-28 rates final in March 2027",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "matches brief rows"
+  },
+  {
+   "claim": "NY deposit cap one month's rent; deposit plus first month $2,492.50 on $1,246.25",
+   "source_url": "brief §6 (GOL 7-108)",
+   "status": "ok",
+   "note": "1,246.25 x 2 recomputed"
+  },
+  {
+   "claim": "Aid does not cover deposit, first and last month's rent, or unregistered months",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief row"
+  },
+  {
+   "claim": "2025-26 cost of attendance $13,744 housing, $7,604 food; 2026-27 not visible",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief row"
+  },
+  {
+   "claim": "Trash tags $6.00 from Jan 1, 2026",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief row"
+  },
+  {
+   "claim": "209 Stewart Ave $850 all in, $10,200 a year",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "850x12 = 10,200"
+  },
+  {
+   "claim": "Downtown electricity included only at Colonial Building, Commons Studios, Whiton Hall",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "brief, after earlier correction"
+  },
+  {
+   "claim": "20 to 30 minute uphill walk downtown",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Cornell estimate in brief"
+  },
+  {
+   "claim": "Joint and several liability, from Cornell housemate questionnaire",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief row"
+  },
+  {
+   "claim": "Common mistakes: $1,374 x 12 = $16,488, $2,744 over",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "recomputed"
+  },
+  {
+   "claim": "Full set of 28 options in dataset",
+   "source_url": "content/datasets/ithaca-housing-cost-by-living-situation-2026-27.csv",
+   "status": "ok",
+   "note": "CSV has 28 data rows plus header"
+  },
+  {
+   "claim": "2021 Sun: students found off-campus cheaper than dorm plus meal plan",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "brief theme row"
+  },
+  {
+   "claim": "2016 College Confidential: parents said apartments cheaper and roomier; one gave each child the dorm cost; both found good Collegetown places",
+   "source_url": "brief §7 theme 16",
+   "status": "ok",
+   "note": "fixed in place: Brief says 2 posters, one parent gave dorm cost, 'both found good places' (no Collegetown, not all 'parents'). Reworded to 'posters said off-campus apartments were cheaper...; one parent gave each child the dorm cost...; both found good places'."
+  }
+ ],
+ "beats_top": {
+  "query": "is off campus housing cheaper than cornell dorms",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

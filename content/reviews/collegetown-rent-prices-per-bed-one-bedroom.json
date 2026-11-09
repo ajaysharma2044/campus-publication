@@ -1,0 +1,223 @@
+{
+ "slug": "collegetown-rent-prices-per-bed-one-bedroom",
+ "queue_id": "q-housing-0038",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Ithaca Renting Collegetown: 67 rows, 14 sold out on Nov 8, 2026; 105 Dryden Court 8BR and 214 Dryden Rd 14BR sold out",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "ok",
+   "note": "Re-fetched the page: 67 rows, 14 sold out, both houses listed as sold out. Also brief row on sold out."
+  },
+  {
+   "claim": "38 priced 2027-28 rows; medians by size: studio $1,765 (7), 1BR $2,025 (8), 2BR $1,377.50 (5), 3BR mean $1,243.75 (2), 4BR $1,246.25 (4), 5BR mean $1,102.50 (2), 6BR $800 (5), 10BR $775 (1), shared-suite room $895 (4)",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "ok",
+   "note": "Recomputed from the fetched rows (midpoint of each range, 2027-2028 tag, priced, 'Available Now'/semester-tagged rows excluded). All counts and medians match; 7+8+5+2+4+2+5+1+4=38. Also brief §10.9 row."
+  },
+  {
+   "claim": "Ranges seen per size (studio $1,565-$1,950; 1BR $1,625-$2,545; 2BR $1,145-$1,495; 3BR $1,185-$1,345; 4BR $895-$1,395; 5BR $925-$1,275; 6BR $695-$1,120; 10BR $725-$825; room $695-$995)",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "ok",
+   "note": "Each matches the lowest and highest ends of the fetched rows."
+  },
+  {
+   "claim": "1BR spread: Court standard $1,625-$1,725; Center deluxe $2,445-$2,545; Plaza $1,970-$2,080; cheapest beds Aces 6BR from $695, 210 Dryden shared rooms $695-$950, Plaza room $895-$995",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "ok",
+   "note": "Matches fetched rows."
+  },
+  {
+   "claim": "Electricity included on floors 2 and 3 of 210 Dryden Rd; heat, hot water, furniture included; trash at Center, Plaza, Court",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Brief carries the floors 2 and 3 and inclusions detail."
+  },
+  {
+   "claim": "Ithaca Renting home page showed Center deluxe studio $1,935-$2,035 vs Collegetown page $1,830-$1,950",
+   "source_url": "brief §8 / ithacarenting.com/collegetown/",
+   "status": "ok",
+   "note": "Brief row for home page samples; Collegetown page row 49 shows $1,830-$1,950."
+  },
+  {
+   "claim": "Downtown Ithaca Renting medians: 1BR $1,625, 2BR $992.50, 3BR $795; mostly 2026-27",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "Collegetown runs 25% to 39% above downtown for studios, 1BRs, 2BRs",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1,765/1,395=+26.5%; 2,025/1,625=+24.6%; 1,377.5/992.5=+38.8%."
+  },
+  {
+   "claim": "RentCafe Collegetown: 1BR $2,342 (433 sq ft), studio $2,006 (148), 2BR $3,414 (550), all $2,815 (375) on Oct 30, 2026; down 2.59% from $2,890",
+   "source_url": "brief §10 (RentCafe rows)",
+   "status": "ok",
+   "note": "Brief rows. 2,815/2,890 = -2.59% recomputed."
+  },
+  {
+   "claim": "RentCafe Ithaca-wide: studio $1,772 (335), 1BR $2,063 (638), 2BR $2,459 (902), all $2,263 (724)",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "RentCafe Collegetown 1BR listings page $2,396 in October 2025",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief row (snippet, Oct 2025)."
+  },
+  {
+   "claim": "Collegetown 13.5% above Ithaca 1BR, 38.8% above 2BR",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "2,342/2,063=1.135; 3,414/2,459=1.388."
+  },
+  {
+   "claim": "RentCafe uses Yardi Matrix, buildings of 50+ units",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief method row."
+  },
+  {
+   "claim": "Cornell double $13,744 for 2026-27 incl. gas, electricity, internet; $1,145/month over 12; $1,374 over 10",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "13,744/12=1,145.33; /10=1,374.4."
+  },
+  {
+   "claim": "12-month totals and 'vs the double' column (e.g. 1BR $24,300, +$10,556; 6BR $9,600, -$4,144; 5BR -$514; room $10,740, -$3,004)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed every row: median x12 minus 13,744. All match."
+  },
+  {
+   "claim": "6BR to 4BR costs $446.25 a month, $5,355 a year; 4BR vs 2BR saves $131.25, $1,575; 2BR unit $2,755 so $659 below RentCafe $3,414; studio $260 below 1BR; 2-person 1BR upfront at most $4,050",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1,246.25-800=446.25 x12=5,355; 1,377.50-1,246.25=131.25 x12=1,575; 2x1,377.5=2,755, 3,414-2,755=659; 2,025-1,765=260; 2x2,025=4,050."
+  },
+  {
+   "claim": "Parent block yearly costs: 6BR $9,600, 4BR $14,955, 2BR $16,530, 1BR $24,300; Ivy 3BR $22,000-$23,200",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Median x12; matches table."
+  },
+  {
+   "claim": "Tight-budget block: 4BR share plus $70 electricity is $2,051 a year more than the double; $15,795",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "14,955+840=15,795; minus 13,744=2,051."
+  },
+  {
+   "claim": "EnergySage average Ithaca bill $280 a month; $70 each split four ways",
+   "source_url": "brief §10.11",
+   "status": "ok",
+   "note": "Brief row, EnergySage updated 2026-11-01."
+  },
+  {
+   "claim": "Dryden Road Garage monthly permit $232; $2,784 over 12 months",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "Brief row; 232x12=2,784."
+  },
+  {
+   "claim": "The Ivy: 52 units, leases from Aug 17, 2026, nearly all leased before completion; 3BR $5,500-$5,800; $1,833-$1,933 per person; $22,000-$23,200 a year; 1.60-1.69x double",
+   "source_url": "https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026",
+   "status": "ok",
+   "note": "Re-fetched the Sun article; 5,500/3=1,833, 5,800/3=1,933; x12; /13,744 = 1.60 and 1.69."
+  },
+  {
+   "claim": "Basement 2BR $1,595 per person vs $4,000 full price; one student with a 20% early-interest discount stayed in her current building; her concerns",
+   "source_url": "https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026",
+   "status": "ok",
+   "note": "fixed in place: Figures ok. Attribution drifted: the Sun says she was concerned that The Ivy's units were smaller than her current apartment and that she did not know what the interior would look like, not that the basement unit specifically had less space. Reworded on the page to the source's claim."
+  },
+  {
+   "claim": "The Ivy 2027 start: 3BR bedrooms $1,900-$1,950, about $300 more on higher floors, optional utility package $150 per person a month",
+   "source_url": "brief §10 (Ivy snippets)",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "215 College Ave 1BR $2,550 from Aug 15, 2027",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "2022 Sun columnist: The Lux 1BR up to $2,625; priciest Student Agencies 1BR $2,550",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief row for 2022 prices."
+  },
+  {
+   "claim": "2019 Sun: Ithaca Renting 3BR $1,160 per person; 'as low as $720'; 312 College 1BR $2,445 and 3BR $4,150; 201 College Ave 400 sq ft up to $2,500",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief row for 2019 prices."
+  },
+  {
+   "claim": "2019 vs 2026 change percentages (+2.8% to +11.6%; -3.5% to +0.7%; +4.1%; +32.5% to +39.8%)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1,192.5/1,160=+2.8%; 1,295/1,160=+11.6%; 695/720=-3.5%; 725/720=+0.7%; 2,545/2,445=+4.1%; 5,500/4,150=+32.5%; 5,800/4,150=+39.8%."
+  },
+  {
+   "claim": "Sun columnist 2025: older houses about $800 to $1,300 per person, many in poor shape",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "209 Stewart Ave 5BR $850 per room with heat, water, electricity, WiFi; $20 + $80 waste split five ways",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief rows."
+  },
+  {
+   "claim": "Dryden South: $1,395-$1,990 per person; leases end May 31, 2027; Fall 2026 sublet $1,395",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief rows."
+  },
+  {
+   "claim": "709 N Tioga St 1BRs $1,600 and $1,700, internet and water included",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "Hasbrouck 1BR $1,415 unfurnished, utilities and internet in; grad housing budget $19,962 = $1,663.50 a month",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "19,962/12=1,663.5."
+  },
+  {
+   "claim": "Lansing West 1BR now units $1,038 and $1,193",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "Rules: NY GOL 7-108 deposit plus advance rent capped at one month; Cornell aid does not cover deposit or first month; sophomore lease and full-year billing; new transfers live on campus one year; free first-year TCAT; downtown 20 to 30 minute uphill walk",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "All present in the brief with the same wording and sources."
+  }
+ ],
+ "beats_top": {
+  "query": "average rent collegetown ithaca one bedroom 2026",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

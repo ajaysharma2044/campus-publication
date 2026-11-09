@@ -1,31 +1,187 @@
 {
-  "slug": "ithaca-landlords-to-avoid-collegetown-reviews",
-  "queue_id": "q-housing-0012",
-  "verdict": "reject",
-  "fact_check": [
-    {"claim": "Eight landlords owned about $153 million of Collegetown property and 4,013 of an estimated 6,110 bedrooms, almost two-thirds", "source_url": "https://cornellsun.com/2013/05/02/collegetown-housing-market-scrutinized/", "status": "ok", "note": "Source states these figures."},
-    {"claim": "John Novarr owned 1,559 beds; his Collegetown Terrace project had significantly expanded student housing stock", "source_url": "https://cornellsun.com/2013/05/02/collegetown-housing-market-scrutinized/", "status": "ok", "note": "Previous fix applied; matches source."},
-    {"claim": "Owners named: Fane, Avramis, Lambrou, Lower families, Hyde, Johnston, Halkiopoulus; first two each over $38 million", "source_url": "https://cornellsun.com/2013/05/02/collegetown-housing-market-scrutinized/", "status": "ok", "note": "Novarr and Fane each own more than $38 million; other names match."},
-    {"claim": "The Sun noted the numbers do not prove the market was consolidating further", "source_url": "https://cornellsun.com/2013/05/02/collegetown-housing-market-scrutinized/", "status": "ok", "note": "Source says figures 'do not prove' increasing consolidation."},
-    {"claim": "2004 Sun feature quotes Jeff Hull of Ithaca Renting Company saying 'most would say' the company is trying to rip off their security deposit", "source_url": "https://cornellsun.com/2004/12/02/good-bad-and-slummy-collegetown-landlords/", "status": "mismatch", "note": "Misquote. The 'most would say' phrase is about the buildings: most would say Collegetown Plaza, Center and Court are nice places. The deposit remark is a separate 'but there is a feeling that Ithaca Renting Company is trying to rip off' deposits. The article pins the quoted phrase on the deposit claim, so the previous fix was applied wrongly."},
-    {"claim": "2004 feature names landlords and managers; themes of repairs, rent checks, deposits, intrusion", "source_url": "https://cornellsun.com/2004/12/02/good-bad-and-slummy-collegetown-landlords/", "status": "ok", "note": "Names several landlords and managers; themes appear (repairs, lost rent checks, deposits)."},
-    {"claim": "Call the Building Division at 607-274-6508, 8 AM to 4 PM Monday through Friday", "source_url": "https://www.cityofithacany.gov/146/Certificate-of-Compliance", "status": "ok", "note": "Page lists this number and these hours."},
-    {"claim": "Owners must apply for and schedule inspection before the current certificate expires; multiple dwelling = 3+ units or 6+ unrelated people; valid for 3 years", "source_url": "https://www.cityofithacany.gov/146/Certificate-of-Compliance", "status": "ok", "note": "Matches page."},
-    {"claim": "City page does not describe a public lookup", "source_url": "https://www.cityofithacany.gov/146/Certificate-of-Compliance", "status": "ok", "note": "Page mentions no public lookup."},
-    {"claim": "Cornell's safety tool 'recognizes landlords and properties that have met the necessary requirements'", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments", "status": "ok", "note": "Wording matches."},
-    {"claim": "Tool shows fire safety, alarms, egress and construction type, updated daily, City of Ithaca rentals, outside-city properties exempt", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments", "status": "mismatch", "note": "Page says the score uses sprinklers, extinguishers, notification systems (smoke/CO), construction type, code and use; emergency egress is NOT yet an element (planned). Daily update, city coverage and exemption are correct."},
-    {"claim": "Safety tool URL safety.offcampusliving.cornell.edu/default", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments", "status": "ok", "note": "URL given on page."},
-    {"claim": "117 Thurston: certificate expired November 2015; students learned after signing; repeated toilet overflows", "source_url": "https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/", "status": "ok", "note": "Matches article."},
-    {"claim": "About three days without hot water; city inspection found insufficient heat; landlord called certificate 'good to have' but not required, denied hot-water problem; code enforcement director said certificates required for all dwellings", "source_url": "https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/", "status": "ok", "note": "All confirmed on a detailed read (about three days from Aug. 20; Oct. 29 inspection found heat insufficient)."},
-    {"claim": "One student ended up sleeping in a library; unclear whether Building Department could do more than issue warnings", "source_url": "https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/", "status": "ok", "note": "Matches."},
-    {"claim": "GOL 7-108 subdivision 1 applies to all dwelling units; subdivision 1-a holds the one-month cap and 14-day return; article says it could not tell whether 1-a reaches an ordinary Collegetown lease and so states no cap or deadline", "source_url": "https://www.nysenate.gov/legislation/laws/GOB/7-108", "status": "mismatch", "note": "The statute is clear. 1-a excludes only rent-controlled units (city rent and rehabilitation law, emergency housing rent control law) and listed senior/care facilities. Cap: 'No deposit or advance shall exceed the amount of one month's rent' (exceptions for seasonal-use and owner-occupied co-op units). 14 days after the tenant vacates: itemized statement and return of the remainder, or the landlord forfeits the right to keep any part. An ordinary Collegetown lease is covered. The hedge is wrong and contradicts the meta line, which promises 14-day rights. The previous fix asked for the coverage to be stated from the full text."},
-    {"claim": "City amendment passed April 6, 2022, effective May 31, 2022, requires 120 days' written notice before renewing, showing the unit or signing a new tenant; waiver language on the lease's first page", "source_url": "https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/", "status": "ok", "note": "Dates, rule and first-page waiver (with tenant initials) confirmed in the Sun column by Mehler, who wrote 'I passed an Amendment to Ithaca City Code Chapter 258-10(A)'. The official text is on ecode360 (https://ecode360.com/27390826 per search result, Ord. No. 2022-02); the article says it could not open it, which the previous fix allowed, though a source was available."},
-    {"claim": "Cornell resources page lists Building Division 607-274-6508, Community Dispute Resolution Center 607-273-9347, Legal Assistance of Western NY 607-273-3667, Cornell Law Tenant Advocacy Practicum 607-301-1560, and the Ithaca Tenants' Union", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources", "status": "ok", "note": "All four numbers and the ITU are listed."},
-    {"claim": "Ithaca Tenants' Union has a tenant rights guide and landlord issue form; does not publish reports as a searchable list", "source_url": "https://ithacatu.org", "status": "ok", "note": "Homepage links a tenants' rights guide; the get-help page has an issue form for landlord problems. No searchable report list is described. Previous fix applied."},
-    {"claim": "2022 Nguyen column argues a small group of landlords controls Collegetown, describes his own apartment problems and a friend's mold and burst pipe", "source_url": "https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/", "status": "mismatch", "note": "Column says 'only a handful of landlords' manage the market and describes the author's problems and a friend's mold and burst pipe, but the author's pronouns are not stated in the check; article uses 'his own apartment', which the source summary does not confirm (it refers to 'her rent'). Minor wording issue: remove 'his'."},
-    {"claim": "Early-leasing rush the Sun has covered for years", "source_url": "https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/", "status": "ok", "note": "Column covers the early leasing rush."}
-  ],
-  "beats_top": {"query": "ithaca landlords to avoid collegetown reviews", "top_url": "https://cornellsun.com/2002/09/06/c-town-buildings-raise-safety-concerns", "better": "yes", "why": "The top results are a 2002 and a 2004 Sun article and review-site listing pages; none gives a current method. Our page gives a call-first checklist, the certificate of compliance and the rights that apply.", "changes": ["State the deposit cap and 14-day return from GOL 7-108 with confidence", "Cite the official ecode360 text for the 120-day rule"]},
-  "fixes": [],
-  "reviewed_at": "2026-11-07"
+ "slug": "ithaca-landlords-to-avoid-collegetown-reviews",
+ "queue_id": "q-housing-0084",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Certificate call line 607-274-6508, 8 a.m. to 4 p.m. weekdays; email ibd@cityofithaca.org",
+   "source_url": "https://www.cityofithacany.gov/146/Certificate-of-Compliance",
+   "status": "ok",
+   "note": "brief §2 and re-read on the COC page: phone and hours match. The COC page lists no email; the brief records ibd@ from the Building Division page and Cornell's listings page, which the FAQ cites."
+  },
+  {
+   "claim": "Building Division at 108 E. Green St., City Hall 4th floor, 8:30 a.m. to 4 p.m.; main line 607-274-6510",
+   "source_url": "brief §2 (Building Division rows)",
+   "status": "ok",
+   "note": "brief gives the same address, hours and phones."
+  },
+  {
+   "claim": "Certificate required for 3+ units or 6+ unrelated people (code snippet says five); dorms, fraternities and sororities covered; multiple dwelling 3 years, fraternity/sorority 1 year",
+   "source_url": "https://www.cityofithacany.gov/146/Certificate-of-Compliance",
+   "status": "ok",
+   "note": "Fetched the page: 3+ units or 6+ unrelated, 3 years for multiple dwellings, 1 year for fraternities, sororities and dormitories. The 'five' snippet is in the brief."
+  },
+  {
+   "claim": "Safety tool shows sprinklers, extinguishers, smoke/CO notification, construction type, code, property use; updates daily; City rentals only; launched 2017 with 1-5 star ratings; no scale shown now",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments",
+   "status": "ok",
+   "note": "Fetched the tool page: contents, daily update and City-only scope match. Launch and star ratings are in the brief (Sept 2017 Chronicle)."
+  },
+  {
+   "claim": "Cornell reference questions for landlord and past tenants; also public records, BBB, review sites, Chamber complaints, neighbors",
+   "source_url": "brief §2 (signing a lease)",
+   "status": "ok",
+   "note": "brief matches."
+  },
+  {
+   "claim": "Ithaca Tenants Union formed 2020 citing poor maintenance, one-sided leases, deposits above the legal cap, entry without 24 hours' notice",
+   "source_url": "https://cornellsun.com/2020/03/06/as-students-struggle-to-find-housing-three-ilr-juniors-form-new-ithaca-tenants-union/",
+   "status": "ok",
+   "note": "Fetched the Sun article: all four complaints are listed (announced March 2, 2020)."
+  },
+  {
+   "claim": "14 of 67 Collegetown rows sold out for 2027-28 on 2026-11-08",
+   "source_url": "brief §1 and §10.9",
+   "status": "ok",
+   "note": "14/67 recorded in the brief. The brief says 39 of the 67 rows are tagged 2027-28, so 'sold out for 2027-28' is slightly loose; the brief itself uses the same phrasing, so left."
+  },
+  {
+   "claim": "2027-28 Collegetown 4BR median $1,246.25 per bed a month on four priced rows",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Recomputed from the brief's sorted rows 1,145; 1,192.5; 1,300; 1,345: (1,192.5 + 1,300) / 2 = 1,246.25."
+  },
+  {
+   "claim": "$13,744 for a 2026-27 residence hall double; sophomore without exemption is billed the full year",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief matches."
+  },
+  {
+   "claim": "Deposit plus advance capped at one month's rent; return with itemized statement within 14 days or forfeit; willful violation up to twice the deposit; move-in inspection and signed condition record",
+   "source_url": "https://www.nysenate.gov/legislation/laws/GOB/7-108",
+   "status": "ok",
+   "note": "brief §2."
+  },
+  {
+   "claim": "No application fee; background check at most $20 (RPL 238-a)",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief: lesser of actual cost or $20."
+  },
+  {
+   "claim": "120-day notice rule, waiver bolded and initialed; sponsor said first question should be why you are waiving",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief matches WSKG and Sun column."
+  },
+  {
+   "claim": "Cornell aid does not cover deposits or first/last month's rent",
+   "source_url": "https://finaid.cornell.edu/living-campus",
+   "status": "ok",
+   "note": "brief §2."
+  },
+  {
+   "claim": "SSN not needed to rent; Graduate School says a landlord dispute does not affect visa",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief matches."
+  },
+  {
+   "claim": "Cliffside Terrace 7.4/10 on 5 reviews (4 shown), Cornell Law, Jan 2017 to Oct 2022; Ivy Ridge 6.4/10 on 7, Johnson MBA, Nov 2019 to Oct 2025, in Varna",
+   "source_url": "brief §5.3",
+   "status": "ok",
+   "note": "brief rows match, praise and complaints included."
+  },
+  {
+   "claim": "2013 Sun: landlords owned 4,013 of an estimated 6,110 Collegetown bedrooms; 2004 Sun feature is 22 years old",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "4,013 / 6,110 in the brief. 2026 - 2004 = 22."
+  },
+  {
+   "claim": "117 Thurston 2018: certificate expired Nov 2015, about 3 days without hot water, 53 days from Sept 27 letter to Nov 19 heater fix, tenant slept in a library, only a written warning possible",
+   "source_url": "brief §5.3",
+   "status": "ok",
+   "note": "brief matches. Recomputed Sept 27 to Nov 19: 3 days left in Sept + 31 Oct + 19 Nov = 53."
+  },
+  {
+   "claim": "2019 Council: unsafe-unit rental a misdemeanor, up to $500 and 30 days; double monthly rent prorated per day to displaced tenants",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief matches."
+  },
+  {
+   "claim": "Fontana, 327 Eddy St, 2016: five delays, 50+ students with Aug 1 leases, $30 a day or Trip Hotel",
+   "source_url": "brief §5.3",
+   "status": "ok",
+   "note": "brief matches."
+  },
+  {
+   "claim": "Asteri: 181 units, Vecino Group, about 200 residents ordered out March 4, 2026, lifted March 20; $2,000 cash-for-keys called predatory by a city official and the Tenants Union",
+   "source_url": "brief §5.3",
+   "status": "ok",
+   "note": "brief matches."
+  },
+  {
+   "claim": "Ithaca Renting: 18 properties, heat and hot water everywhere, electricity extra at most, furnished, parking extra; opened 2020-21 leasing 9 a.m. Sept 12, 2019; 600+ tenants",
+   "source_url": "brief §5.3",
+   "status": "ok",
+   "note": "brief matches. 'Extra at most' paraphrases 'extra except a few'."
+  },
+  {
+   "claim": "Modern Living Rentals: Charlie O'Connor, 309 College Ave, The Bear, The Summit, The Ivy, office 200 E Buffalo St; The Ivy 52 units, leases began Aug 17, 2026, 3BR $5,500 to $5,800",
+   "source_url": "brief §5.3",
+   "status": "ok",
+   "note": "brief matches."
+  },
+  {
+   "claim": "Student Agencies 409 College Ave, 607-272-2000, early Sept 2022 leasing, priciest 1BR $2,550 (2022); Lambrou, Urban Ithaca (Josh Lower), Avramis (70-75%) facts",
+   "source_url": "brief §5.3",
+   "status": "ok",
+   "note": "brief matches."
+  },
+  {
+   "claim": "Example: four friends, $1,250 per person, $5,000 a month; deposit plus advance $2,500 each; excess $1,250 each, $5,000 group; $100 fee banned",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "Recomputed: 1,250 + 1,250 = 2,500; 2,500 - 1,250 = 1,250; x 4 = 5,000. Matches the common-mistakes bullet."
+  },
+  {
+   "claim": "Code office phones: City 607-274-6508, Town of Ithaca 607-273-1783, Lansing 607-533-7054, Cayuga Heights 607-257-5536 ext. 104, Dryden 607-844-8888; Cayuga Heights page covers only short-term rentals",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief matches."
+  },
+  {
+   "claim": "Off-Campus Living 607-255-2310; hotline 607-301-1560; LawNY 607-273-3667; CDRC 607-273-9347; small claims up to $5,000 in Ithaca City Court",
+   "source_url": "brief §2 and §7",
+   "status": "ok",
+   "note": "brief matches."
+  },
+  {
+   "claim": "Housing Inspections page says inspections are required for all residential rentals in the City",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief quotes the same wording."
+  },
+  {
+   "claim": "Certificate call, safety tool and references 'take under an hour'",
+   "source_url": "none",
+   "status": "unverifiable",
+   "note": "A time estimate for the writer's own plan, not a fact with a source. It does not affect the core answer, so left as is."
+  }
+ ],
+ "beats_top": {
+  "query": "ithaca landlords to avoid collegetown reviews",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
 }

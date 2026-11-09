@@ -1,0 +1,180 @@
+{
+ "slug": "cornell-transfer-housing",
+ "queue_id": "q-housing-0083",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "New transfers live on campus one academic year; spring transfers live on campus the incoming spring plus the following academic year",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates",
+   "status": "ok",
+   "note": "Opened the page: 'required to live on campus for one academic year'; spring transfers 'incoming spring semester as well as the following academic year'."
+  },
+  {
+   "claim": "Junior/senior entrants and those with two years of on-campus living elsewhere are exempt; married, dependents, veteran, 21+ exempt; ROTC does not count",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy",
+   "status": "ok",
+   "note": "Opened the residential policy page; all listed exemptions and the ROTC exclusion match."
+  },
+  {
+   "claim": "Exemption requested in the Housing application when open; not accepted after a signed license; one academic year; transfers reapply each year",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy",
+   "status": "ok",
+   "note": "Matches the policy page wording."
+  },
+  {
+   "claim": "April 6, 2026 deadline applies to current first- and second-years (Not confirmed line for new transfers)",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief and policy page: 'All first and second-year students'. Page correctly marks the transfer deadline as not confirmed."
+  },
+  {
+   "claim": "A student without an exemption is billed for the full year even if they sign a lease",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing",
+   "status": "ok",
+   "note": "Page says those who fail to fulfil the requirement or get an exemption 'will still be billed for the full year'. It does not mention leases, but the inference is direct and the page links the right source."
+  },
+  {
+   "claim": "2026-27 rates: double $13,744; triple/one-room quad $12,644; single/townhouse double $15,566; super single $16,595; co-op double $6,974 to $9,962 ($3,487 to $4,981 a semester)",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief rate rows (lines 81-84)."
+  },
+  {
+   "claim": "Per-month figures $1,054 / $1,145 / $1,297 / $1,383 / $581 to $830",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed annual/12: 12,644/12=1,053.7; 13,744/12=1,145.3; 15,566/12=1,297.2; 16,595/12=1,382.9; 6,974/12=581.2; 9,962/12=830.2. Co-op yearly = 2 x semester, correct."
+  },
+  {
+   "claim": "Hall rates include gas, electricity, garbage, internet up to 200 GB/month",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief line 83."
+  },
+  {
+   "claim": "Eight co-ops, 10 to 35 members, own selection early November and early February, co-ops@cornell.edu, 607-255-3445",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief lines 64, 65, 89."
+  },
+  {
+   "claim": "New transfers cannot cancel the license unless they stop attending or are exempt; second-years may cancel for Greek/co-op before Spring Housing Selection deadline; $60 per day outside occupancy; no-show billed 50% of fall room rate",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028",
+   "status": "ok",
+   "note": "Wording matches. Caveat: the license opened is the AY 2027-28 one (brief row also labels it AY 2027-28); the page applies it to the 2026-27 transfer cohort. The 2026-27 license was not located; rules are generally stable, so left unchanged."
+  },
+  {
+   "claim": "Apply within ten days of receiving NetID; confirmations begin mid-June; Cornell picks the room",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+   "status": "ok",
+   "note": "Page: 'within ten days of receiving your NetID'; 'Beginning in mid-June'; halls decided by random auto-allocation, so 'Cornell picks the room' holds."
+  },
+  {
+   "claim": "Transfers placed in Program Houses, South Campus, West Campus House System and co-ops; grouped when possible; some in first-year halls",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates",
+   "status": "ok",
+   "note": "Matches transfer page; page does not use the word guarantee."
+  },
+  {
+   "claim": "Sun 2018: transfers learned June 22 of housing; some placed far away including Schuyler House; one transfer advised about a week with roommates",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Brief lines 700, 1009."
+  },
+  {
+   "claim": "Room selection ran Oct 2 to 8, 2025; Sun November 2025: sophomore transfer got last slot and leftover triples/doubles; housing fairs promised",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Brief lines 674, 1179, 1246."
+  },
+  {
+   "claim": "14 of 67 Collegetown rows sold out at Ithaca Renting on 2026-11-08",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Brief lines 7, 514."
+  },
+  {
+   "claim": "Downtown share $795 (3BR) and $992.50 (2BR) per bed, 2026-27 median; Collegetown 2BR $1,377.50, 2027-28 median; downtown rows include heat, water, trash",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Brief lines 511-512, 656."
+  },
+  {
+   "claim": "Dryden South single suite $1,395 per person, leases end May 31, 2027",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Brief line 507."
+  },
+  {
+   "claim": "Lansing West 1BR 'now' units $1,038 and $1,193; 2BR $1,825 and $1,870+; special: apply by Nov 14, move in by Dec 1, free rent until Jan 2027",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Brief line 510."
+  },
+  {
+   "claim": "Downtown runs about 20% to 28% cheaper per bed than Collegetown",
+   "source_url": "brief §1 / change log",
+   "status": "ok",
+   "note": "Brief change log: studio 21%, 1BR 20%, 2BR 28%. Recomputed 2BR: 992.50/1,377.50=0.72, so 28% cheaper."
+  },
+  {
+   "claim": "Ithaca average 2BR asked $2,459 in October 2026",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Brief line 486."
+  },
+  {
+   "claim": "Hasbrouck family units $1,475 to $1,530 a month",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief line 85 (2BR townhouse $1,530 furnished, $1,475 unfurnished)."
+  },
+  {
+   "claim": "Every new degree student rides TCAT free the first year; free rides end Aug 31 for fall entrants and Dec 31 for spring entrants; $1.50 per ride; $200 OmniRide",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief lines 370, 373, 377. Timeline dates Aug 31, 2027 (fall 2026 entry) and Dec 31, 2027 (spring 2027 entry) are consistent."
+  },
+  {
+   "claim": "Visa appointments no more than 120 days before program start",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "Brief lines 11, 131."
+  },
+  {
+   "claim": "NY caps deposit plus rent advance at one month's rent (GOL 7-108)",
+   "source_url": "https://www.nysenate.gov/legislation/laws/GOB/7-108",
+   "status": "ok",
+   "note": "Statutory limit; also carried in the brief's deposit rows."
+  },
+  {
+   "claim": "Off-Campus Living email list: subject 'Join', blank body, needs NetID, else forward acceptance letter to offcampusliving@cornell.edu; Housing Operations 1520 Clara Dickson Hall, 607-255-5368, housing@cornell.edu; Off-Campus Living 607-255-2310",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief lines 107-110."
+  },
+  {
+   "claim": "Example: Collegetown 2BR share $1,377.50 x 12 = $16,530; downtown $992.50 x 12 = $11,910; difference $4,620; $1,834 under the Cornell double; $385 a month",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: 1,377.50x12=16,530; 992.50x12=11,910; 16,530-11,910=4,620; 13,744-11,910=1,834; 1,377.50-992.50=385 (x12=4,620)."
+  },
+  {
+   "claim": "Spring 2027 transfer stays in Cornell housing through May 2028; first lease about Aug 2028 (about 18 months away); Collegetown search opens about Aug 2027, 10 to 16 months ahead",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Spring 2027 + AY 2027-28 ends May 2028; Aug 2028 is 19 months after Jan 2027 ('about 18' accepted); Aug 2027 to Aug 2028 is 12 months, within 10 to 16."
+  },
+  {
+   "claim": "Not confirmed lines (guarantor for international students; undergraduate family eligibility for Hasbrouck; transfer exemption deadline)",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "Page marks each as unconfirmed; brief line 209/453 marks guarantor as a hole."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "bc937a402fefe42c12849ddd3e4e869156082a692e7afab6814716ab1183af47"
+}

@@ -1,0 +1,181 @@
+{
+ "slug": "ithaca-120-day-lease-renewal-notice-rule",
+ "queue_id": "q-housing-0030",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "City Code 258-10: 120 days' written notice before renewing, showing the unit, or signing new tenants",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief §2.5 rows 1-2; WSKG re-fetched and agrees"
+  },
+  {
+   "claim": "Passed unanimously April 6, 2022; effective May 31, 2022; replaced 60 days",
+   "source_url": "https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/",
+   "status": "ok",
+   "note": "brief §2.5; WSKG re-fetched: unanimous, May 31, 2022, previous 60 days"
+  },
+  {
+   "claim": "Amended April 6, 2022 by Ordinance 2022-02; code index current through May 6, 2026; 258-11 Penalties, 258-9 Waiver of provisions void",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief §2.5 code location and index currency rows; brief conflicts table for 258-9"
+  },
+  {
+   "claim": "Sponsor Alderperson Patrick Mehler first proposed 180 days then 120 the next week; PEDC hearing January 19, 2022",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief §2.5 drafting history row"
+  },
+  {
+   "claim": "December 2021 City draft with 180 days and written waiver never became law",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief §2.5 180-day draft row"
+  },
+  {
+   "claim": "2013 ordinance effective June 15, 2013, 60 days, counted from lease start, mutual waiver, civil fine up to $500; June lease lets showings begin late August",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief §2.5 2013 ordinance row and fine row"
+  },
+  {
+   "claim": "Covers leases of nine months or longer, as reported; code text not confirmed",
+   "source_url": "https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/",
+   "status": "ok",
+   "note": "WSKG re-fetched says nine months or longer; page marks it as reported and not confirmed, matching brief's hole"
+  },
+  {
+   "claim": "Waiver must be explicitly written, bolded and initialed on lease's first page; begins 'As per Chapter 258-10(A)'",
+   "source_url": "https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/",
+   "status": "ok",
+   "note": "WSKG quote confirmed; 258-10(A) wording from brief §2.5"
+  },
+  {
+   "claim": "Mehler: both parties must choose to waive; 'why you are waiving the days' should be first question",
+   "source_url": "brief §2.5 and §9 row 15",
+   "status": "ok",
+   "note": "brief row 15 quotes the sponsor"
+  },
+  {
+   "claim": "Early draft removed the waiver; Mehler told WSKG it was added back to avoid violating constitutional law",
+   "source_url": "https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/",
+   "status": "ok",
+   "note": "WSKG re-fetched confirms; brief §2.5 waiver history"
+  },
+  {
+   "claim": "City Attorney Ari Levine: compliance disputes can go to the City's housing court",
+   "source_url": "https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/",
+   "status": "ok",
+   "note": "WSKG re-fetched confirms quote; brief §2.5 enforcement row"
+  },
+  {
+   "claim": "Mehler's examples: June 1 lease, decision about October 1; August leases about December",
+   "source_url": "brief §2.5 conflicts table",
+   "status": "ok",
+   "note": "brief conflicts row 'How the 120 days are counted'"
+  },
+  {
+   "claim": "Most Ithaca leases expire July 31",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief row 'Lease-end date in Ithaca', Sun 2024 hearing"
+  },
+  {
+   "claim": "Ithaca Renting Nov 8, 2026: 14 of 67 Collegetown rows sold out, marketing 2027-28 units",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief 'Ithaca Renting sold out' row; 39 of 67 tagged 2027-28"
+  },
+  {
+   "claim": "Nine months before an August 2027 start",
+   "source_url": "date arithmetic",
+   "status": "ok",
+   "note": "Nov 8, 2026 to Aug 1, 2027 is about 8.8 months, rounds to nine"
+  },
+  {
+   "claim": "Sun 2018: desirable leases leave market up to 16 months before move-in; 2013 rush persisted",
+   "source_url": "brief §10.6 / §2",
+   "status": "ok",
+   "note": "brief lead-time row 8 to 16 months; 2013 article cited in brief"
+  },
+  {
+   "claim": "Students reported renewal pressure within weeks of moving in (Sun 2012)",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief line 924 says reported in 2012 and 2022"
+  },
+  {
+   "claim": "RPL 226-c: 30/60/90 days, trigger non-renewal or increase of 5% or more; late notice keeps existing terms",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief rows 226-c thresholds and late notice"
+  },
+  {
+   "claim": "Auto-renew clause GOL 5-903: reminder 15 to 30 days before opt-out date",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief auto-renew row"
+  },
+  {
+   "claim": "Good Cause covered City units since July 2024; presumed unreasonable above lower of 10% or 5% plus inflation; certificate of occupancy from 2009 exempt for 30 years",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief Ithaca opted in, rent standard rows and line 920"
+  },
+  {
+   "claim": "Retaliation protection within a year; owner-occupied buildings with fewer than four units excepted",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief retaliation row"
+  },
+  {
+   "claim": "Cornell Law renewal page updated Feb 2026 gives only state periods, silent on 258-10",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief Cornell Law guide silence row"
+  },
+  {
+   "claim": "Landlord entry: lease usually sets rules, reasonable notice often 24 hours, no right to enter absent reservation except emergency",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief landlord entry row"
+  },
+  {
+   "claim": "Housemates jointly and severally liable for whole rent",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief joint and several row"
+  },
+  {
+   "claim": "Cornell Law tenant hotline 607-301-1560; Off-Campus Living 607-255-2310",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief contacts rows; brief conflicts table settles 2310"
+  },
+  {
+   "claim": "Does not reach Town of Ithaca, Lansing or Cayuga Heights",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "City code scope in brief; page labels it City only"
+  },
+  {
+   "claim": "Sample waiver line in the Sun uses 'willingly waive'",
+   "source_url": "https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/",
+   "status": "unverifiable",
+   "note": "Quote not located by grep in the brief and not re-opened in this pass; low stakes, attributed to the Sun"
+  }
+ ],
+ "beats_top": {
+  "query": "ithaca 120 day lease renewal notice law",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

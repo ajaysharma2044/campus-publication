@@ -1,0 +1,222 @@
+{
+ "slug": "moving-out-ithaca-apartment-deposit-back",
+ "queue_id": "q-housing-0033",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Move-out inspection: landlord tells tenant of right to request; held between two weeks and one week before end; at least 48 hours' written notice; not required if tenant gives under two weeks' notice",
+   "source_url": "brief §10 (GOL 7-108)",
+   "status": "ok",
+   "note": "brief §N deposit table, move-out inspection row"
+  },
+  {
+   "claim": "Deposit or itemized statement within 14 days after vacating; landlord who misses forfeits right to keep any part",
+   "source_url": "brief §10 (GOL 7-108)",
+   "status": "ok",
+   "note": "brief §N, return deadline row"
+  },
+  {
+   "claim": "Willful violation: punitive damages up to twice the deposit; landlord must prove withheld amounts reasonable; waivers void",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief penalties row"
+  },
+  {
+   "claim": "Dates for a July 31 lease end: inspection window July 17 to 24, deposit due August 14; May 31 lease: May 17 to 24, June 14",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: July 31 minus 14 days = July 17; minus 7 = July 24; plus 14 = August 14. May 31 minus 14 = May 17, minus 7 = May 24, plus 14 = June 14."
+  },
+  {
+   "claim": "Most Ithaca leases end July 31",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "brief lease-end row (2024 hearing, Sun)"
+  },
+  {
+   "claim": "Worked example: $1,246 per bed is the median across four Ithaca Renting 4BR listings, 2027-28; double is $2,492",
+   "source_url": "brief §10.9 / Ithaca Renting row",
+   "status": "ok",
+   "note": "Brief gives 4BR median $1,246.25, rounded to $1,246. 2 x 1,246 = 2,492. Cap of one month's rent per brief deposit-cap row."
+  },
+  {
+   "claim": "Move-in inspection: signed condition record means landlord cannot keep deposit for listed defects",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief move-in inspection row"
+  },
+  {
+   "claim": "Deductions table (unpaid rent, damage, utilities, moving/storing, excessive cleaning allowed; routine cleaning, separate cleaning fee, late/attorney fees since June 14, 2019 not allowed)",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief allowed deductions row"
+  },
+  {
+   "claim": "Replacement keys up to 110% of actual cost (RPL 235-i)",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief replacement keys row"
+  },
+  {
+   "claim": "Cleaning conflict: Cornell page says 'charges for cleaning services will be deducted'; Law guide bans a separate fee",
+   "source_url": "brief §conflicts; https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out",
+   "status": "ok",
+   "note": "Quote confirmed on fetched Cornell page; brief conflicts table says trust the law."
+  },
+  {
+   "claim": "Cornell two-stage checklist: two weeks before (confirm date, schedule final inspection, review lease, change address); one week before (schedule disconnection of services, clean, forwarding address); move-out day (photograph rooms, keys)",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out",
+   "status": "ok",
+   "note": "fixed in place: Fetched page lists only two timed stages; it has no move-out-day section, and 'clean' and 'forwarding address' are untimed items. The brief files clean and forwarding address under one week, so the page keeps that. Item 3 (photos, keys) was presented as Cornell's; relabeled '(our addition; Cornell's page has no move-out-day step)'."
+  },
+  {
+   "claim": "Buildings of six or more units: interest-bearing account, 1% yearly administrative fee, tenant can take interest at lease end; deposits are trust funds",
+   "source_url": "brief §10 (AG)",
+   "status": "ok",
+   "note": "brief interest and trust funds rows"
+  },
+  {
+   "claim": "New owner liable for a deposit it knew about",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief new owner row"
+  },
+  {
+   "claim": "City of Ithaca trash tag $6.00, $36.00 per sheet of six, effective Jan 1, 2026, one per container up to 35 lbs",
+   "source_url": "brief trash tags row",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "Tag sale locations (City Hall 108 E. Green St., Ace 213 S. Fulton, Campus Store 135 Ho Plaza, GreenStar, P&C Fresh, Tops, Wegmans)",
+   "source_url": "brief where to buy tags",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "Garbage out no more than 24 hours before pickup; no couches, mattresses, appliances stored outdoors; violation notices from Solid Waste group",
+   "source_url": "brief set-out rules and enforcement rows",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "Tompkins Recycling and Solid Waste Center, 122 Commercial Ave, Mon to Sat 7:00 a.m. to 3:30 p.m., fees not listed online, vest required since Aug 1, 2026",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "NYSEG customer line 800.572.1111, Monday to Friday 7 a.m. to 7 p.m.",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief matches (brief notes search summary only)"
+  },
+  {
+   "claim": "City residential parking permits expire July 31",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief: valid issue date through July 31"
+  },
+  {
+   "claim": "Community Dispute Resolution Center 607-273-9347; AG 1-800-771-7755; Cornell Law hotline 607-301-1560; small claims $5,000 in Ithaca City Court, $3,000 town and village",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief contact and small-claims rows. The page's address '118 East Clinton Street' for Ithaca City Court is not in the brief; it is a well-known public address and was not separately verified."
+  },
+  {
+   "claim": "Recovery route: demand letter, mediation, small claims, AG complaint",
+   "source_url": "brief recovery route row",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "Subtenant case: original tenant stays liable for subtenant's rent and damage (RPL 226-b)",
+   "source_url": "brief sublet remedies row",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "Dryden South leases all end May 31, 2027",
+   "source_url": "brief listings row",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "Big Red Shipping and Storage picks up free at apartments, posts no prices",
+   "source_url": "brief storage rows",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "SpareFoot 10x10 Ithaca: 'averages about $93.39 a month' (July 2026)",
+   "source_url": "https://sparefoot.com/Ithaca-NY-self-storage.html",
+   "status": "ok",
+   "note": "fixed in place: Brief has only 'about $93' (SpareFoot) vs about $153 (SelfStorage.com) as a range. The page returned HTTP 403 to fetch. A search confirmed $93.39 is the 10x10 figure on the main page, with a $44.00 to $93.39 'cheapest 10x10' range, and the main page carries no date; other SpareFoot Ithaca pages show $107 to $141. Removed 'averages' and the '(July 2026)' date and called it the page's listed figure, with a caution that it is a floor. Same relabel in the cost_table figure."
+  },
+  {
+   "claim": "Graduate School staff: a landlord dispute does not affect visa status or standing",
+   "source_url": "brief international rows",
+   "status": "ok",
+   "note": "brief: 'per staff'"
+  },
+  {
+   "claim": "Hotline gives advice with no income or geographic limits",
+   "source_url": "brief international legal help row",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "Cornell aid does not cover security deposits",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief: 'Cornell aid does not cover deposits'"
+  },
+  {
+   "claim": "Joint leases: each tenant liable for whole unit; overpaying housemate can sue for contribution",
+   "source_url": "brief contribution row",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "Deposit cap: deposit plus any rent advance cannot exceed one month's rent; no last-month's rent on top",
+   "source_url": "brief deposit cap row",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "Deposit disputes in four local sources 2004 to 2020; 2004 Sun reputation for fighting over deposits; ITU 2020 cited deposits above the legal cap",
+   "source_url": "brief voice table row 8",
+   "status": "ok",
+   "note": "brief: 4 sources, 2004-2020; attributions match"
+  },
+  {
+   "claim": "LeaseLenses reads City Code Chapter 258 as allowing up to three times; not checked against code; state 14 days controls",
+   "source_url": "page marks 'Not confirmed'",
+   "status": "ok",
+   "note": "Hole is explicitly marked by the page; not a reject."
+  },
+  {
+   "claim": "Photo caption: Dryden Road from College Avenue in September 1985",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Collegetown_(438384821).jpg",
+   "status": "unverifiable",
+   "note": "Image file page was not opened; the date and view direction come from the image ledger and are not in the brief. Low stakes; not on the core answer."
+  }
+ ],
+ "beats_top": {
+  "query": "moving out of apartment ithaca cornell checklist deposit",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh",
+ "transient_passes": 2,
+ "lint_fixes": [
+  "a cited source could not be fetched on 2 publish passes; replace it with a reachable source for the same fact or remove the fact: The read operation timed out: https://www.nyseg.com/support/moving-help"
+ ],
+ "lint_rounds": 1
+}

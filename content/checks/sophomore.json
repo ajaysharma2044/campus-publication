@@ -1,0 +1,120 @@
+{
+ "slug": "sophomore",
+ "queue_id": "q-housing-0070",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Collegetown leasing for the next year opens late August to September as students arrive (Cornell Daily Sun, 2022)",
+   "source_url": "brief §4.1 (Late August to September, the rush)",
+   "status": "ok",
+   "note": "brief §4.1 cites the same 2022-09-12 Sun article for early-September opening."
+  },
+  {
+   "claim": "Early October: Cornell fall room selection for the next year ran Oct 2 to 8 in 2025, and prelims",
+   "source_url": "brief §4.1 (October); brief license/room-selection row",
+   "status": "ok",
+   "note": "brief gives Oct 2-8, 2025 with the same Sun article URL; prelims in October per the brief."
+  },
+  {
+   "claim": "Early November: the co-op selection round (Cornell Housing co-op page)",
+   "source_url": "brief §4.1 (November); co-op size and selection row",
+   "status": "ok",
+   "note": "brief: selection starts early February and early November, same URL."
+  },
+  {
+   "claim": "Jan 31: last day to cancel a junior-year Cornell housing license for $50, for 2027-28",
+   "source_url": "brief §4.1 (January); license cancellation fees row",
+   "status": "ok",
+   "note": "brief: returning juniors and seniors $50 through Jan 31, 2027-28 license URL. A sophomore's fall room selection makes them a returning junior, so the wording fits."
+  },
+  {
+   "claim": "February to April: later search for downtown, Fall Creek and Lansing; second co-op round in early February",
+   "source_url": "brief §4.1 (February); when-to-sign guide",
+   "status": "ok",
+   "note": "Second co-op window is early February per the brief; the later-market claim matches the when-to-sign guide's meta (downtown, Fall Creek, Lansing can wait)."
+  },
+  {
+   "claim": "On or about Aug 1 before junior year the lease starts; landlord's move-in inspection (NY GOL 7-108)",
+   "source_url": "brief §4 intro, §4.1 (August), deposit rows",
+   "status": "ok",
+   "note": "brief: most Ithaca leases start on or about Aug 1; landlord must offer a move-in inspection under GOL 7-108."
+  },
+  {
+   "claim": "Collegetown rush for the junior-year lease runs in the fall of sophomore year, often during prelims",
+   "source_url": "brief §4.1 (October)",
+   "status": "ok",
+   "note": "brief: prelims in October, landlords say rising juniors prefer to sign before them; students report signing in October of sophomore year."
+  },
+  {
+   "claim": "Guide 1 title and what it covers (2026-27 guide, whole market on one page)",
+   "source_url": "content/articles/housing/cornell-off-campus-housing-guide.md",
+   "status": "ok",
+   "note": "Title matches; meta describes the overview of leases, timing and Cornell options."
+  },
+  {
+   "claim": "Guide 2: sophomores, junior-year lease, step by step",
+   "source_url": "content/articles/housing/off-campus-housing-cornell-sophomores.md",
+   "status": "ok",
+   "note": "Title matches; meta is the sophomore plan."
+  },
+  {
+   "claim": "Guide 3: residential requirement and exemptions; why the lease must start junior year",
+   "source_url": "content/articles/housing/cornell-residential-requirement-exemptions-live-off-campus.md",
+   "status": "ok",
+   "note": "Title matches; meta says sophomores must live in Cornell or affiliated housing unless exempt."
+  },
+  {
+   "claim": "Guide 4: when to sign a Collegetown lease, fall rush or wait for spring",
+   "source_url": "content/articles/housing/when-to-sign-collegetown-lease-cornell.md",
+   "status": "ok",
+   "note": "Title matches; meta covers September/October signing and what can wait."
+  },
+  {
+   "claim": "Guide 5: roommates and joint liability",
+   "source_url": "content/articles/housing/cornell-off-campus-roommates-joint-liability.md",
+   "status": "ok",
+   "note": "Title matches; meta covers each co-tenant owing full rent and group size cost."
+  },
+  {
+   "claim": "Guide 6: Collegetown vs Fall Creek vs downtown, neighborhoods side by side",
+   "source_url": "content/articles/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live.md",
+   "status": "ok",
+   "note": "Title matches the page text."
+  },
+  {
+   "claim": "Guide 7: Collegetown rent in 2026, what a bed costs by unit size",
+   "source_url": "content/articles/housing/collegetown-rent-prices-per-bed-one-bedroom.md",
+   "status": "ok",
+   "note": "Title matches; meta covers per-bed price by unit size."
+  },
+  {
+   "claim": "Guide 8: how to check a landlord and a building",
+   "source_url": "content/articles/housing/ithaca-landlords-to-avoid-collegetown-reviews.md",
+   "status": "ok",
+   "note": "Title matches; meta covers certificate, safety tool and past tenants."
+  },
+  {
+   "claim": "Guide 9: clauses and fees to look for in a lease",
+   "source_url": "content/articles/housing/how-to-read-ithaca-lease-before-signing.md",
+   "status": "ok",
+   "note": "Title matches; meta covers waiver, deposit, banned fees, joint liability."
+  },
+  {
+   "claim": "Guide 10: 120-day renewal rule and the page-one waiver",
+   "source_url": "content/articles/housing/ithaca-120-day-lease-renewal-notice-rule.md",
+   "status": "ok",
+   "note": "Title matches; meta covers the page-one waiver."
+  },
+  {
+   "claim": "Next-year link: Already renting near Cornell: renewals, repairs and deposits",
+   "source_url": "content/articles/housing/off-campus-housing-cornell-juniors-seniors-renting.md",
+   "status": "ok",
+   "note": "Title matches exactly; all 11 linked guide files exist."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "a2c26f5c8d6a9a24bb2aab8ca06c92be52013d19f7f97dbdc03e0d7e74e25ace"
+}

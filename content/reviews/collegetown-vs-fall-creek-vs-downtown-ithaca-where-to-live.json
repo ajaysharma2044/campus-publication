@@ -1,40 +1,223 @@
 {
-  "slug": "collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live",
-  "queue_id": "q-housing-0003",
-  "verdict": "pass",
-  "fact_check": [
-    {"claim": "Collegetown is 0.1 to 0.5 miles from campus, up to a 15-minute walk", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", "status": "ok", "note": "Heading '(0.1 - .5 miles)'; '(Up to a 15-minute walk to campus.)'"},
-    {"claim": "Fall Creek is 0.5 to 1 mile from campus, 20 to 30 minute uphill walk", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", "status": "ok", "note": "Heading '(0.5 - 1 miles)'; '(A 20 to 30-minute uphill walk to campus.)'"},
-    {"claim": "Downtown is 0.5 to 1.5 miles from campus, 20 to 30 minute uphill walk", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", "status": "ok", "note": "Heading '(0.5 - 1.5 miles)'; same 20 to 30-minute uphill walk. The article states that the page shares one paragraph across areas."},
-    {"claim": "Cornell says bus service is frequent in Fall Creek and downtown; gives no bus info for Collegetown", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", "status": "ok", "note": "'Bus service is frequent in this area.' appears for Fall Creek and Downtown, not Collegetown."},
-    {"claim": "Collegetown is akin to a miniature city with shopping, restaurants and other services (paraphrased, no quotation marks)", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", "status": "ok", "note": "Source: 'akin to a miniature city featuring shopping, restaurants, and other services.' Article paraphrases without quotes; previous fix applied."},
-    {"claim": "Collegetown popular with mostly undergraduates, which raises rent, noise and congestion; rent and noise highest", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", "status": "ok", "note": "'very popular with students (mostly undergraduate), which increases rent, noise, and congestion.'"},
-    {"claim": "Collegetown housing is apartment complexes, multiple-unit houses and room rentals; lower Collegetown uphill walk is good exercise", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", "status": "ok", "note": "Both statements found on the page."},
-    {"claim": "Fall Creek and downtown: many graduate students prefer them for lower rents; no dollar figures from Cornell", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", "status": "ok", "note": "'Many graduate students prefer this area for its lower rents and city neighborhood feel.' No dollar figures. Previous fixes applied to the table."},
-    {"claim": "Fall Creek is at the base of East Hill, within walking distance of shopping, parks and city services; subdivided houses, single-unit houses, apartments over shops", "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", "status": "ok", "note": "Wording confirmed on the page."},
-    {"claim": "Fall Creek VeryApt rating 7.8/10 from 6 reviews", "source_url": "https://www.veryapt.com/guides/neighborhood/372-ithaca-fall-creek/", "status": "ok", "note": "7.8/10 based on 6 neighborhood reviews. Previous fix applied."},
-    {"claim": "Fall Creek reviewers: quiet, far enough from Collegetown and fraternities that weekends are calm; about 20 minute walk; mixed bus opinions", "source_url": "https://www.veryapt.com/guides/neighborhood/372-ithaca-fall-creek/", "status": "ok", "note": "All reported by reviewers on the page."},
-    {"claim": "VeryApt has no median rent for Fall Creek", "source_url": "https://www.veryapt.com/guides/neighborhood/372-ithaca-fall-creek/", "status": "ok", "note": "Median rent fields are blank."},
-    {"claim": "Downtown VeryApt rating 8.5 out of 10 from 37 reviews", "source_url": "https://www.veryapt.com/guides/neighborhood/366-ithaca-downtown-ithaca/", "status": "ok", "note": "8.5/10 from 37 reviews."},
-    {"claim": "Downtown reviewers praise TCAT with multiple routes near many buildings; very walkable but the climb to Cornell is hard; weekend noise near the Commons; festival crowds; limited food after about 9 pm; safety concerns including a break-in near one building; routes change during construction", "source_url": "https://www.veryapt.com/guides/neighborhood/366-ithaca-downtown-ithaca/", "status": "ok", "note": "All present in the reviewer summaries. Table noise wording 'Some weekend noise ... per reviewers (VeryApt, mixed)' matches. Previous fixes applied."},
-    {"claim": "Collegetown RentCafe averages as of October 30, 2026: studio $2,006, 1-bedroom $2,342, 2-bedroom $3,414", "source_url": "https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/", "status": "ok", "note": "Same values and date. Page has no 3-bedroom figure; the article does not give one."},
-    {"claim": "All-Ithaca RentCafe averages as of October 30, 2026: studio $1,772, 1BR $2,063, 2BR $2,459, 3BR $3,039", "source_url": "https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/", "status": "ok", "note": "Same values and date."},
-    {"claim": "Cornell Daily Sun 2022: Collegetown listings often over $1,000 per person; one-bedroom up to $2,625; students start hunting in early fall; some sign leases more than a year ahead", "source_url": "https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/", "status": "ok", "note": "All in the column, dated August 2022, and the article labels them as 2022 figures. The $2,625 figure is for The Lux. Rent figures from a student newspaper are used only as dated context, with RentCafe as the current number."},
-    {"claim": "New degree students ride TCAT free in the first year; after that registered students ride free after 6 pm weekdays and all day weekends", "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes", "status": "ok", "note": "Confirmed; the page says all day Saturday and Sunday."},
-    {"claim": "OmniRide pass $200 a year, prorated monthly; registered PhD students and graduate assistants get one free; page lists no campus routes", "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes", "status": "ok", "note": "Confirmed on all three points."},
-    {"claim": "Many students begin looking between October and December", "source_url": "https://offcampus.housing.cornell.edu/", "status": "ok", "note": "Page says typically October to December."},
-    {"claim": "First- and second-year students should not sign a lease without an approved exemption", "source_url": "https://offcampus.housing.cornell.edu/", "status": "ok", "note": "Page: 'should not sign a lease unless they have an approved exemption'."},
-    {"claim": "Marketplace page looks partly out of date; confirm with Cornell Housing (housing@cornell.edu, 607-255-5368)", "source_url": "https://offcampus.housing.cornell.edu/", "status": "ok", "note": "Contact details match. The page has stale 2019-2020 exemption text and Colorado State/Pueblo County text, which supports the caution. Previous fix applied."},
-    {"claim": "Cornell's off-campus office can help you review a lease", "source_url": "https://offcampus.housing.cornell.edu/", "status": "ok", "note": "Page says Cornell Off-Campus Housing can help review a lease."},
-    {"claim": "Meta line and intro: downtown 'best bus access' / 'best connected by bus'", "source_url": "https://www.veryapt.com/guides/neighborhood/366-ithaca-downtown-ithaca/", "status": "ok", "note": "Editorial summary of reviewer praise for TCAT. Cornell calls bus service equally frequent in Fall Creek and downtown, and the article says so. A softer wording would be safer, but this is not a number, date, fee or rule, so it does not block a pass."}
-  ],
-  "beats_top": {
-    "query": "collegetown vs fall creek vs downtown ithaca where to live",
-    "top_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods",
-    "better": "yes",
-    "why": "The top results are Cornell's one-paragraph-per-area neighborhood page and listing-site guides (VeryApt). Neither compares the three areas side by side or says which to pick for your situation. Ours opens with a pick by student type, tabulates distance, walk, bus, rent and noise with sources, and covers lease timing and bus passes.",
-    "changes": ["Optional: soften 'best bus access' in the meta and intro to match Cornell's equal 'frequent' wording.", "Optional: add a note that Cornell lists 'The Commons' as a separate area at about 1 mile."]
+ "slug": "collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live",
+ "queue_id": "q-housing-0081",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Collegetown 0.1 to 0.5 miles, up to 15-minute walk; Fall Creek 0.5 to 1 mile, 20 to 30 minutes uphill; downtown 0.5 to 1.5 miles, Commons 1 mile, 20 to 30 minutes uphill",
+   "source_url": "brief §3.8",
+   "status": "ok",
+   "note": "Matches the brief's neighborhood rows (Cornell neighborhood guide)."
   },
-  "fixes": [],
-  "reviewed_at": "2026-11-07"
+  {
+   "claim": "Ithaca Renting Collegetown 2027-28 medians: studio $1,765, 1BR $2,025, 2BR $1,377.50, 3BR mean $1,243.75, 4BR $1,246.25, 6BR $800, room in shared suite $895",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Same values as the brief's Collegetown table."
+  },
+  {
+   "claim": "Ithaca Renting downtown medians: studio $1,395, 1BR $1,625, 2BR $992.50, 3BR $795, 6BR $870",
+   "source_url": "https://ithacarenting.com/downtown/",
+   "status": "ok",
+   "note": "Brief §10.10 matches. Re-fetched the page: 3BR midpoints 745, 795, 855 give median 795; 1BR midpoints sort to 1,575, 1,625, 1,625, 1,712.5 giving 1,625; 6BR Cityview $815-$925 midpoint 870; 2BR median 992.50 agrees with brief."
+  },
+  {
+   "claim": "Collegetown costs 25% to 39% more than downtown; downtown 20% to 28% less",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "Recomputed: 370/1,395=26.5%, 400/1,625=24.6%, 385/992.50=38.8% more; as a share of the Collegetown price 370/1,765=21.0%, 400/2,025=19.8%, 385/1,377.50=27.9% less, so 20% to 28%."
+  },
+  {
+   "claim": "Only at 6BR does downtown cost more: $870 vs $800",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "Both medians match the brief."
+  },
+  {
+   "claim": "14 of 67 Collegetown rows sold out on 2026-11-08; 105 Dryden Court 8BR and 214 Dryden Rd 14BR sold out for 2027-28",
+   "source_url": "brief §5.3",
+   "status": "ok",
+   "note": "Brief rows match."
+  },
+  {
+   "claim": "Sophomore: dropping from 6BR to 4BR median costs $446.25 a person a month",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Recomputed 1,246.25 - 800 = 446.25."
+  },
+  {
+   "claim": "Cornell 2026-27 double $13,744 a year = $1,145 a month over 12 months",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "13,744 / 12 = 1,145.33. Rate matches the brief."
+  },
+  {
+   "claim": "Grad housing budget $19,962 a year = $1,663.50 a month",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "19,962 / 12 = 1,663.50."
+  },
+  {
+   "claim": "Downtown 3BR share $9,540 a year, $4,204 under the double; Collegetown 1BR $24,300 a year, $10,556 above",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "795x12=9,540; 13,744-9,540=4,204; 2,025x12=24,300; 24,300-13,744=10,556."
+  },
+  {
+   "claim": "3BR example: gap $448.75 a month each, $5,385 over 12 months; minus $200 OmniRide leaves about $5,185",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "1,243.75-795=448.75; x12=5,385; minus 200=5,185."
+  },
+  {
+   "claim": "Dryden Road Garage $232 a month, $2,784 over 12 months; B commuter permit $359.77; City residential permit $45 a year, lease as proof, landlords cannot buy one, valid through July 31",
+   "source_url": "brief §10.14",
+   "status": "ok",
+   "note": "232x12=2,784. Values match the brief."
+  },
+  {
+   "claim": "Central Collegetown has no residential street permits (older Cornell item)",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "Brief carries the same item with the same 'older' caveat."
+  },
+  {
+   "claim": "OmniRide $200 a year, $1.50 daytime ride; free after 6 p.m. weekdays and weekends; PhD students and GAs free; first-years free until Aug 31",
+   "source_url": "brief §2.16-2.18",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "$200 buys 134 rides; a round trip every weekday pays off in about 13 to 14 weeks",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "200/1.50=133.3, so 134 rides; 134 / 10 rides a week = 13.4 weeks."
+  },
+  {
+   "claim": "Free all-day rides for upper-years ended in October 2024 (ID-card glitch), Sun reported Nov 3, 2024",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "Brief says swipes were denied from mid-October 2024; Sun article dated Nov 3, 2024."
+  },
+  {
+   "claim": "No TCAT buses 1:30 to 4:00 a.m.; Route 10 serves downtown",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Fall Creek about 15 minutes by bus from Hollister Hall (2023 grad guide); March/April search window; a few places in June/July; Lansing about 20 minutes by bus",
+   "source_url": "https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html",
+   "status": "ok",
+   "note": "Fetched: 'about a 15-minute ride from Hollister', 'March/April is ideal', 'a few places still available in June/July', Lansing 'about a 20-minute bus ride'. Brief §3.8 agrees (a different brief paragraph says 10 to 15; the source says 15)."
+  },
+  {
+   "claim": "Fall Creek 709 N Tioga St 1BR $1,600 and $1,700; internet and water by landlord; electricity and garbage tags by tenant; free washer and dryer; Rentable 1BR $1,600 undated",
+   "source_url": "brief §5.1",
+   "status": "ok",
+   "note": "Matches brief rows."
+  },
+  {
+   "claim": "RentCafe Collegetown studio $2,006, 1BR $2,342, 2BR $3,414, all $2,815 (updated 2026-10-30); Downtown $2,295, $2,742, $3,246, $2,747 (2026-11-06); Ithaca $1,772, $2,063, $2,459, $2,263 (2026-10-30)",
+   "source_url": "brief §5.1",
+   "status": "ok",
+   "note": "All values and dates match the brief."
+  },
+  {
+   "claim": "Cliffside Terrace: five reviews, 7.4/10, all tagged Cornell Law, 2017 to 2022; quiet, repairs within a day; limited bus, assigned spots taken",
+   "source_url": "https://www.veryapt.com/ApartmentReview-a16145-cliffside-terrace-apartments-ithaca",
+   "status": "ok",
+   "note": "fixed in place: Source shows 5 reviews but only four review texts displayed, and only those four are signed Cornell Law Student. Changed 'all tagged Cornell Law' to 'the four shown are all tagged Cornell Law'. Jan 2017 to Oct 2022, 'same day or the next day' repairs, mixed bus access, assigned spots confirmed."
+  },
+  {
+   "claim": "Ivy Ridge 6.4/10 on seven reviews by Johnson MBA students; dripping mini-splits, leaking pipes, slow management",
+   "source_url": "brief §5.3",
+   "status": "ok",
+   "note": "Matches brief row."
+  },
+  {
+   "claim": "Asteri 181 units on the Commons, vacated March 4 to 20, 2026",
+   "source_url": "brief §5.3",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Collegetown Court beds $925 (5BR) to $1,815 (1BR); Aces 6BR from $695; Old Cigar Factory 3BR beds $695 to $795; Dryden South $1,395 to $1,990, leases end May 31, 2027; heat, water, trash included downtown, electricity only at Colonial, Commons Studios, Whiton Hall",
+   "source_url": "https://ithacarenting.com/downtown/",
+   "status": "ok",
+   "note": "Brief §5.3 rows match; Old Cigar 3BR $695 - $795 re-confirmed on the downtown page."
+  },
+  {
+   "claim": "The Ivy at 325 College Ave: 3BRs $5,500 to $5,800, $1,833 to $1,933 per person; nearly all 52 units leased before construction finished",
+   "source_url": "brief §5.3",
+   "status": "ok",
+   "note": "5,500/3=1,833.33; 5,800/3=1,933.33. Brief has 52 units and the Sun source."
+  },
+  {
+   "claim": "Sun signing evidence: Labor Day 2022; 12-bedroom Elmwood house signed April 2017 for August 2018; developer 2016 rents most units by end of November; 8 to 16 months ahead",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "Matches brief's dated-signings table (page says 'bar one fallback', as the brief does)."
+  },
+  {
+   "claim": "Maia on the Mic Sept 2025: steep houses hard to reach without a car; house rents about $800 to $1,300 per person, many in poor shape",
+   "source_url": "brief §5.3",
+   "status": "ok",
+   "note": "Matches brief row."
+  },
+  {
+   "claim": "Walk times at 3 mph: Belle Sherman 20 to 40 min, East Hill 15 to 40, Cayuga Heights/Cornell Heights 20 to 80; 30 minutes covers about 1.5 miles",
+   "source_url": "brief §10.2",
+   "status": "ok",
+   "note": "Recomputed: 1 mi=20 min, 2 mi=40, 0.75 mi=15, 4 mi=80, 30 min x 3 mph=1.5 mi."
+  },
+  {
+   "claim": "NYSEG (800) 572-1111 for heating history; West Hill cottages likely uninsulated",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "Brief row, Cornell neighborhood guide."
+  },
+  {
+   "claim": "Lansing West 1BR $1,038 and $1,193 in November 2026",
+   "source_url": "brief §5.1",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "City 120-day notice rule; safety tool; Town one family plus one boarder (Drummond 2017)",
+   "source_url": "brief §2.5, §2.9",
+   "status": "ok",
+   "note": "Matches brief rows with the same sources."
+  },
+  {
+   "claim": "Two daytime rides a weekday without a pass cost $3.00",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "2 x 1.50."
+  },
+  {
+   "claim": "RentCafe's Collegetown 2BR $3,414 is a whole unit vs Ithaca Renting $1,377.50 per bed",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Both values match the brief."
+  },
+  {
+   "claim": "GradCafe 2014 poster said June not too late; College Confidential 2018 thread advised asking what share of tenants are undergrads",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief lists both threads with these years and advice."
+  }
+ ],
+ "beats_top": {
+  "query": "collegetown vs fall creek vs downtown ithaca where to live",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
 }

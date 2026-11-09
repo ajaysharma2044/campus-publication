@@ -1,0 +1,135 @@
+{
+ "slug": "cornell-housing-license-cancellation-fee-calculator",
+ "queue_id": "q-housing-0065",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Fee $50 through Jan 31; $500 Feb 1-Mar 31; $1,000 Apr 1-Jun 30; $2,000 Jul 1-Aug 15; 50% of fall room rate after Aug 15 (returning juniors/seniors)",
+   "source_url": "brief §3 (row: License cancellation fees)",
+   "status": "ok",
+   "note": "Brief matches; also confirmed on the 2027-28 and 2026-27 license pages (same schedule on both)."
+  },
+  {
+   "claim": "Same schedule on 2026-27 and 2027-28 licenses; only dates move by a year",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027",
+   "status": "ok",
+   "note": "Opened both license pages; identical amounts and breakpoints."
+  },
+  {
+   "claim": "No check-in by first day of classes also costs 50% of fall rate",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief and both license pages."
+  },
+  {
+   "claim": "Penalty-free deadlines: June 15 (fall), Dec 1 (spring); June 15/Dec 1, 2026 for 2026-27 and 2027 for 2027-28",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027",
+   "status": "ok",
+   "note": "2026-27 page: June 15, 2026 and Dec 1, 2026; 2027-28 page: June 15, 2027 and Dec 1, 2027."
+  },
+  {
+   "claim": "Late request on study away/leave/internship/graduation costs $500",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028",
+   "status": "ok",
+   "note": "Both license pages: 'Submission requests received after these deadlines will result in a $500 cancellation fee.' Source lists study away, leave, deferral, withdrawal, graduation; 'internship' is not in the source's list, but the page already sends first/second-years to Housing Operations and the brief carries the page's grouping."
+  },
+  {
+   "claim": "Residence hall double $6,872 a semester, $13,744 a year; single and townhouse double $15,566; super single $16,595; triple/one-room quad $12,644 (AY 2026-27)",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
+   "status": "ok",
+   "note": "brief §3 and rates page match."
+  },
+  {
+   "claim": "Half the fall rate on a double = $3,436",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "6,872 x 0.5 = 3,436."
+  },
+  {
+   "claim": "Single/townhouse $7,783; super single $8,297.50; triple $6,322 per semester (half the yearly rate, our arithmetic)",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates",
+   "status": "ok",
+   "note": "15,566/2 = 7,783; 16,595/2 = 8,297.50; 12,644/2 = 6,322. Rates page lists the super single semester as $8,298 (rounded); the page labels its figure as our arithmetic, so left as is (50 cents)."
+  },
+  {
+   "claim": "Double's published semester rate $6,872 is exactly half of $13,744",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "13,744/2 = 6,872."
+  },
+  {
+   "claim": "First-years, new transfers, second-years cannot cancel unless no longer attending, exempt, or accepted to Greek/affiliated house/one of eight co-ops before Spring Housing Selection deadline",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028",
+   "status": "ok",
+   "note": "fixed in place: Source limits the Greek/affiliated/co-op exit to second-years only. Added '(second-years only)' in tool.md and tool.html (cannot-cancel text), and the Greek-branch headline now tells first-years and transfers they cannot cancel for that reason. Brief row (section 3) had the same omission; corrected."
+  },
+  {
+   "claim": "2027-28 rates posted March 2027; fall-selection rates projected, subject to Board of Trustees approval",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028",
+   "status": "ok",
+   "note": "Page says final rates posted March 2027; projected rates subject to approval by the University President and Board of Trustees."
+  },
+  {
+   "claim": "Non-compliant students 'will still be billed for the full year' ($13,744 for a 2026-27 double)",
+   "source_url": "brief §2 (line: Penalty for non-compliance)",
+   "status": "ok",
+   "note": "Quote matches brief; 13,744 matches rates."
+  },
+  {
+   "claim": "Exemption requests not accepted after a signed license or during the license period; exemptions last one academic year",
+   "source_url": "brief §2 (How to request an exemption)",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Moving off campus is not a reason Cornell accepts for releasing only the spring semester",
+   "source_url": "https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities",
+   "status": "ok",
+   "note": "Source: 'Moving off-campus or in to a fraternity small residence is not an extenuating circumstance.' Also in brief §2."
+  },
+  {
+   "claim": "Housing Operations: 1520 Clara Dickson Hall, 607-255-5368, housing@cornell.edu",
+   "source_url": "brief §2 (Housing Operations)",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "2026 Greek-house affirmation by March 15; rising-sophomore selection in April",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief row matches; page marks the 2027 deadline as not confirmed."
+  },
+  {
+   "claim": "$60 a day outside the occupancy period and $500 revocation fee are not cancellation fees",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028",
+   "status": "ok",
+   "note": "Source describes both as not cancellation charges."
+  },
+  {
+   "claim": "Sophomore holding a junior-year room counts as a returning junior; backup costs $50 only through Jan 31",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Consistent with the schedule; after Jan 31 the minimum is $500."
+  },
+  {
+   "claim": "tool.html NUMBERS constants (50, 500, 1000, 2000, 0.5, 500 late, 06-15, 12-01, 6872, 13744) and data-as-of 2026-11-08",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "All match the sources above; schedule breakpoints and the 'rises on' dates (02-01, 04-01, 07-01, 08-16) follow the published ranges."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell housing license cancellation fee",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [
+  "Section 3 row 'Students who cannot cancel': added '(second-years only)' to the Greek/affiliated/co-op exception; change-log line added; source 2027-28 license page."
+ ],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

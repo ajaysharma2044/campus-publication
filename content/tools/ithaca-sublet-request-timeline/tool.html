@@ -1,0 +1,141 @@
+<div class="tool" id="tool-ithaca-sublet-request-timeline" data-tool="ithaca-sublet-request-timeline" data-as-of="2026-11-08">
+<style>
+#tool-ithaca-sublet-request-timeline label{font-weight:600}
+#tool-ithaca-sublet-request-timeline select,#tool-ithaca-sublet-request-timeline input[type=date]{display:block;max-width:100%;margin:.25rem 0 .75rem}
+#tool-ithaca-sublet-request-timeline .sr-hint{font-size:.9em;margin:-.5rem 0 .75rem}
+#tool-ithaca-sublet-request-timeline .sr-list{list-style:none;padding-left:0}
+#tool-ithaca-sublet-request-timeline .sr-list li{margin:0 0 .6rem;padding-left:.6rem;border-left:3px solid currentColor}
+#tool-ithaca-sublet-request-timeline .sr-check{list-style:none;padding-left:0}
+#tool-ithaca-sublet-request-timeline .sr-check label{font-weight:400}
+#tool-ithaca-sublet-request-timeline .sr-warn{font-weight:600}
+</style>
+<form class="tool-inputs" onsubmit="return false">
+<label for="ithaca-sublet-request-timeline-units">How many residential units are in your building?</label>
+<select id="ithaca-sublet-request-timeline-units">
+<option value="big" selected>4 or more (an apartment building)</option>
+<option value="small">3 or fewer (a house or small building)</option>
+<option value="unsure">Not sure</option>
+</select>
+<p class="sr-hint">Count every apartment at your address, not just yours.</p>
+<label for="ithaca-sublet-request-timeline-start">The day your subtenant moves in</label>
+<input type="date" id="ithaca-sublet-request-timeline-start" value="2027-06-01" min="2026-01-01" max="2028-12-31">
+<label for="ithaca-sublet-request-timeline-mailed">The day you mail the request (or plan to)</label>
+<input type="date" id="ithaca-sublet-request-timeline-mailed" value="2027-04-01" min="2026-01-01" max="2028-12-31">
+<label for="ithaca-sublet-request-timeline-asked">Did the landlord ask you for more information?</label>
+<select id="ithaca-sublet-request-timeline-asked">
+<option value="no" selected>No, or not yet</option>
+<option value="yes">Yes</option>
+</select>
+<div class="sr-info">
+<label for="ithaca-sublet-request-timeline-info">The day you sent the extra information</label>
+<input type="date" id="ithaca-sublet-request-timeline-info" value="" min="2026-01-01" max="2028-12-31">
+</div>
+</form>
+<div class="tool-result" aria-live="polite">
+<div class="sr-out">
+<p>In a building with <span data-as-of="2026-11-08">4 or more</span> units, New York law gives the landlord <span data-as-of="2026-11-08">10 days</span> to ask for more information and <span data-as-of="2026-11-08">30 days</span> from the later of your request or that information to answer; no answer counts as consent. In <span data-as-of="2026-11-08">3 or fewer</span> units, your lease controls. Add the days to your mailing date by hand if the dates do not appear.</p>
+</div>
+<h3>What the request must include (4 or more units)</h3>
+<p>Send it by certified mail, return receipt requested, and keep the receipt.</p>
+<ul class="sr-check">
+<li><input type="checkbox" id="ithaca-sublet-request-timeline-c1"> <label for="ithaca-sublet-request-timeline-c1">The term of the sublet: start and end dates</label></li>
+<li><input type="checkbox" id="ithaca-sublet-request-timeline-c2"> <label for="ithaca-sublet-request-timeline-c2">The subtenant's name</label></li>
+<li><input type="checkbox" id="ithaca-sublet-request-timeline-c3"> <label for="ithaca-sublet-request-timeline-c3">The subtenant's addresses</label></li>
+<li><input type="checkbox" id="ithaca-sublet-request-timeline-c4"> <label for="ithaca-sublet-request-timeline-c4">Your reason for subletting (study abroad, internship, summer away)</label></li>
+<li><input type="checkbox" id="ithaca-sublet-request-timeline-c5"> <label for="ithaca-sublet-request-timeline-c5">Your own address during the sublet</label></li>
+<li><input type="checkbox" id="ithaca-sublet-request-timeline-c6"> <label for="ithaca-sublet-request-timeline-c6">Written consent of any co-tenant (housemates on the lease) and any guarantor</label></li>
+<li><input type="checkbox" id="ithaca-sublet-request-timeline-c7"> <label for="ithaca-sublet-request-timeline-c7">A copy of the proposed sublease</label></li>
+</ul>
+<p class="sr-ticks"></p>
+<p class="tool-asof" data-as-of="2026-11-08">Rules as of Nov 8, 2026: New York Real Property Law 226-b as read on nysenate.gov that day; the small-building rule from Cornell Law School's tenant guide (Feb 2026).</p>
+<p class="tool-note">Estimated: dates are calendar days counted from the day you mail. The statute counts from the mailing, not delivery; our sources do not say what happens when a deadline falls on a weekend, so leave a margin.</p>
+</div>
+<script>
+(function () {
+  var root = document.getElementById('tool-ithaca-sublet-request-timeline');
+  if (!root) return;
+  var P = 'ithaca-sublet-request-timeline-';
+  function el(id) { return root.querySelector('#' + P + id); }
+  const NUMBERS = {
+    minUnits: {value: 4, asOf: "2026-11-08", source: "https://www.nysenate.gov/legislation/laws/RPP/226-B"},
+    smallBuildingMax: {value: 3, asOf: "2026-11-08", source: "https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease"},
+    infoDays: {value: 10, asOf: "2026-11-08", source: "https://www.nysenate.gov/legislation/laws/RPP/226-B"},
+    answerDays: {value: 30, asOf: "2026-11-08", source: "https://www.nysenate.gov/legislation/laws/RPP/226-B"},
+    assignReleaseDays: {value: 30, asOf: "2026-11-08", source: "https://www.nysenate.gov/legislation/laws/RPP/226-B"},
+    hotline: {value: "607-301-1560", asOf: "2026-11-08", source: "https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease"}
+  };
+  function v(k) { return NUMBERS[k].value; }
+  var DAY = 864e5;
+  var MON = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
+  var WD = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  function parse(s) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(s || '')) return null;
+    var a = s.split('-'); return Date.UTC(+a[0], +a[1] - 1, +a[2]);
+  }
+  function add(t, n) { return t + n * DAY; }
+  function days(a, b) { return Math.round((a - b) / DAY); }
+  function fmt(t) { var d = new Date(t); return WD[d.getUTCDay()] + ', ' + MON[d.getUTCMonth()] + ' ' + d.getUTCDate() + ', ' + d.getUTCFullYear(); }
+  function wkend(t) { var w = new Date(t).getUTCDay(); return (w === 0 || w === 6) ? ' (a weekend)' : ''; }
+  function li(when, text) { return '<li data-as-of="' + NUMBERS.answerDays.asOf + '"><strong>' + when + '</strong><br>' + text + '</li>'; }
+  function plural(n) { return n + (n === 1 ? ' day' : ' days'); }
+
+  function bigBuilding(start, mail, asked, info) {
+    var A = v('infoDays'), B = v('answerDays'), h = '';
+    if (start) {
+      var latest = add(start, -(B + 1)), safe = add(start, -(A + B + 1));
+      h += '<p><strong>Mail by ' + fmt(safe) + '</strong> to leave room for a question from the landlord on day ' + A +
+        ' that you answer the same day. ' + fmt(latest) + ' is the last day that works if the landlord asks nothing.</p>';
+    }
+    if (!mail) return h + '<p>Enter the day you mail the request to see the landlord\'s deadlines.</p>';
+    if (start && mail >= start) h += '<p class="sr-warn">Your mailing date is on or after the move-in date. The landlord\'s consent has to come first; move the start or mail sooner.</p>';
+    var base = mail, note = '';
+    if (asked) {
+      if (!info) note = ' If the landlord asked for more, the 30 days restart from the day you send it; enter that date above.';
+      else if (info < mail) note = ' The extra information date is before the mailing date; check the dates.';
+      else base = info;
+    }
+    var due = add(base, B), consent = add(due, 1), askBy = add(mail, A);
+    var items = li(fmt(mail), 'You mail the request by certified mail, return receipt requested.');
+    items += li(fmt(askBy) + wkend(askBy), 'Last day of the landlord\'s ' + A + '-day window to ask you for more information.');
+    if (asked && info && info >= mail) items += li(fmt(info), 'You send the extra information. The ' + B + '-day clock now runs from this day.');
+    items += li(fmt(due) + wkend(due), 'The landlord\'s written answer is due, ' + B + ' days after the ' + (base === mail ? 'request' : 'extra information') + '. Consent cannot be unreasonably withheld.');
+    items += li(fmt(consent), 'If no answer has come, the law treats the silence as consent. Keep your return receipt and a copy of everything you sent.');
+    h += '<ol class="sr-list">' + items + '</ol>';
+    if (start && mail < start) {
+      var gap = days(start, consent);
+      h += gap >= 0
+        ? '<p><strong>Consent by silence would arrive ' + (gap === 0 ? 'on the day your subtenant moves in' : plural(gap) + ' before your subtenant moves in') + '.</strong>' + (gap < v('infoDays') ? ' That is tight; a written yes from the landlord is safer than waiting out the clock.' : '') + '</p>'
+        : '<p class="sr-warn">The landlord\'s ' + B + ' days run ' + plural(-gap) + ' past your move-in date. Don\'t move the subtenant in on silence: get a written yes first, or move the start.</p>';
+    }
+    if (note) h += '<p>' + note + '</p>';
+    h += '<p>If the landlord refuses without a reasonable reason, the law lets you sublet as requested, and you can recover costs and attorney fees if the landlord acted in bad faith. Subletting without these steps is a substantial breach of the lease. Either way you stay liable for the rent and any damage.</p>';
+    return h;
+  }
+
+  function smallBuilding() {
+    return '<p><strong>Your lease controls.</strong> In a building with ' + v('smallBuildingMax') + ' or fewer units, the sublet right in RPL 226-b does not apply, so the ' + v('infoDays') + '-day and ' + v('answerDays') + '-day clocks and consent by silence are not yours by law. What your lease says about subletting is the rule.</p>' +
+      '<ul class="sr-list">' +
+      '<li>Find the sublet clause. If it bans subletting, ask the landlord anyway; you need the yes in writing.</li>' +
+      '<li>Ask in writing, with the same contents listed below, before your subtenant moves in, and keep a copy.</li>' +
+      '<li>Use a written sublease. You stay liable to the landlord for the subtenant\'s rent and damage, and housemates on a joint lease stay liable too.</li>' +
+      '<li>A sublet fee is allowed only if the lease allows it and it is reasonable.</li>' +
+      '<li>Unsure what your lease allows: Cornell Law School\'s tenant hotline, ' + v('hotline') + '.</li></ul>';
+  }
+
+  function render() {
+    var units = el('units').value, asked = el('asked').value === 'yes';
+    root.querySelector('.sr-info').hidden = !asked;
+    var start = parse(el('start').value), mail = parse(el('mailed').value), info = parse(el('info').value);
+    var h;
+    if (units === 'small') h = smallBuilding();
+    else if (units === 'big') h = bigBuilding(start, mail, asked, info);
+    else h = '<p><strong>Count the units first.</strong> With ' + v('minUnits') + ' or more residential units at your address, the dates below are yours by law. With ' + v('smallBuildingMax') + ' or fewer, your lease controls and the clocks below do not apply. Public housing, units with statutory admission rules and co-op proprietary leases are outside the law either way.</p>' + bigBuilding(start, mail, asked, info);
+    root.querySelector('.sr-out').innerHTML = h;
+    var ticks = root.querySelectorAll('.sr-check input:checked').length, all = root.querySelectorAll('.sr-check input').length;
+    root.querySelector('.sr-ticks').textContent = ticks === all ? 'All ' + all + ' items ticked: the request is complete.' : ticks + ' of ' + all + ' items ticked.';
+  }
+  root.querySelectorAll('input, select').forEach(function (n) { n.addEventListener('change', render); n.addEventListener('input', render); });
+  render();
+})();
+</script>
+</div>

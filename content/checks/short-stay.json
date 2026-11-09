@@ -1,0 +1,96 @@
+{
+ "slug": "short-stay",
+ "queue_id": "q-housing-0079",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Visiting scholars have no guaranteed Cornell housing",
+   "source_url": "brief §3 (visiting scholars row; reader 22)",
+   "status": "ok",
+   "note": "brief: no guaranteed housing for visiting scholars, Cornell Sun 2024-11-12."
+  },
+  {
+   "claim": "Hasbrouck takes rolling applications on 12-month contracts",
+   "source_url": "brief §3 (Hasbrouck rows)",
+   "status": "ok",
+   "note": "brief: rolling applications; $620-$1,530 on 12-month contracts; same scl.cornell.edu grad housing URL."
+  },
+  {
+   "claim": "Dec-Jan spring-semester supply is mostly sublets and semester leases; Ithaca Renting lists 'Spring/Fall Semester 2027' rows",
+   "source_url": "brief §10 (mid-year supply line)",
+   "status": "ok",
+   "note": "brief states this wording verbatim; source ithacarenting.com/collegetown/ appears in the brief."
+  },
+  {
+   "claim": "Dec 31: spring-entering degree students' free first-year TCAT rides end",
+   "source_url": "brief §6 (new degree students row)",
+   "status": "ok",
+   "note": "brief: Dec 31 for spring entrants, same fcs.cornell.edu page."
+  },
+  {
+   "claim": "Visiting scholars' bus status is not in our sources",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief's bus rows cover degree students, PhD/GAs, registered others and spouses; no visiting-scholar row, so the page's hedge is accurate."
+  },
+  {
+   "claim": "July 31: most Ithaca leases end, next start about August 1 (209 Stewart listing)",
+   "source_url": "brief §4 (lease-end row; 209 Stewart row 2026-08-01 to 2027-07-31)",
+   "status": "ok",
+   "note": "brief gives July 31 (Cornell Sun 2024) and the listing term; the page cites the listing, which matches the term."
+  },
+  {
+   "claim": "On a month-to-month give one month's notice; a fixed-term lease needs none at its end",
+   "source_url": "brief §4 (tenant notice row)",
+   "status": "ok",
+   "note": "brief: none at the end of a fixed term; month-to-month generally one month (RPL 232-b); same Cornell Law URL."
+  },
+  {
+   "claim": "Guide 1 covers the whole market (2026-27 guide)",
+   "source_url": "content/articles/housing/cornell-off-campus-housing-guide.md title/meta",
+   "status": "ok",
+   "note": "title 'Off-campus housing at Cornell: the 2026-27 guide'; matches."
+  },
+  {
+   "claim": "Guide 2 covers Cornell options for scholars, furnished rooms, lease or no lease",
+   "source_url": "content/articles/housing/visiting-scholar-postdoc-furnished-housing-ithaca.md meta",
+   "status": "ok",
+   "note": "meta: no guaranteed housing, International Scholar House, Hasbrouck, semester sublet; consistent."
+  },
+  {
+   "claim": "Guide 3 covers sublets from the subtenant's side",
+   "source_url": "content/articles/housing/summer-sublet-ithaca-finding-housing-may-august.md meta",
+   "status": "ok",
+   "note": "meta and the 'Taking an Ithaca summer sublet' figure match."
+  },
+  {
+   "claim": "Guide 4 covers what you owe if you sign for 12 months and leave after six",
+   "source_url": "content/articles/housing/breaking-a-lease-early-ithaca-cornell.md",
+   "status": "ok",
+   "note": "article warns about signing a 12-month lease for one semester; its worked example is a five-month empty stretch. 'After six' is a loose round figure for the example, not a hard fact; left unchanged."
+  },
+  {
+   "claim": "Guide 5 covers where semester leases and sublets are posted",
+   "source_url": "content/articles/housing/cornell-off-campus-housing-listings-where-to-find.md",
+   "status": "ok",
+   "note": "article mentions sublets and semester leases (10 matches); meta is about College Pads and Ithaca Renting but the body covers it."
+  },
+  {
+   "claim": "Guide 6 covers signing from abroad and renting without a US credit history",
+   "source_url": "content/articles/housing/off-campus-housing-cornell-international-students.md",
+   "status": "ok",
+   "note": "article has a 'Before you send money from abroad' section and a 'Not confirmed' line on no-US-credit-history screening; the page promises topic coverage, not a screening answer."
+  },
+  {
+   "claim": "Closing link: grad-students guide for a degree program or longer appointment",
+   "source_url": "content/articles/housing/off-campus-housing-cornell-grad-students.md title",
+   "status": "ok",
+   "note": "title 'Where Cornell grad students live in Ithaca, and when to look'; matches."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "b0e260232b5865855e03163c04ef8de819cf0f6293100368a4b6a1dccf433504"
+}

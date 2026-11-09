@@ -1,0 +1,205 @@
+{
+ "slug": "ithaca-landlord-wont-fix-heat-mold-bed-bugs",
+ "queue_id": "q-housing-0035",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Heat season Sept 15 to May 31 in Ithaca (statewide Oct 1 to May 31)",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 heat season row"
+  },
+  {
+   "claim": "68F from 6 a.m. to 10 p.m. when under 55F outside; 62F from 10 p.m. to 6 a.m.",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 heat minimums"
+  },
+  {
+   "claim": "Bed bugs: landlord exterminates even if tenant suspected, unless it proves misconduct; written notice within 72 hours to units above, below, beside; common-area posting; don't self-treat",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 bed bugs row"
+  },
+  {
+   "claim": "County bed-bug advice revised May 2021 (written landlord cooperation, IPM, licensed companies, no pesticides on body)",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 county guidance row"
+  },
+  {
+   "claim": "Utility cut-off notice: 18 days posted (apartment buildings), 15 days mailed (two-family), 30 days for heat Nov 1 to Apr 15",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 utility shutoff row"
+  },
+  {
+   "claim": "Typical abatements about 10-20% minor, 30% moderate, 50-60% most serious",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 abatement row"
+  },
+  {
+   "claim": "Abatement example on $1,200 rent: $120 to $240; $360; $600 to $720",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "Recomputed: 1,200 x 0.10 = 120; x 0.20 = 240; x 0.30 = 360; x 0.50 = 600; x 0.60 = 720. All match."
+  },
+  {
+   "claim": "Petition for Judgment Directing Repairs since Jan 2024 after 30 days in the unit and written notice",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 petition row"
+  },
+  {
+   "claim": "Warranty covers no heat, water, electricity, plumbing, pests, mold, structural defects, lead paint, unsanitary conditions, landlord appliances; AC generally not covered; code violation alone not a breach",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 what it covers"
+  },
+  {
+   "claim": "No strict statutory repair deadline; certified mail gives proof; repairs in writing with name, address, date",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 repair requests row"
+  },
+  {
+   "claim": "Landlord entry: reasonable notice often 24 hours; no right to enter for repairs unless lease reserves; emergency entry without notice; tenants generally cannot change locks without consent",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief §2.10 landlord entry and keys/locks rows"
+  },
+  {
+   "claim": "Repair-and-deduct and withholding are last resorts; nonpayment starts with 14-day rent demand, servable at least 6 days after rent due; 14 days to pay or leave",
+   "source_url": "brief §2.11",
+   "status": "ok",
+   "note": "brief nonpayment notice row and §2.10 repair-and-deduct row"
+  },
+  {
+   "claim": "Retaliation: no refusal to renew or unreasonable increase for good-faith complaint in past year; eviction within a year defensible; exception owner-occupied buildings under four units",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief retaliation row"
+  },
+  {
+   "claim": "Immigrant tenants: harassment such as denying heat or hot water barred; with a lease no eviction for immigration status absent substantial lease or code violation",
+   "source_url": "brief §2.11",
+   "status": "ok",
+   "note": "brief immigrant tenants row"
+  },
+  {
+   "claim": "Landlord dispute does not affect visa status or standing (Cornell Graduate School staff)",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief 'Staff advice for grads and internationals' row; attributed to staff as the page does"
+  },
+  {
+   "claim": "Hotline gives advice with no income or geographic limits; full representation for City of Ithaca residents only",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief international legal help row"
+  },
+  {
+   "claim": "Cornell Off-Campus Living does not represent students in landlord disputes, per its manager in 2019",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief row citing the 2019 Sun panel article, staff 2019"
+  },
+  {
+   "claim": "Disability housing needs: grad students register with Student Disability Services first",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief disability housing row"
+  },
+  {
+   "claim": "Dryden South lists an elevator",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief Dryden South row lists laundry, gym, elevator"
+  },
+  {
+   "claim": "Code office phones: City 607-274-6508 (main 607-274-6510), Town of Ithaca 607-273-1783, Lansing 607-533-7054, Dryden 607-844-8888",
+   "source_url": "brief §2.24",
+   "status": "ok",
+   "note": "brief code offices row and Building Division phones row"
+  },
+  {
+   "claim": "Building Division at 108 E. Green St., City Hall 4th floor, 8:30 a.m. to 4 p.m. weekdays; Report a Concern form",
+   "source_url": "brief §2.24",
+   "status": "ok",
+   "note": "brief Building Division office row says 8:30 to 4:00 (the 8 AM figure is from a different page; the page's cited Building Division page says 8:30)"
+  },
+  {
+   "claim": "Hotline 607-301-1560, intake online; LawNY (607) 273-3667; CDRC 607-273-9347; CCE 607-272-2292, 615 Willow Ave, weekdays 8 to 4; AG 1-800-771-7755",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief resource rows; same values"
+  },
+  {
+   "claim": "Ithaca Tenants Union is a tenant organization, not government, with a Landlord Issue Form",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief ITU row"
+  },
+  {
+   "claim": "Cornell safety tool covers City rentals only; shows sprinklers, alarms, construction type; does not rate landlord",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief §6 checklist and 7 narrative"
+  },
+  {
+   "claim": "117 Thurston: certificate expired Nov 2015, learned after signing; Sept 27 letter; heater reported fixed Nov 19; 53 days; about 3 days without hot water; one tenant slept in campus library; rent held in Tompkins Trust account",
+   "source_url": "brief §5.2",
+   "status": "ok",
+   "note": "brief 117 Thurston row. Recomputed 53 days: Sept 27 to Oct 27 = 30, Oct 27 to Nov 19 = 23, total 53."
+  },
+  {
+   "claim": "Building Department could then only send a written warning (per students who left)",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief narrative, same wording"
+  },
+  {
+   "claim": "March 2019 City penalties: misdemeanor, fine up to $500 and 30 days; double monthly rent to displaced tenants, prorated per day",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief displacement payments row"
+  },
+  {
+   "claim": "Poor maintenance second most repeated complaint: 12 distinct articles and reviews, 2017 to 2026",
+   "source_url": "brief §7.2",
+   "status": "ok",
+   "note": "brief theme 2 row: 12 sources, 2017-2026; theme 1 has 22+, theme 3 has 11, so second is right"
+  },
+  {
+   "claim": "2022 Sun columnist: spiders, clogged tubs, leaking sinks; friend's rental with mold and burst pipe that collapsed a wall",
+   "source_url": "brief §7.2",
+   "status": "ok",
+   "note": "brief theme 2 paraphrase of Nguyen 2022"
+  },
+  {
+   "claim": "Students report skipping repair requests to protect renewal (Sun 2021)",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief narrative: students report avoiding repair requests for fear of not being renewed"
+  },
+  {
+   "claim": "Ivy Ridge, 802 Dryden Rd, Varna: 7 reviews by Johnson MBA students 2019 to 2025; dripping mini-splits, leaking pipes, slow management",
+   "source_url": "brief §5.3",
+   "status": "ok",
+   "note": "brief Ivy Ridge row (Nov 2019 to Oct 2025)"
+  }
+ ],
+ "beats_top": {
+  "query": "ithaca bad apartments mold bed bugs collegetown tenant complaints",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

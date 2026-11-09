@@ -1,0 +1,133 @@
+{
+ "slug": "can-i-live-off-campus-cornell-quiz",
+ "queue_id": "q-housing-0061",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Two-year requirement covers full-time, Ithaca-based first- and second-year students; year 2 options are halls, student-org houses, fraternity/sorority houses, eight co-ops",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1 rows on requirement and year 2 options"
+  },
+  {
+   "claim": "All new transfers live on campus one academic year; spring transfers live on campus for the incoming spring and the following academic year",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief row 'New transfers: on-campus year'"
+  },
+  {
+   "claim": "Exemptions: married, dependents, veteran (not ROTC; home-country service counts), 21+ by start of year, 16 or younger with custodial parent all year, transfer with 2 years on campus or junior/senior, commuter within 25 miles and 6 months",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief exemption rows match the page and tool.html conditions"
+  },
+  {
+   "claim": "Exemption requested in Housing application in spring and fall, not after license signed, documents if asked; lasts one academic year",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief 'How to request an exemption' and next-steps list"
+  },
+  {
+   "claim": "Housing application deadline April 6, 2026; Greek affirmation March 15, 2026; sophomore must be chapter member when filing",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief rows on deadline and Greek affirmation"
+  },
+  {
+   "claim": "'should not sign a lease unless they have an approved exemption'; 'will still be billed for the full year'",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief rows on penalty and the search-process guidance"
+  },
+  {
+   "claim": "Residence hall rates: double $13,744 ($6,872 a semester), triple/one-room quad $12,644, single $15,566, super single $16,595",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief rows on residence hall rates, AY 2026-27"
+  },
+  {
+   "claim": "Co-op double $3,487 to $4,981 a semester; $6,974 to $9,962 a year",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "recomputed: 3,487 x 2 = 6,974; 4,981 x 2 = 9,962; matches brief math"
+  },
+  {
+   "claim": "License cancellation for returning juniors/seniors: $50 / $500 / $1,000 / $2,000, then 50% of fall room rate; moving off campus not an extenuating circumstance",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief fee row and next-steps list; tool.html cancel constants match"
+  },
+  {
+   "claim": "First- and second-years cannot cancel a signed license unless no longer attending, exempt, or accepted to Greek/affiliated house/co-op before Spring Housing Selection deadline",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief row 'Students who cannot cancel'"
+  },
+  {
+   "claim": "Default rent $1,246.25 per bed a month: Ithaca Renting Collegetown 4BR median, 2027-28, 38 priced rows at one landlord",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "fixed in place: Value matches brief (4BR median 1,246.25, n=4). Page implied the median came from 38 rows; 38 is the total across all sizes. Changed tool.md table to say 4 priced 4BR rows (38 across all sizes)."
+  },
+  {
+   "claim": "Cost of signing anyway: $13,744 + (12 x $1,246.25) = $13,744 + $14,955 = $28,699",
+   "source_url": "brief §10.9 (14,955 = median x 12)",
+   "status": "ok",
+   "note": "recomputed: 12 x 1,246.25 = 14,955; + 13,744 = 28,699"
+  },
+  {
+   "claim": "Housing Operations: 1520 Clara Dickson Hall, 607-255-5368, housing@cornell.edu",
+   "source_url": "brief §contacts",
+   "status": "ok",
+   "note": "brief Housing Operations row"
+  },
+  {
+   "claim": "Co-ops: eight, selection starting early November and early February; co-ops@cornell.edu, 607-255-3445",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief co-op rows"
+  },
+  {
+   "claim": "Approved houses include Alpha Zeta, Center for Jewish Living, Seal and Serpent; confirmed Greek members skip April Spring Housing Selection",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief rows for the three houses on the qualified off-campus housing page; Greek row"
+  },
+  {
+   "claim": "Collegetown junior-year leases usually signed around October of sophomore year",
+   "source_url": "brief §6/§10",
+   "status": "ok",
+   "note": "brief next-steps list and lead-time table (October signing)"
+  },
+  {
+   "claim": "Turning 21 after the year starts does not count (age 20 note)",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "follows from 'by the start of the academic year'"
+  },
+  {
+   "claim": "Page caveat: transfer page conflicts with policy on junior/senior transfers",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief lists both rows and flags the same tension"
+  },
+  {
+   "claim": "Cost line uses double rate; range $12,644 to $16,595",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "triple low and super single high from brief rates row"
+  }
+ ],
+ "beats_top": {
+  "query": "can i live off campus cornell",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

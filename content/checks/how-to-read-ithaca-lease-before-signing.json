@@ -1,0 +1,228 @@
+{
+ "slug": "how-to-read-ithaca-lease-before-signing",
+ "queue_id": "q-housing-0034",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Signed lease binds before money changes hands; any term negotiable (state assistant AG, 2012 Collegetown meeting)",
+   "source_url": "brief §6 (2012 Sun)",
+   "status": "ok",
+   "note": "brief §6 lists both points with the 2012 Sun URL."
+  },
+  {
+   "claim": "Cornell Law hotline 607-301-1560",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "brief §9 and contacts table."
+  },
+  {
+   "claim": "Building Division 607-274-6508 (Certificate of Compliance)",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief gives 6508 as the COC line."
+  },
+  {
+   "claim": "Off-Campus Living 607-255-2310; does not represent students in disputes (staff, 2019)",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2 and conflict table (2310 is the OCL line)."
+  },
+  {
+   "claim": "Sophomore who skips the requirement is billed for the full year; first- and second-year students need an exemption; exemptions last one academic year",
+   "source_url": "brief §1",
+   "status": "ok",
+   "note": "brief §1 quotes 'will still be billed for the full year'."
+  },
+  {
+   "claim": "Ithaca Renting 2027-28 Collegetown medians: 4BR $1,246.25 per bed, 6BR $800",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief §10.9 and §5 rows."
+  },
+  {
+   "claim": "6BR to 4BR group pays $446.25 more a person a month, $5,355 a year",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "1,246.25 - 800 = 446.25; x 12 = 5,355."
+  },
+  {
+   "claim": "4BR unit rent $4,985 a month; deposit cap $4,985; over-cap demand $9,970; deposit plus first month per person $2,492.50",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "1,246.25 x 4 = 4,985; 2 x 4,985 = 9,970; 1,246.25 x 2 = 2,492.50."
+  },
+  {
+   "claim": "One empty room costs the rest $1,246.25 a month, $14,955 a year",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "1,246.25 x 12 = 14,955."
+  },
+  {
+   "claim": "The Ivy 3BRs $5,500 to $5,800 a month; $1,833 to $1,933 per person split three ways",
+   "source_url": "brief §5 (Sun Dec 2025)",
+   "status": "ok",
+   "note": "Brief has the range. 5,500/3 = 1,833.33; 5,800/3 = 1,933.33."
+  },
+  {
+   "claim": "Cornell 2026-27 double $13,744 = $1,145 a month over 12 months",
+   "source_url": "brief §1 / §10",
+   "status": "ok",
+   "note": "brief §10.1 step: 13,744/12 = 1,145.33."
+  },
+  {
+   "claim": "Cornell aid does not cover deposits, first or last month's rent, or summer rent",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief line 201 carries the finaid wording."
+  },
+  {
+   "claim": "Most Ithaca leases end July 31",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief, as reported at the 2024 hearing."
+  },
+  {
+   "claim": "120-day rule: effective May 31, 2022; leases of nine months or longer 'as reported'; waiver explicitly written, bolded, initialed on page one; sponsor Mehler",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "Page hedges nine months as reported, matching the brief's unresolved row."
+  },
+  {
+   "claim": "120-day rule, Certificate of Compliance and safety tool cover City of Ithaca only; Town, Lansing, Cayuga Heights outside",
+   "source_url": "brief §2.5, §3",
+   "status": "ok",
+   "note": "brief §3 safety tool limits row."
+  },
+  {
+   "claim": "117 Thurston Ave: certificate expired Nov 2015, learned after signing; 53 days to a fixed heater",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief row 117 Thurston Ave: Sept 27 letter to Nov 19 = 53 days."
+  },
+  {
+   "claim": "Late fee only after 5 days, lesser of $50 or 5% of rent",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "RPL 238-a row."
+  },
+  {
+   "claim": "Deposit plus advance at most one month's rent; return within 14 days with itemized statement; missed deadline forfeits right to keep any",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "GOL 7-108 rows."
+  },
+  {
+   "claim": "Application and cleaning fees banned; non-refundable deposit unlawful; credit check at most $20 or actual cost, waived with check from past 30 days",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "RPL 238-a rows."
+  },
+  {
+   "claim": "Deposit in interest-bearing NY account in buildings of six or more units; landlord tells bank in writing",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief interest row."
+  },
+  {
+   "claim": "Replacement keys at most 110% of cost",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "RPL 235-i row."
+  },
+  {
+   "claim": "Occupancy: tenants plus occupants cannot exceed named tenants; occupant name within 30 days",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "RPL 235-f row."
+  },
+  {
+   "claim": "Sublet: 4+ units consent not unreasonably withheld, silence for 30 days is consent; 3 or fewer lease controls; stay liable",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief sublet rows (226-b)."
+  },
+  {
+   "claim": "Auto-renewal reminder 15 to 30 days before opt-out",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief line 154."
+  },
+  {
+   "claim": "Non-renewal or 5%+ increase: 30, 60 or 90 days' notice by tenure; notice states Good Cause status",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief 226-c rows."
+  },
+  {
+   "claim": "Good Cause: Ithaca opted in July 2024; increase above lower of 10% or 5% plus CPI presumed unreasonable; post-2009 certificate of occupancy exempt 30 years",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief §2.6 and Good Cause row."
+  },
+  {
+   "claim": "Oral lease over one year unenforceable; written-changes clause generally bars oral changes",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief line 230."
+  },
+  {
+   "claim": "Snow: owner clears sidewalk within 24 hours; City bills at least $50 per plowing",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "$50 minimum row (snippet-sourced in brief)."
+  },
+  {
+   "claim": "City trash tag $6.00 from Jan 1, 2026",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief trash tag row."
+  },
+  {
+   "claim": "209 Stewart Ave: $20 county plus $80 garbage a year split among five = $20 each",
+   "source_url": "brief §5; our arithmetic",
+   "status": "ok",
+   "note": "100/5 = 20."
+  },
+  {
+   "claim": "Dryden Road Garage $232 a month; Cornell B permit $359.77 a year; City residential permit $45 a year, landlords cannot get it",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief permit rows."
+  },
+  {
+   "claim": "Fontana (327 Eddy St) 2016: five delays, 50+ students with Aug 1 leases, $30 a day or Trip Hotel",
+   "source_url": "https://www.cornellsun.com/article/2016/09/delayed-collegetown-apartment-opening-leaves-e2-80-88students-homeless",
+   "status": "ok",
+   "note": "In brief and re-read at the Sun source (Sep 8, 2016): five delays, over 50 students, $30 per day, lodging at Trip Hotel."
+  },
+  {
+   "claim": "301 College Ave opened August 2026; no stoves, unfinished lobby, construction from 7:30 a.m. six days a week; campus housing",
+   "source_url": "https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed",
+   "status": "ok",
+   "note": "In brief and confirmed at the Sun source; 'per the Sun' attribution fits."
+  },
+  {
+   "claim": "International: no SSN needed to rent; hotline advice with no income or geographic limits; landlord dispute does not affect visa or standing (Graduate School staff)",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief lines 115, 449, 452."
+  },
+  {
+   "claim": "Transfers live on campus one academic year; junior/senior transfers need exemption",
+   "source_url": "brief §1",
+   "status": "ok",
+   "note": "brief §1 transfer rows."
+  },
+  {
+   "claim": "Ithaca Renting includes heat and hot water, electricity paid by tenants at most Collegetown buildings, parking extra",
+   "source_url": "brief §5 / §10.11",
+   "status": "ok",
+   "note": "Consistent with the brief's electricity illustration and parking-extra row."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "26f82780d7c88c6ad7f9bf7e76ca418c1d5a4a0994c8acdcabf57145e42d9277"
+}

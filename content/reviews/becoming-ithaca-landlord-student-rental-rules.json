@@ -1,0 +1,175 @@
+{
+ "slug": "becoming-ithaca-landlord-student-rental-rules",
+ "queue_id": "q-housing-0048",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "COC fees: $100 one-family, $175 two-family, $300 for 3-8, $500 9-20, $1,000 21-100, $1,750 101-250, $2,500 251+, live/work $100/unit, congregate $350, fraternity $500, $10 per violation, $50 uncorrected, re-inspection $75/hour",
+   "source_url": "brief §10 (fees table)",
+   "status": "ok",
+   "note": "brief §10 matches every row."
+  },
+  {
+   "claim": "COC covers 3+ units or six+ unrelated persons; code excerpt says five; one-/two-family unsettled, marked Not confirmed",
+   "source_url": "brief §2 and open-questions table",
+   "status": "ok",
+   "note": "brief gives the same split and advises avoiding a firm number; page does so."
+  },
+  {
+   "claim": "Renewal every 3 years; dorms, fraternities, sororities yearly; $75 missed appointment; building division address, hours, phones 274-6510 / 274-6508",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2 and open-questions row on phones."
+  },
+  {
+   "claim": "120 days' notice, effective May 31, 2022, replaces 60-day rule, nine months or longer, City Attorney Ari Levine on housing court",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief §2.5; nine-month scope is attributed to WSKG on the page, as the brief advises."
+  },
+  {
+   "claim": "Waiver must be bolded, initialed on first page; sponsor's 2022 column says both sides must choose it",
+   "source_url": "https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/",
+   "status": "ok",
+   "note": "Fetched: tenants and landlords can waive only if both agree, waiver on first page with initials; author presents himself as the amendment's sponsor."
+  },
+  {
+   "claim": "120 days back from July 31, 2027 is April 2, 2027; sponsor's examples count forward (June 1 -> Oct 1; August -> December)",
+   "source_url": "brief §10.5",
+   "status": "ok",
+   "note": "Recomputed: 28 days left in April + 31 + 30 + 31 = 120, so April 2. Column fetched and confirms the forward examples."
+  },
+  {
+   "claim": "Good Cause: 8-2 vote July 2024; small-landlord exemption one unit; 345% FMR = $4,402 on 2023 1BR; newer buildings CO from Jan 1, 2009 for 30 years; owner-occupied 10 or fewer units; rent standard lower of 10% or 5%+CPI",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief §2.6 and 10.13."
+  },
+  {
+   "claim": "Landlords predicted $2,000-$5,000 legal costs per non-renewal",
+   "source_url": "brief §10 (claimed figures)",
+   "status": "ok",
+   "note": "brief marks it as their claim; the page does too."
+  },
+  {
+   "claim": "RPL 226-c notice table 30/60/90 days; auto-renew reminder 15-30 days; retaliation, owner-occupied under four units",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief rows on notice, auto-renew and retaliation."
+  },
+  {
+   "claim": "Deposit rules: one month cap, 14 days, itemized or forfeited, up to twice for willful violation, interest on 6+ units with 1% fee, top-up on renewal, deductible items",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 and 10 tables."
+  },
+  {
+   "claim": "Fees: application banned, background check $20 or actual cost (waived with 30-day-old check), late fee after 5 days up to $50 or 5%, key 110%, cleaning/non-refundable deposit prohibited",
+   "source_url": "brief §2.7 / §10",
+   "status": "ok",
+   "note": "all match; the 5-day and $50/5% rule is in the brief's lead summary."
+  },
+  {
+   "claim": "Heat Sept 15 to May 31 (state Oct 1), 68F/62F, utility shutoff 18/15/30 days, bed bugs 72 hours, repair petition after 30 days since Jan 2024, abatement 10-20% / 50-60%, entry rules",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief rows. Sept 15 vs Oct 1 is 16 days, 'two weeks longer' is acceptable."
+  },
+  {
+   "claim": "Sidewalk cleared within 24 hours of snowfall start; City bills at least $50 a plowing; grass 9 inches",
+   "source_url": "brief §2 (snow/exterior)",
+   "status": "ok",
+   "note": "brief rows."
+  },
+  {
+   "claim": "Sublets: 4+ units, 10 days ask, 30 days answer, silence is consent; duty to mitigate",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief sublet row."
+  },
+  {
+   "claim": "Affiliated housing requirements: RSO, sprinklers, $1,000,000/$2,000,000 insurance, COC then yearly inspections, annual application with 30-minute presentation to Assistant Director",
+   "source_url": "brief §1",
+   "status": "ok",
+   "note": "brief rows at Cornell requirements."
+  },
+  {
+   "claim": "Cornell Marketplace requires COC for City properties; Graduate School checks against COC database; safety tool contents",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief safety-tool row; marketplace and grad guide claims were source-listed in the brief."
+  },
+  {
+   "claim": "Town of Ithaca (607) 273-1783, Lansing (607) 533-7054; Drummond 2017 upheld ZBA functional-equivalent rule involving Ithaca College students",
+   "source_url": "brief §2.24",
+   "status": "ok",
+   "note": "brief matches."
+  },
+  {
+   "claim": "'Cooperative household' = four or more unrelated persons",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief row (search snippet of City zoning); page does not overstate it."
+  },
+  {
+   "claim": "117 Thurston: certificate expired Nov 2015, 53 days from complaint to fixed heater, tenant slept in a library",
+   "source_url": "brief §5.2",
+   "status": "ok",
+   "note": "brief matches."
+  },
+  {
+   "claim": "Page said 117 Thurston 'changed the law' and 'drove' the 2019 misdemeanor and double-rent rules",
+   "source_url": "https://www.cornellsun.com/article/2019/03/city-council-votes-to-stiffen-penalties-for-noncompliant-landlords",
+   "status": "ok",
+   "note": "fixed in place: Fetched the 2019 Sun article: it does not mention 117 Thurston or say the case prompted the change. Reworded to 'the case that shows the stakes' and 'the City tightened penalties the following March'."
+  },
+  {
+   "claim": "2019: misdemeanor up to $500 fine and 30 days; displaced tenants owed double monthly rent prorated per day",
+   "source_url": "https://www.cornellsun.com/article/2019/03/city-council-votes-to-stiffen-penalties-for-noncompliant-landlords",
+   "status": "ok",
+   "note": "Fetched; matches (ordinance terms)."
+  },
+  {
+   "claim": "Asteri: 181 units, about 200 residents ordered out March 4, 2026, lifted March 20; $2,000 within five days called predatory by a city official and ITU",
+   "source_url": "brief §5 (Asteri row)",
+   "status": "ok",
+   "note": "brief matches."
+  },
+  {
+   "claim": "Example cycle: $300 + 6x$10 + 2x$50 + $75 = $535; double rent $10,000 a month, about $333 a day",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: 300+60+100+75=535; 2 x 5,000 = 10,000; /30 = 333.33."
+  },
+  {
+   "claim": "Deposit cap $5,000; late-fee 5% = $250 so cap $50; four units no interest account, six would",
+   "source_url": "our math / brief §2.7",
+   "status": "ok",
+   "note": "4 x 1,250 = 5,000; 5% of 5,000 = 250."
+  },
+  {
+   "claim": "Most Ithaca leases end July 31; popular Collegetown units lease 8 to 16 months ahead",
+   "source_url": "brief §3/§10.6",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Ithaca Renting 2027-28 medians $800 (6BR) and $2,025 (1BR); 38 priced rows",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief; 38-row recount is in the brief."
+  }
+ ],
+ "beats_top": {
+  "query": "ithaca landlord requirements certificate of compliance",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

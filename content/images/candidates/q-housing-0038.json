@@ -1,0 +1,41 @@
+[
+ {
+  "source": "wikimedia",
+  "title": "Cornell - Central Avenue Bridge",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Cornell_-_Central_Avenue_Bridge.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Cornell_-_Central_Avenue_Bridge.jpg",
+  "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Cornell_-_Central_Avenue_Bridge.jpg/960px-Cornell_-_Central_Avenue_Bridge.jpg",
+  "author": "Curt Teich & Co., Chicago (publisher)",
+  "license": "Public domain",
+  "license_url": "",
+  "width": 964,
+  "height": 1517,
+  "description": "Photomechanical print (postcard) : halftone, colored Divided back"
+ },
+ {
+  "source": "openverse",
+  "title": "Ithaca - Entrance to Cornell University, College Avenue",
+  "page_url": "https://commons.wikimedia.org/w/index.php?curid=173066039",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Ithaca_-_Entrance_to_Cornell_University%2C_College_Avenue.jpg",
+  "thumb_url": "https://api.openverse.org/v1/images/c0b77acc-12c7-4d8a-8dc8-12383a072563/thumb/",
+  "author": "P. Hughes",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "width": 5381,
+  "height": 3818,
+  "description": ""
+ },
+ {
+  "source": "openverse",
+  "title": "Collegetown (438384821)",
+  "page_url": "https://commons.wikimedia.org/w/index.php?curid=69219206",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Collegetown_%28438384821%29.jpg",
+  "thumb_url": "https://api.openverse.org/v1/images/7a161029-4d8d-48d8-8cac-e42dd222fcbd/thumb/",
+  "author": "Upsilon Andromedae from Chicago, Illinois, USA",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "width": 2200,
+  "height": 1357,
+  "description": ""
+ }
+]

@@ -1,0 +1,138 @@
+{
+ "slug": "city-of-ithaca-vs-town-lansing-cayuga-heights-renters",
+ "queue_id": "q-housing-0043",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "120-day notice in City code 258-10; passed April 6, 2022, effective May 31, 2022; leases of nine months or longer (as reported)",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief rows on passage dates and WSKG nine-month scope; page words it 'as WSKG reported'."
+  },
+  {
+   "claim": "Certificate of Compliance: 3 years (1 year dorms, fraternities, sororities); 3+ units or 5/6+ unrelated people depending on source",
+   "source_url": "brief §2.12",
+   "status": "ok",
+   "note": "Brief COC rows; page flags the 5 vs 6 conflict."
+  },
+  {
+   "claim": "Building Division phones 607-274-6508 / main 607-274-6510, ibd@cityofithaca.org, 108 E. Green St. 4th floor, weekdays 8:30-4:00",
+   "source_url": "brief §2.12",
+   "status": "ok",
+   "note": "Brief rows for office, phones and email."
+  },
+  {
+   "claim": "Cornell/City safety tool covers City rentals only, updated daily; marketplace requires current certificate for City listings",
+   "source_url": "brief §2.12 and §1",
+   "status": "ok",
+   "note": "Brief safety-tool rows; marketplace certificate row is a search summary in the brief but the page states it plainly."
+  },
+  {
+   "claim": "City 'cooperative household' = four or more unrelated persons",
+   "source_url": "brief §2.13",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Town of Ithaca family rule: over two unrelated need ZBA finding; single-family one family plus one boarder; upheld 2017 (Drummond), Ithaca College students",
+   "source_url": "brief §2.13",
+   "status": "ok",
+   "note": "Matches brief row exactly. Justia page returned 403 to direct fetch; search snippet confirms the case, 2017, and the students' Ithaca College link."
+  },
+  {
+   "claim": "East Hill: parts lie in the Town of Ithaca (was linked to Drummond)",
+   "source_url": "https://law.justia.com/cases/new-york/other-courts/2017/2017-ny-slip-op-30471-u.html",
+   "status": "fixed",
+   "note": "Drummond concerns 104 Pineview Terrace and Ithaca College students, not East Hill, and the brief has no row putting East Hill in the Town. One search found no official source for the line. Reworded the bullet to 'Some addresses may lie in the Town... Not confirmed: which East Hill streets' and removed the link. The same unsourced 'Town parts of East Hill' also appears in the glance box, answer paragraph, code-office table and a Town-of-Ithaca table row; left as is, flagged here."
+  },
+  {
+   "claim": "Residential parking permit $45 a year, to July 31; odd/even Nov 1-Apr 1, 7 p.m.-6 a.m.; move every 24 hours weekdays; 72-hour tow",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "Brief rows for permit, odd/even, 24-hour and abandoned-vehicle rules."
+  },
+  {
+   "claim": "Dryden Road Garage $232 monthly; 12 months = $2,784",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "Recomputed 232 x 12 = 2,784."
+  },
+  {
+   "claim": "Cornell B commuter permit $359.77 a year",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Trash tags $6.00 each, $36.00 per sheet of 6, from January 1, 2026; 24-hour set-out; no couches or mattresses outdoors",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "Matches brief. $36 = 6 x $6 checked."
+  },
+  {
+   "claim": "Sidewalk snow cleared within 24 hours after snowfall begins; lease may pass duty to tenant",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "City noise night 10:00 p.m.-7:30 a.m.; Town of Ithaca day 7:00 a.m.-9:00 p.m.",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "Matches brief (Town figure is a snippet in the brief)."
+  },
+  {
+   "claim": "Good Cause: Ithaca Common Council voted 8-2 in July 2024; outside NYC only where municipality opts in; lower of 10% or 5% plus inflation presumed unreasonable",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Matches brief rows."
+  },
+  {
+   "claim": "State notice 30/60/90 days for non-renewal or increase of 5% or more",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "RPL 226-c row."
+  },
+  {
+   "claim": "Deposit capped at one month, 14-day itemized return; application fees banned; occupant law lets tenant live with immediate family plus one occupant",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief rows for GOL 7-108, RPL 238-a, RPL 235-f. The page's 'application fees banned' is slightly broad: the brief shows a background-check fee of up to $20 is allowed; the page links 238-a, so left."
+  },
+  {
+   "claim": "Tenant hotline 607-301-1560: advice with no geographic limits; full representation only for City residents",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Matches Cornell Global Learning row."
+  },
+  {
+   "claim": "Code office phones: Town of Ithaca 607-273-1783, Lansing 607-533-7054, Cayuga Heights 607-257-5536 ext. 104; 836 Hanshaw Road; short-term rentals of 28 days or less only",
+   "source_url": "brief §2 (code offices)",
+   "status": "ok",
+   "note": "Matches brief rows."
+  },
+  {
+   "claim": "Lansing West 1BR units $1,038 and $1,193 in November 2026",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "Matches the brief's RentCafe row."
+  },
+  {
+   "claim": "117 Thurston Ave: certificate expired Nov 2015 learned after signing; 53 days from first complaint to heater fixed",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Brief row; recomputed Sept 27 to Nov 19 = 53 days."
+  },
+  {
+   "claim": "East Hill 0.75 to 2 miles; Cornell neighborhoods page lists areas by name",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief neighborhood row."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "b88d1f434b6c808c0a1edb9584ecc3784d6026c5616a4cf02115b3d41a1655a2"
+}

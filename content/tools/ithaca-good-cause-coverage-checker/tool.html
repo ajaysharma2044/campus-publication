@@ -1,0 +1,173 @@
+<div class="tool" id="tool-ithaca-good-cause-coverage-checker" data-tool="ithaca-good-cause-coverage-checker" data-as-of="2026-11-08">
+<style>
+#tool-ithaca-good-cause-coverage-checker .gc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.75rem 1.25rem;margin:0 0 1rem}
+#tool-ithaca-good-cause-coverage-checker label{display:block;font-weight:600;margin-bottom:.25rem}
+#tool-ithaca-good-cause-coverage-checker select,#tool-ithaca-good-cause-coverage-checker input[type=number]{width:100%;max-width:100%;box-sizing:border-box;padding:.35rem}
+#tool-ithaca-good-cause-coverage-checker .gc-hint{display:block;font-size:.85em;opacity:.8;margin-top:.15rem}
+#tool-ithaca-good-cause-coverage-checker .tool-result{border-top:2px solid currentColor;padding-top:.75rem}
+#tool-ithaca-good-cause-coverage-checker .gc-pick{font-size:1.2em;font-weight:700;margin:0 0 .5rem}
+#tool-ithaca-good-cause-coverage-checker .gc-small{font-size:.85em;opacity:.85}
+</style>
+<form class="gc-form" onsubmit="return false">
+<div class="gc-grid">
+<div><label for="ithaca-good-cause-coverage-checker-place">Where the rental is</label>
+<select id="ithaca-good-cause-coverage-checker-place">
+<option value="city" selected>City of Ithaca (Collegetown, Fall Creek, downtown)</option>
+<option value="outside">Outside the City (Town of Ithaca, Cayuga Heights, Lansing, Varna)</option>
+<option value="unsure">Not sure</option>
+</select>
+<span class="gc-hint">Cayuga Heights, Lansing, Varna and the Town of Ithaca parts of East Hill are outside the City.</span></div>
+<div><label for="ithaca-good-cause-coverage-checker-type">What kind of housing</label>
+<select id="ithaca-good-cause-coverage-checker-type">
+<option value="private" selected>Private apartment, house or room on a lease</option>
+<option value="condo">A condo or co-op apartment</option>
+<option value="regulated">Income-restricted or rent-regulated unit</option>
+<option value="dorm">Cornell residence hall</option>
+</select></div>
+<div><label for="ithaca-good-cause-coverage-checker-coyear">Year of the building's certificate of occupancy</label>
+<input type="number" id="ithaca-good-cause-coverage-checker-coyear" min="1800" max="2026" step="1" placeholder="Leave blank if not sure">
+<span class="gc-hint">For a new building this is about the year it opened. Leave blank if you don't know.</span></div>
+<div><label for="ithaca-good-cause-coverage-checker-owned">Units the landlord owns in New York State</label>
+<select id="ithaca-good-cause-coverage-checker-owned">
+<option value="one">Only this one unit</option>
+<option value="few">2 to 10 units</option>
+<option value="many" selected>More than 10 units (a management company)</option>
+<option value="unsure">Not sure</option>
+</select></div>
+<div><label for="ithaca-good-cause-coverage-checker-ownerlives">Does the owner live in the building?</label>
+<select id="ithaca-good-cause-coverage-checker-ownerlives">
+<option value="no" selected>No</option>
+<option value="yes">Yes</option>
+<option value="unsure">Not sure</option>
+</select></div>
+<div><label for="ithaca-good-cause-coverage-checker-units">Units in the building</label>
+<input type="number" id="ithaca-good-cause-coverage-checker-units" min="1" max="500" step="1" value="4">
+<span class="gc-hint">Count every apartment, including the owner's.</span></div>
+<div><label for="ithaca-good-cause-coverage-checker-years">Years you have lived in the unit</label>
+<input type="number" id="ithaca-good-cause-coverage-checker-years" min="0" max="40" step="0.5" value="1"></div>
+<div><label for="ithaca-good-cause-coverage-checker-lease">Length of your current lease</label>
+<select id="ithaca-good-cause-coverage-checker-lease">
+<option value="none">No lease, or month-to-month</option>
+<option value="short">Under 1 year (a 10-month lease)</option>
+<option value="one" selected>1 year to under 2 (a 12-month lease)</option>
+<option value="two">2 years or more</option>
+</select></div>
+</div>
+</form>
+<div class="tool-result" id="ithaca-good-cause-coverage-checker-result" aria-live="polite">
+<p>Your result appears here. If it does not, every rule and number is listed on this page so you can check your unit by hand.</p>
+</div>
+<p class="gc-small" data-as-of="2026-11-08">Rules as of 2026-11-08, from New York's Good Cause law (RPL 210-218), RPL 226-c, DHCR and the Cornell Law tenants' guide. The 345% and one-unit Ithaca thresholds come from a search snippet of DHCR's February 2025 notice.</p>
+<script>
+(function () {
+  var root = document.getElementById('tool-ithaca-good-cause-coverage-checker');
+  if (!root) return;
+  var P = 'ithaca-good-cause-coverage-checker-';
+  var D = '2026-11-08';
+  var HCR = 'https://hcr.ny.gov/good-cause-eviction';
+  var DHCR = 'https://hcr.ny.gov/good-cause-eviction-law-notice-february-2025';
+  var R214 = 'https://www.nysenate.gov/legislation/laws/RPP/214';
+  var R226C = 'https://www.nysenate.gov/legislation/laws/RPP/226-C';
+  var SUN = 'https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing';
+  var LAW = 'https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal';
+  var NUMBERS = {
+    standardCapPct: {value: 10, asOf: D, source: HCR},
+    standardCpiAddPct: {value: 5, asOf: D, source: HCR},
+    highRentPctIthaca: {value: 345, asOf: D, source: DHCR},
+    highRentPctState: {value: 245, asOf: D, source: DHCR},
+    fmr1br2023: {value: 1276, asOf: '2024-07-10', source: SUN},
+    smallLandlordIthaca: {value: 1, asOf: D, source: DHCR},
+    smallLandlordState: {value: 10, asOf: D, source: DHCR},
+    ownerOccupiedMaxUnits: {value: 10, asOf: D, source: R214},
+    coCutoffYear: {value: 2009, asOf: D, source: R214},
+    coExemptYears: {value: 30, asOf: D, source: R214},
+    notice30: {value: 30, asOf: D, source: R226C},
+    notice60: {value: 60, asOf: D, source: R226C},
+    notice90: {value: 90, asOf: D, source: R226C},
+    increaseTriggerPct: {value: 5, asOf: D, source: R226C},
+    retaliationOwnerOccUnder: {value: 4, asOf: D, source: LAW},
+    cureDays: {value: 10, asOf: D, source: LAW},
+    cityRenewalNoticeDays: {value: 120, asOf: D, source: 'https://ecode360.com/27390826'}
+  };
+  function v(k) { return NUMBERS[k].value; }
+  function $(id) { return root.querySelector('#' + P + id); }
+  function num(id, lo, hi, dflt) { var x = parseFloat($(id).value); if (isNaN(x)) return dflt; return Math.min(hi, Math.max(lo, x)); }
+  function m(x) { return '$' + x.toLocaleString('en-US', {minimumFractionDigits: (Math.round(x * 100) % 100) ? 2 : 0, maximumFractionDigits: 2}); }
+  function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+  function li(text, asOf) { return '<li data-as-of="' + (asOf || D) + '">' + esc(text) + '</li>'; }
+
+  function compute() {
+    var place = $('place').value, type = $('type').value, owned = $('owned').value, lives = $('ownerlives').value, lease = $('lease').value;
+    var coYear = num('coyear', 1800, 2026, null), units = num('units', 1, 500, 1), years = num('years', 0, 40, 0);
+    var exempt = [], unknown = [], notes = [], flags = [];
+    var cut = v('coCutoffYear'), small = v('smallLandlordIthaca'), ownMax = v('ownerOccupiedMaxUnits');
+
+    if (type === 'dorm') exempt.push('Cornell residence halls are exempt: the law exempts dormitories owned and run by colleges. Private student apartments are not exempt as a category.');
+    if (type === 'condo') exempt.push('Condo and co-op apartments are exempt.');
+    if (type === 'regulated') exempt.push('Income-restricted and rent-regulated units are exempt from Good Cause; they follow their own program rules, which are not in our sources.');
+    if (coYear !== null && coYear >= cut) exempt.push('A certificate of occupancy from ' + coYear + ' (on or after Jan 1, ' + cut + ') exempts the building for ' + v('coExemptYears') + ' years, so until about ' + (coYear + v('coExemptYears')) + '.');
+    else if (coYear === null && type === 'private') unknown.push('the building got its certificate of occupancy in ' + cut + ' or later (then it is exempt for ' + v('coExemptYears') + ' years; most new Collegetown buildings are)');
+    if (owned === 'one') exempt.push('A landlord who owns only ' + small + ' unit in New York State counts as a small landlord in Ithaca, and the unit is exempt. To claim it, the landlord must disclose the owners and their unit counts.');
+    else if (owned === 'unsure') unknown.push('your landlord owns only ' + small + ' unit in the state (Ithaca\'s small-landlord line)');
+    else if (owned === 'few') notes.push(li('Ithaca set its small-landlord line at ' + small + ' unit statewide. The state default is ' + v('smallLandlordState') + ', so a landlord with 2 to 10 units would be exempt in a town that kept the default, but not in the City of Ithaca.'));
+    if (lives === 'yes' && units <= ownMax) exempt.push('The owner lives in a building of ' + units + ' unit' + (units === 1 ? '' : 's') + '; owner-occupied buildings of ' + ownMax + ' or fewer units are exempt.');
+    else if (lives === 'yes') notes.push(li('The owner lives there, but the building has ' + units + ' units, more than the ' + ownMax + '-unit limit for the owner-occupied exemption.'));
+    else if (lives === 'unsure' && units <= ownMax) unknown.push('the owner lives in the building (owner-occupied buildings of ' + ownMax + ' or fewer units are exempt)');
+
+    var head, sub = '';
+    if (place === 'outside') {
+      head = 'Ithaca\'s Good Cause law does not reach your rental.';
+      sub = 'The City of Ithaca opted in to Good Cause in July 2024. Outside New York City the law applies only where a city, town or village opts in, and whether the Town of Ithaca, Lansing or Cayuga Heights did is not in our sources. Check DHCR\'s list at hcr.ny.gov.';
+    } else if (exempt.length) {
+      head = 'Likely exempt from Good Cause.';
+      sub = exempt.join(' ');
+    } else {
+      head = unknown.length ? 'Likely covered by Good Cause, unless one of these is true.' : 'Likely covered by Good Cause.';
+      sub = unknown.length ? 'Find out whether ' + unknown.join('; or whether ') + '.' : 'None of the exemptions you could check applies. A covered tenant has a right to renew, with exceptions: the landlord moving in, demolition, taking the unit off the rental market, or a proven ground such as nonpayment or a violation not fixed within ' + v('cureDays') + ' days of written notice.';
+      if (place === 'unsure') sub += ' This assumes the rental is inside the City of Ithaca; if it is not, Ithaca\'s law does not apply.';
+    }
+
+    var covered = place !== 'outside' && !exempt.length;
+    var rent = [];
+    if (covered) {
+      rent.push(li('Rent increase standard: a yearly increase above the lower of ' + v('standardCapPct') + '% or ' + v('standardCpiAddPct') + '% plus CPI is presumed unreasonable. It is a presumption the landlord can rebut, not a hard cap. This year\'s CPI figure is not in our sources; DHCR usually publishes it by Aug 1.'));
+      rent.push(li('Refusing reasonable renewal terms, including an increase that is not unreasonable, is a ground for removal if the landlord gave written notice ' + v('notice30') + ' to ' + v('notice90') + ' days before the lease ends. Falling behind because of an unreasonable increase is not.'));
+    }
+    var line2023 = Math.round(v('fmr1br2023') * v('highRentPctIthaca')) / 100;
+    if (place !== 'outside' && type === 'private') rent.push(li('High-rent exemption: units renting above ' + v('highRentPctIthaca') + '% of HUD fair market rent are exempt in Ithaca (state default ' + v('highRentPctState') + '%). On the 2023 one-bedroom FMR, ' + m(v('fmr1br2023')) + ' x ' + (v('highRentPctIthaca') / 100) + ' = ' + m(line2023) + ' a month. That is an illustration from a 2024 Cornell Sun report; this year\'s FMRs are not in our sources. Almost no student unit crosses it.', '2024-07-10'));
+
+    var tenure = Math.max(years, lease === 'two' ? 2 : (lease === 'one' ? 1 : 0));
+    var days, why;
+    if (years > 2 || lease === 'two') { days = v('notice90'); why = years > 2 ? 'more than 2 years in the unit' : 'a lease of 2 years or more'; }
+    else if (tenure >= 1) { days = v('notice60'); why = years >= 1 ? 'between 1 and 2 years in the unit' : 'a lease of 1 to 2 years'; }
+    else { days = v('notice30'); why = 'under 1 year in the unit and no 1-year lease'; }
+    var notice = [];
+    if (type === 'dorm') notice.push(li('A Cornell residence hall runs on a housing license, not a lease; the notice rules below are for leases.'));
+    else if (type === 'regulated') notice.push(li('The 30/60/90-day notice rule covers non-regulated tenancies; a rent-regulated unit follows its program\'s rules.'));
+    else {
+      notice.push(li('Your landlord owes you ' + days + ' days\' written notice (' + why + ') before not renewing your lease or raising the rent by ' + v('increaseTriggerPct') + '% or more. This is state law (RPL 226-c) and applies whether or not Good Cause covers you.'));
+      notice.push(li('If the notice comes late, your tenancy continues on the existing terms until ' + days + ' days after the notice was given.'));
+      notice.push(li('The notice must say whether your unit is subject to Good Cause and, if it is exempt, why. That line is the landlord\'s own answer to this checker.'));
+      if (place !== 'outside') notice.push(li('Separately, City code (258-10) requires ' + v('cityRenewalNoticeDays') + ' days\' written notice before the landlord renews your lease, shows your unit or signs new tenants, unless you initialed a bolded waiver on page one of the lease. When the ' + v('cityRenewalNoticeDays') + ' days start counting is unresolved.'));
+    }
+
+    if (place !== 'outside' && type !== 'dorm') flags.push(li('The Ithaca thresholds (' + v('highRentPctIthaca') + '% of fair market rent, ' + small + ' unit statewide) rest on a search snippet of DHCR\'s February 2025 notice; the PDF could not be read, and the text of Local Law 2024-01 has not been read.'));
+    if (lives === 'yes' && units < v('retaliationOwnerOccUnder')) flags.push(li('In an owner-occupied building with fewer than ' + v('retaliationOwnerOccUnder') + ' units, the retaliation defense (no non-renewal or unreasonable increase within a year of a good-faith complaint) does not apply.'));
+    else if (type === 'private') flags.push(li('If you made a good-faith complaint in the past year, a refusal to renew or an unreasonable increase can be challenged as retaliation.'));
+    flags.push(li('This checker is a guide, not legal advice. Free help: the Tenants Advocacy hotline, 607-301-1560, or LawNY in Tompkins County, (607) 273-3667.'));
+
+    $('result').innerHTML =
+      '<p class="gc-pick">' + esc(head) + '</p><p data-as-of="' + D + '">' + esc(sub) + '</p>' +
+      (notes.length ? '<ul>' + notes.join('') + '</ul>' : '') +
+      (rent.length ? '<p><strong>Rent increases</strong></p><ul>' + rent.join('') + '</ul>' : '') +
+      '<p><strong>Notice your landlord owes you</strong></p><ul>' + notice.join('') + '</ul>' +
+      '<p><strong>Check before you rely on this</strong></p><ul>' + flags.join('') + '</ul>' +
+      '<p class="gc-small" data-as-of="' + D + '">Rules as of 2026-11-08; the $1,276 fair market rent is the 2023 figure as reported July 10, 2024.</p>' +
+      '<p class="gc-small">Estimated: "likely" means the answer rests on what you entered; the landlord\'s 226-c notice and the DHCR list are the official word.</p>';
+  }
+  var inputs = root.querySelectorAll('input, select');
+  for (var i = 0; i < inputs.length; i++) { inputs[i].addEventListener('input', compute); inputs[i].addEventListener('change', compute); }
+  compute();
+})();
+</script>
+</div>

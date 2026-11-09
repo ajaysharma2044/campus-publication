@@ -1,0 +1,279 @@
+{
+ "slug": "off-campus-housing-cornell-juniors-seniors-renting",
+ "queue_id": "q-housing-0051",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "City of Ithaca 120 days' written notice before renewing, showing or re-letting; waiver must be explicitly written, bolded and initialed on lease page one",
+   "source_url": "https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/",
+   "status": "ok",
+   "note": "brief §2 (rule rows); WSKG re-opened: quote on waiver matches"
+  },
+  {
+   "claim": "Rule took effect May 31, 2022, replacing a 60-day rule; covers leases of nine months or longer (as WSKG reported)",
+   "source_url": "https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/",
+   "status": "ok",
+   "note": "brief §2; WSKG re-opened: 'nine months or longer', takes effect May 31, previous 60 days; page attributes nine months to WSKG"
+  },
+  {
+   "claim": "City Attorney Ari Levine told WSKG disputes can go to housing court; no penalties stated",
+   "source_url": "https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/",
+   "status": "ok",
+   "note": "brief §2; confirmed on WSKG"
+  },
+  {
+   "claim": "Mehler (sponsor) wrote that a discussion about why you are waiving the days should be your first question",
+   "source_url": "https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/",
+   "status": "ok",
+   "note": "brief §6 voice row 15"
+  },
+  {
+   "claim": "Renewal pitch within weeks of move-in reported in 2012 and 2022",
+   "source_url": "brief §5/§6",
+   "status": "ok",
+   "note": "brief §1015 and §6 summary"
+  },
+  {
+   "claim": "Not confirmed: how the 120 days are counted; no earliest renewal date given",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief marks it unresolved: publish no date"
+  },
+  {
+   "claim": "Expired lease continues month-to-month; auto-renew clause needs written reminder 15 to 30 days before opt-out; no notice to leave at end of fixed term",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief rows on default at lease end, tenant notice, auto-renew (GOL 5-903)"
+  },
+  {
+   "claim": "RPL 226-c notice: 30/60/90 days by occupancy or lease term, triggered by 5%+ increase or non-renewal; late notice keeps old terms; notice must say if Good Cause covers the unit and why not",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-C",
+   "status": "ok",
+   "note": "brief §2 (226-c thresholds and late-notice rows)"
+  },
+  {
+   "claim": "Ithaca Common Council voted 8-2 to opt in to Good Cause, July 2024",
+   "source_url": "https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections",
+   "status": "ok",
+   "note": "brief §2; WAMC re-opened, 8-2"
+  },
+  {
+   "claim": "Good Cause: right to renew with exceptions (nonpayment, uncured violation after 10 days' written notice); increase above lower of 10% or 5%+CPI presumed unreasonable, rebuttable; DHCR CPI usually by Aug 1",
+   "source_url": "https://hcr.ny.gov/good-cause-eviction",
+   "status": "ok",
+   "note": "brief §2 rows"
+  },
+  {
+   "claim": "Refusing reasonable renewal terms: removal after written notice 30 to 90 days before lease end; nonpayment tied to unreasonable increase is not good cause (RPL 216)",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/216",
+   "status": "ok",
+   "note": "brief §2 renewal refusal row"
+  },
+  {
+   "claim": "Exemptions: dorms only; CO on/after Jan 1, 2009 exempt 30 years; owner-occupied 10 or fewer units; condos, co-ops, rent-regulated, seasonal; high rent 345% of FMR, about $4,402 for 1BR on 2023 figure",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/214",
+   "status": "ok",
+   "note": "brief §2 exemption rows; $4,402 = 345% x $1,276, rechecked 1,276 x 3.45 = 4,402.2"
+  },
+  {
+   "claim": "Small landlord exemption in Ithaca: landlord with one rental property",
+   "source_url": "https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections",
+   "status": "ok",
+   "note": "fixed in place: Page said 'owns only one rental unit in New York' citing WAMC; WAMC says just one rental property and does not say 'in New York' (the statewide wording is only the brief's unconfirmed DHCR snippet). Reworded to 'a landlord with just one rental property'."
+  },
+  {
+   "claim": "The Ithacan (built 2023) cited as exempt until 2053",
+   "source_url": "https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing",
+   "status": "ok",
+   "note": "brief §2"
+  },
+  {
+   "claim": "Example: $1,200 x 1.07 = $1,284; 60 days' notice; 7% presumed unreasonable only if CPI below 2%; above 10% always over the line",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1,200 x 1.07 = 1,284; 12-month lease = 1 to 2 year band = 60 days; 7% > 5%+CPI iff CPI < 2; 10% is the cap in the 'lower of' test"
+  },
+  {
+   "claim": "Heat season Sept 15 to May 31 in Ithaca (statewide Oct 1); 68F day below 55F outside; 62F night; bed bugs 72 hours; heat shutoff 30 days' notice Nov 1 to Apr 15; habitability list; AC not covered",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance",
+   "status": "ok",
+   "note": "brief §2 rows (heat season, minimums, utility shutoff, bed bugs)"
+  },
+  {
+   "claim": "Repair requests in writing, certified mail; no strict statutory repair deadline; petition for repairs after 30 days in the unit and written notice, since January 2024",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance",
+   "status": "ok",
+   "note": "brief §2 rows"
+  },
+  {
+   "claim": "Abatement ranges about 10-20% minor, 30% moderate, 50-60% most serious",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance",
+   "status": "ok",
+   "note": "brief §2"
+  },
+  {
+   "claim": "Example: 4BR median $1,246.25 per person (Ithaca Renting 2027-28); 30% abatement about $374",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "ok",
+   "note": "brief §3 and 10.9 (4BR median 1,246.25); recomputed 1,246.25 x 0.30 = 373.875, rounds to $374"
+  },
+  {
+   "claim": "117 Thurston Ave 2018: 53 days from first complaint letter to fixed heater; one tenant slept in a campus library; Council stiffened penalties 2019",
+   "source_url": "https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/",
+   "status": "ok",
+   "note": "brief §5; recomputed Sept 27 to Nov 19 = 3 + 31 + 19 = 53 days"
+  },
+  {
+   "claim": "Retaliation: no refusal to renew or unreasonable increase for a good-faith complaint within the past year; eviction within a year defensible as retaliation; owner-occupied under four units excepted",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal",
+   "status": "ok",
+   "note": "brief §2 retaliation row"
+  },
+  {
+   "claim": "Students avoid repair requests for fear of not being renewed, a worry the Sun recorded in 2021",
+   "source_url": "https://cornellsun.com/2021/07/23/ithaca-tenants-union-and-solidarity-slate-join-regional-efforts-toward-housing-equity/",
+   "status": "ok",
+   "note": "fixed in place: Sun article has Solidarity Slate candidate Jorge DeFendini saying students are often afraid to call their landlord about repairs 'for fear of getting evicted' (his peers' experience). Page said 'not being renewed' and made it a general report. Reworded to attribute to a Solidarity Slate candidate and 'getting evicted'. Brief section 6 had the same drift; corrected and logged."
+  },
+  {
+   "claim": "Sublet: 4+ units, certified mail contents, 10 days for more info, 30 days to answer, silence is consent, original tenant stays liable; 3 or fewer units lease decides",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "brief §2 and §6 sublet rows"
+  },
+  {
+   "claim": "Early termination fee may be treated as liquidated damages, not always enforceable; DV lease end 30 days, documentation 25 days, prepaid rent back in 10 days; Advocacy Center (607) 277-5000",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease",
+   "status": "ok",
+   "note": "brief §2 rows"
+  },
+  {
+   "claim": "Cornell aid does not cover rent in unregistered months",
+   "source_url": "https://finaid.cornell.edu/living-campus",
+   "status": "ok",
+   "note": "brief §3"
+  },
+  {
+   "claim": "Deposit plus advance capped at one month's rent; top-up on renewal to new rent allowed; 14 days to return deposit or itemized statement; forfeits right to keep any; willful violation up to twice deposit; landlord must prove reasonableness; new owner liable if it knew",
+   "source_url": "https://www.nysenate.gov/legislation/laws/GOB/7-108",
+   "status": "ok",
+   "note": "brief §2 deposit rows; top-up row cites NY AG"
+  },
+  {
+   "claim": "Move-out inspection 2 to 1 weeks before the end with 48 hours' written notice; landlord must tell tenant of right in writing; July 17 to 24 window for July 31 end",
+   "source_url": "https://www.nysenate.gov/legislation/laws/GOB/7-108",
+   "status": "ok",
+   "note": "brief §2; dates recomputed: July 31 minus 14 = July 17, minus 7 = July 24"
+  },
+  {
+   "claim": "Aug 14 deposit deadline for a July 31 exit; $2,492.50 = twice $1,246.25",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "July 31 + 14 days = Aug 14; 1,246.25 x 2 = 2,492.50; within the $5,000 Ithaca City Court limit"
+  },
+  {
+   "claim": "Deductions: unpaid rent, damage beyond wear, unpaid utilities owed to landlord, moving/storing belongings, excessive cleaning; no late or attorney's fees; separate cleaning fee banned; Cornell move-out page says cleaning charges deducted",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits",
+   "status": "ok",
+   "note": "brief §2 and §8 conflict row"
+  },
+  {
+   "claim": "Buildings with 6+ units: interest-bearing account, landlord may keep 1% annual fee",
+   "source_url": "https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants",
+   "status": "ok",
+   "note": "brief §2 interest row"
+  },
+  {
+   "claim": "Trash tags $6.00 each or $36.00 per six since Jan 1, 2026; no couches, mattresses, appliances outdoors; garbage out no more than 24 hours before pickup",
+   "source_url": "https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags",
+   "status": "ok",
+   "note": "brief §3/§4 rows"
+  },
+  {
+   "claim": "Small claims up to $3,000 in town and village courts, $5,000 in Ithaca City Court",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance",
+   "status": "ok",
+   "note": "brief §2"
+  },
+  {
+   "claim": "Phones: hotline 607-301-1560; Building Division 607-274-6508; Town of Ithaca 607-273-1783; Lansing 607-533-7054; LawNY (607) 273-3667; CDRC 607-273-9347; NY AG 1-800-771-7755",
+   "source_url": "brief §2/§7",
+   "status": "ok",
+   "note": "all match brief contact rows; Building Division 6508 chosen per brief conflict resolution"
+  },
+  {
+   "claim": "Hotline advises anyone; full representation only for City residents; no income or geographic limits",
+   "source_url": "https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources",
+   "status": "ok",
+   "note": "brief §3 row"
+  },
+  {
+   "claim": "Landlord dispute does not affect visa status or academic standing per Cornell Graduate School staff; cannot be evicted for immigration status with a lease absent substantial violation; heat/hot water denial as harassment barred",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/immigrant-tenant-rights",
+   "status": "ok",
+   "note": "brief §2 immigrant row and §6 item 4 (staff attribution kept)"
+  },
+  {
+   "claim": "Eviction: 14-day rent demand, court petition served 10 to 17 days before hearing, one 14-day adjournment, hardship stay up to a year",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/eviction-proceedings",
+   "status": "ok",
+   "note": "brief §2 rows"
+  },
+  {
+   "claim": "Vacate order: landlords owe displaced tenants double monthly rent prorated per day (2019); Asteri residents offered $2,000 to leave within five days, called predatory by a city official and the Ithaca Tenants Union (March 2026)",
+   "source_url": "https://www.cornellsun.com/article/2026/03/asteri-s-aftermath-displacement-dangerous-conditions-and-a-predatory-cash-for-keys-scheme",
+   "status": "ok",
+   "note": "brief §3 and §5 rows"
+  },
+  {
+   "claim": "Most Ithaca leases expire July 31; every Dryden South lease ends May 31",
+   "source_url": "https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961",
+   "status": "ok",
+   "note": "brief §2 and §4 rows (leases end May 31, 2027)"
+  },
+  {
+   "claim": "Landlord entry: reasonable notice, often 24 hours, only if lease reserves entry",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/landlord-access",
+   "status": "ok",
+   "note": "brief §2 landlord entry row"
+  },
+  {
+   "claim": "Renters insurance: Cornell names GradGuard as preferred insurer, no price; quotes about $5 a month to $27 a month",
+   "source_url": "https://www.insure.com/renters-insurance/average-renters-insurance-cost-in-new-york/",
+   "status": "ok",
+   "note": "fixed in place: Page called both ends 'Ithaca quotes', but $27 a month ($328 a year) is Insure.com's New York average; brief §3.7 shows this. Reworded to $5 for Ithaca and $27 as a New York average. GradGuard and no-price: brief §3.7. 328/12 = 27.33."
+  },
+  {
+   "claim": "Image 2 caption: Dryden Road in September 1985, looking north from College Avenue; image 1 Collegetown credit",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Collegetown_(438384821).jpg",
+   "status": "ok",
+   "note": "Commons description: September 1985, looking north up Dryden Road from College Avenue; author Upsilon Andromedae"
+  },
+  {
+   "claim": "Housemates on most local leases are jointly liable",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief joint-and-several row (Cornell housemate questionnaire page)"
+  },
+  {
+   "claim": "Not confirmed lines: whether towns/villages opted into Good Cause; guarantor treatment at renewal; CPI for 2026; whether Collegetown landlords require renters insurance",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "all marked as holes on the page; not rejects"
+  }
+ ],
+ "beats_top": {
+  "query": "ithaca tenant rights students renewal deposit",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [
+  "Section 6 (Ithaca repair steps): corrected 'Students report avoiding repair requests for fear of not being renewed' to the Sun 2021 quote (one Solidarity Slate candidate, fear of getting evicted); source https://cornellsun.com/2021/07/23/ithaca-tenants-union-and-solidarity-slate-join-regional-efforts-toward-housing-equity/; change log line added"
+ ],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

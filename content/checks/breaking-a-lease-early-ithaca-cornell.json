@@ -1,0 +1,204 @@
+{
+ "slug": "breaking-a-lease-early-ithaca-cornell",
+ "queue_id": "q-housing-0036",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Sublet right in buildings of 4+ units; consent not unreasonably withheld; certified mail request contents",
+   "source_url": "brief §2 (sublet rows); https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "Brief rows match; RPL 226-b fetched and confirms."
+  },
+  {
+   "claim": "Landlord has 10 days to ask for more information, 30 days to answer; silence is consent",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "Brief row and statute match. 'Up to 40 days or more' (10+30) recomputed: correct."
+  },
+  {
+   "claim": "Assignment: landlord may refuse without cause; unreasonable refusal remedy is release on 30 days' notice; original tenant generally not liable after",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "Brief assignment row; statute fetched."
+  },
+  {
+   "claim": "Sublet without the written steps is a substantial breach; guarantor consent required in request",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "Subd. 5 and notice contents confirmed."
+  },
+  {
+   "claim": "RPL 227-e: landlord must re-rent in good faith at lower of market or lease rent; new lease ends yours and offsets damages; burden of proof; waiver void",
+   "source_url": "brief §2 (duty to re-rent row)",
+   "status": "ok",
+   "note": "Brief matches page."
+  },
+  {
+   "claim": "Termination fees may be liquidated damages and not always enforceable; sublet fee only if lease permits and reasonable; credit/background check fees allowed; 3-or-fewer units the lease controls",
+   "source_url": "brief §2 (sublet/termination rows); https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease",
+   "status": "ok",
+   "note": "Consistent with brief rows citing the Cornell Law guide."
+  },
+  {
+   "claim": "Domestic violence exit: 30 days' notice, documentation within 25 days, prepaid rent back within 10 days, Advocacy Center (607) 277-5000; military: 30 days after next rent due date",
+   "source_url": "brief §2 rows 217-218, 469",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Cornell Law guide does not address study abroad or leaving school; hotline 607-301-1560",
+   "source_url": "brief §2 row 216; row 461",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Cornell: lease cannot be broken without consequences, usually monetary; most local leases bind housemates 'jointly and severally'; questionnaire asks about leave/transfer/abroad",
+   "source_url": "brief §2 row 228",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Remaining tenants can be held for the full rent; overpaying tenant can sue co-tenant for contribution; lease page does not cover guarantors",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease",
+   "status": "ok",
+   "note": "Fetched: joint and several, contribution right, and no guarantor discussion all confirmed."
+  },
+  {
+   "claim": "Cornell Financial Aid will not intervene in a mid-year lease break; Day Hall (caption says Room 203)",
+   "source_url": "https://finaid.cornell.edu/living-campus",
+   "status": "ok",
+   "note": "Brief row 219; fetched page says it 'will not intercede' in a mid-year attempt to break a housing contract or lease, and is in Day Hall room 203."
+  },
+  {
+   "claim": "Penalty-free license cancellation (study away, leave, internship, graduation): June 15, 2026 / Dec 1, 2026 for 2026-27; June 15, 2027 / Dec 1, 2027 for 2027-28; later requests $500",
+   "source_url": "brief row 88; https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028",
+   "status": "ok",
+   "note": "Brief matches; 2027-28 page fetched and lists academic internship, with Fall 2027 June 15, 2027 and Spring 2028 Dec 1, 2027. The 2026-27 page's penalty-free list did not show internship in the fetch summary, but the 2027-28 page and brief do; left as is."
+  },
+  {
+   "claim": "Returning junior/senior cancellation fees: $50 through Jan 31; $500 Feb 1-Mar 31; $1,000 Apr 1-Jun 30; $2,000 Jul 1-Aug 15; after Aug 15 or no check-in 50% of fall rate",
+   "source_url": "brief row 87; https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027",
+   "status": "ok",
+   "note": "Fetched 2026-27 page matches table exactly."
+  },
+  {
+   "claim": "First-years, new transfers, second-years cannot cancel unless no longer attending or exempt; second-years accepted to Greek/affiliated house or one of eight co-ops can",
+   "source_url": "brief row 89",
+   "status": "ok",
+   "note": "Brief matches; 2026-27 page agrees."
+  },
+  {
+   "claim": "Cornell housing is a revocable license, not a lease",
+   "source_url": "brief row 86",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Residence hall double $6,872 per semester in 2026-27; 50% charge = $3,436",
+   "source_url": "brief row 81",
+   "status": "ok",
+   "note": "Recomputed 6,872 x 0.5 = 3,436."
+  },
+  {
+   "claim": "Ithaca Renting 2027-28 Collegetown 4BR median $1,246.25 per bed per month; 'Spring/Fall Semester 2027' rows",
+   "source_url": "brief row 509, 691, §10.9",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Five-month absent share $6,231; three-way split $2,077 per housemate (glance, reader block, figure, Common mistakes)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed 1,246.25 x 5 = 6,231.25 -> $6,231; 6,231.25 / 3 = 2,077.08 -> $2,077. Consistent across all appearances."
+  },
+  {
+   "claim": "Sublets were free to list in 2019; Off-Campus Living does not represent students in disputes (staff, 2019)",
+   "source_url": "brief rows 103, 114",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Modern Living Rentals advertised sublets 'from $900 per person' with no period stated",
+   "source_url": "brief row 513",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Graduate School staff: landlord dispute does not affect visa status or standing; contact Off-Campus Living (607-255-2310) before breaking a lease",
+   "source_url": "brief rows 115, 108",
+   "status": "ok",
+   "note": "Brief matches; phone resolved in brief conflict table as 2310."
+  },
+  {
+   "claim": "Tenant hotline gives advice with no income or geographic limits",
+   "source_url": "brief row 452",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Month-to-month tenancy generally ends on one month's notice; no notice needed at end of fixed term",
+   "source_url": "brief row 153",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Cornell notes units with no lease offer flexibility but limited legal protection",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations",
+   "status": "ok",
+   "note": "Fetched; quote confirmed."
+  },
+  {
+   "claim": "Cornell's page notes 'most leases require landlord approval' to sublet; tenant best practices: notify contacts, forward mail, manage utilities, clean and secure",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-living/living-campus",
+   "status": "ok",
+   "note": "Fetched; both confirmed."
+  },
+  {
+   "claim": "Cornell move-out timeline: two weeks out confirm date and change address; one week out utility shutoffs and forwarding address",
+   "source_url": "brief row 420",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "GradGuard is Cornell's preferred insurer; worldwide property coverage and personal liability; no premium published",
+   "source_url": "brief rows 409-410",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Big Red Shipping and Storage free pickup, no prices; Storage Scholars $172/month '2025 Avg.', book by early April; SpareFoot 10x10 about $93 (July 2026)",
+   "source_url": "brief rows 957-958, 1087",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Every current Dryden South lease ends May 31, 2027",
+   "source_url": "brief row 505",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "2018 Sun: desirable Collegetown leases leave market up to 16 months before move-in; 2016 Sun: housing search hampers study abroad planning",
+   "source_url": "brief rows 650, 1005",
+   "status": "ok",
+   "note": "Brief matches headline and summary; attributions are to the articles."
+  },
+  {
+   "claim": "Tenants Advocacy hotline 607-301-1560",
+   "source_url": "brief row 461",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Unverified detail: Cornell Marketplace viewable only by Cornell-affiliated people",
+   "source_url": "brief §4/marketplace rows",
+   "status": "unverifiable",
+   "note": "Not located by grep in the brief's visible lines and not re-fetched; low stakes and the sentence is hedged by the linked source. Does not affect the verdict."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "ff99cdf7ca147ed2c90022fc4f9f41f28ff586211c46597e03e2d6b0b7193d04"
+}

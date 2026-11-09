@@ -1,0 +1,115 @@
+{
+ "slug": "collegetown-lease-signing-lead-times-2017-2025",
+ "queue_id": "q-housing-0069",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Cases 1-3 (410 Elmwood 12BR signed Apr 2017, 16 months; North Quarry 10BR May 2017, 15; 14-person house, hunt began February, at most 6)",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "Matches brief rows; month counts recomputed (Apr 2017 to Aug 2018 = 16; May 2017 = 15; Feb to Aug = 6)."
+  },
+  {
+   "claim": "Case 4: Ithaca Renting opened 2020-21 leasing 2019-09-12 at 9 a.m., overnight line; 11 months",
+   "source_url": "https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/",
+   "status": "ok",
+   "note": "Brief gives only Sept 2019; the Sun says leasing opened Sept. 12 at 9 a.m. after students camped out. Sept 2019 to Aug 2020 = 11."
+  },
+  {
+   "claim": "Cases 5-8 (Oct 2021 = 10; early Sept 2022 = 11; Sept 19 2021 = 11; columnist Oct 2021 = 10)",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "Matches brief; recomputed Sept to Aug = 11, Oct to Aug = 10. Case 7 day 2021-09-19 is in the brief ('Sept 19')."
+  },
+  {
+   "claim": "Case 9: The Ivy, nearly all 52 units leased by Dec 2025, leases start 2026-08-17, at least 8 months",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "Matches brief; Dec 2025 to Aug 2026 = 8."
+  },
+  {
+   "claim": "Summary counts: 6 or fewer (1), 8+ (1), 10 (2), 11 (3), 15 (1), 16 (1); 5 of 9 at 10 or 11; 2 of 9 at 15-16",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "Recounted from the nine CSV rows: 1+1+2+3+1+1 = 9; 2+3 = 5. CSV rows match the page table and the brief table."
+  },
+  {
+   "claim": "Headline range 8 to 16 months, mostly 10 to 11; one fallback at about 6",
+   "source_url": "brief §10.6 / §10 summary table",
+   "status": "ok",
+   "note": "Same wording as brief. Meta says 6 to 16 (includes the fallback), consistent."
+  },
+  {
+   "claim": "Ithaca Renting marked 14 of 67 Collegetown rows for 2027-28 sold out on 2026-11-08 (20.9%), nine months before Aug 2027",
+   "source_url": "brief §10 (Ithaca Renting sold out)",
+   "status": "ok",
+   "note": "Brief row; 14/67 = 0.2090 recomputed."
+  },
+  {
+   "claim": "2013 60-day rule: effective 2013-06-15, 60 days' written notice before renewal, showing or new signing; clock from lease start; mutual waiver; fine up to $500",
+   "source_url": "https://cornellsun.com/2013/09/12/despite-new-law-housing-rush-persists-in-collegetown/",
+   "status": "ok",
+   "note": "Also in brief §2.5; confirmed on the Sun page."
+  },
+  {
+   "claim": "2013: Cornell assistant dean said signing moved from January to late October or November; August-September rush only in previous four to six years",
+   "source_url": "https://cornellsun.com/2013/09/12/despite-new-law-housing-rush-persists-in-collegetown/",
+   "status": "ok",
+   "note": "Confirmed (Assistant Dean Julie Paige)."
+  },
+  {
+   "claim": "2016: Avramis 70-75% leased by late September; Lower rents most units by end of November",
+   "source_url": "brief §10 (2016 lease-up)",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "2019: Off-Campus Living's manager said rush moved from November-December into first days of fall semester; called 'you must sign the day you arrive' a myth",
+   "source_url": "https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/",
+   "status": "ok",
+   "note": "fixed in place: Quoted phrase 'you must sign the day you arrive' is not in the article. Thompson (Off-Campus Living Manager) said the rush moved from about Nov/Dec to the first days of fall, called the housing-timing idea a myth, and said students can find housing later in the school year. Reworded to that."
+  },
+  {
+   "claim": "120-day rule passed 2022-04-06, effective 2022-05-31; 120 days before renewing or advertising, up from 60; waiver written, bolded, initialed on first page",
+   "source_url": "https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/",
+   "status": "ok",
+   "note": "Confirmed; passed date inferred from 'Wednesday' in a 2022-04-07 story, and the code amendment date 4-6-2022 is in brief §2.5. Effective May 31 is from WSKG (year inferred)."
+  },
+  {
+   "claim": "Cases 6 and 9 fall after the 120-day rule and in the same range; no visible shift after 2013",
+   "source_url": "brief §10.6 result",
+   "status": "ok",
+   "note": "Brief states the same. Case 9 is 2025, case 6 is 2022-09, both after 2022-05-31."
+  },
+  {
+   "claim": "Unresolved how 120 days squares with leasing nine months out; section 258-10 count start not read",
+   "source_url": "brief §10.5",
+   "status": "ok",
+   "note": "Matches the brief's unresolved note."
+  },
+  {
+   "claim": "209 Stewart Ave 2026-27 listing: first month and fees at signing",
+   "source_url": "https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095",
+   "status": "ok",
+   "note": "fixed in place: Listing says rental year Aug 1 2026 to Jul 31 2027 and due at signing: first month's rent and a security deposit equal to one month's rent. 'fees' changed to 'a security deposit'."
+  },
+  {
+   "claim": "Method: Aug move-in assumption; story dates 2018-11-07 to 2025-12-02; six stories; sample 9",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "Stories: 2018-11-07, 2019-09-19, 2021-10-13, 2022-08-04, 2022-09-12, 2025-12-02 = six; nine cases."
+  }
+ ],
+ "beats_top": {
+  "query": "how early do cornell students sign leases",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

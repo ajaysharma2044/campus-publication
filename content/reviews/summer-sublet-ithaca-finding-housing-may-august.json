@@ -1,0 +1,235 @@
+{
+ "slug": "summer-sublet-ithaca-finding-housing-may-august",
+ "queue_id": "q-housing-0049",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Cornell dorms closed 2 p.m. Sunday, May 17, 2026; items left for a pickup company while absent are donated",
+   "source_url": "brief §3 (storage and move-out)",
+   "status": "ok",
+   "note": "Brief has the same date, time and donation rule from the storage-shipping page."
+  },
+  {
+   "claim": "$60 a day outside the occupancy period; a week is $420; 15 days is $900",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027",
+   "status": "ok",
+   "note": "Brief row cites the 2027-28 license. The 2026-27 license (Section 4.7) also says $60 daily. Recomputed 7 x 60 = 420 and 15 x 60 = 900. May 17 to June 1 is 15 days."
+  },
+  {
+   "claim": "Cornell license offers no storage space",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027",
+   "status": "ok",
+   "note": "Section 9.3.4: storage space is not available. Also in brief."
+  },
+  {
+   "claim": "Penalty-free fall license cancellation deadline June 15, 2026 (study away, leave, internship, graduation)",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027",
+   "status": "ok",
+   "note": "Fetched. Section 6 gives Fall Semester June 15, 2026. Also in brief (June row)."
+  },
+  {
+   "claim": "Most Ithaca leases end July 31; next starts about August 1",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief cites the 2024 Sun hearing report."
+  },
+  {
+   "claim": "Dryden South: all current leases end May 31, 2027; $1,395 to $1,990 per person a month; furnished, heat and hot water included",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Same values in brief."
+  },
+  {
+   "claim": "Modern Living sublets 'from $900 per person', period not stated",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Same wording in brief. The page marks the period as not stated and the $900 monthly figure as illustration only."
+  },
+  {
+   "claim": "Ithaca Renting downtown median per bed: 2BR $992.50, 3BR $795",
+   "source_url": "brief §5 and §10.10",
+   "status": "ok",
+   "note": "Brief medians match. Not recomputed from rows; the brief's 2BR row list (862.5, 875, 992.5, 1000, 1000) gives median 992.5."
+  },
+  {
+   "claim": "Hasbrouck studio $1,355; range $620 to $1,530 a month 2026-27; rolling applications; 12-month contracts",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "All in brief."
+  },
+  {
+   "claim": "Storage Scholars $172 a month '2025 Avg.', not stated as Ithaca-specific; book by early April",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Same in brief."
+  },
+  {
+   "claim": "Big Red Shipping and Storage: free pickup, no published price, (607) 524-3130",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Same in brief."
+  },
+  {
+   "claim": "SpareFoot 10x10 about $93.39; SelfStorage.com about $152.75; 4-Season from $115",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Brief has about $93, $152.75 and $115. The $93.39 is a more precise value for the same source."
+  },
+  {
+   "claim": "A 10x10 unit for two months costs about $187 to $306",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "93.39 x 2 = 186.78, rounds to 187. 152.75 x 2 = 305.5, rounds to 306. Labelled 'our math'."
+  },
+  {
+   "claim": "A sublet at $900 a month costs $1,800 for June and July",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "900 x 2 = 1,800. The page flags this as illustration."
+  },
+  {
+   "claim": "June 1 to July 31 is 61 days",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "30 (June) + 31 (July) = 61."
+  },
+  {
+   "claim": "The Ivy leases started August 17, 2026, so the gap runs more than two weeks after a July 31 lease",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Brief has the Aug 17 start. July 31 to Aug 17 is 17 days."
+  },
+  {
+   "claim": "209 Stewart Ave lease August 1, 2026 to July 31, 2027",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Same in brief."
+  },
+  {
+   "claim": "NY RPL 226-B: 4+ units, landlord's advance written consent not unreasonably withheld; certified mail; 10 days to ask for more information, 30 days to answer; silence is consent; sublet without the steps is a substantial breach; original tenant stays liable; assignment may be refused without cause",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "All in brief (sublet rows)."
+  },
+  {
+   "claim": "Buildings of 3 or fewer units: the lease controls",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease",
+   "status": "ok",
+   "note": "Fetched. Page says the right to sublease is controlled by the lease. Also in brief."
+  },
+  {
+   "claim": "Sublet fee only if the lease allows it and the fee is reasonable; background check fees allowed",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease",
+   "status": "ok",
+   "note": "Fetched. Page says a sublet fee is allowed if the lease provides for it and must be reasonable. It allows a background or credit check fee on the sublessee."
+  },
+  {
+   "claim": "Cornell's tenant page: most leases require landlord approval; written sublease recommended",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-living/living-campus",
+   "status": "ok",
+   "note": "Fetched. 'Most leases require landlord approval' and 'Subtenants should receive a written sublease.'"
+  },
+  {
+   "claim": "Deposit returned or itemized within 14 days; move-out inspection one to two weeks before the end",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "Same in brief (GOL 7-108)."
+  },
+  {
+   "claim": "Move-out checklist: final inspection two weeks out, NYSEG and internet shutoff one week out",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out",
+   "status": "unverifiable",
+   "note": "I did not fetch this checklist, and the brief row I found covers only the state inspection window. Low risk; the page does not depend on it."
+  },
+  {
+   "claim": "City residential parking permit $45 a year, expires July 31, no partial-year, one plate, landlords cannot get one",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Same in brief."
+  },
+  {
+   "claim": "Cornell parking permits valid through August 15",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Same in brief."
+  },
+  {
+   "claim": "OmniRide $200 a year, expires August 31; first-year TCAT free through August 31",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Same in brief. The page says first-year access expires August 31, which matches the brief for fall entrants."
+  },
+  {
+   "claim": "After first year, TCAT is free after 6 p.m. weekdays and all weekend; daytime weekday ride $1.50",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Same in brief. The brief notes the $1.50 fare was not re-verified because tcatbus.com returned 403."
+  },
+  {
+   "claim": "Ithaca heat season September 15 to May 31; lack of air conditioning generally does not breach habitability",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "Same in brief."
+  },
+  {
+   "claim": "Short-term rentals need a separate City permit",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "Same in brief (Housing Inspections row)."
+  },
+  {
+   "claim": "Cornell aid does not cover rent in unregistered months, deposits, or first and last month's rent",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Same in brief."
+  },
+  {
+   "claim": "International Scholar House: month-to-month furnished 5BR; visiting scholars have no guaranteed housing",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Same in brief."
+  },
+  {
+   "claim": "Month-to-month tenant generally gives one month's notice",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "Same in brief (RPL 232-b)."
+  },
+  {
+   "claim": "Students who cannot travel home may ask housing@cornell.edu about on-campus housing during breaks; no SSN needed to rent",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Both are in the brief with the same sources."
+  },
+  {
+   "claim": "Listings checked against the City's Certificate of Compliance database; sublets free to list in 2019",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Both in brief. The page dates the free-listing claim to 2019."
+  },
+  {
+   "claim": "Duty to re-rent: remaining months owed unless re-rented (RPL 227-E)",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "Same in brief. The page says 'nine months of rent at risk' for a three-month stay on a 12-month lease, and 12 - 3 = 9."
+  },
+  {
+   "claim": "Grad guide: start looking March to April for August; a few places remain June to July",
+   "source_url": "brief §3 (June row)",
+   "status": "ok",
+   "note": "The June to July remark is in the brief. The March to April lead time was not re-fetched."
+  }
+ ],
+ "beats_top": {
+  "query": "ithaca summer sublet cornell students",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

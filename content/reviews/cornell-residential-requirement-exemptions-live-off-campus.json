@@ -1,0 +1,157 @@
+{
+ "slug": "cornell-residential-requirement-exemptions-live-off-campus",
+ "queue_id": "q-housing-0040",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Rule covers full-time, Ithaca-based first- and second-year students; year two is a hall, co-op or recognized Greek/affiliated house; meal plan required on campus",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1 rows 'Who the requirement covers', 'Year 1', 'Year 2 options'."
+  },
+  {
+   "claim": "Exemption table: age (21 by start of year; 16 or younger living with custodial parent), married, dependents, veteran (not ROTC), transfer (two years on campus or junior/senior), commuter (six months, within 25 miles)",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "Each row matches brief §2.1 exemption rows."
+  },
+  {
+   "claim": "Request in Housing application during open period; not accepted after signed license; documents may be required; one academic year, reapply",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1 'How to request' and 'Exemption length'."
+  },
+  {
+   "claim": "2026-27 Housing Application due April 6, 2026; Greek in-house affirmation March 15, 2026",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1 deadline and Greek affirmation rows."
+  },
+  {
+   "claim": "Sophomore chapter member must be a member when filing; auto-approval needs live-in advisor and four upper-level officers by Jan 1",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1 rows."
+  },
+  {
+   "claim": "First- and second-years should not sign a lease without an approved exemption; non-compliant students still billed for the full year",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1 'Lease warning' and 'Penalty'."
+  },
+  {
+   "claim": "Sophomore requirement began fall 2022; opponents quoted wanted independence and lower costs",
+   "source_url": "https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/",
+   "status": "ok",
+   "note": "Brief §2.1 has fall 2022. Opened the Sun story: 'Beginning fall 2022...'; students quoted on independence limits and rent cheaper than on campus."
+  },
+  {
+   "claim": "Residence hall double $6,872/semester, $13,744/year for 2026-27; gas, electricity, garbage, internet up to 200 GB/month included",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief §2.3."
+  },
+  {
+   "claim": "Co-op singles $3,949 to $6,014 and doubles $3,487 to $4,981 per semester",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief §2.3 co-op rates row (single low Red Bud $3,949, high Wari $6,014; double low $3,487, high $4,981)."
+  },
+  {
+   "claim": "Eight co-ops named; 10 to 35 members; selection early November and early February; co-ops@cornell.edu, 607-255-3445; four have meal plans",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief §2.2 rows."
+  },
+  {
+   "claim": "Cancellation: first-years, new transfers, second-years cannot cancel except leaving, exempt, or (second-years) accepted to Greek/affiliated house/co-op before Spring Housing Selection deadline",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief §2.3 'Students who cannot cancel'."
+  },
+  {
+   "claim": "Returning junior/senior cancellation: $50 through Jan 31; $500 Feb 1-Mar 31; $1,000 Apr 1-Jun 30; $2,000 Jul 1-Aug 15; then 50% of fall room rate",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief §2.3 fee row."
+  },
+  {
+   "claim": "Spring release only for graduating, abroad or leaving; moving off campus or into a fraternity small residence is not extenuating",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1 'Spring housing contract release'."
+  },
+  {
+   "claim": "New transfers live on campus one academic year; spring transfers spring plus following academic year",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1 transfer row. 'About 18 months out' is approximate (January arrival to the August after next); left as is."
+  },
+  {
+   "claim": "Room selection for 2026-27 ran Oct 2-8, 2025",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief row 'Fall 2025 room selection change'."
+  },
+  {
+   "claim": "Ithaca Renting Collegetown 2027-28 4BR per-bed median $1,246.25; 14 of 67 rows sold out on Nov 8, 2026",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief §10.9 and market table."
+  },
+  {
+   "claim": "Housing Operations: 1520 Clara Dickson Hall, 607-255-5368, housing@cornell.edu, weekdays 9:00 to 4:00",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief Housing Operations row."
+  },
+  {
+   "claim": "Our math: $1,246.25 x 12 = $14,955; + $13,744 = $28,699",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Recomputed: 1,246.25 x 12 = 14,955.00; 14,955 + 13,744 = 28,699. Matches the brief's median x 12 of 14,955."
+  },
+  {
+   "claim": "Timeline example: first-year turning 21 in June 2027 qualifies by age for 2027-28 and is a junior in 2028-29",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "Consistent with the age rule (21 by start of the exemption year, August 2027); junior in 2028-29 follows from one year per class year."
+  },
+  {
+   "claim": "Photo caption: Mary Donlon Hall on North Campus, built in 1961; photo by Kenneth C. Zirkel, CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mary_Donlon_Hall,_Cornell_University.jpg",
+   "status": "ok",
+   "note": "Commons page: 'Built 1961', photographer Kenneth C. Zirkel, CC BY-SA 4.0."
+  },
+  {
+   "claim": "2021 Sun story: one sophomore chose Flora Rose House because the off-campus search was too difficult; students searching from the day they arrived in August",
+   "source_url": "https://cornellsun.com/2021/10/13/just-months-after-move-in-next-years-hectic-housing-search-begins/",
+   "status": "ok",
+   "note": "fixed in place: Source says the sophomore decided to stay on campus, planned to join Rose Scholars in Flora Rose House, and said 'Ithaca renting is really difficult'. It does not say students searched from the day they arrived in August; it says only seven weeks into the fall semester many had signed leases. Reworded both sentences to match."
+  },
+  {
+   "claim": "Off-Campus Living's manager called the idea that you must sign the day you arrive a myth",
+   "source_url": "https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/",
+   "status": "ok",
+   "note": "fixed in place: Source: Denise Thompson, Off-Campus Living Manager, says students and landlords perpetuate a myth about finding housing early; students can find housing later in the year. It does not mention signing on arrival day. Changed 'must sign the day you arrive' to 'must find housing early'."
+  },
+  {
+   "claim": "Juniors and seniors are not subject to the rule and may rent freely",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "Follows from the rule covering first- and second-year students only (brief §2.1)."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell two year residency requirement sophomores housing guarantee",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

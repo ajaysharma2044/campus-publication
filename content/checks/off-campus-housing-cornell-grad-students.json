@@ -1,0 +1,204 @@
+{
+ "slug": "off-campus-housing-cornell-grad-students",
+ "queue_id": "q-housing-0053",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "About 95% of grad and professional students live off campus; about 400 on campus",
+   "source_url": "brief §2 (grads off campus)",
+   "status": "ok",
+   "note": "brief §2, same value"
+  },
+  {
+   "claim": "51% of on-campus grad households are family or partner, 49% single",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2"
+  },
+  {
+   "claim": "Hasbrouck 2026-27 rates: $620, $910, $1,355, $1,415, $1,490, $1,500, $1,475/$1,530 per month, 12-month contract",
+   "source_url": "brief §2.3 Hasbrouck row",
+   "status": "ok",
+   "note": "every figure matches the brief row"
+  },
+  {
+   "claim": "Cornell grad housing budget $19,962 a year (2026-27)",
+   "source_url": "brief §2 / §10",
+   "status": "ok",
+   "note": "brief; $1,663.50 a month recomputed: 19,962 / 12 = 1,663.50"
+  },
+  {
+   "claim": "Graduate School says the allowance covers 'comfortable, but modest, housing'",
+   "source_url": "https://gradschool.cornell.edu/financial-support/tuition-rates/cost-of-attendance/",
+   "status": "ok",
+   "note": "Fetched; page says 'The housing and dining allowances should permit a student comfortable, but modest, housing and a balanced diet.' Quote is accurate."
+  },
+  {
+   "claim": "RentCafe Ithaca 1BR average $2,063, 2BR $2,459 (October 2026), built from large buildings",
+   "source_url": "brief §5/§10",
+   "status": "ok",
+   "note": "brief, RentCafe 2026-10-30"
+  },
+  {
+   "claim": "Hasbrouck 1BR $7,776 a year below the RentCafe average",
+   "source_url": "brief §10.12",
+   "status": "ok",
+   "note": "Recomputed: 2,063 x 12 = 24,756; 1,415 x 12 = 16,980; difference 7,776"
+  },
+  {
+   "claim": "Yearly table: $7,440 / $16,980 / $19,500 / $19,200 / $24,756 / $24,300 and gaps $12,522 under, $2,982 under, $462 under, $762 under, $4,794 over, $4,338 over vs $19,962",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "Recomputed each: 620x12=7,440; 19,962-7,440=12,522; 19,962-16,980=2,982; 1,625x12=19,500 (462 under); 1,600x12=19,200 (762 under); 24,756-19,962=4,794; 2,025x12=24,300 (4,338 over)"
+  },
+  {
+   "claim": "Ithaca Renting downtown per-bed medians: studio $1,395, 1BR $1,625, 2BR $992.50; $11,910 a year each",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "brief; 992.50 x 12 = 11,910"
+  },
+  {
+   "claim": "Collegetown 1BR median $2,025 for 2027-28; 14 of 67 rows sold out on Nov 8, 2026",
+   "source_url": "brief §5/§10.9",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Fall Creek: 0.5 to 1 mile, 20 to 30 min uphill; about 15 min by bus from Hollister Hall (grad guide)",
+   "source_url": "brief §5 Fall Creek / line 'Fall Creek bus (grad guide)'",
+   "status": "ok",
+   "note": "brief carries 'about 15 minutes' in the fact row and '10 to 15 minute' in the neighborhood prose; page uses the first, which is within the guide's range"
+  },
+  {
+   "claim": "709 N Tioga St two 1BRs at $1,600 and $1,700 in 2026; internet and water included, electricity and garbage tags on tenant",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief 709 N Tioga row"
+  },
+  {
+   "claim": "Lansing West 1BR 'now' units $1,038 and $1,193; other 1BRs from $1,599; $20 application fee",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief Lansing West row"
+  },
+  {
+   "claim": "NY bans application fees and caps background check at $20 (RPL 238-a)",
+   "source_url": "brief §3 (238-A)",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Deposit plus advance rent capped at one month (GOL 7-108)",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Single tenant may have immediate family plus one occupant and dependents; name within 30 days (RPL 235-f)",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "RPL 227-e: landlord must try to re-rent after tenant leaves",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Cornell International Services: no SSN needed to rent an apartment",
+   "source_url": "https://international.globallearning.cornell.edu/life-cornell/faq-international-students",
+   "status": "ok",
+   "note": "Fetched; page: 'You don't need an SSN to open a bank account, rent an apartment, or get a credit card.'"
+  },
+  {
+   "claim": "Maplewood price range $1,075 to $1,330, basis not stated, Feb 2026 (Vet College page)",
+   "source_url": "brief §2 Maplewood price range",
+   "status": "ok",
+   "note": "brief; page correctly says it does not state per bed or per unit"
+  },
+  {
+   "claim": "International Scholar House: month-to-month furnished 5BR since September 2023",
+   "source_url": "brief §2 Visiting scholars",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "OmniRide $200 a year prorated; $1.50 a ride; free after 6 p.m. weekdays and weekends; no buses 1:30 to 4:00 a.m.",
+   "source_url": "brief §10.4 / sustainable.cornell.edu bus-commuting",
+   "status": "ok",
+   "note": "brief; the 1:30 to 4:00 a.m. gap also confirmed on the Cornell Sustainability page"
+  },
+  {
+   "claim": "Route 15 goes to Wegmans; Route 30 goes to Ithaca Mall",
+   "source_url": "https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting",
+   "status": "ok",
+   "note": "Fetched; page lists '30 - Ithaca mall' and '32 - Becomes 15/17 (15 goes to Wegmans)'"
+  },
+  {
+   "claim": "Break-even 134 rides; about 13 to 14 weeks at two daytime rides a weekday",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "Recomputed: 200 / 1.5 = 133.3 -> 134 rides; 134 / 2 = 67 days; 67 / 5 = 13.4 weeks"
+  },
+  {
+   "claim": "Example: 30 weeks of weekday up-and-back = 300 rides = $450; pass saves $250",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "30 x 5 x 2 = 300; 300 x 1.50 = 450; 450 - 200 = 250"
+  },
+  {
+   "claim": "Hasbrouck 1BR $185 a month cheaper than a $1,600 Fall Creek unit",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "1,600 - 1,415 = 185"
+  },
+  {
+   "claim": "At signing, a $2,459 2BR can cost $4,918 (first month plus one-month deposit)",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "2,459 x 2 = 4,918"
+  },
+  {
+   "claim": "B commuter permit $359.77 a year, valid Aug 16 to Aug 15, prorated refund by March 31; permit sales opened August 4 (2026)",
+   "source_url": "brief §2.17 / §6",
+   "status": "ok",
+   "note": "brief parking rows ($359.77, August 4)"
+  },
+  {
+   "claim": "City odd/even overnight parking Nov 1 to Apr 1; 72-hour tow rule",
+   "source_url": "brief §2 City parking",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Cliffside Terrace: 5 reviews (4 displayed), Cornell Law, Jan 2017 to Oct 2022, 7.4/10; Ivy Ridge: 7 reviews, Johnson MBA, Nov 2019 to Oct 2025, 6.4/10",
+   "source_url": "brief §5 building rows",
+   "status": "ok",
+   "note": "brief; summaries match"
+  },
+  {
+   "claim": "Cornell Neighborhoods: Collegetown 0.1 to 0.5 miles; Lansing 4 to 10 miles (page also says 5 to 10 in reader block); East Hill 0.75 to 2 miles; Collegetown signs 8 to 16 months ahead",
+   "source_url": "brief §5 neighborhood rows",
+   "status": "ok",
+   "note": "brief; the small 4-to-10 versus 5-to-10 mileage variation sits inside Cornell's neighborhood page ranges recorded in the brief, left unchanged"
+  },
+  {
+   "claim": "Grad guide: start March to April for August; a few places in June and July",
+   "source_url": "brief §4.6",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "GradCafe posters 2014 called Collegetown loud and undergraduate; College Confidential poster on Collegetown Center vs Terrace",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "brief attributions match; posters kept plural/singular as in source rows"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "fd5403a073731465233c43d3efd3181dbdf052aa93b25e4a4c336e3c2ebae7c3"
+}

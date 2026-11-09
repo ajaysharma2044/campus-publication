@@ -1,0 +1,85 @@
+{
+ "slug": "affiliated-housing",
+ "queue_id": "q-housing-0076",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Cornell has eight co-ops",
+   "source_url": "brief §2.2 / §Co-ops",
+   "status": "ok",
+   "note": "brief names eight co-ops (rows for co-op size, floor collapses, cancellation exceptions)."
+  },
+  {
+   "claim": "A co-op or recognized Greek house counts as second-year housing (the sophomore choices are residence hall, one of eight co-ops, or recognized Greek house)",
+   "source_url": "brief §1 and residential-policy rows",
+   "status": "ok",
+   "note": "brief residential-requirement rows; matches the linked exemptions guide's wording."
+  },
+  {
+   "claim": "Co-op selection rounds in early November and early February; each house runs its own process",
+   "source_url": "brief §co-op size and selection row",
+   "status": "ok",
+   "note": "brief: selection starts early February and early November, each house runs its own process."
+  },
+  {
+   "claim": "January 1: chapters need a live-in advisor and four upper-level officers for auto-approval",
+   "source_url": "brief §residential policy (chapter auto-approval row)",
+   "status": "ok",
+   "note": "same values and Jan 1 date."
+  },
+  {
+   "claim": "Cancellation fee for returning juniors and seniors is $50 through Jan 31 and $500 from Feb 1",
+   "source_url": "brief §license cancellation fees row",
+   "status": "ok",
+   "note": "brief: $50 through Jan 31; $500 Feb 1 to Mar 31 (then rises). Page says '$500 from Feb 1', which is true at the start of that window; the higher later tiers are not stated, so not misleading as a date-to-watch."
+  },
+  {
+   "claim": "March 15 (2026 date): Greek in-house affirmation in the Housing Application; confirmed members skip April Spring Housing Selection for Rising Sophomores",
+   "source_url": "brief §residential policy (Greek in-house affirmation row)",
+   "status": "ok",
+   "note": "same date, same wording, labelled as the 2026 date."
+  },
+  {
+   "claim": "April 6 (2026 date): housing application due for every first- and second-year, including those expecting a chapter house",
+   "source_url": "brief §residential policy (2026-27 deadline row)",
+   "status": "ok",
+   "note": "same date and population."
+  },
+  {
+   "claim": "Greek rent covers the building, not your belongings",
+   "source_url": "https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities",
+   "status": "ok",
+   "note": "matches the renters-insurance guide's own cited Cornell page (building insurance, not personal belongings); not re-fetched, taken from the already-checked sibling guide."
+  },
+  {
+   "claim": "Guide titles and what each covers (pillar, co-ops/Greek cost, residential requirement, renters insurance, sophomore junior-year lease, lease-reading and roommates guides)",
+   "source_url": "content/articles/housing/*.md titles and metas",
+   "status": "ok",
+   "note": "all seven linked titles match the guides' frontmatter titles; descriptions agree with their metas (e.g. co-op guide covers cost and selection; sophomore guide covers groups, timing, Collegetown rush; insurance guide covers cost)."
+  },
+  {
+   "claim": "Tools: eligibility quiz, cancellation fee calculator 2026-28, lease timeline",
+   "source_url": "queue/queue.csv rows q-housing-0059, 0061, 0065",
+   "status": "ok",
+   "note": "all three are published tool rows with the same titles and slugs. The tool files were not found under content/tools by glob, so only titles and queue slugs were verified, not tool internals. The calculator blurb ('leaving a license for a co-op or Greek room') is consistent with the brief: second-years accepted to an affiliated house or co-op may cancel; the fee schedule itself applies to juniors and seniors."
+  },
+  {
+   "claim": "Page lists no computed figures",
+   "source_url": "n/a",
+   "status": "ok",
+   "note": "no totals, averages or walking times on the page; nothing to recompute."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell co-op greek housing",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

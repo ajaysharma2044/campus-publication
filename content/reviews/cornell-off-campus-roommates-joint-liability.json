@@ -1,0 +1,181 @@
+{
+ "slug": "cornell-off-campus-roommates-joint-liability",
+ "queue_id": "q-housing-0037",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Ithaca Renting Collegetown 2027-28 medians per bed: 1BR $2,025 (8 rows), 2BR $1,377.50 (5), 4BR $1,246.25 (4), 6BR $800 (5), shared-suite room $895 (4); 38 priced rows read 2026-11-08",
+   "source_url": "brief §10.9 / Collegetown rent table",
+   "status": "ok",
+   "note": "Values and row counts match the brief's median table and method (lines 509, 1326-1333)."
+  },
+  {
+   "claim": "Per person over 12 months: $24,300; $16,530; $14,955; $9,600; $10,740",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Recomputed monthly x 12; all match the brief."
+  },
+  {
+   "claim": "14 of 67 Collegetown rows sold out for 2027-28, including 8BR and 14BR houses",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Brief: 14 of 67 SOLD OUT on 2026-11-08; 105 Dryden Court 8BR and 214 Dryden Rd 14BR listed. Brief notes only 39 of the 67 rows are tagged 2027-28; page says 'for 2027-28', a small looseness left as is."
+  },
+  {
+   "claim": "6BR to 4BR: $446.25 more a month, $5,355 a year",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "1,246.25 - 800 = 446.25; x 12 = 5,355."
+  },
+  {
+   "claim": "4BR unit about $4,985; three remaining owe about $1,661.67 each, $415.42 more a month",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "1,246.25 x 4 = 4,985; /3 = 1,661.67; minus 1,246.25 = 415.42."
+  },
+  {
+   "claim": "Five-month 4BR share costs housemates about $6,231",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "1,246.25 x 5 = 6,231.25."
+  },
+  {
+   "claim": "Cornell: most local leases bind housemates jointly and severally; breaking a lease has consequences, usually monetary",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire",
+   "status": "ok",
+   "note": "brief §4; page re-fetched, wording matches ('jointly and severally bound'; 'cannot be broken without consequences (usually monetary)')."
+  },
+  {
+   "claim": "Housemate questionnaire topics, including expense manager, legal occupant limit, and leave/transfer/study abroad with no answer",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire",
+   "status": "ok",
+   "note": "brief line 120 and re-fetched page agree."
+  },
+  {
+   "claim": "Any tenant can be held for full rent; overpaying tenant may sue co-tenant for contribution; oral lease over a year barred by Statute of Frauds; written-changes clause bars oral changes; guide silent on guarantors",
+   "source_url": "brief §4 (lines 229-232)",
+   "status": "ok",
+   "note": "Match the brief."
+  },
+  {
+   "claim": "Small claims up to $5,000 in Ithaca City Court, 118 East Clinton Street",
+   "source_url": "brief §3 (lines 199-200)",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Community Dispute Resolution Center 607-273-9347; Tenants Advocacy hotline 607-301-1560; Off-Campus Living 607-255-2310",
+   "source_url": "brief §3 (lines 461-463, 815-824)",
+   "status": "ok",
+   "note": "Numbers match the brief."
+  },
+  {
+   "claim": "RPL 235-f: occupants cannot exceed number of tenants on multi-tenant lease; name occupant within 30 days; no right to stay; landlord may restrict occupancy to comply with law; one-tenant lease rule",
+   "source_url": "brief §235-f rows (line 227)",
+   "status": "ok",
+   "note": "Match the brief."
+  },
+  {
+   "claim": "RPL 226-b: sublet right in 4+ unit buildings, certified mail, 10 days to ask for more, 30 days to answer, silence is consent; 3 or fewer units lease controls; guarantor consent; assignment refusable without cause; original tenant stays liable on sublet",
+   "source_url": "brief lines 207-212",
+   "status": "ok",
+   "note": "Match the brief."
+  },
+  {
+   "claim": "After an assignment the original tenant is generally no longer liable (Cornell Law)",
+   "source_url": "brief line 212",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "RPL 227-e: good-faith re-rent at lower of market or lease rent; new lease ends old debt",
+   "source_url": "brief line 215",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "GOL 7-108: deposit plus advance rent cannot exceed one month's rent",
+   "source_url": "brief line 180",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "City of Ithaca cooperative household = four or more unrelated persons; certificate of compliance trigger five or more in code, six or more on City page",
+   "source_url": "brief lines 292-293, 189",
+   "status": "ok",
+   "note": "Match; page flags the code/web-page discrepancy and the search-snippet source."
+  },
+  {
+   "claim": "Town of Ithaca: more than two unrelated need ZBA functional-equivalent finding; one family plus one boarder; upheld 2017 involving Ithaca College students",
+   "source_url": "brief line 294",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Off-Campus Living email list: NetID, Join / Leave instructions, forward acceptance letter to offcampusliving@cornell.edu; marketplace is College Pads; only affiliated users view contacts; listings checked against Certificate of Compliance database (Grad School 2024)",
+   "source_url": "brief lines 104-107",
+   "status": "ok",
+   "note": "Match the brief."
+  },
+  {
+   "claim": "Ithaca College portal carries Foundation Housing roommate-matching leases for spring 2027 and full year",
+   "source_url": "brief lines 691, 805",
+   "status": "ok",
+   "note": "Brief records the Foundation Housing roommate-matching listing."
+  },
+  {
+   "claim": "Sophomore transfer cannot rent; transfers entering as juniors/seniors can; sophomores billed full year without exemption",
+   "source_url": "brief lines 54, 696",
+   "status": "ok",
+   "note": "Match."
+  },
+  {
+   "claim": "Dery 2020: large groups likely to lose people",
+   "source_url": "brief line 856",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "2018 Sun transfer advice: spend about a week getting to know roommates",
+   "source_url": "brief line 856",
+   "status": "ok",
+   "note": "Matches the brief's wording."
+  },
+  {
+   "claim": "2018 Sun senior: one email to a landlord through her sorority network was enough",
+   "source_url": "brief line 1004",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Nguyen 2022 Sun: per bed or per unit is a tip 'two Sun pieces pass on'",
+   "source_url": "https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/",
+   "status": "ok",
+   "note": "fixed in place: Fetched the column: it only says the listed prices were per person, not per unit; it does not advise asking. Reworded to 'a 2022 Sun column by Nguyen describes rents listed per person, not per unit'. The 'two Sun pieces' claim removed."
+  },
+  {
+   "claim": "No SSN needed to rent (Cornell Global Learning); Financial Aid will not intervene in mid-year lease break; aid does not cover deposits, first/last month, unregistered months",
+   "source_url": "brief lines 25, 201, 449",
+   "status": "ok",
+   "note": "Match the brief."
+  },
+  {
+   "claim": "2016 Sun: housing search hampers study abroad",
+   "source_url": "https://cornellsun.com/2016/10/20/students-housing-search-hampers-study-abroad",
+   "status": "ok",
+   "note": "Title/subject matches brief citation."
+  }
+ ],
+ "beats_top": {
+  "query": "how to find roommates cornell off campus roommate search",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

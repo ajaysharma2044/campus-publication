@@ -1,0 +1,204 @@
+{
+ "slug": "ithaca-security-deposit-rules-tenants",
+ "queue_id": "q-housing-0032",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Deposit plus any rent advance capped at one month's rent; no last month's rent on top; pet deposit counts; excludes seasonal-use and owner-occupied co-op units",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Deposit cap, same value."
+  },
+  {
+   "claim": "Deposit and itemized statement due within 14 days after vacating; landlord forfeits the right to keep any part if late",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Return deadline."
+  },
+  {
+   "claim": "No application, processing or review fee; non-refundable deposit unlawful; separate cleaning fee or deposit prohibited",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Application fees, Non-refundable deposits, Cleaning fees."
+  },
+  {
+   "claim": "Background or credit check: lesser of cost or $20; copy of check and invoice first; waived with a check under 30 days old",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7."
+  },
+  {
+   "claim": "Late fee only after rent is more than 5 days late; lesser of $50 or 5% of rent",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Late fees."
+  },
+  {
+   "claim": "Replacement key at most 110% of cost; cap lifts after more than three copies of one key in a calendar year",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Replacement keys; the page's two phrasings (\"after three copies\" in the table, \"more than three\" in the FAQ) are consistent enough, and the FAQ matches the brief exactly."
+  },
+  {
+   "claim": "Willful violation: punitive damages up to twice the deposit; landlord must prove withheld amounts reasonable; waivers void",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Penalties."
+  },
+  {
+   "claim": "Renewal top-up: landlord may collect more to bring deposit up to new monthly rent",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Deposit top-up on renewal (AG page)."
+  },
+  {
+   "claim": "Trust fund; six or more units: NY interest-bearing account, bank named in writing, 1% annual administrative fee, interest choice (GOL 7-103)",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Trust funds and Interest."
+  },
+  {
+   "claim": "New owner who knew of the deposit is liable",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 New owner."
+  },
+  {
+   "claim": "Move-in inspection offered after signing and before occupancy; signed record bars deductions for listed defects",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7."
+  },
+  {
+   "claim": "Move-out inspection: landlord tells tenant in writing of right to request; happens 2 weeks to 1 week before end, 48 hours' written notice; not required if under two weeks' notice",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7."
+  },
+  {
+   "claim": "Deductible and non-deductible items table, incl. attorney's fees and late fees barred since June 14, 2019",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Allowed deductions (Cornell Law guide, Feb 2026)."
+  },
+  {
+   "claim": "Cornell Law guide updated February 2026",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 and the tenants'-rights-guide row give Feb 2026."
+  },
+  {
+   "claim": "Cornell aid does not cover security deposits, first or last month's rent, or rent in unregistered months",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Financial aid and deposits."
+  },
+  {
+   "claim": "Cornell housing license carries no security or key deposits; license is not a lease",
+   "source_url": "brief §1",
+   "status": "ok",
+   "note": "brief line 86."
+  },
+  {
+   "claim": "209 Stewart Ave: $850 per room, one-month deposit, first month due at signing",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief line 503 (5BR, $850 per room, deposit one month, first month and fees due at signing)."
+  },
+  {
+   "claim": "Ithaca Renting Collegetown 2027-28 medians: 6BR $800 a bed, 4BR $1,246.25 a bed",
+   "source_url": "brief §3 / §10.9",
+   "status": "ok",
+   "note": "brief lines 509 and 653."
+  },
+  {
+   "claim": "No SSN needed to rent (Cornell International Services)",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief line 449."
+  },
+  {
+   "claim": "Landlord disputes do not affect visa status, per Cornell Graduate School staff",
+   "source_url": "brief §1",
+   "status": "ok",
+   "note": "brief line 115; the page attributes it to staff as the brief does."
+  },
+  {
+   "claim": "Get a written receipt for every payment (Cornell checklist)",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations",
+   "status": "ok",
+   "note": "Opened the page: \"Always get a written receipt from your landlord when you pay rent or deposits.\" Also in the brief."
+  },
+  {
+   "claim": "Small claims: Ithaca City Court up to $5,000; town and village courts $3,000; Ithaca City Court at 118 East Clinton Street",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Small claims limits and Ithaca City Court."
+  },
+  {
+   "claim": "Phones: Cornell Law hotline 607-301-1560; CDRC 607-273-9347; AG 1-800-771-7755; LawNY (607) 273-3667; CCE Tompkins 607-272-2292",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief lines 216/452, 463, 467, 462, 465."
+  },
+  {
+   "claim": "Cornell move-out page: full deposit returned if clean and satisfactory, but \"charges for cleaning services will be deducted\"",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Cornell's move-out page row; same quote and the same conflict reading as brief section 8."
+  },
+  {
+   "claim": "Ithaca Chapter 258 / 30 days: blog reads city code as adding written receipt and a willfulness presumption after 30 days; 3x claim marked Not confirmed",
+   "source_url": "brief §2.7 / §8",
+   "status": "ok",
+   "note": "brief line 198 and line 1067. The page already carries a \"Not confirmed:\" line, as the brief does. The blog date (September 2026) matches the brief (2026-09-20)."
+  },
+  {
+   "claim": "The Sun reported in 2004 that one large Collegetown company had a reputation for fighting over deposits; ITU founders cited deposits above the one-month cap in 2020",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "brief line 993."
+  },
+  {
+   "claim": "$850 rent: 5% late fee = $42.50; 5% is the lower cap for any rent under $1,000, $50 above",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "850 x 0.05 = 42.50. At $1,000, 5% = $50, so under $1,000 the 5% is lower."
+  },
+  {
+   "claim": "6BR at $800: first month plus deposit = $1,600 per person; 5% late fee on $800 = $40",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "800 x 2 = 1,600; 800 x 0.05 = 40."
+  },
+  {
+   "claim": "4BR at $1,246.25 a bed: unit rent $4,985; deposit cap $4,985 total or $1,246.25 each; $2,492.50 at signing; 5% late fee $62.31 so $50 cap applies; punitive up to $2,492.50",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1,246.25 x 4 = 4,985; x 2 = 2,492.50; 5% of 1,246.25 = 62.3125, rounds to 62.31, above $50; 2 x 1,246.25 = 2,492.50."
+  },
+  {
+   "claim": "Senior example: deposit $1,246.25 plus up to $2,492.50 punitive stays under the $5,000 limit; 14 days from July 31 ran out August 14",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1,246.25 + 2,492.50 = 3,738.75, under 5,000. July 31 + 14 days = August 14."
+  },
+  {
+   "claim": "Lease ending July 31, 2027: move-out inspection window July 17 to July 24, 2027; deposit due August 14, 2027; move-in offer before August 1, 2026",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "July 31 minus 14 days = July 17; minus 7 days = July 24; plus 14 days = August 14. The lease starts August 1, 2026 (brief line 503)."
+  },
+  {
+   "claim": "Replacement key example: $11 for a $10 key",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "10 x 1.10 = 11."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "72c2b5018dc79e1ffa33f567cfb84245b93af045b0b757bb8831663db4af678d"
+}

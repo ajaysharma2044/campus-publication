@@ -1,0 +1,198 @@
+{
+ "slug": "cornell-off-campus-housing-for-parents",
+ "queue_id": "q-housing-0057",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Cornell residence hall double 2026-27 is $13,744 per academic year, including gas, electricity, garbage and internet",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief §4 rate row ($6,872 per semester, $13,744 per year)."
+  },
+  {
+   "claim": "Housing application, including exemption request, was due April 6, 2026",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief §3 deadline row."
+  },
+  {
+   "claim": "Co-op doubles $6,974 to $9,962 for the year (two semesters at $3,487 to $4,981)",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief co-op semester rates; lowest double Red Bud $3,487, highest $4,981; recomputed 3,487x2=6,974 and 4,981x2=9,962."
+  },
+  {
+   "claim": "Per-bed medians: downtown 3BR $795, Collegetown 6BR $800, suite $895, downtown 2BR $992.50, 4BR $1,246.25, 2BR $1,377.50, 1BR $2,025",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief Ithaca Renting median table."
+  },
+  {
+   "claim": "14 of 67 Ithaca Renting Collegetown rows for 2027-28 sold out on Nov 8, 2026",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief §4."
+  },
+  {
+   "claim": "Yearly figures: $9,540; $9,600; $10,740; $11,910; $14,955; $16,530; $24,300 and gaps to $13,744 ($4,204; $4,144; $3,004; $1,834; $1,211 more; $2,786 more; $10,556 more)",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "Recomputed median x 12 and subtracted or compared with 13,744; all match."
+  },
+  {
+   "claim": "$1,145 a month per person over 12 months equals the double; $1,374 over 10 months",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "13,744/12 = 1,145.33; 13,744/10 = 1,374.4."
+  },
+  {
+   "claim": "The Ivy 3BR $5,500 to $5,800 a month, $1,833 to $1,933 per bed, $22,000 to $23,200 a year, $8,256 to $9,456 more",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief gives $5,500 and $1,833 to $1,933; recomputed 5,500/3 x 12 = 22,000, 5,800/3 x 12 = 23,200; differences 8,256 and 9,456."
+  },
+  {
+   "claim": "EnergySage $280 Ithaca monthly average; $70 per person; 4BR $15,795 a year, $2,051 over the double",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief $280. Recomputed 280/4 = 70; 70 x 12 = 840; 14,955 + 840 = 15,795; minus 13,744 = 2,051."
+  },
+  {
+   "claim": "Downtown per-bed prices about 20% to 28% below Collegetown; 20 to 30 minute uphill walk",
+   "source_url": "brief §5.1",
+   "status": "ok",
+   "note": "brief: about a fifth to a bit over a quarter below; Cornell neighborhoods page 20 to 30 minute uphill walk."
+  },
+  {
+   "claim": "Summer example: $795 x 2 or 3 months = $1,590 to $2,385; deposit plus first month $1,590",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "795x2=1,590; 795x3=2,385."
+  },
+  {
+   "claim": "Housemate example: $1,246.25 / 3 = about $415.42 each; Feb to Jul (6 months) about $2,493",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "1,246.25/3 = 415.4167; x6 = 2,492.5, rounded to $2,493."
+  },
+  {
+   "claim": "Group shrink 6BR to 4BR costs $446.25 a month, $5,355 a year; 10-month rent $12,462.50",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "1,246.25 - 800 = 446.25; x12 = 5,355; 1,246.25 x 10 = 12,462.50."
+  },
+  {
+   "claim": "Residential policy: first- and second-year students live in university housing two years; exemptions (21+, married, dependents, veteran, transfer, commuter within 25 miles)",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief §3 (25 miles confirmed in brief)."
+  },
+  {
+   "claim": "Cancellation for returning juniors/seniors: $50 through Jan 31, $500 from Feb 1, $1,000 from April 1, $2,000 from July 1, 50% after Aug 15",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief license cancellation fee row."
+  },
+  {
+   "claim": "Cornell aid does not cover deposits, first and last month's rent or rent in months not registered; Financial Aid 607-255-5145",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief aid rows and phone."
+  },
+  {
+   "claim": "NY GOL 7-108: deposit plus advance capped at one month, deposit back in 14 days with itemized statement, move-in inspection; willful violation up to twice the deposit",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief legal rows."
+  },
+  {
+   "claim": "RPL 238-A: no application fee; background check lesser of cost or $20; late fee after 5 days, lesser of $50 or 5%",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief legal rows."
+  },
+  {
+   "claim": "Housemates bound 'jointly and severally'; co-tenant contribution suit; guarantor consent for sublets in four or more units (RPL 226-B)",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief rows."
+  },
+  {
+   "claim": "120-day written notice rule in City of Ithaca, waivable only by initialed bolded statement on the first page",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief rows."
+  },
+  {
+   "claim": "Building Division 607-274-6508, 8 a.m. to 4 p.m. weekdays; certificates last three years for multiple dwellings (3 or more units)",
+   "source_url": "https://www.cityofithacany.gov/146/Certificate-of-Compliance",
+   "status": "ok",
+   "note": "Fetched: phone, 8 AM to 4 PM Monday to Friday, 3 years, 3 or more units. ibd@cityofithaca.org is in the brief (§2)."
+  },
+  {
+   "claim": "Cornell safety tool covers City of Ithaca rentals only and shows sprinklers, extinguishers, alarms, construction type, property use",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "117 Thurston Ave: certificate expired in 2015, 53 days from first complaint to heater reported fixed, one tenant slept in a campus library",
+   "source_url": "brief §5.2",
+   "status": "ok",
+   "note": "brief 117 Thurston row."
+  },
+  {
+   "claim": "Fontana Apartments 2016: more than 50 students with Aug 1 leases and no home; landlord offered a hotel or $30 a day",
+   "source_url": "https://www.cornellsun.com/article/2016/09/delayed-collegetown-apartment-opening-leaves-e2-80-88students-homeless",
+   "status": "ok",
+   "note": "Fetched: over 50 students, $30 per day or hotel lodging. Brief also carries $30 a day."
+  },
+  {
+   "claim": "Sun record 2017-2025: Collegetown signings 8 to 16 months before move-in; 12-bedroom Elmwood house signed April 2017 for August 2018",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief 8 to 16 months and 12-bedroom row."
+  },
+  {
+   "claim": "2019 Off-Campus Living manager called locking housing on return in fall a myth; OCL does not represent students in disputes; OCL 607-255-2310",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief rows; phone in brief."
+  },
+  {
+   "claim": "Renters insurance: GradGuard preferred; Ithaca quotes about $5 a month (SafeButler) to about $27 (Insure.com, $40,000 property cover)",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief GradGuard, $5, $27 and $40,000 rows."
+  },
+  {
+   "claim": "Help contacts: Cornell Law hotline 607-301-1560; LawNY 607-273-3667; CDRC 607-273-9347; NY AG 1-800-771-7755; Ithaca City Court small claims up to $5,000 at 118 East Clinton Street",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "all in brief."
+  },
+  {
+   "claim": "City meters $2.50 an hour, garages $2.25; Dryden Road Garage 118 Dryden Road, 24 hours, $18 daily max, move every 24 hours",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief parking rows. Meter enforcement hours also on the brief's parking row."
+  },
+  {
+   "claim": "Most Ithaca leases end July 31 and start about August 1",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Parent College Confidential posts late 2016: cheaper and roomier; alumna called houses 'dumps'",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief voice rows; attribution is to parents who posted, one parent and one alumna kept separate."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "7f5b1547c81c5b618372f5d432e775f5379f89c2bebca344fd3dac859e500ae2"
+}

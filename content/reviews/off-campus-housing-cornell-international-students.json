@@ -1,0 +1,253 @@
+{
+ "slug": "off-campus-housing-cornell-international-students",
+ "queue_id": "q-housing-0052",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "No SSN needed to rent, open a bank account or get a credit card (Cornell International Services)",
+   "source_url": "brief §2 (international FAQ row)",
+   "status": "ok",
+   "note": "brief §N: quoted FAQ line matches."
+  },
+  {
+   "claim": "Deposit plus any rent advance capped at one month's rent; pet deposit counts; no last month on top (GOL 7-108)",
+   "source_url": "brief §2 (deposit cap row)",
+   "status": "ok",
+   "note": "brief §N, same rule and statute."
+  },
+  {
+   "claim": "Application fees banned; credit/background check at most lesser of actual cost or $20; waived with a check from the past 30 days; landlord gives copy of check and invoice (RPL 238-a)",
+   "source_url": "brief §2 (RPL 238-a rows)",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Late fee only after 5 days; lesser of $50 or 5% of monthly rent",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Non-refundable deposit unlawful; cleaning fee banned as a separate fee",
+   "source_url": "brief §2 / §8",
+   "status": "ok",
+   "note": "Brief carries both (Cornell Law guide citing RPL 238-a)."
+  },
+  {
+   "claim": "Deposit returned with itemized statement within 14 days; landlord forfeits right to keep any if late; 6+ unit buildings must use NY interest-bearing account; move-in inspection offered",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Visa appointment no more than 120 days before program start",
+   "source_url": "brief §2 (international FAQ row)",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Cornell aid does not cover deposits, first/last month's rent or summer rent",
+   "source_url": "brief §3 item 5",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "housing@cornell.edu for on-campus housing during breaks",
+   "source_url": "brief §2 (Cornell Global row)",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Heat season Sept 15 to May 31; 68F by day when under 55F outside; 62F at night",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "City Certificate of Compliance: (607) 274-6508 / ibd@cityofithaca.org; buildings with 3+ units, valid 3 years",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Phone and email in brief; 3+ units/3 years are from the linked City page and the brief's COC rows."
+  },
+  {
+   "claim": "Cornell safety tool safety.offcampusliving.cornell.edu: sprinklers, extinguishers, alarms, construction type, updated daily",
+   "source_url": "brief §6 (safety tool row)",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Off-Campus Housing Marketplace shows listings only to people who prove Cornell affiliation; Off-Campus Living list needs NetID, forward acceptance letter to offcampusliving@cornell.edu",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Off-Campus Living 607-255-2310; tenant hotline (607) 301-1560 gives advice with no income or geographic limits, representation only for City residents",
+   "source_url": "brief §2 / §7",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "NYSEG (800) 572-1111 for average annual heating bill; West Hill cottages likely uninsulated with very high heating bills",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "117 Thurston Ave: certificate expired in 2015, learned after signing; heater took 53 days (Sept 27 letter to Nov 19)",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "brief §N. Sept 27 to Nov 19 recomputed: 3 days left in Sept + 31 Oct + 19 Nov = 53."
+  },
+  {
+   "claim": "2021 Sun story described virtual tours that hid drawbacks",
+   "source_url": "brief §7 (theme 18)",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Collegetown desirable units lease up to 16 months before move-in",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Most Ithaca leases end July 31; next starts about August 1",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Cornell housing license charges $60 a day outside the occupancy period (2027-28)",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "About 95% of grad students live off campus",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Grad guide: start March to April for August, a few places in June and July",
+   "source_url": "brief §10 calendar",
+   "status": "ok",
+   "note": "brief §N (March to April)."
+  },
+  {
+   "claim": "Hasbrouck: rolling applications, 12-month contracts; studio $1,355, unfurnished 1BR $1,415 for 2026-27; gas, electricity, garbage, internet included",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief §N, rates match."
+  },
+  {
+   "claim": "Free TCAT for new degree students (grad, PhD, transfer) in year one; PhD and graduate assistants free every year; pass expires Aug 31 for fall entrants, Dec 31 for spring entrants; after that free only after 6 p.m. weekdays and weekends; OmniRide $200 a year",
+   "source_url": "brief §9 (TCAT rows)",
+   "status": "ok",
+   "note": "brief §N, matches the corrected expiry line in the change log."
+  },
+  {
+   "claim": "Junior/senior transfers exempt but must request exemption each year; sophomore transfer lives on campus one academic year; undergraduates in first two years should not sign without exemption; exemptions last one academic year",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Ithaca Renting downtown 2BR per-bed median $992.50",
+   "source_url": "brief §5/§10",
+   "status": "ok",
+   "note": "brief §N (2BR median of per-bed rows, Nov 2026)."
+  },
+  {
+   "claim": "Ithaca Renting includes heat and hot water at all properties; electricity extra except in a few buildings",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Ithaca Renting lists semester rows for spring and fall 2027",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "ok",
+   "note": "Also brief §10 (Spring/Fall Semester 2027 rows). Page fetched: Spring Semester 2027 and Fall Semester 2027 rows are listed."
+  },
+  {
+   "claim": "International Scholar House: month-to-month furnished 5BR, since September 2023; visiting scholars have no guaranteed housing",
+   "source_url": "brief §3 / §7",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Month-to-month tenant generally gives one month's notice",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease",
+   "status": "ok",
+   "note": "Source cited by brief for breaking-lease rows; consistent with page link."
+  },
+  {
+   "claim": "Landlord must try in good faith to re-rent after a tenant leaves (RPL 227-e)",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/227-E",
+   "status": "ok",
+   "note": "Fetched: landlord shall, in good faith and according to resources and abilities, take reasonable and customary actions to rent at fair market value. Page wording fits."
+  },
+  {
+   "claim": "Sublet allowed in buildings with 4+ units with written consent not unreasonably withheld; smaller buildings lease decides",
+   "source_url": "brief §2 (RPL 226-b row)",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Graduate School staff: landlord disputes do not affect international students' visa or standing; contact Off-Campus Living early",
+   "source_url": "brief §12 (gap table)",
+   "status": "ok",
+   "note": "brief §N; attribution to Graduate School staff matches."
+  },
+  {
+   "claim": "A tenant with a lease cannot be evicted for immigration status absent substantial lease or code violation; harassment such as denying heat or hot water barred",
+   "source_url": "brief §2.11",
+   "status": "ok",
+   "note": "brief §N (immigrant-tenant protections)."
+  },
+  {
+   "claim": "Off-Campus Living advises but does not represent students in landlord disputes (Sun 2019)",
+   "source_url": "brief §8 / contacts",
+   "status": "ok",
+   "note": "brief §N."
+  },
+  {
+   "claim": "Deposit route: demand letter, then small claims, with mediation at the Community Dispute Resolution Center",
+   "source_url": "brief §2 (deposit recovery)",
+   "status": "ok",
+   "note": "brief §N, step-by-step recovery."
+  },
+  {
+   "claim": "NYSEG bills rose under temporary rates from June 1, 2026; larger permanent case pending",
+   "source_url": "https://www.fingerlakes1.com/2026/05/15/nyseg-and-rge-win-temporary-rate-hikes-as-larger-increases-still-loom/",
+   "status": "ok",
+   "note": "Headline of the cited FingerLakes1 piece (temporary hikes, larger increases looming); in brief's utilities section. Not re-fetched."
+  },
+  {
+   "claim": "Example: first month $992.50 + deposit $992.50 + credit check $20 = $2,005",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "Recomputed 992.50 x 2 = 1,985.00; +20 = 2,005."
+  },
+  {
+   "claim": "Six months up front on that bed is $5,955, or $4,962.50 over the cap",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "Recomputed 992.50 x 6 = 5,955; minus one month 992.50 = 4,962.50. 'Six times the cap' correct."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell international student off campus housing",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

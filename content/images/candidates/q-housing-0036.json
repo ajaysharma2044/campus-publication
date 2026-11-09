@@ -1,0 +1,54 @@
+[
+ {
+  "source": "wikimedia",
+  "title": "Cornell Day Hall 1",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Cornell_Day_Hall_1.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Cornell_Day_Hall_1.jpg",
+  "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Cornell_Day_Hall_1.jpg/960px-Cornell_Day_Hall_1.jpg",
+  "author": "Notyourbroom",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "width": 2304,
+  "height": 3072,
+  "description": "Day Hall at Cornell University."
+ },
+ {
+  "source": "wikimedia",
+  "title": "Cornell arts and sciences quadrangle sunny",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Cornell_arts_and_sciences_quadrangle_sunny.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Cornell_arts_and_sciences_quadrangle_sunny.jpg",
+  "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cornell_arts_and_sciences_quadrangle_sunny.jpg/960px-Cornell_arts_and_sciences_quadrangle_sunny.jpg",
+  "author": "Notyourbroom",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "width": 3072,
+  "height": 2304,
+  "description": "Cornell University's Arts and Sciences Quadrangle (\"Arts Quad\") on a sunny spring day. The buildings pictured are (from left to right) McGraw Hall, Herbert F. Johnson Museum of Art, White Hall, Olive Tjaden Hall, Sibley Hall."
+ },
+ {
+  "source": "wikimedia",
+  "title": "Cornell arts and sciences quadrangle sunny 2",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Cornell_arts_and_sciences_quadrangle_sunny_2.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Cornell_arts_and_sciences_quadrangle_sunny_2.jpg",
+  "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Cornell_arts_and_sciences_quadrangle_sunny_2.jpg/960px-Cornell_arts_and_sciences_quadrangle_sunny_2.jpg",
+  "author": "Notyourbroom",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "width": 3072,
+  "height": 2304,
+  "description": "Cornell University's Arts and Sciences Quadrangle (\"Arts Quad\") on a sunny spring day. The buildings pictured are (from left to right) Sibley Hall, Lincoln Hall, and Goldwin Smith Hall."
+ },
+ {
+  "source": "openverse",
+  "title": "Day Hall, Cornell University, Ithaca, New York",
+  "page_url": "https://www.flickr.com/photos/75683070@N00/32554833457",
+  "file_url": "https://live.staticflickr.com/7809/32554833457_1783833cb0_b.jpg",
+  "thumb_url": "https://api.openverse.org/v1/images/49d78be1-616b-4c75-8b70-74d583bb7291/thumb/",
+  "author": "Ken Lund",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "width": 1024,
+  "height": 768,
+  "description": ""
+ }
+]

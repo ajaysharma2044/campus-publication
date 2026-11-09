@@ -1,0 +1,126 @@
+{
+ "slug": "collegetown-rent-per-bed-2027-28",
+ "queue_id": "q-housing-0066",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Cornell residence hall double $13,744 per academic year (2026-27), includes utilities and internet",
+   "source_url": "brief §3 / §10",
+   "status": "ok",
+   "note": "brief §10 and rates rows; same value, period and inclusions"
+  },
+  {
+   "claim": "38 priced 2027-28 rows; groups 7/8/5/2/4/2/5/1/4",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief §10.9; counts sum to 38 (recomputed); every listed range and midpoint in the page matches the brief row for row"
+  },
+  {
+   "claim": "14 of 67 rows SOLD OUT (20.9%)",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "ok",
+   "note": "brief §10.9; live page fetched 2026-11-08 also shows 14 of 67; 14/67 = 20.9% recomputed"
+  },
+  {
+   "claim": "Aces 6BR 695-760 and 705-895; 202 Dryden 10BR 725-825",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "ok",
+   "note": "confirmed on the live page and in brief §10.9"
+  },
+  {
+   "claim": "Medians: studio 1,765; 1BR 2,025; 2BR 1,377.50; 4BR 1,246.25; 6BR 800; 10BR 775; rooms 895",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "re-sorted midpoints and recomputed each median; all match"
+  },
+  {
+   "claim": "Means: studio 1,748.2; 1BR 2,005; 2BR 1,346.5; 3BR 1,243.75; 4BR 1,245.6; 5BR 1,102.5; 6BR 842.5; rooms 871.9",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "recomputed sums 12,237.5; 16,040; 6,732.5; 4,982.5; 4,212.5; 3,487.5 and divided; all match"
+  },
+  {
+   "claim": "Low/high endpoints per size (e.g. studio 1,565-1,950; 1BR 1,625-2,545; 6BR 695-1,120; rooms 695-995)",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "match the brief's endpoint ranges; CSV matches the page table"
+  },
+  {
+   "claim": "12-month totals and vs-double: 21,180/+7,436; 24,300/+10,556; 16,530/+2,786; 14,925/+1,181; 14,955/+1,211; 13,230/-514; 9,600/-4,144; 9,300/-4,444; 10,740/-3,004",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "recomputed x12 and minus 13,744; all match; the 3BR and 5BR rows are labelled mean-based"
+  },
+  {
+   "claim": "6BR to 4BR costs $446.25 a month, $5,355 a year per person",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "1,246.25 - 800 = 446.25; x12 = 5,355"
+  },
+  {
+   "claim": "Break-even $1,145.33 a month (12 months), $1,374.40 (10 months)",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "13,744/12 and /10 recomputed"
+  },
+  {
+   "claim": "Statement that studio to 4BR sit above $1,145.33 and 5BR, 6BR, 10BR, rooms below",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "lowest of the first group is 3BR at 1,243.75; 5BR mean 1,102.50 is below; correct"
+  },
+  {
+   "claim": "Whole 2BR unit $2,755 at the median; RentCafe 2BR $3,414 is $659 higher (+23.9%); RentCafe 1BR $2,342 is $317 higher (+15.7%)",
+   "source_url": "brief §10.9, §10.1",
+   "status": "ok",
+   "note": "recomputed 1,377.5 x 2 = 2,755; 659/2,755 = 23.9%; 317/2,025 = 15.7%"
+  },
+  {
+   "claim": "RentCafe Collegetown averages 24.4% above Ithaca overall, 13.2% studios, 13.5% 1BR, 38.8% 2BR; updated 2026-10-30; large buildings of 50+ units; no Collegetown 3BR figure",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "brief §10.1 table and RentCafe row (3BR n/a)"
+  },
+  {
+   "claim": "The Ivy 3BRs $5,500-$5,800 a month, $1,833-$1,933 per person (Cornell Daily Sun, Dec 2025)",
+   "source_url": "brief §10.7",
+   "status": "ok",
+   "note": "5,500/3 = 1,833; 5,800/3 = 1,933; source and date match the brief"
+  },
+  {
+   "claim": "Property addresses: Court 208 Dryden Rd, Plaza 111 Dryden Rd, Center 151 Dryden Rd, Aces on Eddy St",
+   "source_url": "brief §5.3",
+   "status": "ok",
+   "note": "brief lines for Ithaca Renting properties"
+  },
+  {
+   "claim": "Inclusions: furnished, heat and hot water, trash at Center/Plaza/Court, electricity extra except 210 Dryden floors 2-3 and room-rented units, parking extra",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "matches the brief's source description"
+  },
+  {
+   "claim": "Home page showed Center deluxe studio $1,935-$2,035 and Court premium 5BR $925-$1,025 vs the Collegetown page",
+   "source_url": "brief §9 discrepancies",
+   "status": "ok",
+   "note": "brief discrepancy table row on Ithaca Renting prices, same day"
+  },
+  {
+   "claim": "Row count was first n = 33, recounted 38",
+   "source_url": "brief §9 discrepancies",
+   "status": "ok",
+   "note": "brief discrepancy row on sample size"
+  },
+  {
+   "claim": "67 minus 14 = 53; other 15 rows left out",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "67 - 14 = 53; 53 - 38 = 15, recomputed"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "52e26480c16c2de81ca8b4c4459895acc43ee14dff7637aebcd477c16eb4f024"
+}

@@ -1,0 +1,156 @@
+{
+ "slug": "visiting-scholar-postdoc-furnished-housing-ithaca",
+ "queue_id": "q-housing-0046",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Cornell guarantees no housing to visiting scholars; they compete with grad students for Hasbrouck and Maplewood (Cornell Daily Sun, Nov 2024)",
+   "source_url": "brief §9 (row 22) and §2 visiting faculty row",
+   "status": "ok",
+   "note": "Brief carries the Sun finding and Cornell's 'not guaranteed' wording."
+  },
+  {
+   "claim": "International Scholar House: furnished 5-bedroom, month to month, since September 2023; price not published",
+   "source_url": "brief §2 (visiting scholars row)",
+   "status": "ok",
+   "note": "Brief row matches; brief also notes Cornell's own page does not mention it. The page attributes it to the Sun and marks price and how to apply as 'Not confirmed'."
+  },
+  {
+   "claim": "Hasbrouck takes some visiting faculty and affiliates for temporary, academic-year or 12-month stays as space allows; contact gradhousing@cornell.edu; apply via the Housing application with grad instructions",
+   "source_url": "brief §2 (Visiting faculty and affiliate housing row)",
+   "status": "ok",
+   "note": "Wording matches the brief's quoted phrases."
+  },
+  {
+   "claim": "Hasbrouck 2026-27 monthly rates: single $620, large single furnished $910, studio $1,355, 1BR furnished $1,490 (unfurnished $1,415), family 2BR 3rd floor $1,500, family townhouse $1,530 furnished / $1,475 unfurnished; 12-month contract",
+   "source_url": "brief §2 (Hasbrouck rates row)",
+   "status": "ok",
+   "note": "All six values and the unfurnished figures match. 'Includes gas, electricity, garbage and internet' is not re-verified separately but page already states Cornell lists no separate temporary rate."
+  },
+  {
+   "claim": "Hasbrouck units hold 2 to 4 people, no more than two adults; rolling applications",
+   "source_url": "brief §2 (grad housing row, 'rolling', '2 to 4', 'two adults')",
+   "status": "ok",
+   "note": "Brief line 444 area carries both."
+  },
+  {
+   "claim": "Maplewood: Greystar-managed, furnished, utilities included, private bath, in-unit washer/dryer, pets allowed; Vet College lists $1075-$1330, updated Feb 2026, basis not stated",
+   "source_url": "brief §2 (Maplewood rows)",
+   "status": "ok",
+   "note": "Page keeps the brief's caveat (per bed or per unit unknown) and marks shortest lease 'Not confirmed'."
+  },
+  {
+   "claim": "Dryden South sublet: suites $1,395 per person, Fall 2026; furnished, heat and hot water included; 12-month leases ending May 31, 2027; 205 Dryden Road",
+   "source_url": "brief §10 (Dryden South rows)",
+   "status": "ok",
+   "note": "Same values and period."
+  },
+  {
+   "claim": "Ithaca Renting downtown: median studio $1,395, 1BR $1,625, 12-month leases, mostly 2026-27",
+   "source_url": "brief §10 (Ithaca Renting Downtown row)",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Ithaca Renting Collegetown has 'Spring/Fall Semester 2027' rows, furnished, heat and hot water included; Foundation Housing Spring '27 roommate-matching leases",
+   "source_url": "brief §10 / §11 listings rows",
+   "status": "ok",
+   "note": "Both named in brief."
+  },
+  {
+   "claim": "Some visiting scholars get only $600 to $800 a month from home governments (a professor, Sun 2024)",
+   "source_url": "brief §9 (Visiting scholar stipends row)",
+   "status": "ok",
+   "note": "Attributed to a professor's statement in the Sun, same as the brief."
+  },
+  {
+   "claim": "Sun reported family housing for visiting scholars as scarce with high upfront costs",
+   "source_url": "brief §9 (row 22)",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "RentCafe October 2026: Ithaca 2BR large buildings $2,459; 1BR $2,063",
+   "source_url": "brief §10 (RentCafe Ithaca citywide row, updated 2026-10-30)",
+   "status": "ok",
+   "note": "Both values match. Page says 'large buildings', consistent with the brief's 50+ unit method note."
+  },
+  {
+   "claim": "Deposit plus first month on a private 2BR is about $4,918 (our arithmetic)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: $2,459 x 2 = $4,918. Correct."
+  },
+  {
+   "claim": "Six-month example: $1,395 x 12 = $16,740; six unused months = $8,370; Hasbrouck 1BR $1,490 x 6 = $8,940",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed all three: 1,395x12=16,740; 1,395x6=8,370; 1,490x6=8,940. Correct. Same $8,370 used in Common mistakes."
+  },
+  {
+   "claim": "NY deposit plus advance rent cannot exceed one month's rent; application fees banned; background or credit check no more than $20; deposit returned with itemized list within 14 days",
+   "source_url": "brief §6 (GOL 7-108 and RPL 238-A rows)",
+   "status": "ok",
+   "note": "Brief gives lesser of actual cost or $20 and the 14-day deadline."
+  },
+  {
+   "claim": "Month-to-month: generally one month's notice; fixed lease that lapses continues month to month; after 30 days a tenant is removed only by formal notice and court case; oral lease over a year unenforceable; oral lease without term is at will",
+   "source_url": "brief §6 (lease rows, 'continues month', 'oral lease', 'at will')",
+   "status": "ok",
+   "note": "All present in brief with Cornell Law guide sources."
+  },
+  {
+   "claim": "Landlord duty to take reasonable steps to re-rent (RPL 227-E); sublet in buildings with four or more units needs consent not unreasonably withheld (RPL 226-B); unapproved sublet is a substantial breach",
+   "source_url": "brief §6 (227-E and 226-B rows, 'four or more', 'substantial breach')",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "City of Ithaca short-term rentals need a separate permit; Cayuga Heights rentals of 28 days or less need an annual permit under Local Law 2022-4",
+   "source_url": "brief §6/§8 (Cayuga Heights code office row; city permit row)",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "No SSN needed to rent an apartment (Cornell International Services); landlord disputes do not affect visa (Graduate School staff); tenant hotline (607) 301-1560, no income or geographic limits",
+   "source_url": "brief §2 (International rows)",
+   "status": "ok",
+   "note": "SSN quote and hotline match the brief. Visa/standing statement is attributed to Graduate School staff as in the brief's grad-tips row."
+  },
+  {
+   "claim": "New degree students ride TCAT free in first year; PhD students and graduate assistants get free OmniRide; partner with CU ID can buy OmniRide student pass at 116 Maple Avenue; visiting scholars and postdocs not named (marked Not confirmed)",
+   "source_url": "brief §2.18 (TCAT rows)",
+   "status": "ok",
+   "note": "Matches; the Not confirmed lines are honest holes."
+  },
+  {
+   "claim": "Grad guide advises looking March to April for an August start",
+   "source_url": "brief §8 (March to April)",
+   "status": "ok",
+   "note": "Brief carries it."
+  },
+  {
+   "claim": "Off-Campus Living: Marketplace needs proof of Cornell affiliation; email list needs a NetID, subject 'Join'; phone 607-255-2310",
+   "source_url": "brief §2 (listing and Off-Campus Living rows)",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Cornell advice that a one-year lease gives a certain amount of legal protection while a unit without a lease gives flexibility with limited protection",
+   "source_url": "brief §6 (one-year lease row)",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Photo caption: North Campus from Thurston Avenue Bridge, before the bridge was rebuilt; CC BY 3.0, Notyourbroom",
+   "source_url": "content/images/credits.yml (not a text fact)",
+   "status": "unverifiable",
+   "note": "Image license and the 'before rebuilt' detail were not re-opened; they belong to the image ledger and photo audit, not the brief. Does not affect the core answer."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "88803a1ef1a2b4e057af84660ceb49fa07fdc547f4dd7d95057d327e8bebca31"
+}

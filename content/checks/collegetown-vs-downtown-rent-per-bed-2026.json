@@ -1,0 +1,156 @@
+{
+ "slug": "collegetown-vs-downtown-rent-per-bed-2026",
+ "queue_id": "q-housing-0067",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "58 priced rows: 38 Collegetown (2027-28), 20 downtown",
+   "source_url": "brief §10.9, §10.10",
+   "status": "ok",
+   "note": "Counted brief rows: Collegetown 7+8+5+2+4+2+5+1+4 = 38; downtown 7+3+5+3+1+1 = 20; total 58."
+  },
+  {
+   "claim": "Collegetown page showed 67 unit rows, 14 SOLD OUT (20.9%); Collegetown Center 1BR $2,045-$2,145 left out",
+   "source_url": "brief §3.2, §10.9",
+   "status": "ok",
+   "note": "brief §10.9. 14/67 = 20.9% recomputed."
+  },
+  {
+   "claim": "Downtown page showed 36 rows, 'View More' link; Whiton Hall premium room $965-$1,065 not used",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "brief §10.10."
+  },
+  {
+   "claim": "All 38 Collegetown listing rows (ranges and midpoints, rows 1-38) in md and CSV",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Each range and midpoint matches the brief's row list; midpoints recomputed as (low+high)/2."
+  },
+  {
+   "claim": "All 20 downtown listing rows (rows 39-58) in md and CSV",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "Ranges and midpoints match brief §10.10; Commons West premium studio is the 2027-28 row."
+  },
+  {
+   "claim": "Collegetown medians/means: studio 1,765/1,748.2; 1BR 2,025/2,005; 2BR 1,377.5/1,346.5; 3BR mean 1,243.75; 4BR 1,246.25/1,245.6; 5BR mean 1,102.5; 6BR 800/842.5; 10BR 775; rooms 895/871.9",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Matches the brief table; sorted midpoints re-medianed from the rows; studio sum 12,237.5/7 = 1,748.2."
+  },
+  {
+   "claim": "Downtown medians/means: studio 1,395/1,385.4; 1BR 1,625/1,637.5; 2BR 992.5/946; 3BR 795/798.3; 5BR 795; 6BR 870",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "Recomputed from midpoints: 9,697.5/7, 4,912.5/3, 4,730/5, 2,395/3."
+  },
+  {
+   "claim": "Low/high endpoints on summary rows (e.g. downtown studio 1,175-1,595, 2BR 825-1,050; Collegetown 6BR 695-1,120)",
+   "source_url": "brief §10.9, §10.10",
+   "status": "ok",
+   "note": "Checked min low and max high against listing rows for every group."
+  },
+  {
+   "claim": "Gaps: studio $370, 1BR $400, 2BR $385 a month",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "1,765-1,395; 2,025-1,625; 1,377.5-992.5 recomputed."
+  },
+  {
+   "claim": "Collegetown above downtown 26.5% / 24.6% / 38.8%",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "370/1395 = 26.52%; 400/1625 = 24.62%; 385/992.5 = 38.79%."
+  },
+  {
+   "claim": "Downtown below Collegetown 21.0% / 19.8% / 27.9%; headline 'about 20% to 28% less'",
+   "source_url": "brief §11 change log (2026-11-08 direction correction)",
+   "status": "ok",
+   "note": "370/1765 = 20.96%; 400/2025 = 19.75%; 385/1377.5 = 27.95% (0.27949, rounds to 27.9). Range 19.8-27.9 fits 'about 20% to 28%'."
+  },
+  {
+   "claim": "Annual gap $4,440 / $4,800 / $4,620 per bed on a 12-month lease",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "370x12, 400x12, 385x12 recomputed."
+  },
+  {
+   "claim": "Cornell residence hall double $13,744 per academic year, utilities and internet included; $13,744/12 = $1,145.33",
+   "source_url": "brief §2 (housing rates row)",
+   "status": "ok",
+   "note": "13,744/12 = 1,145.33 recomputed."
+  },
+  {
+   "claim": "Downtown 3BR share $795 median = $9,540 a year, $4,204 under the double; downtown 2BR share $11,910, $1,834 under",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "795x12 = 9,540; 13,744-9,540 = 4,204; 992.5x12 = 11,910; 13,744-11,910 = 1,834."
+  },
+  {
+   "claim": "vs_double rows 88-94 (21,180; 16,740; 24,300; 19,500; 16,530; 11,910; 9,540 and differences 7,436; 2,996; 10,556; 5,756; 2,786; 1,834; 4,204)",
+   "source_url": "brief §10.9, §10.10",
+   "status": "ok",
+   "note": "All multiplied and subtracted again; match."
+  },
+  {
+   "claim": "Only 6BR, 10BR, shared-suite rooms and (two-row mean) 5BR Collegetown units come in under the double; no studio, 1BR or 2BR",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Brief §10.9 result line; 3BR 14,925 and 4BR 14,955 are above 13,744."
+  },
+  {
+   "claim": "Downtown is a 20 to 30 minute uphill walk to campus, or a bus ride",
+   "source_url": "brief §5.1 / 10.2 (Cornell neighborhoods page)",
+   "status": "ok",
+   "note": "Brief: downtown 20-30 min uphill; bus ride per brief 10.10 caveat."
+  },
+  {
+   "claim": "Transfer arriving in summer finds leftover downtown units; free first-year TCAT",
+   "source_url": "brief §2.18 and §4 (transfer section)",
+   "status": "ok",
+   "note": "Brief: transfers get unlimited first-year TCAT; transfers shopping in spring/summer are in the leftover market (downtown 'available now')."
+  },
+  {
+   "claim": "Inclusions: Collegetown heat/hot water all, trash at Center/Plaza/Court, electricity tenant-paid except 210 Dryden floors 2-3 and room-rented units, parking extra; downtown heat, water, trash included, electricity only at Colonial, Commons Studios, Whiton Hall",
+   "source_url": "brief §10.9, §10.10",
+   "status": "ok",
+   "note": "Matches both brief intros."
+  },
+  {
+   "claim": "Sold-out rows include 105 Dryden Court (8BR) and 214 Dryden Rd (14BR)",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief §10.9 availability line."
+  },
+  {
+   "claim": "Home page showed Center deluxe studio $1,935-$2,035 vs $1,830-$1,950 on Collegetown page; Cityview premium 2BR $1,050-$1,150 on home page",
+   "source_url": "brief §3.2, §8",
+   "status": "ok",
+   "note": "Matches brief rows."
+  },
+  {
+   "claim": "Larger units 'with one to three rows a side'",
+   "source_url": "brief §10.9, §10.10",
+   "status": "fixed",
+   "note": "Collegetown 6BR has 5 rows, so 'a side' was wrong. Changed to 'one to three rows on at least one side'; the list that follows was already correct."
+  },
+  {
+   "claim": "Row-count bookkeeping: 94 rows = 58 listing + 15 summary + 12 gap + 2 benchmark + 7 vs_double; md table and CSV match",
+   "source_url": "content CSV and md",
+   "status": "ok",
+   "note": "Counted by row_id; the CSV and the md table carry the same values."
+  },
+  {
+   "claim": "Method re-read against live pages in the brief's fact check on 2026-11-08",
+   "source_url": "brief §10.9 availability line",
+   "status": "ok",
+   "note": "Brief records the re-read; I did not refetch ithacarenting.com."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "41e0908d58fd2fe4c14b738ffaaf48b9680d95b7ef25c90b87f5cf1d7f09b824"
+}

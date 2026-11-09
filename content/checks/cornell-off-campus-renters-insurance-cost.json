@@ -1,0 +1,156 @@
+{
+ "slug": "cornell-off-campus-renters-insurance-cost",
+ "queue_id": "q-housing-0042",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Cornell does not require renters insurance off campus; checklist says 'Purchase renter's insurance'",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "brief §2.20 row 'Is it required?'"
+  },
+  {
+   "claim": "GradGuard is Cornell's preferred insurer, covers theft, fire, smoke, vandalism, students on and off campus; no price published",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "brief §2.20 rows 1-2"
+  },
+  {
+   "claim": "GradGuard features (no rate increase on claim, no electronics sub-limits, no depreciation penalty, worldwide property, personal liability for residence damage, Housing and Dining Portal sign-up)",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "brief §2.20 vendor page row"
+  },
+  {
+   "claim": "SafeButler Ithaca: about $76 a year (about $6 a month); $5 and $10 a month quotes for ages 18-24 on Sept 11, 2026; $108-$267 a year for 20-year-old, 8 carriers",
+   "source_url": "brief §3.7",
+   "status": "ok",
+   "note": "brief §3.7 SafeButler row; same values and dates"
+  },
+  {
+   "claim": "SafeButler NY page lists Ithaca at $155 a year ($13 a month)",
+   "source_url": "brief §3.7",
+   "status": "ok",
+   "note": "brief; 155/12 = 12.92, rounds to $13"
+  },
+  {
+   "claim": "GradGuard blog $13/month; College Investor $9-$17; Lemonade NY $14.60; Insure.com $328/yr ($27/mo) at $40,000 property and $300,000 liability; GEICO about $14 national; Univ. of Montana about $11",
+   "source_url": "brief §3.7",
+   "status": "ok",
+   "note": "brief 'Renters insurance, other' row; all values match. 328/12 = 27.33, rounds to $27"
+  },
+  {
+   "claim": "Ithaca and New York quotes run about $5 to $27 a month (about $60 to $328 a year)",
+   "source_url": "brief §8 / §9 contradiction table",
+   "status": "ok",
+   "note": "brief states range $5 to $27 a month; recomputed $5 x 12 = $60"
+  },
+  {
+   "claim": "Cost table: $5 a month = $60 a year; $76; $155; $108-$267; $328",
+   "source_url": "brief §3.7",
+   "status": "ok",
+   "note": "$5 x 12 = $60 recomputed; others match brief"
+  },
+  {
+   "claim": "Example: 6BR median $800 per bed (Ithaca Renting 2027-28); $5 policy adds 0.6 percent, $27 adds 3.4 percent; $60 to $324 over 12 months",
+   "source_url": "brief §3 Ithaca Renting row",
+   "status": "ok",
+   "note": "$800 matches brief. Recomputed: 5/800 = 0.625% (0.6), 27/800 = 3.375% (3.4), 27 x 12 = 324, 5 x 12 = 60"
+  },
+  {
+   "claim": "$5 and $10 a month is $60 to $120 a year",
+   "source_url": "arithmetic",
+   "status": "ok",
+   "note": "5 x 12 = 60, 10 x 12 = 120"
+  },
+  {
+   "claim": "Greek chapter rent covers housekeeping, utilities, internet, repairs and building insurance, not personal belongings",
+   "source_url": "brief §2 Greek row",
+   "status": "ok",
+   "note": "brief row 'What Greek rent covers'"
+  },
+  {
+   "claim": "Houses holding second-years need commercial liability insurance of at least $1,000,000 per occurrence naming Cornell",
+   "source_url": "brief §2 minimum requirements row",
+   "status": "ok",
+   "note": "brief states $1,000,000 per occurrence, $2,000,000 aggregate, Cornell additional insured"
+  },
+  {
+   "claim": "Eight Cornell-owned co-ops; co-ops@cornell.edu; 607-255-3445",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing",
+   "status": "ok",
+   "note": "brief co-op contact row; fetched page also says eight university-owned residences with that email and phone"
+  },
+  {
+   "claim": "NY deposit plus advance rent capped at one month's rent (GOL 7-108)",
+   "source_url": "brief §10 / GOL 7-108 rows",
+   "status": "ok",
+   "note": "brief cites GOL 7-108 cap including rent advances"
+  },
+  {
+   "claim": "Landlord may deduct tenant-caused damage beyond normal wear",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief deductions row: damage beyond normal wear"
+  },
+  {
+   "claim": "Cornell says most local leases bind housemates 'jointly and severally'; each responsible for others' rent and damages for the term",
+   "source_url": "brief §2 joint and several row",
+   "status": "ok",
+   "note": "wording matches brief and source attribution"
+  },
+  {
+   "claim": "March 2026 City ordered about 200 Asteri residents out March 4; order lifted March 20",
+   "source_url": "brief §2 / §9 Asteri row",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "Since 2019 City Council vote, landlords owe displaced tenants double the monthly rent prorated per day",
+   "source_url": "brief displacement payments row",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "About 95 percent of Cornell grad and professional students live in non-university housing",
+   "source_url": "brief §3 grads off campus",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "International students do not need an SSN to rent an apartment",
+   "source_url": "brief §3 international row",
+   "status": "ok",
+   "note": "brief quotes Cornell International Services FAQ"
+  },
+  {
+   "claim": "Most Ithaca leases end July 31, so most start August 1",
+   "source_url": "brief §2 lease-end date row",
+   "status": "ok",
+   "note": "brief: most leases expire July 31 (2024 hearing); August 1 start is brief's own inference in §9"
+  },
+  {
+   "claim": "Cornell aid refunds living costs when aid exceeds Bursar charges; aid does not cover the deposit",
+   "source_url": "https://finaid.cornell.edu/living-campus",
+   "status": "ok",
+   "note": "brief aid/deposit row; fetched page confirms refund if aid exceeds Bursar charges and no coverage for security deposit"
+  },
+  {
+   "claim": "2025-26 undergraduate cost of attendance lists housing, food, books, personal and transportation; no insurance line",
+   "source_url": "https://finaid.cornell.edu/cost-to-attend",
+   "status": "ok",
+   "note": "fetched: tuition, fees, housing, food, books, personal, transportation; no renters insurance (page also lists tuition and fees, which the page's phrase omits but does not contradict)"
+  },
+  {
+   "claim": "Not confirmed: whether Collegetown landlords require renters insurance",
+   "source_url": "brief §8.2",
+   "status": "ok",
+   "note": "brief marks the same hole"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "4ed8a8d45c609cf70fc65f5a4116a374ebab4ffc73e783be3220c72f8db39b59"
+}

@@ -1,0 +1,193 @@
+{
+ "slug": "ithaca-security-deposit-rules-tenants",
+ "queue_id": "q-housing-0032",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Deposit plus any rent advance capped at one month's rent; pet deposit counts; no last month's rent on top; excludes seasonal-use and owner-occupied co-op units",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Deposit cap row matches."
+  },
+  {
+   "claim": "Deposit and itemized statement within 14 days after move-out or landlord forfeits the right to keep any of it",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Return deadline."
+  },
+  {
+   "claim": "Application and processing fees banned; background/credit check lesser of cost or $20; free with a check under 30 days old; landlord first gives copy and invoice",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Application fees and Background check rows."
+  },
+  {
+   "claim": "Late fee only after more than 5 days late; lesser of $50 or 5% of rent",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Late fees."
+  },
+  {
+   "claim": "Cleaning fee and non-refundable deposit banned; routine cleaning not deductible, excessive cleaning is",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Cleaning fees, Non-refundable deposits, Allowed deductions."
+  },
+  {
+   "claim": "Replacement key: no more than 110% of actual cost, cap lifts after more than three copies of one key in a year",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Replacement keys (RPL 235-i)."
+  },
+  {
+   "claim": "Punitive damages up to twice the deposit for willful violation; landlord must prove withheld amounts reasonable; waivers void",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Penalties."
+  },
+  {
+   "claim": "Renewal top-up to the new monthly rent; trust fund; interest account in buildings of six or more units, 1% annual administrative fee, bank told in writing; interest choice annual, rent credit or lease end (GOL 7-103)",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Deposit top-up, Trust funds, Interest rows."
+  },
+  {
+   "claim": "New owner who knew of the deposit is liable",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 New owner."
+  },
+  {
+   "claim": "Move-in inspection offered after signing and before occupancy; signed record; no deductions for listed defects",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Move-in inspection."
+  },
+  {
+   "claim": "Move-out inspection: written notice of right, held 2 weeks to 1 week before end, 48 hours' notice, not required under 2 weeks' notice",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Move-out inspection."
+  },
+  {
+   "claim": "Attorney's fees and late fees cannot be deducted (since June 14, 2019); Cornell Law guide updated February 2026",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Allowed deductions row, Feb 2026."
+  },
+  {
+   "claim": "Small claims: Ithaca City Court $5,000, town and village courts $3,000; court at 118 East Clinton Street",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Small claims limits and Ithaca City Court rows."
+  },
+  {
+   "claim": "Phones: Tenants Advocacy hotline 607-301-1560; CDRC 607-273-9347; AG 1-800-771-7755; LawNY (607) 273-3667; CCE Tompkins 607-272-2292",
+   "source_url": "brief §2.7 / contacts table",
+   "status": "ok",
+   "note": "All five numbers match the brief's contact rows."
+  },
+  {
+   "claim": "209 Stewart Ave: $850 a room, one-month deposit, first month due at signing",
+   "source_url": "brief §10 (209 Stewart row)",
+   "status": "ok",
+   "note": "Brief lists $850 per room, deposit one month, first month and fees due at signing; 2026-27 lease Aug 1 2026 to Jul 31 2027."
+  },
+  {
+   "claim": "Ithaca Renting 2027-28 medians: 6BR $800 a bed, 4BR $1,246.25 a bed",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Brief rows give 4BR median $1,246.25 and 6BR median $800."
+  },
+  {
+   "claim": "Cornell aid does not cover security deposits, first or last month's rent, or rent in unregistered months",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "Brief Financial aid and deposits row."
+  },
+  {
+   "claim": "Cornell housing license: no security or key deposits",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027",
+   "status": "ok",
+   "note": "In brief (license row) and confirmed on the page: 'Security and key deposits will not be required.'"
+  },
+  {
+   "claim": "Cornell Graduate School staff: landlord dispute does not affect visa status; no SSN needed to rent",
+   "source_url": "brief (international section)",
+   "status": "ok",
+   "note": "Brief lists both, staff statement for visa."
+  },
+  {
+   "claim": "City of Ithaca Chapter 258 '30 days' and the leaselenses blog's reading (receipt, willfulness presumption at 30 days, 3x plus fees) marked Not confirmed",
+   "source_url": "brief §2.7 / §8",
+   "status": "ok",
+   "note": "Page marks the 3x claim 'Not confirmed' as the brief does; 14 days controls per brief §8. Blog dated Sept 2026 matches brief (2026-09-20)."
+  },
+  {
+   "claim": "Cornell move-out page: 'charges for cleaning services will be deducted'; photos at move-in and move-out",
+   "source_url": "brief §2.7 / §8",
+   "status": "ok",
+   "note": "Brief Cornell's move-out page row."
+  },
+  {
+   "claim": "Sun 2004: one large Collegetown company had a reputation for fighting over deposits; ITU founders in 2020 cited deposits above the one-month cap",
+   "source_url": "brief §9 row 8",
+   "status": "ok",
+   "note": "Brief row 8 states both."
+  },
+  {
+   "claim": "Late fee on $850 rent: $42.50; on $800: $40; on $1,246.25: $62.31, so $50 cap applies; 5% is the lower cap under $1,000 rent",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "850x0.05=42.50; 800x0.05=40; 1,246.25x0.05=62.3125; 5% of 1,000=50 so crossover at $1,000."
+  },
+  {
+   "claim": "Replacement key example: $11 for a $10 key",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "10x1.10=11."
+  },
+  {
+   "claim": "4BR example: unit rent $4,985; per bed deposit $1,246.25; signing $2,492.50; punitive up to $2,492.50",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "4x1,246.25=4,985; 2x1,246.25=2,492.50; punitive 2x1,246.25=2,492.50."
+  },
+  {
+   "claim": "Tight-budget signing: $1,600 per person at $800 a bed",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "800+800=1,600."
+  },
+  {
+   "claim": "Dates for lease ending July 31, 2027: inspection window July 17 to 24; deposit due August 14",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Jul 31 minus 14 days = Jul 17; minus 7 = Jul 24; Jul 31 plus 14 = Aug 14."
+  },
+  {
+   "claim": "Senior example: $1,246.25 claim plus up to $2,492.50 punitive stays under $5,000; 'by August 20 nothing arrived, 14 days ran out August 14'",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1,246.25+2,492.50=3,738.75 < 5,000; Aug 14 < Aug 20."
+  },
+  {
+   "claim": "Extra month on a $1,246.25 bed is $1,246.25; signing bill $2,492.50",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Consistent with the figures above."
+  }
+ ],
+ "beats_top": {
+  "query": "ithaca tenant rights security deposit law",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

@@ -1,0 +1,156 @@
+{
+ "slug": "ithaca-good-cause-coverage-checker",
+ "queue_id": "q-housing-0062",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "City of Ithaca opted into Good Cause in July 2024",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief §2.6 (WAMC 2024-07-12, 8-2 vote)"
+  },
+  {
+   "claim": "Outside NYC, Good Cause applies only where a municipality opts in",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/A6-A",
+   "status": "ok",
+   "note": "brief §2.6; hcr.ny.gov page also says municipalities outside NYC can opt in"
+  },
+  {
+   "claim": "Exemptions: condo/co-op, income-restricted, rent-regulated, college dorm, seasonal-use, hotel",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/214",
+   "status": "ok",
+   "note": "brief §2.6; RPL 214 fetched, all listed"
+  },
+  {
+   "claim": "Certificate of occupancy on/after Jan 1, 2009 exempt for 30 years; 2015 building exempt until 2045",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/214",
+   "status": "ok",
+   "note": "RPL 214 item 8 confirms; 2015+30=2045 recomputed"
+  },
+  {
+   "claim": "The Ithacan (built 2023) cited as exempt until 2053",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief §2.6 (Sun July 2024); 2023+30=2053"
+  },
+  {
+   "claim": "Ithaca small-landlord exemption is one unit statewide; state default 10",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief §2.6; page discloses it rests on a search snippet and the brief marks it unconfirmed. RPL 214 gives no threshold, consistent with a local setting."
+  },
+  {
+   "claim": "Landlord claiming small-landlord exemption must disclose owners and unit counts",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/214",
+   "status": "ok",
+   "note": "RPL 214 item 1 fetched; brief §2.6"
+  },
+  {
+   "claim": "Owner-occupied buildings of 10 or fewer units exempt",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/214",
+   "status": "ok",
+   "note": "RPL 214 item 2 fetched; brief §2.6"
+  },
+  {
+   "claim": "High-rent exemption 345% of FMR in Ithaca (state default 245%)",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/214",
+   "status": "ok",
+   "note": "brief §2.6 (snippet, marked unconfirmed by page); 245% default confirmed in RPL 214 item 15"
+  },
+  {
+   "claim": "2023 one-bedroom FMR $1,276; 1,276 x 3.45 = $4,402.20",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "FMR from brief §2.6; recomputed 1276*3.45 = 4402.20 (brief rounds to $4,402)"
+  },
+  {
+   "claim": "Rent standard: lower of 10% or 5% plus CPI presumed unreasonable; rebuttable, not hard cap",
+   "source_url": "https://hcr.ny.gov/good-cause-eviction",
+   "status": "ok",
+   "note": "hcr.ny.gov fetched confirms standard; brief §2.6 for rebuttable"
+  },
+  {
+   "claim": "DHCR usually publishes CPI by August 1",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief §2.6 (Cornell Law lease-renewal page); hcr page does not state it but the brief cites the Cornell guide"
+  },
+  {
+   "claim": "Right to renew exceptions: landlord's residence, demolition, off market, proven ground; uncured violation after 10 days' written notice",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief §2.6 'Right to renew'"
+  },
+  {
+   "claim": "Refusal of reasonable terms is removal ground if written notice given 30 to 90 days before lease ends; nonpayment from unreasonable increase is not",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief §2.6 'Renewal refusal under Good Cause'"
+  },
+  {
+   "claim": "RPL 226-c: 30 days (<1 yr, no 1-yr lease), 60 days (1-2 yrs or lease 1-2 yrs), 90 days (>2 yrs or lease 2+); longer of the two; trigger non-renewal or 5%+ increase",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-C",
+   "status": "ok",
+   "note": "RPL 226-c fetched, matches; brief §2.6. A 12-month lease gives 60 days: correct."
+  },
+  {
+   "claim": "Late notice: tenancy continues on existing terms until the full period runs from the notice; notice must say if unit subject to Good Cause and why exempt",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-C",
+   "status": "ok",
+   "note": "RPL 226-c fetched; brief §2.6"
+  },
+  {
+   "claim": "City code 258-10: 120 days' written notice before renewing, showing unit or signing new tenants, unless initialed waiver; effective 2022-05-31",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief rows on 258-10 (ecode360 snippet; WSKG 2022; effective May 31, 2022). Bolded first-page waiver detail not re-checked beyond brief's waiver rows; start of counting marked unresolved by page."
+  },
+  {
+   "claim": "Retaliation defense does not apply to owner-occupied buildings with fewer than 4 units",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief §2.6 'Retaliation'"
+  },
+  {
+   "claim": "Student housing is not exempt by category; only college dorms",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief §2.6 dormitory exemption; RPL 214 item 13"
+  },
+  {
+   "claim": "Tenants Advocacy hotline 607-301-1560",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/",
+   "status": "ok",
+   "note": "page fetched, lists the Cornell Law School Tenants Advocacy Program Hotline at 607-301-1560; also brief"
+  },
+  {
+   "claim": "LawNY in Tompkins County, (607) 273-3667 (tool.html)",
+   "source_url": "https://www.lawny.org/page/51/ithaca-location",
+   "status": "ok",
+   "note": "Not in brief; one search shows LawNY's Ithaca office (902 Taber St) phone 607-273-3667, serving Tompkins and Tioga"
+  },
+  {
+   "claim": "Cayuga Heights, Lansing, Varna and Town of Ithaca parts of East Hill are outside the City",
+   "source_url": "brief §2.5 / §8",
+   "status": "ok",
+   "note": "brief states 258-10 does not reach Town, Lansing, Cayuga Heights; general geography for Varna (Town of Ithaca hamlet). Page marks opt-in status of these places as not confirmed."
+  },
+  {
+   "claim": "Cornell residence hall runs on a license, not a lease",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "consistent with brief housing-license material; page claim is descriptive and carries no figure"
+  },
+  {
+   "claim": "Page's tool.md number table matches tool.html NUMBERS (10, 5, 345, 245, 1276, 1, 10, 10, 2009, 30, 30/60/90, 5, 4, 10, 120)",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Compared each constant, all consistent with the sources above; the compute logic (longest of tenure or lease) matches RPL 226-c"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "c6f702d2b32e8b1135ed7fc243bbbdb367cb01cfbfc4f37430d04aab4c3ba9ee"
+}

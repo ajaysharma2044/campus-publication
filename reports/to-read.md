@@ -222,3 +222,215 @@ Entry shape (`scripts/v3/run.sh` appends one per newly published page after each
   Summary: Walk 15 to 20 minutes from Collegetown, bus from downtown, plan around the suspended West Hill routes, and park on a $359.77 B permit or $45 city permit.
   Ajay: 
 
+- 2026-11-08 | Ithaca rent + commute calculator for Cornell students | /tools/ithaca-rent-commute-calculator/ | tool | housing
+  Summary: Pick a neighborhood, unit size, roommates, lease, bus pass and car; get rent, power, bus and parking per month and the gap to Cornell's $13,744 double.
+  Ajay: 
+
+- 2026-11-08 | When to sign a lease at Cornell: timeline by start term | /tools/when-to-sign-lease-timeline-cornell/ | tool | housing
+  Summary: Enter your year, start term, transfer and exemption status and where you want to live; get the dated months to look, sign and cancel a backup room.
+  Ajay: 
+
+- 2026-11-08 | Off-campus move-in checklist: Cornell renters, by situation | /tools/off-campus-move-in-checklist-cornell/ | tool | housing
+  Summary: Enter your address type, move-in date, bills, car and household. Get a dated to-do list: inspection, NYSEG, trash tags, insurance, permits, occupants.
+  Ajay: 
+
+- 2026-11-08 | Can I live off campus at Cornell? 2026-27 eligibility quiz | /tools/can-i-live-off-campus-cornell-quiz/ | tool | housing
+  Summary: Enter your year, transfer status, age, family and service: see if you may sign a lease, which Cornell exemption to file, and the cost of signing early.
+  Ajay: 
+
+- 2026-11-08 | Good Cause Eviction checker: Ithaca coverage and notice | /tools/ithaca-good-cause-coverage-checker/ | tool | housing
+  Summary: Answer eight questions about your Ithaca rental: see if Good Cause Eviction covers it, which exemption applies, and the 30, 60 or 90 days' notice owed.
+  Ajay: 
+
+- 2026-11-08 | Is this lease fee legal? Ithaca deposit and fee checker | /tools/ithaca-lease-fee-deposit-checker/ | tool | housing
+  Summary: Enter your rent, deposit and each fee your Ithaca landlord asks for; see which are over New York caps, your deposit due date and the 2x penalty.
+  Ajay: 
+
+- 2026-11-08 | Ithaca sublet request: 10- and 30-day dates, what to send | /tools/ithaca-sublet-request-timeline/ | tool | housing
+  Summary: Enter your building size, sublet start and mailing date; get the landlord's 10-day and 30-day deadlines, the consent-by-silence date and what to include.
+  Ajay: 
+
+- 2026-11-08 | Cornell housing cancellation fee calculator, 2026-28 | /tools/cornell-housing-license-cancellation-fee-calculator/ | tool | housing
+  Summary: Enter class year, reason, cancel date and room rate; get your Cornell housing license cancellation fee, penalty-free deadline or a no-cancel answer.
+  Ajay: 
+
+- 2026-11-08 | Collegetown rent per bed, 2027-28, from 38 listings | /datasets/collegetown-rent-per-bed-2027-28/ | dataset | housing
+  Summary: Per-bed asking rent in Collegetown for 2027-28 by unit size, studio to 10BR: median, mean and range from 38 Ithaca Renting rows read Nov 8, 2026.
+  Ajay: 
+
+- 2026-11-08 | Collegetown vs downtown rent per bed, Nov 2026, 58 listings | /datasets/collegetown-vs-downtown-rent-per-bed-2026/ | dataset | housing
+  Summary: Ithaca Renting per-bed asking rents, downtown vs Collegetown: downtown runs about 20% to 28% cheaper for studios to 2BRs. 58 listings read Nov 8, 2026.
+  Ajay: 
+
+- 2026-11-08 | Cost of a year of housing at Cornell, 28 options, Nov 2026 | /datasets/ithaca-housing-cost-by-living-situation-2026-27/ | dataset | housing
+  Summary: Per-person cost of a year of housing at Cornell, 28 ways to live: $5,530 co-op triple to $28,104 Collegetown 1BR average. 79 prices, read Nov 8, 2026.
+  Ajay: 
+
+- 2026-11-08 | How early Collegetown leases are signed, 2017-2025: 9 cases | /datasets/collegetown-lease-signing-lead-times-2017-2025/ | dataset | housing
+  Summary: Collegetown leases signed 6 to 16 months before an August move-in, mostly 10 to 11: 9 dated cases from 6 Cornell Daily Sun stories, 2017 to 2025.
+  Ajay: 
+
+- 2026-11-08 | Off-campus housing at Cornell: the 2026-27 guide | /housing/cornell-off-campus-housing-guide/ | pillar | housing
+  Summary: Juniors, seniors and grads rent off campus. Collegetown leases go 8 to 16 months early; Cornell's $13,744 double equals $1,145 a month over 12 months.
+  Ajay: 
+
+- 2026-11-08 | When to sign a Collegetown lease, and when waiting is fine | /housing/when-to-sign-collegetown-lease-cornell/ | spoke | housing
+  Summary: Popular Collegetown units sign 8 to 16 months ahead, mostly in September or October. Downtown, Fall Creek, Lansing and grad housing can wait.
+  Ajay: 
+
+- 2026-11-08 | Reading an Ithaca lease before you sign: what to check | /housing/how-to-read-ithaca-lease-before-signing/ | spoke | housing
+  Summary: Check page one for a 120-day waiver, a deposit over one month's rent, banned fees and joint liability. Free lease advice before you sign: 607-301-1560.
+  Ajay: 
+
+- 2026-11-08 | When an Ithaca landlord won't fix heat, mold or bed bugs | /housing/ithaca-landlord-wont-fix-heat-mold-bed-bugs/ | spoke | housing
+  Summary: Put it in writing, call code enforcement, then get free advice. Ithaca heat must hit 68F by day from Sept 15 to May 31; don't withhold rent first.
+  Ajay: 
+
+- 2026-11-08 | Breaking an Ithaca lease to study abroad or leave Cornell | /housing/breaking-a-lease-early-ithaca-cornell/ | reader_guide | housing
+  Summary: Ask the landlord for a written release, then sublet or assign. If you just leave, the landlord must try to re-rent, but housemates still owe your share.
+  Ajay: 
+
+- 2026-11-08 | Finding off-campus roommates at Cornell: joint liability | /housing/cornell-off-campus-roommates-joint-liability/ | spoke | housing
+  Summary: Find Cornell housemates on the Off-Campus Living list or the marketplace, then plan for a dropout: each co-tenant owes the full rent.
+  Ajay: 
+
+- 2026-11-08 | Cornell sophomores: how to get a good junior-year lease | /housing/off-campus-housing-cornell-sophomores/ | reader_guide | housing
+  Summary: Pick your group and area by October of sophomore year, sign by Jan 31 to drop a backup Cornell room for $50, and refuse the fees New York bans.
+  Ajay: 
+
+- 2026-11-08 | Already renting near Cornell: renewals, repairs and deposits | /housing/off-campus-housing-cornell-juniors-seniors-renting/ | reader_guide | housing
+  Summary: In the City of Ithaca, renewal needs 120 days' notice unless you waived it, heat is owed Sept 15 to May 31, and your deposit is due back within 14 days.
+  Ajay: 
+
+- 2026-11-08 | Renting near Cornell as an international student | /housing/off-campus-housing-cornell-international-students/ | reader_guide | housing
+  Summary: No SSN needed. New York caps deposit plus any prepaid rent at one month. Check the unit's certificate and Cornell safety tool before you wire money.
+  Ajay: 
+
+- 2026-11-08 | Where Cornell grad students live in Ithaca, and when to look | /housing/off-campus-housing-cornell-grad-students/ | reader_guide | housing
+  Summary: Most Cornell grads rent off campus. Start in March or April for August; Fall Creek, downtown and Hasbrouck ($1,415 a 1BR, utilities in) beat Collegetown.
+  Ajay: 
+
+- 2026-11-08 | Cornell family housing in Ithaca: costs and options | /housing/cornell-student-family-housing-ithaca/ | reader_guide | housing
+  Summary: Hasbrouck family units run $1,475 to $1,530 a month for 2026-27; a private Ithaca 2BR averages $2,459. Where Cornell families live and what it costs.
+  Ajay: 
+
+- 2026-11-08 | The cheapest ways to live off campus at Cornell | /housing/cheapest-off-campus-housing-cornell/ | reader_guide | housing
+  Summary: Cornell's cheapest options: co-op triples, a $620 Hasbrouck single, and $695 to $800 beds in big shares. Aid covers rent, not deposits or summer.
+  Ajay: 
+
+- 2026-11-08 | Ithaca's 120-day lease renewal rule and the waiver | /housing/ithaca-120-day-lease-renewal-notice-rule/ | spoke | housing
+  Summary: In the City of Ithaca a landlord must give tenants 120 days' written notice before renewing, showing or re-letting, unless you initial a page-one waiver.
+  Ajay: 
+
+- 2026-11-08 | Ithaca Good Cause Eviction: renewals and rent increases | /housing/ithaca-good-cause-eviction-rent-increase-students/ | spoke | housing
+  Summary: Ithaca's Good Cause law covers private student rentals: a right to renew, and raises above 10% or 5% plus CPI presumed unreasonable. Who is exempt.
+  Ajay: 
+
+- 2026-11-08 | Ithaca security deposit rules: the cap, 14 days, banned fees | /housing/ithaca-security-deposit-rules-tenants/ | spoke | housing
+  Summary: New York caps an Ithaca deposit at one month's rent and bans application and cleaning fees; a deposit not returned itemized in 14 days is forfeit.
+  Ajay: 
+
+- 2026-11-08 | Is off-campus housing cheaper than a Cornell dorm? | /housing/is-off-campus-cheaper-than-cornell-dorm/ | spoke | housing
+  Summary: Only big shares beat Cornell's $13,744 double: a Collegetown 6BR bed at $800 a month does; a 4BR share or a 1BR alone does not.
+  Ajay: 
+
+- 2026-11-08 | Who can live off campus at Cornell: the rule and exemptions | /housing/cornell-residential-requirement-exemptions-live-off-campus/ | spoke | housing
+  Summary: Sophomores must live in Cornell or affiliated housing unless exempt: 21+, married, dependents, veterans, commuters. Sign first and you're billed anyway.
+  Ajay: 
+
+- 2026-11-08 | Cornell co-ops and Greek houses: cost and how to get in | /housing/cornell-co-ops-greek-houses-cost-how-to-join/ | spoke | housing
+  Summary: A Cornell co-op double costs $6,974 to $9,962 for 2026-27 vs $13,744 in a dorm. Co-ops pick in November and February; Greek houses need membership.
+  Ajay: 
+
+- 2026-11-08 | Ithaca renter rules: trash tags, snow, noise and parties | /housing/ithaca-trash-tags-snow-noise-rules-renters/ | spoke | housing
+  Summary: Ithaca trash needs a $6 tag per bag in 2026, out no more than 24 hours early. Clear sidewalks within 24 hours; quiet hours are 10 p.m. to 7:30 a.m.
+  Ajay: 
+
+- 2026-11-08 | Eviction or a vacate order in Ithaca: what happens next | /housing/ithaca-eviction-vacate-order-what-to-do/ | spoke | housing
+  Summary: Ithaca evictions run through City Court: a 14-day demand, a hearing, 14 days' notice. If the City orders a building vacated, landlords owe double rent.
+  Ajay: 
+
+- 2026-11-08 | Short-term furnished housing near Cornell for scholars | /housing/visiting-scholar-postdoc-furnished-housing-ithaca/ | spoke | housing
+  Summary: Cornell guarantees visiting scholars no housing. Try International Scholar House (month-to-month), Hasbrouck ($1,490 furnished 1BR) or a semester sublet.
+  Ajay: 
+
+- 2026-11-08 | Where to find off-campus housing listings at Cornell | /housing/cornell-off-campus-housing-listings-where-to-find/ | spoke | housing
+  Summary: Start with Cornell's College Pads marketplace and the Off-Campus Living email list, then Ithaca Renting's per-bed price list.
+  Ajay: 
+
+- 2026-11-08 | Summer housing in Ithaca: sublets and lease gaps | /housing/summer-sublet-ithaca-finding-housing-may-august/ | spoke | housing
+  Summary: Cornell dorms closed May 17, 2026 and most Ithaca leases end July 31. Get a written sublease and landlord consent, and plan storage for the gap.
+  Ajay: 
+
+- 2026-11-08 | Cornell off-campus housing for parents: cost, lease, safety | /housing/cornell-off-campus-housing-for-parents/ | reader_guide | housing
+  Summary: Off campus beats the $13,744 Cornell double only in big shared units. Parents: wait until junior year, cap the deposit at a month, check the COC.
+  Ajay: 
+
+- 2026-11-08 | Collegetown vs Fall Creek vs downtown Ithaca: where to live | /housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/ | rewrite | housing
+  Summary: Collegetown is the walk-to-class choice and signs a year early; downtown beds cost 20% to 28% less at one landlord; Fall Creek is the quiet grad pick.
+  Ajay: 
+
+- 2026-11-08 | How to sublet an Ithaca apartment and get landlord consent | /housing/cornell-summer-sublet-how-to-sublet-apartment-ithaca/ | rewrite | housing
+  Summary: In a New York building of 4+ units your landlord can't unreasonably refuse a sublet: mail the request certified; silence after 30 days is consent.
+  Ajay: 
+
+- 2026-11-08 | Cornell transfer housing: on campus, exemptions, leases | /housing/cornell-transfer-housing/ | rewrite | housing
+  Summary: Most Cornell transfers live on campus one year ($13,744 for a double in 2026-27). Junior and senior transfers are exempt but must reapply every year.
+  Ajay: 
+
+- 2026-11-08 | Moving out of an Ithaca apartment: inspection to deposit | /housing/moving-out-ithaca-apartment-deposit-back/ | spoke | housing
+  Summary: Ask for the move-out inspection 1 to 2 weeks before your lease ends, photograph every room, and expect the deposit or a list of charges within 14 days.
+  Ajay: 
+
+- 2026-11-08 | Collegetown rent in 2026: one-bedroom and per-bed prices | /housing/collegetown-rent-prices-per-bed-one-bedroom/ | spoke | housing
+  Summary: A Collegetown 1BR asks about $2,025 to $2,342 a month in Nov 2026; a bed in a 6BR about $800. What each price includes, by unit size and source.
+  Ajay: 
+
+- 2026-11-08 | Renters insurance off campus at Cornell: need and cost | /housing/cornell-off-campus-renters-insurance-cost/ | spoke | housing
+  Summary: Cornell recommends but doesn't require renters insurance off campus. Ithaca quotes run $5 to $27 a month; your lease decides if you must buy it.
+  Ajay: 
+
+- 2026-11-08 | City of Ithaca or not: why your rental's address matters | /housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/ | spoke | housing
+  Summary: Ithaca's 120-day rule, Certificate of Compliance, safety tool, parking permits and trash tags stop at the city line. Here is what changes outside it.
+  Ajay: 
+
+- 2026-11-08 | Renting to Cornell students: an Ithaca landlord checklist | /housing/becoming-ithaca-landlord-student-rental-rules/ | spoke | housing
+  Summary: City of Ithaca rentals need a Certificate of Compliance ($100 to $2,500), 120 days' renewal notice, a one-month deposit cap and a 14-day return.
+  Ajay: 
+
+- 2026-11-08 | Off-campus housing: start here as a sophomore | /start/sophomore/ | start_here | housing
+  Summary: For Cornell sophomores planning a junior-year lease: the guides to read in order, so you know where, when, with whom and on what terms you will sign.
+  Ajay: 
+
+- 2026-11-08 | Off-campus housing: start here with a partner or children | /start/student-family/ | start_here | housing
+  Summary: For Cornell students moving to Ithaca with a spouse, partner or children: the guides to read, in order, to choose Hasbrouck or a private rental.
+  Ajay: 
+
+- 2026-11-08 | Off-campus housing: start here if you'll be away a term | /start/away-semester/ | start_here | housing
+  Summary: For Cornell students going abroad or away mid-lease: what to read, in order, to decide between a sublet, an early exit or a penalty-free cancellation.
+  Ajay: 
+
+- 2026-11-08 | Off-campus housing: start here with an exemption | /start/exempt-underclass/ | start_here | housing
+  Summary: For Cornell first- and second-years who may qualify to live off campus: confirm the exemption, get approval, then know when and what to sign.
+  Ajay: 
+
+- 2026-11-08 | Off-campus housing: start here in a co-op or Greek house | /start/affiliated-housing/ | start_here | housing
+  Summary: For Cornell students in, or seeking, a co-op or Greek house: what to read, in order, to get a room, meet Cornell's housing rules and plan junior year.
+  Ajay: 
+
+- 2026-11-08 | Off-campus housing: start here for a short stay | /start/short-stay/ | start_here | housing
+  Summary: For visiting scholars, postdocs and one-semester students at Cornell: the guides to read to pick furnished housing, a sublet or a lease you can leave.
+  Ajay: 
+
+- 2026-11-08 | Off-campus housing: start here as an alum landlord | /start/alum-landlord/ | start_here | housing
+  Summary: For Cornell alumni who own or may buy an Ithaca rental: the order to read our guides on City rules, Good Cause, deposits, renewal notices and rents.
+  Ajay: 
+
+- 2026-11-08 | Collegetown landlords: how to check one before you sign | /housing/ithaca-landlords-to-avoid-collegetown-reviews/ | rewrite | housing
+  Summary: No current review list ranks Collegetown landlords. Call 607-274-6508 about the certificate, check the safety tool and ask past tenants before you sign.
+  Ajay: 
+
+- 2026-11-08 | What a month off campus costs at Cornell, all in | /housing/what-a-month-off-campus-costs-cornell/ | spoke | housing
+  Summary: A shared Collegetown 4BR runs about $1,285 to $1,373 a person a month with power, internet and insurance; Cornell's double works out to $1,145.
+  Ajay: 
+

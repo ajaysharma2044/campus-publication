@@ -1,0 +1,157 @@
+{
+ "slug": "ithaca-eviction-vacate-order-what-to-do",
+ "queue_id": "q-housing-0045",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Nonpayment: certified-mail notice if rent not paid within 5 days; not before the 7th for rent due the 1st",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/eviction-proceedings",
+   "status": "ok",
+   "note": "Opened the guide; matches section 5."
+  },
+  {
+   "claim": "14-day written demand cannot be served until 6 days after rent is due; 14 days to pay or leave",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/eviction-proceedings",
+   "status": "ok",
+   "note": "Matches the guide."
+  },
+  {
+   "claim": "Petition served 10 to 17 days before hearing; nail-and-mail completed within 20 days",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/eviction-proceedings",
+   "status": "ok",
+   "note": "Guide says delivery and mailing within 20 days of each other; the page's wording is a tight paraphrase."
+  },
+  {
+   "claim": "One 14-day adjournment on hearing day; hardship stay up to one year; 14 days' notice before removal, business days, sunrise to sunset; appeal within 30 days of service; 30-day warrant stay in lease-breach holdover",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/eviction-proceedings",
+   "status": "ok",
+   "note": "All confirmed in the guide."
+  },
+  {
+   "claim": "Rental assistance once covered up to 12 months of back rent and utilities; 2026 status marked Not confirmed",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/eviction-proceedings",
+   "status": "ok",
+   "note": "Guide says ERAP covers up to 12 months; page flags the open question itself."
+  },
+  {
+   "claim": "Example timeline: $1,100 rent due Nov 1, notice Nov 7, demand to Nov 21, hearing early December, about seven weeks to earliest removal",
+   "source_url": "our own math",
+   "status": "ok",
+   "note": "Recomputed: Nov 7 + 14 = Nov 21; filed Nov 22 or later, served 10 days or more before hearing gives hearing about Dec 2; warrant plus 14 days' notice gives about Dec 16 to 18, roughly 6.5 to 7 weeks from Nov 1. 'About seven weeks' holds."
+  },
+  {
+   "claim": "Double-rent example: $1,200 / 31 = $38.71/day; x2 = $77.42; 16 days (Mar 4 to 20) = $1,239",
+   "source_url": "our own math",
+   "status": "ok",
+   "note": "1200/31 = 38.71; 2400/31 = 77.419; x16 = 1238.7, rounds to $1,239. Mar 20 minus Mar 4 = 16 days."
+  },
+  {
+   "claim": "2019 City rule: landlords owe displaced tenants double the monthly rent prorated per day; unsafe rental a misdemeanor, fine up to $500, up to 30 days",
+   "source_url": "https://www.cornellsun.com/article/2019/03/city-council-votes-to-stiffen-penalties-for-noncompliant-landlords",
+   "status": "ok",
+   "note": "Sun article confirms all, incl. 'double the monthly rent, pro-rated for every day of displacement'."
+  },
+  {
+   "claim": "Asteri: 181 units on the Commons, Vecino Group, opened August 2024, about 200 residents ordered out March 4 2026, lifted March 20",
+   "source_url": "https://www.cornellsun.com/article/2026/03/asteri-s-aftermath-displacement-dangerous-conditions-and-a-predatory-cash-for-keys-scheme",
+   "status": "ok",
+   "note": "Matches the Sun."
+  },
+  {
+   "claim": "Cash offer $2,000 to leave within five days and release claims; city official and Ithaca Tenants Union called it predatory; county set aside $50,000 for legal aid",
+   "source_url": "https://www.cornellsun.com/article/2026/03/asteri-s-aftermath-displacement-dangerous-conditions-and-a-predatory-cash-for-keys-scheme",
+   "status": "ok",
+   "note": "Sun: Karasin (city official) and the Tenants' Union; county legislature set aside $50,000 on March 19. Page's 'then' is loose but not wrong."
+  },
+  {
+   "claim": "Fontana, 327 Eddy St, 2016: over 50 students with Aug 1 leases, landlord offered $30 a day or a hotel room",
+   "source_url": "https://www.cornellsun.com/article/2016/09/delayed-collegetown-apartment-opening-leaves-e2-80-88students-homeless",
+   "status": "ok",
+   "note": "Matches the Sun; also brief §."
+  },
+  {
+   "claim": "Abatements about 10% to 20% minor, 30% moderate, 50% to 60% most serious; withholding rent a last resort; 14-day notice starts nonpayment case",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance",
+   "status": "ok",
+   "note": "Matches the guide."
+  },
+  {
+   "claim": "Ithaca City Court, 118 East Clinton Street; small claims up to $5,000; Town of Ithaca (607) 273-1783, Lansing (607) 533-7054",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance",
+   "status": "ok",
+   "note": "Matches the guide; also in brief."
+  },
+  {
+   "claim": "LawNY (607) 273-3667, hotline (607) 301-1560, online intake ithacatenantresources.org, chatbot Teny not for emergencies",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/",
+   "status": "ok",
+   "note": "Confirmed on the guide and in the brief."
+  },
+  {
+   "claim": "CDRC (607) 273-9347; 2-1-1 Tompkins/Cortland; (877) 211-8667",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources",
+   "status": "ok",
+   "note": "Cornell page gives CDRC and 2-1-1; the 877 number is in the brief, row 'brief §' on the 2-1-1 line, not on the Cornell page. The page attributes only CDRC and 2-1-1 to Cornell, so the attribution is fine."
+  },
+  {
+   "claim": "City Building Division (607) 274-6508; 108 E. Green St., 4th floor, City Hall; NY AG (800) 771-7755",
+   "source_url": "brief §",
+   "status": "ok",
+   "note": "Phones are in the brief; address and AG number taken from the brief's resource table."
+  },
+  {
+   "claim": "Full representation only for City of Ithaca residents; advice with no income or geographic limits",
+   "source_url": "https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources",
+   "status": "ok",
+   "note": "Page quote: 'Full representation is available only to City of Ithaca residents'; advice regardless of income or location."
+  },
+  {
+   "claim": "Good Cause: Ithaca opted in July 2024; grounds incl. unpaid rent and substantial violation uncured after 10 days' written notice; rent presumption above lower of 10% or 5% plus CPI; retaliation within a year, not in owner-occupied buildings under four units",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal",
+   "status": "ok",
+   "note": "Lease renewal page confirms all; brief §2.6."
+  },
+  {
+   "claim": "30/60/90-day notice for non-renewal or raise of 5% or more; late notice keeps old terms",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-C",
+   "status": "ok",
+   "note": "Lease renewal page and brief §2.6 agree."
+  },
+  {
+   "claim": "RPL 214 exemptions: C of O from Jan 1 2009 for 30 years, owner-occupied 10 or fewer units, small landlord, condos/co-ops, Cornell dorms",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief has the certificate of occupancy, 30 years and owner-occupied 10 or fewer."
+  },
+  {
+   "claim": "Immigration: no eviction for status unless substantial lease or code violation; harassment barred; Fair and Equitable Housing Office; landlord dispute does not affect visa",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/immigrant-tenant-rights",
+   "status": "ok",
+   "note": "Brief has the substantial-violation and Fair and Equitable Housing Office rows."
+  },
+  {
+   "claim": "Off-Campus Living does not represent students in landlord disputes (2019 Sun); Solidarity Slate candidate said students fear eviction for calling about repairs (2021 Sun)",
+   "source_url": "brief §",
+   "status": "ok",
+   "note": "Both attributions appear in the brief with the same sources; wording stays within them."
+  },
+  {
+   "claim": "Housemates jointly and severally liable; owed rent until re-rented",
+   "source_url": "brief §",
+   "status": "ok",
+   "note": "Brief rows on joint and several liability and re-renting."
+  }
+ ],
+ "beats_top": {
+  "query": "ithaca eviction process tenant rights",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

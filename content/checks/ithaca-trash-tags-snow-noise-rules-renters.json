@@ -1,0 +1,198 @@
+{
+ "slug": "ithaca-trash-tags-snow-noise-rules-renters",
+ "queue_id": "q-housing-0044",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Trash tag $6.00 each, $36.00 per sheet of 6, from Jan 1, 2026; one tag per can or bag up to 35 lbs; sales final",
+   "source_url": "https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags",
+   "status": "ok",
+   "note": "brief §10; also confirmed on the City tag page."
+  },
+  {
+   "claim": "Yard waste tags $9 per sheet of 6; season April 1 to November 30 or until snow; weeks opposite recycling",
+   "source_url": "https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags",
+   "status": "ok",
+   "note": "Confirmed on the City tag page."
+  },
+  {
+   "claim": "Yard waste: no plastic bags, bundles up to 4 ft, branches under 2 in., 50 lbs max",
+   "source_url": "https://www.cityofithacany.gov/239/Trash-Collection",
+   "status": "fixed",
+   "note": "Values are right (brief §10), but the tag page does not carry them; the collection page does. Moved the 'no plastic bags' link from the tag page to /239/Trash-Collection."
+  },
+  {
+   "claim": "Container capped at 32 gallons and 70 lbs",
+   "source_url": "https://www.cityofithacany.gov/239/Trash-Collection",
+   "status": "ok",
+   "note": "Confirmed on the collection page; brief §10."
+  },
+  {
+   "claim": "Recycling every other week on the trash day",
+   "source_url": "https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags",
+   "status": "ok",
+   "note": "Confirmed on the City tag page."
+  },
+  {
+   "claim": "Tag seller table: Cornell Campus Store 135 Ho Plaza; P&C Fresh East Hill Plaza; City Hall 108 E. Green St.; Ace 213 S. Fulton; Wegmans 500 S. Meadow; Tops 2300 N. Triphammer",
+   "source_url": "https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags",
+   "status": "ok",
+   "note": "All match the City page and brief §10."
+  },
+  {
+   "claim": "GreenStar: 'Location not given on the City page'",
+   "source_url": "https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags",
+   "status": "fixed",
+   "note": "The City page does list GreenStar locations: 770 Cascadilla St., 307 College Ave. (GreenStar College Town) and 215 N. Cayuga St. (Dewitt Mall). Replaced the row with those addresses; closest-to is Collegetown, Downtown. The brief row is incomplete but not wrong, so I left it."
+  },
+  {
+   "claim": "Streets and Facilities 607-272-1718; county (607) 273-6632 (City page lists 273-5700)",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Both numbers confirmed on the City and county pages; the brief's resolution is followed."
+  },
+  {
+   "claim": "Set-out no more than 24 hours before pickup; lidded containers at side or rear; tag loose bags; no appliances, couches or mattresses stored outdoors; owners and tenants responsible for litter",
+   "source_url": "https://www.cityofithacany.gov/136/Exterior-Property-Maintenance",
+   "status": "ok",
+   "note": "Confirmed on the exterior maintenance page; brief §10."
+  },
+  {
+   "claim": "Solid Waste group issues violation notices; fines in Code 178-10 not confirmed",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief row cites the collection page as a snippet; the fetched page did not repeat it. The brief fact is trusted. 178-10 is the civil penalties section per the exterior page."
+  },
+  {
+   "claim": "Sidewalk snow: full paved width within 24 hours after snowfall begins; owner's duty; Code 178-3; corner lots to curb and ramps",
+   "source_url": "https://www.cityofithacany.gov/m/faq?cat=46",
+   "status": "ok",
+   "note": "brief §10. The City FAQ states the full paved width and 24 hours; the exterior page names 178-3 but gives no width."
+  },
+  {
+   "claim": "City may clear and bill the owner, minimum $50 per plowing; clear again after plows; sand or ashes on ice",
+   "source_url": "https://www.cityofithacany.gov/m/faq?cat=46",
+   "status": "ok",
+   "note": "brief §10. The FAQ confirms the $50 minimum and the ashes or sand rule. 'Per plowing' and the re-clear point appear only in the slideshow caption, as the brief's snippet says."
+  },
+  {
+   "claim": "FingerLakes1 reported the rule in effect in February 2026",
+   "source_url": "https://www.fingerlakes1.com/2026/02/14/ithaca-sidewalk-snow-rules-in-effect/",
+   "status": "ok",
+   "note": "brief §10 (URL date 2026/02/14)."
+  },
+  {
+   "claim": "Grass no taller than 9 inches; park only in designated spaces up to the allowed number; not on grass or sidewalk",
+   "source_url": "https://www.cityofithacany.gov/136/Exterior-Property-Maintenance",
+   "status": "ok",
+   "note": "Confirmed on the City page."
+  },
+  {
+   "claim": "Noise: daytime 7:30 a.m. to 10 p.m., night 10 p.m. to 7:30 a.m.; 60 dBA day and 50 dBA night; 2018 amendments",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief §10."
+  },
+  {
+   "claim": "Party noise: person in charge keeps it from disturbing people 25 feet or more away; vehicle audio 50 ft day, 25 ft night",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief §10."
+  },
+  {
+   "claim": "Amplified sound 10 p.m. to 7:30 a.m. needs a permit, apply online 72 hours ahead; no fee listed; Penal Law 240.20",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief §10."
+  },
+  {
+   "claim": "Town of Ithaca has its own noise ordinance, daytime 7:00 a.m. to 9:00 p.m.",
+   "source_url": "https://ecode360.com/8659282",
+   "status": "ok",
+   "note": "brief §10. The page returned 403 to my fetch; a search confirmed the Town daytime definition of 7:00 a.m. to 9:00 p.m."
+  },
+  {
+   "claim": "Odd/even parking Nov 1 to Apr 1, 7 p.m. to 6 a.m.; enforced when needed; 24-hour streets exempt; TC SIREN, text SIREN to 67283; move every 24 hours on weekdays; 72-hour tow",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief §10."
+  },
+  {
+   "claim": "Residential parking permit $45 a year, runs to July 31; renters with a lease can get one, landlords cannot",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief §10."
+  },
+  {
+   "claim": "Meters $2.50/hr, 9 a.m. to 6 p.m. Mon-Sat, free Sundays; Dryden Road Garage 118 Dryden Rd, $2.25/hr, $18.00 daily max",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief §10."
+  },
+  {
+   "claim": "County recycling guidelines effective July 1, 2026: paper cups accepted; foam cups and cartons not accepted; food scraps to Drop Spots",
+   "source_url": "http://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management",
+   "status": "ok",
+   "note": "Confirmed on the county page."
+  },
+  {
+   "claim": "Recycling center at 122 Commercial Ave: Mon-Sat 7:00-3:30; office weekdays 8:00-4:30; hi-vis vest since Aug 1, 2026; fees not listed; (607) 273-6632",
+   "source_url": "http://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management",
+   "status": "ok",
+   "note": "Confirmed on the county page; brief §10."
+  },
+  {
+   "claim": "209 Stewart Ave: county solid waste plus garbage $100 a year split five ways, $20 each",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief gives $20 + $80 split five ways. $20 + $80 = $100; $100 / 5 = $20."
+  },
+  {
+   "claim": "Ithaca Renting Collegetown page lists trash included at Collegetown Center, Plaza, Court; downtown page includes heat, water, trash",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "unverifiable",
+   "note": "Not in the brief and not fetched. The brief covers Collegetown Center only through a different unit page. Left as is: a low-stakes illustration, and the page's core answer does not depend on it."
+  },
+  {
+   "claim": "407 College Ave listing bundles recycling and snow removal",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief lists recycling and snow removal among the inclusions."
+  },
+  {
+   "claim": "Cornell lease checklist lists snow removal as a term",
+   "source_url": "brief §11",
+   "status": "ok",
+   "note": "brief §11 (the checklist item 'snow removal and trash duties')."
+  },
+  {
+   "claim": "Four housemates, two bags a week: 104 tags, $624 a year, $156 each; one bag a week $78 each",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "Recomputed: 2 x 52 = 104; 104 x $6 = $624; $624 / 4 = $156; $78 for half. The junior/senior block's $624 for two bags a week matches."
+  },
+  {
+   "claim": "Six tags at $6.00 = $36.00, so the sheet saves nothing",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "6 x 6 = 36."
+  },
+  {
+   "claim": "Example: storm starts 9 p.m. Friday, walk must be clear by 9 p.m. Saturday",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "Plus 24 hours."
+  },
+  {
+   "claim": "GradCafe posters in 2014 called Collegetown loud and undergraduate and pointed to East Hill and downtown",
+   "source_url": "https://forum.thegradcafe.com/topic/51153-cornell-english-phd-help-with-housing-pretty-please",
+   "status": "ok",
+   "note": "Brief cites this thread in its voice section (§9, housing forum row); the attribution as 'posters', 2014, matches the brief."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "c47aeae5e33974dad90108f9de4f0817de245b2ebc560e00a075933deb305816"
+}

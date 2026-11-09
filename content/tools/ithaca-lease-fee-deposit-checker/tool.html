@@ -1,0 +1,223 @@
+<div class="tool" id="tool-ithaca-lease-fee-deposit-checker" data-tool="ithaca-lease-fee-deposit-checker" data-as-of="2026-11-08">
+  <style>
+    #tool-ithaca-lease-fee-deposit-checker fieldset { border: 1px solid rgba(127,127,127,0.45); padding: 0.75rem 0.9rem; margin: 0 0 1rem; }
+    #tool-ithaca-lease-fee-deposit-checker legend { font-weight: 700; padding: 0 0.3rem; }
+    #tool-ithaca-lease-fee-deposit-checker .lfd-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 0.75rem 1rem; }
+    #tool-ithaca-lease-fee-deposit-checker label { display: block; font-weight: 600; margin-bottom: 0.2rem; }
+    #tool-ithaca-lease-fee-deposit-checker input[type="number"],
+    #tool-ithaca-lease-fee-deposit-checker input[type="date"] { width: 100%; padding: 0.4rem; font: inherit; box-sizing: border-box; }
+    #tool-ithaca-lease-fee-deposit-checker .lfd-check label { display: inline; font-weight: 400; }
+    #tool-ithaca-lease-fee-deposit-checker .lfd-hint { display: block; font-size: 0.875em; opacity: 0.8; margin-top: 0.2rem; }
+    #tool-ithaca-lease-fee-deposit-checker .lfd-result { border-top: 1px solid currentColor; padding-top: 0.9rem; margin-top: 1rem; }
+    #tool-ithaca-lease-fee-deposit-checker .lfd-result ul { padding-left: 1.2rem; margin: 0.5rem 0; }
+    #tool-ithaca-lease-fee-deposit-checker .lfd-result li { margin: 0.4rem 0; }
+    #tool-ithaca-lease-fee-deposit-checker .lfd-small { font-size: 0.875em; opacity: 0.85; }
+  </style>
+
+  <p class="lfd-small">New York's limits as read on Nov 8, 2026: deposit plus any rent advance <span data-as-of="2026-11-08">at most one month's rent</span>; application fee <span data-as-of="2026-11-08">$0</span>; background check <span data-as-of="2026-11-08">at most $20</span>; late fee <span data-as-of="2026-11-08">only after 5 days, at most $50 or 5% of rent</span>; key copies <span data-as-of="2026-11-08">at most 110% of cost</span>; deposit back <span data-as-of="2026-11-08">within 14 days</span> of move-out.</p>
+
+  <fieldset>
+    <legend>Rent and deposit</legend>
+    <div class="lfd-grid">
+      <div>
+        <label for="ithaca-lease-fee-deposit-checker-rent">Monthly rent on your lease ($)</label>
+        <input id="ithaca-lease-fee-deposit-checker-rent" type="number" min="0" max="20000" step="0.01" value="1246.25" data-as-of="2026-11-08" inputmode="decimal">
+        <span class="lfd-hint">Use the rent you pay, per person if your lease is per bed. The default is Ithaca Renting's 2027-28 Collegetown 4BR median per bed.</span>
+      </div>
+      <div>
+        <label for="ithaca-lease-fee-deposit-checker-deposit">Security deposit asked ($)</label>
+        <input id="ithaca-lease-fee-deposit-checker-deposit" type="number" min="0" max="50000" step="0.01" value="1246.25" inputmode="decimal">
+      </div>
+      <div>
+        <label for="ithaca-lease-fee-deposit-checker-advance">Rent paid in advance, beyond the first month ($)</label>
+        <input id="ithaca-lease-fee-deposit-checker-advance" type="number" min="0" max="50000" step="0.01" value="0" inputmode="decimal">
+        <span class="lfd-hint">A "last month's rent" up front counts here. First month's rent does not.</span>
+      </div>
+      <div>
+        <label for="ithaca-lease-fee-deposit-checker-pet">Pet deposit ($)</label>
+        <input id="ithaca-lease-fee-deposit-checker-pet" type="number" min="0" max="20000" step="0.01" value="0" inputmode="decimal">
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Fees at signing</legend>
+    <div class="lfd-grid">
+      <div>
+        <label for="ithaca-lease-fee-deposit-checker-appfee">Application or processing fee ($)</label>
+        <input id="ithaca-lease-fee-deposit-checker-appfee" type="number" min="0" max="5000" step="0.01" value="0" inputmode="decimal">
+      </div>
+      <div>
+        <label for="ithaca-lease-fee-deposit-checker-bgfee">Background or credit check fee ($)</label>
+        <input id="ithaca-lease-fee-deposit-checker-bgfee" type="number" min="0" max="5000" step="0.01" value="0" inputmode="decimal">
+        <span class="lfd-hint lfd-check"><input id="ithaca-lease-fee-deposit-checker-bgrecent" type="checkbox"> <label for="ithaca-lease-fee-deposit-checker-bgrecent">I can give the landlord a check from the past 30 days</label></span>
+      </div>
+      <div>
+        <label for="ithaca-lease-fee-deposit-checker-cleaning">Cleaning fee or cleaning deposit ($)</label>
+        <input id="ithaca-lease-fee-deposit-checker-cleaning" type="number" min="0" max="5000" step="0.01" value="0" inputmode="decimal">
+        <span class="lfd-hint">A separate charge, not a deduction taken from your deposit later.</span>
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>During the lease</legend>
+    <div class="lfd-grid">
+      <div>
+        <label for="ithaca-lease-fee-deposit-checker-latefee">Late fee charged ($)</label>
+        <input id="ithaca-lease-fee-deposit-checker-latefee" type="number" min="0" max="5000" step="0.01" value="0" inputmode="decimal">
+      </div>
+      <div>
+        <label for="ithaca-lease-fee-deposit-checker-dayslate">Days the rent was late</label>
+        <input id="ithaca-lease-fee-deposit-checker-dayslate" type="number" min="0" max="365" step="1" value="0" inputmode="numeric">
+      </div>
+      <div>
+        <label for="ithaca-lease-fee-deposit-checker-keyfee">Charge for a key copy ($)</label>
+        <input id="ithaca-lease-fee-deposit-checker-keyfee" type="number" min="0" max="5000" step="0.01" value="0" inputmode="decimal">
+      </div>
+      <div>
+        <label for="ithaca-lease-fee-deposit-checker-keycost">What the copy cost the landlord, if you know ($)</label>
+        <input id="ithaca-lease-fee-deposit-checker-keycost" type="number" min="0" max="5000" step="0.01" value="" placeholder="unknown" inputmode="decimal">
+        <span class="lfd-hint lfd-check"><input id="ithaca-lease-fee-deposit-checker-keymany" type="checkbox"> <label for="ithaca-lease-fee-deposit-checker-keymany">More than three copies of this key this calendar year</label></span>
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Moving out</legend>
+    <div class="lfd-grid">
+      <div>
+        <label for="ithaca-lease-fee-deposit-checker-moveout">Move-out date (the day you hand back the keys)</label>
+        <input id="ithaca-lease-fee-deposit-checker-moveout" type="date" value="2027-07-31" data-as-of="2026-11-08">
+        <span class="lfd-hint">Most Ithaca student leases end July 31.</span>
+      </div>
+    </div>
+  </fieldset>
+
+  <h3>Your result</h3>
+  <div class="lfd-result" id="ithaca-lease-fee-deposit-checker-result" aria-live="polite">
+    <p>If this box does not update, check by hand: deposit plus advance plus pet deposit must be no more than one month's rent (GOL 7-108). Application and cleaning fees are not allowed. A background check is at most $20, or $0 if you bring one from the past 30 days, and a late fee is allowed only after 5 days, at most $50 or 5% of rent (RPL 238-a). Key copies are at most 110% of cost (RPL 235-i). Your deposit or an itemized statement is due 14 days after you move out.</p>
+  </div>
+
+  <script>
+  (function () {
+    var root = document.getElementById("tool-ithaca-lease-fee-deposit-checker");
+    if (!root) return;
+
+    var GOL = "https://www.nysenate.gov/legislation/laws/GOB/7-108";
+    var RPL238 = "https://www.nysenate.gov/legislation/laws/RPP/238-A";
+    var RPL235 = "https://www.nysenate.gov/legislation/laws/RPP/235-I";
+    var CLS = "https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits";
+    var CLB = "https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance";
+    var NUMBERS = {
+      depositCapMonths: { value: 1, asOf: "2026-11-08", source: GOL },
+      applicationFeeMax: { value: 0, asOf: "2026-11-08", source: RPL238 },
+      backgroundCheckMax: { value: 20, asOf: "2026-11-08", source: RPL238 },
+      backgroundRecentDays: { value: 30, asOf: "2026-11-08", source: RPL238 },
+      cleaningFeeMax: { value: 0, asOf: "2026-11-08", source: CLS },
+      lateGraceDays: { value: 5, asOf: "2026-11-08", source: RPL238 },
+      lateFeeDollarCap: { value: 50, asOf: "2026-11-08", source: RPL238 },
+      lateFeeRentShare: { value: 0.05, asOf: "2026-11-08", source: RPL238 },
+      keyCopyCostMultiple: { value: 1.10, asOf: "2026-11-08", source: RPL235 },
+      keyCopiesCapped: { value: 3, asOf: "2026-11-08", source: RPL235 },
+      returnDays: { value: 14, asOf: "2026-11-08", source: GOL },
+      inspectionEarliestDays: { value: 14, asOf: "2026-11-08", source: GOL },
+      inspectionLatestDays: { value: 7, asOf: "2026-11-08", source: GOL },
+      inspectionNoticeHours: { value: 48, asOf: "2026-11-08", source: GOL },
+      penaltyMultiple: { value: 2, asOf: "2026-11-08", source: GOL },
+      smallClaimsCity: { value: 5000, asOf: "2026-11-08", source: CLB },
+      smallClaimsTownVillage: { value: 3000, asOf: "2026-11-08", source: CLB },
+      defaultRentPerBed: { value: 1246.25, asOf: "2026-11-08", source: "https://ithacarenting.com/collegetown/" },
+      defaultLeaseEnd: { value: "2027-07-31", asOf: "2026-11-08", source: "https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing" }
+    };
+    var N = function (k) { return NUMBERS[k].value; };
+
+    function el(name) { return root.querySelector("#ithaca-lease-fee-deposit-checker-" + name); }
+    function amt(name) { var v = parseFloat(el(name).value); return isNaN(v) || v < 0 ? 0 : v; }
+    function money(n) {
+      var s = (Math.round(n * 100) / 100).toFixed(2);
+      if (s.slice(-3) === ".00") s = s.slice(0, -3);
+      return "$" + s.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+    function link(url, text) { return '<a href="' + url + '">' + text + "</a>"; }
+    var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
+    function parseDate(s) {
+      var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || "");
+      return m ? Date.UTC(+m[1], +m[2] - 1, +m[3]) : null;
+    }
+    function addDays(t, d) { return t + d * 86400000; }
+    function fmtDate(t) { var d = new Date(t); return MONTHS[d.getUTCMonth()] + " " + d.getUTCDate() + ", " + d.getUTCFullYear(); }
+
+    var out = el("result");
+    var FOOT = '<p class="lfd-small">Limits as of Nov 8, 2026, from New York law (' + link(GOL, "GOL 7-108") + ", " + link(RPL238, "RPL 238-a") + ", " + link(RPL235, "RPL 235-i") + ") and the " + link(CLS, "Cornell Law tenant guide") + " (Feb 2026). Estimated: nothing; every line is the statute's limit applied to your figures. This is not legal advice; free help at the Cornell Law tenant hotline, 607-301-1560.</p>";
+
+    function render() {
+      var rent = amt("rent"), items = [], over = 0, upfrontExcess = 0;
+      function add(name, ok, text) {
+        if (!ok) over++;
+        items.push("<li><strong>" + name + ": " + (ok ? "legal" : "over the limit") + ".</strong> " + text + "</li>");
+      }
+
+      // Deposit plus advance plus pet deposit: one month's rent (GOL 7-108)
+      var dep = amt("deposit"), adv = amt("advance"), pet = amt("pet");
+      var held = dep + adv + pet, cap = rent * N("depositCapMonths");
+      if (held > 0 || rent > 0) {
+        var depOk = held <= cap + 0.005;
+        if (!depOk) upfrontExcess += held - cap;
+        add("Deposit", depOk, money(dep) + " deposit + " + money(adv) + " rent advance + " + money(pet) + " pet deposit = " + money(held) + ", against a cap of one month's rent, " + money(cap) + "." + (depOk ? "" : " That is " + money(held - cap) + " too much. A \"last month's rent\" on top of a full deposit is not allowed.") + " A non-refundable deposit is not allowed at any amount. " + link(GOL, "GOL 7-108"));
+      }
+
+      var app = amt("appfee");
+      if (app > 0) { upfrontExcess += app; add("Application fee", false, "New York bans any payment for processing, reviewing or accepting an application. Refuse the whole " + money(app) + ". " + link(RPL238, "RPL 238-a")); }
+
+      var bg = amt("bgfee"), recent = el("bgrecent").checked;
+      if (bg > 0) {
+        var bgCap = recent ? 0 : N("backgroundCheckMax");
+        var bgOk = bg <= bgCap + 0.005;
+        if (!bgOk) upfrontExcess += bg - bgCap;
+        add("Background check fee", bgOk, recent
+          ? "You can bring a check from the past " + N("backgroundRecentDays") + " days, so the landlord must waive the fee: " + money(bg) + " should be $0. "
+          : "The cap is the actual cost or " + money(bgCap) + ", whichever is less" + (bgOk ? "." : "; " + money(bg) + " is " + money(bg - bgCap) + " over.") + " The landlord must first give you a copy of the check and the invoice. ");
+        items[items.length - 1] = items[items.length - 1].replace("</li>", link(RPL238, "RPL 238-a") + "</li>");
+      }
+
+      var clean = amt("cleaning");
+      if (clean > 0) { upfrontExcess += clean; add("Cleaning fee", false, "A cleaning fee or deposit separate from the security deposit is not allowed. Only cleaning beyond routine turnover can come out of the deposit at move-out. Refuse the " + money(clean) + ". " + link(CLS, "Cornell Law tenant guide")); }
+
+      var late = amt("latefee"), days = Math.floor(amt("dayslate"));
+      if (late > 0) {
+        var lateCap = Math.min(N("lateFeeDollarCap"), rent * N("lateFeeRentShare"));
+        if (days <= N("lateGraceDays")) add("Late fee", false, "No late fee is allowed until rent is more than " + N("lateGraceDays") + " days late; yours was " + days + ". " + link(RPL238, "RPL 238-a"));
+        else add("Late fee", late <= lateCap + 0.005, "After " + N("lateGraceDays") + " days the cap is the lesser of $50 or 5% of rent (" + money(rent * N("lateFeeRentShare")) + "), so " + money(lateCap) + "." + (late > lateCap ? " You were charged " + money(late - lateCap) + " too much." : "") + " A late fee cannot be taken out of your deposit. " + link(RPL238, "RPL 238-a"));
+      }
+
+      var key = amt("keyfee"), keyCostRaw = el("keycost").value, keyCost = parseFloat(keyCostRaw);
+      if (key > 0) {
+        if (el("keymany").checked) items.push("<li><strong>Key copy: no cap applies.</strong> The 110% limit stops after more than " + N("keyCopiesCapped") + " copies of the same key in a calendar year. " + link(RPL235, "RPL 235-i") + "</li>");
+        else if (keyCostRaw === "" || isNaN(keyCost)) items.push("<li><strong>Key copy: ask for the receipt.</strong> The landlord may charge at most 110% of what the copy cost; " + money(key) + " is legal only if the copy cost at least " + money(key / N("keyCopyCostMultiple")) + ". " + link(RPL235, "RPL 235-i") + "</li>");
+        else { var keyCap = keyCost * N("keyCopyCostMultiple"); add("Key copy", key <= keyCap + 0.005, "110% of " + money(keyCost) + " is " + money(keyCap) + (key > keyCap ? "; " + money(key) + " is " + money(key - keyCap) + " over." : ".") + " " + link(RPL235, "RPL 235-i")); }
+      }
+
+      // Move-out: 14 days, inspection window, 2x, small claims
+      var mo = parseDate(el("moveout").value), refund = dep + pet, moveLines = "";
+      if (mo !== null) {
+        moveLines += "<li><strong>Deposit due back by " + fmtDate(addDays(mo, N("returnDays"))) + ".</strong> The landlord owes you the deposit, or what is left plus an itemized list of deductions, within " + N("returnDays") + " days of " + fmtDate(mo) + ". Miss that date and the landlord loses the right to keep any of it. " + link(GOL, "GOL 7-108") + "</li>";
+        moveLines += "<li><strong>Ask for a move-out inspection.</strong> If you request one, it happens between " + fmtDate(addDays(mo, -N("inspectionEarliestDays"))) + " and " + fmtDate(addDays(mo, -N("inspectionLatestDays"))) + ", with at least " + N("inspectionNoticeHours") + " hours' written notice, and the landlord lists intended charges so you can fix them first.</li>";
+      }
+      if (refund > 0) {
+        moveLines += "<li><strong>If it is withheld on purpose:</strong> a court can add punitive damages of up to twice the deposit, " + money(refund * N("penaltyMultiple")) + " on your " + money(refund) + ". The landlord must prove any amount kept was reasonable.</li>";
+        moveLines += "<li><strong>Small claims:</strong> up to " + money(N("smallClaimsCity")) + " in Ithaca City Court (118 East Clinton St.), " + money(N("smallClaimsTownVillage")) + " in town and village courts. Your " + money(refund) + " deposit " + (refund <= N("smallClaimsCity") ? "fits under the City Court limit." : "is above the City Court limit; call the hotline before filing.") + " Send a demand letter first; CDRC mediation is 607-273-9347. " + link(CLB, "Cornell Law tenant guide") + "</li>";
+      }
+
+      var head = over === 0
+        ? "<p><strong>Every charge you entered is within New York's limits.</strong></p>"
+        : "<p><strong>" + over + " charge" + (over === 1 ? " is" : "s are") + " over New York's limits" + (upfrontExcess > 0 ? ": " + money(upfrontExcess) + " more than the law allows at signing." : ".") + "</strong></p>";
+      out.innerHTML = head + "<ul>" + items.join("") + "</ul>" + (moveLines ? "<h3>Getting the deposit back</h3><ul>" + moveLines + "</ul>" : "") + FOOT;
+    }
+
+    root.addEventListener("input", render);
+    root.addEventListener("change", render);
+    render();
+  })();
+  </script>
+</div>

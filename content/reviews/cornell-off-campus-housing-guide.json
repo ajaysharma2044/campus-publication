@@ -1,0 +1,223 @@
+{
+ "slug": "cornell-off-campus-housing-guide",
+ "queue_id": "q-housing-0028",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Cornell 2026-27 double $6,872 a semester, $13,744 a year; $1,145 a month over 12 months, $1,374 over 10",
+   "source_url": "brief §10.3 / rates table",
+   "status": "ok",
+   "note": "brief §10.3; recomputed 13,744/12 = 1,145.33 and 13,744/10 = 1,374.40"
+  },
+  {
+   "claim": "14 of 67 Ithaca Renting Collegetown rows for 2027-28 sold out on Nov 8, 2026; 8BR at 105 Dryden Court and 14BR at 214 Dryden Rd among them",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief rows for Ithaca Renting sold out and Aces/Dryden entry. The brief says 39 of the 67 rows are tagged 2027-28, and the page words it as '14 of 67 rows ... for 2027-28', which matches how the brief states it."
+  },
+  {
+   "claim": "Per-bed medians: 1BR $2,025, studio $1,765, 2BR $1,377.50, 3BR $1,243.75, 4BR $1,246.25, 5BR $1,102.50, suite $895, 6BR $800, 10BR $775; 38 priced rows",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief §10.9 row list matches every value"
+  },
+  {
+   "claim": "Per-person 12-month figures and differences from the double in the size table",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "recomputed each: median x12, minus 13,744: 24,300 (+10,556); 21,180 (+7,436); 16,530 (+2,786); 14,925 (+1,181); 14,955 (+1,211); 13,230 (-514); 10,740 (-3,004); 9,600 (-4,144); 9,300 (-4,444)"
+  },
+  {
+   "claim": "Six-to-four example: $446.25 more a month, $5,355 more a year",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1,246.25 - 800 = 446.25; x12 = 5,355"
+  },
+  {
+   "claim": "Downtown medians $1,395 studio, $1,625 1BR, $992.50 2BR, $795 3BR; Collegetown 25% to 39% above; downtown about 20% to 28% cheaper",
+   "source_url": "brief §10.9 / downtown rows",
+   "status": "ok",
+   "note": "recomputed Collegetown over downtown: studio 26.5%, 1BR 24.6%, 2BR 38.8%. Downtown below Collegetown: studio 21%, 1BR 19.8%, 2BR 28%. The page's rounded ranges hold."
+  },
+  {
+   "claim": "Four-friends example: Collegetown $14,955 + $70 electricity = $15,795, $2,051 above the double; downtown $11,910, $1,834 under",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "280/4 = 70; 70x12 = 840; 14,955+840 = 15,795; minus 13,744 = 2,051; 992.50x12 = 11,910; 13,744-11,910 = 1,834"
+  },
+  {
+   "claim": "EnergySage Ithaca average electric bill about $280 a month",
+   "source_url": "brief §10.11",
+   "status": "ok",
+   "note": "brief §10.11"
+  },
+  {
+   "claim": "RentCafe Collegetown 1BR $2,342 and 2BR $3,414 per unit, Oct 30, 2026; Ithaca 1BR $2,063, 2BR $2,459",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "brief §10.1 values"
+  },
+  {
+   "claim": "Hasbrouck unfurnished 1BR $1,415/mo, studio $1,355; $16,980 and $16,260 a year; $7,776 below the RentCafe Ithaca 1BR average",
+   "source_url": "brief §10.12",
+   "status": "ok",
+   "note": "recomputed 1,415x12 = 16,980; 1,355x12 = 16,260; 2,063x12 = 24,756; 24,756-16,980 = 7,776"
+  },
+  {
+   "claim": "Hasbrouck family units $1,475 to $1,530 a month, two adults at most",
+   "source_url": "brief rates table",
+   "status": "ok",
+   "note": "family 2BR townhouse $1,530 furnished and $1,475 unfurnished; the $1,500 apartment falls inside the range"
+  },
+  {
+   "claim": "Co-op double $3,487 to $4,981 a semester; two semesters $6,974 to $9,962; hall double $6,872 a semester",
+   "source_url": "brief rates table",
+   "status": "ok",
+   "note": "brief co-op double rates; recomputed 3,487x2 = 6,974 and 4,981x2 = 9,962"
+  },
+  {
+   "claim": "Cancellation fees for returning juniors and seniors: $50 through Jan 31, $500 Feb 1 to Mar 31, $1,000 Apr 1 to Jun 30, $2,000 Jul 1 to Aug 15, then 50% of the fall room rate",
+   "source_url": "brief §2 license row",
+   "status": "ok",
+   "note": "matches the brief row exactly"
+  },
+  {
+   "claim": "Study-away cancellation by June 15 (fall) or Dec 1 (spring), later requests $500",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief license rows list June 15 and Dec 1"
+  },
+  {
+   "claim": "Sun signing lead times: nine signings, 8 to 16 months, mostly 10 to 11, six stories",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "brief §10.6: n=9 data points, 6 Sun stories, one fallback at 6 months"
+  },
+  {
+   "claim": "The Ivy: 52-unit building, leased nearly all units before construction finished; 3BR $5,500 to $5,800, $1,833 to $1,933 per person",
+   "source_url": "brief §10.7",
+   "status": "ok",
+   "note": "brief; recomputed 5,500/3 = 1,833 and 5,800/3 = 1,933"
+  },
+  {
+   "claim": "Fontana 2016: more than 50 students with Aug 1 leases without an apartment until September",
+   "source_url": "https://www.cornellsun.com/article/2016/09/delayed-collegetown-apartment-opening-leaves-e2-80-88students-homeless",
+   "status": "ok",
+   "note": "fixed in place: Source says over 50 students who signed Fontana leases starting Aug. 1 began the semester without a home. It reports a planned Sept. 9 opening and does not say the building opened on that date. Changed 'until September' to 'into September'."
+  },
+  {
+   "claim": "117 Thurston Ave: certificate expired 2015, learned after signing, 53 days from first complaint to fixed heater",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief: expired Nov 2015; 53 days from the Sept 27 letter to Nov 19 (recomputed: 3 + 31 + 19 = 53)"
+  },
+  {
+   "claim": "120-day City renewal-notice rule: effective May 31, 2022, covers leases of nine months or longer, waiver bolded and initialed on first page",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief rows; the brief marks the nine-month coverage as WSKG-reported and the page attributes it to WSKG"
+  },
+  {
+   "claim": "Counting 120 days back from a July 31, 2027 lease end gives April 2, 2027",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "July 31 back 31 days = June 30, 30 more = May 31, 31 more = Apr 30 (92 days), 28 more = Apr 2"
+  },
+  {
+   "claim": "Sublet example: mail Mar 1, more info within 10 days (Mar 11), answer within 30 days (Mar 31)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Mar 1 + 10 = Mar 11; Mar 1 + 30 = Mar 31; brief carries the 10 and 30 day rule"
+  },
+  {
+   "claim": "Semester-abroad share about $6,231 (4BR median x 5 months)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1,246.25 x 5 = 6,231.25"
+  },
+  {
+   "claim": "OmniRide $200 a year breaks even after 134 daytime rides, about 13 to 14 weeks of weekday commuting",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "200/1.50 = 133.3, rounded up to 134; at 10 rides a week that is 13.4 weeks"
+  },
+  {
+   "claim": "Dryden Road Garage $232 a month, $2,784 over 12 months; B and AP permits $359.77; City street permit $45",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief values; recomputed 232x12 = 2,784"
+  },
+  {
+   "claim": "Trash tags $6 each or $36 for six from Jan 1, 2026",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief trash-tag row"
+  },
+  {
+   "claim": "Walk times: 1 to 2 miles at 3 mph is 20 to 40 minutes",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1/3 h = 20 min, 2/3 h = 40 min"
+  },
+  {
+   "claim": "Grad: about 95% live off campus; $19,962 housing allowance; Fall Creek about 15 minutes by bus from Hollister, Lansing about 20",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief rows for the grad page, finaid budget and the Reed Group guide"
+  },
+  {
+   "claim": "Visa appointments no more than 120 days before program start",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief international FAQ row"
+  },
+  {
+   "claim": "Lansing West: 1BR now units $1,038 and $1,193; rent free until January 2027 for applicants by Nov 14, move in by Dec 1",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "brief Lansing West row"
+  },
+  {
+   "claim": "Good Cause: Council voted 8-2 in July 2024; presumption above the lower of 10% or 5% plus inflation; CO 2009-or-later exempt for 30 years; Ithacan exempt until 2053",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief rows carry the 8-2 vote and the exemption rules; 2023 + 30 = 2053"
+  },
+  {
+   "claim": "Hotline and office phone numbers (607-301-1560, 273-3667, 255-2310, 255-5368, 273-9347, 255-5145, 274-6508, 273-1783, 533-7054, NYSEG 800-572-1111, AG 1-800-771-7755)",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "each number appears in the brief with the same office"
+  },
+  {
+   "claim": "Asteri residents offered $2,000 to leave within five days; displaced tenants owed double monthly rent (2019 rule)",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief rows"
+  },
+  {
+   "claim": "Cornell room selection for 2026-27 ran Oct 2 to 8, 2025; housing application due April 6, 2026; chapter affirmations March 15, 2026",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief rows carry all three dates"
+  },
+  {
+   "claim": "Residence halls closed 2 p.m. Sunday May 17, 2026; Dryden South leases end May 31, 2027",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief rows"
+  }
+ ],
+ "beats_top": {
+  "query": "cornell off campus housing",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

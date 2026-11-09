@@ -1,0 +1,216 @@
+{
+ "slug": "cornell-off-campus-housing-for-parents",
+ "queue_id": "q-housing-0057",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Cornell residence hall double $13,744 for 2026-27, includes gas, electricity, garbage, internet",
+   "source_url": "brief §2 (housing rates)",
+   "status": "ok",
+   "note": "brief §2: $13,744 per academic year, utilities and internet included"
+  },
+  {
+   "claim": "Housing application incl. exemption request due April 6, 2026; exemptions last one academic year",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2 residential policy rows"
+  },
+  {
+   "claim": "Exemptions: 21 or older, married, dependents, veteran (not ROTC), transfer as junior/senior, commuter within 25 miles",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2 exemption rows; 'married' not seen as a separate row but within the policy page set the brief covers; wording matches brief rows otherwise"
+  },
+  {
+   "claim": "Co-op doubles $6,974 to $9,962 for the year (semesters $3,487 to $4,981)",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief co-op rates: Red Bud double $3,487, 660 Stewart/Wari $4,981; recomputed x2 = 6,974 and 9,962"
+  },
+  {
+   "claim": "Ithaca Renting medians (Collegetown 6BR $800, suite room $895, 4BR $1,246.25, 2BR $1,377.50, 1BR $2,025; downtown 3BR $795, 2BR $992.50)",
+   "source_url": "brief §3 / §10.9-10.10",
+   "status": "ok",
+   "note": "match brief rows"
+  },
+  {
+   "claim": "Per-person yearly figures and differences from the double in the table (9,540/4,204; 9,600/4,144; 10,740/3,004; 11,910/1,834; 14,955/1,211; 16,530/2,786; 24,300/10,556)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "recomputed median x 12 and 13,744 minus/plus; all match"
+  },
+  {
+   "claim": "The Ivy 3BR $5,500-$5,800 = $1,833-$1,933 per bed, $22,000-$23,200 a year, $8,256-$9,456 more",
+   "source_url": "brief §3, §10.7",
+   "status": "ok",
+   "note": "5,500/3=1,833.33, 5,800/3=1,933.33, x12 = 22,000 / 23,200; minus 13,744 = 8,256 / 9,456"
+  },
+  {
+   "claim": "$1,145 a month over 12 months and $1,374 over 10 months equal the double",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "13,744/12=1,145.33; 13,744/10=1,374.4"
+  },
+  {
+   "claim": "EnergySage $280 monthly average split four ways adds $70; 4BR to $15,795, $2,051 over",
+   "source_url": "brief §3 (EnergySage, updated 2026-11-01), §10.11",
+   "status": "ok",
+   "note": "1,246.25+70=1,316.25 x12 = 15,795; minus 13,744 = 2,051"
+  },
+  {
+   "claim": "14 of 67 Ithaca Renting Collegetown rows sold out on November 8, 2026",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief §3 sold-out row"
+  },
+  {
+   "claim": "Collegetown signings 8 to 16 months before move-in; 12-bedroom Elmwood house signed April 2017 for August 2018; Sun 2019 'myth' remark",
+   "source_url": "brief §5, §10.6",
+   "status": "ok",
+   "note": "brief rows; Elmwood house per brief landlord list"
+  },
+  {
+   "claim": "Downtown per-bed prices run about 20% to 28% below Collegetown; 20 to 30 minute uphill walk",
+   "source_url": "brief §10.10, §3",
+   "status": "ok",
+   "note": "recomputed: studio 1,395/1,765 = 21% below; 1BR 1,625/2,025 = 19.8%; 2BR 992.50/1,377.50 = 27.9%. Walk per Cornell neighborhoods page, brief"
+  },
+  {
+   "claim": "Cancellation of Cornell room: $50 through Jan 31, $500 Feb 1, $1,000 from Apr 1, $2,000 from Jul 1, 50% after Aug 15; first/second-years cannot cancel",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief cancellation row"
+  },
+  {
+   "claim": "Cornell housing is a revocable license with no security or key deposits",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "license rows in brief"
+  },
+  {
+   "claim": "Aid: need calculated the same, Bursar stops billing housing, refund if aid exceeds charges; not covered: deposits, first/last month, unregistered months; aid will not intervene in mid-year lease break; 607-255-5145",
+   "source_url": "brief §2, §6",
+   "status": "ok",
+   "note": "brief aid rows; phone brief §6"
+  },
+  {
+   "claim": "Summer months $1,590 to $2,385 and deposit plus first month $1,590 for a $795 bed",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "795x2=1,590; 795x3=2,385; 795x2=1,590"
+  },
+  {
+   "claim": "NY deposit cap one month incl. advance, 14 days itemized return, up to twice the deposit for willful violation, move-in inspection",
+   "source_url": "brief §2 (GOL 7-108)",
+   "status": "ok",
+   "note": "brief deposit rows"
+  },
+  {
+   "claim": "No application fee; background check lesser of actual cost or $20, waived with check from past 30 days; late fee after 5 days, lesser of $50 or 5%",
+   "source_url": "brief §2 (RPL 238-A)",
+   "status": "ok",
+   "note": "brief rows"
+  },
+  {
+   "claim": "120-day notice in City of Ithaca; waiver only by initialing first-page statement",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief 120-day rows"
+  },
+  {
+   "claim": "Joint and several liability per Cornell; co-tenant contribution lawsuit; guarantor consent for sublet in 4+ unit building",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief joint-and-several and sublet rows"
+  },
+  {
+   "claim": "Housemate leaves: remaining three pay about $415.42 each more; about $2,493 each Feb through July",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1,246.25/3=415.42; x6 months = 2,492.50"
+  },
+  {
+   "claim": "Moving 6BR to 4BR median costs $446.25 a month, $5,355 a year; 10 months of 1,246.25 = 12,462.50",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1,246.25-800=446.25; x12=5,355; 1,246.25x10=12,462.50"
+  },
+  {
+   "claim": "Cash due at signing figure: first month $1,246.25 and deposit $1,246.25",
+   "source_url": "our math / brief §2",
+   "status": "ok",
+   "note": "4BR median; deposit cap one month"
+  },
+  {
+   "claim": "Certificates for buildings with 3+ units last three years; Building Division 607-274-6508, 8 a.m. to 4 p.m. weekdays; ibd@cityofithaca.org",
+   "source_url": "https://www.cityofithacany.gov/146/Certificate-of-Compliance",
+   "status": "ok",
+   "note": "fetched page: 'a period of 3 years' for buildings with three or more units; phone and hours match; email per brief §6"
+  },
+  {
+   "claim": "Safety tool covers City of Ithaca rentals only; shows sprinklers, alarms, construction type; does not measure landlord quality",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief safety tool row"
+  },
+  {
+   "claim": "117 Thurston: certificate expired 2015, 53 days to fixed heater, tenant slept in a campus library",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief 117 Thurston row"
+  },
+  {
+   "claim": "Fontana 2016: more than 50 students with Aug 1 leases, hotel or $30 a day",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief Fontana rows"
+  },
+  {
+   "claim": "College Confidential posters (late 2016): more space off campus; cheaper; dorm cost as budget; 'dumps' but homelike",
+   "source_url": "https://talk.collegeconfidential.com/t/upperclassmen-housing-at-cornell/1862613",
+   "status": "fixed",
+   "note": "thread dated Nov 27 to Dec 14, 2016. Page said 'parents said apartments were cheaper and roomier, with kitchens'; source: one poster said cheaper and more space and valued a kitchen, another said more space and privacy and gave both kids the dorm cost. Reworded to keep two posters distinct, no pronoun"
+  },
+  {
+   "claim": "Ithaca Renting includes heat; tenants pay electricity at most of its properties",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief property rows show electricity included only at a few buildings (Colonial, Commons Studios, Whiton Hall, 210 Dryden floors 2-3); heat included"
+  },
+  {
+   "claim": "Renters insurance: GradGuard preferred, no price; SafeButler about $5 a month; Insure.com about $27 a month at $40,000 property",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Insure.com $328/yr = $27.33/mo at $40,000 property per brief"
+  },
+  {
+   "claim": "Phone numbers and address: Cornell Law hotline 607-301-1560, LawNY 607-273-3667, CDRC 607-273-9347, AG 1-800-771-7755, Off-Campus Living 607-255-2310, City Court 118 East Clinton Street, small claims up to $5,000",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "all match brief contact rows"
+  },
+  {
+   "claim": "Parking: meters $2.50/hr, 9 a.m. to 6 p.m. Mon-Sat, free Sundays; garages $2.25/hr; Dryden Road Garage 118 Dryden Rd, 24 hours, $18 daily max, move every 24 hours",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief parking rows"
+  },
+  {
+   "claim": "Most Ithaca leases end July 31; leases often start August 1",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief lease-year summary"
+  },
+  {
+   "claim": "Cornell names Ithacarents.com, Daily Sun, Ithaca Journal, Ithaca Times; does not endorse landlords",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief row"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "7350154b61451647af75bf9019441b16ed3abaa28b4d38789827e235de60d087"
+}

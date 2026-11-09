@@ -1,0 +1,109 @@
+{
+ "slug": "ithaca-sublet-request-timeline",
+ "queue_id": "q-housing-0064",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Sublet right applies to buildings with 4 or more residential units; excludes public housing, statutory admission criteria units, co-op proprietary leases",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief row 'Who has a sublet right'; statute subdivisions 2 and 3 re-read 2026-11-08 agree."
+  },
+  {
+   "claim": "3 or fewer units: the lease controls subletting",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief row 'Buildings with three or fewer units' (Cornell Law, Feb 2026)."
+  },
+  {
+   "claim": "Landlord's written consent in advance, not unreasonably withheld; certified mail, return receipt requested",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "Brief 'Sublet request' row; statute quotes 'certified mail, return receipt requested'."
+  },
+  {
+   "claim": "Landlord may ask for more information within 10 days",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "Brief 'Sublet clocks'; statute: within ten days after the mailing of the request."
+  },
+  {
+   "claim": "Landlord must answer within 30 days of the later of the request or extra information; silence is consent",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "Brief 'Sublet clocks'; statute: failure to send notice is deemed consent."
+  },
+  {
+   "claim": "Seven required contents of the request (term, name, addresses, reason, tenant's address, co-tenant/guarantor consent, copy of sublease)",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "Brief 'Sublet request' row; statute subdivision 2(b) matches. 'Co-tenant' vs statute's 'cotenant' is spelling only."
+  },
+  {
+   "claim": "Refusal without reasonable reason: may sublet as requested; costs and attorney fees if bad faith; sublet without steps is substantial breach; tenant stays liable; waiver void",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief 'Sublet remedies' row; statute re-read for bad-faith fees."
+  },
+  {
+   "claim": "Assignment: owner may refuse without cause; unreasonable refusal's only remedy is release on 30 days' notice; not generally liable after assignment",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief 'Assignment' row; statute subdivision 1 agrees."
+  },
+  {
+   "claim": "Sublet fee allowed only if lease allows and reasonable; background/credit check fees allowed",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Taken from the brief's Cornell Law breaking-a-lease coverage; no conflict found."
+  },
+  {
+   "claim": "Tenant hotline 607-301-1560 (Cornell Law guide's referral for study abroad and leaving school)",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief row 'Study abroad or leaving school' and hotline rows."
+  },
+  {
+   "claim": "Clocks start at mailing vs delivery: page said 'our sources do not say'; weekend/holiday handling not in sources",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "fixed in place: Statute says 10 days 'after the mailing of such request' and 30 days 'after the mailing of the request for consent' (or of the additional information, if later). Changed the assumption line in tool.md and the tool-note in tool.html to say the count runs from mailing, not delivery; weekend handling still not stated, left as unknown. Tool math (counts from the mailing date) was already correct."
+  },
+  {
+   "claim": "Modern Living sublets 'from $900 per person'; Dryden South Fall 2026 sublet $1,395 per person (seen Nov 8, 2026)",
+   "source_url": "brief §8/§9",
+   "status": "ok",
+   "note": "Brief Modern Living row and Dryden South sublet snippet row (apartments.com)."
+  },
+  {
+   "claim": "Mailing margins: move-in minus 31 (30+1) and minus 41 (10+30+1)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: answer due = base+30, consent = +1, so latest mail = start-31; safer adds 10 = start-41. The JS uses the same formulas."
+  },
+  {
+   "claim": "Worked example: mail Apr 1, 2027, move-in Jun 1, 2027: ask-by Apr 11, answer due May 1 (Saturday), consent May 2, safe mail date Apr 21, latest May 1",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed day by day: Apr 1 + 10 = Apr 11; + 30 = May 1; Jan 1, 2027 is a Friday, Apr 1 is a Thursday, so May 1 is a Saturday; Jun 1 - 41 = Apr 21; Jun 1 - 31 = May 1."
+  },
+  {
+   "claim": "Tool constants in tool.html NUMBERS: minUnits 4, smallBuildingMax 3, infoDays 10, answerDays 30, assignReleaseDays 30, hotline 607-301-1560",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "All match brief and statute; data-as-of 2026-11-08 matches numbers_as_of."
+  }
+ ],
+ "beats_top": {
+  "query": "sublet request letter new york landlord",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

@@ -1,0 +1,138 @@
+{
+ "slug": "city-of-ithaca-vs-town-lansing-cayuga-heights-renters",
+ "queue_id": "q-housing-0043",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "120-day renewal notice, City only; passed April 6, 2022, effective May 31, 2022",
+   "source_url": "brief §2 (rows at lines 132-134)",
+   "status": "ok",
+   "note": "brief §2; matches WSKG dates"
+  },
+  {
+   "claim": "Code office phones: City 607-274-6508 (main 607-274-6510), Town of Ithaca 607-273-1783, Lansing 607-533-7054, Cayuga Heights 607-257-5536 ext. 104",
+   "source_url": "brief §2.24",
+   "status": "ok",
+   "note": "brief code-office rows; Cayuga Heights page covers only short-term rentals of 28 days or less, as the page says"
+  },
+  {
+   "claim": "Building Division at City Hall, 108 E. Green St., 4th floor, weekdays 8:30 a.m. to 4:00 p.m.; ibd@cityofithaca.org",
+   "source_url": "brief §2.12",
+   "status": "ok",
+   "note": "brief §2.12"
+  },
+  {
+   "claim": "Certificate of Compliance valid 3 years (1 year dorms, fraternities, sororities); 3+ units or 5 or 6+ unrelated persons depending on source",
+   "source_url": "brief §2.12",
+   "status": "ok",
+   "note": "brief states the 5 vs 6 conflict; the page hedges 'depending on the source'"
+  },
+  {
+   "claim": "Safety tool covers City rentals only; shows sprinklers, smoke and CO alarms, construction type, property use; updated daily",
+   "source_url": "brief §2.12",
+   "status": "ok",
+   "note": "brief safety tool rows"
+  },
+  {
+   "claim": "Cornell marketplace requires a current certificate before a City listing can post",
+   "source_url": "https://www.gradschool.cornell.edu/announcements/grad-tips-renting/",
+   "status": "fixed",
+   "note": "Page cited offcampus.housing.cornell.edu, which does not mention the certificate (brief marks it 'search summary, not read'). Grad School Grad Tips says Off-Campus Living works with the City certificate database to check listings. Reworded in the body (two places) to 'checks listings against the certificate database', swapped the source entry, and removed 'requires/must have'. Also removed the FAQ's 'marketplace certificate check' wording and changed 'has neither' to 'has no such tool'."
+  },
+  {
+   "claim": "117 Thurston Ave 2018: certificate expired November 2015, learned after signing, 53 days from first complaint to fixed heater",
+   "source_url": "brief §5.2",
+   "status": "ok",
+   "note": "brief line 776; Sept 27 to Nov 19 is 53 days (3 days left in Sept + 31 Oct + 19 Nov), recomputed"
+  },
+  {
+   "claim": "City cooperative household = 4+ unrelated persons",
+   "source_url": "brief §2.13",
+   "status": "ok",
+   "note": "brief §2.13"
+  },
+  {
+   "claim": "Town of Ithaca family: more than two unrelated need ZBA finding; one family plus one boarder; Drummond v Town of Ithaca ZBA 2017, Ithaca College students",
+   "source_url": "brief §2.13",
+   "status": "ok",
+   "note": "brief §2.13"
+  },
+  {
+   "claim": "Residential parking permit $45 a year, runs to July 31, lease or utility bill plus registration; no street permits in central Collegetown",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "brief §2.17"
+  },
+  {
+   "claim": "Odd/even Nov 1 to April 1, 7 p.m. to 6 a.m., when needed; move every 24 hours on weekdays; towed after 72 hours",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "brief §2.17 rows"
+  },
+  {
+   "claim": "Dryden Road Garage $232 monthly permit; twelve months = $2,784",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "brief $232; recomputed 232 x 12 = 2,784"
+  },
+  {
+   "claim": "Trash tags $6.00 each or $36.00 per sheet of 6 from Jan 1, 2026; bags out no more than 24 hours before pickup; no couches or mattresses outdoors",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief §2.14; $6 x 6 = $36"
+  },
+  {
+   "claim": "City noise night 10:00 p.m. to 7:30 a.m.; Town of Ithaca daytime 7:00 a.m. to 9:00 p.m.; sidewalk snow within 24 hours",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief §2.15"
+  },
+  {
+   "claim": "Good Cause: City opted in July 2024, Common Council voted 8-2; increases above lower of 10% or 5% plus inflation presumed unreasonable",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief §2.6 (WAMC)"
+  },
+  {
+   "claim": "Tenant hotline 607-301-1560, advice without geographic limits; full representation only for City residents",
+   "source_url": "brief §2.24",
+   "status": "ok",
+   "note": "brief international legal help row"
+  },
+  {
+   "claim": "State law: deposit cap one month, 14-day return with itemized statement; application fees banned; occupant law (immediate family plus one occupant); 30/60/90-day notice for non-renewal or 5%+ increase",
+   "source_url": "brief §2.5-2.6",
+   "status": "ok",
+   "note": "brief rows on GOL 7-108, RPL 238-A, 235-F, 226-C"
+  },
+  {
+   "claim": "Neighborhood distances: East Hill 0.75 to 2 miles, South Hill 1.5 to 3, Cayuga Heights 1 to 4, Lansing 5 to 10; parts of South Hill in the Town",
+   "source_url": "brief §10 neighborhoods",
+   "status": "ok",
+   "note": "brief lines 616, 749-751, 1220. Page groups 'Lansing and Northeast' at 5 to 10; brief gives Northeast 4 and Lansing 5 to 10, not material"
+  },
+  {
+   "claim": "Lansing West 1BR units at $1,038 and $1,193 in November 2026",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief line 751"
+  },
+  {
+   "claim": "B commuter permit $359.77 a year; 2023 Cornell notice on cars over winter break",
+   "source_url": "brief §2.16-2.17",
+   "status": "ok",
+   "note": "brief lines 331-342"
+  },
+  {
+   "claim": "Attributions: Cayuga Heights code page covers short-term rentals only; Drummond involved Ithaca College students; WSKG reported the 9-month lease coverage",
+   "source_url": "brief §2.13, §2.24",
+   "status": "ok",
+   "note": "wording matches the brief's source summaries; no added detail found"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "310937fa58dcb910e9e2800de77c7cbb430dc31ff0f1b8db637be0a68b4221f7"
+}

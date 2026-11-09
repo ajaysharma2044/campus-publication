@@ -1,0 +1,66 @@
+{
+ "slug": "alum-landlord",
+ "queue_id": "q-housing-0080",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Apply through OpenGov before the current Certificate of Compliance expires and pay the fee",
+   "source_url": "https://www.cityofithacany.gov/146/Certificate-of-Compliance",
+   "status": "ok",
+   "note": "brief §8 (COC inspection row); city page fetched 2026-11-08 confirms the owner applies via Open Gov before expiry."
+  },
+  {
+   "claim": "One 30-day extension is allowed",
+   "source_url": "https://www.cityofithacany.gov/147/Certificate-of-Compliance-Fees",
+   "status": "fixed",
+   "note": "The brief carries 'one 30-day extension' from the fees page (/147), not /146; the /146 page does not mention it (fetched). Added the /147 link beside the /146 link. A search snippet of the city code also describes one 30-day extension to prepare for an inspection or fix violations. Value unchanged."
+  },
+  {
+   "claim": "120 days before you renew, show or re-let: written notice unless tenants initialed the waiver",
+   "source_url": "https://ecode360.com/27390826",
+   "status": "ok",
+   "note": "brief §5 (ecode360 27390826, Ch. 258-10)."
+  },
+  {
+   "claim": "For a July 31 lease end one reading lands on about April 2; when the count starts is unresolved",
+   "source_url": "brief §4/§10.5",
+   "status": "ok",
+   "note": "brief says April 2, 2027 as one reading with the count start unverified. Recomputed: July 31 minus 120 days = April 2 (Apr 2 to Jul 31 is 28+31+30+31 = 120 days)."
+  },
+  {
+   "claim": "Sept 15 to May 31: Ithaca's heat minimums apply",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance",
+   "status": "ok",
+   "note": "brief §7 heat season row (Ithaca Sept 15 to May 31), same source."
+  },
+  {
+   "claim": "30 to 90 days before lease end: Good Cause renewal or increase notices",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal",
+   "status": "ok",
+   "note": "brief §5 Good Cause rows and §4.1 July row: 30 to 90 days' written notice. The brief cites nysenate RPP 216 for it; the page cites the Cornell Law lease-renewal page, which the brief also uses for the state 30/60/90-day notice. Value matches."
+  },
+  {
+   "claim": "By Aug 1 each year DHCR usually publishes the CPI figure behind the Good Cause rent standard",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal",
+   "status": "ok",
+   "note": "brief §5 rent standard row cites this page among its sources."
+  },
+  {
+   "claim": "Within 14 days of move-out return the deposit with an itemized statement, so by mid-August for a July 31 exit",
+   "source_url": "https://www.nysenate.gov/legislation/laws/GOB/7-108",
+   "status": "ok",
+   "note": "brief §5 return deadline row and §4.1 July row. Recomputed: July 31 plus 14 days = August 14, which is mid-August."
+  },
+  {
+   "claim": "Guide descriptions: housing guide (how tenants search, sign, move), landlord checklist (Certificate of Compliance, fees, safety duties), 120-day rule (renew, show, re-let), Good Cause (coverage, unreasonable increase), deposit rules (cap, 14 days, banned fees), trash/snow/noise/parties, City vs not, Collegetown rent per bed and per unit, landlord vetting",
+   "source_url": "content/articles/housing/*.md titles and metas",
+   "status": "ok",
+   "note": "Compared each one-line description with the linked guide's own title and meta; all match. The trash-guide line says duties 'stay with the owner and which a lease can pass to tenants', which is not in that guide's meta and was not checked against its body; it is the page's own reader framing."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "841d8bc3a16f06b930edcc89d416af9b76fb4a5c7cf45cb2f41fcc4426c777dd"
+}

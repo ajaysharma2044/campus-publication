@@ -1,0 +1,194 @@
+{
+ "slug": "off-campus-housing-cornell-sophomores",
+ "queue_id": "q-housing-0050",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Residence hall double is $13,744 for 2026-27 ($6,872 a semester)",
+   "source_url": "brief §3 (Cornell housing rates)",
+   "status": "ok",
+   "note": "brief §3 housing-rates row: $6,872 per semester, $13,744 per academic year."
+  },
+  {
+   "claim": "Co-op doubles run $3,487 to $4,981 a semester, $6,974 to $9,962 for the year",
+   "source_url": "brief §3 (Cornell housing rates)",
+   "status": "ok",
+   "note": "brief §3: Red Bud in Von Cramm double $3,487 is the low, 660 Stewart and Wari $4,981 the high. Recomputed 3,487 x 2 = 6,974 and 4,981 x 2 = 9,962."
+  },
+  {
+   "claim": "14 of 67 Ithaca Renting Collegetown rows sold out on Nov 8, 2026",
+   "source_url": "brief §3.2",
+   "status": "ok",
+   "note": "brief §3.2 sold-out row: 14 of 67."
+  },
+  {
+   "claim": "214 Dryden Rd 14BR and 105 Dryden Court 8BR sold out for 2027-28 by Nov 8, 2026",
+   "source_url": "brief §3.2",
+   "status": "ok",
+   "note": "brief property list: both sold out for 2027-28 as of 2026-11-08."
+  },
+  {
+   "claim": "Collegetown per-bed medians from 38 priced 2027-28 rows: studio $1,765; 1BR $2,025; 2BR $1,377.50; 4BR $1,246.25; 5BR mean $1,102.50; 6BR $800; shared suite $895",
+   "source_url": "brief §3.2",
+   "status": "ok",
+   "note": "brief §3.2 Ithaca Renting Collegetown row, same values and row count."
+  },
+  {
+   "claim": "Downtown per-bed medians: studio $1,395; 1BR $1,625; 2BR $992.50; 3BR $795",
+   "source_url": "brief §3.2",
+   "status": "ok",
+   "note": "brief §3.2 Ithaca Renting Downtown row."
+  },
+  {
+   "claim": "Per-person 12-month figures and gaps against the $13,744 double (studio $21,180/$7,436 more; 1BR $24,300/$10,556 more; 2BR $16,530/$2,786 more; 4BR $14,955/$1,211 more; 5BR $13,230/$514 less; 6BR $9,600/$4,144 less; suite $10,740/$3,004 less)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed each as median x 12, then minus 13,744. All match."
+  },
+  {
+   "claim": "Double works out to $1,145 a month over 12 months, or $1,374 over 10 months",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "13,744 / 12 = 1,145.33; 13,744 / 10 = 1,374.4."
+  },
+  {
+   "claim": "Group-of-six example: 6BR $800 to 4BR $1,246.25 is $446.25 a month, $5,355 a year more",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1,246.25 - 800 = 446.25; x 12 = 5,355."
+  },
+  {
+   "claim": "Downtown saves $370 (about 21%) studio, $400 (about 20%) 1BR, $385 (about 28%) 2BR; glance box says about 20% to 28%",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "370/1,765 = 21.0%; 400/2,025 = 19.75%; 385/1,377.5 = 27.95%."
+  },
+  {
+   "claim": "Two-friend example: $385 x 12 = $4,620; less $200 OmniRide gives about $4,420",
+   "source_url": "our math + brief §5 (OmniRide)",
+   "status": "ok",
+   "note": "385 x 12 = 4,620; minus 200 = 4,420. OmniRide $200 a year per brief; TCAT free after 6 p.m. weekdays and on weekends per brief."
+  },
+  {
+   "claim": "Fee-at-signing example: 4BR deposit at one-month cap $1,246.25; with first month up to $2,492.50 per person",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1,246.25 x 2 = 2,492.50."
+  },
+  {
+   "claim": "Cornell license cancellation fees: through Jan 31 $50; Feb 1-Mar 31 $500; Apr 1-Jun 30 $1,000; Jul 1-Aug 15 $2,000; after Aug 15 or no check-in by first day of classes 50% of fall room rate",
+   "source_url": "brief §3 (license fees)",
+   "status": "ok",
+   "note": "brief §3 license cancellation row, identical schedule for AY 2026-27 and 2027-28."
+  },
+  {
+   "claim": "Second-year may cancel a license if accepted to a Greek house, affiliated house or co-op before the Spring Housing Selection deadline",
+   "source_url": "brief §3 (license)",
+   "status": "ok",
+   "note": "brief covers the 2027-28 license rules; page wording matches its paraphrase."
+  },
+  {
+   "claim": "2026-27 housing application due April 6, 2026; filed even if expecting a chapter house",
+   "source_url": "brief §3 (housing application)",
+   "status": "ok",
+   "note": "brief §3 row: April 6, 2026, including students expecting chapter house."
+  },
+  {
+   "claim": "Co-op contact co-ops@cornell.edu, 607-255-3445; selection in early November and early February; eight houses",
+   "source_url": "brief §3 (co-op rows)",
+   "status": "ok",
+   "note": "brief co-op contact row and co-op selection rows."
+  },
+  {
+   "claim": "Fall room selection for 2026-27 ran Oct 2 to 8, 2025; rising juniors and seniors could cancel before check-in",
+   "source_url": "brief §3 (fall 2025 room selection change)",
+   "status": "ok",
+   "note": "brief row cites the same Cornell Sun story."
+  },
+  {
+   "claim": "Nine dated signings in Sun stories 2017-2025: all but one fallback 8 to 16 months ahead, most 10 to 11",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "brief: 8 to 16 months (mostly 10 to 11), one fallback case at 6 months, n=9."
+  },
+  {
+   "claim": "One Collegetown developer said in 2016 he usually rents most units by the end of November",
+   "source_url": "brief §3 (2016 lease-up)",
+   "status": "ok",
+   "note": "brief row: Josh Lower usually rents most units by end of November. The page leaves the name out, which is fine."
+  },
+  {
+   "claim": "Ithaca Renting opened 2020-21 leasing at 9 a.m. on Sept 12, 2019 after students slept on the sidewalk",
+   "source_url": "brief §3 (2019 Sun)",
+   "status": "ok",
+   "note": "brief lists the 9 a.m. opening from the same Sun story."
+  },
+  {
+   "claim": "Landlord said in fall 2021, seven weeks in, a unit was already gone; Sun 2018: landlords say rising juniors want to sign before prelims",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief mentions the seven-weeks 2021 item and the 'before them' 2018 landlord comment."
+  },
+  {
+   "claim": "Columnist who signed in October of sophomore year called himself late (Nguyen, Aug 4, 2022)",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief carries 'called himself late' from the Nguyen column."
+  },
+  {
+   "claim": "2021 Sun: a sophomore chose Flora Rose House because the off-campus search was too difficult; 2018 Sun: 14-person house falling apart at the seams; tip in three Sun stories to sign only with people you have lived near",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "Flora Rose, seams and lived-near all appear in the brief."
+  },
+  {
+   "claim": "117 Thurston Ave: certificate expired in 2015, 53 days to heat",
+   "source_url": "brief §3 (117 Thurston)",
+   "status": "ok",
+   "note": "brief: expired Nov 2015, 53 days from the Sept 27 letter to the heater reported fixed Nov 19."
+  },
+  {
+   "claim": "City Building Division 607-274-6508, ibd@cityofithaca.org; Cornell Law Tenants Advocacy hotline 607-301-1560",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "both numbers in the brief."
+  },
+  {
+   "claim": "120 days' written notice rule in City of Ithaca; waiver needs bolded, initialed statement on page one; Mehler quote about why you are waiving the days",
+   "source_url": "brief §120-day",
+   "status": "ok",
+   "note": "brief 120-day rows and Mehler attribution."
+  },
+  {
+   "claim": "NY rules at signing: no application fee, background check at actual cost or $20 whichever is less, deposit plus rent advance capped at one month, no cleaning or non-refundable fee, late fee after 5 days capped at $50 or 5% of rent",
+   "source_url": "brief §legal",
+   "status": "ok",
+   "note": "brief carries the $20 check cap, the 30-day waiver, and the 5-day, $50 or 5% late fee."
+  },
+  {
+   "claim": "Collegetown up to a 15-minute walk; downtown and Fall Creek 20 to 30 minute uphill walk",
+   "source_url": "brief §neighborhoods",
+   "status": "ok",
+   "note": "brief carries both walking times from Cornell's neighborhoods page."
+  },
+  {
+   "claim": "Downtown includes heat, water and trash; electricity only at Colonial Building, Commons Studios and Whiton Hall",
+   "source_url": "https://ithacarenting.com/downtown/",
+   "status": "ok",
+   "note": "The brief lists only Colonial and Commons Studios. The live Ithaca Renting page (fetched 2026-11-08) names all three, with 'Whiton Hall also includes electricity and Wi-Fi'. Page is right; the brief row was stale and is corrected."
+  },
+  {
+   "claim": "Exemptions: 21 or older, married, veteran, with dependents, local commuter",
+   "source_url": "brief §residential policy",
+   "status": "ok",
+   "note": "brief residential-policy rows."
+  }
+ ],
+ "brief_updates": [
+  "Downtown properties row: electricity is included at Whiton Hall as well as Colonial and Commons Studios; source https://ithacarenting.com/downtown/"
+ ],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "63973401db1ccbe58a964a1c66fd489f46d9aced4314592d4a98b8fe7468613a"
+}

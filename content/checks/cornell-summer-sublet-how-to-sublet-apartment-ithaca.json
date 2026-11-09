@@ -1,0 +1,150 @@
+{
+ "slug": "cornell-summer-sublet-how-to-sublet-apartment-ithaca",
+ "queue_id": "q-housing-0082",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "4+ unit building: landlord cannot unreasonably withhold sublet consent; 3 or fewer units the lease controls",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "RPL 226-b(2)(a) opened; Cornell Law breaking-a-lease page confirms the lease controls in 3 or fewer units."
+  },
+  {
+   "claim": "Request by certified mail, return receipt, with six items (term, subtenant name and addresses, reason, address during sublet, co-tenant/guarantor consent, copy of sublease)",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "226-b(2)(b) lists these; statute also asks for the lease to be attached if available, an omission not an error."
+  },
+  {
+   "claim": "Landlord has 10 days to ask for more information, 30 days to answer (from the later of request or extra information); silence is consent",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "226-b(2)(c)."
+  },
+  {
+   "claim": "Example: mailed Oct 1, info request by about Oct 11, reply Oct 15, answer due about Nov 14",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "Recomputed: Oct 1 + 10 days = Oct 11; Oct 15 + 30 days = Nov 14."
+  },
+  {
+   "claim": "40 days of legal clocks (10 + 30)",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "10 + 30 = 40."
+  },
+  {
+   "claim": "Tenant stays liable after a sublet; assignment can be refused without reason; unreasonable refusal of assignment gives release on 30 days' notice only; unreasonable sublet refusal lets tenant sublet, bad faith gives costs and attorney fees",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "226-b(1) and (2)(c)."
+  },
+  {
+   "claim": "Exclusions: public housing, statutory admission criteria, co-op proprietary leases; lease waiver void; noncompliant sublet is a substantial breach",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "226-b(3), (5), (6) as fetched."
+  },
+  {
+   "claim": "Assignment generally leaves you not liable; sublet fee only if lease allows and reasonable; early termination agreement is simplest; hotline 607-301-1560; Law guide does not cover study abroad",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease",
+   "status": "ok",
+   "note": "All confirmed on the page; brief §6 and §11 also carry the hotline and sublet fee rows."
+  },
+  {
+   "claim": "Background check fee capped at lesser of $20 or actual cost; waived if check from past 30 days",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief row for RPL 238-a matches."
+  },
+  {
+   "claim": "Collegetown 4BR median $1,246.25 per bed for 2027-28",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Brief row for Ithaca Renting Collegetown."
+  },
+  {
+   "claim": "Five-month semester at $1,246.25 is about $6,231",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Recomputed 1,246.25 x 5 = 6,231.25."
+  },
+  {
+   "claim": "Two months at $1,246.25 is about $2,493",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Recomputed 1,246.25 x 2 = 2,492.50, rounds to 2,493."
+  },
+  {
+   "claim": "Most Ithaca student leases end July 31 (Cornell Sun 2024)",
+   "source_url": "https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing",
+   "status": "fixed",
+   "note": "Source says 'most Ithaca tenants' leases expire on July 31', not student leases. Changed 'student leases' to 'tenants' leases'. Brief §10 line says most Ithaca leases end July 31."
+  },
+  {
+   "claim": "Dryden South leases all end May 31, 2027",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Brief row for Dryden South."
+  },
+  {
+   "claim": "Modern Living sublets 'from $900 per person', no period; Dryden South suite $1,395 per person for Fall 2026",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Both rows in the brief."
+  },
+  {
+   "claim": "Off-Campus Living 607-255-2310",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief row sourced to the signing-lease page."
+  },
+  {
+   "claim": "Marketplace is College Pads service, only Cornell-verified users; email list via 'Join'; public outlets named but not endorsed; Ithacarents.com members only",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Brief rows on listings and other search options."
+  },
+  {
+   "claim": "Sublets free to list in 2019 while landlords paid $30",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Brief row for 2019 listing fees."
+  },
+  {
+   "claim": "Ithaca City Court small claims up to $5,000",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief row sourced to building-issues-maintenance."
+  },
+  {
+   "claim": "Cornell housing license: cancel without penalty for study away, leave or internship by June 15 (fall) or December 1 (spring) for 2026-27; later $500",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "Brief row on penalty-free cancellation deadlines."
+  },
+  {
+   "claim": "Cornell Financial Aid will not intervene in a mid-year lease break; housemates responsible for each other's rent and damages; tenant checklist items",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief carries 'will not intervene' and joint liability rows; the page's phrasing matches."
+  },
+  {
+   "claim": "Graduate School: marketplace free to anyone with Cornell credentials; landlord dispute does not affect international students' visa status",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief carries the grad-guide visa line."
+  },
+  {
+   "claim": "Mail the request 2 to 3 months before you leave; late-April request may not clear before June 1",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Advice derived from the 40-day clock plus follow-ups; arithmetic holds (10 + 30 + follow-up > 6 weeks)."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "8ee6ffbf7ab8c057545a5fa53d7f7b498bbf7f708abdc3fea8d4bd54eb18b764"
+}

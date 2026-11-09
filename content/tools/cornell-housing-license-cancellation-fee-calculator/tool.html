@@ -1,0 +1,195 @@
+<div class="tool" id="tool-cornell-housing-license-cancellation-fee-calculator" data-tool="cornell-housing-license-cancellation-fee-calculator" data-as-of="2026-11-08">
+  <style>
+    #tool-cornell-housing-license-cancellation-fee-calculator .clc-field { margin: 0 0 0.9rem; }
+    #tool-cornell-housing-license-cancellation-fee-calculator .clc-field label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
+    #tool-cornell-housing-license-cancellation-fee-calculator .clc-field select,
+    #tool-cornell-housing-license-cancellation-fee-calculator .clc-field input { width: 100%; max-width: 24rem; padding: 0.4rem; font: inherit; box-sizing: border-box; }
+    #tool-cornell-housing-license-cancellation-fee-calculator .clc-hint { display: block; font-size: 0.875em; opacity: 0.8; margin-top: 0.2rem; }
+    #tool-cornell-housing-license-cancellation-fee-calculator .clc-result { border-top: 1px solid currentColor; padding-top: 0.9rem; margin-top: 1rem; }
+    #tool-cornell-housing-license-cancellation-fee-calculator .clc-result ul { padding-left: 1.2rem; margin: 0.5rem 0; }
+    #tool-cornell-housing-license-cancellation-fee-calculator .clc-small { font-size: 0.875em; opacity: 0.85; }
+  </style>
+
+  <p class="clc-small">Cornell's cancellation schedule for returning juniors and seniors, the same on the 2026-27 and 2027-28 licenses: <span data-as-of="2026-11-08">$50 through Jan 31</span>, <span data-as-of="2026-11-08">$500 Feb 1 to Mar 31</span>, <span data-as-of="2026-11-08">$1,000 Apr 1 to Jun 30</span>, <span data-as-of="2026-11-08">$2,000 Jul 1 to Aug 15</span>, then <span data-as-of="2026-11-08">50% of the fall room rate</span>. Study away, leave, internship or graduation: free by <span data-as-of="2026-11-08">June 15</span> (fall) or <span data-as-of="2026-11-08">Dec 1</span> (spring), <span data-as-of="2026-11-08">$500</span> after. Checked Nov 8, 2026.</p>
+
+  <div class="clc-field">
+    <label for="cornell-housing-license-cancellation-fee-calculator-status">Your status in the year the license covers</label>
+    <select id="cornell-housing-license-cancellation-fee-calculator-status">
+      <option value="first">First-year</option>
+      <option value="transfer">New transfer</option>
+      <option value="second">Second-year</option>
+      <option value="upper" selected>Returning junior or senior</option>
+    </select>
+    <span class="clc-hint">A sophomore holding a backup room for junior year is a returning junior on that license.</span>
+  </div>
+
+  <div class="clc-field">
+    <label for="cornell-housing-license-cancellation-fee-calculator-year">License year</label>
+    <select id="cornell-housing-license-cancellation-fee-calculator-year">
+      <option value="2026">2026-27 (you live there now)</option>
+      <option value="2027" selected>2027-28 (rooms chosen in fall 2026)</option>
+    </select>
+  </div>
+
+  <div class="clc-field">
+    <label for="cornell-housing-license-cancellation-fee-calculator-term">What you are cancelling</label>
+    <select id="cornell-housing-license-cancellation-fee-calculator-term">
+      <option value="year" selected>The whole year, starting with fall</option>
+      <option value="spring">Spring semester only</option>
+    </select>
+  </div>
+
+  <div class="clc-field">
+    <label for="cornell-housing-license-cancellation-fee-calculator-reason">Why you are cancelling</label>
+    <select id="cornell-housing-license-cancellation-fee-calculator-reason">
+      <option value="offcampus" selected>Moving off campus (taking a lease)</option>
+      <option value="greek">Accepted to a Greek house, affiliated house or co-op</option>
+      <option value="away">Study away</option>
+      <option value="leave">Leave of absence</option>
+      <option value="internship">Internship</option>
+      <option value="graduation">Graduation</option>
+      <option value="exempt">Approved residential-requirement exemption (first- and second-years)</option>
+    </select>
+  </div>
+
+  <div class="clc-field">
+    <label for="cornell-housing-license-cancellation-fee-calculator-date">Date you cancel</label>
+    <input id="cornell-housing-license-cancellation-fee-calculator-date" type="date" value="2026-11-08" min="2025-10-01" max="2028-05-31">
+  </div>
+
+  <div class="clc-field">
+    <label for="cornell-housing-license-cancellation-fee-calculator-room">Room type</label>
+    <select id="cornell-housing-license-cancellation-fee-calculator-room">
+      <option value="6872" selected>Double or quad: $6,872 a semester</option>
+      <option value="6322">Triple or one-room quad: $6,322 a semester</option>
+      <option value="7783">Single or townhouse double: $7,783 a semester</option>
+      <option value="8297.5">Super single: $8,297.50 a semester</option>
+      <option value="custom">Other (type the rate below)</option>
+    </select>
+    <span class="clc-hint">2026-27 residence hall rates. 2027-28 rates are posted in March 2027.</span>
+  </div>
+
+  <div class="clc-field">
+    <label for="cornell-housing-license-cancellation-fee-calculator-rate">Fall semester room rate ($)</label>
+    <input id="cornell-housing-license-cancellation-fee-calculator-rate" type="number" min="0" max="20000" step="1" value="6872" inputmode="decimal">
+    <span class="clc-hint">Used only after Aug 15, when the fee is half of this.</span>
+  </div>
+
+  <div class="clc-result" id="cornell-housing-license-cancellation-fee-calculator-result" aria-live="polite">
+    <p><strong>How it works:</strong> returning juniors and seniors pay by the date they cancel, from $50 through Jan 31 up to half the fall room rate after Aug 15. Study away, leave, internship and graduation are free by June 15 or Dec 1. First-years, new transfers and second-years cannot cancel to move off campus.</p>
+  </div>
+</div>
+<script>
+(function () {
+  var root = document.getElementById("tool-cornell-housing-license-cancellation-fee-calculator");
+  if (!root) return;
+
+  var L27 = "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028";
+  var L26 = "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027";
+  var RATES = "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates";
+  var D = "2026-11-08";
+  var NUMBERS = {
+    feeThroughJan31: { value: 50, asOf: D, source: L27 },
+    feeFebToMar: { value: 500, asOf: D, source: L27 },
+    feeAprToJun: { value: 1000, asOf: D, source: L27 },
+    feeJulToAug15: { value: 2000, asOf: D, source: L27 },
+    shareOfFallRateAfterAug15: { value: 0.5, asOf: D, source: L27 },
+    lateExtenuatingFee: { value: 500, asOf: D, source: L26 },
+    fallPenaltyFreeDeadline: { value: "06-15", asOf: D, source: L26 },
+    springPenaltyFreeDeadline: { value: "12-01", asOf: D, source: L26 },
+    doublePerSemester: { value: 6872, asOf: D, source: RATES },
+    doublePerYear: { value: 13744, asOf: D, source: RATES }
+  };
+
+  function el(n) { return root.querySelector("#cornell-housing-license-cancellation-fee-calculator-" + n); }
+  var statusEl = el("status"), yearEl = el("year"), termEl = el("term"), reasonEl = el("reason"),
+      dateEl = el("date"), roomEl = el("room"), rateEl = el("rate"), out = el("result");
+
+  var MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function fmt(iso) { var p = iso.split("-"); return MON[+p[1] - 1] + " " + (+p[2]) + ", " + p[0]; }
+  function utc(iso) { var p = iso.split("-"); return Date.UTC(+p[0], +p[1] - 1, +p[2]); }
+  function days(a, b) { return Math.round((utc(b) - utc(a)) / 86400000); }
+  function money(n) {
+    var s = (Math.round(n * 100) / 100).toFixed(2);
+    if (s.slice(-3) === ".00") s = s.slice(0, -3);
+    return "$" + s.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+  function li(t) { return "<li>" + t + "</li>"; }
+
+  function schedule(Y, rate) {
+    return [
+      { end: Y + "-01-31", fee: NUMBERS.feeThroughJan31.value, label: "through Jan 31, " + Y },
+      { end: Y + "-03-31", fee: NUMBERS.feeFebToMar.value, label: "Feb 1 to Mar 31, " + Y },
+      { end: Y + "-06-30", fee: NUMBERS.feeAprToJun.value, label: "Apr 1 to Jun 30, " + Y },
+      { end: Y + "-08-15", fee: NUMBERS.feeJulToAug15.value, label: "Jul 1 to Aug 15, " + Y },
+      { end: "9999-12-31", fee: rate * NUMBERS.shareOfFallRateAfterAug15.value, label: "after Aug 15, " + Y + " (half of " + money(rate) + ")" }
+    ];
+  }
+  function step(s, d) { for (var i = 0; i < s.length; i++) { if (d <= s[i].end) return i; } return s.length - 1; }
+
+  roomEl.addEventListener("change", function () { if (roomEl.value !== "custom") rateEl.value = roomEl.value; });
+
+  var FOOT = '<p class="clc-small">Fees and deadlines as of Nov 8, 2026, from Cornell\'s 2026-27 and 2027-28 housing license pages; room rates are 2026-27. ' +
+    'Estimated: rates other than the double are half the yearly rate (our arithmetic), and 2027-28 rates are not final until March 2027. ' +
+    'Not checking in by the first day of classes also costs 50% of the fall rate.</p>';
+
+  function render() {
+    var st = statusEl.value, Y = parseInt(yearEl.value, 10), term = termEl.value, reason = reasonEl.value;
+    var d = /^\d{4}-\d{2}-\d{2}$/.test(dateEl.value) ? dateEl.value : D;
+    var rate = parseFloat(rateEl.value);
+    if (isNaN(rate) || rate < 0) rate = NUMBERS.doublePerSemester.value;
+    var under = st !== "upper";
+    var extenuating = ["away", "leave", "internship", "graduation"].indexOf(reason) > -1;
+    var s = schedule(Y, rate), i = step(s, d);
+    var pf = Y + "-" + (term === "spring" ? NUMBERS.springPenaltyFreeDeadline.value : NUMBERS.fallPenaltyFreeDeadline.value);
+    var lic = Y + "-" + String(Y + 1).slice(2);
+    var head = "", lines = [];
+
+    if (under && reason === "offcampus") {
+      head = "<p><strong>You cannot cancel this license to move off campus.</strong> Cornell does not let first-years, new transfers or second-years out of a " + lic + " license for a lease.</p>";
+      lines.push(li("If you sign a lease anyway, Cornell still bills the full year: " + money(NUMBERS.doublePerYear.value) + " for a 2026-27 double, on top of your rent."));
+      lines.push(li("The ways out: you stop attending, you hold an approved exemption, or (second-years only) you are accepted to a Greek house, affiliated house or co-op before the Spring Housing Selection deadline. Change the reason above to see each."));
+    } else if (under && reason === "greek") {
+      head = "<p><strong>Only second-years can cancel on a house or co-op acceptance, and only if it came before the Spring Housing Selection deadline.</strong>" + (st === "second" ? "" : " First-years and new transfers cannot cancel for this reason.") + "</p>";
+      lines.push(li("Rising sophomores' selection runs in April; Greek-house residents affirm in the Housing Application by March 15 (2026 dates). The exact deadline for " + lic + " is not in our sources."));
+      lines.push(li("The fee, if any, for this release is not in our sources. Ask Housing Operations (housing@cornell.edu, 607-255-5368) before you sign with the house."));
+    } else if (under && reason === "exempt") {
+      head = "<p><strong>You can cancel if your exemption is approved.</strong> Cornell does not take exemption requests after you sign a license or during the license period.</p>";
+      lines.push(li("Exemptions last one academic year and are requested in the Housing application during the open window (spring and fall)."));
+      lines.push(li("The fee, if any, for cancelling on an exemption is not in our sources. Ask Housing Operations (housing@cornell.edu, 607-255-5368)."));
+    } else if (extenuating) {
+      if (d <= pf) {
+        var left = days(d, pf);
+        head = "<p><strong>$0 if you cancel by " + fmt(pf) + ".</strong> " + (left === 0 ? "That is today." : "You have " + left + " day" + (left === 1 ? "" : "s") + " left.") + "</p>";
+      } else {
+        head = "<p><strong>" + money(NUMBERS.lateExtenuatingFee.value) + ".</strong> The penalty-free deadline was " + fmt(pf) + "; later requests for this reason cost " + money(NUMBERS.lateExtenuatingFee.value) + ".</p>";
+      }
+      if (under) lines.push(li("First- and second-years may cancel only if no longer attending. Whether " + (reason === "away" ? "study away" : reason === "internship" ? "an internship" : "this") + " counts is for Housing Operations to confirm (housing@cornell.edu, 607-255-5368)."));
+      lines.push(li("Penalty-free deadlines for " + lic + ": " + fmt(Y + "-06-15") + " for fall, " + fmt(Y + "-12-01") + " for spring."));
+      if (term === "year" && !under) lines.push(li("If Cornell does not accept the reason, the dated schedule applies: " + money(s[i].fee) + " on " + fmt(d) + "."));
+    } else if (term === "spring") {
+      head = "<p><strong>Cornell does not release a spring license for this reason.</strong> Moving off campus or into a fraternity small residence is not an extenuating circumstance; spring releases are for graduating, going abroad or leaving the university.</p>";
+      lines.push(li("Study away, leave, internship or graduation: free by " + fmt(Y + "-12-01") + ", " + money(NUMBERS.lateExtenuatingFee.value) + " after."));
+    } else {
+      var cur = s[i], nxt = s[i + 1];
+      head = "<p><strong>" + money(cur.fee) + " if you cancel on " + fmt(d) + ".</strong> That is the " + lic + " fee " + cur.label + ".</p>";
+      if (nxt) {
+        var dl = days(d, cur.end);
+        lines.push(li("It rises to " + money(nxt.fee) + " on " + fmt(Y + "-" + ["02-01", "04-01", "07-01", "08-16"][i]) + ". " + (dl === 0 ? "Today is the last day at this price." : "You have " + dl + " day" + (dl === 1 ? "" : "s") + " at this price.")));
+      } else if (d > Y + "-08-15") {
+        lines.push(li("The fall term of this license has started or is about to. The spring-only line is Dec 1, " + Y + ", and only for study away, leave, internship or graduation."));
+      }
+      if (reason === "greek") lines.push(li("A Greek or co-op move counts as an ordinary cancellation for a returning junior or senior, so the dated schedule applies."));
+      if (reason === "exempt") lines.push(li("Juniors and seniors are not under the two-year requirement, so an exemption changes nothing here; the dated schedule applies."));
+      var all = s.map(function (r, k) { var t = r.label + ": " + money(r.fee); return k === i ? "<strong>" + t + "</strong>" : t; });
+      lines.push(li("Full schedule: " + all.join("; ") + "."));
+    }
+
+    out.innerHTML = head + "<ul>" + lines.join("") + "</ul>" + FOOT;
+  }
+
+  root.addEventListener("input", render);
+  root.addEventListener("change", render);
+  render();
+})();
+</script>

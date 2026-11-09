@@ -1,0 +1,168 @@
+{
+ "slug": "when-to-sign-collegetown-lease-cornell",
+ "queue_id": "q-housing-0029",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Popular Collegetown units sign 8 to 16 months ahead, mostly September or October (about 10 to 11 months)",
+   "source_url": "brief §10 (signing record, lines 670-684, 1266-1276)",
+   "status": "ok",
+   "note": "Brief rows carry the same dated Sun signings; months recomputed to an August move-in: Apr 2017 to Aug 2018 = 16, May 2017 = 15, Sept 2019 = 11, Oct 2021 = 10, Sept 2022 = 11, Dec 2025 = 8."
+  },
+  {
+   "claim": "Count of 9 first-person signings in 6 Sun stories, 2017 to 2025",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Recounted the table: 3 (Nov 2018) + Sept 2019 + Oct 2021 + 2 (Sept 2022) + Aug 2022 + Dec 2025 = 9 rows in 6 stories."
+  },
+  {
+   "claim": "14 of Ithaca Renting's 67 Collegetown rows sold out (20.9%); 39 of 67 tagged 2027-28",
+   "source_url": "brief §6 row 512",
+   "status": "ok",
+   "note": "14/67 = 20.9% recomputed."
+  },
+  {
+   "claim": "Collegetown 2027-28 per-bed medians: 6BR $800, 4BR $1,246.25, 2BR $1,377.50, 1BR $2,025, studio $1,765, shared suite room $895",
+   "source_url": "brief §6 row 509",
+   "status": "ok",
+   "note": "Matches the brief's table."
+  },
+  {
+   "claim": "Downtown medians: 2BR $992.50, 3BR $795",
+   "source_url": "brief §6 row 510",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Lansing West 1BR 'now' units $1,038 and $1,193; rent free until Jan 2027 for applicants by Nov 14 who move in by Dec 1, 2026",
+   "source_url": "brief §6 row 508",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Four sophomores: $1,246.25 vs $992.50 is $253.75 a month, $3,045 over 12 months",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "1,246.25 - 992.50 = 253.75; x12 = 3,045."
+  },
+  {
+   "claim": "Dropping from 6BR to 4BR costs $446.25 a person a month, $5,355 a year",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "1,246.25 - 800 = 446.25; x12 = 5,355."
+  },
+  {
+   "claim": "Collegetown per-bed prices run 25% to 39% above downtown (studio, 1BR, 2BR); downtown 20% to 28% below Collegetown",
+   "source_url": "brief §1 line 9 and §10",
+   "status": "ok",
+   "note": "Recomputed: 1765/1395 = +26.5%; 2025/1625 = +24.6%; 1377.5/992.5 = +38.8%. Inverse: 20.8%, 19.8%, 27.9% below. Both ranges hold."
+  },
+  {
+   "claim": "2026-27 double $13,744 a year, $1,145 a month over 12 months",
+   "source_url": "brief §6 row 81",
+   "status": "ok",
+   "note": "13,744/12 = 1,145.33."
+  },
+  {
+   "claim": "Cancellation fees for returning juniors and seniors: $50 through Jan 31, $500 Feb 1 to Mar 31, $1,000 Apr 1 to Jun 30, $2,000 Jul 1 to Aug 15, 50% of fall room rate after",
+   "source_url": "brief §6 row 87",
+   "status": "ok",
+   "note": "Matches the brief's 2027-28 license row."
+  },
+  {
+   "claim": "Sophomores cannot sign without an approved exemption or Cornell bills the full year; exemption request deadline April 6, 2026; lasts one academic year",
+   "source_url": "brief §6 row 50 and residential policy rows",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Sophomore rule since fall 2022",
+   "source_url": "brief line 39",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "2013 law: 60 days' notice; 2022 law: 120 days, effective May 31, 2022, waiver on first page",
+   "source_url": "brief §2 lines 132-155",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Deposit plus advance rent capped at one month's rent (GOL 7-108); application fees banned (RPL 238-A)",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Building Division 607-274-6508, Certificate of Compliance",
+   "source_url": "brief lines 272, 283",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Visa appointment cannot be more than 120 days before program start; no SSN needed to rent",
+   "source_url": "brief lines 449-450, 703-705",
+   "status": "ok",
+   "note": "Matches the international FAQ rows."
+  },
+  {
+   "claim": "About 95% of grad and professional students live in non-university housing; Hasbrouck rolling applications on 12-month contracts",
+   "source_url": "brief lines 7, 442, 713",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Fall room selection Oct 2 to 8, 2025; first co-op round early November, second early February; final 2027-28 rates posted March 2027",
+   "source_url": "brief lines 64, 671-676",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Ithaca Renting opened 2020-21 leasing at 9 a.m. Sept 12, 2019 after an overnight line",
+   "source_url": "brief line 670",
+   "status": "ok",
+   "note": "Brief carries Sept 12 and 9 a.m."
+  },
+  {
+   "claim": "Developer 2016: most units rented by end of November; 2013 assistant dean: late October or November, push four to six years old; 2019 Off-Campus Living 'myth' quote",
+   "source_url": "brief lines 103, 634, 672, 684",
+   "status": "ok",
+   "note": "Attributions match the brief rows and the page names the speakers as the brief does."
+  },
+  {
+   "claim": "Transfers learned June 22 (2018) of campus housing; spring transfer lives on campus for that spring and following year; offcampusliving@cornell.edu for no-NetID admits",
+   "source_url": "brief lines 54, 690, 697, 815, 854",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Fontana, 327 Eddy St, left more than 50 students in a hotel in 2016; The Ivy nearly all 52 units leased before completion",
+   "source_url": "brief lines 523, 633, 772",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "20 to 30 minute uphill walk from the flats to Collegetown",
+   "source_url": "brief line 16",
+   "status": "ok",
+   "note": "Matches the brief's Ithaca Neighborhoods rows."
+  },
+  {
+   "claim": "Cornell aid does not cover deposit, first and last month's rent, or summer rent",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Trusted brief fact (financial aid row); no drift found in the page wording."
+  },
+  {
+   "claim": "Not confirmed: Collegetown landlords' guarantor requirements; whether 120 days count from lease start or end",
+   "source_url": "page 'Not confirmed' lines",
+   "status": "ok",
+   "note": "Marked holes, not rejects; brief itself marks guarantor practice as not found (line 705)."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "41d555788f10c9435b9cfad9ca6de83143eb83a6ab12b12f27ff7942833c4ae5"
+}

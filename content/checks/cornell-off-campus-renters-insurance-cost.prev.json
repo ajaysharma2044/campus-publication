@@ -1,0 +1,156 @@
+{
+ "slug": "cornell-off-campus-renters-insurance-cost",
+ "queue_id": "q-housing-0042",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Cornell does not require renters insurance off campus; its checklist says \"Purchase renter's insurance\"",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "brief §2.20 row 'Is it required?'"
+  },
+  {
+   "claim": "Landlord may require it per lease; no source says whether Collegetown landlords require proof (Not confirmed line)",
+   "source_url": "brief §2.20, §8.2",
+   "status": "ok",
+   "note": "brief marks the same hole"
+  },
+  {
+   "claim": "GradGuard is Cornell's preferred insurer, for students on and off campus; covers theft, fire, smoke, vandalism and more; no price published",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "matches the living-campus row"
+  },
+  {
+   "claim": "GradGuard features: no rate increase on claim, no electronics sub-limits, no depreciation penalty, worldwide property, personal liability if you damage your residence, sign-up in Housing and Dining Portal",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "matches the vendor-page row"
+  },
+  {
+   "claim": "SafeButler Ithaca: about $76 a year (about $6 a month); $5 and $10 a month for ages 18-24, September 11, 2026; $108-$267 a year for a 20-year-old, 8 carriers",
+   "source_url": "brief §3.7",
+   "status": "ok",
+   "note": "brief row at line 602"
+  },
+  {
+   "claim": "SafeButler New York page lists Ithaca at $155 a year ($13 a month)",
+   "source_url": "brief §3.7",
+   "status": "ok",
+   "note": "brief row; $155/12 = $12.92, rounds to $13"
+  },
+  {
+   "claim": "GradGuard blog $13 a month; College Investor $9 to $17; Lemonade NY $14.60; Insure.com NY $328 a year ($27 a month) at $40,000 property and $300,000 liability; GEICO about $14 national; ValuePenguin about $19 national; University of Montana about $11",
+   "source_url": "brief §3.7",
+   "status": "ok",
+   "note": "all in the brief's 'Renters insurance, other' row with the same values; $328/12 = $27.33, rounds to $27"
+  },
+  {
+   "claim": "Ithaca and New York quotes run about $5 to $27 a month (about $60 to $328 a year)",
+   "source_url": "brief §3.7, §8",
+   "status": "ok",
+   "note": "brief states the same range. Recomputed: $5 x 12 = $60; $328 is the Insure.com annual figure"
+  },
+  {
+   "claim": "Cheapest quote $5 a month = $60 a year; $5 and $10 = $60 to $120 a year",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "5 x 12 = 60; 10 x 12 = 120"
+  },
+  {
+   "claim": "Example: $800 a month median for a Collegetown 6BR bed (Ithaca Renting 2027-28); $5 policy adds 0.6 percent, $27 adds 3.4 percent; $60 to $324 over 12 months",
+   "source_url": "brief §3 (Ithaca Renting row)",
+   "status": "ok",
+   "note": "6BR median $800 in brief. Recomputed: 5/800 = 0.625% (0.6); 27/800 = 3.375% (3.4); 27 x 12 = 324"
+  },
+  {
+   "claim": "Greek chapter rent covers housekeeping, utilities, internet, repairs and building insurance, not personal belongings",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief line 68 rent-covers row; 'not belongings' is the page's inference from the list, consistent with it"
+  },
+  {
+   "claim": "Houses that hold second-years must carry commercial liability insurance of at least $1,000,000 per occurrence naming Cornell",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief line 72 contains $1,000,000 per occurrence"
+  },
+  {
+   "claim": "Eight Cornell-owned co-ops; co-ops@cornell.edu, 607-255-3445",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief lines 63 and 65"
+  },
+  {
+   "claim": "NY caps security deposit plus advance rent at one month's rent (GOL 7-108); landlord may deduct tenant-caused damage beyond normal wear",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief lines 180-187"
+  },
+  {
+   "claim": "Cornell says most local leases bind housemates \"jointly and severally\"; each is responsible for housemates' rent and damages for the term",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief line 228 gives the same wording"
+  },
+  {
+   "claim": "March 2026: City ordered about 200 Asteri residents out on March 4, lifted March 20",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "brief line 785"
+  },
+  {
+   "claim": "Since a 2019 City Council vote, landlords owe displaced tenants double the monthly rent, prorated per day",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief line 254"
+  },
+  {
+   "claim": "About 95 percent of Cornell grad and professional students live in non-university housing",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief line 442"
+  },
+  {
+   "claim": "International students do not need an SSN to rent an apartment",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief line 449 quotes Cornell International Services FAQ"
+  },
+  {
+   "claim": "Housing and Dining Portal reached with your NetID",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief mentions NetID in the portal context (lines 107, 857)"
+  },
+  {
+   "claim": "Off-campus aid: Bursar stops billing housing; refund for living costs if aid exceeds Bursar charges; aid does not cover deposits",
+   "source_url": "brief §2.14, §6",
+   "status": "ok",
+   "note": "brief lines 429 and 887"
+  },
+  {
+   "claim": "2025-26 undergraduate cost-of-attendance list shows housing, food, books, personal and transportation",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief line 431"
+  },
+  {
+   "claim": "Most Ithaca leases end July 31, so most start August 1",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief line 169 and 666"
+  },
+  {
+   "claim": "Related-guide and tool links (/housing/... slugs, off-campus-move-in-checklist-cornell tool)",
+   "source_url": "brief",
+   "status": "unverifiable",
+   "note": "internal links to sibling pages; not facts in the brief, not checked here. The page makes no hard claim from them beyond what each guide covers."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "cee842a2b0a42c50e44ec9dbd9556785c0848fa641838bbe027a6ade5f656b2d"
+}

@@ -1,0 +1,72 @@
+{
+ "slug": "student-family",
+ "queue_id": "q-housing-0073",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Hasbrouck takes applications on a rolling basis",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief: Hasbrouck rolling applications (Cornell grad/professional campus housing page)."
+  },
+  {
+   "claim": "Hasbrouck family units for a partner/children; two-bedroom or larger on a 12-month lease",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief: family and partner units hold 2 to 4 people, max two adults per unit."
+  },
+  {
+   "claim": "Cornell housing application due April 6, 2026, including dependents or married exemption; lasts one year",
+   "source_url": "brief §1/§3",
+   "status": "fixed",
+   "note": "April 6 is the 2026 date per brief and already past on 2026-11-08. Reworded to 'April (April 6 in 2026; confirm the 2027 date with Cornell)' and to the brief's wording 'an exemption lasts a single academic year, so reapply each year'. Married and dependents exemptions confirmed in brief."
+  },
+  {
+   "claim": "Tell the landlord the name of any occupant not on the lease within 30 days of move-in",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/235-F",
+   "status": "ok",
+   "note": "brief: RPL 235-f, name within 30 days of move-in or of the landlord asking."
+  },
+  {
+   "claim": "30 to 90 days before lease ends: Good Cause renewal notice window",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/216",
+   "status": "ok",
+   "note": "brief: written notice 30 to 90 days before the lease ends."
+  },
+  {
+   "claim": "July 31: most Ithaca leases end",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief: most Ithaca leases expire July 31 (reported at the 2024 hearing)."
+  },
+  {
+   "claim": "By August 1: DHCR usually publishes the CPI figure behind the Good Cause rent standard",
+   "source_url": "https://hcr.ny.gov/good-cause-eviction",
+   "status": "ok",
+   "note": "brief: DHCR usually publishes CPI figure by August 1."
+  },
+  {
+   "claim": "March to April: start looking for August start (grad timing)",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "matches the grad guide meta ('Start in March or April for August')."
+  },
+  {
+   "claim": "Guide descriptions: six guides and three tools, each description matches the linked page's title and meta",
+   "source_url": "linked pages' frontmatter",
+   "status": "ok",
+   "note": "Compared against titles/metas of the guides; the tool pages exist (checks and reviews present). No numbers are stated in the descriptions."
+  },
+  {
+   "claim": "Quiz: for an undergrad parent or married undergrad, whether dependents or married exemption applies",
+   "source_url": "brief §1",
+   "status": "ok",
+   "note": "brief lists both exemptions (married students not subject; dependents)."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "60ed2253e549df17738db5750159bd4ca8e2da14b8461c91417f57cda95e972d"
+}

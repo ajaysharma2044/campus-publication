@@ -1,0 +1,150 @@
+{
+ "slug": "becoming-ithaca-landlord-student-rental-rules",
+ "queue_id": "q-housing-0048",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "COC fee schedule: $100 one-family, $175 two-family, $300 for 3-8, $500, $1,000, $1,750, $2,500 for 251+, live/work $100 per unit, congregate/co-op $350, fraternity $500, $10 and $50 per violation, re-inspection $75 an hour ($75 minimum)",
+   "source_url": "https://www.cityofithacany.gov/147/Certificate-of-Compliance-Fees",
+   "status": "ok",
+   "note": "brief §5 (COC fees row) and re-read on the City fee page 2026-11-08; every value matches."
+  },
+  {
+   "claim": "COC covers buildings with 3+ units or units with six or more unrelated persons; code excerpt says five; renewal every 3 years, dormitories/fraternities/sororities yearly",
+   "source_url": "https://www.cityofithacany.gov/146/Certificate-of-Compliance",
+   "status": "ok",
+   "note": "COC page fetched: 3+ units or 6+ unrelated, 3 years and 1 year for dorms/fraternities/sororities. Five-person code excerpt is brief (ecode360 8390192 row); page flags the discrepancy."
+  },
+  {
+   "claim": "Missed COC appointment costs $75",
+   "source_url": "https://www.cityofithacany.gov/146/Certificate-of-Compliance",
+   "status": "ok",
+   "note": "COC page fetched: missed appointment fee $75, prior notice required."
+  },
+  {
+   "claim": "COC step 2: fee payment timing, 30 days, one 30-day extension",
+   "source_url": "https://www.cityofithacany.gov/147/Certificate-of-Compliance-Fees",
+   "status": "fixed",
+   "note": "Page said the fee 'is due within 30 days' and the extension covers payment. Fee page: the initial fee is paid at application, charges billed after inspection are due within 30 days of receipt, and the one 30-day extension is to prepare for inspection or make repairs. Reworded step 2 to match."
+  },
+  {
+   "claim": "Building Division at 607-274-6508 / main line 607-274-6510, 108 E. Green St., 4th floor, 8:30 a.m. to 4:00 p.m.",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Phones, address and hours in the brief's Building Division rows; 6508 also confirmed on the COC page."
+  },
+  {
+   "claim": "Cost-of-failure example: $300 + 6 violations x $10 + 2 uncorrected x $50 + one hour $75 = $535",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: 300 + 60 + 100 + 75 = 535."
+  },
+  {
+   "claim": "Double rent on a $5,000 unit is $10,000 a month, about $333 a day for 30 days; late fee 5% would be $250 so cap is $50; deposit cap $5,000",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: one 4BR unit = 4 beds x $1,250 = $5,000 a month; 2 x 5,000 = 10,000; 10,000/30 = 333.3; 5% of 5,000 = 250."
+  },
+  {
+   "claim": "Unsafe-unit misdemeanor up to $500 and 30 days; displaced tenants owed double monthly rent prorated per day (2019)",
+   "source_url": "brief §5/§4",
+   "status": "ok",
+   "note": "brief rows 254 and 570."
+  },
+  {
+   "claim": "117 Thurston: certificate expired Nov 2015, 53 days to a fixed heater, tenant slept in library (2018 Sun)",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief mentions 117 Thurston, 53 days, library."
+  },
+  {
+   "claim": "Asteri: 181 units, about 200 residents ordered out March 4, 2026, lifted March 20; $2,000 to leave within five days; called predatory",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief rows 574, 745, 785 (181, about 200, March 4, $2,000 within five days). The March 20 lift date was not separately re-opened."
+  },
+  {
+   "claim": "120 days' written notice, Code 258-10, effective May 31, 2022, replaced 60-day rule, leases of nine months or longer, waiver bolded and initialed on first page, City Attorney Ari Levine: housing court",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief rows 131-138, 142."
+  },
+  {
+   "claim": "Counted back from July 31, 2027 the 120-day date is April 2, 2027",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: Mar 31 to Jul 31 is 122 days, so 120 days before Jul 31 is Apr 2. Brief row 652 agrees."
+  },
+  {
+   "claim": "Most Ithaca leases end July 31",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief row 169."
+  },
+  {
+   "claim": "Good Cause: council voted 8-2 in July 2024; renewal exceptions; 10 days to cure",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief rows 158 and 160."
+  },
+  {
+   "claim": "Ithaca small-landlord threshold one unit statewide (state default 10); high-rent 345% of FMR = $4,402 with 2023 1BR FMR $1,276",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief rows 163-164. The brief marks the DHCR notice as an unread PDF snippet; page cites it as the source and the figure is in the brief. Recomputed 1,276 x 3.45 = 4,402.2."
+  },
+  {
+   "claim": "Deposit cap one month incl. advance, 14-day return, up to 2x for willful, interest 1% admin fee, application fee banned, credit check $20, late fee after 5 days at most $50 or 5%, keys 110%",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief rows 180, 192-193, 564-568."
+  },
+  {
+   "claim": "Heat Sept 15 to May 31 in Ithaca vs statewide Oct 1; shutoff notice 18/15/30 days; snow within 24 hours; trash 24 hours before pickup",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief rows 241, 243, 306, 317. 'Two weeks longer' = Sept 15 to Oct 1, about 16 days."
+  },
+  {
+   "claim": "Town of Ithaca family rule and 2017 Drummond case; Town of Ithaca (607) 273-1783, Lansing (607) 533-7054",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief rows 294 and 469."
+  },
+  {
+   "claim": "Cornell affiliated-housing requirements: RSO, sprinklers, $1M per occurrence/$2M aggregate naming Cornell, current COC then yearly inspections, annual application, 30-minute presentation, sole discretion",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing",
+   "status": "ok",
+   "note": "Fetched 2026-11-08; all items match. Page omits that a 30-minute Q&A follows, which is not a misstatement."
+  },
+  {
+   "claim": "Ithaca Renting 2027-28 Collegetown: per-bed median $800 in a 6BR, $2,025 for 1BR; 38 priced rows",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief rows 511 and 656."
+  },
+  {
+   "claim": "Cooperative household = four or more unrelated people; five+ triggers COC in one excerpt",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief rows 292-293."
+  },
+  {
+   "claim": "Landlords predicted $2,000 to $5,000 legal costs per non-renewal at the 2024 hearing",
+   "source_url": "https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections",
+   "status": "unverifiable",
+   "note": "Not located in the brief by the checks run; WAMC page not opened in this pass. Attribution is already framed as the landlords' claim, not a measured figure."
+  },
+  {
+   "claim": "RPL 214: CO on or after Jan 1, 2009 exempts for 30 years; owner-occupied 10 or fewer units; RPL 226-c 30/60/90 notice; 226-b four or more units sublet rule",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/214",
+   "status": "unverifiable",
+   "note": "Statute details not individually re-opened in this pass and not all located in the brief; they match what I know of the statute but are not source-confirmed here."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "a85cdcd8d9f9b1557af85ea3dc00a14222672691291f13d8ce0d8a090929ca6d"
+}

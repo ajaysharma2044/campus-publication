@@ -1,0 +1,229 @@
+{
+ "slug": "ithaca-housing-cost-by-living-situation-2026-27",
+ "queue_id": "q-housing-0068",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Residence hall double $6,872 a semester, $13,744 a year; includes gas, electricity, garbage, internet up to 200 GB; no security or key deposit; revocable license",
+   "source_url": "brief §2.3 (rows at lines 81-86)",
+   "status": "ok",
+   "note": "Same values and period (AY 2026-27). 6,872 x 2 = 13,744 recomputed."
+  },
+  {
+   "claim": "Double per month $1,145.33 over 12 months; $1,374.40 over 10",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "Recomputed: 13,744 / 12 = 1,145.33; 13,744 / 10 = 1,374.40."
+  },
+  {
+   "claim": "Co-op doubles $3,487 (Red Bud in Von Cramm) to $4,981 (660 Stewart, Wari) a semester across 8 co-ops; $6,974 to $9,962 a year; gaps -6,770 and -3,782",
+   "source_url": "brief §2.3 and §10.12",
+   "status": "ok",
+   "note": "Brief lists 8 co-ops (Prospect of Whitby, 660 Stewart, Triphammer, Red Bud, 302 Wait, 308 Wait, Wari, Watermargin). 3,487 x 2 = 6,974; 4,981 x 2 = 9,962; 13,744 - 9,962 = 3,782; 13,744 - 6,974 = 6,770."
+  },
+  {
+   "claim": "Triphammer double $4,317 a semester = $8,634 a year; Triphammer triple $3,972",
+   "source_url": "brief §2.3, §10.12",
+   "status": "ok",
+   "note": "4,317 x 2 = 8,634."
+  },
+  {
+   "claim": "Co-op triple Red Bud $2,765 a semester = $5,530; gap -8,214; cheapest bed in the table",
+   "source_url": "brief §2.3, §10.12",
+   "status": "ok",
+   "note": "2,765 x 2 = 5,530; 13,744 - 5,530 = 8,214. 5,530 is the lowest annual figure in all 28 rows."
+  },
+  {
+   "claim": "Meal plan in 4 of the 8 co-ops",
+   "source_url": "brief §10.12",
+   "status": "ok",
+   "note": "Brief: four houses have one."
+  },
+  {
+   "claim": "Hasbrouck studio $1,355, 1BR unfurnished $1,415, 1BR furnished $1,490 a month; $16,260 / $16,980 / $17,880 a year; gaps +2,516 / +3,236 / +4,136",
+   "source_url": "brief §2.3, §10.12",
+   "status": "ok",
+   "note": "1,355 x 12 = 16,260; 1,415 x 12 = 16,980; 1,490 x 12 = 17,880; gaps recomputed against 13,744."
+  },
+  {
+   "claim": "Hasbrouck family 2BR apartment $1,500 a month ($18,000); family 2BR townhouse $1,475 unfurnished / $1,530 furnished ($17,700 / $18,360)",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "1,500 x 12 = 18,000; 1,475 x 12 = 17,700; 1,530 x 12 = 18,360. Brief says the $1,500 unit is the 3rd-floor family 2BR apartment; page's wording is a fair shorthand."
+  },
+  {
+   "claim": "Hasbrouck rolling applications; graduate and professional students; rates include gas, electricity, garbage, internet",
+   "source_url": "brief §2.3 and line 443",
+   "status": "ok",
+   "note": "Brief says rolling applications; inclusions per the brief's Hasbrouck rate notes."
+  },
+  {
+   "claim": "Hasbrouck unfurnished 1BR is $7,776 a year below the RentCafe Ithaca 1BR average",
+   "source_url": "brief §10.12",
+   "status": "ok",
+   "note": "24,756 - 16,980 = 7,776."
+  },
+  {
+   "claim": "2026-27 Ithaca grad budget for housing $19,962 a year, $1,663.50 a month",
+   "source_url": "brief line 432",
+   "status": "ok",
+   "note": "19,962 / 12 = 1,663.50."
+  },
+  {
+   "claim": "Collegetown Ithaca Renting: 67 unit rows read 2026-11-08; 38 rows kept; per-size n 7/8/5/2/4/2/5/1/4",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "7+8+5+2+4+2+5+1+4 = 38. Brief itself flags that the lane said 33 but the listed rows sum to 38; the page uses 38 and its per-size counts match the brief's rows."
+  },
+  {
+   "claim": "Collegetown per-bed medians/means of midpoints: studio 1,765 (mean 1,748.2), 1BR 2,025 (2,005), 2BR 1,377.5 (1,346.5), 3BR mean 1,243.75, 4BR 1,246.25 (1,245.6), 5BR mean 1,102.5, 6BR 800 (842.5), 10BR 775, suite room 895 (871.9)",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Recomputed medians from the brief's listed midpoints for every size; all match (e.g. 1BR (2,020+2,030)/2 = 2,025; 4BR (1,192.5+1,300)/2 = 1,246.25)."
+  },
+  {
+   "claim": "Collegetown low/high endpoints per size (1,565-1,950; 1,625-2,545; 1,145-1,495; 1,185-1,345; 895-1,395; 925-1,275; 695-1,120; 725-825; 695-995)",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "All match the brief's range-of-endpoints column."
+  },
+  {
+   "claim": "Collegetown annual figures (x12) and gaps to 13,744 for all 9 rows, low/typical/high",
+   "source_url": "brief §10.9; recomputed",
+   "status": "ok",
+   "note": "Recomputed every cell, e.g. 2,025x12 = 24,300 (+10,556); 1,377.5x12 = 16,530 (+2,786); 1,102.5x12 = 13,230 (-514); 1,145x12 = 13,740 (-4); 1,395x12 = 16,740 (+2,996). No errors."
+  },
+  {
+   "claim": "Collegetown 10BR is one row (202 Dryden); Court deluxe 5BR was sold out; low end of 6BR is an Aces 6BR; 2BR whole unit at median 2,755 a month",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "1,377.5 x 2 = 2,755."
+  },
+  {
+   "claim": "Downtown per-bed: 20 rows; studio 7 (median 1,395, mean 1,385.4), 1BR 3 (1,625; 1,637.5), 2BR 5 (992.5; 946), 3BR 3 (795; 798.3), 5BR 1 (795), 6BR 1 (870); Whiton Hall room not used",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "7+3+5+3+1+1 = 20. Medians and means match the brief; x12 values 16,740 / 19,500 / 11,910 / 9,540 / 9,540 / 10,440 recomputed."
+  },
+  {
+   "claim": "Downtown low/high endpoints (1,175-1,595; 1,525-1,725; 825-1,050; 695-895; 745-845; 815-925) and annual/gap figures",
+   "source_url": "brief §10.10; recomputed",
+   "status": "ok",
+   "note": "Endpoints are consistent with the brief's listed rows (3BR low 695 and high 895 from Old Cigar Factory and Cityview rows). All gaps recomputed against 13,744."
+  },
+  {
+   "claim": "Downtown inclusions: heat, water, trash; electricity only at Colonial Building, Commons Studios and Whiton Hall; 12-month leases; mostly 2026-27 leftovers possibly discounted",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Collegetown runs 26.5% above downtown for studios, 24.6% for 1BRs, 38.8% for 2BRs",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "Recomputed: 370/1,395 = 26.5%; 400/1,625 = 24.6%; 385/992.5 = 38.8%. Direction matches the brief's corrected change-log entry."
+  },
+  {
+   "claim": "Downtown is a 20 to 30 minute uphill walk or a bus",
+   "source_url": "brief §10.10 caveats",
+   "status": "ok",
+   "note": "Brief states the same."
+  },
+  {
+   "claim": "The Ivy 3BR units $5,500 to $5,800 a month (Cornell Daily Sun, Dec 2, 2025), split 3 ways $1,833.33 to $1,933.33; $22,000 to $23,200 a year; gaps +8,256 / +9,456; 1.60 to 1.69 times the double",
+   "source_url": "brief §10.13 and line 517",
+   "status": "ok",
+   "note": "5,500/3 x 12 = 22,000; 5,800/3 x 12 = 23,200; 22,000/13,744 = 1.60; 23,200/13,744 = 1.69; gaps recomputed."
+  },
+  {
+   "claim": "Ivy cheapest unit a basement 2BR at $1,595 per person ($19,140 a year); 20% early-interest discount in one case; optional utility package $150 per person per month; leases from 2026-08-17",
+   "source_url": "brief line 517-518, 596",
+   "status": "ok",
+   "note": "1,595 x 12 = 19,140. The row's 'utilities not included' is the page's reading of the optional-utility-package fact; the brief does not state it outright but it follows from the package being optional and priced separately."
+  },
+  {
+   "claim": "RentCafe averages (Collegetown 1BR 2,342, 2BR 3,414; Ithaca studio 1,772, 1BR 2,063, 2BR 2,459, 3BR 3,039), updated 2026-10-30; no Collegetown 3BR",
+   "source_url": "brief lines 479, 482",
+   "status": "ok",
+   "note": "Values and date match."
+  },
+  {
+   "claim": "RentCafe annual per-person figures and gaps: 28,104 (+14,360); 20,484 (+6,740); 14,754 (+1,010); 12,156 (-1,588); 24,756 (+11,012); 21,264 (+7,520); 1,707 and 1,229.50 and 1,013 per person; 49.0% above double",
+   "source_url": "brief lines 1233-1240",
+   "status": "ok",
+   "note": "Recomputed each; 6,740/13,744 = 0.490."
+  },
+  {
+   "claim": "Whole Ithaca 2BR at RentCafe average is $29,508 a year (2,459 x 12); 3BR $36,468 (3,039 x 12)",
+   "source_url": "recomputed from brief line 482",
+   "status": "ok",
+   "note": "2,459 x 12 = 29,508; 3,039 x 12 = 36,468."
+  },
+  {
+   "claim": "RentCafe counts only buildings with 50 or more units; listing counts not stated; Collegetown square footage (148 sq ft studio, 550 sq ft 2BR) looks implausible",
+   "source_url": "brief line 484, 479",
+   "status": "ok",
+   "note": "Brief states the 50+ unit method (marked there as not re-verified on the fetched page) and the sq ft values. The page repeats the brief's caveat and does not rest the core answer on it."
+  },
+  {
+   "claim": "EnergySage Ithaca average bill $280 a month (updated 2026-11-01); split four ways $70; Collegetown 4BR median goes from +1,211 to +2,051 over the double (15,795)",
+   "source_url": "brief §10.11, line 590",
+   "status": "ok",
+   "note": "280/4 = 70; 1,246.25 + 70 = 1,316.25 x 12 = 15,795; 15,795 - 13,744 = 2,051; also 1,211 + 840 = 2,051."
+  },
+  {
+   "claim": "Eleven of the other 27 options come in under the double",
+   "source_url": "recomputed from the CSV",
+   "status": "ok",
+   "note": "Rows with typical (or both range ends) below 13,744: 2, 3, 12, 13, 14, 15, 18, 19, 20, 21, 26 = 11. Over: rows 4-11, 16, 17, 22-25, 27, 28 = 16. 11 + 16 = 27."
+  },
+  {
+   "claim": "Five of the six RentCafe scenarios are over the double",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "Rows 23, 24, 25, 27, 28 positive; row 26 negative."
+  },
+  {
+   "claim": "In Collegetown, going from a 6BR share ($9,600) to a 4BR share ($14,955) adds $5,355 a year",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "14,955 - 9,600 = 5,355."
+  },
+  {
+   "claim": "Sample size 79 = 1 + 8 + 1 + 3 + 38 + 20 + 2 + 6; 58 of 79 prices from Ithaca Renting",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "1+8+1+3 = 13; +38 = 51; +20 = 71; +2 = 73; +6 = 79. 38 + 20 = 58."
+  },
+  {
+   "claim": "Cheapest ($5,530 co-op triple) and dearest typical ($28,104 Collegetown 1BR at RentCafe average) figures in the answer paragraph and meta",
+   "source_url": "recomputed from the CSV",
+   "status": "ok",
+   "note": "5,530 is the minimum annual figure; 28,104 is the highest annual_typical value (next 24,756 and 24,300). The 30,540 high-end of the Ithaca Renting 1BR range is a range endpoint, not a typical figure, so the wording stands."
+  },
+  {
+   "claim": "Greek house prices not published; 2027-28 Cornell rates post in March 2027",
+   "source_url": "brief §2.2 and line 92",
+   "status": "ok",
+   "note": "Brief: final 2027-28 rates posted March 2027. Greek costs are listed as a hole on the page itself ('Not in the brief')."
+  },
+  {
+   "claim": "CSV matches the page table: 28 rows, same values in every numeric column",
+   "source_url": "content/datasets/ithaca-housing-cost-by-living-situation-2026-27.csv",
+   "status": "ok",
+   "note": "Read both files and compared rows 1-28; values are identical. No fixes needed."
+  }
+ ],
+ "beats_top": {
+  "query": "cost of housing cornell per year off campus vs on campus",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

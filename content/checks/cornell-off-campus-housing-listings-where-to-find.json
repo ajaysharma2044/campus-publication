@@ -1,0 +1,150 @@
+{
+ "slug": "cornell-off-campus-housing-listings-where-to-find",
+ "queue_id": "q-housing-0047",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "14 of 67 Collegetown rows sold out on 2026-11-08, including 8- and 14-bedroom houses",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "ok",
+   "note": "brief §5; re-read the live page: 67 rows, 14 marked sold out (rows for 105 Dryden Ct 8BR and 214 Dryden 14BR are among them)"
+  },
+  {
+   "claim": "Ithaca Renting Collegetown medians: studio $1,765, 1BR $2,025, 2BR $1,377.50, 4BR $1,246.25, 6BR $800 (38 priced rows, 2027-28)",
+   "source_url": "brief §5 / §10.9",
+   "status": "ok",
+   "note": "brief table row; values match. My quick recompute of studio midpoints from the 2027-28-tagged rows gave about $1,749-$1,750, depending on which rows are included, but the brief's method (10.9) defines the row set and the page quotes it exactly, so the brief value stands"
+  },
+  {
+   "claim": "Ithaca Renting downtown: 2BR median $992.50 per bed, 3BR $795",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief downtown row"
+  },
+  {
+   "claim": "Ithaca Renting: 18 properties, heat and hot water included, furnished, parking extra",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "ok",
+   "note": "brief line 635 for 18 properties; live page FAQ confirms heat/hot water included, furnished, parking a separate license"
+  },
+  {
+   "claim": "Lansing West 1BR now units $1,038 and $1,193; apply by Nov 14, move in by Dec 1, rent free until Jan 2027; $20 application fee",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief row for Lansing West"
+  },
+  {
+   "claim": "Modern Living: sublets 'from $900 per person' (period not stated), Lock-In November Rates, availability page 0 results",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief row for Modern Living"
+  },
+  {
+   "claim": "Student Agencies office at 409 College Ave, 607-272-2000; no rentals section",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief line 795 has address and phone; homepage fetch showed no rentals section (lists SAI Real Estate among businesses; contact details not on the fetched page)"
+  },
+  {
+   "claim": "Cornell 2026-27 residence hall double $13,744 per year; $1,145 over 12 months; $1,374 over 10",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief gives $13,744; recomputed 13,744/12 = 1,145.33 and 13,744/10 = 1,374.40"
+  },
+  {
+   "claim": "Hasbrouck 1BR unfurnished $1,415 a month, 12-month contract, 2026-27",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief Hasbrouck row"
+  },
+  {
+   "claim": "About 95% of grad and professional students live off campus",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief mentions 95%"
+  },
+  {
+   "claim": "Cornell marketplace on College Pads; City of Ithaca listings need a current Certificate of Compliance from 2026-27; Cornell-affiliated users only",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief row on switch to College Pads"
+  },
+  {
+   "claim": "Off-Campus Living list requires NetID; admitted students forward acceptance letter to offcampusliving@cornell.edu; phone 607-255-2310",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief lines 108 and 818"
+  },
+  {
+   "claim": "Building Division (607) 274-6508 / ibd@cityofithaca.org",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief mentions 274-6508 repeatedly"
+  },
+  {
+   "claim": "Listings free to Cornell-affiliated people; in 2019 landlords paid $30 a listing and sublets were free",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief mentions $30 listing fee"
+  },
+  {
+   "claim": "Overnight line before 9 a.m. opening on Sept 12, 2019",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief line 673 has Sept 12"
+  },
+  {
+   "claim": "Cornell does not endorse any listed site; Ithacarents.com posting limited to Landlords Association of Tompkins County members",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief line 106"
+  },
+  {
+   "claim": "International Scholar House is a furnished five-bedroom rented month to month (Sun, 2024)",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief mentions International Scholar House"
+  },
+  {
+   "claim": "Cornell International Services says no SSN needed to rent an apartment",
+   "source_url": "https://international.globallearning.cornell.edu/life-cornell/faq-international-students",
+   "status": "ok",
+   "note": "page says: 'You don't need an SSN to open a bank account, rent an apartment, or get a credit card.'"
+  },
+  {
+   "claim": "Fall Creek about 15 minutes by bus from Hollister Hall, Lansing about 20",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief line 624"
+  },
+  {
+   "claim": "Dryden South $1,395-$1,990 per person, leases end May 31, 2027; 407 College Ave $995 headline, range to $2,890; 709 N Tioga $1,600/$1,700; 209 Stewart $850 x 5 rooms; 115-117 College Ave placeholder 555-555-5555",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief listing rows (709 N Tioga and 115-117 College Ave seen directly; $850 at line 505)"
+  },
+  {
+   "claim": "NY deposit plus advance rent capped at one month; application fees banned except up to $20 for background/credit check; sublet consent in 4+ unit buildings; lease liability",
+   "source_url": "https://www.nysenate.gov/legislation/laws/GOB/7-108",
+   "status": "ok",
+   "note": "statute links in the brief; wording is a tight paraphrase of the statutes"
+  },
+  {
+   "claim": "Most Ithaca leases end July 31",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief lines 169, 351, 652"
+  },
+  {
+   "claim": "4-person group, 4BR at $5,000 per unit = $1,250 each; per bed it would be four times the $1,246.25 median",
+   "source_url": "our own math",
+   "status": "ok",
+   "note": "recomputed 5,000/4 = 1,250; 4 x 1,246.25 = 4,985"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "8be20c6f9cc8bcb0e9a97afa990650d3c7034d86d2f0ea50068aba0a1457daec"
+}

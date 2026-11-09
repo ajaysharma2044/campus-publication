@@ -1,0 +1,241 @@
+{
+ "slug": "cheapest-off-campus-housing-cornell",
+ "queue_id": "q-housing-0055",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Cornell residence hall double $13,744 a year ($6,872 a semester); $1,145 a month over 12 months; $1,374 over 10",
+   "source_url": "brief §2 / §10.3",
+   "status": "ok",
+   "note": "brief §2 and 10.3; recomputed 13,744/12 = 1,145.33 and /10 = 1,374.40"
+  },
+  {
+   "claim": "Co-op rates 2026-27: triple $2,765 to $3,972, double $3,487 to $4,981, single $3,949 to $6,014; Red Bud in Von Cramm cheapest ($3,949 / $3,487 / $2,765)",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2 co-op rate rows"
+  },
+  {
+   "claim": "Co-op double $6,974 to $9,962 a year, $3,782 to $6,770 below the double; cheapest triple $5,530 for two semesters",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "recomputed 3,487x2 = 6,974; 4,981x2 = 9,962; 13,744-9,962 = 3,782; 13,744-6,974 = 6,770; 2,765x2 = 5,530"
+  },
+  {
+   "claim": "Hasbrouck rates: single $620, large single $910, studio $1,355, 1BR $1,415 unfurnished / $1,490 furnished; per-year column",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2; recomputed x12: 7,440; 10,920; 16,260; 16,980; 17,880"
+  },
+  {
+   "claim": "Hasbrouck unfurnished 1BR $7,776 a year under RentCafe 1BR average $2,063",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "2,063x12 = 24,756 minus 16,980 = 7,776"
+  },
+  {
+   "claim": "Grad housing budget $19,962 a year, about $1,663.50 a month",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "19,962/12 = 1,663.50"
+  },
+  {
+   "claim": "Lansing West 1BRs $1,038 and $1,193; rent free until Jan 2027 for applicants by Nov 14 moving in by Dec 1; 700 Warren Rd",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief §5 Lansing West row"
+  },
+  {
+   "claim": "Ithaca Renting Collegetown 2027-28 medians: studio $1,765, 1BR $2,025, 2BR $1,377.50, 4BR $1,246.25, 6BR $800, 10BR $775, shared-suite room $895, 5BR two-row mean $1,102.50; Aces 6BR from $695",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "ok",
+   "note": "brief §5 and 10.9; live page re-read: Aces 6BR $695-$760, 202 Dryden 10BR $725-$825 (midpoint 775), 6BR rows match"
+  },
+  {
+   "claim": "Ithaca Renting downtown medians: studio $1,395, 1BR $1,625, 2BR $992.50, 3BR $795; 20 downtown rows",
+   "source_url": "brief §10.10",
+   "status": "ok",
+   "note": "brief 10.10; row table n sums 7+3+5+3+1+1 = 20"
+  },
+  {
+   "claim": "38 priced Collegetown rows",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "ok",
+   "note": "fixed in place: Live page shows 48 rows with a price; 38 is the per-bed rows used in the brief's analysis (7+8+5+2+4+2+5+1+4). Reworded to '38 Collegetown per-bed rows'."
+  },
+  {
+   "claim": "14 of 67 Collegetown rows sold out; 105 Dryden Court 8BR and 214 Dryden Rd 14BR sold out",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "ok",
+   "note": "brief §5; live page re-read: 67 listings, 14 SOLD OUT, both houses sold out"
+  },
+  {
+   "claim": "209 Stewart Ave 5BR $850 a room all in (heat, water, electricity, WiFi), Aug 1 2026 to Jul 31 2027",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief §5 row"
+  },
+  {
+   "claim": "Table 'gap to the double' and per-year figures (7,440 / 5,530 / 8,340 / 9,300 / 9,540 / 9,600 / 10,200 / 10,740 / 11,910; gaps 6,304 / 8,214 / 5,404 / 4,444 / 4,204 / 4,144 / 3,544 / 3,004 / 1,834)",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "recomputed each: monthly x12 and 13,744 minus that"
+  },
+  {
+   "claim": "Group size math: 6BR vs 4BR is $446.25 a month, $5,355 a year; 1BR alone $24,300 is $10,556 above the double; 4BR $14,955; 4BR plus $70 electricity is $15,795, $2,051 over",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "1,246.25-800 = 446.25; x12 = 5,355; 2,025x12 = 24,300; 24,300-13,744 = 10,556; 1,316.25x12 = 15,795; minus 13,744 = 2,051"
+  },
+  {
+   "claim": "Downtown beds run about 20% to 28% below the same landlord's Collegetown prices",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "(1,765-1,395)/1,765 = 21%; (2,025-1,625)/2,025 = 19.75%; (1,377.50-992.50)/1,377.50 = 27.9%. The brief's 25-39% is measured against downtown; the page's direction and base are consistent."
+  },
+  {
+   "claim": "Example: downtown 3BR $795 plus $200 OmniRide = $9,740 a year; shared suite $10,740; saves $1,000",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "9,540+200 = 9,740; 10,740-9,740 = 1,000"
+  },
+  {
+   "claim": "Signing-day example: $1,590 first month plus deposit; June and July $1,590; total $3,180; $1,600 to $2,400 on an $800 bed",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "795x2 = 1,590; twice = 3,180; 800x2 = 1,600, 800x3 = 2,400"
+  },
+  {
+   "claim": "Aid: calculated same off campus, family contribution unchanged, Bursar stops billing, refund for living costs; does not cover deposits, first and last month, summer rent, mid-year lease break",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief §3 and Living Off Campus page rows"
+  },
+  {
+   "claim": "Cost of attendance $13,744 housing and $7,604 food, 2025-26; Financial Aid at 203 Day Hall, 607-255-5145",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief §3 rows"
+  },
+  {
+   "claim": "Sophomores billed for the full year if no exemption; cancel a Cornell license $50 through Jan 31, $500 from Feb 1; second-years accepted to co-op or Greek house before Spring Housing Selection can cancel",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2 rows (non-compliance, cancellation fees, students who cannot cancel)"
+  },
+  {
+   "claim": "Eight co-ops named; count as second-year housing; 10 to 35 members; four have meal plans; selection early Nov and early Feb; co-ops@cornell.edu, 607-255-3445",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2 co-op rows"
+  },
+  {
+   "claim": "Sun 2023: 'mosey' of events plus lottery weighted by financial need and diversity factors",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2 co-op entry row"
+  },
+  {
+   "claim": "Sun Oct 2024: floors collapsed in four of eight co-ops; Cornell raised and standardized rents; residents praised community",
+   "source_url": "brief §10 / §7",
+   "status": "ok",
+   "note": "brief lines on co-op floor collapses and co-op source row"
+  },
+  {
+   "claim": "Sun columnist 2025 survey: houses about $800 to $1,300 per person, many run down",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief §5 row"
+  },
+  {
+   "claim": "Downtown is a 20 to 30 minute uphill walk; Commons photo caption 'about a mile'",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods",
+   "status": "ok",
+   "note": "fixed in place: Cornell page says downtown is 0.5 to 1.5 miles with a 20 to 30 minute uphill walk. Caption changed from 'about a mile' to '0.5 to 1.5 miles'."
+  },
+  {
+   "claim": "West Hill about 4 miles, rural, 'cottages' likely uninsulated with very high heating bills; NYSEG (800) 572-1111; Lansing 5 to 10 miles, bus or car",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods",
+   "status": "ok",
+   "note": "brief §2 and live page re-read confirm 4 miles and 5 to 10 miles"
+  },
+  {
+   "claim": "TCAT: free after 6 p.m. weekdays and weekends after year one; $1.50 a ride; OmniRide $200 a year; PhD students and graduate assistants free",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2 bus rows. 'Master's students pay $200' follows from the OmniRide $200 price and the free-for-PhD/GA row."
+  },
+  {
+   "claim": "Electricity: EnergySage about $280 a month, $70 split four ways, $46.67 six ways; upper bound, self-selected",
+   "source_url": "brief §10.11",
+   "status": "ok",
+   "note": "280/4 = 70; 280/6 = 46.67"
+  },
+  {
+   "claim": "Renters insurance about $5 to $27 a month (SafeButler from about $5; Insure.com NY $328 a year)",
+   "source_url": "brief §3 / §9",
+   "status": "ok",
+   "note": "brief rows; 328/12 = 27.33"
+  },
+  {
+   "claim": "City trash tag $6 each from Jan 1, 2026",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief checklist and trash row ($6 tag)"
+  },
+  {
+   "claim": "RPL 238-a: no application fee; background/credit check lesser of actual cost or $20; late fee after 5 days, lesser of $50 or 5%",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief rows citing RPL 238-a"
+  },
+  {
+   "claim": "Non-refundable deposits and separate cleaning fees unlawful; deposit plus advance rent capped at one month; return with itemized statement within 14 days or forfeit",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief GOL 7-108 rows"
+  },
+  {
+   "claim": "RPL 226-B sublet with landlord consent in buildings of four or more units, not unreasonably withheld",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "ok",
+   "note": "Standard statutory rule; page's own wording matches the statute; the brief's sublet section is the basis. No conflict found."
+  },
+  {
+   "claim": "West Campus unlimited plan $6,434 a year in 2021 (Sun); College Confidential 2016 parents, alumna 'dumps'",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "brief rows; plan year not stated in source, page says 'in 2021', which matches the article date"
+  },
+  {
+   "claim": "Greek houses: Cornell says costs generally below residence-hall or off-campus; no dollar figures",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "page marks the gap with a 'Not confirmed:' line"
+  },
+  {
+   "claim": "Joint and several liability wording attributed to Cornell housemate questionnaire",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief row: Cornell says most local leases bind housemates 'jointly and severally'"
+  },
+  {
+   "claim": "Downtown electricity included only at Colonial Building, Commons Studios and Whiton Hall; Ithaca Renting Collegetown tenants pay electricity at most buildings",
+   "source_url": "brief §10.9 / §10.10",
+   "status": "ok",
+   "note": "brief 10.10 source line and 10.9 caveats"
+  }
+ ],
+ "beats_top": {
+  "query": "cheapest off campus housing cornell",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

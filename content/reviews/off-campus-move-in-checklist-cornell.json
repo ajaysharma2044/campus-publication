@@ -1,0 +1,139 @@
+{
+ "slug": "off-campus-move-in-checklist-cornell",
+ "queue_id": "q-housing-0060",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Occupant deadline 30 days; single-tenant lease allows immediate family plus one more occupant and dependent children",
+   "source_url": "brief §3 (RPL 235-f row)",
+   "status": "ok",
+   "note": "Matches brief's RPL 235-f row. The shared-lease clause (tenants plus occupants cannot exceed tenants named) is not in the brief; it is statute wording and not a number. Not independently fetched."
+  },
+  {
+   "claim": "Deposit returned within 14 days; move-in inspection offered, signed record bars deductions for listed defects",
+   "source_url": "brief §3 (GOL 7-108)",
+   "status": "ok",
+   "note": "brief GOL 7-108 rows and the August move-in row."
+  },
+  {
+   "claim": "City trash tag $6.00 each, $36.00 per sheet of 6, one per can/bag up to 35 lbs; set-out no more than 24 hours before pickup; sale locations; City Hall 108 E. Green St.",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief rows on trash tags and set-out limit."
+  },
+  {
+   "claim": "Electricity low $104.20 at 698 kWh (Poweroutage.us); high $280 at about 1,116 kWh (EnergySage, updated 2026-11-01)",
+   "source_url": "brief electricity rows",
+   "status": "ok",
+   "note": "Both values and dates match the brief."
+  },
+  {
+   "claim": "Internet $30 to $120 a month, aggregator-sourced",
+   "source_url": "brief internet row",
+   "status": "ok",
+   "note": "Same range and caveat in the brief."
+  },
+  {
+   "claim": "Renters insurance $5 low (SafeButler, Sept 11 2026), $13 typical, $27 high (Insure.com NY, $328/yr)",
+   "source_url": "brief renters insurance rows",
+   "status": "ok",
+   "note": "$328/12 = $27.33, rounds to $27. Matches the brief."
+  },
+  {
+   "claim": "Bill range example: four people paying both = $38.55 low, $127 high a month",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: 5 + (104.20+30)/4 = 5 + 33.55 = 38.55; 27 + (280+120)/4 = 27 + 100 = 127."
+  },
+  {
+   "claim": "Cornell B permit $359.77 a year, Aug 16 to Aug 15, B lots any time and A lots after 2:30 p.m., refund by Mar 31",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief permit rows and the Mar 31 refund row."
+  },
+  {
+   "claim": "Prorated B permit = $359.77 x days left to Aug 15 / 365; 31 or fewer days left means buy next year's permit",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Formula in tool.md matches the code. For the default Aug 1, 2027 move-in, days left = 15 (inclusive), so the tool correctly says to buy next year's permit. Labeled as our arithmetic."
+  },
+  {
+   "claim": "2026-27 permit sales opened Tuesday, Aug 4, 2026, 9 a.m.",
+   "source_url": "brief §11 (Aug 4)",
+   "status": "ok",
+   "note": "Aug 4, 2026 is a Tuesday (Aug 1, 2026 is a Saturday). The 9 a.m. time was not re-fetched; the page marks the 2027 date as not in the sources."
+  },
+  {
+   "claim": "City residential permit $45 a year, valid to July 31, no partial-year price, visitor pass $10 for 2 weeks; landlords cannot buy; R-3 gets none",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief permit rows."
+  },
+  {
+   "claim": "Dryden Road Garage $232 monthly, Worker's Special $185, daily max $18; uncovered 4th/5th floors closed 2-8 a.m. Nov-Apr; Green Street $117 (snippet)",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Values match brief rows; Green Street is marked a search snippet on the page, as in the brief."
+  },
+  {
+   "claim": "Meters $2.50/hr (9 a.m.-6 p.m. Mon-Sat, free Sundays); garages $2.25/hr",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief parking rows."
+  },
+  {
+   "claim": "Odd/even parking Nov 1 to Apr 1, 7 p.m.-6 a.m.; move car every 24 hours weekdays; towed after 72 hours; text SIREN to 67283",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief rows."
+  },
+  {
+   "claim": "TCAT: new degree students free to Aug 31 (Dec 31 spring entrants); PhD/GA free OmniRide, up to 24 hours to activate; others free after 6 p.m. weekdays and weekends, $1.50 fare, OmniRide $200 a year prorated monthly",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief bus rows."
+  },
+  {
+   "claim": "NYSEG: Turn On Service, 800.572.1111 hours, two-year safety inspection",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief NYSEG rows."
+  },
+  {
+   "claim": "Certificate of Compliance 607-274-6508, ibd@cityofithaca.org; Transportation Services 607-255-4600",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief rows."
+  },
+  {
+   "claim": "Fontana (327 Eddy St) 2016: 50+ students waited until September, hotel or $30 a day; 301 College Ave opened Aug 2026 incomplete and rushed",
+   "source_url": "brief §11 and Fontana rows",
+   "status": "ok",
+   "note": "Two posts not separately quoted; attribution is to the Cornell Sun articles as in the brief."
+  },
+  {
+   "claim": "NYSEG temporary rates rose June 1, 2026; larger permanent increase pending",
+   "source_url": "brief NYSEG rate row",
+   "status": "ok",
+   "note": "Consistent with the brief's FingerLakes1 item. The page's source link was not re-fetched."
+  },
+  {
+   "claim": "GradGuard is Cornell's preferred insurer, no price published",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief GradGuard rows."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell off campus move in checklist",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}

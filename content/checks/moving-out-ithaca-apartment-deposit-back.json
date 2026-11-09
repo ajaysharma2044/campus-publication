@@ -1,0 +1,210 @@
+{
+ "slug": "moving-out-ithaca-apartment-deposit-back",
+ "queue_id": "q-housing-0033",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Move-out inspection between two weeks and one week before lease end, at least 48 hours' written notice; landlord must tell tenant of right to request; not required if tenant gives under two weeks' notice",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Move-out inspection (GOL 7-108)"
+  },
+  {
+   "claim": "Deposit or itemized statement within 14 days after vacating; missing it forfeits right to keep any part",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Return deadline"
+  },
+  {
+   "claim": "Willful violation: punitive damages up to twice the deposit; landlord must prove amounts reasonable; waivers void",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Penalties"
+  },
+  {
+   "claim": "July 31 lease end: inspection window July 17 to 24, deposit due August 14; May 31: May 17 to 24, June 14",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: July 31 minus 14 days = July 17, minus 7 = July 24, plus 14 = August 14; May 31 minus 14 = May 17, minus 7 = May 24, plus 14 = June 14"
+  },
+  {
+   "claim": "Most Ithaca leases end July 31",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief, Sun 2024 hearing report"
+  },
+  {
+   "claim": "City residential parking permit expires July 31",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief: valid issue date through July 31"
+  },
+  {
+   "claim": "Deductions table (unpaid rent, damage, utilities, moving/storing, excessive cleaning allowed; routine cleaning, separate cleaning fee, late/attorney fees since June 14, 2019 not allowed)",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief §2.7 Allowed deductions and Cleaning fees"
+  },
+  {
+   "claim": "Replacement keys up to 110% of actual cost",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief Replacement keys (RPL 235-i)"
+  },
+  {
+   "claim": "Move-in condition record bars keeping deposit for listed defects",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief Move-in inspection"
+  },
+  {
+   "claim": "Cornell move-out page: 'charges for cleaning services will be deducted'; two-stage checklist",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief Cornell's move-out page row and move-out checklist row"
+  },
+  {
+   "claim": "Six or more units: interest-bearing account, 1% yearly administrative fee, tenant can take interest at lease end",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief Interest row"
+  },
+  {
+   "claim": "Deposit plus rent advance capped at one month's rent",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief Deposit cap"
+  },
+  {
+   "claim": "Deposit is a trust fund not to be mixed with landlord's money; new owner liable for known deposit",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief Trust funds, New owner"
+  },
+  {
+   "claim": "City trash tag $6.00 each or $36.00 for six, effective Jan 1 2026, one tag per container up to 35 lbs",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief trash tags row"
+  },
+  {
+   "claim": "Tag sale locations (City Hall 108 E. Green, Ace 213 S. Fulton, Campus Store 135 Ho Plaza, GreenStar, P&C Fresh, Tops, Wegmans)",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief Where to buy tags"
+  },
+  {
+   "claim": "Garbage out no more than 24 hours before pickup; couches, mattresses, appliances barred outdoors",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief lines on exterior property maintenance (24 hours, couch, litter)"
+  },
+  {
+   "claim": "Recycling and Solid Waste Center, 122 Commercial Ave, Mon-Sat 7:00-3:30, vest required since Aug 1 2026, fees not listed",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief Recycling and Solid Waste Center row"
+  },
+  {
+   "claim": "Big Red Shipping and Storage free pickup at apartments, no prices posted",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief Cornell's contracted vendor row"
+  },
+  {
+   "claim": "SpareFoot 10x10 about $93.39 a month; other pages higher",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief Self-storage averages: 10x10 $93.39; 24-hour 10x10 $179; SelfStorage.com $152.75"
+  },
+  {
+   "claim": "Dryden South leases all end May 31, 2027",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief Dryden South row"
+  },
+  {
+   "claim": "NYSEG customer line (800) 572-1111",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief heating bill history row, from the Cornell neighborhoods page"
+  },
+  {
+   "claim": "Community Dispute Resolution Center 607-273-9347; NY Attorney General 1-800-771-7755",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "brief contact rows"
+  },
+  {
+   "claim": "Small claims: Ithaca City Court (118 East Clinton Street) up to $5,000; town and village courts $3,000",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief Small claims limits and Ithaca City Court rows"
+  },
+  {
+   "claim": "Cornell Law tenant hotline 607-301-1560, no income or geographic limits",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "brief hotline rows"
+  },
+  {
+   "claim": "Cornell aid does not cover security deposits",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief Financial aid and deposits"
+  },
+  {
+   "claim": "Deposit disputes do not affect visa status or standing, per Graduate School staff",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief staff advice row, '(per staff)'; page attributes to Cornell Graduate School staff"
+  },
+  {
+   "claim": "Chapter 258 blog reads it as allowing up to 3x wrongly withheld deposit; unverified",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief marks it secondary and not verified; page labels it 'Not confirmed:'"
+  },
+  {
+   "claim": "Example: median per-bed 4BR asking rent $1,246 across four Ithaca Renting listings; deposit cap $1,246; twice = $2,492",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "Recomputed from brief's four 4BR rows (1,300; 1,192.5; 1,145; 1,345): sorted middle pair 1,192.5 and 1,300, midpoint 1,246.25, rounded to $1,246. 2 x 1,246 = 2,492."
+  },
+  {
+   "claim": "Example dates: email July 10 (three weeks before July 31), inspection set July 20 with two days' notice, deposit by August 14",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "July 10 to July 31 is 21 days; July 20 is inside the July 17 to 24 window; notice July 18 is 48 hours ahead"
+  },
+  {
+   "claim": "Subtenant: 'you stay liable to the landlord for the subtenant's rent and damage'",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-B",
+   "status": "fixed",
+   "note": "Statute says only the tenant 'shall nevertheless remain liable for the performance of tenant's obligations under said lease'; it does not name rent or damage. Reworded to 'stay liable for your obligations under the lease, so a subtenant's unpaid rent or damage can end up charged against your deposit.'"
+  },
+  {
+   "claim": "Joint tenants each usually liable for the whole unit; housemate can sue for contribution",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief liable/contribution rows from the Understanding Your Lease page"
+  },
+  {
+   "claim": "Sun 2004 story: one big Collegetown company had a reputation for fighting over deposits; Tenants Union 2020 cited deposits above the legal cap",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief covers both Sun stories; attributions are loose and contain nothing the sources lack"
+  },
+  {
+   "claim": "Older City code text gives 30 days; state's 14 days controls",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief: blog says willfulness presumed if the 30-day mark is missed (258-7); page keeps state rule as controlling"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "4686520ca9cca775adf0f19f82796cea158bfa0f42abc1b3d33b681470b98121"
+}

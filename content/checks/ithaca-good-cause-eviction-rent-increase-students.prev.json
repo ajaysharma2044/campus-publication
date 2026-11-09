@@ -1,0 +1,174 @@
+{
+ "slug": "ithaca-good-cause-eviction-rent-increase-students",
+ "queue_id": "q-housing-0031",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Ithaca Common Council voted 8-2 in July 2024 to opt in; fourth upstate city after Albany, Kingston, Poughkeepsie; Mayor Cantelmo and Katie Sims backed it",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief row 'Ithaca opted in'."
+  },
+  {
+   "claim": "State law effective April 20, 2024; opt-in outside NYC; RPL Article 6-A sections 210-218; repeal June 15, 2034",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief row 'Good Cause state law'."
+  },
+  {
+   "claim": "Increase above lower of 10% or 5% plus CPI presumed unreasonable; DHCR usually publishes CPI by August 1; rebuttable",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief row 'Rent standard'."
+  },
+  {
+   "claim": "Right-to-renew grounds: own residence, demolition, leaving rental market, nonpayment, violation uncured after 10 days' written notice",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief row 'Right to renew'."
+  },
+  {
+   "claim": "Section 216: refusing reasonable renewal terms can lead to removal with 30-90 days' notice; nonpayment of unreasonable increase not good cause",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief row 'Renewal refusal under Good Cause'."
+  },
+  {
+   "claim": "Exemptions: CO on/after Jan 1 2009 (30 years), small landlord one unit statewide (Ithaca), owner-occupied 10 or fewer units, dorms, condos/co-ops, regulated, seasonal, hotel; no student exemption",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief rows 'Ithaca thresholds', 'Dormitory exemption', 'Other exemptions', 'No student exemption'. The page already marks the DHCR Feb 2025 figures as worth confirming."
+  },
+  {
+   "claim": "345% of HUD FMR; $4,402 on 2023 1BR FMR of $1,276",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief row. Recomputed 1,276 x 3.45 = 4,402.2."
+  },
+  {
+   "claim": "The Ithacan (built 2023) cited as exempt until 2053; most leases end July 31",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief rows 'Post-2009 example' and 'Lease-end date'. 2023 + 30 = 2053."
+  },
+  {
+   "claim": "RPL 226-c notice: 30/60/90 days by tenure or lease; late notice keeps old terms; notice must say whether Good Cause covers the unit",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief rows 226-c thresholds and late notice."
+  },
+  {
+   "claim": "Retaliation protection; exception for owner-occupied buildings of fewer than four units",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief row 'Retaliation'."
+  },
+  {
+   "claim": "S8612A would have DHCR publish the inflation figure by June 1; recommitted, not law",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief row 'Pending state bill'."
+  },
+  {
+   "claim": "Holdover: 10 days' written notice to cure; court must grant a 30-day stay of the warrant in a lease-breach holdover",
+   "source_url": "brief §2.x holdover row",
+   "status": "ok",
+   "note": "Brief holdover row, same source."
+  },
+  {
+   "claim": "Deposit may be raised to the new monthly rent on renewal, never above one month; tenant needs no notice to leave at end of a fixed term; expired lease becomes month-to-month",
+   "source_url": "brief §2.6, §2.7",
+   "status": "ok",
+   "note": "Brief rows 'Deposit top-up', 'Deposit cap', 'Tenant notice to leave', 'Default at lease end'."
+  },
+  {
+   "claim": "City Code 258-10: 120 days' written notice, bolded first-page waiver; sponsor Mehler's 2022 Sun column says to ask why you are waiving the days",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "Brief §2.5 rows and reader-voice row 15 ('why you are waiving the days')."
+  },
+  {
+   "claim": "Landlords and Board of Realtors predicted $2,000 to $5,000 in legal costs per non-renewal (their claim)",
+   "source_url": "brief §10 'Good Cause legal costs (claimed)'",
+   "status": "ok",
+   "note": "Brief row; page frames it as the landlords' claim."
+  },
+  {
+   "claim": "Hotline 607-301-1560; LawNY (607) 273-3667; Building Division 607-274-6508",
+   "source_url": "brief §2.x contacts",
+   "status": "ok",
+   "note": "Brief contact rows."
+  },
+  {
+   "claim": "Students have reported avoiding repair requests for fear of non-renewal, per a 2021 Sun report on the Tenants Union",
+   "source_url": "brief (repairs section, line 911)",
+   "status": "ok",
+   "note": "The brief carries the same statement; the page cites the 2021 Sun Tenants Union article, which is in the brief's source list. Attribution as 'students have reported' matches the brief."
+  },
+  {
+   "claim": "Ithaca Renting 2027-28 Collegetown per-bed medians: 6BR $800, 1BR $2,025",
+   "source_url": "brief §10 / §10.9",
+   "status": "ok",
+   "note": "Brief rows list 1BR $2,025 and 6BR median $800."
+  },
+  {
+   "claim": "A June 2024 WSKG summary said student housing would not be covered; WSKG July 2024 report called dorm rooms",
+   "source_url": "https://www.wskg.org/regional-news/2024-06-25/landlords-tenants-react-to-ithacas-good-cause-eviction-proposal",
+   "status": "ok",
+   "note": "Opened both pages. June 25 article, in the reporter's own narration: 'Good cause won't apply to student housing either.' July 8 article: 'these laws won't apply to dorm rooms.' Page wording matches."
+  },
+  {
+   "claim": "Table: 5% and 10% of $800, $1,600, $2,025 and the 10% ceilings ($880, $1,760, $2,227.50)",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "Recomputed: 40/80/880; 80/160/1,760; 101.25/202.50/2,227.50."
+  },
+  {
+   "claim": "Example: $2,300 renewal on $2,025 is a $275 raise, 13.6%",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "2,300-2,025=275; 275/2,025=13.58%."
+  },
+  {
+   "claim": "Two years of 10% raises on $1,600 add $336 a month",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "1,600 x 1.21 = 1,936; +336."
+  },
+  {
+   "claim": "15% raise on $1,600 is $240 a month, $2,880 over 12 months",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "0.15 x 1,600 = 240; x12 = 2,880."
+  },
+  {
+   "claim": "Notice for a 5%-plus raise on a lease ending July 31 is due by June 1 (60 days)",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "July 31 minus 60 days = June 1."
+  },
+  {
+   "claim": "Notice July 10 plus 60 days is about September 8",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "July 10 + 60 days = September 8."
+  },
+  {
+   "claim": "$2,025 is less than half of $4,402",
+   "source_url": "our arithmetic",
+   "status": "ok",
+   "note": "2,025/4,402 = 46%."
+  },
+  {
+   "claim": "Not confirmed: 2026 CPI figure for Ithaca; no public certificate of occupancy lookup",
+   "source_url": "brief §2.6, §2.x",
+   "status": "ok",
+   "note": "Both are holes the brief itself marks and the page labels 'Not confirmed'."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "d7f2126447110b2f5250f189a0c6ad42afd718ba3bb3795f33d7e82aec7689e5"
+}

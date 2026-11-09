@@ -1,0 +1,66 @@
+{
+ "slug": "away-semester",
+ "queue_id": "q-housing-0074",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Sublet request goes by certified mail, return receipt (RPL 226-B)",
+   "source_url": "brief §2.8 / §6.9",
+   "status": "ok",
+   "note": "brief sublet-request row; same statute link."
+  },
+  {
+   "claim": "Send the sublet request two to three months before you leave",
+   "source_url": "brief §6.9; content/articles/housing/cornell-summer-sublet-how-to-sublet-apartment-ithaca.md",
+   "status": "ok",
+   "note": "Matches the sublet guide's own '2 to 3 months before you leave' advice."
+  },
+  {
+   "claim": "Storage Scholars asks for bookings by early April",
+   "source_url": "https://www.storagescholars.com/cities-we-serve/ithaca-ny",
+   "status": "ok",
+   "note": "Brief §6 also has 'book by early April'. The live page says 'Book by early April.'"
+  },
+  {
+   "claim": "Dec 1 (spring) and June 15 (fall) are the last penalty-free cancellation days for a 2026-27 Cornell license, for study away, leave or internship",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027",
+   "status": "ok",
+   "note": "Brief penalty-free row. The live page shows fall June 15, 2026 and spring December 1, 2026, with a $500 fee after."
+  },
+  {
+   "claim": "June 15, 2027 and Dec 1, 2027 for the 2027-28 license",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028",
+   "status": "ok",
+   "note": "Brief penalty-free row. The live page shows fall June 15, 2027 and spring December 1, 2027."
+  },
+  {
+   "claim": "Most Ithaca leases end July 31",
+   "source_url": "brief §2 lease-end row",
+   "status": "ok",
+   "note": "Brief row, sourced to the Cornell Sun 2024 hearing report."
+  },
+  {
+   "claim": "Deposit due back within 14 days of moving out (GOL 7-108)",
+   "source_url": "brief §2 return-deadline row",
+   "status": "ok",
+   "note": "Brief row; the brief notes 14 days is the state rule and controls."
+  },
+  {
+   "claim": "Guide descriptions (the 2026-27 guide, breaking a lease, sublet consent, roommates' joint liability, renters insurance, moving out, already-renting guide) match each guide's title and meta",
+   "source_url": "the guides' own frontmatter",
+   "status": "ok",
+   "note": "Compared each line with the guide's title and meta. The titles are used as written. The descriptions are consistent with the metas: sublet/release options, request clocks, joint liability, insurance, inspection and deposit. The renters-insurance guide has no 'subtenant' mention, but that line is the page's pointer text, not a hard fact, so I left it."
+  },
+  {
+   "claim": "Tools: sublet request timeline and Cornell license cancellation fee calculator (2026-28)",
+   "source_url": "content/checks/ithaca-sublet-request-timeline.json; content/checks/cornell-housing-license-cancellation-fee-calculator.json",
+   "status": "ok",
+   "note": "Both tools exist and have their own check files. The one-line descriptions fit their topics, and the brief's fee schedule covers 2026-27 and 2027-28."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "693883fa2e79ed6ac8e9e43d18a5178981c523cb0eabaa5c02c35d9b2fbe1bde"
+}

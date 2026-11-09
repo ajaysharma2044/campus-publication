@@ -1,0 +1,162 @@
+{
+ "slug": "ithaca-lease-fee-deposit-checker",
+ "queue_id": "q-housing-0063",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Deposit + rent advance + pet deposit capped at one month's rent; seasonal and owner-occupied co-op exceptions",
+   "source_url": "https://www.nysenate.gov/legislation/laws/GOB/7-108",
+   "status": "ok",
+   "note": "brief §10 deposit cap row; GOL 7-108 opened: 'No deposit or advance shall exceed the amount of one month's rent', with the two exceptions."
+  },
+  {
+   "claim": "Non-refundable deposit not allowed at any amount; separate cleaning fee $0 (Cornell Law guide citing RPL 238-a); routine cleaning cannot be deducted",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief §10 non-refundable and cleaning-fee rows."
+  },
+  {
+   "claim": "Application fee $0",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/238-A",
+   "status": "ok",
+   "note": "brief §10; RPL 238-a opened, bans a fee for processing, review or acceptance of an application."
+  },
+  {
+   "claim": "Background check: lesser of actual cost or $20; $0 if a check from past 30 days; landlord must first give copy of check and invoice",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/238-A",
+   "status": "ok",
+   "note": "RPL 238-a opened: $20 or actual cost whichever is less; waived for a check within thirty days; copy and receipt/invoice required."
+  },
+  {
+   "claim": "Late fee only after 5 days; lesser of $50 or 5% of monthly rent; not deductible from deposit",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/238-A",
+   "status": "ok",
+   "note": "RPL 238-a opened: five days, fifty dollars or five percent, whichever is less. No late-fee deduction from deposit: brief §10 allowed-deductions row."
+  },
+  {
+   "claim": "Key copy cap 110% of actual cost; cap stops after more than three copies in a calendar year",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/235-I",
+   "status": "ok",
+   "note": "RPL 235-i opened: 110%; cap does not apply if more than three times in a calendar year. Also in brief §10."
+  },
+  {
+   "claim": "Deposit returned within 14 days after vacating, else landlord forfeits right to keep any part",
+   "source_url": "https://www.nysenate.gov/legislation/laws/GOB/7-108",
+   "status": "ok",
+   "note": "brief §10 return deadline row; statute opened and matches."
+  },
+  {
+   "claim": "Move-out inspection: between two weeks and one week before end, 48 hours' written notice; landlord must tell tenant of right in writing",
+   "source_url": "https://www.nysenate.gov/legislation/laws/GOB/7-108",
+   "status": "ok",
+   "note": "brief §10 move-out inspection row; statute opened and matches the window and 48 hours."
+  },
+  {
+   "claim": "Penalty: punitive damages up to twice the deposit for willful violation; landlord must prove amount kept was reasonable",
+   "source_url": "https://www.nysenate.gov/legislation/laws/GOB/7-108",
+   "status": "ok",
+   "note": "brief §10; statute 'punitive damages of up to twice the amount of the deposit or advance'."
+  },
+  {
+   "claim": "Small claims: $5,000 Ithaca City Court (118 East Clinton Street); $3,000 town and village courts",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief §10 small claims and City Court address rows."
+  },
+  {
+   "claim": "Cornell aid does not cover security deposits or first and last month's rent",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief §10 financial aid and deposits row."
+  },
+  {
+   "claim": "Default rent $1,246.25 = 2027-28 Collegetown 4BR median per bed at Ithaca Renting",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief rent table: 4BR median $1,246.25, read 2026-11-08."
+  },
+  {
+   "claim": "Default move-out July 31, 2027; most Ithaca student leases end July 31 (Cornell Daily Sun 2024)",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief lease-end row cites the same Sun article, July 2024."
+  },
+  {
+   "claim": "Worked example: $1,246.25 deposit legal; plus $1,246.25 last month = $2,492.50, $1,246.25 over",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: 1,246.25 x 2 = 2,492.50; 2,492.50 - 1,246.25 = 1,246.25."
+  },
+  {
+   "claim": "On $1,246.25 rent, 5% is $62.31 so late cap is $50; below $1,000 rent the 5% figure is the cap",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: 1,246.25 x 0.05 = 62.3125 -> $62.31; min(50, 62.31) = 50; 5% of $1,000 = $50, so below $1,000 the 5% is smaller."
+  },
+  {
+   "claim": "July 31, 2027 move-out puts deposit due date at Aug 14, 2027",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "July 31 + 14 days = Aug 14. tool.html uses UTC date arithmetic, consistent."
+  },
+  {
+   "claim": "Key charge / 1.10 shows minimum copy cost for a legal charge; penalty = 2 x (deposit + pet)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Formulas in tool.html match the statutes' terms (110% cap; twice the deposit). Penalty is based on deposit + pet deposit, not rent advance; statute says 'deposit or advance', so this is a slight under-count at most and is labeled as the tool's figure."
+  },
+  {
+   "claim": "tool.html NUMBERS constants (1 month, 0, 20, 30, 0, 5, 50, 0.05, 1.10, 3, 14, 14, 7, 48, 2, 5000, 3000)",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/238-A",
+   "status": "ok",
+   "note": "Each constant compared with the statute pages opened and brief §10; all match. data-as-of values are 2026-11-08 throughout."
+  },
+  {
+   "claim": "Rent increase: landlord may collect more to bring the deposit up to the new monthly rent (page said 'at renewal')",
+   "source_url": "https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants",
+   "status": "fixed",
+   "note": "AG page says if the rent is increased during the term of the lease the landlord may collect additional money, with the deposit still capped at one month's rent. Page said 'at renewal'; reworded to the source's terms."
+  },
+  {
+   "claim": "Buildings with six or more units: interest-bearing NY account; landlord may keep 1% annual administrative fee",
+   "source_url": "https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants",
+   "status": "ok",
+   "note": "brief §10 interest row; AG page opened and matches."
+  },
+  {
+   "claim": "Cornell move-out page says 'charges for cleaning services will be deducted'",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out",
+   "status": "ok",
+   "note": "Opened: 'Charges for cleaning services will be deducted from your security deposit.' The page's capitalization differs only."
+  },
+  {
+   "claim": "Cornell's own housing is a license with no security deposit",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief §2.3: revocable license, no security or key deposits."
+  },
+  {
+   "claim": "City of Ithaca Chapter 258 may add deposit rules (receipt naming bank, 30-day mark, 3x damages), per a third-party blog; not verified",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "Chapter 258 is in the brief; the page marks the deposit-rule detail as unverified and does not use it in the math."
+  },
+  {
+   "claim": "Cornell Law tenant hotline 607-301-1560; CDRC mediation 607-273-9347",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief has both numbers (hotline in several rows; CDRC row from Cornell campus-living resources)."
+  },
+  {
+   "claim": "Tool sequence: demand letter, then CDRC mediation, then small claims or AG complaint",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Matches the brief's step 6 in the deposit-back sequence."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "b5d48f951fae01cbd96c2a1a53a018ac88c03be151ad2d6f946e7caa636ebfd0"
+}

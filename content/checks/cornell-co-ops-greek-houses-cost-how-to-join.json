@@ -1,0 +1,192 @@
+{
+ "slug": "cornell-co-ops-greek-houses-cost-how-to-join",
+ "queue_id": "q-housing-0041",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Co-op semester rates per house (single/double/triple) in the table",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief §2.3 co-op rate row; every cell matches (Prospect of Whitby $4,318 double, Triphammer $4,317, Red Bud $3,487/$2,765, 302 Wait $4,715, 660 Stewart and Wari $4,981, Watermargin $4,317)."
+  },
+  {
+   "claim": "Co-op double $3,487 to $4,981 per semester; $6,974 to $9,962 a year",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "Recomputed: 3,487x2=6,974; 4,981x2=9,962."
+  },
+  {
+   "claim": "Residence hall double $6,872 per semester, $13,744 a year; single $15,566; hall range $12,644 to $16,595",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief §2.3 rows for hall rates."
+  },
+  {
+   "claim": "Co-op double saves $3,782 to $6,770 a year versus the hall double",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "Recomputed: 13,744-9,962=3,782; 13,744-6,974=6,770."
+  },
+  {
+   "claim": "Co-op singles $7,898 to $12,028 a year; triple to single $5,530 to $12,028",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "Recomputed: 3,949x2=7,898; 6,014x2=12,028; 2,765x2=5,530. All below $15,566 hall single."
+  },
+  {
+   "claim": "Annual figures in figure block ($8,634 Triphammer/Watermargin; $9,430 Wait; $9,962 Stewart/Wari)",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "Recomputed 4,317x2=8,634; 4,715x2=9,430; 4,981x2=9,962."
+  },
+  {
+   "claim": "Red Bud double $3,487 and triple $2,765; $6,974 is $6,770 below a dorm double",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "Recomputed 13,744-6,974=6,770."
+  },
+  {
+   "claim": "Every co-op room costs less than a dorm double",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "Highest single $6,014 per semester < $6,872; annual $12,028 < $13,744."
+  },
+  {
+   "claim": "Hall rate includes gas, electricity, garbage, internet to 200 GB; hall residents must buy a meal plan; program houses share the hall table",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief §2.1 and §2.3."
+  },
+  {
+   "claim": "Eight co-ops named; count as second-year housing; 10 to 35 members; four have meal plans",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief §2.2 rows. 'Wait Terrace vs 308 Wait' naming note is consistent with brief rate row and the qualified-housing list."
+  },
+  {
+   "claim": "Selection starts early November and early February; each house runs its own process",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief §2.2 co-op size and selection row."
+  },
+  {
+   "claim": "Co-op office co-ops@cornell.edu, 607-255-3445",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief §2.2 contact row."
+  },
+  {
+   "claim": "Sun 2023: entry by a 'mosey', lottery weighted by financial need and diversity factors; piece focused on underserved and minority students",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief §2.2 news-report row; attributed to the Sun with date."
+  },
+  {
+   "claim": "Sun Oct 2024: floors collapsed in four of eight co-ops; Watermargin needs about $500,000 for a roof; Cornell raised and standardized rates; maintenance staff and financial advisor per Cornell",
+   "source_url": "brief §2 co-op rows",
+   "status": "ok",
+   "note": "brief co-op floor collapse and community rows; attribution preserved ('Cornell told the Sun')."
+  },
+  {
+   "claim": "Greek rent covers housekeeping, utilities, internet, repairs, building insurance (not belongings); chapters set own dues; Cornell says costs generally below dorm or off-campus, no numbers; self-reported fee scorecard",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief §2.2 'What Greek rent covers' row; page frames the below-dorm statement as Cornell's claim."
+  },
+  {
+   "claim": "Chapter houses self-governed; owned by university, alumni group or national org; nearly all require living in a semester or two; parlor fee",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief §2.2 sorority and fraternity housing row."
+  },
+  {
+   "claim": "Sophomore must be member at time of application; affirm by March 15 (2026 date); April 6 deadline for every first- and second-year; members confirmed skip April Spring Housing Selection",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1 rows; dates labelled as 2026 on the page."
+  },
+  {
+   "claim": "Chapters auto-approved with recognition policy, live-in advisor and four upper-level officers by January 1",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief chapter auto-approval row."
+  },
+  {
+   "claim": "Minimum standards: officers live on property, sprinklers throughout, liability insurance naming Cornell; City Certificate of Compliance required; fraternity/sorority COC lasts one year",
+   "source_url": "brief §2.2 and §COC",
+   "status": "ok",
+   "note": "brief §2.2 minimum requirements row; COC validity row says dormitories, fraternities, sororities 1 year."
+  },
+  {
+   "claim": "Alpha Zeta 214 Thurston Ave; Center for Jewish Living 106 West Ave; Seal and Serpent 305 Thurston Ave",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief §2.2 address rows."
+  },
+  {
+   "claim": "Second-year accepted to a co-op or Greek house before Spring Housing Selection deadline may cancel; first-years and new transfers cannot",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief 'Students who cannot cancel' row."
+  },
+  {
+   "claim": "Cancellation fees for returning juniors/seniors: $50 through Jan 31, $500 Feb 1 to Mar 31, $1,000 Apr 1 to Jun 30, $2,000 Jul 1 to Aug 15",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief license cancellation row."
+  },
+  {
+   "claim": "Example: Triphammer double $8,634 a year; cancelling costs $50 before Jan 31 or $500 in February",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "Fees from brief; 4,317x2=8,634."
+  },
+  {
+   "claim": "Spring housing contract released only for graduating, going abroad or leaving; fraternity small residence not an extenuating circumstance",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief spring contract release row."
+  },
+  {
+   "claim": "Final 2027-28 rates posted March 2027; fall projections subject to Board of Trustees approval",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief 2027-28 rates timing row."
+  },
+  {
+   "claim": "West Campus unlimited House Meal Plan $6,434 a year in 2021 (Sun), flagged as old",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief row, Sun Nov 2021."
+  },
+  {
+   "claim": "Ithaca Renting 2027-28 Collegetown 6BR median $800 a bed a month; $9,600 over 12 months",
+   "source_url": "brief §10.9",
+   "status": "ok",
+   "note": "brief row; recomputed 800x12=9,600."
+  },
+  {
+   "claim": "Comparison: $4,317 co-op semester is $8,634 a year",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "Recomputed 4,317x2."
+  },
+  {
+   "claim": "2018 Sun: senior said one email to a landlord via sorority network was enough; another group whose Greek plans fell through began house hunt in February, ended in 14-person house a resident called 'falling apart at the seams'",
+   "source_url": "brief §voices",
+   "status": "ok",
+   "note": "brief voice rows (2018-11-07); page attributes to the Sun and keeps the two accounts separate."
+  },
+  {
+   "claim": "Tri-Delta building at 118 Triphammer Road in Cornell Heights Historic District (image caption)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Tri-Delta_sorority_building_in_Cornell_Heights_Historic_District,_Ithaca,_Tompkins_County.jpg",
+   "status": "ok",
+   "note": "Caption matches the Commons file title; the address was not independently opened, and the caption's claim about residential-requirement status is covered by the brief's recognized-chapter rule. Not a hard fact the page depends on."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "e126ffd952d546b686a1b07ae02cca70933764057fae28de3ba3908a1e41c88b"
+}

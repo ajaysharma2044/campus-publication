@@ -1,0 +1,241 @@
+{
+ "slug": "cornell-student-family-housing-ithaca",
+ "queue_id": "q-housing-0054",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Hasbrouck family 2BR townhouse $1,475 unfurnished, $1,530 furnished; 3rd-floor 2BR apartment $1,500, per month 2026-27",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief §2.3 rate row matches."
+  },
+  {
+   "claim": "Hasbrouck annual figures $17,700, $18,000, $18,360",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "Recomputed 1,475x12=17,700; 1,500x12=18,000; 1,530x12=18,360."
+  },
+  {
+   "claim": "Hasbrouck: 12-month contracts, rolling applications, 2 to 4 people, no more than two adults; gas, electricity, garbage, internet included",
+   "source_url": "brief §2.3 / §10.12",
+   "status": "ok",
+   "note": "Brief rows on Hasbrouck and 10.12."
+  },
+  {
+   "claim": "51% of on-campus grad households are family or partner, 49% single; about 400 on campus, about 95% off",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "Brief rows 'Grads off campus' and 'On-campus grad households'."
+  },
+  {
+   "claim": "Maplewood run by Greystar, studios to 4BR, utilities, washer/dryer, pet-friendly, no prices on Cornell page",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "Brief Maplewood row."
+  },
+  {
+   "claim": "Sun 2024: visiting scholars compete with grads for Hasbrouck and Maplewood; family housing scarce with high upfront costs",
+   "source_url": "brief §4 (reader row 22)",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Private Ithaca 2BR average $2,459 (902 sq ft), 3BR $3,039 (1,141 sq ft), RentCafe Oct 30, 2026",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Brief RentCafe citywide row."
+  },
+  {
+   "claim": "Downtown 2BR $3,246 (Nov 6, 2026); Collegetown 2BR $3,414 (Oct 30, 2026)",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Brief rows match values and dates."
+  },
+  {
+   "claim": "Fall Creek 2BR $2,420 (Rentable, undated)",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Brief row; undated label kept."
+  },
+  {
+   "claim": "Lansing West 2BR $1,825 and $1,870+, 3BR $1,694; $20 app fee; cats $40/$60; promotion apply by Nov 14, move in by 12/1/26, rent free until Jan 2027",
+   "source_url": "brief §10 Lansing West row",
+   "status": "ok",
+   "note": "All match the brief row (3BR below 2BR is as listed there)."
+  },
+  {
+   "claim": "N Triphammer Rd listings $1,636 to $1,805 for a 2BR",
+   "source_url": "brief §10 (RentHop snippet; 400 Triphammer RentCafe)",
+   "status": "ok",
+   "note": "$1,636 is the RentHop 2250 N Triphammer snippet; $1,805 is from 400 Triphammer Rd in the brief. The cell's 'and snippets' covers it."
+  },
+  {
+   "claim": "RentCafe averages cover large buildings of 50+ units; all private figures are asking rents",
+   "source_url": "brief §5 / §10 caveats",
+   "status": "ok",
+   "note": "Brief states every analysis uses asking prices."
+  },
+  {
+   "claim": "Signing cost: $2,459 x 2 = $4,918; $3,039 x 2 = $6,078; $1,825 x 2 = $3,650",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "Recomputed as first month plus deposit capped at one month."
+  },
+  {
+   "claim": "NY deposit plus advance capped at one month's rent; pet deposits count; 14-day return with itemized statement",
+   "source_url": "brief §3 (GOL 7-108)",
+   "status": "ok",
+   "note": "Brief rows."
+  },
+  {
+   "claim": "No application fee; background/credit check lesser of actual cost or $20; late fee lesser of $50 or 5%",
+   "source_url": "brief §3 (RPL 238-a)",
+   "status": "ok",
+   "note": "Brief rows."
+  },
+  {
+   "claim": "Cornell aid does not cover security deposits or first and last month's rent",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief 'Financial aid and deposits' row."
+  },
+  {
+   "claim": "RPL 235-f occupancy rules; occupant's name within 30 days; no right to stay if tenant leaves",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief rows."
+  },
+  {
+   "claim": "Town of Ithaca family = blood, marriage or adoption; one family plus one boarder (Drummond v ZBA 2017)",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "Grad housing line $19,962; about $1,663.50 a month; $795 over for a $2,459 2BR",
+   "source_url": "brief §2.9; own math",
+   "status": "ok",
+   "note": "19,962/12 = 1,663.50; 2,459 - 1,663.50 = 795.50, so 'about $795' is fine."
+  },
+  {
+   "claim": "Hasbrouck $2,262 under the line; private 2BR $29,508 a year, $9,546 over; Lansing West $21,900 a year, $1,938 over; $350 a month more than Hasbrouck",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "19,962-17,700=2,262; 2,459x12=29,508, minus 19,962=9,546; 1,825x12=21,900, minus 19,962=1,938; 1,825-1,475=350."
+  },
+  {
+   "claim": "Housing license penalty $13,744 for a double; billed for the full year if neither requirement nor exemption met",
+   "source_url": "brief §1",
+   "status": "ok",
+   "note": "Brief rows 'Penalty for non-compliance' and double rate."
+  },
+  {
+   "claim": "Married students and those with legal dependents are exempt from the two-year requirement; exemption lasts one academic year, file again each year; request before a license is signed",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy",
+   "status": "ok",
+   "note": "Opened: 'Individual exemptions are for a single academic year'; requests not accepted after a license is signed."
+  },
+  {
+   "claim": "April 6, 2026 deadline applied to exemption requests (glance, reader block, worked example, timeline)",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy",
+   "status": "ok",
+   "note": "fixed in place: Cornell's page gives April 6, 2026 as the Housing Application deadline but does not say it also applies to exemption requests. Reworded in four places to say 'while the application is open (2026 deadline April 6)', and added a 'confirm with Housing' note in the reader block."
+  },
+  {
+   "claim": "Spouses/partners of degree students can buy OmniRide at 116 Maple Avenue; night routes 90 and 92; $200 a year prorated, expires Aug 31",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
+   "status": "ok",
+   "note": "Opened and confirmed (also brief §2.16)."
+  },
+  {
+   "claim": "PhD students and graduate assistants get free OmniRide; new degree student in year one rides free all year",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
+   "status": "ok",
+   "note": "Opened: first-year degree students unlimited TCAT until Aug 31 of the next year; PhD and GAs free OmniRide."
+  },
+  {
+   "claim": "Children 17 and under ride TCAT free; single ride $1.50",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "Brief fare rows."
+  },
+  {
+   "claim": "B commuter permit $359.77; GAs on full Ithaca assistantships can buy faculty and staff permits; Transportation Services 607-255-4600",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "Brief rows."
+  },
+  {
+   "claim": "Cornell warns West Hill cottages likely uninsulated; ask NYSEG (800) 572-1111 for heating history",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "Brief rows."
+  },
+  {
+   "claim": "NYSEG temporary rate increase took effect June 1, 2026; permanent case pending",
+   "source_url": "brief timeline",
+   "status": "ok",
+   "note": "Brief timeline row."
+  },
+  {
+   "claim": "Heat season Sept 15 to May 31; 68F 6 a.m. to 10 p.m. below 55F outside; 62F overnight",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief rows."
+  },
+  {
+   "claim": "Visa appointments no more than 120 days before program start; no Social Security number needed to rent or bank",
+   "source_url": "brief §2.9",
+   "status": "ok",
+   "note": "Brief international FAQ row."
+  },
+  {
+   "claim": "Tenant hotline (607) 301-1560, no income or geographic limits; full representation only for City of Ithaca residents",
+   "source_url": "brief §2.9",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "Work-Life worklife@cornell.edu and Ithaca City School District for families",
+   "source_url": "brief §2.9",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "Lansing about 20 minutes by bus; start looking March to April; a few places in June and July",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "Brief Reed Group guide rows."
+  },
+  {
+   "claim": "Neighborhood distances and traits (Lansing 4 to 10 miles, Fall Creek 0.5 to 1 mile, Cayuga Heights, East Hill, West Hill 4 miles)",
+   "source_url": "brief §2.13 neighborhoods",
+   "status": "ok",
+   "note": "Consistent with the brief's neighborhood section (West Hill 4 miles confirmed in the brief)."
+  },
+  {
+   "claim": "City-only coverage of 120-day rule, Certificate of Compliance and safety tool",
+   "source_url": "brief §2.5, §2.12",
+   "status": "ok",
+   "note": "Brief states they do not reach Town, Lansing or Cayuga Heights."
+  },
+  {
+   "claim": "A grad student told the Sun at a 2023 protest that he could not afford to rent a home for his family",
+   "source_url": "https://cornellsun.com/2023/03/24/cornell-graduate-students-united-protests-for-competitive-wages-additional-university-support/",
+   "status": "ok",
+   "note": "fixed in place: Not in the brief. The article names Elias Beltran, who says his family could not afford to rent in Ithaca and found a place in Newfields ('almost two-hour commute daily' for him and his wife). Page said 'a home for his family' and left him unnamed. Now reads: Elias Beltran told the Sun his family could not afford to rent in Ithaca."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell family housing graduate students ithaca",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-08",
+ "checked_by": "scripts/v3/check.sh"
+}
