@@ -793,8 +793,9 @@ def main(argv: list[str]) -> int:
         fm = q.frontmatter(path)
         if not fm:
             return ["no parseable frontmatter"]
-        if str(fm.get("queue_id", "")) != ctx["id"]:
-            return [f"queue_id is {fm.get('queue_id')!r}, expected {ctx['id']}"]
+        qids = [str(x) for x in fm.get("queue_ids")] if isinstance(fm.get("queue_ids"), list) else []
+        if str(fm.get("queue_id", "")) != ctx["id"] and not (kind == "start_here" and ctx["id"] in qids):
+            return [f"queue_id is {fm.get('queue_id')!r}, expected {ctx['id']}" + (" (or in queue_ids, for a start page shared by topics)" if kind == "start_here" else "")]
         if kind == "tool":
             miss = [k for k in TOOL_KEYS if fm.get(k) in (None, "", [])]
             html = ctx["files"][1]
@@ -1125,6 +1126,7 @@ Body:
   that serve this reader, one line each (leave it out when there is none), and "## Dates to watch: {{topic_label}}", three to six dated
   lines for this reader from the reader map's timeline, each date as the brief gives it.
 - "## When you're done" stays one section at the end; add one line for this topic (the related topic's start page or pillar when one exists).
+- If the page already has this topic's sections from an earlier attempt, revise them in place; never add a second set.
 No facts beyond those dates and the pages' own titles; no em dashes; none of the banned words.
 Reply with one line: DONE start {{slug}} (+{{topic_dir}}): <n> guides, <t> tools."""
 
