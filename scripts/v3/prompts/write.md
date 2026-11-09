@@ -108,6 +108,7 @@ frontmatter field `subject:` to the most photographable concrete thing on the pa
 A page with no lead photo does not publish, so choose a subject that exists in photos; a street, building, bus, airport or neighborhood beats an idea.
 
 VISUALS ARITHMETIC (a publish requirement, counted by code): beyond the lead photo, the page needs one visual per 600 words: a 1,500-word
-spoke needs 2, a 3,000-word pillar 5, a 7,500-word pillar 12. Visuals are ```figure blocks (cost_table, timeline, steps built from the
+spoke needs 2, a 3,000-word pillar 5, a 7,500-word pillar 12; the count is taken on the FINAL word count after the editing passes (they add
+words), so divide the final count by 600, round down, and place one spare on top. Visuals are ```figure blocks (cost_table, timeline, steps built from the
 brief's numbers), ```tool <slug>``` embeds from the tools list, and extra photos from the candidates file. Plan them as you outline: one
-figure per numeric section, the tools where they help, and photos where a place is described. Count them before you save.
+figure per numeric section, the tools where they help, and photos where a place is described. Recount after the last editing pass, before you save.
