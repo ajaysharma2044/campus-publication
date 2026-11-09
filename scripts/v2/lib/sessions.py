@@ -217,6 +217,8 @@ def run_jobs(jobs: list[dict], *, workers: int, label: str, model: str, max_turn
                 problems = list(job["check"]() or [])
             if problems and r["code"] != 0:
                 problems.append(f"exit {r['code']}: {(r['err'] or r['text'])[:200]}")
+            elif r["code"] != 0:   # the files are there and pass their check, but the CLI died (network, API error): say so, the page may have skipped its last passes
+                log(f"[{label}] {job['id']}: session exited {r['code']} after writing the page ({(r['err'] or r['text']).strip()[:160]}); counted as done because the page passes its checks")
             job["attempts"] += 1
             if problems and job["attempts"] < MAX_ATTEMPTS and not stopped():
                 log(f"[{label}] retry {job['id']}: {'; '.join(problems)[:200]}")
