@@ -1,59 +1,71 @@
 {
  "slug": "off-campus",
- "queue_id": "q-getting-around-0073",
+ "queue_id": "q-housing-0093",
  "verdict": "pass",
  "fact_check": [
   {
-   "claim": "Nov 9, 2026: downtown stops move; TCAT East Seneca stops reshuffled",
-   "source_url": "brief §2.6, §10 calendar",
+   "claim": "Sept 15: Ithaca's heat season starts (to May 31)",
+   "source_url": "brief §9 (heat season row)",
    "status": "ok",
-   "note": "brief §2.6 and calendar row; FingerLakes1 URL matches the brief's."
+   "note": "Brief: statewide Oct 1 to May 31; in Ithaca Sept 15 to May 31, Cornell Law tenants' advocacy page, same URL as the page link."
   },
   {
-   "claim": "Nov 1 to Apr 1: city odd/even on-street parking season, when activated",
-   "source_url": "brief §2.16, §10 calendar",
+   "claim": "About December: the 120-day rule's sponsor put the renewal decision for August leases here (his example)",
+   "source_url": "brief §10 (Mehler example)",
    "status": "ok",
-   "note": "brief rows cite ecode360.com/8395630, 'activated and suspended by the city based on weather'."
+   "note": "Brief records Mehler's examples (June 1 lease, about Oct 1; August lease, about December) from the Cornell Sun column and marks the count as approximate and unresolved; the page attributes it to the sponsor's example and does not state it as a legal date."
   },
   {
-   "claim": "Mar 31: last day for a prorated Cornell permit refund",
-   "source_url": "brief §10 calendar",
+   "claim": "30 to 90 days before your lease ends: the Good Cause renewal notice window (NY RPL 216)",
+   "source_url": "brief §2 (Good Cause renewal refusal row)",
    "status": "ok",
-   "note": "brief: prorated refund only if returned by Mar 31; same Cornell parking-students URL."
+   "note": "Brief: written notice 30 to 90 days before the lease ends, nysenate RPP/216."
   },
   {
-   "claim": "July 31: city residential parking permit expires",
-   "source_url": "brief §10 calendar",
+   "claim": "Two weeks before move-out: schedule the final inspection and change your address (Cornell)",
+   "source_url": "brief §6 (off-campus move-out timeline)",
    "status": "ok",
-   "note": "brief: city permits expire July 31; cityofithacany.gov/731/Permit-Issuance."
+   "note": "Brief: two weeks before, confirm date, schedule final inspection, change address; same scl.cornell.edu URL."
   },
   {
-   "claim": "Early Aug (Tue Aug 4, 2026, 9 a.m.): Cornell student permit sales open; commuter permits prorate daily from Aug 16",
-   "source_url": "brief §10 calendar",
+   "claim": "July 31: most leases end; City residential parking permits expire",
+   "source_url": "brief §7 (residential parking permit row)",
    "status": "ok",
-   "note": "brief: sales began Tue Aug 4, 2026 9:00 a.m.; commuter prorated daily from Aug 16; node 17809 URL matches."
+   "note": "Brief: permit valid issue date through July 31, City permit page; the July 31 lease end is the page's stated assumption in its opening."
   },
   {
-   "claim": "Campus resident permits are not open to an off-campus renter",
-   "source_url": "brief §2 permits",
+   "claim": "By mid-August: deposit or itemized statement due, 14 days after a July 31 exit (NY GOL 7-108)",
+   "source_url": "brief §2 (return deadline row)",
    "status": "ok",
-   "note": "brief: resident permits capped to North Campus residents."
+   "note": "Brief: 14 days after vacating. Recomputed: July 31 + 14 days = Aug 14, which is mid-August."
   },
   {
-   "claim": "Commute options: on foot, Route 10 or another TCAT route, by bike; Cornell commuter permit, city residential permit, city garage, or no car",
+   "claim": "Guide descriptions: 120-day rule guide says what the first-page waiver gives up; Good Cause guide covers coverage and increase size; heat/mold/bed bugs guide says not to withhold rent first",
+   "source_url": "brief §2, §4, §9",
+   "status": "ok",
+   "note": "Consistent with the guides' titles and the brief (waiver on first page, 10% presumption, withholding a last resort inviting a nonpayment case)."
+  },
+  {
+   "claim": "Renter rules guide includes where cars may sit on the lot",
+   "source_url": "content/articles/housing/ithaca-trash-tags-snow-noise-rules-renters.md",
+   "status": "ok",
+   "note": "The guide's own text says park only in the property's designated spaces."
+  },
+  {
+   "claim": "Security deposit guide: the cap, 14 days, banned fees; moving-out guide: 14-day clock",
    "source_url": "brief §2",
    "status": "ok",
-   "note": "Route 10 stays on North Tioga (brief); commuter B permit, $45 city permit and garages all in the brief."
+   "note": "Titles match brief (one month cap, 14 days)."
   },
   {
-   "claim": "Guide descriptions for the seven linked guides (parking, winter parking, TCAT, Carshare, biking, getting-to-Ithaca, off-campus renters) and the closing link to the car guide",
-   "source_url": "guide frontmatter titles and metas",
+   "claim": "Tools listed (Good Cause checker, rent + commute calculator, move-in checklist) exist as published pages",
+   "source_url": "content/checks/ (the three tool slugs)",
    "status": "ok",
-   "note": "All eight target files exist; each description matches the guide's own title and meta. Winter-parking line 'Read it before November' is already past on Nov 8; left as is (not a fact error)."
+   "note": "Check and review files exist for all three slugs; titles on the start page match the tool slugs."
   }
  ],
  "beats_top": {
-  "query": "off campus Cornell commute parking",
+  "query": "ithaca student tenant rights",
   "top_url": "",
   "better": "n/a",
   "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",

@@ -1,89 +1,77 @@
 {
  "slug": "summer-in-ithaca",
- "queue_id": "q-getting-around-0083",
+ "queue_id": "q-housing-0090",
  "verdict": "pass",
  "fact_check": [
   {
-   "claim": "Move out of term housing by mid-May; buildings close 2 p.m. Sun May 17, 2026; items left behind are donated",
-   "source_url": "brief §9 (move-out deadline 2026), https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options",
+   "claim": "Mid-May (2 p.m. Sun May 17, 2026): dorm buildings close",
+   "source_url": "brief §7 (move-out rows)",
    "status": "ok",
-   "note": "brief move-out row and date list; same date and condition. May 17, 2026 is a Sunday."
+   "note": "Brief: buildings close 2:00 PM Sunday, May 17, 2026, same Cornell housing URL."
   },
   {
-   "claim": "Early April: Storage Scholars advises booking summer storage",
-   "source_url": "https://www.storagescholars.com/cities-we-serve/ithaca-ny",
+   "claim": "May 31: Dryden South leases end May 31, 2027",
+   "source_url": "brief §6 (Dryden South row)",
    "status": "ok",
-   "note": "brief Storage Scholars row: advises booking by early April before finals."
+   "note": "Brief: all current leases end May 31, 2027, same listing URL."
   },
   {
-   "claim": "Read move-out guide in March, since storage books up by early April (guide list item 2)",
-   "source_url": "https://www.storagescholars.com/cities-we-serve/ithaca-ny",
+   "claim": "May 31: Ithaca's heat season ends",
+   "source_url": "brief §2.10 (Heat season row)",
    "status": "ok",
-   "note": "fixed in place: Source only advises booking by early April; it does not say storage books up. Reworded to 'Storage Scholars advises booking summer storage by early April'."
+   "note": "Brief: Ithaca Sept 15 to May 31, Cornell Law tenant guide URL."
   },
   {
-   "claim": "June: heat can pull TCAT buses from service, as in June 2025 (Cornell Sun)",
-   "source_url": "https://cornellsun.com/article/2025/06/tcat-reduces-service-due-to-overheating-buses",
+   "claim": "June 15: penalty-free deadline to cancel a fall Cornell housing license",
+   "source_url": "brief §10 (June row)",
    "status": "ok",
-   "note": "brief heat disruption row: buses overheated or lost A/C on 2025-06-23 and were pulled."
+   "note": "Brief calendar: June 15, same license URL."
   },
   {
-   "claim": "Aug 15: old student parking permits expire",
-   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students",
+   "claim": "July 31: most Ithaca leases end",
+   "source_url": "brief §6 (lease-end row)",
    "status": "ok",
-   "note": "brief validity row: valid through Aug 15."
+   "note": "Brief: most Ithaca leases expire July 31 (2024 Sun hearing report)."
   },
   {
-   "claim": "Aug 16: new permit year starts, valid Aug 16, 2026 to Aug 15, 2027",
-   "source_url": "https://fcs.cornell.edu/node/17809",
+   "claim": "July 31: City residential parking permits expire",
+   "source_url": "brief §(residential parking permit row)",
    "status": "ok",
-   "note": "brief 2026-27 sales row and date list. The brief itself notes this page returned 403 on its last check, so it is a brief-marked hole, not a page error."
+   "note": "Brief: valid issue date through July 31, City Permit-Issuance URL."
   },
   {
-   "claim": "Aug 31: previous year's first-year TCAT privileges and OmniRide passes expire",
-   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
+   "claim": "About Aug 1: most new 12-month leases start (209 Stewart listing)",
+   "source_url": "brief (209 Stewart row)",
    "status": "ok",
-   "note": "brief first-year pass dates and OmniRide rows: fall entrants to Aug 31 of the next year."
+   "note": "Brief: 209 Stewart lease 2026-08-01 to 2027-07-31; brief says the lease year turns about Aug 1."
   },
   {
-   "claim": "Your bus pass and parking permit run out in mid- to late August",
-   "source_url": "brief §9 date list",
+   "claim": "Mid-August: deposit due back within 14 days of moving out (GOL 7-108)",
+   "source_url": "brief §7 (Return deadline row)",
    "status": "ok",
-   "note": "Permit Aug 15; pass Aug 31 per brief. Tight enough summary."
+   "note": "Brief: 14 days after the tenant vacates. Recomputed: July 31 + 14 days = Aug 14, so 'mid-August' is right."
   },
   {
-   "claim": "Guide 3 covers what a month of Ithaca Bikeshare costs",
-   "source_url": "content/articles/getting-around/ithaca-bikeshare-cost-cornell-students.md",
+   "claim": "Sublet guide: landlord's clocks (10 and 30 days) and why you stay liable; tool title '10- and 30-day dates'",
+   "source_url": "brief §6.9 / sublet clocks row",
    "status": "ok",
-   "note": "Guide meta lists $60 a month."
+   "note": "Brief: 10 days to ask for information, 30 days to answer, silence is consent; liability stays with the sublessor. Matches guide meta."
   },
   {
-   "claim": "Guide 4 covers the two student Carshare plans and who qualifies",
-   "source_url": "content/articles/getting-around/ithaca-carshare-cornell-students-cost.md",
+   "claim": "Guide descriptions (guide, sublet, move-out, tool): titles and what each covers",
+   "source_url": "content/articles/housing/*.md frontmatter",
    "status": "ok",
-   "note": "Guide meta: student plans at $30 or $310 a year."
+   "note": "Titles on the page match the guides' own titles; move-out guide covers inspection, photos, 14-day deposit; summer guide covers May to August lease gaps; housing guide covers residential rule to deposits."
   },
   {
-   "claim": "Guide 5 covers when a permit ends and when the next goes on sale",
-   "source_url": "content/articles/getting-around/cornell-student-parking-permit-cost-rules.md",
+   "claim": "Read the move-out guide two weeks before your lease ends",
+   "source_url": "brief §7 (inspection 1 to 2 weeks before)",
    "status": "ok",
-   "note": "Guide meta: sales open Aug 4; validity Aug 15 per the brief."
-  },
-  {
-   "claim": "Guides 1, 2 and 6 and the upper-years guide: titles and what each covers",
-   "source_url": "guide titles and metas",
-   "status": "ok",
-   "note": "Slugs resolve to existing articles; TCAT guide covers free-ride rules and passes, move-out guide covers storage and shipping, topic hub covers airports to parking."
-  },
-  {
-   "claim": "Three tools linked: break travel timeline, Carshare calculator, car quiz",
-   "source_url": "content/tools/",
-   "status": "ok",
-   "note": "All three tool directories exist. The timeline tool includes the permit sale and the Aug 31 pass dates."
+   "note": "Brief: request inspection one to two weeks before the end."
   }
  ],
  "beats_top": {
-  "query": "Cornell summer in Ithaca transportation",
+  "query": "cornell summer housing ithaca",
   "top_url": "",
   "better": "n/a",
   "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",

@@ -1,20 +1,78 @@
 {
-  "slug": "upper-year-no-car",
-  "queue_id": "q-getting-around-0071",
-  "verdict": "pass",
-  "checked": [
-    {"claim": "Aug 31: last year's first-year TCAT privileges and OmniRide passes expire", "source_url": "brief §2.10 / §9 dates table (Cornell bus passes page)", "status": "ok", "note": "brief §2.10 and dates table: first-year passes run to Aug 31 of the next year; OmniRide expires Aug 31."},
-    {"claim": "Nov 4, 2026: C2C's new reservation system starts; every rider needs a new account", "source_url": "brief §2.1 / dates table (FCS announcement of 2026-10-22)", "status": "ok", "note": "brief §2.1: launched Wed Nov 4, 2026, new account needed. Source URL on page matches the brief's."},
-    {"claim": "Nov 9, 2026: OurBus moves to 235 S. Cayuga St; TCAT East Seneca stops reshuffle", "source_url": "brief §2.6", "status": "ok", "note": "brief §2.6: OurBus to 235 S. Cayuga St, TCAT East Seneca stops shift, from Mon 2026-11-09; FingerLakes1 URL matches."},
-    {"claim": "Thanksgiving week is Nov 23 to 27, 2026; OurBus names the Wednesday before Thanksgiving a peak day", "source_url": "brief §9 dates table (OurBus blog ?p=6269)", "status": "ok", "note": "brief dates table has the same wording and URL. Recomputed: Thanksgiving 2026 is Thu Nov 26, so Mon Nov 23 to Fri Nov 27 is that week; the Wednesday is Nov 25."},
-    {"claim": "Dec 23 and Jan 6, 2027: last C2C departure on the '2026' link, first on the '2027' link", "source_url": "brief §2.1 / dates table (C2C page)", "status": "ok", "note": "brief §2.1 booking-links row and dates table, same values and URL."},
-    {"claim": "Mar 31: last day for an OmniRide refund, less $40", "source_url": "brief §2.10 / dates table", "status": "ok", "note": "brief: refund until Mar 31 less $40, same Cornell bus passes URL."},
-    {"claim": "Guide descriptions: TCAT guide covers when you ride free, when you pay, routes; Carshare guide covers the two student plans and who qualifies; Bikeshare guide covers short-hop cost, 2026 prices; Uber/Lyft guide covers late nights, early flights and hard-to-get times; NYC bus guide compares every way to the city; full-topic guide covers airports to parking", "source_url": "titles and metas of the linked guides in content/articles/getting-around/", "status": "ok", "note": "Each description matches the guide's own title and meta (Carshare meta: two student plans $30 or $310; Bikeshare meta: $1.50 start plus $0.25/min; TCAT meta: free after 6 p.m. weekdays and weekends). All seven guide slugs exist."},
-    {"claim": "Tool descriptions: OmniRide pass vs pay per ride; Carshare Just In Case vs It's My Car; bus trips home carrier by carrier; car quiz gives no car, Carshare or a permit", "source_url": "tool.md of each of the four tools in content/tools/", "status": "ok", "note": "All four tool slugs exist and the descriptions match their metas. The page's link text differs from the tool titles but states no fact."},
-    {"claim": "Reader framing: sophomore/junior/senior without a car; first-year pass is gone; may pay own way; TCAT $200 OmniRide context", "source_url": "brief §2.10", "status": "ok", "note": "brief: upper-years ride free only after 6 p.m. weekdays and weekends, otherwise $1.50 or OmniRide $200 a year."}
-  ],
-  "brief_updates": [],
-  "fixes": [],
-  "core_answer": "right",
-  "checked_at": "2026-11-08"
+ "slug": "upper-year-no-car",
+ "queue_id": "q-housing-0095",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Late August to September: Collegetown leasing for the following year opens (Cornell Sun 2022/09/12)",
+   "source_url": "brief §9 (calendar row 'Late August to September, the rush')",
+   "status": "ok",
+   "note": "brief §9 gives the same period and the same Sun URL."
+  },
+  {
+   "claim": "Nov 8, 2026: Ithaca Renting showed 14 of 67 Collegetown rows for 2027-28 sold out",
+   "source_url": "brief §10 (Ithaca Renting sold out row)",
+   "status": "ok",
+   "note": "brief says 14 of 67 Collegetown rows were marked SOLD OUT on 2026-11-08, and that only 39 of the 67 rows are tagged 2027-2028. The page says 14 of 67 rows 'for 2027-28' without that nuance. Left as written because the brief's headline figure matches. The writer may want to soften it in a later revision."
+  },
+  {
+   "claim": "Mar 31: last day to return an OmniRide pass for a prorated refund, less $40",
+   "source_url": "brief §6 (OmniRide price row)",
+   "status": "ok",
+   "note": "brief: refund through March 31 for a $40 fee. The 'prorated' wording matches the page's own Getting-around line and the brief's 'prorated monthly'."
+  },
+  {
+   "claim": "July 31: most Ithaca leases expire; the next starts on or about August 1 (Cornell Sun 2024/07/10)",
+   "source_url": "brief §3 (lease-end row) and §9",
+   "status": "ok",
+   "note": "brief: most Ithaca leases expire July 31, as reported at the 2024 hearing, same Sun URL; next lease starts about Aug 1."
+  },
+  {
+   "claim": "Aug 31: first-year free TCAT rides end for fall entrants; after that free after 6 p.m. weekdays and all weekend",
+   "source_url": "brief §6 and §9",
+   "status": "ok",
+   "note": "brief: first-year passes for fall entrants expire Aug 31; everyone else registered rides free after 6 p.m. weekdays and all day Saturday and Sunday. Same Cornell bus-passes URL."
+  },
+  {
+   "claim": "Guide description: Off-campus housing guide covers 'the whole off-campus year, from the rule on who may sign to moving out'",
+   "source_url": "content/articles/housing/cornell-off-campus-housing-guide.md",
+   "status": "ok",
+   "note": "guide title and meta (2026-27 guide), plus a 'Moving out of a lease that ends July 31' table, fit the description."
+  },
+  {
+   "claim": "Guide description: Collegetown vs Fall Creek vs downtown compares each neighborhood's walk, hill and bus to campus",
+   "source_url": "content/articles/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live.md",
+   "status": "ok",
+   "note": "the article mentions hills 17 times and its meta covers walk-to-class and the neighborhoods."
+  },
+  {
+   "claim": "Guide description: Collegetown rent guide covers what a bed costs in the walkable blocks closest to campus",
+   "source_url": "content/articles/housing/collegetown-rent-prices-per-bed-one-bedroom.md",
+   "status": "ok",
+   "note": "title and meta cover Collegetown 1BR and per-bed prices."
+  },
+  {
+   "claim": "Guide description: 'Off-campus at Cornell: commute, buses and parking by area' covers how you get to class from each area (listed without a link)",
+   "source_url": "content/articles/getting-around/getting-around-ithaca-off-campus-renters.md",
+   "status": "ok",
+   "note": "title 'Off-campus at Cornell: commute, buses and parking by area' and meta confirm the description. The page lists it as plain text rather than a link, so I left it alone."
+  },
+  {
+   "claim": "Guide description: When to sign a Collegetown lease covers how early the close-in units go",
+   "source_url": "content/articles/housing/when-to-sign-collegetown-lease-cornell.md",
+   "status": "ok",
+   "note": "meta: popular Collegetown units sign 8 to 16 months ahead."
+  },
+  {
+   "claim": "Links to /housing/cheapest-off-campus-housing-cornell/ and /housing/ for the budget path",
+   "source_url": "content/articles/housing/cheapest-off-campus-housing-cornell.md",
+   "status": "ok",
+   "note": "article exists with title 'The cheapest ways to live off campus at Cornell'."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "ec35ee6b2ae2be1c12bae43edce709dbdcae935776e888ee37554ce61f023eb4"
 }

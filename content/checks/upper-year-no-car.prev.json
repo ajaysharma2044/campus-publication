@@ -1,0 +1,20 @@
+{
+  "slug": "upper-year-no-car",
+  "queue_id": "q-getting-around-0071",
+  "verdict": "pass",
+  "checked": [
+    {"claim": "Aug 31: last year's first-year TCAT privileges and OmniRide passes expire", "source_url": "brief §2.10 / §9 dates table (Cornell bus passes page)", "status": "ok", "note": "brief §2.10 and dates table: first-year passes run to Aug 31 of the next year; OmniRide expires Aug 31."},
+    {"claim": "Nov 4, 2026: C2C's new reservation system starts; every rider needs a new account", "source_url": "brief §2.1 / dates table (FCS announcement of 2026-10-22)", "status": "ok", "note": "brief §2.1: launched Wed Nov 4, 2026, new account needed. Source URL on page matches the brief's."},
+    {"claim": "Nov 9, 2026: OurBus moves to 235 S. Cayuga St; TCAT East Seneca stops reshuffle", "source_url": "brief §2.6", "status": "ok", "note": "brief §2.6: OurBus to 235 S. Cayuga St, TCAT East Seneca stops shift, from Mon 2026-11-09; FingerLakes1 URL matches."},
+    {"claim": "Thanksgiving week is Nov 23 to 27, 2026; OurBus names the Wednesday before Thanksgiving a peak day", "source_url": "brief §9 dates table (OurBus blog ?p=6269)", "status": "ok", "note": "brief dates table has the same wording and URL. Recomputed: Thanksgiving 2026 is Thu Nov 26, so Mon Nov 23 to Fri Nov 27 is that week; the Wednesday is Nov 25."},
+    {"claim": "Dec 23 and Jan 6, 2027: last C2C departure on the '2026' link, first on the '2027' link", "source_url": "brief §2.1 / dates table (C2C page)", "status": "ok", "note": "brief §2.1 booking-links row and dates table, same values and URL."},
+    {"claim": "Mar 31: last day for an OmniRide refund, less $40", "source_url": "brief §2.10 / dates table", "status": "ok", "note": "brief: refund until Mar 31 less $40, same Cornell bus passes URL."},
+    {"claim": "Guide descriptions: TCAT guide covers when you ride free, when you pay, routes; Carshare guide covers the two student plans and who qualifies; Bikeshare guide covers short-hop cost, 2026 prices; Uber/Lyft guide covers late nights, early flights and hard-to-get times; NYC bus guide compares every way to the city; full-topic guide covers airports to parking", "source_url": "titles and metas of the linked guides in content/articles/getting-around/", "status": "ok", "note": "Each description matches the guide's own title and meta (Carshare meta: two student plans $30 or $310; Bikeshare meta: $1.50 start plus $0.25/min; TCAT meta: free after 6 p.m. weekdays and weekends). All seven guide slugs exist."},
+    {"claim": "Tool descriptions: OmniRide pass vs pay per ride; Carshare Just In Case vs It's My Car; bus trips home carrier by carrier; car quiz gives no car, Carshare or a permit", "source_url": "tool.md of each of the four tools in content/tools/", "status": "ok", "note": "All four tool slugs exist and the descriptions match their metas. The page's link text differs from the tool titles but states no fact."},
+    {"claim": "Reader framing: sophomore/junior/senior without a car; first-year pass is gone; may pay own way; TCAT $200 OmniRide context", "source_url": "brief §2.10", "status": "ok", "note": "brief: upper-years ride free only after 6 p.m. weekdays and weekends, otherwise $1.50 or OmniRide $200 a year."}
+  ],
+  "brief_updates": [],
+  "fixes": [],
+  "core_answer": "right",
+  "checked_at": "2026-11-08"
+}

@@ -1,83 +1,53 @@
 {
  "slug": "accessibility",
- "queue_id": "q-getting-around-0081",
+ "queue_id": "q-housing-0091",
  "verdict": "pass",
  "fact_check": [
   {
-   "claim": "Contact SDS about the AP (accessible) permit before student permit sales open Tue Aug 4, 2026, 9 a.m., first come first served",
-   "source_url": "brief §2 (permit sales rows), §4 timeline; https://fcs.cornell.edu/node/17809",
+   "claim": "Register with Student Disability Services before you start searching (housing section dates)",
+   "source_url": "brief §(grad housing table: 'Disability housing needs')",
    "status": "ok",
-   "note": "brief §2 has Tue Aug 4, 2026 9 a.m., first come first served, and AP via SDS first. The brief marks node 17809 as 403 on re-check; no contradicting source. Aug 4, 2026 is a Tuesday (recomputed)."
+   "note": "brief says register first with SDS, citing the same Cornell graduate housing page the page links."
   },
   {
-   "claim": "North Campus move-in days Mon Aug 17, Tue Aug 18, Fri Aug 21 to Sat Aug 22 (year inferred as 2026)",
-   "source_url": "brief §2 move-in dates",
+   "claim": "Late August to September: Collegetown leasing for the following year opens (Cornell Daily Sun, 2022)",
+   "source_url": "https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/",
    "status": "ok",
-   "note": "Same dates and the same 'year inferred' caveat as the brief. Weekdays recomputed for 2026: Aug 17 Mon, 18 Tue, 21 Fri, 22 Sat."
+   "note": "Opened the Sun article: students started looking in August; Student Agencies building began renting for 2023-24 in early September. Brief also carries the early Sept 2022 fact. Wording is a tight paraphrase."
   },
   {
-   "claim": "Nov 4, 2026: new C2C reservation system starts, everyone needs a new account",
-   "source_url": "brief §2 and §4 timeline",
+   "claim": "Sept 15: Ithaca's heat season starts",
+   "source_url": "brief §2.10",
    "status": "ok",
-   "note": "Matches the brief and the Oct 22, 2026 Cornell announcement it cites."
+   "note": "brief: Ithaca heat season Sept 15 to May 31, Cornell Law tenants advocacy page."
   },
   {
-   "claim": "Call to arrange wheelchair access ten business days before any C2C trip",
-   "source_url": "brief §2 (C2C additional information)",
+   "claim": "July 31: most Ithaca leases expire; the next starts on or about August 1",
+   "source_url": "brief §2 (lease-end row) and §summary",
    "status": "ok",
-   "note": "Brief says at least 2 weeks (10 business days) ahead, phone 607-254-8747. Same figure appears in the C2C guide."
+   "note": "brief: most Ithaca leases expire July 31 (Sun, 2024 hearing story); next lease starts on or about August 1."
   },
   {
-   "claim": "Dec 1 to Apr 1: Cornell winter overnight parking rules",
-   "source_url": "brief §2.16 and §4 timeline",
+   "claim": "Early August (Aug 4 in 2026): buy the AP permit alongside student permit sales, after contacting SDS",
+   "source_url": "brief (parking: AP permit, 2026-27 sales)",
    "status": "ok",
-   "note": "Brief gives Dec 1 to Apr 1 for Cornell overnight rules, linked to the winter-break parking rules page."
+   "note": "brief: sales began Tue Aug 4, 2026, 9 a.m., first come first served (fcs.cornell.edu/node/17809); AP permit: contact SDS first."
   },
   {
-   "claim": "Parking guide: how the AP permit works and why SDS comes first",
-   "source_url": "brief §2 permit table",
+   "claim": "Housing guide descriptions: whole topic guide; neighborhood comparison with uphill walk; landlord check; repairs (heat, mold, bed bugs); and the four guide titles/links",
+   "source_url": "content/articles/housing/*.md titles and metas",
    "status": "ok",
-   "note": "The permit guide's table says AP goes through Student Disability Services first, $359.77; matches the brief."
+   "note": "All four guide files exist at the linked slugs; titles match the page's link text and descriptions match the guides' metas (guide, neighborhoods, landlord vetting, repairs)."
   },
   {
-   "claim": "C2C guide covers booking with a wheelchair or a service animal, and the phone call before the trip",
-   "source_url": "brief §2 (C2C rows)",
+   "claim": "Not in the brief: private-landlord accommodations/modifications, fair-housing rules, counts of accessible units",
+   "source_url": "brief grep",
    "status": "ok",
-   "note": "The brief lists ADA service animals allowed and the wheelchair call. The C2C guide has the wheelchair call and a reader block for wheelchair users."
-  },
-  {
-   "claim": "TCAT guide: when you ride free, when a fare applies, how to ask for the reduced fare",
-   "source_url": "brief §2 TCAT reduced-fare row",
-   "status": "ok",
-   "note": "The TCAT guide states the $0.75 fare for riders with disabilities, which the brief carries. The airport guide has the 'tell the driver before you tap' wording. Fine as a summary."
-  },
-  {
-   "claim": "Move-in guide covers where to unload, where a taxi or Uber drops you, and when staff help ends",
-   "source_url": "brief §2 move-in rows",
-   "status": "ok",
-   "note": "Guide has A Lot for Uber and taxi arrivals (brief) and staff-help end times per day. The page does not repeat the times."
-  },
-  {
-   "claim": "Airport guide (TCAT 32 and 72, taxis, parking): which flights a bus can reach and when you need a taxi",
-   "source_url": "brief §2 airport rows",
-   "status": "ok",
-   "note": "Guide title and meta cover Routes 32 and 72 and say no bus meets dawn flights; the brief carries Routes 32 and 72."
-  },
-  {
-   "claim": "Not in the brief: paratransit in Tompkins County and the accessibility features of OurBus, Greyhound and FlixBus",
-   "source_url": "brief (grep for paratransit: no matches)",
-   "status": "ok",
-   "note": "Confirmed the brief has no paratransit row. The page marks this as a hole and tells the reader to ask SDS and the carrier, so it is not a reject."
-  },
-  {
-   "claim": "All six guide links and the two 'When you're done' links point to existing guides with titles matching the page's labels",
-   "source_url": "content/articles/getting-around/*.md",
-   "status": "ok",
-   "note": "All guide files exist. Titles match the link labels, except that the page's link text for the winter parking and flying guides matches their titles exactly."
+   "note": "Grepped the brief for accessible/accommodation/fair-housing content on private rentals: none, so the 'Not in the brief' line is accurate."
   }
  ],
  "beats_top": {
-  "query": "Cornell accessible parking transportation",
+  "query": "cornell accessible off campus housing",
   "top_url": "",
   "better": "n/a",
   "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",

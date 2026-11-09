@@ -1,24 +1,66 @@
 {
-  "slug": "first-year",
-  "queue_id": "q-getting-around-0069",
-  "verdict": "pass",
-  "checked": [
-    {"claim": "Nov 9, 2026: OurBus downtown Ithaca stop moves to 235 S. Cayuga St", "source_url": "brief §2.6", "status": "ok", "note": "brief §2.6 and §10; same value, date and Finger Lakes 1 source URL."},
-    {"claim": "Nov 23 to 27, 2026 is Thanksgiving week; OurBus names the Wednesday before Thanksgiving a peak day", "source_url": "brief §10.9", "status": "ok", "note": "brief calendar row lists Thanksgiving week Nov 23 to 27 and the OurBus peak day with the blog ?p=6269 source. Thanksgiving is Thu Nov 26, so Mon to Fri is Nov 23 to 27."},
-    {"claim": "Dec 1: deadline to apply for winter break housing", "source_url": "brief §2.22", "status": "ok", "note": "brief §2.22: applications Oct 1, deadline Dec 1; same Cornell Housing URL."},
-    {"claim": "Dec 23: last C2C departure on the '2026' booking link", "source_url": "brief §2.1", "status": "ok", "note": "brief §2.1 and calendar row; same TDS URL."},
-    {"claim": "Jan 6, 2027: first C2C departures on the '2027' booking link", "source_url": "brief §2.1", "status": "ok", "note": "brief §2.1 and calendar row; same TDS URL."},
-    {"claim": "Aug 31, 2027: free first-year TCAT pass ends", "source_url": "brief §2.10", "status": "ok", "note": "brief: fall entrants ride to Aug 31 of the next year, which for a fall 2026 entrant is Aug 31, 2027; same bus-passes URL."},
-    {"claim": "You ride TCAT free with your Cornell ID (first-year)", "source_url": "brief §2.10", "status": "ok", "note": "brief: first-years ride free any time; Cornell ID is the pass."},
-    {"claim": "Most likely live on North Campus, probably no car", "source_url": "brief §2.14", "status": "ok", "note": "Framing sentence for the reader, not a hard fact; brief says first-years are discouraged from bringing cars and limited permits exist. The brief does not state that first-years live on North Campus, but the page hedges it with 'most likely'. Left as is."},
-    {"claim": "Guide descriptions and titles for the seven listed guides (first-year guide, NYC bus, C2C, TCAT free, Thanksgiving, winter break, topic hub) and the upper-years guide", "source_url": "content/articles/getting-around/*.md", "status": "ok", "note": "Opened each guide's title and meta. They exist at the linked slugs and cover what the page says: new account and cancellation rules (C2C), what the pass covers and when it ends (TCAT), peak days and late-booking cost (Thanksgiving), C2C links and break housing (winter break)."},
-    {"claim": "Four tools (car quiz, bus home cost calculator, break travel timeline, before-break checklist) and what each does", "source_url": "content/tools/*/tool.md", "status": "ok", "note": "Titles match exactly and the metas match the one-line descriptions."},
-    {"claim": "Not in the brief: 2026 winter closing time and Cornell's 2026-27 break dates (2025 closing was 2 p.m. Sun Dec 21)", "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice", "status": "fixed", "note": "The note was stale. The brief now has the 2026 closing (Sun Dec 20, 2026, 2 p.m.) in §2.22 and the academic calendar (Thanksgiving break Nov 25 to 29, 2026). Replaced the 'not in the brief' line with those facts and links to the Registrar calendar and the winter closing notice. Did not reopen the live pages; the brief already carries both, fact-checked."},
-    {"claim": "Thanksgiving break Nov 25 to 29, 2026", "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar", "status": "ok", "note": "brief §2.22 academic calendar row."},
-    {"claim": "Undergraduate residences close Sun Dec 20, 2026 at 2 p.m.", "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice", "status": "ok", "note": "brief §2.22, two rows."}
-  ],
-  "brief_updates": [],
-  "fixes": [],
-  "core_answer": "right",
-  "checked_at": "2026-11-08"
+ "slug": "first-year",
+ "queue_id": "q-housing-0089",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "First-years must spend year two in Cornell or affiliated housing",
+   "source_url": "brief §2.1 (Year 2 options)",
+   "status": "ok",
+   "note": "brief §2.1 residential policy row"
+  },
+  {
+   "claim": "Junior-year lease is decided around October of sophomore year",
+   "source_url": "brief §7 (line 850) and §10 signing-timing table",
+   "status": "ok",
+   "note": "brief states the junior-year lease is a decision made around October of sophomore year"
+  },
+  {
+   "claim": "Co-op selection rounds early November and early February; each house runs its own process",
+   "source_url": "brief §2.2 (Co-op size and selection)",
+   "status": "ok",
+   "note": "brief §2.2, same source URL as the page"
+  },
+  {
+   "claim": "Mar 15 (2026 date): students living in a fraternity/sorority house as sophomores affirm it in the Housing Application",
+   "source_url": "brief §2.1 (Greek in-house affirmation)",
+   "status": "ok",
+   "note": "brief §2.1, March 15, 2026"
+  },
+  {
+   "claim": "Apr 6 (2026 date): housing application due, including exemption request; Spring Housing Selection for Rising Sophomores follows in April",
+   "source_url": "brief §2.1 (2026-27 housing application deadline; Greek affirmation row)",
+   "status": "ok",
+   "note": "brief §2.1 and Takeaways list April 6, 2026 and the April Spring Housing Selection"
+  },
+  {
+   "claim": "2 p.m. Sunday, May 17 (2026 date): residence halls close for the summer",
+   "source_url": "brief §2 moving out rows (pickup rule, May calendar)",
+   "status": "ok",
+   "note": "brief: buildings close 2:00 PM Sunday, May 17, 2026, same Cornell storage/shipping URL"
+  },
+  {
+   "claim": "Collegetown leasing for junior year opens late August to October of sophomore year; many sign by October (Sun 2022, Sun 2021)",
+   "source_url": "brief §10 signing-timing table",
+   "status": "ok",
+   "note": "brief rows: 2022-09-12 Sun (signed before Labor Day, looking from August) and 2021-10-13 Sun (signed seven weeks into fall; one signed prior October); both URLs match the page"
+  },
+  {
+   "claim": "Guide descriptions: housing guide, sophomores, exemptions, co-ops/Greek, when-to-sign (titles, coverage, co-op rounds start in November)",
+   "source_url": "content/articles/housing titles and metas",
+   "status": "ok",
+   "note": "Titles on the page match the guides' own titles; descriptions agree with their metas (exemption rule, co-ops pick in November and February, signing 8 to 16 months ahead mostly Sept/Oct)"
+  },
+  {
+   "claim": "Tool descriptions: eligibility quiz and lease timeline by start term",
+   "source_url": "reader map / queue",
+   "status": "ok",
+   "note": "Descriptions are generic and consistent with the tool topics; no figures to verify"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "c44d530f2899ed592f8632d58e78ae540b9d867e34ee3740b3d42af801c62e3a"
 }

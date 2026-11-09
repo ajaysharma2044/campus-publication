@@ -1,59 +1,71 @@
 {
  "slug": "international",
- "queue_id": "q-getting-around-0075",
+ "queue_id": "q-housing-0085",
  "verdict": "pass",
  "fact_check": [
   {
-   "claim": "Oct 1 to Dec 1: the winter break housing application window",
-   "source_url": "brief §2.22 / §10 (calendar rows Oct 1, Dec 1)",
+   "claim": "Visa appointment can come no more than 120 days before the program starts (intro and dates list)",
+   "source_url": "brief §6 (international FAQ row)",
    "status": "ok",
-   "note": "Brief gives apply Oct 1 to Dec 1, $125 a week or $500."
+   "note": "brief §6 cites the Cornell international FAQ; marked there as not a housing rule, and the page does not call it one."
   },
   {
-   "claim": "Nov 26, 2026: Thanksgiving Day",
-   "source_url": "brief §10 (Thursday Nov 26 by calendar)",
+   "claim": "Lease may be signed from abroad, sight unseen",
+   "source_url": "brief §6",
    "status": "ok",
-   "note": "Fourth Thursday of Nov 2026 is the 26th; brief agrees."
+   "note": "brief: leases must often be signed sight unseen before arrival."
   },
   {
-   "claim": "Many students from far away stay in Ithaca at Thanksgiving",
-   "source_url": "https://cornellsun.com/2022/11/16/students-share-upcoming-thanksgiving-break-plans",
+   "claim": "March to April (grad students) or the fall before (undergrads who want Collegetown): search and sign",
+   "source_url": "brief §4.6 / §2",
    "status": "ok",
-   "note": "fixed in place: Only anecdotal support (one student stayed, another went to a friend's family, per the linked guide). Changed 'many' to 'some' so the page does not overstate."
+   "note": "brief has grad timing March to April; Collegetown leases open about 10 to 16 months before move-in, so the fall before an August move-in fits."
   },
   {
-   "claim": "Dec 23: winter-break mail stops, and the last C2C departure on the '2026' booking link",
-   "source_url": "brief §10 row Dec 23; §2.1",
+   "claim": "About Aug 1: when most Ithaca leases start",
+   "source_url": "brief §1 (lease year)",
    "status": "ok",
-   "note": "Brief states both with C2C and winter-housing sources."
+   "note": "brief: most leases end July 31 and the next starts on or about Aug 1."
   },
   {
-   "claim": "Jan 6, 2027: C2C departures resume on the '2027' booking link",
-   "source_url": "brief §10 row Jan 6, 2027; §2.1",
+   "claim": "On arrival: move-in inspection and photos, and buy renters insurance",
+   "source_url": "brief §2.20",
    "status": "ok",
-   "note": "Same as brief."
+   "note": "Cornell checklist says purchase renter's insurance; the brief does not call it required, and the page does not either."
   },
   {
-   "claim": "Mid-January return: storms have cancelled buses and flights before",
-   "source_url": "brief §1 item 5, §10 (Jan 2019 storm)",
+   "claim": "Winter break: ask housing@cornell.edu if you need a campus option over the break",
+   "source_url": "brief §6 (global.cornell.edu row)",
    "status": "ok",
-   "note": "Brief cites the Jan 2019 storm and the post-Thanksgiving Dec 2019 storm."
+   "note": "brief: students who cannot travel home may ask housing@cornell.edu about on-campus break housing."
   },
   {
-   "claim": "Guide descriptions for the 7 guides (JFK international guide, airport bus, ITH/SYR/ELM, NYC bus, staying over breaks, winter storms, topic hub) and the flying-home guide",
-   "source_url": "titles and metas of each guide's own file",
+   "claim": "Aug 31 of the following year: free first-year TCAT rides end for fall starters",
+   "source_url": "brief §2 (TCAT row) and change log",
    "status": "ok",
-   "note": "Compared each one-line description with the guide's title and meta; all consistent. All linked guide files exist."
+   "note": "brief: fall entrants Aug 31 of the following year, spring entrants Dec 31; the page limits this to fall starters."
   },
   {
-   "claim": "Tool descriptions for the four tools",
-   "source_url": "content/tools/*/tool.md titles and metas",
+   "claim": "Guide descriptions for the 7 housing guides: international guide (no SSN, nothing up front beyond the one-month cap, sight unseen), listings, landlord vetting, lease, repairs, eviction, pillar",
+   "source_url": "content/articles/housing/*.md titles and metas",
    "status": "ok",
-   "note": "fixed in place: Bus calculator was described as comparing fares 'for your dates'; its meta says it takes round trips a year and gives a yearly cost. Reworded to match. The other three descriptions match their metas."
+   "note": "Checked each against its title and meta. The international guide covers no SSN, the one-month deposit-plus-advance cap and paying from abroad. The listings guide has an international signing-from-abroad reader block. The landlord guide covers certificate and safety-tool checks. Titles and metas for the lease, repair, eviction and pillar guides match the descriptions."
+  },
+  {
+   "claim": "Housing tools linked: lease fee/deposit checker and off-campus move-in checklist",
+   "source_url": "queue/queue.csv rows q-housing-0063, q-housing-0060",
+   "status": "ok",
+   "note": "Both queue rows are published with slugs matching the links and list the international reader. I did not find the tool files by glob, so the link text rests on the queue rows."
+  },
+  {
+   "claim": "Getting-around sections (guides, tools, dates: Oct 1 to Dec 1, Nov 26, Dec 23, Jan 6)",
+   "source_url": "n/a",
+   "status": "ok",
+   "note": "Not this topic's sections; checked against their own brief, not judged here."
   }
  ],
  "beats_top": {
-  "query": "international student getting to Cornell",
+  "query": "cornell international student apartment",
   "top_url": "",
   "better": "n/a",
   "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",

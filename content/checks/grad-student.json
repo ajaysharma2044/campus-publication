@@ -1,26 +1,72 @@
 {
-  "slug": "grad-student",
-  "queue_id": "q-getting-around-0074",
-  "verdict": "pass",
-  "checked": [
-    {"claim": "Aug 16: the permit year starts", "source_url": "brief §11 dates table", "status": "ok", "note": "brief: permit year valid Aug 16, 2026 to Aug 15, 2027."},
-    {"claim": "Free A or E permits with a full assistantship", "source_url": "brief §2 (graduate assistants row)", "status": "ok", "note": "brief: full assistantship on Ithaca main campus gets free Outer Tier A and E permits; resident students not eligible. Page's glance wording matches."},
-    {"claim": "Fall registration: your OmniRide turns on; activation can take 24 hours", "source_url": "brief §2.10 and §10", "status": "ok", "note": "brief: grads get a free OmniRide pass; activation can take up to 24 hours. Matches the grad-students guide."},
-    {"claim": "Nov 1: city odd/even on-street parking season begins (to Apr 1, when activated)", "source_url": "brief §2.16 and dates table", "status": "ok", "note": "brief: Nov 1 to Apr 1, activated and suspended by the city."},
-    {"claim": "Nov 4, 2026: new C2C reservation system launched; every rider needs a new account", "source_url": "brief §2.1", "status": "ok", "note": "brief: launched Nov 4, 2026, new account for every rider; Oct 22 notice."},
-    {"claim": "Mar 31: last day for a refund on a paid OmniRide or permit", "source_url": "brief §2.10 and dates table", "status": "ok", "note": "brief: Mar 31 is the last day for a prorated permit refund and an OmniRide refund (less $40)."},
-    {"claim": "Aug 31: OmniRide passes expire; renew for the next year", "source_url": "brief §2.10", "status": "ok", "note": "brief: OmniRide expires Aug 31 of the next year. 'Renew' is the page's advice; the brief does not say how grads' free pass renews, but the claim adds no checkable number."},
-    {"claim": "OmniRide costs $200 (tool label and guide descriptions: paid vs free)", "source_url": "brief §2.10", "status": "ok", "note": "brief: $200 a year; PhD students and graduate assistants get it free."},
-    {"claim": "Permit sales open in August", "source_url": "brief §2 (2026-27 sales row)", "status": "ok", "note": "brief: 2026-27 sales began Aug 4, 2026."},
-    {"claim": "Guide 6 covers personal and department-billed C2C fares for NYC or Weill trips", "source_url": "brief; content/articles/getting-around/cornell-c2c-bus-booking-fares-rules.md", "status": "ok", "note": "$93.50 NetID personal, $86 department-paid Cornell business travel per brief and the guide."},
-    {"claim": "Guide 5: Carshare has two student plans", "source_url": "content/articles/getting-around/ithaca-carshare-cornell-students-cost.md", "status": "ok", "note": "Guide meta: Just In Case ($30) and It's My Car ($310)."},
-    {"claim": "Guide 7: garages, meters and the city residential permit", "source_url": "content/articles/getting-around/parking-collegetown-downtown-ithaca-garages-permits.md", "status": "ok", "note": "Guide meta: garages, streets, $45 city resident permit."},
-    {"claim": "Guide titles, URLs and descriptions for items 1 to 6 match the guides' own titles and metas", "source_url": "guide frontmatter", "status": "ok", "note": "Titles abbreviate nothing wrongly; each guide exists at the linked slug."},
-    {"claim": "Tool link labels (three of four) matched the tools' own titles", "source_url": "content/tools/*/tool.md", "status": "fixed", "note": "Three labels drifted from the tools' titles; replaced with the exact titles: car quiz ('Quiz with 2026-27 costs'), OmniRide calculator ('OmniRide break-even calculator: $200 pass vs $1.50 fares'), ITH/SYR ('ITH or SYR trip cost calculator: parking, bus and airfare'). The Carshare label already matched."},
-    {"claim": "Reader premise: grad students ride TCAT free (OmniRide) at all hours; assistantship covers A or E permits", "source_url": "brief §2.10; grad-students guide", "status": "ok", "note": "brief line 11 and the grad guide table agree."}
-  ],
-  "brief_updates": [],
-  "fixes": [],
-  "core_answer": "right",
-  "checked_at": "2026-11-08"
+ "slug": "grad-student",
+ "queue_id": "q-housing-0086",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "March to April: start looking for an August lease (grad search is later than undergraduate)",
+   "source_url": "brief §4.6",
+   "status": "ok",
+   "note": "brief §4.6 and line 715: grad guide says start March to April for August."
+  },
+  {
+   "claim": "Hasbrouck takes rolling applications on 12-month contracts",
+   "source_url": "brief §2.3 / §9",
+   "status": "ok",
+   "note": "Brief lists rolling applications (Cornell grad housing page) and 12-month contract rates."
+  },
+  {
+   "claim": "June to July: a few places remain for grad students",
+   "source_url": "brief §4.6",
+   "status": "ok",
+   "note": "Brief calendar row for June: a few places remain for grads June to July (grad guide)."
+  },
+  {
+   "claim": "About August 1: most 12-month leases start; most end July 31",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "Brief line 666 and 169: most Ithaca leases end July 31, next starts about August 1."
+  },
+  {
+   "claim": "About April 2: 120 days back from a July 31 lease end (one reading; count start unverified)",
+   "source_url": "brief §10.5",
+   "status": "ok",
+   "note": "Recomputed: Apr 2 to Apr 30 = 28 days, +31 May +30 June +31 July = 120. Matches brief §10.5; the page keeps the brief's hedge."
+  },
+  {
+   "claim": "30 to 90 days before your lease ends: the Good Cause renewal notice window",
+   "source_url": "brief §6 (RPP 216)",
+   "status": "ok",
+   "note": "Brief: written notice 30 to 90 days before lease ends."
+  },
+  {
+   "claim": "14 days after you move out: deposit due back, so by mid-August for a July 31 exit",
+   "source_url": "brief §7 (GOL 7-108)",
+   "status": "ok",
+   "note": "Brief: 14 days after vacating. Recomputed: July 31 + 14 = Aug 14, mid-August."
+  },
+  {
+   "claim": "Housing guide descriptions (neighborhoods, 120-day City rule, lease clauses, Good Cause renewals and increases, repair steps) match the guides' titles and metas",
+   "source_url": "content/articles/housing/*.md",
+   "status": "ok",
+   "note": "Compared each one-line description with the guide's own title and meta; consistent. Hasbrouck/grad guide meta matches 'neighborhoods, Cornell grad housing vs private lease, later calendar'."
+  },
+  {
+   "claim": "Tool: Ithaca rent + commute calculator (rent, power, bus, parking per month, set against Cornell's rates)",
+   "source_url": "content/tools",
+   "status": "ok",
+   "note": "Description matches the tool's purpose as listed in the reader map; no numbers stated."
+  },
+  {
+   "claim": "Getting-around sections (dates, TCAT/permit/Carshare/C2C)",
+   "source_url": "n/a",
+   "status": "ok",
+   "note": "Not this topic's sections; checked against the getting-around brief, not judged here."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "358caddcf87c531eadaef48addb8acf0672c5e5bf4e71a93a033c4bf08a0f2e8"
 }
