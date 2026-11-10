@@ -242,7 +242,7 @@
   "note": "The live co-ops/Greek page covers Greek houses in one cost section and one how-to-join section alongside co-ops; a Greek-housing hub (who may live in, the live-in and parlor-fee norms, what rent covers, the affiliated-housing requirements and city Certificate of Compliance in housing brief 2.2, the second-year cancellation window in 2.3) is a different scope, so a new page that links to it; chapter fees are unpublished, so it explains rather than lists prices."
  },
  "10": {
-  "action": "waiting-data",
+  "action": "write",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "ithaca-apartment-buildings-mapped-compared",
@@ -266,10 +266,10 @@
    "collegetown-rent-per-bed-2027-28"
   ],
   "data_needed": "inventory.csv",
-  "note": "A building-by-building map needs address, owner, units, sizes, dated prices, lease dates and distance for every building; intel/off-campus-housing/inventory.csv does not exist yet, the live datasets cover one landlord's Collegetown and downtown rows and housing brief 5.2 lists buildings without a complete inventory, so it waits on inventory.csv; no live page duplicates it."
+  "note": "coordinator: inventory.csv now exists (413 buildings, 281 with printed prices, owners of record for 131, straight-line distances; see intel/off-campus-housing/inventory-notes.md); write from it and cite each row's source URLs. A building-by-building map needs address, owner, units, sizes, dated prices, lease dates and distance for every building; intel/off-campus-housing/inventory.csv does not exist yet, the live datasets cover one landlord's Collegetown and downtown rows and housing brief 5.2 lists buildings without a complete inventory, so it waits on inventory.csv; no live page duplicates it."
  },
  "11": {
-  "action": "waiting-data",
+  "action": "write",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "ithaca-rent-by-budget-what-you-get",
@@ -293,7 +293,7 @@
    "collegetown-vs-downtown-rent-per-bed-2026"
   ],
   "data_needed": "inventory.csv",
-  "note": "Budget tiers need what each price buys across owners, sizes and neighborhoods; the live datasets and housing brief 3.2, 10.9 and 10.10 give one landlord's per-bed prices plus RentCafe averages, not the tier-by-tier picture, so it waits on inventory.csv; the cheapest-housing and monthly-cost pages answer different questions (how to pay least, what a month costs) and become links."
+  "note": "coordinator: inventory.csv now exists (413 buildings, 281 with printed prices, owners of record for 131, straight-line distances; see intel/off-campus-housing/inventory-notes.md); write from it and cite each row's source URLs. Budget tiers need what each price buys across owners, sizes and neighborhoods; the live datasets and housing brief 3.2, 10.9 and 10.10 give one landlord's per-bed prices plus RentCafe averages, not the tier-by-tier picture, so it waits on inventory.csv; the cheapest-housing and monthly-cost pages answer different questions (how to pay least, what a month costs) and become links."
  },
  "12": {
   "action": "write",
@@ -502,7 +502,7 @@
   "note": "verifier: citation fixed, the unpublished-sublet-rate finding is brief 6.9 and the live summer-housing page's 'What a summer sublet costs' section, not 8.2; decision unchanged; Write: the live move-out page compares BRSS storage and shipping for dorm residents and never mentions subletting, so this three-way cost decision for renters is a different reader and scope that links to it; prices exist (housing brief 3.7 and 6.12, getting-around brief 2.22 BRSS per-box and per-item rates and 3.6) but no typical summer sublet rate is published (brief 6.9; the summer-housing page says the same, and wave 10's 220 is the DATA idea that would price it), so sublet income is a calculator input with that caveat; the wave 1 storage and sublet hubs (15, 16) and wave 10's single-option pages stay separate."
  },
  "20": {
-  "action": "waiting-data",
+  "action": "write",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "ithaca-apartments-under-800-a-bed",
@@ -526,10 +526,10 @@
    "collegetown-vs-downtown-rent-per-bed-2026"
   ],
   "data_needed": "inventory.csv",
-  "note": "Waiting-data: no live page lists buildings by price tier (the cheapest-ways page is a strategy page by living situation, a different scope), and the live datasets hold only Ithaca Renting's sub-$800 rows (Aces 6BR from $695, 202 Dryden 10BR, downtown 3BR $795), so the multi-landlord list needs inventory.csv; the wave 1 budget hub (11) is the parent."
+  "note": "coordinator: inventory.csv now exists (413 buildings, 281 with printed prices, owners of record for 131, straight-line distances; see intel/off-campus-housing/inventory-notes.md); write from it and cite each row's source URLs. Waiting-data: no live page lists buildings by price tier (the cheapest-ways page is a strategy page by living situation, a different scope), and the live datasets hold only Ithaca Renting's sub-$800 rows (Aces 6BR from $695, 202 Dryden 10BR, downtown 3BR $795), so the multi-landlord list needs inventory.csv; the wave 1 budget hub (11) is the parent."
  },
  "21": {
-  "action": "waiting-data",
+  "action": "write",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "ithaca-apartments-800-to-1100-a-bed",
@@ -553,10 +553,10 @@
    "collegetown-vs-downtown-rent-per-bed-2026"
   ],
   "data_needed": "inventory.csv",
-  "note": "Waiting-data: no live page answers this tier; the live datasets give one landlord's 5BR, 6BR, 2BR-downtown and shared-suite rows in this band, not a market list, so it needs inventory.csv; a distinct tier from 20, 22 and 23, under the wave 1 budget hub (11)."
+  "note": "coordinator: inventory.csv now exists (413 buildings, 281 with printed prices, owners of record for 131, straight-line distances; see intel/off-campus-housing/inventory-notes.md); write from it and cite each row's source URLs. Waiting-data: no live page answers this tier; the live datasets give one landlord's 5BR, 6BR, 2BR-downtown and shared-suite rows in this band, not a market list, so it needs inventory.csv; a distinct tier from 20, 22 and 23, under the wave 1 budget hub (11)."
  },
  "22": {
-  "action": "waiting-data",
+  "action": "write",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "ithaca-apartments-1100-to-1500-a-bed",
@@ -580,10 +580,10 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "inventory.csv",
-  "note": "Waiting-data: no live page answers this tier; the live datasets cover one landlord's 2BR, 3BR and 4BR Collegetown rows plus Dryden South and 312 College Ave leads in the brief (3.2, 5.2), not a market list, so it needs inventory.csv; distinct from 20, 21 and 23, under the wave 1 budget hub (11)."
+  "note": "coordinator: inventory.csv now exists (413 buildings, 281 with printed prices, owners of record for 131, straight-line distances; see intel/off-campus-housing/inventory-notes.md); write from it and cite each row's source URLs. Waiting-data: no live page answers this tier; the live datasets cover one landlord's 2BR, 3BR and 4BR Collegetown rows plus Dryden South and 312 College Ave leads in the brief (3.2, 5.2), not a market list, so it needs inventory.csv; distinct from 20, 21 and 23, under the wave 1 budget hub (11)."
  },
  "23": {
-  "action": "waiting-data",
+  "action": "write",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "luxury-ithaca-apartments-over-1500-a-bed",
@@ -608,10 +608,10 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "inventory.csv",
-  "note": "Waiting-data: the live Collegetown rent page covers The Ivy and the top of the market in one section (different scope), and the brief 5.2 has only leads for The Ivy, 312 College Ave, The Summit, Catherine Commons, Dryden South and Collegetown Center, so a complete tier list needs inventory.csv; distinct from 20 to 22, under the wave 1 budget hub (11)."
+  "note": "coordinator: inventory.csv now exists (413 buildings, 281 with printed prices, owners of record for 131, straight-line distances; see intel/off-campus-housing/inventory-notes.md); write from it and cite each row's source URLs. Waiting-data: the live Collegetown rent page covers The Ivy and the top of the market in one section (different scope), and the brief 5.2 has only leads for The Ivy, 312 College Ave, The Summit, Catherine Commons, Dryden South and Collegetown Center, so a complete tier list needs inventory.csv; distinct from 20 to 22, under the wave 1 budget hub (11)."
  },
  "24": {
-  "action": "waiting-data",
+  "action": "write",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "cheapest-neighborhoods-in-ithaca-by-rent",
@@ -634,7 +634,7 @@
    "collegetown-vs-downtown-rent-per-bed-2026"
   ],
   "data_needed": "inventory.csv aggregated by neighborhood: per-bed asking rents with address, neighborhood and distance for every area; the brief's 3.1 and 5.1 figures cover only Collegetown, downtown, Fall Creek and Lansing, mix per-unit with per-bed sources, and have nothing for East Hill, Belle Sherman, Cayuga Heights, South Hill, West Hill or Northside",
-  "note": "Waiting-data: a ranking of all neighborhoods by rent is a different scope from the live three-neighborhood comparison (which already uses every neighborhood figure the brief has, so a page built on the same numbers would restate its cost section), and the brief's 3.1 and 5.1 tables cannot rank the other six areas, so it waits for inventory.csv and then links to the comparison page."
+  "note": "coordinator: inventory.csv now exists (413 buildings, 281 with printed prices, owners of record for 131, straight-line distances; see intel/off-campus-housing/inventory-notes.md); write from it and cite each row's source URLs. Waiting-data: a ranking of all neighborhoods by rent is a different scope from the live three-neighborhood comparison (which already uses every neighborhood figure the brief has, so a page built on the same numbers would restate its cost section), and the brief's 3.1 and 5.1 tables cannot rank the other six areas, so it waits for inventory.csv and then links to the comparison page."
  },
  "25": {
   "action": "write",
@@ -4161,7 +4161,7 @@
   "note": "No live place page; brief 5.1, 5.2 and 10.10 (Cityview, Commons West, Old Cigar Factory, Whiton Hall, Asteri, Route 10, downtown 20% to 28% below Collegetown) and the live dataset support it."
  },
  "165": {
-  "action": "waiting-data",
+  "action": "write",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "northside-ithaca-neighborhood",
@@ -4179,7 +4179,7 @@
   ],
   "datasets": [],
   "data_needed": "inventory.csv for the Northside buildings (the INHS rows for 210 Hancock St, 54 units plus 5 townhomes, 'Cornell is two miles away', and the Cayuga Flats scattered sites already sit in build/ideas/inventory/inhs-rentals.csv), plus the facts no lane found: asking rents by street, the TCAT routes and times serving it, walk times to campus and its boundaries inside the City (120-day rule, trash tags); brief 5.1, 8.2 and 8.3 record that Cornell's neighborhoods page omits Northside and no lane found rents, listings, transit or student voice.",
-  "note": "verifier: added inventory.csv to data_needed because the inventory being built already holds Northside rows (INHS, 210 Hancock St and Cayuga Flats), so the building list will come from it while rents, TCAT routes, walk times and the City-line facts still need a research pass; decision unchanged; Not DATA-tagged, but held because the brief states Northside is absent from every source read, so nothing supports a page yet; not merged into Fall Creek because it is a distinct neighborhood."
+  "note": "coordinator: inventory.csv now exists (413 buildings, 281 with printed prices, owners of record for 131, straight-line distances; see intel/off-campus-housing/inventory-notes.md); write from it and cite each row's source URLs. verifier: added inventory.csv to data_needed because the inventory being built already holds Northside rows (INHS, 210 Hancock St and Cayuga Flats), so the building list will come from it while rents, TCAT routes, walk times and the City-line facts still need a research pass; decision unchanged; Not DATA-tagged, but held because the brief states Northside is absent from every source read, so nothing supports a page yet; not merged into Fall Creek because it is a distinct neighborhood."
  },
  "166": {
   "action": "write",
@@ -4234,7 +4234,7 @@
   "note": "No live page; brief has Ivy Ridge (Varna) reviews, the Dryden code office and Cortland transit to Dryden, but both briefs list TCAT routes and times by neighborhood as unknown (tcatbus.com returned 403), so the writer must source the Varna and Dryden routes from TCAT's schedules."
  },
  "168": {
-  "action": "waiting-data",
+  "action": "write",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "collegetown-buildings-compared",
@@ -4255,10 +4255,10 @@
    "collegetown-rent-per-bed-2027-28"
   ],
   "data_needed": "inventory.csv",
-  "note": "DATA idea: brief 5.2 profiles about 15 Collegetown buildings but 'every large building' with prices, sizes, owner and distance needs the inventory being built in wave 1."
+  "note": "coordinator: inventory.csv now exists (413 buildings, 281 with printed prices, owners of record for 131, straight-line distances; see intel/off-campus-housing/inventory-notes.md); write from it and cite each row's source URLs. DATA idea: brief 5.2 profiles about 15 Collegetown buildings but 'every large building' with prices, sizes, owner and distance needs the inventory being built in wave 1."
  },
  "169": {
-  "action": "waiting-data",
+  "action": "write",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "collegetown-landlords-who-owns-the-buildings",
@@ -4275,7 +4275,7 @@
   "tools": [],
   "datasets": [],
   "data_needed": "inventory.csv",
-  "note": "DATA idea: brief 5.3 names Ithaca Renting, Modern Living, Student Agencies, Lambrou, Urban Ithaca, Avramis, Travis Hyde and Novarr-Mackesey but no building-by-owner table; the inventory's owner column is the data; wave 14's 282 (ownership mapped from property records) asks the same question and should merge into this one or be its dataset."
+  "note": "coordinator: inventory.csv now exists (413 buildings, 281 with printed prices, owners of record for 131, straight-line distances; see intel/off-campus-housing/inventory-notes.md); write from it and cite each row's source URLs. DATA idea: brief 5.3 names Ithaca Renting, Modern Living, Student Agencies, Lambrou, Urban Ithaca, Avramis, Travis Hyde and Novarr-Mackesey but no building-by-owner table; the inventory's owner column is the data; wave 14's 282 (ownership mapped from property records) asks the same question and should merge into this one or be its dataset."
  },
  "170": {
   "action": "waiting-data",
@@ -4837,7 +4837,7 @@
   "note": "No live page; entity ideas 80 and 81 (wave 4) pending the entity bar; brief 95 and 783 hold the Sun's Sheldon Court piece (164 mostly upperclass residents, 12-minute walk to dining, age, elevator, College Ave noise) and the getting-around brief has both halls' move-in and move-out parking; Cascadilla needs the dorm fact file; link from 188 as the campus-side Collegetown-edge options."
  },
  "194": {
-  "action": "waiting-data",
+  "action": "write",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "the-ivy-vs-collegetown-terrace-ithaca",
@@ -4861,7 +4861,7 @@
    "collegetown-lease-signing-lead-times-2017-2025"
   ],
   "data_needed": "inventory.csv",
-  "note": "The Ivy is covered (brief 10.7 and building table line 761: 52 units, 3BR $5,500 to $5,800, leases from Aug 17 2026, $150 utility package; dataset row 22) but Collegetown Terrace has only 2012 and 2022 prices and a 2018 forum line (brief 772), so the head-to-head waits for inventory.csv rows on both buildings (current prices by unit type with dates, unit counts and sizes, lease dates, distance, amenities, owner); entity ideas 113 and 114 pending the entity bar."
+  "note": "coordinator: inventory.csv now exists (413 buildings, 281 with printed prices, owners of record for 131, straight-line distances; see intel/off-campus-housing/inventory-notes.md); write from it and cite each row's source URLs. The Ivy is covered (brief 10.7 and building table line 761: 52 units, 3BR $5,500 to $5,800, leases from Aug 17 2026, $150 utility package; dataset row 22) but Collegetown Terrace has only 2012 and 2022 prices and a 2018 forum line (brief 772), so the head-to-head waits for inventory.csv rows on both buildings (current prices by unit type with dates, unit counts and sizes, lease dates, distance, amenities, owner); entity ideas 113 and 114 pending the entity bar."
  },
  "195": {
   "action": "rewrite",
@@ -6931,7 +6931,7 @@
   "note": "No live page or dataset gives dorm-level times. The housing brief has only Cornell's neighborhood ranges (3.8) and the check that three of them understate the distance (10.2); the getting-around brief adds one Sun figure, 15 to 20 minutes from Collegetown through the Arts Quad (10.15). The matrix must be built before the page is written."
  },
  "284": {
-  "action": "waiting-data",
+  "action": "write",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "collegetown-rent-per-square-foot-by-building",
@@ -6955,7 +6955,7 @@
    "collegetown-vs-downtown-rent-per-bed-2026"
   ],
   "data_needed": "inventory.csv",
-  "note": "A building idea that needs the inventory's sizes and prices. The brief computes dollars per square foot only from RentCafe neighborhood averages (10.1, with the Collegetown footage flagged as implausible) and holds square footage for a handful of listings (407 College Ave, 105 Dryden Rd, 504 Stewart Ave, 105 Highland Pl, 201 College Ave in 2019, section 3.2 and 3.3), too few for a building-by-building table. The live per-bed datasets carry no square footage."
+  "note": "coordinator: inventory.csv now exists (413 buildings, 281 with printed prices, owners of record for 131, straight-line distances; see intel/off-campus-housing/inventory-notes.md); write from it and cite each row's source URLs. A building idea that needs the inventory's sizes and prices. The brief computes dollars per square foot only from RentCafe neighborhood averages (10.1, with the Collegetown footage flagged as implausible) and holds square footage for a handful of listings (407 College Ave, 105 Dryden Rd, 504 Stewart Ave, 105 Highland Pl, 201 College Ave in 2019, section 3.2 and 3.3), too few for a building-by-building table. The live per-bed datasets carry no square footage."
  },
  "285": {
   "action": "waiting-data",
