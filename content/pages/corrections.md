@@ -1,6 +1,6 @@
 ---
 title: "Corrections"
-meta: "How to report an error on Footnote Daily, what happens when you do, and how corrections are recorded on the page they affect."
+meta: "How to report an error on EduExplained, what happens when you do, and how corrections are recorded on the page they affect."
 updated: 2026-11-07
 ---
 

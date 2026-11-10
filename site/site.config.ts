@@ -1,4 +1,4 @@
-/* Footnote Daily site configuration (the Astro build). Everything an owner may change without touching a template lives here.
+/* EduExplained site configuration (the Astro build). Everything an owner may change without touching a template lives here.
    OWNER: the entries marked OWNER are placeholders that need a real value before a production deploy. */
 
 export type AdProvider = 'none' | 'adsense' | 'other';
@@ -27,14 +27,14 @@ export interface Author {
 }
 
 export const site = {
-  name: 'Footnote Daily',
+  name: 'EduExplained',
   tagline: 'Research-first guides for students, parents and alumni',
   // OWNER: confirm the production domain; config/monetization.yml's `site.domain` is empty today.
-  url: process.env.SITE_URL ?? 'https://www.footnotedaily.com',
+  url: process.env.SITE_URL ?? 'https://www.eduexplained.com',
   production: process.env.SITE_PRODUCTION === '1',   // false: every page carries noindex and robots.txt disallows all
   language: 'en-US',
   organization: {
-    legalName: 'Footnote Daily',                 // OWNER: legal entity (content/pages/about.md carries the same placeholder)
+    legalName: 'EduExplained',                 // OWNER: legal entity (content/pages/about.md carries the same placeholder)
     sameAs: [] as string[],
   },
   ads: {
@@ -114,11 +114,11 @@ export const site = {
   // here (kind: 'person', with slug, role and bio). A page may name one with frontmatter `author: <slug>`.
   authors: [
     {
-      slug: 'footnote-daily-editors', name: 'Footnote Daily editors', kind: 'organization', role: 'Editorial team',
-      bio: 'Footnote Daily guides are researched from official sources (the university, the city, transit agencies, landlords) and from attributed student experience (student newspapers, public forums, listings). AI tools assist the research and drafting; every guide is edited, every hard fact is checked against the page it links to, and the Updated date records the last review. Nothing is published without a source for every price, date, fee and rule.',
+      slug: 'eduexplained-editors', name: 'EduExplained editors', kind: 'organization', role: 'Editorial team',
+      bio: 'EduExplained guides are researched from official sources (the university, the city, transit agencies, landlords) and from attributed student experience (student newspapers, public forums, listings). AI tools assist the research and drafting; every guide is edited, every hard fact is checked against the page it links to, and the Updated date records the last review. Nothing is published without a source for every price, date, fee and rule.',
     },
   ] as Author[],
-  defaultAuthor: 'footnote-daily-editors',
+  defaultAuthor: 'eduexplained-editors',
   // Traffic-driven lists. OWNER: fill from analytics; empty lists fall back to the longest pillar guides, labeled "Start here".
   mostRead: [] as string[],     // page URLs
   featured: [] as string[],     // homepage lead and the three cards beside it
@@ -133,7 +133,7 @@ export const site = {
   ],
   footer: {
     columns: [
-      { title: 'Footnote Daily', links: [
+      { title: 'EduExplained', links: [
         { label: 'About', href: '/about/' }, { label: 'Editorial standards', href: '/editorial-standards/' },
         { label: 'Sources', href: '/sources/' }, { label: 'Corrections', href: '/corrections/' },
         { label: 'Contact', href: '/contact/' }, { label: 'Privacy', href: '/privacy/' }, { label: 'Advertise', href: '/advertise/' },
@@ -147,7 +147,7 @@ export const site = {
         { label: 'Cross-school guides', href: '/guides/' }, { label: 'Authors', href: '/authors/' }, { label: 'Search', href: '/search/' },
       ] },
     ],
-    disclaimer: 'Footnote Daily is an independent publication. It is not affiliated with Cornell University, the City of Ithaca or any landlord, carrier or business named in a guide.',
+    disclaimer: 'EduExplained is an independent publication. It is not affiliated with Cornell University, the City of Ithaca or any landlord, carrier or business named in a guide.',
   },
 };
 

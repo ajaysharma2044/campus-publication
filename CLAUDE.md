@@ -1,4 +1,4 @@
-# Footnote Daily (campus-publication), v3
+# EduExplained (campus-publication), v3
 
 Research-first guides for students, parents and alumni of Cornell University and Ithaca. Owner specs: `docs/v3/spec.md` (2026-11-08, wins where it conflicts) over `docs/v2/spec.md` (files, lint, render, images, monetization, deploy). Style: `docs/v2/style.md` (stand-in until the owner's `footnote-style-guide.md` arrives). Quality bar: `docs/v2/exemplar.md`. Status: `STATE.md`, overwritten, under 60 lines. This file and STATE.md describe only what exists and runs. Nothing runs on a schedule; Ajay starts every step.
 

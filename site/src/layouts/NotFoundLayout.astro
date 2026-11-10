@@ -18,7 +18,7 @@ const topics = site.topics.slice(0, 5);
       <section class="section" aria-labelledby="nf-schools">
         <div class="section__head"><h2 id="nf-schools">School hubs</h2></div>
         <ul class="glist">
-          <li class="glist__item"><h3 class="glist__title"><a href="/">Footnote Daily homepage</a></h3></li>
+          <li class="glist__item"><h3 class="glist__title"><a href="/">EduExplained homepage</a></h3></li>
           {hubs.map((s) => <li class="glist__item"><h3 class="glist__title"><a href={schoolUrl(s)}>{s.short} Student Guide</a></h3><p class="glist__dek">{topics.map((t, i) => <Fragment>{i ? ' · ' : ''}<a href={topicUrl(s, t)}>{t.label}</a></Fragment>)}</p></li>)}
         </ul>
       </section>

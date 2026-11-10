@@ -1,10 +1,10 @@
 ---
 title: "Advertise"
-meta: "How advertising works on Footnote Daily: display units only, clearly labeled, never above the answer, and never a say in what a guide recommends."
+meta: "How advertising works on EduExplained: display units only, clearly labeled, never above the answer, and never a say in what a guide recommends."
 updated: 2026-11-08
 ---
 
-Footnote Daily is funded by display advertising. This page says what that means for readers and what we offer advertisers.
+EduExplained is funded by display advertising. This page says what that means for readers and what we offer advertisers.
 
 ## For readers
 

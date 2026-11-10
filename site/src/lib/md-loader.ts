@@ -20,7 +20,7 @@ async function walk(dir: string): Promise<string[]> {
 
 export function markdownLoader(opts: { bases: string[]; idFrom?: 'relative' | 'basename' }): Loader {
   return {
-    name: 'footnote-markdown',
+    name: 'eduexplained-markdown',
     load: async ({ store, parseData, generateDigest, logger }) => {
       store.clear();
       let count = 0;

@@ -41,14 +41,14 @@ const templates = [
   { n: 4, name: 'Audience hub', url: '/cornell/parents/', real: true }, { n: 5, name: 'Pillar guide', url: '/styleguide/pillar/', real: false, realUrl: m.pages.find((p) => p.pageType === 'pillar')?.url },
   { n: 6, name: 'Quick answer', url: '/styleguide/answer/', real: false, realUrl: m.pages.find((p) => p.pageType === 'answer')?.url }, { n: 7, name: 'Place review', url: '/styleguide/place/', real: false },
   { n: 8, name: 'Data page', url: '/styleguide/data/', real: false }, { n: 9, name: 'Comparison page', url: '/styleguide/comparison/', real: false }, { n: 10, name: 'Cross-school guide', url: '/styleguide/guide/', real: false },
-  { n: 11, name: 'Author page', url: '/authors/footnote-daily-editors/', real: true }, { n: 12, name: 'Trust pages', url: '/editorial-standards/', real: true }, { n: 13, name: 'Search results', url: '/search/?q=meal+plan', real: true },
+  { n: 11, name: 'Author page', url: '/authors/eduexplained-editors/', real: true }, { n: 12, name: 'Trust pages', url: '/editorial-standards/', real: true }, { n: 13, name: 'Search results', url: '/search/?q=meal+plan', real: true },
   { n: 14, name: '404', url: '/404.html', real: true },
   { n: 15, name: 'Tool page (pipeline)', url: m.tools[0]?.url ?? '/tools/', real: true }, { n: 16, name: 'Dataset page (pipeline)', url: m.datasets[0]?.url ?? '/datasets/', real: true }, { n: 17, name: 'Start-here page (pipeline)', url: m.starts[0]?.url ?? '/start/', real: true },
 ];
 const swatches = [['navy', '#0E1B33'], ['navy-2', '#26385E'], ['navy-3', '#B8C2D6'], ['gold', '#D6A738'], ['gold-ink', '#7E5F0B'], ['highlight', '#FBE3A1'], ['ink', '#16181D'], ['text', '#2A2D33'], ['muted', '#5E6573'], ['rule', '#E2E4E8'], ['surface', '#F4F5F7'], ['link', '#1C4791']];
 const sampleShort = renderArticle('Sample short answer: the **first marked phrase** and the **second marked phrase** get the marker stroke; a **third strong run** stays bold. A hard fact carries a marker.').shortAnswer;
 ---
-<Base title="Styleguide" description="Every Footnote Daily component and template with sample content, for visual review." path="/styleguide/" noindex>
+<Base title="Styleguide" description="Every EduExplained component and template with sample content, for visual review." path="/styleguide/" noindex>
   <div class="page--single"><div class="main">
     <Breadcrumbs crumbs={crumbs} />
     <header class="head"><p class="kicker">Internal · noindex</p><h1>Styleguide</h1><p class="dek">Every shared component and every template, with sample content. Nothing on this page is a fact about Cornell or Ithaca; sample bylines, sources and numbers are labeled as samples.</p></header>

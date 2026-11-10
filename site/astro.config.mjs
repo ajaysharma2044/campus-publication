@@ -1,4 +1,4 @@
-// Footnote Daily site templates (Astro). Parallel to scripts/v2/render_site.py; reads the same content/ tree.
+// EduExplained site templates (Astro). Parallel to scripts/v2/render_site.py; reads the same content/ tree.
 import { defineConfig } from 'astro/config';
 import { site } from './site.config.ts';
 

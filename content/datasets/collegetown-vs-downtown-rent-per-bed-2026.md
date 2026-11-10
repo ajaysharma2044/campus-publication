@@ -176,7 +176,7 @@ All money is US dollars, asking rent per bed per month unless the unit column sa
 
 ## How to cite
 
-Footnote Daily, "Collegetown vs downtown rent per bed, Nov 2026, 58 listings," dataset, updated 2026-11-08, asking prices as of 2026-11-08 (58 rows: 38 Collegetown, 20 downtown). Underlying prices from Ithaca Renting's [Collegetown](https://ithacarenting.com/collegetown/) and [downtown](https://ithacarenting.com/downtown/) pages; the Cornell double from [Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates).
+EduExplained, "Collegetown vs downtown rent per bed, Nov 2026, 58 listings," dataset, updated 2026-11-08, asking prices as of 2026-11-08 (58 rows: 38 Collegetown, 20 downtown). Underlying prices from Ithaca Renting's [Collegetown](https://ithacarenting.com/collegetown/) and [downtown](https://ithacarenting.com/downtown/) pages; the Cornell double from [Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates).
 
 ## Change log
 

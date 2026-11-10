@@ -137,7 +137,7 @@ Every observation, matching `thanksgiving-bus-fare-premium-ithaca-2026.csv` row 
 
 ## How to cite
 
-Footnote Daily, "Thanksgiving bus fare premium from Ithaca, 2026," dataset, updated 2026-11-08, observations read 2026-11-08 from checkmybus route pages (n = 63; 51 used for the premium). Data file: thanksgiving-bus-fare-premium-ithaca-2026.csv.
+EduExplained, "Thanksgiving bus fare premium from Ithaca, 2026," dataset, updated 2026-11-08, observations read 2026-11-08 from checkmybus route pages (n = 63; 51 used for the premium). Data file: thanksgiving-bus-fare-premium-ithaca-2026.csv.
 
 ## Change log
 

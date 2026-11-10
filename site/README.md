@@ -1,4 +1,4 @@
-# Footnote Daily site templates (Astro)
+# EduExplained site templates (Astro)
 
 The Astro build of the site: 14 page templates built from shared components, one global stylesheet, and build-time checks. It reads the same `content/articles/**` Markdown and `content/images/` photos as the Python renderer (`scripts/v2/render_site.py`) and runs beside it; nothing here changes the Jinja build or the Netlify publish dir.
 

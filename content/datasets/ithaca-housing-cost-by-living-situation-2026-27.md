@@ -112,7 +112,7 @@ The same 28 rows are published as ithaca-housing-cost-by-living-situation-2026-2
 
 ## How to cite
 
-Footnote Daily, "Cost of a year of housing at Cornell, 28 options, Nov 2026," dataset, updated 2026-11-08, prices as of 2026-11-08 (79 posted rates and asking prices). Underlying prices from Cornell Student and Campus Life, Ithaca Renting, the Cornell Daily Sun and RentCafe, linked in each row.
+EduExplained, "Cost of a year of housing at Cornell, 28 options, Nov 2026," dataset, updated 2026-11-08, prices as of 2026-11-08 (79 posted rates and asking prices). Underlying prices from Cornell Student and Campus Life, Ithaca Renting, the Cornell Daily Sun and RentCafe, linked in each row.
 
 ## Change log
 

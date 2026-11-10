@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-meta: "How to reach the Footnote Daily editor: corrections, questions about a guide, photo permissions, and advertising or sponsorship inquiries."
+meta: "How to reach the EduExplained editor: corrections, questions about a guide, photo permissions, and advertising or sponsorship inquiries."
 updated: 2026-11-07
 ---
 
@@ -27,4 +27,4 @@ Display advertising on the site runs through an ad network. For a direct sponsor
 - [OWNER: fill in legal entity]
 - [OWNER: fill in mailing address]
 
-Footnote Daily is an independent publication and is not affiliated with Cornell University. For housing assignments, bills, registration or aid, contact the university office named in the guide; we cannot act on your case.
+EduExplained is an independent publication and is not affiliated with Cornell University. For housing assignments, bills, registration or aid, contact the university office named in the guide; we cannot act on your case.

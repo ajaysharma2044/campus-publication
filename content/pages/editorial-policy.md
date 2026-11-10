@@ -1,10 +1,10 @@
 ---
 title: "Editorial policy"
-meta: "How Footnote Daily chooses questions, sources facts, uses student experience, handles ads and affiliate links, and keeps advertisers away from the writing."
+meta: "How EduExplained chooses questions, sources facts, uses student experience, handles ads and affiliate links, and keeps advertisers away from the writing."
 updated: 2026-11-07
 ---
 
-This page describes how a Footnote Daily guide is researched, written, checked and funded. It is the standard we hold every page to, and the one you can hold us to.
+This page describes how a EduExplained guide is researched, written, checked and funded. It is the standard we hold every page to, and the one you can hold us to.
 
 ## Which questions we answer
 
@@ -38,13 +38,13 @@ We use only photographs we have the right to publish: openly licensed photos (pu
 
 ## Advertising and affiliate links
 
-Footnote Daily is funded by display advertising and by affiliate links. When a page links to a product or service through an affiliate program (renters insurance, apartment essentials, bus or train tickets, storage, moving, textbooks), the page says so at the top, and we may earn a commission at no extra cost to you. We add a link only where the product or service genuinely helps with the question on the page.
+EduExplained is funded by display advertising and by affiliate links. When a page links to a product or service through an affiliate program (renters insurance, apartment essentials, bus or train tickets, storage, moving, textbooks), the page says so at the top, and we may earn a commission at no extra cost to you. We add a link only where the product or service genuinely helps with the question on the page.
 
 Advertisers and affiliate programs do not see articles before publication, do not choose topics, and do not change a fact, a comparison, an order or a recommendation. If we ever run sponsored content, it will be labeled "Sponsored" and kept separate from the guides.
 
 ## Independence
 
-Footnote Daily is not affiliated with Cornell University, the City of Ithaca or any landlord, carrier or business it writes about. We hold no agreements that give any of them a say in what we publish.
+EduExplained is not affiliated with Cornell University, the City of Ithaca or any landlord, carrier or business it writes about. We hold no agreements that give any of them a say in what we publish.
 
 ## Contact
 

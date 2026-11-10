@@ -92,7 +92,7 @@ The same rows are published as collegetown-rent-per-bed-2027-28.csv, with fuller
 
 ## How to cite
 
-Footnote Daily, "Collegetown rent per bed, 2027-28, from 38 listings," dataset, updated 2026-11-08, observations as of 2026-11-08 (n = 38 priced rows from one landlord). Underlying prices from Ithaca Renting's Collegetown page (https://ithacarenting.com/collegetown/); benchmark from Cornell's 2026-27 housing rates.
+EduExplained, "Collegetown rent per bed, 2027-28, from 38 listings," dataset, updated 2026-11-08, observations as of 2026-11-08 (n = 38 priced rows from one landlord). Underlying prices from Ithaca Renting's Collegetown page (https://ithacarenting.com/collegetown/); benchmark from Cornell's 2026-27 housing rates.
 
 ## Change log
 

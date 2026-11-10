@@ -5,7 +5,7 @@ import { breadcrumbList, webPage } from '../lib/schema';
 import { fmtDate } from '../lib/model';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 interface Props { title: string; dek: string; path: string; html: string; updated?: string; noindex?: boolean; kicker?: string }
-const { title, dek, path, html, updated, noindex = false, kicker = 'Footnote Daily' } = Astro.props;
+const { title, dek, path, html, updated, noindex = false, kicker = 'EduExplained' } = Astro.props;
 const crumbs = [{ label: 'Home', href: '/' }, { label: title }];
 const TRUST_LINKS = [['About', '/about/'], ['Editorial standards', '/editorial-standards/'], ['Sources', '/sources/'], ['Corrections', '/corrections/'], ['Contact', '/contact/'], ['Privacy', '/privacy/'], ['Advertise', '/advertise/']].filter(([, h]) => h !== path);
 ---
@@ -16,8 +16,8 @@ const TRUST_LINKS = [['About', '/about/'], ['Editorial standards', '/editorial-s
       <header class="head"><p class="kicker">{kicker}</p><h1>{title}</h1><p class="dek">{dek}</p>{updated ? <p class="byline__meta"><span class="byline__updated">Updated {fmtDate(updated)}</span></p> : null}</header>
       <div class="prose" set:html={html} />
       <slot />
-      <nav class="trust-links" aria-label="About Footnote Daily">
-        <p class="trust-links__title">More about how Footnote Daily works</p>
+      <nav class="trust-links" aria-label="About EduExplained">
+        <p class="trust-links__title">More about how EduExplained works</p>
         <ul class="trust-links__list">{TRUST_LINKS.map(([label, href]) => <li><a href={href}>{label}</a></li>)}</ul>
       </nav>
     </article>

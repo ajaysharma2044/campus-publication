@@ -15,7 +15,7 @@ const crumbs = [{ label: 'Home', href: '/' }, { label: 'Authors', href: '/author
 const a = { name: author.name, url, role: author.role, bio: author.bio, kind: author.kind };
 const initials = author.name.split(/\s+/).map((w) => w[0]).slice(0, 2).join('');
 ---
-<Base title={author.name} description={`${author.name}, ${author.role} at Footnote Daily: ${author.bio.slice(0, 140)}`} path={url} ogType="profile" searchable={false} jsonld={[breadcrumbList(crumbs), person(a), profilePage(a)]}>
+<Base title={author.name} description={`${author.name}, ${author.role} at EduExplained: ${author.bio.slice(0, 140)}`} path={url} ogType="profile" searchable={false} jsonld={[breadcrumbList(crumbs), person(a), profilePage(a)]}>
   <div class="page--single">
     <div class="main">
       <Breadcrumbs crumbs={crumbs} />

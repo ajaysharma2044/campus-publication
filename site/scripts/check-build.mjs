@@ -52,6 +52,7 @@ const seen = new Set();
 for (const p of manifest.pages) { if (p.oldUrl && p.oldUrl !== p.url && !seen.has(p.oldUrl)) { seen.add(p.oldUrl); redirects.push(`${p.oldUrl} ${p.url} 301`); } }
 for (const t of new Set(manifest.pages.map((p) => p.topic))) { const from = `/${t}/`; if (!exists.has(from) && !seen.has(from)) { seen.add(from); redirects.push(`${from} /${manifest.pages.find((p) => p.topic === t).school}/${t}/ 301`); } }
 redirects.push('/editorial-policy/ /editorial-standards/ 301');
+redirects.push('/authors/footnote-daily-editors/ /authors/eduexplained-editors/ 301');   // the editors' page before the 2026-11-10 rename
 await fs.writeFile(path.join(dist, '_redirects'), redirects.join('\n') + '\n');
 console.log(`check-build: ${files.length} pages, ${manifest.pages.length} content pages checked against their hubs, ${redirects.length} redirects written`);
 for (const w of warn) console.log('warning:', w);

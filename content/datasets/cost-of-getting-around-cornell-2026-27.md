@@ -143,7 +143,7 @@ The same 42 rows are published as cost-of-getting-around-cornell-2026-27.csv.
 
 ## How to cite
 
-Footnote Daily, "A year of getting around Cornell, 2026-27: 4 profiles," dataset, updated 2026-11-08, prices as of 2026-11-08 (18 inputs; scenario arithmetic). Underlying prices from Cornell Transportation and Delivery Services, TCAT, OurBus, CheckMyBus, Wanderu, Ithaca Tompkins International Airport and Ithaca Carshare, linked in each row.
+EduExplained, "A year of getting around Cornell, 2026-27: 4 profiles," dataset, updated 2026-11-08, prices as of 2026-11-08 (18 inputs; scenario arithmetic). Underlying prices from Cornell Transportation and Delivery Services, TCAT, OurBus, CheckMyBus, Wanderu, Ithaca Tompkins International Airport and Ithaca Carshare, linked in each row.
 
 ## Change log
 

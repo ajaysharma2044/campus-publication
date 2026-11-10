@@ -1,10 +1,10 @@
 ---
 title: "Privacy policy"
-meta: "What Footnote Daily collects when you read it, how analytics, advertising cookies and affiliate links work, what you can choose, and how to contact us."
+meta: "What EduExplained collects when you read it, how analytics, advertising cookies and affiliate links work, what you can choose, and how to contact us."
 updated: 2026-11-07
 ---
 
-Footnote Daily is a publication you read, not a service you sign up for. There are no accounts, no newsletter list unless you join one, and no comment forms. This page explains the little we do collect and the choices you have.
+EduExplained is a publication you read, not a service you sign up for. There are no accounts, no newsletter list unless you join one, and no comment forms. This page explains the little we do collect and the choices you have.
 
 ## Who is responsible
 

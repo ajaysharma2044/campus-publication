@@ -98,7 +98,7 @@ How 120 days squares with leasing nine months out is unresolved: the count start
 
 ## How to cite
 
-Footnote Daily, "How early Collegetown leases are signed, 2017-2025: 9 cases," dataset, updated 2026-11-08, observations through 2025-12-02 (n = 9 from six Cornell Daily Sun stories). Each case links its story in the source_url column.
+EduExplained, "How early Collegetown leases are signed, 2017-2025: 9 cases," dataset, updated 2026-11-08, observations through 2025-12-02 (n = 9 from six Cornell Daily Sun stories). Each case links its story in the source_url column.
 
 ## Change log
 

@@ -83,7 +83,7 @@ Who pays which C2C fare: the public fare is open to anyone, including parents an
 
 ## How to cite
 
-Footnote Daily, "Ithaca to NYC bus fares, Nov 8 2026: 6 carriers plus C2C," dataset, updated 2026-11-08, observations as of 2026-11-08 (n = 6 carriers). Underlying fares from Wanderu, Cornell Transportation and Delivery Services, OurBus and CheckMyBus, linked in each row.
+EduExplained, "Ithaca to NYC bus fares, Nov 8 2026: 6 carriers plus C2C," dataset, updated 2026-11-08, observations as of 2026-11-08 (n = 6 carriers). Underlying fares from Wanderu, Cornell Transportation and Delivery Services, OurBus and CheckMyBus, linked in each row.
 
 ## Change log
 

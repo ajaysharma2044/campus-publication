@@ -1,8 +1,8 @@
 {
-  "name": "footnote-daily-site",
+  "name": "eduexplained-site",
   "private": true,
   "type": "module",
-  "description": "Footnote Daily site templates: the Astro build (parallel to scripts/v2/render_site.py).",
+  "description": "EduExplained site templates: the Astro build (parallel to scripts/v2/render_site.py).",
   "scripts": {
     "dev": "astro dev",
     "prebuild": "node scripts/sync-images.mjs",

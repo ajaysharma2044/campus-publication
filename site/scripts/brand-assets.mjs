@@ -18,6 +18,6 @@ for (const [name, size] of [['icon-512.png', 512], ['icon-192.png', 192], ['appl
 }
 await og.screenshot({ type: 'png', path: path.join('public', 'og-default.png') });
 await fs.writeFile(path.join('public', 'favicon.svg'), `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#0E1B33"/><text x="32" y="50" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-weight="600" font-size="52" fill="#D6A738">1</text></svg>\n`);
-await fs.writeFile(path.join('public', 'site.webmanifest'), JSON.stringify({ name: 'Footnote Daily', short_name: 'Footnote', icons: [{ src: '/icon-192.png', sizes: '192x192', type: 'image/png' }, { src: '/icon-512.png', sizes: '512x512', type: 'image/png' }], theme_color: '#0E1B33', background_color: '#FFFFFF', display: 'browser' }, null, 1));
+await fs.writeFile(path.join('public', 'site.webmanifest'), JSON.stringify({ name: 'EduExplained', short_name: 'EduExplained', icons: [{ src: '/icon-192.png', sizes: '192x192', type: 'image/png' }, { src: '/icon-512.png', sizes: '512x512', type: 'image/png' }], theme_color: '#0E1B33', background_color: '#FFFFFF', display: 'browser' }, null, 1));
 await browser.close(); server.close();
 console.log('brand assets written to public/');

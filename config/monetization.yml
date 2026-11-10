@@ -1,12 +1,12 @@
-# Footnote Daily monetization and launch settings (docs/v2/spec.md, "Ads and money").
+# EduExplained monetization and launch settings (docs/v2/spec.md, "Ads and money").
 # scripts/v2/render_site.py reads this file. Every key is present; an empty value means the feature is off and its
 # markup collapses (no empty ad boxes, no scripts). Third-party scripts and ad containers are emitted only on a
 # production build (--production, or site.production: true), so the noindex preview never carries them.
 # Switching AdSense to Mediavine or Raptive later is a change here, not a rebuild of the templates.
 
 site:
-  name: "Footnote Daily"
-  domain: ""              # the real domain without scheme, e.g. footnotedaily.com; sets canonical URLs, robots.txt and the sitemap
+  name: "EduExplained"
+  domain: ""              # the real domain without scheme, e.g. eduexplained.com; sets canonical URLs, robots.txt and the sitemap
   production: false       # true removes noindex, allows crawling and lists the sitemap; the --production flag does the same
 
 analytics:

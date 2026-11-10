@@ -1,4 +1,4 @@
-/* Footnote Daily: the little client-side behavior the templates need. Loaded deferred; every page works without it. */
+/* EduExplained: the little client-side behavior the templates need. Loaded deferred; every page works without it. */
 (function () {
   'use strict';
   // DataTable: click a header to sort rows; numeric cells sort as numbers.

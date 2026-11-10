@@ -1,7 +1,7 @@
 ---
 import { site } from '../../site.config';
 interface Props { title?: string; blurb?: string; wide?: boolean; side?: boolean; id?: string }
-const { title = 'The Footnote Daily newsletter', blurb = 'One email a week: the guides we published, the numbers that changed, and the deadlines coming up. No lists sold, unsubscribe in one click.', wide = false, side = false, id = 'newsletter' } = Astro.props;
+const { title = 'The EduExplained newsletter', blurb = 'One email a week: the guides we published, the numbers that changed, and the deadlines coming up. No lists sold, unsubscribe in one click.', wide = false, side = false, id = 'newsletter' } = Astro.props;
 ---
 <section class:list={['newsletter', { 'newsletter--wide': wide, 'newsletter--side': side }]} id={id} aria-labelledby={`${id}-title`}>
   <div>

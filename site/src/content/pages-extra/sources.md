@@ -1,10 +1,10 @@
 ---
 title: "Sources"
-meta: "How Footnote Daily chooses, cites and re-checks sources: official pages first, attributed student experience second, nothing without a link."
+meta: "How EduExplained chooses, cites and re-checks sources: official pages first, attributed student experience second, nothing without a link."
 updated: 2026-11-08
 ---
 
-Every hard fact on Footnote Daily links to the page it came from. This page explains which sources we use, how we rank them, and what the numbered markers in a guide mean.
+Every hard fact on EduExplained links to the page it came from. This page explains which sources we use, how we rank them, and what the numbered markers in a guide mean.
 
 ## What counts as a source
 

@@ -2,7 +2,7 @@
 title: "Thanks"
 meta: "Thank you for telling us whether the guide answered your question. The editor reads every answer, and what readers still need shapes the next revision."
 updated: 2026-11-08
-eyebrow: "Footnote Daily"
+eyebrow: "EduExplained"
 noindex: true
 hidden: true
 ---

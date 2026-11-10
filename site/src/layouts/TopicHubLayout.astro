@@ -23,7 +23,7 @@ const extra = [
 ].filter((g) => g.rows.length);
 const url = topicUrl(school, topic);
 const title = `${school.short} ${topic.label}: Every Guide`;
-const dek = `${topic.blurb} Every ${school.short} ${topic.label.toLowerCase()} guide on ${'Footnote Daily'}, with the date it was last checked.`;
+const dek = `${topic.blurb} Every ${school.short} ${topic.label.toLowerCase()} guide on ${'EduExplained'}, with the date it was last checked.`;
 const crumbs = [{ label: 'Home', href: '/' }, { label: school.short, href: schoolUrl(school) }, { label: topic.label }];
 const jsonld = [breadcrumbList(crumbs), collectionPage({ title, dek, url, items: [...items.map((p) => ({ title: p.title, url: p.url })), ...extra.flatMap((g) => g.rows.map((r) => ({ title: r.title, url: r.url })))] })];
 ---

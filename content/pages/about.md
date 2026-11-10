@@ -1,10 +1,10 @@
 ---
-title: "About Footnote Daily"
-meta: "Footnote Daily writes research-first guides for students, parents and alumni of Cornell University and Ithaca. Every hard fact links to its official source."
+title: "About EduExplained"
+meta: "EduExplained writes research-first guides for students, parents and alumni of Cornell University and Ithaca. Every hard fact links to its official source."
 updated: 2026-11-07
 ---
 
-Footnote Daily answers the practical questions that come with going to Cornell and living in Ithaca: where to live, how to get to campus from JFK with two suitcases, what a meal plan really costs, which bus to NYC is worth the money, what parents should book for move-in weekend.
+EduExplained answers the practical questions that come with going to Cornell and living in Ithaca: where to live, how to get to campus from JFK with two suitcases, what a meal plan really costs, which bus to NYC is worth the money, what parents should book for move-in weekend.
 
 Each guide starts from a real question people search for. We read the pages that currently answer it, then research the facts from official sources (the university, the city, transit agencies, airlines, bus companies, landlords) and the experience from students who have done it (student newspapers, public forums, listings and reviews). A guide is published only when it would serve a reader better than the best page already out there.
 
@@ -18,7 +18,7 @@ Each guide starts from a real question people search for. We read the pages that
 
 ## Who runs it
 
-Footnote Daily is an independent publication. It is not affiliated with Cornell University, the City of Ithaca or any landlord, carrier or business named in a guide. The university's own offices decide your case; our job is to make their rules and your options clear.
+EduExplained is an independent publication. It is not affiliated with Cornell University, the City of Ithaca or any landlord, carrier or business named in a guide. The university's own offices decide your case; our job is to make their rules and your options clear.
 
 - Publisher: [OWNER: fill in legal entity]
 - Address: [OWNER: fill in mailing address]

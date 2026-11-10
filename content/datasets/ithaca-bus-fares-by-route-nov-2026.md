@@ -97,7 +97,7 @@ The same 16 rows are published as ithaca-bus-fares-by-route-nov-2026.csv.
 
 ## How to cite
 
-Footnote Daily, "Bus fares from Ithaca by route, Nov 2026: 9 routes," dataset, updated 2026-11-08, observations as of 2026-11-08 (n = 88 fare readings across 16 rows). Underlying fares from CheckMyBus, OurBus, Rome2rio, Greyhound and Megabus, linked in each row.
+EduExplained, "Bus fares from Ithaca by route, Nov 2026: 9 routes," dataset, updated 2026-11-08, observations as of 2026-11-08 (n = 88 fare readings across 16 rows). Underlying fares from CheckMyBus, OurBus, Rome2rio, Greyhound and Megabus, linked in each row.
 
 ## Change log
 

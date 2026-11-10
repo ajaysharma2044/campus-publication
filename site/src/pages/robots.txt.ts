@@ -10,7 +10,7 @@ export const GET: APIRoute = () => {
   if (!site.production) return new Response('User-agent: *\nDisallow: /\n', { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
   const file = path.resolve('..', 'config', 'crawlers.yml');
   const crawlers: any = existsSync(file) ? (yaml.load(readFileSync(file, 'utf8')) as any) : {};
-  const lines = ['# Footnote Daily crawler policy; the lists live in config/crawlers.yml'];
+  const lines = ['# EduExplained crawler policy; the lists live in config/crawlers.yml'];
   for (const ua of crawlers?.allow ?? []) lines.push('', `User-agent: ${ua}`, 'Allow: /');
   for (const ua of crawlers?.disallow ?? []) lines.push('', `User-agent: ${ua}`, 'Disallow: /');
   lines.push('', 'User-agent: *', 'Allow: /', 'Disallow: /search/', 'Disallow: /styleguide/', '', `Sitemap: ${site.url}/sitemap.xml`, '');
