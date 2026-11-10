@@ -1,0 +1,161 @@
+{
+  "slug": "ithaca-security-deposit-rules-tenants",
+  "headline": "Ithaca Security Deposit Rules: Cap, Deadline, Banned Fees",
+  "dek": "For renters in Ithaca and their parents: what a landlord can charge, what's banned, and how to get your deposit back on time.",
+  "takeaways": [
+    {
+      "point": "A deposit can't exceed one month's rent, including any rent paid in advance.",
+      "fact_ids": [
+        "housing-2.7-0101"
+      ]
+    },
+    {
+      "point": "Application and cleaning fees are banned; a background check is capped at $20.",
+      "fact_ids": [
+        "housing-2.7-0105",
+        "housing-2.7-0106"
+      ]
+    },
+    {
+      "point": "The landlord has 14 days after move-out to return it with an itemized list, or loses the right to keep any of it.",
+      "fact_ids": [
+        "housing-2.7-0110"
+      ]
+    }
+  ],
+  "opening_fact_ids": [
+    "housing-2.7-0101",
+    "housing-2.7-0110"
+  ],
+  "spine": "time",
+  "spine_reason": "Readers meet these rules in order: at signing, during the lease, at move-out, and if the deposit doesn't come back.",
+  "scan_layer": {
+    "form": "table",
+    "fact_ids": [
+      "housing-2.7-0101",
+      "housing-2.7-0105",
+      "housing-2.7-0106",
+      "housing-2.7-0107",
+      "housing-2.7-0110"
+    ],
+    "note": "Rule | Limit | What it means for you"
+  },
+  "sections": [
+    {
+      "id": "s1",
+      "heading": "How much can a landlord charge when you sign?",
+      "sub_questions": [
+        "q1",
+        "q2"
+      ],
+      "form": "table",
+      "fact_ids": [
+        "housing-2.7-0101",
+        "housing-2.7-0102",
+        "housing-2.7-0105",
+        "housing-2.7-0106",
+        "housing-2.7-0107"
+      ],
+      "scan_labels": [
+        "By the numbers"
+      ]
+    },
+    {
+      "id": "s2",
+      "heading": "Can the deposit go up when you renew?",
+      "sub_questions": [
+        "q4"
+      ],
+      "form": "prose",
+      "fact_ids": [
+        "housing-2.7-0114"
+      ]
+    },
+    {
+      "id": "s3",
+      "heading": "When must the deposit come back?",
+      "sub_questions": [
+        "q3",
+        "q7"
+      ],
+      "form": "timeline",
+      "fact_ids": [
+        "housing-2.7-0110",
+        "housing-2.7-0111",
+        "housing-2.7-0112"
+      ],
+      "scan_labels": [
+        "Watch out"
+      ]
+    },
+    {
+      "id": "s4",
+      "heading": "What can be deducted, and how to dispute it",
+      "sub_questions": [
+        "q5"
+      ],
+      "form": "steps",
+      "fact_ids": [
+        "housing-2.7-0116",
+        "housing-2.24-0402"
+      ]
+    },
+    {
+      "id": "s5",
+      "heading": "If the landlord won't pay: small claims court",
+      "sub_questions": [
+        "q6"
+      ],
+      "form": "steps",
+      "fact_ids": [
+        "housing-2.24-0405",
+        "housing-2.24-0406"
+      ]
+    }
+  ],
+  "reader_blocks": [
+    {
+      "reader": "international",
+      "after_section": "s1",
+      "covers": "paying a deposit before arrival safely",
+      "fact_ids": [
+        "housing-6.11-0530"
+      ]
+    }
+  ],
+  "ad_breaks_after": [
+    "s1",
+    "s3"
+  ],
+  "internal_links": [
+    {
+      "slug": "moving-out-ithaca-apartment-deposit-back",
+      "in_section": "s3",
+      "why": "readers checking the deadline next need the move-out checklist"
+    },
+    {
+      "slug": "how-to-read-ithaca-lease-before-signing",
+      "in_section": "s1",
+      "why": "deposit terms are one clause readers should check before signing"
+    }
+  ],
+  "next_step": "Before move-out, request the inspection in writing; the move-out guide walks through it.",
+  "problems": [],
+  "images": {
+    "lead": {
+      "kind": "photo",
+      "subject": "Collegetown apartment buildings, College Avenue, Ithaca"
+    },
+    "body": [
+      {
+        "after_section": "s3",
+        "kind": "chart",
+        "subject": "Deposit timeline from move-out to the 14-day deadline",
+        "fact_ids": [
+          "housing-2.7-0110"
+        ]
+      }
+    ]
+  },
+  "mode": "answer"
+}

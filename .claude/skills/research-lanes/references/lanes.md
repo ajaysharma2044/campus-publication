@@ -1,0 +1,16 @@
+# Lane playbooks
+
+## A. Official
+Work subtopic by subtopic. For each: the exact figure or rule, who it applies to (first-year, transfer, international, graduate, parent, staff), the period it covers, exceptions, and the official process steps. Sources: the institution's own offices, city and county codes, state statutes and agencies, federal agencies, transit authorities, utilities. Capture phone numbers, emails and addresses exactly as written. Where an official page is ambiguous or contradicts another official page, record both and say which is more authoritative (statute over city summary page over office FAQ) and why.
+
+## B. Market and data
+Everything countable: prices and ranges by category (rent by neighborhood and unit size, fares by route and date, fees by provider), the providers and what each offers, timing (when things open, sell out, renew), and recurring costs around the topic. For every number: the sample size, the date observed and the exact URL. Where no summary exists, build a small dated sample yourself (20 to 40 listings, read one by one), record every sample row, and state the method. Public datasets (federal, state, institutional) beat any aggregator.
+
+## C. Demand
+What people actually ask about this topic and how often. Sources: search suggestions and "People also ask" results, question titles and snippets visible in search results from forums and Q&A sites, the questions official FAQ pages answer, existing demand rows in `queue/queue.csv`. For each question: the wording people use, how many distinct places it appears, the most recent date seen. Group them into themes with a tally. This lane produces questions, never facts: a forum post saying a deposit is "usually returned late" is a signal that people worry about deposits, not evidence about deposits.
+
+## D. Competition
+Take the topic's 30 most-asked questions from lane C (or from search suggestions if lane C hasn't finished). For each: the top 5 results (URL, title, publisher, date), what each covers in two lines, what each gets wrong, leaves out or has outdated, and whether a clear authority exists. End with a ranked list of the biggest openings: questions with real demand and no clear, current, complete answer. The search strategist does page-level analysis later; your job is the topic-level map.
+
+## E. Original analysis
+Create information nobody has published, by combining public sources, with every step shown so a checker can redo it. Strong sources for this lane: archived snapshots of official price pages in the Wayback Machine (price history nobody else tracks, like a dining lunch rising from $15.50 to $16.80), property records and tax assessments (ownership and value of the buildings students rent), public court and code-enforcement records, and our own dated samples. Candidates: medians and ranges from your own dated samples; total cost of a situation built from official prices plus market samples; comparisons across options on the same basis; timelines assembled from scattered official dates; break-even points ("the pass pays off after N rides"). For each result: the inputs (with fact rows), the method in plain steps, the result, and its limits in one sentence. Original analysis is our most citable content, so it is worth doing carefully.

@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "search-brief",
+  "type": "object",
+  "required": [
+    "slug",
+    "query",
+    "intent",
+    "results",
+    "gap",
+    "recommendation",
+    "reason",
+    "title",
+    "meta",
+    "schema_types"
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "minLength": 1
+    },
+    "query": {
+      "type": "string",
+      "minLength": 1
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "intent": {
+      "enum": [
+        "quick-fact",
+        "how-to",
+        "decision",
+        "cost",
+        "checklist",
+        "tool",
+        "explainer"
+      ]
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "url",
+          "type",
+          "covers",
+          "misses"
+        ],
+        "properties": {
+          "url": {
+            "type": "string",
+            "minLength": 1
+          },
+          "publisher": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "official",
+              "news",
+              "forum",
+              "blog",
+              "aggregator",
+              "tool",
+              "other"
+            ]
+          },
+          "date": {
+            "type": "string"
+          },
+          "covers": {
+            "type": "string",
+            "minLength": 1
+          },
+          "misses": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "ai_answer": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "seen": {
+          "type": "boolean"
+        },
+        "says": {
+          "type": "string"
+        },
+        "cites": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 0
+        }
+      }
+    },
+    "gap": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recommendation": {
+      "enum": [
+        "build",
+        "merge",
+        "kill"
+      ]
+    },
+    "merge_into": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 60
+    },
+    "meta": {
+      "type": "string",
+      "minLength": 120,
+      "maxLength": 155
+    },
+    "schema_types": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "internal_links": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    }
+  }
+}

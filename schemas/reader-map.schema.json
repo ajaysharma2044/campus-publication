@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "reader-map",
+  "type": "object",
+  "required": [
+    "topic",
+    "built",
+    "readers"
+  ],
+  "properties": {
+    "topic": {
+      "type": "string",
+      "minLength": 1
+    },
+    "built": {
+      "type": "string",
+      "minLength": 1
+    },
+    "readers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "key",
+          "name",
+          "situation",
+          "size",
+          "questions",
+          "what_changes",
+          "mistakes",
+          "change_level"
+        ],
+        "properties": {
+          "key": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "situation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "size": {
+            "type": "object",
+            "required": [
+              "estimate",
+              "source",
+              "population"
+            ],
+            "properties": {
+              "estimate": {
+                "type": [
+                  "integer",
+                  "string"
+                ]
+              },
+              "source": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "text",
+                "signal"
+              ],
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "signal": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "minItems": 5
+          },
+          "what_changes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "decision",
+                "for_this_reader",
+                "fact_ids"
+              ],
+              "properties": {
+                "decision": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "for_this_reader": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "fact_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 1
+                }
+              }
+            },
+            "minItems": 0
+          },
+          "mistakes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "mistake",
+                "cost",
+                "fact_ids"
+              ],
+              "properties": {
+                "mistake": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "cost": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "fact_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 0
+                }
+              }
+            },
+            "minItems": 0
+          },
+          "change_level": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          }
+        }
+      },
+      "minItems": 1
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# EduExplained (repo: campus-publication)
+
+EduExplained answers practical education questions, pre-K through doctoral, across the United States. Pages are built by a pipeline of narrow agents (`.claude/agents/`), each loading only the skills it needs (`.claude/skills/`). Code orchestrates everything between agents. This file loads into every session, so it holds only what every session needs; everything else lives in skills.
+
+## Rules for every session
+- Never read, print or edit any `.env` file.
+- No em dashes anywhere, in pages, code comments or docs.
+- Facts come only from `intel/<topic>/facts.csv`. Forum posters are never sources.
+- Validate every handoff file before finishing: `python3 scripts/validate_handoff.py schemas/<name>.schema.json <file>`.
+- Stay inside the files your task names. Don't edit other agents' outputs.
+
+## Where things live
+| Path | What |
+|---|---|
+| `intel/<topic>/topic.json` | topic brief from the topic scout |
+| `intel/<topic>/raw/` | researcher notes, one file per lane |
+| `intel/<topic>/facts.csv` | the fact file, single source of truth |
+| `intel/<topic>/readers.json` | reader map |
+| `intel/<topic>/usecases.json` | use-case hierarchy and reader matrix |
+| `intel/<topic>/coverage/<slug>.json` | what each page must answer |
+| `intel/<topic>/search/<slug>.json` | search brief per page |
+| `intel/<topic>/layers/<slug>.json` | layer plan per page |
+| `build/packets/<slug>.json` | the writer's packet, built by code |
+| `content/articles/<topic>/<slug>.md` | published pages |
+| `content/checks/<slug>.json` | checker results |
+| `content/index.json` | every live page (slug, title, query, topic) |
+| `data/inventory/<area>.json` | dataset inventories |

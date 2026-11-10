@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "data-inventory",
+  "type": "object",
+  "required": [
+    "area",
+    "built",
+    "datasets",
+    "unanswered_questions"
+  ],
+  "properties": {
+    "area": {
+      "type": "string",
+      "minLength": 1
+    },
+    "built": {
+      "type": "string",
+      "minLength": 1
+    },
+    "datasets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "publisher",
+          "url",
+          "entity",
+          "approx_rows",
+          "fields",
+          "years",
+          "update_schedule",
+          "license",
+          "access",
+          "page_types"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "publisher": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "minLength": 1
+          },
+          "download_url": {
+            "type": "string"
+          },
+          "entity": {
+            "type": "string",
+            "minLength": 1
+          },
+          "approx_rows": {
+            "type": "integer"
+          },
+          "fields": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "name",
+                "meaning"
+              ],
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "meaning": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "coverage_note": {
+                  "type": "string"
+                }
+              }
+            },
+            "minItems": 1
+          },
+          "years": {
+            "type": "string",
+            "minLength": 1
+          },
+          "update_schedule": {
+            "type": "string",
+            "minLength": 1
+          },
+          "coverage_gaps": {
+            "type": "string"
+          },
+          "license": {
+            "type": "string",
+            "minLength": 1
+          },
+          "access": {
+            "type": "string",
+            "minLength": 1
+          },
+          "page_types": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "pattern",
+                "passes_uniqueness",
+                "reason"
+              ],
+              "properties": {
+                "pattern": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "passes_uniqueness": {
+                  "enum": [
+                    "yes",
+                    "no",
+                    "partial"
+                  ]
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "where_it_fails": {
+                  "type": "string"
+                }
+              }
+            },
+            "minItems": 1
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "unanswered_questions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    }
+  }
+}

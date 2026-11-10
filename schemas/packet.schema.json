@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "packet",
+  "type": "object",
+  "required": [
+    "slug",
+    "topic",
+    "frontmatter",
+    "coverage_map",
+    "search_brief",
+    "facts",
+    "readers",
+    "links",
+    "layer_plan"
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "minLength": 1
+    },
+    "topic": {
+      "type": "string",
+      "minLength": 1
+    },
+    "section": {
+      "type": "string"
+    },
+    "frontmatter": {
+      "type": "object",
+      "required": [
+        "title",
+        "meta",
+        "primary_query",
+        "topic",
+        "type",
+        "updated"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "meta": {
+          "type": "string",
+          "minLength": 1
+        },
+        "primary_query": {
+          "type": "string",
+          "minLength": 1
+        },
+        "topic": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "updated": {
+          "type": "string",
+          "minLength": 1
+        },
+        "queue_id": {
+          "type": "string"
+        },
+        "dek": {
+          "type": "string"
+        }
+      }
+    },
+    "coverage_map": {
+      "type": "object"
+    },
+    "search_brief": {
+      "type": "object"
+    },
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "fact_id",
+          "fact",
+          "value",
+          "source_url"
+        ],
+        "properties": {
+          "fact_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fact": {
+            "type": "string",
+            "minLength": 1
+          },
+          "value": {
+            "type": "string",
+            "minLength": 1
+          },
+          "applies_to": {
+            "type": "string"
+          },
+          "period": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "confidence": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "readers": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "minItems": 0
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "slug",
+          "title",
+          "url"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "minItems": 0
+    },
+    "layer_plan": {
+      "type": "object"
+    }
+  }
+}

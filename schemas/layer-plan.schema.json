@@ -1,0 +1,339 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "layer-plan",
+  "type": "object",
+  "required": [
+    "slug",
+    "headline",
+    "dek",
+    "takeaways",
+    "opening_fact_ids",
+    "spine",
+    "spine_reason",
+    "sections",
+    "ad_breaks_after",
+    "internal_links",
+    "next_step",
+    "images",
+    "mode"
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "minLength": 1
+    },
+    "headline": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 60
+    },
+    "dek": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 200
+    },
+    "takeaways": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "point",
+          "fact_ids"
+        ],
+        "properties": {
+          "point": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fact_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          }
+        }
+      },
+      "minItems": 3
+    },
+    "opening_fact_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "spine": {
+      "enum": [
+        "question",
+        "situation",
+        "time",
+        "option"
+      ]
+    },
+    "spine_reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scan_layer": {
+      "type": "object",
+      "required": [
+        "form",
+        "fact_ids"
+      ],
+      "properties": {
+        "form": {
+          "enum": [
+            "table",
+            "tool",
+            "chart",
+            "stat-band",
+            "timeline",
+            "none"
+          ]
+        },
+        "fact_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "heading",
+          "sub_questions",
+          "form",
+          "fact_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "heading": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sub_questions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "form": {
+            "enum": [
+              "prose",
+              "table",
+              "steps",
+              "timeline",
+              "chart",
+              "tool",
+              "stat-band",
+              "myth-fact",
+              "situations"
+            ]
+          },
+          "fact_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "scan_labels": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "By the numbers",
+                "What changes for you",
+                "Watch out"
+              ]
+            },
+            "minItems": 0
+          },
+          "tool_spec": {
+            "type": "string"
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "reader_blocks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "reader",
+          "after_section",
+          "covers",
+          "fact_ids"
+        ],
+        "properties": {
+          "reader": {
+            "type": "string",
+            "minLength": 1
+          },
+          "after_section": {
+            "type": "string",
+            "minLength": 1
+          },
+          "covers": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fact_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "ad_breaks_after": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "internal_links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "slug",
+          "in_section",
+          "why"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string",
+            "minLength": 1
+          },
+          "in_section": {
+            "type": "string",
+            "minLength": 1
+          },
+          "why": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "next_step": {
+      "type": "string",
+      "minLength": 1
+    },
+    "problems": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "images": {
+      "type": "object",
+      "required": [
+        "lead"
+      ],
+      "properties": {
+        "lead": {
+          "type": "object",
+          "required": [
+            "kind",
+            "subject"
+          ],
+          "properties": {
+            "kind": {
+              "enum": [
+                "photo",
+                "chart",
+                "map",
+                "diagram"
+              ]
+            },
+            "subject": {
+              "type": "string",
+              "minLength": 1
+            },
+            "fact_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "body": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "after_section",
+              "kind",
+              "subject"
+            ],
+            "properties": {
+              "after_section": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "enum": [
+                  "photo",
+                  "chart",
+                  "map",
+                  "diagram"
+                ]
+              },
+              "subject": {
+                "type": "string",
+                "minLength": 1
+              },
+              "fact_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "mode": {
+      "enum": [
+        "feature",
+        "answer"
+      ]
+    },
+    "kicker": {
+      "type": "string",
+      "maxLength": 40
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "usecases",
+  "type": "object",
+  "required": [
+    "topic",
+    "use_cases",
+    "matrix",
+    "trivia_fact_ids",
+    "gaps"
+  ],
+  "properties": {
+    "topic": {
+      "type": "string",
+      "minLength": 1
+    },
+    "use_cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "source",
+          "parent",
+          "fact_ids",
+          "page"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "enum": [
+              "asked",
+              "process",
+              "gap"
+            ]
+          },
+          "parent": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "fact_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "page": {
+            "type": "string"
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "matrix": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "use_case",
+          "reader",
+          "cell",
+          "reason"
+        ],
+        "properties": {
+          "use_case": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reader": {
+            "type": "string",
+            "minLength": 1
+          },
+          "cell": {
+            "enum": [
+              "page",
+              "block",
+              "blank"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "merge_live_pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "slugs",
+          "into",
+          "reason"
+        ],
+        "properties": {
+          "slugs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "into": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "trivia_fact_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "gaps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "question",
+          "why"
+        ],
+        "properties": {
+          "question": {
+            "type": "string",
+            "minLength": 1
+          },
+          "why": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "category",
+          "distinct_facts",
+          "demand_signal",
+          "decision"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "type": "string",
+            "minLength": 1
+          },
+          "distinct_facts": {
+            "type": "integer"
+          },
+          "demand_signal": {
+            "type": "string"
+          },
+          "decision": {
+            "enum": [
+              "own-page",
+              "hub-row",
+              "merge"
+            ]
+          },
+          "compare_with": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "check-result",
+  "type": "object",
+  "required": [
+    "slug",
+    "verdict",
+    "numbers_total",
+    "matched_by_code",
+    "checked"
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verdict": {
+      "enum": [
+        "pass",
+        "fix",
+        "reject"
+      ]
+    },
+    "numbers_total": {
+      "type": "integer"
+    },
+    "matched_by_code": {
+      "type": "integer"
+    },
+    "checked": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "line",
+          "value",
+          "status",
+          "note"
+        ],
+        "properties": {
+          "line": {
+            "type": "integer"
+          },
+          "value": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "ok-arithmetic",
+              "ok-verified",
+              "fixed",
+              "removed",
+              "unverifiable"
+            ]
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_url": {
+            "type": "string"
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "fixes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "new_facts": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "minItems": 0
+    },
+    "fact_file_updates": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "minItems": 0
+    }
+  }
+}
