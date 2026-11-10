@@ -1,0 +1,110 @@
+# Fact-file fixes: getting-around
+
+Converted from brief.md with brief_tables_to_csv.py on 2026-11-10; fixes below keep fact_ids stable.
+
+## Mechanical cleanup, 2026-11-10
+- getting-around-2.1-0002: source cell said 'same two URLs'; inherited the previous row's URL https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4
+- getting-around-2.1-0008: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4
+- getting-around-2.1-0009: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4
+- getting-around-2.1-0010: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4
+- getting-around-2.2-0020: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates
+- getting-around-2.2-0021: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates
+- getting-around-2.2-0023: source cell said 'same'; inherited the previous row's URL https://c2cbus.ipp.cornell.edu/Start.aspx
+- getting-around-2.2-0024: source cell said 'same'; inherited the previous row's URL https://c2cbus.ipp.cornell.edu/Start.aspx
+- getting-around-2.2-0027: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations
+- getting-around-2.2-0028: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations
+- getting-around-2.2-0029: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations
+- getting-around-2.2-0030: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations
+- getting-around-2.2-0031: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations
+- getting-around-2.2-0033: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-additional-information
+- getting-around-2.3-0041: source cell said 'same two URLs'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule
+- getting-around-2.3-0042: source cell said 'same two URLs'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule
+- getting-around-2.3-0044: source cell said 'same two URLs'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule
+- getting-around-2.3-0045: source cell said 'same two URLs'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule
+- getting-around-2.3-0048: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule
+- getting-around-2.4-0056: source cell said 'same'; inherited the previous row's URL https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk
+- getting-around-2.4-0057: source cell said 'same'; inherited the previous row's URL https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk
+- getting-around-2.4-0058: source cell said 'same'; inherited the previous row's URL https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk
+- getting-around-2.4-0059: source cell said 'same'; inherited the previous row's URL https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk
+- getting-around-2.4-0060: source cell said 'same'; inherited the previous row's URL https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk
+- getting-around-2.4-0066: source cell said 'same'; inherited the previous row's URL https://www.cornellsun.com/article/2023/11/inside-ourbus-cornellians-preferred-method-of-travel
+- getting-around-2.4-0067: source cell said 'same'; inherited the previous row's URL https://www.cornellsun.com/article/2023/11/inside-ourbus-cornellians-preferred-method-of-travel
+- getting-around-2.4-0072: source cell said 'same'; inherited the previous row's URL https://www.ourbus.com/blog/?p=6269
+- getting-around-2.4-0073: source cell said 'same'; inherited the previous row's URL https://www.ourbus.com/blog/?p=6269
+- getting-around-2.5-0081: source cell said 'same'; inherited the previous row's URL https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny
+- getting-around-2.5-0082: source cell said 'same'; inherited the previous row's URL https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny
+- getting-around-2.5-0085: source cell said 'same'; inherited the previous row's URL https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny
+- getting-around-2.5-0100: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources
+- getting-around-2.6-0108: source cell said 'same'; inherited the previous row's URL https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/
+- getting-around-2.6-0109: source cell said 'same'; inherited the previous row's URL https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/
+- getting-around-2.6-0111: source cell said 'same'; inherited the previous row's URL https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/
+- getting-around-2.7-0124: source cell said 'same'; inherited the previous row's URL https://flyithaca.com/airlines
+- getting-around-2.7-0126: source cell said 'same'; inherited the previous row's URL https://flyithaca.com
+- getting-around-2.8-0145: source cell said 'same'; inherited the previous row's URL https://www.syrairport.org/parking/
+- getting-around-2.8-0146: source cell said 'same'; inherited the previous row's URL https://www.syrairport.org/parking/
+- getting-around-2.8-0156: source cell said 'same'; inherited the previous row's URL https://www.chemungcountyny.gov/850/Elmira-Corning-Regional-Airport
+- getting-around-2.10-0181: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
+- getting-around-2.10-0182: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
+- getting-around-2.10-0191: Checked cell held an annotation (TCAT, 255-4600 and 255-4232 numbers and both emails re-verif); kept the date, moved the rest to notes. Source: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
+- getting-around-2.11-0202: source cell said 'same'; inherited the previous row's URL https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/
+- getting-around-2.11-0203: Checked cell held an annotation (not re-verified 2026-11-08 (tcatbus.com returns 403; web.arc); kept the date, moved the rest to notes. Source: https://www.tcatbus.com/ride/fare-pass-options/
+- getting-around-2.11-0204: Checked cell held an annotation (not re-verified 2026-11-08 (tcatbus.com returns 403)); kept the date, moved the rest to notes. Source: https://www.tcatbus.com/ride/fare-pass-options/
+- getting-around-2.13-0240: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options
+- getting-around-2.13-0241: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options
+- getting-around-2.13-0242: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options
+- getting-around-2.13-0245: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options
+- getting-around-2.13-0246: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options
+- getting-around-2.14-0252: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
+- getting-around-2.14-0253: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
+- getting-around-2.14-0254: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
+- getting-around-2.14-0255: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
+- getting-around-2.14-0258: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
+- getting-around-2.14-0259: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
+- getting-around-2.14-0260: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
+- getting-around-2.14-0262: Checked cell held an annotation (not re-verified 2026-11-08 (page returns 403 again)); kept the date, moved the rest to notes. Source: https://fcs.cornell.edu/node/17809
+- getting-around-2.15-0269: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1
+- getting-around-2.15-0270: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1
+- getting-around-2.15-0272: source cell said 'same'; inherited the previous row's URL https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/
+- getting-around-2.16-0275: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules
+- getting-around-2.16-0276: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules
+- getting-around-2.16-0277: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules
+- getting-around-2.17-0283: source cell said 'same'; inherited the previous row's URL https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328
+- getting-around-2.17-0284: source cell said 'same'; inherited the previous row's URL https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328
+- getting-around-2.17-0285: source cell said 'same'; inherited the previous row's URL https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328
+- getting-around-2.17-0289: Checked cell held an annotation (not re-verified 2026-11-08 (the permit page lists no phone o); kept the date, moved the rest to notes. Source: https://www.cityofithaca.org/731/Permit-Issuance
+- getting-around-2.18-0296: source cell said 'same'; inherited the previous row's URL https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
+- getting-around-2.18-0297: source cell said 'same'; inherited the previous row's URL https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
+- getting-around-2.18-0298: source cell said 'same'; inherited the previous row's URL https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
+- getting-around-2.18-0299: source cell said 'same'; inherited the previous row's URL https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
+- getting-around-2.18-0300: source cell said 'same'; inherited the previous row's URL https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
+- getting-around-2.18-0301: source cell said 'same'; inherited the previous row's URL https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
+- getting-around-2.18-0308: source cell said 'same'; inherited the previous row's URL https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information
+- getting-around-2.18-0309: source cell said 'same'; inherited the previous row's URL https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information
+- getting-around-2.19-0316: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus
+- getting-around-2.19-0327: source cell said 'same'; inherited the previous row's URL https://www.ithacabikeshare.org
+- getting-around-2.19-0328: source cell said 'same'; inherited the previous row's URL https://www.ithacabikeshare.org
+- getting-around-2.19-0332: Checked cell held an annotation (not re-verified 2026-11-08 (theithacan.org returns 403; the ); kept the date, moved the rest to notes. Source: https://theithacan.org/46872/news/ithaca-bikeshare-adds-parking-hubs-and-raises-costs-of-use
+- getting-around-2.20-0342: source cell said 'same'; inherited the previous row's URL https://www.ithacacarshare.org/rates
+- getting-around-2.20-0347: source cell said 'same'; inherited the previous row's URL https://www.ithacacarshare.org/eligibility
+- getting-around-2.20-0348: source cell said 'same'; inherited the previous row's URL https://www.ithacacarshare.org/eligibility
+- getting-around-2.20-0349: source cell said 'same'; inherited the previous row's URL https://www.ithacacarshare.org/eligibility
+- getting-around-2.20-0350: source cell said 'same'; inherited the previous row's URL https://www.ithacacarshare.org/eligibility
+- getting-around-2.21-0358: Checked cell held an annotation (not re-verified 2026-11-08 (theithacan.org returns 403; arch); kept the date, moved the rest to notes. Source: https://theithacan.org/news/ride-hailing-services-slightly-less-expensive-than-taxis-in-ithaca/
+- getting-around-2.21-0359: source cell said 'same'; inherited the previous row's URL https://theithacan.org/news/ride-hailing-services-slightly-less-expensive-than-taxis-in-ithaca/
+- getting-around-2.22-0367: source cell said 'same'; inherited the previous row's URL https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
+- getting-around-2.22-0368: source cell said 'same'; inherited the previous row's URL https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
+- getting-around-2.22-0379: source cell said 'same'; inherited the previous row's URL https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing
+- getting-around-3.1-0394: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates
+- getting-around-3.1-0395: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates
+- getting-around-3.1-0396: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates
+- getting-around-3.1-0404: source cell said 'same'; inherited the previous row's URL https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/
+- getting-around-3.1-0405: source cell said 'same'; inherited the previous row's URL https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/
+- getting-around-3.1-0406: source cell said 'same'; inherited the previous row's URL https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/
+- getting-around-3.2-0420: source cell said 'same'; inherited the previous row's URL https://www.checkmybus.com/ithaca-ny/newark-nj
+- getting-around-3.3-0442: source cell said 'same'; inherited the previous row's URL https://www.flyithaca.com/parking
+- getting-around-3.3-0443: source cell said 'same'; inherited the previous row's URL https://www.flyithaca.com/parking
+- getting-around-3.3-0444: source cell said 'same'; inherited the previous row's URL https://www.flyithaca.com/parking
+- getting-around-3.3-0445: source cell said 'same'; inherited the previous row's URL https://www.flyithaca.com/parking
+- getting-around-3.4-0459: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
+- getting-around-3.4-0467: source cell said 'same'; inherited the previous row's URL https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328
+- getting-around-3.5-0483: source cell said 'same'; inherited the previous row's URL https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall
