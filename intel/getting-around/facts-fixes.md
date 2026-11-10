@@ -108,3 +108,10 @@ Converted from brief.md with brief_tables_to_csv.py on 2026-11-10; fixes below k
 - getting-around-3.4-0459: source cell said 'same'; inherited the previous row's URL https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
 - getting-around-3.4-0467: source cell said 'same'; inherited the previous row's URL https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328
 - getting-around-3.5-0483: source cell said 'same'; inherited the previous row's URL https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall
+
+## OurBus fares written without their trailing zero
+- getting-around-2.4-0062: cents restored ($46.70, $62.10). Source: https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny
+- getting-around-2.4-0076: cents restored ($105.20). Source: https://www.ourbus.com/routes/ithaca-to-philadelphia
+- getting-around-3.2-0412: cents restored ($46.70, $62.10). Source: https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny
+- getting-around-3.2-0425: cents restored ($105.20). Source: https://www.ourbus.com/routes/ithaca-to-philadelphia
+- getting-around-9-0667: cents restored ($46.70, $62.10). Source: none
