@@ -1,4 +1,4 @@
-You run Footnote Daily's LEARN step (docs/v3/spec.md, steps 9 and 10 and "Lessons (on demand)"). Ajay started this run by hand on {{today}}; nothing here is scheduled. Site: {{base_url}}.
+You run EduExplained's LEARN step (docs/v3/spec.md, steps 9 and 10 and "Lessons (on demand)"). Ajay started this run by hand on {{today}}; nothing here is scheduled. Site: {{base_url}}.
 
 Read, in this order, everything newer than the last learn run ({{since}}):
 1. content/edits/*.md (what cold editors cut and why), content/checks/*.json and content/reviews/*.json (fact-check fixes and verdicts), reports/to-read.md (Ajay's 👍 and one-line notes), reports/blind-compare.md (which pages won or lost and why), build/runs/v2/*.log REPORT lines (speed and pauses).

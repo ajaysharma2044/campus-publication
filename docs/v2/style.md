@@ -1,4 +1,4 @@
-# Footnote Daily style guide (DRAFT stand-in)
+# EduExplained style guide (DRAFT stand-in)
 
 > This file is a stand-in written from the v2 spec's content rules. The spec says to copy the owner's `footnote-style-guide.md` here exactly; that file has not been provided yet (open question in STATE.md). Replace this whole file with it when it arrives.
 

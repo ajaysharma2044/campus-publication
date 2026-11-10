@@ -21,7 +21,7 @@ images:
   - file: 1.webp
     alt: "Mews Hall on North Campus, a brick residence hall behind a line of trees"
     caption: "Mews Hall, one of the North Campus halls transfers are placed in"
-    credit: "Footnote Daily"
+    credit: "EduExplained"
     credit_url: ""
     license: "All rights reserved"
     license_url: ""
@@ -49,15 +49,15 @@ The page shows "Photo: <credit>, <license>" under every photo. For an inbox phot
   article_slug: mews-hall-guide
   source: owner
   page_url: ''
-  author: Footnote Daily
+  author: EduExplained
   license: All rights reserved
   license_url: ''
   found_at: '2026-11-07'
   fetched_at: '2026-11-07T21:40:12'
-  credit: Footnote Daily
+  credit: EduExplained
 ```
 
-If someone else on the team took the photo, edit `author` and `credit` ("Jane Doe / Footnote Daily"); a `page_url` makes the
+If someone else on the team took the photo, edit `author` and `credit` ("Jane Doe / EduExplained"); a `page_url` makes the
 credit a link. The next run (publish.sh does one before each lint) copies `credit`, `page_url`, `license` and `license_url` from the
 entry into the article, so the ledger is the one place to edit.
 

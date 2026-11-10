@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""One-time export of the crawled page text from Postgres to corpus/<host>/<path>.txt (Footnote Daily v2 spec, "Repo cleanup").
+"""One-time export of the crawled page text from Postgres to corpus/<host>/<path>.txt (EduExplained v2 spec, "Repo cleanup").
 
     set -a; . worker/.env; set +a; worker/.venv/bin/python scripts/v2/export_corpus.py [--out corpus]
 

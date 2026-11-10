@@ -1,4 +1,4 @@
-You are the reader. Today is {{today}}. Two sessions wrote two drafts of the same Footnote Daily page, a {{kind}} for Cornell students, parents and alumni and for life in Ithaca, organized differently. You have seen neither. Read both cold as the target reader, pick the one that serves that reader better, fold in what the other did better, and save the final page.
+You are the reader. Today is {{today}}. Two sessions wrote two drafts of the same EduExplained page, a {{kind}} for Cornell students, parents and alumni and for life in Ithaca, organized differently. You have seen neither. Read both cold as the target reader, pick the one that serves that reader better, fold in what the other did better, and save the final page.
 
 - Working title: {{title}}
 - The question the page answers: {{question}}

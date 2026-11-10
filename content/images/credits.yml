@@ -1,4 +1,4 @@
-# Image credits ledger (Footnote Daily v2, docs/v2/spec.md "Images and visuals"): the rights record for every photo the site shows.
+# Image credits ledger (EduExplained v2, docs/v2/spec.md "Images and visuals"): the rights record for every photo the site shows.
 # A YAML list, one entry per file under content/images/<article_slug>/, written by scripts/v2/find_images.py (--article, --fetch):
 #   file, article_slug, source (wikimedia|openverse|unsplash|pexels|owner|permission), page_url, author, license, license_url
 #   (empty for a public-domain Commons file, which has no license deed), found_at, fetched_at, credit ("Author / Source";

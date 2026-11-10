@@ -1,4 +1,4 @@
-# Images for Footnote Daily v2
+# Images for EduExplained v2
 
 Every article gets at least one useful visual, and we never publish an image we do not have the right to use
 (docs/v2/spec.md, "Images and visuals"). This folder holds the photos, their proof of license, and the owner inbox.

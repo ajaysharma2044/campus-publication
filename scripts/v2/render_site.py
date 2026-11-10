@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Render the Footnote Daily static site (docs/v2/spec.md step 4: lint and publish; docs/v3/spec.md contracts 3, 4 and 6).
+"""Render the EduExplained static site (docs/v2/spec.md step 4: lint and publish; docs/v3/spec.md contracts 3, 4 and 6).
 
     worker/.venv/bin/python scripts/v2/render_site.py [--out build/site] [--production] [--all]
         [--articles-dir content/articles] [--pages-dir content/pages] [--images-dir content/images] [--reviews-dir content/reviews]
@@ -191,7 +191,7 @@ def wrap_tables(body_html: str) -> str:
 
 def load_config(path: Path) -> dict:
     """config/monetization.yml with every key present (contract 6); missing or empty file gives the all-off defaults."""
-    cfg = {"site": {"name": "Footnote Daily", "domain": "", "production": False}, "analytics": {"ga4_measurement_id": "", "gsc_verification": ""},
+    cfg = {"site": {"name": "EduExplained", "domain": "", "production": False}, "analytics": {"ga4_measurement_id": "", "gsc_verification": ""},
            "consent": {"provider": "", "script_url": ""},
            "ads": {"provider": "none", "adsense_client": "", "script_url": "", "slots": {"in_content": "", "sidebar": "", "sticky_footer": ""}},
            "grow": {"enabled": False, "site_id": ""}, "affiliates": {"disclosure": "", "programs": []}}
@@ -219,7 +219,7 @@ def load_crawlers(path: Path) -> dict:
 def robots_txt(crawlers: dict, base_url: str) -> str:
     """The production robots.txt: each allowed agent with Allow: /, each disallowed agent with Disallow: /, every other agent allowed,
     then the sitemap URL (needs site.domain). A preview build never calls this; it stays Disallow: / for everyone."""
-    out = ["# Footnote Daily crawler policy; the lists live in config/crawlers.yml"]
+    out = ["# EduExplained crawler policy; the lists live in config/crawlers.yml"]
     for ua in crawlers["allow"]:
         out += ["", f"User-agent: {ua}", "Allow: /"]
     for ua in crawlers["disallow"]:
@@ -830,7 +830,7 @@ def build(args) -> int:
     out.mkdir(parents=True)
     today = date.today()
     domain = str(cfg["site"].get("domain") or "").strip().rstrip("/")
-    site = {"name": str(cfg["site"].get("name") or "Footnote Daily"), "base_url": f"https://{domain}" if domain else ""}
+    site = {"name": str(cfg["site"].get("name") or "EduExplained"), "base_url": f"https://{domain}" if domain else ""}
     crawlers = load_crawlers(Path(args.crawlers))
     if production and not domain:
         warn("production build without site.domain: canonical URLs and the sitemap need it")

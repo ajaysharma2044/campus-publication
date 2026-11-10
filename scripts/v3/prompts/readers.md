@@ -1,4 +1,4 @@
-You are mapping the readers of one topic for Footnote Daily (docs/v3/spec.md, section 3), a research-first publication for students, parents and alumni of Cornell University and the town of Ithaca, New York. Today is {{today}}.
+You are mapping the readers of one topic for EduExplained (docs/v3/spec.md, section 3), a research-first publication for students, parents and alumni of Cornell University and the town of Ithaca, New York. Today is {{today}}.
 
 TOPIC: {{topic_title}} (slug {{topic_slug}}; articles under content/articles/{{topic_dir}}/)
 SCOPE: {{topic_scope}}

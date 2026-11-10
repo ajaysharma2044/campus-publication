@@ -6,11 +6,11 @@ permission: we publish their photo only after a written yes. Send from the site'
 
 ## The email
 
-Subject: `Permission to use your photo of <place> on Footnote Daily`
+Subject: `Permission to use your photo of <place> on EduExplained`
 
 > Hello <name or "team at <business>">,
 >
-> I edit Footnote Daily (<site URL>), a guide for Cornell students, parents and alumni about living in Ithaca. We are
+> I edit EduExplained (<site URL>), a guide for Cornell students, parents and alumni about living in Ithaca. We are
 > publishing an article on <topic, e.g. "apartments on College Avenue"> and would like to show readers what <place>
 > looks like. Your photo at <URL of the photo or page> is the best one we have found.
 >
@@ -18,15 +18,15 @@ Subject: `Permission to use your photo of <place> on Footnote Daily`
 >
 > - credit it under the photo as "Photo: <business or photographer name>", linking the credit to <their URL>;
 > - resize and, if needed, crop it to fit the page (no other edits);
-> - keep it only on Footnote Daily pages about <place>, not sell it or pass it on;
+> - keep it only on EduExplained pages about <place>, not sell it or pass it on;
 > - take it down within a week if you ask us to at any time.
 >
-> Footnote Daily is a free site supported by advertising. A reply saying "yes" to the points above is all we need. If
+> EduExplained is a free site supported by advertising. A reply saying "yes" to the points above is all we need. If
 > you would rather send a different or higher-resolution photo, that is welcome too.
 >
 > Thank you,
 > <name>
-> Editor, Footnote Daily
+> Editor, EduExplained
 > <editor email> | <site URL>
 
 Keep it to this length. Do not offer money, do not promise coverage or a review, do not accept conditions that change what

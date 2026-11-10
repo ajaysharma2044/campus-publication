@@ -1,4 +1,4 @@
-# Footnote Daily v3 topics (docs/v3/spec.md): one brief per topic in intel/<slug>/; articles live under content/articles/<dir>/.
+# EduExplained v3 topics (docs/v3/spec.md): one brief per topic in intel/<slug>/; articles live under content/articles/<dir>/.
 # Order is the owner's: housing first, then the rest.
 - slug: off-campus-housing
   dir: housing

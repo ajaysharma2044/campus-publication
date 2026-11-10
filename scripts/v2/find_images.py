@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Image finder for Footnote Daily v2 (docs/v2/spec.md, "Images and visuals").
+"""Image finder for EduExplained v2 (docs/v2/spec.md, "Images and visuals").
 
 Search (Wikimedia Commons and Openverse need no key); write.sh runs it before each writer session with the row's primary query:
     worker/.venv/bin/python scripts/v2/find_images.py --query "Mews Hall Cornell" [--query "..."] --out content/images/candidates/q-housing-0001.json [--n 8]
@@ -53,7 +53,7 @@ from PIL import Image, ImageOps
 REPO = Path(__file__).resolve().parents[2]
 # Wikimedia's User-Agent policy format: name/version (contact) library/version. Its edge returns 403 for any UA that contains
 # "example.com", so the placeholder uses the reserved .example TLD. Replace the contact with the real editor address before launch.
-USER_AGENT = f"FootnoteDaily-ImageFinder/1.0 (Footnote Daily image finder; editor@footnotedaily.example) httpx/{httpx.__version__}"
+USER_AGENT = f"FootnoteDaily-ImageFinder/1.0 (EduExplained image finder; editor@footnotedaily.example) httpx/{httpx.__version__}"
 TIMEOUT = 10.0
 MIN_WIDTH = 600            # smaller files are icons or thumbnails
 MAX_WIDTH = 1600
@@ -318,9 +318,9 @@ def normalize_credit(text, license_name) -> str:
 def site_name() -> str:
     try:
         cfg = yaml.safe_load((REPO / "config" / "monetization.yml").read_text(encoding="utf-8")) or {}
-        return str((cfg.get("site") or {}).get("name") or "Footnote Daily")
+        return str((cfg.get("site") or {}).get("name") or "EduExplained")
     except Exception:  # noqa: BLE001 - no config yet
-        return "Footnote Daily"
+        return "EduExplained"
 
 
 def entry(slug, name, source, page_url, author, license_name, license_url, found_at, credit_text) -> dict:
