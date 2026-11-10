@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # Deploy the site to Netlify. Since 2026-11-08 (Ajay's decision) the deployed site is the Astro build in site/ (templates spec;
-# DECISIONS.md), published to the footnote-daily Netlify project: https://footnote-daily.netlify.app. The Jinja render in
+# DECISIONS.md), published to the Netlify project renamed eduexplained on 2026-11-10 (id unchanged): https://eduexplained.netlify.app. The Jinja render in
 # build/site is still produced by publish.sh (lint, local preview) but is no longer what readers see.
 #   CAMPUS_DEPLOY_LEGACY=1   deploys build/site to the old campus-ledger-preview project instead (the pre-2026-11-08 behavior).
 #   NETLIFY_SITE_ID          overrides the target project id. The id is not a secret; the Netlify login lives in ~/.config/netlify.
 # Preview vs live: with CAMPUS_ENVIRONMENT=production and CAMPUS_LIVE_DOMAIN set in the environment (worker/.env, exported by the
 # caller) the Astro build drops noindex, writes robots.txt from config/crawlers.yml, fills the sitemap and serves the IndexNow key;
-# otherwise it is a noindex preview with canonical URLs on footnote-daily.netlify.app. Going live is still a separate decision.
+# otherwise it is a noindex preview with canonical URLs on eduexplained.netlify.app. Going live is still a separate decision.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
@@ -24,11 +24,11 @@ if [ "${CAMPUS_DEPLOY_LEGACY:-}" = "1" ]; then
   deploy build/site "build/site $STAMP"
 fi
 
-SITE_ID="${NETLIFY_SITE_ID:-d857c4bd-18f3-47af-9a39-6d101c91cc0b}"   # footnote-daily.netlify.app
+SITE_ID="${NETLIFY_SITE_ID:-d857c4bd-18f3-47af-9a39-6d101c91cc0b}"   # eduexplained.netlify.app (the project was named footnote-daily until 2026-11-10)
 if [ "${CAMPUS_ENVIRONMENT:-}" = "production" ] && [ -n "${CAMPUS_LIVE_DOMAIN:-}" ]; then
   export SITE_PRODUCTION=1 SITE_URL="https://${CAMPUS_LIVE_DOMAIN}"
 else
-  export SITE_URL="${SITE_URL:-https://footnote-daily.netlify.app}"
+  export SITE_URL="${SITE_URL:-https://eduexplained.netlify.app}"
 fi
 cd "$ROOT/site"
 [ -d node_modules ] || npm ci --no-audit --no-fund
