@@ -64,7 +64,8 @@ def main():
     page, facts = args[0], args[1:]
     known = fact_tokens(facts)
     text = open(page, encoding="utf-8").read()
-    body_start = text.find("---", 3) + 3 if text.startswith("---") else 0
+    m = re.search(r"^---[ \t]*$", text[3:], flags=re.M) if text.startswith("---") else None
+    body_start = 3 + m.end() if m else 0  # the frontmatter ends at a line that is only ---, not at a --- inside a URL
     offset = text[:body_start].count("\n")
     unmatched, total = [], 0
     for i, line in enumerate(text[body_start:].split("\n"), start=offset + 1):

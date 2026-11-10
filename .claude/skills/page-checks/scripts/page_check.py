@@ -22,6 +22,9 @@ What it checks, and why (see eduexplained-voice/SKILL.md for the full reasoning)
   takeaways    more than 4 key takeaway bullets, or a bullet over 20 words
   readability  Flesch-Kincaid grade of the prose above 10
   unsourced    a paragraph with numbers but no link and no (Source) tag
+
+Fixes applied 2026-11-10 during the idea run: the frontmatter ends at a line that is only ---, so a URL holding --- no
+longer ends it early, and a one-line fence (```tool slug```) no longer flips the fence state (it hid everything after it).
 """
 import json
 import re
@@ -54,11 +57,20 @@ FACT_RE = re.compile(
 
 
 def split_frontmatter(text):
+    """The frontmatter ends at the first line that is only ---, so a URL holding --- cannot end it early."""
     if text.startswith("---"):
-        parts = text.split("---", 2)
-        if len(parts) == 3:
-            return parts[1], parts[2], text[: len(parts[0]) + len(parts[1]) + 6].count("\n")
+        m = re.search(r"^---[ \t]*$", text[3:], flags=re.M)
+        if m:
+            return text[3:3 + m.start()], text[3 + m.end():], text[: 3 + m.end()].count("\n")
     return "", text, 0
+
+
+def fence_line(s):
+    """0: not a fence line; 1: opens or closes a fenced block; 2: a one-line fence (```tool slug```) that does not."""
+    s = s.strip()
+    if not s.startswith("```"):
+        return 0
+    return 2 if len(s) > 6 and s.endswith("```") else 1
 
 
 def strip_links(s):
@@ -69,8 +81,10 @@ def prose_lines(body, offset):
     """Yield (line_no, text) for prose only: no fences, tables, headings or images."""
     in_fence = False
     for i, line in enumerate(body.split("\n"), start=offset + 1):
-        if line.strip().startswith("```"):
-            in_fence = not in_fence
+        f = fence_line(line)
+        if f:
+            if f == 1:
+                in_fence = not in_fence
             continue
         if in_fence or line.lstrip().startswith(("|", "#", "![", "<")):
             continue
@@ -82,8 +96,10 @@ def all_text_lines(body, offset):
     fence_kind = None
     for i, line in enumerate(body.split("\n"), start=offset + 1):
         s = line.strip()
-        if s.startswith("```"):
-            fence_kind = None if fence_kind else (s[3:].split() or ["code"])[0]
+        f = fence_line(s)
+        if f:
+            if f == 1:
+                fence_kind = None if fence_kind else (s[3:].split() or ["code"])[0]
             continue
         if fence_kind and fence_kind not in ("reader", "glance"):
             continue

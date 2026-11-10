@@ -171,6 +171,303 @@ sources:
   - url: https://www.fingerlakes1.com/2025/03/12/ithaca-proposes-zoning-changes-to-collegetown-area-allowing-taller-buildings
     title: 'Ithaca proposes zoning changes to Collegetown area, allowing taller buildings, FingerLakes1, 2025'
     accessed: '2026-11-10'
+  - url: https://offcampushousing.ithaca.edu/listing
+    title: 'Listings, Ithaca College off-campus housing portal'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/133-blair-street
+    title: '133 Blair St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/230-bryant-apt-3
+    title: '230 Bryant Ave., Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/47/13/1
+    title: '301 Bryant Ave., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/52/14/1
+    title: '302 Bryant Ave., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/56/15/5
+    title: '304 Bryant Ave., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/two-beds
+    title: 'Two-bedroom apartments, Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/70/17/5
+    title: '308 Bryant Ave., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/72/18/1
+    title: '310 Bryant Ave., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/apartments/114-catherine-street
+    title: '114 Catherine St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/apartments/116-catherine-street
+    title: '116 Catherine St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/apartments/118-catherine-street
+    title: '118 Catherine St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/121-catherine-street
+    title: '121 Catherine St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/113-college-ave-13-bed
+    title: '113 College Ave., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: "https://www.ithacarents.com/105-127-college-avenue,-apt-1---furnished-2-bedroom-with-private-patio"
+    title: '127 College Ave., Ithaca Rents'
+    accessed: '2026-11-10'
+  - url: https://www.ppmhomes.com/listings/detail/1d1a420c-f1df-47c9-9a54-f1122400840f
+    title: '129 College Ave., PPM Homes'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/12/4/5
+    title: '130 College Ave., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/140-college-ave-24-bed
+    title: '140 College Ave., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/16/6/1
+    title: '205 College Ave., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/209-college-ave-7754
+    title: 'Grand View House listing, Cornell off-campus housing portal'
+    accessed: '2026-11-10'
+  - url: https://www.ppmhomes.com/listings/detail/aa3a9ee1-5a09-4e00-bcf0-b7d7342297f0
+    title: '400 College Ave., PPM Homes'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/apartments/107-cook-st
+    title: '107 Cook St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/9/23/1
+    title: '108 Cook St., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/113-cook-street
+    title: '113 Cook St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/10/24/1
+    title: '114 Cook St., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/13/5/1
+    title: '135 Cook St., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/21/7/5
+    title: '216 Delaware Ave., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.ppmhomes.com/listings/detail/20af9fdf-4944-4ebc-a788-00dcbef8a1a5
+    title: '101 Dryden Road, PPM Homes'
+    accessed: '2026-11-10'
+  - url: https://www.travishyde.com/college-town/eddygate%20apartments
+    title: 'Eddygate Apartments, Travis Hyde Properties'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/23/8/1
+    title: '216 Dryden Road, Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/28/9/1
+    title: '222 Dryden Road, Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/36/10/1
+    title: '224 Dryden Road, Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/apartments/238-dryden
+    title: '238 Dryden Road, Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/apartments/303-309-dryden-road
+    title: '303-309 Dryden Road, Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/75/19/1
+    title: '315 Dryden Road, Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/81/20/1
+    title: '317 Dryden Road, Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/87/22/1
+    title: '319 Dryden Road, Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/apartments/320-dryden-road
+    title: '320 Dryden Road, Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: "https://www.ithacarents.com/3490-508-east-buffalo-st.---floor-2"
+    title: '508 E. Buffalo St., Ithaca Rents'
+    accessed: '2026-11-10'
+  - url: https://www.ppmhomes.com/listings/detail/530e3d93-ff7d-40b1-8893-3bb3dd04db40
+    title: '510 E. Seneca St., PPM Homes'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/707-e-seneca-st
+    title: '707 E. Seneca St., Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://www.ppmhomes.com/listings/detail/b41421f4-31cf-4464-a015-0c2953aa5f3a
+    title: '708 E. Seneca St., PPM Homes'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/801-east-seneca-street
+    title: '801 E. Seneca St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/802-e-seneca-street-7744
+    title: '802 E. Seneca St. listing, Cornell off-campus housing portal'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/601-e-state-bldg-2-c
+    title: '601 E. State St., Buildings 1 and 2, Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/4--bedroomsbbc1888b
+    title: 'Five-bedroom and larger apartments, Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/3--bedroom
+    title: 'Three-bedroom apartments, Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/702a-e-state
+    title: '702-704 E. State St., Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/103-eddy-street
+    title: '103 Eddy St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/121-eddy-street-1-3br
+    title: '121 Eddy St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/apartments/125-12-e-catherine-street
+    title: '125 1/2 Eddy St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/125-eddy-street
+    title: '125 Eddy St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/202-eddy-street
+    title: '202 Eddy St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/apartments/301-eddy-street
+    title: '301 Eddy St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/apartments/303-eddy-street
+    title: '303 Eddy St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/apartments/305-eddy-street
+    title: '305 Eddy St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/apartments/307-eddy-street
+    title: '307 Eddy St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/apartments/309-eddy-street
+    title: '309 Eddy St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/apartments/407-eddy-street
+    title: '407 Eddy St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/apartments/414-eddy-street
+    title: '414 Eddy St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/83/21/1
+    title: '318 Elmwood Ave., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/91/26/1
+    title: '407 Elmwood Ave., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.ppmhomes.com/listings/detail/fc49e2b2-ad39-499e-a5cb-5725b9fd3c25
+    title: '308 Fairmount Ave., PPM Homes'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/101-ferris-place
+    title: '101 Ferris Place, Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://www.ithacarents.com/3324-gorgeous-6-bedroom-house-near-cornell-august-2027
+    title: '112 Ferris Place, Ithaca Rents'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/104-harvard-3
+    title: '104 Harvard Place, Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/105-higland-pl-apt-1
+    title: '105 Highland Place, Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/106-highland-place
+    title: '106 Highland Place, Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.ppmhomes.com/listings/detail/953901ea-2132-408d-9bb8-57d970e8d17e
+    title: '211 Linden Ave., PPM Homes'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/120/36/1
+    title: '219 Linden Ave., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/37/11/1
+    title: '226 Linden Ave., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/226-linden-avenue-8104
+    title: '226 Linden Ave. listing, Cornell off-campus housing portal'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/40/12/1
+    title: '234 Linden Ave., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/coal-yard-apartments-7734
+    title: 'Coal Yard Apartments listing, Cornell off-campus housing portal'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/131-north-quarry-street
+    title: '131 N. Quarry St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/133-north-quarry-street
+    title: '133 N. Quarry St., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/122/37/5
+    title: '113 Oak Ave., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.urbanithaca.com/detailed-view-more/125/38/1
+    title: '117 Oak Ave., Urban Ithaca'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/properties-page
+    title: 'The Summit, Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://www.lambrourealestate.com/305-oak-ave-11-12-bed-1
+    title: '305 Oak Ave., Lambrou Real Estate'
+    accessed: '2026-11-10'
+  - url: https://www.ithacarents.com/4254-1-br-less-than-10-minute-walk-to-cornell-law-school
+    title: '110 Osmun Place, Ithaca Rents'
+    accessed: '2026-11-10'
+  - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/17112
+    title: '116 Osmun Place, CSP Management'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/110-3-stewart-ave
+    title: '110 Stewart Ave., Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/112-1-stewart-ave
+    title: '112 Stewart Ave., Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: "https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown"
+    title: '114 Stewart Ave., Ithaca Rents'
+    accessed: '2026-11-10'
+  - url: https://www.ithacarents.com/4304-sunny-1br-apartment-close-to-cornell.-furnished.-january-1st-move-in.-flexible-lease.
+    title: '115 Stewart Ave., Ithaca Rents'
+    accessed: '2026-11-10'
+  - url: https://www.ppmhomes.com/listings/detail/8a8cd89b-f24f-4e86-b7f1-e7805c550e11
+    title: '119 Stewart Ave., PPM Homes'
+    accessed: '2026-11-10'
+  - url: "https://www.ithacarents.com/4525-210-stewart-avenue-2br-unit----2026/27"
+    title: '210 Stewart Ave., Ithaca Rents'
+    accessed: '2026-11-10'
+  - url: "https://www.ithacarents.com/4419-214-stewart-avenue---unit1-a"
+    title: '214 Stewart Ave., Ithaca Rents'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/4--bedrooms
+    title: 'Four-bedroom apartments, Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/48233
+    title: '400-404 Stewart Ave., CSP Management'
+    accessed: '2026-11-10'
+  - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/51224
+    title: '406 Stewart Ave., CSP Management'
+    accessed: '2026-11-10'
+  - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/27030
+    title: '408 Stewart Ave., CSP Management'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/504-stewart-a
+    title: '504 Stewart Ave., Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://www.ithacarents.com/4558-large-unit-in-historical-house
+    title: '526 Stewart Ave., Ithaca Rents'
+    accessed: '2026-11-10'
+  - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/614-stewart-ave-7751
+    title: '614 Stewart Ave. listing, Cornell off-campus housing portal'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/710-stewart-ave-unit-7
+    title: '710 Stewart Ave., Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/404-university-avenue-apartment-1-4
+    title: '404 University Ave., Modern Living Rentals'
+    accessed: '2026-11-10'
+  - url: https://www.modernlivingrentals.com/109-williams-st
+    title: '109 Williams St., Modern Living Rentals'
+    accessed: '2026-11-10'
 images:
   - slot: lead
     alt: "Mid-rise apartment buildings and storefronts along College Avenue in Collegetown, Ithaca."
@@ -308,6 +605,195 @@ Sources: Cornell pages for [Cascadilla Hall](https://scl.cornell.edu/residential
 Ithaca Renting's three Dryden Road towers are decades older than the new ones, built from 1985 to 1997 ([Ithaca Renting](https://ithacarenting.com/unit-details/?uid=223)). Collegetown Court calls itself one block from Cornell and draws a mix of graduate and undergraduate tenants. Collegetown Plaza calls itself "relatively social," mostly undergraduates. Collegetown Center pitches itself to graduate students and "the more mature student."
 
 The new towers sell luxury. The Ivy offers a rooftop terrace, a sauna, a wellness center, study rooms and a 24-hour coffee bar. Its developer Charlie O'Connor owns Modern Living Rentals. His partner Nick Robertson worked on the College Townhouses, Collegetown Terrace and Cornell's North Campus expansion (The Cornell Daily Sun, 2025).
+
+## Which other Collegetown buildings are there, and what do they charge?
+
+The table below covers 180 more Collegetown buildings, each with a landlord or listing page in November 2026. Rent is as each page printed it, with the lease year where one was given; some are listing ranges with no year, and per-bed and per-unit prices are kept apart. The name in parentheses after a landlord is the owner of record where it differs (Tompkins County assessment records).
+
+| Building | Address | Owner or manager | Unit types | Rent as printed | Lease term | Source |
+|---|---|---|---|---|---|---|
+| 111 Blair St. | 111 Blair St. | Not named | 2BR (2 units) | 2BR $1,850 per unit, utilities included | 11 months | [Ithaca College portal, listing 241613](https://offcampushousing.ithaca.edu/listing) |
+| 116 Blair St. | 116 Blair St. | Not named | 3BR, 2BR | Not printed | Not stated | [Ithaca College portal, listing 236794](https://offcampushousing.ithaca.edu/listing) |
+| 118 Blair St. | 118 Blair St. | Not named | Two 3BR | Not printed | Not stated | [Ithaca College portal, listing 236795](https://offcampushousing.ithaca.edu/listing) |
+| 119 Blair St. | 119 Blair St. | Not named | 4BR, three studios | Not printed | Not stated | [Ithaca College portal, listing 236796](https://offcampushousing.ithaca.edu/listing) |
+| 120 Blair St. | 120 Blair St. | Not named | 3BR, 2BR | Not printed | Not stated | [Ithaca College portal, listing 236798](https://offcampushousing.ithaca.edu/listing) |
+| 123 Blair St. | 123 Blair St. | Goldenrod Real Estate LLC | Two 3BR | 3BR $1,360 per unit, utilities, trash and internet included | Not stated | [Ithaca College portal, listing 237235](https://offcampushousing.ithaca.edu/listing) |
+| 127 Blair St. | 127 Blair St. | Not named | 7BR | Not printed | Not stated | [Ithaca College portal, listing 236807](https://offcampushousing.ithaca.edu/listing) |
+| 129 Blair St. | 129 Blair St. | Not named | 2BR, 4BR, 7BR | Not printed | Not stated | [Ithaca College portal, listing 236797](https://offcampushousing.ithaca.edu/listing) |
+| 130 Blair St. | 130 Blair St. | Not named | 4BR | Not printed | Not stated | [Ithaca College portal, listing 236809](https://offcampushousing.ithaca.edu/listing) |
+| 131 Blair St. | 131 Blair St. | Not named | 8BR | Not printed | Not stated | [Ithaca College portal, listing 236810](https://offcampushousing.ithaca.edu/listing) |
+| 132 Blair St. | 132 Blair St. | Not named | 7BR | Not printed | Not stated | [Ithaca College portal, listing 236811](https://offcampushousing.ithaca.edu/listing) |
+| 133 Blair St. | 133 Blair St. | Lambrou Real Estate (Nicholas C. Lambrou) | 8BR house plus a 1BR apartment | Not printed | Listed for 2027-28 | [Lambrou Real Estate](https://www.lambrourealestate.com/133-blair-street) |
+| 230 Bryant Ave. | 230 Bryant Ave. | Modern Living Rentals (230 Bryant Ave, LLC) | studio, 1BR, 2BR, 4BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/230-bryant-apt-3) |
+| 301 Bryant Ave. | 301 Bryant Ave. | Urban Ithaca (301 Bryant Avenue, LLC) | Two 5BR, 8BR, 9BR, 10BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/47/13/1) |
+| 302 Bryant Ave. | 302 Bryant Ave. | Urban Ithaca (Bryant View, LLC) | Two 4BR, 3BR, 2BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/52/14/1) |
+| 304 Bryant Ave. | 304 Bryant Ave. | Urban Ithaca (Bryant View, LLC) | 8BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/56/15/5) |
+| 306 Bryant Ave. | 306 Bryant Ave. | Modern Living Rentals (306 Bryant Ave, LLC) | 2BR, 8BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/two-beds) |
+| 308 Bryant Ave. | 308 Bryant Ave. | Urban Ithaca (Bryant View, LLC) | 7BR, 2BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/70/17/5) |
+| 310 Bryant Ave. | 310 Bryant Ave. | Urban Ithaca | Two 5BR, 1BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/72/18/1) |
+| 106 Catherine St. | 106 Catherine St. | Goldenrod Real Estate LLC | 6BR | 6BR $1,350 per unit, utilities, trash and internet included | Not stated | [Ithaca College portal, listing 237236](https://offcampushousing.ithaca.edu/listing) |
+| 114 Catherine St. | 114 Catherine St. | Lambrou Real Estate (Nicholaos Lambrou) | 2BR, 3BR | Not printed | Not stated | [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/114-catherine-street) |
+| 116 Catherine St. | 116 Catherine St. | Lambrou Real Estate | Three residences, 5BR and 6BR | Not printed | Not stated | [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/116-catherine-street) |
+| 118 Catherine St. | 118 Catherine St. | Lambrou Real Estate (ENP Associates, L.P.) | Three apartments, 5BR and 6BR, for 17 | Not printed | Not stated | [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/118-catherine-street) |
+| 121 Catherine St. | 121 Catherine St. | Lambrou Real Estate (Nicholas C. Lambrou) | 6BR house plus a 2BR | Not printed | Listed for 2027-28 | [Lambrou Real Estate](https://www.lambrourealestate.com/121-catherine-street) |
+| 113 College Ave. | 113 College Ave. | Lambrou Real Estate (113 Avenue ITH LLC and DemosJohnny, LLC) | 8BR front unit, 5BR rear unit | Not printed | Listed for 2027-28 | [Lambrou Real Estate](https://www.lambrourealestate.com/113-college-ave-13-bed) |
+| 115-117 College Ave. | 115-117 College Ave. | Not named | 5BR, two 4BR, 2BR | Not printed | Not stated | [Ithaca College portal, listing 236800](https://offcampushousing.ithaca.edu/listing) |
+| 126 College Ave. | 126 College Ave. | Not named | 12 units; beds in shared apartments, 6BR | $900 a bed in apartments 201 and 401; 6BR $1,300, labeled per unit | Not stated | [Ithaca College portal, listing 239596](https://offcampushousing.ithaca.edu/listing) |
+| West Shore Apartments | 127 College Ave. | West Shore Apartments LLC | 2BR (2 units) | 2BR $2,500 per unit, heat, internet and trash included; Apt. 1 listed at $1,250 a month for a lease from June 5, 2026 | Not stated | [Ithaca College portal, listing 239526](https://offcampushousing.ithaca.edu/listing); [Ithaca Rents](https://www.ithacarents.com/105-127-college-avenue,-apt-1---furnished-2-bedroom-with-private-patio) |
+| 129 College Ave. | 129 College Ave. | PPM Homes | 8BR house | 8BR house $750, basis not stated | Available June 15, 2027 | [PPM Homes](https://www.ppmhomes.com/listings/detail/1d1a420c-f1df-47c9-9a54-f1122400840f) |
+| 130 College Ave. | 130 College Ave. | Urban Ithaca (ENAJ Properties, LLC) | 7BR house | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/12/4/5) |
+| 132 College Ave. | 132 College Ave. | Not named | 7BR | Not printed | Not stated | [Ithaca College portal, listing 236815](https://offcampushousing.ithaca.edu/listing) |
+| 140 College Ave. | 140 College Ave. | Lambrou Real Estate (Nicholas C. and Sharon A. Lambrou) | 24BR house in two 12BR units | Not printed | 10 months, August to June; listed for 2027-28 | [Lambrou Real Estate](https://www.lambrourealestate.com/140-college-ave-24-bed) |
+| 205 College Ave. | 205 College Ave. | Urban Ithaca (Josh Lower) | 4BR, studio, three 2BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/16/6/1) |
+| Grand View House | 209 College Ave. | Beer Properties | studio to 4BR | $1,200 to $1,900 (listing range; unit prices labeled per unit, basis unclear); heat, water and trash included | Not stated | [Cornell portal](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/209-college-ave-7754) |
+| 400 College Ave. | 400 College Ave. | PPM Homes | 1BR, 2BR (15 units) | 1BR (No. 204) $2,000 a month; 2BR (No. 203) $1,175 a month, basis not stated; heat and water included | No. 203: short term OK | [PPM Homes](https://www.ppmhomes.com/listings/detail/aa3a9ee1-5a09-4e00-bcf0-b7d7342297f0) |
+| 401-403 College Ave. | 401-403 College Ave. | Not named | 4BR, 8BR | 4BR $6,400 per unit; 8BR $1,500, labeled per unit, basis unclear; both listed for August 2028 | Not stated | [Ithaca College portal, listing 240147](https://offcampushousing.ithaca.edu/listing) |
+| 106 Cook St. | 106 Cook St. | Not named | 4BR, 2 baths | 4BR $995 per bed; water, laundry and parking included | Not stated | [Ithaca College portal, listing 240090](https://offcampushousing.ithaca.edu/listing) |
+| 107 Cook St. | 107 Cook St. | Lambrou Real Estate (Nicholas C. and Sharon A. Lambrou) | Four 3BR townhouses | Not printed | Not stated | [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/107-cook-st) |
+| 108 Cook St. | 108 Cook St. | Urban Ithaca (William H. Lower) | 2BR, 3BR, two 4BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/9/23/1) |
+| 109 Cook St. | 109 Cook St. | Goldenrod Real Estate LLC | Two 1BR | 1BR $1,650 per unit, heat included | Not stated | [Ithaca College portal, listing 237212](https://offcampushousing.ithaca.edu/listing) |
+| 112 Cook St. | 112 Cook St. | Not named | 8BR | Not printed | Not stated | [Ithaca College portal, listing 236813](https://offcampushousing.ithaca.edu/listing) |
+| 113 Cook St. | 113 Cook St. | Lambrou Real Estate (ENP Associates, L.P.) | 8BR house | Not printed | Listed for 2027-28 | [Lambrou Real Estate](https://www.lambrourealestate.com/113-cook-street) |
+| 114 Cook St. | 114 Cook St. | Urban Ithaca (Glen Cook Properties, LLC) | 8BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/10/24/1) |
+| 115 Cook St. | 115 Cook St. | Not named | 7BR | Not printed | Not stated | [Ithaca College portal, listing 236814](https://offcampushousing.ithaca.edu/listing) |
+| 135 Cook St. | 135 Cook St. | Urban Ithaca | Three 5BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/13/5/1) |
+| 116 Delaware Ave. | 116 Delaware Ave. | Not named | 1BR, 2BR, 5BR | 1BR $1,450 and 2BR $1,995 per unit; 5BR $850 to $860, labeled per unit, basis unclear; internet, water and parking included | Not stated | [Ithaca College portal, listing 237074](https://offcampushousing.ithaca.edu/listing) |
+| 210-218 Delaware Ave. | 210-218 Delaware Ave. | Not named | 1BR to 5BR in two buildings | 1BR $1,400; 2BR $2,800; 3BR $3,750 to $3,900; 4BR $3,750 to $5,000; 5BR $6,250, per unit | Available Aug. 1, 2027 | [Ithaca College portal, listing 240146](https://offcampushousing.ithaca.edu/listing) |
+| 216 Delaware Ave. | 216 Delaware Ave. | Urban Ithaca (4 L Properties of Ithaca LLC) | 11BR to 16BR house, 4BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/21/7/5) |
+| 105 Dewitt Place | 105 Dewitt Place | PJ Apartments | studio, 1BR, 2BR | Studios $1,195 and $1,295; 1BR $1,195 to $1,695; 2BR $2,300, per unit | Available June 1, 2027 | [Ithaca College portal, listing 28393](https://offcampushousing.ithaca.edu/listing) |
+| 109 Dewitt Place | 109 Dewitt Place | PJ Apartments | 1BR to 7BR | 1BR $1,795; 2BR and 4BR $1,195; 5BR $995; 6BR $795; 7BR $695, per bed; utilities included | Available June 1, 2027 | [Ithaca College portal, listing 28394](https://offcampushousing.ithaca.edu/listing) |
+| 111 Dewitt Place | 111-113 Dewitt Place | PJ Apartments | 5BR to 8BR | 5BR $1,195; 6BR $995; 7BR $895; 8BR $795, per bed | 12 months | [Ithaca College portal, listing 28395](https://offcampushousing.ithaca.edu/listing) |
+| 113 Dewitt Place | 113 Dewitt Place | PJ Apartments | 5BR | 5BR $1,195, labeled per unit | Available June 1, 2028 | [Ithaca College portal, listing 28397](https://offcampushousing.ithaca.edu/listing) |
+| 115 Dewitt Place | 115 Dewitt Place | PJ Apartments | 6BR house | 6BR house $8,970 per unit | Available June 1, 2028 | [Ithaca College portal, listing 28398](https://offcampushousing.ithaca.edu/listing) |
+| 117 Dewitt Place | 117 Dewitt Place | PJ Apartments | studio, 2BR, 4BR | studio $1,295; 2BR $2,190 and $2,390; 4BR $4,380, per unit; utilities included | Available June 1, 2028 | [Ithaca College portal, listing 28396](https://offcampushousing.ithaca.edu/listing) |
+| 101 Dryden Road | 101 Dryden Road | PPM Homes | 1BR, 3BR | 1BR (No. 2) $1,600 a month; 3BR (No. 3) $1,000 per person | Available Aug. 5 and Aug. 10, 2027 | [PPM Homes](https://www.ppmhomes.com/listings/detail/20af9fdf-4944-4ebc-a788-00dcbef8a1a5) |
+| Eddygate Apartments | 110 Dryden Road | Travis Hyde Properties (TTEPA Associates, LLC) | 1BR, 2BR, 3BR | 1BR $2,055 to $2,395; 2BR $2,850 to $3,150; 3BR $3,940 to $4,275, a month per unit; water, sewer and recycling included | Most units available June 16, 2027 | [Travis Hyde](https://www.travishyde.com/college-town/eddygate%20apartments) |
+| 216 Dryden Road | 216 Dryden Road | Urban Ithaca (222 Dryden Road, LLC) | 1BR, two 2BR, 3BR, 4BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/23/8/1) |
+| 222 Dryden Road | 222 Dryden Road | Urban Ithaca (222 Dryden Road, LLC) | 1BR, three 2BR, three 4BR, 6BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/28/9/1) |
+| 224 Dryden Road | 224 Dryden Road | Urban Ithaca (222 Dryden Road, LLC) | 3BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/36/10/1) |
+| 238 Dryden Road (formerly The Bronze) | 238 Dryden Road | Lambrou Real Estate (232 Dryden Road LLC and ENP Associates LP) | 1BR, 2BR | Not printed | Not stated | [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/238-dryden) |
+| 301 Dryden Road | 301 Dryden Road | Not named | Single rooms, 3BR garden apartment | Rooms $800 to $995; garden 3BR $2,750 to $2,850, per unit; utilities, cable and internet included | Not stated | [Ithaca College portal, listing 43979](https://offcampushousing.ithaca.edu/listing) |
+| 303-309 Dryden Road | 303-309 Dryden Road | Lambrou Real Estate (Nicholaos C. and Sharon A. Lambrou) | Five 3BR residences | Not printed | Not stated | [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/303-309-dryden-road) |
+| 315 Dryden Road | 315 Dryden Road | Urban Ithaca (301 Bryant Avenue, LLC) | Four 2BR, 1BR, 3BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/75/19/1) |
+| 317 Dryden Road | 317 Dryden Road | Urban Ithaca (301 Bryant Avenue, LLC) | 5BR, 3BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/81/20/1) |
+| 319 Dryden Road | 319 Dryden Road | Urban Ithaca (301 Bryant Avenue, LLC) | Two 3BR, 4BR, 1BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/87/22/1) |
+| 320 Dryden Road | 320 Dryden Road | Lambrou Real Estate (ENP Associates, L.P.) | 2BR to 5BR, eight units on the tour list | Not printed | Not stated | [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/320-dryden-road) |
+| 410 Dryden Road | 410 Dryden Road | Not named | 9BR | 9BR $1,000, labeled per unit | Available June 1, 2027 | [Ithaca College portal, listing 70670](https://offcampushousing.ithaca.edu/listing) |
+| 508 E. Buffalo St., Floor 2 | 508 E. Buffalo St. | Not named | 3BR | 3BR $2,400 a month for a lease from Aug. 22, 2025 (past date, as printed); utilities included | Not stated | [Ithaca Rents](https://www.ithacarents.com/3490-508-east-buffalo-st.---floor-2) |
+| 514 E. Buffalo St. | 514 E. Buffalo St. | PJ Apartments | studio, two 4BR, or the whole 9BR house | studio $1,595; 4BR $4,600; 9BR house $10,755, per unit | Available June 1, 2027 | [Ithaca College portal, listing 28399](https://offcampushousing.ithaca.edu/listing) |
+| 516 E. Buffalo St. | 516 E. Buffalo St. | PJ Apartments | 6BR house | 6BR house $6,300 per unit | Available June 1, 2028 | [Ithaca College portal, listing 28400](https://offcampushousing.ithaca.edu/listing) |
+| 519 E. Buffalo St. | 519 E. Buffalo St. | Not named | studio, 1BR | studio $935; 1BR $1,275, per unit; utilities included | Available Aug. 1, 2027 | [Ithaca College portal, listing 241689](https://offcampushousing.ithaca.edu/listing) |
+| 523 E. Buffalo St. | 523 E. Buffalo St. | Not named | studio, 1BR (5 units) | studio $1,050; 1BR $1,450 to $1,595, per unit; heat and hot water included | Available June 1, 2027 | [Ithaca College portal, listing 118395](https://offcampushousing.ithaca.edu/listing) |
+| 527 E. Buffalo St. | 527 E. Buffalo St. | Not named | 1BR | 1BR $1,375 per unit, heat included | Available Aug. 1, 2027 | [Ithaca College portal, listing 241690](https://offcampushousing.ithaca.edu/listing) |
+| 608 E. Buffalo St. | 608 E. Buffalo St. | Beer Properties | 1BR, 2BR, 3BR (6 units) | 1BR and 2BR $800; 3BR $965, labeled per unit; heat and water included | Available Dec. 1, 2026 | [Ithaca College portal, listing 7752](https://offcampushousing.ithaca.edu/listing) |
+| 614 E. Buffalo St. | 614 E. Buffalo St. | PJ Apartments | 1BR, 2BR, 4BR, 7BR, or the whole 14BR house | 1BR $1,695; 2BR $2,590; 4BR $4,780; 7BR $8,365; 14BR house $16,730, per unit | Available June 1, 2027 | [Ithaca College portal, listing 28401](https://offcampushousing.ithaca.edu/listing) |
+| Greene Property | 717 E. Buffalo St. | Not named | 20 single rooms, studio, 2BR | Rooms $735 to $825; studio $875; 2BR $1,850, per unit | Not stated | [Ithaca College portal, listing 238426](https://offcampushousing.ithaca.edu/listing) |
+| 510 E. Seneca St. | 510 E. Seneca St. | PPM Homes | 2BR (6 units) | 2BR (No. 2) $1,850 a month; heat, gas and water included | Short-term lease available; available Dec. 21, 2026 | [PPM Homes](https://www.ppmhomes.com/listings/detail/530e3d93-ff7d-40b1-8893-3bb3dd04db40) |
+| 611 E. Seneca St. | 611 E. Seneca St. | Not named | 10BR | 10BR $885, labeled per unit | Available June 1, 2027 | [Ithaca College portal, listing 237916](https://offcampushousing.ithaca.edu/listing) |
+| 707 E. Seneca St. | 707 E. Seneca St. | Modern Living Rentals (707 E Seneca St, LLC) | Six 3BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/707-e-seneca-st) |
+| 708 E. Seneca St. | 708 E. Seneca St. | PPM Homes | Two 3BR, 4BR, 10BR house | 3BR (No. 1) $2,850 a month; 4BR (No. 2) $950, basis not stated; 3BR (No. 3) $950 per person; 10BR house $895 a month, headlined "$900 a room" (2027-28) | Available June 7 and June 15, 2027; No. 3 available now | [PPM Homes](https://www.ppmhomes.com/listings/detail/b41421f4-31cf-4464-a015-0c2953aa5f3a) |
+| 711 E. Seneca St. | 711 E. Seneca St. | Modern Living Rentals (202-04 E Marshall St, LLC) | 2BR, 3BR, 4BR, 5BR and up | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/two-beds) |
+| 801 E. Seneca St. | 801 E. Seneca St. | Lambrou Real Estate (ENP Associates, L.P.) | 10BR house in five units | Not printed | Listed for 2027-28 | [Lambrou Real Estate](https://www.lambrourealestate.com/801-east-seneca-street) |
+| 802 E. Seneca St. | 802 E. Seneca St. | Beer Properties | studio, 1BR, 3BR, 5BR | studio $1,400; 1BR $1,625; 5BR $1,095, labeled per unit, basis unclear; heat and water included | Not stated | [Cornell portal](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/802-e-seneca-street-7744) |
+| 808 E. Seneca St. | 808 E. Seneca St. | Not named | 3BR | 3BR $945 to $975 per unit | Available June 1, 2027 | [Ithaca College portal, listing 237943](https://offcampushousing.ithaca.edu/listing) |
+| 601 E. State St. | 601 E. State St., Buildings 1 and 2 | Modern Living Rentals | Bldg. 1: 4BR, 5BR and up; Bldg. 2: six 3BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/601-e-state-bldg-2-c) |
+| 609 E. State St. | 609 E. State St. | Modern Living Rentals (609 E State St LLC) | 2BR, 6BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/two-beds) |
+| 611 E. State St. | 611 E. State St. | Modern Living Rentals | 5BR and up | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/4--bedroomsbbc1888b) |
+| 612 and 613 E. State St. | 612 and 613 E. State St. | Modern Living Rentals (612 & 613 E State St., LLC) | 3BR at 612; 4BR at 613 | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/3--bedroom) |
+| 615 E. State St. | 615 E. State St. | Not named | Rooms in a shared unit, 3BR | Rooms $710 to $800; 3BR $2,100 to $2,350, per unit | Not stated | [Ithaca College portal, listing 239155](https://offcampushousing.ithaca.edu/listing) |
+| 702-704 E. State St. and 101-103 N. Quarry St. | 702-704 E. State St. | Modern Living Rentals (MLR C-Town Apartments, LLC) | 33 beds in 13 apartments: studio, 2BR, 3BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/702a-e-state) |
+| 710 E. State St. | 710 E. State St. | Modern Living Rentals | 10BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/4--bedroomsbbc1888b) |
+| 101 Eddy St. | 101 Eddy St. | Not named | 8BR furnished house | Not printed | Available July 10, 2027 | [Ithaca College portal, listing 236805](https://offcampushousing.ithaca.edu/listing) |
+| 103 Eddy St. | 103 Eddy St. | Lambrou Real Estate (ENP Associates, L.P.) | 5BR house | Not printed | Listed for 2027-28 | [Lambrou Real Estate](https://www.lambrourealestate.com/103-eddy-street) |
+| 105 Eddy St. | 105 Eddy St. | Not named | 6BR | Not printed | Available Aug. 5, 2027 | [Ithaca College portal, listing 236819](https://offcampushousing.ithaca.edu/listing) |
+| Greycourt | 108 Eddy St. | Foundation Management Group | Eight 4BR | 4BR $1,400 to $1,600, labeled per unit; utilities included; headline says leasing for 2027-28 | Available Jan. 1, 2027 | [Ithaca College portal, listing 96176](https://offcampushousing.ithaca.edu/listing) |
+| 121 Eddy St. | 121 Eddy St. | Lambrou Real Estate | Two 3BR duplex units | Not printed | Listed for 2027-28 | [Lambrou Real Estate](https://www.lambrourealestate.com/121-eddy-street-1-3br) |
+| 125 1/2 Eddy St. | 125 1/2 Eddy St. | Lambrou Real Estate | 1BR cottage | Not printed | Not stated | [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/125-12-e-catherine-street) |
+| 125 Eddy St. | 125 Eddy St. | Lambrou Real Estate (Nicholaos Lambrou) | 7BR house | Not printed | Listed for 2027-28 | [Lambrou Real Estate](https://www.lambrourealestate.com/125-eddy-street) |
+| 202 Eddy St. | 202 Eddy St. | Lambrou Real Estate (Nicholaos C. Lambrou) | 11BR house | Not printed | Listed for 2028-29 | [Lambrou Real Estate](https://www.lambrourealestate.com/202-eddy-street) |
+| 205 Eddy St. | 205 Eddy St. | Not named | 7BR | Not printed | Not stated | [Ithaca College portal, listing 236806](https://offcampushousing.ithaca.edu/listing) |
+| 209 Eddy St. | 209 Eddy St. | Not named | 7BR | Not printed | Not stated | [Ithaca College portal, listing 236818](https://offcampushousing.ithaca.edu/listing) |
+| 211 Eddy St. | 211 Eddy St. | Not named | 8BR | Not printed | Not stated | [Ithaca College portal, listing 236817](https://offcampushousing.ithaca.edu/listing) |
+| 219 Eddy St. | 219 Eddy St. | Not named | Six 1BR, 2BR | Not printed | Available Aug. 1, 2027 | [Ithaca College portal, listing 236793](https://offcampushousing.ithaca.edu/listing) |
+| 301 Eddy St. | 301 Eddy St. | Lambrou Real Estate (ENP Associates, L.P.) | Eight apartments, 3BR to 6BR, for 37 | Not printed | Not stated | [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/301-eddy-street) |
+| 303 Eddy St. | 303 Eddy St. | Lambrou Real Estate (ENP Associates, L.P.) | Three 6BR apartments | Not printed | Not stated | [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/303-eddy-street) |
+| 305 Eddy St. | 305 Eddy St. | Lambrou Real Estate (ENP Associates, L.P.) | Eight apartments, 3BR and 4BR, for 30 | Not printed | Not stated | [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/305-eddy-street) |
+| 307 Eddy St. | 307 Eddy St. | Lambrou Real Estate (ENP Associates, L.P.) | Six apartments, 1BR, 2BR and 5BR | Not printed | Not stated | [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/307-eddy-street) |
+| 309 Eddy St. | 309 Eddy St. | Lambrou Real Estate (ENP Associates, L.P.) | studio to 4BR | Not printed | Not stated | [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/309-eddy-street) |
+| 311 Eddy St. | 311 Eddy St. | Goldenrod Real Estate LLC | studio, 1BR, 2BR, 3BR | 1BR $1,550 to $1,596; 2BR $1,200 to $2,500; 3BR $2,200 to $3,000, per unit; heat included; studio not printed | Not stated | [Ithaca College portal, listing 237143](https://offcampushousing.ithaca.edu/listing) |
+| 317 Eddy St. | 317 Eddy St. | Goldenrod Real Estate LLC | studio, 1BR, 2BR, 3BR | 2BR $1,800; 3BR $2,700, per unit; heat and hot water included; other units not printed | Available Aug. 1, 2027 | [Ithaca College portal, listing 241427](https://offcampushousing.ithaca.edu/listing) |
+| 401 Eddy St. | 401 Eddy St. | Goldenrod Real Estate LLC | Two 2BR, six 3BR | Not printed | Not stated | [Ithaca College portal, listing 237145](https://offcampushousing.ithaca.edu/listing) |
+| 407 Eddy St. | 407 Eddy St. | Lambrou Real Estate (Constantinos Lambrou Res Trust) | Eight apartments, 2BR and 3BR, for 22 | Not printed | Not stated | [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/407-eddy-street) |
+| 414 Eddy St. | 414 Eddy St. | Lambrou Real Estate (Constantinos Lambrou Res Trust) | Four 4BR | Not printed | Not stated | [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/414-eddy-street) |
+| West Shore Apartments | 107 Elmwood Ave. | West Shore Apartments LLC | 4BR | 4BR $1,025, labeled per unit; internet and trash included | Available Jan. 1, 2027 | [Ithaca College portal, listing 239528](https://offcampushousing.ithaca.edu/listing) |
+| 318 Elmwood Ave. | 318 Elmwood Ave. | Urban Ithaca (Linden Avenue Associates) | 4BR, two 5BR, 3BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/83/21/1) |
+| 407 Elmwood Ave. | 407 Elmwood Ave. | Urban Ithaca | 5BR, 9BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/91/26/1) |
+| 308 Fairmount Ave. | 308 Fairmount Ave. | PPM Homes | 1BR (5 units) | 1BR (No. 3) $1,185; 1BR (No. 5) $1,400, a month for the whole apartment; all utilities included | Available June 10 and July 10, 2027 | [PPM Homes](https://www.ppmhomes.com/listings/detail/fc49e2b2-ad39-499e-a5cb-5725b9fd3c25) |
+| 101 Ferris Place | 101 Ferris Place | Modern Living Rentals | 1BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/101-ferris-place) |
+| 112 Ferris Place | 112 Ferris Place | Ferris Place Rentals | 6BR house, or single furnished bedrooms | 6BR house $5,100 a month; a bedroom $750 a month on Ithaca Rents and $700 on the Ithaca College portal; a second Ithaca Rents listing headed 114 Ferris Place describes the same house at the same rent | House: Aug. 8, 2027 to July 31, 2028; bedrooms from January 2027 | [Ithaca Rents](https://www.ithacarents.com/3324-gorgeous-6-bedroom-house-near-cornell-august-2027) |
+| 104 Harvard Place | 104 Harvard Place | Modern Living Rentals (MLR C-Town Apartments, LLC) | 12 beds in seven apartments: studio, 1BR, 2BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/104-harvard-3) |
+| 102 Highland Place | 102 Highland Place | PJ Apartments | 1BR, 2BR, 4BR | 1BR $1,695 to $2,395; 2BR $2,790; 4BR $5,180, per unit; utilities included | Available June 1, 2027 | [Ithaca College portal, listing 28360](https://offcampushousing.ithaca.edu/listing) |
+| 103 Highland Place | 103 Highland Place | PJ Apartments | 1BR, 2BR, 4BR | 1BR $1,595; 2BR $2,590; 4BR $4,780 and $5,180, per unit; heat included | Available June 1, 2028 | [Ithaca College portal, listing 28361](https://offcampushousing.ithaca.edu/listing) |
+| 105 Highland Place | 105 Highland Place | Modern Living Rentals (105 Highland Pl, LLC) | 17 bedrooms in 2BR and 3BR units | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/105-higland-pl-apt-1) |
+| 106 Highland Place | 106 Highland Place | Lambrou Real Estate (ENP Associates, L.P.) | 6BR house | Not printed | Listed for 2027-28 | [Lambrou Real Estate](https://www.lambrourealestate.com/106-highland-place) |
+| 110 Highland Place | 110 Highland Place | PJ Apartments | 2BR, 5BR | 2BR and 5BR $1,295 each, labeled per unit, basis unclear | Available June 1, 2028 | [Ithaca College portal, listing 28362](https://offcampushousing.ithaca.edu/listing) |
+| 112 Highland Place | 112 Highland Place | PJ Apartments | 2BR, 5BR | 2BR and 5BR $1,295 each, labeled per unit, basis unclear; utilities included | Available June 1, 2028 | [Ithaca College portal, listing 28364](https://offcampushousing.ithaca.edu/listing) |
+| 114 Highland Place | 114 Highland Place | PJ Apartments | Two 3BR, two 4BR, or the whole 11BR house | 3BR $2,985 and $3,585; 4BR $4,380 and $4,780; 11BR house $12,045, per unit | Available June 1, 2028 | [Ithaca College portal, listing 28365](https://offcampushousing.ithaca.edu/listing) |
+| 123 Highland Place | 123 Highland Place | PJ Apartments | Two 3BR, 6BR | 3BR $4,185; 6BR $7,770, per unit; utilities included | Available June 1, 2028 | [Ithaca College portal, listing 28379](https://offcampushousing.ithaca.edu/listing) |
+| 125 Highland Place | 125 Highland Place | PJ Apartments | 2BR, 4BR, two 5BR, or the whole 14BR house | 2BR $2,190; 4BR $4,780; 5BR $5,975; 14BR house $16,730, per unit; utilities included | Available June 1, 2027 | [Ithaca College portal, listing 28382](https://offcampushousing.ithaca.edu/listing) |
+| 138 Linden Ave. | 138 Linden Ave. | Not named | 1BR, 6BR | Not printed | Not stated | [Ithaca College portal, listing 236801](https://offcampushousing.ithaca.edu/listing) |
+| 211 Linden Ave. | 211 Linden Ave. | PPM Homes | 3BR, 4BR | 3BR (No. 14) $900 a bedroom; 4BR (No. 4) $1,050 a bedroom; two other 3BR units $3,000 and $3,300 per unit on the Ithaca College portal; water and sewer included | No. 14 short term through May 31, 2027; No. 4 available June 15, 2027 | [PPM Homes](https://www.ppmhomes.com/listings/detail/953901ea-2132-408d-9bb8-57d970e8d17e); [Ithaca College portal, listing 118392](https://offcampushousing.ithaca.edu/listing) |
+| 219 Linden Ave. | 219 Linden Ave. | Urban Ithaca (William H. Lower) | 3BR, 5BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/120/36/1) |
+| 221 Linden Ave. | 221 Linden Ave. | Not named | studio, 2BR, two 3BR | Not printed | 11 months | [Ithaca College portal, listing 241214](https://offcampushousing.ithaca.edu/listing) |
+| 226 Linden Ave. | 226 Linden Ave. | Urban Ithaca | 1BR, 6BR, 3BR | Not printed by Urban Ithaca; the Cornell portal lists "from $1,130" with heat, hot water, electric, gas and internet included and says the price varies by lease length | 10 or 12 months (Cornell portal) | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/37/11/1); [Cornell portal](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/226-linden-avenue-8104) |
+| 228 Linden Ave. | 228 Linden Ave. | Not named | Two 1BR, 3BR, 5BR | Not printed; heat, electric, gas and internet included | Available June 7, 2027 | [Ithaca College portal, listing 52462](https://offcampushousing.ithaca.edu/listing) |
+| 230 Linden Ave. | 230 Linden Ave. | Not named | 3BR, five 1BR | Not printed | Not stated | [Ithaca College portal, listing 236803](https://offcampushousing.ithaca.edu/listing) |
+| 232 Linden Ave. | 232 Linden Ave. | Not named | Five 1BR, 2BR | Not printed; heat, electric, gas and internet included | Available June 5, 2027 | [Ithaca College portal, listing 236804](https://offcampushousing.ithaca.edu/listing) |
+| 234 Linden Ave. | 234 Linden Ave. | Urban Ithaca (Linden Avenue Associates) | 3BR, 6BR, 2BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/40/12/1) |
+| Coal Yard Apartments | 143 Maple Ave. | Not named | studio, 1BR, 2BR (10 apartments in Building 2; Building 3 count not stated) | $1,240 to $3,750 (listing range); internet, hot water, water and laundry included | 12 months | [Cornell portal](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/coal-yard-apartments-7734) |
+| 125-127 N. Quarry St. | 125-127 N. Quarry St. | Not named | 7BR | Not printed | Not stated | [Ithaca College portal, listing 237912](https://offcampushousing.ithaca.edu/listing) |
+| 131 N. Quarry St. | 131 N. Quarry St. | Lambrou Real Estate (ENP Associates, L.P.) | 7BR house | Not printed | Listed for 2027-28 | [Lambrou Real Estate](https://www.lambrourealestate.com/131-north-quarry-street) |
+| 133 N. Quarry St. | 133 N. Quarry St. | Lambrou Real Estate (ENP Associates, L.P.) | 10BR house | Not printed | Listed for 2027-28 | [Lambrou Real Estate](https://www.lambrourealestate.com/133-north-quarry-street) |
+| 113 Oak Ave. | 113 Oak Ave. | Urban Ithaca (Urbano Holdings, LLC) | 11BR to 16BR house, studio | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/122/37/5) |
+| 117 Oak Ave. | 117 Oak Ave. | Urban Ithaca (Urbano Holdings, LLC) | 2BR, two 3BR | Not printed | Not stated | [Urban Ithaca](https://www.urbanithaca.com/detailed-view-more/125/38/1) |
+| The Summit | 201 Oak Ave. | Modern Living Rentals (Cascadilla School; 607 S Aurora St, LLC) | studio to 4BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/properties-page) |
+| 305 Oak Ave. | 305 Oak Ave. | Lambrou Real Estate (Nicholaos C. and Sharon A. Lambrou) | 11BR to 12BR house | Not printed | Listed for 2027-28 | [Lambrou Real Estate](https://www.lambrourealestate.com/305-oak-ave-11-12-bed-1) |
+| 404-406 Oak Ave. | 404-406 Oak Ave. | Not named | 6BR, 4 baths | 6BR $714 per bed; electric included | Not stated | [Ithaca College portal, listing 240315](https://offcampushousing.ithaca.edu/listing) |
+| 409 Oak Ave. | 409 Oak Ave. | Not named | 3BR | 3BR $995 per bed; internet, water and parking included | Available June 1, 2027 | [Ithaca College portal, listing 240092](https://offcampushousing.ithaca.edu/listing) |
+| 110 Osmun Place, Apt. 2E | 110 Osmun Place | Not named | 1BR | 1BR $1,200 a month for a lease from Oct. 15, 2025 to July 28, 2026 (past dates, as printed); heat, hot water and gas included | Not stated | [Ithaca Rents](https://www.ithacarents.com/4254-1-br-less-than-10-minute-walk-to-cornell-law-school) |
+| 116 Osmun Place | 116 Osmun Place | CSP Management (116 Osmun Place, LLC) | studio, 1BR, 2BR | studio (No. 3) $1,260; 1BR (No. 1) $1,450; 2BR (No. 5) $1,750, a month per unit (2027-28); heat, electricity, internet and trash included | Not stated; available June 10 to Aug. 13, 2027 | [CSP Management](https://cspmgmt.managebuilding.com/Resident/public/rentals/17112) |
+| 110 Stewart Ave. | 110 Stewart Ave. | Modern Living Rentals (110-112-113 Stewart Ave, LLC) | 2BR, 3BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/110-3-stewart-ave) |
+| 112 Stewart Ave. | 112 Stewart Ave. | Modern Living Rentals (110-112-113 Stewart Ave, LLC) | 2BR, 3BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/112-1-stewart-ave) |
+| 113 Stewart Ave. | 113 Stewart Ave. | Modern Living Rentals (110-112-113 Stewart Ave, LLC) | 2BR, 4BR, 5BR and up | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/two-beds) |
+| 114 Stewart Ave. | 114 Stewart Ave. | Not named (Wu Family Real Estate, LLC) | 8BR apartment | 8BR $900 per person a month (2027-28) | From June 10, 2027 | [Ithaca Rents](https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown) |
+| 115 Stewart Ave., Apt. 2N | 115 Stewart Ave. | True Renew Homes | 1BR (4 units) | 1BR $1,562 a month, plus $35 a month per person for water and $85 a year for recycling; heat and cooking gas included | 12 months from Jan. 1, 2027, end date adjustable | [Ithaca Rents](https://www.ithacarents.com/4304-sunny-1br-apartment-close-to-cornell.-furnished.-january-1st-move-in.-flexible-lease.) |
+| 117 Stewart Ave. | 117 Stewart Ave. | Not named | 5BR | Not printed | Not stated | [Ithaca College portal, listing 237914](https://offcampushousing.ithaca.edu/listing) |
+| 119 Stewart Ave. | 119 Stewart Ave. | PPM Homes | 1BR, 4BR | 1BR (No. 4) $1,575; 4BR (No. 1) $4,000, a month | Available Aug. 10, 2027 | [PPM Homes](https://www.ppmhomes.com/listings/detail/8a8cd89b-f24f-4e86-b7f1-e7805c550e11) |
+| 202 Stewart Ave. | 202 Stewart Ave. | Modern Living Rentals (202 Stewart Ave Holdings, LLC) | 2BR, 3BR, 4BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/two-beds) |
+| 210 Stewart Ave., Apt. 2B | 210 Stewart Ave. | Not named | 2BR | 2BR $1,900 a month; gas, heat, hot water and water included | From July 31, 2027 (the title says 2026-27) | [Ithaca Rents](https://www.ithacarents.com/4525-210-stewart-avenue-2br-unit----2026/27) |
+| 214 Stewart Ave. | 214 Stewart Ave. | Not named | Three 3BR, 2BR | 3BR units A, B and C $1,150 a month each, basis not stated; 2BR (Unit 4) $2,050 a month | 12 months for A, B and C, from Oct. 24, 2026, July 1, 2027 and Jan. 1, 2027; Unit 4 flexible, from Jan. 16, 2027 | [Ithaca Rents](https://www.ithacarents.com/4419-214-stewart-avenue---unit1-a) |
+| 307 Stewart Ave. | 307 Stewart Ave. | PJ Apartments | 2BR, 3BR, four 4BR | 2BR $2,590; 3BR $3,585; 4BR $4,780, per unit | Available June 1, 2027 | [Ithaca College portal, listing 240165](https://offcampushousing.ithaca.edu/listing) |
+| 308 Stewart Ave. | 308 Stewart Ave. | Modern Living Rentals (308 Stewart Ave, LLC) | 4BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/4--bedrooms) |
+| 400-404 Stewart Ave. | 400-404 Stewart Ave. | CSP Management (400 Stewart Ave, LLC) | 1BR, 3BR | 1BR $1,650 to $1,700; 3BR $3,500 (short term, to July 23, 2027) and $4,045, a month per unit; internet and trash included | Not stated except the short-term unit | [CSP Management](https://cspmgmt.managebuilding.com/Resident/public/rentals/48233) |
+| 406 Stewart Ave. | 406 Stewart Ave. | CSP Management (406 Stewart Avenue, LLC) | 2BR | 2BR $2,300 a month per unit (two units) | Not stated; available Aug. 6 and Aug. 13, 2027 | [CSP Management](https://cspmgmt.managebuilding.com/Resident/public/rentals/51224) |
+| 408 Stewart Ave. | 408 Stewart Ave. | CSP Management (408 Stewart Avenue, LLC) | studio, 3BR | studios $1,150 and $1,200; 3BR $3,000, a month per unit (2027-28); utilities, internet and trash included | Not stated; available June 11 to Aug. 13, 2027 | [CSP Management](https://cspmgmt.managebuilding.com/Resident/public/rentals/27030) |
+| 410 Stewart Ave. | 410 Stewart Ave. | Not named | Rooms in 3BR, 4BR and 8BR apartments | Rooms $800 to $850 per bed; the 8BR is labeled 2027-28 | Available Aug. 1, 2027 | [Ithaca College portal, listing 237727](https://offcampushousing.ithaca.edu/listing) |
+| 504 Stewart Ave. | 504 Stewart Ave. | Modern Living Rentals (MLR C-Town Apartments, LLC) | 29 beds in 15 apartments, studio to 4BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/504-stewart-a) |
+| 522 and 528 Stewart Ave. | 522 and 528 Stewart Ave. | Modern Living Rentals (522 & 528 Stewart Ave, LLC) | 4BR; 9BR combinations across the two houses | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/4--bedroomsbbc1888b) |
+| 526 Stewart Ave., Unit 23 | 526 Stewart Ave. | Not named | 1BR (the card shows 1 bed, 4+ baths; basis unclear) | $935 a month; utilities and internet included | From June 1, 2027 | [Ithaca Rents](https://www.ithacarents.com/4558-large-unit-in-historical-house) |
+| 614 Stewart Ave. | 614 Stewart Ave. | Beer Properties | 1BR, 2BR, 4BR, 5BR, 6BR (5 units) | 1BR $850 and $900; 2BR $970 and $1,100; 4BR, 5BR and 6BR $970, per bed; heat, water and trash included | Not stated | [Cornell portal](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/614-stewart-ave-7751) |
+| 710 Stewart Ave. | 710 Stewart Ave. | Modern Living Rentals (312-14 Spencer Rd, LLC) | studio, 2BR, 3BR, 4BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/710-stewart-ave-unit-7) |
+| 404 University Ave. | 404 University Ave. | Modern Living Rentals (404-406 C-Town Apts LLC) | 1BR, 3BR | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/404-university-avenue-apartment-1-4) |
+| 109 Williams St. | 109 Williams St. | Modern Living Rentals (109 Williams Street, LLC) | studio, 2BR, 3BR (5 units) | Not printed | Not stated | [Modern Living Rentals](https://www.modernlivingrentals.com/109-williams-st) |
+| 202 Williams St. | 202 Williams St. | PJ Apartments | 3BR, 9BR, or the whole 12BR house | 3BR $4,050; 9BR $9,855; 12BR house $14,340, per unit | Available June 1, 2028 | [Ithaca College portal, listing 28384](https://offcampushousing.ithaca.edu/listing) |
+| 203 Williams St. | 203 Williams St. | PJ Apartments | studio, 1BR, 2BR, 4BR | studio $1,595; 1BR $1,695 to $2,295; 2BR $2,790; 4BR $4,780, per unit | Available June 1, 2027 | [Ithaca College portal, listing 28385](https://offcampushousing.ithaca.edu/listing) |
+| 205 Williams St. | 205 Williams St. | PJ Apartments | 1BR, 8BR | 1BR $1,495; 8BR $7,960, per unit | Available June 1, 2027 | [Ithaca College portal, listing 28386](https://offcampushousing.ithaca.edu/listing) |
+| 208 Williams St. | 208 Williams St. | PJ Apartments | 3BR, two 4BR, or the whole 11BR house | 3BR $3,285; 4BR $5,180; 11BR house $14,245, per unit | Available June 1, 2028 | [Ithaca College portal, listing 28388](https://offcampushousing.ithaca.edu/listing) |
+| 209 Williams St. | 209 Williams St. | PJ Apartments | 3BR, 4BR, 9BR, rear 8BR | 3BR $3,285; 4BR $3,800 to $5,180; 9BR $9,855; rear 8BR $7,960, per unit | Available June 1, 2028 | [Ithaca College portal, listing 28389](https://offcampushousing.ithaca.edu/listing) |
+| 210 Williams St. | 210 Williams St. | PJ Apartments | 2BR, 4BR, 6BR | 2BR $2,990; 4BR $4,380; 6BR $7,500, per unit | Available June 1, 2028 | [Ithaca College portal, listing 28391](https://offcampushousing.ithaca.edu/listing) |
+| 211 Williams St. | 211 Williams St. | PJ Apartments | 1BR, 7BR | 1BR $1,595; 7BR $9,065, per unit | Available June 1, 2027 | [Ithaca College portal, listing 28392](https://offcampushousing.ithaca.edu/listing) |
+
+Sources: the landlord and listing pages linked in each row, read Nov. 10, 2026; owners of record from the Tompkins County 2026 final assessment roll and parcel records, matched by address.
 
 <!-- ad-break -->
 
