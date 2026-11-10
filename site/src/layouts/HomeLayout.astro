@@ -49,9 +49,9 @@ const sizesCard = '(min-width: 980px) 240px, 50vw';
   {strip.length ? (
     <section class="strip" aria-label="Latest data">
       <ul class="strip__track">
-        {[...strip, ...strip].map((d, i) => (
-          <li class="strip__item" aria-hidden={i >= strip.length ? 'true' : undefined}>
-            <a href={d.url} tabindex={i >= strip.length ? -1 : undefined}>
+        {strip.map((d) => (
+          <li class="strip__item">
+            <a href={d.url}>
               <span class="strip__topic">{d.topic.label}</span>
               <span class="strip__title">{d.title}</span>
               <span class="strip__meta">Data as of {fmtDate(d.asOf)}</span>
