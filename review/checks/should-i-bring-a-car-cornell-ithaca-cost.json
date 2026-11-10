@@ -1,0 +1,147 @@
+{
+ "verdict": "pass",
+ "numbers_total": 84,
+ "matched_by_code": 71,
+ "verified": 13,
+ "fixed": 1,
+ "removed": 1,
+ "new_facts": [
+  {
+   "fact": "FH (Hasbrouck) resident permit includes OmniRide privileges; M permit covers motorcycles, scooters and mopeds and prorates monthly; graduate assistant Outer Tier A and E permits are no-fee",
+   "value": "FH includes OmniRide; M $120.01 prorated monthly, nonrefundable",
+   "applies_to": "Cornell student permits",
+   "period": "2026-27 (rates set as of July 1)",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students",
+   "source_title": "Parking for Students, Cornell Transportation and Delivery Services",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Ithaca Carshare paused in May 2023 when its insurer, Philadelphia Insurance, left the market; resumed March 2024 with 12 cars (30 before)",
+   "value": "Paused May 2023; returned March 2024 with 12 cars",
+   "applies_to": "Ithaca Carshare",
+   "period": "2023-2024",
+   "source_url": "https://cornellsun.com/2024/03/25/ithaca-carshare-officially-returns-to-operation",
+   "source_title": "Ithaca Carshare Officially Returns to Operation, The Cornell Daily Sun",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Every ParkMobile transaction on Cornell's campus carries a convenience fee; Daily Decision zones open to all, priced by demand",
+   "value": "$0.45 per transaction",
+   "applies_to": "Cornell short-term parking",
+   "period": "Current page",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options",
+   "source_title": "Short-Term Parking Options, Cornell Transportation and Delivery Services",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "First-years are discouraged from bringing a car, though limited permits are available",
+   "value": "Discouraged in first year; limited permits",
+   "applies_to": "Cornell first-year students",
+   "period": "Current page",
+   "source_url": "https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation",
+   "source_title": "Parking and Transportation, Cornell Family Resource Hub",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  }
+ ],
+ "fact_file_updates": [
+  {
+   "fact_id": "getting-around-2.14-0262",
+   "new_value": "Permits first come first served; annual permits valid through Aug 15 (parking-students page). Sale start Aug 4, 2026 9 a.m. and Aug 16, 2026 start NOT verified: node/17809 returns 403",
+   "reason": "Page cannot be opened; only the parts confirmed on the parking-students page may be used"
+  }
+ ],
+ "fix_instructions": [],
+ "reason": "All 13 unmatched numbers checked. Arithmetic recomputed correct: 386.96 = 30+20+(27x9+90x0.42)x1.2; 586.96 = +200; 62.75, 2.06, 502 fares, 29.98 (359.77/12), 404.77, 2447.77, 93.3, 70.5 (422.98/6), 58.7 (422.98/7.2), 748 (4x187). Carshare rates, taxes, C2C $187 with $6 surcharge, Dryden $232, M permit, Sun 2024 article opened and confirmed. Families page confirmed via curl (certificate error blocked fetch tool). Fixed: the Aug 4, 9 a.m. sale time and Aug 16, 2026 start came only from an unopenable page (403); replaced with the parking-students-confirmed wording (first come first served, valid through Aug. 15) and removed the unopened node/17809 source and link.",
+ "slug": "should-i-bring-a-car-cornell-ithaca-cost",
+ "checked": [
+  {
+   "line": 96,
+   "value": "$386.96",
+   "status": "ok-arithmetic",
+   "note": "30+20+(27x9+90x0.42)x1.2"
+  },
+  {
+   "line": 136,
+   "value": "$29.98",
+   "status": "ok-arithmetic",
+   "note": "359.77/12"
+  },
+  {
+   "line": 152,
+   "value": "$404.77",
+   "status": "ok-arithmetic",
+   "note": "359.77+45"
+  },
+  {
+   "line": 153,
+   "value": "$2,447.77",
+   "status": "ok-arithmetic",
+   "note": "359.77+9x232"
+  },
+  {
+   "line": 168,
+   "value": "93.3",
+   "status": "ok-arithmetic",
+   "note": "(310-30)/(9-6)"
+  },
+  {
+   "line": 176,
+   "value": "$386.96",
+   "status": "ok-arithmetic",
+   "note": "same as line 96"
+  },
+  {
+   "line": 176,
+   "value": "$0.42",
+   "status": "ok-arithmetic",
+   "note": "42 cents a mile, rates page"
+  },
+  {
+   "line": 182,
+   "value": "$386.96",
+   "status": "ok-arithmetic",
+   "note": "same"
+  },
+  {
+   "line": 183,
+   "value": "$586.96",
+   "status": "ok-arithmetic",
+   "note": "386.96+200"
+  },
+  {
+   "line": 185,
+   "value": "$404.77",
+   "status": "ok-arithmetic",
+   "note": "same"
+  },
+  {
+   "line": 189,
+   "value": "70.5",
+   "status": "ok-arithmetic",
+   "note": "422.98/6"
+  },
+  {
+   "line": 189,
+   "value": "58.7",
+   "status": "ok-arithmetic",
+   "note": "422.98/7.2=58.75, shown 58.7"
+  },
+  {
+   "line": 203,
+   "value": "$748",
+   "status": "ok-arithmetic",
+   "note": "4x187"
+  },
+  {
+   "line": 132,
+   "value": "Aug. 4, 2026 9 a.m.; Aug. 16, 2026 start",
+   "status": "removed",
+   "note": "Only source (node/17809) returns 403; replaced with parking-students wording",
+   "source_url": "https://fcs.cornell.edu/node/17809"
+  }
+ ]
+}

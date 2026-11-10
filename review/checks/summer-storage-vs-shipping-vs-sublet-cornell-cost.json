@@ -1,0 +1,144 @@
+{
+ "verdict": "pass",
+ "numbers_total": 73,
+ "matched_by_code": 52,
+ "verified": 21,
+ "fixed": 1,
+ "removed": 0,
+ "new_facts": [
+  {
+   "fact": "BRSS storage price list (3 to 4 month term, pickup, storage and delivery included)",
+   "value": "Small box $39; large box $49; Blue Moving Bag $65; small item $49; medium item $75; large item $100; giant item $150; shipping at FedEx rates set at pickup; unposted extra fees for overweight, oversized, fragile, missed appointments, non-BRSS boxes, international shipments",
+   "applies_to": "Big Red Shipping and Storage customers",
+   "period": "no year printed (page read 2026-11-10)",
+   "source_url": "http://www.bigredboxes.com/BRSS_Pricing",
+   "source_title": "Pricing, Big Red Shipping & Storage",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "OurBus Cornell luggage allowance and extra bag fee",
+   "value": "One suitcase up to 50 lb in the hold plus one handbag; additional luggage $30 each, prepaid",
+   "applies_to": "OurBus riders from Cornell",
+   "period": "page read 2026-11-10",
+   "source_url": "https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university",
+   "source_title": "OurBus for Cornell University",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Bolt Storage 1401 Dryden Road 5x5 drive-up unit and terms",
+   "value": "$84 a month; month to month; 10 days' notice; insurance required",
+   "applies_to": "Bolt Storage, 1401 Dryden Road, Freeville",
+   "period": "Nov 2026",
+   "source_url": "https://www.boltstorage.com/self-storage/freeville-ny",
+   "source_title": "Bolt Storage, 1401 Dryden Road",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Ithaca Renting Collegetown subtenant eligibility and electricity rule",
+   "value": "Subtenants must be Cornell students, summer sublets may also go to grad students from other universities; keep electricity on, at least fridge running",
+   "applies_to": "Ithaca Renting Collegetown tenants",
+   "period": "page read 2026-11-10",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "source_title": "Collegetown properties, Ithaca Renting",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Storage Squad Cornell summer storage, 4 months",
+   "value": "Standard item (Mega Box, cube fridge) $45; reservation fee amount not posted; free packing supplies",
+   "applies_to": "Storage Squad customers",
+   "period": "page read 2026-11-10",
+   "source_url": "https://storagesquad.com/summer-storage/cornell-university/",
+   "source_title": "Summer storage at Cornell University, Storage Squad",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  }
+ ],
+ "fact_file_updates": [],
+ "fix_instructions": [],
+ "reason": "All unmatched numbers recomputed correctly (rent 3 x 1,246.25 = 3,738.75; sublet 3 x 900 - 20 = 2,680; table totals 1,058.75, 1,310.75, 1,427.75; BRSS 6 x 49 + 75 = 369; Bolt 252; Storage Squad 7 x 45 = 315; Uncle Marty's 315 + 50 = 365; 369/2 = 184.50; 49/2 = 24.50). Source pages opened for BRSS, Bolt, Ithaca Renting, OurBus, Storage Scholars (book by early April), Storage Squad, Uncle Marty's, and the Cornell storage page (opened with certificate check disabled via curl: free in-room pickup, student must be present). Fixed one wrong claim: BRSS was called the cheapest door-to-door option though Storage Squad (315) and Uncle Marty's (365) cost less than BRSS (369); sentence corrected. Ithaca Renting page states no median; 1,246.25 comes from the fact file (3.2-0345) and was matched.",
+ "slug": "summer-storage-vs-shipping-vs-sublet-cornell-cost",
+ "checked": [
+  {
+   "line": 83,
+   "value": "$3,738.75",
+   "status": "ok-arithmetic",
+   "note": "3 x 1,246.25"
+  },
+  {
+   "line": 83,
+   "value": "$2,680",
+   "status": "ok-arithmetic",
+   "note": "3 x 900 - 20"
+  },
+  {
+   "line": 83,
+   "value": "$252",
+   "status": "ok-arithmetic",
+   "note": "84 x 3"
+  },
+  {
+   "line": 83,
+   "value": "$369",
+   "status": "ok-arithmetic",
+   "note": "6 x 49 + 75"
+  },
+  {
+   "line": 89,
+   "value": "$1,058.75",
+   "status": "ok-arithmetic",
+   "note": "3,738.75 - 2,680"
+  },
+  {
+   "line": 90,
+   "value": "$1,310.75",
+   "status": "ok-arithmetic",
+   "note": "1,058.75 + 252"
+  },
+  {
+   "line": 91,
+   "value": "$1,427.75",
+   "status": "ok-arithmetic",
+   "note": "1,058.75 + 369"
+  },
+  {
+   "line": 162,
+   "value": "$252",
+   "status": "ok-verified",
+   "note": "Bolt page $84/month"
+  },
+  {
+   "line": 163,
+   "value": "$315",
+   "status": "ok-arithmetic",
+   "note": "7 x 45, Storage Squad page"
+  },
+  {
+   "line": 164,
+   "value": "$365",
+   "status": "ok-arithmetic",
+   "note": "315 + 25 + 25, Uncle Marty's page"
+  },
+  {
+   "line": 182,
+   "value": "$184.50",
+   "status": "ok-arithmetic",
+   "note": "369 / 2"
+  },
+  {
+   "line": 182,
+   "value": "$24.50",
+   "status": "ok-arithmetic",
+   "note": "49 / 2"
+  },
+  {
+   "line": 143,
+   "value": "BRSS cheapest",
+   "status": "fixed",
+   "note": "Storage Squad 315 and Uncle Marty's 365 are below BRSS 369; sentence corrected"
+  }
+ ]
+}

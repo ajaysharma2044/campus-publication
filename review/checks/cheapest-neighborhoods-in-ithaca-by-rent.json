@@ -1,0 +1,197 @@
+{
+ "slug": "cheapest-neighborhoods-in-ithaca-by-rent",
+ "verdict": "fix",
+ "numbers_total": 80,
+ "matched_by_code": 41,
+ "checked": [
+  {
+   "line": 42,
+   "value": "$1,467.50",
+   "status": "ok-arithmetic",
+   "note": "Fall Creek four per-unit 1BR rows: 802 N Cayuga $890-900, 909 N Cayuga $1,400, 310 Farm $1,535, 312 Farm $1,545; median (1,400+1,535)/2 = 1,467.50 recomputed."
+  },
+  {
+   "line": 58,
+   "value": "$1,320.00",
+   "status": "ok-arithmetic",
+   "note": "Lansing/Northeast two listings (546 Warren $1,250, Pine Hill $1,390): median 1,320 recomputed."
+  },
+  {
+   "line": 43,
+   "value": "$2,153.75",
+   "status": "unverifiable",
+   "note": "Downtown 8-listing median could not be reproduced from inventory.csv; selection rule for 8 listings is not documented."
+  },
+  {
+   "line": 61,
+   "value": "$1,585.00",
+   "status": "unverifiable",
+   "note": "Collegetown 28-listing median could not be reproduced; my reconstructions gave 1,562-1,595 on 30-37 listings."
+  },
+  {
+   "line": 60,
+   "value": "$1,515.00",
+   "status": "unverifiable",
+   "note": "Cornell Heights 6-listing median not reproducible; reconstructions gave 1,420-1,500 on 11-19 listings, which would put Cornell Heights at or below Fall Creek."
+  },
+  {
+   "line": 67,
+   "value": "$2,045",
+   "status": "unverifiable",
+   "note": "Two-bedroom medians ($1,800/11, $2,045/12, $2,195/28) not reproducible with documented rule."
+  },
+  {
+   "line": 75,
+   "value": "$890",
+   "status": "ok-verified",
+   "note": "802 N Cayuga St $890-$900 per inventory row (Ithaca College marketplace)."
+  },
+  {
+   "line": 75,
+   "value": "$1,535",
+   "status": "ok-verified",
+   "note": "310 Farm St 1BR $1,535 plus $33 water, $82 recycling per inventory row."
+  },
+  {
+   "line": 79,
+   "value": "$1,305",
+   "status": "ok-verified",
+   "note": "934 Edgecliff 1BR $1,305, 411 sq ft; Lakeland $1,420 1BR, $1,005 studio; 512 Wyckoff $950 per inventory."
+  },
+  {
+   "line": 79,
+   "value": "0.89",
+   "status": "unverifiable",
+   "note": "Inventory Cornell Heights distances span 0.29 to 1.03 mi; 0.89 max holds only for priced 1BR rows (419 Triphammer is per bed); subset rule not documented."
+  },
+  {
+   "line": 87,
+   "value": "$2,400",
+   "status": "fixed",
+   "note": "The Dean 1BR rows run $2,350 (plan 108) to $2,500; page now says $2,350 to $2,500."
+  },
+  {
+   "line": 87,
+   "value": "$2,234",
+   "status": "fixed",
+   "note": "Ironworks cheapest studio is plan 320 at $2,072, not $2,234; corrected."
+  },
+  {
+   "line": 87,
+   "value": "$2,377",
+   "status": "ok-verified",
+   "note": "Seneca Way 1BR $2,377-$2,665 per inventory row."
+  },
+  {
+   "line": 87,
+   "value": "$2,430",
+   "status": "ok-verified",
+   "note": "Gateway Commons 1BR $2,430 per Travis Hyde inventory row."
+  },
+  {
+   "line": 81,
+   "value": "$2,700",
+   "status": "fixed",
+   "note": "Pinnacle 1BR rows are $2,700 and one at $2,800; page now says $2,700 to $2,800."
+  },
+  {
+   "line": 89,
+   "value": "$1,435",
+   "status": "ok-verified",
+   "note": "Westminster Hall 1BR $1,435 (387 sq ft); Center Ithaca 1BR $1,435-$1,845 per inventory."
+  },
+  {
+   "line": 105,
+   "value": "$695 to $810",
+   "status": "ok-verified",
+   "note": "Opened ithacarenting.com/collegetown: 210 Dryden standard room 2027-28 $695-$810; Aces 6BR $695-$760; 202 Dryden 10BR $725-$825; Collegetown Plaza standard 6BR $785-$795.",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 109,
+   "value": "$745 to $845",
+   "status": "ok-verified",
+   "note": "Opened ithacarenting.com/downtown: Old Cigar Factory 3BR $695-$795, 156 The Commons 3BR $745-$845, 2026-27; heat/water/trash included, electricity only Colonial/Commons Studios/Whiton.",
+   "source_url": "https://ithacarenting.com/downtown/"
+  },
+  {
+   "line": 117,
+   "value": "$13,744",
+   "status": "unverifiable",
+   "note": "Housing rates page returned certificate rejected via WebFetch and 404 via curl; could not be opened. Fact row 3.4-0373 only. Search summary agrees but is not verification.",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates"
+  },
+  {
+   "line": 117,
+   "value": "$4,144",
+   "status": "ok-arithmetic",
+   "note": "13,744 - 9,600 (800 x 12) = 4,144."
+  },
+  {
+   "line": 127,
+   "value": "$1,302",
+   "status": "ok-verified",
+   "note": "Opened RentCafe: 700 Warren Road, 1BR $1,302, 2BR $1,625, 3BR $2,072, apply by Nov 14, move in by 12/1/26.",
+   "source_url": "https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx"
+  },
+  {
+   "line": 129,
+   "value": "$1,650",
+   "status": "ok-verified",
+   "note": "101 Westhaven $1,200, 738 Elm St Ext $1,650, Springwood $1,350-$1,475, Evergreen Pointe $2,495-$2,525 per inventory; Cornell neighborhoods page opened (curl): Fall Creek 0.5-1 mi, 20-30 minute uphill walk, frequent bus; Lansing 5-10 mi bus or car; West Hill rural 4 mi.",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods"
+  },
+  {
+   "line": 131,
+   "value": "$283",
+   "status": "ok-arithmetic",
+   "note": "1,585-1,302 = 283; 283-46 = 237; 237 x 12 = 2,844."
+  },
+  {
+   "line": 131,
+   "value": "$46.00",
+   "status": "unverifiable",
+   "note": "tcatbus.com returns 403 to WebFetch and curl; $1.50 fare and $45/$46 monthly pass could not be opened.",
+   "source_url": "https://www.tcatbus.com/ride/fare-pass-options/"
+  },
+  {
+   "line": 131,
+   "value": "free after 6 p.m.",
+   "status": "ok-verified",
+   "note": "Opened Cornell Transportation Services page: registered students enrolled a year or more ride free after 6 p.m. weekdays and all weekend; new first-year degree students unlimited; PhD and graduate assistants OmniRide.",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes"
+  }
+ ],
+ "fixes": [
+  "Ironworks studios from $2,234 -> $2,072",
+  "The Dean 1BR $2,400 -> $2,350 to $2,500",
+  "The Pinnacle 1BR $2,700 -> $2,700 to $2,800",
+  "Provide the selection rule and per-listing rows behind the neighborhood medians ($1,515.00 Cornell Heights/6, $1,585.00 Collegetown/28, $2,153.75 Downtown/8, two-bedroom $1,800/$2,045/$2,195); the checker could not reproduce them from inventory.csv, and several reconstructions put Cornell Heights at or below Fall Creek, which would change the opening answer.",
+  "Cornell housing rates page (13,744 double) could not be opened (404/cert error); re-open it from a working session or cut the $13,744 comparison paragraph.",
+  "TCAT fare page returns 403; open it manually to confirm $1.50 ride and $45.00/$46.00 monthly pass, or cut the Lansing net-savings figures ($237, $2,844).",
+  "Cornell Heights distance 0.29 to 0.89 mile: confirm the subset rule (inventory range is 0.29 to 1.03) or change to the correct range."
+ ],
+ "new_facts": [
+  {
+   "fact": "Ithaca Renting Collegetown per-bed rows 2027-28: 210 Dryden standard $695-$810; Aces standard 6BR $695-$760; 202 Dryden 10BR $725-$825; Collegetown Plaza standard 6BR $785-$795",
+   "value": "$695 to $825 per bed per month",
+   "applies_to": "Collegetown, Ithaca Renting",
+   "period": "2027-28",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "source_title": "Ithaca Renting: Collegetown",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Ithaca Renting downtown 3BR per-bed rows: Old Cigar Factory $695-$795; 156 The Commons $745-$845; Cityview $815-$895; heat, water, trash included; electricity only Colonial/Commons Studios/Whiton Hall",
+   "value": "$695 to $895 per bed per month",
+   "applies_to": "Downtown Ithaca, Ithaca Renting",
+   "period": "2026-27 or available now",
+   "source_url": "https://ithacarenting.com/downtown/",
+   "source_title": "Ithaca Renting: Downtown",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  }
+ ],
+ "fact_file_updates": []
+}

@@ -1,0 +1,116 @@
+{
+ "slug": "ithaca-apartments-1100-to-1500-a-bed",
+ "verdict": "pass",
+ "numbers_total": 178,
+ "matched_by_code": 105,
+ "checked": [
+  {
+   "line": 96,
+   "value": "$1,145 to $1,495",
+   "status": "ok-verified",
+   "note": "Ithaca Renting rows in inventory.csv (705 E. Buffalo low, Plaza deluxe 2BR high), 2027-28"
+  },
+  {
+   "line": 98,
+   "value": "$1,145.33",
+   "status": "ok-arithmetic",
+   "note": "13,744/12"
+  },
+  {
+   "line": 102,
+   "value": "$13,200",
+   "status": "ok-arithmetic",
+   "note": "1,100x12"
+  },
+  {
+   "line": 112,
+   "value": "$1,374.40",
+   "status": "ok-arithmetic",
+   "note": "13,744/10"
+  },
+  {
+   "line": 118,
+   "value": "$544",
+   "status": "ok-arithmetic",
+   "note": "13,744-13,200"
+  },
+  {
+   "line": 120,
+   "value": "$15,000 / $1,256",
+   "status": "ok-arithmetic",
+   "note": "1,250x12; minus 13,744"
+  },
+  {
+   "line": 122,
+   "value": "$4,256",
+   "status": "ok-arithmetic",
+   "note": "18,000-13,744"
+  },
+  {
+   "line": 134,
+   "value": "table rents",
+   "status": "ok-verified",
+   "note": "Match inventory.csv Ithaca Renting per-bed rows for 705 E. Buffalo, Court, Plaza, Center, 2027-28"
+  },
+  {
+   "line": 149,
+   "value": "$13,740 / $1,192.50 / $14,310 / $566",
+   "status": "ok-arithmetic",
+   "note": "1,145x12; (1,185+1,200)/2; x12; minus 13,744"
+  },
+  {
+   "line": 149,
+   "value": "cheapest",
+   "status": "fixed",
+   "note": "Aces starts at $895, so qualified as cheapest layout fully inside the range"
+  },
+  {
+   "line": 130,
+   "value": "four of its buildings",
+   "status": "fixed",
+   "note": "Table shows five buildings: Court, Plaza, Center, Aces, 705 E. Buffalo"
+  },
+  {
+   "line": 158,
+   "value": "$4,780 / $1,195",
+   "status": "ok-arithmetic",
+   "note": "inventory 307 Stewart 4BR $4,780 / 4"
+  },
+  {
+   "line": 160,
+   "value": "$4,045 / $1,348.33",
+   "status": "ok-arithmetic",
+   "note": "inventory 400-404 Stewart 2A $4,045 / 3"
+  },
+  {
+   "line": 161,
+   "value": "$3,600 to $3,900",
+   "status": "ok-arithmetic",
+   "note": "inventory 327 Eddy 3BR / 3"
+  },
+  {
+   "line": 162,
+   "value": "$6,250 / $1,250",
+   "status": "ok-arithmetic",
+   "note": "inventory 210-218 Delaware 5BR / 5; 3BR $3,750 / 3"
+  },
+  {
+   "line": 163,
+   "value": "$3,940 / $1,313.33",
+   "status": "ok-arithmetic",
+   "note": "inventory Eddygate 3BR / 3"
+  },
+  {
+   "line": 109,
+   "value": "0.9",
+   "status": "ok-verified",
+   "note": "inventory downtown straight-line distances 0.76 to 0.89 mi"
+  }
+ ],
+ "fixes": [
+  "Changed 'four of its buildings' to 'five'",
+  "Qualified 'cheapest' at 705 E. Buffalo St. as cheapest layout fully inside the range"
+ ],
+ "new_facts": [],
+ "fact_file_updates": []
+}

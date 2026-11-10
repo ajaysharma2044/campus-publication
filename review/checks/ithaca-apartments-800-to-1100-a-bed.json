@@ -1,0 +1,111 @@
+{
+ "slug": "ithaca-apartments-800-to-1100-a-bed",
+ "verdict": "pass",
+ "numbers_total": 109,
+ "matched_by_code": 69,
+ "checked": [
+  {
+   "line": 88,
+   "value": "$13,200 / $544",
+   "status": "ok-arithmetic",
+   "note": "1,100x12=13,200; 13,744-13,200=544"
+  },
+  {
+   "line": 182,
+   "value": "$9,600.00 / $11,400.00 / $13,200.00",
+   "status": "ok-arithmetic",
+   "note": "800, 950, 1,100 x 12"
+  },
+  {
+   "line": 174,
+   "value": "$1,145.33",
+   "status": "ok-arithmetic",
+   "note": "13,744/12"
+  },
+  {
+   "line": 188,
+   "value": "$4,144",
+   "status": "ok-arithmetic",
+   "note": "13,744-9,600"
+  },
+  {
+   "line": 190,
+   "value": "$1,374.40",
+   "status": "ok-arithmetic",
+   "note": "13,744/10"
+  },
+  {
+   "line": 138,
+   "value": "$385",
+   "status": "ok-arithmetic",
+   "note": "1,377.50-992.50"
+  },
+  {
+   "line": 104,
+   "value": "Collegetown table ranges",
+   "status": "ok-verified",
+   "note": "Opened page; all rows match",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 142,
+   "value": "Downtown table ranges, Whiton $965-$1,065",
+   "status": "ok-verified",
+   "note": "Opened page; rows and utilities match",
+   "source_url": "https://ithacarenting.com/downtown/"
+  },
+  {
+   "line": 122,
+   "value": "614 Stewart $850-$1,100",
+   "status": "ok-verified",
+   "note": "Cornell listing and IC marketplace data (per-person rent style)",
+   "source_url": "https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/614-stewart-ave-7751"
+  },
+  {
+   "line": 124,
+   "value": "DeWitt $995/$895, 126 College $900, 301 Dryden $800-$995, 410 University $850, 832 N Aurora $875",
+   "status": "ok-verified",
+   "note": "Parsed from the full Ithaca College marketplace listing page",
+   "source_url": "https://offcampushousing.ithaca.edu/listing"
+  },
+  {
+   "line": 128,
+   "value": "114 Stewart $900",
+   "status": "ok-verified",
+   "note": "Opened page",
+   "source_url": "https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown"
+  },
+  {
+   "line": 163,
+   "value": "117 Thurston $815",
+   "status": "ok-verified",
+   "note": "Opened page",
+   "source_url": "https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights"
+  },
+  {
+   "line": 126,
+   "value": "211 Linden No. 4 $1,050",
+   "status": "removed",
+   "note": "PPM detail page says $4,400 total for the unit ($1,100 each); marketplace says $1,050; availability page empty. Row and timeline entry removed."
+  },
+  {
+   "line": 147,
+   "value": "high-rises",
+   "status": "fixed",
+   "note": "Court is five stories; reworded descriptor"
+  },
+  {
+   "line": 116,
+   "value": "one landlord that posts every price",
+   "status": "fixed",
+   "note": "Unsourced superlative cut"
+  }
+ ],
+ "fixes": [
+  "Removed 211 Linden No. 4 table row and timeline row",
+  "Cut unsourced superlative about Ithaca Renting",
+  "Replaced 'older high-rises' with 'older ones'"
+ ],
+ "new_facts": [],
+ "fact_file_updates": []
+}

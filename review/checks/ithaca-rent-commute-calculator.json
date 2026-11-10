@@ -1,0 +1,407 @@
+{
+ "slug": "ithaca-rent-commute-calculator",
+ "verdict": "pass",
+ "numbers_total": 122,
+ "matched_by_code": 59,
+ "checked": [
+  {
+   "line": 59,
+   "value": "$29,940",
+   "status": "ok-arithmetic",
+   "note": "$2,495 x 12 = 29,940; 2,495 is midpoint of $2,445-$2,545 (Collegetown Center deluxe 1BR, read on page)"
+  },
+  {
+   "line": 59,
+   "value": "$7,150",
+   "status": "ok-verified",
+   "note": "$650 x 11 months; 4BR $2,600/4, 11-month lease, opened",
+   "source_url": "https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom"
+  },
+  {
+   "line": 61,
+   "value": "$11,742",
+   "status": "ok-arithmetic",
+   "note": "(837.50+141)x12 = 11,742"
+  },
+  {
+   "line": 61,
+   "value": "$23,484",
+   "status": "ok-arithmetic",
+   "note": "(1,675+282)x12 = 23,484"
+  },
+  {
+   "line": 62,
+   "value": "$70.50",
+   "status": "ok-arithmetic",
+   "note": "282/4 = 70.50"
+  },
+  {
+   "line": 88,
+   "value": "$2,495",
+   "status": "ok-arithmetic",
+   "note": "midpoint 2,445 and 2,545"
+  },
+  {
+   "line": 88,
+   "value": "$29,940.00",
+   "status": "ok-arithmetic",
+   "note": "2,495x12"
+  },
+  {
+   "line": 89,
+   "value": "$22,000.00",
+   "status": "ok-arithmetic",
+   "note": "5,500/3x12 = 22,000"
+  },
+  {
+   "line": 89,
+   "value": "$23,200.00",
+   "status": "ok-arithmetic",
+   "note": "5,800/3x12 = 23,200"
+  },
+  {
+   "line": 90,
+   "value": "$1,602.50",
+   "status": "ok-arithmetic",
+   "note": "midpoint 1,565-1,640"
+  },
+  {
+   "line": 90,
+   "value": "$19,230.00",
+   "status": "ok-arithmetic",
+   "note": "1,602.50x12"
+  },
+  {
+   "line": 91,
+   "value": "$16,740.00",
+   "status": "ok-arithmetic",
+   "note": "1,395x12; $1,395 is the most common suite price (6 of 10) on the Dryden South page"
+  },
+  {
+   "line": 92,
+   "value": "$1,340",
+   "status": "ok-arithmetic",
+   "note": "midpoint 1,330-1,350"
+  },
+  {
+   "line": 92,
+   "value": "$16,080.00",
+   "status": "ok-arithmetic",
+   "note": "1,340x12"
+  },
+  {
+   "line": 93,
+   "value": "$15,600.00",
+   "status": "ok-arithmetic",
+   "note": "1,300x12; 1,300 midpoint of 1,250-1,350 (4BR 1.5 bath)"
+  },
+  {
+   "line": 94,
+   "value": "$1,192.50",
+   "status": "ok-arithmetic",
+   "note": "midpoint 1,185-1,200"
+  },
+  {
+   "line": 94,
+   "value": "$14,310.00",
+   "status": "ok-arithmetic",
+   "note": "1,192.50x12"
+  },
+  {
+   "line": 96,
+   "value": "$10,800.00",
+   "status": "ok-arithmetic",
+   "note": "900x12"
+  },
+  {
+   "line": 97,
+   "value": "$815",
+   "status": "ok-arithmetic",
+   "note": "verified on IthacaRents page"
+  },
+  {
+   "line": 97,
+   "value": "$9,780.00",
+   "status": "ok-arithmetic",
+   "note": "815x12"
+  },
+  {
+   "line": 98,
+   "value": "$9,300.00",
+   "status": "ok-arithmetic",
+   "note": "775x12; 775 midpoint of 725-825"
+  },
+  {
+   "line": 99,
+   "value": "$752.50",
+   "status": "ok-arithmetic",
+   "note": "midpoint 695-810"
+  },
+  {
+   "line": 99,
+   "value": "$9,030.00",
+   "status": "ok-arithmetic",
+   "note": "752.50x12"
+  },
+  {
+   "line": 100,
+   "value": "$745",
+   "status": "ok-arithmetic",
+   "note": "midpoint 695-795 (downtown page, 2026-27)"
+  },
+  {
+   "line": 100,
+   "value": "$8,940.00",
+   "status": "ok-arithmetic",
+   "note": "745x12"
+  },
+  {
+   "line": 101,
+   "value": "$727.50",
+   "status": "ok-arithmetic",
+   "note": "midpoint of Aces 6BR 2BA $695-$760 on Collegetown page"
+  },
+  {
+   "line": 101,
+   "value": "$8,730.00",
+   "status": "ok-arithmetic",
+   "note": "727.50x12"
+  },
+  {
+   "line": 102,
+   "value": "$650",
+   "status": "ok-arithmetic",
+   "note": "per person, verified"
+  },
+  {
+   "line": 102,
+   "value": "$7,150.00",
+   "status": "ok-arithmetic",
+   "note": "650x11"
+  },
+  {
+   "line": 113,
+   "value": "$815",
+   "status": "ok-verified",
+   "note": "$2,445 a month, $815 a person, heat and Wi-Fi, Aug. 1, 2027, parking $55/semester; opened",
+   "source_url": "https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights"
+  },
+  {
+   "line": 113,
+   "value": "$650",
+   "status": "ok-verified",
+   "note": "opened; $2,600 for four, plus electricity, tenants also pay heat, 11 months Aug 1 to Jun 30",
+   "source_url": "https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom"
+  },
+  {
+   "line": 121,
+   "value": "$14,700",
+   "status": "ok-arithmetic",
+   "note": "(2,025-800)=1,225 x 12 = 14,700; medians from fact row off-campus-housing-3.2-0345"
+  },
+  {
+   "line": 125,
+   "value": "$23,484",
+   "status": "ok-arithmetic",
+   "note": "see line 61"
+  },
+  {
+   "line": 125,
+   "value": "$11,742,",
+   "status": "ok-arithmetic",
+   "note": "see line 61"
+  },
+  {
+   "line": 125,
+   "value": "$2,002",
+   "status": "ok-arithmetic",
+   "note": "13,744-11,742"
+  },
+  {
+   "line": 133,
+   "value": "$282",
+   "status": "ok-arithmetic",
+   "note": "EnergySage, opened: $282 a month, $3,384 a year, updated Nov. 8, 2026"
+  },
+  {
+   "line": 133,
+   "value": "$23,484.00",
+   "status": "ok-arithmetic",
+   "note": "see line 61"
+  },
+  {
+   "line": 134,
+   "value": "$837.50",
+   "status": "ok-arithmetic",
+   "note": "1,675/2"
+  },
+  {
+   "line": 134,
+   "value": "$141",
+   "status": "ok-arithmetic",
+   "note": "282/2"
+  },
+  {
+   "line": 134,
+   "value": "$11,742.00",
+   "status": "ok-arithmetic",
+   "note": "978.50x12"
+  },
+  {
+   "line": 144,
+   "value": "$5,200",
+   "status": "ok-arithmetic",
+   "note": "1,300x4 midpoint x 4 beds"
+  },
+  {
+   "line": 107,
+   "value": "38 layouts",
+   "status": "fixed",
+   "note": "Collegetown page opened 2026-11-10 shows 40 layouts priced 2027-28; page said 38",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 107,
+   "value": "20 did",
+   "status": "fixed",
+   "note": "Downtown page shows 21 priced layouts (20 for 2026-27, 1 for 2027-28); page said 20",
+   "source_url": "https://ithacarenting.com/downtown/"
+  },
+  {
+   "line": 107,
+   "value": "14 of the 67",
+   "status": "fixed",
+   "note": "Collegetown page shows 15 of 67 rows marked sold out; page said 14",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 160,
+   "value": "$104.20",
+   "status": "removed",
+   "note": "PowerOutage.us returns 403, could not be opened; claim and derived $26.05 removed",
+   "source_url": "https://poweroutage.us/electricity-rates/ny/ithaca"
+  },
+  {
+   "line": 162,
+   "value": "Dryden South pays electricity and Wi-Fi",
+   "status": "fixed",
+   "note": "Dryden South pages state only heat and hot water included; tenant-pays claim unsupported, reworded; parking claim sourced to common-questions page",
+   "source_url": "https://drydensouth.com/common-questions/"
+  },
+  {
+   "line": 181,
+   "value": "TCAT $1.50 weekdays before 6 p.m.; transfers ride free",
+   "status": "fixed",
+   "note": "Cornell page gives $1.50 cash fare only and says new students in degree programs ride free; transfers not mentioned; reworded",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes"
+  },
+  {
+   "line": 74,
+   "value": "the one landlord that posts a price for every unit",
+   "status": "removed",
+   "note": "Uncited superlative, cut",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 196,
+   "value": "Dryden Road Garage is the overnight option",
+   "status": "fixed",
+   "note": "Reworded to what the City page states (monthly permit gives 24/7 access)",
+   "source_url": "https://www.cityofithacany.gov/718/Dryden-Road-Garage"
+  }
+ ],
+ "fixes": [],
+ "new_facts": [
+  {
+   "fact": "Ithaca Renting Collegetown layout counts",
+   "value": "67 rows; 40 priced for 2027-28; 15 marked sold out",
+   "applies_to": "Collegetown page",
+   "period": "read 2026-11-10",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "source_title": "Collegetown properties, Ithaca Renting",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Ithaca Renting Aces 6BR 2BA price",
+   "value": "$695-$760 per bed",
+   "applies_to": "Aces Apartments",
+   "period": "2027-28",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "source_title": "Collegetown properties, Ithaca Renting",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Dryden South inclusions and parking",
+   "value": "Heat and hot water included; no parking; electricity and Wi-Fi not stated",
+   "applies_to": "Dryden South, 205 Dryden Rd.",
+   "period": "read 2026-11-10",
+   "source_url": "https://drydensouth.com/common-questions/",
+   "source_title": "Common questions, Dryden South",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Ithaca Renting downtown layout counts",
+   "value": "36 layouts; 21 priced (20 for 2026-27, 1 for 2027-28)",
+   "applies_to": "Downtown page",
+   "period": "read 2026-11-10",
+   "source_url": "https://ithacarenting.com/downtown/",
+   "source_title": "Downtown properties, Ithaca Renting",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "EnergySage average Ithaca electricity bill",
+   "value": "$282 a month; $3,384 a year",
+   "applies_to": "Ithaca residents who request quotes on EnergySage; may use more than typical",
+   "period": "updated Nov. 8, 2026",
+   "source_url": "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/",
+   "source_title": "Cost of electricity in Ithaca, NY, EnergySage",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Ithaca Renting downtown electricity inclusions",
+   "value": "Colonial Building and Commons Studios include electricity; Whiton Hall includes electricity and Wi-Fi",
+   "applies_to": "Ithaca Renting downtown",
+   "period": "read 2026-11-10",
+   "source_url": "https://ithacarenting.com/downtown/",
+   "source_title": "Downtown properties, Ithaca Renting",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "117 Thurston Ave. 3BR terms",
+   "value": "$2,445 a month or $815 a person; heat and Wi-Fi included; parking $55 a semester; from Aug. 1, 2027",
+   "applies_to": "117 Thurston Ave.",
+   "period": "2027-28",
+   "source_url": "https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights",
+   "source_title": "IthacaRents: Spacious 3 bedroom in historical Cornell Heights",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "174 Kendall Ave. 4BR terms",
+   "value": "$2,600 a month or $650 a person plus electricity and heat; 11-month lease Aug. 1 to June 30",
+   "applies_to": "174 Kendall Ave.",
+   "period": "2027-28",
+   "source_url": "https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom",
+   "source_title": "IthacaRents: South Hill, Kendall Ave. 4 bedroom",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "114 Stewart Ave. 8BR price",
+   "value": "$900 a person a month; lease starts June 10, 2027; utilities not stated",
+   "applies_to": "114 Stewart Ave.",
+   "period": "2027-28",
+   "source_url": "https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown",
+   "source_title": "IthacaRents: 114 Stewart Avenue, 2027/28",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  }
+ ],
+ "fact_file_updates": []
+}

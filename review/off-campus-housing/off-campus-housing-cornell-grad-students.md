@@ -412,7 +412,7 @@ For a line-by-line monthly budget, see our [grad student off-campus budget](/cor
 
 Your bus pass depends on your degree and your year. In your first year, every new degree student, grad students included, rides TCAT, the local bus system, free with a Cornell ID. For fall entrants, that ends on Aug. 31 of the next year. After that, PhD students and graduate assistants get free OmniRide passes, which give unlimited rides (Cornell bus passes).
 
-Master's and professional students lose the free daytime rides after year one. They still ride free after 6 p.m. on weekdays and all day on weekends. A daytime ride costs $1.50 in cash, or they can buy the annual OmniRide pass for $200. The pass is prorated by the month and expires on Aug. 31. You can return it for a refund until March 31, minus a $40 fee (Cornell bus passes). At $1.50 a ride, the pass pays for itself on the 134th ride ($200 divided by $1.50 is 133.3). Riding up and back each weekday before 6 p.m., that takes just over 13 weeks.
+Master's and professional students lose the free daytime rides after year one. They still ride free after 6 p.m. on weekdays and all day on weekends. A daytime ride costs $1.50 in cash, or they can buy the annual OmniRide pass for $200. The pass is prorated by the month and expires on Aug. 31. You can return it for a refund until March 31, minus a $40 fee (Cornell bus passes). The pass pays for itself on the 134th ride ($200 divided by $1.50 is 133.3). Riding up and back each weekday before 6 p.m., that takes just over 13 weeks.
 
 ```tool omniride-break-even-calculator```
 

@@ -1,0 +1,236 @@
+{
+ "slug": "ithaca-12-month-lease-real-cost-9-month-student",
+ "verdict": "pass",
+ "numbers_total": 79,
+ "matched_by_code": 47,
+ "checked": [
+  {
+   "line": 36,
+   "value": "$3,738.75",
+   "status": "ok-arithmetic",
+   "note": "3 x 1,246.25 (fact 3.2-0345 4BR median) = 3,738.75 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 37,
+   "value": "$1,145.33",
+   "status": "ok-arithmetic",
+   "note": "13,744/12 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 37,
+   "value": "$1,374.40",
+   "status": "ok-arithmetic",
+   "note": "13,744/10 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 38,
+   "value": "$13,455",
+   "status": "ok-arithmetic",
+   "note": "14,955 - 2x750 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 42,
+   "value": "$3,738.75",
+   "status": "ok-arithmetic",
+   "note": "3 x 1,246.25 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 42,
+   "value": "$1,661.67",
+   "status": "ok-arithmetic",
+   "note": "14,955/9 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 60,
+   "value": "$9,600",
+   "status": "ok-arithmetic",
+   "note": "800x12 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 61,
+   "value": "$2,400",
+   "status": "ok-arithmetic",
+   "note": "800x3 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 62,
+   "value": "$1,066.67",
+   "status": "ok-arithmetic",
+   "note": "9,600/9 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 64,
+   "value": "$3,738.75",
+   "status": "ok-arithmetic",
+   "note": "3 x 1,246.25 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 65,
+   "value": "$1,661.67",
+   "status": "ok-arithmetic",
+   "note": "14,955/9 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 66,
+   "value": "$16,530",
+   "status": "ok-arithmetic",
+   "note": "1,377.50x12 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 67,
+   "value": "$4,132.50",
+   "status": "ok-arithmetic",
+   "note": "1,377.50x3 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 68,
+   "value": "$1,836.67",
+   "status": "ok-arithmetic",
+   "note": "16,530/9 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 69,
+   "value": "$24,300",
+   "status": "ok-arithmetic",
+   "note": "2,025x12 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 70,
+   "value": "$6,075",
+   "status": "ok-arithmetic",
+   "note": "2,025x3 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 73,
+   "value": "$1,527.11",
+   "status": "ok-arithmetic",
+   "note": "13,744/9 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 80,
+   "value": "$1,145.33",
+   "status": "ok-arithmetic",
+   "note": "13,744/12 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 100,
+   "value": "$13,955",
+   "status": "ok-arithmetic",
+   "note": "14,955-1,000 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 101,
+   "value": "$13,455",
+   "status": "ok-arithmetic",
+   "note": "14,955-1,500 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 102,
+   "value": "$12,955",
+   "status": "ok-arithmetic",
+   "note": "14,955-2,000 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 103,
+   "value": "$12,462.50",
+   "status": "ok-arithmetic",
+   "note": "14,955-2,492.50 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 109,
+   "value": "$605.50",
+   "status": "ok-arithmetic",
+   "note": "1,211/2 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 109,
+   "value": "$1,211",
+   "status": "ok-arithmetic",
+   "note": "14,955-13,744 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 111,
+   "value": "$2,786",
+   "status": "ok-arithmetic",
+   "note": "16,530-13,744 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 111,
+   "value": "$1,393",
+   "status": "ok-arithmetic",
+   "note": "2,786/2 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 158,
+   "value": "$1,495.50",
+   "status": "ok-arithmetic",
+   "note": "14,955/10 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 159,
+   "value": "$1,345.50",
+   "status": "ok-arithmetic",
+   "note": "13,455/10 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 160,
+   "value": "$1,295.50",
+   "status": "ok-arithmetic",
+   "note": "12,955/10 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 161,
+   "value": "$1,374.40",
+   "status": "ok-arithmetic",
+   "note": "13,744/10 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 180,
+   "value": "$2,400",
+   "status": "ok-arithmetic",
+   "note": "800x3 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 180,
+   "value": "$6,075",
+   "status": "ok-arithmetic",
+   "note": "2,025x3 recomputed from fact 3.2-0345 and Cornell double 13,744 (3.4-0373)."
+  },
+  {
+   "line": 0,
+   "value": "Cornell housing rates URL",
+   "status": "fixed",
+   "note": "Old URL 404s; replaced in sources and body with current URL (fact new-9129); page shows double $6,872/$13,744."
+  },
+  {
+   "line": 0,
+   "value": "Lambrou 140 College Ave 10-month Aug-June",
+   "status": "ok-verified",
+   "note": "Opened page; text confirms."
+  },
+  {
+   "line": 0,
+   "value": "Cayuga Place 12-month standard, 10-month additional premium",
+   "status": "ok-verified",
+   "note": "Opened FAQ; confirms."
+  },
+  {
+   "line": 0,
+   "value": "226 Linden 10 or 12 month, price varies",
+   "status": "ok-verified",
+   "note": "Opened listing; confirms."
+  },
+  {
+   "line": 0,
+   "value": "209 Stewart Aug 1 2026 to July 31 2027",
+   "status": "ok-verified",
+   "note": "Opened listing; confirms."
+  },
+  {
+   "line": 0,
+   "value": "Cornell lists sublet rights among lease terms",
+   "status": "removed",
+   "note": "Uncited; not found on cited pages; sentence cut."
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "slug": "is-closer-to-cornell-worth-higher-rent-commute-math",
+ "verdict": "pass",
+ "numbers_total": 80,
+ "matched_by_code": 57,
+ "checked": [
+  {
+   "line": 39,
+   "value": "$370",
+   "status": "ok-arithmetic",
+   "note": "Studio 1765-1395=370; 1BR 2025-1625=400 (facts 3.2-0345/0346)"
+  },
+  {
+   "line": 42,
+   "value": "$370",
+   "status": "ok-arithmetic",
+   "note": "same as line 39"
+  },
+  {
+   "line": 49,
+   "value": "$4,440",
+   "status": "ok-arithmetic",
+   "note": "370*12"
+  },
+  {
+   "line": 49,
+   "value": "$4,620",
+   "status": "ok-arithmetic",
+   "note": "(1377.50-992.50)*12=385*12"
+  },
+  {
+   "line": 49,
+   "value": "$4,800",
+   "status": "ok-arithmetic",
+   "note": "400*12"
+  },
+  {
+   "line": 61,
+   "value": "$4,440.00",
+   "status": "ok-arithmetic",
+   "note": "370*12"
+  },
+  {
+   "line": 61,
+   "value": "$4,800.00",
+   "status": "ok-arithmetic",
+   "note": "400*12"
+  },
+  {
+   "line": 72,
+   "value": "0.36",
+   "status": "ok-verified",
+   "note": "Inventory row Collegetown Plaza, straight-line miles 0.36",
+   "source_url": "https://ithacarenting.com/property-details/?pid=1"
+  },
+  {
+   "line": 72,
+   "value": "0.88",
+   "status": "ok-verified",
+   "note": "Inventory row Commons West 0.88",
+   "source_url": "https://ithacarenting.com/property-details/?pid=7"
+  },
+  {
+   "line": 72,
+   "value": "0.52",
+   "status": "ok-arithmetic",
+   "note": "0.88-0.36; 0.52/3*60=10.4 min"
+  },
+  {
+   "line": 82,
+   "value": "$4,440",
+   "status": "ok-arithmetic",
+   "note": "from line 49"
+  },
+  {
+   "line": 82,
+   "value": "$59.20",
+   "status": "ok-arithmetic",
+   "note": "4440/75"
+  },
+  {
+   "line": 82,
+   "value": "$4,800",
+   "status": "ok-arithmetic",
+   "note": "from line 49"
+  },
+  {
+   "line": 82,
+   "value": "$4,620",
+   "status": "ok-arithmetic",
+   "note": "from line 49"
+  },
+  {
+   "line": 82,
+   "value": "$61.60",
+   "status": "ok-arithmetic",
+   "note": "4620/75"
+  },
+  {
+   "line": 88,
+   "value": "$98.67",
+   "status": "ok-arithmetic",
+   "note": "4440/45"
+  },
+  {
+   "line": 88,
+   "value": "$106.67",
+   "status": "ok-arithmetic",
+   "note": "4800/45"
+  },
+  {
+   "line": 89,
+   "value": "$59.20",
+   "status": "ok-arithmetic",
+   "note": "4440/75"
+  },
+  {
+   "line": 90,
+   "value": "$29.60",
+   "status": "ok-arithmetic",
+   "note": "4440/150"
+  },
+  {
+   "line": 97,
+   "value": "$4,240",
+   "status": "ok-arithmetic",
+   "note": "4440-200 OmniRide; 4800-200=4600"
+  },
+  {
+   "line": 132,
+   "value": "$9,540",
+   "status": "ok-arithmetic",
+   "note": "795*12"
+  },
+  {
+   "line": 132,
+   "value": "$4,204",
+   "status": "ok-arithmetic",
+   "note": "13744-9540; double $13,744 confirmed on Cornell rates page"
+  },
+  {
+   "line": 70,
+   "value": "0.1 to 0.5 mile; up to 15-minute walk; downtown 0.5-1.5 mi; Commons 20-30 minute uphill",
+   "status": "ok-verified",
+   "note": "Snippet-only fact opened (curl, valid cert) 2026-11-10: Collegetown 0.1-0.5 mi up to 15-min walk; Downtown 0.5-1.5 mi, 20-30 min uphill; Fall Creek 20-30 min uphill; Belle Sherman 1-2 mi 15-min; Cayuga Heights 1-4 mi up to 30 min.",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods"
+  },
+  {
+   "line": 132,
+   "value": "$13,744",
+   "status": "fixed",
+   "note": "Rates page reopened; 2026-27 double $13,744 confirmed. Old URL on page returned 404, link replaced with current URL.",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates"
+  },
+  {
+   "line": 117,
+   "value": "14 of the 67",
+   "status": "ok-verified",
+   "note": "Collegetown page reopened: 67 unit rows, 14 SOLD OUT; utilities, parking, 210 Dryden terms match.",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 99,
+   "value": "every 15 to 20 minutes",
+   "status": "ok-verified",
+   "note": "Commons West page: Green St stop, buses every 15-20 minutes",
+   "source_url": "https://ithacarenting.com/property-details/?pid=7"
+  }
+ ],
+ "fixes": [
+  "Line 132 and sources list: replaced 404 Cornell housing-rates URL with current URL"
+ ],
+ "new_facts": [
+  {
+   "fact": "Commons West: Green St. bus stop accessible from back entrance; buses every 15-20 minutes to Cornell and IC",
+   "value": "every 15-20 minutes",
+   "applies_to": "Commons West Apartments, 107 E. State St (Ithaca Renting)",
+   "period": "page as read 2026-11-10",
+   "source_url": "https://ithacarenting.com/property-details/?pid=7",
+   "source_title": "Ithaca Renting: Commons West Apartments",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  }
+ ],
+ "fact_file_updates": []
+}

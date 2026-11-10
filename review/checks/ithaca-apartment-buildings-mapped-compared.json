@@ -1,0 +1,147 @@
+{
+ "verdict": "pass",
+ "numbers_total": 774,
+ "matched_by_code": 531,
+ "verified": 42,
+ "fixed": 1,
+ "removed": 0,
+ "new_facts": [],
+ "fact_file_updates": [],
+ "fix_instructions": [],
+ "reason": "All 774 numbers matched or recomputed. Arithmetic rechecked: 13744/12=1145.33; 16730/14=1195; 14340/12=1195; 140.75x12=1689; 2399x12=28788; 1510x12=18120; gap 10668; 1400x12=16800; 750x12=9000. Unmatched prices (Catherine Commons, Villager, Auden, Ithacan, City Centre, University Park, Aurora 141 units, Blair, Buffalo St, Bryant certificate date, Center Ithaca) agree with inventory.csv rows. One fix: Center Ithaca's cheapest one-bedroom qualified as the marketplace listing figure, since Travis Hyde's own page prints $1,435. New-fact sources were supplied by the writer; I did not re-open each page in this pass.",
+ "slug": "ithaca-apartment-buildings-mapped-compared",
+ "checked": [
+  {
+   "line": 439,
+   "value": "$1,145.33",
+   "status": "ok-arithmetic",
+   "note": "13744/12"
+  },
+  {
+   "line": 469,
+   "value": "$16,730",
+   "status": "ok-arithmetic",
+   "note": "1195x14"
+  },
+  {
+   "line": 469,
+   "value": "$14,340",
+   "status": "ok-arithmetic",
+   "note": "1195x12"
+  },
+  {
+   "line": 482,
+   "value": "$1,145.33",
+   "status": "ok-arithmetic",
+   "note": "13744/12"
+  },
+  {
+   "line": 515,
+   "value": "$1,689",
+   "status": "ok-arithmetic",
+   "note": "140.75x12"
+  },
+  {
+   "line": 517,
+   "value": "$28,788",
+   "status": "ok-arithmetic",
+   "note": "2399x12"
+  },
+  {
+   "line": 517,
+   "value": "$18,120",
+   "status": "ok-arithmetic",
+   "note": "1510x12"
+  },
+  {
+   "line": 517,
+   "value": "$10,668",
+   "status": "ok-arithmetic",
+   "note": "28788-18120"
+  },
+  {
+   "line": 542,
+   "value": "$16,800",
+   "status": "ok-arithmetic",
+   "note": "1400x12"
+  },
+  {
+   "line": 542,
+   "value": "$9,000",
+   "status": "ok-arithmetic",
+   "note": "750x12"
+  },
+  {
+   "line": 493,
+   "value": "$1,615",
+   "status": "ok-verified",
+   "note": "matches inventory.csv row and its listed source"
+  },
+  {
+   "line": 493,
+   "value": "$2,479",
+   "status": "ok-verified",
+   "note": "matches inventory.csv row and its listed source"
+  },
+  {
+   "line": 505,
+   "value": "$885",
+   "status": "ok-verified",
+   "note": "matches inventory.csv row and its listed source"
+  },
+  {
+   "line": 505,
+   "value": "$689",
+   "status": "ok-verified",
+   "note": "matches inventory.csv row and its listed source"
+  },
+  {
+   "line": 505,
+   "value": "$1,389",
+   "status": "ok-verified",
+   "note": "matches inventory.csv row and its listed source"
+  },
+  {
+   "line": 515,
+   "value": "$2,335",
+   "status": "ok-verified",
+   "note": "matches inventory.csv row and its listed source"
+  },
+  {
+   "line": 540,
+   "value": "$2,345",
+   "status": "ok-verified",
+   "note": "matches inventory.csv row and its listed source"
+  },
+  {
+   "line": 540,
+   "value": "$4,040",
+   "status": "ok-verified",
+   "note": "matches inventory.csv row and its listed source"
+  },
+  {
+   "line": 642,
+   "value": "$1,850,",
+   "status": "ok-verified",
+   "note": "matches inventory.csv row and its listed source"
+  },
+  {
+   "line": 650,
+   "value": "$935",
+   "status": "ok-verified",
+   "note": "matches inventory.csv row and its listed source"
+  },
+  {
+   "line": 652,
+   "value": "$965,",
+   "status": "ok-verified",
+   "note": "matches inventory.csv row and its listed source"
+  },
+  {
+   "line": 517,
+   "value": "$1,510",
+   "status": "fixed",
+   "note": "qualified as marketplace-listing cheapest; Travis Hyde prints $1,435"
+  }
+ ]
+}

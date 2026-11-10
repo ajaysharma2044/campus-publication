@@ -1,0 +1,174 @@
+{
+ "slug": "luxury-ithaca-apartments-over-1500-a-bed",
+ "verdict": "pass",
+ "numbers_total": 175,
+ "matched_by_code": 114,
+ "checked": [
+  {
+   "line": 104,
+   "value": "$1,833.33",
+   "status": "ok-arithmetic",
+   "note": "$5,500 / 3; $5,500 from Cornell Daily Sun"
+  },
+  {
+   "line": 104,
+   "value": "$1,933.33",
+   "status": "ok-arithmetic",
+   "note": "$5,800 / 3"
+  },
+  {
+   "line": 105,
+   "value": "$4,256",
+   "status": "ok-arithmetic",
+   "note": "$18,000 - $13,744 Cornell double"
+  },
+  {
+   "line": 116,
+   "value": "$2,015.66 to $3,449.00",
+   "status": "ok-verified",
+   "note": "Opened Cornell marketplace listing: Price From $2015.66-3449.00; IC marketplace per-plan rows in inventory"
+  },
+  {
+   "line": 116,
+   "value": "0.64",
+   "status": "ok-verified",
+   "note": "inventory distance_miles_straight_line"
+  },
+  {
+   "line": 122,
+   "value": "$2,395",
+   "status": "ok-verified",
+   "note": "Travis Hyde availability list: 1E $2,395"
+  },
+  {
+   "line": 133,
+   "value": "$1,495",
+   "status": "ok-verified",
+   "note": "Ithaca Renting Collegetown page: Plaza deluxe 2BR $1,495 is the top 2BR"
+  },
+  {
+   "line": 167,
+   "value": "$2,450",
+   "status": "ok-verified",
+   "note": "Ithaca Renting Collegetown page: uncovered lower Dryden lot from $2,450/year"
+  },
+  {
+   "line": 180,
+   "value": "$1,645 / $1,715",
+   "status": "ok-verified",
+   "note": "inventory row Collegetown Court premium studio"
+  },
+  {
+   "line": 183,
+   "value": "$1,970 / $2,080",
+   "status": "ok-verified",
+   "note": "inventory row Collegetown Plaza"
+  },
+  {
+   "line": 185,
+   "value": "$1,995 / $2,215",
+   "status": "ok-verified",
+   "note": "inventory row Collegetown Center premium 1BR"
+  },
+  {
+   "line": 199,
+   "value": "$2,055, $2,165, $2,395, $3,150",
+   "status": "ok-verified",
+   "note": "Travis Hyde availability list units 1C, 5J, 1E, 4G/5G"
+  },
+  {
+   "line": 199,
+   "value": "$240 / $218 / June 16",
+   "status": "ok-verified",
+   "note": "Travis Hyde listing pages 2A, 5J and availability list: $240 WiFi, $175 trash, $218 garage, available 6/16/27"
+  },
+  {
+   "line": 207,
+   "value": "0.8 to 0.9",
+   "status": "fixed",
+   "note": "Inventory downtown distances 0.64 to 0.88; changed to 0.6 to 0.9"
+  },
+  {
+   "line": 119,
+   "value": "(not in inventory)",
+   "status": "fixed",
+   "note": "Inventory has The Summit at 0.30 miles; table cell filled"
+  },
+  {
+   "line": 147,
+   "value": "$2,850 / $6,000",
+   "status": "fixed",
+   "note": "Prices are in Ithaca Voice, not Tompkins Weekly; attribution corrected"
+  },
+  {
+   "line": 143,
+   "value": "$1,900 to $1,950; $300",
+   "status": "removed",
+   "note": "Rentler listing as opened does not show these; replaced with Unit 205 $2,700 and 8th floor $3,300; utilities $150 verified"
+  },
+  {
+   "line": 141,
+   "value": "$5,500 to $5,800",
+   "status": "fixed",
+   "note": "Sun supports it (Dec 2025); Ithaca Voice July 2026 says top 3BR $4,900; both now stated"
+  },
+  {
+   "line": 209,
+   "value": "$2,015.66 / $3,449.00",
+   "status": "ok-verified",
+   "note": "as line 116"
+  },
+  {
+   "line": 220,
+   "value": "$2,265",
+   "status": "ok-verified",
+   "note": "Cornell marketplace Collegetown Terrace range $605-2265 in inventory and Theory page related listings"
+  },
+  {
+   "line": 221,
+   "value": "$3,700 / 1.26",
+   "status": "ok-verified",
+   "note": "inventory The Outlook row"
+  },
+  {
+   "line": 234,
+   "value": "$4,256",
+   "status": "ok-arithmetic",
+   "note": "$18,000 - $13,744"
+  },
+  {
+   "line": 265,
+   "value": "April 12, 2026",
+   "status": "removed",
+   "note": "Safety lookup is a JS app that could not be opened; claim cut"
+  },
+  {
+   "line": 250,
+   "value": "deposits not covered",
+   "status": "ok-verified",
+   "note": "finaid.cornell.edu/living-campus opened: aid cannot cover deposit, first/last month, unregistered months"
+  },
+  {
+   "line": 145,
+   "value": "May 2026; 25%",
+   "status": "ok-verified",
+   "note": "Tompkins Weekly opened"
+  },
+  {
+   "line": 149,
+   "value": "Summit 46 units, 88 bedrooms, $2,700, $7,200",
+   "status": "ok-verified",
+   "note": "Ithaca Voice opened"
+  }
+ ],
+ "fixes": [
+  "Summit distance filled",
+  "Downtown distance range",
+  "Bear price attribution",
+  "Rentler Ivy paragraph",
+  "Ivy 3BR conflict stated",
+  "Safety lookup date cut"
+ ],
+ "new_facts": [],
+ "fact_file_updates": []
+}

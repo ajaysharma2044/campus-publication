@@ -1,0 +1,240 @@
+<div class="tool" id="tool-summer-storage-vs-shipping-vs-sublet-cornell-cost" data-tool="summer-storage-vs-shipping-vs-sublet-cornell-cost" data-as-of="2026-11-10">
+  <style>
+    #tool-summer-storage-vs-shipping-vs-sublet-cornell-cost .sss-field { margin: 0 0 0.9rem; }
+    #tool-summer-storage-vs-shipping-vs-sublet-cornell-cost .sss-field label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
+    #tool-summer-storage-vs-shipping-vs-sublet-cornell-cost .sss-field select,
+    #tool-summer-storage-vs-shipping-vs-sublet-cornell-cost .sss-field input { width: 100%; max-width: 22rem; padding: 0.4rem; font: inherit; box-sizing: border-box; }
+    #tool-summer-storage-vs-shipping-vs-sublet-cornell-cost .sss-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); gap: 0.6rem; max-width: 34rem; }
+    #tool-summer-storage-vs-shipping-vs-sublet-cornell-cost .sss-grid .sss-field { margin: 0; }
+    #tool-summer-storage-vs-shipping-vs-sublet-cornell-cost .sss-hint { display: block; font-size: 0.875em; opacity: 0.8; margin-top: 0.2rem; }
+    #tool-summer-storage-vs-shipping-vs-sublet-cornell-cost .sss-result { border-top: 1px solid currentColor; padding-top: 0.9rem; margin-top: 1rem; }
+    #tool-summer-storage-vs-shipping-vs-sublet-cornell-cost .sss-result ul { padding-left: 1.2rem; margin: 0.5rem 0; }
+    #tool-summer-storage-vs-shipping-vs-sublet-cornell-cost .sss-small { font-size: 0.875em; opacity: 0.85; }
+  </style>
+
+  <p class="sss-small">Prices as of <span data-as-of="2026-11-10">Nov. 10, 2026</span>: Big Red Shipping and Storage (BRSS) per-box and per-item prices for a 3 to 4 month term with pickup and delivery included (bigredboxes.com pricing page, no year printed); Bolt Storage, 1401 Dryden Road, 5x5 drive-up unit $84 a month (boltstorage.com); Ithaca Renting Collegetown sublet fee listed as both $15 and $20 (ithacarenting.com). No typical Ithaca summer sublet rent is published, so you enter your own.</p>
+
+  <h3>Your lease and your summer</h3>
+  <div class="sss-field">
+    <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-lease">Does your lease keep running while you are away?</label>
+    <select id="summer-storage-vs-shipping-vs-sublet-cornell-cost-lease">
+      <option value="yes" selected>Yes: I pay rent for the summer months either way</option>
+      <option value="no">No: my lease ends and my next place starts later</option>
+    </select>
+    <span class="sss-hint">Ithaca Renting leases run one year and start in June, July or August on fixed dates. If yours ends before you come back, you must move everything out.</span>
+  </div>
+
+  <div class="sss-field">
+    <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-back">Are you coming back to Ithaca in the fall?</label>
+    <select id="summer-storage-vs-shipping-vs-sublet-cornell-cost-back">
+      <option value="yes" selected>Yes</option>
+      <option value="no">No: I am graduating or leaving for good</option>
+    </select>
+  </div>
+
+  <div class="sss-field">
+    <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-months">Months away</label>
+    <input id="summer-storage-vs-shipping-vs-sublet-cornell-cost-months" type="number" min="1" max="12" step="1" value="3" inputmode="numeric">
+    <span class="sss-hint">Three is June, July and August. BRSS prices cover a 3 to 4 month term.</span>
+  </div>
+
+  <div class="sss-field">
+    <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-rent">Your share of rent, dollars a month</label>
+    <input id="summer-storage-vs-shipping-vs-sublet-cornell-cost-rent" type="number" min="0" max="10000" step="0.01" value="1246.25" inputmode="decimal">
+    <span class="sss-hint">Default: $1,246.25, the median per-bed price of an Ithaca Renting Collegetown 4-bedroom for 2027-28. Used only if your lease runs through the summer.</span>
+  </div>
+
+  <div class="sss-field">
+    <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-sublet">Sublet rent your subtenant pays you, dollars a month</label>
+    <input id="summer-storage-vs-shipping-vs-sublet-cornell-cost-sublet" type="number" min="0" max="10000" step="1" value="" inputmode="decimal" placeholder="Enter your expected price">
+    <span class="sss-hint">No typical summer sublet price for Ithaca is published. Use the price of a real offer, or of listings like yours. Leave blank to skip subletting.</span>
+  </div>
+
+  <div class="sss-field">
+    <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-fee">Sublet fee your landlord charges, dollars</label>
+    <input id="summer-storage-vs-shipping-vs-sublet-cornell-cost-fee" type="number" min="0" max="1000" step="1" value="20" inputmode="decimal">
+    <span class="sss-hint">Default: $20, the higher of the two fees on Ithaca Renting's Collegetown page ($15 and $20). Cornell Law School's tenant guide says a fee is allowed only if your lease lists it and it is reasonable.</span>
+  </div>
+
+  <h3>Your things</h3>
+  <p class="sss-small">Count what you would pack. Tiers follow BRSS's price list; items it does not list are priced by the closest category.</p>
+  <div class="sss-grid">
+    <div class="sss-field">
+      <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-sbox">Small boxes (up to 2 cu ft)</label>
+      <input id="summer-storage-vs-shipping-vs-sublet-cornell-cost-sbox" type="number" min="0" max="60" step="1" value="0" inputmode="numeric">
+    </div>
+    <div class="sss-field">
+      <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-lbox">Large boxes (2 to 4 cu ft)</label>
+      <input id="summer-storage-vs-shipping-vs-sublet-cornell-cost-lbox" type="number" min="0" max="60" step="1" value="6" inputmode="numeric">
+    </div>
+    <div class="sss-field">
+      <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-sitem">Small items (carry-on, microwave, nightstand)</label>
+      <input id="summer-storage-vs-shipping-vs-sublet-cornell-cost-sitem" type="number" min="0" max="30" step="1" value="0" inputmode="numeric">
+    </div>
+    <div class="sss-field">
+      <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-mitem">Medium items (mini fridge, large suitcase, desk chair, TV)</label>
+      <input id="summer-storage-vs-shipping-vs-sublet-cornell-cost-mitem" type="number" min="0" max="30" step="1" value="1" inputmode="numeric">
+    </div>
+    <div class="sss-field">
+      <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-litem">Large items (rug, instrument, skis)</label>
+      <input id="summer-storage-vs-shipping-vs-sublet-cornell-cost-litem" type="number" min="0" max="30" step="1" value="0" inputmode="numeric">
+    </div>
+    <div class="sss-field">
+      <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-gitem">Giant items (dresser, mattress, desk, couch)</label>
+      <input id="summer-storage-vs-shipping-vs-sublet-cornell-cost-gitem" type="number" min="0" max="30" step="1" value="0" inputmode="numeric">
+    </div>
+  </div>
+
+  <h3>Other quotes</h3>
+  <div class="sss-field">
+    <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-unit">Self-storage unit, dollars a month</label>
+    <input id="summer-storage-vs-shipping-vs-sublet-cornell-cost-unit" type="number" min="0" max="2000" step="1" value="84" inputmode="decimal">
+    <span class="sss-hint">Default: $84, a 5x5 drive-up unit at Bolt Storage, 1401 Dryden Road, month to month. You move everything yourself.</span>
+  </div>
+
+  <div class="sss-field">
+    <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-ship">Shipping quote for all of it, one way, dollars</label>
+    <input id="summer-storage-vs-shipping-vs-sublet-cornell-cost-ship" type="number" min="0" max="20000" step="1" value="" inputmode="decimal" placeholder="Enter a FedEx or BRSS quote">
+    <span class="sss-hint">BRSS ships by FedEx at rates set at pickup and posts no shipping prices, so get a quote first. Leave blank to skip shipping.</span>
+  </div>
+
+  <div class="sss-result" id="summer-storage-vs-shipping-vs-sublet-cornell-cost-result" aria-live="polite">
+    <p><strong>How it works:</strong> BRSS storage is the sum of its per-box and per-item prices. A self-storage unit is its monthly price times the months away. Shipping is your quote, twice if you come back. If your lease runs all summer, your rent is owed either way, so leaving your things in the room costs nothing extra, and a sublet earns back part of the rent.</p>
+  </div>
+</div>
+<script>
+(function () {
+  var root = document.getElementById("tool-summer-storage-vs-shipping-vs-sublet-cornell-cost");
+  if (!root) return;
+
+  var BRSS = "http://www.bigredboxes.com/BRSS_Pricing";
+  var NUMBERS = {
+    smallBox:   { value: 39,  asOf: "2026-11-10", source: BRSS },
+    largeBox:   { value: 49,  asOf: "2026-11-10", source: BRSS },
+    smallItem:  { value: 49,  asOf: "2026-11-10", source: BRSS },
+    mediumItem: { value: 75,  asOf: "2026-11-10", source: BRSS },
+    largeItem:  { value: 100, asOf: "2026-11-10", source: BRSS },
+    giantItem:  { value: 150, asOf: "2026-11-10", source: BRSS },
+    brssMaxMonths: { value: 4, asOf: "2026-11-10", source: BRSS },
+    boltUnit:   { value: 84,  asOf: "2026-11-10", source: "https://www.boltstorage.com/self-storage/freeville-ny" },
+    subletFee:  { value: 20,  asOf: "2026-11-10", source: "https://ithacarenting.com/collegetown/" },
+    defaultRent:{ value: 1246.25, asOf: "2026-11-08", source: "https://ithacarenting.com/collegetown/" }
+  };
+
+  function el(name) { return root.querySelector("#summer-storage-vs-shipping-vs-sublet-cornell-cost-" + name); }
+  function num(name, lo, hi, fallback) {
+    var v = parseFloat(el(name).value);
+    if (isNaN(v)) return fallback;
+    return Math.min(hi, Math.max(lo, v));
+  }
+  function opt(name) {
+    var raw = el(name).value;
+    if (raw === "" || raw === null) return null;
+    var v = parseFloat(raw);
+    return isNaN(v) || v < 0 ? null : v;
+  }
+  function money(n) {
+    var neg = n < 0; n = Math.abs(n);
+    var s = (Math.round(n * 100) / 100).toFixed(2);
+    if (s.slice(-3) === ".00") s = s.slice(0, -3);
+    return (neg ? "-$" : "$") + s.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+  function li(t) { return "<li>" + t + "</li>"; }
+
+  var FOOT = '<p class="sss-small">Prices as of Nov. 10, 2026. BRSS: bigredboxes.com pricing page (no year printed; extra fees for overweight, oversized or fragile items and missed appointments are not posted). Bolt Storage: boltstorage.com, 1401 Dryden Road. Sublet fee: ithacarenting.com Collegetown page. ' +
+    'Estimated: your sublet price, shipping quote and item counts are your own inputs. Not counted: electricity you must keep on while subletting with some landlords, storage insurance, and a car or truck to reach a self-storage unit.</p>';
+
+  function render() {
+    var leaseRuns = el("lease").value === "yes";
+    var back = el("back").value === "yes";
+    var months = Math.round(num("months", 1, 12, 3));
+    var rent = num("rent", 0, 10000, NUMBERS.defaultRent.value);
+    var sublet = opt("sublet");
+    var fee = num("fee", 0, 1000, NUMBERS.subletFee.value);
+    var unit = num("unit", 0, 2000, NUMBERS.boltUnit.value);
+    var ship = opt("ship");
+    var c = {
+      sbox: Math.round(num("sbox", 0, 60, 0)), lbox: Math.round(num("lbox", 0, 60, 6)),
+      sitem: Math.round(num("sitem", 0, 30, 0)), mitem: Math.round(num("mitem", 0, 30, 1)),
+      litem: Math.round(num("litem", 0, 30, 0)), gitem: Math.round(num("gitem", 0, 30, 0))
+    };
+    var pieces = c.sbox + c.lbox + c.sitem + c.mitem + c.litem + c.gitem;
+    var brss = c.sbox * NUMBERS.smallBox.value + c.lbox * NUMBERS.largeBox.value +
+      c.sitem * NUMBERS.smallItem.value + c.mitem * NUMBERS.mediumItem.value +
+      c.litem * NUMBERS.largeItem.value + c.gitem * NUMBERS.giantItem.value;
+    var selfStore = unit * months;
+    var shipTotal = ship === null ? null : ship * (back ? 2 : 1);
+    var rentOwed = leaseRuns ? rent * months : 0;
+    var subletIncome = (leaseRuns && sublet !== null) ? sublet * months - fee : null;
+
+    var options = [];
+    var lines = [];
+    var head = "";
+
+    if (pieces === 0) {
+      out("<p><strong>Enter what you would pack</strong> to compare storage and shipping.</p>");
+      return;
+    }
+
+    if (leaseRuns) {
+      // Your things can stay in the room you already pay for.
+      options.push({ name: "Leave your things in your room" + (subletIncome !== null ? " and sublet it furnished" : ""),
+        extra: 0, net: subletIncome !== null ? rentOwed - subletIncome : rentOwed });
+      options.push({ name: "Store with BRSS" + (subletIncome !== null ? " and sublet the room empty" : ""),
+        extra: brss, net: rentOwed - (subletIncome || 0) + brss });
+      options.push({ name: "Rent a self-storage unit" + (subletIncome !== null ? " and sublet the room empty" : ""),
+        extra: selfStore, net: rentOwed - (subletIncome || 0) + selfStore });
+      if (shipTotal !== null) options.push({ name: "Ship it home" + (back ? " and back" : "") + (subletIncome !== null ? " and sublet the room empty" : ""),
+        extra: shipTotal, net: rentOwed - (subletIncome || 0) + shipTotal });
+    } else {
+      if (back) {
+        options.push({ name: "Store with BRSS", extra: brss, net: brss });
+        options.push({ name: "Rent a self-storage unit", extra: selfStore, net: selfStore });
+      }
+      if (shipTotal !== null) options.push({ name: "Ship it home" + (back ? " and back" : ""), extra: shipTotal, net: shipTotal });
+    }
+
+    options.sort(function (a, b) { return a.net - b.net; });
+
+    if (options.length === 0) {
+      head = "<p><strong>Enter a shipping quote.</strong> If you are not coming back and your lease is ending, storage in Ithaca only delays the problem: ship, carry, sell or donate.</p>";
+    } else {
+      var best = options[0];
+      head = "<p><strong>Cheapest: " + best.name + ".</strong> " +
+        (leaseRuns ? "Your summer costs " + money(best.net) + " in rent and storage" + (subletIncome !== null ? " after sublet income" : "") + "." :
+          "It costs " + money(best.net) + " for " + months + " month" + (months === 1 ? "" : "s") + ".") + "</p>";
+      if (options.length > 1) head += "<p>Next best: " + options[1].name + ", " + money(options[1].net - best.net) + " more.</p>";
+    }
+
+    if (leaseRuns) {
+      lines.push(li("Rent you owe while away: " + money(rent) + " x " + months + " months = " + money(rentOwed) + ". You owe this whatever you do with your things."));
+      if (subletIncome !== null) {
+        lines.push(li("Sublet income: " + money(sublet) + " x " + months + " months - " + money(fee) + " fee = " + money(subletIncome) + ". You stay liable to your landlord if the subtenant does not pay or causes damage."));
+      } else {
+        lines.push(li("No sublet price entered. Any sublet above " + money(fee / months) + " a month covers the " + money(fee) + " fee."));
+      }
+    }
+    lines.push(li("BRSS storage: " + [
+      c.sbox ? c.sbox + " small boxes x $39" : "", c.lbox ? c.lbox + " large boxes x $49" : "",
+      c.sitem ? c.sitem + " small items x $49" : "", c.mitem ? c.mitem + " medium items x $75" : "",
+      c.litem ? c.litem + " large items x $100" : "", c.gitem ? c.gitem + " giant items x $150" : ""
+    ].filter(Boolean).join(" + ") + " = " + money(brss) + ", pickup and delivery included." +
+      (months > NUMBERS.brssMaxMonths.value ? " BRSS prices a 3 to 4 month term; " + months + " months is longer, so ask BRSS for a quote." : "")));
+    lines.push(li("Self-storage: " + money(unit) + " x " + months + " months = " + money(selfStore) + ". You need a car or truck to get there, and Bolt requires insurance."));
+    if (shipTotal !== null) {
+      lines.push(li("Shipping: " + money(ship) + (back ? " x 2 (home and back) = " + money(shipTotal) : " one way") + "."));
+      if (back) lines.push(li("Shipping beats BRSS storage only when the one-way quote is under half the BRSS price: under " + money(brss / 2) + " for these " + pieces + " pieces."));
+    } else {
+      lines.push(li("No shipping quote entered. To beat BRSS, a one-way quote for everything must be under " + money(brss / 2) + (back ? ", because you pay it twice." : ".")));
+    }
+    if (!back) lines.push(li("Leaving for good? If you won't move back in, Cornell Law School's tenant guide says assigning the lease (handing it over entirely) is generally better than subletting, because it ends your liability."));
+
+    out(head + "<ul>" + lines.join("") + "</ul>" + FOOT);
+  }
+  function out(html) { el("result").innerHTML = html; }
+
+  root.addEventListener("input", render);
+  root.addEventListener("change", render);
+  render();
+})();
+</script>

@@ -258,7 +258,7 @@ Cornell discourages first-years from bringing a car, but it does not ban them, a
 
 Permits go on sale once a year, first come, first served. Sales run at myparking.cornell.edu, and annual permits are valid through Aug. 15 ([Cornell parking permits](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). Cornell has not posted the 2027-28 sale date, so watch Cornell's announcements in July.
 
-The Aug. 15 end date grew out of a 2023 crunch. That year, old permits ran to Aug. 31 while new ones went on sale in early August. For a few weeks more permits were out than there were spaces. Brady told the Sun the crowding at Williams Street came from holders of old permits still parking there. She said a move to virtual permits, which use your license plate instead of a hangtag, would end the overlap (Cornell Daily Sun). Annual permits now end Aug. 15, the day before the new ones start (Cornell parking permits).
+That end date grew out of a 2023 crunch. That year, old permits ran to Aug. 31 while new ones went on sale in early August. For a few weeks more permits were out than there were spaces. Brady told the Sun the crowding at Williams Street came from holders of old permits still parking there. She said a move to virtual permits, which use your license plate instead of a hangtag, would end the overlap (Cornell Daily Sun). Annual permits now end Aug. 15, the day before the new ones start (Cornell parking permits).
 
 A permit bought later costs less: resident permits prorate daily from Sept. 1, and commuter permits from Aug. 16. For the step-by-step purchase and eligibility rules, see the [student parking permit guide](/cornell/getting-around/cornell-student-parking-permit-cost-rules/).
 

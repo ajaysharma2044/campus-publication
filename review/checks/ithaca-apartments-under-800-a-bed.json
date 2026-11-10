@@ -1,0 +1,285 @@
+{
+ "slug": "ithaca-apartments-under-800-a-bed",
+ "verdict": "fix",
+ "numbers_total": 152,
+ "matched_by_code": 92,
+ "checked": [
+  {
+   "line": 50,
+   "value": "$9,600",
+   "status": "ok-arithmetic",
+   "note": "800*12"
+  },
+  {
+   "line": 50,
+   "value": "$4,144",
+   "status": "ok-arithmetic",
+   "note": "13,744-9,600"
+  },
+  {
+   "line": 54,
+   "value": "$650",
+   "status": "ok-verified",
+   "note": "PPM page: 6BR 2BA $650 per room, tenants pay utilities",
+   "source_url": "https://www.ppmhomes.com/listings/detail/3f1544f9-76c1-4375-91f6-b2400a52dbbf"
+  },
+  {
+   "line": 58,
+   "value": "$760",
+   "status": "ok-verified",
+   "note": "Ithaca Renting Aces std 6BR 2BA $695-$760, 2027-28",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 60,
+   "value": "$714",
+   "status": "ok-verified",
+   "note": "Marketplace page data: 404-406 Oak 6bd 4ba min_rent 714",
+   "source_url": "https://offcampushousing.ithaca.edu/listing"
+  },
+  {
+   "line": 64,
+   "value": "$705, $760",
+   "status": "ok-verified",
+   "note": "Aces rows verified",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 65,
+   "value": "$810",
+   "status": "ok-verified",
+   "note": "210 Dryden Standard Room $695-$810",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 67,
+   "value": "$875, $785",
+   "status": "ok-verified",
+   "note": "Collegetown Plaza Premium 6BR $775-$875; Standard 6BR 1.5BA $785-$795",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 68,
+   "value": "$714",
+   "status": "ok-verified",
+   "note": "as line 60",
+   "source_url": "https://offcampushousing.ithaca.edu/listing"
+  },
+  {
+   "line": 82,
+   "value": "$2,225",
+   "status": "ok-verified",
+   "note": "Marketplace data: Ravenwood 3BR units $2225; Travis Hyde room-by-room 5BR listing says heat, water, electricity included",
+   "source_url": "https://offcampushousing.ithaca.edu/listing"
+  },
+  {
+   "line": 82,
+   "value": "$741.67",
+   "status": "ok-arithmetic",
+   "note": "2225/3"
+  },
+  {
+   "line": 84,
+   "value": "$689",
+   "status": "fixed",
+   "note": "Cornell listing: price range $689-$1,389, every plan 'Call For Price'; rewrote sentence",
+   "source_url": "https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/auden-ithaca-7919"
+  },
+  {
+   "line": 84,
+   "value": "$789",
+   "status": "removed",
+   "note": "$789 does not appear on the Auden page; removed from text and table"
+  },
+  {
+   "line": 88,
+   "value": "$3,500",
+   "status": "ok-verified",
+   "note": "Marketplace data: 412 University Apartment 1 5bd $3500, available 2027-08-01",
+   "source_url": "https://offcampushousing.ithaca.edu/listing"
+  },
+  {
+   "line": 88,
+   "value": "$700.00",
+   "status": "ok-arithmetic",
+   "note": "3500/5"
+  },
+  {
+   "line": 89,
+   "value": "$700; $2,225; $741.67",
+   "status": "ok-verified",
+   "note": "Ravenwood $700 5BR unit and $2225 3BR on marketplace",
+   "source_url": "https://offcampushousing.ithaca.edu/listing"
+  },
+  {
+   "line": 91,
+   "value": "$689; $789",
+   "status": "fixed",
+   "note": "Table row changed to price from $689, unit not stated"
+  },
+  {
+   "line": 92,
+   "value": "$3,100",
+   "status": "ok-verified",
+   "note": "Marketplace data: 414 E Marshall Unit 3 3bd $2250, Unit 1 4bd $3100",
+   "source_url": "https://offcampushousing.ithaca.edu/listing"
+  },
+  {
+   "line": 92,
+   "value": "$750.00; $775.00",
+   "status": "ok-arithmetic",
+   "note": "2250/3; 3100/4"
+  },
+  {
+   "line": 93,
+   "value": "$2,205; $735.00",
+   "status": "ok-verified",
+   "note": "Marketplace 934 Stewart 3BR $2205; 2205/3=735",
+   "source_url": "https://offcampushousing.ithaca.edu/listing"
+  },
+  {
+   "line": 94,
+   "value": "$735 to $750",
+   "status": "ok-verified",
+   "note": "Marketplace 408 N Aurora Apt #2 5bd min 735 max 750",
+   "source_url": "https://offcampushousing.ithaca.edu/listing"
+  },
+  {
+   "line": 96,
+   "value": "$766.67",
+   "status": "ok-arithmetic",
+   "note": "2300/3"
+  },
+  {
+   "line": 97,
+   "value": "$766.67",
+   "status": "ok-arithmetic",
+   "note": "2300/3"
+  },
+  {
+   "line": 103,
+   "value": "$745, $845",
+   "status": "ok-verified",
+   "note": "Downtown page: 156 The Commons and Cityview $745-$845, 2026-27, Available Now",
+   "source_url": "https://ithacarenting.com/downtown/"
+  },
+  {
+   "line": 105,
+   "value": "$650, $4,170",
+   "status": "ok-verified",
+   "note": "PPM $650 per room; 416 Hudson $4,170 monthly, start 08/07/2027, 6 bedrooms, furnished",
+   "source_url": "https://www.ithacarents.com/4516-6-bedroom-house-for-27/28-school-year"
+  },
+  {
+   "line": 110,
+   "value": "$4,170",
+   "status": "ok-arithmetic",
+   "note": "4170/6=695"
+  },
+  {
+   "line": 113,
+   "value": "$715; $4,290",
+   "status": "ok-verified",
+   "note": "Marketplace 220 Pleasant 6bd $4290 avail 2027-06-09; 4290/6=715",
+   "source_url": "https://offcampushousing.ithaca.edu/listing"
+  },
+  {
+   "line": 114,
+   "value": "$730",
+   "status": "ok-verified",
+   "note": "Whiton listing starting $730, range $730-1200",
+   "source_url": "https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/whiton-hall-10220"
+  },
+  {
+   "line": 115,
+   "value": "$745 to $845",
+   "status": "ok-verified",
+   "note": "Downtown page",
+   "source_url": "https://ithacarenting.com/downtown/"
+  },
+  {
+   "line": 116,
+   "value": "$745 to $845",
+   "status": "ok-verified",
+   "note": "Downtown page",
+   "source_url": "https://ithacarenting.com/downtown/"
+  },
+  {
+   "line": 143,
+   "value": "$280",
+   "status": "fixed",
+   "note": "EnergySage page says $282 a month; changed $280->$282, $46.67->$47.00, $796.67->$797.00 (282/6=47; 750+47=797)",
+   "source_url": "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/"
+  },
+  {
+   "line": 0,
+   "value": "Collegetown Terrace $605, Nov. 15 2026",
+   "status": "ok-verified",
+   "note": "Page says rates starting at $605, rate lock by 11/15/2026",
+   "source_url": "https://www.collegetownterrace.com/"
+  },
+  {
+   "line": 0,
+   "value": "Kelvin $795-$825, grad students, utilities",
+   "status": "ok-verified",
+   "note": "Cornell listing confirms",
+   "source_url": "https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/kelvin-place-apartments-237474"
+  },
+  {
+   "line": 0,
+   "value": "DeWitt 109/111 prices, 130 University $750 avail 2027-08-01",
+   "status": "ok-verified",
+   "note": "Marketplace page data confirms",
+   "source_url": "https://offcampushousing.ithaca.edu/listing"
+  }
+ ],
+ "fixes": [
+  "Auden Ithaca (210 Lake St.) cannot be shown to list a bed at $800 or less: its page gives only a 'from $689' price with every plan 'Call For Price'. Either drop it from the count and change 26 to 25 in the title, meta, glance, intro and nothing else, or keep 26 only if a separate under-$800 building is added with a source."
+ ],
+ "new_facts": [
+  {
+   "fact": "119-121 Prospect St, PPM Homes: 6BR, 2 baths, $650 per room, tenants pay utilities",
+   "value": "$650 per room",
+   "applies_to": "119-121 Prospect St",
+   "period": "listing read 2026-11-10 (no lease year)",
+   "source_url": "https://www.ppmhomes.com/listings/detail/3f1544f9-76c1-4375-91f6-b2400a52dbbf",
+   "confidence": "secondary",
+   "checked": "2026-11-10"
+  },
+  {
+   "fact": "416 Hudson: 6BR furnished house $4,170 a month, lease start 08/07/2027",
+   "value": "$4,170 per month",
+   "applies_to": "416 Hudson St",
+   "period": "2027-28",
+   "source_url": "https://www.ithacarents.com/4516-6-bedroom-house-for-27/28-school-year",
+   "confidence": "secondary",
+   "checked": "2026-11-10"
+  },
+  {
+   "fact": "Ithaca Renting downtown per-bed rows: Old Cigar Factory std 3BR $695-$795; 156 The Commons 3BR $745-$845; Cityview 5BR $745-$845",
+   "value": "$695-$845 per bed",
+   "applies_to": "Ithaca Renting downtown",
+   "period": "2026-27",
+   "source_url": "https://ithacarenting.com/downtown/",
+   "confidence": "secondary",
+   "checked": "2026-11-10"
+  },
+  {
+   "fact": "310-312 S Aurora St, PPM Homes: 7BR, 3.5 baths, $700 per room, tenants pay utilities",
+   "value": "$700 per room",
+   "applies_to": "310-312 S Aurora St",
+   "period": "listing read 2026-11-10 (no lease year)",
+   "source_url": "https://www.ppmhomes.com/listings/detail/d9a5af7d-9b77-4e9a-83f0-a517e63e77cf",
+   "confidence": "secondary",
+   "checked": "2026-11-10"
+  }
+ ],
+ "fact_file_updates": [
+  {
+   "fact_id": "3.7-0402",
+   "new_value": "$282 a month average electricity bill",
+   "reason": "EnergySage page read 2026-11-10 says $282, not about $280",
+   "source_url": "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/"
+  }
+ ]
+}

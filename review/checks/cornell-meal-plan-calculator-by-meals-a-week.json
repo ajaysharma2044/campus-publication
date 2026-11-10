@@ -1,0 +1,211 @@
+{
+ "slug": "cornell-meal-plan-calculator-by-meals-a-week",
+ "verdict": "pass",
+ "numbers_total": 105,
+ "matched_by_code": 86,
+ "checked": [
+  {
+   "line": 30,
+   "value": "$9.52",
+   "status": "ok-arithmetic",
+   "note": "(3802+25-400)/(20*18)=9.519"
+  },
+  {
+   "line": 76,
+   "value": "$3,153",
+   "status": "ok-arithmetic",
+   "note": "3528+25-400=3153; /252=12.51"
+  },
+  {
+   "line": 80,
+   "value": "$305.10",
+   "status": "ok-arithmetic",
+   "note": "6*(10.80+15.25+18.85)+16.85+18.85=305.10; /20=15.255 shown as 15.26"
+  },
+  {
+   "line": 80,
+   "value": "$336.35",
+   "status": "ok-arithmetic",
+   "note": "6*(11.90+16.80+20.80)+18.55+20.80=336.35"
+  },
+  {
+   "line": 80,
+   "value": "$16.82",
+   "status": "ok-arithmetic",
+   "note": "336.35/20=16.8175"
+  },
+  {
+   "line": 86,
+   "value": "$9.52",
+   "status": "ok-arithmetic",
+   "note": "same as line 30; break-even 3427/15.255/18=12.48 shown 12.5"
+  },
+  {
+   "line": 87,
+   "value": "$12.02",
+   "status": "ok-arithmetic",
+   "note": "(724+25-100)/54=12.02"
+  },
+  {
+   "line": 89,
+   "value": "$13.33",
+   "status": "ok-arithmetic",
+   "note": "(2167.51+25-500)/127=13.33"
+  },
+  {
+   "line": 116,
+   "value": "$13.60",
+   "status": "ok-arithmetic",
+   "note": "(3802+25-400)/252=13.599"
+  },
+  {
+   "line": 116,
+   "value": "$3,427",
+   "status": "ok-arithmetic",
+   "note": "3802+25-400=3427"
+  },
+  {
+   "line": 116,
+   "value": "$19.04",
+   "status": "ok-arithmetic",
+   "note": "3427/180=19.04"
+  },
+  {
+   "line": 120,
+   "value": "$274",
+   "status": "ok-arithmetic",
+   "note": "3802-3528=274"
+  },
+  {
+   "line": 125,
+   "value": "$274",
+   "status": "ok-arithmetic",
+   "note": "3802-3528=274"
+  },
+  {
+   "line": 125,
+   "value": "$274.59",
+   "status": "fixed",
+   "note": "18 x $15.26 = 274.68, not 274.59 (274.59 used unrounded 15.255); page now $274.68, consistent with displayed inputs"
+  },
+  {
+   "line": 127,
+   "value": "$274.59",
+   "status": "fixed",
+   "note": "Same correction to $274.68; 12 or fewer / 11 or fewer conclusions recomputed and unchanged (break-even at 12.95 and 11.36 meals)"
+  },
+  {
+   "line": 129,
+   "value": "$12.02",
+   "status": "ok-arithmetic",
+   "note": "(724+25-100)/54=12.02"
+  },
+  {
+   "line": 135,
+   "value": "$1,397.95",
+   "status": "fixed",
+   "note": "25+90*15.26=1,398.40 from the displayed inputs; page now $1,398.40"
+  },
+  {
+   "line": 135,
+   "value": "$1,513.58",
+   "status": "fixed",
+   "note": "90*16.82=1,513.80 from the displayed inputs; page now $1,513.80"
+  },
+  {
+   "line": 135,
+   "value": "$16.82",
+   "status": "ok-arithmetic",
+   "note": "336.35/20=16.8175"
+  },
+  {
+   "line": 145,
+   "value": "First-year, sophomore and transfer students cannot cancel",
+   "status": "ok-verified",
+   "note": "2026-27 terms page: 'First-year, sophomore, and transfer students may not cancel meal plans.'",
+   "source_url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027"
+  },
+  {
+   "line": 153,
+   "value": "Sept. 30, 2026",
+   "status": "ok-verified",
+   "note": "Live deadlines page: SFL fall reduce deadline Sept 30, 2026; spring TBD",
+   "source_url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms"
+  },
+  {
+   "line": 167,
+   "value": "billed July and January; binding on Dining Application",
+   "status": "ok-verified",
+   "note": "Undergraduate meal plans page wording",
+   "source_url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+  },
+  {
+   "line": 182,
+   "value": "cancel spring only if away",
+   "status": "ok-verified",
+   "note": "FAQ: spring plans may only be canceled by students not at the University (study abroad, internships, leave, graduation)",
+   "source_url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs"
+  },
+  {
+   "line": 110,
+   "value": "upper-level/transfer opt-in",
+   "status": "ok-verified",
+   "note": "Rates page wording supports Bear Traditional opt-in; page hedges sophomores correctly",
+   "source_url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/"
+  }
+ ],
+ "fixes": [
+  "Line 125 and 127: $274.59 -> $274.68",
+  "Line 135: $1,397.95 -> $1,398.40 and $1,513.58 -> $1,513.80"
+ ],
+ "new_facts": [
+  {
+   "fact": "Meal plan billing",
+   "value": "Billed in two increments on the Bursar bill, in July and January; binding when you sign the Dining Application or are automatically enrolled",
+   "applies_to": "Undergraduate meal plans",
+   "period": "2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+   "source_title": "Cornell Dining: Undergraduate meal plans",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Spring cancellation",
+   "value": "Spring plans can be canceled only by students who will not be at the university that semester (study abroad, internships, leave of absence, graduation)",
+   "applies_to": "Meal plan holders",
+   "period": "2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs",
+   "source_title": "Cornell Dining: Meal plan FAQs",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Upper-level opt-in wording",
+   "value": "Except for WCHS residents, upper-level and transfer undergraduates may opt into the Bear Traditional plan or the South Campus Meal Plan, depending on residence",
+   "applies_to": "On-campus undergraduates",
+   "period": "2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates",
+   "source_title": "Cornell Dining: Meal plans and rates",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "SFL members' fall deadline to reduce to SFL Supplemental",
+   "value": "Sept. 30, 2026 (spring deadline listed as TBD)",
+   "applies_to": "Students who join a qualifying fraternity or sorority",
+   "period": "Fall 2026",
+   "source_url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms",
+   "source_title": "Cornell Dining: Deadlines and terms",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  }
+ ],
+ "fact_file_updates": [
+  {
+   "fact_id": "dining-A3-0017",
+   "new_value": "Fall deadline September 30, 2026; spring deadline TBD on the live deadlines page (bear-supplemental page earlier gave February 10, 2027)",
+   "reason": "Live deadlines page lists spring SFL deadline as TBD; page does not print a spring SFL date",
+   "source_url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms"
+  }
+ ]
+}

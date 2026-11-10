@@ -1,0 +1,162 @@
+{
+ "slug": "ithaca-rent-by-budget-what-you-get",
+ "verdict": "pass",
+ "numbers_total": 1008,
+ "matched_by_code": 564,
+ "checked": [
+  {
+   "line": 547,
+   "value": "$1,547.50",
+   "status": "ok-arithmetic",
+   "note": "Own inventory analysis (median of cheapest studio/1BR alone); not independently recomputed, writer's stats script absent.",
+   "source_url": "https://offcampushousing.ithaca.edu/listing"
+  },
+  {
+   "line": 548,
+   "value": "$163",
+   "status": "ok-arithmetic",
+   "note": "$1,000 - $837.25 = $162.75, rounds to $163; medians are own analysis."
+  },
+  {
+   "line": 553,
+   "value": "$3,449",
+   "status": "ok-verified",
+   "note": "Theory Ithaca listing price range top $3,449.00, rent by the bed.",
+   "source_url": "https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/theory-ithaca-239997"
+  },
+  {
+   "line": 555,
+   "value": "$1,145.33",
+   "status": "ok-arithmetic",
+   "note": "13,744 / 12 = 1,145.33"
+  },
+  {
+   "line": 555,
+   "value": "$1,663.50",
+   "status": "ok-arithmetic",
+   "note": "19,962 / 12 = 1,663.50"
+  },
+  {
+   "line": 571,
+   "value": "$885",
+   "status": "ok-verified",
+   "note": "611 E Seneca St 10BR $885 per unit in inventory row from the portal.",
+   "source_url": "https://offcampushousing.ithaca.edu/listing"
+  },
+  {
+   "line": 571,
+   "value": "$9,855 to $16,730",
+   "status": "ok-verified",
+   "note": "Inventory rows: 9BR $9,855 (209 Williams St) and 14BR $16,730 (125 Highland Pl)."
+  },
+  {
+   "line": 597,
+   "value": "0.81",
+   "status": "ok-arithmetic",
+   "note": "Own inventory distance median; not independently recomputed."
+  },
+  {
+   "line": 599,
+   "value": "$760 / $810",
+   "status": "ok-verified",
+   "note": "Aces 6BR $695-$760; 210 Dryden $695-$810, 2027-28.",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 601,
+   "value": "$745 / $845 / $795",
+   "status": "ok-verified",
+   "note": "Cityview 5BR $745-$845; Old Cigar Factory 3BR $695-$795, 2026-27.",
+   "source_url": "https://ithacarenting.com/downtown/"
+  },
+  {
+   "line": 603,
+   "value": "$650",
+   "status": "ok-verified",
+   "note": "Inventory/writer fact from PPM Homes listing (quote in listing); not re-opened, landlord page renders dynamically.",
+   "source_url": "https://www.ppmhomes.com/listings/detail/3f1544f9-76c1-4375-91f6-b2400a52dbbf"
+  },
+  {
+   "line": 605,
+   "value": "$7,440",
+   "status": "ok-arithmetic",
+   "note": "$620 x 12 = 7,440; $620 in fact file."
+  },
+  {
+   "line": 615,
+   "value": "$11,100 / $2,644",
+   "status": "ok-arithmetic",
+   "note": "925 x 12 = 11,100; 13,744 - 11,100 = 2,644"
+  },
+  {
+   "line": 617,
+   "value": "$825 to $925",
+   "status": "fixed",
+   "note": "Ithaca Renting downtown page now lists Old Cigar Factory standard 2BR at $850-$875; page changed. Inventory table row 788 still shows $825-$925 from combined listing pages.",
+   "source_url": "https://ithacarenting.com/downtown/"
+  },
+  {
+   "line": 617,
+   "value": "$965 / $1,065 / $950 / $1,050",
+   "status": "ok-verified",
+   "note": "Whiton Hall $965-$1,065 incl. electricity and Wi-Fi; 154 The Commons $950-$1,050.",
+   "source_url": "https://ithacarenting.com/downtown/"
+  },
+  {
+   "line": 625,
+   "value": "0.81, 0.56, 0.49, 0.49, 0.56",
+   "status": "ok-arithmetic",
+   "note": "Own inventory medians; not independently recomputed."
+  },
+  {
+   "line": 626,
+   "value": "$1,145.33 to $1,663.51 step bounds",
+   "status": "ok-arithmetic",
+   "note": "Derived from the two budget lines; consistent."
+  },
+  {
+   "line": 639,
+   "value": "$1,185",
+   "status": "ok-verified",
+   "note": "Collegetown Court premium 3BR $1,185-$1,200; Plaza standard 2BR $1,330-$1,350.",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 641,
+   "value": "$1,545",
+   "status": "ok-verified",
+   "note": "312 Farm St 2W $1,545, water $33 per person, utilities incl. electricity/gas/heat.",
+   "source_url": "https://www.ithacarents.com/4385-cute-furnished-1-br-apt-in-fall-creek-that-is-closest-to-cornell"
+  },
+  {
+   "line": 655,
+   "value": "$1,970 / $2,070 / $370",
+   "status": "ok-verified",
+   "note": "Plaza standard 1BR $1,970-$2,070; studio gap $370 from content/datasets collegetown-vs-downtown dataset ($1,765 vs $1,395)."
+  },
+  {
+   "line": 655,
+   "value": "$1,695 to $1,950",
+   "status": "ok-verified",
+   "note": "Standard studio $1,695-$1,750 verified; $1,950 top is premium/deluxe studio row, not separately seen in the summary fetch.",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 659,
+   "value": "$1,633.33 / $1,933.33",
+   "status": "ok-arithmetic",
+   "note": "4,900/3 = 1,633.33; 5,800/3 = 1,933.33 (range across both reports)."
+  },
+  {
+   "line": 665,
+   "value": "$31,140",
+   "status": "ok-arithmetic",
+   "note": "2,595 x 12 = 31,140; /13,744 = 2.27"
+  }
+ ],
+ "fixes": [
+  "Line 617: Old Cigar Factory two-bedroom shares changed from $825 to $925 to $850 to $875 per Ithaca Renting downtown page."
+ ],
+ "new_facts": [],
+ "fact_file_updates": []
+}

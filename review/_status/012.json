@@ -2,9 +2,9 @@
  "id": 12,
  "status": "done",
  "page": "review/getting-around/cornell-parking-guide-campus-collegetown-ithaca.md",
- "words": "2496",
+ "words": "4414",
  "page_check": "PASS",
  "unmatched": "37",
- "note": "editor cut 2758->2504 words checker pass: 36 verified, 3 fixed, 1 removed, 11 new facts writer blocked on: The 2026-27 permit sale notice (fcs.cornell.edu/node/17809) returned 403; the Aug. 4, 2026 sale date and the Aug. 16, 2026 to Aug. 15, 2027 validity come only from a search snippet. Aug. 15 expiry is separately confirmed by the full parking-students page.; City code pages on ecode360 (odd/even section 8395630, residential permit section 8391421) returned 403. The page uses the city's own Parking Regulations page for odd/even instead.; The days and hours the residential permit applies on each block: the city's 'Hours, Permit System Alternative and Appeal Process' subpage could not be located, and the permit pages don't state them.",
- "updated": "2026-11-10 17:53"
+ "note": "editor pass 2 (after the checker fix) cut one repetition; page_check passes. editor cut 2758->2504 words checker pass: 36 verified, 3 fixed, 1 removed, 11 new facts writer blocked on: The 2026-27 permit sale notice (fcs.cornell.edu/node/17809) returned 403; the Aug. 4, 2026 sale date and the Aug. 16, 2026 to Aug. 15, 2027 validity come only from a search snippet. Aug. 15 expiry is separately confirmed by the full parking-students page.; City code pages on ecode360 (odd/even section 8395630, residential permit section 8391421) returned 403. The page uses the city's own Pa",
+ "updated": "2026-11-10 18:23"
 }

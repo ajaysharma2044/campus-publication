@@ -1,0 +1,130 @@
+{
+ "slug": "rent-split-calculator-unequal-rooms",
+ "verdict": "pass",
+ "numbers_total": 71,
+ "matched_by_code": 28,
+ "checked": [
+  {
+   "line": 77,
+   "value": "$1,185 / $1,295",
+   "status": "ok-verified",
+   "note": "Opened live Ithaca Renting Collegetown page: Premium 4BR 1BA $1,185-$1,200; Deluxe 4BR 2BA $1,295-$1,395; Premium 4BR 1.5BA $1,250-$1,350; all 2027-2028. Also in inventory.csv.",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 79,
+   "value": "$1,192.50, $1,300, $107.50",
+   "status": "ok-arithmetic",
+   "note": "(1185+1200)/2=1192.50; (1250+1350)/2=1300; difference 107.50."
+  },
+  {
+   "line": 81,
+   "value": "$810, $752.50, $147.50",
+   "status": "ok-verified",
+   "note": "Live page: 210 Dryden Road Standard Room $695-$810, Premium Room $850-$950, 2027-2028; midpoints 752.50 and 900; difference 147.50.",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 87,
+   "value": "table values",
+   "status": "ok-verified",
+   "note": "Same as above; midpoint 1345 for Deluxe correct."
+  },
+  {
+   "line": 106,
+   "value": "$5,200",
+   "status": "ok-arithmetic",
+   "note": "4 x 1300."
+  },
+  {
+   "line": 108,
+   "value": "$1,418.18, $80.63, $26.88",
+   "status": "ok-arithmetic",
+   "note": "300/1100x5200=1418.18; 107.5x3/4=80.625; 107.5/4=26.875."
+  },
+  {
+   "line": 112,
+   "value": "$1,418.18 $80.63 $1,498.81 $198.81",
+   "status": "ok-arithmetic",
+   "note": "Recomputed."
+  },
+  {
+   "line": 113,
+   "value": "$1,323.64 -$26.88 $1,296.76 -$3.24",
+   "status": "ok-arithmetic",
+   "note": "Recomputed."
+  },
+  {
+   "line": 114,
+   "value": "$1,276.36 $1,249.49 -$50.51",
+   "status": "ok-arithmetic",
+   "note": "Recomputed."
+  },
+  {
+   "line": 115,
+   "value": "$1,181.82 $1,154.94 -$145.06",
+   "status": "ok-arithmetic",
+   "note": "Recomputed."
+  },
+  {
+   "line": 116,
+   "value": "$5,200.00",
+   "status": "ok-arithmetic",
+   "note": "Column sums to 5200; shifts sum 0."
+  },
+  {
+   "line": 36,
+   "value": "$1,154.94 to $1,498.81",
+   "status": "ok-arithmetic",
+   "note": "Matches table rows."
+  },
+  {
+   "line": 120,
+   "value": "$343.87, $1,740.72",
+   "status": "ok-arithmetic",
+   "note": "1498.81-1154.94=343.87; 145.06x12=1740.72."
+  },
+  {
+   "line": 138,
+   "value": "jointly and severally",
+   "status": "ok-verified",
+   "note": "Opened Cornell questionnaire page (curl -k): 'jointly and severally bound'; responsible for housemate's rent, damages for term. Matches fact 2.9-0151."
+  },
+  {
+   "line": 140,
+   "value": "contribution",
+   "status": "ok-verified",
+   "note": "Opened Tenants Advocacy understanding-your-lease: joint obligor entitled to contribution, can sue defaulting co-tenant."
+  },
+  {
+   "line": 154,
+   "value": "607-301-1560",
+   "status": "ok-verified",
+   "note": "Opened tenants-rights page; number present; matches fact 2.24-0310."
+  }
+ ],
+ "fixes": [],
+ "new_facts": [
+  {
+   "fact": "Collegetown Plaza 4BR per-bed prices by bath count",
+   "value": "Premium 4BR 1 bath $1,185-$1,200; Premium 4BR 1.5 baths $1,250-$1,350; Deluxe 4BR 2 baths $1,295-$1,395 per bed a month",
+   "applies_to": "Collegetown Plaza, 111 Dryden Rd (Ithaca Renting)",
+   "period": "2027-28, read 2026-11-10",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "source_title": "Ithaca Renting: Collegetown properties",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "210 Dryden Rd room prices",
+   "value": "Standard Room $695-$810; Premium Room $850-$950 per bed a month",
+   "applies_to": "210 Dryden Rd (Ithaca Renting)",
+   "period": "2027-28, read 2026-11-10",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "source_title": "Ithaca Renting: Collegetown properties",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  }
+ ],
+ "fact_file_updates": []
+}
