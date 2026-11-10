@@ -1532,7 +1532,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page: no live article covers any residence hall; official page crawled (corpus scl.cornell.edu .../residence-halls/ganedago-hall), brief 2.3 has 2026-27 rates, getting-around brief lists it open over winter break and as the OurBus SYR pickup; entity bar pending."
+  "note": "entity bar: pass (8 distinct facts; demand: reporting: Cornell Daily Sun 2025/09 'Cornell reopens kitchen, addresses sanitation followi). New page: no live article covers any residence hall; official page crawled (corpus scl.cornell.edu .../residence-halls/ganedago-hall), brief 2.3 has 2026-27 rates, getting-around brief lists it open over winter break and as the OurBus SYR pickup; ."
  },
  "62": {
   "action": "write",
@@ -1558,10 +1558,10 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page, distinct from idea 120 (the dining room inside it; cross-link once live); official page crawled, open over winter break per getting-around brief, Crossings Cafe and Morrison Dining in the building per dining official lane; entity bar pending."
+  "note": "entity bar: pass (9 distinct facts; demand: reporting: Cornell Daily Sun 2021/09/06 'Class of 2025 becomes first to experience Morrison). New page, distinct from idea 120 (the dining room inside it; cross-link once live); official page crawled, open over winter break per getting-around brief, Crossings Cafe and Morrison Dining in the building per dining official lane; ."
  },
  "63": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "ruth-bader-ginsburg-hall-cornell",
@@ -1584,7 +1584,8 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled (residence-halls/ruth-bader-ginsburg-hall), brief 2.3 rates, Novick's Cafe in the building per dining official lane; neither housing brief profiles it; entity bar pending."
+  "note": "entity bar: hub-row (4 distinct facts; demand: reporting: Cornell Daily Sun 2020/10/09 naming story and 2021/04/08 guest room piece on the); its row belongs in hub 1 (North Campus dorms compared). Only 4 distinct facts. AC is 'not stated', winter break not open, no unloading zone listed. Row belongs in the North Campus dorms compared table (hub 1). New page; official page crawled (residence-halls/ruth-bader-ginsburg-hall), brief 2.3 rates, Novick's Cafe in the building per dining official lane; neither housing brief profiles it; .",
+  "hub_idea_id": 1
  },
  "64": {
   "action": "write",
@@ -1610,10 +1611,10 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, open over winter break 2026-27 per getting-around brief, brief 2.3 rates; entity bar pending."
+  "note": "entity bar: pass (5 distinct facts; demand: reporting: Cornell Daily Sun 2022/08/16 guest room 'Why the Name Hu Shih Deserves to Be on ). New page; official page crawled, open over winter break 2026-27 per getting-around brief, brief 2.3 rates; ."
  },
  "65": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "barbara-mcclintock-hall-cornell",
@@ -1636,7 +1637,8 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; only source in hand is the crawled official page (residence-halls/barbara-mcclintock-hall) plus brief 2.3 rates; no mention in either brief; entity bar pending."
+  "note": "entity bar: hub-row (3 distinct facts; demand: reporting: Cornell Daily Sun 2021/03/23 'New North Campus dorms to honor McClintock, Hu and); its row belongs in hub 1 (North Campus dorms compared). Only 3 facts; AC not stated, not open winter break, no unloading zone listed. Row in hub 1. New page; only source in hand is the crawled official page (residence-halls/barbara-mcclintock-hall) plus brief 2.3 rates; no mention in either brief; .",
+  "hub_idea_id": 1
  },
  "66": {
   "action": "write",
@@ -1662,10 +1664,10 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, getting-around brief has its own move-in unloading rules (Balch unloading zone, no staff help) and parking notes; entity bar pending."
+  "note": "entity bar: pass (7 distinct facts; demand: reporting: Cornell Daily Sun 2024/10 'Beginning at Balch: life at North Campus's newest dor; queue: q-getting-around-0025 'Where do I park on Cornell move-in day?' (move-in instruc). New page; official page crawled, getting-around brief has its own move-in unloading rules (Balch unloading zone, no staff help) and parking notes; ."
  },
  "67": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "clara-dickson-hall-cornell",
@@ -1688,7 +1690,8 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, housing brief mentions it three times and getting-around brief lists its move-out dock; entity bar pending."
+  "note": "entity bar: hub-row (5 distinct facts; demand: none); its row belongs in hub 1 (North Campus dorms compared). Five facts, but no demand signal: no queue.csv row, and the search turned up only Wikipedia mirrors, library archive photos and an alumni-magazine namesake item New page; official page crawled, housing brief mentions it three times and getting-around brief lists its move-out dock; .",
+  "hub_idea_id": 1
  },
  "68": {
   "action": "write",
@@ -1714,7 +1717,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, open over winter break and a move-out dock per getting-around brief; entity bar pending."
+  "note": "entity bar: pass (7 distinct facts; demand: reporting: Cornell Daily Sun 2001/05/03 'A journey inside the new Court and Mews dorms'; Su). New page; official page crawled, open over winter break and a move-out dock per getting-around brief; ."
  },
  "69": {
   "action": "write",
@@ -1740,10 +1743,10 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; only the crawled official page (residence-halls/court-kay-bauer-hall) and brief 2.3 rates exist; no brief mention; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Cornell Daily Sun, Nov. 9, 2026, 'Oasis on North Campus' on the sober living com). New page; only the crawled official page (residence-halls/court-kay-bauer-hall) and brief 2.3 rates exist; no brief mention; ."
  },
  "70": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "jameson-hall-cornell",
@@ -1766,7 +1769,8 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "verifier: slug changed from george-jameson-hall-cornell to jameson-hall-cornell because a slug starts with the words people search and Cornell's own crawled page is titled Jameson Hall, matching the primary query; no live slug collides; New page; only the crawled official page (residence-halls/jameson-hall) and brief 2.3 rates exist; no brief mention; entity bar pending."
+  "note": "entity bar: hub-row (5 distinct facts; demand: none); its row belongs in hub 1 (North Campus dorms compared). No queue row and no suggestion, PAA or independent reporting found; web search for 'George Jameson Hall' mostly returned a name mix-up and only Cornell housing  verifier: slug changed from george-jameson-hall-cornell to jameson-hall-cornell because a slug starts with the words people search and Cornell's own crawled page is titled Jameson Hall, matching the primary query; no live slug collides; New page; only the crawled official page (residence-halls/jameson-hall) and brief 2.3 rates exist; no brief mention; .",
+  "hub_idea_id": 1
  },
  "71": {
   "action": "write",
@@ -1792,10 +1796,10 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, open over winter break 2026-27 per getting-around brief; entity bar pending."
+  "note": "entity bar: pass (5 distinct facts; demand: reporting: Cornell Daily Sun 2013 'Transfers cramped in converted lounges' covers High Rise). New page; official page crawled, open over winter break 2026-27 per getting-around brief; ."
  },
  "72": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "mary-donlon-hall-cornell",
@@ -1818,10 +1822,11 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled and a move-out dock per getting-around brief; entity bar pending."
+  "note": "entity bar: hub-row (5 distinct facts; demand: none); its row belongs in hub 1 (North Campus dorms compared). No queue row; search surfaced only the namesake's biography and archive items, nothing reporting on the hall itself. Facts reach 5 but no demand signal. New page; official page crawled and a move-out dock per getting-around brief; .",
+  "hub_idea_id": 1
  },
  "73": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "townhouse-apartments-cornell-north-campus",
@@ -1844,7 +1849,8 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "verifier: slug changed from north-campus-townhouse-apartments-cornell to townhouse-apartments-cornell-north-campus so it starts with the searched words (Cornell titles the page Townhouse Apartments and the primary query starts with the name, not the campus); the CO-detector page is confirmed crawled under upperlevel-undergraduates/residence-halls/townhouse-apartments; New page; brief 2.3 has the townhouse double rate ($15,566 a year), official page and its CO-detector page crawled, open over winter break per getting-around brief; entity bar pending."
+  "note": "entity bar: hub-row (8 distinct facts; demand: none); its row belongs in hub 1 (North Campus dorms compared). Facts clear the bar easily, but no queue row, suggestion, PAA or independent press coverage was found; only Cornell's own news item on renovations (not Sun, Chr verifier: slug changed from north-campus-townhouse-apartments-cornell to townhouse-apartments-cornell-north-campus so it starts with the searched words (Cornell titles the page Townhouse Apartments and the primary query starts with the name, not the campus); the CO-detector page is confirmed crawled under upperlevel-undergraduates/residence-halls/townhouse-apartments; New page; brief 2.3 has the townhouse double rate ($15,566 a year), official page and its CO-detector page crawled, open over winter break per getting-around brief; .",
+  "hub_idea_id": 1
  },
  "74": {
   "action": "write",
@@ -1870,7 +1876,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, dining official lane has the mandatory House Meal Plan and Cook House late-night block, Food Pantry across the street at 109 McGraw and a bikeshare hub nearby; links to idea 125 once live; entity bar pending."
+  "note": "entity bar: pass (7 distinct facts; demand: reporting: Cornell Daily Sun 2004 'Alice Cook House welcomes students' and 2005 'Cook House; search: Search returned a dedicated house site and several Cornell pages for the name). New page; official page crawled, dining official lane has the mandatory House Meal Plan and Cook House late-night block, Food Pantry across the street at 109 McGraw and a bikeshare hub nearby; links to idea 125 once live; ."
  },
  "75": {
   "action": "write",
@@ -1896,7 +1902,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, mandatory House Meal Plan per dining official lane, Becker dining reviewed in the dining voice lane (Sun 2022 review, Her Campus ranking); entity bar pending."
+  "note": "entity bar: pass (7 distinct facts; demand: reporting: Cornell Chronicle pieces: 'Cindy Hazan named professor and dean of West Campus B). New page; official page crawled, mandatory House Meal Plan per dining official lane, Becker dining reviewed in the dining voice lane (Sun 2022 review, Her Campus ranking); ."
  },
  "76": {
   "action": "write",
@@ -1922,7 +1928,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, Rose House Dining Room is the West Meals on the Move pickup per dining official lane, mandatory House Meal Plan; entity bar pending."
+  "note": "entity bar: pass (7 distinct facts; demand: reporting: Cornell Daily Sun 2008 'Last West Campus house named for Flora Rose'; Cornell Ch). New page; official page crawled, Rose House Dining Room is the West Meals on the Move pickup per dining official lane, mandatory House Meal Plan; ."
  },
  "77": {
   "action": "write",
@@ -1948,7 +1954,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, Jansen's Dining Room is in the house per dining official lane, mandatory House Meal Plan; entity bar pending."
+  "note": "entity bar: pass (7 distinct facts; demand: reporting: Cornell Daily Sun 2022-11-07 West Campus dining review scores Bethe 8/10; Sun 20). New page; official page crawled, Jansen's Dining Room is in the house per dining official lane, mandatory House Meal Plan; ."
  },
  "78": {
   "action": "write",
@@ -1974,10 +1980,10 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, halal on request at Keeton dining and mandatory House Meal Plan per dining official lane; entity bar pending."
+  "note": "entity bar: pass (7 distinct facts; demand: reporting: Cornell Daily Sun 2022-11-07 West Campus dining review (Keeton 5.5/10); Sun 2021). New page; official page crawled, halal on request at Keeton dining and mandatory House Meal Plan per dining official lane; ."
  },
  "79": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "gothics-cornell-west-campus-dorms",
@@ -2000,7 +2006,8 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page but the thinnest West Campus fact base: no dedicated crawled page, only mentions on the upper-level campus-housing and move-out loading pages (Gothics Way not accessible) plus brief 2.3 rates; entity bar pending."
+  "note": "entity bar: hub-row (2 distinct facts; demand: reporting: Only a student blog ('Living in the Gothics', Rose Scholars 2017) and wiki pages); its row belongs in hub 2 (West Campus houses compared). A nickname for older West Campus halls with no entity-specific fact rows beyond the shared Gothic construction list; its facts sit inside the Cook, Rose and Bet New page but the thinnest West Campus fact base: no dedicated crawled page, only mentions on the upper-level campus-housing and move-out loading pages (Gothics Way not accessible) plus brief 2.3 rates; .",
+  "hub_idea_id": 2
  },
  "80": {
   "action": "write",
@@ -2026,7 +2033,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page and its move-in page crawled (Eddygate-entrance unloading zone), open over winter break and Williams Street garage move-out per getting-around brief; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Weak: web search 'Cascadilla Hall Cornell' shows official pages, RoomSurf dorm r). New page; official page and its move-in page crawled (Eddygate-entrance unloading zone), open over winter break and Williams Street garage move-out per getting-around brief; ."
  },
  "81": {
   "action": "write",
@@ -2052,7 +2059,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page with the best-sourced dorm profile: brief 2.3 and 5.2 carry the Sun piece (up to 164 residents above Collegetown Bagels, 12-minute walk to dining, broken elevator, College Ave noise) and the official page is crawled; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Cornell Daily Sun, 2026-04-17, 'The Misunderstood Dorm: Sheldon Court'; Sun 2005). New page with the best-sourced dorm profile: brief 2.3 and 5.2 carry the Sun piece (up to 164 residents above Collegetown Bagels, 12-minute walk to dining, broken elevator, College Ave noise) and the official page is crawled; ."
  },
  "82": {
   "action": "write",
@@ -2078,7 +2085,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, getting-around brief has its Williams Street lot parking and move-in notes; entity bar pending."
+  "note": "entity bar: pass (5 distinct facts; demand: reporting: Cornell Daily Sun, Nov. 2025, 'Life in Schuyler House'; web search also shows Ca). New page; official page crawled, getting-around brief has its Williams Street lot parking and move-in notes; ."
  },
  "83": {
   "action": "write",
@@ -2104,10 +2111,10 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page with a full brief profile (2.3 and 5.2: $15M purchase March 2025, 12 units, 43 residents Aug 2026 toward 105, resident complaints, meal plan reported required) plus the crawled official page; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Cornell Daily Sun 2025-03 acquisition story, 2025-09 availability story, 2026-09). New page with a full brief profile (2.3 and 5.2: $15M purchase March 2025, 12 units, 43 residents Aug 2026 toward 105, resident complaints, meal plan reported required) plus the crawled official page; ."
  },
  "84": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "112-edgemoor-cornell-housing",
@@ -2130,10 +2137,11 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; the crawled official page (upper-level residence-halls/112-edgemoor) is the only source, neither brief mentions it; entity bar pending."
+  "note": "entity bar: hub-row (4 distinct facts; demand: none); its row belongs in hub 3 (South Campus halls near Collegetown). All facts sit in one profile row; the only other mentions are shared Collegetown meal plan and move-in rows. Web search for '112 Edgemoor Cornell' shows only th New page; the crawled official page (upper-level residence-halls/112-edgemoor) is the only source, neither brief mentions it; .",
+  "hub_idea_id": 3
  },
  "85": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "109-mcgraw-place-cornell-housing",
@@ -2156,10 +2164,11 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled under new-transfer residence halls (adjacent to West Campus), and the dining official lane places the Cornell Food Pantry at the same address; entity bar pending."
+  "note": "entity bar: hub-row (3 distinct facts; demand: reporting: Cornell Daily Sun 2023 'Meet the McGraws' column and Oct 2023 report of McGraw P); its row belongs in hub 3 (South Campus halls near Collegetown). Only 3 entity-specific facts in the fact file (9011 is one row, 9001 is a list). Demand exists (Sun reporting) but facts are short. Cornell groups it with South New page; official page crawled under new-transfer residence halls (adjacent to West Campus), and the dining official lane places the Cornell Food Pantry at the same address; .",
+  "hub_idea_id": 3
  },
  "86": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "104-mary-ann-wood-drive-cornell-housing",
@@ -2182,7 +2191,8 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, getting-around brief lists Mary Ann Wood Dr as a West Campus move-out loading street; entity bar pending."
+  "note": "entity bar: hub-row (5 distinct facts; demand: none); its row belongs in hub 3 (South Campus halls near Collegetown). Facts reach 5 only by splitting the single row 9010. No demand signal: not in queue.csv, and the web search returned only Cornell's own housing page and maps, w New page; official page crawled, getting-around brief lists Mary Ann Wood Dr as a West Campus move-out loading street; .",
+  "hub_idea_id": 3
  },
  "87": {
   "action": "write",
@@ -2208,7 +2218,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; no live article covers any program house; official page crawled (program-houses/akwekon), move-out lot in getting-around brief, brief 2.3 program-house rates; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Cornell Daily Sun Dec 2, 2025 'Even If Our Numbers Are Lower, We're Still Here';). New page; no live article covers any program house; official page crawled (program-houses/akwekon), move-out lot in getting-around brief, brief 2.3 program-house rates; ."
  },
  "88": {
   "action": "write",
@@ -2234,10 +2244,10 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, move-out lot in getting-around brief; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Cornell Student & Campus Life 'Program House Spotlight: Ecology House'; Cornelli; people-also-ask: The web search did not surface autocomplete or PAA for it; not named in queue.cs). New page; official page crawled, move-out lot in getting-around brief; ."
  },
  "89": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "equity-and-engagement-community-cornell",
@@ -2260,7 +2270,8 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; the crawled official page (program-houses/equity-engagement-community-eec) is the only source, no brief mention; entity bar pending."
+  "note": "entity bar: hub-row (5 distinct facts; demand: none); its row belongs in hub 4 (Cornell program houses). Facts reach 5 by splitting rows, but there is no demand signal: not in queue.csv, and the web search found no Cornell housing results or reporting for the name  New page; the crawled official page (program-houses/equity-engagement-community-eec) is the only source, no brief mention; .",
+  "hub_idea_id": 4
  },
  "90": {
   "action": "write",
@@ -2286,7 +2297,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, open over winter break (HILC/Low Rise 8) per getting-around brief, one housing brief mention; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Cornell Student & Campus Life 'Program House Spotlight: HILC'; Cornellians progr; people-also-ask: Not named in queue.csv; search showed no PAA, only official and campusgroups pag). New page; official page crawled, open over winter break (HILC/Low Rise 8) per getting-around brief, one housing brief mention; ."
  },
  "91": {
   "action": "write",
@@ -2312,7 +2323,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page plus an SCL news feature on JAM are crawled; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: queue: queue/queue.csv q-housing-0026 'Are Cornell program houses worth it?' (evidence ; reporting: Cornell Daily Sun Nov 2024 Electric Buffalo Records piece comparing attendance a). New page; official page plus an SCL news feature on JAM are crawled; ."
  },
  "92": {
   "action": "write",
@@ -2338,10 +2349,10 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; the crawled official page is the only source, no brief mention; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Cornell Chronicle Apr 1, 2025 'Language House opens to students learning ASL'; C). New page; the crawled official page is the only source, no brief mention; ."
  },
  "93": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "latino-living-center-cornell",
@@ -2364,7 +2375,8 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, move-out lot in getting-around brief; entity bar pending."
+  "note": "entity bar: hub-row (4 distinct facts; demand: queue row: q-housing-0026 'Are Cornell program houses worth it?' names latino living center; reporting: Cornell Latina/o Studies news (25th anniversary, $100,000 endowment) and Cornell); its row belongs in hub 4 (Cornell program houses). Demand exists but only 4 distinct entity-specific facts; getting-around 2.18 (move-out lot near LLC) is a logistics mention, not counted, as it is shared with R New page; official page crawled, move-out lot in getting-around brief; .",
+  "hub_idea_id": 4
  },
  "94": {
   "action": "write",
@@ -2390,10 +2402,10 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, open over winter break 2026-27 per getting-around brief; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Cornell Daily Sun 2019: 'Fundraising to make the Loving House a home' and Aug 20). New page; official page crawled, open over winter break 2026-27 per getting-around brief; ."
  },
  "95": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "multicultural-living-learning-unit-mcllu-cornell",
@@ -2416,7 +2428,8 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; the crawled official page is the only source, no brief mention; entity bar pending."
+  "note": "entity bar: hub-row (4 distinct facts; demand: reporting: Cornell Daily Sun 2006 'Cornell's McLLU attracts students'; Cornell Chronicle 'O); its row belongs in hub 4 (Cornell program houses). Only 4 distinct facts; no queue row. Row in hub 4 table. New page; the crawled official page is the only source, no brief mention; .",
+  "hub_idea_id": 4
  },
  "96": {
   "action": "write",
@@ -2442,7 +2455,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page, distinct from idea 122 (the dining room; cross-link once live); official page crawled, dining lanes hold the Risley allergen-free facts and student reviews; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: queue row: q-housing-0026 names risley in demand_evidence; reporting: Cornell Chronicle 'Events celebrate 100 years of Risley Hall'; Cornell Daily Sun). New page, distinct from idea 122 (the dining room; cross-link once live); official page crawled, dining lanes hold the Risley allergen-free facts and student reviews; ."
  },
  "97": {
   "action": "write",
@@ -2468,7 +2481,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, one housing brief mention; entity bar pending."
+  "note": "entity bar: pass (5 distinct facts; demand: reporting: Cornell Daily Sun Nov 9, 2026 'Oasis on North Campus' and Apr 2026 recovery-hous). New page; official page crawled, one housing brief mention; ."
  },
  "98": {
   "action": "write",
@@ -2494,7 +2507,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; the crawled official page is the only source, no brief mention; entity bar pending."
+  "note": "entity bar: pass (5 distinct facts; demand: queue row: q-housing-0026 names ujamaa in demand_evidence; reporting: Cornell Daily Sun May 5, 2026 'A Major Loss for Black Students'; Sun 40th annive). New page; the crawled official page is the only source, no brief mention; ."
  },
  "99": {
   "action": "write",
@@ -2520,7 +2533,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; official page crawled, open over winter break per getting-around brief, two housing brief mentions; entity bar pending."
+  "note": "entity bar: pass (7 distinct facts; demand: reporting: Cornell Daily Sun Sept 19, 2021 'New Program House Opens, Creating Community Amo). New page; official page crawled, open over winter break per getting-around brief, two housing brief mentions; ."
  },
  "100": {
   "action": "write",
@@ -2547,7 +2560,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "verifier: slug and query changed from red-bud-... to Cornell's spelling Redbud, since the crawled dedicated page is titled Redbud Cooperative in Von Cramm Hall and 18 of 19 scl.cornell.edu uses spell it that way; the page should still carry Red Bud as a variant because the rates page, brief 2.3 and IDEAS.md write it so; New page: the live co-ops article compares all eight houses as a group, not a duplicate; brief 2.3 has its rates (cheapest co-op, triple $2,765 a semester), dataset rows 2-3, official page crawled; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Cornell Daily Sun Feb 2024 'Moseying: exploring collaborative cooking in Cornell). verifier: slug and query changed from red-bud-... to Cornell's spelling Redbud, since the crawled dedicated page is titled Redbud Cooperative in Von Cramm Hall and 18 of 19 scl.cornell.edu uses spell it that way; the page should still carry Red Bud as a variant because the rates page, brief 2.3 and IDEAS.md write it so; New page: the live co-ops article compares all eight houses as a group, not a duplicate; brief 2.3 has its rates (cheapest co-op, triple $2,765 a semester), dataset rows 2-3, official page crawled; ."
  },
  "101": {
   "action": "write",
@@ -2574,7 +2587,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "verifier: 'ten housing brief mentions' corrected to three (the 2.2 co-op list, the 2.3 rate row and the section 10 double-rate math); the other seven Triphammer hits are Triphammer Road, Terrace and Mall, so the fact base is the official page plus rates, not a profiled house; New page; brief 2.3 rates (single $4,889, double $4,317, triple $3,972 a semester), dataset row 2 note, official page crawled; entity bar pending."
+  "note": "entity bar: pass (7 distinct facts; demand: reporting: Cornell Sun 2017 'Co-ops open doors for Mosey' and SCL feature 'Triphammer co-op; queue: q-housing-0008 'How do Cornell co-ops work and how do I join one?' (category-lev). verifier: 'ten housing brief mentions' corrected to three (the 2.2 co-op list, the 2.3 rate row and the section 10 double-rate math); the other seven Triphammer hits are Triphammer Road, Terrace and Mall, so the fact base is the official page plus rates, not a profiled house; New page; brief 2.3 rates (single $4,889, double $4,317, triple $3,972 a semester), dataset row 2 note, official page crawled; ."
  },
  "102": {
   "action": "write",
@@ -2601,7 +2614,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; brief 2.3 rates and 5.2 (Sun 2024 on deteriorating co-ops, Watermargin roof about $500,000), official page crawled; entity bar pending."
+  "note": "entity bar: pass (7 distinct facts; demand: reporting: Cornell Chronicle Jan 2024 'For more than 75 years, students have made Watermarg; reporting: Cornell Sun Oct 21, 2024 co-op deterioration article (roof)). New page; brief 2.3 rates and 5.2 (Sun 2024 on deteriorating co-ops, Watermargin roof about $500,000), official page crawled; ."
  },
  "103": {
   "action": "write",
@@ -2628,7 +2641,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; brief 2.3 rates (single $4,889-5,213, double $4,318), official page crawled; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Cornell SCL feature 'The unexpected delights at Prospect of Whitby' (Nov 13, 202; queue: q-housing-0008 (category-level co-ops question)). New page; brief 2.3 rates (single $4,889-5,213, double $4,318), official page crawled; ."
  },
  "104": {
   "action": "write",
@@ -2655,10 +2668,10 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; Cornell's official name is Wait Avenue Cooperative (page crawled), brief 2.3 rates (single $5,340-5,693, double $4,715); a separate house from Wait Terrace (idea 105), so not merged; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Cornell SCL 'Co-op spotlight: 302 Wait Ave' feature; queue: q-housing-0008 (category-level co-ops question)). New page; Cornell's official name is Wait Avenue Cooperative (page crawled), brief 2.3 rates (single $5,340-5,693, double $4,715); a separate house from Wait Terrace (idea 105), so not merged; ."
  },
  "105": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "wait-terrace-cooperative-cornell",
@@ -2682,7 +2695,8 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; its own official page is crawled and brief 2.3 lists its rates as the same as 302 Wait; kept separate from idea 104 because it is a distinct house with its own selection; entity bar pending."
+  "note": "entity bar: hub-row (5 distinct facts; demand: none); its row belongs in hub 5 (Cornell co-ops). Five facts, but no entity-specific demand signal: the search returned only the SCL page and parking maps, no autocomplete, People-also-ask or reporting, and the New page; its own official page is crawled and brief 2.3 lists its rates as the same as 302 Wait; kept separate from idea 104 because it is a distinct house with its own selection; .",
+  "hub_idea_id": 5
  },
  "106": {
   "action": "write",
@@ -2709,7 +2723,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; brief 2.3 rates (single $5,640, double $4,981, the top of the co-op range in dataset row 2), official page crawled; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Cornell SCL feature 'Inside creative collaboration: 660 Stewart Avenue'; queue: q-housing-0008 (category-level co-ops question)). New page; brief 2.3 rates (single $5,640, double $4,981, the top of the co-op range in dataset row 2), official page crawled; ."
  },
  "107": {
   "action": "write",
@@ -2736,10 +2750,10 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; brief 2.3 rates (single $5,640-6,014, double $4,981), dataset row 2 note, official page crawled; entity bar pending."
+  "note": "entity bar: pass (7 distinct facts; demand: reporting: Cornell Sun Mar 2023 and Feb 16, 2024 'Moseying: exploring collaborative cooking; queue: q-housing-0008 (category-level co-ops question)). New page; brief 2.3 rates (single $5,640-6,014, double $4,981), dataset row 2 note, official page crawled; ."
  },
  "108": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "alpha-zeta-214-thurston-avenue-cornell",
@@ -2762,10 +2776,11 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "verifier: 'no crawled page' corrected: the crawled qualified-off-campus-housing page (corpus scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing) carries an overview, amenities and contact block for Alpha Zeta (professional fraternity for agriculture and natural resources, shared meals and events), though no dedicated page exists; the crawled Greek organization scorecard does not list it; New page but thin: brief 2.2 holds only the address and its listing as affiliated second-year housing plus the affiliated-house requirements; no cost figures; entity bar pending."
+  "note": "entity bar: hub-row (1 distinct facts; demand: none); its row belongs in hub 9 (Fraternity and sorority housing). Only an address and its listing on the affiliated-housing page; 9194 (affiliated-housing rules) is shared with Center for Jewish Living and Seal and Serpent, so verifier: 'no crawled page' corrected: the crawled qualified-off-campus-housing page (corpus scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing) carries an overview, amenities and contact block for Alpha Zeta (professional fraternity for agriculture and natural resources, shared meals and events), though no dedicated page exists; the crawled Greek organization scorecard does not list it; New page but thin: brief 2.2 holds only the address and its listing as affiliated second-year housing plus the affiliated-house requirements; no cost figures; .",
+  "hub_idea_id": 9
  },
  "109": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "center-for-jewish-living-cornell",
@@ -2786,10 +2801,11 @@
   ],
   "datasets": [],
   "data_needed": "",
-  "note": "New page, distinct from idea 124 (104West! next door; cross-link once live); brief 2.2 has the address and contacts and the affiliated-house rules, dining official lane places the kosher dining room beside it; entity bar pending."
+  "note": "entity bar: hub-row (2 distinct facts; demand: reporting: Web search: Cornell Chronicle kosher dining story, Cornell Sun CJL tag page, Oct); its row belongs in hub 4 (Cornell program houses). Only 2 entity-specific facts (address/contact; the 104 West hall). off-campus-housing-new-9194 (affiliated-housing application) is shared with Alpha Zeta and Se New page, distinct from idea 124 (104West! next door; cross-link once live); brief 2.2 has the address and contacts and the affiliated-house rules, dining official lane places the kosher dining room beside it; .",
+  "hub_idea_id": 4
  },
  "110": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "seal-and-serpent-305-thurston-avenue-cornell",
@@ -2812,7 +2828,8 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "verifier: 'no crawled page' corrected: the crawled qualified-off-campus-housing page carries an overview, amenities and contact block for Seal and Serpent (fraternity dating to 1905, historic house with modern amenities), and the crawled Greek organization scorecard lists it only as an Independent Registered Student Organization; no dedicated page and still no cost figures; New page but thin: brief 2.2 holds the address, its affiliated-housing listing and a history back to 1905; entity bar pending."
+  "note": "entity bar: hub-row (1 distinct facts; demand: reporting: Web search: Wikipedia, Cornell archives record group (1906-2009), 2010 Cornell S); its row belongs in hub 4 (Cornell program houses). One entity-specific fact (address plus 1905 history). new-9194 is category-wide for non-Greek affiliated houses. No inventory row, no rates, beds or room types. verifier: 'no crawled page' corrected: the crawled qualified-off-campus-housing page carries an overview, amenities and contact block for Seal and Serpent (fraternity dating to 1905, historic house with modern amenities), and the crawled Greek organization scorecard lists it only as an Independent Registered Student Organization; no dedicated page and still no cost figures; New page but thin: brief 2.2 holds the address, its affiliated-housing listing and a history back to 1905; .",
+  "hub_idea_id": 4
  },
  "111": {
   "action": "write",
@@ -2836,7 +2853,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page: the live grad-housing and family-housing articles cover Hasbrouck inside a wider scope, not duplicates; brief 2.3 and 5.2 hold the full 2026-27 rate table, dataset rows 4-6 plus family units, official page crawled; entity bar pending."
+  "note": "entity bar: pass (7 distinct facts; demand: reporting: Web search: Cornell Sun 2006 undergrads-move-to-Hasbrouck coverage, GPSA 2009 Ha; queue: queue/queue.csv q-housing-0023 (visiting scholar furnished housing) cites Hasbro). New page: the live grad-housing and family-housing articles cover Hasbrouck inside a wider scope, not duplicates; brief 2.3 and 5.2 hold the full 2026-27 rate table, dataset rows 4-6 plus family units, official page crawled; ."
  },
  "112": {
   "action": "write",
@@ -2860,7 +2877,7 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "New page; brief 5.2 (Greystar-managed, furnished studio to 4BR, utilities included) and the crawled grad-housing page, but Cornell publishes no prices and the dataset flags Maplewood prices as missing, so the writer must source rents from Maplewood's own site; bikeshare hub on site; entity bar pending."
+  "note": "entity bar: pass (7 distinct facts; demand: reporting: Web search: Cornell Sun 2016 trustees approval, 2017 renovation article, 2018 mo). New page; brief 5.2 (Greystar-managed, furnished studio to 4BR, utilities included) and the crawled grad-housing page, but Cornell publishes no prices and the dataset flags Maplewood prices as missing, so the writer must source rents from Maplewood's own site; bikeshare hub on site; ."
  },
  "113": {
   "action": "write",
@@ -2889,7 +2906,7 @@
    "collegetown-rent-per-bed-2027-28"
   ],
   "data_needed": "",
-  "note": "New page with the richest private-building profile: brief 5.2 (52 units, 3BR $5,500-5,800, basement 2BR $1,595 per person, 20% discount case, amenities, Modern Living Rentals) and dataset row 22; an inventory.csv row will refresh prices later; entity bar pending."
+  "note": "entity bar: pass (7 distinct facts; demand: reporting: Cornell Sun Dec 2025 'The Ivy to establish new luxury housing in Collegetown'; I). New page with the richest private-building profile: brief 5.2 (52 units, 3BR $5,500-5,800, basement 2BR $1,595 per person, 20% discount case, amenities, Modern Living Rentals) and dataset row 22; an inventory.csv row will refresh prices later; ."
  },
  "114": {
   "action": "write",
@@ -2917,7 +2934,7 @@
    "collegetown-rent-per-bed-2027-28"
   ],
   "data_needed": "",
-  "note": "New page; brief 5.2 and 5.3 (Novarr-Mackesey, quiet and farther than Collegetown Center, studios to $1,795 in 2022) but prices are stale, so current rents must come from the complex's listings or the inventory.csv row; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Web search: Cornell Sun 2012 model-apartment article, Ithacating construction up). New page; brief 5.2 and 5.3 (Novarr-Mackesey, quiet and farther than Collegetown Center, studios to $1,795 in 2022) but prices are stale, so current rents must come from the complex's listings or the inventory.csv row; ."
  },
  "115": {
   "action": "write",
@@ -2946,7 +2963,7 @@
    "collegetown-vs-downtown-rent-per-bed-2026"
   ],
   "data_needed": "",
-  "note": "New page; brief 5.2 has a short profile (studios upwards of $2,300 per a columnist, 339-bedroom net gain, $0 application fee snippet), thin on verified rents until the inventory.csv row exists; entity bar pending."
+  "note": "entity bar: pass (5 distinct facts; demand: reporting: Planning board approval 2022 and 'net gain of 339 bedrooms' (Cornell Review) cit). New page; brief 5.2 has a short profile (studios upwards of $2,300 per a columnist, 339-bedroom net gain, $0 application fee snippet), thin on verified rents until the inventory.csv row exists; ."
  },
  "116": {
   "action": "write",
@@ -2974,10 +2991,10 @@
    "collegetown-rent-per-bed-2027-28"
   ],
   "data_needed": "",
-  "note": "New page; brief 5.3 profiles Student Agencies (SAI Real Estate, among the first to open leasing in Sept 2022, priciest 1BR $2,550 in 2022, website shows no rentals section) and the getting-around brief has BRSS supplies at its front desk; current rents need fresh sourcing; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Cornell Sun Sept 2021 'Student Agencies apartments open after more than a year o). New page; brief 5.3 profiles Student Agencies (SAI Real Estate, among the first to open leasing in Sept 2022, priciest 1BR $2,550 in 2022, website shows no rentals section) and the getting-around brief has BRSS supplies at its front desk; current rents need fresh sourcing; ."
  },
  "117": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "eddygate-apartments-collegetown",
@@ -3002,10 +3019,11 @@
    "collegetown-rent-per-bed-2027-28"
   ],
   "data_needed": "",
-  "note": "New page with no sourced profile anywhere: neither brief, facts.csv nor the corpus describes the building (the only hit is Cascadilla Hall's Eddygate-entrance unloading zone), so the writer needs its official listing page and the inventory.csv row before drafting; entity bar pending."
+  "note": "entity bar: hub-row (6 distinct facts; demand: none); its row belongs in hub 6 (Collegetown apartments guide). Facts clear the bar (6 from inventory.csv row 251; no fact_id there), but there is no demand signal: no queue.csv row, and the web search for Eddygate Cornell r New page with no sourced profile anywhere: neither brief, facts.csv nor the corpus describes the building (the only hit is Cascadilla Hall's Eddygate-entrance unloading zone), so the writer needs its official listing page and the inventory.csv row before drafting; .",
+  "hub_idea_id": 6
  },
  "118": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "collegetown-dwellings-ithaca",
@@ -3030,7 +3048,8 @@
    "collegetown-rent-per-bed-2027-28"
   ],
   "data_needed": "",
-  "note": "New page with no sourced profile anywhere (zero mentions in the briefs, facts.csv and corpus), so the writer needs its official listing page and the inventory.csv row before drafting; entity bar pending."
+  "note": "entity bar: hub-row (0 distinct facts; demand: none); its row belongs in hub 6 (Collegetown apartments guide). No rows in any fact file, inventory.csv or queue.csv under that name or variants. Web search found no property called Collegetown Dwellings, only unrelated Coll New page with no sourced profile anywhere (zero mentions in the briefs, facts.csv and corpus), so the writer needs its official listing page and the inventory.csv row before drafting; .",
+  "hub_idea_id": 6
  },
  "119": {
   "action": "waiting-data",
@@ -3077,10 +3096,10 @@
   "tools": [],
   "datasets": [],
   "data_needed": "",
-  "note": "New page: no live article covers a dining hall (the meal-plan page compares plans); dining raw lanes hold its facts (in Toni Morrison Hall, dedicated halal and kosher stations, Late Night 8:30-10:30, 35.1% favorite in the Sun Sunset Survey 2026, 2026-27 door prices) but no dining brief exists yet; distinct from idea 62; entity bar pending."
+  "note": "entity bar: pass (7 distinct facts; demand: reporting: Cornell Sun 2021-10-24 trial lunch and 2022-01-30 piece on Morrison; Horton Awar; search: Search for Morrison Dining Cornell returns extensive coverage, no autocomplete s). New page: no live article covers a dining hall (the meal-plan page compares plans); dining raw lanes hold its facts (in Toni Morrison Hall, dedicated halal and kosher stations, Late Night 8:30-10:30, 35.1% favorite in the Sun Sunset Survey 2026, 2026-27 door prices) but no dining brief exists yet; distinct from idea 62; ."
  },
  "121": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "north-star-dining-room-cornell",
@@ -3096,10 +3115,11 @@
   "tools": [],
   "datasets": [],
   "data_needed": "",
-  "note": "New page; dining raw lanes hold its facts (Appel Commons, Late Night block, Sun pieces on its late-night hours in 2023 and 2024, door prices) with no dining brief yet; entity bar pending."
+  "note": "entity bar: hub-row (5 distinct facts; demand: reporting: Cornell Sun 2023-02-05 extended evening hours and 2024-03-24 late-night frustrat; search: Search shows scl.cornell.edu pages, Cornell events Diner Night, Sun coverage; no); its row belongs in hub 125 (West Campus dining rooms compared). Demand is fine but facts are thin: the five counted include one opinion column and a one-off event, and the fact file has no regular hours, address, or station  New page; dining raw lanes hold its facts (Appel Commons, Late Night block, Sun pieces on its late-night hours in 2023 and 2024, door prices) with no dining brief yet; .",
+  "hub_idea_id": 125
  },
  "122": {
-  "action": "write",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "risley-dining-cornell",
@@ -3115,7 +3135,8 @@
   "tools": [],
   "datasets": [],
   "data_needed": "",
-  "note": "New page, distinct from idea 96 (the residential college; cross-link once live); dining raw lanes hold the gluten, peanut and tree-nut-free sourcing, the AllerCheck note and vegan reviews; entity bar pending."
+  "note": "entity bar: hub-row (3 distinct facts; demand: reporting: Cornell Sun 2017-10-25 Risley Dining, 2025-11 dessert review; Food Service Direc; search: Search returns Cornell page, OpenTable listing, Sun pieces; no PAA); its row belongs in hub 125 (West Campus dining rooms compared). Only about 3 specific facts; polarizing/12.4% survey items are opinion and shared with other halls. Queue row q-housing-0026 is about Risley the residential col New page, distinct from idea 96 (the residential college; cross-link once live); dining raw lanes hold the gluten, peanut and tree-nut-free sourcing, the AllerCheck note and vegan reviews; .",
+  "hub_idea_id": 125
  },
  "123": {
   "action": "write",
@@ -3134,7 +3155,7 @@
   "tools": [],
   "datasets": [],
   "data_needed": "",
-  "note": "New page; dining raw lanes hold its facts (Willard Straight Hall, the only Central Campus swipe room per a 2025 column, 2021 renovation, 2025 and 2026 Sun defenses, door prices); entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: reporting: Cornell Sun 2026-03-02 foodie homage, 2025-09-10 best dining hall, 2021-10 renov; search: Search for Okenshields Cornell only found library record on name origin; no PAA). New page; dining raw lanes hold its facts (Willard Straight Hall, the only Central Campus swipe room per a 2025 column, 2021 renovation, 2025 and 2026 Sun defenses, door prices); ."
  },
  "124": {
   "action": "write",
@@ -3153,7 +3174,7 @@
   "tools": [],
   "datasets": [],
   "data_needed": "",
-  "note": "New page, distinct from idea 109 (the Center for Jewish Living beside it; cross-link once live); dining raw lanes hold the Star-K and STAR-D certification, mashgiach, halal and Adventist accommodation, extra charges for Shabbat and holiday meals, grab-and-go in retail coolers; entity bar pending."
+  "note": "entity bar: pass (6 distinct facts; demand: queue: queue.csv q-daily-life-0018 'What food can I eat at Cornell if I am halal, koshe; reporting: Sun 2023-02-09 104 West food review; 2024 Sun hidden meal-plan hotspots; STAR-K ). New page, distinct from idea 109 (the Center for Jewish Living beside it; cross-link once live); dining raw lanes hold the Star-K and STAR-D certification, mashgiach, halal and Adventist accommodation, extra charges for Shabbat and holiday meals, grab-and-go in retail coolers; ."
  },
  "125": {
   "action": "write",
