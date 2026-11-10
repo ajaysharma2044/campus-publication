@@ -1,5 +1,15 @@
 ---
-/* "EduExplained" in Newsreader 600, two-tone: Edu in the surface color, Explained in gold. The favicon and social avatar are a
-   Newsreader 600 "E" in gold on navy (scripts/brand/favicon.svg holds the glyph outline; scripts/brand-assets.mjs exports the PNGs). */
+/* The EduExplained wordmark: Ajay's artwork (2026-11-10, a bold Baskerville-style serif, navy on white or white on navy), traced to
+   an outline in scripts/brand/wordmark.svg. The masthead inlines the outline once per page as a <symbol> (`define`); the footer
+   and the styleguide reuse it with <use>. The fill follows the CSS color. scripts/brand/favicon.svg is the wordmark's E on navy;
+   scripts/brand-assets.mjs renders the icons and the Open Graph card from these two files. */
+import wordmark from '../../scripts/brand/wordmark.svg?raw';
+interface Props { define?: boolean }
+const { define = false } = Astro.props;
+const d = wordmark.match(/ d="([^"]+)"/)![1];
+const viewBox = wordmark.match(/viewBox="([^"]+)"/)![1];
 ---
-<span class="logo__text">Edu<span class="logo__accent">Explained</span></span>
+<svg class="wordmark" viewBox={viewBox} role="img" aria-label="EduExplained" focusable="false">
+  {define ? <symbol id="wordmark" viewBox={viewBox}><path fill="currentColor" fill-rule="evenodd" d={d} /></symbol> : null}
+  <use href="#wordmark" />
+</svg>

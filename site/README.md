@@ -24,6 +24,7 @@ npm run lighthouse   # reports/lighthouse/*.report.html + README.md (Chrome for 
 - `src/components/`: the shared components; `src/layouts/`: the 14 templates; `src/pages/`: the routes.
 - `src/styles/global.css`: the only stylesheet.
 - `scripts/check-build.mjs`: post-build checks (one H1, no inline styles, meta tags, link integrity, orphans, hub completeness).
+- `scripts/brand/`: the wordmark outline (`wordmark.svg`, traced from the owner's artwork in `source/`), the favicon (`favicon.svg`, the wordmark's E on navy) and the Open Graph card template; `node scripts/brand-assets.mjs` regenerates the icons, the social avatar, `og-default.png` and the manifest in `public/` (`scripts/brand/README.md`).
 - `/styleguide/`: every component and template with labeled sample content (noindex).
 
 Judgment calls are logged in the repository's `DECISIONS.md`.

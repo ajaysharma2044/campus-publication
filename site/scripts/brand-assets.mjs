@@ -1,5 +1,7 @@
-// Renders the brand mark (a Newsreader E in gold on navy) and the default Open Graph card to PNG with the repo's Playwright, and
-// copies scripts/brand/favicon.svg (the same E as a glyph outline, so it needs no installed font) to public/.
+// Renders the brand assets with the repo's Playwright and sharp: the PNG icons (favicon-32, icon-192, icon-512, apple-touch-icon,
+// the social avatar) from scripts/brand/favicon.svg (the wordmark's E in white on navy, an outline, so no installed font is needed)
+// and the default Open Graph card from scripts/brand/brand.html with the wordmark outline (scripts/brand/wordmark.svg, the owner's
+// artwork traced; scripts/brand/README.md) injected in place of its <!--wordmark--> comment. Copies favicon.svg and writes the manifest.
 import { createRequire } from 'node:module';
 import path from 'node:path';
 import { promises as fs } from 'node:fs';
@@ -8,12 +10,15 @@ const require = createRequire(path.resolve('..', 'package.json'));
 const { chromium } = require('playwright');
 const { server, url } = await serve('.');
 const browser = await chromium.launch();
-const page = await browser.newPage({ viewport: { width: 1300, height: 1300 }, deviceScaleFactor: 1 });
+const wordmark = (await fs.readFile(path.join('scripts', 'brand', 'wordmark.svg'), 'utf8')).replace('<svg ', '<svg class="logo" ');
+const card = (await fs.readFile(path.join('scripts', 'brand', 'brand.html'), 'utf8')).replace('<!--wordmark-->', wordmark);
+const page = await browser.newPage({ viewport: { width: 1300, height: 700 }, deviceScaleFactor: 1 });
+await page.route('**/scripts/brand/brand.html', (route) => route.fulfill({ body: card, contentType: 'text/html' }));
 await page.goto(`${url}/scripts/brand/brand.html`, { waitUntil: 'networkidle' });
 await page.evaluate(() => document.fonts.ready);
 const og = await page.$('#og');
 const sharp = (await import('sharp')).default;
-// the icon PNGs come from the glyph-outline SVG (centered by its bounds), so icon and favicon are the same drawing
+// the icon PNGs come from the favicon SVG, so icon and favicon are the same drawing
 const svgPage = await browser.newPage({ viewport: { width: 600, height: 600 }, deviceScaleFactor: 1 });
 await svgPage.setContent(`<!doctype html><body style="margin:0;background:#0E1B33"><img id="m" src="${url}/scripts/brand/favicon.svg" width="512" height="512" style="display:block"></body>`);
 await svgPage.waitForFunction(() => document.getElementById('m').complete);

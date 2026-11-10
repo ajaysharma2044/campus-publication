@@ -51,8 +51,9 @@ mark { background: transparent; color: inherit; }
 .masthead a { color: #fff; text-decoration: none; }
 .masthead__top { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: var(--s-4); padding: var(--s-5) 0 var(--s-4); }
 .masthead__tagline { font-family: var(--serif); font-style: italic; font-size: var(--fs-3); color: var(--navy-3); margin: 0; }
-.logo { font-family: var(--serif); font-weight: 600; font-size: var(--fs-6); letter-spacing: -0.01em; white-space: nowrap; line-height: 1; }
-.logo__accent { color: var(--gold); }
+.logo { display: inline-flex; align-items: center; min-height: 44px; }
+.wordmark { display: block; width: 202px; height: 32px; }
+.footer__title .wordmark { width: 151px; height: 24px; }
 .masthead__actions { display: flex; justify-content: flex-end; gap: var(--s-2); }
 .btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 var(--s-4); border: 1px solid var(--navy-3); border-radius: var(--radius); background: transparent; color: #fff; font-weight: 600; font-size: var(--fs-2); text-decoration: none; cursor: pointer; }
 .btn:hover { border-color: #fff; color: #fff; }
@@ -410,6 +411,10 @@ mark { background: transparent; color: inherit; }
 .sw-navy { background: var(--navy); } .sw-navy-2 { background: var(--navy-2); } .sw-navy-3 { background: var(--navy-3); } .sw-gold { background: var(--gold); } .sw-gold-ink { background: var(--gold-ink); }
 .sw-highlight { background: var(--highlight); } .sw-ink { background: var(--ink); } .sw-text { background: var(--text); } .sw-muted { background: var(--muted); } .sw-rule { background: var(--rule); } .sw-surface { background: var(--surface); } .sw-link { background: var(--link); }
 .sg-type p { margin: 0 0 var(--s-3); }
+.sg-wordmark { display: inline-block; max-width: 100%; box-sizing: border-box; padding: var(--s-4) var(--s-5); margin: 0 var(--s-3) var(--s-3) 0; vertical-align: top; }
+.sg-wordmark--navy { color: var(--navy); border: 1px solid var(--rule); }
+.sg-wordmark--white { background: var(--navy); color: #fff; }
+.sg-wordmark .wordmark { width: 328px; max-width: 100%; height: auto; aspect-ratio: 660.2 / 104.7; }
 .sg-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--s-4); }
 .sg-templates { list-style: none; padding: 0; margin: 0; counter-reset: tpl; }
 .sg-templates li { counter-increment: tpl; display: grid; grid-template-columns: 2.5rem 1fr auto; gap: var(--s-3); padding: var(--s-3) 0; border-top: 1px solid var(--rule); align-items: baseline; }
@@ -431,7 +436,8 @@ mark { background: transparent; color: inherit; }
   h1 { font-size: var(--fs-6); }
   .masthead__top { grid-template-columns: 1fr auto; grid-template-areas: 'logo actions' 'tagline tagline'; padding: var(--s-4) 0 var(--s-3); gap: var(--s-2) var(--s-4); }
   .masthead__tagline { grid-area: tagline; font-size: var(--fs-2); }
-  .logo { grid-area: logo; font-size: var(--fs-5); }
+  .logo { grid-area: logo; }
+  .wordmark { width: 164px; height: 26px; }
   .masthead__actions { grid-area: actions; }
   .btn--search .btn__text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
   .btn--search { min-width: 44px; padding: 0 var(--s-3); }
