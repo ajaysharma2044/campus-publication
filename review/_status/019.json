@@ -1,1 +1,10 @@
-{"id":19,"status":"done","page":"review/off-campus-housing/summer-storage-vs-shipping-vs-sublet-cornell-cost.md","words":1138,"page_check":"PASS (kept flags)","unmatched":21,"note":"editor cut 1206->1138 words. checker pass: 21 verified, 1 fixed, 0 removed, 5 new facts. gaps the writer reports (no source states them): Typical Ithaca summer sublet rent: no published figure (brief 6.9); the page and calculator treat it as a user input, anchored only by Modern Living Rentals' advertised 'from $900/person' (period not stated).; Shipping cost: BRSS ships via FedEx at rates set at pickup and posts no prices; no FedEx or UPS rate is in the fact files, so shipping is a user-entered quote with a break-even rule (one-way quote under half the storage cost).; Summer electricity cost for an idle or sublet apartment that landlords require to stay on: no fact row, so it is named but not counted.. kept flags: repetition","updated":"2026-11-10 18:05"}
+{
+ "id": 19,
+ "status": "done",
+ "page": "review/off-campus-housing/summer-storage-vs-shipping-vs-sublet-cornell-cost.md",
+ "words": "1138",
+ "page_check": "PASS (kept flags)",
+ "unmatched": "21",
+ "note": "editor cut 1206->1138 words checker pass: 21 verified, 1 fixed, 0 removed, 5 new facts gaps the writer reports (no source states them): Typical Ithaca summer sublet rent: no published figure (brief 6.9); the page and calculator treat it as a user input, anchored only by Modern Living Rentals' advertised 'from $900/person' (period not stated).; Shipping cost: BRSS ships via FedEx at rates set at pickup and posts no prices; no FedEx or UPS rate is in the fact files, so shipping is a user-entered quote with a break-even rule (one-way quote under half the storage cost).; Summer electricity cost for an idle or sublet apartment that landlords require to stay on: no fact row, so it is named but not counted. kept flags: repetition",
+ "updated": "2026-11-10 18:23"
+}

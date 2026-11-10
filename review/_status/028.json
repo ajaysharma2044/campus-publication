@@ -1,1 +1,10 @@
-{"id":28,"status":"writing","page":"review/dining/cornell-meal-plan-calculator-by-meals-a-week.md","note":"coordinator: idea 230 will rewrite the live meal-plan page (money/cornell-meal-plan-worth-it); this idea is the calculator page: a meals-a-week calculator that prices every 2026-27 plan per swipe, gives break-even swipe counts and a pick by situation, built from the dining fact file (plan prices, meals per week, Big Red Bucks, guest meals, who may take each plan, the $50 admin fee, door prices), and links to the live page rather than restating it.","updated":"2026-11-10 18:12"}
+{
+ "id": 28,
+ "status": "done",
+ "page": "review/dining/cornell-meal-plan-calculator-by-meals-a-week.md",
+ "words": "1543",
+ "page_check": "PASS (kept flags)",
+ "unmatched": "19",
+ "note": "editor cut 1596->1543 words checker pass: 15 verified, 4 fixed, 0 removed, 4 new facts gaps the writer reports (no source states them): Whether sophomores living on campus can reduce to Bear Traditional: the FAQ and deadlines pages name only transfers and on-campus juniors, but the rates page says upper-level students may opt in. The page and the tool give both readings and tell sophomores to confirm with Cornell Dining.; How a smaller plan changes a financial aid package: Cornell Dining says only that Unlimited is fully covered by aid for eligible students (the fact row is secondary). The page tells readers to ask the Office of Financial Aid.; Weeks inside each term when the dining rooms are closed (Thanksgiving, spring break): not in the fact file. The tool defaults to 18 weeks, from the meal start and end dates, and lets readers lower it. kept flags: repetition, repetition, repetition",
+ "updated": "2026-11-10 18:23"
+}

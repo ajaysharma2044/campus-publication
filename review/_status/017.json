@@ -1,1 +1,10 @@
-{"id":17,"status":"rewrite-done","page":"review/off-campus-housing/ithaca-rent-commute-calculator.md","words":1815,"page_check":"PASS","unmatched":40,"note":"editor cut 1834->1831 words. editor reports missing: The 11-month break-even rent is not in the draft. It gives break-even only for a 12-month lease ($1,145.33) and a 10-month lease ($1,374.40). The writer or checker should add $13,744 / 11 (which works out to $1,249.45) once it is verified.. checker pass: 63 verified, 7 fixed, 2 removed, 9 new facts. gaps the writer reports (no source states them): Landlord parking prices other than 117 Thurston ($55 a semester): Ithaca Renting sells a separate full-year license but the fact file holds no price, so the tool counts no cost for parking at your building.; 101 Dryden Rd #3 per-person price: inventory lists $1,000 per person but the PPM Homes listing page opened on Nov. 10 shows no price, so the building was left out.; The Ivy 2027-28 per-bedroom prices ($1,900 to $1,950) and $150 utility package: the Rentler source returned 403, so the tool uses the Sun's 2026-27 prices only.","updated":"2026-11-10 18:10"}
+{
+ "id": 17,
+ "status": "rewrite-done",
+ "page": "review/off-campus-housing/ithaca-rent-commute-calculator.md",
+ "words": "1815",
+ "page_check": "PASS",
+ "unmatched": "40",
+ "note": "editor cut 1834->1831 words editor reports missing: The 11-month break-even rent is not in the draft. It gives break-even only for a 12-month lease ($1,145.33) and a 10-month lease ($1,374.40). The writer or checker should add $13,744 / 11 (which works out to $1,249.45) once it is verified. checker pass: 63 verified, 7 fixed, 2 removed, 9 new facts gaps the writer reports (no source states them): Landlord parking prices other than 117 Thurston ($55 a semester): Ithaca Renting sells a separate full-year license but the fact file holds no price, so the tool counts no cost for parking at your building.; 101 Dryden Rd #3 per-person price: inventory lists $1,000 per person but the PPM Homes listing page opened on Nov. 10 shows no price, so the building was left out.; The Ivy 2027-28 per-bedroom prices ($1,900 to $1,950) and $150 utility package: the Rentler source returned 403, so the tool us",
+ "updated": "2026-11-10 18:23"
+}

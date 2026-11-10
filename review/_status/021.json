@@ -1,1 +1,10 @@
-{"id":21,"status":"done","page":"review/off-campus-housing/ithaca-apartments-800-to-1100-a-bed.md","words":1408,"page_check":"PASS (kept flags)","unmatched":39,"note":"editor cut 1522->1426 words. checker pass: 39 verified, 2 fixed, 1 removed, 7 new facts. gaps the writer reports (no source states them): 2027-28 downtown prices: Ithaca Renting has posted only one downtown 2027-28 layout (a Commons West studio), so the downtown table is 2026-27 rents; the page says so and tells readers to ask.; Lease year for most non-Ithaca Renting listings (614 Stewart, 301 Dryden, DeWitt Place, 126 College Ave, 410 University Ave, 832 N Aurora, Kelvin Place): the listings print none; the page says to confirm.; A count of how many inventory buildings fall in the $800-$1,100 band was not given, because price_basis is mixed or ambiguous (per-unit labels on room and by-the-bed plans) across many rows.. kept flags: unsourced","updated":"2026-11-10 18:11"}
+{
+ "id": 21,
+ "status": "done",
+ "page": "review/off-campus-housing/ithaca-apartments-800-to-1100-a-bed.md",
+ "words": "1408",
+ "page_check": "PASS (kept flags)",
+ "unmatched": "39",
+ "note": "editor cut 1522->1426 words checker pass: 39 verified, 2 fixed, 1 removed, 7 new facts gaps the writer reports (no source states them): 2027-28 downtown prices: Ithaca Renting has posted only one downtown 2027-28 layout (a Commons West studio), so the downtown table is 2026-27 rents; the page says so and tells readers to ask.; Lease year for most non-Ithaca Renting listings (614 Stewart, 301 Dryden, DeWitt Place, 126 College Ave, 410 University Ave, 832 N Aurora, Kelvin Place): the listings print none; the page says to confirm.; A count of how many inventory buildings fall in the $800-$1,100 band was not given, because price_basis is mixed or ambiguous (per-unit labels on room and by-the-bed plans) across many rows. kept flags: unsourced",
+ "updated": "2026-11-10 18:23"
+}
