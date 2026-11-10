@@ -1,0 +1,255 @@
+{
+ "slug": "cornell-move-out-storage-shipping-options",
+ "verdict": "pass",
+ "numbers_total": 150,
+ "matched_by_code": 109,
+ "checked": [
+  {
+   "line": 158,
+   "value": "$294",
+   "status": "ok-arithmetic",
+   "note": "6 x $49 = 294; range 270 (6x45 or 6x15x3) to 294"
+  },
+  {
+   "line": 168,
+   "value": "$294",
+   "status": "ok-arithmetic",
+   "note": "same"
+  },
+  {
+   "line": 274,
+   "value": "$84",
+   "status": "ok-verified",
+   "note": "Bolt page opened",
+   "source_url": "https://www.boltstorage.com/self-storage/freeville-ny"
+  },
+  {
+   "line": 275,
+   "value": "$96",
+   "status": "ok-verified",
+   "note": "Bolt page opened",
+   "source_url": "https://www.boltstorage.com/self-storage/freeville-ny"
+  },
+  {
+   "line": 279,
+   "value": "$147",
+   "status": "ok-verified",
+   "note": "Bolt page opened",
+   "source_url": "https://www.boltstorage.com/self-storage/freeville-ny"
+  },
+  {
+   "line": 279,
+   "value": "$222",
+   "status": "ok-verified",
+   "note": "Bolt page opened",
+   "source_url": "https://www.boltstorage.com/self-storage/freeville-ny"
+  },
+  {
+   "line": 178,
+   "value": "704",
+   "status": "ok-verified",
+   "note": "Uncle Marty's lists 704 West Buffalo St",
+   "source_url": "https://www.unclemartysoffice.com/storage"
+  },
+  {
+   "line": 286,
+   "value": "$112/$190/$89",
+   "status": "ok-verified",
+   "note": "SpareFoot opened: Storage Sense 5x5 $112 reg/$89 deal, 10x10 $190 deal",
+   "source_url": "https://www.sparefoot.com/Ithaca-NY-self-storage.html"
+  },
+  {
+   "line": 184,
+   "value": "$130",
+   "status": "ok-verified",
+   "note": "Neighbor comparison lists Newfield U-Haul at $130 in first size column",
+   "source_url": "https://www.neighbor.com/facility/new-york/freeville/bolt-storage/1401-dryden-rd/14857"
+  },
+  {
+   "line": 286,
+   "value": "607-533-7333",
+   "status": "ok-verified",
+   "note": "Neighbor 4-Season page: phone and 8am-8pm daily",
+   "source_url": "https://www.neighbor.com/facility/new-york/ithaca/4-season-storage/1395-dryden-rd/9693"
+  },
+  {
+   "line": 239,
+   "value": "$915",
+   "status": "ok-verified",
+   "note": "Storage Scholars blog: about $915 typical order",
+   "source_url": "https://www.storagescholars.com/blog/college-storage-cost-calculator-pricing"
+  },
+  {
+   "line": 260,
+   "value": "$74.99/$499.99/May 1",
+   "status": "ok-verified",
+   "note": "Move-out bundles page",
+   "source_url": "https://www.unclemartysoffice.com/move-out-bundles"
+  },
+  {
+   "line": 298,
+   "value": "$294",
+   "status": "ok-arithmetic",
+   "note": "6x49"
+  },
+  {
+   "line": 299,
+   "value": "$320",
+   "status": "ok-arithmetic",
+   "note": "270+50"
+  },
+  {
+   "line": 300,
+   "value": "$336 to $960",
+   "status": "ok-arithmetic",
+   "note": "6x14x4; 6x40x4"
+  },
+  {
+   "line": 301,
+   "value": "$252",
+   "status": "ok-arithmetic",
+   "note": "3x84"
+  },
+  {
+   "line": 308,
+   "value": "$369/$315/$54",
+   "status": "ok-arithmetic",
+   "note": "294+75; 270+45; 369-315"
+  },
+  {
+   "line": 310,
+   "value": "$441/$110.25/$666/$166.50",
+   "status": "ok-arithmetic",
+   "note": "3x147; /4; 3x222; /4"
+  },
+  {
+   "line": 112,
+   "value": "$112",
+   "status": "ok-arithmetic",
+   "note": "96-84 = 12"
+  },
+  {
+   "line": 370,
+   "value": "16 nights",
+   "status": "fixed",
+   "note": "July 31 to Aug 17 is 17 nights; changed to 17. $90 = 6x15, saves about $200 = 294-90"
+  },
+  {
+   "line": 398,
+   "value": "May 22",
+   "status": "ok-verified",
+   "note": "Registrar: last day of term May 22, 2027; finals May 15-22",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar"
+  },
+  {
+   "line": 414,
+   "value": "May 22",
+   "status": "ok-verified",
+   "note": "Registrar: last day of term May 22, 2027; finals May 15-22",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar"
+  },
+  {
+   "line": 411,
+   "value": "May 1",
+   "status": "ok-verified",
+   "note": "bundles page",
+   "source_url": "https://www.unclemartysoffice.com/move-out-bundles"
+  },
+  {
+   "line": 453,
+   "value": "Jan. 15",
+   "status": "ok-verified",
+   "note": "Blog dated Jan 15, 2026",
+   "source_url": "https://www.storagescholars.com/blog/college-storage-cost-calculator-pricing"
+  },
+  {
+   "line": 463,
+   "value": "May 2",
+   "status": "ok-verified",
+   "note": "Sun 2003 article opened; quotes from Savolskis and Wang confirmed",
+   "source_url": "https://cornellsun.com/2003/05/02/students-seek-storage-options"
+  },
+  {
+   "line": 464,
+   "value": "May 7",
+   "status": "ok-verified",
+   "note": "Sun 2017 article opened; 170 boxes, 43 students",
+   "source_url": "https://cornellsun.com/2017/05/07/student-run-storage-startup-moves-into-its-second-year/"
+  },
+  {
+   "line": 182,
+   "value": "$106",
+   "status": "ok-verified",
+   "note": "unmatched $106 listed in new_facts from Bolt Pinckney page (not reopened this pass)"
+  }
+ ],
+ "fixes": [
+  "Line 370: 16 nights corrected to 17 (July 31 to Aug 17)"
+ ],
+ "new_facts": [
+  {
+   "fact": "Bolt Storage 1401 Dryden Rd prices",
+   "value": "5x5 $84/$96 climate, 5x10 $125/$150, 10x10 $147/$222",
+   "source_url": "https://www.boltstorage.com/self-storage/freeville-ny",
+   "confidence": "secondary",
+   "checked": "2026-11-10"
+  },
+  {
+   "fact": "Uncle Marty's storage prices, 2-week billing, $15 access, two locations",
+   "value": "$15/$35/$60; $25 curbside; $50 inside",
+   "source_url": "https://www.unclemartysoffice.com/storage",
+   "confidence": "secondary",
+   "checked": "2026-11-10"
+  },
+  {
+   "fact": "Uncle Marty's bundles $74.99-$499.99; order before May 1",
+   "value": "$74.99 to $499.99",
+   "source_url": "https://www.unclemartysoffice.com/move-out-bundles",
+   "confidence": "secondary",
+   "checked": "2026-11-10"
+  },
+  {
+   "fact": "Storage Scholars $14-$40 a month, 4-month minimum, about $915, up to $300 surcharge",
+   "value": "$14-$40; $915",
+   "source_url": "https://www.storagescholars.com/blog/college-storage-cost-calculator-pricing",
+   "confidence": "secondary",
+   "checked": "2026-11-10"
+  },
+  {
+   "fact": "Storage Sense 5x5 $89 deal ($112 regular), 10x10 $190 deal",
+   "value": "$89; $112; $190",
+   "source_url": "https://www.sparefoot.com/Ithaca-NY-self-storage.html",
+   "confidence": "secondary",
+   "checked": "2026-11-10"
+  },
+  {
+   "fact": "4-Season Storage (607) 533-7333, 8am-8pm; Newfield U-Haul $130",
+   "value": "607-533-7333; $130",
+   "source_url": "https://www.neighbor.com/facility/new-york/ithaca/4-season-storage/1395-dryden-rd/9693",
+   "confidence": "secondary",
+   "checked": "2026-11-10"
+  },
+  {
+   "fact": "Spring 2027: last day of term May 22; finals May 15-22; Commencement May 28-30; spring break Mar 27-Apr 4",
+   "value": "May 22, 2027",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar",
+   "confidence": "official",
+   "checked": "2026-11-10"
+  },
+  {
+   "fact": "Cornell Sun 2003: free two-box storage ended, $15 small box, BRSS via bidding",
+   "value": "$15",
+   "source_url": "https://cornellsun.com/2003/05/02/students-seek-storage-options",
+   "confidence": "secondary",
+   "checked": "2026-11-10"
+  },
+  {
+   "fact": "Ezra Box 170 boxes, 43 students, summer 2016",
+   "value": "170; 43",
+   "source_url": "https://cornellsun.com/2017/05/07/student-run-storage-startup-moves-into-its-second-year/",
+   "confidence": "secondary",
+   "checked": "2026-11-10"
+  }
+ ],
+ "fact_file_updates": []
+}

@@ -1,0 +1,10 @@
+{
+ "id": 16,
+ "status": "done",
+ "page": "review/off-campus-housing/subletting-in-ithaca-guide-cornell-students.md",
+ "words": "2960",
+ "page_check": "PASS",
+ "unmatched": "35",
+ "note": "editor cut 3036->2959 words checker pass: 26 verified, 1 fixed, 0 removed, 12 new facts writer blocked on: Ithaca sublet rents: Cornell's Off-Campus Housing Marketplace sublease listings (cornell.rentcollegepads.com/subleases) and the Ithaca College portal's subleases page both redirect to university logins, so no sublet price sample could be built; the page says no public source tracks sublet rents and uses landlord asking prices instead.; The 1983 amendment history of RPL 226-b (L 1983 ch 403): case-law sites returned HTTP 429 and no primary source was opened, so the page only says the 1975 version gave release as the remedy and that today's law goes further.; Cornell spring 2027 academic calendar dates (last class, exams, Commencement): registrar and catalog pages were empty or returned 403/202; the page anchors summer to the May 17, 2026 hall closing instead.",
+ "updated": "2026-11-10 17:53"
+}

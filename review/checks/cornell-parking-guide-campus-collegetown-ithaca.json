@@ -1,0 +1,344 @@
+{
+ "slug": "cornell-parking-guide-campus-collegetown-ithaca",
+ "verdict": "pass",
+ "numbers_total": 273,
+ "matched_by_code": 236,
+ "checked": [
+  {
+   "line": 168,
+   "value": "Jan. 5",
+   "status": "ok-verified",
+   "note": "City alert AID=1328 opened: effective Jan. 5, 2026, rates and caps match"
+  },
+  {
+   "line": 191,
+   "value": "April 10",
+   "status": "ok-verified",
+   "note": "Ithaca Voice May 2026 opened: shut April 10 after debris fell"
+  },
+  {
+   "line": 240,
+   "value": "$641.10",
+   "status": "fixed",
+   "note": "Sun 2006 opened: $641.10 is an annual on-campus permit, article does not say resident; wording changed"
+  },
+  {
+   "line": 244,
+   "value": "$111.88",
+   "status": "ok-arithmetic",
+   "note": "752.98 - 641.10 = 111.88; 17.45 percent rounds to 17.5; 2006 to 2026 is 20 years; wording changed to annual on-campus permit"
+  },
+  {
+   "line": 262,
+   "value": "Aug. 4, 2026",
+   "status": "removed",
+   "note": "fcs.cornell.edu/node/17809 returns 403 and could not be opened; sale date/time and Aug. 16 start cut. Aug. 15 end and myparking.cornell.edu confirmed on parking-students and parking-campus pages"
+  },
+  {
+   "line": 264,
+   "value": "Aug. 31",
+   "status": "ok-verified",
+   "note": "Sun Sept. 7, 2023 opened: old permits expire Aug. 31, overlap, Brady virtual permits"
+  },
+  {
+   "line": 294,
+   "value": "$3.45",
+   "status": "ok-arithmetic",
+   "note": "ParkMobile map PDF (decoded) $0.75/$3.00 edge lots + $0.45 fee (Cornell short-term page) = $3.45; 752.98/365 = 2.06"
+  },
+  {
+   "line": 300,
+   "value": "$3.45",
+   "status": "ok-arithmetic",
+   "note": "752.98/3.45 = 218.3 -> 218 days"
+  },
+  {
+   "line": 301,
+   "value": "$24.45",
+   "status": "ok-arithmetic",
+   "note": "Toboggan/Willard/Alumni/RPCC $24.00 + 0.45; 752.98/24.45 = 30.8, 30 full days"
+  },
+  {
+   "line": 302,
+   "value": "$3.45",
+   "status": "ok-arithmetic",
+   "note": "359.77/3.45 = 104.3 -> 104"
+  },
+  {
+   "line": 303,
+   "value": "$10.45",
+   "status": "ok-arithmetic",
+   "note": "$10.00 daily + 0.45; 359.77/10.45 = 34.4 -> 34"
+  },
+  {
+   "line": 322,
+   "value": "$2,088",
+   "status": "ok-arithmetic",
+   "note": "Dryden Road monthly $232 (city page opened) x 9 = 2,088"
+  },
+  {
+   "line": 329,
+   "value": "$322,000",
+   "status": "ok-verified",
+   "note": "Ithaca Voice Nov. 2025 opened: Nov. 5, 2025 vote, $322,000, $2.1M gap, $1.50 prior rates, free Fri 6 p.m. to Mon 8 a.m.; 50 and 67 percent recomputed"
+  },
+  {
+   "line": 348,
+   "value": "April 10",
+   "status": "ok-verified",
+   "note": "Ithaca Voice May 2026: closed April 10, 53 years old, permanent closure, Recckio quote"
+  },
+  {
+   "line": 398,
+   "value": "Jan. 25",
+   "status": "ok-verified",
+   "note": "Registrar opened: finals end Dec. 19, spring classes Jan. 25, 2027; Dec. 19 to Jan. 25 = 37 days"
+  },
+  {
+   "line": 436,
+   "value": "$381,000",
+   "status": "ok-verified",
+   "note": "Ithaca Voice Nov. 5, 2026 opened"
+  },
+  {
+   "line": 440,
+   "value": "$2,447.77",
+   "status": "ok-arithmetic",
+   "note": "359.77 + 2,088 = 2,447.77; 404.77 = 359.77 + 45; 2,447.77/45 = 54.4, so more than 54 times"
+  },
+  {
+   "line": 474,
+   "value": "Jan. 25",
+   "status": "ok-verified",
+   "note": "Registrar"
+  },
+  {
+   "line": 478,
+   "value": "May 22",
+   "status": "ok-verified",
+   "note": "Registrar: spring finals end May 22, 2027"
+  },
+  {
+   "line": 482,
+   "value": "Aug. 15",
+   "status": "ok-verified",
+   "note": "Parking-students page: annual permits valid through Aug. 15"
+  },
+  {
+   "line": 516,
+   "value": "Oct. 28",
+   "status": "ok-verified",
+   "note": "2020 announcement opened; pilot started August 2020; URL slug carries the date"
+  },
+  {
+   "line": 520,
+   "value": "March 23",
+   "status": "ok-verified",
+   "note": "Sun column opened: March 23, 2023, 10 and 11 tickets"
+  },
+  {
+   "line": 522,
+   "value": "July 2",
+   "status": "ok-verified",
+   "note": "Chronicle opened: July 2, 2009; about 2,200 spaces"
+  },
+  {
+   "line": 523,
+   "value": "Oct. 30",
+   "status": "ok-verified",
+   "note": "Chronicle opened: Oct. 30, 1998; $45, R-1/R-2, 450 vehicles, 210-space ramp"
+  },
+  {
+   "line": 529,
+   "value": "Dec. 18",
+   "status": "ok-verified",
+   "note": "City alert announced Dec. 18, 2025"
+  },
+  {
+   "line": 537,
+   "value": "July 3",
+   "status": "ok-verified",
+   "note": "Task force PDF decoded: tickets 7,262/4,902/4,175/4,165/5,792 2009-2013; Dec. 12, 2013 Myrick email; page says about 4,200 to 7,300 (range is 4,165 to 7,262, 2013 was 5,792)"
+  },
+  {
+   "line": 540,
+   "value": "Sept. 5",
+   "status": "ok-verified",
+   "note": "FingerLakes1 opened: Sept. 2 council action, taxable residential project"
+  },
+  {
+   "line": 542,
+   "value": "Nov. 5",
+   "status": "ok-verified",
+   "note": "Ithaca Voice opened, published Nov. 5, 2026"
+  }
+ ],
+ "fixes": [
+  "Line 240/244: 2006 $641.10 permit described as resident; source says only annual on-campus permit; reworded",
+  "Line 240: 'commuting faculty and staff' changed to 'commuting students and faculty' per source",
+  "Line 262: cut Aug. 4 sale date, 9 a.m. and Aug. 16 start (source fcs.cornell.edu/node/17809 returns 403, snippet only); removed its source entries, the calendar label parenthetical and the 'Early August 2027 (expected)' date"
+ ],
+ "new_facts": [
+  {
+   "fact": "Campus ParkMobile rates by lot; edge lots (University Ave, Hurlburt House, Hasbrouck outer circle, East Hill Plaza, CISER) $0.75/hour and $3.00/day; Toboggan Lodge/Beebe, Willard Straight, Alumni Field, RPCC $3.00/hour and $24.00/day; Tang $1.50/$10.00; Appel $1.00/$10.00",
+   "value": "$0.75 to $3.00 an hour; $3.00 to $24.00 a day",
+   "applies_to": "Cornell short-term (ParkMobile) parking",
+   "period": "August 2026",
+   "source_url": "https://fcs.cornell.edu/sites/default/files/2026-08/ParkmobileMap26.pdf",
+   "source_title": "Cornell University Short-Term Parking Options map, Cornell Transportation, August 2026",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "EV charging rate for locations requiring an annual parking permit",
+   "value": "$3.50 an hour",
+   "applies_to": "Cornell EV charging",
+   "period": "Effective July 1, 2025",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/tds-announcements",
+   "source_title": "TDS Announcements, Cornell",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "C2C passengers parking in B Lot exempt from parking fees",
+   "value": "Free; effective Oct. 10, 2024",
+   "applies_to": "C2C riders",
+   "period": "From 2024-10-10",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/tds-announcements",
+   "source_title": "TDS Announcements, Cornell",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Annual on-campus permit price in 2006; Lieb said permits intentionally expensive to discourage students bringing cars; about 10,000 spaces (type of permit not stated as resident)",
+   "value": "$641.10 a year (2006)",
+   "applies_to": "Cornell annual on-campus permit",
+   "period": "2006",
+   "source_url": "https://cornellsun.com/2006/11/03/parking-rate-rage-top-spots-break-2k",
+   "source_title": "Parking Rate Rage: Top Spots Break $2k, The Cornell Daily Sun, Nov. 3, 2006",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "OmniRide and RideShare, nearly 20 years old, cut employee parking requirements by about 2,200 spaces",
+   "value": "About 2,200 spaces",
+   "applies_to": "Cornell employees",
+   "period": "2009",
+   "source_url": "https://news.cornell.edu/node/273202",
+   "source_title": "University cited for best practices in transportation, Cornell Chronicle, July 2, 2009",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "City residential permit $45 a year in 1998, R-1 and R-2 only, R-3 (central Collegetown) excluded; consultant estimated up to 450 Cornell-related vehicles daily; Dryden Road ramp 210 spaces",
+   "value": "$45 a year; 450 vehicles; 210 spaces",
+   "applies_to": "City of Ithaca",
+   "period": "1998",
+   "source_url": "https://news.cornell.edu/node/278473",
+   "source_title": "Cornell has parking options to handle the overflow, Cornell Chronicle, Oct. 30, 1998",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Daily Decision pilot introduced August 2020",
+   "value": "August 2020",
+   "applies_to": "Cornell Daily Decision",
+   "period": "2020",
+   "source_url": "https://fcs.cornell.edu/announcements/2020-10-28/expanded-daily-decision-parking-options",
+   "source_title": "Expanded Daily Decision Parking Options, Cornell",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "SC student commuter permit sales end and Crescent Lot moves to ParkMobile Daily Decision",
+   "value": "Effective July 1, 2022",
+   "applies_to": "Cornell parking",
+   "period": "2022",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking/2022-campus-parking-changes",
+   "source_title": "2022 Campus Parking Changes, Cornell",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Odd/even tickets issued 2009 to 2013: 7,262, 4,902, 4,175, 4,165, 5,792; Mayor Myrick task force email Dec. 12, 2013",
+   "value": "4,165 to 7,262 a year",
+   "applies_to": "City of Ithaca odd/even",
+   "period": "2009-2013",
+   "source_url": "https://assembly.cornell.edu/sites/default/files/oddeventaskforceinitialreport70314.pdf",
+   "source_title": "Odd/Even Parking Task Force report, City of Ithaca, May 2014",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Dryden Road Garage monthly $232, daily max $18, $2.25 an hour",
+   "value": "$232 a month",
+   "applies_to": "Dryden Road Garage",
+   "period": "Current page",
+   "source_url": "https://www.cityofithacany.gov/718/Dryden-Road-Garage",
+   "source_title": "Dryden Road Garage, City of Ithaca",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Seneca Street Garage closed April 10, 2026 after debris fell; 53 years old; permanently closed May 2026; about 24 months before construction",
+   "value": "Closed April 10, 2026",
+   "applies_to": "Seneca Street Garage",
+   "period": "2026",
+   "source_url": "https://ithacavoice.org/2026/05/seneca-street-parking-garage-closed-for-good-officials-weigh-next-steps/",
+   "source_title": "Seneca Street Parking Garage closed for good, The Ithaca Voice, May 2026",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Council authorized Urban Renewal Agency to seek redevelopment proposals for Seneca garage site at Sept. 2 meeting",
+   "value": "Sept. 2, 2026",
+   "applies_to": "Seneca Street Garage site",
+   "period": "2026-09",
+   "source_url": "https://www.fingerlakes1.com/2026/09/05/ithaca-advances-seneca-street-garage-redevelopment-public-safety-facility-alternatives-amid-budget-pressure/",
+   "source_title": "Ithaca advances Seneca Street Garage redevelopment, FingerLakes1, Sept. 5, 2026",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "2027 city budget plans increased or added parking fines, about $381,000 more revenue",
+   "value": "About $381,000 a year",
+   "applies_to": "City of Ithaca parking fines",
+   "period": "2027 budget",
+   "source_url": "https://ithacavoice.org/2026/11/common-council-approves-2027-budget-city-will-remain-below-tax-cap/",
+   "source_title": "Common Council approves 2027 budget, The Ithaca Voice, Nov. 5, 2026",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Council voted Nov. 5, 2025 for paid Saturdays and higher rates; prior $1.50 an hour; $322,000 projected; $2.1 million gap",
+   "value": "$322,000",
+   "applies_to": "City of Ithaca parking rates",
+   "period": "2025-11",
+   "source_url": "https://ithacavoice.org/2025/11/free-saturday-parking-in-ithaca-poised-to-end/",
+   "source_title": "Free Saturday parking in Ithaca poised to end, The Ithaca Voice",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Fall 2026 finals end Dec. 19; spring classes Jan. 25, 2027; spring break Mar. 27 to Apr. 4; spring finals end May 22; Commencement May 28 to 30",
+   "value": "37-day winter gap",
+   "applies_to": "Cornell calendar",
+   "period": "2026-27",
+   "source_url": "https://registrar.cornell.edu/academic-calendar",
+   "source_title": "Academic Calendar, Cornell Registrar",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Williams/Stewart permits around $700, sold out within hours; old permits expire Aug. 31; Brady virtual permits",
+   "value": "About $700",
+   "applies_to": "Williams Street lot",
+   "period": "Fall 2023",
+   "source_url": "https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students",
+   "source_title": "Williams Street Parking Lot Struggles, The Cornell Daily Sun, Sept. 7, 2023",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  }
+ ],
+ "fact_file_updates": []
+}

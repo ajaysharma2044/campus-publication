@@ -1,0 +1,241 @@
+{
+ "slug": "cornell-co-ops-all-eight-compared",
+ "verdict": "pass",
+ "numbers_total": 123,
+ "matched_by_code": 88,
+ "checked": [
+  {
+   "line": 159,
+   "value": "$5,213",
+   "status": "ok-verified",
+   "note": "Whitby single range $4,889-$5,213 confirmed on live rates page",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates"
+  },
+  {
+   "line": 160,
+   "value": "$5,693",
+   "status": "ok-verified",
+   "note": "302 Wait single range confirmed",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates"
+  },
+  {
+   "line": 161,
+   "value": "$5,693",
+   "status": "ok-verified",
+   "note": "308 Wait same as 302, confirmed",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates"
+  },
+  {
+   "line": 164,
+   "value": "$5,213",
+   "status": "ok-verified",
+   "note": "Watermargin single range confirmed",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates"
+  },
+  {
+   "line": 178,
+   "value": "May 23",
+   "status": "ok-verified",
+   "note": "License term 9 a.m. Aug 21, 2026 to 2 p.m. May 23, 2027 confirmed",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions"
+  },
+  {
+   "line": 218,
+   "value": "$5,693",
+   "status": "ok-verified",
+   "note": "Same as row 160",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates"
+  },
+  {
+   "line": 262,
+   "value": "$858",
+   "status": "ok-arithmetic",
+   "note": "6872-6014=858"
+  },
+  {
+   "line": 268,
+   "value": "$6,974",
+   "status": "ok-arithmetic",
+   "note": "3487x2"
+  },
+  {
+   "line": 269,
+   "value": "$8,634",
+   "status": "ok-arithmetic",
+   "note": "4317x2"
+  },
+  {
+   "line": 270,
+   "value": "$8,636",
+   "status": "ok-arithmetic",
+   "note": "4318x2"
+  },
+  {
+   "line": 271,
+   "value": "$9,430",
+   "status": "ok-arithmetic",
+   "note": "4715x2"
+  },
+  {
+   "line": 272,
+   "value": "$9,962",
+   "status": "ok-arithmetic",
+   "note": "4981x2"
+  },
+  {
+   "line": 278,
+   "value": "$3,782",
+   "status": "ok-arithmetic",
+   "note": "13744-9962"
+  },
+  {
+   "line": 278,
+   "value": "$6,770",
+   "status": "ok-arithmetic",
+   "note": "13744-6974"
+  },
+  {
+   "line": 278,
+   "value": "$9,962",
+   "status": "ok-arithmetic",
+   "note": "4981x2"
+  },
+  {
+   "line": 278,
+   "value": "$6,974",
+   "status": "ok-arithmetic",
+   "note": "3487x2"
+  },
+  {
+   "line": 278,
+   "value": "$5,530",
+   "status": "ok-arithmetic",
+   "note": "2765x2"
+  },
+  {
+   "line": 278,
+   "value": "$7,114",
+   "status": "ok-arithmetic",
+   "note": "12644-5530"
+  },
+  {
+   "line": 278,
+   "value": "$6,322",
+   "status": "ok-verified",
+   "note": "Triple/one-room quad $6,322 per semester on rates page; x2=$12,644",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates"
+  },
+  {
+   "line": 284,
+   "value": "$9,600,",
+   "status": "ok-arithmetic",
+   "note": "$800x12; dataset figure cited internal"
+  },
+  {
+   "line": 290,
+   "value": "Nov. 29",
+   "status": "ok-verified",
+   "note": "Fall 2023 decisions Nov 29, open house Nov 4, events to Nov 21",
+   "source_url": "https://scl.cornell.edu/news-events/news/co-op-mosey-open-house-spring2024"
+  },
+  {
+   "line": 290,
+   "value": "Feb. 28",
+   "status": "ok-verified",
+   "note": "Spring decisions Feb 28, accept by Feb 29; open house Feb 11",
+   "source_url": "https://scl.cornell.edu/sub/news-events/news/co-op-mosey-2024"
+  },
+  {
+   "line": 322,
+   "value": "Sept. 27",
+   "status": "ok-verified",
+   "note": "Application Sept 1 to Sept 27; selection Oct 1-7",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors"
+  },
+  {
+   "line": 322,
+   "value": "Jan. 31",
+   "status": "ok-verified",
+   "note": "Cancellation $50 through Jan 31; $500 Feb 1-Mar 31; $1,000 Apr 1-Jun 30",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028"
+  },
+  {
+   "line": 333,
+   "value": "$16,260",
+   "status": "ok-arithmetic",
+   "note": "Hasbrouck studio $1,355 x12"
+  },
+  {
+   "line": 333,
+   "value": "$7,898",
+   "status": "ok-arithmetic",
+   "note": "3949x2"
+  },
+  {
+   "line": 358,
+   "value": "$21,739.13",
+   "status": "ok-arithmetic",
+   "note": "500000/23"
+  },
+  {
+   "line": 358,
+   "value": "$8,634",
+   "status": "ok-arithmetic",
+   "note": "4317x2"
+  },
+  {
+   "line": 378,
+   "value": "April 13",
+   "status": "ok-verified",
+   "note": "Open selection April 13-16",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores"
+  },
+  {
+   "line": 379,
+   "value": "May 23",
+   "status": "ok-verified",
+   "note": "See line 178"
+  },
+  {
+   "line": 430,
+   "value": "Feb. 5",
+   "status": "ok-verified",
+   "note": "Triphammer feature dated Feb 5, 2024"
+  },
+  {
+   "line": 432,
+   "value": "Oct. 18",
+   "status": "ok-verified",
+   "note": "Mosey open house notice dated Oct 18, 2023"
+  },
+  {
+   "line": 433,
+   "value": "Jan. 30",
+   "status": "ok-verified",
+   "note": "Mosey 2024 notice dated Jan 30, 2024"
+  },
+  {
+   "line": 434,
+   "value": "Jan. 29",
+   "status": "ok-verified",
+   "note": "Chronicle Watermargin story dated Jan 29, 2024"
+  },
+  {
+   "line": 438,
+   "value": "March 6",
+   "status": "ok-verified",
+   "note": "Sun article dated March 6, 2023"
+  },
+  {
+   "line": 336,
+   "value": "Whitby co-president",
+   "status": "fixed",
+   "note": "Uncited sentence sourced: SCL Nov 13, 2023 feature (Cascadilla dorm, moved in January)"
+  }
+ ],
+ "fixes": [
+  "Added citation to uncited Whitby co-president sentence"
+ ],
+ "new_facts": [],
+ "fact_file_updates": []
+}

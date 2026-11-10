@@ -1,0 +1,10 @@
+{
+ "id": 4,
+ "status": "done",
+ "page": "review/off-campus-housing/cornell-program-houses-compared.md",
+ "words": "3119",
+ "page_check": "PASS",
+ "unmatched": "20",
+ "note": "editor cut 3367->3119 words checker pass: 20 verified, 0 fixed, 0 removed, 5 new facts writer blocked on: Equity & Engagement Community founding year: no Cornell page or report opened gives it; the table says 'Not published'.; Sober Living Community room types and air conditioning: Cornell's page lists neither; the page tells readers to ask housing@cornell.edu.; Veterans House rate for graduate residents: Cornell's rate table lists only undergraduate hall rates.",
+ "updated": "2026-11-10 17:53"
+}

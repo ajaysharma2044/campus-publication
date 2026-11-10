@@ -1,0 +1,46 @@
+{
+ "slug": "cornell-fraternity-sorority-housing-2026-27",
+ "verdict": "pass",
+ "numbers_total": 154,
+ "matched_by_code": 71,
+ "checked": [
+  {
+   "line": 131,
+   "value": "$14,673",
+   "status": "ok-verified",
+   "note": "Alpha Xi Delta spring 2025 live-in on scorecard; max of nonzero",
+   "source_url": "https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard"
+  },
+  {
+   "line": 132,
+   "value": "$1,152",
+   "status": "ok-arithmetic",
+   "note": "Median of 23 IFC live-out fees recomputed from scorecard",
+   "source_url": "https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard"
+  },
+  {
+   "line": 132,
+   "value": "$602",
+   "status": "ok-arithmetic",
+   "note": "Median of 11 Panhellenic live-out fees recomputed",
+   "source_url": "https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard"
+  },
+  {
+   "line": 142,
+   "value": "$14,673",
+   "status": "ok-verified",
+   "note": "Same as line 131; low end $2,000 is DKE spring 2026",
+   "source_url": "https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard"
+  },
+  {
+   "line": 151,
+   "value": "table rows lines 151-177 (live-in and live-out amounts)",
+   "status": "ok-verified",
+   "note": "Every IFC and Panhellenic live-in, live-out amount and period compared to the live scorecard; all match",
+   "source_url": "https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard"
+  }
+ ],
+ "fixes": [],
+ "new_facts": [],
+ "fact_file_updates": []
+}

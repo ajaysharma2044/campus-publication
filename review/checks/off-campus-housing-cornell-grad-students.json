@@ -1,0 +1,235 @@
+{
+ "slug": "off-campus-housing-cornell-grad-students",
+ "verdict": "pass",
+ "numbers_total": 202,
+ "matched_by_code": 117,
+ "checked": [
+  {
+   "line": 204,
+   "value": "338",
+   "status": "ok-verified",
+   "note": "Hasbrouck page: 338 units, 705 residents, 10-minute walk",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/hasbrouck-apartments"
+  },
+  {
+   "line": 210,
+   "value": "March 24",
+   "status": "ok-verified",
+   "note": "Sun article: protest March 24, 2023 at vet college; Beltran, almost two-hour daily commute",
+   "source_url": "https://cornellsun.com/2023/03/24/cornell-graduate-students-united-protests-for-competitive-wages-additional-university-support/"
+  },
+  {
+   "line": 214,
+   "value": "$48,912",
+   "status": "ok-verified",
+   "note": "Stipend page opened: 12-month $48,912, effective Aug. 21, 2026; 19,962/48,912=40.8%",
+   "source_url": "https://gradschool.cornell.edu/financial-support/stipend-rates/"
+  },
+  {
+   "line": 222,
+   "value": "338",
+   "status": "ok-verified",
+   "note": "same as line 204"
+  },
+  {
+   "line": 223,
+   "value": "444",
+   "status": "ok-verified",
+   "note": "LeChase: 444 units, 872 beds",
+   "source_url": "https://www.lechase.com/portfolio/greystar/"
+  },
+  {
+   "line": 224,
+   "value": "$5,693",
+   "status": "ok-verified",
+   "note": "Rates page opened: 302 Wait single $5,340-$5,693, double $4,715",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates"
+  },
+  {
+   "line": 225,
+   "value": "$5,693",
+   "status": "ok-verified",
+   "note": "308 Wait same",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates"
+  },
+  {
+   "line": 227,
+   "value": "$5,213",
+   "status": "ok-verified",
+   "note": "Watermargin single $4,889-$5,213, double $4,317",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates"
+  },
+  {
+   "line": 239,
+   "value": "$4,137,000,",
+   "status": "ok-verified",
+   "note": "HistoryForge 7314: 246 apartments, $4,137,000, State Dormitory Authority, Ithaca Journal Nov. 1, 1960",
+   "source_url": "https://tompkins.historyforge.net/narratives/7314"
+  },
+  {
+   "line": 243,
+   "value": "394",
+   "status": "ok-verified",
+   "note": "Sun 2016: 394 units, 480 residents; Garrett pledged to prioritize grad housing",
+   "source_url": "https://cornellsun.com/2016/02/03/trustees-approve-plans-expanding-graduate-student-housing/"
+  },
+  {
+   "line": 253,
+   "value": "338",
+   "status": "ok-verified",
+   "note": "same as line 204"
+  },
+  {
+   "line": 275,
+   "value": "$16,980",
+   "status": "ok-arithmetic",
+   "note": "1,415 x 12 = 16,980; $1,415 matches rates page"
+  },
+  {
+   "line": 275,
+   "value": "$24,756",
+   "status": "ok-arithmetic",
+   "note": "2,063 x 12 = 24,756; RentCafe 1BR $2,063 and 50+ unit method opened",
+   "source_url": "https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/"
+  },
+  {
+   "line": 275,
+   "value": "$7,776",
+   "status": "ok-arithmetic",
+   "note": "24,756 - 16,980 = 7,776"
+  },
+  {
+   "line": 282,
+   "value": "$17,700",
+   "status": "ok-arithmetic",
+   "note": "1,475 x 12 = 17,700; unfurnished 2BR townhouse $1,475 per rates page"
+  },
+  {
+   "line": 293,
+   "value": "$130",
+   "status": "ok-verified",
+   "note": "Greystar page: $130.00 per leaseholder one-time at move-in; no prices; (607) 821-0248",
+   "source_url": "https://www.greystar.com/maplewood-ithaca-ny/p_15697"
+  },
+  {
+   "line": 305,
+   "value": "$6,974",
+   "status": "ok-arithmetic",
+   "note": "Redbud double $3,487 x 2 = 6,974"
+  },
+  {
+   "line": 305,
+   "value": "$7,440",
+   "status": "ok-arithmetic",
+   "note": "Regular single $620 x 12 = 7,440"
+  },
+  {
+   "line": 307,
+   "value": "May 23",
+   "status": "ok-verified",
+   "note": "Co-op terms opened: 9 a.m. Aug. 21, 2026 to 2 p.m. May 23, 2027; 12 credit hours",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions"
+  },
+  {
+   "line": 324,
+   "value": "$1,525",
+   "status": "ok-verified",
+   "note": "Ithaca Renting downtown 1BR rows $1,525-$1,725 for 2026-27",
+   "source_url": "https://ithacarenting.com/downtown/"
+  },
+  {
+   "line": 328,
+   "value": "$1,403",
+   "status": "ok-verified",
+   "note": "Vet college list opened: Lansing West $1,403-$2,154, updated Feb 2026",
+   "source_url": "https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information"
+  },
+  {
+   "line": 335,
+   "value": "$11,910",
+   "status": "ok-arithmetic",
+   "note": "Five 2BR per-bed rows (2026-27) midpoints 862.5, 875, 992.5, 1000, 1000; median 992.5; x12 = 11,910",
+   "source_url": "https://ithacarenting.com/downtown/"
+  },
+  {
+   "line": 341,
+   "value": "$2,030",
+   "status": "ok-arithmetic",
+   "note": "Nine 1BR midpoints; median 2,030; 15 SOLD OUT listings counted on page",
+   "source_url": "https://ithacarenting.com/collegetown/"
+  },
+  {
+   "line": 351,
+   "value": "$4,253",
+   "status": "ok-verified",
+   "note": "Vet college table row opened: Candlewyck $1,475-$4,253",
+   "source_url": "https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information"
+  },
+  {
+   "line": 352,
+   "value": "$1,800",
+   "status": "ok-verified",
+   "note": "Vet college table row opened: Carriage House $1,400-$1,800",
+   "source_url": "https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information"
+  },
+  {
+   "line": 353,
+   "value": "$1,720",
+   "status": "ok-verified",
+   "note": "Vet college table row opened: Cayuga $1,720-$2,115",
+   "source_url": "https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information"
+  },
+  {
+   "line": 354,
+   "value": "$675",
+   "status": "ok-verified",
+   "note": "Vet college table row opened: DemosJohnny $675-$1,195",
+   "source_url": "https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information"
+  },
+  {
+   "line": 355,
+   "value": "$1,746",
+   "status": "ok-verified",
+   "note": "Vet college table row opened: Eastgate $1,746-$2,166",
+   "source_url": "https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information"
+  },
+  {
+   "line": 356,
+   "value": "$1,420",
+   "status": "ok-verified",
+   "note": "Vet college table row opened: Edgecliff $1,420-$2,100",
+   "source_url": "https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information"
+  },
+  {
+   "line": 357,
+   "value": "$1,319",
+   "status": "ok-verified",
+   "note": "Vet college table row opened: Fairview $1,319-$3,345",
+   "source_url": "https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information"
+  },
+  {
+   "line": 0,
+   "value": "May 1, 2027",
+   "status": "ok-verified",
+   "note": "Snippet-only item opened: gradschool union page says contract runs until May 1, 2027",
+   "source_url": "https://gradschool.cornell.edu/about/union-representation/"
+  },
+  {
+   "line": 0,
+   "value": "$2,063",
+   "status": "ok-verified",
+   "note": "Snippet-only item opened: RentCafe 1BR $2,063, Yardi data on buildings of 50+ units",
+   "source_url": "https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/"
+  },
+  {
+   "line": 0,
+   "value": "$20",
+   "status": "ok-verified",
+   "note": "Snippet-only item opened: RPL 238-a background/credit check cap $20; 235-f occupant rules and 30-day notice confirmed (235-f also requires primary residence)",
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/238-A"
+  }
+ ],
+ "fixes": [],
+ "new_facts": [],
+ "fact_file_updates": []
+}

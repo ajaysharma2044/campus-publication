@@ -1,0 +1,10 @@
+{
+ "id": 14,
+ "status": "done",
+ "page": "review/getting-around/first-month-at-cornell-logistics-checklist.md",
+ "words": "2094",
+ "page_check": "PASS",
+ "unmatched": "37",
+ "note": "editor cut 2132->2094 words checker pass: 37 verified, 0 fixed, 0 removed, 14 new facts writer blocked on: 2026-27 student permit sale date (fcs.cornell.edu/node/17809 now requires a NetID login; no Wayback copy), so the page gives no permit sale date; North Campus move-in instructions page (Move-In Ticket after Aug. 1, staff unloading hours) now returns 404 on both URL forms and has no Wayback copy; the page links the live move-in guide instead of restating those details; Fall 2027 dates for Cornell Health forms, SHP waiver, Bursar bill, move-in, NSO and the CAMP opt-out are not posted; the page labels 2026-cycle dates as such",
+ "updated": "2026-11-10 17:53"
+}

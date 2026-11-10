@@ -1,0 +1,10 @@
+{
+ "id": 13,
+ "status": "done",
+ "page": "review/getting-around/ithaca-winter-survival-guide-cornell.md",
+ "words": "4536",
+ "page_check": "PASS",
+ "unmatched": "33",
+ "note": "editor cut 4703->4536 words checker pass: 33 verified, 0 fixed, 0 removed, 5 new facts writer blocked on: Lynah Rink's current public skating schedule and price: a search summary said it was paused for staffing, but no current page could be read (Cornell Recreation page unreadable), so skating hours were left out.; NYSEG's permanent rate case: no report of a final PSC decision as of Nov. 10, 2026 was found; the page says only that temporary rates took effect June 1, 2026 while the full request is decided.; Whether the Department of Public Service's $241-a-month gas figure is a full bill or supply only: the page does not say; the draft presents it as the state's estimate for a 140-therm household.",
+ "updated": "2026-11-10 17:53"
+}

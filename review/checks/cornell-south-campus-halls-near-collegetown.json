@@ -1,0 +1,188 @@
+{
+ "slug": "cornell-south-campus-halls-near-collegetown",
+ "verdict": "pass",
+ "numbers_total": 116,
+ "matched_by_code": 74,
+ "checked": [
+  {
+   "line": 139,
+   "value": "$20,850",
+   "status": "ok-arithmetic",
+   "note": "13,744 + 7,056 + 50"
+  },
+  {
+   "line": 282,
+   "value": "$22,672",
+   "status": "ok-arithmetic",
+   "note": "15,566 + 7,056 + 50"
+  },
+  {
+   "line": 282,
+   "value": "$21,398",
+   "status": "ok-arithmetic",
+   "note": "13,744 + 7,604 + 50; Unlimited $7,604 on meal plan page"
+  },
+  {
+   "line": 282,
+   "value": "$548",
+   "status": "ok-arithmetic",
+   "note": "7,604 - 7,056"
+  },
+  {
+   "line": 284,
+   "value": "$14,955",
+   "status": "ok-arithmetic",
+   "note": "1,246.25 x 12"
+  },
+  {
+   "line": 284,
+   "value": "$5,895",
+   "status": "ok-arithmetic",
+   "note": "20,850 - 14,955"
+  },
+  {
+   "line": 284,
+   "value": "$491.25",
+   "status": "ok-arithmetic",
+   "note": "5,895 / 12"
+  },
+  {
+   "line": 284,
+   "value": "$9,600",
+   "status": "ok-arithmetic",
+   "note": "800 x 12"
+  },
+  {
+   "line": 160,
+   "value": "$7,783 / $6,322",
+   "status": "ok-verified",
+   "note": "Housing rates page opened: single $7,783, triple $6,322 per semester"
+  },
+  {
+   "line": 161,
+   "value": "$7,783 / $6,322",
+   "status": "ok-verified",
+   "note": "Housing rates page opened: single $7,783, triple $6,322 per semester"
+  },
+  {
+   "line": 162,
+   "value": "$7,783 / $6,322",
+   "status": "ok-verified",
+   "note": "Housing rates page opened: single $7,783, triple $6,322 per semester"
+  },
+  {
+   "line": 163,
+   "value": "$7,783 / $6,322",
+   "status": "ok-verified",
+   "note": "Housing rates page opened: single $7,783, triple $6,322 per semester"
+  },
+  {
+   "line": 268,
+   "value": "$7,783 / $6,322",
+   "status": "ok-verified",
+   "note": "Housing rates page opened: single $7,783, triple $6,322 per semester"
+  },
+  {
+   "line": 270,
+   "value": "$7,783 / $6,322",
+   "status": "ok-verified",
+   "note": "Housing rates page opened: single $7,783, triple $6,322 per semester"
+  },
+  {
+   "line": 289,
+   "value": "$7,783 / $6,322",
+   "status": "ok-verified",
+   "note": "Housing rates page opened: single $7,783, triple $6,322 per semester"
+  },
+  {
+   "line": 368,
+   "value": "$3,436.00",
+   "status": "ok-arithmetic",
+   "note": "6,872 / 2"
+  },
+  {
+   "line": 369,
+   "value": "$3,891.50",
+   "status": "ok-arithmetic",
+   "note": "7,783 / 2"
+  },
+  {
+   "line": 220,
+   "value": "$90,000",
+   "status": "ok-verified",
+   "note": "Sun 2025-03 article opened: Cornell contributed $90,000 to 2007 planning"
+  },
+  {
+   "line": 286,
+   "value": "May 23",
+   "status": "ok-verified",
+   "note": "Rates-amenities-licenses page: spring occupancy ends May 23, 2027"
+  },
+  {
+   "line": 306,
+   "value": "Sept. 27",
+   "status": "ok-verified",
+   "note": "Opened Cornell fall/spring housing selection pages; dates match"
+  },
+  {
+   "line": 313,
+   "value": "Sept. 30",
+   "status": "ok-verified",
+   "note": "Opened Cornell fall/spring housing selection pages; dates match"
+  },
+  {
+   "line": 325,
+   "value": "April 13",
+   "status": "ok-verified",
+   "note": "Opened Cornell fall/spring housing selection pages; dates match"
+  },
+  {
+   "line": 336,
+   "value": "Aug. 18 / Aug. 23",
+   "status": "ok-verified",
+   "note": "Cascadilla move-in page opened; hours match"
+  },
+  {
+   "line": 351,
+   "value": "April 12",
+   "status": "ok-verified",
+   "note": "Spring selection page: SDS selection April 12, approval by April 5"
+  },
+  {
+   "line": 364,
+   "value": "Jan. 31",
+   "status": "ok-verified",
+   "note": "2027-28 license page opened: cancellation schedule matches"
+  },
+  {
+   "line": 367,
+   "value": "Aug. 15",
+   "status": "ok-verified",
+   "note": "2027-28 license page opened: cancellation schedule matches"
+  },
+  {
+   "line": 395,
+   "value": "Jan. 31, 2027",
+   "status": "ok-verified",
+   "note": "2027-28 license page opened: cancellation schedule matches"
+  },
+  {
+   "line": 404,
+   "value": "Aug. 15, 2027",
+   "status": "ok-verified",
+   "note": "2027-28 license page opened: cancellation schedule matches"
+  },
+  {
+   "line": 419,
+   "value": "April 17",
+   "status": "ok-verified",
+   "note": "Sun Sheldon article by Jeanelle Wu dated Apr 17, 2026"
+  },
+  {
+   "line": 160,
+   "value": "1868",
+   "status": "fixed",
+   "note": "Cascadilla page says first residence hall when ownership transferred June 1869; table cell changed 1868 to 1869"
+  }
+ ]
+}

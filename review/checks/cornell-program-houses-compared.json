@@ -1,0 +1,137 @@
+{
+ "slug": "cornell-program-houses-compared",
+ "verdict": "pass",
+ "numbers_total": 102,
+ "matched_by_code": 82,
+ "checked": [
+  {
+   "line": 271,
+   "value": "$1,100",
+   "status": "ok-arithmetic",
+   "note": "$13,744 double minus $12,644 triple = $1,100"
+  },
+  {
+   "line": 279,
+   "value": "$19,750",
+   "status": "ok-arithmetic",
+   "note": "12,644+7,056+50"
+  },
+  {
+   "line": 280,
+   "value": "$20,850",
+   "status": "ok-arithmetic",
+   "note": "13,744+7,056+50"
+  },
+  {
+   "line": 281,
+   "value": "$21,398",
+   "status": "ok-arithmetic",
+   "note": "13,744+7,604+50"
+  },
+  {
+   "line": 282,
+   "value": "$22,672",
+   "status": "ok-arithmetic",
+   "note": "15,566+7,056+50"
+  },
+  {
+   "line": 283,
+   "value": "$23,701",
+   "status": "ok-arithmetic",
+   "note": "16,595+7,056+50"
+  },
+  {
+   "line": 288,
+   "value": "$6,974",
+   "status": "ok-arithmetic",
+   "note": "Red Bud double $3,487 per semester (fact 2.3-0039) x2"
+  },
+  {
+   "line": 288,
+   "value": "$6,770",
+   "status": "ok-arithmetic",
+   "note": "13,744 - 6,974"
+  },
+  {
+   "line": 298,
+   "value": "March 10",
+   "status": "ok-verified",
+   "note": "Opened Sun article: town hall held March 10, 2026; most program houses have no formal application process",
+   "source_url": "https://www.cornellsun.com/article/2026/03/bsu-town-hall-addresses-housing-financial-aid-and-federal-policy-concerns"
+  },
+  {
+   "line": 316,
+   "value": "April 12",
+   "status": "ok-verified",
+   "note": "Opened Cornell page: Priority Program House Selection April 12, Open Room April 13-16",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores"
+  },
+  {
+   "line": 329,
+   "value": "April 12",
+   "status": "ok-verified",
+   "note": "Same page as line 316"
+  },
+  {
+   "line": 335,
+   "value": "Sept. 27",
+   "status": "ok-verified",
+   "note": "Opened Cornell fall page: application Sept 1 to Sept 27, 2026; Priority Oct 1",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors"
+  },
+  {
+   "line": 339,
+   "value": "Jan. 31",
+   "status": "ok-verified",
+   "note": "Opened license page: $50 through Jan 31; $500; $1,000; $2,000 to Aug 15; 50% after",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028"
+  },
+  {
+   "line": 339,
+   "value": "Aug. 15",
+   "status": "ok-verified",
+   "note": "Same license page"
+  },
+  {
+   "line": 394,
+   "value": "Jan. 31, 2027",
+   "status": "ok-verified",
+   "note": "Same license page"
+  },
+  {
+   "line": 400,
+   "value": "April 12, 2027",
+   "status": "ok-verified",
+   "note": "Same as line 316"
+  },
+  {
+   "line": 401,
+   "value": "April 13",
+   "status": "ok-verified",
+   "note": "Open Room April 13-16 on sophomore page"
+  },
+  {
+   "line": 434,
+   "value": "Aug. 28",
+   "status": "ok-verified",
+   "note": "Opened Cornellians article: published Aug. 28, 2023",
+   "source_url": "https://alumni.cornell.edu/cornellians/program-houses/"
+  },
+  {
+   "line": 437,
+   "value": "Feb. 23",
+   "status": "ok-verified",
+   "note": "Opened Sun article: published Feb. 23, 2025; Feb 14 ED letter, Feb 28 compliance date"
+  },
+  {
+   "line": 441,
+   "value": "May 5",
+   "status": "ok-verified",
+   "note": "Opened Sun article: published May 5, 2026",
+   "source_url": "https://www.cornellsun.com/article/2026/05/oq5rriymdyfz"
+  }
+ ],
+ "fixes": [],
+ "new_facts": [],
+ "fact_file_updates": []
+}

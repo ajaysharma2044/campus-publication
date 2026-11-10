@@ -138,13 +138,13 @@ def build():
 
 def milestone(done, left, problems):
     """Every 10 finished pages, add one paragraph to the progress notes (pages done, pages left, problems)."""
-    if done == 0 or done % 10:
-        return
     existing = open(PROGRESS, encoding="utf-8").read() if os.path.exists(PROGRESS) else ""
-    if re.search(rf"^\*\*{done} pages done\*\*", existing, re.M):
-        return
-    text = f"**{done} pages done** ({now()}): {left} left to write; problems: " + (f"ideas {', '.join(problems)} need review." if problems else "none.")
-    atomic_write(PROGRESS, (existing.rstrip() + "\n\n" if existing.strip() else "") + text + "\n")
+    for n in range(10, done + 1, 10):
+        if re.search(rf"^\*\*{n} pages done\*\*", existing, re.M):
+            continue
+        text = f"**{n} pages done** ({now()}, now {done}): {left} left to write; problems: " + (f"ideas {', '.join(problems)} need review." if problems else "none.")
+        existing = (existing.rstrip() + "\n\n" if existing.strip() else "") + text + "\n"
+        atomic_write(PROGRESS, existing)
 
 
 def main(args):

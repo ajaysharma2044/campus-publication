@@ -1,0 +1,10 @@
+{
+ "id": 8,
+ "status": "done",
+ "page": "review/off-campus-housing/ithaca-neighborhoods-for-cornell-students.md",
+ "words": "4670",
+ "page_check": "PASS",
+ "unmatched": "40",
+ "note": "editor cut 4787->4670 words checker pass: 49 verified, 0 fixed, 0 removed, 15 new facts writer blocked on: Northside rents, its distance to campus and its bus routes: no official or reporting page publishes them. Cornell's neighborhoods page leaves Northside out.; Area-wide rents for Belle Sherman, East Hill, Cayuga Heights, Cornell Heights, South Hill, West Hill and Varna: no page gives a figure. RentCafe's Fall Creek and Lansing pages show n/a. Cornell's College Pads portal only renders 10 listings without JavaScript.; TCAT route numbers and travel times by neighborhood: tcatbus.com returns 403. The page uses only Routes 10, 30 and 14 from Cornell pages and Cornell Daily Sun reporting.",
+ "updated": "2026-11-10 17:53"
+}

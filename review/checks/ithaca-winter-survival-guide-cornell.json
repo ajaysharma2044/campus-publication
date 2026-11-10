@@ -1,0 +1,237 @@
+{
+ "slug": "ithaca-winter-survival-guide-cornell",
+ "verdict": "pass",
+ "numbers_total": 154,
+ "matched_by_code": 121,
+ "checked": [
+  {
+   "line": 172,
+   "value": "Jan. 23",
+   "status": "ok-verified",
+   "note": "Sun article: ~19 days below freezing Jan. 23 to Feb. 11; low -7F on Jan. 30",
+   "source_url": "https://cornellsun.com/article/2026/03/5z6poblqwoea"
+  },
+  {
+   "line": 172,
+   "value": "Jan. 30",
+   "status": "ok-verified",
+   "note": "Sun article: ~19 days below freezing Jan. 23 to Feb. 11; low -7F on Jan. 30",
+   "source_url": "https://cornellsun.com/article/2026/03/5z6poblqwoea"
+  },
+  {
+   "line": 176,
+   "value": "$241",
+   "status": "ok-verified",
+   "note": "DPS: about $241/month, 140 therms, Nov-Mar",
+   "source_url": "https://dps.ny.gov/winter"
+  },
+  {
+   "line": 186,
+   "value": "Sept. 15",
+   "status": "ok-verified",
+   "note": "Tenants guide: Ithaca heating season Sept. 15 to May 31; state Oct. 1",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance"
+  },
+  {
+   "line": 325,
+   "value": "Sept. 15",
+   "status": "ok-verified",
+   "note": "Same source; 68/62F rules and 30-day notice match",
+   "source_url": "https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance"
+  },
+  {
+   "line": 193,
+   "value": "Dec. 23",
+   "status": "ok-verified",
+   "note": "Housing page: last delivery Dec. 23, resumes Jan. 7",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing"
+  },
+  {
+   "line": 285,
+   "value": "Dec. 23",
+   "status": "ok-verified",
+   "note": "Same; page cites Winter Break Housing correctly",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing"
+  },
+  {
+   "line": 206,
+   "value": "Dec. 31",
+   "status": "ok-verified",
+   "note": "Cornell Transportation: spring entrants' ride privileges expire Dec. 31",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes"
+  },
+  {
+   "line": 231,
+   "value": "March 12",
+   "status": "ok-verified",
+   "note": "Sun: 42.1 in. through Mar. 12 (chart says Mar. 9; text says Mar. 12)",
+   "source_url": "https://cornellsun.com/article/2026/03/5z6poblqwoea"
+  },
+  {
+   "line": 241,
+   "value": "Nov. 25",
+   "status": "ok-verified",
+   "note": "Sun 2021: first-inch date moved Nov. 20 to Nov. 25",
+   "source_url": "https://cornellsun.com/2021/11/17/delayed-first-snowfall-in-ithaca-reflects-changing-climate-patterns/"
+  },
+  {
+   "line": 405,
+   "value": "Nov. 25",
+   "status": "ok-verified",
+   "note": "Sun 2021: first-inch date moved Nov. 20 to Nov. 25",
+   "source_url": "https://cornellsun.com/2021/11/17/delayed-first-snowfall-in-ithaca-reflects-changing-climate-patterns/"
+  },
+  {
+   "line": 253,
+   "value": "Nov. 25",
+   "status": "ok-verified",
+   "note": "Registrar: Thanksgiving break Nov 25-29, 2026",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar"
+  },
+  {
+   "line": 253,
+   "value": "Nov. 29",
+   "status": "ok-verified",
+   "note": "Registrar: Thanksgiving break Nov 25-29, 2026",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar"
+  },
+  {
+   "line": 404,
+   "value": "Nov. 25",
+   "status": "ok-verified",
+   "note": "Registrar: Thanksgiving break Nov 25-29, 2026",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar"
+  },
+  {
+   "line": 265,
+   "value": "$540,",
+   "status": "ok-arithmetic",
+   "note": "9 h x $60 = $540; $500 full-break fee and $60/h verified in closing notice and housing page",
+   "source_url": "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice"
+  },
+  {
+   "line": 269,
+   "value": "Dec. 23",
+   "status": "ok-verified",
+   "note": "C2C page: 2026 link through Dec. 23; 2027 link from Jan. 6",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service"
+  },
+  {
+   "line": 411,
+   "value": "Dec. 23",
+   "status": "ok-verified",
+   "note": "C2C and mail dates verified",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing"
+  },
+  {
+   "line": 293,
+   "value": "Jan. 25",
+   "status": "ok-verified",
+   "note": "Registrar: instruction begins Jan. 25, 2027; Jan. 25-Feb. 2 nine days below 10F in Sun article",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar"
+  },
+  {
+   "line": 295,
+   "value": "Jan. 25",
+   "status": "ok-verified",
+   "note": "Registrar: instruction begins Jan. 25, 2027; Jan. 25-Feb. 2 nine days below 10F in Sun article",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar"
+  },
+  {
+   "line": 415,
+   "value": "Jan. 25",
+   "status": "ok-verified",
+   "note": "Registrar: instruction begins Jan. 25, 2027; Jan. 25-Feb. 2 nine days below 10F in Sun article",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar"
+  },
+  {
+   "line": 313,
+   "value": "March 14",
+   "status": "ok-verified",
+   "note": "Sun 2023: closed 3 a.m. Mar. 14 to 3 a.m. Mar. 15",
+   "source_url": "https://cornellsun.com/2023/03/13/breaking-news-university-to-close-tuesday-due-to-winter-storm/"
+  },
+  {
+   "line": 317,
+   "value": "607-255-3377",
+   "status": "ok-verified",
+   "note": "Cornell alert: Inclement Weather phone 607-255-3377",
+   "source_url": "https://emergency.cornell.edu/?p=5006"
+  },
+  {
+   "line": 428,
+   "value": "607-255-3377",
+   "status": "ok-verified",
+   "note": "Cornell alert: Inclement Weather phone 607-255-3377",
+   "source_url": "https://emergency.cornell.edu/?p=5006"
+  },
+  {
+   "line": 327,
+   "value": "$241",
+   "status": "ok-verified",
+   "note": "DPS winter page",
+   "source_url": "https://dps.ny.gov/winter"
+  },
+  {
+   "line": 341,
+   "value": "800-342-3009",
+   "status": "ok-verified",
+   "note": "DPS winter page",
+   "source_url": "https://dps.ny.gov/winter"
+  },
+  {
+   "line": 327,
+   "value": "$1,205",
+   "status": "ok-arithmetic",
+   "note": "5 x $241 = $1,205"
+  },
+  {
+   "line": 327,
+   "value": "$301.25",
+   "status": "ok-arithmetic",
+   "note": "$1,205 / 4 = $301.25"
+  },
+  {
+   "line": 333,
+   "value": "$241.00",
+   "status": "ok-verified",
+   "note": "DPS",
+   "source_url": "https://dps.ny.gov/winter"
+  },
+  {
+   "line": 334,
+   "value": "$1,205.00",
+   "status": "ok-arithmetic",
+   "note": "5 x 241"
+  },
+  {
+   "line": 335,
+   "value": "$602.50",
+   "status": "ok-arithmetic",
+   "note": "1205/2"
+  },
+  {
+   "line": 336,
+   "value": "$301.25",
+   "status": "ok-arithmetic",
+   "note": "1205/4"
+  },
+  {
+   "line": 372,
+   "value": "$650,000",
+   "status": "ok-verified",
+   "note": "Ithaca Voice: Syracuse ~125 miles, $650,000 budget; Thorne $4,000/mile",
+   "source_url": "https://ithacavoice.org/2023/09/snow-removal-or-no-removal/"
+  },
+  {
+   "line": 464,
+   "value": "July 4",
+   "status": "ok-verified",
+   "note": "Sun July 2025: TCAT not running Thanksgiving, Christmas, New Year's Day (source title only)",
+   "source_url": "https://www.cornellsun.com/article/2025/07/service-changes-for-july-4-holiday-weekend-tcat-buses-curbside-recycling-city-offices-will-be-closed-on-independence-day"
+  }
+ ],
+ "fixes": [],
+ "new_facts": [],
+ "fact_file_updates": []
+}

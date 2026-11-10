@@ -1,0 +1,10 @@
+{
+ "id": 6,
+ "status": "done",
+ "page": "review/off-campus-housing/collegetown-apartments-guide-2027-28.md",
+ "words": "2612",
+ "page_check": "PASS",
+ "unmatched": "32",
+ "note": "editor cut 2794->2612 words editor reports missing: What changes next: the page gives the March 2025 Collegetown zoning proposal and its April 2, 2025 vote date, but not whether it passed. It now tells readers to check eCode360 for the limits in force. Add the outcome if the fact file has it. checker pass: 13 verified, 1 fixed, 0 removed, 5 new facts writer blocked on: The Ivy's 2027-28 prices: only Rentler snippets; the Rentler pages return 403; Whether The Ivy actually opened on schedule in August 2026: the only full source is the Dec. 2025 Sun preview, so the page says leases 'were set to begin Aug. 17, 2026' and lists the opening as '2026 (planned)'; Catherine Commons: actual opening date and current rents are not on any page I could open; the Cornell Review gave August 2024 as the scheduled finish",
+ "updated": "2026-11-10 17:53"
+}

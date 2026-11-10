@@ -1,0 +1,233 @@
+{
+ "slug": "first-month-at-cornell-logistics-checklist",
+ "verdict": "pass",
+ "numbers_total": 137,
+ "matched_by_code": 100,
+ "checked": [
+  {
+   "line": 162,
+   "value": "$1,705",
+   "status": "ok-verified",
+   "note": "SHP fall bill for new students, source opened",
+   "source_url": "https://studenthealthbenefits.cornell.edu/shp-costs-billing-important-dates/shp-costs-dates-2026-27"
+  },
+  {
+   "line": 162,
+   "value": "$295",
+   "status": "ok-verified",
+   "note": "CAMP fee $295, Cornell Store page opened",
+   "source_url": "https://www.cornellstore.com/about-textbooks"
+  },
+  {
+   "line": 162,
+   "value": "$2,000",
+   "status": "ok-arithmetic",
+   "note": "1,705 + 295 = 2,000"
+  },
+  {
+   "line": 178,
+   "value": "July 23",
+   "status": "ok-verified",
+   "note": "Transfers deadline July 23, 2026 on archived Cornell Health page",
+   "source_url": "http://web.archive.org/web/20260815222031/https://health.cornell.edu/getcare/healthrequirements/undergrad-grad-prof"
+  },
+  {
+   "line": 180,
+   "value": "July 8",
+   "status": "ok-verified",
+   "note": "Hold date July 8, 2026 (archived page); Aug. 6 and Sept. 10 also match",
+   "source_url": "https://health.cornell.edu/getcare/healthrequirements/undergrad-grad-prof"
+  },
+  {
+   "line": 190,
+   "value": "$4,092",
+   "status": "ok-verified",
+   "note": "12-month SHP cost",
+   "source_url": "https://studenthealthbenefits.cornell.edu/shp-costs-billing-important-dates/shp-costs-dates-2026-27"
+  },
+  {
+   "line": 190,
+   "value": "$2,046",
+   "status": "ok-verified",
+   "note": "Spring 2027 new student bill, six months",
+   "source_url": "https://studenthealthbenefits.cornell.edu/shp-costs-billing-important-dates/shp-costs-dates-2026-27"
+  },
+  {
+   "line": 190,
+   "value": "July 31",
+   "status": "ok-verified",
+   "note": "Waiver deadline for new fall students",
+   "source_url": "https://studenthealthbenefits.cornell.edu/node/179"
+  },
+  {
+   "line": 203,
+   "value": "July 2",
+   "status": "ok-verified",
+   "note": "CAMP opt-out email July 2, 2026; Canvas about Aug. 21; deadline Sept. 11",
+   "source_url": "https://www.cornellstore.com/about-textbooks"
+  },
+  {
+   "line": 219,
+   "value": "Aug. 18",
+   "status": "ok-verified",
+   "note": "Transfer move-in, Family Orientation Aug. 18; NSO Aug. 18-23; first-year Aug. 17",
+   "source_url": "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation"
+  },
+  {
+   "line": 219,
+   "value": "Monday one week before classes",
+   "status": "ok-verified",
+   "note": "Aug. 17, 2026 is a Monday; classes began Aug. 24, 2026",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar/2026-2027"
+  },
+  {
+   "line": 249,
+   "value": "Aug. 20 / Aug. 23",
+   "status": "ok-verified",
+   "note": "Fall 2027 add/drop Aug. 20 9 a.m., classes Aug. 23",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar/2027-2028"
+  },
+  {
+   "line": 255,
+   "value": "Aug. 31",
+   "status": "ok-verified",
+   "note": "Fall entrants' free OmniRide ends Aug. 31 of following year; Spring entrants Dec. 31; $1.50 cash fare",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes"
+  },
+  {
+   "line": 257,
+   "value": "$495",
+   "status": "ok-verified",
+   "note": "Sun article: TCAT charged $495 for similar annual pass; $200 continuing pass (article says $100 or $200 depending on permit, page's $200 is acceptable); Golding survey quote confirmed",
+   "source_url": "https://cornellsun.com/2007/04/25/university-changes-free-bus-pass-policy/"
+  },
+  {
+   "line": 269,
+   "value": "Oct. 18",
+   "status": "ok-verified",
+   "note": "Last day to drop/change grading Oct. 18, 2027; Sept. 7 add; Sept. 6 Labor Day",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar/2027-2028"
+  },
+  {
+   "line": 273,
+   "value": "$225",
+   "status": "ok-verified",
+   "note": "CAMP launch price, fall 2022",
+   "source_url": "https://scl.cornell.edu/news-events/news/students-see-savings-cornell-academic-materials-program"
+  },
+  {
+   "line": 273,
+   "value": "$145",
+   "status": "ok-verified",
+   "note": "Average savings about $145 per student per semester; 10,000 of almost 15,000",
+   "source_url": "https://scl.cornell.edu/news-events/news/students-see-savings-cornell-academic-materials-program"
+  },
+  {
+   "line": 273,
+   "value": "$70 / 31 percent",
+   "status": "ok-arithmetic",
+   "note": "295-225=70; 70/225=31.1%"
+  },
+  {
+   "line": 292,
+   "value": "July 28; Aug. 14",
+   "status": "ok-verified",
+   "note": "Prepare virtual July 28, in person Aug. 14-16, 2026; free",
+   "source_url": "https://events.cornell.edu/event/prepare-international-undergraduate-orientation-fa26"
+  },
+  {
+   "line": 296,
+   "value": "Dec. 18; Dec. 22; Feb. 3",
+   "status": "ok-verified",
+   "note": "Spring 2027: opens 11/17, due Dec. 18, hold Dec. 22, withdrawal Feb. 3, 2027",
+   "source_url": "https://health.cornell.edu/getcare/healthrequirements/undergrad-grad-prof"
+  },
+  {
+   "line": 296,
+   "value": "Jan. 22; Jan. 25; Feb. 8",
+   "status": "ok-verified",
+   "note": "Spring 2027 registrar dates",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar"
+  },
+  {
+   "line": 296,
+   "value": "Jan. 21",
+   "status": "ok-verified",
+   "note": "Spring new waiver deadline",
+   "source_url": "https://studenthealthbenefits.cornell.edu/node/179"
+  },
+  {
+   "line": 296,
+   "value": "Dec. 31",
+   "status": "ok-verified",
+   "note": "Spring entrants' free TCAT Jan. 1 to Dec. 31",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes"
+  },
+  {
+   "line": 300,
+   "value": "July 23",
+   "status": "ok-verified",
+   "note": "Transfer health deadline 2026",
+   "source_url": "http://web.archive.org/web/20260815222031/https://health.cornell.edu/getcare/healthrequirements/undergrad-grad-prof"
+  },
+  {
+   "line": 327,
+   "value": "$50 to $1,000",
+   "status": "ok-verified",
+   "note": "Immunization/TB cost range",
+   "source_url": "https://health.cornell.edu/getcare/healthrequirements/undergrad-grad-prof"
+  },
+  {
+   "line": 330,
+   "value": "July 15; $180; $115",
+   "status": "ok-verified",
+   "note": "Fitness memberships: AY $180 from Aug. 1; fall $115 from July 15, 2026",
+   "source_url": "https://scl.cornell.edu/recreation/fitness-centers/student-memberships-day-passes"
+  },
+  {
+   "line": 337,
+   "value": "Aug. 18; Aug. 23",
+   "status": "ok-verified",
+   "note": "NSO Aug. 18-23, 2026",
+   "source_url": "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation"
+  },
+  {
+   "line": 363,
+   "value": "July 2",
+   "status": "ok-verified",
+   "note": "See line 203",
+   "source_url": "https://www.cornellstore.com/about-textbooks"
+  },
+  {
+   "line": 371,
+   "value": "Aug. 23, 2027",
+   "status": "ok-verified",
+   "note": "See line 249",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar/2027-2028"
+  },
+  {
+   "line": 378,
+   "value": "Oct. 18, 2027",
+   "status": "ok-verified",
+   "note": "See line 269",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar/2027-2028"
+  },
+  {
+   "line": 434,
+   "value": "April 28, 2023",
+   "status": "ok-verified",
+   "note": "Article dated April 28, 2023",
+   "source_url": "https://scl.cornell.edu/news-events/news/students-see-savings-cornell-academic-materials-program"
+  },
+  {
+   "line": 436,
+   "value": "April 25, 2007",
+   "status": "ok-verified",
+   "note": "Article dated April 25, 2007",
+   "source_url": "https://cornellsun.com/2007/04/25/university-changes-free-bus-pass-policy/"
+  }
+ ],
+ "fixes": [],
+ "new_facts": [],
+ "fact_file_updates": []
+}

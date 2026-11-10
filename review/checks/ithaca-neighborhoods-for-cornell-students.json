@@ -1,0 +1,436 @@
+{
+ "slug": "ithaca-neighborhoods-for-cornell-students",
+ "verdict": "pass",
+ "numbers_total": 175,
+ "matched_by_code": 126,
+ "checked": [
+  {
+   "line": 206,
+   "value": "$1,145.33",
+   "status": "ok-arithmetic",
+   "note": "$13,744 / 12 = 1,145.33 (fact off-campus-housing-2.3-0036)"
+  },
+  {
+   "line": 212,
+   "value": "$7,200",
+   "status": "ok-arithmetic",
+   "note": "Top of 'new towers $2,595 to $7,200 per unit' range: Summit 4BR $7,200, opened and verified in Ithaca Voice page"
+  },
+  {
+   "line": 241,
+   "value": "$552",
+   "status": "ok-arithmetic",
+   "note": "$2,815 - $2,263 = $552; 552/2,263 = 24.4%. Inputs opened in browser on RentCafe pages (updated Oct. 30, 2026)"
+  },
+  {
+   "line": 245,
+   "value": "84",
+   "status": "ok-verified",
+   "note": "The Bear: 84 units, 150 beds, opens for 2027 academic year (Tompkins Weekly and Ithaca Voice pages opened)",
+   "source_url": "https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148"
+  },
+  {
+   "line": 245,
+   "value": "77",
+   "status": "ok-verified",
+   "note": "Prestige Ithaca: eight stories, 77 units, 112 bedrooms, as-of-right, Oct 2026 to July 2028 (Ithaca Times page opened). 81+88+150+112=431; 431/6,110=7.05%",
+   "source_url": "https://www.ithaca.com/news/ithaca/former-collegetown-fire-station-site-slated-for-16-5m-apartment-development/article_daeb3b07-ae00-497b-9e13-ac15184dc19e.html"
+  },
+  {
+   "line": 249,
+   "value": "$4,900",
+   "status": "ok-verified",
+   "note": "Ivy 3BR up to $4,900; studios from $2,595 (Ithaca Voice page opened)",
+   "source_url": "https://ithacavoice.org/2026/07/cornell-collegetown-construction/"
+  },
+  {
+   "line": 249,
+   "value": "$2,700",
+   "status": "ok-verified",
+   "note": "Summit studios and 1BR from $2,700; 4BR $7,200 (Ithaca Voice)",
+   "source_url": "https://ithacavoice.org/2026/07/cornell-collegetown-construction/"
+  },
+  {
+   "line": 249,
+   "value": "$7,200",
+   "status": "ok-verified",
+   "note": "Summit 4BR $7,200 (Ithaca Voice)",
+   "source_url": "https://ithacavoice.org/2026/07/cornell-collegetown-construction/"
+  },
+  {
+   "line": 249,
+   "value": "$2,850",
+   "status": "ok-verified",
+   "note": "Bear studio $2,850 to 3BR $6,000 (Ithaca Voice)",
+   "source_url": "https://ithacavoice.org/2026/07/cornell-collegetown-construction/"
+  },
+  {
+   "line": 249,
+   "value": "$1,800",
+   "status": "ok-arithmetic",
+   "note": "$7,200 / 4 = $1,800; Bear $6,000 / 3 = $2,000"
+  },
+  {
+   "line": 263,
+   "value": "Oct. 28",
+   "status": "ok-verified",
+   "note": "City's Oct. 28 announcement of hotel, restaurant, new garage at 118 Dryden Rd.; preliminary; public spaces kept; garage likely removed during construction (Tompkins Weekly page opened). $232 monthly permit, 'recommended for Collegetown residents', no guaranteed space confirmed on City page",
+   "source_url": "https://www.tompkinsweekly.com/news/ithaca-proposes-collegetown-garage-project-while-facing-parking-losses-f7b7425d"
+  },
+  {
+   "line": 270,
+   "value": "$446.25",
+   "status": "ok-arithmetic",
+   "note": "$1,246.25 - $800 = $446.25 (fact off-campus-housing-3.2-0345)"
+  },
+  {
+   "line": 293,
+   "value": "Nov. 5",
+   "status": "ok-verified",
+   "note": "Moratorium expires Nov. 5; passed 9-1 at Oct. 7 meeting (Ithaca Times page opened). Kotlikoff IFC suspension announced Tuesday Oct. 13 (Sun page opened)",
+   "source_url": "https://www.ithaca.com/news/ithaca/common-council-sets-moratorium-on-cornell-event-permits-following-gang-rape-allegations/article_6c84a345-d112-483a-98bc-316f3b64f0a1.html"
+  },
+  {
+   "line": 313,
+   "value": "$385",
+   "status": "ok-arithmetic",
+   "note": "$1,377.50 - $992.50 = $385 (facts off-campus-housing-3.2-0345 and -0346)"
+  },
+  {
+   "line": 313,
+   "value": "$4,620",
+   "status": "ok-arithmetic",
+   "note": "$385 x 12 = $4,620"
+  },
+  {
+   "line": 313,
+   "value": "$4,420",
+   "status": "ok-arithmetic",
+   "note": "$4,620 - $200 OmniRide = $4,420"
+  },
+  {
+   "line": 315,
+   "value": "April 10",
+   "status": "ok-verified",
+   "note": "Seneca Street Garage shut permanently April 10; 430 spaces lost (Tompkins Weekly page opened)",
+   "source_url": "https://www.tompkinsweekly.com/news/ithaca-proposes-collegetown-garage-project-while-facing-parking-losses-f7b7425d"
+  },
+  {
+   "line": 337,
+   "value": "$2,072",
+   "status": "ok-verified",
+   "note": "Lansing West opened in browser: 1BR $1,302+, 2BR $1,625+, 3BR $2,072+; $20 fee; apply by Nov. 14, move in by 12/1/26, rent free until January 2027",
+   "source_url": "https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx"
+  },
+  {
+   "line": 337,
+   "value": "Nov. 14",
+   "status": "ok-verified",
+   "note": "Same Lansing West rent special, opened in browser",
+   "source_url": "https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx"
+  },
+  {
+   "line": 345,
+   "value": "April 25",
+   "status": "ok-verified",
+   "note": "TCAT board voted unanimously April 25, 2024 to continue suspending 14S; suspended Oct. 2023; riders told to take Route 14 downtown (Sun page opened)",
+   "source_url": "https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/"
+  },
+  {
+   "line": 352,
+   "value": "$1,663.50",
+   "status": "ok-arithmetic",
+   "note": "$19,962 / 12 = $1,663.50 (fact off-campus-housing-3.4-0377); covers $1,600 and $1,625 one-bedrooms, not Collegetown $2,025"
+  },
+  {
+   "line": 392,
+   "value": "$9,540",
+   "status": "ok-arithmetic",
+   "note": "$795 x 12"
+  },
+  {
+   "line": 393,
+   "value": "$9,600",
+   "status": "ok-arithmetic",
+   "note": "$800 x 12"
+  },
+  {
+   "line": 394,
+   "value": "$11,910",
+   "status": "ok-arithmetic",
+   "note": "$992.50 x 12"
+  },
+  {
+   "line": 396,
+   "value": "$14,955",
+   "status": "ok-arithmetic",
+   "note": "$1,246.25 x 12"
+  },
+  {
+   "line": 397,
+   "value": "$15,624",
+   "status": "ok-arithmetic",
+   "note": "$1,302 x 12"
+  },
+  {
+   "line": 398,
+   "value": "$19,200",
+   "status": "ok-arithmetic",
+   "note": "$1,600 x 12"
+  },
+  {
+   "line": 399,
+   "value": "$19,500",
+   "status": "ok-arithmetic",
+   "note": "$1,625 x 12"
+  },
+  {
+   "line": 400,
+   "value": "$4,900,",
+   "status": "ok-arithmetic",
+   "note": "$4,900 / 3 bedrooms (Ivy 3BR)"
+  },
+  {
+   "line": 400,
+   "value": "$19,600",
+   "status": "ok-arithmetic",
+   "note": "$4,900 / 3 x 12 = 19,600"
+  },
+  {
+   "line": 401,
+   "value": "$7,200,",
+   "status": "ok-arithmetic",
+   "note": "$7,200 / 4 bedrooms"
+  },
+  {
+   "line": 401,
+   "value": "$21,600",
+   "status": "ok-arithmetic",
+   "note": "$7,200 / 4 x 12 = 21,600"
+  },
+  {
+   "line": 402,
+   "value": "$24,000",
+   "status": "ok-arithmetic",
+   "note": "$6,000 / 3 x 12 = 24,000"
+  },
+  {
+   "line": 403,
+   "value": "$24,300",
+   "status": "ok-arithmetic",
+   "note": "$2,025 x 12"
+  },
+  {
+   "line": 408,
+   "value": "$19,000",
+   "status": "ok-arithmetic",
+   "note": "Cheapest close-in single rows: Fall Creek $19,200, downtown 1BR $19,500; only Lansing ($15,624) is lower"
+  },
+  {
+   "line": 408,
+   "value": "$4,600",
+   "status": "ok-arithmetic",
+   "note": "$19,600 - $14,955 = $4,645"
+  },
+  {
+   "line": 408,
+   "value": "$9,000",
+   "status": "ok-arithmetic",
+   "note": "$24,000 - $14,955 = $9,045"
+  },
+  {
+   "line": 417,
+   "value": "$2,784",
+   "status": "ok-arithmetic",
+   "note": "$232 x 12 = $2,784"
+  },
+  {
+   "line": 448,
+   "value": "Nov. 14",
+   "status": "ok-verified",
+   "note": "Lansing West offer: apply by Nov. 14 (RentCafe opened in browser)",
+   "source_url": "https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx"
+  },
+  {
+   "line": 452,
+   "value": "Aug. 31",
+   "status": "ok-verified",
+   "note": "OmniRide passes expire Aug. 31 per fact getting-around-4.1-0504 (Cornell FCS source); matcher missed the format only",
+   "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes"
+  }
+ ],
+ "fixes": [],
+ "new_facts": [
+  {
+   "fact": "The Ivy size and rents",
+   "value": "52 units, 81 beds; studios from $2,595 a month; three-bedrooms up to $4,900",
+   "applies_to": "The Ivy, 325 College Ave.",
+   "period": "2026",
+   "source_url": "https://ithacavoice.org/2026/07/cornell-collegetown-construction/",
+   "source_title": "Gallery: See what's under construction around Ithaca this summer, The Ithaca Voice",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "The Summit size and rents",
+   "value": "46 units, about 88 bedrooms, replacing an 11-bedroom house; studios and 1BR from $2,700; 4BR $7,200 a month",
+   "applies_to": "The Summit, 201 Oak Ave.",
+   "period": "2026",
+   "source_url": "https://ithacavoice.org/2026/07/cornell-collegetown-construction/",
+   "source_title": "Ithaca Voice gallery",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "The Bear size, rents and opening",
+   "value": "84 units, 150 beds; studios $2,850 to 3BR $6,000 a month; scheduled to open for the 2027 academic year",
+   "applies_to": "The Bear, 215 College Ave.",
+   "period": "2027-28",
+   "source_url": "https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148",
+   "source_title": "Three new developments offer different answers to Ithaca's housing needs, Tompkins Weekly",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Prestige Ithaca",
+   "value": "Eight stories, 77 units, 112 bedrooms, MU-2 as-of-right; $16.5 million; construction Oct. 2026 to July 2028",
+   "applies_to": "309 College Ave.",
+   "period": "2026-2028",
+   "source_url": "https://www.ithaca.com/news/ithaca/former-collegetown-fire-station-site-slated-for-16-5m-apartment-development/article_daeb3b07-ae00-497b-9e13-ac15184dc19e.html",
+   "source_title": "Former Collegetown Fire Station Site Slated for $16.5M Apartment Development, Ithaca Times",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "The Ivy leasing pace",
+   "value": "1BRs spoken for in May 2026, before tours; about 25% of apartments leased for next year shortly after opening",
+   "applies_to": "The Ivy",
+   "period": "2026-27",
+   "source_url": "https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148",
+   "source_title": "Tompkins Weekly",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "The Pinnacle",
+   "value": "121-125 Lake St.; opened Aug. 1, 2026; 77 apartments (111 beds per Tompkins Weekly, 109 per Ithaca Voice); at least 80% graduate students; rents 15% to 20% below newer Collegetown buildings per developer; 2BR about $3,000",
+   "applies_to": "Fall Creek / Gun Hill",
+   "period": "2026-27",
+   "source_url": "https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148",
+   "source_title": "Tompkins Weekly (with Ithaca Voice gallery)",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Dryden Road Garage replacement proposal",
+   "value": "City announced Oct. 28, 2026 a hotel, restaurant and new garage at 118 Dryden Rd., keeping public spaces at current level; preliminary; garage likely removed during construction",
+   "applies_to": "Collegetown parking",
+   "period": "2026-",
+   "source_url": "https://www.tompkinsweekly.com/news/ithaca-proposes-collegetown-garage-project-while-facing-parking-losses-f7b7425d",
+   "source_title": "Ithaca proposes Collegetown garage project while facing parking losses, Tompkins Weekly",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Seneca Street Garage closure",
+   "value": "Closed permanently April 10, 2026; 430 spaces lost",
+   "applies_to": "Downtown Ithaca parking",
+   "period": "2026",
+   "source_url": "https://www.tompkinsweekly.com/news/ithaca-proposes-collegetown-garage-project-while-facing-parking-losses-f7b7425d",
+   "source_title": "Tompkins Weekly",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Dryden Road Garage monthly permit",
+   "value": "$232 a month, full 24/7 access, recommended for Collegetown residents; permit does not guarantee a space",
+   "applies_to": "Dryden Road Garage",
+   "period": "2026",
+   "source_url": "https://www.cityofithacany.gov/718/Dryden-Road-Garage",
+   "source_title": "Dryden Road Garage, City of Ithaca",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Fraternity party suspension",
+   "value": "Kotlikoff canceled all IFC house parties and social events for rest of 2026-27, announced Oct. 13, 2026; review of fraternity life pending",
+   "applies_to": "Cornell fraternities",
+   "period": "2026-27",
+   "source_url": "https://www.cornellsun.com/article/2026/10/breaking-cornell-suspends-all-fraternity-parties-social-events-for-2026-27-school-year",
+   "source_title": "Cornell Daily Sun",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "City moratorium on Cornell event permits",
+   "value": "Common Council approved 9-1 on Oct. 7, 2026; expires Nov. 5",
+   "applies_to": "City of Ithaca",
+   "period": "Oct.-Nov. 2026",
+   "source_url": "https://www.ithaca.com/news/ithaca/common-council-sets-moratorium-on-cornell-event-permits-following-gang-rape-allegations/article_6c84a345-d112-483a-98bc-316f3b64f0a1.html",
+   "source_title": "Ithaca Times",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Cornell Heights historic district",
+   "value": "Built 1898-1937; local designation and National Register listing 1989",
+   "applies_to": "Cornell Heights",
+   "period": "1989-",
+   "source_url": "https://www.cityofithacany.gov/DocumentCenter/View/1589/Cornell-Heights-Historic-District-Significance-Statement",
+   "source_title": "Cornell Heights Historic District Summary Significance Statement, City of Ithaca",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "TCAT Route 14S suspension",
+   "value": "Suspended Oct. 2023; board voted unanimously April 25, 2024 to continue indefinitely; riders told to use Route 14 downtown",
+   "applies_to": "West Hill",
+   "period": "2023-",
+   "source_url": "https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/",
+   "source_title": "Cornell Daily Sun",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "TCAT Route 30 path",
+   "value": "Runs between the Ithaca Commons and the Ithaca Mall through campus",
+   "applies_to": "Downtown, campus, Lansing/Northeast",
+   "period": "2024",
+   "source_url": "https://cornellsun.com/2024/11/03/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free/",
+   "source_title": "Cornell Daily Sun",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Ivy Ridge, Varna",
+   "value": "802 Dryden Rd.; 108 bedrooms; finished Sept. 2019; Town of Dryden; aimed at graduate/professional students",
+   "applies_to": "Varna",
+   "period": "2019",
+   "source_url": "https://ithacating.com/2019/09/08/802-dryden-road-construction-update-9-2019/",
+   "source_title": "Ithacating",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Lansing West base rents",
+   "value": "1BR from $1,302; 2BR from $1,625; 3BR from $2,072; apply by Nov. 14, 2026 for rent free until Jan. 2027, move in by Dec. 1, 2026; $20 application fee",
+   "applies_to": "700 Warren Rd.",
+   "period": "Nov. 2026",
+   "source_url": "https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx",
+   "source_title": "Lansing West Apartments, RentCafe",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "RentCafe average rents",
+   "value": "Collegetown $2,815 (down 2.59% from $2,890); Ithaca $2,263; buildings with 50+ units; updated Oct. 30, 2026",
+   "applies_to": "Collegetown, Ithaca",
+   "period": "Oct. 2026",
+   "source_url": "https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/",
+   "source_title": "Average Rent in Collegetown, RentCafe",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  }
+ ],
+ "fact_file_updates": []
+}

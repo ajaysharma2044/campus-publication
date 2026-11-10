@@ -1,0 +1,10 @@
+{
+ "id": 3,
+ "status": "done",
+ "page": "review/off-campus-housing/cornell-south-campus-halls-near-collegetown.md",
+ "words": "3439",
+ "page_check": "PASS",
+ "unmatched": "40",
+ "note": "editor cut 3543->3439 words checker pass: 42 verified, 1 fixed, 0 removed, 8 new facts writer blocked on: Rate for 301 College Avenue apartments: Cornell's 2026-27 rates page posts one residence hall table and no separate apartment price; the page tells readers to check the projected rate in the portal.; Bed counts for 104 Mary Ann Wood Drive and 109 McGraw Place, the build year of 112 Edgemoor, and whether 301 College Avenue has air conditioning: Cornell's hall pages do not state them; table cells say Not stated.; Whether 109 McGraw Place reopens for 2027-28: its page says only that it is closed for 2026-27.",
+ "updated": "2026-11-10 17:53"
+}

@@ -1,0 +1,10 @@
+{
+ "id": 5,
+ "status": "done",
+ "page": "review/off-campus-housing/cornell-co-ops-all-eight-compared.md",
+ "words": "4065",
+ "page_check": "PASS",
+ "unmatched": "35",
+ "note": "editor cut 4186->4065 words editor reports missing: What does food cost add? The draft never gives a dollar figure for any house meal plan or says whether it is billed inside or on top of the room rate; it only tells readers to ask the house treasurer. A sourced meal-plan price per house is needed to fully answer this sub-question. checker pass: 35 verified, 1 fixed, 0 removed, 6 new facts writer blocked on: Founding dates for Triphammer, Wait Terrace, Wait Avenue Cooperative and the 660 Stewart co-op: no Cornell or reputable page gives them (only building ages for 660 Stewart, 1902, and Wait Avenue, over 100 years).; Whether a house meal plan is billed inside the co-op room rate or separately: the rates page does not say.; Whether a second-year living in a co-op must also buy a Cornell Dining meal plan: residential policy says on-campus residents need one, the co-op license is silent; p",
+ "updated": "2026-11-10 17:53"
+}
