@@ -102,6 +102,8 @@ ${it.inventory ? `- the Ithaca apartment inventory: intel/off-campus-housing/inv
 ${relatedList(it)}
 - live tools you may embed with a \`\`\`tool <slug>\`\`\` line: ${(it.tools || []).join(', ') || '(none)'}
 - coordinator's note: ${it.note || '(none)'}
+${it.tags.includes('ENTITY') ? `
+This is an entity page (kit: use-case-architecture, step 6): one named place, for a reader deciding whether to live or eat there. Open with what it is and who it is for in one or two sentences. Then a facts band as a figure (kind: cost_table with rows {label, value}) or a short table: address or location, opened, residents or beds, room or unit types, rate or price with its period, dining, who lives there, how to get in; every value a fact row. Sections headed by the questions people search: what living (or eating) here is like and what sets it apart, what it costs, how to get a spot, what to watch (from reporting, attributed). State only the facts that differ from the category default; the category-wide rules get one sentence and a link to the category hub. Link up to the hub and sideways to one or two sibling entities. 900 to 1,600 words, no padding.` : ''}
 ${it.tags.includes('TOOL') ? `
 This idea builds a calculator. Build it under ${REPO}/review/tools/${it.slug}/ as tool.html and tool.md, copying the two existing tools' conventions (tool.md frontmatter with kind: tool, numbers_as_of, sources; self-contained HTML with no external scripts; inputs with labels; the math and every number's source shown in the tool itself). Every number the tool uses comes from a fact row with its source shown. Then the page embeds it with a \`\`\`tool ${it.slug}\`\`\` line and explains the inputs, the numbers and the math, as the live tool pages do. Publish nothing.` : ''}
 
