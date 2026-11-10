@@ -1,6 +1,6 @@
 # STATE (v3, overwritten; keep under 60 lines)
 
-Updated: 2026-11-10 10:45 EST. The publication is EduExplained (Ajay's rename of 2026-11-10; the Netlify URL stays https://footnote-daily.netlify.app, noindex until the real domain). Spec: docs/v3/spec.md (owner's file, byte for byte; it still says Footnote Daily, as it should). Articles live at /cornell/<topic>/<slug>/, tools at /tools/<slug>/, datasets at /datasets/<slug>/ (CSV alongside), start pages at /start/<reader>/. Repo map: docs/v3/repo-map.md.
+Updated: 2026-11-10 11:05 EST. The publication is EduExplained (Ajay's rename of 2026-11-10) and the live site is https://eduexplained.netlify.app (the Netlify project was renamed too; footnote-daily.netlify.app no longer resolves; noindex until the real domain). Spec: docs/v3/spec.md (owner's file, byte for byte; it still says Footnote Daily, as it should). Articles live at /cornell/<topic>/<slug>/, tools at /tools/<slug>/, datasets at /datasets/<slug>/ (CSV alongside), start pages at /start/<reader>/. Repo map: docs/v3/repo-map.md.
 
 ## Running now
 Nothing. The last run (housing) ended 2026-11-08 22:45 EST; nothing is scheduled.
