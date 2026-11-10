@@ -3052,7 +3052,7 @@
   "hub_idea_id": 6
  },
  "119": {
-  "action": "waiting-data",
+  "action": "hub-row",
   "rewrite_target": "",
   "merged_into": 0,
   "slug": "ithaca-apartment-buildings-cornell-students",
@@ -3076,7 +3076,8 @@
    "collegetown-vs-downtown-rent-per-bed-2026"
   ],
   "data_needed": "inventory.csv",
-  "note": "verifier: no separate index page should come out of this idea, because that index is wave 1 idea 10 (Every apartment building in Ithaca, mapped and compared, the F hub) and the two would differ only in name; this idea yields only the per-building place pages, so the slug is a placeholder for the generator and each building page takes its own slug; waiting-data confirmed since intel/off-campus-housing/inventory.csv does not exist; Generator idea, not one page: one place page per inventory building that clears the bar; buildings already assigned ids 83-86 and 111-118 are excluded; entity bar pending."
+  "note": "entity bar on the 40 richest inventory buildings (a price plus five or more other fields): none clears it, because none has a demand signal (no queue row, suggestion, People-also-ask question or reporting; listing pages do not count). Every one has its row in the Collegetown guide's 180-building inventory table (hub 6). verifier: no separate index page should come out of this idea, because that index is wave 1 idea 10 (Every apartment building in Ithaca, mapped and compared, the F hub) and the two would differ only in name; this idea yields only the per-building place pages, so the slug is a placeholder for the gen",
+  "hub_idea_id": 6
  },
  "120": {
   "action": "write",
