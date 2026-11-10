@@ -96,7 +96,7 @@ images:
 - Collegetown two- to five-bedroom shares at Ithaca Renting list at $1,145 to $1,495 a bed for 2027-28.
 - You can live alone in this range: two studios at 408 Stewart Ave. list at $1,150 and $1,200, utilities included.
 - Over a 12-month lease, a Cornell double equals $1,145.33 a month, so most beds here cost more.
-- By Nov. 10, 2026, Ithaca Renting had 14 of its 67 Collegetown listings sold out.
+- Collegetown shares lease early: 14 of Ithaca Renting's 67 Collegetown listings for summer 2027 were already sold out.
 ```
 
 For $1,100 to $1,500 a month, you can rent a bed in a two- to five-bedroom Collegetown share, a downtown studio, or a small studio or one-bedroom near campus on your own. Over a 12-month lease, that budget comes to $13,200 to $18,000 a year, against $13,744 for a 2026-27 Cornell residence hall double ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).

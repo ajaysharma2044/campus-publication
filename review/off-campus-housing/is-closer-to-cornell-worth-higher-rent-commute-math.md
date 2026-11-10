@@ -77,9 +77,9 @@ Fall Creek gets the same 20- to 30-minute uphill estimate from Cornell, so the m
 
 ## What does each hour of saved walking cost?
 
-Your schedule sets the price. Say your Collegetown walk is 10 minutes and your downtown walk is 25, the middle of Cornell's range. That is 15 extra minutes each way, or 30 minutes a round trip. Five days a week, that is 2.5 hours. Over a 30-week school year (fall and spring semesters, a planning figure), that is 75 hours.
+Your schedule sets the price. Say your Collegetown walk is 10 minutes and your downtown walk is 25, the middle of [Cornell's range](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods). That is 15 extra minutes each way, or 30 minutes a round trip. Five days a week, that is 2.5 hours. Over a 30-week school year (fall and spring semesters, a planning figure), that is 75 hours.
 
-Divide the yearly premium by the hours. $4,440 / 75 = $59.20 an hour for a studio. $4,800 / 75 = $64.00 for a 1-bedroom. $4,620 / 75 = $61.60 for a 2-bedroom share. The hourly price runs high because you pay rent for 12 months but walk to class for about 30 weeks.
+Divide the yearly premium (Ithaca Renting) by the hours. $4,440 / 75 = $59.20 an hour for a studio. $4,800 / 75 = $64.00 for a 1-bedroom. $4,620 / 75 = $61.60 for a 2-bedroom share. The hourly price runs high because you pay rent for 12 months but walk to class for about 30 weeks.
 
 ```figure
 kind: cost_table
@@ -104,7 +104,7 @@ The [OmniRide break-even calculator](/tools/omniride-break-even-calculator/) tel
 
 Closer wins in three situations.
 
-You go home between classes for lunch, a nap or a shift. Two round trips a day cut the price to about $30 an hour of walking saved.
+You go home between classes for lunch, a nap or a shift. Two round trips a day halve the hourly price in the table above.
 
 You come home very late. TCAT runs no buses from 1:30 a.m. to 4 a.m. ([Cornell Sustainability](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting)). If your lab, studio or job keeps you on campus past 1:30 a.m., downtown means a 20- to 30-minute uphill walk in the dark, or a ride you pay for.
 

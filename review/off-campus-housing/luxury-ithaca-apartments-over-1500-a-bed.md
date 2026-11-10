@@ -146,7 +146,7 @@ The Ivy sells out early. Its one-bedrooms were spoken for in May 2026, before to
 
 **The Bear, 215 College Ave.** Tompkins Weekly puts The Bear at 84 units and 150 beds, and the [Ithaca Voice](https://ithacavoice.org/2026/07/cornell-collegetown-construction/) lists studios at $2,850 a month and 3BRs at $6,000. That 3BR is $2,000 per person ($6,000 / 3). It is scheduled to open for the 2027 academic year.
 
-**The Summit, 201 Oak Ave.** It has 46 units and about 88 bedrooms. Studios and one-bedrooms start at $2,700, and a 4BR rents for $7,200 a month, or $1,800 per person ($7,200 / 4), according to the same Ithaca Voice report.
+**The Summit, 201 Oak Ave.** It has 46 units and about 88 bedrooms. Studios and one-bedrooms start at $2,700, and a 4BR rents for $7,200 a month, split four ways in the table above, according to the same Ithaca Voice report.
 
 More is coming. Robertson and O'Connor plan an eight-story building at 309 College Ave., the old East Hill fire station site, with 77 units and 112 bedrooms ([Ithaca Times](https://www.ithaca.com/news/ithaca/former-collegetown-fire-station-site-slated-for-16-5m-apartment-development/article_daeb3b07-ae00-497b-9e13-ac15184dc19e.html)).
 
@@ -256,7 +256,7 @@ Collegetown Center is the one building in this tier that markets itself to you, 
 
 ## What should you check before signing a luxury lease?
 
-Higher rent does not change the rules. In New York, a security deposit cannot be more than one month's rent, and the landlord must return it with an itemized list within 14 days after you move out ([New York General Obligations Law 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108)). At Dryden South's $2,190 studio, the most a landlord can hold is $2,190.
+Higher rent does not change the rules. In New York, a security deposit cannot be more than one month's rent, and the landlord must return it with an itemized list within 14 days after you move out ([New York General Obligations Law 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108)). At Dryden South's Studio 102, the most a landlord can hold is $2,190.
 
 Then check three things that vary by building:
 
