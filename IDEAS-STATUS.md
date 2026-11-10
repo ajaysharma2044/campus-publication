@@ -1,6 +1,10 @@
 # IDEAS-STATUS
 
-Updated 2026-11-10 15:40. Pages done: 0 of 291 ideas (0 done, 0 rewrite-done). Left to write: 291 (291 queued, 0 writing, 0 waiting-data). Not pages: 0 merged, 0 hub-row. Problems: 0 needs-review, 0 failed.
+Updated 2026-11-10 15:52. Pages done: 0 of 291 ideas (0 done, 0 rewrite-done). Left to write: 291 (291 queued, 0 writing, 0 waiting-data). Not pages: 0 merged, 0 hub-row. Problems: 0 needs-review, 0 failed.
+
+## Progress notes
+
+2026-11-10 15:52: Run started from docs/v4/RUN-NOW.md with the agent kit installed (commit 38240e6). Calls made so far: (1) new calculators are built under review/tools/<slug>/, never content/tools/, because the site deploy publishes every directory under content/tools/; nothing in this run reaches the live site. (2) The gold-set file .claude/skills/gold-set/examples/feature-pillar.md holds no full text of 'Where Cornell Sleeps' (not in the repo or Downloads), so writers work from its annotated excerpts; paste the article in when it is available. (3) The idea list has no money ideas, so no money fact file was built. (4) The kit's README, SPEC, PILOT and RUN-NOW went to docs/v4/ so the kit's README does not read as the repo's; CLAUDE.md is unchanged, as the kit's SPEC stage 0 says. (5) Checker results go to review/checks/, not content/checks/ (the v3 pipeline's directory). (6) Fact files: housing 635 rows, getting-around 667, dining 651, all validating with zero errors; fixes logged in intel/<topic>/facts-fixes.md.
 
 ## Ideas
 
