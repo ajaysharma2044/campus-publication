@@ -1,21 +1,47 @@
 ---
+/* The masthead after Investopedia's header (owner's choice, 2026-11-10): a white bar with a menu button, the wordmark
+   centered, Search and Newsletter on the right, and the section links in a row below. The menu button opens a panel with
+   every section and reader hub; without script the row still carries the main links. */
 import { site } from '../../site.config';
 import Logo from './Logo.astro';
+import { topicUrl } from '../lib/model';
+const school = site.schools[0];
+const topics = site.topics.filter((t) => !site.audiences.some((a) => a.id === t.id));
 ---
 <header class="masthead">
-  <div class="wrap">
-    <div class="masthead__top">
-      <p class="masthead__tagline">{site.tagline}</p>
-      <a class="logo" href="/"><Logo define /></a>
-      <div class="masthead__actions">
-        <a class="btn btn--search" href="/search/"><span class="btn__text">Search</span><svg class="btn__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a>
-        <a class="btn btn--gold" href="#newsletter">Newsletter</a>
+  <div class="wrap masthead__top">
+    <button class="menu-btn" type="button" aria-label="All sections" aria-expanded="false" aria-controls="site-menu" data-menu-toggle hidden>
+      <span class="menu-btn__bar"></span><span class="menu-btn__bar"></span><span class="menu-btn__bar"></span>
+    </button>
+    <a class="logo" href="/"><Logo define /></a>
+    <div class="masthead__actions">
+      <a class="btn btn--search" href="/search/"><svg class="btn__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="btn__text">Search</span></a>
+      <a class="btn btn--pill" href="#newsletter">Newsletter</a>
+    </div>
+  </div>
+  <nav class="nav" aria-label="Site">
+    <ul class="wrap nav__list">
+      {site.nav.map((n) => <li><a class="nav__link" href={n.href}>{n.label}</a></li>)}
+    </ul>
+  </nav>
+  <div class="menu" id="site-menu" hidden data-menu>
+    <div class="wrap menu__inner">
+      <div class="menu__col">
+        <p class="menu__title">{school.name}</p>
+        <ul class="menu__list">{topics.map((t) => <li><a href={topicUrl(school, t)}>{t.label}</a></li>)}<li><a href={`/${school.slug}/data/`}>Data and trackers</a></li></ul>
+      </div>
+      <div class="menu__col">
+        <p class="menu__title">Readers</p>
+        <ul class="menu__list">{site.audiences.map((a) => <li><a href={topicUrl(school, a.id)}>{a.label}</a></li>)}<li><a href="/start/">Start pages</a></li><li><a href="/guides/">Cross-school guides</a></li></ul>
+      </div>
+      <div class="menu__col">
+        <p class="menu__title">Tools and data</p>
+        <ul class="menu__list"><li><a href="/tools/">Calculators and tools</a></li><li><a href="/datasets/">Datasets</a></li><li><a href="/search/">Search</a></li></ul>
+      </div>
+      <div class="menu__col">
+        <p class="menu__title">{site.name}</p>
+        <ul class="menu__list">{site.footer.columns[0].links.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
       </div>
     </div>
-    <nav class="nav" aria-label="Site">
-      <ul class="nav__list">
-        {site.nav.map((n) => <li><a class="nav__link" href={n.href}>{n.label}</a></li>)}
-      </ul>
-    </nav>
   </div>
 </header>

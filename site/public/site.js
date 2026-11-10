@@ -1,6 +1,27 @@
 /* EduExplained: the little client-side behavior the templates need. Loaded deferred; every page works without it. */
 (function () {
   'use strict';
+  // Masthead menu: the button shows only with script and toggles the all-sections panel.
+  var menuBtn = document.querySelector('[data-menu-toggle]'), menu = document.querySelector('[data-menu]');
+  if (menuBtn && menu) {
+    menuBtn.hidden = false;
+    menuBtn.addEventListener('click', function () {
+      var open = menuBtn.getAttribute('aria-expanded') === 'true';
+      menuBtn.setAttribute('aria-expanded', open ? 'false' : 'true');
+      menu.hidden = open;
+    });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !menu.hidden) { menu.hidden = true; menuBtn.setAttribute('aria-expanded', 'false'); menuBtn.focus(); } });
+  }
+
+  // Homepage card row: the arrow buttons show only with script and scroll the row.
+  document.querySelectorAll('[data-scroller]').forEach(function (s) {
+    var row = s.querySelector('.cards'); if (!row) return;
+    s.querySelectorAll('[data-scroll]').forEach(function (b) {
+      b.hidden = false;
+      b.addEventListener('click', function () { row.scrollBy({ left: +b.getAttribute('data-scroll') * Math.max(240, row.clientWidth * 0.8), behavior: 'smooth' }); });
+    });
+  });
+
   // DataTable: click a header to sort rows; numeric cells sort as numbers.
   document.querySelectorAll('.dtable').forEach(function (wrap) {
     var table = wrap.querySelector('table'); if (!table) return;

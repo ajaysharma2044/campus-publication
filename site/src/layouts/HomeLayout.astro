@@ -1,49 +1,262 @@
 ---
-/* Template 1: the homepage sends authority to school hubs and the best guides. No hero, no slogans, no counters. */
+/* Template 1: the homepage. Layout after Investopedia's front page (owner's choice, 2026-11-10): sticky white masthead,
+   a data strip, a two-story hero with related links and a tools rail, a horizontal row of the latest guides, a featured
+   trio, a tools promo, the four reader rows, the mission block, the school directory and the newsletter. Every item is a
+   real page from the model; nothing here is written by hand. No slogans, no counters. */
 import Base from './Base.astro';
 import { site } from '../../site.config';
-import type { SiteModel } from '../lib/model';
-import { featured, forTopic, dataPages, schoolUrl, topicUrl, fmtDate, topicById } from '../lib/model';
-import GuideCard from '../components/GuideCard.astro';
-import GuideList from '../components/GuideList.astro';
+import type { SiteModel, Page } from '../lib/model';
+import { featured, related, pillars, schoolUrl, topicUrl, fmtDate, startIndexUrl, toolsIndexUrl, datasetsIndexUrl, authorUrl, authorBySlug } from '../lib/model';
 import AdSlot from '../components/AdSlot.astro';
 import NewsletterSignup from '../components/NewsletterSignup.astro';
 interface Props { m: SiteModel }
 const { m } = Astro.props;
-const [lead, ...side] = featured(m, 4);
+
+const feat = featured(m, 10);
+const lead = feat[0];
+const second = feat[1];
+const used = new Set<string>([lead?.url, second?.url].filter(Boolean) as string[]);
+const leadRelated = lead ? related(m, lead, 3) : [];
+const secondRelated = second ? related(m, second, 3).filter((p) => !leadRelated.includes(p)) : [];
+[...leadRelated, ...secondRelated].forEach((p) => used.add(p.url));
+const byUpdated = [...m.pages].sort((a, b) => b.updated.localeCompare(a.updated));
+const startHere = [...feat.slice(2), ...pillars(m.pages), ...byUpdated].filter((p, i, a) => !used.has(p.url) && a.indexOf(p) === i).slice(0, 6);
+startHere.forEach((p) => used.add(p.url));
+const latest = byUpdated.slice(0, 12);
+const tools = m.tools.slice(0, 4);
+const starts = m.starts.slice(0, 5);
+const datasets = [...m.datasets].sort((a, b) => b.asOf.localeCompare(a.asOf));
+const strip = datasets.slice(0, 10);
+const weekGuide = pillars(m.pages).find((p) => !used.has(p.url)) ?? pillars(m.pages)[0];
+const parentsPage = m.pages.find((p) => p.topic.id === 'parents' && p.lead && !used.has(p.url)) ?? m.pages.find((p) => p.topic.id === 'parents' && !used.has(p.url)) ?? null;
+const thirdStart = parentsPage ? null : m.starts[0] ?? null;
+const school = site.schools[0];
+const readers = [
+  { label: 'Students', blurb: 'Start pages that put the guides in reading order for your situation.', href: startIndexUrl, letter: 'S' },
+  { label: 'Parents', blurb: 'Visiting, paying, move-in weekend and what to send.', href: topicUrl(school, 'parents'), letter: 'P' },
+  { label: 'Transfer students', blurb: 'Credits, housing, orientation and aid after the transfer.', href: topicUrl(school, 'transfer'), letter: 'T' },
+  { label: 'Alumni', blurb: 'Benefits, events and coming back to Ithaca.', href: topicUrl(school, 'alumni'), letter: 'A' },
+];
 const letters = new Map<string, typeof site.schools>();
 for (const s of [...site.schools].sort((a, b) => a.name.localeCompare(b.name))) { const L = s.name[0].toUpperCase(); letters.set(L, [...(letters.get(L) ?? []), s]); }
-const data = [...dataPages(m.pages).map((p) => ({ title: p.title, url: p.url, dek: p.dek, category: `${p.topic.label} · Data`, meta: `Updated ${fmtDate(p.updated)}` })), ...m.datasets.map((d) => ({ title: d.title, url: d.url, dek: d.dek, category: `${d.topic.label} · Data`, meta: `Data as of ${fmtDate(d.asOf)}` }))].slice(0, 4);
-const rows = site.homeTopics.map((id) => ({ topic: topicById(id)!, items: m.pages.filter((p) => p.topic.id === id && !p.crossSchool).slice(0, 4) })).filter((r) => r.items.length);
+const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+const editors = authorBySlug(site.defaultAuthor);
+const sizesLead = '(min-width: 980px) 480px, 100vw';
+const sizesCard = '(min-width: 980px) 240px, 50vw';
 ---
-<Base title={`${site.name}: ${site.tagline}`} description={`${site.tagline} of Cornell University and Ithaca. Every price, date and rule links to the official page it came from.`} path="/" bodyClass="home" searchable={false}>
-  <h1 class="visually-hidden">{site.name}: {site.tagline}</h1>
-  {lead ? (
-    <section class="front" aria-label="Front page">
-      <GuideCard page={lead} size="lead" />
-      <div class="front__side">{side.map((p) => <GuideCard page={p} size="small" photo={false} />)}</div>
+<Base title={`${site.name}: ${site.tagline}`} description={`${site.tagline} of Cornell University and Ithaca. Every price, date and rule links to the official page it came from.`} path="/" bodyClass="home" searchable={false} preloadSrcset={lead?.lead?.srcsetAvif} preloadSizes={sizesLead}>
+
+  {strip.length ? (
+    <section class="strip" aria-label="Latest data">
+      <ul class="strip__track">
+        {[...strip, ...strip].map((d, i) => (
+          <li class="strip__item" aria-hidden={i >= strip.length ? 'true' : undefined}>
+            <a href={d.url} tabindex={i >= strip.length ? -1 : undefined}>
+              <span class="strip__topic">{d.topic.label}</span>
+              <span class="strip__title">{d.title}</span>
+              <span class="strip__meta">Data as of {fmtDate(d.asOf)}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
     </section>
   ) : null}
-  <section class="section directory" id="schools" aria-labelledby="schools-title">
-    <div class="section__head"><h2 id="schools-title">Find your school</h2></div>
-    <div class="directory__groups">
-      {[...letters.entries()].map(([L, schools]) => <div><p class="directory__letter">{L}</p><ul class="directory__list">{schools.map((s) => <li><a href={schoolUrl(s)}>{s.name}</a></li>)}</ul></div>)}
+
+  <AdSlot size="970x250" position="leaderboard" lazy={false} device="desktop" />
+
+  <section class="hero" aria-label="Front page">
+    <div class="hero__news">
+      {lead ? (
+        <article class="story story--lead">
+          {lead.lead ? (
+            <a class="story__photo" href={lead.url} tabindex="-1" aria-hidden="true">
+              <picture>
+                {lead.lead.srcsetAvif ? <source type="image/avif" srcset={lead.lead.srcsetAvif} sizes={sizesLead} /> : null}
+                <img src={lead.lead.src} srcset={lead.lead.srcsetWebp} sizes={sizesLead} alt="" width={lead.lead.width} height={lead.lead.height} loading="eager" fetchpriority="high" decoding="async" />
+              </picture>
+            </a>
+          ) : null}
+          <h1 class="story__title"><a href={lead.url}>{lead.title}</a></h1>
+          <p class="story__meta">{lead.topic.label} · {lead.typeLabel} · Updated {fmtDate(lead.updated)}</p>
+          {leadRelated.length ? (<>
+            <p class="story__related">Related</p>
+            <ul class="related-list">{leadRelated.map((p) => <li><a href={p.url}>{p.title}</a></li>)}</ul>
+          </>) : null}
+        </article>
+      ) : null}
+      {second ? (
+        <article class="story story--second">
+          {second.lead ? (
+            <a class="story__photo" href={second.url} tabindex="-1" aria-hidden="true">
+              <picture>
+                {second.lead.srcsetAvif ? <source type="image/avif" srcset={second.lead.srcsetAvif} sizes={sizesCard} /> : null}
+                <img src={second.lead.src} srcset={second.lead.srcsetWebp} sizes={sizesCard} alt="" width={second.lead.width} height={second.lead.height} loading="lazy" decoding="async" />
+              </picture>
+            </a>
+          ) : null}
+          <h2 class="story__title story__title--md"><a href={second.url}>{second.title}</a></h2>
+          <p class="story__dek">{second.dek}</p>
+          <p class="story__meta">{second.topic.label} · {second.typeLabel} · Updated {fmtDate(second.updated)}</p>
+          {secondRelated.length ? (<>
+            <p class="story__related">Related</p>
+            <ul class="related-list">{secondRelated.map((p) => <li><a href={p.url}>{p.title}</a></li>)}</ul>
+          </>) : null}
+        </article>
+      ) : null}
+      {startHere.length ? (
+        <section class="value-add" aria-labelledby="start-here-title">
+          <h2 class="value-add__hd" id="start-here-title">Start here <span>the guides to read first</span></h2>
+          <ul class="value-add__list">{startHere.map((p) => <li><a href={p.url}>{p.title}</a></li>)}</ul>
+        </section>
+      ) : null}
+    </div>
+
+    <aside class="hero__rail" aria-labelledby="rail-title">
+      <h2 class="rail__hd" id="rail-title">Calculators and tools</h2>
+      {tools.map((t) => (
+        <a class="rail-card" href={t.url}>
+          <span class="rail-card__kicker">{t.topic.label}</span>
+          <span class="rail-card__title">{t.title}</span>
+          <span class="rail-card__cta">Open the tool →</span>
+          <span class="rail-card__meta">Numbers as of {fmtDate(t.asOf)}</span>
+        </a>
+      ))}
+      <p class="rail__more"><a href={toolsIndexUrl}>All tools</a></p>
+      {starts.length ? (<>
+        <h3 class="rail__sub">Start pages by reader</h3>
+        <ul class="rail__picks">{starts.map((s) => <li><a href={s.url}>{s.title}</a></li>)}</ul>
+      </>) : null}
+    </aside>
+  </section>
+
+  <section class="latest" aria-labelledby="latest-title">
+    <h2 class="sec-hd" id="latest-title">Latest guides</h2>
+    <div class="scroller" data-scroller>
+      <ul class="cards">
+        {latest.map((p) => (
+          <li>
+            <article class="hcard">
+              {p.lead ? (
+                <a class="hcard__photo" href={p.url} tabindex="-1" aria-hidden="true">
+                  <picture>
+                    {p.lead.srcsetAvif ? <source type="image/avif" srcset={p.lead.srcsetAvif} sizes={sizesCard} /> : null}
+                    <img src={p.lead.src} srcset={p.lead.srcsetWebp} sizes={sizesCard} alt="" width={p.lead.width} height={p.lead.height} loading="lazy" decoding="async" />
+                  </picture>
+                </a>
+              ) : <a class="hcard__photo hcard__photo--blank" href={p.url} tabindex="-1" aria-hidden="true"><span>{p.topic.label}</span></a>}
+              <p class="hcard__kicker">{p.topic.label} · {p.typeLabel}</p>
+              <h3 class="hcard__title"><a href={p.url}>{p.title}</a></h3>
+              <p class="hcard__meta">Updated {fmtDate(p.updated)}</p>
+            </article>
+          </li>
+        ))}
+      </ul>
+      <button class="scroller__btn scroller__btn--l" type="button" data-scroll="-1" aria-label="Scroll left" hidden>‹</button>
+      <button class="scroller__btn scroller__btn--r" type="button" data-scroll="1" aria-label="Scroll right" hidden>›</button>
     </div>
   </section>
+
+  <section class="featured" aria-label="Featured">
+    {weekGuide ? (
+      <article class="featured__main">
+        {weekGuide.lead ? (
+          <a class="featured__photo" href={weekGuide.url} tabindex="-1" aria-hidden="true">
+            <picture>
+              {weekGuide.lead.srcsetAvif ? <source type="image/avif" srcset={weekGuide.lead.srcsetAvif} sizes={sizesCard} /> : null}
+              <img src={weekGuide.lead.src} srcset={weekGuide.lead.srcsetWebp} sizes={sizesCard} alt="" width={weekGuide.lead.width} height={weekGuide.lead.height} loading="lazy" decoding="async" />
+            </picture>
+          </a>
+        ) : null}
+        <p class="kicker-ip">The long read</p>
+        <h2 class="featured__title"><a href={weekGuide.url}>{weekGuide.title}</a></h2>
+        <p class="featured__dek">{weekGuide.dek}</p>
+      </article>
+    ) : null}
+    <div class="featured__list">
+      <h2 class="featured__hd">Latest datasets</h2>
+      {datasets.slice(0, 3).map((d, i) => (
+        <a class:list={['episode', { 'episode--lead': i === 0 }]} href={d.url}>
+          <span class="episode__show">{d.topic.label}</span>
+          <span class:list={['episode__title', { 'episode__title--sm': i > 0 }]}>{d.title}</span>
+          <span class="episode__meta">Data as of {fmtDate(d.asOf)}{d.csvRows ? ` · ${d.csvRows} rows` : ''}</span>
+        </a>
+      ))}
+      <p class="featured__more"><a href={datasetsIndexUrl}>All datasets</a></p>
+    </div>
+    {parentsPage ? (
+      <article class="featured__guide">
+        {parentsPage.lead ? (
+          <a class="featured__photo" href={parentsPage.url} tabindex="-1" aria-hidden="true">
+            <picture>
+              {parentsPage.lead.srcsetAvif ? <source type="image/avif" srcset={parentsPage.lead.srcsetAvif} sizes={sizesCard} /> : null}
+              <img src={parentsPage.lead.src} srcset={parentsPage.lead.srcsetWebp} sizes={sizesCard} alt="" width={parentsPage.lead.width} height={parentsPage.lead.height} loading="lazy" decoding="async" />
+            </picture>
+          </a>
+        ) : null}
+        <p class="kicker-ip">For parents</p>
+        <h2 class="featured__title featured__title--sm"><a href={parentsPage.url}>{parentsPage.title}</a></h2>
+        <p class="featured__dek">{parentsPage.dek}</p>
+        <a class="btn-ip" href={topicUrl(school, 'parents')}>All parent guides</a>
+      </article>
+    ) : thirdStart ? (
+      <article class="featured__guide">
+        <p class="kicker-ip">Start here</p>
+        <h2 class="featured__title featured__title--sm"><a href={thirdStart.url}>{thirdStart.title}</a></h2>
+        <p class="featured__dek">{thirdStart.dek}</p>
+        <a class="btn-ip" href={startIndexUrl}>All start pages</a>
+      </article>
+    ) : null}
+  </section>
+
   <AdSlot size="728x90" position="leaderboard" />
-  {data.length ? (
-    <section class="section" aria-labelledby="data-title">
-      <div class="section__head"><h2 id="data-title">Data and trackers</h2><a class="section__more" href="/datasets/">All datasets</a></div>
-      <div class="trackers">{data.map((r) => <article class="card card--small"><p class="card__kicker">{r.category}</p><h3 class="card__title"><a href={r.url}>{r.title}</a></h3><p class="card__meta">{r.meta}</p></article>)}</div>
-    </section>
-  ) : null}
-  <div class="topic-rows">
-    {rows.map((r) => (
-      <section class="section" aria-labelledby={`row-${r.topic.id}`}>
-        <div class="section__head"><h2 id={`row-${r.topic.id}`}>{r.topic.label}</h2><a class="section__more" href={topicUrl(site.schools[0], r.topic)}>All {r.topic.label.toLowerCase()} guides</a></div>
-        <GuideList items={r.items} dek={false} category={false} compact meta />
-      </section>
-    ))}
-  </div>
+
+  <section class="promo" aria-labelledby="promo-title">
+    <div class="promo__box">
+      <div class="promo__text">
+        <h2 class="promo__title" id="promo-title">Tools built from the numbers</h2>
+        <p class="promo__dek">Calculators and checklists that use the prices, fees and dates in our guides, each with the date its numbers were last checked. No sign-up.</p>
+        <a class="btn-ip btn-ip--lg" href={toolsIndexUrl}>Open the tools</a>
+      </div>
+      <ul class="promo__list">{m.tools.slice(4, 8).map((t) => <li><a href={t.url}>{t.title}</a></li>)}</ul>
+    </div>
+  </section>
+
+  <section class="readers" aria-labelledby="readers-title">
+    <h2 class="readers__title" id="readers-title">Guides by reader</h2>
+    <p class="readers__dek">The same facts, ordered for where you are. Pick the one that fits.</p>
+    <ul class="readers__grid">
+      {readers.map((r) => <li><a href={r.href}><span class="readers__circle" aria-hidden="true">{r.letter}</span><span class="readers__name">{r.label}</span><span class="readers__blurb">{r.blurb}</span></a></li>)}
+    </ul>
+  </section>
+
+  <section class="mission" aria-labelledby="mission-title">
+    <div class="mission__main">
+      <h2 id="mission-title">How we work</h2>
+      <p class="mission__lead">{site.tagline}. Every price, date and rule links to the official page it came from, and the student side of the story is attributed to where we read it.</p>
+      <p class="mission__lead">Nothing is published without a source for every price, date, fee and rule. <a href="/editorial-standards/">Read the editorial standards</a>.</p>
+    </div>
+    <div class="mission__col">
+      <h3>Corrections</h3>
+      <p>When a number changes or we got one wrong, the guide is updated and the correction is logged. <a href="/corrections/">See the corrections log</a>, or <a href="/contact/">tell us about one</a>.</p>
+    </div>
+    <div class="mission__council">
+      <div>
+        <h3>Who writes the guides</h3>
+        <p>{editors.bio} <a href={authorUrl(editors)}>Meet the {editors.name}</a></p>
+      </div>
+      <p class="mission__sources"><a href="/sources/">Every source we cite</a></p>
+    </div>
+  </section>
+
+  <section class="directory-ip" id="schools" aria-labelledby="schools-title">
+    <h2 class="directory-ip__title" id="schools-title">Find your school</h2>
+    <ul class="directory-ip__alpha" aria-label="Schools by letter">
+      {alphabet.map((L) => letters.has(L) ? <li><a href={`#schools-${L}`}>{L}</a></li> : <li><span aria-hidden="true">{L}</span></li>)}
+    </ul>
+    <div class="directory-ip__groups">
+      {[...letters.entries()].map(([L, schools]) => <div id={`schools-${L}`}><p class="directory-ip__letter">{L}</p><ul class="directory-ip__list">{schools.map((s) => <li><a href={schoolUrl(s)}>{s.name}</a></li>)}</ul></div>)}
+    </div>
+  </section>
+
   <NewsletterSignup wide />
 </Base>
