@@ -2801,8 +2801,8 @@
   ],
   "datasets": [],
   "data_needed": "",
-  "note": "entity bar: hub-row (2 distinct facts; demand: reporting: Web search: Cornell Chronicle kosher dining story, Cornell Sun CJL tag page, Oct); its row belongs in hub 4 (Cornell program houses). Only 2 entity-specific facts (address/contact; the 104 West hall). off-campus-housing-new-9194 (affiliated-housing application) is shared with Alpha Zeta and Se New page, distinct from idea 124 (104West! next door; cross-link once live); brief 2.2 has the address and contacts and the affiliated-house rules, dining official lane places the kosher dining room beside it; .",
-  "hub_idea_id": 4
+  "note": "entity bar: hub-row (2 distinct facts; demand: reporting: Web search: Cornell Chronicle kosher dining story, Cornell Sun CJL tag page, Oct); its row belongs in hub 9 (Fraternity and sorority housing). Only 2 entity-specific facts (address/contact; the 104 West hall). off-campus-housing-new-9194 (affiliated-housing application) is shared with Alpha Zeta and Se New page, distinct from idea 124 (104West! next door; cross-link once live); brief 2.2 has the address and contacts and the affiliated-house rules, dining official lane places the kosher dining room beside it; . coordinator: the Greek-housing hub (review/off-campus-housing/cornell-fraternity-sorority-housing-2026-27.md) already names it.",
+  "hub_idea_id": 9
  },
  "110": {
   "action": "hub-row",
@@ -2828,8 +2828,8 @@
    "ithaca-housing-cost-by-living-situation-2026-27"
   ],
   "data_needed": "",
-  "note": "entity bar: hub-row (1 distinct facts; demand: reporting: Web search: Wikipedia, Cornell archives record group (1906-2009), 2010 Cornell S); its row belongs in hub 4 (Cornell program houses). One entity-specific fact (address plus 1905 history). new-9194 is category-wide for non-Greek affiliated houses. No inventory row, no rates, beds or room types. verifier: 'no crawled page' corrected: the crawled qualified-off-campus-housing page carries an overview, amenities and contact block for Seal and Serpent (fraternity dating to 1905, historic house with modern amenities), and the crawled Greek organization scorecard lists it only as an Independent Registered Student Organization; no dedicated page and still no cost figures; New page but thin: brief 2.2 holds the address, its affiliated-housing listing and a history back to 1905; .",
-  "hub_idea_id": 4
+  "note": "entity bar: hub-row (1 distinct facts; demand: reporting: Web search: Wikipedia, Cornell archives record group (1906-2009), 2010 Cornell S); its row belongs in hub 9 (Fraternity and sorority housing). One entity-specific fact (address plus 1905 history). new-9194 is category-wide for non-Greek affiliated houses. No inventory row, no rates, beds or room types. verifier: 'no crawled page' corrected: the crawled qualified-off-campus-housing page carries an overview, amenities and contact block for Seal and Serpent (fraternity dating to 1905, historic house with modern amenities), and the crawled Greek organization scorecard lists it only as an Independent Registered Student Organization; no dedicated page and still no cost figures; New page but thin: brief 2.2 holds the address, its affiliated-housing listing and a history back to 1905; . coordinator: the Greek-housing hub (review/off-campus-housing/cornell-fraternity-sorority-housing-2026-27.md) already names it.",
+  "hub_idea_id": 9
  },
  "111": {
   "action": "write",
@@ -3019,7 +3019,7 @@
    "collegetown-rent-per-bed-2027-28"
   ],
   "data_needed": "",
-  "note": "entity bar: hub-row (6 distinct facts; demand: none); its row belongs in hub 6 (Collegetown apartments guide). Facts clear the bar (6 from inventory.csv row 251; no fact_id there), but there is no demand signal: no queue.csv row, and the web search for Eddygate Cornell r New page with no sourced profile anywhere: neither brief, facts.csv nor the corpus describes the building (the only hit is Cascadilla Hall's Eddygate-entrance unloading zone), so the writer needs its official listing page and the inventory.csv row before drafting; .",
+  "note": "coordinator: row added to the Collegetown guide's inventory table (hub 6) from inventory.csv (Travis Hyde, 110 Dryden Rd). entity bar: hub-row (6 distinct facts; demand: none); its row belongs in hub 6 (Collegetown apartments guide). Facts clear the bar (6 from inventory.csv row 251; no fact_id there), but there is no demand signal: no queue.csv row, and the web search for Eddygate Cornell r New page with no sourced profile anywhere: neither brief, facts.csv nor the corpus describes the building (the only hit is Cascadilla Hall's Eddygate-entrance unloading zone), so the writer needs its official listing page and the inventory.csv row before drafting; .",
   "hub_idea_id": 6
  },
  "118": {
@@ -3048,7 +3048,7 @@
    "collegetown-rent-per-bed-2027-28"
   ],
   "data_needed": "",
-  "note": "entity bar: hub-row (0 distinct facts; demand: none); its row belongs in hub 6 (Collegetown apartments guide). No rows in any fact file, inventory.csv or queue.csv under that name or variants. Web search found no property called Collegetown Dwellings, only unrelated Coll New page with no sourced profile anywhere (zero mentions in the briefs, facts.csv and corpus), so the writer needs its official listing page and the inventory.csv row before drafting; .",
+  "note": "coordinator: no sourced fact exists for it anywhere (0 in the fact files and inventory); a row goes into the Collegetown guide only if a landlord or official page states facts. entity bar: hub-row (0 distinct facts; demand: none); its row belongs in hub 6 (Collegetown apartments guide). No rows in any fact file, inventory.csv or queue.csv under that name or variants. Web search found no property called Collegetown Dwellings, only unrelated Coll New page with no sourced profile anywhere (zero mentions in the briefs, facts.csv and corpus), so the writer needs its official listing page and the inventory.csv row before drafting; .",
   "hub_idea_id": 6
  },
  "119": {
@@ -3115,7 +3115,7 @@
   "tools": [],
   "datasets": [],
   "data_needed": "",
-  "note": "entity bar: hub-row (5 distinct facts; demand: reporting: Cornell Sun 2023-02-05 extended evening hours and 2024-03-24 late-night frustrat; search: Search shows scl.cornell.edu pages, Cornell events Diner Night, Sun coverage; no); its row belongs in hub 125 (West Campus dining rooms compared). Demand is fine but facts are thin: the five counted include one opinion column and a one-off event, and the fact file has no regular hours, address, or station  New page; dining raw lanes hold its facts (Appel Commons, Late Night block, Sun pieces on its late-night hours in 2023 and 2024, door prices) with no dining brief yet; .",
+  "note": "coordinator: no dining-hall hub exists in the list; idea 125's page carries a reference table of every residential dining room, including this one. entity bar: hub-row (5 distinct facts; demand: reporting: Cornell Sun 2023-02-05 extended evening hours and 2024-03-24 late-night frustrat; search: Search shows scl.cornell.edu pages, Cornell events Diner Night, Sun coverage; no); its row belongs in hub 125 (West Campus dining rooms compared). Demand is fine but facts are thin: the five counted include one opinion column and a one-off event, and the fact file has no regular hours, address, or station  New page; dining raw lanes hold its facts (Appel Commons, Late Night block, Sun pieces on its late-night hours in 2023 and 2024, door prices) with no dining brief yet; .",
   "hub_idea_id": 125
  },
  "122": {
@@ -3135,7 +3135,7 @@
   "tools": [],
   "datasets": [],
   "data_needed": "",
-  "note": "entity bar: hub-row (3 distinct facts; demand: reporting: Cornell Sun 2017-10-25 Risley Dining, 2025-11 dessert review; Food Service Direc; search: Search returns Cornell page, OpenTable listing, Sun pieces; no PAA); its row belongs in hub 125 (West Campus dining rooms compared). Only about 3 specific facts; polarizing/12.4% survey items are opinion and shared with other halls. Queue row q-housing-0026 is about Risley the residential col New page, distinct from idea 96 (the residential college; cross-link once live); dining raw lanes hold the gluten, peanut and tree-nut-free sourcing, the AllerCheck note and vegan reviews; .",
+  "note": "coordinator: no dining-hall hub exists in the list; idea 125's page carries a reference table of every residential dining room, including this one. entity bar: hub-row (3 distinct facts; demand: reporting: Cornell Sun 2017-10-25 Risley Dining, 2025-11 dessert review; Food Service Direc; search: Search returns Cornell page, OpenTable listing, Sun pieces; no PAA); its row belongs in hub 125 (West Campus dining rooms compared). Only about 3 specific facts; polarizing/12.4% survey items are opinion and shared with other halls. Queue row q-housing-0026 is about Risley the residential col New page, distinct from idea 96 (the residential college; cross-link once live); dining raw lanes hold the gluten, peanut and tree-nut-free sourcing, the AllerCheck note and vegan reviews; .",
   "hub_idea_id": 125
  },
  "123": {
@@ -3193,7 +3193,7 @@
   "tools": [],
   "datasets": [],
   "data_needed": "",
-  "note": "New comparison: no live page compares dining rooms; sources are the dining raw lanes (five house dining rooms, mandatory House Meal Plan, Late Night blocks, halal at Keeton, Meals on the Move pickup at Rose, Sun 2022 comprehensive West Campus review, Her Campus ranking, door prices) and the crawled west-campus-house-dinners page; links to ideas 74-78 once live; not ENTITY-tagged."
+  "note": "coordinator: besides the five West Campus house dining rooms, include a reference table of every Cornell residential dining room (Morrison, North Star, Risley, Okenshields, 104West!, the five house dining rooms) with hours pattern, meal plan access, kosher or halal stations and location, from the dining fact file; North Star Dining Room (121) and Risley Dining (122) fell below the entity bar and live on in that table. New comparison: no live page compares dining rooms; sources are the dining raw lanes (five house dining rooms, mandatory House Meal Plan, Late Night blocks, halal at Keeton, Meals on the Move pickup at Rose, Sun 2022 comprehensive West Campus review, Her Campus ranking, door prices) and the crawled west-campus-house-dinners page; links to ideas 74-78 once live; not ENTITY-tagged."
  },
  "126": {
   "action": "write",
