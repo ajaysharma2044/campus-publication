@@ -1,6 +1,6 @@
 # Template screenshots
 
-Generated 2026-11-08 from the Astro build in site/dist at 375px and 1280px (full page).
+Generated 2026-11-10 from the Astro build in site/dist at 375px and 1280px (full page).
 
 design/reference-article.html is not in the repository, so the side-by-side of the pillar template against it could not be produced; the pillar screenshots stand alone until the owner supplies the file.
 
@@ -16,7 +16,7 @@ design/reference-article.html is not in the repository, so the side-by-side of t
 | 8 | data | /styleguide/data/ | 08-data-375.png | 08-data-1280.png |
 | 9 | comparison | /styleguide/comparison/ | 09-comparison-375.png | 09-comparison-1280.png |
 | 10 | cross-school-guide | /styleguide/guide/ | 10-cross-school-guide-375.png | 10-cross-school-guide-1280.png |
-| 11 | author | /authors/footnote-daily-editors/ | 11-author-375.png | 11-author-1280.png |
+| 11 | author | /authors/eduexplained-editors/ | 11-author-375.png | 11-author-1280.png |
 | 12 | trust | /editorial-standards/ | 12-trust-375.png | 12-trust-1280.png |
 | 13 | search | /search/?q=meal+plan | 13-search-375.png | 13-search-1280.png |
 | 14 | 404 | /404.html | 14-404-375.png | 14-404-1280.png |
