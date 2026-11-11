@@ -226,7 +226,7 @@ For the odd grocery run, Ithaca Carshare has student plans, but check its [eligi
 
 ```tool do-i-need-a-car-at-cornell-quiz```
 
-The full car rules are in the [student car guide](/getting-around/having-a-car-at-cornell-student-guide/).
+The full car rules are in the [student car guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/).
 
 ## Getting home to NYC: C2C, OurBus or another bus
 

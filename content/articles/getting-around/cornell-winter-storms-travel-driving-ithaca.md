@@ -295,5 +295,5 @@ rows:
 - [Cornell Thanksgiving travel: when to book and what it costs](/getting-around/cornell-thanksgiving-break-bus-tickets-when-to-book/): peak days and fares for the storm-prone weekend.
 - [Getting home for Cornell winter break, 2026-27](/getting-around/cornell-winter-break-travel-home-2026/): the December and January trips and C2C's two booking links.
 - [ITH, SYR or ELM: which airport to fly into for Cornell](/getting-around/ith-syr-or-elm-which-airport-for-cornell/): choosing your backup airport.
-- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/having-a-car-at-cornell-student-guide/): what a car costs a year.
+- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/): what a car costs a year.
 - [Biking in Ithaca in winter](/getting-around/biking-in-ithaca-winter-cornell/): riding the hills in snow.

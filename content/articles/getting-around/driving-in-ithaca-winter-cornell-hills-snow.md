@@ -133,7 +133,7 @@ rows:
 Cornell has closed for snow. In January 2026, it closed the Ithaca and AgriTech campuses from noon Sunday, Jan. 25, to noon Monday, Jan. 26. Residence halls stayed open and status posted at emergency.cornell.edu ([Cornell Emergency Management](https://emergency.cornell.edu/?p=5006)). The city declared a state of emergency, and TCAT delayed Monday service to 10 a.m. ([Cornell Daily Sun](https://cornellsun.com/article/2026/01/cornell-announces-ithaca-and-agritech-campuses-will-reopen-at-noon-on-monday)). Break-travel storms are covered in our [winter storms guide](/cornell/getting-around/cornell-winter-storms-travel-driving-ithaca/).
 
 ```reader "If you're a first-year"
-Cornell discourages first-years from bringing a car, though it offers limited permits ([Cornell Family Resource Hub](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation)). Winter is the best argument for leaving it home. Our [car guide](/cornell/getting-around/having-a-car-at-cornell-student-guide/) and the cost breakdown in [should I bring a car](/tools/should-i-bring-a-car-cornell-ithaca-cost/) weigh it.
+Cornell discourages first-years from bringing a car, though it offers limited permits ([Cornell Family Resource Hub](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation)). Winter is the best argument for leaving it home. Our [car guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) and the cost breakdown in [should I bring a car](/tools/should-i-bring-a-car-cornell-ithaca-cost/) weigh it.
 ```
 
 ```reader "If you rent off campus"

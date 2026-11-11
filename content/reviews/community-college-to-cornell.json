@@ -1,0 +1,175 @@
+{
+ "slug": "community-college-to-cornell",
+ "queue_id": "q-transfer-0023",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "About a quarter of transfers come from community colleges; no preference by school type",
+   "source_url": "brief §10 (community college row)",
+   "status": "ok",
+   "note": "Matches the brief row from Enrollment FAQ 325."
+  },
+  {
+   "claim": "Admitted transfers generally 3.3 or better",
+   "source_url": "brief §1/§3",
+   "status": "ok",
+   "note": "Brief states the Enrollment FAQ's 'generally' 3.3."
+  },
+  {
+   "claim": "Fall fall-2027 deadlines: March 15, 2027 application, fee, aid forms; April 15 for the rest",
+   "source_url": "brief §3 and §8 (US deadline row)",
+   "status": "ok",
+   "note": "Matches the brief's deadline split."
+  },
+  {
+   "claim": "96 of 674 fall 2021 transfers from two-year or community colleges = 14.2%; 34 NY, 62 other",
+   "source_url": "brief §10 (IRP 2021 rows)",
+   "status": "ok",
+   "note": "Recomputed 96/674 = 14.24%, so 14.2%. Counts 34 and 62 match the brief."
+  },
+  {
+   "claim": "About 100 community college students admitted each year on average (Chronicle, May 2024)",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Fall 2025: 7,381 applied, 864 admitted, 11.7%",
+   "source_url": "brief §3 (CDS)",
+   "status": "ok",
+   "note": "Recomputed 864/7,381 = 11.71%."
+  },
+  {
+   "claim": "472 of 674 fall 2021 transfers entered the four contract colleges (70.0%); CALS 243",
+   "source_url": "brief §10 (our math rows)",
+   "status": "ok",
+   "note": "Recomputed 472/674 = 70.03%. CALS 243 matches the brief's by-college row."
+  },
+  {
+   "claim": "220 transfers (32.7%) received Cornell need-based grants averaging $44,712 (fall 2021)",
+   "source_url": "brief §10 (aid row)",
+   "status": "ok",
+   "note": "Counts and percent as Cornell printed them, per the brief. 220/674 is 32.6%, but the page attributes the figure to the IRP profile and does not claim to have computed it, so left as is."
+  },
+  {
+   "claim": "Tuition $49,816 (NY contract) and $73,946 (endowed), 2026-27",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Billed year $72,188 contract and $96,318 endowed, with $1,024 fees, $13,744 double, $7,604 Unlimited meals",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "Recomputed 73,946+1,024+13,744+7,604 = 96,318 and 49,816+1,024+13,744+7,604 = 72,188. Both match."
+  },
+  {
+   "claim": "Endowed vs contract costs $24,130 a year more (tuition difference)",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "Recomputed 73,946 - 49,816 = 24,130."
+  },
+  {
+   "claim": "Grants cover tuition up to $125,000 with typical assets; full cost up to $75,000 (2026-27)",
+   "source_url": "brief §1, 2.15",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "CSS code 2098, FAFSA 002711, HESC 0174/0175, March 15, 2027; CSS fee waived for AGI up to $100,000",
+   "source_url": "brief §8 (codes, fee waiver rows)",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "$85 application fee waived automatically if a burden and you apply for aid",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "$85 fee is in the brief."
+  },
+  {
+   "claim": "Student Health Plan: $1,705 fall, $2,046 spring for a new fall 2026 student",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "At least 12 semester hours after high school; two to four semesters elsewhere; fall only; no bachelor's holders",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Credit rules: regionally accredited, about 80% similar, C or better, seven-year age limit, quarter credits at two-thirds, 60 cap, Architecture 64",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Matches the brief rows, including Architecture 64."
+  },
+  {
+   "claim": "Engineering: four core courses, C not C-, 33 credits per full-time year and 66 total, no pre-evaluation, Chemical Engineering sophomore advice",
+   "source_url": "brief §4 (Engineering rows)",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "CALS 3.0 floor, 3.5 for Biological Sciences; closed majors; Human Ecology 3.5 competitive and 23 credits",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "TC3 pathway: priority consideration, 3.0 GPA and B or better, one year then four semesters, August 2025",
+   "source_url": "brief §10 (TC3 row)",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "SUNY Broome online BPS pathway: June 2026, 45 to 60 credits, four years past high school, applications January 2027, first cohort August 2027",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "2017 SUNY Broome 2+2 agreements; Pathways to Success (Monroe, Morrisville 2006; BMCC, Suffolk, Nassau 2008); more than 55 students by July 2008; Jack Kent Cooke funding",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Matches the brief. The brief marks current status unverified, and the page tells readers to ask whether older agreements still apply."
+  },
+  {
+   "claim": "CALS contact cals_admissions@cornell.edu, 607-255-2036; Admissions +1 (607) 255-5241",
+   "source_url": "brief §4 (contact row) and brief line 557",
+   "status": "ok",
+   "note": "Both phone numbers are in the brief."
+  },
+  {
+   "claim": "Chronicle supports named: CALS navigator (similar in ILR, Human Ecology), PAVER (formerly HHMI-CURT), CC STEP, SUNY/CUNY pathways; four 2024 graduates; 40-plus hours a week",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Matches the brief. The profiled colleges (LaGuardia, Monroe x2, SUNY Niagara) are from the page's cited Chronicle feature and were not contradicted by the brief."
+  },
+  {
+   "claim": "College Confidential 2014 thread: a 3.5 community college student got split replies; CollegeVine advises about 3.5 to near 4.0; one reply claimed grades run about a point high",
+   "source_url": "brief §10 voice notes",
+   "status": "ok",
+   "note": "Attributions match the brief and are framed as opinion, with forum replies kept separate."
+  },
+  {
+   "claim": "Five contract colleges charge NY residents contract tuition: CALS, Human Ecology, ILR, Brooks, Dyson",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "Brooks is in the brief's contract list. The 2021 'four contract colleges' wording is correct for that year, before Brooks existed."
+  }
+ ],
+ "beats_top": {
+  "query": "community college to cornell",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

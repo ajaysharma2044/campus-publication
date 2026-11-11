@@ -150,7 +150,7 @@ The bold line is the answer: leave the car home, or the car costs less, with the
 
 ## Related guides
 
-- [Having a car at Cornell: permits, winter, breaks, costs](/cornell/getting-around/having-a-car-at-cornell-student-guide/)
+- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)
 - [Cornell student parking permits: cost, rules, who qualifies](/cornell/getting-around/cornell-student-parking-permit-cost-rules/)
 - [Ithaca Carshare for Cornell students: plans, cost, rules](/cornell/getting-around/ithaca-carshare-cornell-students-cost/)
 - [Is TCAT free for Cornell students? Hours, routes, passes](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/)

@@ -7,7 +7,7 @@ primary_query: how to take over a collegetown lease
 topic: housing
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 147
 rewrites: ''
 readers:
@@ -62,6 +62,8 @@ images: []
 ```
 
 To take over a Collegetown lease, get the landlord's written consent before you pay or move in. An assignment hands the whole lease to you, and the original tenant is released in the usual case. A sublease leaves the original tenant liable for you, per New York [Real Property Law 226-b](https://www.nysenate.gov/legislation/laws/RPP/226-B).
+
+The [full guide to subletting in Ithaca](/cornell/housing/subletting-in-ithaca-guide-cornell-students/) compares every way to cover a lease, from a sublet to an assignment.
 
 ```reader "If you're taking a summer sublet"
 A summer take-over is a sublease, not an assignment, because the leaver comes back in August. Ithaca Renting's Collegetown page says sublets must be registered and approved, are limited to Cornell students, and run one per term with no stay under one month. The page lists the sublet fee as both $15 and $20, so ask the rental office which applies to your dates. The [summer sublet guide](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/) covers where to look.

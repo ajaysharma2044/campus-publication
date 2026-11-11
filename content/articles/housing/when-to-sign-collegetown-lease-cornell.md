@@ -88,6 +88,9 @@ sources:
 - url: https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/
   title: Cornell Daily Sun opinion column on the housing market, Aug. 4, 2022
   accessed: '2026-11-11'
+- url: https://cornellsun.com/2013/05/02/collegetown-housing-market-scrutinized/
+  title: Collegetown housing market scrutinized, The Cornell Daily Sun, 2013-05-02
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Buildings along a street in Collegetown, Ithaca
@@ -99,6 +102,9 @@ images:
   author: desultrix
   source_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
 kind: spoke
+redirect_from:
+  - /cornell/housing/how-early-collegetown-leases-sign-2012-2026/
+  - /housing/how-early-collegetown-leases-sign-2012-2026/
 ---
 
 
@@ -131,7 +137,7 @@ The table shows six of the nine cases; all nine, with the method and a CSV, are 
 
 Both are true. In 2019 Off-Campus Living's manager called the idea that you must sign the day you arrive a myth that students and landlords both spread ([Cornell Daily Sun, 2019](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/)). A developer said in 2016 that he usually rents most units by the end of November ([Cornell Daily Sun, 2016](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/)). Popular units, big houses and new buildings go in the fall. The wider market keeps supply for months.
 
-The rush is older than either notice law. Around 15 students camped outside Ithaca Renting's Dryden Road office in the fall of 2012 ([Cornell Daily Sun, 2012](https://cornellsun.com/2012/10/01/as-collegetown-housing-rush-intensifies-students-sleep-outside-rental-agency/)), and more than 150 camped on Dryden Road in 2014 ([Cornell Daily Sun column, Aug. 2022](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/)). In early September 2022, Student Agencies was among the first to open leasing for 2023-24 ([Cornell Daily Sun, Sept. 2022](https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/)). Ownership is concentrated too: at the last full count, in 2013, eight landlords held about two-thirds of Collegetown's bedrooms ([who owns the buildings](/cornell/housing/collegetown-landlords-who-owns-the-buildings/)). New buildings have not ended the early rush either: the [new construction guide](/cornell/housing/new-construction-collegetown-buildings-since-2015/) tracks what has opened since 2015, and The Ivy, which leased nearly all its units before it opened, is in the table above.
+The rush is older than either notice law. Around 15 students camped outside Ithaca Renting's Dryden Road office in the fall of 2012 ([Cornell Daily Sun, 2012](https://cornellsun.com/2012/10/01/as-collegetown-housing-rush-intensifies-students-sleep-outside-rental-agency/)), and more than 150 camped on Dryden Road in 2014 ([Cornell Daily Sun column, Aug. 2022](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/)). In early September 2022, Student Agencies was among the first to open leasing for 2023-24 ([Cornell Daily Sun, Sept. 2022](https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/)). Ownership is concentrated too: in 2013, eight landlords owned about two-thirds of Collegetown's bedrooms ([Cornell Daily Sun, May 2013](https://cornellsun.com/2013/05/02/collegetown-housing-market-scrutinized/)), and the [who owns the buildings](/cornell/housing/collegetown-landlords-who-owns-the-buildings/) guide shows today's managers and owners. New buildings have not ended the early rush either: the [new construction guide](/cornell/housing/new-construction-collegetown-buildings-since-2015/) tracks what has opened since 2015, and The Ivy, which leased nearly all its units before it opened, is in the table above.
 
 ```figure
 kind: timeline

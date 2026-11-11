@@ -7,7 +7,7 @@ primary_query: where to leave a car over break at cornell
 topic: getting-around
 school: cornell-university
 type: decision
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 211
 rewrites: ''
 readers:
@@ -62,7 +62,7 @@ images:
 ---
 
 
-Leave the car in your campus permit area if you live in university housing ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)). If you live off campus, use a driveway, a lease space or a paid lot. Never leave it on a city street.
+Over winter or summer break, leave the car in your campus permit area if you live in university housing ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)). If you live off campus, use a driveway, a lease space or a paid lot. Never leave it on a city street.
 
 ```glance
 - University housing residents can leave a car in their permit area year-round.
@@ -113,6 +113,6 @@ Your car stays too, and break nights still count. Winter break housing is availa
 
 ## What should I do next?
 
-Pick your row in the table, then confirm the part Cornell does not publish. If you have a car in university housing, do nothing more than keep it in your area. See [having a car at Cornell](/cornell/getting-around/having-a-car-at-cornell-student-guide/) for the car owner's full year.
+Pick your row in the table, then confirm the part Cornell does not publish. If you have a car in university housing, do nothing more than keep it in your area. See [having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) for the car owner's full year.
 
 ```tool before-break-travel-checklist```

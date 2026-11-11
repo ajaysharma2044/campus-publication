@@ -1,0 +1,219 @@
+{
+ "slug": "cornell-transfer-timeline",
+ "queue_id": "q-transfer-0031",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "FAFSA opens Oct 1, 2026 for 2027-28",
+   "source_url": "brief §2.15/4.1",
+   "status": "ok",
+   "note": "brief line 454, 729"
+  },
+  {
+   "claim": "Application, fee and portfolio deadline Mar 15, 2027; all other materials Apr 15, 2027",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief lines 52, 741"
+  },
+  {
+   "claim": "CSS Profile and FAFSA deadline Mar 15, 2027 (US and international; no aid later for international if missed)",
+   "source_url": "brief §2.15/2.18",
+   "status": "ok",
+   "note": "brief lines 454, 501"
+  },
+  {
+   "claim": "Aid codes CSS 2098, FAFSA 002711, HESC 0174 contract / 0175 endowed; CSS fee waiver AGI up to $100,000",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief lines 455-456"
+  },
+  {
+   "claim": "Grants cover tuition up to $125,000 family income, full cost up to $75,000",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief line 462"
+  },
+  {
+   "claim": "Aid offers tentatively early April; 2027-28 prices confirmed before then",
+   "source_url": "brief §2.15/4.2",
+   "status": "ok",
+   "note": "brief lines 441, 740"
+  },
+  {
+   "claim": "International tax withholding 14% unless a treaty applies",
+   "source_url": "brief §2.18",
+   "status": "ok",
+   "note": "brief line 503"
+  },
+  {
+   "claim": "Application fee $85, waivable; none for Transfer Option",
+   "source_url": "brief §2.2/2.4",
+   "status": "ok",
+   "note": "brief lines 59, 61"
+  },
+  {
+   "claim": "Transfer Option: Mar 15, 2026 pattern, 'Application Available Winter 2027', decisions rolling from mid-April, most late April/early May",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief lines 58, 116"
+  },
+  {
+   "claim": "Regular decisions late April through June; Hotel May and June; CDS notification June 15 and reply July 1",
+   "source_url": "brief §2.2/4.3",
+   "status": "ok",
+   "note": "brief lines 57, 746"
+  },
+  {
+   "claim": "GPA signals: general 3.3; CALS 3.0 (3.5 Bio Sci); ILR 3.4 typical; Human Ecology 3.5; Brooks 3.5; AAP 2.7; A&S TO 3.5 each semester no grade below B-",
+   "source_url": "brief §2.5-2.6",
+   "status": "ok",
+   "note": "brief lines 93, 96, 101, 104, 878"
+  },
+  {
+   "claim": "Human Ecology 23 sophomore credits: 8 lab science, 6 writing, 3 statistics, 3 precalc/calc, 3 psychology",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief line 205"
+  },
+  {
+   "claim": "Engineering core courses, no minimum GPA; cap 66 (33 per year); Architecture 64; default 60",
+   "source_url": "brief §2.6/2.7",
+   "status": "ok",
+   "note": "brief lines 153, 243, 922"
+  },
+  {
+   "claim": "AAP: no external B.Arch. for fall 2027; two weeks to send syllabi after admission",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief lines 238, 242"
+  },
+  {
+   "claim": "Exam credit limits by college; AP code 2098; request by last day of instruction",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief lines 178, 306, 766, 922"
+  },
+  {
+   "claim": "Housing application within 10 days of NetID; no fee; confirmation from mid-June; swaps mid-June to mid-July; timeslot until Aug 1",
+   "source_url": "brief §2.10/4.3",
+   "status": "ok",
+   "note": "brief lines 349, 748, 752, 759"
+  },
+  {
+   "claim": "Housing exemption: two years on campus elsewhere or junior/senior entry",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief line 326"
+  },
+  {
+   "claim": "Hall double $6,872/semester, $13,744/year; Unlimited $3,802/$7,604; fees $1,024",
+   "source_url": "brief §2.10/2.11/2.14",
+   "status": "ok",
+   "note": "brief lines 355, 374, 436"
+  },
+  {
+   "claim": "Co-op double $6,974 (Redbud $3,487 x 2) to $9,962 (660 Stewart/Wari $4,981 x 2)",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "brief lines 680-685, 696; recomputed 3,487x2=6,974 and 4,981x2=9,962"
+  },
+  {
+   "claim": "Tuition $73,946 endowed or non-NY; $49,816 NY contract",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief lines 432-433; brief resolves the $48,414 snippet as wrong"
+  },
+  {
+   "claim": "Billed year $96,318 endowed / $72,188 NY contract (hall double + Unlimited)",
+   "source_url": "brief §2.14/10.1",
+   "status": "ok",
+   "note": "recomputed 73,946+1,024+13,744+7,604=96,318; 49,816+1,024+13,744+7,604=72,188; brief lines 437-438"
+  },
+  {
+   "claim": "Hall double per month $1,527 ($13,744 / 9)",
+   "source_url": "brief §10.8",
+   "status": "ok",
+   "note": "recomputed 13,744/9=1,527.1; brief line 703"
+  },
+  {
+   "claim": "Year-one health plan $1,705 + $2,046 = $3,751",
+   "source_url": "brief §10.7",
+   "status": "ok",
+   "note": "recomputed sum 3,751; brief lines 487, 704"
+  },
+  {
+   "claim": "Fall bill billed early July, due before registration; 2024 e-bill generated July 12, due Aug 7; parents invited to Cashnet",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief lines 442-443"
+  },
+  {
+   "claim": "Health plan waiver July 31, 2026 for fall new admits (and Jan 21, 2027 spring)",
+   "source_url": "https://studenthealthbenefits.cornell.edu/node/179",
+   "status": "ok",
+   "note": "fixed in place: Brief had it from a search snippet only. Opened the page: July 31, 2026 fall new admits, Jan 21, 2027 spring, waivers lock after deadline. Removed the '(search snippet)' wording from the table row and cut the assumptions bullet that said the date came from a search summary; brief change log updated."
+  },
+  {
+   "claim": "College emails after admission (AAP, Brooks, ILR, CALS early to mid-June; Engineering early June; Human Ecology June 8 to 30; Dyson July)",
+   "source_url": "brief §2.9/4.3",
+   "status": "ok",
+   "note": "brief lines 406, 751; tagged 2024 pattern on page"
+  },
+  {
+   "claim": "Fall 2026 move-in Aug 17 first-years, Aug 18 transfers and Family Orientation, NSO Aug 18-23; Engineering fair Aug 18, MATH CASE Aug 20, lunch Aug 21",
+   "source_url": "brief §2.9",
+   "status": "ok",
+   "note": "brief lines 396, 399"
+  },
+  {
+   "claim": "Classes Aug 24; add Sep 8; drop Oct 19; last day Dec 7 (2026)",
+   "source_url": "brief §2.9",
+   "status": "ok",
+   "note": "brief lines 416-421"
+  },
+  {
+   "claim": "Upper-level room selection Oct 2 to 8, 2025",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief line 365"
+  },
+  {
+   "claim": "Collegetown leases up to 16 months ahead (Sun, 2018)",
+   "source_url": "brief §3.8",
+   "status": "ok",
+   "note": "brief line 718"
+  },
+  {
+   "claim": "Collegetown rents: studio $2,006, 1BR $2,342, 2BR $3,414; updated Oct 30, 2026; buildings of 50+ units",
+   "source_url": "brief §3.8",
+   "status": "ok",
+   "note": "brief line 711"
+  },
+  {
+   "claim": "TC3 to CALS pathway: priority consideration, 3.0 GPA and B or better",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief-listed CALS source; consistent with brief CALS rows"
+  },
+  {
+   "claim": "CALS: AEM applicants apply through Dyson; CALS transfers cannot add AEM",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief lines 176-177, 263"
+  }
+ ],
+ "beats_top": {
+  "query": "cornell transfer timeline",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [
+  "Added change-log line confirming the SHP waiver dates (July 31, 2026; Jan 21, 2027) from the opened page https://studenthealthbenefits.cornell.edu/node/179; no value changed."
+ ],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

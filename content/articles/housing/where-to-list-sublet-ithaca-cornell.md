@@ -7,7 +7,7 @@ primary_query: where to post a sublet Ithaca Cornell
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 221
 rewrites: ''
 readers:
@@ -64,6 +64,8 @@ images: []
 
 Post your sublet on Cornell's [Off-Campus Housing Marketplace](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources), where only people who prove Cornell affiliation can view listings and contact you. Add the Off-Campus Living email list. Use public sites last.
 
+The [full guide to subletting in Ithaca](/cornell/housing/subletting-in-ithaca-guide-cornell-students/) covers the rest of a sublet, from landlord consent to pricing and scams.
+
 ## Where can you post an Ithaca sublet?
 
 | Channel | Who sees it | Cost | Best for |
@@ -91,7 +93,7 @@ Other landlords show sublets on their own sites. Modern Living Rentals advertise
 
 ## Should you use public sites?
 
-You can, with care. Public sites reach people outside Cornell, including summer interns and researchers. They also reach scammers. The Federal Trade Commission reports that about half of rental scam reports in the 12 months to June 2025 started with a fake [Facebook ad](https://ftc.gov/news-events/data-visualizations/data-spotlight/2025/12/rental-scams-hit-home-65-million-reported-losses), and 16 percent started on Craigslist. Ithaca saw the same pattern earlier: in 2010 scammers [copied local Craigslist listings with cut rents](https://www.ithaca.com/news/local_news/ithaca-landlords-tenants-battle-craigslist-rental-scams/article_fa700738-0769-5add-9329-897f05256e6d.html) and took deposits. Cornell also names the Cornell Daily Sun, the Ithaca Journal and the Ithaca Times as outlets but does not endorse them. Ithacarents.com is for members of the Landlords Association of Tompkins County, so a tenant cannot list there.
+You can, with care. Public sites reach people outside Cornell, including summer interns and researchers. They also reach scammers. The Federal Trade Commission reports that about half of rental scam reports in the 12 months to June 2025 started with a fake [Facebook ad](https://ftc.gov/news-events/data-visualizations/data-spotlight/2025/12/rental-scams-hit-home-65-million-reported-losses), and 16 percent started on Craigslist. Ithaca saw the same pattern earlier: in 2010 scammers [copied local Craigslist listings with cut rents](https://www.ithaca.com/news/local_news/ithaca-landlords-tenants-battle-craigslist-rental-scams/article_fa700738-0769-5add-9329-897f05256e6d.html) and took deposits. The [sublet scams guide](/cornell/housing/sublet-scams-ithaca-how-to-avoid/) shows how both common scams work and the checks that stop them. Cornell also names the Cornell Daily Sun, the Ithaca Journal and the Ithaca Times as outlets but does not endorse them. Ithacarents.com is for members of the Landlords Association of Tompkins County, so a tenant cannot list there.
 
 ## What should the listing say?
 

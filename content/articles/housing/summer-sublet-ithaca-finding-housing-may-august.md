@@ -1,13 +1,13 @@
 ---
-title: Summer Sublet in Ithaca for a Cornell Internship or Research
+title: 'Finding a Summer Sublet in Ithaca: May to August Housing'
 mode: answer
-dek: 'Housing for a May-to-August stay in Ithaca comes down to three routes: keep your lease, take a sublet, or bridge a gap with storage.'
+dek: 'Housing for a May-to-August stay in Ithaca comes down to four routes: keep your lease, take a sublet, book a Cornell summer room, or bridge a gap with storage.'
 meta: 'Summer sublet in Ithaca for a Cornell internship or research: how to find one, what it costs, the dates that matter and how to take a sublet safely.'
-primary_query: summer sublet Ithaca Cornell internship research
+primary_query: summer sublet ithaca
 topic: housing
 school: cornell-university
 type: scenario
-updated: '2026-11-10'
+updated: '2026-11-11'
 queue_id: q-housing-0049
 idea_id: 224
 rewrites: content/articles/housing/summer-sublet-ithaca-finding-housing-may-august.md
@@ -93,6 +93,9 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Building Issues and Maintenance, Cornell Law School Tenants Advocacy Program
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus
+  title: Summer Housing On Campus, Cornell Student & Campus Life
+  accessed: '2026-11-10'
 images:
 - file: 1.webp
   alt: Fields, trees and a country road beside Cayuga Lake under a summer sky
@@ -110,11 +113,13 @@ kind: spoke
 ```glance
 - Cornell residence halls closed in mid-May 2026, and most Ithaca leases run to late July.
 - A sublet needs a written sublease and, in a building of four or more units, the landlord's consent.
-- No source posts a typical summer sublet rent. The cost table shows the closest asking prices.
+- Price a summer sublet against the Ithaca asking prices in the cost table.
 - Storage for the gap runs from $36 for one small box to $84 a month for a unit.
 ```
 
-For a summer internship or research stay, take a furnished sublet found on Cornell's marketplace or the Off-Campus Living email list, and get a written sublease before you pay. In a building with four or more units, the tenant must also have the landlord's [written consent](https://www.nysenate.gov/legislation/laws/RPP/226-B), or the sublet breaks the lease and you have no lease of your own.
+If you need a place in Ithaca from May to August, take a furnished sublet from Cornell's marketplace or the Off-Campus Living list, and get a written sublease before you pay. In a building of four or more units, the tenant needs the landlord's [written consent](https://www.nysenate.gov/legislation/laws/RPP/226-B), or the sublet breaks the lease and you have no lease of your own.
+
+If you need a tenant for your own room rather than a place to live, read [how to sublet an Ithaca apartment](/cornell/housing/cornell-summer-sublet-how-to-sublet-apartment-ithaca/). The [full guide to subletting in Ithaca](/cornell/housing/subletting-in-ithaca-guide-cornell-students/) covers both sides of the market.
 
 ## What are your options between May and August?
 
@@ -127,6 +132,7 @@ Cornell residence halls closed at [2 p.m. on Sunday, May 17, 2026](https://scl.c
 | Lease ends May 31, next starts Aug. 1 | A sublet for 61 days (June 1 to July 31) | Same, and no place for your furniture |
 | Lease ends July 31, next starts Aug. 1 | Your current lease | About a day of gap; deposit and move-out the same weekend |
 | New arrival for a summer job or research | A furnished sublet or a short lease | Paying before you see the unit |
+| Want a campus room and no lease | A [Cornell summer room](/cornell/housing/cornell-summer-housing-options-rates-dates/) on North Campus, June 1 to Aug. 11, 2027, at [$58.50 a night](https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus) for a double, fee included | Two-week minimum; no refund for leaving early |
 
 Start dates vary by building. Dryden South leases all [end May 31, 2027](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961), so a sublet there cannot run into June.
 
@@ -136,7 +142,7 @@ Start on the [Off-Campus Housing Marketplace](https://scl.cornell.edu/residentia
 
 ## What does a summer sublet cost?
 
-Published summer prices are scarce, so these asking prices are the closest guide.
+Compare a summer sublet's price with these asking prices.
 
 ```figure
 kind: cost_table

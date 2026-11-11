@@ -5,7 +5,7 @@ primary_query: Ithaca Bikeshare cost Cornell students
 topic: getting-around
 school: cornell-university
 type: how-to
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0043
 kind: spoke
 readers:
@@ -22,19 +22,19 @@ tools: []
 sources:
 - url: https://www.ithacabikeshare.org
   title: Ithaca Bikeshare
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.bikewalktompkins.org/e-bikes
   title: E-Bikes, Bike Walk Tompkins
   accessed: '2026-11-08'
 - url: https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/
   title: 'Ithaca Bikeshare: A Comprehensive Guide to Ithaca''s Newest Transportation Option, The Cornell Daily Sun, January 24, 2023'
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://ihstattler.com/blog/2022/12/ithaca-bike-share-launches-giving-ithaca-access-to-dockless-electric-bikes/
   title: Ithaca Bike Share launches, giving Ithaca access to dockless electric bikes, The Tattler, December 2022
   accessed: '2026-11-08'
 - url: https://betterbikeshare.org/2023/07/10/ithaca-stands-by-bike-share/
   title: Ithaca Stands By Bike Share, Better Bike Share Partnership, July 10, 2023
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus
   title: Cycling on Campus, Cornell Transportation and Delivery Services
   accessed: '2026-11-07'
@@ -52,7 +52,7 @@ sources:
   accessed: '2026-11-08'
 - url: https://cornellsun.com/2018/04/26/new-dockless-bikesharing-service-enters-downtown-ithaca/
   title: New Dockless Bikesharing Service Enters Downtown Ithaca, The Cornell Daily Sun, April 26, 2018
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2019/04/30/limebikes-could-turn-opportunity-into-nightmare-cornell-press-release-says/
   title: LimeBikes Could Turn Opportunity Into Nightmare, Cornell Press Release Says, The Cornell Daily Sun, April 30, 2019
   accessed: '2026-11-08'
@@ -62,6 +62,24 @@ sources:
 - url: https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall
   title: 'Guest Room: From Bikes to Buses, How to Sustainably Navigate Campus This Fall, The Cornell Daily Sun, November 11, 2025'
   accessed: '2026-11-08'
+- url: https://www.ithacabikeshare.org/terms
+  title: Terms of Use, Ithaca Bikeshare
+  accessed: '2026-11-11'
+- url: https://theithacan.org/46872/news/ithaca-bikeshare-adds-parking-hubs-and-raises-costs-of-use
+  title: Ithaca Bikeshare adds parking hubs and raises costs of use, The Ithacan, March 22, 2023
+  accessed: '2026-11-11'
+- url: https://sustainable.cornell.edu/news/center-community-transportation-launches-new-ithaca-bikeshare
+  title: Center for Community Transportation launches new Ithaca Bikeshare, Cornell Campus Sustainability Office, November 30, 2022
+  accessed: '2026-11-11'
+- url: https://www.ithaca.com/news/ithaca/ithaca-moves-to-support-bikeshare-eyes-multi-entity-funding-model/article_1d8a2850-9c75-11ef-bbd2-ab6266bd0b59.html
+  title: Ithaca Moves to Support BikeShare, Eyes Multi-Entity Funding Model, Ithaca Times, November 6, 2024
+  accessed: '2026-11-11'
+- url: https://www.cornellsun.com/article/2017/04/cornell-bike-share-makes-two-wheel-transportation-more-accessible
+  title: Cornell Bike Share Makes Two-Wheel Transportation More Accessible, The Cornell Daily Sun, April 16, 2017
+  accessed: '2026-11-11'
+- url: https://www.psu.edu/news/campus-life/story/zagster-ends-operations-nationwide-search-underway-new-bike-share-provider
+  title: Zagster ends operations nationwide; search underway for new bike-share provider, Penn State News, June 1, 2020
+  accessed: '2026-11-11'
 images: []
 lead_photo: none-found 2026-11-08
 ---
@@ -69,24 +87,24 @@ lead_photo: none-found 2026-11-08
 ```glance
 - Ithaca Bikeshare is not free for Cornell students: $1.50 to start a ride plus $0.25 a minute, plus tax.
 - A 10-minute ride costs $4.00 and a 20-minute ride $6.50, before tax; ending outside a hub adds $1.50.
-- Day pass $25 (rides up to 2 hours each); monthly plan $60 (30 free minutes a day).
-- No student discount is listed; Easy Access is the only discount, for GO ITHACA members at or below 150% of the federal poverty guideline.
+- Day pass $25 (2 hours of riding in 24 hours); monthly plan $60 (30 free minutes a day).
+- There is no student discount; Easy Access is the only discount, for GO ITHACA members at or below 150% of the federal poverty guideline.
 - On campus, park the bike at a bike rack, never at a railing, tree or pole.
 - Prices rose from $0.15 a minute in January 2023 to $0.25 now; ignore older pages that quote Lime or Big Red Bikes.
 ```
 
-Ithaca Bikeshare is not free for Cornell students, and the operator lists no student discount: a ride costs [$1.50 to start plus $0.25 a minute, plus tax](https://www.ithacabikeshare.org), so a 20-minute trip is $6.50 before tax by our arithmetic. Regular riders save with the $25 day pass or the $60 monthly plan, which includes 30 minutes a day. For most daytime hops across campus, TCAT at [$1.50 a ride](https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/) is cheaper, and free in the evening and on weekends.
+Ithaca Bikeshare is not free for Cornell students, and there is no student discount: a ride costs [$1.50 to start plus $0.25 a minute, plus tax](https://www.ithacabikeshare.org), so a 20-minute trip is $6.50 before tax. Regular riders save with the $25 day pass or the $60 monthly plan, which includes 30 minutes a day. For most daytime hops across campus, TCAT at [$1.50 a ride](https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/) is cheaper, and free in the evening and on weekends.
 
 ```reader "If you're an upper-year without a car"
-Your daytime TCAT ride costs $1.50, and buses are [free after 6 p.m. on weekdays and all weekend](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). A 20-minute Bikeshare ride costs $6.50, more than four bus fares. Use Bikeshare when the bus is late or does not go where you need. In 2023 the closest hubs to campus were in Collegetown and at Stewart and University. If you ride most weekdays, the $60 monthly plan covers 30 minutes a day; ten 20-minute pay-as-you-go rides already cost $65. The mistake that costs most: ending rides wherever you stop. Each one outside a hub adds [$1.50](https://www.ithacabikeshare.org).
+Your daytime TCAT ride costs $1.50, and buses are [free after 6 p.m. on weekdays and all weekend](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). A 20-minute Bikeshare ride costs $6.50, more than four bus fares. Use Bikeshare when the bus is late or does not go where you need. Hubs now sit on central campus, so a ride to class can end in one. If you ride most weekdays, the $60 monthly plan covers 30 minutes a day; ten 20-minute pay-as-you-go rides already cost $65. The mistake that costs most: ending rides wherever you stop. Each one outside a hub adds [$1.50](https://www.ithacabikeshare.org).
 ```
 
 ```reader "If you're a cyclist"
-Bikeshare bikes are [Class 1 pedal-assist e-bikes with a top speed of about 16 mph](https://www.bikewalktompkins.org/e-bikes), which helps on the climb from Collegetown or downtown. They are a backup to your own bike, not a substitute at $0.25 a minute. On campus, Cornell's rule for any bike is [designated racks only](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus); bikes at railings, signposts, trees or poles can be impounded. Not confirmed: whether Bikeshare runs through the winter. Check the app before you count on it in January.
+Bikeshare bikes are [Class 1 pedal-assist e-bikes with a top speed of about 16 mph](https://www.bikewalktompkins.org/e-bikes), which helps on the climb from Collegetown or downtown. They are a backup to your own bike, not a substitute at $0.25 a minute. On campus, Cornell's rule for any bike is [designated racks only](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus); bikes at railings, signposts, trees or poles can be impounded. Bikeshare runs year-round, so it stays an option in January.
 ```
 
 ```reader "If you're on a tight budget"
-Ask about Easy Access before you pay full price. The operator offers it to [GO ITHACA members at or below 150% of the federal poverty guideline](https://www.ithacabikeshare.org); its price is not posted on the main page, so email help@ithacabikeshare.org. Without it, Bikeshare is the dearest way to cross campus. TCAT is $1.50 by day and [free after 6 p.m. on weekdays and all weekend](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes), and walking is free. The costly mistake is a casual 30-minute ride: $9.00 before tax, or $10.50 if you leave the bike outside a hub.
+Ask about Easy Access before you pay full price. The operator offers it to [GO ITHACA members at or below 150% of the federal poverty guideline](https://www.ithacabikeshare.org), and it makes riding reduced-price or free for those who qualify. Without it, Bikeshare is the dearest way to cross campus. TCAT is $1.50 by day and [free after 6 p.m. on weekdays and all weekend](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes), and walking is free. The costly mistake is a casual 30-minute ride: $9.00 before tax, or $10.50 if you leave the bike outside a hub.
 ```
 
 ```reader "If you're staying in Ithaca for the summer"
@@ -99,28 +117,28 @@ PhD students and graduate assistants [ride TCAT free at all hours](https://fcs.c
 
 ## How much Ithaca Bikeshare costs in 2026
 
-The operator's site lists [three ways to pay](https://www.ithacabikeshare.org). None mentions students, and none carries a date.
+The operator's site lists [three ways to pay](https://www.ithacabikeshare.org). None is a student rate.
 
 ```figure
 kind: cost_table
 title: Ithaca Bikeshare prices, read November 8, 2026
 rows:
   - {label: "Pay as you go", value: "$1.50 to start + $0.25 a minute + tax"}
-  - {label: "Day pass", value: "$25 (unlimited rides up to 2 hours each, then $0.25 a minute)"}
+  - {label: "Day pass", value: "$25 (unlimited rides, up to 2 hours of riding in 24 hours, then $0.25 a minute)"}
   - {label: "Monthly plan", value: "$60 (30 minutes a day free, then $0.25 a minute)"}
   - {label: "Ride not ending in a hub", value: "$1.50 extra"}
 ```
 
-- **Pay as you go.** You pay $1.50 each time you start a ride, then $0.25 for every minute, then tax. The tax rate is not on the page.
-- **Day pass, $25.** Unlimited rides up to 2 hours each, with $0.25 a minute after that.
+- **Pay as you go.** You pay $1.50 each time you start a ride, then $0.25 for every minute, then 8% state and local sales tax, the rate in the operator's [terms of use](https://www.ithacabikeshare.org/terms). A 20-minute ride listed at $6.50 comes to $7.02 with tax.
+- **Day pass, $25.** Unlimited rides with up to 2 hours of riding in a 24-hour period, then $0.25 a minute.
 - **Monthly, $60.** The first 30 minutes each day are free; after that, $0.25 a minute.
 - **The hub fee, $1.50.** Bikes are dockless, but a ride that does not end in a hub costs $1.50 more. The site says [hubs are highlighted on the service area map in the app](https://www.ithacabikeshare.org).
 
-The day pass and monthly plan carry no per-ride start fees, the site says. Not confirmed: the tax rate, and how many hubs exist today.
+The day pass and monthly plan carry no per-ride start fees, the site says.
 
 ## What a ride costs, trip by trip
 
-Our arithmetic, from the posted pay-as-you-go prices, before tax:
+Pay-as-you-go costs from the posted prices, before tax:
 
 | Ride | Ends in a hub | Ends outside a hub | Same trip on TCAT by day |
 |---|---|---|---|
@@ -145,17 +163,17 @@ Example: a hypothetical sophomore takes Bikeshare four times a semester when the
 
 ## Is there a student discount?
 
-No. The current price list shows no student rate. In July 2023, Better Bike Share reported [no student discount](https://betterbikeshare.org/2023/07/10/ithaca-stands-by-bike-share/) and said the operator hoped for a deal with Cornell. No such deal appears on Cornell's [bus and pass page](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) or the operator's site.
+No. Students pay the same prices as every other rider. In July 2023, Better Bike Share reported that Jeff Goodmark, who oversees the system for the Center for Community Transportation, hoped to [work out something with Cornell so students could ride free](https://betterbikeshare.org/2023/07/10/ithaca-stands-by-bike-share/). As of November 2024, Cornell had [made no financial contribution to the program](https://www.ithaca.com/news/ithaca/ithaca-moves-to-support-bikeshare-eyes-multi-entity-funding-model/article_1d8a2850-9c75-11ef-bbd2-ab6266bd0b59.html), the Ithaca Times reported, although riders affiliated with Cornell made up an estimated 50% of ridership.
 
-The only discount is Easy Access, for [GO ITHACA members at or below 150% of the US federal poverty guideline](https://www.ithacabikeshare.org). Its price and how to apply are not on the main page. Write to help@ithacabikeshare.org.
+The only discount is Easy Access, the operator's income-eligible plan, for [GO ITHACA members at or below 150% of the US federal poverty guideline](https://www.ithacabikeshare.org). It makes riding reduced-price or free for those who qualify. To sign up, use the form linked on the Bikeshare site if you are not yet a GO ITHACA member, or email support@goithaca.org if you are.
 
 ## Riding and parking a Bikeshare bike on campus
 
 Ithaca Bikeshare is run by the nonprofit [Center for Community Transportation](https://www.bikewalktompkins.org/e-bikes). Every bike is a Class 1 pedal-assist e-bike that tops out at about 16 mph.
 
-Campus has its own parking rule. The 2023 Cornell Sun guide reported that [Cornell requires Bikeshare bikes to be parked at racks](https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/). Cornell's cycling page says to park only at [designated bike racks](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus). Bikes locked to railings, signposts, trees or poles can be impounded. Cornell's assistant director of transportation wrote in 2025 that campus has [more than 1,000 bike parking spots](https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall) and about 7 miles of bike lanes.
+Campus has its own parking rule. When Bikeshare launched in November 2022, Cornell's Campus Sustainability Office said the bikes are [allowed on campus but must be parked at or near bike racks](https://sustainable.cornell.edu/news/center-community-transportation-launches-new-ithaca-bikeshare), and not ridden on sidewalks. Cornell's cycling page says to park only at [designated bike racks](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus). Bikes locked to railings, signposts, trees or poles can be impounded. Cornell's assistant director of transportation wrote in 2025 that campus has [more than 1,000 bike parking spots](https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall) and about 7 miles of bike lanes.
 
-At launch, there were no hubs on campus. The 2023 Sun guide listed [four hubs](https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/): Collegetown Bagels on College Avenue, Oak Avenue at Dryden Road, Maplewood Apartments, and Stewart Avenue at University Avenue near Alice Cook House. Today's hub map lives in the app.
+At launch, there were no hubs on campus. In January 2023 the Sun listed [four hubs near campus](https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/): Collegetown Bagels on College Avenue, Oak Avenue at Dryden Road, Maplewood Apartments, and Stewart Avenue at University Avenue near Alice Cook House. By March 2023 the system had [79 hubs](https://theithacan.org/46872/news/ithaca-bikeshare-adds-parking-hubs-and-raises-costs-of-use), still none on campus. The operator's [hub map](https://www.ithacabikeshare.org), last updated Nov. 3, 2026, now marks more than 200, including hubs on central campus near Bailey Hall and along Campus Road.
 
 ```figure
 kind: steps
@@ -170,28 +188,28 @@ rows:
 
 Bikeshare was busy with Cornell riders early on. By July 2023 it had [85 e-bikes and more than 34,000 trips](https://betterbikeshare.org/2023/07/10/ithaca-stands-by-bike-share/), 250 to 275 a day in good weather, and about 60% of trips were on campus.
 
-Not confirmed: whether Bikeshare runs in winter and on what dates its season starts and ends. The [biking in winter guide](/getting-around/biking-in-ithaca-winter-cornell/) covers riding your own bike from November to March.
+Bikeshare runs [year-round, 24 hours a day](https://www.ithaca.com/news/ithaca/ithaca-moves-to-support-bikeshare-eyes-multi-entity-funding-model/article_1d8a2850-9c75-11ef-bbd2-ab6266bd0b59.html), the Ithaca Times reported in November 2024. The [biking in winter guide](/getting-around/biking-in-ithaca-winter-cornell/) covers riding your own bike from November to March.
 
 ## How prices rose since 2023
 
-The pages that rank for this question date from 2011 to 2023 and quote old prices. Bikeshare launched with dockless e-bikes in [late 2022](https://ihstattler.com/blog/2022/12/ithaca-bike-share-launches-giving-ithaca-access-to-dockless-electric-bikes/). Here is what changed:
+Older guides online date from 2011 to 2023 and quote old prices. Bikeshare launched with dockless e-bikes in [late 2022](https://ihstattler.com/blog/2022/12/ithaca-bike-share-launches-giving-ithaca-access-to-dockless-electric-bikes/). Here is what changed:
 
-| Item | January 2023 | July 2023 | November 2026 |
+| Item | January 2023 | March 2023 | November 2026 |
 |---|---|---|---|
-| Start fee | $1 | $0.50 | $1.50 |
+| Start fee | $1 | $1.50 | $1.50 |
 | Per minute | $0.15 | $0.20 | $0.25 |
-| Day pass | $20 | not stated | $25 |
-| Monthly | $45 | not stated | $60 |
+| Day pass | $20 | $20 | $25 |
+| Monthly | $45 | $45 | $60 |
 | Annual | $150 | $150 | not offered |
-| Ride outside a hub | not stated | $1 | $1.50 |
+| Ride outside a hub | no fee ($1 credit for a hub) | $1 | $1.50 |
 
-January 2023 figures are from the [Cornell Sun guide](https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/). July 2023 figures are from [Better Bike Share](https://betterbikeshare.org/2023/07/10/ithaca-stands-by-bike-share/). November 2026 is the [operator's site](https://www.ithacabikeshare.org). The two 2023 sources disagree on the start fee, so treat that row as rough.
+January 2023 figures are from the [Cornell Sun guide](https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/). March 2023 figures are from [The Ithacan](https://theithacan.org/46872/news/ithaca-bikeshare-adds-parking-hubs-and-raises-costs-of-use), which reported the new prices on March 22, 2023. November 2026 is the [operator's site](https://www.ithacabikeshare.org), which dates the $1.50 hub fee to March 4, 2024.
 
-By our arithmetic, a 20-minute ride cost $4.00 in January 2023 and $6.50 now, a rise of about 63%. The per-minute rate rose 25% since mid-2023. The $150 annual plan is gone, so a year of riding now means paying month by month.
+A 20-minute ride cost $4.00 in January 2023 ($1 plus 20 minutes at $0.15) and costs $6.50 now, a rise of about 63%. The per-minute rate rose 25% since March 2023. The $150 annual plan is gone, so a year of riding now means paying month by month.
 
 ## Lime and Big Red Bikes: not today's options
 
-Pages that rank for this question mix up three different programs.
+Older guides mix up three different programs.
 
 ```figure
 kind: timeline
@@ -204,8 +222,8 @@ rows:
   - {label: "Ithaca Bikeshare at $0.25 a minute, $25 a day, $60 a month", date: "November 2026"}
 ```
 
-- **Big Red Bikes** was a Cornell program. In 2011 the Chronicle described bikes [free with a Cornell ID at the Uris Library desk](https://news.cornell.edu/node/270417), with 25 free hours a week. That page is 15 years old. Nothing current shows the program running.
-- **LimeBike** [entered downtown Ithaca in 2018](https://cornellsun.com/2018/04/26/new-dockless-bikesharing-service-enters-downtown-ithaca/), reportedly at 50 cents per 30 minutes for students with college emails. A 2019 Sun story covered [a Cornell press release warning about LimeBikes](https://cornellsun.com/2019/04/30/limebikes-could-turn-opportunity-into-nightmare-cornell-press-release-says/). Lime left Ithaca in 2020.
+- **Big Red Bikes** was a Cornell program. In 2011 the Chronicle described bikes [free with a Cornell ID at the Uris Library desk](https://news.cornell.edu/node/270417), with 25 free hours a week. In 2017 the Sun reported that this earlier campus bike share had [closed after an unsuccessful trial](https://www.cornellsun.com/article/2017/04/cornell-bike-share-makes-two-wheel-transportation-more-accessible), and students relaunched Big Red Bikes as a pilot with the company Zagster, at $3 an hour for occasional riders. Zagster [ended operations at all its locations in June 2020](https://www.psu.edu/news/campus-life/story/zagster-ends-operations-nationwide-search-underway-new-bike-share-provider).
+- **LimeBike** [entered downtown Ithaca in 2018](https://cornellsun.com/2018/04/26/new-dockless-bikesharing-service-enters-downtown-ithaca/), reportedly at 50 cents per 30 minutes for students with college emails. A 2019 Sun story covered [a Cornell press release warning about LimeBikes](https://cornellsun.com/2019/04/30/limebikes-could-turn-opportunity-into-nightmare-cornell-press-release-says/). Lime [served Ithaca from 2018 to 2020](https://theithacan.org/46872/news/ithaca-bikeshare-adds-parking-hubs-and-raises-costs-of-use).
 - **Ithaca Bikeshare** is the only bike share running now, and it charges everyone the same.
 
 If a page says Cornell students ride bike share free, it is describing Big Red Bikes in 2011.
@@ -227,7 +245,7 @@ If a page says Cornell students ride bike share free, it is describing Big Red B
 
 **Is Bikeshare cheaper than Ithaca Carshare?** For short solo trips, yes. Carshare's student plans cost [$30 a year plus $9 an hour or $310 a year plus $6 an hour](https://www.ithacacarshare.org/students-commuters), plus mileage. It suits grocery runs and moving days, not a ride to class.
 
-**Can I keep a Bikeshare bike overnight?** On the day pass, each ride is covered up to 2 hours, then $0.25 a minute. An overnight ride would run up large per-minute charges, so end the ride at a hub.
+**Can I keep a Bikeshare bike overnight?** You can lock it without ending the trip, but [normal usage rates keep running](https://www.ithacabikeshare.org). The operator's [terms](https://www.ithacabikeshare.org/terms) cap usage charges at $40 per calendar day, and a bike not returned within 24 hours may be treated as stolen and billed $1,000. End the ride at a hub instead.
 
 ## Related guides
 

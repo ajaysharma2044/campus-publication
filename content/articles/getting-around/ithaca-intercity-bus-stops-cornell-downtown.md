@@ -7,7 +7,7 @@ school: cornell-university
 type: place
 subject:
 - Ithaca Commons
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0048
 kind: spoke
 readers:
@@ -24,19 +24,22 @@ tools:
 sources:
 - url: https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/
   title: OurBus moves Ithaca stop to South Cayuga Street Monday as TCAT shifts stops, FingerLakes1, Nov 6, 2026
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/
   title: Ithaca and TCAT will move downtown bus stops Nov. 9, FingerLakes1, Nov 3, 2026
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny
   title: Bus from Ithaca, NY to New York, NY, Greyhound
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://global.flixbus.com/bus-routes/bus-ithaca-ny-new-york-ny
   title: Bus Ithaca, NY to New York, NY, FlixBus
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny
   title: Ithaca, NY to Syracuse Airport, NY, OurBus
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
+- url: https://www.ourbus.com/routes/ithaca-ny-to-toronto-on
+  title: Ithaca, NY to Toronto, ON, OurBus
+  accessed: '2026-11-11'
 - url: https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny
   title: Ithaca, NY to New York, NY, OurBus
   accessed: '2026-11-08'
@@ -48,7 +51,7 @@ sources:
   accessed: '2026-11-08'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule-stop-locations
   title: 'C2C Departure Schedule: Stop Locations, Cornell Facilities and Campus Services'
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule
   title: C2C Departure Schedule, Cornell Facilities and Campus Services
   accessed: '2026-11-07'
@@ -69,13 +72,10 @@ sources:
   accessed: '2026-11-08'
 - url: https://www.downtownithaca.com/getting-around-visit/
   title: Getting Around, Downtown Ithaca Alliance
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://ca.megabus.com/route-guides/ithaca-to-toronto-bus
   title: Ithaca to Toronto bus, Megabus
-  accessed: '2026-11-08'
-- url: https://www.ourbus.com/amp/routes/cornell-ithaca-to-dc
-  title: Cornell (Ithaca) to Washington DC, OurBus
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.ourbus.com/routes/ithaca-ny-to-newark-airport-nj
   title: Ithaca, NY to Newark Airport, NJ, OurBus
   accessed: '2026-11-08'
@@ -93,7 +93,7 @@ sources:
   accessed: '2026-11-07'
 - url: https://cornellsun.com/2019/04/14/ourbus-unable-to-renew-permit-to-board-on-green-street-sues-city-of-ithaca/
   title: OurBus unable to renew permit to board on Green Street, sues City of Ithaca, The Cornell Daily Sun, Apr 14, 2019
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2023/11/inside-ourbus-cornellians-preferred-method-of-travel
   title: Inside OurBus, Cornellians' preferred method of travel, The Cornell Daily Sun, Nov 2023
   accessed: '2026-11-07'
@@ -114,11 +114,10 @@ images:
 
 ```glance
 - OurBus boards downtown at 235 S. Cayuga St from Mon Nov 9, 2026, beside the Cayuga Street Garage. Its East Seneca St stop ends.
-- Greyhound and FlixBus list 131 E Green St downtown, curbside in front of Urban Outfitters. Wait outside, not in the library.
+- Greyhound, FlixBus and Megabus still list 131 E Green St, outside Urban Outfitters. Wait there, not in the library.
 - On campus, OurBus, Greyhound and FlixBus board on Jessup Rd (North) and West Ave (West), each at its own curb.
 - Cornell's C2C boards at 217 Jessup Rd, then Sage Hall 15 minutes later, then B Lot 30 minutes later. It has no downtown stop.
 - The 710 W State St bus station is closed. Cornell's families page still names it.
-- Not confirmed: whether Greyhound, FlixBus or Megabus also move to South Cayuga on Nov 9. Check your ticket.
 ```
 
 Ithaca has no bus station building any more: intercity buses board at curbs on campus and downtown, and the stop depends on the company. From Monday, Nov 9, 2026, OurBus's downtown stop is [235 S. Cayuga St, beside the South Cayuga garage](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/), while Greyhound and FlixBus still list [131 E Green St](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny). If you live on campus, skip downtown and board on Jessup Road or West Avenue at your operator's exact spot.
@@ -144,12 +143,12 @@ Arriving in January, you will board at the same stops as everyone else. The Nov 
 ```
 
 ```reader "If you're headed beyond NYC"
-Check the Ithaca stop on each route page, because they differ. Megabus's Toronto page lists 131 E Green St. OurBus's DC and Toronto pages still show 130 E Seneca St, the stop that ends on Nov 9, 2026, so expect your ticket to say 235 S. Cayuga St instead and confirm it. OurBus to Newark Airport boards on campus: across from Baker Flagpole or on Jessup Road. C2C goes only to Manhattan, so it is no help here.
+Check the Ithaca stop on each route page, because they differ. Megabus's Toronto page says its bus sets off from 131 E Green St. [OurBus's Toronto page](https://www.ourbus.com/routes/ithaca-ny-to-toronto-on) lists campus pickups behind Ganedago Hall and across from Baker Flagpole. OurBus to Newark Airport boards on campus too: across from Baker Flagpole or on Jessup Road. C2C goes only to Manhattan, so it is no help here.
 ```
 
 ## Every Ithaca boarding point, by operator
 
-Each company publishes its own stop list, and the same street can mean three different curbs. This is the full map as of Nov 8, 2026.
+Each company publishes its own stop list, and the same street can mean three different curbs. This is the full map as of Nov 11, 2026.
 
 | Operator | North Campus | West Campus | Central campus | Downtown |
 |---|---|---|---|---|
@@ -157,9 +156,9 @@ Each company publishes its own stop list, and the same street can mean three dif
 | OurBus | Jessup Rd behind Ganedago Hall | West Ave across from Baker Flagpole | None | 235 S. Cayuga St from Nov 9, 2026 (East Seneca St before) |
 | Greyhound | 121 Jessup Rd, south side near Robert Purcell | 240 West Ave, in front of Mennen Hall | None | 131 E Green St, in front of Urban Outfitters |
 | FlixBus | 121 Jessup Rd | 240 West Ave | None | 131 E Green St |
-| Megabus | Not listed | Not listed | None | 131 E Green St |
+| Megabus | 107 Jessup Rd, listed as a Coach USA Shortline stop | 240 West Ave at Baker Flagpole, listed as a Shortline stop | None | 131 E Green St, where its Toronto bus sets off |
 
-Sources for each row: C2C's [stop locations page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule-stop-locations); OurBus's [Syracuse airport route page](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny) and the [FingerLakes1 report on the move](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/); [Greyhound's Ithaca to New York page](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny); [FlixBus's route page](https://global.flixbus.com/bus-routes/bus-ithaca-ny-new-york-ny); and [Megabus's Toronto route guide](https://ca.megabus.com/route-guides/ithaca-to-toronto-bus).
+Sources for each row: C2C's [stop locations page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule-stop-locations); OurBus's [Syracuse airport route page](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny) and the [FingerLakes1 report on the move](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/); [Greyhound's Ithaca to New York page](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny); [FlixBus's route page](https://global.flixbus.com/bus-routes/bus-ithaca-ny-new-york-ny); and [Megabus's Toronto route guide](https://ca.megabus.com/route-guides/ithaca-to-toronto-bus), which tells riders to check the reservation for the exact stop.
 
 ```tool cornell-bus-home-cost-calculator```
 
@@ -204,11 +203,11 @@ Example: a sophomore in Collegetown has a C2C seat on the 11:30 a.m. departure, 
 
 There is no indoor terminal downtown. Buses load at the curb.
 
-**131 E Green St** is the curb in front of Urban Outfitters. Greyhound and FlixBus list it, and so does [Downtown Ithaca's visitor page](https://www.downtownithaca.com/getting-around-visit/). Greyhound asks riders not to wait inside the Tompkins County Public Library.
+**131 E Green St** is the curb in front of Urban Outfitters. [Greyhound](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny), FlixBus and Megabus still list it as of Nov 11, 2026, two days after the OurBus move, and so does [Downtown Ithaca's visitor page](https://www.downtownithaca.com/getting-around-visit/). Greyhound asks riders not to wait inside the Tompkins County Public Library.
 
-**235 S. Cayuga St** is OurBus's downtown stop from Monday, Nov 9, 2026, beside the South Cayuga garage. It replaces the East Seneca St stop; OurBus's [DC route page](https://www.ourbus.com/amp/routes/cornell-ithaca-to-dc) still shows the old address, 130 E Seneca St. The [City of Ithaca and TCAT notice](https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/) says the intercity stop is moving to the 200 block of South Cayuga St to ease congestion and answer merchant complaints since the Seneca Street garage closed in spring 2026. That notice names no operator.
+**235 S. Cayuga St** is OurBus's downtown stop from Monday, Nov 9, 2026, beside the South Cayuga garage. It replaces the East Seneca St stop. The [City of Ithaca and TCAT notice](https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/) says the intercity stop is moving to the 200 block of South Cayuga St to ease congestion and answer merchant complaints since the Seneca Street garage closed in spring 2026. OurBus's [Syracuse airport page](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny) puts the curb in front of the Cayuga Street Garage, between Clinton and Green Streets.
 
-Not confirmed: whether Greyhound, FlixBus, Megabus or Trailways also move to South Cayuga on Nov 9. Only OurBus is named, and their own pages still list 131 E Green St as of Nov 8, 2026. Check the stop on your ticket the day before you travel.
+[FlixBus](https://global.flixbus.com/bus-routes/bus-ithaca-ny-new-york-ny) says your ticket carries the most up-to-date address, so check the stop on it the day before you travel.
 
 The Cayuga Street Garage next door, at 245 S. Cayuga St, has more than 300 spaces and sits within a five-minute walk of the Commons. City garages charge [$2.25 an hour with a $12 daily maximum](https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328) at Cayuga and Green Street.
 
@@ -216,7 +215,7 @@ The Cayuga Street Garage next door, at 245 S. Cayuga St, has more than 300 space
 
 Ithaca once had a bus station at 710 W State St. [Wikipedia lists it as closed](https://en.wikipedia.org/wiki/Ithaca_Bus_Station), and in October 2018 the Sun reported the [terminal relocating to Green Street](https://cornellsun.com/2018/10/10/ithaca-bus-terminal-relocates-to-new-space-on-green-street/). Cornell's [families page](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation) still names 710 West State St. Trust the operators' pages instead.
 
-Green Street has its own history. In February 2019 the city [declined to renew OurBus's Green Street boarding permit](https://cornellsun.com/2019/04/14/ourbus-unable-to-renew-permit-to-board-on-green-street-sues-city-of-ithaca/), citing irregular scheduling and late fees, and OurBus sued. Not confirmed: how that case ended.
+Green Street has its own history. In February 2019 the city [declined to renew OurBus's Green Street boarding permit](https://cornellsun.com/2019/04/14/ourbus-unable-to-renew-permit-to-board-on-green-street-sues-city-of-ithaca/), citing irregular scheduling and late fees, and OurBus sued.
 
 ```figure
 kind: timeline
@@ -253,7 +252,7 @@ On Nov 9, 2026 TCAT's downtown stops shift too, per the [city and TCAT notice](h
 | East Seneca stop 2 | East Seneca at North Tioga, the former intercity spot | 30, 30W, 90 |
 | North Tioga St | Unchanged | 10 |
 
-TCAT posts the changes on its website, Bus Tracker and the MyStop app. Not confirmed: 2026 timetables for these routes, so check Bus Tracker for times.
+The notice says TCAT will update its website, its [real-time Bus Tracker](https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/) and the MyStop app with the new stops. Check the tracker for live times before you head out.
 
 Coming back late, the Blue Light bus on Route 92 runs [nightly from 6:30 p.m. to 2:30 a.m., year-round](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation).
 

@@ -151,6 +151,9 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
   license: CC BY-SA 2.0
   license_url: https://creativecommons.org/licenses/by-sa/2.0
+redirect_from:
+  - /cornell/getting-around/having-a-car-at-cornell-student-guide/
+  - /getting-around/having-a-car-at-cornell-student-guide/
 ---
 
 
@@ -179,7 +182,7 @@ The stakes are real money. A permit for a car parked near your dorm is $752.98 a
 | WD resident permit | Cornell | WD areas on West Campus; A Lot after 2:30 p.m. | West Campus residents | $752.98 a year | Prorated daily from Sept. 1 |
 | B student commuter permit | Cornell | B Lot at the Vet College, TRB, South and North Morrison and BTI lots; A Lot after 2:30 p.m. | Students who live off campus | $359.77 a year | Prorated daily from Aug. 16 |
 | AP accessible permit | Cornell | Permit spaces campus-wide, except reserved and MT spaces | Students cleared through Student Disability Services | $359.77 a year | Paid spaces still need payment |
-| M motorcycle permit | Cornell | M spaces | Motorcycles, scooters, mopeds | $120.01 a year | No refunds |
+| [M motorcycle permit](/cornell/getting-around/cornell-motorcycle-scooter-bike-parking/) | Cornell | M spaces | Motorcycles, scooters, mopeds | $120.01 a year | No refunds |
 | Outer Tier A and E permits | Cornell | Outer Tier lots; E requires work in its zone | Graduate students on a full assistantship who do not live in university housing | $0 | Checked in Workday |
 | ParkMobile hourly and daily lots | Cornell | 31 zones across campus (second table) | Anyone with a registered plate | $0.75 to $3.00 an hour; $3.00 to $24.00 a day | $0.45 fee per transaction |
 | Weekend visitor parking | Cornell | Toboggan Lodge, Forest Home Drive garage, Hoy Road garage | Visitors | Free on weekends | Watch for restricted spaces |
@@ -251,7 +254,7 @@ Enforcement got tougher too. On Sept. 1, 2023, Cornell raised its fines for the 
 
 Start with your plate, not your permit. Cornell requires every student to register a car, motorcycle or scooter with Transportation Services, even to use short-term parking ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus)). You register, buy permits and pay tickets at MyParking.Cornell.edu with your NetID, Cornell's login.
 
-Then ask whether you need the car at all. For a full walk-through of owning a car as a student, see [having a car at Cornell](/cornell/getting-around/having-a-car-at-cornell-student-guide/).
+Then ask whether you need the car at all. For a full walk-through of owning a car as a student, see [having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/).
 
 ```tool do-i-need-a-car-at-cornell-quiz```
 
@@ -359,7 +362,7 @@ The third downtown garage is gone. On April 10, 2026, debris fell from the third
 
 Visit on a weekend if you can: Toboggan Lodge, the Forest Home Drive garage and the Hoy Road garage are free then. On weekdays, payment is required. If you booked a visit online, you can prepay through cornell.clickandpark.com with the access code in your confirmation email, then print the pass for your dashboard. Otherwise, pay by ParkMobile once you arrive. Near the Martin Y. Tang Welcome Center, Cornell suggests Toboggan Lodge at 38 Forest Home Drive or the Appel Commons lot. For central campus it suggests the Hoy Road garage, Crescent Lot, Alumni Field or Peterson Lot ([Cornell visitor parking](https://www.cornell.edu/visit/parking/)).
 
-The Tang Welcome Center lot itself is zone 4119 in the campus lot table above. Its pay station has been off since Sept. 8, 2026, so pay with ParkMobile (Cornell short-term parking).
+The Tang Welcome Center lot itself is zone 4119 in the campus lot table above. Its pay station has been off since Sept. 8, 2026, so pay with ParkMobile (Cornell short-term parking). Lots, prices and the free weekend sites are all in the [Cornell visitor parking guide](/cornell/getting-around/cornell-visitor-parking-for-parents/).
 
 ```reader "If you're a parent or visitor"
 Book a hotel early for big weekends: Cornell warns that rooms sell out for Family Weekend and Commencement, often with two- or three-night minimums (Cornell families page). For a visit without renting a car, see [getting around Cornell as a parent or visitor](/cornell/getting-around/getting-around-cornell-parents-visitors/).
@@ -421,25 +424,11 @@ Move-out has its own loading map. Cornell's move-out page names the places where
 
 ## When it goes wrong: tickets and tows
 
-The two systems fine differently. Cornell's tickets are higher for the most common violation. The city raises some fines for repeat offenders within 18 months (City parking rules).
+The two systems fine differently. On campus, the most common ticket, for parking without a permit or payment, costs $50, plus $10 if it is unpaid after 10 days (Cornell, 2023). The city raises some fines for repeat offenders within 18 months (City parking rules). Both fine schedules, and how to contest a Cornell or city ticket, are in the [Cornell and Ithaca parking tickets guide](/cornell/getting-around/ithaca-parking-tickets-fines-how-to-appeal-cornell/).
 
-| Violation | Cornell (from Sept. 1, 2023) | City of Ithaca |
-|---|---|---|
-| No permit or payment, or overtime at a meter | $50, plus $10 if unpaid in 10 days | $25 overtime meter |
-| Over the time limit | $35 | $15 overtime zone |
-| Winter overnight rule | $50 | $15, $30, then $45 for odd/even |
-| Accessible space | $150 with automatic towing | $100, $150, then $200 |
-| Fire lane or hydrant | $150 with automatic towing | $50 |
-| Residential permit zone | Not applicable | $15, $30, then $45 |
-| Parking on grass or yard | $100 | $20, $30, then $50 |
-| Boot release | $150 | Not listed |
-| Late payment | $10 after 10 days | $20 after 20 days |
+Unpaid city tickets grow teeth. After 20 days the city adds the late penalty. Unanswered tickets can lead the city to certify you to the state as a scofflaw, which blocks registration renewal. More than five unpaid tickets can get a car impounded (City parking rules).
 
-Sources: Cornell, 2023; [Cornell Daily Sun, 2023](https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/); City parking rules. Where the city lists three amounts, they apply to the first, second and third violation within 18 months.
-
-Unpaid city tickets grow teeth. After 20 days the city adds the late penalty. Unanswered tickets can lead the city to certify you to the state as a scofflaw, which blocks registration renewal. More than five unpaid tickets can get a car impounded. You can pay or appeal online, or call the Parking Violations Bureau at (607) 274-6581 (City parking rules).
-
-City fines are set to rise. In the 2027 budget it passed in November 2026, the Common Council plans to raise or add fines for many common parking violations. Officials expect about $381,000 more a year from the change. City Manager Dominick Recckio called it a modernization of parking enforcement ([The Ithaca Voice, Nov. 2026](https://ithacavoice.org/2026/11/common-council-approves-2027-budget-city-will-remain-below-tax-cap/)). The new amounts and start date are not yet published, so check the city's fine schedule before you rely on the table above.
+City fines are set to rise. In the 2027 budget it passed in November 2026, the Common Council plans to raise or add fines for many common parking violations. Officials expect about $381,000 more a year from the change. City Manager Dominick Recckio called it a modernization of parking enforcement ([The Ithaca Voice, Nov. 2026](https://ithacavoice.org/2026/11/common-council-approves-2027-budget-city-will-remain-below-tax-cap/)). The new amounts and start date are not yet published, so check the city's fine schedule before you rely on any amount.
 
 ## What a year of parking costs
 

@@ -1,13 +1,13 @@
 ---
-title: Ithaca parking ticket fines and how to appeal one
+title: 'Cornell and Ithaca parking tickets: fines and how to appeal'
 mode: answer
 dek: Cornell and the City of Ithaca issue separate tickets with separate fines, and you contest each one with the office that wrote it.
 meta: Ithaca parking ticket fines for Cornell lots and city streets, what late fees and impounds cost, and who to contact to appeal a ticket.
-primary_query: ithaca parking ticket fine appeal
+primary_query: ithaca parking ticket
 topic: getting-around
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 208
 rewrites: ''
 readers:
@@ -91,7 +91,7 @@ Source: [Cornell Daily Sun, Sept. 4, 2023](https://cornellsun.com/2023/09/04/on-
 Cornell enforces whenever the university is open. It pauses on official closed staff holidays until the next business day. No-parking, fire lane, reserved, service and accessible rules are never suspended ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)). Our [permit guide](/cornell/getting-around/cornell-student-parking-permit-cost-rules/) explains how to avoid the most common one, the no-permit ticket.
 
 ```reader "If you have a car in university housing"
-The mistakes that draw tickets are parking outside your permit area and missing the winter bays. Our guide to [having a car at Cornell](/cornell/getting-around/having-a-car-at-cornell-student-guide/) covers the year. In winter, the overnight rule is covered in the [winter parking guide](/cornell/getting-around/ithaca-winter-parking-rules-cornell-odd-even/).
+The mistakes that draw tickets are parking outside your permit area and missing the winter bays. Our guide to [having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) covers the year. In winter, the overnight rule is covered in the [winter parking guide](/cornell/getting-around/ithaca-winter-parking-rules-cornell-odd-even/).
 ```
 
 ## How much are City of Ithaca parking tickets?
@@ -117,12 +117,12 @@ The city's tickets are the ones you will meet, because your street, meter and ga
 
 ## How do I appeal a parking ticket in Ithaca?
 
-The Cornell and city pages list no appeal procedure, so there is no verified set of steps to give you. Contact the issuing office quickly, before the late fee applies.
+Contact the issuing office quickly, before the late fee applies.
 
 - **Cornell ticket:** call TDS at 607-255-4600, Monday to Friday, 7:30 a.m. to noon, or use the TDS ticket portal listed on the [student parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students). TDS is at 116 Maple Avenue ([TDS](https://fcs.cornell.edu/departments/transportation-delivery-services)).
 - **City ticket:** call the Parking Violations Bureau at (607) 274-6581 ([City of Ithaca](https://www.cityofithacany.gov/727/Parking-Regulations-Violations)).
 
-Ask each office three things: the deadline to contest, what evidence it accepts, and whether the late fee is paused while a contest is pending. The fact files do not answer those questions, so get the answers in writing.
+Ask each office three things: the deadline to contest, what evidence it accepts, and whether the late fee is paused while a contest is pending. Get the answers in writing.
 
 ## What mistakes make a ticket worse?
 

@@ -1,8 +1,8 @@
 ---
-title: "How early Collegetown leases are signed, 2017-2025: 9 cases"
+title: "Dataset: Collegetown lease signing lead times, 2017 to 2025 (9 cases)"
 meta: "Collegetown leases signed 6 to 16 months before an August move-in, mostly 10 to 11: 9 dated cases from 6 Cornell Daily Sun stories, 2017 to 2025."
 topic: housing
-updated: 2026-11-08
+updated: 2026-11-11
 as_of: 2025-12-02
 sample_size: 9
 method: "Nine dated lease signings were taken from six Cornell Daily Sun stories published 2018-11-07 to 2025-12-02, and the months from each signing to an August move-in were counted by calendar month."
@@ -26,6 +26,8 @@ sources:
 ---
 
 Collegetown leases in the Cornell Daily Sun's record are signed **8 to 16 months before an August move-in, mostly 10 to 11 months ahead**. That means September to October of the year before, which for a junior-year lease is the fall of sophomore year. The one exception is a fallback: a 14-person group whose Greek housing plans fell through started hunting in February and signed **at most about 6 months** ahead.
+
+This is the record behind the [when-to-sign guide](/cornell/housing/when-to-sign-collegetown-lease-cornell/), which turns it into a decision. The [lease timeline tool](/tools/when-to-sign-lease-timeline-cornell/) applies the same window to your year and term.
 
 Nine dated cases from six [Cornell Daily Sun](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/) stories, signings from April 2017 to December 2025. On 2026-11-08, nine months before an August 2027 start, [Ithaca Renting](https://ithacarenting.com/collegetown/) already marked **14 of 67** Collegetown rows for 2027-28 sold out.
 
@@ -98,11 +100,12 @@ How 120 days squares with leasing nine months out is unresolved: the count start
 
 ## How to cite
 
-EduExplained, "How early Collegetown leases are signed, 2017-2025: 9 cases," dataset, updated 2026-11-08, observations through 2025-12-02 (n = 9 from six Cornell Daily Sun stories). Each case links its story in the source_url column.
+EduExplained, "Dataset: Collegetown lease signing lead times, 2017 to 2025 (9 cases)," record as of 2026-11-08: nine dated signings from April 2017 to December 2025, taken from six Cornell Daily Sun stories published 2018-11-07 to 2025-12-02. Each case links its story in the source_url column.
 
 ## Change log
 
 - 2026-11-08: first release. Nine cases from six stories, with the 2013 and 2022 notice rules and the Ithaca Renting sold-out count of 2026-11-08 as context. Add a row when a dated signing for the 2027-28 season is reported.
+- 2026-11-11: retitled from "How early Collegetown leases are signed, 2017-2025: 9 cases," with links to the when-to-sign guide and the lease timeline tool. The nine rows are unchanged.
 
 ## Related guides
 

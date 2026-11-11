@@ -1,0 +1,193 @@
+{
+ "slug": "cornell-spring-transfer-fall-only",
+ "queue_id": "q-transfer-0005",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "External transfer is fall only; spring entry not offered",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief §2.19 lists admissions, CDS, CALS, ILR and others as fall only"
+  },
+  {
+   "claim": "Fall 2027 application, $85 fee, portfolio due March 15, 2027; other materials April 15; decisions late April to June",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief rows for first deadline, fee $85, international dates"
+  },
+  {
+   "claim": "Hotel and AAP internal spring deadline December 1, 2026; Hotel 11:59 pm ET, decisions early January, 3.0 GPA, first/second-year, ECON 1110, 650-word essay, no transferees; office hours Nov 18, 2026",
+   "source_url": "brief §2.21",
+   "status": "ok",
+   "note": "matches Hotel internal row"
+  },
+  {
+   "claim": "AAP internal: December 1, 2.7 GPA, PDF portfolio",
+   "source_url": "brief §2.21",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "A&S internal: 3.0 cumulative and 3.0 in 12 credits; internaltransfer.cornell.edu/apply; May 1 in 2026; 'None; fall only'",
+   "source_url": "https://as.cornell.edu/admissions/admissions-requirements-and-process",
+   "status": "ok",
+   "note": "fixed in place: A&S page lists only May 1, 2026 and does not say fall only; table cell changed from 'None; fall only (May 1 in 2026)' to 'May 1 (2026 date); no December date on the page'"
+  },
+  {
+   "claim": "External transfers wait two semesters before moving colleges in A&S",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief row 141"
+  },
+  {
+   "claim": "Admitted transfers generally 3.3 or better",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief row 93"
+  },
+  {
+   "claim": "Two to four semesters completed elsewhere; first-semester students cannot apply",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief row 33"
+  },
+  {
+   "claim": "12 or more semester hours of college credit after high school means transfer applicant",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief row 32"
+  },
+  {
+   "claim": "CSS Profile and FAFSA due March 15",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "brief row 456"
+  },
+  {
+   "claim": "Mid-Term Report by April 15; ILR by March 15 if possible",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief row 53 and 74"
+  },
+  {
+   "claim": "Spring 2027 term starts January 25, 2027",
+   "source_url": "brief §2.13",
+   "status": "ok",
+   "note": "brief row 425"
+  },
+  {
+   "claim": "Spring 2021: 88 transfers vs 674 fall 2021; CALS 29, Hotel 21, A&S 15",
+   "source_url": "brief §2.19/2.x",
+   "status": "ok",
+   "note": "brief row 618 by-college table; 88+674=762 consistent"
+  },
+  {
+   "claim": "Spring 2023: 72 enrolled from 584 applications, five colleges, per Shawn Felton; admitted around November",
+   "source_url": "https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/",
+   "status": "ok",
+   "note": "brief row 518; Sun page reopened and confirms figures, colleges, Felton title and November timing"
+  },
+  {
+   "claim": "Abbey Yang '25: advisor said biology credits should count, not yet on her degree audit",
+   "source_url": "https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/",
+   "status": "ok",
+   "note": "Sun: advisor said she'd be fine with biology classes taken; 'not shown on my DUST'"
+  },
+  {
+   "claim": "Cynthia Cui '25 found Ithaca more rural and much colder than UC Santa Barbara",
+   "source_url": "https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/",
+   "status": "ok",
+   "note": "Sun: Cornell more rural, much colder than UC Santa Barbara"
+  },
+  {
+   "claim": "Spring 2023 transfers worried about full classes because current students pre-enrolled in November",
+   "source_url": "https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/",
+   "status": "ok",
+   "note": "Sun: pre-enrollment in November 2022; classes closed during add/drop"
+  },
+  {
+   "claim": "625 transfers enrolled fall 2025; 864 of 7,381 admitted, 11.7%",
+   "source_url": "brief §2.x acceptance",
+   "status": "ok",
+   "note": "brief rows 573-578; 864/7381 = 11.7% recomputed"
+  },
+  {
+   "claim": "October 15 spring deadline from ILR 2022 guidelines, since taken down",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief row 520; URL returns 404 per brief"
+  },
+  {
+   "claim": "November 15 spring deadline from an aggregator, not Cornell",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief row 1156"
+  },
+  {
+   "claim": "Housing page: spring transfers live on campus for the spring plus the next academic year; three semesters",
+   "source_url": "brief §2.12",
+   "status": "ok",
+   "note": "brief row 327; spring + two fall/spring = 3 semesters"
+  },
+  {
+   "claim": "FYSA is first-year program with own orientation, moves in shortly before January",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "brief row 521"
+  },
+  {
+   "claim": "A&S: max 60 transfer credits; 120 to graduate",
+   "source_url": "https://as.cornell.edu/registrar/transferring-credits",
+   "status": "ok",
+   "note": "page opened; confirms 60 max and 120"
+  },
+  {
+   "claim": "A&S requires at least 60 credits and four semesters at Cornell",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief row 135"
+  },
+  {
+   "claim": "Most other colleges cap at 60",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief shows 60 for Hotel, Dyson, others; Engineering differs (66 total) but 'most' holds"
+  },
+  {
+   "claim": "Credits table (30/45/60/75/90 -> lost 0/0/0/15/30; Cornell semesters 6/5/4/4/4; totals 8/8/8/9/10)",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "recomputed at 15 credits/semester: 30/15+6=8; 45/15+5=8; 60/15+4=8; 75 capped to 60, 15 lost, 5+4=9; 90 capped, 30 lost, 6+4=10"
+  },
+  {
+   "claim": "Endowed tuition $73,946 plus $1,024 fees = $74,970; half $37,485",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief rows 434, 438; recomputed 73,946+1,024=74,970; /2=37,485"
+  },
+  {
+   "claim": "Cornell discourages transfer after junior year at a four-year school",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief row 38"
+  },
+  {
+   "claim": "Student Health Plan $2,046 for six months for new spring 2027 student",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "brief row 490"
+  }
+ ],
+ "beats_top": {
+  "query": "cornell spring transfer",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

@@ -124,6 +124,9 @@ sources:
   title: Co-ops Open Doors for Mosey, The Cornell Daily Sun, Feb. 7, 2017
   accessed: '2026-11-10'
 images: []
+redirect_from:
+  - /cornell/housing/how-cornell-co-ops-work-chores-meals-governance/
+  - /housing/how-cornell-co-ops-work-chores-meals-governance/
 ---
 
 
@@ -142,20 +145,20 @@ That is the deal at Cornell's eight cooperative houses, or co-ops. Cornell calls
 
 The price explains the pull. A double in a residence hall costs $6,872 per semester for 2026-27 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The co-op doubles in the box above cost 51 to 72 percent of that. The catch is space. The eight house pages list 158 residents in total. The Sun counted about 161 co-op residents in eight houses back in 2001, so the system has barely grown in 25 years ([Cornell Daily Sun, 2001](https://cornellsun.com/2001/10/12/housing-alternatives-cornell-student-cooperatives)).
 
-If you are weighing a co-op against a dorm or a fraternity or sorority house, our [co-op, Greek and dorm cost comparison](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) puts the three side by side.
+If you are weighing a co-op against a dorm or a fraternity or sorority house, our guide to [a co-op or Greek house instead of a dorm](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) shows how a sophomore gets into each.
 
 ## The eight houses side by side
 
 | House | Address | Founded or built | Residents | Rooms | Semester rate, 2026-27 (single / double / triple) | Who can live there | House meal plan |
 |---|---|---|---|---|---|---|---|
-| Prospect of Whitby | 228 Wait Ave., North Campus | At this address since 1965 | 19 | 7 singles, 6 doubles | $4,889 to $5,213 / $4,318 / none | Transfer and upper-level students | Yes, all vegetarian |
-| Wait Avenue Cooperative | 302 Wait Ave., North Campus | House is more than 100 years old | 14, all women | Singles and doubles | $5,340 to $5,693 / $4,715 / none | Women: transfer, upper-level, graduate and professional | No; staples provided |
+| [Prospect of Whitby](/cornell/housing/prospect-of-whitby-cooperative-cornell/) | 228 Wait Ave., North Campus | At this address since 1965 | 19 | 7 singles, 6 doubles | $4,889 to $5,213 / $4,318 / none | Transfer and upper-level students | Yes, all vegetarian |
+| [Wait Avenue Cooperative](/cornell/housing/302-wait-avenue-cooperative-cornell/) | 302 Wait Ave., North Campus | House is more than 100 years old | 14, all women | Singles and doubles | $5,340 to $5,693 / $4,715 / none | Women: transfer, upper-level, graduate and professional | No; staples provided |
 | Wait Terrace | 308 Wait Ave., North Campus | Not published | 13 | 7 singles, 3 doubles | $5,340 to $5,693 / $4,715 / none | Transfer, upper-level, graduate and professional | No |
-| Triphammer Cooperative | 150 Triphammer Rd., North Campus | Not published | 20 | 11 singles, 3 doubles, 1 triple | $4,889 / $4,317 / $3,972 | Transfer, upper-level, graduate and professional | Yes, required; vegetarian dinners Sunday to Thursday |
-| Wari Cooperative | 208 Dearborn Pl., North Campus | Founded 1968 | 10, all women | 8 singles, 1 double | $5,640 to $6,014 / $4,981 / none | Transfer and upper-level women; the house serves women of color | No |
-| Watermargin | 103 McGraw Pl., West Campus | Founded 1947; house leased from fall 1948 | 23 | Singles and doubles | $4,889 to $5,213 / $4,317 / none | Transfer, upper-level, graduate and professional | Yes, vegetarian and non-vegetarian |
-| Redbud Cooperative in Von Cramm Hall | 623 University Ave., West Campus | Founded 1956 | 34 | Singles, doubles and triples | $3,949 / $3,487 / $2,765 | Transfer, upper-level and graduate | Not listed; residents share nightly dinners |
-| 660 Stewart Avenue | 660 Stewart Ave., below West Campus | Building dates to 1902 | 25 | Singles, doubles and triples | $5,640 / $4,981 / none listed | Transfer and upper-level students | Yes, optional, five nights a week |
+| [Triphammer Cooperative](/cornell/housing/triphammer-cooperative-cornell/) | 150 Triphammer Rd., North Campus | Not published | 20 | 11 singles, 3 doubles, 1 triple | $4,889 / $4,317 / $3,972 | Transfer, upper-level, graduate and professional | Yes, required; vegetarian dinners Sunday to Thursday |
+| [Wari Cooperative](/cornell/housing/wari-cooperative-cornell/) | 208 Dearborn Pl., North Campus | Founded 1968 | 10, all women | 8 singles, 1 double | $5,640 to $6,014 / $4,981 / none | Transfer and upper-level women; the house serves women of color | No |
+| [Watermargin](/cornell/housing/watermargin-cooperative-cornell/) | 103 McGraw Pl., West Campus | Founded 1947; house leased from fall 1948 | 23 | Singles and doubles | $4,889 to $5,213 / $4,317 / none | Transfer, upper-level, graduate and professional | Yes, vegetarian and non-vegetarian |
+| [Redbud (Von Cramm Hall)](/cornell/housing/redbud-cooperative-von-cramm-hall-cornell/) | 623 University Ave., West Campus | Founded 1956 | 34 | Singles, doubles and triples | $3,949 / $3,487 / $2,765 | Transfer, upper-level and graduate | Not listed; residents share nightly dinners |
+| [660 Stewart Avenue](/cornell/housing/660-stewart-avenue-cooperative-cornell/) | 660 Stewart Ave., below West Campus | Building dates to 1902 | 25 | Singles, doubles and triples | $5,640 / $4,981 / none listed | Transfer and upper-level students | Yes, optional, five nights a week |
 
 Sources: each house's Cornell page ([Whitby](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/prospect-whitby), [Wait Avenue](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-avenue-cooperative), [Wait Terrace](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-terrace), [Triphammer](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative), [Wari](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wari-cooperative), [Watermargin](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/watermargin), [Redbud](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall), [660 Stewart](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/660-stewart-avenue)); rates from [Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates); founding years from the history section below.
 
@@ -185,7 +188,7 @@ The co-op story starts with veterans. In 1947, a group of World War II veterans 
 
 Watermargin was not yet a co-op in the modern sense. Women could join by the 1960s, but the house stayed all male until about 1970. It took on its present cooperative form, with shared cooking, cleaning and self-government, in the late 1960s and early 1970s (Cornell Chronicle).
 
-Other houses followed. Von Cramm, now home to Redbud Cooperative, was founded in 1956 ([Redbud Cooperative](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall)). Prospect of Whitby opened in 1965 at 228 Wait Avenue, in the former house of the Alpha Xi Delta sorority ([Student & Campus Life, 2023](https://scl.cornell.edu/news-events/news/unexpected-delights-prospect-whitby)). In 1968, a group of Black women founded Wari to house women of the African diaspora ([Cornell diversity timeline](https://diversity.cornell.edu/about-us/our-historic-commitment)). Cornell's alumni magazine credits Irene Smalls, Class of 1971, as Wari's founder ([Cornellians](https://alumni.cornell.edu/cornellians/cbaa-50th/)). A resident told the Sun in 2001 that Wari dated to 1967, but Cornell's records and the house itself give 1968, so go by 1968.
+Other houses followed. Redbud (Von Cramm Hall) was founded in 1956 ([Redbud Cooperative](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall)). Prospect of Whitby opened in 1965 at 228 Wait Avenue, in the former house of the Alpha Xi Delta sorority ([Student & Campus Life, 2023](https://scl.cornell.edu/news-events/news/unexpected-delights-prospect-whitby)). In 1968, a group of Black women founded Wari to house women of the African diaspora ([Cornell diversity timeline](https://diversity.cornell.edu/about-us/our-historic-commitment)). Cornell's alumni magazine credits Irene Smalls, Class of 1971, as Wari's founder ([Cornellians](https://alumni.cornell.edu/cornellians/cbaa-50th/)). A resident told the Sun in 2001 that Wari dated to 1967, but Cornell's records and the house itself give 1968, so go by 1968.
 
 Cornell's pages give no founding dates for Triphammer, Wait Terrace, Wait Avenue Cooperative or the co-op at 660 Stewart. They do say the 660 Stewart building is a 1902 estate and the Wait Avenue house is more than 100 years old (Wait Avenue Cooperative).
 
@@ -235,9 +238,9 @@ On West Campus, Watermargin houses 23 residents in singles and doubles, in what 
 
 The founding mission still shapes who gets in. Watermargin admits members by random lottery to keep the house diverse. It hosts talks, films and workshops about living with difference (Watermargin). The house is open to transfer, upper-level, graduate and professional students.
 
-### Redbud Cooperative in Von Cramm Hall: 623 University Avenue
+### Redbud (Von Cramm Hall): 623 University Avenue
 
-Von Cramm is the largest co-op, with 34 residents. The house added "Redbud" to its name to remember a wooded area that once stood behind the building. Residents are a mix of undergraduates and graduate students, and many are international or exchange students. Everyone shares cooking, cleaning and upkeep, and the house eats dinner together each night. It has a fireplace, a dining room, a piano, a pool table, a projector and a big back yard with a grill (Redbud Cooperative).
+Redbud is the largest co-op, with 34 residents. The house added "Redbud" to its name to remember a wooded area that once stood behind the building. Residents are a mix of undergraduates and graduate students, and many are international or exchange students. Everyone shares cooking, cleaning and upkeep, and the house eats dinner together each night. It has a fireplace, a dining room, a piano, a pool table, a projector and a big back yard with a grill (Redbud Cooperative).
 
 Redbud is also the cheapest. A single is $3,949 per semester, a double $3,487 and a triple $2,765. That triple is the lowest-priced undergraduate bed on Cornell's rate table. In 2024, Redbud's president, Allan Chu, told the Sun that his first-year dorm triple had cost close to $5,000 and that the co-op was far cheaper. He added that Cornell's recent rent increases had made things harder for the house (Cornell Daily Sun).
 
@@ -257,7 +260,7 @@ Every co-op room costs less than a dorm double. The most expensive co-op single,
 kind: cost_table
 title: A double for the 2026-27 academic year (two semesters)
 rows:
-  - {label: "Redbud in Von Cramm", value: "$6,974"}
+  - {label: "Redbud (Von Cramm Hall)", value: "$6,974"}
   - {label: "Triphammer or Watermargin", value: "$8,634"}
   - {label: "Prospect of Whitby", value: "$8,636"}
   - {label: "Wait Avenue Cooperative or Wait Terrace", value: "$9,430"}
@@ -331,7 +334,7 @@ Cornell's transfer housing page lists the co-ops among the homes open to transfe
 
 ## The trade-offs
 
-The co-ops are cheap and close-knit. They charge in other ways: work, aging buildings and little say over price.
+The co-ops are cheap and close-knit. They charge in other ways: work, aging buildings and little say over price. Our [co-op vs dorm comparison](/cornell/housing/cornell-co-op-vs-dorm-cost-lifestyle/) sets a co-op against a residence hall on price and daily life.
 
 The first cost is work. Everyone cleans and goes to house meetings, and in five of the eight houses residents also cook for each other. Not everyone likes it. In 2001, one student told the Sun that cooking duty was a hassle, and a Collegetown renter said the co-ops felt too much like dorms (Cornell Daily Sun, 2001). There is no staff member on site when a housemate stops doing chores, and the house has to settle it.
 
@@ -397,7 +400,7 @@ rows:
 | Triphammer Cooperative | moseytriphammer@cornell.edu (applications); triphammer@cornell.edu |
 | Wari Cooperative | waricoop@cornell.edu |
 | Watermargin | watermargin@cornell.edu |
-| Redbud Cooperative in Von Cramm Hall | redbudcoop@cornell.edu |
+| Redbud (Von Cramm Hall) | redbudcoop@cornell.edu |
 | 660 Stewart Avenue | sixsixty@cornell.edu |
 | All co-ops (Housing and Residential Life) | co-ops@cornell.edu, 607-255-3445 |
 

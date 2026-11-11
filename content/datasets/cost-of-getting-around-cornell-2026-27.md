@@ -152,7 +152,7 @@ EduExplained, "A year of getting around Cornell, 2026-27: 4 profiles," dataset, 
 ## Related guides
 
 - [Getting to Ithaca and around Cornell, 2026-27](/getting-around/getting-to-ithaca-and-around-cornell/): the full guide to the topic
-- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/having-a-car-at-cornell-student-guide/)
+- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)
 - [Cornell student parking permits: cost, rules, who qualifies](/getting-around/cornell-student-parking-permit-cost-rules/)
 - [Is TCAT free for Cornell students? Hours, routes, passes](/getting-around/tcat-free-for-cornell-students-hours-routes/)
 - [Ithaca Carshare for Cornell students: plans, cost, rules](/getting-around/ithaca-carshare-cornell-students-cost/)

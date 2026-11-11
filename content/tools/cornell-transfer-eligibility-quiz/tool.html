@@ -1,0 +1,255 @@
+<div class="tool" id="tool-cornell-transfer-eligibility-quiz" data-tool="cornell-transfer-eligibility-quiz" data-as-of="2026-11-11">
+<style>
+#tool-cornell-transfer-eligibility-quiz .tq-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.75rem 1.25rem;margin:0 0 1rem}
+#tool-cornell-transfer-eligibility-quiz label{display:block;font-weight:600;margin-bottom:.25rem}
+#tool-cornell-transfer-eligibility-quiz select,#tool-cornell-transfer-eligibility-quiz input[type=number]{width:100%;max-width:100%;box-sizing:border-box;padding:.35rem}
+#tool-cornell-transfer-eligibility-quiz .tq-hint{display:block;font-size:.85em;opacity:.8;margin-top:.15rem}
+#tool-cornell-transfer-eligibility-quiz .tq-check label{display:inline;font-weight:400}
+#tool-cornell-transfer-eligibility-quiz .tool-result{border-top:2px solid currentColor;padding-top:.75rem}
+#tool-cornell-transfer-eligibility-quiz .tq-pick{font-size:1.2em;font-weight:700;margin:0 0 .5rem}
+#tool-cornell-transfer-eligibility-quiz .tq-small{font-size:.85em;opacity:.85}
+</style>
+<h3>Where you stand now</h3>
+<form onsubmit="return false">
+<div class="tq-grid">
+<div><label for="cornell-transfer-eligibility-quiz-start">When you want to start at Cornell</label>
+<select id="cornell-transfer-eligibility-quiz-start">
+<option value="fall" selected>Fall 2027 (August)</option>
+<option value="spring">A spring semester (January)</option>
+</select></div>
+<div><label for="cornell-transfer-eligibility-quiz-hs">Still in high school?</label>
+<select id="cornell-transfer-eligibility-quiz-hs">
+<option value="no" selected>No, I have graduated</option>
+<option value="yes">Yes (dual enrollment or early college counts here)</option>
+</select></div>
+<div class="tq-check"><input type="checkbox" id="cornell-transfer-eligibility-quiz-ba">
+<label for="cornell-transfer-eligibility-quiz-ba">I already hold a bachelor's degree</label></div>
+<div><label for="cornell-transfer-eligibility-quiz-credits">College credits earned after high school</label>
+<input type="number" id="cornell-transfer-eligibility-quiz-credits" min="0" max="300" step="1" value="30">
+<span class="tq-hint" data-as-of="2026-11-11">Count credits done by August 2027. AP, IB and other exam credit does not count toward the 12 you need.</span></div>
+<div><label for="cornell-transfer-eligibility-quiz-system">Your school's calendar</label>
+<select id="cornell-transfer-eligibility-quiz-system">
+<option value="semester" selected>Semesters</option>
+<option value="quarter">Quarters (credits x 2/3)</option>
+</select></div>
+<div class="tq-check"><input type="checkbox" id="cornell-transfer-eligibility-quiz-fulltime" checked>
+<label for="cornell-transfer-eligibility-quiz-fulltime">I am enrolled full-time at a college now</label></div>
+<div><label for="cornell-transfer-eligibility-quiz-semesters">College semesters finished by August 2027</label>
+<input type="number" id="cornell-transfer-eligibility-quiz-semesters" min="0" max="12" step="1" value="2">
+<span class="tq-hint" data-as-of="2026-11-11">Count the one you are in. On quarters, three quarters equal two semesters.</span></div>
+<div><label for="cornell-transfer-eligibility-quiz-school">Where you study now</label>
+<select id="cornell-transfer-eligibility-quiz-school">
+<option value="four" selected>A four-year college or university</option>
+<option value="two">A two-year or community college</option>
+</select></div>
+<div class="tq-check"><input type="checkbox" id="cornell-transfer-eligibility-quiz-assoc">
+<label for="cornell-transfer-eligibility-quiz-assoc">I will have an associate's degree by August 2027</label></div>
+<div><label for="cornell-transfer-eligibility-quiz-major">Cornell college and major you want</label>
+<select id="cornell-transfer-eligibility-quiz-major">
+<optgroup label="Arts and Sciences"><option value="as-cs">Computer Science (B.A.)</option><option value="as" selected>Another Arts and Sciences major</option></optgroup>
+<optgroup label="Agriculture and Life Sciences (CALS)"><option value="cals-bio">Biological Sciences</option><option value="cals-ag">Agricultural Sciences</option><option value="cals-gphs">Global and Public Health Sciences</option><option value="cals-gd">Global Development</option><option value="cals-aem">Applied Economics and Management</option><option value="cals">Another CALS major</option></optgroup>
+<optgroup label="SC Johnson College of Business"><option value="dyson">Dyson: Applied Economics and Management</option><option value="hotel">Hotel Administration (Nolan School)</option></optgroup>
+<optgroup label="Engineering (Duffield)"><option value="eng-cs">Computer Science (B.S.)</option><option value="eng-che">Chemical Engineering</option><option value="eng">Another engineering major</option><option value="eng-und">Undecided or the Independent Major</option></optgroup>
+<optgroup label="Human Ecology"><option value="he-health">A pre-med or health major</option><option value="he-design">A design major</option><option value="he">Another Human Ecology major</option></optgroup>
+<optgroup label="Other colleges"><option value="ilr">ILR (Industrial and Labor Relations)</option><option value="brooks">Brooks School of Public Policy</option><option value="aap-barch">AAP: Architecture (B.Arch.)</option><option value="aap-bfa">AAP: Fine Arts (B.F.A.)</option><option value="aap">AAP: another program</option></optgroup>
+</select></div>
+<div><label for="cornell-transfer-eligibility-quiz-gpa">Cumulative college GPA (4.0 scale)</label>
+<input type="number" id="cornell-transfer-eligibility-quiz-gpa" min="0" max="4.3" step="0.01" value="3.50"></div>
+<div><label for="cornell-transfer-eligibility-quiz-prereq">The college's required courses</label>
+<select id="cornell-transfer-eligibility-quiz-prereq">
+<option value="done" selected>All done, in progress or planned before I apply</option>
+<option value="missing">One or more missing</option>
+<option value="unsure">Not sure what they are</option>
+</select></div>
+<div><label for="cornell-transfer-eligibility-quiz-oncampus">Years you lived on campus at other colleges</label>
+<input type="number" id="cornell-transfer-eligibility-quiz-oncampus" min="0" max="6" step="1" value="1"></div>
+<div><label for="cornell-transfer-eligibility-quiz-citizen">Citizenship</label>
+<select id="cornell-transfer-eligibility-quiz-citizen">
+<option value="us" selected>US citizen or approved permanent resident</option>
+<option value="undoc">Undocumented, with or without DACA</option>
+<option value="intl">Another country, or permanent residency pending</option>
+</select></div>
+<div class="tq-check"><input type="checkbox" id="cornell-transfer-eligibility-quiz-to">
+<label for="cornell-transfer-eligibility-quiz-to">I hold a Cornell Transfer Option offer</label></div>
+<div class="tq-check"><input type="checkbox" id="cornell-transfer-eligibility-quiz-away">
+<label for="cornell-transfer-eligibility-quiz-away">I have been out of school two or more years</label></div>
+<div class="tq-check"><input type="checkbox" id="cornell-transfer-eligibility-quiz-vet">
+<label for="cornell-transfer-eligibility-quiz-vet">I am a veteran</label></div>
+</div>
+</form>
+<div class="tool-result" id="cornell-transfer-eligibility-quiz-result" aria-live="polite">
+<p>Your result appears here. The rule in short: you apply as a transfer with a high school diploma plus at least 12 semester hours of college credit or full-time enrollment, two to four semesters done, and no bachelor's degree. Every rule is listed on this page.</p>
+</div>
+<p class="tq-small" data-as-of="2026-11-11">Rules as of 2026-11-11, from Cornell admissions, college, registrar and housing pages for the fall 2027 cycle.</p>
+<script>
+(function () {
+  var root = document.getElementById('tool-cornell-transfer-eligibility-quiz');
+  if (!root) return;
+  var P = 'cornell-transfer-eligibility-quiz-', D = '2026-11-11';
+  var ADM = 'https://admissions.cornell.edu/apply/transfer-applicants', F330 = 'https://faq.enrollment.cornell.edu/kb/article/330-when-should-i-apply-to-cornell-as-a-transfer/';
+  var F325 = 'https://faq.enrollment.cornell.edu/kb/article/325-does-cornell-prefer-transfer-applicants-from-certain-colleges-or-types-of-colleges/';
+  var F323 = 'https://faq.enrollment.cornell.edu/kb/article/323-can-i-transfer-to-cornell-in-my-junior-year-from-another-college/';
+  var CALS = 'https://cals.cornell.edu/education/admissions/undergraduate-admissions/transfer-applicants', ENG = 'https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements';
+  var HOT = 'https://business.cornell.edu/admissions/undergraduate/bs-hotel-administration/application-requirements/', HE = 'https://www.human.cornell.edu/admissions/transfer';
+  var ILR = 'https://www.ilr.cornell.edu/sites/default/files-d8/2026-02/transfer-guidelines-fa-26-final.pdf', BRK = 'https://publicpolicy.cornell.edu/undergraduate/apply/transfer-applicants/external-transfers/';
+  var AAP = 'https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/', AS = 'https://as.cornell.edu/admissions/admissions-requirements-and-process';
+  var REG = 'https://registrar.cornell.edu/students/credit-evaluation-services', HOUS = 'https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates';
+  var POL = 'https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy', INTL = 'https://finaid.cornell.edu/first-year-and-transfer-students-international';
+  var CDS = 'https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf';
+  var NUMBERS = {
+    minCredits: {value: 12, asOf: D, source: ADM},
+    minSem: {value: 2, asOf: D, source: F330},
+    maxSem: {value: 4, asOf: D, source: F330},
+    deadline1: {value: 'March 15, 2027', asOf: D, source: ADM},
+    deadline2: {value: 'April 15, 2027', asOf: D, source: ADM},
+    fee: {value: 85, asOf: D, source: ADM},
+    outOfSchoolYears: {value: 2, asOf: D, source: ADM},
+    tfrGpa: {value: 3.3, asOf: D, source: F325},
+    calsMin: {value: 3.0, asOf: D, source: CALS},
+    calsBioMin: {value: 3.5, asOf: D, source: CALS},
+    calsMaxSem: {value: 4, asOf: D, source: CALS},
+    hotelTypical: {value: 3.3, asOf: D, source: HOT},
+    heComp: {value: 3.5, asOf: D, source: HE},
+    ilrTypical: {value: 3.4, asOf: D, source: ILR},
+    brooksComp: {value: 3.5, asOf: D, source: BRK},
+    aapMin: {value: 2.7, asOf: D, source: AAP},
+    toGpa: {value: 3.5, asOf: D, source: AS},
+    toLowest: {value: 'B-', asOf: D, source: AS},
+    tc3Gpa: {value: 3.0, asOf: D, source: 'https://cals.cornell.edu/news/2025/08/cornell-cals-and-tc3-establish-transfer-pathway-for-agriculture-students'},
+    capStd: {value: 60, asOf: D, source: REG},
+    capArch: {value: 64, asOf: D, source: REG},
+    capEng: {value: 66, asOf: D, source: ENG},
+    engPerYear: {value: 33, asOf: D, source: ENG},
+    courseAge: {value: 7, asOf: D, source: REG},
+    housingYears: {value: 1, asOf: D, source: HOUS},
+    exemptYears: {value: 2, asOf: D, source: POL},
+    withholding: {value: 14, asOf: D, source: INTL},
+    applicants: {value: 7381, asOf: '2025-10-15', source: CDS},
+    admits: {value: 864, asOf: '2025-10-15', source: CDS},
+    preEng: {value: 'MATH 1910 and MATH 1920, PHYS 1112 with PHYS 1110, and CHEM 2090 with the CHEM 2091 lab (or equivalents), completed, in progress or planned.', asOf: D, source: ENG},
+    preCals: {value: 'Courses vary by major: commonly English composition or a writing-intensive course and biology or chemistry with lab, plus the major’s foundation courses, done or in progress. Letter grades, C or better, no pass/fail.', asOf: D, source: CALS},
+    preBio: {value: 'Biological Sciences: one year of introductory biology with labs, General Chemistry I and II with labs, and Calculus I plus Calculus II or Statistics; AP or IB biology is not accepted.', asOf: D, source: 'https://cals.cornell.edu/biological-sciences/admission-biological-sciences-major'},
+    preHotel: {value: '3 units of foreign language, 1 unit of chemistry and 1 unit of precalculus (high school or college), one college microeconomics course and one college writing course that meets Knight Institute requirements.', asOf: D, source: HOT},
+    preHe: {value: '23 credits: biology, inorganic chemistry or physics with labs (8), English composition or writing-intensive (6), statistics (3), precalculus or calculus (3), introductory psychology (3); varies by major. Letter grades, no pass/fail.', asOf: D, source: HE},
+    preHeJr: {value: 'Juniors add microeconomics, a design studio, and organic chemistry for pre-health.', asOf: D, source: HE},
+    preHeHealth: {value: 'Pre-med and health majors need two semesters of inorganic chemistry with labs.', asOf: D, source: HE},
+    preIlr: {value: 'One composition or writing course, one introductory economics course, math up to statistics or calculus, and one science-and-technology (or language) course.', asOf: D, source: ILR},
+    preIlrJr: {value: 'Two composition courses, both micro and macroeconomics, math, one science-and-technology course and at least 2 ILR elective credits.', asOf: D, source: ILR},
+    preBrooks: {value: 'Letter-graded: English composition or writing-intensive, 6 credits (2 courses); introductory microeconomics, 3; statistics and/or calculus, 3; introductory sociology, 3.', asOf: D, source: BRK},
+    preAs: {value: 'Junior applicants need the intended major’s prerequisite courses; check the department’s site.', asOf: D, source: AS},
+    preAap: {value: 'A personal statement, at least one recommendation, and for the B.F.A. a portfolio via SlideRoom, due with the application on March 15.', asOf: D, source: AAP}
+  };
+  function v(k) { return NUMBERS[k].value; }
+  function $(id) { return root.querySelector('#' + P + id); }
+  function num(id, lo, hi, d) { var x = parseFloat($(id).value); if (isNaN(x)) x = d; return Math.min(hi, Math.max(lo, x)); }
+  function g(x) { return (Math.round(x * 100) % 10) ? x.toFixed(2) : x.toFixed(1); }
+  function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+  function li(t) { return '<li data-as-of="' + D + '">' + t + '</li>'; }
+  var NAMES = {as: 'Arts and Sciences', cals: 'CALS', dyson: 'Dyson', eng: 'Engineering', hotel: 'the Hotel School', he: 'Human Ecology', ilr: 'ILR', brooks: 'Brooks', aap: 'AAP'};
+  var GPA = {as: ['typ', 'tfrGpa', 'Cornell-wide, admitted transfers are "generally" ' + g(v('tfrGpa')) + ' or better'],
+    dyson: ['typ', 'tfrGpa', 'Cornell-wide, admitted transfers are "generally" ' + g(v('tfrGpa')) + ' or better'],
+    eng: ['typ', 'tfrGpa', 'Engineering states no minimum; Cornell-wide, admitted transfers are "generally" ' + g(v('tfrGpa')) + ' or better'],
+    hotel: ['typ', 'hotelTypical', 'The Hotel School states no minimum; its admitted transfers are generally ' + g(v('hotelTypical')) + ' or better'],
+    ilr: ['typ', 'ilrTypical', 'Most admitted ILR transfers have at least ' + g(v('ilrTypical')) + ' (typical, not a minimum)'],
+    he: ['comp', 'heComp', 'Human Ecology calls ' + g(v('heComp')) + ' or higher, mostly As and Bs, competitive'],
+    brooks: ['comp', 'brooksComp', 'Brooks has no minimum; ' + g(v('brooksComp')) + ' or higher with As and B+s in the prep courses "increases competitiveness"'],
+    aap: ['min', 'aapMin', 'AAP requires good standing and at least ' + g(v('aapMin'))]};
+
+  function compute() {
+    var spring = $('start').value === 'spring', hs = $('hs').value === 'yes', ba = $('ba').checked;
+    var cr = num('credits', 0, 300, 30), quarter = $('system').value === 'quarter', ft = $('fulltime').checked;
+    var sem = Math.round(num('semesters', 0, 12, 2)), two = $('school').value === 'two', assoc = $('assoc').checked;
+    var mj = $('major').value, col = mj.split('-')[0], gpa = $('gpa').value === '' ? null : num('gpa', 0, 4.3, 3.5);
+    var pre = $('prereq').value, onc = Math.round(num('oncampus', 0, 6, 0)), cit = $('citizen').value;
+    var to = $('to').checked, away = $('away').checked, vet = $('vet').checked;
+    var sc = quarter ? Math.round(cr * 2 / 3 * 10) / 10 : cr;
+    var type, head, rows = [], notes = [], block = [];
+    var junior = sem >= 4 || (col === 'cals' && assoc);
+
+    if (ba) { type = 'none'; head = 'Not eligible. Cornell does not admit students who already hold a bachelor’s degree, as transfers or for a second bachelor’s.'; }
+    else if (hs) { type = 'first'; head = 'You apply as a first-year, not a transfer. Students who have not graduated from high school apply as first-years, whatever their college credits.'; }
+    else if (sc < v('minCredits') && !ft) { type = 'first'; head = 'You apply as a first-year. With fewer than ' + v('minCredits') + ' semester hours of college credit after high school and no full-time enrollment, you do not meet the transfer definition.'; }
+    else if (sem < v('minSem')) { type = 'notyet'; head = 'Not yet for fall 2027. Cornell accepts transfers who have finished ' + v('minSem') + ' to ' + v('maxSem') + ' semesters elsewhere; students in their first college semester cannot apply.'; }
+    else { type = 'transfer'; head = sem > v('maxSem') ? 'You can apply as a transfer, but with ' + sem + ' semesters done you are past the ' + v('minSem') + ' to ' + v('maxSem') + ' Cornell says it accepts, and some colleges are closed to you.' : 'Yes. You can apply to Cornell as a transfer for fall 2027.'; }
+    if (spring) notes.push('Cornell takes external transfers for the fall only. There is no spring application now; plan on August entry and the ' + v('deadline1') + ' deadline.');
+
+    if (type === 'transfer') {
+      var st = sem === 2 ? 'sophomore (first semester)' : sem === 3 ? 'sophomore (second semester)' : 'junior';
+      if (col === 'cals' && assoc && sem < 4) st = 'junior (CALS gives junior standing for an associate’s degree)';
+      rows.push(['Likely standing', 'Entering as a ' + st + '. The college sets your standing after the offer.' + (col === 'cals' && junior ? ' In CALS a junior-eligible student cannot choose sophomore entry.' : '')]);
+      var c = [];
+      if (col === 'cals') {
+        if (!two && sem > v('calsMaxSem')) block.push('CALS does not take students with more than ' + v('calsMaxSem') + ' semesters at a four-year school.');
+        if (mj === 'cals-gphs') block.push('Global and Public Health Sciences takes no transfers.');
+        if (mj === 'cals-gd' && junior) block.push('Global Development takes sophomore transfers only.');
+        if (mj === 'cals-aem') block.push('Applied Economics and Management is not a CALS transfer route: apply through Dyson. Transfers into CALS cannot later change to or add AEM.');
+        if (mj === 'cals-ag' && two) c.push('TC3’s Sustainable Farming and Food Systems A.A.S. graduates with a ' + g(v('tc3Gpa')) + ' GPA and B or better in all transfer courses get "priority consideration" for Agricultural Sciences, not a guarantee.');
+        c.push('Admitted transfers cannot change major before arriving.');
+      }
+      if (col === 'eng') {
+        if (mj === 'eng-und') block.push('Engineering admits you directly into one major; you cannot apply undecided or to the Independent Major.');
+        if (sem > 4) block.push('Engineering enrolls transfers as sophomores (first or second semester) or first-semester juniors; with ' + sem + ' semesters done you are past that range.');
+        if (pre === 'missing') block.push('Missing any of the required math, physics and chemistry courses means Engineering does not review the application.');
+        c.push('You must stay in the major you are admitted to for at least one academic year.');
+        if (mj === 'eng-che' && two) c.push('Chemical Engineering says to apply as a sophomore if possible: some sophomore courses are not offered at most two-year colleges.');
+        if (mj === 'eng-cs') c.push('The Computer Science course list adds CS 1110 or CS 1112. CS is also open as a B.A. through Arts and Sciences.');
+      }
+      if (col === 'hotel') {
+        if (sc < v('minCredits')) block.push('The Hotel School needs at least ' + v('minCredits') + ' credits.');
+        if (sem > 4) block.push('The Hotel School takes first-years, sophomores and rising juniors at their current school; current juniors and seniors are not eligible.');
+      }
+      if (mj === 'aap-barch') block.push('AAP is not accepting external transfer applications for the fall 2027 B.Arch.');
+      if (col === 'as') {
+        if (sem < 4) c.push('Students with fewer than two years elsewhere are not admitted directly to a major.');
+        if (mj === 'as-cs') c.push('CS is also open as a B.S. through Engineering, which has its own required courses.');
+      }
+      if (mj === 'he-design') c.push('Design majors add a design supplement, and some a Design Challenge via SlideRoom.');
+      if (gpa !== null && GPA[col] || (gpa !== null && col === 'cals')) {
+        var spec = col === 'cals' ? ['min', mj === 'cals-bio' ? 'calsBioMin' : 'calsMin', 'CALS requires at least ' + g(v('calsMin')) + ' overall, ' + g(v('calsBioMin')) + ' for Biological Sciences'] : GPA[col];
+        var lim = v(spec[1]), below = gpa < lim;
+        if (spec[0] === 'min' && below) block.push('Your ' + g(gpa) + ' is under ' + NAMES[col] + '’s ' + g(lim) + ' minimum.');
+        rows.push(['Your GPA', spec[2] + '. Yours, ' + g(gpa) + ', is ' + (below ? 'below' : 'at or above') + ' that figure.' + (below && spec[0] !== 'min' ? ' It is not a cutoff; your courses, essay and recommendation have to carry more.' : '')]);
+      }
+      rows.push([NAMES[col][0].toUpperCase() + NAMES[col].slice(1), block.length ? '<strong>Closed to you as things stand.</strong> ' + block.join(' ') + (c.length ? ' ' + c.join(' ') : '') : 'Open to you. ' + c.join(' ')]);
+      var p = col === 'eng' ? v('preEng') + ' Missing any one means the application is not reviewed.' : col === 'cals' ? v('preCals') + (mj === 'cals-bio' ? ' ' + v('preBio') : '') : col === 'hotel' ? v('preHotel') :
+        col === 'he' ? (junior ? v('preHe') + ' ' + v('preHeJr') : v('preHe')) + (mj === 'he-health' ? ' ' + v('preHeHealth') : '') : col === 'ilr' ? (junior ? v('preIlrJr') : v('preIlr')) :
+        col === 'brooks' ? v('preBrooks') : col === 'aap' ? v('preAap') : col === 'as' ? v('preAs') : 'Check Dyson’s admissions page for its course list.';
+      if (pre !== 'done' && col !== 'eng') p += ' Engineering’s block, Human Ecology’s 23 sophomore credits, Brooks’s 15, ILR’s lists and the Hotel School’s microeconomics and writing course decide whether you are reviewed at all.';
+      rows.push(['Courses to have done or in progress', p]);
+      var cap = col === 'eng' ? Math.min(v('capEng'), v('engPerYear') * sem / 2) : mj === 'aap-barch' ? v('capArch') : v('capStd');
+      rows.push(['Credits', 'Up to ' + cap + ' transfer credits count in ' + NAMES[col] + (col === 'eng' ? ' (' + v('engPerYear') + ' per full-time year, ' + v('capEng') + ' in all)' : '') + ', exam credit included. You have about ' + sc + (quarter ? ' semester credits after the 2/3 conversion' : '') + (sc > cap ? ', so about ' + Math.round((sc - cap) * 10) / 10 + ' would not count.' : ', under the cap; each course still needs a C or better and a close Cornell match.')]);
+      if (!two && sem >= 5) notes.push('Cornell discourages transferring during or after your junior year at a four-year school: with the roughly ' + v('capStd') + '-credit cap, many credits are lost.');
+      if (two) notes.push('About a quarter of Cornell transfers come from community colleges, by Cornell’s account, and it has no preference by school type. Credit cannot be denied because a course was taken at a community college or online.');
+    }
+
+    if (type === 'first') rows.push(['Housing rule', 'First-year rule: full-time first- and second-year students live on campus through the spring of their second academic year.']);
+    if (type === 'transfer') rows.push(['Housing rule', onc >= v('exemptYears') ? 'Does not apply: you lived on campus ' + v('exemptYears') + ' years elsewhere. Request the exemption in the housing application.' :
+      junior ? 'Does not apply if Cornell admits you as a junior. Plan on a private lease, signed after an April to June decision.' :
+      'Applies: new transfers live on campus for ' + v('housingYears') + ' academic year, in upper-level housing (South Campus, the West Campus House System, Program Houses or co-ops). Exemption: ' + v('exemptYears') + ' years on campus elsewhere or entry as a junior.']);
+
+    if (type === 'transfer' || type === 'notyet') {
+      if (cit === 'intl') rows.push(['Citizenship', 'International applicant. Admission is need-aware. File the CSS Profile by ' + v('deadline1') + ' or you can never receive Cornell aid as an undergraduate. Aid above tuition and fees is taxable, with ' + v('withholding') + '% withheld unless a treaty applies.']);
+      else rows.push(['Citizenship', cit === 'undoc' ? 'Undocumented students, with or without DACA, are treated as domestic applicants for admissions and aid.' : 'Domestic applicant. US aid forms (CSS Profile and FAFSA) are due ' + v('deadline1') + '.']);
+    }
+    if (type === 'transfer') {
+      rows.push(['Deadlines', to ? 'Use the Transfer Option application with your earlier portal login; there is no fee. The fall 2026 deadline was March 15; the Mid-Term Report may follow.' :
+        'Transfer Common App, the $' + v('fee') + ' fee or a waiver, and any portfolio by ' + v('deadline1') + '; the College Report, Academic Evaluation, Mid-Term Report and transcripts by ' + v('deadline2') + '.']);
+      if (to) notes.push('The Transfer Option is an invitation to apply for sophomore transfer after one full-time year elsewhere, not an offer of admission. Arts and Sciences asks for a ' + g(v('toGpa')) + ' GPA every semester and no grade below ' + v('toLowest') + '; each other college sets its own conditions.' + (sem !== 2 ? ' You entered ' + sem + ' semesters; the offer is for sophomore entry after one year.' : ''));
+      if (away) notes.push('Out of school ' + v('outOfSchoolYears') + ' or more years: a personal or employer recommendation may replace the Academic Evaluation. Courses ' + v('courseAge') + ' or more years old are generally not eligible for credit.');
+      if (vet) notes.push('Cornell has a Veterans Admissions Team. The 2025-26 Common Data Set lists no credit for ACE military training or CLEP. Veterans House is a Program House you can choose by name.');
+    }
+
+    var html = '<p class="tq-pick">' + esc(head) + '</p>';
+    if (rows.length) html += '<ul>' + rows.map(function (r) { return li('<strong>' + esc(r[0]) + ':</strong> ' + r[1]); }).join('') + '</ul>';
+    if (notes.length) html += '<p><strong>Also know</strong></p><ul>' + notes.map(function (n) { return li(esc(n)); }).join('') + '</ul>';
+    if (type === 'transfer') html += '<p class="tq-small" data-as-of="2025-10-15">For scale: ' + v('admits').toLocaleString('en-US') + ' of ' + v('applicants').toLocaleString('en-US') + ' transfer applicants were admitted for fall 2025 (' + (Math.round(v('admits') / v('applicants') * 1000) / 10) + '%).</p>';
+    html += '<p class="tq-small" data-as-of="' + D + '">Rules as of 2026-11-11 for fall 2027 entry; the admit count is the fall 2025 Common Data Set.</p>';
+    html += '<p class="tq-small">Estimated: standing, the credit count and the housing exemption follow Cornell’s stated rules; the college decides each after admission, and credit is evaluated course by course.</p>';
+    $('result').innerHTML = html;
+  }
+  var inputs = root.querySelectorAll('input, select');
+  for (var i = 0; i < inputs.length; i++) { inputs[i].addEventListener('input', compute); inputs[i].addEventListener('change', compute); }
+  compute();
+})();
+</script>
+</div>

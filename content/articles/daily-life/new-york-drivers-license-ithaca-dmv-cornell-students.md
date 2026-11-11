@@ -81,7 +81,7 @@ A driver's license is not the only accepted ID. Alternatives Federal Credit Unio
 
 ## Should you bring a car?
 
-If you do, register its plate with Cornell Transportation Services through MyParking.Cornell.edu, including for short-term parking ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus)). The [car guide](/cornell/getting-around/having-a-car-at-cornell-student-guide/) and the [cost guide](/tools/should-i-bring-a-car-cornell-ithaca-cost/) help you decide, and the [parking permit guide](/cornell/getting-around/cornell-student-parking-permit-cost-rules/) covers lots and rates.
+If you do, register its plate with Cornell Transportation Services through MyParking.Cornell.edu, including for short-term parking ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus)). The [car guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) and the [cost guide](/tools/should-i-bring-a-car-cornell-ithaca-cost/) help you decide, and the [parking permit guide](/cornell/getting-around/cornell-student-parking-permit-cost-rules/) covers lots and rates.
 
 ```reader "If you're an international student"
 Keep your home license. Ask the DMV directly before you register a car in New York while you hold a foreign license.
@@ -91,4 +91,4 @@ Keep your home license. Ask the DMV directly before you register a car in New Yo
 
 Check dmv.ny.gov for your situation, then decide about a car with the cost guide.
 
-Related guides: [Having a car at Cornell](/cornell/getting-around/having-a-car-at-cornell-student-guide/), [Should I bring a car?](/tools/should-i-bring-a-car-cornell-ithaca-cost/), [Ithaca Carshare](/cornell/getting-around/ithaca-carshare-cornell-students-cost/).
+Related guides: [Having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/), [Should I bring a car?](/tools/should-i-bring-a-car-cornell-ithaca-cost/), [Ithaca Carshare](/cornell/getting-around/ithaca-carshare-cornell-students-cost/).

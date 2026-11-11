@@ -1,13 +1,13 @@
 ---
-title: How to get into a Cornell co-op or Greek house
+title: 'Cornell co-op or Greek house instead of a dorm: how to join'
 mode: answer
 dek: Co-ops choose members in house-run rounds each November and February; chapter houses take members only, and both count as second-year housing.
-meta: 'How to get into a Cornell co-op or Greek house: the November and February co-op rounds, chapter membership rules, 2026-27 costs and the March 15 deadline.'
-primary_query: how to get into a cornell co-op or greek house
+meta: 'Cornell co-op or Greek house instead of a dorm: how a sophomore gets in, from the November and February co-op rounds to the March 15 deadline.'
+primary_query: co-op or frat house instead of a dorm
 topic: housing
 school: cornell-university
 type: comparison
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 132
 rewrites: content/articles/housing/cornell-co-ops-greek-houses-cost-how-to-join.md
 queue_id: q-housing-0041
@@ -83,6 +83,15 @@ sources:
 - url: https://www.cornellsun.com/article/2026/10/breaking-cornell-suspends-all-fraternity-parties-social-events-for-2026-27-school-year
   title: The Cornell Daily Sun, Oct. 13, 2026
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-avenue-cooperative
+  title: Wait Avenue Cooperative, Cornell Student & Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-terrace
+  title: Wait Terrace, Cornell Student & Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wari-cooperative
+  title: Wari Cooperative, Cornell Student & Campus Life
+  accessed: '2026-11-10'
 images:
 - file: 1.webp
   alt: A large Tudor Revival house with a steep slate roof and half-timbered gables on Triphammer Road in Ithaca
@@ -104,7 +113,7 @@ kind: spoke
 - A co-op double costs $6,974 a year against $13,744 for a hall double; chapter rents vary by house.
 ```
 
-Co-ops pick members through a house-by-house selection called the mosey, with house events and then a lottery. A chapter house takes members only, and you must belong when you apply. A chapter house counts as second-year housing if you confirm the plan on your Cornell housing application by March 15 ([Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
+Sophomores can meet the residential requirement in a co-op or a recognized chapter house: win a mosey room in November or February, or belong to the chapter, then confirm it on the housing application by March 15 ([Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
 
 ## Who can live in a co-op or chapter house?
 
@@ -114,7 +123,7 @@ Cornell's two-year residential requirement covers full-time, Ithaca-based first-
 
 ## How do you get into a Cornell co-op?
 
-Cornell owns eight co-ops: Prospect of Whitby, 660 Stewart, 302 Wait Avenue, Triphammer Cooperative, Von Cramm, Wait Terrace, Wari Cooperative and Watermargin. Each holds 10 to 35 members and runs its own selection ([Cooperative Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). The questions go to co-ops@cornell.edu or 607-255-3445.
+Cornell owns eight co-ops: [Prospect of Whitby](/cornell/housing/prospect-of-whitby-cooperative-cornell/), [660 Stewart](/cornell/housing/660-stewart-avenue-cooperative-cornell/), [302 Wait Avenue](/cornell/housing/302-wait-avenue-cooperative-cornell/), [Triphammer Cooperative](/cornell/housing/triphammer-cooperative-cornell/), [Redbud (Von Cramm Hall)](/cornell/housing/redbud-cooperative-von-cramm-hall-cornell/), Wait Terrace, [Wari Cooperative](/cornell/housing/wari-cooperative-cornell/) and [Watermargin](/cornell/housing/watermargin-cooperative-cornell/). Each holds 10 to 35 members and runs its own selection ([Cooperative Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). The questions go to co-ops@cornell.edu or 607-255-3445. Our [guide to all eight co-ops](/cornell/housing/cornell-co-ops-all-eight-compared/) compares their size, rooms, rates and meal plans.
 
 ```figure
 kind: steps
@@ -134,7 +143,7 @@ Triphammer asks applicants to attend two events and one cook group before the lo
 A co-op room comes with a license, which is Cornell's permission to live in the room, not a lease. For 2026-27 it requires full-time registration of at least 12 credit hours and carries no security or key deposit ([Co-op terms](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions)).
 
 ```reader "If you're a graduate student"
-Five houses list graduate and professional students as eligible: [Wait Avenue Cooperative](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-avenue-cooperative) (women only), [Wait Terrace](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-terrace), [Triphammer](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative), [Watermargin](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/watermargin) and [Redbud in Von Cramm](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall). The [Wari Cooperative](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wari-cooperative) page does not.
+Five houses list graduate and professional students as eligible: [Wait Avenue Cooperative](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-avenue-cooperative) (women only), [Wait Terrace](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-terrace), [Triphammer](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative), [Watermargin](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/watermargin) and [Redbud (Von Cramm Hall)](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall). The [Wari Cooperative](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wari-cooperative) page does not.
 ```
 
 ## How do you get into a fraternity or sorority house as a sophomore?
@@ -155,36 +164,10 @@ A Collegetown lease for sophomore year does not end your Cornell bill if you are
 
 ## What does each option cost?
 
-A co-op double is the cheapest approved bed Cornell owns. A chapter house costs about what a hall room plus a meal plan does, with a wide spread from house to house.
-
-| Option, 2026-27 | Per semester | Per academic year |
-|---|---|---|
-| Co-op double, Red Bud in Von Cramm | $3,487 | $6,974 |
-| Co-op double, Triphammer or Watermargin | $4,317 | $8,634 |
-| Co-op double, 660 Stewart or Wari | $4,981 | $9,962 |
-| Residence hall double | $6,872 | $13,744 |
-| Chapter live-in charge, median of 13 chapters, spring 2026 | $7,400 | Not published |
-
-Co-op rates come from [Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates); yearly figures are two semesters. Chapter data come from the [Organization Scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard).
-
-A co-op double saves $3,782 to $6,770 a year against the hall double. The hall rate includes gas, electricity, garbage and internet, but hall residents must also buy a meal plan, and Bear Traditional is $3,528 per semester ([Undergraduate Meal Plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). Four co-ops run a house meal plan: Whitby, Triphammer, Watermargin and 660 Stewart. Ask each house what its plan costs before you budget. For the full ranking of low-cost options, see the [cheapest housing guide](/cornell/housing/cheapest-off-campus-housing-cornell/).
-
-Chapters publish their own rates. Cornell's scorecard lists each chapter's self-reported live-in housing and dining charge for one spring semester. Among the 34 chapters that list rates, nonzero live-in charges run from $2,000 at Delta Kappa Epsilon (spring 2026) to $14,673 at Alpha Xi Delta (spring 2025). Beta Theta Pi lists $0. Live-out fees run from $0 to $4,600 at Sigma Chi. The median live-out fee is $1,152 for 23 fraternities and $602 for 11 sororities ([Organization Scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard)).
-
-Set a median of $7,400 against a hall double plus Bear Traditional, which is $6,872 plus $3,528, or $10,400 per semester. Only Alpha Xi Delta and Sigma Pi exceed a hall double plus a meal plan. Rent pays for housekeeping, utilities, internet, repairs and building insurance, but not your belongings ([Financial Obligations](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities)). The full comparison with the dorm is in the [off-campus vs dorm guide](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/).
-
-```figure
-kind: cost_table
-title: Yearly cost of a double, 2026-27
-rows:
-  - {label: "Co-op double, Red Bud in Von Cramm", value: "$6,974"}
-  - {label: "Co-op double, Triphammer or Watermargin", value: "$8,634"}
-  - {label: "Co-op double, 660 Stewart or Wari", value: "$9,962"}
-  - {label: "Residence hall double", value: "$13,744"}
-```
+Co-op rates vary by house and by room on [Cornell's rate table](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates). Our [co-op vs dorm comparison](/cornell/housing/cornell-co-op-vs-dorm-cost-lifestyle/) sets them against a hall room and a meal plan. Each chapter sets its own rent, and the [fraternity and sorority housing guide](/cornell/housing/cornell-fraternity-sorority-housing-2026-27/) lists the live-in charge and parlor fee that each chapter reports to Cornell.
 
 ```reader "If you're on a tight budget"
-The Red Bud triple is the lowest-priced bed on Cornell's rate table at $2,765 per semester, or $5,530 a year, which is $7,114 below the $12,644 hall triple. Co-ops are the better bet than a chapter house, because the rent is fixed and posted, and there are no dues on top of it.
+The triple at Redbud (Von Cramm Hall) is the lowest-priced bed on Cornell's rate table at $2,765 per semester, or $5,530 a year, which is $7,114 below the $12,644 hall triple. Co-ops are the better bet than a chapter house, because the rent is fixed and posted, and there are no dues on top of it.
 ```
 
 <!-- ad-break -->

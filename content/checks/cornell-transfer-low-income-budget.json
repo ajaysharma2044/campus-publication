@@ -1,0 +1,150 @@
+{
+ "slug": "cornell-transfer-low-income-budget",
+ "queue_id": "q-transfer-0027",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Up to $75,000 family income: aid covers full cost of attendance; up to $125,000 with typical assets: grants cover tuition; nearly 50% of undergraduates get grants",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "Same values and year (2026-27) as the brief's income-threshold rows."
+  },
+  {
+   "claim": "Meets 100% of demonstrated need; US admission need-blind; undocumented/DACA treated as domestic; no merit aid",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Matches the brief's transfer-applicants rows."
+  },
+  {
+   "claim": "$85 application fee, waiver automatic when a burden and applying for aid",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief rows for fee and waiver."
+  },
+  {
+   "claim": "March 15, 2027 deadline for application, CSS, FAFSA, HESC; April 15 for other materials; FAFSA opened Oct 1, 2026",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief deadline rows and calendar."
+  },
+  {
+   "claim": "CSS Profile code 2098; FAFSA 002711; HESC 0174 contract / 0175 endowed; CSS fee waived up to $100,000 AGI",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Matches brief codes and waiver rows."
+  },
+  {
+   "claim": "Tuition $73,946 endowed and $49,816 NY contract (CALS, Human Ecology, ILR, Brooks, Dyson)",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "Brief rows; the brief's own check shows 48,010 x 1.0376 = 49,816."
+  },
+  {
+   "claim": "Billed $96,318 / $72,188 with hall double and Unlimited plan; cost of attendance $99,734 / $75,604",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "Recomputed: 73,946+1,024+13,744+7,604 = 96,318; minus 24,130 = 72,188; plus 3,416 books and personal = 99,734 and 75,604."
+  },
+  {
+   "claim": "Example: $99,734 minus $73,946 tuition leaves $25,788",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "Recomputed 99,734 - 73,946 = 25,788."
+  },
+  {
+   "claim": "Room rates: Redbud triple $5,530, double $6,974; Triphammer/Watermargin double $8,634; 660 Stewart/Wari double $9,962; hall triple $12,644, double $13,744, single $15,566",
+   "source_url": "brief §3.6, §10.3",
+   "status": "ok",
+   "note": "Each is two times the brief's per-semester rate (3,487, 4,317, 4,981, 6,322, 6,872, 7,783, 2,765)."
+  },
+  {
+   "claim": "Co-op saves $3,782 to $6,770 against a hall double",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "Recomputed 13,744-9,962 = 3,782 and 13,744-6,974 = 6,770."
+  },
+  {
+   "claim": "Eight cooperative houses",
+   "source_url": "brief §3.6, §10.3",
+   "status": "ok",
+   "note": "The brief's co-op rate list has eight houses: Redbud, Triphammer, Watermargin, Prospect of Whitby, 302 and 308 Wait, 660 Stewart, Wari."
+  },
+  {
+   "claim": "One-year on-campus requirement; exemption for two years on campus or junior/senior entry; license cannot be cancelled; random auto-allocation; apply within ten days of NetID; HRL 607-255-5368; no application fee or damage deposit; utilities incl. 200 GB internet",
+   "source_url": "brief §3.6",
+   "status": "ok",
+   "note": "Brief housing rows."
+  },
+  {
+   "claim": "Unlimited plan $3,802 per semester / $7,604 per year, $400 BRB, 'fully covered by financial aid for eligible students'; House plan same price; Collegetown plan $7,056; $50 administrative fee",
+   "source_url": "brief §2.11",
+   "status": "ok",
+   "note": "Brief meal plan rows."
+  },
+  {
+   "claim": "Health plan $1,705 fall + $2,046 spring = $3,751; outside cost of attendance; $600 Cornell Health fee separate; waiver deadline July 31, 2026",
+   "source_url": "brief §2.17, §10.7",
+   "status": "ok",
+   "note": "Recomputed 1,705 + 2,046 = 3,751. Waiver date confirmed in the brief change log (page opened)."
+  },
+  {
+   "claim": "HEOP: certification form for AAP, A&S, Engineering, SC Johnson/Nolan; email stateprograms@cornell.edu for CALS, Human Ecology, ILR, Brooks, Dyson; OADI 607.255.3841, 8 to 4:30; fall 2027 uses 2025 tax documents",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief EOP/HEOP rows and OADI office row."
+  },
+  {
+   "claim": "Billing: Cashnet e-bills, parents only by invitation; fall tuition early July, spring January; Installment Plan, Tuition Refund Plan, CornellCard; I-9 for student workers; grants beyond tuition and fees taxable on 1098-T",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief billing, aid and tax rows."
+  },
+  {
+   "claim": "Aid Estimate soon after admission; offer tentatively early April; 2027-28 prices confirmed before early April offers",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief aid notification and price rows."
+  },
+  {
+   "claim": "About a quarter of transfers from community colleges; no preference by school type",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief FAQ 325 row."
+  },
+  {
+   "claim": "Fall 2021: 32.7% got Cornell need-based grants averaging $44,712; 38.9% applied",
+   "source_url": "brief §3.3",
+   "status": "ok",
+   "note": "IRP row; the brief notes the printed 32.7% is rounding against its own 32.6% recompute, and the page uses the source's figure."
+  },
+  {
+   "claim": "2021 Sun: May 3 commitment, 2+ hours on phone, offer mostly loans, vice provost cited volume and the pandemic",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Attribution matches the brief's Sun 2021 summary; the page keeps 'one student' singular."
+  },
+  {
+   "claim": "2017 Sun: working group listed need-aware transfer admission among contingency options; a transfer called it a 'terrible policy'",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief Sun 2017 row."
+  },
+  {
+   "claim": "Cornell College (Iowa) $33,000 transfer scholarship and FAFSA code 001856",
+   "source_url": "brief §1, §8",
+   "status": "ok",
+   "note": "Brief names this wrong-school hazard with both figures."
+  },
+  {
+   "claim": "2024 Chronicle: community college students assumed Cornell was too expensive",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "Brief row, attributed to the Chronicle story."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "5088982ba84266d7b7d6d95ca4ace8cc5580d0d84301a60f2d98584ecb94f7cf"
+}

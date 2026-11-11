@@ -7,7 +7,7 @@ primary_query: what to include in a sublet agreement New York
 topic: housing
 school: cornell-university
 type: checklist
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 223
 rewrites: ''
 readers:
@@ -57,6 +57,8 @@ images: []
 ```
 
 A sublet agreement should name both people, give the exact start and end dates, state the rent and how it is paid, set the deposit and its return date, and say who pays utilities. In a building with four or more units you must also send a [copy of the proposed sublease](https://www.nysenate.gov/legislation/laws/RPP/226-B) to the landlord.
+
+The [full guide to subletting in Ithaca](/cornell/housing/subletting-in-ithaca-guide-cornell-students/) covers the steps around the agreement, from landlord consent to the handover.
 
 ## Why does a sublet need a written agreement?
 

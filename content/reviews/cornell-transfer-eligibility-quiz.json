@@ -1,0 +1,133 @@
+{
+ "slug": "cornell-transfer-eligibility-quiz",
+ "queue_id": "q-transfer-0028",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Transfer definition: diploma plus 12 semester hours after high school (exam credit excluded) or full-time enrollment; dual-enrollment HS students apply as first-years",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "brief §2 and confirmed on the live admissions page 2026-11-11"
+  },
+  {
+   "claim": "Fee $85; March 15, 2027 deadline (application, fee or waiver, portfolio); April 15, 2027 (rest); fall only",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "brief §2; live page confirms $85, March 15 and April 15, fall only. Page adds the 2027 year, which the brief derives from the open cycle"
+  },
+  {
+   "claim": "2 to 4 semesters elsewhere; first-semester students not eligible",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief table row for FAQ 330"
+  },
+  {
+   "claim": "Cornell-wide admitted GPA generally 3.3 or better; about a quarter from community colleges",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief FAQ 325 rows"
+  },
+  {
+   "claim": "CALS minimum 3.0, Biological Sciences 3.5; CALS bars more than 4 semesters at a four-year school; 2 semesters sophomore, 4 or associate's junior",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief CALS rows"
+  },
+  {
+   "claim": "ILR typical 3.4; Hotel 3.3 typical, no minimum; Human Ecology 3.5; Brooks 3.5 'increases competitiveness'; AAP minimum 2.7; Engineering no minimum",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief lines 96-101 and §10 item 5 match the page values"
+  },
+  {
+   "claim": "Transfer Option, Arts and Sciences: 3.5 GPA every semester, no grade below B-; fall 2026 deadline March 15",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief A&S TO rows; brief notes TO applications due March 15 (fall 2026). Page correctly states the fall 2027 deadline is not in the brief"
+  },
+  {
+   "claim": "TC3 to CALS Agricultural Sciences: 3.0 GPA, B or better, priority consideration, announced Aug 7, 2025",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief 'priority consideration' rows"
+  },
+  {
+   "claim": "Credit caps: 60 most colleges, 64 Architecture, Engineering 33 per year and 66 in all; course age 7 or more years",
+   "source_url": "brief §2 (registrar)",
+   "status": "ok",
+   "note": "brief registrar entry: 60/66/64 caps, seven-year age limit; quarter credit times two-thirds"
+  },
+  {
+   "claim": "Example: 75 credits into Arts and Sciences, 75 - 60 = 15 would not count",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "recomputed: 75 - 60 = 15"
+  },
+  {
+   "claim": "Example: 3 semesters into Engineering, 33 x 1.5 = 49.5; cap is smaller of 66 and 33 x semesters/2",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "recomputed 33 x 3 / 2 = 49.5, below 66; tool.html applies Math.min(66, 33*sem/2)"
+  },
+  {
+   "claim": "Housing: new transfers live on campus one academic year; exempt with 2 years on campus elsewhere or entry as junior or senior; first-year rule through spring of second academic year",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief housing rows including line 323"
+  },
+  {
+   "claim": "International: CSS Profile by March 15 or no Cornell aid later; need-aware; 14% withheld on aid above tuition and fees unless treaty",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief lines mentioning need-aware and 14%"
+  },
+  {
+   "claim": "Fall 2025 transfers: 7,381 applied, 864 admitted, 864 / 7,381 = 11.7%",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "brief CDS rows; recomputed 864 / 7,381 = 0.11706, 11.7%"
+  },
+  {
+   "claim": "Closed doors: Global and Public Health Sciences no transfers; Global Development sophomores only; AEM through Dyson; AAP no external B.Arch. transfers for fall 2027; Engineering one major, no undecided or Independent Major, stay one year",
+   "source_url": "brief §1 and §2.6",
+   "status": "ok",
+   "note": "brief key decision 1 and CALS and Engineering rows"
+  },
+  {
+   "claim": "Course lists (Engineering MATH 1910, MATH 1920, PHYS 1112, PHYS 1110, CHEM 2090/2091; Human Ecology 23 credits; Brooks 15 credits; Hotel; ILR; CALS Bio)",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief rows for each college; counts match brief §1 item 3"
+  },
+  {
+   "claim": "Veterans: Veterans Admissions Team; CDS lists no credit for ACE or CLEP; Veterans House is a Program House",
+   "source_url": "brief §3 and §8",
+   "status": "ok",
+   "note": "brief lines 42, 294, 824"
+  },
+  {
+   "claim": "Common Data Set 2025-26 marks No for a minimum number of credits",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief line 43 'minimum number of credits'"
+  },
+  {
+   "claim": "Quarter credits multiplied by 2/3; three quarters equal two semesters",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief registrar row quarter credit times two-thirds; A&S TO row two semesters or three quarters"
+  }
+ ],
+ "beats_top": {
+  "query": "can i transfer to cornell",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

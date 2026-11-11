@@ -308,7 +308,7 @@ You have two markets, not one. A sublet is the cheap end if you find one through
 
 ## What a sublet costs
 
-Price a sublet against the rents landlords post for 2026-27 and 2027-28, because no public source tracks Ithaca sublet rents (Ithaca Renting; Dryden South; Modern Living Rentals).
+Price a sublet against the rents landlords post for 2026-27 and 2027-28 (Ithaca Renting; Dryden South; Modern Living Rentals).
 
 ```figure
 kind: cost_table
@@ -363,7 +363,7 @@ The national numbers have grown. From January 2020 through June 2025, people rep
 
 Subletters face a mirror-image scam. In December 2023, University of Illinois police described a student who was subletting an apartment. A stranger sent a $3,850 check to cover the whole sublet, then said they had changed their mind and asked for the money back. The student sent it to two accounts, and the original check never cleared ([University of Illinois Division of Public Safety](https://police.illinois.edu/fake-sublessee/)). Wait for any check to clear fully before you return money to anyone.
 
-Cornell's own advice is short: view a property in person and read the whole lease before you sign or pay (Cornell Rental Listings & Resources). Report a scam at ReportFraud.ftc.gov (FTC).
+Cornell's own advice is short: view a property in person and read the whole lease before you sign or pay (Cornell Rental Listings & Resources). Report a scam at ReportFraud.ftc.gov (FTC). The [sublet scams guide](/cornell/housing/sublet-scams-ithaca-how-to-avoid/) lists the checks to run before you pay and what to do if you lose money.
 
 ```reader "If you're an international student"
 You are the renter the 2010 scams targeted: someone who cannot see the room before paying. Use only Cornell's marketplace or the Off-Campus Living list, where the other person has to prove a Cornell link. Ask a friend in Ithaca to see the room for you. Never wire money or send a Social Security number to hold a room you have not seen. If you are the one leaving, a subtenant who offers to overpay by check is a warning sign, not a bonus.
@@ -420,6 +420,18 @@ rows:
   - {label: "Subtenant: no money went by wire, gift card or payment app to someone you have not met."}
   - {label: "Tenant: any check from the subtenant has fully cleared before you refund anything."}
 ```
+
+## Related sublet guides
+
+- [How to sublet an Ithaca apartment](/cornell/housing/cornell-summer-sublet-how-to-sublet-apartment-ithaca/): the tenant's consent request, step by step.
+- [Finding a summer sublet in Ithaca](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/): May-to-August housing for students and interns.
+- [Can a landlord refuse a sublet in New York?](/cornell/housing/can-landlord-refuse-sublet-new-york-ithaca/): the right, the clocks and the remedy.
+- [Where to post a sublet in Ithaca](/cornell/housing/where-to-list-sublet-ithaca-cornell/): Cornell's marketplace, the email list and public sites.
+- [Sublet scams in Ithaca](/cornell/housing/sublet-scams-ithaca-how-to-avoid/): fake listings, overpayment checks and how to stop both.
+- [What to include in a sublet agreement](/cornell/housing/sublet-agreement-what-to-put-in-writing-ithaca/): the clauses to put in writing.
+- [How to take over a Collegetown lease](/cornell/housing/take-over-collegetown-lease-assignment/): assignment or sublease, from the taker's side.
+- [Ithaca sublet request timeline](/tools/ithaca-sublet-request-timeline/): the tool that dates your request and the landlord's deadlines.
+- [Summer storage vs shipping vs sublet calculator](/tools/summer-storage-vs-shipping-vs-sublet-cornell-cost/): the cheapest plan for a summer away.
 
 ## Sources
 

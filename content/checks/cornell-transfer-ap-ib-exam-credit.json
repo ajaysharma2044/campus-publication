@@ -1,0 +1,150 @@
+{
+ "slug": "cornell-transfer-ap-ib-exam-credit",
+ "queue_id": "q-transfer-0007",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "AP/IB/A-Level credit from the old school is not automatic; Cornell's own rules apply",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief §2.8 row AP, IB, A-Level"
+  },
+  {
+   "claim": "Scores sent and written request to college registrar by last day of instruction of first Cornell semester",
+   "source_url": "https://registrar.cornell.edu/students/credit-evaluation-services",
+   "status": "ok",
+   "note": "brief §2.8; page fetched 2026-11-11 and confirms both steps"
+  },
+  {
+   "claim": "Missing the deadline means the credit is 'gone' / 'lost for good'",
+   "source_url": "https://registrar.cornell.edu/students/credit-evaluation-services",
+   "status": "fixed",
+   "note": "Source states the requirement but not the consequence. Reworded in the reader block and the Common mistakes bullet to 'Credit by exam requires both steps by that date'."
+  },
+  {
+   "claim": "AP code 2098; IB/A-Level/French Baccalaureate transcripts to college registrar",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief §2.8 AP score code"
+  },
+  {
+   "claim": "Dec 7, 2026 last day of instruction; Aug 24 start; Sep 8 add deadline",
+   "source_url": "brief §2.14 calendar",
+   "status": "ok",
+   "note": "brief calendar rows and §10 timeline"
+  },
+  {
+   "claim": "Engineering: AP Calc BC 5 meets MATH 1910; AP Chem 5; AP Physics C Mech 5 earns PHYS 1112, PHYS 1110 lab still required",
+   "source_url": "brief §2.3 Duffield",
+   "status": "ok",
+   "note": "brief Exam thresholds row"
+  },
+  {
+   "claim": "Engineering 66-credit cap including AP, IB, GCE, CASE; Architecture 64; most colleges 60 including exam credit",
+   "source_url": "https://registrar.cornell.edu/students/credit-evaluation-services",
+   "status": "ok",
+   "note": "brief; registrar page fetched confirms 60/66/64"
+  },
+  {
+   "claim": "Engineering MATH CASE Thursday Aug 20, 2026, 9 to 11 a.m., Olin Hall 155, no calculators; encouraged for a 4 on BC",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief Engineering MATH CASE row"
+  },
+  {
+   "claim": "CHEM 2090 with 2091 lab required in Engineering core",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief Required core row"
+  },
+  {
+   "claim": "ILR: AP up to 12 inside 60; AP Microeconomics needs a 5",
+   "source_url": "brief §2.8 caps / readers",
+   "status": "ok",
+   "note": "brief caps item and reader guidance"
+  },
+  {
+   "claim": "Hotel: AP, IB, GCE up to 15 inside 60; AP Micro 5 meets HADM 1410; IB Econ 7 gives HADM 1410 plus 3 elective credits; AP English 5/IB English HL 7 meets FWS; AP Statistics not accepted",
+   "source_url": "brief §2.5 Hotel",
+   "status": "ok",
+   "note": "brief Credit row"
+  },
+  {
+   "claim": "Dyson: 15 test credits; no exam credit for calculus, statistics, micro, macro; must take them in college",
+   "source_url": "brief §2.6 Dyson",
+   "status": "ok",
+   "note": "brief Dyson exam credit (current page)"
+  },
+  {
+   "claim": "CALS AP up to 15 inside 60; cannot give official credit evaluation before admission",
+   "source_url": "brief §2.4 CALS",
+   "status": "ok",
+   "note": "brief rows"
+  },
+  {
+   "claim": "Human Ecology: 15 pre-college credits; do not count on AP/IB; 23 credits of sophomore prerequisites",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief Credit, Tips page and Sophomore courses rows"
+  },
+  {
+   "claim": "Brooks: IB Higher Level only; AP and IB statistics earn nothing; overlapping Cornell course forfeits exam credit; 60 in all",
+   "source_url": "brief §2.6 Brooks",
+   "status": "ok",
+   "note": "brief Pre-college credit and Credit and residence rows"
+  },
+  {
+   "claim": "A&S: AP or IB places out of only one of two First-Year Writing Seminars; CLEP not accepted; tentative evaluation after acceptance and deposit; up to 12 summer credits; writing-intensive course encouraged for TO",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief rows"
+  },
+  {
+   "claim": "Credit from a prior school's own departmental exam is not awarded; exam plus overlapping course means only the course counts",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief rows"
+  },
+  {
+   "claim": "CASE in Chemistry, CS, Math, Physics; online language placement for eight languages",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief Placement exams row"
+  },
+  {
+   "claim": "Transfer Option: CALS, Human Ecology, ILR list AP scores among extras",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief TO college extras row"
+  },
+  {
+   "claim": "International coursework from Ministry-of-Education-recognized institutions; ESL never counts",
+   "source_url": "https://registrar.cornell.edu/students/credit-evaluation-services",
+   "status": "ok",
+   "note": "page fetched; confirms both"
+  },
+  {
+   "claim": "Engineering summer transfer credit only with fewer than 12 Cornell credits",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief Overlap row"
+  },
+  {
+   "claim": "Transfers usually enroll during add/drop",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief timeline"
+  },
+  {
+   "claim": "Worked examples: ILR cap 12; A&S 60 credits plus five AP 5s adds none; Engineering BC 5, Chem 4, Physics 5",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "recomputed from the rules above; no arithmetic beyond the caps"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "e744072a05fca929bb05731d2584455476a3726fa3a99318d70a93d403b9b296"
+}

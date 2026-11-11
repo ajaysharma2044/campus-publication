@@ -1,0 +1,156 @@
+{
+ "slug": "cornell-transfer-year-cost-by-room-2026-27",
+ "queue_id": "q-transfer-0035",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Tuition $73,946 endowed/non-NY; $49,816 NY contract",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "brief rows 432-433 and 658-659; gap 73,946 - 49,816 = 24,130 recomputed"
+  },
+  {
+   "claim": "Mandatory fees $1,024 ($424 + $600), 2026-27 figures under a 2025-26 heading",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "brief row 436; 424 + 600 = 1,024"
+  },
+  {
+   "claim": "Hall rates: triple/one-room quad $12,644 ($6,322/sem), double/quad $13,744 ($6,872), single/townhouse double $15,566 ($7,783), super single $16,595 ($8,298)",
+   "source_url": "brief §3.6",
+   "status": "ok",
+   "note": "brief rows 353-358; each yearly figure is about twice the semester figure as listed"
+  },
+  {
+   "claim": "Meal plans: Unlimited and House $7,604; Collegetown $7,056 for the six named South Campus halls; $50 admin fee; Bear Traditional $7,056",
+   "source_url": "brief §3.7",
+   "status": "ok",
+   "note": "brief rows 374-385; 7,604 - 7,056 = $548 recomputed"
+  },
+  {
+   "claim": "Hall residents auto-enrolled in Unlimited, House or Collegetown",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "brief line 934"
+  },
+  {
+   "claim": "Co-op per-semester doubles: Redbud 3,487; Triphammer and Watermargin 4,317; Prospect of Whitby 4,318; 302 and 308 Wait 4,715; 660 Stewart and Wari 4,981; plus the single and triple rates in the notes",
+   "source_url": "brief §3.6 co-op table",
+   "status": "ok",
+   "note": "brief rows 679-686 match every co-op figure on the page, including Redbud triple 2,765, Triphammer triple 3,972 and the single ranges"
+  },
+  {
+   "claim": "Co-op yearly doubles $6,974, $8,634, $8,636, $9,430, $9,962",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "recomputed: 3,487x2, 4,317x2, 4,318x2, 4,715x2, 4,981x2; the Redbud triple 2,765x2 = 5,530 and the Wari single 5,640x2 = 11,280 and 6,014x2 = 12,028 also check"
+  },
+  {
+   "claim": "Co-op savings vs $13,744 hall double: 6,770; 5,110; 5,108; 4,314; 3,782",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "recomputed 13,744 minus each yearly figure; the brief's Triphammer 5,110 matches"
+  },
+  {
+   "claim": "Hall savings column: triple 1,100; single -1,822; super single -2,851",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "recomputed: 13,744-12,644, 13,744-15,566, 13,744-16,595"
+  },
+  {
+   "claim": "Endowed tuition plus fees $74,970; NY contract $50,840",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "73,946+1,024 = 74,970; 49,816+1,024 = 50,840"
+  },
+  {
+   "claim": "Billed endowed: triple 95,218; South Campus double 95,770; double 96,318; single 98,140; super single 99,169",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "recomputed each as 74,970 + housing + meal plan; brief rows 1213-1215 agree"
+  },
+  {
+   "claim": "Billed NY contract: 71,088; 71,640; 72,188; 74,010; 75,039",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "each endowed total minus 24,130, recomputed"
+  },
+  {
+   "claim": "Cost-of-attendance check: books $1,234 + personal $2,182 = $3,416; $99,734 endowed and $75,604 NY contract",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "brief rows 437-438; 96,318+3,416 = 99,734; 72,188+3,416 = 75,604"
+  },
+  {
+   "claim": "Room choice moves the hall bill by $3,951; triple and super single 4.1% apart",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "99,169-95,218 = 3,951; 3,951/95,218 = 4.15%, which rounds to 4.1% as computed"
+  },
+  {
+   "claim": "Tuition is 75% to 78% of every endowed row",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "73,946/99,169 = 74.6%; 73,946/95,218 = 77.7%; rounds to 75% and 78%"
+  },
+  {
+   "claim": "Every co-op double costs less than the hall triple",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "highest co-op double $9,962 is below the triple at $12,644"
+  },
+  {
+   "claim": "Redbud with endowed tuition and fees: 74,970 + 6,974 = $81,944",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "recomputed"
+  },
+  {
+   "claim": "Student Health Plan: $1,705 + $2,046 = $3,751 for a fall entrant; full premium $4,092; sits outside cost of attendance; waiver deadline July 31, 2026",
+   "source_url": "brief §2.17, §10.7",
+   "status": "ok",
+   "note": "brief rows 486-487, 491 and 948; 1,705+2,046 = 3,751. The deadline row in the brief rests on a search snippet; the brief marks that itself, and the page words it as the 2026 date only"
+  },
+  {
+   "claim": "Hall double with the health plan: $100,069 endowed and $75,939 NY contract",
+   "source_url": "brief §10.7",
+   "status": "ok",
+   "note": "96,318+3,751 = 100,069; 72,188+3,751 = 75,939"
+  },
+  {
+   "claim": "Transfers must live on campus one academic year; random auto-allocation except Program Houses; upper-level areas include co-ops",
+   "source_url": "brief §3.6",
+   "status": "ok",
+   "note": "brief rows 324, 328, 347"
+  },
+  {
+   "claim": "Collegetown plan applies in 112 Edgemoor, Cascadilla, Schuyler, Sheldon Court, 301 College Ave and 104 Mary Ann Wood Dr",
+   "source_url": "brief §3.7",
+   "status": "ok",
+   "note": "brief row 380, same six halls"
+  },
+  {
+   "claim": "Last tuition increase 3.76%",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "brief rows 432-433, 771"
+  },
+  {
+   "claim": "CSV rows match the page table and the brief's method",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "all 13 CSV rows compared with the page table: values identical, plain numbers; method equals brief lines 1194-1215"
+  },
+  {
+   "claim": "Quad billed like a double; townhouse double billed like a single",
+   "source_url": "brief §3.6",
+   "status": "ok",
+   "note": "brief rows 357-358"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "f3751f95a6333a63f9969ba3a4a195674fc815bd64153b19f2b8e1dee90ac208"
+}

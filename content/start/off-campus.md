@@ -65,6 +65,6 @@ You are a junior, senior or grad student on a 10- or 12-month lease in Collegeto
 
 ## When you're done
 
-If you are keeping a car, go next to [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/having-a-car-at-cornell-student-guide/).
+If you are keeping a car, go next to [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/).
 For everything else in this topic, see all the [getting-around guides](/getting-around/).
 For anything else about renting, return to the [housing section](/housing/) or the [housing pillar guide](/housing/cornell-off-campus-housing-guide/).

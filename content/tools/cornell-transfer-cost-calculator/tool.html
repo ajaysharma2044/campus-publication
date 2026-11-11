@@ -1,0 +1,271 @@
+<div class="tool" id="tool-cornell-transfer-cost-calculator" data-tool="cornell-transfer-cost-calculator" data-as-of="2026-11-11">
+  <style>
+    #tool-cornell-transfer-cost-calculator .ctc-field { margin: 0 0 0.9rem; }
+    #tool-cornell-transfer-cost-calculator .ctc-field label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
+    #tool-cornell-transfer-cost-calculator .ctc-field select { width: 100%; max-width: 30rem; padding: 0.4rem; font: inherit; box-sizing: border-box; }
+    #tool-cornell-transfer-cost-calculator .ctc-hint { display: block; font-size: 0.875em; opacity: 0.8; margin-top: 0.2rem; }
+    #tool-cornell-transfer-cost-calculator .ctc-result { border-top: 1px solid currentColor; padding-top: 0.9rem; margin-top: 1rem; }
+    #tool-cornell-transfer-cost-calculator .ctc-result table { border-collapse: collapse; width: 100%; max-width: 30rem; margin: 0.5rem 0; }
+    #tool-cornell-transfer-cost-calculator .ctc-result td { padding: 0.2rem 0.4rem 0.2rem 0; vertical-align: top; }
+    #tool-cornell-transfer-cost-calculator .ctc-result td + td { text-align: right; white-space: nowrap; }
+    #tool-cornell-transfer-cost-calculator .ctc-result tr.ctc-sum td { font-weight: 600; border-top: 1px solid currentColor; }
+    #tool-cornell-transfer-cost-calculator .ctc-result ul { padding-left: 1.2rem; margin: 0.5rem 0; }
+    #tool-cornell-transfer-cost-calculator .ctc-small { font-size: 0.875em; opacity: 0.85; }
+  </style>
+
+  <h3>Your required year at Cornell, before aid</h3>
+  <p class="ctc-small" data-as-of="2026-11-11">2026-27 prices, checked 2026-11-11. Tuition <span data-as-of="2026-11-11">$73,946</span> (endowed colleges, and every college for students who are not New York residents) or <span data-as-of="2026-11-11">$49,816</span> (New York residents at a contract college); mandatory fees <span data-as-of="2026-11-11">$1,024</span>.</p>
+
+  <div class="ctc-field">
+    <label for="cornell-transfer-cost-calculator-college">College you are applying to</label>
+    <select id="cornell-transfer-cost-calculator-college">
+      <optgroup label="Endowed colleges">
+        <option value="as" selected>Arts and Sciences</option>
+        <option value="eng">Engineering</option>
+        <option value="hotel">Hotel Administration (Nolan School)</option>
+        <option value="aap">Architecture, Art and Planning</option>
+      </optgroup>
+      <optgroup label="Contract colleges (lower tuition for NY residents)">
+        <option value="cals">Agriculture and Life Sciences (CALS)</option>
+        <option value="humec">Human Ecology</option>
+        <option value="ilr">Industrial and Labor Relations (ILR)</option>
+        <option value="brooks">Brooks School of Public Policy</option>
+        <option value="dyson">Dyson (Applied Economics and Management)</option>
+      </optgroup>
+    </select>
+  </div>
+
+  <div class="ctc-field">
+    <label for="cornell-transfer-cost-calculator-residency">Where you live</label>
+    <select id="cornell-transfer-cost-calculator-residency">
+      <option value="ny">New York State resident</option>
+      <option value="us" selected>Another US state</option>
+      <option value="intl">Outside the US (international)</option>
+    </select>
+    <span class="ctc-hint">Only New York residents at a contract college pay the lower tuition.</span>
+  </div>
+
+  <div class="ctc-field">
+    <label for="cornell-transfer-cost-calculator-room">Room for the required year</label>
+    <select id="cornell-transfer-cost-calculator-room">
+      <optgroup label="Residence halls (price a year)">
+        <option value="hallTriple" data-as-of="2026-11-11">Hall triple or one-room quad: $12,644 a year</option>
+        <option value="hallDouble" data-as-of="2026-11-11" selected>Hall double: $13,744 a year</option>
+        <option value="hallQuad" data-as-of="2026-11-11">Hall quad: $13,744 a year</option>
+        <option value="hallSingle" data-as-of="2026-11-11">Hall single: $15,566 a year</option>
+        <option value="hallTownhouse" data-as-of="2026-11-11">Townhouse double: $15,566 a year</option>
+        <option value="hallSuperSingle" data-as-of="2026-11-11">Hall super single: $16,595 a year</option>
+      </optgroup>
+      <optgroup label="Co-ops (price a semester)">
+        <option value="coopRedbudTriple" data-as-of="2026-11-11">Redbud (Von Cramm Hall) triple: $2,765 a semester</option>
+        <option value="coopRedbudDouble" data-as-of="2026-11-11">Redbud (Von Cramm Hall) double: $3,487 a semester</option>
+        <option value="coopRedbudSingle" data-as-of="2026-11-11">Redbud (Von Cramm Hall) single: $3,949 a semester</option>
+        <option value="coopTriphammerTriple" data-as-of="2026-11-11">Triphammer triple: $3,972 a semester</option>
+        <option value="coopTriphammerDouble" data-as-of="2026-11-11">Triphammer double: $4,317 a semester</option>
+        <option value="coopTriphammerSingle" data-as-of="2026-11-11">Triphammer single: $4,889 a semester</option>
+        <option value="coopWatermarginDouble" data-as-of="2026-11-11">Watermargin double: $4,317 a semester</option>
+        <option value="coopWatermarginSingle" data-as-of="2026-11-11">Watermargin single: $4,889 to $5,213 a semester</option>
+        <option value="coopWhitbyDouble" data-as-of="2026-11-11">Prospect of Whitby double: $4,318 a semester</option>
+        <option value="coopWhitbySingle" data-as-of="2026-11-11">Prospect of Whitby single: $4,889 to $5,213 a semester</option>
+        <option value="coopWait302Double" data-as-of="2026-11-11">302 Wait Avenue double: $4,715 a semester</option>
+        <option value="coopWait302Single" data-as-of="2026-11-11">302 Wait Avenue single: $5,340 to $5,693 a semester</option>
+        <option value="coopWait308Double" data-as-of="2026-11-11">308 Wait Avenue (Wait Terrace) double: $4,715 a semester</option>
+        <option value="coopWait308Single" data-as-of="2026-11-11">308 Wait Avenue (Wait Terrace) single: $5,340 to $5,693 a semester</option>
+        <option value="coopStewartDouble" data-as-of="2026-11-11">660 Stewart double: $4,981 a semester</option>
+        <option value="coopStewartSingle" data-as-of="2026-11-11">660 Stewart single: $5,640 a semester</option>
+        <option value="coopWariDouble" data-as-of="2026-11-11">Wari double: $4,981 a semester</option>
+        <option value="coopWariSingle" data-as-of="2026-11-11">Wari single: $5,640 to $6,014 a semester</option>
+      </optgroup>
+    </select>
+    <span class="ctc-hint">Halls are assigned by random auto-allocation from your preferences, so you request a room type; you do not pick it.</span>
+  </div>
+
+  <div class="ctc-field">
+    <label for="cornell-transfer-cost-calculator-meal">Meal plan (it follows your hall)</label>
+    <select id="cornell-transfer-cost-calculator-meal">
+      <option value="unlimited" data-as-of="2026-11-11" selected>Most halls: Unlimited, $7,604 a year</option>
+      <option value="house" data-as-of="2026-11-11">West Campus house: House Meal Plan, $7,604 a year</option>
+      <option value="collegetown" data-as-of="2026-11-11">Cascadilla, Sheldon Court, Schuyler, 112 Edgemoor, 301 College Ave or 104 Mary Ann Wood Dr: Collegetown Meal Plan, $7,056 a year</option>
+      <option value="none">Co-op: no Cornell meal plan counted</option>
+    </select>
+    <span class="ctc-hint">Transfers in halls are enrolled automatically in Unlimited or the House Meal Plan, depending on the hall.</span>
+  </div>
+
+  <div class="ctc-field">
+    <label for="cornell-transfer-cost-calculator-health">Student Health Plan</label>
+    <select id="cornell-transfer-cost-calculator-health">
+      <option value="keep" data-as-of="2026-11-11" selected>Keep it (or miss the waiver): $1,705 fall + $2,046 spring</option>
+      <option value="waive">Waive it with comparable coverage</option>
+    </select>
+    <span class="ctc-hint">If you do not respond, Cornell enrolls you and bills you. In 2026 the waiver deadline for fall new students was July 31.</span>
+  </div>
+
+  <div class="ctc-field">
+    <label for="cornell-transfer-cost-calculator-years">How many years</label>
+    <select id="cornell-transfer-cost-calculator-years">
+      <option value="1" selected>One year (the required year on campus)</option>
+      <option value="2">Two years, same room, at 2026-27 prices</option>
+    </select>
+  </div>
+
+  <div class="ctc-field">
+    <label for="cornell-transfer-cost-calculator-income">Family income (optional, for the aid note)</label>
+    <select id="cornell-transfer-cost-calculator-income">
+      <option value="skip" selected>Skip</option>
+      <option value="u75">Up to $75,000</option>
+      <option value="u125">$75,001 to $125,000</option>
+      <option value="o125">Over $125,000</option>
+    </select>
+  </div>
+
+  <div class="ctc-result" id="cornell-transfer-cost-calculator-result" aria-live="polite">
+    <p><strong data-as-of="2026-11-11">$103,485 for the year, all-in.</strong> That is $96,318 billed by Cornell (tuition, fees, a hall double and the Unlimited plan), $3,416 for books and personal costs, and $3,751 for the health plan. About $11,498 a month over the nine-month academic year.</p>
+    <p class="ctc-small">2026-27 prices, checked 2026-11-11, at endowed or non-New York tuition. Change the choices above to recalculate.</p>
+  </div>
+
+<script>
+(function () {
+  var root = document.getElementById("tool-cornell-transfer-cost-calculator");
+  if (!root) return;
+  var D = "2026-11-11";
+  var TR = "https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters";
+  var COA = "https://finaid.cornell.edu/cost-attend";
+  var HR = "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates";
+  var MP = "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans";
+  var SHP = "https://studenthealthbenefits.cornell.edu/shp-costs-billing-important-dates/shp-costs-dates-2026-27";
+  var CAL = "https://registrar.cornell.edu/calendars-exams/academic-calendar";
+  var INTL = "https://finaid.cornell.edu/first-year-and-transfer-students-international";
+  const NUMBERS = {
+    tuitionEndowed: { value: 73946, asOf: D, source: TR },
+    tuitionContractNY: { value: 49816, asOf: D, source: TR },
+    fees: { value: 1024, asOf: D, source: COA },
+    books: { value: 1234, asOf: D, source: COA },
+    personal: { value: 2182, asOf: D, source: COA },
+    coaEndowed: { value: 99734, asOf: D, source: COA },
+    coaContractNY: { value: 75604, asOf: D, source: COA },
+    hallTriple: { value: 12644, asOf: D, source: HR },
+    hallDouble: { value: 13744, asOf: D, source: HR },
+    hallQuad: { value: 13744, asOf: D, source: HR },
+    hallSingle: { value: 15566, asOf: D, source: HR },
+    hallTownhouse: { value: 15566, asOf: D, source: HR },
+    hallSuperSingle: { value: 16595, asOf: D, source: HR },
+    coopRedbudTriple: { value: 2765, asOf: D, source: HR },
+    coopRedbudDouble: { value: 3487, asOf: D, source: HR },
+    coopRedbudSingle: { value: 3949, asOf: D, source: HR },
+    coopTriphammerTriple: { value: 3972, asOf: D, source: HR },
+    coopTriphammerDouble: { value: 4317, asOf: D, source: HR },
+    coopTriphammerSingle: { value: 4889, asOf: D, source: HR },
+    coopWatermarginDouble: { value: 4317, asOf: D, source: HR },
+    coopWatermarginSingle: { value: [4889, 5213], asOf: D, source: HR },
+    coopWhitbyDouble: { value: 4318, asOf: D, source: HR },
+    coopWhitbySingle: { value: [4889, 5213], asOf: D, source: HR },
+    coopWait302Double: { value: 4715, asOf: D, source: HR },
+    coopWait302Single: { value: [5340, 5693], asOf: D, source: HR },
+    coopWait308Double: { value: 4715, asOf: D, source: HR },
+    coopWait308Single: { value: [5340, 5693], asOf: D, source: HR },
+    coopStewartDouble: { value: 4981, asOf: D, source: HR },
+    coopStewartSingle: { value: 5640, asOf: D, source: HR },
+    coopWariDouble: { value: 4981, asOf: D, source: HR },
+    coopWariSingle: { value: [5640, 6014], asOf: D, source: HR },
+    mealUnlimited: { value: 7604, asOf: D, source: MP },
+    mealHouse: { value: 7604, asOf: D, source: MP },
+    mealCollegetown: { value: 7056, asOf: D, source: MP },
+    mealAdminFee: { value: 50, asOf: D, source: MP },
+    shpFallNew: { value: 1705, asOf: D, source: SHP },
+    shpSpring: { value: 2046, asOf: D, source: SHP },
+    shpAnnual: { value: 4092, asOf: D, source: SHP },
+    aidTuitionLine: { value: 125000, asOf: D, source: TR },
+    aidFullCostLine: { value: 75000, asOf: D, source: TR },
+    intlWithholding: { value: 0.14, asOf: D, source: INTL },
+    monthsAcademicYear: { value: 9, asOf: D, source: CAL }
+  };
+  var N = NUMBERS;
+  var COLLEGES = {
+    as: ["Arts and Sciences", "endowed"], eng: ["Engineering", "endowed"], hotel: ["Hotel Administration", "endowed"],
+    aap: ["AAP", "endowed"], cals: ["CALS", "contract"], humec: ["Human Ecology", "contract"],
+    ilr: ["ILR", "contract"], brooks: ["Brooks", "contract"], dyson: ["Dyson", "contract"]
+  };
+  var MEALS = { unlimited: ["mealUnlimited", "Unlimited plan"], house: ["mealHouse", "House Meal Plan"], collegetown: ["mealCollegetown", "Collegetown Meal Plan"] };
+
+  function el(n) { return root.querySelector("#cornell-transfer-cost-calculator-" + n); }
+  var collegeEl = el("college"), resEl = el("residency"), roomEl = el("room"), mealEl = el("meal"),
+      healthEl = el("health"), yearsEl = el("years"), incomeEl = el("income"), out = el("result");
+
+  function money(n) { return "$" + String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, ","); }
+  function pair(v) { return Array.isArray(v) ? [v[0], v[1]] : [v, v]; }
+  function add() { var s = [0, 0]; for (var i = 0; i < arguments.length; i++) { var p = pair(arguments[i]); s[0] += p[0]; s[1] += p[1]; } return s; }
+  function times(p, k) { p = pair(p); return [p[0] * k, p[1] * k]; }
+  function r(p) { p = pair(p); return p[0] === p[1] ? money(p[0]) : money(p[0]) + " to " + money(p[1]); }
+  function row(label, amt, cls) { return "<tr" + (cls ? ' class="' + cls + '"' : "") + "><td>" + label + "</td><td>" + r(amt) + "</td></tr>"; }
+
+  roomEl.addEventListener("change", function () {
+    var coop = roomEl.value.indexOf("coop") === 0;
+    if (coop && mealEl.value !== "none") mealEl.value = "none";
+    if (!coop && mealEl.value === "none") mealEl.value = "unlimited";
+  });
+
+  function render() {
+    var col = COLLEGES[collegeEl.value] || COLLEGES.as;
+    var res = resEl.value, yrs = yearsEl.value === "2" ? 2 : 1, inc = incomeEl.value;
+    var lower = col[1] === "contract" && res === "ny";
+    var roomKey = N[roomEl.value] ? roomEl.value : "hallDouble";
+    var coop = roomKey.indexOf("coop") === 0;
+    var roomName = roomEl.options[roomEl.selectedIndex].text.split(":")[0];
+    var meal = mealEl.value, notes = [];
+    if (!coop && meal === "none") { meal = "unlimited"; notes.push("Hall residents are enrolled in a meal plan automatically, so this uses the Unlimited plan."); }
+
+    var tuition = lower ? N.tuitionContractNY.value : N.tuitionEndowed.value;
+    var roomYear = coop ? times(N[roomKey].value, 2) : pair(N[roomKey].value);
+    var mealYear = meal === "none" ? 0 : N[MEALS[meal][0]].value;
+    var keep = healthEl.value === "keep";
+    var shpY1 = N.shpFallNew.value + N.shpSpring.value;
+    var shp = keep ? shpY1 + (yrs === 2 ? N.shpAnnual.value : 0) : 0;
+
+    var T = tuition * yrs, F = N.fees.value * yrs, R = times(roomYear, yrs), M = mealYear * yrs;
+    var B = N.books.value * yrs, P = N.personal.value * yrs;
+    var billed = add(T, F, R, M), coa = add(billed, B, P), total = add(coa, shp);
+    var months = N.monthsAcademicYear.value * yrs;
+    var span = yrs === 2 ? "two years" : "the year";
+
+    var head = "<p><strong>" + r(total) + " for " + span + ", all-in.</strong> That is " + r(billed) + " billed by Cornell (tuition, fees, room" + (meal === "none" ? ", no meal plan" : " and the " + MEALS[meal][1]) + "), " +
+      money(B + P) + " for books and personal costs" + (keep ? ", and " + money(shp) + " for the health plan" : "; health plan waived") +
+      ". About " + r([total[0] / months, total[1] / months]) + " a month over " + (yrs === 2 ? "two nine-month academic years" : "the nine-month academic year") + ".</p>";
+
+    var t = "<table><tbody>" +
+      row("Tuition (" + col[0] + ", " + (lower ? "New York resident rate" : "endowed or non-New York rate") + ")", T) +
+      row("Mandatory fees (activity and Cornell Health)", F) +
+      row("Housing: " + roomName + (coop ? " (two semesters a year)" : ""), R) +
+      row("Meals: " + (meal === "none" ? "no Cornell plan" : MEALS[meal][1]), M) +
+      row("Billed by Cornell", billed, "ctc-sum") +
+      row("Books (Cornell's estimate)", B) +
+      row("Personal (Cornell's estimate)", P) +
+      row("Full cost of attendance, Cornell's way", coa, "ctc-sum") +
+      row("Student Health Plan" + (keep ? (yrs === 2 ? " (" + money(shpY1) + " year one + " + money(N.shpAnnual.value) + " year two)" : " (" + money(N.shpFallNew.value) + " fall + " + money(N.shpSpring.value) + " spring)") : " (waived)"), shp) +
+      row("Your total", total, "ctc-sum") + "</tbody></table>";
+
+    if (coop) {
+      notes.push("A " + money(N.hallDouble.value) + " hall double would cost " + r([N.hallDouble.value - roomYear[1], N.hallDouble.value - roomYear[0]]) + " a year more for housing alone.");
+      if (meal === "none") notes.push("Co-op food is not counted. Budget for it separately.");
+    }
+    if (res === "ny" && !lower) notes.push("New York residents pay " + money(N.tuitionContractNY.value) + " at a contract college (CALS, Human Ecology, ILR, Brooks, Dyson), " + money(N.tuitionEndowed.value - N.tuitionContractNY.value) + " a year less than here.");
+    if (res !== "ny" && col[1] === "contract") notes.push("The " + money(N.tuitionContractNY.value) + " contract-college tuition is for New York residents only, so you pay " + money(N.tuitionEndowed.value) + ".");
+
+    var std = lower ? N.coaContractNY.value : N.coaEndowed.value;
+    if (inc === "u75") notes.push("<strong>Family income up to " + money(N.aidFullCostLine.value) + " with typical assets:</strong> Cornell says grants, scholarships and work-study cover the full cost of attendance. Its standard budget is " + money(std) + " a year at your tuition rate. The health plan sits outside that budget, so waive it if you have comparable coverage.");
+    else if (inc === "u125") notes.push("<strong>Family income up to " + money(N.aidTuitionLine.value) + " with typical assets:</strong> grants cover tuition, " + money(T) + " of this total. The other " + r(add(total, -T)) + " is judged on demonstrated need, and Cornell meets 100% of need with grants, work-study and reasonable loans.");
+    else if (inc === "o125") notes.push("<strong>Family income over " + money(N.aidTuitionLine.value) + ":</strong> no income line covers tuition automatically. Aid follows demonstrated need from the CSS Profile and FAFSA, and Cornell meets 100% of it.");
+    else notes.push("Aid: with typical assets, family income up to " + money(N.aidTuitionLine.value) + " means grants cover tuition, and up to " + money(N.aidFullCostLine.value) + " means grants, scholarships and work-study cover the full cost of attendance. Pick an income band above to apply it.");
+    if (res === "intl") notes.push("International transfers: admission is need-aware, and the CSS Profile is due March 15, 2027, or you cannot get Cornell aid later. Aid above tuition and fees has " + Math.round(N.intlWithholding.value * 100) + "% tax withheld unless a treaty applies. Ask finaid@cornell.edu whether the income lines above apply to you.");
+
+    var foot = '<p class="ctc-small" data-as-of="' + D + '">2026-27 prices, checked 2026-11-11. Estimated: books and personal costs are Cornell\'s own estimates; the monthly figure, co-op yearly rates (two semesters) and year two at 2026-27 prices are our arithmetic. ' +
+      "Fall 2027 entrants pay 2027-28 prices, which Cornell confirms before early April 2027 aid offers. Travel and the " + money(N.mealAdminFee.value) + " yearly meal plan fee are not counted.</p>";
+
+    out.innerHTML = head + t + "<ul><li>" + notes.join("</li><li>") + "</li></ul>" + foot;
+  }
+
+  root.addEventListener("input", render);
+  root.addEventListener("change", render);
+  render();
+})();
+</script>
+</div>

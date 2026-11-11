@@ -2,8 +2,8 @@
 title: 'How to Sublet an Ithaca Apartment: Cornell Landlord Consent'
 mode: answer
 dek: To sublet your Ithaca room for a summer, a semester abroad or a co-op term, you need your landlord's written consent, and New York law limits when a landlord can say no.
-meta: 'How to sublet your Ithaca apartment for a summer or a semester abroad: landlord consent, the certified-mail request, the two clocks, fees and where to list.'
-primary_query: how to sublet my apartment for the summer Ithaca Cornell
+meta: 'How to sublet your Ithaca apartment for a summer or semester abroad: landlord consent, the certified-mail request, the two clocks, fees and where to list.'
+primary_query: how to sublet my apartment ithaca
 topic: housing
 school: cornell-university
 type: how-to
@@ -86,6 +86,9 @@ images:
   author: Kenneth C. Zirkel
   source_url: https://commons.wikimedia.org/wiki/File:Collegetown_Wine_%26_Spririts,_Ithaca_New_York.jpg
 kind: rewrite
+redirect_from:
+  - /cornell/housing/sublet-apartment-study-abroad-semester-cornell/
+  - /housing/sublet-apartment-study-abroad-semester-cornell/
 ---
 
 
@@ -204,7 +207,7 @@ Listing is free. Sublets were [free to list on Cornell's service in 2019](https:
 
 ## Where can you list a sublet?
 
-Start with the [Off-Campus Housing Marketplace](https://offcampus.housing.cornell.edu/), where only people who prove Cornell affiliation can view and contact subletters ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)). The Off-Campus Living email list reaches Cornell NetID holders: send a message with the subject "Join" and a blank body, per [Cornell's listings page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources). Both Cornell channels screen out most strangers. The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers every channel, and the [summer housing guide](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/) shows what subtenants look for.
+Start with the [Off-Campus Housing Marketplace](https://offcampus.housing.cornell.edu/), where only people who prove Cornell affiliation can view and contact subletters ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)). The Off-Campus Living email list reaches Cornell NetID holders: send a message with the subject "Join" and a blank body, per [Cornell's listings page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources). Both Cornell channels screen out most strangers. The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers every channel, and the [guide to finding a summer sublet](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/) shows what subtenants look for.
 
 ## What happens after the subtenant moves in?
 

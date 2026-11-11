@@ -64,6 +64,8 @@ images: []
 redirect_from:
   - /cornell/getting-around/ithaca-heat-out-frozen-pipes-landlord-must-do/
   - /getting-around/ithaca-heat-out-frozen-pipes-landlord-must-do/
+  - /cornell/housing/ithaca-rental-heat-requirements-winter/
+  - /housing/ithaca-rental-heat-requirements-winter/
 ---
 
 ```glance

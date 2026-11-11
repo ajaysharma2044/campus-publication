@@ -306,7 +306,7 @@ Grad students in Ithaca over the summer keep riding on the pass until Aug 31.
 ## Related guides
 
 - [Getting to Ithaca and around Cornell, 2026-27](/getting-around/getting-to-ithaca-and-around-cornell/): the full topic, from buses home to airports and permits.
-- [Having a car at Cornell](/getting-around/having-a-car-at-cornell-student-guide/): permits, winter rules, breaks and what a car costs in a year.
+- [Having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/): permits, winter rules, breaks and what a car costs in a year.
 - [Getting around Ithaca as an off-campus renter](/getting-around/getting-around-ithaca-off-campus-renters/): Route 10, city permits and garages for Collegetown and downtown leases.
 - [Cornell Campus-to-Campus bus: who can ride, how to book](/getting-around/cornell-c2c-bus-booking-fares-rules/): the new account, stops, bags and fees.
 - [The cheapest ways to get home and around Cornell](/getting-around/cheapest-ways-to-get-around-cornell/): bus floors, free rides and when OmniRide pays.

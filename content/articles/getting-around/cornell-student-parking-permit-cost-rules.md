@@ -113,7 +113,7 @@ Yes, but Cornell steers them away from it. The families page says first-years ar
 
 On North Campus, the ND permit is extremely limited and capped to residents of university housing ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). Cornell does not say whether a first-year can be refused a permit because of class year alone, so call Transportation and Delivery Services (TDS) at [607-255-4600](https://fcs.cornell.edu/departments/transportation-delivery-services), Monday to Friday, 7:30 a.m. to noon, before you drive up.
 
-New first-years also [ride TCAT free from fall registration to Aug. 31 of the next year](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). If you are unsure a car is worth it, the quiz below weighs it against buses and shared cars. Our guide to [having a car at Cornell](/cornell/getting-around/having-a-car-at-cornell-student-guide/) covers the full year.
+New first-years also [ride TCAT free from fall registration to Aug. 31 of the next year](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). If you are unsure a car is worth it, the quiz below weighs it against buses and shared cars. Our guide to [having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) covers the full year.
 
 ```tool do-i-need-a-car-at-cornell-quiz```
 

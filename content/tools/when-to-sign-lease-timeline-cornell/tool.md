@@ -1,8 +1,8 @@
 ---
-title: "When to sign a lease at Cornell: timeline by start term"
+title: "Cornell lease timeline tool: your dates to look, sign and drop a backup room"
 meta: "Enter your year, start term, transfer and exemption status and where you want to live; get the dated months to look, sign and cancel a backup room."
 topic: housing
-updated: 2026-11-08
+updated: 2026-11-11
 numbers_as_of: 2026-11-08
 queue_id: q-housing-0059
 kind: tool
@@ -35,7 +35,9 @@ sources:
   - {url: "https://www.nysenate.gov/legislation/laws/GOB/7-108", title: "New York General Obligations Law 7-108 (move-in inspection, deposits)", accessed: "2026-11-08"}
 ---
 
-This tool tells you which August your first off-campus lease can start, and when to look and sign for it. It sets out the dated steps in between: co-op rounds, the Cornell housing application and exemption deadline, the Collegetown rush, the last cheap day to drop a backup Cornell room and the lease start. The answer depends on four things. Are you still under Cornell's two-year rule? Did you transfer, and in which term? Do you have an exemption? Do you want Collegetown, where popular units go 8 to 16 months ahead, or the rest of Ithaca, which moves months later?
+Enter your year, term, transfer, exemption and market to get the August your first lease can start and the dated steps up to it. The steps cover when to look and sign, co-op rounds, the Cornell housing application and exemption deadline, the Collegetown rush, the last cheap day to drop a backup Cornell room and the lease start.
+
+The answer depends on four things. Are you still under Cornell's two-year rule? Did you transfer, and in which term? Do you have an exemption? Do you want Collegetown, where popular units go [8 to 16 months ahead](/datasets/collegetown-lease-signing-lead-times-2017-2025/), or the rest of Ithaca, which moves months later?
 
 ## Who it is for
 - First-years planning sophomore housing (residence hall, co-op or Greek house) and their first lease after that.
@@ -79,7 +81,7 @@ Most 12-month leases run Aug 1 to July 31 ([209 Stewart Ave listing](https://off
 | Number | Value | Applies to | Source |
 |---|---|---|---|
 | Typical lease dates | Aug 1 to July 31 | 2026-27 listing | [209 Stewart Ave](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095) |
-| Collegetown signing lead time | 8 to 16 months before move-in, mostly 10 to 11; one fallback at 6 | n = 9 signings, 6 Sun stories, 2017 to 2025 | [Sun 2018](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/); [Sun 2019](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/); [Sun 2025](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026) |
+| Collegetown signing lead time | 8 to 16 months before move-in, mostly 10 to 11; one fallback at 6 | n = 9 signings, 6 Sun stories, 2017 to 2025 | [Sun 2018](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/); [Sun 2019](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/); [Sun 2025](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026); all nine cases: [lead-times dataset](/datasets/collegetown-lease-signing-lead-times-2017-2025/) |
 | Collegetown rows marked sold out | 14 of 67 (20.9%); 39 rows tagged 2027-28 | 2026-11-08 | [Ithaca Renting](https://ithacarenting.com/collegetown/) |
 | Ithaca Renting opening day, 2020-21 leases | 9 a.m. Sept 12, 2019 | 2019 | [Sun 2019](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/) |
 | Most units rented by | End of November (one developer) | 2016 | [Sun 2016](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/) |

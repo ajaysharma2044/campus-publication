@@ -1,0 +1,156 @@
+{
+ "slug": "cornell-transfer-deadlines-decision-dates",
+ "queue_id": "q-transfer-0004",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "March 15, 2027: Common App, essay, Writing Supplement, $85 fee or waiver, portfolio; April 15: College Report, Academic Evaluation, Mid-Term Report, transcripts; fall only",
+   "source_url": "brief §2 (2.2, 4.2)",
+   "status": "ok",
+   "note": "Matches brief rows on deadlines, fee, essay length and Writing Supplement."
+  },
+  {
+   "claim": "CSS Profile (code 2098) and FAFSA (002711) due March 15, 2027; NY residents also file with HESC; FAFSA opened Oct 1, 2026",
+   "source_url": "brief §2 (finaid rows)",
+   "status": "ok",
+   "note": "Brief rows for US aid deadline and codes."
+  },
+  {
+   "claim": "CSS Profile fee waived up to $100,000 family income; fee waiver applied automatically with no documents",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief fee-waiver and CSS rows."
+  },
+  {
+   "claim": "International: CSS by March 15, 2027 or no later aid; generally no CSS fee waiver; need-aware",
+   "source_url": "brief §2 (international aid rows)",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Decisions late April through June; Enrollment FAQ rolling from April; Hotel May and June; Transfer Option from mid-April, most late April or early May",
+   "source_url": "brief §2, §4",
+   "status": "ok",
+   "note": "Matches brief rows."
+  },
+  {
+   "claim": "Common Data Set: closing date March 15, notification June 15, reply July 1",
+   "source_url": "brief §2 / §4.2",
+   "status": "ok",
+   "note": "Brief states the CDS notification and reply dates."
+  },
+  {
+   "claim": "ILR Mid-Term Report by March 15 if possible, no later than April 15; Human Ecology rolling review",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief ILR row."
+  },
+  {
+   "claim": "SAT/ACT neither required nor expected",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief standardized tests row."
+  },
+  {
+   "claim": "Transfer Option: no fee, 2026 deadline March 15, page shows 'Application Available Winter 2027'; A&S 3.5 each semester and no grade below B-",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief TO rows."
+  },
+  {
+   "claim": "Housing within ten days of NetID; confirmations from mid-June; June 15 free cancellation; swaps mid-June to mid-July; August 1 timeslot change; license cannot be cancelled",
+   "source_url": "brief §3, §4",
+   "status": "ok",
+   "note": "Brief housing rows."
+  },
+  {
+   "claim": "Fall tuition bill early July; 2024 example generated July 12, due August 7",
+   "source_url": "brief §4.3",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "SHP waiver July 31 (2026 pattern); $1,705 fall, $2,046 spring, $3,751 in all",
+   "source_url": "brief §4.3, §10.7",
+   "status": "ok",
+   "note": "Recomputed 1,705 + 2,046 = 3,751; matches brief."
+  },
+  {
+   "claim": "Transfer move-in August 18 (2026 pattern)",
+   "source_url": "brief §4.4",
+   "status": "ok",
+   "note": "Brief orientation row."
+  },
+  {
+   "claim": "Add deadline September 8; exam credit request last day of instruction, December 7, 2026",
+   "source_url": "brief §4.1, §4.4",
+   "status": "ok",
+   "note": "Brief states both dates."
+  },
+  {
+   "claim": "Junior: Collegetown leases up to 16 months ahead; Cornell discourages junior transfer; ~60-credit cap; CALS bars more than four semesters at a four-year school",
+   "source_url": "brief §1, §2",
+   "status": "ok",
+   "note": "Brief cites these."
+  },
+  {
+   "claim": "Sophomore: two to four semesters done; first-semester applicants not accepted",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Matches FAQ 330 row."
+  },
+  {
+   "claim": "TC3-CALS pathway gives priority consideration; 100% of demonstrated need met",
+   "source_url": "brief §2, §7",
+   "status": "ok",
+   "note": "Brief aid policy row; TC3 wording is a quoted phrase from the linked CALS release."
+  },
+  {
+   "claim": "I-20 two to three weeks after SEVIS release date; 60-day grace period",
+   "source_url": "brief §2 (F-1 SEVIS steps)",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "English test minimums: TOEFL iBT 100 for exams before January 2026, IELTS Academic 7.5, Duolingo 130; self-report allowed",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Matches brief; page correctly says 'minimum competitive'."
+  },
+  {
+   "claim": "Aid offers tentatively early April; 2027-28 rates confirmed before then; 2026-27 rates approved March 23, 2026",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Brief aid and prices rows."
+  },
+  {
+   "claim": "Spring 2021 Sun: commit by May 3, some waited on phone more than two hours",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "Brief item 7."
+  },
+  {
+   "claim": "2016 Sun: about 30 students in converted North Campus lounges; July 1 housing deadline then in force",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "Brief carries the 'about 30' count and the Sun article."
+  },
+  {
+   "claim": "Hotel example timeline (March 10 application, June 5 yes)",
+   "source_url": "n/a",
+   "status": "ok",
+   "note": "Hypothetical example labelled as such; dates consistent with the deadlines."
+  },
+  {
+   "claim": "Next entry after fall 2027 is fall 2028",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Follows from fall-only entry."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "ddcb5c797d46743ca26436536396c0a9cd1df377c40df4c323b8b9a19eefc54e"
+}

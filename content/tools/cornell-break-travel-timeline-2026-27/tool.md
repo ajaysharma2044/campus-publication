@@ -124,7 +124,7 @@ The line at the top says how many dates apply to you, how many are still ahead, 
 - [Getting home for Cornell winter break, 2026-27](/getting-around/cornell-winter-break-travel-home-2026/)
 - [Staying in Ithaca over Cornell breaks: housing, food, rides](/getting-around/staying-in-ithaca-over-cornell-breaks/)
 - [Winter and break parking at Cornell and in Ithaca](/getting-around/ithaca-winter-parking-rules-cornell-odd-even/)
-- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/having-a-car-at-cornell-student-guide/)
+- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)
 - [Cornell Campus-to-Campus bus: who can ride, how to book](/getting-around/cornell-c2c-bus-booking-fares-rules/)
 - [Is TCAT free for Cornell students? Hours, routes, passes](/getting-around/tcat-free-for-cornell-students-hours-routes/)
 - [Getting to Cornell and home as an international student](/getting-around/getting-to-cornell-international-students/)

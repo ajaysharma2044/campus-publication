@@ -92,7 +92,7 @@ Call before you drive out.
 
 ## Do you need a car to use self-storage?
 
-Yes, or a way to borrow one. Nothing in the table picks up. If you do not own a car, rent a truck for the two trips or use a pickup service. Whether a car is worth owning at all is a separate decision, covered in [having a car at Cornell](/cornell/getting-around/having-a-car-at-cornell-student-guide/).
+Yes, or a way to borrow one. Nothing in the table picks up. If you do not own a car, rent a truck for the two trips or use a pickup service. Whether a car is worth owning at all is a separate decision, covered in [having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/).
 
 ```reader "If you're an international student"
 Bolt Storage lets you [rent and pay online from abroad](https://www.boltstorage.com/self-storage/freeville-ny), so you can reserve a unit before you fly. You still need someone to carry your things to the facility. A pickup service solves that, because a driver collects boxes from your apartment.

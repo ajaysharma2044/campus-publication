@@ -52,6 +52,6 @@ Not in the brief: reasonable accommodations or modifications from a private land
 
 ## When you're done
 
-Bringing a car? Read [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/having-a-car-at-cornell-student-guide/) and [Cornell and Ithaca winter parking: odd/even, bays, breaks](/getting-around/ithaca-winter-parking-rules-cornell-odd-even/).
+Bringing a car? Read [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) and [Cornell and Ithaca winter parking: odd/even, bays, breaks](/getting-around/ithaca-winter-parking-rules-cornell-odd-even/).
 Flying home or riding a bus at the holidays? [Flying home from Cornell: airports, rides, bags, timing](/getting-around/flying-home-from-cornell-airports-rides/) is next, and [the topic page](/getting-around/) lists everything else.
 Signed a lease, or still choosing? [The housing topic page](/housing/) lists every housing guide, from deposits to renewals.

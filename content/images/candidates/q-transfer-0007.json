@@ -1,0 +1,41 @@
+[
+ {
+  "source": "wikimedia",
+  "title": "Cornell Malott Hall 1",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Cornell_Malott_Hall_1.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Cornell_Malott_Hall_1.jpg",
+  "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Cornell_Malott_Hall_1.jpg/960px-Cornell_Malott_Hall_1.jpg",
+  "author": "Notyourbroom",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "width": 3072,
+  "height": 2304,
+  "description": "Mallott Hall at Cornell University."
+ },
+ {
+  "source": "wikimedia",
+  "title": "Cornell Malott Hall 2",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Cornell_Malott_Hall_2.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Cornell_Malott_Hall_2.jpg",
+  "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Cornell_Malott_Hall_2.jpg/960px-Cornell_Malott_Hall_2.jpg",
+  "author": "Notyourbroom",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "width": 2304,
+  "height": 3072,
+  "description": "Mallott Hall at Cornell University."
+ },
+ {
+  "source": "openverse",
+  "title": "",
+  "page_url": "https://www.flickr.com/photos/23094783@N03/17043702166",
+  "file_url": "https://live.staticflickr.com/7584/17043702166_c3febf9295_b.jpg",
+  "thumb_url": "https://api.openverse.org/v1/images/29caaa59-6b2f-4e1d-a6c8-4c85b0a9dc08/thumb/",
+  "author": "eflon",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "width": 1024,
+  "height": 676,
+  "description": "bldg building campus cornell dept hall ithaca malott math ny sepia statisticalscience tones university warm wideangle"
+ }
+]

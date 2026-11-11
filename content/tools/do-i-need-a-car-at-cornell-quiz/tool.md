@@ -121,7 +121,7 @@ This quiz tells you whether a car is worth it for your year at Cornell, and if i
 
 - [Getting to Ithaca and around Cornell, 2026-27](/getting-around/getting-to-ithaca-and-around-cornell/), the full guide to this topic
 - [Do you need a car at Cornell? Costs vs the alternatives](/tools/should-i-bring-a-car-cornell-ithaca-cost/)
-- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/having-a-car-at-cornell-student-guide/)
+- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)
 - [Getting around Cornell after first year without a car](/getting-around/getting-around-cornell-upper-years-no-car/)
 - [Getting to and around Ithaca as a Cornell first-year](/getting-around/getting-around-cornell-first-year/)
 - [Getting around Ithaca as an off-campus Cornell renter](/getting-around/getting-around-ithaca-off-campus-renters/)

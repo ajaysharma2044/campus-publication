@@ -1,0 +1,215 @@
+<div class="tool" id="tool-cornell-transfer-application-checklist" data-tool="cornell-transfer-application-checklist" data-as-of="2026-11-11">
+  <style>
+    #tool-cornell-transfer-application-checklist .ctac-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:.75rem 1rem;margin:0 0 1rem}
+    #tool-cornell-transfer-application-checklist .ctac-wide{grid-column:1/-1}
+    #tool-cornell-transfer-application-checklist label{font-weight:600}
+    #tool-cornell-transfer-application-checklist .ctac-wide label{display:block;margin-bottom:.2rem}
+    #tool-cornell-transfer-application-checklist select{width:100%;max-width:100%}
+    #tool-cornell-transfer-application-checklist .ctac-result ul{padding-left:1.2rem;margin:0}
+    #tool-cornell-transfer-application-checklist .ctac-result li{margin:.5rem 0}
+    #tool-cornell-transfer-application-checklist .ctac-meta{font-size:.9em}
+    #tool-cornell-transfer-application-checklist .ctac-note{font-size:.875em;opacity:.8;margin-top:.75rem}
+  </style>
+  <form class="ctac-grid" onsubmit="return false">
+    <div class="ctac-wide"><label for="cornell-transfer-application-checklist-program">College and major you are applying to</label>
+      <select id="cornell-transfer-application-checklist-program">
+        <option value="as" selected>Arts and Sciences (any major, including the CS B.A.)</option>
+        <option value="cals">CALS: any other major</option>
+        <option value="cals-bio">CALS: Biological Sciences</option>
+        <option value="cals-la">CALS: Landscape Architecture</option>
+        <option value="cals-gd">CALS: Global Development</option>
+        <option value="cals-gphs">CALS: Global and Public Health Sciences</option>
+        <option value="eng">Engineering: any other major</option>
+        <option value="eng-cs">Engineering: Computer Science (B.S.)</option>
+        <option value="eng-che">Engineering: Chemical Engineering</option>
+        <option value="hotel">Hotel Administration (Nolan School)</option>
+        <option value="dyson">Dyson: Applied Economics and Management</option>
+        <option value="he">Human Ecology: any other major</option>
+        <option value="he-fd">Human Ecology: Fashion Design</option>
+        <option value="he-fdm">Human Ecology: Fashion Design Management</option>
+        <option value="he-dea">Human Ecology: Design and Environmental Analysis</option>
+        <option value="ilr">ILR (Industrial and Labor Relations)</option>
+        <option value="brooks">Brooks School of Public Policy</option>
+        <option value="aap-art">AAP: Art (B.F.A.)</option>
+        <option value="aap-arch">AAP: Architecture (B.Arch.)</option>
+        <option value="aap">AAP: another program</option>
+      </select></div>
+    <div><input id="cornell-transfer-application-checklist-to" type="checkbox">
+      <label for="cornell-transfer-application-checklist-to">I hold a Transfer Option offer</label></div>
+    <div><input id="cornell-transfer-application-checklist-intl" type="checkbox">
+      <label for="cornell-transfer-application-checklist-intl">I'm an international applicant (no US citizenship or permanent residency)</label></div>
+    <div><input id="cornell-transfer-application-checklist-aid" type="checkbox" checked>
+      <label for="cornell-transfer-application-checklist-aid">I'm applying for financial aid</label></div>
+    <div><input id="cornell-transfer-application-checklist-ny" type="checkbox">
+      <label for="cornell-transfer-application-checklist-ny">I'm a New York State resident</label></div>
+    <div><input id="cornell-transfer-application-checklist-eop" type="checkbox">
+      <label for="cornell-transfer-application-checklist-eop">I'm applying for EOP or HEOP</label></div>
+    <div><input id="cornell-transfer-application-checklist-out" type="checkbox">
+      <label for="cornell-transfer-application-checklist-out">I've been out of school two or more years (or I'm a veteran)</label></div>
+    <div><input id="cornell-transfer-application-checklist-sds" type="checkbox">
+      <label for="cornell-transfer-application-checklist-sds">I'll need disability accommodations or accessible housing</label></div>
+    <div><input id="cornell-transfer-application-checklist-spring" type="checkbox" checked>
+      <label for="cornell-transfer-application-checklist-spring">I'm taking college courses this spring</label></div>
+  </form>
+  <div class="ctac-result" id="cornell-transfer-application-checklist-result" aria-live="polite">
+    <p>Pick your college and your situation, and your checklist appears here: every piece, who completes it, and its deadline (<span data-as-of="2026-11-11">March 15, 2027</span> or <span data-as-of="2026-11-11">April 15, 2027</span> for fall 2027 entry), then what to send after admission. Rules from Cornell pages read on 2026-11-11.</p>
+  </div>
+  <script>
+  (function () {
+    var root = document.getElementById("tool-cornell-transfer-application-checklist");
+    if (!root) return;
+    var P = "cornell-transfer-application-checklist-";
+    function el(id) { return root.querySelector("#" + P + id); }
+    var U = {
+      adm: "https://admissions.cornell.edu/apply/transfer-applicants",
+      intl: "https://admissions.cornell.edu/how-to-apply/transfer-international-applicants",
+      to: "https://admissions.cornell.edu/transfer-option-applicants",
+      asAdm: "https://as.cornell.edu/admissions/admissions-requirements-and-process",
+      tests: "https://faq.enrollment.cornell.edu/kb/article/322-are-standardized-tests-required-for-transfer-applicants/",
+      ilr: "https://www.ilr.cornell.edu/sites/default/files-d8/2026-02/transfer-guidelines-fa-26-final.pdf",
+      aid: "https://finaid.cornell.edu/apply-aid/prospective-students-or-first-time-aid-applicants",
+      aidIntl: "https://finaid.cornell.edu/first-year-and-transfer-students-international",
+      trustees: "https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters",
+      eop: "https://oadi.cornell.edu/node/50",
+      eng: "https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements",
+      cals: "https://cals.cornell.edu/education/admissions/undergraduate-admissions/transfer-applicants",
+      he: "https://www.human.cornell.edu/admissions/transfer",
+      hotel: "https://business.cornell.edu/admissions/undergraduate/bs-hotel-administration/application-requirements/",
+      aap: "https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/",
+      links: "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment/college-school-links",
+      cds: "https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf",
+      asReg: "https://as.cornell.edu/registrar/transferring-credits",
+      reg: "https://registrar.cornell.edu/students/credit-evaluation-services",
+      enroll: "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment",
+      cal: "https://registrar.cornell.edu/calendars-exams/academic-calendar",
+      housing: "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process",
+      resPolicy: "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy",
+      shp: "https://studenthealthbenefits.cornell.edu/shp-costs-billing-important-dates/shp-costs-dates-2026-27",
+      shpWaive: "https://studenthealthbenefits.cornell.edu/node/179",
+      f1: "https://international.globallearning.cornell.edu/getting-started/f-1-transfer-students",
+      j1: "https://international.globallearning.cornell.edu/getting-started/transfer-your-j-1-visa-cornell",
+      vet: "https://admissions.cornell.edu/veterans"
+    };
+    var D = "2026-11-11";
+    const NUMBERS = {
+      firstDeadline: { value: "2027-03-15", asOf: D, source: U.adm },
+      secondDeadline: { value: "2027-04-15", asOf: D, source: U.adm },
+      aidDeadline: { value: "2027-03-15", asOf: D, source: U.aid },
+      aidOpens: { value: "2026-10-01", asOf: D, source: U.aid },
+      heVerify: { value: "June 8 to 30", asOf: D, source: U.links },
+      dysonAdvisor: { value: "July", asOf: D, source: U.links },
+      toDeadline: { value: "2026-03-15", asOf: D, source: U.to },
+      appFee: { value: 85, asOf: D, source: U.adm },
+      essayMin: { value: 250, asOf: D, source: U.adm },
+      essayMax: { value: 650, asOf: D, source: U.adm },
+      ilrCornellSupp: { value: 350, asOf: "2026-02-10", source: U.ilr },
+      ilrSupp: { value: 650, asOf: "2026-02-10", source: U.ilr },
+      ilrPersonal: { value: 650, asOf: "2026-02-10", source: U.ilr },
+      heToEssay: { value: 600, asOf: D, source: U.to },
+      toGpa: { value: 3.5, asOf: D, source: U.asAdm },
+      outYears: { value: 2, asOf: D, source: U.adm },
+      cssCode: { value: "2098", asOf: D, source: U.aid },
+      fafsaCode: { value: "002711", asOf: D, source: U.aid },
+      hescContract: { value: "0174", asOf: D, source: U.aid },
+      hescEndowed: { value: "0175", asOf: D, source: U.aid },
+      cssWaiverAgi: { value: 100000, asOf: D, source: U.aid },
+      tuitionIncome: { value: 125000, asOf: D, source: U.trustees },
+      fullCostIncome: { value: 75000, asOf: D, source: U.trustees },
+      intlWithholding: { value: 14, asOf: D, source: U.aidIntl },
+      eopDocsYear: { value: 2025, asOf: D, source: U.eop },
+      replyBy: { value: "July 1", asOf: D, source: U.cds },
+      aapWeeks: { value: 2, asOf: D, source: U.aap },
+      housingDays: { value: 10, asOf: D, source: U.housing },
+      shpFall: { value: 1705, asOf: D, source: U.shp },
+      shpSpring: { value: 2046, asOf: D, source: U.shp },
+      shpYearOne: { value: 3751, asOf: D, source: U.shp },
+      shpWaiver: { value: "2026-07-31", asOf: D, source: U.shpWaive },
+      examCreditLastDay: { value: "2026-12-07", asOf: D, source: U.cal },
+      courseAgeYears: { value: 7, asOf: D, source: U.reg }
+    };
+    var NAMES = { as: "Arts and Sciences", cals: "CALS", eng: "Engineering", hotel: "the Hotel School", dyson: "Dyson", he: "Human Ecology", ilr: "ILR", brooks: "the Brooks School", aap: "AAP" };
+    var CONTRACT = { cals: 1, he: 1, ilr: 1, brooks: 1, dyson: 1 };
+    function n(k, txt) { var e = NUMBERS[k]; return "<span data-as-of='" + e.asOf + "'>" + (txt == null ? String(e.value) : txt) + "</span>"; }
+    function usd(k) { return n(k, "$" + String(NUMBERS[k].value).replace(/\B(?=(\d{3})+(?!\d))/g, ",")); }
+    function a(h, t) { return "<a href='" + h + "' rel='noopener'>" + t + "</a>"; }
+    function render() {
+      var prog = el("program").value, col = prog.split("-")[0], name = NAMES[col];
+      var to = el("to").checked, intl = el("intl").checked, eop = el("eop").checked, aid = el("aid").checked || eop;
+      var ny = el("ny").checked && !intl, out = el("out").checked, sds = el("sds").checked, spring = el("spring").checked;
+      var G = { first: [], mar: [], apr: [], after: [] }, mine = 0;
+      function add(g, title, who, due, detail) {
+        G[g].push("<li><strong>" + title + "</strong><br><span class='ctac-meta'>Who: " + who + ". Due: " + due + ".</span> " + detail + "</li>");
+        if (/^you( |$)/.test(who)) mine++;
+      }
+      var M15 = n("firstDeadline", "March 15, 2027"), A15 = n("secondDeadline", "April 15, 2027");
+      var TOD = n("toDeadline", "March 15 (the 2026 date; recheck for 2027)"), AID = n("aidDeadline", "March 15, 2027");
+      var trans = intl ? " Anything not in English needs an official English translation; a teacher or school official may translate it." : "";
+      // Before you apply
+      if (prog === "aap-arch") add("first", "Architecture (B.Arch.) is closed to external transfers for fall 2027", "AAP's rule", "before you start", "Choose another program or college. " + a(U.aap, "AAP"));
+      if (prog === "cals-gphs") add("first", "Global and Public Health Sciences takes no transfers", "CALS's rule", "before you start", "Choose another major. " + a(U.cals, "CALS"));
+      if (prog === "cals-gd") add("first", "Global Development takes sophomore transfers only", "CALS's rule", "before you start", "Juniors need another major. " + a(U.cals, "CALS"));
+      if (col === "eng") add("first", "Engineering's required course block", "you", "completed, in progress or planned when you apply", "MATH 1910 and MATH 1920, PHYS 1112 with PHYS 1110, CHEM 2090 with the CHEM 2091 lab. Missing any one means the application is not reviewed. You are admitted to one major and stay in it at least one academic year." + (prog === "eng-che" ? " Chemical Engineering: apply as a sophomore if you can, since some sophomore courses are not offered at most two-year colleges." : "") + (prog === "eng-cs" ? " Computer Science is also open as a B.A. through Arts and Sciences." : "") + " " + a(U.eng, "Engineering"));
+      if (to && col === "as") add("first", "Your Transfer Option year", "you", "every semester before you apply", "A&S expects two full-time semesters (or three quarters) at a regionally accredited degree-granting school, summer not counting, in broad liberal arts and sciences, with a " + n("toGpa") + " GPA each semester and no grade below B-. It is an invitation to apply, not admission. " + a(U.asAdm, "A&S"));
+      if (out) add("first", "Veterans: contact the Veterans Admissions Team", "you", "before you apply", "Cornell has a dedicated team for veteran applicants. " + a(U.adm, "Admissions"));
+      // First deadline
+      if (!to) {
+        add("mar", "Transfer Common App with Cornell added", "you", M15, "Choose one college and, in most colleges, one major (yours: " + name + "). Adding Cornell unlocks your program's materials. " + a(U.adm, "Admissions"));
+        add("mar", "Essay", "you", M15, n("essayMin") + " to " + n("essayMax") + " words on: How does continuing your education at a new institution help you achieve your future goals? " + a(U.adm, "Admissions"));
+        if (col === "ilr") add("mar", "ILR's three writing pieces", "you", M15, "A Cornell supplement of " + n("ilrCornellSupp") + " words (community prompt), an ILR supplement of " + n("ilrSupp") + " words and a personal statement of " + n("ilrPersonal") + " words (fall 2026 guidelines). " + a(U.ilr, "ILR"));
+        else add("mar", "Writing Supplement for " + name, "you", M15, "A college-specific piece on top of the essay. Admissions names it, with your current grades and professor recommendations, among what matters most. " + a(U.adm, "Admissions"));
+        add("mar", "Application fee or fee waiver", "you", M15, usd("appFee") + ", or request the waiver in the Common App" + (aid ? "; it is applied automatically when the fee is a burden and you plan to apply for aid" : "") + ". No documents go to Cornell. " + a(U.adm, "Admissions"));
+        add("mar", "Exam scores, self-reported", "you", "with the application", "List AP, IB or A-Level results in the Common App Academic History. SAT and ACT are neither required nor expected. " + a(U.tests, "Cornell FAQ"));
+        add("mar", "Applicant Portal login", "Cornell admissions emails it", "after you submit the Common App", "Track every piece there, request the College Report there, and read your decision there. " + a(U.adm, "Admissions"));
+        if (col === "dyson") add("mar", "Resume or CV", "you", "with the application", "Required for Applied Economics and Management. " + a(U.adm, "Admissions"));
+        if (col === "hotel") add("mar", "Resume or CV", "you", "with the application", "The central admissions page requires one for Hotel; the Hotel page lists resumes only for first-year applicants. Send one: an unneeded resume costs nothing. " + a(U.adm, "Admissions") + ", " + a(U.hotel, "Hotel"));
+        if (col === "aap") add("mar", "Personal statement", "you", M15, "AAP asks for a personal statement and at least one recommendation." + (prog === "aap-art" ? "" : " Only the B.Arch. and B.F.A. need a portfolio.") + " " + a(U.aap, "AAP"));
+      } else {
+        add("mar", "Transfer Option application (not the Common App)", "you", TOD, "Only offer holders use it, logging in with the portal credentials from the first-year application. No application fee. The page shows Application Available Winter 2027 for the next round. " + a(U.to, "Transfer Option"));
+        var x = { cals: "a resume, your course schedule, AP scores and two essays", he: "a resume, AP scores, a " + n("heToEssay") + "-word essay and the design supplement", hotel: "a resume (SC Johnson College of Business; no interview)", dyson: "a resume (SC Johnson College of Business; no interview)", ilr: "your AP scores", as: "nothing beyond the shared list" }[col];
+        add("mar", "Transfer Option extras for " + name, "you", TOD, x ? "Cornell lists " + x + "." : "Ask " + name + " admissions which extras it wants from Transfer Option holders; each college also sets its own GPA and course conditions.");
+      }
+      if (prog === "aap-art") add("mar", "Portfolio (B.F.A.)", "you", M15, "Through SlideRoom, with the application. " + a(U.aap, "AAP"));
+      if (prog === "cals-la") add("mar", "Landscape Architecture portfolio", "you", to ? TOD : M15, "Through SlideRoom. " + a(to ? U.to : U.adm, "Admissions"));
+      if (prog === "he-fd") add("mar", "Portfolio and Design Index (Fashion Design)", "you", to ? TOD : M15, "Some Human Ecology design majors also have a Design Challenge through SlideRoom. " + a(U.he, "Human Ecology"));
+      if ((prog === "he-fdm" || prog === "he-dea") && !to) add("mar", "Design supplement", "you", M15, "Required for " + (prog === "he-dea" ? "Design and Environmental Analysis" : "Fashion Design Management") + "; some design majors also have a Design Challenge through SlideRoom. " + a(U.adm, "Admissions"));
+      if (aid && intl) add("mar", "CSS Profile (international)", "you and your family", AID, "File it as soon as you can after " + n("aidOpens", "October 1, 2026") + ", with code " + n("cssCode") + "; a fee waiver is generally not available. Miss this date and you cannot get Cornell undergraduate aid later. Admission is need-aware for international applicants; aid above tuition and fees is taxable, with " + n("intlWithholding") + "% withheld unless a treaty applies. " + a(U.aidIntl, "Financial Aid"));
+      if (aid && !intl) add("mar", "CSS Profile and FAFSA", "you and your family", AID, "CSS Profile code " + n("cssCode") + ", FAFSA code " + n("fafsaCode") + ". The CSS fee is waived automatically for adjusted gross income up to " + usd("cssWaiverAgi") + ". Upload documents to IDOC only when asked. Aid is need-based only; with family income up to " + usd("tuitionIncome") + " and typical assets grants cover tuition, and up to " + usd("fullCostIncome") + " they cover the full cost of attendance. " + a(U.aid, "Financial Aid") + ", " + a(U.trustees, "Chronicle"));
+      if (aid && ny) add("mar", "HESC (New York State aid)", "you and your family", AID, "File at hesc.ny.gov with code " + (CONTRACT[col] ? n("hescContract") + " (contract college)" : n("hescEndowed") + " (endowed college)") + ". " + a(U.aid, "Financial Aid"));
+      if (eop) add("mar", "EOP or HEOP", "you and your family", "no date on the EOP page; send it with your aid forms by " + AID, (CONTRACT[col] ? "Email stateprograms@cornell.edu (CALS, Human Ecology, ILR, Brooks and Dyson use email)." : "Complete the HEOP Transfer Certification form (AAP, A&S, Engineering and the SC Johnson College of Business with the Hotel School).") + " Fall 2027 applicants send " + n("eopDocsYear") + " financial documents through IDOC, plus a non-filer statement or non-custodial waiver where one applies. OADI: 607.255.3841, oadi@cornell.edu. " + a(U.eop, "OADI"));
+      // Second deadline
+      var due2 = to ? "with the application, " + TOD : A15;
+      add("apr", "College Report", "an official at your current college (registrar or dean)", due2, "Not a recommendation: it confirms your academic and disciplinary standing. You request it in the Applicant Portal by naming the official. " + a(U.adm, "Admissions"));
+      if (!to) add("apr", "Academic Evaluation", out ? "a personal or employer reference (allowed when you are out of school " + n("outYears") + " or more years)" : "an instructor of a full-credit college course", A15, (col === "ilr" ? "ILR's guidelines ask for one academic recommendation from a college professor" + (out ? "; ask ILR before you substitute" : "") + ". " + a(U.ilr, "ILR") : "One evaluation. " + a(U.adm, "Admissions")));
+      add("apr", "Official transcripts from every college you attended", "each college's registrar", due2, "Any fee is set by each school." + trans + " " + a(U.adm, "Admissions"));
+      add("apr", "Final high school transcript (grades 9 to 12)", "your high school", due2, trans + " " + a(U.adm, "Admissions"));
+      if (spring) add("apr", "Mid-Term Report", "you", col === "ilr" && !to ? M15 + " if you can, " + A15 + " at the latest" : (to ? "may arrive after " + TOD : A15), "You fill it in yourself, not a professor: list your spring courses with official or estimated grades, and upload an explanation where no grade can be given yet. " + a(U.adm, "Admissions"));
+      // After admission
+      add("after", "Accept and deposit", "you", "no transfer deposit date is published; the Common Data Set gives a reply date of " + n("replyBy"), (col === "as" ? "A&S sends a tentative credit evaluation only after you accept and deposit. " + a(U.asReg, "A&S") : a(U.cds, "CDS 2025-26")));
+      if (aid) add("after", "Cornell Aid Estimate and document requests", "you and your family", "as soon as asked", "The estimate comes soon after admission; answer IDOC requests fast so it arrives before you commit. Appeals for changed finances go to finaid@cornell.edu with your name and admissions ID. " + a(intl ? U.aidIntl : U.aid, "Financial Aid"));
+      if (col === "eng") add("after", "Course description form", "you", "with the Enrollment Response Form", "Plus detailed syllabi and a certified official transcript for credit. " + a(U.eng, "Engineering"));
+      if (col === "aap") add("after", "Syllabi and coursework", "you", n("aapWeeks", "within two weeks of the offer"), "A portfolio for studio courses; AAP evaluates credit only after an offer. " + a(U.aap, "AAP"));
+      if (col === "hotel") add("after", "Final transcript and syllabi to the Hotel registrar", "you", "after admission", "ha-registrar@cornell.edu; syllabi decide core credit. " + a(U.links, "Tatkon college links"));
+      if (col === "dyson") add("after", "Advisor meeting on your credit evaluation", "you and a Dyson advisor", n("dysonAdvisor") + " (2024 pattern)", "Dyson_OSS@cornell.edu. " + a(U.links, "Tatkon college links"));
+      if (col === "he") add("after", "Verify your major", "you", n("heVerify") + " (2024 pattern)", "humec_students@cornell.edu. " + a(U.links, "Tatkon college links"));
+      add("after", "Final spring transcript, and keep your syllabi", "your current college sends it; you keep the syllabi", "after spring grades post", "Credit evaluations finish only after the final transcript, which is why most transfers build their schedule during add/drop. Keep every syllabus until your Cornell degree audit shows the credit." + (out ? " Courses taken " + n("courseAgeYears") + " or more years ago are generally not eligible, and Cornell generally cannot award credit for military training. " + a(U.vet, "Veterans") : "") + " " + a(U.reg, "Registrar"));
+      if (sds) add("after", "Register with Student Disability Services", "you", "before your housing application", "607-254-4545, sds_cu@cornell.edu. The housing application page routes accessible housing through SDS. " + a(U.housing, "Housing"));
+      add("after", "Housing application", "you", n("housingDays", "within 10 days of getting your NetID"), "On the Housing and Dining Portal; no fee and no deposit. New transfers live on campus for one academic year unless exempt (two years on campus at a previous school, or entering as a junior or senior)." + (out ? " Veterans House is a Program House you can request by name." : "") + " " + a(U.housing, "Housing") + ", " + a(U.resPolicy, "residential policy"));
+      add("after", "Student Health Plan: enroll or waive", "you", n("shpWaiver", "July 31 (the 2026 date)"), "Waive with proof of comparable coverage, or you are enrolled and billed " + usd("shpFall") + " for fall plus " + usd("shpSpring") + " for spring, " + usd("shpYearOne") + " in year one at 2026-27 rates. " + a(U.shp, "Student Health Benefits"));
+      if (intl) add("after", "F-1 or J-1 record transfer", "you and Cornell Global Learning", "after admission", "Follow Global Learning's transfer steps for your visa type. " + a(U.f1, "F-1") + ", " + a(U.j1, "J-1"));
+      add("after", "Exam credit request", "you", n("examCreditLastDay", "the last day of instruction of your first Cornell semester (Dec 7 in 2026)"), "AP, IB or A-Level credit your old school accepted does not carry over by itself. Send AP scores with College Board code " + n("cssCode") + " (IB and A-Level transcripts go to your college registrar), then make a written request to the college registrar. " + a(U.enroll, "Tatkon") + ", " + a(U.reg, "Registrar"));
+      var heads = { first: "Before you apply", mar: to ? "With the Transfer Option application" : "First deadline: March 15, 2027", apr: to ? "From you and your schools" : "Second deadline: April 15, 2027", after: "After you are admitted" };
+      var total = 0, html = "";
+      ["first", "mar", "apr", "after"].forEach(function (g) {
+        if (!G[g].length) return;
+        total += G[g].length;
+        html += "<h3>" + heads[g] + " (" + G[g].length + ")</h3><ul>" + G[g].join("") + "</ul>";
+      });
+      var lead = "<p><strong>" + total + " items for " + el("program").options[el("program").selectedIndex].text + (to ? " as a Transfer Option holder" : "") + ": " + G.mar.length + " " + (to ? "with the Transfer Option application (due " + TOD + ")" : "due " + M15) + ", " + G.apr.length + " " + (to ? "from you and your schools" : "due " + A15) + ", " + G.after.length + " after admission.</strong> You complete " + mine + " of them yourself; the rest come from your school, an instructor, your family or Cornell.</p>";
+      el("result").innerHTML = lead + html + "<p class='ctac-note' data-as-of='" + D + "'>Rules and dates as of 2026-11-11, for fall 2027 entry. Dates marked 2026 or 2024 are from earlier cycles and change when Cornell posts the 2027 versions. Nothing here is estimated; when a college page and the central page disagree (the Hotel resume), the item says so.</p>";
+    }
+    root.addEventListener("input", render);
+    root.addEventListener("change", render);
+    render();
+  })();
+  </script>
+</div>

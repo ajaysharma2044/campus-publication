@@ -5,7 +5,7 @@ primary_query: Zipcar Cornell Ithaca car share students
 topic: getting-around
 school: cornell-university
 type: decision
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0042
 kind: spoke
 subject: Collegetown Ithaca
@@ -23,28 +23,37 @@ tools:
 sources:
 - url: https://www.ithacacarshare.org/students-commuters
   title: 'Ithaca Carshare: Students and commuters'
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.ithacacarshare.org/rates
   title: 'Ithaca Carshare: Rates'
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.ithacacarshare.org/eligibility
   title: 'Ithaca Carshare: Eligibility'
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
+- url: https://www.ithacacarshare.org/easy-access/
+  title: 'Ithaca Carshare: Easy Access'
+  accessed: '2026-11-11'
+- url: https://www.ithacacarshare.org/member-cancellation/
+  title: 'Ithaca Carshare: Member cancellation'
+  accessed: '2026-11-11'
+- url: https://www.ithacacarshare.org/frequently-asked-questions/
+  title: 'Ithaca Carshare: Frequently asked questions'
+  accessed: '2026-11-11'
 - url: https://www.ithacacarshare.org
   title: Ithaca Carshare
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing
   title: 'Cornell Sustainability: Ride and car sharing'
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.ithaca.edu/orientation/family-and-guest-resources/transportation
   title: 'Ithaca College: Transportation, family and guest resources'
   accessed: '2026-11-08'
 - url: https://cornellsun.com/2023/09/19/ithaca-carshare-to-resume-operations-march-2024/
   title: Ithaca Carshare to resume operations March 2024, The Cornell Daily Sun, September 19, 2023
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/03/25/ithaca-carshare-officially-returns-to-operation
   title: Ithaca Carshare officially returns to operation, The Cornell Daily Sun, March 2024
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
   title: 'Cornell Transportation and Delivery Services: Student parking'
   accessed: '2026-11-08'
@@ -54,18 +63,12 @@ sources:
 - url: https://www.ithacabikeshare.org
   title: Ithaca Bikeshare
   accessed: '2026-11-08'
-- url: https://reports.aashe.org/institutions/cornell-university-ny/report/2013-03-08/OP/transportation/OP-T2-37
-  title: Cornell University STARS report 2013, AASHE
-  accessed: '2026-11-08'
 - url: https://cornellsun.com/2008/08/11/carshare-program-fosters-sustainable-transportation-ithaca
   title: Carshare program fosters sustainable transportation in Ithaca, The Cornell Daily Sun, August 11, 2008
   accessed: '2026-11-08'
-- url: https://talk.collegeconfidential.com/t/should-i-bring-a-car/1811430
-  title: Should I bring a car?, College Confidential, 2016
-  accessed: '2026-11-08'
 - url: https://www.ithacacarshare.org/wp-content/uploads/IthacaCarshareHandbook.pdf
   title: Ithaca Carshare Member Handbook, Summer 2024
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Student & Campus Life
   accessed: '2026-11-08'
@@ -97,7 +100,7 @@ You lost free daytime TCAT after first year, so errands now cost $1.50 a ride be
 ```
 
 ```reader "If you're a grad or professional student"
-You may live off campus with a partner or kids, and an apartment may come with no parking. Carshare's student plans cover grad students and allow up to two drivers ([Ithaca Carshare](https://www.ithacacarshare.org/students-commuters)). Not confirmed: whether the second driver must also be a student. If you drive every week, price It's My Car: $310 a year plus $6 an hour, and it wins past about 93 hours a year. A permit is the other benchmark: the $752.98 resident permit alone equals about 59 to 70 Carshare hours, by our math. The costly mistake is buying a car and a permit for trips that add up to a few hours a month.
+You may live off campus with a partner or kids, and an apartment may come with no parking. Carshare's student plans cover grad students and allow up to two drivers ([Ithaca Carshare](https://www.ithacacarshare.org/students-commuters)). If you drive every week, price It's My Car: $310 a year plus $6 an hour, and it wins past about 93 hours a year. A permit is the other benchmark: the $752.98 resident permit alone equals about 59 to 70 Carshare hours, by our math. The costly mistake is buying a car and a permit for trips that add up to a few hours a month.
 ```
 
 ```reader "If you're renting off campus"
@@ -109,18 +112,18 @@ Dining is usually closed the week the university closes ([winter break housing](
 ```
 
 ```reader "If you're an international student"
-Carshare needs an official driving record from your home country. An International Driving Permit is not accepted as that record, and some countries cannot be approved at all ([eligibility](https://www.ithacacarshare.org/eligibility)). Your license must also be at least 2 years old. Ask for your record before you leave home. The page does not name the countries it cannot approve, so call (607) 277-3210 before you pay the non-refundable $20 sign-up. That fee lost is the costly mistake. If you cannot qualify, plan grocery runs in TCAT's free hours: after 6 p.m. on weekdays and all weekend for upper-years.
+Carshare needs an official driving record from your home country. An International Driving Permit is not accepted as that record, and Carshare cannot approve applicants from countries that do not provide driving records ([eligibility](https://www.ithacacarshare.org/eligibility)). Your license must also be at least 2 years old. Ask for your record before you leave home. If you are not sure your country issues one, call (607) 277-3210 before you pay the non-refundable $20 sign-up. That fee lost is the costly mistake. If you cannot qualify, plan grocery runs in TCAT's free hours: after 6 p.m. on weekdays and all weekend for upper-years.
 ```
 
 ```reader "If you're staying for the summer"
-OmniRide passes expire Aug 31 ([Cornell TDS](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)), and a summer job off the bus lines is where a car share earns its fee. Student discounts apply only to annual plans; monthly plans are full community price ([Ithaca Carshare](https://www.ithacacarshare.org/students-commuters)). Just In Case is $7.50 a month for the community ([rates](https://www.ithacacarshare.org/rates)), so three summer months cost $22.50, against $30 for the student year. If you will stay in the fall, take the $30 annual. Not confirmed: whether monthly plans can be cancelled at any time.
+OmniRide passes expire Aug 31 ([Cornell TDS](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)), and a summer job off the bus lines is where a car share earns its fee. Student discounts apply only to annual plans; monthly plans are full community price ([Ithaca Carshare](https://www.ithacacarshare.org/students-commuters)). Just In Case is $7.50 a month for the community ([rates](https://www.ithacacarshare.org/rates)), so three summer months cost $22.50, against $30 for the student year. If you will stay in the fall, take the $30 annual. Annual plans closed early get no refund, and a monthly plan keeps renewing until you call or email Carshare to end it ([member cancellation](https://www.ithacacarshare.org/member-cancellation/)).
 ```
 
 ## Is there a Zipcar at Cornell?
 
 No. Cornell's car-sharing page points students to [Ithaca Carshare](https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing), the local nonprofit, not Zipcar.
 
-Ithaca Carshare runs about 20 vehicles across the city, with maintenance and insurance included ([Ithaca Carshare](https://www.ithacacarshare.org)). The fleet has fuel-efficient cars, a minivan and a pickup truck, with 24/7 access ([Ithaca College](https://www.ithaca.edu/orientation/family-and-guest-resources/transportation)). Cornell lists [four on-campus pickup spots plus four in Collegetown and nearby](https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing). Not confirmed: the street address of each pod.
+Ithaca Carshare runs about 20 vehicles across the city, with maintenance and insurance included ([Ithaca Carshare](https://www.ithacacarshare.org)). The fleet has fuel-efficient cars, a minivan and a pickup truck, with 24/7 access ([Ithaca College](https://www.ithaca.edu/orientation/family-and-guest-resources/transportation)). Cornell lists [four on-campus pickup spots plus four in Collegetown and nearby](https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing). Each car parks at its own designated home space, and members see every car's exact location in the reservation system ([Carshare FAQ](https://www.ithacacarshare.org/frequently-asked-questions/)).
 
 ## How much Ithaca Carshare costs a Cornell student
 
@@ -136,7 +139,7 @@ Cornell subsidizes annual memberships for undergraduates, grad students, staff a
 | Daily cap | Hourly charges stop at 10 hours per 24 | Same |
 | Drivers | Up to two | Up to two |
 
-Rates are from the [rates page](https://www.ithacacarshare.org/rates) and the [student page](https://www.ithacacarshare.org/students-commuters), both undated and read in November 2026. The 10-hour daily cap does not apply to the highest-demand cars. The student page lists gas or EV charging, maintenance and insurance as included with It's My Car.
+These are the rates posted in November 2026 on the [rates page](https://www.ithacacarshare.org/rates) and the [student page](https://www.ithacacarshare.org/students-commuters). The 10-hour daily cap does not apply to cars at the highest-demand locations. The student page lists gas or EV charging, maintenance and insurance as included with It's My Car.
 
 The community plans, for comparison: Just In Case is $7.50 a month or $75 a year, meant for under 6 hours a month. It's My Car is $35 a month or $355 a year, for over 6 hours a month ([rates](https://www.ithacacarshare.org/rates)). Monthly plans get no student discount.
 
@@ -193,13 +196,13 @@ The [eligibility page](https://www.ithacacarshare.org/eligibility) sets the bar 
 | Driver | What Carshare requires |
 |---|---|
 | Everyone | Age 18 or older; full, unrestricted license held 2 or more years; no suspension in 3 years |
-| Under 21 | A spotless record; your own insurance policy with at least $300,000 per accident liability; the Younger Driver Insurance Consent Form; your policy's declarations page |
+| Under 21 | A spotless record; a car insurance policy listing you as a driver, with at least $300,000 per accident liability; the Younger Driver Insurance Consent Form; the policy's declarations page |
 | 21 and over | At most two accidents or violations in 3 years; a DUI or DWI in the last 7 years disqualifies |
-| Foreign license | An official driving record; an International Driving Permit is not accepted as a record; some countries cannot be approved |
+| Foreign license | An official driving record; an International Driving Permit is not accepted as a record; countries that do not provide driving records cannot be approved |
 
 The page mentions both 2-year and 3-year lookbacks for foreign records. If yours is borderline, call (607) 277-3210 or email info@ithacacarshare.org.
 
-The under-21 rule is the one that stops sophomores. Carshare asks for your own policy with the $300,000 liability limit, so ask your insurer before you apply.
+The under-21 rule is the one that stops sophomores. A parent's policy can work if it lists you as a driver with at least $300,000 per accident in liability. Carshare needs its declarations page and a consent form signed by the policy's owner ([eligibility](https://www.ithacacarshare.org/eligibility)). Ask your insurer before you apply.
 
 ## How to join
 
@@ -220,11 +223,7 @@ rows:
 
 ## What students use it for
 
-Groceries, mostly. A 2013-era Cornell report found that 54% of Carshare trips by on-campus Cornell students were grocery runs ([Cornell Sustainability](https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing)). In 2012-13, 584 Cornell students and 237 employees used the membership incentive ([STARS report, 2013](https://reports.aashe.org/institutions/cornell-university-ny/report/2013-03-08/OP/transportation/OP-T2-37)). Those are the newest usage counts published; treat them as history.
-
-Car share as a safety net is a theme in five sources from 2016 to 2024. In a [2016 College Confidential thread](https://talk.collegeconfidential.com/t/should-i-bring-a-car/1811430), posters told a first-year to skip the car. In the [Sun in 2023](https://cornellsun.com/2023/09/19/ithaca-carshare-to-resume-operations-march-2024/), a grad student described using Carshare as a backup, then switching to Bikeshare and planning to buy a car.
-
-Not confirmed: any student review of Carshare since it returned in 2024.
+One grad student, a member for two years, told the [Sun in 2023](https://cornellsun.com/2023/09/19/ithaca-carshare-to-resume-operations-march-2024/) that Carshare was his safety net. He once walked to a Carshare truck parked down the street and used it for about an hour to help a friend move. When the service paused that year, he switched to Bikeshare and said he was planning to get a car.
 
 ## The 2023 to 2024 shutdown
 
@@ -243,7 +242,7 @@ Old prices also still rank. In 2008, the frequent-use plan was $200 a year plus 
 
 ## Common mistakes
 
-- **Applying under 21 on a parent's insurance.** Carshare needs your own policy with $300,000 liability. Without it you lose the $20 sign-up.
+- **Applying under 21 before your insurance papers are ready.** Carshare will not process the application until the declarations page and signed consent form arrive, and the $20 sign-up is non-refundable.
 - **Counting on an International Driving Permit.** It is not accepted as a driving record. Get the official record from home first.
 - **Buying It's My Car for occasional trips.** Below about 78 to 93 hours a year, it costs up to $280 more than Just In Case.
 - **Paying monthly for a school year.** Monthly Just In Case at $7.50 is $90 over 12 months, against $30 for the student annual plan.
@@ -255,11 +254,11 @@ Old prices also still rank. In 2008, the frequent-use plan was $200 a year plus 
 
 **Does Ithaca Carshare work for Ithaca College or TC3 students?** Yes. Ithaca College and TC3 students qualify for the same discounted annual plans ([students and commuters](https://www.ithacacarshare.org/students-commuters)).
 
-**Can I take a Carshare car on a day trip?** Yes. Hourly charges are capped at 10 hours in any 24, except on the highest-demand cars, so a 10-hour, 120-mile day costs about $168.48 on Just In Case by our math ([rates](https://www.ithacacarshare.org/rates)).
+**Can I take a Carshare car on a day trip?** Yes. Hourly charges are capped at 10 hours in any 24, except for cars at the highest-demand locations, so a 10-hour, 120-mile day costs about $168.48 on Just In Case by our math ([rates](https://www.ithacacarshare.org/rates)).
 
 **Can I rent the pickup truck for move-out?** The fleet includes a minivan and a pickup ([Ithaca College](https://www.ithaca.edu/orientation/family-and-guest-resources/transportation)). The truck bills at 52 cents a mile and the van at 44, against 42 for a car ([rates](https://www.ithacacarshare.org/rates)).
 
-**Is there a low-income plan?** Carshare's [Summer 2024 member handbook](https://www.ithacacarshare.org/wp-content/uploads/IthacaCarshareHandbook.pdf) describes an Easy Access plan at $10 a month plus $6 an hour, with $20 a month in driving credits. Not confirmed: who qualifies for it.
+**Is there a low-income plan?** Yes, but not for Cornell students. Easy Access costs $10 a month plus $6 an hour, with $20 a month in driving credits, for Tompkins County residents with income at or below 150% of the federal poverty guideline. Anyone eligible for a school or employer discount, or with a household member who is, cannot join ([Easy Access](https://www.ithacacarshare.org/easy-access/)). Cornell students qualify for the Cornell discount.
 
 **Can two of us share one membership?** Student annual plans cover up to two drivers ([students and commuters](https://www.ithacacarshare.org/students-commuters)). Each driver pays the $20 sign-up.
 

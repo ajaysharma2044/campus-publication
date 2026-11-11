@@ -316,7 +316,7 @@ In Collegetown, probably not: class is a 15 to 20 minute walk. Ithaca Carshare k
 
 - [Getting to Ithaca and around Cornell, 2026-27](/getting-around/getting-to-ithaca-and-around-cornell/): the whole topic, from buses home to airports.
 - [Getting around Cornell after first year without a car](/getting-around/getting-around-cornell-upper-years-no-car/): OmniRide, Carshare and Bikeshare costs, priced out.
-- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/having-a-car-at-cornell-student-guide/): the full permit sale, fines and airport parking.
+- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/): the full permit sale, fines and airport parking.
 - [Getting around Ithaca as a Cornell grad student](/getting-around/getting-around-ithaca-cornell-grad-students/): free passes and permits for PhD students and assistants.
 - [The cheapest ways to get home and around Cornell](/getting-around/cheapest-ways-to-get-around-cornell/): the lowest fares and the free options.
 - Parking in Collegetown and downtown Ithaca: every garage and city permit in detail.

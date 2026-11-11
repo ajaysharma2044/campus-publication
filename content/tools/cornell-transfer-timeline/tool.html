@@ -1,0 +1,194 @@
+<div class="tool" id="tool-cornell-transfer-timeline" data-tool="cornell-transfer-timeline" data-as-of="2026-11-11">
+<style>
+#tool-cornell-transfer-timeline label{font-weight:600}
+#tool-cornell-transfer-timeline select{display:block;max-width:100%;margin:.25rem 0 .75rem}
+#tool-cornell-transfer-timeline .tt-check{margin:0 0 .4rem}
+#tool-cornell-transfer-timeline .tt-check label{font-weight:400}
+#tool-cornell-transfer-timeline .tt-list{list-style:none;padding-left:0}
+#tool-cornell-transfer-timeline .tt-list li{margin:0 0 .8rem;padding-left:.6rem;border-left:3px solid currentColor}
+#tool-cornell-transfer-timeline .tt-badge{font-size:.8em;border:1px solid currentColor;border-radius:3px;padding:0 .3em;margin-left:.3em;white-space:nowrap}
+</style>
+<form class="tool-inputs" onsubmit="return false">
+<label for="cornell-transfer-timeline-sit">Your situation</label>
+<select id="cornell-transfer-timeline-sit">
+<option value="soph4" selected>Sophomore entry from a four-year college (one year done)</option>
+<option value="junior4">Junior entry from a four-year college (two years done)</option>
+<option value="ccsoph">Community college, sophomore entry (one year done)</option>
+<option value="ccjunior">Community college, junior entry (associate's or four semesters)</option>
+<option value="to">Transfer Option holder (one year elsewhere)</option>
+</select>
+<label for="cornell-transfer-timeline-col">Cornell college you are applying to</label>
+<select id="cornell-transfer-timeline-col">
+<option value="as">Arts and Sciences</option>
+<option value="aap">Architecture, Art and Planning (AAP)</option>
+<option value="brooks">Brooks School of Public Policy</option>
+<option value="cals" selected>Agriculture and Life Sciences (CALS)</option>
+<option value="dyson">Dyson (Applied Economics and Management)</option>
+<option value="eng">Engineering (Duffield)</option>
+<option value="hotel">Hotel Administration (Nolan School)</option>
+<option value="humec">Human Ecology</option>
+<option value="ilr">Industrial and Labor Relations (ILR)</option>
+</select>
+<div class="tt-check"><input type="checkbox" id="cornell-transfer-timeline-intl"> <label for="cornell-transfer-timeline-intl">I'm international (no US citizenship or approved permanent residency)</label></div>
+<div class="tt-check"><input type="checkbox" id="cornell-transfer-timeline-ny"> <label for="cornell-transfer-timeline-ny">I'm a New York State resident</label></div>
+<div class="tt-check"><input type="checkbox" id="cornell-transfer-timeline-two"> <label for="cornell-transfer-timeline-two">I lived on campus for two years at another college</label></div>
+<div class="tt-check"><input type="checkbox" id="cornell-transfer-timeline-fam" checked> <label for="cornell-transfer-timeline-fam">Show the steps for parents and family</label></div>
+</form>
+<div class="tool-result" aria-live="polite">
+<p class="tt-summary">Pick your situation and college to see your dated steps. If nothing appears, every date is in the table on this tool's page.</p>
+<ol class="tt-list"></ol>
+<p class="tool-asof" data-as-of="2026-11-11">Dates and prices as of Nov 11, 2026, from Cornell's admissions, aid, housing, health plan and registrar pages.</p>
+<p class="tool-note">Estimated: rows tagged "2026 pattern" (or 2024, 2025) show last cycle's date because Cornell has not posted the 2027 one; prices are 2026-27, and 2027-28 prices come out before early April 2027.</p>
+</div>
+<script>
+(function () {
+  var root = document.getElementById('tool-cornell-transfer-timeline');
+  if (!root) return;
+  var P = 'cornell-transfer-timeline-';
+  function el(id) { return root.querySelector('#' + P + id); }
+  var ADM = 'https://admissions.cornell.edu/apply/transfer-applicants', FA = 'https://finaid.cornell.edu/apply-aid/prospective-students-or-first-time-aid-applicants',
+    FAI = 'https://finaid.cornell.edu/first-year-and-transfer-students-international', TOP = 'https://admissions.cornell.edu/transfer-option-applicants',
+    HA = 'https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process',
+    HR = 'https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates',
+    REG = 'https://registrar.cornell.edu/calendars-exams/academic-calendar', SHP = 'https://studenthealthbenefits.cornell.edu/shp-costs-billing-important-dates/shp-costs-dates-2026-27',
+    TUIT = 'https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters', CRED = 'https://registrar.cornell.edu/students/credit-evaluation-services',
+    ENG = 'https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements', ENGOR = 'https://www.duffield.cornell.edu/advising/new-engineering-students/orientation/transfer-student-orientation/',
+    CSL = 'https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment/college-school-links', T = '2026-11-11';
+  const NUMBERS = {
+    fafsaOpen: {value: '2026-10-01', asOf: T, source: FA},
+    appDeadline: {value: '2027-03-15', asOf: T, source: ADM},
+    materialsDeadline: {value: '2027-04-15', asOf: T, source: ADM},
+    aidDeadline: {value: '2027-03-15', asOf: T, source: FA},
+    aidDeadlineIntl: {value: '2027-03-15', asOf: T, source: FAI},
+    toDeadline2026: {value: '2026-03-15', asOf: T, source: TOP},
+    appFee: {value: 85, asOf: T, source: ADM},
+    cssWaiverAgi: {value: 100000, asOf: T, source: FA},
+    grantsTuition: {value: 125000, asOf: T, source: TUIT},
+    grantsFull: {value: 75000, asOf: T, source: TUIT},
+    intlWithholding: {value: 14, asOf: T, source: FAI},
+    gpaGeneral: {value: 3.3, asOf: T, source: 'https://faq.enrollment.cornell.edu/kb/article/325-does-cornell-prefer-transfer-applicants-from-certain-colleges-or-types-of-colleges/'},
+    gpaCals: {value: {min: 3.0, bio: 3.5}, asOf: T, source: 'https://cals.cornell.edu/education/admissions/undergraduate-admissions/transfer-applicants'},
+    gpaIlr: {value: 3.4, asOf: T, source: 'https://www.ilr.cornell.edu/sites/default/files-d8/2026-02/transfer-guidelines-fa-26-final.pdf'},
+    gpaHumec: {value: 3.5, asOf: T, source: 'https://www.human.cornell.edu/admissions/transfer'},
+    gpaBrooks: {value: 3.5, asOf: T, source: 'https://publicpolicy.cornell.edu/undergraduate/apply/transfer-applicants/external-transfers/'},
+    gpaAap: {value: 2.7, asOf: T, source: 'https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/'},
+    gpaTo: {value: 3.5, asOf: T, source: 'https://as.cornell.edu/admissions/admissions-requirements-and-process'},
+    capDefault: {value: 60, asOf: T, source: CRED},
+    capEng: {value: {total: 66, perYear: 33}, asOf: T, source: ENG},
+    capArch: {value: 64, asOf: T, source: CRED},
+    housingDays: {value: 10, asOf: T, source: HA},
+    hallDoubleSem: {value: 6872, asOf: T, source: HR},
+    coopDoubleYear: {value: {low: 6974, high: 9962}, asOf: T, source: HR},
+    unlimitedSem: {value: 3802, asOf: T, source: 'https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans'},
+    tuition: {value: {endowed: 73946, contract: 49816}, asOf: T, source: TUIT},
+    billedDouble: {value: {endowed: 96318, contract: 72188}, asOf: T, source: 'https://finaid.cornell.edu/cost-attend'},
+    billExample2024: {value: {made: '2024-07-12', due: '2024-08-07'}, asOf: '2024-07-12', source: 'https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/finances'},
+    shpWaiver2026: {value: '2026-07-31', asOf: T, source: 'https://studenthealthbenefits.cornell.edu/node/179'},
+    shp: {value: {fallNew: 1705, spring: 2046}, asOf: T, source: SHP},
+    timeslot2026: {value: '2026-08-01', asOf: T, source: HA},
+    moveIn2026: {value: {firstYear: '2026-08-17', transfer: '2026-08-18', nsoEnd: '2026-08-23'}, asOf: T, source: 'https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation'},
+    engOr2026: {value: {fair: '2026-08-18', mathCase: '2026-08-20', lunch: '2026-08-21'}, asOf: T, source: ENGOR},
+    classes2026: {value: '2026-08-24', asOf: T, source: REG},
+    add2026: {value: '2026-09-08', asOf: T, source: REG},
+    drop2026: {value: '2026-10-19', asOf: T, source: REG},
+    lastDay2026: {value: '2026-12-07', asOf: T, source: REG},
+    upperSel2025: {value: {start: '2025-10-02', end: '2025-10-08'}, asOf: '2025-11-01', source: 'https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed'},
+    leaseMonths: {value: 16, asOf: '2018-11-07', source: 'https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/'},
+    rent: {value: {studio: 2006, oneBr: 2342, twoBr: 3414}, asOf: '2026-10-30', source: 'https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/'},
+    hallMonth: {value: 1527, asOf: T, source: HR}
+  };
+  function v(k) { return NUMBERS[k].value; }
+  var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'], DAY = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  function toDate(s) { var a = s.split('-'); return new Date(Date.UTC(+a[0], +a[1] - 1, +a[2])); }
+  function fmt(s, noYear) { var d = toDate(s); return DAY[d.getUTCDay()] + ' ' + MON[d.getUTCMonth()] + ' ' + d.getUTCDate() + (noYear ? '' : ', ' + d.getUTCFullYear()); }
+  function $(n) { return '$' + String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ','); }
+  var NAME = {as: 'Arts and Sciences', aap: 'AAP', brooks: 'Brooks', cals: 'CALS', dyson: 'Dyson', eng: 'Engineering', hotel: 'the Hotel School', humec: 'Human Ecology', ilr: 'ILR'};
+  var CONTRACT = {cals: 1, humec: 1, ilr: 1, brooks: 1, dyson: 1};
+  var SIT = {soph4: 'a sophomore transfer from a four-year college', junior4: 'a junior transfer from a four-year college', ccsoph: 'a community college transfer (sophomore entry)', ccjunior: 'a community college transfer (junior entry)', to: 'a Transfer Option holder'};
+
+  function prereq(s) {
+    var c = s.col, g = v('gpaCals'), t = 'Admitted transfers are generally ' + v('gpaGeneral') + ' or better. ';
+    if (c === 'eng') t += 'MATH 1910 and 1920, PHYS 1112 with 1110, and CHEM 2090 with the 2091 lab must be done, in progress or planned; missing any one means the application is not read. You pick one major (no undecided) and stay in it a year. No minimum GPA is stated.' + (s.junior ? ' Juniors are taken only in their first semester of junior standing.' : '') + (s.cc ? ' Chemical Engineering says apply as a sophomore if you can: some sophomore courses are not offered at most two-year colleges.' : '');
+    if (c === 'cals') t += 'Each major sets foundation courses; a composition or writing-intensive course and biology or chemistry with lab are common. Minimum GPA ' + g.min.toFixed(1) + ' (' + g.bio + ' for Biological Sciences); letter grades only, C or better.' + (s.junior ? ' Four semesters or an associate\'s means junior standing, with no choice of sophomore entry; more than four semesters at a four-year school makes you ineligible. Global Development takes sophomores only.' : '') + (s.cc ? ' The TC3 Sustainable Farming and Food Systems A.A.S. gives "priority consideration" for Agricultural Sciences (3.0 GPA, B or better in all transfer courses), not a guarantee.' : '');
+    if (c === 'humec') t += (s.junior ? 'Junior entry: the 23 sophomore credits plus microeconomics, a design studio and, for pre-health, organic chemistry.' : 'Sophomore entry: 23 credits: 8 of lab science, 6 of writing, 3 of statistics, 3 of precalculus or calculus, 3 of intro psychology.') + ' A ' + v('gpaHumec') + ' or higher is competitive; no pass/fail.';
+    if (c === 'ilr') t += (s.junior ? 'Junior entry: two composition courses, micro and macroeconomics, math, a science-and-technology course and at least 2 ILR elective credits.' : 'Sophomore entry: a composition course, intro economics, math up to statistics or calculus, and a science-and-technology (or language) course.') + ' Most admitted transfers have at least a ' + v('gpaIlr') + '.';
+    if (c === 'brooks') t += '15 letter-graded credits: 6 of writing (2 courses), 3 of intro microeconomics, 3 of statistics or calculus, 3 of intro sociology. No minimum; a ' + v('gpaBrooks') + ' or higher with As and B+s in these increases competitiveness.';
+    if (c === 'hotel') t += 'One college microeconomics course and one college writing course, plus 3 units of foreign language, 1 of chemistry and 1 of precalculus (high school or college). No minimum GPA.' + (s.junior ? ' You can apply as a rising junior, not as a current junior.' : '');
+    if (c === 'as') t += s.junior ? 'Junior applicants need the intended major\'s prerequisites; check the department\'s site.' : 'A&S lists no fixed sophomore course block.';
+    if (c === 'dyson') t += 'Applied Economics and Management applicants apply through Dyson, not CALS, and CALS transfers cannot add AEM later.';
+    if (c === 'aap') t += 'Good standing and a GPA of at least ' + v('gpaAap') + '; a B.F.A. portfolio goes through SlideRoom by Mar 15. AAP is not taking external B.Arch. transfers for fall 2027.';
+    if (s.to) t += c === 'as' ? ' Transfer Option: two full-time semesters of broad liberal arts and sciences (no business, engineering or pre-professional programs), a ' + v('gpaTo') + ' GPA every semester and no grade below B-.' : ' Your college sets its own Transfer Option conditions; check its Transfer Option page.';
+    if (s.sit === 'junior4') t += ' Cornell discourages junior transfer from four-year schools: credit beyond the cap is lost.';
+    return t;
+  }
+  function cap(s) { return s.col === 'eng' ? v('capEng').total + ' (' + v('capEng').perYear + ' per full-time year)' : v('capDefault') + (s.col === 'aap' ? ' (Architecture ' + v('capArch') + ')' : ''); }
+  function aidNow(s) {
+    if (s.intl) return 'File the CSS Profile (code 2098) by ' + fmt(v('aidDeadlineIntl')) + '; there is generally no fee waiver. Asking for aid makes your admission need-aware, but skip the deadline and you can never get Cornell undergraduate aid. Aid above tuition and fees is taxable, with ' + v('intlWithholding') + '% withheld unless a treaty applies.';
+    return 'File the CSS Profile (code 2098) and the FAFSA (code 002711), both due ' + fmt(v('aidDeadline')) + '. The CSS fee is waived for family AGI up to ' + $(v('cssWaiverAgi')) + '. Families under ' + $(v('grantsTuition')) + ' with typical assets get tuition covered by grants; under ' + $(v('grantsFull')) + ', the full cost.' + (s.ny ? ' As a New York resident, also file with HESC (hesc.ny.gov), code ' + (CONTRACT[s.col] ? '0174 for contract colleges' : '0175 for endowed colleges') + '.' : '');
+  }
+  function after(s) {
+    var c = s.col, t = { eng: 'Send the course description form with your Enrollment Response Form.', aap: 'You have two weeks to send syllabi and coursework (a portfolio for studio courses).', as: 'A&S issues a tentative credit evaluation after your deposit.', hotel: 'Send your transcript to the Hotel registrar and syllabi for core credit.' }[c] || 'Your college evaluates credit case by case; keep every syllabus.';
+    return 'Aid applicants get a Cornell Aid Estimate. ' + t + ' You can bring up to ' + cap(s) + ' transfer credits, exam credit included, at C or better; the rest are lost.' + (s.intl ? ' Start moving your F-1 or J-1 record through Cornell Global Learning.' : '');
+  }
+  function june(s) {
+    return {eng: 'Engineering emails from early June.', humec: 'Human Ecology asks you to verify your major June 8 to 30.', dyson: 'Dyson transfers meet an advisor in July to review credit.', hotel: 'The Hotel registrar wants your transcript and syllabi.', as: 'A&S student services: as-studentserv@cornell.edu.'}[s.col] || NAME[s.col] + ' emails admitted transfers early to mid-June.';
+  }
+  function examNote(s) { return {eng: ' AP Calculus BC, Chemistry and Physics C Mechanics count only with a 5.', ilr: ' ILR takes up to 12 AP credits; AP Microeconomics needs a 5.', hotel: ' Hotel takes up to 15 AP, IB and GCE credits.', cals: ' CALS takes up to 15 AP credits.', humec: ' Human Ecology takes at most 15 pre-college credits.'}[s.col] || ''; }
+
+  // w = when, h = what, x = detail, p = pattern year (rows whose 2027 date is not yet posted), k = NUMBERS key for the row's as-of date.
+  var ROWS = [
+    {w: function () { return 'Now (FAFSA opened ' + fmt(v('fafsaOpen')) + ')'; }, h: 'File your aid forms early', x: aidNow, k: 'fafsaOpen'},
+    {w: 'This term and spring 2027', h: function (s) { return 'Finish the courses ' + NAME[s.col] + ' looks for'; }, x: prereq, k: 'gpaGeneral'},
+    {show: function (s) { return s.to; }, w: 'Winter 2027', h: 'Transfer Option application opens', x: function () { return 'The page reads "Application Available Winter 2027." Use the Transfer Option application with your earlier portal login, not the Common App. No application fee.'; }, k: 'toDeadline2026'},
+    {w: 'January to March 2027', h: 'Line up your recommenders', x: function (s) { return 'Name an official at your school for the College Report (it confirms standing) and ask one instructor of a full-credit course for the Academic Evaluation. You fill in the Mid-Term Report yourself.' + (s.intl ? ' Non-English documents need official English translations.' : ''); }, k: 'materialsDeadline'},
+    {w: function (s) { return s.to ? 'Mid-March 2027 (in 2026: ' + fmt(v('toDeadline2026')) + ')' : fmt(v('appDeadline')); }, p: function (s) { return s.to ? 2026 : 0; }, h: 'Application deadline', x: function (s) {
+      var t = s.to ? 'Transfer Option application and aid forms; the Mid-Term Report may follow.' : 'Transfer Common App and the ' + $(v('appFee')) + ' fee or a waiver.';
+      t += {aap: ' AAP portfolio via SlideRoom.', humec: ' Design majors: the design supplement.', cals: ' Landscape Architecture: portfolio via SlideRoom.', ilr: ' ILR wants the Mid-Term Report now if possible.'}[s.col] || '';
+      return t + (s.intl ? ' CSS Profile due today.' : ' CSS Profile and FAFSA due today.'); }, k: 'appDeadline'},
+    {w: 'Early April 2027', h: 'Aid offers and 2027-28 prices', x: function () { return 'Official aid offers come "tentatively early April" for students already admitted; 2027-28 prices are confirmed before then.'; }, k: 'aidDeadline'},
+    {show: function (s) { return !s.to; }, w: function () { return fmt(v('materialsDeadline')); }, h: 'Everything else is due', x: function () { return 'College Report, Academic Evaluation, Mid-Term Report and every college transcript.'; }, k: 'materialsDeadline'},
+    {w: function (s) { return s.to ? 'Mid-April 2027 on' : 'Late April to June 2027'; }, p: function (s) { return s.to ? 2026 : 0; }, h: 'Decisions roll out', x: function (s) { return s.to ? 'Most Transfer Option decisions come in late April or early May; some wait for final grades.' : (s.col === 'hotel' ? 'Hotel decides in May and June.' : 'Rolling, from April.') + ' Cornell\'s Common Data Set lists June 15 notification and a July 1 reply.'; }, k: 'materialsDeadline'},
+    {w: 'Right after admission', h: 'College follow-ups', x: after, k: 'capDefault'},
+    {show: function (s) { return !s.exempt; }, w: function () { return 'Within ' + v('housingDays') + ' days of getting your NetID'; }, h: 'Apply for housing', x: function () { return 'On the Housing and Dining Portal; no fee, no deposit. New transfers live on campus for one academic year in upper-level halls, auto-allocated; only Program Houses are chosen by name. A co-op double runs ' + $(v('coopDoubleYear').low) + ' to ' + $(v('coopDoubleYear').high) + ' a year. The license binds for the year; do not sign a lease too.'; }, k: 'housingDays'},
+    {show: function (s) { return s.exempt; }, w: 'As soon as you are admitted', h: 'Find a lease', x: function (s) { var r = v('rent'); return (s.junior ? 'Entering as a junior exempts you from the on-campus year.' : 'Two years on campus elsewhere exempts you; exemptions are requested through the housing application, one year at a time.') + ' Desirable Collegetown leases go up to ' + v('leaseMonths') + ' months ahead (2018). Large-building averages, Oct 30, 2026: studio ' + $(r.studio) + ', one-bedroom ' + $(r.oneBr) + ', two-bedroom ' + $(r.twoBr) + ' a month, against about ' + $(v('hallMonth')) + ' a month for a hall double.'; }, k: 'rent'},
+    {show: function (s) { return s.fam; }, w: 'Early May 2027', h: 'Family orientation details arrive', x: function () { return 'Plan travel for the transfer move-in day, not the first-year one.'; }, k: 'moveIn2026'},
+    {w: 'Early to mid-June 2027', p: 2024, h: 'Your college emails about credit and enrollment', x: june, k: 'capDefault'},
+    {show: function (s) { return !s.exempt; }, w: 'Mid-June 2027', p: 2026, h: 'Room confirmation', x: function () { return 'A room, or a place on the guaranteed waitlist with weekly updates. Room swaps run mid-June to mid-July.'; }, k: 'housingDays'},
+    {w: 'Early July 2027', p: 2024, h: 'Fall bill arrives', x: function (s) { var b = v('billExample2024'), ct = CONTRACT[s.col] && s.ny && !s.intl, tu = v('tuition'), bd = v('billedDouble');
+      return 'In 2024 the fall e-bill was generated ' + fmt(b.made, true) + ' and due ' + fmt(b.due, true) + '. At 2026-27 rates, tuition is ' + $(ct ? tu.contract : tu.endowed) + ' a year' + (s.exempt ? '.' : '; a hall double is ' + $(v('hallDoubleSem')) + ' and the Unlimited plan ' + $(v('unlimitedSem')) + ' a semester, ' + $(ct ? bd.contract : bd.endowed) + ' billed for the year before aid.') + (s.fam ? ' Parents see the Cashnet e-bill only if the student invites them.' : ''); }, k: 'tuition'},
+    {w: function () { return 'Late July 2027 (in 2026: ' + fmt(v('shpWaiver2026')) + ')'; }, p: 2026, h: 'Health plan waiver deadline', x: function () { var h = v('shp'); return 'Waive with comparable coverage or pay ' + $(h.fallNew) + ' for fall plus ' + $(h.spring) + ' for spring (2026-27 rates). After the deadline waivers lock.'; }, k: 'shp'},
+    {show: function (s) { return !s.exempt; }, w: function () { return 'Early August 2027 (in 2026: ' + fmt(v('timeslot2026')) + ')'; }, p: 2026, h: 'Last day to change your move-in timeslot', x: function () { return 'Health plan coverage for new fall students starts the same day.'; }, k: 'timeslot2026'},
+    {w: 'Mid-August 2027', p: 2026, h: 'Move-in and orientation', x: function (s) { var m = v('moveIn2026'), e = v('engOr2026');
+      return 'In 2026 transfers moved in ' + fmt(m.transfer, true) + ', a day after first-years, and New Student Orientation ran to ' + fmt(m.nsoEnd, true) + ' with transfer small groups.' + (s.fam ? ' Family Orientation was ' + fmt(m.transfer, true) + '.' : '') + (s.col === 'eng' ? ' Engineering: resource fair ' + fmt(e.fair, true) + ', optional MATH CASE ' + fmt(e.mathCase, true) + ' (urged for a BC 4), Transfer Welcome Lunch ' + fmt(e.lunch, true) + '.' : ''); }, k: 'moveIn2026'},
+    {w: 'Before classes', h: 'Clear your holds', x: function () { return 'Activate your NetID and Two-Step Login, finish the Re-Entry Term Checklist in Student Center (or face an enrollment hold), and take any CASE or language placement exams.'; }, k: 'classes2026'},
+    {w: function () { return 'First week of classes (' + fmt(v('classes2026'), true) + ' in 2026)'; }, p: 2026, h: 'Enroll during add/drop', x: function () { return 'Most transfers enroll now because credit evaluations finish late. Popular classes may be full.'; }, k: 'classes2026'},
+    {w: function () { return 'Add deadline (' + fmt(v('add2026'), true) + ' in 2026)'; }, p: 2026, h: 'Check your schedule', x: function () { return 'Verify it again before the drop and grading-basis deadline (' + fmt(v('drop2026'), true) + ' in 2026).'; }, k: 'add2026'},
+    {show: function (s) { return !s.exempt; }, w: 'October 2027', p: 2025, h: 'Start the year-two housing search', x: function () { var u = v('upperSel2025'); return 'Current students picked next year\'s rooms ' + fmt(u.start, true) + ' to ' + fmt(u.end, true) + ', 2025. Desirable Collegetown leases go up to ' + v('leaseMonths') + ' months ahead.'; }, k: 'upperSel2025'},
+    {w: function () { return 'Last day of fall classes (' + fmt(v('lastDay2026'), true) + ' in 2026)'; }, p: 2026, h: 'Request AP, IB or A-Level credit', x: function (s) { return 'Send scores (College Board code 2098) and a written request to your college registrar. Miss it and the credit is gone.' + examNote(s); }, k: 'lastDay2026'},
+    {show: function (s) { return !s.exempt; }, w: 'December 2027', h: 'Spring housing bill', x: function () { return 'Spring housing is billed in December; spring tuition in January.'; }, k: 'hallDoubleSem'}
+  ];
+
+  function render() {
+    var s = {sit: el('sit').value, col: el('col').value, intl: el('intl').checked, ny: el('ny').checked, two: el('two').checked, fam: el('fam').checked};
+    if (s.intl) s.ny = false;
+    s.to = s.sit === 'to'; s.junior = s.sit === 'junior4' || s.sit === 'ccjunior'; s.cc = s.sit.indexOf('cc') === 0; s.exempt = s.junior || s.two;
+    var rows = ROWS.filter(function (r) { return !r.show || r.show(s); }), html = '', flagged = 0;
+    rows.forEach(function (r) {
+      var p = typeof r.p === 'function' ? r.p(s) : r.p, w = typeof r.w === 'function' ? r.w(s) : r.w, h = typeof r.h === 'function' ? r.h(s) : r.h;
+      if (p) flagged++;
+      html += '<li data-as-of="' + NUMBERS[r.k].asOf + '"><strong>' + w + '</strong>' + (p ? '<span class="tt-badge">' + p + ' pattern</span>' : '') + '<br>' + h + '. ' + r.x(s) + '</li>';
+    });
+    root.querySelector('.tt-list').innerHTML = html;
+    var now = new Date(), today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+    var next = (s.to ? ['materialsDeadline'] : ['appDeadline', 'materialsDeadline']).filter(function (k) { return toDate(v(k)).getTime() >= today; })[0];
+    var nx = next ? ' Next fixed deadline: ' + fmt(v(next)) + ', ' + Math.round((toDate(v(next)) - today) / 864e5) + ' days away.' : '';
+    if (s.to && next) nx = ' Your March 15 date follows the 2026 pattern; watch the Transfer Option page.';
+    root.querySelector('.tt-summary').textContent = 'For ' + SIT[s.sit] + ' applying to ' + NAME[s.col] + (s.intl ? ', international' : s.ny ? ', New York resident' : '') + ': ' + rows.length + ' steps from now to December 2027, ' +
+      (s.exempt ? 'with no required on-campus year.' : 'including one required year in campus housing.') + nx + ' ' + flagged + ' rows use last cycle\'s date until Cornell posts 2027 dates.' +
+      (el('intl').checked && el('ny').checked ? ' International students pay non-New York tuition, so the New York box is ignored.' : '');
+  }
+  ['sit', 'col', 'intl', 'ny', 'two', 'fam'].forEach(function (id) { el(id).addEventListener('change', render); });
+  render();
+})();
+</script>
+</div>

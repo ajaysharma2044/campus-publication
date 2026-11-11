@@ -7,7 +7,7 @@ primary_query: cornell co-op vs dorm
 topic: housing
 school: cornell-university
 type: comparison
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 187
 rewrites: ''
 readers:
@@ -49,6 +49,21 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring housing selection for rising sophomores, Cornell Student and Campus Life
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/news-events/news/triphammer-co-op-fosters-community-and-growth-cornellians
+  title: Triphammer co-op fosters community and growth for Cornellians, Student & Campus Life, Feb. 5, 2024
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing
+  title: First-Year Undergraduate Campus Housing, Cornell Student & Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wari-cooperative
+  title: Wari Cooperative, Cornell Student & Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/watermargin
+  title: Watermargin, Cornell Student & Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/sub/news-events/news/co-op-mosey-2024
+  title: Interested in moving to a Co-op for the 2024-2025 academic year?, Student & Campus Life, Jan. 30, 2024
+  accessed: '2026-11-10'
 images: []
 ---
 
@@ -86,7 +101,7 @@ Hall life is built around services. Co-op life is built around the house itself.
 
 **Food.** Four of the eight co-ops have a house meal plan ([Cornell co-op page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). Triphammer has mandatory vegetarian dinners Sunday to Thursday, and each resident takes one cook night a week ([Triphammer page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative)). Cook groups there have three or four members ([Cornell Student & Campus Life](https://scl.cornell.edu/news-events/news/triphammer-co-op-fosters-community-and-growth-cornellians)). At 660 Stewart, a house meal plan runs five nights a week with one cooking night and a mandatory staples program ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/660-stewart-avenue)). Wait Avenue Cooperative has no house meal plan but provides staples.
 
-**Size.** The largest co-op is Redbud in Von Cramm Hall with 34 residents ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall)), and Wari has 10 ([Wari page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wari-cooperative)). By comparison, Clara Dickson Hall has more than 460 residents ([Cornell first-year housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing)).
+**Size.** The largest co-op is Redbud (Von Cramm Hall), with 34 residents ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall)), and Wari has 10 ([Wari page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wari-cooperative)). By comparison, Clara Dickson Hall has more than 460 residents ([Cornell first-year housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing)).
 
 **Staff.** Co-ops have no live-in staff. Officers and liaisons are elected, and an Inter-Cooperative Union has one representative from each house ([The Cornell Daily Sun](https://cornellsun.com/2019/02/11/open-house-day-highlights-unique-qualities-of-cornell-co-ops/)).
 
@@ -100,7 +115,7 @@ Co-ops count as second-year housing under the residential requirement. Our [co-o
 
 ## What should you watch for?
 
-The houses are old and Cornell-owned. Four of the eight co-ops had floors collapse in recent years, and Watermargin needs about $500,000 for a roof, per The Cornell Daily Sun ([The Cornell Daily Sun](https://cornellsun.com/2024/10/21/co-op-residents-face-deteriorating-houses-increasing-rent-costs/)). Cornell also required co-ops to standardize room rates within and across houses. Ask the house which repairs are pending before you apply.
+The houses are old and Cornell-owned. Four of the eight co-ops had floors collapse in recent years, and Watermargin needs about $500,000 for a roof, per The Cornell Daily Sun ([The Cornell Daily Sun](https://cornellsun.com/2024/10/21/co-op-residents-face-deteriorating-houses-increasing-rent-costs/)). Cornell also required co-ops to standardize room rates within and across houses. Ask the house which repairs are pending before you apply. The [trade-offs section of our guide to all eight co-ops](/cornell/housing/cornell-co-ops-all-eight-compared/#the-trade-offs) covers the chores, the aging buildings and who sets the price.
 
 The agreement is a license, not a lease, with no security or key deposit. The 2026-27 term runs from Aug. 21, 2026 to May 23, 2027, and residents must be registered full time with at least 12 credit hours ([Cornell co-op terms](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions)). Only small caged pets and aquariums under 10 gallons are allowed. Check cancellation costs before you commit, using Cornell's fee schedule in the calculator below.
 
@@ -112,7 +127,7 @@ The cheapest bed on this page is a Redbud triple at $5,530 a year. Count your fo
 ```
 
 ```reader "If you're a grad student"
-Five co-ops list grad students as eligible: Wait Avenue Cooperative (women), Wait Terrace, Triphammer, Watermargin and Redbud in Von Cramm. Prospect of Whitby, Wari and 660 Stewart do not.
+Five co-ops list grad students as eligible: Wait Avenue Cooperative (women), Wait Terrace, Triphammer, Watermargin and Redbud (Von Cramm Hall). Prospect of Whitby, Wari and 660 Stewart do not.
 ```
 
 ```reader "If you're a transfer"

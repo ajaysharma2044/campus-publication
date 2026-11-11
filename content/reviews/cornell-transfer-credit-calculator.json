@@ -1,0 +1,166 @@
+{
+ "slug": "cornell-transfer-credit-calculator",
+ "queue_id": "q-transfer-0029",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Most colleges accept at most 60 transfer credits, AP/IB included; at least 60 credits at Cornell",
+   "source_url": "brief §3/§7",
+   "status": "ok",
+   "note": "brief caps rows and §7"
+  },
+  {
+   "claim": "Engineering cap 66 total, 33 per full-time year, 60 at Cornell",
+   "source_url": "brief §3 (Duffield)",
+   "status": "ok",
+   "note": "brief Engineering credit caps row"
+  },
+  {
+   "claim": "Architecture cap 64; 90 credits at Cornell; 154 to graduate over five years",
+   "source_url": "brief §3 (Registrar)",
+   "status": "ok",
+   "note": "brief AAP Architecture cap row"
+  },
+  {
+   "claim": "Engineering 123 to 137 credits to graduate",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "brief worked-example table"
+  },
+  {
+   "claim": "A&S: 120 to graduate, 100 must be A&S credits; four semesters in residence; quarter courses of 4+ credits meet requirements; AP/IB replace one FWS",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief A&S rows"
+  },
+  {
+   "claim": "Four-semester minimum at ILR and Brooks",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "ILR residence row; Brooks credit and residence row"
+  },
+  {
+   "claim": "AP/IB limits: CALS 15, ILR 12, Hotel 15, Human Ecology 15",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "college rows and caps summary; Human Ecology also re-read on the live page: maximum 15 pre-college credits"
+  },
+  {
+   "claim": "Quarter credits times two-thirds; 90 quarter credits = 60 semester credits",
+   "source_url": "brief §3/§10.4",
+   "status": "ok",
+   "note": "recomputed 90 x 2/3 = 60"
+  },
+  {
+   "claim": "Tuition $73,946 endowed / $49,816 NY contract; fees $1,024 ($424 + $600)",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief cost rows; 424 + 600 = 1,024"
+  },
+  {
+   "claim": "Extra year endowed $74,970, $37,485 a semester; NY contract $50,840, $25,420 a semester",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "recomputed 73,946+1,024 = 74,970, /2 = 37,485; 49,816+1,024 = 50,840, /2 = 25,420"
+  },
+  {
+   "claim": "90-credit junior (A&S) keeps 60, loses 30, ten semesters; 6 + 4 = 10",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "recomputed: min(90,60)=60; lost 30; need 120-60=60; 60/15=4; 6+4=10"
+  },
+  {
+   "claim": "Engineering example: 2 years x 33 = 66",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "2 x 33 = 66"
+  },
+  {
+   "claim": "80% similarity, C or better, courses 7+ years old generally not eligible, non-transferable course types, exam credit request by last day of instruction",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief Registrar rows"
+  },
+  {
+   "claim": "Engineering exam thresholds: 5 on AP Calc BC, Chemistry, Physics C Mechanics; C- earns no credit; junior only first semester",
+   "source_url": "brief §3 (Duffield)",
+   "status": "ok",
+   "note": "brief Engineering rows"
+  },
+  {
+   "claim": "ILR: AP Microeconomics needs a 5 at Cornell",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief ILR AP example row"
+  },
+  {
+   "claim": "Hotel: current juniors/seniors cannot apply; AP Statistics not accepted",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief Hotel eligibility and credit rows"
+  },
+  {
+   "claim": "Human Ecology: not to count on AP/IB for most requirements; pass/fail courses do not transfer",
+   "source_url": "https://www.human.cornell.edu/admissions/transfer",
+   "status": "ok",
+   "note": "pass/fail not in brief; live page: 'Cornell does not accept Pass/Fail coursework.' and AP/IB wording confirmed"
+  },
+  {
+   "claim": "Brooks: pre-college credit limited to IB Higher Level and some AP exams; some AP history exams excluded",
+   "source_url": "https://publicpolicy.cornell.edu/current-students/undergraduates/course-enrollment-information/pre-college-credits/",
+   "status": "ok",
+   "note": "fixed in place: Source says only IB HL exams are accepted and AP and IB statistics earn no credit; no AP history exclusion. Tool note now reads 'Cornell accepts only IB Higher Level exams, and AP and IB statistics earn no credit.' Brief row and change log corrected."
+  },
+  {
+   "claim": "Dyson: no AP or IB credit for calculus, microeconomics or statistics (2019 file)",
+   "source_url": "https://dyson.cornell.edu/wp-content/uploads/sites/5/2019/03/Dyson-Transfer-Credit.pdf",
+   "status": "ok",
+   "note": "fixed in place: Brief had this from a snippet only; the PDF now 301s to business.cornell.edu/dyson/ and could not be read. Replaced the note with 'exam credit is not automatic; the college decides course by course after admission' (consistent with the brief's case-by-case evaluation). Brief row marked unverified."
+  },
+  {
+   "claim": "AAP: credit evaluated only after an offer; two weeks to send syllabi; B.Arch. closed for fall 2027",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief AAP rows"
+  },
+  {
+   "claim": "CALS: more than four semesters at a four-year school ineligible; four semesters or associate's = junior entry; no credit evaluation before admission",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief CALS rows"
+  },
+  {
+   "claim": "2027-28 rates confirmed before early April 2027",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief 2027-28 prices row"
+  },
+  {
+   "claim": "Default 15 credits a semester",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "brief method assumption"
+  },
+  {
+   "claim": "tool.html NUMBERS object constants and logic (caps, floors, exam caps, tuition, fees)",
+   "source_url": "brief §3/§6",
+   "status": "ok",
+   "note": "every constant matches the brief and the md table; formulas match the md math steps"
+  }
+ ],
+ "beats_top": {
+  "query": "cornell transfer credit calculator",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [
+  "Brooks pre-college credit row corrected to IB Higher Level only, AP and IB statistics not accepted (source: Brooks pre-college credits page); change log line added.",
+  "Dyson 2019 exam-credit row marked unverified because the PDF redirects and could not be read; change log line added."
+ ],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

@@ -93,4 +93,4 @@ Price is half the choice. ITH has 2 scheduled nonstops, so one cancellation can 
 - [Syracuse airport to Cornell: OurBus, car service, driving](/getting-around/syracuse-airport-to-cornell-ourbus-car-service/)
 - [Cornell to Ithaca airport: TCAT 32 and 72, taxis, parking](/getting-around/cornell-to-ithaca-airport-tcat-taxi-parking/)
 - [Flying home from Cornell: airports, rides, bags, timing](/getting-around/flying-home-from-cornell-airports-rides/)
-- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/having-a-car-at-cornell-student-guide/)
+- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)

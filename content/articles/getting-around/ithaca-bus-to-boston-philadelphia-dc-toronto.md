@@ -1,11 +1,11 @@
 ---
 title: Cornell to Boston, Philadelphia, DC or Toronto by bus
-meta: FlixBus runs direct from Cornell to Boston ($44 to $88), Philadelphia (from $41) and DC (from $49); Toronto, $43 to $55. C2C stops at NYC.
+meta: FlixBus runs direct from Cornell to Boston ($44 to $88), Philadelphia (from $41), DC (from $49) and Toronto (from $32). C2C stops at NYC.
 primary_query: Cornell to Boston bus or train
 topic: getting-around
 school: cornell-university
 type: roundup
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0033
 kind: spoke
 readers:
@@ -38,13 +38,13 @@ sources:
   accessed: '2026-11-08'
 - url: https://www.ourbus.com/routes/ithaca-to-philadelphia
   title: Ithaca to Philadelphia bus, OurBus
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/05/busses-trains-and-planes-getting-to-and-from-cornell
   title: 'Busses, Trains and Planes: Getting to and From Cornell, The Cornell Daily Sun, May 4, 2025'
   accessed: '2026-11-08'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources
   title: Travel Resources, Cornell Transportation and Delivery Services
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://www.checkmybus.com/ithaca-ny/washington-dc
   title: Bus from Ithaca to Washington, DC, CheckMyBus
   accessed: '2026-11-08'
@@ -54,18 +54,21 @@ sources:
 - url: https://flyithaca.com/airlines
   title: Airlines, Ithaca Tompkins International Airport
   accessed: '2026-11-08'
-- url: https://www.ourbus.com/routes/ithaca-ny-to-toronto-on
-  title: Ithaca, NY to Toronto, ON bus, OurBus
-  accessed: '2026-11-08'
+- url: https://www.ourbus.com/routes/ithaca-ny-to-toronto-on-bus
+  title: Ithaca to Toronto, ON bus, OurBus
+  accessed: '2026-11-11'
 - url: https://www.greyhound.com/bus-routes/toronto-on-ithaca-ny
   title: Toronto, ON to Ithaca, NY bus, Greyhound
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://ca.megabus.com/route-guides/ithaca-to-toronto-bus
   title: Ithaca to Toronto bus route guide, Megabus
-  accessed: '2026-11-08'
-- url: https://www.flixbus.co.uk/bus-routes/toronto-on-ithaca-ny
-  title: Toronto to Ithaca bus, FlixBus
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
+- url: https://www.flixbus.ca/bus-routes/toronto-on-ithaca-ny
+  title: Toronto to Ithaca bus, FlixBus Canada
+  accessed: '2026-11-11'
+- url: https://www.checkmybus.com/ithaca-ny/toronto-on
+  title: Bus from Ithaca to Toronto, CheckMyBus
+  accessed: '2026-11-11'
 - url: https://www.cbp.gov/travel/us-citizens/western-hemisphere-travel-initiative/faqs
   title: Western Hemisphere Travel Initiative (WHTI) Frequently Asked Questions, U.S. Customs and Border Protection
   accessed: '2026-11-08'
@@ -83,13 +86,34 @@ sources:
   accessed: '2026-11-08'
 - url: https://www.ourbus.com/blog/?p=6269
   title: OurBus blog, August 4, 2026
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
+- url: https://www.ourbus.com/blog/ourbus-student-discount/
+  title: How to Make the Most of the OurBus Student Discount?, OurBus blog, July 25, 2026
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2023/11/inside-ourbus-cornellians-preferred-method-of-travel
   title: Inside OurBus, Cornellians' Preferred Method of Travel, The Cornell Daily Sun, November 2023
   accessed: '2026-11-08'
 - url: https://registrar.cornell.edu/calendars-exams/academic-calendar
   title: Academic Calendar, Cornell University Registrar
   accessed: '2026-11-08'
+- url: https://www.hillytophilly.com/
+  title: Hilly To Philly, Cornell-Philadelphia Charter Bus
+  accessed: '2026-11-11'
+- url: https://www.flixbus.com/bus/syracuse-ny
+  title: Bus stops in Syracuse, NY, FlixBus
+  accessed: '2026-11-11'
+- url: https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html
+  title: Entry requirements by country or territory, Government of Canada
+  accessed: '2026-11-11'
+- url: https://international.globallearning.cornell.edu/travel/travel-documents-students
+  title: Travel Documents for Students, Cornell International Services
+  accessed: '2026-11-11'
+- url: https://international.globallearning.cornell.edu/travel/apply-fj-reentry
+  title: Apply for F/J Reentry, Cornell International Services
+  accessed: '2026-11-11'
+- url: https://international.globallearning.cornell.edu/travel/travel-signatures-and-i-20ds-2019-reprints
+  title: Travel Signatures and I-20/DS-2019 Reprints, Cornell International Services
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Aerial view of Boston's downtown towers and harbor from a small plane
@@ -106,41 +130,41 @@ images:
 - Boston: FlixBus direct, 8 h 05 min to 12 h 05 min, $44 to $88 one way; Amtrak means a bus to Syracuse first.
 - Philadelphia: FlixBus direct from $41 to $44 in a Nov 9 to 18, 2026 sample; 7 h 50 min to 9 h.
 - DC: FlixBus from $49 to $53, about 10 to 11 hours; Thanksgiving-week floors ran 37.9% higher.
-- Toronto: OurBus from $55 (6 h 40 min), Greyhound twice a day from about $43, Megabus up to once a day.
+- Toronto: FlixBus direct from $32 in a Nov 12 to Dec 4, 2026 sample; 7 h 45 min.
 - Cornell's C2C bus goes only to Manhattan, so it is no help beyond NYC.
 - Planner pages that say "Cornell" may mean Cornell, Wisconsin; check the boarding stop is in Ithaca.
 ```
 
-For Boston, Philadelphia and DC, the cheapest way without a car is a direct FlixBus from Ithaca: [$44 to $88 to Boston](https://www.checkmybus.com/ithaca-ny/boston-ma), [from $41 to Philadelphia](https://www.checkmybus.com/ithaca-ny/philadelphia-pa) and [from $49 to DC](https://www.checkmybus.com/ithaca-ny/washington-dc) in November 2026 samples. For Toronto, [OurBus lists fares from $55](https://www.ourbus.com/routes/ithaca-ny-to-toronto-on) for a 6 h 40 min trip. Book a weekday two to three weeks out, because Thanksgiving-week fares ran about a third higher.
+For all four cities, the cheapest way without a car is a direct FlixBus from Ithaca: [$44 to $88 to Boston](https://www.checkmybus.com/ithaca-ny/boston-ma), [from $41 to Philadelphia](https://www.checkmybus.com/ithaca-ny/philadelphia-pa), [from $49 to DC](https://www.checkmybus.com/ithaca-ny/washington-dc) and [from $32 to Toronto](https://www.checkmybus.com/ithaca-ny/toronto-on) in November 2026 samples. Book a weekday two to three weeks out, because Thanksgiving-week fares ran about a third higher.
 
 ```reader "If you're headed home to Boston, Philadelphia, DC or Toronto"
-Skip Cornell's C2C: its [rates page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates) lists only Manhattan. Search FlixBus first for Boston, Philadelphia and DC, and OurBus or Greyhound for Toronto. The cheapest dates in the Nov 8, 2026 samples were Tuesday Nov 17 for DC ($49) and Wednesday Nov 18 for Philadelphia ($41). Thanksgiving break runs [Nov 25 to 29, 2026](https://registrar.cornell.edu/calendars-exams/academic-calendar), and DC floors that week averaged $93.40 against $67.71 earlier in the month. The costliest mistake is trusting a trip planner for "Cornell": it may route you from Wisconsin. Confirm that the stop is 131 E Green St, Jessup Rd or West Ave before you pay.
+Skip Cornell's C2C: its [rates page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates) lists only Manhattan. Search FlixBus first for all four cities. The cheapest dates in the Nov 8, 2026 samples were Tuesday Nov 17 for DC ($49) and Wednesday Nov 18 for Philadelphia ($41). Thanksgiving break runs [Nov 25 to 29, 2026](https://registrar.cornell.edu/calendars-exams/academic-calendar), and DC floors that week averaged $93.40 against $67.71 earlier in the month. The costliest mistake is trusting a trip planner for "Cornell": it may route you from Wisconsin. Confirm that the stop is 131 E Green St, Jessup Rd or West Ave before you pay.
 ```
 
 ```reader "If you're on a tight budget"
-The direct FlixBus is almost always the floor: $41 to Philadelphia and $46 to Boston on the cheapest November dates sampled. A day's choice moves the price more than the carrier does. To Boston, Tuesday Nov 17 was $46 and Friday Nov 20 was $101. Travel on a weekday and outside Thanksgiving week if your schedule allows. Read the cancellation terms before you pay: OurBus [gives credit, not cash](https://www.cornellsun.com/article/2023/11/inside-ourbus-cornellians-preferred-method-of-travel), and rescheduling has a fee. OurBus Select takes [$15 off each of the next 10 tickets](https://www.ourbus.com/blog/?p=6269), which helps on the Toronto route; a separate student discount exists, amount not stated. Pack one suitcase: a second bag on OurBus costs $30 prepaid.
+The direct FlixBus is almost always the floor: $41 to Philadelphia and $46 to Boston on the cheapest November dates sampled. A day's choice moves the price more than the carrier does. To Boston, Tuesday Nov 17 was $46 and Friday Nov 20 was $101. Travel on a weekday and outside Thanksgiving week if your schedule allows. Read the cancellation terms before you pay: OurBus [gives credit, not cash](https://www.cornellsun.com/article/2023/11/inside-ourbus-cornellians-preferred-method-of-travel), and rescheduling has a fee. OurBus Select takes [$15 off each of the next 10 tickets](https://www.ourbus.com/blog/?p=6269). A separate [student deal](https://www.ourbus.com/blog/ourbus-student-discount/) takes 10% off the first ride booked with a .edu email, up to $15, on a booking of $25 or more. Pack one suitcase: a second bag on OurBus costs $30 prepaid.
 ```
 
 ```reader "If you're an international student going to Toronto"
-The bus is the simple part: OurBus from $55, Greyhound twice a day, Megabus up to once a day. The border is the part to plan. For U.S. citizens coming back by land, [CBP accepts](https://www.cbp.gov/travel/us-citizens/western-hemisphere-travel-initiative/faqs) a U.S. passport, a passport card, an enhanced driver's license or a NEXUS, SENTRI or FAST card. That list is for U.S. citizens only. Not confirmed: what Canada asks of your passport, and what U.S. re-entry needs from an F-1 or J-1 student. Ask Cornell's international student office before you book a nonrefundable seat.
+The bus is the simple part: FlixBus runs direct. The border is the part to plan. Entering Canada by bus, a [visa-exempt traveler needs a valid passport but no eTA](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html); citizens of visa-required countries also need a Canadian visitor visa. To come back in F-1 or J-1 status, [Cornell International Services lists](https://international.globallearning.cornell.edu/travel/travel-documents-students) a valid passport, a valid U.S. visa stamp (Canadians need none), an I-20 or DS-2019 with a travel signature from the past year, proof of funding and proof of enrollment. Canadian F-1 students need one from the past six months. An expired F or J visa still works for re-entry after a stay of less than 30 days in Canada, through [automatic revalidation](https://international.globallearning.cornell.edu/travel/apply-fj-reentry), if you hold a valid I-94 and do not apply for a new U.S. visa there. Citizens of countries the U.S. lists as state sponsors of terrorism cannot use it. An online request for a new travel signature takes up to [five business days](https://international.globallearning.cornell.edu/travel/travel-signatures-and-i-20ds-2019-reprints), so make it before you book a nonrefundable seat.
 ```
 
 ```reader "If you're deciding between a flight and the bus"
-Ithaca's airport [flies nonstop to two places](https://flyithaca.com/airlines): JFK on Delta and Washington Dulles on United. DC is the only city on this page with a nonstop from ITH. For Boston, Philadelphia and Toronto, a flight from ITH means a connection, so the bus is the direct option. Airfares are not covered here; compare them yourself against a FlixBus seat of $49 to $53 to DC.
+Ithaca's airport [flies nonstop to two places](https://flyithaca.com/airlines): JFK on Delta and Washington Dulles on United. DC is the only city on this page with a nonstop from ITH. For Boston, Philadelphia and Toronto, a flight from ITH means a connection, so the bus is the direct option. For DC, compare a United fare to Dulles with a FlixBus seat of $49 to $53.
 ```
 
 ## The four cities ranked by cheapest direct seat
 
-Ranking criteria, in order: the lowest one-way fare in a dated November 2026 sample, then whether the trip is direct, then the shortest scheduled time. Toronto comes last only because no dated sample exists for it.
+Ranking criteria, in order: the lowest one-way fare in a dated November 2026 sample, then whether the trip is direct, then the shortest scheduled time.
 
 | City | Best direct option | Lowest fares seen (one way) | Scheduled time | Other options |
 |---|---|---|---|---|
-| Philadelphia | FlixBus | $41 (Wed Nov 18); $44 (Mon Nov 9) | 7 h 50 min to 9 h | Binghamton connection, $9 + $41; Greyhound 6 a day; OurBus from $105.2 |
+| Toronto | FlixBus | $32 (Mon Nov 16, Tue Nov 17, Thu Nov 19) | 7 h 45 min to 8 h 50 min | Greyhound 2 a day from Toronto, from $48.98; OurBus from $98.60 from Nov 25; Megabus one 9:45 a.m. trip |
+| Philadelphia | FlixBus | $41 (Wed Nov 18); $44 (Mon Nov 9) | 7 h 50 min to 9 h | Binghamton connection, $9 + $41; Greyhound 6 a day; OurBus from $105.20; Hilly To Philly charter, $75, break dates only |
 | Boston | FlixBus | $46 (Tue Nov 17); FAQ range $44 to $88 | 8 h 05 min to 12 h 05 min | Amtrak from Syracuse, about 8 h 50 min, $45 to $300 (planner) |
 | DC | FlixBus | $49 (Tue Nov 17); FlixBus cheapest $53 | About 10 h to 10 h 55 min | OurBus $89, 11 h 30 min; United from ITH to Dulles |
-| Toronto | Greyhound or OurBus | About $43 (Greyhound); from $55 (OurBus); undated | 6 h 40 min (OurBus) | Megabus up to 1 a day, fastest 7 h 15 min |
 
-The fares are sampled lows, not booked prices. The Boston, Philadelphia and DC lows come from CheckMyBus tables read on Nov 8, 2026. The Toronto figures come from undated operator pages. Greyhound's "about $43" may beat OurBus, but its page covers the Toronto-to-Ithaca direction.
+The fares are sampled lows, not booked prices. The Boston, Philadelphia and DC lows come from CheckMyBus fare tables of Nov 8, 2026, and the Toronto lows from its table of Nov 11, 2026.
 
 ## Ithaca to Boston
 
@@ -160,21 +184,23 @@ rows:
 
 The train is possible but not direct. The nearest Amtrak station is the [William F. Walsh Regional Transportation Center at 1 Walsh Circle in Syracuse](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources), about [60 miles north of Ithaca](https://www.ithaca.edu/orientation/family-and-guest-resources/transportation). A [trip planner](https://www.rome2rio.com/s/Cornell/Boston) estimates about 8 h 50 min and $45 to $300 for the bus-plus-Amtrak trip. That is a planner range, and the page is one that may read "Cornell" as Cornell, Wisconsin, so treat its times as rough. To reach Syracuse, the Ithaca-to-Syracuse city bus had [daily lows of $10 to $41](https://www.checkmybus.com/ithaca-ny/syracuse-ny) between Nov 6 and 26, 2026, with FlixBus taking 1 h 15 min to 1 h 35 min.
 
-Not confirmed: whether the Syracuse city bus stop is the Walsh Center itself, and current Amtrak fares from Syracuse to Boston. Check both before you rely on the connection.
+Those FlixBus trips arrive at FlixBus's [Syracuse Bus Station, 1 Walsh Circle](https://www.flixbus.com/bus/syracuse-ny), the same address as the Amtrak station. Pick that stop, not Syracuse University or Hancock Airport, when you book.
 
 ## Ithaca to Philadelphia
 
 FlixBus runs direct. On Monday Nov 9, 2026 it showed [$44 on two trips](https://www.checkmybus.com/ithaca-ny/philadelphia-pa): the 9:00 a.m. takes 9 hours and the 1:00 p.m. takes 7 h 50 min. The lowest fare in the Nov 9 to 18 sample was $41, on Wednesday Nov 18.
 
-The same page shows a cheaper-looking connection through Binghamton: $9 on FlixBus to Binghamton, then $41 on Greyhound. That is $50 in all, more than the $41 direct low, and it adds a change of bus. The author of the [2025 Cornell Sun student travel guide](https://www.cornellsun.com/article/2025/05/busses-trains-and-planes-getting-to-and-from-cornell) wrote that the Binghamton transfer felt unsafe. That is one writer's view, the only student account of the route.
+The same page shows a cheaper-looking connection through Binghamton: $9 on FlixBus to Binghamton, then $41 on Greyhound. That is $50 in all, more than the $41 direct low, and it adds a change of bus. The author of the [2025 Cornell Sun student travel guide](https://www.cornellsun.com/article/2025/05/busses-trains-and-planes-getting-to-and-from-cornell) wrote that the Binghamton transfer felt unsafe. That is one writer's view.
 
-Two other listings exist. Greyhound shows [6 buses a day, as little as 7 h 10 min](https://www.greyhound.com/bus-routes/ithaca-ny-philadelphia-pa). OurBus lists [fares from $105.2](https://www.ourbus.com/routes/ithaca-to-philadelphia) with trips of 5 h to 8 h 45 min, and says service was set to resume on Oct 26, without a year. Cornell's [travel resources page](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources) also names a Cornell-Philadelphia bus at bus.cbtcorp.net. Not confirmed: whether that bus runs today.
+Two other listings exist. Greyhound shows [6 buses a day, as little as 7 h 10 min](https://www.greyhound.com/bus-routes/ithaca-ny-philadelphia-pa). OurBus resumes the route on Thursday Nov 12, 2026, with [fares from $105.20](https://www.ourbus.com/routes/ithaca-to-philadelphia) and trips of 5 h to 8 h 45 min to Center City or Philadelphia Mills.
+
+Cornell's [travel resources page](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources) also links [Hilly To Philly](https://www.hillytophilly.com/), a break-only charter organized by Cornell Parents of Greater Philadelphia. It costs $75 one way or $140 round trip, from North and West Campus to the Allentown Service Plaza, Plymouth Meeting, 30th Street Station and King of Prussia. The remaining 2026-27 buses leave campus Nov 24, Dec 18, Feb 12 and Mar 26, and return Nov 29, Jan 24, Feb 16 and Apr 4.
 
 ## Ithaca to Washington, DC
 
 FlixBus is the cheapest. The Nov 7 to 28, 2026 sample had [19 priced daily lows with a mean of $74.47](https://www.checkmybus.com/ithaca-ny/washington-dc). FlixBus showed $53 at its cheapest, with trips of about 10 h to 10 h 55 min. The lowest single fare was $49, on Tuesday Nov 17. OurBus showed $89 and 11 h 30 min.
 
-OurBus's own page lists [DC from $75, about 7 h 40 min](https://www.ourbus.com/amp/routes/cornell-ithaca-to-dc), from the downtown stop to Union Station. The page names 130 E Seneca St, but OurBus's downtown stop [moves to 235 S. Cayuga St](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/) from Monday Nov 9, 2026. Use the stop on your ticket.
+OurBus's own page lists [DC from $75, about 7 h 40 min](https://www.ourbus.com/amp/routes/cornell-ithaca-to-dc), from the downtown stop to Union Station. The page names 130 E Seneca St, but OurBus's downtown stop [moved to 235 S. Cayuga St](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/) on Monday Nov 9, 2026. Use the stop on your ticket.
 
 DC is where Thanksgiving costs the most. Our split of the same 19 daily lows, the five Nov 23 to 27 dates against the 14 earlier ones, puts the Thanksgiving-week mean at $93.40 and the earlier mean at $67.71: 37.9% higher.
 
@@ -194,21 +220,23 @@ The other way to DC is the air: United flies [nonstop from ITH to Washington Dul
 
 ## Ithaca to Toronto
 
-Three carriers list the route, all from undated pages. OurBus shows [from $55 and 6 h 40 min](https://www.ourbus.com/routes/ithaca-ny-to-toronto-on), from the downtown stop. Greyhound lists [2 buses a day from about $43](https://www.greyhound.com/bus-routes/toronto-on-ithaca-ny). Megabus runs [up to 1 trip a day](https://ca.megabus.com/route-guides/ithaca-to-toronto-bus), earliest 10:50 a.m., fastest 7 h 15 min, from 131 East Green St.
+FlixBus is the cheapest direct carrier. Its [daily lows for Nov 12 to Dec 4, 2026](https://www.checkmybus.com/ithaca-ny/toronto-on) ran from $32 (Monday Nov 16, Tuesday Nov 17 and Thursday Nov 19) to $45. Thanksgiving week, Nov 23 to 27, ran $38 to $45. The 2:15 p.m. bus from downtown Ithaca takes 7 h 45 min to downtown Toronto, and some days add a 5:05 a.m. departure.
 
-In Toronto, FlixBus uses the [Union Station Bus Terminal, 81 Bay St, 2nd floor](https://www.flixbus.co.uk/bus-routes/toronto-on-ithaca-ny). Its trips back to Ithaca run from 8:30 a.m. to 2:05 p.m.
+Three other carriers list the route. Greyhound shows [2 buses a day from Toronto to Ithaca, from $48.98](https://www.greyhound.com/bus-routes/toronto-on-ithaca-ny). OurBus resumes the route on Nov 25, 2026, [from $98.60](https://www.ourbus.com/routes/ithaca-ny-to-toronto-on-bus), with trips of 6 h 25 min to 7 h 10 min from North or West Campus to Viscount Station. Megabus lists [one departure, at 9:45 a.m.](https://ca.megabus.com/route-guides/ithaca-to-toronto-bus), from 131 East Green St to 81 Bay St, fastest 7 h 20 min.
+
+In Toronto, FlixBus uses the [Union Station Bus Terminal, 81 Bay St, 2nd floor](https://www.flixbus.ca/bus-routes/toronto-on-ithaca-ny), and lists 2 trips a day back to Ithaca.
 
 The border sets the real deadline. U.S. citizen adults returning by land can show a [U.S. passport, passport card, enhanced driver's license or trusted traveler card](https://www.cbp.gov/travel/us-citizens/western-hemisphere-travel-initiative/faqs). Children under 16 who are U.S. or Canadian citizens may use a birth record. A passport card does not work for international flights, so it covers only the bus.
 
 ## Where to board in Ithaca
 
-Greyhound and FlixBus share [three Ithaca stops](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny). OurBus boards on campus and downtown.
+Greyhound and FlixBus share [three Ithaca stops](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny). OurBus boards on campus and downtown. Megabus lists [Coach USA Shortline stops](https://ca.megabus.com/route-guides/ithaca-to-toronto-bus) in the same three areas.
 
 | Operator | North Campus | West Campus | Downtown |
 |---|---|---|---|
 | Greyhound and FlixBus | 121 Jessup Rd, south side, near Robert Purcell | 240 West Ave, in front of Mennen Hall | 131 E Green St, curbside by Urban Outfitters |
 | OurBus | Jessup Rd | West Ave, across from Baker Flagpole | 235 S. Cayuga St from Nov 9, 2026 |
-| Megabus | Not listed | Not listed | 131 East Green St |
+| Megabus | 107 Jessup Rd | 240 West Ave | 131 East Green St |
 
 Wait at the curb on Green St, not inside the Tompkins County Public Library, as Greyhound's page asks.
 
@@ -227,7 +255,7 @@ OurBus names three [peak days](https://www.ourbus.com/blog/?p=6269) to book earl
 - **Travelling on a Friday when a Tuesday works.** To Boston, Friday Nov 20 cost $101 against $46 on Tuesday Nov 17: $55 more each way.
 - **Waiting until Thanksgiving week to book DC.** Floors that week averaged $93.40, about $26 above the earlier-November mean.
 - **Taking the Binghamton connection to Philadelphia to save money.** At $9 plus $41 it cost $50, more than the $41 direct low, with a transfer one student writer found unsafe.
-- **Going to the old downtown stop.** OurBus moves to 235 S. Cayuga St on Nov 9, 2026, and some route pages still say 130 E Seneca St.
+- **Going to the old downtown stop.** OurBus moved to 235 S. Cayuga St on Nov 9, 2026, and some route pages still say 130 E Seneca St.
 
 ## FAQ
 
@@ -237,7 +265,7 @@ OurBus names three [peak days](https://www.ourbus.com/blog/?p=6269) to book earl
 
 **What about New Jersey?** FlixBus runs direct to Newark Penn, which is not Newark Airport. The [Ithaca to JFK, LaGuardia or Newark guide](/getting-around/ithaca-to-jfk-lga-newark-airport-bus/) has the fares by weekday.
 
-**Can I share a ride instead?** Cornell lists [Finger Lakes Rideshare and a Student Rideboard](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources) for ride matching. No prices are posted.
+**Can I share a ride instead?** Cornell lists [Finger Lakes Rideshare and a Student Rideboard](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources) for ride matching.
 
 **How early should I book for Thanksgiving?** Two to three weeks out at least. The Nov 8 samples were read that far ahead and already showed Thanksgiving-week floors about a third higher.
 

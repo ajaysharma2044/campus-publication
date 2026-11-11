@@ -1,0 +1,133 @@
+{
+ "slug": "cornell-transfer-admissions-data-2017-2026",
+ "queue_id": "q-transfer-0033",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Fall 2025: 7,381 applied, 864 admitted, 625 enrolled (CDS D2); sex splits 4,391+2,989+1 and 424+440 and 310+315",
+   "source_url": "brief §10.5",
+   "status": "ok",
+   "note": "Brief rows match; splits re-added: 7,381, 864, 625 exactly."
+  },
+  {
+   "claim": "Fall 2025 admit rate 11.7%, applicants per admit 8.54, yield 72.3%, enrolled per applicant 8.5%",
+   "source_url": "brief §10.5",
+   "status": "ok",
+   "note": "Recomputed 864/7381=11.706%, 7381/864=8.54, 625/864=72.34%, 625/7381=8.47%."
+  },
+  {
+   "claim": "First-year fall 2025: 72,523 applied, 6,077 admitted (8.4%), 3,827 enrolled; transfer rate 1.4x",
+   "source_url": "brief §10.5",
+   "status": "ok",
+   "note": "6077/72523=8.38%; 11.71/8.38=1.40."
+  },
+  {
+   "claim": "Transfers 14.0% of new undergraduates fall 2025, 14.1% fall 2026; 'almost 15%' Cornell Housing",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "625/4452=14.04%; 603/4284=14.08%; 3,681 first-years from Chronicle per brief."
+  },
+  {
+   "claim": "New transfers 3.9% of 16,138 undergraduates",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "625/16138=3.87%."
+  },
+  {
+   "claim": "Fall 2023: 6,581 applied, 834 admitted, 12.67%, 7.89 per admit (third-party)",
+   "source_url": "brief §10.5",
+   "status": "ok",
+   "note": "834/6581=12.67%; 6581/834=7.89."
+  },
+  {
+   "claim": "Fall 2024: 7,218 applied, 670 admitted, 9.28%, 10.77 per admit; 556 enrolled (third-party)",
+   "source_url": "brief §10.5",
+   "status": "ok",
+   "note": "670/7218=9.28%; 7218/670=10.77; 556 per brief §10.5 enrollment table."
+  },
+  {
+   "claim": "Change 2023 to 2025: applicants +800 (+12.2%); admits -164 (-19.7%) 2023 to 2024; rate moved 3.4 points",
+   "source_url": "brief §10.5",
+   "status": "ok",
+   "note": "800/6581=12.2%; 164/834=19.7%; 12.67-9.28=3.39."
+  },
+  {
+   "claim": "Third-party rates 13% (2019), 18% (2020), 15.7% (2021), 13.8% (2022); 17.09% alternate for 2019",
+   "source_url": "brief §10.5",
+   "status": "ok",
+   "note": "Match brief; range 9.3% to 18% stated correctly."
+  },
+  {
+   "claim": "Enrollment 613 (2017), 645 (2018, +32, +5.2%), 674 (2021), 542 (2022), 603 (2026); 88 spring 2021",
+   "source_url": "brief §10.5, §10.6",
+   "status": "ok",
+   "note": "645-613=32; 32/613=5.2%. Range 542 to 674 holds."
+  },
+  {
+   "claim": "Spring 2023: 72 enrolled of 584 applications, 12.3%, Shawn Felton quoted",
+   "source_url": "brief §10.5",
+   "status": "ok",
+   "note": "72/584=12.33%."
+  },
+  {
+   "claim": "Fall 2021 IRP: 96 of 674 community college (14.2%), 578 four-year (85.8%), 86 international (12.8%)",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "96/674=14.24%; 578/674=85.76%; 86/674=12.76%."
+  },
+  {
+   "claim": "Contract colleges 472/674 = 70.0%, endowed 202/674 = 30.0%; CALS 243 = 36.1%, ILR 116 = 17.2%, A&S 102 = 15.1%",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "All recomputed; college counts match brief IRP table."
+  },
+  {
+   "claim": "FAQ 325 'about a quarter'; Chronicle May 2024 about 100 community college admits a year; 100/625 = 16.0%",
+   "source_url": "brief §10.6",
+   "status": "ok",
+   "note": "Brief rows match; 100/625=16.0%."
+  },
+  {
+   "claim": "Fall 2026: 3,681 first-years, 23 veterans, Chronicle 2026-08-13",
+   "source_url": "brief §10.5",
+   "status": "ok",
+   "note": "Brief line under the enrollment table."
+  },
+  {
+   "claim": "Sample-size counts: 12 terms, 9 with enrollment, 4 with applicants, 3 with applicants and admits",
+   "source_url": "CSV",
+   "status": "ok",
+   "note": "Counted from the 12 CSV rows. CSV and page table identical."
+  },
+  {
+   "claim": "Excluded figures: 535 collegetransfer.org, 2008 Sun figure, 500 to 600 and about 700 press estimates",
+   "source_url": "brief §10.5, §8",
+   "status": "ok",
+   "note": "Match brief."
+  },
+  {
+   "claim": "Cornell takes external transfers for fall only (CDS entry term)",
+   "source_url": "brief §3 row 'CDS entry term'",
+   "status": "ok",
+   "note": "Brief marks it not re-verified because the CDS PDF was unreadable; accepted as brief-trusted."
+  },
+  {
+   "claim": "Method sentence 'Counts were checked against their sources on 2026-11-11'; caveat bullets 'PDFs were not re-read' and 'Not in the brief:'",
+   "source_url": "page",
+   "status": "ok",
+   "note": "fixed in place: Research narration the publish lint rejects. Removed the first and second; rewrote the third as a neutral 'Rows with blank cells' bullet stating which cells are blank and that Cornell publishes no rate by college, major or class standing."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell transfer statistics",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

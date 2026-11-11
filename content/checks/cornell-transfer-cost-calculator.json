@@ -1,0 +1,108 @@
+{
+ "slug": "cornell-transfer-cost-calculator",
+ "queue_id": "q-transfer-0030",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Tuition $73,946 endowed and all non-NY; $49,816 NY contract (3.76% rise)",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "Same values and period. 71,266 x 1.0376 = 73,946."
+  },
+  {
+   "claim": "Mandatory fees $1,024 (activity $424, Cornell Health $600); books $1,234; personal $2,182; COA $99,734 and $75,604",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "Brief matches, including the 2025-26 page heading oddity."
+  },
+  {
+   "claim": "Hall rates: triple $12,644; double and quad $13,744; single and townhouse $15,566; super single $16,595; semester halves",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "All match."
+  },
+  {
+   "claim": "Co-op semester rates for Redbud, Triphammer, Watermargin, Whitby, 302/308 Wait, 660 Stewart, Wari (singles as ranges)",
+   "source_url": "brief §3.6",
+   "status": "ok",
+   "note": "Every cell matches the brief's co-op table."
+  },
+  {
+   "claim": "Unlimited and House $7,604; Collegetown $7,056; $50 admin fee; plan-to-hall mapping",
+   "source_url": "brief §2.11",
+   "status": "ok",
+   "note": "Matches, including the West Campus houses and the Collegetown buildings."
+  },
+  {
+   "claim": "SHP $1,705 fall + $2,046 spring = $3,751; year two $4,092; dependents $4,092/$3,751 and $8,184/$7,502; waiver deadline July 31; non-responders enrolled",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "Matches. $1,705 + $2,046 = $3,751 recomputed. The July 31 deadline is a snippet in the brief (not opened) and the page states it as the 2026 fact."
+  },
+  {
+   "claim": "Aid lines: grants cover tuition up to $125,000, full cost up to $75,000; need-aware international; CSS Profile March 15, 2027; 14% withholding",
+   "source_url": "brief §2.15, §2.18",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Fall classes begin Aug 24, 2026; spring finals end May 22, 2027; 9-month divisor",
+   "source_url": "brief §2.13",
+   "status": "ok",
+   "note": "Dates match. Aug 24 to May 22 is about 9 months."
+  },
+  {
+   "claim": "2027-28 prices confirmed before early April 2027 offers; tuition rose 3.76%",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Default total: 73,946 + 1,024 + 13,744 + 7,604 = $96,318 billed; + 3,416 = $99,734; + 3,751 = $103,485; /9 = $11,498",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "Added step by step. 103,485 / 9 = 11,498.3. $99,734 matches Cornell's published budget."
+  },
+  {
+   "claim": "NY CALS hall triple, health waived: $71,088 billed; $74,504; $8,278 a month",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "49,816 + 1,024 + 12,644 + 7,604 = 71,088. + 3,416 = 74,504. /9 = 8,278.2. Billed figure matches the low end of brief §3.7."
+  },
+  {
+   "claim": "NY CALS Redbud co-op double, health waived: $57,814 billed; $61,230",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "49,816 + 1,024 + 6,974 = 57,814. + 3,416 = 61,230."
+  },
+  {
+   "claim": "Two years default: $192,636 billed; $199,468; $207,311 with health plan; $11,517 a month over 18",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "96,318 x 2 = 192,636. 99,734 x 2 = 199,468. 3,751 + 4,092 = 7,843. 199,468 + 7,843 = 207,311. /18 = 11,517.3. $199,468 also in brief §10.2."
+  },
+  {
+   "claim": "Co-op double saves $3,782 (660 Stewart, Wari) to $6,770 (Redbud) a year versus a hall double",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "13,744 - 9,962 = 3,782 and 13,744 - 6,974 = 6,770."
+  },
+  {
+   "claim": "Contract college tuition is $24,130 less than endowed (computed in tool.html)",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "73,946 - 49,816 = 24,130."
+  },
+  {
+   "claim": "tool.md and tool.html told readers what the sources lack ('Not in the brief:' lines; 'Cornell's meal plan page does not say which plan...')",
+   "source_url": "n/a",
+   "status": "fixed",
+   "note": "Publish lint forbids these. Cut the three 'Not in the brief' sentences from tool.md. Replaced the co-op food wording in tool.md and in the tool.html note with 'Co-op food is not counted. Budget for it separately.' Added no new facts."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "1bb6734e184de682bcca53e0f4388b57fc956aad39c63fd27865292abaf41319"
+}

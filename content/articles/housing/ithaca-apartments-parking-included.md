@@ -2,12 +2,12 @@
 title: 'Ithaca Apartments With Parking Included: What''s Free'
 mode: answer
 dek: Parking comes with the rent at a short list of Ithaca apartments, mostly on the Cornell Heights edge and in Lansing, while Ithaca Renting's Collegetown buildings sell spaces separately.
-meta: 'Ithaca apartments with parking included: which buildings list free spaces, which charge $2,450 a year or more, and what a garage costs if yours has none.'
+meta: 'Ithaca apartments with parking included: which buildings list free spaces, which charge $2,450 a year or more, and where to park if yours has none.'
 primary_query: ithaca apartments with parking included
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 157
 rewrites: ''
 readers:
@@ -105,9 +105,7 @@ Other landlords charge less. Gateway Commons downtown lists a small annual parki
 
 ## What does parking cost if your building has none?
 
-The City's [Dryden Road Garage](https://www.cityofithacany.gov/718/Dryden-Road-Garage) charges $232 a month, or $2,784 a year ($232 times 12), and a monthly permit at the [Green Street Garage](https://www.cityofithacany.gov/716/Green-Street-Garage) costs $117. Meters cost $2.50 an hour.
-
-A City residential permit costs $45 per year and is issued to individual residents, including renters. Landlords cannot obtain permits for their tenants, and permits expire July 31 ([City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance)). Permit zones cover residential districts, and an older Cornell item says central Collegetown has none, so check the street before you count on a permit.
+You pay the City instead, either for a monthly garage space or for a residential permit on some blocks. Landlords cannot obtain that permit for their tenants, so you apply yourself ([City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance)). [Parking in Collegetown and downtown Ithaca](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/) prices each garage and street option.
 
 <!-- ad-break -->
 
@@ -137,5 +135,5 @@ Ask each landlord three things in writing: whether the space is assigned, what i
 
 Related guides:
 - [Parking in Collegetown and downtown](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/)
-- [Having a car at Cornell](/cornell/getting-around/having-a-car-at-cornell-student-guide/)
+- [Having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)
 - [Cornell student parking permits](/cornell/getting-around/cornell-student-parking-permit-cost-rules/)

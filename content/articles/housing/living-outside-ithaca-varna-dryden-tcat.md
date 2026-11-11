@@ -119,7 +119,7 @@ You ride free after 6 p.m. and all weekend, so a late lab or a library night cos
 
 ## Is there another way in from Dryden?
 
-Cortland Public Transit, a separate county bus system, serves Cornell, TC3 and Dryden, per Cornell Transportation's bus page. The page is undated and lists no schedule, so call Cortland Public Transit before you plan around it. Driving is the other option. The [car ownership guide](/cornell/getting-around/having-a-car-at-cornell-student-guide/) covers permits and parking costs.
+Cortland Public Transit, a separate county bus system, serves Cornell, TC3 and Dryden, per Cornell Transportation's bus page. The page is undated and lists no schedule, so call Cortland Public Transit before you plan around it. Driving is the other option. The [car ownership guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) covers permits and parking costs.
 
 To weigh a cheaper Varna rent against the daily trip, run both ends through the commute calculator.
 

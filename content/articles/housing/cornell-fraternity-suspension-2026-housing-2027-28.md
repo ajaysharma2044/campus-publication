@@ -1,5 +1,5 @@
 ---
-title: Cornell fraternity suspension 2026 and 2027-28 housing
+title: 'Does Cornell''s fraternity suspension change 2027-28 housing?'
 mode: answer
 dek: The Oct. 13, 2026 party ban does not change housing rules, but a chapter can house second-years only while Cornell recognizes it.
 meta: 'What Cornell''s 2026 fraternity suspension means for 2027-28 housing: which rules hold, which dates to watch and what to do if a chapter house closes.'
@@ -7,7 +7,7 @@ primary_query: cornell fraternity suspension 2026 housing
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 134
 rewrites: ''
 readers:
@@ -85,7 +85,7 @@ If you plan to live in a fraternity house in 2027-28, Cornell's October 2026 sus
 
 On Oct. 13, 2026, President Michael I. Kotlikoff canceled all parties and social events in Interfraternity Council houses for the rest of 2026-27. Any fraternity that holds an in-house party or social event gets an immediate emergency suspension. The directive also starts a review to decide whether and how fraternity life continues ([Presidential Actions](https://scl.cornell.edu/get-involved/sorority-fraternity-life/policies-and-procedures/presidential-actions)). The Cornell Daily Sun reported the announcement the same day ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/10/breaking-cornell-suspends-all-fraternity-parties-social-events-for-2026-27-school-year)).
 
-Six days earlier, on Oct. 7, the Ithaca Common Council voted 9-1 for a temporary moratorium on new assembly, special-event, Commons and noise permits for Cornell groups, fraternities and sororities. It was set to expire Nov. 5 ([Ithaca Times](https://www.ithaca.com/news/ithaca/common-council-sets-moratorium-on-cornell-event-permits-following-gang-rape-allegations/article_6c84a345-d112-483a-98bc-316f3b64f0a1.html)). Ask the City of Ithaca whether it was extended. Separately, Cornell said the Chi Phi chapter at 107 Edgemoor Lane remains barred from campus ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/09/university-releases-statement-on-alleged-gang-rape-at-chi-phi)).
+Six days earlier, on Oct. 7, the Ithaca Common Council voted 9-1 for a temporary moratorium on new assembly, special-event, Commons and noise permits for Cornell groups, fraternities and sororities. It was set to expire Nov. 5 ([Ithaca Times](https://www.ithaca.com/news/ithaca/common-council-sets-moratorium-on-cornell-event-permits-following-gang-rape-allegations/article_6c84a345-d112-483a-98bc-316f3b64f0a1.html)). Ask the City of Ithaca whether it was extended. Our [guide to the city's permit moratorium](/cornell/housing/ithaca-2026-moratorium-student-event-permits/) covers which permits it withholds and how it differs from Cornell's directive. Separately, Cornell said the Chi Phi chapter at 107 Edgemoor Lane remains barred from campus ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/09/university-releases-statement-on-alleged-gang-rape-at-chi-phi)).
 
 ## Does the suspension close chapter houses?
 
@@ -102,7 +102,7 @@ Four rules from the residential policy decide it:
 3. You confirm the house plan on the housing application by March 15. If you miss it, you finish the requirement in a Cornell hall.
 4. You still file the application. For 2027-28 it is due April 4 at 11:59 p.m. ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
-The full path for a sophomore is in the [co-op and Greek house guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/).
+The full path for a sophomore is in the [co-op and Greek house guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/). Each chapter house's rent and Cornell's rules for living in are in our [fraternity and sorority housing guide](/cornell/housing/cornell-fraternity-sorority-housing-2026-27/).
 
 ```figure
 kind: timeline

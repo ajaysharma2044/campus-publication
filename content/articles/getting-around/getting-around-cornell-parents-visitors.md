@@ -5,7 +5,7 @@ primary_query: Cornell parent visit weekend Ithaca getting around without a car
 topic: getting-around
 school: cornell-university
 type: scenario
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0057
 kind: reader_guide
 readers:
@@ -123,6 +123,9 @@ sources:
 - url: https://www.chemungcountyny.gov/850/Elmira-Corning-Regional-Airport
   title: Elmira Corning Regional Airport, Chemung County
   accessed: '2026-11-11'
+- url: https://ridectran.com/wp-content/uploads/CTRAN-Schedule30-Final-PRD2.pdf
+  title: Route 30 Elmira-Ithaca schedule and map, C TRAN (Chemung County Transit), updated July 2024
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Black and white photo of a car parked on a country road beneath a tall wooden railroad trestle
@@ -172,7 +175,7 @@ Ithaca's own airport is the easy choice when the fares work. It has two schedule
 
 Syracuse has more choice, [nonstop service to 27 destinations](https://www.syrairport.org/). It is an hour or more away, and Cornell's families page says flights into [Syracuse, Elmira or Binghamton need a rental car or a bus](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation). Without a car, the bus is OurBus. It runs from SYR Terminal A to campus in [1 hour 25 minutes to 2 hours 5 minutes](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny), with most fares $46.70 to $62.10 and Sunday the cheapest day.
 
-Elmira is about [36 miles away](https://www.airport.guide/kelm/ny/tompkins-co/ithaca). The one bus between the two cities is Chemung County's C TRAN Route 30, a commuter route from Elmira to Ithaca at [$6 for the full trip](https://ridectran.com/en/fares). Its western end is Elmira itself, while the airport sits at [276 Sing Sing Road in Horseheads](https://www.chemungcountyny.gov/850/Elmira-Corning-Regional-Airport). Fly there only if you plan to rent a car.
+Elmira is about [36 miles away](https://www.airport.guide/kelm/ny/tompkins-co/ithaca). Chemung County's C TRAN runs Route 30, a commuter bus from Elmira to Ithaca, at [$6 for the full trip](https://ridectran.com/en/fares). It starts at the Elmira Transit Center and [does not stop at the airport](https://ridectran.com/wp-content/uploads/CTRAN-Schedule30-Final-PRD2.pdf), which sits at [276 Sing Sing Road in Horseheads](https://www.chemungcountyny.gov/850/Elmira-Corning-Regional-Airport). Fly there only if you plan to rent a car.
 
 | Airport | Flights | Getting to campus without a car | Cost each way |
 |---|---|---|---|
@@ -205,7 +208,7 @@ rows:
   - {label: "Landing late or carrying heavy bags: prebook one of the three taxis above"}
 ```
 
-Uber and Lyft also work by app at the airport. Taxis are priced by quote: the airport's taxi page says to [call or text each company for pricing](https://flyithaca.com/taxis), and Collegetown Cab's website and app give a quote before you book. Ask for the airport-to-campus price and say how many bags you have.
+Uber and Lyft also work by app at the airport. Taxis are priced by quote: the airport's taxi page says to [call each company for pricing](https://flyithaca.com/taxis). Ithaca Airport Cab also takes texts, and Collegetown Cab's website and app give quotes. Ask for the airport-to-campus price and say how many bags you have.
 
 ## Taking the C2C bus from New York City
 
@@ -221,7 +224,7 @@ The Campus-to-Campus bus is Cornell's own coach between Ithaca and its New York 
 
 Example: two parents and a 3-year-old ride from the Cornell Club to Sage Hall for Family Weekend. Three paid seats at $101 is $303 one way, or $606 round trip. If they also bring a 1-year-old on a lap, that child rides free. A booking change inside 8 hours of departure would add $30 per seat.
 
-The C2C is not the cheapest way up. OurBus, Greyhound and FlixBus all run between Manhattan and Ithaca for less, and they drop you on campus too. Greyhound and FlixBus stop downtown at [131 E. Green Street](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny) and on campus at 121 Jessup Road and 240 West Avenue. From November 9, 2026, OurBus's downtown stop moves to [235 S. Cayuga Street](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/), beside the South Cayuga garage.
+The C2C is not the cheapest way up. OurBus, Greyhound and FlixBus all run between Manhattan and Ithaca for less, and they drop you on campus too. Greyhound and FlixBus stop downtown at [131 E. Green Street](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny) and on campus at 121 Jessup Road and 240 West Avenue. From November 9, 2026, OurBus's downtown stop is [235 S. Cayuga Street](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/), beside the South Cayuga garage.
 
 ## Getting around Ithaca once you're here
 
@@ -233,7 +236,7 @@ TCAT is the city bus, and you pay the public fare: your student's Cornell ID doe
 | Senior 60 and over, or a rider with a disability | $0.75 (tell the driver before you tap) |
 | Child under 12 with a paying adult | Free |
 
-Pay with exact cash, a contactless card or phone, the TFare app or a T-card. The TFare QR code expires after a minute, so open it at the door. The airport's own page lists [riders under 17 at $0.75](https://www.flyithaca.com/public-transportation), so a teenager may pay half fare on that route.
+Pay with exact cash, a contactless card or phone, the TFare app or a T-card. The TFare QR code expires after a minute, so open it at the door.
 
 At night, the Blue Light bus runs on Route 92 [from 6:30 p.m. to 2:30 a.m., year-round](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation).
 
@@ -243,7 +246,7 @@ Example: two parents and a 10-year-old stay downtown for a Saturday. They ride t
 
 ## If you rent a car anyway: where to park
 
-**On campus.** The visitor lot is the Tang Welcome Center, ParkMobile Zone 4119, at [$1.50 an hour or $10 a day](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options). Its pay station has been out of service since September 8, 2026, so pay through the ParkMobile app or text PARK to 77223. Each transaction adds a $0.45 fee. Most campus lots charge Monday to Friday, 7:30 a.m. to 5 p.m. Residence-hall areas need a permit or payment around the clock. Parking without a permit or payment costs [$50](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1), and an accessible space or fire lane costs $150 plus an automatic tow. For Family Weekend 2026, Cornell [opened certain lots at no cost](https://scl.cornell.edu/families/family-events/family-weekend/family-weekend-faq) and emailed the parking details to registrants in September.
+**On campus.** The visitor lot is the Tang Welcome Center, ParkMobile Zone 4119, at [$1.50 an hour or $10 a day](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options). Its pay station has been out of service since September 8, 2026, so pay through the ParkMobile app or text PARK to 77223. Each transaction adds a $0.45 fee. Most campus lots charge Monday to Friday, 7:30 a.m. to 5 p.m. Residence-hall areas need a permit or payment around the clock. Parking without a permit or payment costs [$50](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1), and an accessible space or fire lane costs $150 plus an automatic tow. For Family Weekend 2026, Cornell said it would [make certain lots free](https://scl.cornell.edu/families/family-events/family-weekend/family-weekend-faq) and email parking details to registrants in September.
 
 **Downtown.** City garages charge [$2.25 an hour](https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328). The daily maximum is $12 at Green Street and Cayuga Street and $18 at Dryden Road in Collegetown. Street meters with pay stations charge $2.50 an hour. The Cayuga Street Garage at 245 S. Cayuga Street has [more than 300 spaces](https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/), about 5 minutes' walk from the Commons.
 
@@ -281,7 +284,7 @@ The registrar lists Thanksgiving break as [November 25 to 29, 2026](https://regi
 
 Three things you may read elsewhere are out of date:
 
-- **The bus terminal at 710 W State St.** It is [closed](https://en.wikipedia.org/wiki/Ithaca_Bus_Station), though Cornell's families page still names it. Intercity buses board on Green Street, and OurBus moves to South Cayuga Street on November 9, 2026.
+- **The bus terminal at 710 W State St.** It is [closed](https://en.wikipedia.org/wiki/Ithaca_Bus_Station), though Cornell's families page still names it. Greyhound and FlixBus board on Green Street, and OurBus on South Cayuga Street from November 9, 2026.
 - **The Seneca Street garage.** It has been [closed since spring 2026](https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/). Use Green Street or Cayuga Street.
 - **Free Saturday parking downtown.** It [ended with the 2026 city budget](https://www.fingerlakes1.com/2025/11/12/free-saturday-parking-to-end-in-ithaca-in-2026/); Sunday is still free. Visit Ithaca's May 2026 family guide still says the garages cost about $2 an hour and are free on weekends. The city's own notice wins.
 
@@ -292,7 +295,7 @@ Three things you may read elsewhere are out of date:
 - **Booking C2C seats for adults only.** Every child age 2 and up needs a $101 seat, and a stroller that takes a seat counts as a passenger.
 - **Counting on Uber at night.** It is limited outside downtown. Prebook a taxi for a late flight or a late dinner.
 - **Parking at the Tang Welcome Center without ParkMobile.** The pay station is out of service, and an unpaid space costs $50.
-- **Sending your student to 710 W State St.** That terminal is closed, and the bus leaves from Green Street or campus instead.
+- **Sending your student to 710 W State St.** That terminal is closed, and the bus leaves from Green Street, South Cayuga Street or campus instead.
 
 ## FAQ
 
@@ -300,7 +303,7 @@ Three things you may read elsewhere are out of date:
 
 **Can my student book my C2C seat on their account?** One reservation can hold several passengers, but the NetID fare of $93.50 is for students, faculty and staff.
 
-**Is there a rental car counter at the Ithaca airport?** Yes. The airport's car-rental page lists [Avis, Budget and Hertz](https://flyithaca.com/car-rentals). Avis and Budget share a local office at 607-257-0441, open 7 a.m. to 6 p.m. on weekdays and 9 a.m. to 1 p.m. on Saturdays; Hertz is 607-257-8677, open 8 a.m. to 6 p.m. on weekdays and 9 a.m. to 4 p.m. on Saturdays. For a late flight, the page says to sign up for a Fastbreak or Preferred membership first so you can pick up the car after hours. The airport [recommends renting](https://www.flyithaca.com/news/traveling-to-and-from-ith) for a longer stay or a group.
+**Is there a rental car counter at the Ithaca airport?** Yes. The airport's car-rental page lists [Avis, Budget and Hertz](https://flyithaca.com/car-rentals). Avis and Budget share a local office at 607-257-0441, open 7 a.m. to 6 p.m. on weekdays, 9 a.m. to 1 p.m. on Saturdays and 9 a.m. to 6 p.m. on Sundays; Hertz is 607-257-8677, open 8 a.m. to 6 p.m. on weekdays, 9 a.m. to 4 p.m. on Saturdays and 10 a.m. to 5 p.m. on Sundays. For a late flight, the page says to sign up for a Fastbreak or Preferred membership first so you can pick up the car after hours. The airport [recommends renting](https://www.flyithaca.com/news/traveling-to-and-from-ith) for a longer stay or a group.
 
 **Can I bring a wheelchair on the C2C?** Yes, with notice. Call 607-254-8747 at least 2 weeks, or 10 business days, [before the trip](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-additional-information).
 

@@ -1,0 +1,157 @@
+{
+ "slug": "cornell-transfer-application-checklist",
+ "queue_id": "q-transfer-0032",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Deadlines March 15, 2027 (application, fee, portfolio) and April 15, 2027 (other materials)",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2; matches NUMBERS firstDeadline/secondDeadline"
+  },
+  {
+   "claim": "Application fee $85, waivable",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief fee row"
+  },
+  {
+   "claim": "Essay 250 to 650 words",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief essay row"
+  },
+  {
+   "claim": "ILR writing: 350 / 650 / 650 words (fall 2026 guidelines)",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief ILR essays row; brief notes 350 not re-verified, page labels it fall 2026"
+  },
+  {
+   "claim": "Human Ecology Transfer Option essay 600 words",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief Transfer Option extras"
+  },
+  {
+   "claim": "A&S Transfer Option 3.5 GPA each semester, no grade below B-",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief A&S rows"
+  },
+  {
+   "claim": "Transfer Option deadline March 15 (2026 date), next round shows Application Available Winter 2027",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief; page labels it the 2026 date"
+  },
+  {
+   "claim": "CSS code 2098, FAFSA 002711, HESC 0174/0175, FAFSA opens Oct 1 2026, aid due March 15 2027",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "brief aid rows"
+  },
+  {
+   "claim": "CSS fee waiver automatic up to $100,000 AGI",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Grants cover tuition up to $125,000, full cost up to $75,000",
+   "source_url": "brief §1",
+   "status": "ok",
+   "note": "brief line 15"
+  },
+  {
+   "claim": "International aid: CSS by March 15 or no aid later; 14% withholding",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "EOP/HEOP fall 2027 applicants submit 2025 financial documents; OADI 607.255.3841; stateprograms@cornell.edu",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Reply date July 1 (CDS), no transfer deposit date published",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief decision timing and deposit rows"
+  },
+  {
+   "claim": "AAP syllabi within 2 weeks of offer",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Human Ecology major check June 8 to 30; Dyson advisor meeting July (2024 pattern)",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief; labelled as 2024 on page"
+  },
+  {
+   "claim": "Housing application within 10 days of NetID; no fee, no deposit",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "SDS phone 607-254-4545",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Student Health Plan $1,705 fall + $2,046 spring = $3,751 in year one",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief lines 486-487; recomputed 1,705 + 2,046 = 3,751"
+  },
+  {
+   "claim": "Health plan waiver deadline July 31, 2026 (fall new admits)",
+   "source_url": "https://studenthealthbenefits.cornell.edu/node/179",
+   "status": "ok",
+   "note": "Opened the page: fall new admits July 31, 2026; spring new matriculated January 21, 2027. Brief had it as an unopened snippet; now confirmed."
+  },
+  {
+   "claim": "Exam credit request by last day of instruction; December 7 in 2026",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Courses 7 or more years old generally not eligible for credit",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Table label '(search snippet)' on waiver row",
+   "source_url": "https://studenthealthbenefits.cornell.edu/node/179",
+   "status": "ok",
+   "note": "fixed in place: Replaced reader-facing research narration with '(spring new students: January 21, 2027)', confirmed on the page"
+  },
+  {
+   "claim": "'Not in the brief: ...' bullet in Assumptions",
+   "source_url": "n/a",
+   "status": "ok",
+   "note": "fixed in place: Removed: tells the reader our research lacks facts and fails the publish lint. No heading or glance promise depended on it."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell transfer application checklist",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

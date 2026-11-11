@@ -7,7 +7,7 @@ primary_query: sublet scams Ithaca Cornell
 topic: housing
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 222
 rewrites: ''
 readers:
@@ -60,6 +60,8 @@ images: []
 ```
 
 Do not send money for a sublet until you have seen the unit and the landlord has approved the sublet in writing. That one rule stops most scams. The Federal Trade Commission counted nearly 65,000 rental scam reports from January 2020 to June 2025, with about [$65 million lost and a median loss of $1,000](https://ftc.gov/news-events/data-visualizations/data-spotlight/2025/12/rental-scams-hit-home-65-million-reported-losses).
+
+The [full guide to subletting in Ithaca](/cornell/housing/subletting-in-ithaca-guide-cornell-students/) covers the rest of a sublet, from the law to the dates to mail.
 
 ## What do sublet scams look like?
 
@@ -115,4 +117,4 @@ Call your bank first and ask it to stop or recall the payment. Report the loss a
 
 ## What to do next
 
-Before you pay for a summer sublet, run the five steps above. The [summer housing guide](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/) covers how to take a sublet safely, step by step, and what it costs.
+Before you pay for a summer sublet, run the five steps above. The [summer sublet guide](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/) covers how to take a sublet safely, step by step, and what it costs.

@@ -7,7 +7,7 @@ primary_query: can a landlord refuse a sublet in New York
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 219
 rewrites: ''
 readers:
@@ -64,6 +64,8 @@ images:
 
 In a New York building with four or more residential units, a landlord cannot refuse a sublet without a reasonable cause ([Real Property Law 226-b](https://www.nysenate.gov/legislation/laws/RPP/226-B)). The statute's sublet rule covers buildings with four or more units, so it does not reach a building with three or fewer.
 
+For the rest of a sublet, from finding a subtenant to the dates to mail, read the [full guide to subletting in Ithaca](/cornell/housing/subletting-in-ithaca-guide-cornell-students/).
+
 ## Who has a legal right to sublet in New York?
 
 The right belongs to tenants in buildings with four or more residential units. The statute excludes public housing, units with statutory admission criteria and co-op proprietary leases. Count every residential unit in the building, not only the ones you can see.
@@ -93,7 +95,7 @@ If the landlord does not answer, the statute treats the silence as consent ([RPL
 
 The statute does not list reasons that count as reasonable. The tenant's side and the landlord's side each have to argue the facts. If you get a refusal, call the Cornell Law Tenants Advocacy hotline at [607-301-1560](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/) and read the letter to an adviser before you act.
 
-Landlords sometimes publish policies that go further than the statute. Ithaca Renting's Collegetown page says sublets must be [registered and approved, go to Cornell students only, and run one per term](https://ithacarenting.com/collegetown/), with no Airbnb or stays under a month. Its [downtown policy](https://ithacarenting.com/downtown/) requires a two-month minimum and the agreement of all named tenants. A landlord's published policy is not the same as the statute. If a policy blocks a sublet in a building of four or more units, the question is whether the policy is a reasonable cause. The page does not answer that, and only a lawyer or a court can.
+Landlords sometimes publish policies that go further than the statute. Ithaca Renting's Collegetown page says sublets must be [registered and approved, go to Cornell students only, and run one per term](https://ithacarenting.com/collegetown/), with no Airbnb or stays under a month. Its [downtown policy](https://ithacarenting.com/downtown/) requires a two-month minimum and the agreement of all named tenants. A landlord's published policy is not the same as the statute. If a policy blocks a sublet in a building of four or more units, the question is whether the policy is a reasonable cause. Only a lawyer or a court can answer that.
 
 ## What can you do if the refusal is unreasonable?
 

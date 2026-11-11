@@ -74,9 +74,6 @@ sources:
 - url: https://cornellsun.com/2024/05/07/student-assembly-funds-free-charter-buses-to-syracuse-ithaca-airports/
   title: Student Assembly Funds Free Charter Buses to Syracuse, Ithaca Airports, The Cornell Daily Sun, May 7, 2024
   accessed: '2026-11-08'
-- url: https://cornellsun.com/2023/11/19/special-thanksgiving-shuttle-connects-cornell-with-ithaca-tompkins-international-airport/
-  title: Special Thanksgiving Shuttle Connects Cornell With Ithaca Tompkins International Airport, The Cornell Daily Sun, November 19, 2023
-  accessed: '2026-11-11'
 - url: https://registrar.cornell.edu/calendars-exams/academic-calendar
   title: Academic Calendar, Cornell University Registrar
   accessed: '2026-11-08'
@@ -85,7 +82,10 @@ sources:
   accessed: '2026-11-08'
 - url: https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved
   title: 'Oh, Thanksgiving in Ithaca: Stranded and Starved, The Cornell Daily Sun, December 1, 2013'
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
+- url: https://www.cornellsun.com/article/2022/11/students-express-discontent-over-short-thanksgiving-break-ef-bf-bc
+  title: Students Express Discontent Over Short Thanksgiving Break, The Cornell Daily Sun, November 22, 2022
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs
   title: Before Classes Were Cancelled, Cornellians Attempted to Return to Ithaca at All Costs, The Cornell Daily Sun, December 2019
   accessed: '2026-11-08'
@@ -134,9 +134,6 @@ sources:
 - url: https://www.wrvo.org/2026-01-23/passengers-flying-in-and-out-of-cny-airports-should-check-with-their-airlines
   title: Passengers flying in and out of CNY airports should check with their airlines, WRVO, January 23, 2026
   accessed: '2026-11-11'
-- url: https://cornellsun.com/article/2026/01/cornell-closes-ithaca-agritech-campuses-beginning-sunday-ahead-of-upcoming-snowstorm
-  title: Cornell Closes Ithaca, AgriTech Campuses Beginning Sunday Ahead of Upcoming Snowstorm, The Cornell Daily Sun, January 24, 2026
-  accessed: '2026-11-11'
 - url: https://www.pbs.org/newshour/economy/as-jet-fuel-costs-soar-delta-joins-growing-list-of-u-s-airlines-raising-checked-bag-fees
   title: As jet fuel costs soar, Delta joins growing list of U.S. airlines raising checked bag fees, PBS NewsHour, April 7, 2026
   accessed: '2026-11-11'
@@ -165,7 +162,7 @@ images:
 - Free Student Assembly charters to ITH and SYR have been funded after finals every term since May 2024; undergraduates sign up on Campus Groups.
 ```
 
-Fly from Ithaca (ITH) when a single connection through JFK or Dulles gets you home, because it is close and its terminal opens at [3:30 a.m.](https://flyithaca.com). Fly from Syracuse (SYR) when you want a nonstop or a backup: it serves [27 destinations](https://www.syrairport.org/) against ITH's [two](https://flyithaca.com/airlines), and the campus bus costs [$46.7 to $62.1 each way](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny). Book Thanksgiving by summer, and prebook a taxi for any early-morning flight.
+Fly from Ithaca (ITH) when a single connection through JFK or Dulles gets you home, because it is close and its terminal opens at [3:30 a.m.](https://flyithaca.com). Fly from Syracuse (SYR) when you want a nonstop or a backup: it serves [27 destinations](https://www.syrairport.org/) against ITH's [two](https://flyithaca.com/airlines), and the campus bus costs [$46.7 to $62.1 each way](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny). Book Thanksgiving in October, and prebook a taxi for any early-morning flight.
 
 ```reader "If you're a first-year flying home for the first time"
 Your first trip home is Thanksgiving: classes stop Nov 25 and resume after Nov 29, 2026, per the [academic calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar). Free TCAT gets you to the Commons, but the airport leg on Route 32 or 72 still costs $1.50, per the [airport](https://www.flyithaca.com/public-transportation). The costly mistake is a 6 a.m. ITH flight with no ride booked: in 2024 the Student Assembly president said nothing runs for 5:30 a.m. flights, per [the Sun](https://cornellsun.com/2024/05/07/student-assembly-funds-free-charter-buses-to-syracuse-ithaca-airports/). Book the taxi when you book the flight. In May, watch Campus Groups for the free finals charter.
@@ -176,7 +173,7 @@ ITH's terminal opens at [3:30 a.m.](https://flyithaca.com), but no TCAT bus runs
 ```
 
 ```reader "If you're a student with a car on campus"
-Driving yourself to the airport works, and ITH is the cheap place to park. Long-term parking is $8 a day or $40 a week, per the [airport parking page](https://www.flyithaca.com/parking). SYR's economy lots top out at $14 a day, per [Syracuse](https://www.syrairport.org/parking/), or about $98 for a week by our math. The mistake that costs most is not at the airport. A car left on an Ithaca city street over break can be ticketed, towed and treated as abandoned. Leave it in your campus permit area. The [car guide](/getting-around/having-a-car-at-cornell-student-guide/) has the winter rules.
+Driving yourself to the airport works, and ITH is the cheap place to park. Long-term parking is $8 a day or $40 a week, per the [airport parking page](https://www.flyithaca.com/parking). SYR's economy lots top out at $14 a day, per [Syracuse](https://www.syrairport.org/parking/), or about $98 for a week by our math. The mistake that costs most is not at the airport. A car left on an Ithaca city street over break can be ticketed, towed and treated as abandoned. Leave it in your campus permit area. The [car guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) has the winter rules.
 ```
 
 ```reader "If you're a parent booking the tickets"
@@ -184,7 +181,7 @@ Price both airports with the ground leg included. ITH saves the bus but has two 
 ```
 
 ```reader "If you're staying for Thanksgiving instead"
-Thanksgiving break runs Nov 25 to 29, 2026 ([calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar)), and travel takes a full day each way from the West. A 2013 Sun columnist put Thanksgiving airfares at two to three times normal ([Sun 2013](https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved)). Staying and flying home once in December can make sense. Winter break is different: staying costs $125 a week or $500, and the application closes Dec 1 ([winter break housing](https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing)). Missing that deadline is the costly mistake. More on staying over breaks.
+Thanksgiving break runs Nov 25 to 29, 2026 ([calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar)), and a student told the [Sun in 2022](https://www.cornellsun.com/article/2022/11/students-express-discontent-over-short-thanksgiving-break-ef-bf-bc) that the trip home takes a day and the trip back another. A 2013 Sun columnist put Thanksgiving airfares at two to three times normal ([Sun 2013](https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved)). Staying and flying home once in December can make sense. Winter break is different: staying costs $125 a week or $500, and the application closes Dec 1 ([winter break housing](https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing)). Missing that deadline is the costly mistake. More on staying over breaks.
 ```
 
 ## Which airport, by trip
@@ -242,11 +239,9 @@ The bus does not meet the first flights. For those, take a taxi. The [airport's 
 
 ## The free finals charters
 
-The Student Assembly has paid for free charter buses to ITH and SYR during finals week. In May 2024 it ran 20 shuttles from 4 a.m. on May 15 to 3:30 p.m. on May 18, with pickups at Baker Flagpole and the Robert Purcell Community Center, for undergraduates only, first come first served ([Sun 2024](https://cornellsun.com/2024/05/07/student-assembly-funds-free-charter-buses-to-syracuse-ithaca-airports/)). Resolution 18 put $7,853.32 toward the fall 2025 run ([R18](https://assembly.cornell.edu/resolutions/student-assembly/sa-r18-2025-2026)). Resolution 83, adopted Apr 16, 2026, put $10,668.87 toward the spring 2026 run, with sign-up on Campus Groups ([R83](https://assembly.cornell.edu/resolutions/student-assembly/sa-r83-2025-2026)).
+The Student Assembly has funded free charter buses to ITH and SYR for every finals week since May 2024. That first run had 20 shuttles from 4 a.m. on May 15 to 3:30 p.m. on May 18, with pickups at Baker Flagpole and the Robert Purcell Community Center, for undergraduates only, first come first served ([Sun 2024](https://cornellsun.com/2024/05/07/student-assembly-funds-free-charter-buses-to-syracuse-ithaca-airports/)). Each term since has needed its own resolution, with sign-up on Campus Groups. The spring money passed in March or April: $4,580 in 2025 ([R38](https://assembly.cornell.edu/resolutions/student-assembly/sa-r38-2024-2025)) and $10,668.87 on Apr 16, 2026 ([R83](https://assembly.cornell.edu/resolutions/student-assembly/sa-r83-2025-2026)).
 
-Not confirmed: a fall 2026 charter. No resolution for December 2026 finals had been posted as of Nov 8. Fall finals run Dec 11 to 19, 2026 ([calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar)). Watch Campus Groups in November, and book a paid ride you can cancel in case no charter comes.
-
-No Thanksgiving airport shuttle is announced for 2026 either. The last one ran in 2023: a Swarthout Coaches bus to ITH for $14 one way ([Sun 2023](https://cornellsun.com/2023/11/19/special-thanksgiving-shuttle-connects-cornell-with-ithaca-tompkins-international-airport/)).
+The fall votes came on Oct 24, 2024, for $4,000 ([R11](https://assembly.cornell.edu/resolutions/student-assembly/sa-r11-2024-2025)), and on Nov 13, 2025, for $7,853.32 ([R18](https://assembly.cornell.edu/resolutions/student-assembly/sa-r18-2025-2026)). Fall finals run Dec 11 to 19, 2026 ([calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar)). Watch Campus Groups in November, and book a paid ride you can cancel in case no charter runs.
 
 ## When to book
 
@@ -254,7 +249,7 @@ No Thanksgiving airport shuttle is announced for 2026 either. The last one ran i
 kind: timeline
 title: A flyer's year, 2026-27
 rows:
-  - {label: "Book Thanksgiving flights (one 2017 forum poster did it in June or July)", date: "Summer"}
+  - {label: "Book Thanksgiving flights (fares lowest about 34 days out)", date: "Oct 2026"}
   - {label: "Thanksgiving break, no classes", date: "Nov 25 to 29, 2026"}
   - {label: "Winter break housing applications close", date: "Dec 1, 2026"}
   - {label: "Fall final exams", date: "Dec 11 to 19, 2026"}
@@ -263,25 +258,23 @@ rows:
   - {label: "Spring final exams; watch for the SA charter sign-up", date: "May 15 to 22, 2027"}
 ```
 
-Book Thanksgiving first. The break runs only Nov 25 to 29, 2026 ([calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar)). In a [2017 College Confidential thread](https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899), one poster booked Thanksgiving flights in June or July, and posters advised keeping a backup airport (they named Binghamton and Albany). OurBus names the Wednesday before Thanksgiving, the last day of December finals and the Friday spring break begins as its peak days ([OurBus blog](https://www.ourbus.com/blog/?p=6269)). Book the SYR bus when you book the flight.
+Book Thanksgiving first. The break runs only Nov 25 to 29, 2026 ([calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar)). Five years of Google Flights data put Thanksgiving's low-price window at 21 to 57 days before departure ([Google](https://blog.google/products-and-platforms/products/search/holiday-travel-trends-2026/)), so book in October. OurBus names the Wednesday before Thanksgiving, the last day of December finals and the Friday spring break begins as its peak days ([OurBus blog](https://www.ourbus.com/blog/?p=6269)). Book the SYR bus when you book the flight.
 
-For December, book around your own last exam, not Dec 19. Residences closed at 2 p.m. on Dec 21 in 2025; the 2026 closing notice is not posted yet. Spring break runs Mar 27 to Apr 4, 2027, and spring finals May 15 to 22.
-
-Not confirmed: current airline fares and bag fees from ITH or SYR. Check the airline before you choose between flying with bags and shipping them.
+For December, book around your own last exam, not Dec 19. Undergraduate residences close at 2 p.m. on Sunday, Dec 20, 2026, and residents still inside are charged $60 for each hour or part of one. If your flight leaves later, request a later departure in the Housing and Dining Portal by Dec 7 ([closing checklist](https://scl.cornell.edu/residential-life/housing/housing-details/winter-break-closing-checklist)). Spring break runs Mar 27 to Apr 4, 2027, and spring finals May 15 to 22.
 
 ## Bags: ship or check
 
-Bags are the hidden cost of a long trip home. Big Red Shipping and Storage (BRSS) is Cornell's contracted vendor. It offers free in-room pickup, packing supplies and shipping, but the [Cornell storage page](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options) posts no rates. You book at bigredboxes.com or 607-524-3130, and you must be in the room for pickup. Slots are limited.
+Bags are the hidden cost of a long trip home. Big Red Shipping and Storage (BRSS) is Cornell's contracted vendor. It offers free in-room pickup, packing supplies and shipping ([Cornell storage page](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options)). Shipping goes by FedEx and is priced at pickup at current FedEx rates ([BRSS pricing](http://www.bigredboxes.com/BRSS_Pricing)). You book at bigredboxes.com or 607-524-3130, and you must be in the room for pickup. Slots are limited.
 
-The Sun reported that BRSS ships through FedEx and that carriers have raised rates. In the same 2024 story, Carver Hauptman '27, from Nebraska, described a trip home of about 15 hours and shipping the extras ([Sun 2024](https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes)). The bus leg matters too: OurBus guarantees one large bag per ticket, and extra bags ride only if space remains.
+The Sun reported in 2024 that carriers have raised shipping rates. In the same story, Carver Hauptman '27, from Nebraska, described a trip home of about 15 hours and shipping the extras ([Sun 2024](https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes)). The bus leg matters too: OurBus guarantees one large bag per ticket, and extra bags ride only if space remains.
 
-So get a BRSS quote, then compare it with your airline's checked-bag fee for the same boxes. At move-out, when you are taking a year's stuff, shipping is more likely to win. At Thanksgiving, a carry-on is usually enough.
+Both ITH airlines raised checked-bag fees in April 2026, to $45 for a first bag and $55 for a second ([PBS](https://www.pbs.org/newshour/economy/as-jet-fuel-costs-soar-delta-joins-growing-list-of-u-s-airlines-raising-checked-bag-fees), [GMA](https://www.goodmorningamerica.com/travel/story/united-airlines-raises-checked-bag-fees-travelers-131687092)). United charges $5 more a bag if you pay within 24 hours of the flight. So get a BRSS quote, then compare it with those fees for the same load. At move-out, when you are taking a year's stuff, shipping is more likely to win. At Thanksgiving, a carry-on is usually enough.
 
 ## When a storm hits the return
 
 Plan the Sunday after Thanksgiving as the riskiest travel day of the year. On Dec 1 and 2, 2019, a storm cancelled most OurBus trips and connecting flights through DC and Detroit, and students scrambled back by any means ([Sun 2019](https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs)). Cornell did not announce class cancellations until students were already traveling. A student forecaster's advice that weekend: come back Saturday night or early Sunday ([Sun Nov 2019](https://cornellsun.com/2019/11/30/under-heavy-snow-forecast-university-mum-on-class-cancellation)).
 
-SYR is not immune. In December 2016, snow cancelled SYR flights for up to two days and some travelers took cabs to Amtrak, per the [2017 forum thread](https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899). ITH has its own risk: with two routes, one cancellation can leave you waiting a day. A tracker shows several cancelled dates for Delta 5265 between ITH and JFK in July 2026, on July 6, 7 and 10 ([Avionio](https://www.avionio.com/en/flight/dl-5265)).
+SYR is not immune. In January 2026, as a winter storm delayed 1,900 flights nationwide, many of them on Delta and United, WRVO told flyers at Central New York airports to check with their airline before leaving home ([WRVO](https://www.wrvo.org/2026-01-23/passengers-flying-in-and-out-of-cny-airports-should-check-with-their-airlines)). ITH has its own risk: with two routes, one cancellation can leave you waiting a day. A tracker shows several cancelled dates for Delta 5265 between ITH and JFK in July 2026, on July 6, 7 and 10 ([Avionio](https://www.avionio.com/en/flight/dl-5265)).
 
 Example: a junior flying back from Chicago after Thanksgiving, with a Monday class. A Sunday evening arrival at ITH has no backup if it cancels. A Saturday flight into SYR, then OurBus to campus from $46.7, lands a day early. If that flight cancels, Sunday still leaves room for a rebooking through either airport. Pack spare clothes and toiletries in the carry-on, as international students advised in the [Sun in 2019](https://cornellsun.com/2019/05/06/international-students-travel-cornell/).
 
@@ -290,11 +283,11 @@ Example: a junior flying back from Chicago after Thanksgiving, with a Monday cla
 ## Common mistakes
 
 - **Booking a dawn ITH flight with no taxi.** Nothing else runs; a missed flight at Thanksgiving can cost a day of a five-day break.
-- **Relying on one ITH flight.** With two routes today, a cancellation can mean a long wait; 2017 forum posters warned of limited flights; book the last flight of the day only if you can sleep in Ithaca.
+- **Relying on one ITH flight.** With two routes today, a cancellation can mean a long wait; book the last flight of the day only if you can sleep in Ithaca.
 - **Parking a car at SYR for a week.** About $98 at the economy daily max against $40 at ITH long-term, a $58 difference by our math.
 - **Booking Thanksgiving in November.** A 2013 Sun columnist put Thanksgiving airfares at two to three times normal.
-- **Assuming a free shuttle exists.** No Thanksgiving shuttle is announced for 2026, and the fall finals charter is not confirmed; a last-minute taxi to SYR is about $200 on one unverified estimate.
-- **Skipping the Dec 1 winter housing deadline** if you might stay: the [winter break housing page](https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing) describes no late process, and a $500 stay beats a forced flight at peak prices.
+- **Assuming a free shuttle exists.** The free charters run in finals week, and each term's run has needed its own Student Assembly vote. Hold a paid ride you can cancel.
+- **Skipping the Dec 1 winter housing deadline** if you might stay: over break the halls admit only students approved for winter break housing ([closing checklist](https://scl.cornell.edu/residential-life/housing/housing-details/winter-break-closing-checklist)), and a $500 stay beats a forced flight at peak prices.
 
 ## FAQ
 
@@ -302,7 +295,7 @@ Example: a junior flying back from Chicago after Thanksgiving, with a Monday cla
 
 **Does the TCAT airport bus run on weekends?** Yes, as Route 72; Route 32 runs on weekdays, both for $1.50 ([airport transit page](https://www.flyithaca.com/public-transportation)).
 
-**How long can I leave a car at ITH?** The long-term lot lists no maximum stay, at $8 a day or $40 a week ([parking](https://www.flyithaca.com/parking)). Pay at the exit gate by card, or with cash at the terminal machine first.
+**How long can I leave a car at ITH?** As long as you need, in either lot, per the [parking page](https://www.flyithaca.com/parking). Long-term costs $8 a day or $40 a week. Pay at the exit gate by card, or with cash at the terminal machine first.
 
 **Who can ride the free finals charters?** Undergraduates, signing up first come first served on Campus Groups, per [R83](https://assembly.cornell.edu/resolutions/student-assembly/sa-r83-2025-2026).
 

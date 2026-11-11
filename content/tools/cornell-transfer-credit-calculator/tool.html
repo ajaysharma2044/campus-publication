@@ -1,0 +1,224 @@
+<div class="tool" id="tool-cornell-transfer-credit-calculator" data-tool="cornell-transfer-credit-calculator" data-as-of="2026-11-11">
+  <style>
+    #tool-cornell-transfer-credit-calculator .tcc-field { margin: 0 0 0.9rem; }
+    #tool-cornell-transfer-credit-calculator .tcc-field label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
+    #tool-cornell-transfer-credit-calculator .tcc-field select,
+    #tool-cornell-transfer-credit-calculator .tcc-field input[type="number"] { width: 100%; max-width: 24rem; padding: 0.4rem; font: inherit; box-sizing: border-box; }
+    #tool-cornell-transfer-credit-calculator .tcc-check label { display: inline; font-weight: 600; }
+    #tool-cornell-transfer-credit-calculator .tcc-hint { display: block; font-size: 0.875em; opacity: 0.8; margin-top: 0.2rem; }
+    #tool-cornell-transfer-credit-calculator .tcc-result { border-top: 1px solid currentColor; padding-top: 0.9rem; margin-top: 1rem; }
+    #tool-cornell-transfer-credit-calculator .tcc-result ul { padding-left: 1.2rem; margin: 0.5rem 0; }
+    #tool-cornell-transfer-credit-calculator .tcc-small { font-size: 0.875em; opacity: 0.85; }
+  </style>
+
+  <h3>How many of your credits count, and how long you will be at Cornell</h3>
+  <p class="tcc-small">Cornell's caps: most colleges accept up to <span data-as-of="2026-11-11">60 credits</span>, AP and IB included; Engineering up to <span data-as-of="2026-11-11">66</span> (no more than <span data-as-of="2026-11-11">33 per full-time year</span>); Architecture up to <span data-as-of="2026-11-11">64</span>. You must earn at least <span data-as-of="2026-11-11">60 credits at Cornell</span> (Architecture <span data-as-of="2026-11-11">90</span>). Rules checked Nov 11, 2026.</p>
+
+  <div class="tcc-field">
+    <label for="cornell-transfer-credit-calculator-college">Cornell college you are applying to</label>
+    <select id="cornell-transfer-credit-calculator-college">
+      <option value="as" selected>Arts and Sciences</option>
+      <option value="cals">Agriculture and Life Sciences (CALS)</option>
+      <option value="eng">Engineering (Duffield)</option>
+      <option value="ilr">Industrial and Labor Relations (ILR)</option>
+      <option value="hotel">Hotel Administration (Nolan)</option>
+      <option value="humec">Human Ecology</option>
+      <option value="brooks">Brooks School of Public Policy</option>
+      <option value="dyson">Dyson (Applied Economics and Management)</option>
+      <option value="aap">AAP: Art or Planning</option>
+      <option value="arch">AAP: Architecture (B.Arch.)</option>
+    </select>
+  </div>
+
+  <div class="tcc-field">
+    <label for="cornell-transfer-credit-calculator-system">Your current school's calendar</label>
+    <select id="cornell-transfer-credit-calculator-system">
+      <option value="sem" selected>Semesters</option>
+      <option value="qtr">Quarters</option>
+    </select>
+    <span class="tcc-hint">Cornell converts quarter credits to semester credits at two-thirds.</span>
+  </div>
+
+  <div class="tcc-field">
+    <label for="cornell-transfer-credit-calculator-credits">College credits you will have earned before Cornell (not AP or IB)</label>
+    <input id="cornell-transfer-credit-calculator-credits" type="number" min="0" max="270" step="1" value="30" inputmode="numeric">
+    <span class="tcc-hint">Count only letter-graded courses with a C or better; those are the ones that can transfer.</span>
+  </div>
+
+  <div class="tcc-field">
+    <label for="cornell-transfer-credit-calculator-terms">Full-time terms completed before Cornell</label>
+    <input id="cornell-transfer-credit-calculator-terms" type="number" min="1" max="15" step="1" value="2" inputmode="numeric">
+    <span class="tcc-hint">Semesters, or quarters if your school uses quarters. Two semesters is sophomore entry; four is junior entry.</span>
+  </div>
+
+  <div class="tcc-field">
+    <label for="cornell-transfer-credit-calculator-exam">AP, IB or A-Level credits you hope Cornell grants</label>
+    <input id="cornell-transfer-credit-calculator-exam" type="number" min="0" max="60" step="1" value="0" inputmode="numeric">
+    <span class="tcc-hint">Cornell applies its own score rules, not your current school's. If an exam and a college course cover the same material, only the course counts, so leave that exam out.</span>
+  </div>
+
+  <div class="tcc-field">
+    <label for="cornell-transfer-credit-calculator-load">Credits you plan to take each Cornell semester</label>
+    <input id="cornell-transfer-credit-calculator-load" type="number" min="12" max="20" step="1" value="15" inputmode="numeric">
+  </div>
+
+  <div class="tcc-field tcc-check">
+    <input id="cornell-transfer-credit-calculator-nyres" type="checkbox">
+    <label for="cornell-transfer-credit-calculator-nyres">I am a New York resident</label>
+    <span class="tcc-hint">Changes tuition only at the contract colleges: CALS, Human Ecology, ILR, Brooks and Dyson.</span>
+  </div>
+
+  <div class="tcc-result" id="cornell-transfer-credit-calculator-result" aria-live="polite">
+    <p><strong>How it works:</strong> Cornell accepts at most 60 transfer credits in most colleges, so credits past 60 are lost. You still need at least 60 credits and, in Arts and Sciences, ILR and Brooks, four semesters at Cornell. A 90-credit junior keeps 60, loses 30 and spends ten semesters in college.</p>
+  </div>
+
+<script>
+(function () {
+  var root = document.getElementById("tool-cornell-transfer-credit-calculator");
+  if (!root) return;
+
+  var D = "2026-11-11";
+  var REG = "https://registrar.cornell.edu/students/credit-evaluation-services";
+  var ASREG = "https://as.cornell.edu/registrar/transferring-credits";
+  var ASADM = "https://as.cornell.edu/admissions/admissions-requirements-and-process";
+  var ENG = "https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements";
+  var CALS = "https://cals.cornell.edu/education/admissions/undergraduate-admissions/transfer-applicants";
+  var ILR = "https://www.ilr.cornell.edu/sites/default/files-d8/2026-02/transfer-guidelines-fa-26-final.pdf";
+  var HOTEL = "https://business.cornell.edu/admissions/undergraduate/bs-hotel-administration/application-requirements/";
+  var HE = "https://www.human.cornell.edu/admissions/transfer";
+  var BROOKS = "https://publicpolicy.cornell.edu/undergraduate/apply/transfer-applicants/external-transfers/";
+  var TUIT = "https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters";
+  var FEES = "https://finaid.cornell.edu/cost-attend";
+  var NUMBERS = {
+    capMostColleges: { value: 60, asOf: D, source: REG },
+    capEngineering: { value: 66, asOf: D, source: ENG },
+    engineeringPerFullTimeYear: { value: 33, asOf: D, source: ENG },
+    capArchitecture: { value: 64, asOf: D, source: REG },
+    minCornellCredits: { value: 60, asOf: D, source: REG },
+    minCornellCreditsArchitecture: { value: 90, asOf: D, source: REG },
+    minCornellSemestersASILRBrooks: { value: 4, asOf: D, source: ASADM },
+    creditsToGraduateAS: { value: 120, asOf: D, source: ASREG },
+    creditsToGraduateEngLow: { value: 123, asOf: D, source: REG },
+    creditsToGraduateEngHigh: { value: 137, asOf: D, source: REG },
+    creditsToGraduateArchitecture: { value: 154, asOf: D, source: REG },
+    examCapCALS: { value: 15, asOf: D, source: CALS },
+    examCapILR: { value: 12, asOf: D, source: ILR },
+    examCapHotel: { value: 15, asOf: D, source: HOTEL },
+    examCapHumanEcology: { value: 15, asOf: D, source: HE },
+    quarterToSemester: { value: 2 / 3, asOf: D, source: REG },
+    tuitionEndowed: { value: 73946, asOf: "2026-03-23", source: TUIT },
+    tuitionContractNY: { value: 49816, asOf: "2026-03-23", source: TUIT },
+    mandatoryFees: { value: 1024, asOf: D, source: FEES }
+  };
+  var N = function (k) { return NUMBERS[k].value; };
+
+  var COLLEGES = {
+    as: { name: "Arts and Sciences", cap: N("capMostColleges"), res: N("minCornellCredits"), semFloor: N("minCornellSemestersASILRBrooks"), grad: [N("creditsToGraduateAS")], gradKnown: true, contract: false,
+      note: "Arts and Sciences: 100 of the 120 credits must be A&S credits, and only quarter courses worth 4 or more credits meet requirements. AP or IB can replace only one of the two First-Year Writing Seminars." },
+    cals: { name: "CALS", cap: N("capMostColleges"), examCap: N("examCapCALS"), res: N("minCornellCredits"), semFloor: 0, grad: [N("creditsToGraduateAS")], contract: true,
+      note: "CALS: more than four semesters at a four-year school makes you ineligible; four semesters or an associate's degree means junior entry, and you cannot choose sophomore entry." },
+    eng: { name: "Engineering", cap: N("capEngineering"), perYear: N("engineeringPerFullTimeYear"), res: N("minCornellCredits"), semFloor: 0, grad: [N("creditsToGraduateEngLow"), N("creditsToGraduateEngHigh")], gradKnown: true, contract: false,
+      note: "Engineering: AP Calculus BC, AP Chemistry and AP Physics C Mechanics count only with a 5, a C- earns no credit, and juniors are admitted only in their first semester of junior standing." },
+    ilr: { name: "ILR", cap: N("capMostColleges"), examCap: N("examCapILR"), res: N("minCornellCredits"), semFloor: N("minCornellSemestersASILRBrooks"), grad: [N("creditsToGraduateAS")], contract: true,
+      note: "ILR: AP Microeconomics needs a 5 at Cornell even if your school took a 4." },
+    hotel: { name: "the Hotel School", cap: N("capMostColleges"), examCap: N("examCapHotel"), res: N("minCornellCredits"), semFloor: 0, grad: [N("creditsToGraduateAS")], contract: false,
+      note: "Hotel: current juniors and seniors at their school cannot apply, and AP Statistics is not accepted." },
+    humec: { name: "Human Ecology", cap: N("capMostColleges"), examCap: N("examCapHumanEcology"), res: N("minCornellCredits"), semFloor: 0, grad: [N("creditsToGraduateAS")], contract: true,
+      note: "Human Ecology: the college says not to count on AP or IB for most requirements, and pass/fail courses do not transfer." },
+    brooks: { name: "Brooks", cap: N("capMostColleges"), res: N("minCornellCredits"), semFloor: N("minCornellSemestersASILRBrooks"), grad: [N("creditsToGraduateAS")], contract: true,
+      note: "Brooks: Cornell accepts only IB Higher Level exams, and AP and IB statistics earn no credit." },
+    dyson: { name: "Dyson", cap: N("capMostColleges"), res: N("minCornellCredits"), semFloor: 0, grad: [N("creditsToGraduateAS")], contract: true,
+      note: "Dyson: exam credit is not automatic; the college decides course by course after admission." },
+    aap: { name: "AAP (Art or Planning)", cap: N("capMostColleges"), res: N("minCornellCredits"), semFloor: 0, grad: [N("creditsToGraduateAS")], contract: false,
+      note: "AAP: credit is evaluated only after an offer; you then have two weeks to send syllabi, and a portfolio for studio courses." },
+    arch: { name: "Architecture", cap: N("capArchitecture"), res: N("minCornellCreditsArchitecture"), semFloor: 0, grad: [N("creditsToGraduateArchitecture")], gradKnown: true, contract: false, normal: 10,
+      note: "Architecture: AAP is not accepting external transfer applications for the fall 2027 B.Arch." }
+  };
+
+  function el(n) { return root.querySelector("#cornell-transfer-credit-calculator-" + n); }
+  var collegeEl = el("college"), sysEl = el("system"), credEl = el("credits"), termsEl = el("terms"),
+      examEl = el("exam"), loadEl = el("load"), nyEl = el("nyres"), out = el("result");
+
+  function num(input, lo, hi, dflt) {
+    var v = parseFloat(input.value);
+    if (isNaN(v)) return dflt;
+    return Math.min(hi, Math.max(lo, v));
+  }
+  function r1(n) { var x = Math.round(n * 10) / 10; return (x % 1 === 0) ? String(x) : x.toFixed(1); }
+  function money(n) { return "$" + Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","); }
+  function pl(n, w) { return r1(n) + " " + w + (n === 1 ? "" : "s"); }
+  function li(t) { return "<li>" + t + "</li>"; }
+
+  function render() {
+    var c = COLLEGES[collegeEl.value] || COLLEGES.as;
+    var qtr = sysEl.value === "qtr";
+    var earned = num(credEl, 0, 270, 30);
+    var terms = num(termsEl, 1, 15, 2);
+    var exam = num(examEl, 0, 60, 0);
+    var load = num(loadEl, 12, 20, 15);
+
+    var collegeSem = qtr ? earned * N("quarterToSemester") : earned;
+    var semElsewhere = qtr ? terms * N("quarterToSemester") : terms;
+    var years = semElsewhere / 2;
+
+    var examOk = c.examCap != null ? Math.min(exam, c.examCap) : exam;
+    var lostExamCap = exam - examOk;
+    var courseOk = collegeSem;
+    var lostPerYear = 0;
+    if (c.perYear) { courseOk = Math.min(collegeSem, c.perYear * years); lostPerYear = collegeSem - courseOk; }
+    var accepted = Math.min(courseOk + examOk, c.cap);
+    var lostCap = courseOk + examOk - accepted;
+    var lost = collegeSem + exam - accepted;
+
+    var normal = c.normal || 8;
+    var rows = c.grad.map(function (g) {
+      var need = Math.max(g - accepted, c.res);
+      var sem = Math.max(Math.ceil(need / load - 1e-9), c.semFloor);
+      var total = semElsewhere + sem;
+      return { grad: g, need: need, sem: sem, total: total, extra: Math.max(0, Math.ceil(total - normal - 1e-9)) };
+    });
+    var lo = rows[0], hi = rows[rows.length - 1];
+    var span = function (k) { return lo[k] === hi[k] ? r1(lo[k]) : r1(lo[k]) + " to " + r1(hi[k]); };
+
+    var nyContract = c.contract && nyEl.checked;
+    var yearCost = (nyContract ? N("tuitionContractNY") : N("tuitionEndowed")) + N("mandatoryFees");
+    var semCost = yearCost / 2;
+
+    var head = "<p><strong>At most " + r1(accepted) + " of your " + r1(collegeSem + exam) + " credits can count at " + c.name + ", so " +
+      (lost > 0.05 ? r1(lost) + " are lost" : "none are lost to the caps") + ". You need " + span("sem") + " semesters at Cornell and " +
+      span("total") + " semesters of college in all" + (hi.extra > 0 ? ", " + (lo.extra === hi.extra ? pl(hi.extra, "semester") : lo.extra + " to " + hi.extra + " semesters") + " more than the usual " + normal : "") + ".</strong></p>";
+
+    var lines = [];
+    if (qtr) lines.push(li(r1(earned) + " quarter credits convert to " + r1(collegeSem) + " semester credits (times two-thirds), and " + r1(terms) + " quarters equal " + r1(semElsewhere) + " semesters."));
+    var why = [];
+    if (lostExamCap > 0) why.push(r1(lostExamCap) + " exam credits over " + c.name + "'s " + c.examCap + "-credit AP/IB limit");
+    if (lostPerYear > 0.05) why.push(r1(lostPerYear) + " course credits over Engineering's " + c.perYear + " per full-time year (" + r1(years) + " years x " + c.perYear + " = " + r1(c.perYear * years) + ")");
+    if (lostCap > 0.05) why.push(r1(lostCap) + " credits over the " + c.cap + "-credit total cap");
+    if (why.length) lines.push(li("Lost: " + why.join("; ") + "."));
+    if (exam > 0) lines.push(li("AP and IB sit inside the cap, so exam credit fills it faster. Send scores and a written request to your college registrar by the last day of classes of your first Cornell semester, or you lose them."));
+
+    var floorWhy = c.semFloor ? "at least " + c.res + " credits and " + c.semFloor + " semesters at Cornell" : "at least " + c.res + " credits at Cornell";
+    lines.push(li("At Cornell: " + span("need") + " more credits (" + (lo.grad === hi.grad ? lo.grad : lo.grad + " to " + hi.grad) + " to graduate minus " + r1(accepted) + ", and never less than " + floorWhy + "), at " + load + " a semester."));
+    if (c.semFloor && lo.sem === c.semFloor) lines.push(li("Taking more credits a semester cannot shorten this: the " + c.semFloor + "-semester residence rule still applies."));
+    if (!c.gradKnown) lines.push(li("Credits to graduate assumed at 120, the Arts and Sciences total. Check " + c.name + "'s own total with its registrar."));
+    if (c.grad.length > 1) lines.push(li("Engineering majors need 123 to 137 credits, so the range runs from the lightest major to the heaviest."));
+
+    if (hi.extra > 0) {
+      lines.push(li("Each extra semester costs about " + money(semCost) + " in tuition and fees at 2026-27 rates (" + money(yearCost) + " a year" +
+        (nyContract ? ", New York resident at a contract college" : c.contract ? ", non-New York resident" : ", endowed college") + "), before housing, food and aid."));
+    }
+    if (c.perYear && years >= 2 && collegeSem >= c.cap) lines.push(li("Two full-time years elsewhere already fill Engineering's 66; a third year adds nothing."));
+    if (c.cap === 60 && collegeSem + exam > 60 && semElsewhere >= 4) lines.push(li("Every 15 credits past 60 adds about one semester to your total time in college."));
+    lines.push(li(c.note));
+
+    out.innerHTML = head + "<ul>" + lines.join("") + "</ul>" +
+      '<p class="tcc-small">Rules as of Nov 11, 2026; tuition and fees are 2026-27 rates (2027-28 rates come out before April 2027). ' +
+      "This is the most Cornell can accept, not your evaluation: each college decides course by course after admission, and a course that transfers only as an elective can still leave requirements unmet. Per-semester cost is half the yearly figure.</p>";
+  }
+
+  root.addEventListener("input", render);
+  root.addEventListener("change", render);
+  render();
+})();
+</script>
+</div>

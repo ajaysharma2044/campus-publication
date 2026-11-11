@@ -1,0 +1,216 @@
+{
+ "slug": "international-transfer-to-cornell",
+ "queue_id": "q-transfer-0026",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "March 15 application + $85 fee, April 15 other materials, decisions late April through June",
+   "source_url": "https://admissions.cornell.edu/how-to-apply/transfer-international-applicants",
+   "status": "ok",
+   "note": "Brief §2.18 and the page itself agree."
+  },
+  {
+   "claim": "Admission is need-aware for international applicants; CSS Profile due March 15, 2027; code 2098; opens October 1, 2026",
+   "source_url": "https://finaid.cornell.edu/first-year-and-transfer-students-international",
+   "status": "ok",
+   "note": "brief §2.18; also re-read the aid page: Transfer March 15, 2027, as soon as possible after Oct 1, 2026, code 2098."
+  },
+  {
+   "claim": "Missing the aid deadline means no undergraduate aid at any later time",
+   "source_url": "https://admissions.cornell.edu/how-to-apply/transfer-international-applicants",
+   "status": "ok",
+   "note": "Quote on page: 'will not be eligible to apply for financial aid at any time as an undergraduate at Cornell.'"
+  },
+  {
+   "claim": "Cornell meets 100% of demonstrated need for admitted aid applicants",
+   "source_url": "https://finaid.cornell.edu/first-year-and-transfer-students-international",
+   "status": "ok",
+   "note": "Aid page says 100 percent of admitted international undergraduates' demonstrated need."
+  },
+  {
+   "claim": "No merit, athletic or talent aid for international students",
+   "source_url": "https://finaid.cornell.edu/frequently-asked-questions-about-international-financial-aid",
+   "status": "ok",
+   "note": "Brief had this only as a snippet. The international aid FAQ says Cornell does not offer merit, athletic or talent-based aid. The page cites the main international aid page, which does not state it. Facts correct; link is a different Cornell aid page."
+  },
+  {
+   "claim": "14% withheld on grant money above tuition and fees unless a tax treaty applies; $10,000 example gives $1,400",
+   "source_url": "brief §2.18",
+   "status": "ok",
+   "note": "Aid page confirms 14% on aid exceeding tuition and mandatory fees. 0.14 x 10,000 = 1,400."
+  },
+  {
+   "claim": "International families generally get no CSS Profile fee waiver",
+   "source_url": "https://finaid.cornell.edu/first-year-and-transfer-students-international",
+   "status": "fixed",
+   "note": "Parent block said 'no fee waiver', which could be read as the $85 application fee, which is waived automatically for those who qualify. Changed to 'no CSS Profile fee waiver', as the aid page says."
+  },
+  {
+   "claim": "Offer tentatively early April for applicants admitted by then",
+   "source_url": "https://finaid.cornell.edu/first-year-and-transfer-students-international",
+   "status": "ok",
+   "note": "Aid page: official aid offers tentatively released early April."
+  },
+  {
+   "claim": "International = no US citizenship or approved permanent residency; pending green card counts; undocumented/DACA treated as domestic",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1."
+  },
+  {
+   "claim": "At least 12 semester hours or full-time enrollment elsewhere; bachelor's holders cannot apply",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2.1."
+  },
+  {
+   "claim": "23 fall 2021 transfers came from institutions outside the US",
+   "source_url": "https://irp.cornell.edu/wp-content/uploads/2021/08/Profile2021-Fall-Transfers.pdf",
+   "status": "ok",
+   "note": "Not in the brief. Read the PDF: 'International 23 (3.4%)' under regional representation by location of institution last attended."
+  },
+  {
+   "claim": "674 fall 2021 transfers, 86 international, 12.8%",
+   "source_url": "brief §3.3",
+   "status": "ok",
+   "note": "Brief; confirmed in PDF. 86/674 = 12.76%."
+  },
+  {
+   "claim": "Fall 2025: 7,381 applicants, 864 admits, 625 enrollees; 11.7% admit rate",
+   "source_url": "brief §3.1",
+   "status": "ok",
+   "note": "Brief; recomputed 864/7,381 = 11.705%."
+  },
+  {
+   "claim": "Fall 2021: 32.7% received Cornell need-based grants, average $44,712",
+   "source_url": "brief §3.3",
+   "status": "ok",
+   "note": "Brief; confirmed in PDF."
+  },
+  {
+   "claim": "Admitted transfers 'generally' have 3.3 or better",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Translations: official English translations, a teacher or school official may translate",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "SAT/ACT neither required nor expected; self-report AP, IB, A-Level in Academic History",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "Also on the international transfer page."
+  },
+  {
+   "claim": "English test table: TOEFL iBT 5.0 min/5.5 recommended (Jan 2026+), 100 before; IELTS 7.5; Duolingo 130; Cambridge 191; codes and how to send",
+   "source_url": "https://admissions.cornell.edu/resources/submit-english-language-proficiency",
+   "status": "ok",
+   "note": "Not in the brief. Matches the page. Page says Cornell 'lists' these as 'competitive' minimums; the page's table matches."
+  },
+  {
+   "claim": "English exemption: US citizens and those with four years at an English-language school; self-report then official scores if admitted",
+   "source_url": "https://admissions.cornell.edu/resources/submit-english-language-proficiency",
+   "status": "ok",
+   "note": "Source also exempts applicants whose first language is English; the page's 'If English is not your first language' covers that."
+  },
+  {
+   "claim": "Tuition $73,946 (2026-27); NY contract rate $49,816; difference $24,130",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief; 73,946 - 49,816 = 24,130."
+  },
+  {
+   "claim": "Required-year billed costs: $95,218 / $95,770 / $96,318 / $98,140 / $99,169",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "Recomputed from tuition+fees 74,970 plus housing and meal plan; matches the brief's calculation."
+  },
+  {
+   "claim": "Unlimited/House plan $7,604; fees $1,024; books $1,234; personal $2,182; $99,734 with a double",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief; 96,318 + 1,234 + 2,182 = 99,734."
+  },
+  {
+   "claim": "Student Health Plan $1,705 fall + $2,046 spring = $3,751; $103,485 total example",
+   "source_url": "brief §2.17 / §10.7",
+   "status": "ok",
+   "note": "1,705 + 2,046 = 3,751; 99,734 + 3,751 = 103,485."
+  },
+  {
+   "claim": "Fall tuition bill early July; Cashnet e-bills reach a parent only if invited",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Housing: apply within ten days of NetID, no fee or deposit, one-year on-campus requirement; exceptions; Aug 18, 2026 move-in",
+   "source_url": "brief §2.10 / §6",
+   "status": "ok",
+   "note": "brief states the ten-day rule, the requirement and Aug 18 move-in."
+  },
+  {
+   "claim": "Credit rules for coursework abroad (Ministry-of-Education institutions; ESL, remedial, military never; English courses reviewed; quarter credits x 2/3; seven years)",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Credit evaluated case by case after admission, may ask for syllabi, C or better, closely parallel",
+   "source_url": "https://faq.enrollment.cornell.edu/kb/article/327-how-are-my-transfer-credits-evaluated/",
+   "status": "ok",
+   "note": "Source says 'case by case', course outlines if admitted, 'C or better', 'closely parallel'."
+  },
+  {
+   "claim": "Credit caps: 60 most colleges, Engineering 66, Architecture 64; 60 credits at Cornell (90 in Architecture)",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "A-Level/IB credit request by last day of instruction (Dec 7, 2026); transcripts to college registrar",
+   "source_url": "brief §2.11",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "F-1 steps: acceptance letter to current school's international office; release date entered in SEVIS; proof of funding; I-20 within two to three weeks; online Required Status Activation; do not visit the office",
+   "source_url": "https://international.globallearning.cornell.edu/getting-started/f-1-transfer-students",
+   "status": "ok",
+   "note": "Not in the brief (brief marks it unread). Read the Cornell page; every step and the 'two to three weeks' quote match. Brief row 'not read' is now covered by the page; no brief error."
+  },
+  {
+   "claim": "60-day grace period; release date in SEVIS before it ends; J-1 has 30-day grace period",
+   "source_url": "https://international.globallearning.cornell.edu/getting-started/f-1-transfer-students",
+   "status": "ok",
+   "note": "Matches the source. 'J-1 students follow similar steps' is a light inference; the source only says J-1 has a shorter grace period. Left as is."
+  },
+  {
+   "claim": "Cost-table and math: 24,130 difference; $1,400 withholding; 11.7%; 12.8%",
+   "source_url": "recomputed",
+   "status": "ok",
+   "note": "All recomputed from the inputs; correct."
+  },
+  {
+   "claim": "Program Houses are the only halls a new transfer can request by name; HILC is one",
+   "source_url": "brief §2.10 / §3.6",
+   "status": "ok",
+   "note": "brief: random auto-allocation except Program Houses."
+  },
+  {
+   "claim": "College Confidential thread drew no substantive answers",
+   "source_url": "https://talk.collegeconfidential.com/t/does-cornell-university-provide-decent-financial-aid-packages-for-international-transfer-students/1919903",
+   "status": "unverifiable",
+   "note": "Characterization of a forum thread taken from the research lane; not re-opened. It is not used as a fact source, only as a note that forums add little."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "4b7c4eca103bef6ace276048169a7e34b3590088193ae08f3d616d8d4e62ef94"
+}

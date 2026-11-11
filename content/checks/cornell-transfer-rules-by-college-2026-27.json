@@ -1,0 +1,132 @@
+{
+ "slug": "cornell-transfer-rules-by-college-2026-27",
+ "queue_id": "q-transfer-0034",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "NY resident tuition 2026-27: $49,816 at contract colleges (CALS, Human Ecology, ILR, Brooks, Dyson); $73,946 at the four endowed colleges and for non-residents",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief §2.14 gives the same values, period and college lists"
+  },
+  {
+   "claim": "Gap of $24,130 a year between endowed and contract NY-resident tuition",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "Recomputed 73,946 - 49,816 = 24,130; matches"
+  },
+  {
+   "claim": "Admitted transfers are generally 3.3 or better (FAQ 325)",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief GPA table, same quote and source"
+  },
+  {
+   "claim": "GPA figures: CALS 3.0 (3.5 Biological Sciences) minimum; AAP 2.7 minimum; Hotel 3.3 and ILR 3.4 typical; Human Ecology and Brooks 3.5 competitive; A&S and Engineering none; Dyson 3.5 snippet",
+   "source_url": "brief §2.5, §10",
+   "status": "ok",
+   "note": "All match brief GPA signal rows and the brief's cross-source reconciliation"
+  },
+  {
+   "claim": "Credit caps: 60 at A&S, CALS, Hotel, ILR, Brooks; Engineering 66 (33 per full-time year); Architecture 64; Human Ecology and Dyson print none, registrar 60",
+   "source_url": "brief §2.8, §10.7",
+   "status": "ok",
+   "note": "brief caps list matches"
+  },
+  {
+   "claim": "Exam-credit sub-caps: CALS AP 15, Hotel AP/IB/GCE 15, Human Ecology 15 pre-college, ILR AP 12",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief matches; count of 4 recounted from rows"
+  },
+  {
+   "claim": "Residence floors: A&S 60 credits and four semesters; ILR 60 credits and four full-time semesters; Brooks four semesters on the Ithaca campus; Engineering 60 credits; Architecture 90 credits at Cornell (154 over five years)",
+   "source_url": "brief §2.4, §2.6, §2.10",
+   "status": "ok",
+   "note": "brief rows match; count of 4 college pages recounted from the CSV"
+  },
+  {
+   "claim": "March 15 printed on four college pages (Engineering, Hotel, ILR, AAP); central March 15, 2027 for application and fee, April 15, 2027 for everything else",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief rows match; ILR Mid-Term Report March 15 if possible, April 15 at the latest. Count of 4 recounted from CSV deadline column"
+  },
+  {
+   "claim": "Closed or limited majors: AAP no external B.Arch. for fall 2027; CALS closes Global and Public Health Sciences, sends AEM to Dyson, Global Development sophomores only; Engineering one major, no undecided, stay one year",
+   "source_url": "brief §2.6, §2.7",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "Engineering fixed course block (MATH 1910, 1920; PHYS 1112 with 1110; CHEM 2090 with 2091); missing any means not reviewed; 13 majors; PE and water rule from fall 2025; AP 5 needs",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief rows match, including the CS 1110/1112 reading"
+  },
+  {
+   "claim": "CALS standing: two semesters sophomore; four semesters or associate's degree junior; more than four semesters at a four-year school not eligible; transfers nearly one-third of CALS students",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "Registrar: cannot deny credit for community college or online courses; about 80% similar, C or better",
+   "source_url": "brief §2.8, §6",
+   "status": "ok",
+   "note": "brief rows match"
+  },
+  {
+   "claim": "Hotel: at least 12 credits; current juniors, seniors and bachelor's holders not eligible; prerequisites; contact sha_admissions@cornell.edu, +1 (607) 254-4228, 248 Sage Hall",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "Human Ecology sophomore 23 credits, quarter credit 0.67, 15 pre-college credits, contact",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "AAP: credit not evaluated until after offer; two weeks for syllabi; March 15 application and portfolio",
+   "source_url": "brief §2.9",
+   "status": "ok",
+   "note": "brief matches"
+  },
+  {
+   "claim": "Contacts: A&S 607-255-4833, CALS 607-255-2036, Engineering Advising 607-255-7414, Brooks 607-254-3451, Dyson_OSS@cornell.edu, ims25@cornell.edu (2024 Tatkon page where labeled)",
+   "source_url": "brief §2.4-2.9, §2.12",
+   "status": "ok",
+   "note": "numbers and emails all appear in the brief"
+  },
+  {
+   "claim": "Dyson row: 3.5 and no AP/IB credit rule from a 2019 file seen only as a snippet; advisor meeting in July",
+   "source_url": "brief §2.5, §2.9",
+   "status": "ok",
+   "note": "brief marks the snippet as unread; the page labels it as such and does not state it as fact. Not a reject (hole marked by the brief)"
+  },
+  {
+   "claim": "GPA kind counts: 2 minimum, 2 typical, 2 competitive, 2 not stated, 1 snippet; 6 of 9 caps printed by college",
+   "source_url": "brief §2.5 (own count)",
+   "status": "ok",
+   "note": "Recounted from the CSV gpa_kind and credit_cap columns: matches"
+  },
+  {
+   "claim": "Credit-loss model: 60 -> 0 lost, 8 semesters; 75 -> 15 lost, 9; 90 -> 30 lost, 10; 105 -> 45 lost, 11; Engineering 2 x 33 = 66",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "Recomputed: semesters = (earned/15) + 4 residence semesters = 8, 9, 10, 11; loss = earned - 60; 2 x 33 = 66. Matches the brief"
+  },
+  {
+   "claim": "CSV rows match the page table (9 rows, same values, URLs in place of link labels)",
+   "source_url": "content/datasets/cornell-transfer-rules-by-college-2026-27.csv",
+   "status": "ok",
+   "note": "Read both files; cell values are identical row by row"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "d0a76a0de3c63e5f1753c636a9b9fe7744aab3a746893e11574b8b51af48d9f5"
+}

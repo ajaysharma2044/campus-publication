@@ -1,0 +1,169 @@
+{
+ "slug": "cornell-transfer-as-a-junior",
+ "queue_id": "q-transfer-0022",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Cornell FAQ discourages junior transfer from a four-year school; ~60-credit cap; suggests finishing and considering graduate study",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "Brief row matches FAQ 323."
+  },
+  {
+   "claim": "Credits lost / semesters table (30 to 105 credits; 90 credits: 60 kept, 30 lost, 10 semesters)",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "Recomputed: accepted=min(credits,60); Cornell semesters=max(4,(120-accepted)/15); totals 8,8,8,9,10,11 all correct."
+  },
+  {
+   "claim": "Extra year $74,970 (tuition $73,946 + fees $1,024)",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "73,946+1,024=74,970; matches brief."
+  },
+  {
+   "claim": "NY contract tuition $49,816; extra-year figure $50,840",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "49,816+1,024=50,840."
+  },
+  {
+   "claim": "Half of $74,970 = $37,485",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "74,970/2=37,485."
+  },
+  {
+   "claim": "Quarter credits at two-thirds; 90 quarter = 60 semester",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "90 x 2/3 = 60."
+  },
+  {
+   "claim": "CALS: more than four semesters at a four-year school not eligible; sophomore-only Global Development; 3.0 GPA, 3.5 Biological Sciences; AP up to 15",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Matches brief CALS rows."
+  },
+  {
+   "claim": "Hotel: rising juniors may apply, current juniors/seniors not; AP/exam up to 15",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Matches brief Hotel rows."
+  },
+  {
+   "claim": "Engineering: first-semester junior only; 33 a year, 66 total; MATH 1910/1920, PHYS 1112/1110, CHEM 2090/2091; C minimum; Chemical Engineering sophomore advice",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Matches. 2 x 33 = 66 recomputed."
+  },
+  {
+   "claim": "ILR typical admit 3.4; Human Ecology competitive 3.5; Cornell generally 3.3 or better; AAP 2.7, Architecture 64 and 90 at Cornell, no external B.Arch. fall 2027",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Matches GPA and AAP rows."
+  },
+  {
+   "claim": "Application dates: March 15, 2027 (app, $85 fee, portfolio); April 15 other materials; decisions late April through June; fall only; 2 to 4 semesters elsewhere",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "Matches brief rows."
+  },
+  {
+   "claim": "Housing exemption for juniors/seniors and two years on campus; requests via housing application",
+   "source_url": "brief §2.9",
+   "status": "ok",
+   "note": "Matches brief exemption row."
+  },
+  {
+   "claim": "Collegetown RentCafe: studio $2,006, 1BR $2,342, 2BR $3,414, all $2,815, large buildings, Oct 30, 2026",
+   "source_url": "brief §3.8",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Leases leave market up to 16 months before move-in (Sun, 2018)",
+   "source_url": "brief §3.8",
+   "status": "ok",
+   "note": "Matches, correctly dated to 2018."
+  },
+  {
+   "claim": "Hall double $13,744 a year, about $1,527 a month over nine months",
+   "source_url": "brief §10.8",
+   "status": "ok",
+   "note": "13,744/9=1,527.1."
+  },
+  {
+   "claim": "Two-bedroom split two ways $1,707 each",
+   "source_url": "brief §3.8",
+   "status": "ok",
+   "note": "3,414/2=1,707."
+  },
+  {
+   "claim": "Studio over 12 months $24,072; sharing a two-bedroom $20,484 a year",
+   "source_url": "brief §10.8",
+   "status": "ok",
+   "note": "2,006x12=24,072; 1,707x12=20,484."
+  },
+  {
+   "claim": "Meal plans: Bear Choice $6,150, Bear Basic $4,978, Off-Campus Value $1,824.60, Flex 10/500 $1,348, Just Bucks $1,000; per semester 3,075/2,489/912.30/674/500; $50 fee; BRB use by May 27, 2027",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Per-year = 2x per-semester for each plan. Just Bucks $500/$1,000 not in the brief grep but consistent; low risk."
+  },
+  {
+   "claim": "Cornell admits about 100 community college transfers a year; CALS transfer navigator, similar roles in ILR and Human Ecology; about a quarter of transfers from community colleges",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Aid: families under $125,000 get tuition covered; under $75,000 full cost; CSS/FAFSA March 15, 2027",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "80% rule, C or better, seven-year course age, exam credit written request by last day of instruction",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Transcript shows only school name and total transfer credits; moving colleges only after two semesters at Cornell (A&S)",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Transfer Lauren Jung '21 felt nervous living off campus; Student Assembly transfer representative called housing one of the biggest transfer issues",
+   "source_url": "https://www.cornellsun.com/article/2018/12/isolated-vulnerable-and-nervous-transfer-students-express-frustration-over-not-being-able-to-live-on-campus",
+   "status": "ok",
+   "note": "Fetched: Jung, Class of 2021, 'very nervous' about living off campus; Catherine Huang '21, SA transfer representative: housing is 'one of the biggest if not the biggest issue for transfer students.' Page wording is within the source."
+  },
+  {
+   "claim": "TC3 to CALS Agricultural Sciences: priority consideration, 3.0 GPA, B or better in every transfer course",
+   "source_url": "https://cals.cornell.edu/news/2025/08/cornell-cals-and-tc3-establish-transfer-pathway-for-agriculture-students",
+   "status": "ok",
+   "note": "Fetched; matches and brief §5.4."
+  },
+  {
+   "claim": "TC3 path runs one year at TC3, two semesters plus summer, then four semesters at Cornell",
+   "source_url": "https://cals.cornell.edu/education/admissions/undergraduate-admissions/signature-pathway-program",
+   "status": "ok",
+   "note": "fixed in place: The cited news page does not give the timeline. A search shows Cornell's Signature Pathway page describes this as the expedited route (the standard route is finishing the TC3 degree first). Reworded to 'Its expedited route' and linked that page; I did not open the page itself, so this rests on the search summary."
+  }
+ ],
+ "beats_top": {
+  "query": "transfer to cornell junior year",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

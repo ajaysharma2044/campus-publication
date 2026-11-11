@@ -8,7 +8,7 @@ primary_query: cornell fraternity and sorority housing
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 9
 rewrites: ''
 readers:
@@ -44,7 +44,7 @@ sources:
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans 2026-2027, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing
   title: Affiliated Housing for the Second-Year Housing Requirement, Cornell Student & Campus Life
   accessed: '2026-11-10'
@@ -65,7 +65,7 @@ sources:
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental
   title: SFL Supplemental (Bear Supplemental) Meal Plan, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
   accessed: '2026-11-10'
@@ -127,6 +127,9 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Zeta_Psi_fraternity_house,_Cornell_University.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
+redirect_from:
+  - /cornell/housing/cornell-fraternity-house-cost-live-in-rules/
+  - /housing/cornell-fraternity-house-cost-live-in-rules/
 ---
 
 
@@ -137,13 +140,11 @@ images:
 - Fraternity parties are banned through 2026-27 while Cornell decides whether fraternity life continues.
 ```
 
-On Oct. 13, 2026, Cornell President Michael I. Kotlikoff canceled every party and social event in the university's fraternity houses for the rest of the school year. Any chapter that holds one now faces an immediate emergency suspension ([Cornell Student & Campus Life](https://scl.cornell.edu/get-involved/sorority-fraternity-life/policies-and-procedures/presidential-actions)).
+A recognized chapter house counts as sophomore housing at Cornell if you affirm it on your housing application by March 15, 2027 ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Each chapter sets its own rent. Leaving aside one chapter that lists $0, the live-in charge for housing and dining runs from $2,000 to $14,673 for one spring semester on Cornell's [organization scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard).
 
-The order reached the parlors and the basements. It did not reach the bedrooms upstairs. Those rooms still count as approved housing for the second year of Cornell's two-year residential requirement ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
+A chapter house is three things at once. It is a club's meeting hall. It is a building owned by the university, an alumni group or a national organization, paid for by student rent ([Financial Obligations page](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities)). And for a sophomore, it stands in for a dorm that Cornell approves but does not run. The university, the city and the chapter each control a different part of the house. Knowing which one sets which rule is most of what a student needs.
 
-That split explains Greek housing at Cornell. A chapter house is three things at once. It is a club's meeting hall. It is a building owned by the university, an alumni group or a national organization, paid for by student rent ([Financial Obligations page](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities)). And for a sophomore, it stands in for a dorm that Cornell approves but does not run. The university, the city and the chapter each control a different part of the house. Knowing which one sets which rule is most of what a student needs.
-
-The stakes are large. In 2018, more than 4,500 students, nearly a third of undergraduates, belonged to one of 63 chapters ([Cornell Chronicle](https://news.cornell.edu/stories/2018/05/citing-health-and-safety-concerns-pollack-initiates-greek-life-reforms)). Today, 34 chapters list a house rate on Cornell's [organization scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard), the public page where each chapter reports its own fees. Leaving aside one chapter that lists $0, the live-in charge for housing and dining runs from $2,000 to $14,673 for one spring semester. Most of those charges come in below a semester in a Cornell dorm double with a meal plan. The path below runs from joining to living in to living out, then a calendar and a checklist.
+The stakes are large. In 2018, more than 4,500 students, nearly a third of undergraduates, belonged to one of 63 chapters ([Cornell Chronicle](https://news.cornell.edu/stories/2018/05/citing-health-and-safety-concerns-pollack-initiates-greek-life-reforms)). Today, 34 chapters list a house rate on the scorecard, the public page where each chapter reports its own fees. Most of those charges come in below a semester in a Cornell dorm double with a meal plan. The path below runs from joining to living in to living out, then a calendar and a checklist.
 
 ## Every chapter house on Cornell's list
 
@@ -211,13 +212,15 @@ That arrangement decides what happens when a chapter disappears. In 2010, after 
 
 ## Year one: you can join, but you cannot live in
 
-A chapter house is not an option in year one. Cornell assigns first-year and transfer students to residence halls for the first year of the residential requirement (Cornell Residential Policy).
+A chapter house is not an option in year one. Cornell assigns first-year and transfer students to residence halls for the first year of the residential requirement ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
 
 Joining comes later too. Under Cornell's deferred recruitment policy, new students wait one semester before they can join a sorority or fraternity. Student and faculty leaders set that rule in the 1950s ([How to Join](https://scl.cornell.edu/get-involved/sorority-fraternity-life/how-join-sorority-or-fraternity)). The Interfraternity Council and Panhellenic Council hold formal recruitment the week before spring classes start each January. Multicultural chapters run their own intake at times each group sets. For 2027, spring classes begin Jan. 25 ([Cornell Registrar](https://registrar.cornell.edu/calendars-exams/academic-calendar)).
 
 A bid changes your sophomore options right away. A student who accepts a bid from a chapter with a qualified house is eligible to live in, and works out with the chapter whether they will (Cornell Residential Policy).
 
-It can change your meal plan too. Some chapters require members who do not live in the house, including first-years, to join the house meal plan. Cornell Dining lets those members cut back their Cornell plan and switch to the SFL Supplemental plan. The spring deadline is Feb. 10, 2027. The chapter must be recognized and require at least seven meals a week ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental)). The plan costs $2,167.51 a semester for 2026-27 and covers 127 meals a semester plus Big Red Bucks, Cornell's dining money ([Cornell Dining meal plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
+It can change your meal plan too. Some chapters require members who do not live in the house, including first-years, to join the house meal plan. Cornell Dining lets those members cut back their Cornell plan and switch to the SFL Supplemental plan, also called Bear Supplemental. Members living off campus can buy it too. A member living on campus qualifies only if the chapter is recognized and requires members who live out to carry a plan of at least seven meals a week. The 2026-27 switch deadlines are Sept. 30, 2026, for fall and Feb. 10, 2027, for spring ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental)).
+
+The plan covers 127 meals a semester plus Big Red Bucks, Cornell's dining money. Cornell lists two prices for it: $2,167.51 a semester on the 2026-27 meal plans page ([Cornell Dining meal plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)) and $2,088.77 on the SFL Supplemental page. Budget for the higher figure, which sits with the other 2026-27 meal plan prices, until the Bursar bill shows the charge.
 
 ## Year two: the chapter house as a dorm
 
@@ -230,11 +233,11 @@ A sophomore can live in only on Cornell's four conditions and Cornell's calendar
 3. **The chapter must meet staffing rules.** A chapter is approved each year if it meets Cornell's recognition rules and has a live-in advisor and four upper-level officers by Jan. 1.
 4. **You still file the housing application.** Every first- and second-year applies, even those who expect to live in a chapter house.
 
-For 2027-28 housing, the application opens Feb. 1 and closes April 4. Students who plan to live in a chapter house must say so on the application by March 15, 2027 ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). One line of that page still shows last year's date; go by the 2027 date, which matches the 2027-28 dates around it.
+For 2027-28 housing, the application opens Feb. 1 and closes April 4. Students who plan to live in a chapter house must say so on the application by the March deadline above (Spring Housing Selection). One line of that page still shows last year's date; go by the 2027 date, which matches the 2027-28 dates around it.
 
 Housing and Residential Life checks your plan against rosters from the Office of Sorority and Fraternity Life. A student who misses the March deadline completes the requirement in on-campus housing. Cornell tells students to confirm with house leaders that their names are on the roster before the deadline (Spring Housing Selection). Students the chapter confirms skip April's room selection and hear from the sorority and fraternity office instead (Cornell Residential Policy).
 
-The staffing rule dates to 2018. Each chapter, not Cornell, employs its live-in advisor ([Our Community](https://scl.cornell.edu/get-involved/sorority-fraternity-life/our-community)). Former President Martha E. Pollack required one in every residential chapter by fall 2021. She also required house leaders to be juniors or seniors who live in the house (Cornell Chronicle). The four-officer rule grew from that. Starting in 2021-22, four officers, including the president, had to be juniors or seniors living in the house (Cornell Student & Campus Life).
+The staffing rule dates to 2018. Each chapter, not Cornell, employs its live-in advisor ([Our Community](https://scl.cornell.edu/get-involved/sorority-fraternity-life/our-community)). Former President Martha E. Pollack required one in every residential chapter by fall 2021. She also required house leaders to be juniors or seniors who live in the house (Cornell Chronicle). The four-officer rule grew from that. Starting in 2021-22, four officers, including the president, had to be juniors or seniors living in the house ([Cornell Student & Campus Life](https://scl.cornell.edu/get-involved/sorority-fraternity-life/policies-and-procedures/presidential-actions)).
 
 Cornell's meal-plan requirement covers its halls, program houses and the other buildings it lists, and chapter houses are not on that list (Cornell Dining meal plans). A chapter's live-in charge covers dining, and a typical house has a kitchen and dining area (Financial Obligations page).
 
@@ -252,7 +255,7 @@ You can join a chapter in your first semester at Cornell, because the deferred r
 
 ## What the rent buys, and why you pay even when you live out
 
-Each chapter sets its own charges. Cornell describes a typical house budget: common-area housekeeping, utilities, internet and phones, repairs, building insurance and grounds care. The insurance covers the building, not your belongings. Every house must have fire alarms and a sprinkler system throughout (Financial Obligations page). In most cases, the rent is billed through the Bursar, Cornell's student account office ([Affiliated Housing list](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)).
+Each chapter sets its own charges. Cornell describes a typical house budget: common-area housekeeping, utilities, internet and phones, repairs, building insurance and grounds care. The insurance covers the building, not your belongings. Every house must have fire alarms and a sprinkler system throughout (Financial Obligations page). For your belongings, our [renters insurance guide](/cornell/housing/cornell-off-campus-renters-insurance-cost/) prices a policy. In most cases, the rent is billed through the Bursar, Cornell's student account office ([Affiliated Housing list](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)).
 
 Members who live out pay the parlor fee because a chapter house is the meeting place for every member. Billing members who live out lowers the rent for those who live in. Cornell also says the fee makes living out cost more, which helps keep the house full. Nearly all chapters require members to live in for at least a semester or two (Financial Obligations page).
 
@@ -272,7 +275,7 @@ rows:
 
 Source: Cornell Housing Rates and Cornell Dining meal plans for the hall figures; Cornell SFL scorecard for chapter figures, as each chapter reported them.
 
-Thirteen chapters report a nonzero spring 2026 charge, and their median is $7,400. That is $3,274 less than a hall double with the Unlimited plan ($10,674 minus $7,400). Only two chapters on the list report a charge above the hall total: Alpha Xi Delta and Sigma Pi, whose $11,000 figure dates to spring 2023. The chapter figures run a year or more behind Cornell's 2026-27 rates and are self-reported, so get your chapter's current number in writing (Cornell SFL scorecard).
+Thirteen chapters report a nonzero spring 2026 charge, and their median is $7,400. That is $3,274 less than a hall double with the Unlimited plan ($10,674 minus $7,400). Only two chapters on the list report a charge above the hall total: Alpha Xi Delta and Sigma Pi, whose $11,000 figure dates to spring 2023. The chapter figures run a year or more behind Cornell's 2026-27 rates and are self-reported, so get your chapter's current number in writing (Cornell SFL scorecard). A spring charge does not tell you the fall rate, so ask the chapter for both semesters. If a chapter charged the median in fall and spring, the year would come to $14,800, against $20,800 for a hall double with the Bear Traditional plan ($10,400 a semester).
 
 Rent is not the whole bill. Dues and new member fees sit on top. Alpha Delta Phi lists chapter dues of $4,850, and Sigma Chi and Sigma Delta Tau each list $5,000 in "new member other fees" (Cornell SFL scorecard). Across 23 fraternities, the median live-out charge is $1,152 a semester. Across 11 sororities it is $602. Sigma Chi lists the highest, $4,600 for spring 2025. Delta Upsilon, Phi Gamma Delta and Delta Delta Delta list none.
 
@@ -310,9 +313,11 @@ The 2026-27 review traces to a 2024 report. On Nov. 8, 2024, someone reported to
 
 On Sept. 14, 2026, the student, identified as Jane Doe, sued seven fraternity members, Cornell and others. Cornell said its investigation had ended and that the chapter "remains barred from our campus" ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/09/university-releases-statement-on-alleged-gang-rape-at-chi-phi)). Thousands attended a rally on Ho Plaza on Oct. 5. On Oct. 7, Ithaca's Common Council approved a temporary moratorium on student event permits, which falls mostly on Greek organizations ([Cornell Daily Sun, October 2026](https://www.cornellsun.com/article/2026/10/breaking-cornell-suspends-all-fraternity-parties-social-events-for-2026-27-school-year)).
 
-Kotlikoff's directive came six days later. It covers Interfraternity Council houses, not sororities or multicultural chapters. He said the pause would give Cornell time to decide "whether and how" fraternity life can safely continue. Cornell also hired former U.S. Deputy Attorney General Sally Q. Yates to review how it handles sexual misconduct. New York Attorney General Letitia James was appointed to re-examine the case ([CNN, Oct. 13](https://www.cnn.com/2026/10/13/us/cornell-suspends-fraternity-social-events)). Inside Higher Ed read the word "whether" as a sign that ending fraternities is on the table ([Inside Higher Ed](https://www.insidehighered.com/news/quick-takes/2026/10/14/cornell-bans-frat-parties-it-re-evaluates-greek-life)).
+Six days later, on Oct. 13, 2026, Cornell President Michael I. Kotlikoff canceled every party and social event in the university's fraternity houses for the rest of the school year. Any chapter that holds one now faces an immediate emergency suspension ([Cornell Student & Campus Life](https://scl.cornell.edu/get-involved/sorority-fraternity-life/policies-and-procedures/presidential-actions)). The directive covers Interfraternity Council houses, not sororities or multicultural chapters. He said the pause would give Cornell time to decide "whether and how" fraternity life can safely continue. Cornell also hired former U.S. Deputy Attorney General Sally Q. Yates to review how it handles sexual misconduct. New York Attorney General Letitia James was appointed to re-examine the case ([CNN, Oct. 13](https://www.cnn.com/2026/10/13/us/cornell-suspends-fraternity-social-events)). Inside Higher Ed read the word "whether" as a sign that ending fraternities is on the table ([Inside Higher Ed](https://www.insidehighered.com/news/quick-takes/2026/10/14/cornell-bans-frat-parties-it-re-evaluates-greek-life)).
 
 Some students and faculty want the system gone. Associate professor Andrew Moisey told a local station that Cornell has been "in an abusive relationship with fraternities" since 1873. Faculty debated a no-confidence vote in Kotlikoff. Kotlikoff told faculty the problem "doesn't only occur in fraternities" and that he worried about pushing it "into the shadows." A University of Connecticut researcher told CNN that when a university stops recognizing chapters, they can go on operating off campus without oversight (CNN, Oct. 17). At a campus town hall, one student organizer stressed the importance of Black fraternities and sororities, since Cornell is home to the first Black intercollegiate fraternity (CNN, Oct. 17).
+
+Kotlikoff's order reached the parlors and the basements. It did not reach the bedrooms upstairs. Those rooms still count as approved housing for the second year of Cornell's two-year residential requirement (Cornell Residential Policy). Our [guide to the suspension and 2027-28 housing](/cornell/housing/cornell-fraternity-suspension-2026-housing-2027-28/) explains what it means for a plan to live in for 2027-28.
 
 The review reaches into housing. Chi Phi's house at 107 Edgemoor Lane is the one the scorecard marks as university owned. Four suspended fraternities are scheduled to become eligible to return over the next three years: Phi Sigma Kappa and Zeta Psi in fall 2027, Phi Delta Theta in spring 2028 and Delta Tau Delta in spring 2029 (Cornell SFL scorecard). Cornell's pages do not say what happens to a sophomore living in a chapter house if the chapter loses recognition mid-year. Ask the Office of Sorority and Fraternity Life at greeks@cornell.edu before you affirm.
 
