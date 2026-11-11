@@ -84,7 +84,7 @@ TCAT does not publish a snow-route map in the sources behind this page. Before a
 
 ## How do big storms change service?
 
-Storms bring delays. In January 2026, a storm closed Cornell's Ithaca campus from noon on Jan. 25 to noon the next day. TCAT delayed its Monday service to 10 a.m. ([The Cornell Daily Sun](https://cornellsun.com/article/2026/01/cornell-announces-ithaca-and-agritech-campuses-will-reopen-at-noon-on-monday)). Our [closures guide](/cornell/getting-around/cornell-snow-days-class-cancellation-how-it-works/) explains who decides.
+Storms bring delays. In January 2026, a storm closed Cornell's Ithaca campus from noon on Jan. 25 to noon the next day. TCAT delayed its Monday service to 10 a.m. ([The Cornell Daily Sun](https://cornellsun.com/article/2026/01/cornell-announces-ithaca-and-agritech-campuses-will-reopen-at-noon-on-monday)). Our [closures guide](/daily-life/cornell-snow-days-class-cancellation-how-it-works/) explains who decides.
 
 ## Does the winter schedule change?
 

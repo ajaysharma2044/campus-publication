@@ -4,7 +4,7 @@ mode: answer
 dek: The City of Ithaca puts sidewalk snow on the property owner, but a lease can pass the shoveling to you.
 meta: 'Ithaca sidewalk snow removal rules: owners clear the full width after a storm, a lease can hand the job to tenants, and the city bills for plowing.'
 primary_query: ithaca sidewalk snow removal rules who is responsible
-topic: getting-around
+topic: housing
 school: cornell-university
 type: explainer
 updated: '2026-11-10'
@@ -41,6 +41,9 @@ sources:
   title: Snow Removal, Cornell Facilities and Campus Services
   accessed: '2026-11-10'
 images: []
+redirect_from:
+  - /cornell/getting-around/ithaca-sidewalk-snow-removal-rules-whose-job/
+  - /getting-around/ithaca-sidewalk-snow-removal-rules-whose-job/
 ---
 
 ```glance

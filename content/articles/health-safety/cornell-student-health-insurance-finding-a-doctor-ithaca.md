@@ -4,7 +4,7 @@ mode: answer
 dek: Cornell bills the Student Health Plan automatically unless you waive it by a deadline, and Cornell Health is the first place to call for care.
 meta: 'Cornell student health plan waiver and finding a doctor in Ithaca: SHP cost for 2026-27, waiver deadlines, health requirements and who to call for care.'
 primary_query: Cornell student health plan waiver find a doctor Ithaca
-topic: getting-around
+topic: health-safety
 school: cornell-university
 type: how-to
 updated: '2026-11-10'
@@ -47,6 +47,9 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_Health,_Cornell_University.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
+redirect_from:
+  - /cornell/getting-around/cornell-student-health-insurance-finding-a-doctor-ithaca/
+  - /getting-around/cornell-student-health-insurance-finding-a-doctor-ithaca/
 ---
 
 

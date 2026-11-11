@@ -4,7 +4,7 @@ mode: answer
 dek: Cornell closes only when the university closes, and when it does, classes are canceled and no extra work is due that day.
 meta: Does Cornell cancel classes for snow? Closures are rare, cancel classes and exams, and keep residence halls open. See who decides and the closure history.
 primary_query: does Cornell cancel classes for snow
-topic: getting-around
+topic: daily-life
 school: cornell-university
 type: explainer
 updated: '2026-11-10'
@@ -50,6 +50,9 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_Central_Campus_in_Snow.jpg
   license: CC BY 2.0
   license_url: https://creativecommons.org/licenses/by/2.0
+redirect_from:
+  - /cornell/getting-around/cornell-snow-days-class-cancellation-how-it-works/
+  - /getting-around/cornell-snow-days-class-cancellation-how-it-works/
 ---
 
 ```glance

@@ -4,7 +4,7 @@ mode: answer
 dek: No official source ranks Ithaca providers, so compare Spectrum's published entry price against Verizon Fios and the $75 a month some landlords charge.
 meta: 'Best internet provider in Ithaca, NY for students: Spectrum from about $30 a month, Verizon Fios, price ranges and when landlord-included internet beats both.'
 primary_query: best internet provider Ithaca NY students
-topic: getting-around
+topic: daily-life
 school: cornell-university
 type: comparison
 updated: '2026-11-10'
@@ -43,6 +43,9 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:College_Park_Apartments_in_Ithaca,_NY_20240526.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
+redirect_from:
+  - /cornell/getting-around/internet-providers-ithaca-compared-cornell-students/
+  - /getting-around/internet-providers-ithaca-compared-cornell-students/
 ---
 
 

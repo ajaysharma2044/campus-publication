@@ -4,7 +4,7 @@ mode: answer
 dek: Only a minority of Cornell residence halls have room air conditioning, so check your hall before you pack a fan or ask for an accommodation.
 meta: 'Which Cornell dorms have air conditioning: a hall-by-hall list for North Campus, West Campus and Collegetown, plus how to ask for a medical accommodation.'
 primary_query: which Cornell dorms have air conditioning
-topic: getting-around
+topic: housing
 school: cornell-university
 type: roundup
 updated: '2026-11-10'
@@ -64,6 +64,9 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Toni_Morrison_Hall,_Cornell_University.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
+redirect_from:
+  - /cornell/getting-around/which-cornell-dorms-have-air-conditioning/
+  - /getting-around/which-cornell-dorms-have-air-conditioning/
 ---
 
 

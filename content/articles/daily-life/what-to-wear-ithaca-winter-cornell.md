@@ -4,7 +4,7 @@ mode: answer
 dek: Plan for a down coat, mittens, insulated boots with treaded soles and layers, because January in Ithaca averages 22.8°F with 16.6 inches of snow.
 meta: 'What to wear for an Ithaca winter at Cornell: coat, boots, mittens and layers, month-by-month snow and temperatures, and where to get help paying for gear.'
 primary_query: what to wear for an Ithaca winter
-topic: getting-around
+topic: daily-life
 school: cornell-university
 type: checklist
 updated: '2026-11-10'
@@ -55,6 +55,9 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_campus_in_winter.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
+redirect_from:
+  - /cornell/getting-around/what-to-wear-ithaca-winter-cornell/
+  - /getting-around/what-to-wear-ithaca-winter-cornell/
 ---
 
 

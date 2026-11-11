@@ -4,7 +4,7 @@ mode: answer
 dek: Cornell housing rates include internet up to 200 GB a month, while apartments split between rent that includes internet and a bill you pay yourself.
 meta: 'How internet works at Cornell: the 200 GB a month in the housing rate, what Hasbrouck residents reported, and how often Ithaca apartments include internet.'
 primary_query: Cornell dorm wifi internet how it works apartments
-topic: getting-around
+topic: daily-life
 school: cornell-university
 type: explainer
 updated: '2026-11-10'
@@ -39,6 +39,9 @@ sources:
   title: Cayuga Place, 131 E. Green St.
   accessed: '2026-11-10'
 images: []
+redirect_from:
+  - /cornell/getting-around/internet-cornell-dorms-ithaca-apartments-wifi/
+  - /getting-around/internet-cornell-dorms-ithaca-apartments-wifi/
 ---
 
 
@@ -71,7 +74,7 @@ Examples show the range:
 
 Source: building and marketplace listings.
 
-If internet is not included, you order it from a provider. Setup steps are in the [utilities setup guide](/cornell/getting-around/set-up-utilities-ithaca-apartment-nyseg-internet/), and prices by provider are in the [Ithaca internet comparison](/cornell/getting-around/internet-providers-ithaca-compared-cornell-students/).
+If internet is not included, you order it from a provider. Setup steps are in the [utilities setup guide](/housing/set-up-utilities-ithaca-apartment-nyseg-internet/), and prices by provider are in the [Ithaca internet comparison](/daily-life/internet-providers-ithaca-compared-cornell-students/).
 
 ## What should you check before you sign?
 

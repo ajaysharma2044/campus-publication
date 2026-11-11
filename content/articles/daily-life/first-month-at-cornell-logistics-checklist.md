@@ -5,7 +5,7 @@ kicker: Twenty-Nine Boxes to Check
 dek: For incoming Cornell first-years and their families, every logistical task from the spring To Do List through the first trip home, in the order the deadlines fall.
 meta: 'Every task in a Cornell first-year''s first month, in order: health forms, the bill, move-in, add/drop, the CAMP opt-out, the swim test, TCAT and travel.'
 primary_query: first month at cornell checklist
-topic: getting-around
+topic: daily-life
 school: cornell-university
 type: checklist
 updated: '2026-11-10'
@@ -144,6 +144,9 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Robert_Purcell_Community_Center.jpg
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0
+redirect_from:
+  - /cornell/getting-around/first-month-at-cornell-logistics-checklist/
+  - /getting-around/first-month-at-cornell-logistics-checklist/
 ---
 
 

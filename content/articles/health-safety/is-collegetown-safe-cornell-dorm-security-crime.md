@@ -4,7 +4,7 @@ mode: answer
 dek: Cornell and the City publish building safety data and late-night bus service, but the sources here carry no neighborhood crime statistics.
 meta: Is Collegetown Ithaca safe for Cornell students? Building safety checks, late-night buses, lock and entry features, bike theft numbers and who to call.
 primary_query: is Collegetown Ithaca safe Cornell students
-topic: getting-around
+topic: health-safety
 school: cornell-university
 type: explainer
 updated: '2026-11-10'
@@ -65,6 +65,9 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
   license: CC BY-SA 2.0
   license_url: https://creativecommons.org/licenses/by-sa/2.0
+redirect_from:
+  - /cornell/getting-around/is-collegetown-safe-cornell-dorm-security-crime/
+  - /getting-around/is-collegetown-safe-cornell-dorm-security-crime/
 ---
 
 

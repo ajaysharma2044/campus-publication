@@ -4,7 +4,7 @@ mode: answer
 dek: A landlord must keep heat and water working, and a dated written complaint is the step that starts every remedy.
 meta: Ithaca apartment with no heat or a frozen pipe? See the 68F and 62F minimums, what to put in writing, who to call and why withholding rent is risky.
 primary_query: ithaca apartment no heat frozen pipes landlord responsibility
-topic: getting-around
+topic: housing
 school: cornell-university
 type: how-to
 updated: '2026-11-10'
@@ -60,6 +60,9 @@ sources:
   title: 'Grad tips: renting, Cornell Graduate School'
   accessed: '2026-11-10'
 images: []
+redirect_from:
+  - /cornell/getting-around/ithaca-heat-out-frozen-pipes-landlord-must-do/
+  - /getting-around/ithaca-heat-out-frozen-pipes-landlord-must-do/
 ---
 
 ```glance

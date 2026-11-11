@@ -4,7 +4,7 @@ mode: answer
 dek: Your Cornell ID is your bus pass, your meal card and your City Bucks account, and a replacement costs $40 at 245 Day Hall.
 meta: 'Cornell ID card basics: the $40 replacement fee, where to get one at 245 Day Hall, and how it works as your TCAT bus pass and meal plan card.'
 primary_query: how to get Cornell ID card and what it does
-topic: getting-around
+topic: daily-life
 school: cornell-university
 type: how-to
 updated: '2026-11-10'
@@ -43,6 +43,9 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Interior_Shot_of_TCAT_Bus_2105.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
+redirect_from:
+  - /cornell/getting-around/cornell-id-card-how-to-get-what-it-does/
+  - /getting-around/cornell-id-card-how-to-get-what-it-does/
 ---
 
 

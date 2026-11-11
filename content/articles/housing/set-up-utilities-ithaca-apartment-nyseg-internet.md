@@ -4,7 +4,7 @@ mode: answer
 dek: Check the lease for what is included, then start NYSEG service online or by phone and book internet on your own.
 meta: 'How to set up NYSEG electric and gas and internet in an Ithaca apartment: what the lease covers, how to start service, who to call and how to stop it.'
 primary_query: how to set up NYSEG and internet Ithaca apartment
-topic: getting-around
+topic: housing
 school: cornell-university
 type: how-to
 updated: '2026-11-10'
@@ -51,6 +51,9 @@ sources:
   title: Security Deposits, Cornell Law Tenants Advocacy Program
   accessed: '2026-11-10'
 images: []
+redirect_from:
+  - /cornell/getting-around/set-up-utilities-ithaca-apartment-nyseg-internet/
+  - /getting-around/set-up-utilities-ithaca-apartment-nyseg-internet/
 ---
 
 
@@ -99,7 +102,7 @@ If your landlord pays for heat, a shutoff needs at least 30 days' notice from No
 
 Order internet yourself unless the lease includes it. No official source names Ithaca's providers. An internet-provider directory lists Spectrum as cheapest at about $30 a month for 100 Mbps, one East Ithaca listing at $49.99 for 1,000 Mbps, and a range of $30 to $120 ([ISP Reports](https://ispreports.org/internet-service-providers-ithaca-ny/)). Those figures mix promotions and regular prices. Ask each provider for the price after the first year.
 
-Splitting a bill among roommates works best if one person owns the account. Agree on who that is before you order. The provider comparison and dorm rules are in the [internet guide](/cornell/getting-around/internet-providers-ithaca-compared-cornell-students/).
+Splitting a bill among roommates works best if one person owns the account. Agree on who that is before you order. The provider comparison and dorm rules are in the [internet guide](/daily-life/internet-providers-ithaca-compared-cornell-students/).
 
 ```tool
 off-campus-move-in-checklist-cornell

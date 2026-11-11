@@ -4,7 +4,7 @@ mode: answer
 dek: Cornell requires you to keep e-bike batteries out of residence rooms and to unplug appliances at winter closing; check candle, alarm and drill rules with your hall staff.
 meta: 'Cornell dorm fire safety rules: battery charging, unplugging at winter closing, sprinklers and alarms, and how to check fire safety in an Ithaca rental.'
 primary_query: Cornell dorm fire safety rules
-topic: getting-around
+topic: health-safety
 school: cornell-university
 type: explainer
 updated: '2026-11-10'
@@ -43,6 +43,9 @@ sources:
   title: Living Off Campus, Cornell Student and Campus Life
   accessed: '2026-11-10'
 images: []
+redirect_from:
+  - /cornell/getting-around/cornell-dorm-fire-safety-rules-candles-alarms-drills/
+  - /getting-around/cornell-dorm-fire-safety-rules-candles-alarms-drills/
 ---
 
 

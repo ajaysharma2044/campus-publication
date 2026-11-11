@@ -4,7 +4,7 @@ mode: answer
 dek: Laundry rooms sit inside most Cornell halls, but Cornell's housing pages in our files do not say whether machines are free, so the cost depends on the hall.
 meta: 'How laundry works in Cornell dorms: which halls have laundry rooms, coin-op machines at 112 Edgemoor, free laundry in co-ops and the Lazybones pickup price.'
 primary_query: Cornell dorm laundry free how it works
-topic: getting-around
+topic: daily-life
 school: cornell-university
 type: explainer
 updated: '2026-11-10'
@@ -52,6 +52,9 @@ sources:
   title: Living on Campus, Cornell Student and Campus Life
   accessed: '2026-11-10'
 images: []
+redirect_from:
+  - /cornell/getting-around/laundry-in-cornell-dorms-cost-how-it-works/
+  - /getting-around/laundry-in-cornell-dorms-cost-how-it-works/
 ---
 
 

@@ -4,7 +4,7 @@ mode: answer
 dek: Know the heat minimums your landlord owes, ask before you change anything, and layer up before you turn up the heat.
 meta: 'How to stay warm in an old Ithaca apartment: the 68F and 62F heat minimums, what to ask your landlord first, heating bill numbers, safety checks and aid.'
 primary_query: how to stay warm in an old Ithaca apartment
-topic: getting-around
+topic: housing
 school: cornell-university
 type: how-to
 updated: '2026-11-10'
@@ -50,6 +50,9 @@ sources:
   title: 174 Kendall Ave. 4-bedroom listing, Ithacarents
   accessed: '2026-11-10'
 images: []
+redirect_from:
+  - /cornell/getting-around/surviving-ithaca-winter-old-apartment-drafty-house/
+  - /getting-around/surviving-ithaca-winter-old-apartment-drafty-house/
 ---
 
 ```glance

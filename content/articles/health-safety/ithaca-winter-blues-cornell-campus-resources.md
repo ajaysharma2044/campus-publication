@@ -4,7 +4,7 @@ mode: answer
 dek: Cornell Health sells light boxes, offers drop-in counseling called Let's Talk, and runs a 24-hour advice line.
 meta: 'How to cope with Ithaca winter at Cornell: Cornell Health light boxes for $20, Let''s Talk drop-in counseling, daylight hours, gym passes and when to call.'
 primary_query: how to cope with Ithaca winter Cornell resources
-topic: getting-around
+topic: health-safety
 school: cornell-university
 type: roundup
 updated: '2026-11-10'
@@ -49,6 +49,9 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_Health_addition,_Cornell_University.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
+redirect_from:
+  - /cornell/getting-around/ithaca-winter-blues-cornell-campus-resources/
+  - /getting-around/ithaca-winter-blues-cornell-campus-resources/
 ---
 
 ```glance

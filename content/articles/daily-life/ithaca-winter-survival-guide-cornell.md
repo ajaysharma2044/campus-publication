@@ -5,7 +5,7 @@ kicker: Five Months on the Hill
 dek: Winter at Cornell runs from November to April under two rulebooks, Cornell's and the city's, and the cold outlasts the snow, so this guide walks the season month by month with every rule, date and cost.
 meta: 'Surviving an Ithaca winter at Cornell: weather, clothing, heat, snow and parking rules, break housing and every winter date for 2026-27, in one guide.'
 primary_query: surviving an ithaca winter
-topic: getting-around
+topic: daily-life
 school: cornell-university
 type: roundup
 updated: '2026-11-10'
@@ -158,6 +158,9 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_Central_Campus_in_Snow.jpg
   license: CC BY 2.0
   license_url: https://creativecommons.org/licenses/by/2.0
+redirect_from:
+  - /cornell/getting-around/ithaca-winter-survival-guide-cornell/
+  - /getting-around/ithaca-winter-survival-guide-cornell/
 ---
 
 

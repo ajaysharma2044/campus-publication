@@ -4,7 +4,7 @@ mode: answer
 dek: If your apartment has no washer, you can use a building laundry room, a drop-off service or a coin laundry reached by free evening buses.
 meta: 'Laundromat near Cornell Collegetown: which buildings have machines, what Lazybones drop-off laundry costs, and how to reach a laundromat by TCAT bus.'
 primary_query: laundromat near Cornell Collegetown Ithaca
-topic: getting-around
+topic: daily-life
 school: cornell-university
 type: place
 updated: '2026-11-10'
@@ -61,6 +61,9 @@ sources:
   title: Bus Services, Privileges and Passes, Cornell Transportation and Delivery Services
   accessed: '2026-11-10'
 images: []
+redirect_from:
+  - /cornell/getting-around/laundromats-in-ithaca-near-cornell-collegetown/
+  - /getting-around/laundromats-in-ithaca-near-cornell-collegetown/
 ---
 
 

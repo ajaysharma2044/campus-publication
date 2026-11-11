@@ -4,7 +4,7 @@ mode: answer
 dek: Skiing, skating history, a winter market and a campus gym give you winter plans, and a few cost nothing to try.
 meta: 'Things to do in Ithaca in winter: Greek Peak skiing, Cornell fitness centers, the indoor Winter Market, what to wear and how to get there without a car.'
 primary_query: things to do in Ithaca in winter
-topic: getting-around
+topic: daily-life
 school: cornell-university
 type: roundup
 updated: '2026-11-10'
@@ -63,6 +63,9 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Beebe_Lake_and_Triphammer_Falls.jpg
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0
+redirect_from:
+  - /cornell/getting-around/winter-activities-ithaca-cornell-students/
+  - /getting-around/winter-activities-ithaca-cornell-students/
 ---
 
 ```glance

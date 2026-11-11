@@ -4,7 +4,7 @@ mode: answer
 dek: Cornell dorm mail goes to a service center, not your room, and which one depends on your hall.
 meta: 'Where Cornell dorm mail and packages go: the North Campus address format, the South Campus and Collegetown service centers, and what to do about delivery apps.'
 primary_query: Cornell dorm mailing address package pickup
-topic: getting-around
+topic: daily-life
 school: cornell-university
 type: how-to
 updated: '2026-11-10'
@@ -52,6 +52,9 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Robert_Purcell_Community_Center,_Cornell.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
+redirect_from:
+  - /cornell/getting-around/cornell-dorm-mail-packages-service-center-pickup/
+  - /getting-around/cornell-dorm-mail-packages-service-center-pickup/
 ---
 
 

@@ -4,7 +4,7 @@ mode: answer
 dek: Your Ithaca address decides your local ward and council, so register at the address where you live, and confirm deadlines and your polling place with the county.
 meta: 'How to vote in Ithaca as a Cornell student: why your address matters, what Common Council has voted on for renters, and where to confirm deadlines and polling places.'
 primary_query: how to vote in Ithaca as a Cornell student
-topic: getting-around
+topic: daily-life
 school: cornell-university
 type: how-to
 updated: '2026-11-10'
@@ -29,6 +29,9 @@ sources:
   accessed: '2026-11-10'
 images: []
 page_type: answer
+redirect_from:
+  - /cornell/getting-around/voting-in-ithaca-cornell-student-register-polling-place/
+  - /getting-around/voting-in-ithaca-cornell-student-register-polling-place/
 ---
 
 

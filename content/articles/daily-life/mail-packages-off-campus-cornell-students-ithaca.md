@@ -4,7 +4,7 @@ mode: answer
 dek: Off-campus renters get mail at the apartment, so the work is in the address, the forwarding order and a plan for packages.
 meta: 'How Cornell students get mail and packages at a Collegetown or Ithaca apartment: the address, buildings with package service, forwarding and local shipping stores.'
 primary_query: package delivery Collegetown apartment Cornell students
-topic: getting-around
+topic: daily-life
 school: cornell-university
 type: how-to
 updated: '2026-11-10'
@@ -50,6 +50,9 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
   license: CC BY-SA 2.0
   license_url: https://creativecommons.org/licenses/by-sa/2.0
+redirect_from:
+  - /cornell/getting-around/mail-packages-off-campus-cornell-students-ithaca/
+  - /getting-around/mail-packages-off-campus-cornell-students-ithaca/
 ---
 
 

@@ -4,7 +4,7 @@ mode: answer
 dek: Students from other states usually keep their home license, and they switch only if they become New York residents.
 meta: Do Cornell students need a New York driver's license or ID? Who keeps an out-of-state license, what international students need, and the Carshare license rules.
 primary_query: get New York driver's license or ID Ithaca DMV student
-topic: getting-around
+topic: daily-life
 school: cornell-university
 type: how-to
 updated: '2026-11-10'
@@ -35,6 +35,9 @@ sources:
   title: Parking Registration, Cornell Transportation and Delivery Services
   accessed: '2026-11-10'
 images: []
+redirect_from:
+  - /cornell/getting-around/new-york-drivers-license-ithaca-dmv-cornell-students/
+  - /getting-around/new-york-drivers-license-ithaca-dmv-cornell-students/
 ---
 
 
