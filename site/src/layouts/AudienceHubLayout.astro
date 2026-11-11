@@ -3,7 +3,7 @@
 import Base from './Base.astro';
 import type { School, Audience } from '../../site.config';
 import type { SiteModel } from '../lib/model';
-import { audienceGroups, schoolUrl, topicUrl, topicById } from '../lib/model';
+import { audienceGroups, schoolUrl, topicUrl, topicById, toolsFor, datasetsFor, startsFor, fmtDate, toolsIndexUrl, datasetsIndexUrl, startIndexUrl } from '../lib/model';
 import { breadcrumbList, collectionPage } from '../lib/schema';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import GuideList from '../components/GuideList.astro';
@@ -18,6 +18,13 @@ const title = `${school.short} for ${audience.label}: Every Guide`;
 const dek = `${topic.blurb} Organized in the order you will need it.`;
 const crumbs = [{ label: 'Home', href: '/' }, { label: school.short, href: schoolUrl(school) }, { label: audience.label }];
 const all = groups.flatMap((g) => g.items);
+// the topic's start pages, tools and datasets (the pipeline's /start/, /tools/ and /datasets/ pages), as on a topic hub
+const starts = startsFor(m, topic), tools = toolsFor(m, topic), datasets = datasetsFor(m, topic);
+const extra = [
+  { key: 'start', label: 'Start here', more: startIndexUrl, rows: starts.map((s) => ({ title: s.title, url: s.url, dek: s.dek, meta: s.updated ? `Updated ${fmtDate(s.updated)}` : undefined })) },
+  { key: 'tools', label: 'Tools', more: toolsIndexUrl, rows: tools.map((t) => ({ title: t.title, url: t.url, dek: t.dek, meta: `Numbers as of ${fmtDate(t.asOf)}` })) },
+  { key: 'datasets', label: 'Data', more: datasetsIndexUrl, rows: datasets.map((d) => ({ title: d.title, url: d.url, dek: d.dek, meta: `Data as of ${fmtDate(d.asOf)}` })) },
+].filter((g) => g.rows.length);
 const jsonld = [breadcrumbList(crumbs), collectionPage({ title, dek, url, items: all.map((p) => ({ title: p.title, url: p.url })) })];
 ---
 <Base title={title} description={dek} path={url} school={school} current={audience.id} jsonld={jsonld}>
@@ -34,7 +41,13 @@ const jsonld = [breadcrumbList(crumbs), collectionPage({ title, dek, url, items:
           {i === 0 ? <AdSlot size="300x250" position="inContent" /> : null}
         </Fragment>
       ))}
-      {!groups.length ? <p>No guides for {audience.label.toLowerCase()} at {school.short} are published yet. Start with the <a href={schoolUrl(school)}>{school.short} student guide</a>.</p> : null}
+      {extra.map((g) => (
+        <section class="section" aria-labelledby={`group-${g.key}`}>
+          <div class="section__head"><h2 id={`group-${g.key}`}>{g.label}</h2><a class="section__more" href={g.more}>All {g.label.toLowerCase() === 'data' ? 'datasets' : g.label.toLowerCase() === 'start here' ? 'start pages' : 'tools'}</a></div>
+          <GuideList rows={g.rows} meta />
+        </section>
+      ))}
+      {!groups.length && !extra.length ? <p>No guides for {audience.label.toLowerCase()} at {school.short} are published yet. Start with the <a href={schoolUrl(school)}>{school.short} student guide</a>.</p> : null}
     </div>
     <Sidebar m={m} school={school} newsletterTitle={`The ${school.short} guide, weekly`} />
   </div>
