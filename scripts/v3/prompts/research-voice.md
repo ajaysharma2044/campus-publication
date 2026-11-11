@@ -19,3 +19,11 @@ WHEN YOU THINK YOU ARE DONE, run the coverage list once more, append a "Coverage
 {{deepen}}
 
 LANE C: STUDENT VOICE. What students, parents and locals actually say about this topic: recurring complaints, tips, horror stories, myths and hard-won lessons, and how often each comes up. Sources: r/Cornell and r/ithaca through web search results (reddit.com itself cannot be fetched by your tools; use thread titles and snippets that search returns, and say so), College Confidential threads, the Cornell Daily Sun (news and columns), YouTube tours and vlogs (titles and descriptions from search), public reviews of places and providers from search snippets. For each theme: a one-line paraphrase, how many distinct sources raised it, the dates, and the URLs. Keep a running tally table of themes. Paraphrase and link; never copy; never record usernames beyond what a citation needs.
+
+SOURCE CHECKLIST (docs/v5/prelaunch-spec.md, Phase 1b; search these before recording any question as unanswered, and record what you tried):
+- Crime or safety: Cornell's Annual Security and Fire Safety Report (Clery Act statistics, with the report year), Cornell Police reports, Ithaca Police Department data.
+- Voting: the New York State Board of Elections and the Tompkins County Board of Elections (deadlines, registration, the polling place lookup).
+- Local rules: City of Ithaca code and department pages, the Town of Ithaca, Tompkins County.
+- Tenant law: New York statutes (General Obligations Law, Real Property Law) and the NYS Attorney General's tenant guides.
+- Cornell policy: the specific Cornell office page, current-year PDFs, the Cornell Chronicle.
+Forum posters (Reddit, College Confidential and the like) are never a source for a fact; record them as voice, attributed as such, nothing more.

@@ -573,7 +573,8 @@ def main(argv: list[str]) -> int:
     templates = {name: (PROMPTS / f"{name}.md").read_text(encoding="utf-8") for name in ("write", "write-pillar", "pick-best", "cold-edit", "tool")}
     writer_tools = ",".join(["Read", "Grep", "Glob", "WebFetch", "WebSearch", rule("Write", P.articles), rule("Write", P.tools), rule("Write", P.datasets),
                              rule("Write", P.start), rule("Write", P.drafts), rule("Edit", P.articles), rule("Edit", P.tools), rule("Edit", P.datasets),
-                             rule("Edit", P.start), rule("Edit", P.drafts), rule("Edit", P.topic_intel)])
+                             rule("Edit", P.start), rule("Edit", P.drafts), rule("Edit", P.topic_intel),
+                             rule("Write", P.edits), rule("Edit", P.edits)])   # the writer logs gap decisions under "## Gaps" in content/edits/<slug>.md
     pick_tools = ",".join(["Read", "Grep", "Glob", rule("Write", P.articles), rule("Edit", P.articles)])
     cold_tools = ",".join(["Read", "Grep", "Glob", rule("Write", P.edits), rule("Edit", P.articles)])
     lock = threading.Lock()

@@ -5,7 +5,7 @@
   "description": "EduExplained site templates: the Astro build (parallel to scripts/v2/render_site.py).",
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "node scripts/sync-images.mjs",
+    "prebuild": "node scripts/sync-images.mjs && python3 ../scripts/lint-content.py",
     "build": "astro build && node scripts/check-build.mjs",
     "postbuild": "pagefind --site dist",
     "preview": "astro preview",

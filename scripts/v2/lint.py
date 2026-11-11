@@ -65,6 +65,16 @@ SOURCE_KEYS = ("url", "title", "accessed")
 IMAGE_KEYS = ("file", "alt", "caption", "credit", "credit_url", "license", "license_url")
 IMAGE_OPTIONAL = ("credit_url", "license_url")   # keys present, values may be empty: a public-domain Commons file has no license URL
 DEFAULT_BANNED = ("navigating", "it's important to note", "delve", "vibrant", "journey", "seamless", "robust", "leverage", "unlock", "dive into", "in today's")
+def _gap_patterns():
+    """scripts/lint-content.py's banned-phrase patterns (one list for the build and the publish lint)."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("lint_content", Path(__file__).resolve().parents[1] / "lint-content.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod.COMPILED
+
+
+GAP_PATTERNS = _gap_patterns()
 DEFAULT_NARRATION = ("we found", "we checked", "our research", "the pages we opened", "the pages we checked", "sources say", "according to our review",
                      "we were unable to confirm", "it is worth noting", "as of our review", "we looked at", "our research shows")
 POLICY_PAGES = {"/", "/about/", "/privacy/", "/contact/", "/editorial-policy/", "/corrections/", "/thanks/"}
@@ -638,6 +648,12 @@ def v3_checks(fm: dict, body: str, path: Path | str, root: Path | str = REPO, li
     m["narration"] = hits
     if hits:
         errs.append("research narration: " + ", ".join(hits))
+    # writing: a research gap told to the reader (docs/v5/prelaunch-spec.md, Phase 1a; the same patterns as scripts/lint-content.py, which the site build runs)
+    gap_text = strip_urls(prose + "\n" + "\n".join(s[3] for s in glance)).replace("’", "'")
+    gaps = sorted({mm.group(0).lower() for _, rx in GAP_PATTERNS for mm in rx.finditer(gap_text)})
+    m["gaps"] = gaps
+    if gaps:
+        errs.append("research gap: " + ", ".join(gaps))
     avg, n_sent = avg_sentence(prose)
     m["avg_sentence"], m["sentences"] = round(avg, 1), n_sent
     if avg >= SENTENCE_MAX:

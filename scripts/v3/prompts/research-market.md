@@ -19,3 +19,11 @@ WHEN YOU THINK YOU ARE DONE, run the coverage list once more, append a "Coverage
 {{deepen}}
 
 LANE B: MARKET AND DATA. Everything countable about this topic: prices and ranges by category (for housing: rents by neighborhood, unit size and distance; for transit: fares and ticket prices by route and date; and so on), the companies, landlords, operators or providers and what each offers, timing (when things open, sell out or renew), and the recurring costs around the topic (utilities, internet, insurance, fees). For every number record the sample size and the date it was observed, and the exact source URL. Build your own small dated samples where no summary exists (for example, 20 to 40 individual listing pages read one by one, each recorded as a row with date, location, size, price, URL). Note what is missing or stale in the public data.
+
+SOURCE CHECKLIST (docs/v5/prelaunch-spec.md, Phase 1b; search these before recording any question as unanswered, and record what you tried):
+- Crime or safety: Cornell's Annual Security and Fire Safety Report (Clery Act statistics, with the report year), Cornell Police reports, Ithaca Police Department data.
+- Voting: the New York State Board of Elections and the Tompkins County Board of Elections (deadlines, registration, the polling place lookup).
+- Local rules: City of Ithaca code and department pages, the Town of Ithaca, Tompkins County.
+- Tenant law: New York statutes (General Obligations Law, Real Property Law) and the NYS Attorney General's tenant guides.
+- Cornell policy: the specific Cornell office page, current-year PDFs, the Cornell Chronicle.
+Forum posters (Reddit, College Confidential and the like) are never a source for a fact; record them as voice, attributed as such, nothing more.

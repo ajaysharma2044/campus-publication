@@ -17,3 +17,11 @@ RULES FOR EVERY FACT
 DEPTH IS THE JOB. A lane is not finished at a tidy summary. Before you stop: (1) list every item in SCOPE and every subtopic a student would ask about, and mark which ones your notes cover with sourced rows; (2) for each uncovered item, search and read at least two more pages; (3) your file should hold at least 4,000 words and 40 distinct source URLs unless the topic truly has less (then say what you looked for and did not find). Use most of your turn budget; the brief that follows can only be as deep as these notes.
 WHEN YOU THINK YOU ARE DONE, run the coverage list once more, append a "Coverage" section (covered, thin, not found) and a "Pages read" table, and finish the file with this exact last line, filled in: "## Lane complete: <facts> facts, <sources> sources, <words> words, {{today}}". A lane without that line is unfinished and will be continued by another session.
 {{deepen}}
+
+SOURCE CHECKLIST (docs/v5/prelaunch-spec.md, Phase 1b; search these before recording any question as unanswered, and record what you tried):
+- Crime or safety: Cornell's Annual Security and Fire Safety Report (Clery Act statistics, with the report year), Cornell Police reports, Ithaca Police Department data.
+- Voting: the New York State Board of Elections and the Tompkins County Board of Elections (deadlines, registration, the polling place lookup).
+- Local rules: City of Ithaca code and department pages, the Town of Ithaca, Tompkins County.
+- Tenant law: New York statutes (General Obligations Law, Real Property Law) and the NYS Attorney General's tenant guides.
+- Cornell policy: the specific Cornell office page, current-year PDFs, the Cornell Chronicle.
+Forum posters (Reddit, College Confidential and the like) are never a source for a fact; the voice lane records them as voice, attributed as such, nothing more.

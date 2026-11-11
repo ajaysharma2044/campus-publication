@@ -19,3 +19,11 @@ WHEN YOU THINK YOU ARE DONE, run the coverage list once more, append a "Coverage
 {{deepen}}
 
 LANE D: THE COMPETITION. Take the 30 most-searched questions in this topic (start from the demand rows in {{demand_path}}, then fill gaps with your own searches for what students ask). For each question: the top 5 results for its query (URL, title, publisher, date if shown), what each says in two lines, what it gets wrong or leaves out, and a short "typical AI answer" written as a large language model would answer the question today from general knowledge, marked clearly as such, with what that answer misses or risks getting wrong for Cornell and Ithaca specifically. End with a ranked list of the gaps we can fill (facts, numbers, decisions, local detail) and the questions where the official page already wins.
+
+SOURCE CHECKLIST (docs/v5/prelaunch-spec.md, Phase 1b; search these before recording any question as unanswered, and record what you tried):
+- Crime or safety: Cornell's Annual Security and Fire Safety Report (Clery Act statistics, with the report year), Cornell Police reports, Ithaca Police Department data.
+- Voting: the New York State Board of Elections and the Tompkins County Board of Elections (deadlines, registration, the polling place lookup).
+- Local rules: City of Ithaca code and department pages, the Town of Ithaca, Tompkins County.
+- Tenant law: New York statutes (General Obligations Law, Real Property Law) and the NYS Attorney General's tenant guides.
+- Cornell policy: the specific Cornell office page, current-year PDFs, the Cornell Chronicle.
+Forum posters (Reddit, College Confidential and the like) are never a source for a fact; record them as voice, attributed as such, nothing more.
