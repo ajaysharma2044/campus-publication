@@ -51,7 +51,7 @@ rows:
   - {label: "Rent a Carshare car by the hour when you need a large haul"}
 ```
 
-Cornell has no grocery store on campus, and the Sun reported in 2022 that GreenStar was the only store within walking distance of Collegetown ([The Sun](https://cornellsun.com/2022/11/30/lack-of-nearby-grocery-stores-leave-students-with-limited-options/)). Everything else takes a bus or a car.
+The Sun reported in 2022 that GreenStar was the only store within walking distance of Collegetown ([The Sun](https://cornellsun.com/2022/11/30/lack-of-nearby-grocery-stores-leave-students-with-limited-options/)). Everything else takes a bus or a car.
 
 ## What can you buy within walking distance?
 
@@ -67,18 +67,18 @@ Wegmans, at 500 South Meadow St., is open 6 a.m. to midnight every day, accordin
 
 For routes, the Sun's reporting is the source we have, and it is dated. A 2022 article said Route 15 serves Wegmans and Trader Joe's about hourly on weekdays, with about 30 minutes to Wegmans, and Route 30 goes to Tops. A 2023 column said Route 15 from the Commons reaches Wegmans and Walmart, and Route 30 reaches Target at Cayuga Mall ([The Sun](https://cornellsun.com/2023/05/03/culinary-autonomy-cooking-for-yourself)). Confirm both routes against the current TCAT schedule at tcatbus.com before you plan around them. For which store charges the least, see [Wegmans vs. Aldi vs. Price Chopper](/cornell/money/wegmans-vs-aldi-vs-price-chopper-ithaca-cheapest-grocery/).
 
-TCAT, Ithaca's bus system, charges $1.50 a ride, and posted passes include a $3.00 day pass ([Downtown Ithaca Alliance](https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/)). Two rides at $1.50 is $3.00, the same as a day pass. Many Cornell students ride free: new first-years and PhD students and graduate assistants get free OmniRide, and a discounted annual pass costs $200 for others ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). See [TCAT: free for Cornell students](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/) for who qualifies.
+TCAT, Ithaca's bus system, charges $1.50 a ride, and posted passes include a $3.00 day pass ([Downtown Ithaca Alliance](https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/)). Two rides cost the same as the day pass. Many Cornell students ride free: new first-years and PhD students and graduate assistants get free OmniRide, and a discounted annual pass costs $200 for others ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). See [TCAT: free for Cornell students](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/) for who qualifies.
 
 ## When does Ithaca Carshare beat the bus?
 
 Ithaca Carshare lets members rent a car by the hour. The Just In Case plan costs $30 a year plus $9 an hour and 42 cents a mile for cars, with 8% sales tax and 12% rental tax added. The It's My Car plan costs $310 a year plus $6 an hour and includes gas or charging, maintenance and insurance. Cornell subsidizes student memberships, and the sign-up fee is $20 ([Ithaca Carshare](https://www.ithacacarshare.org/students-commuters)).
 
-A two-hour Wegmans trip on Just In Case is $18.00 in hourly fees, plus mileage and the 20% in taxes. That is far more than a $3.00 bus trip, so Carshare wins only when the load is heavy or the bus times do not fit. Split the cost with roommates and shop for two weeks at once.
+A two-hour Wegmans trip on Just In Case is $18.00 in hourly fees, plus mileage and the 20% in taxes. That is far more than a bus round trip, so Carshare wins only when the load is heavy or the bus times do not fit ([Ithaca Carshare](https://www.ithacacarshare.org/students-commuters)). Split the cost with roommates and shop for two weeks at once.
 
 ```tool ithaca-carshare-plan-calculator```
 
 ```reader "If you're a first-year"
-Your free OmniRide pass covers the bus to Wegmans, so the bus is your default. Carshare is the backup for a big move-in shop. Your dining plan runs on North and West Campus, so groceries matter most for snacks, not meals.
+Your free OmniRide pass covers the bus to Wegmans, so the bus is your default. Carshare is the backup for a big move-in shop. First-years must hold the Unlimited plan, so groceries are for snacks, not meals.
 ```
 
 ```reader "If you live off campus"
@@ -89,4 +89,4 @@ Plan one weekly trip, and keep staples from GreenStar between trips. The [upper-
 
 Pick your store from the list above, check its hours and the TCAT schedule for the day you plan to go, and carry a backpack and a tote. If you shop at Tops or P&C Fresh, pay with City Bucks.
 
-Related guides: [cheap groceries in Ithaca](/cornell/money/cheap-groceries-ithaca-ny-students/) and [Cornell off-campus meal plan or cook yourself](/cornell/money/cornell-off-campus-meal-plan-or-cook-yourself-cost/).
+Related guides: [Cornell off-campus meal plan or cook yourself](/cornell/money/cornell-off-campus-meal-plan-or-cook-yourself-cost/).

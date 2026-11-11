@@ -53,6 +53,9 @@ sources:
   - url: https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/
     title: "Cornell Daily Sun, 2018"
     accessed: '2026-11-10'
+  - url: https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing
+    title: "Affiliated Housing"
+    accessed: '2026-11-10'
   - url: https://news.cornell.edu/stories/2018/05/citing-health-and-safety-concerns-pollack-initiates-greek-life-reforms
     title: "Cornell Chronicle, May 4, 2018"
     accessed: '2026-11-10'

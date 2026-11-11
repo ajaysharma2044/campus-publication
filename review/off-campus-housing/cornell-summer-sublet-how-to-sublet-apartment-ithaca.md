@@ -2,7 +2,7 @@
 title: "How to Sublet Your Cornell Apartment for Summer"
 mode: answer
 dek: "To sublet in Ithaca you need your landlord's written consent, and New York law limits when a landlord can say no."
-meta: "How to sublet your Ithaca apartment for summer: the landlord consent rule, the certified-mail request, the 10-day and 30-day clocks, fees and where to list."
+meta: "How to sublet your Ithaca apartment for summer: the landlord consent rule, the certified-mail request, the two clocks, fees and where to list."
 primary_query: "how to sublet my apartment for the summer Ithaca Cornell"
 topic: housing
 school: cornell-university

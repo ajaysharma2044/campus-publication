@@ -2,7 +2,7 @@
 title: "What to Include in a Sublet Agreement in New York"
 mode: answer
 dek: "A sublet agreement should fix the dates, rent, deposit, utilities and condition of the unit in writing, and it must be ready to attach to the landlord's consent request."
-meta: "What to include in a sublet agreement in New York: parties, dates, rent, deposit, utilities, condition photos and the landlord consent, as a checklist for Ithaca."
+meta: "What to include in a sublet agreement in New York: parties, dates, rent, deposit, utilities, condition photos and landlord consent, as an Ithaca checklist."
 primary_query: "what to include in a sublet agreement New York"
 topic: housing
 school: cornell-university
@@ -43,7 +43,7 @@ A sublet agreement should name both people, give the exact start and end dates, 
 
 ## Why does a sublet need a written agreement?
 
-Cornell tells tenants to get a [written sublease](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus), and it warns that original tenants often remain responsible after a sublet. If the subtenant stops paying, the landlord looks to you. A written agreement is your proof of what the subtenant promised. The [how-to guide](/cornell/housing/cornell-summer-sublet-how-to-sublet-apartment-ithaca/) covers the landlord's consent steps.
+Cornell tells tenants to get a [written sublease](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus), and it warns that original tenants can remain responsible after a sublet. If the subtenant stops paying, the landlord looks to you. A written agreement is your proof of what the subtenant promised. The [how-to guide](/cornell/housing/cornell-summer-sublet-how-to-sublet-apartment-ithaca/) covers the landlord's consent steps.
 
 The Cornell Law guide says an unpaid subtenant can be pursued for breach of contract in [small claims, city, town or supreme court](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease). A court will look for the written terms.
 
@@ -66,7 +66,7 @@ Cornell's list of lease terms to check is a good model, because a sublease is a 
 
 **The deposit**
 - The amount, who holds it, the conditions for keeping any of it, and the return date. New York caps a landlord's deposit plus any advance rent at [one month's rent](https://www.nysenate.gov/legislation/laws/GOB/7-108), and a landlord must return the remainder with an itemized list within 14 days. Those rules govern the landlord's deposit. Write a similar timetable for yours and ask the landlord to confirm it.
-- The deductions you may take: unpaid rent, damage beyond normal wear, unpaid utilities, and moving and storing belongings left behind ([Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits)).
+- The deductions you can take: unpaid rent, damage beyond normal wear, unpaid utilities, and moving and storing belongings left behind ([Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits)).
 
 **Utilities and extras**
 - Who pays electricity, gas and internet, and how the bills are split. Ithaca Renting asks summer tenants to [keep the electricity on](https://ithacarenting.com/collegetown/), with the fridge running at the least.

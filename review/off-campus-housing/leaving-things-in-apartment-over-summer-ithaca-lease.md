@@ -52,7 +52,7 @@ Ithaca Renting adds a rule for its tenants: [keep the electricity on](https://it
 
 ## What happens in a Cornell residence hall?
 
-The rules are stricter. Under the 2026-27 housing license, storage space is not available, and property not removed within 24 hours of check-out is treated as abandoned. The license charges $60 a day for occupancy outside your assigned period, so you cannot pay to stay in the room. Graduating seniors get an extension through the day after Commencement at no charge. Pickup companies and self-storage are the options.
+The rules are stricter. Under the [2026-27 housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027), storage space is not available, and property not removed within 24 hours of check-out is treated as abandoned. The license charges $60 a day for occupancy outside your assigned period, so you cannot pay to stay in the room. Graduating seniors get an extension through the day after Commencement at no charge. Pickup companies and self-storage are the options.
 
 ## What if your lease ends before you come back?
 

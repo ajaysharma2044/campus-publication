@@ -51,6 +51,9 @@ sources:
   - url: https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal
     title: "Cornell Law tenants' guide"
     accessed: '2026-11-10'
+  - url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+    title: "Checklists and Considerations"
+    accessed: '2026-11-10'
 images:
   - slot: lead
     alt: "The glass-and-brick Weill Cornell Medicine campus buildings along York Avenue on Manhattan's Upper East Side."

@@ -85,7 +85,7 @@ The Sun's reporting fills in the rest, and every hour below is the writer's clai
 
 Louie's Lunch, the food truck on Thurston Avenue, is on Cornell's approved food truck list ([Cornell EHS](https://ehs.cornell.edu/campus-health-safety/event-management/approved-food-truck-and-trailer-vendors)). A 2021 Sun feature said it closes at 3 a.m. and that lines can reach 20 people and about two hours. One student waited 1 hour 40 minutes for a grilled cheese ([The Sun](https://cornellsun.com/2021/11/10/like-a-good-friend-louies-is-there)).
 
-Cornell's pages list no menu prices for these spots, and the Sun's 2019 late-night prices are out of date. Check each menu before you order.
+Cornell's pages list no menu prices for these spots. Check each menu before you order.
 
 ## How do I get home late?
 

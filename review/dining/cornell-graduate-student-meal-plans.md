@@ -68,9 +68,9 @@ To compare, take each plan's price, subtract its BRBs (worth $1 each), add $25 f
 - Bear Choice: a net $2,600 over 180 meals is $14.44 a meal.
 - Bear Basic: a net $2,014 over 126 meals is $15.98 a meal.
 
-A plan meal costs less than the door price only if you use enough of them (net cost above divided by the door price, per week). Bear Basic needs about 6.7 lunches a week or 5.4 dinners a week. Bear Choice needs 8.6 lunches or 6.9 dinners. Bear Traditional needs 10.4 lunches or 8.4 dinners. Weekly swipes that you skip are lost when the week ends on Wednesday, so a plan punishes an irregular schedule.
+A plan meal costs less than the door price ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)) only if you use enough of them (net cost above divided by the door price, per week). Bear Basic needs about 6.7 lunches a week or 5.4 dinners a week. Bear Choice needs 8.6 lunches or 6.9 dinners. Bear Traditional needs 10.4 lunches or 8.4 dinners. Weekly swipes that you skip are lost when the week ends on Wednesday, so a plan punishes an irregular schedule.
 
-If you eat five lunches a week on campus, paying the lunch door price costs $84.00 a week, or $1,512.00 over 18 weeks. That is less than any full plan costs in the table above.
+If you eat five lunches a week on campus, paying the lunch door price ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)) costs $84.00 a week, or $1,512.00 over 18 weeks. That is less than any full plan costs in the table above ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/graduate-meal-plans)).
 
 <!-- ad-break -->
 

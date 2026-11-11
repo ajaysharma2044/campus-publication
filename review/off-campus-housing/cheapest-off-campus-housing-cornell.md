@@ -222,7 +222,7 @@ rows:
   - {label: "Redbud co-op triple (no Cornell meal plan required)", value: "$5,530"}
 ```
 
-Source: Cornell's 2026-27 housing rates and undergraduate meal plan prices. Each total is room plus plan plus the fee, for example $12,644 + $7,604 + $50 = $20,298.
+Source: Cornell's 2026-27 housing rates and undergraduate meal plan prices. Each total is room plus plan plus the fee.
 
 A quad is priced like a double, at $6,872 a semester. Only a one-room quad gets the triple rate. Whether rooms should be priced this differently is an open debate on campus. In an April 29, 2026 column in [The Cornell Daily Sun](https://www.cornellsun.com/article/2026/04/unequal-vs-inequitable-housing-why-all-dorms-should-cost-the-same), Ava Betnar '29 argued that Cornell should narrow the gap between single, double and triple rates.
 

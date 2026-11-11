@@ -25,9 +25,6 @@ sources:
   - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
     title: "Housing Rates 2026-2027, Cornell Student & Campus Life"
     accessed: '2026-11-10'
-  - url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/
-    title: "$2,459 a month"
-    accessed: '2026-11-10'
   - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
     title: "Graduate Housing"
     accessed: '2026-11-10'
@@ -42,6 +39,9 @@ sources:
     accessed: '2026-11-10'
   - url: https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx
     title: "Lansing West Apartments, RentCafe"
+    accessed: '2026-11-10'
+  - url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/
+    title: "$2,459 a month"
     accessed: '2026-11-10'
   - url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/downtown-ithaca/
     title: "Downtown Ithaca"
