@@ -28,7 +28,9 @@ sources:
   title: Welcome New Resident Guide, Town of Ithaca
   accessed: '2026-11-10'
 images: []
+page_type: answer
 ---
+
 
 
 Register to vote at the address where you live in Ithaca, because that address decides which local offices you vote for. Deadlines, registration forms and polling places come from the Tompkins County Board of Elections and the New York State Board of Elections, so confirm them there before you register.
