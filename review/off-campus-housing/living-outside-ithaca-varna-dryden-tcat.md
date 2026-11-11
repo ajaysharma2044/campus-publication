@@ -36,10 +36,10 @@ images:
 ---
 
 ```glance
-- Ivy Ridge Townhomes at 802-812 Dryden Rd. is the one Varna building with student reviews and a TCAT stop on site.
+- Ivy Ridge Townhomes is the one Varna building with student reviews and an on-site TCAT stop.
 - Cornell students ride TCAT free after 6 p.m. on weekdays and all weekend. Daytime rides cost $1.50.
 - Varna is in the Town of Dryden, so City of Ithaca certificate and safety-tool checks do not cover it.
-- Route numbers and trip times for Varna are not on any page Cornell or Ivy Ridge publishes. Ask TCAT before you sign.
+- Route numbers and trip times for Varna are not published. Ask TCAT before you sign.
 ```
 
 Varna is a hamlet on Dryden Road east of campus, and living there means riding a TCAT bus or driving. Ivy Ridge Townhomes lists an on-site stop with direct routes to Cornell, but it does not publish route numbers or travel times, so ask TCAT before you sign ([Ivy Ridge Townhomes](https://ivyridgetownhomes.com/)).
@@ -63,7 +63,7 @@ rows:
 
 Source: Ivy Ridge Townhomes website and FAQ. The distance is measured from Ho Plaza to the building's map coordinates.
 
-The site calls the property walkable to Cornell and "less than a mile" from campus. The straight-line distance from Ho Plaza is 1.85 miles, and the road climbs, so plan on the bus. The site also states that it is not affiliated with Cornell.
+The site calls the property walkable to Cornell and "less than a mile" from campus ([Ivy Ridge FAQ](https://ivyridgetownhomes.com/faqs/)). The straight-line distance from Ho Plaza is 1.85 miles, and the road climbs, so plan on the bus. The site also states that it is not affiliated with Cornell.
 
 Two details need a question before you apply. The footer says Campus Advantage manages the community, while the contact address and the "Apply Now" button point to Ithacor, a Cortland company. The ownership line is an unfilled template. Ask who the landlord of record is, and get the parking terms in writing.
 
@@ -85,7 +85,7 @@ For a repair that goes unanswered, the code office is the Town of Dryden's, not 
 
 Cornell students ride TCAT with their Cornell ID. New first-year degree students ride free at any hour. After the first year, rides are free after 6 p.m. on weekdays and all day on weekends, and daytime rides cost $1.50 ([Cornell Johnson MBA](https://business.cornell.edu/students/by-program/mba-students/living-in-ithaca/)). Cornell cut off free daytime rides for non-first-years in October 2024 ([Cornell Daily Sun](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free)). The full rules are in the [TCAT guide for Cornell students](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/).
 
-Here is what a daytime commuter pays. A round trip is two $1.50 fares, or $3.00, and TCAT caps a day at $3.00. Twenty weekdays at $3.00 is $60.00, against a $45.00 monthly pass ([TCAT fare page](https://www.tcatbus.com/ride/fare-pass-options/)). A pass is the cheaper choice if you ride on most weekdays. Your own numbers go in the calculator below.
+Here is what a daytime commuter pays. A round trip costs two daytime fares, and TCAT caps a day at $3.00. Twenty weekdays at that cap is $60.00, against a $45.00 monthly pass ([TCAT fare page](https://www.tcatbus.com/ride/fare-pass-options/)). A pass is the cheaper choice if you ride on most weekdays. Your own numbers go in the calculator below.
 
 ```tool omniride-break-even-calculator
 ```
@@ -93,7 +93,7 @@ Here is what a daytime commuter pays. A round trip is two $1.50 fares, or $3.00,
 TCAT's phone line is 607-277-7433, and schedules are at tcatbus.com/bus-schedules ([Ithaca Tompkins International Airport](https://www.flyithaca.com/public-transportation)). Ask which route stops at Ivy Ridge, when the last bus leaves campus, and how the schedule changes in summer and winter break.
 
 ```reader "If you're a graduate or professional student"
-You ride free after 6 p.m. and all weekend, so a late lab or a library night costs nothing, but the 8 a.m. class costs $1.50 each way. Ivy Ridge's reviewers were MBA students who lived there, so the building has a track record with your group. Ask the landlord about summer: PhD students and graduate assistants get a free OmniRide pass, the Cornell pass that covers all TCAT rides, according to [Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes).
+You ride free after 6 p.m. and all weekend, so a late lab or a library night costs nothing, but the 8 a.m. class costs a full fare each way. Ivy Ridge's reviewers were MBA students who lived there, so the building has a track record with your group. Ask the landlord about summer: PhD students and graduate assistants get a free OmniRide pass, the Cornell pass that covers all TCAT rides, according to [Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes).
 ```
 
 ## Is there another way in from Dryden?

@@ -62,7 +62,7 @@ rows:
 
 Source: Cornell Student & Campus Life building pages and The Cornell Daily Sun.
 
-None of these is a lease. Each is Cornell housing under a license, the university's housing contract, with Cornell's rates and meal plan rules. The [license cancellation fee calculator](/cornell/housing/cornell-off-campus-housing-guide/) context is in the off-campus guide, and the tool is below.
+None of these is a lease. Each is Cornell housing under a license, the university's housing contract, with Cornell's rates and meal plan rules. If you sign one and later want out, the calculator below estimates the cancellation fee.
 
 ```tool cornell-housing-license-cancellation-fee-calculator
 ```
@@ -85,9 +85,9 @@ None of these is a lease. Each is Cornell housing under a license, the universit
 
 All of these buildings use the same room rates as the residence halls. A double is $13,744 a year, and a single is $15,566 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Residents of 112 Edgemoor, Cascadilla, Schuyler, Sheldon, 301 College Ave. and 104 Mary Ann Wood Drive can take the Collegetown Meal Plan, which is $7,056 a year with up to 10 meals a week, $500 in Big Red Bucks and $436 in City Bucks per semester, and four guest meals ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
-A double with that plan and the $50 fee is $20,850 (13,744 + 7,056 + 50). A single is $22,672. With Unlimited at $7,604 instead, the double is $21,398, so the Collegetown plan saves $548.
+A double with that plan and the $50 fee is $20,850 (13,744 + 7,056 + 50). A single is $22,672. With Unlimited at $7,604 instead, the double is $21,398, so the Collegetown plan saves $548 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
 
-Set against a lease, a Collegetown 4-bedroom bed runs $14,955 a year in the [2027-28 rent dataset](/cornell/housing/collegetown-rent-prices-per-bed-one-bedroom/). The gap is $5,895 (20,850 - 14,955), or $491.25 a month, which is what food and electricity would have to cost to break even. For the full comparison, read [is off-campus cheaper than a Cornell dorm](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/).
+Set against a lease, a Collegetown 4-bedroom bed runs $14,955 a year in the [2027-28 rent dataset](/datasets/collegetown-rent-per-bed-2027-28/). The gap is $5,895 (20,850 - 14,955), or $491.25 a month, which is what food and electricity would have to cost to break even. For the full comparison, read [is off-campus cheaper than a Cornell dorm](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/).
 
 ## Who can live in them?
 
@@ -99,7 +99,7 @@ Cornell does not publish a list of which Greek chapter houses it owns. The Stude
 
 ## What to do next
 
-If you want a hall in Collegetown, apply in the fall selection window and compare the $20,850 year with a lease before you decide.
+If you want a hall in Collegetown, apply in the fall selection window and compare the year's total with a lease before you decide, using the [Collegetown per-bed prices](/cornell/housing/collegetown-rent-prices-per-bed-one-bedroom/).
 
 Related guides:
 

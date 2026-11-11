@@ -77,7 +77,7 @@ Most students live in suites. Bethe has 38 suites, and most hold five people: th
 
 Bethe Main sits on the old Sperry Hall site. The Cornell Daily Sun reported in 2005 that the building came from a $43 million phase that added 300 beds and the Noyes Community and Recreation Center ([The Cornell Daily Sun](https://cornellsun.com/2005/01/28/board-approves-wcri-phase-3)).
 
-What sets Bethe apart from the other Houses is McFaddin Hall, a nearby building that holds about 60 of its residents. The quads exist only there. Cornell left McFaddin out of 2026-27 selection because of major outside construction that starts in summer 2026 and runs well into fall 2026 ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/mcfaddin-hall-will-not-house-students-for-fall-2026-due-to-upcoming-construction)). The fact file does not say when McFaddin reopens, so ask Housing and Residential Life before you rank Bethe for a quad.
+What sets Bethe apart from the other Houses is McFaddin Hall, a nearby building that holds about 60 of its residents. The quads exist only there. Cornell left McFaddin out of 2026-27 selection because of major outside construction that starts in summer 2026 and runs well into fall 2026 ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/mcfaddin-hall-will-not-house-students-for-fall-2026-due-to-upcoming-construction)). The sources cited here do not say when McFaddin reopens, so ask Housing and Residential Life before you rank Bethe for a quad.
 
 Food is a selling point. Jansen's Dining Room is inside the House ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms)). Each Wednesday from 6 to 7 p.m. it serves only House residents, fellows and guests, then opens to everyone at 7 p.m. ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms/west-campus-house-dinners)). Two Sun reviewers scored the five West Campus dinners during the week of Oct. 24, 2022. Bethe averaged 8 out of 10, the highest of the five, and it closed earliest, at 7:30 ([The Cornell Daily Sun](https://cornellsun.com/2022/11/07/a-comprehensive-review-of-west-campus-dining/)). Two reviewers and one week make a snapshot, not a rating.
 
@@ -92,7 +92,7 @@ Cornell prices rooms by type, not by House, so a Bethe double costs what a doubl
 
 Source: Cornell Housing rates for 2026-27 and Cornell Dining. Totals add the House Meal Plan and the yearly fee to the room rate.
 
-The fact file lists no separate rate for Bethe's suites, so check the rates page for the bedroom type you would get.
+The sources cited here list no separate rate for Bethe's suites, so check the rates page for the bedroom type you would get.
 
 Residents cannot change or cancel the House Meal Plan while they live in the West Campus Houses. Whether that plan beats cooking for yourself is worked out in [Is the Cornell meal plan worth it?](/cornell/money/cornell-meal-plan-worth-it/).
 

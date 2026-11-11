@@ -254,7 +254,7 @@ Count your weekday daytime rides for a typical week and compare the total with t
 
 ## Related guides
 
-- [Getting to Ithaca and around Cornell](/getting-around/getting-to-ithaca-and-around-cornell/): the whole topic in one place.
-- [Getting around Ithaca as an off-campus Cornell renter](/getting-around/getting-around-ithaca-off-campus-renters/): commute times by neighborhood.
-- [Getting around Ithaca as a Cornell grad student](/getting-around/getting-around-ithaca-cornell-grad-students/): who gets the free pass.
-- [Having a car at Cornell](/getting-around/having-a-car-at-cornell-student-guide/): the full cost of keeping a car.
+- [Getting to Ithaca and around Cornell](/cornell/getting-around/getting-to-ithaca-and-around-cornell/): the whole topic in one place.
+- [Getting around Ithaca as an off-campus Cornell renter](/cornell/getting-around/getting-around-ithaca-off-campus-renters/): commute times by neighborhood.
+- [Getting around Ithaca as a Cornell grad student](/cornell/getting-around/getting-around-ithaca-cornell-grad-students/): who gets the free pass.
+- [Having a car at Cornell](/cornell/getting-around/having-a-car-at-cornell-student-guide/): the full cost of keeping a car.

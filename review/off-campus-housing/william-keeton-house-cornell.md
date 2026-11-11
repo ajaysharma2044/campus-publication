@@ -2,7 +2,7 @@
 title: "William Keeton House Cornell: rooms, cost and how to get in"
 mode: answer
 dek: "William Keeton House is a 300-resident West Campus House with 37 large suites, no air conditioning and a required meal plan."
-meta: "William Keeton House at Cornell: opened Aug. 2008, 300+ residents, 37 suites for 4 to 10 students, what a year costs with the House Meal Plan, and how to apply."
+meta: "William Keeton House at Cornell: opened Aug. 2008, 300+ residents, 37 suites for 4 to 10 students, cost with the House Meal Plan, and how to apply."
 primary_query: "William Keeton House Cornell"
 topic: housing
 school: cornell-university
@@ -39,7 +39,7 @@ images:
 
 ```glance
 - Keeton opened in August 2008 and holds more than 300 residents, with no air conditioning.
-- It has 37 suites that sleep 4 to 10 students, the largest range of any House.
+- It has 37 suites that each sleep 4 to 10 students.
 - A double costs $13,744 for 2026-27, and the House Meal Plan is required on top.
 - A Sun review scored Keeton dinners 5.5 out of 10 in one week, with big swings by day.
 ```
@@ -72,7 +72,7 @@ The residents, room types and House leaders come from [Cornell's Keeton House pa
 
 The suites set Keeton apart. Cornell counts 37 of them, and they hold anywhere from four to ten students, while most suites in the other Houses hold five ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)). Not every suite is offered in room selection.
 
-Keeton also anchors the corner of West Campus near the Libe Slope. The House Office, laundry and dining for 1 Forest Park Lane are at Keeton, and so is check-in for the Equity & Engagement Community at 2 Forest Park Lane ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/1-forest-park-lane)). The dining room serves the nearby halls as well as Keeton residents.
+Keeton also serves as a hub for nearby buildings. The House Office, laundry and dining for 1 Forest Park Lane are at Keeton, and so is check-in for the Equity & Engagement Community at 2 Forest Park Lane ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/1-forest-park-lane)). The dining room serves the nearby halls as well as Keeton residents.
 
 Dining is the mixed part. Each Wednesday from 6 to 7 p.m., the dining room serves only House residents, fellows and guests, then opens to everyone at 7 p.m. ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms/west-campus-house-dinners)). Two Sun reviewers scored the five West Campus dinners during the week of Oct. 24, 2022. Keeton averaged 5.5 out of 10, with a swing from 8.5 on Monday to 0.5 on Friday, when the naan was stale and the burgers sold out ([The Cornell Daily Sun](https://cornellsun.com/2022/11/07/a-comprehensive-review-of-west-campus-dining/)). That is one week and two reviewers, so treat it as a snapshot.
 
@@ -89,7 +89,7 @@ Cornell prices rooms by type, not by House. A Keeton double costs the same as a 
 
 Source: Cornell Housing rates for 2026-27 and Cornell Dining. Totals add the House Meal Plan and the yearly fee to the room rate.
 
-The fact file lists no separate rate for the larger suites, so check the rates page for the bedroom type you would get. Residents cannot change or cancel the House Meal Plan while they live in a West Campus House. [Is the Cornell meal plan worth it?](/cornell/money/cornell-meal-plan-worth-it/) weighs the plan against cooking.
+The sources cited here list no separate rate for the larger suites, so check the rates page for the bedroom type you would get. Residents cannot change or cancel the House Meal Plan while they live in a West Campus House. [Is the Cornell meal plan worth it?](/cornell/money/cornell-meal-plan-worth-it/) weighs the plan against cooking.
 
 Off campus, a share of a Collegetown six-bedroom has a median asking rent of $9,600 over 12 months. That is $4,144 less than the double, before food, and the double includes utilities ([2026-27 housing cost dataset](/datasets/ithaca-housing-cost-by-living-situation-2026-27/)). [Is off campus cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) adds the costs that table leaves out.
 
@@ -103,7 +103,7 @@ For 2027-28, rising sophomores apply from Feb. 1 to April 4, 2027, at 11:59 p.m.
 
 ```reader
 If you're choosing a suite with friends
-Keeton's suites run from four to ten students, so decide your group size first. A block of friends picks together in room selection, and a bigger suite means more roommates sharing one bathroom and sitting area.
+Keeton's suites run from four to ten students, so decide your group size first. Room selection lets friends form a block of up to five, so a group larger than five needs a plan for who joins the suite.
 ```
 
 ## What should you watch before you sign?

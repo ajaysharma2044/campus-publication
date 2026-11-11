@@ -118,7 +118,7 @@ Fourteen buildings below state a pet policy on their own pages or on Cornell's o
 | East Pointe, 15 E. Pointe Dr. | Northeast | One-time fee plus monthly pet rent |
 | Theory Ithaca, 445 E. State St. | Downtown | Pets allowed |
 | The Outlook, 815 S. Aurora St. | South Hill | Pets allowed |
-| Heritage Park TownHouses, 225 Pennsylvania Ave. | Northside | Cats and dogs allowed |
+| Heritage Park TownHouses, 225 Pennsylvania Ave. | South Hill | Cats and dogs allowed |
 | 510 E. Seneca St. (PPM Homes) | Collegetown | Cats and dogs allowed |
 
 Sources: the [Lansing West](https://www.lansingwestapts.com/), [Winston Square](https://winstonsquareapts.com/), [Student Agencies Building](https://www.thestudentagenciesbuilding.com/faq), [Cayuga Place and Cayuga Lofts](https://livehhcayuga.com/), [Lake Street](https://www.travishyde.com/west-campus/lake%20st), [Triphammer](https://triphammerapts.com/), [East Pointe](https://eastpointeapartment.com/) and [Outlook](https://www.outlookithaca.com/) sites; the Cornell marketplace pages for [The Pinnacle](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-pinnacle-237571) and [Theory Ithaca](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/theory-ithaca-239997); [Heritage Park](https://www.ithacarents.com/1616-225-pennsylvania-ave); [PPM Homes](https://www.ppmhomes.com/availability). Areas are approximate, assigned from each address.

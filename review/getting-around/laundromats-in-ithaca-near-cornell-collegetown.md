@@ -135,5 +135,3 @@ Cornell and the city publish no list of coin laundries near campus, and the sour
 ## Related guides
 
 - [Cornell off-campus housing guide](/cornell/housing/cornell-off-campus-housing-guide/): the whole search from first look to move-in.
-- [How to read an Ithaca lease before signing](/cornell/housing/how-to-read-ithaca-lease-before-signing/): the terms to check, laundry included.
-- [TCAT free for Cornell students](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/): hours and routes.

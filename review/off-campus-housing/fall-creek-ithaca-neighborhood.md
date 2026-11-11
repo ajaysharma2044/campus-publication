@@ -77,7 +77,7 @@ West and north of campus, around Cascadilla Avenue, Lake Street, North Tioga Str
 
 ## How much does Fall Creek cost?
 
-One-bedrooms ask $1,400 to $1,545 a month in the current listings below, with some bedrooms in shared houses far cheaper.
+One-bedrooms ask $1,400 to $1,545 a month in the listings below ([CSP Management](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx)), with some bedrooms in shared houses far cheaper.
 
 | Address | Unit | Rent printed | What the listing says |
 |---|---|---|---|
@@ -100,11 +100,11 @@ The Pinnacle at 121-125 Lake St. opened Aug. 1, 2026 with 77 apartments, and at 
 
 ## How do you get to campus from Fall Creek?
 
-On foot it is a 20 to 30 minute uphill walk. By bus, a graduate student guide puts the ride at about 15 minutes from Hollister Hall ([Graduate Student Resources](https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html)). TCAT Route 10 runs along North Tioga Street ([Finger Lakes 1](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/)).
+On foot, expect the uphill walk above. By bus, a graduate student guide puts the ride at about 15 minutes from Hollister Hall ([Graduate Student Resources](https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html)). TCAT Route 10 runs along North Tioga Street ([Finger Lakes 1](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/)).
 
 Cornell students registered for the program ride free on all TCAT buses after 6 p.m. on weekdays and all day Saturday and Sunday. First-year undergraduate, graduate, PhD and transfer students get unlimited rides in their first year, and PhD students and graduate assistants get free OmniRide passes ([Cornell Transportation and Delivery Services](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). The cash fare is $1.50 per ride ([TCAT](https://tcatbus.com/fare-pass-options)). No buses run from 1:30 a.m. to 4:00 a.m.
 
-If you pay, the $200 annual OmniRide pass breaks even at 134 rides ($200 divided by $1.50, rounded up), about 13 weeks of two daytime rides on weekdays. The tool below checks your own schedule.
+If you pay, the $200 annual OmniRide pass ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)) breaks even at 134 rides ($200 divided by $1.50, rounded up), about 13 weeks of two daytime rides on weekdays. The tool below checks your own schedule.
 
 ```tool omniride-break-even-calculator```
 
@@ -116,7 +116,7 @@ Fall Creek, downtown and East Hill are the areas graduate students most often na
 
 ## What should you watch for?
 
-Groceries and some errands take a bus or a car. Hills are real: the walk home from campus is uphill. Parking is by the building, with off-street spaces listed at some addresses, such as 408 N. Aurora St. at a monthly fee. Run the numbers on rent plus commute before you decide.
+The graduate student guide says groceries and some errands need a bus or a car ([Graduate Student Resources](https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html)). The walk home from campus is uphill. Parking is by the building, and 408 N. Aurora St. lists off-street spaces at a monthly fee ([listings feed](https://offcampushousing.ithaca.edu/listing)). Run the numbers on rent plus commute before you decide.
 
 ```tool ithaca-rent-commute-calculator```
 

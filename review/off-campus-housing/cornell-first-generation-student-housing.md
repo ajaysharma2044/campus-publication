@@ -46,6 +46,9 @@ sources:
 - url: https://ithacarenting.com/downtown/
   title: Downtown Ithaca apartments, Ithaca Renting
   accessed: '2026-11-10'
+- url: https://gradschool.cornell.edu/announcements/grad-tips-winter-clothing-resources
+  title: Winter Clothing Resources, Cornell Graduate School
+  accessed: '2026-11-10'
 images:
 - slot: hero
   alt: Day Hall, the Cornell administration building that houses the Financial Aid office

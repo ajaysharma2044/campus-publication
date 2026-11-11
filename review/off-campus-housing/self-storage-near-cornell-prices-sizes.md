@@ -48,7 +48,7 @@ A 5x5 self-storage unit near Cornell costs $84 a month, and a 10x10 runs from $1
 
 ## What does self-storage near Cornell cost?
 
-Price depends on size, on whether the unit is climate controlled (kept at a steady temperature), and on whether it is drive-up (you park at the door and load straight in). The table lists what each facility posted in Nov. 2026.
+Price depends on size, on whether the unit is climate controlled (kept at a steady temperature), and on whether it is drive-up (you park at the door and load straight in). The table lists what each facility posted in Nov. 2026 ([Bolt Storage](https://www.boltstorage.com/self-storage/freeville-ny)).
 
 | Facility | 5x5 | 10x10 | Other sizes and notes |
 |---|---|---|---|
@@ -63,7 +63,7 @@ Source note: Bolt Storage facility pages ([Dryden Road](https://www.boltstorage.
 
 Posted prices run above the averages. SpareFoot, a unit-search site, puts the average 10x10 at $93.39 a month and the average unit booked in the last 180 days at $107.19 ([SpareFoot](https://sparefoot.com/Ithaca-NY-self-storage.html)). [SelfStorage.com](https://www.selfstorage.com/self-storage/new-york/ithaca/24-hour-access/) lists an average 10x10 at $152.75. The $44 10x10 on SpareFoot is a promotion, and the cheapest 10x10 with 24-hour access there is $179. Ask what the rent becomes after the first month.
 
-A 5x5 is 25 square feet (5 × 5). A 10x10 is 100 square feet, four times the floor space. At Bolt's Dryden Road prices the 10x10 drive-up unit is 75 percent more than the 5x5 for four times the room, so the larger unit is the better deal per square foot if you can fill it.
+A 5x5 is 25 square feet (5 × 5). A 10x10 is 100 square feet, four times the floor space. At Bolt's Dryden Road prices the 10x10 drive-up unit is 75 percent more than the 5x5 for four times the room, so the larger unit is the better deal per square foot if you can fill it ([Bolt Storage](https://www.boltstorage.com/self-storage/freeville-ny)).
 
 ## How much does a summer of storage cost?
 
