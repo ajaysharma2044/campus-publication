@@ -1,0 +1,6 @@
+# Edit log: /transfer/cornell-aap-transfer-requirements/
+
+## Gaps
+- B.F.A. portfolio contents (number of works, recording, artist statement, review criteria) | sources tried: https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/ ; https://aap.cornell.edu/admissions/undergraduate/art | outcome: answered with https://aap.cornell.edu/admissions/undergraduate/art
+- Whether Urban and Regional Studies takes transfers and needs a portfolio | sources tried: https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/ ; https://admissions.cornell.edu/college-and-school-transfer-admissions-requirements | outcome: answered with https://admissions.cornell.edu/college-and-school-transfer-admissions-requirements (listed as a transfer major; portfolio named only for B.Arch. and B.F.A.)
+- Prerequisite courses per AAP program | sources tried: https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/ ; https://admissions.cornell.edu/college-and-school-transfer-admissions-requirements ; https://aap.cornell.edu/admissions/undergraduate/art | outcome: heading changed; title and glance promise portfolio, GPA and B.Arch. status, not course lists; the page states AAP sets a GPA floor and materials list and matches courses after the offer

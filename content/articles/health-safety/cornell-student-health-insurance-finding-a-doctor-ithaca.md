@@ -7,7 +7,7 @@ primary_query: Cornell student health plan waiver find a doctor Ithaca
 topic: health-safety
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 265
 rewrites: ''
 readers:
@@ -37,6 +37,18 @@ sources:
 - url: https://health.cornell.edu/services/nutrition-services/affordable-food
   title: Affordable Food, Cornell Health
   accessed: '2026-11-10'
+- url: https://studenthealthbenefits.cornell.edu/keep-your-own-health-insurance/student-health-insurance-criteria
+  title: Student Health Insurance Criteria, Cornell Student Health Benefits
+  accessed: '2026-11-11'
+- url: https://studenthealthbenefits.cornell.edu/keep-your-own-health-insurance/can-you-opt-out-shp
+  title: 'Can You Opt Out of SHP?, Cornell Student Health Benefits'
+  accessed: '2026-11-11'
+- url: https://health.cornell.edu/get-care/insurance-billing
+  title: Insurance and Billing, Cornell Health
+  accessed: '2026-11-11'
+- url: https://health.cornell.edu/get-care/emergencies-after-hours-care
+  title: Emergencies and After-Hours Care, Cornell Health
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: The entrance of Cornell Health on Ho Plaza, a stone and glass building with steps up to its doors
@@ -75,7 +87,17 @@ Submit the waiver on Cornell Student Health Benefits before your deadline. New f
 3. Submit it before the date that applies to you.
 4. Keep the confirmation.
 
-The sources behind this guide list the deadlines but not the rules for which outside plans qualify. Read those rules on the waiver page before you decide, or email Student Health Benefits with your plan details.
+Your outside plan must meet all of Cornell's [student health insurance criteria](https://studenthealthbenefits.cornell.edu/keep-your-own-health-insurance/student-health-insurance-criteria):
+
+- It comes from a U.S. employer, a government agency or a U.S. health exchange, is underwritten in the U.S., and has a U.S. office and phone number for claims.
+- It stays active for the entire academic year, or until your program ends.
+- Your coinsurance is no higher than 40% in the Ithaca campus zip code, 14850.
+- It has unlimited annual and lifetime benefits for the 10 essential health benefits defined by the Affordable Care Act.
+- It covers inpatient, emergency, urgent, specialist and outpatient care, diagnostic imaging and testing, and mental health and substance abuse care.
+
+International travel plans and New York State Essential Plans 3 and 4 do not qualify. Neither does a Medicaid, HMO or EPO plan that lacks comprehensive coverage in Ithaca. Every waiver is subject to review, and Cornell can deny or revoke one if it finds the coverage inadequate.
+
+International students and PhD students generally cannot waive. An international student on a U.S.-based employer or embassy plan can request an exception. A PhD student whose program does not fund the plan can request a waiver with proof from the department. Both requests are due July 31 ([Cornell Student Health Benefits](https://studenthealthbenefits.cornell.edu/keep-your-own-health-insurance/can-you-opt-out-shp)). Questions about a specific plan go to studentbenefits@cornell.edu.
 
 ```reader "If you're an international student"
 Check the waiver rules before you assume your home-country or travel insurance qualifies. The [international student page](/start/international/) lists other arrival tasks.
@@ -107,9 +129,22 @@ rows:
 
 Start with Cornell Health, the campus clinic. Its 24/7 advice line is [607-255-5155](https://health.cornell.edu/about/news/cold-weather-safety), and you can also book through the myCornellHealth portal. Cornell Health also has nutritionists; students can call the same number for a nutritionist plan ([Cornell Health](https://health.cornell.edu/services/nutrition-services/affordable-food)). For prescriptions and off-campus options, see the [pharmacy guide](/cornell/daily-life/pharmacy-near-cornell-campus-ithaca/).
 
+Any registered student can use Cornell Health, whatever their insurance. It bills your plan and caps most remaining costs at its $10 visit fee. The cap excludes pharmacy, travel medicine, Labcorp tests, care outside Cornell Health, and immunizations other than flu and COVID-19 ([Cornell Health](https://health.cornell.edu/get-care/insurance-billing)).
+
 Cornell Health's pharmacy sells light boxes for $20, which students use for winter low mood ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/02/winter-blues-sad-and-the-benefits-of-light-therapy)). Cold-weather guidance from Cornell Health says to dress in layers and watch for frostbite signs ([Cornell Health](https://health.cornell.edu/about/news/cold-weather-safety)).
 
-Cornell Health's pages list no off-campus primary care, urgent care or Cayuga Health clinics (its [affordable food page](https://health.cornell.edu/services/nutrition-services/affordable-food) names Ithaca food resources). If you stay on an outside plan, call the number on your insurance card and ask for in-network doctors near 14850. If you are on the Student Health Plan, call Cornell Health first.
+In an emergency, call 911 or Cornell's Public Safety Communications Center at [607-255-1111](https://health.cornell.edu/get-care/emergencies-after-hours-care). For immediate care when Cornell Health is closed, it lists these Ithaca options:
+
+| Option | Where | Hours | Phone |
+|---|---|---|---|
+| Cayuga Medical Center emergency department | 101 Dates Drive, on Route 96, west side of Cayuga Lake | Open 24/7 | 607-274-4411 |
+| Cayuga Health Immediate Care | 401 Cayuga Park Lane, about 1.3 miles north of campus | Weekdays 9 a.m. to 7 p.m., weekends 8 a.m. to 6 p.m. | 607-319-5900 |
+| Guthrie Ithaca City Harbor Walk-in Care | 720 Willow Avenue, about 2 miles west of campus | Weekdays 7 a.m. to 7 p.m., weekends 7 a.m. to 1 p.m. | 607-219-4600 |
+| WellNow Urgent Care | 740 South Meadow Street, on Route 13 south of Wegmans | Every day, 8 a.m. to 8 p.m. | 607-319-4563 |
+
+The walk-in clinics need no appointment and are for non-emergency illnesses and injuries. The emergency department is also for urgent care when they are closed. Off campus, what you pay depends on your insurance.
+
+Cayuga Medical Center, Ithaca's only hospital, is the parent organization for many local primary care and specialty providers. Cayuga Health does not accept some common networks, including United Healthcare and Kaiser Permanente ([Cornell Student Health Benefits](https://studenthealthbenefits.cornell.edu/keep-your-own-health-insurance/student-health-insurance-criteria)). If Cayuga Health is not in your plan's network, you may need to use out-of-network benefits in Ithaca. Call the number on your insurance card to find in-network doctors.
 
 ```reader "If you're a parent"
 Check who pays the plan in your family before the waiver deadline. You can read the [parent start page](/start/parent/) for billing contacts and other first-year questions.

@@ -1,71 +1,89 @@
 {
  "slug": "international",
- "queue_id": "q-housing-0085",
+ "queue_id": "q-transfer-0041",
  "verdict": "pass",
  "fact_check": [
   {
-   "claim": "Visa appointment can come no more than 120 days before the program starts (intro and dates list)",
-   "source_url": "brief §6 (international FAQ row)",
+   "claim": "International = no US citizenship or approved permanent residency",
+   "source_url": "brief §2",
    "status": "ok",
-   "note": "brief §6 cites the Cornell international FAQ; marked there as not a housing rule, and the page does not call it one."
+   "note": "brief §2 international status row"
   },
   {
-   "claim": "Lease may be signed from abroad, sight unseen",
+   "claim": "CSS Profile due March 15; missing it closes Cornell aid for the whole undergraduate career",
+   "source_url": "brief §1, §10",
+   "status": "ok",
+   "note": "brief: international applicants who skip the March 15 aid deadline can never get Cornell aid"
+  },
+  {
+   "claim": "After admission you move your F-1 or J-1 record to Cornell",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief international applicant paragraph and SEVIS rows"
+  },
+  {
+   "claim": "October 1, 2026 onward: file the CSS Profile as soon as possible",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief: file as soon as possible after October 1, 2026"
+  },
+  {
+   "claim": "March 15, 2027: application, $85 fee and CSS Profile",
+   "source_url": "brief §3, §4",
+   "status": "ok",
+   "note": "brief: March 15 for application, fee and portfolio; aid forms March 15; fee $85; fall 2027 means March 15, 2027"
+  },
+  {
+   "claim": "April 15, 2027: all other materials, with official English translations of anything not in English",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief second deadline row and translations row"
+  },
+  {
+   "claim": "Early April 2027: aid offers, tentatively, for those already admitted",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief: official offer tentatively early April 2027"
+  },
+  {
+   "claim": "Late April through June 2027: decisions",
+   "source_url": "brief §3, §4",
+   "status": "ok",
+   "note": "brief international row: decisions late April through June"
+  },
+  {
+   "claim": "Housing application within ten days of getting your NetID",
    "source_url": "brief §6",
    "status": "ok",
-   "note": "brief: leases must often be signed sight unseen before arrival."
+   "note": "brief: apply through the Housing and Dining Portal within ten days of receiving a NetID"
   },
   {
-   "claim": "March to April (grad students) or the fall before (undergrads who want Collegetown): search and sign",
-   "source_url": "brief §4.6 / §2",
+   "claim": "Mid-August (2026 pattern: Aug 18 for transfers): move-in and orientation",
+   "source_url": "brief §4",
    "status": "ok",
-   "note": "brief has grad timing March to April; Collegetown leases open about 10 to 16 months before move-in, so the fall before an August move-in fits."
+   "note": "brief: transfer move-in Aug 18, 2026"
   },
   {
-   "claim": "About Aug 1: when most Ithaca leases start",
-   "source_url": "brief §1 (lease year)",
+   "claim": "Transfer guide titles and what each covers: pillar (fall 2027), international transfer (need-aware aid rule, English scores, F-1 record), financial aid (forms and timing), credit (university abroad, caps), cost ($95,218 to $99,169 billed), deadlines",
+   "source_url": "content/articles/transfer/*.md titles and metas; brief §10",
    "status": "ok",
-   "note": "brief: most leases end July 31 and the next starts on or about Aug 1."
+   "note": "Each description matches the guide's own title/meta and body (international guide has English score table and SEVIS section; credit guide has an international reader block on universities abroad, translations and caps). Cost title figure matches brief §10 ($95,218 triple to $99,169 super single)."
   },
   {
-   "claim": "On arrival: move-in inspection and photos, and buy renters insurance",
-   "source_url": "brief §2.20",
+   "claim": "Aid page advice: read before October ends so the CSS Profile is not left to March",
+   "source_url": "brief §4",
    "status": "ok",
-   "note": "Cornell checklist says purchase renter's insurance; the brief does not call it required, and the page does not either."
+   "note": "consistent with the Oct 1 open date and the March 15 deadline"
   },
   {
-   "claim": "Winter break: ask housing@cornell.edu if you need a campus option over the break",
-   "source_url": "brief §6 (global.cornell.edu row)",
+   "claim": "Transfer section's links to getting-around JFK guide: the trip from landing to campus, read once admitted and SEVIS record moved",
+   "source_url": "content/articles/getting-around/getting-to-cornell-international-students.md",
    "status": "ok",
-   "note": "brief: students who cannot travel home may ask housing@cornell.edu about on-campus break housing."
-  },
-  {
-   "claim": "Aug 31 of the following year: free first-year TCAT rides end for fall starters",
-   "source_url": "brief §2 (TCAT row) and change log",
-   "status": "ok",
-   "note": "brief: fall entrants Aug 31 of the following year, spring entrants Dec 31; the page limits this to fall starters."
-  },
-  {
-   "claim": "Guide descriptions for the 7 housing guides: international guide (no SSN, nothing up front beyond the one-month cap, sight unseen), listings, landlord vetting, lease, repairs, eviction, pillar",
-   "source_url": "content/articles/housing/*.md titles and metas",
-   "status": "ok",
-   "note": "Checked each against its title and meta. The international guide covers no SSN, the one-month deposit-plus-advance cap and paying from abroad. The listings guide has an international signing-from-abroad reader block. The landlord guide covers certificate and safety-tool checks. Titles and metas for the lease, repair, eviction and pillar guides match the descriptions."
-  },
-  {
-   "claim": "Housing tools linked: lease fee/deposit checker and off-campus move-in checklist",
-   "source_url": "queue/queue.csv rows q-housing-0063, q-housing-0060",
-   "status": "ok",
-   "note": "Both queue rows are published with slugs matching the links and list the international reader. I did not find the tool files by glob, so the link text rests on the queue rows."
-  },
-  {
-   "claim": "Getting-around sections (guides, tools, dates: Oct 1 to Dec 1, Nov 26, Dec 23, Jan 6)",
-   "source_url": "n/a",
-   "status": "ok",
-   "note": "Not this topic's sections; checked against their own brief, not judged here."
+   "note": "title and meta match: JFK to Cornell for international students, plus breaks"
   }
  ],
  "beats_top": {
-  "query": "cornell international student apartment",
+  "query": "cornell international transfer",
   "top_url": "",
   "better": "n/a",
   "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
@@ -74,6 +92,6 @@
  "fixes": [],
  "brief_updates": [],
  "core_answer": "right",
- "reviewed_at": "2026-11-08",
+ "reviewed_at": "2026-11-11",
  "checked_by": "scripts/v3/check.sh"
 }

@@ -1,0 +1,235 @@
+{
+ "slug": "cornell-ilr-transfer-requirements",
+ "queue_id": "q-transfer-0018",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Fall entry only; March 15 application and $85 fee; April 15 for remaining materials",
+   "source_url": "brief §2.2, §2.6",
+   "status": "ok",
+   "note": "brief §2.2 and ILR block: fall only, March 15; fee $85 (brief fee row)."
+  },
+  {
+   "claim": "Fall 2027 cycle means March 15 and April 15, 2027",
+   "source_url": "brief §1 (open cycle is fall 2027)",
+   "status": "ok",
+   "note": "brief notes the open cycle is fall 2027 entry."
+  },
+  {
+   "claim": "Most admitted ILR transfers have at least a 3.4 cumulative GPA, typical not a minimum; Cornell-wide generally 3.3",
+   "source_url": "brief §2.6, §2.4",
+   "status": "ok",
+   "note": "brief ILR GPA row and FAQ 325 row."
+  },
+  {
+   "claim": "Sophomore: 1 composition, 1 intro economics, math up to statistics/calculus, 1 science-and-technology (or language)",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Matches the ILR sophomore prerequisites row."
+  },
+  {
+   "claim": "Junior: 2 composition, micro and macro, math, 1 science-and-technology, at least 2 ILR elective credits",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Matches the ILR junior prerequisites row."
+  },
+  {
+   "claim": "Three essays: 350 (Cornell), 650 (ILR), 650 (personal statement); no interviews",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "Brief row notes the 350-word figure was not re-verified because the PDF was unreadable, but the brief holds it, so it is trusted here. 650-word limits confirmed on the ILR web page per the brief. Interviews: not offered, per the brief."
+  },
+  {
+   "claim": "Main essay 250 to 650 words on how continuing at a new institution helps goals",
+   "source_url": "brief §2.3 (row 20)",
+   "status": "ok",
+   "note": "Admissions page, per the brief."
+  },
+  {
+   "claim": "Credit: up to 60 transfer and exam credits, AP up to 12, C floor, AP Microeconomics needs a 5, non-profit regionally accredited schools, MOOCs and work or military credit never counted, 60 credits and four full-time semesters at Cornell",
+   "source_url": "brief §2.6, §2.8",
+   "status": "ok",
+   "note": "Matches the ILR credit, AP example and residence rows."
+  },
+  {
+   "claim": "One-third of ILR graduates are transfers",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief transfer-share row."
+  },
+  {
+   "claim": "IRP 2021: 116 fall plus 13 spring ILR transfers; 674 fall transfers; 17.2%, second only to CALS",
+   "source_url": "brief §2.14 (by-college table)",
+   "status": "ok",
+   "note": "Recomputed 116/674 = 17.2%. CALS 243 is the only college above ILR; A&S is 102."
+  },
+  {
+   "claim": "12 semester hours after high school, or full-time enrollment; bachelor's holders cannot apply",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "Eligibility definition row. The bachelor's-degree exclusion was not searched separately."
+  },
+  {
+   "claim": "TC3 pathway leads to CALS Agricultural Sciences, not ILR",
+   "source_url": "brief §2.20",
+   "status": "ok",
+   "note": "TC3 rows in the brief."
+  },
+  {
+   "claim": "Spring entry gone; 72 spring 2023 transfers across five colleges including ILR",
+   "source_url": "brief §2.19",
+   "status": "ok",
+   "note": "Brief row cites the Sun, January 2023."
+  },
+  {
+   "claim": "Cornell takes students with two to four semesters done; first-semester students cannot apply",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "FAQ 330 row."
+  },
+  {
+   "claim": "Community colleges: no preference by school type; about a quarter of transfers; credit cannot be refused for community college or online; C or better; about 80% similar",
+   "source_url": "brief §2.2, §2.8",
+   "status": "ok",
+   "note": "Brief FAQ 325 and registrar rows."
+  },
+  {
+   "claim": "Courses seven or more years old generally not eligible; department judges about 80% similarity from syllabus",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "Registrar rows."
+  },
+  {
+   "claim": "Cornell aid covers tuition for families earning up to $125,000 with typical assets; up to $75,000 covers full cost of attendance",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "Income threshold row."
+  },
+  {
+   "claim": "NY residents pay $49,816 tuition; everyone else $73,946; gap $24,130",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "Brief rows. Recomputed 73,946 - 49,816 = 24,130."
+  },
+  {
+   "claim": "Admissions Office sets NY residency at admission; one year of continuous NY residence before registration",
+   "source_url": "https://bursar.cornell.edu/students-parents/ny-state-residency/application-guidelines",
+   "status": "ok",
+   "note": "Opened the page. It says residency is determined at admission by the Admissions Office and requires at least one year of continuous NYS residence immediately preceding registration."
+  },
+  {
+   "claim": "HESC code 0174 for contract colleges; HEOP applicants to ILR email stateprograms@cornell.edu",
+   "source_url": "brief §2.15, §2.16",
+   "status": "ok",
+   "note": "Codes and email rows."
+  },
+  {
+   "claim": "Transfer sophomores live on campus one academic year; juniors exempt",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "Housing exemption row."
+  },
+  {
+   "claim": "Mid-Term Report by March 15 if possible, April 15 at the latest",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "ILR Mid-Term Report row."
+  },
+  {
+   "claim": "Aid forms due March 15, 2027; FAFSA opens October 1, 2026",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "US deadline row."
+  },
+  {
+   "claim": "Decisions roll out late April through June; ILR emails early to mid-June (2024 pattern); ilr_oss@cornell.edu",
+   "source_url": "brief §2.2, §2.11",
+   "status": "ok",
+   "note": "Tatkon page rows in the brief."
+  },
+  {
+   "claim": "Fall 2027 entrants pay 2027-28 prices, which trustees set in late March",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "Brief says 2027-28 prices are not yet published and are confirmed before early April offers. The 2026-27 trustees story is dated March 23, 2026, so late March is consistent."
+  },
+  {
+   "claim": "Last day of fall 2026 instruction is December 7",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar",
+   "status": "ok",
+   "note": "Brief and the calendar page agree: Dec 7, 2026."
+  },
+  {
+   "claim": "Billed $72,188 NY / $96,318 non-NY; cost of attendance $75,604 / $99,734; fees $1,024",
+   "source_url": "brief §2.15, §10.1",
+   "status": "ok",
+   "note": "Matches the brief. The $24,130 difference holds in the billed row too."
+  },
+  {
+   "claim": "Extra year costs $74,970 non-resident (tuition plus $1,024 fees) or $50,840 at the NY rate",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: 73,946 + 1,024 = 74,970; 49,816 + 1,024 = 50,840."
+  },
+  {
+   "claim": "Credits table: 60/75/90 credits count 60, lose 0/15/30, 4 Cornell semesters, 8/9/10 total semesters",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "At 15 credits a semester: 60 = 4 semesters before Cornell, 75 = 5, 90 = 6, each plus 4 at Cornell = 8, 9, 10. The text's 75 to 105 credits (lose 15 to 45, add one to three semesters) checks the same way."
+  },
+  {
+   "claim": "Example: 64-credit associate's plus 9 AP credits means at least 13 lost",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "64 + 9 = 73; 73 - 60 = 13."
+  },
+  {
+   "claim": "Rachel Eisenhart, ILR transfer, Class of 2027, 2025 Sun letter: small talk, between first-years and experienced students, reuse first-year lessons, keep old friends, feel like a regular sophomore in weeks",
+   "source_url": "https://www.cornellsun.com/article/2025/05/a-letter-to-incoming-transfer-students-what-no-one-tells-you",
+   "status": "ok",
+   "note": "Opened the article. Author, ILR, Class of '27, and each point match; she writes 'after a few weeks... you're just a sophomore'."
+  },
+  {
+   "claim": "December 2020 Sun story: ILR Transfer Option student from Penn State urged messaging classmates; transfer GroupMe more than 350 members",
+   "source_url": "brief §2.12",
+   "status": "ok",
+   "note": "Brief row: GroupMe 350-plus; ILR Transfer Option student from Penn State."
+  },
+  {
+   "claim": "Contact ims25@cornell.edu and 410 Thurston Avenue, Ithaca NY 14850",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief contact row, from the PDF."
+  },
+  {
+   "claim": "Transfer Option: ILR holders add AP scores, no fee",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "TO college extras row."
+  },
+  {
+   "claim": "Cornell's 2024 profile names a transfer support role in ILR, similar to CALS navigator",
+   "source_url": "brief §2.21",
+   "status": "ok",
+   "note": "Support named row."
+  },
+  {
+   "claim": "Sources the page cites for an ILR 'no interviews' and aid policy 'same as first-years'",
+   "source_url": "brief §2.6, §2.15",
+   "status": "ok",
+   "note": "Both rows are in the brief."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell ilr transfer",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

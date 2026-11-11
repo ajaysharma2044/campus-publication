@@ -7,7 +7,7 @@ primary_query: cheapest way to live at cornell
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 54
 rewrites: content/articles/housing/cheapest-off-campus-housing-cornell.md
 queue_id: q-housing-0055
@@ -119,6 +119,12 @@ sources:
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
   title: New York General Obligations Law 7-108
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard
+  title: Organization Scorecard, Cornell Sorority & Fraternity Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wari-cooperative
+  title: Wari Cooperative, Cornell Student & Campus Life
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: The Ithaca Commons pedestrian street in winter, with snow on the ground and a banner reading Downtown Ithaca Winter
@@ -239,7 +245,7 @@ Space is tight. The smallest house, [Wari](https://scl.cornell.edu/residential-l
 
 In 2024, The Cornell Daily Sun reported that [floors had collapsed in four of the eight co-ops](https://cornellsun.com/2024/10/21/co-op-residents-face-deteriorating-houses-increasing-rent-costs/) in recent years. Watermargin needed about $500,000 for a roof, and Cornell had raised and standardized co-op rents. Residents in the same report still praised the community.
 
-Greek houses are the other affiliated route. Cornell says their costs are [generally below residence hall or off-campus costs](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities), but it publishes no dollar figures. Rent covers housekeeping, utilities, internet, repairs and building insurance, and each chapter sets its own dues. Ask a chapter treasurer for the full yearly bill before you compare it with the tables above. Our guide to [co-op and Greek costs and how to join](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) covers each house.
+Greek houses are the other affiliated route. Cornell says their costs are [generally below residence hall or off-campus costs](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities). Each chapter's self-reported fees are on Cornell's [Sorority & Fraternity Life scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard). Across the 33 chapters that list a live-in charge above $0, the median is $7,150 for one spring semester of housing and dining. Rates date from spring 2023, 2025 or 2026, depending on the chapter. Rent covers housekeeping, utilities, internet, repairs and building insurance, and each chapter sets its own dues. Ask a chapter treasurer for the full yearly bill before you compare it with the tables above. Our guide to [co-op and Greek costs and how to join](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) covers each house.
 
 <!-- ad-break -->
 
@@ -274,7 +280,7 @@ The bus closes much of the gap. After their first year, Cornell students ride TC
 
 ## Which listings beat the medians?
 
-Some single listings come in well under the medians. These are asking prices from the inventory. Most print no lease year, and rooms marked "available now" can be gone within days.
+Some single listings come in well under the medians. These are asking prices from the inventory, and rooms marked "available now" can be gone within days. Confirm the lease dates and the price with the landlord before you count on one.
 
 | Listing | Price | 12-month cost | What's included |
 |---|---|---|---|
@@ -342,7 +348,7 @@ Compare the per-person, per-year totals in the tables above, not the monthly ren
 
 Cornell figures your need the same way on or off campus, and your family contribution does not change ([Cornell Financial Aid](https://finaid.cornell.edu/living-campus)). The Bursar stops billing for housing, and you pay the landlord. If your aid is larger than your Bursar charges, Cornell refunds the difference for living costs.
 
-Aid does not cover security deposits, first and last month's rent, or rent for months you are not registered, such as summer. Financial Aid also will not step in if you try to break a lease mid-year.
+Aid does not cover security deposits, first and last month's rent, or rent for months you are not registered, such as summer. Financial Aid also will not step in if you try to break a lease mid-year (Cornell Financial Aid). Talk to the office at 203 Day Hall, 607-255-5145, before you sign.
 
 Say you rent a downtown 3BR bed at the $795 median on a 12-month lease from Aug. 1 (Ithaca Renting):
 
@@ -358,8 +364,6 @@ rows:
 
 Our guide to [hidden costs for first-gen and low-income students](/cornell/money/cornell-first-gen-low-income-hidden-costs/) covers ways to bridge gaps like this one.
 
-The aid office tells students to find housing that costs less over 12 months than Cornell's off-campus housing and dining budget. That page gives no dollar figure for the budget, so ask Financial Aid at 203 Day Hall, 607-255-5145, before you sign (Cornell Financial Aid).
-
 Subletting is the cheapest fix for summer. In a building with four or more units, your landlord [cannot unreasonably refuse a sublet](https://www.nysenate.gov/legislation/laws/RPP/226-B) you request in writing. A landlord who does not answer within 30 days has consented. You stay liable for the rent if your subtenant does not pay. In smaller houses, the lease sets the rules. A Cornell housing license does not allow subletting at all.
 
 ## Which fees can a landlord not charge?
@@ -367,6 +371,8 @@ Subletting is the cheapest fix for summer. In a building with four or more units
 New York law takes several charges off the table. A landlord may not charge any fee to process or accept an application ([RPL 238-a](https://www.nysenate.gov/legislation/laws/RPP/238-A)). A background or credit check costs the lesser of the actual cost or $20. It is free if you hand over a check from the past 30 days. A late fee is allowed only after rent is five days late, capped at $50 or 5% of the rent, whichever is less.
 
 A non-refundable deposit is [unlawful](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits), and so is a cleaning fee charged apart from the deposit, according to [Cornell Law School's tenant guide](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits). A deposit plus any rent paid in advance [cannot exceed one month's rent](https://www.nysenate.gov/legislation/laws/GOB/7-108). The landlord must return it with an itemized list within 14 days after you move out, or lose the right to keep any of it.
+
+This page is general information, not legal advice.
 
 ```tool ithaca-lease-fee-deposit-checker```
 

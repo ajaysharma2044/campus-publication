@@ -7,7 +7,7 @@ primary_query: Balch Hall Cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 66
 rewrites: ''
 readers:
@@ -21,13 +21,13 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall
   title: Balch Hall, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion
   title: A peek inside Balch Hall as renovations near completion, Cornell Student & Campus Life, July 12, 2024
   accessed: '2026-11-10'
 - url: https://www.cornellsun.com/article/2024/10/beginning-at-balch-life-at-north-campuss-newest-dorm
   title: 'Beginning At Balch: Life At North Campus''s Newest Dorm, The Cornell Daily Sun, Oct. 2, 2024'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
@@ -66,7 +66,7 @@ images:
 - Cars unload at the North Balch loading dock, and the hall has its own move-in instructions.
 ```
 
-Balch Hall is Cornell's women-only residence on North Campus. It opened in 1929, holds [230-plus students](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall) in corridor singles and doubles.
+Balch Hall is Cornell's women-only residence on North Campus. It opened in 1929 and holds [230-plus students](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall) in corridor singles and doubles.
 
 Its first full renovation in six decades reopened North Balch in August 2024 and put a thermostat in each room ([Cornell Student & Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)).
 
@@ -75,7 +75,7 @@ kind: cost_table
 title: Balch Hall at a glance
 rows:
   - {label: "Location", value: "North Campus; own loading dock"}
-  - {label: "Opened", value: "1929; reopened 2024 and 2025 after renovation"}
+  - {label: "Opened", value: "1929; reopened in stages from 2024 after renovation"}
   - {label: "Residents", value: "230-plus"}
   - {label: "Room types", value: "Singles and doubles"}
   - {label: "Layout", value: "Corridor"}
@@ -86,7 +86,7 @@ rows:
   - {label: "How to get in", value: "First-year application or spring selection"}
 ```
 
-Source: Cornell Housing hall page, Cornell Student and Campus Life and Housing Rates 2026-2027. Cornell's page gives no street address.
+Source: Cornell Housing hall page, Cornell Student and Campus Life and Housing Rates 2026-2027.
 
 ## What is Balch Hall, and who is it for?
 
@@ -100,9 +100,11 @@ Old pieces went back in. Wood paneling and doors from the original building were
 
 ## What is living in Balch Hall like?
 
-A resident account from the first year after reopening is the best view available. Two first-years in the class of 2028 told The Cornell Daily Sun they felt more connected in an all-women's hall, and one said they would try to stay for all four years ([Cornell Daily Sun](https://www.cornellsun.com/article/2024/10/beginning-at-balch-life-at-north-campuss-newest-dorm)).
+Bathrooms are shared along each corridor, and the hall has lounges, study areas, shared kitchens and laundry. The student-led Balch Hall Council organizes programs and events. Emily Wilcox Gier, an associate professor of practice in nutritional sciences, lives in the hall as its Faculty-in-Residence ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall)).
 
-Two accounts do not make a trend. Ask Balch's Residence Hall Director, named on the hall page, how many upper-level residents stay each year.
+In October 2024, two first-years in the class of 2028 told The Cornell Daily Sun they felt more connected in an all-women's hall, and one said they would try to stay for all four years ([Cornell Daily Sun](https://www.cornellsun.com/article/2024/10/beginning-at-balch-life-at-north-campuss-newest-dorm)).
+
+To mail a resident, write her name and NetID, then 107 Robert Purcell, then her room number and building, then Cornell University, Ithaca, NY 14853 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall)).
 
 ## What does a room in Balch Hall cost?
 

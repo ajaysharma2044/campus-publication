@@ -1,0 +1,174 @@
+{
+ "slug": "cornell-transfer-orientation-move-in",
+ "queue_id": "q-transfer-0012",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Transfer move-in Tue Aug 18, 2026, first-years Aug 17; NSO Aug 18 to 23; Family Orientation Aug 18",
+   "source_url": "brief §2.12 (rows Fall 2026 move-in, Chronicle)",
+   "status": "ok",
+   "note": "brief matches; weekdays recomputed (Aug 17, 2026 is Monday)"
+  },
+  {
+   "claim": "Convocation 6 p.m. Aug 18 at Schoellkopf Field",
+   "source_url": "brief §2.12 Chronicle row",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Returning students move in Aug 21 and 22",
+   "source_url": "brief §2.12 Chronicle row",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Required programs: college programs, Community at Cornell, Orientation Leader meetings, Caring Community; non-traditional students may skip some optional events",
+   "source_url": "brief §2.12 orientation structure",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Family orientation information arrives in early May",
+   "source_url": "brief §2.12",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Engineering: resource fair 1-5 Duffield Atrium; family briefing 3-4:30 Statler Auditorium; advising drop-in Aug 20 8-noon Rhodes 180; MATH CASE Aug 20 9-11 Olin 155 optional, no calculators; Welcome Lunch Aug 21 1-2:30 Upson 116; nothing mandatory",
+   "source_url": "brief §2.12 Engineering row and MATH CASE row",
+   "status": "ok",
+   "note": "all match"
+  },
+  {
+   "claim": "Engineering days Aug 18, 20 and 21",
+   "source_url": "brief §2.12",
+   "status": "ok",
+   "note": "consistent with schedule"
+  },
+  {
+   "claim": "AP Calculus BC needs a 5 for MATH 1910; a 4 earns none",
+   "source_url": "brief §2.6 exam thresholds",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "CASE exams in Chemistry, CS, Mathematics, Physics; language placement languages list",
+   "source_url": "brief §2.12 placement exams",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Add deadline Sep 8, drop/grading-basis Oct 19, classes begin Aug 24, last day of instruction Dec 7",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar",
+   "status": "ok",
+   "note": "brief and registrar page agree"
+  },
+  {
+   "claim": "Fall break Oct 10-13 and Thanksgiving break Nov 25-29, 2026",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar",
+   "status": "ok",
+   "note": "not in brief; confirmed on registrar page"
+  },
+  {
+   "claim": "Six days between Tuesday move-in and Monday's first class",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "Aug 18 to Aug 24 = 6 days"
+  },
+  {
+   "claim": "Student health plan coverage from Aug 1, $1,705 for fall",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Timeslot changeable until August 1; Sat Aug 1",
+   "source_url": "brief §3 confirmation row",
+   "status": "ok",
+   "note": "matches; Aug 1, 2026 is a Saturday (Aug 17 Monday minus 16 days)"
+  },
+  {
+   "claim": "Junior entrants exempt from on-campus requirement; Veterans House is a Program House",
+   "source_url": "brief §3 exemption row; item 27",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "23 transfer veterans entered fall 2026",
+   "source_url": "brief §6 Chronicle extras",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Re-Entry Term Checklist; enrollment steps; college emails early June 2024",
+   "source_url": "brief §2.12 enrollment steps; page written for 2024",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Engineering advising adv_engineering@cornell.edu, (607) 255-7414",
+   "source_url": "brief §2.12 contacts",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Tatkon Center 600 Thurston Ave, South Balch Hall, (607) 255-5808",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Arrival page says Aug 19 and 20, undated, earlier fall",
+   "source_url": "brief item 15",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Cornell College in Mount Vernon, Iowa is a different school",
+   "source_url": "brief scope",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Exam credit request due by last day of instruction of first semester, Dec 7 2026",
+   "source_url": "brief §2.8 and §2.12",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Rachel Eisenhart, ILR transfer, Class of 2027, May 2025 letter: limbo, freshman small talk, feel like a sophomore within weeks",
+   "source_url": "https://www.cornellsun.com/article/2025/05/a-letter-to-incoming-transfer-students-what-no-one-tells-you",
+   "status": "ok",
+   "note": "opened source; author, school, class and content match"
+  },
+  {
+   "claim": "Jessica Silverman recommended Tatkon Center, CUeLinks, West Campus house dinners",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Fall 2020 transfers disconnected; GroupMe 350+; spring 2023 transfers: socials helped, classes full",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Arrive on the 17th and your room is not ready, so the family pays for a hotel night",
+   "source_url": "none",
+   "status": "fixed",
+   "note": "unsourced consequence, not in brief or sources; replaced with 'Plan the trip around the 18th.'"
+  },
+  {
+   "claim": "Beyond-first-week page lists Tatkon Block Party and CU Downtown and advising, Dean of Students, Career Services, ADI, residence hall staff",
+   "source_url": "brief §2.12 / source list",
+   "status": "ok",
+   "note": "not located by exact grep; taken from the page's cited source, low risk"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "cd816486a1dfc1d7e6f6955480ba96e3fe5b7dc62a9381579171c12d6e8c6488"
+}

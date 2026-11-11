@@ -1,0 +1,139 @@
+{
+ "slug": "cornell-transfer-cost-first-year",
+ "queue_id": "q-transfer-0010",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Tuition $73,946 endowed/non-NY and $49,816 NY contract, up 3.76%",
+   "source_url": "brief §2 (cost table)",
+   "status": "ok",
+   "note": "brief §2; 73,946 / 1.0376 = 71,266 consistent"
+  },
+  {
+   "claim": "Mandatory fees $1,024 ($424 + $600)",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief §2; 424 + 600 = 1,024"
+  },
+  {
+   "claim": "Room $12,644 to $16,595; double $13,744; single $15,566; meal plans $7,604 and $7,056; $50 fee",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief §3 and §10.1"
+  },
+  {
+   "claim": "Billed totals $95,218 / $95,770 / $96,318 / $98,140 / $99,169 and NY $71,088 / $71,640 / $72,188 / $74,010 / $75,039",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "Recomputed 74,970 + room + meal plan for each row; NY rows subtract 24,130. All match."
+  },
+  {
+   "claim": "Cost of attendance $99,734 and $75,604; books $1,234; personal $2,182",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "96,318 + 3,416 = 99,734; 72,188 + 3,416 = 75,604"
+  },
+  {
+   "claim": "Cheapest and dearest rooms $3,951 apart; $24,130 gap",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "99,169 - 95,218 = 3,951; 73,946 - 49,816 = 24,130"
+  },
+  {
+   "claim": "Worked examples: $96,368 with $50 fee; $100,119 with health plan; Redbud example $57,814; hall $64,584",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "96,318 + 50; + 3,751; 49,816 + 1,024 + 6,974; 49,816 + 1,024 + 13,744, all recomputed"
+  },
+  {
+   "claim": "Co-op rates per semester and per year; savings $6,770 / $5,110 / $5,108 / $4,314 / $3,782; Redbud triple $5,530",
+   "source_url": "brief §3.6, §10.3",
+   "status": "ok",
+   "note": "Doubled each semester rate and subtracted from 13,744; all match"
+  },
+  {
+   "claim": "Two years: $199,468, $151,208; tuition alone $147,892, $99,632",
+   "source_url": "brief §10.2",
+   "status": "ok",
+   "note": "99,734 x 2; 75,604 x 2; 73,946 x 2; 49,816 x 2"
+  },
+  {
+   "claim": "3.76% rise would add about $2,780",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "73,946 x 0.0376 = 2,780.4"
+  },
+  {
+   "claim": "Hall double about $1,527 a month over nine months",
+   "source_url": "brief §10.8",
+   "status": "ok",
+   "note": "13,744 / 9 = 1,527.1"
+  },
+  {
+   "claim": "Student Health Plan: $1,705 + $2,046 = $3,751; spring entrant $2,046; dependents $4,092/$3,751, $8,184/$7,502",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief; sum recomputed"
+  },
+  {
+   "claim": "Waiver deadlines July 31, 2026 and January 21, 2027",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Aid thresholds $125,000 tuition and $75,000 full cost; 100% need; no merit",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "$85 application fee waiver; CSS Profile fee waived up to $100,000; HESC codes 0174/0175; March 15, 2027; 14% withholding",
+   "source_url": "brief §2.15, §2.16",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Housing: one-year rule, no fee or deposit, ten days from NetID, mid-June confirmations, license cannot be cancelled, Hasbrouck graduate-only, 200 GB internet, Just Bucks $1,000",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "RentCafe Collegetown studio $2,006, 1BR $2,342, 2BR $3,414, Oct 30, 2026, 50+ unit buildings",
+   "source_url": "brief §3.8",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "Collegetown leases leave market up to 16 months before move-in (Sun 2018)",
+   "source_url": "brief §3.8",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "90 credits: 30 lost, tenth semester, about $74,970 more",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "73,946 + 1,024 = 74,970"
+  },
+  {
+   "claim": "Fall 2021 Sun article: admitted first-years and transfers had to commit by May 3 before many aid offers came; one student described her offer as mostly loans",
+   "source_url": "https://cornellsun.com/2021/05/14/admitted-students-await-financial-aid-offers-weeks-after-commitment-deadlines/",
+   "status": "ok",
+   "note": "fixed in place: Opened the article: it says first-year and transfer students were forced to commit without knowing aid status; May 3 appears only in a student's quote, not as the stated deadline. Removed 'by May 3'. 'Mostly in loans' (Ashley Servia '25) confirmed."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell transfer cost",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

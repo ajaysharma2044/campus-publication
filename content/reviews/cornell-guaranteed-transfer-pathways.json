@@ -1,0 +1,223 @@
+{
+ "slug": "cornell-guaranteed-transfer-pathways",
+ "queue_id": "q-transfer-0008",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "No general guaranteed transfer program; Transfer Common App; one college; March 15 for fall entry; April 15 materials; rolling decisions late April to June",
+   "source_url": "brief §2 (admissions rows), §6",
+   "status": "ok",
+   "note": "brief §2 and timeline in §7; page matches"
+  },
+  {
+   "claim": "TC3 Sustainable Farming and Food Systems A.A.S. to CALS Agricultural Sciences B.S.: priority consideration, 3.0 GPA, B or better in all transfer courses, announced August 7, 2025; one year at TC3 (two semesters plus summer) then four semesters at Cornell",
+   "source_url": "brief §5 (TC3 to CALS row)",
+   "status": "ok",
+   "note": "brief §5 carries every value, including the not-guaranteed wording"
+  },
+  {
+   "claim": "Signature Pathway page names TC3 only, 'strong admissions consideration', next step 'Apply for transfer to Cornell'; no Broome or Orange partner listed",
+   "source_url": "brief §5 (Signature Pathway partners row)",
+   "status": "ok",
+   "note": "brief §5 quotes the same wording"
+  },
+  {
+   "claim": "FingerLakes1 called the TC3 route a 'direct path'",
+   "source_url": "brief §8 conflicts table row 29",
+   "status": "ok",
+   "note": "brief lists 'direct transfer path' headlines vs CALS wording"
+  },
+  {
+   "claim": "SUNY Broome business A.S. to Cornell SCE online part-time BPS; first major Organizations, Markets and Society; 45 to 60 transferable credits; at least four years past high school; applications January 2027; first cohort August 2027; online, mostly asynchronous",
+   "source_url": "brief §5 (SUNY Broome and SCE row)",
+   "status": "ok",
+   "note": "all values match the brief row"
+  },
+  {
+   "claim": "BPS is a separate process from residential transfer",
+   "source_url": "brief §5 / §9 (SCE entry)",
+   "status": "ok",
+   "note": "brief: 'not the residential transfer route'"
+  },
+  {
+   "claim": "Example: student who finished high school in 2025 is two years past high school in August 2027, short of four",
+   "source_url": "our own math",
+   "status": "ok",
+   "note": "Recomputed: 2027 minus 2025 = 2 years; 4 required. Correct."
+  },
+  {
+   "claim": "SUNY Broome 2017 2+2 agreements into CALS Food Science and Food Operations and Management from Liberal Arts and Sciences: Science A.S.",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief §5 row, status flagged unverified; page labels it dated"
+  },
+  {
+   "claim": "SUNY Orange agreement revised July 2014, 60-credit maximum, CALS registrar assigns credit after admission",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief §5 row"
+  },
+  {
+   "claim": "CCSF articulation document dated 2012",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief §5 row"
+  },
+  {
+   "claim": "Pathways to Success: Jack Kent Cooke partnership; Monroe CC and Morrisville State 2006; BMCC, Suffolk, Nassau added 2008; more than 55 students enrolled; no GPA or guarantee stated",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief §5 row matches; status unknown flagged and page calls it dated"
+  },
+  {
+   "claim": "Transfer Option: invitation to apply for sophomore transfer after one full-time year elsewhere; 'not an offer of admission'; cannot be deferred; A&S 3.5 each semester, nothing below B-; two semesters or three quarters at regionally accredited school; summer does not count; liberal arts courses; A&S cannot pre-approve courses",
+   "source_url": "brief §3 (A&S TO rows)",
+   "status": "ok",
+   "note": "brief §3 rows, as.cornell.edu"
+  },
+  {
+   "claim": "Transfer Option application: old portal login, no fee, March 15 (2026 pattern); fall 2026 entry due March 15, 2026; page shows 'Application Available Winter 2027'; decisions mid-April, mostly late April or early May",
+   "source_url": "brief §3 and §7",
+   "status": "ok",
+   "note": "brief rows at lines 58, 117, 757 and §6 step 3"
+  },
+  {
+   "claim": "Richard Ballard, Ithaca College Transfer Option, now CALS junior, told the Cornell Daily Sun in 2025 it was described as guaranteed and then not",
+   "source_url": "brief §8 (voice lane)",
+   "status": "ok",
+   "note": "brief attributes the same; 'inconsistently' paraphrased as 'guaranteed and then not' as in brief"
+  },
+  {
+   "claim": "March 2020 College Confidential thread: posters disagreed about a guarantee; some cited a CALS FAQ that applicants who miss requirements are reviewed with regular transfers",
+   "source_url": "https://talk.collegeconfidential.com/t/cornell-class-of-2024-transfer-option/2087946",
+   "status": "ok",
+   "note": "Brief says 2020 only; fetched thread: posts dated March 26-27, 2020; posters split; one poster (chobbi) cites the FAQ line. Page wording 'some cited' is slightly plural for one poster, left as is since the thread's others reference the FAQ wording as unclear; low risk."
+  },
+  {
+   "claim": "Koppelman Group 2023: has never seen one of its own students denied after meeting all requirements",
+   "source_url": "brief §8 line 1043",
+   "status": "ok",
+   "note": "brief matches; page adds the correct caveat"
+  },
+  {
+   "claim": "Iowa Private Transfer Guarantee belongs to Cornell College, Mount Vernon, Iowa; FAFSA code 001856; Cornell University FAFSA 002711, CSS 2098",
+   "source_url": "brief §1, §9 row 7 of search map",
+   "status": "ok",
+   "note": "brief lines 26, 465, 1171"
+  },
+  {
+   "claim": "AI answers borrow California TAG or Iowa terms",
+   "source_url": "brief §9 search map rows 6 and 7",
+   "status": "ok",
+   "note": "brief states AI borrows California TAG or Iowa terms"
+  },
+  {
+   "claim": "Cornell: no preference by school type; about a quarter of transfers from community colleges; admitted transfers generally 3.3 or better",
+   "source_url": "brief §2 / §8 row 9",
+   "status": "ok",
+   "note": "brief lines 93, 976, 1092"
+  },
+  {
+   "claim": "About 100 community college transfers a year on average (Chronicle May 16, 2024); CALS transfer success navigator, ILR and Human Ecology roles, PAVER, CC STEP",
+   "source_url": "brief §5 lines 540-541",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "CALS: associate's degree means junior standing, no sophomore option; general CALS minimum 3.0",
+   "source_url": "brief §3 line 173 and §8",
+   "status": "ok",
+   "note": "brief standing row and GPA line 893"
+  },
+  {
+   "claim": "Credit: about 80% similar, C or better, regionally accredited; cannot be refused for community college or online origin; most colleges cap at 60",
+   "source_url": "brief §3 lines 281-288, 937",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Pass/fail: CALS wants letter grades, so those courses earn no credit there",
+   "source_url": "brief §3 line 179 / line 893",
+   "status": "ok",
+   "note": "brief: CALS wants letter grades, no pass/fail; consequence 'no credit' is a tight inference from 'no pass/fail' credit rule"
+  },
+  {
+   "claim": "NY resident tuition 2026-27: $49,816 contract colleges; $73,946 endowed",
+   "source_url": "brief §4 lines 440-441",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "HESC code 0174 contract, 0175 endowed; CSS Profile and FAFSA by March 15, 2027",
+   "source_url": "brief §4 line 464-465",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Income thresholds: up to $125,000 tuition covered; up to $75,000 full cost of attendance (2026-27)",
+   "source_url": "brief §4 line 472",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Cornell meets 100% of demonstrated need; $85 fee waived automatically if burden and plan to apply for aid",
+   "source_url": "brief §2 lines 59-60, §4",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "EOP and HEOP applicants to CALS email stateprograms@cornell.edu instead of the certification form",
+   "source_url": "brief §4 line 489",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "FAFSA opens October 1, 2026",
+   "source_url": "brief §4 line 464",
+   "status": "ok",
+   "note": "matches"
+  },
+  {
+   "claim": "Timeline: Application, fee, portfolio March 15, 2027; College Report, Academic Evaluation, Mid-Term Report, transcripts April 15, 2027; decisions late April to June 2027",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "matches brief timeline"
+  },
+  {
+   "claim": "CollegeVine advises GPA about 3.5 to near 4.0 and backup schools",
+   "source_url": "brief §8 line 1001",
+   "status": "ok",
+   "note": "brief lists the CollegeVine thread as the forum near-flawless-GPA voice"
+  },
+  {
+   "claim": "Credits above the 60 cap are lost",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "brief 10.4: up to 60 nothing lost, each 15 beyond adds a semester"
+  },
+  {
+   "claim": "$85 fee a Transfer Option holder would pay on the regular Common App",
+   "source_url": "brief §2 line 59",
+   "status": "ok",
+   "note": "brief gives $85"
+  },
+  {
+   "claim": "Page's tuition gap and related-guide blurbs ($49,816 against $73,946)",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "consistent"
+  }
+ ],
+ "beats_top": {
+  "query": "cornell guaranteed transfer",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

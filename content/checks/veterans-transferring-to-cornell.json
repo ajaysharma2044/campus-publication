@@ -1,0 +1,180 @@
+{
+ "slug": "veterans-transferring-to-cornell",
+ "queue_id": "q-transfer-0016",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Military training: Cornell not typically able to award credit; military training and experience are factors in review",
+   "source_url": "brief §6 (admissions veterans page read)",
+   "status": "ok",
+   "note": "Matches brief veterans-page row."
+  },
+  {
+   "claim": "ACE military credit and CLEP: Cornell credit 'No' (Common Data Set 2025-26)",
+   "source_url": "brief §6 (CDS D18)",
+   "status": "ok",
+   "note": "Brief row says CDS D18 ACE 'No', CLEP 'No'. I could not re-open the CDS PDF (WebFetch returns unreadable binary), so I rely on the brief. Admissions and Engineering/ILR rows independently agree no military credit."
+  },
+  {
+   "claim": "College courses 7+ years old generally not eligible; department may decide otherwise; C or better; about 80% similar",
+   "source_url": "brief §6 (registrar credit policy rows)",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Engineering: work/life/military experience not credited; ILR: work or military training not accepted; international military courses not transferable",
+   "source_url": "brief §6/§8 rows",
+   "status": "ok",
+   "note": "Matches brief rows."
+  },
+  {
+   "claim": "Out of school 2+ years may substitute personal or employer recommendation; ILR requires one academic recommendation from a college professor",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "Matches brief rows (ILR fall 2026)."
+  },
+  {
+   "claim": "Transfer applicant: 12 semester hours after high school or full-time enrollment; March 15, 2027 application, April 15, 2027 other materials; $85 fee; essay 250 to 650 words; no SAT/ACT",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "GI Bill or aid package choice; encouraged to apply for aid with Post-9/11; Yellow Ribbon unlimited for undergraduates; change-of-school form; Student Veteran Advisor sva@cornell.edu, 607-255-0308",
+   "source_url": "https://veterans.cornell.edu/faqs",
+   "status": "ok",
+   "note": "Brief row and re-fetched FAQ agree (change-of-school is VA Form 22-1995)."
+  },
+  {
+   "claim": "Student veterans not required to live in campus housing; first-year residency requirements waived",
+   "source_url": "https://veterans.cornell.edu/faqs",
+   "status": "ok",
+   "note": "Fetched FAQ: 'No, but you can choose to reside in campus housing'; 'the first-year residency requirements are waived'."
+  },
+  {
+   "claim": "Post-9/11 holders not required to use benefits at Cornell; still eligible for Pell and federal loans; veteranadmissions@cornell.edu for fee/document waivers",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "Matches brief veterans-page row (brief notes the mailto link is veteranadmission@ without s; page uses the page text)."
+  },
+  {
+   "claim": "FAFSA 2027-28 opened October 1, 2026; CSS Profile and FAFSA due March 15, 2027; aid route meets 100% of demonstrated need",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Average undergraduate age 19.7; 0.6% aged 25 or older (fall 2025)",
+   "source_url": "brief §10 (CDS F1)",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "About 97 undergraduates aged 25+ of 16,138",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Recomputed: 0.006 x 16,138 = 96.8, about 97. Total 16,138 matches brief."
+  },
+  {
+   "claim": "603 transfers and 23 transfer veterans arriving fall 2026 (Chronicle); caption repeats 23",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief rows: 603 transfers; 23 transfer veterans, Chronicle Aug 13, 2026."
+  },
+  {
+   "claim": "Most colleges accept up to 60 credits; at least 60 credits at Cornell; Engineering cap 66; Architecture cap 64",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Matches brief credit-cap rows."
+  },
+  {
+   "claim": "Community college or online course cannot be refused for that reason; US school regionally accredited with syllabus and official transcript",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Accreditation row matches; community-college/online wording is from the registrar page cited."
+  },
+  {
+   "claim": "Example: 30 credits (2017-18) about nine years old at fall 2027 entry; 24 recent credits; 120 - 24 = 96 remaining, about seven semesters at 15; with 30 older credits 66 remain, five semesters",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed: 120-24=96; 96/15=6.4, about seven; 120-54=66; 66/15=4.4, about five. 2017/2018 to Aug 2027 is 9 to 10 years, so 'around nine' holds."
+  },
+  {
+   "claim": "Common mistakes: a 30-credit gap is two extra semesters at 15 credits",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "30/15 = 2."
+  },
+  {
+   "claim": "Hasbrouck family apartments graduate-only; hall double $13,744 a year",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Matches brief housing-rates rows."
+  },
+  {
+   "claim": "Most new transfers must live on campus one year; exemptions: two years on-campus living at prior school or entering as junior/senior; housing license not cancellable by new transfer",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Housing application within ten days of getting NetID; Program Houses chosen by name",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Student Health Plan dependents: spouse/partner or one child $4,092 (July) or $3,751 (August); two or more children $8,184 or $7,502, 2026-27",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "Matches the dependents row; figure block repeats the same values."
+  },
+  {
+   "claim": "Collegetown two-bedroom, buildings of 50+ units, $3,414 a month, updated Oct 30, 2026",
+   "source_url": "brief §11 (RentCafe)",
+   "status": "ok",
+   "note": "Matches the RentCafe row: 2BR $3,414, 50-plus-unit buildings, updated Oct 30, 2026."
+  },
+  {
+   "claim": "Endowed-college tuition $73,946; NY resident contract college $49,816 for 2026-27",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Transfer move-in August 18 in 2026; mid-August 2027 pattern; decisions late April to June",
+   "source_url": "brief §11",
+   "status": "ok",
+   "note": "Matches the fall 2026 move-in row."
+  },
+  {
+   "claim": "Transfer orientation: non-traditional students may skip some optional events; required parts listed",
+   "source_url": "brief §11",
+   "status": "ok",
+   "note": "Matches brief orientation rows."
+  },
+  {
+   "claim": "SCE online part-time degree: at least four years beyond high school, 45 to 60 transferable credits, applications open January 2027, first cohort August 2027, mostly asynchronous",
+   "source_url": "brief §11",
+   "status": "ok",
+   "note": "Matches brief SUNY Broome/SCE rows."
+  },
+  {
+   "claim": "Cornell takes transfers who completed two to four semesters elsewhere; first-semester students cannot apply; discourages junior transfer from four-year schools",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Contact numbers/emails: sva@cornell.edu, finaid@cornell.edu",
+   "source_url": "https://veterans.cornell.edu/faqs",
+   "status": "ok",
+   "note": "sva@ confirmed on the FAQ; finaid@ is Cornell Financial Aid's general address, listed on the cited aid page."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "ccf134eeb977c1e373030ecf2a90989b76ba2e7d70f46f4653715395203a9a89"
+}

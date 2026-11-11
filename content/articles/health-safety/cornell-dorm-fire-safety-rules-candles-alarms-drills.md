@@ -1,13 +1,13 @@
 ---
 title: Cornell dorm fire safety rules and what to check
 mode: answer
-dek: Cornell requires you to keep e-bike batteries out of residence rooms and to unplug appliances at winter closing; check candle, alarm and drill rules with your hall staff.
-meta: 'Cornell dorm fire safety rules: battery charging, unplugging at winter closing, sprinklers and alarms, and how to check fire safety in an Ithaca rental.'
+dek: Cornell bans candles, incense and appliances with open heating elements in its residence halls, allows e-bike charging only in bike rooms and requires everyone out on every fire alarm.
+meta: 'Cornell dorm fire safety rules: the candle and appliance bans, sprinklers, alarms and drills, e-bike charging, winter closing and Ithaca rental checks.'
 primary_query: Cornell dorm fire safety rules
 topic: health-safety
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 267
 rewrites: ''
 readers:
@@ -42,6 +42,18 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus
   title: Living Off Campus, Cornell Student and Campus Life
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads
+  title: Community Living Standards for Undergrads 2026-2027, Cornell Student and Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/what-pack-what-not-bring
+  title: What to Pack and What Not to Bring, Cornell Student and Campus Life
+  accessed: '2026-11-11'
+- url: https://ehs.cornell.edu/campus-health-safety/fire-and-life-safety/annual-fire-safety-report-logs/cornell-university-annual-fire-safety-report
+  title: Annual Fire Safety Report 2026, Ithaca Campus, Cornell Environment, Health and Safety
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue
+  title: 301 College Avenue, Cornell Student and Campus Life
+  accessed: '2026-11-11'
 images: []
 redirect_from:
   - /cornell/getting-around/cornell-dorm-fire-safety-rules-candles-alarms-drills/
@@ -49,7 +61,7 @@ redirect_from:
 ---
 
 
-Cornell tells students not to charge e-bike or e-scooter batteries in residential rooms, offices or academic buildings, and to unplug every appliance except the fridge when the halls close for winter break. For other fire rules, such as candles and alarms, ask your hall staff for your building's housing license.
+Cornell bans candles, incense and open flames in its residence halls. It also bans appliances with open heating elements, such as toasters, hot pots and rice cookers ([Cornell Community Living Standards](https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads)). Everyone must leave the building whenever the fire alarm sounds.
 
 ```glance
 - Do not charge e-bike or e-scooter batteries in residence rooms.
@@ -60,7 +72,7 @@ Cornell tells students not to charge e-bike or e-scooter batteries in residentia
 
 ## What does Cornell say about charging batteries?
 
-Do not charge e-bike or e-scooter batteries in residential rooms, offices or academic buildings. The rule comes from Cornell's February 2024 guidance on lithium-ion batteries, the rechargeable batteries in e-bikes and scooters ([Cornell Facilities and Campus Services](https://fcs.cornell.edu/sites/default/files/2025-02/Micro-Mobility%20E-Bikes_Litium-Ion%20Batteries%20Guidance%20Document%20v.2%20final%2002.09.2024.pdf)). Bike storage is limited to external racks or sprinklered bike rooms ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/bicycle-registration-storage)). Rules on e-bike size, registration and where to ride are in the [bike, e-bike and scooter guide](/cornell/getting-around/cornell-bike-ebike-scooter-rules-theft/).
+Do not charge e-bike or e-scooter batteries in residential rooms, offices or academic buildings. The rule comes from Cornell's February 2024 guidance on lithium-ion batteries, the rechargeable batteries in e-bikes and scooters ([Cornell Facilities and Campus Services](https://fcs.cornell.edu/sites/default/files/2025-02/Micro-Mobility%20E-Bikes_Litium-Ion%20Batteries%20Guidance%20Document%20v.2%20final%2002.09.2024.pdf)). In residence halls, e-bikes and e-scooters can be stored and charged only in the bike room. They must plug straight into a wall outlet ([Cornell Community Living Standards](https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads)). Bike storage is limited to external racks or sprinklered bike rooms ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/bicycle-registration-storage)). Rules on e-bike size, registration and where to ride are in the [bike, e-bike and scooter guide](/cornell/getting-around/cornell-bike-ebike-scooter-rules-theft/).
 
 ## What are the rules at winter closing?
 
@@ -68,18 +80,28 @@ Unplug all appliances except refrigerators, empty community fridges, and take pa
 
 ## Do Cornell dorms have sprinklers and alarms?
 
-Cornell residence halls are part of its housing system, and newer work shows what to expect. Before 301 College Avenue opened in fall 2026, Cornell installed a new sprinkler and fire alarm system, card access and new locks ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed)). For other halls, the pages behind this guide do not list sprinkler or alarm details, drill schedules or false-alarm penalties. Ask your residence hall director where the alarm panel and exits are on move-in day.
+Yes. Cornell's 2026 Annual Fire Safety Report lists sprinklers in every undergraduate residence hall. Each hall holds four evacuation drills a school year, and the Cornell 911 Center monitors the fire alarms ([Cornell Environment, Health and Safety](https://ehs.cornell.edu/campus-health-safety/fire-and-life-safety/annual-fire-safety-report-logs/cornell-university-annual-fire-safety-report)). Before 301 College Avenue opened in fall 2026, Cornell installed a new sprinkler and fire alarm system, card access and new locks ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed)).
+
+After an alarm, stay out until university staff say you can go back in. Anyone slow to leave gets a conduct referral. Evacuation maps are posted at elevators, stairs and exits. Pulling a false alarm is prohibited. So is tampering with sprinklers, extinguishers or smoke detectors, and that includes covering a detector. Nothing can sit within 18 inches of the ceiling, a sprinkler or a smoke detector. Nothing can hang from sprinkler pipes. Beds cannot go directly under a sprinkler head or within 3 feet of a smoke or heat detector ([Cornell Community Living Standards](https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads)).
 
 ## Are candles, hot plates and similar items allowed?
 
-The sources behind this guide do not list prohibited items for Cornell residence halls, including candles, incense and cooking appliances. Check your housing license and your hall's rules before you pack, and ask hall staff if an item is not named. Newer buildings such as 301 College Avenue have kitchenettes with a fridge and microwave, according to its [Cornell housing page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue).
+No. The ban covers wick and wickless candles, incense and any open flame ([Cornell Community Living Standards](https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads)). Cornell's packing list adds candle and wax warmers and incense burners. It also rules out small kitchen appliances ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/what-pack-what-not-bring)).
+
+Groups of students can ask to burn candles for religious reasons. They need a Candle Open Flame Permit from the hall director at least two weeks ahead. The candles must burn in a common area, not a student room. The hall director must be there, with a fire extinguisher close by ([Cornell Environment, Health and Safety](https://ehs.cornell.edu/campus-health-safety/fire-and-life-safety/annual-fire-safety-report-logs/cornell-university-annual-fire-safety-report)).
+
+Any appliance with an open heating element is banned. That includes electric pots and skillets, toasters, toaster ovens, hot pots, rice cookers and clothes irons. Air fryers, humidifiers and lamps with open halogen or fluorescent bulbs are also on the list. So are space heaters and other appliances with exposed or immersion coils, unless Cornell supplies them. Extension cords and multi-plug adapters are out, but a UL-listed outlet strip with a breaker switch is allowed. Coffee makers with automatic shutoff are allowed in rooms. Appliances with an enclosed heating element, a thermostat and automatic shutoff are allowed in kitchenettes only ([Cornell Community Living Standards](https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads)). Newer buildings such as 301 College Avenue have kitchenettes with a fridge and microwave, according to its [Cornell housing page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue).
+
+String lights need a UL label. They must hang loosely from hooks, stay at least 18 inches below the ceiling and never plug into each other. Fireworks and flammable substances such as lighter fluid, propane and spray paint are not allowed. Smoking and vaping are prohibited in every residence hall. To smoke or vape, stand at least 25 feet from any building ([Cornell Community Living Standards](https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads)).
+
+The Fire Marshal inspects rooms regularly, and fines follow when violations are not fixed ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/what-pack-what-not-bring)). Banned items can be confiscated during an inspection. Hall staff hold them for seven calendar days after emailing you. You must then pick them up and either ship them or take them off campus ([Cornell Community Living Standards](https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads)).
 
 ```reader "If you're a first-year"
-Ask your resident advisor about candles, string lights and cooking appliances during your first floor meeting. The [first-year start page](/start/first-year/) has a packing list and move-in contacts.
+At your first floor meeting, ask your resident advisor to show you the nearest exits and your floor's posted evacuation map. The [first-year start page](/start/first-year/) has a packing list and move-in contacts.
 ```
 
 ```reader "If you're a parent"
-Send e-bike batteries and heaters only after the hall confirms they are allowed. The [parent start page](/start/parent/) lists who to call.
+Check the banned list above before you buy or ship dorm gear. A space heater, candle warmer or air fryer can be confiscated in a fire safety inspection. The [parent start page](/start/parent/) lists who to call.
 ```
 
 ## How do I check fire safety in an Ithaca apartment?
@@ -92,8 +114,8 @@ Cornell also points renters to GradGuard renters insurance, which covers fire an
 
 ## What to do next
 
-1. Charge batteries outside your room.
-2. Ask hall staff for the written candle, appliance and alarm rules.
+1. Charge e-bike and e-scooter batteries in your hall's bike room, not your room.
+2. Check your packing list against the banned items above.
 3. Unplug appliances before winter closing.
 4. For an apartment, check the fire safety tool and the Certificate of Compliance.
 

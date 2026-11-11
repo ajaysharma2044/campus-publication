@@ -1,0 +1,85 @@
+{
+ "slug": "transfer-option",
+ "queue_id": "q-transfer-0039",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Transfer Option is an invitation to apply for sophomore transfer after one full-time year elsewhere; not an offer of admission; cannot be deferred (A&S)",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief §2.5 row 'What it is (A&S)' matches."
+  },
+  {
+   "claim": "October 1, 2026: FAFSA opens for 2027-28; file the CSS Profile as soon as possible after it",
+   "source_url": "brief §2.15 and §11 key dates",
+   "status": "ok",
+   "note": "Brief: FAFSA opens October 1, 2026, aid year 2027-28, CSS 'as soon as possible'."
+  },
+  {
+   "claim": "Winter 2027: the Transfer Option page says 'Application Available Winter 2027'",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "Brief row 'TO next cycle label' matches."
+  },
+  {
+   "claim": "March 15 (2026 pattern): Transfer Option application and aid forms due; Mid-Term Report may come later",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "Brief 'TO deadline' row: March 15, 2026, aid also March 15, Mid-Term Report may arrive later."
+  },
+  {
+   "claim": "Mid-April onward (2026 pattern): TO decisions roll in, most late April or early May",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "Brief decision timing row for Transfer Option."
+  },
+  {
+   "claim": "Within ten days of getting your NetID: apply for housing through the Housing and Dining Portal",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "Brief housing row matches."
+  },
+  {
+   "claim": "Dec 7 in 2026 last day of instruction; deadline to request AP, IB or other exam credit in writing from the college registrar",
+   "source_url": "brief §2.8 and §11",
+   "status": "ok",
+   "note": "Brief matches (external transfers, registrar, written request)."
+  },
+  {
+   "claim": "Timeline tool link text 'Cornell transfer timeline: your dates through move-in' (two places)",
+   "source_url": "content/tools/cornell-transfer-timeline/tool.md",
+   "status": "ok",
+   "note": "fixed in place: The tool's real title is 'Cornell transfer timeline: your dates, Nov 2026 to Dec 2027'; changed both link texts to match."
+  },
+  {
+   "claim": "Timeline tool covers every step from now to your first December at Cornell, and has a Transfer Option choice",
+   "source_url": "content/tools/cornell-transfer-timeline/tool.md",
+   "status": "ok",
+   "note": "Tool meta says Nov 2026 to Dec 2027 and lists Transfer Option holders as readers."
+  },
+  {
+   "claim": "Guide titles and what each covers (transfer guide, Transfer Option guide, GPA by college, A&S rules, AP/IB credit, friends, guaranteed pathways, housing)",
+   "source_url": "guide frontmatter titles and metas",
+   "status": "ok",
+   "note": "Titles match the guides' own titles; descriptions are consistent with their metas."
+  },
+  {
+   "claim": "Removed line 'Not in the brief: the fall 2027 Transfer Option deadline, ...'",
+   "source_url": "n/a",
+   "status": "ok",
+   "note": "fixed in place: A page may not tell the reader that our research lacks something (publish lint). Cut the line; no heading or glance promise depended on it."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell transfer option",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

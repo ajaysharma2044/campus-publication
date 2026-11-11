@@ -1,0 +1,145 @@
+{
+ "slug": "cornell-transfer-course-enrollment-academics",
+ "queue_id": "q-transfer-0013",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Fall 2026: classes began Aug 24, add deadline Sep 8, drop and grading-basis deadline Oct 19, last day of instruction Dec 7, finals Dec 11 to 19",
+   "source_url": "brief §6 (registrar calendar rows)",
+   "status": "ok",
+   "note": "Brief rows match the page exactly."
+  },
+  {
+   "claim": "15 days from first class to add deadline",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Aug 24 to Sep 8 is 15 days (7 left in August plus 8)."
+  },
+  {
+   "claim": "Transfer move-in Aug 18, orientation Aug 18 to 23, 2026",
+   "source_url": "brief §6 (orientation rows)",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Engineering optional MATH CASE Aug 20, 2026, 9 to 11 a.m., Olin 155, no calculators; advising drop-in 8 a.m. to noon Rhodes 180",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Exam-credit request in writing by last day of instruction (Dec 7, 2026); College Board code 2098",
+   "source_url": "brief §2.8, §6",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "More than 9,000 course offerings; CASE exams in four subjects; online placement for eight languages; textbook flat fee in Canvas",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Eight languages counted in the brief's list."
+  },
+  {
+   "claim": "Credit caps: 60 in most colleges including exam credit, Engineering 66, Architecture 64; 80% similarity, C or better; quarter credit at two-thirds",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Arriving with 90 credits loses 30; ten semesters in all",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "Recomputed: 60 allowed credits plus 60 at Cornell is 120, and 120 divided by 15 is 8; the brief's figure is 90 plus 60 earned at Cornell, which is 10 semesters at 15 credits. Matches the brief."
+  },
+  {
+   "claim": "Example: 45 quarter credits become 30 semester credits; a 3-credit quarter course adds 2",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "45 x 2/3 = 30; 3 x 2/3 = 2. The A&S 4-credit minimum for quarter courses is in the A&S transfer page cited."
+  },
+  {
+   "claim": "2,391 sections; 2 to 19: 1,266; 20 to 49: 644; 50 to 99: 295; 100+: 186; 12 to 1 ratio",
+   "source_url": "brief §CDS (class sections row)",
+   "status": "ok",
+   "note": "Recomputed 345+921=1,266 and 321+180+143=644; the four bins sum to 2,391."
+  },
+  {
+   "claim": "Shares 52.9%, 26.9%, 12.3%, 7.8%",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "1,266/2,391=52.95%, 644/2,391=26.93%, 295/2,391=12.34%, 186/2,391=7.78%. Page's rounded values are right."
+  },
+  {
+   "claim": "Full-time status starts at 10 credits",
+   "source_url": "brief §6 (CDS G2)",
+   "status": "ok",
+   "note": "Brief row; the brief itself notes it was not re-verified because the CDS PDF was unreadable."
+  },
+  {
+   "claim": "College contacts table (emails, (607) 255-7414, 607-254-3451, 180 Statler Hall) and the 2024 timing pattern",
+   "source_url": "brief §3/§6 college contacts rows",
+   "status": "ok",
+   "note": "All contacts match the brief."
+  },
+  {
+   "claim": "Engineering: stay in major one academic year; exam credit only at 5 on AP Calc BC, Chem, Physics C Mechanics; PHYS 1110 lab; C- earns no credit; summer credit only with fewer than 12 Cornell credits",
+   "source_url": "brief §2.4, §10.10",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "A&S: up to 12 summer credits elsewhere, none in fall or spring; external transfers may apply to move colleges only after two semesters; Hotel internal process excludes transferees",
+   "source_url": "brief §2 and §10.10",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Abbey Yang '25 said her advisor told her biology credits should count but her DUST audit did not show them (Sun Jan 2023)",
+   "source_url": "https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/",
+   "status": "ok",
+   "note": "Opened the story: Abbey Yang '25 matches the page. The brief records it unnamed."
+  },
+  {
+   "claim": "One spring 2023 transfer planned an 18-credit semester; closed classes at add/drop because current students pre-enrolled in November",
+   "source_url": "https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/",
+   "status": "ok",
+   "note": "Opened the story: Naiya Patel '25 planned 18 credits; students said classes were closed; pre-enrollment began in November 2022."
+  },
+  {
+   "claim": "Attributions: Eve Iulo (100-plus lecture after a class of 73), Alexia Kim (organic chemistry prelims, 12-page essays, 2019), Jessica Silverman (UCLA quarters to semesters), 2016 College Confidential UVA poster (hedged, secondhand)",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Wording matches the brief's attributions and adds nothing."
+  },
+  {
+   "claim": "Counts: closed classes, credit doubts and lagging audit in 4 sources from 2016 to 2025; rigor, size, cold and geography in 5 sources from 2018 to 2024",
+   "source_url": "brief §7 theme table",
+   "status": "ok",
+   "note": "Matches the brief's counts and periods."
+  },
+  {
+   "claim": "Community college: CC graduates in 2024 felt behind; CALS navigator, ILR and Human Ecology roles, PAVER, CC STEP; four graduates profiled",
+   "source_url": "brief §7.7",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Most colleges emailed new transfers in June in 2024",
+   "source_url": "brief §3 college contacts rows",
+   "status": "ok",
+   "note": "Matches the college links page as recorded in the brief."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell transfer course enrollment",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

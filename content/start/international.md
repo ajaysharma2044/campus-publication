@@ -1,18 +1,18 @@
 ---
 title: "International students at Cornell: start here"
-meta: "For international students at Cornell: the guides to read, in order, on flying in, breaks and renting an Ithaca apartment from abroad, with key dates."
+meta: "For international students at Cornell: guides in order on transferring in, aid and credit, flying in, breaks and renting in Ithaca, with key dates."
 topic: getting-around
-topics: [getting-around, housing]
-updated: 2026-11-08
+topics: [getting-around, housing, transfer]
+updated: 2026-11-11
 queue_id: q-getting-around-0075
-queue_ids: [q-housing-0085]
+queue_ids: [q-housing-0085, q-transfer-0041]
 kind: start_here
 readers: [international]
 brief: intel/getting-around/brief.md
-briefs: [intel/off-campus-housing/brief.md]
+briefs: [intel/off-campus-housing/brief.md, intel/transfer/brief.md]
 ---
 
-You are coming to Cornell from another country, probably with no car, no SSN and often no US credit history. Your visa appointment can come no more than 120 days before your program starts, so you may sign an Ithaca lease from abroad, sight unseen. Two choices come first: where to live and how to get here, then whether to go home or stay in Ithaca when breaks are too short for the trip.
+You are coming to Cornell from another country, with no US citizenship or approved permanent residency, probably no car, no SSN and often no US credit history. If you are transferring from another college, your first deadline is aid: the CSS Profile is due March 15, and missing it closes Cornell aid for good; after admission you move your F-1 or J-1 record to Cornell. Then come the same choices every international student faces: where to live, how to get here, and whether to go home or stay in Ithaca when breaks are too short for the trip.
 
 ## Read in this order: Getting around
 
@@ -63,8 +63,28 @@ You are coming to Cornell from another country, probably with no car, no SSN and
 - Winter break: ask housing@cornell.edu if you need a campus option over the break.
 - Aug 31 of the following year: your free first-year TCAT rides end if you started in the fall.
 
+## Read in this order: Transfer
+
+1. [Transferring to Cornell: the complete guide for fall 2027](/transfer/transferring-to-cornell-guide/): the whole topic on one page, from who may apply to credits, housing and cost. Read it first, before you pick a college.
+2. [International transfer to Cornell: aid, credit and F-1 steps](/transfer/international-transfer-to-cornell/): what changes for you, from the need-aware aid rule to English scores and moving your visa record. Read it next; it is written for you.
+3. [Cornell financial aid for transfers: need-based, no merit](/transfer/cornell-financial-aid-transfer-students/): which forms to file, when, and what aid covers. Read it before October ends, so the CSS Profile is not left to March.
+4. [How many credits transfer to Cornell? Caps and evaluation](/transfer/cornell-transfer-credit-how-many-credits-transfer/): which courses from a university abroad can count and how many credits you keep. Read it while you plan your courses for the year you apply.
+5. [Cornell transfer cost 2026-27: $95,218 to $99,169 billed](/transfer/cornell-transfer-cost-first-year/): the bill for the required year on campus, line by line. Read it before you file the CSS Profile, so you know the number aid has to meet.
+6. [Cornell transfer deadlines for fall 2027 and decision dates](/transfer/cornell-transfer-deadlines-decision-dates/): every deadline from the application to the decision. Read it in January, then keep it open until you hear back.
+7. [JFK to Cornell for international students, plus breaks](/getting-around/getting-to-cornell-international-students/): the trip from landing to campus. Read it once you are admitted and your SEVIS record has moved.
+
+## Dates to watch: Transfer
+
+- October 1, 2026 onward: file the CSS Profile as soon as possible.
+- March 15, 2027: the application, the $85 fee and the CSS Profile; miss the aid deadline and Cornell aid is closed for your whole undergraduate career.
+- April 15, 2027: all other materials, with official English translations of anything not in English.
+- Early April 2027: aid offers, "tentatively," for those already admitted.
+- Late April through June 2027: decisions; then the F-1 or J-1 SEVIS transfer, and a housing application within ten days of getting your NetID.
+- Mid-August (2026 pattern: Aug 18 for transfers): move-in and orientation.
+
 ## When you're done
 
 Bookmark the [Getting around topic page](/getting-around/) for new guides and date changes.
 If you also fly home over breaks, read [Flying home from Cornell: airports, rides, bags, timing](/getting-around/flying-home-from-cornell-airports-rides/) next.
 For housing, the [pillar guide](/housing/cornell-off-campus-housing-guide/) holds the rest, and the [housing section](/housing/) lists every guide.
+For transferring, the [pillar guide](/transfer/transferring-to-cornell-guide/) holds the rest, and the [transfer section](/transfer/) lists every guide.

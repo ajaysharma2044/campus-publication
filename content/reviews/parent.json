@@ -1,65 +1,71 @@
 {
  "slug": "parent",
- "queue_id": "q-housing-0088",
+ "queue_id": "q-transfer-0043",
  "verdict": "pass",
  "fact_check": [
   {
-   "claim": "Jan 31 is the last day returning juniors and seniors can cancel a Cornell license for $50; it rises to $500 from Feb 1",
-   "source_url": "brief §3 (license cancellation fees) and §4.1 January/February",
+   "claim": "Transfer path: six guides in order, with titles and what each covers (pillar, cost, aid, housing, orientation, deadlines)",
+   "source_url": "content/articles/transfer/*.md titles and metas",
    "status": "ok",
-   "note": "Brief: through Jan 31 $50; Feb 1 to Mar 31 $500. Same value, same group (returning juniors and seniors)."
+   "note": "Titles and metas of the five transfer articles match the link text and descriptions."
   },
   {
-   "claim": "Apr 6 (in 2026): the Cornell housing application is due, including exemption requests",
-   "source_url": "brief §3 (2026-27 housing application deadline) and §4.1 April",
+   "claim": "Item 4 transfer housing guide named but not linked",
+   "source_url": "content/articles/housing/cornell-transfer-housing.md",
    "status": "ok",
-   "note": "Brief: AY 2026-27 application due April 6, 2026, exemption requests included. The page also flags that the 2027 date is not in the brief."
+   "note": "fixed in place: Guide exists with the same title; linked it as /housing/cornell-transfer-housing/ (was plain text 'on the housing section')."
   },
   {
-   "claim": "On or about Aug 1: most leases start; the landlord must offer a move-in inspection before your student moves in",
-   "source_url": "brief §4.1 August and §6 (GOL 7-108)",
+   "claim": "Cost title: $95,218 to $99,169 billed",
+   "source_url": "brief §10.1",
    "status": "ok",
-   "note": "Brief: most 12-month leases start about Aug 1; landlord must offer an inspection after signing and before occupancy."
+   "note": "Brief: $95,218 (triple) to $99,169 (super single), 2026-27 price list; matches the cost article's title."
   },
   {
-   "claim": "July 31: most leases end, and the deposit or an itemized statement is due within 14 days of moving out",
-   "source_url": "brief §4.1 July and GOL 7-108 row",
+   "claim": "March 15, 2027: CSS Profile and FAFSA due with the application",
+   "source_url": "brief §aid timeline",
    "status": "ok",
-   "note": "Brief: most Ithaca leases expire July 31; deposit or itemized statement within 14 days after the tenant vacates."
+   "note": "Brief: CSS Profile and FAFSA by March 15, 2027 for fall 2027 transfers."
   },
   {
-   "claim": "September to November of sophomore year: groups that want Collegetown sign for junior year, and the first month and deposit may be due at signing",
-   "source_url": "brief §4.1 (late Aug to Nov rows) and §6 step 5",
+   "claim": "Early April 2027: official aid offers, tentatively",
+   "source_url": "brief §timeline",
    "status": "ok",
-   "note": "Brief: students report signing in October of sophomore year; the rush runs late August to November; first month plus deposit due at signing (209 Stewart, Cityview). The page says 'may', which matches."
+   "note": "Brief: tentatively early April for those already admitted."
   },
   {
-   "claim": "Cornell housing cancellation fee calculator exists and computes cancellation cost on a given date for a student who signs a lease instead",
-   "source_url": "brief §3 (license cancellation fee schedule)",
+   "claim": "Mid-June: housing confirmation or guaranteed waitlist with weekly updates",
+   "source_url": "brief §housing",
    "status": "ok",
-   "note": "The tool's check and review files exist under content/checks and content/reviews; the schedule it uses is the brief's. The tool page itself is checked under its own row."
+   "note": "Matches brief."
   },
   {
-   "claim": "Guide titles and what each housing guide covers (pillar, parents' guide, off-campus vs dorm 'rent per person set against Cornell's double', residential requirement and exemptions, landlord checking, roommates and joint liability, deposit cap/14 days/banned fees, renters insurance need and cost)",
-   "source_url": "content/articles/housing/*.md titles and metas",
+   "claim": "Early July fall tuition bill (2024 example: generated July 12, due August 7); housing billed July or August",
+   "source_url": "brief §billing",
    "status": "ok",
-   "note": "All eight linked slugs exist and each link text matches the guide's frontmatter title exactly. Each one-line description agrees with that guide's meta (e.g. the double compared with rent per person; deposit capped at one month, 14 days; renters insurance recommended, not required)."
+   "note": "Matches brief."
   },
   {
-   "claim": "Parents often pay or co-sign, cannot see the Cornell housing marketplace without a NetID",
-   "source_url": "brief §6 and reader map",
+   "claim": "July 31 (2026 pattern): Student Health Plan waiver deadline",
+   "source_url": "https://studenthealthbenefits.cornell.edu/node/179",
    "status": "ok",
-   "note": "Framing statement in the intro, consistent with the brief's parent guidance; it carries no number or date."
+   "note": "fixed in place: Page shows New Admit Fall Start waiver deadline 7/31/2026. Page does not mention family coverage; the brief says 'proof of comparable coverage'. Changed 'with your family coverage' to 'with proof of comparable coverage (fall new admits)'."
   },
   {
-   "claim": "Not in the brief: the 2027 date for the Cornell housing application",
-   "source_url": "brief §3",
+   "claim": "Mid-August (Aug 18 in 2026, a day after first-years): transfer move-in and Family Orientation",
+   "source_url": "brief §orientation",
    "status": "ok",
-   "note": "Brief lists only the April 6, 2026 date, so the page's Not-confirmed line is accurate."
+   "note": "Brief: first-year Aug 17, transfer Aug 18, Family Orientation Aug 18."
+  },
+  {
+   "claim": "'Not in the brief: ...' line in the Transfer dates section",
+   "source_url": "n/a",
+   "status": "ok",
+   "note": "fixed in place: Page may not say what our research lacks; removed the line (enrollment deposit deadline and 2027 move-in date). No promise elsewhere depends on it."
   }
  ],
  "beats_top": {
-  "query": "cornell off campus housing parent",
+  "query": "cornell transfer parents",
   "top_url": "",
   "better": "n/a",
   "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
@@ -68,6 +74,6 @@
  "fixes": [],
  "brief_updates": [],
  "core_answer": "right",
- "reviewed_at": "2026-11-08",
+ "reviewed_at": "2026-11-11",
  "checked_by": "scripts/v3/check.sh"
 }

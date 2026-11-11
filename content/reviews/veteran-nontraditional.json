@@ -1,0 +1,79 @@
+{
+ "slug": "veteran-nontraditional",
+ "queue_id": "q-transfer-0045",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Before you apply, contact the Veterans Admissions Team",
+   "source_url": "brief §2 (Veterans row)",
+   "status": "ok",
+   "note": "Brief lists a dedicated Veterans Admissions Team on the transfer applicants page."
+  },
+  {
+   "claim": "March 15, 2027: Transfer Common App, fee or waiver, CSS Profile and FAFSA due",
+   "source_url": "brief §2.2, §2.15",
+   "status": "ok",
+   "note": "Brief: March 15 covers application, fee; aid forms March 15, 2027 for fall 2027."
+  },
+  {
+   "claim": "April 15, 2027: all other materials due, including recommendation and Mid-Term Report",
+   "source_url": "brief §2.2, timeline",
+   "status": "ok",
+   "note": "Brief: April 15 for all other materials; Mid-Term Report April 15 (ILR asks March 15 if possible)."
+  },
+  {
+   "claim": "Within ten days of getting NetID: apply for housing",
+   "source_url": "brief §2.10",
+   "status": "ok",
+   "note": "Brief cites the SCL new undergrad application page, same rule."
+  },
+  {
+   "claim": "Mid-August 2027 (2026 pattern: August 18 for transfers): move-in and New Student Orientation",
+   "source_url": "brief §6 (Aug 18 move-in)",
+   "status": "ok",
+   "note": "Brief and orientation guide meta give Aug 18, 2026 for transfers; page labels it a 2026 pattern."
+  },
+  {
+   "claim": "Credits guide covers caps and the course-age limit",
+   "source_url": "brief §3; guide body line 196",
+   "status": "ok",
+   "note": "Guide body says courses seven or more years old generally not eligible; meta covers caps."
+  },
+  {
+   "claim": "Personal or employer recommendation can replace the Academic Evaluation (out of school two-plus years)",
+   "source_url": "brief application table row 7",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Veterans House: Program House you can choose by name on the housing application",
+   "source_url": "content/articles/housing/veterans-house-cornell.md",
+   "status": "ok",
+   "note": "fixed in place: That guide says it needs an extra application inside the housing application. Reworded the list item and the dates line to say so."
+  },
+  {
+   "claim": "Junior guide for four semesters or more done",
+   "source_url": "brief §2 eligibility",
+   "status": "ok",
+   "note": "Brief: four semesters = junior standing; guide meta consistent."
+  },
+  {
+   "claim": "Guide descriptions (main guide, veterans guide, orientation, making friends, four tools)",
+   "source_url": "guide titles and metas",
+   "status": "ok",
+   "note": "Each description matches the guide's own title and meta."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell veteran transfer",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

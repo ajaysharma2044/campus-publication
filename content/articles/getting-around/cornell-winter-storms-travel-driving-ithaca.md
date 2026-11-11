@@ -5,7 +5,7 @@ primary_query: Cornell Ithaca winter driving I-81 Route 13 snow tips
 topic: getting-around
 school: cornell-university
 type: scenario
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0038
 kind: spoke
 subject: Cornell Arts Quad snow
@@ -25,19 +25,16 @@ tools:
 sources:
 - url: https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs
   title: Before classes were cancelled, Cornellians attempted to return to Ithaca at all costs, The Cornell Daily Sun, December 2019
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2019/11/30/under-heavy-snow-forecast-university-mum-on-class-cancellation
   title: Under heavy snow forecast, University mum on class cancellation, The Cornell Daily Sun, November 30, 2019
   accessed: '2026-11-08'
 - url: https://cornellsun.com/2019/01/20/canceled-flights-and-impromptu-housing-winter-storm-frustrates-students-travel-plans-to-cornell/
   title: 'Canceled flights and impromptu housing: winter storm frustrates students'' travel plans to Cornell, The Cornell Daily Sun, January 20, 2019'
-  accessed: '2026-11-08'
-- url: https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899
-  title: Air transportation to and from Ithaca, College Confidential, 2017
-  accessed: '2026-11-08'
-- url: https://talk.collegeconfidential.com/t/traveling-to-and-from-cornell/1599797
-  title: Traveling to and from Cornell, College Confidential, 2014
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
+- url: https://cornellsun.com/2021/02/07/winter-storm-frustrates-students-move-in-plans
+  title: Winter Storm Frustrates Students' Move-In Plans, The Cornell Daily Sun, February 7, 2021
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2022/11/21/dont-let-it-snow-students-express-concerns-over-driving-conditions-as-temperatures-fall/
   title: 'Don''t let it snow: students express concerns over driving conditions as temperatures fall, The Cornell Daily Sun, November 21, 2022'
   accessed: '2026-11-07'
@@ -47,6 +44,12 @@ sources:
 - url: https://www.511ny.org
   title: 511NY traffic and travel information, NYSDOT
   accessed: '2026-11-07'
+- url: https://www.ny.gov/safe-winter-driving/safe-winter-driving-campaign
+  title: Safe Winter Driving Campaign, New York State
+  accessed: '2026-11-11'
+- url: https://cityofithacany.gov/DocumentCenter/View/12559
+  title: Snowplowing Basics and Frequently Asked Questions, City of Ithaca Department of Public Works
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules
   title: Winter and Break Parking Rules, Cornell Transportation and Delivery Services
   accessed: '2026-11-08'
@@ -62,6 +65,9 @@ sources:
 - url: https://www.cornellsun.com/article/2023/11/inside-ourbus-cornellians-preferred-method-of-travel
   title: Inside OurBus, Cornellians' preferred method of travel, The Cornell Daily Sun, November 2023
   accessed: '2026-11-07'
+- url: https://www.greyhound.com/manage-my-booking/cancellation-policy
+  title: Cancellation Policy, Greyhound
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations
   title: C2C Policies and Regulations, Cornell Transportation and Delivery Services
   accessed: '2026-11-08'
@@ -82,13 +88,13 @@ sources:
   accessed: '2026-11-08'
 - url: https://www.flyithaca.com/parking
   title: Parking, Ithaca Tompkins International Airport
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.syrairport.org/
   title: Syracuse Hancock International Airport
   accessed: '2026-11-08'
 - url: https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny
   title: Ithaca to Syracuse Airport bus, OurBus
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.ithaca.edu/orientation/family-and-guest-resources/transportation
   title: Family and guest transportation, Ithaca College
   accessed: '2026-11-08'
@@ -101,6 +107,9 @@ sources:
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and Passes, Cornell Transportation and Delivery Services
   accessed: '2026-11-08'
+- url: https://assembly.cornell.edu/resolutions/student-assembly/sa-r18-2025-2026
+  title: 'SA Resolution 18 (2025-2026): Approving Budget for Finals Week Airport Shuttle, Cornell Student Assembly'
+  accessed: '2026-11-11'
 - url: https://assembly.cornell.edu/resolutions/student-assembly/sa-r83-2025-2026
   title: SA Resolution 83 (2025-2026), Cornell Student Assembly
   accessed: '2026-11-08'
@@ -109,10 +118,10 @@ sources:
   accessed: '2026-11-08'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources
   title: Travel Resources, Cornell Transportation and Delivery Services
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation
   title: Parking & Transportation, Cornell Family Resource Hub
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Wide panorama of Cornell's Arts Quad under deep fresh snow, with paths buried and buildings around the edges
@@ -129,9 +138,9 @@ images:
 - Storms have hit the return weekend after Thanksgiving (Dec 1-2, 2019) and the mid-January return (Jan 2019, when buses were banned on most highways).
 - A storm forecast for Sunday? Go Saturday night or early Sunday. In 2019 OurBus cancelled Sunday trips and added Saturday ones.
 - Cornell has not announced class cancellations before students set out (Dec 2019). Do not wait for one.
-- Driving: check 511NY before you leave and expect icy hills in town. Plow priority for I-81, NY-13 and NY-79 is not confirmed.
+- Driving: check 511NY before you leave and expect icy hills in town. Interstates like I-81 get shorter state plow routes.
 - Parking: from Dec 1 to Apr 1, when snow is forecast, campus overnight parking (5 p.m. to 7:30 a.m.) is only in listed lots. The city's odd/even rule runs Nov 1 to Apr 1.
-- Flying: ITH has two routes and SYR cancelled flights for up to two days in Dec 2016. Hold a backup.
+- Flying: ITH has two routes, and storms cancelled students' flights in 2019 and 2021. Hold a backup.
 ```
 
 Storms have wrecked the trip back to Ithaca after Thanksgiving and in January: in [December 2019](https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs) buses were cancelled and one ride took about 9 hours, and in [January 2019](https://cornellsun.com/2019/01/20/canceled-flights-and-impromptu-housing-winter-storm-frustrates-students-travel-plans-to-cornell/) the governor banned buses on most highways. When snow is forecast for your travel day, move the trip earlier, to Saturday night or early Sunday, as [a student forecaster advised in 2019](https://cornellsun.com/2019/11/30/under-heavy-snow-forecast-university-mum-on-class-cancellation). Drivers should check [511NY](https://www.511ny.org) before leaving and expect icy hills and side streets plowed last once in Ithaca.
@@ -145,7 +154,7 @@ If your car sleeps on a city street, the city's odd/even rule applies from Nov 1
 ```
 
 ```reader "If you're a student who flies home"
-Your risk is one cancelled flight. ITH has [two scheduled routes](https://flyithaca.com/airlines), Delta to JFK and United to Washington Dulles, so a cancellation means a long wait for the next seat. Syracuse has [27 nonstop destinations](https://www.syrairport.org/), but in December 2016 snow there [cancelled flights for up to two days](https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899), and some students took cabs to Amtrak. Book the return flight a day before you need to be back, and note your backup now: OurBus to SYR runs [$46.7 to $62.1 each way](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny), and 2017 forum posters named other options, such as Syracuse, Binghamton and Philadelphia.
+Your risk is one cancelled flight. ITH has [two scheduled routes](https://flyithaca.com/airlines), Delta to JFK and United to Washington Dulles, so one cancellation can cost you a day. Syracuse has [27 nonstop destinations](https://www.syrairport.org/), but it gets the same storms. In January 2019, a student used a change-fee waiver to move his Syracuse flight to Monday, then [saw the original cancelled and every other flight booked through Monday](https://cornellsun.com/2019/01/20/canceled-flights-and-impromptu-housing-winter-storm-frustrates-students-travel-plans-to-cornell/). Book the return flight a day before you need to be back, move early when a waiver is offered, and note your backup now: OurBus to SYR runs [$46.70 to $62.10 each way](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny), and [Cornell lists](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources) Elmira Corning, Greater Binghamton, Rochester and Buffalo airports too.
 ```
 
 ```reader "If you're an international student"
@@ -161,25 +170,23 @@ You probably have no car and ride TCAT free at all hours, so your storm risk is 
 ```
 
 ```reader "If you're a parent or visitor"
-If you are driving a student back after Thanksgiving, watch the Sunday forecast from midweek and be ready to leave Saturday. Check [511NY](https://www.511ny.org) before you set out. If you are flying in, a 2014 parent on College Confidential [said Syracuse was the better winter choice](https://talk.collegeconfidential.com/t/traveling-to-and-from-cornell/1599797), but SYR cancelled flights for up to two days in December 2016. At ITH, the [taxi firms run 24/7](https://flyithaca.com/taxis) and the airport says to prebook for late flights. C2C is [open to the public at $101 one way](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates), so it is a fallback for family, too.
+If you are driving a student back after Thanksgiving, watch the Sunday forecast from midweek and be ready to leave Saturday. Check [511NY](https://www.511ny.org) before you set out. If you are flying in, Syracuse, Elmira and Binghamton add more airlines, but each one [needs a rental car or a bus to reach Ithaca](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation). At ITH, the [taxi firms run 24/7](https://flyithaca.com/taxis) and the airport says to prebook for late flights. C2C is [open to the public at $101 one way](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates), so it is a fallback for family, too.
 ```
 
 ## The storm record
 
-Nine student-voice sources describe storms wrecking travel home and back, dated 2013 to 2022. The accounts stop in 2022, so read them as the pattern, not a forecast.
+Storms upended the trip to Ithaca in January 2019, on the Thanksgiving return of 2019 and at spring move-in in February 2021 (The Cornell Daily Sun).
 
 | When | What happened | Source |
 |---|---|---|
-| Dec 2016 | Snow at Syracuse cancelled flights for up to two days; some students took cabs to Amtrak | [College Confidential, 2017](https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899) |
 | Jan 2019 | All buses departing after noon Saturday were cancelled, including a Coach USA ShortLine run from NYC; Cornell's own Syracuse-to-Cornell run was cancelled; the governor banned buses on most highways | [Cornell Sun, Jan 2019](https://cornellsun.com/2019/01/20/canceled-flights-and-impromptu-housing-winter-storm-frustrates-students-travel-plans-to-cornell/) |
 | Nov 30, 2019 | OurBus cancelled Sunday trips and added Saturday ones; ShortLine rescheduled Sunday departures to 9 a.m. to 10 a.m. | [Cornell Sun, Nov 2019](https://cornellsun.com/2019/11/30/under-heavy-snow-forecast-university-mum-on-class-cancellation) |
-| Dec 1-2, 2019 | OurBus cancelled most trips; a bus skidded sideways into bushes and blocked the highway; flights to upstate New York were cancelled at DC and Detroit | [Cornell Sun, Dec 2019](https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs) |
+| Dec 1-2, 2019 | OurBus cancelled most trips; a bus skidded sideways into bushes and blocked the highway; connecting flights to Ithaca were cancelled in DC and Detroit | [Cornell Sun, Dec 2019](https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs) |
+| Feb 2021 | The storm dumped 21 inches on the Ithaca area during spring move-in; a student's flight to Ithaca was cancelled, so he flew to Syracuse and drove; a 7-hour drive from Columbus took 9 | [Cornell Sun, Feb 2021](https://cornellsun.com/2021/02/07/winter-storm-frustrates-students-move-in-plans) |
 
-The December 2019 return is the clearest case. Eva Zhang '23 told the Sun her trip took nine hours, against the usual 4 to 5. Brian Filipek '21 described a trip of nearly 8 hours past around five crashes. Another student saw four accidents in a row on I-80 and went home. One student felt he had to take C2C; otherwise he would not have reached campus until Wednesday.
+The December 2019 return is the clearest case. Eva Zhang '23 [told the Sun](https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs) her trip took nine hours, against the usual 4 to 5. Brian Filipek '21 described a trip of nearly 8 hours past around five crashes. Another student saw four accidents in a row on I-80 and turned back. One student felt he had to take C2C; otherwise he would not have reached campus until Wednesday.
 
 Cornell did cancel classes that time, but only after students were already on the road. Before the storm, the Sun reported the university was [silent on cancellation](https://cornellsun.com/2019/11/30/under-heavy-snow-forecast-university-mum-on-class-cancellation), and students joked that a snow day was unlikely.
-
-Not every storm stops everything. A former student on [College Confidential in 2014](https://talk.collegeconfidential.com/t/traveling-to-and-from-cornell/1599797) said Greyhound buses tend to run even in a December snowstorm.
 
 ## When a storm is forecast for your travel day
 
@@ -209,28 +216,26 @@ Example: a sophomore has a C2C seat from NYC on Sunday, Nov 29, 2026, and on Thu
 |---|---|---|
 | Cornell C2C | One student took it to avoid not reaching campus until Wednesday (Dec 2019) | Change up to 8 hours ahead; $30 a seat inside 8 hours; cancel for $10 a seat 8+ hours ahead ([policies](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations)) |
 | OurBus | Cancelled Sunday trips and added Saturday ones (Nov 2019); cancelled most trips Dec 1-2, 2019 | Credit, not cash; rescheduling has a fee (fall 2023, [Sun](https://www.cornellsun.com/article/2023/11/inside-ourbus-cornellians-preferred-method-of-travel)) |
-| Coach USA ShortLine | Rescheduled Sunday departures to 9 a.m. to 10 a.m. (Nov 2019); a NYC run was among buses cancelled after noon Saturday (Jan 2019) | Not in the record; check the booking |
-| Greyhound | Described in 2014 as tending to run in a December snowstorm | Not in the record; check the booking |
 
-A missed C2C bus is the expensive case: once the bus leaves its last stop, the full fare is kept, and the return leg is not cancelled for you.
+A missed C2C bus is the expensive case: once the bus leaves its last stop, the full fare is kept, and the return leg is not cancelled for you. Greyhound refunds in vouchers, not cash: cancel less than 2 days before departure and you get 20% of the fare back, or 40% at 2 to 6 days out, and booking and service fees are not refunded ([Greyhound](https://www.greyhound.com/manage-my-booking/cancellation-policy)).
 
 ## Flights in a storm: ITH, SYR and the backups
 
-ITH is close but thin. It has Delta to JFK and United to Washington Dulles, and a 2017 forum poster said its few daily flights mean [a cancellation can leave you waiting a long time](https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899). The terminal is open 3:30 a.m. to midnight, and long-term parking is [$8 a day or $40 a week](https://www.flyithaca.com/parking). The airport tells owners of stranded cars to contact it.
+ITH is close but thin. It has Delta to JFK and United to Washington Dulles. In the [December 2019 storm](https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs), a student whose flight to Ithaca was cancelled in Detroit spent the night there and took the last seat on a Monday flight. The terminal is open 3:30 a.m. to midnight, and long-term parking is [$8 a day or $40 a week](https://www.flyithaca.com/parking). The airport tells owners of stranded cars to contact it.
 
-SYR has more flights and the same snow. Its 27 destinations give you more rebooking options, but the 2016 cancellations ran up to two days. Getting there without a car means OurBus, which runs Cornell to Syracuse [six days a week](https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk), or a car service such as Big D's Limousines, which [Cornell lists](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources) at 607-273-3030 ext 2.
+SYR has more flights and the same snow. Its 27 destinations give you more rebooking options. In [February 2021](https://cornellsun.com/2021/02/07/winter-storm-frustrates-students-move-in-plans), a student whose Ithaca flight was cancelled switched his destination to Syracuse, rented a car and drove to Ithaca in the dark. Getting there without a car means OurBus, which runs Cornell to Syracuse [six days a week](https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk), or a car service such as Big D's Limousines, which [Cornell lists](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources) at 607-273-3030 ext 2.
 
-Rail is the fallback students used in 2016. The nearest Amtrak station is the [William F. Walsh Regional Transportation Center in Syracuse](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources), about 60 miles north per [Ithaca College](https://www.ithaca.edu/orientation/family-and-guest-resources/transportation).
+Rail is another fallback. The nearest Amtrak station is the [William F. Walsh Regional Transportation Center in Syracuse](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources), about 60 miles north per [Ithaca College](https://www.ithaca.edu/orientation/family-and-guest-resources/transportation).
 
-The Student Assembly has paid for free finals-week charters to ITH and SYR before, most recently [$10,668.87 for spring 2026](https://assembly.cornell.edu/resolutions/student-assembly/sa-r83-2025-2026). Not confirmed: any fall 2026 charter, as of Nov 8.
+The Student Assembly has paid for free finals-week charters to ITH and SYR before: [$7,853.32 for fall 2025](https://assembly.cornell.edu/resolutions/student-assembly/sa-r18-2025-2026), approved Nov 13, 2025, and [$10,668.87 for spring 2026](https://assembly.cornell.edu/resolutions/student-assembly/sa-r83-2025-2026).
 
 ## Driving to Ithaca in winter
 
 Check [511NY](https://www.511ny.org), the state's traffic and travel map, before you leave and before the last leg. The Syracuse drive is about 1 h 15 min and 65 miles per [Ithaca College](https://www.ithaca.edu/orientation/family-and-guest-resources/transportation); allow longer in snow.
 
-Not confirmed: the plow priority for I-81, NY-13, NY-79 and NY-96B.
+On state roads, each plow driver covers a set route, called a beat, that can take up to two hours to complete, and high-volume roads such as interstates, I-81 among them, get shorter beats. Those drivers report which state roads are snow covered, wet, dry or closed to 511NY. Plows travel at 35 mph or slower when plowing or salting; stay several car lengths behind and never pass one ([New York State](https://www.ny.gov/safe-winter-driving/safe-winter-driving-campaign)). Inside the city, the top priority is lanes wide enough for emergency vehicles. The busiest roads are cleared first, steep roads are also prioritized, and small residential streets come last ([City of Ithaca](https://cityofithacany.gov/DocumentCenter/View/12559)).
 
-The harder part is often the last mile. Students in the [2022 Sun article](https://cornellsun.com/2022/11/21/dont-let-it-snow-students-express-concerns-over-driving-conditions-as-temperatures-fall/) described:
+The harder part is often the last mile. In February 2021, one student's 7-hour drive from Columbus, Ohio, took 9; he told the [Sun](https://cornellsun.com/2021/02/07/winter-storm-frustrates-students-move-in-plans) the trouble started near Ithaca, once he left the main highway for back roads. Students in the [2022 Sun article](https://cornellsun.com/2022/11/21/dont-let-it-snow-students-express-concerns-over-driving-conditions-as-temperatures-fall/) described:
 
 - icy hills, with one front-wheel-drive car struggling even when the roads were only wet;
 - water pooling and freezing;
@@ -271,7 +276,7 @@ rows:
 
 - **Waiting for Cornell to cancel classes.** In December 2019 the announcement came after students were already traveling, some on rides of nearly 8 to 9 hours.
 - **Keeping the Sunday ticket when Sunday looks bad.** Operators added Saturday trips in 2019. On C2C, a change inside 8 hours of departure costs $30 a seat.
-- **Relying on one ITH flight.** With two routes, one cancellation can strand you. In 2016, SYR's snow cancellations lasted up to two days.
+- **Relying on one ITH flight.** With two routes, one cancellation can strand you overnight.
 - **Leaving a car on a city street over break.** It can be ticketed, towed and treated as abandoned.
 - **Parking overnight outside a winter bay when snow is forecast.** That is a $50 fine on campus.
 - **Booking a tight landing-to-bus gap in January.** A missed C2C bus forfeits the full fare.
@@ -286,7 +291,7 @@ rows:
 
 **Where do I park on campus the night I get back?** Resident-permit holders use their own lot. Others use a listed winter bay from 5 p.m. to 7:30 a.m. when snow is forecast ([Cornell](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)).
 
-**Can I leave my car at the Ithaca airport if I get stuck?** The long-term lot has no stated maximum stay, at $40 a week; the airport tells owners of stranded cars to contact it ([ITH parking](https://www.flyithaca.com/parking)).
+**Can I leave my car at the Ithaca airport if I get stuck?** Yes. You can park in either lot as long as you need, at $40 a week in long-term, and the airport asks owners of stranded cars to contact it on its parking line, 607-220-4699 ([ITH parking](https://www.flyithaca.com/parking)).
 
 ## Related guides
 

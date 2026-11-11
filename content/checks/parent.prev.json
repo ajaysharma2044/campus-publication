@@ -1,23 +1,66 @@
 {
-  "slug": "parent",
-  "queue_id": "q-getting-around-0082",
-  "verdict": "pass",
-  "checked": [
-    {"claim": "After Aug 1: the Move-In Ticket can be printed from the Housing and Dining Portal", "source_url": "brief §3 (Move-In Ticket row)", "status": "ok", "note": "brief row: printed from the Housing and Dining Portal after Aug 1."},
-    {"claim": "North Campus move-in Mon Aug 17, Tue Aug 18, Fri Aug 21 to Sat Aug 22 (year inferred as 2026)", "source_url": "brief §3 (North Campus move-in dates)", "status": "ok", "note": "Same dates; brief marks the year as inferred and the page says so."},
-    {"claim": "Nov 4, 2026 onward: new C2C booking system needs a new account, even for past riders", "source_url": "brief §2.1", "status": "ok", "note": "Brief: launched Nov 4, 2026, every rider needs a new account."},
-    {"claim": "Nov 9, 2026: downtown intercity stops move, with OurBus going to 235 S. Cayuga St", "source_url": "brief §2.6", "status": "ok", "note": "Brief names only OurBus as moving; page wording matches (stops move, OurBus to 235 S. Cayuga)."},
-    {"claim": "Mid-May: buildings close for move-out (2 p.m. Sun May 17 in 2026)", "source_url": "brief §3 (move-out deadline)", "status": "ok", "note": "Brief: building closes 2:00 p.m. Sunday May 17, 2026."},
-    {"claim": "Commencement hotels sell out", "source_url": "brief §2.23 (Families page row)", "status": "fixed", "note": "Brief says hotels 'often sell out' for Family Weekend and Commencement; page said 'sell out'. Changed to 'often sell out'."},
-    {"claim": "Not in the brief: the 2027 dates for Family Weekend, Commencement and Reunion", "source_url": "brief (gaps)", "status": "ok", "note": "Page marks the hole itself."},
-    {"claim": "Eight guides listed with their descriptions (parents guide, airports, ITH airport, move-in parking, C2C, parking, Uber/Lyft/taxi, pillar) and the two closing links", "source_url": "content/articles/getting-around/*.md titles and metas", "status": "ok", "note": "All ten linked files exist; each description matches the guide's title/meta (e.g. C2C open to the public, Seneca garage closed in parking guide, dawn-flight taxis in ITH guide, Uber thinning out)."},
-    {"claim": "Tool 1: ITH or SYR trip cost calculator adds the airfare you enter to the ride and the parking", "source_url": "content/tools/ith-or-syr-trip-cost-calculator/tool.md", "status": "ok", "note": "Tool text: airfare entered by user plus ride and parking; says which is cheaper."},
-    {"claim": "Tool 2: Cornell bus home cost calculator, year's bus trips, C2C against the commercial lines", "source_url": "content/tools/cornell-bus-home-cost-calculator/tool.md", "status": "ok", "note": "Meta: year's bus cost on C2C, OurBus, FlixBus and Greyhound."},
-    {"claim": "Reader context: no NetID so public fares; C2C ridable by families", "source_url": "brief §2.1 / §2.23", "status": "ok", "note": "Brief: C2C open to families, public fare $101."},
-    {"claim": "Computed figures", "source_url": "n/a", "status": "ok", "note": "The page has no totals, averages or times of its own; nothing to recompute."}
-  ],
-  "brief_updates": [],
-  "fixes": [],
-  "core_answer": "right",
-  "checked_at": "2026-11-08"
+ "slug": "parent",
+ "queue_id": "q-housing-0088",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Jan 31 is the last day returning juniors and seniors can cancel a Cornell license for $50; it rises to $500 from Feb 1",
+   "source_url": "brief §3 (license cancellation fees) and §4.1 January/February",
+   "status": "ok",
+   "note": "Brief: through Jan 31 $50; Feb 1 to Mar 31 $500. Same value, same group (returning juniors and seniors)."
+  },
+  {
+   "claim": "Apr 6 (in 2026): the Cornell housing application is due, including exemption requests",
+   "source_url": "brief §3 (2026-27 housing application deadline) and §4.1 April",
+   "status": "ok",
+   "note": "Brief: AY 2026-27 application due April 6, 2026, exemption requests included. The page also flags that the 2027 date is not in the brief."
+  },
+  {
+   "claim": "On or about Aug 1: most leases start; the landlord must offer a move-in inspection before your student moves in",
+   "source_url": "brief §4.1 August and §6 (GOL 7-108)",
+   "status": "ok",
+   "note": "Brief: most 12-month leases start about Aug 1; landlord must offer an inspection after signing and before occupancy."
+  },
+  {
+   "claim": "July 31: most leases end, and the deposit or an itemized statement is due within 14 days of moving out",
+   "source_url": "brief §4.1 July and GOL 7-108 row",
+   "status": "ok",
+   "note": "Brief: most Ithaca leases expire July 31; deposit or itemized statement within 14 days after the tenant vacates."
+  },
+  {
+   "claim": "September to November of sophomore year: groups that want Collegetown sign for junior year, and the first month and deposit may be due at signing",
+   "source_url": "brief §4.1 (late Aug to Nov rows) and §6 step 5",
+   "status": "ok",
+   "note": "Brief: students report signing in October of sophomore year; the rush runs late August to November; first month plus deposit due at signing (209 Stewart, Cityview). The page says 'may', which matches."
+  },
+  {
+   "claim": "Cornell housing cancellation fee calculator exists and computes cancellation cost on a given date for a student who signs a lease instead",
+   "source_url": "brief §3 (license cancellation fee schedule)",
+   "status": "ok",
+   "note": "The tool's check and review files exist under content/checks and content/reviews; the schedule it uses is the brief's. The tool page itself is checked under its own row."
+  },
+  {
+   "claim": "Guide titles and what each housing guide covers (pillar, parents' guide, off-campus vs dorm 'rent per person set against Cornell's double', residential requirement and exemptions, landlord checking, roommates and joint liability, deposit cap/14 days/banned fees, renters insurance need and cost)",
+   "source_url": "content/articles/housing/*.md titles and metas",
+   "status": "ok",
+   "note": "All eight linked slugs exist and each link text matches the guide's frontmatter title exactly. Each one-line description agrees with that guide's meta (e.g. the double compared with rent per person; deposit capped at one month, 14 days; renters insurance recommended, not required)."
+  },
+  {
+   "claim": "Parents often pay or co-sign, cannot see the Cornell housing marketplace without a NetID",
+   "source_url": "brief §6 and reader map",
+   "status": "ok",
+   "note": "Framing statement in the intro, consistent with the brief's parent guidance; it carries no number or date."
+  },
+  {
+   "claim": "Not in the brief: the 2027 date for the Cornell housing application",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief lists only the April 6, 2026 date, so the page's Not-confirmed line is accurate."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "6decbfb1d702101d464e1e1437abd33c4f315c684de43edce5e682080e57b2a8"
 }

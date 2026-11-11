@@ -1,0 +1,90 @@
+{
+ "slug": "transfer-junior",
+ "queue_id": "q-transfer-0037",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Cornell discourages junior-year transfer from four-year schools",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief §2 row 'Junior-year transfer', same FAQ 323 URL"
+  },
+  {
+   "claim": "Four semesters, associate's degree or about 60 credits means junior entry",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief: four semesters or associate's degree = junior standing; roughly 60-credit cap"
+  },
+  {
+   "claim": "Junior entrants are exempt from the residential requirement",
+   "source_url": "brief §2.9",
+   "status": "ok",
+   "note": "brief 2.9 exemption row: matriculating as a junior or senior; same residential-policy URL"
+  },
+  {
+   "claim": "Admission April to June; decisions rolling late April through June 2027",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief: decisions late April through June"
+  },
+  {
+   "claim": "Oct 1, 2026: FAFSA opens for 2027-28; file CSS Profile ASAP after",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief, finaid page"
+  },
+  {
+   "claim": "March 15, 2027: Common App, fee or waiver, CSS Profile and FAFSA due",
+   "source_url": "brief §2.2/2.15",
+   "status": "ok",
+   "note": "brief: March 15 application, fee; aid forms March 15, 2027"
+  },
+  {
+   "claim": "April 15, 2027: College Report, Academic Evaluation, Mid-Term Report, transcripts due",
+   "source_url": "brief §2.2/§9",
+   "status": "ok",
+   "note": "brief checklist rows 6-9 all April 15"
+  },
+  {
+   "claim": "Desirable Collegetown leases can go up to 16 months ahead (Cornell Sun)",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief lease timing row, same Sun URL, 2018"
+  },
+  {
+   "claim": "Fall tuition bill, 2024 example generated July 12, due August 7",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief stale bill example, fall 2024"
+  },
+  {
+   "claim": "Last day of instruction Dec 7 in 2026 is the exam-credit request deadline",
+   "source_url": "brief §2.8/§5",
+   "status": "fixed",
+   "note": "Dec 7, 2026 is fall 2026 instruction's end, which applies to fall 2026 entrants; the page's reader enters fall 2027 and the brief has no fall 2027 date. Reworded to 'Dec 7 for fall 2026 entrants'. Rule itself (written request to college registrar by last day of instruction of first semester) is brief §2.8."
+  },
+  {
+   "claim": "Cost page title: $95,218 to $99,169 billed",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief 10.1 matches; matches guide's own title"
+  },
+  {
+   "claim": "Guide titles and descriptions of what each covers (9 reading-order items, 4 tools, dataset '9 colleges')",
+   "source_url": "linked guide titles/metas",
+   "status": "ok",
+   "note": "titles match the files' frontmatter; junior guide meta confirms credits/housing/10 semesters; dataset title says 9 colleges; descriptions are consistent with metas"
+  },
+  {
+   "claim": "'Not in the brief: ...' line about exempt-junior campus housing and lease start dates",
+   "source_url": "n/a",
+   "status": "fixed",
+   "note": "Told the reader our research lacks something (publish lint fails it); no heading or glance line depended on it, so cut."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "ac25e4579f8df53f0d28ebda04b71402c73502dd444c431707769e69c7bf7045"
+}

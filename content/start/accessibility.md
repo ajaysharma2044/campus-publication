@@ -1,18 +1,18 @@
 ---
 title: "Cornell students with a disability: start here"
-meta: "For Cornell students with a disability: a reading order for an accessible rental, parking permit, C2C and TCAT access, move-in and the dates to watch."
+meta: "For Cornell students with a disability: reading orders for transferring in, accessible housing, a rental, parking, C2C and TCAT access and move-in."
 topic: getting-around
-topics: [getting-around, housing]
-updated: 2026-11-08
+topics: [getting-around, housing, transfer]
+updated: 2026-11-11
 queue_id: q-getting-around-0081
-queue_ids: [q-housing-0091]
+queue_ids: [q-housing-0091, q-transfer-0046]
 kind: start_here
 readers: [accessibility]
 brief: intel/getting-around/brief.md
-briefs: [intel/off-campus-housing/brief.md]
+briefs: [intel/off-campus-housing/brief.md, intel/transfer/brief.md]
 ---
 
-You have a mobility or other disability and work through Student Disability Services (SDS). You may need a unit with step-free access and a commute you can manage up Ithaca's hills, an accessible parking permit, wheelchair access on an intercity bus, a reduced fare or help on move-in day, and you face the same snow and early flights as everyone else with fewer fallbacks. Each topic below has its own reading order, in the order you will hit the questions.
+You have a mobility or other disability and work through Student Disability Services (SDS), and you need accessible housing or other accommodations from your first day, whether you are arriving as a new transfer or already here. That can mean a room or unit with step-free access, a commute you can manage up Ithaca's hills, an accessible parking permit, wheelchair access on an intercity bus or help on move-in day, with the same deadlines, snow and early flights as everyone else and fewer fallbacks. Each topic below has its own reading order, in the order you will hit the questions.
 
 ## Read in this order: Getting around
 
@@ -50,8 +50,27 @@ Not in the brief: reasonable accommodations or modifications from a private land
 - **July 31:** most Ithaca leases expire, and the next one starts on or about August 1 ([Cornell Daily Sun, 2024](https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing)).
 - **Early August (Aug 4 in 2026):** buy the AP permit alongside Cornell's student permit sales, after contacting SDS ([Cornell TDS](https://fcs.cornell.edu/node/17809)).
 
+## Read in this order: Transfer
+
+1. [Transferring to Cornell: the complete guide for fall 2027](/transfer/transferring-to-cornell-guide/). The whole topic, from deadlines and credit to the one-year housing rule; read it first, before you apply.
+2. [Cornell transfer application: every piece and who does it](/transfer/cornell-transfer-application-materials/). Every part of the application and who sends it; read it in the spring term before you apply.
+3. [Transferring to Cornell as a junior: credits and housing](/transfer/cornell-transfer-as-a-junior/). Who is exempt from the housing rule and what an exempt junior faces in the rental market; read it if you will enter as a junior.
+4. [Cornell transfer orientation and move-in, day by day](/transfer/cornell-transfer-orientation-move-in/). Move-in day, orientation and the first week of classes; read it in July, once your room is confirmed.
+
+For the medical criteria for an exemption from the housing rule, meal plan exemptions, and whether accommodations from your previous school carry over, ask SDS (607-254-4545, sds_cu@cornell.edu) before you apply for housing.
+
+## Dates to watch: Transfer
+
+- **Late April through June 2027:** regular transfer decisions arrive on a rolling basis ([Cornell transfer admissions](https://admissions.cornell.edu/apply/transfer-applicants)).
+- **Within ten days of getting your NetID:** register with SDS first, then apply for housing on the Housing and Dining Portal; no fee ([new undergraduate housing application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process)).
+- **Mid-June:** a room confirmation or a place on the guaranteed waitlist with weekly updates ([new undergraduate housing application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process)).
+- **June 15 (2026 pattern):** last day to cancel a fall housing license without penalty for medical leave; after it, $500 ([2026-27 housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/12-month-undergraduate-housing-license-2026-2027)).
+- **August 1:** last day to change your move-in timeslot ([new undergraduate housing application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process)).
+- **Mid-August (Aug 18 for transfers in 2026):** transfer move-in and New Student Orientation ([New Student Orientation](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation)).
+
 ## When you're done
 
 Bringing a car? Read [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) and [Cornell and Ithaca winter parking: odd/even, bays, breaks](/getting-around/ithaca-winter-parking-rules-cornell-odd-even/).
 Flying home or riding a bus at the holidays? [Flying home from Cornell: airports, rides, bags, timing](/getting-around/flying-home-from-cornell-airports-rides/) is next, and [the topic page](/getting-around/) lists everything else.
 Signed a lease, or still choosing? [The housing topic page](/housing/) lists every housing guide, from deposits to renewals.
+Transferring in? [The transfer topic page](/transfer/) lists every transfer guide, from credit and aid to making friends once you arrive.

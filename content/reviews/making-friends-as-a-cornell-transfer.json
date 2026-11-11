@@ -1,0 +1,151 @@
+{
+ "slug": "making-friends-as-a-cornell-transfer",
+ "queue_id": "q-transfer-0014",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Meal plan prices: House Meal Plan $3,802 a semester, $7,604 a year; Collegetown $7,056 a year, 10 meals a week; SFL Supplemental $4,335.02 a year, 127 meals a semester",
+   "source_url": "brief §3 meal plans",
+   "status": "ok",
+   "note": "Same values in brief; House plan also re-confirmed on the Cornell Dining page ($3,802 per semester, required in West Campus House System). 3,802 x 2 = 7,604."
+  },
+  {
+   "claim": "Off-Campus Value $1,824.60 a year, 45 meals and $150 Big Red Bucks a semester",
+   "source_url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+   "status": "ok",
+   "note": "fixed in place: Page said '$1,824.60 a year for 45 meals and $150 Big Red Bucks a semester', which read as 45 meals a year. Source: 45 meals per semester, $150 BRB per semester. Reworded."
+  },
+  {
+   "claim": "45% of undergraduates lived off campus or commuted, fall 2025; 19.7 average age; 0.6% aged 25 or older; Greek 23% of men and 19% of women; 625 transfers enrolled",
+   "source_url": "brief §3, §10 (CDS)",
+   "status": "ok",
+   "note": "Values match the brief. 'Roughly four in five not members' is consistent with 77% and 81% non-members."
+  },
+  {
+   "claim": "Almost 15% of new incoming students are transfers; about a quarter of transfers come from community colleges",
+   "source_url": "brief §3 and §10",
+   "status": "ok",
+   "note": "Brief gives Cornell's 'almost 15%' (our math 14.0%, 14.1%) and the FAQ's 'about a quarter'."
+  },
+  {
+   "claim": "23 transfer veterans entered fall 2026",
+   "source_url": "brief §10 (Chronicle Aug 13, 2026)",
+   "status": "ok",
+   "note": "Same value."
+  },
+  {
+   "claim": "Transfer move-in Aug 18, first-year Aug 17, NSO Aug 18 to 23, 2026; Block Party and CU Downtown in first six weeks",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief rows for fall 2026 move-in and after week one."
+  },
+  {
+   "claim": "Apply for housing within ten days of NetID; one academic year on campus; exempt juniors or two years on campus elsewhere; rule covers transfers from fall 2022; transfer rooms grouped whenever possible",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "13 Program Houses (Akwe:kon, Loving House, Risley, Veterans House and nine others); more than 500 first-year and transfer students",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Brief lists 13 houses; counted 13 (4 named plus 9). Over 500 matches."
+  },
+  {
+   "claim": "Tatkon Center, South Balch Hall, 600 Thurston Ave, (607) 255-5808; open until 11 p.m. Sunday through Thursday, until 5 p.m. Friday, closed Saturday",
+   "source_url": "brief §6 Tatkon row",
+   "status": "ok",
+   "note": "fixed in place: Brief: Wednesday 9 am to 5 pm then 6 pm to 11 pm. Page implied unbroken to 11 p.m. Added '(Wednesday closes 5 to 6 p.m.)'. Address and phone match."
+  },
+  {
+   "claim": "2009 Student Assembly survey of 527: 88% vs 36.7% rated first-year living positive; 89.3% vs 51% called a transfer program essential; 26.4% of West Campus transfers said housing hindered transition; transfer house ended 2008",
+   "source_url": "brief §5 and §7.2",
+   "status": "ok",
+   "note": "All values match brief 7.2 (527 responses)."
+  },
+  {
+   "claim": "2016: about 30 transfers in North Campus lounges, some five to a lounge",
+   "source_url": "brief §7.2",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "2018: Eitan Wolf '21 in Schuyler, nearly a mile from central campus, 7-meal plan kept him from eating with friends on West; Lauren Jung '21 felt nervous living off campus",
+   "source_url": "brief §7.2",
+   "status": "ok",
+   "note": "Attributions match the brief and the page uses no invented detail."
+  },
+  {
+   "claim": "2019 Alexia Kim, Human Ecology sophomore from Case Western, 'Freshman Year 2.0', maps; Cat Huang wrote transferring out is more common than assumed and first-year housing may be a cause",
+   "source_url": "brief §7.3, §7.8",
+   "status": "ok",
+   "note": "Matches. The page does not repeat Huang's graduation-rate claims."
+  },
+  {
+   "claim": "2020: fall 2020 transfers felt disconnected; GroupMe 350-plus members; ILR Transfer Option student from Penn State and a student from Maryland urged messaging classmates; Will Bodenman '23",
+   "source_url": "brief §7.3",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "2023: Eve Iulo, imposter feelings in a 100-plus lecture after a class of 73; spring 2023 transfers found college orientation socials helped",
+   "source_url": "brief §7.3, §7.4",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Rachel Eisenhart, ILR, Class of 2027: regular sophomore within weeks; repeating small talk, small fish, limbo, missing admitted-student celebrations; keep old friends; summer visit (Cascadilla Gorge, Collegetown coffee, tour)",
+   "source_url": "brief §7.3",
+   "status": "ok",
+   "note": "Matches."
+  },
+  {
+   "claim": "Jessica Silverman (UCLA to Human Ecology, about 2024) recommended West Campus house dinners, Tatkon and CUeLinks",
+   "source_url": "brief §7.3",
+   "status": "ok",
+   "note": "Matches (brief dates the blog about Oct 2024)."
+  },
+  {
+   "claim": "Transfer Option admits found first friends in a Discord; another student credited Big Red Welcome Fest",
+   "source_url": "brief §7.3",
+   "status": "ok",
+   "note": "Brief marks this as a search snippet. The admissions URL returned 404 on fetch today. The page's wording matches the brief; the brief's 2026-11-11 verification stands."
+  },
+  {
+   "claim": "Community college grads profiled by Cornell (2024): feeling behind and imposter feelings, 40-plus hours a week; CALS transfer student success navigator, similar roles in ILR and Human Ecology; PAVER; CC STEP",
+   "source_url": "https://www.news.cornell.edu/stories/2024/05/community-college-transfers-flourish-cornell",
+   "status": "ok",
+   "note": "fixed in place: Source: one graduate (Talha Islam) worked 40-plus hours a week and said imposter feelings and feeling behind; ILR and Human Ecology are described as 'similar support', not roles. Page and brief had spread the quote across four graduates. Reworded to attribute to one and to say 'similar support'. CALS navigator, PAVER, CC STEP confirmed."
+  },
+  {
+   "claim": "Themes in 7 first-hand accounts: social connection 7 of 7, workload 4 of 7, housing 3 of 7 plus 1, credits 2 of 7",
+   "source_url": "brief §7",
+   "status": "unverifiable",
+   "note": "Our own hand count; the brief's theme table has different, broader source counts. Disclosed on the page as hand-picked and our count. Not recomputable from the brief; no change."
+  },
+  {
+   "claim": "Three of the seven routes begin before move-in; college socials happen at orientation",
+   "source_url": "page table",
+   "status": "ok",
+   "note": "fixed in place: Counted the table: group chat, Discord and summer visit are pre-move-in (3). The old text said two more happen in orientation week, but only the college socials are documented at orientation (Welcome Fest timing is not in the brief). Reworded to the college socials only."
+  },
+  {
+   "claim": "Orientation includes transfer small groups and social events; non-traditional students may skip some optional events; advisor, Dean of Students, residence staff, CAPS support; 1,000-plus student organizations",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Matches brief rows for the families page and after-week-one page."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell transfer students social life",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

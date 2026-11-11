@@ -1,0 +1,67 @@
+{
+ "slug": "transfer-community-college",
+ "queue_id": "q-transfer-0038",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Cornell says it has no preference by type of school (FAQ 325)",
+   "source_url": "brief §10 (institution preference row)",
+   "status": "ok",
+   "note": "brief: none by institution or type; same FAQ URL."
+  },
+  {
+   "claim": "October 1, 2026: FAFSA opens for 2027-28; file CSS Profile as soon as possible after",
+   "source_url": "brief §9 / §11 calendar",
+   "status": "ok",
+   "note": "brief matches; aid URL same."
+  },
+  {
+   "claim": "January 2027: SUNY Broome to Cornell online BPS applications open; separate online program; first cohort August 2027",
+   "source_url": "brief §11 calendar and SUNY Broome entry",
+   "status": "ok",
+   "note": "brief: applications open January 2027, separate online program, first cohort August 2027; Chronicle URL matches the brief."
+  },
+  {
+   "claim": "March 15, 2027: Transfer Common App, fee or waiver, CSS Profile and FAFSA due",
+   "source_url": "brief §2 / aid rows",
+   "status": "ok",
+   "note": "brief: March 15 application, fee or waiver; CSS and FAFSA March 15, 2027."
+  },
+  {
+   "claim": "April 15, 2027: College Report, Academic Evaluation, Mid-Term Report and transcripts due",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief: April 15 is all other required materials; Mid-Term Report and recommendations listed under April 15."
+  },
+  {
+   "claim": "Late April through June 2027: rolling decisions; send syllabi when your college asks",
+   "source_url": "brief §2, §5",
+   "status": "ok",
+   "note": "brief: decisions late April through June; syllabi may be required by the college."
+  },
+  {
+   "claim": "Guide and tool titles and what each covers (9 guides, 4 tools, junior page)",
+   "source_url": "article frontmatter and tool.md titles",
+   "status": "ok",
+   "note": "Titles match the published pages' title fields; descriptions agree with each page's meta. Tool pages exist in the queue as published."
+  },
+  {
+   "claim": "Line 'Not in the brief: ...' naming gaps in TC3 and older agreements",
+   "source_url": "n/a",
+   "status": "ok",
+   "note": "fixed in place: Page may not tell the reader our research lacks something (publish lint). Cut the whole paragraph; no heading or glance promise depended on it."
+  }
+ ],
+ "beats_top": {
+  "query": "community college transfer cornell",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

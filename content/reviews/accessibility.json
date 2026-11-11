@@ -1,53 +1,65 @@
 {
  "slug": "accessibility",
- "queue_id": "q-housing-0091",
+ "queue_id": "q-transfer-0046",
  "verdict": "pass",
  "fact_check": [
   {
-   "claim": "Register with Student Disability Services before you start searching (housing section dates)",
-   "source_url": "brief §(grad housing table: 'Disability housing needs')",
+   "claim": "Transfer: regular decisions arrive late April through June 2027, rolling",
+   "source_url": "brief §2.2",
    "status": "ok",
-   "note": "brief says register first with SDS, citing the same Cornell graduate housing page the page links."
+   "note": "brief §2.2 / date list: admissions page 'late April through June'."
   },
   {
-   "claim": "Late August to September: Collegetown leasing for the following year opens (Cornell Daily Sun, 2022)",
-   "source_url": "https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/",
-   "status": "ok",
-   "note": "Opened the Sun article: students started looking in August; Student Agencies building began renting for 2023-24 in early September. Brief also carries the early Sept 2022 fact. Wording is a tight paraphrase."
-  },
-  {
-   "claim": "Sept 15: Ithaca's heat season starts",
+   "claim": "Within ten days of getting your NetID: register with SDS first, then apply on the Housing and Dining Portal; no fee",
    "source_url": "brief §2.10",
    "status": "ok",
-   "note": "brief: Ithaca heat season Sept 15 to May 31, Cornell Law tenants advocacy page."
+   "note": "brief §2.10 and housing steps; same application page cited."
   },
   {
-   "claim": "July 31: most Ithaca leases expire; the next starts on or about August 1",
-   "source_url": "brief §2 (lease-end row) and §summary",
+   "claim": "Mid-June: room confirmation or guaranteed waitlist with weekly updates",
+   "source_url": "brief §2.10",
    "status": "ok",
-   "note": "brief: most Ithaca leases expire July 31 (Sun, 2024 hearing story); next lease starts on or about August 1."
+   "note": "brief housing table, Confirmation row."
   },
   {
-   "claim": "Early August (Aug 4 in 2026): buy the AP permit alongside student permit sales, after contacting SDS",
-   "source_url": "brief (parking: AP permit, 2026-27 sales)",
+   "claim": "June 15 (2026 pattern): last day to cancel fall housing license without penalty for medical leave; after it $500",
+   "source_url": "brief §2.10",
    "status": "ok",
-   "note": "brief: sales began Tue Aug 4, 2026, 9 a.m., first come first served (fcs.cornell.edu/node/17809); AP permit: contact SDS first."
+   "note": "brief cancellation-without-penalty row: by June 15, 2026 for fall, later $500."
   },
   {
-   "claim": "Housing guide descriptions: whole topic guide; neighborhood comparison with uphill walk; landlord check; repairs (heat, mold, bed bugs); and the four guide titles/links",
-   "source_url": "content/articles/housing/*.md titles and metas",
+   "claim": "August 1: last day to change move-in timeslot",
+   "source_url": "brief §2.10",
    "status": "ok",
-   "note": "All four guide files exist at the linked slugs; titles match the page's link text and descriptions match the guides' metas (guide, neighborhoods, landlord vetting, repairs)."
+   "note": "brief confirmation row and date list."
   },
   {
-   "claim": "Not in the brief: private-landlord accommodations/modifications, fair-housing rules, counts of accessible units",
-   "source_url": "brief grep",
+   "claim": "Mid-August (Aug 18 for transfers in 2026): transfer move-in and New Student Orientation",
+   "source_url": "brief §2.12",
    "status": "ok",
-   "note": "Grepped the brief for accessible/accommodation/fair-housing content on private rentals: none, so the 'Not in the brief' line is accurate."
+   "note": "brief move-in row: transfer move-in Aug 18, NSO Aug 18 to 23, same NSO page."
+  },
+  {
+   "claim": "SDS phone 607-254-4545, sds_cu@cornell.edu",
+   "source_url": "brief §2.10 contacts",
+   "status": "ok",
+   "note": "brief contacts row, same application page."
+  },
+  {
+   "claim": "Guide descriptions for the four transfer guides (whole topic; application pieces and who sends them; junior housing exemption and rental market; move-in, orientation, first week)",
+   "source_url": "content/articles/transfer titles and metas",
+   "status": "ok",
+   "note": "Compared with each guide's title and meta; consistent."
+  },
+  {
+   "claim": "Hole line 'Not in the brief: ... No guide covers them yet' for transfer",
+   "source_url": "page",
+   "status": "ok",
+   "note": "fixed in place: Publish lint bars telling readers research lacks something. Reworded to a plain instruction to ask SDS with the same contact; no facts changed."
   }
  ],
  "beats_top": {
-  "query": "cornell accessible off campus housing",
+  "query": "cornell transfer disability housing",
   "top_url": "",
   "better": "n/a",
   "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
@@ -56,6 +68,6 @@
  "fixes": [],
  "brief_updates": [],
  "core_answer": "right",
- "reviewed_at": "2026-11-08",
+ "reviewed_at": "2026-11-11",
  "checked_by": "scripts/v3/check.sh"
 }

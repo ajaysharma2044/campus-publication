@@ -2,12 +2,12 @@
 title: 'Cornell dining hours winter break: closures and dates'
 mode: answer
 dek: Cornell meal plans pause for about 30 days over winter break, and Cornell Dining closes fully for the days around Christmas.
-meta: 'Cornell dining hours over winter break 2026-27: when fall meals end, which cafes stay open, the Dec. 25 to Jan. 1 closure and when spring meals start.'
+meta: 'Cornell dining hours over winter break 2026-27: when fall meals end, what stays open, the Dec. 25 to Jan. 1 closure and when spring meals start.'
 primary_query: cornell dining hours winter break
 topic: dining
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 243
 rewrites: ''
 readers:
@@ -50,6 +50,9 @@ sources:
 - url: https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/dining-rooms
   title: 'Cornell Dining: Residential dining rooms'
   accessed: '2026-11-10'
+- url: https://events.cornell.edu/event/annual-celebration-of-gratitude-dinner-on-thanksgiving-day-2026
+  title: 'Cornell events calendar: Annual Celebration of Gratitude Dinner on Thanksgiving Day'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Glass-walled entrance of Morrison Dining at Cornell, with outdoor tables on the plaza
@@ -89,15 +92,15 @@ rows:
 
 Source: [Cornell Dining winter break page](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining) and [deadlines and terms](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms).
 
-That leaves about 30 days between the last fall dining-room meal and the first spring one ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining)). The winter break page does not address Jan. 2 and 3, so treat those days as closed and check Dining Now.
+That leaves about 30 days between the last fall dining-room meal and the first spring one ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining)).
 
 Meal plans do not cover the break itself. Undergraduate residences also close at 2 p.m. ET on the day meals end and reopen at 9 a.m. ET on the day spring meals begin ([Cornell Housing](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice)).
 
 ## What can you eat on the open days?
 
-Cafes, coffee shops and convenience stores are open in the days after fall meals end, and again in January. Your fall BRBs work at those open spots, and you can add more BRBs ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining)). The page lists no hours or names, so open the cafe's own page on [Dining Now](https://now.dining.cornell.edu/).
+Cafes, coffee shops and convenience stores are open in the days after fall meals end, and again in January. Your fall BRBs work at those open spots, and you can add more BRBs. During break, [Dining Now](https://now.dining.cornell.edu/) carries the up-to-date list of open locations and their hours ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining)).
 
-Dining rooms are the question. Last winter, Morrison Dining ran reduced service from Jan. 4 to 12, 2026, for deep cleaning, with door prices of $8 for breakfast, $12 for lunch and brunch, and $16 for dinner. Spring 2026 meals began Jan. 13 ([Cornell Dining](https://scl.cornell.edu/news-events/news/january-morrison-dining-reduced)). Cornell has not posted which dining rooms reopen early in January 2027, so check Dining Now in early January.
+Last winter, Morrison Dining ran reduced service from Jan. 4 to 12, 2026, for deep cleaning, with door prices of $8 for breakfast, $12 for lunch and brunch, and $16 for dinner. Spring 2026 meals began Jan. 13 ([Cornell Dining](https://scl.cornell.edu/news-events/news/january-morrison-dining-reduced)).
 
 <!-- ad-break -->
 
@@ -125,7 +128,7 @@ Fixed food costs keep running over break while your meal plan pauses, and the ga
 
 Cornell sends students to Dining Now for current hours and menus ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/dining-rooms)). The meal plan week runs Thursday through Wednesday, and unused weekly swipes do not carry over ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)).
 
-The five West Campus House dining rooms hold House Dinners every Wednesday from 6 to 7 p.m., open only to House members, and reopen to everyone at 7 p.m. ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/dining-rooms)). For Thanksgiving, Cornell Dining lists a Celebration of Gratitude Dinner at Morrison Dining on Nov. 26, 2026, from 11:30 a.m. to 2:30 p.m. ([Cornell Dining](https://scl.cornell.edu/residential-life/dining)). Cornell has not listed the Thanksgiving closing times for other dining rooms, so check Dining Now before Nov. 25.
+The five West Campus House dining rooms hold House Dinners every Wednesday from 6 to 7 p.m., open only to House members, and reopen to everyone at 7 p.m. ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/dining-rooms)). For Thanksgiving, Cornell Dining lists a Celebration of Gratitude Dinner at Morrison Dining on Nov. 26, 2026, from 11:30 a.m. to 2:30 p.m. ([Cornell Dining](https://scl.cornell.edu/residential-life/dining)). Reservations are due by noon on Monday, Nov. 23, and no tickets are sold at the door. Students on a meal plan pay one meal swipe ([Cornell events calendar](https://events.cornell.edu/event/annual-celebration-of-gratitude-dinner-on-thanksgiving-day-2026)).
 
 ## What to do next
 

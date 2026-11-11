@@ -1,0 +1,91 @@
+{
+ "slug": "ny-resident",
+ "queue_id": "q-transfer-0044",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "CALS, Human Ecology, ILR, Brooks and Dyson are the colleges where NY residents pay contract tuition",
+   "source_url": "brief §6/§10",
+   "status": "ok",
+   "note": "brief lists the same five contract colleges at $49,816."
+  },
+  {
+   "claim": "Fall 2027 entry cycle; HESC, CSS Profile and FAFSA due March 15, 2027",
+   "source_url": "brief §2/§8",
+   "status": "ok",
+   "note": "brief: CSS Profile and FAFSA by March 15, 2027; NY residents also file with HESC."
+  },
+  {
+   "claim": "HESC code 0174 contract colleges, 0175 endowed",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "same codes in the brief."
+  },
+  {
+   "claim": "October 1, 2026: FAFSA opens for 2027-28; file CSS Profile ASAP after",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "fixed in place: Date is already past on 2026-11-11; changed 'opens' to 'opened'. Date itself matches brief."
+  },
+  {
+   "claim": "Aid guide 'read it before October 1'",
+   "source_url": "page",
+   "status": "ok",
+   "note": "fixed in place: October 1, 2026 has passed; changed to 'read it before you file'."
+  },
+  {
+   "claim": "March 15, 2027: Transfer Common App and fee or waiver due",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief: first deadline March 15 for application and fee or waiver."
+  },
+  {
+   "claim": "Early April 2027 official aid offers, tentative; 2027-28 prices confirmed before",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "matches the brief."
+  },
+  {
+   "claim": "April 15, 2027: College Report, Academic Evaluation, Mid-Term Report, recommendations",
+   "source_url": "brief §2/§9",
+   "status": "ok",
+   "note": "brief: April 15 for all other required materials, including Mid-Term Report and recommendations."
+  },
+  {
+   "claim": "Early to mid-June 2027 (2024 pattern): CALS, ILR, Brooks email admits; Human Ecology verify major June 8 to 30",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "matches the brief's 2024-page pattern."
+  },
+  {
+   "claim": "Early July 2027: fall tuition bill, due before registration",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "brief: billed in early July, due before registration."
+  },
+  {
+   "claim": "Cost guide: $95,218 to $99,169 billed",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "matches brief and the guide's own title."
+  },
+  {
+   "claim": "Guide descriptions: AEM runs through Dyson, CALS transfers cannot add AEM; TC3 and SUNY Broome agreements; older SUNY agreements uncertain",
+   "source_url": "brief §3/§7",
+   "status": "ok",
+   "note": "consistent with brief rows and the guides' titles and metas; ILR four courses/essays and Human Ecology design supplements per brief and guide metas."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell transfer new york resident",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

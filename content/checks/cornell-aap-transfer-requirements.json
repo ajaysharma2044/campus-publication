@@ -1,0 +1,186 @@
+{
+ "slug": "cornell-aap-transfer-requirements",
+ "queue_id": "q-transfer-0051",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "AAP takes no external B.Arch. transfer applications for fall 2027",
+   "source_url": "https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/",
+   "status": "ok",
+   "note": "brief §2 (AAP); AAP page re-opened, same wording"
+  },
+  {
+   "claim": "GPA floor 2.7 cumulative, good standing",
+   "source_url": "https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/",
+   "status": "ok",
+   "note": "brief §2; AAP page confirms"
+  },
+  {
+   "claim": "Admitted transfers generally 3.3 or better",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief GPA signals row (FAQ 325)"
+  },
+  {
+   "claim": "B.F.A.: at least ten artworks via SlideRoom; up to six answer prompts, at least four existing work; 3 to 5 minute recording; artist statement = AAP Writing Supplement; no AI work; March 15, no late portfolios",
+   "source_url": "https://aap.cornell.edu/admissions/undergraduate/art",
+   "status": "ok",
+   "note": "Opened AAP Art page; every item matches"
+  },
+  {
+   "claim": "Six qualities: form, content, rigor, drive, empathy, passion; rigor = link between form and content shaped by critical thought",
+   "source_url": "https://aap.cornell.edu/admissions/undergraduate/art",
+   "status": "ok",
+   "note": "Page defines rigor as 'strong resonance between form and content informed by critical thought'; page's paraphrase is tight enough"
+  },
+  {
+   "claim": "March 15 for application, fee, portfolio; April 15 for all other materials; decisions late April through June; fall only",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "brief §6/§2.2; admissions page confirms"
+  },
+  {
+   "claim": "$85 fee or waiver",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "Confirmed on admissions page"
+  },
+  {
+   "claim": "Materials table: Academic Evaluation (instructor), College Report (school official), Mid-Term Report (you), transcripts, all April 15",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "Who submits each matches the admissions page; brief §6.2"
+  },
+  {
+   "claim": "AAP personal statement and at least one recommendation for external applicants",
+   "source_url": "https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/",
+   "status": "ok",
+   "note": "Recommendation applies to all applicants. The personal statement is listed under the general application process but in a sub-list introduced for internal transfers; the page already hedges for URS ('the same outline works for an outside applicant'). Left as is."
+  },
+  {
+   "claim": "Urban and Regional Studies: no portfolio",
+   "source_url": "https://admissions.cornell.edu/college-and-school-transfer-admissions-requirements",
+   "status": "ok",
+   "note": "brief §2 AAP majors row; AAP page says portfolio required for B.Arch. and B.F.A. only"
+  },
+  {
+   "claim": "Central page lists three AAP majors; Architecture needs portfolio and video interview",
+   "source_url": "https://admissions.cornell.edu/college-and-school-transfer-admissions-requirements",
+   "status": "ok",
+   "note": "brief §2 and page re-opened"
+  },
+  {
+   "claim": "B.Arch. applicants need not submit models or drawings; change of major form for AAP majors; email aap-admissions to set up a meeting",
+   "source_url": "https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/",
+   "status": "ok",
+   "note": "AAP page confirms each"
+  },
+  {
+   "claim": "Credit judged only after offer; two weeks to send syllabi and coursework; portfolio may stand in for studio courses",
+   "source_url": "https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/",
+   "status": "ok",
+   "note": "brief §2.7; AAP page confirms"
+  },
+  {
+   "claim": "Credit cap 60 (64 Architecture); at least 60 Cornell credits (90 Architecture); B.Arch. 154 credits over five years; 80% similarity; department decides",
+   "source_url": "https://registrar.cornell.edu/students/credit-evaluation-services",
+   "status": "ok",
+   "note": "brief; Registrar page confirms all"
+  },
+  {
+   "claim": "75-credit junior loses 15 credits",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "75 - 60 = 15"
+  },
+  {
+   "claim": "Example: 62 credits, 60-credit cap, 2 cannot count",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "62 - 60 = 2"
+  },
+  {
+   "claim": "Cornell discourages transferring in or after junior year from a four-year school, because of credits",
+   "source_url": "https://faq.enrollment.cornell.edu/kb/article/323-can-i-transfer-to-cornell-in-my-junior-year-from-another-college/",
+   "status": "ok",
+   "note": "FAQ confirms discouragement, credit loss as reason"
+  },
+  {
+   "claim": "Matriculating juniors exempt from the residential requirement",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy",
+   "status": "fixed",
+   "note": "Old: 'exempt from the one-year on-campus rule'. The policy is a two-year requirement, and juniors/seniors are exempt only by request in the Housing application. Page reworded accordingly."
+  },
+  {
+   "claim": "Spring 2023: AAP one of five colleges that enrolled 72 spring transfers",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief spring 2023 row (Sun, Jan 26, 2023)"
+  },
+  {
+   "claim": "Internal transfer: Dec 1 spring, May 1 fall; first-years apply at end of second semester at the earliest, first-semester applications denied; internal portfolio emailed as PDF",
+   "source_url": "https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/",
+   "status": "ok",
+   "note": "brief and AAP page confirm"
+  },
+  {
+   "claim": "Fall 2021: AAP expected 15 of 674 fall transfers plus 1 spring; fewest of eight colleges; CALS 243",
+   "source_url": "https://irp.cornell.edu/wp-content/uploads/2021/08/Profile2021-Fall-Transfers.pdf",
+   "status": "ok",
+   "note": "brief by-college row (AAP 1/15/16, CALS 243); AAP is lowest among eight colleges (next lowest Engineering 37)"
+  },
+  {
+   "claim": "Tuition $73,946 for 2026-27, same for non-NY residents; grants cover tuition up to $125,000, full cost up to $75,000",
+   "source_url": "https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters",
+   "status": "ok",
+   "note": "brief §10 and §2.15"
+  },
+  {
+   "claim": "International: CSS Profile by March 15, 2027; missing deadline means no undergraduate aid later; need-aware",
+   "source_url": "https://finaid.cornell.edu/first-year-and-transfer-students-international",
+   "status": "ok",
+   "note": "brief §5 (missing-the-deadline row, sourced to the admissions pages). The finaid page itself says international applicants seeking aid at any point must file the CSS Profile at application, consistent with the brief; need-aware confirmed."
+  },
+  {
+   "claim": "US applicants file CSS Profile and FAFSA by March 15",
+   "source_url": "https://finaid.cornell.edu/apply-aid/prospective-students-or-first-time-aid-applicants",
+   "status": "ok",
+   "note": "Fall 2027 transfer: both due March 15, 2027"
+  },
+  {
+   "claim": "Documents not in English need official translations, a teacher or school official may provide",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "Confirmed"
+  },
+  {
+   "claim": "No SAT/ACT; self-report AP, IB, A-Level in Common App",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "Confirmed"
+  },
+  {
+   "claim": "Cornell takes transfers who completed two to four semesters elsewhere",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief; FAQ 330 cited"
+  },
+  {
+   "claim": "aap-studentservices@cornell.edu handles enrollment after admission",
+   "source_url": "brief §2 contact row",
+   "status": "ok",
+   "note": "brief"
+  },
+  {
+   "claim": "11.7% transfer acceptance fall 2025",
+   "source_url": "brief §10.5",
+   "status": "ok",
+   "note": "brief CDS figure"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "99e9a37d93385250f7d1e23a14391cf214b05e2f4351a9ec9605e4d9e5b18ca7"
+}

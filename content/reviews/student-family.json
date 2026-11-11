@@ -1,71 +1,83 @@
 {
  "slug": "student-family",
- "queue_id": "q-housing-0073",
+ "queue_id": "q-transfer-0047",
  "verdict": "pass",
  "fact_check": [
   {
-   "claim": "Hasbrouck takes applications on a rolling basis",
+   "claim": "Hasbrouck is not open to transfers (graduate-only)",
    "source_url": "brief §6",
    "status": "ok",
-   "note": "brief: Hasbrouck rolling applications (Cornell grad/professional campus housing page)."
+   "note": "Brief housing row: Hasbrouck rates are graduate-only and not open to undergraduate transfers."
   },
   {
-   "claim": "Hasbrouck family units for a partner/children; two-bedroom or larger on a 12-month lease",
-   "source_url": "brief §6",
+   "claim": "Transfers face a one-year on-campus rule; an individual exemption is requested with the housing application, one year at a time",
+   "source_url": "brief §2.10",
    "status": "ok",
-   "note": "brief: family and partner units hold 2 to 4 people, max two adults per unit."
+   "note": "Brief: one-year residential requirement for new transfers; exemptions through the housing application, one academic year at a time."
   },
   {
-   "claim": "Cornell housing application due April 6, 2026, including dependents or married exemption; lasts one year",
-   "source_url": "brief §1/§3",
+   "claim": "Guide 3 title and link: 'Cornell residential requirement exemptions: living off campus'",
+   "source_url": "content/articles/housing/cornell-residential-requirement-exemptions-live-off-campus.md",
    "status": "ok",
-   "note": "fixed in place: April 6 is the 2026 date per brief and already past on 2026-11-08. Reworded to 'April (April 6 in 2026; confirm the 2027 date with Cornell)' and to the brief's wording 'an exemption lasts a single academic year, so reapply each year'. Married and dependents exemptions confirmed in brief."
+   "note": "fixed in place: Item was unlinked and used a title that does not match the guide. Linked it to /housing/cornell-residential-requirement-exemptions-live-off-campus/ with the guide's own title 'Cornell two-year housing requirement: who is exempt'. Its description of the one-year rule for new transfers matches the brief."
   },
   {
-   "claim": "Tell the landlord the name of any occupant not on the lease within 30 days of move-in",
-   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/235-F",
+   "claim": "Transferring to Cornell: the complete guide for fall 2027",
+   "source_url": "content/articles/transfer/transferring-to-cornell-guide.md",
    "status": "ok",
-   "note": "brief: RPL 235-f, name within 30 days of move-in or of the landlord asking."
+   "note": "Title matches the guide's frontmatter; fall 2027 is the open cycle per brief §1."
   },
   {
-   "claim": "30 to 90 days before lease ends: Good Cause renewal notice window",
-   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/216",
+   "claim": "Cornell transfer cost 2026-27: $95,218 to $99,169 billed",
+   "source_url": "brief §10.1",
    "status": "ok",
-   "note": "brief: written notice 30 to 90 days before the lease ends."
+   "note": "Brief: triple $95,218 to super single $99,169. Recomputed: 74,970 + 12,644 + 7,604 = 95,218 and 74,970 + 16,595 + 7,604 = 99,169. Title matches the cost guide."
   },
   {
-   "claim": "July 31: most Ithaca leases end",
-   "source_url": "brief §6",
+   "claim": "Cost guide covers Student Health Plan rates for a spouse, partner or children",
+   "source_url": "content/articles/transfer/cornell-transfer-cost-first-year.md",
    "status": "ok",
-   "note": "brief: most Ithaca leases expire July 31 (reported at the 2024 hearing)."
+   "note": "The guide has a reader block for a transfer with a partner or children and a health plan section."
   },
   {
-   "claim": "By August 1: DHCR usually publishes the CPI figure behind the Good Cause rent standard",
-   "source_url": "https://hcr.ny.gov/good-cause-eviction",
+   "claim": "Veterans guide covers rules for veterans and returning students, including housing",
+   "source_url": "content/articles/transfer/veterans-transferring-to-cornell.md",
    "status": "ok",
-   "note": "brief: DHCR usually publishes CPI figure by August 1."
+   "note": "Guide meta says the dorm rule is waived for veterans; title and scope match."
   },
   {
-   "claim": "March to April: start looking for August start (grad timing)",
-   "source_url": "brief §6",
+   "claim": "Within ten days of getting a NetID: apply for housing through the Housing and Dining Portal; exemption request goes with the application",
+   "source_url": "brief §2.10",
    "status": "ok",
-   "note": "matches the grad guide meta ('Start in March or April for August')."
+   "note": "Brief: apply within ten days of NetID; individual exemptions requested through the housing application."
   },
   {
-   "claim": "Guide descriptions: six guides and three tools, each description matches the linked page's title and meta",
-   "source_url": "linked pages' frontmatter",
+   "claim": "Mid-June: housing confirmations or waitlist; June 15 no-penalty cancel date for leave or deferral (2026 pattern)",
+   "source_url": "brief §2.10 and §7",
    "status": "ok",
-   "note": "Compared against titles/metas of the guides; the tool pages exist (checks and reviews present). No numbers are stated in the descriptions."
+   "note": "Brief: confirmation from mid-June; no-penalty cancellation by June 15, 2026 for fall; marked 2026 pattern."
   },
   {
-   "claim": "Quiz: for an undergrad parent or married undergrad, whether dependents or married exemption applies",
-   "source_url": "brief §1",
+   "claim": "July or August: SHP dependent coverage starts, with a different rate for each",
+   "source_url": "brief §2.17",
    "status": "ok",
-   "note": "brief lists both exemptions (married students not subject; dependents)."
+   "note": "Brief: spouse/partner or one child $4,092 (from July) or $3,751 (from August). The page gives no figures, only that the rates differ."
+  },
+  {
+   "claim": "July 31 (2026 pattern): SHP waiver deadline for fall new admits; waivers lock after",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "Brief matches. The brief marks this a search-snippet fact (the page was not opened), but the page labels it a 2026 pattern."
+  },
+  {
+   "claim": "August 1: SHP coverage starts for new fall students",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Brief: SHP for new fall students starts Aug 1."
   }
  ],
  "beats_top": {
-  "query": "cornell family housing",
+  "query": "cornell transfer student parent",
   "top_url": "",
   "better": "n/a",
   "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
@@ -74,6 +86,6 @@
  "fixes": [],
  "brief_updates": [],
  "core_answer": "right",
- "reviewed_at": "2026-11-08",
+ "reviewed_at": "2026-11-11",
  "checked_by": "scripts/v3/check.sh"
 }

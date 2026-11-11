@@ -1,0 +1,176 @@
+{
+ "slug": "cornell-dyson-transfer-requirements",
+ "queue_id": "q-transfer-0049",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Dyson takes external transfers for fall only; deadline March 15 (2027 for fall 2027)",
+   "source_url": "https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/",
+   "status": "ok",
+   "note": "Opened the page: 'deadline is March 15 for fall semester'; year 2027 per brief §1 (open cycle is fall 2027)."
+  },
+  {
+   "claim": "Required courses: calculus, microeconomics, statistics, one writing/English composition course, each B or better",
+   "source_url": "https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/",
+   "status": "ok",
+   "note": "Page text matches; writing course also B or better. Brief §2 row for Dyson current page."
+  },
+  {
+   "claim": "Admitted transfers generally have at least a 3.5 GPA; FAQ says admitted students generally 3.5",
+   "source_url": "https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/",
+   "status": "fixed",
+   "note": "Page body says 'generally have achieved at least a 3.5'; the FAQ says 'a minimum 3.5 GPA and good academic standing'. The page had them swapped and called it 'not a hard cutoff'. Reworded the GPA section sentence to match the source; the glance box ('generally') was already right."
+  },
+  {
+   "claim": "AP and IB never replace calculus, statistics, microeconomics or macroeconomics; at most 15 test credits; up to 60 transfer credits",
+   "source_url": "brief §2 / business.cornell.edu AEM page",
+   "status": "ok",
+   "note": "Quote and 15/60 limits confirmed on the page and in the brief."
+  },
+  {
+   "claim": "Current juniors and seniors cannot apply; first-year, sophomore or rising junior only",
+   "source_url": "https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/",
+   "status": "ok",
+   "note": "Quoted on the page."
+  },
+  {
+   "claim": "Internal transfer: Cornell GPA minimum 3.0, 3.3 or higher competitive; Sun 2019 usually 3.3 or higher",
+   "source_url": "https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/",
+   "status": "ok",
+   "note": "Page confirms 3.0 and 3.3; Sun 2019 brief §4."
+  },
+  {
+   "claim": "2026-27 tuition $49,816 NY contract, $73,946 other",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief §10 cost rows."
+  },
+  {
+   "claim": "Cost table: fees $1,024, double $13,744, Unlimited $7,604, totals $72,188 and $96,318",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Values in brief. Recomputed: 49,816+1,024+13,744+7,604 = 72,188; 73,946+1,024+13,744+7,604 = 96,318."
+  },
+  {
+   "claim": "Books $1,234, personal $2,182; SHP $1,705 fall, $2,046 spring",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "brief §10 rows."
+  },
+  {
+   "claim": "Dyson 54 of 674 fall 2021 transfers, none in spring; 8.0%",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief IRP 2021 table: Dyson n/a/54/54. Recomputed 54/674 = 8.01%."
+  },
+  {
+   "claim": "864 of 7,381 transfer applicants fall 2025, 11.7%",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Recomputed 864/7,381 = 11.71%."
+  },
+  {
+   "claim": "12 semester hours after high school or full-time enrollment; two to four semesters elsewhere; first college semester cannot apply",
+   "source_url": "brief §1",
+   "status": "ok",
+   "note": "Brief rows; Dyson page also says 12 or more credits."
+  },
+  {
+   "claim": "Hotel: no minimum GPA, generally 3.3 or better; ILR most admits 3.4 or more; course lists and junior entry as in comparison table",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief Hotel and ILR rows match table. Hotel/ILR tuition type per brief tuition rows."
+  },
+  {
+   "claim": "Cornell-wide admitted transfers generally 3.3 or better; about a quarter from community colleges; no preference by school type",
+   "source_url": "brief §1",
+   "status": "ok",
+   "note": "brief §1 FAQ 325 rows."
+  },
+  {
+   "claim": "Deadlines: March 15 application, $85 fee, portfolio; April 15 everything else; resume required for AEM; interviews only Architecture",
+   "source_url": "brief §1",
+   "status": "ok",
+   "note": "Brief rows for deadlines, fee, resume, portfolios."
+  },
+  {
+   "claim": "College Report, Academic Evaluation, Mid-Term Report, transcripts due April 15",
+   "source_url": "brief §1",
+   "status": "ok",
+   "note": "Brief rows."
+  },
+  {
+   "claim": "CSS Profile and FAFSA due March 15, 2027; FAFSA opened Oct 1, 2026",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief aid rows."
+  },
+  {
+   "claim": "Transfer Option application has no fee; SC Johnson extra is resume, no interview",
+   "source_url": "brief §1",
+   "status": "ok",
+   "note": "Brief TO rows."
+  },
+  {
+   "claim": "Decisions late April through June; Dyson met transfers in July (2024); Dyson_OSS@cornell.edu; transfer move-in Aug 18, 2026",
+   "source_url": "brief §1, §8",
+   "status": "ok",
+   "note": "Brief rows."
+  },
+  {
+   "claim": "Spring 2023: 72 transfers across five colleges including SC Johnson",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief row cites Sun 2023."
+  },
+  {
+   "claim": "Credit table: 30, 45, 60, 75, 90 credits accepted up to 60; lost 0/0/0/15/30",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed min(credits, 60) and credits minus 60. Cap from brief §2."
+  },
+  {
+   "claim": "Cornell requires at least 60 credits at Cornell; C minimum; 80% similarity; seven-year age; no denial for online or community college; math below precalculus does not transfer",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief registrar rows."
+  },
+  {
+   "claim": "One-year on-campus rule; exceptions for two years elsewhere or junior/senior entry; housing application within ten days of NetID",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Brief housing rows."
+  },
+  {
+   "claim": "Fall tuition billed early July via Cashnet; parents see the bill only if invited; 2027-28 prices confirmed before early April offers",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief rows."
+  },
+  {
+   "claim": "Aid: need-based only; $125,000 tuition covered, $75,000 full cost; HEOP email stateprograms@cornell.edu",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief rows."
+  },
+  {
+   "claim": "CALS: AEM applicants apply through Dyson; CALS transfers cannot change to or add AEM; TC3 pathway leads to CALS Agricultural Sciences",
+   "source_url": "brief §2, §5",
+   "status": "ok",
+   "note": "Brief rows."
+  },
+  {
+   "claim": "Caption: Warren Hall is home of the Dyson School",
+   "source_url": "https://business.cornell.edu/",
+   "status": "ok",
+   "note": "Not in the brief; well-established location, low risk; photo license metadata untouched."
+  }
+ ],
+ "brief_updates": [
+  "Replaced the Dyson GPA row (was an unread search snippet) with the page's own wording: 'generally at least 3.5' in the body, 'minimum 3.5 GPA and good standing' in the FAQ; added a change-log line. Source https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/"
+ ],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "fa19ba3372e874d717a19f653ff5eadebb0e486a09e29df0b0217b56809614bd"
+}

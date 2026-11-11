@@ -1,0 +1,84 @@
+{
+ "slug": "transfer-engineering",
+ "queue_id": "q-transfer-0040",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Engineering asks for a fixed course block before reading an application, admits straight into one major, sets its own credit caps and exam thresholds",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief rows for Engineering required core, direct-to-major, 66 cap, exam thresholds"
+  },
+  {
+   "claim": "CS comes through Engineering's B.S. or Arts and Sciences' B.A.",
+   "source_url": "https://www.cs.cornell.edu/bachelor-arts-computer-science/apply",
+   "status": "ok",
+   "note": "brief §2.6 had it from a snippet; the CS apply page confirms B.A. is through A&S (admission to A&S, not the major) and B.S. through Engineering"
+  },
+  {
+   "claim": "Link https://www.cs.cornell.edu/node/17",
+   "source_url": "https://www.cs.cornell.edu/bachelor-arts-computer-science/apply",
+   "status": "fixed",
+   "note": "node/17 returns 404; replaced on the page with the CS B.A. apply page that states the two routes"
+  },
+  {
+   "claim": "Required courses: MATH 1910, MATH 1920, PHYS 1112 with 1110, CHEM 2090 with 2091, finished, in progress or planned",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "matches brief row on Engineering required core"
+  },
+  {
+   "claim": "March 15, 2027: Transfer Common App, fee or waiver, CSS Profile and FAFSA due",
+   "source_url": "brief §2.2, 2.15",
+   "status": "ok",
+   "note": "brief: March 15 application and fee; CSS and FAFSA March 15, 2027 for fall 2027"
+  },
+  {
+   "claim": "April 15, 2027: Mid-Term Report, recommendations and all other materials due",
+   "source_url": "brief §2.2, 8",
+   "status": "ok",
+   "note": "brief change-calendar line for April 15, 2027"
+  },
+  {
+   "claim": "Right after admission: course description form with Enrollment Response Form; Engineering emailed admitted transfers from early June in 2024",
+   "source_url": "brief §2.6, 2.10",
+   "status": "ok",
+   "note": "both rows in brief"
+  },
+  {
+   "claim": "Mid-August fall 2026 pattern: optional MATH CASE Thursday Aug 20, 9 to 11 a.m., Olin Hall 155",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "brief row matches; Aug 20, 2026 is a Thursday"
+  },
+  {
+   "claim": "Dec 7 in 2026: last day of instruction; deadline to request AP, IB or other exam credit in writing from the college registrar",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "brief lines for Dec 7 and exam-credit deadline"
+  },
+  {
+   "claim": "Cost title: $95,218 to $99,169 billed, 2026-27",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "recomputed 74,970+12,644+7,604=95,218 and 74,970+16,595+7,604=99,169, as in the brief"
+  },
+  {
+   "claim": "Guide descriptions (eight guides, four tools) match their titles and metas",
+   "source_url": "content/articles/transfer/*",
+   "status": "ok",
+   "note": "checked each description against the guide's title and meta; the Engineering guide has sections on required courses, major and standing, CS routes, credit; the AP, deadlines, cost, orientation and enrollment descriptions agree with their metas. Tools exist as check/review files; descriptions agree with their titles"
+  },
+  {
+   "claim": "Removed line: 'Not in the brief: transfer admit numbers for computer science...'",
+   "source_url": "n/a",
+   "status": "fixed",
+   "note": "page may not say research lacks something (publish lint); line cut, no heading or glance promise depended on it"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "07eebf638aadb7736f7297b8ea62f7be045497d8eb872508cd25a7b08554f9ab"
+}

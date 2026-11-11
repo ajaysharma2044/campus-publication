@@ -434,3 +434,63 @@ Entry shape (`scripts/v3/run.sh` appends one per newly published page after each
   Summary: A shared Collegetown 4BR runs about $1,285 to $1,373 a person a month with power, internet and insurance; Cornell's double works out to $1,145.
   Ajay: 
 
+- 2026-11-11 | Can I transfer to Cornell? Eligibility and college quiz | /tools/cornell-transfer-eligibility-quiz/ | tool | transfer
+  Summary: Enter credits, semesters, college, major and GPA to see if you can apply as a Cornell transfer, your likely standing, closed majors and the housing rule.
+  Ajay: 
+
+- 2026-11-11 | Cornell transfer credit calculator: credits lost, semesters | /tools/cornell-transfer-credit-calculator/ | tool | transfer
+  Summary: Enter credits, college, AP/IB and course load; see how many credits Cornell can accept, how many you lose and how many semesters you need.
+  Ajay: 
+
+- 2026-11-11 | Cornell transfer cost calculator: required year, 2026-27 | /tools/cornell-transfer-cost-calculator/ | tool | transfer
+  Summary: Pick your Cornell college, residency, room, meal plan and health plan; see the required year's billed total, full cost and cost a month, 2026-27 prices.
+  Ajay: 
+
+- 2026-11-11 | Cornell transfer timeline: your dates, Nov 2026 to Dec 2027 | /tools/cornell-transfer-timeline/ | tool | transfer
+  Summary: Pick your situation and Cornell college; get every dated step from now to December 2027: aid forms, March 15 and April 15, housing, bills, move-in.
+  Ajay: 
+
+- 2026-11-11 | Cornell transfer application checklist by college | /tools/cornell-transfer-application-checklist/ | tool | transfer
+  Summary: Pick your Cornell college, major and situation. Get every transfer application piece, who completes it, and its deadline: March 15 or April 15, 2027.
+  Ajay: 
+
+- 2026-11-11 | Cornell transfer admissions, 2017 to 2026: 12 terms | /datasets/cornell-transfer-admissions-data-2017-2026/ | dataset | transfer
+  Summary: Cornell transfer applicants, admits and enrollees for 12 entering terms, fall 2017 to fall 2026, each graded by source: 11.7% admitted in fall 2025.
+  Ajay: 
+
+- 2026-11-11 | Cornell transfer rules by college, 2026-27: 9 colleges | /datasets/cornell-transfer-rules-by-college-2026-27/ | dataset | transfer
+  Summary: GPA figures, credit caps, time at Cornell, prerequisites and deadlines for transfers into 9 Cornell colleges, from college pages read Nov 11, 2026.
+  Ajay: 
+
+- 2026-11-11 | Cornell transfer year cost by room, 2026-27: 13 options | /datasets/cornell-transfer-year-cost-by-room-2026-27/ | dataset | transfer
+  Summary: What Cornell's required transfer year costs in 13 rooms, 2026-27: halls $95,218 to $99,169 billed at endowed tuition; co-op doubles from $6,974.
+  Ajay: 
+
+- 2026-11-11 | Junior transfers to Cornell: start here | /start/transfer-junior/ | start_here | transfer
+  Summary: For students entering Cornell as a junior: which college will take you, how many credits transfer, the deadlines, the cost and where you will live.
+  Ajay: 
+
+- 2026-11-11 | Community college transfers to Cornell: start here | /start/transfer-community-college/ | start_here | transfer
+  Summary: For community college students eyeing Cornell: whether a pathway fits, which credits transfer, what aid covers and when to apply for fall 2027.
+  Ajay: 
+
+- 2026-11-11 | Cornell Transfer Option holders: start here | /start/transfer-option/ | start_here | transfer
+  Summary: For students holding a Cornell Transfer Option: what to read, in order, from the year elsewhere to the March application, the decision and move-in.
+  Ajay: 
+
+- 2026-11-11 | Engineering and CS transfers to Cornell: start here | /start/transfer-engineering/ | start_here | transfer
+  Summary: For students transferring into Cornell Engineering or CS: the required courses, which major to name, what credit counts, the deadlines and the cost.
+  Ajay: 
+
+- 2026-11-11 | New York residents transferring to Cornell: start here | /start/ny-resident/ | start_here | transfer
+  Summary: For New York residents transferring to Cornell: which colleges charge contract tuition, which aid forms to file and where to apply for fall 2027.
+  Ajay: 
+
+- 2026-11-11 | Veterans and older transfers to Cornell: start here | /start/veteran-nontraditional/ | start_here | transfer
+  Summary: For veterans and older students transferring to Cornell: which credits count, who writes your reference, GI Bill or aid, and where to live.
+  Ajay: 
+
+- 2026-11-11 | Switching colleges inside Cornell: start here | /start/internal-transfer/ | start_here | transfer
+  Summary: For current Cornell students moving to another Cornell college: which internal transfer rules apply, your deadlines and which guide to read next.
+  Ajay: 
+

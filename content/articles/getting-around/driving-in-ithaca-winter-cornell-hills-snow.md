@@ -7,7 +7,7 @@ primary_query: driving in Ithaca in winter
 topic: getting-around
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 273
 rewrites: ''
 readers:
@@ -51,6 +51,9 @@ sources:
 - url: https://www.511ny.org
   title: 511NY traffic and travel information
   accessed: '2026-11-10'
+- url: https://www.nysenate.gov/legislation/laws/VAT/375
+  title: N.Y. Vehicle and Traffic Law 375, New York State Senate
+  accessed: '2026-11-11'
 - url: https://emergency.cornell.edu/?p=5006
   title: Winter Storm Fern closure notice, Cornell Emergency Management
   accessed: '2026-11-10'
@@ -113,7 +116,7 @@ The city plows about 65 miles of road. Emergency lanes come first, then the high
 
 Salt has limits. A pound melts 46 pounds of ice at 30F but barely 5 pounds at 10F, and campus uses more than 2,500 tons in a typical winter ([Cornellians magazine](https://alumni.cornell.edu/cornellians/cold-comforts-of-a-big-red-winter)). On the coldest mornings, the road can stay slick after a plow has passed.
 
-The sources behind this page set no tire or chain rule for Ithaca roads. Ask your insurer or a local tire shop about winter tires, and check [511NY](https://www.511ny.org), the state's travel information map, before an out-of-town drive.
+New York allows studded tires on a private car only from Oct. 16 to Apr. 30 ([N.Y. Vehicle and Traffic Law 375](https://www.nysenate.gov/legislation/laws/VAT/375)). Ask your insurer or a local tire shop about winter tires, and check [511NY](https://www.511ny.org), the state's travel information map, before an out-of-town drive.
 
 ## What to do before the first storm
 

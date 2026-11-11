@@ -5,7 +5,7 @@ primary_query: Uber Lyft Ithaca reliable taxi
 topic: getting-around
 school: cornell-university
 type: comparison
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0045
 kind: spoke
 subject: Ithaca Commons
@@ -22,7 +22,7 @@ tools:
 sources:
 - url: https://flyithaca.com/taxis
   title: Taxis, Ithaca Tompkins International Airport
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://flyithaca.com/?p=13
   title: Ground transportation (older page), Ithaca Tompkins International Airport
   accessed: '2026-11-08'
@@ -37,7 +37,7 @@ sources:
   accessed: '2026-11-08'
 - url: https://theithacan.org/news/ride-hailing-services-slightly-less-expensive-than-taxis-in-ithaca/
   title: Ride-hailing services slightly less expensive than taxis in Ithaca, The Ithacan, September 19, 2017
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2017/07/01/uber-lyft-begin-trial-period-in-ithaca/
   title: Uber, Lyft Begin Trial Period in Ithaca, The Cornell Daily Sun, July 1, 2017
   accessed: '2026-11-08'
@@ -64,7 +64,7 @@ sources:
   accessed: '2026-11-08'
 - url: https://www.uber.com/global/en/r/airports/ith/taxi/
   title: Taxi at Ithaca Airport (ITH), Uber
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources
   title: Travel Resources, Cornell Transportation and Delivery Services
   accessed: '2026-11-08'
@@ -80,6 +80,15 @@ sources:
 - url: https://www.cornellsun.com/article/2025/07/service-changes-for-july-4-holiday-weekend-tcat-buses-curbside-recycling-city-offices-will-be-closed-on-independence-day
   title: Service changes for July 4 holiday weekend, The Cornell Daily Sun, July 2, 2025
   accessed: '2026-11-08'
+- url: https://www.cityofithacany.gov/196/Taxicab-Rates-Regulations
+  title: 'Taxicab Rates & Regulations, City of Ithaca'
+  accessed: '2026-11-11'
+- url: https://www.uber.com/global/en/r/airports/ith/
+  title: 'ITH Airport Dropoff: How to Get There, Uber'
+  accessed: '2026-11-11'
+- url: https://www.flyithaca.com/ride-share
+  title: Ride Share Apps, Ithaca Tompkins International Airport
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Black and white photo of a long railroad trestle high above a country road, with one car parked underneath
@@ -97,7 +106,7 @@ images:
 - Three taxi firms run 24/7: Ithaca Airport Cab 607-252-9052, Collegetown Cab 607-588-8888, Ithaca Dispatch 607-277-7777.
 - For a flight, prebook a cab. No bus runs for a 5:30 a.m. departure, and the airport says to prebook for late flights.
 - The free Blue Light bus (TCAT Route 92) runs nightly from 6:30 p.m. to 2:30 a.m., year-round.
-- No current fares are published. The newest side-by-side sample is from 2017: $19 by taxi and $17.49 by UberX from Ithaca College to the airport.
+- A cab from the City to ITH costs a set $17.50. Uber's average UberX airport ride is $40.
 ```
 
 Uber and Lyft work in Ithaca, but [Visit Ithaca warned in May 2026](https://www.visitithaca.com/blog/post/your-guide-to-a-great-college-family-weekend-in-ithaca/) that rides are limited outside downtown, and a student told the Sun in 2022 that Uber is hard to get downtown at night. For anything with a deadline, such as a flight, book one of the [three taxi firms the airport lists](https://flyithaca.com/taxis) ahead of time. After dark, the free [Blue Light bus on Route 92 runs until 2:30 a.m.](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation)
@@ -111,15 +120,15 @@ Visit Ithaca says you don't need a car for a family weekend, but Uber and Lyft a
 ```
 
 ```reader "If you're an international student"
-You probably connect to Ithaca through JFK or Washington Dulles. The ITH terminal is open [3:30 a.m. to midnight](https://flyithaca.com). TCAT Routes [32 (weekdays) and 72 (weekends)](https://www.flyithaca.com/public-transportation) run to the Commons for $1.50, but not late at night. If your connection lands after the buses stop, you need a cab. Book it before you leave home and give the driver your flight number: Ithaca Airport Cab 607-252-9052, Collegetown Cab 607-588-8888 or Ithaca Dispatch 607-277-7777. Ithaca Airport Cab takes all payment types with no card fee. Don't plan on an Uber at ITH near midnight. App rides thin out after dark, and nobody publishes wait times.
+You probably connect to Ithaca through JFK or Washington Dulles. The ITH terminal is open [3:30 a.m. to midnight](https://flyithaca.com). TCAT Routes [32 (weekdays) and 72 (weekends)](https://www.flyithaca.com/public-transportation) run to the Commons for $1.50, but not late at night. If your connection lands after the buses stop, you need a cab. Book it before you leave home and give the driver your flight number: Ithaca Airport Cab 607-252-9052, Collegetown Cab 607-588-8888 or Ithaca Dispatch 607-277-7777. Ithaca Airport Cab takes all payment types with no card fee. Don't plan on an Uber at ITH near midnight. App rides thin out after dark, and [Uber itself warns](https://www.uber.com/global/en/r/airports/ith/) of longer waits for a driver around early and late flights.
 ```
 
 ```reader "If you fly home every break"
-Your risk is the 5:30 a.m. flight with no ride. No bus runs then, so call a cab firm [a day ahead](https://flyithaca.com/taxis). Ask the fare when you book. The newest published numbers are an [older airport page's](https://flyithaca.com/?p=13) $12 to $15 base plus $1.50 a bag, and a 2017 sample of $19 from Ithaca College to ITH. Split the cab with a friend on the same flight. Coming back, the terminal closes at midnight, so prebook the ride home for a late landing too.
+Your risk is the 5:30 a.m. flight with no ride. No bus runs then, so call a cab firm [a day ahead](https://flyithaca.com/taxis). From the City, the fare to ITH is a set [$17.50](https://www.cityofithacany.gov/196/Taxicab-Rates-Regulations), and a friend on the same flight adds no more than $1.50, so split the cab. Coming back, the terminal closes at midnight, so prebook the ride home for a late landing too.
 ```
 
 ```reader "If you're staying in Ithaca over a break"
-TCAT is free for upper-years on weekends and after 6 p.m. TCAT does not run on Thanksgiving or Christmas, per a [2025 Sun item](https://www.cornellsun.com/article/2025/07/service-changes-for-july-4-holiday-weekend-tcat-buses-curbside-recycling-city-offices-will-be-closed-on-independence-day) on TCAT's holiday schedule, and a [2013 Sun column](https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved) described no TCAT service that day. Do Thanksgiving errands on Wednesday, and keep Ithaca Dispatch (607-277-7777) saved for the day itself. Nobody publishes break-week Uber waits, so don't count on one. For groceries, Ithaca Carshare's Just In Case plan is [$75 a year plus $9 an hour](https://www.ithacacarshare.org/rates). If you shop more than once over the break, that can beat a cab both ways each time.
+TCAT is free for upper-years on weekends and after 6 p.m. TCAT does not run on Thanksgiving or Christmas, per a [2025 Sun item](https://www.cornellsun.com/article/2025/07/service-changes-for-july-4-holiday-weekend-tcat-buses-curbside-recycling-city-offices-will-be-closed-on-independence-day) on TCAT's holiday schedule, and a [2013 Sun column](https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved) described no TCAT service that day. Do Thanksgiving errands on Wednesday, and keep Ithaca Dispatch (607-277-7777) saved for the day itself. For groceries, a cab trip that starts and ends in the City is [$7.50 by day](https://www.cityofithacany.gov/196/Taxicab-Rates-Regulations). Ithaca Carshare's Just In Case plan is [$75 a year plus $9 an hour](https://www.ithacacarshare.org/rates), and that yearly fee alone equals five daytime cab round trips in the City.
 ```
 
 ## How reliable Uber and Lyft are in Ithaca
@@ -129,20 +138,20 @@ Uber and Lyft came to Ithaca with a [trial period that began in mid-2017](https:
 Coverage is uneven in two ways.
 
 - **By place.** Visit Ithaca's May 12, 2026 guide to family weekends says app rides are limited outside downtown. Downtown, Collegetown and campus are the safe bets.
-- **By hour.** The 2022 Sun story on TCAT cuts quotes a student, Ribo Li '24, saying Uber is hard to get downtown at night. Late-night gaps come up in four sources from 2016 to 2024: two Sun stories, The Ithacan and one Reddit mirror. No complaint about rides here comes up more.
+- **By hour.** The 2022 Sun story on TCAT cuts quotes a student, Ribo Li '24, saying Uber is hard to get downtown at night. Uber's own [ITH page](https://www.uber.com/global/en/r/airports/ith/) says the app runs 24/7 but warns of longer driver arrival times for early and late flights.
 
 The 2017 trial drew [mixed reviews in the Sun](https://cornellsun.com/2017/08/29/uber-lyft-receive-mixed-reviews-during-trial-period). Students liked the apps when they were in a hurry. One 3.5-mile ride cost more than $20 under surge pricing.
 
-Not confirmed: current Uber and Lyft wait times or prices in Ithaca. Neither company publishes them, and no measurement newer than 2017 exists.
+Uber Reserve books a ride to ITH up to 90 days ahead and locks in the price when you book. Uber says it does not guarantee that a driver will accept, and a reserved ride is confirmed only once driver details arrive ([Uber](https://www.uber.com/global/en/r/airports/ith/)).
 
 ## The three taxi firms and who dispatches for whom
 
-The airport's taxi page lists three firms, all running 24/7. It posts no fares and says to prebook for late flights.
+The [airport's taxi page](https://flyithaca.com/taxis) lists three firms, all running 24/7, and says to prebook for late flights.
 
 | Firm | Phone | How to book | Notes |
 |---|---|---|---|
 | Ithaca Airport Cab | 607-252-9052 | Phone | All payment types, no card fee |
-| Collegetown Cab | 607-588-8888 | Phone, online or app | An older airport page lists its fares |
+| Collegetown Cab | 607-588-8888 | Phone, online or app | An older airport page listed its fares |
 | Ithaca Dispatch | 607-277-7777 | Phone | Largest fleet; also dispatches University Taxi, Yellow Cab and Cayuga Taxi |
 
 Source: [ITH taxis page](https://flyithaca.com/taxis); dispatch details from the [Ithaca LocalWiki](https://localwiki.org/ithaca/Ithaca_Dispatch).
@@ -151,24 +160,52 @@ Ithaca Dispatch matters more than one line suggests. If you find a number for Un
 
 Uber does not hand you a cab. Its ITH page says [taxis are not offered through Uber](https://www.uber.com/global/en/r/airports/ith/taxi/) at the airport, so call the firm directly.
 
-For Syracuse, Cornell lists [Big D's Limousines at 607-273-3030 ext 2](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources) as a car service. It posts no price.
+For Syracuse, Cornell lists [Big D's Limousines at 607-273-3030 ext 2](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources) as a car service.
 
-## What a ride costs, and why every number is old
+## What a ride costs
 
-The City sets Ithaca taxi fares in [six zones](https://theithacan.org/news/ride-hailing-services-slightly-less-expensive-than-taxis-in-ithaca/), so a fare depends on where you start and end. Rideshare prices move with demand.
+Ithaca's Common Council sets cab fares, and the rates it adopted on Feb. 3, 2016 [remain in effect](https://www.cityofithacany.gov/196/Taxicab-Rates-Regulations). A trip inside the City has one flat fare by time of day. A trip from the City to a listed place outside it has its own fixed fare.
 
-Not confirmed: the City's current zone fare schedule, which is not posted online. Ask the dispatcher for the fare when you book.
+| Trip that starts in the City | Fare |
+|---|---|
+| Anywhere in the City, 6 a.m. to 6 p.m. | $7.50 |
+| Anywhere in the City, 6 p.m. to 6 a.m. | $8 |
+| To the airport (ITH) | $17.50 |
+| To Ithaca College | $11 |
+| To East Hill Plaza | $11 |
+| To Cayuga Medical Center | $11 |
+| To the malls and Triphammer area | $12 |
+| To Convenient Care | $15 |
+| To Trumansburg | $30 |
+| To TC3 | $31 |
 
-The only side-by-side prices come from The Ithacan's sample of September 19, 2017. They are nine years old, so read them as a ratio, not a quote. The article does not say how many trips it priced.
+Source: [City of Ithaca taxicab rates](https://www.cityofithacany.gov/196/Taxicab-Rates-Regulations).
+
+The same City page sets the extras a driver can add to the fare:
+
+| Extra | Charge |
+|---|---|
+| Each extra rider in your party, going to the same place | $1.50 |
+| Oversized luggage and trunks of 50 pounds or more | $3 |
+| An exclusive ride, if you won't share the cab with other riders | $3 |
+| Waiting at your request, after five free minutes | $2.50 for each five minutes or part of one |
+| A rider 65 or older | $1.50 off |
+| One child 5 or under, riding with an adult | Free |
+
+The driver can ask you to pay up front. Drivers cannot ask for tips or for any charge the City has not authorized, though you are free to tip. Complaints about a ride go to the [City Clerk's Office](https://www.cityofithacany.gov/196/Taxicab-Rates-Regulations) at 607-274-6570.
+
+Example: two parents and a student ride together from a hotel in the City to ITH. At the [City's rates](https://www.cityofithacany.gov/196/Taxicab-Rates-Regulations), that is the airport fare plus two extra riders, $20.50.
+
+Uber has no flat rate at ITH. It shows a price up front, and the airport notes that app [prices and availability vary](https://www.flyithaca.com/ride-share) with the time of day and demand. Uber's [ITH page](https://www.uber.com/global/en/r/airports/ith/taxi/) puts the average UberX ride to or from the airport at $40 and 14 minutes, over the six months to November 2026. That is more than twice the City's cab fare to ITH, though Uber's average covers rides from anywhere.
+
+A [sample by The Ithacan](https://theithacan.org/news/ride-hailing-services-slightly-less-expensive-than-taxis-in-ithaca/), published Sept. 19, 2017, found the reverse. UberX was $1.51 cheaper than a cab from Ithaca College to the airport, and an UberXL was $8.56 more.
 
 | Trip, 2017 | UberX | UberXL | Taxi |
 |---|---|---|---|
 | Ithaca College to the Commons | $7.35 (Mon 5 p.m.) to $9.59 (Sat 1:45 a.m.) | $10.50 to $14.18 | $11 city base |
 | Ithaca College to the airport | $17.49 (Tue 12:30 p.m.) | $27.56 | $19 |
 
-Two patterns hold even with old numbers, by our arithmetic on the sample. UberX ran a little cheaper than a cab: $1.51 less to the airport. A group in an UberXL paid more: $8.56 more than a cab to the airport.
-
-The airport's older ground-transport page, undated, gives a second set of taxi numbers:
+The airport's older ground-transport page, undated, gave a second set of taxi numbers:
 
 ```figure
 kind: cost_table
@@ -180,7 +217,7 @@ rows:
   - {label: "ASAPCAB, within the City or Cornell", value: "$14 per person"}
 ```
 
-Example: two parents and a student with three bags ride from campus to ITH. At the old Collegetown Cab rates, the $15 minimum plus three bags at $1.50 comes to $19.50. At ASAPCAB's per-person rate, the same three people pay $42. Ask how a firm prices a group before you get in.
+For a trip that starts in the City, go by the City's schedule above.
 
 ## When to use which
 
@@ -218,11 +255,11 @@ rows:
 
 **Can I get an Uber from the Ithaca airport?** Yes, the airport says to [book Uber and Lyft by app](https://flyithaca.com/taxis). If no driver appears, call a cab firm directly, since Uber does not offer taxis at ITH.
 
-**How are Ithaca taxi fares set?** The City sets them in [six zones](https://theithacan.org/news/ride-hailing-services-slightly-less-expensive-than-taxis-in-ithaca/), so the fare depends on where you start and end. Ask for it when you book.
+**How are Ithaca taxi fares set?** Common Council [sets them](https://www.cityofithacany.gov/196/Taxicab-Rates-Regulations). A trip inside the City is a flat $7.50 by day and $8 at night. Trips from the City to listed places outside it, such as the airport, have fixed fares.
 
 **Can I pay a cab by card?** Ithaca Airport Cab takes [all payment types with no card fee](https://flyithaca.com/taxis), and Collegetown Cab books online and by app. Ask the others when you call.
 
-**Is there a way to share a longer ride?** Cornell lists [Finger Lakes Rideshare and a Student Rideboard](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources) for matching rides. It lists no prices.
+**Is there a way to share a longer ride?** Cornell lists [Finger Lakes Rideshare and a Student Rideboard](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources) for matching rides.
 
 **What if I get back after the Blue Light bus stops?** It stops at 2:30 a.m. After that a cab is the option, and all three firms run 24/7.
 

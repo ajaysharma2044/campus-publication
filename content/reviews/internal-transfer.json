@@ -1,0 +1,67 @@
+{
+ "slug": "internal-transfer",
+ "queue_id": "q-transfer-0048",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "November 18, 2026: Hotel School internal transfer office hours",
+   "source_url": "brief §6 (Hotel internal row) and timeline",
+   "status": "ok",
+   "note": "brief §6 lists office hours October 27 and November 18, 2026."
+  },
+  {
+   "claim": "December 1, 2026: spring internal deadline, Hotel School (11:59 pm ET) and AAP",
+   "source_url": "brief §8 (Spring internal transfer row)",
+   "status": "ok",
+   "note": "brief §8 and §6 give Dec 1, 11:59 pm ET for Hotel; AAP Dec 1."
+  },
+  {
+   "claim": "Early January 2027: Hotel School spring decisions",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief: decisions early January."
+  },
+  {
+   "claim": "May 1, 2027 (2026 pattern): fall internal deadline at Hotel, AAP and A&S",
+   "source_url": "brief §6 and timeline",
+   "status": "ok",
+   "note": "Brief gives May 1 for Hotel and AAP and May 1, 2026 on the A&S page; the page flags the 2027 date as a 2026 pattern, matching the brief's stale-date note."
+  },
+  {
+   "claim": "Late June 2027: Hotel School fall decisions",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief: decisions by late June."
+  },
+  {
+   "claim": "Reader map: internal transfer is separate from the Transfer Common App, with its own deadlines and GPA rules",
+   "source_url": "brief §6 / §10 internal transfer summary",
+   "status": "ok",
+   "note": "Brief calls it a separate track with its own deadlines."
+  },
+  {
+   "claim": "Guide descriptions: A&S guide covers when a transferred-in student may move colleges; Hotel guide covers courses, dates and who is ineligible; spring guide covers spring closed to external students and Dec 1 internal",
+   "source_url": "content/articles/transfer/*.md",
+   "status": "ok",
+   "note": "Checked against the guides' own text: A&S 'wait two semesters', Hotel 'excludes anyone who transferred in', spring guide meta and body."
+  },
+  {
+   "claim": "Guide 1 listing (academics guide) had no link",
+   "source_url": "/academics/how-hard-is-it-to-transfer-colleges-within-cornell/",
+   "status": "ok",
+   "note": "fixed in place: Added the link to the existing guide, title from its frontmatter."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell internal transfer",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

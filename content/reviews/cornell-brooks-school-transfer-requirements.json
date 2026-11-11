@@ -1,0 +1,175 @@
+{
+ "slug": "cornell-brooks-school-transfer-requirements",
+ "queue_id": "q-transfer-0050",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Two majors, Public Policy or Health Care Policy, chosen on the Common App; fall 2027 entry",
+   "source_url": "https://publicpolicy.cornell.edu/undergraduate/apply/transfer-applicants/external-transfers/",
+   "status": "ok",
+   "note": "Brief §2.6 and live Brooks page agree."
+  },
+  {
+   "claim": "15 letter-graded prep credits: 6 writing (2 courses), 3 intro micro, 3 statistics/calculus, 3 intro sociology",
+   "source_url": "https://publicpolicy.cornell.edu/undergraduate/apply/transfer-applicants/external-transfers/",
+   "status": "ok",
+   "note": "Brief §2.6; live page matches. Recomputed 6+3+3+3 = 15 credits, 2+1+1+1 = 5 courses."
+  },
+  {
+   "claim": "No GPA minimum; 3.5 or higher with As and B+s makes an applicant more competitive; meeting requirements does not guarantee admission",
+   "source_url": "https://publicpolicy.cornell.edu/undergraduate/apply/transfer-applicants/external-transfers/",
+   "status": "ok",
+   "note": "Brief §2.6; live page wording matches."
+  },
+  {
+   "claim": "Admitted transfers generally 3.3 or better",
+   "source_url": "https://faq.enrollment.cornell.edu/kb/article/325-does-cornell-prefer-transfer-applicants-from-certain-colleges-or-types-of-colleges/",
+   "status": "ok",
+   "note": "Brief §2.6/§12; FAQ 325 says generally 3.3 or higher."
+  },
+  {
+   "claim": "Application due March 15, 2027; April 15, 2027 for College Report, Academic Evaluation, Mid-Term Report, transcripts; $85 fee or waiver; 250 to 650 word essay",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief §2 rows for fee, essay, deadlines."
+  },
+  {
+   "claim": "CSS Profile and FAFSA due March 15, 2027; FAFSA opens October 1, 2026",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "Brief line 469."
+  },
+  {
+   "claim": "Decisions late April through June 2027, rolling",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief line 54; Brooks page says rolling."
+  },
+  {
+   "claim": "Statistics is the course recommended for juniors; intermediate micro, statistics and a second quantitative course strongly recommended for juniors, done by end of sophomore year",
+   "source_url": "https://publicpolicy.cornell.edu/undergraduate/apply/transfer-applicants/external-transfers/",
+   "status": "ok",
+   "note": "Live page stars statistics, intermediate micro and the second quantitative course; matches brief line 266."
+  },
+  {
+   "claim": "Up to 60 credits accepted; four semesters in residence in Ithaca; no articulation agreements; PE and math below Calculus I not accepted",
+   "source_url": "https://publicpolicy.cornell.edu/undergraduate/apply/transfer-applicants/external-transfers/",
+   "status": "ok",
+   "note": "Brief §2.6; live page matches."
+  },
+  {
+   "claim": "Credit evaluation one to three weeks after acceptance letter; syllabus to Brookscrediteval@cornell.edu; late midterm grades delay decision",
+   "source_url": "https://publicpolicy.cornell.edu/undergraduate/apply/transfer-applicants/external-transfers/",
+   "status": "ok",
+   "note": "Brief line 266; live page quotes the 1-3 week and midterm-delay sentences."
+  },
+  {
+   "claim": "Contacts: BROOKS_ADMISSIONS@CORNELL.EDU, 607-254-3451; brooks-studentservices@cornell.edu; 2301 Martha Van Rensselaer Hall",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief lines 265, 266; live page matches."
+  },
+  {
+   "claim": "Brooks emailed admitted transfers early to mid-June in the 2024 pattern",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief line 419."
+  },
+  {
+   "claim": "Credit loss table (30, 60, 75, 90 credits: 30/60/60/60 accepted; 0/0/15/30 lost; 8/8/9/10 semesters)",
+   "source_url": "brief §10 worked step",
+   "status": "ok",
+   "note": "Recomputed at 15 credits/semester, total = earned/15 + (120 - accepted)/15: 30 -> 2 + 6 = 8; 60 -> 4 + 4 = 8; 75 -> 5 + 4 = 9 (60 accepted); 90 -> 6 + 4 = 10. All match the table and the brief's worked step."
+  },
+  {
+   "claim": "Exam credit: IB Higher Level only, AP or IB Statistics earns none; overlapping Cornell course forfeits exam credit; written request by last day of instruction of first Cornell semester",
+   "source_url": "brief §2.6, §2.8",
+   "status": "ok",
+   "note": "Brief lines 264, 317."
+  },
+  {
+   "claim": "80% similar scope, C or better, regionally accredited; credit cannot be refused for community college or online; credits over cap lost; transfer grades not in Cornell GPA",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "Brief lines 179, 287; Brooks page also gives the 80% test."
+  },
+  {
+   "claim": "Tuition 2026-27: $49,816 NY resident (contract college), $73,946 others; fees $1,024",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief lines 445, 446, 449."
+  },
+  {
+   "claim": "Prices for 2027-28 come out in late March 2027",
+   "source_url": "https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters",
+   "status": "ok",
+   "note": "Consistent with the 2026-27 story dated March 23, 2026; page frames it as pattern, not a stated date."
+  },
+  {
+   "claim": "Aid is need-based only; up to $125,000 with typical assets grants cover tuition; up to $75,000 full cost; EOP/HEOP email stateprograms@cornell.edu",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "Brief lines 477, 494."
+  },
+  {
+   "claim": "Extra semester about $25,420 (half of $50,840 tuition plus fees)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed 49,816 + 1,024 = 50,840; / 2 = 25,420."
+  },
+  {
+   "claim": "Cornell admissions discourages junior-year transfer from four-year schools",
+   "source_url": "https://faq.enrollment.cornell.edu/kb/article/323-can-i-transfer-to-cornell-in-my-junior-year-from-another-college/",
+   "status": "ok",
+   "note": "Cited FAQ 323 is in the brief's source set; page wording is a light paraphrase."
+  },
+  {
+   "claim": "Juniors exempt from the on-campus housing year; sophomore entrants live on campus one year; students with two years on campus elsewhere exempt",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates",
+   "status": "ok",
+   "note": "Live page: all new transfers one year, juniors and seniors exempt, two years elsewhere exempt. 'Sophomore entrants' is an inference consistent with that."
+  },
+  {
+   "claim": "Applications considered for fall only; no spring entry; 72 transfers started spring 2023",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Brief lines 533, 599. Source attributes 72 enrolled across five colleges; page states it without the college list, consistent."
+  },
+  {
+   "claim": "Apply after two to four semesters elsewhere; first-semester students not eligible",
+   "source_url": "https://faq.enrollment.cornell.edu/kb/article/330-when-should-i-apply-to-cornell-as-a-transfer/",
+   "status": "ok",
+   "note": "Live FAQ 330 quotes both."
+  },
+  {
+   "claim": "About a quarter of transfers from community colleges; about 100 admitted a year; no preference by school type",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Brief lines 94, 544, 545; FAQ 325 confirmed live."
+  },
+  {
+   "claim": "Essay on interest in the program ranked among the most important factors alongside grades and professor recommendations",
+   "source_url": "https://faq.enrollment.cornell.edu/kb/article/325-does-cornell-prefer-transfer-applicants-from-certain-colleges-or-types-of-colleges/",
+   "status": "ok",
+   "note": "Live FAQ 325 lists those three as the most important factors."
+  },
+  {
+   "claim": "Brooks looks for demonstrated interest in public or health care policy and a mix of social science, quantitative and writing-intensive courses",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief line 260."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell brooks school transfer",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

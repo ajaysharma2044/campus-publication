@@ -5,7 +5,7 @@ primary_query: cornell off campus housing listings
 topic: housing
 school: cornell-university
 type: roundup
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-housing-0047
 kind: spoke
 readers:
@@ -121,6 +121,12 @@ sources:
 - url: https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing
   title: Landlords and Advocates Grapple With Good Cause Eviction Law at Public Hearing, The Cornell Daily Sun, July 10, 2024
   accessed: '2026-11-08'
+- url: https://winstonsquareapts.com/faq/
+  title: FAQ, Winston Square Apartments
+  accessed: '2026-11-11'
+- url: https://www.modernlivingrentals.com/FAQ-Apartments-Near-Cornell-University-Ithaca-Housing-FAQs-MLR-Modern-Living-Rentals
+  title: 'Apartments Near Cornell University: Ithaca Housing FAQs, Modern Living Rentals'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Storefronts and apartment buildings along a Collegetown street in Ithaca
@@ -157,7 +163,7 @@ You arrive after the Collegetown rush, so shop the leftover market. A sophomore 
 ```
 
 ```reader "If you're an international student"
-You may sign from abroad and sight unseen, so lean on the channels that screen listings. The Cornell marketplace requires proof of Cornell affiliation, and its City of Ithaca listings need a current Certificate of Compliance. Before you pay, run the address through the City and Cornell safety tool. Cornell International Services says you [do not need an SSN](https://international.globallearning.cornell.edu/life-cornell/faq-international-students) to rent an apartment. New York caps the deposit plus any rent paid in advance at one month's rent and bans application fees, so a request for three months up front or an "application fee" is a reason to stop. Not confirmed: how Ithaca landlords handle guarantors for students without US credit.
+You may sign from abroad and sight unseen, so lean on the channels that screen listings. The Cornell marketplace requires proof of Cornell affiliation, and its City of Ithaca listings need a current Certificate of Compliance. Before you pay, run the address through the City and Cornell safety tool. Cornell International Services says you [do not need an SSN](https://international.globallearning.cornell.edu/life-cornell/faq-international-students) to rent an apartment. New York caps the deposit plus any rent paid in advance at one month's rent and bans application fees, so a request for three months up front or an "application fee" is a reason to stop. Ask each landlord, in writing, what it accepts from a renter with no US credit history. The Winston Square complex lists excellent credit history among its requirements and [accepts no guarantors or co-signers](https://winstonsquareapts.com/faq/); Modern Living says it sets out [any guarantor requirements during the application](https://www.modernlivingrentals.com/FAQ-Apartments-Near-Cornell-University-Ithaca-Housing-FAQs-MLR-Modern-Living-Rentals).
 ```
 
 ```reader "If you're a visiting scholar, postdoc or here for one semester"
@@ -165,7 +171,7 @@ You want furnished space by the month or semester, which most listings are not. 
 ```
 
 ```reader "If you're staying in Ithaca for the summer"
-Summer housing is mostly sublets from students whose leases run to July 31. Look on the Cornell marketplace and the Off-Campus Living email list. Modern Living advertises sublets "from $900 per person" without a stated period, so ask whether that is monthly. Check the end date: Dryden South's leases all end May 31, 2027, which leaves a June and July gap. Get the landlord's written consent and a written sublease. In a building with four or more units, the landlord [cannot unreasonably refuse](https://www.nysenate.gov/legislation/laws/RPP/226-B) a sublet; in a smaller house, the lease decides. Not confirmed: a typical summer sublet price in Ithaca.
+Summer housing is mostly sublets from students whose leases run to July 31. Look on the Cornell marketplace and the Off-Campus Living email list. Modern Living advertises sublets "from $900 per person" without a stated period, so ask whether that is monthly. Check the end date: Dryden South's leases all end May 31, 2027, which leaves a June and July gap. Get the landlord's written consent and a written sublease. In a building with four or more units, the landlord [cannot unreasonably refuse](https://www.nysenate.gov/legislation/laws/RPP/226-B) a sublet; in a smaller house, the lease decides.
 ```
 
 ## Every place to look, ranked
@@ -245,7 +251,7 @@ Two Sun pieces, from [2019](https://cornellsun.com/2019/09/19/cornell-students-s
 
 For a City of Ithaca address, run it through the [safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments) that Off-Campus Living and the City Building Division run. It shows sprinklers, smoke and carbon monoxide alarms, and construction type, updated daily. It covers City rentals only and rates fire safety, not the landlord. For the Certificate of Compliance, Cornell's listings page points you to the Building Division at (607) 274-6508 or ibd@cityofithaca.org.
 
-Then check the money. The [deposit plus any rent paid in advance cannot exceed one month's rent](https://www.nysenate.gov/legislation/laws/GOB/7-108).
+Then check the money. The [deposit plus any rent paid in advance cannot exceed one month's rent](https://www.nysenate.gov/legislation/laws/GOB/7-108). This page is general information, not legal advice.
 
 ```tool ithaca-lease-fee-deposit-checker```
 

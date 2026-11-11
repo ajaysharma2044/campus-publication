@@ -1,0 +1,186 @@
+{
+ "slug": "cornell-cals-transfer-requirements",
+ "queue_id": "q-transfer-0017",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "CALS GPA minimum 3.0, 3.5 for Biological Sciences; fall only; two full-time semesters or three quarters",
+   "source_url": "https://cals.cornell.edu/education/admissions/undergraduate-admissions/transfer-applicants",
+   "status": "ok",
+   "note": "Fetched the CALS transfer page; matches."
+  },
+  {
+   "claim": "Standing: two semesters sophomore; four semesters or associate's junior, no sophomore option; more than four semesters at a four-year school ineligible",
+   "source_url": "https://cals.cornell.edu/education/admissions/undergraduate-admissions/transfer-applicants",
+   "status": "ok",
+   "note": "Matches the CALS page; brief §2."
+  },
+  {
+   "claim": "Global and Public Health Sciences no transfers; Global Development sophomores only; AEM through Dyson",
+   "source_url": "https://cals.cornell.edu/education/admissions/undergraduate-admissions/transfer-applicants",
+   "status": "ok",
+   "note": "Matches the CALS page."
+  },
+  {
+   "claim": "Credit: regionally accredited, C or better letter grade, online counts, up to 15 AP, 60 test plus transfer, quarter credits times two-thirds, no pre-approval",
+   "source_url": "https://cals.cornell.edu/education/admissions/undergraduate-admissions/transfer-applicants",
+   "status": "ok",
+   "note": "All confirmed on the CALS page."
+  },
+  {
+   "claim": "Transfers are nearly one-third of CALS students; contact 607-255-2036, cals_admissions@cornell.edu",
+   "source_url": "https://cals.cornell.edu/education/admissions/undergraduate-admissions/transfer-applicants",
+   "status": "ok",
+   "note": "Confirmed on the page; brief §2."
+  },
+  {
+   "claim": "Fall 2027 dates: application and $85 fee by March 15, 2027; other materials April 15; decisions late April through June; fee waived automatically",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief lines 54, 59, 60."
+  },
+  {
+   "claim": "FAFSA opens October 1, 2026; CSS Profile, FAFSA and HESC by March 15, 2027; HESC code 0174; 2027-28 rates confirmed before early-April offers",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief lines 464-465."
+  },
+  {
+   "claim": "Cornell-wide floor of 12 semester hours; no second-bachelor's admits",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief line 32."
+  },
+  {
+   "claim": "Admitted transfers generally 3.3 or better; selective and highly competitive; no institution preference; about a quarter from community colleges",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief lines 93-94."
+  },
+  {
+   "claim": "Registrar equivalency: about 80% similar, courses seven or more years old generally ineligible, at least 60 credits at Cornell, transcript shows school and total credits only",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief mentions 80% and seven years; wording consistent."
+  },
+  {
+   "claim": "Biological Sciences prerequisites (intro bio with labs, General Chemistry I and II, Calculus I plus II or Statistics, AP/IB bio excluded); Animal Science junior expectations",
+   "source_url": "https://cals.cornell.edu/biological-sciences/admission-biological-sciences-major",
+   "status": "ok",
+   "note": "Both pages are in the page's sources and were accessed by the writer; the brief carries the CALS requirement set. Not re-fetched; the core numbers are in the brief."
+  },
+  {
+   "claim": "Tuition NY resident $49,816, endowed/non-NY $73,946 for 2026-27; $24,130 gap",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief lines 440, 441. 73,946 - 49,816 = 24,130."
+  },
+  {
+   "claim": "Billed year $72,188 NY and $96,318 non-NY (hall double $13,744, food $7,604, fees $1,024)",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Recomputed: 49,816+1,024+13,744+7,604 = 72,188; 73,946+22,372 = 96,318. Matches brief."
+  },
+  {
+   "claim": "Extra year at endowed rates $74,970 ($73,946 + $1,024)",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Recomputed 73,946+1,024 = 74,970."
+  },
+  {
+   "claim": "90 credits: 30 lost, 60 needed at Cornell = 4 semesters, 10 in all, 2 more than four-year degree",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "Recomputed: 90/15 = 6 semesters + 60/15 = 4 = 10; 60/15 = 4 semesters; 10 - 8 = 2."
+  },
+  {
+   "claim": "32 college credits plus 20 AP: 15 AP count, 47 in, under 60",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "32+15 = 47."
+  },
+  {
+   "claim": "Cornell-wide 864 of 7,381 admitted for fall 2025, 11.7%",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief line 587; recomputed 864/7381 = 11.71%."
+  },
+  {
+   "claim": "CALS 243 of 674 fall 2021 transfers, 36.1%, the most of any college",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "Brief line 1343; recomputed 243/674 = 36.05%; ILR 116, A&S 117 are smaller."
+  },
+  {
+   "claim": "Fall 2021: 96 of 674 transfers from two-year schools; about 100 community college transfers a year on average",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "About 100 per year is brief line 540; the 96 comes from the IRP profile the brief cites."
+  },
+  {
+   "claim": "TC3 pathway: announced August 7, 2025; A.A.S. Sustainable Farming and Food Systems; 3.0 and B or better; priority consideration for Agricultural Sciences B.S.; no guarantee; one year at TC3 then four semesters at Cornell; no separate deadline",
+   "source_url": "https://cals.cornell.edu/news/2025/08/cornell-cals-and-tc3-establish-transfer-pathway-for-agriculture-students",
+   "status": "ok",
+   "note": "News page confirms date, degree, 3.0, B or better, priority consideration, no guarantee. The year-plus-four-semesters terms and 'no deadlines' are in brief line 542-543."
+  },
+  {
+   "claim": "Signature Pathway page names TC3 as only partner, 'strong admissions consideration'; SUNY Broome 2017 and SUNY Orange 2014 agreements unconfirmed",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "Brief lines 543, 546, 547."
+  },
+  {
+   "claim": "Transfer Option: no fee, old portal login, CALS extras (resume, schedule, AP scores, two essays, SlideRoom for Landscape Architecture); page reads 'Application Available Winter 2027'; deadline was March 15 for fall 2026; decisions from mid-April",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief lines 58, 61, 82, 117, 119."
+  },
+  {
+   "claim": "Richard Ballard, Transfer Option from Ithaca College, now a CALS junior, told The Cornell Daily Sun in 2025 it was described as guaranteed then not",
+   "source_url": "https://www.cornellsun.com/article/2025/08/from-both-sides-of-the-hill-an-ic-transfers-perspective",
+   "status": "ok",
+   "note": "Fetched. Ballard is a CALS junior (Class of 2027); says it was first described as guaranteed upon meeting requirements, later clarified as not. Attribution fits."
+  },
+  {
+   "claim": "2020 College Confidential thread: some posters cited a CALS FAQ saying holders who miss requirements are reviewed with regular applicants",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "Brief line 927 states the same, 'posters in 2020'. Attributed to posters, not as a rule."
+  },
+  {
+   "claim": "Families earning up to $125,000 get tuition covered; up to $75,000 full cost",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief line 15 (2.15)."
+  },
+  {
+   "claim": "HEOP at CALS: email stateprograms@cornell.edu instead of the certification form",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "Brief line 489 carries the email; the HEOP certification form line 488 lists other colleges but not CALS."
+  },
+  {
+   "claim": "New transfers must live on campus one academic year unless juniors or two years on campus elsewhere",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Housing rule in the brief's housing section; consistent."
+  },
+  {
+   "claim": "In 2024 CALS emailed admitted transfers in early to mid-June",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "Brief lines 237, 414."
+  },
+  {
+   "claim": "CALS transfer student success navigator, PAVER, CC STEP named by Chronicle May 2024",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "Brief line 541."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "e1a5242f2449d55600ecf8a32ff823d9e71f8b09dac7e4c7d500791661276152"
+}

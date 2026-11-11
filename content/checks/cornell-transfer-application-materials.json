@@ -1,0 +1,176 @@
+{
+ "slug": "cornell-transfer-application-materials",
+ "queue_id": "q-transfer-0011",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "March 15, 2027: application, $85 fee or waiver, portfolio; April 15, 2027: all other materials",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "brief §2.2 and opened the page; year 2027 per brief's cycle note"
+  },
+  {
+   "claim": "$85 fee, waiver automatic in Common App, no documents",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "brief §2.2; page confirms"
+  },
+  {
+   "claim": "Essay 250 to 650 words; prompt on continuing education at a new institution; Writing Supplement",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "page confirmed"
+  },
+  {
+   "claim": "Mid-Term Report: you complete it, official or estimated grades, explanation upload for ungraded course, ILR by March 15 if possible",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "page and ILR page confirmed; brief §2.2"
+  },
+  {
+   "claim": "College Report: official at your school, academic and disciplinary standing, requested in Applicant Portal",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "page confirmed"
+  },
+  {
+   "claim": "Academic Evaluation from instructor of full-credit course; out two or more years may use personal or employer recommendation",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "page confirmed"
+  },
+  {
+   "claim": "Program extras table (Architecture portfolio+interview, Art, Landscape Architecture, Fashion Design Design Index, DEA/FDM supplement, AEM and Hotel resume, Engineering course description form)",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "page confirmed; brief §2.6"
+  },
+  {
+   "claim": "Translations by teacher or school official; no credential evaluation described",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief translations row"
+  },
+  {
+   "claim": "Decisions late April through June; Hotel May and June",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief rows"
+  },
+  {
+   "claim": "SAT/ACT not required nor expected; self-report AP/IB/A-Level in Common App Academic History",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief standardized tests row"
+  },
+  {
+   "claim": "Admitted transfers generally 3.3 or better; about a quarter of transfers from community colleges; no preference by type",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief rows"
+  },
+  {
+   "claim": "Two to four semesters done; junior transfer discouraged (about 60 credits); CALS bars >4 semesters at four-year",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief rows"
+  },
+  {
+   "claim": "CALS 3.0 min, 3.5 Biological Sciences; ILR 3.4 typical; AAP 2.7",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief rows; ILR page reopened and confirms 3.4 typical"
+  },
+  {
+   "claim": "ILR: three essays 350/650/650, no interviews, one professor recommendation, junior course list, 4 semesters and 60 credits at Cornell, no work/military credit",
+   "source_url": "https://www.ilr.cornell.edu/programs/undergraduate-admissions/apply-ilr/transfer-guidelines",
+   "status": "ok",
+   "note": "ILR page reopened; 350-word figure is brief §2.6 (PDF source)"
+  },
+  {
+   "claim": "Example: 650+650+350 = 1,650 words",
+   "source_url": "own math",
+   "status": "ok",
+   "note": "recomputed 650+650+350 = 1,650"
+  },
+  {
+   "claim": "AAP no external B.Arch. transfers fall 2027; at least one recommendation; portfolio via SlideRoom March 15",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief AAP rows"
+  },
+  {
+   "claim": "Hotel page lists resumes for first-year, not external transfers; admissions page lists resume for Hotel",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief Hotel resume row and admissions page confirm"
+  },
+  {
+   "claim": "Engineering: course description form after admission; no minimum GPA; ineligible life, work or military experience",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief rows"
+  },
+  {
+   "claim": "Human Ecology: tailor the essay, do not contact faculty",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "brief tips page row"
+  },
+  {
+   "claim": "CSS Profile and FAFSA due March 15, 2027; FAFSA opened October 1, 2026",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief US deadline row"
+  },
+  {
+   "claim": "CSS fee waived for AGI up to $100,000",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief CSS fee waiver row"
+  },
+  {
+   "claim": "International: CSS Profile code 2098 by March 15, 2027; missed means no undergraduate aid later; need-aware",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief rows"
+  },
+  {
+   "claim": "23 transfer veterans entered Cornell in fall 2026",
+   "source_url": "brief §2 Chronicle line",
+   "status": "ok",
+   "note": "brief cites Chronicle node/333429"
+  },
+  {
+   "claim": "Veterans Admissions Team named on admissions page",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "page confirmed"
+  },
+  {
+   "claim": "Transfer Option: only offer holders, earlier portal login, no fee, extras by college",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief rows"
+  },
+  {
+   "claim": "Bachelor's degree holders not eligible",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "page confirmed"
+  },
+  {
+   "claim": "English proficiency: TOEFL iBT 100, IELTS 7.5, Duolingo 130; self-reported fine until admission",
+   "source_url": "https://admissions.cornell.edu/resources/submit-english-language-proficiency",
+   "status": "fixed",
+   "note": "Source: TOEFL 100 applies only to exams before Jan 2026 (5.0 new scale, 5.5 recommended after); exemption is 'may be exempt'; self-reported scores 'may be used for initial review', official results after admission. Page reworded to match; brief row updated (page is general, not transfer-specific)."
+  }
+ ],
+ "brief_updates": [
+  "English proficiency row: added the general-page minimums, TOEFL new-scale change and self-report rule; source https://admissions.cornell.edu/resources/submit-english-language-proficiency; change-log line added"
+ ],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "b3c66dc396fe264ec82f93bcd09ce39211e777165da108368432682969f415e7"
+}

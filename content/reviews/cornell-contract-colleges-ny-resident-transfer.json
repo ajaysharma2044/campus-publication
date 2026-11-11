@@ -1,0 +1,187 @@
+{
+ "slug": "cornell-contract-colleges-ny-resident-transfer",
+ "queue_id": "q-transfer-0015",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "NY resident contract-college tuition $49,816; endowed/non-NY $73,946 for 2026-27; contract five are CALS, Human Ecology, ILR, Brooks, Dyson",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "Brief rows match."
+  },
+  {
+   "claim": "Gap $24,130 a year; $48,260 over two years",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "Recomputed 73,946 - 49,816 = 24,130; x2 = 48,260."
+  },
+  {
+   "claim": "Rates rose 3.76% for 2026-27; 2025-26 were $48,010 and $71,266",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "Recomputed 71,266 x 1.0376 = 73,946; 48,010 x 1.0376 = 49,815 (rounds to 49,816)."
+  },
+  {
+   "claim": "Required year billed $72,188 (NY contract) and $96,318 (endowed): fees $1,024, hall double $13,744, Unlimited $7,604",
+   "source_url": "brief §2.14, §2.10, §2.11",
+   "status": "ok",
+   "note": "Recomputed 49,816 + 1,024 + 13,744 + 7,604 = 72,188; 73,946 + same = 96,318."
+  },
+  {
+   "claim": "Full cost of attendance $75,604 and $99,734; books $1,234; personal $2,182",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "72,188 + 3,416 = 75,604; 96,318 + 3,416 = 99,734."
+  },
+  {
+   "claim": "Two years: $151,208 NY contract, $199,468 endowed (figure and parent reader block)",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "fixed in place: Recomputed 75,604 x 2 = 151,208 and 99,734 x 2 = 199,468; these are two years of full cost of attendance, not billed amounts (billed x2 = 144,376). Figure labels and reader-block sentence now say 'full cost of attendance'."
+  },
+  {
+   "claim": "Room-and-meal table: $71,088/$95,218, $71,640/$95,770, $72,188/$96,318, $74,010/$98,140, $75,039/$99,169",
+   "source_url": "brief §2.10, §2.11, §10 method",
+   "status": "ok",
+   "note": "Recomputed each from tuition + $1,024 + room (12,644; 13,744; 15,566; 16,595) + plan (7,604; Collegetown 7,056). Collegetown plan in named South Campus halls is in the brief."
+  },
+  {
+   "claim": "Student Health Plan $1,705 fall + $2,046 spring = $3,751",
+   "source_url": "brief §2.15/SHP rows",
+   "status": "ok",
+   "note": "1,705 + 2,046 = 3,751."
+  },
+  {
+   "claim": "Co-op double $6,974 to $9,962 a year vs $13,744 hall double",
+   "source_url": "brief §10.3",
+   "status": "ok",
+   "note": "Brief row matches."
+  },
+  {
+   "claim": "A&S vs ILR example: $147,892 vs $99,632, $48,260 apart",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "73,946x2 = 147,892; 49,816x2 = 99,632; difference 48,260."
+  },
+  {
+   "claim": "Common mistake: $48,414 snippet figure leaves a family $1,402 short",
+   "source_url": "brief §12 (snippet note)",
+   "status": "ok",
+   "note": "49,816 - 48,414 = 1,402."
+  },
+  {
+   "claim": "Residency set at admission by Admissions; one year continuous NYS residence before registration; Bursar change after first semester; May 1 fall / Nov 1 spring; not retroactive",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "Quotes match the brief rows."
+  },
+  {
+   "claim": "Aid forms: CSS 2098, FAFSA 002711, HESC 0174 contract / 0175 endowed, due March 15, 2027; CSS fee waived up to $100,000 AGI",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "Brief rows match."
+  },
+  {
+   "claim": "Grants cover tuition up to $125,000 with typical assets; full cost up to $75,000; meets 100% of need; aid appeals via finaid@cornell.edu",
+   "source_url": "brief §1, §2.15",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "HEOP: contract-college applicants email stateprograms@cornell.edu; others use HEOP Transfer Certification form; OADI 607.255.3841",
+   "source_url": "brief §2.15, §8",
+   "status": "ok",
+   "note": "Brief matches."
+  },
+  {
+   "claim": "Tuition prices for 2027-28 confirmed before early April 2027 offers",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "Fall tuition bills arrive early July; Cashnet e-bills reach parents only if invited",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "Admission rules table: CALS 3.0 (3.5 Biological Sciences), junior standing with associate's, GPHS no transfers, no AEM; Human Ecology 3.5, 23 credits, no pass/fail; ILR 3.4, one professor recommendation; Brooks 3.5, 15 prep credits (writing, microeconomics, stats/calculus, sociology)",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Brief rows match (Brooks 6+3+3+3 = 15)."
+  },
+  {
+   "claim": "Dyson: admits generally 3.5+, calculus, microeconomics, statistics and a writing course at B or better, no exam credit, current juniors cannot apply",
+   "source_url": "https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/",
+   "status": "ok",
+   "note": "fixed in place: Page confirms all, but the exam-credit ban names only calculus, statistics, microeconomics and macroeconomics, not the writing course. Wording changed from 'no exam credit for them' to 'no exam credit for the calculus, statistics or economics courses'."
+  },
+  {
+   "claim": "A&S external transfers can apply to another college only after two semesters at Cornell; strongly discouraged",
+   "source_url": "brief §2.7",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "Fall 2021: 472 of 674 transfers (70.0%) to contract colleges; CALS 243, ILR 116, Human Ecology 59, Dyson 54; A&S 102, Hotel 48, Engineering 37, AAP 15; 33.5% NY residency; 34 of 96 community college transfers from NY",
+   "source_url": "brief §3.3, §3.5",
+   "status": "ok",
+   "note": "243+116+59+54 = 472; 102+48+37+15 = 202; 472/674 = 70.03%."
+  },
+  {
+   "claim": "About 100 community college transfers a year (Chronicle 2024)",
+   "source_url": "brief §3.5",
+   "status": "ok",
+   "note": "Brief calls it an admit count; page says 'admits', consistent."
+  },
+  {
+   "claim": "TC3 Sustainable Farming and Food Systems A.A.S. to CALS Agricultural Sciences: 3.0 GPA and B or better, 'priority consideration'",
+   "source_url": "https://cals.cornell.edu/news/2025/08/cornell-cals-and-tc3-establish-transfer-pathway-for-agriculture-students",
+   "status": "ok",
+   "note": "Fetched; wording matches."
+  },
+  {
+   "claim": "TC3 plan: one year at TC3 (two semesters plus a summer), then four semesters at Cornell",
+   "source_url": "https://cals.cornell.edu/education/admissions/undergraduate-admissions/signature-pathway-program",
+   "status": "ok",
+   "note": "fixed in place: The news page does not state the timeline; the brief (§2.20) takes it from the CALS Signature Pathway page. Repointed the link to that page and added it to frontmatter sources."
+  },
+  {
+   "claim": "SUNY Broome Business A.S. to SCE online BPS: 45 to 60 transferable credits, four years past high school, applications January 2027, first cohort August 2027",
+   "source_url": "https://news.cornell.edu/stories/2026/06/cornell-sce-suny-broome-create-transfer-pathway-new-online-bachelors-degree",
+   "status": "ok",
+   "note": "Fetched; matches, and the brief agrees."
+  },
+  {
+   "claim": "Most colleges cap transfer credit at 60",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "Brief row."
+  },
+  {
+   "claim": "Computer science has no contract route; transfers reach it through Engineering or Arts and Sciences",
+   "source_url": "brief §2.6 (CS)",
+   "status": "ok",
+   "note": "Brief section on Dyson, Bowers and Computer Science; consistent."
+  },
+  {
+   "claim": "Dyson and Hotel both belong to the SC Johnson College of Business; only Dyson charges resident rate",
+   "source_url": "brief §2.14, §2.15",
+   "status": "ok",
+   "note": "Brief rows."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell tuition new york residents",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

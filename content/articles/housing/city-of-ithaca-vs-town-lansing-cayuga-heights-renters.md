@@ -5,7 +5,7 @@ primary_query: town of ithaca vs city of ithaca renting rules
 topic: housing
 school: cornell-university
 type: comparison
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-housing-0043
 kind: spoke
 readers:
@@ -111,6 +111,30 @@ sources:
 - url: https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/
   title: Cornell student abandons house, sleeps in library after months-long dispute with landlord, The Cornell Daily Sun, November 25, 2018
   accessed: '2026-11-08'
+- url: https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026
+  title: Good Cause Eviction Law Notice, August 2026, NYS Homes and Community Renewal (DHCR)
+  accessed: '2026-11-11'
+- url: https://news.cornell.edu/stories/2022/04/cornell-varna-fire-volunteers-protect-serve-learn
+  title: Cornell Varna fire volunteers protect, serve, learn, Cornell Chronicle, April 13, 2022
+  accessed: '2026-11-11'
+- url: https://cayugaheights.gov/for-residents/household-yard-refuse/
+  title: Household and Yard Refuse, Village of Cayuga Heights
+  accessed: '2026-11-11'
+- url: https://townithacany.gov/faqs/does-the-town-provide-trash-and-recycling-pickup/
+  title: 'Does the Town provide trash and recycling pickup?, Town of Ithaca FAQ'
+  accessed: '2026-11-11'
+- url: https://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management/Trash/Trash-Tags
+  title: Trash Tags, Tompkins County Recycling and Materials Management
+  accessed: '2026-11-11'
+- url: https://www.law.cornell.edu/regulations/new-york/19-NYCRR-1203.3
+  title: 19 NYCRR 1203.3, Minimum features of a program for administration and enforcement, Cornell Legal Information Institute
+  accessed: '2026-11-11'
+- url: https://villageoflansingny.gov/
+  title: Village of Lansing, NY
+  accessed: '2026-11-11'
+- url: https://www.villageoflansingny.gov/Newsletters/2025%20Spring%20Newsletter%20Final.pdf
+  title: Village of Lansing Newsletter, March 2025
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Ithaca City Hall, a modern multistory building on Green Street
@@ -128,7 +152,7 @@ images:
 - Cayuga Heights (a village), Lansing (a town) and the Town of Ithaca parts of East Hill and South Hill are outside it, even with an "Ithaca, NY 14850" address.
 - In the Town of Ithaca, more than two unrelated people count as one family only if the Zoning Board of Appeals says so (Drummond, 2017).
 - State law follows you everywhere: a one-month deposit cap and a 14-day return deadline.
-- Good Cause Eviction covers the City (opted in July 2024); a town or village is covered only if it opted in too.
+- Good Cause Eviction covers the City (opted in July 2024), the only Tompkins County municipality on the State's opt-in list as of May 4, 2026.
 - Code offices: City 607-274-6508, Town of Ithaca 607-273-1783, Lansing 607-533-7054, Cayuga Heights 607-257-5536 ext. 104.
 ```
 
@@ -139,7 +163,7 @@ The quieter, cheaper places grad students look at often sit on or past the line.
 ```
 
 ```reader "If you're renting with a spouse, partner or children"
-The Town of Ithaca's family rule is about unrelated people, so a married couple with children is one family anywhere. What changes outside the City is the paperwork: no Certificate of Compliance to look up, no safety-tool rating, and possibly no Good Cause Eviction right to renew. New York's [occupant law](https://www.nysenate.gov/legislation/laws/RPP/235-F) still applies everywhere; a single-tenant lease allows your immediate family plus one more occupant. Before a 12-month lease on a Cayuga Heights or Lansing house, call that code office and ask whether a rental inspection exists there.
+The Town of Ithaca's family rule is about unrelated people, so a married couple with children is one family anywhere. What changes outside the City is the paperwork: no Certificate of Compliance to look up, no safety-tool rating and no Good Cause Eviction right to renew. New York's [occupant law](https://www.nysenate.gov/legislation/laws/RPP/235-F) still applies everywhere; a single-tenant lease allows your immediate family plus one more occupant. Before a 12-month lease on a Cayuga Heights or Lansing house, call that code office and ask whether a rental inspection exists there.
 ```
 
 ```reader "If you're an upper-year renting already"
@@ -153,9 +177,9 @@ Cornell's [neighborhoods page](https://scl.cornell.edu/residential-life/housing/
 | Rule | City of Ithaca | Town of Ithaca, Lansing, Cayuga Heights, Varna |
 |---|---|---|
 | 120-day notice before renewal, showings or re-letting | Yes, unless waived on page one ([258-10](https://ecode360.com/27390826)) | No (City code only) |
-| Certificate of Compliance | Buildings with 3+ units, or units with 5 or 6+ unrelated people, depending on the source | No City certificate; ask the local code office |
+| Certificate of Compliance | Buildings with 3+ units, or units with 6+ unrelated people | No City certificate; ask the local code office |
 | Cornell safety tool | City rentals, updated daily | Not covered |
-| Good Cause Eviction | Opted in, July 2024 | Not confirmed for any of them |
+| Good Cause Eviction | Opted in, July 2024 | Not opted in (State list, May 4, 2026) |
 | Street parking permit | $45 a year in permit areas | City permits do not apply |
 | Trash | $6 tag per bag, from January 1, 2026 | City tags do not apply |
 | Noise code | Night 10:00 p.m. to 7:30 a.m. | Town of Ithaca: own ordinance, day 7:00 a.m. to 9:00 p.m. |
@@ -165,11 +189,11 @@ Cornell's [neighborhoods page](https://scl.cornell.edu/residential-life/housing/
 ## Which neighborhoods straddle the line
 
 - **Collegetown, Fall Creek and downtown:** inside the City. Every City rule applies.
-- **East Hill:** 0.75 to 2 miles from campus. Some addresses may lie in the Town of Ithaca, where the Town's family rule applies. Not confirmed: which East Hill streets; ask the code office.
+- **East Hill:** 0.75 to 2 miles from campus. Some addresses may lie in the Town of Ithaca, where the Town's family rule applies.
 - **South Hill:** 1.5 to 3 miles, around Ithaca College. Parts are in the Town; the 2017 Drummond case under the Town's rule involved Ithaca College students.
 - **Cayuga Heights:** 1 to 4 miles north. A separate village, outside the 120-day rule and the safety tool.
-- **Lansing and Northeast:** 5 to 10 miles along Triphammer and Warren roads; Cornell recommends a bus or car. The Town of Lansing has its own code office.
-- **Varna:** east along Dryden Rd, outside the City.
+- **Lansing and Northeast:** 5 to 10 miles along Triphammer and Warren roads; Cornell recommends a bus or car. The Town of Lansing and the [Village of Lansing](https://www.villageoflansingny.gov/Newsletters/2025%20Spring%20Newsletter%20Final.pdf) each run their own code office.
+- **Varna:** east along Dryden Rd, a hamlet in the [Town of Dryden](https://news.cornell.edu/stories/2022/04/cornell-varna-fire-volunteers-protect-serve-learn), outside the City.
 
 ```figure
 kind: cost_table
@@ -180,8 +204,6 @@ rows:
   - {label: "South Hill (partly Town of Ithaca)", value: "1.5 to 3 miles"}
   - {label: "Lansing and Northeast", value: "5 to 10 miles"}
 ```
-
-Not confirmed: an official online map that shows which side of the line an address is on, and which town code office covers Varna. Ask the landlord, then confirm with the code office.
 
 ## Renewals and the 120-day rule
 
@@ -234,7 +256,7 @@ These are the rules a renter meets every week, and all three are City rules.
 
 **Parking.** A City [residential permit](https://www.cityofithacany.gov/731/Permit-Issuance) costs $45 a year, runs to July 31 and goes to renters in a permit area with a lease or utility bill plus registration. From November 1 to April 1, 7 p.m. to 6 a.m., [odd/even parking](https://www.cityofithacany.gov/727/Parking-Regulations-Violations) applies when needed, and a car must move every 24 hours on weekdays. Central Collegetown has no street permits; the [Dryden Road Garage](https://www.cityofithacany.gov/718/Dryden-Road-Garage) sells a $232 monthly permit. None of these City rules reach a Lansing or Cayuga Heights street.
 
-**Trash.** City trash takes one [$6.00 tag per can or bag](https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags), or $36.00 for a sheet of 6, from January 1, 2026. Bags go out no more than 24 hours before pickup, and couches and mattresses may not sit outdoors ([exterior rules](https://www.cityofithacany.gov/136/Exterior-Property-Maintenance)). Not confirmed: how trash is collected and billed in the Town of Ithaca, Lansing or Cayuga Heights; ask the landlord what the rent covers.
+**Trash.** City trash takes one [$6.00 tag per can or bag](https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags), or $36.00 for a sheet of 6, from January 1, 2026. Bags go out no more than 24 hours before pickup, and couches and mattresses may not sit outdoors ([exterior rules](https://www.cityofithacany.gov/136/Exterior-Property-Maintenance)). Cayuga Heights collects household trash weekly with its own [Village tags](https://cayugaheights.gov/for-residents/household-yard-refuse/), $20.00 for a sheet of 12, each covering 15 lb. The Town of Ithaca does not collect, so residents [contract with a local hauler](https://townithacany.gov/faqs/does-the-town-provide-trash-and-recycling-pickup/). Lansing works the same way: [Tompkins County](https://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management/Trash/Trash-Tags) lists only the City and the villages of Cayuga Heights, Dryden and Trumansburg as offering collection. Anywhere in the county, a bag or can set out for pickup needs a tag, which haulers must sell; trash in a dumpster needs none. Ask the landlord whether the rent covers the hauler.
 
 **Snow and noise.** City owners must clear the sidewalk within 24 hours after snowfall begins; a lease may pass that to you. The City's [noise code](https://ecode360.com/8391226) sets night hours from 10:00 p.m. to 7:30 a.m. The Town of Ithaca has a [separate ordinance](https://ecode360.com/8659282) whose daytime runs 7:00 a.m. to 9:00 p.m.
 
@@ -251,7 +273,7 @@ rows:
 
 New York's Good Cause Eviction law applies outside New York City [only where a municipality opts in](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal). Ithaca's Common Council [voted 8-2 to opt in](https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections) in July 2024. That gives City tenants a right to renew, with exceptions, and makes increases above the lower of 10% or 5% plus inflation presumed unreasonable.
 
-Not confirmed: whether the Town of Ithaca, the Town of Lansing or the Village of Cayuga Heights has opted in. Ask the landlord. A state [non-renewal or 5%-plus increase notice](https://www.nysenate.gov/legislation/laws/RPP/226-C) must say whether the unit is subject to Good Cause.
+The state housing agency, DHCR, publishes the list of municipalities that have opted in each year. Its [2026 notice](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026), current to May 4, 2026, names the City of Ithaca and no other Tompkins County city, town or village. A Town of Ithaca, Lansing, Cayuga Heights or Varna rental is therefore outside Good Cause unless that town or village opts in later. A state [non-renewal or 5%-plus increase notice](https://www.nysenate.gov/legislation/laws/RPP/226-C) must say whether the unit is subject to Good Cause.
 
 ```tool ithaca-good-cause-coverage-checker```
 
@@ -265,10 +287,12 @@ State law covers every address in Tompkins County. A deposit plus any rent advan
 |---|---|---|
 | City of Ithaca Building Division | 607-274-6508 (main 607-274-6510) | Collegetown, Fall Creek, downtown |
 | Town of Ithaca | 607-273-1783 | Town parts of East Hill and South Hill |
-| Town of Lansing | 607-533-7054 | Lansing and the Triphammer corridor |
+| Town of Lansing | 607-533-7054 | Lansing outside the village |
+| Village of Lansing | 607-257-0424 (village office) | The village (office at 2405 N. Triphammer Rd) |
+| Town of Dryden | 607-844-8888 | Varna |
 | Village of Cayuga Heights | 607-257-5536 ext. 104 | Cayuga Heights |
 
-Town and City numbers come from the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance). Cayuga Heights' [code page](https://cayugaheights.gov/departments/code-enforcement/) covers short-term rentals of 28 days or less and says nothing about long-term rental inspections.
+Town and City numbers come from the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance); the Village of Lansing number is its [village office](https://villageoflansingny.gov/). Cayuga Heights' [code page](https://cayugaheights.gov/departments/code-enforcement/) covers short-term rentals of 28 days or less. Outside the City, state rules still require the local code office to inspect multiple dwellings for fire safety and property maintenance at least every three years ([19 NYCRR 1203.3](https://www.law.cornell.edu/regulations/new-york/19-NYCRR-1203.3)), so ask it when a building was last inspected.
 
 ```reader "If you're a student with a car"
 Outside the City, the City's $45 residential permit, the odd/even rule from November 1 to April 1 and the 24-hour move rule do not apply to your street. Inside the City, check the [parking rules](https://www.cityofithacany.gov/727/Parking-Regulations-Violations): a car unmoved for 72 hours may be towed. Central Collegetown has no street permits, so twelve months at the $232 garage rate is $2,784. A Cornell [B commuter permit](https://fcs.cornell.edu/departments/transportation-delivery-services/parking/parking-students) is $359.77 a year wherever you live. The mistake that costs most: leaving a car on a City street over winter break, which a [2023 Cornell notice](https://fcs.cornell.edu/announcements/2023-11-16/winter-parking-transportation-information) says may be treated as abandoned and towed.
@@ -289,19 +313,21 @@ If you sign from abroad, the address is your only safety check. Cornell [checks 
 - **Looking up a Lansing or Cayuga Heights rental on the safety tool.** It covers City rentals only; a blank result is not a clean one.
 - **Expecting 120 days' notice outside the City.** A landlord there can show your unit to the next group in the fall.
 - **Calling the City Building Division about a Town apartment.** The complaint goes to the wrong office; call 607-273-1783 or 607-533-7054.
-- **Assuming Good Cause protects a Lansing renewal.** Not confirmed there; read the landlord's notice for the coverage line.
+- **Assuming Good Cause protects a Lansing renewal.** Lansing had not opted in as of May 4, 2026; check the coverage line on the landlord's notice.
 
 ## FAQ
 
 **Is Collegetown in the City of Ithaca?** Yes. Collegetown, Fall Creek and downtown are City neighborhoods, so the 120-day rule, the certificate and the [safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments) all apply.
 
-**Do I need City trash tags in Cayuga Heights?** The [$6 City tags](https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags) are for City collection. Ask your landlord how trash is handled at a village or town address.
+**Do I need City trash tags in Cayuga Heights?** No. The [$6 City tags](https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags) are for City collection; Cayuga Heights picks up trash with its own [Village tags](https://cayugaheights.gov/for-residents/household-yard-refuse/).
 
 **Can a Town of Ithaca landlord legally rent to three unrelated students?** Only in a home where the Zoning Board of Appeals has found the group a functional equivalent of a family, under the rule [upheld in 2017](https://law.justia.com/cases/new-york/other-courts/2017/2017-ny-slip-op-30471-u.html). Call the Town at 607-273-1783 to ask about a specific address.
 
 **Does the City's noise permit apply outside the City?** No. The [City code](https://ecode360.com/8391226) covers City addresses; the Town of Ithaca has its own [noise ordinance](https://ecode360.com/8659282).
 
 **Does Cornell treat a Lansing apartment differently?** Cornell's residential rules depend on your class year, not your address. The difference is the City-only safety tool and certificate check.
+
+This page is general information, not legal advice.
 
 ## Related guides
 

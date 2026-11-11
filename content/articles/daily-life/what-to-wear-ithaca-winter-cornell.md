@@ -7,7 +7,7 @@ primary_query: what to wear for an Ithaca winter
 topic: daily-life
 school: cornell-university
 type: checklist
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 269
 rewrites: ''
 readers:
@@ -45,6 +45,15 @@ sources:
 - url: https://cornellsun.com/2021/11/17/delayed-first-snowfall-in-ithaca-reflects-changing-climate-patterns/
   title: Delayed First Snowfall in Ithaca Reflects Changing Climate Patterns, The Cornell Daily Sun, November 17, 2021
   accessed: '2026-11-10'
+- url: https://www.cornellsun.com/article/2024/10/bundle-up-cheaply-best-coat-bargains-in-ithaca
+  title: 'Bundle Up Cheaply: Best Coat Bargains in Ithaca, The Cornell Daily Sun, October 31, 2024'
+  accessed: '2026-11-11'
+- url: https://alumni.cornell.edu/connect/downloads/then-and-now/
+  title: Then vs. Now, Alumni, Parents and Friends, Cornell University
+  accessed: '2026-11-11'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus
+  title: Cycling on Campus, Cornell Transportation and Delivery Services
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: The Cornell Arts Quad under snow in winter, with Olin Library on the left and Goldwin Smith Hall on the right
@@ -124,11 +133,25 @@ Watch for prickling, numbness, a color change or waxy-looking skin, and do not r
 
 ## What if I ride a bike in winter?
 
-Cornell publishes no winter riding guidance, and its snow removal page does not mention bike lanes. Gear for cyclists is covered in the [winter biking guide](/cornell/getting-around/biking-in-ithaca-winter-cornell/). Most first-years walk and ride TCAT, which is covered in the [first-year getting around guide](/cornell/getting-around/getting-around-cornell-first-year/).
+On a bike, wear a helmet and brightly colored or reflective clothing so drivers can see you, and use legal headlights and taillights if you ride at dusk or at night ([Cornell Transportation Services](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus)). The [winter biking guide](/cornell/getting-around/biking-in-ithaca-winter-cornell/) covers brakes, locks and the bus backup. Most first-years walk and ride TCAT, which is covered in the [first-year getting around guide](/cornell/getting-around/getting-around-cornell-first-year/).
 
 ## Where can I buy winter clothes in Ithaca and how much will it cost?
 
-The sources behind this guide name no store, price range or sale dates. Cornell's graduate school lists stores and thrift shops on its winter clothing page, linked above. Compare prices there, then check second-hand shops before you buy new. The Access Fund caps are the only dollar figures Cornell publishes for winter gear.
+Start at the discount and secondhand stores near South Meadow Square. In fall 2024, The Cornell Daily Sun priced coats there from $25 at Plato's Closet to about $89.99 at T.J. Maxx ([The Cornell Daily Sun](https://www.cornellsun.com/article/2024/10/bundle-up-cheaply-best-coat-bargains-in-ithaca)).
+
+| Item and store | Price |
+|---|---|
+| Used name-brand coat, Plato's Closet | $25 to $40 |
+| Sherpa parka or puffer jacket on sale, Old Navy | $34.99 |
+| Coat, Walmart | About $40 on average |
+| Name-brand coat, T.J. Maxx | $59.99 to about $89.99 |
+| Winter boots | $150 or more (2023) |
+
+Sources: The Cornell Daily Sun, Oct. 31, 2024 (coats); [Cornell's alumni website](https://alumni.cornell.edu/connect/downloads/then-and-now/), citing The New York Times (boots).
+
+Plato's Closet is in South Meadow Square. T.J. Maxx is across the street, Old Navy is a few doors down from it, and Walmart is an eight-minute walk from Old Navy. TCAT Route 15 serves all four (The Cornell Daily Sun).
+
+Cornell's Graduate School lists more stores: Dick's Sporting Goods, Kohl's, REI Co-op, Ross and Target for new clothes, and EverGreen Ithaca, Goodwill, the Ithaca ReUse Center and MegaCenter, the Salvation Army and Thrifty Shopper for used ones ([Cornell Graduate School](https://gradschool.cornell.edu/announcements/grad-tips-winter-clothing-resources)).
 
 ## What to do next
 

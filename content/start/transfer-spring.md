@@ -1,18 +1,18 @@
 ---
-title: "Cornell transfers: start here for travel and housing"
-meta: "For Cornell transfers and January starters: TCAT and winter parking dates, your on-campus year, the exemption, and when to look for a lease off campus."
+title: "Cornell transfers: start here for applying, housing, travel"
+meta: "For Cornell transfers and spring-entry hopefuls: deadlines, credit and cost to apply, then your on-campus year, leases, TCAT and winter parking dates."
 topic: getting-around
-topics: [getting-around, housing]
-updated: 2026-11-08
+topics: [getting-around, housing, transfer]
+updated: 2026-11-11
 queue_id: q-getting-around-0070
-queue_ids: [q-housing-0094]
+queue_ids: [q-housing-0094, q-transfer-0036]
 kind: start_here
 readers: [transfer-spring]
 brief: intel/getting-around/brief.md
-briefs: [intel/off-campus-housing/brief.md]
+briefs: [intel/off-campus-housing/brief.md, intel/transfer/brief.md]
 ---
 
-You are a transfer arriving in fall or January, or a student whose first term starts in spring. You know college life but not Ithaca, you were admitted after the Collegetown rush picked over the year's apartments, and you usually know no one to room with. A [Cornell Sun report](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free) says first-years, transfers included, get free TCAT (Cornell's own pass page does not name transfers); your class year decides whether you live on campus first or can sign a lease now, so read the path for each below.
+You are moving to Cornell from another college, or you hoped to start in January: external transfer is fall only for fall 2027 entry, so a January plan becomes an August arrival with one more semester done elsewhere ([Cornell admissions](https://admissions.cornell.edu/apply/transfer-applicants)). You know college life but not Ithaca or Cornell's college-by-college system, you are admitted after the Collegetown rush has picked over the year's apartments, and you usually know no one to room with. Start with the transfer path to apply, then the housing and travel paths once you are in. A [Cornell Sun report](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free) says first-years, transfers included, get free TCAT (Cornell's own pass page does not name transfers); your class year decides whether you live on campus first or can sign a lease now, so read the path for each below.
 
 ## Read in this order: Getting around
 
@@ -61,8 +61,32 @@ Not in the brief: spring move-in dates and transport at transfer orientation.
 
 Not in the brief: when a new transfer files the exemption beyond "during the open application period".
 
+## Read in this order: Transfer
+
+1. [Transferring to Cornell: the complete guide for fall 2027](/transfer/transferring-to-cornell-guide/): the whole process, from eligibility to move-in, in one place; read it first, before you choose a college.
+2. Can I transfer to Cornell? Eligibility and college quiz: check whether you can apply this cycle and which college fits; use it once it is live, right after the guide.
+3. [Can you transfer to Cornell for spring? Fall only now](/transfer/cornell-spring-transfer-fall-only/): what happened to January entry and what to do with the extra semester; read it now if you planned on spring.
+4. [Cornell transfer deadlines for fall 2027 and decision dates](/transfer/cornell-transfer-deadlines-decision-dates/): both deadlines and when decisions arrive; read it before you put anything on your calendar.
+5. [Cornell transfer application: every piece and who does it](/transfer/cornell-transfer-application-materials/): which forms you send and which your school's officials send; read it by January, while there is time to ask them.
+6. [What GPA you need to transfer to Cornell, by college](/transfer/cornell-transfer-gpa-requirements-by-college/): the grade signal for the college you want; read it while you choose this term's courses.
+7. [How many credits transfer to Cornell? Caps and evaluation](/transfer/cornell-transfer-credit-how-many-credits-transfer/): the credit cap and what a later start costs you; read it before you add a semester elsewhere.
+8. [Cornell transfer cost 2026-27: $95,218 to $99,169 billed](/transfer/cornell-transfer-cost-first-year/): what your required year bills before aid; read it before you file aid forms.
+9. [Cornell transfer housing: on campus, exemptions, leases](/housing/cornell-transfer-housing/): whether you live on campus first or can sign a lease; read it the day you are admitted.
+10. [Cornell transfer orientation and move-in, day by day](/transfer/cornell-transfer-orientation-move-in/): what happens from move-in to add/drop; read it in July.
+11. [Making friends as a Cornell transfer: what worked](/transfer/making-friends-as-a-cornell-transfer/): how other transfers found their people; read it before orientation week.
+
+## Dates to watch: Transfer
+
+- Now (November 2026): no spring 2027 external transfer application exists; external transfer is fall only ([admissions](https://admissions.cornell.edu/apply/transfer-applicants)).
+- December 1, 2026: spring internal-transfer deadline at Hotel and AAP, for current Cornell students only ([AAP](https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/)).
+- March 15, 2027: Transfer Common App, fee or waiver and any portfolio due, with the CSS Profile and FAFSA ([admissions](https://admissions.cornell.edu/apply/transfer-applicants); [aid](https://finaid.cornell.edu/apply-aid/prospective-students-or-first-time-aid-applicants)).
+- April 15, 2027: College Report, Academic Evaluation, Mid-Term Report and transcripts due ([admissions](https://admissions.cornell.edu/apply/transfer-applicants)).
+- Late April through June 2027: rolling decisions; apply for housing within ten days of getting your NetID ([admissions](https://admissions.cornell.edu/apply/transfer-applicants); [housing application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process)).
+- Mid-August (2026 pattern: transfers moved in Aug 18, orientation Aug 18 to 23): move-in and orientation with transfer small groups ([orientation](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation)).
+
 ## When you're done
 
 Go back to the topic page at [/getting-around/](/getting-around/) for the guides on breaks, airports and buses home.
 If you came in without a car and plan to stay that way after this year, read [Getting around Cornell after first year without a car](/getting-around/getting-around-cornell-upper-years-no-car/) next.
 For housing, go back to the [off-campus housing guide](/housing/cornell-off-campus-housing-guide/) or the topic page at [/housing/](/housing/) for renewals, repairs and deposits once you rent.
+For applying, go back to the [transfer guide](/transfer/transferring-to-cornell-guide/) or the topic page at [/transfer/](/transfer/) for each college's rules, aid and pathways.

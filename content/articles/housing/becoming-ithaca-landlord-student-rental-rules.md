@@ -5,7 +5,7 @@ primary_query: ithaca landlord requirements certificate of compliance
 topic: housing
 school: cornell-university
 type: checklist
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-housing-0048
 kind: spoke
 readers:
@@ -19,7 +19,7 @@ tools:
 sources:
 - url: https://www.cityofithacany.gov/146/Certificate-of-Compliance
   title: Certificate of Compliance, City of Ithaca
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/147/Certificate-of-Compliance-Fees
   title: Certificate of Compliance Fees, City of Ithaca
   accessed: '2026-11-08'
@@ -30,14 +30,11 @@ sources:
   title: Building Division, City of Ithaca
   accessed: '2026-11-08'
 - url: https://ecode360.com/8390192
-  title: City of Ithaca Code, rental certificate of compliance (excerpt)
-  accessed: '2026-11-08'
-- url: https://ecode360.com/8390220
-  title: City of Ithaca Code, certificates for one- and two-family dwellings (excerpt)
-  accessed: '2026-11-08'
+  title: 'City of Ithaca Code, Chapter 210, Article VII: Residential Rental Units (sections 210-42 to 210-44)'
+  accessed: '2026-11-11'
 - url: https://ecode360.com/8393870
-  title: 'City of Ithaca Code, zoning definitions: cooperative household (excerpt)'
-  accessed: '2026-11-08'
+  title: City of Ithaca Code 325-3, zoning definitions (family, one- and two-family dwellings, cooperative household)
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/
   title: Cornell Off-Campus Housing Marketplace
   accessed: '2026-11-08'
@@ -60,8 +57,8 @@ sources:
   title: Ithaca landlords must now give renters 120 days before renewing leases, WSKG, April 7, 2022
   accessed: '2026-11-08'
 - url: https://ecode360.com/27390826
-  title: City of Ithaca Code 258-10, Renewal of rental agreements; notification to tenants
-  accessed: '2026-11-08'
+  title: City of Ithaca Code 258-10 and 258-11, renewal of rental agreements, notice to tenants and penalties
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/
   title: 'Mehler: Student tenants, rights shifting in your favor, The Cornell Daily Sun, April 18, 2022'
   accessed: '2026-11-08'
@@ -71,6 +68,9 @@ sources:
 - url: https://hcr.ny.gov/good-cause-eviction-law-notice-february-2025
   title: Good Cause Eviction Law Notice, February 2025, NYS Homes and Community Renewal
   accessed: '2026-11-08'
+- url: https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026
+  title: Good Cause Eviction Law Notice, August 2026 (posted July 16, 2026), NYS Homes and Community Renewal
+  accessed: '2026-11-11'
 - url: https://hcr.ny.gov/good-cause-eviction
   title: Good Cause Eviction, NYS Homes and Community Renewal
   accessed: '2026-11-08'
@@ -141,7 +141,7 @@ images:
 ---
 
 ```glance
-- City of Ithaca rental buildings with 3 or more units need a Certificate of Compliance; fees run from $100 (one-family) to $2,500 (251+ units).
+- Every City of Ithaca rental needs a Certificate of Compliance; fees run from $100 (one-family) to $2,500 (251+ units).
 - Give current tenants 120 days' written notice before you renew, show or re-let, unless they initialed a bolded first-page waiver.
 - Good Cause applies in Ithaca since July 2024; the small-landlord exemption covers owners of one unit statewide.
 - Deposit plus any advance: one month's rent at most, held in trust, returned with an itemized list within 14 days or forfeited.
@@ -149,7 +149,7 @@ images:
 - Heat from Sept 15 to May 31; sidewalk cleared within 24 hours of a snowfall starting.
 ```
 
-In the City of Ithaca, a rental building with three or more units needs a [Certificate of Compliance](https://www.cityofithacany.gov/146/Certificate-of-Compliance), inspected and renewed every three years, for a [fee of $300 for 3 to 8 units](https://www.cityofithacany.gov/147/Certificate-of-Compliance-Fees). Every student lease then runs on two clocks: the City's [120 days' written notice](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/) before you re-let, and New York's rule that the deposit comes back with an itemized statement [within 14 days](https://www.nysenate.gov/legislation/laws/GOB/7-108) or is lost. Ithaca also opted into Good Cause Eviction, and its [small-landlord exemption stops at one unit](https://hcr.ny.gov/good-cause-eviction-law-notice-february-2025), so a second unit anywhere in New York puts you under it unless another exemption applies.
+In the City of Ithaca, every rental needs a [Certificate of Compliance](https://ecode360.com/8390192), renewed by inspection every five years for a one- or two-family house and every three for three or more units. Every student lease then runs on two clocks: the City's [120 days' written notice](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/) before you re-let, and New York's rule that the deposit comes back with an itemized statement [within 14 days](https://www.nysenate.gov/legislation/laws/GOB/7-108) or is lost. Ithaca also opted into Good Cause Eviction, and its [small-landlord exemption stops at one unit](https://hcr.ny.gov/good-cause-eviction-law-notice-february-2025), so a second unit anywhere in New York puts you under it unless another exemption applies.
 
 ```reader "If you're buying a house near campus to rent"
 First check the address. The COC system, the 120-day rule and Cornell's safety tool are City of Ithaca rules, not Town, Lansing or Cayuga Heights ones. Budget the COC fee: $100 for a one-family, $175 for a two-family, $300 for 3 to 8 units. Ask the seller for the current certificate and the deposit records. Under state law a new owner is [liable for a deposit it knew of](https://www.nysenate.gov/legislation/laws/GOB/7-108). Owning a second unit anywhere in New York ends the one-unit Good Cause exemption. The costly mistake: closing before you know whether the certificate has lapsed.
@@ -171,19 +171,19 @@ State law follows you everywhere in New York: deposits, fees, habitability, subl
 
 ## The Certificate of Compliance: who needs one and what it costs
 
-The City's [COC page](https://www.cityofithacany.gov/146/Certificate-of-Compliance) covers multiple dwellings: buildings with three or more units, or individual units housing six or more unrelated persons. Dormitories, fraternities and sororities are covered too. A [code excerpt](https://ecode360.com/8390192) puts the unrelated-occupant trigger at five, not six, so treat five as the safe line until the Building Division says otherwise.
+Every rental dwelling in the City needs one, single-family houses included. City Code [section 210-43](https://ecode360.com/8390192) sets how long each certificate lasts, and the owner books the next inspection before it expires:
 
-One- and two-family houses are less settled. The COC page starts at three units, yet the fee schedule prices one- and two-family inspections, and a [code excerpt](https://ecode360.com/8390220) says their certificates last up to five years. Not confirmed: whether a single-family rental with fewer than five unrelated tenants must hold a certificate. Ask the Building Division at 607-274-6508.
+- one- or two-family rental: up to five years;
+- three or more units, or a unit with five or more unrelated occupants: up to three years;
+- dormitories, fraternities and sororities: up to one year.
 
-How it works, per the City:
+How it works, per the City's [COC page](https://www.cityofithacany.gov/146/Certificate-of-Compliance) and [fee page](https://www.cityofithacany.gov/147/Certificate-of-Compliance-Fees):
 
 1. Apply on OpenGov (ithacacityny.viewpointcloud.com) before the current certificate expires.
 2. Pay the initial fee before the inspection is scheduled. Charges billed after the inspection are due within 30 days of receipt, and one 30-day extension to prepare for the inspection or make repairs is allowed.
 3. An inspector checks the exterior and interior, structure, fire protection, egress, heating and ventilation, electrical, plumbing and fire separations. Records are checked against the housing, building and zoning codes.
 4. Fix what they find. A missed appointment costs $75.
-5. Post the certificate in the main entryway, or inside a kitchen cabinet if there is no central entrance, per the [code excerpt](https://ecode360.com/8390220).
-
-Multiple dwellings renew every 3 years; dormitories, fraternities and sororities every year.
+5. Post the certificate in the main entryway, or inside a kitchen cabinet if there is no central entrance. Section 210-43 also requires every lease to state whether the unit has a valid certificate, its expiration date and a link to the City's certificate database.
 
 | Property | COC fee |
 |---|---|
@@ -201,7 +201,7 @@ Multiple dwellings renew every 3 years; dormitories, fraternities and sororities
 | Each violation still uncorrected | $50 |
 | Re-inspection | $75 an hour ($75 minimum) |
 
-Source: the City's [COC fee page](https://www.cityofithacany.gov/147/Certificate-of-Compliance-Fees), undated, read 2026-11-08.
+Source: City Code [section 210-43](https://ecode360.com/8390192), amended through March 5, 2025.
 
 The certificate also decides whether students can find you. Cornell's listing site, the [Off-Campus Housing Marketplace](https://offcampus.housing.cornell.edu/), requires a current COC for City properties, and the Graduate School says listings are [checked against the City's COC database](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/). Cornell and the Building Division also run a [safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments) that shows every City rental's sprinklers, extinguishers, smoke and carbon monoxide alarms, construction type and code. Students look you up there.
 
@@ -209,7 +209,7 @@ The Building Division is at 108 E. Green St., City Hall, 4th floor, open weekday
 
 ## What a lapsed certificate or an unsafe unit costs
 
-The case that shows the stakes is 117 Thurston Ave. In 2018 its student tenants learned after signing that the certificate had [expired in November 2015](https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/). The Sun reported 53 days from the first complaint to a fixed heater, and one tenant sleeping in a campus library.
+Renting without a valid certificate is a Housing Code violation, and the City can order the unit vacated until it complies, under [section 210-43](https://ecode360.com/8390192). The case that shows the stakes is 117 Thurston Ave. In 2018 its student tenants learned after signing that the certificate had [expired in November 2015](https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/). The Sun reported 53 days from the first complaint to a fixed heater, and one tenant sleeping in a campus library.
 
 In 2019 Common Council made renting an unsafe unit a [misdemeanor, with up to a $500 fine and 30 days](https://www.cornellsun.com/article/2019/03/city-council-votes-to-stiffen-penalties-for-noncompliant-landlords). Landlords also owe displaced tenants double the monthly rent, prorated per day.
 
@@ -243,11 +243,11 @@ rows:
 
 ## The leasing calendar: the 120-day notice and the waiver
 
-City Code [section 258-10](https://ecode360.com/27390826) requires at least 120 days' written notice to current tenants before you renew their agreement, show the unit to prospective tenants or sign with new ones. It took effect May 31, 2022, replacing a 60-day rule. WSKG reported it covers leases of nine months or longer.
+City Code [section 258-10](https://ecode360.com/27390826) requires at least 120 days' written notice to current tenants before you renew their agreement, show the unit to prospective tenants or otherwise suggest it is available, or sign with new ones. It took effect May 31, 2022, replacing a 60-day rule. It does not apply when the current agreement runs less than nine months, or once an eviction summons and complaint has been filed and served.
 
-The waiver is narrow. It must be "explicitly written, bolded and initialed" on the [lease's first page](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/), and the sponsor's [2022 column](https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/) says both sides must choose it. City Attorney Ari Levine said disputes can go to the City's housing court.
+The waiver is narrow. It must be "explicitly written, bolded and initialed" on the [lease's first page](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/), and the sponsor's [2022 column](https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/) says both sides must choose it. City Attorney Ari Levine said disputes can go to the City's housing court, and a violation carries a civil penalty of up to $500 under [section 258-11](https://ecode360.com/27390826).
 
-Not confirmed: whether the 120 days count back from the lease's end or forward from its start. Counted back from a July 31, 2027 end, the date is April 2, 2027, by our arithmetic. The sponsor's examples count forward from the start, so an August lease reaches the decision point around December. Until the City clarifies, get the notice out early, in writing, and keep a copy.
+The 120 days run from the day you give written notice, which [the code](https://ecode360.com/27390826) allows at any time during the current agreement. Notice given on August 1, the day a lease starts, clears you to show, renew or re-let from November 29. Keep a copy of the notice.
 
 ```figure
 kind: steps
@@ -265,7 +265,7 @@ rows:
 
 Common Council voted 8-2 to [opt in](https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections) in July 2024. Tenants gain a right to renewal. You can still decline to renew for your own residence, demolition, leaving the rental market or a proven legal ground, such as nonpayment or a violation uncured after 10 days' written notice, per the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal).
 
-The rent standard: an annual increase above the lower of 10% or 5% plus CPI is [presumed unreasonable](https://hcr.ny.gov/good-cause-eviction). It is a rebuttable presumption, not a hard cap. The state housing agency usually publishes the CPI figure by August 1. Not confirmed: the 2026 upstate CPI figure, since the August 2026 notice could not be read.
+The rent standard: an annual increase above the lower of 10% or 5% plus CPI is [presumed unreasonable](https://hcr.ny.gov/good-cause-eviction). It is a rebuttable presumption, not a hard cap. The state housing agency publishes the CPI figure by August 1 each year. Its [2026 notice](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026) puts the Northeast region's change, which applies in Tompkins County, at 3.15% for 2024 to 2025, so the line is 5% plus 3.15%, or 8.15%.
 
 Exemptions under [Real Property Law 214](https://www.nysenate.gov/legislation/laws/RPP/214) that matter to an alum:
 
@@ -362,7 +362,7 @@ Second-years may live only in Cornell or affiliated housing unless exempt. A pri
 
 ## What students pay, for scale
 
-One landlord's [2027-28 Collegetown list](https://ithacarenting.com/collegetown/) put per-bed medians at $800 a month in a 6BR and $2,025 for a 1BR alone, in our count of 38 priced rows read on 2026-11-08. Purchase prices, taxes and returns are outside this page. Not confirmed: any official figure for Ithaca rental yields.
+One landlord's [2027-28 Collegetown list](https://ithacarenting.com/collegetown/) put per-bed medians at $800 a month in a 6BR and $2,025 for a 1BR alone, in our count of 38 priced rows read on 2026-11-08.
 
 ## Common mistakes
 
@@ -381,9 +381,11 @@ One landlord's [2027-28 Collegetown list](https://ithacarenting.com/collegetown/
 
 **Who handles a tenant's complaint about my building?** The City's code inspectors, through the Building Division's "Report a Concern" form or [607-274-6510](https://www.cityofithacany.gov/130/Building-Division).
 
-**How many unrelated students can share a City house?** City zoning calls four or more unrelated people a ["cooperative household"](https://ecode360.com/8393870); no Collegetown-specific occupancy cap appears in the code excerpts. Five or more unrelated occupants triggers the COC in [one code excerpt](https://ecode360.com/8390192).
+**How many unrelated students can share a City house?** Two or three per unit in a one- or two-family house, by zone. [City zoning](https://ecode360.com/8393870) limits a one-family house to one person or a family plus one unrelated person, or plus two in the R-2 and R-3 zones or an owner-occupied R-1 house. Each unit of a two-family house in an R-2 or CR-2 zone allows one person or a family plus two unrelated people. Four or more unrelated people make a "cooperative household", which zoning treats as a multiple dwelling, and four or more college students are presumed not to be a functional family unit. Verified over-occupancy revokes the certificate immediately, under [section 210-43](https://ecode360.com/8390192).
 
 **Can my tenant change the locks?** Generally not without your consent, and you cannot demand a duplicate key unless the lease reserves one, per the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/landlord-access).
+
+This page is general information, not legal advice.
 
 ## Related guides
 

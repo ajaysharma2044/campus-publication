@@ -1,65 +1,77 @@
 {
  "slug": "transfer-spring",
- "queue_id": "q-housing-0094",
+ "queue_id": "q-transfer-0036",
  "verdict": "pass",
  "fact_check": [
   {
-   "claim": "April 6, 2026: AY 2026-27 housing application deadline for first- and second-year students, exemption requests included",
-   "source_url": "brief §2 (row 2026-27 housing application deadline)",
+   "claim": "External transfer is fall only for fall 2027 entry; no spring 2027 external application exists",
+   "source_url": "brief §1, §4",
    "status": "ok",
-   "note": "brief §2: all first- and second-year students had to complete the application by April 6, 2026. Brief row 'How to request an exemption' says exemptions are requested in the open application period, so the page's pairing is consistent. The page's own 'whether new transfers follow it is not in the brief' hedge is correct."
+   "note": "brief: fall only; open cycle is fall 2027"
   },
   {
-   "claim": "June 22 (2018): date transfers that year learned whether they had campus housing",
-   "source_url": "brief §10 (transfer section) and thread row 21",
+   "claim": "Transfer Common App, fee or waiver and any portfolio due March 15, 2027; CSS Profile and FAFSA also March 15, 2027",
+   "source_url": "brief §2 (admissions, aid rows)",
    "status": "ok",
-   "note": "brief: 'in 2018 transfers learned on June 22 whether they had campus housing'. Cornell Sun 2018/12 link matches the brief's source."
+   "note": "brief rows give March 15 and aid deadline March 15, 2027 for fall 2027"
   },
   {
-   "claim": "On or about August 1: most Ithaca 12-month leases start; summer transfer shops leftover downtown 'available now' units, sublets, Lansing complexes",
-   "source_url": "brief §10 (transfer section) and calendar",
+   "claim": "April 15, 2027: College Report, Academic Evaluation, Mid-Term Report and transcripts due",
+   "source_url": "brief §2, §4.2",
    "status": "ok",
-   "note": "brief: leases end July 31 and the next starts on or about August 1; leftover market is downtown 'available now' units, sublets, Lansing and Northeast complexes. Ithaca Renting downtown link is in the brief."
+   "note": "brief: April 15 is all other required materials incl. Mid-Term Report"
   },
   {
-   "claim": "Late August to September of your on-campus year: Collegetown leasing for the following year opens (Cornell Sun 2022)",
-   "source_url": "brief §10 and Sun 2022-09-12 rows",
+   "claim": "Late April through June 2027 rolling decisions",
+   "source_url": "brief §2",
    "status": "ok",
-   "note": "brief rows cite the Sun 2022 article: signing before Labor Day, early Sept 2022 openings, search starting in August."
+   "note": "brief: decisions late April through June"
   },
   {
-   "claim": "For a spring transfer this is the second fall on campus, about 18 months after arrival",
-   "source_url": "brief §10 transfer section; content/articles/housing/cornell-transfer-housing.md timeline",
+   "claim": "Apply for housing within ten days of getting your NetID",
+   "source_url": "brief §6",
    "status": "ok",
-   "note": "fixed in place: Recomputed: a January 2027 arrival means the Collegetown search for an August 2028 lease opens about August 2027, roughly 7 months after arrival and the first fall after arrival, not the second fall. The 18 months is the gap from arrival to the first lease start (Jan 2027 to about Aug 2028), as the brief says. Old wording blended the two. New wording: 'the first fall after arrival (about August 2027), and the lease it opens starts about 18 months after arrival'. Matches the transfer-housing guide's own timeline."
+   "note": "brief housing row"
   },
   {
-   "claim": "An exemption lasts a single academic year, so a junior or senior transfer reapplies every year",
-   "source_url": "brief §2 (Exemption length)",
+   "claim": "Mid-August 2026 pattern: transfers moved in Aug 18, orientation Aug 18 to 23",
+   "source_url": "brief §6/orientation rows",
    "status": "ok",
-   "note": "brief: 'Exemptions last a single academic year; transfers and returning students must reapply each year'."
+   "note": "brief fall 2026 move-in row"
   },
   {
-   "claim": "Not in the brief: when a new transfer files the exemption beyond 'during the open application period'",
-   "source_url": "brief §2 (How to request an exemption)",
+   "claim": "December 1, 2026 spring internal-transfer deadline at Hotel and AAP, current Cornell students only",
+   "source_url": "brief §2 internal transfer rows",
    "status": "ok",
-   "note": "Page marks a hole; brief says only 'requests accepted during the open application period'. Hedge is correct."
+   "note": "brief: Hotel and AAP internal Dec 1 for spring"
   },
   {
-   "claim": "Housing guide descriptions: guide covers rules, prices and leasing calendar; transfer guide covers on-campus year, exemption vs lease; listings guide covers leftover units, sublets, semester leases; neighborhoods guide covers rent and walk or bus; roommates guide covers finding housemates and what you owe if one leaves; lease guide covers clauses",
-   "source_url": "content/articles/housing/*.md titles and metas",
+   "claim": "Cost guide title: $95,218 to $99,169 billed",
+   "source_url": "brief §10",
    "status": "ok",
-   "note": "Compared each description to the guides' titles and metas. The six linked guide paths exist and match. The listings meta does not name semester leases, but the descriptor is a modest paraphrase of that guide's scope."
+   "note": "matches brief and the guide's own title"
   },
   {
-   "claim": "Tools: eligibility quiz (transfer exemption), lease-timeline by start term (fall or spring), move-in checklist by situation",
-   "source_url": "content/tools/can-i-live-off-campus-cornell-quiz, when-to-sign-lease-timeline-cornell, off-campus-move-in-checklist-cornell",
+   "claim": "Reader-guide titles and descriptions for the 11 transfer entries",
+   "source_url": "content/articles/transfer/*",
    "status": "ok",
-   "note": "All three tool directories exist, with matching names."
+   "note": "titles match the guides' frontmatter; descriptions agree with metas (deadlines, credit cap, GPA, cost, orientation, friends)"
+  },
+  {
+   "claim": "Cornell Sun report says first-years, transfers included, get free TCAT; Cornell's page does not name transfers",
+   "source_url": "https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free",
+   "status": "ok",
+   "note": "opened: article says first-year students including freshman and transfer students get a free OmniRide pass; brief §6 says housing page does not mention transfers"
+  },
+  {
+   "claim": "Line 'Not in the brief: when external spring entry ended.'",
+   "source_url": "n/a",
+   "status": "ok",
+   "note": "fixed in place: planner note that tells the reader our research lacks something (lint failure); cut the line, no heading or glance promise depended on it"
   }
  ],
  "beats_top": {
-  "query": "cornell transfer housing off campus",
+  "query": "cornell transfer students",
   "top_url": "",
   "better": "n/a",
   "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
@@ -68,6 +80,6 @@
  "fixes": [],
  "brief_updates": [],
  "core_answer": "right",
- "reviewed_at": "2026-11-08",
+ "reviewed_at": "2026-11-11",
  "checked_by": "scripts/v3/check.sh"
 }

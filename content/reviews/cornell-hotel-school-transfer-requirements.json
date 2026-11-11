@@ -1,0 +1,151 @@
+{
+ "slug": "cornell-hotel-school-transfer-requirements",
+ "queue_id": "q-transfer-0020",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Nolan takes first-year and sophomore applicants with at least 12 credits; juniors, seniors and bachelor's holders cannot apply; sophomores applying in spring enter as rising juniors",
+   "source_url": "brief §2.6 Hotel Administration (Eligibility)",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Deadline March 15, 2027, fall only; decisions May and June",
+   "source_url": "brief §2.2 and §2.6 Hotel",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Prerequisites: 3 units foreign language, 1 chemistry, 1 precalculus (HS or college); college microeconomics; college writing course meeting Knight Institute requirements",
+   "source_url": "brief §2.6 Hotel (Prerequisites)",
+   "status": "ok",
+   "note": "Matches brief; table matches."
+  },
+  {
+   "claim": "No minimum GPA; admits generally 3.3 or better; same figure as all admitted transfers",
+   "source_url": "brief §2.6 Hotel typical GPA",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Up to 60 transfer credits, AP/IB/GCE capped at 15; AP Micro 5 = HADM 1410; IB Econ 7 = HADM 1410 + 3 electives; AP English 5 / IB English HL 7 = FWS; AP Statistics no credit",
+   "source_url": "brief §2.6 Hotel (Credit)",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Interviews not offered; factors are coursework, essay (Writing Supplement), professor recommendations; resume listed only for first-year on Nolan page, central page lists resume for Hotel",
+   "source_url": "brief §2.6 Hotel page reread; §8.1 #7",
+   "status": "ok",
+   "note": "Matches brief, including the flagged conflict handling."
+  },
+  {
+   "claim": "Contact sha_admissions@cornell.edu, +1 (607) 254-4228, 248 Sage Hall; registrar and advising emails, 180 Statler Hall",
+   "source_url": "brief §2.6 Hotel (Contact, After admission)",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Internal route: Cornell GPA 3.0, ECON 1110 or equivalent, 12-credit term, first/second-year, essay up to 650 words; spring Dec 1, 2026 11:59 pm ET with decisions early January; fall May 1 with decisions by late June; office hours Nov 18, 2026; transferees ineligible",
+   "source_url": "brief §6.9 Hotel internal",
+   "status": "ok",
+   "note": "Brief lists Oct 27 and Nov 18 office hours; page lists only Nov 18, the one still ahead on 2026-11-11."
+  },
+  {
+   "claim": "Transfer Option: earlier portal login, no fee, resume for SC Johnson, deadline March 15 in 2026, next application opens winter 2027, decisions from mid-April, mostly late April or early May",
+   "source_url": "brief §2.2, §2.5 (TO deadline, extras, timing, Jan 2027 calendar)",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "$85 fee or waiver; waiver applied automatically when a burden and applicant applies for aid; March 15 and April 15 materials (College Report, Academic Evaluation, Mid-Term Report, transcripts); 250 to 650 word essay",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Cornell says no preference by school type and about a quarter of transfers come from community colleges; 80% similarity, C or better, regionally accredited, not refused for community college or online",
+   "source_url": "brief §2.4 and §6",
+   "status": "ok",
+   "note": "Matches brief; 'about a quarter' attributed to Cornell's FAQ as the brief advises."
+  },
+  {
+   "claim": "Nolan expected 48 fall and 21 spring transfers, 69 of 762 in 2021",
+   "source_url": "brief IRP 2021 table",
+   "status": "ok",
+   "note": "Brief gives Hotel 21/48/69 and total 762. Recomputed 48 + 21 = 69."
+  },
+  {
+   "claim": "864 of 7,381 transfer applicants admitted for fall 2025, 11.7%",
+   "source_url": "brief §3.1 CDS D2",
+   "status": "ok",
+   "note": "Recomputed 864 / 7,381 = 0.11706, which rounds to 11.7%."
+  },
+  {
+   "claim": "Tuition $73,946 for 2026-27 (no NY resident break at endowed schools)",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Our sum of tuition, $1,024 fees, a double and Unlimited comes to $96,318 billed",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "Recomputed 73,946 + 1,024 + 13,744 + 7,604 = 96,318. A double is $6,872 per semester, so $13,744 a year."
+  },
+  {
+   "claim": "Need-based aid only; families up to $125,000 with typical assets get tuition covered; up to $75,000, the full cost",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "CSS Profile and FAFSA by March 15, 2027; HEOP Transfer Certification form for Nolan (SC Johnson) EOP/HEOP applicants",
+   "source_url": "brief §2.15, HEOP row",
+   "status": "ok",
+   "note": "Matches brief."
+  },
+  {
+   "claim": "Sophomore entrants must live on campus one academic year; junior entrants are exempt and can rent",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates",
+   "status": "ok",
+   "note": "Fetched. The page says all new transfers live on campus for one academic year, and students who matriculate as a junior or senior are exempt."
+  },
+  {
+   "claim": "Last day of instruction was December 7 in fall 2026, the deadline for the AP/IB credit request",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar",
+   "status": "ok",
+   "note": "Fetched. The main fall 2026 term's last day of instruction is December 7, 2026."
+  },
+  {
+   "claim": "Example: 30 college credits + 12 AP = 42, under both caps; 60 college credits leaves no room for AP",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "30 + 12 = 42, under 60 and under the AP cap of 15. 60 college credits already fills the 60 cap."
+  },
+  {
+   "claim": "Rachel Eisenhart, an ILR transfer, wrote in the Sun that transfers repeat first-year small talk, feel in limbo at first, and feel like a regular sophomore within weeks",
+   "source_url": "https://www.cornellsun.com/article/2025/05/a-letter-to-incoming-transfer-students-what-no-one-tells-you",
+   "status": "ok",
+   "note": "Fetched. Author is Rachel Eisenhart, an ILR sophomore. Her wording: the 'where are you from, what's your major' game a hundred times in the first week; 'a feeling of limbo'; 'After a few weeks, you forget that you're a transfer student, you're just a sophomore.' The paraphrase matches. The page says 'an ILR transfer' and uses no pronoun."
+  },
+  {
+   "claim": "Transfer GPA is not part of the Cornell GPA; transcript shows previous school name and total transfer credits",
+   "source_url": "https://registrar.cornell.edu/students/credit-evaluation-services",
+   "status": "ok",
+   "note": "Fetched. The registrar page says the transcript shows the transfer institution's name and total accepted transfer credits, and that the transfer GPA is not computed into the Cornell GPA."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell hotel school transfer",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh"
+}

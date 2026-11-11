@@ -1,24 +1,84 @@
 {
-  "slug": "low-budget",
-  "queue_id": "q-getting-around-0078",
-  "verdict": "pass",
-  "checked": [
-    {"claim": "Winter break housing applications run Oct 1 to Dec 1", "source_url": "brief §2.22 / §10 dates table", "status": "ok", "note": "brief §2.22 and dates table: Oct 1 open, Dec 1 deadline; matches the staying-in-Ithaca guide meta."},
-    {"claim": "About two weeks before each break: the booking window Wanderu claims is cheapest", "source_url": "brief §2.4 (Wanderu monthly signals)", "status": "ok", "note": "brief: booking about 14 days ahead claimed cheapest by Wanderu; page attributes it as a claim."},
-    {"claim": "Thanksgiving week is Nov 23 to 27, 2026", "source_url": "brief §10.9 / dates section", "status": "ok", "note": "brief treats Nov 23 to 27 as Thanksgiving week (Thanksgiving Thu Nov 26). The Thanksgiving guide's Cornell break is Nov 25 to 29; the start page says 'week', not break, so no conflict."},
-    {"claim": "Thanksgiving week: lowest advertised bus fares ran 28% to 38% above earlier November days in a Nov 8 sample", "source_url": "brief §10.9", "status": "fixed", "note": "Page said 'the dearest week for bus fares', which the brief does not support (it only compares to earlier November days). Replaced with the brief's 28% to 38% sample wording."},
-    {"claim": "OurBus names the Wednesday before Thanksgiving a peak day", "source_url": "https://www.ourbus.com/blog/?p=6269", "status": "ok", "note": "brief §2.4 peak dates row and dates table."},
-    {"claim": "Student Assembly has funded free airport charters in past finals weeks", "source_url": "brief §10.5 / dates table", "status": "ok", "note": "brief: May 2024 pilot, fall 2024, fall 2025 (R18), spring 2026 (R83)."},
-    {"claim": "No Student Assembly finals charter found for fall 2026 as of Nov 8", "source_url": "brief §2.12", "status": "ok", "note": "Brief lists no fall 2026 resolution and advises watching for one; a dated negative claim, consistent with the brief."},
-    {"claim": "January: Wanderu showed Ithaca to NYC fares averaging about $41, against about $66 in November", "source_url": "brief §2.4 Wanderu monthly signals", "status": "fixed", "note": "Page said January was 'the cheapest month', but the brief compares only January with November. Replaced with the brief's two figures."},
-    {"claim": "Mar 31: last day for an OmniRide refund", "source_url": "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", "status": "ok", "note": "brief §2.10 and dates table: refund until Mar 31 less $40."},
-    {"claim": "OmniRide break-even calculator: $200 pass vs $1.50 fares", "source_url": "brief §2.10 / §10.14", "status": "ok", "note": "$200 a year and $1.50 a ride in the brief; the tool's own title and meta match (134-ride break-even; 200/1.50 = 133.3)."},
-    {"claim": "Cornell bus home cost calculator compares C2C, OurBus, FlixBus", "source_url": "content/tools/cornell-bus-home-cost-calculator/tool.md", "status": "ok", "note": "Tool title and meta match the page's description (it also covers Greyhound, which the page does not claim to exclude)."},
-    {"claim": "Guide descriptions: cheapest-ways, Thanksgiving, staying-over-breaks, Bikeshare 'plans, prices and the low-income option', pillar, winter break, TCAT guides", "source_url": "guide titles and metas", "status": "ok", "note": "Checked against each guide's title and meta. Titles match. Bikeshare meta shows plans and prices; the 'low-income option' is not in its meta, so it was not confirmed there (the page body was not read)."},
-    {"claim": "Staying in Ithaca guide: 'before winter break housing closes'", "source_url": "brief §2.22", "status": "ok", "note": "Dec 1 deadline per brief."}
-  ],
-  "brief_updates": [],
-  "fixes": [],
-  "core_answer": "right",
-  "checked_at": "2026-11-08"
+ "slug": "low-budget",
+ "queue_id": "q-housing-0087",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Once you leave campus, aid does not cover the deposit, the first month or summer rent",
+   "source_url": "brief §10 (off-campus steps, line 887) and §4 aid rows",
+   "status": "ok",
+   "note": "Brief states Cornell aid does not cover deposits, first or last month's rent, or summer rent."
+  },
+  {
+   "claim": "Co-op selection rounds in early November and early February; each house runs its own",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing",
+   "status": "ok",
+   "note": "brief co-op row: selection starts early February and early November, each house runs its own process."
+  },
+  {
+   "claim": "On Nov 8, 2026, Ithaca Renting showed 14 of 67 Collegetown rows for 2027-28 sold out",
+   "source_url": "https://ithacarenting.com/collegetown/",
+   "status": "ok",
+   "note": "brief availability row: 14 of 67 rows marked SOLD OUT on 2026-11-08. The brief says 39 of the 67 rows are tagged 2027-2028, so the page's 'rows for 2027-28' is slightly loose, but the sold-out count and date are exact. I left the wording as is."
+  },
+  {
+   "claim": "Fall: the big Collegetown houses sell out first",
+   "source_url": "brief §10 (sold-out rows: 105 Dryden Court 8BR, 214 Dryden Rd 14BR)",
+   "status": "ok",
+   "note": "The brief lists the big houses among the sold-out rows."
+  },
+  {
+   "claim": "Spring: downtown leftovers and Lansing promotions",
+   "source_url": "brief §7 (leftover market, line 701); Lansing West special, line 510",
+   "status": "ok",
+   "note": "Brief says the spring market is downtown 'available now' units, sublets and Lansing complexes. The Lansing West rent-free special is a November 2026 promotion in the brief. It is general guidance and not a hard fact."
+  },
+  {
+   "claim": "At signing the first month and a deposit are due, and aid covers neither",
+   "source_url": "brief §10 (209 Stewart, Cityview; line 887)",
+   "status": "ok",
+   "note": "brief §10 step 5."
+  },
+  {
+   "claim": "Each term: an aid refund for living costs, if your aid exceeds your Bursar charges",
+   "source_url": "https://finaid.cornell.edu/living-campus",
+   "status": "ok",
+   "note": "brief aid row: if aid exceeds Bursar charges a refund is issued for living costs."
+  },
+  {
+   "claim": "July 31: most leases end",
+   "source_url": "https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing",
+   "status": "ok",
+   "note": "brief lease-end row: most Ithaca leases expire July 31."
+  },
+  {
+   "claim": "Deposit due back within 14 days of moving out",
+   "source_url": "https://www.nysenate.gov/legislation/laws/GOB/7-108",
+   "status": "ok",
+   "note": "brief return-deadline row: 14 days after the tenant vacates (GOL 7-108)."
+  },
+  {
+   "claim": "Security-deposit guide covers the cap, 14 days and banned fees",
+   "source_url": "content/articles/housing/ithaca-security-deposit-rules-tenants.md",
+   "status": "ok",
+   "note": "The guide's title and meta say: one month's rent cap, application and cleaning fees banned, 14-day itemized return."
+  },
+  {
+   "claim": "Guide descriptions: pillar (who may rent, cost, when to sign, tenant rights); cheapest ways (lowest-cost beds, what aid covers, sneaky costs); dorm comparison (number a lease must beat); co-ops and Greek houses; all-in month (rent plus electricity, trash tags, insurance, bus)",
+   "source_url": "content/articles/housing/*.md titles and metas",
+   "status": "ok",
+   "note": "All six housing guides exist. Titles and metas match what the page says each covers. The meta of the cheapest guide says aid covers rent, not deposits or summer. The all-in guide meta mentions power, internet and insurance."
+  },
+  {
+   "claim": "Tools: rent plus commute calculator (per person per month and per year, against a Cornell double); lease fee and deposit checker",
+   "source_url": "content/checks/ithaca-rent-commute-calculator.json; content/checks/ithaca-lease-fee-deposit-checker.json",
+   "status": "ok",
+   "note": "Both tools are published, each with its own check file. The descriptions are consistent with the reader map and tool titles."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-08",
+ "page_sha": "bfd0fbfe5f3d6d3b163609935ae47fab6deb5ce14e818c1440476eebb641c352"
 }

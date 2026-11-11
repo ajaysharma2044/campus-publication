@@ -1,0 +1,156 @@
+{
+ "slug": "cornell-human-ecology-transfer-requirements",
+ "queue_id": "q-transfer-0019",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Competitive GPA 3.5 or higher with As and Bs; 3.5 with As and B+s in required courses more competitive",
+   "source_url": "https://www.human.cornell.edu/admissions/transfer",
+   "status": "ok",
+   "note": "Brief §2.6 rows; live college page confirms 3.5+ full-time, parallel curriculum, 3.5 with As and B+s in prep courses."
+  },
+  {
+   "claim": "Cornell admits transfers 'generally' at 3.3 or better; essay, grades, recommendations named as most important",
+   "source_url": "https://faq.enrollment.cornell.edu/kb/article/325-does-cornell-prefer-transfer-applicants-from-certain-colleges-or-types-of-colleges/",
+   "status": "ok",
+   "note": "Opened FAQ 325: 'generally achieved a 3.3 or better'; essay, current grades, professor recommendations listed in the initial list."
+  },
+  {
+   "claim": "Deadlines: March 15, 2027 (application, fee, design supplement) and April 15, 2027 (all other materials); decisions late April through June; fall only",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "Live page confirms. Years 2027 derived for fall 2027 entry."
+  },
+  {
+   "claim": "$85 fee; waiver applied automatically, no documents; no SAT/ACT; self-report AP/IB/A-Level; 12 semester hours, exam credit does not count; 250 to 650-word essay",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "All confirmed on the live page."
+  },
+  {
+   "claim": "No pass/fail; accredited two- or four-year, letter grades; high school biology and chemistry or physics",
+   "source_url": "https://www.human.cornell.edu/admissions/transfer",
+   "status": "ok",
+   "note": "Live page confirms each."
+  },
+  {
+   "claim": "Course table for seven majors (sophomore and junior), DEA 23 credits = 8+6+3+3+3",
+   "source_url": "https://www.human.cornell.edu/admissions/transfer",
+   "status": "ok",
+   "note": "Brief §2.6 row; compared with live page: all seven majors match. DEA and Fashion Design lab science line on the live page reads biology, inorganic chemistry or physics. Sum 8+6+3+3+3 = 23 recomputed."
+  },
+  {
+   "claim": "Pre-health chemistry; CHEM 2070/2071, 2080/2081; 1570, 3570, 3580, 3600; microbiology recommended for DPD",
+   "source_url": "https://www.human.cornell.edu/admissions/transfer",
+   "status": "ok",
+   "note": "Brief §2.6; live page matches."
+  },
+  {
+   "claim": "Precalculus credits do not transfer; max 15 pre-college credits; quarter credits at .67",
+   "source_url": "https://www.human.cornell.edu/admissions/transfer",
+   "status": "ok",
+   "note": "Brief §2.6; live page matches."
+  },
+  {
+   "claim": "Two 4-credit quarter writing courses = about 5.4 semester credits, short of 6",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed 2 x 4 x 0.67 = 5.36; matches."
+  },
+  {
+   "claim": "Design supplement required for DEA, Fashion Design, FDM; no consideration without it; re-applicants new one; by March 15",
+   "source_url": "https://www.human.cornell.edu/admissions/transfer",
+   "status": "ok",
+   "note": "Live page and central admissions page confirm."
+  },
+  {
+   "claim": "Across Cornell fall 2025: 7,381 applied, 864 admitted, 11.7%",
+   "source_url": "brief §10 (CDS D2)",
+   "status": "ok",
+   "note": "Brief rows; 864/7,381 = 11.71% recomputed."
+  },
+  {
+   "claim": "68 transfers expected in Human Ecology in 2021 (59 fall, 9 spring)",
+   "source_url": "brief §10 (IRP 2021)",
+   "status": "ok",
+   "note": "Brief row: Human Ecology 9/59/68."
+  },
+  {
+   "claim": "NY tuition $49,816, endowed $73,946, gap $24,130; fees $1,024; $74,970 = 73,946 + 1,024",
+   "source_url": "brief §10.1",
+   "status": "ok",
+   "note": "Brief rows; 73,946-49,816 = 24,130 and 73,946+1,024 = 74,970 recomputed."
+  },
+  {
+   "claim": "Required year $72,188 NY and $96,318 non-resident (double, Unlimited); HESC code 0174 for contract colleges",
+   "source_url": "brief §10.1 / §8",
+   "status": "ok",
+   "note": "Brief rows match."
+  },
+  {
+   "claim": "Human Ecology is one of five contract colleges",
+   "source_url": "brief §10 tuition row",
+   "status": "ok",
+   "note": "Brief lists CALS, Human Ecology, ILR, Brooks, Dyson."
+  },
+  {
+   "claim": "Transfer Option: not an offer of admission (A&S); no fee; old portal login; HE extras resume, AP scores, 600-word essay, design supplement; fall 2026 deadline March 15, 2026; 'Application Available Winter 2027'; decisions mid-April, most late April or early May",
+   "source_url": "https://admissions.cornell.edu/transfer-option-applicants",
+   "status": "ok",
+   "note": "Live page confirms fee, login, deadline, link text and decision timing; HE extras per brief §2 TO row."
+  },
+  {
+   "claim": "Fall transfers live on campus one academic year; juniors exempt",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates",
+   "status": "ok",
+   "note": "Live page confirms both."
+  },
+  {
+   "claim": "Cornell discourages transfer applications from juniors at four-year schools because of 60-credit limit",
+   "source_url": "https://faq.enrollment.cornell.edu/kb/article/323-can-i-transfer-to-cornell-in-my-junior-year-from-another-college/",
+   "status": "fixed",
+   "note": "Page said 'discourages transfer in or after the junior year'; source says it discourages applications from students completing or having completed their junior year. Reworded to match."
+  },
+  {
+   "claim": "Most colleges accept up to 60 credits incl. exam credit; 60 credits at Cornell; C or better; about 80% overlap; online/community college cannot be denied; transfer GPA not in Cornell GPA; AP request by last day of instruction of first semester",
+   "source_url": "https://registrar.cornell.edu/students/credit-evaluation-services",
+   "status": "ok",
+   "note": "Live page confirms each (Engineering 66 and Architecture 64 are the exceptions, covered by 'most')."
+  },
+  {
+   "claim": "Credits-lost table: 30 -> 0 lost, 8 semesters; 60 -> 0, 8; 75 -> 15, 9; 90 -> 30, 10",
+   "source_url": "our math / brief §10.4",
+   "status": "ok",
+   "note": "Recomputed: accepted = min(credits,60); semesters before = credits/15; Cornell semesters = (120-accepted)/15. 2+6, 4+4, 5+4, 6+4 = 8, 8, 9, 10."
+  },
+  {
+   "claim": "Verify major June 8 to 30 (2024 pattern); humec_students@cornell.edu; humec_admissions@cornell.edu; Martha Van Rensselaer Hall; no faculty contact",
+   "source_url": "brief §2.6 Human Ecology rows",
+   "status": "ok",
+   "note": "Brief rows match; labeled as 2024 on the page."
+  },
+  {
+   "claim": "Alexia Kim, Human Ecology sophomore, from Case Western, guaranteed transfer, Cornell Daily Sun 2019; culture shock, homesickness, maps; 'Freshman Year 2.0'",
+   "source_url": "https://cornellsun.com/2019/05/02/kim-what-it-means-to-be-a-transfer-at-cornell/",
+   "status": "ok",
+   "note": "Opened article; all confirmed."
+  },
+  {
+   "claim": "Kim named organic chemistry prelims and 12-page essays as the jump in rigor",
+   "source_url": "https://cornellsun.com/2019/05/02/kim-what-it-means-to-be-a-transfer-at-cornell/",
+   "status": "fixed",
+   "note": "Article lists them among demands she now faces, not as the 'jump in rigor'. Reworded to 'listed ... among the demands she now faces'."
+  },
+  {
+   "claim": "Jessica Silverman, from UCLA, quarters to semesters; recommended Tatkon Center, CUeLinks, West Campus house dinners",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "Brief rows at lines 1016 and 1028."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "9f50051dfd12c340c3a3199b64a0cd269561c7b9833ea8fe643b267d36349511"
+}

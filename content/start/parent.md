@@ -1,18 +1,18 @@
 ---
-title: "Cornell parents: start here for travel and housing"
-meta: "For parents and families of Cornell students: the guides to read, in order, for visits and travel to Ithaca and for paying for off-campus housing."
+title: "Cornell parents: start here for travel, housing, transfer"
+meta: "For parents of Cornell students: the guides to read, in order, for visits to Ithaca, paying for off-campus housing and a child transferring in."
 topic: getting-around
-topics: [getting-around, housing]
-updated: 2026-11-08
+topics: [getting-around, housing, transfer]
+updated: 2026-11-11
 queue_id: q-getting-around-0082
-queue_ids: [q-housing-0088]
+queue_ids: [q-housing-0088, q-transfer-0043]
 kind: start_here
 readers: [parent]
 brief: intel/getting-around/brief.md
-briefs: [intel/off-campus-housing/brief.md]
+briefs: [intel/off-campus-housing/brief.md, intel/transfer/brief.md]
 ---
 
-You have no NetID, so you see Cornell from the outside: you pay public fares when you come for move-in, Family Weekend, Commencement or Reunion, and you cannot see the Cornell housing marketplace when your student starts looking off campus. You are often the one paying, for trips home, for the rent and the deposit, and sometimes as a co-signer, and you want to compare that cost with Cornell's bill and know the building and the landlord are sound. Each topic below has its own path; read the guides in order, and each one has the details and its sources.
+You have no NetID, so you see Cornell from the outside: you pay public fares when you come for move-in, Family Weekend, Commencement or Reunion, you cannot see the Cornell housing marketplace when your student looks off campus, and you get the bill only if your student invites you to Cashnet. You are often the one paying, for trips home, for rent and the deposit, and for a transfer's required year on campus, and you may file the CSS Profile with your child. You want to know what is required, when the bills come, whether the housing is sound and when to drive to Ithaca. Each topic below has its own path; read the guides in order, and each one has the details and its sources.
 
 ## Read in this order: Getting around
 
@@ -65,8 +65,27 @@ Not in the brief: the 2027 dates for Family Weekend, Commencement and Reunion.
 
 Not in the brief: the 2027 date for the Cornell housing application.
 
+## Read in this order: Transfer
+
+1. [Transferring to Cornell: the complete guide for fall 2027](/transfer/transferring-to-cornell-guide/). The pillar: applying, credit, aid, the required year on campus and arrival on one page. Read it first, while your child is deciding whether and where to apply.
+2. [Cornell transfer cost 2026-27: $95,218 to $99,169 billed](/transfer/cornell-transfer-cost-first-year/). What the required on-campus year is billed, before aid. Read it before you and your child file the aid forms.
+3. [Cornell financial aid for transfers: need-based, no merit](/transfer/cornell-financial-aid-transfer-students/). The forms you file together and what aid covers. Read it in the fall before your child applies, well ahead of the March deadline.
+4. [Cornell transfer housing: on campus, exemptions, leases](/housing/cornell-transfer-housing/). Where your child lives the first year and who is exempt. Read it once your child is admitted, before the housing application.
+5. [Cornell transfer orientation and move-in, day by day](/transfer/cornell-transfer-orientation-move-in/). Transfer move-in, Family Orientation and the first week. Read it before you book travel to Ithaca.
+6. [Cornell transfer deadlines for fall 2027 and decision dates](/transfer/cornell-transfer-deadlines-decision-dates/). Every date from the application to the first bills. Keep it open through spring and summer.
+
+## Dates to watch: Transfer
+
+- March 15, 2027: the CSS Profile and FAFSA are due, with the application.
+- Early April 2027: official aid offers, tentatively, for students already admitted.
+- Mid-June: housing confirmation, or a place on the guaranteed waitlist with weekly updates.
+- Early July: the fall tuition bill (2024 example: generated July 12, due August 7); housing is billed in July or August.
+- July 31 (2026 pattern): the deadline to waive the Student Health Plan with proof of comparable coverage (fall new admits).
+- Mid-August (Aug 18 in 2026, a day after first-years): transfer move-in and Family Orientation.
+
 ## When you're done
 
 If your student is flying home for breaks, read [Flying home from Cornell: airports, rides, bags, timing](/getting-around/flying-home-from-cornell-airports-rides/); if they take the bus, read [The cheapest ways to get home and around Cornell](/getting-around/cheapest-ways-to-get-around-cornell/).
 Everything else on buses, parking and getting around town is on the [getting around index](/getting-around/).
 For renewals, repairs and moving out once your student is renting, start from the [housing pillar](/housing/cornell-off-campus-housing-guide/) and the [housing index](/housing/).
+If your child is transferring, the [transfer pillar](/transfer/transferring-to-cornell-guide/) links every college's rules, and the rest is on the [transfer index](/transfer/).

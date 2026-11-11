@@ -5,7 +5,7 @@ primary_query: how to get from NYC to Cornell Ithaca bus
 topic: getting-around
 school: cornell-university
 type: comparison
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0027
 kind: spoke
 readers:
@@ -71,7 +71,7 @@ sources:
   accessed: '2026-11-08'
 - url: https://www.checkmybus.com/ithaca-ny/new-york-ny
   title: Bus Ithaca to New York, CheckMyBus
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://busbud.com/en/bus-new-york-ithaca/r/dr5reg-dr997q
   title: Bus from New York to Ithaca, Busbud
   accessed: '2026-11-08'
@@ -99,6 +99,18 @@ sources:
 - url: https://registrar.cornell.edu/calendars-exams/academic-calendar
   title: Academic Calendar, Cornell University Registrar
   accessed: '2026-11-08'
+- url: https://us.megabus.com/route-guides/new-york-to-ithaca-bus
+  title: New York to Ithaca bus, Megabus
+  accessed: '2026-11-11'
+- url: https://www.greyhound.com/bus/ithaca-ny/ithaca
+  title: 'Greyhound bus stop: Ithaca, NY, Greyhound'
+  accessed: '2026-11-11'
+- url: https://www.flixbus.com/bus/ithaca-ny/ithaca
+  title: 'FlixBus stop: Ithaca, NY, FlixBus'
+  accessed: '2026-11-11'
+- url: https://www.ourbus.com/blog/ourbus-student-discount/
+  title: 'How to Make the Most of the OurBus Student Discount?, OurBus blog, July 25, 2026'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Weill Cornell Medicine's buildings along York Avenue on Manhattan's Upper East Side, seen across the East River from Roosevelt Island
@@ -192,7 +204,7 @@ How C2C compares, by our math: $93.50 is 2.83 times OurBus's "from $33" and 3.46
 
 Ignore the $75 C2C fare that still ranks in search. That price is from a [2011 Cornell Chronicle story](https://news.cornell.edu/node/269896).
 
-Example: a North Campus first-year going home to Midtown West for Thanksgiving. Two OurBus seats at the $33 floor cost $66. The same round trip on C2C is $187, so OurBus saves $121. If break-week floors rise by a third, as they did on three other Ithaca routes sampled Nov 8, the OurBus trip comes to about $88. That rise is an assumption for NYC; no NYC break-week fares were sampled.
+Example: a North Campus first-year going home to Midtown West. Two OurBus seats at the $33 floor cost $66. The same round trip on C2C is $187, so OurBus saves $121. Thanksgiving week costs more. CheckMyBus's [day-by-day low fares](https://www.checkmybus.com/ithaca-ny/new-york-ny), read Nov 11, 2026, put the cheapest Ithaca-NYC seat at $78 for Wednesday, Nov 25 and $112 for Tuesday, Nov 24. From Nov 11 to 19 it ran $29 to $45 a day. That Tuesday seat costs more than C2C's $93.50.
 
 ```tool cornell-bus-home-cost-calculator```
 
@@ -204,14 +216,14 @@ The NYC end usually decides the bus. Choose the stop closest to where you start,
 |---|---|---|
 | Upper East Side, Roosevelt Island | C2C | Weill Cornell, 1300 York Ave, across from 69th St; wait in the lobby |
 | Grand Central, East Midtown | C2C | Cornell Club, 6 E 44th St; loading moved to Fifth Ave between 43rd and 44th during construction |
-| Times Square, Port Authority | Greyhound or FlixBus | Port Authority, 625 8th Ave; gates on the lower level |
+| Times Square, Port Authority | Greyhound, FlixBus, Coach USA or Megabus | Port Authority, 625 8th Ave; Greyhound and FlixBus gates on the lower level |
 | Penn Station, Chelsea | Greyhound or FlixBus | Midtown, 300 W 31st St |
 | Hudson Yards, far West Side | OurBus, Greyhound or FlixBus | OurBus on 11th Ave at W 35th to 36th; Greyhound at 600 W 34th St |
 | Flatiron, Gramercy | OurBus | Madison Ave at 26th to 27th St |
 | Washington Heights, Upper Manhattan | OurBus, Greyhound or FlixBus | GWB Bus Station (OurBus Level 3, Slip 2); Greyhound at 4211 Broadway |
 | Queens or Brooklyn | Greyhound or FlixBus | Flushing, Jamaica or Brooklyn (3rd Ave at 38th St) |
 
-Sources: [C2C stops](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule-stop-locations), the [C2C booking page notice](https://c2cbus.ipp.cornell.edu/Start.aspx), [Greyhound's NYC stop list](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny), [OurBus route page](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny).
+Sources: [C2C stops](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule-stop-locations), the [C2C booking page notice](https://c2cbus.ipp.cornell.edu/Start.aspx), [Greyhound's NYC stop list](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny), [OurBus route page](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny), [Megabus's NYC to Ithaca page](https://us.megabus.com/route-guides/new-york-to-ithaca-bus).
 
 The Cornell Club's facilities are for members and guests only, so wait outside. C2C's old F Train stop at 64th St and 3rd Ave was [dropped on Aug 1, 2026](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule); some Cornell pages still list it.
 
@@ -222,8 +234,9 @@ Every operator now reaches campus, which saves a TCAT ride with luggage.
 - **C2C** stops at North Campus (217 Jessup Road, shelters in front of Robert Purcell Community Center), Sage Hall (114 Feeney Way, across from Statler Hall) and B Lot (930 Campus Road, by the Vet College), [15 minutes apart](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule).
 - **Greyhound and FlixBus** stop at North Campus (121 Jessup Rd, south side near Robert Purcell), West Campus (240 West Ave, in front of Mennen Hall) and downtown (131 E Green St, curbside in front of Urban Outfitters), per [Greyhound](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny).
 - **OurBus** has run [4 to 6 campus-to-Manhattan trips a day, seven days a week, since Sept 1, 2026](https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk), from the Commons, West Campus and North Campus. Before that, campus stops ran mostly around major breaks. OurBus says [most buses make two Cornell stops](https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university), West Campus and North Campus; your ticket names the exact curb. From Mon Nov 9, 2026 its downtown stop moves from East Seneca St to [235 S. Cayuga St](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/), beside the Cayuga garage.
+- **Coach USA ShortLine and Megabus** also stop on North Campus (107 Jessup Rd, by Robert Purcell) and West Campus (240 West Ave, at the Baker Flagpole), per [Megabus](https://us.megabus.com/route-guides/new-york-to-ithaca-bus) and [CheckMyBus](https://www.checkmybus.com/ithaca-ny/new-york-ny).
 
-Not confirmed: whether Greyhound, FlixBus and Megabus also leave Green Street on Nov 9. Their pages still list 131 E Green St, so check your ticket. Also not confirmed: where Coach USA and Megabus board in NYC, and whether they stop on campus.
+On Nov 11, 2026, [Greyhound](https://www.greyhound.com/bus/ithaca-ny/ithaca), [FlixBus](https://www.flixbus.com/bus/ithaca-ny/ithaca) and Megabus still listed 131 E Green St as their downtown stop. FlixBus says your ticket shows the current address.
 
 The old bus terminal at 710 W State St is closed. Cornell's families page still names it.
 
@@ -301,7 +314,7 @@ In the Sun's [fall 2023 OurBus feature](https://www.cornellsun.com/article/2023/
 - **Missing the C2C bus.** The full fare is kept once it leaves the last stop, and your return stays booked; cancel it yourself or lose that fare too.
 - **Cancelling C2C late.** Inside 8 hours the fee is $30 a seat instead of $10.
 - **Bringing a second big bag on OurBus unpaid.** It costs $30 prepaid, and at peak it may not fit at all.
-- **Waiting for Thanksgiving.** The Wednesday before (Nov 25, 2026) is a named peak day, and floors on other Ithaca routes ran about a third higher that week.
+- **Waiting for Thanksgiving.** The Wednesday before (Nov 25, 2026) is a named peak day, and on Nov 11 the cheapest NYC seat for Tuesday, Nov 24 already cost more than C2C.
 - **Going to the wrong downtown curb.** From Nov 9, 2026 OurBus boards at 235 S. Cayuga St, not East Seneca, and nobody boards at 710 W State St.
 
 ## FAQ
@@ -310,7 +323,7 @@ In the Sun's [fall 2023 OurBus feature](https://www.cornellsun.com/article/2023/
 
 **Can I ride C2C to Boston or Philadelphia?** No. The [rates page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates) lists only the Ithaca-NYC route.
 
-**Does OurBus have a student discount?** It has a verification-based student discount with [no amount stated](https://www.ourbus.com/blog/?p=6269), plus OurBus Select at $15 off each of 10 tickets.
+**Does OurBus have a student discount?** Yes: verified students get [10% off their first ride](https://www.ourbus.com/blog/ourbus-student-discount/), up to $15, on a booking of $25 or more. Separately, OurBus Select takes $15 off each of 10 tickets.
 
 **How many OurBus trips run from NYC each day?** Its [route page](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny) showed 9 buses a day between Ithaca and NYC, the first at 5:00 a.m. and the last at 11:55 p.m.
 

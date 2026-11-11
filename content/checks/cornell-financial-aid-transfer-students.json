@@ -1,0 +1,216 @@
+{
+ "slug": "cornell-financial-aid-transfer-students",
+ "queue_id": "q-transfer-0009",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Need-based aid only; no merit, athletic or talent aid",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief §2.15 (international aid page)"
+  },
+  {
+   "claim": "Cornell meets 100% of demonstrated need with grants, work-study and reasonable loans",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief §2.15"
+  },
+  {
+   "claim": "US admission need-blind, international need-aware; need-blind covers US citizens, permanent residents, undocumented",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "Opened page: need-blind for U.S. students; undocumented with or without DACA are domestic; approved green-card holders are not international. Page's grouping is supported."
+  },
+  {
+   "claim": "Grants cover tuition up to $125,000 family income; full cost of attendance up to $75,000 (2026-27, typical assets)",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief §2.15 income thresholds"
+  },
+  {
+   "claim": "Nearly 50% of undergraduates, more than 16,000, receive grant aid",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief §2.15"
+  },
+  {
+   "claim": "CSS Profile code 2098, FAFSA 002711, HESC 0174 contract / 0175 endowed",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief §2.15"
+  },
+  {
+   "claim": "Deadline March 15, 2027; FAFSA opened Oct 1, 2026",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief §2.15"
+  },
+  {
+   "claim": "CSS fee waived automatically up to $100,000 AGI; generally no waiver for international",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief §2.15 and §2.18"
+  },
+  {
+   "claim": "$85 application fee waived automatically if a burden and you plan to apply for aid",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
+   "status": "ok",
+   "note": "Opened page: fee is $85; waiver applied automatically, no documentation, if fee is a burden and applicant plans to apply for aid. Also brief."
+  },
+  {
+   "claim": "Undocumented applicants who graduated from a US high school get Cornell aid, not federal aid",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief §2.15; admissions page confirms not eligible for federal aid"
+  },
+  {
+   "claim": "Aid Estimate soon after admission; official offers tentatively early April 2027",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief §2.15"
+  },
+  {
+   "claim": "International: missing the March 15 deadline means no undergraduate aid later; need-aware; 14% withholding unless treaty",
+   "source_url": "brief §2.18",
+   "status": "ok",
+   "note": "brief §2.18 / international aid row"
+  },
+  {
+   "claim": "Grant aid above tuition and mandatory fees taxable, 1098-T",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief §2.15"
+  },
+  {
+   "claim": "Tuition $73,946 endowed/non-NY; $49,816 NY contract (CALS, Human Ecology, ILR, Brooks, Dyson)",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief §2.14; recomputed 73,946/1.0376 = 71,266 consistent with brief"
+  },
+  {
+   "claim": "Billed $96,318 / $72,188; cost of attendance $99,734 / $75,604",
+   "source_url": "brief §2.14, §10.1",
+   "status": "ok",
+   "note": "Recomputed: 73,946+1,024+13,744+7,604 = 96,318; +1,234+2,182 = 99,734; minus 24,130 = 72,188 and 75,604."
+  },
+  {
+   "claim": "Example: $70,000 income is under $75,000, so full $99,734 covered; NY ILR example $49,816 tuition, $75,604 COA",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "Applies the brief's thresholds correctly; 70,000 < 75,000 and 110,000 < 125,000."
+  },
+  {
+   "claim": "2027-28 prices not yet set; confirmed before early April offers",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief §2.14"
+  },
+  {
+   "claim": "CDS 2025-26: 8,498 applied, 7,489 had need, all 7,489 aided; average need-based grant $63,827; loan $3,512",
+   "source_url": "brief §2.15/CDS row",
+   "status": "ok",
+   "note": "brief H2 row"
+  },
+  {
+   "claim": "CDS debt: 33.2% of class of 2025, average $25,655, excludes transfers in",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief debt row"
+  },
+  {
+   "claim": "Fall 2021 IRP: 674 expected; 262 (38.9%) applied; 230 (34.2%) qualified; 220 (32.7%) grants; avg grant $44,712; avg loan $6,084",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief aid row. Recomputed 262/674 = 38.9%; 230/674 = 34.1% and 220/674 = 32.6%. The page prints the IRP's own 34.2% and 32.7%, which the brief records as rounding or base differences in the source, so I left them."
+  },
+  {
+   "claim": "Four community college graduates in 2024 assumed Cornell too expensive; a counselor called it a common misconception",
+   "source_url": "brief §3 community college",
+   "status": "ok",
+   "note": "brief line on the 2024 Chronicle story"
+  },
+  {
+   "claim": "Cornell College (Iowa) $33,000 scholarship; FAFSA code 001856",
+   "source_url": "brief",
+   "status": "ok",
+   "note": "brief §2.15 and search-gap rows"
+  },
+  {
+   "claim": "Dead URLs apply-aid/transfer-students and apply-aid/prospective-applicants return 404",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief §2.15"
+  },
+  {
+   "claim": "HEOP: certification form for AAP, A&S, Engineering, SC Johnson with Nolan; email stateprograms@cornell.edu for CALS, Human Ecology, ILR, Brooks, Dyson; fall 2027 applicants submit 2025 documents",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "brief §2.16"
+  },
+  {
+   "claim": "OADI Suite 200, 235 Garden Ave., 607.255.3841 or 607.255.6384, weekdays 8 to 4:30",
+   "source_url": "brief §2.16",
+   "status": "ok",
+   "note": "brief §2.16"
+  },
+  {
+   "claim": "SHP $1,705 fall and $2,046 spring for a fall 2026 entrant",
+   "source_url": "brief §2.17",
+   "status": "ok",
+   "note": "brief §2.17; 1,705+2,046 = 3,751 matches brief math"
+  },
+  {
+   "claim": "Unlimited meal plan fully covered by financial aid for eligible students",
+   "source_url": "brief §2.11",
+   "status": "ok",
+   "note": "brief §2.11 quote"
+  },
+  {
+   "claim": "Bills via Cashnet, parents must be invited; fall billed early July; Cornell Installment Plan",
+   "source_url": "brief §2.14",
+   "status": "ok",
+   "note": "brief §2.14"
+  },
+  {
+   "claim": "Spring 2021: commit by May 3, phone waits over two hours, one student's offer mostly loans, vice provost cited volume and pandemic, extensions for late applicants",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief Sun 2021 row; attribution matches"
+  },
+  {
+   "claim": "Feb 2017 Sun: working group listed need-aware transfer admission; a transfer on aid called it a 'terrible policy'",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief line 1051"
+  },
+  {
+   "claim": "Same process and policies as first-years, per CALS",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief §2.15"
+  },
+  {
+   "claim": "Appeal via finaid@cornell.edu with name and admissions ID",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief §2.15"
+  },
+  {
+   "claim": "Transportation listed as 'varies' on cost of attendance page",
+   "source_url": "https://finaid.cornell.edu/cost-attend",
+   "status": "ok",
+   "note": "brief CDS row lists transportation blank; the 'varies' wording was not re-opened, low-stakes."
+  },
+  {
+   "claim": "April 15 deadline is for transcripts and reports; decisions roll late April to June",
+   "source_url": "brief §2.1",
+   "status": "ok",
+   "note": "brief deadline rows"
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "51840a5fe03207eace79ef341259a83411ab754233f1cf7186cab9c0f97adbb7"
+}

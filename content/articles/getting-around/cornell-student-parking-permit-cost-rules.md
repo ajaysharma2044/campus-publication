@@ -7,7 +7,7 @@ primary_query: cornell student parking permit cost
 topic: getting-around
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 203
 queue_id: q-getting-around-0035
 rewrites: content/articles/getting-around/cornell-student-parking-permit-cost-rules.md
@@ -25,13 +25,10 @@ tools:
 sources:
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
   title: Parking for Students, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation
   title: Parking and Transportation, Cornell Family Resource Hub
-  accessed: '2026-11-10'
-- url: https://fcs.cornell.edu/node/1456
-  title: Parking Permit Information, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/node/17809
   title: 2026-27 Parking Permit Sales, Cornell Transportation and Delivery Services
   accessed: '2026-11-10'
@@ -52,7 +49,7 @@ sources:
   accessed: '2026-11-10'
 - url: https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1
   title: Citation Fines Increasing September 1, Cornell Transportation and Delivery Services, Aug. 1, 2023
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/
   title: On-Campus Parking Violation Fines Increase for First Time Since 2014, The Cornell Daily Sun, Sept. 4, 2023
   accessed: '2026-11-10'
@@ -65,6 +62,15 @@ sources:
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and Passes, Cornell Transportation and Delivery Services
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing
+  title: First-Year Undergraduates On-Campus Housing, Cornell Student and Campus Life
+  accessed: '2026-11-11'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations/citation-fee-schedule
+  title: Citation Fee Schedule, Cornell Transportation and Delivery Services
+  accessed: '2026-11-11'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations
+  title: Paying and Appealing Citations, Cornell Transportation and Delivery Services
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Students crossing a street on the Cornell campus with McGraw Tower in the distance
@@ -90,35 +96,33 @@ A Cornell resident parking permit costs $752.98 a year, and a commuter (B) permi
 
 ## What does each Cornell student parking permit cost?
 
-The price depends on where you live and how you reach campus. Cornell sets rates as of July 1 and the permit page shows no year, so confirm the price when you buy.
+The price depends on where you live and how you reach campus. Cornell sets the rate as of July 1, and the current price shows when you buy.
 
 | Permit | Who can buy it | Price | Where it works | Proration |
 |---|---|---|---|---|
 | Resident (FH Hasbrouck, ND North, SW South, WD West) | Students in university housing in that area | $752.98 a year | Your signed area, plus A Lot after 2:30 p.m. | Daily from Sept. 1 |
 | North Campus resident (ND) | North Campus residents of university housing only; extremely limited and capped | $752.98 a year | Your signed area, plus A Lot at all times | Daily from Sept. 1 |
 | Student commuter (B) | Commuters only | $359.77 a year | B Lot always, A Lot after 2:30 p.m. | Daily from Aug. 16 |
-| Accessible (AP) | Contact Student Disability Services first | $359.77 a year | Permit-restricted spaces except reserved and MT spaces | Not stated |
-| Motorcycle (M) | Motorcycles, scooters and mopeds | $120.01 a year | Not stated | Monthly, nonrefundable |
+| Accessible (AP) | Contact Student Disability Services first | $359.77 a year | Permit-restricted spaces except reserved and MT spaces | From Aug. 16 |
+| Motorcycle (M) | Motorcycles, scooters and mopeds | $120.01 a year | Spaces signed for M permits | Monthly, nonrefundable |
 | Outer Tier A and E | Graduate assistants with a full assistantship; not resident students | Free | Outer lots; E needs work in its zone | Not applicable |
 
 Source: Cornell Transportation, [student parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students).
 
 The Hasbrouck (FH) permit also includes OmniRide bus privileges. The commuter lots are Vet College B, TRB, South Morrison, North Morrison and BTI. Every permit is valid through Aug. 15, and Cornell recalls a permit if you lose eligibility ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)).
 
-One conflict: the student page lists the motorcycle permit at $120.01, while [another Cornell page](https://fcs.cornell.edu/node/1456) says $119.94. Go by the student page, which is the one that sells the permit.
-
 ## Can first-years have a car at Cornell?
 
-Yes, but Cornell steers them away from it. The families page says first-years are [discouraged from bringing a car, though limited permits are available](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation). The student permit page lists no separate first-year permit.
+Yes, but Cornell steers them away from it. The families page says first-years are [discouraged from bringing a car, though limited permits are available](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation).
 
-On North Campus, the ND permit is extremely limited and capped to residents of university housing ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). Cornell does not say whether a first-year can be refused a permit because of class year alone, so call Transportation and Delivery Services (TDS) at [607-255-4600](https://fcs.cornell.edu/departments/transportation-delivery-services), Monday to Friday, 7:30 a.m. to noon, before you drive up.
+Cornell houses first-years in [North Campus residence halls and program houses](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing), so the resident permit they can buy is ND. ND is extremely limited: sales are capped, and only North Campus residents of university housing can buy it ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). Call Transportation and Delivery Services (TDS) at [607-255-4600](https://fcs.cornell.edu/departments/transportation-delivery-services), Monday to Friday, 7:30 a.m. to noon, before you drive up.
 
 New first-years also [ride TCAT free from fall registration to Aug. 31 of the next year](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). If you are unsure a car is worth it, the quiz below weighs it against buses and shared cars. Our guide to [having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) covers the full year.
 
 ```tool do-i-need-a-car-at-cornell-quiz```
 
 ```reader "If you're in university housing"
-Buy the permit for your own area. The winter rule is different for you: resident-permit holders [park in their own lots as usual](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules), and the car can stay in that area over break. The costly mistake is missing the sale morning, because the capped ND permit is the first to go.
+Buy the permit for your own area. The winter rule is different for you: resident-permit holders [park in their own lots as usual](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules), and the car can stay in that area over break. The costly mistake is missing the sale morning, because ND sales are capped.
 ```
 
 ```reader "If you live off campus"
@@ -134,7 +138,7 @@ Contact Student Disability Services before the August sale, not after. A friend 
 ```
 
 ```reader "If you're a spring transfer"
-Cornell lists no transfer-specific permit rule. A permit bought mid-year is prorated daily, so a B permit bought on Jan. 15 leaves 213 of the permit year's days. If Cornell prorates by simple daily share, the price is about $210 (the B price x 213 / 365). Cornell does not publish its formula, so confirm the amount at checkout.
+Cornell's two-year housing requirement does not apply to transfers who lived on campus for two years at their previous school or who enter as juniors or seniors ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing)). If you live off campus, B is your permit. Bought on Jan. 15, it covers 213 of the permit year's 365 days, about $210 at a straight daily share (our math: the B price x 213 / 365). Checkout shows the exact price.
 ```
 
 ## How do I get a Cornell parking permit?
@@ -153,7 +157,7 @@ rows:
 
 1. **Register your plate.** Students must [register cars, motorcycles and scooters](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus) in MyParking.Cornell.edu, even for short-term parking.
 2. **Check your eligibility.** Resident permits follow your housing area. B is for commuters. AP starts with Student Disability Services. Graduate assistants check their appointment in Workday.
-3. **Be online at sale time.** Cornell has not posted the 2027-28 date, so watch TDS announcements in July. In 2023, Williams Street lot permits, about $700, [sold out within hours](https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students).
+3. **Be online at sale time.** In 2023, Williams Street lot permits, about $700, [sold out within hours](https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students).
 4. **Pay.** The price drops daily after Sept. 1 for resident permits and after Aug. 16 for commuter permits.
 5. **Return it on time.** Cornell refunds a prorated amount only if you return the permit by Mar. 31. Motorcycle and temporary permits get no refund, and no refund is paid in cash.
 
@@ -193,7 +197,7 @@ A permit buys a lot, not a space beside your class. For the full cost of a car a
 
 ## What are Cornell's parking fines?
 
-Fines rose on Sept. 1, 2023, the first increase since 2014, and permit or payment violations are about 85% of tickets ([Cornell Transportation](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1)). Cornell's notice is from 2023, so confirm current amounts with TDS.
+Fines rose on Sept. 1, 2023, the first increase since 2014, and permit or payment violations are about 85% of tickets ([Cornell Transportation](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1)). Pay or file a written appeal within 10 calendar days of the ticket date. Tickets on a student's car can be sent to the bursar for payment ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations)).
 
 ```figure
 kind: cost_table
@@ -210,13 +214,13 @@ rows:
   - {label: Plate not visible, value: "$10"}
 ```
 
-Source: [Cornell Daily Sun, Sept. 4, 2023](https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/).
+Source: Cornell Transportation, [citation fee schedule](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations/citation-fee-schedule) and [2023 fines notice](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1).
 
 ## FAQ
 
 **Can I buy a permit after the August sale?** Yes, while any are left. Cornell sells permits first come, first served, space available, and prices prorate daily after the dates above.
 
-**Does a Cornell permit cover Collegetown streets?** Cornell's permit page describes campus lots only. Collegetown streets follow city rules, which our Collegetown guide explains.
+**Does a Cornell permit cover Collegetown streets?** No. A Cornell permit works only in the campus lots listed for it ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). Collegetown streets follow city rules, which our Collegetown guide explains.
 
 **Who do I call about a permit?** TDS, at 116 Maple Avenue, 607-255-4600, Monday to Friday, 7:30 a.m. to noon.
 
