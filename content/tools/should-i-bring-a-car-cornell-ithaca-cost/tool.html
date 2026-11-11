@@ -1,0 +1,245 @@
+<div class="tool" id="tool-should-i-bring-a-car-cornell-ithaca-cost" data-tool="should-i-bring-a-car-cornell-ithaca-cost" data-as-of="2026-11-10">
+  <style>
+    #tool-should-i-bring-a-car-cornell-ithaca-cost .sbc-field { margin: 0 0 0.9rem; }
+    #tool-should-i-bring-a-car-cornell-ithaca-cost .sbc-field label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
+    #tool-should-i-bring-a-car-cornell-ithaca-cost .sbc-field select,
+    #tool-should-i-bring-a-car-cornell-ithaca-cost .sbc-field input { width: 100%; max-width: 24rem; padding: 0.4rem; font: inherit; box-sizing: border-box; }
+    #tool-should-i-bring-a-car-cornell-ithaca-cost .sbc-hint { display: block; font-size: 0.875em; opacity: 0.8; margin-top: 0.2rem; }
+    #tool-should-i-bring-a-car-cornell-ithaca-cost .sbc-result { border-top: 1px solid currentColor; padding-top: 0.9rem; margin-top: 1rem; }
+    #tool-should-i-bring-a-car-cornell-ithaca-cost .sbc-result ul { padding-left: 1.2rem; margin: 0.5rem 0; }
+    #tool-should-i-bring-a-car-cornell-ithaca-cost .sbc-small { font-size: 0.875em; opacity: 0.85; }
+  </style>
+
+  <p class="sbc-small">Cornell's 2026-27 student permits: resident <span data-as-of="2026-11-10">$752.98</span>, commuter (B) <span data-as-of="2026-11-10">$359.77</span>, valid Aug 16, 2026, to Aug 15, 2027. TCAT: OmniRide <span data-as-of="2026-11-10">$200 a year</span>, cash <span data-as-of="2026-11-10">$1.50</span>. Ithaca Carshare student plans: Just In Case $30 a year + $9 an hour, It's My Car $310 a year + $6 an hour, $20 sign-up, 42 cents a mile, 20% tax on usage. Gas, insurance and upkeep for your own car are not published by any source we use, so you type in your own quotes.</p>
+
+  <h3>You</h3>
+
+  <div class="sbc-field">
+    <label for="should-i-bring-a-car-cornell-ithaca-cost-status">Your status in 2026-27</label>
+    <select id="should-i-bring-a-car-cornell-ithaca-cost-status">
+      <option value="first-year" selected>First-year who started in fall 2026 (TCAT free all hours)</option>
+      <option value="phd-ga">PhD student or graduate assistant (free OmniRide)</option>
+      <option value="other">Sophomore or later, or a master's student after year one</option>
+    </select>
+    <span class="sbc-hint">Spring entrants ride free Jan 1 to Dec 31 of the year they start; pick "first-year" for that year.</span>
+  </div>
+
+  <div class="sbc-field">
+    <label for="should-i-bring-a-car-cornell-ithaca-cost-home">Where you live</label>
+    <select id="should-i-bring-a-car-cornell-ithaca-cost-home">
+      <option value="campus" selected>Cornell housing (North, West, South or Hasbrouck): resident permit</option>
+      <option value="off">Off campus: commuter (B) permit</option>
+      <option value="off-ga">Off campus with a full assistantship: free Outer Tier A or E permit</option>
+      <option value="none">Off campus, no campus permit (I'd only park at home)</option>
+    </select>
+  </div>
+
+  <div class="sbc-field">
+    <label for="should-i-bring-a-car-cornell-ithaca-cost-overnight">Off campus: where the car sleeps</label>
+    <select id="should-i-bring-a-car-cornell-ithaca-cost-overnight">
+      <option value="none" selected>In Cornell housing, or a spot included in my lease ($0)</option>
+      <option value="city">City street with a residential permit ($45 a year)</option>
+      <option value="dryden">Dryden Road Garage, 24/7 monthly ($232 a month)</option>
+    </select>
+  </div>
+
+  <div class="sbc-field">
+    <label for="should-i-bring-a-car-cornell-ithaca-cost-months">Months a year you're in Ithaca</label>
+    <input id="should-i-bring-a-car-cornell-ithaca-cost-months" type="number" min="1" max="12" step="1" value="9" inputmode="numeric">
+    <span class="sbc-hint">9 is our rough academic year (late August to May), an assumption. Put 12 if you stay for the summer. It sets garage months and Carshare hours.</span>
+  </div>
+
+  <h3>With a car: your own quotes</h3>
+  <p class="sbc-small">No price below is filled in for you. Cornell, the City of Ithaca and Ithaca Carshare publish nothing on what gas, insurance or repairs cost a student here. Ask your insurer for a quote at your Ithaca address, and use your own mileage.</p>
+
+  <div class="sbc-field">
+    <label for="should-i-bring-a-car-cornell-ithaca-cost-gas">Gas for the year ($)</label>
+    <input id="should-i-bring-a-car-cornell-ithaca-cost-gas" type="number" min="0" max="20000" step="10" value="0" inputmode="decimal">
+    <span class="sbc-hint">Miles you'll drive a year, divided by your car's miles per gallon, times the pump price. Include drives home.</span>
+  </div>
+
+  <div class="sbc-field">
+    <label for="should-i-bring-a-car-cornell-ithaca-cost-ins">Insurance for the year ($)</label>
+    <input id="should-i-bring-a-car-cornell-ithaca-cost-ins" type="number" min="0" max="20000" step="10" value="0" inputmode="decimal">
+    <span class="sbc-hint">Only the extra you'd pay. If you're on a parent's policy, ask what keeping the car in Ithaca adds.</span>
+  </div>
+
+  <div class="sbc-field">
+    <label for="should-i-bring-a-car-cornell-ithaca-cost-maint">Maintenance and repairs for the year ($)</label>
+    <input id="should-i-bring-a-car-cornell-ithaca-cost-maint" type="number" min="0" max="20000" step="10" value="0" inputmode="decimal">
+    <span class="sbc-hint">Oil changes, winter tires, wipers, a set-aside for repairs.</span>
+  </div>
+
+  <div class="sbc-field">
+    <label for="should-i-bring-a-car-cornell-ithaca-cost-other">Other car costs for the year ($)</label>
+    <input id="should-i-bring-a-car-cornell-ithaca-cost-other" type="number" min="0" max="50000" step="10" value="0" inputmode="decimal">
+    <span class="sbc-hint">Registration, inspection, tolls, a loan payment, parking tickets you expect.</span>
+  </div>
+
+  <h3>Without a car</h3>
+
+  <div class="sbc-field">
+    <label for="should-i-bring-a-car-cornell-ithaca-cost-rides">Paid TCAT rides a week (weekdays before 6 p.m.)</label>
+    <input id="should-i-bring-a-car-cornell-ithaca-cost-rides" type="number" min="0" max="40" step="1" value="0" inputmode="numeric">
+    <span class="sbc-hint">Only matters for sophomores and later. Evening and weekend rides are free with your Cornell ID. Weeks counted: your months times 4.33.</span>
+  </div>
+
+  <div class="sbc-field">
+    <label for="should-i-bring-a-car-cornell-ithaca-cost-hours">Hours a month you'd need a car in Ithaca</label>
+    <input id="should-i-bring-a-car-cornell-ithaca-cost-hours" type="number" min="0" max="200" step="1" value="3" inputmode="numeric">
+    <span class="sbc-hint">Time the car is out, start to return: a grocery run, a trip to the mall, a job. Your estimate. Priced on Ithaca Carshare.</span>
+  </div>
+
+  <div class="sbc-field">
+    <label for="should-i-bring-a-car-cornell-ithaca-cost-miles">Carshare miles a month</label>
+    <input id="should-i-bring-a-car-cornell-ithaca-cost-miles" type="number" min="0" max="3000" step="5" value="10" inputmode="numeric">
+    <span class="sbc-hint">Priced at the car rate, 42 cents a mile.</span>
+  </div>
+
+  <div class="sbc-field">
+    <label for="should-i-bring-a-car-cornell-ithaca-cost-elig">Can you join Ithaca Carshare?</label>
+    <select id="should-i-bring-a-car-cornell-ithaca-cost-elig">
+      <option value="yes" selected>Yes: 18 or older, full license held 2+ years</option>
+      <option value="under21">Yes, but I'm 18 to 20 (needs my own policy with $300,000 liability)</option>
+      <option value="no">No: licensed under 2 years, or a record that doesn't qualify</option>
+    </select>
+  </div>
+
+  <div class="sbc-field">
+    <label for="should-i-bring-a-car-cornell-ithaca-cost-trips">Round trips home a year</label>
+    <input id="should-i-bring-a-car-cornell-ithaca-cost-trips" type="number" min="0" max="20" step="1" value="0" inputmode="numeric">
+  </div>
+
+  <div class="sbc-field">
+    <label for="should-i-bring-a-car-cornell-ithaca-cost-fare">Bus fare per round trip home without a car ($)</label>
+    <input id="should-i-bring-a-car-cornell-ithaca-cost-fare" type="number" min="0" max="1000" step="1" value="187" inputmode="decimal">
+    <span class="sbc-hint">$187 is Cornell's Campus-to-Campus (C2C) round trip to New York City with a NetID. Commercial buses often cost less: type the fare you'd book. With a car, the drive home is in your gas figure.</span>
+  </div>
+
+  <div class="sbc-result" id="should-i-bring-a-car-cornell-ithaca-cost-result" aria-live="polite">
+    <p><strong>How it works:</strong> with a car = permit + overnight parking + your gas, insurance, upkeep and other costs. Without a car = TCAT + the cheaper Ithaca Carshare plan for your hours + bus fares home. The smaller total wins.</p>
+  </div>
+</div>
+<script>
+(function () {
+  var root = document.getElementById("tool-should-i-bring-a-car-cornell-ithaca-cost");
+  if (!root) return;
+
+  var PARK = "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students";
+  var BUS = "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes";
+  var CS = "https://www.ithacacarshare.org/students-commuters";
+  var CSR = "https://www.ithacacarshare.org/rates";
+  var NUMBERS = {
+    residentPermit: { value: 752.98, asOf: "2026-11-10", source: PARK },
+    commuterPermit: { value: 359.77, asOf: "2026-11-10", source: PARK },
+    gaPermit: { value: 0, asOf: "2026-11-10", source: PARK },
+    omniRide: { value: 200, asOf: "2026-11-10", source: BUS },
+    cashFare: { value: 1.5, asOf: "2026-11-10", source: BUS },
+    jicFee: { value: 30, asOf: "2026-11-10", source: CS },
+    jicHour: { value: 9, asOf: "2026-11-10", source: CSR },
+    imcFee: { value: 310, asOf: "2026-11-10", source: CS },
+    imcHour: { value: 6, asOf: "2026-11-10", source: CSR },
+    signUp: { value: 20, asOf: "2026-11-10", source: CSR },
+    mile: { value: 0.42, asOf: "2026-11-10", source: CSR },
+    usageTax: { value: 0.20, asOf: "2026-11-10", source: CSR },
+    cityPermit: { value: 45, asOf: "2026-11-10", source: "https://www.cityofithacany.gov/731/Permit-Issuance" },
+    drydenMonth: { value: 232, asOf: "2026-11-10", source: "https://www.cityofithacany.gov/718/Dryden-Road-Garage" },
+    c2cRound: { value: 187, asOf: "2026-11-10", source: "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates" }
+  };
+  var WEEKS_PER_MONTH = 4.33; // 52 weeks / 12 months
+
+  function el(name) { return root.querySelector("#should-i-bring-a-car-cornell-ithaca-cost-" + name); }
+  var f = {};
+  ["status", "home", "overnight", "months", "gas", "ins", "maint", "other", "rides", "hours", "miles", "elig", "trips", "fare"].forEach(function (k) { f[k] = el(k); });
+  var out = el("result");
+
+  function num(input, lo, hi, fallback) {
+    var v = parseFloat(input.value);
+    if (isNaN(v)) return fallback;
+    return Math.min(hi, Math.max(lo, v));
+  }
+  function money(n) {
+    var s = (Math.round(n * 100) / 100).toFixed(2);
+    return "$" + s.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+  function li(t) { return "<li>" + t + "</li>"; }
+
+  var FOOT = '<p class="sbc-small">Prices as of Nov 10, 2026. Permits: Cornell student parking page (undated; rates set as of July 1; 2026-27 permits valid Aug 16, 2026, to Aug 15, 2027). TCAT: Cornell bus passes page. Carshare: Ithaca Carshare student and rates pages. City permit and Dryden Road Garage: City of Ithaca. C2C: Cornell C2C rates page. ' +
+    'Your gas, insurance, upkeep, hours, miles and trips are your own estimates. The 9-month year and 4.33 weeks a month are our assumptions.</p>';
+
+  function render() {
+    var status = f.status.value, home = f.home.value, overnight = f.overnight.value, elig = f.elig.value;
+    var months = Math.round(num(f.months, 1, 12, 9));
+    var gas = num(f.gas, 0, 20000, 0), ins = num(f.ins, 0, 20000, 0), maint = num(f.maint, 0, 20000, 0), other = num(f.other, 0, 50000, 0);
+    var rides = Math.round(num(f.rides, 0, 40, 0));
+    var hours = num(f.hours, 0, 200, 0), miles = num(f.miles, 0, 3000, 0);
+    var trips = Math.round(num(f.trips, 0, 20, 0)), fare = num(f.fare, 0, 1000, NUMBERS.c2cRound.value);
+    var lines = [];
+
+    // With a car
+    var permit = 0, permitName = "no campus permit";
+    if (home === "campus") { permit = NUMBERS.residentPermit.value; permitName = "resident permit"; }
+    else if (home === "off") { permit = NUMBERS.commuterPermit.value; permitName = "commuter (B) permit"; }
+    else if (home === "off-ga") { permit = 0; permitName = "free Outer Tier A or E permit"; }
+    var night = 0, nightName = "";
+    if (home !== "campus") {
+      if (overnight === "city") { night = NUMBERS.cityPermit.value; nightName = "City residential permit $45"; }
+      else if (overnight === "dryden") { night = NUMBERS.drydenMonth.value * months; nightName = "Dryden Road Garage " + months + " x $232 = " + money(night); }
+    }
+    var own = gas + ins + maint + other;
+    var withCar = permit + night + own;
+
+    // Without a car: TCAT
+    var tcat = 0, tcatNote = "";
+    if (status === "first-year") { tcatNote = "TCAT $0: first-years ride free at all hours to Aug 31, 2027."; }
+    else if (status === "phd-ga") { tcatNote = "TCAT $0: PhD students and graduate assistants get a free OmniRide pass."; }
+    else {
+      var weeks = months * WEEKS_PER_MONTH;
+      var cash = rides * weeks * NUMBERS.cashFare.value;
+      tcat = Math.min(cash, NUMBERS.omniRide.value);
+      tcatNote = "TCAT " + money(tcat) + ": " + rides + " paid rides a week x " + weeks.toFixed(1) + " weeks x $1.50 = " + money(cash) + (cash > NUMBERS.omniRide.value ? ", so the $200 OmniRide pass is cheaper." : ", under the $200 OmniRide pass.");
+    }
+
+    // Without a car: Carshare
+    var yearHours = hours * months, yearMiles = miles * months;
+    var mileCost = yearMiles * NUMBERS.mile.value;
+    var jic = NUMBERS.jicFee.value + NUMBERS.signUp.value + (yearHours * NUMBERS.jicHour.value + mileCost) * (1 + NUMBERS.usageTax.value);
+    var imc = NUMBERS.imcFee.value + NUMBERS.signUp.value + (yearHours * NUMBERS.imcHour.value + mileCost) * (1 + NUMBERS.usageTax.value);
+    var share = 0, shareNote = "";
+    if (yearHours === 0) { shareNote = "Carshare $0: you entered no hours of driving in Ithaca."; }
+    else if (elig === "no") { shareNote = "Carshare not available to you yet: members need a full license held at least two years. Count on TCAT, rides from friends or a taxi for these " + yearHours + " hours."; }
+    else {
+      share = Math.min(jic, imc);
+      var plan = jic <= imc ? "Just In Case" : "It's My Car";
+      shareNote = "Carshare " + money(share) + " on " + plan + ": " + yearHours + " hours and " + yearMiles + " miles a year. Just In Case = $30 + $20 + (" + yearHours + " x $9 + " + money(mileCost) + " miles) x 1.20 = " + money(jic) + ". It's My Car = $310 + $20 + (" + yearHours + " x $6 + " + money(mileCost) + ") x 1.20 = " + money(imc) + ".";
+    }
+    var fares = trips * fare;
+    var withoutCar = tcat + share + fares;
+
+    var gap = withCar - withoutCar;
+    var html;
+    if (own === 0) {
+      html = "<p><strong>Parking alone: " + money(permit + night) + " a year with a car, against " + money(withoutCar) + " without one.</strong> Add your gas, insurance and upkeep quotes above to see the real gap.</p>";
+    } else if (gap > 0) {
+      html = "<p><strong>Leave the car home. Going without saves you " + money(gap) + " a year.</strong> A car costs " + money(withCar) + "; getting around without one costs " + money(withoutCar) + ".</p>";
+    } else {
+      html = "<p><strong>A car costs " + money(-gap) + " less for how you'd use it.</strong> With a car: " + money(withCar) + ". Without: " + money(withoutCar) + ". Check that you can get the permit before you count on it.</p>";
+    }
+
+    lines.push(li("With a car: " + permitName + " " + money(permit) + (nightName ? " + " + nightName : "") + " + your gas " + money(gas) + " + insurance " + money(ins) + " + upkeep " + money(maint) + " + other " + money(other) + " = " + money(withCar) + "."));
+    lines.push(li("Without a car: " + tcatNote));
+    lines.push(li(shareNote));
+    lines.push(li("Trips home: " + trips + " x " + money(fare) + " = " + money(fares) + ". Without-a-car total: " + money(withoutCar) + "."));
+    if (elig === "under21" && yearHours > 0) lines.push(li("Under 21: Carshare needs a spotless record, your own insurance policy, a signed consent form and a declarations page showing at least $300,000 liability per accident."));
+    if (home === "campus") lines.push(li("The resident permit is limited, first come, first served, and the North Campus ND permit is capped. Per day it is $2.06 (752.98 / 365); a $50 ticket for parking without a permit or payment comes on top."));
+    if (home === "campus" && status === "first-year") lines.push(li("Cornell's families page discourages first-years from bringing a car, though limited permits exist."));
+    if (permit > 0) lines.push(li("Return the permit by Mar 31 for a prorated refund; after that, none."));
+
+    out.innerHTML = html + "<ul>" + lines.join("") + "</ul>" + FOOT;
+  }
+
+  root.addEventListener("input", render);
+  root.addEventListener("change", render);
+  render();
+})();
+</script>

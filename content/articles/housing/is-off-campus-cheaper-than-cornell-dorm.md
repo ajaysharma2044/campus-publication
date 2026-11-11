@@ -1,86 +1,102 @@
 ---
-title: Is off-campus housing cheaper than a Cornell dorm?
-meta: 'Only big shares beat Cornell''s $13,744 double: a Collegetown 6BR bed at $800 a month does; a 4BR share or a 1BR alone does not.'
-primary_query: is off campus housing cheaper than cornell dorms
+title: Is it cheaper to live on or off campus at Cornell?
+mode: answer
+dek: For students and parents weighing a Cornell double and meal plan against a 12-month Ithaca lease, the size of your group decides which side costs less.
+meta: Cornell's 2026-27 double is $13,744, or $20,850 with a meal plan. Big Collegetown shares cost less for 12 months; a 1BR alone costs more.
+primary_query: is it cheaper to live on or off campus at cornell
 topic: housing
 school: cornell-university
 type: comparison
-updated: 2026-11-08
+updated: '2026-11-10'
+idea_id: 52
+rewrites: content/articles/housing/is-off-campus-cheaper-than-cornell-dorm.md
 queue_id: q-housing-0039
 kind: spoke
+pillar: /housing/cornell-off-campus-housing-guide/
+brief: intel/off-campus-housing/brief.md
 readers:
 - sophomore
 - parent
 - low-budget
 - first-year
-- upper-year-renter
-pillar: /housing/cornell-off-campus-housing-guide/
-brief: intel/off-campus-housing/brief.md
+- off-campus
 subject: Cornell West Campus
 tools:
 - ithaca-rent-commute-calculator
 - cornell-housing-license-cancellation-fee-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
-  title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-08'
+- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+  title: Housing Rates 2026-2027, Cornell Student and Campus Life
+  accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
-  title: Undergraduate Meal Plans, Cornell Student & Campus Life
-  accessed: '2026-11-08'
+  title: Undergraduate Meal Plans, Cornell Student and Campus Life
+  accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
-  title: Residential Policy, Cornell Student & Campus Life
-  accessed: '2026-11-08'
+  title: Residential Policy, Cornell Student and Campus Life
+  accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
-  title: Requirements for qualified university-recognized campus housing, Cornell Student & Campus Life
-  accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
-  title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
-  accessed: '2026-11-08'
-- url: https://ithacarenting.com/collegetown/
-  title: 'Ithaca Renting: Collegetown properties'
-  accessed: '2026-11-08'
-- url: https://ithacarenting.com/downtown/
-  title: 'Ithaca Renting: Downtown properties'
-  accessed: '2026-11-08'
-- url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/
-  title: 'RentCafe: Collegetown, Ithaca average rent'
-  accessed: '2026-11-08'
-- url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/
-  title: 'RentCafe: Ithaca, NY average rent'
-  accessed: '2026-11-08'
-- url: https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026
-  title: The Ivy to establish new luxury housing in Collegetown, opens fall 2026, The Cornell Daily Sun
-  accessed: '2026-11-08'
-- url: https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/
-  title: 'EnergySage: Cost of electricity in Ithaca, NY'
-  accessed: '2026-11-08'
-- url: https://poweroutage.us/electricity-rates/ny/ithaca
-  title: 'Poweroutage.us: Electricity rates in Ithaca, NY'
-  accessed: '2026-11-08'
-- url: https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095
-  title: 209 Stewart Avenue listing, Ithaca College off-campus housing
-  accessed: '2026-11-08'
-- url: https://finaid.cornell.edu/living-campus
-  title: Living Off Campus, Cornell Financial Aid
-  accessed: '2026-11-08'
-- url: https://finaid.cornell.edu/cost-to-attend
-  title: Cost to Attend, Cornell Financial Aid
-  accessed: '2026-11-08'
-- url: https://www.nysenate.gov/legislation/laws/GOB/7-108
-  title: New York General Obligations Law 7-108
-  accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
-  title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
-  accessed: '2026-11-08'
-- url: https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags
-  title: Trash and Yard Waste Collection Tags, City of Ithaca
-  accessed: '2026-11-08'
+  title: Requirements for qualified university-recognized campus housing, Cornell Student and Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+  title: Academic Year Housing License 2027-2028, Cornell Student and Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
+  title: Academic Year Housing License 2026-2027, Cornell Student and Campus Life
+  accessed: '2026-11-10'
 - url: https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/
   title: As Cornell requires university housing for sophomores, students weigh options, The Cornell Daily Sun
-  accessed: '2026-11-08'
-- url: https://talk.collegeconfidential.com/t/upperclassmen-housing-at-cornell/1862613
-  title: Upperclassmen housing at Cornell, College Confidential
-  accessed: '2026-11-08'
+  accessed: '2026-11-10'
+- url: https://ithacarenting.com/collegetown/
+  title: 'Ithaca Renting: Collegetown properties'
+  accessed: '2026-11-10'
+- url: https://ithacarenting.com/downtown/
+  title: 'Ithaca Renting: Downtown properties'
+  accessed: '2026-11-10'
+- url: https://ithacarenting.com/property-details/?pid=19
+  title: 'Ithaca Renting: 202 Dryden Road'
+  accessed: '2026-11-10'
+- url: https://ithacarenting.com/property-details/?pid=15
+  title: 'Ithaca Renting: Aces Apartments, 418-428 Eddy Street'
+  accessed: '2026-11-10'
+- url: https://ithacarenting.com/property-details/?pid=11
+  title: 'Ithaca Renting: Whiton Hall, 222 S. Aurora St.'
+  accessed: '2026-11-10'
+- url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/
+  title: 'RentCafe: Collegetown, Ithaca average rent'
+  accessed: '2026-11-10'
+- url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/
+  title: 'RentCafe: Ithaca, NY average rent'
+  accessed: '2026-11-10'
+- url: https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026
+  title: The Ivy to establish new luxury housing in Collegetown, opens fall 2026, The Cornell Daily Sun
+  accessed: '2026-11-10'
+- url: https://ithacavoice.org/2026/07/cornell-collegetown-construction/
+  title: Cornell and Collegetown construction, The Ithaca Voice
+  accessed: '2026-11-10'
+- url: https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/
+  title: 'EnergySage: Cost of electricity in Ithaca, NY'
+  accessed: '2026-11-10'
+- url: https://poweroutage.us/electricity-rates/ny/ithaca
+  title: 'Poweroutage.us: Electricity rates in Ithaca, NY'
+  accessed: '2026-11-10'
+- url: https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095
+  title: 209 Stewart Avenue listing, Ithaca College off-campus housing
+  accessed: '2026-11-10'
+- url: https://finaid.cornell.edu/living-campus
+  title: Living Off Campus, Cornell Financial Aid
+  accessed: '2026-11-10'
+- url: https://finaid.cornell.edu/cost-to-attend
+  title: Cost to Attend, Cornell Financial Aid
+  accessed: '2026-11-10'
+- url: https://www.nysenate.gov/legislation/laws/GOB/7-108
+  title: New York General Obligations Law 7-108
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+  title: Housemate Compatibility Questionnaire, Cornell Student and Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus
+  title: Living Off Campus, Cornell Student and Campus Life
+  accessed: '2026-11-10'
 images:
 - file: 1.webp
   alt: Cornell's West Campus residence halls seen from above, with the stone houses and newer brick halls on the slope toward Cayuga Lake
@@ -93,102 +109,107 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_West_Campus_from_McGraw_Tower.jpg
 ---
 
+
 ```glance
-- Cornell's 2026-27 double costs $13,744 a year with utilities and internet: $1,145 a month over a 12-month lease, $1,374 over 10.
-- Cheaper per person: Collegetown 6BR and 10BR beds ($800 and $775 a month), shared-suite rooms ($895), downtown 2BR and 3BR shares, and co-op doubles ($6,974 to $9,962 a year).
-- Dearer: a Collegetown 1BR alone costs $10,556 a year more; a 4BR share is $1,211 more before electricity and up to $2,051 more with it.
-- Dorm residents also buy a meal plan, $7,056 to $7,604 a year plus a $50 fee for 2026-27; off-campus students need none.
-- Sophomores cannot cash in: signing a lease without an approved exemption still gets you billed for the full Cornell year.
+- A 2026-27 Cornell double plus the cheapest meal plan an upper-level student can pick costs $20,850.
+- Rent alone beats a Cornell double only in a share of five or more bedrooms, or downtown.
+- A Collegetown 1BR alone costs $24,300 a year, more than the dorm with meals.
+- Sophomores can't cash in: a lease without an approved exemption still brings the full Cornell bill.
 ```
 
-Off campus is cheaper than a Cornell dorm only if you share a big unit. The 2026-27 residence hall double is [$13,744 for the academic year](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) with gas, electricity, garbage and internet included, which equals $1,145 a month over a 12-month lease. A bed in a Collegetown 6BR, a 10BR, a shared suite or a downtown 2BR or 3BR comes in under that line, while a 4BR share or anything smaller in Collegetown does not.
+Living off campus is cheaper than a Cornell dorm if you share a big apartment. A 2026-27 residence hall double costs [$13,744 for the academic year](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates) (Cornell Housing rates), or $1,145.33 a month over a 12-month lease. A bed in a Collegetown 6-bedroom ($800 median) costs less. A 4-bedroom share or a 1-bedroom alone costs more.
 
 ```reader "If you're a sophomore planning junior year"
-The number to beat is $1,145 a month per person on a 12-month lease. At Ithaca Renting's 2027-28 Collegetown medians, a 6BR bed ($800) beats it and a 4BR bed ($1,246.25) does not. Group size moves your cost more than anything else: at those medians, dropping from a 6BR to a 4BR adds $5,355 a year each. The big houses go first; [14 of 67 Collegetown rows](https://ithacarenting.com/collegetown/), including an 8BR and a 14BR, were sold out on November 8, 2026. If you keep a backup Cornell room, cancelling it costs [$50 through January 31](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028), then $500 and up.
+Pick your group size before you pick a building. At the Collegetown medians below, moving from a 6-bedroom ($800 a bed) to a 4-bedroom ($1,246.25) costs each of you $446.25 a month, or $5,355 a year. The big houses sign first: 105 Dryden Court's 8-bedroom and 214 Dryden Road's 14-bedroom were sold out for 2027-28 by Nov. 8, 2026. If you hold a Cornell room as a backup, release it by Jan. 31, when the fee is still $50.
 ```
 
-```reader "If you're a parent comparing the bills"
-Cornell bills two semesters; most leases run 12 months. Compare a year with a year: the $13,744 double against 12 months of rent. A 4BR Collegetown share at the median is $14,955 a year, a 1BR alone $24,300. The dorm side also carries a required meal plan for first- and second-years ($7,056 to $7,604 a year plus $50), which an off-campus junior can skip. Cornell aid does not cover the [security deposit, first and last month's rent, or rent in months your child is not registered](https://finaid.cornell.edu/living-campus), so plan cash for signing and the summer.
+```reader "If you're a parent paying the bills"
+Plan for cash at signing and for summer rent. Cornell aid doesn't pay the deposit or the first month, and the lease bills June and July even if your child comes home.
 ```
 
 ```reader "If you're on a tight budget"
-The cheapest beds in this comparison are Cornell's own co-ops: a co-op triple at Red Bud in Von Cramm is $5,530 for the year and doubles run $6,974 to $9,962. Off campus, a downtown 3BR share at $795 a month ($9,540 a year) or a Collegetown 10BR bed at $775 ($9,300) sits more than $4,000 under the double. Aid will not pay the deposit or first month, and it does not cover summer rent on a 12-month lease. The costly mistake is a 1BR alone: $10,556 a year over the double.
+The cheapest beds are Cornell's own co-ops, from $5,530 a year for a triple at Red Bud in Von Cramm. Off campus, an all-inclusive room or a bed in a 6- or 10-bedroom keeps you more than $3,000 under the double with bills included, while anything you rent alone costs more.
 ```
 
-```reader "If you're a first-year"
-This comparison is for your junior year, not next year. First- and second-years must live in Cornell or affiliated housing [with a required meal plan](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy), and a sophomore who signs a lease without an approved exemption is [billed for the full year](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing) anyway. The cheaper option for year two is a co-op double at $6,974 to $9,962. Use this year to find housemates you would share a 5BR or 6BR with.
-```
+## How does the dorm price compare with monthly rent?
 
-```reader "If you're a junior or senior deciding whether to stay or move"
-You can choose either side. If you would buy a meal plan on campus, a double plus the lowest plan a current on-campus undergrad can pick comes to $20,850 for 2026-27. Off campus you need no plan. A 4BR share ($14,955 a year at the Collegetown median) plus $840 of electricity at an upper-bound estimate leaves $5,055 for food before you pass that total. Living alone does not: a Collegetown 1BR at the median is $24,300 in rent alone.
-```
-
-## How the dorm price converts to monthly rent
-
-The double is a two-semester price: [$6,872 per semester](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), $13,744 a year. A lease is a monthly price, usually for 12 months. So divide the double by the months you will actually pay.
+Divide the dorm price by the months you will actually pay rent. The double is $6,872 per semester for 2026-27, billed twice. It includes gas, electricity, garbage and internet up to 200 GB a month. Cornell housing is also a license, a revocable permission to occupy a room rather than a lease, and it takes [no security or key deposit](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027) (Cornell housing license).
 
 ```figure
 kind: cost_table
-title: What the 2026-27 Cornell double equals as monthly rent
+title: The 2026-27 Cornell double as monthly rent
 rows:
-  - {label: "Double, academic year", value: "$13,744"}
-  - {label: "Per month over a 12-month lease", value: "$1,145.33"}
-  - {label: "Per month if you sublet the summer and pay 10", value: "$1,374.40"}
+  - {label: "Double, academic year (two semesters)", value: "$13,744"}
+  - {label: "Per month over a 12-month lease ($13,744 / 12)", value: "$1,145.33"}
+  - {label: "Per month over 10 months ($13,744 / 10)", value: "$1,374.40"}
 ```
 
-Use $1,145 if you will pay all 12 months. Use $1,374 only if a subtenant really covers June and July, or your lease runs 10 months. The double also includes gas, electricity, garbage and internet up to 200 GB a month, and Cornell housing takes [no security or key deposit](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028). Most off-campus rents include some of those bills, not all.
+Use $1,145.33 if you will pay all 12 months. Use $1,374.40 only if your lease runs 10 months or a subtenant really covers June and July. Most leases require the landlord's approval to sublet, and the original tenant often stays responsible for the rent ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus)).
 
-## Which setups beat the double, and which do not
+<!-- ad-break -->
 
-The table below takes one person's cost for a year in each way of living. Off-campus rows are 12 months of rent at asking prices, with no utilities added. Collegetown and downtown rows are our medians of the price ranges on [Ithaca Renting's Collegetown page](https://ithacarenting.com/collegetown/) (38 priced 2027-28 rows) and [its downtown page](https://ithacarenting.com/downtown/) (20 rows, mostly 2026-27), read on November 8, 2026. One landlord, so treat them as a market snapshot, not a census.
+## Which off-campus setups cost less than the double?
+
+Shares of five bedrooms or more in Collegetown, and most shares downtown, cost less than the double on rent alone. Smaller Collegetown units and anything you rent alone cost more. The table sets one person's year of rent against the double, before electricity.
+
+The Collegetown rows are medians of the 38 priced 2027-28 listings on [Ithaca Renting's Collegetown page](https://ithacarenting.com/collegetown/), the one large landlord that posts every per-bed price. Each listing's range is taken at its midpoint and grouped by unit size. The downtown rows come from [its downtown page](https://ithacarenting.com/downtown/), where most prices are for 2026-27.
 
 | Way of living | Per person a month | Per person a year | Against the $13,744 double |
 |---|---|---|---|
 | Co-op triple, Red Bud in Von Cramm | $2,765 a semester | $5,530 | $8,214 less |
 | Co-op double, eight houses | $3,487 to $4,981 a semester | $6,974 to $9,962 | $3,782 to $6,770 less |
-| Collegetown 10BR bed | $775 | $9,300 | $4,444 less |
-| Downtown 3BR share | $795 | $9,540 | $4,204 less |
-| Collegetown 6BR bed | $800 | $9,600 | $4,144 less |
-| Downtown 6BR bed | $870 | $10,440 | $3,304 less |
+| Collegetown 10-bedroom bed | $775 | $9,300 | $4,444 less |
+| Downtown 3-bedroom share | $795 | $9,540 | $4,204 less |
+| Collegetown 6-bedroom bed | $800 | $9,600 | $4,144 less |
+| Downtown 6-bedroom bed | $870 | $10,440 | $3,304 less |
 | Collegetown room in a shared suite | $895 | $10,740 | $3,004 less |
-| Downtown 2BR share | $992.50 | $11,910 | $1,834 less |
-| Ithaca 3BR split three ways (RentCafe average) | $1,013 | $12,156 | $1,588 less |
-| Collegetown 5BR bed (two-listing mean) | $1,102.50 | $13,230 | $514 less |
-| Collegetown 3BR bed (two-listing mean) | $1,243.75 | $14,925 | $1,181 more |
-| Collegetown 4BR bed | $1,246.25 | $14,955 | $1,211 more |
-| Collegetown 2BR share | $1,377.50 | $16,530 | $2,786 more |
+| Downtown 2-bedroom share | $992.50 | $11,910 | $1,834 less |
+| Ithaca 3-bedroom split three ways (RentCafe average) | $1,013 | $12,156 | $1,588 less |
+| Collegetown 5-bedroom bed (two-row mean) | $1,102.50 | $13,230 | $514 less |
+| Collegetown 3-bedroom bed (two-row mean) | $1,243.75 | $14,925 | $1,181 more |
+| Collegetown 4-bedroom bed | $1,246.25 | $14,955 | $1,211 more |
+| Collegetown 2-bedroom share | $1,377.50 | $16,530 | $2,786 more |
 | Downtown studio | $1,395 | $16,740 | $2,996 more |
 | Collegetown studio | $1,765 | $21,180 | $7,436 more |
-| The Ivy 3BR split three ways | $1,833 to $1,933 | $22,000 to $23,200 | $8,256 to $9,456 more |
-| Collegetown 1BR alone | $2,025 | $24,300 | $10,556 more |
+| Collegetown 1-bedroom alone | $2,025 | $24,300 | $10,556 more |
 
-Co-op rates are Cornell's [2026-27 semester rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) for two semesters. The RentCafe row splits the [Ithaca 3BR average of $3,039](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/) three ways. The Ivy row splits the [$5,500 to $5,800 3BR rents the Cornell Daily Sun reported](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026) in December 2025. The full set of 28 options, with Hasbrouck and the other RentCafe averages, is in our dataset of housing cost by living situation.
+Source: Cornell 2026-27 housing rates; Ithaca Renting Collegetown (2027-28) and downtown (mostly 2026-27) asking rents; RentCafe Ithaca average, Oct. 30, 2026. Full rows in our [housing cost by living situation dataset](/datasets/ithaca-housing-cost-by-living-situation-2026-27/).
 
-The pattern is simple. Per-bed rent falls as the unit grows, and the line sits between five and four bedrooms in Collegetown and between a studio and a 2BR downtown. Big-building averages are worse still: RentCafe's [Collegetown 2BR average of $3,414](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/), split two ways, is $20,484 a year each, $6,740 over the double.
+The line falls between five and four bedrooms. The cheapest named beds are at Aces Apartments, 418-428 Eddy St., where a 6-bedroom bed lists at [$695 to $760 a month for 2027-28](https://ithacarenting.com/property-details/?pid=15) (Ithaca Renting), and the 10-bedroom at [202 Dryden Road, $725 to $825 a bed](https://ithacarenting.com/property-details/?pid=19) (Ithaca Renting). Per-bed prices for every unit size are in our [Collegetown rent per bed dataset](/datasets/collegetown-rent-per-bed-2027-28/).
 
-Downtown is cheaper per bed at the same landlord. By our medians of [its downtown rows](https://ithacarenting.com/downtown/), Collegetown runs 26.5% above downtown for studios, 24.6% for 1BRs and 38.8% for 2BRs. The trade is a 20 to 30 minute uphill walk or a bus. Price your commute next to the rent:
+Big apartment buildings cost more than these medians. RentCafe, which counts only buildings with 50 or more units, puts the [Collegetown 2-bedroom average at $3,414 a month](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/) (RentCafe, Oct. 30, 2026). Split two ways, that is $20,484 a year each, $6,740 over the double. The Ithaca 3-bedroom row in the table splits [RentCafe's citywide average of $3,039](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/) three ways.
+
+The newest building is the priciest. The Ivy, the eight-story building at 325 College Ave., listed 3-bedrooms at [$5,500 to $5,800 a month](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026) (Cornell Daily Sun, December 2025). The Ithaca Voice later put its 3-bedrooms at [up to $4,900](https://ithacavoice.org/2026/07/cornell-collegetown-construction/) (July 2026). Even the lower figure, split three ways for a year, is $19,600 each, $5,856 over the double.
+
+## Is downtown cheaper than Collegetown?
+
+Yes, per bed, at the same landlord. At Ithaca Renting's medians, Collegetown runs 26.5% above downtown for studios ($1,765 against $1,395), 24.6% for 1-bedrooms ($2,025 against $1,625) and 38.8% for 2-bedrooms ($1,377.50 against $992.50). Most downtown prices are for 2026-27 and Collegetown's for 2027-28, so part of that gap is one year of rent increases. The trade is the trip up the hill to campus. Price the bus or the walk next to the rent with the [Ithaca rent and commute calculator](/tools/ithaca-rent-commute-calculator/):
 
 ```tool ithaca-rent-commute-calculator```
 
-## What electricity and other bills add
+<!-- ad-break -->
 
-The double includes electricity. Most Collegetown rents do not. Ithaca Renting includes heat and hot water at every property, but tenants pay electricity except at some locations, such as room-rented units. Downtown, its page says electricity is included only at the Colonial Building, Commons Studios and Whiton Hall.
+## What do electricity and other bills add?
 
-No source gives a typical student electric bill. As an upper bound, EnergySage puts the [average Ithaca household bill at about $280 a month](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/) (updated November 1, 2026). That average is self-reported and probably includes homes heated by electricity. Poweroutage.us shows a much lower [$104.20 average bill](https://poweroutage.us/electricity-rates/ny/ithaca). Here is the EnergySage figure split by housemates:
+Electricity is the big bill the double covers and most leases don't. Ithaca Renting includes heat and hot water at every property, but tenants pay electricity except at a few buildings. Downtown, Whiton Hall at 222 S. Aurora St. includes [electricity and building-wide Wi-Fi](https://ithacarenting.com/property-details/?pid=11) (Ithaca Renting), as do the Colonial Building and Commons Studios.
 
-| Housemates | Electricity per person a month | Per person a year | Example unit, rent plus electricity | Against the double |
+Treat EnergySage's [average Ithaca household bill of $282 a month](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/) (EnergySage) as a ceiling. It comes from users who chose to report, and it is a household average, not a student share; no source publishes a typical student bill.
+
+| Housemates | Electricity per person a month | Per person a year | Example: rent plus electricity | Against the double |
 |---|---|---|---|---|
-| 2 | $140 | $1,680 | Downtown 2BR share: $13,590 | $154 less |
-| 4 | $70 | $840 | Collegetown 4BR bed: $15,795 | $2,051 more |
-| 6 | $46.67 | $560 | Collegetown 6BR bed: $10,160 | $3,584 less |
+| 2 | $141 | $1,692 | Downtown 2-bedroom share: $13,602 | $142 less |
+| 4 | $70.50 | $846 | Collegetown 4-bedroom bed: $15,801 | $2,057 more |
+| 6 | $47 | $564 | Collegetown 6-bedroom bed: $10,164 | $3,580 less |
 
-Even at the upper bound, the 6BR stays well under the double. The downtown 2BR share drops to almost exactly even. A building that bundles everything changes the math: a 5BR at 209 Stewart Ave listed rooms at [$850 a month "all in"](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095) with heat, water, electricity and WiFi for 2026-27, which is $10,200 a year.
+Source: EnergySage average Ithaca bill ($282 x 12 = $3,384 a year, split by housemates); rents from the table above.
 
-Smaller costs add up too. City of Ithaca trash tags cost [$6.00 each](https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags) from January 1, 2026, where trash is not included. Internet, insurance, furniture and parking are separate lines; [what a month off campus costs](/housing/what-a-month-off-campus-costs-cornell/) prices each one.
+The 6-bedroom stays far under the double even at the ceiling, and the downtown 2-bedroom share comes out almost even.
 
-## The meal plan the dorm price leaves out
+An all-inclusive lease removes the guesswork. A 5-bedroom at 209 Stewart Ave. listed rooms at [$850 a month "all in"](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095), with heat, water, electricity and Wi-Fi, for the year from Aug. 1, 2026, to July 31, 2027. That is $10,200 a year, plus $20 each as one-fifth of the building's $100 in yearly trash fees. For the rest of the monthly bills, from internet to renters insurance, see [what a month off campus costs](/cornell/housing/what-a-month-off-campus-costs-cornell/).
 
-The $13,744 is room only. Cornell's two-year residential requirement for first- and second-years [includes a required meal plan](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans). The 2026-27 rates:
+## How much does the meal plan change the math?
+
+A required meal plan adds $7,056 to $7,604 a year to the dorm side; off campus, you need none. The double's price is room only, and Cornell's two-year residential requirement for first- and second-years [includes a required meal plan](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy) (Cornell residential policy). The 2026-27 plans:
 
 ```figure
 kind: cost_table
@@ -196,56 +217,85 @@ title: Cornell undergraduate meal plans, 2026-27, per year
 rows:
   - {label: "Unlimited (required for first-years)", value: "$7,604"}
   - {label: "House Meal Plan (required on West Campus)", value: "$7,604"}
-  - {label: "Bear Traditional", value: "$7,056"}
-  - {label: "Collegetown Meal Plan (six listed buildings)", value: "$7,056"}
+  - {label: "Bear Traditional (upper-level students outside West Campus)", value: "$7,056"}
+  - {label: "Collegetown Meal Plan (six Cornell buildings in Collegetown)", value: "$7,056"}
   - {label: "Administrative fee, once a year", value: "$50"}
 ```
 
-Bear Choice ($6,150) and Bear Basic ($4,978) are open on campus only to undergrads who enrolled before summer 2021, so a current student living on campus starts at $7,056. Room plus the cheapest of those plans plus the fee is $20,850 a year; on West Campus it is $21,398. Off-campus students need no plan; the optional debit plans start at $1,000 a year. Groceries replace the plan. Not confirmed: what an Ithaca student spends on food off campus.
+Source: [Cornell Undergraduate Meal Plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans), 2026-27.
 
-That is why students and parents disagree about which is cheaper. In 2021, the Cornell Daily Sun reported students who found [off-campus rent cheaper than a dorm plus a meal plan](https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/). On a [2016 College Confidential thread](https://talk.collegeconfidential.com/t/upperclassmen-housing-at-cornell/1862613), posters said off-campus apartments were cheaper and roomier, with kitchens; one parent gave each child the dorm cost, and both found good places.
+The two cheaper plans, Bear Choice ($6,150) and Bear Basic ($4,978), are open on campus only to undergrads who enrolled before summer 2021, and to off-campus students. So a current student living on campus starts at $7,056. Cornell's optional off-campus debit plans run from $1,000 a year (Just Bucks) to $1,824.60 (Off-Campus Value).
 
-## Worked examples
+Put together, a full year on campus costs:
 
-Example: four juniors take a Collegetown 4BR at the $1,246.25 median on a 12-month lease. Rent is $14,955 a year each, $1,211 over the double. With electricity at the $70 upper bound, it is $15,795, $2,051 over. If one housemate drops out before signing and they take a 6BR instead with two more people, each pays $9,600 in rent, $4,144 under. Each housemate on most local leases is [jointly and severally liable](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire) for the whole rent, so the bigger group saves money only if all six stay.
+```figure
+kind: cost_table
+title: A full 2026-27 year in a Cornell double, with meals
+rows:
+  - {label: "Double + Bear Traditional + fee ($13,744 + $7,056 + $50)", value: "$20,850"}
+  - {label: "Double + Unlimited or House plan + fee ($13,744 + $7,604 + $50)", value: "$21,398"}
+  - {label: "Single + Bear Traditional + fee ($15,566 + $7,056 + $50)", value: "$22,672"}
+```
 
-Example: two friends split a downtown 2BR at the $992.50 median, electricity not included. Rent is $11,910 each. At the $140 upper bound for electricity, the total is $13,590, $154 under the double. If both buy the $1,000 Just Bucks plan for meals on campus, they are still far below a sophomore's room plus meal plan of $20,850.
+That changes the off-campus answer for juniors and seniors. A Collegetown 4-bedroom bed ($14,955) plus electricity at the $846 ceiling is $15,801. That leaves $5,049 for groceries and other bills before it passes the $20,850 dorm year. A 6-bedroom bed with electricity ($10,164) leaves $10,686. A 1-bedroom alone does not get there: $24,300 in rent is $3,450 over the dorm year before a single grocery trip. Cornell doesn't publish what an off-campus student spends on food. For a side-by-side of cooking against a plan, see [meal plan or cook yourself off campus](/cornell/money/cornell-off-campus-meal-plan-or-cook-yourself-cost/). If you are deciding whether a plan is worth it on campus, see [whether the Cornell meal plan is worth it](/cornell/money/cornell-meal-plan-worth-it/).
 
-Example: a student wants a Collegetown 1BR at the $2,025 median. Twelve months is $24,300, before electricity. Against the double that is $10,556 more; against the double plus a $7,056 meal plan and the $50 fee, it is still $3,450 more, before a single grocery trip.
+<!-- ad-break -->
 
-## Money due before the lease starts
+## Can a first-year or sophomore move off campus to save money?
 
-The double needs no deposit. A lease usually does. New York caps the deposit, including any rent paid in advance, at [one month's rent](https://www.nysenate.gov/legislation/laws/GOB/7-108). On a $1,246.25 bed, a deposit and the first month come to $2,492.50 at or before move-in. Aid will not cover it, and the deposit comes back only after you move out. If your child is a sophomore, check the rule first: a lease signed without an approved exemption does not cancel the Cornell bill.
+No, not without an exemption. Full-time first- and second-years in Ithaca must live in Cornell or approved affiliated housing. That means residence halls, recognized fraternity and sorority houses, housing controlled by a recognized student organization, or the university-owned co-ops. Cornell began requiring this of all sophomores in [fall 2022](https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/) (Cornell Daily Sun).
+
+The penalty for signing a lease anyway is steep. Students who neither meet the requirement nor get an exemption ["will still be billed for the full year"](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing) (Cornell Housing). For a sophomore in a Collegetown 4-bedroom, that is a year of rent plus the full price of a Cornell room never used. Exemptions, such as for married students or veterans, last one academic year.
+
+The cheaper move inside the rules is a co-op. Co-op doubles run $6,974 a year at Red Bud to $9,962 at 660 Stewart and Wari, and they count as Cornell housing for the requirement. For first-years, the off-campus question is about junior year; the [sophomore start page](/start/sophomore/) covers the year in between.
+
+## What does it cost up front?
+
+A lease costs money before you move in; the double does not. New York caps a security deposit, including any rent paid in advance, at [one month's rent](https://www.nysenate.gov/legislation/laws/GOB/7-108) (N.Y. General Obligations Law 7-108). The landlord must return it with an itemized list within 14 days after you move out, or lose the right to keep any of it.
+
+On a $1,246.25 bed, a deposit plus the first month is $2,492.50. Cornell aid does not cover the [security deposit, first and last month's rent, or rent in months you are not registered](https://finaid.cornell.edu/living-campus) (Cornell Financial Aid).
+
+A Cornell room held as a backup while you hunt gets more expensive to cancel as the year goes on. For returning juniors and seniors with a 2027-28 license, the fees run as follows (Cornell housing license):
+
+```figure
+kind: timeline
+title: Cornell 2027-28 housing license cancellation fees, juniors and seniors
+rows:
+  - {label: "$50", date: "Through Jan. 31, 2027"}
+  - {label: "$500", date: "Feb. 1 to March 31, 2027"}
+  - {label: "$1,000", date: "April 1 to June 30, 2027"}
+  - {label: "$2,000", date: "July 1 to Aug. 15, 2027"}
+  - {label: "50% of the fall room rate ($3,436 on a 2026-27 double)", date: "After Aug. 15, 2027"}
+```
+
+Source: [Cornell Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028). Final 2027-28 room rates post in March 2027; rates shown at fall selection are projected.
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 
-## Common mistakes
+## What mistakes make off campus cost more than planned?
 
-- **Comparing 12 months of rent with two semesters.** A $1,374 rent looks like a match, but on a 12-month lease with no subtenant it costs $16,488, $2,744 over the double.
-- **Signing as a sophomore without an exemption.** You are billed for the full Cornell year anyway: $13,744 for a double on top of rent.
-- **Comparing a per-bed price with a per-unit price.** RentCafe's $3,414 Collegetown 2BR is a whole-unit average; Ithaca Renting's $1,377.50 is per bed.
-- **Forgetting electricity.** A 4BR share that is $1,211 over the double on rent can be about $2,051 over once a $280 household bill is split four ways.
-- **Building the budget on a group that shrinks.** Dropping from a 6BR to a 4BR at the medians costs each person $446.25 a month, $5,355 a year.
-- **Keeping a backup Cornell room too long.** Cancelling costs $50 through January 31, then $500, $1,000 and $2,000 as summer gets closer.
+**Comparing 12 months of rent with two semesters.** A $1,374 rent looks like a match for the double. On a 12-month lease with no subtenant, it is $16,488, $2,744 over.
+
+**Losing a housemate before signing.** On most local leases, housemates are [jointly and severally liable](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire), meaning each of you owes the whole rent if someone stops paying (Cornell Off-Campus Living). A group that shrinks from six to four pays $5,355 more a year each at the medians above.
+
+**Mixing per-bed and per-unit prices.** RentCafe's $3,414 Collegetown 2-bedroom figure is for the whole unit. Ithaca Renting's $1,377.50 is per bed.
+
+**Forgetting electricity.** A Collegetown 4-bedroom share that is $1,211 over the double on rent becomes $2,057 over at the EnergySage ceiling.
 
 ## FAQ
 
-**Does Cornell's cost of attendance change if I live off campus?** Need is calculated the same way, the Bursar stops billing housing, and a refund is issued for living costs if aid exceeds Bursar charges, per [Cornell Financial Aid](https://finaid.cornell.edu/living-campus). The page tells you to find housing that costs less over 12 months than its off-campus budget but gives no dollar figure.
+**Does Cornell's financial aid change if I live off campus?** Need is calculated the same way. The Bursar stops billing housing, you pay the landlord, and if your aid is more than your Bursar charges, Cornell refunds the difference for living costs (Cornell Financial Aid). The office advises finding housing that costs less over a full year than its off-campus housing and dining budget.
 
-**What food budget does Cornell use?** The 2025-26 undergraduate cost of attendance lists [$13,744 for housing and $7,604 for food](https://finaid.cornell.edu/cost-to-attend). The 2026-27 figures were not visible on that page on November 8, 2026.
+**What does Cornell's cost of attendance count for housing and food?** The 2025-26 undergraduate budget lists [$13,744 for housing and $7,604 for food](https://finaid.cornell.edu/cost-to-attend) (Cornell Financial Aid). That housing line matches the double; it is not a measure of off-campus rent.
 
-**Will the double cost the same in 2027-28?** Not necessarily. Cornell posts final 2027-28 rates in [March 2027](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028); rates shown at fall selection are projected.
+**Is a dorm single cheaper than a 1-bedroom apartment?** Yes. A residence hall single is $15,566 for 2026-27, which is $8,734 less than a year in a Collegetown 1-bedroom at the median.
 
-**Is a single in a dorm cheaper than a 1BR?** Yes. A residence hall single is [$15,566 for 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), $8,734 less than a year in a Collegetown 1BR at the median.
+**Are these off-campus prices what people actually pay?** They are asking rents, and they can change until a lease is signed. On Nov. 10, 2026, 14 of 67 rows on Ithaca Renting's Collegetown page were already marked sold out for the coming year.
 
-**Are the off-campus prices what people pay?** No. They are asking rents read on November 8, 2026, and they can change until a lease is signed.
+## What to do next
 
-## Related guides
+If you're a rising junior or senior, settle your group size first. Then price a 6-bedroom, a 4-bedroom and an all-inclusive room side by side with electricity added, and compare each total with the dorm year including meals, not the room alone.
 
-- [Off-campus housing at Cornell: the 2026-27 guide](/housing/cornell-off-campus-housing-guide/): the whole topic, from who may rent to getting the deposit back.
-- [The cheapest ways to live off campus at Cornell](/housing/cheapest-off-campus-housing-cornell/): the cheapest beds ranked, and what financial aid covers.
-- [What a month off campus costs at Cornell](/housing/what-a-month-off-campus-costs-cornell/): rent, power, internet, insurance, bus and trash tags, month by month.
-- [Collegetown rent in 2026: per-bed prices by unit size](/housing/collegetown-rent-prices-per-bed-one-bedroom/): every size, every landlord price this table draws on.
-- [Cornell co-ops and Greek houses: cost and how to get in](/housing/cornell-co-ops-greek-houses-cost-how-to-join/): the cheapest Cornell-counted option and its selection rounds.
-- [Cornell off-campus housing for parents](/housing/cornell-off-campus-housing-for-parents/): cost, the lease you may co-sign, and safety checks.
-- [Who can live off campus at Cornell](/housing/cornell-residential-requirement-exemptions-live-off-campus/): the two-year rule and its exemptions.
+**Related guides**
+
+- [The cheapest ways to live off campus at Cornell](/cornell/housing/cheapest-off-campus-housing-cornell/): the lowest-cost beds, ranked.

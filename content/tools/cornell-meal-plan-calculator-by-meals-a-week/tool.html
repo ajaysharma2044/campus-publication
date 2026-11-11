@@ -1,0 +1,254 @@
+<div class="tool" id="tool-cornell-meal-plan-calculator-by-meals-a-week" data-tool="cornell-meal-plan-calculator-by-meals-a-week" data-as-of="2026-11-10">
+  <style>
+    #tool-cornell-meal-plan-calculator-by-meals-a-week .cmp-field { margin: 0 0 0.9rem; }
+    #tool-cornell-meal-plan-calculator-by-meals-a-week .cmp-field label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
+    #tool-cornell-meal-plan-calculator-by-meals-a-week .cmp-field select,
+    #tool-cornell-meal-plan-calculator-by-meals-a-week .cmp-field input[type=number] { width: 100%; max-width: 22rem; padding: 0.4rem; font: inherit; box-sizing: border-box; }
+    #tool-cornell-meal-plan-calculator-by-meals-a-week .cmp-check label { display: inline; font-weight: 400; }
+    #tool-cornell-meal-plan-calculator-by-meals-a-week .cmp-hint { display: block; font-size: 0.875em; opacity: 0.8; margin-top: 0.2rem; }
+    #tool-cornell-meal-plan-calculator-by-meals-a-week .cmp-result { border-top: 1px solid currentColor; padding-top: 0.9rem; margin-top: 1rem; }
+    #tool-cornell-meal-plan-calculator-by-meals-a-week .cmp-result ul { padding-left: 1.2rem; margin: 0.5rem 0; }
+    #tool-cornell-meal-plan-calculator-by-meals-a-week .cmp-wrap { overflow-x: auto; }
+    #tool-cornell-meal-plan-calculator-by-meals-a-week table { border-collapse: collapse; width: 100%; font-size: 0.9em; }
+    #tool-cornell-meal-plan-calculator-by-meals-a-week th,
+    #tool-cornell-meal-plan-calculator-by-meals-a-week td { text-align: left; padding: 0.3rem 0.4rem; border-bottom: 1px solid rgba(127,127,127,0.35); vertical-align: top; }
+    #tool-cornell-meal-plan-calculator-by-meals-a-week .cmp-small { font-size: 0.875em; opacity: 0.85; }
+  </style>
+
+  <p class="cmp-small">Cornell Dining's 2026-27 prices: plans from <span data-as-of="2026-11-10">$500 to $3,802 per semester</span>, a <span data-as-of="2026-11-10">$50 administrative fee</span> once a year on most plans, and dining-room meals at <span data-as-of="2026-11-10">$10.80 to $18.85 in Big Red Bucks</span> or <span data-as-of="2026-11-10">$11.90 to $20.80 at the door</span>. From Cornell Dining's undergraduate, graduate and dining-room price pages, checked Nov. 10, 2026.</p>
+
+  <div class="cmp-field">
+    <label for="cornell-meal-plan-calculator-by-meals-a-week-situation">Where you live and who you are in 2026-27</label>
+    <select id="cornell-meal-plan-calculator-by-meals-a-week-situation">
+      <option value="first-year">First-year undergraduate</option>
+      <option value="on-campus">Sophomore, junior, senior or transfer in a North or South Campus hall, program house, McGraw Place or the Townhouses</option>
+      <option value="wchs">West Campus House System resident (Cook, Becker, Bethe, Keeton, Rose)</option>
+      <option value="collegetown">Resident of 112 Edgemoor, Cascadilla Hall, Schuyler House, Sheldon Court, 301 College Ave. or 104 Mary Ann Wood Dr.</option>
+      <option value="off-campus" selected>Undergraduate living off campus</option>
+      <option value="grad">Graduate or professional student</option>
+    </select>
+    <span class="cmp-hint">The plans you may buy depend on this answer, so the tool shows only those.</span>
+  </div>
+
+  <div class="cmp-field">
+    <label for="cornell-meal-plan-calculator-by-meals-a-week-meals">Dining-room meals you eat in a typical week</label>
+    <input id="cornell-meal-plan-calculator-by-meals-a-week-meals" type="number" min="0" max="20" step="1" value="10" inputmode="numeric">
+    <span class="cmp-hint">Count meals in the ten residential dining rooms only (one swipe each). Cafe and convenience-store food is paid in Big Red Bucks, not swipes.</span>
+  </div>
+
+  <div class="cmp-field">
+    <label for="cornell-meal-plan-calculator-by-meals-a-week-mix">Which meals they are</label>
+    <select id="cornell-meal-plan-calculator-by-meals-a-week-mix">
+      <option value="all" selected>A mix of breakfast, lunch and dinner</option>
+      <option value="ld">Lunch and dinner only</option>
+      <option value="dinner">Mostly dinners</option>
+    </select>
+    <span class="cmp-hint">Sets what a meal would cost you without a swipe. Dinner is the priciest meal, so dinner eaters get more from a swipe.</span>
+  </div>
+
+  <div class="cmp-field">
+    <label for="cornell-meal-plan-calculator-by-meals-a-week-weeks">Weeks of meals in the semester</label>
+    <input id="cornell-meal-plan-calculator-by-meals-a-week-weeks" type="number" min="10" max="19" step="1" value="18" inputmode="numeric">
+    <span class="cmp-hint">Fall meals run Aug. 17 to Dec. 20, 2026, and spring meals Jan. 19 to May 28, 2027: about 18 weeks each. Lower it for weeks you will be away.</span>
+  </div>
+
+  <div class="cmp-field cmp-check">
+    <input id="cornell-meal-plan-calculator-by-meals-a-week-bucks" type="checkbox" checked>
+    <label for="cornell-meal-plan-calculator-by-meals-a-week-bucks">I will spend every Big Red Buck (and City Buck) on food I would buy anyway</label>
+    <span class="cmp-hint">Ticked, the plan's Big Red Bucks count as cash, $1 each. Unticked, they count only toward extra dining-room meals.</span>
+  </div>
+
+  <div class="cmp-field cmp-check" id="cornell-meal-plan-calculator-by-meals-a-week-wchs-row">
+    <input id="cornell-meal-plan-calculator-by-meals-a-week-wchsprev" type="checkbox">
+    <label for="cornell-meal-plan-calculator-by-meals-a-week-wchsprev">I lived in the West Campus House System for at least one semester</label>
+    <span class="cmp-hint">Adds the House Affiliate plan for off-campus students. Its 3 swipes a week work only in West Campus dining rooms.</span>
+  </div>
+
+  <div class="cmp-field cmp-check" id="cornell-meal-plan-calculator-by-meals-a-week-sfl-row">
+    <input id="cornell-meal-plan-calculator-by-meals-a-week-sfl" type="checkbox">
+    <label for="cornell-meal-plan-calculator-by-meals-a-week-sfl">I belong to a recognized fraternity or sorority</label>
+    <span class="cmp-hint">Adds the SFL Supplemental plan. On campus, it applies only if your chapter requires a plan of at least 7 meals a week.</span>
+  </div>
+
+  <div class="cmp-result" id="cornell-meal-plan-calculator-by-meals-a-week-result" aria-live="polite">
+    <p><strong>How it works:</strong> each plan's real price is its semester price, plus $25 (half the $50 yearly fee), minus the Big Red Bucks it includes. Meals beyond the plan's swipes are priced at the Big Red Bucks dining-room price. Paying with no plan uses the door price, tax included. The cheapest total wins.</p>
+  </div>
+</div>
+<script>
+(function () {
+  var root = document.getElementById("tool-cornell-meal-plan-calculator-by-meals-a-week");
+  if (!root) return;
+
+  var UG = "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans";
+  var GRAD = "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/graduate-meal-plans";
+  var RATES = "https://scl.cornell.edu/residential-life/dining/meal-plans-rates";
+  var AS_OF = "2026-11-10";
+
+  // Every number below is a 2026-27 figure from the Cornell Dining page in `source`.
+  var NUMBERS = {
+    adminFee: { value: 50, asOf: AS_OF, source: UG, note: "once per academic year; none on the Graduate and Professional Student Meal Plan" },
+    brbPrice: { breakfast: 10.80, lunch: 15.25, dinner: 18.85, brunch: 16.85, asOf: AS_OF, source: RATES },
+    doorPrice: { breakfast: 11.90, lunch: 16.80, dinner: 20.80, brunch: 18.55, asOf: AS_OF, source: RATES, note: "tax included" }
+  };
+
+  // kind "week": swipes per week (99 = all meals). kind "sem": swipes per semester.
+  var PLANS = {
+    unlimited: { name: "Unlimited", price: 3802, brb: 400, city: 0, kind: "week", swipes: 99, guests: 8, fee: true, source: UG },
+    house: { name: "House Meal Plan", price: 3802, brb: 400, city: 0, kind: "week", swipes: 99, guests: 8, fee: true, source: UG },
+    traditional: { name: "Bear Traditional", price: 3528, brb: 400, city: 0, kind: "week", swipes: 14, guests: 4, fee: true, source: UG },
+    choice: { name: "Bear Choice", price: 3075, brb: 500, city: 0, kind: "week", swipes: 10, guests: 4, fee: true, source: UG },
+    basic: { name: "Bear Basic", price: 2489, brb: 500, city: 0, kind: "week", swipes: 7, guests: 4, fee: true, source: UG },
+    collegetown: { name: "Collegetown Meal Plan", price: 3528, brb: 500, city: 436, kind: "week", swipes: 10, guests: 4, fee: true, source: UG },
+    affiliate: { name: "House Affiliate", price: 724, brb: 100, city: 0, kind: "week", swipes: 3, guests: null, fee: true, source: UG, note: "swipes at West Campus dining rooms only" },
+    sfl: { name: "SFL Supplemental", price: 2167.51, brb: 500, city: 0, kind: "sem", swipes: 127, guests: null, fee: true, source: UG },
+    ocv: { name: "Off-Campus Value", price: 912.30, brb: 150, city: 0, kind: "sem", swipes: 45, guests: 4, fee: true, source: UG },
+    flex: { name: "Flex 10/500", price: 674, brb: 500, city: 0, kind: "sem", swipes: 10, guests: null, fee: true, source: UG },
+    justbucks: { name: "Just Bucks", price: 500, brb: 500, city: 0, kind: "sem", swipes: 0, guests: 0, fee: true, source: UG },
+    grad: { name: "Graduate and Professional Student Meal Plan", price: 50, brb: 50, city: 0, kind: "sem", swipes: 0, guests: 0, fee: false, source: GRAD, note: "plus 5% off at Atrium Cafe, Big Red Barn, Bear Necessities and the Vet School cafe" }
+  };
+
+  // Who may take what (Cornell Dining undergraduate, graduate, rates and FAQ pages).
+  var ELIGIBLE = {
+    "first-year": ["unlimited"],
+    "on-campus": ["unlimited", "traditional"],
+    "wchs": ["house"],
+    "collegetown": ["unlimited", "collegetown"],
+    "off-campus": ["none", "unlimited", "traditional", "choice", "basic", "ocv", "flex", "justbucks"],
+    "grad": ["none", "unlimited", "traditional", "choice", "basic", "ocv", "flex", "justbucks", "grad"]
+  };
+  var NOTES = {
+    "first-year": "Cornell requires Unlimited for first-years. You may not reduce or cancel it, so the numbers below show what each swipe costs you.",
+    "on-campus": "You must have a plan while you live on campus. Cornell Dining lets transfers and on-campus juniors reduce from Unlimited to Bear Traditional. Its main rates page says upper-level students may opt into Bear Traditional; sophomores should confirm with Cornell Dining before counting on it.",
+    "wchs": "The House Meal Plan is required in the West Campus House System and cannot be changed or canceled, so the numbers below show what each swipe costs you.",
+    "collegetown": "You are enrolled in Unlimited when you sign your housing contract and may switch to the Collegetown Meal Plan. You cannot cancel.",
+    "off-campus": "Off campus, a plan is optional. Debit plans (Off-Campus Value, Flex 10/500, Just Bucks) are only for students not in on-campus housing and not on another plan.",
+    "grad": "Every traditional and debit plan is open to graduate and professional students, plus a $50 graduate plan with no administrative fee."
+  };
+
+  function el(name) { return root.querySelector("#cornell-meal-plan-calculator-by-meals-a-week-" + name); }
+  var sitEl = el("situation"), mealsEl = el("meals"), mixEl = el("mix"), weeksEl = el("weeks"),
+      bucksEl = el("bucks"), wchsEl = el("wchsprev"), sflEl = el("sfl"), out = el("result"),
+      wchsRow = el("wchs-row"), sflRow = el("sfl-row");
+
+  function num(input, lo, hi, fallback) {
+    var v = parseFloat(input.value);
+    if (isNaN(v)) return fallback;
+    return Math.min(hi, Math.max(lo, Math.round(v)));
+  }
+  function money(n) {
+    var s = (Math.round(n * 100) / 100).toFixed(2);
+    return "$" + s.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+  function one(n) { return (Math.round(n * 10) / 10).toFixed(1); }
+  function li(t) { return "<li>" + t + "</li>"; }
+
+  // Average price of one meal for the chosen mix. A full week is breakfast, lunch and
+  // dinner Monday to Saturday plus Sunday brunch and dinner: 20 meals.
+  function avgPrice(p, mix) {
+    if (mix === "dinner") return p.dinner;
+    if (mix === "ld") return (6 * (p.lunch + p.dinner) + p.brunch + p.dinner) / 14;
+    return (6 * (p.breakfast + p.lunch + p.dinner) + p.brunch + p.dinner) / 20;
+  }
+
+  function render() {
+    var sit = sitEl.value;
+    var meals = num(mealsEl, 0, 20, 10);
+    var weeks = num(weeksEl, 10, 19, 18);
+    var mix = mixEl.value;
+    var bucksFull = bucksEl.checked;
+    var brbMeal = avgPrice(NUMBERS.brbPrice, mix);
+    var doorMeal = avgPrice(NUMBERS.doorPrice, mix);
+    var semMeals = meals * weeks;
+
+    wchsRow.style.display = sit === "off-campus" ? "" : "none";
+    sflRow.style.display = (sit === "off-campus" || sit === "on-campus" || sit === "collegetown") ? "" : "none";
+
+    var keys = ELIGIBLE[sit].slice();
+    if (sit === "off-campus" && wchsEl.checked) keys.push("affiliate");
+    if ((sit === "off-campus" || sit === "on-campus" || sit === "collegetown") && sflEl.checked) keys.push("sfl");
+
+    var rows = [];
+    keys.forEach(function (k) {
+      if (k === "none") {
+        rows.push({ key: k, name: "No plan (pay at the door)", total: semMeals * doorMeal, perSwipe: null, be: null, covered: 0 });
+        return;
+      }
+      var p = PLANS[k];
+      var fee = p.fee ? NUMBERS.adminFee.value / 2 : 0;
+      var credit = p.brb + p.city;
+      var cap = p.kind === "week" ? Math.min(p.swipes, 20) * weeks : p.swipes;
+      var covered = Math.min(semMeals, cap);
+      var extra = semMeals - covered;
+      var extraCost = extra * brbMeal;
+      var total;
+      if (bucksFull) {
+        total = p.price + fee - credit + extraCost;
+      } else {
+        total = p.price + fee + Math.max(0, extraCost - p.brb);
+      }
+      var net = p.price + fee - (bucksFull ? credit : 0);
+      var perSwipe = covered > 0 ? net / covered : null;
+      var be = null;
+      if (p.swipes > 0) {
+        be = p.kind === "week" ? net / weeks / brbMeal : net / brbMeal;
+      }
+      rows.push({ key: k, name: p.name, plan: p, fee: fee, credit: credit, total: total, net: net, perSwipe: perSwipe, be: be, covered: covered, extra: extra, cap: cap });
+    });
+    rows.sort(function (a, b) { return a.total - b.total; });
+
+    var best = rows[0];
+    var html = "<p class=\"cmp-small\">" + NOTES[sit] + "</p>";
+    if (rows.length === 1) {
+      html += "<p><strong>Your plan: " + best.name + ", " + money(best.total) + " a semester for your meals.</strong>";
+      if (best.perSwipe !== null) html += " At " + meals + " meals a week, each swipe costs you " + money(best.perSwipe) + ".";
+      html += "</p>";
+    } else {
+      var second = rows[1];
+      html += "<p><strong>Cheapest for you: " + best.name + ", " + money(best.total) + " a semester.</strong> " +
+        "That is " + money(second.total - best.total) + " less than " + second.name + " (" + money(second.total) + ") for " +
+        meals + " dining-room meals a week over " + weeks + " weeks.</p>";
+    }
+
+    var t = "<div class=\"cmp-wrap\"><table><thead><tr><th>Plan</th><th>Your cost per semester</th><th>Cost per swipe you use</th><th>Break-even against paying in Big Red Bucks</th></tr></thead><tbody>";
+    rows.forEach(function (r) {
+      var be = "n/a";
+      if (r.be !== null) {
+        be = r.plan.kind === "week" ? one(r.be) + " meals a week" : one(r.be) + " meals a semester";
+        if (r.plan.kind === "week" && r.be > Math.min(r.plan.swipes, 20)) be += " (above the " + r.plan.swipes + "-swipe cap, so never)";
+        if (r.plan.kind === "sem" && r.be > r.plan.swipes) be += " (above its " + r.plan.swipes + " swipes, so never)";
+      }
+      t += "<tr><td>" + r.name + "</td><td>" + money(r.total) + "</td><td>" +
+        (r.perSwipe !== null ? money(r.perSwipe) : "n/a") + "</td><td>" + be + "</td></tr>";
+    });
+    t += "</tbody></table></div>";
+    html += t;
+
+    var lines = [];
+    lines.push(li("Your meals: " + meals + " a week x " + weeks + " weeks = " + semMeals + " meals a semester."));
+    lines.push(li("One meal without a swipe: " + money(brbMeal) + " in Big Red Bucks or " + money(doorMeal) + " at the door, tax included, for the mix you chose."));
+    if (best.key !== "none") {
+      var p = best.plan;
+      var parts = money(p.price) + " plan + " + money(best.fee) + " fee share";
+      if (bucksFull && best.credit > 0) parts += " - " + money(best.credit) + (p.city ? " Big Red Bucks and City Bucks" : " Big Red Bucks");
+      lines.push(li(best.name + ": " + parts + (best.extra > 0 ? " + " + best.extra + " extra meals x " + money(brbMeal) : "") + " = " + money(best.total) + "."));
+      if (p.note) lines.push(li(best.name + ": " + p.note + "."));
+      if (p.guests) lines.push(li("It also carries " + p.guests + " guest meals a semester, not counted above."));
+    } else {
+      lines.push(li("No plan: " + semMeals + " meals x " + money(doorMeal) + " = " + money(best.total) + "."));
+    }
+    lines.push(li("A year is two semesters, so double these totals. The $50 fee is charged once a year."));
+    if (sit === "off-campus" || sit === "grad") {
+      lines.push(li("Swipes reset every Thursday, and unused ones are lost, so count the weeks you will really eat on campus."));
+    }
+
+    var FOOT = "<p class=\"cmp-small\">Prices for 2026-27 from Cornell Dining's <a href=\"" + UG + "\">undergraduate plans</a>, <a href=\"" + GRAD + "\">graduate plans</a> and <a href=\"" + RATES + "\">dining-room prices</a>, checked Nov. 10, 2026. " +
+      "Estimated: your meal count, meal mix and weeks are your own; the Big Red Bucks setting decides whether bucks count as cash. The 20-meal week behind the mixed average is an assumed pattern, not a Cornell figure.</p>";
+
+    out.innerHTML = html + "<ul>" + lines.join("") + "</ul>" + FOOT;
+  }
+
+  root.addEventListener("input", render);
+  root.addEventListener("change", render);
+  render();
+})();
+</script>

@@ -1,0 +1,102 @@
+---
+title: "Should I bring a car to Cornell? Full-cost calculator"
+meta: "Enter your status, housing, gas, insurance and upkeep quotes, Carshare hours and trips home; get a year with a car against a year without, 2026-27."
+topic: getting-around
+updated: 2026-11-10
+numbers_as_of: 2026-11-10
+idea_id: 27
+kind: tool
+readers: [first-year, sophomore, off-campus, grad-student, car-on-campus, upper-year-no-car, parent]
+brief: intel/getting-around/brief.md
+sources:
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students", title: "Cornell Transportation and Delivery Services: Parking for students", accessed: "2026-11-10"}
+  - {url: "https://fcs.cornell.edu/node/17809", title: "Cornell Transportation and Delivery Services: 2026-27 permit sales (search summary; page returned 403)", accessed: "2026-11-10"}
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", title: "Cornell Transportation and Delivery Services: Bus services, privileges and passes", accessed: "2026-11-10"}
+  - {url: "https://www.ithacacarshare.org/students-commuters", title: "Ithaca Carshare: Students and commuters", accessed: "2026-11-10"}
+  - {url: "https://www.ithacacarshare.org/rates", title: "Ithaca Carshare: Rates", accessed: "2026-11-10"}
+  - {url: "https://www.ithacacarshare.org/eligibility", title: "Ithaca Carshare: Eligibility", accessed: "2026-11-10"}
+  - {url: "https://www.cityofithacany.gov/731/Permit-Issuance", title: "City of Ithaca: Residential parking permit issuance", accessed: "2026-11-10"}
+  - {url: "https://www.cityofithacany.gov/718/Dryden-Road-Garage", title: "City of Ithaca: Dryden Road Garage", accessed: "2026-11-10"}
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates", title: "Cornell Transportation and Delivery Services: Campus-to-Campus rates", accessed: "2026-11-10"}
+  - {url: "https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation", title: "Cornell Family Resource Hub: Parking and transportation", accessed: "2026-11-10"}
+  - {url: "https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1", title: "Cornell Transportation and Delivery Services: Citation fines increasing September 1 (2023)", accessed: "2026-11-10"}
+---
+
+This calculator sets a year at Cornell with a car against a year without one, for 2026-27. With a car, it adds the campus permit for where you live, any overnight parking off campus, and your own quotes for gas, insurance, maintenance and other costs. Without a car, it adds TCAT, the cheaper Ithaca Carshare plan for the hours you'd need a car, and bus fares home. The smaller total wins.
+
+It extends the [Do I need a car at Cornell? quiz](/tools/do-i-need-a-car-at-cornell-quiz/), which prices the permit but leaves out gas, insurance and upkeep. Here you type those in.
+
+```tool should-i-bring-a-car-cornell-ithaca-cost```
+
+## Who it is for
+
+- **First-years** weighing a car against free TCAT.
+- **Sophomores and later** who lost free daytime buses and wonder if a car now pays.
+- **Off-campus renters** pricing the commuter (B) permit plus a place to park at home.
+- **Grad students**, where a full assistantship can mean a free permit and a free bus pass.
+- **Parents** paying the insurance bill, who want the whole number.
+
+## The inputs
+
+- **Status.** Sets TCAT. Fall first-years ride free at all hours to Aug 31, 2027. PhD students and graduate assistants get a free OmniRide pass. Everyone else rides free after 6 p.m. on weekdays and all weekend, and pays $1.50 a daytime ride or $200 a year for OmniRide.
+- **Where you live.** Sets the permit. Cornell housing means a resident permit, $752.98. Off campus, the commuter (B) permit is $359.77. A full assistantship on the Ithaca campus can earn a free Outer Tier A or E permit.
+- **Where the car sleeps off campus.** A spot in your lease ($0), a City of Ithaca residential street permit ($45 a year) or the Dryden Road Garage ($232 a month, times your months in Ithaca).
+- **Months in Ithaca.** The 9-month default is our assumption for an academic year.
+- **Gas, insurance, maintenance, other.** Your quotes, for the year. None of the sources behind this tool publish them, so they start at $0.
+- **Paid TCAT rides a week.** Daytime weekday boardings only, for sophomores and later.
+- **Hours and miles a month you'd need a car.** Priced on Ithaca Carshare.
+- **Carshare eligibility.** Members need a full license held at least two years. Drivers 18 to 20 need their own policy with $300,000 liability.
+- **Trips home and the fare.** The default fare is Cornell's C2C round trip to New York City, $187. Type your own fare for any other bus.
+
+## The numbers and the math
+
+**With a car** = permit + overnight parking + gas + insurance + maintenance + other.
+
+**Without a car** = TCAT + Carshare + trips home x fare.
+
+- TCAT for sophomores and later = the smaller of rides a week x (months x 4.33 weeks) x $1.50, and $200. The 4.33 is 52 weeks / 12 months.
+- Carshare hours a year = hours a month x months. Miles a year = miles a month x months.
+- Just In Case = $30 + $20 sign-up + (hours x $9 + miles x $0.42) x 1.20.
+- It's My Car = $310 + $20 sign-up + (hours x $6 + miles x $0.42) x 1.20.
+- The 1.20 is Ithaca Carshare's 8% sales tax plus 12% rental tax, which its rates page applies to hourly and mileage charges.
+- Before tax and mileage, Just In Case is cheaper below (310 - 30) / (9 - 6) = 93.3 hours a year.
+
+Worked example: a first-year in Cornell housing who needs a car 3 hours and 10 miles a month for 9 months drives 27 hours and 90 miles a year. Just In Case is $30 + $20 + (27 x $9 + 90 x $0.42) x 1.20 = $50 + ($243 + $37.80) x 1.20 = $386.96. The resident permit alone is $752.98, before a gallon of gas.
+
+| Number | Value | Applies to | Source |
+|---|---|---|---|
+| Resident permit (FH, ND, SW, WD) | $752.98 a year | 2026-27; rates set as of July 1; prorates daily from Sept 1 | [Cornell student parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
+| Student commuter (B) permit | $359.77 a year | 2026-27; prorates daily from Aug 16 | [Cornell student parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
+| Permit year | Aug 16, 2026, to Aug 15, 2027 | 2026-27 | [Cornell permit sales](https://fcs.cornell.edu/node/17809) (search summary; page returned 403) |
+| Outer Tier A or E permit | $0 | Full assistantship, Ithaca campus, not living in Cornell housing | [Cornell student parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
+| OmniRide | $200 a year, prorated monthly | Students past first year | [Cornell bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) |
+| TCAT cash fare | $1.50 | Daytime weekday rides | [Cornell bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) |
+| Carshare Just In Case (student) | $30 a year + $9 an hour | Undated page | [Ithaca Carshare students](https://www.ithacacarshare.org/students-commuters) |
+| Carshare It's My Car (student) | $310 a year + $6 an hour | Undated page | [Ithaca Carshare students](https://www.ithacacarshare.org/students-commuters) |
+| Carshare sign-up | $20 per driver, one time | Undated page | [Ithaca Carshare rates](https://www.ithacacarshare.org/rates) |
+| Carshare mileage | 42 cents a mile (car) | Undated page | [Ithaca Carshare rates](https://www.ithacacarshare.org/rates) |
+| Carshare taxes | 8% + 12% on hourly and mileage | Undated page | [Ithaca Carshare rates](https://www.ithacacarshare.org/rates) |
+| City residential permit | $45 a year, to July 31 | City residents of permit blocks | [City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance) |
+| Dryden Road Garage monthly | $232 a month, 24/7 | 118 Dryden Road | [City of Ithaca](https://www.cityofithacany.gov/718/Dryden-Road-Garage) |
+| C2C NetID round trip | $187 | Includes a temporary $6 surcharge each way | [Cornell C2C rates](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates) |
+| Resident permit per day | $2.06 | 752.98 / 365 | Our calc from the permit price |
+
+## Assumptions and what the tool does not cover
+
+- Gas, insurance, maintenance, registration and loan costs are yours to enter. No source behind this tool prices them for Ithaca.
+- The 9-month year and 4.33 weeks a month are our assumptions.
+- Ithaca Carshare's student page lists gas, maintenance and insurance as included on It's My Car. It does not say the same for Just In Case, so ask the office at (607) 277-3210 before you count on it.
+- The 10-hour daily cap on Carshare hourly charges is not modeled, so a long day trip comes out high.
+- Commercial bus fares to New York change daily, so the tool takes the fare you'd book.
+- Parking tickets are not added. A ticket for no permit or payment is [$50](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1), plus $10 if unpaid after 10 days.
+- Cornell's [families page](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation) discourages first-years from bringing a car, though limited permits exist.
+
+## How to read the result
+
+The bold line is the answer: leave the car home, or the car costs less, with the dollar gap for the year. If you leave every car cost at $0, the line compares parking alone, as a reminder that the permit is only part of the bill. The lines under it show each side's arithmetic. If the two totals sit within $100 of each other, the permit supply decides it: resident permits are limited and sold first come, first served.
+
+## Related guides
+
+- [Cornell student parking permits: cost, rules, who qualifies](/cornell/getting-around/cornell-student-parking-permit-cost-rules/)
+- [Ithaca Carshare for Cornell students: plans, cost, rules](/cornell/getting-around/ithaca-carshare-cornell-students-cost/)
+- [Is TCAT free for Cornell students? Hours, routes, passes](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/)

@@ -1,52 +1,67 @@
 ---
-title: 'Cornell off campus: meal plan or cook yourself?'
-meta: Cooking runs about $2,960 a year in groceries by USDA figures; Just Bucks is $1,000 and Off-Campus Value $1,824.60. Full math for 2026-27.
-primary_query: cornell off campus meal plan or cook yourself cost
+title: 'Cornell off campus meal plan: plans, prices and cooking cost'
+mode: answer
+dek: Off-campus Cornell students can skip a meal plan, and this guide prices every plan open to them against the cost of cooking, for 2026-27.
+meta: 'Cornell off campus meal plan options for 2026-27: Bear Choice, Basic, Off-Campus Value, Flex and Just Bucks priced per swipe against cooking at home.'
+primary_query: cornell off campus meal plan
 topic: money
 school: cornell-university
 type: decision
-updated: 2026-11-07
+updated: '2026-11-10'
+idea_id: 232
 queue_id: q-money-0009
+rewrites: content/articles/money/cornell-off-campus-meal-plan-or-cook-yourself-cost.md
+readers:
+- off-campus
+- sophomore
+- grad-student
+- low-budget
+- parent
+subject: Collegetown, Ithaca, New York
+tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
-  title: Undergraduate Meal Plans, Cornell Student & Campus Life
-  accessed: '2026-11-07'
-- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027
-  title: Cornell Dining Terms and Conditions 2026-2027
-  accessed: '2026-11-06'
+  title: 'Cornell Dining: Undergraduate meal plans, 2026-2027'
+  accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms
-  title: Deadlines & Terms, Cornell Student & Campus Life
-  accessed: '2026-11-07'
+  title: 'Cornell Dining: Deadlines and terms'
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027
+  title: 'Cornell Dining: Terms and conditions, 2026-2027'
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs
+  title: 'Cornell Dining: Meal plan FAQs'
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental
+  title: 'Cornell Dining: Bear Supplemental'
+  accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks
-  title: City Bucks, Cornell Student & Campus Life
-  accessed: '2026-11-07'
+  title: 'Cornell Dining: City Bucks'
+  accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks/city-bucks-faqs
-  title: City Bucks FAQs, Cornell Student & Campus Life
-  accessed: '2026-11-07'
-- url: https://finaid.cornell.edu/cost-attend
-  title: Costs & Affordability, Cornell Financial Aid
-  accessed: '2026-11-07'
+  title: 'Cornell Dining: City Bucks FAQs'
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/dining/about-dining/food-security
+  title: 'Cornell Dining: Food security'
+  accessed: '2026-11-10'
 - url: https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf
-  title: 'USDA Food Plans: Cost of Food at Home at Three Levels, September 2026'
-  accessed: '2026-11-07'
+  title: 'USDA: Cost of Food at Home at Three Levels, September 2026'
+  accessed: '2026-11-10'
 - url: https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026Thrifty.pdf
-  title: 'USDA Thrifty Food Plan: U.S. Average, September 2026'
-  accessed: '2026-11-07'
-- url: https://cornellsun.com/2017/05/09/collegetown-meal-plan-to-launch-in-fall
-  title: Collegetown Meal Plan to Launch in Fall, The Cornell Daily Sun, May 9, 2017
-  accessed: '2026-11-07'
-- url: https://cornellsun.com/2020/10/26/a-skidmore-medal-topped-with-runny-pasta-freshman-year-with-zero-meal-plan
-  title: Freshman Year With Zero Meal Plan, The Cornell Daily Sun, October 26, 2020
-  accessed: '2026-11-07'
+  title: 'USDA: Thrifty Food Plan, U.S. Average, September 2026'
+  accessed: '2026-11-10'
+- url: https://www.wegmans.com/stores/ithaca-ny
+  title: 'Wegmans: Ithaca store'
+  accessed: '2026-11-10'
 - url: https://cornellsun.com/2022/11/30/lack-of-nearby-grocery-stores-leave-students-with-limited-options/
-  title: Lack of Nearby Grocery Stores Leave Students With Limited Options, The Cornell Daily Sun, November 30, 2022
-  accessed: '2026-11-07'
+  title: 'The Cornell Daily Sun: Lack of nearby grocery stores leave students with limited options, Nov. 30, 2022'
+  accessed: '2026-11-10'
 - url: https://cornellsun.com/2023/05/03/culinary-autonomy-cooking-for-yourself
-  title: 'Culinary Autonomy: Cooking for Yourself, The Cornell Daily Sun, May 3, 2023'
-  accessed: '2026-11-07'
+  title: 'The Cornell Daily Sun: Culinary autonomy, May 3, 2023'
+  accessed: '2026-11-10'
 - url: https://cornellsun.com/2023/09/27/obaseki-a-brokies-guide-to-having-no-meal-plan/
-  title: A Broke Student's Guide to Having No Meal Plan, The Cornell Daily Sun, September 27, 2023
-  accessed: '2026-11-07'
+  title: 'The Cornell Daily Sun: A broke student''s guide to having no meal plan, Sept. 27, 2023'
+  accessed: '2026-11-10'
 images:
 - file: 1.webp
   alt: Collegetown Wine & Spririts, Ithaca New York
@@ -57,95 +72,112 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
-Cooking every meal yourself costs about $2,960 a year in groceries by our estimate, built on [USDA's September 2026 food plan costs](https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf) and 36 weeks of the school year. The cheapest debit plans are [Just Bucks at $1,000 a year and Off-Campus Value at $1,824.60 a year for 2026-27](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans). Those two do not feed you for the year on their own, so most off-campus students who cook still pair groceries with a small plan or none. Cooking works out to about $3.90 a meal; a dining room swipe on the bigger plans works out to $12 to $17. Cook most meals, and add a plan only for the days you will really eat on campus.
 
-## What cooking costs: our estimate from USDA figures
+```glance
+- Off-campus students need no meal plan; the requirement covers on-campus housing.
+- Cooking costs $3.92 a meal by USDA figures; a swipe costs $12.51 to $19.90 at full use.
+- Open to every off-campus student: Bear Choice, Bear Basic, Off-Campus Value, Flex 10/500 and Just Bucks.
+- City Bucks works only off campus and carries sales tax.
+```
 
-USDA publishes monthly costs for eating at home. For September 2026 it lists a [Low-Cost Plan](https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf) at $63.80 a week for a woman aged 19 to 50 and $73.30 a week for a man in the same age group. USDA says those figures are for people in four-person households and to [add 20 percent for a one-person household](https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026Thrifty.pdf). That gives $76.56 and $87.96 a week. We split the difference at about $82.26 a week, or roughly $3.92 for each of 21 meals a week. The report was issued October 2026.
+Most off-campus Cornell students pay less by cooking and adding a small plan only for days on campus. Cooking costs under $4 a meal by [USDA's September 2026 food plan figures](https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf). A dining-room swipe costs $12.51 to $19.90 at full use. The plan that fits is the one you will actually use.
 
-Our assumptions: you shop for yourself, you cook 21 meals a week during 36 weeks of the school year, and USDA's plan prices (national averages, not Ithaca prices) hold. Both USDA plans assume every meal and snack is made at home, so restaurant meals, coffee and takeout come on top. The [Thrifty Food Plan](https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026Thrifty.pdf) is cheaper: $58.60 a week for a woman and $73.60 for a man, or $70.32 and $88.32 after the one-person adjustment. Over 36 weeks that is about $2,530 to $3,180, so $2,960 is a middle figure, not a floor.
+## Do I need a meal plan if I live off campus?
 
-## What the plans cost for 2026-27
+No. The requirement applies to undergraduates in on-campus housing: the North and South Campus residence halls, the West Campus houses, program houses, McGraw Place Residences and the Townhouse Apartments ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)). If you rent in Collegetown or downtown, you choose. Students who move into a co-op cannot cancel a plan but can switch to a similar or smaller one ([Cornell Dining terms](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027)).
 
-Prices below are per year. Plans cover the full academic year, and each carries a [non-refundable $50 administrative fee once per academic year](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027). Cornell can adjust rates from one year to the next.
+## Which meal plans can an off-campus student buy?
 
-The [plans page](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans) states off-campus eligibility only for Bear Choice and Bear Basic ("available to all students living off campus") and for the debit plans. It does not say whether Bear Traditional and Unlimited are open to off-campus students, although it calls Unlimited a good value for upper-level students living off campus. Confirm with Cornell Dining before counting on either.
+Five plans are open to you, and two more fit special cases. All prices are for 2026-27, and each plan adds a non-refundable $50 fee once per academic year ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 ```figure
 kind: cost_table
-title: Meal plans, 2026-27, per year
+title: "Plans open to off-campus undergraduates, 2026-27, per year"
 rows:
-  - {label: "Unlimited (400 BRB per semester)", value: "$7,604"}
-  - {label: "Bear Traditional, 14 a week (400 BRB)", value: "$7,056"}
-  - {label: "Bear Choice, 10 a week (500 BRB)", value: "$6,150"}
-  - {label: "Bear Basic, 7 a week (500 BRB)", value: "$4,978"}
-  - {label: "Off-Campus Value, 45 a semester (150 BRB)", value: "$1,824.60"}
-  - {label: "Flex 10/500, 10 meals a semester (500 BRB)", value: "$1,348"}
-  - {label: "Just Bucks, 500 BRB a semester", value: "$1,000"}
+  - {label: "Bear Choice, up to 10 a week, $500 BRBs a semester", value: "$6,150"}
+  - {label: "Bear Basic, up to 7 a week, $500 BRBs a semester", value: "$4,978"}
+  - {label: "Off-Campus Value, 45 meals a semester, $150 BRBs", value: "$1,824.60"}
+  - {label: "Flex 10/500, 10 meals a semester, $500 BRBs", value: "$1,348"}
+  - {label: "Just Bucks, $500 of BRBs a semester, no meals", value: "$1,000"}
 ```
 
-Per semester, that is Unlimited at $3,802, Bear Traditional $3,528, Bear Choice $3,075, Bear Basic $2,489, Off-Campus Value $912.30, Flex 10/500 $674 and Just Bucks $500. The last three are debit plans, open to students [who do not live in Campus Life housing and are not on another plan](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans). The aid office's [cost-of-attendance table](https://finaid.cornell.edu/cost-attend) lists a $7,604 food budget for 2025-26. We did not see a 2026-27 table, so do not read that figure as this year's budget. It is a budget line, not what a cook actually spends.
+Big Red Bucks (BRBs) are dollars on your Cornell ID for Cornell Dining locations, worth $1 each. Per semester the prices are $3,075, $2,489, $912.30, $674 and $500. Bear Choice and Bear Basic are open to all off-campus students. The last three are debit plans, for students not in on-campus housing and not on another plan.
 
-Two plans you may see listed are not for most renters. The Collegetown plan ($3,528 per semester, $7,056 a year, with $436 in City Bucks each semester) is [limited to residents of specific buildings](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans) such as Cascadilla Hall, Schuyler House and Sheldon Court. The SFL Supplemental plan is for off-campus members of recognized fraternities and sororities.
+Bear Traditional is listed for upper-level and transfer students, and the page does not say whether off-campus students count. Ask Cornell Dining at dining@cornell.edu before you count on it. For the head-to-head of the three capped plans, read [Bear Traditional vs Bear Choice vs Bear Basic](/cornell/dining/bear-traditional-vs-bear-choice-vs-bear-basic-cornell/).
 
-## Three eating styles, total per year
+Two plans fit narrow groups. The Collegetown Meal Plan, $3,528 per semester with $436 in City Bucks, is for residents of 112 Edgemoor, Cascadilla Hall, Schuyler House, Sheldon Court, 301 College Ave and 104 Mary Ann Wood Drive. The SFL Supplemental plan is for members of recognized fraternities and sororities. The plans page lists it at $2,167.51 per semester for 127 meals, while the separate [Bear Supplemental page](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental) shows a different price, so confirm the rate with Cornell Dining.
 
-This table is ours. Groceries use the $3.92 per meal estimate above, 36 weeks and 21 meals a week. Each plan total is the 2026-27 plan price plus the $50 fee. We count only groceries and the plan, not restaurants, and we do not subtract the value of Big Red Bucks you spend on food you would otherwise buy.
+## How much does cooking cost?
+
+USDA's Low-Cost food plan for September 2026 is $63.80 a week for a woman aged 19 to 50 and $73.30 for a man. Those figures assume a four-person household, and USDA says to add 20% for one person ([USDA](https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026Thrifty.pdf)). That gives $76.56 and $87.96 a week. The midpoint is $82.26 a week, or $3.92 for each of 21 meals.
+
+Over a 36-week school year, that is $2,961 ($82.26 x 36) ([USDA](https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf)). The cheaper Thrifty Food Plan comes to $70.32 and $88.32 a week for one person, or $2,531 to $3,180 over 36 weeks, so $2,961 sits in the middle. USDA's numbers are national averages, not Ithaca prices, and assume every meal and snack is cooked at home. Restaurants, coffee and takeout come on top.
+
+## How do plans compare with cooking?
+
+At full use, with BRBs counted as food you would have bought anyway and half the annual fee added per semester, a swipe costs this much (18 weeks a semester) ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)):
+
+| Plan | Cost per swipe |
+|---|---|
+| Bear Choice | $14.44 |
+| Bear Basic | $15.98 |
+| Off-Campus Value | $17.50 |
+| Flex 10/500 | $19.90 |
+| Cooking at home | $3.92 |
+
+Source: Cornell Dining 2026-27 plan prices; USDA September 2026 food plans. Skipped swipes raise the price, because weekly balances reset on Thursdays and unused swipes do not carry over ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)).
+
+Three eating styles show the gap over a school year. Groceries use the per-meal cost above across 36 weeks, and each plan total adds the yearly fee ([USDA](https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf)). BRB value is not subtracted.
 
 | Eating style | Plan | Meals cooked a week | Groceries | Plan plus fee | Total |
 |---|---|---|---|---|---|
-| Cook nearly all | None | 21 | about $2,961 | $0 | about $2,961 |
-| Cook dinners, eat some lunches on campus | Off-Campus Value | 18 | about $2,538 | $1,874.60 | about $4,413 |
-| Eat on campus most days | Bear Choice | 11 | about $1,551 | $6,200 | about $7,751 |
+| Cook nearly all | None | 21 | $2,961 | $0 | $2,961 |
+| Cook dinners, eat some lunches on campus | Off-Campus Value | 18 | $2,538 | $1,874.60 | $4,413 |
+| Eat on campus most days | Bear Choice | 11 | $1,551 | $6,200 | $7,751 |
 
-The middle row assumes the plan covers about three meals a week: 45 swipes a semester is about 2.5 a week, plus $150 in Big Red Bucks a semester. The last row assumes 10 swipes a week, used in full. If you skip swipes, the plan costs more per meal, because [weekly meal balances reset on Thursdays and unused swipes do not carry over](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027). If you want the bigger plan for convenience, Bear Choice and Bear Basic are the ones the plans page confirms for off-campus students. Bear Basic ($4,978, 7 a week) fits one dining room meal a day.
+Source: USDA September 2026 food plans; Cornell Dining 2026-27 plan prices.
 
-## What a dining hall meal costs on each plan
+The middle row assumes the plan covers 3 meals a week: 45 meals a semester is 2.5 a week, plus the BRBs. The last row assumes 10 swipes a week, used in full ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
-This is our arithmetic, assuming you use every swipe, count Big Red Bucks at face value and ignore the $50 fee. Meal service runs [from August 17, 2026 to December 20, 2026 and from January 19, 2027 to May 28, 2027](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027), which we round to 36 weeks.
+## What do students say about cooking?
 
-| Plan | Swipes used | Cost per swipe, BRB removed |
-|---|---|---|
-| Bear Traditional (14 a week) | 504 | about $12.40 |
-| Unlimited, if you eat 14 a week | 504 | about $13.50 |
-| Bear Choice (10 a week) | 360 | about $14.30 |
-| Bear Basic (7 a week) | 252 | about $15.80 |
-| Off-Campus Value (45 a semester) | 90 | about $16.90 |
+The hard part is shopping, not the stove. The Sun reported in 2022 that GreenStar in Collegetown was the only store within walking distance, that Tops was the nearest store by bus on TCAT Route 30, and that Wegmans and Trader Joe's needed Route 15, which ran hourly on weekdays then ([The Sun](https://cornellsun.com/2022/11/30/lack-of-nearby-grocery-stores-leave-students-with-limited-options/)). Bus service changes, so check TCAT's current schedule. Wegmans on South Meadow Street is open 6 a.m. to midnight every day ([Wegmans](https://www.wegmans.com/stores/ithaca-ny)).
 
-Unlimited only wins if you eat in a dining room more than 14 times a week, which few people do.
+A 2023 Sun piece points cooks to Anabel's Grocery, GreenStar and the Cornell Food Pantry nearby, and to Walmart, Wegmans and Target by bus ([The Sun](https://cornellsun.com/2023/05/03/culinary-autonomy-cooking-for-yourself)). The Cornell Food Pantry at 109 McGraw Place gives free, confidential food to students ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/about-dining/food-security)). A 2023 column on living with no plan recommends cooking in bulk and buying cheap chicken at Wegmans, and names time as the main cost ([The Sun](https://cornellsun.com/2023/09/27/obaseki-a-brokies-guide-to-having-no-meal-plan/)). For prices, read [cheap groceries in Ithaca](/cornell/money/cheap-groceries-ithaca-ny-students/) and [Wegmans vs Aldi vs Price Chopper](/cornell/money/wegmans-vs-aldi-vs-price-chopper-ithaca-cheapest-grocery/).
 
-## The cooking side: what students report
+```reader
+If you cook nearly every meal
+Skip the plan, or take Just Bucks at $1,000 a year so campus coffee and the odd dining-hall lunch are covered. Put the savings against rent with [what a month off campus costs](/cornell/housing/what-a-month-off-campus-costs-cornell/).
+```
 
-A 2020 Daily Sun opinion piece by a first-year with no plan said [her 14-swipe plan worked out to about $14 a meal](https://cornellsun.com/2020/10/26/a-skidmore-medal-topped-with-runny-pasta-freshman-year-with-zero-meal-plan). She wrote that her one big shop cost $147 and that she estimated about $1,700 on groceries and dining out, without saying over what period. That is one student, in 2020; prices have moved since. Use it as a sanity check, not a budget.
+```reader
+If you eat lunch on campus and cook dinner
+Off-Campus Value gives you 90 dining-room meals a year and $300 in BRBs for $1,824.60. Flex 10/500 is the lighter version. BRBs work at any Cornell Dining location for your own meals, not at non-Dining eateries ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)).
+```
 
-Test our number against your own receipts: add up one real week of groceries from Wegmans, Tops or Aldi, multiply by about 36, and compare it with the table above. Then match your habits:
+```reader
+If you want a dining room every day
+Bear Choice or Bear Basic cost less per swipe than a half-used Unlimited, and Bear Choice wins if you eat 9 or 10 meals a week. Compare rent too in [is off campus cheaper than a Cornell dorm](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/).
+```
 
-- **Cook nearly everything.** Skip a plan, or take Just Bucks ($1,000 a year) so campus coffee and the occasional dining hall lunch are covered.
-- **Cook dinners, eat on campus at lunch.** Off-Campus Value gives you 90 dining room meals and $300 in BRBs for $1,824.60, about $17 a swipe by the math above. Flex 10/500 is the lighter version.
-- **Eat on campus most days.** Bear Choice or Bear Basic, the plans confirmed for off-campus students, cost less per swipe than a half-used Unlimited.
+## Where does City Bucks fit?
 
-Students are consistent about what makes cooking hard: the shopping, not the stove. The Sun reported in 2022 that [no grocery store is within reasonable walking distance except the small, pricier GreenStar in Collegetown](https://cornellsun.com/2022/11/30/lack-of-nearby-grocery-stores-leave-students-with-limited-options/), that Tops is the nearest store by bus on TCAT Route 30, and that Wegmans and Trader Joe's need Route 15, which ran about once an hour on weekdays. The same piece quotes one student who went three weeks without shopping because she had no car. A 2023 piece from the Sun's dining department points cooks to [Anabel's Grocery, GreenStar and the Cornell Food Pantry nearby, and Walmart, Wegmans and Target by bus](https://cornellsun.com/2023/05/03/culinary-autonomy-cooking-for-yourself). A 2023 Sun column on living with no plan suggests [cooking in bulk and using Wegmans for cheap chicken](https://cornellsun.com/2023/09/27/obaseki-a-brokies-guide-to-having-no-meal-plan/), and names time as the main cost. Bus service changes, so check current TCAT schedules.
+[City Bucks](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks) is a declining balance on your Cornell ID for food businesses off campus. Every registered student has an account, and you add money at get.cbord.com/cornell. It carries New York sales tax, and your balance rolls from semester to semester while you are registered ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks/city-bucks-faqs)).
 
-## Where City Bucks fits
+Cornell's list names 12 businesses, among them 7-Eleven, D.P. Dough, Five Guys, Papa John's, Tops and P&C Fresh. Wegmans and Trader Joe's are not on it ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks)). Cornell's City Bucks pages list no bonus or discount for deposits, so City Bucks is a convenience and a way for a parent to pay for food, not a way to save.
 
-[City Bucks](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks) is a declining balance on your Cornell ID. Every registered student gets an account automatically, and you add money at get.cbord.com/cornell. The page lists no markup, no bonus and no minimum. The [FAQ](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks/city-bucks-faqs) adds that parents can add funds, that purchases carry New York sales tax, that it does not work on campus, and that the balance rolls over from semester to semester while you are registered. Graduating seniors with a balance of $35 or more are refunded if they ask before the last day of spring classes.
+## What rules cost students money?
 
-The participating list has 12 businesses, including 7-Eleven, D.P. Dough, GreenStar, Five Guys, Papa John's, Tops and P&C Fresh. Collegetown Bagels is not on the list as of our check, so read the list before depositing. Since City Bucks carries no discount, it is a convenience and a way for a parent to pay for food. It does not make food cheaper. A Collegetown meal plan launched in 2017 by the outside company Elevate was [$779 for 75 meals, about $10.30 each](https://cornellsun.com/2017/05/09/collegetown-meal-plan-to-launch-in-fall); it was not City Bucks and we found no current version.
+You can sign up for a plan or upgrade at any time ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)). Reductions close on set dates, and the last day to reduce for spring is Feb. 3, 2027 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms)). First-year, sophomore and transfer students cannot cancel.
 
-## Rules that can cost you money
-
-1. **Sign-up and reducing.** [Students can sign up for a meal plan at any time](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms). The last day to reduce your spring plan, if eligible, is [February 3, 2027](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms).
-2. **Some students cannot cancel.** First-year, sophomore and transfer students [may not cancel meal plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027), and students who move into a co-op can only switch to a similar or smaller plan.
-3. **Debit plan order matters.** [You must enroll in a meal plan before you can add funds to your Big Red Bucks balance](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans).
-4. **Swipes expire; some money does not.** [Debit balances carry from fall to spring](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027) and unused swipes never carry. The [undergraduate plans page says BRBs must be used by May 27, 2027](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans), while the [deadlines page says May 31, 2027](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms), so plan for the earlier date.
-5. **Leaving in spring.** If you will not attend or will be away, tell the Dining Contracts Office by [January 6, 2027](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027) to avoid spring charges.
+BRBs expire. The undergraduate plans page says May 27, 2027, and the deadlines page says May 31, 2027, so spend them by the earlier date ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). If you will not attend in spring, tell the Dining Contracts Office by Jan. 6, 2027, to avoid spring charges.
 
 ## FAQ
 
-**Is a meal plan required if I live off campus?** Not for most students. The requirement applies to [undergraduates in on-campus housing](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027), so if you rent in Collegetown or downtown you choose. See [our housing guides](/housing/) for where renters live.
+**Can I use Off-Campus Value swipes at retail eateries?** No. Its 45 meals are for the ten residential dining rooms, and the $150 in BRBs works at Cornell Dining locations.
 
-**Can I use Off-Campus Value swipes at retail eateries?** The page ties the 45 meals to the ten residential dining rooms. The $150 in BRBs can be used at any Cornell Dining location for your own meals.
+**Where do transfer students fit?** On-campus housing carries a required plan, and the off-campus choices above apply once you rent.
 
-**Can I mix a plan with cooking?** Yes, and it is the common middle path: a debit plan for lunches, groceries for everything else.
+## What to do next
 
-**Where do transfers fit?** See our [transfer housing guide](/housing/cornell-transfer-housing/), since on-campus housing carries a required plan, and the [money index](/money/) for other cost guides.
+Add up one real week of groceries from Wegmans, Tops or Aldi and multiply by 36. If that is under $2,961, cooking wins. Then compare against [is the Cornell meal plan worth it](/cornell/money/cornell-meal-plan-worth-it/) before you buy anything.

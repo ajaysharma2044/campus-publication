@@ -1,49 +1,43 @@
-<div class="tool" id="tool-ithaca-rent-commute-calculator" data-tool="ithaca-rent-commute-calculator" data-as-of="2026-11-08">
+<div class="tool" id="tool-ithaca-rent-commute-calculator" data-tool="ithaca-rent-commute-calculator" data-as-of="2026-11-10">
   <style>
     #tool-ithaca-rent-commute-calculator .rcc-field { margin: 0 0 0.9rem; }
     #tool-ithaca-rent-commute-calculator .rcc-field label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
     #tool-ithaca-rent-commute-calculator .rcc-field select,
-    #tool-ithaca-rent-commute-calculator .rcc-field input[type="number"] { width: 100%; max-width: 24rem; padding: 0.4rem; font: inherit; box-sizing: border-box; }
+    #tool-ithaca-rent-commute-calculator .rcc-field input[type="number"] { width: 100%; max-width: 26rem; padding: 0.4rem; font: inherit; box-sizing: border-box; }
     #tool-ithaca-rent-commute-calculator .rcc-check label { display: inline; font-weight: 600; }
     #tool-ithaca-rent-commute-calculator .rcc-hint { display: block; font-size: 0.875em; opacity: 0.8; margin-top: 0.2rem; }
     #tool-ithaca-rent-commute-calculator .rcc-result { border-top: 1px solid currentColor; padding-top: 0.9rem; margin-top: 1rem; }
     #tool-ithaca-rent-commute-calculator .rcc-result ul { padding-left: 1.2rem; margin: 0.5rem 0; }
     #tool-ithaca-rent-commute-calculator .rcc-small { font-size: 0.875em; opacity: 0.85; }
+    #tool-ithaca-rent-commute-calculator table { border-collapse: collapse; margin: 0.5rem 0; font-size: 0.95em; }
+    #tool-ithaca-rent-commute-calculator th, #tool-ithaca-rent-commute-calculator td { border-bottom: 1px solid rgba(127,127,127,0.4); padding: 0.25rem 0.6rem 0.25rem 0; text-align: left; }
+    #tool-ithaca-rent-commute-calculator details { margin-top: 1rem; }
   </style>
 
-  <h3>Your place</h3>
-  <p class="rcc-small">Prices as of <span data-as-of="2026-11-08">Nov 8, 2026</span>: asking rents from listings, not what tenants paid. Collegetown and downtown are one landlord's per-bed prices; Fall Creek and Lansing are a few whole-unit listings.</p>
+  <h3>Your building</h3>
+  <p class="rcc-small">Asking rents as of <span data-as-of="2026-11-10">Nov. 10, 2026</span>, not what tenants paid. Ithaca Renting prices are per bed, read from its Collegetown and downtown pages. Other buildings use the price on their own listing.</p>
 
   <div class="rcc-field">
-    <label for="ithaca-rent-commute-calculator-nb">Neighborhood</label>
-    <select id="ithaca-rent-commute-calculator-nb">
-      <option value="ct" selected>Collegetown</option>
-      <option value="dt">Downtown (the Commons and around)</option>
-      <option value="fc">Fall Creek</option>
-      <option value="la">Lansing (outside the City of Ithaca)</option>
-    </select>
+    <label for="ithaca-rent-commute-calculator-bldg">Building</label>
+    <select id="ithaca-rent-commute-calculator-bldg"></select>
+    <span class="rcc-hint">Not listed? Pick the typical Collegetown or downtown bed, then enter the price you were quoted below.</span>
   </div>
 
   <div class="rcc-field">
-    <label for="ithaca-rent-commute-calculator-size">Unit size</label>
-    <select id="ithaca-rent-commute-calculator-size">
-      <option value="studio">Studio</option>
-      <option value="1br">1 bedroom</option>
-      <option value="2br">2 bedrooms</option>
-      <option value="3br">3 bedrooms</option>
-      <option value="4br" selected>4 bedrooms</option>
-      <option value="5br">5 bedrooms</option>
-      <option value="6br">6 bedrooms</option>
-      <option value="10br">10 bedrooms</option>
-      <option value="room">Room in a shared suite</option>
-    </select>
-    <span class="rcc-hint">Not every size is listed in every neighborhood. If yours is missing, enter the price you were quoted.</span>
+    <label for="ithaca-rent-commute-calculator-layout">Unit layout</label>
+    <select id="ithaca-rent-commute-calculator-layout"></select>
+  </div>
+
+  <div class="rcc-field">
+    <label for="ithaca-rent-commute-calculator-people">People sharing the unit, you included</label>
+    <input id="ithaca-rent-commute-calculator-people" type="number" min="1" max="14" step="1" value="4" inputmode="numeric">
+    <span class="rcc-hint">Resets to the bedroom count when you change the layout. Two people sharing a 1BR? Enter 2. Ask the landlord before adding a person.</span>
   </div>
 
   <div class="rcc-field">
     <label for="ithaca-rent-commute-calculator-src">Rent to use</label>
     <select id="ithaca-rent-commute-calculator-src">
-      <option value="data" selected>The listed prices for this size and neighborhood</option>
+      <option value="data" selected>The listed price for this layout</option>
       <option value="bed">A per-bed price I was quoted</option>
       <option value="unit">A whole-unit price I was quoted</option>
     </select>
@@ -52,27 +46,22 @@
   <div class="rcc-field">
     <label for="ithaca-rent-commute-calculator-price">Your quoted rent, dollars a month</label>
     <input id="ithaca-rent-commute-calculator-price" type="number" min="0" max="20000" step="5" value="" inputmode="decimal">
-    <span class="rcc-hint">Used only if you picked a quoted price above. Per bed means per person; whole unit gets split by the people below.</span>
+    <span class="rcc-hint">Used only with a quoted price. A per-bed price is what one person pays; a whole-unit price is split among the people above.</span>
   </div>
 
   <div class="rcc-field">
-    <label for="ithaca-rent-commute-calculator-people">People splitting rent and bills</label>
-    <input id="ithaca-rent-commute-calculator-people" type="number" min="1" max="12" step="1" value="4" inputmode="numeric">
-    <span class="rcc-hint">Set to the bedroom count when you change the size. Two people in a 1BR? Enter 2.</span>
-  </div>
-
-  <div class="rcc-field">
-    <label for="ithaca-rent-commute-calculator-lease">Lease length</label>
+    <label for="ithaca-rent-commute-calculator-lease">Months of rent you pay</label>
     <select id="ithaca-rent-commute-calculator-lease">
       <option value="12" selected>12 months (most Ithaca leases)</option>
-      <option value="10">10 months</option>
+      <option value="11">11 months</option>
+      <option value="10">10 months (you sublet two summer months)</option>
     </select>
   </div>
 
   <div class="rcc-field rcc-check">
     <input id="ithaca-rent-commute-calculator-elec" type="checkbox">
     <label for="ithaca-rent-commute-calculator-elec">Electricity is included in the rent</label>
-    <span class="rcc-hint">Ithaca Renting includes heat and hot water everywhere but electricity only in a few buildings. Ask.</span>
+    <span class="rcc-hint">Set for you from the listing when you pick a building. Change it if your lease says otherwise.</span>
   </div>
 
   <h3>Getting to campus</h3>
@@ -81,7 +70,7 @@
     <select id="ithaca-rent-commute-calculator-rider">
       <option value="first">First year at Cornell (first-year, new transfer or new grad student): TCAT free</option>
       <option value="phd">PhD student or graduate assistant: free OmniRide pass</option>
-      <option value="other" selected>Everyone else: daytime weekday rides cost money</option>
+      <option value="other" selected>Everyone else: weekday rides before 6 p.m. cost money</option>
     </select>
   </div>
 
@@ -94,27 +83,47 @@
   <div class="rcc-field">
     <label for="ithaca-rent-commute-calculator-weeks">Weeks a year you ride</label>
     <input id="ithaca-rent-commute-calculator-weeks" type="number" min="1" max="52" step="1" value="30" inputmode="numeric">
-    <span class="rcc-hint">30 is our rough guess for two semesters, not a Cornell figure. Use your own.</span>
+    <span class="rcc-hint">30 is a rough count for two semesters, our assumption, not a Cornell figure. Use your own.</span>
   </div>
 
   <div class="rcc-field">
     <label for="ithaca-rent-commute-calculator-car">Car and overnight parking</label>
     <select id="ithaca-rent-commute-calculator-car">
       <option value="none" selected>No car</option>
-      <option value="spot">Car, parked at my rental (landlord's price not in our data)</option>
-      <option value="city" data-as-of="2026-11-08">Car, City residential street permit ($45 a year)</option>
-      <option value="garage" data-as-of="2026-11-08">Car, Dryden Road Garage monthly permit ($232 a month)</option>
+      <option value="spot">Car, parked at my building (enter no price; most landlords quote it separately)</option>
+      <option value="city">Car, City residential street permit ($45 a year)</option>
+      <option value="garage">Car, Dryden Road Garage monthly permit ($232 a month)</option>
     </select>
   </div>
 
   <div class="rcc-field rcc-check">
     <input id="ithaca-rent-commute-calculator-bpermit" type="checkbox">
-    <label for="ithaca-rent-commute-calculator-bpermit">Add a Cornell B commuter permit for campus (<span data-as-of="2026-11-08">$359.77 a year</span>)</label>
+    <label for="ithaca-rent-commute-calculator-bpermit">Add a Cornell B commuter permit for campus ($359.77 a year)</label>
   </div>
 
   <div class="rcc-result" id="ithaca-rent-commute-calculator-result" aria-live="polite">
-    <p><strong>How it works:</strong> your share of the rent, plus your share of electricity if it is not included, plus bus and parking spread over the lease months. Rent and electricity for the year are set against Cornell's 2026-27 residence hall double, $13,744 for the academic year with utilities and internet, which is $1,145.33 a month over 12 months or $1,374.40 over 10.</p>
+    <p><strong>How it works:</strong> your share of the rent, plus your share of electricity if it is not included, times the months you pay, plus a year of bus and parking. Rent and electricity for the year are set against Cornell's 2026-27 residence hall double, $13,744 for the academic year with utilities and internet.</p>
   </div>
+
+  <details>
+    <summary>Where every number comes from</summary>
+    <ul class="rcc-small">
+      <li>Ithaca Renting per-bed ranges, Collegetown (2027-28) and downtown (mostly 2026-27), read Nov. 8 and Nov. 10, 2026: <a href="https://ithacarenting.com/collegetown/">Collegetown page</a>, <a href="https://ithacarenting.com/downtown/">downtown page</a>. Typical figures are the medians in the <a href="/datasets/collegetown-vs-downtown-rent-per-bed-2026/">58-listing dataset</a>. Heat and hot water are included at every property; electricity only where marked.</li>
+      <li>Whiton Hall room, $965 to $1,065 per bed, electricity and Wi-Fi included: <a href="https://ithacarenting.com/property-details/?pid=11">Ithaca Renting, Whiton Hall</a>.</li>
+      <li>Dryden South, 2027-28, per person, 12-month leases from June 1: <a href="https://drydensouth.com/availability/">Dryden South availability</a>. Suites include heat and hot water; tenants pay electricity and Wi-Fi.</li>
+      <li>114 Stewart Ave., 8BR, $900 per person, lease from June 10, 2027: <a href="https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown">IthacaRents listing</a>.</li>
+      <li>117 Thurston Ave., 3BR, $2,445 a month or $815 per person, heat and Wi-Fi included, from Aug. 1, 2027: <a href="https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights">IthacaRents listing</a>.</li>
+      <li>174 Kendall Ave., 4BR, $2,600 a month or $650 per person plus electricity and heat, Aug. 1 to June 30 (11 months): <a href="https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom">IthacaRents listing</a>.</li>
+      <li>The Ivy, 325 College Ave.: 3BR $5,500 to $5,800 a month; basement 2BR $1,595 per person after an early-interest discount; leases from Aug. 17, 2026: <a href="https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026">The Cornell Daily Sun</a>.</li>
+      <li>Lansing West, 700 Warren Rd.: base rents from $1,302 (1BR), $1,625 (2BR) and $2,072 (3BR), November 2026: <a href="https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx">RentCafe</a>.</li>
+      <li>Fall Creek: typical studio $2,600, 1BR $1,600, 2BR $2,420 (undated): <a href="https://www.rentable.co/ithaca-ny/neighborhoods/fall-creek">Rentable</a>. 709 N. Tioga St. 1BR at $1,600 and $1,700: <a href="https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258">Cornell off-campus listings</a>.</li>
+      <li>Cornell residence hall double, $6,872 a semester, $13,744 for 2026-27, gas, electricity, garbage and internet included: <a href="https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates">Cornell housing rates</a>.</li>
+      <li>Electricity, household bill: $282 a month high (<a href="https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/">EnergySage</a>, updated Nov. 8, 2026); $104.20 a month low (<a href="https://poweroutage.us/electricity-rates/ny/ithaca">PowerOutage.us</a>).</li>
+      <li>TCAT fare $1.50 and OmniRide $200 a year, free for PhD students and graduate assistants: <a href="https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes">Cornell bus passes</a>.</li>
+      <li>Cornell B commuter permit $359.77 a year: <a href="https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students">Cornell student parking</a>. Dryden Road Garage $232 a month: <a href="https://www.cityofithacany.gov/718/Dryden-Road-Garage">City of Ithaca</a>. Residential street permit $45 a year: <a href="https://www.cityofithacany.gov/731/Permit-Issuance">City of Ithaca</a>.</li>
+      <li>Distances and walk times: <a href="https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods">Cornell, Ithaca neighborhoods</a>. Grad housing budget $19,962 for 2026-27: <a href="https://finaid.cornell.edu/graduate-students">Cornell Financial Aid</a>.</li>
+    </ul>
+  </details>
 </div>
 <script>
 (function () {
@@ -122,184 +131,240 @@
   if (!root) return;
 
   var IRC = "https://ithacarenting.com/collegetown/", IRD = "https://ithacarenting.com/downtown/";
-  var RB = "https://www.rentable.co/ithaca-ny/neighborhoods/fall-creek";
-  var LW = "https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx";
   var NBH = "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods";
-  var RG = "https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html";
-  var BUS = "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes";
+  var BUS = "https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes";
 
-  // Rents: value = [low, typical, high] in dollars a month. Per bed for ct/dt (beds = bedrooms), per unit for fc/la.
+  // A layout: [label, bedrooms, low, high, basis, extra]. basis "bed" = price per person, "unit" = price for the whole unit.
+  // Ithaca Renting rows are the 58 priced rows of the collegetown-vs-downtown-rent-per-bed-2026 dataset, grouped by building.
+  function L(label, beds, lo, hi, basis, extra) { var o = { label: label, beds: beds, lo: lo, hi: hi, basis: basis || "bed" }; if (extra) for (var k in extra) o[k] = extra[k]; return o; }
+
   const NUMBERS = {
-    ct_studio: { value: [1565, 1765, 1950], n: 7, beds: 1, stat: "median", asOf: "2026-11-08", source: IRC },
-    ct_1br: { value: [1625, 2025, 2545], n: 8, beds: 1, stat: "median", asOf: "2026-11-08", source: IRC },
-    ct_2br: { value: [1145, 1377.5, 1495], n: 5, beds: 2, stat: "median", asOf: "2026-11-08", source: IRC },
-    ct_3br: { value: [1185, 1243.75, 1345], n: 2, beds: 3, stat: "mean", asOf: "2026-11-08", source: IRC },
-    ct_4br: { value: [895, 1246.25, 1395], n: 4, beds: 4, stat: "median", asOf: "2026-11-08", source: IRC },
-    ct_5br: { value: [925, 1102.5, 1275], n: 2, beds: 5, stat: "mean", asOf: "2026-11-08", source: IRC },
-    ct_6br: { value: [695, 800, 1120], n: 5, beds: 6, stat: "median", asOf: "2026-11-08", source: IRC },
-    ct_10br: { value: [725, 775, 825], n: 1, beds: 10, stat: "midpoint", asOf: "2026-11-08", source: IRC },
-    ct_room: { value: [695, 895, 995], n: 4, beds: 1, stat: "median", asOf: "2026-11-08", source: IRC },
-    dt_studio: { value: [1175, 1395, 1595], n: 7, beds: 1, stat: "median", asOf: "2026-11-08", source: IRD },
-    dt_1br: { value: [1525, 1625, 1725], n: 3, beds: 1, stat: "median", asOf: "2026-11-08", source: IRD },
-    dt_2br: { value: [825, 992.5, 1050], n: 5, beds: 2, stat: "median", asOf: "2026-11-08", source: IRD },
-    dt_3br: { value: [695, 795, 895], n: 3, beds: 3, stat: "median", asOf: "2026-11-08", source: IRD },
-    dt_5br: { value: [745, 795, 845], n: 1, beds: 5, stat: "midpoint", asOf: "2026-11-08", source: IRD },
-    dt_6br: { value: [815, 870, 925], n: 1, beds: 6, stat: "midpoint", asOf: "2026-11-08", source: IRD },
-    fc_studio: { value: [2600, 2600, 2600], n: 1, beds: 1, stat: "aggregator figure", asOf: "2026-11-08", source: RB },
-    fc_1br: { value: [1375, 1600, 1700], n: 4, beds: 1, stat: "aggregator figure", asOf: "2026-11-08", source: RB,
-      also: ["https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258", "https://apartments.com/121-cascadilla-ave-ithaca-ny-unit-1/8c5tqb2"] },
-    fc_2br: { value: [2420, 2420, 2420], n: 1, beds: 2, stat: "aggregator figure", asOf: "2026-11-08", source: RB },
-    la_1br: { value: [1038, 1193, 1599], n: 3, beds: 1, stat: "median", asOf: "2026-11-08", source: LW },
-    la_2br: { value: [1636, 1825, 1870], n: 3, beds: 2, stat: "median", asOf: "2026-11-08", source: LW,
-      also: ["https://www.renthop.com/listings/2250-n-triphammer/f12/70986584"] },
-    la_3br: { value: [1694, 1694, 1694], n: 1, beds: 3, stat: "single listing", asOf: "2026-11-08", source: LW },
-    double: { value: 13744, asOf: "2026-11-08", source: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates" },
+    double: { value: 13744, asOf: "2026-11-10", source: "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates" },
     gradBudget: { value: 19962, asOf: "2026-11-08", source: "https://finaid.cornell.edu/graduate-students" },
-    elecHigh: { value: 280, asOf: "2026-11-01", source: "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/" },
+    elecHigh: { value: 282, asOf: "2026-11-08", source: "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/" },
     elecLow: { value: 104.2, asOf: "2026-11-08", source: "https://poweroutage.us/electricity-rates/ny/ithaca" },
-    fare: { value: 1.5, asOf: "2026-11-08", source: "https://tcatbus.com/fare-pass-options" },
-    omniRide: { value: 200, asOf: "2026-11-08", source: BUS },
-    bPermit: { value: 359.77, asOf: "2026-11-08", source: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking/parking-students" },
-    garageMonthly: { value: 232, asOf: "2026-11-08", source: "https://www.cityofithacany.gov/718/Dryden-Road-Garage" },
-    cityPermit: { value: 45, asOf: "2026-11-08", source: "https://www.cityofithacany.gov/731/Permit-Issuance" },
-    walk_ct: { value: [0.1, 0.5], asOf: "2026-11-06", source: NBH, text: "0.1 to 0.5 miles from campus, up to a 15-minute walk (lower Collegetown is uphill)" },
-    walk_dt: { value: [0.5, 1.5], asOf: "2026-11-06", source: NBH, text: "0.5 to 1.5 miles from campus, a 20 to 30 minute uphill walk" },
-    walk_fc: { value: [0.5, 1], asOf: "2026-11-06", source: NBH, text: "0.5 to 1 mile from campus, a 20 to 30 minute uphill walk, frequent bus" },
-    walk_la: { value: [5, 10], asOf: "2026-11-06", source: NBH, text: "5 to 10 miles from campus; Cornell recommends a bus or car" },
-    bus_fc: { value: 15, asOf: "2026-11-08", source: RG, text: "about 15 minutes by bus from Hollister Hall (a 2023 grad guide)" },
-    bus_la: { value: 20, asOf: "2026-11-08", source: RG, text: "about 20 minutes by bus (a 2023 grad guide)" }
+    fare: { value: 1.5, asOf: "2026-11-10", source: BUS },
+    omniRide: { value: 200, asOf: "2026-11-10", source: BUS },
+    bPermit: { value: 359.77, asOf: "2026-11-10", source: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students" },
+    garageMonthly: { value: 232, asOf: "2026-11-10", source: "https://www.cityofithacany.gov/718/Dryden-Road-Garage" },
+    cityPermit: { value: 45, asOf: "2026-11-10", source: "https://www.cityofithacany.gov/731/Permit-Issuance" },
+    walk: {
+      ct: { text: "Collegetown: 0.1 to 0.5 miles from campus, up to a 15-minute walk (lower Collegetown is uphill)", source: NBH },
+      dt: { text: "Downtown: 0.5 to 1.5 miles from campus, a 20 to 30 minute uphill walk", source: NBH },
+      fc: { text: "Fall Creek: 0.5 to 1 mile from campus, a 20 to 30 minute uphill walk, with frequent buses", source: NBH },
+      ch: { text: "Cornell Heights: 1 to 4 miles from campus by Cornell's range, up to a 30-minute level walk", source: NBH },
+      sh: { text: "South Hill: 1.5 to 3 miles from campus, a 15-minute downhill walk to downtown, then a bus", source: NBH },
+      la: { text: "Lansing: 5 to 10 miles from campus; Cornell recommends a bus or car", source: NBH }
+    }
   };
 
-  var NAME = { ct: "Collegetown", dt: "downtown", fc: "Fall Creek", la: "Lansing" };
-  var SIZE = { studio: "studio", "1br": "1BR", "2br": "2BR", "3br": "3BR", "4br": "4BR", "5br": "5BR", "6br": "6BR", "10br": "10BR", room: "room in a shared suite" };
-  var BEDS = { studio: 1, "1br": 1, "2br": 2, "3br": 3, "4br": 4, "5br": 5, "6br": 6, "10br": 10, room: 1 };
-  var SAMPLE = {
-    ct: "Ithaca Renting's per-bed asking prices for 2027-28, read Nov 8, 2026 (one landlord; heat included; electricity usually extra)",
-    dt: "Ithaca Renting's downtown per-bed asking prices, mostly 2026-27 leftovers, read Nov 8, 2026 (one landlord; heat, water and trash included)",
-    fc: "Rentable's undated Fall Creek figure; the range comes from Fall Creek listings at $1,375 (likely stale), $1,600 and $1,700",
-    la: "Lansing West asking prices shown Nov 2026 (and one 2250 N Triphammer snippet for 2BRs)"
-  };
+  var BUILDINGS = [
+    { id: "ct", group: "Typical bed, Ithaca Renting medians", name: "Collegetown, typical bed (median of 38 listings, 2027-28)", area: "ct", year: "2027-28", source: IRC, months: 12,
+      layouts: [L("Studio (median $1,765; 7 listings)", 1, 1565, 1950, "bed", { mid: 1765 }), L("1BR (median $2,025; 8)", 1, 1625, 2545, "bed", { mid: 2025 }),
+        L("2BR (median $1,377.50 a bed; 5)", 2, 1145, 1495, "bed", { mid: 1377.5 }), L("3BR (mean $1,243.75 a bed; 2)", 3, 1185, 1345, "bed", { mid: 1243.75 }),
+        L("4BR (median $1,246.25 a bed; 4)", 4, 895, 1395, "bed", { mid: 1246.25 }), L("5BR (mean $1,102.50 a bed; 2)", 5, 925, 1275, "bed", { mid: 1102.5 }),
+        L("6BR (median $800 a bed; 5)", 6, 695, 1120, "bed", { mid: 800 }), L("10BR ($775 a bed; 1)", 10, 725, 825, "bed", { mid: 775 }),
+        L("Room in a shared suite (median $895; 4)", 1, 695, 995, "bed", { mid: 895 })] },
+    { id: "dt", group: "Typical bed, Ithaca Renting medians", name: "Downtown, typical bed (median of 20 listings, mostly 2026-27)", area: "dt", year: "mostly 2026-27", source: IRD, months: 12,
+      layouts: [L("Studio (median $1,395; 7 listings)", 1, 1175, 1595, "bed", { mid: 1395 }), L("1BR (median $1,625; 3)", 1, 1525, 1725, "bed", { mid: 1625 }),
+        L("2BR (median $992.50 a bed; 5)", 2, 825, 1050, "bed", { mid: 992.5 }), L("3BR (median $795 a bed; 3)", 3, 695, 895, "bed", { mid: 795 }),
+        L("5BR ($795 a bed; 1)", 5, 745, 845, "bed", { mid: 795 }), L("6BR ($870 a bed; 1)", 6, 815, 925, "bed", { mid: 870 })] },
+
+    { id: "court", group: "Collegetown, Ithaca Renting (2027-28)", name: "Collegetown Court, 208 Dryden Rd.", area: "ct", year: "2027-28", source: IRC, months: 12,
+      layouts: [L("Standard studio", 1, 1565, 1640), L("Premium studio", 1, 1645, 1715), L("Standard 1BR", 1, 1625, 1725), L("Premium 1BR", 1, 1715, 1815),
+        L("Deluxe 1BR", 1, 1735, 1835), L("Premium 3BR", 3, 1185, 1200), L("Premium 5BR", 5, 925, 985)] },
+    { id: "plaza", group: "Collegetown, Ithaca Renting (2027-28)", name: "Collegetown Plaza, 111 Dryden Rd.", area: "ct", year: "2027-28", source: IRC, months: 12,
+      layouts: [L("Premium studio", 1, 1725, 1825), L("Deluxe studio", 1, 1755, 1775), L("Standard 1BR", 1, 1970, 2070), L("Premium 1BR", 1, 1980, 2080),
+        L("Standard 2BR", 2, 1330, 1350), L("Deluxe 2BR", 2, 1395, 1495), L("Premium 4BR, 1 bath", 4, 1185, 1200), L("Premium 4BR, 1.5 baths", 4, 1250, 1350),
+        L("Deluxe 4BR", 4, 1295, 1395), L("Deluxe 5BR", 5, 1225, 1275), L("Standard 6BR", 6, 785, 795), L("Premium 6BR", 6, 775, 875), L("Room in a shared suite", 1, 895, 995)] },
+    { id: "center", group: "Collegetown, Ithaca Renting (2027-28)", name: "Collegetown Center, 151 Dryden Rd.", area: "ct", year: "2027-28", source: IRC, months: 12,
+      layouts: [L("Standard studio", 1, 1695, 1750), L("Premium studio", 1, 1715, 1890), L("Deluxe studio", 1, 1830, 1950), L("Premium 1BR", 1, 1995, 2215),
+        L("Standard 1BR", 1, 2145, 2185), L("Deluxe 1BR", 1, 2445, 2545), L("Standard 2BR", 2, 1360, 1395), L("Premium 2BR", 2, 1390, 1410)] },
+    { id: "aces", group: "Collegetown, Ithaca Renting (2027-28)", name: "Aces Apartments, 418-428 Eddy St.", area: "ct", year: "2027-28", source: IRC, months: 12,
+      layouts: [L("Standard 4BR", 4, 895, 1395), L("6BR, 2 baths", 6, 695, 760), L("6BR, 1.5 baths", 6, 705, 895)] },
+    { id: "buffalo", group: "Collegetown, Ithaca Renting (2027-28)", name: "705 E. Buffalo St.", area: "ct", year: "2027-28", source: IRC, months: 12,
+      layouts: [L("Standard 2BR", 2, 1145, 1195), L("3BR", 3, 1245, 1345), L("Premium 6BR", 6, 1020, 1120)] },
+    { id: "d202", group: "Collegetown, Ithaca Renting (2027-28)", name: "202 Dryden Rd.", area: "ct", year: "2027-28", source: IRC, months: 12,
+      layouts: [L("Standard 10BR", 10, 725, 825)] },
+    { id: "d210", group: "Collegetown, Ithaca Renting (2027-28)", name: "210 Dryden Rd. (rooms in shared suites)", area: "ct", year: "2027-28", source: IRC, months: 12, elec: true,
+      layouts: [L("Standard room", 1, 695, 810), L("Premium room", 1, 850, 950), L("Room (also offered for immediate move-in)", 1, 840, 940)] },
+
+    { id: "cityview", group: "Downtown, Ithaca Renting (mostly 2026-27)", name: "Cityview, 118 Prospect St.", area: "dt", year: "2026-27", source: IRD, months: 12,
+      layouts: [L("Standard studio", 1, 1400, 1595), L("Premium studio", 1, 1495, 1575), L("Standard 2BR", 2, 940, 1045), L("Standard 3BR", 3, 815, 895), L("5BR", 5, 745, 845), L("6BR", 6, 815, 925)] },
+    { id: "cwest", group: "Downtown, Ithaca Renting (mostly 2026-27)", name: "Commons West, 107 E. State St.", area: "dt", year: "2026-27", source: IRD, months: 12,
+      layouts: [L("Standard studio", 1, 1295, 1495), L("Premium studio (2027-28)", 1, 1365, 1525), L("Premium 1BR", 1, 1700, 1725), L("Standard 2BR", 2, 975, 1025)] },
+    { id: "cigar", group: "Downtown, Ithaca Renting (mostly 2026-27)", name: "Old Cigar Factory, 108-114 E. State St.", area: "dt", year: "2026-27", source: IRD, months: 12,
+      layouts: [L("Budget studio", 1, 1175, 1275), L("Premium 1BR", 1, 1575, 1675), L("2BR, 1 bath", 2, 825, 925), L("2BR, 2 baths", 2, 850, 875), L("3BR, 2 baths", 3, 695, 795)] },
+    { id: "c154", group: "Downtown, Ithaca Renting (mostly 2026-27)", name: "154 The Commons (154 E. State St.)", area: "dt", year: "2026-27", source: IRD, months: 12,
+      layouts: [L("Standard 1BR", 1, 1525, 1625), L("Standard 2BR", 2, 950, 1050)] },
+    { id: "c156", group: "Downtown, Ithaca Renting (mostly 2026-27)", name: "156 The Commons (156 E. State St.)", area: "dt", year: "2026-27", source: IRD, months: 12,
+      layouts: [L("Standard 3BR", 3, 745, 845)] },
+    { id: "colonial", group: "Downtown, Ithaca Renting (mostly 2026-27)", name: "Colonial Building, 109-113 E. State St.", area: "dt", year: "2026-27", source: IRD, months: 12, elec: true,
+      layouts: [L("Budget studio", 1, 1225, 1325)] },
+    { id: "cstudios", group: "Downtown, Ithaca Renting (mostly 2026-27)", name: "Commons Studios, 212 E. State St.", area: "dt", year: "2026-27", source: IRD, months: 12, elec: true,
+      layouts: [L("Budget studio", 1, 1275, 1375)] },
+    { id: "whiton", group: "Downtown, Ithaca Renting (mostly 2026-27)", name: "Whiton Hall, 222 S. Aurora St.", area: "dt", year: "2026-27", source: "https://ithacarenting.com/property-details/?pid=11", months: 12, elec: true,
+      layouts: [L("Premium room (electricity and Wi-Fi included)", 1, 965, 1065)] },
+
+    { id: "dsouth", group: "Other landlords", name: "Dryden South, 205 Dryden Rd.", area: "ct", year: "2027-28 (leases start June 1)", source: "https://drydensouth.com/availability/", months: 12,
+      layouts: [L("Studio 101", 1, 1990, 1990), L("Studio 102", 1, 2190, 2190), L("4BR suite (all ten rented for 2027-28)", 4, 1360, 1575, "bed", { mid: 1395, note: "All ten suites were marked rented for 2027-28 on Nov. 10, 2026; $1,395 is the most common suite price." })] },
+    { id: "ivy", group: "Other landlords", name: "The Ivy, 325 College Ave.", area: "ct", year: "2026-27 (leases from Aug. 17, 2026)", source: "https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026", months: 12,
+      layouts: [L("3BR (whole unit $5,500 to $5,800)", 3, 5500, 5800, "unit"), L("Basement 2BR ($1,595 a person after a discount)", 2, 1595, 1595, "bed")] },
+    { id: "s114", group: "Other landlords", name: "114 Stewart Ave.", area: "ct", year: "2027-28 (from June 10, 2027)", source: "https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown", months: 12,
+      layouts: [L("8BR ($900 a person)", 8, 900, 900, "bed", { note: "The listing does not say which utilities are included. Ask." })] },
+    { id: "t117", group: "Other landlords", name: "117 Thurston Ave., Cornell Heights", area: "ch", year: "2027-28 (from Aug. 1, 2027)", source: "https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights", months: 12,
+      layouts: [L("3BR ($2,445 a month, $815 a person; heat and Wi-Fi included)", 3, 2445, 2445, "unit", { note: "Parking is $55 a semester on this listing." })] },
+    { id: "k174", group: "Other landlords", name: "174 Kendall Ave., South Hill", area: "sh", year: "2027-28 (Aug. 1 to June 30)", source: "https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom", months: 11,
+      layouts: [L("4BR ($2,600 a month, $650 a person, 11-month lease)", 4, 2600, 2600, "unit", { note: "Tenants pay electricity and heat here; this tool counts electricity only, so add heat on top." })] },
+    { id: "lwest", group: "Other landlords", name: "Lansing West, 700 Warren Rd., Lansing", area: "la", year: "November 2026 base rents", source: "https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx", months: 12,
+      layouts: [L("1BR (from $1,302)", 1, 1302, 1302, "unit"), L("2BR (from $1,625)", 2, 1625, 1625, "unit"), L("3BR (from $2,072)", 3, 2072, 2072, "unit")] },
+    { id: "fcreek", group: "Other landlords", name: "Fall Creek, typical whole unit", area: "fc", year: "undated averages; listings from 2026", source: "https://www.rentable.co/ithaca-ny/neighborhoods/fall-creek", months: 12,
+      layouts: [L("Studio ($2,600, one undated figure)", 1, 2600, 2600, "unit", { note: "The $2,600 studio is one undated aggregator figure, higher than the same page's 1BR. Treat it with care." }),
+        L("1BR ($1,600 typical; 709 N. Tioga St. at $1,600 and $1,700)", 1, 1600, 1700, "unit", { mid: 1600 }), L("2BR ($2,420, undated)", 2, 2420, 2420, "unit")] }
+  ];
 
   function el(n) { return root.querySelector("#ithaca-rent-commute-calculator-" + n); }
-  var nbEl = el("nb"), sizeEl = el("size"), srcEl = el("src"), priceEl = el("price"), peopleEl = el("people"),
-      leaseEl = el("lease"), elecEl = el("elec"), riderEl = el("rider"), ridesEl = el("rides"), weeksEl = el("weeks"),
-      carEl = el("car"), bpEl = el("bpermit"), out = el("result");
-  var peopleTouched = false, ridesTouched = false;
+  var bEl = el("bldg"), lEl = el("layout"), peopleEl = el("people"), srcEl = el("src"), priceEl = el("price"), leaseEl = el("lease"),
+      elecEl = el("elec"), riderEl = el("rider"), ridesEl = el("rides"), weeksEl = el("weeks"), carEl = el("car"), bpEl = el("bpermit"), out = el("result");
+  var ridesTouched = false;
 
-  function num(input, lo, hi, fallback) {
-    var v = parseFloat(input.value);
-    if (isNaN(v)) return fallback;
-    return Math.min(hi, Math.max(lo, v));
-  }
+  function num(input, lo, hi, fallback) { var v = parseFloat(input.value); if (isNaN(v)) return fallback; return Math.min(hi, Math.max(lo, v)); }
   function money(n) {
     var s = (Math.round(n * 100) / 100).toFixed(2);
     if (s.slice(-3) === ".00") s = s.slice(0, -3);
     return "$" + s.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   }
   function li(t) { return "<li>" + t + "</li>"; }
+  function bldg() { for (var i = 0; i < BUILDINGS.length; i++) if (BUILDINGS[i].id === bEl.value) return BUILDINGS[i]; return BUILDINGS[0]; }
+  function layout() { return bldg().layouts[parseInt(lEl.value, 10) || 0]; }
 
-  var FOOT = '<p class="rcc-small">Prices as of Nov 8, 2026 (walk distances from Cornell\'s neighborhood page as of Nov 6, 2026; the electricity high figure as of Nov 1, 2026). ' +
-    "Estimated: rents are asking prices from small samples; electricity is a household average split evenly, and $280 is an upper bound; " +
-    "bus rides and weeks are your own guess. Internet, renters insurance, trash tags and furniture are not counted.</p>";
+  // Build the building picker with groups.
+  var groups = {}, order = [];
+  BUILDINGS.forEach(function (b) { if (!groups[b.group]) { groups[b.group] = []; order.push(b.group); } groups[b.group].push(b); });
+  order.forEach(function (g) {
+    var og = document.createElement("optgroup"); og.label = g;
+    groups[g].forEach(function (b) { var o = document.createElement("option"); o.value = b.id; o.textContent = b.name; og.appendChild(o); });
+    bEl.appendChild(og);
+  });
+
+  function fillLayouts(defaultLabel) {
+    var b = bldg(); lEl.innerHTML = "";
+    b.layouts.forEach(function (x, i) {
+      var o = document.createElement("option"); o.value = i;
+      o.textContent = x.label + (x.lo !== x.hi && !x.mid ? " (" + money(x.lo) + " to " + money(x.hi) + (x.basis === "bed" ? " a bed)" : ")") : "");
+      if (defaultLabel && x.label.indexOf(defaultLabel) === 0) o.selected = true;
+      lEl.appendChild(o);
+    });
+  }
+  function resetForLayout() {
+    var b = bldg(), x = layout();
+    peopleEl.value = (srcEl.value === "bed") ? 1 : x.beds;
+    leaseEl.value = String(b.months);
+    elecEl.checked = !!b.elec;
+  }
+
+  var FOOT = '<p class="rcc-small">Asking rents as of Nov. 10, 2026 (Ithaca Renting rows first read Nov. 8, 2026). Estimated: electricity is a household bill split evenly, and $282 is an upper bound; bus rides and weeks are your own count. Internet, renters insurance, trash fees, heat where you pay it, furniture and deposits are not counted.</p>';
 
   function render() {
-    var nb = nbEl.value, size = sizeEl.value, src = srcEl.value;
-    var people = Math.round(num(peopleEl, 1, 12, BEDS[size]));
+    var b = bldg(), x = layout(), src = srcEl.value;
+    var people = Math.round(num(peopleEl, 1, 14, x.beds));
     var months = parseInt(leaseEl.value, 10);
-    var row = NUMBERS[nb + "_" + size], perBed = (nb === "ct" || nb === "dt");
-    var lo, typ, hi, rentLine;
+    var mid = (typeof x.mid === "number") ? x.mid : (x.lo + x.hi) / 2;
+    var unitLo, unitMid, unitHi, rentLine;
 
     if (src === "data") {
-      if (!row) {
-        out.innerHTML = "<p><strong>No listed " + SIZE[size] + " prices for " + NAME[nb] + " in our data.</strong> Pick another size, or choose a quoted price and enter it.</p>" + FOOT;
-        return;
-      }
-      var mult = perBed ? row.beds : 1;
-      lo = row.value[0] * mult / people; typ = row.value[1] * mult / people; hi = row.value[2] * mult / people;
-      rentLine = "Rent: " + money(typ) + " a person a month (" + row.stat + " of " + row.n + " price" + (row.n > 1 ? "s" : "") +
-        (perBed ? ", " + money(row.value[1]) + " a bed" : ", " + money(row.value[1]) + " for the unit") + ", split " + people + " way" + (people > 1 ? "s" : "") +
-        "). Range " + money(lo) + " to " + money(hi) + ". Source: " + SAMPLE[nb] + ".";
+      var mult = (x.basis === "bed") ? x.beds : 1;
+      unitLo = x.lo * mult; unitMid = mid * mult; unitHi = x.hi * mult;
+      rentLine = "Rent: " + money(unitMid / people) + " a person a month. " +
+        (x.basis === "bed" ? money(mid) + " a bed x " + x.beds + " bedroom" + (x.beds > 1 ? "s" : "") + " = " + money(unitMid) + " for the unit"
+                           : money(unitMid) + " for the whole unit") +
+        ", split " + people + " way" + (people > 1 ? "s" : "") + "." +
+        (x.lo !== x.hi ? " Listed range " + money(unitLo / people) + " to " + money(unitHi / people) + " a person." : "") +
+        ' Source: <a href="' + b.source + '">' + b.name + "</a>, " + b.year + ".";
     } else {
       var amt = parseFloat(priceEl.value);
-      if (isNaN(amt) || amt <= 0) {
-        out.innerHTML = "<p><strong>Enter the rent you were quoted</strong> in the box above, in dollars a month.</p>" + FOOT;
-        return;
-      }
-      lo = typ = hi = (src === "bed") ? amt : amt / people;
-      rentLine = "Rent: " + money(typ) + " a person a month, from the " + (src === "bed" ? "per-bed price" : "unit price split " + people + " ways") + " you entered.";
+      if (isNaN(amt) || amt <= 0) { out.innerHTML = "<p><strong>Enter the rent you were quoted</strong> in the box above, in dollars a month.</p>" + FOOT; return; }
+      unitLo = unitMid = unitHi = (src === "bed") ? amt * people : amt;
+      rentLine = "Rent: " + money(unitMid / people) + " a person a month, from the " + (src === "bed" ? "per-bed price" : "unit price split " + people + " ways") + " you entered.";
     }
+    var rent = unitMid / people;
 
     var eLo = 0, eHi = 0, elecLine;
-    if (elecEl.checked) {
-      elecLine = "Electricity: included in your rent.";
-    } else {
+    if (elecEl.checked) { elecLine = "Electricity: included in the rent."; }
+    else {
       eLo = NUMBERS.elecLow.value / people; eHi = NUMBERS.elecHigh.value / people;
-      elecLine = "Electricity: " + money(eLo) + " to " + money(eHi) + " a person a month (a household bill of " + money(NUMBERS.elecLow.value) +
-        " to " + money(NUMBERS.elecHigh.value) + " split " + people + " way" + (people > 1 ? "s" : "") + "). The totals use " + money(eHi) + ", the upper bound.";
+      elecLine = "Electricity: " + money(eLo) + " to " + money(eHi) + " a person a month (a household bill of " + money(NUMBERS.elecLow.value) + " to " +
+        money(NUMBERS.elecHigh.value) + " split " + people + " way" + (people > 1 ? "s" : "") + "). Totals use " + money(eHi) + ", the upper bound.";
     }
 
     var rider = riderEl.value, rides = Math.round(num(ridesEl, 0, 40, 0)), weeks = Math.round(num(weeksEl, 1, 52, 30));
     var fare = NUMBERS.fare.value, pass = NUMBERS.omniRide.value, bus = 0, busLine;
-    if (rider === "first") {
-      busLine = "Bus: $0. New degree students ride TCAT free all year with a Cornell ID, until Aug 31 for fall entrants (Dec 31 for spring entrants). After that, pick \"Everyone else\" and rerun.";
-    } else if (rider === "phd") {
-      busLine = "Bus: $0. PhD students and graduate assistants get a free OmniRide pass; get it at myparking.cornell.edu.";
-    } else {
+    if (rider === "first") busLine = "Bus: $0. New degree students ride TCAT free with a Cornell ID through their first year, until Aug. 31 for fall entrants.";
+    else if (rider === "phd") busLine = "Bus: $0. PhD students and graduate assistants get a free OmniRide pass.";
+    else {
       var cash = rides * weeks * fare;
-      if (rides === 0) {
-        busLine = "Bus: $0. You walk, or ride only evenings and weekends, which are free.";
-      } else if (cash >= pass) {
-        bus = pass;
-        busLine = "Bus: buy OmniRide, " + money(pass) + " a year. Paying per ride would be " + rides + " x " + weeks + " weeks x " + money(fare) + " = " + money(cash) + ". The pass pays off at 134 rides.";
-      } else {
-        bus = cash;
-        busLine = "Bus: pay per ride, " + money(cash) + " a year (" + rides + " x " + weeks + " weeks x " + money(fare) + "), under the " + money(pass) + " OmniRide pass, which pays off at 134 rides.";
-      }
+      if (rides === 0) busLine = "Bus: $0. You walk, or ride only evenings and weekends, which are free.";
+      else if (cash >= pass) { bus = pass; busLine = "Bus: buy OmniRide, " + money(pass) + " a year. Paying per ride would be " + rides + " x " + weeks + " weeks x " + money(fare) + " = " + money(cash) + ". The pass pays off at 134 rides."; }
+      else { bus = cash; busLine = "Bus: pay per ride, " + money(cash) + " a year (" + rides + " x " + weeks + " weeks x " + money(fare) + "), under the " + money(pass) + " OmniRide pass."; }
     }
 
     var car = carEl.value, carYear = 0, carParts = [], warn = [];
-    if (car === "city") { carYear += NUMBERS.cityPermit.value; carParts.push("City residential permit " + money(NUMBERS.cityPermit.value) + " a year (valid to July 31; only in permit zones)"); }
+    if (car === "city") { carYear += NUMBERS.cityPermit.value; carParts.push("City residential permit " + money(NUMBERS.cityPermit.value) + " a year (valid to July 31; only where the City issues permits)"); }
     if (car === "garage") { carYear += NUMBERS.garageMonthly.value * months; carParts.push("Dryden Road Garage " + money(NUMBERS.garageMonthly.value) + " x " + months + " months = " + money(NUMBERS.garageMonthly.value * months) + " (no guaranteed space)"); }
-    if (car === "spot") carParts.push("a spot at your rental, price not in our data (Ithaca Renting says parking is extra)");
-    if (bpEl.checked) { carYear += NUMBERS.bPermit.value; carParts.push("Cornell B permit " + money(NUMBERS.bPermit.value) + " a year (commuters only, limited, sold first come from early August)"); }
+    if (car === "spot") carParts.push("a space at your building, price not counted (Ithaca Renting sells parking as a separate full-year license)");
+    if (bpEl.checked) { carYear += NUMBERS.bPermit.value; carParts.push("Cornell B permit " + money(NUMBERS.bPermit.value) + " a year (commuters only, limited)"); }
     var carLine = carParts.length ? "Car: " + carParts.join("; ") + ". Total " + money(carYear) + " a year." : "Car: none.";
-    if (car === "city" && nb === "ct") warn.push("Central Collegetown (R-3 zoning) gets no residential street permits, per an older Cornell item. The Dryden Road Garage is the City's option there.");
-    if (car === "city" && nb === "la") warn.push("Lansing is outside the City of Ithaca, so City street permits do not apply there.");
-    if (car !== "none" && !bpEl.checked) warn.push("Parking on campus needs a permit; this total has none. Cornell also asks every student to register a plate, permit or not.");
-    if (nb === "fc" && size === "studio" && src === "data") warn.push("The $2,600 Fall Creek studio is one undated aggregator figure, above its own $1,600 1BR. Treat it with care.");
-    if (nb === "la" && src === "data") warn.push("Lansing West advertised rent free until January 2027 for a Dec 1, 2026 move-in (apply by Nov 14). It prices units dynamically, and Lansing is outside the City's rental rules.");
-    if (nb === "dt" && src === "data") warn.push("Downtown rows are mostly 2026-27 leftovers, which may be discounted; Collegetown rows are 2027-28.");
+    if (car === "city" && b.area === "ct") warn.push("City residential permits cover R-1 and R-2 zones, and central Collegetown is zoned otherwise. The Dryden Road Garage is the City's option there.");
+    if (car === "city" && (b.area === "la" || b.area === "sh")) warn.push("This address may sit outside the City of Ithaca, where City street permits do not apply.");
+    if (car !== "none" && b.id === "dsouth") warn.push("Dryden South has no parking.");
+    if (x.note) warn.push(x.note);
+    if (b.area === "dt" && b.id !== "dt") warn.push("Most downtown rows are 2026-27 leftovers and can be cheaper than a fresh 2027-28 price.");
+    if (b.id === "lwest") warn.push("Lansing West prices units dynamically; these are the lowest base rents shown in November 2026. Lansing is outside the City of Ithaca and its rental rules.");
+    if (b.id === "d210" && src === "data") warn.push("Ithaca Renting includes electricity for rooms rented one by one and for the shared suites on floors 2 and 3. Confirm your floor.");
 
     var dbl = NUMBERS.double.value, breakEven = dbl / months;
-    var housingMonth = typ + eHi, housingYear = housingMonth * months, gap = housingYear - dbl;
-    var transportMonth = (bus + carYear) / months, allMonth = housingMonth + transportMonth;
-    var allLo = lo + eLo + transportMonth, allHi = hi + eHi + transportMonth;
-    var walk = NUMBERS["walk_" + nb].text, busT = NUMBERS["bus_" + nb];
+    var housingYear = (rent + eHi) * months, gap = housingYear - dbl;
+    var yearAll = housingYear + bus + carYear, monthAll = yearAll / months;
+    var lowYear = (unitLo / people + eLo) * months + bus + carYear, highYear = (unitHi / people + eHi) * months + bus + carYear;
+    var w = NUMBERS.walk[b.area];
 
-    var head = "<p><strong>About " + money(allMonth) + " a month all-in, " + walk + (busT ? ", or " + busT.text : "") + ".</strong> That is " +
-      money(allMonth * months) + " a year over a " + months + "-month lease" + (allLo !== allHi ? "; the listed range runs " + money(allLo) + " to " + money(allHi) + " a month" : "") + ".</p>";
+    var head = "<p><strong>About " + money(yearAll) + " a year, " + money(monthAll) + " a month over " + (months === 11 ? "an " : "a ") + months + "-month lease.</strong> " +
+      (Math.abs(highYear - lowYear) > 1 ? "The listed range runs " + money(lowYear) + " to " + money(highYear) + " a year. " : "") +
+      w.text + ".</p>";
+
+    // Roommate table: same unit, different head counts.
+    var rows = "", lo = Math.max(1, people - 2), hi = Math.min(14, people + 2);
+    for (var p = lo; p <= hi; p++) {
+      var e = elecEl.checked ? 0 : NUMBERS.elecHigh.value / p;
+      var yr = (unitMid / p + e) * months;
+      rows += "<tr" + (p === people ? ' style="font-weight:600"' : "") + "><td>" + p + "</td><td>" + money(unitMid / p) + "</td><td>" + money(yr) + "</td><td>" + (yr - dbl > 0 ? "+" : "-") + money(Math.abs(yr - dbl)) + "</td></tr>";
+    }
+    var table = "<p><strong>Same unit, different number of people</strong> (rent plus electricity at the upper bound, " + months + " months):</p>" +
+      "<table><thead><tr><th>People</th><th>Rent each a month</th><th>Rent and electricity each a year</th><th>Against the $13,744 double</th></tr></thead><tbody>" + rows + "</tbody></table>";
+
     var lines = [
       li(rentLine), li(elecLine),
-      li("Against the double: rent and electricity come to " + money(housingYear) + " a year, " + money(Math.abs(gap)) + (gap > 0 ? " more than" : " less than") +
-        " Cornell's " + money(dbl) + " residence hall double (2026-27; includes utilities and internet; covers the academic year, not summer)."),
-      li("Break-even: rent of " + money(Math.round(breakEven * 100) / 100) + " a month on a " + months + "-month lease equals the double. Yours is " + money(typ) +
-        (typ > breakEven ? ", " + money(typ - breakEven) + " over." : ", " + money(breakEven - typ) + " under.")),
+      li("Against the double: rent and electricity come to " + money(housingYear) + " for the year, " + money(Math.abs(gap)) + (gap > 0 ? " more than" : " less than") +
+        " Cornell's " + money(dbl) + " residence hall double for 2026-27, which includes utilities and internet and covers the academic year only."),
+      li("Break-even: on a " + months + "-month lease, rent of " + money(breakEven) + " a month matches the double (" + money(dbl) + " / " + months + "). Yours is " + money(rent) +
+        (rent > breakEven ? ", " + money(rent - breakEven) + " over." : ", " + money(breakEven - rent) + " under.")),
       li(busLine), li(carLine),
       li("Grad students: Cornell's 2026-27 Ithaca housing budget is " + money(NUMBERS.gradBudget.value) + " a year, " + money(NUMBERS.gradBudget.value / 12) + " a month.")
     ];
     for (var i = 0; i < warn.length; i++) lines.push(li(warn[i]));
-    out.innerHTML = head + "<ul>" + lines.join("") + "</ul>" + FOOT;
+    out.innerHTML = head + "<ul>" + lines.join("") + "</ul>" + table + FOOT;
   }
 
   function onChange(e) {
     var t = e && e.target;
-    if (t === peopleEl) peopleTouched = true;
     if (t === ridesEl) ridesTouched = true;
-    if ((t === sizeEl || t === srcEl) && !peopleTouched) peopleEl.value = (srcEl.value === "bed") ? 1 : BEDS[sizeEl.value];
-    if (t === nbEl && !ridesTouched) ridesEl.value = (nbEl.value === "ct") ? 0 : 10;
+    if (t === bEl) { fillLayouts(); resetForLayout(); if (!ridesTouched) ridesEl.value = (bldg().area === "ct") ? 0 : 10; }
+    else if (t === lEl) { resetForLayout(); }
+    else if (t === srcEl) { peopleEl.value = (srcEl.value === "bed") ? 1 : layout().beds; }
     render();
   }
-  root.addEventListener("input", onChange);
+  bEl.value = "ct"; fillLayouts("4BR"); resetForLayout();
+  root.addEventListener("input", function (e) { if (e.target.tagName !== "SELECT") onChange(e); });
   root.addEventListener("change", onChange);
   render();
 })();

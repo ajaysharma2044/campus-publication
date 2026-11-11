@@ -1,0 +1,141 @@
+---
+title: 'Hu Shih Hall at Cornell: first-year dorm facts and cost'
+mode: answer
+dek: Hu Shih Hall is a 2022 first-year corridor hall on North Campus with 429 residents, mixed-gender floors and winter break housing.
+meta: 'Hu Shih Hall at Cornell: 429 first-years in corridor singles, doubles and quads on North Campus, opened 2022, with 2026-27 rates, move-in zone and how rooms are assigned.'
+primary_query: Hu Shih Hall Cornell
+topic: housing
+school: cornell-university
+type: place
+updated: '2026-11-10'
+idea_id: 64
+rewrites: ''
+readers:
+- first-year
+- parent
+- staying-over-break
+- low-budget
+subject: Hu Shih Hall, North Campus, Cornell University, Ithaca
+tools:
+- cornell-housing-license-cancellation-fee-calculator
+sources:
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/hu-shih-hall
+  title: Hu Shih Hall, Cornell Student & Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+  title: Housing Rates 2026-2027, Cornell Student & Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations
+  title: Residence Hall Configurations, Cornell Student & Campus Life
+  accessed: '2026-11-10'
+- url: https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life
+  title: Cornell welcomes students, marks milestone in residential life, Cornell Chronicle, Aug. 15, 2022
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/new-undergrad-application-process
+  title: New Undergrad Application Process, Cornell Student & Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
+  title: Undergraduate Meal Plans 2026-2027, Cornell Student & Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
+  title: Winter Break Housing, Cornell Student & Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+  title: Move-In Instructions for North Campus, Cornell Student & Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+  title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
+  accessed: '2026-11-10'
+images: []
+---
+
+
+```glance
+- Hu Shih Hall opened in 2022 and houses 429 first-years in corridor-style singles, doubles and quads.
+- Cornell's hall page does not say whether rooms have air conditioning, so ask before you count on it.
+- First-years do not pick a hall; staff assign it by random auto-allocation.
+- Cars unload on Program House Drive, and the hall stays open over winter break.
+```
+
+Hu Shih Hall is a corridor-style residence hall on Cornell's North Campus. It opened in 2022 and houses [429 first-year students](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/hu-shih-hall) in singles, doubles and quads on mixed-gender floors. Cornell assigns first-years to it by lottery, not by choice.
+
+```figure
+kind: cost_table
+title: Hu Shih Hall at a glance
+rows:
+  - {label: "Location", value: "North Campus; unload on Program House Drive"}
+  - {label: "Opened", value: "2022"}
+  - {label: "Residents", value: "429"}
+  - {label: "Room types", value: "Singles, doubles and quads"}
+  - {label: "Layout", value: "Corridor, mixed-gender floors"}
+  - {label: "Cooling", value: "Not stated on Cornell's hall page"}
+  - {label: "2026-27 room rate", value: "$13,744 (double) to $15,566 (single) per year"}
+  - {label: "Dining", value: "Chosen from North's three dining rooms"}
+  - {label: "Who lives there", value: "First-year students"}
+  - {label: "How to get in", value: "Random assignment after the first-year application"}
+```
+
+Source: Cornell Housing hall page, Residence Hall Configurations and Housing Rates 2026-2027. Cornell's page gives no street address.
+
+## Who was Hu Shih?
+
+The hall is named for Hu Shih, a Chinese scholar and diplomat who studied at Cornell. It is one of three halls that opened in August 2022, with Barbara McClintock and Ruth Bader Ginsburg halls, adding 1,200 beds after a project that took six and a half years ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)).
+
+## What is living in Hu Shih Hall like?
+
+Corridor style means your bedroom opens onto a hallway and you share a bathroom with the floor ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)). Most North halls work this way. Hu Shih shares a bike room with Barbara McClintock Hall, so the two halls act like neighbors.
+
+Cornell's hall page does not say whether rooms are cooled. The pages for all three 2022 halls leave the question open (Cornell Housing). If heat matters, email housing@cornell.edu before move-in and plan for a fan.
+
+This page covers only what Cornell's pages state. The category rules for North halls, from room types to assignment, are in [North Campus dorms compared](/cornell/housing/cornell-north-campus-dorms-compared/).
+
+## What does a room in Hu Shih Hall cost?
+
+Cornell sets one rate table by room type, so Hu Shih costs what any same-type room costs ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The rate covers gas, electricity, trash pickup and internet, and there is no security deposit. First-years must also buy the Unlimited meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
+
+```figure
+kind: cost_table
+title: One year in a Hu Shih double, first-year, 2026-27
+rows:
+  - {label: "Double room, per year", value: "$13,744"}
+  - {label: "Unlimited meal plan, per year", value: "$7,604"}
+  - {label: "Meal plan administrative fee, per year", value: "$50"}
+  - {label: "Total for room and board", value: "$21,398"}
+```
+
+Source: Cornell Housing rates and Cornell Dining meal plans. Arithmetic: $13,744 plus $7,604 plus $50.
+
+An apartment lease is a different bill. The [off-campus versus dorm comparison](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) sets the two side by side, and the [cost dataset](/datasets/ithaca-housing-cost-by-living-situation-2026-27/) lists 28 ways to live.
+
+## How do first-years get a room in Hu Shih Hall?
+
+You do not rank halls. Cornell asks new students to apply in the Housing and Dining Portal within 10 days of getting a NetID, and staff assign halls by random auto-allocation unless you apply to a program house ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/new-undergrad-application-process)). Confirmations start in mid-June. Some students receive a guaranteed-waitlist notice instead and learn their room later in summer.
+
+Once you sign the housing license, you are committed. First-years cannot cancel it to live off campus. The guide to [who can live off campus](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) lists the exemptions. Returning juniors and seniors can cancel a later license for a fee, and the calculator below shows the 2027-28 ladder ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+
+```tool cornell-housing-license-cancellation-fee-calculator```
+
+```reader "If you're staying over winter break"
+Hu Shih is one of the North halls open over winter break in 2026-27 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)). Residents of open halls pay $125 for one week or $500 for the whole break. Apply in the Housing and Dining Portal between Oct. 1 and Dec. 1.
+```
+
+```reader "If you're a parent reading the bill"
+The hall does not change the room rate, so the one lever on the housing bill is room type. Cornell bills housing in August and December. Ask your student which room type they listed, because a triple costs less than a double.
+```
+
+## What should you know about move-in day?
+
+In fall 2026, Cornell sent cars for Hu Shih to Program House Drive, one of several unloading zones on North, and turned away U-Hauls and trailers ([move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). The [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers tickets, timing and where to wait.
+
+## What does Cornell not say about Hu Shih Hall?
+
+Cornell's hall page gives no street address and no statement on cooling. Cornell's pages also carry no resident reviews of Hu Shih Hall. To learn more, email housing@cornell.edu.
+
+## What to do next
+
+Fill in the first-year application within 10 days of getting your NetID (Cornell Housing). List room types you can live with, since the room type, not the hall, sets your price.
+
+## Related guides
+
+- [North Campus dorms compared](/cornell/housing/cornell-north-campus-dorms-compared/): every North hall side by side.
+- [Mews Hall](/cornell/housing/mews-hall-cornell/): another corridor hall for first-years.

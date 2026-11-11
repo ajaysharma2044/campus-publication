@@ -1,0 +1,242 @@
+<div class="tool" id="tool-rent-split-calculator-unequal-rooms" data-tool="rent-split-calculator-unequal-rooms" data-as-of="2026-11-10">
+  <style>
+    #tool-rent-split-calculator-unequal-rooms .rsc-field { margin: 0 0 0.9rem; }
+    #tool-rent-split-calculator-unequal-rooms .rsc-field label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
+    #tool-rent-split-calculator-unequal-rooms .rsc-field select,
+    #tool-rent-split-calculator-unequal-rooms .rsc-field input[type="number"] { width: 100%; max-width: 22rem; padding: 0.4rem; font: inherit; box-sizing: border-box; }
+    #tool-rent-split-calculator-unequal-rooms .rsc-hint { display: block; font-size: 0.875em; opacity: 0.8; margin-top: 0.2rem; }
+    #tool-rent-split-calculator-unequal-rooms .rsc-room { border: 1px solid currentColor; border-radius: 4px; padding: 0.6rem 0.8rem; margin: 0 0 0.8rem; }
+    #tool-rent-split-calculator-unequal-rooms .rsc-room legend { font-weight: 700; padding: 0 0.3rem; }
+    #tool-rent-split-calculator-unequal-rooms .rsc-room .rsc-check { display: inline-block; margin-right: 1.2rem; }
+    #tool-rent-split-calculator-unequal-rooms .rsc-room .rsc-check label { display: inline; font-weight: 600; }
+    #tool-rent-split-calculator-unequal-rooms .rsc-result { border-top: 1px solid currentColor; padding-top: 0.9rem; margin-top: 1rem; }
+    #tool-rent-split-calculator-unequal-rooms .rsc-result ul { padding-left: 1.2rem; margin: 0.5rem 0; }
+    #tool-rent-split-calculator-unequal-rooms .rsc-table { border-collapse: collapse; width: 100%; max-width: 36rem; margin: 0.5rem 0; }
+    #tool-rent-split-calculator-unequal-rooms .rsc-table th,
+    #tool-rent-split-calculator-unequal-rooms .rsc-table td { border-bottom: 1px solid currentColor; padding: 0.3rem 0.4rem; text-align: right; }
+    #tool-rent-split-calculator-unequal-rooms .rsc-table th:first-child,
+    #tool-rent-split-calculator-unequal-rooms .rsc-table td:first-child { text-align: left; }
+    #tool-rent-split-calculator-unequal-rooms .rsc-small { font-size: 0.875em; opacity: 0.85; }
+  </style>
+
+  <p class="rsc-small">Example rent: a Collegetown Plaza Premium 4-bedroom, 1.5-bath unit at 111 Dryden Rd lists at <span data-as-of="2026-11-10">$1,250 to $1,350 per bed a month for 2027-28</span>; $1,300 is the midpoint, so the whole unit is 4 x $1,300 = $5,200 a month. The same building's Premium 4-bedroom with 1 bath lists at <span data-as-of="2026-11-10">$1,185 to $1,200</span>. Source: Ithaca Renting's Collegetown page, read Nov. 10, 2026. Replace every example number with your own.</p>
+
+  <h3>The apartment</h3>
+  <div class="rsc-field">
+    <label for="rent-split-calculator-unequal-rooms-rent">Total rent for the whole unit, dollars a month</label>
+    <input id="rent-split-calculator-unequal-rooms-rent" type="number" min="0" max="50000" step="5" value="5200" inputmode="decimal">
+    <span class="rsc-hint">If the landlord quotes per bed, multiply by the number of bedrooms. Leave utilities out and split those evenly.</span>
+  </div>
+
+  <div class="rsc-field">
+    <label for="rent-split-calculator-unequal-rooms-n">Bedrooms (one person each)</label>
+    <select id="rent-split-calculator-unequal-rooms-n">
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4" selected>4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+    </select>
+  </div>
+
+  <div class="rsc-field">
+    <label for="rent-split-calculator-unequal-rooms-total">Whole apartment, square feet</label>
+    <input id="rent-split-calculator-unequal-rooms-total" type="number" min="0" max="20000" step="1" value="1100" inputmode="numeric">
+    <span class="rsc-hint">From the listing or the lease. Leave it blank to ignore room size and split the base rent evenly. 1,100 is an example, not a Plaza figure.</span>
+  </div>
+
+  <div class="rsc-field">
+    <label for="rent-split-calculator-unequal-rooms-months">Lease length, months</label>
+    <input id="rent-split-calculator-unequal-rooms-months" type="number" min="1" max="24" step="1" value="12" inputmode="numeric">
+  </div>
+
+  <h3>What the perks are worth to your group</h3>
+  <div class="rsc-field">
+    <label for="rent-split-calculator-unequal-rooms-pbath">Private bathroom, extra dollars a month</label>
+    <input id="rent-split-calculator-unequal-rooms-pbath" type="number" min="0" max="2000" step="0.5" value="107.50" inputmode="decimal">
+    <span class="rsc-hint">Default: the gap between the Plaza Premium 4BR midpoints with 1.5 baths ($1,300) and 1 bath ($1,192.50). Your group can agree on any number.</span>
+  </div>
+  <div class="rsc-field">
+    <label for="rent-split-calculator-unequal-rooms-pwin">Window, extra dollars a month</label>
+    <input id="rent-split-calculator-unequal-rooms-pwin" type="number" min="0" max="2000" step="0.5" value="0" inputmode="decimal">
+    <span class="rsc-hint">No landlord prices this on its own. Agree on a number as a group, or leave 0.</span>
+  </div>
+  <div class="rsc-field">
+    <label for="rent-split-calculator-unequal-rooms-pcloset">Closet, extra dollars a month</label>
+    <input id="rent-split-calculator-unequal-rooms-pcloset" type="number" min="0" max="2000" step="0.5" value="0" inputmode="decimal">
+    <span class="rsc-hint">Same: your group's number. 0 means closets don't change the split.</span>
+  </div>
+
+  <h3>The rooms</h3>
+  <p class="rsc-small">Measure each bedroom: length x width in feet. Count a private bathroom's floor as part of that bedroom. The example sizes are a setup to replace.</p>
+  <div id="rent-split-calculator-unequal-rooms-rooms"></div>
+
+  <div class="rsc-result" id="rent-split-calculator-unequal-rooms-result" aria-live="polite">
+    <p><strong>How it works:</strong> shared space (the apartment minus the bedrooms) is split evenly. Each bedroom's own floor is paid by the person in it. Then each perk moves money: the people who have it pay more, the people who don't pay less, and the total stays the same.</p>
+  </div>
+</div>
+<script>
+(function () {
+  var root = document.getElementById("tool-rent-split-calculator-unequal-rooms");
+  if (!root) return;
+
+  var IR = "https://ithacarenting.com/collegetown/";
+  var NUMBERS = {
+    plazaPremium4br15Low: { value: 1250, asOf: "2026-11-10", source: IR },
+    plazaPremium4br15High: { value: 1350, asOf: "2026-11-10", source: IR },
+    plazaPremium4br1Low: { value: 1185, asOf: "2026-11-10", source: IR },
+    plazaPremium4br1High: { value: 1200, asOf: "2026-11-10", source: IR }
+  };
+  // Derived: midpoints 1,300 and 1,192.50; gap 107.50 per bed a month (default bath premium).
+  // Example rent 4 x 1,300 = 5,200 a month.
+
+  var DEFAULT_SQFT = [150, 130, 120, 100, 110, 140];
+  var DEFAULT_BATH = ["private", "shared", "shared", "shared", "shared", "shared"];
+
+  function el(name) { return root.querySelector("#rent-split-calculator-unequal-rooms-" + name); }
+  var rentEl = el("rent"), nEl = el("n"), totalEl = el("total"), monthsEl = el("months"),
+      pBathEl = el("pbath"), pWinEl = el("pwin"), pClosetEl = el("pcloset"),
+      roomsEl = el("rooms"), out = el("result");
+
+  function money(n) {
+    var neg = n < 0; n = Math.abs(n);
+    var s = (Math.round(n * 100) / 100).toFixed(2);
+    if (s.slice(-3) === ".00") s = s.slice(0, -3);
+    return (neg ? "-$" : "$") + s.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+  function cents(n) { return "$" + (Math.round(n * 100) / 100).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ","); }
+  function val(input, lo, hi, fallback) {
+    var v = parseFloat(input.value);
+    if (isNaN(v)) return fallback;
+    return Math.min(hi, Math.max(lo, v));
+  }
+
+  var saved = [];
+  function buildRooms() {
+    var n = parseInt(nEl.value, 10);
+    // keep what the reader already typed
+    for (var i = 0; i < saved.length; i++) {
+      var s = root.querySelector("#rent-split-calculator-unequal-rooms-sq" + i);
+      if (s) saved[i] = readRoom(i);
+    }
+    var html = "";
+    for (var j = 0; j < n; j++) {
+      var r = saved[j] || { sq: DEFAULT_SQFT[j], bath: DEFAULT_BATH[j], win: true, closet: true };
+      var id = "rent-split-calculator-unequal-rooms-";
+      html += '<fieldset class="rsc-room"><legend>Room ' + (j + 1) + '</legend>' +
+        '<div class="rsc-field"><label for="' + id + 'sq' + j + '">Bedroom size, square feet</label>' +
+        '<input id="' + id + 'sq' + j + '" type="number" min="0" max="2000" step="1" value="' + r.sq + '" inputmode="numeric"></div>' +
+        '<div class="rsc-field"><label for="' + id + 'bath' + j + '">Bathroom</label>' +
+        '<select id="' + id + 'bath' + j + '">' +
+        '<option value="private"' + (r.bath === "private" ? " selected" : "") + '>Private (only this room uses it)</option>' +
+        '<option value="shared"' + (r.bath === "shared" ? " selected" : "") + '>Shared</option>' +
+        '</select></div>' +
+        '<span class="rsc-check"><input id="' + id + 'win' + j + '" type="checkbox"' + (r.win ? " checked" : "") + '> <label for="' + id + 'win' + j + '">Has a window</label></span>' +
+        '<span class="rsc-check"><input id="' + id + 'closet' + j + '" type="checkbox"' + (r.closet ? " checked" : "") + '> <label for="' + id + 'closet' + j + '">Has a closet</label></span>' +
+        '</fieldset>';
+    }
+    roomsEl.innerHTML = html;
+    saved.length = Math.max(saved.length, n);
+  }
+  function readRoom(i) {
+    var id = "#rent-split-calculator-unequal-rooms-";
+    var sq = root.querySelector(id + "sq" + i);
+    return {
+      sq: sq ? Math.max(0, parseFloat(sq.value) || 0) : DEFAULT_SQFT[i],
+      bath: root.querySelector(id + "bath" + i).value,
+      win: root.querySelector(id + "win" + i).checked,
+      closet: root.querySelector(id + "closet" + i).checked
+    };
+  }
+
+  // A perk worth P: the k rooms that have it pay P x (n - k) / n more each;
+  // the n - k rooms without it pay P x k / n less each. The total does not change,
+  // and a room with the perk pays exactly P more than a room without it.
+  function perkShift(has, P, n) {
+    var k = 0; for (var i = 0; i < n; i++) if (has[i]) k++;
+    var shift = [];
+    for (var j = 0; j < n; j++) shift.push(k === 0 || k === n ? 0 : (has[j] ? P * (n - k) / n : -P * k / n));
+    return { shift: shift, k: k };
+  }
+
+  function render() {
+    var n = parseInt(nEl.value, 10);
+    var rent = val(rentEl, 0, 50000, 0);
+    var months = Math.round(val(monthsEl, 1, 24, 12));
+    var pBath = val(pBathEl, 0, 2000, 0), pWin = val(pWinEl, 0, 2000, 0), pCloset = val(pClosetEl, 0, 2000, 0);
+    var total = parseFloat(totalEl.value);
+    var rooms = []; for (var i = 0; i < n; i++) { rooms.push(readRoom(i)); saved[i] = rooms[i]; }
+    var bedSum = 0; rooms.forEach(function (r) { bedSum += r.sq; });
+    var notes = [];
+
+    var useSize = !isNaN(total) && total > 0;
+    if (useSize && total <= bedSum) {
+      useSize = false;
+      notes.push("The whole apartment (" + total + " sq ft) must be bigger than the bedrooms added up (" + bedSum + " sq ft). Size is ignored until you fix it.");
+    }
+
+    var base = [], common = 0;
+    if (useSize) {
+      common = total - bedSum;
+      for (var a = 0; a < n; a++) base.push(rent * (rooms[a].sq + common / n) / total);
+    } else {
+      for (var b = 0; b < n; b++) base.push(rent / n);
+    }
+
+    var bath = perkShift(rooms.map(function (r) { return r.bath === "private"; }), pBath, n);
+    var win = perkShift(rooms.map(function (r) { return r.win; }), pWin, n);
+    var clo = perkShift(rooms.map(function (r) { return r.closet; }), pCloset, n);
+
+    var raw = [];
+    for (var c = 0; c < n; c++) raw.push(base[c] + bath.shift[c] + win.shift[c] + clo.shift[c]);
+
+    // round to cents; give any leftover cent to the largest share so the total matches the rent
+    var shares = raw.map(function (x) { return Math.round(x * 100) / 100; });
+    var diff = Math.round((rent - shares.reduce(function (s, x) { return s + x; }, 0)) * 100) / 100;
+    if (diff !== 0) { var big = 0; for (var d = 1; d < n; d++) if (shares[d] > shares[big]) big = d; shares[big] = Math.round((shares[big] + diff) * 100) / 100; }
+
+    var equal = rent / n;
+    var anyNeg = shares.some(function (x) { return x < 0; });
+    var maxS = Math.max.apply(null, shares), minS = Math.min.apply(null, shares);
+
+    var rows = "";
+    for (var e = 0; e < n; e++) {
+      var gap = shares[e] - equal;
+      rows += "<tr><td>Room " + (e + 1) + " (" + rooms[e].sq + " sq ft" + (rooms[e].bath === "private" ? ", private bath" : "") + ")</td><td>" + cents(shares[e]) + "</td><td>" + money(shares[e] * months) + "</td><td>" + (gap >= 0 ? "+" : "") + money(gap) + "</td></tr>";
+    }
+
+    var html = "<p><strong>The biggest share is " + cents(maxS) + " a month and the smallest is " + cents(minS) + ", a gap of " + cents(maxS - minS) + ".</strong> An even split would be " + cents(equal) + " each.</p>" +
+      '<table class="rsc-table"><thead><tr><th>Room</th><th>A month</th><th>' + months + ' months</th><th>Vs. even split</th></tr></thead><tbody>' + rows + "</tbody></table>";
+
+    var lines = [];
+    if (useSize) {
+      lines.push("Shared space: " + total + " - " + bedSum + " = " + common + " sq ft, split " + n + " ways = " + (Math.round(common / n * 10) / 10) + " sq ft each.");
+      lines.push("Rent per square foot: " + money(rent) + " / " + total + " = " + cents(rent / total) + ". Room 1's base: (" + rooms[0].sq + " + " + (Math.round(common / n * 10) / 10) + ") / " + total + " x " + money(rent) + " = " + cents(base[0]) + ".");
+    } else {
+      lines.push("Size ignored: base rent is " + money(rent) + " / " + n + " = " + cents(equal) + " each.");
+    }
+    function perkLine(name, P, r) {
+      if (P === 0) return;
+      if (r.k === 0 || r.k === n) { lines.push(name + ": every room is the same, so it changes nothing."); return; }
+      lines.push(name + " (" + money(P) + "): " + r.k + " of " + n + " rooms have it. They pay " + money(P) + " x " + (n - r.k) + " / " + n + " = " + cents(P * (n - r.k) / n) + " more each; the others pay " + money(P) + " x " + r.k + " / " + n + " = " + cents(P * r.k / n) + " less each.");
+    }
+    perkLine("Private bathroom", pBath, bath);
+    perkLine("Window", pWin, win);
+    perkLine("Closet", pCloset, clo);
+    lines.push("The shares add up to " + cents(shares.reduce(function (s, x) { return s + x; }, 0)) + ", the full rent.");
+    if (anyNeg) notes.push("A share came out below zero. The perk values are too large for this rent; lower them.");
+
+    var FOOT = '<p class="rsc-small">This split is a deal among you, not part of the lease. Most Ithaca leases make housemates jointly and severally liable: each of you owes the landlord the whole rent if someone stops paying (Cornell Off-Campus Living). Put the split in writing and sign it. ' +
+      'Example prices: Ithaca Renting Collegetown page, 2027-28 per-bed asking rents, read Nov. 10, 2026. Room sizes, apartment size and perk values are your inputs.</p>';
+
+    out.innerHTML = html + "<ul>" + lines.map(function (t) { return "<li>" + t + "</li>"; }).join("") + "</ul>" +
+      (notes.length ? "<p><strong>Check:</strong> " + notes.join(" ") + "</p>" : "") + FOOT;
+  }
+
+  nEl.addEventListener("change", function () { buildRooms(); render(); });
+  root.addEventListener("input", render);
+  root.addEventListener("change", render);
+  buildRooms();
+  render();
+})();
+</script>
