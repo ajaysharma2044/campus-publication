@@ -1,10 +1,10 @@
 {
  "id": 23,
  "status": "done",
- "page": "review/off-campus-housing/luxury-ithaca-apartments-over-1500-a-bed.md",
- "words": "1814",
+ "page": "content/articles/housing/luxury-ithaca-apartments-over-1500-a-bed.md",
+ "words": "1840",
  "page_check": "PASS",
- "unmatched": "40",
- "note": "editor pass 2 (after the checker fix) cleared the remaining flags. editor cut 1893->1797 words editor reports missing: Which high-end buildings do not post prices: the Catherine Commons bullet only quotes a 2025 Sun column that names no buildings, so nothing sourced says what Catherine Commons charges or whether it posts prices. A Catherine Commons listing or landlord source is needed. checker pass: 55 verified, 5 fixed, 2 removed, 7 new facts gaps the writer reports (no source states them): Per-bed prices for Lux & Lofts, Collegetown Terrace, The Outlook, Cath",
- "updated": "2026-11-10 18:27"
+ "unmatched": "54",
+ "note": "editor pass 2 (after the checker fix) cleared the remaining flags. editor cut 1893->1797 words editor reports missing: Which high-end buildings do not post prices: the Catherine Commons bullet only quotes a 2025 Sun column that names no buildings, so nothing sourced says what Catherine Commons charges or whether it posts prices. A Catherine Commons listing or landlord source is needed. checker pass: 55 verified, 5 fixed, 2 removed, 7 new facts gaps the writer reports (no source states them): Per-bed prices for Lux & Lofts, Collegetown Terrace, The Outlook, Cath | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
 }

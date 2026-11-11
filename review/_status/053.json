@@ -1,1 +1,10 @@
-{"id":53,"status":"done","page":"review/off-campus-housing/cornell-financial-aid-off-campus-housing.md","words":948,"page_check":"PASS","unmatched":22,"note":"editor cut 975->948 words. checker pass: 21 verified, 0 fixed, 3 removed, 3 new facts. gaps the writer reports (no source states them): Cornell's undergraduate off-campus housing and dining budget dollar figure: finaid.cornell.edu/living-campus names the budget but prints no figure, and row 2.22-0290 ($17,088, 2022-23) is an unverified search summary. The page tells readers to ask Financial Aid instead.; 2026-27 undergraduate cost of attendance: the cost-to-attend page shows the 2026-27 categories without figures, so the page uses 2025-26 numbers.; Whether a higher off-campus rent can raise aid through an appeal: no fact row, so the page only says premium housing is excluded and links the appeal guide.","updated":"2026-11-10 18:48"}
+{
+ "id": 53,
+ "status": "done",
+ "page": "content/articles/housing/cornell-financial-aid-off-campus-housing.md",
+ "words": "948",
+ "page_check": "PASS",
+ "unmatched": "28",
+ "note": "editor cut 975->948 words. checker pass: 21 verified, 0 fixed, 3 removed, 3 new facts. gaps the writer reports (no source states them): Cornell's undergraduate off-campus housing and dining budget dollar figure: finaid.cornell.edu/living-campus names the budget but prints no figure, and row 2.22-0290 ($17,088, 2022-23) is an unverified search summary. The page tells readers to ask Financial Aid instead.; 2026-27 undergraduate cost of attendance: the cost-to-attend page shows the 2026-27 categories without figures, so the page uses 2025-26 numbers.; Whether a higher off-campus rent can raise aid through an appeal: no fact row, so the page only says premium housing is excluded and links the appeal guide. | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
+}

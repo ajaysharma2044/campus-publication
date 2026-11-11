@@ -1,7 +1,10 @@
 {
  "id": 54,
- "status": "writing",
- "page": "review/off-campus-housing/cheapest-off-campus-housing-cornell.md",
- "note": "written in wave 3 before the sprint; awaiting page_check and the batched source verification",
- "updated": "2026-11-10 18:52"
+ "status": "rewrite-done",
+ "page": "content/articles/housing/cheapest-off-campus-housing-cornell.md",
+ "note": "sprint batch, written from the fact files; published 2026-11-11 to eduexplained.netlify.app; verification 2026-11-11: 31 cited sources opened, 0 values corrected, 6 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 31 cited sources opened, 0 values corrected, 6 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48",
+ "words": "2102",
+ "page_check": "PASS",
+ "unmatched": "93"
 }

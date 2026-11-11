@@ -1,10 +1,10 @@
 {
  "id": 27,
  "status": "rewrite-done",
- "page": "review/getting-around/should-i-bring-a-car-cornell-ithaca-cost.md",
- "words": "1220",
+ "page": "content/articles/money/should-i-bring-a-car-cornell-ithaca-cost.md",
+ "words": "1836",
  "page_check": "PASS",
- "unmatched": "13",
- "note": "editor cut 1273->1232 words checker pass: 13 verified, 1 fixed, 1 removed, 4 new facts gaps the writer reports (no source states them): Gas, insurance, maintenance and registration costs for a car in Ithaca: no fact row prices them. The page and the calculator take them as reader inputs, defaulting to $0, with a note.; Commercial bus fares home (OurBus, FlixBus): the fact file's OurBus 'from $33' (Nov. 8) did not match the live OurBus page, which showed 'from $37.4' on Nov. 10. I left the commercial floor fares out and kept the sourced C2C $187 round trip; the calculator also takes a custom fare.; Whether Ithaca Carshare's Just In Case plan includes gas and insurance: the student page lists them only for It's My Car. The page states that only for It's My Car; tool.md says to ask the office.",
- "updated": "2026-11-10 18:23"
+ "unmatched": "17",
+ "note": "editor cut 1273->1232 words checker pass: 13 verified, 1 fixed, 1 removed, 4 new facts gaps the writer reports (no source states them): Gas, insurance, maintenance and registration costs for a car in Ithaca: no fact row prices them. The page and the calculator take them as reader inputs, defaulting to $0, with a note.; Commercial bus fares home (OurBus, FlixBus): the fact file's OurBus 'from $33' (Nov. 8) did not match the live OurBus page, which showed 'from $37.4' on Nov. 10. I left the commercial floor fares out and kept the sourced C2C $187 round trip; the calculator also takes a custom fare.; Whether Ithaca Carshare's Just In Case plan includes gas and insurance: the student page lists them only for It's My Car. The page states that only for It's My Car; tool.md says to ask the office. | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
 }

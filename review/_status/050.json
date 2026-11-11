@@ -1,1 +1,10 @@
-{"id":50,"status":"done","page":"review/off-campus-housing/cornell-housing-age-exemption-21-or-older.md","words":1072,"page_check":"PASS (kept flags)","unmatched":3,"note":"editor cut 1145->1068 words. checker pass: 3 verified, 2 fixed, 1 removed, 4 new facts. gaps the writer reports (no source states them): Exact date Cornell uses as 'the start of the academic year' for the age test: not on the residential policy page or in the fact file; the page tells August-birthday readers to email housing@cornell.edu.; Which documents Cornell accepts for the age exemption: the policy says only that supporting documentation may be required; the page advises having an ID with birth date ready, framed as advice.; First-year exemption deadline: no separate first-year exemption date in the fact file; page says to request it in the first-year Housing application before signing a license (the sourced rule).. kept flags: unsourced, unsourced, unsourced, unsourced","updated":"2026-11-10 18:47"}
+{
+ "id": 50,
+ "status": "done",
+ "page": "content/articles/housing/cornell-housing-age-exemption-21-or-older.md",
+ "words": "1083",
+ "page_check": "PASS",
+ "unmatched": "3",
+ "note": "editor cut 1145->1068 words. checker pass: 3 verified, 2 fixed, 1 removed, 4 new facts. gaps the writer reports (no source states them): Exact date Cornell uses as 'the start of the academic year' for the age test: not on the residential policy page or in the fact file; the page tells August-birthday readers to email housing@cornell.edu.; Which documents Cornell accepts for the age exemption: the policy says only that supporting documentation may be required; the page advises having an ID with birth date ready, framed as advice.; First-year exemption deadline: no separate first-year exemption date in the fact file; page says to request it in the first-year Housing application before signing a license (the sourced rule).. kept flags: unsourced, unsourced, unsourced, unsourced | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
+}

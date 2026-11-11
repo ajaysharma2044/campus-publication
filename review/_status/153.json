@@ -1,7 +1,10 @@
 {
- "status": "writing",
- "page": "review/off-campus-housing/big-group-houses-ithaca-5-to-10-bedrooms.md",
- "note": "sprint batch; written from the fact files, no web research; awaiting page_check and the batched source verification",
+ "status": "done",
+ "page": "content/articles/housing/big-group-houses-ithaca-5-to-10-bedrooms.md",
+ "note": "sprint batch, written from the fact files; published 2026-11-11 to eduexplained.netlify.app; verification 2026-11-11: 17 cited sources opened, 2 values corrected, 5 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 17 cited sources opened, 2 values corrected, 5 claims rewritten, relinked or removed",
  "id": 153,
- "updated": "2026-11-10 18:52"
+ "updated": "2026-11-11 13:48",
+ "words": "942",
+ "page_check": "PASS",
+ "unmatched": "20"
 }

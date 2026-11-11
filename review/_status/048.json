@@ -1,1 +1,10 @@
-{"id":48,"status":"done","page":"review/off-campus-housing/cornell-housing-meal-plan-requirement.md","words":1587,"page_check":"PASS","unmatched":1,"note":"editor cut 1768->1587 words. checker pass: 4 verified, 0 fixed, 0 removed, 6 new facts. gaps the writer reports (no source states them): Co-op house meal plan prices: Cornell's housing rates page lists co-op room rates only; page tells reader to email co-ops@cornell.edu or the house.; Dietary or medical exemption from the meal plan requirement: no fact row or Cornell page opened describes one beyond the general cancellation petition; page states the gap once with a next step.; Whether sophomores (not just juniors and transfers) can reduce to Bear Traditional: Meal Plans & Rates says 'upper-level' students may opt in, the Meal Plan FAQ names only transfers and juniors; page tells sophomores to confirm with Cornell Dining.","updated":"2026-11-10 18:45"}
+{
+ "id": 48,
+ "status": "done",
+ "page": "content/articles/housing/cornell-housing-meal-plan-requirement.md",
+ "words": "1587",
+ "page_check": "PASS",
+ "unmatched": "7",
+ "note": "editor cut 1768->1587 words. checker pass: 4 verified, 0 fixed, 0 removed, 6 new facts. gaps the writer reports (no source states them): Co-op house meal plan prices: Cornell's housing rates page lists co-op room rates only; page tells reader to email co-ops@cornell.edu or the house.; Dietary or medical exemption from the meal plan requirement: no fact row or Cornell page opened describes one beyond the general cancellation petition; page states the gap once with a next step.; Whether sophomores (not just juniors and transfers) can reduce to Bear Traditional: Meal Plans & Rates says 'upper-level' students may opt in, the Meal Plan FAQ names only transfers and juniors; page tells sophomores to confirm with Cornell Dining. | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
+}

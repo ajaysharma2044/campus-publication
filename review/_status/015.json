@@ -1,10 +1,10 @@
 {
  "id": 15,
  "status": "rewrite-done",
- "page": "review/off-campus-housing/cornell-move-out-storage-shipping-options.md",
- "words": "3342",
+ "page": "content/articles/getting-around/cornell-move-out-storage-shipping-options.md",
+ "words": "3699",
  "page_check": "PASS",
- "unmatched": "40",
- "note": "editor cut 3429->3342 words checker pass: 41 verified, 1 fixed, 0 removed, 9 new facts writer blocked on: Spring 2027 hall closing date and time: Cornell's Moving Out page still shows May 17, 2026. The page gives the license rule (leave by 2 p.m. on the last day of term) and the registrar's last day of term (May 22, 2027) and tells readers to check in April.; SpareFoot Ithaca averages (average booked unit $107.19, 10x10 about $93.39): no longer on SpareFoot's pages, which now redirect to a three-facility listing. Not used.; 4-Season Storage prices: the 'from $115' in the fact file is not on the Neighbor page. The page lists hours and phone only, so the draft says to call for a quote.",
- "updated": "2026-11-10 17:53"
+ "unmatched": "27",
+ "note": "editor cut 3429->3342 words checker pass: 41 verified, 1 fixed, 0 removed, 9 new facts writer blocked on: Spring 2027 hall closing date and time: Cornell's Moving Out page still shows May 17, 2026. The page gives the license rule (leave by 2 p.m. on the last day of term) and the registrar's last day of term (May 22, 2027) and tells readers to check in April.; SpareFoot Ithaca averages (average booked unit $107.19, 10x10 about $93.39): no longer on SpareFoot's pages, which now redirect to a three-facility listing. Not used.; 4-Season Storage prices: the 'from $115' in the fact file is not on the Neighbor page. The page lists hours and phone only, so the draft says to call for a quote. | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
 }

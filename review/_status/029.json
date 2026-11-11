@@ -1,1 +1,10 @@
-{"id":29,"status":"done","page":"review/off-campus-housing/cornell-first-year-housing-application-how-it-works.md","words":1339,"page_check":"PASS","unmatched":2,"note":"editor cut 1411->1337 words. checker pass: 2 verified, 1 fixed, 0 removed, 2 new facts. gaps the writer reports (no source states them): Whether the 10-day application window is a hard deadline or what happens to a late applicant: Cornell's page only says first-years are 'encouraged' to apply within ten days, and no fact row covers late applications.; The fall 2027 first-year cycle dates (confirmations, swap window, move-in): only the 2026-27 cycle is in the fact file, so the timeline is labeled 2026-27.; Whether the meal plan enrollment is automatic or a separate signup for first-years: not stated in the fact rows.. kept flags: accuracy-note (not a page_check flag)","updated":"2026-11-10 18:32"}
+{
+ "id": 29,
+ "status": "done",
+ "page": "content/articles/housing/cornell-first-year-housing-application-how-it-works.md",
+ "words": "1339",
+ "page_check": "PASS",
+ "unmatched": "2",
+ "note": "editor cut 1411->1337 words. checker pass: 2 verified, 1 fixed, 0 removed, 2 new facts. gaps the writer reports (no source states them): Whether the 10-day application window is a hard deadline or what happens to a late applicant: Cornell's page only says first-years are 'encouraged' to apply within ten days, and no fact row covers late applications.; The fall 2027 first-year cycle dates (confirmations, swap window, move-in): only the 2026-27 cycle is in the fact file, so the timeline is labeled 2026-27.; Whether the meal plan enrollment is automatic or a separate signup for first-years: not stated in the fact rows.. kept flags: accuracy-note (not a page_check flag) | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
+}

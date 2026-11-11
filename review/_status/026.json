@@ -1,10 +1,10 @@
 {
  "id": 26,
  "status": "done",
- "page": "review/off-campus-housing/ithaca-12-month-lease-real-cost-9-month-student.md",
- "words": "1152",
- "page_check": "PASS (kept flags)",
- "unmatched": "32",
- "note": "editor cut 1202->1164 words checker pass: 36 verified, 1 fixed, 1 removed, 4 new facts gaps the writer reports (no source states them): Summer sublet rents in Ithaca: no published rate (brief 6.9); the page uses example sublet rents of $500, $750, $1,000 and full rent as inputs, and cites only Modern Living's 'from $900 per person' with period not stated.; The 10-month lease premium: Cayuga Place says 10-month options carry 'an additional premium' and 226 Linden says price varies by length, but neither posts a price, so the page gives break-even premiums instead of an actual 10-month rent.; The 'some Collegetown units run 10 months from Aug 1' line and the $2,985 10-month 3BR are snippet leads in the brief with no fact row or URL; replaced by inventory rows (140 College Ave, 226 Linden, Cayuga Place). kept flags: unsourced, unsourced, unsourced, unsourced, unsourced, unsourced",
- "updated": "2026-11-10 18:23"
+ "page": "content/articles/housing/ithaca-12-month-lease-real-cost-9-month-student.md",
+ "words": "1390",
+ "page_check": "PASS",
+ "unmatched": "30",
+ "note": "editor cut 1202->1164 words checker pass: 36 verified, 1 fixed, 1 removed, 4 new facts gaps the writer reports (no source states them): Summer sublet rents in Ithaca: no published rate (brief 6.9); the page uses example sublet rents of $500, $750, $1,000 and full rent as inputs, and cites only Modern Living's 'from $900 per person' with period not stated.; The 10-month lease premium: Cayuga Place says 10-month options carry 'an additional premium' and 226 Linden says price varies by length, but neither posts a price, so the page gives break-even premiums instead of an actual 10-month rent.; The 'some Collegetown units run 10 months from Aug 1' line and the $2,985 10-month 3BR are snippet leads in the brief with no fact row or URL; replaced by inventory rows (140 College Ave, 226 Linden, Cayuga Place). kept flags: unsourced, unsourced, unsourced, unsourced, unsourced, unsourced | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
 }

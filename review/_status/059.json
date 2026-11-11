@@ -1,7 +1,10 @@
 {
  "id": 59,
- "status": "writing",
- "page": "review/off-campus-housing/cornell-off-campus-renters-insurance-cost.md",
- "note": "sprint batch; written from the fact files, no web research; awaiting page_check and the batched source verification",
- "updated": "2026-11-10 18:52"
+ "status": "rewrite-done",
+ "page": "content/articles/housing/cornell-off-campus-renters-insurance-cost.md",
+ "note": "sprint batch, written from the fact files; published 2026-11-11 to eduexplained.netlify.app; verification 2026-11-11: 23 cited sources opened, 2 values corrected, 4 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 23 cited sources opened, 2 values corrected, 4 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48",
+ "words": "985",
+ "page_check": "PASS",
+ "unmatched": "3"
 }

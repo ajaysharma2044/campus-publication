@@ -93,11 +93,11 @@ Most plans also carry a non-refundable $50 administrative fee, charged once each
 
 ## What does one swipe really cost?
 
-A swipe costs less than its sticker suggests, because part of each plan price is Big Red Bucks you get back as spending money. The math: take the semester price, add half the yearly fee, subtract the bucks, and divide by the swipes. Bear Traditional over 18 weeks is ($3,528 + $25 − $400) / (14 × 18) = $3,153 / 252 = $12.51 a swipe.
+A swipe costs less than its sticker suggests, because part of each plan price is Big Red Bucks you get back as spending money. The math: take the semester price, add half the yearly fee, subtract the bucks, and divide by the swipes. Bear Traditional over 18 weeks is ($3,528 + $25 − $400) / (14 × 18) = $3,153 / 252 = $12.51 a swipe ([Cornell Dining plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 Compare that with paying for a meal without a swipe. Cornell's 2026-27 dining rooms charge $10.80 for breakfast, $15.25 for lunch Monday to Saturday, $18.85 for dinner and $16.85 for Sunday brunch in Big Red Bucks. At the door, tax included, the same meals cost $11.90, $16.80, $20.80 and $18.55 ([Cornell Dining rates](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)).
 
-A week of every meal is breakfast, lunch and dinner Monday to Saturday plus Sunday brunch and dinner, or 20 meals. In Big Red Bucks that week costs 6 × ($10.80 + $15.25 + $18.85) + $16.85 + $18.85 = $305.10, or $15.26 a meal. At the door it costs $336.35, or $16.82 a meal.
+A week of every meal is breakfast, lunch and dinner Monday to Saturday plus Sunday brunch and dinner, or 20 meals. In Big Red Bucks that week costs the six days of three meals plus Sunday brunch and dinner come to $305.10, or $15.26 a meal. At the door it costs $336.35, or $16.82 a meal ([Cornell Dining rates](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)).
 
 ```figure
 kind: cost_table
@@ -116,7 +116,7 @@ rows:
 
 Source: EduExplained calculation from Cornell Dining's 2026-27 plan prices and dining-room prices: (price + half the fee − bucks) / swipes; break-even is that net cost divided by the average Big Red Bucks meal.
 
-Three plans never beat paying in Big Red Bucks for an average mix of meals. Bear Basic's $15.98 swipe, Off-Campus Value's $17.50 and Flex 10/500's $19.90 all cost more than the average meal. They make sense only if your swipes go mostly to dinner, the priciest meal. Pick "mostly dinners" in the calculator to see that case.
+Three plans never beat paying in Big Red Bucks for an average mix of meals. Bear Basic's $15.98 swipe, Off-Campus Value's $17.50 and Flex 10/500's $19.90 all cost more than the average meal. They make sense only if your swipes go mostly to dinner, the priciest meal. Pick "mostly dinners" in the calculator to see that case ([Cornell Dining plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 <!-- ad-break -->
 
@@ -142,17 +142,17 @@ You start on Unlimited and cannot cancel. You can reduce to Bear Traditional by 
 
 ## Unlimited or Bear Traditional: which is better on campus?
 
-Choose Bear Traditional if you eat 14 or fewer dining-room meals a week, and Unlimited at 15 or more. The two plans carry the same $400 in Big Red Bucks, so the gap is the $274 price difference per semester. A 15th meal each week, paid in Big Red Bucks, costs 18 × $15.26 = $274.68 a semester. That is where the two plans break even.
+Choose Bear Traditional if you eat 14 or fewer dining-room meals a week, and Unlimited at 15 or more. The two plans carry the same $400 in Big Red Bucks, so the gap is the $274 price difference per semester. A 15th meal each week, paid in Big Red Bucks, costs $274.68 a semester (at the average meal price above). That is where the two plans break even ([Cornell Dining plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
-In the six Collegetown halls, the Collegetown Meal Plan beats Unlimited at 12 or fewer meals a week if you spend its $436 in City Bucks, and at 11 or fewer if you don't. Each meal a week above its 10 swipes adds $274.68 a semester at Big Red Bucks prices.
+In the six Collegetown halls, the Collegetown Meal Plan beats Unlimited at 12 or fewer meals a week if you spend its $436 in City Bucks, and at 11 or fewer if you don't. Each meal a week above its 10 swipes adds $274.68 a semester at Big Red Bucks prices ([Cornell Dining plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
-SFL Supplemental's 127 meals a semester work out to about 7 a week. For an off-campus member it is the cheapest choice from about 7 to 12 meals a week. House Affiliate is the best value for anyone who qualifies, at $12.02 a swipe, as long as you eat its 3 weekly meals on West Campus. It stays cheapest from 3 to 12 meals a week.
+SFL Supplemental's 127 meals a semester work out to about 7 a week. For an off-campus member it is the cheapest choice from about 7 to 12 meals a week. House Affiliate is the best value for anyone who qualifies, at $12.02 a swipe, as long as you eat its 3 weekly meals on West Campus. It stays cheapest from 3 to 12 meals a week ([Cornell Dining plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 <!-- ad-break -->
 
 ## Should you buy a plan if you live off campus?
 
-Buy Just Bucks instead of nothing if you eat even one or two dining-room meals a week. Its whole price comes back as Big Red Bucks, so you pay only the fee share, and every meal then costs the Big Red Bucks price instead of the higher door price. At 5 meals a week, 90 meals cost $1,398.40 a semester with Just Bucks ($25 + 90 × $15.26) against $1,513.80 at the door (90 × $16.82). You can add Big Red Bucks at any time at get.cbord.com/cornell once you are on a plan.
+Buy Just Bucks instead of nothing if you eat even one or two dining-room meals a week. Its whole price comes back as Big Red Bucks, so you pay only the fee share, and every meal then costs the Big Red Bucks price instead of the higher door price. At 5 meals a week, 90 meals cost $1,398.40 a semester with Just Bucks ($25 + 90 × $15.26) against $1,513.80 at the door (90 × $16.82). You can add Big Red Bucks at any time at get.cbord.com/cornell once you are on a plan ([Cornell Dining rates](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)).
 
 From 10 meals a week, follow the ranking at the top of the page. Cornell Dining calls Unlimited a good value for upper-level students who live off campus; that holds only at 15 or more meals a week. If you mostly cook, compare the plan with groceries in [Off-campus at Cornell: meal plan or cook yourself?](/cornell/money/cornell-off-campus-meal-plan-or-cook-yourself-cost/) Rent and food together decide [whether off-campus living is cheaper than a dorm](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/).
 

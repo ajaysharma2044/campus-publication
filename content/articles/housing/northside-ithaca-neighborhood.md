@@ -27,9 +27,6 @@ sources:
 - url: https://www.rentcafe.com/apartments-for-rent/northwest-ithaca-ny/2-bedroom/
   title: 2 bedroom apartments in Northwest Ithaca, RentCafe
   accessed: '2026-11-10'
-- url: https://www.ithacarents.com/3099-three-bed-apt,-downtown-ithaca-2,000/-avail-fro
-  title: 508 W. Clinton St., 3BR, Ithaca Rents
-  accessed: '2026-11-10'
 - url: https://www.lambrourealestate.com/apartments
   title: Apartments, Lambrou Real Estate
   accessed: '2026-11-10'

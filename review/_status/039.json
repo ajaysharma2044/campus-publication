@@ -1,1 +1,10 @@
-{"id":39,"status":"rewrite-done","page":"review/off-campus-housing/cornell-residential-requirement-exemptions-live-off-campus.md","words":1613,"page_check":"PASS","unmatched":2,"note":"editor cut 1833->1613 words. editor reports missing: Live page FAQ said confirmed chapter members skip the April Spring Housing Selection for Rising Sophomores; the draft never stated this (it says members affirm by March 15 but not that they skip selection).. checker pass: 2 verified, 1 fixed, 0 removed, 4 new facts. gaps the writer reports (no source states them): Exemption window for incoming first-years and new transfers: Cornell's pages give only the rising-sophomore deadline (April 4, 2027); the page states the gap once and points to Housing Operations.; Final 2027-28 room rates: not posted until March 2027, so the lease-plus-bill example uses the 2026-27 double rate ($13,744) and says so.; Old page's Sun Oct. 13, 2021 student anecdote (Flora Rose House) dropped: fact row 7.1-0525 is marked unsourced.","updated":"2026-11-10 18:40"}
+{
+ "id": 39,
+ "status": "rewrite-done",
+ "page": "content/articles/housing/cornell-residential-requirement-exemptions-live-off-campus.md",
+ "words": "1613",
+ "page_check": "PASS",
+ "unmatched": "2",
+ "note": "editor cut 1833->1613 words. editor reports missing: Live page FAQ said confirmed chapter members skip the April Spring Housing Selection for Rising Sophomores; the draft never stated this (it says members affirm by March 15 but not that they skip selection).. checker pass: 2 verified, 1 fixed, 0 removed, 4 new facts. gaps the writer reports (no source states them): Exemption window for incoming first-years and new transfers: Cornell's pages give only the rising-sophomore deadline (April 4, 2027); the page states the gap once and points to Housing Operations.; Final 2027-28 room rates: not posted until March 2027, so the lease-plus-bill example uses the 2026-27 double rate ($13,744) and says so.; Old page's Sun Oct. 13, 2021 student anecdote (Flora Rose House) dropped: fact row 7.1-0525 is marked unsourced. | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
+}

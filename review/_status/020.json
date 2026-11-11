@@ -1,10 +1,10 @@
 {
  "id": 20,
  "status": "needs-review",
- "page": "review/off-campus-housing/ithaca-apartments-under-800-a-bed.md",
- "words": "1232",
- "page_check": "PASS (kept flags)",
- "unmatched": "40",
- "note": "editor cut 1369->1222 words editor reports missing: Is a listed price per bed or per apartment? Still answered, but Auden Ithaca's $689/$789 and Collegetown Terrace's $605 have no stated per-bed basis in the draft, so those two prices can't be confirmed as under $800 a bed checker fix: 56 verified, 3 fixed, 1 removed, 4 new facts All unmatched numbers were recomputed or verified against opened sources. Marketplace rows were confirmed from the Ithaca College listing page data, which I downloaded and parsed. I fixed EnergySage ( checker verdict fix gaps the writer reports (no source states them): 2027-28 prices for downtown Ithaca Renting units: the downtown page still shows 2026-27 and available-now rows, so the page says the 2027-28 prices are not yet posted.; Lease year and lease period for most marketplace rows (404 Oak, DeWitt Pl, University Ave, Fall Creek 3BRs, PPM houses): the inve",
- "updated": "2026-11-10 18:23"
+ "page": "content/articles/housing/ithaca-apartments-under-800-a-bed.md",
+ "words": "1571",
+ "page_check": "PASS",
+ "unmatched": "37",
+ "note": "editor cut 1369->1222 words editor reports missing: Is a listed price per bed or per apartment? Still answered, but Auden Ithaca's $689/$789 and Collegetown Terrace's $605 have no stated per-bed basis in the draft, so those two prices can't be confirmed as under $800 a bed checker fix: 56 verified, 3 fixed, 1 removed, 4 new facts All unmatched numbers were recomputed or verified against opened sources. Marketplace rows were confirmed from the Ithaca College listing page data, which I downloaded and parsed. I fixed EnergySage ( checker verdict fix gaps the writer reports (no source states them): 2027-28 prices for downtown Ithaca Renting units: the downtown page still shows 2026-27 and available-now rows, so the page says the 2027-28 prices are not yet posted.; Lease year and lease period for most marketplace rows (404 Oak, DeWitt Pl, University Ave, Fall Creek 3BRs, PPM houses): the inve | published 2026-11-11; verification 2026-11-11: 13 cited sources opened, 1 values corrected, 3 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 13 cited sources opened, 1 values corrected, 3 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
 }

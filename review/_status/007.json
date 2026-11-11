@@ -1,10 +1,10 @@
 {
  "id": 7,
  "status": "rewrite-done",
- "page": "review/off-campus-housing/off-campus-housing-cornell-grad-students.md",
- "words": "3401",
- "page_check": "PASS (kept flags)",
+ "page": "content/articles/housing/off-campus-housing-cornell-grad-students.md",
+ "words": "3403",
+ "page_check": "PASS",
  "unmatched": "40",
- "note": "editor pass 2 kept one repetition flag with a reason: the $200 on line 247 is EdR's 2018 daily gift card to displaced Maplewood tenants, not the $200 OmniRide pass, which is stated once and used once in the break-even math. editor cut 3369->3237 words checker pass: 85 verified, 0 fixed, 0 removed, 11 new facts writer blocked on: Maplewood 2026-27 or 2027-28 rents: Greystar's page posts none and livemaplewoodapartments.com returned 403; the only figure is the vet college's $1,075-$1,330 range, which does not say per bed or per unit; Hasbrouck's exact opening year: sources confirm construction began in 1960 and was und",
- "updated": "2026-11-10 18:23"
+ "note": "editor pass 2 kept one repetition flag with a reason: the $200 on line 247 is EdR's 2018 daily gift card to displaced Maplewood tenants, not the $200 OmniRide pass, which is stated once and used once in the break-even math. editor cut 3369->3237 words checker pass: 85 verified, 0 fixed, 0 removed, 11 new facts writer blocked on: Maplewood 2026-27 or 2027-28 rents: Greystar's page posts none and livemaplewoodapartments.com returned 403; the only figure is the vet college's $1,075-$1,330 range, which does not say per bed or per unit; Hasbrouck's exact opening year: sources confirm construction began in 1960 and was und | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
 }

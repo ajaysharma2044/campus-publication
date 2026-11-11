@@ -152,7 +152,7 @@ The trade is distance. Cornell puts downtown and the Commons 0.5 to 1.5 miles fr
 
 ## What about Fall Creek and Cornell Heights?
 
-North of campus, the band mostly buys a room in a shared house, often with utilities included. Fall Creek sits 0.5 to 1 mile from campus, a 20- to 30-minute uphill walk with frequent buses. Cornell Heights is up to a 30-minute level walk (Cornell neighborhoods guide).
+North of campus, the band mostly buys a room in a shared house, with utilities included in some listings. Fall Creek sits 0.5 to 1 mile from campus, a 20- to 30-minute uphill walk with frequent buses. Cornell Heights is up to a 30-minute level walk (Cornell neighborhoods guide).
 
 - **117 Thurston Ave.:** a three-bedroom at $815 per person, with the lease starting Aug. 1, 2027. Heat and Wi-Fi are included ([IthacaRents](https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights)).
 - **410 University Ave.:** single bedrooms in a five-bedroom house at $850, with electricity, gas, internet and water included (Ithaca College marketplace).
@@ -181,13 +181,13 @@ Source: listed rents in this guide; Cornell Student and Campus Life housing rate
 
 The gap shrinks fast at the top of the band. A $1,100 bed saves $544 over a year ($13,744 minus $13,200), and the double includes electricity while most of these leases do not. At $800, the saving is $4,144 (Cornell housing rates).
 
-Summer cuts the other way. Most of these leases run 12 months. If you find a subtenant and pay only 10 months yourself, the break-even with the double rises to $1,374.40 a month (the double's cost divided by 10).
+Summer cuts the other way. Most of these leases run 12 months. If you find a subtenant and pay only 10 months yourself, the break-even with the double rises to $1,374.40 a month (the double's cost divided by 10, from [Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
 
 ## What costs come on top of the rent?
 
 Plan for electricity, internet, a deposit and, from downtown, the bus. Which ones you pay depends on the building.
 
-New York caps a security deposit, plus any rent paid in advance, at one month's rent ([N.Y. General Obligations Law 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108)). In a shared apartment, that cap applies to the whole unit's rent, so the landlord may split the deposit among housemates. Cornell financial aid does not cover security deposits or first and last month's rent ([Cornell Financial Aid](https://finaid.cornell.edu/living-campus)), so that money has to come from savings.
+New York caps a security deposit, plus any rent paid in advance, at one month's rent ([N.Y. General Obligations Law 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108)). In a shared apartment, that cap applies to the whole unit's rent, so the landlord can split the deposit among housemates. Cornell financial aid does not cover security deposits or first and last month's rent ([Cornell Financial Aid](https://finaid.cornell.edu/living-campus)), so that money has to come from savings.
 
 Most Ithaca group leases are "joint and several." That means each housemate is responsible for the whole rent and any damage, not just their own share ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)). A cheap bed in a six-bedroom is only cheap if all six people pay.
 
@@ -225,7 +225,7 @@ rows:
 
 Source: Ithaca Renting Collegetown page; each landlord's listing.
 
-Downtown signs later. On the same date, none of the 36 rows on [Ithaca Renting's downtown page](https://ithacarenting.com/downtown/) was sold out. If your group misses the fall rush in Collegetown, a downtown two-bedroom share is the most likely fallback.
+Downtown signs later. On the same date, none of the 36 rows on [Ithaca Renting's downtown page](https://ithacarenting.com/downtown/) was sold out. If your group misses the fall rush in Collegetown, a downtown two-bedroom share is the fallback.
 
 ## FAQ
 

@@ -1,1 +1,10 @@
-{"id":32,"status":"done","page":"review/off-campus-housing/how-cornell-assigns-first-year-roommates.md","words":981,"page_check":"PASS (kept flags)","unmatched":2,"note":"editor cut 1057->1005 words. checker pass: 2 verified, 5 fixed, 3 removed, 8 new facts. gaps the writer reports (no source states them): What the roommate questionnaire asks and how Cornell weighs the answers: the new-undergrad page only calls it a brief questionnaire about lifestyle and habits; the page says once that Cornell does not publish the questions.; When roommate names are released, and whether students can see or contact a roommate before move-in: neither the fact file nor the application page says.; How often named requests are honored, and whether a request has to be mutual: no source. The page gives advice only (tell the student you plan to list).. kept flags: unsourced, unsourced","updated":"2026-11-10 18:33"}
+{
+ "id": 32,
+ "status": "done",
+ "page": "content/articles/housing/how-cornell-assigns-first-year-roommates.md",
+ "words": "990",
+ "page_check": "PASS",
+ "unmatched": "2",
+ "note": "editor cut 1057->1005 words. checker pass: 2 verified, 5 fixed, 3 removed, 8 new facts. gaps the writer reports (no source states them): What the roommate questionnaire asks and how Cornell weighs the answers: the new-undergrad page only calls it a brief questionnaire about lifestyle and habits; the page says once that Cornell does not publish the questions.; When roommate names are released, and whether students can see or contact a roommate before move-in: neither the fact file nor the application page says.; How often named requests are honored, and whether a request has to be mutual: no source. The page gives advice only (tell the student you plan to list).. kept flags: unsourced, unsourced | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
+}

@@ -1,7 +1,10 @@
 {
- "status": "writing",
- "page": "review/dining/bear-traditional-vs-bear-choice-vs-bear-basic-cornell.md",
- "note": "sprint batch; written from the fact files, no web research; awaiting page_check and the batched source verification",
+ "status": "done",
+ "page": "content/articles/dining/bear-traditional-vs-bear-choice-vs-bear-basic-cornell.md",
+ "note": "sprint batch, written from the fact files; published 2026-11-11 to eduexplained.netlify.app; verification 2026-11-11: 6 cited sources opened, 0 values corrected, 2 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 6 cited sources opened, 0 values corrected, 2 claims rewritten, relinked or removed",
  "id": 231,
- "updated": "2026-11-10 18:52"
+ "updated": "2026-11-11 13:48",
+ "words": "551",
+ "page_check": "PASS",
+ "unmatched": "14"
 }

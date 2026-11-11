@@ -118,7 +118,7 @@ rows:
 Source: Cornell Housing and Residential Life, 2027-28 housing license.
 
 ```reader "If you're going away for a semester"
-Your deadline is set by the semester you leave, not by when your program says yes. Going abroad in spring 2027 means filing by Dec. 1, 2026. More on timing in the [away-semester guide](/start/away-semester/).
+Your deadline is set by the semester you leave, not by when your program says yes. Going abroad in spring 2027 means filing in 2026, before that spring's deadline. More on timing in the [away-semester guide](/start/away-semester/).
 ```
 
 ## Who is not allowed to cancel?
@@ -135,7 +135,7 @@ Your 2026-27 room can't be cancelled to move off campus. A 2027-28 room you chos
 
 ## Can I cancel after I move in?
 
-Only for a few reasons, and only with Cornell's approval. Once you occupy the room, the license binds you for the whole term. Cornell can let you out if you withdraw, take a leave, get a medical withdrawal, start an academic internship, graduate or study in absentia, which means earning credit while away from Ithaca. If Cornell approves, you pay a daily rate for the days you lived there and must move out and return your keys within 24 hours.
+Only for a few reasons, and only with Cornell's approval. Once you occupy the room, the license binds you for the whole term. Cornell can let you out if you withdraw, take a leave, get a medical withdrawal, start an academic internship, graduate or study in absentia, which means earning credit while away from Ithaca. If Cornell approves, you pay a daily rate for the days you lived there and must move out and return your keys within 24 hours ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy)).
 
 Moving off campus mid-year doesn't qualify. Cornell's Sorority and Fraternity Life office says spring releases go only to students who are graduating, going abroad or leaving, and that moving off campus or into a fraternity small residence "is not an extenuating circumstance" ([Cornell Sorority and Fraternity Life](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities)). Housing and Residential Life can grant other releases in exceptional cases, at its sole discretion, with a prorated refund minus fees. Subletting is not a way around it: the license lets only you and your assigned roommates live in the room.
 

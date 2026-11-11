@@ -132,7 +132,7 @@ The how-to, from advertising the room to writing the sublease, is in [how to sub
 
 ## What does a sublet bring in?
 
-Any sublet beats an empty room once the income covers the fee, so price yours from real offers and listings for rooms like it. One Collegetown landlord, Modern Living Rentals, advertises sublet and roommate openings "from $900/person," with no period stated ([Modern Living Rentals](https://www.modernlivingrentals.com/)). That is the $900 in the example above. Ithaca has no published typical summer sublet price.
+Any sublet beats an empty room once the income covers the fee, so price yours from real offers and listings for rooms like it. One Collegetown landlord, Modern Living Rentals, advertises sublet and roommate openings "from $900/person," with no period stated ([Modern Living Rentals](https://www.modernlivingrentals.com/)). That matches the sublet rate in the example above. Ithaca has no published typical summer sublet price.
 
 Students hunting for a summer room use the guide to [finding summer housing from May to August](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/), the other side of your listing.
 
@@ -166,8 +166,8 @@ Sources: Bolt Storage, Storage Squad, Uncle Marty's and BRSS price pages. Totals
 
 - **Bolt Storage**, 1401 Dryden Road: a 5x5 drive-up unit is $84 a month, month to month, so $84 x 3 = $252 ([Bolt Storage](https://www.boltstorage.com/self-storage/freeville-ny)). Bolt requires insurance and 10 days' notice before you leave. You need a car to get there.
 - **Storage Squad** charges per item for a 4-month summer: $45 for a standard item, which includes its Mega Box and a cube fridge ([Storage Squad](https://storagesquad.com/summer-storage/cornell-university/)). Seven items x $45 = $315. Packing supplies are free, but a reservation fee of an unposted amount holds your spot.
-- **Uncle Marty's**, 206A Dryden Road and 704 W. Buffalo St.: $15 per regular item (up to 50 lb) a month, and $25 for each curbside appointment of up to 10 items ([Uncle Marty's](https://www.unclemartysoffice.com/storage)). Seven items x $15 x 3 months is $315, plus $25 for pickup and $25 for return, for $365. Each visit to your things costs $15.
-- **BRSS**: 6 x $49 + $75 = $369.
+- **Uncle Marty's**, 206A Dryden Road and 704 W. Buffalo St.: $15 per regular item (up to 50 lb) a month, and $25 for each curbside appointment of up to 10 items ([Uncle Marty's](https://www.unclemartysoffice.com/storage)). Seven items for three months is $315, plus one appointment for pickup and one for return, for $365. Each visit to your things costs the item rate again.
+- **BRSS**: six large boxes at the rate above plus $75 = $369.
 
 Book storage early. Storage Scholars, another pickup company, advises booking by early April ([Storage Scholars](https://www.storagescholars.com/cities-we-serve/ithaca-ny)).
 

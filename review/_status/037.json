@@ -1,1 +1,10 @@
-{"id":37,"status":"done","page":"review/off-campus-housing/cornell-summer-housing-options-rates-dates.md","words":1331,"page_check":"PASS (kept flags)","unmatched":23,"note":"editor cut 1371->1335 words. checker pass: 23 verified, 1 fixed, 0 removed, 5 new facts. gaps the writer reports (no source states them): Summer co-op prices and which co-ops open for summer: Cornell's summer page says co-ops 'often offer summer housing' but posts no rates; the page tells readers to email co-ops@cornell.edu.; 2027 summer meal plan prices: only 2026 plans are posted (Cornell updates them each April); the page uses 2026 figures labeled as such.; 2027-28 fall move-in dates (the gap after Aug. 11): not in the fact file; the page gives the 2026-27 move-in window (Aug. 17-22, 2026) and tells readers to check.. kept flags: repetition","updated":"2026-11-10 18:39"}
+{
+ "id": 37,
+ "status": "done",
+ "page": "content/articles/housing/cornell-summer-housing-options-rates-dates.md",
+ "words": "1333",
+ "page_check": "PASS",
+ "unmatched": "30",
+ "note": "editor cut 1371->1335 words. checker pass: 23 verified, 1 fixed, 0 removed, 5 new facts. gaps the writer reports (no source states them): Summer co-op prices and which co-ops open for summer: Cornell's summer page says co-ops 'often offer summer housing' but posts no rates; the page tells readers to email co-ops@cornell.edu.; 2027 summer meal plan prices: only 2026 plans are posted (Cornell updates them each April); the page uses 2026 figures labeled as such.; 2027-28 fall move-in dates (the gap after Aug. 11): not in the fact file; the page gives the 2026-27 move-in window (Aug. 17-22, 2026) and tells readers to check.. kept flags: repetition | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
+}

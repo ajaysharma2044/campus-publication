@@ -1,7 +1,10 @@
 {
  "id": 56,
- "status": "writing",
- "page": "review/off-campus-housing/collegetown-rent-prices-per-bed-one-bedroom.md",
- "note": "written in wave 3 before the sprint; awaiting page_check and the batched source verification",
- "updated": "2026-11-10 18:52"
+ "status": "rewrite-done",
+ "page": "content/articles/housing/collegetown-rent-prices-per-bed-one-bedroom.md",
+ "note": "sprint batch, written from the fact files; published 2026-11-11 to eduexplained.netlify.app; verification 2026-11-11: 22 cited sources opened, 0 values corrected, 13 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 22 cited sources opened, 0 values corrected, 13 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48",
+ "words": "1538",
+ "page_check": "PASS",
+ "unmatched": "47"
 }

@@ -51,7 +51,7 @@ Collegetown Terrace is a furnished apartment and townhome complex at 115 S. Quar
 
 ## What is Collegetown Terrace, and who is it for?
 
-It is a residential complex of studios and 1-, 2- and 3-bedroom apartments and townhomes. The site shows the logo of The Scion Group, but the Cornell marketplace listing does not name an owner or manager. Because leases are per person and roommate matching is available, it suits a student who wants a private bedroom without finding a full group first.
+It is a residential complex of studios and 1-, 2- and 3-bedroom apartments and townhomes. The site shows the logo of The Scion Group, but the Cornell marketplace listing does not name an owner or manager. The Cornell marketplace listing shows per-person leasing and roommate matching ([Cornell Off-Campus Housing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694)), so it suits a student who wants a private bedroom without finding a full group first.
 
 ```figure
 kind: cost_table

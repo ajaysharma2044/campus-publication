@@ -141,9 +141,9 @@ rows:
 
 Source: Ithaca Renting 2027-28 Collegetown 4BR median; Cornell 2026-27 housing rates. Sublet rents are example inputs.
 
-The 4BR share drops below the double once your subtenant pays $605.50 a month or more. That is the $1,211 gap (14,955 - 13,744) split over two months.
+The 4BR share drops below the double once your subtenant pays $605.50 a month or more. That is the $1,211 gap (14,955 - 13,744) split over two months ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
 
-A 2BR share at the median can't get there through a sublet. Its gap to the double is $2,786 (16,530 - 13,744), or $1,393 a month for two months. That is more than the $1,377.50 rent itself. A 6BR bed at $800 already costs less than the double, so a sublet is a bonus.
+A 2BR share at the median can't get there through a sublet. Its gap to the double is $2,786 (16,530 - 13,744), or $1,393 a month for two months. That is more than the $1,377.50 rent itself. A 6BR bed at $800 already costs less than the double, so a sublet is a bonus ([Ithaca Renting](https://ithacarenting.com/collegetown/)).
 
 ```tool ithaca-rent-commute-calculator```
 
@@ -184,7 +184,7 @@ Cornell's Off-Campus Housing Marketplace lets only people with a Cornell affilia
 
 A 10-month lease is cheaper when its monthly premium is smaller than the share of summer rent you would otherwise lose. A few Ithaca landlords offer them. Lambrou Real Estate leases its 24-bedroom house at 140 College Ave. for the 2027-28 school year on a 10-month lease, August to June ([Lambrou Real Estate](https://www.lambrourealestate.com/140-college-ave-24-bed)). Some apartments at 226 Linden Ave. come with 10- or 12-month leases, and the price varies by length ([Off-Campus Housing Marketplace listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/226-linden-avenue-8104)). Downtown, Cayuga Place on East Green Street offers a 12-month standard lease, with 10-month options "at an additional premium" ([Cayuga Place](https://livehhcayuga.com/cayuga-place/floor-plans)).
 
-Ask each landlord for the 10-month price, since none of these pages posts it, and compare with this rule: a 10-month lease wins if its monthly rent, times 10, is less than your 12-month cost after any sublet income.
+Ask each landlord for the 10-month price, since none of these pages posts it, and compare with this rule: a 10-month lease wins if its monthly rent, times 10, is less than your 12-month cost after any sublet income ([Ithaca Renting](https://ithacarenting.com/collegetown/) for the 12-month baseline).
 
 ```figure
 kind: cost_table
@@ -198,7 +198,7 @@ rows:
 
 Source: Ithaca Renting 2027-28 Collegetown 4BR median; Cornell 2026-27 housing rates. Premiums are measured against the 12-month median rent.
 
-If you're sure you won't find a subtenant, a 10-month lease up to 20% more a month still saves money. If you can sublet easily at a good price, the 10-month premium has to be small to win. A 10-month lease also removes the risk of a subtenant who doesn't pay or damages the place.
+If you're sure you won't find a subtenant, a 10-month lease up to 20% more a month still saves money. If you can sublet easily at a good price, the 10-month premium has to be small to win. A 10-month lease also removes the risk of a subtenant who doesn't pay or damages the place ([Cornell Law Tenants Advocacy](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease)).
 
 ```reader
 If you're a sophomore signing for junior year
@@ -230,11 +230,11 @@ Handing over the whole lease is called an assignment, and it ends your liability
 
 ### Can I get free help reading my lease's sublet clause?
 
-Yes. The Cornell Law Tenants Advocacy hotline at 607-301-1560 reviews leases for free. Call before you sign.
+Yes. The Cornell Law Tenants Advocacy hotline at 607-301-1560 reviews leases for free ([Cornell Law Tenants Advocacy](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease)). Call before you sign.
 
 ## What to do next
 
-Find your lease's start date, end date and sublet clause. Multiply your monthly rent by the months you won't live there. If that number matters to your budget, mail your sublet request by April 15, or ask your landlord for a 10-month price and compare it with the table above.
+Find your lease's start date, end date and sublet clause. Multiply your monthly rent by the months you won't live there. If that number matters to your budget, mail your sublet request by April 15 ([N.Y. Real Property Law 226-b](https://www.nysenate.gov/legislation/laws/RPP/226-B)), or ask your landlord for a 10-month price and compare it with the table above.
 
 **Related guides**
 - [What a month off campus costs at Cornell](/cornell/housing/what-a-month-off-campus-costs-cornell/)

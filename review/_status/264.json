@@ -1,7 +1,10 @@
 {
- "status": "writing",
- "page": "review/getting-around/getting-to-ithaca-and-around-cornell.md",
- "note": "sprint batch; written from the fact files, no web research; awaiting page_check and the batched source verification",
+ "status": "rewrite-done",
+ "page": "content/articles/getting-around/getting-to-ithaca-and-around-cornell.md",
+ "note": "sprint batch, written from the fact files; published 2026-11-11 to eduexplained.netlify.app; verification 2026-11-11: 19 cited sources opened, 2 values corrected, 3 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 19 cited sources opened, 2 values corrected, 3 claims rewritten, relinked or removed",
  "id": 264,
- "updated": "2026-11-10 18:52"
+ "updated": "2026-11-11 13:48",
+ "words": "811",
+ "page_check": "PASS",
+ "unmatched": "5"
 }

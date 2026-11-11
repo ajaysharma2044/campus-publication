@@ -136,7 +136,7 @@ rows:
 ```
 Sources: Cornell Housing pages for [Cascadilla Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/cascadilla-hall), [Sheldon Court](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/sheldon-court), [Schuyler House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/schuyler-house) and [301 College Avenue](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue).
 
-Cascadilla Hall holds the Service Center for all the Collegetown-area halls. None of the three older halls has air conditioning in the rooms. 301 College Avenue is the newest, with kitchenettes holding a fridge and microwave.
+Cascadilla Hall holds the Service Center for all the Collegetown-area halls. None of the three older halls has air conditioning in the rooms. 301 College Avenue is the newest, with kitchenettes holding a fridge and microwave ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue)).
 
 West Campus is the other common landing spot. About 15% of West Campus House System residents are transfers, and residents can stay in the same house from sophomore to senior year ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system)). For a spring transfer with three semesters on campus, that means one house the whole time.
 
@@ -152,7 +152,7 @@ You can still move after you arrive. One Prospect of Whitby co-president transfe
 
 A double room with the Collegetown Meal Plan costs $10,450 for spring 2027. That is the $6,872 double rate per semester for 2026-27 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)), plus the $3,528 Collegetown Meal Plan, plus the $50 yearly dining fee ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
-The Collegetown Meal Plan, formerly the South Campus Meal Plan, gives up to 10 meals a week plus $500 in Big Red Bucks and $436 in City Bucks per semester. It is open to residents of Cascadilla, Sheldon, Schuyler, 301 College Ave., 112 Edgemoor and 104 Mary Ann Wood Drive. South Campus residents are enrolled in the Unlimited plan when they sign and can switch to the Collegetown plan.
+The Collegetown Meal Plan, formerly the South Campus Meal Plan, gives up to 10 meals a week plus $500 in Big Red Bucks and $436 in City Bucks per semester. It is open to residents of Cascadilla, Sheldon, Schuyler, 301 College Ave., 112 Edgemoor and 104 Mary Ann Wood Drive. South Campus residents are enrolled in the Unlimited plan when they sign and can switch to the Collegetown plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 ```figure
 kind: cost_table
@@ -169,9 +169,9 @@ rows:
 ```
 Sources: Cornell Housing 2026-27 rates and Cornell Dining 2026-27 meal plans. Totals are the sums shown.
 
-Across all three semesters, a double and the Collegetown plan come to $31,300 at 2026-27 rates. That is three rooms at $6,872 ($20,616), three meal plans at $3,528 ($10,584) and two yearly fees of $50 ($100). Cornell has not set 2027-28 rates, so the fall 2027 and spring 2028 parts will change.
+Across all three semesters, a double and the Collegetown plan come to $31,300 at 2026-27 rates. That is three rooms at $6,872 ($20,616), three meal plans at $3,528 ($10,584) and two yearly fees of $50 ($100). Cornell has not set 2027-28 rates, so the fall 2027 and spring 2028 parts will change ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
 
-A co-op costs less for the room. Co-op doubles run $3,487 to $4,981 per semester for 2026-27, and some co-ops run their own house meal plans in place of Cornell Dining.
+A co-op costs less for the room. Co-op doubles run $3,487 to $4,981 per semester for 2026-27, and some co-ops run their own house meal plans in place of Cornell Dining ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
 
 ```reader "If you're a parent paying the bill"
 Cornell bills hall rent in August and December, so the spring 2027 room charge arrives in December 2026. There is no damage deposit. New transfers cannot cancel the housing license unless they stop attending or are accepted to a sorority, fraternity or university co-op ([2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)), so budget for all three semesters, not just the spring.

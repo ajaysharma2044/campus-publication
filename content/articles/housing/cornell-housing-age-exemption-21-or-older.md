@@ -88,9 +88,9 @@ Check which rule fits you:
 
 The exemption doesn't apply that year. Cornell measures your age on one day: the start of the academic year you are asking about.
 
-Say you start sophomore year at 20 and turn 21 on Oct. 3. You are not exempt for sophomore year. By junior year the requirement no longer covers you, so the birthday never changes your housing.
+Say you start sophomore year at 20 and turn 21 on Oct. 3. You are not exempt for sophomore year. By junior year the requirement no longer covers you, so the birthday never changes your housing ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
 
-The birthday that matters falls before sophomore year starts. Say you turn 21 in March of your first year. You can request an exemption for sophomore year and rent off campus as a second-year.
+The birthday that matters falls before sophomore year starts. Say you turn 21 in March of your first year. You can request an exemption for sophomore year and rent off campus as a second-year ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
 
 You can't switch partway through a year either. Cornell takes exemption requests during the open application period. It does not accept them after you sign a housing license, the contract for a campus room, or while that license is running. Cornell's residential policy does not print the exact date it uses as the start of the academic year. If your birthday falls in August, email housing@cornell.edu before you file and ask which date counts.
 
@@ -135,7 +135,7 @@ File your Housing application by the same deadline even if you expect approval. 
 
 ## Do you have to reapply every year?
 
-Yes. Each exemption covers a single academic year, and returning students must reapply for every year they want one. That means at most two requests. A first-year who enters at 21 files twice, once for each year. A student who turns 21 during first year files once, for sophomore year.
+Yes. Each exemption covers a single academic year, and returning students must reapply for every year they want one. That means at most two requests. A first-year who enters at 21 files twice, once for each year. A student who turns 21 during first year files once, for sophomore year ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
 
 ```reader "If you're a spring transfer"
 Cornell's [transfer housing page](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates) says spring transfers live on campus that spring and the following academic year. It doesn't mention the age exemption. The residential policy lists age exemptions for all students, so request one in your Housing application before you sign a license. Get Housing's answer in writing. Our [transfer housing guide](/cornell/housing/cornell-transfer-housing/) covers the rest of your first year.
@@ -190,7 +190,7 @@ Source: Ithaca Renting, 40 priced listings for 2027-28, read Nov. 10, 2026.
 
 Two buildings show the range. At [202 Dryden Road](https://ithacarenting.com/property-details/?pid=19), a bed in a 10-bedroom apartment costs $725 to $825 a month on a 12-month lease. Twelve months at $725 is $8,700. At [Collegetown Court](https://ithacarenting.com/property-details/?pid=5), across from the Breazzano Center, a standard studio costs $1,565 to $1,640 a month. Twelve months at $1,565 is $18,780.
 
-A studio at the $1,765 median runs $21,180 a year ($1,765 x 12). That is close to the $21,398 campus year above, and it doesn't include food. A studio saves nothing over campus. A shared bed does.
+A studio at the $1,765 median runs $21,180 a year ($1,765 x 12). That is close to the $21,398 campus year above, and it doesn't include food. A studio saves nothing over campus. A shared bed does ([Ithaca Renting](https://ithacarenting.com/collegetown/)).
 
 Once exempt, you no longer need the campus meal plan. Cornell sells debit plans to students who don't live in campus housing: Off-Campus Value at $1,824.60 a year, Flex 10/500 at $1,348 and Just Bucks at $1,000 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 

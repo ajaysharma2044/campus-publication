@@ -1,10 +1,10 @@
 {
-  "id": 49,
-  "status": "done",
-  "page": "review/off-campus-housing/cornell-ra-jobs-pay-housing-how-to-apply.md",
-  "words": 1683,
-  "page_check": "PASS (kept flags)",
-  "unmatched": 28,
-  "note": "editor cut 1722->1688 words. checker pass: 23 verified, 3 fixed, 1 removed, 7 new facts. gaps the writer reports (no source states them): Second-semester RA stipend: Cornell's position description prints it as \"$3,93.00\" (a typo). The page shows it as printed, says to confirm with hrl-sl-selection@cornell.edu, and the year-one total of $23,426 assumes $3,930.; 2027-28 room rates are not published, so the room value uses the 2026-27 single rate of $15,566. Cornell also says stipends will be adjusted once final meal plan rates are set.; Whether RAs must buy a meal plan is not stated on the RA pages. The meal-plan comparison is framed conditionally ('in a building that requires a meal plan'), based on the meal plan page's list of housing that carries the requirement.. kept flags: unsourced, unsourced, unsourced, unsourced, unsourced, unsourced, unsourced, unsourced, unsourced",
-  "updated": "2026-11-10 18:47"
+ "id": 49,
+ "status": "done",
+ "page": "content/articles/housing/cornell-ra-jobs-pay-housing-how-to-apply.md",
+ "words": "1716",
+ "page_check": "PASS",
+ "unmatched": "32",
+ "note": "editor cut 1722->1688 words. checker pass: 23 verified, 3 fixed, 1 removed, 7 new facts. gaps the writer reports (no source states them): Second-semester RA stipend: Cornell's position description prints it as \"$3,93.00\" (a typo). The page shows it as printed, says to confirm with hrl-sl-selection@cornell.edu, and the year-one total of $23,426 assumes $3,930.; 2027-28 room rates are not published, so the room value uses the 2026-27 single rate of $15,566. Cornell also says stipends will be adjusted once final meal plan rates are set.; Whether RAs must buy a meal plan is not stated on the RA pages. The meal-plan comparison is framed conditionally ('in a building that requires a meal plan'), based on the meal plan page's list of housing that carries the requirement.. kept flags: unsourced, unsourced, unsourced, unsourced, unsourced, unsourced, unsourced, unsourced, unsourced | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
 }

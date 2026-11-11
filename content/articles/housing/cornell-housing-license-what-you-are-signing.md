@@ -116,7 +116,7 @@ At the 2026-27 double rate, 50% of $6,872 is $3,436.00. For a single at $7,783 p
 
 Students leaving for study away, an Engineering Co-op, an academic internship, a leave of absence, withdrawal or graduation have their own deadlines. They cancel without a fee by June 15, 2027, for fall and Dec. 1, 2027, for spring. A request after those dates costs $500. Under the 2026-27 license, the dates are June 15, 2026, and Dec. 1, 2026 ([Cornell Housing License 2026-27](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027)).
 
-After you move in, cancelling is Cornell's call. It can approve it if you withdraw, take a leave, start an internship or graduate mid-term. If it agrees, you pay a daily rate for each day you lived there and must turn in your keys within 24 hours.
+After you move in, cancelling is Cornell's call. It can approve it if you withdraw, take a leave, start an internship or graduate mid-term. If it agrees, you pay a daily rate for each day you lived there and must turn in your keys within 24 hours ([Cornell Housing License 2027-28](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 The [Cornell housing license cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) shows the fee for any cancel date.
 

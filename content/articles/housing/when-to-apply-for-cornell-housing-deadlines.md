@@ -87,7 +87,7 @@ images: []
 - Rising sophomores: file the 2027-28 housing application and any exemption by April 4, 2027, 11:59 p.m.
 - Co-op, fraternity, sorority or affiliated house for sophomore year: declare it by March 15.
 - Juniors and seniors holding a 2027-28 room: canceling costs $50 through Jan. 31, then the fee climbs.
-- Studying away or graduating: cancel free by Dec. 1 for spring or June 15 for fall.
+- Studying away or graduating: cancel free by the spring or fall date in the cancellation section below.
 ```
 
 Rising sophomores must file Cornell's 2027-28 housing application, plus any exemption request, by April 4, 2027, at 11:59 p.m. ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Students headed for a co-op, fraternity, sorority or affiliated house face an earlier date. They must declare it by March 15, or they finish the two-year rule in a residence hall.
@@ -158,7 +158,7 @@ Co-ops pick members on their own schedules, each with its own process. Selection
 
 ## When is the deadline to apply for an exemption?
 
-For sophomore year, April 4, 2027, at 11:59 p.m., the same night as the application. Cornell will not consider any request received after that ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). An exemption, Cornell's release from the two-year rule, lasts one academic year. Transfers and returning students must reapply each year they want one. Cornell also stops taking requests once you sign a housing license, the binding agreement for a campus room.
+For sophomore year, the same night as the application deadline above. Cornell will not consider any request received after that ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). An exemption, Cornell's release from the two-year rule, lasts one academic year. Transfers and returning students must reapply each year they want one. Cornell also stops taking requests once you sign a housing license, the binding agreement for a campus room.
 
 Exemptions go to students who are married, veterans (not ROTC), coming with legal dependents, 21 or older by the start of the year, qualifying transfers, or commuters living with a parent within 25 miles. Who qualifies, and what proof to send, is in our guide to [Cornell's residential requirement and exemptions](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
@@ -182,7 +182,7 @@ rows:
 ```
 Source: Cornell Student & Campus Life, Housing License Cancellation Policy and Academic Year Housing License 2027-2028.
 
-Waiting one extra day costs $450 ($500 minus $50). The last step is the big one. At the 2026-27 double rate, half a semester is $3,436 (0.5 x $6,872). The real 2027-28 figure arrives with final rates in March 2027. The rates shown at selection are projections that still need approval from Cornell's president and Board of Trustees ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+Waiting one extra day adds $450. The last step is the big one. At the 2026-27 double rate, half a semester is $3,436 (0.5 x $6,872). The real 2027-28 figure arrives with final rates in March 2027. The rates shown at selection are projections that still need approval from Cornell's president and Board of Trustees ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 
@@ -194,7 +194,7 @@ If you are holding a campus room while you hunt for an apartment, decide by Jan.
 
 If you are leaving Ithaca for a semester, you can cancel without a fee by a set date. That covers study away (Cornell in Washington or Rome, a global program, an Engineering Co-op, an academic internship, ILR in New York City), a leave of absence, deferring, withdrawing or graduating.
 
-For the current 2026-27 license, the spring 2027 deadline is Dec. 1, 2026 ([2026-27 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027)). For 2027-28, the dates are June 15, 2027, for fall and Dec. 1, 2027, for spring. A request after those dates costs $500. Co-op residents who will not attend in spring 2027 must tell Housing and Residential Life by the same date, or face a cancellation fee ([co-op terms](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions)).
+For the current 2026-27 license, the spring 2027 deadline is Dec. 1, 2026 ([2026-27 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027)). For 2027-28, the dates are June 15, 2027, for fall and the same day in December 2027 for spring. A request after those dates costs $500. Co-op residents who will not attend in spring 2027 must tell Housing and Residential Life by the same date, or face a cancellation fee ([co-op terms](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions)).
 
 First-years, new transfers and sophomores cannot cancel for any other reason. The exceptions are leaving the university, an approved exemption, or, for sophomores, acceptance to a Greek, affiliated or co-op house before the application deadline.
 

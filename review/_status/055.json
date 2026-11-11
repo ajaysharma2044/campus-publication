@@ -1,7 +1,10 @@
 {
  "id": 55,
- "status": "writing",
- "page": "review/off-campus-housing/cornell-super-single-vs-single-vs-double-worth-it.md",
- "note": "written in wave 3 before the sprint; awaiting page_check and the batched source verification",
- "updated": "2026-11-10 18:52"
+ "status": "done",
+ "page": "content/articles/housing/cornell-super-single-vs-single-vs-double-worth-it.md",
+ "note": "sprint batch, written from the fact files; published 2026-11-11 to eduexplained.netlify.app; verification 2026-11-11: 9 cited sources opened, 0 values corrected, 2 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 9 cited sources opened, 0 values corrected, 2 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48",
+ "words": "1113",
+ "page_check": "PASS",
+ "unmatched": "24"
 }

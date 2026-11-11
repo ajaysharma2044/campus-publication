@@ -1,7 +1,10 @@
 {
- "status": "writing",
- "page": "review/getting-around/cornell-student-parking-permit-cost-rules.md",
- "note": "sprint batch; written from the fact files, no web research; awaiting page_check and the batched source verification",
+ "status": "rewrite-done",
+ "page": "content/articles/getting-around/cornell-student-parking-permit-cost-rules.md",
+ "note": "sprint batch, written from the fact files; published 2026-11-11 to eduexplained.netlify.app; verification 2026-11-11: 14 cited sources opened, 0 values corrected, 5 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 14 cited sources opened, 0 values corrected, 5 claims rewritten, relinked or removed",
  "id": 203,
- "updated": "2026-11-10 18:52"
+ "updated": "2026-11-11 13:48",
+ "words": "924",
+ "page_check": "PASS",
+ "unmatched": "6"
 }

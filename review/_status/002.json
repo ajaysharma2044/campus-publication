@@ -1,10 +1,10 @@
 {
  "id": 2,
  "status": "done",
- "page": "review/off-campus-housing/cornell-west-campus-houses-compared.md",
- "words": "3684",
+ "page": "content/articles/housing/cornell-west-campus-houses-compared.md",
+ "words": "3899",
  "page_check": "PASS",
- "unmatched": "38",
- "note": "editor cut 3777->3684 words checker pass: 38 verified, 0 fixed, 0 removed, 6 new facts writer blocked on: Whether McFaddin Hall reopens for 2027-28: the Sun (Sept. 22, 2025) said HRL was awaiting construction scope; no Cornell page gives an end date, though the 2027-28 license still lists McFaddin under Bethe House.; Which meal plan 1 Forest Park Lane residents must take: the 2027-28 license's House Meal Plan building list omits it; the page tells readers to ask Cornell Housing.; Whether sophomores outside West can drop to Bear Traditional: Cornell's meal-plans-rates page says upper-level students may; its Meal Plan FAQ names only transfers and juniors. The page states both and says to ask Cornell Dining.",
- "updated": "2026-11-10 17:53"
+ "unmatched": "1",
+ "note": "editor cut 3777->3684 words checker pass: 38 verified, 0 fixed, 0 removed, 6 new facts writer blocked on: Whether McFaddin Hall reopens for 2027-28: the Sun (Sept. 22, 2025) said HRL was awaiting construction scope; no Cornell page gives an end date, though the 2027-28 license still lists McFaddin under Bethe House.; Which meal plan 1 Forest Park Lane residents must take: the 2027-28 license's House Meal Plan building list omits it; the page tells readers to ask Cornell Housing.; Whether sophomores outside West can drop to Bear Traditional: Cornell's meal-plans-rates page says upper-level students may; its Meal Plan FAQ names only transfers and juniors. The page states both and says to ask Cornell Dining. | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
 }

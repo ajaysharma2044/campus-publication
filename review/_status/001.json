@@ -1,10 +1,10 @@
 {
  "id": 1,
  "status": "done",
- "page": "review/off-campus-housing/cornell-north-campus-dorms-compared.md",
- "words": "3837",
+ "page": "content/articles/housing/cornell-north-campus-dorms-compared.md",
+ "words": "4037",
  "page_check": "PASS",
- "unmatched": "26",
- "note": "editor cut 3892->3837 words checker pass: 18 verified, 0 fixed, 0 removed, 4 new facts writer blocked on: Street addresses for North Campus halls: Cornell's hall pages give none (only 'Hall name, Ithaca, NY 14850' and the shared mailing address 107 Robert Purcell), so the reference table gives location descriptors and unloading zones instead.; Whether Barbara McClintock, Hu Shih and Ruth Bader Ginsburg halls have air conditioning in rooms: their Cornell pages are silent, and Cornell Conference Services describes 'air-controlled buildings' without naming them. Only a 2026 Sun opinion column and a Sun guest column say so; the page tells readers to ask housing@cornell.edu.; Rate for quint rooms (Dickson, Jameson, High Rise 5): the 2026-27 rate table lists no quint rate.",
- "updated": "2026-11-10 17:53"
+ "unmatched": "3",
+ "note": "editor cut 3892->3837 words checker pass: 18 verified, 0 fixed, 0 removed, 4 new facts writer blocked on: Street addresses for North Campus halls: Cornell's hall pages give none (only 'Hall name, Ithaca, NY 14850' and the shared mailing address 107 Robert Purcell), so the reference table gives location descriptors and unloading zones instead.; Whether Barbara McClintock, Hu Shih and Ruth Bader Ginsburg halls have air conditioning in rooms: their Cornell pages are silent, and Cornell Conference Services describes 'air-controlled buildings' without naming them. Only a 2026 Sun opinion column and a Sun guest column say so; the page tells readers to ask housing@cornell.edu.; Rate for quint rooms (Dickson, Jameson, High Rise 5): the 2026-27 rate table lists no quint rate. | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
 }

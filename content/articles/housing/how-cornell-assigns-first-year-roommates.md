@@ -92,7 +92,7 @@ Toni Morrison and Ganędagǫ: opened in 2021 with 800 beds, and Barbara McClinto
 
 ### Program houses work differently
 
-A program house is a themed section of a residence hall built around an interest or an identity. Examples include Ecology House, the Holland International Living Center and Ujamaa Residential College. More than 500 first-year and transfer students live in program houses. If you apply to one, the random hall assignment doesn't apply to you.
+A program house is a themed section of a residence hall built around an interest or an identity. Examples include Ecology House, the Holland International Living Center and Ujamaa Residential College. More than 500 first-year and transfer students live in program houses ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing)). If you apply to one, the random hall assignment doesn't apply to you.
 
 Most program houses have no formal application. At a Black Students United town hall on March 10, 2026, administrators said placement weighs student preferences, open space, Student Disability Services accommodations and roommate groupings ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/03/bsu-town-hall-addresses-housing-financial-aid-and-federal-policy-concerns)).
 
@@ -153,7 +153,7 @@ Cornell posts each new cycle's dates on the New Undergrad Application Process pa
 
 ## Can you change your roommate or room?
 
-Only by trading. Cornell is full for 2026-27 and doesn't accept room change requests. Instead it runs a direct room swap: you find a student who wants your room and trade through the portal between mid-June and mid-July. Anyone with a signed housing license can swap.
+Only by trading. Cornell is full for 2026-27 and doesn't accept room change requests. Instead it runs a direct room swap: you find a student who wants your room and trade through the portal between mid-June and mid-July. Anyone with a signed housing license can swap ([New Undergrad Application Process](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)).
 
 You also can't back out of campus housing. First-years must live on campus ([Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)), and they cannot cancel a housing license unless they leave Cornell or win an exemption ([Housing License 2026-27](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027)). The rare cases that qualify are in our guide to [Cornell's residential requirement exemptions](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 

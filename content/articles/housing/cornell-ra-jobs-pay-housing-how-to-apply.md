@@ -83,7 +83,7 @@ rows:
 ```
 Source: Cornell Housing and Residential Life, 2027-2028 RA position description.
 
-Cornell prints the second-semester figure as "$3,93.00," a typo. Email hrl-sl-selection@cornell.edu to confirm it before you budget on it. Cornell also says it will adjust every rate once final meal plan prices are set.
+Cornell prints the second-semester figure as "$3,93.00," a typo. Email hrl-sl-selection@cornell.edu to confirm it before you budget on it. Cornell also says it will adjust every rate once final meal plan prices are set ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/resident-advisor-ra-selection/resident-advisor-position-description)).
 
 ## What is the free room worth?
 
@@ -105,7 +105,7 @@ The better comparison is what you would pay without the job. Most students on ca
 
 **By the numbers.** Say you would live in a North Campus double with the Bear Traditional meal plan. That costs $20,850 a year: $13,744 for the room, $7,056 for the plan and the $50 yearly dining fee ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). If you bought the same plan and paid the fee as an RA, you would pay $7,106. Your $7,860 stipend covers it with $754 left. The swing is $21,604 a year ($20,850 + $754), before taxes and any change to your aid. With the Unlimited plan at $7,604 plus the fee, $206 of the stipend is left.
 
-Measured per hour, the cash alone is thin. The fall appointment runs Aug. 4 to Dec. 20, 2027, about 20 weeks. At the weekly average that is about 400 hours. The first-semester stipend works out to about $9.83 an hour. Add the fall half of the single's price, $7,783, and the semester package is $11,713, or about $29.28 an hour. The room is the real pay.
+Measured per hour, the cash alone is thin. The fall appointment runs Aug. 4 to Dec. 20, 2027, about 20 weeks. At the weekly average that is about 400 hours. The first-semester stipend works out to about $9.83 an hour. Add the fall half of the single's price, $7,783, and the semester package is $11,713, or about $29.28 an hour. The room is the real pay ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/resident-advisor-ra-selection/resident-advisor-position-description)).
 
 <!-- ad-break -->
 
@@ -129,9 +129,9 @@ Your gain can be much smaller than the $21,604 swing above. If your aid already 
 
 The weekly hours go to residents, meetings and an on-call rotation. They include two hours a week of Community Hours, when you're on hand for residents, and one-on-one "RA Chats" with them. They include a mandatory team meeting on Wednesdays from 5:15 to 6:45 p.m. They include meetings with your supervisor, a Residence Hall Director (RHD), a full-time staff member who lives on campus.
 
-On-call runs 7 p.m. to 8 a.m. Sunday through Thursday and 24 hours on weekends. The RA on call must be in the building from 9 p.m. to 8 a.m. and reach any call in person within 15 minutes. You can sleep while on call, as long as you answer the phone. Calls cover lockouts, noise and roommate conflicts.
+On-call runs 7 p.m. to 8 a.m. Sunday through Thursday and 24 hours on weekends. The RA on call must be in the building from 9 p.m. to 8 a.m. and reach any call in person within 15 minutes. You can sleep while on call, as long as you answer the phone. Calls cover lockouts, noise and roommate conflicts ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/resident-advisor-ra-selection/resident-advisor-position-description)).
 
-The job also takes your breaks. RAs move in Aug. 3, 2027, train Aug. 4 to 13 and help with move-in after that. They stay for fall closing on Dec. 19 and 20, 2027, return Jan. 16, 2028, and leave May 24 or 25, 2028. RAs must be present whenever their community stays open, including university breaks and holidays, and they share coverage.
+The job also takes your breaks. RAs move in Aug. 3, 2027, train Aug. 4 to 13 and help with move-in after that. They stay for fall closing on Dec. 19 and 20, 2027, return Jan. 16, 2028, and leave May 24 or 25, 2028. RAs must be present whenever their community stays open, including university breaks and holidays, and they share coverage ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/resident-advisor-ra-selection/resident-advisor-position-description)).
 
 ```figure
 kind: timeline
@@ -153,9 +153,9 @@ Source: Cornell Housing and Residential Life, 2027-2028 RA position description.
 
 ## Who can apply?
 
-You must be a full-time Cornell undergraduate taking at least 12 credits each semester. You need at least two semesters of college finished before the job starts, not counting winter or summer terms. That means first-years can apply in their first fall, before they have a Cornell GPA. You need a 2.5 GPA each semester and overall, checked during selection and through the job. You must attend one information session, pass a background check and disclose any past or current conduct charges.
+You must be a full-time Cornell undergraduate taking at least 12 credits each semester. You need at least two semesters of college finished before the job starts, not counting winter or summer terms. That means first-years can apply in their first fall, before they have a Cornell GPA. You need a 2.5 GPA each semester and overall, checked during selection and through the job. You must attend one information session, pass a background check and disclose any past or current conduct charges ([RA FAQs](https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/resident-advisor-ra-selection/resident-advisor-faqs)).
 
-Cornell has about 200 RAs. It does not say how many spots open each year. Placement follows the department's needs, so you can land in an area you didn't rank. RA jobs cover North and South Campus first-year, upper-level and program house communities, not West Campus, Hasbrouck or the co-ops.
+Cornell has about 200 RAs. It does not say how many spots open each year. Placement follows the department's needs, so you can land in an area you didn't rank. RA jobs cover North and South Campus first-year, upper-level and program house communities, not West Campus, Hasbrouck or the co-ops ([RA FAQs](https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/resident-advisor-ra-selection/resident-advisor-faqs)).
 
 ```reader "If you're a first-year"
 With no Cornell GPA when you apply, yours is checked at the end of fall and spring. If you get an offer and finish spring below 2.5, you lose the job.
@@ -187,7 +187,7 @@ Source: Cornell Housing and Residential Life RA selection page and FAQs.
 
 The four essays ask about building community, handling conflict, connecting with people unlike you and the skills you'd bring. The last one asks why you ranked any program houses. Answer it with a specific house and a reason.
 
-Information sessions for 2027-28 ran Oct. 16, 19, 23 and 26, 2026, on Zoom, in Toni Morrison Hall and in Caldwell Hall Room 100. Students with a class conflict could ask for help through a form by Nov. 2.
+Information sessions for 2027-28 ran Oct. 16, 19, 23 and 26, 2026, on Zoom, in Toni Morrison Hall and in Caldwell Hall Room 100. Students with a class conflict could ask for help through a form by Nov. 2 ([RA selection page](https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/resident-advisor-positions)).
 
 ```figure
 kind: timeline
@@ -204,7 +204,7 @@ rows:
 ```
 Source: Cornell Housing and Residential Life RA selection page.
 
-If you missed this cycle, you can't apply for fall 2027. Applicants who are turned down, or who decline, wait for the 2028-29 cycle. If that cycle follows this one, it opens in mid-October 2027, so mark early October to look for information session dates. Questions go to hrl-sl-selection@cornell.edu; allow three business days for a reply.
+If you missed this cycle, you can't apply for fall 2027. Applicants who are turned down, or who decline, wait for the 2028-29 cycle. If that cycle follows this one, it opens in mid-October 2027, so mark early October to look for information session dates. Questions go to hrl-sl-selection@cornell.edu; allow three business days for a reply ([RA selection page](https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/resident-advisor-positions)).
 
 ## Can you be an RA in the summer or over winter break?
 
@@ -226,7 +226,7 @@ You can't be an undergraduate RA, and an RA who graduates and returns as a grad 
 
 ## What to do next
 
-If you're a first-year or sophomore aiming at 2028-29, book a Financial Aid appointment in September 2027 and ask what the room grant would do to your package. Then watch the RA selection page for the October information sessions. If you want a summer RA job, check the Summer Session page in March 2027.
+If you're a first-year or sophomore aiming at 2028-29, book a Financial Aid appointment in September 2027 and ask what the room grant would do to your package. Then watch the RA selection page for the October information sessions. If you want a summer RA job, check the Summer Session page in March 2027 ([RA selection page](https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/resident-advisor-positions)).
 
 Related guides:
 - [Cheapest off-campus housing near Cornell](/cornell/housing/cheapest-off-campus-housing-cornell/)

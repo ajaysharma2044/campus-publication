@@ -1,1 +1,10 @@
-{"id":30,"status":"done","page":"review/off-campus-housing/cornell-general-room-selection-timeslots-strategy.md","words":1368,"page_check":"PASS","unmatched":0,"note":"editor cut 1505->1368 words. gaps the writer reports (no source states them): The total number of timeslots or selection hours per day for April 13-16, 2027 is not published, so the page shows queue math per 20-minute wave only rather than total students per day.; Housing information session dates for spring 2027 are not posted yet (Cornell says later in fall 2026); the page says so once.; Cornell's pages disagree on the blockmate signing window (two hours on the Spring Housing Selection page, 12 hours in the FAQs); the page tells readers to follow two hours. The exemption deadline also appears as April 4 (selection page) and 'approved exemption by April 5' (FAQs); the page uses April 4.","updated":"2026-11-10 18:32"}
+{
+ "id": 30,
+ "status": "done",
+ "page": "content/articles/housing/cornell-general-room-selection-timeslots-strategy.md",
+ "words": "1368",
+ "page_check": "PASS",
+ "unmatched": "1",
+ "note": "editor cut 1505->1368 words. gaps the writer reports (no source states them): The total number of timeslots or selection hours per day for April 13-16, 2027 is not published, so the page shows queue math per 20-minute wave only rather than total students per day.; Housing information session dates for spring 2027 are not posted yet (Cornell says later in fall 2026); the page says so once.; Cornell's pages disagree on the blockmate signing window (two hours on the Spring Housing Selection page, 12 hours in the FAQs); the page tells readers to follow two hours. The exemption deadline also appears as April 4 (selection page) and 'approved exemption by April 5' (FAQs); the page uses April 4. | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
+}

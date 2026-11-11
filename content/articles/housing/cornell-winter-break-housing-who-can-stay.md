@@ -63,7 +63,7 @@ You don't qualify for break housing. Your own apartment is your break housing. I
 
 Any student returning as a resident of on-campus housing for spring semester can apply. So a senior who graduates in December, a student moving to Collegetown in January, and a student leaving for a spring abroad program cannot stay.
 
-Where you live in fall decides how you stay. Cornell keeps 10 buildings open over the 2026-27 break:
+Where you live in fall decides how you stay. Cornell keeps 10 buildings open over the 2026-27 break ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)):
 
 - Ganędagǫ: Hall
 - High Rise 5
@@ -98,7 +98,7 @@ Source: Cornell Housing, Winter Break Housing page and Winter Break 2026 Closing
 
 HILC and Loving House are free because individual gifts to those communities cover the cost. Veterans House is free because its license already runs through the break. Residents of all three must still file the application so Cornell knows they are staying.
 
-Cornell does not prorate the fees, so a student who stays 10 days of the full break pays the same as one who stays all 30 nights from closing to reopening. That makes the full break $16.67 a night ($500 divided by 30), and a one-week option $17.86 a night ($125 divided by 7).
+Cornell does not prorate the fees, so a student who stays 10 days of the full break pays the same as one who stays all 30 nights from closing to reopening. That makes the full break $16.67 a night over 30 nights, and a one-week option $17.86 a night over 7 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)).
 
 <!-- ad-break -->
 
@@ -117,7 +117,7 @@ rows:
   - {label: "If you live in a closing building, apply for the full break and wait for a Flex Space assignment."}
 ```
 
-Cornell doesn't say whether it takes late applications. If you miss the deadline, email housing@cornell.edu or call Housing Operations at 607-255-5368 before you book anything that depends on a bed.
+Cornell doesn't say whether it takes late applications. If you miss the deadline, email housing@cornell.edu or call Housing Operations at 607-255-5368 before you book anything that depends on a bed ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)).
 
 ## What are the key dates for winter break 2026-27?
 
@@ -136,7 +136,7 @@ Source: Cornell Housing, Winter Break 2026 Closing Checklist.
 
 All undergraduate residences close at 2 p.m. on Sunday, Dec. 20, 2026 ([Winter Break 2026 Closing Checklist](https://scl.cornell.edu/residential-life/housing/housing-details/winter-break-closing-checklist)). Only students with prior approval for break housing can enter residential buildings until they reopen at 9 a.m. on Tuesday, Jan. 19, 2027. Students who can't leave by the 2 p.m. deadline must ask for a later departure in the portal by Monday, Dec. 7, with their name, room number and reason. Without one, the charge is $60.00 an hour.
 
-If you go home, you can't get into your room during break, so take your passport, medications and anything else you'd need. You can move back in any time between reopening and the start of classes on Jan. 26, but you must book an arrival timeslot in the portal.
+If you go home, you can't get into your room during break, so take your passport, medications and anything else you'd need. You can move back in any time between reopening and the start of classes on Jan. 26, but you must book an arrival timeslot in the portal ([Closing Checklist](https://scl.cornell.edu/residential-life/housing/housing-details/winter-break-closing-checklist)).
 
 Plan your trip home against these dates with the [break travel timeline](/tools/cornell-break-travel-timeline-2026-27/).
 
@@ -144,7 +144,7 @@ Plan your trip home against these dates with the [break travel timeline](/tools/
 
 ## What changes for the 2027-28 winter break?
 
-The list of open buildings changes for 2027-28. High Rise 5 and Cascadilla Hall drop off. Jameson Hall and 301 College Avenue join. The other eight stay the same: Ganędagǫ: Hall, HILC, Hu Shih Hall, Loving House, Mews Hall, Toni Morrison Hall, the Townhouse Apartments and Veterans House.
+The list of open buildings changes for 2027-28. High Rise 5 and Cascadilla Hall drop off. Jameson Hall and 301 College Avenue join. The other eight stay the same: Ganędagǫ: Hall, HILC, Hu Shih Hall, Loving House, Mews Hall, Toni Morrison Hall, the Townhouse Apartments and Veterans House ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)).
 
 That matters when you pick a room for next year. A student who knows they'll stay every winter can choose an open building and keep their own room, instead of hoping for a Flex Space.
 

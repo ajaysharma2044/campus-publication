@@ -1,10 +1,10 @@
 {
  "id": 22,
  "status": "done",
- "page": "review/off-campus-housing/ithaca-apartments-1100-to-1500-a-bed.md",
- "words": "1182",
+ "page": "content/articles/housing/ithaca-apartments-1100-to-1500-a-bed.md",
+ "words": "1588",
  "page_check": "PASS",
- "unmatched": "40",
- "note": "editor pass 2 (after the checker fix) cleared the remaining flags. editor cut 1326->1175 words checker pass: 73 verified, 2 fixed, 0 removed, 0 new facts gaps the writer reports (no source states them): Utility costs in dollars per person for apartments that exclude electricity: the only fact rows are aggregator or household-level estimates (EnergySage $280 a month household, an unsourced all-utilities estimate), so the page names which buildings include electricity but gives no per-person electricity figure.; Lease year for many marketplace listings (PJ Apartm",
- "updated": "2026-11-10 18:27"
+ "unmatched": "57",
+ "note": "editor pass 2 (after the checker fix) cleared the remaining flags. editor cut 1326->1175 words checker pass: 73 verified, 2 fixed, 0 removed, 0 new facts gaps the writer reports (no source states them): Utility costs in dollars per person for apartments that exclude electricity: the only fact rows are aggregator or household-level estimates (EnergySage $280 a month household, an unsourced all-utilities estimate), so the page names which buildings include electricity but gives no per-person electricity figure.; Lease year for many marketplace listings (PJ Apartm | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
 }

@@ -1,7 +1,10 @@
 {
- "status": "writing",
- "page": "review/dining/cornell-graduate-student-meal-plans.md",
- "note": "sprint batch; written from the fact files, no web research; awaiting page_check and the batched source verification",
+ "status": "done",
+ "page": "content/articles/dining/cornell-graduate-student-meal-plans.md",
+ "note": "sprint batch, written from the fact files; published 2026-11-11 to eduexplained.netlify.app; verification 2026-11-11: 4 cited sources opened, 0 values corrected, 1 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 4 cited sources opened, 0 values corrected, 1 claims rewritten, relinked or removed",
  "id": 241,
- "updated": "2026-11-10 18:52"
+ "updated": "2026-11-11 13:48",
+ "words": "661",
+ "page_check": "PASS",
+ "unmatched": "5"
 }

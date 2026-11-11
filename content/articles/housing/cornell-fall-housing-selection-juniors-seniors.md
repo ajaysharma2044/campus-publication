@@ -61,7 +61,7 @@ images: []
 - Final 2027-28 room rates post in March 2027; prices shown at selection are projections.
 ```
 
-If you hold a Cornell room for 2027-28 but are weighing a lease, decide by Jan. 31, 2027, while canceling costs only $50 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy)). If you got no room, join the waitlist, but keep looking at leases. Cornell does not promise juniors and seniors a bed.
+If you hold a Cornell room for 2027-28 but are weighing a lease, decide by Jan. 31, 2027, while canceling is still cheap ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy)). If you got no room, join the waitlist, but keep looking at leases. Cornell does not promise juniors and seniors a bed.
 
 ## How does Fall Housing Selection work for juniors and seniors?
 
@@ -122,7 +122,7 @@ The last step is the expensive one. At the 2026-27 double rate of $6,872 per sem
 
 ## Should you keep your Cornell room or sign a Collegetown lease?
 
-Keep the room if you want a sure bed and the campus price fits your budget. Sign a lease if you can share a house of six or more bedrooms, where a bed costs less than a double, or if you want a kitchen and a 12-month home. Either way, decide before the February fee jump in the table above.
+Keep the room if you want a sure bed and the campus price fits your budget ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Sign a lease if you can share a house of six or more bedrooms, where a bed costs less than a double ([Ithaca Renting](https://ithacarenting.com/collegetown/)), or if you want a kitchen and a 12-month home. Either way, decide before the February fee jump in the table above.
 
 The money depends on group size more than anything else. A residence hall double costs $13,744 for two semesters in 2026-27, with gas, electricity, trash and internet included. A bed at 202 Dryden Road, a 10-bedroom Ithaca Renting house, lists at $725 to $825 a month for 2027-28 ([Ithaca Renting](https://ithacarenting.com/collegetown/)). Twelve months at those rents is $8,700 to $9,900. A standard studio at Collegetown Center, 151 Dryden Road, lists at $1,695 to $1,750 a month, or $20,340 to $21,000 a year.
 
@@ -160,7 +160,7 @@ The waitlist is your only route to a campus bed. You rank the areas and room typ
 ```
 
 ```reader "If you live in a West Campus house"
-Keeping a West Campus room costs more than the room. Every resident of Alice Cook, Carl Becker, Hans Bethe, William Keeton and Flora Rose houses must buy the House Meal Plan, $7,604 a year for 2026-27, plus a $50 yearly fee ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). With a double, that is $13,744 + $7,604 + $50 = $21,398. Compare that total, not the room rate alone, with a lease plus groceries.
+Keeping a West Campus room costs more than the room. Every resident of Alice Cook, Carl Becker, Hans Bethe, William Keeton and Flora Rose houses must buy the House Meal Plan, $7,604 a year for 2026-27, plus a $50 yearly fee ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). With a double, the total is $21,398. Compare that total, not the room rate alone, with a lease plus groceries.
 ```
 
 ```reader "If you'll study away or graduate in December 2027"

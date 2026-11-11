@@ -87,7 +87,7 @@ If the landlord quotes a per-bed price, multiply it by the number of bedrooms to
 
 A private bathroom is worth about $100 a month per person in Collegetown, based on how one large landlord prices its own units. Ithaca Renting, which posts its full per-bed price list, rents three kinds of four-bedroom apartments at Collegetown Plaza, 111 Dryden Rd, for 2027-28. The Premium 4-bedroom with one bathroom lists at $1,185 to $1,200 per bed a month. The Premium 4-bedroom with 1.5 bathrooms lists at $1,250 to $1,350. The Deluxe 4-bedroom with two bathrooms lists at $1,295 to $1,395 ([Ithaca Renting](https://ithacarenting.com/collegetown/)).
 
-The two Premium layouts carry the same label, so the bathroom is the clearest difference between them. At the midpoints of their ranges, $1,192.50 and $1,300, the extra half bathroom adds $107.50 per bed a month. That is the calculator's default value for a private bathroom. The Deluxe label can also mean better finishes, so its higher price says less about bathrooms alone.
+The two Premium layouts carry the same label, so the bathroom is the clearest difference between them. At the midpoints of their ranges, $1,192.50 and $1,300, the extra half bathroom adds $107.50 per bed a month. That is the calculator's default value for a private bathroom. The Deluxe label can also mean better finishes, so its higher price says less about bathrooms alone. ([Ithaca Renting](https://ithacarenting.com/collegetown/))
 
 The same landlord prices rooms, not just apartments. At 210 Dryden Rd, where tenants rent single rooms around shared kitchens and baths, a Standard Room lists at $695 to $810 a month and a Premium Room at $850 to $950. At the midpoints, $752.50 and $900, the better room costs $147.50 more. The listing does not say what makes a room Premium. It does show that one landlord charges more for a better room than for an extra half bath ([Ithaca Renting](https://ithacarenting.com/collegetown/)).
 
@@ -114,9 +114,9 @@ If every room has the perk, it changes nothing. That is why a closet only matter
 
 ## A worked example: a four-bedroom on Dryden Road
 
-Take the Collegetown Plaza Premium 4-bedroom with 1.5 bathrooms. At the midpoint per bed, the unit costs 4 x $1,300 = $5,200 a month. Say the apartment is 1,100 square feet, the bedrooms measure 150, 130, 120 and 100 square feet, and Room 1 has the half bath to itself.
+Take the Collegetown Plaza Premium 4-bedroom with 1.5 bathrooms. At the midpoint per bed ([Ithaca Renting](https://ithacarenting.com/collegetown/)), the unit costs 4 x $1,300 = $5,200 a month. Say the apartment is 1,100 square feet, the bedrooms measure 150, 130, 120 and 100 square feet, and Room 1 has the half bath to itself.
 
-The bedrooms add up to 500 square feet, so shared space is 1,100 - 500 = 600, or 150 square feet each. Room 1's base share is (150 + 150) / 1,100 x $5,200 = $1,418.18. With the bathroom valued at $107.50, Room 1 pays three-quarters of that ($80.63) more, and the other three each pay one-quarter ($26.88) less.
+The bedrooms add up to 500 square feet, so shared space is 1,100 - 500 = 600, or 150 square feet each, priced off the [Ithaca Renting](https://ithacarenting.com/collegetown/) rent above. Room 1's base share is (150 + 150) / 1,100 x $5,200 = $1,418.18. With the bathroom valued at $107.50, Room 1 pays three-quarters of that ($80.63) more, and the other three each pay one-quarter ($26.88) less.
 
 | Room | Base share (size) | Bathroom shift | Share a month | Vs. even split of $1,300 |
 |---|---|---|---|---|
@@ -128,7 +128,7 @@ The bedrooms add up to 500 square feet, so shared space is 1,100 - 500 = 600, or
 
 Source: rent from Ithaca Renting's Collegetown page, 2027-28; room sizes are the example setup. Shares are rounded after adding, so one row can differ from base plus shift by a cent.
 
-The biggest room with the bath pays $343.87 a month more than the smallest. Over a 12-month lease, the Room 4 tenant saves $145.06 x 12 = $1,740.72 against an even split.
+The biggest room with the bath pays $343.87 a month more than the smallest. Over a 12-month lease, the Room 4 tenant saves $145.06 x 12 = $1,740.72 against an even split of the [Ithaca Renting](https://ithacarenting.com/collegetown/) rent.
 
 ```reader "If you're a sophomore signing for junior year"
 Settle who gets which room, and what each pays, before anyone signs. Once the lease is signed the group has no lever, and the person who claimed the big room first has no reason to pay more. Measure the rooms on the showing, or ask the landlord for a floor plan. More on the year ahead is on the [sophomore start page](/start/sophomore/).

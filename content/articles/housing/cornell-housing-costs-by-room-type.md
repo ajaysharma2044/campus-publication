@@ -88,9 +88,9 @@ Source: Cornell Student & Campus Life, Housing Rates 2026-2027.
 
 Two labels trip people up. A "one-room quad" puts four people in a single room, so Cornell prices it like a triple. A "quad" spreads four people across more than one room and costs the same as a double. A "townhouse double" is a shared bedroom in the North Campus Townhouse Apartments. It costs the same as a single, and the unit comes with a full-size refrigerator ([2027-28 Housing License](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). A super single is the top rate on the table, a single Cornell prices above its regular singles.
 
-A single costs $1,822 more a year than a double. A super single costs $2,851 more. A triple saves $1,100.
+A single costs $1,822 more a year than a double. A super single costs $2,851 more. A triple saves $1,100 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
 
-Every rate includes gas, electricity, garbage pickup and internet up to 200 GB a month. Cornell asks for no security or damage deposit. Instead, the Bursar, Cornell's billing office, charges you after move-out if a room needs extra cleaning or repair.
+Every rate includes gas, electricity, garbage pickup and internet up to 200 GB a month. Cornell asks for no security or damage deposit. Instead, the Bursar, Cornell's billing office, charges you after move-out if a room needs extra cleaning or repair ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
 
 ## What does a full year cost with the meal plan?
 
@@ -173,7 +173,7 @@ rows:
 ```
 Source: Cornell Student & Campus Life, Housing Rates 2026-2027.
 
-For two semesters, a co-op double runs $6,974 at Red Bud ($3,487 times two) to $9,962 at 660 Stewart or Wari ($4,981 times two). The cheapest bed Cornell rents is the Red Bud triple at $5,530 a year, which is $7,114 less than a residence hall triple.
+For two semesters, a co-op double runs $6,974 at Red Bud ($3,487 times two) to $9,962 at 660 Stewart or Wari ($4,981 times two). The cheapest bed Cornell rents is the Red Bud triple at $5,530 a year, which is $7,114 less than a residence hall triple ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
 
 Food works differently in a co-op. Four of the eight houses have meal plans, and all have shared kitchens ([Cornell Cooperative Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). The rates page does not list what a co-op meal plan costs, so ask the house before you compare totals. Housing and Residential Life answers general co-op questions at co-ops@cornell.edu or 607-255-3445. Each house picks its own members, starting in early February and early November. How to get in, and what Greek houses charge, is in [our co-op and Greek house guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/).
 
@@ -251,7 +251,7 @@ No. The housing license says storage for students' belongings and university fur
 
 ## What to do next
 
-If you're picking a room for 2027-28, price the room type together with the meal plan its building requires, since the plan moves the total as much as the room does. Rising sophomores file the housing application by April 4, 2027.
+If you're picking a room for 2027-28, price the room type together with the meal plan its building requires, since the plan moves the total as much as the room does. Rising sophomores file the housing application by April 4, 2027 ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 Related guides:
 - [Is off-campus housing cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/)

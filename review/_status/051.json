@@ -1,1 +1,10 @@
-{"id":51,"status":"done","page":"review/off-campus-housing/cornell-housing-costs-by-room-type.md","words":1557,"page_check":"PASS (kept flags)","unmatched":15,"note":"editor cut 1627->1580 words. checker pass: 15 verified, 2 fixed, 1 removed, 0 new facts. gaps the writer reports (no source states them): What co-op house meal plans cost: the 2026-27 rates page and co-op overview give no co-op meal prices, so the page says to ask the house.; Maplewood rents: Cornell posts none and Greystar's page says to contact the office. The page gives the phone number and the $130.00 amenity fee only.; Which specific halls have super singles: the fact file has no official list, so the page defines the term only by price.. kept flags: unsourced, unsourced, unsourced, unsourced","updated":"2026-11-10 18:48"}
+{
+ "id": 51,
+ "status": "done",
+ "page": "content/articles/housing/cornell-housing-costs-by-room-type.md",
+ "words": "1569",
+ "page_check": "PASS",
+ "unmatched": "16",
+ "note": "editor cut 1627->1580 words. checker pass: 15 verified, 2 fixed, 1 removed, 0 new facts. gaps the writer reports (no source states them): What co-op house meal plans cost: the 2026-27 rates page and co-op overview give no co-op meal prices, so the page says to ask the house.; Maplewood rents: Cornell posts none and Greystar's page says to contact the office. The page gives the phone number and the $130.00 amenity fee only.; Which specific halls have super singles: the fact file has no official list, so the page defines the term only by price.. kept flags: unsourced, unsourced, unsourced, unsourced | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
+}

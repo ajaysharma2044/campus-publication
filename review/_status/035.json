@@ -1,1 +1,10 @@
-{"id":35,"status":"done","page":"review/off-campus-housing/when-to-apply-for-cornell-housing-deadlines.md","words":1453,"page_check":"PASS (kept flags)","unmatched":0,"note":"editor cut 1649->1453 words. gaps the writer reports (no source states them): 2027-28 dates for new-student applications (fall 2027 entrants) and Hasbrouck renewals/new applications are not posted; page gives the 2026 dates (April 1, 2026; Feb. 3, 2026) as last cycle's and says 2027 dates are not posted.; When students entering in January 2027 (spring first-years and spring transfers) apply for housing: no fact row or source gives a date.; What happens to a rising sophomore who misses the April 4 application deadline (Cornell states only that late exemption requests are not considered); page tells readers to call before the deadline.. kept flags: repetition, repetition, repetition","updated":"2026-11-10 18:37"}
+{
+ "id": 35,
+ "status": "done",
+ "page": "content/articles/housing/when-to-apply-for-cornell-housing-deadlines.md",
+ "words": "1449",
+ "page_check": "PASS",
+ "unmatched": "0",
+ "note": "editor cut 1649->1453 words. gaps the writer reports (no source states them): 2027-28 dates for new-student applications (fall 2027 entrants) and Hasbrouck renewals/new applications are not posted; page gives the 2026 dates (April 1, 2026; Feb. 3, 2026) as last cycle's and says 2027 dates are not posted.; When students entering in January 2027 (spring first-years and spring transfers) apply for housing: no fact row or source gives a date.; What happens to a rising sophomore who misses the April 4 application deadline (Cornell states only that late exemption requests are not considered); page tells readers to call before the deadline.. kept flags: repetition, repetition, repetition | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed | published 2026-11-11; verification 2026-11-11: 0 cited sources opened, 0 values corrected, 0 claims rewritten, relinked or removed",
+ "updated": "2026-11-11 13:48"
+}
