@@ -127,7 +127,7 @@ rows:
 
 ## How do I find a doctor in Ithaca?
 
-Start with Cornell Health, the campus clinic. Its 24/7 advice line is [607-255-5155](https://health.cornell.edu/about/news/cold-weather-safety), and you can also book through the myCornellHealth portal. Cornell Health also has nutritionists; students can call the same number for a nutritionist plan ([Cornell Health](https://health.cornell.edu/services/nutrition-services/affordable-food)). For prescriptions and off-campus options, see the [pharmacy guide](/cornell/daily-life/pharmacy-near-cornell-campus-ithaca/).
+Start with Cornell Health, the campus clinic. Its 24/7 advice line is [607-255-5155](https://health.cornell.edu/about/news/cold-weather-safety), and you can also book through the myCornellHealth portal. Cornell Health also has nutritionists; students can call the same number for a nutritionist plan ([Cornell Health](https://health.cornell.edu/services/nutrition-services/affordable-food)). For prescriptions and off-campus options, see the [pharmacy guide](/health-safety/pharmacy-near-cornell-campus-ithaca/).
 
 Any registered student can use Cornell Health, whatever their insurance. It bills your plan and caps most remaining costs at its $10 visit fee. The cap excludes pharmacy, travel medicine, Labcorp tests, care outside Cornell Health, and immunizations other than flu and COVID-19 ([Cornell Health](https://health.cornell.edu/get-care/insurance-billing)).
 
@@ -159,5 +159,5 @@ Check who pays the plan in your family before the waiver deadline. You can read 
 
 ## Related guides
 
-- [Pharmacy near Cornell campus in Ithaca](/cornell/daily-life/pharmacy-near-cornell-campus-ithaca/): prescriptions and where to fill them.
+- [Pharmacy near Cornell campus in Ithaca](/health-safety/pharmacy-near-cornell-campus-ithaca/): prescriptions and where to fill them.
 - [International students at Cornell](/start/international/): arrival checklist.

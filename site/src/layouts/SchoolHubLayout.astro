@@ -14,7 +14,7 @@ interface Props { m: SiteModel; school: School }
 const { m, school } = Astro.props;
 const all = forSchool(m, school);
 const start = pillars(all).slice(0, 5);
-const sections = site.topics.filter((t) => !isAudience(t.id)).map((t) => { const items = forTopic(m, school, t); const feat = pillars(items)[0] ?? items[0]; return { t, feat, rest: items.filter((p) => p !== feat).slice(0, 6), count: items.length }; }).filter((s) => s.count);
+const sections = site.topics.filter((t) => !t.hidden && !isAudience(t.id)).map((t) => { const items = forTopic(m, school, t); const feat = pillars(items)[0] ?? items[0]; return { t, feat, rest: items.filter((p) => p !== feat).slice(0, 6), count: items.length }; }).filter((s) => s.count);
 const data = dataPages(all);
 const dataRows = [...data.map((p) => ({ title: p.title, url: p.url, dek: p.dek, category: `${p.topic.label} · Data`, meta: `Updated ${fmtDate(p.updated)}` })), ...m.datasets.map((d) => ({ title: d.title, url: d.url, dek: d.dek, category: `${d.topic.label} · Data`, meta: `Data as of ${fmtDate(d.asOf)}` }))];
 const startRows = m.starts.map((s) => ({ title: s.title, url: s.url, dek: s.dek, category: s.topics.map((t) => t.label).join(', ') }));

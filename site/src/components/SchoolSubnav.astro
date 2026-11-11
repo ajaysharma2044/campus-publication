@@ -3,14 +3,15 @@ import { site, type School } from '../../site.config';
 import { schoolUrl, topicUrl, dataIndexUrl } from '../lib/model';
 interface Props { school: School; current?: string }
 const { school, current } = Astro.props;
-const topics = site.topics.filter((t) => !site.audiences.some((a) => a.id === t.id));
+const topics = site.topics.filter((t) => !t.hidden && !site.audiences.some((a) => a.id === t.id));
+const audiences = site.audiences.filter((a) => !site.topics.find((t) => t.id === a.id)?.hidden);
 ---
 <nav class="subnav" aria-label={`${school.name} sections`}>
   <div class="wrap subnav__inner">
     <a class="subnav__school" href={schoolUrl(school)}>{school.name}</a>
     <ul class="subnav__list">
       {topics.map((t) => <li><a class="subnav__link" href={topicUrl(school, t)} aria-current={current === t.id ? 'page' : undefined}>{t.label}</a></li>)}
-      {site.audiences.map((a) => <li><a class="subnav__link" href={topicUrl(school, a.id)} aria-current={current === a.id ? 'page' : undefined}>{a.label}</a></li>)}
+      {audiences.map((a) => <li><a class="subnav__link" href={topicUrl(school, a.id)} aria-current={current === a.id ? 'page' : undefined}>{a.label}</a></li>)}
       <li><a class="subnav__link" href={dataIndexUrl(school)} aria-current={current === 'data' ? 'page' : undefined}>Data</a></li>
     </ul>
   </div>

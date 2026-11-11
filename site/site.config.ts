@@ -12,7 +12,7 @@ export interface School {
   dek: string;       // the school hub's one-paragraph dek, written for that school
 }
 
-export interface Topic { id: string; label: string; blurb: string }
+export interface Topic { id: string; label: string; blurb: string; hidden?: boolean }   // hidden: fewer than 5 published articles (docs/v5 Phase 7b): built and linkable, but out of the navigation, the school hub and the sitemap
 
 export interface AudienceStage { name: string; match: RegExp[]; topics?: string[] }
 export interface Audience { id: string; label: string; stages: AudienceStage[] }
@@ -31,7 +31,10 @@ export const site = {
   tagline: 'Research-first guides for students, parents and alumni',
   // The production domain is www.eduexplained.com (confirmed by Ajay, 2026-11-11); config/monetization.yml carries it too.
   url: process.env.SITE_URL ?? 'https://www.eduexplained.com',
-  production: process.env.SITE_PRODUCTION === '1',   // false: every page carries noindex and robots.txt disallows all
+  production: process.env.SITE_PRODUCTION === '1',   // the live domain build (canonical URLs, ads); indexing is governed by `launched` and each page's index field
+  // docs/v5 Phase 9: one flag. false (today): robots.txt is Disallow: /, every page is noindex, follow, the sitemap is empty.
+  // true: robots.txt follows config/crawlers.yml, pages with frontmatter index: true are index, follow and fill the sitemap; all others stay noindex, follow.
+  launched: process.env.LAUNCHED === 'true',
   language: 'en-US',
   organization: {
     legalName: 'EduExplained',                 // OWNER: legal entity (content/pages/about.md carries the same placeholder)
@@ -69,13 +72,13 @@ export const site = {
     { id: 'getting-around', label: 'Getting around', blurb: 'Flights into ITH and SYR, buses to NYC and Boston, airport rides, TCAT, parking, biking and break travel.' },
     { id: 'money', label: 'Money', blurb: 'Real cost of living, meal plan math, cheap groceries, jobs, financial aid appeals and budgets by scenario.' },
     { id: 'dining', label: 'Dining', blurb: 'Dining halls, meal plans and Big Red Bucks, late-night options, dietary needs, restaurants, groceries and cooking.' },
-    { id: 'academics', label: 'Academics', blurb: 'Courses and professors, requirements, registration strategy, add/drop, internal transfer and study spots.' },
+    { id: 'academics', hidden: true, label: 'Academics', blurb: 'Courses and professors, requirements, registration strategy, add/drop, internal transfer and study spots.' },
     { id: 'transfer', label: 'Transfer', blurb: 'Applying as a transfer, credit evaluation, housing and the residential requirement, orientation and aid.' },
-    { id: 'careers', label: 'Careers', blurb: 'Internships, recruiting timelines, career fairs and the employers that hire from campus.' },
-    { id: 'parents', label: 'Parents', blurb: 'Visiting, hotels, move-in weekend, graduation and what to send.' },
+    { id: 'careers', hidden: true, label: 'Careers', blurb: 'Internships, recruiting timelines, career fairs and the employers that hire from campus.' },
+    { id: 'parents', hidden: true, label: 'Parents', blurb: 'Visiting, hotels, move-in weekend, graduation and what to send.' },
     { id: 'health-safety', label: 'Health and safety', blurb: 'Cornell Health services and costs, the student health plan and waivers, pharmacies, mental health services, urgent care, and campus and Collegetown safety, fire rules and crime statistics.' },
     { id: 'daily-life', label: 'Daily life', blurb: 'Gyms, health care, phones and banking, winter gear, safety and clubs.' },
-    { id: 'alumni', label: 'Alumni', blurb: 'Benefits, events and staying in Ithaca after graduation.' },
+    { id: 'alumni', hidden: true, label: 'Alumni', blurb: 'Benefits, events and staying in Ithaca after graduation.' },
   ] as Topic[],
   // The homepage topic rows, in order (spec: Housing, Money, Academics, Careers, Parents).
   homeTopics: ['housing', 'money', 'academics', 'careers', 'parents'],
@@ -119,11 +122,12 @@ export const site = {
   // here (kind: 'person', with slug, role and bio). A page may name one with frontmatter `author: <slug>`.
   authors: [
     {
-      slug: 'eduexplained-editors', name: 'EduExplained editors', kind: 'organization', role: 'Editorial team',
-      bio: 'EduExplained guides are researched from official sources (the university, the city, transit agencies, landlords) and from attributed student experience (student newspapers, public forums, listings). AI tools assist the research and drafting; every guide is edited, every hard fact is checked against the page it links to, and the Updated date records the last review. Nothing is published without a source for every price, date, fee and rule.',
+      slug: 'ajay-sharma', name: 'Ajay Sharma', kind: 'person', role: 'Editor-in-chief',
+      // OWNER: {{BIO}} placeholders for Ajay to fill (docs/v5 Phase 8); nothing here is a claim he has approved
+      bio: 'Ajay Sharma is the editor-in-chief of EduExplained. {{BIO: Cornell transfer student}} {{BIO: public policy at the Brooks School}} Disclosure: Ajay is the founder of a transfer admissions firm, TransferringUp; EduExplained guides are written and edited independently of it and never recommend it. {{BIO: how he edits: official sources first, every number linked, corrections logged}}',
     },
   ] as Author[],
-  defaultAuthor: 'eduexplained-editors',
+  defaultAuthor: 'ajay-sharma',   // every page carries a real byline (docs/v5 Phase 8); the editors entry stays for the organization page and old links
   // Traffic-driven lists. OWNER: fill from analytics; empty lists fall back to the longest pillar guides, labeled "Start here".
   mostRead: [] as string[],     // page URLs
   featured: [] as string[],     // homepage lead and the three cards beside it
@@ -131,9 +135,6 @@ export const site = {
     { label: 'Schools', href: '/#schools' },
     { label: 'Housing', href: '/cornell/housing/' },
     { label: 'Money', href: '/cornell/money/' },
-    { label: 'Academics', href: '/cornell/academics/' },
-    { label: 'Careers', href: '/cornell/careers/' },
-    { label: 'Parents', href: '/cornell/parents/' },
     { label: 'Data', href: '/cornell/data/' },
   ],
   footer: {
@@ -145,11 +146,10 @@ export const site = {
       ] },
       { title: 'Cornell', links: [
         { label: 'Student guide', href: '/cornell/' }, { label: 'Housing', href: '/cornell/housing/' }, { label: 'Money', href: '/cornell/money/' },
-        { label: 'Academics', href: '/cornell/academics/' }, { label: 'Getting around', href: '/cornell/getting-around/' }, { label: 'Data and trackers', href: '/cornell/data/' },
+        { label: 'Getting around', href: '/cornell/getting-around/' }, { label: 'Data and trackers', href: '/cornell/data/' },
       ] },
       { title: 'Readers', links: [
-        { label: 'Parents', href: '/cornell/parents/' }, { label: 'Transfer students', href: '/cornell/transfer/' }, { label: 'Alumni', href: '/cornell/alumni/' },
-        { label: 'Cross-school guides', href: '/guides/' }, { label: 'Authors', href: '/authors/' }, { label: 'Search', href: '/search/' },
+        { label: 'Transfer students', href: '/cornell/transfer/' }, { label: 'Cross-school guides', href: '/guides/' }, { label: 'Authors', href: '/authors/' }, { label: 'Search', href: '/search/' },
       ] },
     ],
     disclaimer: 'EduExplained is an independent publication. It is not affiliated with Cornell University, the City of Ithaca or any landlord, carrier or business named in a guide.',

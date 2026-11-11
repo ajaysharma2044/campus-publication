@@ -50,7 +50,15 @@ def set_frontmatter(text: str, topic: str, redirect_from: list[str]) -> str:
 
 
 def main() -> int:
-    mv = moves()
+    pairs = [a for a in sys.argv[1:] if a.startswith("--pair=")]
+    if pairs:   # --pair=<old section>/<slug>:<new section>, repeatable; else the Phase 0 mismatch list
+        mv = []
+        for a in pairs:
+            src, new = a[len("--pair="):].split(":")
+            old, slug = src.split("/")
+            mv.append((slug, old, new))
+    else:
+        mv = moves()
     print(f"{len(mv)} page(s) to move")
     link_rewrites = {}
     for slug, old, new in mv:
