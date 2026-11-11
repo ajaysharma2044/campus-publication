@@ -31,7 +31,9 @@ sources:
   title: New Changes to Fall Housing Selection Leave Some Rising Juniors, Seniors Disappointed, The Cornell Daily Sun
   accessed: '2026-11-10'
 images: []
+page_type: answer
 ---
+
 
 
 ```glance
