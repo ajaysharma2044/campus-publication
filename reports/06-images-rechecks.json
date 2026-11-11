@@ -1,0 +1,338 @@
+[
+ {
+  "slug": "cornell-id-card-how-to-get-what-it-does",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. The 2021 TCAT bus interior (CC BY-SA 4.0) passes on age but shows neither the ID card nor where to get one, and the caption's 'farebox' is unsupported: Commons says only 'facing the front entry door', and the frame shows the driver's console, the door and a fire-extinguisher cabinet. Commons has no photo of a Cornell ID card or card reader (searched), so use the building that houses the Registrar's ID office, 245 Day Hall (confirmed on registrar.cornell.edu): Day Hall 04, main entrance, P. Hughes, 7 June 2025, CC BY 4.0, 5594x3601. It also leads cornell-first-generation-student-housing; Day Hall 03 (south side, same author, unused) is the fallback. Caption it as Day Hall, home of the Registrar's ID card office, with no farebox claim.",
+  "query": "Wikimedia Commons: \"Cornell University - Day Hall 04\" (main entrance, P. Hughes, 2025); fallback \"Cornell University - Day Hall 03\""
+ },
+ {
+  "slug": "cornell-snow-days-class-cancellation-how-it-works",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. Commons metadata confirms the file was taken 18 Dec 2005 (20.9 years old, over the limit) and is only 2048x547, and the alt names a McGraw Tower that is not in frame. Commons has few current Cornell snow photos, and its winter categories (Winter in Ithaca, New York; Snow in Ithaca, New York) mostly hold 1980s to 2014 files, so a generic Arts Quad snow search will return the same 2005 shot or its '- banner' crop (same photo); exclude both. Verified current, unused options: Ezra Cornell statue after snowstorm (BryanKatz, 17 Jan 2022, CC BY-SA 4.0, 4032x3024; the statue stands on the Arts Quad, which matches the subject), then Cornell University Klarman Hall in winter (Kenneth C. Zirkel, 21 Dec 2019, CC BY-SA 4.0, 3600x2400). The 2005 file also leads staying-in-ithaca-over-cornell-breaks and the winter guide, so give each page a different photo. If neither is wanted, drop the lead rather than keep the 2005 file.",
+  "query": "Wikimedia Commons: \"Ezra Cornell statue after snowstorm\" (BryanKatz, Jan 2022); fallback \"Cornell University Klarman Hall in winter\" (Kenneth C. Zirkel, Dec 2019)"
+ },
+ {
+  "slug": "internet-providers-ithaca-compared-cornell-students",
+  "agree": false,
+  "final": "keep",
+  "note": "Disagree with replace: keep the photo and fix only the caption and alt. It is current (EXIF 1 May 2018, CC BY-SA 4.0, 3840x2560) and is a distinctive off-campus student complex, a fair setting for an internet page aimed at off-campus renters. Nothing better exists: Commons has no Ithaca internet-provider photo (searched Spectrum, Verizon, cable) and no named Collegetown apartment photo to swap in, and the dry run already shows a replace search returning this same file with the same caption. The real defect is the name. 'College Park Apartments' is the uploader's own Commons category (Wikidata Q127604220 has no address or coordinates), and the only College Park Apartments my search surfaced is an old listing at 905 and 907 E State St. The photo matches Collegetown Terrace Building 7, 120 Valentine Place, as described in ithacating.com construction updates (diamond green fish-scale shingles, a skybridge to Building 5, a glass-walled common area, buildings stepping down the hill), so the first reviewer's guess is likely right, but confirm before naming it. Safe caption and alt: 'A student apartment complex in Ithaca, with a skybridge between two buildings.' The same file and name sit on can-landlord-refuse-sublet-new-york-ithaca, furnished-vs-unfurnished-apartments-ithaca and touring-ithaca-apartments-what-to-check, and four more pages' replacement searches target it, so fix the name everywhere.",
+  "query": "n/a, keep the photo; edit caption and alt only"
+ },
+ {
+  "slug": "ithaca-winter-survival-guide-cornell",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. Same defects as the snow-days page: taken 18 Dec 2005, 2048x547, the alt names a McGraw Tower that is not in frame, and the subject field asks for Libe Slope and McGraw Tower, which the photo does not show. Best verified current match: Cornell campus in winter (Kenneth C. Zirkel, 21 Dec 2019, CC BY-SA 4.0, 3600x1346; Commons describes Olin Library at left and Goldwin Smith Hall at right, snow on the quad). It is already the lead on what-to-wear-ithaca-winter-cornell, so either accept the repeat or move that page to the unused Klarman Hall in winter. Alternative for the city half of the guide: Ithaca Commons in winter (Zirkel, 22 Jan 2019, CC BY-SA 4.0, 3000x2103), though it leads cheapest-off-campus-housing-cornell. Use a different photo here than on cornell-snow-days, and do not caption it as McGraw Tower.",
+  "query": "Wikimedia Commons: \"Cornell campus in winter\" (Kenneth C. Zirkel, Dec 2019); fallback \"Ithaca Commons in winter\" (Zirkel, Jan 2019)"
+ },
+ {
+  "slug": "winter-activities-ithaca-cornell-students",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. The lead is a June 2025 summer view of Beebe Lake: honest caption, but it shows no winter activity, and Commons has no current winter photo of Beebe Lake (its skating and toboggan files are 1900s to 1920s). Verified current files for the page's lead activity: Greek Peak - Main Base Area 2024 (Douglas Camin, 21 Jan 2024, CC BY-SA 4.0, 1280x960, skiers at the base area) and Greek Peak Ski Resort 2026 (Camin, 24 Jan 2026, CC0, 1280x960, wide shot of the trails); these are the only two Greek Peak photos on Commons and both clear the 1,200 px lead minimum. I would try the 2024 file first because it shows people skiing. Lynah Rink at Cornell University (Edwardguo, 5 Feb 2022, CC BY-SA 4.0, 4032x3024) is a hockey crowd, so it suits the skating section better than the lead. Caption Greek Peak as the ski area in Virgil that hosts Cornell's skiing course, not as Ithaca.",
+  "query": "Wikimedia Commons: \"Greek Peak - Main Base Area 2024\" (Douglas Camin, Jan 2024); or \"Greek Peak Ski Resort 2026\" (Camin, CC0)"
+ },
+ {
+  "slug": "allergy-friendly-dining-cornell",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. The lead is a 1925 postcard (101 years old, over the limit) of a building whose historic look is not what the page is about; the caption is honest, but the rule applies. Current photos of the same building exist: Risley Hall, Cornell University (Kenneth C. Zirkel, 19 Aug 2018, CC BY-SA 4.0, 3000x2000), which shows the tower and facade clearly, and Cornell University - Risley Hall from Thurston Avenue (Joe Mabel, 29 Oct 2025, CC BY-SA 4.0, 6000x4000), where Risley is small and distant behind a crosswalk. I prefer the Zirkel file, but it already leads four Risley and program-house pages; the Mabel file leads only cornell-north-campus-dorms-compared. Commons has no current photo of the Risley dining room (the dining-room file is a circa 1915 postcard). Caption it as Risley Hall, home of Risley Dining.",
+  "query": "Wikimedia Commons: \"Risley Hall, Cornell University\" (Kenneth C. Zirkel, Aug 2018); fallback \"Cornell University - Risley Hall from Thurston Avenue\" (Joe Mabel, Oct 2025)"
+ },
+ {
+  "slug": "big-red-bucks-cornell-how-they-work-expire",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. Manndible Cafe in Mann Library (photo 17 Feb 2009) closed in May 2021 (Cornell Daily Sun, 7 May 2021) and Cornell Dining's Mann Cafe replaced it, so the lead presents a defunct, non-Cornell-Dining cafe as a place to spend Big Red Bucks; the page itself says Mann Cafe. Big Red Barn is a Cornell Dining eatery that takes Big Red Bucks (Cornell Dining Now lists it) and the page names it. Best file: Cornell University - Big Red Barn (P. Hughes, 7 June 2025, CC BY 4.0, 4956x3231), a clear front view with the entrance and sign. The first reviewer's lead pick, Big Red Barn 01 (Joe Mabel, 29 Oct 2025), is a plain side wall behind shrubs, so use it only as the fallback. A third Barn photo (Zirkel) already leads cornell-graduate-student-meal-plans. The 2009 file also leads cornell-cafes-that-take-big-red-bucks, which needs a different replacement.",
+  "query": "Wikimedia Commons: \"Cornell University - Big Red Barn\" (P. Hughes, June 2025); fallback \"Cornell University - Big Red Barn 01\" (Joe Mabel, Oct 2025)"
+ },
+ {
+  "slug": "city-bucks-cornell-businesses-that-accept",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. The 2009 shot (Dougtone, 30 Oct 2009; 17 years, inside the age limit) shows the right street but dated businesses: the College Avenue Starbucks closed in June 2022, and neither it nor Stella's is a City Bucks business. The file is also used on ten pages, so it works as stock. Commons has no photo of any of the 12 listed businesses (searched). Best current option: Cornell University - Sheldon Court (2025) (P. Hughes, 7 June 2025, CC BY 4.0, 6048x4024). Sheldon Court is at 420 College Ave, the same 400 block by address as 7-Eleven (409) and D.P. Dough (408), and the photo shows street-level outdoor seating. Caption it as College Avenue in Collegetown in June 2025 and do not name the ground-floor business, which is not on the City Bucks list. It leads two Sheldon Court pages. The fallback, Ithaca - Entrance to Cornell University, College Avenue (P. Hughes, June 2025), is the bridge at the campus end and shows no storefronts. Aside outside photo scope: the body names GreenStar at 307 College Ave as a City Bucks grocery, but the 12-row table has no GreenStar row.",
+  "query": "Wikimedia Commons: \"Cornell University - Sheldon Court (2025)\" (P. Hughes, June 2025); fallback \"Ithaca - Entrance to Cornell University, College Avenue\" (P. Hughes, June 2025)"
+ },
+ {
+  "slug": "cornell-cafes-that-take-big-red-bucks",
+  "agree": true,
+  "final": "replace",
+  "query": "File:Stocking Hall at Cornell University.jpg; File:Mann Library - Exterior view.jpg; File:Cornell University - Big Red Barn.jpg",
+  "note": "Agree. The 17 Feb 2009 photo shows Manndible Cafe, an independently owned eatery (Cornell Sun, 7 May 2021) that closed in May 2021 and was replaced by Cornell-run Mann Cafe; the page says BRBs work only at Cornell Dining and lists Mann Cafe, and its caption glues the page dek onto the cafe name. Best swap: Stocking Hall (Zirkel, 19 May 2019, CC BY-SA 3.0, 3000x2000), whose Commons description names the Dairy Bar, one of the 18 listed cafes (milk-bottle sculpture and glass dining wall). No Commons file shows the inside of a current Cornell Dining cafe. Mann Library exterior (2015) is second and unused elsewhere; the Big Red Barn is last because the BRB explainer's reviewer also wants it. BEFORE APPLYING: empty the frontmatter subject; with 'Cornell Dining cafe counter, Cornell University campus' the finder refuses every file lacking dining, cafe or counter and the lead is dropped. Caption idea: Stocking Hall, home of the Cornell Dairy Bar."
+ },
+ {
+  "slug": "cheapest-ways-to-get-around-cornell",
+  "agree": true,
+  "final": "replace",
+  "query": "File:TCAT Gillig Low Floor 40 1806.jpg; File:TCAT New Flyer XD40 1907.jpg",
+  "note": "Agree. Commons dates the trestle photo 2 Jan 1889 (137 years); the frame shows a steel trestle and four men with no car or road, so the alt text (a car parked on a country road beneath a wooden trestle) is false, and it is only 996 px wide. Best swap: a TCAT bus at a Cornell stop, Route 81 approaching Uris Hall (BrakeCoach, 27 Jan 2025, CC BY-SA 4.0, 5712x4284, unused elsewhere), which fits the free-TCAT-hours half of the page; XD40 1907 is the backup. TCAT Bus 2602 is already the lead of two TCAT pages, and the only OurBus coach on Commons is better kept for the Syracuse airport page. Caption idea: a TCAT Route 81 bus at Cornell's Uris Hall stop. The same trestle file leads seven other pages (getting-around-ithaca-cornell-grad-students, having-a-car-at-cornell-student-guide, getting-around-ithaca-off-campus-renters, getting-around-cornell-upper-years-no-car, getting-around-cornell-parents-visitors, ithaca-carshare-cornell-students-cost, uber-lyft-taxi-ithaca-cornell) and fails the same way."
+ },
+ {
+  "slug": "cornell-c2c-bus-booking-fares-rules",
+  "agree": true,
+  "final": "replace",
+  "query": "File:Cornell University - Robert Purcell Community Center.jpg; File:Cornell University - Sage Hall 01.jpg",
+  "note": "Agree. The photo shows two TCAT route 82 city buses, not a C2C coach; the Commons date is 10 Apr 2011 while the description says 9 Apr 2012 (the caption says 2012); and at 1055x398 it is far under the 1,200 px lead width. Commons has no C2C coach (searched Campus-to-Campus, C2C, Cornell Club, Weill, Feeney Way; Openverse returned 504 today, so it is unchecked). Best swap: Robert Purcell Community Center (P. Hughes, 5 Jun 2025, CC BY 4.0, 5892x3985), the first Ithaca stop that the page's first-year block names (217 Jessup Road, shelters in front of RPCC); caption it as that stop, not as the bus. The first reviewer's Sage Hall 20240526 is a 1800x2700 portrait, its dated title would become the caption, and the Sage Hall stop is a TCAT shelter on Feeney Way, not the building. Do not search 'Campus-to-Campus bus': it returns the TCAT photo being removed."
+ },
+ {
+  "slug": "cornell-move-in-day-parking-unloading",
+  "agree": true,
+  "final": "replace",
+  "query": "File:Cornell University - Low Rise 6 02.jpg; File:Cornell University - Mary Donlon Hall 02.jpg",
+  "note": "Agree. The file is a 1975 Dexter Press postcard by H. K. Barnett (Commons: Cornell University in the 1970s, High Rise 5 in the foreground), 51 years old, and its caption (the Commons title) never says so; it shows no move-in activity. Best swap: Low Rise 6 (Indies1, 5 Jun 2025, CC BY 4.0, 6048x4024), a North Campus hall entrance with its approach drive, which suits 'unload at your building'; both files say North Campus, so the page's current subject ('Cornell North Campus') passes the finder with no edit. The first reviewer's Zirkel Mary Donlon Hall (2018, cars at the curb) already leads the sibling page cornell-move-in-day-dates-checklist, and the plain query 'Mary Donlon Hall, Cornell University' ranks a 2025 close-up first that the subject check refuses. Do not caption it as move-in day; Commons only says it is a North Campus residence hall."
+ },
+ {
+  "slug": "cornell-move-out-storage-shipping-options",
+  "agree": false,
+  "final": "remove",
+  "query": "n/a, remove the lead image (if a lead is mandatory: File:Cornell University - High Rise 5.jpg)",
+  "note": "Disagree with replace; remove. The 1975 postcard must go (51 years, generic campus view, undated caption), but no licensed photo shows the page's subject: Commons has nothing for storage, shipping, boxes, a crew pickup, Big Red Shipping and Storage, 409 College Ave, Student Agencies or Dump and Run (all searched; Openverse is down). A residence hall exterior would fail the same 'shows the page's subject, not generic' test, its Commons title would become the caption, and the hall photos the first reviewer names are already the lead of 11 pages (Toni Morrison) or of the sibling move-in page (Donlon). If a lead is mandatory, High Rise 5 (P. Hughes, 5 Jun 2025, CC BY 4.0, the tower in the old postcard, portrait 4024x6048) passes the page's 'north' subject check."
+ },
+ {
+  "slug": "syracuse-airport-to-cornell-ourbus-car-service",
+  "agree": true,
+  "final": "replace",
+  "query": "File:Exterior of OurBus .jpg",
+  "note": "Agree. The photo is TCAT bus 2107 on Route 30 at Seneca Street Station (Hbithaca, 6 May 2021); TCAT does not go to Syracuse, so the caption has to disclaim the photo, and the frontmatter subject 'TCAT bus Ithaca' repeats the error. Best swap: the OurBus coach at an Ithaca curb (SM3544, 7 Oct 2017, CC BY-SA 4.0, 3264x2448; the Commons name has a space before .jpg), the only OurBus coach on Commons and the service this page tells readers to take. A Syracuse airport photo would be better on paper, but the finder refuses every SYR file (none names Cornell or Ithaca), so the first reviewer's SYR query returns nothing and would silently remove the lead. BEFORE APPLYING: empty the frontmatter subject; with 'TCAT bus Ithaca' the finder refuses the OurBus file for lacking the word bus. Caption must say Ithaca and 2017, for example: An OurBus coach at a stop in Ithaca, 2017. OurBus also runs Cornell to Syracuse Hancock."
+ },
+ {
+  "slug": "cheapest-off-campus-housing-cornell",
+  "agree": true,
+  "final": "replace",
+  "query": "File:Ruth Bader Ginsburg Hall, Cornell University.jpg; File:Cornell University - Low Rise 6 01.jpg",
+  "note": "Agree, softly. The Ithaca Commons (Zirkel, Jan 2019) is a shopping street and the stock Ithaca view, while the page's headline is a Redbud co-op triple at 623 University Ave. The caption is honest and the photo is only 7 years old, but it fails 'shows the page's subject' and 'generic'. The first reviewer's query finds nothing: Commons has no file for Von Cramm Hall, Redbud, Wari, Hasbrouck, Cityview, 660 Stewart, 202 Dryden Rd or a co-op house, so the lead would be removed. Best available on-topic swap is a Cornell residence hall, the page's yardstick: Ruth Bader Ginsburg Hall (Zirkel, 24 Jun 2023, CC BY-SA 4.0, 3600x2384, unused elsewhere), then Low Rise 6 01 (P. Hughes, 2025). Keep the caption neutral (a Cornell residence hall) and imply no price. The current subject 'Ithaca Commons' has no checkable terms, so no subject edit is needed. If a generic dorm shot is unwelcome, removal is the alternative."
+ },
+ {
+  "slug": "collegetown-ithaca-neighborhood",
+  "agree": true,
+  "final": "replace",
+  "query": "\"Sheldon Court Cornell University Ithaca 2025\"; \"Sheldon Court, Cornell University\"",
+  "note": "Agree. The May 2026 photo (Eddie891, CC BY-SA 4.0) is accurate and recent, but it looks up at the College Avenue Bridge from inside Cascadilla Gorge, so no Collegetown street, house or apartment is in frame; the body never mentions the bridge or gorge; and it is only 1024x768. Commons has no better current streetscape in Category:Collegetown (Ithaca, New York) (8 files, newest 2019, a liquor-store frame), and Eddie891's May 2026 uploads are gorge and creek shots. The first reviewer's query resolves to the 1985 file 'Collegetown (438384821)', which is 41 years old. Best swap: Sheldon Court (P. Hughes, 7 Jun 2025, CC BY 4.0, 6048x4024), College Avenue in Collegetown with a Cornell residence hall at 420 College Ave next to the Schwartz Center and people at street level; caption it as a Cornell residence hall, not a rental. BEFORE APPLYING: empty the frontmatter subject; with 'Collegetown, College Avenue and Dryden Road, Ithaca' the finder refuses it for lacking college, avenue or road. Avoid the 2009 to 2012 frames, whose storefronts have since closed."
+ },
+ {
+  "slug": "collegetown-rent-prices-per-bed-one-bedroom",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree, replace. I viewed 1.webp: it shows the campus end of the College Avenue bridge with a CORNELL UNIVERSITY sign, no apartments or shops. Commons files it under Category:College Avenue Bridge (Ithaca), taken 7 Jun 2025 by P. Hughes, so age is fine, but the alt text (a street of apartment buildings and shops in Collegetown) and the caption are false, and a corrected caption would still not show rents or apartments. Housekeeping: the credit line names Upsilon Andromedae (the author of the 1985 Dryden Road photo) while Commons lists P. Hughes, and 2.webp has the same MD5 as 1.webp, so its caption about The Ivy and 312 College Ave is false too and that entry should go. Pool warning: Commons has no 2020s photo of Collegetown apartments, and only two Collegetown street scenes with apartment buildings pass the 1,200 px and 20-year rules. 33 of the 67 first-review replace entries mention Collegetown in their reason or query, so owner photos are the real fix. The caption must give the year, because neither photo shows The Ivy at 325 College Ave.",
+  "query": "Commons: File:Ithaca, New York - 4370299698.jpg (Dougtone, 30 Oct 2009, CC BY-SA 2.0, 1600x1200, College Avenue apartment buildings over ground-floor shops, matching the page's current alt text; already a lead on 10 pages) or File:Collegetown, Ithaca.jpg (desultrix, 24 Jun 2012, CC BY-SA 2.0, 4000x3000, College Ave and Dryden Rd corner with a FOR RENT sign; a lead on 13 pages). The first review's category 'Collegetown, Ithaca, New York' does not exist; the real one is Category:Collegetown (Ithaca, New York), 8 files. Openverse returned 504 today; when it is back try 'Collegetown Ithaca College Avenue', CC BY or CC BY-SA, 2015 or newer. Best fix: an owner photo of College Ave or Dryden Rd in content/images/inbox/."
+ },
+ {
+  "slug": "collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live",
+  "agree": false,
+  "final": "remove",
+  "note": "The photo must go, but I disagree on the remedy. Commons dates it 12 Aug 2011 and describes Svante Myrick 'on the campaign trail'; it is a posed portrait, so the alt (talking with residents) and caption (door-to-door campaign) overstate it, and a named politician leading a renters' comparison reads as an endorsement on an ad-supported page. A Fall Creek replacement does not exist: Commons has no Fall Creek neighborhood category (both Category:Fall Creek, Ithaca, New York and Category:Fall Creek (Ithaca, New York) are missing), and searches for Fall Creek, Cascadilla St, N Cayuga St, Willow Ave and Lake St return only gorge postcards, HABS survey scans and 1870s stereoviews. A Collegetown or downtown photo would show one of the three areas and fail the same subject test, and the repo's visuals skill says to leave the slot empty rather than place an off-topic photo and to use a map for neighborhood pages. Remove now (116 of 328 articles already have no image). If the owner would rather have a photo than none, the least bad option is a Collegetown street photo captioned as Collegetown only, as ithaca-neighborhoods-for-cornell-students does.",
+  "query": "No Commons query will find a usable photo. Only if Openverse is back (504 today): 'Fall Creek Ithaca houses' or 'Cascadilla Street Ithaca', CC BY or CC BY-SA, 2015 or newer, showing residential buildings. Otherwise an owner photo of a Fall Creek street (N Cayuga St, Willow Ave or Lake St) in content/images/inbox/, or a drawn OpenStreetMap map of Collegetown, Fall Creek and downtown as the lead visual."
+ },
+ {
+  "slug": "cornell-dorm-guest-overnight-visitor-rules",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree, replace. Commons dates the file 25 Oct 2005 (21 years, past the 20-year line). The frame is a wet road, parked cars and a red Dodge Caravan on the Thurston Avenue Bridge, with Balch Hall a small roofline behind trees, so it neither shows a residence hall nor looks current, yet the caption presents it as the walk onto North Campus today. For the replacement do not reuse Balch Hall (already the lead on cornell-dorm-packing-list) or the Mary Donlon Hall file that already leads three pages; a different file of Mary Donlon Hall is fine. I checked the candidates by Commons metadata only, not by eye, so confirm the frame shows a hall front before use.",
+  "query": "Commons Category:Mary Donlon Hall: File:Cornell University - Mary Donlon Hall 02.jpg (P. Hughes, 5 Jun 2025, CC BY 4.0, 5481x3698, North Campus residence hall; a lead nowhere yet). Backups: File:Cornell University - Low Rise 6 01.jpg (2025, CC BY 4.0, 6048x4024) or File:Barbara McClintock Hall, Cornell University.jpg (Kenneth C. Zirkel, 24 Jun 2023, CC BY-SA 4.0, part of the 2022 North Campus Residential Expansion). Caption should name the hall and not imply the guest rules are specific to it."
+ },
+ {
+  "slug": "cornell-fraternity-suspension-2026-housing-2027-28",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree, replace. It is a circa 1908 hand-colored postcard (118 years old) of lodges the page never discusses, and the card's printed title names Delta Tau Delta, a chapter this page lists as returning in spring 2029, so it implies a link the page does not make. The replacement needs the same care: the page names Zeta Psi, Phi Sigma Kappa, Phi Delta Theta, Delta Tau Delta and Chi Phi, so none of their houses should lead it (the Zeta Psi photo already leads two sibling pages). Delta Kappa Epsilon, 13 South Ave., shows as Recognized on the site's 2026-27 chapter table and is not named here, so its house is safe if the caption names the chapter and says the Oct. 13 directive covers every Interfraternity Council house, not this one in particular. Most Commons fraternity files are pre-1931 postcards, so the modern options are few.",
+  "query": "Commons Category:Deke House (Ithaca, New York): File:Deke House Ithaca NY 1.jpg (Plumbago Capensis, 21 Jan 2022, CC BY-SA 4.0, 4032x3024) first. Backup: File:Deke House (Ithaca NY).jpg (Hlevy2, 21 Jul 2020, CC BY-SA 4.0, a Commons Quality image of the front entrance of the house William Henry Miller designed in 1893); the first review reports an EXIF copyright conflict on it that Commons metadata does not show and I could not check, so prefer the 2022 file. If the finder's relevance check rejects it, set frontmatter subject to 'Deke House Ithaca'. Caption: Delta Kappa Epsilon chapter house, 13 South Ave., Cornell University."
+ },
+ {
+  "slug": "cornell-house-professor-dean-what-they-do",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree, replace. Commons dates it 24 Aug 2005 (21 years) and titles it only 'Cornell view': a parking lot, Baker Tower and the old West Campus Gothic halls seen from the hill, a view that predates the House System this page describes; the alt text's autumn trees are wrong (green foliage, dry grass). The first review's query cannot work as written: Commons has no category or photo for Carl Becker House, Alice Cook House or William Keeton House, and the frontmatter subject names only Carl Becker House, which would make the finder reject a photo of any other House. Use a House that does exist on Commons and caption it as one of five. I checked candidates by Commons metadata only, not by eye.",
+  "query": "Commons Category:Flora Rose House (Cornell University): File:Flora Rose House, Cornell University.jpg (Kenneth C. Zirkel, 19 Aug 2018, CC BY-SA 4.0, 3000x2183; a lead nowhere, since the Flora Rose page uses a 2024 file). Alternatives: Category:Hans Bethe House (Cornell University), File:Hans Bethe House, Cornell University.jpg (Zirkel 2018, already leads two pages) or File:Cornell Hans Bethe House March09 1.jpg (2009, 17 years old). Change frontmatter subject from 'Carl Becker House, West Campus, Cornell University' to 'Flora Rose House West Campus Cornell'. Caption must name the House shown and say Cornell has five."
+ },
+ {
+  "slug": "cornell-off-campus-housing-for-parents",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree, replace. Commons files it under Category:Manhattan Project (Los Alamos) with an NPS credit: it is Hans Bethe's house in Los Alamos, New Mexico, so the alt text and the caption (the Ithaca home of the Cornell physicist) are false; the finder presumably took it because the Commons description mentions Ithaca. The same file also leads cornell-off-campus-housing-guide and cornell-student-family-housing-ithaca, so fix all three together. The frontmatter subject (McGraw Tower Cornell) matches nothing on the page, and a McGraw Tower photo would be generic. Same Collegetown pool problem as the other housing pages: use a Collegetown street photo with the year in the caption.",
+  "query": "Same small pool as the guide: File:Ithaca, New York - 4370299698.jpg (Dougtone, 2009, 1600x1200, CC BY-SA 2.0) or File:Collegetown, Ithaca.jpg (desultrix, 2012, 4000x3000, CC BY-SA 2.0); each already leads 10 or more pages. I found no Zirkel photos of College Ave or Dryden Rd apartments, and Category:Collegetown, Ithaca, New York does not exist (the real one is Category:Collegetown (Ithaca, New York), 8 files). Set frontmatter subject to 'Collegetown apartment buildings, College Avenue, Ithaca'. If the pass will not add another use of a photo that already leads 10 or more pages, remove this lead instead; an owner photo in content/images/inbox/ is the real fix."
+ },
+ {
+  "slug": "cornell-off-campus-housing-guide",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree, replace. This is the same NPS photo of Hans Bethe's house in Los Alamos (Category:Manhattan Project (Los Alamos) on Commons), so 'Hans Bethe's former house in Ithaca' is false and the photo cannot illustrate Ithaca's wider rental market. As the pillar page it deserves the strongest Collegetown street photo available. The same file also leads cornell-off-campus-housing-for-parents and cornell-student-family-housing-ithaca; fix them together.",
+  "query": "File:Collegetown, Ithaca.jpg (desultrix, 24 Jun 2012, CC BY-SA 2.0, 4000x3000, College Ave and Dryden Rd corner with a FOR RENT sign): the best Collegetown street photo on Commons, though it already leads 13 pages. Backup: File:Ithaca, New York - 4370299698.jpg (2009, 1600x1200). Real category: Category:Collegetown (Ithaca, New York); the first review's 'Collegetown, Ithaca, New York' does not exist. Caption must state the year (2012) and not imply today's streetscape. Frontmatter subject 'Collegetown Ithaca' already fits."
+ },
+ {
+  "slug": "cornell-off-campus-roommates-joint-liability",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree, replace. Taken 19 May 2019, so age is fine, but the photo is a liquor store (Collegetown Wine & Spirits, Captain Morgan and Ketel One window ads, a 'We are moving' sign for 406 College Ave). It says nothing about roommates or leases, is dated by the move notice, and is an odd lead for a page parents read. The alt and caption are only the file name, including its 'Spririts' typo. The same file leads three other pages the first review flagged (trash tags, sublet, meal plan).",
+  "query": "A Collegetown street or apartment-building photo from the same small pool: File:Ithaca, New York - 4370299698.jpg (2009, 1600x1200) or File:Collegetown, Ithaca.jpg (2012, 4000x3000), both CC BY-SA 2.0. I found no Commons photos of Collegetown wood-frame rental houses, and the only Kenneth C. Zirkel file that mentions Collegetown is this liquor store. Category:Collegetown (Ithaca, New York) has 8 files. Caption: say it is a Collegetown street and give the year. An owner photo of a College Ave or Linden Ave house in content/images/inbox/ would fit best."
+ },
+ {
+  "slug": "cornell-spring-transfer-housing-whats-left-when",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. Commons dates the lead (E. & H.T. Anthony view of Cascadilla Place) to about 1870 (the caption says 1860s), so it is over 150 years old, and the page is a practical spring 2027 housing guide, not a history of the hall, so the old photo is not itself the subject. The same photo also leads cascadilla-hall-cornell. A current photo of the same building exists: Commons Category:Cascadilla Hall has three Kenneth C. Zirkel photos taken 19 August 2018 (CC BY-SA 4.0, 3000 px wide), and I viewed all three. Eddy Gate and Cascadilla Hall is not yet used on the site; the East Facade photo is the clearest view of the hall but already leads cornell-fall-housing-selection-juniors-seniors.",
+  "query": "Subject for the finder: Cascadilla Hall Cornell University Ithaca. Wikimedia Commons Category:Cascadilla Hall: File:Eddy_Gate_and_Cascadilla_Hall.jpg (Kenneth C. Zirkel, 2018-08-19, CC BY-SA 4.0, 3000x2257, unused on the site) first; else File:Cascadilla_Hall_East_Facade,_Cornell_University.jpg or File:Cascadilla_Hall,_Cornell_University.jpg (same author and license, each already used on one other page). If a different transfer hall is wanted: Category:Sheldon Court (Cornell University), File:Sheldon_Court,_Cornell_University.jpg (Zirkel, 2019-05-19), or Category:Schuyler House (Cornell University), File:Schuyler_House,_Cornell_University.jpg (Zirkel, 2020-01-26)."
+ },
+ {
+  "slug": "cornell-student-family-housing-ithaca",
+  "agree": false,
+  "final": "remove",
+  "note": "The photo must go, but I would remove it, not replace it. The Commons file page for File:Hans_Bethe_House.jpg (NPS/Glowinski, 2022, public domain) says the house is now part of the Los Alamos History Museum and files it under Manhattan Project (Los Alamos), so the caption 'the physicist's home in Ithaca' is false, and the alt text is wrong too (it says a two-story wooden house; the photo shows a one-storey stone and stucco cottage under ponderosa pines). No licensed replacement exists: Commons has no Hasbrouck or Maplewood photo and no Cayuga Heights house photo (Fall Creek hits are all the gorge), and Openverse returns 0 results for Hasbrouck Apartments Cornell and for Cayuga Heights Ithaca house. A random house photo would be generic. The same Los Alamos photo with the same false Ithaca caption also leads cornell-off-campus-housing-guide and cornell-off-campus-housing-for-parents.",
+  "query": "Hasbrouck Apartments Cornell University Ithaca (checked 2026-11-11: no Commons file or category, Openverse 0 results); Maplewood Park Apartments Cornell Ithaca (Commons 0 hits); Cayuga Heights Ithaca house (nothing usable on Commons or Openverse). The only workable source is an owner photo of Hasbrouck dropped in content/images/inbox/cornell-student-family-housing-ithaca.jpg; until then publish with no lead photo."
+ },
+ {
+  "slug": "cornell-summer-sublet-how-to-sublet-apartment-ithaca",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. The lead (Kenneth C. Zirkel, 19 May 2019) is the former Collegetown Wine & Spirits storefront at 306 College Ave with Captain Morgan and Ketel One posters in the windows. The page is a how-to on subletting, so nothing in the frame is an apartment or a lease, and the caption is just the Commons filename with its typo. Commons has no better Collegetown apartment photo (Category:Collegetown (Ithaca, New York) has eight files, all 2019 or older), but the finder's own candidate list already holds one: desultrix's Flickr set from 24 June 2012 (CC BY-SA 2.0, 14 years old, under the 20-year line). I viewed seven of the eight; photo 7466092362 clearly shows a large brick apartment building signed 312 College Avenue. Caption it from the sign, not from the Flickr title, which is only 'Collegetown, Ithaca'.",
+  "query": "Subject for the finder: Collegetown Ithaca apartment building College Avenue. Openverse (Flickr) desultrix 'Collegetown, Ithaca', taken 2012-06-24, CC BY-SA 2.0: photo 7466092362 (apartment building signed 312 College Avenue, best fit, https://www.flickr.com/photos/13426637@N00/7466092362) or 7466102682 (apartment blocks at a College Avenue corner). Commons fallbacks: File:Collegetown,_Ithaca.jpg (desultrix, 2012, 4000x3000, CC BY-SA 2.0, already used on the mail page) or File:Ithaca,_New_York_-_4370299698.jpg (Dougtone, 2009, College Avenue, 1600x1200, CC BY-SA 2.0). Do not pick a file whose title names a shop."
+ },
+ {
+  "slug": "cornell-transfer-housing",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. Llenroc is the Delta Phi fraternity house, and the page's own text says a new transfer cannot cancel a Cornell license to move into a Greek house, so the lead shows the one housing type a first-year transfer cannot take; it also contradicts the frontmatter subject (Cornell West Campus houses). The caption is honest, but the photo does not show the subject (the Commons copy was transferred from English Wikipedia in 2012, original photo date not recorded). Use a West Campus house so this page differs from its sibling spring-transfer page, which should lead with Cascadilla. Commons has Hans Bethe House (Zirkel, 2018-08-19, CC BY-SA 4.0) and Flora Rose House (2024-05-26, CC BY 4.0), both modern brick West Campus houses; I viewed both. Carl Becker, Keeton and Alice Cook Houses have no Commons photos.",
+  "query": "Subject for the finder: Hans Bethe House Cornell University West Campus. Wikimedia Commons Category:Hans Bethe House (Cornell University): File:Hans_Bethe_House,_Cornell_University.jpg (Kenneth C. Zirkel, 2018-08-19, CC BY-SA 4.0, 3000x2224; also used on hans-bethe-house-cornell). Alternative: Category:Flora Rose House (Cornell University), File:Cornell_University_Flora_Rose_House_20240526.jpg (CC BY 4.0, 3840x2560; used on flora-rose-house-cornell). If a South Campus hall is preferred: Category:Cascadilla Hall or Category:Sheldon Court (Cornell University), File:Sheldon_Court,_Cornell_University.jpg (Zirkel, 2019-05-19)."
+ },
+ {
+  "slug": "ecology-house-cornell",
+  "agree": false,
+  "final": "remove",
+  "note": "The 1996 lead is 30 years old, soft, tinted and half hidden by shrubs, and the page is a rooms-and-cost guide, so the old photo is not itself the subject; it fails the 20-year rule. I disagree with the first reviewer's 'tolerable stopgap': the spec's acceptance test is zero failing lead images, so no dated stopgap. And no replacement exists: File:EcoHouse_Spring_1996.jpg is the only Hurlburt House or Eco House file on Commons (it is the only Ecology House file in Category:Cornell University dormitories and in Category:Cornell University North Campus), and Openverse returns nothing for Hurlburt House Cornell, Ecology House Cornell or Cornell North Campus dorm Ithaca. Remove the lead; an owner photo is the quickest way to a current one.",
+  "query": "Hurlburt House Cornell University North Campus Ithaca; Ecology House Cornell. Checked 2026-11-11: Commons holds only File:EcoHouse_Spring_1996.jpg and Openverse has no matching image, so nothing current is licensed. Realistic route: an owner photo dropped in content/images/inbox/ecology-house-cornell.jpg."
+ },
+ {
+  "slug": "furnished-vs-unfurnished-apartments-ithaca",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. 'College Park Apartments' is a Commons uploader's category name, not a real Ithaca complex (a web search finds no such listing), and the page never mentions the pictured complex, so the caption is false and the photo works only as a generic apartments image. It is very likely Collegetown Terrace: the uploader's own category also holds the E State St and Mitchell St corner and a cobblestone courtyard shot (both viewed) with the same turreted historic house behind, and Collegetown Terrace has bridges between its Valentine Place buildings. The page body never names Collegetown Terrace, so even a corrected caption would not tie to the text; but the site's collegetown-terrace-apartments-ithaca page has images: [] and could use this photo once the owner confirms the building. For this page use a building it does name: the Colonial Building at 109 E State St on the Ithaca Commons, which Ithaca Renting's downtown page lists as Colonial Studios (furnished, with furniture removed on request at the same rent). Commons has a 2025 photo; I viewed it and the building's name is lettered on the facade. The same mislabeled complex also leads touring-ithaca-apartments-what-to-check, can-landlord-refuse-sublet-new-york-ithaca and internet-providers-ithaca-compared-cornell-students.",
+  "query": "Subject for the finder: Colonial Building Ithaca Commons 109 East State Street. Wikimedia Commons Category:Colonial Building (Ithaca, New York): File:Ithaca,_NY_-_Colonial_Building_01.jpg (Joe Mabel, 2025-10-28, CC BY-SA 4.0, 6000x4000). Other buildings in the page's tables (Old Cigar Factory, Commons West, CityView, Dryden South, Hasbrouck, Maplewood) have no Commons photos found. If a Collegetown Ithaca Renting building is wanted instead, use the desultrix 2012 Flickr set (Openverse, CC BY-SA 2.0)."
+ },
+ {
+  "slug": "how-to-check-an-ithaca-landlords-record",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree, and the spec already orders it (prelaunch-spec line 69). The lead is a September 1985 street scene (Commons: 1985-09-19), 41 years old, showing long-gone businesses, so it is neither current nor the page's subject; the caption is honest about the date. Commons has no current Dryden Road streetscape (Category:Collegetown has eight files, and the only recent Dryden Road file is a 2026 creek view), so I would not chase the Dryden Road idea. The page's first action is to call the City Building Division, which the City's site puts at 108 E. Green St., City Hall, 4th floor, and Commons has a current photo of that building: File:Ithaca_City_Hall,_Green_Street.jpg (Kenneth C. Zirkel, 2018-08-19, CC BY-SA 4.0, 3000x2000), which I viewed; it shows the City Hall entrance and lettering. The page's second image (eflon, 2008 night view of Dryden and College Ave) is under 20 years old but dark.",
+  "query": "Subject for the finder: Ithaca City Hall Green Street. Wikimedia Commons Category:Buildings in Ithaca, New York or Category:City halls in New York (state): File:Ithaca_City_Hall,_Green_Street.jpg (Kenneth C. Zirkel, 2018-08-19, CC BY-SA 4.0, 3000x2000). Street-scene fallback if a Collegetown view is preferred: Openverse (Flickr) desultrix 'Collegetown, Ithaca' photo 7466102682 (2012-06-24, CC BY-SA 2.0, apartment blocks at a College Avenue corner; confirm the street sign before captioning it as Dryden Road)."
+ },
+ {
+  "slug": "how-to-read-ithaca-lease-before-signing",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. The photo is the Gould Reading Room interior (eflon, taken 16 April 2009, CC BY 2.0), so 17 years old and under the 20-year line, but it shows a library, not a lease or rental housing; the frontmatter subject (Myron Taylor Hall) was evidently set to fit the photo, and the Tenants Advocacy Program tie in the caption is a footnote to the page. Replace with the housing these leases cover, Collegetown apartment buildings. Commons has no 2018 or later Collegetown apartment photo (checked Collegetown, College Avenue, Dryden Road, Linden Avenue, Eddy Street, Catherine Street), so the best verified options are 2009 to 2012 photos, which pass the age rule. If none is accepted as current, remove the lead rather than keep the reading room.",
+  "query": "Subject for the finder: Collegetown Ithaca College Avenue apartment buildings. Openverse (Flickr) desultrix 'Collegetown, Ithaca', taken 2012-06-24, CC BY-SA 2.0: photo 7466102682 (apartment blocks at a College Avenue corner) or 7466110490 (brick mid-rise with ground-floor shops, street not confirmed); keep 7466092362 (312 College Avenue) for the sublet page. Commons: File:Ithaca,_New_York_-_4370299698.jpg (Dougtone, 2009-10-30, College Avenue, 1600x1200, CC BY-SA 2.0). Checked and empty on Commons: Linden Avenue, Eddy Street, Catherine Street, Eddygate."
+ },
+ {
+  "slug": "ithaca-housing-shortage-cornell-role",
+  "agree": true,
+  "final": "replace",
+  "note": "Replace is right. The photo is Seneca Place, a 2005 building of Cornell-anchored offices, a Hilton Garden Inn and street retail, so the 'new apartment buildings' alt and caption are false. Skip the first reviewer's 'Apartments in Ithaca, NY 20240526.jpg': it shows a cobblestone plaza, not an apartment block. The page has a section on Cornell opening 2,000 North Campus beds in 2021 and 2022, so Ruth Bader Ginsburg Hall fits: a first-year residence hall that opened fall 2022 (Kenneth C. Zirkel, 24 Jun 2023, CC BY-SA 4.0, 3600x2384, used on no other page). Set subject to 'North Campus Residential Expansion' or find_images.py's relevance rule drops it.",
+  "query": "Ruth Bader Ginsburg Hall Cornell University; Commons file: Ruth Bader Ginsburg Hall, Cornell University.jpg; Category:North Campus Residential Expansion"
+ },
+ {
+  "slug": "ithaca-landlord-wont-fix-heat-mold-bed-bugs",
+  "agree": true,
+  "final": "replace",
+  "note": "Replace is right. The house is 440 East Buffalo Street (Commons has a 2025 photo of the same house), shown mid-renovation, so it is generic and also an identifiable private property on a page about landlords who skip repairs; the alt says wood-frame but the house is brick. Ithaca City Hall is where the page sends readers (Building Division, 108 E. Green St., 4th floor): Kenneth C. Zirkel, 19 Aug 2018, CC BY-SA 4.0, 3000x2000, the only City Hall photo on Commons and already the lead on 4 other housing pages. Set subject to 'Ithaca City Hall'.",
+  "query": "Ithaca City Hall Green Street; Commons file: Ithaca City Hall, Green Street.jpg"
+ },
+ {
+  "slug": "ithaca-security-deposit-rules-tenants",
+  "agree": true,
+  "final": "replace",
+  "note": "Replace is right and urgent. Commons describes the photo as College Town, a 1980s student apartment complex in Hachioji, Tokyo; the finder matched the word CollegeTown, and the alt and caption are the bare filename. Use an Ithaca complex: College Park Apartments at Ithaca, NY (by 颐园居, 26 May 2024, CC BY-SA 4.0, 3840x2560, exactly 3:2 for the site's lead crop), captioned only as Commons labels it. Do not use 'Apartments in Ithaca, NY 20240526.jpg' (a plaza) or 'Collegetown, Ithaca.jpg' (already the lead on 13 pages). Set subject to 'College Park Apartments'.",
+  "query": "College Park Apartments Ithaca; Commons file: College Park Apartments at Ithaca, NY 20240526.jpg; Category:College Park Apartments (Ithaca, New York)"
+ },
+ {
+  "slug": "ithaca-trash-tags-snow-noise-rules-renters",
+  "agree": true,
+  "final": "replace",
+  "note": "Replace is right. A liquor storefront (Collegetown Wine & Spirits, 2019) shows none of trash tags, snow or quiet hours, the shop has moved, the alt and caption are the raw filename with a typo, and the same photo leads 3 other pages. Best on-subject file: 'Utica Street after snowstorm.jpg' (BryanKatz, 14 Feb 2022, CC BY-SA 4.0, 4032x3024), houses and snowy curbs at 203 Utica St, Fall Creek, City of Ithaca (file coordinates and OpenStreetMap agree). Its Commons text never says Ithaca, so find_images.py and --audit will reject it: add it by hand and log the exception, otherwise remove the lead. Not IthacaSnow.jpg (640x480, 2007, blurry).",
+  "query": "Utica Street Ithaca snowstorm; Commons file: Utica Street after snowstorm.jpg; Category:Utica Street (Ithaca, New York)"
+ },
+ {
+  "slug": "moving-out-ithaca-apartment-deposit-back",
+  "agree": true,
+  "final": "replace",
+  "note": "Replace is right. The Dryden Road photo is from 19 Sep 1985 (41 years old, fails the 20-year rule) and is used on 5 pages. Use a current rental complex: College Park Apartments in Ithaca, NY (by 颐园居, CC BY-SA 4.0, 3840x2560, 3:2), a different file from the deposit page's, captioned only as Commons labels it. Do not fall back to 'Collegetown, Ithaca.jpg' (2012; already the lead on 13 pages). The caption about July 31 move-outs must describe the complex, not Dryden Road. Set subject to 'College Park Apartments'.",
+  "query": "College Park Apartments Ithaca; Commons file: College Park Apartments in Ithaca, NY 20240526.jpg"
+ },
+ {
+  "slug": "off-campus-housing-cornell-grad-students",
+  "agree": true,
+  "final": "replace",
+  "note": "Replace is right. The photo is a c.1903 postcard of Fall Creek Gorge (123 years old, no housing); the finder matched the creek's name, not the neighborhood. Commons has nothing for Hasbrouck, Maplewood or Collegetown Terrace (searched; Openverse returned errors or zero results today). The page is organized neighborhood by neighborhood, so use a street: 'Ithaca, NY 34.jpg' (LBM1948, 10 Oct 2010, CC BY-SA 4.0, 4288x2848, 16 years old), captioned only as a residential street in Ithaca; the apartment photos stay free for the rental pages. An owner photo of Hasbrouck or Maplewood dropped in content/images/inbox would be the ideal lead and overrides any found photo.",
+  "query": "Ithaca NY 34 A street LBM1948; Commons file: Ithaca, NY 34.jpg; Category:Streets in Ithaca, New York"
+ },
+ {
+  "slug": "off-campus-housing-cornell-international-students",
+  "agree": true,
+  "final": "replace",
+  "note": "Replace is right. Willard Straight Hall is Cornell's on-campus student union, a generic campus landmark on an off-campus rental page, and the alt's 'tall tower' is not in frame. Use an Ithaca apartment building: 'Belleayre Apartments Ithaca NY 2.jpg' (Plumbago Capensis, 19 Feb 2022, CC BY-SA 4.0), the entrance of a private rental building at 700 Stewart Avenue with nameplate and number legible. It is portrait, but the site crops leads to 3:2 from the centre, which keeps the nameplate and doors; NY 1 of the pair would crop to a brick wall, so skip it. Set subject to 'Belleayre Apartments'.",
+  "query": "Belleayre Apartments Ithaca; Commons file: Belleayre Apartments Ithaca NY 2.jpg; Category:Belleayre Apartments"
+ },
+ {
+  "slug": "small-claims-court-ithaca-renters",
+  "agree": true,
+  "final": "replace",
+  "note": "Replace is right, with one caveat. The photo is the 1854 courthouse at 121 E Court St, a former court, so readers will take it for the venue. Ithaca City Court is at 118 E Clinton St behind the police department and Commons has no photo of it (searched City Court, Clinton Street, Ithaca Police, Public Safety Building). Fallback is the current county courthouse, 320 N Tioga St (Kenneth C. Zirkel, 26 Jan 2020, CC BY-SA 4.0, 3600x2081, 'Tompkins County Court House' legible), only with a caption saying City renters file small claims at Ithaca City Court, 118 East Clinton Street. An owner photo of 118 E Clinton St in content/images/inbox would be better; if neither is wanted, remove.",
+  "query": "Tompkins County courthouse Tioga Street Ithaca; Commons file: Tompkins County Family Court Ithaca New York.jpg (building reads Tompkins County Court House); no photo of Ithaca City Court exists on Commons"
+ },
+ {
+  "slug": "summer-sublet-ithaca-finding-housing-may-august",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. The 1991 film scan of a country road above Cayuga Lake is 35 years old and shows no housing, so it fails both the age and subject tests. The finder picked it because the frontmatter subject is 'Cayuga Lake summer Ithaca' (Cayuga Lake is one of its place terms); change subject to something like 'Apartment building, Ithaca' before re-running. Best candidate (Commons API check 2026-11-11): File:Apartments in Ithaca, NY 20240526.jpg, CC BY 4.0, taken 2024-05-26 by 颐园居, 2160x2880, used on no page. Its Commons description says College Park Apartments while the first reviewer read it as a building on East State Street, and I did not open the image, so look first and caption only what you can confirm (for example 'An apartment building on East State Street, Ithaca, May 2024'). Do not use the two College Park Apartments files from the same set (they lead 4 pages) or Collegetown,_Ithaca.jpg (leads 13). If the look test fails, remove rather than reuse those.",
+  "query": "Apartments Ithaca NY (this returns File:Apartments in Ithaca, NY 20240526.jpg first; Commons category College Park Apartments (Ithaca, New York)). The finder strips search operators, so use plain words and set subject to 'Apartment building, Ithaca'."
+ },
+ {
+  "slug": "visiting-scholar-postdoc-furnished-housing-ithaca",
+  "agree": false,
+  "final": "remove",
+  "note": "The flag is right (2005 photo, 21 years old; it shows Balch Hall, a first-year dorm, none of the housing the page names), but replace has nowhere to go. Commons returned 0 files for Hasbrouck Apartments, Maplewood Park Apartments, Pleasant Grove Apartments Ithaca and International Scholar House, and Openverse returned 0 for Hasbrouck (checked 2026-11-11), so nothing shows the page's top three options. The only fallback is a Collegetown apartment shot, but that pool is thin and overused (Collegetown,_Ithaca.jpg already leads 13 pages) and the page's first two options are Cornell-run grad housing, not Collegetown, so it would swap one generic lead for another. Remove the lead image. If Ajay can take or supply a photo of Hasbrouck or Maplewood, that is the ideal replacement.",
+  "query": "n/a (remove). Zero-hit Commons searches on 2026-11-11: Hasbrouck Apartments; Hasbrouck Ithaca; Maplewood Park Apartments; Pleasant Grove Apartments Ithaca; International Scholar House (returns only non-Cornell results)."
+ },
+ {
+  "slug": "cornell-financial-aid-appeal-success",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. Ho Plaza (2025, CC BY 4.0) is current but a generic tree-lined walkway, byte-identical to the leads on 3 other pages, with a bare file-name caption. Day Hall is the right subject: the finaid.cornell.edu footer lists the Office of Financial Aid at 203 Day Hall (checked 2026-11-11). Day Hall already leads cornell-financial-aid-off-campus-housing, cornell-first-generation-student-housing (Day Hall 04) and breaking-a-lease-early-ithaca-cornell (Day Hall 1), so use a file no page has: File:Cornell University - Day Hall 03.jpg (south elevation, 2025-06-07, CC BY 4.0, P. Hughes, 6048x4024). Suggested caption: 'Day Hall, home of Cornell's Office of Financial Aid at 203 Day Hall.' Set subject to 'Day Hall, Cornell University' so the finder's subject test passes, and fill author and source_url, which the current entry lacks.",
+  "query": "Day Hall Cornell University (Commons category Day Hall (Cornell University); pick File:Cornell University - Day Hall 03.jpg; leave Day Hall 02 and the 2019 west-facade file for the budget page)"
+ },
+ {
+  "slug": "cornell-international-student-jobs-on-campus-f-1-how-to-find",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. Same Ho Plaza file as 3 other pages: no workplace, no office, bare file-name caption. Caldwell Hall is a real tie to this page: Cornell's International Services advising page puts students at 300 Caldwell Hall, where they pick up I-20s and SSN letters (local corpus copy crawled 2026-11-07), and this page's steps depend on the SSN eligibility letter. Candidates, none used on any page: File:Caldwell Hall, Cornell University.jpg (2018-08-19, CC BY-SA 4.0, Kenneth C. Zirkel, 3000x2000) first; File:Cornell Caldwell Hall.jpg (2009, CC BY 3.0) is older. Suggested caption: 'Caldwell Hall, where Cornell International Services advises students and where SSN eligibility letters are picked up.' Set subject to 'Caldwell Hall, Cornell University'. If the photo does not pass a look, remove rather than reuse Day Hall, which belongs to the aid pages.",
+  "query": "Caldwell Hall Cornell University (returns the 2018 Zirkel file second, after an undated Dmadeo file; pick File:Caldwell Hall, Cornell University.jpg)"
+ },
+ {
+  "slug": "cornell-off-campus-meal-plan-or-cook-yourself-cost",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree, strongly. The lead is a Collegetown liquor storefront (Captain Morgan and Ketel One window ads, a moving banner) on a page about meal plans, and the caption keeps the Commons filename typo 'Spririts'. The same photo also leads cornell-off-campus-roommates-joint-liability, cornell-summer-sublet-how-to-sublet-apartment-ithaca and ithaca-trash-tags-snow-noise-rules-renters, which deserve the same check; the subject 'Collegetown, Ithaca, New York' is what pulled it in. Commons has no usable Ithaca grocery photo (Wegmans Ithaca gives two weak hits, GreenStar none) and Morrison Dining Hall already leads 8 pages, so show a swipe dining room: File:Okenshield's dining in Willard Straight Hall.jpg (2018-05-21, CC BY-SA 4.0, Kenneth C. Zirkel; it also leads okenshields-cornell-dining, so reuse number 2) with a caption tied to the page's numbers, such as 'A dining-room swipe, as at Okenshields in Willard Straight Hall, costs $12.51 to $19.90 at full use.' Alternative, unused: File:Appel Commons, Cornell University.jpg (2018-08-19, CC BY-SA 4.0), the building that holds North Star Dining Room.",
+  "query": "Okenshield's dining Willard Straight Hall (returns exactly the one file above); alternative: Appel Commons Cornell. Set subject to 'Okenshields dining room, Willard Straight Hall' (or 'Appel Commons' for the alternative) so the finder's subject test passes."
+ },
+ {
+  "slug": "cornell-student-budget-by-scenario-low-income-student-costs",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. Ho Plaza is generic filler (same file as 3 other pages) and shows nothing about aid scenarios or monthly costs. Day Hall is a fair subject because the page is built on the aid office's cost-of-attendance table, but the appeal page (cornell-financial-aid-appeal-success) should take Day Hall 03, so give this page a different file: File:Cornell University - Day Hall 02.jpg (partial view, 2025-06-05, CC BY 4.0, P. Hughes, 6048x4024) or File:Cornell University Day Hall.jpg (west facade from Sage Chapel, 2019-12-21, CC BY-SA 4.0, Kenneth C. Zirkel, 3000x1345); neither is used on any page. Caveat: Day Hall would then lead 5 pages, counting 3 existing ones. If the owner would rather not repeat it, remove this lead, since no photo can show a monthly budget. Set subject to 'Day Hall, Cornell University' and fill author and source_url.",
+  "query": "Day Hall Cornell University (Commons category Day Hall (Cornell University); pick File:Cornell University - Day Hall 02.jpg or File:Cornell University Day Hall.jpg, not the file given to cornell-financial-aid-appeal-success)"
+ },
+ {
+  "slug": "how-to-save-money-at-cornell-student-discounts-ithaca",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. Ho Plaza is generic (same file as 3 other pages) and shows none of the six discounts. The Johnson Museum is a real on-page subject, since the page's table lists free admission for everyone, and no page uses it yet. Use File:Cornell University - Herbert F. Johnson Museum of Art (2025).jpg (2025-06-05, CC BY 4.0, P. Hughes, 5529x3787) from Commons category Herbert F. Johnson Museum of Art; CC0 alternates from 2024-04-06 by Awinch1001 are JohnsonMuseum2.jpg (view of Ithaca from the museum) and JohnsonMuseum3.jpg (porch). Suggested caption: 'The Johnson Museum of Art is free for everyone, one of the discounts listed here.' A TCAT photo is a poor swap because TCAT_Bus_2107 already leads 6 pages. This page has no frontmatter subject, so the finder tests the title words (discounts, saves, money), which no museum file title contains; set subject to 'Herbert F. Johnson Museum of Art, Cornell University'.",
+  "query": "Johnson Museum of Art Cornell University (Commons category Herbert F. Johnson Museum of Art; pick File:Cornell University - Herbert F. Johnson Museum of Art (2025).jpg, second hit after a 1974 postcard)"
+ },
+ {
+  "slug": "ithaca-utilities-cost-winter-heating-bill-apartment-students",
+  "agree": true,
+  "final": "replace",
+  "note": "Agree. The 1905 postcard of a snowy gorge is 121 years old, shows no house or heating, and its caption gives no date. The frontmatter subject asks for houses in winter, but Commons is thin: Category Snow in Ithaca, New York has 10 files, mostly from 1987 to 2007. Best current candidate: File:Utica Street after snowstorm.jpg (2022-02-14, CC BY-SA 4.0, BryanKatz, 4032x3024; category Utica Street (Ithaca, New York)). Its coordinates reverse-geocode to the Fall Creek neighborhood, which the page names. The file's title and description lack the word Ithaca, so the finder's place test will reject it; pick it by hand. I did not open the image, so check that it shows houses and not only cars and snowbanks; caption 'Utica Street in Ithaca's Fall Creek neighborhood after a February 2022 snowstorm'. Runner-up: File:Finch-Guerlac House Ithaca NY 2.jpg (2022-01-23, CC BY-SA 4.0, category Snow in Ithaca, New York), one historic house, less typical of student rentals. If neither passes a look, remove rather than reuse a gorge or campus-snow photo.",
+  "query": "Utica Street snowstorm (File:Utica Street after snowstorm.jpg; Commons category Utica Street (Ithaca, New York)); runner-up: Finch-Guerlac House Ithaca (Commons category Snow in Ithaca, New York). Pick by hand, since the finder's place test needs Ithaca in the title or description."
+ }
+]
