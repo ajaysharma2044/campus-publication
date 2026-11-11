@@ -1,0 +1,75 @@
+{
+ "verdict": "pass",
+ "numbers_total": 42,
+ "matched_by_code": 40,
+ "verified": 2,
+ "fixed": 1,
+ "removed": 0,
+ "new_facts": [
+  {
+   "fact": "Cornell's stated reasons for the two-year requirement",
+   "value": "Students who live on campus show increased academic achievement, improved social-emotional adjustment and a stronger ability to build community; the meal plan ensures proper nutrition and guards against food insecurity, which has increased at colleges nationwide",
+   "applies_to": "Cornell two-year residential requirement",
+   "period": "AY 2026-27 page",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy",
+   "source_title": "Residential Policy, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Requirement duration",
+   "value": "First- and second-years must live on campus or in approved affiliated housing through the spring semester of their second academic year; juniors and seniors are not guaranteed on-campus housing",
+   "applies_to": "Cornell undergraduates",
+   "period": "2027-28",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process",
+   "source_title": "Current Undergraduate Application Process, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Missing the affiliated-housing affirmation",
+   "value": "Failure to indicate intent to live in a sorority, fraternity, co-op or affiliated house by March 15 results in completing the requirement in on-campus housing",
+   "applies_to": "Rising sophomores",
+   "period": "2027-28 cycle",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores",
+   "source_title": "Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Student reaction to the sophomore rule",
+   "value": "Chad Rubin '25 said the rule limits independence; Ashley Jian '24 lives off campus partly to cook and avoid the West Campus House Meal Plan (Jian, not Rubin or Lilienfeld, made the cooking point)",
+   "applies_to": "Cornell sophomores",
+   "period": "Nov. 2021",
+   "source_url": "https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/",
+   "source_title": "As Cornell Requires University Housing for Sophomores, Students Weigh Options, The Cornell Daily Sun",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  }
+ ],
+ "fact_file_updates": [],
+ "fix_instructions": [],
+ "reason": "Both unmatched $28,699.00 tokens are our arithmetic: 1,246.25 x 12 = 14,955.00 (fact 3.2 4BR median); 6,872 x 2 = 13,744 (hall double); sum 28,699.00, correct. Opened the four snippet-listed sources and confirmed. Fixed line 116: Sun does not place the cooking sophomores in Collegetown, so changed to 'off campus'.",
+ "slug": "cornell-residential-requirement-exemptions-live-off-campus",
+ "checked": [
+  {
+   "line": 185,
+   "value": "$28,699.00",
+   "status": "ok-arithmetic",
+   "note": "1,246.25*12=14,955.00 plus 13,744 = 28,699.00"
+  },
+  {
+   "line": 193,
+   "value": "$28,699.00",
+   "status": "ok-arithmetic",
+   "note": "same total in cost table"
+  },
+  {
+   "line": 116,
+   "value": "Collegetown",
+   "status": "fixed",
+   "note": "Sun does not tie cooking sophomores to Collegetown; changed to off campus",
+   "source_url": "https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/"
+  }
+ ]
+}

@@ -5,3 +5,9 @@
 **20 pages done** (2026-11-10 18:15, now 20): 244 left to write; problems: ideas 20 need review.
 
 2026-11-10 18:22: Checker fix: page_check.py treated a one-line tool fence (the way live pages embed a calculator) as opening a block, so everything after the first embedded tool went unchecked, and both page_check.py and match_facts.py ended the frontmatter at the first '---' anywhere, which a URL containing three hyphens triggers. Both fixed minimally in the kit scripts (noted in their headers). Re-checked every review page: three wave 1 pages showed one or two repetition flags that had been hidden; they get one more editor pass. The Collegetown guide now carries a 180-row table of every Collegetown building in the inventory (each row linked to its landlord page). Two conflicts for Ajay's review in that guide's original table: 327 Eddy St. (page: Steve Fontana; county records: Goldenrod Real Estate) and 407 College Ave. (page: listed on Cornell's portal; inventory: Travis Hyde). Collegetown Dwellings (idea 118) has no landlord or official page anywhere, so it has no row.
+
+**30 pages done** (2026-11-10 18:33, now 30): 233 left to write; problems: ideas 20, 24 need review.
+
+**40 pages done** (2026-11-10 18:40, now 40): 222 left to write; problems: ideas 20, 24 need review.
+
+**50 pages done** (2026-11-10 18:48, now 50): 212 left to write; problems: ideas 20, 24 need review.

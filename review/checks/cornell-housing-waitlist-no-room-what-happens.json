@@ -1,0 +1,92 @@
+{
+ "verdict": "pass",
+ "numbers_total": 61,
+ "matched_by_code": 55,
+ "verified": 6,
+ "fixed": 0,
+ "removed": 0,
+ "new_facts": [
+  {
+   "fact": "Rising juniors and seniors who miss the fall selection application deadline get no timeslot and are redirected to the waitlist when it opens",
+   "value": "Late applicants go to the waitlist",
+   "applies_to": "Rising juniors and seniors",
+   "period": "Fall 2026 for AY 2027-28",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors",
+   "source_title": "Fall Housing Selection for Rising Juniors and Seniors, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Waitlist: join after fall selection at housing.cornell.edu, rank areas and room types; offers made throughout the academic year and summer; not guaranteed; update Housing office when plans change",
+   "value": "Offers through academic year and summer; not guaranteed",
+   "applies_to": "Rising juniors and seniors",
+   "period": "page as read 2026-11-10",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs",
+   "source_title": "Room Selection FAQs, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Cancellation fee is not appealable, waivable, or amendable except going abroad, withdrawing or leave of absence",
+   "value": "Fee not appealable",
+   "applies_to": "Rising juniors and seniors",
+   "period": "page as read 2026-11-10",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs",
+   "source_title": "Room Selection FAQs, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Rising sophomores with no room selected and no co-op, Greek or affiliated assignment are administratively assigned and/or bursar billed",
+   "value": "Administrative assignment",
+   "applies_to": "Rising sophomores",
+   "period": "page as read 2026-11-10",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs",
+   "source_title": "Room Selection FAQs, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  }
+ ],
+ "fact_file_updates": [],
+ "fix_instructions": [],
+ "reason": "The six unmatched figures are our arithmetic: monthly per-bed rents times 12 (695x12=8,340; 760x12=9,120; 725x12=8,700; 825x12=9,900; 1,565x12=18,780; 1,640x12=19,680). Inputs match inventory.csv rows for Aces Apartments 418-428 Eddy (6BR 2BA $695-$760), 202 Dryden (10BR $725-$825) and 208 Dryden (studio $1,565-$1,640), all 2027-28 per bed. Opened the Room Selection FAQs and Fall Selection pages: waitlist mechanics, late-applicant redirect, Sept. 27 deadline, selection dates, fee non-appealability and rising-sophomore assignment confirmed. Fall Selection page and FAQ fetched in full via curl; the Sun, first-year, grad and other pages were not re-opened and rely on writer-listed sources.",
+ "slug": "cornell-housing-waitlist-no-room-what-happens",
+ "checked": [
+  {
+   "line": 159,
+   "value": "$8,340",
+   "status": "ok-arithmetic",
+   "note": "$695 x 12"
+  },
+  {
+   "line": 159,
+   "value": "$9,120",
+   "status": "ok-arithmetic",
+   "note": "$760 x 12"
+  },
+  {
+   "line": 160,
+   "value": "$8,700",
+   "status": "ok-arithmetic",
+   "note": "$725 x 12"
+  },
+  {
+   "line": 160,
+   "value": "$9,900",
+   "status": "ok-arithmetic",
+   "note": "$825 x 12"
+  },
+  {
+   "line": 161,
+   "value": "$18,780",
+   "status": "ok-arithmetic",
+   "note": "$1,565 x 12"
+  },
+  {
+   "line": 161,
+   "value": "$19,680",
+   "status": "ok-arithmetic",
+   "note": "$1,640 x 12"
+  }
+ ]
+}

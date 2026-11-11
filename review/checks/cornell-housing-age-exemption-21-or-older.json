@@ -1,0 +1,92 @@
+{
+ "verdict": "pass",
+ "numbers_total": 41,
+ "matched_by_code": 38,
+ "verified": 3,
+ "fixed": 3,
+ "removed": 1,
+ "new_facts": [
+  {
+   "fact": "Rising sophomore exemption requests received after the deadline are not considered",
+   "value": "Deadline April 4 at 11:59 p.m.; 'No request received after this date will be considered.'",
+   "applies_to": "Rising sophomores",
+   "period": "AY 2027-28 (spring 2027)",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores",
+   "source_title": "Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Collegetown Court location and studio rent",
+   "value": "Across from the Breazzano Center, one block from Cornell; standard studio $1,565-$1,640 per month, 2027-28, 12 months",
+   "applies_to": "Collegetown Court, 208 Dryden Road",
+   "period": "2027-28",
+   "source_url": "https://ithacarenting.com/property-details/?pid=5",
+   "source_title": "Collegetown Court, Ithaca Renting",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "202 Dryden Road 10-bedroom per-bed rent",
+   "value": "$725-$825 per bed, 12-month leases, 2027-28 (Collegetown listing page states prices are per bed)",
+   "applies_to": "202 Dryden Road",
+   "period": "2027-28",
+   "source_url": "https://ithacarenting.com/property-details/?pid=19",
+   "source_title": "202 Dryden Road, Ithaca Renting",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "Nick Lambrou said rising juniors tend to secure desirable leases, wanting to finish before prelims",
+   "value": "410 Elmwood Ave residents signed April 2017, 16 months before move-in",
+   "applies_to": "Collegetown houses",
+   "period": "2017-2018",
+   "source_url": "https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/",
+   "source_title": "'Desirable' Collegetown Leases Leave Market up to 16 Months Before Residents Move In, The Cornell Daily Sun",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  }
+ ],
+ "fact_file_updates": [
+  {
+   "fact_id": "off-campus-housing-3.2-0345",
+   "new_value": "1BR median $2,030 (nine 1BR rows, median of range midpoints); studio $1,765, 2BR $1,377.50, 4BR $1,246.25, 6BR $800 recomputed and confirmed; 'room in shared suite $895' not reproducible (the page has no shared-suite label; $895 is the low end of Plaza 'Room Available Now'); listing count is 40 on the live page",
+   "reason": "Recomputed from the live Collegetown page Nov. 10, 2026; agrees with rows 9175/9184"
+  }
+ ],
+ "fix_instructions": [],
+ "reason": "Arithmetic recomputed and correct: $725x12=$8,700; $1,565x12=$18,780; $1,765x12=$21,180; $6,872x2=$13,744 and +$7,604+$50=$21,398. Opened Ithaca Renting Collegetown (40 listings, prices per bed), pid=19 (12-month, $725-$825), pid=5, the Cornell spring selection page (April 4 11:59 p.m., no late requests; Feb 1, April 7, April 13-16), residential policy (age rule, single-year, no exemptions after license) and Sun article (Lambrou, 410 Elmwood, 16 months). Medians recomputed: studio, 2BR, 4BR, 6BR match; 1BR is $2,030 not $2,025, fixed. Removed the unsupported shared-suite $895 row; source note changed to 40 listings. Housing-search-process and Sun article fetches: Sun opened; lease quote not re-read in full.",
+ "slug": "cornell-housing-age-exemption-21-or-older",
+ "checked": [
+  {
+   "line": 167,
+   "value": "$8,700",
+   "status": "ok-arithmetic",
+   "note": "$725 x 12"
+  },
+  {
+   "line": 167,
+   "value": "$18,780",
+   "status": "ok-arithmetic",
+   "note": "$1,565 x 12"
+  },
+  {
+   "line": 169,
+   "value": "$21,180",
+   "status": "ok-arithmetic",
+   "note": "$1,765 x 12"
+  },
+  {
+   "line": 159,
+   "value": "$2,030",
+   "status": "fixed",
+   "note": "1BR median recomputed from nine rows; was $2,025"
+  },
+  {
+   "line": 162,
+   "value": "$895",
+   "status": "removed",
+   "note": "shared-suite row not supported by the source page"
+  }
+ ]
+}

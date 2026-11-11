@@ -1,0 +1,17 @@
+{"slug":"cornell-financial-aid-off-campus-housing","verdict":"pass","numbers_total":56,"matched_by_code":32,"checked":[
+{"line":74,"value":"$85,000","status":"ok-arithmetic","note":"Example input stated as such on the page."},
+{"line":81,"value":"$11,318","status":"ok-arithmetic","note":"96,318 - 85,000; billed subtotal opened at finaid.cornell.edu/cost-to-attend (2025-26)."},
+{"line":82,"value":"$74,970","status":"ok-arithmetic","note":"73,946 + 1,024, both opened at source."},
+{"line":83,"value":"$10,030","status":"ok-arithmetic","note":"85,000 - 74,970."},
+{"line":102,"value":"$9,600","status":"ok-arithmetic","note":"800 x 12; 6BR median $800 in fact row 3.2-0345."},
+{"line":103,"value":"$16,740","status":"ok-arithmetic","note":"1,395 x 12."},
+{"line":104,"value":"$24,300","status":"ok-arithmetic","note":"2,025 x 12; 1BR median in fact row 3.2-0345."},
+{"line":109,"value":"$4,144","status":"ok-arithmetic","note":"13,744 - 9,600."},
+{"line":109,"value":"$2,996","status":"ok-arithmetic","note":"16,740 - 13,744."},
+{"line":109,"value":"$10,556","status":"ok-arithmetic","note":"24,300 - 13,744."},
+{"line":126,"value":"$11,748","status":"ok-arithmetic","note":"21,348 - 9,600."},
+{"line":126,"value":"$4,608","status":"ok-arithmetic","note":"21,348 - 16,740."},
+{"line":136,"value":"$1,663.50","status":"ok-arithmetic","note":"19,962 / 12."},
+{"line":136,"value":"$1,355","status":"removed","note":"scl.cornell.edu rates page rejected TLS certificate on both URLs and curl showed no rate; snippet-only, so the Hasbrouck sentence ($1,355, $16,260, $3,702) was cut."},
+{"line":136,"value":"$4,338","status":"ok-arithmetic","note":"24,300 - 19,962."}
+]}

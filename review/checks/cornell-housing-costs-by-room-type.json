@@ -1,0 +1,115 @@
+{
+ "verdict": "pass",
+ "numbers_total": 136,
+ "matched_by_code": 121,
+ "verified": 15,
+ "fixed": 3,
+ "removed": 1,
+ "new_facts": [],
+ "fact_file_updates": [],
+ "fix_instructions": [],
+ "reason": "All 15 unmatched numbers verified: $1,822, $2,851 and $1,100 recompute from room rates; $7,106 is $7,056 plus $50; Hasbrouck yearly figures are monthly x12; co-op ranges $5,213, $5,693 are in fact 2.3-0039 and the rates page. Snippet-only facts opened and confirmed (cancellation policy, meal plans, fall selection, 2027-28 license, Greystar). Fixed unsupported Bear Traditional eligibility claim (2 places) and removed uncited claim that co-ops set rates from own costs (Sun says Cornell standardized rates).",
+ "slug": "cornell-housing-costs-by-room-type",
+ "checked": [
+  {
+   "line": 72,
+   "value": "$1,822",
+   "status": "ok-arithmetic",
+   "note": "15,566-13,744"
+  },
+  {
+   "line": 96,
+   "value": "$1,822",
+   "status": "ok-arithmetic",
+   "note": "15,566-13,744"
+  },
+  {
+   "line": 96,
+   "value": "$2,851",
+   "status": "ok-arithmetic",
+   "note": "16,595-13,744"
+  },
+  {
+   "line": 111,
+   "value": "$7,106",
+   "status": "ok-arithmetic",
+   "note": "7,056+50"
+  },
+  {
+   "line": 172,
+   "value": "$5,213",
+   "status": "ok-verified",
+   "note": "fact 2.3-0039 and rates page",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates"
+  },
+  {
+   "line": 174,
+   "value": "$5,693",
+   "status": "ok-verified",
+   "note": "fact 2.3-0039 and rates page"
+  },
+  {
+   "line": 195,
+   "value": "$7,440",
+   "status": "ok-arithmetic",
+   "note": "620x12"
+  },
+  {
+   "line": 196,
+   "value": "$10,920",
+   "status": "ok-arithmetic",
+   "note": "910x12"
+  },
+  {
+   "line": 197,
+   "value": "$16,260",
+   "status": "ok-arithmetic",
+   "note": "1,355x12"
+  },
+  {
+   "line": 198,
+   "value": "$16,980",
+   "status": "ok-arithmetic",
+   "note": "1,415x12"
+  },
+  {
+   "line": 199,
+   "value": "$17,880",
+   "status": "ok-arithmetic",
+   "note": "1,490x12"
+  },
+  {
+   "line": 200,
+   "value": "$17,700",
+   "status": "ok-arithmetic",
+   "note": "1,475x12"
+  },
+  {
+   "line": 202,
+   "value": "$18,360",
+   "status": "ok-arithmetic",
+   "note": "1,530x12"
+  },
+  {
+   "line": 109,
+   "value": "Bear Traditional eligibility",
+   "status": "fixed",
+   "note": "meal plan page states no eligibility for Bear Traditional; clause cut"
+  },
+  {
+   "line": 164,
+   "value": "co-ops set own rates",
+   "status": "removed",
+   "note": "uncited; Sun 2024 says Cornell standardized rates"
+  },
+  {
+   "line": 245,
+   "value": "Collegetown or Bear Traditional open to upper-level outside West Campus",
+   "status": "fixed",
+   "note": "Collegetown plan is limited to six named buildings"
+  }
+ ],
+ "fixes": [
+  "Removed Bear Traditional eligibility claim (line 109); narrowed line 245 to the Collegetown plan; cut uncited co-op rate-setting clause (line 164)."
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "verdict": "pass",
+ "numbers_total": 31,
+ "matched_by_code": 29,
+ "verified": 2,
+ "fixed": 1,
+ "removed": 0,
+ "new_facts": [
+  {
+   "fact": "Accessible housing requires SDS registration",
+   "value": "Must register with Student Disability Services as early as possible; SDS 607-254-4545, sds_cu@cornell.edu",
+   "applies_to": "New students needing accessible housing",
+   "period": "2026-27 application cycle",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process",
+   "source_title": "New Undergrad Application Process, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Fall housing billing month",
+   "value": "Billed in July or August for fall housing, December for spring housing",
+   "applies_to": "New undergraduates",
+   "period": "2026-27 application cycle",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process",
+   "source_title": "New Undergrad Application Process, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  }
+ ],
+ "fact_file_updates": [],
+ "fix_instructions": [],
+ "reason": "$3,951 recomputed: $16,595 - $12,644 = $3,951 from fact-file rows. 607-254-4545 verified on the opened source page. Page said August bill for fall housing; source says July or August, fixed in place.",
+ "slug": "cornell-first-year-housing-application-how-it-works",
+ "checked": [
+  {
+   "line": 77,
+   "value": "607-254-4545",
+   "status": "ok-verified",
+   "note": "Source page lists SDS phone 607-254-4545"
+  },
+  {
+   "line": 132,
+   "value": "$3,951",
+   "status": "ok-arithmetic",
+   "note": "16595-12644=3951"
+  },
+  {
+   "line": 132,
+   "value": "August bill",
+   "status": "fixed",
+   "note": "Source says July or August; page fixed"
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "verdict": "pass",
+ "numbers_total": 64,
+ "matched_by_code": 55,
+ "verified": 9,
+ "fixed": 0,
+ "removed": 0,
+ "new_facts": [
+  {
+   "fact": "Financial aid cannot cover off-campus security deposits, first/last month's rent, or rent for months the student is not registered",
+   "value": "Aid can't help with costs of securing future housing (security deposit, first/last month's rent) or rent during months not a registered student",
+   "applies_to": "Cornell undergraduates living off campus",
+   "period": "page undated",
+   "source_url": "https://finaid.cornell.edu/living-campus",
+   "source_title": "Living Off-Campus, Cornell Financial Aid",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Cornell undergraduate housing billing cycle",
+   "value": "Bursar-billed in August for fall housing and December for spring",
+   "applies_to": "Cornell undergraduate residents",
+   "period": "AY 2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates",
+   "source_title": "Housing Rates, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Fall Housing Selection same-area groups and missed deadline",
+   "value": "Areas: North Campus halls and Townhouses; South Campus halls and 301 College Avenue Apartments; each West Campus house. Missing Sept. 27, 2026 deadline means no timeslot, redirected to waitlist; blocks up to five",
+   "applies_to": "Rising juniors and seniors",
+   "period": "Fall 2026 for AY 2027-28",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors",
+   "source_title": "Fall Housing Selection for Rising Juniors and Seniors, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Before 2025-26 change, junior/senior cancellation limited to exceptions",
+   "value": "Cancellation restricted to exceptions such as leave of absence or medical withdrawal; new policy allows cancel before check-in",
+   "applies_to": "Rising juniors and seniors",
+   "period": "Fall 2025",
+   "source_url": "https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed",
+   "source_title": "The Cornell Daily Sun, Nov. 4, 2025",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  },
+  {
+   "fact": "410 Elmwood Avenue signed 16 months before move-in",
+   "value": "Signed April 2017, 16 months before moving in",
+   "applies_to": "Collegetown leases",
+   "period": "2017 (article Nov. 7, 2018)",
+   "source_url": "https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/",
+   "source_title": "The Cornell Daily Sun",
+   "checked": "2026-11-10",
+   "confidence": "secondary"
+  }
+ ],
+ "fact_file_updates": [],
+ "fix_instructions": [],
+ "reason": "All 9 unmatched numbers are our arithmetic from fact rows: $725/$825 x12 = $8,700/$9,900; $1,695/$1,750 x12 = $20,340/$21,000 (inventory rows); 6BR median $800 x12 = $9,600; 4BR median $1,246.25 x12 = $14,955. Five new facts opened and confirmed.",
+ "slug": "cornell-fall-housing-selection-juniors-seniors",
+ "checked": [
+  {
+   "line": 132,
+   "value": "$8,700",
+   "status": "ok-arithmetic",
+   "note": "$725x12"
+  },
+  {
+   "line": 132,
+   "value": "$9,900",
+   "status": "ok-arithmetic",
+   "note": "$825x12"
+  },
+  {
+   "line": 132,
+   "value": "$20,340",
+   "status": "ok-arithmetic",
+   "note": "$1,695x12"
+  },
+  {
+   "line": 132,
+   "value": "$21,000",
+   "status": "ok-arithmetic",
+   "note": "$1,750x12"
+  },
+  {
+   "line": 139,
+   "value": "$8,700",
+   "status": "ok-arithmetic",
+   "note": "$725x12"
+  },
+  {
+   "line": 139,
+   "value": "$9,900",
+   "status": "ok-arithmetic",
+   "note": "$825x12"
+  },
+  {
+   "line": 140,
+   "value": "$9,600",
+   "status": "ok-arithmetic",
+   "note": "6BR median $800x12"
+  },
+  {
+   "line": 142,
+   "value": "$20,340",
+   "status": "ok-arithmetic",
+   "note": "$1,695x12"
+  },
+  {
+   "line": 142,
+   "value": "$21,000",
+   "status": "ok-arithmetic",
+   "note": "$1,750x12"
+  }
+ ]
+}

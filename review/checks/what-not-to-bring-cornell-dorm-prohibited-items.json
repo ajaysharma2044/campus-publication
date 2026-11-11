@@ -1,0 +1,8 @@
+{"slug":"what-not-to-bring-cornell-dorm-prohibited-items","verdict":"pass","numbers_total":5,"matched_by_code":5,
+"checked":[
+{"line":1,"value":"301 College Avenue kitchenettes with fridge and microwave","status":"ok-verified","note":"Opened the 301 College Avenue page: kitchenette in each unit with a fridge and microwave.","source_url":"https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue"},
+{"line":1,"value":"My MicroFridge","status":"ok-verified","note":"Vendor site blocks automated access (Cloudflare 403). Claim is attributed to Cornell's packing page, which I opened and which says microfridges may be ordered from My MicroFridge.","source_url":"https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/what-pack-what-not-bring"},
+{"line":1,"value":"full-size refrigerators in Townhouse and 301","status":"fixed","note":"Neither page says full-size fridges; reworded to kitchens."},
+{"line":1,"value":"Transportation Services / bike-room access","status":"fixed","note":"CLS says only that bikes must be registered on campus; removed unsupported claims."}],
+"fixes":["Replaced full-size refrigerator claim","Removed Transportation Services and bike-room access claims"],
+"new_facts":[],"fact_file_updates":[]}

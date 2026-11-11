@@ -1,0 +1,82 @@
+{
+ "verdict": "pass",
+ "numbers_total": 189,
+ "matched_by_code": 119,
+ "verified": 68,
+ "fixed": 0,
+ "removed": 2,
+ "new_facts": [
+  {
+   "fact": "Cornell 2026-27 residence hall double rate",
+   "value": "$6,872 per semester; $13,744 per year (single $15,566; Red Bud in Von Cramm co-op triple $2,765 per semester)",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates",
+   "applies_to": "Cornell undergraduates",
+   "period": "2026-27",
+   "confidence": "official"
+  },
+  {
+   "fact": "Cornell 2026-27 meal plans",
+   "value": "House/Unlimited $7,604 per year; Bear Traditional and Collegetown Meal Plan $7,056; Bear Choice $6,150; $50 non-refundable fee per year",
+   "source_url": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+   "applies_to": "Cornell undergraduates",
+   "period": "2026-27",
+   "confidence": "official"
+  }
+ ],
+ "fact_file_updates": [],
+ "fix_instructions": [],
+ "reason": "Unmatched numbers were our arithmetic (annual rents, differences from $13,744, $1,374.40, $446.25/$5,355, RentCafe 2BR split $20,484/$6,740, Ivy $4,900 split $19,600/$5,856, $20,850 total); all recomputed correctly. Cornell housing and meal rates opened in full (via curl -k after certificate errors) and match. Poweroutage.us $104.20 returned HTTP 403 and could not be opened, so that claim and the dependent $26.05/$312.60/$1,523.60 sentence were cut. Orphan Poweroutage source entry remains in front matter sources list (lines 79-80); remove if the page validator objects.",
+ "slug": "is-off-campus-cheaper-than-cornell-dorm",
+ "checked": [
+  {
+   "line": 119,
+   "value": "$24,300",
+   "status": "ok-arithmetic",
+   "note": "$2,025 x 12"
+  },
+  {
+   "line": 126,
+   "value": "$446.25",
+   "status": "ok-arithmetic",
+   "note": "$1,246.25 - $800; x12 = $5,355"
+  },
+  {
+   "line": 147,
+   "value": "$1,374.40",
+   "status": "ok-arithmetic",
+   "note": "$13,744 / 10"
+  },
+  {
+   "line": 162,
+   "value": "$8,214",
+   "status": "ok-arithmetic",
+   "note": "$13,744 - 2 x $2,765 = $8,214; table rows 162-177 recomputed"
+  },
+  {
+   "line": 183,
+   "value": "$20,484",
+   "status": "ok-arithmetic",
+   "note": "$3,414 / 2 x 12; $6,740 over"
+  },
+  {
+   "line": 185,
+   "value": "$19,600",
+   "status": "ok-arithmetic",
+   "note": "$4,900 / 3 x 12; $5,856 over"
+  },
+  {
+   "line": 13744,
+   "value": "$13,744",
+   "status": "ok-verified",
+   "note": "Cornell housing rates page opened",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates"
+  },
+  {
+   "line": 199,
+   "value": "$104.20",
+   "status": "removed",
+   "note": "poweroutage.us returned 403; claim and dependent sentence cut",
+   "source_url": "https://poweroutage.us/electricity-rates/ny/ithaca"
+  }
+ ]
+}

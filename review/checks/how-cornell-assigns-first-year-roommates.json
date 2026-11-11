@@ -1,0 +1,178 @@
+{
+ "slug": "how-cornell-assigns-first-year-roommates",
+ "verdict": "pass",
+ "numbers_total": 27,
+ "matched_by_code": 25,
+ "checked": [
+  {
+   "line": 92,
+   "value": "$1,822",
+   "status": "ok-arithmetic",
+   "note": "$15,566 single minus $13,744 double = $1,822; triple $12,644 is $1,100 less; quad $13,744 equal. Rates re-read on the housing rates page.",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates"
+  },
+  {
+   "line": 102,
+   "value": "607-254-4545",
+   "status": "ok-verified",
+   "note": "SDS phone and email read on the New Undergrad Application Process page.",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process"
+  },
+  {
+   "line": 135,
+   "value": "607-273-9347",
+   "status": "fixed",
+   "note": "Number correct on Campus Living Resources; page said roommate mediation but source says mediation for everyday disputes (neighbors, families, tenants). Reworded.",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources"
+  },
+  {
+   "line": 62,
+   "value": "564, 194, 35 residents",
+   "status": "fixed",
+   "note": "Counts confirmed on the individual Ganedago, Risley and Akwe:kon pages, not on the first-year page the citation pointed to; citation links replaced."
+  },
+  {
+   "line": 100,
+   "value": "Low Rise 7 female-identified",
+   "status": "fixed",
+   "note": "Confirmed on the Low Rise 7 page (all four years); upper-level page did not say it; citation replaced.",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/low-rise-7"
+  },
+  {
+   "line": 133,
+   "value": "cannot cancel license",
+   "status": "fixed",
+   "note": "Link to 2027-28 license was a 404 and wrong year; 2026-27 license says new students cannot cancel unless no longer attending or approved for exemption. Link and label updated."
+  },
+  {
+   "line": 94,
+   "value": "$3,802 per semester, $50 fee, $21,398",
+   "status": "ok-arithmetic",
+   "note": "Meal plan $3,802/$7,604 confirmed; 13,744+7,604+50=21,398. $50 yearly administrative fee confirmed on the dining page."
+  },
+  {
+   "line": 72,
+   "value": "BSU town hall March 10, 2026",
+   "status": "ok-verified",
+   "note": "Sun article opened; factors match (preferences, room availability, disability accommodations, roommate groupings)."
+  },
+  {
+   "line": 66,
+   "value": "800 beds, 1,200 beds",
+   "status": "ok-verified",
+   "note": "Cornell Chronicle opened."
+  },
+  {
+   "line": 138,
+   "value": "Aug. 17 and 18, almost 15% transfers",
+   "status": "ok-verified",
+   "note": "North Campus move-in and application pages opened."
+  },
+  {
+   "line": 102,
+   "value": "unsourced sentences",
+   "status": "removed",
+   "note": "Cut 'Claim an early bedtime...', 'Both applications then point at the same pairing.' and 'which lets students of any gender share a room' as unsourced."
+  }
+ ],
+ "fixes": [
+  "Replaced 2027-28 license link with 2026-27 license",
+  "Reworded CDRC to mediation for everyday disputes",
+  "Re-cited hall counts and Low Rise 7",
+  "Cut three unsourced claims"
+ ],
+ "new_facts": [
+  {
+   "fact": "Roommate matching by questionnaire or named request",
+   "value": "Questionnaire or named request; not guaranteed",
+   "applies_to": "New first-years and transfers",
+   "period": "2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process",
+   "source_title": "New Undergrad Application Process, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Room types requestable",
+   "value": "Single, double, triple or quad",
+   "applies_to": "New first-years and transfers",
+   "period": "2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process",
+   "source_title": "New Undergrad Application Process, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Female-only interest, gender-inclusive opt-in, SDS registration (607-254-4545, sds_cu@cornell.edu)",
+   "value": "Female-only interest; gender-inclusive opt-in; SDS registration",
+   "applies_to": "New first-years and transfers",
+   "period": "2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process",
+   "source_title": "New Undergrad Application Process, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Guaranteed housing, waitlist, timeslot changes to Aug. 1",
+   "value": "Guaranteed housing; timeslot changes until Aug. 1",
+   "applies_to": "New first-years",
+   "period": "2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process",
+   "source_title": "New Undergrad Application Process, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "No application fee; billing months",
+   "value": "No application fee; fall billed July or August, spring December",
+   "applies_to": "New undergraduates",
+   "period": "2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process",
+   "source_title": "New Undergrad Application Process, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Rates include utilities and 200 GB/month internet; no deposit",
+   "value": "Utilities and 200 GB/month internet included; no deposit",
+   "applies_to": "Residence halls, program houses, West Campus houses",
+   "period": "2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates",
+   "source_title": "Housing Rates 2026-2027, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Low Rise 7 residents",
+   "value": "Female-identified students, all four years; 160+ residents",
+   "applies_to": "Low Rise 7",
+   "period": "2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/low-rise-7",
+   "source_title": "Low Rise 7, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "First-year/new student license cancellation",
+   "value": "Cannot cancel unless no longer attending or approved exemption",
+   "applies_to": "New students",
+   "period": "2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027",
+   "source_title": "Academic Year Housing License 2026-2027",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  }
+ ],
+ "fact_file_updates": [
+  {
+   "fact_id": "off-campus-housing-2.3-0044",
+   "new_value": "Cancellation limits for new students per the 2026-27 license; the 2027-28 URL in the row was wrong",
+   "reason": "Row cites a 404 path; correct URL has the housing-and-residential-life-and-faculty-involvement-campus prefix"
+  },
+  {
+   "fact_id": "off-campus-housing-5.4-0512",
+   "new_value": "Mediation for everyday disputes (neighbors, families, tenants) | 607-273-9347",
+   "reason": "Source does not say roommate or landlord mediation"
+  }
+ ]
+}

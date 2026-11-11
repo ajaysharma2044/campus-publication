@@ -1,0 +1,162 @@
+{
+ "slug": "cornell-ra-jobs-pay-housing-how-to-apply",
+ "verdict": "pass",
+ "numbers_total": 81,
+ "matched_by_code": 53,
+ "checked": [
+  {
+   "line": 67,
+   "value": "$23,426",
+   "status": "ok-arithmetic",
+   "note": "$15,566 single (fact 9149) + 2 x $3,930 = $23,426"
+  },
+  {
+   "line": 85,
+   "value": "$3,93.00",
+   "status": "ok-verified",
+   "note": "Printed exactly so on the position description page",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/resident-advisor-ra-selection/resident-advisor-position-description"
+  },
+  {
+   "line": 86,
+   "value": "$4,030.00",
+   "status": "ok-verified",
+   "note": "Stipend table, opened",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/resident-advisor-ra-selection/resident-advisor-position-description"
+  },
+  {
+   "line": 87,
+   "value": "$4,130.00",
+   "status": "ok-verified",
+   "note": "Stipend table, opened",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/resident-advisor-ra-selection/resident-advisor-position-description"
+  },
+  {
+   "line": 102,
+   "value": "$7,860.00",
+   "status": "ok-arithmetic",
+   "note": "2 x 3,930"
+  },
+  {
+   "line": 104,
+   "value": "$8,060.00",
+   "status": "ok-arithmetic",
+   "note": "2 x 4,030"
+  },
+  {
+   "line": 105,
+   "value": "$8,260.00",
+   "status": "ok-arithmetic",
+   "note": "2 x 4,130"
+  },
+  {
+   "line": 111,
+   "value": "$7,106",
+   "status": "ok-arithmetic",
+   "note": "7,056 + 50"
+  },
+  {
+   "line": 111,
+   "value": "$754",
+   "status": "ok-arithmetic",
+   "note": "7,860 - 7,106"
+  },
+  {
+   "line": 111,
+   "value": "$21,604",
+   "status": "ok-arithmetic",
+   "note": "20,850 + 754"
+  },
+  {
+   "line": 111,
+   "value": "$206",
+   "status": "ok-arithmetic",
+   "note": "7,860 - (7,604 + 50)"
+  },
+  {
+   "line": 111,
+   "value": "RA pays meal plan in a building that requires one",
+   "status": "fixed",
+   "note": "No source says RAs buy a meal plan; reworded as a hypothetical"
+  },
+  {
+   "line": 113,
+   "value": "$9.83 / $11,713 / $29.28",
+   "status": "ok-arithmetic",
+   "note": "3,930/400=9.825; 3,930+7,783=11,713; /400=29.28; Aug 4-Dec 20 is 20 weeks"
+  },
+  {
+   "line": 119,
+   "value": "$1,246.25 / $14,955 / $1,211",
+   "status": "ok-arithmetic",
+   "note": "Fact 0345 median; x12=14,955; minus 13,744 double = 1,211. Ithaca Renting live page no longer shows the figure; fact file used"
+  },
+  {
+   "line": 139,
+   "value": "May 24 / May 25 / Dec 19-20",
+   "status": "ok-verified",
+   "note": "Matches appointment dates",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/resident-advisor-ra-selection/resident-advisor-position-description"
+  },
+  {
+   "line": 150,
+   "value": "May 21-24, 2028",
+   "status": "ok-verified",
+   "note": "Closing duties",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/resident-advisor-ra-selection/resident-advisor-position-description"
+  },
+  {
+   "line": 216,
+   "value": "April 3 / April 17",
+   "status": "ok-verified",
+   "note": "Summer page opened",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/summer-session-resident-advisor-ra-selection"
+  },
+  {
+   "line": 221,
+   "value": "$7,000",
+   "status": "ok-verified",
+   "note": "GCA page opened: 2-bedroom, $7,000, 5 hrs, due Feb 10 2025",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/contact-us/student-employment/graduate-community-advisor-positions"
+  },
+  {
+   "line": 221,
+   "value": "$36,684",
+   "status": "ok-verified",
+   "note": "Grad School stipend page opened",
+   "source_url": "https://gradschool.cornell.edu/financial-support/stipend-rates/"
+  },
+  {
+   "line": 121,
+   "value": "Cornell Daily Sun 16 months",
+   "status": "ok-verified",
+   "note": "Article page opened; title states up to 16 months"
+  },
+  {
+   "line": 139,
+   "value": "Halls open over Thanksgiving/spring break; only winter and summer free",
+   "status": "fixed",
+   "note": "Unsourced; replaced with position-description wording on presence during breaks"
+  },
+  {
+   "line": 218,
+   "value": "Winter Break RA jobs pay extra",
+   "status": "fixed",
+   "note": "Source says only that winter positions exist for current RAs; cut 'pay extra'"
+  },
+  {
+   "line": 166,
+   "value": "RA housing satisfies live-on requirement",
+   "status": "removed",
+   "note": "No source; clause cut"
+  }
+ ],
+ "fixes": [
+  "Reworded $7,106 meal plan sentence as hypothetical",
+  "Replaced unsourced break-coverage sentence",
+  "Cut 'pay extra' from winter RA sentence",
+  "Cut unsourced live-on requirement sentence in first-year reader block"
+ ],
+ "new_facts": [],
+ "fact_file_updates": []
+}

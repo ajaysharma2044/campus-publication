@@ -1,0 +1,21 @@
+{
+ "slug":"cornell-spring-transfer-housing-whats-left-when",
+ "verdict":"pass",
+ "numbers_total":61,
+ "matched_by_code":55,
+ "checked":[
+  {"line":56,"value":"$10,450","status":"ok-arithmetic","note":"6,872 + 3,528 + 50; inputs opened at Cornell Housing rates and Dining meal plans pages"},
+  {"line":98,"value":"$10,450","status":"ok-arithmetic","note":"Same sum, inputs verified at source"},
+  {"line":112,"value":"$10,450","status":"ok-arithmetic","note":"Same sum"},
+  {"line":113,"value":"$11,635","status":"ok-arithmetic","note":"7,783 + 3,802 + 50"},
+  {"line":117,"value":"$31,300","status":"ok-arithmetic","note":"20,616 + 10,584 + 100"},
+  {"line":117,"value":"$20,616","status":"ok-arithmetic","note":"3 x 6,872"},
+  {"line":117,"value":"$10,584","status":"ok-arithmetic","note":"3 x 3,528"},
+  {"line":122,"value":"cancel license","status":"fixed","note":"Source says exemption cancels only for second-year students; new transfers can cancel only if not attending or accepted to Greek house or co-op. Page corrected."},
+  {"line":127,"value":"Jan. 25, 2027","status":"fixed","note":"Confirmed on Registrar calendar; citation swapped from the SFL page, which does not say it"},
+  {"line":67,"value":"co-ops placement","status":"fixed","note":"Source: transfers placed in upper-level halls; co-ops are a choice. Reworded."},
+  {"line":90,"value":"October 2025","status":"fixed","note":"Sun article dated Nov. 4, 2025 gives no October date; changed to fall 2025 selection"},
+  {"line":177,"value":"Aug. 1 leases","status":"fixed","note":"Single listing cited, cannot support most leases; narrowed. Sun 2018 article quotes students, not landlords; fixed."},
+  {"line":168,"value":"$995","status":"removed","note":"travishyde.com page does not print the price when fetched; row and source link cut"}
+ ]
+}

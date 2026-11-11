@@ -1,0 +1,15 @@
+{
+ "slug":"cornell-housing-meal-plan-requirement",
+ "verdict":"pass",
+ "numbers_total":79,
+ "matched_by_code":78,
+ "checked":[
+  {"line":220,"value":"$274","status":"ok-arithmetic","note":"Unlimited $3,802 minus Bear Traditional/Collegetown $3,528 = $274 per semester; x2 = $548 per year; both verified live on the undergraduate meal plans page."},
+  {"line":0,"value":"Sheldon Court 12-minute walk","status":"ok-verified","note":"Opened Cornell Sun Apr 17, 2026 article live: closest dining hall is a 12 minute walk to West Campus.","source_url":"https://www.cornellsun.com/article/2026/04/the-misunderstood-dorm-sheldon-court"},
+  {"line":0,"value":"301 College Ave kitchenette with fridge and microwave","status":"ok-verified","note":"Opened official 301 College Avenue page live: kitchenette in each unit with a fridge and microwave.","source_url":"https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue"},
+  {"line":0,"value":"Housing rates ($6,872/$13,744 double; co-op $3,487 to $4,981; Triphammer $4,317)","status":"ok-verified","note":"Opened working housing rates URL live; values match. Page already links the working URL, not the 404 one in fact rows 3.4-0373/0374."}
+ ],
+ "fixes":[],
+ "new_facts":[],
+ "fact_file_updates":[]
+}

@@ -1,0 +1,91 @@
+{
+ "verdict": "pass",
+ "numbers_total": 36,
+ "matched_by_code": 34,
+ "verified": 2,
+ "fixed": 1,
+ "removed": 0,
+ "new_facts": [
+  {
+   "fact": "Fall meal plans end with the fall semester and cannot be carried into winter break; students can use BRBs at open dining rooms and retail spots; Cornell Dining traditionally closes everything during the week the university is closed, when City Bucks can be used at open local establishments",
+   "value": "Meal plans end at fall close; BRBs during break; City Bucks during closed week",
+   "applies_to": "Students staying over winter break",
+   "period": "2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing",
+   "source_title": "Winter Break Housing, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Eligibility: must be returning as a student to on-campus housing for spring semester; non-residents of open buildings get Residential Flex Spaces, extremely limited, full break only ($500); fees flat and not prorated; Veterans House free (in academic-year license); HILC and Loving House free thanks to individual gifts; new students select a Winter Break Housing option on housing application",
+   "value": "Returning to on-campus housing in spring",
+   "applies_to": "Cornell undergraduates",
+   "period": "2026-27 and 2027-28",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing",
+   "source_title": "Winter Break Housing, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Requests for later departure than 2 p.m. Dec. 20 due in Housing and Dining Portal by Monday, Dec. 7; $60.00 per hour or fraction after; residences reopen 9 a.m. Tue Jan. 19, 2027; classes begin Tue Jan. 26",
+   "value": "Dec. 7, 2026 deadline; Jan. 26, 2027 classes begin",
+   "applies_to": "Cornell undergraduate residents",
+   "period": "Winter break 2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-details/winter-break-closing-checklist",
+   "source_title": "Winter Break 2026 Closing Checklist, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Hasbrouck Apartments 12-month contract rents, per month: studio $1,355; 1BR $1,415-$1,490; regular single in 2BR townhouse $620; large single $910; 2BR 3rd floor $1,500; 2BR townhouse $1,475-$1,530",
+   "value": "$620 to $1,530 a month",
+   "applies_to": "Hasbrouck graduate and family housing",
+   "period": "2026-27",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates",
+   "source_title": "Housing Rates, Cornell Student & Campus Life",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  },
+  {
+   "fact": "Global Cornell invites international students concerned that visa issues limit travel home during breaks to email housing@cornell.edu in confidence about on-campus housing",
+   "value": "housing@cornell.edu",
+   "applies_to": "International students",
+   "period": "current",
+   "source_url": "https://global.cornell.edu/resources/immigration-advice-and-resources",
+   "source_title": "Immigration Advice and Resources, Cornell Global",
+   "checked": "2026-11-10",
+   "confidence": "official"
+  }
+ ],
+ "fact_file_updates": [
+  {
+   "fact_id": "off-campus-housing-2.3-0040",
+   "new_value": "Same values; source URL moved to https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates (old URL returns Page not found); also fact rows 3.4-0375 and 5.2-0478",
+   "reason": "Old housing-rates URL is a 404; values confirmed on new URL",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates"
+  }
+ ],
+ "fix_instructions": [],
+ "reason": "Unmatched $16.67 (500/30) and $17.86 (125/7) are correct arithmetic; 30 nights Dec 20 to Jan 19 confirmed. Both snippet-only facts opened: Hasbrouck $620-$1,530 confirmed on the live rates page, whose URL had changed (old link 404); fixed link in body and sources. housing@cornell.edu confirmed as the mailto on the Global Cornell page. Dec 7, Jan 19, Jan 26, $60/hr, fees and eligibility confirmed. Full adversarial scan of every uncited sentence was not done.",
+ "slug": "cornell-winter-break-housing-who-can-stay",
+ "checked": [
+  {
+   "line": 104,
+   "value": "$16.67",
+   "status": "ok-arithmetic",
+   "note": "500/30 = 16.67; 30 nights Dec 20 to Jan 19"
+  },
+  {
+   "line": 104,
+   "value": "$17.86",
+   "status": "ok-arithmetic",
+   "note": "125/7 = 17.857"
+  },
+  {
+   "line": 58,
+   "value": "$620 to $1,530",
+   "status": "fixed",
+   "note": "Confirmed on live rates page; link updated from 404 URL"
+  }
+ ]
+}

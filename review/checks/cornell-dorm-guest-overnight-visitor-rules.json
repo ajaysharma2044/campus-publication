@@ -1,0 +1,6 @@
+{"slug":"cornell-dorm-guest-overnight-visitor-rules","verdict":"pass","numbers_total":11,"matched_by_code":11,
+"checked":[
+{"line":1,"value":"NY RPL 235-f occupant cap and 30-day notice","status":"ok-verified","note":"Opened nysenate.gov page: cap excludes dependent children; name within 30 days of occupancy or landlord request; matches rows 2.9-0149/0150.","source_url":"https://www.nysenate.gov/legislation/laws/RPP/235-F"},
+{"line":1,"value":"3 nights in 7 days; under 16; registration; occupancy 2/4/6; quiet hours","status":"ok-verified","note":"Opened Community Living Standards page; all match page text and attribution.","source_url":"https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads"},
+{"line":1,"value":"Guest Registration Form link","status":"ok-verified","note":"URL loads (HTTP 200) and is the link on the Community Living Standards page; form content is behind login, so the NetID claim was not directly viewed.","source_url":"https://cornell.guardianconduct.com/student-portal/new-report?incident_type=residence%20hall/co-op%20overnight%20guest%20registration"}
+],"fixes":[],"new_facts":[],"fact_file_updates":[]}

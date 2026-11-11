@@ -1,0 +1,124 @@
+{
+ "slug": "cornell-summer-housing-options-rates-dates",
+ "verdict": "pass",
+ "numbers_total": 73,
+ "matched_by_code": 50,
+ "checked": [
+  {
+   "line": 43,
+   "value": "$57.00",
+   "status": "ok-verified",
+   "note": "Source page opened: double $57.00/night",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  },
+  {
+   "line": 43,
+   "value": "$69.50",
+   "status": "ok-verified",
+   "note": "single $69.50/night",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  },
+  {
+   "line": 84,
+   "value": "July 27",
+   "status": "ok-verified",
+   "note": "Arrive between 2pm June 1 and 2pm July 27; rationale clause 'fits two-week minimum' not in source, replaced",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  },
+  {
+   "line": 112,
+   "value": "$104.00",
+   "status": "ok-verified",
+   "note": "$104.00 per key, $25.00 per card",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  },
+  {
+   "line": 62,
+   "value": "$58.50",
+   "status": "ok-arithmetic",
+   "note": "57+1.5",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  },
+  {
+   "line": 62,
+   "value": "$71.00",
+   "status": "ok-arithmetic",
+   "note": "69.5+1.5",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  },
+  {
+   "line": 70,
+   "value": "$819.00",
+   "status": "ok-arithmetic",
+   "note": "58.5*14",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  },
+  {
+   "line": 71,
+   "value": "$994.00",
+   "status": "ok-arithmetic",
+   "note": "71*14",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  },
+  {
+   "line": 72,
+   "value": "$1,755.00",
+   "status": "ok-arithmetic",
+   "note": "58.5*30",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  },
+  {
+   "line": 73,
+   "value": "$2,130.00",
+   "status": "ok-arithmetic",
+   "note": "71*30",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  },
+  {
+   "line": 74,
+   "value": "$4,153.50",
+   "status": "ok-arithmetic",
+   "note": "58.5*71; June 1 to Aug 11 = 71 nights",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  },
+  {
+   "line": 75,
+   "value": "$5,041.00",
+   "status": "ok-arithmetic",
+   "note": "71*71",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  },
+  {
+   "line": 138,
+   "value": "$1,055.00",
+   "status": "ok-arithmetic",
+   "note": "1755-700",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  },
+  {
+   "line": 150,
+   "value": "$4,839.50",
+   "status": "ok-arithmetic",
+   "note": "4153.50+686",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  },
+  {
+   "line": 155,
+   "value": "41 percent",
+   "status": "ok-arithmetic",
+   "note": "5041/12228=41.2%; double 34.0%",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  },
+  {
+   "line": 136,
+   "value": "June 11",
+   "status": "ok-verified",
+   "note": "Inventory row 408 Stewart Ave: Apt 2 studio $1,200 available 6/11/2027 (CSP listing)",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus"
+  }
+ ],
+ "fixes": [
+  "Line 84: removed unsupported 'still fits the two-week minimum' rationale for July 27"
+ ],
+ "new_facts": []
+}

@@ -1,0 +1,79 @@
+{
+ "slug": "cornell-housing-license-what-you-are-signing",
+ "verdict": "pass",
+ "numbers_total": 49,
+ "matched_by_code": 48,
+ "checked": [
+  {
+   "line": 135,
+   "value": "$14,244.00",
+   "status": "ok-arithmetic",
+   "note": "$13,744 (2026-27 double per year, fact 2.3-0036) + $500 revocation fee (2027-28 license, opened in crawl) = $14,244.",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028"
+  }
+ ],
+ "fixes": [],
+ "new_facts": [
+  {
+   "fact": "License legally binding on the date the student accepts the housing assignment in the Housing and Dining Portal; runs for the entire Term",
+   "value": "Binding on acceptance",
+   "applies_to": "Cornell academic-year housing",
+   "period": "AY 2027-28",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028",
+   "source_title": "Academic Year Housing License 2027-2028, Cornell Student & Campus Life",
+   "checked": "2026-11-10 (repo crawl corpus/scl.cornell.edu/.../academic-year-housing-license-2027-2028.txt, read in full for these clauses; live page gives a certificate error)",
+   "confidence": "official"
+  },
+  {
+   "fact": "Revocation: liable for all housing charges for the entire Term, no refund, $500 revocation fee, may be barred from future University housing",
+   "value": "Full-term liability, no refund, $500 fee",
+   "applies_to": "Cornell academic-year housing",
+   "period": "AY 2027-28",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028",
+   "source_title": "Academic Year Housing License 2027-2028, Cornell Student & Campus Life",
+   "checked": "2026-11-10 (repo crawl corpus/scl.cornell.edu/.../academic-year-housing-license-2027-2028.txt, read in full for these clauses; live page gives a certificate error)",
+   "confidence": "official"
+  },
+  {
+   "fact": "Termination (damage, renovation, emergencies, disability with no reasonable accommodation): may be entitled to pro rata refund at University's sole discretion",
+   "value": "Pro rata refund at Cornell's discretion",
+   "applies_to": "Cornell academic-year housing",
+   "period": "AY 2027-28",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028",
+   "source_title": "Academic Year Housing License 2027-2028, Cornell Student & Campus Life",
+   "checked": "2026-11-10 (repo crawl corpus/scl.cornell.edu/.../academic-year-housing-license-2027-2028.txt, read in full for these clauses; live page gives a certificate error)",
+   "confidence": "official"
+  },
+  {
+   "fact": "Eligibility: full time (minimum 12 credit hours) and current on financial obligations",
+   "value": "12 credit hours minimum",
+   "applies_to": "Cornell academic-year housing",
+   "period": "AY 2027-28",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028",
+   "source_title": "Academic Year Housing License 2027-2028, Cornell Student & Campus Life",
+   "checked": "2026-11-10 (repo crawl corpus/scl.cornell.edu/.../academic-year-housing-license-2027-2028.txt, read in full for these clauses; live page gives a certificate error)",
+   "confidence": "official"
+  },
+  {
+   "fact": "Occupancy period change needs prior written approval; extensions only in exceptional circumstances; vacate by 2:00 p.m. on last day of Term",
+   "value": "2:00 p.m. last day of term",
+   "applies_to": "Cornell academic-year housing",
+   "period": "AY 2027-28",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028",
+   "source_title": "Academic Year Housing License 2027-2028, Cornell Student & Campus Life",
+   "checked": "2026-11-10 (repo crawl corpus/scl.cornell.edu/.../academic-year-housing-license-2027-2028.txt, read in full for these clauses; live page gives a certificate error)",
+   "confidence": "official"
+  },
+  {
+   "fact": "Cancellation after occupancy at University's sole discretion; per diem rate for days occupied; vacate and return keys within 24 hours",
+   "value": "Per diem charge; vacate within 24 hours",
+   "applies_to": "Cornell academic-year housing",
+   "period": "AY 2027-28",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028",
+   "source_title": "Academic Year Housing License 2027-2028, Cornell Student & Campus Life",
+   "checked": "2026-11-10 (repo crawl corpus/scl.cornell.edu/.../academic-year-housing-license-2027-2028.txt, read in full for these clauses; live page gives a certificate error)",
+   "confidence": "official"
+  }
+ ],
+ "fact_file_updates": []
+}

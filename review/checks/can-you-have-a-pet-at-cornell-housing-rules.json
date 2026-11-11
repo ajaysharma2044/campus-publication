@@ -1,0 +1,9 @@
+{"slug":"can-you-have-a-pet-at-cornell-housing-rules","verdict":"pass","numbers_total":20,"matched_by_code":16,"checked":[
+{"line":143,"value":"$540","status":"ok-arithmetic","note":"Winston Square $45/month x 12 = $540; $45 confirmed on its FAQ."},
+{"line":143,"value":"$850","status":"ok-arithmetic","note":"Student Agencies $250 + $50 x 12 = $850; both amounts confirmed on its FAQ."},
+{"line":153,"value":"$1,562","status":"ok-verified","note":"115 Stewart Ave. listing opened: $1,562.00 monthly, lease starts Jan. 1, 2027."},
+{"line":153,"value":"$1,562 (cap)","status":"ok-arithmetic","note":"Cap equals one month's rent per GOL 7-108."},
+{"line":0,"value":"GOL 7-108 pet deposit","status":"fixed","note":"Statute opened: says 'deposit or advance', never mentions pets. Page reworded to say pet deposit falls under the cap."},
+{"line":0,"value":"Collegetown Terrace cats and dogs","status":"ok-verified","note":"Marketplace listing opened: Pets Allowed, Cats and Dogs; no fees listed."},
+{"line":0,"value":"Maplewood one Cornell-affiliated option","status":"removed","note":"Unsourced superlative cut; pet-friendly claim verified on grad housing page."}
+]}

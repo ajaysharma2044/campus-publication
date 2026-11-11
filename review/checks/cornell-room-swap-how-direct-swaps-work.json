@@ -1,0 +1,50 @@
+{
+ "slug": "cornell-room-swap-how-direct-swaps-work",
+ "verdict": "pass",
+ "numbers_total": 44,
+ "matched_by_code": 40,
+ "checked": [
+  {
+   "line": 32,
+   "value": "June 21",
+   "status": "ok-verified",
+   "note": "Verified on the room-change-processes page opened in full: swap windows 10 a.m. Feb. 1 to 10 a.m. Feb. 11 (rising juniors and seniors) and 10 a.m. June 21 to 10 a.m. July 1 (summer), no fee."
+  },
+  {
+   "line": 37,
+   "value": "June 21",
+   "status": "ok-verified",
+   "note": "Verified on the room-change-processes page opened in full: swap windows 10 a.m. Feb. 1 to 10 a.m. Feb. 11 (rising juniors and seniors) and 10 a.m. June 21 to 10 a.m. July 1 (summer), no fee."
+  },
+  {
+   "line": 60,
+   "value": "June 21",
+   "status": "ok-verified",
+   "note": "Verified on the room-change-processes page opened in full: swap windows 10 a.m. Feb. 1 to 10 a.m. Feb. 11 (rising juniors and seniors) and 10 a.m. June 21 to 10 a.m. July 1 (summer), no fee."
+  },
+  {
+   "line": 109,
+   "value": "June 21",
+   "status": "ok-verified",
+   "note": "Verified on the room-change-processes page opened in full: swap windows 10 a.m. Feb. 1 to 10 a.m. Feb. 11 (rising juniors and seniors) and 10 a.m. June 21 to 10 a.m. July 1 (summer), no fee."
+  },
+  {
+   "line": 32,
+   "value": "three clicks",
+   "status": "fixed",
+   "note": "Source says three steps (request, recipient accepts, requestor accepts); changed clicks to steps."
+  },
+  {
+   "line": 140,
+   "value": "co-op room change claim",
+   "status": "removed",
+   "note": "Co-op Mosey 2024 page opened in full: it says nothing about residence-hall students filing a room change. Section and source removed."
+  },
+  {
+   "line": 79,
+   "value": "first-years live together on North Campus",
+   "status": "removed",
+   "note": "Not in the residential policy page; replaced with the two-year requirement, cited to Residential Policy."
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{"slug":"cornell-housing-accommodations-disabilities","verdict":"pass","numbers_total":19,"matched_by_code":18,
+"checked":[
+{"line":86,"value":"607-254-4545","status":"ok-verified","note":"Opened New Undergrad Application Process page: SDS phone 607-254-4545, email sds_cu@cornell.edu.","source_url":"https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process"},
+{"line":0,"value":"snippet-only: scl.cornell.edu pages and parking page","status":"ok-verified","note":"Opened all via curl: rising sophomore dates/255-5368/no re-approval, grad rolling plus SDS first, residential policy (no medical exemption), requirements page full-year billing, parking AP $359.77 and annual permits valid through Aug 15.","source_url":"https://fcs.cornell.edu/departments/transportation-delivery-services/parking/parking-students"},
+{"line":0,"value":"inventory elevator and accessible parking listings","status":"ok-verified","note":"Opened all seven listings: elevator/parking claims confirmed; 707 E. Seneca says elevator to 1st floor units. Collegetown Crossing elevator appears only on the detailed listing page, so the link was changed to it.","source_url":"https://www.urbanithaca.com/detailed-view-more/57/16/1"},
+{"line":0,"value":"10 days of receiving your NetID","status":"fixed","note":"Source says students are encouraged to apply within ten days, not required; page reworded to match.","source_url":"https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process"}
+],
+"fixes":["Changed Collegetown Crossing link (table and sources) to the detailed listing page that shows the elevator","Reworded NetID 10-day sentence to 'encourages' per source"],
+"new_facts":[],"fact_file_updates":[]}
