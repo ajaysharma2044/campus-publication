@@ -29,7 +29,7 @@ export interface Author {
 export const site = {
   name: 'EduExplained',
   tagline: 'Research-first guides for students, parents and alumni',
-  // OWNER: confirm the production domain; config/monetization.yml's `site.domain` is empty today.
+  // The production domain is www.eduexplained.com (confirmed by Ajay, 2026-11-11); config/monetization.yml carries it too.
   url: process.env.SITE_URL ?? 'https://www.eduexplained.com',
   production: process.env.SITE_PRODUCTION === '1',   // false: every page carries noindex and robots.txt disallows all
   language: 'en-US',
