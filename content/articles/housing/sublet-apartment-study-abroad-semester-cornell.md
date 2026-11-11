@@ -48,7 +48,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: College Avenue in Collegetown, Ithaca, with apartment buildings above storefronts and cars parked along the curb
+  caption: College Avenue in Collegetown. Get your landlord's written consent first, find a subtenant who will cover the rent, and expect to stay liable for the lease while you are gone.
+  credit: Dougtone / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  author: Dougtone
+  source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
 ---
 
 

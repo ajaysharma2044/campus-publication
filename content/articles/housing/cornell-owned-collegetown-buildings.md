@@ -57,7 +57,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/residence-halls/109-mcgraw-place
   title: 109 McGraw Place, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Sheldon Court, a brick residence hall on College Avenue in Collegetown, seen from the street corner
+  caption: Sheldon Court on College Avenue, one of the four Cornell residence halls in Collegetown, with Cascadilla, Schuyler House and 301 College Ave.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Sheldon_Court,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Sheldon_Court,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

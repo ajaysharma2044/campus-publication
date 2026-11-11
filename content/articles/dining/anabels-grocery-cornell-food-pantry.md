@@ -51,7 +51,16 @@ sources:
 - url: https://ithacamarket.com/ebt-snap
   title: 'Ithaca Farmers Market: SNAP and EBT'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Anabel Taylor Hall at Cornell, a stone Gothic building with a tower and a red banner over its entrance
+  caption: Anabel Taylor Hall, home of Anabel's Grocery. The student-run store sells affordable food, the Cornell Food Pantry gives food away free, and this guide covers where each is and who can use it.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Anabel_Taylor_Hall_at_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Anabel_Taylor_Hall_at_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

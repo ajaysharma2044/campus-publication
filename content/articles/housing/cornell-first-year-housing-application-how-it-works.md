@@ -66,7 +66,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
   title: Housing and Residential Life Directory, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: 'Entrance of Ganędagǫ: Hall, a new brick residence hall on Cornell''s North Campus, with its name over the door'
+  caption: 'Ganędagǫ: Hall on North Campus. First-years apply once and choose a room type rather than a hall.'
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Ganedago_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Ganedago_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

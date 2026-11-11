@@ -62,7 +62,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Housing
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Hans Bethe House, a stone and brick residence hall on Cornell's West Campus, seen from its lawn
+  caption: 'Hans Bethe House on West Campus: 350 residents, no air conditioning, a required meal plan and a $13,744 double for 2026-27.'
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Hans_Bethe_House,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Hans_Bethe_House,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

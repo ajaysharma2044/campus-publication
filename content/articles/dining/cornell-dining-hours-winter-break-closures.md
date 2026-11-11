@@ -50,7 +50,16 @@ sources:
 - url: https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/dining-rooms
   title: 'Cornell Dining: Residential dining rooms'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Glass-walled entrance of Morrison Dining at Cornell, with outdoor tables on the plaza
+  caption: Morrison Dining on North Campus. Cornell meal plans pause for about 30 days over winter break, and Cornell Dining closes fully for the days around Christmas.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Morrison_Dining_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Morrison_Dining_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

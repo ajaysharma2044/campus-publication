@@ -33,7 +33,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks
   title: City Bucks, Cornell Dining
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Inside a TCAT bus in Ithaca, looking toward the front door and the farebox beside the driver's seat
+  caption: The farebox at the front door of a TCAT bus. Your Cornell ID is your bus pass, your meal card and your City Bucks account, and a replacement costs $40 at 245 Day Hall.
+  credit: Hbithaca / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Interior_Shot_of_TCAT_Bus_2105.jpg
+  author: Hbithaca
+  source_url: https://commons.wikimedia.org/wiki/File:Interior_Shot_of_TCAT_Bus_2105.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

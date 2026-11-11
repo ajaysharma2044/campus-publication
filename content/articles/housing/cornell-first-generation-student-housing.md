@@ -49,7 +49,16 @@ sources:
 - url: https://gradschool.cornell.edu/announcements/grad-tips-winter-clothing-resources
   title: Winter Clothing Resources, Cornell Graduate School
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Main entrance of Day Hall at Cornell, an ivy-covered stone doorway with steps and railings
+  caption: The main entrance of Day Hall. Financial aid budgets $13,744 for housing and $7,604 for food, but it does not pay deposits or first month's rent.
+  credit: P. Hughes / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Day_Hall_04.jpg
+  author: P. Hughes
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Day_Hall_04.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 

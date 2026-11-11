@@ -41,7 +41,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
   title: Housing and Residential Life Directory, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Low Rise 9, a low brick residence hall on Cornell's North Campus, seen across its lawn
+  caption: Low Rise 9 on North Campus. When the halls are full, a direct swap with another student is the way to a different room.
+  credit: P. Hughes / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Low_Rise_9_01.jpg
+  author: P. Hughes
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Low_Rise_9_01.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 

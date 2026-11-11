@@ -57,7 +57,16 @@ sources:
 - url: https://www.cityofithacany.gov/130/Building-Division
   title: Building Division, City of Ithaca
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Hughes Hall at Cornell Law School after its 2017 renovation, a stone building with a glass-walled ground floor and a courtyard
+  caption: Hughes Hall at Cornell Law School. Call the Cornell Law tenants hotline first; it is free, takes any Ithaca-area renter, and can point you to LawNY, mediation or a code office.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Hughes_Hall_Cornell_University_Law_School.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Hughes_Hall_Cornell_University_Law_School.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

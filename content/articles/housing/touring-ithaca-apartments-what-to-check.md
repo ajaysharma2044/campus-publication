@@ -72,7 +72,16 @@ sources:
 - url: https://www.nysenate.gov/legislation/laws/RPP/238-A
   title: Real Property Law 238-a
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: College Park Apartments in Ithaca, a modern complex with a glass skybridge over a curving driveway
+  caption: College Park Apartments in Ithaca. Check the posted Certificate of Compliance, the heat, the water and the winter bills in person, before you sign.
+  credit: 颐园居 / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:College_Park_Apartments_at_Ithaca,_NY_20240526.jpg
+  author: 颐园居
+  source_url: https://commons.wikimedia.org/wiki/File:College_Park_Apartments_at_Ithaca,_NY_20240526.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

@@ -53,7 +53,16 @@ sources:
 - url: https://www.nrcc.cornell.edu/wxstation/ithaca/normal.html
   title: Ithaca climate normals 1991-2020, Northeast Regional Climate Center
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Beebe Lake at Cornell in summer, with Triphammer Falls spilling over the dam at its outlet
+  caption: Beebe Lake and Triphammer Falls in summer. Skiing, skating history, a winter market and a campus gym give you winter plans, and a few cost nothing to try.
+  credit: P. Hughes / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Beebe_Lake_and_Triphammer_Falls.jpg
+  author: P. Hughes
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Beebe_Lake_and_Triphammer_Falls.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 ```glance

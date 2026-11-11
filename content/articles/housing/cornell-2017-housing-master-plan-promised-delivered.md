@@ -44,7 +44,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process
   title: Current undergraduate application process, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Toni Morrison Hall, a modern brick and metal residence hall on Cornell's North Campus
+  caption: Toni Morrison Hall, one of the new North Campus halls. The expansion that followed the 2017 plan delivered 2,000 beds in two phases, while promises on older halls and upperclass housing are harder to check.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Toni_Morrison_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Toni_Morrison_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

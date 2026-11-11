@@ -178,7 +178,16 @@ sources:
 - url: https://finaid.cornell.edu/graduate-students
   title: 'Graduate Students: Cost of Attendance 2026-27, Cornell Financial Aid'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: College Avenue in Collegetown, Ithaca, with apartment buildings above storefronts and cars parked along the curb
+  caption: College Avenue in Collegetown, the first of the ten areas on the map, which runs out to Lansing, West Hill and Varna.
+  credit: Dougtone / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  author: Dougtone
+  source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
 ---
 
 

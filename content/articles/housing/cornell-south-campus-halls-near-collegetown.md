@@ -122,7 +122,16 @@ sources:
 - url: https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/
   title: As Cornell Requires University Housing for Sophomores, Students Weigh Options, The Cornell Daily Sun, Nov. 8, 2021
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Cascadilla Hall, a five-storey grey stone residence hall at the edge of Collegetown, seen from the street
+  caption: Cascadilla Hall stands in Collegetown near the Schwartz Center for the Performing Arts, one of the South Campus halls compared here.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cascadilla_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Cascadilla_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

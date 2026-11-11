@@ -32,7 +32,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall
   title: 'Move Instructions: South Campus halls, Cornell Housing'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Schuyler House, a white multi-storey residence hall at 112 Sage Place in Ithaca
+  caption: Schuyler House at 112 Sage Place, a 125-resident South Campus hall with a kitchen on each floor and a free TCAT bus pass for every resident.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Schuyler_House,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Schuyler_House,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

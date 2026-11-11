@@ -51,7 +51,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options
   title: Storage and shipping options, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Balch Hall, a Gothic stone residence hall on Cornell's North Campus, seen across its lawn in autumn
+  caption: Balch Hall on North Campus. Pack for a room with no storage, little air conditioning in most halls and a luggage limit on the buses; check your hall's page for what the room already has.
+  credit: Joe Mabel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Balch_Hall_05.jpg
+  author: Photo by Joe Mabel
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Balch_Hall_05.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

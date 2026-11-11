@@ -52,7 +52,16 @@ sources:
 - url: https://www.cornellsun.com/article/2021/10/okenshields-renovations-meet-mixed-reviews-from-students
   title: 'The Cornell Daily Sun: Okenshields renovations meet mixed reviews, Oct. 27, 2021'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Willard Straight Hall, Cornell's stone student union, seen across a lawn in summer
+  caption: Willard Straight Hall, home of Okenshields. A meal swipe works at Okenshields and at the Meals on the Move pickup on Central Campus; this guide shows where Big Red Bucks cover the rest.
+  credit: 颐园居 / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_Willard_Straight_Hall_20240526.jpg
+  author: 颐园居
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_Willard_Straight_Hall_20240526.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

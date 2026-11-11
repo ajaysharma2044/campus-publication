@@ -134,7 +134,16 @@ sources:
 - url: https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/
   title: OurBus Moves Ithaca Stop to South Cayuga Street Monday as TCAT Shifts Stops, FingerLakes1, Nov. 6, 2026
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Main entrance of Robert Purcell Community Center on Cornell's North Campus, a brick building with glass doors
+  caption: 'Robert Purcell Community Center on North Campus. North Campus mail goes through here: address packages to your name and NetID at 107 Robert Purcell Community Center.'
+  credit: P. Hughes / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Robert_Purcell_Community_Center.jpg
+  author: P. Hughes
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Robert_Purcell_Community_Center.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 

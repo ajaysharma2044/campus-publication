@@ -53,7 +53,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: 'Entrance of Ganędagǫ: Hall, a new brick residence hall on Cornell''s North Campus, with its name over the door'
+  caption: 'Ganędagǫ: Hall is Cornell''s largest North Campus residence, a suite-style hall with room cooling for upper-level students and transfers.'
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Ganedago_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Ganedago_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

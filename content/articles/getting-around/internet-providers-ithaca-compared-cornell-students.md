@@ -33,7 +33,16 @@ sources:
 - url: https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095
   title: 209 Stewart Avenue listing, Off-Campus Housing marketplace
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: College Park Apartments in Ithaca, a modern complex with a glass skybridge and a stone amphitheater
+  caption: College Park Apartments in Ithaca. No official source ranks Ithaca providers, so compare Spectrum's published entry price against Verizon Fios and the $75 a month some landlords charge.
+  credit: 颐园居 / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:College_Park_Apartments_in_Ithaca,_NY_20240526.jpg
+  author: 颐园居
+  source_url: https://commons.wikimedia.org/wiki/File:College_Park_Apartments_in_Ithaca,_NY_20240526.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

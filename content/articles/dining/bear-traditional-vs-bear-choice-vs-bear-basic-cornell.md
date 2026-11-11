@@ -37,7 +37,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining
   title: 'Cornell Dining: Winter break dining'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Glass-walled entrance of Morrison Dining at Cornell, with outdoor tables on the plaza
+  caption: Morrison Dining on North Campus. Cornell's three capped meal plans differ by weekly swipes, Big Red Bucks and who can buy them; this guide shows the cost per swipe for each.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Morrison_Dining_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Morrison_Dining_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

@@ -51,7 +51,16 @@ sources:
 - url: https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/dining-rooms
   title: 'Cornell Dining: Residential dining rooms'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Sheldon Court, a brick residence hall on College Avenue in Collegetown, seen from the street corner
+  caption: Sheldon Court on College Avenue. The Collegetown Meal Plan is open only to residents of six Cornell buildings, and it trades four weekly dining-room meals for City Bucks you can spend off campus.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Sheldon_Court,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Sheldon_Court,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

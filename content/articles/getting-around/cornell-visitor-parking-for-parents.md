@@ -38,7 +38,16 @@ sources:
 - url: https://registrar.cornell.edu/calendars-exams/academic-calendar
   title: Academic Calendar 2026-27, Cornell University Registrar
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Entrance of the Martin Y. Tang Welcome Center at Noyes Lodge on Cornell's North Campus, a low stone building with glass doors
+  caption: The Tang Welcome Center at Noyes Lodge. Weekday visitor parking is paid, weekends are free at three named sites, and the Tang Welcome Center lot costs $10 a day.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Tang_Welcome_Center_at_Noyes_Lodge,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Tang_Welcome_Center_at_Noyes_Lodge,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

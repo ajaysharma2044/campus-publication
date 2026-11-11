@@ -55,7 +55,16 @@ sources:
 - url: https://cornellsun.com/article/2025/10/embrace-your-inner-intellectual-go-on-a-midnight-walk
   title: Embrace Your Inner Intellectual, Go on a Midnight Walk, The Cornell Daily Sun, October 2025
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: College Avenue in Collegetown, Ithaca, with apartment buildings above storefronts and cars parked along the curb
+  caption: College Avenue in Collegetown. Cornell and the City publish building safety data and late-night bus service, but the sources here carry no neighborhood crime statistics.
+  credit: Dougtone / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  author: Dougtone
+  source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
 ---
 
 

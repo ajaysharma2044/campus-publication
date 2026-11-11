@@ -70,7 +70,16 @@ sources:
 - url: https://cornellsun.com/2022/07/01/what-i-wish-i-knew-about-campus-food-before-coming-to-cornell/
   title: 'The Cornell Daily Sun: What I wish I knew about campus food, July 1, 2022'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Glass-walled entrance of Morrison Dining at Cornell, with outdoor tables on the plaza
+  caption: Morrison Dining, the North Campus dining room in Toni Morrison Hall. This guide covers what it costs, what it serves and who gets in.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Morrison_Dining_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Morrison_Dining_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

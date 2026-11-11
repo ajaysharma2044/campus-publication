@@ -117,7 +117,16 @@ sources:
 - url: https://www.cornellsun.com/article/2018/11/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in
   title: Desirable Collegetown Leases Leave Market Up to 16 Months Before Residents Move In, The Cornell Daily Sun, Nov. 7, 2018
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Zeta Psi fraternity house at Cornell, a brick Tudor-style chapter house with a lawn and a chapter sign
+  caption: The Zeta Psi chapter house at Cornell. Chapter houses count as sophomore housing, but each chapter sets its own rent.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Zeta_Psi_fraternity_house,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Zeta_Psi_fraternity_house,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

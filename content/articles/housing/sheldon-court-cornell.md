@@ -41,7 +41,16 @@ sources:
 - url: https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students
   title: Williams Street Parking Lot Struggles to Accommodate Students, The Cornell Daily Sun, Sept. 2023
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Sheldon Court, a brick residence hall above the shops on College Avenue in Collegetown, in 2025
+  caption: Sheldon Court in 2025. The 164-resident dorm above Collegetown Bagels opened in 1903 and has singles and doubles with no air conditioning.
+  credit: P. Hughes / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Sheldon_Court_(2025).jpg
+  author: P. Hughes
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Sheldon_Court_(2025).jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 

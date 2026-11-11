@@ -63,7 +63,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Modern brick apartment buildings with ground-floor cafes along a Collegetown street in Ithaca
+  caption: Apartment buildings in Collegetown. A lease that runs all summer makes your own room the cheapest storage, and a sublet pays part of the rent back.
+  credit: desultrix / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
+  author: desultrix
+  source_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
 ---
 
 

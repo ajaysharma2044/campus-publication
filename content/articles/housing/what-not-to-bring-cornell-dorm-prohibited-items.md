@@ -40,7 +40,16 @@ sources:
 - url: https://mymicrofridge.com/
   title: My MicroFridge
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Toni Morrison Hall, a modern brick and metal residence hall on Cornell's North Campus
+  caption: Toni Morrison Hall on North Campus. This list covers every item the fire marshal can take away, and what to bring instead.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Toni_Morrison_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Toni_Morrison_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

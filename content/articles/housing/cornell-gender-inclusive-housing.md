@@ -54,7 +54,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: A lounge inside Risley Hall at Cornell, with a piano, a carved fireplace and a portrait of Margaret Olivia Slocum Sage
+  caption: Inside Risley Hall. Any undergraduate can share a room or suite regardless of legal sex; first-years opt in on the application and upper-level students need a Housing Office override.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Inside_Risley_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Inside_Risley_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

@@ -53,7 +53,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
   title: 'Move Instructions: North Campus, Cornell Housing'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Bauer Hall, a brick wing of Court-Kay-Bauer Hall on Cornell's North Campus
+  caption: Bauer Hall. The Sober Living Community opened in fall 2026 on its fourth floor, with 38 residents.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Bauer_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Bauer_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

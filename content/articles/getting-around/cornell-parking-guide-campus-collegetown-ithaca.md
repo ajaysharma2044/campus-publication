@@ -137,7 +137,16 @@ sources:
 - url: https://ithacavoice.org/2026/11/common-council-approves-2027-budget-city-will-remain-below-tax-cap/
   title: Common Council approves 2027 budget, city will remain below tax cap, The Ithaca Voice, Nov. 5, 2026
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Cars parked along College Avenue in Collegetown, Ithaca, with apartment buildings above the storefronts
+  caption: Cars parked along College Avenue in Collegetown. Cornell sells the campus spaces and the City of Ithaca runs the streets and garages, so a car here means two rulebooks.
+  credit: Dougtone / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  author: Dougtone
+  source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
 ---
 
 

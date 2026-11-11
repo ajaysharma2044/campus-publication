@@ -175,7 +175,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
   title: Move-In Instructions for North Campus, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Risley Hall, a red-brick Gothic residence hall on Cornell's North Campus, seen across Thurston Avenue in autumn
+  caption: Risley Hall from Thurston Avenue. It opened in 1913, the first of the North Campus halls, and every hall charges the same rate for the same room type.
+  credit: Joe Mabel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Risley_Hall_from_Thurston_Avenue.jpg
+  author: Photo by Joe Mabel
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Risley_Hall_from_Thurston_Avenue.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

@@ -42,7 +42,16 @@ sources:
 - url: https://scl.cornell.edu/new-student-resource-hub
   title: New Student Resource Hub, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Mary Donlon Hall, a 1961 brick residence hall on Cornell's North Campus
+  caption: Mary Donlon Hall on North Campus. First-years moved in Aug. 17, transfers Aug. 18 and upperclass students Aug. 21 and 22, 2026; the checklist shows the steps in order for the next move-in.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Mary_Donlon_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Mary_Donlon_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

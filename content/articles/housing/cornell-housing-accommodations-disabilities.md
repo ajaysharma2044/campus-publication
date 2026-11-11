@@ -64,7 +64,16 @@ sources:
 - url: https://www.ithacarents.com/3099-three-bed-apt,-downtown-ithaca-2,000/-avail-from-oct-2026
   title: 508 W. Clinton St., Ithaca Rents
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Mary Donlon Hall, a 1961 brick residence hall on Cornell's North Campus
+  caption: Mary Donlon Hall on North Campus. Accessible rooms go through Student Disability Services first, and rising sophomores face an April 5, 2027, approval deadline.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Mary_Donlon_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Mary_Donlon_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

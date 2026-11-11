@@ -41,7 +41,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
   title: Housing and Residential Life Directory, Cornell Housing and Residential Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Clara Dickson Hall on Cornell's North Campus, a long brick residence hall seen across its lawn
+  caption: Clara Dickson Hall on North Campus. The cancellation fee depends on the date, and it jumps from $50 to $500 on Feb. 1.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Clara_Dickson_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Clara_Dickson_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

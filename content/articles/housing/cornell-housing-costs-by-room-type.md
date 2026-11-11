@@ -56,7 +56,16 @@ sources:
 - url: https://finaid.cornell.edu/cost-to-attend
   title: Cost to Attend, Cornell Financial Aid
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Baker Tower, a stone Gothic residence hall on Cornell's West Campus
+  caption: Baker Tower on West Campus. Every room type's 2026-27 price is below, with what the meal plan adds and when 2027-28 prices arrive.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Baker_Tower,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Baker_Tower,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

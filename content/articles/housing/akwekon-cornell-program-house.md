@@ -50,7 +50,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall
   title: Air conditioning by North Campus building, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Akwe:kon, Cornell's American Indian program house on North Campus, a wooden building with a round tower and a garden circle in front
+  caption: Akwe:kon on North Campus, a 35-resident program house opened in 1991, with singles and doubles and no air conditioning.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Akwe-kon_program_house,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Akwe-kon_program_house,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

@@ -54,7 +54,16 @@ sources:
 - url: https://www.cornellsun.com/article/2026/04/unequal-vs-inequitable-housing-why-all-dorms-should-cost-the-same
   title: Unequal vs. inequitable housing, The Cornell Daily Sun
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Panorama of the North Campus Residential Expansion halls at Cornell, a row of new brick residence halls along a path
+  caption: The North Campus Residential Expansion halls in a row. Two 2021 halls pair suites with air conditioning; the rest of North Campus is corridor halls, and every hall costs the same by room type.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_panorama_of_North_Campus_Residential_Expansion_buildings.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_panorama_of_North_Campus_Residential_Expansion_buildings.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

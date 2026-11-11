@@ -47,7 +47,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Baker Tower and the West Campus halls at Cornell seen over autumn trees, with Cayuga Lake beyond
+  caption: West Campus from the hill above it. Each of the five Houses is led by a professor who lives in the building with their family, backed by a live-in Assistant Dean and student fellows.
+  credit: Mads Bødker from Copenhagen, Denmark / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_view_(36809826).jpg
+  author: Mads Bødker from Copenhagen, Denmark
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_view_(36809826).jpg
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
 ---
 
 

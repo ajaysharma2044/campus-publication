@@ -41,7 +41,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Housing
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Cascadilla Place, the stone building that became Cascadilla Hall, in a photograph from the 1860s
+  caption: Cascadilla Place in the 1860s, a former sanitorium that became one of Cornell's first student residences. As Cascadilla Hall it is still the oldest residence hall, with 366 residents and no air conditioning.
+  credit: E. & H.T. Anthony (Firm) -- Publisher / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cascadilla_Place_Cornell_University.jpg
+  author: E. & H.T. Anthony (Firm) -- Publisher
+  source_url: https://commons.wikimedia.org/wiki/File:Cascadilla_Place_Cornell_University.jpg
+  license: Public domain
+  license_url: ''
 ---
 
 

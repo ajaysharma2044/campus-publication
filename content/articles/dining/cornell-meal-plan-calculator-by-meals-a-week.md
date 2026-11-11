@@ -40,7 +40,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027
   title: 'Cornell Dining: Terms and conditions, 2026-2027'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Glass-walled entrance of Morrison Dining at Cornell, with outdoor tables on the plaza
+  caption: Morrison Dining in Toni Morrison Hall on North Campus. The calculator starts from the number of dining-room meals you eat each week.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Morrison_Dining_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Morrison_Dining_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

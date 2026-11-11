@@ -37,7 +37,16 @@ sources:
 - url: https://health.cornell.edu/services/nutrition-services/affordable-food
   title: Affordable Food, Cornell Health
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: The entrance of Cornell Health on Ho Plaza, a stone and glass building with steps up to its doors
+  caption: Cornell Health on Ho Plaza. Cornell bills the Student Health Plan automatically unless you waive it by a deadline, and Cornell Health is the first place to call for care.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_Health,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_Health,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

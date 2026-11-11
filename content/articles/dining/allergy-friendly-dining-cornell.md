@@ -49,7 +49,16 @@ sources:
 - url: https://www.wegmans.com/stores/ithaca-ny
   title: 'Wegmans: Ithaca store and pharmacy'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Risley Hall at Cornell on a colored 1925 postcard, a long red-brick Gothic hall with a tower and a figure at the door
+  caption: Risley Hall on a 1925 postcard. Risley Dining, inside, sources its food without gluten, peanuts and tree nuts, and Cornell Dining labels eight major allergens in its dining rooms.
+  credit: Published for Cornell Co-Operative Society, Ithaca by Detroit Publishing Company / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Risley_Hall_(1925).jpg
+  author: Published for Cornell Co-Operative Society, Ithaca by Detroit Publishing Company
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Risley_Hall_(1925).jpg
+  license: Public domain
+  license_url: ''
 ---
 
 

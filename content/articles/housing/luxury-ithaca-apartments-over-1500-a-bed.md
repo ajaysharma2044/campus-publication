@@ -89,7 +89,16 @@ sources:
 - url: https://safety.offcampusliving.cornell.edu/
   title: Safety Program for Off-Campus Living, Cornell and City of Ithaca
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: College Avenue in Collegetown, Ithaca, with apartment buildings above storefronts and cars parked along the curb
+  caption: College Avenue in Collegetown. This guide lists every Ithaca building that asks more than $1,500 a bed and what that money buys.
+  credit: Dougtone / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  author: Dougtone
+  source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
 ---
 
 

@@ -49,7 +49,16 @@ sources:
 - url: https://www.cityofithacany.gov/731/Permit-Issuance
   title: Permit Issuance, City of Ithaca
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Students with umbrellas crossing the Thurston Avenue Bridge toward Cornell's North Campus on a rainy day, Balch Hall behind them
+  caption: The walk onto North Campus over the Thurston Avenue Bridge. A guest can stay three nights in any seven days, but only with your roommates' consent and a registration form.
+  credit: Notyourbroom / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_rainy_north_campus_from_bridge.jpg
+  author: Notyourbroom
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_rainy_north_campus_from_bridge.jpg
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
 ---
 
 

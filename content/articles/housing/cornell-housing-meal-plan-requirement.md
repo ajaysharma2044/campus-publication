@@ -77,7 +77,16 @@ sources:
 - url: https://www.cornellsun.com/article/2026/04/the-misunderstood-dorm-sheldon-court
   title: 'The Misunderstood Dorm: Sheldon Court, The Cornell Daily Sun, April 17, 2026'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: View down Libe Slope to the stone Gothic halls of Cornell's West Campus, with Cayuga Lake and the hills beyond
+  caption: Looking down Libe Slope to West Campus. Any undergraduate in campus housing carries a Cornell Dining meal plan, and the building decides which plan.
+  credit: Joe Mabel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_looking_down_Libe_Slope_to_West_Campus_02.jpg
+  author: Photo by Joe Mabel
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_looking_down_Libe_Slope_to_West_Campus_02.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

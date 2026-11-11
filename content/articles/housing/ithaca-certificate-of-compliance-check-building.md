@@ -45,7 +45,16 @@ sources:
 - url: https://www.cornellsun.com/article/2019/03/city-council-votes-to-stiffen-penalties-for-noncompliant-landlords
   title: City Council votes to stiffen penalties for noncompliant landlords, The Cornell Daily Sun, March 2019
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: The City Hall entrance on Green Street in Ithaca, a brick building with the words City Hall carved over the door
+  caption: Ithaca City Hall on Green Street. A Certificate of Compliance is the City's inspection permit for rentals; you check it by phone, by email and on Cornell's safety tool.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca_City_Hall,_Green_Street.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Ithaca_City_Hall,_Green_Street.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

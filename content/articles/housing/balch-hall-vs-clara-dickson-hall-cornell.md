@@ -47,7 +47,16 @@ sources:
 - url: https://cornellsun.com/2018/08/27/university-releases-full-plan-to-expand-north-campus-to-house-100-percent-of-freshmen-and-sophomores/
   title: University releases full plan to expand North Campus, The Cornell Daily Sun, Aug. 27, 2018
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Clara Dickson Hall, a long brick residence hall on Cornell's North Campus, seen across its lawn
+  caption: Clara Dickson Hall. Both are corridor halls on North Campus, but Balch is newly renovated with a thermostat in every room and Dickson is bigger, older and has no room air conditioning.
+  credit: P. Hughes / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornel_University_-_Clara_Dickson_Hall_01.jpg
+  author: P. Hughes
+  source_url: https://commons.wikimedia.org/wiki/File:Cornel_University_-_Clara_Dickson_Hall_01.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 

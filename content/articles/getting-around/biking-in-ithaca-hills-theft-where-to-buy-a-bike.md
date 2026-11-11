@@ -42,7 +42,16 @@ sources:
 - url: https://fcs.cornell.edu/services/repair-maintenance/snow-removal
   title: Snow Removal, Cornell Facilities and Campus Services
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: A cyclist riding along the street in front of Uris Hall on the Cornell campus
+  caption: A cyclist passing Uris Hall on campus. Ithaca's hills make a pedal-assist bike or the front rack on a TCAT bus worth considering, and theft makes the lock matter more than the bike.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Uris_Hall_and_cyclist.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Uris_Hall_and_cyclist.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

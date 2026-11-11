@@ -54,7 +54,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Facade of Weill Cornell Medicine at 1300 York Avenue in Manhattan
+  caption: Weill Cornell Medicine at 1300 York Avenue. Cornell budgets $28,856 a year for housing in New York City, and the Ithaca residential requirement does not apply.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Weill_Cornell_Medicine_at_1300_York_Avenue_NYC.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Weill_Cornell_Medicine_at_1300_York_Avenue_NYC.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

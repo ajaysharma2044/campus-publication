@@ -70,7 +70,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: The Tri-Delta sorority house in the Cornell Heights Historic District, a red-brick colonial house on a lawn
+  caption: The Tri-Delta sorority house in the Cornell Heights Historic District. Cornell Heights is the historic neighborhood north of campus, home to many fraternity and sorority houses, several co-ops and mid-priced apartments within a mile of Ho Plaza.
+  credit: Jerrye & Roy Klotz, MD / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Tri-Delta_sorority_building_in_Cornell_Heights_Historic_District,_Ithaca,_Tompkins_County.jpg
+  author: Jerrye & Roy Klotz, MD
+  source_url: https://commons.wikimedia.org/wiki/File:Tri-Delta_sorority_building_in_Cornell_Heights_Historic_District,_Ithaca,_Tompkins_County.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

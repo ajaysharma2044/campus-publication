@@ -49,7 +49,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Flora Rose House, a modern stone and brick residence hall on Cornell's West Campus, seen across its lawn
+  caption: Flora Rose House's main building. The newest West Campus House holds 350-plus residents in this modern building and four Gothic halls.
+  credit: 颐园居 / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_Flora_Rose_House_20240526.jpg
+  author: 颐园居
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_Flora_Rose_House_20240526.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 

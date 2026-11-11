@@ -63,7 +63,16 @@ sources:
 - url: https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/
   title: 'Downtown Ithaca Alliance: Five ways to pay your TCAT fare'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: College Avenue in Collegetown, Ithaca, with apartment buildings above storefronts and cars parked along the curb
+  caption: College Avenue in Collegetown. Bear Necessities on North Campus is the latest campus option, and Collegetown fills the gap after the dining rooms close.
+  credit: Dougtone / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  author: Dougtone
+  source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
 ---
 
 

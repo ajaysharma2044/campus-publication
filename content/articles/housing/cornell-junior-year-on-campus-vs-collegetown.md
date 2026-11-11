@@ -50,7 +50,16 @@ sources:
 - url: https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/
   title: Cost of electricity in Ithaca, NY, EnergySage
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: College Avenue in Collegetown, Ithaca, with apartment buildings above storefronts and cars parked along the curb
+  caption: College Avenue in Collegetown. Choose Collegetown for a bed in a big shared unit; choose campus housing for a small group, a simple bill, or a lease you cannot sign in time.
+  credit: Dougtone / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  author: Dougtone
+  source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
 ---
 
 

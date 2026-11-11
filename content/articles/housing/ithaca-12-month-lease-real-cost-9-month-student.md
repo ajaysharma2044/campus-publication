@@ -63,7 +63,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
   title: Rental listings and resources, Cornell Off-Campus Living
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Modern brick apartment buildings with ground-floor cafes along a Collegetown street in Ithaca
+  caption: Apartment buildings in Collegetown. A year-long lease used for one academic year leaves an empty summer; a sublet or a 10-month lease wins part of it back.
+  credit: desultrix / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
+  author: desultrix
+  source_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
 ---
 
 

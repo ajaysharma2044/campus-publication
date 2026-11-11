@@ -66,7 +66,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter break housing, Cornell Student and Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Risley Hall, the brick Gothic residence hall that houses Risley Residential College on Cornell's North Campus
+  caption: Risley Hall, a program house. A program house costs the same as a regular dorm; what changes is that you choose a themed community instead of letting the computer pick your hall.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Risley_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Risley_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

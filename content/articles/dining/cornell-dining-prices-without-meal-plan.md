@@ -46,7 +46,16 @@ sources:
 - url: https://finaid.cornell.edu/cost-attend
   title: 'Cornell Financial Aid: Cost of attendance'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Glass-walled entrance of Morrison Dining at Cornell, with outdoor tables on the plaza
+  caption: The entrance to Morrison Dining. Without a meal plan you pay the door price in a Cornell dining room, from $11.90 for breakfast to $20.80 for dinner, and a plan beats it only for dinners and brunches.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Morrison_Dining_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Morrison_Dining_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

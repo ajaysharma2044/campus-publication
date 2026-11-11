@@ -50,7 +50,16 @@ sources:
 - url: https://finaid.cornell.edu/living-campus
   title: Living Off-Campus, Cornell Financial Aid
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: The east facade of Cascadilla Hall at Cornell, a grey stone residence hall seen from the Schwartz Center
+  caption: Cascadilla Hall's east facade. For rising juniors and seniors deciding between a campus room and a lease, the key date is Jan. 31, when canceling a room stops costing $50.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cascadilla_Hall_East_Facade,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Cascadilla_Hall_East_Facade,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

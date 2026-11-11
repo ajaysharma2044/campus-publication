@@ -42,7 +42,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
   title: Storage and Shipping Options, Cornell Student and Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Robert Purcell Community Center on Cornell's North Campus, a brick building with its name over the entrance
+  caption: Robert Purcell Community Center on North Campus. Dorm mail goes to a service center, not your room, and which one depends on your hall.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Robert_Purcell_Community_Center,_Cornell.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Robert_Purcell_Community_Center,_Cornell.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

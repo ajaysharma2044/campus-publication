@@ -70,7 +70,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
   title: Housing and Residential Life Directory, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Sheldon Court, a brick residence hall on College Avenue in Collegetown, seen from the street corner
+  caption: Sheldon Court on College Avenue in Collegetown. The waitlist works differently for each class year, and there is a point at which to stop waiting and sign a lease.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Sheldon_Court,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Sheldon_Court,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

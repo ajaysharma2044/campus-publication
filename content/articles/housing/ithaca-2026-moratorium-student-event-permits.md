@@ -32,7 +32,16 @@ sources:
 - url: https://www.cityofithacany.gov/731/Permit-Issuance
   title: Permit Issuance, City of Ithaca
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: The City Hall entrance on Green Street in Ithaca, a brick building with the words City Hall carved over the door
+  caption: Ithaca City Hall on Green Street, where the Common Council meets. The council voted 9-1 on Oct. 7, 2026, to withhold new event and noise permits for Cornell groups, fraternities and sororities.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca_City_Hall,_Green_Street.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Ithaca_City_Hall,_Green_Street.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

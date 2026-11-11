@@ -30,7 +30,16 @@ sources:
 - url: https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed
   title: New Changes to Fall Housing Selection Leave Some Rising Juniors, Seniors Disappointed, The Cornell Daily Sun
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Hans Bethe House, a stone and brick residence hall on Cornell's West Campus, seen from its lawn
+  caption: Hans Bethe House on West Campus. General Room Selection timeslots are random, so the plan matters more than the slot.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Hans_Bethe_House,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Hans_Bethe_House,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 page_type: answer
 ---
 

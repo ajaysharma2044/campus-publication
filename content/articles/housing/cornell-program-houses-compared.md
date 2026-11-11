@@ -126,7 +126,16 @@ sources:
 - url: https://www.cornellsun.com/article/2026/11/oasis-on-north-campus-cornell-opens-sober-living-community-in-court-kay-bauer-hall
   title: '''Oasis on North Campus'': Cornell Opens Sober Living Community in Court-Kay-Bauer Hall, The Cornell Daily Sun, Nov. 9, 2026'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Risley Hall, the brick Gothic residence hall that houses Risley Residential College on Cornell's North Campus
+  caption: Risley Hall opened in 1913 as Cornell's first step north of Fall Creek Gorge. Risley Residential College, the largest program house with 194 residents, lives here.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Risley_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Risley_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

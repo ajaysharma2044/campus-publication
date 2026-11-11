@@ -59,7 +59,16 @@ sources:
 - url: https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing
   title: Landlords and Advocates Grapple With Good Cause Eviction Law at Public Hearing, The Cornell Daily Sun, July 10, 2024
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Inner courtyard of Balch Hall on Cornell's North Campus, with its Gothic stone wings and lawn
+  caption: Balch Hall's inner courtyard. The housing license is a revocable permission to live in a room, binding for the full year, with fees that land on the bursar bill.
+  credit: P. Hughes / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Balch_Hall_-_Inner_Courtyard.jpg
+  author: P. Hughes
+  source_url: https://commons.wikimedia.org/wiki/File:Balch_Hall_-_Inner_Courtyard.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

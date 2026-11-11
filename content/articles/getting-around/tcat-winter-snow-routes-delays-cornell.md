@@ -53,7 +53,16 @@ sources:
 - url: https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall
   title: 'Guest room: from bikes to buses, how to sustainably navigate campus this fall, The Cornell Daily Sun, Nov. 11, 2025'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: A blue TCAT bus pulling into Seneca Street Station in downtown Ithaca on a wet day
+  caption: A TCAT bus at Seneca Street Station downtown. TCAT keeps running in snow, but dispatchers pick snow routes on the day, so check live detours before you leave.
+  credit: Hbithaca / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2105.jpg
+  author: Hbithaca
+  source_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2105.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 ```glance

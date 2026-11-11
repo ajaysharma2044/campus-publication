@@ -59,7 +59,16 @@ sources:
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/theory-ithaca-239997
   title: Theory Ithaca, Cornell Off-Campus Housing Marketplace
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: The Ithaca Commons pedestrian mall at dusk, with string lights, trees and shops on both sides
+  caption: The Ithaca Commons in 2024. Downtown costs about 20 to 28 percent less per bed than Collegetown at the same landlord, but the Commons is a 20 to 30 minute uphill walk from campus.
+  credit: 颐园居 / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Pedestrian_mall_of_Ithaca_20240526.jpg
+  author: 颐园居
+  source_url: https://commons.wikimedia.org/wiki/File:Pedestrian_mall_of_Ithaca_20240526.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 

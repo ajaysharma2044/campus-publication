@@ -1210,7 +1210,16 @@ sources:
 - url: https://winstonsquareapts.com/photo-gallery/
   title: 'Winston Square Apartments: photo gallery'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Modern brick apartment buildings with ground-floor cafes along a Collegetown street in Ithaca
+  caption: Apartment buildings in Collegetown, the dense grid at the southwest edge of campus around College Avenue, Dryden Road, Eddy Street and Linden Avenue, where the map is densest.
+  credit: desultrix / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
+  author: desultrix
+  source_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
 ---
 
 

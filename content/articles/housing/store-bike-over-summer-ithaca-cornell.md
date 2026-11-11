@@ -45,7 +45,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-avenue-cooperative
   title: Wait Avenue Cooperative, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Bicycles locked at a rack beside a path on Cornell's Arts Quad in autumn, with McGraw Tower in the distance
+  caption: Bicycles at a rack on the Arts Quad. The safest place for a bike over summer is indoors, and Cornell students have four ways to get it there.
+  credit: LBM1948 / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca,_NY_12.jpg
+  author: LBM1948
+  source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_NY_12.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

@@ -95,7 +95,16 @@ sources:
 - url: http://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management
   title: 'Tompkins County: Recycling and Materials Management'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Modern brick apartment buildings with ground-floor cafes along a Collegetown street in Ithaca
+  caption: Apartment buildings in Collegetown. The cheapest furniture is the set your rent already pays for, so check the lease before you buy anything.
+  credit: desultrix / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
+  author: desultrix
+  source_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
 ---
 
 

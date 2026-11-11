@@ -52,7 +52,16 @@ sources:
 - url: https://now.dining.cornell.edu/
   title: Cornell Dining Now
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: The Okenshields sign over the stairway down to the dining room in Willard Straight Hall at Cornell
+  caption: The stairway to Okenshields in Willard Straight Hall, the swipe dining room closest to Central Campus classes.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Okenshield%27s_dining_in_Willard_Straight_Hall.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Okenshield%27s_dining_in_Willard_Straight_Hall.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

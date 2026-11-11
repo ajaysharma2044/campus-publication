@@ -57,7 +57,16 @@ sources:
 - url: https://now.dining.cornell.edu/
   title: 'Cornell Dining Now: eatery hours'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Inside Manndible Cafe in Mann Library at Cornell, with students at tables and the counter at the back
+  caption: Manndible Cafe in Mann Library. Cornell Dining's 18 cafes, food courts and coffeehouses all take Big Red Bucks, and this list shows where each one is and which places do not.
+  credit: Notyourbroom / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_Manndible.jpg
+  author: Notyourbroom
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_Manndible.jpg
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
 ---
 
 

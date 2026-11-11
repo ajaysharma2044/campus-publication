@@ -42,7 +42,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates
   title: Meal Plans and Rates, Cornell Dining
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Entrance of the Holland International Living Center on Cornell's North Campus, under a wooden pergola
+  caption: The Holland International Living Center in Low Rise 8. Most program houses use the regular housing application, where you rank up to three houses; only three need a separate form.
+  credit: P. Hughes / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Holland_International_Living_Center.jpg
+  author: P. Hughes
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Holland_International_Living_Center.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 

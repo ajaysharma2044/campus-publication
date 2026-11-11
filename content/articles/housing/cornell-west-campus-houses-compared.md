@@ -167,7 +167,16 @@ sources:
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3004S
   title: Baker South, Cornell Facilities and Campus Services
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: View down Libe Slope to the stone Gothic halls of Cornell's West Campus, with Cayuga Lake and the hills beyond
+  caption: Looking down Libe Slope to West Campus, where the five Houses sit among stone Gothic halls built between 1913 and 1931.
+  credit: Joe Mabel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_looking_down_Libe_Slope_to_West_Campus_01.jpg
+  author: Photo by Joe Mabel
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_looking_down_Libe_Slope_to_West_Campus_01.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

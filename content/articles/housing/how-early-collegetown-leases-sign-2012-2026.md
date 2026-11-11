@@ -55,7 +55,16 @@ sources:
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown, Ithaca Renting Company
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Modern brick apartment buildings with ground-floor cafes along a Collegetown street in Ithaca
+  caption: Apartment buildings in Collegetown. Nine dated signings from 2017 to 2025 fell 8 to 16 months before an August move-in.
+  credit: desultrix / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
+  author: desultrix
+  source_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
 ---
 
 

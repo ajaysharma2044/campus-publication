@@ -79,7 +79,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
   title: Housing and Residential Life Directory, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Clara Dickson Hall, a long brick residence hall with a white-columned entrance on Cornell's North Campus
+  caption: Clara Dickson Hall on North Campus. The housing calendar runs from the April 4 sophomore application to the last deadline of 2027.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Clara_Dickson_Hall,_Cornell_University_NY.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Clara_Dickson_Hall,_Cornell_University_NY.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

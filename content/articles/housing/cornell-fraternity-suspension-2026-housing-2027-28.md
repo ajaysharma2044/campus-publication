@@ -59,7 +59,16 @@ sources:
 - url: https://news.cornell.edu/stories/2018/05/citing-health-and-safety-concerns-pollack-initiates-greek-life-reforms
   title: Cornell Chronicle, May 4, 2018
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Hand-colored early-1900s postcard of fraternity lodges on a tree-lined street at Cornell
+  caption: Fraternity lodges at Cornell on an early-1900s postcard. The Oct. 13, 2026 party ban does not change housing rules, but a chapter can house second-years only while Cornell recognizes it.
+  credit: Rotograph Co. / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_-_Fraternity_Lodges_(Ithaca).jpg
+  author: Rotograph Co.
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_-_Fraternity_Lodges_(Ithaca).jpg
+  license: Public domain
+  license_url: ''
 ---
 
 

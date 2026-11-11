@@ -468,7 +468,16 @@ sources:
 - url: https://www.modernlivingrentals.com/109-williams-st
   title: 109 Williams St., Modern Living Rentals
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Modern brick apartment buildings with ground-floor cafes along a Collegetown street in Ithaca
+  caption: Newer mixed-use apartment buildings in Collegetown, the dense block of student housing that touches the southwest end of Cornell's campus.
+  credit: desultrix / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
+  author: desultrix
+  source_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
 ---
 
 

@@ -39,7 +39,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Prospective students and parents walking into Day Hall at Cornell under a large tree
+  caption: Visitors at Day Hall. Financial aid follows you off campus, but it leaves some costs to you.
+  credit: Tomwsulcer / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Prospective_students_and_parents_at_Day_Hall_at_Cornell_University.jpg
+  author: Tomwsulcer
+  source_url: https://commons.wikimedia.org/wiki/File:Prospective_students_and_parents_at_Day_Hall_at_Cornell_University.jpg
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
 ---
 
 

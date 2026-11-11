@@ -38,7 +38,16 @@ sources:
 - url: https://cornellsun.com/2024/09/18/hidden-meal-plan-hotspots-on-campus/
   title: 'The Cornell Daily Sun: Hidden meal plan hotspots on campus, Sept. 18, 2024'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: The Big Red Barn at Cornell, a red wooden barn with a cupola that houses the graduate student center and cafe
+  caption: The Big Red Barn, the graduate and professional student center. Most graduate students do best with Cornell's $50 graduate plan; the full plans pay off only for people who eat nearly every meal in a dining room.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:The_Big_Red_Barn_at_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:The_Big_Red_Barn_at_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

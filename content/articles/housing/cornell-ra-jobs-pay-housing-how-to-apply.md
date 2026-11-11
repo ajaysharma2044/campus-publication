@@ -53,7 +53,16 @@ sources:
 - url: https://gradschool.cornell.edu/financial-support/stipend-rates/
   title: Stipend Rates, Cornell Graduate School
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Toni Morrison Hall, a modern brick and metal residence hall on Cornell's North Campus
+  caption: Toni Morrison Hall on North Campus. A resident advisor's free room and stipend are weighed here against a double or a Collegetown lease.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Toni_Morrison_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Toni_Morrison_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

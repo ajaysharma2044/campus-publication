@@ -47,7 +47,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
   title: 'Move Instructions: North Campus, Cornell Housing'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Entrance of the Holland International Living Center on Cornell's North Campus, under a wooden pergola
+  caption: The Holland International Living Center in Low Rise 8, a 160-resident program house that stays open over winter break at no charge.
+  credit: P. Hughes / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Holland_International_Living_Center.jpg
+  author: P. Hughes
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Holland_International_Living_Center.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 

@@ -45,7 +45,16 @@ sources:
 - url: https://cornellsun.com/2021/11/17/delayed-first-snowfall-in-ithaca-reflects-changing-climate-patterns/
   title: Delayed First Snowfall in Ithaca Reflects Changing Climate Patterns, The Cornell Daily Sun, November 17, 2021
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: The Cornell Arts Quad under snow in winter, with Olin Library on the left and Goldwin Smith Hall on the right
+  caption: The Arts Quad in winter. Plan for a down coat, mittens, insulated boots with treaded soles and layers, because January in Ithaca averages 22.8°F with 16.6 inches of snow.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_campus_in_winter.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_campus_in_winter.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

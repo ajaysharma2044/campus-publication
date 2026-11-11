@@ -43,7 +43,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process
   title: Housing Search Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Panorama of the North Campus Residential Expansion halls at Cornell, a row of new brick residence halls along a path
+  caption: The North Campus Residential Expansion halls. The live-on rule began in fall 2022 and rests on a building program that added beds for first-years and sophomores on North Campus.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_panorama_of_North_Campus_Residential_Expansion_buildings.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_panorama_of_North_Campus_Residential_Expansion_buildings.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

@@ -52,7 +52,16 @@ sources:
 - url: https://statements.cornell.edu/2017/20170330-alpha-xi-delta.cfm
   title: Alpha Xi Delta placed on interim suspension, Cornell Statements
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Zeta Psi fraternity house at Cornell, a brick Tudor-style chapter house with a lawn and a chapter sign
+  caption: The Zeta Psi chapter house at Cornell. Cornell's scorecard shows chapter live-in charges from $2,000 to $14,673 for one spring semester, with a median of $7,400.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Zeta_Psi_fraternity_house,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Zeta_Psi_fraternity_house,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

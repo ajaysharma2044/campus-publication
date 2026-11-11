@@ -47,7 +47,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
   title: 'Move Instructions: North Campus, Cornell Housing'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: The entrance door to Loving House inside Mews Hall at Cornell, with a pride flag on the ceiling
+  caption: The entrance to Loving House on the first floor of Mews Hall. The 30-resident program house opened in 2019, with singles and doubles in mixed-gender pods.
+  credit: Jakemiah / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_Loving_House_Entrance.jpg
+  author: Jakemiah
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_Loving_House_Entrance.jpg
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
 ---
 
 

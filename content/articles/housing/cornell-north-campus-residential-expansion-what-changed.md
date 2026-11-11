@@ -48,7 +48,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms
   title: Dining Rooms, Cornell Dining
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Toni Morrison Hall, a modern brick and metal residence hall on Cornell's North Campus
+  caption: Toni Morrison Hall, one of the five halls the North Campus Residential Expansion added by fall 2022, 2,000 beds that made the two-year live-on requirement possible.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Toni_Morrison_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Toni_Morrison_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

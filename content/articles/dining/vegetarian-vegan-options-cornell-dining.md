@@ -54,7 +54,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/660-stewart-avenue
   title: 'Cornell Housing: 660 Stewart Avenue'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Glass-walled entrance of Morrison Dining at Cornell, with outdoor tables on the plaza
+  caption: Morrison Dining on North Campus. Cornell Dining runs two dedicated vegan stations and labels plant-based dishes everywhere, but students disagree on how well it works.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Morrison_Dining_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Morrison_Dining_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

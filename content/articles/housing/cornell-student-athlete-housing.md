@@ -45,7 +45,16 @@ sources:
 - url: https://registrar.cornell.edu/calendars-exams/academic-calendar
   title: Academic Calendar, Cornell University Registrar
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Wide view of Schoellkopf Field at Cornell, the football field and crescent stands with the campus behind
+  caption: Schoellkopf Field. Cornell lists no housing exemption or special rule for varsity athletes, so athletes follow the same residential requirement and lease rules, with extra planning around breaks.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Schoellkopf_Field_wide_view.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Schoellkopf_Field_wide_view.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

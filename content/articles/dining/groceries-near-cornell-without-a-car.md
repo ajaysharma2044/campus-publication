@@ -56,7 +56,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/dining/about-dining/food-security
   title: 'Cornell Dining: Food security'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Two blue TCAT buses on a campus street at Cornell, the front one on Route 81 at the Uris Hall stop
+  caption: TCAT buses at the Uris Hall stop on campus. You can shop for groceries without a car by walking to Collegetown, riding TCAT to Wegmans or Tops, or renting an Ithaca Carshare car for the big trip.
+  credit: Hbithaca / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2602_on_Route_81.jpg
+  author: Hbithaca
+  source_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2602_on_Route_81.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

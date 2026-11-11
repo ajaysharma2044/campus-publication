@@ -49,7 +49,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
   title: Storage and Shipping Options, Cornell Student and Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Cars parked along the old Central Avenue behind the Arts Quad's Stone Row at Cornell, with McGraw Tower in the distance
+  caption: The parking lot behind the Stone Row of the Arts Quad, on the old Central Avenue. Leave a car in your campus permit area or in B Lot if Cornell allows it, and never on a city street.
+  credit: Notyourbroom / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_Old_Central_Avenue.jpg
+  author: Notyourbroom
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_Old_Central_Avenue.jpg
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
 ---
 
 

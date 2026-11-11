@@ -46,7 +46,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Front of Balch Hall, a Gothic stone women's residence hall on Cornell's North Campus, in winter
+  caption: Balch Hall, Cornell's women-only hall on North Campus, in January 2020. It was rebuilt over more than two years with new windows, elevators and a thermostat in every room.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Balch_Hall,_Cornell_University_front_view.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Balch_Hall,_Cornell_University_front_view.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

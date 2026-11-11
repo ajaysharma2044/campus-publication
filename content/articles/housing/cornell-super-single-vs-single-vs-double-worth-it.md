@@ -67,7 +67,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student and Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Baker Hall South and Founders Hall, stone Gothic residence halls around a courtyard on Cornell's West Campus
+  caption: Baker Hall South and Founders Hall on West Campus. Each room upgrade has a price; this page shows what it buys and when to pay for it.
+  credit: Russian Elmo / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_West_Campus.jpg
+  author: Russian Elmo
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_West_Campus.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

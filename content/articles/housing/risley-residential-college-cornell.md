@@ -80,7 +80,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
   title: 'Move Instructions: North Campus, Cornell Housing'
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Risley Hall, the brick Gothic residence hall that houses Risley Residential College on Cornell's North Campus
+  caption: Risley Hall, home of Risley Residential College, Cornell's largest program house, with 194 residents in singles and doubles in a building from 1913.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Risley_Hall,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Risley_Hall,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

@@ -148,7 +148,16 @@ sources:
 - url: https://www.cornellsun.com/article/2023/01/winter-sports-organizations-aim-to-engage-cornellians-in-cold-weather-activities
   title: Winter Sports Organizations Aim to Engage Cornellians in Cold-Weather Activities, The Cornell Daily Sun, Jan. 25, 2023
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Panorama of Cornell's central campus under deep snow, with McGraw Tower rising above the quad
+  caption: Cornell's central campus under snow. Ithaca's normal year brings 62.9 inches of it, and four months carry nearly all of that.
+  credit: Harald / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_Central_Campus_in_Snow.jpg
+  author: Harald
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_Central_Campus_in_Snow.jpg
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
 ---
 
 

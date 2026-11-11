@@ -63,7 +63,16 @@ sources:
 - url: https://cornellsun.com/2021/10/13/from-leaky-showers-to-lonely-suites-student-residents-voice-concerns-about-new-north-campus-dorms/
   title: From leaky showers to lonely suites, The Cornell Daily Sun
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: View down Libe Slope to the stone Gothic halls of Cornell's West Campus, with Cayuga Lake and the hills beyond
+  caption: Looking down Libe Slope to West Campus. Most sophomores land on North Campus; West Campus Houses cost $548 more a year for a double and add a required meal plan, but come with a built-in community.
+  credit: Joe Mabel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_looking_down_Libe_Slope_to_West_Campus_03.jpg
+  author: Photo by Joe Mabel
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_looking_down_Libe_Slope_to_West_Campus_03.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

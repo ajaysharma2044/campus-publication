@@ -50,7 +50,16 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/
   title: Tenants' rights guide, Cornell Law Tenants Advocacy
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: The 1854 Tompkins County courthouse in Ithaca, a stucco Gothic Revival building with pointed windows and corner turrets
+  caption: The 1854 Tompkins County courthouse in Ithaca. Send a demand letter first; if the landlord ignores it, you can sue for up to $5,000 in Ithaca City Court without a lawyer.
+  credit: Jerrye & Roy Klotz, MD / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:SECOND_TOMPKINS_COUNTY_COURTHOUSE,_ITHACA,_TOMPKINS_COUNTY.jpg
+  author: Jerrye & Roy Klotz, MD
+  source_url: https://commons.wikimedia.org/wiki/File:SECOND_TOMPKINS_COUNTY_COURTHOUSE,_ITHACA,_TOMPKINS_COUNTY.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

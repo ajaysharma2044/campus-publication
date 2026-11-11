@@ -50,7 +50,16 @@ sources:
 - url: https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed
   title: New changes to fall housing selection leave some rising juniors, seniors disappointed, The Cornell Daily Sun, Nov. 2025
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Sheldon Court, a brick residence hall above the shops on College Avenue in Collegetown, in 2025
+  caption: Sheldon Court on College Avenue in 2025. Cascadilla is the bigger, older hall with a service center inside; both lack air conditioning and share one meal plan.
+  credit: P. Hughes / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Sheldon_Court_(2025).jpg
+  author: P. Hughes
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Sheldon_Court_(2025).jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
 

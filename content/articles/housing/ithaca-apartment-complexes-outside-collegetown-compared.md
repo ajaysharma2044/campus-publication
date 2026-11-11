@@ -91,7 +91,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student and Campus Life
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: Flower beds on the Ithaca Commons with the newer downtown apartment buildings rising behind
+  caption: The Ithaca Commons, with downtown's newer buildings behind. Downtown, the Lake Street corridor, East Hill and Lansing each trade distance for price.
+  credit: Cheburashka007 / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Flowers_in_Ithaca_Downtown.jpg
+  author: Cheburashka007
+  source_url: https://commons.wikimedia.org/wiki/File:Flowers_in_Ithaca_Downtown.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 

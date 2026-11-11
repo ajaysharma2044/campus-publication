@@ -39,7 +39,16 @@ sources:
 - url: https://www.nrcc.cornell.edu/wxstation/ithaca/normal.html
   title: Ithaca climate normals 1991-2020, Northeast Regional Climate Center
   accessed: '2026-11-10'
-images: []
+images:
+- file: 1.webp
+  alt: The curved glass 2017 addition to Cornell Health along Campus Road at Cornell
+  caption: The 2017 addition to Cornell Health on Campus Road. Cornell Health sells light boxes, offers drop-in counseling called Let's Talk, and runs a 24-hour advice line.
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_Health_addition,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_Health_addition,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
 ---
 
 ```glance
