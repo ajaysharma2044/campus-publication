@@ -6,7 +6,7 @@
 
 site:
   name: "EduExplained"
-  domain: ""              # the real domain without scheme, e.g. eduexplained.com; sets canonical URLs, robots.txt and the sitemap
+  domain: "www.eduexplained.com"   # the real domain without scheme, e.g. eduexplained.com; sets canonical URLs, robots.txt and the sitemap
   production: false       # true removes noindex, allows crawling and lists the sitemap; the --production flag does the same
 
 analytics:
