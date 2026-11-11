@@ -112,7 +112,7 @@ Source: [Ithaca Renting](https://ithacarenting.com/collegetown/), as of Nov. 8, 
 
 ## Which other landlords rent big houses?
 
-Several Collegetown landlords list whole houses on the [Ithaca marketplace](https://offcampushousing.ithaca.edu/listing). The prices print no period, so the table gives the whole-house price and the per-bedroom figure it implies. Divided by bedrooms, the whole-house prices land between $1,095 and $1,295 a bed, in the range of the per-bed rows at 111 Dewitt Pl, so read them as monthly totals.
+Several Collegetown landlords list whole houses on the [Ithaca marketplace](https://offcampushousing.ithaca.edu/listing). The prices print no period, so the table gives the whole-house price and the per-bedroom figure it implies. Divided by bedrooms, the whole-house prices land between $995 and $1,295 a bed, in the range of the per-bed rows at 111 Dewitt Pl, so read them as monthly totals.
 
 | Address | Bedrooms | Listed price | Per bedroom |
 |---|---|---|---|
@@ -127,7 +127,7 @@ Several Collegetown landlords list whole houses on the [Ithaca marketplace](http
 
 Source: [Ithaca marketplace listings](https://offcampushousing.ithaca.edu/listing) from PJ Apartments; per-bedroom figures are the whole-house price divided by bedrooms.
 
-Other listings state a price per person. At 111 Dewitt Pl, PJ Apartments lists beds at $1,195 in the 5-bedroom, $995 in the 6, $895 in the 7 and $795 in the 8. A 5-bedroom at [209 Stewart Ave](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095) is $850 per room with heat, water, electric and WiFi included. A furnished [6-bedroom house at 112 Ferris Place](https://www.ithacarents.com/3324-gorgeous-6-bedroom-house-near-cornell-august-2027) lists $5,100 a month for an Aug. 8, 2027 start, which is $850 per bedroom, with internet, heat, electricity and trash included. The [8-bedroom at 114 Stewart Ave](https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown) is $900 per person, furnished, from June 10, 2027.
+Other listings state a price per person. At 111 Dewitt Pl, PJ Apartments lists beds at $1,195 in the 5-bedroom, $995 in the 6, $895 in the 7 and $795 in the 8. A 5-bedroom at [209 Stewart Ave](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095) is $850 per room with heat, water, electric and WiFi included. A furnished [6-bedroom house at 112 Ferris Place](https://www.ithacarents.com/3324-gorgeous-6-bedroom-house-near-cornell-august-2027) lists $5,100 a month for an Aug. 8, 2027 start, which is $850 per bedroom. The listing says internet, heat, electricity and trash are shared by housemates and not included in rent. The [8-bedroom at 114 Stewart Ave](https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown) is $900 per person, furnished, from June 10, 2027.
 
 Lambrou Real Estate lists houses of 7 to 12 bedrooms, including 410 Elmwood Ave (12), 305 Oak Ave (11 to 12), 202 Eddy St (11), and 801 E Seneca St and 133 N Quarry St (10 each), per its [apartments page](https://www.lambrourealestate.com/apartments). It prints no rents, so ask for a quote.
 

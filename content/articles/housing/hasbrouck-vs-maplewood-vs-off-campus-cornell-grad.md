@@ -105,7 +105,7 @@ Sources: [Cornell Housing rates](https://scl.cornell.edu/residential-life/housin
 
 Cornell's 2026-27 housing budget for an Ithaca grad student is $19,962 a year, or $1,663.50 a month ([Cornell Financial Aid](https://finaid.cornell.edu/graduate-students)). Every Hasbrouck unit fits under it. To build a full monthly budget, use the [grad student rent budget guide](/cornell/money/cornell-grad-student-off-campus-budget-monthly-rent-ithaca/).
 
-Add utilities before you compare. One aggregator puts electric, gas, water and trash at $183.68 a month for Ithaca, though not for any one apartment ([Utilities for My Home](https://utilitiesformyhome.com/utilities/new-york/ithaca)). A private 1BR at $2,063 plus $183.68 is $2,246.68 a month. A Hasbrouck unfurnished 1BR is $1,415, so the gap is $831.68 a month, or $9,980.16 a year.
+Add utilities before you compare. One aggregator puts electric, gas, water and trash at $166.70 a month for Ithaca, though not for any one apartment ([Utilities for My Home](https://utilitiesformyhome.com/utilities/new-york/ithaca)). A private 1BR at $2,063 plus $166.70 is $2,229.70 a month. A Hasbrouck unfurnished 1BR is $1,415, so the gap is $814.70 a month, or $9,776.40 a year.
 
 ## What is Hasbrouck Apartments like?
 

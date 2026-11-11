@@ -72,7 +72,7 @@ Staying outside those dates costs $60 per day ([Cornell housing license](https:/
 
 ## What are my options over winter break?
 
-Cornell opens a short list of buildings over winter break. For 2026-27 they are Ganędagǫ: Hall, High Rise 5, HILC, Hu Shih, Loving House, Mews, Toni Morrison, the Townhouse Apartments, Cascadilla and Veterans House. HILC and Loving House stay free. The others cost $125 per week, or $500 for the full break. Applications run Oct. 1 to Dec. 1 ([Cornell winter break housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)).
+Cornell opens a short list of buildings over winter break. For 2026-27 they are Ganędagǫ: Hall, High Rise 5, HILC, Hu Shih, Loving House, Mews, Toni Morrison, the Townhouse Apartments, Cascadilla and Veterans House. HILC, Loving House and Veterans House carry no extra charge. The others cost $125 per week, or $500 for the full break. Applications run Oct. 1 to Dec. 1 ([Cornell winter break housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)).
 
 Seven days at $60 a day is $420, so the weekly option costs less than overstaying in your own room (Cornell housing license and winter break page). Apply by the deadline and ask your coach for the dates you need.
 

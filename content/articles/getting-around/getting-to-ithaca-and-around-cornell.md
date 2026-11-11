@@ -172,13 +172,13 @@ Take a commercial bus if price decides it, and C2C if you carry two big suitcase
 | Bus | Ithaca stops | One way | Bags |
 |---|---|---|---|
 | Cornell C2C | North Campus, Sage Hall, B Lot | $93.50 NetID | 2 suitcases below, 2 small carry-ons |
-| OurBus | Downtown, West Campus, North Campus | From $33 | 1 large bag guaranteed |
+| OurBus | Downtown, West Campus, North Campus | From $37.40 | 1 large bag guaranteed |
 | Greyhound | 131 E. Green St., 121 Jessup Rd., 240 West Ave. | From $43.98 | 1 carry-on and 1 checked bag |
 | FlixBus | Same stops as Greyhound | $27 on one Nov. 7 listing | Not listed |
 
 Sources: [C2C policies](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations), [OurBus](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny) and Wanderu, read Nov. 8, 2026. From Nov. 9, OurBus boards downtown at [235 S. Cayuga St.](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/).
 
-Four round trips a year cost $748 on C2C ($187 each) and $264 at the OurBus floor ($33 each way). Floors are the cheapest seat on the cheapest day, so a peak day costs more. The [NYC bus guide](/cornell/getting-around/nyc-to-cornell-bus-c2c-ourbus-flixbus-greyhound/) compares every carrier and stop.
+Four round trips a year cost $748 on C2C ($187 each) and $299.20 at the OurBus floor ($37.40 each way). Floors are the cheapest seat on the cheapest day, so a peak day costs more. The [NYC bus guide](/cornell/getting-around/nyc-to-cornell-bus-c2c-ourbus-flixbus-greyhound/) compares every carrier and stop.
 
 ```tool cornell-bus-home-cost-calculator```
 

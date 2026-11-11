@@ -96,7 +96,7 @@ Cornell defines an e-bike as a motor of no more than 750 watts, no wider than 36
 
 ## Where do Bikeshare bikes go?
 
-Cornell requires Ithaca Bikeshare bikes to be parked at racks. Returning one to a Bikeshare hub waives the next start-up fee, as the [Cornell Daily Sun](https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/) explained at launch in 2023. Current prices and rules are in our [Bikeshare guide](/cornell/getting-around/ithaca-bikeshare-cost-cornell-students/).
+Cornell requires Ithaca Bikeshare bikes to be parked at racks. Returning one to a Bikeshare hub waives the next unlock fee, as the [Cornell Daily Sun](https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/) explained at launch in 2023. Current prices and rules are in our [Bikeshare guide](/cornell/getting-around/ithaca-bikeshare-cost-cornell-students/).
 
 ## What about winter?
 

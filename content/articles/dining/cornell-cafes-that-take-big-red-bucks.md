@@ -126,7 +126,7 @@ Take Us Home, Cornell's grab-and-go meal line, offers 8 meals at 11 locations in
 
 ## What happens to Big Red Bucks over winter break?
 
-Fall BRBs work at open cafes and stores through Thursday, Dec. 24, 2026. Cornell Dining is closed from Dec. 25 through Jan. 1, and from Jan. 4 to 18 some cafes and shops reopen, with fall BRBs still usable ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining)). Plan food for the closed days with [staying in Ithaca over Cornell breaks](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/).
+Fall BRBs work at open cafes and stores through Thursday, Dec. 24, 2026. Cornell Dining is closed from Dec. 25 through Jan. 1, and from Jan. 4 to 19 some cafes and shops reopen, with fall BRBs still usable ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining)). Plan food for the closed days with [staying in Ithaca over Cornell breaks](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/).
 
 ```reader "If you live off campus"
 Off-Campus Value gives only $150 in BRBs. Two debit plans sell mostly BRBs: Just Bucks costs $1,000 a year and gives BRBs only, and Flex 10/500 costs $1,348 a year for 10 meals a semester plus $500 BRBs a semester ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). Weigh them against cooking in [meal plan or cook yourself](/cornell/money/cornell-off-campus-meal-plan-or-cook-yourself-cost/).

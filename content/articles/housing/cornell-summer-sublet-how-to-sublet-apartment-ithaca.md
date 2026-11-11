@@ -51,7 +51,7 @@ sources:
 - url: https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/
   title: Students and landlords both perpetuate myths about housing, The Cornell Daily Sun
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://ithacarenting.com/collegetown/
@@ -139,7 +139,7 @@ rows:
 ```
 
 1. **Read the lease.** Find the sublet clause and any listed fee. In a small house this clause is the whole rule.
-2. **Get co-tenant and guarantor consent.** The [statute](https://www.nysenate.gov/legislation/laws/RPP/226-B) wants their written consent inside the request. On a joint lease, Cornell says each housemate is [responsible for the others' rent and damages](https://scl.cornell.edu/residential-life/housing/campus-housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire), so they have a stake in who moves in. A parent who co-signed is a guarantor and signs too. The [roommates guide](/cornell/housing/cornell-off-campus-roommates-joint-liability/) explains joint liability.
+2. **Get co-tenant and guarantor consent.** The [statute](https://www.nysenate.gov/legislation/laws/RPP/226-B) wants their written consent inside the request. On a joint lease, Cornell says each housemate is [responsible for the others' rent and damages](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire), so they have a stake in who moves in. A parent who co-signed is a guarantor and signs too. The [roommates guide](/cornell/housing/cornell-off-campus-roommates-joint-liability/) explains joint liability.
 3. **Find a subtenant and write the sublease.** Put in the dates, rent, deposit and who pays utilities.
 4. **Mail the request.** Use certified mail, return receipt requested. Email is a courtesy copy, not a substitute.
 5. **Answer follow-ups fast.** The landlord's answer clock restarts from the date you supply extra information.

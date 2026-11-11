@@ -76,7 +76,7 @@ Downtown is the cheaper side of town at the bottom of the hill, 0.5 to 1.5 miles
 
 At Ithaca Renting, a studio costs a median $1,395 a month downtown against $1,765 in Collegetown, a one-bedroom $1,625 against $2,025, and a bed in a two-bedroom $992.50 against $1,377.50 ([Collegetown vs downtown dataset](/datasets/collegetown-vs-downtown-rent-per-bed-2026/)). The gaps are $370, $400 and $385 a month. The downtown prices are mostly for 2026-27 and the Collegetown prices for 2027-28, so the lease years do not match.
 
-Larger shares cost the least. Three-bedroom per-bed rows run $695 to $795 at the Old Cigar Factory, $745 to $845 at 156 The Commons and $815 to $895 at Cityview for 2026-27 or available now ([Ithaca Renting](https://ithacarenting.com/downtown/)). RentCafe, which counts only large new buildings, puts the downtown average at $2,747 a month per unit ([RentCafe](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/downtown-ithaca/)).
+Larger shares cost the least. Three-bedroom per-bed rows run $695 to $795 at the Old Cigar Factory, $745 to $845 at 156 The Commons and $815 to $895 at Cityview for 2026-27 or available now ([Ithaca Renting](https://ithacarenting.com/downtown/)). RentCafe, which counts only buildings of 50 or more units, puts the downtown average at $2,747 a month per unit ([RentCafe](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/downtown-ithaca/)).
 
 ## What buildings are downtown?
 

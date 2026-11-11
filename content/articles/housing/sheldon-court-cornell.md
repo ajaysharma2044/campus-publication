@@ -78,7 +78,7 @@ The rules shared by every South Campus hall are in [South Campus halls near Coll
 
 ## What is it like to live at Sheldon Court?
 
-The building has history. Charles L. Sheldon Jr., Class of 1901, operated it as "Cornell's First Dormitory." The Triangle Bookshop occupied part of the ground floor until Cornell bought the building in 1955 ([Cornellians](https://alumni.cornell.edu/cornellians/article/collegetown-history)).
+The building has history. Charles L. Sheldon Jr., Class of 1901, operated it as "Cornell's First Dormitory." The Triangle Bookshop occupied part of the ground floor until Cornell bought the building in the 1950s ([Cornellians](https://alumni.cornell.edu/cornellians/article/collegetown-history)).
 
 A Cornell Daily Sun feature from April 17, 2026, describes daily life. It counts five floors plus a basement. Each bathroom has three showers, three sinks and three toilets. The basement laundry has four washers and four dryers. The writer says the elevator keeps breaking down, and many residents get a double to themselves. The College & Oak bus stop is across the street ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/04/the-misunderstood-dorm-sheldon-court)).
 

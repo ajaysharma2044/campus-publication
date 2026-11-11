@@ -118,7 +118,7 @@ The best value on the list is a room at 130.5 University Ave. Goldenrod Real Est
 
 Travis Hyde's Ravenwood, at 516 University Ave., lists a private bedroom in a 5-bedroom, 2-bath apartment at $700 a month, with heat, water and electricity included on that room-by-room listing ([Travis Hyde](https://www.travishyde.com/west-campus/ravenwood)). The same building's whole 3-bedrooms run $2,225 a month, which is $741.67 a bed.
 
-Auden Ithaca, 210 Lake St., advertises individual leasing, with a listed price range of $689 to $1,389 ([Cornell marketplace listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/auden-ithaca-7919)). The listing shows "Call For Price" for every floor plan and does not say which unit or basis the $689 applies to, so confirm it before you count on it. Its rent includes water, trash, cable and internet, and the building runs a private shuttle to campus.
+Auden Ithaca, 210 Lake St., advertises individual leasing, with a listed price range of $689 to $1,389 ([Cornell marketplace listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/auden-ithaca-7919)). The listing shows "Call For Price" for most floor plans and does not say which unit or basis the $689 applies to, so confirm it before you count on it. Its rent includes water, trash, cable and internet, and the building runs a private shuttle to campus.
 
 | Building | Unit | Listed rent | Per bed | Miles to Ho Plaza |
 |---|---|---|---|---|

@@ -93,7 +93,7 @@ Cornell's Campus-to-Campus bus, called C2C, stops at Weill Medical at 1300 York 
 
 Two changes matter. The stop at 64th Street and Third Avenue, which served the Tech campus, was discontinued on Aug. 1, 2026, and Cornell opened a new reservation system on Nov. 4, 2026 that requires everyone to make a new account ([Cornell Transportation](https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4)). Check the current stop list before you book, and read the [C2C booking guide](/cornell/getting-around/cornell-c2c-bus-booking-fares-rules/) for steps and fees.
 
-Commercial buses cost less. OurBus lists Ithaca to New York from $33 ([OurBus](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny)). The [NYC to Cornell bus guide](/cornell/getting-around/nyc-to-cornell-bus-c2c-ourbus-flixbus-greyhound/) compares the carriers.
+Commercial buses cost less. OurBus lists Ithaca to New York from $37.40 ([OurBus](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny)). The [NYC to Cornell bus guide](/cornell/getting-around/nyc-to-cornell-bus-c2c-ourbus-flixbus-greyhound/) compares the carriers.
 
 ```reader "If you're an international student"
 Cornell's International Services says you do not need a Social Security number to rent an apartment or open a bank account ([International Services](https://international.globallearning.cornell.edu/life-cornell/faq-international-students)). The Ithaca tenant hotline, 607-301-1560, gives advice with no income or geographic limits ([Legal Resources](https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources)).

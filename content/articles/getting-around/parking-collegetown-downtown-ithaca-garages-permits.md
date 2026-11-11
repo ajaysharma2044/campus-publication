@@ -179,7 +179,7 @@ The rules that trip students up:
 - **July 31 ends it.** A permit bought in spring still expires on July 31 at full price.
 - **Replacement is free** if you return the remnants; otherwise it costs the full price again.
 
-New York State law, [Vehicle and Traffic Law 1640-e](https://nysenate.gov/legislation/laws/VAT/1640-E*2), sets the zone on the city's east side and excludes streets inside Cornell. It requires short-term parking of at least 120 minutes for everyone and keeps at least 20% of spaces open to nonresidents. The system began in 1998, and the Chronicle reported that it then left out R-3 blocks, including central Collegetown. The city's permit page does not list which blocks are in today, or the permit hours for each block. Call the City Clerk with your address before you count on a street spot. Renters should also read the city's [trash tag, snow and noise rules](/cornell/housing/ithaca-trash-tags-snow-noise-rules-renters/).
+New York State law, [Vehicle and Traffic Law 1640-e](https://nysenate.gov/legislation/laws/VAT/1640-E*2), sets the zone on the city's east side and excludes streets inside Cornell. It requires short-term parking of at least 120 minutes in the permit area and keeps at least 20% of spaces open to nonresidents. The system began in 1998, and the Chronicle reported that it then left out R-3 blocks, including central Collegetown. The city's permit page does not list which blocks are in today, or the permit hours for each block. Call the City Clerk with your address before you count on a street spot. Renters should also read the city's [trash tag, snow and noise rules](/cornell/housing/ithaca-trash-tags-snow-noise-rules-renters/).
 
 ## Can I park on campus if I live in Collegetown?
 

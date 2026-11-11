@@ -115,7 +115,7 @@ Compare that with the median Collegetown bed in the same year: $800 a month in a
 
 ## What is 301 College Avenue?
 
-It is Cornell housing, not a private apartment building. Cornell bought it for $15 million in March 2025 ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/03/cornell-acquires-301-college-avenue-for-15-million-in-collegetown)). The building has 26 residential units, from studios to six-bedrooms, and Cornell housed 43 students there in August 2026, with room for 105 residents by fall 2027 ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/301-college-avenue-available-for-student-housing-in-2026-2027-academic-year)).
+It is Cornell housing, not a private apartment building. Cornell bought it for $15 million in March 2025 ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/03/cornell-acquires-301-college-avenue-for-15-million-in-collegetown)). The building has 12 residential units, from studios to six-bedrooms, and Cornell housed 43 students there in August 2026, with room for 105 residents by fall 2027 ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/301-college-avenue-available-for-student-housing-in-2026-2027-academic-year)).
 
 It opened partly finished. A resident told the Sun in September 2026 that the building felt "incomplete" and "rushed" ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed)). Residents are on the Collegetown Meal Plan, $3,528 per semester for 2026-27 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 

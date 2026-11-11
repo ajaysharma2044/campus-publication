@@ -198,7 +198,7 @@ The Cornell Heights side of campus has older buildings with lower rents.
 
 Source: the [Villager listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/villager-apartments-100016), [Travis Hyde availability](https://www.travishyde.com/availability), the [Ithaca marketplace](https://offcampushousing.ithaca.edu/listing) and the [Pinnacle listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-pinnacle-237571).
 
-The Villager sits about 0.88 miles from Ho Plaza, so its low rent comes with a longer trip. The Aurora at Cayuga Park, farther out, lists studios from [$2,350](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-aurora-at-cayuga-park-236703).
+The Villager sits about 0.88 miles from Ho Plaza, so its low rent comes with a longer trip. The Aurora at Cayuga Park, farther out, lists studios from [$2,345](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-aurora-at-cayuga-park-236703).
 
 ## What does a studio price leave out?
 

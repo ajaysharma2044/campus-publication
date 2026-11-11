@@ -219,7 +219,7 @@ With your own bike, theft is the cost to plan for. Campus police reported 51 bik
 
 ## How do I get home without a car?
 
-Cheapest first: for New York City, Cornell's own bus (C2C) costs [$93.50 one way, or $187 round trip, with a NetID](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates). [OurBus](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny) starts at $33 one way, and [FlixBus](https://www.checkmybus.com/ithaca-ny/new-york-ny) showed $27 for Nov. 7, 2026. These are floors, so a peak day costs more. Book early for the Wednesday before Thanksgiving, the last day of December finals and the Friday spring break begins.
+Cheapest first: for New York City, Cornell's own bus (C2C) costs [$93.50 one way, or $187 round trip, with a NetID](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates). [OurBus](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny) starts at $37.40 one way, and [FlixBus](https://www.checkmybus.com/ithaca-ny/new-york-ny) showed $27 for Nov. 7, 2026. These are floors, so a peak day costs more. Book early for the Wednesday before Thanksgiving, the last day of December finals and the Friday spring break begins.
 
 ```tool cornell-bus-home-cost-calculator```
 

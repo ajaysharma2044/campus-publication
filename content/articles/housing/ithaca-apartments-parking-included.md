@@ -104,7 +104,7 @@ Kelvin Place houses Cornell students, mostly graduate students, the lowest rent 
 
 Ithaca Renting, the biggest Collegetown landlord, sells spaces on a separate full-year license that runs about Aug. 15 to Aug. 14, with no monthly or semester option ([Ithaca Renting](https://ithacarenting.com/collegetown/)). Spaces are assigned. An uncovered space in the lower Dryden lot starts at $2,450 a year, and the covered Dryden Road lot is for Collegetown Center residents only. Cityview, its downtown building, rents spaces on site for an extra fee ([Ithaca Renting](https://ithacarenting.com/property-details/?pid=6)).
 
-Other landlords charge less. Gateway Commons downtown lists a small annual parking fee ([Travis Hyde Properties](https://www.travishyde.com/downtown-ithacaf4ba8d70/gateway%20commons)). A three-bedroom at 117 Thurston Ave. charges $55 a semester ([Ithaca Rents](https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights)). Spread over 12 months, that is $204.17 a month.
+Other landlords charge less. Gateway Commons downtown lists a small annual parking fee ([Travis Hyde Properties](https://www.travishyde.com/downtown-ithacaf4ba8d70/gateway%20commons)). A three-bedroom at 117 Thurston Ave. charges $55 a semester ([Ithaca Rents](https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights)). Spread over 12 months, that is $9.17 a month.
 
 ## What does parking cost if your building has none?
 

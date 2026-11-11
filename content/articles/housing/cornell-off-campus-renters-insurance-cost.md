@@ -140,8 +140,8 @@ A basic student policy costs the low end of that range, and the price rises with
 | SafeButler, Ithaca | $108 to $267 a year | A 20-year-old student with basic cover, across 8 carriers |
 | [SafeButler, New York page](https://www.safebutler.com/cheapest-renters-insurance-new-york) | $155 a year | Its listed figure for Ithaca |
 | [GradGuard blog](https://gradguard.com/blog/?p=14522) | $13 a month | An average on GradGuard's own blog, not a Cornell rate |
-| [The College Investor](https://thecollegeinvestor.com/42409/gradguard-review-low-deductible-renters-tuition-insurance-tailored-to-students/) | $9 to $17 a month | Range in a review of GradGuard |
-| [Lemonade](https://www.lemonade.com/blog/renters-insurance-new-york) | $14.60 a month | New York average from one carrier |
+| [The College Investor](https://thecollegeinvestor.com/42409/gradguard-review-low-deductible-renters-tuition-insurance-tailored-to-students/) | $12 to $17 a month | Range in a review of GradGuard |
+| [Lemonade](https://www.lemonade.com/blog/renters-insurance-new-york) | $10 to $15 a month | New York range from one carrier |
 | [Insure.com](https://www.insure.com/renters-insurance/average-renters-insurance-cost-in-new-york/) | $328 a year | New York, at $40,000 of property and $300,000 of liability cover |
 | [GEICO](https://www.geico.com/living/average-renters-insurance-cost-per-month/) | About $14 a month | National average |
 | [University of Montana](https://umt.edu/housing/rh/rates_deadlines/renters-insurance.php) | About $11 a month | Another university's student figure, for scale |

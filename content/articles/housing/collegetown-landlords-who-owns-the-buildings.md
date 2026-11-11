@@ -85,7 +85,7 @@ Student Agencies runs The Student Agencies Building at 409 College Ave. and also
 
 ## Who owns the buildings the managers run?
 
-A manager and an owner are not always the same. The 2026 county assessment roll shows owners of record, and the pattern is concentrated. Jason Fane, or Fane Enterprises Inc., is owner of record for 10 properties that Ithaca Renting Company manages. ENP Associates, L.P. is owner of record for at least 14 properties that Lambrou Real Estate manages ([Tompkins County](https://www.tompkinscountyny.gov/files/assets/county/v/1/assessment/documents/assessment-rolls/city-final-2026.pdf)).
+A manager and an owner are not always the same. The 2026 county assessment roll shows owners of record, and the pattern is concentrated. Jason Fane, or Fane Enterprises Inc., is owner of record for 10 properties that Ithaca Renting Company manages. ENP Associates, L.P. is owner of record for at least 13 properties that Lambrou Real Estate manages ([Tompkins County](https://www.tompkinscountyny.gov/files/assets/county/v/1/assessment/documents/assessment-rolls/city-final-2026.pdf)).
 
 Modern Living Rentals is owned by Charlie O'Connor, who co-developed The Ivy with Nick Robertson ([Modern Living Rentals](https://www.modernlivingrentals.com/)). The Ivy at 325 College Ave. has 52 units, and nearly all were leased before construction finished ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026)).
 

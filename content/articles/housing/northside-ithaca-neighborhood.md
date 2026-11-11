@@ -64,7 +64,7 @@ Residents describe it as one of the city's least affluent neighborhoods, with pu
 
 No source gives a Northside rent. Two datapoints help:
 
-- RentCafe lists an average of about $2,488 for a two-bedroom of 913 square feet in Northwest Ithaca, the closest published area, though RentCafe states no borders ([RentCafe](https://www.rentcafe.com/apartments-for-rent/northwest-ithaca-ny/2-bedroom/)).
+- RentCafe lists an average of about $2,502 for a two-bedroom of 996 square feet in Northwest Ithaca, the closest published area, though RentCafe states no borders ([RentCafe](https://www.rentcafe.com/apartments-for-rent/northwest-ithaca-ny/2-bedroom/)).
 - A three-bedroom at 508 W. Clinton St. lists $2,000 a month for a lease starting Sept. 25, 2026, with the resident paying electricity, gas, heat, trash and water ([Ithaca Rents](https://www.ithacarents.com/3099-three-bed-apt,-downtown-ithaca-2,000/-avail-fro)).
 
 Lambrou Real Estate lists houses on West Court Street and apartments on North Fulton Street without printing rents, with driveways and detached garages at the West Court houses ([Lambrou Real Estate](https://www.lambrourealestate.com/apartments)). Ask each landlord for the price in writing, and whether it is per bed or per unit.

@@ -76,7 +76,7 @@ Theft of a delivered package is a renters insurance question. Cornell's preferre
 
 ## Where else can you ship and receive in Collegetown?
 
-Uncle Marty's opened in Collegetown in 2011 and downtown in 2025, and it is authorized for FedEx, DHL and USPS ([Tompkins Chamber of Commerce](https://business.tompkinschamber.org/list/member/uncle-marty-s-printing-shipping-storage-more-12929)). For summer storage and move-out shipping Cornell's contracted vendor is Big Red Shipping and Storage, (607) 524-3130, with free pickup at a dorm, apartment or house ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options)).
+Uncle Marty's opened in Collegetown in 2011 and downtown in 2025, and it is an authorized FedEx and DHL shipper and an approved USPS provider ([Tompkins Chamber of Commerce](https://business.tompkinschamber.org/list/member/uncle-marty-s-printing-shipping-storage-more-12929)). For summer storage and move-out shipping Cornell's contracted vendor is Big Red Shipping and Storage, (607) 524-3130, with free pickup at a dorm, apartment or house ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options)).
 
 <!-- ad-break -->
 

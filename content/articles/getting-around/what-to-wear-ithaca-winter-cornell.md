@@ -49,7 +49,7 @@ images: []
 ---
 
 
-Wear a down coat, mittens, a hat that covers your ears and insulated boots with thick, treaded rubber soles. Cornell's International Services office calls [down the warmest coat fabric](https://international.globallearning.cornell.edu/life-cornell/student-resources) and says January lows can dip below 0°F. Add layers underneath that you can take off indoors.
+Wear a down coat, mittens, a hat that covers your ears and insulated boots with thick, treaded rubber soles. Cornell's International Services office calls [down the warmest coat fabric](https://international.globallearning.cornell.edu/life-cornell/student-resources) and says winter lows can dip below 0°F. Add layers underneath that you can take off indoors.
 
 ```glance
 - A down coat is warmest, wool is next, and leather alone is not warm enough.

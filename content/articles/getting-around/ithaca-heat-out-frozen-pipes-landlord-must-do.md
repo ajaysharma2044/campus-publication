@@ -120,7 +120,7 @@ Expect the landlord or a plumber to come in fast. The lease sets entry rules, an
 In the City of Ithaca, the Building Division takes complaints. It sits in City Hall, 108 E. Green St., 4th floor, open Monday to Friday from 8:30 a.m. to 4:00 p.m. The phone number is 607-274-6508 and the email is ibd@cityofithaca.org. The page lists Rob Fell-DeWalt as director of code enforcement ([City of Ithaca](https://www.cityofithacany.gov/130/Building-Division)).
 
 ```reader "If you rent outside the City of Ithaca"
-The City Building Division covers City rentals. In the Village of Cayuga Heights, the code office is at 836 Hanshaw Road, with Code Enforcement Officer Craig Southard at 607-257-5536, ext. 104. Its page describes only short-term rental permits and says nothing about heat complaints, so call and ask whether he takes them ([Village of Cayuga Heights](https://cayugaheights.gov/departments/code-enforcement/)). Our [City, Town and Cayuga Heights guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) shows which office covers your address.
+The City Building Division covers City rentals. In the Village of Cayuga Heights, the code office is at 836 Hanshaw Road, with Code Enforcement Officer Craig Southard at 607-257-5536, ext. 104. Its page describes building, zoning and short-term rental permits and says nothing about heat complaints, so call and ask whether he takes them ([Village of Cayuga Heights](https://cayugaheights.gov/departments/code-enforcement/)). Our [City, Town and Cayuga Heights guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) shows which office covers your address.
 ```
 
 ```reader "If you're an international student"

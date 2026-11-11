@@ -93,7 +93,7 @@ The price list names the fees that can raise your bill: [overweight, oversized o
 
 ## What does Uncle Marty's offer?
 
-Uncle Marty's is a [FedEx, DHL and USPS authorized shipper](https://business.tompkinschamber.org/list/member/uncle-marty-s-printing-shipping-storage-more-12929) that has been in Collegetown since 2011. Its [box bundles](https://www.unclemartysoffice.com/move-out-bundles) run from $74.99 for a dorm room to $499.99 for a whole house. Curbside delivery is free on orders over $150, and an order placed before May 1 gets a guaranteed delivery slot. The shop does not post carrier shipping rates, so get a quote at the counter. Its [storage page](https://www.unclemartysoffice.com/storage) lists a free in-store drop-off.
+Uncle Marty's is a [FedEx and DHL authorized, USPS approved shipper](https://business.tompkinschamber.org/list/member/uncle-marty-s-printing-shipping-storage-more-12929) that has been in Collegetown since 2011. Its [box bundles](https://www.unclemartysoffice.com/move-out-bundles) run from $74.99 for a dorm room to $499.99 for a whole house. Curbside delivery is free on orders over $150, and an order placed before May 1 gets a guaranteed delivery slot. The shop does not post carrier shipping rates, so get a quote at the counter. Its [storage page](https://www.unclemartysoffice.com/storage) lists a free in-store drop-off.
 
 ## How much can you carry on a bus?
 

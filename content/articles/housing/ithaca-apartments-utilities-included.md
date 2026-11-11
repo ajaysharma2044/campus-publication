@@ -103,7 +103,7 @@ East Pointe charges a monthly utility fee that covers internet, cable, water, se
 
 ## How much does electricity add?
 
-EnergySage puts the average Ithaca electric bill at about $280 a month, or $3,360 a year, at about 1,116 kilowatt-hours, with a price near 25 cents per kilowatt-hour against 22 nationally ([EnergySage](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/)). Its figures come from self-selected users and an earlier version read $239, so a one-bedroom or a shared house may sit below the household average. Split five ways, that is $56 each.
+EnergySage puts the average Ithaca electric bill at about $282 a month, or $3,384 a year, at about 1,125 kilowatt-hours, with a price near 25 cents per kilowatt-hour against 21 nationally ([EnergySage](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/)). Its figures come from self-selected users and an earlier version read $239, so a one-bedroom or a shared house may sit below the household average. Split five ways, that is $56 each.
 
 Our [utilities and winter heating guide](/cornell/money/ithaca-utilities-cost-winter-heating-bill-apartment-students/) covers bills by season and how to ask NYSEG for a building's history.
 
