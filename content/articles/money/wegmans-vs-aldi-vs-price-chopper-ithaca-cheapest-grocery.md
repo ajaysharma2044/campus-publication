@@ -72,6 +72,6 @@ Our advice, from the facts above:
 
 **Is Tops cheaper than Wegmans?** In the same survey Tops was higher than Wegmans, but those were stores outside Ithaca.
 
-**Is a car worth it for groceries alone?** Probably not; see [Do you need a car at Cornell?](/money/should-i-bring-a-car-cornell-ithaca-cost/).
+**Is a car worth it for groceries alone?** Probably not; see [Do you need a car at Cornell?](/tools/should-i-bring-a-car-cornell-ithaca-cost/).
 
 More on stretching a budget: [Cornell student discounts in Ithaca](/money/how-to-save-money-at-cornell-student-discounts-ithaca/) and [Cornell monthly budget by aid situation](/money/cornell-student-budget-by-scenario-low-income-student-costs/).

@@ -18,6 +18,9 @@ sources:
   - {url: "https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university", title: "OurBus: OurBus for Cornell University", accessed: "2026-11-10"}
   - {url: "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options", title: "Cornell Student & Campus Life: Storage and shipping options", accessed: "2026-11-10"}
   - {url: "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028", title: "Cornell Student & Campus Life: Academic year housing license 2027-2028", accessed: "2026-11-10"}
+redirect_from:
+  - /cornell/housing/summer-storage-vs-shipping-vs-sublet-cornell-cost/
+  - /housing/summer-storage-vs-shipping-vs-sublet-cornell-cost/
 ---
 
 This calculator finds the cheapest way to get through a summer away from your Ithaca apartment. You tell it whether your lease keeps running while you're gone, how many months you'll be away, your share of the rent, what a subtenant would pay you, and what you would pack. It then prices four plans: leave your things in your room (and sublet it furnished if you can), store them with Big Red Shipping and Storage (BRSS), rent a self-storage unit, or ship them home. All prices are as of Nov. 10, 2026.
@@ -117,7 +120,7 @@ The bold line names the cheapest plan and what your summer costs under it. The n
 
 ## Related guides
 
-- [Storage vs shipping vs subletting: which costs least](/cornell/housing/summer-storage-vs-shipping-vs-sublet-cornell-cost/)
+- [Storage vs shipping vs subletting: which costs least](/tools/summer-storage-vs-shipping-vs-sublet-cornell-cost/)
 - [How to sublet your Ithaca apartment for the summer](/cornell/housing/cornell-summer-sublet-how-to-sublet-apartment-ithaca/)
 - [Ithaca sublet request timeline](/tools/ithaca-sublet-request-timeline/)
 - [Cornell move-out: storage, shipping and loading zones](/cornell/getting-around/cornell-move-out-storage-shipping-options/)

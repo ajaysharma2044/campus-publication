@@ -15,6 +15,9 @@ sources:
   - {url: "https://www.nysenate.gov/legislation/laws/GOB/7-108", title: "New York General Obligations Law 7-108, Security deposits", accessed: "2026-11-10"}
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources", title: "Cornell Off-Campus Living: Resources", accessed: "2026-11-10"}
   - {url: "https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/", title: "Cornell Law School Tenants Advocacy: Tenants' rights", accessed: "2026-11-10"}
+redirect_from:
+  - /cornell/housing/rent-split-calculator-unequal-rooms/
+  - /housing/rent-split-calculator-unequal-rooms/
 ---
 
 This calculator splits one apartment's rent among roommates whose bedrooms are not the same. You enter the total rent, the size of the whole apartment and the size of each bedroom. You also say which rooms have a private bathroom, a window and a closet, and what your group thinks each perk is worth. The tool splits the shared space evenly, charges each person for their own bedroom floor, then moves money from the people without a perk to the people with it. The shares always add up to the full rent.
@@ -125,7 +128,7 @@ If a dispute stalls, the Community Dispute Resolution Center mediates roommate c
 
 ## Related guides
 
-- [How to split rent fairly with unequal rooms](/cornell/housing/rent-split-calculator-unequal-rooms/)
+- [How to split rent fairly with unequal rooms](/tools/rent-split-calculator-unequal-rooms/)
 - [Finding off-campus roommates at Cornell: joint liability](/cornell/housing/cornell-off-campus-roommates-joint-liability/)
 - [What a month off campus costs at Cornell](/cornell/housing/what-a-month-off-campus-costs-cornell/)
 - [Collegetown rent per bed, 2027-28 (dataset)](/datasets/collegetown-rent-per-bed-2027-28/)

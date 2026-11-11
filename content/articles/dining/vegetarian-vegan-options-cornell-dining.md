@@ -135,4 +135,4 @@ Co-op residents cook some of their own meals. 660 Stewart Avenue lists an option
 
 Open Dining Now on the day you plan to eat and look for the vegan station at Morrison or Okenshields. If the menu falls short, ask the station staff what else they can make, then fall back on a restaurant from the list above.
 
-Related guides: [Morrison Dining](/cornell/dining/morrison-dining-cornell/), [Okenshields](/cornell/dining/okenshields-cornell-dining/) and [the Cornell meal plan calculator](/cornell/dining/cornell-meal-plan-calculator-by-meals-a-week/).
+Related guides: [Morrison Dining](/cornell/dining/morrison-dining-cornell/), [Okenshields](/cornell/dining/okenshields-cornell-dining/) and [the Cornell meal plan calculator](/tools/cornell-meal-plan-calculator-by-meals-a-week/).

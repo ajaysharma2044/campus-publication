@@ -15,6 +15,9 @@ sources:
   - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027", title: "Cornell Dining: Terms and conditions, 2026-2027", accessed: "2026-11-10"}
   - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs", title: "Cornell Dining: Meal plan FAQs", accessed: "2026-11-10"}
   - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms", title: "Cornell Dining: Deadlines and terms", accessed: "2026-11-10"}
+redirect_from:
+  - /cornell/dining/cornell-meal-plan-calculator-by-meals-a-week/
+  - /dining/cornell-meal-plan-calculator-by-meals-a-week/
 ---
 
 This calculator prices every Cornell Dining plan you are allowed to buy in 2026-27 against the number of dining-room meals you actually eat. You pick where you live and who you are, enter your meals a week, and choose which meals they are. It shows each plan's cost to you for a semester, what each swipe you use really costs, and how many meals a week the plan needs before it beats paying per meal. The cheapest plan for your numbers comes first.
@@ -120,6 +123,6 @@ SFL Supplemental's 127 meals a semester work out to about 7 a week, and for an o
 
 ## Related guides
 
-- [Which Cornell meal plan should I get? Calculator, 2026-27](/cornell/dining/cornell-meal-plan-calculator-by-meals-a-week/)
+- [Which Cornell meal plan should I get? Calculator, 2026-27](/tools/cornell-meal-plan-calculator-by-meals-a-week/)
 - [Is the Cornell meal plan worth it?](/cornell/money/cornell-meal-plan-worth-it/)
 - [Cornell off-campus: meal plan or cook yourself?](/cornell/money/cornell-off-campus-meal-plan-or-cook-yourself-cost/)

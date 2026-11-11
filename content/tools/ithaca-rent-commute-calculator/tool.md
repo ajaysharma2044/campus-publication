@@ -32,6 +32,9 @@ sources:
   - {url: "https://www.cityofithacany.gov/731/Permit-Issuance", title: "City of Ithaca: Residential parking permit issuance", accessed: "2026-11-10"}
   - {url: "https://ecode360.com/8391421", title: "City of Ithaca Code: residential parking permit zones", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", title: "Cornell Housing: Ithaca neighborhoods", accessed: "2026-11-10"}
+redirect_from:
+  - /cornell/housing/ithaca-rent-commute-calculator/
+  - /housing/ithaca-rent-commute-calculator/
 ---
 
 This calculator gives one person's yearly cost to live in a named Ithaca building. Pick the building and the layout, then say how many people share the unit. It returns your share of the rent and electricity for the months you pay, adds a year of bus fares and parking, and sets the rent and electricity against Cornell's 2026-27 residence hall double, $13,744. A table under the result shows the same unit split among more or fewer people.

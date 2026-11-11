@@ -131,4 +131,4 @@ The five West Campus House dining rooms hold House Dinners every Wednesday from 
 
 Look at the timeline above and mark the closed days on your calendar. Add City Bucks and buy groceries before the closure, then check [Dining Now](https://now.dining.cornell.edu/) in early January for which cafes are open ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining)).
 
-Related guides: [Cornell meal plan calculator](/cornell/dining/cornell-meal-plan-calculator-by-meals-a-week/) and [Morrison Dining](/cornell/dining/morrison-dining-cornell/).
+Related guides: [Cornell meal plan calculator](/tools/cornell-meal-plan-calculator-by-meals-a-week/) and [Morrison Dining](/cornell/dining/morrison-dining-cornell/).

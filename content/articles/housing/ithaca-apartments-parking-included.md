@@ -116,7 +116,7 @@ A City residential permit costs $45 per year and is issued to individual residen
 Only for Cornell lots. Student commuter permits cost $359.77 a year for B lots, and the resident permit for Hasbrouck is $752.98 a year (Cornell Transportation and Delivery Services; [parking rates](https://fcs.cornell.edu/departments/transportation-delivery-services/parking/parking-students)). Our [permit guide](/cornell/getting-around/cornell-student-parking-permit-cost-rules/) explains who qualifies.
 
 ```reader "If you're a sophomore or junior deciding whether to bring a car"
-Add the parking charge to your rent before you compare buildings. A space from Ithaca Renting adds about 22 percent to the rent of a $925 bed. Our [car cost guide](/cornell/money/should-i-bring-a-car-cornell-ithaca-cost/) shows the full year, and the quiz below checks whether you need one.
+Add the parking charge to your rent before you compare buildings. A space from Ithaca Renting adds about 22 percent to the rent of a $925 bed. Our [car cost guide](/tools/should-i-bring-a-car-cornell-ithaca-cost/) shows the full year, and the quiz below checks whether you need one.
 ```
 
 ```tool do-i-need-a-car-at-cornell-quiz```

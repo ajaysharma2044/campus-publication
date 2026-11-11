@@ -21,6 +21,9 @@ sources:
   - {url: "https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation", title: "Cornell Family Resource Hub: Parking and transportation", accessed: "2026-11-10"}
   - {url: "https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1", title: "Cornell Transportation and Delivery Services: Citation fines increasing September 1 (2023)", accessed: "2026-11-10"}
   - {url: "https://www.flyithaca.com/parking", title: "Ithaca Tompkins International Airport: Parking", accessed: "2026-11-10"}
+redirect_from:
+  - /cornell/money/should-i-bring-a-car-cornell-ithaca-cost/
+  - /money/should-i-bring-a-car-cornell-ithaca-cost/
 ---
 
 ```glance

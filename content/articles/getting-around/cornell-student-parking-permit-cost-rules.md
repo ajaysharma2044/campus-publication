@@ -189,7 +189,7 @@ Pay attention to the hours ([Cornell Transportation](https://fcs.cornell.edu/dep
 
 The resident permit works out to $62.75 a month, or $2.06 a day over 365 days. The commuter permit is $29.98 a month, under $1 a day. Those figures cover the space only, before gas, insurance and tickets. The resident price has barely moved: the Sun printed it at [$752.86 in 2023](https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/), 12 cents less.
 
-A permit buys a lot, not a space beside your class. For the full cost of a car against buses and shared cars, see [should I bring a car to Cornell](/cornell/money/should-i-bring-a-car-cornell-ithaca-cost/).
+A permit buys a lot, not a space beside your class. For the full cost of a car against buses and shared cars, see [should I bring a car to Cornell](/tools/should-i-bring-a-car-cornell-ithaca-cost/).
 
 ## What are Cornell's parking fines?
 
