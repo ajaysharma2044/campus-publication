@@ -42,7 +42,7 @@ const anchor = site.ads.provider !== 'none';
   {preloadSrcset ? <link rel="preload" as="image" imagesrcset={preloadSrcset} imagesizes={preloadSizes} type={preloadType} fetchpriority="high" /> : preloadImage ? <link rel="preload" as="image" href={preloadImage} fetchpriority="high" /> : null}
   <script type="application/ld+json" set:html={JSON.stringify(ld)} />
   <script src="/site.js" defer></script>
-  {site.ads.provider === 'adsense' && site.ads.adsenseClient && site.production ? <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${site.ads.adsenseClient}`} crossorigin="anonymous"></script> : null}
+  {site.ads.adsenseClient && site.production ? <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${site.ads.adsenseClient}`} crossorigin="anonymous"></script> : null}
 </head>
 <body class:list={[bodyClass, { 'body-has-anchor': anchor }]}>
   <a class="skip" href="#main">Skip to content</a>

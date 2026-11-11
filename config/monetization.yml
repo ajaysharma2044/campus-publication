@@ -19,7 +19,7 @@ consent:
 
 ads:
   provider: none          # none | adsense | mediavine | raptive
-  adsense_client: ""      # ca-pub-XXXXXXXXXXXXXXXX (also written to ads.txt)
+  adsense_client: "ca-pub-7711546311538806"   # the AdSense publisher id (Ajay, 2026-11-11; also written to ads.txt). The Astro site reads site/site.config.ts ads.adsenseClient, set to the same id.
   script_url: ""          # Mediavine or Raptive only: the script src the network gives you; they place their own ads, so no slots
   slots:                  # AdSense slot ids (an empty id leaves that slot out of the page); Mediavine and Raptive ignore these
     in_content: ""        # a responsive unit after the third paragraph of an article
