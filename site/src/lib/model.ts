@@ -19,13 +19,13 @@ export interface Photo {
 }
 export interface Source { url: string; title: string; accessed?: string }
 export interface Page {
-  id: string; slug: string; url: string; oldUrl: string; title: string; dek: string; school: School; topic: Topic;
+  id: string; slug: string; url: string; oldUrl: string; redirectFrom: string[]; title: string; dek: string; school: School; topic: Topic;
   pageType: PageType; updated: string; year: number; words: number; sources: Source[]; images: Photo[]; lead: Photo | null;
   author: Author; reviewedBy?: string; body: RenderedArticle; sample: boolean; crossSchool: boolean; typeLabel: string;
   data: CollectionEntry<'articles'>['data']; file: string; primaryQuery: string;
 }
-export interface Tool { slug: string; url: string; title: string; dek: string; topic: Topic; school: School; updated: string; asOf: string; sources: Source[]; html: string; fragment: string; usedIn: Page[]; readers: string[]; file: string }
-export interface Dataset { slug: string; url: string; title: string; dek: string; topic: Topic; school: School; updated: string; asOf: string; sampleSize: string; method: string; sources: Source[]; body: RenderedArticle; csvHref: string; csvRows: number; columns: string[]; rows: string[][]; csvText: string; file: string }
+export interface Tool { slug: string; url: string; redirectFrom: string[]; title: string; dek: string; topic: Topic; school: School; updated: string; asOf: string; sources: Source[]; html: string; fragment: string; usedIn: Page[]; readers: string[]; file: string }
+export interface Dataset { slug: string; url: string; redirectFrom: string[]; title: string; dek: string; topic: Topic; school: School; updated: string; asOf: string; sampleSize: string; method: string; sources: Source[]; body: RenderedArticle; csvHref: string; csvRows: number; columns: string[]; rows: string[][]; csvText: string; file: string }
 export interface StartPage { slug: string; url: string; title: string; dek: string; topics: Topic[]; school: School; updated: string; html: string; readers: string[]; file: string }
 export interface SiteModel {
   pages: Page[];        // real pages (no samples)
@@ -151,8 +151,10 @@ async function build(): Promise<SiteModel> {
     const crossSchool = pageType === 'guide';
     const url = sample ? `/styleguide/${slug}/` : crossSchool ? `/guides/${slug}/` : pageType === 'data' ? `/${school.slug}/data/${slug}/` : `/${school.slug}/${topic.id}/${slug}/`;
     const oldUrl = `/${topic.id}/${slug}/`;
-    if (!sample) { linkMap.set(oldUrl, url); knownUrls.add(url); }
-    return { entry, sample, d, file, slug, school, topic, pageType, crossSchool, url, oldUrl };
+    // redirect_from: earlier URLs of a moved or merged page (docs/v5 Phase 3 to 5); each becomes a 301 in _redirects and a link-map entry
+    const redirectFrom: string[] = Array.isArray((d as any).redirect_from) ? (d as any).redirect_from.map((r: string) => String(r).trim()).filter(Boolean) : [];
+    if (!sample) { linkMap.set(oldUrl, url); knownUrls.add(url); for (const r of redirectFrom) linkMap.set(r, url); }
+    return { entry, sample, d, file, slug, school, topic, pageType, crossSchool, url, oldUrl, redirectFrom };
   });
   for (const s of site.schools) {
     knownUrls.add(schoolUrl(s)); knownUrls.add(dataIndexUrl(s));
@@ -169,15 +171,17 @@ async function build(): Promise<SiteModel> {
     const topic = topicById(e.data.topic); if (!topic) throw new Error(`content/tools/${slug}/tool.md: unknown topic "${e.data.topic}"`);
     const fragPath = path.resolve('..', 'content', 'tools', slug, 'tool.html');
     if (!fsSync.existsSync(fragPath)) throw new Error(`content/tools/${slug}: a tool needs tool.md and tool.html`);
-    return { e, slug, topic, url: `/tools/${slug}/`, fragment: fsSync.readFileSync(fragPath, 'utf8') };
+    const redirectFrom: string[] = Array.isArray((e.data as any).redirect_from) ? (e.data as any).redirect_from.map((r: string) => String(r).trim()).filter(Boolean) : [];
+    return { e, slug, topic, url: `/tools/${slug}/`, fragment: fsSync.readFileSync(fragPath, 'utf8'), redirectFrom };
   });
   const datasetDraft = datasetEntries.filter((e) => isPublished(e.data.queue_id)).map((e) => {
     const slug = e.id; const topic = topicById(e.data.topic); if (!topic) throw new Error(`content/datasets/${slug}.md: unknown topic "${e.data.topic}"`);
-    return { e, slug, topic, url: `/datasets/${slug}/` };
+    const redirectFrom: string[] = Array.isArray((e.data as any).redirect_from) ? (e.data as any).redirect_from.map((r: string) => String(r).trim()).filter(Boolean) : [];
+    return { e, slug, topic, url: `/datasets/${slug}/`, redirectFrom };
   });
   const startDraft = startEntries.map((e) => ({ e, slug: e.id, url: `/start/${e.id}/`, topics: (e.data.topics.length ? e.data.topics : [e.data.topic]).map((t: string | undefined) => topicById(t)).filter(Boolean) as Topic[] }));
-  for (const t of toolDraft) knownUrls.add(t.url);
-  for (const d of datasetDraft) knownUrls.add(d.url);
+  for (const t of toolDraft) { knownUrls.add(t.url); for (const r of t.redirectFrom) linkMap.set(r, t.url); }
+  for (const d of datasetDraft) { knownUrls.add(d.url); for (const r of d.redirectFrom) linkMap.set(r, d.url); }
   for (const st of startDraft) knownUrls.add(st.url);
   if (toolDraft.length) knownUrls.add(toolsIndexUrl);
   if (datasetDraft.length) knownUrls.add(datasetsIndexUrl);
@@ -191,7 +195,7 @@ async function build(): Promise<SiteModel> {
     const embedded: string[] = [];
     const body = renderArticle(p.entry.body ?? '', { sources, linkMap, knownUrls, photos: images, tools: toolMap, embedded });
     const page: Page = {
-      id: p.entry.id, slug: p.slug, url: p.url, oldUrl: p.oldUrl, title: p.d.title.trim(), dek: p.d.meta.trim(), school: p.school, topic: p.topic,
+      id: p.entry.id, slug: p.slug, url: p.url, oldUrl: p.oldUrl, redirectFrom: p.redirectFrom, title: p.d.title.trim(), dek: p.d.meta.trim(), school: p.school, topic: p.topic,
       pageType: p.pageType, updated: p.d.updated, year: p.d.year ?? Number(String(p.d.updated).slice(0, 4)), words: body.words, sources, images, lead: images[0] ?? null,
       author: authorBySlug(p.d.author), reviewedBy: p.d.reviewed_by, body, sample: p.sample, crossSchool: p.crossSchool, typeLabel: TYPE_LABELS[p.pageType],
       data: p.d, file: p.file, primaryQuery: p.d.primary_query ?? '',
@@ -203,7 +207,7 @@ async function build(): Promise<SiteModel> {
   const all = pre.map(make);
   const srcs = (d: any): Source[] => (d.sources ?? []).map((s: any) => ({ url: s.url, title: s.title || s.url, accessed: s.accessed }));
   const tools: Tool[] = toolDraft.map((t) => ({
-    slug: t.slug, url: t.url, title: t.e.data.title.trim(), dek: t.e.data.meta.trim(), topic: t.topic, school: school0, updated: t.e.data.updated, asOf: t.e.data.numbers_as_of,
+    slug: t.slug, url: t.url, redirectFrom: t.redirectFrom, title: t.e.data.title.trim(), dek: t.e.data.meta.trim(), topic: t.topic, school: school0, updated: t.e.data.updated, asOf: t.e.data.numbers_as_of,
     sources: srcs(t.e.data), html: renderMarkdown(t.e.body ?? '', { sources: srcs(t.e.data), linkMap, knownUrls }).html, fragment: t.fragment, usedIn: usedIn.get(t.slug) ?? [],
     readers: t.e.data.readers ?? [], file: `content/tools/${t.slug}/tool.md`,
   }));
@@ -213,7 +217,7 @@ async function build(): Promise<SiteModel> {
     const table = csvText ? parseCsv(csvText) : [];
     const sources = srcs(d.e.data);
     return {
-      slug: d.slug, url: d.url, title: d.e.data.title.trim(), dek: d.e.data.meta.trim(), topic: d.topic, school: school0, updated: d.e.data.updated, asOf: d.e.data.as_of,
+      slug: d.slug, url: d.url, redirectFrom: d.redirectFrom, title: d.e.data.title.trim(), dek: d.e.data.meta.trim(), topic: d.topic, school: school0, updated: d.e.data.updated, asOf: d.e.data.as_of,
       sampleSize: String(d.e.data.sample_size ?? ''), method: String(d.e.data.method ?? '').split(/\s+/).join(' '), sources,
       body: renderArticle(d.e.body ?? '', { sources, linkMap, knownUrls }), csvHref: csvText ? `/datasets/${d.slug}/${d.slug}.csv` : '', csvRows: Math.max(0, table.length - 1),
       columns: table[0] ?? [], rows: table.slice(1), csvText, file: `content/datasets/${d.slug}.md`,

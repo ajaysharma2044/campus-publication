@@ -68,7 +68,7 @@ export const site = {
     { id: 'transfer', label: 'Transfer', blurb: 'Applying as a transfer, credit evaluation, housing and the residential requirement, orientation and aid.' },
     { id: 'careers', label: 'Careers', blurb: 'Internships, recruiting timelines, career fairs and the employers that hire from campus.' },
     { id: 'parents', label: 'Parents', blurb: 'Visiting, hotels, move-in weekend, graduation and what to send.' },
-    { id: 'health', label: 'Health', blurb: 'Cornell Health services and costs, the student health plan and waivers, pharmacies, mental health services and urgent care.' },
+    { id: 'health-safety', label: 'Health and safety', blurb: 'Cornell Health services and costs, the student health plan and waivers, pharmacies, mental health services, urgent care, and campus and Collegetown safety, fire rules and crime statistics.' },
     { id: 'daily-life', label: 'Daily life', blurb: 'Gyms, health care, phones and banking, winter gear, safety and clubs.' },
     { id: 'alumni', label: 'Alumni', blurb: 'Benefits, events and staying in Ithaca after graduation.' },
   ] as Topic[],

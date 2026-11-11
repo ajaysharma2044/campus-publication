@@ -40,9 +40,9 @@
   title: Parents and families of Cornell students
   scope: visiting Ithaca and where to stay, move-in and move-out weekends, graduation logistics, what to send and care packages, billing and paying the bursar, proxy access, health insurance decisions, emergencies and who to call, family weekend.
   image_scenes: [Cornell University Arts Quad, McGraw Tower Cornell, Ithaca Commons, Statler Hotel Cornell, Cornell University campus Ithaca]
-- slug: health
-  dir: health
-  title: Health, insurance and wellbeing at Cornell
+- slug: health-safety
+  dir: health-safety
+  title: Health, safety, insurance and wellbeing at Cornell
   scope: Cornell Health services, hours and costs; the student health plan and waivers; pharmacies; mental health services and CAPS; urgent care and hospitals in Ithaca; insurance billing basics as official pages state them; immunization requirements; accessibility services. Information only, never medical advice.
   image_scenes: [Cornell Health Ithaca, Cayuga Medical Center, Cornell University campus Ithaca]
 - slug: daily-life

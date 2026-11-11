@@ -71,7 +71,7 @@ TOPIC_INFO = {  # label and blurb per article dir; the order comes from scripts/
     "alumni": ("Alumni", "Benefits, events and staying in Ithaca after graduation."),
     "dining": ("Dining", "Dining halls, meal plans and Big Red Bucks, late-night options, dietary needs, Collegetown and downtown restaurants, groceries and cooking in an apartment."),
     "transfer": ("Transfer", "Applying as a transfer, credit evaluation, housing and the residential requirement, orientation, aid, spring versus fall entry and guaranteed transfer pathways."),
-    "health": ("Health", "Cornell Health services and costs, the student health plan and waivers, pharmacies, mental health services, urgent care and hospitals in Ithaca, immunizations and accessibility."),
+    "health-safety": ("Health and safety", "Campus and Collegetown safety, fire rules, crime statistics, Cornell Health services and costs, the student health plan and waivers, pharmacies, mental health services, urgent care and hospitals in Ithaca, immunizations and accessibility."),
 }
 TYPE_LABELS = {"how-to": "How-to", "decision": "Decision guide", "scenario": "Scenario guide", "comparison": "Comparison", "place": "Place guide",
                "checklist": "Checklist", "roundup": "Roundup"}

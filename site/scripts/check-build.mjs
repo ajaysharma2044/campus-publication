@@ -50,6 +50,11 @@ for (const p of manifest.pages) {
 const redirects = [];
 const seen = new Set();
 for (const p of manifest.pages) { if (p.oldUrl && p.oldUrl !== p.url && !seen.has(p.oldUrl)) { seen.add(p.oldUrl); redirects.push(`${p.oldUrl} ${p.url} 301`); } }
+// redirect_from: earlier URLs of moved or merged pages, tools and datasets (docs/v5 Phases 3 to 5)
+for (const p of [...manifest.pages, ...(manifest.tools ?? []), ...(manifest.datasets ?? [])]) for (const r of (p.redirectFrom ?? [])) { if (r !== p.url && !seen.has(r)) { seen.add(r); redirects.push(`${r} ${p.url} 301`); } }
+// no internal link may hit a redirect: every href on every page is checked against the redirect sources
+const redirectSources = new Set(redirects.map((l) => l.split(' ')[0]));
+for (const f of files) { const url = '/' + path.relative(dist, f).replace(/\\/g, '/').replace(/index\.html$/, ''); const html = await fs.readFile(f, 'utf8'); for (const m of html.matchAll(/href="(\/[^"#?]*)/g)) { if (redirectSources.has(m[1])) failures.push(`${url}: internal link hits a redirect: ${m[1]}`); } }
 for (const t of new Set(manifest.pages.map((p) => p.topic))) { const from = `/${t}/`; if (!exists.has(from) && !seen.has(from)) { seen.add(from); redirects.push(`${from} /${manifest.pages.find((p) => p.topic === t).school}/${t}/ 301`); } }
 redirects.push('/editorial-policy/ /editorial-standards/ 301');
 redirects.push('/authors/footnote-daily-editors/ /authors/eduexplained-editors/ 301');   // the editors' page before the 2026-11-10 rename
