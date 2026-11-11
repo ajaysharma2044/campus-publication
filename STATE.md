@@ -1,9 +1,10 @@
 # STATE (v3, overwritten; keep under 60 lines)
 
-Updated: 2026-11-10 16:05 EST. The publication is EduExplained (Ajay's rename of 2026-11-10) and the live site is https://eduexplained.netlify.app (the Netlify project was renamed too; footnote-daily.netlify.app no longer resolves; noindex until the real domain). Spec: docs/v3/spec.md (owner's file, byte for byte; it still says Footnote Daily, as it should). Articles live at /cornell/<topic>/<slug>/, tools at /tools/<slug>/, datasets at /datasets/<slug>/ (CSV alongside), start pages at /start/<reader>/. Repo map: docs/v3/repo-map.md.
+Updated: 2026-11-11 12:40 EST. The publication is EduExplained (Ajay's rename of 2026-11-10) and the live site is https://eduexplained.netlify.app (the Netlify project was renamed too; footnote-daily.netlify.app no longer resolves; noindex until the real domain). Spec: docs/v3/spec.md (owner's file, byte for byte; it still says Footnote Daily, as it should). Articles live at /cornell/<topic>/<slug>/, tools at /tools/<slug>/, datasets at /datasets/<slug>/ (CSV alongside), start pages at /start/<reader>/. Repo map: docs/v3/repo-map.md.
 
 ## Running now
-Nothing. The last run (housing) ended 2026-11-08 22:45 EST; nothing is scheduled.
+Nothing of the v3 pipeline. The last run (housing) ended 2026-11-08 22:45 EST; nothing is scheduled.
+- 2026-11-11: the fork session ("Campus webpages and ads repo (fork)"), on Ajay's instruction, published the idea-run pages outside the v3 pipeline (no plan rows, no lint, no fact check of ours): 218 new articles (162 housing, 34 getting-around, 22 dining), 4 new calculators, and 37 rewrites of live pages that kept their queue rows and photos; the new pages have no photos. Deployed to eduexplained.netlify.app at commit 80b0696 (391 pages built); its batched source verification is editing values in content/ in place and will redeploy once more. Each new page and calculator now has a queue row (status published, verdict idea-run, the IDEAS.md idea number in the angle) so the queue stays the record of what is live; their own status lives in IDEAS-STATUS.md and review/<topic>/. The v3 scripts ignore idea-run rows (requeue_v2.py skips them; the writers take plan rows only).
 
 ## Homepage relayout (2026-11-10 16:00 EST, Ajay's choice): done
 - The homepage and the masthead follow Investopedia's front-page layout (site/src/layouts/HomeLayout.astro, site/src/components/Masthead.astro, the masthead and homepage blocks of site/src/styles/global.css, the menu and card-row script in site/public/site.js). Sticky white masthead with a menu button (all sections panel), centered wordmark, Search and Newsletter; a dataset strip; the two-story hero with related links, the "Start here" list and the tools rail; the latest-guides card row; the long read, latest datasets and a parents (or start page) card; the tools promo; the four reader rows; "How we work"; the school directory (#schools, A to Z); the newsletter. Every item comes from the model, nothing hand-written. The site's fonts and colors stay; homepage headings use the sans. The standalone reference clone Ajay reviewed is ../investopedia-clone/ (not part of the site).
@@ -29,7 +30,7 @@ Nothing. The last run (housing) ended 2026-11-08 22:45 EST; nothing is scheduled
 
 ## Counts
 - Research: housing 57.0k and getting-around 55.8k raw words (complete); money 42.7k and dining 38.3k (lanes without completion lines; research.sh continues them). Briefs: housing, getting-around.
-- Queue: 142 published (63 housing and 59 getting-around plan rows, 20 v2 pages in other topics), 115 approved v2 demand rows (not used by v3), 11 v2 drafts, 16 rejected (3 of them the superseded v2 housing rows), 55 owned.
+- Queue: 364 published (122 v3 plan rows: 63 housing, 59 getting-around; 222 idea-run pages and calculators; 20 v2 pages in other topics), 115 approved v2 demand rows (not used by v3), 11 v2 drafts, 16 rejected (3 of them the superseded v2 housing rows), 55 owned.
 
 ## Still missing
 - The two owner files (style guide, fixes). Money and dining lane completion, briefs, reader maps and plans. The 20 remaining v2 pages' rewrites (15 money, 2 academics, 1 each daily-life, alumni, careers), each after its topic's brief. Ajay's blind compare (reports/blind-compare.md) and the spot checks from reports/to-read.md for both topics. Launch items that need Ajay's accounts: domain, Search Console, GA4, consent platform, AdSense, affiliates.
@@ -38,4 +39,4 @@ Nothing. The last run (housing) ended 2026-11-08 22:45 EST; nothing is scheduled
 Next topic, from the repo root (research lanes to completion, brief, reader map, plan, then a stop for approval): `cd /Users/ajaysharma/Ads/campus-publication && scripts/v3/run.sh money` (or `dining`). Keep the lid open and the power connected while it runs. The spot check: read reports/to-read.md and reports/blind-compare.md.
 
 ## Other sessions in this checkout
-"Build Footnote Daily Astro site templates" (site/, reports/templates/, reports/lighthouse/, DECISIONS.md, the deploy script, the rename; idle), "Website preview launch" (done), "Campus webpages and ads repo (fork)" (read-only).
+"Build Footnote Daily Astro site templates" (site/, reports/templates/, reports/lighthouse/, DECISIONS.md, the deploy script, the rename; idle), "Website preview launch" (done), "Campus webpages and ads repo (fork)" (Ajay's idea run: review/, IDEAS-STATUS.md, intel/<topic>/facts.csv, docs/v4/, and since 2026-11-11 the idea-run pages under content/articles and content/tools).
