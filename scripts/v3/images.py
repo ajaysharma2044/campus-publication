@@ -52,24 +52,48 @@ def topic_scenes(topic_dir: str) -> list[str]:
     return []
 
 
+def drop_photos(images_dir: Path, slug: str) -> None:
+    """Remove the slug's stored photos and their ledger entries (a replaced or removed lead photo; docs/v5 Phase 6)."""
+    import shutil
+    d = images_dir / slug
+    if d.exists():
+        shutil.rmtree(d)
+    led = images_dir / "credits.yml"
+    if led.exists():
+        import yaml
+        text = led.read_text(encoding="utf-8")
+        head = text.split("\n- file:", 1)[0] if "\n- file:" in text else text
+        entries = yaml.safe_load(text) or []
+        keep = [e for e in entries if not (isinstance(e, dict) and e.get("article_slug") == slug)]
+        if len(keep) != len(entries):
+            led.write_text(head.rstrip("\n") + "\n" + yaml.safe_dump(keep, allow_unicode=True, sort_keys=False, width=1000), encoding="utf-8")
+
+
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(prog="images.py", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("article")
     ap.add_argument("--images-dir", default=str(REPO / "content/images"))
     ap.add_argument("--intel-dir", default=str(REPO / "intel"))
+    ap.add_argument("--query", action="append", default=[], help="search these first (a reviewer's query, repeatable); the automatic queries follow")
+    ap.add_argument("--replace", action="store_true", help="replace the page's lead photo: drop its images, delete the slug's photo files and ledger entries, then search")
+    ap.add_argument("--no-fallback", action="store_true", help="with --query: do not fall back to the automatic queries (topic scenes, campus)")
     a = ap.parse_args(argv)
     art = Path(a.article).resolve()
     images_dir = Path(a.images_dir)
     fm, body = split(art.read_text(encoding="utf-8"))
     slug, topic_dir = art.stem, art.parent.name
     stored = lambda: any((images_dir / slug).glob("*.webp")) if (images_dir / slug).exists() else False
-    if (fm.get("images") or []) and stored():
+    if a.replace:
+        drop_photos(images_dir, slug)
+        fm["images"] = []
+        art.write_text(dump(fm, body), encoding="utf-8")
+    elif (fm.get("images") or []) and stored():
         print(f"{slug}: lead photo already stored"); return 0
     subjects = fm.get("subject") or []
     subjects = [subjects] if isinstance(subjects, str) else list(subjects)
     title = str(fm.get("title") or slug)
-    queries = subjects + ([plan_hint(Path(a.intel_dir), slug)] if plan_hint(Path(a.intel_dir), slug) else []) \
-        + [p for p in PLACES if p.lower() in title.lower()] + topic_scenes(topic_dir) + ["Cornell University campus Ithaca"]
+    queries = list(a.query) + ([] if (a.query and a.no_fallback) else (subjects + ([plan_hint(Path(a.intel_dir), slug)] if plan_hint(Path(a.intel_dir), slug) else [])
+        + [p for p in PLACES if p.lower() in title.lower()] + topic_scenes(topic_dir) + ["Cornell University campus Ithaca"]))
     seen, cand_path = set(), REPO / "content/images/candidates" / f"{slug}.json"
     cand_path.parent.mkdir(parents=True, exist_ok=True)
     for q in [x for x in queries if x and not (x in seen or seen.add(x))]:
