@@ -11,3 +11,5 @@
 **40 pages done** (2026-11-10 18:40, now 40): 222 left to write; problems: ideas 20, 24 need review.
 
 **50 pages done** (2026-11-10 18:48, now 50): 212 left to write; problems: ideas 20, 24 need review.
+
+2026-11-11 09:43: 2026-11-11: on Ajay's instruction (publish, then verify) every idea-run page and calculator was copied into content/ and deployed to https://eduexplained.netlify.app (noindex preview, 391 pages built, all build checks passed). New pages carry no queue row and no photo; rewrites kept their slug, queue row and photos; pages with fewer than five sources render as quick answers. The batched source verification is running on the live copies in content/ and will be followed by one more deploy; review/ keeps the drafts.
