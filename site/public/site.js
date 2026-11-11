@@ -1,6 +1,13 @@
 /* EduExplained: the little client-side behavior the templates need. Loaded deferred; every page works without it. */
 (function () {
   'use strict';
+  // Masthead: a shadow once the page has scrolled.
+  var mast = document.querySelector('.masthead');
+  if (mast) {
+    var onScroll = function () { mast.classList.toggle('masthead--scrolled', window.scrollY > 8); };
+    window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  }
+
   // Masthead menu: the button shows only with script and toggles the all-sections panel.
   var menuBtn = document.querySelector('[data-menu-toggle]'), menu = document.querySelector('[data-menu]');
   if (menuBtn && menu) {
