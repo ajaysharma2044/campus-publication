@@ -98,7 +98,7 @@ This building leases early. It was among the first to open leasing for 2023-24, 
 
 ## What should you watch for?
 
-The FAQ links a 2024-2025 lease, so ask for the current lease before you sign and read it end to end. The [guide to reading an Ithaca lease](/cornell/housing/how-to-read-ithaca-lease-before-signing/) explains the clauses, and the [landlord reviews guide](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) covers what tenants report.
+The FAQ links a 2024-2025 lease, so ask for the current lease before you sign and read it end to end. The [guide to reading an Ithaca lease](/cornell/housing/how-to-read-ithaca-lease-before-signing/) explains the clauses, and the [landlord reviews guide](/housing/how-to-check-an-ithaca-landlords-record/) covers what tenants report.
 
 ```reader
 If you're staying over the summer or moving out in May

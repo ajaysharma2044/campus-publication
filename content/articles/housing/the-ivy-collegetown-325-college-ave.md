@@ -106,7 +106,7 @@ The best Collegetown units go within weeks, but the wider Ithaca market has supp
 
 New buildings can open unfinished. Fontana at 327 Eddy St. put 50 or more students with Aug. 1 leases in a hotel until a September opening in 2016, and 301 College Ave. opened partly finished in August 2026 ([Cornell off-campus housing listings](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095)). Ask when your unit's move-in date is guaranteed and what happens if it slips.
 
-Modern Living Rentals' site advertises sublet and roommate openings from $900 per person, with no building named ([Modern Living Rentals](https://www.modernlivingrentals.com/)). Read the whole lease before signing, and check every fee. The [guide to reading an Ithaca lease](/cornell/housing/how-to-read-ithaca-lease-before-signing/) explains the clauses, and the [landlord reviews guide](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) covers what tenants report.
+Modern Living Rentals' site advertises sublet and roommate openings from $900 per person, with no building named ([Modern Living Rentals](https://www.modernlivingrentals.com/)). Read the whole lease before signing, and check every fee. The [guide to reading an Ithaca lease](/cornell/housing/how-to-read-ithaca-lease-before-signing/) explains the clauses, and the [landlord reviews guide](/housing/how-to-check-an-ithaca-landlords-record/) covers what tenants report.
 
 ```reader
 If you're a parent co-signing
@@ -124,5 +124,5 @@ Related guides:
 
 - [Collegetown apartments guide](/cornell/housing/collegetown-apartments-guide-2027-28/)
 - [Collegetown rent prices per bed](/cornell/housing/collegetown-rent-prices-per-bed-one-bedroom/)
-- [Ithaca landlords to avoid: Collegetown reviews](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/)
+- [Ithaca landlords to avoid: Collegetown reviews](/housing/how-to-check-an-ithaca-landlords-record/)
 - [How to read an Ithaca lease before signing](/cornell/housing/how-to-read-ithaca-lease-before-signing/)

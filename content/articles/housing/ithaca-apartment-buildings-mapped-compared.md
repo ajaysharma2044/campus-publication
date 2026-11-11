@@ -1351,7 +1351,7 @@ Seven companies manage 179 of the 373 properties. Modern Living Rentals manages 
 
 Ownership is harder to see. Of the 130 properties with an owner of record on the county roll, at least 100 are held by a limited liability company, a partnership, a trust or a corporation (Tompkins County assessment roll). Many LLCs carry the building's own address as a name, such as "222 Dryden Road, LLC." That is legal. It also means a renter checking a landlord's record needs the manager's name and the owner's name, and the tables give both where the records show them.
 
-The 2013 picture and the 2026 one are not directly comparable. The Sun counted bedrooms and dollars, and this map counts addresses. Both point the same way: a handful of firms and families control much of what a Cornell student can rent within walking distance. Reviews of specific landlords live in our [guide to Ithaca landlords](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/).
+The 2013 picture and the 2026 one are not directly comparable. The Sun counted bedrooms and dollars, and this map counts addresses. Both point the same way: a handful of firms and families control much of what a Cornell student can rent within walking distance. Reviews of specific landlords live in our [guide to Ithaca landlords](/housing/how-to-check-an-ithaca-landlords-record/).
 
 ## Old bones, new law
 

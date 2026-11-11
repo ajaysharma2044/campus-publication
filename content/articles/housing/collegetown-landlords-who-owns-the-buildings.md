@@ -115,7 +115,7 @@ Only Ithaca Renting posts a full per-bed price list, and its 2027-28 medians are
 
 ## How do you check a landlord before signing?
 
-Call the City Building Division about the building's certificate, read the lease, and speak to past tenants. The [landlord checking guide](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) walks through it. To find listings from landlords outside this list, use the [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/).
+Call the City Building Division about the building's certificate, read the lease, and speak to past tenants. The [landlord checking guide](/housing/how-to-check-an-ithaca-landlords-record/) walks through it. To find listings from landlords outside this list, use the [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/).
 
 ## What to do next
 

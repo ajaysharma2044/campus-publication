@@ -301,7 +301,7 @@ It varies by landlord, and some listings do not say. Ithaca Renting, Dryden Sout
 
 1. Agree on your group size and budget per person, with electricity added.
 2. Check each landlord's price basis and what the rent includes, using the table above.
-3. Look up the landlord's record in [Ithaca landlords to avoid](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) before you tour.
+3. Look up the landlord's record in [Ithaca landlords to avoid](/housing/how-to-check-an-ithaca-landlords-record/) before you tour.
 4. If a one-bedroom alone is over your budget, run the commute calculator above against a downtown or Fall Creek address.
 
 ## Related guides

@@ -129,7 +129,7 @@ Cornell lists these buildings for transfer and upper-level students. 301 College
 
 ## What Cornell does not list
 
-Cornell does not publish a list of which Greek chapter houses it owns. The Student & Campus Life organization scorecard shows an ownership label for each chapter, so check it for a specific house. For private landlords near these halls, see the [landlord reviews guide](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/).
+Cornell does not publish a list of which Greek chapter houses it owns. The Student & Campus Life organization scorecard shows an ownership label for each chapter, so check it for a specific house. For private landlords near these halls, see the [landlord reviews guide](/housing/how-to-check-an-ithaca-landlords-record/).
 
 ## What to do next
 

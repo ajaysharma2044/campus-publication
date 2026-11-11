@@ -812,7 +812,7 @@ Sources: the landlord and listing pages linked in each row, as posted when this 
 
 **Josh Lower of Urban Ithaca** built 307 College Ave. and Collegetown Crossing. In 2016 he said he starts renting in early fall and usually has most units rented by the end of November, with no single date when everything clears. George Avramis of Student Rentals Ithaca said the same fall that he was 70% to 75% leased by late September (The Cornell Daily Sun, 2016).
 
-To check a landlord before you sign, use the steps in [how to check a Collegetown landlord](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/); no public list rates them. For where listings are posted, from Cornell's portal to landlord sites, see [where to find Cornell off-campus listings](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/).
+To check a landlord before you sign, use the steps in [how to check a Collegetown landlord](/housing/how-to-check-an-ithaca-landlords-record/); no public list rates them. For where listings are posted, from Cornell's portal to landlord sites, see [where to find Cornell off-campus listings](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/).
 
 <!-- ad-break -->
 

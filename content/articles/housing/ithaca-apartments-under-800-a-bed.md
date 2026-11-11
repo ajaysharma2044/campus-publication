@@ -190,7 +190,7 @@ The rent per bed falls as the unit gets bigger, because a landlord spreads one k
 
 The catch is the lease. Cornell says most local leases bind housemates "jointly and severally," which means each tenant owes the whole house's rent and damages if someone else stops paying ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)). In PPM's 7-bedroom on S. Aurora St., one housemate who leaves in March leaves that room's rent for the other six to cover, or $116.67 each. The rules on who pays, and how to protect yourself, are in [our guide to roommates and joint liability](/cornell/housing/cornell-off-campus-roommates-joint-liability/).
 
-Check the building before you check the price. The Cornell and City of Ithaca [Safety Program for Off-Campus Living](https://safety.offcampusliving.cornell.edu/) lets you look up whether a rental holds a current certificate, the city's safety inspection permit. Several of the cheapest houses on this page name no owner or manager on their listings, so read [our guide to Ithaca landlords and tenant reviews](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) before you send a deposit.
+Check the building before you check the price. The Cornell and City of Ithaca [Safety Program for Off-Campus Living](https://safety.offcampusliving.cornell.edu/) lets you look up whether a rental holds a current certificate, the city's safety inspection permit. Several of the cheapest houses on this page name no owner or manager on their listings, so read [our guide to Ithaca landlords and tenant reviews](/housing/how-to-check-an-ithaca-landlords-record/) before you send a deposit.
 
 <!-- ad-break -->
 

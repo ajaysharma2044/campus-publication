@@ -17,7 +17,7 @@ from lib import queue as q  # noqa: E402
 MANDATORY = {
     "voting-in-ithaca-cornell-student-register-polling-place": "MANDATORY (spec Phase 2): add New York registration deadlines, how to register, and how to find a polling place, sourced to the NYS Board of Elections (elections.ny.gov) and the Tompkins County Board of Elections; link the official polling place lookup instead of listing locations.",
     "is-collegetown-safe-cornell-dorm-security-crime": "MANDATORY (spec Phase 2): add campus crime statistics from Cornell's most recent Annual Security and Fire Safety Report (Clery Act), with the report year stated, plus any official Ithaca Police data available; keep the existing building-safety and late-night-transit content.",
-    "ithaca-landlords-to-avoid-collegetown-reviews": "MANDATORY (spec Phase 2): keep the approach (no naming without evidence). The page is being renamed by the orchestrator to how-to-check-an-ithaca-landlords-record (new title: How to check an Ithaca landlord's record before you sign); you edit the body under its NEW path and do not rename anything yourself; do not touch the images block (the lead photo is replaced in Phase 6).",
+    "how-to-check-an-ithaca-landlords-record": "MANDATORY (spec Phase 2): keep the approach (no naming without evidence). The page was renamed from ithaca-landlords-to-avoid-collegetown-reviews; its new title is: How to check an Ithaca landlord's record before you sign. Make the opening answer and the headings match that title; do not rename anything yourself; do not touch the images block (the lead photo is replaced in Phase 6).",
 }
 
 

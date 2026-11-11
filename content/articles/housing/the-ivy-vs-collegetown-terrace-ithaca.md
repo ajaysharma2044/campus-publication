@@ -131,7 +131,7 @@ Neither building is the cheap choice. Look at the [per-bed rent guide](/cornell/
 - Which utilities are included, and what does the optional package cost?
 - What is the lease start date, and what happens if the building is not ready?
 - Does the building hold a current Certificate of Compliance, the city's safety permit?
-- Who is the landlord? Read [reviews of Collegetown landlords](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) first.
+- Who is the landlord? Read [reviews of Collegetown landlords](/housing/how-to-check-an-ithaca-landlords-record/) first.
 
 Then read the lease line by line. The [lease reading guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) shows what to check.
 

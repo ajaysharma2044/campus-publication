@@ -93,7 +93,7 @@ New applicants can lock in a rate by Nov. 15, 2026 ([Collegetown Terrace](https:
 
 ## What should you watch for?
 
-On a per-person lease, ask whether you are responsible only for your own bed's rent if a roommate leaves. Read the whole lease first: the [guide to reading an Ithaca lease](/cornell/housing/how-to-read-ithaca-lease-before-signing/) explains the clauses, and the [landlord reviews guide](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) covers what tenants report in Collegetown.
+On a per-person lease, ask whether you are responsible only for your own bed's rent if a roommate leaves. Read the whole lease first: the [guide to reading an Ithaca lease](/cornell/housing/how-to-read-ithaca-lease-before-signing/) explains the clauses, and the [landlord reviews guide](/housing/how-to-check-an-ithaca-landlords-record/) covers what tenants report in Collegetown.
 
 ```reader
 If you're a graduate student

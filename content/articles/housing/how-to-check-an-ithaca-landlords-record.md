@@ -1,5 +1,5 @@
 ---
-title: How to check a landlord's record in Ithaca
+title: "How to check an Ithaca landlord's record before you sign"
 mode: answer
 dek: No independent list ranks Ithaca landlords, so you check the building's certificate, the safety tool and two past tenants before you sign.
 meta: 'How to check a landlord''s record in Ithaca: the certificate call, Cornell''s safety tool, questions for past tenants and what each check misses.'
@@ -83,6 +83,9 @@ images:
   author: eflon
   source_url: https://www.flickr.com/photos/23094783@N03/2683568684
 kind: rewrite
+redirect_from:
+  - /cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/
+  - /housing/ithaca-landlords-to-avoid-collegetown-reviews/
 ---
 
 

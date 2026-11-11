@@ -200,7 +200,7 @@ A Certificate of Compliance is the City of Ithaca's safety permit for rentals. B
 
 The safety lookup at safety.offcampusliving.cornell.edu shows sprinklers, extinguishers, smoke and carbon monoxide alarms and construction type. It covers City of Ithaca rentals only, not the Town of Ithaca, Lansing or Cayuga Heights, and it does not measure landlord quality or neighborhood safety ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments)).
 
-Cornell's [lease page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) suggests asking how long the last tenants stayed, who does repairs, and how to reach the landlord in an emergency. Read [reviews of Collegetown landlords](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) too.
+Cornell's [lease page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) suggests asking how long the last tenants stayed, who does repairs, and how to reach the landlord in an emergency. Read [reviews of Collegetown landlords](/housing/how-to-check-an-ithaca-landlords-record/) too.
 
 ## Who helps in a dispute?
 

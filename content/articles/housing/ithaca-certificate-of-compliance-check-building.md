@@ -122,7 +122,7 @@ Make the call yourself. It takes a few minutes, needs no NetID and gives a writt
 
 ## Does a valid certificate mean the landlord is good?
 
-No. The certificate shows the building passed inspection. It says nothing about repair speed, deposit habits or how the landlord treats tenants. The [landlord checking guide](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) covers the other steps. Owners who want to rent legally can read the [landlord rules](/cornell/housing/becoming-ithaca-landlord-student-rental-rules/). If you already live somewhere with a defect, see [what to do when a landlord will not fix heat, mold or bed bugs](/cornell/housing/ithaca-landlord-wont-fix-heat-mold-bed-bugs/).
+No. The certificate shows the building passed inspection. It says nothing about repair speed, deposit habits or how the landlord treats tenants. The [landlord checking guide](/housing/how-to-check-an-ithaca-landlords-record/) covers the other steps. Owners who want to rent legally can read the [landlord rules](/cornell/housing/becoming-ithaca-landlord-student-rental-rules/). If you already live somewhere with a defect, see [what to do when a landlord will not fix heat, mold or bed bugs](/cornell/housing/ithaca-landlord-wont-fix-heat-mold-bed-bugs/).
 
 ## What to do next
 

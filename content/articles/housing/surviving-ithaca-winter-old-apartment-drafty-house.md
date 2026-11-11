@@ -110,7 +110,7 @@ Cornell's international office says down coats are warmest and mittens beat glov
 
 ## How do you avoid a cold apartment next year?
 
-Read reviews before you sign. Our [guide to landlords to avoid in Collegetown](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) covers what tenants report, and the [move-in checklist](/tools/off-campus-move-in-checklist-cornell/) helps you log problems from day one.
+Read reviews before you sign. Our [guide to landlords to avoid in Collegetown](/housing/how-to-check-an-ithaca-landlords-record/) covers what tenants report, and the [move-in checklist](/tools/off-campus-move-in-checklist-cornell/) helps you log problems from day one.
 
 ```tool off-campus-move-in-checklist-cornell```
 

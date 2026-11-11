@@ -127,7 +127,7 @@ Compare per person per year, and add electricity and parking to every Collegetow
 
 ## What should you check before you choose?
 
-Check the commute from your classes, which the calculator below does for you. Then check who the landlord is. Size is not a quality signal, and the [landlord checking guide](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) shows how to look up a building's record. For a wider view of Fall Creek and downtown, see [Collegetown versus Fall Creek versus downtown](/cornell/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/).
+Check the commute from your classes, which the calculator below does for you. Then check who the landlord is. Size is not a quality signal, and the [landlord checking guide](/housing/how-to-check-an-ithaca-landlords-record/) shows how to look up a building's record. For a wider view of Fall Creek and downtown, see [Collegetown versus Fall Creek versus downtown](/cornell/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/).
 
 ```tool ithaca-rent-commute-calculator
 ```

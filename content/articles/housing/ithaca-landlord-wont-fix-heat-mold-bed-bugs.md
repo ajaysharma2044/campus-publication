@@ -226,7 +226,7 @@ Orders can also come from the City itself. A vacate order issued March 4, 2026, 
 - **Ithaca Tenants Union**: a tenant organization, not a government office, at [ithacatu.org](https://www.ithacatu.org/). Cornell's resource list links its Landlord Issue Form ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)).
 - **New York Attorney General**: main office line 1-800-771-7755, with complaints filed online ([AG tenants page](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants)).
 
-Check a landlord's record before you sign next time with our [landlords to avoid](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) guide, and see the [landlord rules guide](/cornell/housing/becoming-ithaca-landlord-student-rental-rules/) for what the City requires of owners.
+Check a landlord's record before you sign next time with our [landlords to avoid](/housing/how-to-check-an-ithaca-landlords-record/) guide, and see the [landlord rules guide](/cornell/housing/becoming-ithaca-landlord-student-rental-rules/) for what the City requires of owners.
 
 ```reader "If you're a junior or senior already renting"
 The fear of losing a renewal is the main reason renters stay quiet, and the retaliation rule above exists for that case. The costly mistake is a phone call with no email after it: without a written record, a rent-cut claim is your word against the landlord's. Our [guide for renting upperclassmen](/cornell/housing/off-campus-housing-cornell-juniors-seniors-renting/) covers renewal timing.
@@ -275,5 +275,5 @@ Write to your landlord today, with photos and the date, and keep a copy. If noth
 Related guides:
 
 - [Already renting near Cornell](/cornell/housing/off-campus-housing-cornell-juniors-seniors-renting/)
-- [Landlords to avoid in Collegetown](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/)
+- [Landlords to avoid in Collegetown](/housing/how-to-check-an-ithaca-landlords-record/)
 - [If the City orders your building vacated](/cornell/housing/ithaca-eviction-vacate-order-what-to-do/)

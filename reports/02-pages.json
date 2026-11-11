@@ -1965,6 +1965,36 @@
   "mandatory": ""
  },
  {
+  "file": "content/articles/housing/how-to-check-an-ithaca-landlords-record.md",
+  "url": "/cornell/housing/how-to-check-an-ithaca-landlords-record/",
+  "section": "housing",
+  "slug": "how-to-check-an-ithaca-landlords-record",
+  "title": "How to check an Ithaca landlord's record before you sign",
+  "kind": "rewrite",
+  "queue_id": "q-housing-0084",
+  "idea_id": "173",
+  "brief": "intel/off-campus-housing/brief.md",
+  "facts": "intel/off-campus-housing/facts.csv",
+  "matches": [
+   {
+    "line": 14,
+    "match": "No source gives",
+    "snippet": "eposits, and it is 22 years old ([The Cornell Daily Sun] ). No source gives a complaint database or recent independent reviews of the b"
+   },
+   {
+    "line": 20,
+    "match": "page lists no ",
+    "snippet": "The City page lists no public lookup (Cornell Student and Campus Life), so call the"
+   },
+   {
+    "line": 32,
+    "match": "page shows no ",
+    "snippet": "building safety ratings ([Cornell Chronicle] ). The current page shows no scoring scale. It does not measure landlord quality, looks o"
+   }
+  ],
+  "mandatory": "MANDATORY (spec Phase 2): keep the approach (no naming without evidence). The page was renamed from ithaca-landlords-to-avoid-collegetown-reviews; its new title is: How to check an Ithaca landlord's record before you sign. Make the opening answer and the headings match that title; do not rename anything yourself; do not touch the images block (the lead photo is replaced in Phase 6)."
+ },
+ {
   "file": "content/articles/housing/hu-shih-hall-cornell.md",
   "url": "/cornell/housing/hu-shih-hall-cornell/",
   "section": "housing",
@@ -2108,36 +2138,6 @@
    }
   ],
   "mandatory": ""
- },
- {
-  "file": "content/articles/housing/ithaca-landlords-to-avoid-collegetown-reviews.md",
-  "url": "/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/",
-  "section": "housing",
-  "slug": "ithaca-landlords-to-avoid-collegetown-reviews",
-  "title": "How to check a landlord's record in Ithaca",
-  "kind": "rewrite",
-  "queue_id": "q-housing-0084",
-  "idea_id": "173",
-  "brief": "intel/off-campus-housing/brief.md",
-  "facts": "intel/off-campus-housing/facts.csv",
-  "matches": [
-   {
-    "line": 14,
-    "match": "No source gives",
-    "snippet": "eposits, and it is 22 years old ([The Cornell Daily Sun] ). No source gives a complaint database or recent independent reviews of the b"
-   },
-   {
-    "line": 20,
-    "match": "page lists no ",
-    "snippet": "The City page lists no public lookup (Cornell Student and Campus Life), so call the"
-   },
-   {
-    "line": 32,
-    "match": "page shows no ",
-    "snippet": "building safety ratings ([Cornell Chronicle] ). The current page shows no scoring scale. It does not measure landlord quality, looks o"
-   }
-  ],
-  "mandatory": "MANDATORY (spec Phase 2): keep the approach (no naming without evidence). The page is being renamed by the orchestrator to how-to-check-an-ithaca-landlords-record (new title: How to check an Ithaca landlord's record before you sign); you edit the body under its NEW path and do not rename anything yourself; do not touch the images block (the lead photo is replaced in Phase 6)."
  },
  {
   "file": "content/articles/housing/ithaca-security-deposit-rules-tenants.md",

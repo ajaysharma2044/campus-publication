@@ -270,7 +270,7 @@ Then check three things that vary by building:
 
 ```tool ithaca-lease-fee-deposit-checker```
 
-For a clause-by-clause walk through the lease itself, see [how to read an Ithaca lease before signing](/cornell/housing/how-to-read-ithaca-lease-before-signing/). To check a landlord's record, see [Ithaca landlords to avoid](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/).
+For a clause-by-clause walk through the lease itself, see [how to read an Ithaca lease before signing](/cornell/housing/how-to-read-ithaca-lease-before-signing/). To check a landlord's record, see [Ithaca landlords to avoid](/housing/how-to-check-an-ithaca-landlords-record/).
 
 <!-- ad-break -->
 

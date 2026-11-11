@@ -100,7 +100,7 @@ Look up the address first, and decide what you will ask.
 
 - **Check the City record.** Buildings with three or more units need a Certificate of Compliance, valid three years ([City of Ithaca](https://www.cityofithacany.gov/146/Certificate-of-Compliance)). Cornell and the City's Building Division also run a safety tool that shows sprinklers, fire extinguishers, smoke and carbon monoxide alarms and construction type for City rentals. It does not cover Town, Lansing or Cayuga Heights addresses ([Safe Living Environments](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments)). Call the Building Division at 607-274-6508 with questions.
 - **Know which municipality you are in.** The City's inspection, renewal-notice and safety-tool rules stop at the city line. The [City vs Town guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) shows what changes.
-- **Look up the landlord.** The [landlord reviews guide](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) shows how to check a name.
+- **Look up the landlord.** The [landlord reviews guide](/housing/how-to-check-an-ithaca-landlords-record/) shows how to check a name.
 
 ## What should you check at the door and in the hall?
 

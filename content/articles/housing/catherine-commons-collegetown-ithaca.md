@@ -95,7 +95,7 @@ Test the commute before you commit. The listing shows 7 minutes from The Oval.
 ```tool ithaca-rent-commute-calculator
 ```
 
-Read the lease in full. The [guide to reading an Ithaca lease](/cornell/housing/how-to-read-ithaca-lease-before-signing/) explains the clauses, and the [landlord reviews guide](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) covers what tenants report.
+Read the lease in full. The [guide to reading an Ithaca lease](/cornell/housing/how-to-read-ithaca-lease-before-signing/) explains the clauses, and the [landlord reviews guide](/housing/how-to-check-an-ithaca-landlords-record/) covers what tenants report.
 
 ## What to do next
 
@@ -105,4 +105,4 @@ Related guides:
 
 - [Collegetown apartments guide](/cornell/housing/collegetown-apartments-guide-2027-28/)
 - [Collegetown rent prices per bed](/cornell/housing/collegetown-rent-prices-per-bed-one-bedroom/)
-- [Landlords to avoid in Collegetown](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/)
+- [Landlords to avoid in Collegetown](/housing/how-to-check-an-ithaca-landlords-record/)

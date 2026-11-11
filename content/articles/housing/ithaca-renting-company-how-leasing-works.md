@@ -103,7 +103,7 @@ Ithaca Renting does not post its deposit or application terms online, so ask for
 ```
 
 ```reader "If you're a parent paying the rent"
-The lease is per bed, so your student is responsible for that bed's price and may be responsible for roommates' shares too. Read the joint liability clause before you sign. The [landlord checking guide](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) lists what to ask.
+The lease is per bed, so your student is responsible for that bed's price and may be responsible for roommates' shares too. Read the joint liability clause before you sign. The [landlord checking guide](/housing/how-to-check-an-ithaca-landlords-record/) lists what to ask.
 ```
 
 ## What to do next
