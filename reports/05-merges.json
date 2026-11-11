@@ -1,0 +1,66 @@
+[
+ {
+  "cluster": "Winter",
+  "keep": "ithaca-heat-out-frozen-pipes-landlord-must-do",
+  "merge_in": [
+   "ithaca-rental-heat-requirements-winter"
+  ],
+  "flag": false
+ },
+ {
+  "cluster": "Parking",
+  "keep": "parking-collegetown-downtown-ithaca-garages-permits",
+  "merge_in": [
+   "ithaca-parking-garages-dryden-road-green-street-cayuga"
+  ],
+  "flag": false
+ },
+ {
+  "cluster": "Parking",
+  "keep": "cornell-parking-guide-campus-collegetown-ithaca",
+  "merge_in": [
+   "having-a-car-at-cornell-student-guide"
+  ],
+  "flag": false
+ },
+ {
+  "cluster": "Subletting",
+  "keep": "cornell-summer-sublet-how-to-sublet-apartment-ithaca",
+  "merge_in": [
+   "sublet-apartment-study-abroad-semester-cornell"
+  ],
+  "flag": false
+ },
+ {
+  "cluster": "Subletting",
+  "keep": "/tools/summer-storage-vs-shipping-vs-sublet-cornell-cost/",
+  "merge_in": [
+   "summer-storage-vs-shipping-vs-sublet-cornell-cost"
+  ],
+  "flag": true
+ },
+ {
+  "cluster": "Lease timing",
+  "keep": "when-to-sign-collegetown-lease-cornell",
+  "merge_in": [
+   "how-early-collegetown-leases-sign-2012-2026"
+  ],
+  "flag": true
+ },
+ {
+  "cluster": "Co-ops and Greek housing",
+  "keep": "cornell-co-ops-all-eight-compared",
+  "merge_in": [
+   "how-cornell-co-ops-work-chores-meals-governance"
+  ],
+  "flag": true
+ },
+ {
+  "cluster": "Co-ops and Greek housing",
+  "keep": "cornell-fraternity-sorority-housing-2026-27",
+  "merge_in": [
+   "cornell-fraternity-house-cost-live-in-rules"
+  ],
+  "flag": true
+ }
+]
