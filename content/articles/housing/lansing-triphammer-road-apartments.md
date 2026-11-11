@@ -30,7 +30,6 @@ sources:
 - url: https://www.lansingwestapts.com/
   title: Lansing West Apartments
   accessed: '2026-11-10'
-  accessed: '2026-11-10'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/triphammer-236697
   title: Triphammer Apartments, Cornell Off-Campus Housing Marketplace
   accessed: '2026-11-10'
