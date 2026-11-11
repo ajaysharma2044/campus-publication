@@ -39,9 +39,10 @@ export const site = {
   },
   ads: {
     // provider: which network renders the fixed units (AdSlot); 'none' keeps them as empty reserved space.
-    // adsenseClient: the AdSense publisher id (Ajay, 2026-11-11). When set, every page of a production build loads the AdSense
-    // script in its head (site verification and Auto ads) and /ads.txt carries Google's line, whatever the provider; the
-    // fixed units need provider 'adsense' and a slot id per position.
+    // adsenseClient: the AdSense publisher id (Ajay, 2026-11-11). When set, every page of every build, the noindex preview
+    // included (Ajay: the whole site), loads the AdSense script in its head (site verification and Auto ads) and /ads.txt
+    // carries Google's line, whatever the provider; only the dev server leaves it out. The fixed units need provider
+    // 'adsense' and a slot id per position.
     provider: 'none' as AdProvider,
     adsenseClient: 'ca-pub-7711546311538806',
     slots: { sidebar: '', leaderboard: '', inContent: '', anchor: '' },
