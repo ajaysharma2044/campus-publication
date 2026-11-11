@@ -149,6 +149,27 @@ TOPIC_DIRS = topic_dirs()
 
 
 # ------------------------------------------------------------------------------------------ parsing
+class _DuplicateKey(yaml.YAMLError):
+    pass
+
+
+class _StrictLoader(yaml.SafeLoader):
+    """safe_load that refuses a mapping with a repeated key: pyyaml keeps the last value, the Astro site build rejects the page."""
+
+
+def _strict_mapping(loader, node, deep=False):
+    seen = set()
+    for k, _ in node.value:
+        key = loader.construct_object(k, deep=deep)
+        if key in seen:
+            raise _DuplicateKey(f"duplicate frontmatter key {key!r} (the site build rejects it)")
+        seen.add(key)
+    return yaml.SafeLoader.construct_mapping(loader, node, deep)
+
+
+_StrictLoader.add_constructor(yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG, _strict_mapping)
+
+
 def parse(path: Path | str) -> tuple[dict, str, str, list[str]]:
     """(frontmatter, body, whole text, errors)."""
     raw = Path(path).read_text(encoding="utf-8")
@@ -156,7 +177,9 @@ def parse(path: Path | str) -> tuple[dict, str, str, list[str]]:
     if not m:
         return {}, raw, raw, ["no YAML frontmatter between --- lines"]
     try:
-        fm = yaml.safe_load(m.group(1))
+        fm = yaml.load(m.group(1), Loader=_StrictLoader)
+    except _DuplicateKey as e:
+        return {}, raw[m.end():], raw, [f"frontmatter: {e}"]
     except yaml.YAMLError as e:
         return {}, raw[m.end():], raw, [f"frontmatter is not valid YAML: {str(e).splitlines()[0]}"]
     if not isinstance(fm, dict):
