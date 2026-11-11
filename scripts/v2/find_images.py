@@ -512,7 +512,8 @@ def audit(articles_dir: Path, queue_path: Path, images_dir: Path, out_path: Path
         for path in sorted(articles_dir.glob("*/*.md")):
             m = FM_RE.match(path.read_text(encoding="utf-8"))
             fm = (yaml.safe_load(m.group(1)) or {}) if m else {}
-            if str(fm.get("queue_id") or "") not in published:
+            qid = str(fm.get("queue_id") or "")
+            if qid and qid not in published:   # a page without a queue_id (the idea-run pages of 2026-11-11) is live: the Astro build deploys every file here
                 continue
             slug, school, subjects = path.stem, school_profile(fm.get("school")), article_subjects(fm)
             images = [im for im in (fm.get("images") or []) if isinstance(im, dict)]
