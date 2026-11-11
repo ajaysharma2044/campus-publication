@@ -62,6 +62,9 @@ def main(argv: list[str]) -> int:
         if not old or old["status"] != "published":
             skipped.append((p.stem, f"queue row {fm.get('queue_id')!r} is {old['status'] if old else 'missing'}, not published"))
             continue
+        if old.get("verdict") == "idea-run":
+            skipped.append((p.stem, "an idea-run page (published outside the v3 queue), not a v2 page"))
+            continue
         had = rewrites.get(p.stem, [])
         if had and (not a.again or any(s != "rejected" for s in had)):
             skipped.append((p.stem, f"rewrite row exists ({', '.join(had)})"))
