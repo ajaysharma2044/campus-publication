@@ -65,7 +65,9 @@ images: []
 - Ganędagǫ: residents unload at the Robert Purcell lot; both halls stay open over winter break.
 ```
 
-Ganędagǫ: and Toni Morrison are close twins: both are suite-style halls on North Campus that opened in 2021 with air conditioning. Ganędagǫ: is the bigger one, with 564 residents against 306, and Toni Morrison is the one with a dining room and a cafe in the building ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing)).
+Ganędagǫ: and Toni Morrison are close twins: both are suite-style halls on North Campus that opened in 2021 ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)). Ganędagǫ: is the bigger one, with 564 residents against 306, and Toni Morrison is the one with a dining room and a cafe in the building.
+
+Cornell lists both halls as suites ([residence hall configurations](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)) and says both are temperature-controlled. Resident counts come from the [Ganędagǫ: Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/ganedago-hall) and [Toni Morrison Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall) pages, and the building dining from Cornell's [dining rooms list](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms).
 
 ## How do the two halls compare?
 
@@ -82,7 +84,7 @@ Ganędagǫ: and Toni Morrison are close twins: both are suite-style halls on Nor
 
 Sources: Cornell hall pages, [residence hall configurations](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations), [dining rooms](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms) and [move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus), as of Nov. 10, 2026.
 
-The table shows why the halls are hard to tell apart. Cornell lists the same layout and the same air conditioning status for both ([Cornell hall pages](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall)). The fact set holds no room sizes, bathroom counts or Ganędagǫ: street address, and it does not say what Ganędagǫ: means or how to say it. Ask Cornell Housing at housing@cornell.edu or 607-255-5368 for those details.
+The table shows why the halls are hard to tell apart. Cornell lists both as suites ([residence hall configurations](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)), and both hall pages say the hall is temperature-controlled ([Ganędagǫ: Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/ganedago-hall), [Toni Morrison Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall)). The fact set holds no room sizes, bathroom counts or Ganędagǫ: street address, and it does not say what Ganędagǫ: means or how to say it. Ask Cornell Housing at housing@cornell.edu or 607-255-5368 for those details.
 
 ## What are the suites like?
 

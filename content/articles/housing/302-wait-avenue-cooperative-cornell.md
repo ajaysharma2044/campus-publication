@@ -72,7 +72,7 @@ Cornell's page for this house lists free laundry, parking and summer storage. Th
 
 For 2026-27 a double is $4,715 per semester, or $9,430 for two semesters. A single is $5,340 to $5,693 per semester, which is $10,680 to $11,386 for the year ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
-A hall double costs $13,744 for the year, so the 302 Wait double is $4,314 less. With no house meal plan, you cook for yourself from the provided staples. Cornell does not list the house among the four with a meal plan ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). For leases, read [Is off campus cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) and [cheapest off-campus housing near Cornell](/cornell/housing/cheapest-off-campus-housing-cornell/).
+A hall double costs $13,744 for the year, so the 302 Wait double is $4,314 less. With no house meal plan, you cook for yourself from the provided staples. For leases, read [Is off campus cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) and [cheapest off-campus housing near Cornell](/cornell/housing/cheapest-off-campus-housing-cornell/).
 
 <!-- ad-break -->
 

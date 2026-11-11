@@ -83,7 +83,7 @@ A corridor hall means rooms along a hallway with bathrooms shared by the floor.
 
 ## What is each hall like to live in?
 
-Cascadilla was planned in the 1860s as a water-cure sanitarium, a spa that treated illness with water. Ezra Cornell invested in it, bought out the other investors and finished it. Cornell took ownership in June 1869 and used it as its first residence hall ([The Cornell Daily Sun](https://cornellsun.com/2013/09/19/ezras-oracle-sept-20-2013)).
+Cascadilla was a water-cure sanitarium, a spa that treated illness with water. Ezra Cornell invested in it, bought out the other investors and finished it ([The Cornell Daily Sun](https://cornellsun.com/2013/09/19/ezras-oracle-sept-20-2013)). Cornell's housing page says the building dates to 1864 and became Cornell's first residence hall when ownership transferred in June 1869 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/cascadilla-hall)).
 
 Today it houses transfer and upper-level students, and its ground floor holds the service center for all Collegetown-area halls. That means packages and keys for neighbors such as Schuyler House pass through its doors.
 
@@ -120,7 +120,7 @@ If you are weighing these against a Collegetown apartment, a bed in a four-bedro
 
 ## How do move-in and move-out differ?
 
-Cascadilla and Sheldon unload in different places and then share a parking lot. For fall 2026, Cascadilla residents unloaded at the Eddygate entrance and Sheldon residents through the Dryden Road Garage entrance at 114 Dryden Rd. Both then moved their cars to the Williams Street Lot at Williams Street and Stewart Avenue ([Cornell move instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall)).
+For fall 2026, Cascadilla residents unloaded at the Eddygate entrance, and drivers then moved their cars to the Williams Street Lot at Williams Street and Stewart Avenue. The same page lists limited spots in the Sheldon Court loading dock ([Cornell move instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall)).
 
 The Cascadilla Service Center was closed on Aug. 17, open 8 a.m. to 7 p.m. on Aug. 18 to 22, and open 10 a.m. to 4 p.m. on Aug. 23. Plan your key pickup around those hours. The full parking plan is in the [move-in day guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/).
 

@@ -60,7 +60,7 @@ images: []
 - About one in five residents is a transfer, a higher share than the West Campus average.
 ```
 
-Alice Cook House is the oldest and largest of Cornell's five West Campus Houses. It opened in August 2004 and holds [nearly 400 students](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/alice-cook-house) in a modern main building and four Gothic stone halls. Rooms have no air conditioning, and residents buy the House Meal Plan.
+Alice Cook House was the first of Cornell's five West Campus Houses. It opened in August 2004 and holds [nearly 400 students](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/alice-cook-house) in a modern main building and four Gothic stone halls. Rooms have no air conditioning, and residents buy the House Meal Plan.
 
 ```figure
 kind: cost_table

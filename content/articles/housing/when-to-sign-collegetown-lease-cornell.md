@@ -114,7 +114,7 @@ The Cornell Daily Sun holds the only dated record. Nine signings in six Sun stor
 | [Nov. 2018](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/) | 12-bedroom house at 410 Elmwood Ave., signed April 2017 | about 16 |
 | Nov. 2018 | 10-bedroom house on North Quarry St., signed May 2017 | about 15 |
 | [Sept. 2019](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/) | Ithaca Renting opening day for 2020-21 leases | about 11 |
-| [Oct. 2021](https://cornellsun.com/2021/10/13/just-months-after-move-in-next-years-hectic-housing-search-begins/) | Many students seven weeks into fall | about 10 |
+| [Oct. 2021](https://cornellsun.com/2021/10/13/just-months-after-move-in-next-years-hectic-housing-search-begins/) | Students already searching for 2022-23 housing, story dated Oct. 13 | about 10, from the story date to August |
 | [Sept. 2022](https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/) | A student two weeks after arriving | about 11 |
 | [Dec. 2025](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026) | The Ivy: nearly all 52 units leased before completion | 8 or more |
 

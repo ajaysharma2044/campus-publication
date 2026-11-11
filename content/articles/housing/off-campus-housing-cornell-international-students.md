@@ -99,7 +99,7 @@ kind: reader_guide
 - Before you wire money, confirm the unit's Certificate of Compliance and run Cornell's safety lookup.
 ```
 
-You do not need a Social Security number to rent an apartment in Ithaca, [Cornell International Services says](https://international.globallearning.cornell.edu/life-cornell/faq-international-students). A landlord can collect a deposit plus any prepaid rent worth no more than one month's rent. Because you may sign before you visit, check the building before any money leaves your account.
+You do not need a Social Security number to rent an apartment in Ithaca, [Cornell International Services says](https://international.globallearning.cornell.edu/life-cornell/faq-international-students). Because you may sign before you visit, check the building before any money leaves your account.
 
 ## What documents do I need to rent?
 
@@ -186,7 +186,7 @@ Visiting scholars have [no guaranteed Cornell housing](https://cornellsun.com/20
 
 ## What happens over breaks and between leases?
 
-Most Ithaca leases start about Aug. 1, so a 12-month lease covers winter and summer breaks. A Cornell housing license does not. Students who cannot travel home can ask housing@cornell.edu about [on-campus housing during breaks](https://global.cornell.edu/resources/immigration-advice-and-resources).
+Students worried about not being able to travel home during breaks can email housing@cornell.edu about [on-campus housing during breaks](https://global.cornell.edu/resources/immigration-advice-and-resources).
 
 New degree students ride TCAT free in the first year with a Cornell ID. The pass [expires Aug. 31 for fall entrants](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) and Dec. 31 for spring entrants. A cheaper downtown unit costs nothing extra to commute from in year one. The [international arrival guide](/cornell/getting-around/getting-to-cornell-international-students/) covers the trip itself.
 

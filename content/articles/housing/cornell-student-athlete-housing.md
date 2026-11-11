@@ -66,9 +66,9 @@ Cornell's pages do not describe any athletics-specific housing arrangement, such
 
 ## When is my room actually open?
 
-The academic-year license for 2026-27 runs from move-in, Aug. 17 to 22, 2026, through Dec. 20, 2026, and again from Jan. 19 to May 23, 2027 ([Cornell housing rates and licenses](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses)). The spring term ends May 22, 2027, and Commencement runs May 28 to 30 ([University Registrar](https://registrar.cornell.edu/calendars-exams/academic-calendar)).
+The academic-year license for 2026-27 runs from move-in, Aug. 17 to 22, 2026, through Dec. 20, 2026, and again from Jan. 19 to May 23, 2027 ([Cornell housing rates and licenses](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses)).
 
-Staying outside those dates costs $60 per day ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The winter gap is 30 days.
+Staying outside those dates costs $60 per day ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The winter gap, Dec. 20 to Jan. 19, is 30 days.
 
 ## What are my options over winter break?
 

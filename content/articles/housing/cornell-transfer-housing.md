@@ -173,7 +173,7 @@ The next-year problem is real too. In fall 2025 the Sun reported that a sophomor
 
 ## How does an exempt transfer find an apartment?
 
-You are admitted months after the Collegetown rush, so a summer search covers what is left ([Cornell Daily Sun](https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed)). Most Ithaca leases end July 31 and restart around Aug. 1.
+Most Ithaca leases end July 31 ([The Cornell Daily Sun](https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing)).
 
 | Option | Price | Distance to campus |
 |---|---|---|

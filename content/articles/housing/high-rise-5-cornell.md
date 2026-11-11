@@ -79,7 +79,7 @@ Source: Cornell Housing hall page, Residence Hall Configurations and Housing Rat
 
 ## What sets High Rise 5 apart?
 
-The building is organized in units. A unit is a group of rooms that share a study room, a lounge and a kitchen. Some units swap their lounge for a one-room quad ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)).
+Cornell's configurations page lists High Rise 5 as corridor-style, with rooms along a shared hallway ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)).
 
 Quints, rooms for five, exist here and in Jameson Hall and Clara Dickson Hall. The top floor holds a Skylounge that looks out over the golf course and Fuertes Observatory.
 

@@ -89,7 +89,7 @@ Cornell lists these exemptions in its residential policy:
 
 Source: Cornell Residential Policy.
 
-An exemption lasts one academic year, and you reapply each year. Requests are accepted during the open application period, not after a signed housing license. Students who neither meet the requirement nor hold an exemption are billed for the full year ([Cornell housing](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process)). See [exemptions to the residential requirement](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) for the process in full, or run the quiz.
+An exemption lasts one academic year, and you reapply each year ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). Requests are accepted during the open application period, not after a signed housing license. Students who neither meet the requirement nor hold an exemption are billed for the full year ([Cornell housing](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process)). See [exemptions to the residential requirement](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) for the process in full, or run the quiz.
 
 ```tool can-i-live-off-campus-cornell-quiz
 ```

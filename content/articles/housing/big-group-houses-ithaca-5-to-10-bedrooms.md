@@ -85,7 +85,7 @@ images: []
 - One empty bed in a 10-person house adds $86.11 a month to each housemate's rent.
 ```
 
-A 5-to-10-bedroom house is the cheapest way to live within walking distance of campus, at $695 to $895 a bed in [Ithaca Renting's 2027-28 listings](https://ithacarenting.com/collegetown/). The catch is timing and size: the biggest houses sell out first, and a lease makes every housemate responsible for every bed.
+A 5-to-10-bedroom house is the cheapest way to live within walking distance of campus, from $695 a bed in [Ithaca Renting's 2027-28 listings](https://ithacarenting.com/collegetown/). The catch is timing and size: the biggest houses sell out first, and a lease makes every housemate responsible for every bed.
 
 ```reader "If you're organizing the group"
 Fill the house before you sign, because the group's size sets the price for everyone. Cornell says most local leases bind housemates "jointly and severally", so one person who backs out leaves the rest paying. Settle who covers a vacancy in writing before you sign, and check that each person can afford a full share. The [roommates and joint liability guide](/cornell/housing/cornell-off-campus-roommates-joint-liability/) covers how to set that up.
@@ -97,7 +97,7 @@ Check what the house costs per bed per year, not per month. A bed at the 6-bedro
 
 ## How much do big houses cost per bed?
 
-Ithaca Renting posts per-bed prices for 2027-28, and the larger the unit, the lower the bed. Its Collegetown median is [$800 for a 6-bedroom and $775 for the 10-bedroom](https://ithacarenting.com/collegetown/), against $1,246.25 for a 4-bedroom and $2,025 for a 1-bedroom. Over 12 months the 6-bedroom bed costs $9,600 and the 10-bedroom bed $9,300. The [rent dataset](/datasets/collegetown-rent-per-bed-2027-28/) shows every row.
+[Ithaca Renting](https://ithacarenting.com/collegetown/) posts per-bed price ranges for 2027-28, and the larger the unit, the lower the bed. The median of its Collegetown listings is $800 for a 6-bedroom (five listings) and $775 for the 10-bedroom (one listing), against $1,246.25 for a 4-bedroom and $2,025 for a 1-bedroom. Over 12 months the 6-bedroom bed costs $9,600 and the 10-bedroom bed $9,300. The [rent dataset](/datasets/collegetown-rent-per-bed-2027-28/) shows every row.
 
 | House or building | Bedrooms | Price per bed, 2027-28 | Status |
 |---|---|---|---|
@@ -108,7 +108,7 @@ Ithaca Renting posts per-bed prices for 2027-28, and the larger the unit, the lo
 | 105 Dryden Court | 8 | Not posted | Sold out |
 | 214 Dryden Rd | 14 | Not posted | Sold out |
 
-Source: [Ithaca Renting](https://ithacarenting.com/collegetown/), as of Nov. 8, 2026. Property pages: [202 Dryden](https://ithacarenting.com/property-details/?pid=19), [Aces](https://ithacarenting.com/property-details/?pid=15), [105 Dryden Court](https://ithacarenting.com/property-details/?pid=17) and [214 Dryden](https://ithacarenting.com/property-details/?pid=16). The Ithaca Renting houses are furnished, with heat, hot water and trash included. The [cheapest housing guide](/cornell/housing/cheapest-off-campus-housing-cornell/) ranks these against other low-cost options.
+Source: [Ithaca Renting](https://ithacarenting.com/collegetown/), as of Nov. 8, 2026. Property pages: [202 Dryden](https://ithacarenting.com/property-details/?pid=19), [Aces](https://ithacarenting.com/property-details/?pid=15), [105 Dryden Court](https://ithacarenting.com/property-details/?pid=17) and [214 Dryden](https://ithacarenting.com/property-details/?pid=16). The Ithaca Renting houses are furnished, with heat and hot water included. The [cheapest housing guide](/cornell/housing/cheapest-off-campus-housing-cornell/) ranks these against other low-cost options.
 
 ## Which other landlords rent big houses?
 
@@ -135,7 +135,7 @@ Lambrou Real Estate lists houses of 7 to 12 bedrooms, including 410 Elmwood Ave 
 
 ## When do big houses sell?
 
-Early. In the Sun's record of Collegetown signings, a 12-bedroom house on Elmwood Ave was signed in April 2017 for August 2018, 16 months ahead, and a 10-bedroom house on North Quarry St in May 2017, 15 months ahead, per [the Sun](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/). Most other cases fall at 10 or 11 months. The [lead-times dataset](/datasets/collegetown-lease-signing-lead-times-2017-2025/) lists all nine.
+Early. In the Sun's record of Collegetown signings, a 12-bedroom house on Elmwood Ave was signed in April 2017 for August 2018, 16 months ahead, and a 10-bedroom house on North Quarry St in May 2017, 15 months ahead, per [the Sun](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/). The [lead-times dataset](/datasets/collegetown-lease-signing-lead-times-2017-2025/) lists all nine.
 
 Nine months before an August 2027 start, 14 of Ithaca Renting's 67 rows were sold out, and big houses were among them. If your group wants a 10-bedroom house for August 2027, the signing window is already open. The [guide to signing dates](/cornell/housing/when-to-sign-collegetown-lease-cornell/) explains the timing, and the tool shows where you stand.
 

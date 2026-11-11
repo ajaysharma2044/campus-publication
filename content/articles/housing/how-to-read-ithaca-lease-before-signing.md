@@ -182,7 +182,7 @@ Look at the address first. The 120-day rule and the Certificate of Compliance ap
 
 First- and second-year undergraduates [should not sign a lease unless they have an approved exemption](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process) from Housing and Residential Life. Exemptions last one academic year, so a transfer or returning student reapplies each year, per the [residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy). A student who skips the requirement still gets billed for the full year.
 
-Then check the address. The City of Ithaca's rental rules, including the Certificate of Compliance (the city's safety inspection permit for rentals), cover City addresses only. Cornell's [safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments) shows fire protection and smoke alarms for City rentals. To check a certificate, call the Building Division at [607-274-6508](https://www.cityofithacany.gov/146/Certificate-of-Compliance).
+Then check the address. The City of Ithaca's rental rules, including the Certificate of Compliance (the city's safety inspection permit for rentals), are a City of Ithaca program, so confirm the address is inside the city first. Cornell's [safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments) shows fire protection and smoke alarms for City rentals. To check a certificate, call the Building Division at [607-274-6508](https://www.cityofithacany.gov/146/Certificate-of-Compliance).
 
 The reason to check: tenants at 117 Thurston Ave learned after signing that their certificate had [expired in November 2015](https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/). They then waited 53 days between their first complaint and a fixed heater.
 
@@ -238,7 +238,7 @@ At the 4-bedroom median above, the deposit plus prepaid rent can total $4,985 fo
 
 ```tool ithaca-lease-fee-deposit-checker```
 
-In buildings with six or more units, the landlord must [tell you the bank](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants) holding your interest-bearing deposit. After signing, the landlord must offer a move-in inspection, and defects you both list cannot come out of the deposit. Your deposit is due back within 14 days of moving out with an itemized statement, or the landlord forfeits the right to keep any of it. The [deposit rules page](/cornell/housing/ithaca-security-deposit-rules-tenants/) covers deductions.
+In buildings with six or more units, the landlord must [tell you the bank](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants) holding your interest-bearing deposit. After signing but before you move in, the landlord must [offer a move-in inspection](https://www.nysenate.gov/legislation/laws/GOB/7-108), and defects you both list cannot come out of the deposit. Your deposit is due back within 14 days of moving out with an itemized statement, or the landlord forfeits the right to keep any of it. The [deposit rules page](/cornell/housing/ithaca-security-deposit-rules-tenants/) covers deductions.
 
 <!-- ad-break -->
 

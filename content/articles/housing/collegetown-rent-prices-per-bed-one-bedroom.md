@@ -154,7 +154,7 @@ The spread inside one size comes from the building and the finish level ([Ithaca
 The cheapest beds on the list are the six-bedrooms at Aces Apartments on Eddy Street, from $695, and the standard rooms at 210 Dryden Road, $695 to $810. Electricity is included on the second and third floors of 210 Dryden Road, which makes those the lowest all-in prices on the list ([Ithaca Renting](https://ithacarenting.com/collegetown/)).
 
 ```reader "If you're a sophomore planning junior year"
-Settle your group before you tour, because a group that shrinks after signing pays more per person. Dropping from a six-bedroom to a four-bedroom costs each person $5,355 a year at the medians. Sign only for junior year. A sophomore who moves off campus without an approved exemption is "still billed for the full year" for campus housing ([Cornell residential requirements](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)).
+Settle your group before you tour, because a group that shrinks after signing pays more per person. Dropping from a six-bedroom to a four-bedroom costs each person $5,355 a year at the medians. Sign only for junior year. A sophomore who moves off campus without an approved exemption "will still be billed for the full year" for campus housing ([Cornell residential requirements](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)).
 ```
 
 <!-- ad-break -->
@@ -194,11 +194,11 @@ Less, for whole studios and one-bedrooms. Smaller landlords listing 2027-28 unit
 | Studio | 5 | $1,260 | $1,150 to $2,190 | $1,765 |
 | 1BR | 8 | $1,650 | $1,450 to $3,000 | $2,025 |
 | 2BR, per person | 5 | $1,150 | $875 to $1,400 | $1,377.50 |
-| 3BR, per person | 4 | $1,174.17 | $1,000 to $1,950 | $1,243.75 (average) |
+| 3BR, per person | 4 | $1,174.17 | $1,000 to $1,933.33 | $1,243.75 (average) |
 
-Source: 2027-28 asking rents listed by [CSP Management](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx) (116 Osmun Pl.; 400-404, 406 and 408 Stewart Ave.), [PPM Homes](https://www.ppmhomes.com/availability) (101 Dryden Rd.; 119 Stewart Ave.), [Dryden South](https://drydensouth.com/availability/) (205 Dryden Rd.), [210 Stewart Ave.](https://www.ithacarents.com/4525-210-stewart-avenue-2br-unit----2026/27), [105 Dryden Rd.](https://www.apartments.com/105-dryden-rd-ithaca-ny/np5xw4p/), [215 College Ave.](https://www.rentler.com/places-for-rent/ny/ithaca/215-college-ave/13334029) and [The Ivy](https://www.rentler.com/places-for-rent/ny/ithaca/325-college-ave/13257148). Whole-unit rents are divided by the number of bedrooms.
+Source: Asking rents listed by [CSP Management](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx) (116 Osmun Pl.; 400-404, 406 and 408 Stewart Ave.), [PPM Homes](https://www.ppmhomes.com/availability) (101 Dryden Rd.; 119 Stewart Ave.), [Dryden South](https://drydensouth.com/availability/) (205 Dryden Rd.), [210 Stewart Ave.](https://www.ithacarents.com/4525-210-stewart-avenue-2br-unit----2026/27), [215 College Ave.](https://www.rentler.com/places-for-rent/ny/ithaca/215-college-ave/13334029) and [The Ivy](https://www.rentler.com/places-for-rent/ny/ithaca/325-college-ave/13257148). Whole-unit rents are divided by the number of bedrooms; The Ivy's three-bedroom figure is the $5,500 to $5,800 a month its first leases carried, reported by [The Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026), divided by three.
 
-The sample is small, so read each row as a handful of real prices, not a market average. A few listings set the ends of each range. The cheapest studio is [CSP's](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx) Apartment 5 at 408 Stewart Ave., $1,150 a month with utilities, internet and trash included. The dearest one-bedroom is at [The Ivy](https://www.rentler.com/places-for-rent/ny/ithaca/325-college-ave/13257148), $3,000 a month from Aug. 17, 2027. A one-bedroom at [215 College Ave.](https://www.rentler.com/places-for-rent/ny/ithaca/215-college-ave/13334029) asks $2,550 from Aug. 15, 2027.
+The sample is small, so read each row as a handful of real prices, not a market average. A few listings set the ends of each range. The cheapest studio is [CSP's](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx) Apartment 5 at 408 Stewart Ave., $1,150 a month. The dearest one-bedroom is at [The Ivy](https://www.rentler.com/places-for-rent/ny/ithaca/325-college-ave/13257148), $3,000 a month, available Aug. 17. A one-bedroom at [215 College Ave.](https://www.rentler.com/places-for-rent/ny/ithaca/215-college-ave/13334029) asks $2,550, available Aug. 15.
 
 Big shared houses sit close to Ithaca Renting's prices. A six-bedroom house on Ferris Place asks [$5,100 a month](https://www.ithacarents.com/3331-beautiful-6-bdrm-house-near-cornell--downtown-ithaca) from Aug. 8, 2027, or $850 a person, with internet, heat, electricity and trash split by the housemates. An eight-bedroom at 114 Stewart Ave. asks [$900 a person](https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown) from June 10, 2027. Four-bedrooms at 119 Stewart Ave. ($4,000 for the unit) and 211 Linden Ave. ($1,050 a bedroom) work out to $1,000 and $1,050 a person.
 
@@ -225,9 +225,9 @@ rows:
 
 Source: RentCafe; Ithaca Renting; landlord listings above; Cornell Off-Campus Housing marketplace; Cornell housing rates.
 
-RentCafe's figure runs higher for two reasons. It averages whole-unit rents from buildings with 50 or more units only, which leaves out the small landlords and houses that make up much of Collegetown ([RentCafe](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/)). Its Collegetown one-bedroom, $2,342, is $317 above Ithaca Renting's median. RentCafe's two-bedroom, $3,414 for the whole unit, is $659 above Ithaca Renting's two-bedroom ($1,377.50 times two is $2,755). Against RentCafe's own Ithaca-wide averages, Collegetown runs 13.5% higher for a one-bedroom ($2,342 against [$2,063](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/)) and 38.8% higher for a two-bedroom ($3,414 against $2,459).
+RentCafe's figure runs higher for two reasons. It averages whole-unit rents from buildings with 50 or more units only, which leaves out the small landlords and houses that make up much of Collegetown ([RentCafe](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/)). Its Collegetown one-bedroom, $2,342, is $317 above Ithaca Renting's median. Against RentCafe's own Ithaca-wide average, Collegetown runs 13.5% higher for a one-bedroom ($2,342 against [$2,063](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/)).
 
-Downtown is the cheaper swap at the same landlord. Ithaca Renting's downtown one-bedroom median is $1,625, and its downtown studios and two-bedrooms run $370 and $385 a bed below Collegetown ([Ithaca Renting downtown](https://ithacarenting.com/downtown/)). Most downtown rows are 2026-27 leases. The [Collegetown vs downtown rent dataset](/datasets/collegetown-vs-downtown-rent-per-bed-2026/) has the full comparison. In Fall Creek, a one-bedroom at 709 N. Tioga St. lists at [$1,600 with internet and water included](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258).
+Downtown is the cheaper swap at the same landlord. The median of [Ithaca Renting's downtown listings](https://ithacarenting.com/downtown/) is $1,625 for a one-bedroom, $1,395 a bed for a studio and $992.50 a bed for a two-bedroom. Against its Collegetown medians, downtown studios run $370 a bed lower ($1,765 less $1,395) and two-bedrooms $385 lower ($1,377.50 less $992.50). Most downtown rows are 2026-27 leases. The [Collegetown vs downtown rent dataset](/datasets/collegetown-vs-downtown-rent-per-bed-2026/) has the full comparison. In Fall Creek, a one-bedroom at 709 N. Tioga St. lists at [$1,600 with internet and water included](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258).
 
 ```tool ithaca-rent-commute-calculator```
 
@@ -239,7 +239,7 @@ Cornell's 2026-27 graduate budget allows $19,962 a year for housing in Ithaca, o
 
 The Ivy, at 325 College Ave., sets the top of the market. Its 52 units opened with leases from Aug. 17, 2026, and its three-bedrooms rented for $5,500 to $5,800 a month ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026)). Split three ways, that is $1,833.33 to $1,933.33 a person, or $22,000 to $23,200 a year. The cheapest unit the Sun reported was a basement two-bedroom at $1,595 a person, against a full price of $4,000.
 
-For an August 2027 start, a bedroom in a three-bedroom at [The Ivy](https://www.rentler.com/places-for-rent/ny/ithaca/325-college-ave/13257148) lists at $1,900 to $1,950, with higher floors about $300 more per bedroom. An optional utility package adds $150 a person a month.
+An optional utility package at [The Ivy](https://www.rentler.com/places-for-rent/ny/ithaca/325-college-ave/13257148) adds $150 a person a month.
 
 ![The corner of College Avenue and Dryden Road in Collegetown, with student apartment buildings on both streets.](body-1)
 
@@ -263,7 +263,7 @@ Source: landlord listings and Cornell housing rates, linked above.
 
 The average Ithaca household electric bill is about [$280 a month](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/) (EnergySage). That average covers whole homes, so treat it as a ceiling for a student apartment. Split four ways, it is $70 a person. A four-bedroom bed at the median plus that $70 comes to $15,795 a year ($1,316.25 times 12), which is $2,051 more than the double.
 
-Parking is extra at Ithaca Renting. A monthly permit at the city's Dryden Road Garage costs [$232](https://www.cityofithacany.gov/705/Parking-Information) (City of Ithaca), or $2,784 a year. The rest of a monthly budget, from bus passes to trash tags, is in [What a month off campus costs at Cornell](/cornell/housing/what-a-month-off-campus-costs-cornell/).
+Parking is extra at Ithaca Renting. A monthly permit at the city's Dryden Road Garage costs [$232](https://www.cityofithacany.gov/718/Dryden-Road-Garage) (City of Ithaca), or $2,784 a year. The rest of a monthly budget, from bus passes to trash tags, is in [What a month off campus costs at Cornell](/cornell/housing/what-a-month-off-campus-costs-cornell/).
 
 ## How fast do Collegetown units rent?
 
@@ -277,7 +277,7 @@ These 2027-28 prices are a guide, not your market. Spring transfers live on camp
 
 ## Have Collegetown rents gone up?
 
-Older buildings have barely moved since 2019 ([The Cornell Daily Sun](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/)). New luxury buildings have pushed the top of the market up. [RentCafe's](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/) Collegetown average fell 2.59% in the year to Oct. 30, 2026, to $2,815 from $2,890.
+New luxury buildings have pushed the top of the market up. [RentCafe's](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/) Collegetown average fell 2.59% in the year to Oct. 30, 2026, to $2,815 from $2,890.
 
 | Item | 2019 (for 2020-21 leases) | 2027-28 | Change |
 |---|---|---|---|

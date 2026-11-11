@@ -1,8 +1,8 @@
 ---
 title: '409 College Ave Ithaca Student Agencies apartments: facts'
 mode: answer
-dek: The Student Agencies Building at 409 College Ave. is the closest apartment building to campus, with free amenities, pets by consent and 2027-28 units already leased.
-meta: 'The Student Agencies Building at 409 College Ave.: five minutes to Willard Straight Hall, free amenities, pet fees, 2027-28 units leased and a waitlist.'
+dek: The Student Agencies Building at 409 College Ave. is the closest apartment building to campus, with a fitness center, lounges and laundry, pets by consent and 2027-28 units already leased.
+meta: 'The Student Agencies Building at 409 College Ave.: amenities, pet fees, 2027-28 units leased and a waitlist.'
 primary_query: 409 College Ave Ithaca Student Agencies apartments
 topic: housing
 school: cornell-university
@@ -47,9 +47,9 @@ images: []
 
 
 ```glance
-- The building at 409 College Ave. calls itself the closest apartment building to campus, five minutes from Willard Straight Hall.
+- The building at 409 College Ave. calls itself the closest apartment building to campus.
 - Its site says all units for 2027-28 are leased, with a waitlist for early access.
-- Internet, package service, fitness and study rooms and laundry are free; tenants pay water and electric.
+- The amenities page lists internet, package service, a fitness center, tenant lounges and laundry; tenants pay water and electric.
 - Pets need written consent, a $250 fee and $50 a month.
 ```
 
@@ -64,10 +64,9 @@ kind: cost_table
 title: The Student Agencies Building at a glance
 rows:
   - {label: "Address", value: "409 College Ave., Collegetown"}
-  - {label: "Distance", value: "5-minute walk to Willard Straight Hall and the Cornell Law School"}
   - {label: "Unit types", value: "Studio to 5-plus bedrooms in the availability filter"}
   - {label: "Rent", value: "Not posted; 2022 priciest 1BR was $2,550 a month"}
-  - {label: "Free amenities", value: "Internet, package service, fitness and study rooms, laundry"}
+  - {label: "Amenities", value: "Internet, package service, fitness center, tenant lounges, laundry"}
   - {label: "Tenants pay", value: "Water and electric; cable is optional"}
   - {label: "Climate", value: "A/C and heat in apartments"}
   - {label: "Pets", value: "Written consent, $250 up front and $50 a month"}
@@ -76,7 +75,7 @@ rows:
 
 Source: The Student Agencies Building's home, amenities, FAQ and neighborhood pages, and The Cornell Daily Sun.
 
-The building's neighborhood page puts it five minutes from Willard Straight Hall and five minutes from the Cornell Law School, with the Cascadilla Trail steps away ([The Student Agencies Building](https://www.thestudentagenciesbuilding.com/neighborhood)). Its amenities page lists high-speed internet, package service, fitness and study rooms and laundry, and its FAQ says all of them are free ([amenities](https://www.thestudentagenciesbuilding.com/amenities)).
+The building's neighborhood page lists the Cascadilla Gorge Trail among the places to check out nearby ([The Student Agencies Building](https://www.thestudentagenciesbuilding.com/neighborhood)). Its amenities page lists high-speed internet, a package system, a fitness center, tenant lounges and laundry ([amenities](https://www.thestudentagenciesbuilding.com/amenities)).
 
 ## What does it cost?
 
@@ -103,7 +102,7 @@ The FAQ links a 2024-2025 lease, so ask for the current lease before you sign an
 
 ```reader
 If you're staying over the summer or moving out in May
-Student Agencies, Inc. also runs Big Red Shipping and Storage, which is Cornell's contracted storage and shipping vendor and offers free in-room pickup at apartments ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options)). Compare it with other options in the [move-out storage and shipping guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/).
+Student Agencies, Inc. also runs Big Red Shipping and Storage ([Student Agencies](https://www.studentagencies.com/)), which is Cornell's contracted storage and shipping vendor and offers free in-room pickup at apartments ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options)). Compare it with other options in the [move-out storage and shipping guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/).
 ```
 
 ## What to do next

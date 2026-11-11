@@ -186,7 +186,7 @@ For Boston, Philadelphia, Washington or Toronto, C2C does not go. See the [bus g
 
 ## Which airport should I use: Ithaca, Syracuse or Elmira?
 
-Fly into Ithaca if your route goes through JFK or Dulles, and into Syracuse if you want more flights. The Ithaca airport's [airlines page](https://flyithaca.com/airlines) lists only Delta to JFK and United to Dulles, and its terminal sits about 10 minutes from downtown. Syracuse lists [nonstop service to 27 destinations](https://www.syrairport.org/), and OurBus runs there from campus for $46.70 to $62.10 each way.
+Fly into Ithaca if your route goes through JFK or Dulles, and into Syracuse if you want more flights. The Ithaca airport's [airlines page](https://flyithaca.com/airlines) lists Delta to JFK and United to Dulles, and the airport is a 10-minute drive from downtown ([Downtown Ithaca Alliance](https://www.downtownithaca.com/getting-around-visit/)). Syracuse lists [nonstop service to 27 destinations](https://www.syrairport.org/), and OurBus runs there from campus for $46.70 to $62.10 each way.
 
 Parking for a week costs $40 at Ithaca's long-term lot ([airport parking](https://www.flyithaca.com/parking)). TCAT Route 32 runs to the airport on weekdays and Route 72 on weekends ([airport transit page](https://www.flyithaca.com/public-transportation)). No bus meets a 5:30 a.m. flight, so prebook a taxi from the airport's [taxi page](https://flyithaca.com/taxis).
 
@@ -221,7 +221,7 @@ The OmniRide pass costs $200 a year and pays off after 134 paid daytime rides, w
 The [TCAT guide](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/) has routes and holiday notes. The [no-car guide](/cornell/getting-around/getting-around-cornell-upper-years-no-car/) walks through a car-free year after first year.
 
 ```reader "If you're renting off campus"
-You cannot buy a resident permit, only the commuter B permit. Routes 14S and 83 to West Hill and Cayuga Heights have been [suspended since fall 2023](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation), so do not plan a commute on them.
+You cannot buy a resident permit, only the commuter B permit. Routes 14S and 83 to West Hill and Cayuga Heights have been [suspended since fall 2023](https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/), so do not plan a commute on them.
 ```
 
 ## What about bikes, walking and rides?

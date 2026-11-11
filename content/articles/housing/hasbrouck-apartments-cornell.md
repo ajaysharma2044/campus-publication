@@ -65,13 +65,13 @@ images: []
 - Applications are rolling, and there is no security deposit.
 ```
 
-Hasbrouck Apartments is Cornell's graduate and professional student housing on North Campus, with 705 residents. Rents for 2026-27 run from $620 to $1,530 a month ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/hasbrouck-apartments)). It suits graduate students who want a short walk to campus and one monthly bill.
+Hasbrouck Apartments is Cornell's graduate and professional student housing on North Campus, with 705 residents. Rents for 2026-27 run from $620 to $1,530 a month ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). It suits graduate students who want a short walk to campus and one monthly bill.
 
 ## What is Hasbrouck Apartments?
 
-Cornell lists 338 units, furnished and unfurnished, and 705 residents, a 10-minute walk from central campus. Unit types are studios, one-bedrooms, shared two-bedroom apartments and shared two-bedroom townhouses. Family and partner units hold two to four people, with no more than two adults per unit ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). About 49% of on-campus graduate households are single students, and 51% are families or partners ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/your-cornell-community)).
+Cornell lists 338 units, furnished and unfurnished, and 705 residents, a 10-minute walk from central campus ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/hasbrouck-apartments)). Unit types are studios, one-bedrooms, shared two-bedroom apartments and shared two-bedroom townhouses. Family and partner units hold two to four people, with no more than two adults per unit ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). About 49% of on-campus graduate households are single students, and 51% are families or partners ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/your-cornell-community)).
 
-The complex has a long family history. Construction began in 1960 on a former poultry farm that Charles Hasbrouck willed to Cornell, and the Ithaca Journal reported 246 apartments at $4,137,000 ([Tompkins County history](https://tompkins.historyforge.net/narratives/7314)). In March 2012 the Chronicle counted 89 families with about 120 children from 47 countries ([Cornell Chronicle](https://news.cornell.edu/stories/2012/03/mingins-brings-international-community-together)).
+The complex has a long family history. Construction began in 1960 on land Charles Hasbrouck gave to Cornell in 1910, and the Ithaca Journal reported 246 apartments at $4,137,000 ([Tompkins County history](https://tompkins.historyforge.net/narratives/7314)). In March 2012 the Chronicle counted 89 families with about 120 children from 47 countries ([Cornell Chronicle](https://news.cornell.edu/stories/2012/03/mingins-brings-international-community-together)).
 
 ## How much does Hasbrouck cost?
 
@@ -98,7 +98,7 @@ Hasbrouck bills graduate students on 12-month contracts through the Bursar each 
 
 ## How do you apply?
 
-Applications are rolling. For 2026-27, renewals for current residents opened Feb. 3, 2026, and new applications opened at noon on April 1, 2026. The Housing office number is (607) 255-5368 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus)). Cornell's page does not post the 2027-28 opening dates, so call that number or email housing@cornell.edu in the winter.
+Applications are rolling ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). For 2026-27, renewals for current residents opened Feb. 3, 2026, and new applications opened at noon on April 1, 2026. The Housing office number is (607) 255-5368 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus)). Cornell's page does not post the 2027-28 opening dates, so call that number or email housing@cornell.edu in the winter.
 
 ```reader "If you're coming with a partner or children"
 Family and partner units hold up to four people but only two adults. Rates for the family units are per household, not per person. Read [Cornell student family housing](/cornell/housing/cornell-student-family-housing-ithaca/) for the other options.
@@ -106,7 +106,7 @@ Family and partner units hold up to four people but only two adults. Rates for t
 
 ## What do residents say to watch for?
 
-The Graduate and Professional Student Assembly's December 2020 housing report found that Hasbrouck lacks dishwashers, charges a fee to install air conditioning, and caps internet at 200 GB. It also estimated that Hasbrouck and Maplewood together house 15 to 20% of graduate students ([GPSA report](https://assembly.cornell.edu/sites/default/files/gpci_-_housing_dec_2020.pdf)). [Cornell's housing page](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing) puts the share of graduate students in non-university housing at about 95%, so most grad students look elsewhere. Our [grad student off-campus housing guide](/cornell/housing/off-campus-housing-cornell-grad-students/) covers those options.
+The Graduate and Professional Student Assembly's December 2020 housing report found that Hasbrouck lacks dishwashers, charges a fee to install air conditioning, and notes a 200 GB a month internet limit that applies to all students on the Cornell network, which it recommended removing for Hasbrouck. It also estimated that Hasbrouck and Maplewood together house 15 to 20% of graduate students ([GPSA report](https://assembly.cornell.edu/sites/default/files/gpci_-_housing_dec_2020.pdf)). [Cornell's housing page](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing) puts the share of graduate students in non-university housing at about 95%, so most grad students look elsewhere. Our [grad student off-campus housing guide](/cornell/housing/off-campus-housing-cornell-grad-students/) covers those options.
 
 Visiting faculty and Cornell affiliates can also apply for Hasbrouck units as space allows, and Cornell says housing is not guaranteed for them ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/visiting-faculty-affiliate-campus-housing)). That adds competition for units.
 

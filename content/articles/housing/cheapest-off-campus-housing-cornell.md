@@ -86,17 +86,11 @@ sources:
 - url: https://offcampushousing.ithaca.edu/listing
   title: Off-Campus Housing listings, Ithaca College marketplace (source of EduExplained's building inventory)
   accessed: '2026-11-10'
-- url: https://www.ppmhomes.com/listings/detail/66bd0b4d-53b6-40a6-8c13-61ae5f32ea9b
-  title: 403 S Cayuga St room listing, PPM Homes
-  accessed: '2026-11-10'
 - url: https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom
   title: 174 Kendall Ave listing, Ithaca Rents
   accessed: '2026-11-10'
 - url: https://www.ppmhomes.com/listings/detail/3f1544f9-76c1-4375-91f6-b2400a52dbbf
   title: 119-121 Prospect St six-bedroom listing, PPM Homes
-  accessed: '2026-11-10'
-- url: https://www.travishyde.com/west-campus/ravenwood
-  title: Ravenwood Apartments, Travis Hyde Properties
   accessed: '2026-11-10'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/kelvin-place-apartments-237474
   title: Kelvin Place Apartments listing, Cornell Off-Campus Housing marketplace
@@ -234,14 +228,14 @@ A quad is priced like a double, at $6,872 a semester. Only a one-room quad gets 
 Sophomores have a cheaper door. Cornell's eight co-ops [count as second-year housing](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing), as do Greek and other affiliated houses. Co-ops do not appear on Cornell Dining's list of housing that carries the meal-plan requirement. A Redbud triple costs $7,114 less than a residence hall triple before any meal plan.
 
 ```reader "If you're a sophomore planning next year"
-Don't sign an apartment lease for your second year. Cornell warns that a student who neither lives in qualified housing nor gets an exemption ["will still be billed for the full year"](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing), on top of the rent. If you're joining a co-op or Greek house for 2027-28, affirm it by March 15, 2027. The application and exemption deadline is April 4, 2027 at 11:59 p.m. ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A second-year can cancel a Cornell license only if accepted to a co-op, Greek or affiliated house before that deadline.
+Don't sign an apartment lease for your second year until your Cornell housing is settled. If you're joining a co-op or Greek house for 2027-28, affirm it by March 15, 2027. The application and exemption deadline is April 4, 2027 at 11:59 p.m. ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A second-year can cancel a Cornell license only if accepted to a co-op, Greek or affiliated house before that deadline ([Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 ```
 
 ## How do you get into a co-op?
 
 Apply in a selection round. Rounds start in early November and early February, and each house runs its own process ([Cornell Cooperative Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). Questions go to co-ops@cornell.edu or 607-255-3445.
 
-Space is tight. The eight houses hold 158 residents in all, from 10 at Wari to 34 at Redbud. Redbud, at 623 University Ave., was founded in 1956 and houses undergraduates and grad students who share dinner nightly ([Redbud Cooperative](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall)). The only other triple is at Triphammer, 150 Triphammer Rd., for $3,972 a semester, or $7,944 a year. Four houses run a house meal plan: Prospect of Whitby, Triphammer, Watermargin and 660 Stewart.
+Space is tight. The smallest house, [Wari](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wari-cooperative), holds 10 residents. Redbud, at 623 University Ave., holds 34, was founded in 1956 and houses undergraduates and grad students who share dinner nightly ([Redbud Cooperative](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall)). The only other triple is at Triphammer, 150 Triphammer Rd., for $3,972 a semester, or $7,944 a year. Four houses run a house meal plan: Prospect of Whitby, Triphammer, Watermargin and 660 Stewart.
 
 In 2024, The Cornell Daily Sun reported that [floors had collapsed in four of the eight co-ops](https://cornellsun.com/2024/10/21/co-op-residents-face-deteriorating-houses-increasing-rent-costs/) in recent years. Watermargin needed about $500,000 for a roof, and Cornell had raised and standardized co-op rents. Residents in the same report still praised the community.
 
@@ -284,15 +278,13 @@ Some single listings come in well under the medians. These are asking prices fro
 
 | Listing | Price | 12-month cost | What's included |
 |---|---|---|---|
-| [403 S. Cayuga St.](https://www.ppmhomes.com/listings/detail/66bd0b4d-53b6-40a6-8c13-61ae5f32ea9b), downtown, room in a 3BR (PPM Homes) | $525 a month, available now | $6,300 | All utilities except Wi-Fi; $525 deposit |
 | [174 Kendall Ave.](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom), South Hill | $650 a person, Aug. 1, 2027 to June 30, 2028 | $7,150 for 11 months | Furnished; tenants pay electricity and heat |
-| [119-121 Prospect St.](https://www.ppmhomes.com/listings/detail/3f1544f9-76c1-4375-91f6-b2400a52dbbf), six-bedroom house (PPM Homes) | $3,900 a month, $650 a room, from July 10, 2027 | $7,800 | Furnished; tenants pay utilities |
+| [119-121 Prospect St.](https://www.ppmhomes.com/listings/detail/3f1544f9-76c1-4375-91f6-b2400a52dbbf), six-bedroom house (PPM Homes) | $3,900 a month, $650 a room | $7,800 | Furnished; tenants pay utilities |
 | 109 DeWitt Pl., Collegetown, seven-bedroom (PJ Apartments) | $695 a bed | $8,340 | Utilities included |
-| [Ravenwood](https://www.travishyde.com/west-campus/ravenwood), 516 University Ave., room in a 5BR (Travis Hyde) | $700 a month | $8,815 with fees | Heat, water, electricity; $175 trash and $240 internet fees a year |
 | [Kelvin Place](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/kelvin-place-apartments-237474), 219 Kelvin Pl. | $795 to $825 a room | $9,540 to $9,900 | All utilities, laundry and parking |
 | [209 Stewart Ave.](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095), Collegetown 5BR | $850 a room, Aug. 1, 2026 to July 31, 2027 | $10,200 | Heat, water, electricity and Wi-Fi |
 
-Sources: each listing as linked; 109 DeWitt Pl. from the Ithaca College off-campus marketplace. Ravenwood's total is $700 x 12 + $175 + $240.
+Sources: each listing as linked; 109 DeWitt Pl. from the Ithaca College off-campus marketplace.
 
 An "all in" price can beat a cheaper bed. At 209 Stewart, power and internet are in the rent. At most Ithaca Renting Collegetown buildings, tenants pay electricity, except in the shared-suite rooms at 210 Dryden Rd. (Ithaca Renting).
 
@@ -374,7 +366,7 @@ Subletting is the cheapest fix for summer. In a building with four or more units
 
 New York law takes several charges off the table. A landlord may not charge any fee to process or accept an application ([RPL 238-a](https://www.nysenate.gov/legislation/laws/RPP/238-A)). A background or credit check costs the lesser of the actual cost or $20. It is free if you hand over a check from the past 30 days. A late fee is allowed only after rent is five days late, capped at $50 or 5% of the rent, whichever is less.
 
-A non-refundable deposit is [unlawful](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits), and so is a cleaning fee charged apart from the deposit, according to Cornell Law School's tenant guide. A deposit plus any rent paid in advance [cannot exceed one month's rent](https://www.nysenate.gov/legislation/laws/GOB/7-108). The landlord must return it with an itemized list within 14 days after you move out, or lose the right to keep any of it.
+A non-refundable deposit is [unlawful](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits), and so is a cleaning fee charged apart from the deposit, according to [Cornell Law School's tenant guide](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits). A deposit plus any rent paid in advance [cannot exceed one month's rent](https://www.nysenate.gov/legislation/laws/GOB/7-108). The landlord must return it with an itemized list within 14 days after you move out, or lose the right to keep any of it.
 
 ```tool ithaca-lease-fee-deposit-checker```
 

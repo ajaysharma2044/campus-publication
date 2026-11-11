@@ -68,7 +68,7 @@ The Sober Living Community is Cornell's newest campus housing community, on the 
 
 ## What is the Sober Living Community?
 
-Cornell lists it among 13 communities in its program-house selection for 2027-28. A program house is a themed residence hall organized around a shared interest or way of living. Cornell's own page says the Sober Living Community is "not a true Program House" ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/program-houses)). It still goes through the same selection step as the others.
+Cornell lists it among 13 communities in its program-house selection. A program house is a themed residence hall organized around a shared interest or way of living. Cornell's own page says the Sober Living Community is "not a true Program House" ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/program-houses)). It still goes through the same selection step as the others.
 
 The house was first offered in the fall 2026 selection round. The Sun reported that Cornell would hold its first review of the community in mid-fall 2026 (Cornell Daily Sun).
 
@@ -79,7 +79,7 @@ rows:
   - {label: "Location", value: "Fourth floor of Bauer, Court-Kay-Bauer Hall, North Campus"}
   - {label: "Opened", value: "Fall 2026"}
   - {label: "Residents", value: "38 in fall 2026"}
-  - {label: "Building", value: "Court-Kay-Bauer Hall, opened 2001, 275+ residents"}
+  - {label: "Building", value: "Court-Kay-Bauer Hall, North Campus"}
   - {label: "Room layout", value: "Corridors in the hall"}
   - {label: "Room types and air conditioning", value: "Not listed by Cornell"}
   - {label: "Room rate, 2026-27", value: "Residence hall table: $12,644 to $16,595 per academic year"}
@@ -91,7 +91,7 @@ Source: The Cornell Daily Sun, Cornell Housing and Cornell's 2026-27 rate table.
 
 ## What is it like to live there?
 
-Cornell's pages do not say. They give the hall's layout and size: Court-Kay-Bauer opened in 2001, holds 275 or more residents, and arranges rooms along corridors ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing)). They say the hall has air filtration, and they do not state whether rooms have air conditioning ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall)).
+Cornell's pages do not say what daily life on the floor is like. They show only the hall's layout: rooms open off corridors ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)).
 
 Cornell's page does not list who qualifies, what residents agree to, or which room types the floor has. Write to housing@cornell.edu before you apply, and ask for all three. The corridor layout is described on [Cornell's residence hall configurations page](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations).
 

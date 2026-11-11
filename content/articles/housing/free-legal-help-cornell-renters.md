@@ -111,7 +111,7 @@ Cornell Off-Campus Living offers a listings marketplace, an email list, lease ed
 ## What other free help exists?
 
 - **Cornell Cooperative Extension of Tompkins County:** tenant-landlord guidance at 607-272-2292, 615 Willow Ave., weekdays 8 a.m. to 4 p.m. ([CCE](https://ccetompkins.org/your-home-money/tenant-landlord-issues)).
-- **Ithaca Tenants Union:** a tenant organization, not a government office, founded in March 2020 by three Cornell ILR juniors, with a Landlord Issue Form ([ithacatu.org](https://www.ithacatu.org/)).
+- **Ithaca Tenants Union:** a union of Ithaca tenants, not a government office, with a Tenants' Rights Guide ([ithacatu.org](https://www.ithacatu.org/)).
 - **Code offices:** the City of Ithaca Building Division at 607-274-6508, the Town of Ithaca at 607-273-1783 and the Town of Lansing at 607-533-7054 ([Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)).
 - **Tompkins County legal aid fund:** the county set aside $50,000 for legal aid after the March 2026 Asteri displacement ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/03/asteri-s-aftermath-displacement-dangerous-conditions-and-a-predatory-cash-for-keys-scheme)). The fact file does not say how to apply, so ask the hotline whether the fund is open to you.
 

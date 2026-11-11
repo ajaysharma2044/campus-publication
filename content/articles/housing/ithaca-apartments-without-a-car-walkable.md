@@ -120,13 +120,13 @@ By distance alone, per the [same listings](https://offcampushousing.ithaca.edu/l
 
 The closest buildings state their distances in feet or minutes. These are the figures on each listing, which you should confirm on a map.
 
-- **Collegetown Center, 151 Dryden Rd.** [150 feet to Cornell's entrance](https://ithacarenting.com/property-details/?pid=4). Studios and 1-bedrooms run $1,695 to $2,545 per bed for 2027-28. It has a concierge desk and laundry on the sixth floor.
-- **210 Dryden Rd.** [200 feet from Cornell's entrance](https://ithacarenting.com/property-details/?pid=18). Rooms in a shared suite start at $695 per bed for 2027-28, the cheapest walkable bed on Ithaca Renting's list.
+- **Collegetown Center, [151 Dryden Rd.](https://ithacarenting.com/unit-details/?uid=461)** [150 feet to Cornell's entrance](https://ithacarenting.com/property-details/?pid=4). Studios and 1-bedrooms run $1,695 to $2,545 a month for 2027-28. It has a concierge desk and laundry in the building.
+- **210 Dryden Rd.** [200 feet from Cornell's entrance](https://ithacarenting.com/property-details/?pid=18). Rooms in a shared suite start at [$695 per bed for 2027-28](https://ithacarenting.com/collegetown/).
 - **Collegetown Court, 208 Dryden Rd.** [One block from Cornell](https://ithacarenting.com/property-details/?pid=5), with studios from $1,565 per bed.
 - **Collegetown Plaza, 111 Dryden Rd.** [Two minutes from Cornell](https://ithacarenting.com/property-details/?pid=1), from studios to 6-bedrooms.
 - **407 College Ave.** The listing says a [4-minute walk to the Oval](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/407-college-ave-collegetown-s-best-kept-secret-237329), with units from 2 to 4 bedrooms.
 - **Dryden South, 205 Dryden Rd.** A ["one minute walk" per its listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961), at $1,395 to $1,990 per person, furnished.
-- **Ravenwood Apartments, 516 University Ave.** [One block from the edge of West Campus](https://www.travishyde.com/west-campus/ravenwood), with a 15-minute walk on one room listing.
+- **Ravenwood Apartments, 516 University Ave.** [One block from the edge of West Campus](https://www.travishyde.com/west-campus/ravenwood).
 
 Collegetown Center, Court, Plaza and 210 Dryden form the Dryden Road cluster, each listed within a block of the campus gate by [Ithaca Renting](https://ithacarenting.com/collegetown/). Each distance comes from that building's own page, linked above and in the sources list, so confirm it on a map.
 
@@ -144,7 +144,7 @@ Cornell puts downtown at a 20 to 30 minute uphill walk. Commons West at 107 E St
 
 Use Cornell's own housing as a yardstick. Schuyler House on Sage Place is a Cornell residence hall that the university describes as a [15 to 20 minute walk to Central Campus](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/schuyler-house), with 3 to 11 TCAT buses an hour and a ride of about 5 minutes. Sheldon Court sits above Collegetown Bagels, and a Sun report puts the nearest dining hall a [12-minute walk away](https://www.cornellsun.com/article/2026/04/the-misunderstood-dorm-sheldon-court).
 
-That gives a working rule. A walk of 15 minutes or less is one you can make daily in snow. Past 20 minutes, most people take the bus, so a building's bus stop matters as much as its distance. At Cayuga Place downtown, the leasing site says the main bus route to Cornell takes [10 to 15 minutes depending on traffic](https://livehhcayuga.com/), a time that does not count the wait.
+That gives a working rule. A walk of 15 minutes or less, the short end of the [Schuyler House figure](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/schuyler-house) above, is one you can make daily in snow. Past 20 minutes, most people take the bus, so a building's bus stop matters as much as its distance.
 
 Hills change the numbers. Cornell says lower Collegetown is uphill to campus, and the downtown and Fall Creek walks are uphill too. A map shows distance but not slope, so walk the route once before you sign.
 

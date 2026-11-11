@@ -79,7 +79,7 @@ kind: spoke
 ---
 
 
-A Cornell resident parking permit costs $752.98 a year, and a commuter (B) permit costs $359.77 ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). First-years can get a permit, but Cornell discourages bringing a car. Sales open in early August, first come, first served, so register your license plate before then.
+A Cornell resident parking permit costs $752.98 a year, and a commuter (B) permit costs $359.77 ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). Limited permits are available to first-years, but Cornell discourages bringing a car, and permits are sold first come, first served.
 
 ```glance
 - Resident permits cost $752.98 a year. Commuter (B) and accessible (AP) permits cost $359.77.
@@ -111,7 +111,7 @@ One conflict: the student page lists the motorcycle permit at $120.01, while [an
 
 Yes, but Cornell steers them away from it. The families page says first-years are [discouraged from bringing a car, though limited permits are available](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation). The student permit page lists no separate first-year permit.
 
-A first-year in a residence hall buys the resident permit for that area. On North Campus that is the capped ND permit. Cornell does not say whether a first-year can be refused a permit because of class year alone, so call Transportation and Delivery Services (TDS) at [607-255-4600](https://fcs.cornell.edu/departments/transportation-delivery-services), Monday to Friday, 7:30 a.m. to noon, before you drive up.
+On North Campus, the ND permit is extremely limited and capped to residents of university housing ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). Cornell does not say whether a first-year can be refused a permit because of class year alone, so call Transportation and Delivery Services (TDS) at [607-255-4600](https://fcs.cornell.edu/departments/transportation-delivery-services), Monday to Friday, 7:30 a.m. to noon, before you drive up.
 
 New first-years also [ride TCAT free from fall registration to Aug. 31 of the next year](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). If you are unsure a car is worth it, the quiz below weighs it against buses and shared cars. Our guide to [having a car at Cornell](/cornell/getting-around/having-a-car-at-cornell-student-guide/) covers the full year.
 
@@ -153,7 +153,7 @@ rows:
 
 1. **Register your plate.** Students must [register cars, motorcycles and scooters](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus) in MyParking.Cornell.edu, even for short-term parking.
 2. **Check your eligibility.** Resident permits follow your housing area. B is for commuters. AP starts with Student Disability Services. Graduate assistants check their appointment in Workday.
-3. **Be online at sale time.** The 2026-27 sale [opened Tuesday, Aug. 4, 2026, at 9 a.m.](https://fcs.cornell.edu/node/17809) at myparking.cornell.edu. Cornell has not posted the 2027-28 date, so watch TDS announcements in July. In 2023, Williams Street lot permits, about $700, [sold out within hours](https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students).
+3. **Be online at sale time.** Cornell has not posted the 2027-28 date, so watch TDS announcements in July. In 2023, Williams Street lot permits, about $700, [sold out within hours](https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students).
 4. **Pay.** The price drops daily after Sept. 1 for resident permits and after Aug. 16 for commuter permits.
 5. **Return it on time.** Cornell refunds a prorated amount only if you return the permit by Mar. 31. Motorcycle and temporary permits get no refund, and no refund is paid in cash.
 
@@ -181,7 +181,7 @@ Yes. Register your plate, then pay by the hour or day through ParkMobile. Text P
 
 Prices vary by lot. Cornell's [2026 ParkMobile map](https://fcs.cornell.edu/sites/default/files/2026-08/ParkmobileMap26.pdf) puts edge lots such as University Avenue and East Hill Plaza at $0.75 an hour or $3.00 a day. Premium spots near Willard Straight Hall and Alumni Field cost $3.00 an hour or $24.00 a day. The Tang Welcome Center lot is $1.50 an hour or $10.00 a day.
 
-Daily Decision is demand-priced parking in outer lots, open to everyone. Cornell advertises it at [as little as $1 a day](https://fcs.cornell.edu/departments/transportation-delivery-services/parking/getting-around/commuter-support-services) in select zones.
+Daily Decision is parking for anyone who needs occasional access. Cornell advertises it at [as little as $1 a day](https://fcs.cornell.edu/departments/transportation-delivery-services/parking/getting-around/commuter-support-services) in select zones.
 
 Pay attention to the hours ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options)). Lots in the resident areas need a permit or payment 24 hours a day. Commuter lots charge Monday to Friday, 7:30 a.m. to 5 p.m., year-round, including holidays and breaks. Enforcement runs whenever the university is open and pauses only on official closed staff holidays. No-parking, fire lane, reserved, service and accessible rules are never suspended.
 
@@ -222,7 +222,7 @@ Source: [Cornell Daily Sun, Sept. 4, 2023](https://cornellsun.com/2023/09/04/on-
 
 ## What to do next
 
-Register your plate in MyParking now, so you are ready on sale day. Decide by July 1, when Cornell sets rates ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)), whether you need the resident permit, the B permit or neither, and watch TDS announcements for the 2027-28 sale date.
+Register your plate in MyParking now, because Cornell requires students to register plates ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus)). Decide by July 1, when Cornell sets rates ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)), whether you need the resident permit, the B permit or neither, and watch TDS announcements for the 2027-28 sale date.
 
 ## Related guides
 

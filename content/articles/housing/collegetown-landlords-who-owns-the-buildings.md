@@ -59,12 +59,12 @@ images: []
 
 ```glance
 - Modern Living Rentals and Lambrou Real Estate each appear on 31 Collegetown rows; Urban Ithaca on 25.
-- A county roll lists Jason Fane as owner of record for 10 Ithaca Renting properties.
+- The county roll lists Jason Fane, or Fane Enterprises Inc., as owner of record for 20 parcels.
 - Ithaca Renting is the only large landlord that posts every per-bed price.
 - In 2013, eight landlords owned 4,013 of an estimated 6,110 Collegetown bedrooms.
 ```
 
-A few management companies run most of Collegetown. Modern Living Rentals, Lambrou Real Estate, Urban Ithaca, PJ Apartments and Ithaca Renting Company account for most of the buildings where a manager is named. Ask who the owner of record is before you sign ([Tompkins County assessment roll](https://www.tompkinscountyny.gov/files/assets/county/v/1/assessment/documents/assessment-rolls/city-final-2026.pdf)).
+A few management companies run most of Collegetown. Modern Living Rentals, Lambrou Real Estate, Urban Ithaca, PJ Apartments and Ithaca Renting Company account for 120 of the 153 Collegetown rows where a manager is named (Apartment inventory, Nov. 10, 2026). Ask who the owner of record is before you sign; the [Tompkins County assessment roll](https://www.tompkinscountyny.gov/files/assets/county/v/1/assessment/documents/assessment-rolls/city-final-2026.pdf) lists owners by parcel.
 
 ## Who manages the most Collegetown buildings?
 
@@ -81,13 +81,13 @@ Our apartment inventory lists 413 buildings and houses near Cornell, 219 of them
 
 Source: each manager's own website, the Cornell Off-Campus Housing marketplace and the county roll. The remaining named rows belong to smaller managers.
 
-Student Agencies runs The Student Agencies Building at 409 College Ave. and also operates Big Red Shipping and Storage. Its building was among the first to open leasing for 2023-24, in early September 2022 ([Student Agencies](https://www.studentagencies.com/)).
+Student Agencies, founded in 1894 and the oldest independent student-run company in the nation, is based at 409 College Ave. and also operates Big Red Shipping & Storage ([Student Agencies](https://www.studentagencies.com/)). The Student Agencies Building at that address shows all units leased for 2027-28 ([The Student Agencies Building](https://www.thestudentagenciesbuilding.com/)).
 
 ## Who owns the buildings the managers run?
 
-A manager and an owner are not always the same. The 2026 county assessment roll shows owners of record, and the pattern is concentrated. Jason Fane, or Fane Enterprises Inc., is owner of record for 10 properties that Ithaca Renting Company manages. ENP Associates, L.P. is owner of record for at least 13 properties that Lambrou Real Estate manages ([Tompkins County](https://www.tompkinscountyny.gov/files/assets/county/v/1/assessment/documents/assessment-rolls/city-final-2026.pdf)).
+A manager and an owner are not always the same. The 2026 county assessment roll shows owners of record, and the pattern is concentrated. Jason Fane, or Fane Enterprises Inc., is owner of record for 20 parcels, and ENP Associates, L.P. for 13. The roll names owners and not managers, so match a manager's listing to its owner by address ([Tompkins County](https://www.tompkinscountyny.gov/files/assets/county/v/1/assessment/documents/assessment-rolls/city-final-2026.pdf)).
 
-Modern Living Rentals is owned by Charlie O'Connor, who co-developed The Ivy with Nick Robertson ([Modern Living Rentals](https://www.modernlivingrentals.com/)). The Ivy at 325 College Ave. has 52 units, and nearly all were leased before construction finished ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026)).
+Charlie O'Connor, owner of Modern Living Rentals, developed The Ivy with Nick Robertson. The Ivy at 325 College Ave. has 52 units, and nearly all were leased before construction finished ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026)).
 
 Many buildings sit in single-purpose companies. A Collegetown Crossing LLC owns 307 College Ave., and a 301 Bryant Avenue LLC owns four Urban Ithaca rows. The LLC name tells you little, so ask the manager which company signs the lease (Tompkins County assessment roll).
 
@@ -101,7 +101,7 @@ No newer source gives bedroom counts by owner. The inventory shows the same name
 
 ## How does each landlord run the leasing season?
 
-Leasing dates differ by landlord, and the Sun has recorded several. Ithaca Renting opened 2020-21 leasing at 9 a.m. on Sept. 12, 2019, after an overnight line, and leased to more than 600 tenants that year ([The Cornell Daily Sun](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/)). In 2016, George Avramis said his buildings were 70 to 75 percent leased by late September, and Josh Lower of Urban Ithaca said he usually rents most units by the end of November ([The Cornell Daily Sun](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/)). PJ Apartments dropped its 24-hour notice policy in September 2013 for first-come, first-served showings ([The Cornell Daily Sun](https://cornellsun.com/2013/09/12/despite-new-law-housing-rush-persists-in-collegetown/)).
+Leasing dates differ by landlord, and the Sun has recorded several. Ithaca Renting opened 2020-21 leasing at 9 a.m. on Sept. 12, 2019, after an overnight line, and the Sun described it as one of the largest local firms, leasing to over 600 tenants near campus ([The Cornell Daily Sun](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/)). In 2016, George Avramis said his buildings were 70 to 75 percent leased by late September, and Josh Lower of Urban Ithaca said he usually rents most units by the end of November ([The Cornell Daily Sun](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/)). PJ Apartments dropped its 24-hour notice policy in September 2013 for first-come, first-served showings ([The Cornell Daily Sun](https://cornellsun.com/2013/09/12/despite-new-law-housing-rush-persists-in-collegetown/)).
 
 Dates move every year, so use [when to sign a Collegetown lease](/cornell/housing/when-to-sign-collegetown-lease-cornell/) for the current window.
 

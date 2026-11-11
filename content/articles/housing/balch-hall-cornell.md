@@ -57,7 +57,9 @@ images: []
 - Cars unload at the North Balch loading dock, and the hall has its own move-in instructions.
 ```
 
-Balch Hall is Cornell's women-only residence on North Campus. It opened in 1929, holds [230-plus students](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall) in corridor singles and doubles, and reopened in 2024 after its first full renovation in six decades. Every room now has its own thermostat.
+Balch Hall is Cornell's women-only residence on North Campus. It opened in 1929, holds [230-plus students](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall) in corridor singles and doubles.
+
+Its first full renovation in six decades reopened North Balch in August 2024 and put a thermostat in each room ([Cornell Student & Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)).
 
 ```figure
 kind: cost_table
@@ -83,13 +85,13 @@ Balch was built for the growing number of women at Cornell in 1929. Allan C. Bal
 
 ## What did the renovation change?
 
-Balch closed for more than two years for its first full renovation in six decades. North Balch reopened in August 2024, and South Balch was planned for 2025 ([Cornell Student and Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)). The work added an elevator in each of the building's four units, new windows and HVAC vents, and a thermostat in each room for the first time.
+Balch's renovation was its first full one in six decades. North Balch reopened in August 2024, and South Balch was planned for 2025 ([Cornell Student and Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)). The work added an elevator in each of the building's four units, new windows and HVAC vents, and a thermostat in each room for the first time.
 
 Old pieces went back in. Wood paneling and doors from the original building were reused in the lounges, including pieces from the room where Ruth Bader Ginsburg lived as a student. For a hall that carries its history, that is the part to see on a tour.
 
 ## What is living in Balch Hall like?
 
-Residents share bathrooms down the hall, as in most North halls. A resident account from the first year after reopening is the best view available. Two first-years in the class of 2028 told The Cornell Daily Sun they felt more connected in an all-women's hall, and one said she planned to stay all four years ([Cornell Daily Sun](https://www.cornellsun.com/article/2024/10/beginning-at-balch-life-at-north-campuss-newest-dorm)).
+A resident account from the first year after reopening is the best view available. Two first-years in the class of 2028 told The Cornell Daily Sun they felt more connected in an all-women's hall, and one said they would try to stay for all four years ([Cornell Daily Sun](https://www.cornellsun.com/article/2024/10/beginning-at-balch-life-at-north-campuss-newest-dorm)).
 
 Two accounts do not make a trend. Ask Balch's Residence Hall Director, named on the hall page, how many upper-level residents stay each year.
 

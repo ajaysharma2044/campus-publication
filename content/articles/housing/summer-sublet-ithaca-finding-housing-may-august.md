@@ -48,9 +48,6 @@ sources:
 - url: https://drydensouth.com/availability/
   title: Availability, Dryden South
   accessed: '2026-11-10'
-- url: https://www.apartments.com/dryden-south-sublets-available-fall-2026-ithaca-ny/yeje6qs/
-  title: Dryden South sublets available Fall 2026, Apartments.com
-  accessed: '2026-11-10'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961
   title: Dryden South, Cornell Off-Campus Housing Marketplace
   accessed: '2026-11-10'
@@ -146,13 +143,12 @@ kind: cost_table
 title: Ithaca asking prices relevant to a summer sublet
 rows:
   - {label: "Modern Living sublets", value: "From $900 per person (period not stated)"}
-  - {label: "Dryden South suite sublet, Fall 2026", value: "$1,395 per person"}
   - {label: "Dryden South 2027-28 suites, 12-month lease", value: "$1,360 to $1,575 per person a month"}
   - {label: "Dryden South 2027-28 studios, 12-month lease", value: "$1,990 and $2,190 a month"}
   - {label: "Summer Combo meal plan, 2026", value: "$686 for 30 meals and $200 Summer Bucks"}
 ```
 
-Source note: [Modern Living](https://www.modernlivingrentals.com/), [Apartments.com](https://www.apartments.com/dryden-south-sublets-available-fall-2026-ithaca-ny/yeje6qs/), [Dryden South](https://drydensouth.com/availability/), [Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/summer-meal-plans).
+Source note: [Modern Living](https://www.modernlivingrentals.com/), [Dryden South](https://drydensouth.com/availability/), [Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/summer-meal-plans).
 
 Those are lease and asking prices, not sublet prices; a subtenant can pay more or less. Ask who pays NYSEG and internet for June and July, and get a receipt for every payment. If you need a paycheck to cover the rent, the [summer jobs guide](/cornell/money/cornell-summer-jobs-ithaca-students-stay-for-summer/) covers what students earn.
 

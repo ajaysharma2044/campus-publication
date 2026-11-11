@@ -98,7 +98,7 @@ Yes. Every TCAT bus has a front bike rack at no extra fare, according to Cornell
 
 ## Where can I buy a bike in Ithaca?
 
-Cornell's cycling page tells riders to use a local bike shop for repair and winter advice, but the sources behind this guide do not name shops, used-bike sellers or prices. To shop, search a map app for bike shops near your address and ask each one about used and student-priced bikes. Bike Walk Tompkins runs e-bike classes at Swamp City Community Cycles, 803 Cascadilla St., and requires pre-registration ([Bike Walk Tompkins](https://www.bikewalktompkins.org/e-bikes)). Call before you go, since the class is the only service the page lists.
+Cornell's cycling page tells riders to use a local bike shop for repair and winter advice, and Bike Walk Tompkins keeps a Local Bike Shops page and a Retail Shop at Swamp City Community Cycles. To shop, search a map app for bike shops near your address and ask each one about used and student-priced bikes. Bike Walk Tompkins runs e-bike classes at Swamp City Community Cycles, 803 Cascadilla St., and requires pre-registration ([Bike Walk Tompkins](https://www.bikewalktompkins.org/e-bikes)). Call before you go.
 
 Before you buy, check these three things:
 

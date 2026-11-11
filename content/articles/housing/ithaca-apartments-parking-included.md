@@ -70,13 +70,13 @@ images: []
 
 
 ```glance
-- Parking is listed as included at Lake Street, Westview Terrace, 400 Triphammer Rd. and Kelvin Place.
+- Parking is listed as included at Westview Terrace, 400 Triphammer Rd. and Kelvin Place.
 - Ithaca Renting sells Collegetown spaces on a full-year license, and the price is per year.
 - A City garage space costs by the month if your building has none.
 - Landlords cannot get a City residential permit for you; you apply as a resident.
 ```
 
-Few Ithaca apartments include parking in the rent, and most of them sit north of campus or in Lansing. Lake Street Apartments lists parking as included with a two-bedroom at $2,070 per month ([Travis Hyde Properties](https://www.travishyde.com/west-campus/lake%20st)). In Collegetown, spaces are a separate charge at the biggest landlord.
+Few Ithaca apartments include parking in the rent, and most of them sit north of campus or in Lansing. Westview Terrace's North Campus listing advertises parking included ([Travis Hyde Properties](https://www.travishyde.com/listings/detail/9dc6c8ea-ccb9-4242-8aad-1995082e539a)). In Collegetown, spaces are a separate charge at the biggest landlord.
 
 ## Which Ithaca apartments include parking?
 
@@ -84,31 +84,28 @@ These listings say parking is included or free. Prices are the ones printed on e
 
 | Building | Area | Parking | Rent printed |
 |---|---|---|---|
-| Lake Street Apartments, 106 Lake St. | Cornell Heights edge | Included | 2BR $2,070 per month |
 | 400 Triphammer Rd. | Cornell Heights | Included | 1BR $1,540 per month |
 | Westview Terrace, 8 Country Club Rd. | Cornell Heights | Included | 2BR $1,800 per month |
 | Kelvin Place, 219 Kelvin Pl. | Cornell Heights | Private parking included | $795 to $825 |
 | Ravenwood, 516 University Ave. | Cornell Heights | Free; one 1BR listing says for a limited time | 1BR $1,610 per month |
-| Triphammer Apartments, 5 Cinema Dr. | Lansing | Free on-site; private garages on request | From $1,695 to $1,750 |
-| 802 E. Seneca St. | Collegetown | Off-street included | From $1,095 to $1,625 |
 | 307 Stewart Ave. | Collegetown | Surface lot included | 2BR $2,590 per unit |
 | 106 Cook St. | Collegetown | Off-street included | 4BR $995 per bed |
 | 409 Oak Ave. | Collegetown | Off-street included | 3BR $995 per bed |
 | 105 Hudson St. (PPM Homes) | Downtown | Free for up to two cars | 8BR $6,495 per month |
 
-Sources: Travis Hyde Properties pages for [Lake Street](https://www.travishyde.com/west-campus/lake%20st), [Ravenwood](https://www.travishyde.com/west-campus/ravenwood) and its [availability list](https://www.travishyde.com/availability) (400 Triphammer, Westview Terrace); Cornell marketplace pages for [Triphammer](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/triphammer-236697), [Kelvin Place](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/kelvin-place-apartments-237474) and [802 E. Seneca](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/802-e-seneca-street-7744); the [Ithaca College listings feed](https://offcampushousing.ithaca.edu/listing) (307 Stewart, 106 Cook, 409 Oak); [PPM Homes](https://www.ppmhomes.com/availability). Areas are approximate.
+Sources: Travis Hyde Properties pages for [Ravenwood](https://www.travishyde.com/west-campus/ravenwood) and its [availability list](https://www.travishyde.com/availability) (400 Triphammer, Westview Terrace); Cornell marketplace pages for [Kelvin Place](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/kelvin-place-apartments-237474); the [Ithaca College listings feed](https://offcampushousing.ithaca.edu/listing) (307 Stewart, 106 Cook, 409 Oak); [PPM Homes](https://www.ppmhomes.com/availability). Areas are approximate.
 
 Kelvin Place houses Cornell students, mostly graduate students, the lowest rent in this table. At the Collegetown houses on Cook Street and Oak Avenue, the per-bed price covers one share of the house, so ask how many spaces the house has before you sign.
 
 ## Which buildings charge extra for parking?
 
-Ithaca Renting, the biggest Collegetown landlord, sells spaces on a separate full-year license that runs about Aug. 15 to Aug. 14, with no monthly or semester option ([Ithaca Renting](https://ithacarenting.com/collegetown/)). Spaces are assigned. An uncovered space in the lower Dryden lot starts at $2,450 a year, and the covered Dryden Road lot is for Collegetown Center residents only. Cityview, its downtown building, rents spaces on site for an extra fee ([Ithaca Renting](https://ithacarenting.com/property-details/?pid=6)).
+Ithaca Renting, the biggest Collegetown landlord, sells spaces on a separate full-year license that runs about Aug. 15 to Aug. 14, with no monthly or semester option ([Ithaca Renting](https://ithacarenting.com/collegetown/)). Spaces are assigned. An uncovered space in the lower Dryden lot starts at $2,450 a year, and the covered Dryden Road lot is for Collegetown Center residents only. Cityview, its downtown building, rents spaces on site ([Ithaca Renting](https://ithacarenting.com/property-details/?pid=6)).
 
 Other landlords charge less. Gateway Commons downtown lists a small annual parking fee ([Travis Hyde Properties](https://www.travishyde.com/downtown-ithacaf4ba8d70/gateway%20commons)). A three-bedroom at 117 Thurston Ave. charges $55 a semester ([Ithaca Rents](https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights)). Spread over 12 months, that is $9.17 a month.
 
 ## What does parking cost if your building has none?
 
-The City's Dryden Road Garage charges $232 a month, or $2,784 a year ($232 times 12), and a Green Street Garage monthly permit costs $117 ([City of Ithaca](https://www.cityofithacany.gov/705/Parking-Information)). The Green Street price is a search-result figure with an unclear date, so confirm it with the Parking Division at 607-327-0700 before you budget. Meters cost $2.50 an hour.
+The City's [Dryden Road Garage](https://www.cityofithacany.gov/718/Dryden-Road-Garage) charges $232 a month, or $2,784 a year ($232 times 12), and a monthly permit at the [Green Street Garage](https://www.cityofithacany.gov/716/Green-Street-Garage) costs $117. Meters cost $2.50 an hour.
 
 A City residential permit costs $45 per year and is issued to individual residents, including renters. Landlords cannot obtain permits for their tenants, and permits expire July 31 ([City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance)). Permit zones cover residential districts, and an older Cornell item says central Collegetown has none, so check the street before you count on a permit.
 

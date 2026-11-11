@@ -64,7 +64,7 @@ images: []
 - It stays open over winter break for a weekly or full-break fee.
 ```
 
-Ganędagǫ: Hall (said "Gah-NEH-dah-go") is a suite-style residence hall on Cornell's North Campus that opened in 2021 and holds 564 students ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall)). Cornell's page lists it for transfers and upper-level students. Its rooms are temperature-controlled, and you pay the same rate as in any hall.
+Ganędagǫ: Hall (said "Gah-NEH-dah-go") is a suite-style residence hall on Cornell's North Campus that holds 564 students ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall)). Cornell's page lists it for transfers and upper-level students. Its rooms are temperature-controlled.
 
 ```figure
 kind: cost_table

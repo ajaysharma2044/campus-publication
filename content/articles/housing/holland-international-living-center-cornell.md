@@ -62,7 +62,7 @@ The Holland International Living Center, called HILC, is a program house in Low 
 
 ## What is the Holland International Living Center?
 
-It is an on-campus program house, a themed residence organized around a shared interest. This one centers on international living. It opened in 1970 in Low Rise 8 and was renamed in 1985 ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house)). The house lists hilc@cornell.edu for questions ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/holland-international-living-center-hilc)).
+It is an on-campus program house, a themed residence organized around a shared interest. This one centers on international living. It opened in 1970 in Low Rise 8 and was renamed in 1985 ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/holland-international-living-center-hilc)). The house lists hilc@cornell.edu for questions ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/holland-international-living-center-hilc)).
 
 ```figure
 kind: cost_table
@@ -81,11 +81,11 @@ rows:
 
 Source: Cornell Student & Campus Life, Cornell Housing and Cornell Dining.
 
-The count of 160-plus residents comes from [Cornell's North Campus housing page](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing). The shared rules for all 13 houses are in [Cornell program houses compared](/cornell/housing/cornell-program-houses-compared/).
+HILC holds 160-plus residents ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/holland-international-living-center-hilc)). The shared rules for all 13 houses are in [Cornell program houses compared](/cornell/housing/cornell-program-houses-compared/).
 
 ## What is the room layout?
 
-Each cluster in Low Rises 8, 9 and 10 holds one double, one triple and two singles, with one shared bathroom, and none has air conditioning ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)). Adding the beds gives seven students per bathroom.
+Each group of rooms in HILC holds one double, one triple and two singles, with one shared bathroom, and the rooms have no air conditioning ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/holland-international-living-center-hilc)). Adding the beds gives seven students per bathroom.
 
 ## What does HILC cost?
 

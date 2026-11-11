@@ -97,7 +97,7 @@ You check a landlord's record in three steps: call the City of Ithaca Building D
 
 ## Why is there no list of landlords to avoid?
 
-The published record on named Ithaca landlords is old or thin. A 2004 Sun feature reported that one large company had a reputation for fighting over deposits, and it is 22 years old ([The Cornell Daily Sun](https://cornellsun.com/2004/12/02/good-bad-and-slummy-collegetown-landlords/)). No source gives a complaint database or recent independent reviews of the big Collegetown companies. Size says nothing about quality in either direction, so the method below checks the building and the people who lived in it.
+The published record on named Ithaca landlords is old or thin. A 2004 Sun feature reported that one landlord company had a reputation for fighting over deposits, and it is 22 years old ([The Cornell Daily Sun](https://cornellsun.com/2004/12/02/good-bad-and-slummy-collegetown-landlords/)). No source gives a complaint database or recent independent reviews of the big Collegetown companies. Size says nothing about quality in either direction, so the method below checks the building and the people who lived in it.
 
 ## How do you check a Certificate of Compliance?
 

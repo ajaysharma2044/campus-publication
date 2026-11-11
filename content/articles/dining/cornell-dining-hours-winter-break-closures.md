@@ -86,7 +86,7 @@ Meal plans do not cover the break itself. Undergraduate residences also close at
 
 ## What can you eat on the open days?
 
-Cafes, coffee shops and convenience stores are open in the days after fall meals end, and again in January. Your fall BRBs work at those open spots, and you can add more BRBs ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining)). The page lists no hours or names, so open the cafe's own page on [Dining Now](https://now.dining.cornell.edu/), which loads its hours by script.
+Cafes, coffee shops and convenience stores are open in the days after fall meals end, and again in January. Your fall BRBs work at those open spots, and you can add more BRBs ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining)). The page lists no hours or names, so open the cafe's own page on [Dining Now](https://now.dining.cornell.edu/).
 
 Dining rooms are the question. Last winter, Morrison Dining ran reduced service from Jan. 4 to 12, 2026, for deep cleaning, with door prices of $8 for breakfast, $12 for lunch and brunch, and $16 for dinner. Spring 2026 meals began Jan. 13 ([Cornell Dining](https://scl.cornell.edu/news-events/news/january-morrison-dining-reduced)). Cornell has not posted which dining rooms reopen early in January 2027, so check Dining Now in early January.
 
@@ -114,12 +114,12 @@ Fixed food costs keep running over break while your meal plan pauses, and the ga
 
 ## How do regular dining hours work during the term?
 
-Cornell sends students to Dining Now for current hours and menus, and NetNutrition for ingredient and allergen information ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/dining-rooms)). The meal plan week runs Thursday through Wednesday, and unused weekly swipes do not carry over ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)).
+Cornell sends students to Dining Now for current hours and menus ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/dining-rooms)). The meal plan week runs Thursday through Wednesday, and unused weekly swipes do not carry over ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)).
 
-The five West Campus House dining rooms hold House Dinners every Wednesday from 6 to 7 p.m., open only to House members, and reopen to everyone at 7 p.m. For Thanksgiving, Cornell Dining lists a Celebration of Gratitude Dinner at Morrison Dining on Nov. 26, 2026, from 11:30 a.m. to 2:30 p.m. ([Cornell Dining](https://scl.cornell.edu/residential-life/dining)). Cornell has not listed the Thanksgiving closing times for other dining rooms, so check Dining Now before Nov. 25.
+The five West Campus House dining rooms hold House Dinners every Wednesday from 6 to 7 p.m., open only to House members, and reopen to everyone at 7 p.m. ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/dining-rooms)). For Thanksgiving, Cornell Dining lists a Celebration of Gratitude Dinner at Morrison Dining on Nov. 26, 2026, from 11:30 a.m. to 2:30 p.m. ([Cornell Dining](https://scl.cornell.edu/residential-life/dining)). Cornell has not listed the Thanksgiving closing times for other dining rooms, so check Dining Now before Nov. 25.
 
 ## What to do next
 
-Look at the timeline above and mark the closed days on your calendar. Add City Bucks and buy groceries before the closure, then check [Dining Now](https://now.dining.cornell.edu/) in early January for which cafes and dining rooms reopen.
+Look at the timeline above and mark the closed days on your calendar. Add City Bucks and buy groceries before the closure, then check [Dining Now](https://now.dining.cornell.edu/) in early January for which cafes are open ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining)).
 
 Related guides: [Cornell meal plan calculator](/cornell/dining/cornell-meal-plan-calculator-by-meals-a-week/) and [Morrison Dining](/cornell/dining/morrison-dining-cornell/).

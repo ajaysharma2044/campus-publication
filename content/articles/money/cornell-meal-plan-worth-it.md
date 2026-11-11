@@ -67,7 +67,7 @@ A Cornell meal plan saves money only if you eat close to its weekly cap. At full
 
 ## What does each 2026-27 meal plan cost?
 
-Undergraduate plans run from $2,489 to $3,802 per semester for 2026-27. A swipe is one entry to a dining room, and Big Red Bucks (BRBs) are dollars on your Cornell ID for campus food. Each BRB is worth $1 and carries no tax ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)).
+Undergraduate plans run from $2,489 to $3,802 per semester for 2026-27 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). A swipe is one entry to a dining room, and Big Red Bucks (BRBs) are dollars on your Cornell ID for campus food. Each BRB is worth $1 and carries no tax ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)).
 
 | Plan | Per semester | Per year | Meals | BRBs per semester | Guest meals per semester |
 |---|---|---|---|---|---|
@@ -114,7 +114,7 @@ Read the figure against the caps. Bear Traditional wins if you eat 12 or more me
 
 Unused swipes vanish. Unused meals do not carry over, and the plan week runs Thursday to Wednesday ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)). Use only 7 of 10 Bear Choice swipes a week, and its $14.44 swipe becomes $20.63.
 
-Location matters. A February 2025 Sun column said Okenshields was the only Central Campus place that took swipes, and that plan holders often ran out of BRBs before midsemester ([The Sun](https://cornellsun.com/2025/02/25/meal-swipes-belong-on-central-campus)). A March 2026 Sun column made a similar case for more BRBs per plan ([The Sun](https://www.cornellsun.com/article/2026/03/we-want-more-big-red-bucks)). Both are student opinion, so check your own class schedule against the ten dining rooms.
+Location matters. A February 2025 Sun column said Okenshields was the only Central Campus place that took swipes, and that plan holders often ran out of BRBs before midsemester ([The Sun](https://cornellsun.com/2025/02/25/meal-swipes-belong-on-central-campus)). A March 2026 Sun column said the BRB allotment has stayed about flat while prices rose, and asked Cornell for more BRBs per plan ([The Sun](https://www.cornellsun.com/article/2026/03/we-want-more-big-red-bucks)). Both are student opinion, so check your own class schedule against the ten dining rooms.
 
 BRBs have an end date, and Cornell's pages disagree on it. The undergraduate plans page says May 27, 2027, and the deadlines page says May 31, 2027 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms)). Plan to spend them by the earlier date. BRBs are not refundable, and they carry from fall to spring but not into the next year.
 
@@ -156,7 +156,7 @@ Counting BRBs as free is the second, because they are only worth their face valu
 
 **Can I use my swipe for a friend?** No. Swipes and BRBs are for the student only. Guest meals cover friends.
 
-**What if I study abroad or take a leave?** Spring plans can be canceled only by students who will not be at the university that semester. Tell the Dining Contracts Office by Jan. 6, 2027, to avoid spring charges ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027)).
+**What if I study abroad or take a leave?** First-year, sophomore and transfer students cannot cancel a plan. Tell the Dining Contracts Office by Jan. 6, 2027, to avoid spring charges ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027)).
 
 **How do I change my plan?** Use the Housing and Dining Portal or submit a Cornell Dining ticket. You can upgrade at any time.
 

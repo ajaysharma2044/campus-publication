@@ -94,7 +94,7 @@ rows:
 
 **Mediation.** The Community Dispute Resolution Center offers neighbor, family and tenant mediation at 607-273-9347 ([Cornell resources](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)). A mediator helps both sides reach a deal and keeps the talk out of a courtroom.
 
-**The Attorney General.** Deposit complaints can go to the state Attorney General after you have tried the landlord, at 1-800-771-7755 ([NY Attorney General](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants)).
+**The Attorney General.** Deposit complaints go to the state Attorney General after you have tried the landlord ([Cornell Law tenant guide](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits)). The Attorney General's tenants page has a complaint form and lists the office's main line, 1-800-771-7755 ([NY Attorney General](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants)).
 
 <!-- ad-break -->
 

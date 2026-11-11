@@ -60,7 +60,9 @@ images: []
 - Rising sophomores pick rooms in April; Cornell says about one in five has landed on West.
 ```
 
-Carl Becker House is a West Campus House that opened in August 2005 at 647 Stewart Ave. It holds [350-plus students](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/carl-becker-house) in one building and is the only House with air conditioning. Residents take the required House Meal Plan.
+Carl Becker House is a West Campus House that holds [350-plus students](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/carl-becker-house) and has air conditioning. Residents take the required House Meal Plan.
+
+Becker opened in August 2005 ([Cornell Chronicle](https://news.cornell.edu/stories/2009/08/west-campus-house-system-officially-complete)) at 647 Stewart Ave ([Cornell Facilities](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3035)).
 
 ```figure
 kind: cost_table
@@ -82,13 +84,13 @@ Source: Cornell Housing house page, Cornell Facilities and Housing Rates 2026-20
 
 ## What sets Carl Becker House apart?
 
-Becker has two features no other House combines. It lives in one building, where the other Houses mix a main building with Gothic halls, and it has air conditioning ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/carl-becker-house)). It also has 45 suites, each with five people. Cornell describes most West suites as three singles, one double, a bathroom and a sitting area ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs)).
+Becker has air conditioning ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/carl-becker-house)). It also has 45 suites, each with five people. Cornell describes most West suites as three singles, one double, a bathroom and a sitting area ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs)).
 
 Lori Leonard, a professor of global development, is House Professor-Dean. Amanda Carreiro is Assistant Dean. The House's resident-run Active Citizens program puts on about 20 events a semester (Cornell Housing).
 
 ## What is living in Becker like?
 
-Cooling is the headline, and it matters in late August and May. In 2012, a Becker resident told The Cornell Daily Sun that the many clubs and House events made up for small rooms ([Cornell Daily Sun](https://cornellsun.com/2012/09/27/architectural-tour-of-west-campus-yields-lessons-in-university-history/)). That account is old, so ask a current resident whether it still holds.
+Cooling is the headline, and it matters in late August and at the end of spring. In 2012, a Becker resident told The Cornell Daily Sun that the many clubs and House events made up for small rooms ([Cornell Daily Sun](https://cornellsun.com/2012/09/27/architectural-tour-of-west-campus-yields-lessons-in-university-history/)). That account is old, so ask a current resident whether it still holds.
 
 Cornell does not publish a recent resident review of the House. For comparison with the other four, see [West Campus Houses compared](/cornell/housing/cornell-west-campus-houses-compared/).
 
@@ -111,7 +113,7 @@ Whether a House year beats a lease depends on group size. See [is off-campus che
 
 ## How do you get a room in Carl Becker House?
 
-Sophomores pick in spring. For 2027-28 the application opens Feb. 1, 2027, and closes April 4, with open room selection April 13 to 16 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). About 20% of rising sophomores have gotten a West Campus space in past years, so a first choice is not a safe bet. A student who does not select is assigned what is left.
+Sophomores pick in spring. For 2027-28 the application opens Feb. 1, 2027, and closes April 4, with open room selection April 13 to 16 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). About 20% of rising sophomores could select West Campus spaces in past years, so a first choice is not a safe bet ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs)). A student who does not select is assigned what is left.
 
 Cornell's pages publish no per-House odds, so ask Housing and Residential Life at housing@cornell.edu how Becker filled last year.
 

@@ -48,7 +48,6 @@ In Cornell housing, internet is part of the room rate: the rate covers gas, elec
 - Cornell housing rates include internet up to 200 GB per month, with no separate bill.
 - A residence hall double costs $13,744 per academic year, utilities and internet included.
 - In the inventory, 143 of 366 listings with amenity lists include internet.
-- Cayuga Place lists internet at $75 per month per unit, not included.
 ```
 
 ## How does internet work in a Cornell residence hall?
@@ -69,9 +68,8 @@ Examples show the range:
 |---|---|
 | Whiton Hall, downtown | Wi-Fi included in $965 to $1,065 per bed for 2026-27 ([Ithaca Renting](https://ithacarenting.com/downtown/)) |
 | Maplewood Apartments, 121 Veterans Place | Rent includes electricity, trash, internet and cable ([Greystar](https://www.greystar.com/maplewood-ithaca-ny/p_15697)) |
-| Cayuga Place, 131 E. Green St. | $75 per month per unit, not included ([Cayuga Place](https://livehhcayuga.com/)) |
 
-Source: building and marketplace listings. At $75 a month, a year of internet at Cayuga Place is $900 (75 times 12), or $25 a month each for three roommates.
+Source: building and marketplace listings.
 
 If internet is not included, you order it from a provider. Setup steps are in the [utilities setup guide](/cornell/getting-around/set-up-utilities-ithaca-apartment-nyseg-internet/), and prices by provider are in the [Ithaca internet comparison](/cornell/getting-around/internet-providers-ithaca-compared-cornell-students/).
 

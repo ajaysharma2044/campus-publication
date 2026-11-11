@@ -184,7 +184,7 @@ Ithaca's airport has two scheduled nonstops, Delta to JFK and United to Washingt
 
 | Getting to the plane | Cost | Notes |
 |---|---|---|
-| ITH by TCAT 32 (weekdays) or 72 (weekends) | $1.50 per ride | Routes per the [airport page](https://www.flyithaca.com/public-transportation) |
+| ITH by TCAT 32 (weekdays) or 72 (weekends) | Not stated | Routes per the [airport page](https://www.flyithaca.com/public-transportation) |
 | ITH by taxi | Not published | Three firms, open around the clock; prebook late flights |
 | ITH long-term parking | $40 a week | $160 for four weeks |
 | SYR by OurBus | $46.70 to $62.10 each way | Pickups at North and West Campus |

@@ -43,7 +43,7 @@ images: []
 - Off-campus students who lived in a House for a semester can buy a $1,448-a-year affiliate plan.
 ```
 
-A House Dinner is a weekly sit-down meal in each of Cornell's five West Campus Houses, held Wednesdays from 6 to 7 p.m. for residents, staff, fellows and invited guests. It is the best-known part of house life, and the House Meal Plan that every West Campus resident must buy covers the meals ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms/west-campus-house-dinners)).
+A House Dinner is a weekly sit-down meal in each of Cornell's five West Campus Houses, held Wednesdays from 6 to 7 p.m. for residents, staff, fellows and invited guests. It is the best-known part of house life ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms/west-campus-house-dinners)).
 
 ## What is a West Campus House Dinner?
 

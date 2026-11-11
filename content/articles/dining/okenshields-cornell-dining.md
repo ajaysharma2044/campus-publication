@@ -2,7 +2,7 @@
 title: 'Okenshields Cornell dining hall: Central Campus guide'
 mode: answer
 dek: Okenshields in Willard Straight Hall is the swipe dining room closest to Central Campus classes, and this guide covers its food, prices and trade-offs.
-meta: Okenshields is the Central Campus dining hall in Willard Straight Hall. See 2026-27 prices, the vegan station, student praise and complaints.
+meta: Okenshields is the Central Campus dining hall in Willard Straight Hall. See 2026-27 prices, vegan options, student praise and complaints.
 primary_query: Okenshields Cornell dining hall
 topic: dining
 school: cornell-university
@@ -58,7 +58,7 @@ images: []
 
 ```glance
 - Okenshields is the swipe dining hall in Willard Straight Hall on Central Campus.
-- Cornell lists a dedicated vegan station here and halal Take Us Home items.
+- Cornell labels vegan and vegetarian items at the station here, and lists halal Take Us Home items.
 - A walk-in lunch costs $16.80 Monday to Saturday, tax included.
 - The Sun's columnists praise its consistency and complain about noon lines.
 ```
@@ -69,7 +69,7 @@ Okenshields is the dining hall in Willard Straight Hall, the one residential din
 
 Okenshields is one of ten Cornell residential dining rooms. It sits in the basement of Willard Straight Hall, the student union on Central Campus ([The Sun](https://cornellsun.com/2025/02/25/meal-swipes-belong-on-central-campus)). The other rooms are on North Campus and West Campus, so this is the one students pass between classes.
 
-The hall closed in fall 2020 and was rebuilt after merging with the old Ivy Room. The renovation added a bigger salad bar, a wok station and a vegan and vegetarian section, and scaled back planned seating and a build-your-own bowl ([The Sun](https://www.cornellsun.com/article/2021/10/okenshields-renovations-meet-mixed-reviews-from-students)).
+The hall closed in fall 2020 and was rebuilt after merging with the old Ivy Room. The renovation added a bigger salad bar, a wok station and a vegan and vegetarian section, but it reopened without the expanded seating and larger Build Your Own Bowl that had been planned ([The Sun](https://www.cornellsun.com/article/2021/10/okenshields-renovations-meet-mixed-reviews-from-students)).
 
 ```figure
 kind: cost_table
@@ -79,7 +79,7 @@ rows:
   - {label: "Type", value: "Residential dining room, one of ten"}
   - {label: "Walk-in lunch, Monday to Saturday", value: "$16.80 with tax"}
   - {label: "Walk-in dinner", value: "$20.80 with tax"}
-  - {label: "Special stations", value: "Dedicated vegan station"}
+  - {label: "Special stations", value: "Vegan and vegetarian items labeled"}
   - {label: "Who eats here", value: "Anyone with a swipe, Big Red Bucks, CornellCard or credit card"}
 ```
 
@@ -87,7 +87,7 @@ rows:
 
 Location is the draw. A Sun column in February 2025 said Okenshields was the only place on Central Campus that took swipes, and that students quoted in it found it far from their classes and crowded ([The Sun](https://cornellsun.com/2025/02/25/meal-swipes-belong-on-central-campus)). Treat that as the author's claim, but it matches Cornell's own room list, where Okenshields is the only Central Campus entry.
 
-The food gets a loyal defense. Cornell's official vegan page names Okenshields and Morrison Dining as the two dedicated vegan stations on campus ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/nutrition-special-diets/vegan-and-vegetarian-resources-campus)). Items from the Willard Straight Take Us Home counter are halal certified, and you pre-order them through the GET app ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/nutrition-special-diets/halal-resources)).
+The food gets a loyal defense. Cornell's vegan and vegetarian page says menu items at every residential dining room are labeled vegan or vegetarian at the station ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/nutrition-special-diets/vegan-and-vegetarian-resources-campus)). Items from the Willard Straight Take Us Home counter are halal certified, and you pre-order them through the GET app ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/nutrition-special-diets/halal-resources)).
 
 Two Sun columnists argue the hall is underrated. One wrote in September 2025 that its Asian and grill dishes are more consistent than the other halls, naming Thursday pad thai and evening fried chicken ([The Sun](https://www.cornellsun.com/article/2025/09/abou-alfa-cornells-best-dining-hall)). Another, in March 2026, called it predictable in a good way, with friendly staff and standout soups, including wok daikon, hot and sour, and tom yum ([The Sun](https://www.cornellsun.com/article/2026/03/a-foodie-s-homage-to-okenshields-why-it-deserves-more-love)).
 

@@ -132,14 +132,14 @@ The median across seven priced Ithaca Renting studio rows is $1,765 a month, or 
 
 Property pages: [Court](https://ithacarenting.com/property-details/?pid=5), [Center](https://ithacarenting.com/property-details/?pid=4) and [Plaza](https://ithacarenting.com/property-details/?pid=1).
 
-**407 College Ave.** [Travis Hyde Properties](https://www.travishyde.com/college-town/407%20college%20ave) lists furnished studios at $1,945 to $2,140 a month. Tenants pay electric, and the listing adds $240 for internet and $175 for trash a year per room.
+**407 College Ave.** [Travis Hyde Properties](https://www.travishyde.com/college-town/407%20college%20ave) lists the building with water included. The page posts no studio prices, so ask the office for a quote.
 
 **Newer towers.** Four buildings sit at the top of the market.
 
 - [The Ivy](https://ithacavoice.org/2026/07/cornell-collegetown-construction/), 325 College Ave: studios from $2,595 a month, in 52 units and 81 beds.
 - The Summit, 201 Oak Ave: studios and 1-bedrooms from $2,700, in 46 units.
-- The Bear: studios from $2,850, in 84 units, [scheduled to open for the 2027 academic year](https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148).
-- [Catherine Commons](https://buildwelliver.com/projects/integrated-acquisition-development-corp-iad-catherine-commons-210-college-avenue), 210 College Ave: 356 apartments, 206 of them studios. Its listing posts a range of $1,615 to $2,479 and no per-unit prices.
+- The Bear: [studios from $2,850](https://ithacavoice.org/2026/07/cornell-collegetown-construction/), in 84 units, [scheduled to open for the 2027 academic year](https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148).
+- [Catherine Commons](https://buildwelliver.com/projects/integrated-acquisition-development-corp-iad-catherine-commons-210-college-avenue), 210 College Ave: 356 apartments, 206 of them studios.
 
 Collegetown Terrace, at 115 South Quarry St, advertises [rates starting at $605](https://www.collegetownterrace.com/) with no period stated, and asks for a rate lock by Nov. 15, 2026. Ask which unit that price covers.
 
@@ -177,13 +177,13 @@ Downtown is cheaper per bed. Ithaca Renting's median studio is [$1,395 downtown]
 | Commons Studios, 212 E State St | $1,275 to $1,375 budget | Heat, water, electricity, trash |
 | Commons West, 107 E State St | $1,295 to $1,495 standard | Heat, water, trash |
 | Cityview, 118 Prospect St | $1,400 to $1,595 standard | Heat, water, trash |
-| Carey Building, 314 to 320 E State St | $1,855 (unit 406) | Furnished; heat and water |
+| Carey Building | not stated | Furnished; heat and water |
 
 Source: [Ithaca Renting](https://ithacarenting.com/downtown/), plus [Travis Hyde Properties](https://www.travishyde.com/downtown-ithacaf4ba8d70/carey%20building) for the Carey Building.
 
 The three Ithaca Renting buildings that include electricity, per its [downtown page](https://ithacarenting.com/downtown/), are Colonial, Commons Studios and Whiton Hall. Downtown is a 20 to 30 minute uphill walk to campus, per Cornell, so factor in a bus pass or the commute tool below.
 
-New downtown buildings charge more. [City Centre](https://citycentreithaca.com/), a Greystar building at 301 E. State St., lists studios at $2,475.75 to $2,618.75 a month on a 15-month term, utilities not included. The Ithacan at 210 E Green St lists studios at $2,549 to $2,699, and Ironworks at 430 W State St lists $2,072 to $3,943, both on the marketplace. Theory Ithaca, at 445 E State St, lists a Studio A at $2,789 per bed.
+New downtown buildings charge more. [City Centre](https://citycentreithaca.com/floorplans/), a Greystar building at 301 E. State St., lists studios at $2,475.75 to $2,618.75 a month on a 15-month term. The Ithacan at 210 E Green St lists studios at $2,549 to $2,699, and Ironworks at 430 W State St lists $2,072 to $3,943, both on the marketplace. Theory Ithaca, at 445 E State St, lists a Studio A at $2,789 per bed.
 
 ## What about studios on Lake Street, Highland Road and Triphammer?
 
@@ -198,7 +198,7 @@ The Cornell Heights side of campus has older buildings with lower rents.
 
 Source: the [Villager listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/villager-apartments-100016), [Travis Hyde availability](https://www.travishyde.com/availability), the [Ithaca marketplace](https://offcampushousing.ithaca.edu/listing) and the [Pinnacle listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-pinnacle-237571).
 
-The Villager sits about 0.88 miles from Ho Plaza, so its low rent comes with a longer trip. The Aurora at Cayuga Park, farther out, lists studios from [$2,345](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-aurora-at-cayuga-park-236703).
+The Villager sits about 0.88 miles in a straight line from Ho Plaza, from its address, so its low rent comes with a longer trip. The Aurora at Cayuga Park, farther out, lists studios from [$2,350](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-aurora-at-cayuga-park-236703).
 
 ## What does a studio price leave out?
 

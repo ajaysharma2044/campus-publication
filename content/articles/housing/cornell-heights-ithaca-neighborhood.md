@@ -81,7 +81,7 @@ images: []
 - Cayuga Heights next door is a separate village, outside the City's rental rules.
 ```
 
-Cornell Heights is the leafy neighborhood north of campus, where many of Cornell's fraternity and sorority houses stand beside apartments and older homes. It is a planned suburb built from 1898 to 1937 on the northern rim of Fall Creek Gorge, and it has been a locally designated and National Register historic district since 1989 ([City of Ithaca](https://www.cityofithacany.gov/DocumentCenter/View/1589/Cornell-Heights-Historic-District-Significance-Statement)).
+Cornell Heights is the leafy neighborhood north of campus. It is a planned suburb built from 1898 to 1937 on the northern rim of Fall Creek Gorge, and it has been a locally designated and National Register historic district since 1989 ([City of Ithaca](https://www.cityofithacany.gov/DocumentCenter/View/1589/Cornell-Heights-Historic-District-Significance-Statement)).
 
 ## Where is Cornell Heights, and how far is it?
 
@@ -91,9 +91,9 @@ Cornell Heights sits inside the City of Ithaca. Cayuga Heights, to its north, is
 
 ## What are the Greek houses like?
 
-Cornell Heights has many of the university's fraternity and sorority houses, and Cornell notes the music and parties that come with them. Sororities moved into houses in the late 1910s and early 1920s, mostly here ([The Cornell Daily Sun](https://www.cornellsun.com/article/2013/09/ezras-oracle-sept-20-2013)). Affiliated houses on the Cornell list include Alpha Zeta at 214 Thurston Ave., Seal and Serpent at 305 Thurston Ave. and the Center for Jewish Living at 106 West Ave. ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)).
+Sororities moved into houses in the late 1910s and early 1920s, mostly here ([The Cornell Daily Sun](https://www.cornellsun.com/article/2013/09/ezras-oracle-sept-20-2013)). Affiliated houses on the Cornell list include Alpha Zeta at 214 Thurston Ave., Seal and Serpent at 305 Thurston Ave. and the Center for Jewish Living at 106 West Ave. ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)).
 
-A sophomore can live in a chapter house only if a member of the fraternity or sorority when applying for housing ([Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). Rent usually runs through the Bursar and covers housekeeping, utilities, internet, repairs and building insurance, and each chapter sets its own dues ([Cornell Student & Campus Life](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities)). Cornell's scorecard lists self-reported live-in charges for one spring semester from $2,000 (Delta Kappa Epsilon, spring 2026) to $14,673 (Alpha Xi Delta, spring 2025), with a median of $7,400 across 13 chapters that charge in spring 2026 ([Organization Scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard)). For exemptions from the live-on rule, see our [residential requirement guide](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
+A sophomore can live in a chapter house only if a member of the fraternity or sorority when applying for housing ([Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). Rent covers housekeeping, utilities, internet, repairs and building insurance, and each chapter sets its own dues ([Cornell Student & Campus Life](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities)). Cornell's scorecard lists self-reported live-in charges for one spring semester from $2,000 (Delta Kappa Epsilon, spring 2026) to $14,673 (Alpha Xi Delta, spring 2025), with a median of $7,400 across 13 chapters that charge in spring 2026 ([Organization Scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard)). For exemptions from the live-on rule, see our [residential requirement guide](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
 ## Which co-ops are nearby?
 
@@ -103,7 +103,7 @@ Cornell owns eight co-ops, with 10 to 35 members each, and selection starts in e
 
 ## How much do apartments cost in Cornell Heights?
 
-Rents run from $795 to $2,445 in current listings ([Cornell marketplace](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/kelvin-place-apartments-237474)).
+Rents run from $795 for a room at Kelvin Place ([Cornell marketplace](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/kelvin-place-apartments-237474)) to $2,445 a month for a three-bedroom at 117 Thurston Ave. ([Ithaca Renting](https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights)).
 
 | Building | Unit | Rent printed |
 |---|---|---|

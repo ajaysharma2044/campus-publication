@@ -95,9 +95,9 @@ Risley Residential College is Cornell's largest [program house](/cornell/housing
 
 ## What is Risley Residential College?
 
-A program house is a residence hall, or part of one, built around a shared interest or way of living. Risley is the biggest of them. Cornell lists 194 residents there, against 166 in Just About Music and 144 in Ujamaa ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college)).
+A program house is a residence hall, or part of one, built around a shared interest or way of living. Cornell lists 194 residents at Risley ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college)).
 
-The Risley building dates to 1913, and in 1970 it became home to Cornell's first program house ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house)). Rooms open onto corridors, not into suites or apartments ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)).
+The Risley building dates to 1913 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing)). Rooms open onto corridors, not into suites or apartments ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)).
 
 ```figure
 kind: cost_table
@@ -122,7 +122,7 @@ Size and food. Risley Dining is one of three residential dining rooms on North C
 
 Students disagree about the food itself. A 2021 Cornell Daily Sun column on eating vegan named Risley the best hall for dietary variety ([Cornell Daily Sun](https://cornellsun.com/2021/10/24/dining-halls-as-a-vegan/)). A 2025 Sun column on the best dining hall called it less reliable than Okenshields ([Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/abou-alfa-cornells-best-dining-hall)).
 
-The rooms have no air conditioning. Risley is one of eight North Campus buildings that Cornell lists that way ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall)). Cornell's page describes the house's mission, events and community. This page does not, so read [Cornell's Risley page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college) before you list it, and write to housing@cornell.edu with questions.
+The rooms have no air conditioning ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college)). Cornell's page describes the house's mission, events and community. This page does not, so read [Cornell's Risley page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college) before you list it, and write to housing@cornell.edu with questions.
 
 ## What does Risley cost?
 

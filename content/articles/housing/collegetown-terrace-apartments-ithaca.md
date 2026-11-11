@@ -47,7 +47,7 @@ images: []
 - New applicants can lock in a rate by Nov. 15, 2026.
 ```
 
-Collegetown Terrace is a furnished apartment and townhome complex at 115 S. Quarry St. where you sign a lease for your own bed, not the whole unit. Its website lists rates starting at $605 but gives no period, so ask for a written quote before you compare it with other buildings ([Collegetown Terrace](https://www.collegetownterrace.com/)).
+Collegetown Terrace is a furnished apartment and townhome complex at 115 S. Quarry St. Its website lists rates starting at $605 but gives no period, so ask for a written quote before you compare it with other buildings ([Collegetown Terrace](https://www.collegetownterrace.com/)).
 
 ## What is Collegetown Terrace, and who is it for?
 

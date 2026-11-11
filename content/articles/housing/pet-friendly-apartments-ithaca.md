@@ -91,12 +91,12 @@ images: []
 
 ```glance
 - Collegetown Terrace is the one Collegetown complex that lists both cats and dogs as allowed.
-- Lansing West takes cats only; Winston Square allows one pet under 25 pounds.
+- Lansing West is cat-friendly; Winston Square allows one pet under 25 pounds.
 - Monthly pet rent is the norm, and some buildings add a one-time fee.
 - Cityview, Old Cigar Factory, Ivy Building and Whiton Hall ban pets.
 ```
 
-Pet owners have more choices in Ithaca than the dorm rules suggest. Collegetown Terrace lists cats and dogs as allowed ([Cornell Off-Campus Housing Marketplace](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694)). Lansing West takes cats only. Four downtown buildings ban pets, and most others charge monthly pet rent.
+Pet owners have more choices in Ithaca than the dorm rules suggest. Collegetown Terrace lists cats and dogs as allowed ([Cornell Off-Campus Housing Marketplace](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694)). Lansing West calls itself a cat-friendly community. Four downtown buildings ban pets, and most others charge monthly pet rent.
 
 ## Which Ithaca apartments allow pets?
 
@@ -105,7 +105,7 @@ Fourteen buildings below state a pet policy on their own pages or on Cornell's o
 | Building | Area | What the listing says |
 |---|---|---|
 | Collegetown Terrace, 115 South Quarry St. | Collegetown | Cats and dogs allowed |
-| Lansing West, 2250 N. Triphammer Rd. | Lansing | Cats allowed, no dogs |
+| Lansing West, 2250 N. Triphammer Rd. | Lansing | Cat-friendly community; no dog policy listed |
 | Winston Square, 601-1 Winston Court | Lansing | One pet under 25 pounds; $45.00 monthly pet rent |
 | The Student Agencies Building, 409 College Ave. | Collegetown | Written consent, a $250 fee and $50 a month |
 | Cayuga Place, 131 E. Green St. | Downtown | Pet-friendly; fees and breed limits may apply |
@@ -113,7 +113,7 @@ Fourteen buildings below state a pet policy on their own pages or on Cornell's o
 | Lake Street Apartments, 106 Lake St. | Cornell Heights edge | Pet-friendly |
 | The Pinnacle, 121 Lake St. | Cornell Heights edge | Pet-friendly |
 | Triphammer Apartments, 5 Cinema Dr. | Lansing | One-time fee plus monthly pet rent |
-| East Pointe, 15 E. Pointe Dr. | Northeast | One-time fee plus monthly pet rent |
+| East Pointe, 15 E. Pointe Dr. | Northeast | Pet-friendly community with a dog park |
 | Theory Ithaca, 445 E. State St. | Downtown | Pets allowed |
 | The Outlook, 815 S. Aurora St. | South Hill | Pets allowed |
 | Heritage Park TownHouses, 225 Pennsylvania Ave. | South Hill | Cats and dogs allowed |
@@ -125,7 +125,7 @@ Cayuga Place says fees and breed limits may apply, and Triphammer and East Point
 
 ## Which buildings ban pets?
 
-Cityview, the Old Cigar Factory, the Ivy Building and Whiton Hall all say no pets. They are the downtown buildings Ithaca Renting manages ([Ithaca Renting](https://ithacarenting.com/downtown/)), and their Cornell marketplace pages carry the ban ([Old Cigar Factory](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-old-cigar-factory-10219), [Whiton Hall](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/whiton-hall-10220), [Ivy Building](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/ivy-building-10216)). These are the cheapest bed prices downtown, so a pet owner who wants a low rent has to look elsewhere.
+Cityview, the Old Cigar Factory, the Ivy Building and Whiton Hall all say no pets. They are listed among the downtown buildings on [Ithaca Renting](https://ithacarenting.com/downtown/)'s site, and their Cornell marketplace pages carry the ban ([Old Cigar Factory](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-old-cigar-factory-10219), [Whiton Hall](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/whiton-hall-10220), [Ivy Building](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/ivy-building-10216)). These are the cheapest bed prices downtown, so a pet owner who wants a low rent has to look elsewhere.
 
 Individual landlords set their own rules too. Lambrou Real Estate lists no pets at its North Fulton Street and West Court Street apartments, and PPM Homes bans cats and dogs at its eight-bedroom house at 129 College Ave. (PPM Homes).
 
@@ -154,7 +154,7 @@ Maplewood Apartments, Cornell's graduate housing on East Hill managed by Greysta
 ```
 
 ```reader "If you have a dog"
-Lansing West is out. Winston Square limits you to one pet under 25 pounds. Collegetown Terrace, Heritage Park TownHouses and 510 E. Seneca St. each state that dogs are allowed, so start there.
+Lansing West lists only cats, so ask before you bring a dog. Winston Square limits you to one pet under 25 pounds. Collegetown Terrace, Heritage Park TownHouses and 510 E. Seneca St. each state that dogs are allowed, so start there.
 ```
 
 ## What should you check in the lease before you sign?

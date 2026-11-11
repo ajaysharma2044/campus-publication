@@ -77,7 +77,7 @@ kind: reader_guide
 - Housemates on a joint lease stay liable for your share until the landlord releases you.
 ```
 
-Cornell warns that a local lease cannot be broken without consequences, and the consequence is money. You leave cleanly with the landlord's written release, a sublet or an assignment, and the reason does not matter: study abroad, a transfer, a leave of absence or a job ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)).
+Cornell warns that a local lease cannot be broken without consequences, and the consequence is usually money. Its housemate questions ask what happens to the lease if you study abroad, transfer or take a leave ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)).
 
 ## What are your four options?
 
@@ -119,15 +119,15 @@ Cornell Financial Aid will not intervene in a mid-year attempt to break a lease 
 
 ## What do your housemates owe?
 
-Most local leases bind housemates jointly and severally, which means each is responsible for the housemates' rent and damages for the whole term. A tenant who overpays can sue a co-tenant for contribution ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease)). Here is the size of that exposure. A five-month semester in a Collegetown 4BR at the 2027-28 median of $1,246.25 per bed is $6,231.25 (5 x $1,246.25) ([Ithaca Renting](https://ithacarenting.com/collegetown/)). Agree in writing before you sign who finds the subtenant and who pays if none turns up. The full liability picture is in the [roommate liability guide](/cornell/housing/cornell-off-campus-roommates-joint-liability/).
+Most local leases bind housemates jointly and severally, which means each is responsible for the housemates' rent and damages for the whole term ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)). Cornell Law adds that where a lease makes rent joint and several, each tenant can be held for the whole rent ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease)). Here is the size of that exposure. A five-month semester in a Collegetown 4BR at the 2027-28 median of $1,246.25 per bed is $6,231.25 (5 x $1,246.25) ([Ithaca Renting](https://ithacarenting.com/collegetown/)). Agree in writing before you sign who finds the subtenant and who pays if none turns up. The full liability picture is in the [roommate liability guide](/cornell/housing/cornell-off-campus-roommates-joint-liability/).
 
 ## Are there legal exits?
 
-Two situations let you end a lease by notice ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease)).
+Domestic violence and active military duty are two situations that let you end a lease by notice ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease)).
 
 | Situation | How it works |
 |---|---|
-| Domestic violence | Written notice ends the lease in 30 days; documentation within 25 days; prepaid rent returned within 10 days; Advocacy Center of Tompkins County, 607-277-5000 |
+| Domestic violence | Written notice ends the lease in 30 days; documentation within 25 days |
 | Active military duty | Written notice after duty starts; effective 30 days after the next rent due date |
 
 ```reader "If you're studying abroad with housemates"

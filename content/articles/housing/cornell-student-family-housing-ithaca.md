@@ -118,7 +118,7 @@ kind: reader_guide
 - Hasbrouck family units cost $1,475 to $1,530 a month for 2026-27, with utilities included, for up to two adults.
 - Budget $4,918 at signing for an average private 2BR: one month's rent plus a deposit capped at one month.
 - Married students and students with legal dependents are exempt from the two-year residential requirement.
-- Spouses and partners with a CU ID can buy the $200 OmniRide pass; children 17 and under ride TCAT free.
+- Spouses and partners with a CU ID can buy the $200 OmniRide pass.
 ```
 
 The cheapest family home near Cornell is Cornell's own: Hasbrouck family 2BR townhouses cost [$1,475 a month unfurnished or $1,530 furnished for 2026-27](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates), with gas, electricity, garbage and internet included. A private Ithaca 2BR averages $2,459 a month before utilities, so apply to Hasbrouck early.
@@ -138,7 +138,7 @@ rows:
 
 Yearly figures are the monthly rate times 12. Demand is real: 51% of on-campus graduate households are family or partner households, and 49% are single students ([Your Cornell Community](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/your-cornell-community)). In 2024, the Cornell Daily Sun reported that visiting scholars compete with graduate students for Hasbrouck and Maplewood, and that family housing is scarce with high upfront costs ([Cornell Daily Sun](https://cornellsun.com/2024/11/12/high-costs-and-limited-support-plague-visiting-scholars-and-fellows-at-cornell)).
 
-Maplewood, Cornell's other graduate complex, lists furnished studios to 4BRs and no family units ([Graduate Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). Cornell's housing page does not say whether Hasbrouck takes undergraduate families, so ask Housing at 607-255-5368.
+Maplewood, Cornell's other graduate complex, lists furnished studios to four-bedrooms ([Graduate Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). Cornell's housing page does not say whether Hasbrouck takes undergraduate families, so ask Housing at 607-255-5368.
 
 ```reader "If you're a graduate or professional student"
 Cornell's 2026-27 Ithaca budget puts housing at $19,962 a year, or $1,663.50 a month ([Cornell Financial Aid](https://finaid.cornell.edu/graduate-students)). A Hasbrouck unfurnished townhouse is $17,700 a year, which is $2,262 under that line. Start your search with the [grad student off-campus guide](/cornell/housing/off-campus-housing-cornell-grad-students/) and the [monthly budget guide](/cornell/money/cornell-grad-student-off-campus-budget-monthly-rent-ithaca/).
@@ -200,7 +200,7 @@ The Town of Ithaca is stricter for unrelated people. It defines a family as peop
 
 ## How do partners and children get around?
 
-A spouse or partner with a CU ID can buy the OmniRide student pass at 116 Maple Avenue and ride night routes 90 and 92. The pass costs $200 a year, prorated monthly, and expires Aug. 31 ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). Children 17 and under ride TCAT free ([TCAT](https://tcatbus.com/fare-pass-options)). PhD students and graduate assistants get a free OmniRide pass. A B commuter permit for a student's car is $359.77 a year ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)).
+A spouse or partner with a CU ID can buy the OmniRide student pass at 116 Maple Avenue and ride night routes 90 and 92. The pass costs $200 a year, prorated monthly, and expires Aug. 31 ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). PhD students and graduate assistants get a free OmniRide pass. A B commuter permit for a student's car is $359.77 a year ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)).
 
 ## What about heat?
 

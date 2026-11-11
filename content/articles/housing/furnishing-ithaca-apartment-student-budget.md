@@ -112,11 +112,11 @@ The cheapest way to furnish an Ithaca apartment is to rent one that comes furnis
 
 Most of the big student landlords near Cornell furnish their apartments. Ithaca Renting Company's Whiton Hall, Commons Studios and Colonial Studios apartments are furnished, and so are most of its other downtown units; call its Rental Office to confirm a specific unit. In Collegetown, its Collegetown Court building at 208 Dryden Road is furnished ([Ithaca Renting](https://ithacarenting.com/unit-details/?uid=223)).
 
-Other furnished buildings include Dryden South at 205 Dryden Road ([Cornell Off-Campus Housing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961)) and The Ivy at 325 College Ave., which also has an in-unit washer and dryer ([Modern Living Rentals](https://www.modernlivingrentals.com/the-ivy)). Travis Hyde Properties furnishes Eddygate at 110 Dryden Road, TVs included ([Travis Hyde](https://www.travishyde.com/college-town/eddygate%20apartments)), and Ravenwood at 516 University Ave. the same way ([Travis Hyde](https://www.travishyde.com/west-campus/ravenwood)).
+Other furnished buildings include Dryden South at 205 Dryden Road ([Cornell Off-Campus Housing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961)) and The Ivy at 325 College Ave., which also has an in-unit washer and dryer ([Modern Living Rentals](https://www.modernlivingrentals.com/the-ivy)). Travis Hyde Properties furnishes Eddygate, TVs included ([Travis Hyde](https://www.travishyde.com/college-town/eddygate%20apartments)), and Ravenwood at 516 University Ave. the same way ([Travis Hyde](https://www.travishyde.com/west-campus/ravenwood)).
 
 Some landlords sell furniture as an add-on. Coal Yard Apartments at 143 Maple Ave. lists "furnished packages" ([Cornell Off-Campus Housing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/coal-yard-apartments-7734)). Ask what a package costs before you sign.
 
-Unfurnished units cluster in family-style townhouses and newer downtown buildings. Heritage Park TownHouses at 225 Pennsylvania Ave. on South Hill rents two-bedrooms unfurnished for $1,420 a month plus utilities, for leases starting in August 2026 ([IthacaRents](https://www.ithacarents.com/1616-225-pennsylvania-ave)). Gateway Commons at 311 E. Green St. lists its units unfurnished ([Travis Hyde](https://www.travishyde.com/downtown-ithacaf4ba8d70/gateway%20commons)).
+Some units come unfurnished. Heritage Park TownHouses at 225 Pennsylvania Ave. rents two-bedrooms unfurnished for $1,420 a month plus utilities, for leases starting in August 2026 ([IthacaRents](https://www.ithacarents.com/1616-225-pennsylvania-ave)).
 
 For what each building charges per bed, see [Collegetown rent prices per bed and per one-bedroom](/cornell/housing/collegetown-rent-prices-per-bed-one-bedroom/).
 
@@ -170,7 +170,7 @@ At Hasbrouck, take the unfurnished one-bedroom only if you already own a full se
 
 Buy only what the landlord's list leaves out, and buy the big pieces used. For most furnished units that means bedding, a lamp, kitchen gear, a shower curtain and cleaning supplies. If your unit is unfurnished, a bed and mattress come first, then a desk and chair.
 
-The largest source of free used furniture near campus is Cornell's own move-out in May. Items students leave in campus housing without a resident present are donated to Dump & Run, a local reuse group, and usable items go to Project ReCollect bins in residence hall lobbies ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out)). Dump & Run's sale dates and prices aren't on that page; contact Dump & Run about its next sale before you shop elsewhere.
+Cornell's own move-out in May is one source of free used furniture. Items students leave in campus housing without a resident present are donated to Dump & Run, and usable items go to Project ReCollect bins in residence hall lobbies ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out)). Dump & Run's sale dates and prices aren't on that page; contact Dump & Run about its next sale before you shop elsewhere.
 
 Students leaving furnished Collegetown apartments sell what they bought at the same time. Most Ithaca leases end July 31, so late July is when the most used furniture changes hands. For more ways to cut spending, see [how to save money at Cornell](/cornell/money/how-to-save-money-at-cornell-student-discounts-ithaca/).
 
@@ -196,7 +196,7 @@ Photograph every piece the landlord provides, and send the landlord a written li
 
 Sell it, store it, or haul it away, but do not leave it on the curb or the porch. City of Ithaca rules bar storing discarded couches, mattresses, tables, chairs and appliances anywhere outside on the property ([City of Ithaca](https://www.cityofithacany.gov/136/Exterior-Property-Maintenance)).
 
-To dispose of it yourself, the Tompkins County Recycling and Solid Waste Center is at 122 Commercial Ave. It is open Monday through Saturday, 7 a.m. to 3:30 p.m., and has required a high-visibility vest since Aug. 1, 2026 ([Tompkins County](http://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management)). Fees aren't posted online; call the office before you load a car. For summer storage and shipping options, see [move-out storage and shipping](/cornell/getting-around/cornell-move-out-storage-shipping-options/).
+To dispose of it yourself, the Tompkins County Recycling and Solid Waste Center is open Monday through Saturday, 7 a.m. to 3:30 p.m., and has required a high-visibility vest since Aug. 1, 2026 ([Tompkins County](http://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management)). Fees aren't posted online; call the county's recycling office, at 122 Commercial Ave., before you load a car. For summer storage and shipping options, see [move-out storage and shipping](/cornell/getting-around/cornell-move-out-storage-shipping-options/).
 
 ## Furnishing checklist, in order
 

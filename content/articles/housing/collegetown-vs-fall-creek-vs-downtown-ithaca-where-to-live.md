@@ -175,7 +175,7 @@ Bus rules after your first year, per [Cornell Transportation](https://fcs.cornel
 - A daytime weekday ride costs $1.50, and the OmniRide pass costs $200 a year.
 - PhD students and graduate assistants get the OmniRide pass free.
 
-A weekday round trip is two rides, $3.00. At that rate the $200 pass pays for itself in about 67 weekday trips, or 13 to 14 weeks. No TCAT buses run from 1:30 to 4 a.m., so a late night downtown or in Fall Creek ends with a walk ([Cornell Sustainability](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting)). Cornell names Route 10 for downtown but does not list which routes serve Fall Creek, so check the TCAT trip planner for your address before you sign.
+A weekday round trip is two rides at $1.50, or $3.00. At that rate the pass pays for itself in about 67 weekday trips, or 13 to 14 weeks. No TCAT buses run from 1:30 to 4 a.m., so a late night downtown or in Fall Creek ends with a walk ([Cornell Sustainability](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting)). Cornell names Route 10 for downtown but does not list which routes serve Fall Creek, so check the TCAT trip planner for your address before you sign.
 
 ## When does each market sign?
 
@@ -249,7 +249,7 @@ Cheap beds exist in all three areas, but only in big units: a downtown 3BR bed a
 ```
 
 ```reader "If you're bringing a car"
-The car changes the answer more than rent does. An older Cornell item says central Collegetown has no residential street permits, so the fallback is the Dryden Road Garage at $232 a month, or $2,784 a year ([City of Ithaca](https://www.cityofithacany.gov/718/Dryden-Road-Garage)). Elsewhere in permit zones, a City residential permit costs $45 a year with a lease as proof ([City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance)). A B commuter permit for campus costs $359.77 a year ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking/parking-students)). The fact set does not say which Fall Creek and downtown blocks are permit zones, so ask the landlord whether a spot comes with the unit.
+The car changes the answer more than rent does. The City recommends the Dryden Road Garage to Collegetown residents, at $232 a month, or $2,784 a year ([City of Ithaca](https://www.cityofithacany.gov/718/Dryden-Road-Garage)). Elsewhere in permit zones, a City residential permit costs $45 a year with a lease as proof ([City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance)). A B commuter permit for campus costs $359.77 a year ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking/parking-students)). The fact set does not say which Fall Creek and downtown blocks are permit zones, so ask the landlord whether a spot comes with the unit.
 ```
 
 ## What to do next

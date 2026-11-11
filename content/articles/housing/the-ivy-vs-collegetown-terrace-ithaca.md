@@ -78,7 +78,7 @@ The Ivy is an eight-story building at College Avenue and Dryden Road with 52 uni
 
 The developers are Nick Robertson and Charlie O'Connor of Modern Living Rentals ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026)). Robertson also worked on Collegetown Terrace and Cornell's North Campus expansion.
 
-Leases began Aug. 17, 2026, later than the Aug. 1 start common in Ithaca. Nearly all units were leased before construction ended. One-bedrooms were spoken for in May 2026, before tours, and about 25% of apartments for the following year were leased shortly after opening ([Tompkins Weekly](https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148)).
+One-bedrooms were spoken for in May 2026, before tours, and about 25% of apartments for the following year were leased shortly after opening ([Tompkins Weekly](https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148)).
 
 ## What does The Ivy cost?
 
@@ -117,7 +117,7 @@ Older figures give a sense of range only. In 2022 the Sun reported Collegetown T
 
 ## When do I have to sign?
 
-Collegetown Terrace's [site](https://www.collegetownterrace.com/) offers new applicants a rate lock until Nov. 15, 2026. It lists 2026-27 and 2027-28 and does not say which year the rate covers, so ask.
+Collegetown Terrace's [site](https://www.collegetownterrace.com/) offers new applicants a rate lock until Nov. 15, 2026. Ask which lease year the rate covers.
 
 The Ivy's pace shows how fast a new building fills. If you want it for fall 2027, assume units go early and read the [lease signing timing guide](/cornell/housing/when-to-sign-collegetown-lease-cornell/). Confirm your start date and what happens if a building opens late.
 

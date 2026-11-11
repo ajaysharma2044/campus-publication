@@ -62,7 +62,7 @@ A House Professor-Dean is a Cornell professor who leads one of the five West Cam
 
 ## What does a House Professor-Dean do?
 
-Cornell describes the role in one sentence: each House is led by a distinguished Cornell professor, who serves as House Professor-Dean and lives in the House with their family. The professor sets the direction of the community, and the rest of the team runs the day-to-day work ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system)).
+Cornell describes the role this way: each House is led by a distinguished Cornell professor, who serves as House Professor-Dean and lives in the House with their family. An Assistant Dean and fellows support the House ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system)).
 
 The team around the Professor-Dean has four parts:
 

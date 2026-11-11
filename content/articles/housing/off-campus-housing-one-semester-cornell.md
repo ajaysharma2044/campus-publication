@@ -32,6 +32,9 @@ sources:
 - url: https://www.travishyde.com/college-town/407%20college%20ave
   title: 407 College Ave, Travis Hyde Properties
   accessed: '2026-11-10'
+- url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/407-college-ave-collegetown-s-best-kept-secret-237329
+  title: 407 College Ave listing, Cornell off-campus housing marketplace
+  accessed: '2026-11-10'
 - url: https://www.travishyde.com/west-campus/ravenwood
   title: Ravenwood Apartments, Travis Hyde Properties
   accessed: '2026-11-10'
@@ -85,7 +88,7 @@ images: []
 - Spring transfers must live on campus first, so off-campus rules apply to you later.
 ```
 
-For one semester, rent a furnished room or studio on a semester or short-term lease, or take a sublet, because a 12-month lease leaves you paying for months you are gone. Ithaca Renting posts [Spring Semester 2027 studios at Collegetown Center from $1,665 to $1,800 per bed](https://ithacarenting.com/property-details/?pid=4), with heat and hot water included.
+For one semester, rent a furnished room or studio on a semester or short-term lease, or take a sublet, because a 12-month lease leaves you paying for months you are gone. Ithaca Renting posts [Spring Semester 2027 studios at Collegetown Center from $1,665 to $1,800](https://ithacarenting.com/property-details/?pid=4).
 
 ```reader "If you're a spring transfer student"
 Check whether you can live off campus at all. Cornell requires spring transfers to [live on campus for the incoming spring semester and the following academic year](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates). So a one-semester off-campus stay applies to you only with an exemption. The [transfer housing guide](/cornell/housing/cornell-transfer-housing/) lists the exemptions and the dates.
@@ -114,7 +117,7 @@ A furnished studio for spring 2027 costs about as much as a Cornell residence ha
 
 Source: [Ithaca Renting](https://ithacarenting.com/collegetown/), [Travis Hyde Properties](https://www.travishyde.com/college-town/407%20college%20ave) and [PPM Homes](https://www.ppmhomes.com/availability).
 
-The cheapest line is a room in a shared suite at 210 Dryden Rd, 200 feet from Cornell's entrance, per [Ithaca Renting](https://ithacarenting.com/property-details/?pid=18). The 407 College Ave rooms include water and recycling, but tenants pay electricity.
+The cheapest line is a room in a shared suite at 210 Dryden Rd, 200 feet from Cornell's entrance, per [Ithaca Renting](https://ithacarenting.com/property-details/?pid=18). The 407 College Ave rooms include water and recycling, per the [College Pads listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/407-college-ave-collegetown-s-best-kept-secret-237329).
 
 ## Which kinds of lease fit a single semester?
 
@@ -122,11 +125,11 @@ Four kinds of arrangement fit a semester. Each moves the risk somewhere differen
 
 **A semester lease.** Ithaca Renting's spring and fall rows are priced for the term, so you pay only for it. This is the lowest-risk choice, and the stock is thin. Plaza also lists a Fall Semester single room at $950 to $1,050 per bed.
 
-**A short-term lease.** Listings at 510 E Seneca St and 403 S Cayuga St say a short-term lease is available, per [PPM Homes](https://www.ppmhomes.com/availability). [Cayuga Place](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cayuga-place-237022) lists 3-month short-term leases that end July 31, 2027. [Ravenwood Apartments](https://www.travishyde.com/west-campus/ravenwood) lists short-term and full-year leases, furnished, one block from Cornell's West Campus. Expect a premium over the 12-month rate.
+**A short-term lease.** [Cayuga Place](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cayuga-place-237022) lists 3-month short-term leases that end July 31, 2027. [Ravenwood Apartments](https://www.travishyde.com/west-campus/ravenwood) is furnished and sits one block from Cornell's West Campus; ask whether it offers a short-term lease. Expect a premium over the 12-month rate.
 
 **A sublet.** You take over part of someone's lease. The leaver stays liable, and the landlord must agree. The [summer sublet guide](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/) covers where sublets are posted. Semester sublets cluster in January and August, when students leave for study away.
 
-**A roommate-matching lease.** Foundation Housing posted [Spring '27 leases for roommate matching](https://offcampushousing.ithaca.edu/city/ithaca-ny/listing/spring-27-and-full-year-leases-available-for-roommate-matching-foundation-housing-96176) on the Ithaca portal. The listing names no price, so ask the landlord for the total, fees and deposit in writing.
+**A roommate-matching lease.** Foundation Housing posted [Spring '27 leases for roommate matching](https://offcampushousing.ithaca.edu/city/ithaca-ny/listing/spring-27-and-full-year-leases-available-for-roommate-matching-foundation-housing-96176) on the Ithaca portal. The listing shows a price from $1,400 to $1,600, and individual units say Call For Price, so ask the landlord for the total, fees and deposit in writing.
 
 <!-- ad-break -->
 
@@ -136,7 +139,7 @@ Ask about four extras before you compare prices.
 
 **Utilities.** Ithaca Renting's buildings include heat and hot water, and tenants pay electricity at most of them. At 407 College Ave, tenants pay electric, plus annual internet and trash fees per room.
 
-**Furniture.** Ithaca Renting's Collegetown rows are furnished. At Cayuga Place, [a furniture package costs $75 a month per bedroom](https://livehhcayuga.com/), and internet is $75 a month per unit, neither included in rent.
+**Furniture.** Ithaca Renting's Collegetown rows are furnished.
 
 **Parking.** Ithaca Renting sells parking only as a separate full-year license, with no monthly or semester option. A student bringing a car for one term should plan another lot, or leave the car home.
 

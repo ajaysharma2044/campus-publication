@@ -17,14 +17,11 @@ readers:
 subject: Akwe:kon, Cornell's American Indian program house on North Campus, Ithaca
 tools: []
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college
-  title: Program house resident counts, Cornell Student & Campus Life
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/akwekon
+  title: Akwe:kon, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house
-  title: Program house founding years, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house
-  title: Program house room configurations, Cornell Student & Campus Life
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing
+  title: Upper-level Undergraduate On-Campus Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.cornellsun.com/article/2025/12/even-if-our-numbers-are-lower-were-still-here-indigenous-student-engagement-persists-despite-enrollment-drops
   title: Even If Our Numbers Are Lower, We're Still Here, The Cornell Daily Sun, Dec. 2, 2025
@@ -68,7 +65,7 @@ Akwe:kon is a 35-resident Cornell program house on North Campus, opened in 1991,
 
 ## What is Akwe:kon?
 
-It is one of 13 program houses on Cornell's list for 2027-28. It is among the smallest, with 35 residents ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college)). It dates to 1991 ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house)). Rooms are singles and doubles on corridors, and none has air conditioning ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)).
+It is one of 13 program houses on Cornell's current list ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)). It is among the smallest, with 35 residents. It opened in 1991. Rooms are singles and doubles, and none has air conditioning ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/akwekon)).
 
 ```figure
 kind: cost_table

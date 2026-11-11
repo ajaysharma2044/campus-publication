@@ -68,7 +68,7 @@ images: []
 - 301 College Ave. opened in August 2026 with 43 students and expects 105 by fall 2027.
 ```
 
-Cornell owns four residence halls in Collegetown: Cascadilla Hall, Sheldon Court, Schuyler House and, since August 2026, 301 College Ave. Cornell lists them with 112 Edgemoor and 104 Mary Ann Wood Drive as its South Campus housing for transfer and upper-level students ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)).
+Cornell lists Cascadilla Hall, Sheldon Court, Schuyler House, 301 College Ave., 112 Edgemoor, 104 Mary Ann Wood Drive and 109 McGraw Place as its South Campus housing for upper-level students ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)).
 
 ## Which Collegetown buildings does Cornell own?
 

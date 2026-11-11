@@ -71,8 +71,8 @@ The Bursar lists nine institutions with phone numbers but no fees, addresses or 
 
 | Bank | Published fees | SSN rule |
 |---|---|---|
-| Alternatives FCU | $2 one-time enrollment, $5 kept on deposit, no checking minimum, $2 monthly fee waived with eStatements ([Alternatives](https://www.alternatives.org/accounts/checking/)) | Needs only a lease with a local address |
-| Tompkins Bank & Trust | No monthly fee, $3.50 for paper statements, $0 to open in a branch and $25 online ([Tompkins](https://www.tompkinsbank.com/student-checking-101)) | Student account without an SSN, for students up to age 25 |
+| Alternatives FCU | $2 one-time enrollment, $5 kept on deposit, no checking minimum, $2 monthly fee waived with eStatements ([Alternatives](https://www.alternatives.org/accounts/checking/)) | Not stated |
+| Tompkins Bank & Trust | No monthly fee, $3.50 for paper statements, $0 to open in a branch and $25 online ([Tompkins](https://www.tompkinsbank.com/student-checking-101)) | Not stated |
 | CFCU | Not on its student page | Debit card and online banking without an SSN or ITIN |
 | Ithaca Community Bank | Check its fee page | Accounts, debit cards and online banking without an SSN |
 | M&T | Check its fee page | Debit cards and online banking without an SSN |
@@ -90,7 +90,7 @@ rows:
   - {label: "Alternatives: membership deposit kept on account", value: "$5"}
 ```
 
-Fees change, so confirm them on each bank's page. Beginnings Credit Union uses the same phone number as CFCU, 607-257-8500, but no page states that they are one institution. Cornell's SSN rule applies to CFCU as named, so ask Beginnings directly. The [Bursar's list](https://bursar.cornell.edu/students-parents/student-resources/local-banking-services) includes a Community Bank at 866-764-8638, so confirm whether it is Ithaca Community Bank before you call.
+Fees change, so confirm them on each bank's page. Beginnings Credit Union uses the same phone number as CFCU, 607-257-8500, but no page states that they are one institution. Cornell's [Global Learning page](https://international.globallearning.cornell.edu/getting-started/your-first-week-0) gives its SSN rule for CFCU by that name, so ask Beginnings directly. The [Bursar's list](https://bursar.cornell.edu/students-parents/student-resources/local-banking-services) includes a Community Bank at 866-764-8638, so confirm whether it is Ithaca Community Bank before you call.
 
 ## Which bank fits which student?
 

@@ -62,7 +62,7 @@ Loving House is a Cornell program house with 30 residents on the first floor of 
 
 ## What is Loving House?
 
-It is one of the smallest program houses, and one of the newest. Cornell lists 30 residents ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college)). The house opened in 2019 on the first floor of Mews Hall ([Cornellians](https://alumni.cornell.edu/cornellians/program-houses/)).
+It is one of the smallest program houses, and one of the newest. Cornell lists 30 residents ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)). The house opened in 2019 on the first floor of Mews Hall ([Cornellians](https://alumni.cornell.edu/cornellians/program-houses/)).
 
 ```figure
 kind: cost_table

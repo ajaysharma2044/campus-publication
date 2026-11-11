@@ -85,7 +85,7 @@ images:
 - TCAT runs no buses on Thanksgiving, Christmas or New Year's Day.
 ```
 
-Students who live in campus housing and return to it for spring can apply for [winter break housing](https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing) from Oct. 1 to Dec. 1. It costs $125 per one-week option or $500 for the full break. Everyone else must leave by 2 p.m. on Sunday, Dec. 20.
+Students who live in campus housing and return to it for spring can apply for [winter break housing](https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing) from Oct. 1 to Dec. 1. It costs $125 per one-week option or $500 for the full break. Everyone else must leave when the residences close.
 
 ## Who can stay, and what does it cost?
 
@@ -103,7 +103,7 @@ rows:
   - {label: "Staying past 2 p.m. on closing day without approval", value: "$60 per hour or part hour"}
 ```
 
-The residences are closed for 30 days, from Dec. 20 to Jan. 19, so anyone staying the whole stretch should take the full-break rate. Staff do safety and maintenance inspections over the break and can enter for repairs ([closing notice](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice)).
+The residences close at 2 p.m. on Sunday, Dec. 20 and stay closed for 30 days, to Jan. 19, so anyone staying the whole stretch should take the full-break rate. Staff do safety and maintenance inspections over the break and can enter for repairs ([closing notice](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice)).
 
 Off-campus renters need no housing application, but the city's street parking rules still apply to them. If your flight leaves late on closing day, request a later departure in the Housing and Dining Portal by Dec. 7.
 
@@ -143,7 +143,7 @@ Your Cornell ID is your bus pass. First-years ride TCAT free until Aug. 31, and 
 
 TCAT does not run every day. It runs no buses on Independence Day, New Year's Day, Memorial Day, Juneteenth, Thanksgiving or Christmas ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/07/service-changes-for-july-4-holiday-weekend-tcat-buses-curbside-recycling-city-offices-will-be-closed-on-independence-day)). Over break, that means Thanksgiving Day, Christmas and New Year's Day. TCAT's reduced schedule on the other break days is on its own site, so check it before you plan a trip.
 
-Taxis are the fallback. The airport lists Ithaca Airport Cab, Collegetown Cab and Ithaca Dispatch, all open around the clock, with no fares posted ([Ithaca airport](https://flyithaca.com/taxis)).
+Taxis are the fallback. The airport lists Ithaca Airport Cab, Collegetown Cab and Ithaca Dispatch, says taxis are available at the airport 24/7, and posts no fares ([Ithaca airport](https://flyithaca.com/taxis)).
 
 Daylight and cold matter too. On Dec. 21, the sun sets at 4:36 p.m. ([U.S. Naval Observatory](https://aa.usno.navy.mil/api/rstt/oneday?date=2026-12-21&coords=42.44,-76.50&tz=-5)). Cornell Health runs a 24-hour advice line at 607-255-5155 ([Cornell Health](https://health.cornell.edu/about/news/cold-weather-safety)).
 

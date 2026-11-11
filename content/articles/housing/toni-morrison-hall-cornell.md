@@ -67,7 +67,7 @@ images: []
 - Rates follow room type, so a double here costs the same as in the oldest North hall.
 ```
 
-Toni Morrison Hall is a suite-style residence hall on Cornell's North Campus. It opened in 2021, holds 306 students and is listed for [upper-level students](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall). It has temperature-controlled rooms, a dining room and a café.
+Toni Morrison Hall is a suite-style residence hall on Cornell's North Campus. It holds 306 students and is listed for upper-level students ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall)). It has temperature-controlled rooms, a dining room and a café.
 
 ```figure
 kind: cost_table
@@ -86,7 +86,7 @@ rows:
   - {label: "How to get in", value: "Spring selection; Language House has its own application"}
 ```
 
-Source: Cornell Housing hall page, Housing Rates 2026-2027 and Cornell Dining. Cornell's page gives no street address.
+Source: Cornell Housing hall page, Housing Rates 2026-2027, Cornell Dining and the [Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life) for the 2021 opening. Cornell's page gives no street address.
 
 ## Who was Toni Morrison, and why is the hall named for her?
 
@@ -98,7 +98,7 @@ Suites set the tone. A locked door off the hall opens onto a few bedrooms, a sha
 
 Food is downstairs. Morrison Dining is one of North's three dining rooms, and Crossings Café sits in the same building ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms)). For a student who hates walking to a dining hall in January, that is the hall's best argument.
 
-Language House has lived here since 2023. For 2026-27 it offers Spanish, French, Mandarin, Korean and American Sign Language, and Cornell says its future location is still being decided ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house)). Cornell added ASL for 2025-26 ([Cornell Chronicle](https://news.cornell.edu/stories/2025/04/language-house-opens-students-learning-asl)).
+Language House moved here in 2023 ([Cornell Chronicle](https://news.cornell.edu/stories/2025/04/language-house-opens-students-learning-asl)). For 2026-27 it offers Spanish, French, Mandarin, Korean and American Sign Language, and Cornell says its future location is still being decided ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house)). Cornell added ASL for 2025-26 ([Cornell Chronicle](https://news.cornell.edu/stories/2025/04/language-house-opens-students-learning-asl)).
 
 ## What does a room in Toni Morrison Hall cost?
 

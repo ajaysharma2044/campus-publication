@@ -95,11 +95,11 @@ Cornell's housing pages in our sources do not list which small appliances you ca
 
 ## Do you need to cook if you live on campus?
 
-Mostly no. Every undergraduate living in on-campus housing who entered Cornell in 2021-22 or later must hold a meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)), and first-years must take Unlimited, which they cannot reduce or cancel ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). Cooking is a supplement for snacks, late meals and weekends. The cost side is in [is the Cornell meal plan worth it](/cornell/money/cornell-meal-plan-worth-it/), and if you want a full kitchen, see [is off campus cheaper than a Cornell dorm](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/).
+Mostly no. Every undergraduate living in on-campus housing who entered Cornell in 2021-22 or later must hold a meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)), and first-years must take Unlimited ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)). Cooking is a supplement for snacks, late meals and weekends. The cost side is in [is the Cornell meal plan worth it](/cornell/money/cornell-meal-plan-worth-it/), and if you want a full kitchen, see [is off campus cheaper than a Cornell dorm](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/).
 
 ## What do students say about cooking in residence halls?
 
-A May 2023 Sun columnist called dorm common kitchens, with stovetops and shared fridges, low-pressure practice for batch cooking ([The Sun](https://cornellsun.com/2023/05/03/culinary-autonomy-cooking-for-yourself)). A March 2026 Sun writer could not cook meat in a dorm and bought cheese at the farmers market instead ([The Sun](https://www.cornellsun.com/article/2026/03/ithaca-farmers-market-winter-edition)). Both are one student's experience.
+A May 2023 Sun columnist wrote that kitchens in dorms offer accessible ways to cook and store groceries ([The Sun](https://cornellsun.com/2023/05/03/culinary-autonomy-cooking-for-yourself)). A March 2026 Sun writer could not cook meat in a dorm and bought cheese at the farmers market instead ([The Sun](https://www.cornellsun.com/article/2026/03/ithaca-farmers-market-winter-edition)). Both are one student's experience.
 
 <!-- ad-break -->
 

@@ -55,7 +55,7 @@ Wari Cooperative is a Cornell-owned co-op at 208 Dearborn Pl. for 10 undergradua
 
 ## What is Wari Cooperative?
 
-A co-op is a university-owned house run by its residents. Cornell lists Wari at 208 Dearborn Pl. with 10 undergraduate women of color in 8 singles and 1 double ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wari-cooperative)). It is the smallest of the eight co-ops.
+A co-op is a university-owned house run by its residents. Cornell lists Wari at 208 Dearborn Pl. with 10 undergraduate women of color in 8 singles and 1 double ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wari-cooperative)).
 
 Cornell's diversity timeline dates the house to 1968 ([Cornell Diversity](https://diversity.cornell.edu/about-us/our-historic-commitment)). A 2001 Sun article quoted a resident who gave 1967, so the year is not settled in every source. Go by 1968, which is Cornell's own record. Cornellians credits Irene Smalls '71 as Wari's founder ([Cornellians](https://alumni.cornell.edu/cornellians/cbaa-50th/)).
 

@@ -132,7 +132,7 @@ Fall BRBs work at open cafes and stores through Dec. 24, 2026. Cornell Dining cl
 
 ## What if I lose my card or run out early?
 
-Report a lost card to Cornell Dining at dining@cornell.edu or 607-255-8582, Monday to Friday, 8 a.m. to 4:30 p.m. ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks/city-bucks-faqs)). The GET app can show a barcode that works in place of the card.
+Report a lost card to Cornell Dining at dining@cornell.edu or 607-255-8582, Monday to Friday, 8 a.m. to 4:30 p.m. ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks/city-bucks-faqs)). The barcode in the GET app replaces the physical ID at door checkers and cashiers ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/contactless-payment)).
 
 Running out is the common complaint. The March 2026 Sun column argued the BRB amount has stayed flat while prices rose, and that it covers at most two Trillium visits a week. That is one student's view ([The Sun](https://www.cornellsun.com/article/2026/03/we-want-more-big-red-bucks)). Count your spending after a month and top up only what you will spend.
 

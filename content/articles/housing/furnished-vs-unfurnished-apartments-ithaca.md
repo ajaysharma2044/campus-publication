@@ -119,8 +119,6 @@ The gap is small in every pair below.
 
 Source: [Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), [Cayuga Place](https://livehhcayuga.com/), and the Farm St listings, [furnished](https://www.ithacarents.com/4385-cute-furnished-1-br-apt-in-fall-creek-that-is-closest-to-cornell) and [unfurnished](https://www.ithacarents.com/4563-unfurnished-sun-filled-1br-in-fall-creek-1e-walk-to-cornell--commons).
 
-At [Cayuga Place](https://livehhcayuga.com/), the furniture package is an add-on, so you can compare renting furniture with buying it.
-
 The Farm Street pair is not a clean comparison, because the two units differ in utilities. The [furnished unit](https://www.ithacarents.com/4385-cute-furnished-1-br-apt-in-fall-creek-that-is-closest-to-cornell) includes utilities except water, WiFi and trash, and the [unfurnished one](https://www.ithacarents.com/4563-unfurnished-sun-filled-1br-in-fall-creek-1e-walk-to-cornell--commons) includes heat and gas. Both charge $33 a month per person for water.
 
 ## Which buildings come furnished?

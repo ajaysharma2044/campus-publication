@@ -77,7 +77,7 @@ Ujamaa Residential College is a Cornell program house with 144 residents in Low 
 
 ## What is Ujamaa Residential College?
 
-Cornell lists 144 residents at Ujamaa ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college)). The house began in 1972, in a building that opened in 1970 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house)).
+Cornell lists 144 residents at Ujamaa ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ujamaa-residential-college)). The house began in 1972, in a building that opened in 1970 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ujamaa-residential-college)).
 
 Low Rise 10 uses the layout shared by Low Rises 8 to 10: clusters of one double, one triple and two singles, with one shared bathroom and no air conditioning ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)). That puts seven people on one bathroom. Cornell's list of North Campus buildings without room air conditioning includes all the Low Rises ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall)).
 

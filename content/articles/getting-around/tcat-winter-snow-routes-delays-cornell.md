@@ -75,11 +75,11 @@ TCAT does not publish a snow-route map in the sources behind this page. Before a
 
 ## How do big storms change service?
 
-Storms bring delays. In January 2026, a storm with a forecast of 12 to 18 inches closed Cornell's Ithaca campus from noon on Jan. 25 to noon the next day. TCAT delayed its Monday service to 10 a.m. ([The Cornell Daily Sun](https://cornellsun.com/article/2026/01/cornell-announces-ithaca-and-agritech-campuses-will-reopen-at-noon-on-monday)). Our [closures guide](/cornell/getting-around/cornell-snow-days-class-cancellation-how-it-works/) explains who decides.
+Storms bring delays. In January 2026, a storm closed Cornell's Ithaca campus from noon on Jan. 25 to noon the next day. TCAT delayed its Monday service to 10 a.m. ([The Cornell Daily Sun](https://cornellsun.com/article/2026/01/cornell-announces-ithaca-and-agritech-campuses-will-reopen-at-noon-on-monday)). Our [closures guide](/cornell/getting-around/cornell-snow-days-class-cancellation-how-it-works/) explains who decides.
 
 ## Does the winter schedule change?
 
-TCAT publishes schedule changes about three times a year. The latest one found ran through Jan. 11, 2026, and no fall 2026 change notice was posted when this page was updated ([About TCAT](https://tcatbus.com/about/about-tcat/)). Check tcatbus.com for the schedule that applies to the date you travel.
+Check tcatbus.com for the schedule that applies to the date you travel.
 
 Holidays are the other change. TCAT runs every day of the year except Independence Day, New Year's Day, Memorial Day, Juneteenth, Thanksgiving and Christmas ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/07/service-changes-for-july-4-holiday-weekend-tcat-buses-curbside-recycling-city-offices-will-be-closed-on-independence-day)). For break travel and what to do without buses, see our [winter storms guide](/cornell/getting-around/cornell-winter-storms-travel-driving-ithaca/).
 
@@ -87,7 +87,7 @@ Holidays are the other change. TCAT runs every day of the year except Independen
 
 ## How reliable is TCAT in winter?
 
-Winter is not the only strain. TCAT has run short of drivers and buses in recent years. Routes 14S and 83, which serve West Hill, Cornell and Cayuga Heights, were suspended from fall 2023 and the board extended the suspension in April 2024 ([The Cornell Daily Sun](https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/)). Nearly a third of students use TCAT as their main way to campus, according to Cornell's assistant director of transportation ([The Cornell Daily Sun](https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall)).
+Winter is not the only strain. TCAT has run short of drivers and buses in recent years. Route 14S, which ran from West Hill to the southwest retail district, and Route 83, which ran from West Campus to Central Campus and Highland Avenue, were suspended from fall 2023 and the board extended the suspension in April 2024 ([The Cornell Daily Sun](https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/)). Nearly a third of students use TCAT as their main way to campus, according to Cornell's assistant director of transportation ([The Cornell Daily Sun](https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall)).
 
 The planning rule is simple: leave one bus earlier on snow days, and carry a backup, such as a walking route or a friend with a car.
 

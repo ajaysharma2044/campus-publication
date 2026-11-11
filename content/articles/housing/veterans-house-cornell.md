@@ -71,7 +71,7 @@ Veterans House is a Cornell program house for student veterans, with 26 resident
 
 ## What is Veterans House?
 
-A program house is a themed residence hall built around a shared interest or way of living. Cornell lists Veterans House at 26 residents, including one resident advisor ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college)). The Cornell Daily Sun reported that it opened in fall 2021 at 625 University Ave., the former Alpha Tau Omega house, with 26 undergraduates, 20 of them student veterans ([Cornell Daily Sun](https://www.cornellsun.com/article/2021/09/new-program-house-opens-creating-community-among-student-veterans)).
+A program house is a themed residence hall built around a shared interest or way of living. Cornell lists Veterans House at 26 residents, including one resident advisor ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house)). The Cornell Daily Sun reported that it opened in fall 2021 at 625 University Ave., the former Alpha Tau Omega house, with 26 undergraduates, 20 of them student veterans ([Cornell Daily Sun](https://www.cornellsun.com/article/2021/09/new-program-house-opens-creating-community-among-student-veterans)).
 
 Every room is a super single, and window air conditioners are available on request ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)). A super single is the highest-priced single on Cornell's rate table.
 
@@ -122,7 +122,7 @@ Cornell exempts students who served in active military, naval or air service and
 
 ## Can you stay over breaks?
 
-Yes. Veterans House has 12-month occupancy ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/program-houses)), and Cornell's winter break list names it among the open buildings ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)). Our guide to [staying in Ithaca over Cornell breaks](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/) covers dining and transport while campus is quiet.
+Yes. Veterans House has 12-month occupancy ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house)), and Cornell's winter break list names it among the open buildings ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)). Our guide to [staying in Ithaca over Cornell breaks](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/) covers dining and transport while campus is quiet.
 
 ## What should you watch before you sign?
 

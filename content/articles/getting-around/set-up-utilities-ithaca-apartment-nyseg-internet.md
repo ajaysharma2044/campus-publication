@@ -76,7 +76,7 @@ Only the ones your lease does not include. Listings vary a lot, so match each on
 
 Source: [209 Stewart Ave listing](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095), [Ithaca Renting downtown page](https://ithacarenting.com/downtown/) and [Dryden South](https://drydensouth.com/common-questions/).
 
-Cornell's list of lease terms puts utilities under "extra costs" to check, along with pets, guests and parking ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations)). The [lease guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) covers what else to read before you sign.
+Cornell's checklist tells you to include utilities when calculating what rent you can afford, and lists pets, parking and furniture among the features to check ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations)). The [lease guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) covers what else to read before you sign.
 
 ## How do you start NYSEG service?
 

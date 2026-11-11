@@ -94,7 +94,7 @@ You rank it in room selection. South Campus halls are one selection area, so a s
 
 Schuyler's own service center closed on Aug. 21, 2023, and residents were sent to Cascadilla Hall. A Cornell official cited low package volume. One resident put the walk at about 10 minutes each way, up a hill ([The Cornell Daily Sun](https://cornellsun.com/article/2023/08/schuyler-house-service-center-closed-after-move-in-residents-directed-to-cascadilla-hall)). Cornell's page still lists the mail address as 115 Cascadilla Place.
 
-On move-in day, Schuyler residents park in the far spaces of the building's lot, and no overnight parking is allowed there ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall)). The [Collegetown and downtown parking guide](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/) covers permits.
+For permits, read the [Collegetown and downtown parking guide](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/).
 
 ## What to do next
 

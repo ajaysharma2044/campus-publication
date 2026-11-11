@@ -38,9 +38,6 @@ sources:
 - url: https://www.safebutler.com/cheapest-renters-insurance-new-york
   title: Cheapest renters insurance in New York, SafeButler
   accessed: '2026-11-10'
-- url: https://gradguard.com/blog/?p=14522
-  title: 'GradGuard blog: what renters insurance costs'
-  accessed: '2026-11-10'
 - url: https://thecollegeinvestor.com/42409/gradguard-review-low-deductible-renters-tuition-insurance-tailored-to-students/
   title: GradGuard review, The College Investor
   accessed: '2026-11-10'
@@ -131,7 +128,7 @@ Cornell's own advice sits on three pages, and none gives a price. The checklist 
 
 ## How much does renters insurance cost in Ithaca?
 
-A basic student policy costs the low end of that range, and the price rises with property cover and liability limits ([SafeButler](https://www.safebutler.com/cheap-best-renters-insurance-ithaca-ny)). No single number is reliable, because each source measures something different. Read the last column before you compare.
+SafeButler puts a basic student policy at about $108 to $267 a year, and the price rises with property cover and liability limits ([SafeButler](https://www.safebutler.com/cheap-best-renters-insurance-ithaca-ny)). No single number is reliable, because each source measures something different. Read the last column before you compare.
 
 | Source | Price | What it measures |
 |---|---|---|
@@ -139,7 +136,6 @@ A basic student policy costs the low end of that range, and the price rises with
 | SafeButler, Ithaca | $5 and $10 a month | Two quotes for renters aged 18 to 24, Sept. 11, 2026 |
 | SafeButler, Ithaca | $108 to $267 a year | A 20-year-old student with basic cover, across 8 carriers |
 | [SafeButler, New York page](https://www.safebutler.com/cheapest-renters-insurance-new-york) | $155 a year | Its listed figure for Ithaca |
-| [GradGuard blog](https://gradguard.com/blog/?p=14522) | $13 a month | An average on GradGuard's own blog, not a Cornell rate |
 | [The College Investor](https://thecollegeinvestor.com/42409/gradguard-review-low-deductible-renters-tuition-insurance-tailored-to-students/) | $12 to $17 a month | Range in a review of GradGuard |
 | [Lemonade](https://www.lemonade.com/blog/renters-insurance-new-york) | $10 to $15 a month | New York range from one carrier |
 | [Insure.com](https://www.insure.com/renters-insurance/average-renters-insurance-cost-in-new-york/) | $328 a year | New York, at $40,000 of property and $300,000 of liability cover |
@@ -212,7 +208,7 @@ Your house's insurance is not yours. Houses that hold second-years must carry [c
 ```
 
 ```reader "If you're an international student"
-Buy the policy on arrival, alongside the move-in inspection. If you signed a lease from abroad, read it again for an insurance clause. GradGuard's vendor page lists worldwide property coverage, which helps if you carry a laptop home over break. You do not need an SSN [to rent an apartment](https://international.globallearning.cornell.edu/life-cornell/faq-international-students). Cornell's page does not say whether other insurers ask for one, so ask each insurer before you apply.
+Buy the policy on arrival, alongside the move-in inspection. If you signed a lease from abroad, read it again for an insurance clause. GradGuard's [vendor page](https://scl.cornell.edu/residential-life/housing/housing-details/housing-vendor-partnerships) lists worldwide property coverage, which helps if you carry a laptop home over break. You do not need an SSN [to rent an apartment](https://international.globallearning.cornell.edu/life-cornell/faq-international-students). Cornell's page does not say whether other insurers ask for one, so ask each insurer before you apply.
 ```
 
 ```reader "If you're a graduate or professional student"
@@ -255,7 +251,7 @@ Start the policy on the lease start date, not the day you arrive. Most Ithaca le
 
 **Do I need my own policy if my roommates have one?** Ask their insurer whether you are named on it. If you are not, assume you are not covered and buy your own.
 
-**Does renters insurance count in Cornell's cost of attendance?** It has no line of its own. The [undergraduate cost list](https://finaid.cornell.edu/cost-to-attend) shows housing, food, books, personal costs and transportation.
+**Does renters insurance count in Cornell's cost of attendance?** It has no line of its own. The [undergraduate cost list](https://finaid.cornell.edu/cost-to-attend) gives fixed amounts for housing, food, books and personal expenses, and describes transportation as a regional cost with no fixed amount.
 
 **Can I cancel a Cornell housing license and buy a lease instead?** A license is not a lease. Returning juniors and seniors can cancel for a fee, set out in the [2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028).
 

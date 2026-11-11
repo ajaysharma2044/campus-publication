@@ -53,11 +53,11 @@ images: []
 - Leases began Aug. 17, 2026; utilities cost an extra $150 per person per month if you opt in.
 ```
 
-The Ivy is an eight-story luxury building at College Avenue and Dryden Road, with studios to 7-bedrooms. It is built for students who will pay more for new, furnished apartments steps from Collegetown. Studios start at $2,595 a month ([Ithaca Voice](https://ithacavoice.org/2026/07/cornell-collegetown-construction/)).
+The Ivy is an eight-story luxury building at College Avenue and Dryden Road, with studios to three-bedrooms. It is built for students who will pay more for new, furnished apartments steps from Collegetown. Studios start at $2,595 a month ([Ithaca Voice](https://ithacavoice.org/2026/07/cornell-collegetown-construction/)).
 
 ## What is The Ivy, and how does it fit the Collegetown market?
 
-Modern Living Rentals manages the building, and co-developer Charlie O'Connor owns the company. His partner Nick Robertson earlier worked on College Townhouses, Collegetown Terrace and Cornell's North Campus expansion ([Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026)). The Ithaca Planning Board gave final approval in April 2025 for an eight-story mixed-use building with the Koko restaurant returning at street level ([Finger Lakes 1](https://www.fingerlakes1.com/2025/04/25/ithaca-greenlights-major-collegetown-project-eyes-more/)).
+[Modern Living Rentals](https://www.modernlivingrentals.com/the-ivy) manages the building. Co-developer Charlie O'Connor owns the company, and his partner Nick Robertson earlier worked on College Townhouses, Collegetown Terrace and Cornell's North Campus expansion ([Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026)). The Ithaca Planning Board gave final approval in April 2025 for an eight-story mixed-use building with the Koko restaurant returning at street level ([Finger Lakes 1](https://www.fingerlakes1.com/2025/04/25/ithaca-greenlights-major-collegetown-project-eyes-more/)).
 
 ```figure
 kind: cost_table
@@ -85,7 +85,7 @@ Prices depend on the unit and the report. The Cornell Daily Sun reported 3-bedro
 
 The Ithaca Voice put 3-bedrooms at up to $4,900 a month in July 2026 ([Ithaca Voice](https://ithacavoice.org/2026/07/cornell-collegetown-construction/)). The two reports are seven months apart and the sources do not explain the gap, so ask Modern Living Rentals for the current price of the exact unit.
 
-A Rentler listing updated July 2, 2026 shows how prices rise by floor. A 3-bedroom for an August 2027 start asks $1,900 to $1,950 per bedroom, and higher floors add $300 per bedroom. A one-bedroom, Unit 205, asks $2,700 per person, against $3,300 for a comparable unit on the eighth floor. The utility package is optional and costs $150 per person per month ([Rentler](https://www.rentler.com/places-for-rent/ny/ithaca/325-college-ave/13257148)).
+A Rentler listing updated July 2, 2026 shows how prices rise by floor. A one-bedroom, Unit 205, asks $2,700 per person, against $3,300 for a comparable unit on the eighth floor. The utility package is optional and costs $150 per person per month ([Rentler](https://www.rentler.com/places-for-rent/ny/ithaca/325-college-ave/13257148)).
 
 One early-interest offer cut the price 20% ([Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026)). The cheapest unit the Sun described was a basement 2-bedroom, 1-bath at $1,595 per person, or $3,190 total, against $4,000 at full price. One member of the class of 2027 offered the discount told the Sun she stayed in her current building because the basement unit had less square footage than her apartment and she could not see the interior.
 

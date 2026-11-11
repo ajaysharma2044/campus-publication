@@ -42,7 +42,7 @@ images: []
 ---
 
 
-Visitors pay to park on weekdays at Cornell and park free on weekends at three named sites ([Visit Cornell](https://www.cornell.edu/visit/parking/)). The main visitor lot, at the Tang Welcome Center, costs $1.50 an hour or $10 a day.
+Visitors pay to park on weekdays at Cornell and park free on weekends at three named sites ([Visit Cornell](https://www.cornell.edu/visit/parking/)). The Tang Welcome Center lot costs $1.50 an hour or $10 a day.
 
 ```glance
 - Weekday visitor parking requires payment, by ParkMobile or prepaid online.
@@ -67,7 +67,7 @@ rows:
   - {label: "Weekends at Toboggan Lodge and two garages", value: "Free"}
 ```
 
-Source: Cornell Transportation [short-term parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options) and the [2026 ParkMobile map](https://fcs.cornell.edu/sites/default/files/2026-08/ParkmobileMap26.pdf). Every ParkMobile transaction adds a $0.45 convenience fee.
+Source: Cornell Transportation [short-term parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options) and the [2026 ParkMobile map](https://fcs.cornell.edu/sites/default/files/2026-08/ParkmobileMap26.pdf). Every ParkMobile transaction adds a $0.45 convenience fee, per the short-term parking page.
 
 The Johnson Museum has metered parking for museum guests during open hours; register at reception.
 

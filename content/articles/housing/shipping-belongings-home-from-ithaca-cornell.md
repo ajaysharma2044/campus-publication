@@ -77,7 +77,7 @@ Source note: [BRSS](http://www.bigredboxes.com/BRSS_Pricing), [Uncle Marty's bun
 
 ## How does BRSS shipping work?
 
-BRSS is a division of Student Agencies, and the ship-home service runs through FedEx. Cornell says pickup is [free at your dorm, apartment or house](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options), and you must be there when the driver arrives.
+The Cornell Daily Sun reports that BRSS is run by Student Agencies and ships through FedEx ([The Cornell Daily Sun](https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes)). Cornell says pickup is [free at your dorm, apartment or house](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options), and you must be there when the driver arrives.
 
 ```figure
 kind: steps
@@ -93,7 +93,7 @@ The price list names the fees that can raise your bill: [overweight, oversized o
 
 ## What does Uncle Marty's offer?
 
-Uncle Marty's is a [FedEx and DHL authorized, USPS approved shipper](https://business.tompkinschamber.org/list/member/uncle-marty-s-printing-shipping-storage-more-12929) that has been in Collegetown since 2011. Its [box bundles](https://www.unclemartysoffice.com/move-out-bundles) run from $74.99 for a dorm room to $499.99 for a whole house. Curbside delivery is free on orders over $150, and an order placed before May 1 gets a guaranteed delivery slot. The shop does not post carrier shipping rates, so get a quote at the counter. Its [storage page](https://www.unclemartysoffice.com/storage) lists a free in-store drop-off.
+Uncle Marty's is a [FedEx and DHL authorized, USPS approved shipper](https://business.tompkinschamber.org/list/member/uncle-marty-s-printing-shipping-storage-more-12929) that has been in Collegetown since 2011. Its [box bundles](https://www.unclemartysoffice.com/move-out-bundles) run from $74.99 for a dorm room to $499.99 for a whole house. Curbside delivery is available on orders over $150, and an order placed before May 1 gets a guaranteed delivery slot. The shop does not post carrier shipping rates, so get a quote at the counter. Its [storage page](https://www.unclemartysoffice.com/storage) lists a free in-store drop-off.
 
 ## How much can you carry on a bus?
 

@@ -78,7 +78,7 @@ The rules shared by every South Campus hall are in [South Campus halls near Coll
 
 ## What is it like to live at Sheldon Court?
 
-The building has history. Charles L. Sheldon Jr., Class of 1901, operated it as "Cornell's First Dormitory." The Triangle Bookshop occupied part of the ground floor until Cornell bought the building in the 1950s ([Cornellians](https://alumni.cornell.edu/cornellians/article/collegetown-history)).
+The building has history. Charles L. Sheldon Jr., Class of 1901, built it, and it opened in 1903. The Triangle Bookshop occupied part of the ground floor until Cornell bought the building in the 1950s ([Cornellians](https://alumni.cornell.edu/cornellians/article/collegetown-history)).
 
 A Cornell Daily Sun feature from April 17, 2026, describes daily life. It counts five floors plus a basement. Each bathroom has three showers, three sinks and three toilets. The basement laundry has four washers and four dryers. The writer says the elevator keeps breaking down, and many residents get a double to themselves. The College & Oak bus stop is across the street ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/04/the-misunderstood-dorm-sheldon-court)).
 
@@ -105,7 +105,7 @@ You rank it in room selection, and its rooms can last until the end. During fall
 
 ## How does move-in and parking work?
 
-Sheldon residents unload through the Dryden Road Garage entrance at 114 Dryden Rd. and then park at the Williams Street Lot ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall)). A permit for that lot cost about $700 in 2023 and sold out within hours ([The Cornell Daily Sun](https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students)). The [parking guide](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/) lists the garages, and [getting around Ithaca without a car](/cornell/getting-around/getting-around-ithaca-off-campus-renters/) covers the bus from College & Oak.
+Cornell's move-in instructions for neighboring Cascadilla Hall send residents to park at the Williams Street Lot after unloading ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall)). A permit for that lot cost about $700 in 2023 and sold out within hours ([The Cornell Daily Sun](https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students)). The [parking guide](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/) lists the garages, and [getting around Ithaca without a car](/cornell/getting-around/getting-around-ithaca-off-campus-renters/) covers the bus from College & Oak.
 
 ## What to do next
 

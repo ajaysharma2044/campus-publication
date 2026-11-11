@@ -27,20 +27,8 @@ sources:
 - url: https://www.boltstorage.com/self-storage/lansing-ny
   title: Bolt Storage, 1101 Ridge Rd, Lansing
   accessed: '2026-11-10'
-- url: https://sparefoot.com/Ithaca-NY-self-storage.html
-  title: Self Storage Units in Ithaca, NY, SpareFoot
-  accessed: '2026-11-10'
 - url: https://www.storageseeker.com/self-storage/NY/dryden/storage-sense-ithaca/215442
   title: Storage Sense Ithaca, StorageSeeker
-  accessed: '2026-11-10'
-- url: https://neighbor.com/self-storage-near-me/new-york/ithaca
-  title: Self storage in Ithaca, Neighbor
-  accessed: '2026-11-10'
-- url: https://www.neighbor.com/facility/new-york/ithaca/4-season-storage/1395-dryden-rd/9693
-  title: 4-Season Storage, 1395 Dryden Rd, Neighbor
-  accessed: '2026-11-10'
-- url: https://www.neighbor.com/facility/new-york/freeville/bolt-storage/1401-dryden-rd/14857
-  title: Price comparison for 1401 Dryden Rd, Neighbor
   accessed: '2026-11-10'
 - url: https://www.selfstorage.com/self-storage/new-york/ithaca/24-hour-access/
   title: 24-Hour Access Storage in Ithaca, SelfStorage.com
@@ -71,7 +59,7 @@ images: []
 - For about ten boxes or fewer, a pickup service costs less than the smallest unit.
 ```
 
-A 5x5 self-storage unit near Cornell costs $84 a month, and a 10x10 runs from $122 to $222, according to [Bolt Storage's price lists](https://www.boltstorage.com/self-storage/freeville-ny). Every facility is a car ride from campus. Without a car, a pickup service costs less for a few boxes.
+A 5x5 self-storage unit near Cornell costs $84 a month at Bolt Storage's Dryden Road site ([Bolt Storage](https://www.boltstorage.com/self-storage/freeville-ny)), and a 10x10 runs from $122 to $222 across Bolt's three sites in the table below. Every facility is a car ride from campus. Without a car, a pickup service costs less for a few boxes.
 
 ## What does self-storage near Cornell cost?
 
@@ -82,13 +70,11 @@ Price depends on size, on whether the unit is climate controlled (kept at a stea
 | Bolt Storage, 1401 Dryden Rd (Route 366) | $84 drive-up; $96 climate | $147 drive-up; $222 climate | 5x10 $125 drive-up, $150 climate; 24-hour gate; about 6 minutes from Cornell |
 | Bolt Storage, 53 Pinckney Rd | none posted | $128 | 5x8 or 5x10 $106; 10x20 $234; drive-up only; free lock |
 | Bolt Storage, 1101 Ridge Rd, Lansing | none posted | $122 | 5x10 $99; drive-up only |
-| Storage Sense, 1395 Danby Rd | $89 deal, $112 regular | $190 deal | 5x10 $129 deal, $162 regular; 10x15 $189 deal, $237 regular |
-| 4-Season Storage, 1395 Dryden Rd | none posted | none posted | Listed "from $115" on a city page; 8 a.m. to 8 p.m. daily |
-| U-Haul Moving & Storage of Newfield | $130 | none posted | Listed on Neighbor's price comparison |
+| Storage Sense, 1395 Danby Rd | $89 deal, $112 regular | $190 deal | 5x10 $129 deal, $162 regular |
 
-Source note: Bolt Storage facility pages ([Dryden Road](https://www.boltstorage.com/self-storage/freeville-ny), [Pinckney Road](https://www.boltstorage.com/self-storage/ithaca-ny), [Ridge Road](https://www.boltstorage.com/self-storage/lansing-ny)); [SpareFoot](https://sparefoot.com/Ithaca-NY-self-storage.html) and [StorageSeeker](https://www.storageseeker.com/self-storage/NY/dryden/storage-sense-ithaca/215442) for Storage Sense; [Neighbor](https://neighbor.com/self-storage-near-me/new-york/ithaca) for 4-Season Storage and the [U-Haul price](https://www.neighbor.com/facility/new-york/freeville/bolt-storage/1401-dryden-rd/14857). Neighbor also lists J.C. Leasing units from $50 a month, with no date.
+Source note: Bolt Storage facility pages ([Dryden Road](https://www.boltstorage.com/self-storage/freeville-ny), [Pinckney Road](https://www.boltstorage.com/self-storage/ithaca-ny), [Ridge Road](https://www.boltstorage.com/self-storage/lansing-ny)); [StorageSeeker](https://www.storageseeker.com/self-storage/NY/dryden/storage-sense-ithaca/215442) for Storage Sense.
 
-Posted prices run above the averages. SpareFoot, a unit-search site, puts the average 10x10 at $93.39 a month and the average unit booked in the last 180 days at $107.19 ([SpareFoot](https://sparefoot.com/Ithaca-NY-self-storage.html)). [SelfStorage.com](https://www.selfstorage.com/self-storage/new-york/ithaca/24-hour-access/) lists an average 10x10 at $99.00. The $44 10x10 on SpareFoot is a promotion, and the cheapest 10x10 with 24-hour access there is $179. Ask what the rent becomes after the first month.
+[SelfStorage.com](https://www.selfstorage.com/self-storage/new-york/ithaca/24-hour-access/) lists an average 10x10 at $99.00. Ask what the rent becomes after the first month.
 
 A 5x5 is 25 square feet (5 × 5). A 10x10 is 100 square feet, four times the floor space. At Bolt's Dryden Road prices the 10x10 drive-up unit is 75 percent more than the 5x5 for four times the room, so the larger unit is the better deal per square foot if you can fill it ([Bolt Storage](https://www.boltstorage.com/self-storage/freeville-ny)).
 
@@ -102,7 +88,7 @@ Self-storage also needs transport. A pickup-truck rental costs [$30 to $60 a day
 
 Bolt Storage's Dryden Road site is the closest posted: about 6 minutes from Cornell, with a 24-hour gate, a free lock and month-to-month rent. It also requires insurance, either your own policy or a plan bought when you rent ([Bolt Storage](https://www.boltstorage.com/self-storage/freeville-ny)). The Pinckney Road and Lansing sites are drive-up only.
 
-Addresses for two facilities disagree across listing sites. SpareFoot puts Storage Sense at 1395 Danby Road, while StorageSeeker places it in the Dryden area. Neighbor lists 4-Season Storage at 1395 Dryden Road, with [hours of 8 a.m. to 8 p.m. and the phone number 607-533-7333](https://www.neighbor.com/facility/new-york/ithaca/4-season-storage/1395-dryden-rd/9693). Call before you drive out.
+Call before you drive out.
 
 ## Do you need a car to use self-storage?
 

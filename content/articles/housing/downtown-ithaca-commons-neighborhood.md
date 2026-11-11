@@ -84,7 +84,7 @@ Ithaca Renting's downtown buildings include Cityview at 118 Prospect St., Common
 
 Commons West allows subletting, with a two-month minimum and rental office approval (Ithaca Renting). Cityview is furnished, bans pets, and wants the first month and deposit before move-in. Its electricity terms conflict between pages, so ask in writing.
 
-Other landlords have downtown buildings too, among them [Cayuga Place](https://livehhcayuga.com/) at 131 E. Green St., [Gateway Commons](https://www.travishyde.com/downtown-ithacaf4ba8d70/gateway%20commons) at 311 E. Green St. and [Theory Ithaca](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/theory-ithaca-239997) at 445 E. State St. Ask each landlord what its rent covers.
+Other landlords have downtown buildings too, among them [Cayuga Place](https://livehhcayuga.com/) at 131 E. Green St., [Gateway Commons](https://www.travishyde.com/downtown-ithacaf4ba8d70/gateway%20commons) and [Theory Ithaca](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/theory-ithaca-239997) at 445 E. State St. Ask each landlord what its rent covers.
 
 <!-- ad-break -->
 

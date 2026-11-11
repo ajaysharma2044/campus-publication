@@ -53,7 +53,7 @@ images: []
 - A sublet done without the request steps is a substantial breach of the lease.
 ```
 
-In a New York building with four or more residential units, a landlord cannot refuse a sublet without a reasonable cause ([Real Property Law 226-b](https://www.nysenate.gov/legislation/laws/RPP/226-B)). In a building with three or fewer units, the lease controls and the landlord can say no.
+In a New York building with four or more residential units, a landlord cannot refuse a sublet without a reasonable cause ([Real Property Law 226-b](https://www.nysenate.gov/legislation/laws/RPP/226-B)). The statute's sublet rule covers buildings with four or more units, so it does not reach a building with three or fewer.
 
 ## Who has a legal right to sublet in New York?
 
@@ -82,7 +82,7 @@ If the landlord does not answer, the statute treats the silence as consent ([RPL
 
 ## What counts as an unreasonable refusal?
 
-The statute does not list reasons that count as reasonable, and the Cornell Law guide does not define them either. The tenant's side and the landlord's side each have to argue the facts. If you get a refusal, call the Cornell Law Tenants Advocacy hotline at [607-301-1560](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/) and read the letter to an adviser before you act.
+The statute does not list reasons that count as reasonable. The tenant's side and the landlord's side each have to argue the facts. If you get a refusal, call the Cornell Law Tenants Advocacy hotline at [607-301-1560](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/) and read the letter to an adviser before you act.
 
 Landlords sometimes publish policies that go further than the statute. Ithaca Renting's Collegetown page says sublets must be [registered and approved, go to Cornell students only, and run one per term](https://ithacarenting.com/collegetown/), with no Airbnb or stays under a month. Its [downtown policy](https://ithacarenting.com/downtown/) requires a two-month minimum and the agreement of all named tenants. A landlord's published policy is not the same as the statute. If a policy blocks a sublet in a building of four or more units, the question is whether the policy is a reasonable cause. The page does not answer that, and only a lawyer or a court can.
 
@@ -121,4 +121,4 @@ Read the sublet clause before you sign. Cornell's list of lease terms to check n
 
 ## What to do next
 
-Count the units in your building. If the count is four or more, mail the request and keep the receipt. If it is three or fewer, ask the landlord in writing and read the lease clause. In either case, call the [tenants hotline](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/) at 607-301-1560 before you act on a refusal.
+Count the units in your building. If the count is four or more, send the request by certified mail with a return receipt ([Real Property Law 226-b](https://www.nysenate.gov/legislation/laws/RPP/226-B)). If it is three or fewer, ask the landlord in writing and read the lease clause. In either case, call the [tenants hotline](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/) at 607-301-1560 before you act on a refusal.

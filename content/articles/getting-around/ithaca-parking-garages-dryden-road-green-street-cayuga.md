@@ -64,9 +64,9 @@ images: []
 Ithaca has three open city garages: Dryden Road in Collegetown, and Green Street and Cayuga Street downtown. All three charge $2.25 an hour, with a daily maximum of $12 or $18 ([City of Ithaca](https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328)). The Seneca Street Garage closed for good in 2026.
 
 ```glance
-- Every open garage charges $2.25 an hour since Jan. 5, 2026.
+- Every open garage charges $2.25 an hour since January 2026.
 - Downtown garages cap a day at $12. Dryden Road in Collegetown caps it higher.
-- Monthly permits start at $108 for Cayuga Street and reach $232 at Dryden Road.
+- Monthly permits cost $117 at Green Street and $232 at Dryden Road.
 - The Seneca Street Garage will not reopen.
 ```
 
@@ -80,21 +80,21 @@ title: Ithaca city garages at a glance, 2026
 rows:
   - {label: "Dryden Road Garage, 118 Dryden Rd.", value: "$2.25 an hour, $18 a day, $71 a week, $232 a month"}
   - {label: "Green Street Garage, 120 E. Green St.", value: "$2.25 an hour, $12 a day, $39 a week, $117 a month"}
-  - {label: "Cayuga Street Garage, 245 S. Cayuga St.", value: "$2.25 an hour, $12 a day, $108 a month"}
+  - {label: "Cayuga Street Garage, 245 S. Cayuga St.", value: "$2.25 an hour, $12 a day"}
   - {label: "Seneca Street Garage, 202 E. Seneca St.", value: "Closed since April 10, 2026"}
 ```
 
-Source: City of Ithaca pages for [Dryden Road](https://www.cityofithacany.gov/718/Dryden-Road-Garage) and [Green Street](https://www.cityofithacany.gov/716/Green-Street-Garage), and the [rate notice](https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328). The Cayuga monthly rate is from the city's [2026 budget proposal](https://cityofithaca.org/DocumentCenter/View/20272/2026-Final-Budget-Proposal-20251107?bidId=), which also lists a $180 premium tier, so confirm it with the operator.
+Source: City of Ithaca pages for [Dryden Road](https://www.cityofithacany.gov/718/Dryden-Road-Garage) and [Green Street](https://www.cityofithacany.gov/716/Green-Street-Garage), and the [rate notice](https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328).
 
 For a short stay, the math is simple: 4 hours costs $9.00 ([City of Ithaca](https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328)). The cost is the same in every garage until you reach its cap.
 
-Rates rose on Jan. 5, 2026. Before that, garages cost $1.50 an hour and were free from 6 p.m. Friday to 8 a.m. Monday. Council approved paid Saturdays on Nov. 5, 2025, projecting $322,000 in new revenue to help close a $2,100,000 budget gap ([Ithaca Voice](https://ithacavoice.org/2025/11/free-saturday-parking-in-ithaca-poised-to-end/)).
+Rates rose in January 2026. Before that, garages cost $1.50 an hour and were free from 6 p.m. Friday to 8 a.m. Monday. Council approved paid Saturdays on Nov. 5, 2025, projecting $322,000 in new revenue to help close a $2,100,000 budget gap ([Ithaca Voice](https://ithacavoice.org/2025/11/free-saturday-parking-in-ithaca-poised-to-end/)).
 
 ## Dryden Road Garage
 
 The [Dryden Road Garage](https://www.cityofithacany.gov/718/Dryden-Road-Garage) is the Collegetown garage. It is open around the clock, and the city recommends its monthly permit for Collegetown residents. Permits are sold in 30-day blocks with no guaranteed space, and a Worker's Special costs $185 a month. In winter, from November to April, the uncovered 4th and 5th floors are closed from 2 a.m. to 8 a.m. Cars must move every 24 hours.
 
-The ramp holds 210 spaces. A merchants' survey reported by the [Cornell Chronicle](https://news.cornell.edu/node/278473) found about a third of them empty in the daytime. The Chronicle story is undated, so treat that as a guide, not a guarantee.
+The ramp holds 210 spaces. A merchants' survey reported by the [Cornell Chronicle](https://news.cornell.edu/node/278473) found about a third of them empty in the daytime. The Chronicle story ran in October 1998, so treat that as a guide, not a guarantee.
 
 ```reader "If you rent in Collegetown with a car"
 A monthly permit pays off after 13 days a month, because the monthly price divided by the daily maximum is about 12.9 days. Our [off-campus renter guide](/cornell/getting-around/getting-around-ithaca-off-campus-renters/) compares it with other ways to get to campus.
@@ -104,7 +104,7 @@ A monthly permit pays off after 13 days a month, because the monthly price divid
 
 The [Green Street Garage](https://www.cityofithacany.gov/716/Green-Street-Garage), at 120 E. Green St., sells a monthly permit for 24/7 use. It has a $5 special events rate and is free on Sundays unless an event is on. The same move-every-day rule applies.
 
-The Cayuga Street Garage, at 245 S. Cayuga St., has more than 300 spaces and is run by Premium Parking ([FingerLakes1](https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/)). OurBus's downtown stop moved to [235 S. Cayuga St.](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/) on Nov. 9, 2026, next to it. For bus stops and routes, see our [intercity bus stops guide](/cornell/getting-around/ithaca-intercity-bus-stops-cornell-downtown/).
+The Cayuga Street Garage, at 245 S. Cayuga St., has more than 300 spaces ([FingerLakes1](https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/)). OurBus's downtown stop moved to [235 S. Cayuga St.](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/) on Nov. 9, 2026, next to it. For bus stops and routes, see our [intercity bus stops guide](/cornell/getting-around/ithaca-intercity-bus-stops-cornell-downtown/).
 
 ```reader "If you're a parent or visitor"
 Park at Cayuga Street for downtown or a bus pickup. On campus, the Tang Welcome Center lot costs [$1.50 an hour or $10 a day](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options). Our [parents and visitors guide](/cornell/getting-around/getting-around-cornell-parents-visitors/) covers getting around without a car.
@@ -116,7 +116,7 @@ The Seneca Street Garage closed on April 10, 2026, after debris fell from the th
 
 ## Can I leave a car in a city garage for days?
 
-Not easily. The city says its garages offer no long-term parking and refers drivers who need it to Premium Parking on Cayuga Street, across from the Hotel Ithaca, at (607) 256-7275 ([City of Ithaca](https://www.cityofithacany.gov/727/Parking-Regulations-Violations)). Cars in the garages must move daily. Monthly permits exist at each garage, so ask the garage before you leave a car for a break.
+Not easily. The city says its garages offer no long-term parking and refers drivers who need it to Premier Parking on Cayuga Street, across from the Hotel Ithaca, at (607) 256-7275 ([City of Ithaca](https://www.cityofithacany.gov/727/Parking-Regulations-Violations)). Cars in the garages must move daily. Monthly permits exist at Dryden Road and Green Street, so ask the garage before you leave a car for a break.
 
 ```reader "If you're moving out in May"
 Residents of Cascadilla Hall and Sheldon Court load at a city garage south of Cascadilla and at the Williams Street Garage, at Williams Street and Stewart Avenue ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information)). Our [move-out guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/) has the other docks and lots.

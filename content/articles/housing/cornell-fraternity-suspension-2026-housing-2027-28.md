@@ -124,7 +124,7 @@ You have no residential requirement, so a closed house means a lease. Rent for c
 
 ## What if your chapter house closes?
 
-Sign a lease early. Collegetown leases in the Sun's record go 10 to 11 months before an August move-in, and Ithaca Renting marked 14 of 67 Collegetown rows for 2027-28 as sold out on Nov. 8, 2026 ([Ithaca Renting](https://ithacarenting.com/collegetown/)). A group whose Greek housing fell through in 2018 started hunting in February and found a house for 14 people ([Cornell Daily Sun, 2018](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/)). That case shows a late search can work for a large group. It does not show it works for a small one.
+Sign a lease early. One Collegetown group told the Sun in 2018 that it signed in April 2017, 16 months before move-in, and Ithaca Renting marked 14 of 67 Collegetown rows for 2027-28 as sold out on Nov. 8, 2026 ([Ithaca Renting](https://ithacarenting.com/collegetown/)). A group whose Greek housing fell through in 2018 started hunting in February and found a house for 14 people ([Cornell Daily Sun, 2018](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/)). That case shows a late search can work for a large group. It does not show it works for a small one.
 
 ```tool when-to-sign-lease-timeline-cornell```
 
@@ -135,7 +135,7 @@ You live in a residence hall this year whatever you decide. Chapter housing matt
 ```
 
 ```reader "If you're a parent"
-Chapter rent is billed mostly through the Bursar, Cornell's student account office, and each chapter sets its own charge ([Affiliated Housing](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)). A closed house changes where your student sleeps, and it also changes who bills you, so ask the chapter treasurer how a closure would be handled before the first payment.
+Chapter rent is billed mostly through the Bursar, Cornell's student account office, and room and board fees vary ([Affiliated Housing](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)). A closed house changes where your student sleeps, and it also changes who bills you, so ask the chapter treasurer how a closure would be handled before the first payment.
 ```
 
 ## Why are chapter houses under this much scrutiny?

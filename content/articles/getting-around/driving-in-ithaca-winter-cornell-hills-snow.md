@@ -93,7 +93,7 @@ January is the peak. The 1991-2020 normals give these monthly totals ([Northeast
 
 Source: Northeast Regional Climate Center, Ithaca 1991-2020 normals.
 
-The first inch of snow now falls on Nov. 25 in a normal year, five days later than before the 1991-2020 normals ([Cornell Daily Sun](https://cornellsun.com/2021/11/17/delayed-first-snowfall-in-ithaca-reflects-changing-climate-patterns/)). Winter 2025-26 ran 3.1F below normal, the coldest in over a decade, with a low of -7F on Jan. 30 ([Cornell Daily Sun](https://cornellsun.com/article/2026/03/5z6poblqwoea)).
+The first inch of snow now falls on Nov. 25 in a normal year, five days later than under the previous 30-year normal ([Cornell Daily Sun](https://cornellsun.com/2021/11/17/delayed-first-snowfall-in-ithaca-reflects-changing-climate-patterns/)). Winter 2025-26 ran 3.1F below normal, the coldest in over a decade, with a low of -7F on Jan. 30 ([Cornell Daily Sun](https://cornellsun.com/article/2026/03/5z6poblqwoea)).
 
 Daylight is short too. On Dec. 21, 2026, the sun sets at 4:36 p.m. and rises at 7:32 a.m. ([U.S. Naval Observatory](https://aa.usno.navy.mil/api/rstt/oneday?date=2026-12-21&coords=42.44,-76.50&tz=-5)). Plan on driving home in the dark.
 
@@ -103,7 +103,7 @@ Two rules overlap, and neither is a suggestion. On campus, from Dec. 1 to Apr. 1
 
 On city streets, the odd/even rule runs Nov. 1 to Apr. 1, from 7 p.m. to 6 a.m. Park on the odd side on odd dates and the even side on even dates. The city enforces it only when needed, such as snow events, and sends alerts by TC SIREN or by texting SIREN to 67283. Tickets run $15, $30 and $45 for repeats ([City of Ithaca](https://www.cityofithacany.gov/727/Parking-Regulations-Violations)). A car unmoved for 72 hours can be towed ([City code](https://ecode360.com/8395630)). The full rules, with campus lots and break parking, are in our [winter parking guide](/cornell/getting-around/ithaca-winter-parking-rules-cornell-odd-even/).
 
-Collegetown renters have a third option. The Dryden Road Garage, at 118 Dryden Road, is open around the clock and costs $232 a month. Its uncovered 4th and 5th floors close from 2 a.m. to 8 a.m. from November through April, and cars must move every 24 hours ([City of Ithaca](https://www.cityofithacany.gov/718/Dryden-Road-Garage)). Other garages and permits are in our [Collegetown and downtown parking guide](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/).
+Collegetown renters have a third option. The Dryden Road Garage, at 118 Dryden Road, is open around the clock and costs $232 a month. Its uncovered 4th and 5th floors close from 2 a.m. to 8 a.m. from November through April ([City of Ithaca](https://www.cityofithacany.gov/718/Dryden-Road-Garage)). Other garages and permits are in our [Collegetown and downtown parking guide](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/).
 
 <!-- ad-break -->
 

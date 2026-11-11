@@ -70,7 +70,7 @@ The most direct numbers come from a Collegetown landlord that prints both on its
 
 Source: [CSP Management apartment search](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx), 2027-28 academic year listings. Rent per square foot is rent divided by size, for example $1,260 / 300 = $4.20.
 
-Both buildings are within half a mile of Ho Plaza by straight line, and 116 Osmun Pl includes heat, electricity and internet in the rent ([CSP Management](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx)). A bigger unit does not always mean a lower price per foot: the 3BR at 408 Stewart Ave costs more per foot than the 1BR at 116 Osmun Pl.
+Both buildings are within half a mile of Ho Plaza by straight line ([CSP Management](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx)). A bigger unit does not always mean a lower price per foot: the 3BR at 408 Stewart Ave costs more per foot than the 1BR at 116 Osmun Pl.
 
 Collegetown Terrace and 407 and 312 College Ave print sizes but not prices. Their 2x2, 3x3 and 4x4 layouts are 829, 1,212 and 1,545 sq ft ([Collegetown Terrace listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694)), which is about 414.5, 404 and 386 sq ft per bed. Their prices are listed as "Call For Price," so no per-foot price exists for them.
 
@@ -90,21 +90,9 @@ Outside Collegetown, more landlords print sizes. All figures below are per unit 
 
 Source: [Travis Hyde Properties availability page](https://www.travishyde.com/availability). The 509 Lake St. unit is Apt A-6.
 
-The pattern holds ([Travis Hyde Properties](https://www.travishyde.com/availability)). The two 1BRs under 420 sq ft cost $3.18 to $3.50 per foot, while the 780 sq ft 2BR on Lake Street is the cheapest per foot in the table. Cayuga Apartments adds heat to the rent, which helps explain why a downtown 2BR near the top of the 2BR range still beats the small units. The point is that size, not neighborhood, drives most of the spread.
+The pattern holds. The three 1BRs under 420 sq ft in the table cost $3.18 to $3.71 per foot ($1,435 for 387 sq ft, $1,400 for 400 sq ft and $1,305 for 411 sq ft; [Travis Hyde Properties](https://www.travishyde.com/availability)), while the 780 sq ft 2BR on Lake Street is the cheapest per foot in the table. Cayuga Apartments adds heat to the rent, which helps explain why a downtown 2BR near the top of the 2BR range still beats the small units. The point is that size, not neighborhood, drives most of the spread.
 
-A separate group, East Pointe at 15 E. Pointe Dr., lists seven floor plans with a starting price and size ([East Pointe listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/east-pointe-236696)). It sits outside the core Collegetown area.
-
-| Floor plan | Starting rent | Size | Per sq ft |
-|---|---|---|---|
-| B, 1BR | $2,575 | 820 sq ft | $3.14 |
-| C, 1BR | $2,585 | 873 sq ft | $2.96 |
-| F, 2BR | $2,675 | 1,090 sq ft | $2.45 |
-| A, 2BR | $3,413 | 1,093 sq ft | $3.12 |
-| E, 2BR | $2,625 | 1,095 sq ft | $2.40 |
-| G, 2BR | $3,159 | 1,157 sq ft | $2.73 |
-| D, 3BR | $2,850 | 1,268 sq ft | $2.25 |
-
-Two 2BR floor plans of almost the same size, A and E, differ by $788 a month ($3,413 minus $2,625), or about $0.72 per foot ([East Pointe](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/east-pointe-236696)). Starting prices move with the unit and floor, so treat a floor-plan figure as a floor, not a quote.
+East Pointe at 15 E. Pointe Dr. lists four unit types, 2x2, 3x3, 4x4 and a 4x4.5 townhouse, and most show "Call For Price" ([East Pointe listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/east-pointe-236696)). It sits outside the core Collegetown area, and without posted prices it has no per-foot figure here.
 
 ## Why do averages from rent sites look so high?
 

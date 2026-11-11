@@ -84,7 +84,7 @@ Source: Cornell Housing hall pages, Residence Hall Configurations and Housing Ra
 
 Mews is one of two halls that anchored the 2001 North Campus build-out. Court Hall and Mews Hall opened together that fall with a community center, and about 600 of that year's 3,029 first-years lived in them ([Cornell Daily Sun](https://cornellsun.com/2001/09/04/north-campus-grand-opening/)). From then on, only upper-level students lived on West Campus.
 
-Loving House is the other reason people name Mews. It opened in 2019 on the first floor, a program house for LGBTQIA+ students and allies with 30 residents in singles and doubles ([Cornell Alumni](https://alumni.cornell.edu/cornellians/program-houses/); [Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)). The rest of the hall is for first-years placed by Cornell.
+Loving House is the other reason people name Mews. It opened in 2019 on the first floor, a program house for LGBTQIA+ students and allies with 30 residents ([Cornell Alumni](https://alumni.cornell.edu/cornellians/program-houses/); [Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)). The rest of the hall is for first-years placed by Cornell.
 
 ## What is living in Mews Hall like?
 

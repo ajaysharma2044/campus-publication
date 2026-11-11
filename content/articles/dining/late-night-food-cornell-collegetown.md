@@ -69,26 +69,25 @@ images: []
 
 ```glance
 - Bear Necessities in Robert Purcell Community Center is listed open until 2 a.m. in fall 2026, the latest on campus.
-- Morrison Dining runs a Late Night block from 8:30 to 10:30 p.m.
+- North Star Dining Room runs a Late Night block from 8:30 to 10:30 p.m.
 - Past that, Collegetown has D.P. Dough, Wings Over Ithaca and 7-Eleven on College Avenue.
 - A ride home by TCAT costs $1.50; call a taxi for the rest.
 ```
 
-The latest campus food is at Bear Necessities, which Cornell Dining Now lists open until 2 a.m. in fall 2026 ([Dining Now](https://now.dining.cornell.edu/)). Morrison Dining adds a Late Night block until 10:30 p.m. After that, Collegetown, the neighborhood just below campus, carries the rest.
+The latest campus food is at Bear Necessities, which Cornell Dining Now lists open until 2 a.m. for Nov. 11 to 17, 2026 ([Dining Now](https://now.dining.cornell.edu/eatery/Bear-Necessities)). North Star Dining Room adds a Late Night block until 10:30 p.m. After that, Collegetown, the neighborhood just below campus, carries the rest.
 
 ## What is open late on campus?
 
-Five Cornell Dining spots list late hours for fall 2026 on [Dining Now](https://now.dining.cornell.edu/).
+Four Cornell Dining spots list late hours for Nov. 11 to 17, 2026 on [Dining Now](https://now.dining.cornell.edu/).
 
 | Place | Where | Hours listed |
 |---|---|---|
-| Bear Necessities Grill & C-Store | Robert Purcell Community Center, first floor (North Campus) | 10 a.m. to 2 a.m. |
-| Jansen's Market | Noyes Community Recreation Center (West Campus) | 11 a.m. to 1 a.m. |
-| Morrison Dining | Toni Morrison Hall (North Campus) | Late Night, 8:30 to 10:30 p.m. |
-| North Star Dining Room | Appel Commons (North Campus) | Late Night, 8:30 to 10:30 p.m. on several October dates |
-| Cook House Dining Room | West Campus | Late Night, 9 to 10 p.m. on October dates |
+| Bear Necessities Grill & C-Store | Robert Purcell Community Center, first floor (North Campus) | 8 a.m. to 2 a.m. weekdays, 10 a.m. to 2 a.m. weekends |
+| Jansen's Market | Noyes Community Recreation Center (West Campus) | 10 a.m. to 1 a.m. weekdays, 11 a.m. to 1 a.m. weekends |
+| North Star Dining Room | Appel Commons (North Campus) | Late Night, 8:30 to 10:30 p.m. nightly |
+| Cook House Dining Room | West Campus | Late Night, 9 to 10 p.m. nightly |
 
-Source: Cornell Dining Now pages for [Bear Necessities and Jansen's](https://now.dining.cornell.edu/), [Morrison](https://now.dining.cornell.edu/eatery/Morrison-Dining), [North Star](https://now.dining.cornell.edu/eatery/North-Star) and [Cook House](https://now.dining.cornell.edu/eatery/Cook-House-Dining).
+Source: Cornell Dining Now pages for [Bear Necessities](https://now.dining.cornell.edu/eatery/Bear-Necessities), [Jansen's](https://now.dining.cornell.edu/eatery/Jansens-Market), [North Star](https://now.dining.cornell.edu/eatery/North-Star) and [Cook House](https://now.dining.cornell.edu/eatery/Cook-House-Dining).
 
 Dining Now loads its hours by script, so a search result can show a stale time. Open the eatery page itself before a late trip. Cornell's pages show the Late Night time blocks but not whether a swipe or a door price covers the meal, so ask at the door.
 
@@ -117,7 +116,7 @@ The Sun's reporting fills in the rest, and every hour below is the writer's clai
 - The smpl Burger food truck parks beside Hideaway and Level B from 10 p.m. to 2 a.m. on Wednesdays and Saturdays, per a February 2025 Sun article ([The Sun](https://cornellsun.com/2025/02/19/keeping-it-smpl-student-led-food-truck-brings-burgers-to-late-night-collegetown)).
 - Halal Brothers is open to 2 a.m. on weekends and 10 p.m. on weekdays, according to a March 2025 Sun columnist ([The Sun](https://cornellsun.com/2025/03/10/cornells-abandonment-of-vegetarian-students-and-where-they-can-eat-instead)).
 
-Louie's Lunch, the food truck on Thurston Avenue, is on Cornell's approved food truck list ([Cornell EHS](https://ehs.cornell.edu/campus-health-safety/event-management/approved-food-truck-and-trailer-vendors)). A 2021 Sun feature said it closes at 3 a.m. and that lines can reach 20 people and about two hours. One student waited 1 hour 40 minutes for a grilled cheese ([The Sun](https://cornellsun.com/2021/11/10/like-a-good-friend-louies-is-there)).
+Louie's Lunch, a food truck, is on Cornell's approved food truck list ([Cornell EHS](https://ehs.cornell.edu/campus-health-safety/event-management/approved-food-truck-and-trailer-vendors)). A 2021 Sun feature said it closes at 3 a.m. and that lines can reach 20 people and about two hours. One student waited 1 hour 40 minutes for a grilled cheese ([The Sun](https://cornellsun.com/2021/11/10/like-a-good-friend-louies-is-there)).
 
 Cornell's pages list no menu prices for these spots. Check each menu before you order.
 
@@ -125,10 +124,10 @@ Cornell's pages list no menu prices for these spots. Check each menu before you 
 
 TCAT, Ithaca's bus system, charges $1.50 a ride for riders without a pass ([Downtown Ithaca Alliance](https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/)). Your free-ride status depends on your class year, so read [TCAT: free for Cornell students, hours and routes](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/) before you plan around a late bus.
 
-For taxis, the airport's list names Collegetown Cab at 607-588-8888 and Ithaca Dispatch at 607-277-7777, both listed as 24 hours ([Ithaca airport](https://flyithaca.com/taxis)). It shows no fares. For apps, see [Uber, Lyft and taxis in Ithaca](/cornell/getting-around/uber-lyft-taxi-ithaca-cornell/).
+For taxis, the airport's list names Collegetown Cab at 607-588-8888 and Ithaca Dispatch at 607-277-7777 ([Ithaca airport](https://flyithaca.com/taxis)). It shows no fares. For apps, see [Uber, Lyft and taxis in Ithaca](/cornell/getting-around/uber-lyft-taxi-ithaca-cornell/).
 
 ```reader "If you live on North Campus"
-Bear Necessities and Morrison's Late Night are on your side of the hill, so you can eat after studying without a ride. Collegetown is the trip that needs a bus or a taxi back.
+Bear Necessities and North Star's Late Night are on your side of the hill, so you can eat after studying without a ride. Collegetown is the trip that needs a bus or a taxi back.
 ```
 
 ```reader "If you live in Collegetown"

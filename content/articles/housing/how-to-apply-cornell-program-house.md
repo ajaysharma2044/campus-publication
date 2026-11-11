@@ -57,7 +57,7 @@ To apply to a Cornell program house, rank it on the regular campus housing appli
 
 ## What counts as a program house?
 
-A program house is a Cornell residence built around a theme. Themes include a language, a culture or a field of study. Cornell's 2027-28 list has 13: Akwe:kon, Ecology House, Equity & Engagement Community, HILC, JAM, Language House, Latino Living Center, Loving House, McLLU, Risley, Sober Living Community, Ujamaa and Veterans House ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)). Cornell calls Sober Living and Language House not true or traditional program houses ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/program-houses)).
+A program house is a Cornell residence built around a theme. Themes include a language, a culture or a field of study. Cornell's 2027-28 list has 13: Akwe:kon, Ecology House, Equity & Engagement Community, HILC, JAM, Language House, Latino Living Center, Loving House, McLLU, Risley, Sober Living Community, Ujamaa and Veterans House ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)). Cornell calls Sober Living Community "not a true Program House" ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/program-houses)).
 
 ```figure
 kind: cost_table

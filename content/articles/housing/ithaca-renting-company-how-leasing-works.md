@@ -58,7 +58,7 @@ Ithaca Renting Company leases by the bed on one-year leases that start on a fixe
 
 Ithaca Renting lists 18 properties. In Collegetown they include Collegetown Plaza, Center and Court on Dryden Road, Aces on Eddy Street, 705 E. Buffalo St. and several Dryden Road houses. Downtown it manages Cityview, Commons West and the Old Cigar Factory, among others ([all properties](https://ithacarenting.com/all-properties/)). It has leased to more than 600 tenants near campus ([The Cornell Daily Sun](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/)).
 
-Its office is at 118 Prospect St., Suite 200. The Collegetown phone line is 607-272-3000 and the downtown line is 607-273-9462 ([Ithaca Renting](https://ithacarenting.com/all-properties/)).
+The Collegetown phone line is 607-272-3000 and the downtown line is 607-273-9462 ([Ithaca Renting](https://ithacarenting.com/all-properties/)).
 
 ## How does per-bed pricing work?
 
@@ -83,7 +83,7 @@ Parking is a separate license for the full year, with a standard term of Aug. 15
 
 ## When does leasing open, and why the lines?
 
-Ithaca Renting opens each season's leasing on a set day. That day produced overnight lines in 2012, 2014 and 2019. In 2019 it opened 2020-21 leasing at 9 a.m. on Sept. 12 after students waited overnight ([The Cornell Daily Sun](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/)). The company has said it opens late so current tenants can decide on renewing.
+Ithaca Renting opens each season's leasing on a set day. Students camped outside for it in [2012](https://cornellsun.com/2012/10/01/as-collegetown-housing-rush-intensifies-students-sleep-outside-rental-agency/), [2014](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/) and 2019. In 2019 it opened 2020-21 leasing at 9 a.m. on Sept. 12 after students waited overnight ([The Cornell Daily Sun](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/)). The company has said it opens late so current tenants can decide on renewing.
 
 The company now posts 2027-28 prices openly. On Nov. 10, 2026, 14 of the 67 Collegetown rows were marked sold out. For the full picture of how early leases are signed, see the [when to sign guide](/cornell/housing/when-to-sign-collegetown-lease-cornell/) and its dataset.
 

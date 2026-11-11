@@ -62,7 +62,7 @@ Just About Music, or JAM, is a 166-resident Cornell program house in Low Rise 9 
 
 ## What is Just About Music?
 
-It is the music-themed program house. Low Rise 9 opened in 1970, and JAM has lived there since 2000 ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house)). With 166 residents it is one of the larger houses ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing)).
+It is the music-themed program house. Low Rise 9 opened in 1970, and JAM has lived there since 2000. The house has 166 residents ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam)).
 
 ```figure
 kind: cost_table
@@ -84,7 +84,7 @@ The shared rules for all 13 houses are in [Cornell program houses compared](/cor
 
 ## What is the room layout?
 
-Each cluster in Low Rises 8, 9 and 10 holds one double, one triple and two singles, with one shared bathroom, and none has air conditioning ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)). Adding the beds gives seven students per bathroom.
+Each room group in JAM holds one double, one triple and two singles, with one shared bathroom, and JAM rooms have no air conditioning ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam)). Adding the beds gives seven students per bathroom.
 
 ## What does JAM cost?
 
@@ -98,7 +98,7 @@ Program houses share the residence hall rate table. A meal plan is required: Unl
 
 Source: Cornell Housing rates for 2026-27 and Cornell Dining. Totals add the plan and the yearly fee to the room rate.
 
-Sun coverage of dorm pricing has cited a $70 yearly fee at JAM. A Sun column from April 29, 2026, argues that all dorms should cost the same ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/04/unequal-vs-inequitable-housing-why-all-dorms-should-cost-the-same)). Ask the house whether any fee applies this year.
+A Sun column from April 29, 2026, argues that all dorms should cost the same ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/04/unequal-vs-inequitable-housing-why-all-dorms-should-cost-the-same)). Ask the house whether any fee applies this year.
 
 Off campus, a room in a Collegetown shared suite has a median asking rent of $10,740 over 12 months, before food ([2026-27 housing cost dataset](/datasets/ithaca-housing-cost-by-living-situation-2026-27/)). [Is off campus cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) works through the full comparison.
 

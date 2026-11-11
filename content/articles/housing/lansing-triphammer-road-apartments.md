@@ -30,8 +30,6 @@ sources:
 - url: https://www.lansingwestapts.com/
   title: Lansing West Apartments
   accessed: '2026-11-10'
-- url: https://www.renthop.com/listings/2250-n-triphammer/f12/70986584
-  title: 2250 N. Triphammer Rd., RentHop
   accessed: '2026-11-10'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/triphammer-236697
   title: Triphammer Apartments, Cornell Off-Campus Housing Marketplace
@@ -92,19 +90,19 @@ Cornell lists Northeast at 4 miles and Lansing at 5 to 10 miles, with a bus or c
 | Pine Hill Apartments | 709 Triphammer Rd. | 1BR $1,390 to $1,490 | 27 units built in 1950; heat and hot water included |
 | 546 Warren Rd. | Upper and middle apartments | 1BR $1,250, 2BR $1,649 | Heat and off-street parking included |
 
-Sources: [Lansing West on RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx) and [RentHop](https://www.renthop.com/listings/2250-n-triphammer/f12/70986584); [Triphammer Apartments](https://triphammerapts.com/); [Winston Square](https://winstonsquareapts.com/); the [Ithaca College listings feed](https://offcampushousing.ithaca.edu/listing) (University Park, 546 Warren); Cornell marketplace pages for [The Meadows](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-meadows-at-ithaca-236704) and [Pine Hill](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/pine-hill-apartments-99962). Most print no lease year or per-bed basis.
+Sources: [Lansing West on RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx); [Triphammer Apartments](https://triphammerapts.com/); [Winston Square](https://winstonsquareapts.com/); the [Ithaca College listings feed](https://offcampushousing.ithaca.edu/listing) (University Park, 546 Warren); Cornell marketplace pages for [The Meadows](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-meadows-at-ithaca-236704) and [Pine Hill](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/pine-hill-apartments-99962). Most print no lease year or per-bed basis.
 
 Cornell's veterinary college lists Lansing West at $1,403 to $2,154 for one- to three-bedroom units, updated in February 2026, without saying per bed or per unit ([College of Veterinary Medicine](https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information)).
 
 ## What is Lansing West like?
 
-It is a large complex with plans named Otisco, Oneida, Cayuga, Keuka and Seneca, run by an affiliate of The Solomon Organization, with dynamic pricing that changes by unit and date ([Lansing West](https://www.lansingwestapts.com/)). RentCafe showed one-bedroom units available now at $1,038 and $1,193 and a promotion of rent free until January 2027 for applications by Nov. 14 and move-in by Dec. 1, 2026. Pets are cats only, at $40 a month for one cat or $60 for two ([RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx)). Heat, water and internet are not stated, so ask what rent includes.
+It is a large complex with plans named Otisco, Oneida, Cayuga, Keuka and Seneca and dynamic pricing that changes by unit and date ([RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx)). It is run by an affiliate of The Solomon Organization ([Lansing West](https://www.lansingwestapts.com/)). RentCafe showed one-bedroom units available now at $1,038 and $1,193 and a promotion of rent free until January 2027 for applications by Nov. 14 and move-in by Dec. 1, 2026. Pets are cats only, at $40 a month for one cat or $60 for two ([RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx)). Heat, water and internet are not stated, so ask what rent includes.
 
 <!-- ad-break -->
 
 ## What about Triphammer and Winston Square?
 
-Triphammer Apartments run standard 11- to 12-month leases, with a monthly premium for shorter terms, and charge pet rent plus a one-time fee ([Triphammer Apartments](https://triphammerapts.com/)). Winston Square says it takes no guarantors or cosigners and charges $45.00 a month for one pet under 25 pounds ([Winston Square](https://winstonsquareapts.com/)). That matters for a student without a U.S. credit history.
+Triphammer Apartments run standard 11- to 12-month leases, with a monthly premium for shorter terms ([Triphammer Apartments](https://triphammerapts.com/faqs/)). Winston Square says it takes no guarantors or cosigners and charges $45.00 a month for one pet under 25 pounds ([Winston Square](https://winstonsquareapts.com/faq/)). That matters for a student without a U.S. credit history.
 
 ```reader "If you're an international student"
 Winston Square takes no guarantors or cosigners, so ask every complex whether it accepts a parent as guarantor before you apply. Our [graduate housing guide](/cornell/housing/off-campus-housing-cornell-grad-students/) and [student family housing page](/cornell/housing/cornell-student-family-housing-ithaca/) list Cornell's own options.
@@ -116,7 +114,7 @@ Lansing is a Town, not the City of Ithaca. The City's rental certificate and Cor
 
 ## Do you need a car?
 
-Parking is easy here: Triphammer lists free on-site parking ([Triphammer Apartments](https://triphammerapts.com/)) and 546 Warren Rd. includes off-street spots ([listings feed](https://offcampushousing.ithaca.edu/listing)), so the question is whether you want to drive. Take the quiz, then run the bus pass break-even and total your rent plus commute.
+Parking is easy here: Triphammer lists free on-site parking ([Triphammer Apartments](https://triphammerapts.com/amenities/)) and 546 Warren Rd. includes off-street spots ([listings feed](https://offcampushousing.ithaca.edu/listing)), so the question is whether you want to drive. Take the quiz, then run the bus pass break-even and total your rent plus commute.
 
 ```tool do-i-need-a-car-at-cornell-quiz```
 

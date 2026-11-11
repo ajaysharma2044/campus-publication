@@ -90,7 +90,7 @@ Ask each landlord to state in writing whether a price is per bed or per unit.
 
 ## What Town of Ithaca rules apply?
 
-Parts of East Hill lie outside the City of Ithaca, in the Town, which calls itself a donut around the City. The Town provides no trash service, issues operating permits for buildings with three or more units, and keeps a rental registry for single-family homes rented 30 days or more ([Town of Ithaca](https://townithacany.gov/welcome-new-resident-guide/)). Its noise ordinance sets daytime hours at 7:00 a.m. to 9:00 p.m. ([Town of Ithaca Code](https://ecode360.com/8659282)).
+Parts of East Hill lie outside the City of Ithaca, in the Town, which calls itself a donut around the City. The Town provides no trash service ([Town of Ithaca](https://townithacany.gov/welcome-new-resident-guide/)).
 
 The Town also limits who can share a house. A family is people related by blood, marriage or adoption, more than two unrelated people count as a family only if the Zoning Board of Appeals finds a functional equivalent, and a single-family home is limited to one family plus one boarder. A 2017 case involving Ithaca College students upheld the rule ([Drummond v. Town of Ithaca ZBA](https://law.justia.com/cases/new-york/other-courts/2017/2017-ny-slip-op-30471-u.html)). A group of three or more students renting a single-family house in the Town should ask the landlord whether the house qualifies. Our [City, Town and Lansing guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) compares the rules.
 

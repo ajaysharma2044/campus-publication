@@ -117,7 +117,7 @@ First- and second-years [should not sign a lease](https://scl.cornell.edu/reside
 
 Exemptions are narrow: 21 or older by the start of the academic year, married, coming with legal dependents, a veteran who is not in ROTC, a transfer entering as a junior or senior, or a commuter living with a parent within 25 miles. Each lasts one academic year (Cornell residential policy).
 
-So the first lease usually covers junior year. The timing is awkward because that lease is signed during sophomore fall, while your child still lives in Cornell housing. Collegetown signings in the Sun's record from 2017 to 2025 came 8 to 16 months before move-in ([The Cornell Daily Sun](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/)). The wider market, including downtown and Lansing, has units later.
+So the first lease usually covers junior year. The timing is awkward because that lease is signed during sophomore fall, while your child still lives in Cornell housing. Collegetown leases have been signed as early as 15 to 16 months before move-in ([The Cornell Daily Sun](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/)). The wider market, including downtown and Lansing, has units later.
 
 ```tool when-to-sign-lease-timeline-cornell
 ```
@@ -158,7 +158,7 @@ Say a student on aid takes a downtown three-bedroom share at $795. The year cost
 
 New York caps a security deposit plus any rent advance at [one month's rent](https://www.nysenate.gov/legislation/laws/GOB/7-108), so a deposit and last month's rent together cannot exceed it. The deposit comes back with an itemized statement within 14 days of move-out, or the landlord loses the right to keep any of it. The landlord must offer a move-in inspection before move-in; if your child accepts, both sign a written condition record.
 
-Landlords cannot charge [any application fee](https://www.nysenate.gov/legislation/laws/RPP/238-A). A background or credit check costs the lesser of the actual cost or $20. Late fees are allowed only after rent is 5 days late, capped at the lesser of $50 or 5% of monthly rent. Non-refundable deposits and separate cleaning fees are [unlawful](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits). The [security deposit guide](/cornell/housing/ithaca-security-deposit-rules-tenants/) has the details.
+Landlords cannot charge [any application fee](https://www.nysenate.gov/legislation/laws/RPP/238-A). A background or credit check costs the lesser of the actual cost or $20. Late fees are allowed only when rent is more than 5 days late, capped at the lesser of $50 or 5% of monthly rent ([NY Real Property Law 238-a](https://www.nysenate.gov/legislation/laws/RPP/238-A)). Non-refundable deposits and separate cleaning fees are [unlawful](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits). The [security deposit guide](/cornell/housing/ithaca-security-deposit-rules-tenants/) has the details.
 
 ```tool ithaca-lease-fee-deposit-checker
 ```
@@ -196,7 +196,7 @@ rows:
   - {label: "Ask past tenants whether their deposits came back"}
 ```
 
-A Certificate of Compliance is the City of Ithaca's safety permit for rentals. Buildings with three or more units need one. Call the Building Division at 607-274-6508 or email ibd@cityofithaca.org and ask whether the address has a current certificate ([Cornell listings page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)).
+A Certificate of Compliance is the City of Ithaca's safety permit for rentals. Buildings with three or more units need one ([City of Ithaca](https://www.cityofithacany.gov/146/Certificate-of-Compliance)). Call the Building Division at 607-274-6508 or email ibd@cityofithaca.org and ask whether the address has a current certificate ([Cornell listings page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)).
 
 The safety lookup at safety.offcampusliving.cornell.edu shows sprinklers, extinguishers, smoke and carbon monoxide alarms and construction type. It covers City of Ithaca rentals only, not the Town of Ithaca, Lansing or Cayuga Heights, and it does not measure landlord quality or neighborhood safety ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments)).
 

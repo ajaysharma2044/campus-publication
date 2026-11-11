@@ -84,7 +84,7 @@ The shared rules for all 13 houses are in [Cornell program houses compared](/cor
 
 ## What sets Ecology House apart from other program houses?
 
-Its rooms. Most North Campus program houses have corridor rooms or clusters that share a bathroom. Ecology House is a corridor building where each room has a private bath, and it has all doubles, according to Cornell's room-layout list ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)). Air conditioning varies by building on North Campus. Cornell's building pages show no room air conditioning in Risley, the Low Rises and Akwe:kon, and manual in-room control in Ecology House and the Townhouses ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall)).
+Its rooms. Most North Campus program houses have corridor rooms or clusters that share a bathroom. Ecology House is a corridor building where each room has a private bath ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)), and every room is a double. Roommates share a heating and air conditioning unit ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house)).
 
 The sources cited here do not describe Ecology House's events, facilities or distance to class. Check Cornell's page for those details, or email the house staff.
 

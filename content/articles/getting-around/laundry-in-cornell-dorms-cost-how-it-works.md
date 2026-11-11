@@ -82,11 +82,11 @@ Cornell's housing rate covers gas, electricity, garbage and internet up to 200 G
 
 Source: Cornell hall and co-op pages. Halls not shown were not covered by the pages this guide used, so check your own hall's page for machine counts and payment.
 
-A residence hall's machine count matters at busy times. With four washers and four dryers, Sheldon Court's laundry room serves 164 residents ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/sheldon-court)).
+A residence hall's machine count matters at busy times. Sheldon Court's basement laundry room has four washers and four dryers, a resident told The Cornell Daily Sun ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/04/the-misunderstood-dorm-sheldon-court)). The building houses 164 residents ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/sheldon-court)).
 
 ## What is the dorm laundry fund?
 
-Cornell's Living on Campus hub links a laundry fund, which is a dorm service ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/campus-living)). The page does not explain how it works. Ask your residence hall director before you load money onto any card.
+Cornell's Living Off Campus page carries a link labeled Your Laundry Fund ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/campus-living)). The page does not explain how it works. Ask your residence hall director before you load money onto any card.
 
 ## What is the alternative to using the machines?
 

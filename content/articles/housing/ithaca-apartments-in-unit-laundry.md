@@ -135,7 +135,7 @@ Collegetown's mix is split by building age and landlord. These listings state th
 
 Source: Ithaca Renting property pages for [Aces](https://ithacarenting.com/property-details/?pid=15), [202 Dryden](https://ithacarenting.com/property-details/?pid=19), [105 Dryden Court](https://ithacarenting.com/property-details/?pid=17), [214 Dryden](https://ithacarenting.com/property-details/?pid=16), [Plaza](https://ithacarenting.com/property-details/?pid=1), [Center](https://ithacarenting.com/property-details/?pid=4) and [Court](https://ithacarenting.com/property-details/?pid=5), with prices from its [Collegetown list](https://ithacarenting.com/collegetown/); [The Ivy](https://ithacavoice.org/2026/07/cornell-collegetown-construction/) and [The Summit](https://www.modernlivingrentals.com/properties-page) from the Ithaca Voice and Modern Living Rentals.
 
-In-unit laundry does not always raise the price. Aces' 6-bedrooms, with washers and dryers inside, list from $695 to $895 per bed, while Plaza's 6-bedrooms, with shared laundry, list $775 to $875. The cheapest large houses are the ones to look at, as the [Collegetown medians](https://ithacarenting.com/collegetown/) show. Lambrou Real Estate also lists in-unit laundry at several Catherine St houses, per its [apartments page](https://www.lambrourealestate.com/apartments), though it prints no rents.
+In-unit laundry does not always raise the price. Aces' 6-bedrooms, with washers and dryers inside, list from $695 to $895 per bed, while Plaza's 6-bedrooms, with shared laundry, list $775 to $875. The cheapest large houses are the ones to look at, as the [Collegetown medians](https://ithacarenting.com/collegetown/) show.
 
 ## Which downtown buildings have in-unit laundry?
 
@@ -159,11 +159,11 @@ The Ivy Building's $940 to $1,010 is a listing-page range with no per-bed or per
 
 East Hill, South Hill and the north side have in-unit options at lower prices, with a longer trip to campus.
 
-- **Westview Terrace**, 8 Country Club Rd: a 2-bedroom at [$1,800 a month](https://www.travishyde.com/availability), with in-unit washer and dryer, furnished or unfurnished. Tenants pay electric.
+- **Westview Terrace**, 8 Country Club Rd: a [2-bedroom unit](https://www.travishyde.com/listings/detail/9dc6c8ea-ccb9-4242-8aad-1995082e539a) with an in-unit washer and dryer, furnished or unfurnished. Tenants pay electric.
 - **Summerhill Townhouses**, 222 Summerhill Lane: [3-bedroom townhouses at $2,700 to $2,750](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/summerhill-townhouses-7826), unfurnished, with a washer and dryer in each.
-- **Triphammer Apartments**, 5 Cinema Dr: 1-bedrooms from [$1,795 and 2-bedrooms from $1,950](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/triphammer-236697), with a washer and dryer in the 2-bedrooms.
+- **Triphammer Apartments**, 5 Cinema Dr: 1- and 2-bedroom homes at [$1,695 to $1,750](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/triphammer-236697), with in-home washer and dryer connections.
 - **The Outlook**, 815 S Aurora St, on South Hill: [fully furnished with in-unit laundry](https://www.outlookithaca.com/) and a private resident shuttle, from $1,800 to $3,700 on the Cornell marketplace.
-- **Winston Square**, 601 Winston Court: a [washer and dryer in every unit](https://winstonsquareapts.com/).
+- **Winston Square**, 601-1 Winston Court: a [washer and dryer in every unit](https://winstonsquareapts.com/).
 
 Cornell's neighborhoods page puts South Hill 1.5 to 3 miles from campus, and Lansing 5 to 10 miles out. The [guide to areas](/cornell/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/) compares the three nearest neighborhoods, and the commute adds a bus ride.
 

@@ -57,16 +57,15 @@ Off-campus students get mail at the apartment address, not at a Cornell service 
 
 Use the apartment's street address and unit number, then Ithaca, NY and the ZIP code. Cornell's residence hall service centers handle mail for hall residents, so they do not apply once you live in a lease.
 
-The ZIP code can mislead you. An "Ithaca, NY 14850" address covers 9 municipalities by the Town of Ithaca's address page and 12 by its welcome page, so a mailing address does not tell you which city, town or village you live in ([Town of Ithaca](https://townithacany.gov/welcome-new-resident-guide/)). That matters for rules like trash and permits, covered in the [lease guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) and the [off-campus housing guide](/cornell/housing/cornell-off-campus-housing-guide/).
+The ZIP code can mislead you. An "Ithaca, NY 14850" address covers 12 towns and villages plus the City of Ithaca, by the Town of Ithaca's welcome page, so a mailing address does not tell you which city, town or village you live in ([Town of Ithaca](https://townithacany.gov/welcome-new-resident-guide/)). That matters for rules like trash and permits, covered in the [lease guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) and the [off-campus housing guide](/cornell/housing/cornell-off-campus-housing-guide/).
 
 ## How do packages get delivered to an apartment?
 
-Where a carrier leaves a box depends on the building. The inventory behind this guide records two buildings with package handling:
+Where a carrier leaves a box depends on the building. The inventory behind this guide records one building with package handling:
 
 | Building | Package amenity listed |
 |---|---|
 | The Student Agencies Building, 409 College Ave | Package service, listed with free amenities ([building site](https://www.thestudentagenciesbuilding.com/)) |
-| 211 Linden Avenue, Collegetown | Package area ([listing](https://offcampushousing.ithaca.edu/listing)) |
 
 Source: building and marketplace listings. Other buildings can offer parcel rooms or lockers, but their listings do not say so.
 

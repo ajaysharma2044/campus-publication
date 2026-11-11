@@ -42,7 +42,6 @@ For most students in a shared apartment, Spectrum is the cheapest published choi
 ```glance
 - Spectrum's 100 Mbps entry plan is the lowest published price.
 - Directory prices run up to $120 a month, promotions and regular prices mixed.
-- Cayuga Place sells internet at $75 a month per unit, not in the rent.
 - Some rents already include Wi-Fi, such as $850 per room at 209 Stewart Ave.
 ```
 
@@ -74,11 +73,10 @@ When the rent is close. Several listings include it:
 | 209 Stewart Ave, Collegetown | WiFi inside $850 per room per month ([marketplace listing](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095)) |
 | 117 Thurston Ave., Cornell Heights | Heat and Wi-Fi included in $815 per person ([Ithaca Rents](https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights)) |
 | Whiton Hall, downtown | Wi-Fi included in $965 to $1,065 per bed ([Ithaca Renting](https://ithacarenting.com/downtown/)) |
-| Cayuga Place, 131 E. Green St. | Internet extra at $75 a month per unit ([Cayuga Place](https://livehhcayuga.com/)) |
 
 Source: building and marketplace listings, 2026-27 and 2027-28 terms.
 
-Against Spectrum's entry price, Cayuga Place's charge is $45 a month more (75 minus 30), or $540 over 12 months. Landlord internet that is bundled into rent is harder to price, so compare total rent. The [monthly cost guide](/cornell/housing/what-a-month-off-campus-costs-cornell/) and [utilities cost guide](/cornell/money/ithaca-utilities-cost-winter-heating-bill-apartment-students/) show how the pieces add up.
+Landlord internet that is bundled into rent is harder to price, so compare total rent. The [monthly cost guide](/cornell/housing/what-a-month-off-campus-costs-cornell/) and [utilities cost guide](/cornell/money/ithaca-utilities-cost-winter-heating-bill-apartment-students/) show how the pieces add up.
 
 ## What to do before you order
 

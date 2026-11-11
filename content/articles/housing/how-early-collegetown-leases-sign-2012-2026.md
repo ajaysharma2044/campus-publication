@@ -66,7 +66,7 @@ images: []
 - The only late case is a 14-person group whose Greek plans collapsed and signed about six months ahead.
 ```
 
-Collegetown leases sign 10 to 11 months before an August move-in in most dated cases, which puts the rush in September and October of the year before. Big group houses sign more than a year ahead, and the pattern has held since at least 2012 ([Cornell Daily Sun, 2018](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/)).
+Collegetown leases sign 10 to 11 months before an August move-in in five of the nine dated cases below, which puts the rush in September and October of the year before. Big group houses sign more than a year ahead ([Cornell Daily Sun, 2018](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/)).
 
 ## What does the record show?
 
@@ -78,13 +78,13 @@ The Cornell Daily Sun holds the only dated record ([Cornell Daily Sun](https://c
 | Nov. 7, 2018 | 10-bedroom house, North Quarry St. | May 2017 | about 15 |
 | Nov. 7, 2018 | 14-person house after Greek plans fell through | Hunt began in February | at most 6 |
 | [Sept. 19, 2019](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/) | Ithaca Renting opening day, 2020-21 leases | Sept. 12, 2019 | about 11 |
-| [Oct. 13, 2021](https://cornellsun.com/2021/10/13/just-months-after-move-in-next-years-hectic-housing-search-begins/) | Many students seven weeks into fall | October 2021 | about 10 |
+| [Oct. 13, 2021](https://cornellsun.com/2021/10/13/just-months-after-move-in-next-years-hectic-housing-search-begins/) | Many students seven weeks into fall | By Oct. 13, 2021 | 10 or more |
 | [Aug. 4, 2022](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/) | A columnist in sophomore year | October 2021 | about 10 |
 | [Sept. 12, 2022](https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/) | A student two weeks after arriving | Before Labor Day 2022 | about 11 |
 | Sept. 12, 2022 | The same student's earlier lease | Sept. 19, 2021 | about 11 |
 | [Dec. 2, 2025](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026) | The Ivy, nearly all 52 units leased | By December 2025 | 8 or more |
 
-Five of nine cases fall at 10 or 11 months. Two are big houses signed more than a year ahead. One is the fallback: at most 6 months ([Cornell Daily Sun, 2018](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/)). The Sun called a 14-person lease signed within a year of move-in a possible warning sign, so treat that case as a rescue, not a plan. The sample is one outlet, and reporters seek out early signers, so it shows the shape of the market, not a median.
+Five of nine cases fall at 10 or 11 months. Two are big houses signed more than a year ahead. One is the fallback: a group that began hunting in February, at most 6 months before an August move-in ([Cornell Daily Sun, 2018](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/)). The Sun called a 14-person lease signed within a year of move-in a possible warning sign, so treat that case as a rescue, not a plan. The sample is one outlet, and reporters seek out early signers, so it shows the shape of the market, not a median.
 
 ## How has the rush changed since 2012?
 
@@ -102,19 +102,19 @@ rows:
   - {label: "14 of 67 Ithaca Renting rows sold out for 2027-28", date: "Nov. 8, 2026"}
 ```
 
-In 2013, Cornell's assistant dean said the signing period had moved from January to late October or November, and that the August and September push was only four to six years old ([Cornell Daily Sun, 2013](https://cornellsun.com/2013/09/12/despite-new-law-housing-rush-persists-in-collegetown/)). The same coverage described a split market: 12-month units go first, and 10-month August units appear in October. In 2019, Off-Campus Living's manager said the rush had moved into the first days of fall and called "you must sign the day you arrive" a myth ([Cornell Daily Sun, 2019](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/)).
+In 2013, Cornell's assistant dean said the signing period had moved from January to late October or November, and that the August and September push was only four to six years old ([Cornell Daily Sun, 2013](https://cornellsun.com/2013/09/12/despite-new-law-housing-rush-persists-in-collegetown/)). In 2019, Off-Campus Living's manager said the rush had moved into the first days of fall and called "you must sign the day you arrive" a myth ([Cornell Daily Sun, 2019](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/)).
 
-The camp-outs show the demand. The Sun counted about 15 students camped outside Ithaca Renting in 2012 and more than 150 on Dryden Road in 2014 ([Cornell Daily Sun, 2022](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/)). In 2016, George Avramis, a landlord, said his units were 70 to 75% leased overall by late September, and Josh Lower, another, said he usually rents most of his by the end of November ([Cornell Daily Sun, 2016](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/)).
+The camp-outs show the demand. The Sun counted about 15 students camped outside Ithaca Renting in 2012 ([Cornell Daily Sun, 2012](https://cornellsun.com/2012/10/01/as-collegetown-housing-rush-intensifies-students-sleep-outside-rental-agency/)) and more than 150 on Dryden Road in 2014 ([Cornell Daily Sun, 2022](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/)). In 2016, George Avramis, a landlord, said his units were 70 to 75% leased overall, and Josh Lower, another, said he usually rents most of his by the end of November ([Cornell Daily Sun, 2016](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/)).
 
 ## Why do big houses go first?
 
 A few landlords hold most of the beds. In 2013 the Sun counted eight landlords who owned 4,013 of an estimated 6,110 Collegetown bedrooms, about two-thirds ([Cornell Daily Sun, 2013](https://cornellsun.com/2013/05/02/collegetown-housing-market-scrutinized/)). One signature fills a 12-bedroom house, so a large group that moves first takes many beds off the market at once. That fits the 2017 signings for the 12- and 10-bedroom houses, which are the earliest on record.
 
-New supply has not ended the early rush. The Sun reported nearly 200 new bedrooms in three buildings in 2016, and The Ivy leased nearly all of its 52 units before construction finished ([Cornell Daily Sun, 2016](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/)). For the 2027-28 price of each unit size, see the [per-bed rent guide](/cornell/housing/collegetown-rent-prices-per-bed-one-bedroom/).
+New supply has not ended the early rush. The Sun reported nearly 200 new bedrooms in three buildings in 2016 ([Cornell Daily Sun, 2016](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/)), and The Ivy had leased nearly all of its 52 units by December 2025, months before it opened ([Cornell Daily Sun, 2025](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026)). For the 2027-28 price of each unit size, see the [per-bed rent guide](/cornell/housing/collegetown-rent-prices-per-bed-one-bedroom/).
 
 ## Did the notice laws change the timing?
 
-No. In April 2013 Ithaca required 60 days' written notice before a landlord renewed, showed or re-let a unit. The clock started at the lease start, so for a June lease showings could begin in late August, and the rush went on. In 2022 the City lengthened the notice to 120 days, effective May 31, 2022, with a waiver that must be written, bolded and initialed on the lease's first page ([WSKG](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/)). The two signings after that date, in September 2022, fall in the same 10-to-11-month window as the ones before. The rule and its count are explained in the [120-day guide](/cornell/housing/ithaca-120-day-lease-renewal-notice-rule/).
+No. A 2013 city law, effective June 15, 2013, required 60 days' written notice before a landlord renewed, showed or re-let a unit. The clock started at the lease start, so for a June lease showings could begin in late August, and the rush went on ([Cornell Daily Sun, 2013](https://cornellsun.com/2013/09/12/despite-new-law-housing-rush-persists-in-collegetown/)). In 2022 the City lengthened the notice to 120 days, effective May 31, 2022, with a waiver that must be written, bolded and initialed on the lease's first page ([WSKG](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/)). The two signings after that date, in September 2022, fall in the same 10-to-11-month window as the ones before. The rule and its count are explained in the [120-day guide](/cornell/housing/ithaca-120-day-lease-renewal-notice-rule/).
 
 ## What does the record not tell you?
 

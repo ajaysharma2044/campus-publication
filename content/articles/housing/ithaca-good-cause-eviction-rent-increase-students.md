@@ -77,7 +77,7 @@ If you rent a private apartment in the City of Ithaca, Good Cause Eviction cover
 
 ## What is Good Cause Eviction, and when did Ithaca join?
 
-New York's Good Cause law took effect on April 20, 2024. Outside New York City it applies only where a city, town or village opts in, and it is scheduled to expire on June 15, 2034 ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal)). Ithaca's Common Council voted 8-2 to opt in, and WAMC reported it on July 12, 2024. Ithaca was the fourth upstate city to do so, after Albany, Kingston and Poughkeepsie.
+New York's Good Cause law took effect on April 20, 2024. Outside New York City it applies only where a city, town or village opts in ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal)). Ithaca's Common Council voted 8-2 to opt in, and WAMC reported it on July 12, 2024. Ithaca was the fourth upstate city to do so, after Albany, Kingston and Poughkeepsie.
 
 The opt-in belongs to the City of Ithaca. It covers Collegetown, Fall Creek and downtown. An apartment in the Town of Ithaca, Lansing or Cayuga Heights is outside it, and the [City versus town guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) shows which side of the line you are on.
 
@@ -85,7 +85,7 @@ The opt-in belongs to the City of Ithaca. It covers Collegetown, Fall Creek and 
 
 **A right to renew.** A covered tenant is entitled to a renewal unless the landlord has a ground the law allows: the landlord or a family member will live there, the building will be demolished, the unit is leaving the rental market, or a proven legal ground such as nonpayment or a lease violation not fixed after 10 days' written notice ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal)).
 
-**A test for rent increases.** An annual increase above the lower of 10% or 5% plus the year's inflation figure (CPI) is presumed unreasonable ([NY Homes and Community Renewal](https://hcr.ny.gov/good-cause-eviction)). The landlord can rebut the presumption in court, so this is a test and not a hard cap. The state housing agency publishes the CPI figure, usually by Aug. 1. The agency's August 2026 notice could not be read as text, so the CPI figure behind the 2026 line is unconfirmed. Treat the 10% line as the outer limit and look up the notice on the agency's page.
+**A test for rent increases.** An annual increase above the lower of 10% or 5% plus the year's inflation figure (CPI) is presumed unreasonable ([NY Homes and Community Renewal](https://hcr.ny.gov/good-cause-eviction)). The agency calls such an increase presumptively unreasonable, so this is a test and not a stated hard cap. The state housing agency publishes the CPI figure, usually by Aug. 1. The agency's August 2026 notice could not be read as text, so the CPI figure behind the 2026 line is unconfirmed. Treat the 10% line as the outer limit and look up the notice on the agency's page.
 
 The two connect in [section 216](https://www.nysenate.gov/legislation/laws/RPP/216). A tenant who refuses reasonable renewal terms can be removed if the landlord gave written notice 30 to 90 days before the lease ends. Failing to pay an unreasonable increase is not a good cause for eviction.
 

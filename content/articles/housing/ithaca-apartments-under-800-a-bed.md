@@ -88,7 +88,7 @@ images: []
 - Ask what's included: several cheap houses leave heat and electricity to tenants.
 ```
 
-At least 26 Ithaca buildings list a bed at $800 a month or less. The cheapest is a $650 room in a downtown 6-bedroom house ([PPM Homes](https://www.ppmhomes.com/listings/detail/3f1544f9-76c1-4375-91f6-b2400a52dbbf)). Most are 5- to 10-bedroom shares in Collegetown, Fall Creek, Cornell Heights and downtown, so the more housemates you sign with, the less each bed costs.
+At least 26 Ithaca buildings list a bed at that price or less. The cheapest is a room in a downtown 6-bedroom house ([PPM Homes](https://www.ppmhomes.com/listings/detail/3f1544f9-76c1-4375-91f6-b2400a52dbbf)). Most are 5- to 10-bedroom shares in Collegetown, Fall Creek, Cornell Heights and downtown, so the more housemates you sign with, the less each bed costs.
 
 ## Which Collegetown buildings rent beds under $800?
 
@@ -116,7 +116,7 @@ Fall Creek, the older house neighborhood below North Campus, and Cornell Heights
 
 The best value on the list is a room at 130.5 University Ave. Goldenrod Real Estate lists three rooms there at $750 a person, with all utilities and in-unit laundry included. Kelvin Place Apartments, 219 Kelvin Pl., rents furnished single rooms at $795 to $825 with electricity, heat, internet and laundry included ([Cornell marketplace listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/kelvin-place-apartments-237474)).
 
-Travis Hyde's Ravenwood, at 516 University Ave., lists a private bedroom in a 5-bedroom, 2-bath apartment at $700 a month, with heat, water and electricity included on that room-by-room listing ([Travis Hyde](https://www.travishyde.com/west-campus/ravenwood)). The same building's whole 3-bedrooms run $2,225 a month, which is $741.67 a bed.
+Travis Hyde's Ravenwood, at 516 University Ave., lists a private bedroom in a 5-bedroom, 2-bath apartment at $700 a month, with water and sewer included on that room-by-room listing ([Travis Hyde](https://www.travishyde.com/west-campus/ravenwood)). The same building's whole 3-bedrooms run $2,225 a month, which is $741.67 a bed.
 
 Auden Ithaca, 210 Lake St., advertises individual leasing, with a listed price range of $689 to $1,389 ([Cornell marketplace listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/auden-ithaca-7919)). The listing shows "Call For Price" for most floor plans and does not say which unit or basis the $689 applies to, so confirm it before you count on it. Its rent includes water, trash, cable and internet, and the building runs a private shuttle to campus.
 
@@ -139,7 +139,7 @@ Source: Ithaca College and Cornell off-campus housing marketplaces and Travis Hy
 
 Downtown has more cheap beds in mid-size units, and the price is a longer trip to campus. At Ithaca Renting, a bed in a standard 3-bedroom at the Old Cigar Factory, 108-114 E. State St., lists at $695 to $795 for 2026-27 ([Ithaca Renting downtown](https://ithacarenting.com/downtown/)). A 3-bedroom at 156 The Commons and a 5-bedroom at Cityview, 118 Prospect St., both list at $745 to $845. Those are 2026-27 and "available now" units; 2027-28 downtown prices are not yet posted. At that landlord, a downtown bed ran about 20% to 28% below a Collegetown bed of the same size ([Collegetown vs downtown dataset](/datasets/collegetown-vs-downtown-rent-per-bed-2026/)).
 
-Downtown houses carry the lowest prices on this list. PPM Homes lists 119-121 Prospect St., a 6-bedroom, 2-bath house, at $650 a room, with tenants paying utilities ([PPM Homes](https://www.ppmhomes.com/listings/detail/3f1544f9-76c1-4375-91f6-b2400a52dbbf)). PPM's 7-bedroom at 310-312 S. Aurora St. lists at $700 a room, also with utilities extra ([PPM Homes](https://www.ppmhomes.com/listings/detail/d9a5af7d-9b77-4e9a-83f0-a517e63e77cf)). A furnished 6-bedroom at 416 Hudson St. rents for $4,170 a month from Aug. 7, 2027, which is $695 a bed ([IthacaRents](https://www.ithacarents.com/4516-6-bedroom-house-for-27/28-school-year)).
+Downtown houses carry the lowest prices on this list. PPM Homes lists 119-121 Prospect St., a 6-bedroom, 2-bath house, at $650 a room, with tenants paying utilities ([PPM Homes](https://www.ppmhomes.com/listings/detail/3f1544f9-76c1-4375-91f6-b2400a52dbbf)). PPM's 7-bedroom at 310-312 S. Aurora St. lists at $700 a room, also with utilities extra ([PPM Homes](https://www.ppmhomes.com/listings/detail/d9a5af7d-9b77-4e9a-83f0-a517e63e77cf)). A furnished 6-bedroom at 416 Hudson St. rents for $4,170 a month from Aug. 7, 2027, which is $695.00 a bed ($4,170 split six ways) ([IthacaRents](https://www.ithacarents.com/4516-6-bedroom-house-for-27/28-school-year)).
 
 | Building | Unit | Price per bed | Lease year | Miles to Ho Plaza |
 |---|---|---|---|---|
@@ -156,13 +156,13 @@ Source: Ithaca Renting downtown page, PPM Homes, IthacaRents, and the Ithaca Col
 
 Whiton Hall is the downtown option closest to a dorm: private furnished rooms with a shared kitchen and baths on each floor, with heat, electricity and building Wi-Fi included ([Cornell marketplace listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/whiton-hall-10220)). Its listing prints a range of $730 to $1,200 without saying which rooms cost what.
 
-South Hill adds one more: a furnished 4-bedroom at 174 Kendall Ave. rents for $2,600 a month, or $650 a person plus electricity and heat, on an 11-month lease from Aug. 1 to June 30, 2027-28 ([IthacaRents](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom)). It sits 1.35 miles from Ho Plaza in a straight line.
+South Hill adds one more: a furnished 4-bedroom at 174 Kendall Ave. rents for $2,600 a month, or $650 a person plus electricity and heat ($2,600 split four ways), on an 11-month lease from Aug. 1 to June 30, 2027-28 ([IthacaRents](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom)). It sits 1.35 miles in a straight line from Ho Plaza, measured from the address.
 
 <!-- ad-break -->
 
 ## What does an $800 bed cost over a year?
 
-An $800 bed on a 12-month lease costs $9,600 a year, $4,144 less than a 2026-27 Cornell residence hall double at $13,744 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Spread over 12 months, the double is $1,145.33 a month, so every bed on this page undercuts it on rent alone. The double covers gas, electricity, garbage and internet, so add your share of the bills a cheap house leaves to you.
+A bed at this page's top price, on a 12-month lease, costs $9,600 a year, $4,144 less than a 2026-27 Cornell residence hall double at $13,744 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Spread over 12 months, the double is $1,145.33 a month, so every bed on this page undercuts it on rent alone. The double covers gas, electricity, garbage and internet, so add your share of the bills a cheap house leaves to you.
 
 ```figure
 kind: cost_table
@@ -188,7 +188,7 @@ Ithaca Renting includes heat and hot water at every property, but tenants pay el
 
 The rent per bed falls as the unit gets bigger, because a landlord spreads one kitchen, one living room and one lot over more tenants. At Ithaca Renting, the 2027-28 median bed costs $1,246.25 in a 4-bedroom, $800 in a 6-bedroom and $775 in a 10-bedroom, so a 6-bedroom bed costs $446.25 a month less than a 4-bedroom one ([EduExplained Collegetown dataset](/datasets/collegetown-rent-per-bed-2027-28/)). Cornell's own advice says rooms in a student or private house tend to be the cheapest option ([Cornell checklists](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations)).
 
-The catch is the lease. Cornell says most local leases bind housemates "jointly and severally," which means each tenant owes the whole house's rent and damages if someone else stops paying ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)). In a 7-bedroom at $700 a room, one housemate who leaves in March leaves $700 a month for the other six to cover, or $116.67 each. The rules on who pays, and how to protect yourself, are in [our guide to roommates and joint liability](/cornell/housing/cornell-off-campus-roommates-joint-liability/).
+The catch is the lease. Cornell says most local leases bind housemates "jointly and severally," which means each tenant owes the whole house's rent and damages if someone else stops paying ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)). In PPM's 7-bedroom on S. Aurora St., one housemate who leaves in March leaves that room's rent for the other six to cover, or $116.67 each. The rules on who pays, and how to protect yourself, are in [our guide to roommates and joint liability](/cornell/housing/cornell-off-campus-roommates-joint-liability/).
 
 Check the building before you check the price. The Cornell and City of Ithaca [Safety Program for Off-Campus Living](https://safety.offcampusliving.cornell.edu/) lets you look up whether a rental holds a current certificate, the city's safety inspection permit. Several of the cheapest houses on this page name no owner or manager on their listings, so read [our guide to Ithaca landlords and tenant reviews](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/) before you send a deposit.
 
@@ -203,7 +203,7 @@ Cornell's own housing undercuts every bed here: a regular single in a Hasbrouck 
 ```
 
 ```reader "If you don't have a car"
-The cheapest beds downtown and on South Hill trade rent for a bus ride. Registered Cornell students ride TCAT free after 6 p.m. on weekdays and all day on weekends, and a daytime ride costs $1.50 ([Cornell bus services](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes)). Two daytime rides each class day add $3.00 a day. Students in their first year at Cornell, including transfers and graduate students, ride free all year.
+The cheapest beds downtown and on South Hill trade rent for a bus ride. Registered Cornell students ride TCAT free after 6 p.m. on weekdays and all day on weekends, and new students get unlimited TCAT rides in their first year. Registered PhD students and graduate assistants receive free TCAT passes ([Cornell bus services](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes)).
 ```
 
 ## When do the under-$800 beds go?
@@ -226,13 +226,13 @@ Source: Ithaca Renting, Collegetown Terrace, the Ithaca College marketplace and 
 
 ## FAQ
 
-**Does Collegetown Terrace really start at $605?**
-Collegetown Terrace, 115 S. Quarry St., advertises "rates starting at $605" without saying for which unit or period ([Collegetown Terrace](https://www.collegetownterrace.com/)). Its marketplace listing prints a range of $605 to $2,265 with no per-bed basis. Ask which floor plan carries that price and whether it is per person before you count it.
+**What does Collegetown Terrace's starting rate cover?**
+Collegetown Terrace, 115 S. Quarry St., advertises "rates starting at $605" without saying for which unit or period ([Collegetown Terrace](https://www.collegetownterrace.com/)). Its marketplace listing prints a range from that figure to $2,265 with no per-bed basis. Ask which floor plan carries that price and whether it is per person before you count it.
 
 **Is a listed price per bed or per apartment?**
 Ithaca Renting and most room listings print a price per bed. Many house and apartment listings print the rent for the whole unit, such as $2,300 for a 3-bedroom. Divide by the number of bedrooms, which assumes one person per room and an even split, and confirm the basis with the landlord before you tell your housemates what each person owes.
 
-**Can a Cornell co-op beat $800 a month?**
+**Can a Cornell co-op beat these beds?**
 Yes. A double at Redbud, one of Cornell's eight university-owned co-ops, costs $6,974 for the 2026-27 academic year, which is $2,626 less than the $9,600 year above. Co-ops pick members house by house, starting in early November.
 
 ## What to do next

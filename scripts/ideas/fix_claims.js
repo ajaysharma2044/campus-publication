@@ -4,7 +4,8 @@ export const meta = {
   phases: [{ title: 'Fix' }],
 }
 const REPO = '/Users/ajaysharma/Ads/campus-publication'
-const { batches } = args  // [{batch_id, pages: [{page, claims: [{line, text, reason, url}]}]}]
+const { batch_ids } = args  // each id names build/ideas/verify/<id>.json: {batch_id, pages: [{page, claims: [{line, text, reason, url}]}]}
+const batches = batch_ids.map(id => ({ batch_id: id }))
 const SCHEMA = { type: 'object', properties: { batch_id: { type: 'string' }, pages: { type: 'array', items: { type: 'object', properties: { page: { type: 'string' }, claims_fixed: { type: 'integer' }, claims_removed: { type: 'integer' }, claims_relinked: { type: 'integer' }, claims_kept: { type: 'integer' }, page_check_pass: { type: 'boolean' }, notes: { type: 'string' } }, required: ['page', 'claims_fixed', 'claims_removed', 'claims_relinked', 'claims_kept', 'page_check_pass', 'notes'] } } }, required: ['batch_id', 'pages'] }
 const prompt = (b) => `You are the EduExplained checker finishing the source verification. Repository: ${REPO}; run every command from there. Read once: .claude/skills/fact-checking/SKILL.md and .claude/skills/eduexplained-voice/SKILL.md (confidence, sources and attribution). You never add a new fact; you make each sentence say only what its source supports.
 
@@ -15,8 +16,7 @@ For each page below, the verification pass found sentences whose cited source do
 4. REMOVE: otherwise delete the claim (the sentence, or the table cell with a plain "not stated"), keeping the surrounding text readable.
 Keep a claim unchanged only when you can show from the cited page that the verifier was wrong; say why in notes. No em dashes, no hedges, no "Not confirmed" labels; money keeps its cents. After editing a page run python3 .claude/skills/page-checks/scripts/page_check.py <page> once and fix only what it flags on lines you touched.
 
-Pages and claims:
-${b.pages.map(p => `### ${p.page}\n${p.claims.map(c => `- line ${c.line}: "${c.text}" | source ${c.url} | verifier: ${c.reason}`).join('\n')}`).join('\n\n')}
+Your batch file is ${REPO}/build/ideas/verify/${b.batch_id}.json: read it first. It lists the pages and, for each, the claims (line, text, the cited source url, and the verifier's reason).
 
 Return JSON: batch_id "${b.batch_id}", pages (page, claims_fixed, claims_removed, claims_relinked, claims_kept, page_check_pass, notes).`
 phase('Fix')

@@ -49,7 +49,7 @@ City Bucks are a balance on your Cornell ID that pays for food at 12 businesses 
 
 ## Which businesses take City Bucks?
 
-Cornell's City Bucks page lists these 12 businesses. Look for the City Bucks sticker in the window, since the list is updated only now and then ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks)).
+Cornell's City Bucks page lists these 12 businesses. ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks)).
 
 | Business | Address | Phone | Type |
 |---|---|---|---|
@@ -74,7 +74,7 @@ Ithacatogo.com, a delivery service, also takes City Bucks ([Cornell Dining](http
 
 ## What is not on the list?
 
-Wegmans and Trader Joe's are not on Cornell's list ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks)). Tops and P&C Fresh are the two grocery stores that take City Bucks, so a student without a car who wants groceries on this balance has two options. GreenStar's Collegetown store at 307 College Ave appears in some Cornell material but not on the 12-business list, so ask City Bucks at citybucks@cornell.edu before you spend there. Hours and menus are not part of Cornell's list, so call the business before a long trip.
+Wegmans and Trader Joe's are not on Cornell's list ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks)). The list also names three grocery stores that take City Bucks: Tops, P&C Fresh and Greenstar Natural Foods Market at 307 College Ave, the only one in Collegetown ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks)). Hours and menus are not part of Cornell's list, so call the business before a long trip.
 
 City Bucks do not work on campus. For campus food, the balance to use is Big Red Bucks, which the [off-campus plan guide](/cornell/money/cornell-off-campus-meal-plan-or-cook-yourself-cost/) compares with cooking.
 

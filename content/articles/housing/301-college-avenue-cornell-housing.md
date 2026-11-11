@@ -55,7 +55,9 @@ images: []
 - It is campus housing with a required meal plan, not a lease from a landlord.
 ```
 
-301 College Avenue is a Cornell-owned building in Collegetown with units from studios to six-bedroom suites. Cornell bought it for $15 million in March 2025 and opened it to transfer and upper-level students in August 2026. It is a housing license, not a lease ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue)).
+301 College Avenue is a Cornell-owned building in Collegetown with units from studios to six-bedroom suites for transfer and upper-level students ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue)).
+
+Cornell bought it for $15 million in March 2025, and it is campus housing, not a lease ([Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/301-college-avenue-available-for-student-housing-in-2026-2027-academic-year)). It opened to students in August 2026 ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed)).
 
 ## What is 301 College Avenue?
 

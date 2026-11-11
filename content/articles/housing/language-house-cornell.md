@@ -56,7 +56,7 @@ The Language House is a Cornell immersion community of more than 50 upper-level 
 
 ## What is the Language House?
 
-It is a place to live in a language you are learning. It was founded in 1984 with German, French and Spanish. It moved to Toni Morrison Hall in 2023. Cornell's page says the house's future location is still being decided ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house)).
+It is a place to live in a language you are learning. Cornell's page says the house is now in Toni Morrison Hall and its future location is still being decided ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house)).
 
 ```figure
 kind: cost_table
@@ -82,7 +82,7 @@ Five for 2026-27: Spanish, French, Mandarin, Korean and American Sign Language. 
 
 ## How is it different from other program houses?
 
-Cornell itself says the Language House is not a traditional program house ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/program-houses)). It is for upper-level students, and its rooms are suites, not the cluster rooms of the Low Rises. Cornell lists the house as temperature-controlled ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)).
+Cornell itself says the Language House is not a traditional program house ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house)). It is for upper-level students, and its rooms are suites, not the cluster rooms of the Low Rises. Cornell lists the house as temperature-controlled ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house)).
 
 ## What does the Language House cost?
 
@@ -102,7 +102,7 @@ Off campus, a share of a Collegetown five-bedroom has a median asking rent of $1
 
 ## How do you get into the Language House?
 
-Rising juniors and seniors need an additional application beyond room selection. For 2027-28, applications ran Sept. 1 to Sept. 27, 2026, and program house priority selection was Oct. 1. Program house beds may not be available in later stages ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
+Rising juniors and seniors need an additional application beyond room selection. For 2027-28, applications ran Sept. 1 to Sept. 27, 2026, and program house priority selection was Oct. 1. Cornell says it cannot guarantee housing to juniors and seniors, so apply by the deadline ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
 
 Check Cornell Housing's selection page each September for the next application dates and the Language House form.
 

@@ -77,9 +77,9 @@ Yes, if the apartment is in the City of Ithaca. Under City Code section 258-10, 
 
 ## What does Chapter 258-10 require?
 
-The rule sits in Chapter 258, "Rental Housing," Article II, and was amended by Ordinance 2022-02 ([City Code index](https://ecode360.com/IT1348)). It protects current tenants. The landlord must give at least 120 days' written notice before any of three acts: renewing your agreement, showing the unit to prospective tenants, or signing a lease with new tenants.
+The rule sits in Chapter 258, "Rental Housing," Article II, and was amended by Ordinance 2022-02 ([City Code](https://ecode360.com/27390826)). It protects current tenants. The landlord must give at least 120 days' written notice before any of three acts: renewing your agreement, showing the unit to prospective tenants, or signing a lease with new tenants.
 
-WSKG reported that the Common Council passed it unanimously on April 6, 2022, and that it took effect on May 31, 2022. It raised the old notice from 60 days. The sponsor was Alderperson Patrick Mehler ([WSKG](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/)). He first proposed 180 days, then 120 a week later, and a committee heard it on Jan. 19, 2022 ([WSKG](https://wskg.org/ithaca-council-members-are-considering-how-renewal-restrictions-hurt-renters/)).
+WSKG reported that the Common Council passed it unanimously and that it took effect on May 31, 2022. The [City Code](https://ecode360.com/27390826) dates the amendment April 6, 2022. It raised the old notice from 60 days. The sponsor was Alderperson Patrick Mehler ([WSKG](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/)). He first proposed 180 days, then suggested cutting it to 120, and a committee held a public hearing on Jan. 19, 2022 ([WSKG](https://wskg.org/ithaca-council-members-are-considering-how-renewal-restrictions-hurt-renters/)).
 
 ```figure
 kind: timeline
@@ -95,7 +95,7 @@ Scope: WSKG reports that it covers leases of nine months or longer ([WSKG](https
 
 ## What is the page-one waiver?
 
-A landlord can skip the notice only if the waiver is explicitly written, bolded and initialed on the lease's first page. The code's statement begins "As per Chapter 258-10(A)." Mehler's Sun column says both sides must choose to waive, and he wrote that your first question should be why the landlord wants it ([The Cornell Daily Sun](https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/)). An early draft removed the waiver from the code, and Mehler told WSKG it was added back so the measure would not break constitutional law.
+A landlord can skip the notice only if the waiver is [explicitly written, bolded and initialed on the lease's first page](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/). The code's statement begins "As per Chapter 258-10(A)." Mehler's Sun column says both sides must choose to waive, and he wrote that your first question should be why the landlord wants it ([The Cornell Daily Sun](https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/)). An early draft removed the waiver from the code, and Mehler told WSKG it was added back so the measure would not break constitutional law.
 
 ```figure
 kind: steps

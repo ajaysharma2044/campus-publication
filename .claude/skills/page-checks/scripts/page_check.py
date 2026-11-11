@@ -56,6 +56,19 @@ FACT_RE = re.compile(
     r"|\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.? \d{1,2}\b")
 
 
+def fm_scalar(fm, key):
+    """A frontmatter scalar without its YAML quotes: 'it''s' -> it's, "a \"b\"" -> a "b"."""
+    m = re.search(r'^' + key + r':\s*(.*?)\s*$', fm, flags=re.M)
+    if not m:
+        return ""
+    v = m.group(1)
+    if len(v) >= 2 and v[0] == "'" and v[-1] == "'":
+        return v[1:-1].replace("''", "'")
+    if len(v) >= 2 and v[0] == '"' and v[-1] == '"':
+        return v[1:-1].replace('\\"', '"')
+    return v
+
+
 def split_frontmatter(text):
     """The frontmatter ends at the first line that is only ---, so a URL holding --- cannot end it early."""
     if text.startswith("---"):
@@ -141,8 +154,8 @@ def check(path):
     fm, body, offset = split_frontmatter(text)
     mode = (re.search(r"^mode:\s*(\w+)", fm, flags=re.M) or [None, "answer"])[1]
     problems = []
-    title = (re.search(r'^title:\s*"?(.*?)"?\s*$', fm, flags=re.M) or [None, ""])[1]
-    query = (re.search(r'^primary_query:\s*"?(.*?)"?\s*$', fm, flags=re.M) or [None, ""])[1]
+    title = fm_scalar(fm, "title")
+    query = fm_scalar(fm, "primary_query")
 
     def add(kind, line, msg):
         problems.append({"check": kind, "line": line, "msg": msg})

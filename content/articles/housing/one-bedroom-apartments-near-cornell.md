@@ -31,11 +31,8 @@ sources:
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961
   title: Dryden South listing, Cornell off-campus housing marketplace
   accessed: '2026-11-10'
-- url: https://www.travishyde.com/downtown-ithacaf4ba8d70/center%20ithaca
-  title: Center Ithaca, Travis Hyde Properties
-  accessed: '2026-11-10'
-- url: https://www.travishyde.com/downtown-ithacaf4ba8d70/westminster%20hall
-  title: Westminster Hall, Travis Hyde Properties
+- url: https://www.travishyde.com/listings/detail/57acb87b-b64c-4cab-b680-7c23d6705f08
+  title: Westminster Hall listing, Travis Hyde Properties
   accessed: '2026-11-10'
 - url: https://citycentreithaca.com/
   title: City Centre Ithaca
@@ -49,17 +46,14 @@ sources:
 - url: https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx
   title: Apartment search, CSP Management
   accessed: '2026-11-10'
-- url: https://www.travishyde.com/west-campus/934%20edgecliff
-  title: 934 Edgecliff, Travis Hyde Properties
+- url: https://www.travishyde.com/listings/detail/c1b31e63-1257-458f-9740-4f42151b1ebb
+  title: 934 Edgecliff listing, Travis Hyde Properties
   accessed: '2026-11-10'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/kelvin-place-apartments-237474
   title: Kelvin Place Apartments listing, Cornell off-campus housing marketplace
   accessed: '2026-11-10'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/pine-hill-apartments-99962
   title: Pine Hill Apartments listing, Cornell off-campus housing marketplace
-  accessed: '2026-11-10'
-- url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/evergreen-pointe-236735
-  title: Evergreen Pointe listing, Cornell off-campus housing marketplace
   accessed: '2026-11-10'
 - url: https://offcampushousing.ithaca.edu/listing
   title: Off-campus housing listings, Ithaca off-campus housing marketplace
@@ -130,7 +124,7 @@ Downtown runs $400 a month less than Collegetown at Ithaca Renting, whose median
 | Commons West, 107 E State St | $1,700 to $1,725 per bed | Heat, water, trash |
 | City Centre, 301 E State St | $2,564.75 to $2,599.75 | Utilities not in base rent |
 
-Source: [Travis Hyde, Westminster Hall](https://www.travishyde.com/downtown-ithacaf4ba8d70/westminster%20hall), [Travis Hyde, Center Ithaca](https://www.travishyde.com/downtown-ithacaf4ba8d70/center%20ithaca), [Ithaca Renting](https://ithacarenting.com/downtown/) and [City Centre](https://citycentreithaca.com/).
+Source: [Travis Hyde, Westminster Hall](https://www.travishyde.com/listings/detail/57acb87b-b64c-4cab-b680-7c23d6705f08), [Ithaca marketplace listings for Center Ithaca](https://offcampushousing.ithaca.edu/listing), [Ithaca Renting](https://ithacarenting.com/downtown/) and [City Centre](https://citycentreithaca.com/).
 
 Center Ithaca also bills $175 a person for trash. Westminster Hall is two blocks from the Commons. Downtown is a 20 to 30 minute uphill walk to campus, per [Cornell's neighborhoods page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods).
 
@@ -155,7 +149,7 @@ Away from the center, one-bedrooms cost less and ask for a bus ride. These price
 | Lansing area, Triphammer Apartments | From $1,795 | Heat included |
 | Varna, Evergreen Pointe | $2,495 and $2,525 | Attached garages |
 
-Source: [Ithaca marketplace listings](https://offcampushousing.ithaca.edu/listing), [CSP Management](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx), [934 Edgecliff](https://www.travishyde.com/west-campus/934%20edgecliff), [Fall Creek 1E](https://www.ithacarents.com/4563-unfurnished-sun-filled-1br-in-fall-creek-1e-walk-to-cornell--commons), [Fall Creek 2W](https://www.ithacarents.com/4385-cute-furnished-1-br-apt-in-fall-creek-that-is-closest-to-cornell), [Pine Hill](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/pine-hill-apartments-99962), [Evergreen Pointe](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/evergreen-pointe-236735) and [Lansing West on RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx).
+Source: [Ithaca marketplace listings](https://offcampushousing.ithaca.edu/listing), [CSP Management](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx), [934 Edgecliff](https://www.travishyde.com/listings/detail/c1b31e63-1257-458f-9740-4f42151b1ebb), [Fall Creek 1E](https://www.ithacarents.com/4563-unfurnished-sun-filled-1br-in-fall-creek-1e-walk-to-cornell--commons), [Fall Creek 2W](https://www.ithacarents.com/4385-cute-furnished-1-br-apt-in-fall-creek-that-is-closest-to-cornell), [Pine Hill](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/pine-hill-apartments-99962) and [Lansing West on RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx).
 
 <!-- ad-break -->
 

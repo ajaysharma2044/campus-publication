@@ -43,7 +43,7 @@ sources:
   title: Campus Police Report More Than $40,000 in Bike and Scooter Thefts, The Cornell Daily Sun, Nov. 14, 2024
   accessed: '2026-11-10'
 - url: https://fcs.cornell.edu/sites/default/files/2025-02/Micro-Mobility%20E-Bikes_Litium-Ion%20Batteries%20Guidance%20Document%20v.2%20final%2002.09.2024.pdf
-  title: Micro-Mobility E-Bikes and Lithium-Ion Batteries Guidance, Cornell, Feb. 2024
+  title: Micro-Mobility E-Bikes and Lithium-Ion Batteries Guidance, Cornell
   accessed: '2026-11-10'
 - url: https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/
   title: Ithaca Bikeshare, a Comprehensive Guide, The Cornell Daily Sun, Jan. 24, 2023
@@ -55,7 +55,7 @@ images: []
 ---
 
 
-A motorcycle, scooter or moped at Cornell needs the M permit, which costs $120.01 a year, and its plate must be registered in MyParking ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). A bike needs no permit. Lock it to a designated rack.
+A motorcycle, scooter or moped at Cornell needs the M permit, which costs $120.01 a year ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). Lock a bike to a designated rack.
 
 ```glance
 - The M permit covers motorcycles, scooters and mopeds and prorates monthly.
@@ -83,7 +83,7 @@ Park only at designated bike racks. Locking a bike to railings, signposts, trees
 Cornell's assistant director of transportation wrote in the Sun that campus has more than 1,000 bike parking spots, about 7 miles of bike lanes and 2 miles of shared paths ([Cornell Daily Sun](https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall)).
 
 ```reader "If you live in a residence hall"
-University housing requires external racks or sprinklered bike rooms ([Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/bicycle-registration-storage)). Do not keep a bike in your room, and do not charge its battery there.
+University housing requires bikes to be kept in bike rooms, not in resident rooms ([Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/bicycle-registration-storage)). Do not keep a bike in your room, and do not charge its battery there.
 ```
 
 ## Do I need to register a bike?
@@ -92,11 +92,11 @@ Registration is free, and Cornell urges you to register bikes, e-bikes and scoot
 
 ## What are the e-bike and charging rules?
 
-Cornell defines an e-bike as a motor of no more than 750 watts, no wider than 36 inches, with working pedals ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus)). Do not charge e-bike or e-scooter batteries in residential rooms, offices or academic buildings, according to a [Cornell guidance document](https://fcs.cornell.edu/sites/default/files/2025-02/Micro-Mobility%20E-Bikes_Litium-Ion%20Batteries%20Guidance%20Document%20v.2%20final%2002.09.2024.pdf).
+Cornell defines an e-bike as a motor of no more than 750 watts, no wider than 36 inches, with working pedals ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus)). Do not charge e-bike or e-scooter batteries in residential rooms, offices or academic buildings, according to a [Cornell guidance document](https://fcs.cornell.edu/sites/default/files/2025-02/Micro-Mobility%20E-Bikes_Litium-Ion%20Batteries%20Guidance%20Document%20v.2%20final%2002.09.2024.pdf).
 
 ## Where do Bikeshare bikes go?
 
-Cornell requires Ithaca Bikeshare bikes to be parked at racks. Returning one to a Bikeshare hub waives the next unlock fee, as the [Cornell Daily Sun](https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/) explained at launch in 2023. Current prices and rules are in our [Bikeshare guide](/cornell/getting-around/ithaca-bikeshare-cost-cornell-students/).
+Ithaca Bikeshare bikes do not have to be returned to a specific hub, but returning one to a Bikeshare hub waives the next fee to start a ride, as the [Cornell Daily Sun](https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/) explained at launch in 2023. Current prices and rules are in our [Bikeshare guide](/cornell/getting-around/ithaca-bikeshare-cost-cornell-students/).
 
 ## What about winter?
 

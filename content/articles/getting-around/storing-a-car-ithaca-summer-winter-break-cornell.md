@@ -92,7 +92,7 @@ The campus policy covers students in university housing, so it may not cover you
 
 ## What if I am flying out of Ithaca or Syracuse?
 
-An airport lot is the plain answer for a trip that starts at a gate. Ithaca Tompkins long-term parking costs $8 a day for 5 to 24 hours or $40 a week. The 30 days of winter closing is 4 weeks and 2 days. At those posted rates that is $160 for the weeks plus $16 for the extra days, or $176, if the weekly rate applies to a stay that long. Syracuse charges a daily maximum of $22 in the garage, $16 in the Blue Lot and $14 in the Red and Purple economy lots ([Syracuse airport](https://www.syrairport.org/parking/)).
+An airport lot is the plain answer for a trip that starts at a gate. Ithaca Tompkins long-term parking costs $8 a day for 5 to 24 hours or $40 a week ([Ithaca airport parking](https://www.flyithaca.com/parking)). The 30 days of winter closing is 4 weeks and 2 days. At those posted rates that is $160 for the weeks plus $16 for the extra days, or $176, if the weekly rate applies to a stay that long. Syracuse charges a daily maximum of $22 in the garage, $16 in the Blue Lot and $14 in the Red and Purple economy lots ([Syracuse airport](https://www.syrairport.org/parking/)).
 
 ## Can I leave a car in Ithaca over summer?
 

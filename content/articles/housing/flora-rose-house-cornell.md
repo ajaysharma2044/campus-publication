@@ -60,7 +60,7 @@ images: []
 - Every resident must take the House Meal Plan, so a triple costs $20,298 a year with meals.
 ```
 
-Flora Rose House is the newest of Cornell's five West Campus Houses. It holds [350-plus students](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/flora-rose-house) in a main building and four Gothic stone halls. Rooms have no air conditioning, and residents take the required House Meal Plan.
+Flora Rose House is one of Cornell's West Campus Houses. It holds [350-plus students](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/flora-rose-house) in a main building and four halls. Rooms have no air conditioning, and residents take the required House Meal Plan.
 
 ```figure
 kind: cost_table

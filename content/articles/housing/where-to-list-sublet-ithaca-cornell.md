@@ -87,7 +87,7 @@ You need a NetID, per [Cornell's listings page](https://scl.cornell.edu/resident
 
 Then use it first, because an unapproved sublet can put you in breach. Ithaca Renting's Collegetown page says sublets must be [registered and approved](https://ithacarenting.com/collegetown/), go to Cornell students only and run one per term. The listed fee is $15 on one line and $20 on the next, which the page says applies if anyone uses the apartment over the summer, even without payment. Summer subtenants can include graduate students from other universities. Its [downtown page](https://ithacarenting.com/downtown/) sets a two-month minimum. Keep the electricity on in either.
 
-Other landlords show sublets on their own sites. Modern Living Rentals advertises [sublet and roommate openings from $900 per person](https://www.modernlivingrentals.com/) and does not state the period. Dryden South has a sublets page, and it said ["Nothing Currently Available"](https://drydensouth.com/availability/) when read in Nov. 2026. Ask your landlord whether it posts tenants' sublets.
+Other landlords show sublets on their own sites. Modern Living Rentals advertises [sublet and roommate openings from $900 per person](https://www.modernlivingrentals.com/) and does not state the period. Dryden South links a [Sublets page](https://drydensouth.com/availability/) from its availability page. Ask your landlord whether it posts tenants' sublets.
 
 ## Should you use public sites?
 

@@ -125,7 +125,7 @@ Sales tax applies, students 21 and older can buy alcohol, and tobacco and lotter
 Cornell's ten residential dining rooms are on North, Central and West Campus, and none is in Collegetown ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/dining-rooms)). Schuyler House is a 15 to 20 minute walk from Central Campus, with 3 to 11 TCAT buses an hour, per Cornell Housing. Plan your swipes around classes, and use the BRBs at campus cafes between them.
 
 ```reader "If you're a transfer student"
-Transfer students who live on campus start on Unlimited and may reduce only to Bear Traditional by the published deadlines ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027)). 301 College Ave. is open to transfers, so check the building before you assume Collegetown is available. More on options is in [Cornell transfer housing](/cornell/housing/cornell-transfer-housing/).
+Transfer students living on campus may reduce to the Bear Traditional plan only ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)). 301 College Ave. is open to transfers, so check the building before you assume Collegetown is available. More on options is in [Cornell transfer housing](/cornell/housing/cornell-transfer-housing/).
 ```
 
 ```reader "If you're a first-year or sophomore"

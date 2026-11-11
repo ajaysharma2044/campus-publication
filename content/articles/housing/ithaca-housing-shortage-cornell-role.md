@@ -75,7 +75,7 @@ Ithaca has a rental-heavy housing market where Cornell undergraduates and city r
 The numbers come from news reports, so they vary by year and source.
 
 - **Renters.** About 73% of households rent, from a 2019 column, or about 70% of housing is rental, from a 2021 article. The 2019 columnist, citing the Ithaca Times, said an average 2BR takes about $49,000 a year in income against a median household income of $29,230 ([The Cornell Daily Sun](https://cornellsun.com/2019/10/30/fox-the-case-for-an-ithaca-tenants-union/)). That is a gap of $19,770, or about 1.7 times the median.
-- **Undergraduates off campus.** About 43% of undergraduates, roughly 6,189 students, lived off campus in fall 2013. A 2020 article put it at about 48%, and a 2019 alderperson said more than 7,000 undergraduates seek off-campus housing each year ([The Cornell Daily Sun](https://cornellsun.com/2014/09/08/fischer-jimmys-tale-of-leasing-in-collegetown/)).
+- **Undergraduates off campus.** About 43% of undergraduates, roughly 6,189 students, lived off campus in fall 2013 ([The Cornell Daily Sun](https://cornellsun.com/2014/09/08/fischer-jimmys-tale-of-leasing-in-collegetown/)).
 - **Graduate students.** About 95% of grads live in non-university housing ([Cornell Graduate and Professional Student Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)).
 - **Who owns Collegetown.** In 2013, landlords owned 4,013 of an estimated 6,110 Collegetown bedrooms, and eight landlords held about two-thirds of the property ([The Cornell Daily Sun](https://cornellsun.com/2013/05/02/collegetown-housing-market-scrutinized/)).
 
@@ -100,7 +100,7 @@ New supply is arriving, mostly at the top of the price range ([The Ithaca Voice]
 
 Source: The Ithaca Voice, July 2026; Tompkins Weekly for The Pinnacle's bed count. Bed counts for The Pinnacle differ by report (111 and 109).
 
-Developers argue that more supply should help. The Pinnacle opened Aug. 1, 2026, with at least 80% graduate students, and its developer, Todd Fox, says its rents run 15% to 20% below newer Collegetown buildings and that more supply puts downward pressure on rents ([Tompkins Weekly](https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148)). Earlier waves tell a similar story. In 2016, three new buildings added nearly 200 bedrooms, and Catherine Commons later added a net 339 bedrooms ([The Cornell Daily Sun](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/)).
+Developers argue that more supply should help. The Pinnacle opened Aug. 1, 2026, with at least 80% graduate students, and its developer, Todd Fox, says its rents run 15% to 20% below newer Collegetown buildings and that more supply puts downward pressure on rents ([Tompkins Weekly](https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148)). Earlier waves tell a similar story. In 2016, three new buildings added nearly 200 bedrooms ([The Cornell Daily Sun](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/)). Catherine Commons later added a net 339 bedrooms ([The Cornell Review](https://www.thecornellreview.org/cornells-construction-crunch-ithacas-housing-crisis-and-the-catherine-commons/)).
 
 ## Where is rent lower?
 

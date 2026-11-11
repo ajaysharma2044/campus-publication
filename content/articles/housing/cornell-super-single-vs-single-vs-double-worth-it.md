@@ -182,7 +182,7 @@ rows:
 
 Source: Cornell Housing, Spring Housing Selection for Rising Sophomores.
 
-Juniors and seniors are not guaranteed on-campus housing, and their selection for 2027-28 ran in September and October 2026 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process)).
+Juniors and seniors are not guaranteed on-campus housing, and their selection for 2027-28 ran from Sept. 1 to Oct. 8, 2026 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
 
 ```reader "If you're a rising sophomore"
 You must live in Cornell or approved affiliated housing. Once assigned, you cannot cancel unless you are exempt or accepted to a Greek house, affiliated house or co-op. For a single that costs less than a double, look at the co-ops: the single at Red Bud in Von Cramm costs $3,949 a semester, or $7,898 a year. See [how Cornell's co-ops and Greek houses work](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) and the [sophomore starting guide](/start/sophomore/).

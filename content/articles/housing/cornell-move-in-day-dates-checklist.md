@@ -53,7 +53,9 @@ images: []
 - Spring move-back opens Jan. 19, 2027, at 9 a.m., with a timeslot.
 ```
 
-Cornell's 2026 move-in ran from Aug. 17 for first-years to Aug. 22 for upper-level students. Cornell has not posted fall 2027 dates yet. Until it does, plan around the same pattern and the 2027 first day of classes, Aug. 23 ([Cornell move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)).
+Cornell's 2026 move-in began Aug. 17 for first-years ([Cornell Tatkon Center](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation)).
+
+Cornell has not posted fall 2027 move-in dates yet. Until it does, plan around the 2027 first day of classes, Aug. 23 ([Cornell registrar](https://registrar.cornell.edu/calendars-exams/academic-calendar/2027-2028)).
 
 ## When is Cornell move-in day?
 
@@ -72,7 +74,7 @@ rows:
 
 Source: Cornell North Campus move-in instructions; Cornell Tatkon Center orientation page.
 
-New-student orientation ran Aug. 18 to 23, and Family Orientation ended with Convocation at 6 p.m. ([Cornell Tatkon Center](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation)). The Cornell Daily Sun reported that 3,681 first-years moved in on the Monday, from 8 a.m. to 8 p.m. ([The Cornell Daily Sun](https://cornellsun.com/article/2026/08/this-is-the-place-i-want-to-be-incoming-freshmen-make-the-move-to-campus)).
+New-student orientation ran Aug. 18 to 23 ([Cornell Tatkon Center](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation)). The Cornell Daily Sun reported that 3,681 first-years moved in on the Monday, from 8 a.m. to 8 p.m. ([The Cornell Daily Sun](https://cornellsun.com/article/2026/08/this-is-the-place-i-want-to-be-incoming-freshmen-make-the-move-to-campus)).
 
 For fall 2027, the Registrar lists first-year add/drop on Aug. 20 and classes on Aug. 23 ([Cornell Registrar](https://registrar.cornell.edu/calendars-exams/academic-calendar/2027-2028)). Move-in dates sit before those, so watch the Housing and Dining Portal for your assigned day.
 
@@ -91,7 +93,7 @@ Do these in order. Each item links to or names the office that handles it.
 
 North Campus buildings have named zones. Jessup Road serves the low-rise halls marked LR6. The RPCC lot serves HR5, Jameson, Donlon and Ganędagǫ:. Program House Drive serves LR7, JAM, HILC, Ujamaa, Hu Shih and Mews/Loving. The Helen Newman lot serves CKB, and Balch uses its north dock.
 
-South Campus works differently. Cascadilla unloads at the Eddygate entrance, and Sheldon Court unloads through the Dryden Road Garage entrance at 114 Dryden Road. Both then park at the Williams Street Lot ([Cornell Cascadilla instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall)). The Cascadilla service center was closed on first-year day, open 8 a.m. to 7 p.m. through the upper-level days and open 10 a.m. to 4 p.m. the Sunday after.
+South Campus works differently. Cascadilla unloads at the Eddygate entrance, then parks at the Williams Street Lot ([Cornell Cascadilla instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall)). The Cascadilla service center was closed on first-year day, open 8 a.m. to 7 p.m. through the upper-level days and open 10 a.m. to 4 p.m. the Sunday after.
 
 ## When does staff unloading help end?
 

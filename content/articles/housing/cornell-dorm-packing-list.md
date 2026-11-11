@@ -70,8 +70,8 @@ Cornell's own what's-provided and prohibited-items lists are not in the pages th
 
 Start with the room, because it differs by building.
 
-- **Air conditioning.** Toni Morrison, Ganędagǫ: and Balch have temperature control or room air conditioning, and the Townhouses and Ecology House have manual units. Risley, Low Rises 6 to 10, High Rise 5, Jameson, Donlon, Dickson and Akwe:kon have none in the rooms, and Donlon cools only its lounge and library ([Cornell hall pages](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall)). A fan is the safe pick if your hall is not on the first list.
-- **Flooring.** 104 Mary Ann Wood Drive is uncarpeted, with floors renovated in 2026 ([Cornell hall page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/104-mary-ann-wood-drive)). In a bare-floor room, slippers and a rug that fits matter more than they do over carpet.
+- **Air conditioning.** Donlon has no air conditioning in the rooms and cools only its lounge and library ([Cornell Donlon Hall page](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall)). Check your own hall's page, and pack a fan if it lists no cooling.
+- **Flooring.** 104 Mary Ann Wood Drive is uncarpeted, with newly installed flooring and common areas renovated in 2026 ([Cornell hall page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/104-mary-ann-wood-drive)). In a bare-floor room, slippers and a rug that fits matter more than they do over carpet.
 - **Refrigerators.** Full-size refrigerators are provided in the Townhouse Apartments and at 301 College Avenue ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). 301 College Avenue also has kitchenettes with a fridge and a microwave in its units, plus shared laundry ([Cornell hall page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue)). If you live there, skip buying either.
 - **Laundry and kitchens.** Hall pages list laundry and shared kitchens by building. Pack a laundry bag and a few dishes only if your hall has a kitchen.
 
@@ -81,7 +81,7 @@ Leave anything you cannot store or move twice. The [housing license](https://scl
 
 Two items need care.
 
-- **Bicycles.** Cornell requires external racks or sprinklered bike rooms for storing bikes in housing ([Cornell bicycle storage](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/bicycle-registration-storage)). A bike does not go in your room.
+- **Bicycles.** Cornell requires bikes in housing to be stored in bike rooms, not in resident rooms, though fold-up bikes are allowed if they do not block the exit ([Cornell bicycle storage](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/bicycle-registration-storage)). A bike does not go in your room.
 - **E-bikes and scooters.** Cornell's guidance says not to charge e-bike or e-scooter batteries in residential rooms, offices or academic buildings ([Cornell Facilities guidance](https://fcs.cornell.edu/sites/default/files/2025-02/Micro-Mobility%20E-Bikes_Litium-Ion%20Batteries%20Guidance%20Document%20v.2%20final%2002.09.2024.pdf)).
 
 ## What is easy to forget?
@@ -104,7 +104,7 @@ Do not buy duplicates of what your room or building provides. Check your hall's 
 
 ## What if it does not fit in the car or the bag?
 
-Ship it or store it off campus. Cornell's preferred vendor is Big Red Shipping and Storage, which has served Student Agencies customers year-round for more than 40 years and offers free pickup at the room. Items left without a resident present were donated after 2 p.m. on May 17, 2026 ([Cornell storage and shipping options](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options)). The [move-out storage and shipping guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/) compares the vendors and prices.
+Ship it or store it off campus. Cornell's preferred vendor is Big Red Shipping and Storage, which has held that role for more than 40 years and operates year-round and offers free pickup at the room. Items left without a resident present were donated after 2 p.m. on May 17, 2026 ([Cornell storage and shipping options](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options)). The [move-out storage and shipping guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/) compares the vendors and prices.
 
 If you are driving in, plan the unloading before you pack the car. See [move-in day parking and unloading](/cornell/getting-around/cornell-move-in-day-parking-unloading/).
 

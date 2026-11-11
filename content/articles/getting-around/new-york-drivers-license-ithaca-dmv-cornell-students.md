@@ -38,11 +38,11 @@ images: []
 ---
 
 
-Students from other states or countries who attend school in New York are normally not New York residents, so they do not need to exchange their license ([New York State DMV](https://dmv.ny.gov/driver-license/exchange-out-of-state-driver-license)). The DMV says foreign students can be required to carry an International Driving Permit with their home license. A car registered in New York needs New York insurance.
+Students from other states or countries who attend school in New York are normally not New York residents, so they do not need to exchange their license ([New York State DMV](https://dmv.ny.gov/driver-license/exchange-out-of-state-driver-license)). A car registered in New York needs New York insurance.
 
 ```glance
 - Out-of-state students normally keep their home license and need no New York exchange.
-- International students can be required to carry an International Driving Permit.
+- Students from other countries are also normally non-residents, so they keep their home license.
 - A New York-registered car needs New York insurance.
 - Ithaca Carshare wants a full license held 2+ years.
 ```
@@ -53,9 +53,9 @@ No, if New York is not your home. The state DMV treats students who come to atte
 
 The state's own rules, not Cornell's, decide this. Cornell students who change their permanent home to New York should follow the DMV's exchange steps. The sources for this guide do not list the DMV's fees, documents or office hours, so check dmv.ny.gov before you go and book an appointment if the office offers one.
 
-## Do international students need an International Driving Permit?
+## What should international students ask the DMV?
 
-Foreign students can be required to carry an International Driving Permit alongside the home license, per the DMV exchange page ([New York State DMV](https://dmv.ny.gov/driver-license/exchange-out-of-state-driver-license)). Ask the DMV or your home licensing office how to get one before you travel.
+The DMV exchange page treats students from other countries like students from other states ([New York State DMV](https://dmv.ny.gov/driver-license/exchange-out-of-state-driver-license)). It does not say what a foreign license allows on its own, so ask the DMV or your home licensing office before you travel.
 
 ## Do you need a license for Ithaca Carshare?
 
@@ -67,10 +67,10 @@ A driver's license is not the only accepted ID. Alternatives Federal Credit Unio
 
 ## Should you bring a car?
 
-If you do, register it with Cornell Transportation Services even without a permit ([Cornell Transportation](https://fcs.cornell.edu/node/17809)). The [car guide](/cornell/getting-around/having-a-car-at-cornell-student-guide/) and the [cost guide](/cornell/money/should-i-bring-a-car-cornell-ithaca-cost/) help you decide, and the [parking permit guide](/cornell/getting-around/cornell-student-parking-permit-cost-rules/) covers lots and rates.
+If you do, register its plate with Cornell Transportation Services through MyParking.Cornell.edu, including for short-term parking ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus)). The [car guide](/cornell/getting-around/having-a-car-at-cornell-student-guide/) and the [cost guide](/cornell/money/should-i-bring-a-car-cornell-ithaca-cost/) help you decide, and the [parking permit guide](/cornell/getting-around/cornell-student-parking-permit-cost-rules/) covers lots and rates.
 
 ```reader "If you're an international student"
-Keep your home license and carry the International Driving Permit if the DMV says you need one. Ask the DMV directly about driving a car registered in New York, since the exchange page is written for U.S. license holders.
+Keep your home license. Ask the DMV directly about driving a car registered in New York, since the exchange page is written for U.S. license holders.
 ```
 
 ## What to do next

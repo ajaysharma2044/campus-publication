@@ -116,13 +116,13 @@ rows:
 
 **The Off-Campus Living email list.** Cornell runs it for housing, roommates and sublets, and it requires a NetID. Subscribe by sending a message with the subject "Join" and a blank body. Admitted students without a NetID forward the acceptance letter to offcampusliving@cornell.edu ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)).
 
-**The Off-Campus Housing Marketplace.** It is a College Pads listing service, and only people who prove Cornell affiliation can view and contact landlords and subletters. Cornell advises viewing a property in person and reading the whole lease before you pay anything ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)). The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers every source.
+**The Off-Campus Housing Marketplace.** It is Cornell's listing service, and only people who prove Cornell affiliation can view and contact landlords and subletters. Cornell advises viewing a property in person and reading the whole lease before you pay anything ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)). The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers every source.
 
 **The Ithaca College portal.** It runs on the same platform and carries roommate-matching leases from Foundation Housing for spring 2027 and full years ([Ithaca College portal](https://offcampushousing.ithaca.edu/city/ithaca-ny/listing/spring-27-and-full-year-leases-available-for-roommate-matching-foundation-housing-96176)). A landlord who matches strangers still leaves you with strangers on your lease, so read whether it is a joint lease or by the room.
 
-**Your own networks.** A senior told the Sun in 2018 that one email to a landlord through her sorority network was enough ([Cornell Daily Sun, 2018](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/)).
+**Your own networks.** A student told the Sun in 2018 that one email to a landlord through her sorority network was enough ([Cornell Daily Sun, 2018](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/)).
 
-Off-Campus Living, at 607-255-2310, offers one-on-one consultations and guides on conflict with roommates and landlords ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)).
+Off-Campus Living, at 607-255-2310, answers questions about leases and tenant-landlord problems ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)).
 
 ## How does group size change the rent per person?
 
@@ -189,7 +189,7 @@ New York law gives three answers. Write your group's version down before signing
 
 On a single-tenant lease, New York's roommate law allows the tenant, immediate family, one additional occupant and that occupant's dependent children. On a lease with several tenants, tenants plus occupants cannot exceed the number of tenants named, not counting dependent children. You must give the landlord an occupant's name within 30 days of move-in or of the landlord asking, and an occupant has no right to stay if the tenant leaves ([Real Property Law 235-f](https://www.nysenate.gov/legislation/laws/RPP/235-F)).
 
-Ask whether the occupancy is legal for the address. The City of Ithaca defines a cooperative household as four or more unrelated persons sharing a unit ([City code](https://ecode360.com/8393870)). A rental unit with five or more unrelated people needs a Certificate of Compliance under the code ([City code](https://ecode360.com/8390192)). The City's web page says six or more, so go by five. The Town of Ithaca treats more than two unrelated people as a family only if the Zoning Board of Appeals finds they are a functional equivalent, a rule upheld in 2017 ([Drummond v Town of Ithaca ZBA](https://law.justia.com/cases/new-york/other-courts/2017/2017-ny-slip-op-30471-u.html)). The lease clauses to check are in the [lease-reading guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/).
+Ask whether the occupancy is legal for the address. The City of Ithaca's Certificate of Compliance page covers rental buildings with three or more units and single units housing six or more unrelated people ([City of Ithaca](https://www.cityofithacany.gov/146/Certificate-of-Compliance)). The Town of Ithaca treats more than two unrelated people as a family only if the Zoning Board of Appeals finds they are a functional equivalent, a rule upheld in 2017 ([Drummond v Town of Ithaca ZBA](https://law.justia.com/cases/new-york/other-courts/2017/2017-ny-slip-op-30471-u.html)). The lease clauses to check are in the [lease-reading guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/).
 
 ## What to do next
 

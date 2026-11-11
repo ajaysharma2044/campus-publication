@@ -63,7 +63,7 @@ images: []
 - Cafes on Central take Big Red Bucks, not swipes.
 ```
 
-On Central Campus, a Cornell meal swipe works at Okenshields, the dining room in Willard Straight Hall, and at the Meals on the Move pickup in the Weill Hall Atrium ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/meals-move)). Cornell's cafes on Central, from Mann Cafe to Trillium, take Big Red Bucks instead.
+On Central Campus, a Cornell meal swipe works at Okenshields in Willard Straight Hall ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/02/meal-swipes-belong-on-central-campus)) and at the Meals on the Move pickup in the Weill Hall Atrium. Cornell's cafes on Central, from Mann Cafe to Trillium, take Big Red Bucks instead.
 
 ## Where can I use a meal swipe on Central Campus?
 
@@ -73,7 +73,7 @@ Meals on the Move is the second way. It is a pre-order service where one swipe, 
 
 ## What is Okenshields?
 
-Okenshields sits in the basement of Willard Straight Hall. It was rebuilt after closing in fall 2020 and merging with the Ivy Room, with a bigger salad bar, a wok station and a vegan and vegetarian section ([The Sun](https://www.cornellsun.com/article/2021/10/okenshields-renovations-meet-mixed-reviews-from-students)). Prices, food and complaints are in the [Okenshields guide](/cornell/dining/okenshields-cornell-dining/). The short version: it is the one swipe hall near classes, and the Sun's reporting says it gets crowded at midday.
+Okenshields sits in the basement of Willard Straight Hall. It closed in fall 2020, merged with the Ivy Room and reopened in fall 2021, with a bigger salad bar, a wok station and a vegan and vegetarian section ([The Sun](https://www.cornellsun.com/article/2021/10/okenshields-renovations-meet-mixed-reviews-from-students)). Prices, food and complaints are in the [Okenshields guide](/cornell/dining/okenshields-cornell-dining/). The short version: it is the one swipe hall near classes, and the Sun's reporting says it gets crowded at midday.
 
 ## How does Meals on the Move work?
 
@@ -94,7 +94,7 @@ The [Meals on the Move page](https://scl.cornell.edu/residential-life/dining/eat
 
 ## Where can I use Big Red Bucks on Central Campus?
 
-Big Red Bucks (BRBs) are dollars on your ID, worth $1 each, and they work at all of Cornell Dining's cafes, food courts and coffeehouses ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/cafes-food-courts-coffeehouses)). Fourteen of the 18 sit on Central Campus.
+Big Red Bucks (BRBs) are dollars on your ID, worth $1 each ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)). They work at all of Cornell Dining's cafes, food courts and coffeehouses ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/cafes-food-courts-coffeehouses)). Fourteen of the 18 sit on Central Campus.
 
 | Place | Building |
 |---|---|

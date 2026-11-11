@@ -57,7 +57,7 @@ images: []
 - Cars unload on Program House Drive, and the hall stays open over winter break.
 ```
 
-Hu Shih Hall is a corridor-style residence hall on Cornell's North Campus. It opened in 2022 and houses [429 first-year students](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/hu-shih-hall) in singles, doubles and quads on mixed-gender floors. Cornell assigns first-years to it by lottery, not by choice.
+Hu Shih Hall is a corridor-style residence hall on Cornell's North Campus. It opened in August 2022 and houses [429 first-year students](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/hu-shih-hall) in singles, doubles and quads on mixed-gender floors.
 
 ```figure
 kind: cost_table
@@ -79,7 +79,7 @@ Source: Cornell Housing hall page, Residence Hall Configurations and Housing Rat
 
 ## Who was Hu Shih?
 
-The hall is named for Hu Shih, a Chinese scholar and diplomat who studied at Cornell. It is one of three halls that opened in August 2022, with Barbara McClintock and Ruth Bader Ginsburg halls, adding 1,200 beds after a project that took six and a half years ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)).
+Hu Shih Hall is one of three halls that opened in August 2022, with Barbara McClintock and Ruth Bader Ginsburg halls, adding 1,200 beds after a project that took six and a half years ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)).
 
 ## What is living in Hu Shih Hall like?
 

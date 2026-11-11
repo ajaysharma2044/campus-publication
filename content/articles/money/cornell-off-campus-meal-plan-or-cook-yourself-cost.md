@@ -105,13 +105,13 @@ Big Red Bucks (BRBs) are dollars on your Cornell ID for Cornell Dining locations
 
 Bear Traditional is listed for upper-level and transfer students, and the page does not say whether off-campus students count. Ask Cornell Dining at dining@cornell.edu before you count on it. For the head-to-head of the three capped plans, read [Bear Traditional vs Bear Choice vs Bear Basic](/cornell/dining/bear-traditional-vs-bear-choice-vs-bear-basic-cornell/).
 
-Two plans fit narrow groups. The Collegetown Meal Plan, $3,528 per semester with $436 in City Bucks, is for residents of 112 Edgemoor, Cascadilla Hall, Schuyler House, Sheldon Court, 301 College Ave and 104 Mary Ann Wood Drive. The SFL Supplemental plan is for members of recognized fraternities and sororities. The plans page lists it at $2,167.51 per semester for 127 meals, while the separate [Bear Supplemental page](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental) shows a different price, so confirm the rate with Cornell Dining.
+Two plans fit narrow groups. The [Collegetown Meal Plan](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans), $3,528 per semester with $436 in City Bucks, is for residents of 112 Edgemoor, Cascadilla Hall, Schuyler House, Sheldon Court, 301 College Ave and 104 Mary Ann Wood Drive. The SFL Supplemental plan is for members of recognized fraternities and sororities. The plans page lists it at $2,167.51 per semester for 127 meals, while the separate [Bear Supplemental page](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental) shows a different price, so confirm the rate with Cornell Dining.
 
 ## How much does cooking cost?
 
 USDA's Low-Cost food plan for September 2026 is $63.80 a week for a woman aged 19 to 50 and $73.30 for a man. Those figures assume a four-person household, and USDA says to add 20% for one person ([USDA](https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf)). That gives $76.56 and $87.96 a week. The midpoint is $82.26 a week, or $3.92 for each of 21 meals.
 
-Over a 36-week school year, that is $2,961 ($82.26 x 36) ([USDA](https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf)). The cheaper Thrifty Food Plan comes to $70.32 and $88.32 a week for one person, or $2,531 to $3,180 over 36 weeks, so $2,961 sits in the middle. USDA's numbers are national averages, not Ithaca prices, and assume every meal and snack is cooked at home. Restaurants, coffee and takeout come on top.
+Over a 36-week school year, that is $2,961 ($82.26 x 36) ([USDA](https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf)). USDA's numbers are national averages, not Ithaca prices, and assume every meal and snack is cooked at home. Restaurants, coffee and takeout come on top.
 
 ## How do plans compare with cooking?
 
@@ -168,7 +168,7 @@ Cornell's list names 12 businesses, among them 7-Eleven, D.P. Dough, Five Guys, 
 
 ## What rules cost students money?
 
-You can sign up for a plan or upgrade at any time ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)). Reductions close on set dates, and the last day to reduce for spring is Feb. 3, 2027 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms)). First-year, sophomore and transfer students cannot cancel.
+You can sign up for a plan or upgrade at any time ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)). Reductions close on set dates, and the last day to reduce for spring is Feb. 3, 2027 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms)). First-year students cannot reduce or cancel ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)).
 
 BRBs expire. The undergraduate plans page says May 27, 2027, and the deadlines page says May 31, 2027, so spend them by the earlier date ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). If you will not attend in spring, tell the Dining Contracts Office by Jan. 6, 2027, to avoid spring charges.
 

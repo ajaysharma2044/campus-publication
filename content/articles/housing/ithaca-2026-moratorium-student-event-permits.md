@@ -47,7 +47,7 @@ Ithaca's Common Council voted 9-1 on Oct. 7, 2026, to withhold new permits for e
 
 ## What does the moratorium do?
 
-A moratorium is a temporary pause. Here, the City stops issuing new permits of four kinds to Cornell groups, fraternities and sororities: assembly, special event, Commons and noise. The Ithaca Times headline ties the vote to gang rape allegations. The Cornell Daily Sun described the permit pause as primarily affecting Greek organizations ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/10/breaking-cornell-suspends-all-fraternity-parties-social-events-for-2026-27-school-year)).
+A moratorium is a temporary pause. Here, the City stops issuing new permits of four kinds to Cornell groups, fraternities and sororities: assembly, special event, Commons and noise ([Ithaca Times](https://www.ithaca.com/news/ithaca/common-council-sets-moratorium-on-cornell-event-permits-following-gang-rape-allegations/article_6c84a345-d112-483a-98bc-316f3b64f0a1.html)). The Ithaca Times headline ties the vote to gang rape allegations. The Cornell Daily Sun described the permit pause as primarily affecting Greek organizations ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/10/breaking-cornell-suspends-all-fraternity-parties-social-events-for-2026-27-school-year)).
 
 ## How does it relate to Cornell's own action?
 

@@ -54,7 +54,7 @@ images: []
 
 
 ```glance
-- The Ithaca Tenants Union, founded in March 2020, is a tenant organization, not a government office.
+- The Ithaca Tenants Union is a tenant organization that offers rights education and advocacy.
 - It campaigned for the Emergency Tenant Protection Act (ETPA) in 2024.
 - Its co-chair estimated that about 15% of Ithaca units would be covered by ETPA rent stabilization.
 - Good Cause eviction applies in Ithaca today; the ETPA does not.
@@ -64,7 +64,7 @@ The Ithaca Tenants Union is a tenant group that has campaigned for rent stabiliz
 
 ## Who is the Ithaca Tenants Union?
 
-It is a tenant organization founded in March 2020 by three ILR juniors, and it is not a government body ([Cornell Campus Living Resources](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)). Its site at [ithacatu.org](https://www.ithacatu.org/) carries a rights guide and a Landlord Issue Form. Its campaigns include Right to Renew in 2021 and the ETPA in 2024.
+It is a tenant group that offers rights education, advocacy and support ([Cornell Campus Living Resources](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)). Its site at [ithacatu.org](https://www.ithacatu.org/) has a Tenants Rights Guide and a Pass ETPA page.
 
 The group also helped produce the legal reference students use most. The Cornell Law Tenants' Rights Guide was first published in May 2022 by the Ithaca Eviction Defense and Displacement Project and the Ithaca Tenants Union, and it was last updated in February 2026 by Cornell Law School's Tenants Advocacy Program ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/)). Not everyone welcomed the group. A representative of the Landlords Association of Tompkins County worried in 2020 that a tenants union would make landlord and tenant relations adversarial ([Cornell Rental Listings & Resources](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)).
 
@@ -76,7 +76,7 @@ The ETPA is New York's rent stabilization law. The Tenants Union's 2024 campaign
 
 Good Cause eviction is the main protection. It took effect statewide on April 20, 2024, and it applies outside New York City only where a municipality opts in. It is scheduled to expire June 15, 2034 ([Cornell Law lease renewal guide](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal)). Ithaca's Common Council voted 8-2 to opt in, making it the fourth upstate city after Albany, Kingston and Poughkeepsie. Mayor Cantelmo and Tenants Union co-chair Katie Sims supported it, and Alderpersons Margaret Fabrizio and David Shapiro voted no ([WAMC](https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections)).
 
-Under Good Cause, an annual rent increase above the lower of 10% or 5% plus the Consumer Price Index is presumed unreasonable, which a landlord can rebut. It is not a hard cap ([NY Homes and Community Renewal](https://hcr.ny.gov/good-cause-eviction)). Ithaca set two local thresholds: units above 345% of HUD fair market rent are exempt, and a small landlord is one who owns no more than one unit in the state.
+Under Good Cause, an annual rent increase above the lower of 10% or 5% plus the Consumer Price Index is presumed unreasonable ([NY Homes and Community Renewal](https://hcr.ny.gov/good-cause-eviction)). Ithaca set two local thresholds: units above 345% of HUD fair market rent are exempt, and a small landlord is one who owns no more than one unit in the state.
 
 Who is excluded matters for students. Only dormitories owned and operated by higher-education institutions are exempt, and private student apartments are not exempt by category. Buildings with a certificate of occupancy on or after Jan. 1, 2009 are exempt for 30 years, and owner-occupied buildings with 10 or fewer units and condos and co-ops are also exempt ([Real Property Law 214](https://www.nysenate.gov/legislation/laws/RPP/214)). Check your own building with the coverage checker below.
 
@@ -107,6 +107,6 @@ You are a tenant, and the same rules apply to you as to any other renter. Studen
 
 ## What to do next
 
-Check whether your building is covered by Good Cause, and keep your lease and your landlord's notices. If you want to organize or report a landlord, the Ithaca Tenants Union lists a Landlord Issue Form on its site.
+Check whether your building is covered by Good Cause, and keep your lease and your landlord's notices. If you want to organize or report a landlord, the Ithaca Tenants Union lists a Tenants Rights Guide on its site.
 
 Related guides: [Good Cause eviction](/cornell/housing/ithaca-good-cause-eviction-rent-increase-students/), [the 120-day renewal notice rule](/cornell/housing/ithaca-120-day-lease-renewal-notice-rule/), [security deposit rules](/cornell/housing/ithaca-security-deposit-rules-tenants/).

@@ -77,7 +77,7 @@ Hans Bethe House is a West Campus House that opened in 2007 and holds more than 
 
 ## What is Hans Bethe House?
 
-It is one of Cornell's five West Campus Houses, a residential community for upper-level undergraduates with its own dining room, deans and House events. The main building, Bethe Main, is at 314 West Ave. ([Cornell Facilities](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3035)).
+It is one of Cornell's five West Campus Houses, a residential community for upper-level undergraduates with its own dining room, deans and House events. The main building, Bethe Main, is at 314 West Ave. ([Cornell Facilities](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3033)).
 
 ```figure
 kind: cost_table
@@ -139,7 +139,7 @@ If you would rather rent, compare the options in [off-campus housing for Cornell
 
 ```reader
 If you're a spring transfer student
-About 15% of West Campus House residents are transfer students, and Cornell groups transfers together when it can. Ask which Houses will have transfer clusters before you pick ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates)).
+About 15% of West Campus House residents are transfer students ([West Campus House System](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system)). Cornell groups transfers together when it can, so ask which Houses will have transfer clusters before you pick ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates)).
 ```
 
 ## What should you watch before you sign?

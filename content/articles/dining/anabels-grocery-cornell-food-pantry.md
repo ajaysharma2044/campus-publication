@@ -100,13 +100,13 @@ It is a free, confidential pantry at 109 McGraw Place, across from Alice Cook Ho
 
 ## What other free food does Cornell offer?
 
-Swipe Out Hunger lets a meal-plan student donate one bonus meal a semester. Cornell Dining, Swipe Out Hunger and the Dean of Students run it, and the fall 2026 donation window is Sept. 21 to Dec. 8 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/about-dining/food-security/swipe-out-hunger)). The First Generation and Low-Income office, in Barnes Hall 200 and open Monday to Friday, 9 a.m. to 5 p.m., handles free-meal requests, per the same page.
+Swipe Out Hunger lets a meal-plan student donate guest meals from their plan each semester, up to a per-semester limit. Cornell Dining, Swipe Out Hunger and the Dean of Students run it, and the fall 2026 donation window is Sept. 21 to Dec. 8 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/about-dining/food-security/swipe-out-hunger)). The First Generation and Low-Income office, in Barnes Hall 200 and open Monday to Friday, 9 a.m. to 5 p.m., handles free-meal requests, per the same page.
 
 The Sun's 2024 cheapskate guide also points to free receptions and club listservs for event food ([The Sun](https://cornellsun.com/2024/04/22/a-cheapskates-guide-to-navigating-cornell)). Those are the writer's tips, not Cornell programs.
 
 ## Can you get SNAP as a student?
 
-Students aged 18 to 49 who are enrolled at least half-time cannot get SNAP unless they meet an exemption. The listed exemptions include working 20 hours a week, an approved work-study job, caring for a child and being unable to work ([Hunger Solutions New York](https://hungersolutionsny.org/federal-nutrition-programs/snap/snap-eligibility-for-college-students/)). The temporary pandemic-era widening has ended, per a state notice, so check with the state before relying on an old rule.
+Students aged 18 to 49 who are enrolled at least half-time cannot get SNAP unless they meet an exemption. The listed exemptions include working 20 hours a week, caring for a child and being unable to work ([Hunger Solutions New York](https://hungersolutionsny.org/federal-nutrition-programs/snap/snap-eligibility-for-college-students/)). The temporary pandemic-era widening has ended, per a state notice, so check with the state before relying on an old rule.
 
 Tompkins County Department of Social Services is at (607) 274-5680, and you can dial 2-1-1 or text your ZIP code to 898-211 ([Tompkins County](https://www.tompkinscountyny.gov/News-articles/Tompkins-County-encourages-donations-to-support-residents-facing-SNAP-benefit-delays-as-the-federal-shutdown-continues)). The Ithaca Farmers Market accepts SNAP and EBT, giving $5 and $1 wooden tokens at the market office, plus FreshConnect checks that match $2 for every $2 spent, up to $50 per day, as of July 2023 ([Ithaca Farmers Market](https://ithacamarket.com/ebt-snap)).
 

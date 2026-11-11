@@ -39,11 +39,8 @@ sources:
 - url: https://safety.offcampusliving.cornell.edu/
   title: Safety Program for Off-Campus Living
   accessed: '2026-11-10'
-- url: https://ecode360.com/8390192
-  title: Ithaca City Code, rental certificate trigger, eCode360
-  accessed: '2026-11-10'
-- url: https://ecode360.com/8390220
-  title: Ithaca City Code, certificate posting, eCode360
+- url: https://www.cityofithacany.gov/130/Building-Division
+  title: Building Division, City of Ithaca
   accessed: '2026-11-10'
 - url: https://www.cornellsun.com/article/2019/03/city-council-votes-to-stiffen-penalties-for-noncompliant-landlords
   title: City Council votes to stiffen penalties for noncompliant landlords, The Cornell Daily Sun, March 2019
@@ -59,19 +56,19 @@ images: []
 - An expired certificate is a reason to wait for a written inspection date before you sign.
 ```
 
-A Certificate of Compliance is the City of Ithaca's inspection permit for rental housing, and you check it by calling the Building Division at 607-274-6508 or emailing ibd@cityofithaca.org. Ask whether your address has a valid certificate and when it expires ([City of Ithaca](https://www.cityofithacany.gov/146/Certificate-of-Compliance)).
+A Certificate of Compliance is the City of Ithaca's inspection permit for rental housing, and you check it by calling the Building Division at 607-274-6508 or emailing ibd@cityofithaca.org ([City Building Division](https://www.cityofithacany.gov/130/Building-Division)). Ask whether your address has a valid certificate and when it expires.
 
 ## Who needs a Certificate of Compliance?
 
-The City page names multiple dwellings: buildings with three or more units, or individual units housing six or more unrelated people. Dormitories, fraternities and sororities are covered too. A code excerpt sets the unrelated-occupant trigger at five instead of six ([Ithaca City Code](https://ecode360.com/8390192)). Go by five if your group is that size, and ask the Building Division to confirm.
+The City page names multiple dwellings: buildings with three or more units, or individual units housing six or more unrelated people. Dormitories, fraternities and sororities are covered too. If your group is near that size, ask the Building Division whether your house needs a certificate.
 
 The City says inspections are required for all residential rental dwellings inside the City. Hotels, motels, mobile homes and temporary housing are exempt, and short-term rentals need a separate permit ([Housing Inspections](https://www.cityofithacany.gov/145/Housing-Inspections)).
 
-One gap remains for houses. The fee schedule lists one-family and two-family dwellings, which points to inspections for houses, and a code excerpt gives single- and two-family certificates up to five years. The City pages do not state the rule for a single house in plain terms, so ask the Building Division by phone.
+One gap remains for houses. The fee schedule lists one-family and two-family dwellings, which points to inspections for houses. The City pages do not state the rule for a single house in plain terms, so ask the Building Division by phone.
 
 ## How long does a certificate last?
 
-A multiple dwelling's certificate lasts three years. A dormitory's, fraternity's or sorority's lasts one year ([City of Ithaca](https://www.cityofithacany.gov/146/Certificate-of-Compliance)). The certificate is meant to be posted in the main entryway, or in a kitchen cabinet if the building has no central entrance ([Ithaca City Code](https://ecode360.com/8390220)). Look for it when you tour.
+A multiple dwelling's certificate lasts three years. A dormitory's, fraternity's or sorority's lasts one year ([City of Ithaca](https://www.cityofithacany.gov/146/Certificate-of-Compliance)). Ask the landlord to show you the certificate when you tour.
 
 ## What does the inspection cover?
 

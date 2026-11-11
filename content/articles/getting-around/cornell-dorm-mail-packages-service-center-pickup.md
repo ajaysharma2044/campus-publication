@@ -87,7 +87,7 @@ Before move-in, ship only what you cannot bring. The move-in rules for unloading
 
 ## How do you ship things home at move-out?
 
-Cornell's contracted vendor is Big Red Shipping and Storage, run by Student Agencies. It picks up free from a dorm room, apartment or house, and you book at bigredboxes.com or call (607) 524-3130 ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options)). Shipping is priced at FedEx rates set at pickup. Prices and storage options are in the [move-out storage and shipping guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/).
+Cornell's contracted vendor is Big Red Shipping and Storage, run by Student Agencies ([Student Agencies](https://www.studentagencies.com/)). It picks up free from a dorm room, apartment or house, and you book at bigredboxes.com or call (607) 524-3130 ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options)). Shipping is priced at FedEx rates set at pickup. Prices and storage options are in the [move-out storage and shipping guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/).
 
 If you stay in Ithaca during a break, ask your service center about mail handling before you leave. Break rules are in the [guide to staying in Ithaca over breaks](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/).
 

@@ -60,13 +60,13 @@ The city does not clear most sidewalks itself. In September 2023, Public Works S
 
 ## What counts as cleared?
 
-Clear the full paved width. On a corner lot, the duty covers the portion to the curb and the ramps, and corner owners clear both sidewalks ([City of Ithaca plowing guide](https://cityofithacany.gov/DocumentCenter/View/12559)).
+Clear the full paved width. On a corner lot, the duty covers the portion to the curb and the ramps ([City of Ithaca exterior property maintenance](https://www.cityofithacany.gov/136/Exterior-Property-Maintenance)). Corner owners clear both sidewalks ([City of Ithaca plowing guide](https://cityofithacany.gov/DocumentCenter/View/12559)).
 
 Plows can push snow back onto a walk you already cleared, and then you clear it again. Where ice will not come off, the city FAQ allows sand or ashes, followed by clearing when practical ([City of Ithaca FAQ](https://www.cityofithacany.gov/m/faq?cat=46)).
 
 ## What happens if nobody shovels?
 
-The city can send a crew and bill the owner. The Superintendent of Public Works can clear the walk, with a minimum charge of $50 per plowing ([City of Ithaca FAQ](https://www.cityofithacany.gov/m/faq?cat=46)). Add the daily civil penalty and an unshoveled walk costs the owner more than a shovel.
+The city can send a crew and bill the owner. The Superintendent of Public Works can clear the walk, with a minimum charge of $50 per plowing ([City of Ithaca FAQ](https://www.cityofithacany.gov/m/faq?cat=46)).
 
 ## How does the city plow the streets?
 

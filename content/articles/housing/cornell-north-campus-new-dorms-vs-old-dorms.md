@@ -90,13 +90,13 @@ Five buildings have room or temperature control, and many do not. Cornell's hall
 
 Source: Cornell hall pages, such as [Mary Donlon Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall), as of Nov. 10, 2026.
 
-At least 2,384 of the 5,659-plus listed residents, about 42%, live in buildings with no room air conditioning, a sum of the resident counts on [Cornell's hall pages](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing). For the three 2022 halls, the pages do not say, so ask Cornell Housing at housing@cornell.edu or 607-255-5368 before you count on it.
+At least 2,384 of the 5,659-plus listed residents, about 42%, live in buildings with no room air conditioning, a sum of the resident counts and air-conditioning notes on Cornell's hall pages, such as [Balch Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall). For the three 2022 halls, the pages do not say, so ask Cornell Housing at housing@cornell.edu or 607-255-5368 before you count on it.
 
 ## How big are the halls?
 
-Size shapes the feel. Ganędagǫ: holds 564 residents and Toni Morrison 306. Among the 2022 halls, Ruth Bader Ginsburg holds 504, Hu Shih 429 and McClintock 311. The older halls range from Risley with 194 (opened 1913) and Balch with 230-plus (1929) to Clara Dickson with 460-plus (1946) and Mary Donlon with 450-plus (1961) ([Cornell housing pages](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing)).
+Size shapes the feel. Ganędagǫ: holds 564 residents and Toni Morrison 306. Among the 2022 halls, Ruth Bader Ginsburg holds 504, Hu Shih 429 and McClintock 311. The older halls range from Risley with 194 (opened 1913) and Balch with 230-plus (1929) to Clara Dickson with 460-plus (1946) and Mary Donlon with 450-plus (1961) (Cornell hall pages, such as [Balch Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall)).
 
-Balch deserves a second look. It closed for more than two years for its first full renovation in six decades. North Balch reopened in August 2024, with an elevator in each of four units, new windows, HVAC vents and a thermostat in each room for the first time ([Cornell Student and Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)).
+Balch deserves a second look. Its renovation was its first full one in six decades. North Balch reopened in August 2024, with an elevator in each of four units, new windows, HVAC vents and a thermostat in each room for the first time ([Cornell Student and Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)).
 
 ## What do residents say?
 
@@ -106,7 +106,7 @@ Early residents of the two 2021 halls liked the spacious rooms, hardwood floors,
 
 The answer changes with your year. A first-year cannot. Unless you apply to a program house, your hall comes from random auto-allocation, and students do not rank halls ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)). Our [first-year start page](/start/first-year/) lists the deadlines.
 
-A sophomore can. The upper-level options on North Campus are Balch, Clara Dickson's north wing, Ganędagǫ:, Toni Morrison and the Townhouse Apartments, and Dickson is half first-years and half sophomores ([Cornell upper-level housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)). Our [sophomore start page](/start/sophomore/) covers the 2027-28 selection steps, and the [residential requirement guide](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) covers leaving campus.
+A sophomore can. The upper-level options on North Campus are Balch, Clara Dickson's north wing, Ganędagǫ:, Toni Morrison and the Townhouse Apartments, and Dickson's north wing is the upper-level part of that hall ([Cornell upper-level housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)). Our [sophomore start page](/start/sophomore/) covers the 2027-28 selection steps, and the [residential requirement guide](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) covers leaving campus.
 
 ## Does a newer hall cost more?
 

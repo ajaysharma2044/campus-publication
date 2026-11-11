@@ -75,7 +75,7 @@ The same deadlines apply to you, and the same waiver locks. Cornell's [graduate 
 
 ## What health requirements must new students meet?
 
-New students submit immunization and tuberculosis (TB) records to Cornell Health. For fall 2026, first-years were due June 10 and transfers July 23. Spring 2027 admits submit between Nov. 17 and Dec. 18, 2026. Missing the date places a hold on your enrollment on Dec. 22, 2026 ([Cornell Health](https://health.cornell.edu/getcare/healthrequirements/undergrad-grad-prof)).
+New students submit immunization and tuberculosis (TB) records to Cornell Health. For fall 2026, first-years were due June 10 and transfers July 23 ([Cornell Health, archived](http://web.archive.org/web/20260815222031/https://health.cornell.edu/getcare/healthrequirements/undergrad-grad-prof)). Spring 2027 admits submit between Nov. 17 and Dec. 18, 2026. Missing the date places a hold on your enrollment on Dec. 22, 2026 ([Cornell Health](https://health.cornell.edu/getcare/healthrequirements/undergrad-grad-prof)).
 
 Required immunizations and TB testing cost $50 to $1,000 at Cornell Health depending on your insurance, and up to $50 out of pocket on the Student Health Plan. Only the QuantiFERON-TB Gold or T-SPOT blood tests are accepted ([Cornell Health](https://health.cornell.edu/getcare/healthrequirements/undergrad-grad-prof)).
 
@@ -93,11 +93,11 @@ rows:
 
 ## How do I find a doctor in Ithaca?
 
-Start with Cornell Health, the campus clinic. Its 24/7 advice line is [607-255-5155](https://health.cornell.edu/about/news/cold-weather-safety), and you can also book through the myCornellHealth portal. Cornell Health also runs a pharmacy and nutritionists; students can call the same number for a nutritionist plan ([Cornell Health](https://health.cornell.edu/services/nutrition-services/affordable-food)). For prescriptions and off-campus options, see the [pharmacy guide](/cornell/daily-life/pharmacy-near-cornell-campus-ithaca/).
+Start with Cornell Health, the campus clinic. Its 24/7 advice line is [607-255-5155](https://health.cornell.edu/about/news/cold-weather-safety), and you can also book through the myCornellHealth portal. Cornell Health also has nutritionists; students can call the same number for a nutritionist plan ([Cornell Health](https://health.cornell.edu/services/nutrition-services/affordable-food)). For prescriptions and off-campus options, see the [pharmacy guide](/cornell/daily-life/pharmacy-near-cornell-campus-ithaca/).
 
-Cornell Health's pharmacy sells light boxes for $20, which students use for winter low mood ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/02/winter-blues-sad-and-the-benefits-of-light-therapy)). Cold-weather guidance from Cornell Health says to dress in layers and watch for frostbite signs.
+Cornell Health's pharmacy sells light boxes for $20, which students use for winter low mood ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/02/winter-blues-sad-and-the-benefits-of-light-therapy)). Cold-weather guidance from Cornell Health says to dress in layers and watch for frostbite signs ([Cornell Health](https://health.cornell.edu/about/news/cold-weather-safety)).
 
-Cornell Health's pages list no off-campus primary care, urgent care or Cayuga Health clinics (see [its affordable food page](https://health.cornell.edu/services/nutrition-services/affordable-food) for the one off-campus program it names). If you stay on an outside plan, call the number on your insurance card and ask for in-network doctors near 14850. If you are on the Student Health Plan, call Cornell Health first.
+Cornell Health's pages list no off-campus primary care, urgent care or Cayuga Health clinics (its [affordable food page](https://health.cornell.edu/services/nutrition-services/affordable-food) names Ithaca food resources). If you stay on an outside plan, call the number on your insurance card and ask for in-network doctors near 14850. If you are on the Student Health Plan, call Cornell Health first.
 
 ```reader "If you're a parent"
 Check who pays the plan in your family before the waiver deadline. You can read the [parent start page](/start/parent/) for billing contacts and other first-year questions.

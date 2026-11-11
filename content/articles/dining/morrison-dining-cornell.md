@@ -85,7 +85,7 @@ Morrison Dining is the dining room in Toni Morrison Hall on North Campus, one of
 
 ## What is Morrison Dining?
 
-Morrison is a residential dining room: a hall where you swipe in once and eat from several stations. It sits inside Toni Morrison Hall at 18 Sisson Place ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall)). The hall opened in 2021 with 800 beds as part of the North Campus expansion ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)).
+Morrison is a residential dining room: a hall where you swipe in once and eat from several stations. It sits inside Toni Morrison Hall at 18 Sisson Place ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall)). The hall opened in 2021 with Ganędagǫ: Hall, and the two together added 800 beds in the North Campus expansion ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)).
 
 ```figure
 kind: cost_table
@@ -105,8 +105,6 @@ The same building holds Crossings Cafe, a smaller stop for coffee and quick food
 ## What sets Morrison apart from the other dining rooms?
 
 Morrison is the room to pick when your diet has rules. Cornell lists a dedicated halal and kosher station here at lunch and dinner every day, and says holidays can change service ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/food-allergies-special-diets)). Cornell's official page names only two dedicated vegan stations on campus, at Morrison and at Okenshields ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/nutrition-special-diets/vegan-and-vegetarian-resources-campus)).
-
-It also stays open late. Cornell's Dining Now page lists a Late Night block from 8:30 to 10:30 p.m. for fall 2026 ([Dining Now](https://now.dining.cornell.edu/eatery/Morrison-Dining)). That matters on North Campus, where few other places serve a full meal after dinner.
 
 Morrison hosts the big themed dinners. Cornell Dining lists a take on Indigenous cuisine on Nov. 17, 2026, from 5 to 8:30 p.m., and a Thanksgiving Day Celebration of Gratitude Dinner on Nov. 26, 2026, from 11:30 a.m. to 2:30 p.m. ([Cornell Dining events](https://scl.cornell.edu/residential-life/dining)).
 
@@ -143,11 +141,11 @@ You need a plan to swipe in, or you pay the door price each time. The cheapest p
 
 ## What should I watch for at Morrison?
 
-Lines are the usual complaint. After the Robert Purcell Marketplace Eatery closed in 2022, students quoted by the Sun hoped it would ease crowding at Morrison ([The Sun](https://cornellsun.com/2022/12/01/robert-purcell-marketplace-eaterys-permanent-closing-elicits-student-discussion-around-food-quality-and-dining-hall-preferences/)).
+Lines are the usual complaint. After the Robert Purcell Marketplace Eatery closed in 2022, a student quoted by the Sun said reopening a dining hall would help balance crowding at Morrison and North Star ([The Sun](https://cornellsun.com/2022/12/01/robert-purcell-marketplace-eaterys-permanent-closing-elicits-student-discussion-around-food-quality-and-dining-hall-preferences/)).
 
 Variety is the other one. A 2025 Sun columnist wrote that Morrison and North Star menus felt repetitive for vegetarians ([The Sun](https://cornellsun.com/2025/03/10/cornells-abandonment-of-vegetarian-students-and-where-they-can-eat-instead)). That is one writer's view. The plant-forward items Cornell lists at every location are in the [dining options page](https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/food-allergies-special-diets).
 
-Service also changes during breaks. Morrison ran reduced service from Jan. 4 to 12, 2026, for deep cleaning, with door prices of $8 for breakfast and $16 for dinner ([Cornell Dining](https://scl.cornell.edu/news-events/news/january-morrison-dining-reduced)). Fall meals end with brunch on Dec. 20, 2026, and Cornell Dining closes from Dec. 25 to Jan. 1 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms)). If you stay in Ithaca, read [staying in Ithaca over Cornell breaks](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/).
+Service also changes during breaks. Morrison ran reduced service from Jan. 4 to 12, 2026, for deep cleaning, with door prices of $8 for breakfast and $16 for dinner ([Cornell Dining](https://scl.cornell.edu/news-events/news/january-morrison-dining-reduced)). Fall meals end with brunch on Dec. 20, 2026, and Cornell Dining closes from Dec. 25 to Jan. 1 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining)). If you stay in Ithaca, read [staying in Ithaca over Cornell breaks](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/).
 
 Cornell posts live hours on Dining Now and loads them by script, so check the Morrison page there before a late trip.
 

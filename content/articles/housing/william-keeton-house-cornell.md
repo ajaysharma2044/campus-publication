@@ -77,7 +77,7 @@ William Keeton House is a West Campus House at 4 Forest Park Lane that opened in
 
 ## What is William Keeton House?
 
-It is one of Cornell's five West Campus Houses, built for upper-level undergraduates who want a small community with its own dean, dining room and events. Cornell's Facilities office lists Keeton Main at 4 Forest Park Ln. ([Cornell Facilities](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3035)). The Cornell Chronicle dates the opening to August 2008 ([Cornell Chronicle](https://news.cornell.edu/stories/2009/08/west-campus-house-system-officially-complete)).
+It is one of Cornell's five West Campus Houses, built for upper-level undergraduates who want a small community with its own dean, dining room and events. Cornell's Facilities office lists Keeton Main at 4 Forest Park Ln. ([Cornell Facilities](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3034)). The Cornell Chronicle dates the opening to August 2008 ([Cornell Chronicle](https://news.cornell.edu/stories/2009/08/west-campus-house-system-officially-complete)).
 
 ```figure
 kind: cost_table
@@ -101,7 +101,7 @@ The residents, room types and House leaders come from [Cornell's Keeton House pa
 
 The suites set Keeton apart. Cornell counts 37 of them, and they hold anywhere from four to ten students, while most suites in the other Houses hold five ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)). Not every suite is offered in room selection.
 
-Keeton also serves as a hub for nearby buildings. The House Office, laundry and dining for 1 Forest Park Lane are at Keeton, and so is check-in for the Equity & Engagement Community at 2 Forest Park Lane ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/1-forest-park-lane)). The dining room serves the nearby halls as well as Keeton residents.
+Keeton also serves as a hub for nearby buildings. The House Office, laundry and dining for 1 Forest Park Lane are at Keeton ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/1-forest-park-lane)), and so is check-in for the Equity & Engagement Community at 2 Forest Park Lane ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-equity-and-engagement-community)). The dining room serves the nearby halls as well as Keeton residents.
 
 Dining is the mixed part. Each Wednesday from 6 to 7 p.m., the dining room serves only House residents, fellows and guests, then opens to everyone at 7 p.m. ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms/west-campus-house-dinners)). Two Sun reviewers scored the five West Campus dinners during the week of Oct. 24, 2022. Keeton averaged 5.5 out of 10, with a swing from 8.5 on Monday to 0.5 on Friday, when the naan was stale and the burgers sold out ([The Cornell Daily Sun](https://cornellsun.com/2022/11/07/a-comprehensive-review-of-west-campus-dining/)). That is one week and two reviewers, so treat it as a snapshot.
 

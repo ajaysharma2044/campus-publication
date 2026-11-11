@@ -59,7 +59,7 @@ images: []
 - Exemptions exist; the housing quiz below shows whether you qualify.
 ```
 
-Cornell's North Campus Residential Expansion built five residence halls with about 2,000 beds, finishing in August 2022. The new beds are why Cornell could require first-years and sophomores to live in university or affiliated housing starting that fall ([Cornell Daily Sun](https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/)).
+Cornell's North Campus Residential Expansion built five residence halls with about 2,000 beds, with the remaining halls finished for fall 2022. The new beds are why Cornell could require first-years and sophomores to live in university or affiliated housing starting that fall ([Cornell Daily Sun](https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/)).
 
 ## What did the North Campus Residential Expansion build?
 
@@ -78,7 +78,7 @@ rows:
 
 Source: Cornell Student & Campus Life hall pages and residence hall configurations. The five halls total 2,114 listed residents (306 + 564 + 311 + 429 + 504).
 
-Suites at Morrison and Ganędagǫ: group bedrooms around a shared common space. The other three halls use corridors with shared bathrooms ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)). Morrison Hall holds Morrison Dining and the Crossings cafe, and Ginsburg Hall holds Novick's cafe ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms)).
+Suites at Morrison and Ganędagǫ: group bedrooms around a shared common space. The other three halls use corridors with shared bathrooms ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)). Toni Morrison Hall holds Morrison Dining ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms)).
 
 ## Why did Cornell build it?
 
@@ -88,7 +88,7 @@ North Campus had been remade once before. In 2001, Court Hall and Mews Hall open
 
 ## What changed for students?
 
-The big change was the rule. All first-years and sophomores must live in university or affiliated housing, with a required meal plan, and students who skip it without an exemption are billed for the full year ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). Today more than 3,000 new students live in North Campus halls and program houses, and upper-level students live in Balch, the north wing of Clara Dickson, Morrison, Ganędagǫ: and the Townhouse Apartments (Cornell Housing).
+The big change was the rule. All first-years and sophomores must live in university or affiliated housing, with a required meal plan ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). Today more than 3,000 new students live in North Campus halls and program houses, and upper-level students live in Balch, the north wing of Clara Dickson, Morrison, Ganędagǫ: and the Townhouse Apartments (Cornell Housing).
 
 The price of staying is set by Cornell's table. A 2026-27 double costs $13,744 for the academic year, and the Unlimited meal plan is $7,604 a year ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Add the $50 administrative fee, and the year is $21,398. For how that compares with a lease, read [is off-campus cheaper than a Cornell dorm](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/).
 

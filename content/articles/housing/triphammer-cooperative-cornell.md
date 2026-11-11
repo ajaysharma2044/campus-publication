@@ -86,7 +86,7 @@ Cornell required co-ops to standardize room rates within and across houses. Trip
 
 ## How do you get into Triphammer?
 
-You attend two events and one cook group, and then the house holds a lottery. Cornell says each co-op runs its own selection, which starts in early November and early February ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). The process is called a mosey. In the 2023-24 cycle, fall decisions came Nov. 29 and spring decisions Feb. 28 ([Cornell Housing](https://scl.cornell.edu/sub/news-events/news/co-op-mosey-2024)).
+You attend two events and one cook group, and then the house holds a lottery. Cornell says each co-op runs its own selection, which starts in early November and early February ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). The process is called a mosey. In the 2023-24 cycle, spring decisions came Feb. 28 ([Cornell Housing](https://scl.cornell.edu/sub/news-events/news/co-op-mosey-2024)).
 
 Rising sophomores must state their co-op plan on the 2027-28 application by March 15, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A co-op counts as affiliated housing, explained on our [affiliated housing page](/start/affiliated-housing/). For other ways to live off campus, see the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 

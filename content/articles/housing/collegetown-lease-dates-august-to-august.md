@@ -92,9 +92,7 @@ Most Collegetown leases run [12 months](https://ithacarenting.com/collegetown/),
 
 ## Why do most Collegetown leases run August to August?
 
-Landlords sell a year, not a semester, and the year starts when the last tenants leave and the next arrive. The 209 Stewart Avenue listing is one example, with a full rental year in the table below ([209 Stewart Ave.](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095)). Cornell's own calendar fits it. First-years moved in on Monday, Aug. 17, 2026, and upper-level students on Aug. 21 and 22 ([Move-In, North Campus](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)), so a student who arrives in the third week of August finds a lease already running.
-
-The split between lease lengths goes back at least to 2013, when a Sun columnist described a market where 12-month units go first and 10-month August units appear in October ([Cornell Daily Sun, 2013](https://cornellsun.com/2013/09/12/despite-new-law-housing-rush-persists-in-collegetown/)).
+Landlords sell a year, not a semester, and the year starts when the last tenants leave and the next arrive. The 209 Stewart Avenue listing is one example, with a full rental year in the table below ([209 Stewart Ave.](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095)). Cornell's own calendar fits it. Cornell's 2026 move-in dates were Monday, Aug. 17, and Aug. 21 and 22 ([Move-In, North Campus](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)), so a student who arrives in the third week of August finds a lease already running.
 
 ## Which start and end dates exist?
 
@@ -117,7 +115,7 @@ Two lessons follow. A lease can end before August, as the current Dryden South l
 
 ## Are 10-month leases available?
 
-On some units. The 140 College Avenue house is offered for 2027-28 on a 10-month lease, August to June, furnished. Cayuga Place at 131 East Green Street, downtown, has a standard 12-month lease and 10-month options at an additional premium, with no amount posted ([Cayuga Place](https://livehhcayuga.com/cayuga-place/floor-plans)). Some apartments at 226 Linden Avenue are available on 10-month or 12-month leases, and the price varies by length ([226 Linden Ave.](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/226-linden-avenue-8104)). At the other end, one City Centre studio is listed on a 15-month term ([City Centre](https://citycentreithaca.com/floorplans/)).
+On some units. The 140 College Avenue house is offered for 2027-28 on a 10-month lease, August to June, furnished ([140 College](https://www.lambrourealestate.com/140-college-ave-24-bed)). Cayuga Place at 131 East Green Street, downtown, has a standard 12-month lease and 10-month options at an additional premium, with no amount posted ([Cayuga Place](https://livehhcayuga.com/cayuga-place/floor-plans)). Some apartments at 226 Linden Avenue are available on 10-month or 12-month leases, and the price varies by length ([226 Linden Ave.](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/226-linden-avenue-8104)). At the other end, one City Centre studio is listed on a 15-month term ([City Centre](https://citycentreithaca.com/floorplans/)).
 
 A 10-month lease does not mean a 10-month price. Say a Collegetown 4BR bed costs $1,246.25 a month, the 2027-28 median ([Ithaca Renting](https://ithacarenting.com/collegetown/)), or $14,955 a year. If you use 10 of the months, the effective cost is $1,495.50 a month ($14,955 divided by 10). A shorter lease that costs more per month can still beat a long one you cannot sublet.
 
@@ -131,7 +129,7 @@ Three July 31 effects are easy to miss. A residential parking permit from the Ci
 
 ## When does the 120-day notice fall?
 
-Ithaca's rule requires a landlord to give current tenants 120 days' written notice before renewing, showing the unit or signing new tenants ([City of Ithaca code](https://ecode360.com/27390826)). Counting 120 days back from a lease end on the last day of July lands on about April 2, one reading of the rule. The rule's sponsor used a different count: for an August lease, he put the renewal decision at about December, counting from the lease start ([WSKG](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/)). The code text does not settle which count applies, so ask the landlord which date your lease uses. The [120-day guide](/cornell/housing/ithaca-120-day-lease-renewal-notice-rule/) walks through both.
+Ithaca's rule requires a landlord to give current tenants 120 days' written notice before renewing, showing the unit or signing new tenants ([City of Ithaca code](https://ecode360.com/27390826)). Counting 120 days back from a lease end on the last day of July lands on about April 2, one reading of the rule. The code text does not settle which date a lease counts from, so ask the landlord which date your lease uses. The [120-day guide](/cornell/housing/ithaca-120-day-lease-renewal-notice-rule/) walks through the rule.
 
 ## How does a lease line up with Cornell's calendar?
 

@@ -97,7 +97,7 @@ Most Collegetown and downtown rents cover heat and hot water and little else. It
 
 Dryden South at 205 Dryden Rd. includes heat and hot water (Cornell marketplace, [Dryden South](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961)). Cityview's amenity list says electricity is included, but its two-bedroom page says the tenant pays it, so ask in writing before you count on it.
 
-East Pointe charges a monthly utility fee that covers internet, cable, water, sewer, trash and recycling, and the tenant pays electricity separately ([East Pointe](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/east-pointe-236696)). A listing that says "utilities included" can still leave out electricity, so read the line item.
+East Pointe charges a monthly utility fee that covers internet, cable, water, sewer, trash and recycling, and the tenant pays electricity separately ([East Pointe FAQ](https://eastpointeapartment.com/faqs/)). A listing that says "utilities included" can still leave out electricity, so read the line item.
 
 <!-- ad-break -->
 

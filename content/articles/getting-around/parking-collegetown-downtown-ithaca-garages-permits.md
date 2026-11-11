@@ -111,7 +111,7 @@ Collegetown's closest paid parking is the city's Dryden Road Garage, at $2.25 an
 
 ## How much does parking cost in Collegetown?
 
-Collegetown has three kinds of paid parking: a city garage, city street spaces and Cornell lots. The city raised its rates on Jan. 5, 2026 ([City of Ithaca](https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328)). Before that, garages and streets both cost $1.50 an hour and were free from 6 p.m. Friday to 8 a.m. Monday. Council voted on Nov. 5, 2025 to end free Saturdays ([Ithaca Voice](https://ithacavoice.org/2025/11/free-saturday-parking-in-ithaca-poised-to-end/)). Older guides that quote the old rate are out of date.
+Collegetown has three kinds of paid parking: a city garage, city street spaces and Cornell lots. The city raised its rates on Jan. 5, 2026 ([City of Ithaca](https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328)). Before that, garages and streets both cost $1.50 an hour and were free from 6 p.m. Friday to 8 a.m. Monday, and Council voted on Nov. 5, 2025 to end free Saturdays ([Ithaca Voice](https://ithacavoice.org/2025/11/free-saturday-parking-in-ithaca-poised-to-end/)). Older guides that quote the old rate are out of date.
 
 | Where | Hourly rate | Daily maximum | Longer stays | Notes |
 |---|---|---|---|---|
@@ -142,7 +142,7 @@ Use the Dryden Road Garage, at 118 Dryden Road. The city recommends its monthly 
 
 Example: a renter keeps a car at Dryden Road for nine months. At the monthly rate ([City of Ithaca](https://www.cityofithacany.gov/718/Dryden-Road-Garage)) that is $2,088. The daily maximum for a 30-day month would be $540, so the monthly permit wins after 13 days.
 
-Downtown, use Cayuga Street or Green Street. The Green Street Garage is [free on Sundays unless an event is on](https://www.cityofithacany.gov/716/Green-Street-Garage). The Seneca Street Garage at 202 E. Seneca St. [closed on April 10, 2026](https://ithacavoice.org/2026/05/seneca-street-parking-garage-closed-for-good-officials-weigh-next-steps/) after debris fell, and the city made the closure permanent in May. Do not send anyone there.
+Downtown, use Cayuga Street or Green Street. The Green Street Garage is [free on Sundays unless an event is on](https://www.cityofithacany.gov/716/Green-Street-Garage). The Seneca Street Garage [closed on April 10, 2026](https://ithacavoice.org/2026/05/seneca-street-parking-garage-closed-for-good-officials-weigh-next-steps/) after debris fell, and the city made the closure permanent in May. Do not send anyone there.
 
 ```reader "If you rent in Collegetown with a car"
 Your home spot and your campus spot are separate costs. Check your lease for a space first; our [Collegetown rent guide](/cornell/housing/collegetown-rent-prices-per-bed-one-bedroom/) shows what rent covers. With no lease spot, your choices are Dryden Road or a street permit. On campus you cannot buy a resident permit, so see the campus section below.
@@ -192,7 +192,7 @@ Yes, but not with a resident permit. Cornell's [student parking page](https://fc
 | Daily Decision | As little as $1 a day in select zones | Outer lots, first come |
 | ParkMobile by the hour | $0.45 fee per transaction, plus the lot rate | Most lots |
 
-B Lot, at 930 Campus Rd. by the Vet College, runs a 24-hour parking day. Riders of Cornell's C2C bus can [buy temporary B Lot parking for up to 14 days](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-frequently-asked-questions). Commuter lots charge Monday to Friday, 7:30 a.m. to 5 p.m., including breaks ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options)). In 2023, permits for the Williams Street lot at Stewart Avenue, about $700, [sold out within hours](https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students).
+B Lot, at [930 Campus Rd.](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule) by the Vet College, runs a [24-hour parking day](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options). Riders of Cornell's C2C bus can [buy temporary B Lot parking for up to 14 days](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-frequently-asked-questions). Commuter lots charge Monday to Friday, 7:30 a.m. to 5 p.m., including breaks ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options)). In 2023, permits for the Williams Street lot at Stewart Avenue, about $700, [sold out within hours](https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students).
 
 ## What are the rules for parking overnight in Collegetown?
 

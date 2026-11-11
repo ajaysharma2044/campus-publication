@@ -75,9 +75,9 @@ Cornell's halal page names three on-campus routes, and the special diets page ad
 
 Source: Cornell Dining halal resources and food allergies and special diets pages.
 
-Morrison and Keeton are two of Cornell's ten residential dining rooms, so a swipe covers a meal at either ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms)). Take Us Home is a grab-and-go counter, and you pre-order through GET Order at get.cbord.com/cornell or the CBORD GET app, with no fee ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/order-ahead)).
+Morrison and Keeton are two of Cornell's ten residential dining rooms, so a swipe covers a meal at either ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms)). Take Us Home items at Willard Straight Hall are halal certified, and you pre-order them on GET ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/nutrition-special-diets/halal-resources)). Order at get.cbord.com/cornell or the CBORD GET app, with no fee ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/order-ahead)).
 
-Dining rooms also carry labels for pork and alcohol, which helps when you are reading an unfamiliar dish ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/nutrition-special-diets/halal-resources)). The Dining Nutrition Office, at 108 Appel Commons, takes questions at (607) 255-9280 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/food-allergies-special-diets)).
+Dining rooms also carry labels for pork and alcohol, which helps when you are reading an unfamiliar dish ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/nutrition-special-diets/halal-resources)). Cornell asks students with dietary needs to work with the Dining Nutrition Office ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/food-allergies-special-diets)).
 
 ## What does Cornell do during Ramadan?
 
@@ -107,4 +107,4 @@ Ask four things before you commit to a plan. Which dining room is closest to you
 
 ## What to do next
 
-Look at the Morrison and Keeton pages on [Dining Now](https://now.dining.cornell.edu/), call (607) 255-9280 with your questions, and eat once at the Morrison station before you sign up for a plan.
+Look up Morrison and Keeton hours and menus on [Dining Now](https://now.dining.cornell.edu/), and eat once at the Morrison station before you sign up for a plan.

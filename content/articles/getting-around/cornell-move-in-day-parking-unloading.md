@@ -111,11 +111,11 @@ rows:
 | By Uber or taxi | A Lot, North Campus | Then carry bags to the building |
 | By bus | Straight to your building | No car to park |
 
-Source: [North Campus page](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus) and the building pages. Your ticket wins if anything differs. An old [August 2021 arrival page](https://scl.cornell.edu/August-2021-Arrival-Instructions) still turns up in search with 2021 lots, so ignore it.
+Source: [North Campus page](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus) and the building pages. Your ticket wins if anything differs.
 
 ## When does staff unloading help end?
 
-The North Campus page lists staff help ending at 8 p.m. on Monday, 11 a.m. on Tuesday for arrivals before 11, and 5 p.m. on Friday and Saturday. The 2026 dates were Aug. 17 (first-years), Aug. 18 (transfers) and Aug. 21 to Aug. 22 ([Cornell Student and Campus Life](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation)).
+The North Campus page lists staff help ending at 8 p.m. on Monday, 11 a.m. on Tuesday for arrivals before 11, and 5 p.m. on Friday and Saturday. The 2026 dates were Aug. 17 (first-years) and Aug. 18 (transfers) ([Cornell Student and Campus Life](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation)), plus Aug. 21 to Aug. 22 ([North Campus page](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)).
 
 ```figure
 kind: timeline
@@ -139,7 +139,7 @@ You park twice: once to unload and once for the rest of the day. After unloading
 ```
 
 ```reader "If you bring your own car"
-Register the plate at [MyParking.Cornell.edu](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus) before you drive up. After the 3-hour period, resident lots need a permit or ParkMobile payment around the clock. The resident permit is $752.98 a year, and our [permit guide](/cornell/getting-around/cornell-student-parking-permit-cost-rules/) lists the options.
+Register the plate at [MyParking.Cornell.edu](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus) before you drive up. After the 3-hour period, resident lots need a permit or ParkMobile payment around the clock ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options)). The resident permit is $752.98 a year ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)), and our [permit guide](/cornell/getting-around/cornell-student-parking-permit-cost-rules/) lists the options.
 ```
 
 ```reader "If you need accessible parking or help"

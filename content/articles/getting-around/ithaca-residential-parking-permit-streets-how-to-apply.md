@@ -37,7 +37,7 @@ images: []
 ---
 
 
-The City of Ithaca sells a $45 residential parking permit to people who live on blocks in its permit system. You apply in person at the City Clerk with your vehicle registration and proof of residency. Every permit expires on July 31 ([City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance)).
+The City of Ithaca sells a $45 residential parking permit to people who live on blocks in its permit system. The City Clerk's Office issues it, and you bring your vehicle registration and proof of residency. Renewals can go by mail with the documents and the fee. Every permit expires on July 31 ([City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance)).
 
 ```glance
 - The permit costs $45 a year, with no partial-year price.
@@ -93,7 +93,7 @@ The permit is a City of Ithaca program, so it does not cover streets past the ci
 
 ## What does the permit actually do?
 
-It is voluntary. The [city says](https://www.cityofithacany.gov/731/Permit-Issuance) residents of a permit block are not required to buy one, but city parking rules still apply to them. State law requires at least 120 minutes of short-term parking for everyone and keeps at least 20% of spaces open to nonresidents. So the permit is not a reserved space.
+It is voluntary. The [city says](https://www.cityofithacany.gov/731/Permit-Issuance) residents of a permit block are not required to buy one, but city parking rules still apply to them. State law requires that short-term parking of at least 120 minutes be allowed and that at least 20% of spaces stay open to nonresidents ([Vehicle and Traffic Law 1640-e](https://nysenate.gov/legislation/laws/VAT/1640-E*2)). So the permit is not a reserved space.
 
 A permit also does not exempt you from other rules. The odd/even winter rule runs from Nov. 1 to April 1, and the city does not say whether the permit changes it. Ask the Clerk, and read our [winter parking guide](/cornell/getting-around/ithaca-winter-parking-rules-cornell-odd-even/). Snow and trash rules apply too; the [renter rules page](/cornell/housing/ithaca-trash-tags-snow-noise-rules-renters/) lists them. A ticket in a residential permit zone costs $15, rising for repeats ([City of Ithaca](https://www.cityofithacany.gov/727/Parking-Regulations-Violations)).
 

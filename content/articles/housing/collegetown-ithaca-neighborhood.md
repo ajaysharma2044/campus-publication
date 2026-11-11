@@ -90,11 +90,11 @@ Sources: [Ithaca Renting](https://ithacarenting.com/collegetown/) (medians and l
 
 It is dense, loud and walkable. Cornell describes the area as the densest undergraduate housing in the city, a mix of luxury and average complexes, multi-unit houses and room rentals, with the extra rent, noise and congestion that come with it. The best-known buildings are on Dryden Road: Collegetown Court at 208 Dryden Rd., built in 1985, five stories, one block from campus ([Ithaca Renting](https://ithacarenting.com/unit-details/?uid=223)); Collegetown Center at 151 Dryden Rd., built in 1997, with a concierge desk from 9 a.m. to 11 p.m. ([Ithaca Renting](https://ithacarenting.com/unit-details/?uid=461)); and Collegetown Plaza at 111 Dryden Rd. ([Ithaca Renting](https://ithacarenting.com/unit-details/?uid=270)).
 
-The newest building is The Ivy, eight stories at 325 College Ave. at Dryden Road, which began leasing for August 2026 ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026)). Cornell now owns 301 College Ave. and uses it as upper-level housing ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/301-college-avenue-available-for-student-housing-in-2026-2027-academic-year)). Collegetown Terrace at 115 South Quarry St. allows cats and dogs and sits about 0.6 miles from Ho Plaza ([Cornell marketplace](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694)).
+The newest building is The Ivy, eight stories at 325 College Ave. at Dryden Road, which began leasing for August 2026 ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026)). Cornell offered 301 College Ave. in its 2026-27 housing selection ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/301-college-avenue-available-for-student-housing-in-2026-2027-academic-year)). Collegetown Terrace at 115 South Quarry St. allows cats and dogs and sits about 0.6 miles from Ho Plaza ([Cornell marketplace](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694)).
 
 ## Who owns Collegetown?
 
-A few companies own most of it. In 2013, landlords owned 4,013 of an estimated 6,110 Collegetown bedrooms, and eight landlords held about two-thirds of the property ([The Cornell Daily Sun](https://cornellsun.com/2013/05/02/collegetown-housing-market-scrutinized/)). Columnists in 2023 and 2025 say a few agencies still own the nicer buildings, and students sign fast because they see no alternative ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/maia-on-the-mic-the-collegetown-housing-hustle)).
+A few companies own most of it. In 2013, landlords owned 4,013 of an estimated 6,110 Collegetown bedrooms, and eight landlords held about two-thirds of the property ([The Cornell Daily Sun](https://cornellsun.com/2013/05/02/collegetown-housing-market-scrutinized/)). A 2025 Sun column says the same agencies still own the decent buildings and have cornered the market ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/maia-on-the-mic-the-collegetown-housing-hustle)).
 
 ## How much does Collegetown cost?
 
@@ -114,7 +114,7 @@ City of Ithaca landlords must give current tenants 120 days' written notice befo
 
 ## Can you park in Collegetown?
 
-Barely. An older Cornell item says central Collegetown, a high-density zone, gets no residential street parking permits. The City's Dryden Road Garage sells a monthly permit for $232 ([City of Ithaca](https://www.cityofithacany.gov/705/Parking-Information)). Our [parking guide](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/) covers garages and permits, and most residents walk. For longer trips, see [getting around Ithaca as a renter](/cornell/getting-around/getting-around-ithaca-off-campus-renters/).
+Barely. An older Cornell item says central Collegetown, a high-density zone, gets no residential street parking permits. The City's Dryden Road Garage sells a monthly permit for $232 ([City of Ithaca](https://www.cityofithacany.gov/718/Dryden-Road-Garage)). Our [parking guide](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/) covers garages and permits, and most residents walk. For longer trips, see [getting around Ithaca as a renter](/cornell/getting-around/getting-around-ithaca-off-campus-renters/).
 
 ```tool ithaca-rent-commute-calculator```
 

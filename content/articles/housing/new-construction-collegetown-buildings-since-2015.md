@@ -103,7 +103,7 @@ The Sun's reporting and county records name these. Opening years are stated only
 
 Sources: [Cornell Daily Sun, 2025](https://www.cornellsun.com/article/2025/09/maia-on-the-mic-the-collegetown-housing-hustle); [Cornell Daily Sun, 2022](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/); [Rentler](https://www.rentler.com/places-for-rent/ny/ithaca/201-oak-avenue/13135107); [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/238-dryden); [CSP Management](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx); [Modern Living Rentals](https://www.modernlivingrentals.com/707-e-seneca-st). Years built come from Tompkins County's 2026 assessment roll.
 
-No source here gives an opening year for Catherine Commons or The Lux. A Cornell Review count, undated, puts Catherine Commons' net gain at 339 bedrooms ([The Cornell Daily Sun](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/)). To pin down either date, call the City of Ithaca Building Division at 607-274-6508.
+No source here gives an opening year for Catherine Commons or The Lux. A Cornell Review count, undated, puts Catherine Commons' net gain at 339 bedrooms ([The Cornell Review](https://www.thecornellreview.org/cornells-construction-crunch-ithacas-housing-crisis-and-the-catherine-commons/)). To pin down either date, call the City of Ithaca Building Division at 607-274-6508.
 
 ## What does The Ivy cost?
 
@@ -115,7 +115,7 @@ Compare that with the median Collegetown bed in the same year: $800 a month in a
 
 ## What is 301 College Avenue?
 
-It is Cornell housing, not a private apartment building. Cornell bought it for $15 million in March 2025 ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/03/cornell-acquires-301-college-avenue-for-15-million-in-collegetown)). The building has 12 residential units, from studios to six-bedrooms, and Cornell housed 43 students there in August 2026, with room for 105 residents by fall 2027 ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/301-college-avenue-available-for-student-housing-in-2026-2027-academic-year)).
+It is Cornell housing, not a private apartment building. Cornell bought it for $15 million in March 2025 ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/03/cornell-acquires-301-college-avenue-for-15-million-in-collegetown)). The building has 12 residential units, from studios to six-bedrooms ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/301-college-avenue-available-for-student-housing-in-2026-2027-academic-year)).
 
 It opened partly finished. A resident told the Sun in September 2026 that the building felt "incomplete" and "rushed" ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed)). Residents are on the Collegetown Meal Plan, $3,528 per semester for 2026-27 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 

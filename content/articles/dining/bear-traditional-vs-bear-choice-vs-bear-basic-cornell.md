@@ -48,7 +48,7 @@ images: []
 - On campus, only transfers and juniors can pick Traditional; Choice and Basic need pre-2021 enrollment.
 ```
 
-Pick Bear Traditional if you eat 11 or more dining-room meals a week, Bear Choice if you eat 9 or 10, and Bear Basic if you eat 7. Their 2026-27 prices run from $2,489 to $3,528 per semester ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). The cheapest swipe is Traditional, if you use it fully.
+Bear Traditional costs $3,528 per semester for 2026-27, Bear Choice $3,075 and Bear Basic $2,489 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). At full use, Traditional has the lowest cost per swipe.
 
 ## How do the three plans compare?
 
@@ -102,7 +102,7 @@ The pattern: Traditional pays off at 75% of its cap, Choice at 86% and Basic at 
 
 ## Who is allowed to buy which plan?
 
-Rules decide more than math. First-years must take Unlimited and cannot reduce or cancel, and West Campus house residents must take the House Meal Plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms)). The two-year residential requirement carries a meal plan, so the Bear plans open up after that. If you hope to live off campus sooner, read the [residential requirement exemptions](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
+Rules decide more than math. First-years may not reduce or cancel their plan, and West Campus house residents must take the House Meal Plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms)). The two-year residential requirement carries a meal plan, so the Bear plans open up after that. If you hope to live off campus sooner, read the [residential requirement exemptions](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
 ```reader
 If you live on campus as a sophomore, junior or transfer

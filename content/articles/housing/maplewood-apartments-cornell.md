@@ -85,7 +85,7 @@ The scale figures come from the builder: 444 units and 872 beds, in five apartme
 
 Cornell replaced an older complex with the same name. Maplewood Park opened in 1989 and held 394 units for 480 residents. Cornell announced in spring 2015 that it would close at the end of July 2016 because repairs cost too much. On Jan. 28, 2016, a trustee committee chose EdR, a student-housing developer, to finance, build and manage the replacement while Cornell kept the land ([Cornell Chronicle](https://news.cornell.edu/stories/2016/02/board-gives-green-light-new-grad-student-housing)). Cornell's Garrett pledged to prioritize graduate housing in the new buildings ([Cornell Daily Sun](https://cornellsun.com/2016/02/03/trustees-approve-plans-expanding-graduate-student-housing/)).
 
-The new buildings opened in 2017 and 2018. EdR merged into Greystar in 2018, which is why Greystar runs the complex today ([Cornell Assemblies](https://assembly.cornell.edu/sites/default/files/gpci_-_housing_dec_2020.pdf)).
+The new buildings were built in 2017 and 2018 ([LeChase Construction](https://www.lechase.com/portfolio/greystar/)). EdR merged into Greystar in 2018, which is why Greystar runs the complex today ([Cornell Assemblies](https://assembly.cornell.edu/sites/default/files/gpci_-_housing_dec_2020.pdf)).
 
 ## What does Maplewood cost?
 

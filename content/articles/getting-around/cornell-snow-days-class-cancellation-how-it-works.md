@@ -54,13 +54,13 @@ Cornell does cancel classes for snow, but only when the whole university closes.
 
 ## Who decides, and how do you find out?
 
-The university decides, not individual professors. Status is posted at emergency.cornell.edu, and you can call 607-255-3377 ([Cornell Emergency Management](https://emergency.cornell.edu/?p=5006)). In March 2023, the closure was announced through CornellALERT ([The Cornell Daily Sun](https://cornellsun.com/2023/03/13/breaking-news-university-to-close-tuesday-due-to-winter-storm/)).
+The university decides, not individual professors. Status is posted at emergency.cornell.edu, and you can call 607-255-3377 ([Cornell Emergency Management](https://emergency.cornell.edu/?p=5006)). In March 2023, the reopening was announced through CornellALERT ([The Cornell Daily Sun](https://cornellsun.com/2023/03/13/breaking-news-university-to-close-tuesday-due-to-winter-storm/)).
 
 If the university has not announced a closure, classes are on.
 
 ## What does a closure actually close?
 
-It closes classes, exams and events, but not your room. In January 2026, Winter Storm Fern closed the Ithaca and AgriTech campuses from noon on Sunday, Jan. 25, to noon on Monday, Jan. 26. Libraries, the Cornell Store and retail closed, and the residence halls stayed open ([Cornell Emergency Management](https://emergency.cornell.edu/?p=5006)). The National Weather Service forecast 12 to 18 inches, the governor declared a state of emergency, and some dining locations closed Monday ([The Cornell Daily Sun](https://cornellsun.com/article/2026/01/cornell-announces-ithaca-and-agritech-campuses-will-reopen-at-noon-on-monday)). The city's TCAT service started late; the details are in our [TCAT guide](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/).
+It closes classes, exams and events, but not your room. In January 2026, a winter storm closed the Ithaca and AgriTech campuses from noon on Sunday, Jan. 25, with a reopening planned for noon on Monday, Jan. 26. Libraries, the Cornell Store and retail closed, and the residence halls stayed open ([Cornell Emergency Management](https://emergency.cornell.edu/?p=5006)). The governor declared a state of emergency, and some dining locations closed Monday ([The Cornell Daily Sun](https://cornellsun.com/article/2026/01/cornell-announces-ithaca-and-agritech-campuses-will-reopen-at-noon-on-monday)). The city's TCAT service started late; the details are in our [TCAT guide](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/).
 
 The March 2023 closure ran from 3 a.m. on March 14 to 3 a.m. on March 15. The forecast was 9 to 18 inches, and residence halls stayed open while libraries and retail closed (Cornell Daily Sun, March 2023 story above).
 

@@ -68,7 +68,7 @@ images: []
 - You can order ahead on the GET app at 12 of the 18 cafes.
 ```
 
-Big Red Bucks (BRBs) work at every Cornell Dining cafe, and Cornell lists 18 of them, 4 on North Campus and 14 on Central Campus ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/cafes-food-courts-coffeehouses)). They do not work at eateries that Cornell Dining does not run.
+Big Red Bucks (BRBs) work at any Cornell Dining location on campus ([Cornell Dining FAQ](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)). Cornell lists 18 cafes, 4 on North Campus and 14 on Central Campus. They do not work at eateries that Cornell Dining does not run.
 
 ## Which cafes take Big Red Bucks?
 
@@ -93,9 +93,9 @@ Big Red Bucks (BRBs) work at every Cornell Dining cafe, and Cornell lists 18 of 
 | Rusty's | Uris Hall | Central | No |
 | Trillium | Food court, Kennedy Hall | Central | No |
 
-Source: [Cornell Dining cafe list](https://scl.cornell.edu/residential-life/dining/eateries-menus/cafes-food-courts-coffeehouses) and [GET Order eateries](https://scl.cornell.edu/residential-life/dining/eateries-menus/order-ahead). Jansen's Market, a West Campus convenience store, also takes GET orders.
+Source: [Cornell Dining cafe list](https://scl.cornell.edu/residential-life/dining/eateries-menus/cafes-food-courts-coffeehouses) and [GET Order eateries](https://scl.cornell.edu/residential-life/dining/eateries-menus/order-ahead). Jansen's Market also takes GET orders.
 
-Order ahead at get.cbord.com/cornell or in the CBORD GET app. You prepay with BRBs, MealChoice (the staff and faculty plan) or a credit card, and there is no fee. Cornell's hours live on [Dining Now](https://now.dining.cornell.edu/), which loads by script, so open the cafe's own page before you go.
+Order ahead at get.cbord.com/cornell or in the CBORD GET app. You prepay with BRBs, MealChoice (the staff and faculty plan) or a credit card, and there is no fee. Cornell's hours live on [Dining Now](https://now.dining.cornell.edu/), so open the cafe's own page before you go.
 
 ## How far do Big Red Bucks go?
 
@@ -119,7 +119,7 @@ These are student and Cornell descriptions, with the date of each.
 
 - **Big Red Barn:** a former carriage house popular with graduate students, with hot-pressed sandwiches and soups, open 8 a.m. to 3 p.m. daily in 2024 ([The Sun](https://cornellsun.com/2024/09/18/hidden-meal-plan-hotspots-on-campus/)).
 - **McCormick's at Moakley House:** a golf-course tavern with wings, poutine and burgers, open weekdays 11 a.m. to 6 p.m., Saturdays until 5 p.m. and Sundays 9 a.m. to 2 p.m. in 2024.
-- **Crossings Cafe:** a 2022 Sun tip list says to order ahead on the GET app, since Mann Cafe's made-to-order sandwiches draw long lines ([The Sun](https://cornellsun.com/2022/07/01/what-i-wish-i-knew-about-campus-food-before-coming-to-cornell/)).
+- **Crossings Cafe:** a 2022 Sun tip list says to order Crossings smoothies ahead on the GET app ([The Sun](https://cornellsun.com/2022/07/01/what-i-wish-i-knew-about-campus-food-before-coming-to-cornell/)).
 - **Bear Necessities:** the late-night option, listed open to 2 a.m. in fall 2026 on Dining Now.
 
 Take Us Home, Cornell's grab-and-go meal line, offers 8 meals at 11 locations in fall 2026, and 5 of them are new. You can pay with BRBs, MealChoice or a Cornell Card, and the selection varies by site ([Cornell Dining](https://scl.cornell.edu/news-events/news/take-us-home-expands-five-new-meals-fall)). If you study in the library, Libe Cafe in Olin and Mann Cafe in Mann sit inside the buildings; see [best places to study at Cornell](/cornell/academics/best-places-to-study-at-cornell/) and [24-hour study spaces for finals](/cornell/academics/cornell-24-hour-study-spaces-finals/).

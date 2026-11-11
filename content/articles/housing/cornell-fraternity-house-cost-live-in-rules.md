@@ -85,7 +85,7 @@ Two caveats apply to every number above. Chapters report their own charges, so t
 
 ## What does the rent cover?
 
-Rent pays for housekeeping, utilities, internet, repairs and insurance on the building. It does not cover your belongings ([Financial Obligations](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities)). Cornell's page says the cost is below a residence hall or an off-campus apartment but prints no numbers, which is why the scorecard figures matter. Rent is mostly billed through the Bursar, Cornell's student account office, and room and board vary by chapter ([Affiliated Housing](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)). For a renters policy on your own things, see the [renters insurance guide](/cornell/housing/cornell-off-campus-renters-insurance-cost/).
+Rent pays for housekeeping, utilities, internet, repairs and insurance on the building. It does not cover your belongings ([Financial Obligations](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities)). Cornell's page prints no cost figures. It says only that chapter houses are expensive to maintain and operate, which is why the scorecard figures matter. Rent is mostly billed through the Bursar, Cornell's student account office, and room and board fees vary ([Affiliated Housing](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)). For a renters policy on your own things, see the [renters insurance guide](/cornell/housing/cornell-off-campus-renters-insurance-cost/).
 
 Dues and fees come on top of rent, and each chapter sets its own. Ask for them in writing, along with the length of the live-in term.
 
@@ -93,7 +93,7 @@ Dues and fees come on top of rent, and each chapter sets its own. Ask for them i
 
 A parlor fee is what a member pays to belong to a house without living in it. Live-out charges on the scorecard run from $0 to $4,600 at Sigma Chi (spring 2025). The median is $1,152 across 23 fraternities and $602 across 11 sororities ([Organization Scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard)).
 
-Meals are a separate question. Cornell's undergraduate meal-plan requirement lists residence halls, the West Campus House System, program houses, McGraw Place Residences and the Townhouse Apartments, and it does not list chapter houses. Members who live out can buy the SFL Supplemental plan, called Bear Supplemental: $2,088.77 per semester, or $4,177.54 per year, for 127 meals per semester. It is open to recognized members living off campus, or on campus if the chapter requires a plan of at least seven meals a week for members who live out ([SFL Supplemental](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental)). The switch deadlines are Sept. 30, 2026, and Feb. 10, 2027.
+Meals are a separate question. Cornell's SFL meal-plan page defines on-campus housing as the North and South Campus residence halls, the West Campus House System, program houses, McGraw Place Residences and the Townhouse Apartments, and chapter houses are not on that list. Members who live out can buy the SFL Supplemental plan, called Bear Supplemental: $2,088.77 per semester, or $4,177.54 per year, for 127 meals per semester. It is open to recognized members living off campus, or on campus if the chapter requires a plan of at least seven meals a week for members who live out ([SFL Supplemental](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental)). The switch deadlines are Sept. 30, 2026, and Feb. 10, 2027.
 
 ## Who has to live in the house?
 
@@ -115,7 +115,7 @@ Rent comes through the Bursar, and the charge for the semester is the chapter's,
 
 The scorecard labels 15 houses as privately owned and one as university owned, Chi Phi at 107 Edgemoor Lane. The rest carry no label. Of the 15 chapters in the Multicultural Greek Council, 12 list the Office of Sorority and Fraternity Life at 136 Ho Plaza as their address, so most of them have no house ([Organization Scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard)). Depending on the chapter, the building belongs to Cornell, an alumni group or a national organization ([Affiliated Housing](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)).
 
-Cornell's affiliated-housing rules on insurance, sprinklers and yearly city inspections apply to non-Greek houses only. A fraternity or sorority house needs a City of Ithaca Certificate of Compliance, valid one year, and the owner pays $500 for it ([City of Ithaca](https://www.cityofithacany.gov/147/Certificate-of-Compliance-Fees)).
+Cornell's affiliated-housing rules on insurance, sprinklers and yearly city inspections apply to non-Greek houses only ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)). A fraternity or sorority house needs a City of Ithaca Certificate of Compliance, and the owner pays $500 for it ([City of Ithaca](https://www.cityofithacany.gov/147/Certificate-of-Compliance-Fees)).
 
 ## What should you watch before you commit?
 

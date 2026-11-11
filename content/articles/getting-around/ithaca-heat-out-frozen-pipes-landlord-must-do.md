@@ -129,7 +129,7 @@ A tenant hotline gives advice with no income or geographic limits at 607-301-156
 
 ## Can you withhold rent or fix it yourself?
 
-Both are last resorts. Cornell Law says to get free legal advice first, because withholding invites a nonpayment case that starts with a 14-day written notice. Since January 2024, a tenant who has lived in the unit at least 30 days and sent written notice can file a petition for judgment directing repairs ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). The steps for mold, bed bugs and a landlord who ignores you are in our [repairs guide](/cornell/housing/ithaca-landlord-wont-fix-heat-mold-bed-bugs/).
+Both are last resorts. Cornell Law says to get free legal advice first, because withholding invites a nonpayment case that starts with a 14-day written notice ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). The steps for mold, bed bugs and a landlord who ignores you are in our [repairs guide](/cornell/housing/ithaca-landlord-wont-fix-heat-mold-bed-bugs/).
 
 <!-- ad-break -->
 

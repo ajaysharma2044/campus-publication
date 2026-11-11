@@ -57,7 +57,7 @@ images: []
 - Morrison Dining has a separate halal and kosher station every lunch and dinner.
 ```
 
-104West! is the kosher dining room on Cornell's campus. Its meat and pareve food is certified by Star K and its dairy by STAR-D, and a mashgiach, the person who supervises kosher rules, oversees the kitchen ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/food-allergies-special-diets)). It is for students who keep kosher and want a full meal plan dining room that fits.
+104West! is the kosher dining room on Cornell's campus. Its food is Star K certified, and a mashgiach, the person who supervises kosher rules, oversees the kitchen ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/food-allergies-special-diets)). It is for students who keep kosher and want a full meal plan dining room that fits.
 
 ## What is 104West!?
 
@@ -75,7 +75,7 @@ rows:
   - {label: "Shabbat, holiday and special meals", value: "Can carry extra charges; reserve at kosher.scl.cornell.edu"}
 ```
 
-A 2024 Sun roundup described it as the kosher hall run with the Center for Jewish Living, open weekdays from 11 a.m. to 2 p.m. and 5 to 7 p.m., and said it takes swipes, Big Red Bucks, Cornell currency and credit cards ([The Sun](https://cornellsun.com/2024/09/18/hidden-meal-plan-hotspots-on-campus/)). The same piece said reviews call its food among the best on campus. Those hours are from 2024, and Cornell loads current hours by script on [Dining Now](https://now.dining.cornell.edu/), so check there before you go.
+A 2024 Sun roundup described it as the kosher hall run with the Center for Jewish Living, open weekdays from 11 a.m. to 2 p.m. and 5 to 7 p.m., and said it takes swipes, Big Red Bucks, Cornell currency and credit cards ([The Sun](https://cornellsun.com/2024/09/18/hidden-meal-plan-hotspots-on-campus/)). The same piece said reviews call its food among the best on campus. Those hours are from 2024, so check current hours on [Dining Now](https://now.dining.cornell.edu/) before you go.
 
 Cornell's dining room list gives no street address for it, so confirm the entrance on Dining Now before your first visit.
 

@@ -44,7 +44,9 @@ images: []
 - Rent and lease dates are not published, so get both in writing before you apply.
 ```
 
-Catherine Commons is a large, furnished apartment building at 210 College Ave. in Collegetown, with 356 apartments and 483 beds, mostly studios. Cornell's marketplace lists prices from $1,615 to $2,479 without saying per bed or per unit, so confirm the basis before you compare it ([Cornell Off-Campus Housing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/catherine-commons-236692)).
+Catherine Commons is a large, furnished apartment building at 210 College Ave. in Collegetown, with 356 apartments and 483 beds, 206 of the apartments studios ([Welliver](https://buildwelliver.com/projects/integrated-acquisition-development-corp-iad-catherine-commons-210-college-avenue)).
+
+Cornell's marketplace lists prices from $1,615 to $2,479 without saying per bed or per unit, so confirm the basis before you compare it ([Cornell Off-Campus Housing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/catherine-commons-236692)).
 
 ## What is Catherine Commons?
 
@@ -78,7 +80,7 @@ The two sources disagree on who built it. Welliver names Integrated Acquisition 
 
 The marketplace price range carries no basis, and every floor plan is marked "Call For Price." The page says neither per bed nor per unit, nor the lease year. A Sun columnist wrote that higher-end Collegetown apartments run from $1,450 for a three- or four-bedroom to upward of $2,300 for a studio, but the column does not name Catherine Commons ([Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/maia-on-the-mic-the-collegetown-housing-hustle)). Do not treat it as this building's price.
 
-One apartments.com listing snippet shows a $0 application fee ([Apartments.com](https://www.apartments.com/central-collegetown-catherine-commons-ithaca-ny/pe71bbt/)). Confirm it in writing and add every other fee to the rent.
+Ask the leasing office for the application fee and every other fee in writing, and add them to the rent.
 
 For price context across the neighborhood, see [Collegetown rent prices per bed](/cornell/housing/collegetown-rent-prices-per-bed-one-bedroom/) and the [Collegetown versus downtown comparison](/datasets/collegetown-vs-downtown-rent-per-bed-2026/).
 

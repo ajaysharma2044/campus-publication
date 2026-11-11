@@ -75,7 +75,7 @@ West and north of campus, around Cascadilla Avenue, Lake Street, North Tioga Str
 
 ## How much does Fall Creek cost?
 
-One-bedrooms ask $1,400 to $1,545 a month in the listings below ([CSP Management](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx)), with some bedrooms in shared houses far cheaper.
+The one-bedrooms in the table below ask $890 to $1,600 a month, with some bedrooms in shared houses far cheaper ([Cornell marketplace, 709 N. Tioga](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258)).
 
 | Address | Unit | Rent printed | What the listing says |
 |---|---|---|---|
@@ -92,7 +92,7 @@ Across the 10 Fall Creek buildings with printed prices in that feed, the median 
 
 ## What is new in Fall Creek?
 
-The Pinnacle at 121-125 Lake St. opened Aug. 1, 2026 with 77 apartments, and at least 80 percent of its residents are graduate students. Its developer says rents run 15 to 20 percent below newer Collegetown buildings, and a two-bedroom costs about $3,000 a month ([Tompkins Weekly](https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148)).
+The Pinnacle at 121-125 Lake St. opened Aug. 1, 2026 with 77 apartments, and at least 80 percent of its residents are graduate students. Its developer says rents run 15 to 20 percent below newer Collegetown buildings ([Tompkins Weekly](https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148)). The Ithaca Voice puts a two-bedroom at about $3,000 a month ([Ithaca Voice](https://ithacavoice.org/2026/07/cornell-collegetown-construction/)).
 
 <!-- ad-break -->
 
@@ -100,7 +100,7 @@ The Pinnacle at 121-125 Lake St. opened Aug. 1, 2026 with 77 apartments, and at 
 
 On foot, expect the uphill walk above. By bus, a graduate student guide puts the ride at about 15 minutes from Hollister Hall ([Graduate Student Resources](https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html)). TCAT Route 10 runs along North Tioga Street ([Finger Lakes 1](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/)).
 
-Cornell students registered for the program ride free on all TCAT buses after 6 p.m. on weekdays and all day Saturday and Sunday. First-year undergraduate, graduate, PhD and transfer students get unlimited rides in their first year, and PhD students and graduate assistants get free OmniRide passes ([Cornell Transportation and Delivery Services](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). The cash fare is $1.50 per ride ([TCAT](https://tcatbus.com/fare-pass-options)). No buses run from 1:30 a.m. to 4:00 a.m.
+Cornell students registered for the program ride free on all TCAT buses after 6 p.m. on weekdays and all day Saturday and Sunday. First-year undergraduate, graduate, PhD and transfer students get unlimited rides in their first year, and PhD students and graduate assistants get free OmniRide passes ([Cornell Transportation and Delivery Services](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). The cash fare is $1.50 per ride ([Cornell Transportation and Delivery Services](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). No buses run from 1:30 a.m. to 4:00 a.m.
 
 If you pay, the $200 annual OmniRide pass ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)) breaks even at 134 rides ($200 divided by $1.50, rounded up), about 13 weeks of two daytime rides on weekdays. The tool below checks your own schedule.
 

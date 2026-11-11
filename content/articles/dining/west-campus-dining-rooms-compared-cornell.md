@@ -92,7 +92,7 @@ Cornell lists five House dining rooms on West Campus: Becker House Dining Room, 
 | William Keeton House | Keeton House Dining Room | Aug. 2008 | 300+ |
 | Flora Rose House | Rose House Dining Room | Aug. 2009 | 350+ |
 
-Source: Cornell Housing house pages and Cornell Chronicle. Bethe's count includes about 60 beds in McFaddin Hall, which [left 2026-27 selection for construction](https://www.cornellsun.com/article/2025/09/mcfaddin-hall-will-not-house-students-for-fall-2026-due-to-upcoming-construction).
+Source: Cornell Housing house pages and Cornell Chronicle. Bethe's count includes McFaddin Hall, which houses about 60 residents when open and [left 2026-27 selection for construction](https://www.cornellsun.com/article/2025/09/mcfaddin-hall-will-not-house-students-for-fall-2026-due-to-upcoming-construction).
 
 ## How do the five rooms differ?
 
@@ -102,7 +102,7 @@ Popularity tells a different story. In the Sun's Sunset Survey for the Class of 
 
 Diet needs shape the choice more than rank. A 2021 Sun column for vegans praised Keeton's grain salads and called Rose creative but not always vegan ([The Sun](https://cornellsun.com/2021/10/24/dining-halls-as-a-vegan/)). Keeton also serves halal on request, at dinner seven days a week and at lunch and brunch on Saturday and Sunday ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/food-allergies-special-diets)).
 
-Cook stays open for a late block. Dining Now lists Late Night at Cook House from 9 to 10 p.m. on October 2026 dates ([Dining Now](https://now.dining.cornell.edu/eatery/Cook-House-Dining)). Rose hosts special dinners, including the Cena Romana banquet on Nov. 12, 2026, from 5 to 8 p.m. ([Cornell Dining events](https://scl.cornell.edu/residential-life/dining)).
+Rose hosts special dinners, including the Cena Romana banquet on Nov. 12, 2026, from 5 to 8 p.m. ([Cornell Dining events](https://scl.cornell.edu/residential-life/dining)).
 
 A 2025 Sun columnist called Okenshields the best hall and described a West hall as less reliable than it ([The Sun](https://www.cornellsun.com/article/2025/09/abou-alfa-cornells-best-dining-hall)). One person's pick settles nothing, so eat in two or three rooms before you decide.
 
@@ -137,7 +137,7 @@ Cornell runs ten residential dining rooms. Cornell does not print every room's h
 | Risley Dining | Risley, North Campus | Sources food without gluten, peanuts and tree nuts |
 | Okenshields | Willard Straight Hall, Central Campus | Dedicated vegan station |
 | Becker House Dining Room | Carl Becker House, West Campus | House Dinner on Wednesdays |
-| Cook House Dining Room | Alice Cook House, West Campus | Late Night, 9 to 10 p.m. on listed dates |
+| Cook House Dining Room | Alice Cook House, West Campus | Late Night hours not stated |
 | Jansen's Dining Room | Hans Bethe House, West Campus | Earliest closing of the West rooms in a 2022 Sun review |
 | Keeton House Dining Room | William Keeton House, West Campus | Halal on request |
 | Rose House Dining Room | Flora Rose House, West Campus | Special dinners such as Cena Romana |

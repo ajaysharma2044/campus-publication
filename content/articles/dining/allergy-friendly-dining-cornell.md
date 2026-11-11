@@ -60,7 +60,9 @@ images: []
 - Cornell warns that contamination risk exists in all its food.
 ```
 
-Look up your meal in NetNutrition before you eat, then read the label at the station and ask staff if you are unsure. Cornell Dining labels eight major allergens in its residential dining rooms, and its nutrition office at (607) 255-9280 answers questions ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/food-allergies-special-diets)). Cornell also warns that contamination risk exists everywhere.
+Look up your meal in NetNutrition before you eat, then read the label at the station and ask staff if you are unsure. Cornell Dining labels eight major allergens in its residential dining rooms, and its nutrition office answers questions ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/food-allergies-special-diets)).
+
+The office's number is (607) 255-9280 ([Contact Cornell Dining](https://scl.cornell.edu/residential-life/dining/about-dining/contact-cornell-dining)). Cornell also warns that contamination risk exists everywhere.
 
 ## How do I find allergen information?
 
@@ -77,7 +79,7 @@ rows:
   - {label: "Call the Dining Nutrition Office at (607) 255-9280 for a plan before the semester"}
 ```
 
-Cornell points students to Dining Now for hours and menus and to NetNutrition for nutrition and allergens ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus)). Menus change, so look up each day's items instead of trusting last week's.
+Cornell's eateries page links to its live hours and menus and to NetNutrition for nutrition and allergens ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus)). Menus change, so look up each day's items instead of trusting last week's.
 
 ## What do the allergen labels cover?
 
@@ -97,7 +99,7 @@ Experience varies by year and writer. A 2019 Sun column said dairy-free milk was
 
 ```reader
 If you're a first-year
-Unlimited is required and you cannot reduce or cancel it ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). Call the nutrition office before move-in to learn what your hall's dining room can do, and start with the [accessibility guide](/start/accessibility/) if you need a formal accommodation. The [first-year guide](/start/first-year/) covers the rest of your first weeks.
+Unlimited is required, and first-year students may not reduce or cancel a meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms)). Call the nutrition office before move-in to learn what your hall's dining room can do, and start with the [accessibility guide](/start/accessibility/) if you need a formal accommodation. The [first-year guide](/start/first-year/) covers the rest of your first weeks.
 ```
 
 ```reader

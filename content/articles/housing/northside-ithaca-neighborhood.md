@@ -44,13 +44,13 @@ images: []
 
 
 ```glance
-- Northside lies south and west of Cascadilla Creek, down to Washington Park and Route 13.
+- Northside includes the Northside Triangle, enclosed by Cascadilla Street, Route 13 and Cascadilla Creek.
 - Landlords on Lake Avenue tell renters the area is Fall Creek; check the address on a map.
 - Listings on North Fulton and West Court streets sit 1.2 to 1.4 miles from Ho Plaza.
 - Student CarShare is $310 a year plus $6 an hour; a lighter plan is $30 plus $9.
 ```
 
-Northside is the City of Ithaca neighborhood south and west of Cascadilla Creek, running down to Washington Park and Route 13, according to the Ithaca Times as relayed by the Ithaca Voice ([Ithaca Voice](https://ithacavoice.org/2015/07/often-overlooked-ithacas-northside-residents-try-building-clout/)). Cornell's neighborhoods page does not list it, so check each address on a map before you rely on a listing's name.
+The Ithaca Voice describes the Northside Triangle as enclosed by Cascadilla Street, Route 13 and Cascadilla Creek ([Ithaca Voice](https://ithacavoice.org/2015/07/often-overlooked-ithacas-northside-residents-try-building-clout/)). Cornell's neighborhoods page does not list it, so check each address on a map before you rely on a listing's name.
 
 ## Is Northside the same as Fall Creek?
 
@@ -62,12 +62,11 @@ Residents describe it as one of the city's least affluent neighborhoods, with pu
 
 ## How much does rent cost?
 
-No source gives a Northside rent. Two datapoints help:
+No source gives a Northside rent. One datapoint helps:
 
 - RentCafe lists an average of about $2,502 for a two-bedroom of 996 square feet in Northwest Ithaca, the closest published area, though RentCafe states no borders ([RentCafe](https://www.rentcafe.com/apartments-for-rent/northwest-ithaca-ny/2-bedroom/)).
-- A three-bedroom at 508 W. Clinton St. lists $2,000 a month for a lease starting Sept. 25, 2026, with the resident paying electricity, gas, heat, trash and water ([Ithaca Rents](https://www.ithacarents.com/3099-three-bed-apt,-downtown-ithaca-2,000/-avail-fro)).
 
-Lambrou Real Estate lists houses on West Court Street and apartments on North Fulton Street without printing rents, with driveways and detached garages at the West Court houses ([Lambrou Real Estate](https://www.lambrourealestate.com/apartments)). Ask each landlord for the price in writing, and whether it is per bed or per unit.
+Lambrou Real Estate lists houses on West Court Street and apartments on North Fulton Street without printing rents, with a driveway and carport at 723 West Court St ([Lambrou Real Estate](https://www.lambrourealestate.com/723-west-court-st)). Ask each landlord for the price in writing, and whether it is per bed or per unit.
 
 <!-- ad-break -->
 

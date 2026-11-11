@@ -129,7 +129,7 @@ rows:
 
 ## How does move-in differ?
 
-Both halls sit in North Campus and follow Cornell's North Campus move-in plan. For fall 2026, first-years moved in Monday, Aug. 17, transfers on Tuesday, Aug. 18, and upper-level students on Aug. 21 and 22 ([Cornell move instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). Cars queue at A Lot, and you need a Move-In Ticket, which Cornell issues after Aug. 1. Trailers and U-Hauls are turned away.
+Both halls sit in North Campus and follow Cornell's North Campus move-in plan. For fall 2026, Cornell's North Campus move-in days are Aug. 17, 18, 21 and 22 ([Cornell move instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). Cars queue at A Lot, and you need a Move-In Ticket, which Cornell issues after Aug. 1.
 
 Balch has its own page. You unload at the Balch unloading zone with no staff help, then move your car to a three-hour short-term area shown on your Move-In Ticket ([Balch move instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-balch-hall)). Cornell's North Campus list names a North Balch dock for unloading.
 

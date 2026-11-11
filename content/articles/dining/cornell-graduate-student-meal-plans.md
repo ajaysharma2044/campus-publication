@@ -53,7 +53,7 @@ Most graduate students should take the $50 Graduate and Professional Student Mea
 
 ## Which meal plans can graduate students buy?
 
-Two kinds are open to you: the grad plan and the four full plans ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/graduate-meal-plans)). Here is how they compare for 2026-27.
+The table below covers the grad plan and the four full plans, which are open to graduate students ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/graduate-meal-plans)). Here is how they compare for 2026-27.
 
 | Plan | Price per semester | Meals | Big Red Bucks | Admin fee |
 |---|---|---|---|---|

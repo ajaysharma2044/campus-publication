@@ -194,7 +194,7 @@ Listing is free. Sublets were [free to list on Cornell's service in 2019](https:
 
 ## Where can you list a sublet?
 
-Start with the [Off-Campus Housing Marketplace](https://offcampus.housing.cornell.edu/), where only people who prove Cornell affiliation can view and contact subletters. The Off-Campus Living email list reaches Cornell NetID holders: send a message with the subject "Join" and a blank body, per [Cornell's listings page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources). Both Cornell channels screen out most strangers. The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers every channel, and the [summer housing guide](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/) shows what subtenants look for.
+Start with the [Off-Campus Housing Marketplace](https://offcampus.housing.cornell.edu/), where only people who prove Cornell affiliation can view and contact subletters ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)). The Off-Campus Living email list reaches Cornell NetID holders: send a message with the subject "Join" and a blank body, per [Cornell's listings page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources). Both Cornell channels screen out most strangers. The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers every channel, and the [summer housing guide](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/) shows what subtenants look for.
 
 ## What happens after the subtenant moves in?
 

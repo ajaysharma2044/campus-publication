@@ -33,8 +33,23 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall housing selection for rising juniors and seniors, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house
-  title: Loving House, Cornell Student and Campus Life
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/holland-international-living-center-hilc
+  title: HILC, Cornell Student and Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam
+  title: JAM, Cornell Student and Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ujamaa-residential-college
+  title: Ujamaa, Cornell Student and Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house
+  title: Ecology House, Cornell Student and Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house
+  title: Veterans House, Cornell Student and Campus Life
+  accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+  title: Spring housing selection for rising sophomores, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/program-houses/program-house-mission-and-expectations
   title: Program house mission and expectations, Cornell Student and Campus Life
@@ -57,7 +72,7 @@ images: []
 
 ```glance
 - Program houses use the same room rates and the same required meal plan as regular dorms.
-- Cornell's 2027-28 list has 13 program house communities; Equity and Engagement Community is not open to first-years.
+- Cornell's current list has 13 program house communities; Equity and Engagement Community is not open to first-years.
 - Without a program house, a new student's hall comes from random auto-allocation, and you do not rank halls.
 - Air conditioning varies by house: Ecology House has it in every room; most others do not.
 ```
@@ -66,7 +81,7 @@ A Cornell program house costs the same as a regular residence hall, and the diff
 
 ## What is a program house?
 
-A program house is a residential community built around a theme, such as a language, a culture, an identity or a lifestyle. Most sit inside a regular North Campus building. Cornell's program-house list for 2027-28 has 13 communities ([Cornell upper-level housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)):
+A program house is a residential community built around a theme, such as a language, a culture, an identity or a lifestyle. Most sit inside a regular North Campus building. Cornell's current program-house list has 13 communities ([Cornell upper-level housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)):
 
 | Community | Building | Residents |
 |---|---|---|
@@ -94,7 +109,7 @@ Four things differ: how you get in, who your neighbors are, what the community e
 
 **What the community expects.** Expectations differ by house. At Loving House, residents attend a retreat each fall and spring and at least two Fellow-sponsored programs per semester, and first-year and transfer residents enroll in LWYL 1156 ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/program-houses/program-house-mission-and-expectations)).
 
-**The room.** Layouts vary more than in the standard halls. Low Rises 8 to 10 use clusters of one double, one triple and two singles with a shared bathroom, and have no air conditioning. Ecology House has all doubles with a private bath and in-room air conditioning. Veterans House has super singles with window units on request ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)).
+**The room.** Layouts vary more than in the standard halls. Low Rises 8 to 10 use clusters of one double, one triple and two singles with a shared bathroom, and have no air conditioning ([HILC](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/holland-international-living-center-hilc), [JAM](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam), [Ujamaa](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ujamaa-residential-college)). Ecology House has all doubles with a private bath and manually controlled in-room air conditioning ([Ecology House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house)). Veterans House has super singles with window air conditioners on request ([Veterans House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house)).
 
 ## What does a program house cost?
 
@@ -121,7 +136,7 @@ Conditions are worth asking about. The Sun reported in 2026 on Ujamaa residents'
 
 ## When do you apply?
 
-Rising sophomores can list up to three program houses in spring. For 2027-28, priority program house selection is April 12, 2027, before open selection on April 13 to 16. Rising juniors and seniors had Priority Program House Selection on Oct. 1, 2026, and program house beds can be gone by the later rounds ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Over winter break, HILC and Loving House stay open at no charge to residents, and Veterans House is open year-round ([Cornell winter break housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)).
+Rising sophomores can list up to three program houses in spring. For 2027-28, priority program house selection is April 12, 2027, before open selection on April 13 to 16 ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Rising juniors and seniors had Priority Program House Selection on Oct. 1, 2026, and program house beds can be gone by the later rounds ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Over winter break, HILC and Loving House stay open at no charge to residents ([Cornell winter break housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)). Veterans House is open year-round ([Veterans House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house)).
 
 ```reader "If you're a first-year"
 You will not choose a regular hall; you can only choose a program house or accept the random assignment. Apply within 10 days of your NetID if you want one. Our [first-year start page](/start/first-year/) lists the other housing deadlines.

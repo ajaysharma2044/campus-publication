@@ -111,7 +111,7 @@ Your first-year pass has ended. Evenings and weekends stay free, but weekday day
 ```
 
 ```reader "If you're renting in Collegetown"
-Central campus is a [15 to 20 minute walk](https://cornellsun.com/article/2025/10/embrace-your-inner-intellectual-go-on-a-midnight-walk), so most trips cost nothing. You pay only when you bus up the hill on a weekday before 6 p.m., and below the break-even you skip OmniRide. Collegetown has Carshare cars for grocery runs. Lock a bike to a real rack with a U-lock, because [campus police reported 51 bike and scooter thefts in fall 2024](https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far).
+A Sun writer put the walk from North Campus to Collegetown through the Arts Quad at [15 to 20 minutes each way](https://cornellsun.com/article/2025/10/embrace-your-inner-intellectual-go-on-a-midnight-walk), so most trips cost nothing. You pay only when you bus up the hill on a weekday before 6 p.m., and below the break-even you skip OmniRide. Collegetown has Carshare cars for grocery runs. Lock a bike to a real rack with a U-lock, because [campus police reported 51 bike and scooter thefts in fall 2024](https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far).
 ```
 
 ```reader "If you're renting downtown, in Fall Creek or on West Hill"
@@ -123,12 +123,12 @@ Cornell gives PhD students and graduate assistants a [free OmniRide pass](https:
 ```
 
 ```reader "If you're paying your own way"
-Ride TCAT only in the free hours, walk the rest, and book the cheapest commercial seat home instead of Cornell's own bus. Wanderu showed floors of [$25 to $43 to NYC](https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/) on Nov. 8, 2026. Bikeshare runs an [Easy Access plan](https://www.ithacabikeshare.org) for GO ITHACA members at or below 150% of the federal poverty guideline.
+Ride TCAT only in the free hours, walk the rest, and book the cheapest commercial seat home instead of Cornell's own bus. Wanderu lists carrier starting fares of [$25 to $43 to NYC](https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/). Bikeshare runs an [Easy Access plan](https://www.ithacabikeshare.org) for GO ITHACA members at or below 150% of the federal poverty guideline.
 ```
 
 ## What changes with TCAT after first year?
 
-First-years ride free at any hour with a Cornell ID. For fall entrants the pass runs from [fall registration to Aug. 31 of the next year](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting), with no extensions. Spring entrants keep it from Jan. 1 to Dec. 31.
+First-years ride free at any hour with a Cornell ID. For fall entrants the pass runs from registration to Aug. 31 of the next year, with no extensions. Spring entrants keep it from Jan. 1 to Dec. 31 ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)).
 
 After that, you ride free after 6 p.m. on weekdays and all day on weekends as long as you stay registered ([The Cornell Daily Sun](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free)). Any other ride is a paid fare. If you remember your ID working all day, that was a glitch: until mid-October 2024 a farebox error let every student ride free, and Cornell updated the eligibility list on Oct. 16, 2024, according to TCAT's general manager. During free hours, drivers override a rejected ID.
 
@@ -154,7 +154,7 @@ Say you live near the Commons and ride Route 10 to campus and back every weekday
 
 ## Which routes and hours are free?
 
-Plan errands for weekdays after 6 p.m. and anytime on Saturday and Sunday. Cornell's [bus commuting page](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting) names the routes students use most.
+Plan errands for weekdays after 6 p.m. and anytime on Saturday and Sunday, when upper-year riders pay nothing ([The Cornell Daily Sun](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free)). Cornell's [bus commuting page](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting) names the routes students use most.
 
 | Route | Where it goes |
 |---|---|

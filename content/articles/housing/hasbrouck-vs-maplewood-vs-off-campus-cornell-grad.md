@@ -119,7 +119,7 @@ Parking is the one extra. The FH resident permit costs $752.98 a year and includ
 
 ## What is Maplewood Apartments like?
 
-Maplewood is Greystar-managed graduate, faculty and professional housing at 121 Veterans Place. It has 444 units and 872 beds in five apartment buildings and 21 townhouses and stacked flats, on a 17-acre Cornell-owned site that opened in 2017 and 2018 ([LeChase](https://www.lechase.com/portfolio/greystar/)). Units run from furnished studios to 4BRs. Each has a private bath and an in-unit washer and dryer, and pets are welcome ([Graduate Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)).
+Maplewood is Greystar-managed graduate, faculty and professional housing at 121 Veterans Place. It has 444 units and 872 beds in five apartment buildings and 21 townhouses and stacked flats, on a 17-acre site on University-owned property ([LeChase](https://www.lechase.com/portfolio/greystar/)). Units run from furnished studios to 4BRs. Each has a private bath and an in-unit washer and dryer, and pets are welcome ([Graduate Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)).
 
 Rent includes electricity, trash, internet and cable. Greystar charges a one-time $130.00 community amenity fee per leaseholder at move-in, and it requires renters liability insurance from a third party ([Greystar](https://www.greystar.com/maplewood-ithaca-ny/p_15697)). Call (607) 821-0248 for a quote, because neither Cornell nor Greystar posts one.
 
@@ -131,7 +131,7 @@ One piece of history matters for risk. In August 2018, 106 students could not mo
 
 When you split it with others, or when Hasbrouck has no unit for you. Hasbrouck and Maplewood together hold a minority of graduate students: about 95% of graduate and professional students live in non-university residences, and about 400 live on campus ([Graduate Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)).
 
-Fall Creek is about 15 minutes by bus from Hollister Hall, and Lansing about 20 minutes, according to a graduate student guide from 2023 ([Graduate Student Resources](https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html)). The Pinnacle at 121-125 Lake Street opened Aug. 1, 2026, and at least 80% of its residents are graduate students. Its developer says rents run 15% to 20% below newer Collegetown buildings, with a 2BR about $3,000 a month ([Tompkins Weekly](https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148)). The area comparison is in the [Collegetown, Fall Creek and downtown guide](/cornell/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/).
+Fall Creek is about 15 minutes by bus from Hollister Hall, and Lansing about 20 minutes, according to a graduate student guide from 2023 ([Graduate Student Resources](https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html)). The Pinnacle at 121-125 Lake Street opened Aug. 1, 2026, and at least 80% of its residents are graduate students. Its developer says rents run 15% to 20% below newer Collegetown buildings ([Tompkins Weekly](https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148)). A 2BR there is about $3,000 a month ([The Ithaca Voice](https://ithacavoice.org/2026/07/cornell-collegetown-construction/)). The area comparison is in the [Collegetown, Fall Creek and downtown guide](/cornell/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/).
 
 ```tool ithaca-rent-commute-calculator```
 
@@ -153,7 +153,7 @@ Hasbrouck's family and partner units hold 2 to 4 people and no more than two adu
 
 ## When should you apply?
 
-Hasbrouck takes rolling applications. For 2026-27, renewals for current residents opened Feb. 3, 2026, and applications opened at noon on April 1, 2026 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus)). The grad guide says to start looking in March or April for an August lease. The wider picture of neighborhoods and timing is in the [grad student off-campus guide](/cornell/housing/off-campus-housing-cornell-grad-students/).
+For 2026-27, renewals for current residents opened Feb. 3, 2026, and applications opened at noon on April 1, 2026 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus)). The grad guide says to start looking in March or April for an August lease. The wider picture of neighborhoods and timing is in the [grad student off-campus guide](/cornell/housing/off-campus-housing-cornell-grad-students/).
 
 ## What to do next
 

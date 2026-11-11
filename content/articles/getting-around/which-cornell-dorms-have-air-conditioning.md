@@ -58,7 +58,7 @@ images: []
 ---
 
 
-Few Cornell dorms have room air conditioning. On North Campus, [Toni Morrison, Ganędagǫ:, Balch, the Townhouses and Ecology House](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall) are cooled, and Carl Becker is the only West Campus house with air conditioning. Most others have none.
+Few Cornell dorms have room air conditioning. On North Campus, Toni Morrison, Ganędagǫ:, Balch, the Townhouses and Ecology House are cooled, as the table below shows, and [Carl Becker is the only West Campus house with air conditioning](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/carl-becker-house). Most others have none.
 
 ```glance
 - Cooled North Campus buildings: Toni Morrison, Ganędagǫ:, Balch, the Townhouses and Ecology House.
@@ -69,7 +69,7 @@ Few Cornell dorms have room air conditioning. On North Campus, [Toni Morrison, G
 
 ## Which North Campus halls have air conditioning?
 
-At least 2,384 of the 5,659 residents listed across North Campus halls, about 42%, live in a building with no room air conditioning ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall)). That is 2,384 divided by 5,659. The table follows each hall's own page.
+At least 2,384 of the 5,659 residents listed across North Campus halls, about 42%, live in a building with no room air conditioning. That is 2,384 divided by 5,659, using the resident counts on each hall's page on [Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls). The table follows each hall's own page.
 
 | Hall | Area | Air conditioning |
 |---|---|---|
@@ -94,7 +94,7 @@ Sources: each hall's page on [Cornell Student and Campus Life](https://scl.corne
 
 ## Which program houses have air conditioning?
 
-Ecology House has in-room air conditioning, and the Language House is temperature-controlled. Loving House has system-controlled air circulation. Veterans House offers a window air conditioner on request. The EEC, LLC and McLLU houses, Low Rises 8 to 10, Risley and Akwe:kon have none, according to the [program house pages](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house).
+Loving House, in Mews Hall, has system-controlled air circulation ([Loving House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)).
 
 ```reader "If you're a first-year"
 Most first-year halls on North Campus have no room air conditioning, so expect warm early September and late spring days. The [first-year start page](/start/first-year/) lists what to bring. Newer halls such as Toni Morrison and Ganędagǫ: are the exception, and early residents praised their air conditioning and heating ([The Cornell Daily Sun](https://cornellsun.com/2021/10/13/from-leaky-showers-to-lonely-suites-student-residents-voice-concerns-about-new-north-campus-dorms/)).

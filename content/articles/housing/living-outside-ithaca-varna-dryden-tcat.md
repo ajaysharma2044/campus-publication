@@ -67,14 +67,14 @@ Varna is a hamlet on Dryden Road east of campus, and living there means riding a
 
 ## What can you rent in Varna?
 
-Ivy Ridge Townhomes, at 802-812 Dryden Rd., is the building students ask about. It offers two-, three- and four-bedroom townhomes, all fully furnished with a washer and dryer. Its FAQ says rent includes internet, cable, trash, recycling, snow removal and landscaping, and that residents pay only electricity ([Ivy Ridge FAQ](https://ivyridgetownhomes.com/faqs/)).
+Ivy Ridge Townhomes, at 802-812 Dryden Rd., is the building students ask about. Its FAQ says the units are fully furnished, that rent includes internet, cable, trash, recycling, snow removal and landscaping, and that residents pay only electricity ([Ivy Ridge FAQ](https://ivyridgetownhomes.com/faqs/)).
 
 ```figure
 kind: cost_table
 title: Ivy Ridge Townhomes at a glance
 rows:
   - {label: "Address", value: "802-812 Dryden Rd., Varna"}
-  - {label: "Unit types", value: "2-, 3- and 4-bedroom townhomes, fully furnished"}
+  - {label: "Unit types", value: "Townhomes, fully furnished"}
   - {label: "Rent", value: "Call for pricing; no price or lease year printed"}
   - {label: "Rent includes", value: "Internet, cable, trash, recycling, snow removal, landscaping"}
   - {label: "You pay", value: "Electricity"}
@@ -84,7 +84,7 @@ rows:
 
 Source: Ivy Ridge Townhomes website and FAQ. The distance is measured from Ho Plaza to the building's map coordinates.
 
-The site calls the property walkable to Cornell and "less than a mile" from campus ([Ivy Ridge FAQ](https://ivyridgetownhomes.com/faqs/)). The straight-line distance from Ho Plaza is 1.85 miles, and the road climbs, so plan on the bus. The site also states that it is not affiliated with Cornell.
+The site calls the property "less than a mile" from campus and an easy commute ([Ivy Ridge FAQ](https://ivyridgetownhomes.com/faqs/)). The straight-line distance from Ho Plaza is 1.85 miles, and the road climbs, so plan on the bus. The site also states that it is not affiliated with Cornell.
 
 Two details need a question before you apply. The footer says Campus Advantage manages the community, while the contact address and the "Apply Now" button point to Ithacor, a Cortland company. The ownership line is an unfilled template. Ask who the landlord of record is, and get the parking terms in writing.
 
@@ -104,9 +104,9 @@ For a repair that goes unanswered, the code office is the Town of Dryden's, not 
 
 ## How does TCAT work from Varna?
 
-Cornell students ride TCAT with their Cornell ID. New first-year degree students ride free at any hour. After the first year, rides are free after 6 p.m. on weekdays and all day on weekends, and daytime rides cost $1.50 ([Cornell Johnson MBA](https://business.cornell.edu/students/by-program/mba-students/living-in-ithaca/)). Cornell cut off free daytime rides for non-first-years in October 2024 ([Cornell Daily Sun](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free)). The full rules are in the [TCAT guide for Cornell students](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/).
+Cornell students ride TCAT with their Cornell ID. The Cornell Johnson MBA page says rides are free the first year, then free after 6 p.m. on weekdays and all weekend ([Cornell Johnson MBA](https://business.cornell.edu/students/by-program/mba-students/living-in-ithaca/)). The TCAT cash fare is $1.50 a ride ([Ithaca College](https://www.ithaca.edu/id-office/tcat-information)). Cornell cut off free daytime rides for non-first-years in October 2024 ([Cornell Daily Sun](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free)). The full rules are in the [TCAT guide for Cornell students](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/).
 
-Here is what a daytime commuter pays. A round trip costs two daytime fares, and TCAT caps a day at $3.00. Twenty weekdays at that cap is $60.00, against a $45.00 monthly pass ([TCAT fare page](https://www.tcatbus.com/ride/fare-pass-options/)). A pass is the cheaper choice if you ride on most weekdays. Your own numbers go in the calculator below.
+Here is what a daytime commuter pays. A round trip costs two daytime fares, or $3.00, and twenty weekday round trips come to $60.00. TCAT sells day and monthly passes, so compare its current prices at [tcatbus.com](https://www.tcatbus.com/ride/fare-pass-options/). Your own numbers go in the calculator below.
 
 ```tool omniride-break-even-calculator
 ```

@@ -76,7 +76,7 @@ Veterans House is a program house, a themed residence for undergraduates with a 
 
 Beginning in 2027, Veterans House will be based at [112 Edgemoor Lane](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/112-edgemoor), a building that houses 20 residents in all-single rooms with shared single-sex bathrooms. Cornell's 2027-28 selection page also lists Veterans House at 112 Edgemoor Lane. Confirm the address on your license before you plan a commute.
 
-The rooms are super singles, and Cornell's configuration page says window air conditioning is available on request ([Cornell program houses](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)). Veterans House has 12-month occupancy, so you keep your room over summer and winter break.
+The rooms are super singles ([Cornell program houses](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)). Veterans House has 12-month occupancy, so you keep your room over summer and winter break.
 
 ## How do I apply to Veterans House?
 
