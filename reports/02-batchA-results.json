@@ -1,0 +1,1005 @@
+[
+ {
+  "file": "content/articles/academics/best-places-to-study-at-cornell.md",
+  "url": "/cornell/academics/best-places-to-study-at-cornell/",
+  "slug": "best-places-to-study-at-cornell",
+  "kind": "v2",
+  "queue_id": "q-academics-0010",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Line 23 admission: regular opening hours for Olin, Uris and Mann (the library site showed them as Closed when first researched)",
+    "tried": "Page's own sources re-opened (library.cornell.edu/libraries now shows live statuses: Olin until midnight, Uris until 11pm, Mann until 10pm; olinuris.library.cornell.edu/use/spaces; mann.library.cornell.edu). Web: olinuris.library.cornell.edu/full-hours and mann.library.cornell.edu/full-hours (grids load by script, only status rendered), then the library's own LibCal feeds spaces.library.cornell.edu/api_hours_today.php and api_hours_grid.php (weekly grid). Local corpus copy of library.cornell.edu/libraries checked too.",
+    "outcome": "FOUND. Added a 'Regular hours' section with a table of the week of November 8 to 14, 2026 from the library hours feed: Olin 8am to midnight Mon to Thu, 8am to 6pm Fri, 10am to 6pm Sat, 10am to midnight Sun; Uris 8am to 11pm Mon to Thu, 8am to 5pm Fri, noon to 5pm Sat, noon to 11pm Sun; Mann 8am to 10pm Mon to Thu, 8am to 6pm Fri, noon to 6pm Sat, noon to 10pm Sun; Libe Cafe 8am to 11pm Mon to Thu, 8am to 5pm Fri, 10am to 5pm Sat, 10am to 11pm Sun. Linked both full-hours pages for the current week. Deleted the admission paragraph."
+   },
+   {
+    "item": "Line 58 admission: hours for Collegetown and downtown Ithaca cafes (Coffee and food nearby section)",
+    "tried": "WebSearch for Cornell Dining Libe Cafe and Mann Cafe hours; scl.cornell.edu/amit-bhatia-libe-cafe and scl.cornell.edu/mann-cafe (WebFetch rejected the certificate; curl of the Mann Cafe page returned an Access Denied page); now.dining.cornell.edu eatery pages and API (script-rendered, no content); Cornell Dining cafes list page (live and corpus copy, opened); library hours feed (Libe Cafe hours).",
+    "outcome": "PARTLY FOUND, PROMISE TRIMMED. Off-campus cafes were never promised by the heading, so the sentence was deleted. Libe Cafe hours now come from the library hours feed (in the Regular hours table). Mann Cafe is sourced to the Cornell Dining cafes list (a cafe in Mann Library on the Ag Quad); its own Cornell Dining page is access-restricted, so it is not linked and no Mann Cafe hours are given. Gates Hall coffee stays as attributed 2022 Sun student experience."
+   },
+   {
+    "item": "Stale fact: page listed 'Manndible' as Mann's cafe (Quick picks table and Coffee section)",
+    "tried": "WebSearch; mann.library.cornell.edu/manndible-cafe-closing (official Mann Library notice, opened); Cornell Dining cafes list (opened).",
+    "outcome": "FOUND and corrected: Manndible's last day of service was May 21, 2021 (Mann Library notice, April 28, 2021); the cafe in Mann Library is now the Cornell Dining Mann Cafe. Page now says so with both citations."
+   },
+   {
+    "item": "Line 52 admission-style hedge: 'Mann's own site now says only that its lobby is open 24 hours ... so confirm Mann 112 before relying on it'",
+    "tried": "mann.library.cornell.edu/find-a-space (opened), mann.library.cornell.edu/full-hours (opened), library hours feed.",
+    "outcome": "FOUND: Mann's Find a Space page lists the lobby, the contactless pickup area in Mann 112 and Mann 103 as open 24/7 to members of the Cornell community by card swipe, and individual and group study rooms reservable up to four hours (graduate study room up to eight). Rewrote the Mann 112, Reservable rooms, Quick picks row, Common mistakes bullet and the two FAQ answers accordingly; dropped the 2021 LibCal sentence."
+   },
+   {
+    "item": "Line 40 caution: 2019 and 2021 overnight-room lists 'are past-semester lists, so treat them as leads and confirm'",
+    "tried": "Library hours feed weekly grid (opened) and Mann Find a Space page (opened).",
+    "outcome": "FOUND: for the week of November 8 to 14, 2026 the feed lists at 24 hours the Uris tower entrance (Cornell ID required), the Engineering Library (card access), the Mann lobby and contactless pickup area, the Catherwood Library first-floor study space and the Clark study space. The paragraph now leads with that current list; the 2019 and 2021 Sun items are kept as dated history (Uris gallery floor rooms; Catherwood space on the first floor of Ives Hall) and the caution sentence is gone."
+   }
+  ],
+  "sources_added": [
+   "https://spaces.library.cornell.edu/api_hours_grid.php?format=json&weeks=1",
+   "https://olinuris.library.cornell.edu/full-hours",
+   "https://mann.library.cornell.edu/full-hours",
+   "https://mann.library.cornell.edu/find-a-space",
+   "https://scl.cornell.edu/residential-life/dining/eateries-menus/cafes-food-courts-coffeehouses",
+   "https://mann.library.cornell.edu/manndible-cafe-closing"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/academics/best-places-to-study-at-cornell.md. Title, slug, file name, images block, glance structure and block types unchanged; `updated` bumped from 2026-11-07 to 2026-11-11. No section removed; one H2 section added ('Regular hours', a plain markdown table like the existing Quick picks table) to carry the found fact. The three re-opened official sources (olinuris spaces, library hours page, Mann home) now show accessed 2026-11-11; the four Cornell Sun sources keep accessed 2026-11-07 because they were not re-opened. The hours-feed source is the library's own LibCal JSON grid endpoint (official Cornell University Library data, the same feed that powers the full-hours pages); it is cited for the numbers while readers are also pointed at the human-readable full-hours pages. scl.cornell.edu/mann-cafe returned an Access Denied page on a direct fetch, so no Mann Cafe hours are stated and that URL is not cited. Final checks: `python3 scripts/lint-content.py` reports 0 matches; `grep -c \"—\"` reports 0; every body URL is in the frontmatter sources and every source is cited in the body; frontmatter YAML parses. Nothing committed (the working directory is not reported as a git repository and no commit was requested); reports/gaps.md was not written, the decisions above are for the orchestrator's log.",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/academics/cornell-add-drop-deadline-w-on-transcript.md",
+  "url": "/cornell/academics/cornell-add-drop-deadline-w-on-transcript/",
+  "slug": "cornell-add-drop-deadline-w-on-transcript",
+  "kind": "v2",
+  "queue_id": "q-academics-0003",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Senate vote on the March 24, 2026 add/drop resolution (opener 'we found no recorded vote'; pending-change paragraph 'We could not find a result')",
+    "tried": "Re-fetched https://deanoffaculty.cornell.edu/?p=64112 (both halves), the Dean of Faculty resolutions archive (https://deanoffaculty.cornell.edu/faculty-governance/archives/resolutions/), the May 6, 2026 Faculty Senate slides PDF (FS_6May26frev.pdf, text extracted locally; no mention of the resolution), plus a WebSearch for a vote result.",
+    "outcome": "Found: the Dean of the Faculty site still lists the resolution under Pending Matters; its suggested timeline called for a Senate vote in spring 2026 and new deadlines in fall 2026; the Registrar's 2026-27 calendar keeps the 57th-day deadlines. Rewrote both passages as those facts (cited) and deleted the admissions. Kept the Week 9 vs Week 8 observation as a fact about the resolution text (verified: tables say Week 9, section 3.h says Week 8)."
+   },
+   {
+    "item": "Engineering single-course drop/W rule ('no single-course rule found' in the table and the 'Three things stand out' paragraph)",
+    "tried": "WebSearch, then WebFetch of https://www.duffield.cornell.edu/students/undergraduate-students/curriculum/dates-and-deadlines-eng-undergraduates-and-meng (reached via a 301 from engineering.cornell.edu).",
+    "outcome": "Found for fall 2026: Oct 19 last day to drop without a W and without a petition; Oct 20 first W on transcripts for courses dropped by petition; Dec 7 absolute last day to drop by petition with a W on the transcript. Table row and prose rewritten with the citation; admission deleted. The page lists fall 2026 only."
+   },
+   {
+    "item": "College of Veterinary Medicine add/drop rule ('its add/drop policy PDF would not open as readable text for us')",
+    "tried": "WebSearch; WebFetch of https://www.vet.cornell.edu/sites/default/files/003-Add-DropPolicy.pdf (binary), then opened the downloaded PDF with the Read tool; the DVM policies HTML page (https://www.vet.cornell.edu/education/doctor-veterinary-medicine/current-students/policies) for context; the student-handbook policies URL returned 404.",
+    "outcome": "Found: one week of open add/drop at the start of each distribution period for enrollment and grade option changes; a drop after the first week of instruction gives a W plus a $100 fee; a late add needs instructor permission and the same $100 fee. Added a Veterinary Medicine (DVM) table row and one prose sentence, cited to the PDF. The PDF carries no date; the DVM policies page is consistent with it (follow add/drop deadlines, late changes may result in fees)."
+   },
+   {
+    "item": "Dyson add/drop and W rule (named in the deleted admission)",
+    "tried": "WebSearch; WebFetch of https://courses.cornell.edu/business/applied-economics-management/ returned empty, so the page was fetched with curl and read as text (Courses of Study 2026-2027 edition).",
+    "outcome": "Found: after the academic drop deadline, through the withdrawal deadline, students petition the Dyson Office of Student Services; a meeting with an advisor is required if the drop takes the student below 12 credits or an academic integrity issue is pending; 'no drop' and early-drop courses are excluded; the W is permanent and does not affect cumulative GPA; individual courses may set their own add/drop dates. Added a Dyson table row and cited mentions in the GPA bullet, the 'If you are' section and the FAQ."
+   },
+   {
+    "item": "Nolan School of Hotel Administration add/drop and W rule (named in the deleted admission)",
+    "tried": "WebSearch limited to courses.cornell.edu, business.cornell.edu and sha.cornell.edu; fetched https://courses.cornell.edu/business/hotel-administration/ with curl and read as text (2026-2027 edition).",
+    "outcome": "Found: some HADM classes have earlier add and/or drop deadlines than the University dates, listed in the Class Roster each semester; exceptions for extenuating circumstances go by petition, reviewed by the Nolan School Academic Review Committee. Added a Nolan table row with those facts only (the page states no single-course W date of its own)."
+   },
+   {
+    "item": "AAP add/drop and W rule (named in the deleted admission)",
+    "tried": "WebSearch; WebFetch of https://aap.cornell.edu/student-services/academic-policies.",
+    "outcome": "Found: AAP adds and drops run through Student Center during the specified enrollment periods; the page points to the university calendar for add, drop and withdrawal deadlines; petitions go in before the act with the faculty advisor's signature. Added an AAP table row with those facts."
+   },
+   {
+    "item": "Bowers CIS add/drop rule (named in the deleted admission)",
+    "tried": "WebSearch; WebFetch of https://bowers.cornell.edu/offices/registrar.",
+    "outcome": "Found: forms and petitions go through the student's enrolling college's registrar office, and the page lists Arts & Sciences, CALS, Engineering and the Graduate School as the relevant offices. Added a Bowers CIS table row saying the enrolling college's rules apply."
+   },
+   {
+    "item": "How graduate or professional school admissions read a W ('we found no Cornell page ... so we do not claim anything here')",
+    "tried": "Page sources only; no official Cornell office page could state this, and the source checklist allows no forum posters.",
+    "outcome": "Deleted the bullet and its promise (no heading or glance line depended on it)."
+   },
+   {
+    "item": "'We checked each college's own page; where a page does not say, the table says so' (research narration above the table)",
+    "tried": "No research needed.",
+    "outcome": "Rewritten as 'Each row links the college's own page.'"
+   },
+   {
+    "item": "Opener time-bound and narration lines ('if you are reading this in early November', 'we found no recorded vote') and the 'If you are' lead ('days away')",
+    "tried": "Page sources (Registrar calendar, Dean of Faculty page).",
+    "outcome": "Opener rewritten to 60 words with one link; the 'If you are' lead now anchors to the October 19 deadline and the December 7 last day of instruction instead of the reading date."
+   }
+  ],
+  "sources_added": [
+   "https://www.duffield.cornell.edu/students/undergraduate-students/curriculum/dates-and-deadlines-eng-undergraduates-and-meng",
+   "https://courses.cornell.edu/business/applied-economics-management/",
+   "https://courses.cornell.edu/business/hotel-administration/",
+   "https://aap.cornell.edu/student-services/academic-policies",
+   "https://bowers.cornell.edu/offices/registrar",
+   "https://www.vet.cornell.edu/sites/default/files/003-Add-DropPolicy.pdf"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "(unchanged) Cornell add/drop deadline and when a W shows up",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/academics/cornell-add-drop-deadline-w-on-transcript.md. `python3 scripts/lint-content.py` now prints 0 banned-phrase matches; `grep -c \"—\"` prints 0; every URL cited in the body is in the frontmatter sources list and vice versa (checked by script); the deanoffaculty.cornell.edu source's accessed date was moved to 2026-11-11 because its current status is relied on; `updated` set to 2026-11-11. No section headings were removed; one bullet ('Graduate or professional school') and the Engineering-only caveat sentences were deleted, and the college table grew from 6 to 11 rows (Engineering rewritten; Dyson, Nolan, AAP, Bowers CIS and Veterinary Medicine added). Structure, title, slug, figure block and images block untouched; no new block types. The page-checks script (not the task gate) passes everything except two hedge words that are official source wording: line 54 'may not be submitted after the published deadlines' (Arts & Sciences) and line 81 'may negatively impact financial aid' (Engineering), kept as deliberate exceptions. Facts worth knowing for the next step: the Engineering dates page lists fall 2026 only; the Vet College add/drop PDF has no date on it; the Senate resolution remains under Pending Matters as of today, and the May 6, 2026 Senate slides do not mention it (not stated on the page, since that would be an absence claim). A background run of scripts/v2/lint.py (site-wide, not required by the task) had produced no output when this report was written.",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/academics/cornell-course-enrollment-strategy-pre-enroll-tips.md",
+  "url": "/cornell/academics/cornell-course-enrollment-strategy-pre-enroll-tips/",
+  "slug": "cornell-course-enrollment-strategy-pre-enroll-tips",
+  "kind": "v2",
+  "queue_id": "q-academics-0002",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged line 82: \"The page gives no direct fix, so ask the department whether seats open later.\" (after the \"Available seats are reserved\" error)",
+    "tried": "Registrar Common Enrollment Errors page (already cited; corpus copy of 2026-11-06), registrar Enrollment page (corpus copy), CALS Enrollment page (already cited; WebFetch 2026-11-11), WebSearch on cornell.edu for reserve caps",
+    "outcome": "Found. Replaced with the error's meaning per the registrar (a reserve cap for a certain group of students, for example Arts and Sciences juniors; you cannot enroll until you meet it), CALS's explanation that instructors reserve seats by class year or major and some hold them through pre-enroll and open them in the regular enrollment period, the advice to try again when add/drop opens, and the registrar's pointer to the offering department's coordinator for class enrollment questions. Admission deleted."
+   },
+   {
+    "item": "Line 95: \"We could not open the registrar's gateway-course page when we checked on November 7, 2026, so this section rests on the 2021 column plus the add/drop dates above.\"",
+    "tried": "WebSearch found https://registrar.cornell.edu/classes-enrollment/gateway-courses; WebFetch of it returned HTTP 404; a WebSearch limited to registrar.cornell.edu returned no gateway-course page; WebFetch of https://www.math.cornell.edu/enrollment-guide (success) and https://bowers.cornell.edu/offices/registrar (success); https://www.cs.cornell.edu/index.php/offices/registrar failed (certificate rejected); Duffield advising page \"Course Enrollment Challenges\" fetched but summary-only, so not cited",
+    "outcome": "The registrar's gateway page no longer exists, so the admission was deleted and the section now rests on current official department pages: the Math department's spring 2027 enrollment guide (MATH 1110 and other large courses can reach capacity in pre-enrollment or the add period, especially on the first day first-years or sophomores enroll; try again when the add period starts in January; more space will be added for self-enrollment; sections open and close several times a day; no waiting lists for individual sections) and the Bowers registrar page (1000- to 3000-level CS courses are open enrollment, first-come first-served, except CS 3700 and CS 3780; most other Bowers courses reserved for majors during pre-enrollment; waitlists open in Student Center at add/drop; PINs sent from the end of the first week of add/drop, then every other day as space allows until the end of the add period). Two new paragraphs added under \"When to wait for add/drop\"; the closing line now reads \"Other departments publish their own enrollment rules, so read your department's page before you decide to wait.\""
+   },
+   {
+    "item": "Line 88: \"It is one student's view from 2021, so check how your class behaved in past terms.\"",
+    "tried": "Same sources as the gateway gap (Math enrollment guide, Bowers registrar page)",
+    "outcome": "Deleted as a source-thinness hedge. The attribution stays (a junior in Arts and Sciences writing in The Cornell Daily Sun in November 2021) and the new department paragraphs back the claim, introduced by \"The departments behind both classes now say much the same.\""
+   },
+   {
+    "item": "Line 95: \"See also the add/drop deadline and when a W shows up.\" (unlinked promise)",
+    "tried": "Looked for the companion page: content/articles/academics/cornell-add-drop-deadline-w-on-transcript.md exists in content, but it is not in site/dist and https://eduexplained.netlify.app/cornell/academics/cornell-add-drop-deadline-w-on-transcript/ returns 404",
+    "outcome": "Deleted rather than linked, since the target page is not live. The add deadline (Feb 8) and drop deadline (Mar 22) already appear in the timeline figure and the dates paragraph, so nothing is lost."
+   },
+   {
+    "item": "Opener and page-check flags (not admissions): the 83-word opener with the time-bound \"If you are reading this on November 7, you have days, not weeks\", \"November 10\" stated three times, hedges \"often\", \"may\", \"might\"",
+    "tried": "page_check.py (.claude/skills/page-checks) before and after the edit",
+    "outcome": "Opener cut to 57 words with one link and the stale November 7 line removed; the sentence \"Graduate, professional and Cornell Tech students go November 10 to 12.\" dropped from the dates paragraph because the figure row already carries it (count now 2); \"may enforce specific restrictions\" became \"can add their own restrictions\", \"a class that might be restricted\" became \"a restricted class\", \"seats often open\" became \"try again at add/drop, when dropped seats reopen\". page_check now PASS."
+   }
+  ],
+  "sources_added": [
+   "https://www.math.cornell.edu/enrollment-guide",
+   "https://bowers.cornell.edu/offices/registrar"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/academics/cornell-course-enrollment-strategy-pre-enroll-tips.md. Title, slug, headings, the timeline figure block and the images block are unchanged; no new fenced block types. Frontmatter: updated set to 2026-11-11; the CALS enrollment source's accessed date set to 2026-11-11 because it was re-opened today; two sources added with accessed 2026-11-11 (13 sources total, YAML parses). Checks from the repo root: python3 scripts/lint-content.py <file> prints 0 matches; grep -c \"—\" <file> prints 0; python3 .claude/skills/page-checks/scripts/page_check.py <file> prints PASS (1,248 prose words, grade 9.7). The publish-time scripts/v2/lint.py could not be verified: run with the worker venv and --no-network it printed nothing within 170 seconds and was killed by my alarm, so the publish step should run it. Fetch budget: gap 1 used one fetch (CALS); gap 2 used the 404 attempt, Math, Bowers, one failed CS fetch and the Duffield page (not cited). No forum sources used; the Cornell Daily Sun column stays as attributed student opinion, now backed by the Math and Bowers pages. Repetition note for the next step: \"November 10\" now appears twice in prose (opener and FAQ), within the two-mention limit.",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/academics/cornell-course-reviews-professor-ratings.md",
+  "url": "/cornell/academics/cornell-course-reviews-professor-ratings/",
+  "slug": "cornell-course-reviews-professor-ratings",
+  "kind": "v2",
+  "queue_id": "q-academics-0007",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "FAQ, 'Are official course evaluations public?' (flagged line 78: 'We could not confirm a current college-by-college rule')",
+    "tried": "Page sources (the Sun's 2019 RMP report only carries Katzenstein's remark); no topic brief or fact file; corpus grep for course evaluations (no relevant hit); WebSearch x4 (assembly.cornell.edu, cornell.edu, academicinnovation.cornell.edu, Sun/Dean of Faculty); WebFetch of the CALS course-evaluations page (results go to instructors after final grades), the SA R29 2014-2015 assembly record (status dates only, no response text, not cited) and the Nolan School course evaluation system page (numeric results of past evaluations, Cornell NetID required).",
+    "outcome": "Answered with citations: access varies by college; Nolan posts numeric results of past evaluations behind a NetID login; CALS gives instructors access after final grades; reader told to ask their college's advising office. Admission deleted; the Katzenstein repetition dropped from the FAQ (it stays, cited, in the RateMyProfessors section). Question and heading kept."
+   },
+   {
+    "item": "CU Reviews section, line 39: 'We could not load a description of the live site's current fields or rules, so open it and check'",
+    "tried": "WebFetch cureviews.org (JavaScript app, only the headline renders); WebFetch the cornell-dti/cureviews GitHub page (README names no rating fields); WebSearch (only a 2017 Cornell DTI Medium design post, design-stage, not used); WebFetch cornelldti.org/products.",
+    "outcome": "Replaced with Cornell DTI's current product description (a course review website: browse classes and view their metrics, read other students' experiences, submit your own review), cited. The 2018 launch rating scales stay as a dated fact. No promise lost."
+   },
+   {
+    "item": "Median grades section, line 54: 'and does not say whether any of it is current or accurate' (admission that the cited Sun article lacks something)",
+    "tried": "No research needed; the clause told the reader what the source does not say.",
+    "outcome": "Clause removed; the sentence now states what the article says (students shared median data informally on Reddit and in a spreadsheet) followed by 'Treat anything like that as a rough hint.'"
+   },
+   {
+    "item": "ProfessorPeek paragraph: 'It had only five ratings when we looked' (research narration flagged by the house page_check script, not a lint-content match)",
+    "tried": "Checked .claude/skills/page-checks/scripts/page_check.py, which flags 'we looked' as narration.",
+    "outcome": "Reworded to 'It also shows only five ratings, so it is a convenience, not an endorsed tool.' Same fact, same source, present tense like the sentence before it."
+   },
+   {
+    "item": "New FAQ wording 'It depends on your college' (hedge flagged by page_check)",
+    "tried": "Checked the HEDGES pattern in page_check.py.",
+    "outcome": "Changed to 'Access varies by college.', which the two cited college pages support; hedge count now under the house limit."
+   }
+  ],
+  "sources_added": [
+   "https://cornelldti.org/products",
+   "https://apps.business.cornell.edu/courseeval/",
+   "https://cals.cornell.edu/faculty-staff/advising-resources/course-evaluations"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/academics/cornell-course-reviews-professor-ratings.md. Final checks from the repo root: `python3 scripts/lint-content.py <file>` prints 0 banned-phrase matches; `grep -c \"—\" <file>` prints 0; the frontmatter parses (13 sources, each new entry with accessed 2026-11-11); `updated` bumped from 2026-11-07 to 2026-11-11. Title, slug, file name, images block and all headings unchanged; no fenced blocks on this page; no section removed. Fetch budget respected: three fetches for the FAQ gap (CALS, SA R29 record, Nolan page) and three for the CU Reviews gap (cureviews.org, GitHub, cornelldti.org/products). The house self-check (.claude/skills/page-checks/scripts/page_check.py) still flags one pre-existing item outside this step: the opening paragraph is 65 words against a 60-word guideline; left as is. Lead found but not cited (not opened within the fetch cap): Cornell's Office of Academic Innovation pages on the university-wide Student Evaluations of Teaching rollout (academicinnovation.cornell.edu/set-history/, /set-application/, /set-core-questions/), which describe a standard core question set and Explorance Blue; a later pass could add them if a university-level statement on student access is wanted. Nothing committed (the working directory is not a git repository).",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/academics/cornell-free-tutoring.md",
+  "url": "/cornell/academics/cornell-free-tutoring/",
+  "slug": "cornell-free-tutoring",
+  "kind": "v2",
+  "queue_id": "q-academics-0012",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged sentence (Math Support Center): 'Hours are on a schedule linked from that page, and we could not confirm them directly.'",
+    "tried": "Page's own source math.cornell.edu/math-support-center-msc (links to the MSC Google Site); fetched sites.google.com/view/cornell-msc/home and sites.google.com/view/cornell-msc/msc-schedule (the schedule page names Fall 2026); registrar.cornell.edu/calendar consulted only to confirm the fall break dates match 2026, not cited.",
+    "outcome": "Found. Section now states: drop-in lab in 256 Malott Hall open to anyone in an undergraduate math course, undergraduate tutors covering Calculus I through multivariable calculus and linear algebra (some differential equations and upper-level courses), Fall 2026 hours 10 a.m. to 6 p.m. Monday to Thursday, 10 a.m. to 4:30 p.m. Friday, 2 to 4 p.m. Sunday, each with its citation. Admission deleted. The Sun sentence restating eligibility was dropped as a duplicate (same fact now cited to the MSC site). FAQ 'evening' answer updated to say the MSC closes by 6 p.m. and LSC times are in its spreadsheet."
+   },
+   {
+    "item": "Admission in Writing help: 'The ELSO page does not state a price, so confirm with elso@cornell.edu.'",
+    "tried": "Own source elso.as.cornell.edu/elso-tutoring (no cost statement); web search; knight.as.cornell.edu news page on ELSO tutoring opening (only the undergraduate Writing Centers called free); elso.as.cornell.edu/elso-open-hours-contact (no cost statement). Fetch budget for the gap used.",
+    "outcome": "Not found. Admission deleted. Because ELSO's free status is unverified, the ELSO row was removed from the 'Best free option' table (graduate students remain covered by the Writing Centers row, which the Knight page says are free for the whole Cornell community). The ELSO paragraph stays, now with sourced booking details from the ELSO page: 45-minute sessions, WC Online up to 7 days ahead, two appointments a week for writing and presenting and one for pronunciation, questions to elso@cornell.edu."
+   },
+   {
+    "item": "Admission in Paid tutors: 'We found no published price, so ask them.' (Student Agencies)",
+    "tried": "Web search (only a 2019 Care.com test-prep listing, not used); studentagencies.com (links to the tutoring site); studentagenciestutoring.com home page (student-run 501(c)(3) nonprofit managed by Cornell students, 409 College Ave., free 15 to 20 minute no-obligation consultation); studentagenciestutoring.com/services ('Cornell Course Tutoring from $35.00', 'Cornell Group Study from $200.00').",
+    "outcome": "Found. Paragraph rewritten with the starting prices and the free consultation, cited to the two Student Agencies pages. The earlier 'external, student-run nonprofit' wording attributed to the Sun was replaced by the nonprofit description from the Student Agencies site itself (the Sun piece only names the two services). Admission deleted."
+   },
+   {
+    "item": "Admission in FAQ: 'Engineering workshops are one-credit courses, and their page does not state a cost.'",
+    "tried": "Own source duffield.cornell.edu/academic-excellence-workshops (no cost, fee or tuition statement).",
+    "outcome": "Not found. Clause deleted; the sentence now reads that the workshops are one-credit courses you enroll in like any class, which the AEW page supports (enroll through Student Center on the class registration schedule)."
+   },
+   {
+    "item": "Admission in FAQ: 'The LSC page states no limit.'",
+    "tried": "Own source lsc.cornell.edu/help-with-classes/help-with-cornell-courses/lsc-tutoring (silent on limits).",
+    "outcome": "Not found. Sentence deleted; the FAQ now says LSC tutoring and the Math Support Center are drop-in, and adds ELSO's booking limits from the ELSO page."
+   }
+  ],
+  "sources_added": [
+   "https://sites.google.com/view/cornell-msc/home",
+   "https://sites.google.com/view/cornell-msc/msc-schedule",
+   "https://www.studentagenciestutoring.com/",
+   "https://www.studentagenciestutoring.com/services"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/academics/cornell-free-tutoring.md. No section, heading, fenced block, image block, slug or title changed; one table row (ELSO under 'Best free option') was removed and frontmatter 'updated' moved from 2026-11-07 to 2026-11-11. scripts/lint-content.py prints 0 matches; grep -c for em dashes prints 0; every body URL is in the sources list and every listed source is linked. The page-checks script still flags the pre-existing opening paragraph (85 words, 2 links, limit 60 and 1); that predates this task and was left alone since it is outside the gap workflow. The Cornell Daily Sun article remains cited for the LSC's study-day and exam-week tutoring.",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/academics/cornell-s-u-grading-option-should-i-take.md",
+  "url": "/cornell/academics/cornell-s-u-grading-option-should-i-take/",
+  "slug": "cornell-s-u-grading-option-should-i-take",
+  "kind": "v2",
+  "queue_id": "q-academics-0014",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged line 36: College of Engineering S/U limits (\"We could not confirm current published S/U limits for Engineering...\")",
+    "tried": "Page sources and corpus (nothing). Web: Duffield Engineering registrar page (no S/U text); cs.cornell.edu Rules and Procedures (Engineering) page (WebFetch certificate error, curl redirects to /current-students, page gone); Duffield registrar FAQ via curl (only says each major's rules are in the Engineering Handbook, and links it); Engineering Undergraduate Handbook landing page (links per-year handbooks on cornellengineeringhandbook.freeflowdp.com, a flipbook with no text); Duffield Courses and Requirements page and its B.S. requirements sub-page via curl (no S/U text; this last read was one over the per-gap budget). Three searches found no engineering.cornell.edu or duffield.cornell.edu page stating the rule.",
+    "outcome": "Not found. Deleted the admission sentence and the promise: Engineering is simply absent from the rules table, and no sentence tells the reader it is missing. Heading changed from \"The rules we could verify, by college\" to \"The rules by college\"."
+   },
+   {
+    "item": "Flagged line 36: CALS S/U limits",
+    "tried": "CALS faculty grading-policies page (faculty grade entry only); CALS academic FAQs (HTTP 403 for WebFetch and curl); Courses of Study CALS section HTML and PDF (host returns an empty/202 challenge page); CALS Academic Policies page (opened); CALS Student Services Enrollment page (opened).",
+    "outcome": "Found and added a CALS table row: S/U courses can fulfill college distribution requirements (CALS Academic Policies); most majors require letter grades, a passing grade is C- or higher, S/U does not contribute to GPA, grading option can be changed in Student Center while the enrollment window is open up to a deadline on the academic calendar, and CALS caps the number of S/U classes (CALS Enrollment page; the page states a cap exists without a number, so the row says a cap exists and sends the reader to an advisor). Also used in the \"How S/U grading works\" paragraph, the Deadlines section, the decision bullets and the FAQ."
+   },
+   {
+    "item": "Flagged line 36: AAP S/U limits",
+    "tried": "AAP Academic Policies page (opened); Courses of Study B.Arch page (empty via WebFetch).",
+    "outcome": "Found and added an AAP table row: S/U may be used for free elective credit; classes that fulfill specific graduation requirements must be taken for a letter grade; programs have their own grading requirements. The AAP definition (S = C- or higher; U = below C-, a failing grade equal to an F; not factored into GPA) replaced the line-24 hedge about other colleges' wording."
+   },
+   {
+    "item": "Flagged line 36: Hotel (Nolan School) S/U limits",
+    "tried": "2025-2026 Nolan School Handbook PDF on sha.cornell.edu (301 redirect to business.cornell.edu/nolan/, not fetched); Nolan School B.S. in Hotel Administration \"Resources for students\" page on business.cornell.edu (opened twice, second time for full passages).",
+    "outcome": "Found and added a Nolan School (Hotel Administration) table row: student-option S/U classes count only toward free elective requirements; up to 4 credits S/U in a single semester; no more than 8 credits total non-graded in a semester including S/U and S/U-only (SX/UX) credits; passing grade C- or higher; no GPA impact. The page ties none of this to a matriculation cohort, so the row states no cohort."
+   },
+   {
+    "item": "Line 24 hedge: \"Other colleges publish their own wording, so confirm how your college treats a U before relying on that\" (university-wide S/U definition)",
+    "tried": "Courses of Study Exams and Grading page at courses.cornell.edu and catalog.cornell.edu (HTML empty, PDF empty, curl gets a 202 challenge page); SCE faculty grading page (no S/U text).",
+    "outcome": "University-wide text not opened, so it is not cited. Replaced the hedge with the college definitions actually opened: AAP (S = C- or higher, U = failing grade equal to an F, not in GPA), CALS and the Nolan School (passing grade C- or higher, no GPA impact), alongside the existing ILR definition."
+   },
+   {
+    "item": "Line 49 admission: \"Cornell's pre-health office does not give an S/U rule on its academic preparation page\"",
+    "tried": "HPAC Academic Preparation page (re-opened; no S/U or pass/fail text, but it says prerequisite requirements vary by profession and by school and to verify with intended programs); one search; HPAC Pre-Professional Competencies page and HPAC Pre-Health Guide via curl (the competencies page says it is recommended its listed courses, which most health professional schools do not require, are taken for letter grades); Duffield pre-health pathways page (no S/U text).",
+    "outcome": "Rewrote the bullet without the admission: HPAC says prerequisite requirements vary by profession and school, verify with intended programs (academic preparation page), and recommends letter grades even for the optional courses on its competencies list (competencies page). The letter-grade advice for prerequisites stays framed as our recommendation."
+   }
+  ],
+  "sources_added": [
+   "https://cals.cornell.edu/undergraduate-students/student-services/academic-resources/petitions-forms-and-policies/policies",
+   "https://cals.cornell.edu/undergraduate-students/cals-student-services/academic-resources/enrollment",
+   "https://aap.cornell.edu/student-services/academic-policies",
+   "https://business.cornell.edu/students/by-program/bs-hotel-administration/resources-for-students/",
+   "https://prehealthadvising.cornell.edu/pre-professional-competencies/"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/academics/cornell-s-u-grading-option-should-i-take.md. Title, slug, file name, meta, images block and block types unchanged. `python3 scripts/lint-content.py` now prints 0 matches; `grep -c \"—\"` prints 0; frontmatter YAML parses with 11 sources, each {url, title, accessed}; every URL cited in the body is in the sources list and vice versa. No section removed; one heading renamed (\\\"The rules we could verify, by college\\\" to \\\"The rules by college\\\") because the old heading was itself a research admission. The rules table now has six rows (Arts & Sciences, ILR, Human Ecology, CALS, AAP, Nolan School); Engineering is omitted silently. Existing ILR numbers (8 S/U credits per semester, 105 letter-grade credits, 57th calendar day, S = C- or better and U = D+ or lower, U counts as F for academic status but not in GPA) and Human Ecology numbers (12 S/U credits max, no distribution or major unless S/U-only, fall 2024 or earlier cohort) were re-opened today and confirmed; their accessed dates and the HPAC academic-preparation date were set to 2026-11-11, and `updated:` was set to 2026-11-11. The two Arts & Sciences pages and the 2020 Cornell Daily Sun article were not re-opened (unchanged claims, dates left at 2026-11-07). The FAQ answer on GPA was corrected: the ILR page says a U will not affect GPA and does not say the same of an S, so the page no longer claims ILR puts all S/U grades outside the GPA calculation. The old decision bullet \\\"A free elective or a distribution course outside your major (Arts & Sciences or ILR)\\\" was split into a free-elective bullet and a distribution bullet with the per-college answers. One budget note: Engineering took one text read beyond the two-or-three limit (the Duffield B.S. requirements sub-page), which also had no S/U text. The one remaining grep hit for \\\"could not\\\" (line 59) is students telling the Sun they could not tell whether to switch, an attributed quote, not a research admission.",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/academics/hardest-classes-at-cornell.md",
+  "url": "/cornell/academics/hardest-classes-at-cornell/",
+  "slug": "hardest-classes-at-cornell",
+  "kind": "v2",
+  "queue_id": "q-academics-0013",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged sentence (body line 35 per lint; file line 57): a MATH 1910 prelim mean of 34 to 36 from a 2008 College Confidential poster, ending 'we could not confirm it'",
+    "tried": "Page's own sources re-opened: the Levin 2022 and Tias 2024 Sun columns name only CHEM 2070 and its support courses (CHEM 1007, 1560, 1729); no topic brief or fact file exists. WebSearch limited to cornellsun.com, news.cornell.edu and cornell.edu for MATH 1910, PHYS 1112, CS 2110, BIOG 1440 prelim or weed-out coverage returned only catalog and course-site pages, nothing on exam means. LSC Help with Cornell Courses page opened (no exam data).",
+    "outcome": "Deleted. The sentence, the poster and the whole College Confidential thread are gone (forum source, rule 4; the thread's source entry is removed from the frontmatter). No legitimate source gives a MATH 1910 exam mean, so no number replaced it."
+   },
+   {
+    "item": "Admission plus forum pointer: 'We found no sourced, recent evidence for ranking specific physics, math, biology or engineering courses, so we are not ranking them. Check current r/Cornell threads...'",
+    "tried": "WebSearch of cornellsun.com and news.cornell.edu for hardest-classes coverage found and I opened: the Sun news feature 'Pre-Med Culture at Cornell: Overwhelming or Overstated?' by Sahil Raut (April 21, 2026) and the Sun column 'Choung: All majors are hard' by Adin Choung (March 19, 2023). Opened the Learning Strategies Center's 'Help with Cornell Courses' page (Fall 2026, FA26 roster links). The LSC supplemental-courses index URL returned 404.",
+    "outcome": "Admission and forum pointer deleted. The 'Other courses people mention' section was rebuilt from cited sources: the 2026 feature (organic chemistry and biochemistry called the most notorious pre-med courses, curved; Emily Rambo '28 calling orgo intense but not a nightmare and the material, not competition, the hard part), the Choung column (Cornell rigorous for every major, good grades harder in STEM, engineers may find humanities harder), and the LSC's Fall 2026 supplemental-course pairings (BIOMG 1350/1035, BIOG 1440/1044, CHEM 2070/1007, CHEM 3570/1057, CHEM 2080/1008 and CHEM 3580/1058 not offered in fall, MATH 1106/1006, MATH 1110/1011, PHYS 1112/1012, PHYS 2213/1013) plus tutoring for CHEM 2090, CHEM 2510, MATH 1120 and statistics courses, free to undergraduates. No ranking is claimed. The non-forum advice 'ask people a year ahead of you in your major' was kept."
+   },
+   {
+    "item": "'difficulty depends mostly on your major' (opening) and 'The same thread mostly says difficulty depends on major' were sourced to the forum thread",
+    "tried": "Choung 2023 column opened: 'students in more academically demanding majors, such as engineering or pre-med', 'STEM majors are more challenging to receive good grades in', 'Cornell is a rigorous school for all majors.'",
+    "outcome": "Re-sourced to the Choung column in the body. The opening now reads: 'After it come organic chemistry and biochemistry, and then it depends on your major.'"
+   },
+   {
+    "item": "FAQ question 'Is Cornell the hardest Ivy?' answered from the College Confidential thread",
+    "tried": "Opened the admissions FAQ workload page (already a page source): it never compares Cornell to other universities or mentions an Ivy reputation; it says the workload is substantial, faculty have high expectations, a student says the environment is not cutthroat, and a student points to 'the more traditionally competitive classes such as the sciences'. The Choung column and the 2026 feature contain no Ivy comparison either.",
+    "outcome": "Question deleted (no legitimate source answers it). Replaced with 'Which classes are the competitive ones?', answered from the admissions FAQ's student quote singling out the sciences as the traditionally competitive classes."
+   },
+   {
+    "item": "Accuracy fix found while opening a source: the prelims section said the admissions FAQ 'calls the environment collaborative, not cutthroat'",
+    "tried": "Admissions FAQ page opened: the word 'collaborative' does not appear; 'not cutthroat' is a student's quote, and 'high expectations' refers to faculty.",
+    "outcome": "Rewritten to: 'says the workload is substantial and faculty expectations are high, and quotes a student saying the environment is not cutthroat.'"
+   },
+   {
+    "item": "Unverifiable absolute in the FAQ: 'Columnists use that label [weed-out] for CHEM 2070. Cornell's pages do not.'",
+    "tried": "Fall 2026 class roster (existing source) and LSC Help with Cornell Courses page (opened) both describe CHEM 2070 without that label.",
+    "outcome": "Replaced with what the opened pages say: 'The class roster and the Learning Strategies Center describe it as General Chemistry I with a support course attached.'"
+   },
+   {
+    "item": "Research narration: 'We wanted to rank courses by median grade. That is not possible from public sources, so this page says what is reported, by whom, and when.'",
+    "tried": "No search needed; the preceding paragraph already sources the end of transcript medians to the Sun.",
+    "outcome": "Rewritten to: 'Without medians, this page says what is reported about each course, by whom, and when.'"
+   }
+  ],
+  "sources_added": [
+   "https://www.cornellsun.com/article/2026/04/pre-med-culture-at-cornell-overwhelming-or-overstated",
+   "https://cornellsun.com/2023/03/19/choung-all-majors-are-hard/",
+   "https://lsc.cornell.edu/help-with-classes/help-with-cornell-courses/"
+  ],
+  "sections_removed": [
+   "No H2 section removed. The 'Other courses people mention' section was rebuilt (heading kept). One FAQ entry removed: 'Is Cornell the hardest Ivy?' (replaced with 'Which classes are the competitive ones?'). One source entry removed from the frontmatter: the College Confidential thread (forum source)."
+  ],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/academics/hardest-classes-at-cornell.md (title, slug, figure block and images block untouched; `updated` set to 2026-11-11). Verification from the repo root: `python3 scripts/lint-content.py content/articles/academics/hardest-classes-at-cornell.md` prints 0 banned-phrase matches; `grep -c \"—\"` prints 0; no collegeconfidential, reddit or r/Cornell reference remains; the frontmatter parses (12 sources, three new ones with accessed 2026-11-11) and every URL linked in the body is in the sources list and vice versa. Every new fact traces to a page I opened: the LSC course list (Fall 2026, FA26 roster links), the April 21, 2026 Sun feature (Sahil Raut; Emily Rambo '28 quote) and the March 19, 2023 Choung column (Adin Choung, first-year, College of Human Ecology). I did not state credits for the supplemental courses because the LSC page I opened does not give them. One fetch failed (the LSC supplemental-courses index URL returned 404), so the LSC facts rest on the Help with Cornell Courses page only. The pre-existing LSC '20,000 visits' figure, the CHEM 2070 roster details and the median-grade history were outside this page's gaps and were left as cited. Nothing committed (the working directory is not a git repository per the environment).",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/alumni/cornell-fitness-centers-alumni-membership.md",
+  "url": "/cornell/alumni/cornell-fitness-centers-alumni-membership/",
+  "slug": "cornell-fitness-centers-alumni-membership",
+  "kind": "v2",
+  "queue_id": "q-alumni-0008",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged line (Common mistakes): 'Assuming an alumni card or Alumni Association dues include gym access. Nothing we found says so.'",
+    "tried": "Page sources (no alumni benefits page among them), then web search and curl of https://alumni.cornell.edu/services/ (opened).",
+    "outcome": "Admission deleted. Bullet now states what Cornell's alumni services page covers (NetID, alumni directory, email, transcripts, career tools, library access) and that class dues fund class initiatives, with the citation. 'Alumni card' dropped (no source); 'Alumni Association dues' became 'class dues', the term the page uses."
+   },
+   {
+    "item": "Opening: 'none of the pages we read lists an alumni membership, alumni rate or community membership. We have not had a direct answer from Cornell Recreation'",
+    "tried": "Re-opened the Fitness Center Policies FAQ, the student memberships page, the wellness FAQ and the Employee Wellness Recreation Memberships page (membership open to staff, faculty, retirees, spouses/partners); web search restricted to scl.cornell.edu, recreation.athletics.cornell.edu, alumni.cornell.edu and news.cornell.edu for an alumni membership.",
+    "outcome": "No alumni or community membership exists on any Cornell Recreation page. Opening rewritten around the published rule (current registration required, day pass the only exception) and the FAQ's own instruction that conference or short-stay visitors ask the CFC main office; both admissions deleted. Answer changed from 'Probably not' to 'No, not on alumni status alone.'"
+   },
+   {
+    "item": "Official pages bullets: 'The page does not mention alumni or community members' / 'That page does not mention alumni either' / 'The FAQ does not address alumni or former employees'",
+    "tried": "Same Cornell pages as above.",
+    "outcome": "All three sentences deleted. Employees bullet now cites the Employee Wellness Recreation Memberships page for eligibility and prices ($180 one year, $80 four months, $60 summer) and keeps the HR page for the free CPHL membership; retirees bullet states eligibility positively."
+   },
+   {
+    "item": "Ithaca gyms intro: 'neither page states an effective date, so confirm before you join'",
+    "tried": "Re-opened the YMCA rates and home pages and the Island become-a-member page on 2026-11-11 (all prices and hours re-verified).",
+    "outcome": "Admission deleted; kept the dated attribution ('as published on each gym's site on November 11, 2026')."
+   },
+   {
+    "item": "Island row: 'No annual price is shown'",
+    "tried": "Island become-a-member page (monthly and one-month prices only).",
+    "outcome": "Sentence deleted; the published prices stay."
+   },
+   {
+    "item": "Island row: 'the site lists two different addresses for Community Corners, so confirm before you go'",
+    "tried": "Island locations page (https://www.islandhealthfitness.com/locations/) and the IGNITE update page the footer links to.",
+    "outcome": "Resolved: the locations page lists Community Corners at 409 East Upland Rd, (607) 319-0149; the footer's 903 Hanshaw Road line belongs to the IGNITE banner, and the IGNITE page says those classes moved downtown. Page now gives 409 East Upland Rd citing the locations page, plus both phone numbers; facility list aligned with the site's wording (lap pool, warm pool, hot tub, saunas, steam rooms)."
+   },
+   {
+    "item": "After the table: 'Island's family memberships and employer discounts have no price on the page'",
+    "tried": "Island become-a-member page.",
+    "outcome": "Replaced with the page's own instruction: family memberships and Cornell employee rates are quoted by text at (607) 882-7095 or in the club. Also added, from the YMCA rates page, that annual memberships are applied for in person."
+   },
+   {
+    "item": "Cornell Club-New York: 'It does not publish dues or the initiation fee on that page, so call 212.986.0300'",
+    "tried": "Member resource center page, membership page (https://www.cornellclubnyc.com/membership) and young alumni page (three fetches).",
+    "outcome": "Dues are not published anywhere on the club's site. Admission deleted; paragraph now states the sourced process (application reviewed, then the membership department follows up for dues and initiation fee), the $250 spouse or domestic partner add-on, the $20 fitness center guest fee and the application categories; phone kept."
+   },
+   {
+    "item": "FAQ: 'Is there a community or alumni rate? None is published on the pages above.'",
+    "tried": "Policies FAQ.",
+    "outcome": "Answer rewritten as the rule: current registration required, the only exception is a day pass bought by a registered affiliate for a guest. Question kept because the page answers it."
+   },
+   {
+    "item": "FAQ: 'a membership ends with your enrollment' (not a statement any source makes)",
+    "tried": "Student memberships page.",
+    "outcome": "Replaced with the listed end dates: January 15, 2027 (fall 2026) and May 28, 2027 (2026-27 academic year)."
+   },
+   {
+    "item": "Meta description: 'list no alumni membership'",
+    "tried": "n/a",
+    "outcome": "Rewritten: rules require current registration with the university, which alumni status does not give you."
+   }
+  ],
+  "sources_added": [
+   "https://www.islandhealthfitness.com/locations/",
+   "https://scl.cornell.edu/recreation/employee-wellness-program/employee-wellness-recreation-memberships",
+   "https://alumni.cornell.edu/services/",
+   "https://www.cornellclubnyc.com/membership"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/alumni/cornell-fitness-centers-alumni-membership.md. `python3 scripts/lint-content.py <file>` prints 0 matches; `grep -c \"—\"` prints 0. Frontmatter parses as YAML; every URL linked in the body is in the sources list; all accessed dates set to '2026-11-11' because every existing source was re-opened today; `updated` set to 2026-11-11; the Cornell Club resource center URL switched from http to https (the page I opened). Structure, headings, the steps figure block and the images block are unchanged; no new fenced block types. Every number, date, price and name in the rewritten text traces to a page I opened: Cornell policies FAQ, student memberships page, wellness FAQ, Employee Wellness Recreation Memberships page, HR CPHL page, membership perks page, alumni services page, Cornell Club resource center and membership pages, YMCA rates and home pages, Island become-a-member, locations and IGNITE pages. Tooling notes: WebFetch rejects the scl.cornell.edu certificate (used curl plus an HTML-to-text script instead); curl hit a Cloudflare challenge on hr.cornell.edu (used WebFetch, which worked). The repo's optional scripts/v2/lint.py --no-network run exceeded 120 s with no output and was left in the background; it is not one of the task's required checks. Nothing committed (the task did not ask for a commit and the directory is not reported as a git repository).",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/careers/ithaca-part-time-jobs-for-cornell-students.md",
+  "url": "/cornell/careers/ithaca-part-time-jobs-for-cornell-students/",
+  "slug": "ithaca-part-time-jobs-for-cornell-students",
+  "kind": "v2",
+  "queue_id": "q-careers-0009",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Tutoring section, line 80: 'we did not find an official Cornell page listing rates' (private tutoring rates for students without work-study)",
+    "tried": "Page's own source re-opened: Einhorn Center Community Work-Study page (no rates, no private tutoring). Web: Cornell Career Network jobs board at career.cornell.edu/jobs (Handshake feed, no Ithaca tutoring postings); a Cornell Career Services Practice PBC tutor posting (HTTP 410, expired); search for Cornell Learning Strategies Center tutor hiring and private tutor lists; LSC 'Non-LSC Support and Resources' page (lsc.cornell.edu/consult-with/non-lsc-support-and-resources/).",
+    "outcome": "No official rate exists in any source. Deleted the admission and the rate promise ('ask other tutors before you set a price'). Replaced with the sourced LSC fact: the Economics department keeps a list of non-vetted economics tutors available for hire, and other departments' chairs or directors of undergraduate studies may help a student find a tutor. No price claim. Section and heading kept."
+   },
+   {
+    "item": "Downtown section, line 94: 'Honest limit: we could not find a reliable public list of which Collegetown restaurants are hiring now'",
+    "tried": "Page's own source re-opened: Cornell Arts & Sciences article (only says students can look off campus in Collegetown or the Commons). Web: search for a Downtown Ithaca Alliance job board; DIA 'Doing Business in Downtown Ithaca' page (links to its board); DIA Job Listings page (downtownithaca.com/job-listings/: downtown-area openings only, DIA reviews each post before publishing, employment-type filter includes Part Time, apply to the employer directly); a DIA Creola 'hiring all positions' page (no usable detail, undated).",
+    "outcome": "No public list of Collegetown openings exists in any source, so the admission was deleted. Added the sourced Downtown Ithaca Alliance job board as the 'where to look' for the Commons (table row, downtown section paragraph, 'Not on work-study' reader line, 'What to do this week' step 3). Collegetown stays 'ask in person' as plain advice (ask a manager during a slow hour, check the door signs), with no fact claim."
+   },
+   {
+    "item": "Other admission-style phrasing found on the page (not flagged by the linter): table pay cell 'Not published; ask the employer'; 'Most listings do not say whether they suit a student schedule'; 'hourly pay plus tips (amount not listed)'; 'Related, but with hours not stated'",
+    "tried": "No fact was being promised, so no search; rephrased in place.",
+    "outcome": "Now: 'Ask the employer'; 'Ask each employer whether the shift fits a class schedule'; 'hourly pay plus tips'; 'Related roles, where you should confirm the hours with the employer first' (the duplicate 'Check the hours with the employer before applying' sentence dropped). All listed pay figures and dates kept as they were."
+   }
+  ],
+  "sources_added": [
+   "https://www.downtownithaca.com/job-listings/",
+   "https://lsc.cornell.edu/consult-with/non-lsc-support-and-resources/"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/careers/ithaca-part-time-jobs-for-cornell-students.md. Title, slug, headings, glance/reader/figure/tool structure and the images block are unchanged; no new fenced block types. Frontmatter: two sources added (accessed '2026-11-11', matching the file's quoting style) and `updated` bumped from 2026-11-07 to 2026-11-11; every URL cited in the body is in the sources list (10 sources). Checks run from the repo root: `python3 scripts/lint-content.py <file>` prints 0 banned-phrase matches; `grep -c \"—\" <file>` prints 0; the v2 publish lint (`worker/.venv/bin/python scripts/v2/lint.py --no-network <file>`) prints OK, 1 ok, 0 failed. Facts added trace to the two fetched pages only: DIA board scope (downtown area), DIA review before publishing, Part Time filter, apply to the employer directly; LSC statement about the Economics department's list of non-vetted tutors for hire and department chairs or directors of undergraduate studies. The pre-existing dated attribution 'Chamber listings we saw in November 2026' was left as is (attribution, not an admission). Nothing committed.",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/daily-life/laundromats-in-ithaca-near-cornell-collegetown.md",
+  "url": "/cornell/daily-life/laundromats-in-ithaca-near-cornell-collegetown/",
+  "slug": "laundromats-in-ithaca-near-cornell-collegetown",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Line 127, section 'Where are the laundromats and what do they charge?': the admission 'Cornell and the city publish no list of coin laundries near campus, and the sources behind this guide give no addresses, hours or per-load prices for them.' The section promised laundromat names, addresses, hours and per-load prices.",
+    "tried": "Page's own 14 sources (none names a laundromat); no topic brief or fact file; repo corpus grep (one irrelevant ILR hit) and intel/off-campus-housing/inventory.csv (only a private on-site laundromat at 305 Eddy St, not public). Web: 13 WebSearch queries (Collegetown/Eddy/College Ave/Dryden Rd laundromats; Cornell ISA survival guide and Global Learning resources; Cornell Sun, Ithaca Voice and Ithaca Times coverage; Cornell East Hill Plaza tenant pages; business-name searches for Ithaca Laundromat 327 S Cayuga St, Fall Creek Laundromat 1012 N Aurora St, Empire Wash & Dry, Judd Falls Laundromat 1020 Ellis Hollow Rd, Nice & Clean Laundromat and The Laundry Room at 23 Cinema Dr; a currency check on The Laundry Room and its laundryroomithaca.com domain). Three WebFetch attempts: niceandcleanlaundromat.com (DNS does not resolve), MapQuest Judd Falls listing (page returned empty), and the Ithaca Times marketplace listing for The Laundry Room, 23 Cinema Dr (business-written copy: coin-op, wash and fold, 6 a.m. to 11 p.m. daily, phone, no prices, 'Last Updated: December 2, 2020').",
+    "outcome": "Not found at the bar. No Cornell, city or county page lists public laundromats; no business-owned site was reachable; the one business-authored listing is five years old and nothing current confirms that business still operates, and no citable source gives per-load prices (all other hits were Airbnb tips, MapQuest, Yelp, BBB and laundromat-directory pages, not cited). Deleted the admission and the promise it answered: the heading 'Where are the laundromats and what do they charge?' became 'How do I find a coin laundry?' with only the practical steps kept (map-app search from your address, call ahead for closing time, card or coin and large-washer price, ask your landlord or a housemate). No laundromat name, address, hours or price was added. Title, dek, meta, glance block and 'What to do next' already promised only laundry options and a bus route to a coin laundry, so they stand; updated date set to 2026-11-11."
+   }
+  ],
+  "sources_added": [],
+  "sections_removed": [
+   "Where are the laundromats and what do they charge? (replaced by the narrower heading 'How do I find a coin laundry?'; the admission sentence was removed and the three practical sentences kept)"
+  ],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File: /Users/ajaysharma/Ads/campus-publication/content/articles/daily-life/laundromats-in-ithaca-near-cornell-collegetown.md. `python3 scripts/lint-content.py <file>` now prints 0 banned-phrase matches; `grep -c \"—\"` prints 0. Frontmatter sources list unchanged (no new URL cited), images block untouched, no fenced block types added, slug, file and title unchanged. The page keeps its distinct purpose: building laundry (sourced table of nine Collegetown buildings), Lazybones drop-off at from $1.45 per pound with the 15-pound example, and TCAT free hours for a laundry run, all still cited. Judgment call to flag for the owner: the title's leading word 'Laundromat' matches the search query, and the page now names no laundromat; if the owner wants the title to stop echoing that word, a safe alternative is 'Laundry near Cornell Collegetown: your options when the apartment has no washer', which I did not apply because the workflow only requires a change when a heading or title promises what the page cannot deliver, and 'your laundry options' is delivered. A future pass could fill the gap if a laundromat near East Hill or downtown publishes its own site with hours and prices (candidates seen but not citable today: Fall Creek Laundromat, 1012 N Aurora St; Judd Falls Laundromat, 1020 Ellis Hollow Rd; Ithaca Laundromat, 327 S Cayuga St). Not committed; nothing deployed.",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/daily-life/mail-packages-off-campus-cornell-students-ithaca.md",
+  "url": "/cornell/daily-life/mail-packages-off-campus-cornell-students-ithaca/",
+  "slug": "mail-packages-off-campus-cornell-students-ithaca",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged line 84: \"Published sources for this guide do not cover porch theft or locker systems in Ithaca.\" (part 1: porch/package theft)",
+    "tried": "Page's own seven sources (none cover theft); topic brief and fact file (none exist); local corpus grep for package theft / porch pirate (no Cornell Police or IPD material). WebSearch for an Ithaca Police Department package-theft warning found only a 607 News Now / WQNY 103.7 item (fetched) quoting IPD Chief Tom Kelly that the department was not seeing the usual holiday rise in porch thefts: no publication date, no direct quote, no numbers, so not used. WebFetch of the official U.S. Postal Inspection Service Mail and Package Theft page (uspis.gov/tips-prevention/mail-theft): used. WebFetch of the USPIS 2025 holiday page (uspis.gov/holiday-scams-2025): opened, consistent with the first page, not cited.",
+    "outcome": "Found. Admission deleted; replaced with USPIS guidance (do not leave a package at your door for any length of time; use USPS Hold for Pickup so the box waits at the Post Office; report a stolen package at uspis.gov/report or 877-876-2455), cited inline. No Ithaca-specific theft statistic exists in Clery, Cornell Police or IPD sources, so none is claimed."
+   },
+   {
+    "item": "Flagged line 84 (part 2: locker systems in Ithaca)",
+    "tried": "Corpus had Cornell's Amazon Lockers page (crawled 2026-11-06). WebFetch of both Cornell pages failed with certificate rejected, so both were fetched live with curl: the Amazon Lockers page now lists three on-campus Amazon lockers (Dodgeball outside Robert Purcell Community Center, Risley outside Risley Hall, Nedo outside Barbara McClintock Hall) with eligibility limits (under 35 pounds, smaller than 19 x 12 x 14 inches, sold or fulfilled by Amazon.com, standalone Amazon service not connected to service centers); Cornell's Best Practices for Mail and Packages page gives Dodgeball as 24/7 self-service pickup. The lockermap.com directory (third party) returned HTTP 429; no Collegetown or downtown locker could be confirmed from an official source.",
+    "outcome": "Found. Admission deleted; the paragraph now names Cornell's three on-campus Amazon lockers with their limits, cited to the two Cornell pages, and keeps Uncle Marty's as the parcel-store option. No off-campus locker is claimed."
+   },
+   {
+    "item": "Lines 76 and 82, research narration: \"The inventory behind this guide records one building with package handling\" and \"Other buildings can offer parcel rooms or lockers, but their listings do not say so.\"",
+    "tried": "No new source needed; these were admissions about the inventory, not missing facts.",
+    "outcome": "Reworded. Line 76 now reads \"Where a carrier leaves a box depends on the building, and a listing can tell you. A Collegetown example:\" and line 82 reads \"Source: the building's site.\" The one-row table is unchanged."
+   }
+  ],
+  "sources_added": [
+   "https://scl.cornell.edu/residential-life/housing/community-centers/robert-purcell-community-center/amazon-lockers",
+   "https://scl.cornell.edu/residential-life/service-centers-and-mail/best-practices-mail-and-packages",
+   "https://www.uspis.gov/tips-prevention/mail-theft"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/daily-life/mail-packages-off-campus-cornell-students-ithaca.md. Title, slug, headings, glance, reader, tool and images blocks are untouched; no new block types. `python3 scripts/lint-content.py <file>` prints 0 matches; `grep -c \\\"—\\\"` prints 0; frontmatter parses as YAML; all 9 URLs cited in the body appear in the 10-entry sources list (three added with accessed 2026-11-11). `updated` bumped from 2026-11-10 to 2026-11-11, matching the other page reworked today. One addition beyond the flagged sentence, drawn from the Cornell best-practices page opened for the locker gap and placed in the address section: after a student leaves a hall, USPS mail sent to the old service center is forwarded to the Housing Portal address and non-USPS packages are returned to sender. Not used: the undated 607 News Now / WQNY item on IPD Chief Tom Kelly and the USPIS 2025 holiday page (opened, not cited). The pre-existing, body-uncited source entry for the 211 Linden Avenue listing (offcampushousing.ithaca.edu) was left as is. Sensitive-topic check: the theft text is strictly factual USPIS guidance with no characterization of any person or company.",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/daily-life/new-york-drivers-license-ithaca-dmv-cornell-students.md",
+  "url": "/cornell/daily-life/new-york-drivers-license-ithaca-dmv-cornell-students/",
+  "slug": "new-york-drivers-license-ithaca-dmv-cornell-students",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Line 57 (flagged twice): 'The sources for this guide do not list the DMV's fees, documents or office hours, so check dmv.ny.gov before you go and book an appointment if the office offers one.'",
+    "tried": "Page's own source https://dmv.ny.gov/driver-license/exchange-out-of-state-driver-license (fetched: in-person only, surrender license, vision test or MV-619, license must have a photo and be valid or expired under 24 months and issued 6+ months earlier, exchange within 30 days of residency, 90 days is presumptive evidence, pre-screening tool for documents, temporary non-photo document then card by mail); https://dmv.ny.gov/driver-license/fees-refunds (fetched: first Class D license $64.25 to $67.50 at 21 and older, $76.75 to $80.00 at 18.5 to 21, higher column only for the 12 MCTD counties, Tompkins not listed); https://tompkinscountyny.gov/dmv (WebFetch twice, consistent: 301 Third St, Mon to Fri 8:30 am to 12:45 pm and 2:00 pm to 4:30 pm, permit tests 8:30 am to 12:00 pm and 2:00 pm to 3:30 pm, road tests 8:00 am to 3:00 pm, (607) 273-7187; a direct curl was blocked by the county site, and a stale search-index title showed '2 pm to 4 pm' while the live page says 4:30 pm).",
+    "outcome": "Found. Admission deleted and replaced with two cited paragraphs giving the 30-day and 90-day rules, the in-person steps and documents, the fee by age, and the Ithaca office address, hours and phone. The 'book an appointment if the office offers one' clause was dropped: the county DMV page describes no appointment system, and a search summary's undated Setmore notice was not opened, so nothing about appointments is stated."
+   },
+   {
+    "item": "Line 61 (unflagged admission in the international section): 'It does not say what a foreign license allows on its own, so ask the DMV or your home licensing office before you travel.'",
+    "tried": "https://dmv.ny.gov/driver-license/drivers-from-other-countries (fetched twice: you can drive in New York State with a valid license from another country; a New York license is needed only if you become a resident; to get one you must pass a written test, complete the five-hour pre-licensing course and pass a road test; the examiner takes the foreign license when you pass; a license not printed in English needs an International Driving Permit or a certified translation at the road test, certified by a consulate, the U.S. Department of State or another official government agency).",
+    "outcome": "Found. Section rewritten with the cited rules and the admission deleted. Heading changed from 'What should international students ask the DMV?' to 'Can international students drive on their home license?' so the heading matches what the section now answers. The repeated non-resident sentence (already in the intro and the glance) was not restated."
+   },
+   {
+    "item": "Reader block 'If you're an international student': clause 'since the exchange page is written for U.S. license holders' (characterizes a source as not covering the reader).",
+    "tried": "Same DMV foreign-license page as above.",
+    "outcome": "Clause removed; block kept in place with the same label. Now reads: 'Keep your home license. Ask the DMV directly before you register a car in New York while you hold a foreign license.'"
+   }
+  ],
+  "sources_added": [
+   "https://dmv.ny.gov/driver-license/drivers-from-other-countries",
+   "https://dmv.ny.gov/driver-license/fees-refunds",
+   "https://tompkinscountyny.gov/dmv"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/daily-life/new-york-drivers-license-ithaca-dmv-cornell-students.md. Lint: `python3 scripts/lint-content.py <file>` prints 0 matches; `grep -c \"—\"` prints 0. Frontmatter parses as YAML; `updated` bumped from 2026-11-10 to 2026-11-11 because the body changed materially. One heading renamed (international section), no section removed, title, slug, glance and images untouched. Pre-existing and left alone: the body cites https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus while the sources list carries https://fcs.cornell.edu/node/17809 for Cornell Transportation; I did not open either page, so I did not change it. Fee figures are the DMV table rows for a first Class D license (the exchange page links to that fee page); the office hours come from two consistent WebFetch reads of the county page, since the county site blocks curl.",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/daily-life/voting-in-ithaca-cornell-student-register-polling-place.md",
+  "url": "/cornell/daily-life/voting-in-ithaca-cornell-student-register-polling-place/",
+  "slug": "voting-in-ithaca-cornell-student-register-polling-place",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "New York registration deadlines (flagged sentence, line 58: 'The sources for this guide do not include New York registration deadlines...')",
+    "tried": "Page sources (none covered it); NYS Board of Elections: https://elections.ny.gov/registration-and-voting-deadlines, https://elections.ny.gov/frequently-asked-questions, https://elections.ny.gov/register-vote (elections.ny.gov returns HTTP 403 to WebFetch and curl, so these were opened in the Browser pane); Tompkins County Board of Elections main page.",
+    "outcome": "Found and added with citations: register up to 10 days before an election (NYS FAQ); for the November 3, 2026 general election applications had to reach a board of elections by October 24, 2026 (NYS deadlines page); change of address at least 15 days before an election; party enrollment change by February 14; 30-day residency; three ways to register (online portal, in person at county board, DMV or state agency center, by mail). Admission sentence deleted. Since 2026-11-11 is after the 2026 general election, the page states the standing rule and uses the 2026 dates as the worked example, pointing readers to the state's deadlines page for each election's dates."
+   },
+   {
+    "item": "Tompkins County Board of Elections contact details (same flagged sentence)",
+    "tried": "Corpus copy of the county Contact Information page (2026-11-06); live https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections, https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Voter-Information-and-Registrations, https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Frequently-Asked-Questions.",
+    "outcome": "Found and added: 214 W. State St., Ithaca, NY 14850; (607) 274-5522; mailed-form request line 607-274-5521; Monday to Friday 9 am to 5 pm; no registrations by email or fax; MY DMV route needs a NY license or non-driver ID; new form on a move within the county, card with new polling place; first-time mail registrants may be asked for ID. Note: the county FAQ's pollworker question lists 128 East Buffalo Street while the main and registration pages give 214 W. State St.; the page uses 214 W. State St."
+   },
+   {
+    "item": "Campus and Collegetown polling places (same flagged sentence)",
+    "tried": "Tompkins County BOE main page (links a 2026 poll-site PDF and the county address lookup map), Voter Information and Registrations page, NYS voter lookup https://voterlookup.elections.ny.gov/ (opened in the Browser pane), NYS FAQ.",
+    "outcome": "Per the spec, no locations are listed. The page now links the official NYS voter lookup (name, date of birth, county, ZIP; poll site for early voting and Election Day; registered voters only) and the county's address lookup map, and states the May postcard, the nine-day early voting window and the 2026 dates and poll hours, all cited. The promise of a list of campus and Collegetown polling places was deleted with the admission."
+   },
+   {
+    "item": "'9 municipalities by the Town of Ithaca's address page' had no cited URL (not flagged, found on the page)",
+    "tried": "https://townithacany.gov/address-verification/ (says 9 municipalities) and https://townithacany.gov/welcome-new-resident-guide/ (says 12).",
+    "outcome": "Both figures kept and each now cited to its own Town of Ithaca page; the address verification page added to sources."
+   },
+   {
+    "item": "Student voting residence rule (not flagged; needed so the page's 'register where you live' answer is sourced)",
+    "tried": "NYS BOE FAQ (no student-specific line); NY Election Law section 5-104 at https://www.nysenate.gov/legislation/laws/ELN/5-104.",
+    "outcome": "Found and added one sentence: being a student does not by itself gain or lose a voting residence under section 5-104, and the board weighs stated intent with conduct and circumstances."
+   }
+  ],
+  "sources_added": [
+   "https://townithacany.gov/address-verification/",
+   "https://elections.ny.gov/frequently-asked-questions",
+   "https://elections.ny.gov/registration-and-voting-deadlines",
+   "https://elections.ny.gov/register-vote",
+   "https://voterlookup.elections.ny.gov/",
+   "https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections",
+   "https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Voter-Information-and-Registrations",
+   "https://www.tompkinscountyny.gov/All-Departments/Board-of-Elections/Frequently-Asked-Questions",
+   "https://www.nysenate.gov/legislation/laws/ELN/5-104"
+  ],
+  "sections_removed": [
+   "No section removed. The flagged section heading 'How do you register and find your polling place?' was replaced by three sections that answer it: 'When do you have to register?', 'How do you register?', 'How do you find your polling place?'"
+  ],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/daily-life/voting-in-ithaca-cornell-student-register-polling-place.md. Title, slug, file name, images block, redirect_from and both reader blocks are unchanged. Updated: the answer paragraph, the glance box's fourth line (now the 10-day rule and the voter lookup instead of 'confirm with the county'), the dek, the meta (148 characters), 'updated' set to 2026-11-11, the Town of Ithaca welcome guide's accessed date, and 'What to do next'. Checks: python3 scripts/lint-content.py prints 0 banned-phrase matches; grep -c '—' prints 0 (no en dashes either); frontmatter parses; every URL linked in the body is in the sources list and every source is linked in the body; 941 words, average sentence 14.5 words, longest 30. Not verified: the optional scripts/v2/lint.py --no-network run on this file ran for over six minutes at full CPU without finishing and was stopped, so the v2 publish lint result is unknown; when it runs with network, expect the four elections.ny.gov URLs to come back as 403 'blocked' warnings, since that site rejects automated clients (Cloudflare) while the pages open normally in a browser. No forum sources used. No legal-advice line added because this is a voting how-to, not a legal-rights page. Nothing committed (the working directory is not a git repository per the environment).",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/dining/cornell-dining-prices-without-meal-plan.md",
+  "url": "/cornell/dining/cornell-dining-prices-without-meal-plan/",
+  "slug": "cornell-dining-prices-without-meal-plan",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Body line 106 (lint line 47): \"its cost-of-attendance page gives no separate off-campus food figure\" (an official Cornell food budget for a student living off campus).",
+    "tried": "Page sources: finaid.cornell.edu/cost-attend (re-opened 2026-11-11; the tables list Food $7,604 and Housing $13,744 and say nothing about off-campus budgets beyond excluding premium on- or off-campus housing). Fact file intel/dining/facts.csv rows B6-0001 to B6-0008, D0-0046, E0-0018 (B6-0008 records the same gap; D0-0046 and E0-0018 note the table heading reads 2025-26 while the figures match the trustees' 2026-27 numbers). Web: WebSearch for an official off-campus food allowance, then WebFetch of finaid.cornell.edu/living-campus (Cornell Financial Aid, Living Off-Campus). Two fetches in all.",
+    "outcome": "Resolved with facts. The living-campus page states that an off-campus student's need is calculated exactly the same way as on campus, that the bursar does not charge housing, and that aid above charges is refunded to cover off-campus living expenses; it gives no dollar figure. The sentence now reads: the cost-of-attendance table lists food at $7,604 a year (cited), need is calculated the same way off campus, the bursar does not bill housing, and aid above your charges comes back as a refund toward off-campus living costs (cited). The admission is gone. The year label \"for 2025-26\" and the words \"billed by Cornell\" were dropped from the food-line sentence because the live page shows those figures under a 2025-26 heading while the fact file and the trustees' 2026-27 budget story match them to 2026-27, and the page footnote says food may be billed or non-billed depending on housing plan. No heading, glance line or title promised the missing figure, so nothing else was removed."
+   }
+  ],
+  "sources_added": [
+   "https://www.finaid.cornell.edu/living-campus"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/dining/cornell-dining-prices-without-meal-plan.md. Changes: (1) the flagged sentence rewritten as two sourced facts (see gaps); (2) frontmatter sources: added {url: https://www.finaid.cornell.edu/living-campus, title: 'Cornell Financial Aid: Living off-campus', accessed: '2026-11-11'} and set the existing finaid.cornell.edu/cost-attend entry's accessed date to 2026-11-11 since it was re-opened today; (3) updated: '2026-11-11'. Checks run from the repo root: python3 scripts/lint-content.py on the file prints 0 matches; grep -c for the em dash prints 0; the frontmatter parses as YAML and every URL cited in the body appears in the sources list; a wider grep for admission phrasing finds nothing. Structure, title, slug, glance, reader blocks and the images block are untouched; no new fenced block types. One source caution for the owner: the live finaid cost-of-attendance page shows the $7,604 food and $13,744 housing lines under a \"2025-26 Academic Year\" heading with an empty 2026-27 tab, while the fact file ties the same figures to the trustees' 2026-27 average of $21,348, so the page no longer pins that food line to a year. Nothing committed.",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/dining/morrison-dining-cornell.md",
+  "url": "/cornell/dining/morrison-dining-cornell/",
+  "slug": "morrison-dining-cornell",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged sentence (old line 120): 'The page shows no sample size, so read it as a mood, not a measurement.' (Sunset Survey favorite-dining-spot result)",
+    "tried": "Fact file row dining-C6-0016 (records no sample size on the cited page); the cited at-cornell.html page (no count); the survey index page (no count, links a Methodology page); the Methodology page https://cornell-sun-data.github.io/sunset-survey-2026/about.html, read by WebFetch and verbatim in the browser.",
+    "outcome": "Found. The Methodology page says the survey collected 103 responses, was open April 20 to May 5, 2026, and that its demographics are not representative of the full Class of 2026. Replaced the admission with: 'The survey drew 103 responses between April 20 and May 5, 2026, and the Sun says that sample does not represent the whole class' with the about.html citation."
+   },
+   {
+    "item": "Morrison 'Late Night 8:30 to 10:30 p.m., fall 2026' promised in the title, meta, glance line 4 and the figure row, never stated or cited in the body (the body only said Dining Now 'loads them by script', research narration)",
+    "tried": "Fact file rows dining-A7-0050 (Morrison Late Night block, captured 2026-11-08) and dining-A7-0047 (hours not captured); the live Dining Now Morrison page rendered in the browser on 2026-11-11 (hours for Nov. 11 to 17, 2026: dinner 5 to 8:30 p.m. every day, no Late Night block); the Dining Now North Star page (Late Night 8:30 to 10:30 p.m. every night this week, so the fact row was most likely a mix-up with North Star); WebSearch (no source for a Morrison late night; Cornell's Ramadan 2026 and Commencement Weekend 2026 pages show Morrison closing at 8:30 p.m.); corpus scl.cornell.edu and news.cornell.edu pages (no Morrison late night); the Dining Now API URL (returns only the app shell).",
+    "outcome": "Not found. Removed the promise everywhere: title changed to 'Morrison Dining Cornell: prices, stations and hours', meta 'late night hours' to 'daily hours', glance line replaced with 'Dinner runs 5 to 8:30 p.m. every day, and the week's hours are on Dining Now', figure row replaced with 'Dinner, Nov. 11 to 17, 2026: 5 to 8:30 p.m. daily', and the 'loads them by script' sentence replaced with the week's sourced hours (breakfast 7 a.m. weekdays and 8 a.m. Saturday, lunch to 2:30 p.m., late lunch to 4 p.m., Sunday brunch 10:30 a.m. to 2 p.m., dinner 5 to 8:30 p.m.) cited to Dining Now, plus a line to check that page before an evening trip."
+   },
+   {
+    "item": "Winter break dates (fall meals end with brunch Dec. 20, 2026; Cornell Dining closed Dec. 25 to Jan. 1) cited to a URL that was missing from the frontmatter sources list",
+    "tried": "Live page https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining via curl (HTTP 200; WebFetch rejected its certificate) and the corpus copy fetched 2026-11-06.",
+    "outcome": "Verified (brunch Sunday Dec. 20, 2026; shut down Friday Dec. 25, 2026 through Friday Jan. 1, 2027). Body text unchanged; URL added to sources."
+   },
+   {
+    "item": "Uncited sentence 'Language House also lives in Toni Morrison Hall'",
+    "tried": "Corpus copy of the already-cited Cornell Housing Toni Morrison Hall page (lists Language House under the hall's contacts).",
+    "outcome": "Supported; added the Cornell Housing citation to the sentence."
+   }
+  ],
+  "sources_added": [
+   "https://cornell-sun-data.github.io/sunset-survey-2026/about.html",
+   "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "Morrison Dining Cornell: prices, stations and hours",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/dining/morrison-dining-cornell.md (slug and filename unchanged; images block untouched; no new block types). `python3 scripts/lint-content.py` on the file prints 0 matches; `grep -c \"—\"` prints 0; the YAML frontmatter parses and every URL cited in the body is in the sources list (19 entries). Also updated `updated` to 2026-11-11 and the accessed dates of the two re-opened sources (Dining Now Morrison page, Sunset Survey At Cornell page) to 2026-11-11. Two things outside this page for the orchestrator: fact file row dining-A7-0050 (intel/dining/facts.csv), which attributes a Late Night 8:30 to 10:30 p.m. block to Morrison, looks like a mix-up with North Star and was not edited; the sibling page content/articles/dining/late-night-food-cornell-collegetown.md carries 'Morrison Late Night' in its meta (line 5) and was not touched. reports/gaps.md was not written (the task asked for the decisions in this result). A run of scripts/v2/lint.py on the file was started but ran past 120 seconds with no output and was not needed for the task's checks.",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/dining/west-campus-dining-rooms-compared-cornell.md",
+  "url": "/cornell/dining/west-campus-dining-rooms-compared-cornell/",
+  "slug": "west-campus-dining-rooms-compared-cornell",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged line (old line 101): 'The page lists no sample size.' after the Sunset Survey 2026 claim that Rose led West Campus picks with 28.9% of votes",
+    "tried": "Fact file intel/dining/facts.csv row dining-C6-0016 (records the 28.9% figure and notes the at-cornell page has no sample size or date); re-fetched the page's own source https://cornell-sun-data.github.io/sunset-survey-2026/at-cornell.html (no total, only per-question counts; its nav links a METHODOLOGY page); fetched the survey index https://cornell-sun-data.github.io/sunset-survey-2026/ (no count); fetched and downloaded the methodology page https://cornell-sun-data.github.io/sunset-survey-2026/about.html and confirmed the verbatim text: 'The survey collected a total of 103 responses during the time it was open', 'The survey was live and accepted responses from April 20, 2026 to May 5, 2026', and that each question was optional so sample sizes per analysis may differ.",
+    "outcome": "Found. Replaced the admission with: 'The survey ran from April 20 to May 5, 2026, drew 103 responses in total and left every question optional ([Sun methodology](https://cornell-sun-data.github.io/sunset-survey-2026/about.html)).' Added the methodology URL to the sources list. The 28.9% sentence and its citation stay as they were."
+   },
+   {
+    "item": "Unflagged admission in the ten-rooms table (old line 140): Cook House Dining Room's notable feature read 'Late Night hours not stated'",
+    "tried": "Fact file row dining-A7-0052 (Cook House 'Late Night' 9:00pm to 10:00pm on October 2026 dates, source Cornell Dining Now, checked 2026-11-08, official); the Dining Now JSON feed now returns the app shell, so I rendered https://now.dining.cornell.edu/eatery/Cook-House-Dining in the browser and read the page: it lists a '9:00pm – 10:00pm (Late Night)' block on every day shown, Wednesday Nov. 11 through Tuesday Nov. 17, 2026, with a Late Night menu, location Alice Cook House, West Campus.",
+    "outcome": "Found. The cell now reads 'Late Night block, 9 to 10 p.m. on listed fall 2026 dates', parallel to the North Star row. The Cook House Dining Now URL was already in the sources list; its accessed date is now 2026-11-11."
+   },
+   {
+    "item": "Unflagged admission (old line 131): 'Cornell does not print every room's hours on its list. Check each room on Dining Now.' told the reader the Cornell dining rooms list (one of the page's sources) lacks hours",
+    "tried": "No fact search needed: the sentence promised nothing beyond a pointer to hours. Opened https://now.dining.cornell.edu/eateries (HTTP 200, title 'Dining Now') to link it as the hours pointer.",
+    "outcome": "Deleted the admission and kept the pointer as a linked sentence: 'Check each room's hours on [Dining Now](https://now.dining.cornell.edu/eateries).' Added that URL to the sources list. No heading, glance line or table promise was affected."
+   },
+   {
+    "item": "Unflagged false claim and gap framing (old line 99): 'Cornell prints no menus or ratings, so the differences come from reporting.' Cornell Dining Now publishes daily menus for each room (the Cook House page I opened lists Dinner, Lunch, Brunch and Late Night menus), so 'prints no menus' was wrong, and the clause framed the section as limited by what sources exist.",
+    "tried": "Confirmed on the rendered Cook House Dining Now page that menus are published per meal block.",
+    "outcome": "Rewrote the lead-in to 'The differences come from student reporting.' No fact or promise was lost; the Sun review and survey sentences that follow are unchanged."
+   }
+  ],
+  "sources_added": [
+   "https://cornell-sun-data.github.io/sunset-survey-2026/about.html (The Cornell Daily Sun: Sunset Survey 2026, Methodology; accessed 2026-11-11)",
+   "https://now.dining.cornell.edu/eateries (Cornell Dining Now: Eateries; accessed 2026-11-11)"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/dining/west-campus-dining-rooms-compared-cornell.md. Title, slug, headings, glance, reader blocks, images block and all fenced block types are unchanged; no section removed. Body changes are the four lines listed in the gaps (now lines 105, 107, 137 and 146). Frontmatter changes: two sources added ({url, title, accessed: '2026-11-11'}), the existing Cook House Dining Now source's accessed date moved from 2026-11-10 to 2026-11-11 because I re-opened it today, and `updated` bumped from 2026-11-10 to 2026-11-11 since the content changed; revert that date if the workflow sets it elsewhere. Verification from the repo root: `python3 scripts/lint-content.py content/articles/dining/west-campus-dining-rooms-compared-cornell.md` prints '0 banned-phrase match(es)' (exit 0); `grep -c \"—\"` prints 0; the frontmatter parses as YAML with 18 sources, each with exactly url, title and accessed; a grep for 'not stated', 'no sample', 'does not print', 'prints no', 'not confirmed' and similar finds nothing. No forum sources were used. Per the task I reported gap decisions here and did not write to reports/gaps.md. Left as found: the page's framing that Cornell publishes no ranking of its dining rooms (glance line and opening sentence), which describes Cornell rather than our sources and carries the page's answer-first premise, and the pre-existing 'The prices are the same everywhere' sentence, which was outside this gap pass. Nothing was committed.",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/getting-around/cheapest-ways-to-get-around-cornell.md",
+  "url": "/cornell/getting-around/cheapest-ways-to-get-around-cornell/",
+  "slug": "cheapest-ways-to-get-around-cornell",
+  "kind": "reader_guide",
+  "queue_id": "q-getting-around-0056",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "OurBus Select: what it costs to join (line 239, 'Not confirmed' plus 'the blog gives no amount')",
+    "tried": "Page sources re-opened: OurBus blog ?p=6269 (post says only that details are on the student travel page) and the OurBus Cornell college page (no Select mention; says 'we provide student discounts' and names a $15-per-journey Super Saver Pass); brief 2.4 and fact row getting-around-2.4-0071; WebSearch 'OurBus Select membership cost price join'.",
+    "outcome": "No published price anywhere. Deleted both admissions. The item now describes Select as a ride pack ($15 off each of the next 10 intercity tickets, up to $150, signup asks for a college name) and says verified students may also qualify for the separate student discount, per the same post. Heading kept; it never promised a price."
+   },
+   {
+    "item": "SA Resolution 69 outcome: any change to TCAT pass rules for 2026-27 (line 265)",
+    "tried": "R69 page re-opened (status history only: adopted Mar 26, conveyed Mar 30, returned by the president Apr 24, 2026; no response text); brief 2.11 and 8.2 (no outcome); Cornell bus pass page re-opened Nov 11, 2026 (same rules: first-years free until Aug 31, others free after 6 p.m. weekdays and all weekend, $1.50 cash fare, $200 OmniRide, refunds to Mar 31 minus $40, free passes for PhD students and graduate assistants).",
+    "outcome": "Replaced the admission with the fact: 'The president returned it on Apr 24, 2026, and Cornell's pass page still listed the rules above on Nov 11, 2026.'"
+   },
+   {
+    "item": "Ithaca Bikeshare Easy Access: price and student discount (line 280), plus FAQ 'its price list shows no student discount' (line 343)",
+    "tried": "ithacabikeshare.org re-opened Nov 11: Easy Access offers 'reduced or free' access for GO ITHACA members at or below 150% of the federal poverty guideline, non-members apply through a linked form; no price stated; plans listed are pay as you go, day pass, monthly and Easy Access.",
+    "outcome": "Wrote what the page states (reduced or free rides for income-qualified GO ITHACA members, apply through the form) and deleted the admission. FAQ reworded to a positive statement: rides priced the same for everyone, $1.50 to start plus $0.25 a minute or a day or monthly pass, and only the income-based Easy Access plan lowers the price."
+   },
+   {
+    "item": "Ithaca Carshare Easy Access: who qualifies (line 286, cited only to a Summer 2024 handbook)",
+    "tried": "ithacacarshare.org/rates re-opened (nav link only; also confirmed Just In Case $75/year at $9/hour and It's My Car $355/year at $6/hour, consistent with the page's $30 and $310 student rates after $45 off); then ithacacarshare.org/easy-access.",
+    "outcome": "Found. Easy Access is $10 a month ($25 discount), $6 an hour, 42 cents a mile for cars, a $20 monthly driving credit that rolls over up to one year; for Tompkins County residents with income at or below 150% of the federal poverty guideline; not available to anyone eligible for a different school or employer membership discount (so Cornell students, who get the student rate, are not eligible); limited availability. Rewrote the paragraph with that citation, updated the table row ('Income-qualified county residents with no school discount'), removed the handbook citation and its sources entry."
+   },
+   {
+    "item": "Fall 2026 finals-week airport charter (line 300 'Not confirmed: a fall 2026 charter, as of Nov 8' and the glance bullet 'fall 2026 is not announced as of Nov 8')",
+    "tried": "Fact row getting-around-2.12 (fall 2026 shuttle not found) and brief 6.9; WebSearch for a 2026-27 resolution; the Student Assembly resolutions list (2026-27 session, R12 to R36: none about airport shuttles, charter buses, TCAT or bus passes).",
+    "outcome": "No resolution exists yet, so the page can neither confirm nor announce one. Deleted the admission and the glance clause. Both now point the reader to Campus Groups from mid-November, tied to the fall 2025 grant's Nov 13 adoption (R18, already cited). Section kept: it still delivers the fall 2025 and spring 2026 grants, the 2024 pilot and the paid OurBus alternative."
+   },
+   {
+    "item": "2026 winter closing time for undergraduate residences (line 306) and the Common mistakes bullet that cited the 2025 closing",
+    "tried": "Fact rows getting-around-2.22-0381 and -0382; the Winter Break 2026 Closing Checklist opened via curl (WebFetch rejected the scl.cornell.edu certificate).",
+    "outcome": "Found and written: all undergraduate residences close Sunday, Dec 20, 2026 at 2 p.m. ET and reopen Tuesday, Jan 19, 2027 at 9 a.m.; only residents approved for winter break housing may stay; anyone remaining after 2 p.m. is charged $60 per hour or fraction, not prorated; meal plans end with brunch Dec 20 and resume with lunch Jan 19. Common mistakes bullet updated to the 2026 date and the $60-an-hour charge. Source title updated to the page's current title and accessed date refreshed."
+   },
+   {
+    "item": "TCAT service on Thanksgiving Day 2026 and Thanksgiving dining hours (line 321)",
+    "tried": "TCAT: WebSearch restricted to tcatbus.com, then tcatbus.com/ride/FAQ/ opened in the browser pane (curl and WebFetch got 403): 'TCAT operates 359 days a year. Service does not operate on January 1, Memorial Day, Juneteenth, Independence Day, Thanksgiving Day, and Christmas Day.' tcatbus.com/thanksgiving is an archived 2025 notice (Thursday Nov 27) and was not used. Dining: WebSearch, then Cornell's Break Resources page via curl: during breaks Cornell Dining runs modified or reduced schedules, Morrison Dining closed, North Star Dining Room expanded hours, current hours on Cornell Dining Now.",
+    "outcome": "Wrote both facts with citations (TCAT runs no buses on Thanksgiving Day, one of six holidays without service in its 359-day year; break dining rule with Morrison closed and North Star expanded, hours on Cornell Dining Now). Deleted the admission and the 2013-column sentence it leaned on. No Thanksgiving-2026-specific dining hours are published, so the page states the standing break rule rather than promising hours."
+   },
+   {
+    "item": "Whether Cornell offers travel aid or emergency travel funds for students who cannot afford the trip home (line 323)",
+    "tried": "WebSearch; finaid.cornell.edu/emergency-funds opened via curl (CU Emergency Fund: urgent, unanticipated expenses above the standard cost of attendance, typically limited to $500 per academic year, priority to significant financial need; Students Helping Students Fund: created by the Student Assembly in 1985 for undergraduates in financial need, allowable expenses include travel related to emergency situations such as the death of a relative; visit 203 Day Hall or finaid@cornell.edu). Access Fund page (scl.cornell.edu/FGLI/access-fund, 2026-27) checked: its categories are winter clothing, experiences and laptop or phone replacement, nothing on travel, so it was left out.",
+    "outcome": "Replaced the admission with the two emergency funds, what each covers and its cap, and the instruction to ask a counselor at 203 Day Hall or finaid@cornell.edu for a planned trip home."
+   },
+   {
+    "item": "Unflagged admissions found on the page: 'C2C lists no route but New York' (line 169), 'NYC was not in the sample, so a third more for NYC is an estimate' (line 219)",
+    "tried": "Fact row getting-around-2.2-0023 (C2C rates page lists only the Ithaca to New York route) for the first; the second is our own sample description.",
+    "outcome": "Reworded without research-gap language: 'C2C runs only to New York' (same C2C rates citation) and 'For NYC, a third more is an estimate carried over from those three routes.'"
+   }
+  ],
+  "sources_added": [
+   "https://tcatbus.com/ride/FAQ/",
+   "https://scl.cornell.edu/about-scl/break-resources",
+   "https://finaid.cornell.edu/emergency-funds",
+   "https://www.ithacacarshare.org/easy-access"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/cheapest-ways-to-get-around-cornell.md. Title, slug, file name, headings, images block, figure and tool blocks and reader blocks are unchanged; one glance bullet was reworded (the fall 2026 charter clause). Checks from the repo root: `python3 scripts/lint-content.py <file>` prints 0 banned-phrase matches; `grep -c \"—\" <file>` prints 0; a grep for residual phrases (not confirmed, not announced, lists no, shows no, gives no, not found, could not, unable to) finds none; every URL cited in the body is in the frontmatter sources list and vice versa (39 and 39); `worker/.venv/bin/python scripts/v2/lint.py --no-network <file>` reports OK (1 ok, 0 failed). Frontmatter: `updated` set to 2026-11-11; four sources added with accessed '2026-11-11' (listed in sources_added); the uncited Ithaca Carshare Member Handbook (Summer 2024) PDF entry was removed because its only citation was replaced by the Easy Access page; accessed dates refreshed to 2026-11-11 for the sources re-opened today (OurBus blog, OurBus Cornell page, Cornell bus pass page, SA R69, Ithaca Bikeshare, Ithaca Carshare rates, winter closing checklist, whose title was updated to 'Winter Break 2026 Closing Checklist'). Two judgment calls to note: (1) the Carshare sentence 'so a Cornell student, who qualifies for the student rate, is not eligible' is the direct reading of the Easy Access page's rule that anyone eligible for a school or employer membership discount is not eligible, combined with the Cornell student rate already cited on the page; (2) 'The fall 2025 grant passed in mid-November' restates R18's Nov 13, 2025 adoption date, already cited in the bullet above it, as the basis for the Campus Groups advice. No section lost its purpose; nothing was committed (no git repository detected in the working directory).",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/getting-around/cornell-c2c-bus-booking-fares-rules.md",
+  "url": "/cornell/getting-around/cornell-c2c-bus-booking-fares-rules/",
+  "slug": "cornell-c2c-bus-booking-fares-rules",
+  "kind": "spoke",
+  "queue_id": "q-getting-around-0028",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Which departure slots run on which weekday (body line 'Not confirmed: which slots run on which weekday. Check the live table for your date.')",
+    "tried": "Fact file rows getting-around-2.3-0047, 2.3-0048 and 8.2-0617 and brief section 2.3 (all say the day mapping was unreadable); then fetched the live C2C departure schedule page (https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule) and parsed its raw HTML, which has Sun. to Sat. columns for both directions.",
+    "outcome": "Found. Replaced the old slot-union paragraph and the admission with a day-by-day table of North Campus and Weill Cornell departure times (Sun 3/3, Mon 2/3, Tue 2/2, Wed 2/2, Thu 3/2, Fri 3/3, Sat 1/1; 16 buses a week each way), plus the page's note that stops, routes and trip length can change for events or road closures. Step 4 of the booking steps now points to the table. The stops table's Cornell Club row now reads 'About 45 minutes after Weill' (every Club time on the schedule is 45 minutes after the Weill time)."
+   },
+   {
+    "item": "Route coverage ('C2C runs only between Ithaca and New York City: the rates page lists no Boston or Philadelphia route')",
+    "tried": "Fact file rows 2.2-0023 and 8.2-0637 (negative findings only); fetched the rates page and the main C2C service page (neither states the route); fetched the Cornell Sustainable Campus bus-commuting page, which states 'Bus between New York City and Cornell Ithaca Campus'.",
+    "outcome": "Found. Rewrote as 'C2C runs one route, between New York City and the Ithaca campus' with the sustainability page cited, and dropped the Boston and Philadelphia clause (no source mentions those cities)."
+   },
+   {
+    "item": "Fuel and toll surcharge end date ('with no end date posted', same paragraph; not flagged by the linter but an admission about what the source lacks)",
+    "tried": "Rates page (prices include a 'temporary $6 surcharge due to increased fuel and toll costs', no end date or until-further-notice wording) and fact file row 2.2-0022.",
+    "outcome": "No end date exists in any source, so the clause was deleted and the sourced fact kept: the fares already include a temporary $6 fuel and toll surcharge on each one-way fare."
+   }
+  ],
+  "sources_added": [],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/cornell-c2c-bus-booking-fares-rules.md. Verification from the repo root: `python3 scripts/lint-content.py <file>` prints 0 banned-phrase matches; `grep -c \"—\"` prints 0; all 20 URLs cited in the body are in the frontmatter sources list; the frontmatter parses with pyyaml (title and slug unchanged, `updated` bumped from 2026-11-08 to 2026-11-11). No new URLs were added; every source used was already listed, and the accessed date was refreshed to '2026-11-11' on the five pages opened today: the Nov 4 reservation-system announcement, the main C2C service page, the C2C rates page, the C2C departure schedule page and the Sustainable Campus bus-commuting page. Glance, reader, figure, tool and images blocks are untouched; no section, heading or title changed; one Markdown table was added (not a fenced block). Not done: scripts/v2/lint.py (the publish lint) was started as an extra check and did not finish within the 120 s timeout, so it is unverified. Two things the parent may want to follow up: (1) fact file rows getting-around-2.3-0047, 2.3-0048 and 8.2-0617 still say the weekday mapping was unreadable; the page now carries the full table but the fact file was outside this task's scope and was not edited (the raw schedule HTML is saved at /private/tmp/claude-501/-Users-ajaysharma-Ads/e4f68972-0ccf-40b3-a304-3f3b90835892/scratchpad/c2c-dl/schedule.html); (2) the page's 'No departures are listed between Dec 24 and Jan 5' wording (step 2, the timeline figure and the international reader block) was left as is because it describes the booking links' date ranges rather than a research gap; the announcement and service page confirm the link ranges (through Dec 23, 2026; on or after Jan 6, 2027) but neither states a service pause in so many words.",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/getting-around/cornell-thanksgiving-break-bus-tickets-when-to-book.md",
+  "url": "/cornell/getting-around/cornell-thanksgiving-break-bus-tickets-when-to-book/",
+  "slug": "cornell-thanksgiving-break-bus-tickets-when-to-book",
+  "kind": "spoke",
+  "queue_id": "q-getting-around-0039",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "TCAT service on Thanksgiving Day 2026 (international reader block: 'Not confirmed: whether TCAT runs on Thanksgiving Day 2026')",
+    "tried": "Fact file rows 2.11-0213 and new-9103 (TCAT press release via the Sun); WebSearch; WebFetch of the Sun article of July 2, 2025 (opened, quote confirmed: TCAT runs every day except Independence Day, New Year's Day, Memorial Day, Juneteenth, Thanksgiving and Christmas); tcatbus.com home page, /no-service-on-thanksgiving-day/, /thanksgiving/ and /ride/faq/ all returned HTTP 403 (Cloudflare JavaScript challenge, also via curl).",
+    "outcome": "Found. Wrote 'TCAT does not run on Thanksgiving Day' with the Sun's report of the TCAT press release as the citation; admission and the 2013-column hedge deleted."
+   },
+   {
+    "item": "How many days before Thanksgiving carriers' Wednesday buses filled in past years ('Not confirmed' in the When to book section, plus 'No carrier publishes a sell-out date or seat count' and the lead's 'No operator publishes when seats run out')",
+    "tried": "Grep of brief, facts.csv and raw lanes for sell-out dates (none for buses); WebSearch site:cornellsun.com; WebFetch of the Sun's Nov 9, 2023 'Inside OurBus' feature (no sell-out dates; it does carry a fall-break account of a full bus).",
+    "outcome": "Not found. Deleted the sentence and the two 'no carrier publishes' admissions; renamed the heading 'When to book, and when buses sell out' to 'When to book' so nothing promises a sell-out date; added the cited fall-break 2023 account (second-to-last seat taken, a ticket holder turned away from the full bus) as evidence that break buses fill."
+   },
+   {
+    "item": "A Thanksgiving 2026 shuttle from campus to ITH or Syracuse (glance line 'no 2026 Thanksgiving airport shuttle has been announced', flying reader block 'no 2026 version has been announced', flying section 'Not confirmed: any Thanksgiving 2026 shuttle')",
+    "tried": "Fact file row 2.12-0232 (not found as of Nov 8); WebSearch; WebFetch of flyithaca.com/news (20 items through Oct 2, 2026, none about a shuttle); WebFetch of the fcs.cornell.edu announcements list (only the Oct 22 C2C item for 2026).",
+    "outcome": "Not found. Deleted the three admissions and the 2023 Swarthout shuttle history sentences they hung on (reader block and section), and removed the Sun Nov 19, 2023 shuttle article from the sources list since nothing cites it now. The flying section keeps the cited OurBus Syracuse fares and the taxi advice for ITH."
+   },
+   {
+    "item": "OurBus missed-bus rule, rescheduling fee, cancellation process and refund form (FAQ 'Not confirmed: OurBus's missed-bus rule'; table cells 'Not published' x2 and 'Rescheduling fee (amount not stated)')",
+    "tried": "Fact file (only the Sun 2023 student quote 'credit, not cash'); WebSearch; WebFetch of ourbus.com/cancellationpolicy twice (second pass verbatim) and ourbus.com/FAQ.",
+    "outcome": "Found. Table and FAQ now carry OurBus's own rules: cancel more than 24 hours out and a card booking is refunded to the card (booking and facility fees kept); inside 24 hours, wallet credit; no cancellation inside 60 minutes; a missed ticket is not refundable or transferable and a new ticket is needed, with a one-time move to the next bus with space only while the original bus is still on its trip; reschedule online until 60 minutes before, a different fare may apply; cancel via the confirmation-email link or My Passes. Because the official policy contradicts the page's 'credit, not cash' line for cancellations more than 24 hours out, that claim was corrected in the glance, the budget reader block and Common mistakes, and the Sun 2023 citation for refund rules was replaced with the policy and FAQ pages."
+   },
+   {
+    "item": "Size of the OurBus student discount ('a separate student discount of unstated size requires verification')",
+    "tried": "Fact file row 2.4-0072 (no amount); WebSearch; WebFetch of the OurBus blog post dated July 25, 2026.",
+    "outcome": "Found. Now reads: a .edu email address gets 10% off a first OurBus ride, on a booking of $25 or more and capped at $15."
+   },
+   {
+    "item": "C2C Thanksgiving 2026 schedule (FAQ clause 'but it publishes no holiday schedule')",
+    "tried": "WebSearch; WebFetch of the fcs.cornell.edu announcements list (no Thanksgiving or holiday-schedule item for 2026).",
+    "outcome": "Not found. Deleted the clause; the FAQ keeps the cited 'when feasible' added-trips line and points to the live departure table for the day's times."
+   },
+   {
+    "item": "College Confidential forum posters cited as a source (flying reader block, 'If you are flying instead', and the frontmatter source entry)",
+    "tried": "Rule 4 (no forum posters as sources); no replacement source needed since the claim (book flights in June or July, keep a backup airport) was only advice.",
+    "outcome": "Deleted both sentences and the source entry."
+   },
+   {
+    "item": "'NYC was not in the sample' caveat on the Thanksgiving-week premium",
+    "tried": "Reworded from what the sample lacks to what it covers.",
+    "outcome": "Now reads: 'The sample covers Binghamton, Rochester and Washington DC, so a third more on NYC fares is an estimate.'"
+   }
+  ],
+  "sources_added": [
+   "https://www.ourbus.com/cancellationpolicy",
+   "https://ourbus.com/FAQ",
+   "https://www.ourbus.com/blog/ourbus-student-discount/",
+   "https://www.cornellsun.com/article/2025/07/service-changes-for-july-4-holiday-weekend-tcat-buses-curbside-recycling-city-offices-will-be-closed-on-independence-day"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/cornell-thanksgiving-break-bus-tickets-when-to-book.md. Title, slug, meta, images block, both figure blocks and both tool blocks are untouched; one heading renamed ('When to book, and when buses sell out' to 'When to book'); no sections removed. Frontmatter: updated set to 2026-11-11; two source entries removed (College Confidential 2017 thread; Sun Nov 19, 2023 shuttle article, no longer cited) and four added with accessed 2026-11-11. Final checks: python3 scripts/lint-content.py prints 0 matches; grep -c for em dashes prints 0; all 31 body URLs appear in the 31-entry sources list and every source is cited. Two date-bound phrases that read as past on Nov 11 ('Book by Nov 11' in the budget block, 'before Nov 11' in the advice line) now say 'Book now' with Nov 11 named as the 14-day mark. The OurBus refund correction is worth a glance from the editor: the page previously said OurBus refunds only in credit (a 2023 student quote); OurBus's own policy page refunds card bookings cancelled more than 24 hours out to the card, so the glance, budget block, table and Common mistakes now state the official rule. TCAT's own notices could not be opened (Cloudflare 403 on four URLs and via curl), so the Thanksgiving Day fact cites the Sun's July 2, 2025 report of TCAT's press release, which was opened and quoted.",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ },
+ {
+  "file": "content/articles/getting-around/getting-around-cornell-first-year.md",
+  "url": "/cornell/getting-around/getting-around-cornell-first-year/",
+  "slug": "getting-around-cornell-first-year",
+  "kind": "reader_guide",
+  "queue_id": "q-getting-around-0049",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Whether a first-year may register a car (flagged: 'Not confirmed' and 'The student permit page lists no first-year rule', Why to skip the car)",
+    "tried": "Fact file rows 2.14-0264, 8.2-0618, new-9111; brief 2.14 and 8.2 (line 1097 advises 'discouraged, not banned, per the families page'); curl of scl.cornell.edu/families/.../parking-transportation (WebFetch rejected its certificate): 'Students are discouraged from bringing a car to campus their first year, but limited permits are available'; WebFetch of fcs.cornell.edu .../parking-students: no class-year condition, 'Students living in university housing can purchase a parking permit for their residence area', ND permit capped and limited to North Campus residents, Transportation Services 607-255-4600, Mon to Fri 7:30 a.m. to 12 p.m.",
+    "outcome": "Found. Admission deleted; new paragraph after the permit bullets: a first-year may buy one, eligibility turns on living in university housing, not class year, with the TDS phone and hours cited to the parking page. Both URLs were already in the sources list (accessed dates set to 2026-11-11)."
+   },
+   {
+    "item": "When residences close for winter break 2026 (flagged: 'Not confirmed', Thanksgiving and winter break section)",
+    "tried": "Fact file rows 2.22-0381 and 0382 (already held the 2026 date); curl of the live page scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice (now titled 'Winter Break 2026 Closing Checklist: December 20, 2026 - January 19, 2027').",
+    "outcome": "Found. Sentence now states: residences close 2 p.m. Sun Dec 20, 2026, reopen 9 a.m. Tue Jan 19, 2027, $60 an hour past the deadline, late-departure request via the Housing and Dining Portal by Mon Dec 7. The 2025 precedent and the admission were removed; source title updated to the page's current title, accessed 2026-11-11."
+   },
+   {
+    "item": "A fall 2026 Student Assembly finals-week airport charter (flagged: 'Not confirmed: a fall 2026 charter; none was announced as of Nov 8' in Getting to the airport; same admission unflagged in the 'If you're flying home' reader block)",
+    "tried": "Fact file rows 2.12-0230, 8.2-0624, 9-0665 (none found as of Nov 8); two WebSearches (SA resolutions, Cornell Sun); WebFetch of assembly.cornell.edu/shared-governance/student-assembly/resolutions: the 2026-27 list (SA R12 to R36) has no airport, transit or charter resolution; WebFetch of SA R18 (2025-26) for the fall precedent.",
+    "outcome": "Not found. Both admission sentences deleted (the reader block lost only that sentence). The body paragraph now gives the record without promising a 2026 run: free charters since May 2024, fall 2025 $7,853.32 voted Nov 13, 2025 (R18), spring 2026 $10,668.87 approved Apr 16, 2026 (R83), first-come sign-up on Campus Groups. R18 added to the sources list."
+   },
+   {
+    "item": "A Cornell Thanksgiving 2026 airport shuttle (FAQ answer 'Not for 2026 as of Nov 8', an unflagged admission)",
+    "tried": "Fact file row 2.12-0232 (not found as of Nov 8); WebSearch for a 2026 shuttle (only the 2023 Swarthout service and the finals-week charters turned up).",
+    "outcome": "Not found. Admission deleted and the promise removed: the FAQ question 'Is there a Cornell shuttle to the airport at Thanksgiving?' became 'How do I get to the Ithaca airport at Thanksgiving?', answered with TCAT 32 or 72, a prebooked taxi, and the 2023 one-off $14 shuttle (Cornell Sun, Nov 19, 2023, already a source)."
+   },
+   {
+    "item": "'No fares are posted.' after the airport taxi list (unflagged admission about the source)",
+    "tried": "WebFetch of flyithaca.com/taxis: each company says 'For Reservation and Pricing Text or Call'; 'Taxis are available at the airport 24/7'; prearrange a taxi for a late flight.",
+    "outcome": "Replaced with the page's own instruction: text or call for a price, taxis there 24/7, prearrange for a late flight. Accessed date set to 2026-11-11."
+   },
+   {
+    "item": "'NYC was not in the sample.' in the Thanksgiving fare-premium paragraph (unflagged admission about our own sample)",
+    "tried": "Page's own text (the three sampled routes are already named in the preceding sentence).",
+    "outcome": "Sentence deleted; the conditional was rewritten as 'At the same premium, a $66 OurBus floor round trip to NYC would cost about $88.' No facts changed."
+   },
+   {
+    "item": "'Nothing is listed between Dec 24 and Jan 5.' in the C2C booking steps",
+    "tried": "Fact file row 2.1-0002 and the cited C2C announcement (2026 link through Dec 23, 2027 link from Jan 6).",
+    "outcome": "Rephrased as a fact about the booking links: 'The two links skip Dec 24 to Jan 5.'"
+   },
+   {
+    "item": "Forum posters used as sources (rule 4): the 2016 College Confidential car-thread tally paragraph, the 2017 College Confidential 'booked flights in June or July' sentence, and the count 'Nine student guides, news stories and forum threads ... call the bus the default way home'",
+    "tried": "Brief 7.1 theme 2 (the nine comprise three College Confidential threads, a Reddit mirror, a prked.com blog and four Sun pieces) and theme 8.",
+    "outcome": "All three passages deleted and both College Confidential entries removed from the sources list. The reader-block advice 'Book Thanksgiving flights early and keep a backup airport' stays as plain advice with no figure, date or name."
+   }
+  ],
+  "sources_added": [
+   "https://assembly.cornell.edu/resolutions/student-assembly/sa-r18-2025-2026"
+  ],
+  "sections_removed": [
+   "Paragraph 'Forum advice agrees...' (2016 College Confidential tally) under 'Why to skip the car'; replaced in place by the first-year permit paragraph",
+   "Sentence 'Forum posters in 2017 booked Thanksgiving flights in June or July and kept a backup airport' under 'Getting to the airport'",
+   "Sentence 'Nine student guides, news stories and forum threads from 2014 to 2026 call the bus the default way home' under 'Getting home to NYC'",
+   "FAQ entry 'Is there a Cornell shuttle to the airport at Thanksgiving?' replaced by 'How do I get to the Ithaca airport at Thanksgiving?' (no heading removed; every H2 and H3 kept)"
+  ],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/getting-around-cornell-first-year.md. `python3 scripts/lint-content.py` on it prints 0 matches (was 4); `grep -c \"—\"` prints 0. Frontmatter parses; all 44 URLs cited in the body are in the sources list and every listed source is cited. Set `updated` to 2026-11-11 and the accessed date to 2026-11-11 on the four sources re-opened today (families parking page, parking-students, winter closing checklist with its new title, airport taxis). Sources removed: the two College Confidential threads. Glance, figure, tool and images blocks untouched; the only reader-block change is one deleted admission sentence in 'If you're flying home'. Two scl.cornell.edu pages had to be read with curl because WebFetch rejected their certificate. Observation outside this step, for the checker: the brief's change log (line 1406) corrected 'OurBus to SYR six days a week' on another page (route page shows about 3 daily departures with demand-based weekend trips), and this page still says 'six days a week' in the flying-home reader block and the airport table.",
+  "sound": false,
+  "problems": "(no verdict)",
+  "retried": false
+ }
+]

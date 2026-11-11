@@ -14,9 +14,17 @@ sources:
   - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates", title: "Cornell Dining: Meal plans and rates (dining room prices, 2026-2027)", accessed: "2026-11-10"}
   - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027", title: "Cornell Dining: Terms and conditions, 2026-2027", accessed: "2026-11-10"}
   - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs", title: "Cornell Dining: Meal plan FAQs", accessed: "2026-11-10"}
+  - {url: "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms", title: "Cornell Dining: Deadlines and terms", accessed: "2026-11-10"}
 ---
 
 This calculator prices every Cornell Dining plan you are allowed to buy in 2026-27 against the number of dining-room meals you actually eat. You pick where you live and who you are, enter your meals a week, and choose which meals they are. It shows each plan's cost to you for a semester, what each swipe you use really costs, and how many meals a week the plan needs before it beats paying per meal. The cheapest plan for your numbers comes first.
+
+```glance
+- Off campus, 1 to 9 dining-room meals a week: Just Bucks costs least.
+- At 10 to 12 meals a week, Bear Choice wins; at 13 or 14, Bear Traditional.
+- At 15 or more meals a week, Unlimited is cheapest, down to $9.52 a swipe.
+- Baseline for that ranking: 2026-27 prices, a mixed week of meals, 18 weeks a term, Big Red Bucks counted at $1.
+```
 
 ```tool cornell-meal-plan-calculator-by-meals-a-week
 ```
@@ -70,6 +78,23 @@ Break-even is the plan's net cost divided by the price of a meal paid in Big Red
 
 Cost per swipe at full use and 18 weeks, from the rows above: House Affiliate $12.02, Bear Traditional $12.51, SFL Supplemental $13.33, Bear Choice $14.44, Collegetown Meal Plan $14.54 (City Bucks at $1), Bear Basic $15.98, Off-Campus Value $17.50, Flex 10/500 $19.90. Unlimited is $9.52 at 20 meals a week (every meal in the 20-meal week) and $13.60 at 14.
 
+```figure
+kind: cost_table
+title: "Meals needed to beat paying in Big Red Bucks, mixed week, 18-week term"
+rows:
+  - {label: "Unlimited (20 a week)", value: "12.5 a week"}
+  - {label: "House Affiliate (3 a week)", value: "2.4 a week"}
+  - {label: "Bear Traditional (14 a week)", value: "11.5 a week"}
+  - {label: "SFL Supplemental (127 a semester)", value: "111 a semester"}
+  - {label: "Bear Choice (10 a week)", value: "9.5 a week"}
+  - {label: "Collegetown Meal Plan, City Bucks at $1 (10 a week)", value: "9.5 a week"}
+  - {label: "Bear Basic (7 a week)", value: "7.3 a week, above its cap"}
+  - {label: "Off-Campus Value (45 a semester)", value: "51.6 a semester, above its 45"}
+  - {label: "Flex 10/500 (10 a semester)", value: "13.0 a semester, above its 10"}
+```
+
+Source: EduExplained calculation from Cornell Dining's 2026-27 plan prices and dining-room prices: each plan's net cost (price + half the fee − bucks) divided by the average Big Red Bucks meal. A break-even above the plan's cap is what the calculator's table calls "Never".
+
 ## Assumptions and what the tool does not cover
 
 - The 20-meal week behind the mixed average is an assumed pattern, not a Cornell figure. Pick "lunch and dinner" or "mostly dinners" if that fits you better.
@@ -79,10 +104,19 @@ Cost per swipe at full use and 18 weeks, from the rows above: House Affiliate $1
 - Shabbat, holiday and special meals at 104West! can cost extra, and the tool does not price them.
 - Weeks inside the term when you are away still cost the full plan price. Lower the weeks input to see what that does to your cost per swipe.
 - Financial aid is not modeled. Cornell Dining says the Unlimited plan is fully covered by financial aid for eligible students; ask the financial aid office how a smaller plan changes your package.
+- Deadlines are not modeled. Reduce or cancel by Sept. 9, 2026, for fall, and reduce by Feb. 3, 2027, for spring ([Cornell Dining deadlines](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms)). After a deadline you can still upgrade, but not reduce.
+
+```reader "If you're a grad student"
+Take the Graduate and Professional Student Meal Plan instead of Just Bucks: it beats Just Bucks by the fee share at any meal count below 10 a week. [Cornell graduate student meal plan: which to choose](/cornell/dining/cornell-graduate-student-meal-plans/) compares it with the full plans.
+```
 
 ## How to read the result
 
 The bold line names the cheapest plan you may buy and how much it saves against the next one. The table lists every plan open to you, cheapest first, with your semester cost, the cost of each swipe you use, and the break-even point. "Never" in the break-even column means that even at full use, the plan's swipes cost more than paying in Big Red Bucks for the meal mix you chose. When two plans sit within a few dollars, pick the one that fits the weeks you are least sure about: a weekly plan loses unused swipes every Wednesday night, while a debit plan's meals last the semester. Double each total for the year.
+
+In the six Collegetown halls, the Collegetown Meal Plan beats Unlimited at 12 or fewer meals a week if you spend its City Bucks in full, and at 11 or fewer if you don't. Each meal a week above its 10 swipes adds $274.68 a semester at Big Red Bucks prices ([Cornell Dining plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
+
+SFL Supplemental's 127 meals a semester work out to about 7 a week, and for an off-campus member it is the cheapest choice from about 7 to 12 meals a week. House Affiliate is the best value for anyone who qualifies, as long as you eat its 3 weekly meals on West Campus; it stays cheapest from 3 to 12 meals a week ([Cornell Dining plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 ## Related guides
 

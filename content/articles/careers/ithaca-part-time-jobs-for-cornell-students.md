@@ -5,7 +5,7 @@ primary_query: ithaca part time jobs for cornell students
 topic: careers
 school: cornell-university
 type: roundup
-updated: 2026-11-07
+updated: 2026-11-11
 queue_id: q-careers-0009
 sources:
 - url: https://einhorn.cornell.edu/?p=407
@@ -32,6 +32,12 @@ sources:
 - url: https://dol.ny.gov/minimum-wage-0
   title: Minimum Wage, New York State Department of Labor
   accessed: '2026-11-07'
+- url: https://www.downtownithaca.com/job-listings/
+  title: Downtown Ithaca Job Listings, Downtown Ithaca Alliance
+  accessed: '2026-11-11'
+- url: https://lsc.cornell.edu/consult-with/non-lsc-support-and-resources/
+  title: Non-LSC Support and Resources, Learning Strategies Center, Cornell University
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Ithaca Commons (New York)
@@ -51,11 +57,11 @@ The most reliable off-campus route for a Cornell undergraduate with Federal Work
 | Community Work-Study | Work-study students who want nonprofit, school or public-sector experience | Set by the employer; FWS covers at least 75% of wages | [Einhorn Center page](https://einhorn.cornell.edu/?p=407) |
 | America Reads / America Counts tutoring | Tutoring pre-K through 9th grade | FWS covers 100% of wages | [Same page](https://einhorn.cornell.edu/?p=407) |
 | Downtown hotels, venues, restaurants | Evening and weekend shifts | Listed examples run from $16 an hour up (see below) | [Chamber job board](https://business.tompkinschamber.org/jobs) |
-| Collegetown and the Commons | Shifts near campus | Not published; ask the employer | Ask in person |
+| Collegetown and the Commons | Shifts near campus | Ask the employer | [Downtown Ithaca job board](https://www.downtownithaca.com/job-listings/) for the Commons; in person in Collegetown |
 
 ## What the pay looks like
 
-The [New York State Department of Labor](https://dol.ny.gov/minimum-wage-0) lists the minimum wage for the rest of the state (outside New York City, Long Island and Westchester, so including Tompkins County) at $16.00 an hour, and says it stays the same on January 1, 2027. Chamber listings we saw in November 2026 that state pay: a Hotel Ithaca night auditor from $16 an hour, a Hotel Ithaca shuttle van driver at $16, a Fairfield Inn breakfast attendant at $17, a Canopy by Hilton housekeeper at $17 to $18, a PM line cook at Canopy at $19 to $21, and a Canopy valet supervisor at $21 to $22. Most listings do not say whether they suit a student schedule.
+The [New York State Department of Labor](https://dol.ny.gov/minimum-wage-0) lists the minimum wage for the rest of the state (outside New York City, Long Island and Westchester, so including Tompkins County) at $16.00 an hour, and says it stays the same on January 1, 2027. Chamber listings we saw in November 2026 that state pay: a Hotel Ithaca night auditor from $16 an hour, a Hotel Ithaca shuttle van driver at $16, a Fairfield Inn breakfast attendant at $17, a Canopy by Hilton housekeeper at $17 to $18, a PM line cook at Canopy at $19 to $21, and a Canopy valet supervisor at $21 to $22. Ask each employer whether the shift fits a class schedule.
 
 ## Community Work-Study
 
@@ -77,7 +83,7 @@ Cornell's student employment office also lists [the program among its options](h
 
 ## Tutoring
 
-Tutoring through America Reads and America Counts is the cheapest hire for an employer, because [work-study covers all of the wages](https://einhorn.cornell.edu/?p=407) for pre-K through 9th grade students. That makes it the first thing to try if you have FWS and like working with kids. If you do not have work-study, tutoring means private clients, and we did not find an official Cornell page listing rates, so ask other tutors before you set a price.
+Tutoring through America Reads and America Counts is the cheapest hire for an employer, because [work-study covers all of the wages](https://einhorn.cornell.edu/?p=407) for pre-K through 9th grade students. That makes it the first thing to try if you have FWS and like working with kids. Without work-study, tutoring means finding your own clients. The Learning Strategies Center [says](https://lsc.cornell.edu/consult-with/non-lsc-support-and-resources/) the Economics department keeps a list of non-vetted economics tutors available for hire, and that other departments' chairs or directors of undergraduate studies may help a student find a tutor. Ask those offices how to be listed.
 
 ## Downtown hotels, venues and restaurants
 
@@ -85,13 +91,13 @@ The Tompkins County Chamber's [job board](https://business.tompkinschamber.org/j
 
 As of November 2026, the board showed these roles that name part-time hours:
 
-- Valet Driver at Canopy by Hilton Downtown Ithaca: full-time and part-time, hourly pay plus tips (amount not listed), posted 10/08/2026.
+- Valet Driver at Canopy by Hilton Downtown Ithaca: full-time and part-time, hourly pay plus tips, posted 10/08/2026.
 - PM Line Cook at Canopy by Hilton Downtown Ithaca: part-time or full-time, $19 to $21 an hour, posted 08/26/2026.
 - Night Auditor at The Hotel Ithaca: listed as part-time or full-time, from $16 an hour, posted 10/08/2026.
 
-Related, but with hours not stated: Valet Supervisor at Canopy ($21 to $22 an hour, posted 10/04/2026), and a shuttle van driver at The Hotel Ithaca ($16, posted 04/22/2026) and a night auditor at a Fairfield Inn by Marriott ($18, posted 08/26/2026). Check the hours with the employer before applying. Overnight shifts also clash with early classes.
+Related roles, where you should confirm the hours with the employer first: Valet Supervisor at Canopy ($21 to $22 an hour, posted 10/04/2026), a shuttle van driver at The Hotel Ithaca ($16, posted 04/22/2026) and a night auditor at a Fairfield Inn by Marriott ($18, posted 08/26/2026). Overnight shifts also clash with early classes.
 
-Honest limit: we could not find a reliable public list of which Collegetown restaurants are hiring now. For those, the usual route is to ask a manager during a slow hour, and to check the door signs.
+The Downtown Ithaca Alliance runs its own [job board](https://www.downtownithaca.com/job-listings/) for openings within the downtown area. Employers submit the posts, the DIA reviews each one before it goes up, the board filters to part-time, and you apply to the employer directly. For Collegetown, ask a manager during a slow hour and check the door signs.
 
 ## Getting there without a car
 
@@ -106,7 +112,7 @@ Our advice: a daytime shift on a weekday is where a pass pays for itself. Evenin
 ## If you are...
 
 - **On Federal Work-Study:** start with Community Work-Study.
-- **Not on work-study:** check the Chamber board, then ask in person around the Commons and Collegetown.
+- **Not on work-study:** check the Chamber and Downtown Ithaca boards, then ask in person around the Commons and Collegetown.
 - **An international student on F-1 or J-1:** off-campus work needs specific authorization. Cornell's [CPT page](https://international.globallearning.cornell.edu/employment-and-taxes/f-1-cpt) says F-1 CPT is limited to work directly related to your major and required for your degree, with no more than 20 hours a week in fall and spring, and that August 2026 SEVP guidance narrowed CPT eligibility. A typical retail or restaurant job generally would not qualify. Talk to International Services before accepting any offer.
 - **Looking for a first job with flexible hours:** Cornell Dining and other on-campus employers are an easier start. Student and Campus Life says [most units hire in spring or summer for fall](https://scl.cornell.edu/growth-opportunities/student-employment/students), and some are always hiring.
 
@@ -114,7 +120,7 @@ Our advice: a daytime shift on a weekday is where a pass pays for itself. Evenin
 
 1. Log in to Workday and confirm your Federal Work-Study eligibility.
 2. Email cwsp@cornell.edu with questions about Community Work-Study placements.
-3. Browse the [Chamber board](https://business.tompkinschamber.org/jobs) and filter to Downtown Ithaca or your category.
+3. Browse the [Chamber board](https://business.tompkinschamber.org/jobs) (filter to Downtown Ithaca or your category) and the [Downtown Ithaca job board](https://www.downtownithaca.com/job-listings/) (filter to part-time).
 4. Look up the TCAT route and the last bus time for any shift before you accept it.
 
 ## Common mistakes

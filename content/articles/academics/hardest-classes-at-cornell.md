@@ -5,7 +5,7 @@ primary_query: hardest classes at Cornell
 topic: academics
 school: cornell-university
 type: roundup
-updated: 2026-11-07
+updated: 2026-11-11
 queue_id: q-academics-0013
 sources:
   - {url: "https://cornellsun.com/2024/02/19/cornell-discontinues-median-grade-visibility-on-transcripts-15-years-after-inception/", title: "Cornell discontinues median grade visibility on transcripts 15 years after inception, The Cornell Daily Sun", accessed: "2026-11-07"}
@@ -14,16 +14,18 @@ sources:
   - {url: "https://cornellsun.com/2012/09/04/work-for-cornell-chemistry-class-exhausting-for-professor-too", title: "Work for Cornell chemistry class exhausting for professor too, The Cornell Daily Sun, 2012", accessed: "2026-11-07"}
   - {url: "https://cornellsun.com/2025/02/26/gross-the-problem-with-prelims-how-we-can-turn-a-season-of-stress-into-a-week-of-work", title: "Gross: The problem with prelims, The Cornell Daily Sun", accessed: "2026-11-07"}
   - {url: "https://cornellsun.com/2024/01/31/cornellians-express-conflicting-perceptions-of-universitys-grade-inflation/", title: "Cornellians express conflicting perceptions of university's grade inflation, The Cornell Daily Sun", accessed: "2026-11-07"}
-  - {url: "https://talk.collegeconfidential.com/t/fact-or-myth-cornell-has-toughest-workload-in-ivy-league/563035", title: "Fact or Myth: Cornell has toughest workload in Ivy League?, College Confidential", accessed: "2026-11-07"}
+  - {url: "https://www.cornellsun.com/article/2026/04/pre-med-culture-at-cornell-overwhelming-or-overstated", title: "Pre-Med Culture at Cornell: Overwhelming or Overstated?, The Cornell Daily Sun, April 21, 2026", accessed: "2026-11-11"}
+  - {url: "https://cornellsun.com/2023/03/19/choung-all-majors-are-hard/", title: "Choung: All majors are hard, The Cornell Daily Sun, March 19, 2023", accessed: "2026-11-11"}
+  - {url: "https://lsc.cornell.edu/help-with-classes/help-with-cornell-courses/", title: "Help with Cornell Courses, Learning Strategies Center, Fall 2026", accessed: "2026-11-11"}
   - {url: "https://classes.cornell.edu/browse/roster/FA26/class/CHEM/2070", title: "CHEM 2070 General Chemistry I, Fall 2026 Class Roster", accessed: "2026-11-07"}
   - {url: "https://faq.enrollment.cornell.edu/kb/article/240-how-are-the-workload-and-stress-levels-at-cornell", title: "How are the workload and stress levels at Cornell?, Cornell Undergraduate Admissions FAQ", accessed: "2026-11-07"}
   - {url: "https://faq.enrollment.cornell.edu/kb/article/311-does-cornell-offer-a-tutoring-center", title: "Does Cornell offer a tutoring center?, Cornell Undergraduate Admissions FAQ", accessed: "2026-11-07"}
 images: []
 ---
 
-Cornell does not publish a list of its hardest classes, and it no longer gives you the data to build one. The Faculty Senate [approved Resolution 193 on Dec. 15, 2023](https://cornellsun.com/2024/02/19/cornell-discontinues-median-grade-visibility-on-transcripts-15-years-after-inception/), and median grades stopped appearing on transcripts for courses taken in Fall 2023 and later. So any ranking you see, including this one, rests on student and faculty reports. The course those reports name most often is CHEM 2070, General Chemistry I. After it, difficulty depends mostly on your major.
+Cornell does not publish a list of its hardest classes, and it no longer gives you the data to build one. The Faculty Senate [approved Resolution 193 on Dec. 15, 2023](https://cornellsun.com/2024/02/19/cornell-discontinues-median-grade-visibility-on-transcripts-15-years-after-inception/), and median grades stopped appearing on transcripts for courses taken in Fall 2023 and later. So any ranking you see, including this one, rests on student and faculty reports. The course those reports name most often is CHEM 2070, General Chemistry I. After it come organic chemistry and biochemistry, and then it depends on your major.
 
-We wanted to rank courses by median grade. That is not possible from public sources, so this page says what is reported, by whom, and when.
+Without medians, this page says what is reported about each course, by whom, and when.
 
 ## Why there is no official ranking
 
@@ -54,13 +56,22 @@ These are opinion columns by students. Treat them as how the course feels, not a
 
 ## Other courses people mention
 
-Evidence thins out here. A [2008 College Confidential thread](https://talk.collegeconfidential.com/t/fact-or-myth-cornell-has-toughest-workload-in-ivy-league/563035) has a poster, Tsenguun, describing a MATH 1910 prelim with a mean around 34 to 36. It is 18 years old, from one poster, and we could not confirm it. The same thread mostly says difficulty depends on major, with one poster naming pre-med and engineering as the heavy loads.
+A [Sun feature on pre-med culture](https://www.cornellsun.com/article/2026/04/pre-med-culture-at-cornell-overwhelming-or-overstated) from April 2026, by Sahil Raut, calls organic chemistry and biochemistry the most notorious pre-med courses, designed so that students second-guess medicine and, under a curve, see classmates as competition. One student he interviewed was milder. Emily Rambo '28 called organic chemistry intense but not a nightmare, and said the hard part of pre-med is the material, not the competition.
 
-We found no sourced, recent evidence for ranking specific physics, math, biology or engineering courses, so we are not ranking them. Check current r/Cornell threads and ask people a year ahead of you in your major.
+Beyond pre-med, Adin Choung, a first-year in the College of Human Ecology, [argued in a 2023 column](https://cornellsun.com/2023/03/19/choung-all-majors-are-hard/) that Cornell is rigorous for every major: good grades come harder in STEM majors, and engineers may find humanities courses the harder ones.
+
+Cornell's own list of lecture courses with a built-in support course comes from the Learning Strategies Center. For Fall 2026 it [pairs a supplemental course](https://lsc.cornell.edu/help-with-classes/help-with-cornell-courses/), taken alongside the lecture, with these:
+
+- Biology: BIOMG 1350 (BIOMG 1035) and BIOG 1440 (BIOG 1044)
+- Chemistry: CHEM 2070 (CHEM 1007) and CHEM 3570 (CHEM 1057); CHEM 2080 and CHEM 3580 have supplements too (CHEM 1008 and CHEM 1058), not offered in fall
+- Math: MATH 1106 (MATH 1006) and MATH 1110 (MATH 1011)
+- Physics: PHYS 1112 (PHYS 1012) and PHYS 2213 (PHYS 1013)
+
+Tutoring covers more courses, including CHEM 2090, CHEM 2510, MATH 1120 and a set of statistics courses, and every LSC resource is free to undergraduates. Ask people a year ahead of you in your major which of these hit hardest.
 
 ## What makes any course hard here: prelims
 
-Sophie Gross, a sophomore columnist, wrote in 2025 that [many Cornell classes have up to four prelims per semester](https://cornellsun.com/2025/02/26/gross-the-problem-with-prelims-how-we-can-turn-a-season-of-stress-into-a-week-of-work), and that a five-class schedule can add up to 12, with prelims clustering into three-prelim weeks. Cornell's own admissions FAQ says the workload is [substantial and expectations are high](https://faq.enrollment.cornell.edu/kb/article/240-how-are-the-workload-and-stress-levels-at-cornell), but calls the environment collaborative, not cutthroat.
+Sophie Gross, a sophomore columnist, wrote in 2025 that [many Cornell classes have up to four prelims per semester](https://cornellsun.com/2025/02/26/gross-the-problem-with-prelims-how-we-can-turn-a-season-of-stress-into-a-week-of-work), and that a five-class schedule can add up to 12, with prelims clustering into three-prelim weeks. Cornell's own admissions FAQ says the workload is [substantial and faculty expectations are high](https://faq.enrollment.cornell.edu/kb/article/240-how-are-the-workload-and-stress-levels-at-cornell), and quotes a student saying the environment is not cutthroat.
 
 On grading, the Sun's [2024 grade inflation story](https://cornellsun.com/2024/01/31/cornellians-express-conflicting-perceptions-of-universitys-grade-inflation/) quotes Ziyaan Lokhandwalla '26, a transfer, saying grading felt harder at Cornell, and Prof. Cole Gilbert (entomology) saying competitive culture keeps students from office hours and tutoring.
 
@@ -69,7 +80,7 @@ On grading, the Sun's [2024 grade inflation story](https://cornellsun.com/2024/0
 Our advice, drawn from the above:
 
 1. **Do not stack hard courses in one semester.** Pair a course with a reputation, such as CHEM 2070, with lighter ones, since prelims cluster.
-2. **Use help early.** The Learning Strategies Center is [the central academic support unit for undergraduates](https://faq.enrollment.cornell.edu/kb/article/311-does-cornell-offer-a-tutoring-center) and logs more than 20,000 visits in a typical year across office hours, tutorials, consultations, workshops and courses.
+2. **Use help early.** The Learning Strategies Center is [the central academic support unit for undergraduates](https://faq.enrollment.cornell.edu/kb/article/311-does-cornell-offer-a-tutoring-center) and logs more than 20,000 visits in a typical year across office hours, tutorials, consultations, workshops and courses. Its supplemental courses are listed above.
 3. **Go to office hours.** Gilbert's point is that students avoid them; that is the cheapest edge available.
 4. **Have a backup if the course is full or you want out.** See our guides to [enrollment strategy](/academics/cornell-course-enrollment-strategy-pre-enroll-tips/) and [waitlists](/academics/how-to-get-into-a-full-class-at-cornell-waitlist/).
 
@@ -77,6 +88,6 @@ Our advice, drawn from the above:
 
 **Can I look up a course's median grade?** Not from transcripts for Fall 2023 onward. Ask instructors, advisors and upperclassmen.
 
-**Is Cornell the hardest Ivy?** The College Confidential thread is split, and its posts date from 2008. The admissions FAQ describes challenging but not cutthroat academics.
+**Which classes are the competitive ones?** A student quoted in Cornell's [admissions FAQ](https://faq.enrollment.cornell.edu/kb/article/240-how-are-the-workload-and-stress-levels-at-cornell) singles out the sciences as the traditionally competitive classes.
 
-**Is the hardest class a weed-out class?** Columnists use that label for CHEM 2070. Cornell's pages do not.
+**Is the hardest class a weed-out class?** Columnists use that label for CHEM 2070. The class roster and the Learning Strategies Center describe it as General Chemistry I with a support course attached.

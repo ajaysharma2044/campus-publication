@@ -5,7 +5,7 @@ primary_query: cornell free tutoring
 topic: academics
 school: cornell-university
 type: decision
-updated: 2026-11-07
+updated: 2026-11-11
 queue_id: q-academics-0012
 sources:
   - {url: "https://lsc.cornell.edu/help-with-classes/help-with-cornell-courses/", title: "Help with Cornell Courses, Learning Strategies Center", accessed: "2026-11-07"}
@@ -17,6 +17,10 @@ sources:
   - {url: "https://elso.as.cornell.edu/elso-tutoring", title: "ELSO Tutoring, Cornell", accessed: "2026-11-07"}
   - {url: "https://cornellsun.com/article/2026/05/cornell-offers-academic-and-wellness-resources-to-students-during-finals-week", title: "Cornell offers academic and wellness resources to students during finals week, The Cornell Daily Sun, May 6, 2026", accessed: "2026-11-07"}
   - {url: "https://www.care.com/private-tutors/ithaca-ny", title: "Private tutors in Ithaca, NY, Care.com", accessed: "2026-11-07"}
+  - {url: "https://sites.google.com/view/cornell-msc/home", title: "Cornell Math Support Center", accessed: "2026-11-11"}
+  - {url: "https://sites.google.com/view/cornell-msc/msc-schedule", title: "MSC Schedule, Cornell Math Support Center", accessed: "2026-11-11"}
+  - {url: "https://www.studentagenciestutoring.com/", title: "Student Agencies Tutoring", accessed: "2026-11-11"}
+  - {url: "https://www.studentagenciestutoring.com/services", title: "Services, Student Agencies Tutoring", accessed: "2026-11-11"}
 images: []
 ---
 
@@ -41,7 +45,6 @@ rows:
 | Any undergrad, LSC-listed course | LSC tutoring | Drop-in, group |
 | Any math course | Math Support Center | Drop-in, student-led |
 | Papers in any subject | Cornell Writing Centers | 60-minute appointments or walk-in |
-| Grad or professional student, writing, presenting, pronunciation | ELSO tutoring | 45-minute appointments |
 | Course on no list | Paid tutor | One-on-one |
 
 ## Learning Strategies Center (all undergraduates)
@@ -76,7 +79,7 @@ Engineering also runs [Academic Excellence Workshops](https://www.duffield.corne
 
 ## Math Support Center
 
-The Math Department describes [free student-led tutoring for all math courses](https://math.cornell.edu/math-support-center-msc) in 256 Malott Hall. Hours are on a schedule linked from that page, and we could not confirm them directly. The Sun's finals piece also lists it as [open to students in any undergraduate math course](https://cornellsun.com/article/2026/05/cornell-offers-academic-and-wellness-resources-to-students-during-finals-week).
+The Math Department describes [free student-led tutoring for all math courses](https://math.cornell.edu/math-support-center-msc) in 256 Malott Hall. It is a drop-in lab open to anyone in an undergraduate math course ([Math Support Center](https://sites.google.com/view/cornell-msc/home)). The tutors are undergraduates who cover Calculus I through multivariable calculus and linear algebra; some also handle differential equations and upper-level courses. Fall 2026 hours are 10 a.m. to 6 p.m. Monday to Thursday, 10 a.m. to 4:30 p.m. Friday and 2 to 4 p.m. Sunday ([MSC schedule](https://sites.google.com/view/cornell-msc/msc-schedule)).
 
 ## Writing help
 
@@ -87,13 +90,13 @@ The Cornell Writing Centers are [free for the whole Cornell community](https://k
 - Fall break (October 8 to 13) and Thanksgiving break (November 20 to 29) have no tutoring
 - Last day of the full schedule is Monday, December 7; limited exam tutoring is December 8 to 11, 3 to 5 pm, in Rockefeller 178 only
 
-Graduate students, professional students and postdocs can also use [ELSO tutoring](https://elso.as.cornell.edu/elso-tutoring) for writing, presentations and pronunciation. Sessions are 45 minutes. The ELSO page does not state a price, so confirm with elso@cornell.edu.
+Graduate students, professional students and postdocs can also use [ELSO tutoring](https://elso.as.cornell.edu/elso-tutoring) for writing, presentations and pronunciation. Sessions are 45 minutes, booked through WC Online up to 7 days ahead, with two appointments a week for writing and presenting and one for pronunciation. Questions go to elso@cornell.edu.
 
 ## Paid tutors in Ithaca
 
 If your course is on no list, or you want one-on-one time, a private tutor is the fallback. [Care.com reports an average posted rate of about $28 an hour](https://www.care.com/private-tutors/ithaca-ny) for private tutors in Ithaca as of November 2026 (its page shows $28.00 in one place and $28.20 in another, and the 16 profiles shown average $25). Rates vary by tutor and subject, so treat it as a starting point and ask for a trial hour.
 
-The Sun's finals piece also lists Student Agencies' Cornell Group Study and Cornell Course Tutoring, described as [an external, student-run nonprofit](https://cornellsun.com/article/2026/05/cornell-offers-academic-and-wellness-resources-to-students-during-finals-week). We found no published price, so ask them.
+Student Agencies Tutoring, a [student-run 501(c)(3) nonprofit managed by Cornell students](https://www.studentagenciestutoring.com/) at 409 College Ave., lists [Cornell Course Tutoring from $35.00 and Cornell Group Study from $200.00](https://www.studentagenciestutoring.com/services). Its consultation is free, takes 15 to 20 minutes and carries no obligation, so ask there for the full rate.
 
 ## Common mistakes
 
@@ -104,10 +107,10 @@ The Sun's finals piece also lists Student Agencies' Cornell Group Study and Corn
 
 ## FAQ
 
-**Is Cornell tutoring really free?** LSC tutoring, Tutors-on-Call, the Math Support Center and the Writing Centers are each described as free on the pages linked above. Engineering workshops are one-credit courses, and their page does not state a cost.
+**Is Cornell tutoring really free?** LSC tutoring, Tutors-on-Call, the Math Support Center and the Writing Centers are each described as free on the pages linked above. Engineering workshops are one-credit courses you enroll in like any class.
 
-**How many hours can I get?** Engineering caps Tutors-on-Call at two hours a week. The Writing Centers allow two appointments a week. The LSC page states no limit.
+**How many hours can I get?** Engineering caps Tutors-on-Call at two hours a week. The Writing Centers allow two appointments a week, ELSO two for writing and presenting and one for pronunciation. LSC tutoring and the Math Support Center are drop-in.
 
-**Can I get tutoring in the evening?** The Writing Centers run Sunday to Thursday evenings. For LSC and Math Support Center times, check their posted schedules.
+**Can I get tutoring in the evening?** The Writing Centers run Sunday to Thursday evenings. The Math Support Center closes by 6 p.m. on every day it opens, so treat it as a daytime option. LSC times are in the spreadsheet linked from its course list.
 
 **Who do I contact if I am unsure?** The LSC's address is learningstrategiescenter@cornell.edu, and it can point you to the right office.

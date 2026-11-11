@@ -19,7 +19,8 @@ readers:
 - low-budget
 - parent
 subject: Morrison Dining Hall, Cornell University
-tools: []
+tools:
+- cornell-meal-plan-calculator-by-meals-a-week
 sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates
   title: 'Cornell Dining: Meal plans and rates, 2026-27 dining room prices'
@@ -108,7 +109,7 @@ rows:
   - {label: "Bear Basic (cap 7)", value: "7.33 meals a week, above its cap"}
 ```
 
-Read the figure against the caps. Bear Traditional wins if you eat 12 or more meals a week. Bear Choice wins if you eat 10 every week. Bear Basic cannot break even, though it is the cheapest way to buy the swipes you will realistically use. Unlimited needs more than 12 meals a week, and its 8 guest meals are worth up to $150.80 per semester at the BRB dinner price. That bonus is not in the break-even. The break-even uses the [BRB price list](https://scl.cornell.edu/residential-life/dining/meal-plans-rates).
+Read the figure against the caps. Bear Traditional beats paying per meal if you eat 12 or more meals a week. Bear Choice does if you eat 10 every week. Bear Basic cannot break even, though it is the cheapest way to buy the swipes you will realistically use. Unlimited needs more than 12 meals a week, and its 8 guest meals are worth up to $150.80 per semester at the BRB dinner price. That bonus is not in the break-even. The break-even uses the [BRB price list](https://scl.cornell.edu/residential-life/dining/meal-plans-rates).
 
 ## What do the numbers miss?
 
@@ -122,6 +123,10 @@ Breaks also cost you. The plan does not cover winter intersession, and Cornell D
 
 ## Which plan is right for my situation?
 
+The calculator prices every plan you may buy against your own weekly meal count, cheapest first.
+
+```tool cornell-meal-plan-calculator-by-meals-a-week```
+
 ```reader
 If you're a first-year
 You do not choose. Unlimited is required, and first-years cannot reduce or cancel ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). Cornell says financial aid fully covers the plan for eligible students. Use the guest meals and spend the BRBs. If money is tight, read [first-gen and low-income hidden costs](/cornell/money/cornell-first-gen-low-income-hidden-costs/) for what aid does not cover.
@@ -134,15 +139,19 @@ The House Meal Plan is required and cannot be canceled while you live there ([Co
 
 ```reader
 If you're a transfer student or live on campus as a junior
-You can reduce from Unlimited to Bear Traditional, and nothing else, by the published deadline. The fall deadline of Sept. 9, 2026, has passed. The spring deadline is Feb. 3, 2027, and the move saves $548 a year ($7,604 minus $7,056). Reducing makes sense if you rarely eat 12 or more meals a week. After the deadline you can upgrade but not reduce.
+You can reduce from Unlimited to Bear Traditional, and nothing else, by the published deadline. The fall deadline of Sept. 9, 2026, has passed. The spring deadline is Feb. 3, 2027, and the move saves $548 a year ($7,604 minus $7,056). Reducing makes sense if you eat 14 or fewer meals a week, for the reason below. After the deadline you can upgrade but not reduce.
 ```
+
+Choose Bear Traditional if you eat 14 or fewer dining-room meals a week, and Unlimited at 15 or more. The two plans carry the same $400 in BRBs, so the gap is the $274 price difference per semester. A 15th meal each week, paid in BRBs, costs $274.68 a semester at the $15.26 average meal price above. That is where the two plans break even ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 ```reader
 If you live off campus
 Bear Choice and Bear Basic are open to every off-campus student, and the debit plans are for students with no other plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). Off-Campus Value costs $912.30 per semester for 45 meals and $150 in BRBs, which is $17.50 a swipe at full use. Flex 10/500 costs $674 for 10 meals and $500 in BRBs, or $19.90 a swipe. Just Bucks is $500 of BRBs with no meals. Compare them with cooking in [meal plans for off-campus students](/cornell/money/cornell-off-campus-meal-plan-or-cook-yourself-cost/), and add rent from [is off campus cheaper than a Cornell dorm](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/).
 ```
 
-If you pay a student's bills, a plan is the biggest dining line. See [how much spending money to give a Cornell student](/cornell/money/cornell-parent-how-much-spending-money-should-i-give-my/) for what to add on top.
+```reader "If you're a parent"
+The plan becomes binding when your student signs the Dining Application. It is billed to the Bursar account in two parts, in July and January. You can add BRBs yourself at get.cbord.com/cornell, but they are not refundable, so add only what your student will spend. For the rest of a monthly allowance, see [how much spending money to give a Cornell student](/cornell/money/cornell-parent-how-much-spending-money-should-i-give-my/) and the [parent start page](/start/parent/).
+```
 
 ## What mistakes cost the most?
 

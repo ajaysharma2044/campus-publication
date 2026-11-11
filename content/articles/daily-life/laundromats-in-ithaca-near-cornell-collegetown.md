@@ -7,7 +7,7 @@ primary_query: laundromat near Cornell Collegetown Ithaca
 topic: daily-life
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 260
 rewrites: ''
 readers:
@@ -122,9 +122,9 @@ Ride TCAT in the evening or on a weekend, when it costs nothing. Cornell student
 
 The full route list, hours and holiday notes are in the [TCAT guide](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/). A laundry run is a good fit for the free hours: load a bag after dinner, ride, wash and ride back.
 
-## Where are the laundromats and what do they charge?
+## How do I find a coin laundry?
 
-Cornell and the city publish no list of coin laundries near campus, and the sources behind this guide give no addresses, hours or per-load prices for them. To find one, search "laundromat" on a map app from your street address and sort by distance. Then call before you carry a bag across town: ask the closing time, whether the machines take cards or coins, and the price of a large washer. Your landlord or a housemate who has lived there a year can often name the closest one.
+Search "laundromat" on a map app from your street address and sort by distance. Call before you carry a bag across town: ask the closing time, whether the machines take cards or coins, and the price of a large washer. Your landlord or a housemate who has lived there a year can often name the closest one.
 
 ## What to do next
 

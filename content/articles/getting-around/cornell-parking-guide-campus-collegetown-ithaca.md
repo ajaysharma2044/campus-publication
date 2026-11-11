@@ -8,12 +8,13 @@ primary_query: cornell parking
 topic: getting-around
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 12
 rewrites: ''
 readers:
 - car-on-campus
 - first-year
+- transfer-spring
 - off-campus
 - grad-student
 - parent
@@ -29,6 +30,9 @@ sources:
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
   title: Parking for Students, Cornell Transportation and Delivery Services
   accessed: '2026-11-10'
+- url: https://fcs.cornell.edu/node/17809
+  title: 2026-27 parking permit sales, Cornell Facilities and Campus Services
+  accessed: '2026-11-08'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus
   title: Parking on Campus, Cornell Transportation and Delivery Services
   accessed: '2026-11-10'
@@ -257,7 +261,7 @@ Cornell discourages first-years from bringing a car, but it does not ban them, a
 
 ## August: the permit sale and move-in
 
-Permits go on sale once a year, first come, first served. Sales run at myparking.cornell.edu, and annual permits are valid through Aug. 15 ([Cornell parking permits](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). Cornell has not posted the 2027-28 sale date, so watch Cornell's announcements in July.
+Permits go on sale once a year, first come, first served. Sales run at myparking.cornell.edu, and annual permits are valid through Aug. 15 ([Cornell parking permits](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). The 2026-27 sale opened on Tuesday, Aug. 4, 2026, at 9 a.m., for permits valid from Aug. 16, 2026 ([Cornell permit sale notice](https://fcs.cornell.edu/node/17809)). Cornell has not posted the 2027-28 sale date, so watch Cornell's announcements in July.
 
 That end date grew out of a 2023 crunch. That year, old permits ran to Aug. 31 while new ones went on sale in early August. For a few weeks more permits were out than there were spaces. Brady told the Sun the crowding at Williams Street came from holders of old permits still parking there. She said a move to virtual permits, which use your license plate instead of a hangtag, would end the overlap (Cornell Daily Sun). Annual permits now end Aug. 15, the day before the new ones start (Cornell parking permits).
 
@@ -276,6 +280,10 @@ rows:
 ```
 
 Move-in is its own small parking system. On North Campus, the move-in timeslot you pick is for arrival and check-in only, not unloading. You print a Move-In Ticket from the Housing and Dining Portal after Aug. 1, and it names where you park. After you unload, you get 3 hours of short-term parking in that area ([North Campus move-in](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)). Each area has its own unloading zones, all covered in the [move-in day parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/).
+
+```reader "If you're a transfer or arriving in January"
+A permit bought after the August sale, while supply lasts, is prorated daily, from Sept. 1 for resident permits and from Aug. 16 for commuter permits ([Cornell parking permits](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). A January arrival lands inside both winter seasons: Cornell's overnight rule, Dec. 1 to April 1, and the city's odd/even street rule, Nov. 1 to April 1. Register your plate before you drive up, buy the permit for your housing area, and park overnight only in your own lot or a listed winter bay. A permit bought in January can still be returned by March 31 for a prorated refund. Overnight parking outside the bays when snow is forecast costs a $50 winter-rules fine ([Cornell Daily Sun, 2023](https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/)).
+```
 
 <!-- ad-break -->
 
@@ -501,6 +509,7 @@ For more on keeping a car through the year, see the [car-on-campus starting page
 
 - [Williams Street Parking Lot Struggles to Accommodate Students](https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students), The Cornell Daily Sun, Sept. 7, 2023
 - [Parking for Students](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students), Cornell Transportation and Delivery Services
+- [2026-27 parking permit sales](https://fcs.cornell.edu/node/17809), Cornell Facilities and Campus Services
 - [Parking on Campus](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus), Cornell Transportation and Delivery Services
 - [Short-Term Parking Options](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options), Cornell Transportation and Delivery Services
 - [Cornell University Short-Term Parking Options map](https://fcs.cornell.edu/sites/default/files/2026-08/ParkmobileMap26.pdf), Cornell Transportation, August 2026

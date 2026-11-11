@@ -5,7 +5,7 @@ primary_query: cornell course enrollment strategy pre-enroll tips
 topic: academics
 school: cornell-university
 type: checklist
-updated: 2026-11-07
+updated: 2026-11-11
 queue_id: q-academics-0002
 sources:
   - {url: "https://registrar.cornell.edu/calendars-exams/academic-calendar", title: "Academic Calendar, Cornell University Registrar", accessed: "2026-11-07"}
@@ -14,7 +14,9 @@ sources:
   - {url: "https://registrar.cornell.edu/students/enrollment/common-enrollment-questions", title: "Common Enrollment Questions, Cornell University Registrar", accessed: "2026-11-07"}
   - {url: "https://registrar.cornell.edu/students/enrollment/common-enrollment-errors", title: "Common Enrollment Errors, Cornell University Registrar", accessed: "2026-11-07"}
   - {url: "https://as.cornell.edu/index%2Ephp/registrar/policies", title: "Registrar policies, College of Arts and Sciences", accessed: "2026-11-07"}
-  - {url: "https://cals.cornell.edu/undergraduate-students/cals-student-services/academic-resources/enrollment", title: "Enrollment, CALS Student Services", accessed: "2026-11-07"}
+  - {url: "https://cals.cornell.edu/undergraduate-students/cals-student-services/academic-resources/enrollment", title: "Enrollment, CALS Student Services", accessed: "2026-11-11"}
+  - {url: "https://www.math.cornell.edu/enrollment-guide", title: "Enrollment Guide, Department of Mathematics, Cornell University", accessed: "2026-11-11"}
+  - {url: "https://bowers.cornell.edu/offices/registrar", title: "Registrar, Cornell Bowers College of Computing and Information Science", accessed: "2026-11-11"}
   - {url: "https://www.duffield.cornell.edu/registrar/", title: "Registrar, Duffield Engineering", accessed: "2026-11-07"}
   - {url: "https://www.ilr.cornell.edu/current-students/undergraduate-academic-policies/18-credits-semester", title: "18 credits per semester, ILR School", accessed: "2026-11-07"}
   - {url: "https://cornellsun.com/2022/03/17/college-of-engineering-reduces-credit-limit-citing-mental-health-concerns/", title: "College of Engineering reduces credit limit, The Cornell Daily Sun, March 17, 2022", accessed: "2026-11-07"}
@@ -22,7 +24,7 @@ sources:
 images: []
 ---
 
-Build your schedule in the Student Center shopping cart before your appointment, enroll in the first minutes of your window, and keep backups. If a popular class is full, do not panic: the best-known student advice is to wait for add/drop, when seats often open. For spring 2027, [pre-enrollment runs November 10 to 20, 2026](https://registrar.cornell.edu/calendars-exams/academic-calendar), in order of class year, with graduate students first, then seniors, juniors, sophomores and first-years. If you are reading this on November 7, you have days, not weeks.
+Build your schedule in the Student Center shopping cart before your appointment, enroll in the first minutes of your window, and keep backups. If a popular class is full, try again at add/drop, when dropped seats reopen. For spring 2027, [pre-enrollment runs November 10 to 20, 2026](https://registrar.cornell.edu/calendars-exams/academic-calendar), by class year, with graduate students first and first-years last.
 
 ## Spring 2027 timeline by class year
 
@@ -43,7 +45,7 @@ rows:
   - {label: "Last day to drop or change grading basis (regular sessions)", date: "Mar 22, 2027"}
 ```
 
-Per the [academic calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar), seniors and Vet Med fourth-years go November 11 to 13, juniors and Vet Med third-years November 16 to 18, sophomores and Vet Med second-years November 17 to 19, and first-years and Vet Med first-years November 18 to 20. Graduate, professional and Cornell Tech students go November 10 to 12. Add/drop then opens January 19 for graduate students and seniors, January 20 for juniors, January 21 for sophomores and January 22 for first-years. The add deadline for regular sessions is February 8, and the drop and grading basis deadline is March 22. The same calendar lists seven-week and project sessions with their own dates.
+Per the [academic calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar), seniors and Vet Med fourth-years go November 11 to 13, juniors and Vet Med third-years November 16 to 18, sophomores and Vet Med second-years November 17 to 19, and first-years and Vet Med first-years November 18 to 20. Add/drop then opens January 19 for graduate students and seniors, January 20 for juniors, January 21 for sophomores and January 22 for first-years. The add deadline for regular sessions is February 8, and the drop and grading basis deadline is March 22. The same calendar lists seven-week and project sessions with their own dates.
 
 The registrar says continuing students pre-enroll [for fall in late April and for spring in late November](https://registrar.cornell.edu/students/enrollment). Dates change each year, so check the calendar every term.
 
@@ -79,26 +81,30 @@ Engineering's cap was [lowered from 23 to 20 starting fall 2022](https://cornell
 
 ## Restricted seats, waitlists and full classes
 
-All courses have enrollment caps, and [faculty or departments may enforce specific restrictions](https://registrar.cornell.edu/students/enrollment/a-guide-to-enrollment). The error for a restricted seat reads ["Available seats are reserved. You do not meet the enrollment group criteria to enroll in this class at this time"](https://registrar.cornell.edu/students/enrollment/common-enrollment-errors). The page gives no direct fix, so ask the department whether seats open later.
+All courses have enrollment caps, and [faculty or departments can add their own restrictions](https://registrar.cornell.edu/students/enrollment/a-guide-to-enrollment). The error for a restricted seat reads ["Available seats are reserved. You do not meet the enrollment group criteria to enroll in this class at this time"](https://registrar.cornell.edu/students/enrollment/common-enrollment-errors). It means [the class has a reserve cap for a certain group of students, for example Arts and Sciences juniors](https://registrar.cornell.edu/students/enrollment/common-enrollment-errors), and Student Center will not let you in until you meet it. CALS explains that [instructors reserve seats by class year or major, and some hold them through pre-enroll and open them in the regular enrollment period](https://cals.cornell.edu/undergraduate-students/cals-student-services/academic-resources/enrollment), so try the class again when add/drop opens. For questions about one class, the registrar [points you to the offering department's coordinator](https://registrar.cornell.edu/students/enrollment).
 
 Only [a limited number of classes have online waitlists](https://registrar.cornell.edu/students/enrollment/a-guide-to-enrollment). Open the section details: [under Class Availability, a wait list capacity of 0 means there is no wait list](https://registrar.cornell.edu/students/enrollment/a-guide-to-enrollment). If one exists, the registrar's FAQ describes a ["Wait list if class is full" checkbox](https://registrar.cornell.edu/students/enrollment/common-enrollment-questions) next to the wait list option. To leave it, [drop the class](https://registrar.cornell.edu/students/enrollment/common-enrollment-questions). For the full rules, see [how to get into a full Cornell class](/academics/how-to-get-into-a-full-class-at-cornell-waitlist/).
 
 ## When to wait for add/drop
 
-Katherine Yao, a junior in Arts and Sciences when [writing in The Cornell Daily Sun in November 2021](https://cornellsun.com/2021/11/14/yao-the-best-way-to-pre-enroll-is-waiting-until-add-drop/), said large classes such as CS 1110 and MATH 1110 were ones she predicted would open up during add/drop, so first-years and sophomores can wait for spots. The column also points to Coursegrab for seat alerts and says schedules shift during the semester anyway. It is one student's view from 2021, so check how your class behaved in past terms. Our advice:
+Katherine Yao, a junior in Arts and Sciences when [writing in The Cornell Daily Sun in November 2021](https://cornellsun.com/2021/11/14/yao-the-best-way-to-pre-enroll-is-waiting-until-add-drop/), said large classes such as CS 1110 and MATH 1110 were ones she predicted would open up during add/drop, so first-years and sophomores can wait for spots. The column also points to Coursegrab for seat alerts and says schedules shift during the semester anyway. The departments behind both classes now say much the same.
+
+The Math department's [enrollment guide for spring 2027](https://www.math.cornell.edu/enrollment-guide) says large courses, MATH 1110 among them, can reach capacity during pre-enrollment or the add period, especially on the first day first-years or sophomores enroll. A student who is unsuccessful during pre-enrollment should try again when the add period starts in January: more space will be added so students can self-enroll in Student Center, and sections open and close several times a day because of adds, drops and section changes. The department keeps no waiting lists for individual sections.
+
+For CS 1110, the rule is on the [Bowers registrar page](https://bowers.cornell.edu/offices/registrar): 1000- to 3000-level CS courses are open enrollment, first-come, first-served, except CS 3700 and CS 3780. Most other Bowers courses are reserved for majors during pre-enrollment. Non-majors join the course waitlist in Student Center once add/drop opens, and the office starts sending permission numbers at the end of the first week of add/drop, then every other day as space allows until the end of the add period. Our advice:
 
 - Enroll in required, small or restricted classes at your first opportunity.
 - For large intro courses with several sections, take any decent section and swap later.
 - If you are a first-year or sophomore with a thin schedule, pre-enroll in what you can, then check Student Center regularly once add/drop opens. Remember your window: the first-year start is the last of the four.
 - Do not hold a seat you will not use. Drop it before the deadline.
 
-We could not open the registrar's gateway-course page when we checked on November 7, 2026, so this section rests on the 2021 column plus the [add/drop dates](https://registrar.cornell.edu/calendars-exams/academic-calendar) above. Departments also set their own rules, so check your department's enrollment page. See also the add/drop deadline and when a W shows up.
+Other departments publish their own enrollment rules, so read your department's page before you decide to wait.
 
 ## Common mistakes
 
 - Treating the shopping cart as a reservation. It is not one.
 - Using two devices and getting stuck in "pending".
-- Skipping backups for a class that might be restricted.
+- Skipping backups for a restricted class.
 - Missing the add deadline: after it passes, [contact your college or school registrar](https://registrar.cornell.edu/students/enrollment/common-enrollment-questions).
 
 ## FAQ

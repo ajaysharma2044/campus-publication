@@ -113,4 +113,4 @@ A closure means classes are canceled, not that your street is plowed. The city p
 
 ## What to do next
 
-Bookmark the [Cornell emergency page](https://emergency.cornell.edu/?p=5006) and save its phone line, 607-255-3377.
+Bookmark the [Cornell emergency page](https://emergency.cornell.edu/?p=5006) and save its phone line, 607-255-3377. The rest of the season, with every rule, date and cost in one read, is in our [complete guide to surviving an Ithaca winter](/cornell/daily-life/ithaca-winter-survival-guide-cornell/).

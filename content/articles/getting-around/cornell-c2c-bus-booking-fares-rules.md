@@ -5,7 +5,7 @@ primary_query: Cornell Campus to Campus bus who can ride students tickets
 topic: getting-around
 school: cornell-university
 type: how-to
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0028
 kind: spoke
 readers:
@@ -22,13 +22,13 @@ tools:
 sources:
 - url: https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4
   title: New Campus-to-Campus Reservation System Launches November 4, Cornell Facilities and Campus Services
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service
   title: Campus-to-Campus Bus Service, Cornell Transportation and Delivery Services
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates
   title: C2C Rates, Cornell Transportation and Delivery Services
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations
   title: C2C Policies and Regulations, Cornell Transportation and Delivery Services
   accessed: '2026-11-08'
@@ -43,7 +43,7 @@ sources:
   accessed: '2026-11-08'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule
   title: C2C Departure Schedule, Cornell Transportation and Delivery Services
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule-stop-locations
   title: C2C Departure Schedule and Stop Locations, Cornell Transportation and Delivery Services
   accessed: '2026-11-08'
@@ -61,7 +61,7 @@ sources:
   accessed: '2026-11-08'
 - url: https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting
   title: Bus Commuting, Cornell Sustainable Campus
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://news.cornell.edu/node/269896
   title: Campus-to-Campus bus adds trips (January 4, 2011), Cornell Chronicle
   accessed: '2026-11-08'
@@ -145,7 +145,7 @@ Cornell started the service in 2004. It runs [seven days a week year-round excep
 | Child under 2 on a lap | Free | Free |
 | Child 2 and older | Full fare | Full fare |
 
-All three fares on the [rates page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates) already include a temporary $6 fuel and toll surcharge per one-way ticket, with no end date posted. A round trip is exactly two one-way fares, so there is no round-trip discount. C2C runs only between Ithaca and New York City: the rates page lists no Boston or Philadelphia route.
+All three fares on the [rates page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates) already include a temporary $6 fuel and toll surcharge on each one-way fare. A round trip is exactly two one-way fares, so there is no round-trip discount. C2C runs one route, [between New York City and the Ithaca campus](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting).
 
 C2C is not the cheapest way to Manhattan. Commercial buses advertise far lower floor fares; our [NYC to Cornell bus guide](/getting-around/nyc-to-cornell-bus-c2c-ourbus-flixbus-greyhound/) compares them side by side. You pay for an East Side drop, two checked suitcases and a Cornell-run coach.
 
@@ -169,7 +169,7 @@ rows:
 1. **Make a new account.** [Everyone, including past riders, needs a new account](https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4) in the system that went live on Nov 4, 2026. It works in a browser; there is no app. Schedules, rates, stops and fee rules did not change with the switch.
 2. **Pick the right link.** The [C2C page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service) has two. "2026 Travel Reservations" covers departures through Dec 23, 2026, plus changes to bookings you already have. "2027 Travel Reservations" covers departures from Jan 6, 2027. No departures are listed between Dec 24 and Jan 5.
 3. **Choose the trip and seats.** The new system adds seat selection and several passengers on one reservation.
-4. **Check the day's times.** Read the [departure schedule](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule) for your exact date. Not every time slot runs every day.
+4. **Check the day's times.** Departures differ by weekday; the table under "Where it stops and when" has them. Confirm your exact date on the [departure schedule](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule).
 5. **Arrange extras early.** Email c2cbus@cornell.edu for free B Lot parking. Call 607-254-8747 ten business days ahead for wheelchair access.
 
 ```figure
@@ -192,15 +192,25 @@ Questions go to [c2cbus@cornell.edu or the help portal at tdx.cornell.edu](https
 | Sage Hall, Ithaca | 114 Feeney Way, TCAT shelter near East Ave and Campus Rd, across from Statler Hall | About 15 minutes after North Campus |
 | B Lot, Ithaca | 930 Campus Road, shelter on the southeast side of B Lot | About 30 minutes after North Campus |
 | Weill Cornell, NYC | 1300 York Ave, main entrance across from 69th St; wait in the lobby | First NYC pickup |
-| Cornell Club, NYC | 6 East 44th St between Fifth and Madison | Last NYC pickup |
+| Cornell Club, NYC | 6 East 44th St between Fifth and Madison | About 45 minutes after Weill |
 
 Addresses are from the [stop locations page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule-stop-locations). The Cornell Club pickup has moved for construction: as of Nov 8, 2026 the [booking site said loading is on Fifth Ave between 43rd and 44th St "until further notice"](https://c2cbus.ipp.cornell.edu/Start.aspx).
 
 The Aug 1, 2026 update [dropped the NYC F Train stop at 64th St and 3rd Ave](https://fcs.cornell.edu/node/17782) and adjusted times. Some older Cornell pages still list it.
 
-The [schedule page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule) shows North Campus departure slots at 5:30, 7:30, 9:30 and 11:30 a.m. and 5:30 p.m. Weill slots run from 5:45 a.m. to 5:45 p.m. every two hours, and Cornell Club slots from 6:30 a.m. to 6:30 p.m. The ride takes about 4.5 to 5 hours from the last pickup.
+Departures differ by weekday. The [schedule page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule), read on Nov 11, 2026, lists these times for the first pickup in each direction; the later stops follow at the intervals in the table above.
 
-Not confirmed: which slots run on which weekday. Check the live table for your date.
+| Day | Leaves North Campus for NYC | Leaves Weill Cornell for Ithaca |
+|---|---|---|
+| Sunday | 7:30 a.m., 11:30 a.m., 5:30 p.m. | 9:45 a.m., 1:45 p.m., 5:45 p.m. |
+| Monday | 5:30 a.m., 11:30 a.m. | 5:45 a.m., 11:45 a.m., 5:45 p.m. |
+| Tuesday | 11:30 a.m., 5:30 p.m. | 11:45 a.m., 5:45 p.m. |
+| Wednesday | 11:30 a.m., 5:30 p.m. | 11:45 a.m., 5:45 p.m. |
+| Thursday | 5:30 a.m., 11:30 a.m., 5:30 p.m. | 11:45 a.m., 5:45 p.m. |
+| Friday | 5:30 a.m., 11:30 a.m., 5:30 p.m. | 7:45 a.m., 11:45 a.m., 5:45 p.m. |
+| Saturday | 9:30 a.m. | 3:45 p.m. |
+
+That is 16 buses a week each way: two or three a day from Sunday to Friday and one on Saturday. The ride takes about 4.5 to 5 hours from the last pickup, and [stops, routes and trip length can change for special events or road closures](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule).
 
 ## Bags, kids, pets and ID
 

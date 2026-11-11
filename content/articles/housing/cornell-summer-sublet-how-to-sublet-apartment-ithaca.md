@@ -1,13 +1,13 @@
 ---
-title: How to Sublet Your Cornell Apartment for Summer
+title: 'How to Sublet an Ithaca Apartment: Cornell Landlord Consent'
 mode: answer
-dek: To sublet in Ithaca you need your landlord's written consent, and New York law limits when a landlord can say no.
-meta: 'How to sublet your Ithaca apartment for summer: the landlord consent rule, the certified-mail request, the two clocks, fees and where to list.'
+dek: To sublet your Ithaca room for a summer, a semester abroad or a co-op term, you need your landlord's written consent, and New York law limits when a landlord can say no.
+meta: 'How to sublet your Ithaca apartment for a summer or a semester abroad: landlord consent, the certified-mail request, the two clocks, fees and where to list.'
 primary_query: how to sublet my apartment for the summer Ithaca Cornell
 topic: housing
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 queue_id: q-housing-0082
 idea_id: 218
 rewrites: content/articles/housing/cornell-summer-sublet-how-to-sublet-apartment-ithaca.md
@@ -69,6 +69,12 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
+- url: https://abroad.globallearning.cornell.edu/apply/deadlines
+  title: Application deadlines, Cornell Education Abroad
+  accessed: '2026-11-10'
+- url: https://ithacarenting.com/downtown/
+  title: Downtown apartments, Ithaca Renting
+  accessed: '2026-11-10'
 images:
 - file: 1.webp
   alt: Collegetown Wine & Spririts, Ithaca New York
@@ -90,7 +96,9 @@ kind: rewrite
 - You stay liable for the subtenant's rent and damage. Only an assignment ends that.
 ```
 
-You need your landlord's written consent to sublet. In a building with four or more units, New York law says the landlord [cannot unreasonably withhold it](https://www.nysenate.gov/legislation/laws/RPP/226-B), and silence for a month after your request counts as a yes. In a smaller house, your lease decides.
+To sublet out your Ithaca room for a summer, a semester abroad or a co-op term, you need your landlord's written consent. In a building with four or more units, New York law says the landlord [cannot unreasonably withhold it](https://www.nysenate.gov/legislation/laws/RPP/226-B), and silence for a month after your request counts as a yes. In a smaller house, your lease decides.
+
+If you need a place for the summer rather than a tenant, read [finding a summer sublet in Ithaca](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/). The [full guide to subletting in Ithaca](/cornell/housing/subletting-in-ithaca-guide-cornell-students/) covers both sides of the market.
 
 ## Does your landlord have to agree?
 
@@ -107,6 +115,8 @@ Source note: [RPL 226-b](https://www.nysenate.gov/legislation/laws/RPP/226-B) an
 A common belief is that a landlord can always say no. In a building of four or more units, that is wrong. You still have to ask in writing. The right limits how a landlord can refuse. It does not let you skip the request. The [legal explainer](/cornell/housing/can-landlord-refuse-sublet-new-york-ithaca/) covers what counts as an unreasonable refusal.
 
 Cornell's lease checklist lists the [ability to sublet and its conditions](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) as terms to read before you sign. Off-Campus Living answers lease questions at 607-255-2310.
+
+Landlord policies add conditions of their own. Ithaca Renting's Collegetown sublets must be [registered and approved, go to Cornell students only, and run one per term](https://ithacarenting.com/collegetown/), with no Airbnb and no stays under a month. Its [downtown policy](https://ithacarenting.com/downtown/) sets a two-month minimum, requires every named tenant to agree, and says a sublet does not relieve you of lease obligations.
 
 ## Should you sublet or assign your lease?
 
@@ -175,7 +185,7 @@ Say a junior leaving for a spring semester abroad mails the request on Oct. 1. T
 The statute does not list reasons a landlord may give for refusing. If you get a refusal, call the Cornell Law Tenants Advocacy hotline at [607-301-1560](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease) before you sublet anyway.
 
 ```reader "If you're going abroad or away for a semester"
-Mail the request two to three months before you leave, so both clocks run out while you are still in Ithaca. Put your address abroad in the letter, because the statute asks where you will live during the sublet. Get housemates' written consent first. If no subtenant turns up, your share is still due. A five-month semester at the [Collegetown 4-bedroom median of $1,246.25 per bed for 2027-28](https://ithacarenting.com/collegetown/) is $6,231.25 (5 months at that rate), and your housemates are jointly liable for it.
+Start looking for a subtenant as soon as Education Abroad accepts you. First-round decisions come Jan. 29 for fall 2027 and the full 2027-28 year, and July 13 for spring 2028 ([Cornell Education Abroad](https://abroad.globallearning.cornell.edu/apply/deadlines)). Mail the request two to three months before you leave, so both clocks run out while you are still in Ithaca. Put your address abroad in the letter, because the statute asks where you will live during the sublet. Get housemates' written consent first. If no subtenant turns up, your share is still due. A five-month semester at the [Collegetown 4-bedroom median of $1,246.25 per bed for 2027-28](https://ithacarenting.com/collegetown/) is $6,231.25 (5 months at that rate), and your housemates are jointly liable for it.
 ```
 
 ```reader "If you're a senior whose lease runs past graduation"
@@ -188,9 +198,9 @@ In a building of four or more units you can ask for more information in the firs
 
 ## What does it cost to sublet?
 
-A landlord can charge a sublet fee [only if the lease allows it, and it must be reasonable](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease). A background or credit check on the subtenant is allowed. State law caps that check at the [lesser of $20 or actual cost](https://www.nysenate.gov/legislation/laws/RPP/238-A), and the landlord must waive it if the applicant brings a check from the past 30 days.
+A landlord can charge a sublet fee [only if the lease allows it, and it must be reasonable](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease). Ithaca Renting lists its [Collegetown sublet fee as $15 on one line and a $20 fee elsewhere on the same page](https://ithacarenting.com/collegetown/), so ask in writing which fee applies before you pay. A background or credit check on the subtenant is allowed. State law caps that check at the [lesser of $20 or actual cost](https://www.nysenate.gov/legislation/laws/RPP/238-A), and the landlord must waive it if the applicant brings a check from the past 30 days.
 
-Listing is free. Sublets were [free to list on Cornell's service in 2019](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/), when landlords paid $30. The Graduate School calls the marketplace [free to anyone with Cornell credentials](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/). No Ithaca landlord publishes a standard sublet fee or a typical summer sublet rent, so ask your landlord for the fee in writing and compare asking prices on the listing sites.
+Listing is free. Sublets were [free to list on Cornell's service in 2019](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/), when landlords paid $30. The Graduate School calls the marketplace [free to anyone with Cornell credentials](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/). To price the sublet itself, compare asking prices on the listing sites.
 
 ## Where can you list a sublet?
 

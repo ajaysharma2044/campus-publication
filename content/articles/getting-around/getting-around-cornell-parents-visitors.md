@@ -26,10 +26,7 @@ sources:
   accessed: '2026-11-08'
 - url: https://flyithaca.com/taxis
   title: Taxis, Ithaca Tompkins International Airport
-  accessed: '2026-11-08'
-- url: https://flyithaca.com/?p=13
-  title: Ground transportation (older page), Ithaca Tompkins International Airport
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.downtownithaca.com/getting-around-visit/
   title: Getting Around, Downtown Ithaca Alliance
   accessed: '2026-11-08'
@@ -41,12 +38,6 @@ sources:
   accessed: '2026-11-08'
 - url: https://www.airport.guide/kelm/ny/tompkins-co/ithaca
   title: Elmira Corning Regional Airport to Ithaca, airport.guide
-  accessed: '2026-11-08'
-- url: https://talk.collegeconfidential.com/t/traveling-to-and-from-cornell/1599797
-  title: Traveling to and from Cornell, College Confidential (2014)
-  accessed: '2026-11-08'
-- url: https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899
-  title: Air transportation to and from Ithaca, College Confidential (2017)
   accessed: '2026-11-08'
 - url: https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4
   title: New Campus-to-Campus Reservation System Launches November 4, Cornell FCS
@@ -104,7 +95,7 @@ sources:
   accessed: '2026-11-08'
 - url: https://registrar.cornell.edu/calendars-exams/academic-calendar
   title: Academic Calendar 2026-27, Cornell University Registrar
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://alumni.cornell.edu/come-back/reunion/
   title: Reunion, Cornell Alumni Affairs
   accessed: '2026-11-08'
@@ -116,7 +107,22 @@ sources:
   accessed: '2026-11-08'
 - url: https://www.flyithaca.com/news/traveling-to-and-from-ith
   title: Traveling to and from ITH, Ithaca Tompkins International Airport
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
+- url: https://flyithaca.com/car-rentals
+  title: Car Rentals, Ithaca Tompkins International Airport
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/families/family-events/family-weekend
+  title: Family Weekend, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/families/family-events/family-weekend/family-weekend-faq
+  title: Family Weekend FAQ, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://ridectran.com/en/fares
+  title: Fares, C TRAN (Chemung County Transit)
+  accessed: '2026-11-11'
+- url: https://www.chemungcountyny.gov/850/Elmira-Corning-Regional-Airport
+  title: Elmira Corning Regional Airport, Chemung County
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Black and white photo of a car parked on a country road beneath a tall wooden railroad trestle
@@ -149,9 +155,7 @@ Take the C2C if you want a Cornell-run coach that drops you on campus. One reser
 ```
 
 ```reader "If you're visiting for Family Weekend or Commencement"
-Book the room the day you know the date. Cornell's families page says hotels [often sell out](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation) for both weekends. Commencement weekend 2027 is [May 28 to 30](https://registrar.cornell.edu/calendars-exams/academic-calendar). Visit Ithaca says a car is [not necessary for a family weekend](https://www.visitithaca.com/blog/post/your-guide-to-a-great-college-family-weekend-in-ithaca/), but Uber and Lyft are limited outside downtown. A hotel downtown or near campus keeps you within TCAT range. A hotel out by a highway exit leaves you paying for a taxi every trip.
-
-Not confirmed: the Family Weekend 2027 date.
+Book the room the day you know the date. Cornell's families page says hotels [often sell out](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation) for both weekends. Family Weekend 2026 ran [September 25 to 27](https://scl.cornell.edu/families/family-events/family-weekend), and Cornell says the 2027 dates will be announced in early 2027. In 2026, registration opened [August 3](https://scl.cornell.edu/families/family-events/family-weekend/family-weekend-faq), and Cornell suggested arriving Thursday evening or Friday morning. Commencement weekend 2027 is [May 28 to 30](https://registrar.cornell.edu/calendars-exams/academic-calendar). Visit Ithaca says a car is [not necessary for a family weekend](https://www.visitithaca.com/blog/post/your-guide-to-a-great-college-family-weekend-in-ithaca/), but Uber and Lyft are limited outside downtown. A hotel downtown or near campus keeps you within TCAT range. A hotel out by a highway exit leaves you paying for a taxi every trip.
 ```
 
 ```reader "If you're an alum back for Reunion"
@@ -168,18 +172,16 @@ Ithaca's own airport is the easy choice when the fares work. It has two schedule
 
 Syracuse has more choice, [nonstop service to 27 destinations](https://www.syrairport.org/). It is an hour or more away, and Cornell's families page says flights into [Syracuse, Elmira or Binghamton need a rental car or a bus](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation). Without a car, the bus is OurBus. It runs from SYR Terminal A to campus in [1 hour 25 minutes to 2 hours 5 minutes](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny), with most fares $46.70 to $62.10 and Sunday the cheapest day.
 
-Elmira is about [36 miles away](https://www.airport.guide/kelm/ny/tompkins-co/ithaca), with no confirmed scheduled bus or shuttle to Ithaca. Fly there only if you plan to rent a car.
+Elmira is about [36 miles away](https://www.airport.guide/kelm/ny/tompkins-co/ithaca). The one bus between the two cities is Chemung County's C TRAN Route 30, a commuter route from Elmira to Ithaca at [$6 for the full trip](https://ridectran.com/en/fares). Its western end is Elmira itself, while the airport sits at [276 Sing Sing Road in Horseheads](https://www.chemungcountyny.gov/850/Elmira-Corning-Regional-Airport). Fly there only if you plan to rent a car.
 
 | Airport | Flights | Getting to campus without a car | Cost each way |
 |---|---|---|---|
-| Ithaca (ITH) | Delta to JFK, United to Dulles | TCAT 32 or 72 to the Commons, then a campus bus; or a taxi | $1.50 a bus ride per adult; taxi fare not posted |
+| Ithaca (ITH) | Delta to JFK, United to Dulles | TCAT 32 or 72 to the Commons, then a campus bus; or a taxi | $1.50 a bus ride per adult; taxi by quote |
 | Syracuse (SYR) | 27 nonstop destinations | OurBus, Terminal A to North Campus, West Campus or the Cayuga St Garage | $46.70 to $62.10 a seat |
-| Elmira (ELM) | Allegiant and Delta | No confirmed scheduled link | Car or taxi only |
+| Elmira (ELM) | [Allegiant and Delta](https://www.chemungcountyny.gov/850/Elmira-Corning-Regional-Airport) | Rental car; the C TRAN Route 30 bus leaves from Elmira, not the terminal | Car or taxi; C TRAN $6 from Elmira |
 | NYC airports | Everything | Bus to Manhattan, then C2C or a commercial bus | $101 C2C; OurBus from $33 |
 
-Two College Confidential threads show the trade-off. In a [2014 College Confidential thread](https://talk.collegeconfidential.com/t/traveling-to-and-from-cornell/1599797), one parent said Syracuse was better in winter. Posters in a [2017 thread](https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899) said ITH has few flights, so a cancellation can mean a long wait. They advised keeping a backup airport in mind.
-
-Our advice: for a fall or spring weekend, fly ITH when the fare gap is small. From December to March, price Syracuse too, and compare the full door-to-door cost.
+Our advice: for a fall or spring weekend, fly ITH when the fare gap is small. With two airlines, a cancelled flight at ITH leaves few rebooking options, and that matters most in winter. From December to March, price Syracuse too, and compare the full door-to-door cost.
 
 ```tool ith-or-syr-trip-cost-calculator```
 
@@ -203,9 +205,7 @@ rows:
   - {label: "Landing late or carrying heavy bags: prebook one of the three taxis above"}
 ```
 
-Uber and Lyft also work by app at the airport. The airport's current taxi page lists no fares. An [older airport page](https://flyithaca.com/?p=13) gave Collegetown Cab's rate as a $12 base within 1 mile of the airport, a $15 minimum beyond that and $1.50 a bag. Treat those as a floor and ask for a quote when you book.
-
-Not confirmed: a current taxi fare from the airport to campus.
+Uber and Lyft also work by app at the airport. Taxis are priced by quote: the airport's taxi page says to [call or text each company for pricing](https://flyithaca.com/taxis), and Collegetown Cab's website and app give a quote before you book. Ask for the airport-to-campus price and say how many bags you have.
 
 ## Taking the C2C bus from New York City
 
@@ -243,7 +243,7 @@ Example: two parents and a 10-year-old stay downtown for a Saturday. They ride t
 
 ## If you rent a car anyway: where to park
 
-**On campus.** The visitor lot is the Tang Welcome Center, ParkMobile Zone 4119, at [$1.50 an hour or $10 a day](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options). Its pay station has been out of service since September 8, 2026, so pay through the ParkMobile app or text PARK to 77223. Each transaction adds a $0.45 fee. Most campus lots charge Monday to Friday, 7:30 a.m. to 5 p.m. Residence-hall areas need a permit or payment around the clock. Parking without a permit or payment costs [$50](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1), and an accessible space or fire lane costs $150 plus an automatic tow.
+**On campus.** The visitor lot is the Tang Welcome Center, ParkMobile Zone 4119, at [$1.50 an hour or $10 a day](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options). Its pay station has been out of service since September 8, 2026, so pay through the ParkMobile app or text PARK to 77223. Each transaction adds a $0.45 fee. Most campus lots charge Monday to Friday, 7:30 a.m. to 5 p.m. Residence-hall areas need a permit or payment around the clock. Parking without a permit or payment costs [$50](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1), and an accessible space or fire lane costs $150 plus an automatic tow. For Family Weekend 2026, Cornell [opened certain lots at no cost](https://scl.cornell.edu/families/family-events/family-weekend/family-weekend-faq) and emailed the parking details to registrants in September.
 
 **Downtown.** City garages charge [$2.25 an hour](https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328). The daily maximum is $12 at Green Street and Cayuga Street and $18 at Dryden Road in Collegetown. Street meters with pay stations charge $2.50 an hour. The Cayuga Street Garage at 245 S. Cayuga Street has [more than 300 spaces](https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/), about 5 minutes' walk from the Commons.
 
@@ -260,9 +260,7 @@ rows:
 
 ## Move-in and move-out
 
-**Move-in.** North Campus move-in in 2026 ran [Monday, August 17, Tuesday, August 18, and Friday to Saturday, August 21 to 22](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus). After unloading, cars move to 3-hour short-term parking in the area on the Move-In Ticket. The Jessup Road north-side unloading spaces allow no overnight parking. Families arriving without a car can still use the help: go to A Lot by Uber or taxi, and arrive well before staff unloading help ends that day. Ignore the "August 2021 Arrival Instructions" page that still turns up in search.
-
-Not confirmed: the fall 2027 move-in dates.
+**Move-in.** North Campus move-in in 2026 ran [Monday, August 17, Tuesday, August 18, and Friday to Saturday, August 21 to 22](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus). After unloading, cars move to 3-hour short-term parking in the area on the Move-In Ticket. The Jessup Road north-side unloading spaces allow no overnight parking. Families arriving without a car can still use the help: go to A Lot by Uber or taxi, and arrive well before staff unloading help ends that day. Ignore the "August 2021 Arrival Instructions" page that still turns up in search, and watch the current move-in pages for the 2027 dates.
 
 **Move-out.** In spring 2026, residence halls closed at [2 p.m. on Sunday, May 17](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options), and anything left in a room after that was donated. Spring 2027 finals run [May 15 to 22](https://registrar.cornell.edu/calendars-exams/academic-calendar). A parent flying in without a car cannot drive a room's worth of things home. Cornell points students to Big Red Shipping and Storage, its contracted vendor, which offers [storage and shipping with free in-room pickup](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options). Slots are limited, so book before finals.
 
@@ -290,7 +288,7 @@ Three things you may read elsewhere are out of date:
 ## Common mistakes
 
 - **Booking the hotel last.** Cornell says hotels often sell out for Family Weekend and Commencement. A room out of town turns every outing into a taxi fare.
-- **Flying into Elmira expecting a shuttle.** No scheduled link to Ithaca is confirmed, and the drive is about 36 miles.
+- **Flying into Elmira expecting an airport shuttle.** The C TRAN bus to Ithaca leaves from Elmira, not the terminal, and the drive is about 36 miles. Reserve the rental car with the flight.
 - **Booking C2C seats for adults only.** Every child age 2 and up needs a $101 seat, and a stroller that takes a seat counts as a passenger.
 - **Counting on Uber at night.** It is limited outside downtown. Prebook a taxi for a late flight or a late dinner.
 - **Parking at the Tang Welcome Center without ParkMobile.** The pay station is out of service, and an unpaid space costs $50.
@@ -302,7 +300,7 @@ Three things you may read elsewhere are out of date:
 
 **Can my student book my C2C seat on their account?** One reservation can hold several passengers, but the NetID fare of $93.50 is for students, faculty and staff.
 
-**Is there a rental car counter at the Ithaca airport?** The airport says [several rental companies operate there](https://www.flyithaca.com/news/traveling-to-and-from-ith) and recommends renting for longer stays or groups. It does not name them, so book through your airline or a rental site.
+**Is there a rental car counter at the Ithaca airport?** Yes. The airport's car-rental page lists [Avis, Budget and Hertz](https://flyithaca.com/car-rentals). Avis and Budget share a local office at 607-257-0441, open 7 a.m. to 6 p.m. on weekdays and 9 a.m. to 1 p.m. on Saturdays; Hertz is 607-257-8677, open 8 a.m. to 6 p.m. on weekdays and 9 a.m. to 4 p.m. on Saturdays. For a late flight, the page says to sign up for a Fastbreak or Preferred membership first so you can pick up the car after hours. The airport [recommends renting](https://www.flyithaca.com/news/traveling-to-and-from-ith) for a longer stay or a group.
 
 **Can I bring a wheelchair on the C2C?** Yes, with notice. Call 607-254-8747 at least 2 weeks, or 10 business days, [before the trip](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-additional-information).
 

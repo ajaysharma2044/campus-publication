@@ -1,19 +1,20 @@
 ---
-title: 'Ithaca apartment no heat or frozen pipes: landlord duties'
+title: 'Ithaca heat law: 68F by day, 62F at night, and frozen pipes'
 mode: answer
-dek: A landlord must keep heat and water working, and a dated written complaint is the step that starts every remedy.
-meta: Ithaca apartment with no heat or a frozen pipe? See the 68F and 62F minimums, what to put in writing, who to call and why withholding rent is risky.
-primary_query: ithaca apartment no heat frozen pipes landlord responsibility
+dek: Ithaca landlords must heat rentals from Sept. 15 to May 31, 68F by day and 62F at night, and a dated written complaint starts every remedy.
+meta: 'Ithaca apartment heat law: Sept. 15 to May 31, 68F by day and 62F at night. What to do about no heat or frozen pipes, and who to call.'
+primary_query: ithaca apartment heat law landlord
 topic: housing
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 271
 rewrites: ''
 readers:
 - off-campus
 - international
 - low-budget
+- parent
 subject: Frost on a window of an older house in Ithaca, New York
 tools: []
 sources:
@@ -66,7 +67,7 @@ redirect_from:
 ---
 
 ```glance
-- Ithaca heat season runs Sept. 15 to May 31, with indoor minimums of 68F by day and 62F at night.
+- Ithaca's heat season runs Sept. 15 to May 31, two weeks before the statewide Oct. 1 start, with minimums of 68F by day and 62F at night.
 - Report every heat, water or pipe problem in writing, with your name, address and the date.
 - If the landlord does not act, call the City Building Division at 607-274-6508.
 - Withholding rent is a last resort that invites a nonpayment case, so get free legal advice first.
@@ -87,6 +88,8 @@ Cornell Law's guide lists what the promise covers: heat, hot and cold water, ele
 
 Source: Cornell Law School Tenants' Advocacy, building issues and maintenance, February 2026.
 
+Ithaca's season starts two weeks before the statewide one, which runs Oct. 1 to May 31 ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). A renter who moves in at the end of August is covered through a cold stretch in late September, with no need to wait for October to ask for heat.
+
 Check your lease for who pays for heat. Ithaca Renting includes heat and hot water at all its properties ([Ithaca Renting](https://ithacarenting.com/collegetown/)). A four-bedroom at 174 Kendall Ave. lists the resident as paying for electricity and heat ([Ithacarents listing](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom)). If you pay the fuel bill, the cost side is in our [winter heating bill guide](/cornell/money/ithaca-utilities-cost-winter-heating-bill-apartment-students/).
 
 ## What do you do when the heat goes out?
@@ -104,7 +107,7 @@ rows:
   - {label: "After 30 days in the unit, consider a petition for repairs."}
 ```
 
-Follow every phone call with a written message. Certified mail gives proof, though a text or email also counts as writing. New York sets no fixed number of days for a repair, so your dated record is the proof of how long the landlord waited ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)).
+Log the outdoor temperature with each reading too, since the 68F minimum applies only when it is under 55F outside. Follow every phone call with a written message. Certified mail gives proof, though a text or email also counts as writing. New York sets no fixed number of days for a repair, so your dated record is the proof of how long the landlord waited ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)).
 
 Before you sign, Cornell's lease-review checklist tells renters to ask who handles repairs and which contact method the landlord prefers for general and emergency issues ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)). Keep that answer where you can find it in January.
 
@@ -120,19 +123,23 @@ Expect the landlord or a plumber to come in fast. The lease sets entry rules, an
 
 ## Who enforces the heat rules?
 
-In the City of Ithaca, the Building Division takes complaints. It sits in City Hall, 108 E. Green St., 4th floor, open Monday to Friday from 8:30 a.m. to 4:00 p.m. The phone number is 607-274-6508 and the email is ibd@cityofithaca.org. The page lists Rob Fell-DeWalt as director of code enforcement ([City of Ithaca](https://www.cityofithacany.gov/130/Building-Division)).
+In the City of Ithaca, the Building Division takes complaints. It sits in City Hall, 108 E. Green St., 4th floor, open Monday to Friday from 8:30 a.m. to 4:00 p.m. The phone number is 607-274-6508, the email is ibd@cityofithaca.org and the online route is the "Report a Concern" form. The page lists Rob Fell-DeWalt as director of code enforcement ([City of Ithaca](https://www.cityofithacany.gov/130/Building-Division)).
 
 ```reader "If you rent outside the City of Ithaca"
-The City Building Division covers City rentals. In the Village of Cayuga Heights, the code office is at 836 Hanshaw Road, with Code Enforcement Officer Craig Southard at 607-257-5536, ext. 104. Its page describes building, zoning and short-term rental permits and says nothing about heat complaints, so call and ask whether he takes them ([Village of Cayuga Heights](https://cayugaheights.gov/departments/code-enforcement/)). Our [City, Town and Cayuga Heights guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) shows which office covers your address.
+The City Building Division covers City rentals. In the Village of Cayuga Heights, the code office is at 836 Hanshaw Road, with Code Enforcement Officer Craig Southard at 607-257-5536, ext. 104. Its page describes building, zoning and short-term rental permits and says nothing about heat complaints, so call and ask whether he takes them ([Village of Cayuga Heights](https://cayugaheights.gov/departments/code-enforcement/)). Ask which heat season applies at your address as well, since the statewide season starts Oct. 1, not Sept. 15. Our [City, Town and Cayuga Heights guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) shows which office covers your address.
 ```
 
 ```reader "If you're an international student"
 A tenant hotline gives advice with no income or geographic limits at 607-301-1560 or tenantslegalhotline@gmail.com, and Cornell's international office lists it ([Cornell Global Learning](https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources)). Cornell staff say landlord disputes do not affect a visa or standing ([Graduate School tips](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/)).
 ```
 
+```reader "If you're a parent"
+Your student should send the repair request, since it needs the tenant's name, address and date. You can call the City Building Division yourself at 607-274-6508 on a weekday. Ask your student to copy you on every message.
+```
+
 ## Can you withhold rent or fix it yourself?
 
-Both are last resorts. Cornell Law says to get free legal advice first, because withholding invites a nonpayment case that starts with a 14-day written notice ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). The steps for mold, bed bugs and a landlord who ignores you are in our [repairs guide](/cornell/housing/ithaca-landlord-wont-fix-heat-mold-bed-bugs/).
+Both are last resorts. Cornell Law says to get free legal advice first, because withholding invites a nonpayment case that starts with a 14-day written notice ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). The petition in the figure's last step is a court filing: since January 2024, a tenant who has lived in the unit for at least 30 days and has sent written notice can file a Petition for Judgment Directing Repairs ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). The steps for mold, bed bugs and a landlord who ignores you are in our [repairs guide](/cornell/housing/ithaca-landlord-wont-fix-heat-mold-bed-bugs/).
 
 <!-- ad-break -->
 
@@ -144,7 +151,15 @@ Written complaints and a Building Division report are what turn that kind of wai
 
 ## Can a landlord shut off the heat?
 
-A landlord who stops paying the utility bill triggers advance notice for tenants. The notice is at least 18 days posted for apartment buildings and at least 15 days mailed for two-family houses. For heat shutoffs from Nov. 1 to Apr. 15, it is at least 30 days ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)).
+A landlord who stops paying the utility bill triggers advance notice for tenants. The notice is at least 18 days posted for apartment buildings and at least 15 days mailed for two-family houses. For heat shutoffs from Nov. 1 to Apr. 15, it is at least 30 days ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). A posted notice is a warning, not a cutoff, so keep it and use the time to get advice.
+
+## Do these myths hold up?
+
+**"Heat has to be on all year."** No. The rule covers the heat season, Sept. 15 to May 31, not summer.
+
+**"My landlord must keep it at 68F around the clock."** No. The 68F minimum applies from 6 a.m. to 10 p.m., and only when it is under 55F outside. At night the floor is 62F.
+
+**"The state gives landlords a set number of days to fix it."** It does not, which is why a written request that names a date matters.
 
 ## What to do next
 

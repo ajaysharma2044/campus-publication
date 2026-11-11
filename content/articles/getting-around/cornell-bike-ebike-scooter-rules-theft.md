@@ -5,7 +5,7 @@ primary_query: Cornell e-bike scooter rules bike registration
 topic: getting-around
 school: cornell-university
 type: how-to
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0044
 kind: spoke
 readers:
@@ -32,9 +32,18 @@ sources:
 - url: https://fcs.cornell.edu/sites/default/files/2025-02/Micro-Mobility%20E-Bikes_Litium-Ion%20Batteries%20Guidance%20Document%20v.2%20final%2002.09.2024.pdf
   title: Micro-Mobility E-Bikes and Lithium-Ion Batteries Guidance Document, Cornell, February 2024
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/bicycle-registration-storage
-  title: Bicycle Registration and Storage, Cornell Student & Campus Life
-  accessed: '2026-11-08'
+- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/bicycle-registration-storage
+  title: Bicycle Registration & Storage, Cornell Housing & Residential Life
+  accessed: '2026-11-11'
+- url: https://fcs.cornell.edu/sites/default/files/2023-12/Control%20of%20Traffic%20and%20Parking_complete-2023-24.pdf
+  title: Rules and Regulations for the Control of Traffic and Parking on the Grounds of Cornell University, 2023-24, Cornell Transportation Services
+  accessed: '2026-11-11'
+- url: https://dmv.ny.gov/registration/electric-scooters-and-bicycles-and-other-unregistered-vehicles
+  title: Electric Scooters and Bicycles and Other Unregistered Vehicles, New York State DMV
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/recreation/recreation/recreation-locations/restroom-changing-facilities
+  title: Restroom & Changing Facilities, Cornell Recreational Services
+  accessed: '2026-11-11'
 - url: https://facilities.research.cornell.edu/weill-hall-facilities-services/about-weill-hall/rules-for-cycling-electric-mobility-devices
   title: Rules for Cycling and Electric Mobility Devices, Weill Hall Facilities Services
   accessed: '2026-11-08'
@@ -87,22 +96,22 @@ images:
 ---
 
 ```glance
-- Registration is free and Cornell urges it for bikes, e-bikes and scooters, but its main cycling page does not make it mandatory.
+- Registration is free. Cornell's campus rules encourage it for bikes, e-bikes and scooters; Housing requires it, and bike room access comes after it.
 - An e-bike on campus: motor of 750 W or less, 36 in wide or less, working pedals. An e-scooter: under 100 lb, top speed 20 mph.
-- Never charge an e-bike or scooter battery in a dorm room, office or academic building.
-- Lock to a designated rack, frame and wheel. A bike on a railing, signpost, tree or pole can be impounded.
+- Never charge an e-bike or scooter battery in a dorm room, office or academic building. Residence hall bike rooms are where Housing allows it.
+- Lock to a designated rack, frame and wheel. A bike on a railing, signpost, tree or pole can draw a fine of up to $50 and an impound at your expense.
 - Fall 2024 saw 51 bike and scooter thefts worth at least $41,177; four bikes came back intact. Use a U-lock, and add a tracker.
 - Every TCAT bus has a free front bike rack; C2C takes a bike only boxed, as one of your two suitcases.
 ```
 
-Cornell lets you ride a bike, an e-bike of up to [750 W and 36 in wide, or an e-scooter under 100 lb that tops out at 20 mph](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus), as long as you park at racks and never charge the battery indoors in rooms, offices or classrooms. Registration is [free and urged, not required](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus). The bigger risk is theft: [51 bikes and scooters worth at least $41,177](https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far) were stolen in fall 2024, so buy a U-lock before you buy anything else.
+Cornell lets you ride a bike, an e-bike of up to [750 W and 36 in wide, or an e-scooter under 100 lb that tops out at 20 mph](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus), as long as you park at racks and never charge the battery in a room, office or academic building. Registration is [free and encouraged across campus](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus), and [required if you live in a residence hall](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/bicycle-registration-storage). The bigger risk is theft: [51 bikes and scooters worth at least $41,177](https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far) were stolen in fall 2024, so buy a U-lock before you buy anything else.
 
 ```reader "If you're riding an e-bike or e-scooter"
-Check the machine against Cornell's limits first. An e-bike needs a motor of 750 W or less, a width of 36 in or less, working pedals and one of New York's three classes. A scooter must weigh under 100 lb and top out at 20 mph ([Cornell](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus)). Never charge it in a residence room, office or academic building ([guidance](https://fcs.cornell.edu/sites/default/files/2025-02/Micro-Mobility%20E-Bikes_Litium-Ion%20Batteries%20Guidance%20Document%20v.2%20final%2002.09.2024.pdf)). The costly mistake is a cheap lock: a $2,025 e-bike was taken from a campus rack in 2024 despite one ([Sun](https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far)). A gas moped or motor scooter is a vehicle instead: register the plate and buy the $120.01 motorcycle permit ([parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)).
+Check the machine against Cornell's limits first. An e-bike needs a motor of 750 W or less, a width of 36 in or less, working pedals and one of New York's three classes. A scooter must weigh under 100 lb and top out at 20 mph ([Cornell](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus)). Never charge it in a residence room, office or academic building ([guidance](https://fcs.cornell.edu/sites/default/files/2025-02/Micro-Mobility%20E-Bikes_Litium-Ion%20Batteries%20Guidance%20Document%20v.2%20final%2002.09.2024.pdf)); if you live on campus, the residence hall bike room is the charging spot ([Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/bicycle-registration-storage)). The costly mistake is a cheap lock: a $2,025 e-bike was taken from a campus rack in 2024 despite one ([Sun](https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far)). A gas moped or motor scooter is a vehicle instead: register the plate and buy the $120.01 motorcycle permit ([parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)).
 ```
 
 ```reader "If you're a first-year in a residence hall"
-Bring a U-lock and register the bike free before the first week ([Cornell](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus)). Residence halls store bikes on outside racks or in sprinklered bike rooms, not in your room ([Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/bicycle-registration-storage)), and an e-bike battery may not be charged in it. You ride TCAT free at all hours until Aug 31 of next year ([bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)), and every bus has a front rack, so you can ride down and bus back up. The mistake that costs most: locking to a railing when the rack is full, which can get the bike impounded.
+Bring a U-lock and register the bike free before you arrive: Housing requires it, and the bike room access request comes after it ([Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/bicycle-registration-storage)). Bikes go on outside racks or in your hall's bike room, never in your room unless it folds and does not block the way out, and an e-bike charges only in the bike room. You ride TCAT free at all hours until Aug 31 of next year ([bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)), and every bus has a front rack, so you can ride down and bus back up. The mistake that costs most: locking to a railing when the rack is full, which can bring a fine of up to $50 and an impound.
 ```
 
 ```reader "If you're an upper-year without a car"
@@ -119,9 +128,9 @@ Register the bike free with Cornell and with your city or town too; Cornell's pa
 
 ## Do you have to register your bike at Cornell?
 
-No, but do it. Cornell's cycling page urges you to [register bikes, e-bikes and scooters with Cornell Commuter and Parking Services and with your local municipality](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus). Registration is free. The page stops short of calling it mandatory.
+Yes if you live in a residence hall, and it is free and worth doing either way. Cornell's [traffic and parking regulations](https://fcs.cornell.edu/sites/default/files/2023-12/Control%20of%20Traffic%20and%20Parking_complete-2023-24.pdf) encourage every community member who parks a bike on campus to register it with the Transportation Office and put the sticker on the frame where it shows when the bike is locked; a registration does not transfer with the bike, and a stolen bike gets reported to the police right away. The [cycling page](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus) urges you to register bikes, e-bikes and scooters with Cornell Commuter and Parking Services and with your local municipality, free.
 
-One Cornell page goes further. The [Weill Hall facilities page](https://facilities.research.cornell.edu/weill-hall-facilities-services/about-weill-hall/rules-for-cycling-electric-mobility-devices) says all bicycles must be registered with the university. For students, the Transportation and Delivery Services page governs campus, so treat registration as strongly advised. After the fall 2024 thefts, Cornell advised [registering and using a U-lock](https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far).
+Two Cornell offices go further. Housing says [all devices must be registered](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/bicycle-registration-storage) through the FCS registration tool, and its bike room access request comes after registration. The [Weill Hall facilities page](https://facilities.research.cornell.edu/weill-hall-facilities-services/about-weill-hall/rules-for-cycling-electric-mobility-devices) says all bicycles must be registered with the university, and anyone breaking its rules risks losing building access or the bike. After the fall 2024 thefts, Cornell advised [registering and using a U-lock](https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far).
 
 ## What counts as an e-bike or e-scooter on campus
 
@@ -136,7 +145,7 @@ Cornell sets its own limits on [its e-mobility page](https://fcs.cornell.edu/dep
 
 The last row trips people up. Cornell requires students to [register plates for cars, motorcycles and scooters](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus), and its motorcycle permit covers [motorcycles, scooters and mopeds at $120.01](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students). A stand-up e-scooter under Cornell's limits is the bike-rack kind.
 
-Not confirmed: New York's state rules for where e-bikes and e-scooters may ride off campus.
+Off campus, the [New York State DMV](https://dmv.ny.gov/registration/electric-scooters-and-bicycles-and-other-unregistered-vehicles) sets the rules: e-bikes and e-scooters may ride on roads with a posted speed limit of 30 mph or less, not on sidewalks unless a local law allows it, and a city, town or village can add its own limits on when, where and how they are used. Class 1 and Class 2 e-bikes stop assisting at 20 mph; Class 3, which assists to 25 mph, is legal only in a city of one million or more people, so not in Ithaca. An e-scooter's motor may top out at 20 mph, and riding one faster than 15 mph is illegal. On campus roads, Cornell's [regulations](https://fcs.cornell.edu/sites/default/files/2023-12/Control%20of%20Traffic%20and%20Parking_complete-2023-24.pdf) put e-scooters and motorized skateboards in the bike lane or near the right-hand curb, never on a sidewalk.
 
 ## Where you can ride, and where you must walk
 
@@ -145,6 +154,8 @@ Campus paths are color-coded, per Cornell's [cycling rules](https://fcs.cornell.
 - **White:** a bike lane. Ride.
 - **Yellow:** a shared walkway. Ride slowly and yield to people on foot.
 - **Red or unmarked:** dismount and walk.
+
+Cornell's [regulations](https://fcs.cornell.edu/sites/default/files/2023-12/Control%20of%20Traffic%20and%20Parking_complete-2023-24.pdf) add a list of places where no one rides: inside any building, in a parking garage, on stairs, landings or handrails, on a ramp built for people with disabilities, and on any walkway on Libe Slope.
 
 Parts of the Botanic Gardens and Six Mile Gorge are [closed to bikes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus). The campus network is small: more than 1,000 bike parking spots, about 7 miles of bike lanes and 2 miles of shared paths, per Cornell's assistant director of transportation in a [November 2025 Sun column](https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall).
 
@@ -161,17 +172,15 @@ rows:
 
 Lock only at designated bike racks. Cornell says a bike locked to [railings, signposts, trees or poles can be impounded](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus). So can one that creates a hazard, blocks a path or looks abandoned. Lock the frame and a wheel, not the wheel alone.
 
-Not confirmed: Cornell's bike impound fee and how to get an impounded bike back. Its citation schedule lists motor vehicle fines only; call Transportation Services at [607-255-4600](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes).
+The price of a bad lock-up is in Cornell's [2023-24 traffic and parking regulations](https://fcs.cornell.edu/sites/default/files/2023-12/Control%20of%20Traffic%20and%20Parking_complete-2023-24.pdf). Improper bicycle parking carries a fine of up to $50 if paid within ten calendar days and $60 after that; parking in a fire lane, at a hydrant or in another life safety zone is $50 and $60 on the same terms. The university can also impound or boot the bike at your expense, cutting the lock if it has to, and it does not pay for the lock. Impounded bikes are stored at Cornell University Police, and release takes proof of ownership and a release form from the campus office that took the bike. E-scooters and motorized skateboards follow the same fine and impound rules. Questions go to Transportation Services at [607-255-4600](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus).
 
 Indoors, the rules are tight:
 
-- **Residence halls:** bikes go on external racks or in sprinklered bike rooms ([Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/bicycle-registration-storage)).
-- **Other campus buildings:** only with the [written permission of the building coordinator](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus).
-- **Batteries:** Cornell's lithium-ion guidance says not to charge e-bike or e-scooter batteries in [residential rooms, offices or academic buildings](https://fcs.cornell.edu/sites/default/files/2025-02/Micro-Mobility%20E-Bikes_Litium-Ion%20Batteries%20Guidance%20Document%20v.2%20final%2002.09.2024.pdf).
+- **Residence halls:** outside racks or the hall's bike room, which you request after registering. Nothing in your room except a fold-up bike that does not block the way out, and nothing in alcoves, hallways, stairwells or common areas, where it is confiscated and handed to Cornell Police. A bike left in a bike room or on a rack after Commencement is removed, lock cut if needed, to the Lost and Found in Barton Hall; if it is registered, Cornell Police write to the owner's permanent address ([Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/bicycle-registration-storage)).
+- **Other campus buildings:** only with the [written permission of the building coordinator](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus), and never in a hallway or stairwell ([regulations](https://fcs.cornell.edu/sites/default/files/2023-12/Control%20of%20Traffic%20and%20Parking_complete-2023-24.pdf)).
+- **Batteries:** Cornell's lithium-ion guidance says not to charge e-bike or e-scooter batteries in [residential rooms, offices or academic buildings](https://fcs.cornell.edu/sites/default/files/2025-02/Micro-Mobility%20E-Bikes_Litium-Ion%20Batteries%20Guidance%20Document%20v.2%20final%2002.09.2024.pdf); it calls for external bike racks or bike rooms protected by an automatic sprinkler system, a charger plugged straight into a wall outlet with no extension cord or power strip, and unplugging once the battery is full. Housing's rule matches: e-bikes, e-scooters, e-skateboards and hoverboards may be stored or charged in a residence only in its bike room ([Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/bicycle-registration-storage)). If a battery overheats, smokes, smells or changes shape, call Cornell Public Safety at [607-255-1111](https://fcs.cornell.edu/sites/default/files/2025-02/Micro-Mobility%20E-Bikes_Litium-Ion%20Batteries%20Guidance%20Document%20v.2%20final%2002.09.2024.pdf).
 
-Not confirmed: any campus spot where Cornell does allow battery charging. Ask your residence hall staff or building coordinator before move-in.
-
-Ithaca Bikeshare's e-bikes follow the racks rule too. Cornell's [cycling rules page](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling/cycling-rules-regulations) says Cornell requires that bikeshare bikes be parked at a bike rack, even though the service lets you leave a bike anywhere in its zone, per the [Sun](https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/).
+Ithaca Bikeshare's e-bikes follow the racks rule too. Cornell's [cycling rules page](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling/cycling-rules-regulations) says Cornell requires that bikeshare bikes be parked at a bike rack, even though the service lets you leave a bike anywhere in its zone, per the [Sun](https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/), now for a $1.50 fee when the trip ends outside a hub ([Ithaca Bikeshare](https://www.ithacabikeshare.org)).
 
 ## How bikes get stolen at Cornell, and how to stop it
 
@@ -216,29 +225,29 @@ Going home on Cornell's Campus-to-Campus bus to New York City, a bike rides only
 
 ## E-bike help and repairs
 
-Cornell's cycling page does not cover repairs or winter storage; it [points riders to a local bike shop](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus). Bike Walk Tompkins runs [e-bike classes at Swamp City Community Cycles, 803 Cascadilla St](https://www.bikewalktompkins.org/e-bikes); you must pre-register. For a feel of a legal e-bike before buying, Ithaca Bikeshare's fleet is Class 1 pedal-assist with a top speed of about 16 mph, per the same page.
+For repairs, Cornell's cycling page [points riders to a local bike shop](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus) to get the bike adjusted so it is safe and fits, and its battery guidance sends e-bike and scooter repairs to a [qualified professional](https://fcs.cornell.edu/sites/default/files/2025-02/Micro-Mobility%20E-Bikes_Litium-Ion%20Batteries%20Guidance%20Document%20v.2%20final%2002.09.2024.pdf). Bike Walk Tompkins runs [e-bike classes at Swamp City Community Cycles, 803 Cascadilla St](https://www.bikewalktompkins.org/e-bikes); you must pre-register. For a feel of a legal e-bike before buying, Ithaca Bikeshare's fleet is Class 1 pedal-assist with a top speed of about 16 mph, per the same page.
 
 ## Common mistakes
 
 - **A cheap lock, or none.** The 2024 losses ran from $400 to $2,025 per bike ([Sun](https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far)).
 - **"Just ten minutes" without a lock.** That is how the $600 Collegetown bike went.
-- **Locking to a railing, signpost, tree or pole.** The bike can be impounded, at a fee Cornell does not publish.
-- **Charging a battery in your room, office or lab.** It breaks Cornell's battery guidance.
-- **Skipping registration.** Only four of 51 stolen bikes came back intact in fall 2024, and Cornell's advice afterward was to register.
+- **Locking to a railing, signpost, tree or pole.** A fine of up to $50, $60 after ten days, and the bike can be impounded or booted at your expense ([regulations](https://fcs.cornell.edu/sites/default/files/2023-12/Control%20of%20Traffic%20and%20Parking_complete-2023-24.pdf)).
+- **Charging a battery in your room, office or lab.** It breaks Cornell's battery guidance and Housing's rules; the bike room is the place.
+- **Skipping registration.** Only four of 51 stolen bikes came back intact in fall 2024, Cornell's advice afterward was to register, and Housing requires it anyway.
 - **Riding red or unmarked paths.** Cornell's rule there is dismount.
 - **Bringing an e-bike over 750 W.** Cornell does not count it as an e-bike.
 
 ## FAQ
 
-**Can I keep my bike in my dorm room?** Residence halls store bikes on outside racks or in sprinklered bike rooms ([Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/bicycle-registration-storage)). In other campus buildings you need the building coordinator's written permission.
+**Can I keep my bike in my dorm room?** Only a fold-up bike that does not block the way out. Everything else goes on an outside rack or in the hall's bike room, requested after you register ([Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/bicycle-registration-storage)). In other campus buildings you need the building coordinator's written permission.
 
-**Is Ithaca Bikeshare free for Cornell students?** No discount appears on its price page: $1.50 to start a ride plus $0.25 a minute, $25 a day or $60 a month, and $1.50 more if a trip does not end at a hub ([Ithaca Bikeshare](https://www.ithacabikeshare.org)).
+**Is Ithaca Bikeshare free for Cornell students?** No. Its price page lists $1.50 to start a ride plus $0.25 a minute, $25 a day or $60 a month, all plus tax, and $1.50 more if a trip does not end at a hub ([Ithaca Bikeshare](https://www.ithacabikeshare.org)). A reduced-cost option, Easy Access, is for GO ITHACA members with income at or below 150% of the federal poverty guideline.
 
-**Can I ride in the snow?** Cornell publishes no winter cycling guidance. A 2023 student tip was to avoid the Slope while it is snowing and stay off metal bridge panels ([Sun 2023](https://www.cornellsun.com/article/2023/01/upperclassman-cornellians-share-how-they-cope-with-harsh-ithaca-winters)); the winter guide below has more.
+**Can I ride in the snow?** The campus rule is to ride in a way that is reasonable for the conditions, and never on a walkway on Libe Slope ([regulations](https://fcs.cornell.edu/sites/default/files/2023-12/Control%20of%20Traffic%20and%20Parking_complete-2023-24.pdf)). A 2023 student tip was to avoid the Slope while it is snowing and stay off metal bridge panels ([Sun 2023](https://www.cornellsun.com/article/2023/01/upperclassman-cornellians-share-how-they-cope-with-harsh-ithaca-winters)); the winter guide below has more.
 
-**Is there anywhere to shower after riding in?** Johnson lists showers at Sage Hall, classroom level ([Johnson](https://business.cornell.edu/students/by-program/mba-students/living-in-ithaca/)). Not confirmed: showers elsewhere on campus.
+**Is there anywhere to shower after riding in?** Johnson lists showers at Sage Hall, classroom level ([Johnson](https://business.cornell.edu/students/by-program/mba-students/living-in-ithaca/)). Cornell Recreation's locker rooms at Helen Newman Hall and Teagle Hall have showers and day-use lockers, and Noyes Community Recreation Center has a single shower in its lower-level restrooms ([Recreation](https://scl.cornell.edu/recreation/recreation/recreation-locations/restroom-changing-facilities)).
 
-**Who do I call about an impounded bike?** Transportation Services, 607-255-4600 ([Cornell](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)).
+**Who do I call about an impounded bike?** Impounded bikes are stored at Cornell University Police, and release takes proof of ownership and the release form ([regulations](https://fcs.cornell.edu/sites/default/files/2023-12/Control%20of%20Traffic%20and%20Parking_complete-2023-24.pdf)). Transportation Services is at 607-255-4600 ([Cornell](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus)).
 
 ## Related guides
 

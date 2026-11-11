@@ -5,7 +5,7 @@ primary_query: Cornell Thanksgiving break travel bus tickets sell out book early
 topic: getting-around
 school: cornell-university
 type: how-to
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0039
 kind: spoke
 readers:
@@ -85,14 +85,8 @@ sources:
 - url: https://cornellsun.com/2019/11/30/under-heavy-snow-forecast-university-mum-on-class-cancellation
   title: Under Heavy Snow Forecast, University Mum on Class Cancellation, The Cornell Daily Sun, November 30, 2019
   accessed: '2026-11-08'
-- url: https://cornellsun.com/2023/11/19/special-thanksgiving-shuttle-connects-cornell-with-ithaca-tompkins-international-airport/
-  title: Special Thanksgiving Shuttle Connects Cornell With Ithaca Tompkins International Airport, The Cornell Daily Sun, November 19, 2023
-  accessed: '2026-11-08'
 - url: https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved
   title: 'Oh Thanksgiving in Ithaca: Stranded and Starved, The Cornell Daily Sun, December 1, 2013'
-  accessed: '2026-11-08'
-- url: https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899
-  title: Air transportation to and from Ithaca, College Confidential, 2017
   accessed: '2026-11-08'
 - url: https://cornellsun.com/2022/11/22/students-express-discontent-over-short-thanksgiving-break%EF%BF%BC
   title: Students Express Discontent Over Short Thanksgiving Break, The Cornell Daily Sun, November 22, 2022
@@ -109,6 +103,18 @@ sources:
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and Passes, Cornell Facilities and Campus Services
   accessed: '2026-11-08'
+- url: https://www.ourbus.com/cancellationpolicy
+  title: OurBus Intercity Cancelation Policy, OurBus
+  accessed: '2026-11-11'
+- url: https://ourbus.com/FAQ
+  title: Frequently Asked Questions, OurBus
+  accessed: '2026-11-11'
+- url: https://www.ourbus.com/blog/ourbus-student-discount/
+  title: 'OurBus blog: OurBus student discount, July 25, 2026'
+  accessed: '2026-11-11'
+- url: https://www.cornellsun.com/article/2025/07/service-changes-for-july-4-holiday-weekend-tcat-buses-curbside-recycling-city-offices-will-be-closed-on-independence-day
+  title: 'Service Changes for July 4 Holiday Weekend: TCAT Buses, Curbside Recycling, City Offices Will Be Closed on Independence Day, The Cornell Daily Sun, July 2, 2025'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Students waiting for bus and pathways at Cornell University
@@ -125,22 +131,22 @@ images:
 - Book now: OurBus names the Wednesday before Thanksgiving as a peak day, and break-week bus floors ran about 33% higher in a Nov 8 sample.
 - Wanderu's cheapest November date to NYC was Nov 19, and it says booking about 14 days ahead is cheapest.
 - C2C to Manhattan is $93.50 one way with a NetID, and every rider needs a new account since Nov 4, 2026.
-- Read the refund rules first: C2C keeps $10 a seat to cancel 8+ hours out; OurBus refunds in credit, not cash.
-- Plan the return for Saturday night or early Sunday if snow is forecast; no 2026 Thanksgiving airport shuttle has been announced.
+- Read the refund rules first: C2C keeps $10 a seat to cancel 8+ hours out; OurBus refunds to your card only if you cancel more than 24 hours out.
+- Plan the return for Saturday night or early Sunday if snow is forecast.
 ```
 
-Book your Thanksgiving bus this week. Cornell's break runs [Wednesday Nov 25 through Sunday Nov 29, 2026](https://registrar.cornell.edu/calendars-exams/academic-calendar), OurBus lists [the Wednesday before Thanksgiving as a peak day](https://www.ourbus.com/blog/?p=6269), and the cheapest seats on Ithaca routes ran about a third higher that week in a Nov 8 sample. No operator publishes when seats run out, so the only safe plan is to buy both legs before mid-November.
+Book your Thanksgiving bus this week. Cornell's break runs [Wednesday Nov 25 through Sunday Nov 29, 2026](https://registrar.cornell.edu/calendars-exams/academic-calendar), OurBus lists [the Wednesday before Thanksgiving as a peak day](https://www.ourbus.com/blog/?p=6269), and the cheapest seats on Ithaca routes ran about a third higher that week in a Nov 8 sample. The safe plan is to buy both legs before mid-November.
 
 ```reader "If you're a first-year"
 Your first trip home falls on the busiest bus day of the fall. For Manhattan, choose between [C2C at $93.50 one way](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates) from 217 Jessup Rd on North Campus and OurBus, which has run [4 to 6 daily campus-to-Manhattan trips since Sept 1, 2026](https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk). Make the new C2C account with Cornell single sign-on, or you pay the $101 public fare. TCAT is [free for first-years at all hours](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes), so the ride to a downtown stop costs nothing. The costly mistake is waiting for your parents to book. Wednesday seats go first.
 ```
 
 ```reader "If you're on a tight budget"
-The cheapest seats to NYC in the week of Nov 8 were [$25 on OurBus, $28.98 on Coach USA and $29 on Megabus](https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/), against $93.50 on C2C. Expect Thanksgiving week to add about a third. Book by Nov 11, about two weeks out, and leave Tuesday night or Thursday if your schedule allows. Buy only a ticket you will use: OurBus [gives credit, not cash](https://www.cornellsun.com/article/2023/11/inside-ourbus-cornellians-preferred-method-of-travel) when you cancel. If the trip costs too much, staying is common. In 2022 the Sun reported [one student staying in Ithaca and another going to a friend's family](https://cornellsun.com/2022/11/16/students-share-upcoming-thanksgiving-break-plans).
+The cheapest seats to NYC in the week of Nov 8 were [$25 on OurBus, $28.98 on Coach USA and $29 on Megabus](https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/), against $93.50 on C2C. Expect Thanksgiving week to add about a third. Book now, about two weeks out, and leave Tuesday night or Thursday if your schedule allows. If you must cancel, do it more than 24 hours out: OurBus then [refunds the fare to your card, less its booking and facility fees; inside 24 hours you get wallet credit](https://www.ourbus.com/cancellationpolicy). If the trip costs too much, staying is common. In 2022 the Sun reported [one student staying in Ithaca and another going to a friend's family](https://cornellsun.com/2022/11/16/students-share-upcoming-thanksgiving-break-plans).
 ```
 
 ```reader "If you're flying home"
-A bus does not reach you, so the flight is the expensive part. A [2013 Sun columnist](https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved) put Thanksgiving airfares at two to three times normal. Posters in a [2017 forum thread](https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899) booked Thanksgiving flights in June or July and kept a backup airport. In 2023 a [$14 shuttle ran from campus to ITH](https://cornellsun.com/2023/11/19/special-thanksgiving-shuttle-connects-cornell-with-ithaca-tompkins-international-airport/) for the break; no 2026 version has been announced. Book your ride to the airport now, and avoid a Sunday-evening return if snow is forecast.
+A bus does not reach you, so the flight is the expensive part. A [2013 Sun columnist](https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved) put Thanksgiving airfares at two to three times normal. Book the flight and the airport ride together: OurBus runs from North and West Campus to Syracuse airport, and ITH takes a prebooked taxi. Avoid a Sunday-evening return if snow is forecast.
 ```
 
 ```reader "If you're an upper-year without a car"
@@ -148,7 +154,7 @@ You know the stops, but two things changed this month. C2C moved to a [new booki
 ```
 
 ```reader "If you're an international student"
-Five days is too short to fly home, so the question is where to go. In the Sun's 2022 coverage, one student planned to stay for Cornell Dining's Thanksgiving meal and another planned to spend the break with a friend's family. If you visit NYC, book the same way and on the same timeline as everyone else. C2C requires a [photo ID matching the reservation name](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations), and a passport works for that. Not confirmed: whether TCAT runs on Thanksgiving Day 2026. A [2013 column](https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved) said it did not.
+Five days is too short to fly home, so the question is where to go. In the Sun's 2022 coverage, one student planned to stay for Cornell Dining's Thanksgiving meal and another planned to spend the break with a friend's family. If you visit NYC, book the same way and on the same timeline as everyone else. C2C requires a [photo ID matching the reservation name](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations), and a passport works for that. TCAT does not run on Thanksgiving Day: a [TCAT press release reported by the Sun in July 2025](https://www.cornellsun.com/article/2025/07/service-changes-for-july-4-holiday-weekend-tcat-buses-curbside-recycling-city-offices-will-be-closed-on-independence-day) lists it among six holidays with no service, so plan any Thursday trip around that.
 ```
 
 ## When the 2026 Thanksgiving break is
@@ -171,17 +177,18 @@ rows:
   - {label: "Classes resume", date: "Mon Nov 30"}
 ```
 
-## When to book, and when buses sell out
+## When to book
 
-No carrier publishes a sell-out date or seat count. What the record shows:
+The case for booking early:
 
 - OurBus names three peak days a year: [the Wednesday before Thanksgiving, the last day of December finals and the Friday spring break begins](https://www.ourbus.com/blog/?p=6269).
+- Break buses do fill. During fall break 2023 a student told the Sun she [took the second-to-last seat on her OurBus and watched a ticket holder turned away from the full bus](https://www.cornellsun.com/article/2023/11/inside-ourbus-cornellians-preferred-method-of-travel).
 - C2C's own advice for a full trip is to [check other times, and the team may add trips "when feasible"](https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4). For winter break 2025 it [urged riders to book early to secure seats](https://fcs.cornell.edu/announcements/2025-12-02/c2c-winter-break-schedule).
 - Wanderu's Ithaca-NYC page showed [Nov 19, 2026 as the cheapest date, a November average of about $66 against about $41 in January, and claimed booking about 14 days ahead is cheapest](https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/). That is an aggregator's claim, not a carrier rule.
 - In 2019, international students told the Sun about flights home that [an early non-refundable ticket can be wasted if plans change, while waiting can let prices double](https://cornellsun.com/2019/05/06/international-students-travel-cornell/).
 - Capacity on campus grew this fall. OurBus has run [4 to 6 buses a day from campus to Manhattan since Sept 1, 2026](https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk), and its route page lists [9 buses a day, first 5:00 a.m., last 11:55 p.m.](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny)
 
-Our advice: book Wednesday and Sunday seats before Nov 11. If your dates are flexible, a Tuesday-evening or Thursday departure avoids the peak. Not confirmed: how many days before Thanksgiving any carrier's Wednesday buses filled in past years.
+Our advice: book Wednesday and Sunday seats now; Nov 11 is the 14-day mark. If your dates are flexible, a Tuesday-evening or Thursday departure avoids the peak.
 
 ## What a Thanksgiving bus costs
 
@@ -210,7 +217,7 @@ rows:
   - {label: "Mean of the three routes", value: "+33.4%"}
 ```
 
-The route tables are [Binghamton](https://www.checkmybus.com/ithaca-ny/binghamton-ny), [Rochester](https://www.checkmybus.com/ithaca-ny/rochester-ny) and [Washington DC](https://www.checkmybus.com/ithaca-ny/washington-dc). Two caveats. The dates were two to three weeks out, so prices may climb further. NYC was not in the sample, so a third more on NYC fares is an estimate.
+The route tables are [Binghamton](https://www.checkmybus.com/ithaca-ny/binghamton-ny), [Rochester](https://www.checkmybus.com/ithaca-ny/rochester-ny) and [Washington DC](https://www.checkmybus.com/ithaca-ny/washington-dc). Two caveats. The dates were two to three weeks out, so prices may climb further. The sample covers Binghamton, Rochester and Washington DC, so a third more on NYC fares is an estimate.
 
 Example: a sophomore heading to Midtown who finds a $25 OurBus seat for a normal week might expect about $33 each way in Thanksgiving week (our estimate, $25 plus 33.4%). The round trip comes to about $67 against $187 on C2C, a gap of about $120.
 
@@ -231,7 +238,7 @@ The C2C phone line is [607-254-8747](https://fcs.cornell.edu/announcements/2026-
 1. **Compare on an aggregator, then buy on the carrier site.** The Sun's [2025 student guide named Wanderu](https://www.cornellsun.com/article/2025/05/busses-trains-and-planes-getting-to-and-from-cornell) for comparing buses.
 2. **Pick your stop.** Greyhound and FlixBus board at [121 Jessup Rd (North Campus), 240 West Ave (West Campus) and 131 E Green St downtown](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny). OurBus boards at North Campus, West Campus and the Commons. From Nov 9, 2026 its downtown stop is [235 S. Cayuga St beside the South Cayuga garage](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/).
 3. **Pay for bags up front.** OurBus includes [one suitcase up to 50 lb and one handbag; extra bags are $30 each and must be prepaid](https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university). Greyhound includes one carry-on and one checked bag.
-4. **Check discounts.** OurBus Select gives [$15 off each of the next 10 tickets](https://www.ourbus.com/blog/?p=6269), and a separate student discount of unstated size requires verification.
+4. **Check discounts.** OurBus Select gives [$15 off each of the next 10 tickets](https://www.ourbus.com/blog/?p=6269). A .edu email address also gets [10% off a first OurBus ride, on a booking of $25 or more and capped at $15](https://www.ourbus.com/blog/ourbus-student-discount/).
 
 ## Read the cancel and change rules before you pay
 
@@ -239,13 +246,13 @@ Thanksgiving plans change. The refund rules decide what a change costs.
 
 | | C2C | OurBus |
 |---|---|---|
-| Cancel 8+ hours before | $10 per seat fee | Credit, not cash |
-| Cancel inside 8 hours | $30 per seat fee | Credit, not cash |
-| Change date or time | Allowed up to 8 hours before; $30 per seat inside 8 hours | Rescheduling fee (amount not stated) |
-| Miss the bus | Full fare kept; return leg not cancelled | Not published |
-| How to cancel | Only in the reservation system, never by phone or email | Not published |
+| Cancel 8+ hours before | $10 per seat fee | More than 24 hours out: fare back to your card, booking and facility fees kept. Inside 24 hours: wallet credit |
+| Cancel inside 8 hours | $30 per seat fee | Wallet credit until 60 minutes before departure; no cancellation after that |
+| Change date or time | Allowed up to 8 hours before; $30 per seat inside 8 hours | Reschedule online until 60 minutes before departure; a different fare may apply |
+| Miss the bus | Full fare kept; return leg not cancelled | No refund or transfer; OurBus may move you to the next bus with space while your original bus is still on its trip, once |
+| How to cancel | Only in the reservation system, never by phone or email | The "cancel ticket" link in the confirmation email, or My Passes on the site or app |
 
-C2C rules are from its [policies page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations); OurBus rules are from the [Sun's fall 2023 reporting](https://www.cornellsun.com/article/2023/11/inside-ourbus-cornellians-preferred-method-of-travel). Changing only your stop on the same C2C bus is free.
+C2C rules are from its [policies page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations); OurBus rules are from its [cancellation policy](https://www.ourbus.com/cancellationpolicy) and [FAQ](https://ourbus.com/FAQ). Changing only your stop on the same C2C bus is free.
 
 Example: a first-year books C2C round trip for $187, then gets a ride with a friend. Cancelling both legs a week ahead costs $20 in fees. Cancelling the Wednesday leg two hours before departure costs $30 for that seat.
 
@@ -261,15 +268,15 @@ Our advice: book a Sunday seat, then check the forecast on Thursday. If snow is 
 
 ## If you are flying instead
 
-Flights cost more and leave earlier. A [2013 Sun columnist](https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved) put Thanksgiving airfares at two to three times normal. Posters in a [2017 College Confidential thread](https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899) booked Thanksgiving flights in June or July and kept a backup airport.
+Flights cost more and leave earlier. A [2013 Sun columnist](https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved) put Thanksgiving airfares at two to three times normal.
 
-Getting to the airport is the gap. In 2023 Swarthout Coaches and the airport ran a [Thanksgiving shuttle at $14 one way, with stops at Robert Purcell, Baker Flagpole and Maplewood](https://cornellsun.com/2023/11/19/special-thanksgiving-shuttle-connects-cornell-with-ithaca-tompkins-international-airport/). Not confirmed: any Thanksgiving 2026 shuttle to ITH or Syracuse. The fallback to Syracuse is OurBus, which lists [most fares at $46.7 to $62.1 each way](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny) from North and West Campus to Terminal A, with Sunday cheapest. For ITH, prebook a taxi.
+Book the ride to the airport with the flight. For Syracuse, OurBus lists [most fares at $46.7 to $62.1 each way](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny) from North and West Campus to Terminal A, with Sunday cheapest. For ITH, prebook a taxi.
 
 ## Common mistakes
 
 - **Waiting until the week of.** Floors ran about 33% higher in Thanksgiving week in our sample, and Wednesday is a named peak day.
 - **Logging in to C2C with an old or plain account.** You pay $101 instead of $93.50, $15 more round trip.
-- **Buying an OurBus ticket you might not use.** A cancellation returns credit, not cash.
+- **Cancelling an OurBus ticket late.** Inside 24 hours you get wallet credit instead of a card refund, and inside 60 minutes you cannot cancel at all.
 - **Assuming a missed C2C outbound cancels the return.** It does not, and the missed leg's full $93.50 is gone.
 - **Heading to the old OurBus stop on East Seneca.** From Nov 9 it is 235 S. Cayuga St.
 - **Booking only the outbound.** Sunday Nov 29 is the second rush, and a storm can wipe out Sunday trips.
@@ -277,13 +284,13 @@ Getting to the airport is the gap. In 2023 Swarthout Coaches and the airport ran
 
 ## FAQ
 
-**Does C2C add buses for Thanksgiving?** The C2C office says it may add trips "when feasible" when a bus is full, but it publishes no holiday schedule; check the [live departure table](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule).
+**Does C2C add buses for Thanksgiving?** The C2C office says it may add trips "when feasible" when a bus is full; check the [live departure table](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule) for the day's times.
 
 **Can my parents ride C2C with me?** Yes. C2C is [open to the public, family included](https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4), and the new system books several passengers on one reservation; non-Cornell riders pay $101.
 
 **Is TCAT free to get to my bus stop?** First-years ride [free at all hours](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). Other undergraduates ride free after 6 p.m. on weekdays and all weekend, and pay $1.50 otherwise.
 
-**What if I miss my OurBus?** Not confirmed: OurBus's missed-bus rule. Its cancellations give credit and rescheduling has a fee, so reschedule before departure if you are running late.
+**What if I miss my OurBus?** You buy a new ticket: a missed ticket is [not refundable or transferable to a future bus](https://ourbus.com/FAQ). OurBus may move you to the next bus with space while your original bus is still on its trip, so contact it at once. If you are running late, reschedule online more than 60 minutes before departure; a different fare may apply.
 
 **Can I stay in Ithaca for Thanksgiving?** Yes, and some students do: one in the Sun's 2022 coverage [planned to stay for Cornell Dining's Thanksgiving meal](https://cornellsun.com/2022/11/16/students-share-upcoming-thanksgiving-break-plans).
 

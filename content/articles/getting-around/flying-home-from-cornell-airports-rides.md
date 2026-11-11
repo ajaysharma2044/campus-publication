@@ -1,11 +1,11 @@
 ---
 title: 'Flying home from Cornell: airports, rides, bags, timing'
-meta: Fly from ITH for JFK or Dulles links, SYR for 27 nonstops and a $46.7 to $62.1 bus. Prebook dawn taxis and book Thanksgiving by summer.
+meta: Fly from ITH for JFK or Dulles links, SYR for 27 nonstops and a $46.7 to $62.1 bus. Prebook dawn taxis; Thanksgiving fares bottom out about 34 days ahead.
 primary_query: flying home from Cornell which airport
 topic: getting-around
 school: cornell-university
 type: scenario
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0055
 kind: reader_guide
 readers:
@@ -28,15 +28,12 @@ sources:
   accessed: '2026-11-08'
 - url: https://www.flyithaca.com/parking
   title: Parking, Ithaca Tompkins International Airport
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://flyithaca.com/taxis
   title: Taxis, Ithaca Tompkins International Airport
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.flyithaca.com/public-transportation
   title: Public Transportation, Ithaca Tompkins International Airport
-  accessed: '2026-11-08'
-- url: https://flyithaca.com/?p=13
-  title: Taxi information (older page), Ithaca Tompkins International Airport
   accessed: '2026-11-08'
 - url: https://www.avionio.com/widget/en/ITH/arrivals
   title: ITH arrivals board, Avionio
@@ -55,16 +52,16 @@ sources:
   accessed: '2026-11-08'
 - url: https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny
   title: Ithaca, NY to Syracuse Airport, NY, OurBus
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk
   title: OurBus expands daily Cornell service, The Cornell Daily Sun, September 2026
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources
   title: Travel Resources, Cornell Transportation and Delivery Services
   accessed: '2026-11-08'
 - url: https://www.chemungcountyny.gov/850/Elmira-Corning-Regional-Airport
   title: Elmira Corning Regional Airport, Chemung County
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.airport.guide/kelm/ny/tompkins-co/ithaca
   title: Elmira Corning Regional Airport to Ithaca, airport.guide
   accessed: '2026-11-08'
@@ -73,24 +70,18 @@ sources:
   accessed: '2026-11-08'
 - url: https://assembly.cornell.edu/resolutions/student-assembly/sa-r18-2025-2026
   title: SA R18 (2025-2026), Cornell Student Assembly
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/05/07/student-assembly-funds-free-charter-buses-to-syracuse-ithaca-airports/
   title: Student Assembly Funds Free Charter Buses to Syracuse, Ithaca Airports, The Cornell Daily Sun, May 7, 2024
   accessed: '2026-11-08'
 - url: https://cornellsun.com/2023/11/19/special-thanksgiving-shuttle-connects-cornell-with-ithaca-tompkins-international-airport/
   title: Special Thanksgiving Shuttle Connects Cornell With Ithaca Tompkins International Airport, The Cornell Daily Sun, November 19, 2023
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://registrar.cornell.edu/calendars-exams/academic-calendar
   title: Academic Calendar, Cornell University Registrar
   accessed: '2026-11-08'
 - url: https://www.ourbus.com/blog/?p=6269
   title: 'OurBus blog: Cornell travel and peak dates, August 2026'
-  accessed: '2026-11-08'
-- url: https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899
-  title: Air transportation to and from Ithaca, College Confidential, 2017
-  accessed: '2026-11-08'
-- url: https://talk.collegeconfidential.com/t/traveling-to-and-from-cornell/1599797
-  title: Traveling to and from Cornell, College Confidential, 2014
   accessed: '2026-11-08'
 - url: https://cornellsun.com/2013/12/01/oh-thanksgiving-in-ithaca-stranded-and-starved
   title: 'Oh, Thanksgiving in Ithaca: Stranded and Starved, The Cornell Daily Sun, December 1, 2013'
@@ -115,10 +106,43 @@ sources:
   accessed: '2026-11-08'
 - url: https://www.ourbus.com/routes/ithaca-ny-to-newark-airport-nj
   title: Ithaca, NY to Newark Airport, NJ, OurBus
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and Passes, Cornell Transportation and Delivery Services
   accessed: '2026-11-08'
+- url: https://assembly.cornell.edu/resolutions/student-assembly/sa-r11-2024-2025
+  title: 'SA R11 (2024-2025): Providing Airport Transit Service During Final Week, Cornell Student Assembly'
+  accessed: '2026-11-11'
+- url: https://assembly.cornell.edu/resolutions/student-assembly/sa-r38-2024-2025
+  title: 'SA R38 (2024-2025): Approving Budget for Finals Week Airport Shuttle, Cornell Student Assembly'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/winter-break-closing-checklist
+  title: Winter Break 2026 Closing Checklist, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: http://www.bigredboxes.com/BRSS_Pricing
+  title: Pricing, Big Red Shipping and Storage
+  accessed: '2026-11-11'
+- url: https://chemungcountyny.gov/854/Ground-Transportation
+  title: Ground Transportation, Elmira Corning Regional Airport, Chemung County
+  accessed: '2026-11-11'
+- url: https://chemungcountyny.gov/853/Parking
+  title: Parking, Elmira Corning Regional Airport, Chemung County
+  accessed: '2026-11-11'
+- url: https://blog.google/products-and-platforms/products/search/holiday-travel-trends-2026/
+  title: 'Wheels up: Trends and tips for 2026 holiday travel, Google, October 5, 2026'
+  accessed: '2026-11-11'
+- url: https://www.wrvo.org/2026-01-23/passengers-flying-in-and-out-of-cny-airports-should-check-with-their-airlines
+  title: Passengers flying in and out of CNY airports should check with their airlines, WRVO, January 23, 2026
+  accessed: '2026-11-11'
+- url: https://cornellsun.com/article/2026/01/cornell-closes-ithaca-agritech-campuses-beginning-sunday-ahead-of-upcoming-snowstorm
+  title: Cornell Closes Ithaca, AgriTech Campuses Beginning Sunday Ahead of Upcoming Snowstorm, The Cornell Daily Sun, January 24, 2026
+  accessed: '2026-11-11'
+- url: https://www.pbs.org/newshour/economy/as-jet-fuel-costs-soar-delta-joins-growing-list-of-u-s-airlines-raising-checked-bag-fees
+  title: As jet fuel costs soar, Delta joins growing list of U.S. airlines raising checked bag fees, PBS NewsHour, April 7, 2026
+  accessed: '2026-11-11'
+- url: https://www.goodmorningamerica.com/travel/story/united-airlines-raises-checked-bag-fees-travelers-131687092
+  title: United Airlines raises checked bag fees for travelers, Good Morning America, April 3, 2026
+  accessed: '2026-11-11'
 subject:
 - Ithaca Tompkins International Airport
 images:
@@ -137,8 +161,8 @@ images:
 - SYR by OurBus from campus: $46.7 to $62.1 each way, about $93 to $124 round trip, Sunday cheapest.
 - No bus meets a dawn flight at ITH; the terminal opens at 3:30 a.m., so prebook a taxi the night before.
 - A parked week costs $40 at ITH long-term and about $98 at SYR economy (our math at the $14 daily max).
-- Thanksgiving break is Nov 25 to 29, 2026; forum parents booked flights in June or July and kept a backup airport.
-- Free Student Assembly finals charters to ITH and SYR ran in spring 2026; a fall 2026 run is not confirmed yet.
+- Thanksgiving break is Nov 25 to 29, 2026; Google Flights data puts the lowest fares about 34 days before departure, so book in October.
+- Free Student Assembly charters to ITH and SYR have been funded after finals every term since May 2024; undergraduates sign up on Campus Groups.
 ```
 
 Fly from Ithaca (ITH) when a single connection through JFK or Dulles gets you home, because it is close and its terminal opens at [3:30 a.m.](https://flyithaca.com). Fly from Syracuse (SYR) when you want a nonstop or a backup: it serves [27 destinations](https://www.syrairport.org/) against ITH's [two](https://flyithaca.com/airlines), and the campus bus costs [$46.7 to $62.1 each way](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny). Book Thanksgiving by summer, and prebook a taxi for any early-morning flight.
@@ -148,7 +172,7 @@ Your first trip home is Thanksgiving: classes stop Nov 25 and resume after Nov 2
 ```
 
 ```reader "If you're catching a 6 a.m. flight"
-ITH's terminal opens at [3:30 a.m.](https://flyithaca.com), but no TCAT bus runs that early. Call one of the three firms the [airport lists](https://flyithaca.com/taxis) the day before: Ithaca Airport Cab 607-252-9052, Collegetown Cab 607-588-8888 or Ithaca Dispatch 607-277-7777. All three run 24/7. For SYR, a dawn flight means the night before: OurBus's trip takes 1 h 25 min to 2 h 05 min, per the [route page](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny). Cornell lists Big D's Limousines (607-273-3030 ext 2) for Syracuse rides, with no posted price, on its [travel page](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources).
+ITH's terminal opens at [3:30 a.m.](https://flyithaca.com), but no TCAT bus runs that early. Call one of the three firms the [airport lists](https://flyithaca.com/taxis) the day before: Ithaca Airport Cab 607-252-9052, Collegetown Cab 607-588-8888 or Ithaca Dispatch 607-277-7777. All three run 24/7. For SYR, a dawn flight means the night before: OurBus's trip takes 1 h 25 min to 2 h 05 min, per the [route page](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny). Cornell lists Big D's Limousines (607-273-3030 ext 2) for Syracuse rides on its [travel page](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources).
 ```
 
 ```reader "If you're a student with a car on campus"
@@ -156,7 +180,7 @@ Driving yourself to the airport works, and ITH is the cheap place to park. Long-
 ```
 
 ```reader "If you're a parent booking the tickets"
-Price both airports with the ground leg included. ITH saves the bus but has two routes today, so one cancellation can mean a long wait; [2017 forum posters](https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899) warned of limited flights. SYR adds $93 to $124 round trip on OurBus. A 2014 parent called Syracuse the better winter choice on [College Confidential](https://talk.collegeconfidential.com/t/traveling-to-and-from-cornell/1599797). Avoid a Sunday-after-Thanksgiving return with no slack: storms have hit that weekend, and the Dec 2019 storm cancelled connecting flights through DC and Detroit, per [the Sun](https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs). Book Thanksgiving in summer.
+Price both airports with the ground leg included. ITH saves the bus but has two routes today, so one cancellation can mean a long wait. SYR adds $93 to $124 round trip on OurBus and gives you 27 nonstop destinations to rebook through. Avoid a Sunday-after-Thanksgiving return with no slack: storms have hit that weekend, and the Dec 2019 storm cancelled connecting flights through DC and Detroit, per [the Sun](https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs). Book Thanksgiving in October: Google's five-year look at Google Flights data puts the lowest fares about 34 days before departure ([Google](https://blog.google/products-and-platforms/products/search/holiday-travel-trends-2026/)).
 ```
 
 ```reader "If you're staying for Thanksgiving instead"
@@ -173,17 +197,17 @@ SYR is the bigger hub. Its [destinations page](https://syrairport.org/destinatio
 - United: O'Hare, Denver, Dulles.
 - JetBlue: Boston, Fort Lauderdale, JFK, Orlando.
 
-Elmira Corning (ELM) is about 36 miles and 45 minutes away by road, per [airport.guide](https://www.airport.guide/kelm/ny/tompkins-co/ithaca). The [county page](https://www.chemungcountyny.gov/850/Elmira-Corning-Regional-Airport) shows Allegiant and Delta. No scheduled bus link to Ithaca is confirmed, so ELM works only with a car or a ride.
+Elmira Corning (ELM) is about 36 miles and 45 minutes away by road, per [airport.guide](https://www.airport.guide/kelm/ny/tompkins-co/ithaca). The [county page](https://www.chemungcountyny.gov/850/Elmira-Corning-Regional-Airport) shows Allegiant and Delta. Its [ground transportation page](https://chemungcountyny.gov/854/Ground-Transportation) lists two taxi firms, Lyft and five rental-car counters next to baggage claim, so ELM works with a car or a ride. Parking tops out at $9 a day or $45 a week in the economy lot and $11 a day or $55 a week long-term ([ELM parking](https://chemungcountyny.gov/853/Parking)).
 
 | | ITH (Ithaca) | SYR (Syracuse) | ELM (Elmira Corning) |
 |---|---|---|---|
 | Distance from Ithaca | About 10 minutes from downtown | 51.4 miles on the OurBus route | About 36 miles, 45 minutes |
 | Scheduled nonstops | 2 (JFK, Dulles) | 27 destinations | Allegiant and Delta shown |
-| Ground link from campus | TCAT 32 (weekdays) or 72 (weekends), $1.50; taxi | OurBus $46.7 to $62.1 each way; car service | None confirmed |
-| A week of parking | $40 long-term | About $98 at the $14 economy daily max | Not on the county page |
+| Ground link from campus | TCAT 32 (weekdays) or 72 (weekends), $1.50; taxi | OurBus $46.7 to $62.1 each way; car service | Car, taxi or Lyft |
+| A week of parking | $40 long-term | About $98 at the $14 economy daily max | $45 economy, $55 long-term |
 | Best for | One connection home, short trips | Nonstops to big hubs; winter backup | Drivers chasing an Allegiant fare |
 
-Pick by where home is. If Dulles or JFK is a natural connection for your airline, ITH saves you two hours of bus. If home is a Delta, American or United hub that SYR flies to nonstop, SYR often saves a connection. Not confirmed: airfares at ITH against SYR. A 2014 poster on [College Confidential](https://talk.collegeconfidential.com/t/traveling-to-and-from-cornell/1599797) said flying from NYC ran about $200 less than from ITH, but that is one person, 12 years ago. Price both on the same dates.
+Pick by where home is. If Dulles or JFK is a natural connection for your airline, ITH saves you two hours of bus. If home is a Delta, American or United hub that SYR flies to nonstop, SYR often saves a connection. Price both airports on the same dates, with the ground leg added, before you decide.
 
 ```figure
 kind: cost_table
@@ -201,13 +225,13 @@ Example: a sophomore whose family lives near Denver flies home for winter break,
 
 ## Getting to each airport, including dawn flights
 
-**ITH.** TCAT Route 32 runs on weekdays and Route 72 on weekends between the airport and the Ithaca Commons. The fare is $1.50 by cash, card, phone wallet, Tcard or the TFare app ([airport transit page](https://www.flyithaca.com/public-transportation)). To reach the Commons from campus, take Route 10. First-years ride TCAT free at all hours; other undergraduates ride free after 6 p.m. on weekdays and all weekend ([Cornell bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). Not confirmed: the 2026 Route 32 and 72 timetables, so read the live schedule before you trust any time.
+**ITH.** TCAT Route 32 runs on weekdays and Route 72 on weekends between the airport and the Ithaca Commons. The fare is $1.50 by cash, card, phone wallet, Tcard or the TFare app ([airport transit page](https://www.flyithaca.com/public-transportation)). To reach the Commons from campus, take Route 10. First-years ride TCAT free at all hours; other undergraduates ride free after 6 p.m. on weekdays and all weekend ([Cornell bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). Check the live timetable at tcatbus.com before you pick a departure.
 
-The bus does not meet the first flights. For those, take a taxi. The [airport's taxi page](https://flyithaca.com/taxis) lists three firms, all 24/7, and tells late-flight travelers to prebook. It lists no fares, and it says Uber and Lyft work by app. An older airport page showed Collegetown Cab at $12 base within a mile of the airport, $15 minimum beyond, and $1.50 per bag ([older page](https://flyithaca.com/?p=13)). Not confirmed: today's campus-to-ITH taxi fare.
+The bus does not meet the first flights. For those, take a taxi. The [airport's taxi page](https://flyithaca.com/taxis) lists three firms, all available 24/7, says to call them for pricing, and tells late-flight travelers to prearrange the ride. Uber and Lyft work by app. Ask for the fare to your dorm when you book.
 
-**SYR.** OurBus runs from campus to SYR Terminal A six days a week, per the [Sun](https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk). Board on North Campus on Jessup Road behind Ganedago Hall, on West Campus on West Ave across from Baker Flagpole, or at the Cayuga St Garage ([OurBus](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny)). Fares run $46.7 to $62.1 each way; Sunday is cheapest and Monday dearest. Not confirmed: which day of the week the SYR bus skips. The other options are Big D's car service or a taxi; one commercial transfer site puts a taxi at about $200, unverified.
+**SYR.** OurBus runs from campus to SYR Terminal A six days a week, per the [Sun](https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk). Board on North Campus on Jessup Road behind Ganedago Hall, on West Campus on West Ave across from Baker Flagpole, or at the Cayuga St Garage ([OurBus](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny)). Fares run $46.7 to $62.1 each way, with Sunday the cheapest day. The other options are Big D's car service or a taxi.
 
-**NYC airports.** No direct bus runs from Ithaca to JFK or LaGuardia. OurBus lists a Newark Airport route from Baker Flagpole and Jessup Road, dropping at an AirTrain stop its pages give as P3 or P4 ([OurBus](https://www.ourbus.com/routes/ithaca-ny-to-newark-airport-nj)), so check the booking. The [NYC airport guide](/getting-around/ithaca-to-jfk-lga-newark-airport-bus/) covers those routes.
+**NYC airports.** No direct bus runs from Ithaca to JFK or LaGuardia. OurBus lists a Newark Airport route from Baker Flagpole and Jessup Road, from $95.7, dropping at the AirTrain P3 station ([OurBus](https://www.ourbus.com/routes/ithaca-ny-to-newark-airport-nj)). The [NYC airport guide](/getting-around/ithaca-to-jfk-lga-newark-airport-bus/) covers those routes.
 
 | Departure | ITH | SYR |
 |---|---|---|

@@ -5,7 +5,7 @@ primary_query: Cornell freshman transportation
 topic: getting-around
 school: cornell-university
 type: scenario
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0049
 kind: reader_guide
 readers:
@@ -37,15 +37,12 @@ sources:
   accessed: '2026-11-08'
 - url: https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation
   title: Parking and Transportation, Cornell Family Resource Hub
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
   title: Parking for Students, Cornell Facilities and Campus Services
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/
   title: On-Campus Parking Violation Fines Increase for First Time Since 2014, The Cornell Daily Sun, September 4, 2023
-  accessed: '2026-11-08'
-- url: https://talk.collegeconfidential.com/t/should-i-bring-a-car/1811430
-  title: Should I bring a car?, College Confidential, 2016
   accessed: '2026-11-08'
 - url: https://www.ithacacarshare.org/eligibility
   title: Eligibility, Ithaca Carshare
@@ -105,8 +102,8 @@ sources:
   title: Winter Break Housing, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice
-  title: Winter Closing Notice, Cornell Student & Campus Life
-  accessed: '2026-11-08'
+  title: Winter Break 2026 Closing Checklist, Cornell Student & Campus Life
+  accessed: '2026-11-11'
 - url: https://flyithaca.com/airlines
   title: Airlines, Ithaca Tompkins International Airport
   accessed: '2026-11-08'
@@ -115,7 +112,7 @@ sources:
   accessed: '2026-11-08'
 - url: https://flyithaca.com/taxis
   title: Taxis, Ithaca Tompkins International Airport
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/05/07/student-assembly-funds-free-charter-buses-to-syracuse-ithaca-airports/
   title: Student Assembly Funds Free Charter Buses to Syracuse, Ithaca Airports, The Cornell Daily Sun, May 7, 2024
   accessed: '2026-11-08'
@@ -128,9 +125,9 @@ sources:
 - url: https://assembly.cornell.edu/resolutions/student-assembly/sa-r83-2025-2026
   title: SA Resolution 83 (2025-26), Cornell Student Assembly
   accessed: '2026-11-08'
-- url: https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899
-  title: Air transportation to and from Ithaca, College Confidential, 2017
-  accessed: '2026-11-08'
+- url: https://assembly.cornell.edu/resolutions/student-assembly/sa-r18-2025-2026
+  title: 'SA Resolution 18 (2025-26): Approving Budget for Finals Week Airport Shuttle, Cornell Student Assembly'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/05/busses-trains-and-planes-getting-to-and-from-cornell
   title: 'Busses, Trains and Planes: Getting To and From Cornell, The Cornell Daily Sun, May 4, 2025'
   accessed: '2026-11-08'
@@ -184,7 +181,7 @@ Choose the bus by where you are going in Manhattan, and by your bags. C2C leaves
 ```
 
 ```reader "If you're flying home"
-Ithaca's airport has [two routes](https://flyithaca.com/airlines): Delta to JFK and United to Washington Dulles. One cancellation can strand you. TCAT Route 32 on weekdays and Route 72 on weekends run to the airport, free with your Cornell ID. No bus meets a 5:30 a.m. flight, so prebook a taxi. Syracuse has [nonstops to 27 destinations](https://www.syrairport.org/), and OurBus runs there from North and West Campus six days a week for [$46.7 to $62.1 each way](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny). Book Thanksgiving flights early and keep a backup airport. The free Student Assembly finals charters to ITH and SYR have no fall 2026 run announced as of Nov 8.
+Ithaca's airport has [two routes](https://flyithaca.com/airlines): Delta to JFK and United to Washington Dulles. One cancellation can strand you. TCAT Route 32 on weekdays and Route 72 on weekends run to the airport, free with your Cornell ID. No bus meets a 5:30 a.m. flight, so prebook a taxi. Syracuse has [nonstops to 27 destinations](https://www.syrairport.org/), and OurBus runs there from North and West Campus six days a week for [$46.7 to $62.1 each way](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny). Book Thanksgiving flights early and keep a backup airport.
 ```
 
 ```reader "If you're a parent paying for the trips"
@@ -223,11 +220,9 @@ Cornell's families page says first-years are [discouraged from bringing a car, t
 - **The fines.** Parking without a permit or payment is [$50, plus $10 if unpaid after 10 days](https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/). A fire lane or accessible space is $150 with a tow.
 - **Winter.** From Dec 1 to Apr 1, overnight campus parking when snow is forecast is [limited to listed lots and garages](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules).
 
-Forum advice agrees. In a [2016 College Confidential thread](https://talk.collegeconfidential.com/t/should-i-bring-a-car/1811430), about five of 16 posts told an incoming freshman outright to skip the car: parking is scarce and costly, and TCAT and walking cover it. By our tally, two-thirds to four-fifths of the thread's arguments, from 8 to 10 posters, were against. It is one old thread, not a survey.
+If you still want a permit, a first-year may buy one. On the [student parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students), eligibility for a resident permit turns on living in university housing, not on class year. Permit questions go to Transportation Services at 607-255-4600, open Mon to Fri 7:30 a.m. to noon.
 
 For the odd grocery run, Ithaca Carshare has student plans, but check its [eligibility rules](https://www.ithacacarshare.org/eligibility) first. Drivers must be 18 and have held a full, unrestricted license for 2 years. Under 21, you also need a spotless record and your own insurance policy with at least $300,000 per accident in liability. Most first-years are under 21, so check this before you count on it.
-
-Not confirmed: whether a first-year may register a car at all. The student permit page lists no first-year rule; ask Transportation Services at [607-255-4600](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes).
 
 ```tool do-i-need-a-car-at-cornell-quiz```
 
@@ -235,7 +230,7 @@ The full car rules are in the [student car guide](/getting-around/having-a-car-a
 
 ## Getting home to NYC: C2C, OurBus or another bus
 
-About 31% of first-years come from NYC, by the author's own figure in a [2025 Cornell Sun student guide](https://www.cornellsun.com/article/2025/05/busses-trains-and-planes-getting-to-and-from-cornell). Nine student guides, news stories and forum threads from 2014 to 2026 call the bus the default way home. Your real choice is Cornell's own coach or a commercial carrier.
+About 31% of first-years come from NYC, by the author's own figure in a [2025 Cornell Sun student guide](https://www.cornellsun.com/article/2025/05/busses-trains-and-planes-getting-to-and-from-cornell). Your real choice is Cornell's own coach or a commercial carrier.
 
 | | C2C (Cornell) | OurBus | Greyhound and FlixBus |
 |---|---|---|---|
@@ -271,7 +266,7 @@ Full carrier detail is in the [NYC bus comparison](/getting-around/nyc-to-cornel
 C2C moved to a [new reservation system on Nov 4, 2026](https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4). Everyone needs a new account, even past riders.
 
 1. **Sign in with Cornell single sign-on.** That gets the $93.50 NetID fare. A standard account pays the $101 public fare.
-2. **Use the right link.** Departures through Dec 23, 2026 book on the "2026 Travel Reservations" link. Departures from Jan 6, 2027 book on the "2027" link ([C2C page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service)). Nothing is listed between Dec 24 and Jan 5.
+2. **Use the right link.** Departures through Dec 23, 2026 book on the "2026 Travel Reservations" link. Departures from Jan 6, 2027 book on the "2027" link ([C2C page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service)). The two links skip Dec 24 to Jan 5.
 3. **Check the day's times on the live table.** The schedule changed on Aug 1, 2026.
 4. **Board 10 minutes early with photo ID** matching your booking. The Ithaca stops run North Campus first, then Sage Hall 15 minutes later, then B Lot 30 minutes later.
 5. **Change or cancel only in the system.** The [C2C policies](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations) charge $10 a seat to cancel 8 or more hours ahead and $30 inside 8 hours. Phone and email cancellations are not accepted.
@@ -291,7 +286,7 @@ Check your downtown stop too. From Mon Nov 9, 2026, OurBus boards downtown at [2
 
 Cornell's [2026-27 calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar) puts Thanksgiving break at Nov 25 to 29, 2026. Fall finals run Dec 11 to 19, and spring term begins Jan 25, 2027. OurBus names three [peak travel days](https://www.ourbus.com/blog/?p=6269): the Wednesday before Thanksgiving, the last day of December finals and the Friday spring break begins.
 
-Prices rise as those days near. In our Nov 8 reading of daily lowest fares on three Ithaca routes (Binghamton, Rochester and DC, on [CheckMyBus](https://www.checkmybus.com/ithaca-ny/binghamton-ny)), Thanksgiving-week floors ran 28% to 38% above earlier November days. That is a mean of 33.4% across 51 priced dates. NYC was not in the sample. If the same premium held, a $66 OurBus floor round trip would cost about $88.
+Prices rise as those days near. In our Nov 8 reading of daily lowest fares on three Ithaca routes (Binghamton, Rochester and DC, on [CheckMyBus](https://www.checkmybus.com/ithaca-ny/binghamton-ny)), Thanksgiving-week floors ran 28% to 38% above earlier November days. That is a mean of 33.4% across 51 priced dates. At the same premium, a $66 OurBus floor round trip to NYC would cost about $88.
 
 Plan the return as carefully as the trip out. On Dec 1 and 2, 2019, a storm after Thanksgiving [cancelled OurBus trips](https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs). For Eva Zhang '23, a ShortLine bus slid off the road, and the replacement took about 9 hours against the usual 4 to 5. A student forecaster's advice in the [Sun that weekend](https://cornellsun.com/2019/11/30/under-heavy-snow-forecast-university-mum-on-class-cancellation) was to come back by Saturday night or early Sunday when a storm is forecast.
 
@@ -313,7 +308,7 @@ rows:
 
 Staying for winter break instead? [Winter break housing](https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing) costs $125 for each one-week option or $500 for the full break. Apply by Dec 1. Mail stops Dec 23 and resumes Jan 7.
 
-Not confirmed: when residences close for winter break 2026. Last year they [closed at 2 p.m. on Sun Dec 21, 2025](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice).
+Residences close at 2 p.m. on Sun Dec 20, 2026, the day after finals end, and reopen at 9 a.m. on Tue Jan 19, 2027 ([winter closing checklist](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice)). Staying past 2 p.m. costs $60 an hour, and a late-departure request goes through the Housing and Dining Portal by Mon Dec 7.
 
 ```tool cornell-break-travel-timeline-2026-27```
 
@@ -329,11 +324,11 @@ Sources: [ITH airlines](https://flyithaca.com/airlines), [ITH buses](https://www
 
 The ITH-Newark flight [ended in 2025](https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk). OurBus to SYR picks up on North Campus behind Ganedago Hall, on West Ave across from Baker Flagpole and at the Cayuga St Garage. Sunday is its cheapest day.
 
-Early flights are the gap. The Student Assembly president said in 2024 that for 5:30 a.m. flights there is ["literally no transportation available"](https://cornellsun.com/2024/05/07/student-assembly-funds-free-charter-buses-to-syracuse-ithaca-airports/) beyond costly rides. Prebook a taxi. The [airport lists](https://flyithaca.com/taxis) Ithaca Airport Cab (607-252-9052), Collegetown Cab (607-588-8888) and Ithaca Dispatch (607-277-7777). No fares are posted.
+Early flights are the gap. The Student Assembly president said in 2024 that for 5:30 a.m. flights there is ["literally no transportation available"](https://cornellsun.com/2024/05/07/student-assembly-funds-free-charter-buses-to-syracuse-ithaca-airports/) beyond costly rides. Prebook a taxi. The [airport lists](https://flyithaca.com/taxis) Ithaca Airport Cab (607-252-9052), Collegetown Cab (607-588-8888) and Ithaca Dispatch (607-277-7777). Text or call for a price; the airport says taxis are there 24/7 and advises prearranging a ride for a late flight.
 
-In finals week, the Student Assembly has paid for free charters to ITH and SYR for undergraduates. The spring 2026 run got [$10,668.87](https://assembly.cornell.edu/resolutions/student-assembly/sa-r83-2025-2026), with first-come sign-up on Campus Groups; the money was approved on Apr 16, 2026. Not confirmed: a fall 2026 charter; none was announced as of Nov 8.
+In finals week, the Student Assembly has paid for free charters to ITH and SYR for undergraduates since May 2024. The fall 2025 run got [$7,853.32, voted on Nov 13, 2025](https://assembly.cornell.edu/resolutions/student-assembly/sa-r18-2025-2026), and the spring 2026 run got [$10,668.87](https://assembly.cornell.edu/resolutions/student-assembly/sa-r83-2025-2026), approved on Apr 16, 2026. Sign-up is first come on Campus Groups.
 
-Forum posters in [2017](https://talk.collegeconfidential.com/t/air-transportation-to-and-from-ithaca/1892899) booked Thanksgiving flights in June or July and kept a backup airport. If you need a train, the nearest Amtrak station is in [Syracuse](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources). Airport choice and timing in full: [flying home from Cornell](/getting-around/flying-home-from-cornell-airports-rides/) and [ITH, SYR or ELM](/getting-around/ith-syr-or-elm-which-airport-for-cornell/).
+If you need a train, the nearest Amtrak station is in [Syracuse](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources). Airport choice and timing in full: [flying home from Cornell](/getting-around/flying-home-from-cornell-airports-rides/) and [ITH, SYR or ELM](/getting-around/ith-syr-or-elm-which-airport-for-cornell/).
 
 ## What a year of travel costs
 
@@ -370,7 +365,7 @@ The $33 OurBus floor is from its [route page](https://www.ourbus.com/routes/itha
 
 **What if a storm cancels my bus back after break?** Operators cancel early and add earlier trips: in 2019 OurBus [cancelled Sunday trips and added Saturday ones](https://cornellsun.com/2019/11/30/under-heavy-snow-forecast-university-mum-on-class-cancellation). Rebook on an earlier bus as soon as a storm is forecast.
 
-**Is there a Cornell shuttle to the airport at Thanksgiving?** Not for 2026 as of Nov 8. In 2023 a one-off Swarthout shuttle ran to ITH for [$14 one way](https://cornellsun.com/2023/11/19/special-thanksgiving-shuttle-connects-cornell-with-ithaca-tompkins-international-airport/), so watch for a repeat; otherwise take TCAT 32 or 72.
+**How do I get to the Ithaca airport at Thanksgiving?** TCAT 32 on a weekday or 72 on the weekend, free with your ID, or a prebooked taxi for an early flight. In 2023 the airport and Swarthout Coaches ran a one-off campus shuttle for [$14 one way](https://cornellsun.com/2023/11/19/special-thanksgiving-shuttle-connects-cornell-with-ithaca-tompkins-international-airport/), so watch for a repeat.
 
 **Does C2C go to Boston or Philadelphia?** No. The [rates page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates) lists only the NYC route.
 

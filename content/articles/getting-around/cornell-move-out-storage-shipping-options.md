@@ -8,7 +8,7 @@ primary_query: cornell summer storage options
 topic: getting-around
 school: cornell-university
 type: comparison
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 15
 rewrites: content/articles/getting-around/cornell-move-out-storage-shipping-options.md
 queue_id: q-getting-around-0047
@@ -31,7 +31,7 @@ sources:
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options
   title: Storage & Shipping Options, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
@@ -40,7 +40,10 @@ sources:
   accessed: '2026-11-10'
 - url: http://www.bigredboxes.com/BRSS_Pricing
   title: Pricing, Big Red Shipping & Storage
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: http://www.bigredboxes.com/BRSS_TermsAndConditions
+  title: Terms and Conditions, Big Red Shipping & Storage
+  accessed: '2026-11-11'
 - url: http://www.bigredboxes.com/
   title: Big Red Shipping & Storage
   accessed: '2026-11-10'
@@ -76,10 +79,13 @@ sources:
   accessed: '2026-11-10'
 - url: https://storagesquad.com/summer-storage/cornell-university/
   title: Summer storage at Cornell University, Storage Squad
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://storagesquad.com/cornell/
   title: Room Direct for Cornell University, Storage Squad
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://storagesquad.com/terms-and-conditions/
+  title: Terms and Conditions, Storage Squad
+  accessed: '2026-11-11'
 - url: https://www.storagescholars.com/cities-we-serve/ithaca-ny
   title: Ithaca, NY, Storage Scholars
   accessed: '2026-11-10'
@@ -175,18 +181,18 @@ Six boxes cost $270 to $294 for the summer at Big Red, Storage Squad or Uncle Ma
 |---|---|---|---|---|---|
 | Big Red Shipping and Storage (BRSS) | Cornell's contracted vendor, run by Student Agencies | 409 College Ave., Collegetown | Crew picks up from your room and delivers back | $39 small box, $49 large box, $49 to $150 per loose item | One flat price for a 3- to 4-month term |
 | BRSS shipping | Same company, shipping by FedEx | 409 College Ave. | Crew picks up from your room | FedEx rates, set at pickup | One-way |
-| Storage Squad | Pickup service founded by Cornell students in 2011 | Not posted | Crew picks up and delivers back to your dorm | $36 to $75 per item; oversized items $20 more | 4-month summer term |
+| Storage Squad | Pickup service founded by Cornell students in 2011 | Climate-controlled facility chosen by the company | Crew picks up and delivers back to your dorm | $36 to $75 per item; oversized items $20 more | 4-month summer term |
 | Storage Scholars | National pickup service founded in 2017 | Winston-Salem, N.C. | Crew picks up and delivers back | $14 to $40 per item a month | 4-month minimum for summer |
 | Uncle Marty's | Local print, ship and storage shop | 206A Dryden Rd., Collegetown; 704 W. Buffalo St., downtown | You drop off free, or pay for curbside or inside pickup | $15 to $60 per item a month | 1-month minimum, then billed every two weeks |
 | Bolt Storage, Dryden Road | Self-storage, climate-controlled and drive-up | 1401 Dryden Rd. (Route 366), Freeville | You haul it | $84 a month for a 5x5 drive-up unit; $96 climate-controlled | Month to month |
 | Bolt Storage, Pinckney Road | Self-storage, drive-up only | 53 Pinckney Rd., Ithaca | You haul it | $106 a month for a 5x8 or 5x10 | Month to month |
 | Bolt Storage, Lansing | Self-storage, drive-up only | 1101 Ridge Rd. (Route 34B), Lansing | You haul it | $99 a month for a 5x10 | Month to month |
-| Storage Sense | Self-storage | 1395 Danby Rd., Ithaca | You haul it | $89 a month for a 5x5 (listed deal; $112 regular) | Not posted |
-| 4-Season Storage | Self-storage | 1395 Dryden Rd., Ithaca | You haul it | Not posted | Not posted |
-| U-Haul Moving & Storage of Newfield | Self-storage | Newfield | You haul it | $130 a month for a 5x5 | Not posted |
+| Storage Sense | Self-storage | 1395 Danby Rd., Ithaca | You haul it | $89 a month for a 5x5 (listed deal; $112 regular) | |
+| 4-Season Storage | Self-storage | 1395 Dryden Rd., Ithaca | You haul it | Quote by phone | |
+| U-Haul Moving & Storage of Newfield | Self-storage | Newfield | You haul it | $130 a month for a 5x5 | |
 | Take it home | Bus, car or plane | | You carry it | OurBus: one suitcase free, $30 per extra bag | |
 
-Sources: [BRSS pricing](http://www.bigredboxes.com/BRSS_Pricing); [Storage Squad, Cornell](https://storagesquad.com/summer-storage/cornell-university/); [Storage Scholars blog](https://www.storagescholars.com/blog/college-storage-cost-calculator-pricing); [Uncle Marty's storage](https://www.unclemartysoffice.com/storage); Bolt Storage pages for [Dryden Road](https://www.boltstorage.com/self-storage/freeville-ny), [Pinckney Road](https://www.boltstorage.com/self-storage/ithaca-ny) and [Lansing](https://www.boltstorage.com/self-storage/lansing-ny); [SpareFoot](https://www.sparefoot.com/Ithaca-NY-self-storage.html) for Storage Sense; [Neighbor](https://www.neighbor.com/facility/new-york/ithaca/4-season-storage/1395-dryden-rd/9693) for 4-Season; [Neighbor's price comparison](https://www.neighbor.com/facility/new-york/freeville/bolt-storage/1401-dryden-rd/14857) for U-Haul Newfield; [OurBus](https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university). Self-storage prices are listed monthly rates and change with promotions.
+Sources: [BRSS pricing](http://www.bigredboxes.com/BRSS_Pricing); [Storage Squad, Cornell](https://storagesquad.com/summer-storage/cornell-university/) and [Storage Squad terms](https://storagesquad.com/terms-and-conditions/); [Storage Scholars blog](https://www.storagescholars.com/blog/college-storage-cost-calculator-pricing); [Uncle Marty's storage](https://www.unclemartysoffice.com/storage); Bolt Storage pages for [Dryden Road](https://www.boltstorage.com/self-storage/freeville-ny), [Pinckney Road](https://www.boltstorage.com/self-storage/ithaca-ny) and [Lansing](https://www.boltstorage.com/self-storage/lansing-ny); [SpareFoot](https://www.sparefoot.com/Ithaca-NY-self-storage.html) for Storage Sense; [Neighbor](https://www.neighbor.com/facility/new-york/ithaca/4-season-storage/1395-dryden-rd/9693) for 4-Season; [Neighbor's price comparison](https://www.neighbor.com/facility/new-york/freeville/bolt-storage/1401-dryden-rd/14857) for U-Haul Newfield; [OurBus](https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university). Self-storage prices are listed monthly rates and change with promotions.
 
 <!-- ad-break -->
 
@@ -210,7 +216,7 @@ The newest arrival is national. Storage Scholars was founded in 2017 by Sam Chas
 
 ## Big Red Shipping and Storage, the default
 
-Cornell's housing office sends students to Big Red first. It calls the company its contracted vendor and says "their prices are the most affordable in Ithaca" ([Cornell Storage & Shipping Options](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options)). Cornell's page gives no prices to back that up. Big Red's own price list does.
+Cornell's housing office sends students to Big Red first. It calls the company its contracted vendor and says "their prices are the most affordable in Ithaca" ([Cornell Storage & Shipping Options](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options)). Big Red's own price list puts numbers on that claim.
 
 ```figure
 kind: cost_table
@@ -228,7 +234,7 @@ rows:
 
 Source: [BRSS pricing](http://www.bigredboxes.com/BRSS_Pricing).
 
-Every price covers pickup, storage and delivery for one term of three to four months. Extra fees can apply for overweight, oversized or fragile items, late reschedules, missed appointments and boxes that are not Big Red's. The page does not say how much those fees are (BRSS pricing).
+Every price covers pickup, storage and delivery for one term of three to four months. Extra fees can apply for overweight, oversized or fragile items, late reschedules, missed appointments and boxes that are not Big Red's (BRSS pricing). Big Red's terms put amounts on most of them. Any appointment between May 8 and 28 carries a $25 peak fee, and the busiest move-out and move-in days add $20 more. A box over 50 pounds costs $35 extra for the term, and one over 70 pounds or 6 cubic feet costs $50. Shrink-wrapping a fragile or large item costs $10, and an item that takes more than two people to carry costs $15. Rescheduling within 48 hours costs $25. Cancelling within 48 hours, or missing an appointment after a 15-minute grace period, costs $65. Each box or item is insured for up to $100 against damage from the company's negligence, and extra coverage costs $10 per $100, up to $500 more ([BRSS terms](http://www.bigredboxes.com/BRSS_TermsAndConditions)).
 
 Booking runs online. You create an account at bigredboxes.com, pick a time slot and buy boxes and tape. Supplies can be picked up at the 409 College Ave. front desk or delivered for a fee. Every order's status flips to "confirmed" 48 hours before the appointment day, which means you are on the truck list (Big Red Shipping & Storage). Cornell's page adds that Big Red can pack for you, picks up free from a dorm, apartment or house, and stores items in a climate-controlled building. On "Free Box Days," customers with an appointment can pick up free boxes. The phone number is 607-524-3130 (Cornell Storage & Shipping Options).
 
@@ -236,7 +242,7 @@ The flat price is the catch and the appeal. A box costs the same whether you nee
 
 ## The other pickup services
 
-**Storage Squad** prices by item for a four-month summer term. A small item, such as a lamp or a mirror, is $36. A standard item, which includes its 24-by-17-by-15-inch Mega Box, a cube fridge or a carry-on, is $45. Large items are $65, extra-large items such as luggage or a bicycle are $75, and a futon, couch or mattress adds $20 to the extra-large price. Boxes, tape and labels are free. The company says most students store four to six boxes plus one or two bigger things and spend about $400. It also sells a "Room Return" plan: up to 25 items picked up and returned for $750. A reservation fee holds your spot, and the page does not list its amount ([Storage Squad, Cornell](https://storagesquad.com/summer-storage/cornell-university/)).
+**Storage Squad** prices by item for a four-month summer term. A small item, such as a lamp or a mirror, is $36. A standard item, which includes its 24-by-17-by-15-inch Mega Box, a cube fridge or a carry-on, is $45. Large items are $65, extra-large items such as luggage or a bicycle are $75, and a futon, couch or mattress adds $20 to the extra-large price. Boxes, tape and labels are free. The company says most students store four to six boxes plus one or two bigger things and spend about $400. It also sells a "Room Return" plan: up to 25 items picked up and returned for $750. A reservation fee holds your spot ([Storage Squad, Cornell](https://storagesquad.com/summer-storage/cornell-university/)). It is refundable until two weeks before your pickup date or until your free packing kit ships, whichever comes first. The company's terms add $75 to cancel with less than a week's notice or to reschedule with less than 72 hours' notice, $75 for a missed delivery appointment, $25 for a box over 50 pounds, $50 for a fridge that is not fully defrosted, $100 on a Room Return reservation and at least $250 for a pickup or delivery outside its posted dates. Each item is covered for up to $100 against loss or damage from the company's negligence ([Storage Squad terms](https://storagesquad.com/terms-and-conditions/)).
 
 **Storage Scholars** sends a free packing kit and photographs and logs every item in an online portal. It charges $14 to $40 per item per month by size, with a four-month minimum for summer. It also charges up to $300 extra for a pickup outside finals week or a delivery outside move-in week ([Storage Scholars blog](https://www.storagescholars.com/blog/college-storage-cost-calculator-pricing)). The same post puts a typical summer order at about $915. At partner schools, Storage Scholars can enter halls with a key so students need not meet the crew (Storage Scholars). Cornell is not on that footing. Its rule, below, says you must be there.
 
@@ -285,7 +291,7 @@ Source: [Bolt Storage, Dryden Road](https://www.boltstorage.com/self-storage/fre
 
 Climate control means the unit stays at a steady temperature all year. Bolt says that protects paper, electronics, instruments and wood furniture from Ithaca's humid summers (Bolt Storage, Dryden Road). If you are storing a laptop, a guitar or a wooden desk, it is worth the extra $12 a month for a 5x5.
 
-Two other sites sit closer to the city. Storage Sense, at 1395 Danby Road, listed a 5x5 at $89 a month as a deal, down from $112, and a 10x10 at $190 ([SpareFoot](https://www.sparefoot.com/Ithaca-NY-self-storage.html)). 4-Season Storage, at 1395 Dryden Road, has a listing with daily hours of 8 a.m. to 8 p.m. but no prices, so call 607-533-7333 for a quote ([Neighbor](https://www.neighbor.com/facility/new-york/ithaca/4-season-storage/1395-dryden-rd/9693)).
+Two other sites sit closer to the city. Storage Sense, at 1395 Danby Road, listed a 5x5 at $89 a month as a deal, down from $112, and a 10x10 at $190 ([SpareFoot](https://www.sparefoot.com/Ithaca-NY-self-storage.html)). 4-Season Storage, at 1395 Dryden Road, lists daily hours of 8 a.m. to 8 p.m.; call 607-533-7333 for a quote ([Neighbor](https://www.neighbor.com/facility/new-york/ithaca/4-season-storage/1395-dryden-rd/9693)).
 
 ## What one summer costs
 
@@ -305,13 +311,13 @@ rows:
 
 EduExplained calculation from each company's posted prices in the tables above.
 
-Big Red, Storage Squad and Uncle Marty's land within $24 of each other, less than one extra item at any of them. So the choice among the three turns on service, not price. Big Red includes the trip from your room both ways. Storage Squad's calculator offers pickup and delivery but does not show a price for it. Uncle Marty's is cheapest when you carry boxes to 206A Dryden Road yourself (Storage Squad, Cornell; Uncle Marty's storage).
+Big Red, Storage Squad and Uncle Marty's land within $24 of each other, less than one extra item at any of them. So the choice among the three turns on service, not price. Big Red includes the trip from your room both ways. Storage Squad's calculator lists pickup and delivery as a separate choice, so confirm that charge in your quote. Uncle Marty's is cheapest when you carry boxes to 206A Dryden Road yourself (Storage Squad, Cornell; Uncle Marty's storage).
 
 Add a mini fridge and the order changes. Big Red counts a mini fridge as a medium item at $75, which brings its total to $369 (BRSS pricing). Storage Squad counts a cube fridge as a standard item at $45, for $315 (Storage Squad, Cornell). That makes Storage Squad $54 cheaper for the classic first-year load.
 
 Roommates change the math the most. A 10x10 drive-up unit at Bolt's Dryden Road site costs $441 for three months at $147. Split four ways, that is $110.25 each, and each person gets about a quarter of a room that holds a one-bedroom apartment's contents (Bolt Storage, Dryden Road). The climate-controlled 10x10 costs $666 for three months, or $166.50 each. Either way, someone has to drive a loaded car to Route 366 in May and back in August.
 
-Cornell's claim that Big Red is the most affordable in Ithaca holds only in part. Big Red beats Uncle Marty's by $26 once both include the trip from your room. It loses to Storage Squad by $24 before Storage Squad's unposted pickup charge, and it loses to a shared unit. For a fridge, it costs more than Storage Squad (BRSS pricing; Uncle Marty's storage).
+Cornell's claim that Big Red is the most affordable in Ithaca holds only in part. Big Red beats Uncle Marty's by $26 once both include the trip from your room. It loses to Storage Squad by $24 before any Storage Squad pickup charge, and it loses to a shared unit. For a fridge, it costs more than Storage Squad (BRSS pricing; Uncle Marty's storage).
 
 <!-- ad-break -->
 
@@ -333,7 +339,7 @@ Busy travel periods squeeze those limits. The Sun reported in 2024 that at peak 
 A student riding OurBus to New York with a third suitcase pays $30 to bring it along. Storing that suitcase with Big Red as a medium item costs $75 and leaves it in Ithaca for fall. If the bag will come back in August anyway, storage saves dragging it on two bus trips. For the full set of routes, see [getting to Ithaca and around Cornell](/cornell/getting-around/getting-to-ithaca-and-around-cornell/), and for airports and bag rules, see [flying home from Cornell](/cornell/getting-around/flying-home-from-cornell-airports-rides/).
 
 ```reader "If you're an international student"
-Store in Ithaca rather than ship abroad unless you are leaving for good. Big Red's international shipments and customs paperwork can carry extra fees, and it posts no amounts, so get a quote before your pickup day. Bolt rents units online and takes payment from anywhere, which helps if a bill comes due while you are home. Book your pickup for a day before your flight, since you must be there for it. Keep your passport and medications in your carry-on, never in a stored box.
+Store in Ithaca rather than ship abroad unless you are leaving for good. Big Red's price list warns that international shipments and customs paperwork can carry extra fees, so get a quote before your pickup day. Bolt rents units online and takes payment from anywhere, which helps if a bill comes due while you are home. Book your pickup for a day before your flight, since you must be there for it. Keep your passport and medications in your carry-on, never in a stored box.
 ```
 
 ## Move-out day
@@ -389,7 +395,7 @@ Winter break needs no storage company if you return to the same room. Cornell cl
 
 ## The trade-offs
 
-Each model asks you to give something up. Big Red's flat price is simple and includes the trip from your room, but you pay the full term even for a short gap, and its extra fees have no posted amounts. Storage Squad and Storage Scholars price by the item, so a careful packer pays less, but both add costs that are hard to see in advance: Storage Squad's reservation fee and Storage Scholars' off-schedule surcharge.
+Each model asks you to give something up. Big Red's flat price is simple and includes the trip from your room, but you pay the full term even for a short gap, and a pickup during finals week carries its peak fee. Storage Squad and Storage Scholars price by the item, so a careful packer pays less, but both add costs that sit in the fine print: Storage Squad's reservation and cancellation fees and Storage Scholars' off-schedule surcharge.
 
 Self-storage is the cheapest per box for a group, and it is the only option you can reach any day. But it needs a car twice, and you do all the lifting.
 
@@ -449,9 +455,9 @@ rows:
 - [C2C Policies and Regulations](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations), Cornell Facilities and Campus Services
 - [Security Deposits](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits), Cornell Law School Tenant Advocacy guide
 - [Dryden South listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961), Cornell Off-Campus Housing
-- [Pricing](http://www.bigredboxes.com/BRSS_Pricing) and [home page](http://www.bigredboxes.com/), Big Red Shipping & Storage
+- [Pricing](http://www.bigredboxes.com/BRSS_Pricing), [Terms and Conditions](http://www.bigredboxes.com/BRSS_TermsAndConditions) and [home page](http://www.bigredboxes.com/), Big Red Shipping & Storage
 - [Student Agencies Inc.](https://www.studentagencies.com/)
-- [Summer storage at Cornell University](https://storagesquad.com/summer-storage/cornell-university/) and [Room Direct for Cornell](https://storagesquad.com/cornell/), Storage Squad
+- [Summer storage at Cornell University](https://storagesquad.com/summer-storage/cornell-university/), [Room Direct for Cornell](https://storagesquad.com/cornell/) and [Terms and Conditions](https://storagesquad.com/terms-and-conditions/), Storage Squad
 - [Ithaca, NY](https://www.storagescholars.com/cities-we-serve/ithaca-ny), [College Storage Cost Calculator and Pricing Guide](https://www.storagescholars.com/blog/college-storage-cost-calculator-pricing) (Jan. 15, 2026) and [Storage Scholars vs. Storage Squad](https://www.storagescholars.com/compare/storage-scholars-vs-storage-squad), Storage Scholars
 - [Storage](https://www.unclemartysoffice.com/storage) and [Move-Out Bundles](https://www.unclemartysoffice.com/move-out-bundles), Uncle Marty's
 - [Uncle Marty's member listing](https://business.tompkinschamber.org/list/member/uncle-marty-s-printing-shipping-storage-more-12929), Tompkins Chamber

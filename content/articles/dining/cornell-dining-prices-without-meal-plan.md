@@ -7,7 +7,7 @@ primary_query: cornell dining prices without meal plan
 topic: dining
 school: cornell-university
 type: cost
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 248
 rewrites: ''
 readers:
@@ -45,7 +45,10 @@ sources:
   accessed: '2026-11-10'
 - url: https://finaid.cornell.edu/cost-attend
   title: 'Cornell Financial Aid: Cost of attendance'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://www.finaid.cornell.edu/living-campus
+  title: 'Cornell Financial Aid: Living off-campus'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Glass-walled entrance of Morrison Dining at Cornell, with outdoor tables on the plaza
@@ -103,7 +106,7 @@ Now take Off-Campus Value, the entry plan for students who live off campus. It c
 
 Bear Traditional works out to $12.51 a meal if you use every one of its 14 weekly swipes, but it is not open to every student. The full break-even math, plan by plan, is in [is the Cornell meal plan worth it](/cornell/money/cornell-meal-plan-worth-it/). If you would rather cook, compare in [meal plan or cook yourself](/cornell/money/cornell-off-campus-meal-plan-or-cook-yourself-cost/).
 
-Cornell's own food estimate for undergraduates is $7,604 for 2025-26, billed by Cornell, and its cost-of-attendance page gives no separate off-campus food figure ([Cornell Financial Aid](https://finaid.cornell.edu/cost-attend)). For a full monthly budget, see [Cornell cost of living: student monthly budget](/cornell/money/cornell-cost-of-living-ithaca-student-monthly-budget/).
+Cornell's undergraduate cost-of-attendance table lists food at $7,604 a year ([Cornell Financial Aid](https://finaid.cornell.edu/cost-attend)). If you live off campus in Ithaca, Cornell Financial Aid calculates your need the same way as for a student on campus. The bursar does not bill you for housing, and aid above your charges comes back as a refund toward off-campus living costs ([Cornell Financial Aid](https://www.finaid.cornell.edu/living-campus)). For a full monthly budget, see [Cornell cost of living: student monthly budget](/cornell/money/cornell-cost-of-living-ithaca-student-monthly-budget/).
 
 ```reader "If you're a parent or visitor"
 You pay the door price or the children's price: $5.95 for breakfast up to $10.40 for dinner. Carry a credit card, or use the Statler cash-to-card kiosk. Campus logistics for visits are in [getting around Cornell for parents and visitors](/cornell/getting-around/getting-around-cornell-parents-visitors/).

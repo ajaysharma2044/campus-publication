@@ -7,7 +7,7 @@ primary_query: is it worth paying more to live closer to cornell
 topic: housing
 school: cornell-university
 type: decision
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 25
 rewrites: ''
 readers:
@@ -50,6 +50,9 @@ sources:
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
   title: 'Cornell Housing and Residential Life: Housing rates'
+  accessed: '2026-11-10'
+- url: https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx
+  title: Lansing West Apartments, RentCafe
   accessed: '2026-11-10'
 images: []
 ---
@@ -144,7 +147,7 @@ Registered PhD students and graduate assistants get a free OmniRide pass, so the
 ```
 
 ```reader "If you're keeping a car"
-Distance matters less, but parking matters more. The student commuter (B) permit costs $359.77 a year and is valid in B lots at all times and in A lots after 2:30 p.m. ([Cornell student parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). B lots include the Vet College B, TRB, South and North Morrison and BTI lots, so you may still walk from the lot. Add the permit to the downtown side of your math, and add Collegetown's parking fee to the other side.
+Distance matters less, but parking matters more. The student commuter (B) permit costs $359.77 a year and is valid in B lots at all times and in A lots after 2:30 p.m. ([Cornell student parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). B lots include the Vet College B, TRB, South and North Morrison and BTI lots, so you may still walk from the lot. Add the permit to the downtown side of your math, and add Collegetown's parking fee to the other side. Ithaca Renting sells parking as a separate license ([Ithaca Renting](https://ithacarenting.com/collegetown/)).
 ```
 
 ```reader "If you're paying your own way"
@@ -155,7 +158,7 @@ Downtown 2- and 3-bedroom shares come in under a Cornell double. A 3-bedroom sha
 
 ## Run it with your own numbers
 
-The rent and commute calculator adds the money side: rent, the bus pass and parking. Put your own walk times and days on campus into the hourly math above to see the time side.
+The rent and commute calculator adds the money side: rent, the bus pass and parking. It also prices the far end of the trade. A two-bedroom at Lansing West, 700 Warren Rd., starts at $1,625 a month ([RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx)), or $9,750 a year each split two ways, before the commute, and Cornell puts Lansing 5 to 10 miles from campus, where it recommends a bus or car ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)). Put your own walk times and days on campus into the hourly math above to see the time side.
 
 ```tool ithaca-rent-commute-calculator
 ```

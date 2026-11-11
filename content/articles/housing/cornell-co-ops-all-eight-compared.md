@@ -8,7 +8,7 @@ primary_query: cornell co-ops
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 5
 rewrites: ''
 readers:
@@ -217,7 +217,7 @@ Wait Terrace holds up to 13 residents in 7 singles and 3 doubles. Its porch has 
 
 Triphammer is the house from the opening, near RPCC (the Robert Purcell Community Center) and the Africana Library. It holds 20 residents in 11 singles, 3 doubles and 1 triple (Triphammer Cooperative). Its single costs $4,889 per semester, its double $4,317 and its triple $3,972, the only triple besides Redbud's on Cornell's rate table (Cornell Housing rates).
 
-Food is the center of the house. Triphammer's meal plan is required. It covers homemade vegetarian dinners Sunday through Thursday and access to pantry staples such as flour, oil and spices. Each resident joins a cook group that makes dinner for everyone one night a week. The house describes itself as welcoming to students from marginalized backgrounds. It has free parking and free laundry, and it sometimes opens its meal plan to students who live elsewhere.
+Food is the center of the house. Triphammer's meal plan is required. It covers homemade vegetarian dinners Sunday through Thursday and access to pantry staples such as flour, oil and spices. Each resident joins a cook group that makes dinner for everyone one night a week (Triphammer Cooperative). A cook group has three or four members ([Student & Campus Life, 2024](https://scl.cornell.edu/news-events/news/triphammer-co-op-fosters-community-and-growth-cornellians)). The house describes itself as welcoming to students from marginalized backgrounds. It has free parking and free laundry, and it sometimes opens its meal plan to students who live elsewhere.
 
 Triphammer posts its mosey schedule on Instagram at @triphammercoop and takes application questions at moseytriphammer@cornell.edu. In a 2024 Cornell feature, its house manager, a transfer student named Daniel Dixon, said living with 20 housemates taught him how to manage a home that many people share (Student & Campus Life, 2024).
 

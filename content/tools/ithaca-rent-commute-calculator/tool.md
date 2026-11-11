@@ -2,7 +2,7 @@
 title: "Ithaca rent calculator: yearly cost by building and roommates"
 meta: "Pick an Ithaca building and layout, set how many people share it, and get your yearly rent, power, bus and parking against Cornell's $13,744 double."
 topic: housing
-updated: 2026-11-10
+updated: 2026-11-11
 numbers_as_of: 2026-11-10
 queue_id: q-housing-0058
 kind: tool
@@ -13,6 +13,7 @@ sources:
   - {url: "https://ithacarenting.com/downtown/", title: "Ithaca Renting: Downtown properties (per-bed prices, mostly 2026-27)", accessed: "2026-11-10"}
   - {url: "https://ithacarenting.com/property-details/?pid=11", title: "Ithaca Renting: Whiton Hall", accessed: "2026-11-10"}
   - {url: "https://drydensouth.com/availability/", title: "Dryden South: Availability for 2027-28", accessed: "2026-11-10"}
+  - {url: "https://drydensouth.com/common-questions/", title: "Dryden South: Common questions (inclusions, no parking)", accessed: "2026-11-10"}
   - {url: "https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown", title: "IthacaRents: 114 Stewart Avenue, 2027-28", accessed: "2026-11-10"}
   - {url: "https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights", title: "IthacaRents: 117 Thurston Ave 3BR, Cornell Heights", accessed: "2026-11-10"}
   - {url: "https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom", title: "IthacaRents: 174 Kendall Ave 4BR, South Hill", accessed: "2026-11-10"}
@@ -21,6 +22,7 @@ sources:
   - {url: "https://www.rentable.co/ithaca-ny/neighborhoods/fall-creek", title: "Rentable: Fall Creek, Ithaca apartments", accessed: "2026-11-08"}
   - {url: "https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258", title: "Cornell off-campus listings: 709 N Tioga St, Fall Creek", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates", title: "Cornell Housing: 2026-27 housing rates", accessed: "2026-11-10"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire", title: "Cornell Off-Campus Living: Housemate compatibility questionnaire (joint and several liability)", accessed: "2026-11-10"}
   - {url: "https://finaid.cornell.edu/graduate-students", title: "Cornell Financial Aid: Graduate students cost of attendance", accessed: "2026-11-10"}
   - {url: "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/", title: "EnergySage: Electricity cost in Ithaca, NY", accessed: "2026-11-10"}
   - {url: "https://poweroutage.us/electricity-rates/ny/ithaca", title: "PowerOutage.us: Ithaca electricity rates (search snippet)", accessed: "2026-11-08"}
@@ -39,7 +41,7 @@ This calculator gives one person's yearly cost to live in a named Ithaca buildin
 
 ## Who it is for
 
-Sophomores pricing a junior-year lease, and parents checking that number against the dorm bill. Juniors and seniors comparing a renewal with a building they have not lived in. Grad students weighing Collegetown Center, downtown and Lansing. Students on a tight budget looking for the share that beats $1,145.33 a month. First-year transfers, who ride TCAT free, and anyone with a car who has to count overnight parking.
+Sophomores pricing a junior-year lease, and parents checking that number against the dorm bill. Juniors and seniors comparing a renewal with a building they have not lived in. Grad students weighing Collegetown Center, downtown and Lansing: with a free OmniRide pass, a cheaper place farther out adds nothing to the commute. Students on a tight budget looking for the share that beats $1,145.33 a month. First-year transfers, who ride TCAT free, and anyone with a car who has to count overnight parking.
 
 ## The inputs
 
@@ -71,7 +73,7 @@ A worked example: Collegetown Plaza's premium 4BR with 1.5 baths lists at $1,250
 | Ithaca Renting Collegetown, per bed | 38 priced rows in seven buildings; medians studio $1,765, 1BR $2,025, 2BR $1,377.50, 4BR $1,246.25, 6BR $800, 10BR $775, room $895; means 3BR $1,243.75, 5BR $1,102.50 | 2027-28, read 2026-11-08, re-read 2026-11-10 | [Ithaca Renting Collegetown](https://ithacarenting.com/collegetown/); [dataset](/datasets/collegetown-rent-per-bed-2027-28/) |
 | Ithaca Renting downtown, per bed | 20 priced rows in seven buildings; medians studio $1,395, 1BR $1,625, 2BR $992.50, 3BR $795, 5BR $795, 6BR $870 | mostly 2026-27, read 2026-11-08 | [Ithaca Renting downtown](https://ithacarenting.com/downtown/); [dataset](/datasets/collegetown-vs-downtown-rent-per-bed-2026/) |
 | Whiton Hall room | $965 to $1,065 a bed; electricity and Wi-Fi included | 2026-27 | [Ithaca Renting](https://ithacarenting.com/property-details/?pid=11) |
-| Dryden South, 205 Dryden Rd. | Studios $1,990 and $2,190 a person (available); ten 4BR suites $1,360 to $1,575 a person (all rented); 12-month leases from June 1 | 2027-28, read 2026-11-10 | [Dryden South](https://drydensouth.com/availability/) |
+| Dryden South, 205 Dryden Rd. | Studios $1,990 and $2,190 a person (available); ten 4BR suites $1,360 to $1,575 a person (all rented); 12-month leases from June 1; no parking | 2027-28, read 2026-11-10 | [Dryden South availability](https://drydensouth.com/availability/); [common questions](https://drydensouth.com/common-questions/) |
 | The Ivy, 325 College Ave. | 3BR $5,500 to $5,800 a month; basement 2BR $1,595 a person after a discount | leases from Aug. 17, 2026 | [Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026) |
 | 114 Stewart Ave. | 8BR, $900 a person; utilities not stated | from June 10, 2027 | [IthacaRents](https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown) |
 | 117 Thurston Ave. | 3BR, $2,445 a month or $815 a person; heat and Wi-Fi included; parking $55 a semester | from Aug. 1, 2027 | [IthacaRents](https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights) |
@@ -88,6 +90,30 @@ A worked example: Collegetown Plaza's premium 4BR with 1.5 baths lists at $1,250
 | City residential permit | $45 a year, to July 31; R-1 and R-2 zones | checked 2026-11-10 | [City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance); [City code](https://ecode360.com/8391421) |
 | Distances | Collegetown 0.1 to 0.5 mi; downtown 0.5 to 1.5 mi; Fall Creek 0.5 to 1 mi; Cornell Heights 1 to 4 mi; South Hill 1.5 to 3 mi; Lansing 5 to 10 mi | page as crawled 2026-11-06 | [Cornell neighborhoods](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods) |
 
+## One person's rent for a year, by building
+
+Rent alone runs from $7,150 for a share of a South Hill house to $29,940 for a deluxe one-bedroom in Collegetown Center, at the midpoint of each listed range. The roommate count matters more than the building.
+
+| Building and layout | Rent for a year, one person |
+|---|---|
+| Collegetown Center deluxe 1BR, alone ($2,495 x 12) | $29,940 |
+| The Ivy 3BR, split three ways ($5,500 to $5,800 a month) | $22,000 to $23,200 |
+| Collegetown Court standard studio ($1,602.50 x 12) | $19,230 |
+| Dryden South 4BR suite, most common price ($1,395 x 12) | $16,740 |
+| Collegetown Plaza standard 2BR, per person ($1,340 x 12) | $16,080 |
+| Collegetown Plaza premium 4BR, per person ($1,300 x 12) | $15,600 |
+| Collegetown Court premium 3BR, per person ($1,192.50 x 12) | $14,310 |
+| Cornell residence hall double, 2026-27, utilities included | $13,744 |
+| 114 Stewart Ave. 8BR, per person ($900 x 12) | $10,800 |
+| 117 Thurston Ave. 3BR, per person, heat and Wi-Fi included ($815 x 12) | $9,780 |
+| 202 Dryden Rd. 10BR, per person ($775 x 12) | $9,300 |
+| 210 Dryden Rd. standard room, electricity included ($752.50 x 12) | $9,030 |
+| Old Cigar Factory 3BR, downtown, per person ($745 x 12) | $8,940 |
+| Aces Apartments 6BR, per person ($727.50 x 12) | $8,730 |
+| 174 Kendall Ave. 4BR, per person, 11-month lease ($650 x 11) | $7,150 |
+
+Sources: [Ithaca Renting Collegetown](https://ithacarenting.com/collegetown/) and [downtown](https://ithacarenting.com/downtown/) pages, [Dryden South](https://drydensouth.com/availability/), [The Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026), the IthacaRents listings for [114 Stewart Ave.](https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown), [117 Thurston Ave.](https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights) and [174 Kendall Ave.](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom), and [Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates). Rent only, at the midpoint of each listed range.
+
 ## Assumptions and what the tool does not cover
 
 - All rents are asking prices, not what tenants paid. Ithaca Renting prints a range for each layout, perhaps by floor; the tool uses the midpoint and shows the range.
@@ -103,7 +129,13 @@ A worked example: Collegetown Plaza's premium 4BR with 1.5 baths lists at $1,250
 
 The bold line is your year and your month, all in. Under it, the rent line shows the bed price, the unit total and your share, with a link to the listing. **Against the double** says how far your rent and electricity sit above or below $13,744. **Break-even** shows the monthly rent that matches the double for your lease length. The bus and car lines follow, then warnings for that building.
 
-The table at the bottom keeps the unit and changes the head count. Read it to see what one more roommate saves you, or what losing one costs the rest of the group. The date in the small print is when the prices were read. Asking prices change until a lease is signed, so check the listing before you sign.
+The table at the bottom keeps the unit and changes the head count. Read it to see what one more roommate saves you, or what losing one costs the rest of the group. Two examples show the swing.
+
+Two people splitting a standard one-bedroom at Collegetown Court, listed at $1,625 to $1,725 a month ([Ithaca Renting](https://ithacarenting.com/collegetown/)), pay $1,675 for the unit at the midpoint. Alone, rent plus $282 of electricity comes to $23,484 a year. Split two ways, each pays $837.50 in rent and $141 in electricity a month, $11,742 a year, which is $2,002 under the double.
+
+In the other direction, take the Collegetown Plaza premium 4BR from the worked example above, $16,446 a year for each of four people. If one leaves and three cover the unit, each pays $1,733.33 in rent and $94 in electricity a month, and the year rises to $21,928, or $5,482 more each. On a joint lease the rest of the group owes the missing share: Cornell says most local leases bind housemates "jointly and severally," which means each person is responsible for the whole rent and for damages for the full term ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)). Set the head count to three to see this for your own unit; [Off-campus roommates and joint liability](/cornell/housing/cornell-off-campus-roommates-joint-liability/) covers what that clause means and how to protect yourself.
+
+The date in the small print is when the prices were read. Asking prices change until a lease is signed, so check the listing before you sign.
 
 ## Related guides
 

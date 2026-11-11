@@ -8,7 +8,7 @@ primary_query: subletting in ithaca
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 16
 rewrites: ''
 readers:
@@ -23,6 +23,7 @@ subject: Collegetown apartment buildings, Dryden Road, Ithaca
 tools:
 - ithaca-sublet-request-timeline
 - ithaca-lease-fee-deposit-checker
+- summer-storage-vs-shipping-vs-sublet-cornell-cost
 sources:
 - url: https://cornellsun.com/2016/10/20/students-housing-search-hampers-study-abroad
   title: 'Students: Housing Search Hampers Study Abroad, The Cornell Daily Sun, Oct. 20, 2016'
@@ -120,7 +121,17 @@ sources:
 - url: https://police.illinois.edu/fake-sublessee/
   title: Fake sublessee, University of Illinois Division of Public Safety, Dec. 4, 2023
   accessed: '2026-11-10'
-images: []
+images_from: summer-storage-vs-shipping-vs-sublet-cornell-cost
+images:
+- file: 1.webp
+  alt: Modern brick apartment buildings with ground-floor cafes along a Collegetown street in Ithaca
+  caption: Apartment buildings in Collegetown. Ithaca leases run 12 months, and a sublet fills the months a student is away.
+  credit: desultrix / Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
+  author: desultrix
+  source_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
 ---
 
 
@@ -327,6 +338,10 @@ rows:
 ```
 
 EduExplained calculation from the Collegetown Plaza premium four-bedroom midpoint; the shortfall is an example, not a market rate.
+
+If you are the one leaving, the summer cost calculator prices a furnished sublet against emptying the room to store or ship your things.
+
+```tool summer-storage-vs-shipping-vs-sublet-cornell-cost```
 
 A deposit is the other cost to check, whichever side you are on. The fee and deposit checker tests a deposit or fee against New York's caps.
 

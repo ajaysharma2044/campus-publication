@@ -113,7 +113,7 @@ Ask your student which building they plan to rent, then check it in the safety t
 ```
 
 ```reader "If you're renting from a private landlord"
-The safety tool shows only fire and building data. For landlord reputation, read the [guide to landlords to avoid](/cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/), and read the [landlord rules guide](/cornell/housing/becoming-ithaca-landlord-student-rental-rules/) to learn what owners must provide.
+The safety tool shows only fire and building data. For landlord reputation, read the [guide to landlords to avoid](/housing/how-to-check-an-ithaca-landlords-record/), and read the [landlord rules guide](/cornell/housing/becoming-ithaca-landlord-student-rental-rules/) to learn what owners must provide.
 ```
 
 ## Where can I find crime statistics?

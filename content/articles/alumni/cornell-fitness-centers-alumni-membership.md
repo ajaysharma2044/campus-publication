@@ -1,43 +1,55 @@
 ---
 title: Can Cornell alumni use the campus gyms? What the rules say
-meta: Cornell's fitness center rules require current registration and list no alumni membership. Here is what that means and what to do in Ithaca.
+meta: Cornell's fitness center rules require current registration with the university, which alumni status does not give you. Here is what that means and what to do in Ithaca.
 primary_query: Cornell Fitness Centers alumni membership
 topic: alumni
 school: cornell-university
 type: decision
-updated: 2026-11-07
+updated: 2026-11-11
 queue_id: q-alumni-0008
 sources:
 - url: https://scl.cornell.edu/recreation/fitness-centers/student-memberships-day-passes
   title: Student Memberships & Day Passes, Cornell Student & Campus Life
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/recreation/recreation/fitness-centers/fitness-center-policies-faq
   title: Fitness Center Policies FAQ, Cornell Student & Campus Life
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://hr.cornell.edu/understand-your-benefits/health-care/endowed/cphl-plan/wellness-recreation-membership
   title: Wellness Recreation Membership, Cornell Human Resources
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/recreation/recreation/employee-wellness-program/wellness-membership-policies-faqs
   title: Wellness Membership Policies & FAQs, Cornell Recreational Services
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/recreation/employee-wellness-program/employee-wellness-recreation-memberships/membership-perks
   title: Membership Perks, Cornell Recreational Services
-  accessed: '2026-11-07'
-- url: http://www.cornellclubnyc.com/member-resource-center
+  accessed: '2026-11-11'
+- url: https://www.cornellclubnyc.com/member-resource-center
   title: Member Resource Center, The Cornell Club-New York
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://www.ithacaymca.com
   title: YMCA of Ithaca & Tompkins County
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://www.ithacaymca.com/membership/rates-and-discounts/
   title: Rates and Discounts, YMCA of Ithaca & Tompkins County
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://www.islandhealthfitness.com
   title: Island Health & Fitness, Ithaca
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://www.islandhealthfitness.com/become-a-member/
   title: Become a Member, Island Health & Fitness
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
+- url: https://www.islandhealthfitness.com/locations/
+  title: Locations, Island Health & Fitness
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/recreation/employee-wellness-program/employee-wellness-recreation-memberships
+  title: Employee Wellness Recreation Memberships, Cornell Recreational Services
+  accessed: '2026-11-11'
+- url: https://alumni.cornell.edu/services/
+  title: Services, Alumni, Parents, and Friends, Cornell University
+  accessed: '2026-11-11'
+- url: https://www.cornellclubnyc.com/membership
+  title: Membership, The Cornell Club-New York
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Cornell University - Teagle Hall
@@ -48,13 +60,13 @@ images:
   license_url: ''
 ---
 
-Probably not. Cornell's [fitness center policies](https://scl.cornell.edu/recreation/recreation/fitness-centers/fitness-center-policies-faq) say a valid and current registration status with the university is necessary for membership, with the exception of a day pass. Alumni are not currently registered, and none of the pages we read lists an alumni membership, alumni rate or community membership. We have not had a direct answer from Cornell Recreation, so treat this as what the published rules say, and email fitness@cornell.edu before you plan around a workaround.
+No, not on alumni status alone. Cornell's [fitness center policies](https://scl.cornell.edu/recreation/recreation/fitness-centers/fitness-center-policies-faq) make a valid and current registration status with the university a condition of membership, and name the day pass as the only exception. That leaves three routes: a day pass bought for you by a current student, a membership that comes with a new Cornell status as a student or employee, or an Ithaca gym. The same policy page tells anyone here for a conference or a short stay to ask the Cornell Fitness Centers main office, so ask there before you build a plan around a workaround.
 
 ## What the official pages say
 
-- **Students** buy a Cornell Fitness Centers membership. For 2026-27 the [price list](https://scl.cornell.edu/recreation/fitness-centers/student-memberships-day-passes) runs from $60 for the half fall semester (October 15, 2026 to January 15, 2027) to $180 for the academic year. The page does not mention alumni or community members.
-- **Employees** use the Wellness Program. Benefits-eligible endowed employees on the Cornell Program for Healthy Living plan get a [free Wellness Recreation Membership](https://hr.cornell.edu/understand-your-benefits/health-care/endowed/cphl-plan/wellness-recreation-membership); the standard recreation membership is $180 per year or $15 per month. That page does not mention alumni either.
-- **Retirees** are covered in the [wellness membership FAQ](https://scl.cornell.edu/recreation/recreation/employee-wellness-program/wellness-membership-policies-faqs), which says memberships depend on the primary status on your Cornell ID. The same FAQ says retirees and their spouses or partners can try the centers during designated free trial periods by showing a Cornell ID and signing a waiver. That applies to retirees only, not to alumni, so do not count on it as an alumni option. The FAQ does not address alumni or former employees.
+- **Students** buy a Cornell Fitness Centers membership. For 2026-27 the [price list](https://scl.cornell.edu/recreation/fitness-centers/student-memberships-day-passes) runs from $60 for the half fall semester (October 15, 2026 to January 15, 2027) to $180 for the academic year.
+- **Employees** use the Wellness Program. The [memberships page](https://scl.cornell.edu/recreation/employee-wellness-program/employee-wellness-recreation-memberships) opens membership to staff, faculty, retirees and their spouses or partners: $180 for a one-year membership, $80 for four months and $60 for the summer. Benefits-eligible endowed employees on the Cornell Program for Healthy Living plan get the [membership free](https://hr.cornell.edu/understand-your-benefits/health-care/endowed/cphl-plan/wellness-recreation-membership).
+- **Retirees** and their spouses or partners buy the same Wellness memberships, and the [wellness membership FAQ](https://scl.cornell.edu/recreation/recreation/employee-wellness-program/wellness-membership-policies-faqs) ties eligibility to the primary status on your Cornell ID. The same FAQ lets employees, retirees and their spouses or partners try the centers during designated free trial periods by showing a Cornell ID and signing a waiver. That covers those groups only, so do not count on it as an alumni option.
 
 ```figure
 kind: steps
@@ -78,31 +90,31 @@ If you return as a grad student, you buy the student membership. If you take a b
 
 ## Ithaca gyms for alumni who stay
 
-Prices below are as published on each gym's site on November 7, 2026, and neither page states an effective date, so confirm before you join. Our advice is to ask each one about month-to-month terms and any cancellation fee before you sign.
+Prices below are as published on each gym's site on November 11, 2026. Our advice is to ask each one about month-to-month terms and any cancellation fee before you sign.
 
 | Gym | Published price | What the site says | Check |
 |---|---|---|---|
-| [YMCA of Ithaca & Tompkins County](https://www.ithacaymca.com/membership/rates-and-discounts/) | Adult (23 to 59): $65 per month or $715 per year. Young adult (18 to 22): $48 per month or $528 per year. Senior (60+): $60 per month or $660 per year. One-time capital improvement fee: $35 for an individual adult or senior | Per its [home page](https://www.ithacaymca.com), open Monday to Friday 5:30 am to 9:00 pm, Saturday 8:00 am to 5:00 pm, Sunday 9:00 am to 4:00 pm; lower-cost memberships for those who qualify | (607) 257-0101 |
-| [Island Health & Fitness](https://www.islandhealthfitness.com/become-a-member/) | Downtown: adult $79 per month, student $67, senior $65, one-month pass $99. Community Corners: $39 per month, one-month pass $59. Monthly memberships list a one-time $150 enrollment fee, with promotions that reduce it. No annual price is shown | Group fitness, a lap pool, a hydro-therapy pool and a whirlpool; downtown at 310 Taughannock Blvd. and a Community Corners location | (607) 277-3861 downtown; the site lists two different addresses for Community Corners, so confirm before you go |
+| [YMCA of Ithaca & Tompkins County](https://www.ithacaymca.com/membership/rates-and-discounts/) | Adult (23 to 59): $65 per month or $715 per year. Young adult (18 to 22): $48 per month or $528 per year. Senior (60+): $60 per month or $660 per year. One-time capital improvement fee: $35 for an individual adult or senior | Per its [home page](https://www.ithacaymca.com), open weekdays 5:30 am to 9:00 pm, Saturday 8:00 am to 5:00 pm, Sunday 9:00 am to 4:00 pm; lower-cost memberships for those who qualify | (607) 257-0101 |
+| [Island Health & Fitness](https://www.islandhealthfitness.com/become-a-member/) | Downtown: adult $79 per month, student $67, senior $65, one-month pass $99. Community Corners: $39 per month, one-month pass $59. Monthly memberships list a one-time $150 enrollment fee, with promotions that reduce it | Downtown, at 310 Taughannock Blvd., has strength and cardio equipment on three floors, group fitness classes, a lap pool, a warm pool, a hot tub, saunas and steam rooms; Community Corners, at 409 East Upland Rd. per its [locations page](https://www.islandhealthfitness.com/locations/), has strength and cardio equipment and saunas | (607) 277-3861 downtown; (607) 319-0149 Community Corners |
 
-The YMCA's page lists the $65 and $715 figures as monthly and annual draft rates. Island's family memberships and employer discounts have no price on the page.
+The YMCA's page lists the $65 and $715 figures as monthly and annual draft rates, and annual memberships are applied for in person at its Welcome Center. Island quotes family memberships and its special rates for Cornell employees by text at (607) 882-7095 or in the club.
 
 ## If you live elsewhere
 
-Alumni in New York City have a different option: [The Cornell Club-New York](http://www.cornellclubnyc.com/member-resource-center) includes its Health & Fitness Center with club membership, open seven days a week. The club says it serves Cornellians, Business Associates and alumni of affiliate schools. It does not publish dues or the initiation fee on that page, so call 212.986.0300. This is a social club with an application, not a gym pass.
+Alumni in New York City have a different option: [The Cornell Club-New York](https://www.cornellclubnyc.com/member-resource-center) includes its Health & Fitness Center with club membership, open seven days a week, with a $20 guest fee billed to the member's account. The club says it is home to Cornellians, Business Associates and alumni of affiliate schools, and its [membership page](https://www.cornellclubnyc.com/membership) carries separate applications for Cornell alumni, family members and students, affiliate school alumni, faculty and staff, and business associates. After the club reviews an application, its membership department follows up to collect dues and the initiation fee, and a spouse or domestic partner can be added for $250 a year. Questions go to 212.986.0300. This is a social club with an application, not a gym pass.
 
 ## Common mistakes
 
-- Assuming an alumni card or Alumni Association dues include gym access. Nothing we found says so.
-- Showing up with an old Cornell ID. Membership requires current registration, and unverifiable memberships are denied.
-- Waiting for a "free access period." The free trial periods in the wellness FAQ are for employees, retirees and their spouses or partners, not alumni.
+- Assuming class dues or other alumni services include gym access. Cornell's [alumni services page](https://alumni.cornell.edu/services/) covers your NetID, the alumni directory, email, transcripts, career tools and library access, and class dues fund class initiatives.
+- Showing up with an old Cornell ID. Check-in verifies your membership as well as your identity, and membership requires current registration.
+- Waiting for a "free access period." The trial periods in the wellness FAQ are for the Wellness Program groups above, not alumni.
 
 ## FAQ
 
-**Is there a community or alumni rate?** None is published on the pages above. Ask fitness@cornell.edu.
+**Is there a community or alumni rate?** The rule is current registration with Cornell, and the one exception is the day pass a registered affiliate buys for a guest.
 
-**Can I use Cornell Recreation as a recent graduate?** The rule is current registration, so a membership ends with your enrollment. A semester membership runs to its listed end date, for example January 15, 2027 for fall 2026.
+**Can I use Cornell Recreation as a recent graduate?** Student memberships run to their listed end dates: January 15, 2027 for the fall 2026 memberships and May 28, 2027 for the 2026-27 academic year. After that, the current-registration rule applies.
 
-**Who do I contact?** The Cornell Fitness Centers main office at 607-254-2824 or fitness@cornell.edu, as listed in the [policies FAQ](https://scl.cornell.edu/recreation/recreation/fitness-centers/fitness-center-policies-faq).
+**Who do I contact?** The Cornell Fitness Centers main office in 319 Helen Newman Hall, at 607-254-2824 or fitness@cornell.edu, open Monday to Friday 9:00 am to 5:00 pm, as listed on the [student memberships page](https://scl.cornell.edu/recreation/fitness-centers/student-memberships-day-passes).
 
 More for graduates is on our [alumni page](/alumni/), and day-to-day Ithaca questions are under [daily life](/daily-life/).

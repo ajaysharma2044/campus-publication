@@ -21,7 +21,7 @@ You are a second-year living in a residence hall, a co-op or a Greek house this 
 5. [Finding off-campus roommates at Cornell: joint liability](/housing/cornell-off-campus-roommates-joint-liability/): how to pick a group and what you owe for each other. Read it before your group settles on a size.
 6. [Collegetown vs Fall Creek vs downtown Ithaca: where to live](/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/): the neighborhoods side by side. Read it once you know your group.
 7. [Collegetown rent in 2026: one-bedroom and per-bed prices](/housing/collegetown-rent-prices-per-bed-one-bedroom/): what a bed costs by unit size. Read it before you tour.
-8. [Collegetown landlords: how to check one before you sign](/housing/ithaca-landlords-to-avoid-collegetown-reviews/): the checks to run on a landlord and a building. Read it once you have a shortlist.
+8. [Collegetown landlords: how to check one before you sign](/housing/how-to-check-an-ithaca-landlords-record/): the checks to run on a landlord and a building. Read it once you have a shortlist.
 9. [Reading an Ithaca lease before you sign: what to check](/housing/how-to-read-ithaca-lease-before-signing/): the clauses and fees to look for. Read it with the lease in front of you.
 10. [Ithaca's 120-day lease renewal rule and the waiver](/housing/ithaca-120-day-lease-renewal-notice-rule/): what the waiver on page one means. Read it before you initial anything.
 

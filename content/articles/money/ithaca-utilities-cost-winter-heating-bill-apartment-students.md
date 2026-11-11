@@ -279,7 +279,7 @@ If you're a parent co-signing a lease: the utilities sit outside the rent you ar
 
 ## What to do next
 
-Before you sign, get the landlord's answer, in writing, on which bills are yours and what heats the unit. Then price a winter month with the table at the top of this page. For a full year's budget, with rent, food and books, see the [Cornell cost of living budget for Ithaca](/cornell/money/cornell-cost-of-living-ithaca-student-monthly-budget/).
+Before you sign, get the landlord's answer, in writing, on which bills are yours and what heats the unit. Then price a winter month with the table at the top of this page. For a full year's budget, with rent, food and books, see the [Cornell cost of living budget for Ithaca](/cornell/money/cornell-cost-of-living-ithaca-student-monthly-budget/). The rest of the season, from the sidewalk rules to odd/even parking and every winter date for 2026-27, is in our [complete guide to surviving an Ithaca winter](/cornell/daily-life/ithaca-winter-survival-guide-cornell/).
 
 **Related guides**
 - [What a month off campus costs](/cornell/housing/what-a-month-off-campus-costs-cornell/)

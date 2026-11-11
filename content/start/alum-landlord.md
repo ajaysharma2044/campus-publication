@@ -34,5 +34,5 @@ You're a Cornell alum, maybe a former Collegetown tenant, who owns a rental near
 
 ## When you're done
 
-To see how students pick a landlord, read [Collegetown landlords: how to check one before you sign](/housing/ithaca-landlords-to-avoid-collegetown-reviews/).
+To see how students pick a landlord, read [Collegetown landlords: how to check one before you sign](/housing/how-to-check-an-ithaca-landlords-record/).
 For everything else in this topic, go to [Off-campus housing](/housing/).

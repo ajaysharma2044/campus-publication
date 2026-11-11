@@ -7,7 +7,7 @@ primary_query: best West Campus dining hall Cornell
 topic: dining
 school: cornell-university
 type: comparison
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 125
 rewrites: ''
 readers:
@@ -43,6 +43,9 @@ sources:
 - url: https://cornell-sun-data.github.io/sunset-survey-2026/at-cornell.html
   title: 'The Cornell Daily Sun: Sunset Survey 2026, At Cornell'
   accessed: '2026-11-10'
+- url: https://cornell-sun-data.github.io/sunset-survey-2026/about.html
+  title: 'The Cornell Daily Sun: Sunset Survey 2026, Methodology'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2021/10/24/dining-halls-as-a-vegan/
   title: 'The Cornell Daily Sun: Dining halls as a vegan, Oct. 24, 2021'
   accessed: '2026-11-10'
@@ -54,7 +57,10 @@ sources:
   accessed: '2026-11-10'
 - url: https://now.dining.cornell.edu/eatery/Cook-House-Dining
   title: 'Cornell Dining Now: Cook House Dining'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://now.dining.cornell.edu/eateries
+  title: 'Cornell Dining Now: Eateries'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining
   title: 'Cornell Dining: Dining home and events'
   accessed: '2026-11-10'
@@ -96,9 +102,9 @@ Source: Cornell Housing house pages and Cornell Chronicle. Bethe's count include
 
 ## How do the five rooms differ?
 
-Cornell prints no menus or ratings, so the differences come from reporting. A Sun review of West Campus dinners in the week of Oct. 24, 2022, scored Bethe an 8 out of 10, Cook 6.6, Rose 6.5, Keeton 5.5 and Becker 2.5 ([The Sun](https://cornellsun.com/2022/11/07/a-comprehensive-review-of-west-campus-dining/)). Two reviewers ate for one week, so treat it as a snapshot. Their larger point was that the same hall swung from a 2 on Monday to a 10 on Tuesday. The review also noted that Bethe closes earliest, at 7:30 p.m.
+The differences come from student reporting. A Sun review of West Campus dinners in the week of Oct. 24, 2022, scored Bethe an 8 out of 10, Cook 6.6, Rose 6.5, Keeton 5.5 and Becker 2.5 ([The Sun](https://cornellsun.com/2022/11/07/a-comprehensive-review-of-west-campus-dining/)). Two reviewers ate for one week, so treat it as a snapshot. Their larger point was that the same hall swung from a 2 on Monday to a 10 on Tuesday. The review also noted that Bethe closes earliest, at 7:30 p.m.
 
-Popularity tells a different story. In the Sun's Sunset Survey for the Class of 2026, Rose led West Campus picks with 28.9% of votes ([The Sun](https://cornell-sun-data.github.io/sunset-survey-2026/at-cornell.html)). The page lists no sample size.
+Popularity tells a different story. In the Sun's Sunset Survey for the Class of 2026, Rose led West Campus picks with 28.9% of votes ([The Sun](https://cornell-sun-data.github.io/sunset-survey-2026/at-cornell.html)). The survey ran from April 20 to May 5, 2026, drew 103 responses in total and left every question optional ([Sun methodology](https://cornell-sun-data.github.io/sunset-survey-2026/about.html)).
 
 Diet needs shape the choice more than rank. A 2021 Sun column for vegans praised Keeton's grain salads and called Rose creative but not always vegan ([The Sun](https://cornellsun.com/2021/10/24/dining-halls-as-a-vegan/)). Keeton also serves halal on request, at dinner seven days a week and at lunch and brunch on Saturday and Sunday ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/food-allergies-special-diets)).
 
@@ -128,7 +134,7 @@ You can keep eating in these rooms. House Affiliate costs $724 per semester, or 
 
 ## Where do the five rooms sit among all ten Cornell dining rooms?
 
-Cornell runs ten residential dining rooms. Cornell does not print every room's hours on its list. Check each room on Dining Now. The prices are the same everywhere, so the table below compares places and standout features.
+Cornell runs ten residential dining rooms. Check each room's hours on [Dining Now](https://now.dining.cornell.edu/eateries). The prices are the same everywhere, so the table below compares places and standout features.
 
 | Room | Where | Notable feature |
 |---|---|---|
@@ -137,7 +143,7 @@ Cornell runs ten residential dining rooms. Cornell does not print every room's h
 | Risley Dining | Risley, North Campus | Sources food without gluten, peanuts and tree nuts |
 | Okenshields | Willard Straight Hall, Central Campus | Dedicated vegan station |
 | Becker House Dining Room | Carl Becker House, West Campus | House Dinner on Wednesdays |
-| Cook House Dining Room | Alice Cook House, West Campus | Late Night hours not stated |
+| Cook House Dining Room | Alice Cook House, West Campus | Late Night block, 9 to 10 p.m. on listed fall 2026 dates |
 | Jansen's Dining Room | Hans Bethe House, West Campus | Earliest closing of the West rooms in a 2022 Sun review |
 | Keeton House Dining Room | William Keeton House, West Campus | Halal on request |
 | Rose House Dining Room | Flora Rose House, West Campus | Special dinners such as Cena Romana |

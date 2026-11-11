@@ -37,7 +37,7 @@ Not in the brief: paratransit in Tompkins County, and the accessibility features
 
 1. [Off-campus housing at Cornell: the 2026-27 guide](/housing/cornell-off-campus-housing-guide/). The whole topic, from whether you may live off campus to leases, deposits and renewals; read it first, before you start searching.
 2. [Collegetown vs Fall Creek vs downtown Ithaca: where to live](/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/). Which neighborhoods leave you an uphill walk to campus and how each one commutes; read it before you choose where to look.
-3. [Collegetown landlords: how to check one before you sign](/housing/ithaca-landlords-to-avoid-collegetown-reviews/). How to check a landlord and a building before you commit; read it once you have a shortlist.
+3. [Collegetown landlords: how to check one before you sign](/housing/how-to-check-an-ithaca-landlords-record/). How to check a landlord and a building before you commit; read it once you have a shortlist.
 4. [When an Ithaca landlord won't fix heat, mold or bed bugs](/housing/ithaca-landlord-wont-fix-heat-mold-bed-bugs/). What to do when a repair stalls, and who to call; read it after you move in, or the day something breaks.
 
 Not in the brief: reasonable accommodations or modifications from a private landlord, fair-housing rules and counts of accessible units. No guide covers them yet; ask SDS before you sign.

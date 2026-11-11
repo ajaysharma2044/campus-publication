@@ -23,6 +23,9 @@ sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: 'Cornell Dining: Undergraduate meal plans, 2026-2027'
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates
+  title: 'Cornell Dining: Meal plans and rates, with 2026-2027 dining room prices'
+  accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms
   title: 'Cornell Dining: Deadlines and terms'
   accessed: '2026-11-10'
@@ -85,6 +88,8 @@ Most off-campus Cornell students pay less by cooking and adding a small plan onl
 ## Do I need a meal plan if I live off campus?
 
 No. The requirement applies to undergraduates in on-campus housing: the North and South Campus residence halls, the West Campus houses, program houses, McGraw Place Residences and the Townhouse Apartments ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)). If you rent in Collegetown or downtown, you choose. Students who move into a co-op cannot cancel a plan but can switch to a similar or smaller one ([Cornell Dining terms](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027)).
+
+Buy Just Bucks instead of nothing if you eat even one or two dining-room meals a week. Its whole price comes back as Big Red Bucks, so you pay only the fee share, and every meal then costs the Big Red Bucks price instead of the higher door price. At 5 meals a week, 90 meals cost $1,398.40 a semester with Just Bucks ($25 plus 90 meals at the $15.26 average dining-room price in Big Red Bucks) against $1,513.80 at the door (90 at the $16.82 average, tax included). You can add Big Red Bucks at any time at get.cbord.com/cornell once you are on a plan ([Cornell Dining rates](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)).
 
 ## Which meal plans can an off-campus student buy?
 

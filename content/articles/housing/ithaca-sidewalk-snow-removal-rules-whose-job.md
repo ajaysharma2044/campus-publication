@@ -124,4 +124,4 @@ Parking rules change on the same nights. Our [winter parking guide](/cornell/get
 
 ## What to do next
 
-Find the snow clause in your lease today. If it is missing, ask in writing who clears the walk, and buy a shovel and ice melt before the first storm.
+Find the snow clause in your lease today. If it is missing, ask in writing who clears the walk, and buy a shovel and ice melt before the first storm. The rest of the season, from odd/even parking to the heat rules in rentals, is in our [complete guide to surviving an Ithaca winter](/cornell/daily-life/ithaca-winter-survival-guide-cornell/).

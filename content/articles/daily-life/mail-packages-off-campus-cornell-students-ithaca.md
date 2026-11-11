@@ -7,7 +7,7 @@ primary_query: package delivery Collegetown apartment Cornell students
 topic: daily-life
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 251
 rewrites: ''
 readers:
@@ -40,6 +40,15 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
   title: Storage and Shipping Options, Cornell Student and Campus Life
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/community-centers/robert-purcell-community-center/amazon-lockers
+  title: Amazon Lockers, Cornell Student and Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/service-centers-and-mail/best-practices-mail-and-packages
+  title: Best Practices for Mail and Packages, Cornell Student and Campus Life
+  accessed: '2026-11-11'
+- url: https://www.uspis.gov/tips-prevention/mail-theft
+  title: Mail and Package Theft, United States Postal Inspection Service
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Modern brick apartment buildings with ground-floor cafes along a Collegetown street in Ithaca
@@ -67,21 +76,21 @@ Off-campus students get mail at the apartment address, not at a Cornell service 
 
 ## What address do you use off campus?
 
-Use the apartment's street address and unit number, then Ithaca, NY and the ZIP code. Cornell's residence hall service centers handle mail for hall residents, so they do not apply once you live in a lease.
+Use the apartment's street address and unit number, then Ithaca, NY and the ZIP code. Cornell's residence hall service centers handle mail for hall residents, so they do not apply once you live in a lease. After you leave a hall, USPS mail sent to your old service center is forwarded to the address in your Housing Portal, and packages from other carriers go back to the sender ([Cornell mail guidelines](https://scl.cornell.edu/residential-life/service-centers-and-mail/best-practices-mail-and-packages)).
 
 The ZIP code can mislead you. An "Ithaca, NY 14850" address covers 12 towns and villages plus the City of Ithaca, by the Town of Ithaca's welcome page, so a mailing address does not tell you which city, town or village you live in ([Town of Ithaca](https://townithacany.gov/welcome-new-resident-guide/)). That matters for rules like trash and permits, covered in the [lease guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) and the [off-campus housing guide](/cornell/housing/cornell-off-campus-housing-guide/).
 
 ## How do packages get delivered to an apartment?
 
-Where a carrier leaves a box depends on the building. The inventory behind this guide records one building with package handling:
+Where a carrier leaves a box depends on the building, and a listing can tell you. A Collegetown example:
 
 | Building | Package amenity listed |
 |---|---|
 | The Student Agencies Building, 409 College Ave | Package service, listed with free amenities ([building site](https://www.thestudentagenciesbuilding.com/)) |
 
-Source: building and marketplace listings. Other buildings can offer parcel rooms or lockers, but their listings do not say so.
+Source: the building's site.
 
-For any other address, ask the landlord three questions before you sign: where does a carrier leave a box, are mailboxes numbered by unit, and can you get a key to a shared entry. Published sources for this guide do not cover porch theft or locker systems in Ithaca. If a building has no secure spot, have packages go to a store that accepts parcels, such as Uncle Marty's.
+For any other address, ask the landlord three questions before you sign: where does a carrier leave a box, are mailboxes numbered by unit, and can you get a key to a shared entry. If a building has no secure spot, send packages to a store that accepts parcels, such as Uncle Marty's, or to a locker. Amazon's locker "Dodgeball" outside Robert Purcell Community Center is a 24/7 self-service pickup point ([Cornell mail guidelines](https://scl.cornell.edu/residential-life/service-centers-and-mail/best-practices-mail-and-packages)), and Cornell lists two more, outside Risley Hall and Barbara McClintock Hall. The lockers take Amazon.com orders under 35 pounds and smaller than 19 x 12 x 14 inches, and they are Amazon's own service, not part of Cornell's service centers ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/community-centers/robert-purcell-community-center/amazon-lockers)). The U.S. Postal Inspection Service says not to leave a package at your door for any length of time, to use USPS Hold for Pickup so a box waits at the Post Office, and to report a stolen package at uspis.gov/report or 877-876-2455 ([U.S. Postal Inspection Service](https://www.uspis.gov/tips-prevention/mail-theft)).
 
 Theft of a delivered package is a renters insurance question. Cornell's preferred insurer, GradGuard, covers theft, fire and smoke damage for students on and off campus ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/campus-living/living-campus)). Costs are in the [renters insurance guide](/cornell/housing/cornell-off-campus-renters-insurance-cost/).
 

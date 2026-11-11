@@ -7,7 +7,7 @@ primary_query: get New York driver's license or ID Ithaca DMV student
 topic: daily-life
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 256
 rewrites: ''
 readers:
@@ -34,6 +34,15 @@ sources:
 - url: https://fcs.cornell.edu/node/17809
   title: Parking Registration, Cornell Transportation and Delivery Services
   accessed: '2026-11-10'
+- url: https://dmv.ny.gov/driver-license/drivers-from-other-countries
+  title: Drivers from Other Countries, New York State DMV
+  accessed: '2026-11-11'
+- url: https://dmv.ny.gov/driver-license/fees-refunds
+  title: Driver License and Learner Permit Fees and Refunds, New York State DMV
+  accessed: '2026-11-11'
+- url: https://tompkinscountyny.gov/dmv
+  title: Department of Motor Vehicles, Tompkins County
+  accessed: '2026-11-11'
 images: []
 redirect_from:
   - /cornell/getting-around/new-york-drivers-license-ithaca-dmv-cornell-students/
@@ -54,11 +63,13 @@ Students from other states or countries who attend school in New York are normal
 
 No, if New York is not your home. The state DMV treats students who come to attend school as non-residents, and they can keep the license from their home state ([New York State DMV](https://dmv.ny.gov/driver-license/exchange-out-of-state-driver-license)). The DMV page says a student is "normally" a non-resident, so ask the DMV if you work in New York, claim it as your home or register a car here.
 
-The state's own rules, not Cornell's, decide this. Cornell students who change their permanent home to New York should follow the DMV's exchange steps. The sources for this guide do not list the DMV's fees, documents or office hours, so check dmv.ny.gov before you go and book an appointment if the office offers one.
+The state's own rules, not Cornell's, decide this. A student who makes New York home has 30 days from becoming a resident to exchange the old license, and living in the state for 90 days is what the DMV calls presumptive evidence of residency ([New York State DMV](https://dmv.ny.gov/driver-license/exchange-out-of-state-driver-license)). The exchange happens in person at a DMV office. You surrender the out-of-state license, which must carry a photo, be valid or expired for less than 24 months and have been issued at least 6 months before you apply. You pass a vision test at the office or bring a completed Eye Test Report (form MV-619), and the DMV's online pre-screening tool tells you which forms and documents to bring. You leave with a temporary non-photo document, and the card arrives by mail.
 
-## What should international students ask the DMV?
+You pay the DMV's fee for a first New York license: $64.25 to $67.50 for a Class D license at age 21 or older, and $76.75 to $80.00 between 18½ and 21 ([New York State DMV](https://dmv.ny.gov/driver-license/fees-refunds)). The table's higher figures add a surcharge for the 12 counties of the Metropolitan Commuter Transportation District, and Tompkins is not one of them. The Ithaca office is the Tompkins County DMV at 301 Third Street, open Monday to Friday from 8:30 am to 12:45 pm and 2:00 pm to 4:30 pm; permit tests run 8:30 am to 12:00 pm and 2:00 pm to 3:30 pm, road tests 8:00 am to 3:00 pm, and the phone is (607) 273-7187 ([Tompkins County](https://tompkinscountyny.gov/dmv)).
 
-The DMV exchange page treats students from other countries like students from other states ([New York State DMV](https://dmv.ny.gov/driver-license/exchange-out-of-state-driver-license)). It does not say what a foreign license allows on its own, so ask the DMV or your home licensing office before you travel.
+## Can international students drive on their home license?
+
+Yes. You can drive in New York State with a valid driver license from another country, and you need a New York license only if you become a New York State resident ([New York State DMV](https://dmv.ny.gov/driver-license/drivers-from-other-countries)). A student who does become a resident must pass a written test, complete the five-hour pre-licensing course and pass a road test, and the examiner takes the foreign license when you pass. A license printed in a language other than English needs an International Driving Permit or a certified translation at the road test, and the translation must come from a consulate, the U.S. Department of State or another official government agency.
 
 ## Do you need a license for Ithaca Carshare?
 
@@ -73,7 +84,7 @@ A driver's license is not the only accepted ID. Alternatives Federal Credit Unio
 If you do, register its plate with Cornell Transportation Services through MyParking.Cornell.edu, including for short-term parking ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus)). The [car guide](/cornell/getting-around/having-a-car-at-cornell-student-guide/) and the [cost guide](/cornell/money/should-i-bring-a-car-cornell-ithaca-cost/) help you decide, and the [parking permit guide](/cornell/getting-around/cornell-student-parking-permit-cost-rules/) covers lots and rates.
 
 ```reader "If you're an international student"
-Keep your home license. Ask the DMV directly about driving a car registered in New York, since the exchange page is written for U.S. license holders.
+Keep your home license. Ask the DMV directly before you register a car in New York while you hold a foreign license.
 ```
 
 ## What to do next

@@ -22,6 +22,8 @@ subject: Collegetown house Ithaca
 tools:
 - ithaca-sublet-request-timeline
 - when-to-sign-lease-timeline-cornell
+- rent-split-calculator-unequal-rooms
+- ithaca-rent-commute-calculator
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
   title: Rental Listings & Resources, Cornell Student & Campus Life
@@ -149,6 +151,8 @@ rows:
   - {label: "Extra per person when 6 shrinks to 4", value: "$446.25 a month"}
 ```
 
+```tool ithaca-rent-commute-calculator```
+
 ```reader "If you're a sophomore planning junior year"
 You pick housemates in the fall of sophomore year, about a year before move-in. Decide group size first, then look for people. Sign with people you have lived near, because a group thrown together in the first weeks of fall can lose members, and whoever stays owes the whole rent.
 ```
@@ -167,9 +171,31 @@ On a joint lease your student owes the whole rent if a housemate stops paying. Y
 
 <!-- ad-break -->
 
+## How do you split rent fairly when the bedrooms are different sizes?
+
+Split by floor area, because that is what rent buys. Start with the whole apartment's square footage, from the listing or the lease. Subtract every bedroom. What is left is shared space, and everyone uses it equally, so everyone pays for an equal slice. Each bedroom is used by one person, so that person pays for it alone.
+
+The formula for one room's base share is rent x (bedroom square feet + shared square feet / number of people) / apartment square feet. A bigger bedroom raises your share only by the extra floor it adds. An even split ignores size completely, and a split by bedroom size alone overcharges the big room, because it treats the kitchen as if it belonged to the bedrooms.
+
+A private bathroom, a window or a closet makes a room worth more than its floor, so the group prices those perks next. The calculator below does the math and shows every share.
+
+```figure
+kind: steps
+title: Splitting rent for unequal rooms, in order
+rows:
+  - label: Get the total rent for the whole unit and the apartment's square footage
+  - label: Measure every bedroom (length x width in feet); count a private bathroom with its bedroom
+  - label: Split the shared space evenly and charge each bedroom's floor to its occupant
+  - label: Agree as a group on a dollar value for each perk (private bath, window, closet)
+  - label: Shift each perk's value to the rooms that have it, keeping the total the same
+  - label: Write the split down, have everyone sign it, then sign the lease
+```
+
+```tool rent-split-calculator-unequal-rooms```
+
 ## What does joint and several liability mean?
 
-It means the landlord can hold any one tenant for the whole rent. Cornell says most local leases bind housemates "jointly and severally": each is responsible for housemates' rent and damages for the term, and breaking the lease has consequences, mostly in money ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)). A tenant who overpays can sue a co-tenant for contribution, and small claims go up to $5,000 in Ithaca City Court ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease)). Mediation is at the Community Dispute Resolution Center, 607-273-9347 ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)).
+It means the landlord can hold any one tenant for the whole rent. Cornell says most local leases bind housemates "jointly and severally": each is responsible for housemates' rent and damages for the term, and breaking the lease has consequences, mostly in money ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)). A tenant who overpays can sue a co-tenant for contribution, and small claims go up to $5,000 in Ithaca City Court ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease)). A signed, written split is your best evidence of what each person owed. Mediation is at the Community Dispute Resolution Center, 607-273-9347 ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)).
 
 Say four friends sign a 4BR at the median, about $4,985 for the unit (1,246.25 times 4). One leaves in January with no replacement. The other three owe the full $4,985, about $1,661.67 each, or $415.42 more a month apiece. An oral lease over one year is barred by the Statute of Frauds, and a written-changes clause bars most oral changes, so get any promise to let someone out in writing ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease)).
 
