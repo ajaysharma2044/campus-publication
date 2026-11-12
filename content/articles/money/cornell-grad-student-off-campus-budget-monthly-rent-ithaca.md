@@ -23,7 +23,7 @@ sources:
   - {url: "https://www.greystar.com/maplewood-ithaca-ny/p_15697", title: "Maplewood Apartments, Greystar", accessed: "2026-11-07"}
   - {url: "https://forum.thegradcafe.com/topic/153-ithaca-ny/?page=8", title: "Ithaca, NY, The Grad Café forum", accessed: "2026-11-07"}
 images: []
-index: false
+index: true
 ---
 
 A Cornell grad student renting off campus in Ithaca can live on roughly $2,200 to $3,300 a month before utilities, depending mostly on rent: a room in a shared house, a Cornell-owned studio, or a one-bedroom in Fall Creek. That compares with a minimum stipend that works out to [$4,076 a month before tax](https://gradschool.cornell.edu/financial-support/stipend-rates/) for 2026-27 ($48,912 over 12 months, or $36,684 over nine). The $4,076 is the same monthly figure for a 12-month or a nine-month appointment, but a nine-month appointment pays for only nine months, so summer rent has to be planned separately. The budget below is built from Cornell's own cost estimates and current listings, so you can swap in your own rent and see where you land.

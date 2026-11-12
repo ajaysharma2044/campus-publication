@@ -113,7 +113,7 @@ sources:
   title: Maplewood Apartments, Greystar
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 ```glance

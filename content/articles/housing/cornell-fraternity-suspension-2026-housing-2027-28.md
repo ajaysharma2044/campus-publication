@@ -70,7 +70,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: Hlevy2
   source_url: https://commons.wikimedia.org/wiki/File:Deke_House_(Ithaca_NY).jpg
-index: false
+index: true
 ---
 
 

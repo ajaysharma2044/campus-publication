@@ -109,7 +109,7 @@ kind: spoke
 redirect_from:
   - /cornell/getting-around/ithaca-parking-garages-dryden-road-green-street-cayuga/
   - /getting-around/ithaca-parking-garages-dryden-road-green-street-cayuga/
-index: false
+index: true
 ---
 
 

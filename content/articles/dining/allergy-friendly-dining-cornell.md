@@ -60,7 +60,7 @@ images:
   license_url: ''
   author: Published for R. C. Osborn & Co., Ithaca by Curt Teich & Co., Chicago
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Prudence_Risley_Hall_(1913).jpg
-index: false
+index: true
 ---
 
 

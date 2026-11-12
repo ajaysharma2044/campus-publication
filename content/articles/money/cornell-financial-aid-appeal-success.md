@@ -32,7 +32,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Day_Hall_03.jpg
 subject:
 - Cornell University - Day Hall 03
-index: false
+index: true
 ---
 
 Yes, Cornell does change aid on appeal, but only for a narrow set of documented reasons. Cornell's own page says an appeal is [a request to reconsider the specific information you provided on your financial aid application](https://finaid.cornell.edu/node/41699), and an approved one lowers your expected family contribution and raises your need-based aid. Job loss, a big unreimbursed medical bill and an error on your application are in. Cost alone, a better offer from another school and a sibling in college are not. Below, each situation, what to attach and what to expect.

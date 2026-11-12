@@ -63,7 +63,7 @@ sources:
   title: FAQs, East Pointe Apartments
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

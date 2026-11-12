@@ -100,7 +100,7 @@ images:
   license_url: https://creativecommons.org/licenses/by/4.0
   author: 颐园居
   source_url: https://commons.wikimedia.org/wiki/File:Pedestrian_mall_of_Ithaca_20240526.jpg
-index: false
+index: true
 ---
 
 ```glance

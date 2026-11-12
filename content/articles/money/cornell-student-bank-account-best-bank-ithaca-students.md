@@ -47,7 +47,7 @@ sources:
   title: Who Can Become a Member, Beginnings Credit Union
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

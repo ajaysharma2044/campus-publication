@@ -42,7 +42,7 @@ images: []
 redirect_from:
   - /cornell/getting-around/internet-cornell-dorms-ithaca-apartments-wifi/
   - /getting-around/internet-cornell-dorms-ithaca-apartments-wifi/
-index: false
+index: true
 ---
 
 

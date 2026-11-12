@@ -62,7 +62,7 @@ images:
 redirect_from:
   - /cornell/getting-around/mail-packages-off-campus-cornell-students-ithaca/
   - /getting-around/mail-packages-off-campus-cornell-students-ithaca/
-index: false
+index: true
 ---
 
 

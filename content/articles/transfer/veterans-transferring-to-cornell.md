@@ -99,7 +99,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: Kenneth C. Zirkel
   source_url: https://commons.wikimedia.org/wiki/File:Barton_Hall,_at_Cornell_University.jpg
-index: false
+index: true
 ---
 
 ```glance

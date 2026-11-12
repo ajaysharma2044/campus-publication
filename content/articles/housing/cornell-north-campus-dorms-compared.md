@@ -200,7 +200,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Risley_Hall_from_Thurston_Avenue.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
-index: false
+index: true
 ---
 
 

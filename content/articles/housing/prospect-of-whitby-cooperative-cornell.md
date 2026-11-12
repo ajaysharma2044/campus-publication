@@ -48,7 +48,7 @@ sources:
   title: Redbud Cooperative in Von Cramm Hall, Cornell Student & Campus Life
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

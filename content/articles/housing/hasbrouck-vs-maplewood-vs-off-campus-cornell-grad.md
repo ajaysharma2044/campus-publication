@@ -77,7 +77,7 @@ sources:
   title: Cornell and Collegetown construction update, The Ithaca Voice
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

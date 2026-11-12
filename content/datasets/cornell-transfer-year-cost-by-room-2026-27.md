@@ -18,7 +18,7 @@ sources:
   - {url: "https://studenthealthbenefits.cornell.edu/shp-costs-billing-important-dates/shp-costs-dates-2026-27", title: "Cornell Student Health Benefits: Student Health Plan costs and dates 2026-27", accessed: "2026-11-11"}
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates", title: "Cornell Housing: new transfer undergraduates", accessed: "2026-11-11"}
   - {url: "https://scl.cornell.edu/families/first-year-families/transferfamilies", title: "Cornell Student and Campus Life: transfer families", accessed: "2026-11-11"}
-index: false
+index: true
 ---
 
 A new Cornell transfer must [live on campus for one academic year](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates), and that year is billed at **$95,218 to $99,169 for an endowed or non-New York student** and **$71,088 to $75,039 for a New York resident in a contract college**, before aid, at 2026-27 prices. The spread comes from the room: a triple is the cheapest hall row, a super single the most expensive. A co-op double cuts the housing line to **$6,974 to $9,962 a year**, against $13,744 for a hall double.

@@ -35,7 +35,7 @@ sources:
 redirect_from:
   - /cornell/housing/ithaca-rent-commute-calculator/
   - /housing/ithaca-rent-commute-calculator/
-index: false
+index: true
 ---
 
 This calculator gives one person's yearly cost to live in a named Ithaca building. Pick the building and the layout, then say how many people share the unit. It returns your share of the rent and electricity for the months you pay, adds a year of bus fares and parking, and sets the rent and electricity against Cornell's 2026-27 residence hall double, $13,744. A table under the result shows the same unit split among more or fewer people.

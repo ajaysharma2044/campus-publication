@@ -60,7 +60,7 @@ sources:
   title: Veterans House, Cornell Student & Campus Life
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

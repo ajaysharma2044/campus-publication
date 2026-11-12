@@ -63,7 +63,7 @@ images:
   author: Dougtone
   source_url: https://www.flickr.com/photos/7327243@N05/4094918813
 kind: spoke
-index: false
+index: true
 ---
 
 

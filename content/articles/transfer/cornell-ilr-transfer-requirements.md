@@ -100,7 +100,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: Kenneth C. Zirkel
   source_url: https://commons.wikimedia.org/wiki/File:Ives_Hall_ILR_School,_Cornell_University.jpg
-index: false
+index: true
 ---
 ```glance
 - Fall entry only; the application and $85 fee are due March 15, 2027, everything else by April 15.

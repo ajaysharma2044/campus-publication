@@ -138,7 +138,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:TCAT_New_Flyer_XD40_2101.jpg
 subject:
 - TCAT New Flyer XD40 2101
-index: false
+index: true
 ---
 
 ```glance

@@ -80,7 +80,7 @@ images:
   license_url: https://creativecommons.org/licenses/by/3.0
   author: Notyourbroom
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_Martha_Van_Rensselaer_Hall_1.jpg
-index: false
+index: true
 ---
 
 ```glance

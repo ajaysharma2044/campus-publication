@@ -89,7 +89,7 @@ images:
   author: BrakeCoach
   source_url: https://commons.wikimedia.org/wiki/File:TCAT_New_Flyer_XD40_2101.jpg
 kind: reader_guide
-index: false
+index: true
 ---
 
 

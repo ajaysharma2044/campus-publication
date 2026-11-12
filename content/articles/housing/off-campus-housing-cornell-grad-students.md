@@ -197,7 +197,7 @@ images:
   author: LBM1948
   source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_NY_34.jpg
 kind: reader_guide
-index: false
+index: true
 ---
 
 

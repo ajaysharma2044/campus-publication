@@ -85,7 +85,7 @@ sources:
   accessed: '2026-11-11'
 images: []
 lead_photo: none-found 2026-11-11
-index: false
+index: true
 ---
 ```glance
 - The required on-campus year bills $95,218 (triple) to $99,169 (super single) at 2026-27 endowed or out-of-state prices, before aid.

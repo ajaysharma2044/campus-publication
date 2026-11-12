@@ -109,7 +109,7 @@ images:
   author: desultrix
   source_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
 kind: spoke
-index: false
+index: true
 ---
 
 

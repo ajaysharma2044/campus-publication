@@ -24,7 +24,7 @@ sources:
   - {url: "https://ithacarenting.com/collegetown/", title: "Ithaca Renting: Collegetown properties", accessed: "2026-11-08"}
   - {url: "https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095", title: "Off-campus housing listing: 209 Stewart Avenue", accessed: "2026-11-08"}
   - {url: "https://cornellsun.com/2012/10/01/as-collegetown-housing-rush-intensifies-students-sleep-outside-rental-agency/", title: "Cornell Daily Sun (2012-10-01): as Collegetown housing rush intensifies, students sleep outside rental agency", accessed: "2026-11-11"}
-index: false
+index: true
 ---
 
 Collegetown leases in the Cornell Daily Sun's record are signed **8 to 16 months before an August move-in, mostly 10 to 11 months ahead**. That means September to October of the year before, which for a junior-year lease is the fall of sophomore year. The one exception is a fallback: a 14-person group whose Greek housing plans fell through started hunting in February and signed **at most about 6 months** ahead.

@@ -55,7 +55,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:College_Park_Apartments_at_Ithaca,_NY_20240526.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
-index: false
+index: true
 ---
 
 

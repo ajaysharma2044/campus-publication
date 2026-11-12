@@ -139,7 +139,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Students_waiting_for_bus_and_pathways_at_Cornell_University.jpg
 subject:
 - TCAT bus Ithaca
-index: false
+index: true
 ---
 ```glance
 - Newark Airport is the only New York-area airport with a direct bus: OurBus boards at West Campus (Baker Flagpole) or North Campus (Jessup Road) and drops at the AirTrain P3 station.

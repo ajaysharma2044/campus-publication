@@ -97,7 +97,7 @@ sources:
   title: Housing Vendor Partnerships, Cornell Student and Campus Life
   accessed: '2026-11-10'
 images: []
-index: false
+index: true
 ---
 
 

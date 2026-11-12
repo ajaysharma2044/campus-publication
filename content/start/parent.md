@@ -15,7 +15,7 @@ sources:
   - {url: "https://alumni.cornell.edu/reunion/", title: "Cornell Alumni: Reunion", accessed: "2026-11-11"}
   - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores", title: "Cornell Student and Campus Life: Spring Housing Selection for rising sophomores", accessed: "2026-11-11"}
   - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors", title: "Cornell Student and Campus Life: Fall Housing Selection for rising juniors and seniors", accessed: "2026-11-11"}
-index: false
+index: true
 ---
 
 You have no NetID, so you see Cornell from the outside: you pay public fares when you come for move-in, Family Weekend, Commencement or Reunion, you cannot see the Cornell housing marketplace when your student looks off campus, and you get the bill only if your student invites you to Cashnet. You are often the one paying, for trips home, for rent and the deposit, and for a transfer's required year on campus, and you may file the CSS Profile with your child. You want to know what is required, when the bills come, whether the housing is sound and when to drive to Ithaca. Each topic below has its own path; read the guides in order, and each one has the details and its sources.

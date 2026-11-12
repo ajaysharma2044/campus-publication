@@ -28,7 +28,7 @@ sources:
   - {url: "https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free", title: "Cornell Sun: non-first-year students no longer able to ride TCAT free", accessed: "2026-11-11"}
   - {url: "https://business.cornell.edu/students/by-program/mba-students/living-in-ithaca/", title: "Cornell Johnson: living in Ithaca (MBA)", accessed: "2026-11-11"}
   - {url: "https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/", title: "Cornell Sun: TCAT prolongs suspension of routes 14S and 83", accessed: "2026-11-11"}
-index: false
+index: true
 ---
 
 This quiz tells you whether a car is worth it for your year at Cornell, and if it is, which parking permit you would need. You tell it your year, where you live, how often you go home and how, how many hours a month you would actually drive in Ithaca, and your age and license history. It answers with one of four picks: no car, no car plus an Ithaca Carshare plan, a B commuter permit, or a resident permit (or, for graduate assistants off campus, a free A or E permit). It also gives the yearly cost of getting around with and without a car, the reasons, and the rules that could stop you. Prices are as of 2026-11-08.

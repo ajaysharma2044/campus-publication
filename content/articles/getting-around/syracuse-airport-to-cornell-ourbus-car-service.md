@@ -115,7 +115,7 @@ images: []
 subject:
 - TCAT bus Ithaca
 lead_photo: none-found 2026-11-11
-index: false
+index: true
 ---
 
 ```glance

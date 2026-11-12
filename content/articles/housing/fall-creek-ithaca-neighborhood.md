@@ -57,7 +57,7 @@ sources:
   title: Often overlooked, Ithaca's Northside residents try building clout, Ithaca Voice, 2015
   accessed: '2026-11-10'
 images: []
-index: false
+index: true
 ---
 
 

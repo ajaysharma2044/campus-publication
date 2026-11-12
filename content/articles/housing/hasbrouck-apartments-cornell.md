@@ -55,7 +55,7 @@ sources:
   title: Hasbrouck Apartments, Tompkins County history narrative
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

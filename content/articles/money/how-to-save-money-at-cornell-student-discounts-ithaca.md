@@ -53,7 +53,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Herbert_F._Johnson_Museum_of_Art.jpg
 subject:
 - Johnson Museum of Art Cornell University
-index: false
+index: true
 ---
 
 The biggest savings for a Cornell student in Ithaca are free or cheap ones you only get by asking: TCAT rides are free in your first year, the Johnson Museum is free for everyone, Short Line takes 15% off bus tickets to New York, and Ithaca Carshare takes $45 off an annual membership. Below is each discount and what it saves.

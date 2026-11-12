@@ -45,7 +45,7 @@ sources:
   title: Winter Break Housing, Cornell Housing
   accessed: '2026-11-10'
 images: []
-index: false
+index: true
 ---
 
 

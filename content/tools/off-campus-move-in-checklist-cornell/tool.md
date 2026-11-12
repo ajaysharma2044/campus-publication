@@ -37,7 +37,7 @@ sources:
   - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", title: "Cornell Transportation: bus services, privileges and passes", accessed: "2026-11-08"}
   - {url: "https://international.globallearning.cornell.edu/life-cornell/faq-international-students", title: "Cornell International Services: FAQ", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources", title: "Cornell Off-Campus Living: rental listings and resources", accessed: "2026-11-08"}
-index: false
+index: true
 ---
 
 This checklist turns your move-in into a dated to-do list. Tell it whether the place is in the City of Ithaca, your lease start date, which bills you pay, how many people split them, whether you have a car and where it sleeps, your Cornell status, and four yes-or-no facts (someone living there who is not on the lease, arriving from abroad, a new building, a helper driving in). It sorts the steps into before move-in day, move-in day, the first 30 days and later dates, computes the deadline to name an extra occupant and a prorated Cornell parking permit price, and gives a per-person range for the bills you add on top of rent.

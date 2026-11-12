@@ -164,7 +164,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: Hbithaca
   source_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2107_on_Route_30.jpg
-index: false
+index: true
 ---
 ```glance
 - TCAT is free at all hours with your Cornell ID until Aug 31, 2027. From Sept 1, 2027, weekday daytime rides cost $1.50.

@@ -69,7 +69,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Pedestrian_mall_of_Ithaca_20240526.jpg
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0
-index: false
+index: true
 ---
 
 

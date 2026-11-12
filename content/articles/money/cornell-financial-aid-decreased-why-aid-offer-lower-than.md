@@ -17,7 +17,7 @@ sources:
   - {url: "https://cornellsun.com/2024/01/26/new-fafsa-raises-concerns-for-students-with-siblings-in-college-complex-financial-situations/", title: "New FAFSA raises concerns for students with siblings in college, The Cornell Daily Sun, January 26, 2024", accessed: "2026-11-07"}
   - {url: "https://www.uaspire.org/News-Events/Why-Upperclassmen-Lose-Financial-Aid", title: "Why Upperclassmen Lose Financial Aid, uAspire", accessed: "2026-11-07"}
 images: []
-index: false
+index: true
 ---
 
 Cornell does not publish a list of reasons an award shrinks, but its own pages point to five: your family's reported finances changed, your cost of attendance changed, an outside scholarship replaced some of your loans or work-study, federal rules or the FAFSA formula changed, or you fell short on academic progress. Cornell's [FAQ](https://www.finaid.cornell.edu/financial-aid-faq) gives the starting formula: Cost of Attendance minus Expected Family Contribution equals demonstrated financial need. Anything that moves either side moves your aid. The fastest way to find your cause is to compare this year's award letter with last year's, line by line, then ask the aid office about the line that changed.

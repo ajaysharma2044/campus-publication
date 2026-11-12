@@ -69,7 +69,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2105.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
-index: false
+index: true
 ---
 
 ```glance

@@ -86,7 +86,7 @@ images:
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   author: Tomwsulcer
   source_url: https://commons.wikimedia.org/wiki/File:Campus_view_looking_west_at_Cornell_University.jpg
-index: false
+index: true
 ---
 
 ```glance

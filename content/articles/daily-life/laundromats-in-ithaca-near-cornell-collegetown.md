@@ -61,7 +61,7 @@ images: []
 redirect_from:
   - /cornell/getting-around/laundromats-in-ithaca-near-cornell-collegetown/
   - /getting-around/laundromats-in-ithaca-near-cornell-collegetown/
-index: false
+index: true
 ---
 
 

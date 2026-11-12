@@ -53,7 +53,7 @@ sources:
   title: TCAT to offer contactless payment, The Cornell Daily Sun, Sept. 2025
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

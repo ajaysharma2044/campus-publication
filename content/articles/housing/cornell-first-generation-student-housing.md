@@ -59,7 +59,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Day_Hall_04.jpg
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0
-index: false
+index: true
 ---
 
 

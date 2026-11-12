@@ -49,7 +49,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Prospective_students_and_parents_at_Day_Hall_at_Cornell_University.jpg
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-index: false
+index: true
 ---
 
 

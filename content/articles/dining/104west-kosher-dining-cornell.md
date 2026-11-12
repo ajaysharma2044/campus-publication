@@ -47,7 +47,7 @@ sources:
   title: Cornell Dining Now
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

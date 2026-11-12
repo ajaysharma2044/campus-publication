@@ -43,7 +43,7 @@ sources:
   title: Students and commuters, Ithaca CarShare
   accessed: '2026-11-10'
 images: []
-index: false
+index: true
 ---
 
 

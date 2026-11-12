@@ -56,7 +56,7 @@ sources:
   title: 301 College Avenue, Cornell Student and Campus Life
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

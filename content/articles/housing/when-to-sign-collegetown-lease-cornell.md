@@ -105,7 +105,7 @@ kind: spoke
 redirect_from:
   - /cornell/housing/how-early-collegetown-leases-sign-2012-2026/
   - /housing/how-early-collegetown-leases-sign-2012-2026/
-index: false
+index: true
 ---
 
 

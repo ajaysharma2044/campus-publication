@@ -481,7 +481,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
   license: CC BY-SA 2.0
   license_url: https://creativecommons.org/licenses/by-sa/2.0
-index: false
+index: true
 ---
 
 

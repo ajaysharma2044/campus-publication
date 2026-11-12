@@ -80,7 +80,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Tri-Delta_sorority_building_in_Cornell_Heights_Historic_District,_Ithaca,_Tompkins_County.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
-index: false
+index: true
 ---
 
 

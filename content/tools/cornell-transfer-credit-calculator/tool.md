@@ -22,7 +22,7 @@ sources:
   - {url: "https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/", title: "Cornell AAP: Transfer applicants", accessed: "2026-11-11"}
   - {url: "https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters", title: "Cornell Chronicle: Board of Trustees approves 2026-27 budget parameters", accessed: "2026-11-11"}
   - {url: "https://finaid.cornell.edu/cost-attend", title: "Cornell Financial Aid: Cost of attendance", accessed: "2026-11-11"}
-index: false
+index: true
 ---
 
 Cornell accepts at most 60 transfer credits in most of its colleges, AP and IB included, and you must still earn at least 60 credits at Cornell. This calculator applies your college's caps to the credits you will bring, then tells you the most Cornell can accept, how many credits you lose, how many semesters you need at Cornell and how many semesters of college that makes in all. If the total runs past eight semesters, it prices the extra time at 2026-27 tuition and fees. Up to 60 credits, nothing is lost; a 90-credit junior keeps 60, loses 30 and spends ten semesters in college.

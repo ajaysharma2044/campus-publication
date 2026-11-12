@@ -98,7 +98,7 @@ images:
   author: Dougtone
   source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
 kind: reader_guide
-index: false
+index: true
 ---
 
 

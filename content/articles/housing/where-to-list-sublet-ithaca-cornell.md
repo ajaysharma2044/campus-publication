@@ -52,7 +52,7 @@ sources:
   title: Real Property Law Section 226-b, NY State Senate
   accessed: '2026-11-10'
 images: []
-index: false
+index: true
 ---
 
 

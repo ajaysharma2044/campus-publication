@@ -125,7 +125,7 @@ images:
   license_url: https://creativecommons.org/licenses/by/4.0
   author: P. Hughes
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Ho_Plaza,_looking_north.jpg
-index: false
+index: true
 ---
 
 ```glance

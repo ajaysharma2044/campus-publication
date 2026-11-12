@@ -125,7 +125,7 @@ images:
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   author: Tomwsulcer
   source_url: https://commons.wikimedia.org/wiki/File:Students_waiting_for_bus_and_pathways_at_Cornell_University.jpg
-index: false
+index: true
 ---
 ```glance
 - No classes Wed Nov 25 to Sun Nov 29, 2026; Thanksgiving Day is Thu Nov 26.

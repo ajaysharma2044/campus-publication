@@ -49,7 +49,7 @@ sources:
   title: Sample housing agreement, 2027-28 term, Collegetown Terrace
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

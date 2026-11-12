@@ -101,7 +101,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Flowers_in_Ithaca_Downtown.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
-index: false
+index: true
 ---
 
 

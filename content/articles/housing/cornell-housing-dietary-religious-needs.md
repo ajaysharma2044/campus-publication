@@ -46,7 +46,7 @@ sources:
   title: Qualified Off-Campus Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images: []
-index: false
+index: true
 ---
 
 

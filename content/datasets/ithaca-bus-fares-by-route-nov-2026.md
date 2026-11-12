@@ -30,7 +30,7 @@ sources:
   - {url: "https://ca.megabus.com/route-guides/ithaca-to-toronto-bus", title: "Megabus: Ithaca to Toronto route guide", accessed: "2026-11-11"}
   - {url: "https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny", title: "OurBus: Ithaca, NY to New York, NY route page (174.8-mile distance)", accessed: "2026-11-11"}
   - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule", title: "Cornell Campus-to-Campus bus: C2C departure schedule and stops", accessed: "2026-11-11"}
-index: false
+index: true
 ---
 
 On Nov 8, 2026, the cheapest one-way bus seat out of Ithaca was **$8 to Binghamton, $10 to Syracuse and $17 to Rochester**. Farther out, the lows were **$36 to Newark Penn Station, $41 to Philadelphia, $44 to Boston and $49 to Washington DC**. The OurBus run to **Syracuse airport (SYR) costs $46.70 to $62.10**, which is **$0.91 to $1.21 a mile, 4 to 5 times** what the regional buses charge per mile at their floor.

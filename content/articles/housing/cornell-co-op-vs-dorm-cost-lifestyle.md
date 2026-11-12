@@ -65,7 +65,7 @@ sources:
   title: Interested in moving to a Co-op for the 2024-2025 academic year?, Student & Campus Life, Jan. 30, 2024
   accessed: '2026-11-10'
 images: []
-index: false
+index: true
 ---
 
 

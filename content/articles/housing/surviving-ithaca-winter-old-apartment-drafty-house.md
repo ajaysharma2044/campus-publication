@@ -56,7 +56,7 @@ images: []
 redirect_from:
   - /cornell/getting-around/surviving-ithaca-winter-old-apartment-drafty-house/
   - /getting-around/surviving-ithaca-winter-old-apartment-drafty-house/
-index: false
+index: true
 ---
 
 ```glance

@@ -100,7 +100,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: Kenneth C. Zirkel
   source_url: https://commons.wikimedia.org/wiki/File:Klarman_Hall_and_East_Avenue,_Cornell_University.jpg
-index: false
+index: true
 ---
 
 ```glance

@@ -118,7 +118,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:TCAT_Gillig_Low_Floor_40_2504.jpg
 subject:
 - TCAT Gillig Low Floor 40 2504
-index: false
+index: true
 ---
 
 ```glance

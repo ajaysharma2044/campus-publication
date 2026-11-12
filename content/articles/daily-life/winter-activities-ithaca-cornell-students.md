@@ -67,7 +67,7 @@ redirect_from:
 - /cornell/getting-around/winter-activities-ithaca-cornell-students/
 - /getting-around/winter-activities-ithaca-cornell-students/
 lead_photo: none-found 2026-11-11
-index: false
+index: true
 ---
 
 ```glance

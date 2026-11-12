@@ -22,7 +22,7 @@ sources:
   - {url: "https://www.wskg.org/regional-news/2024-07-08/new-good-cause-eviction-renter-protections-on-the-table-in-ithaca", title: "WSKG: New Good Cause Eviction renter protections on the table in Ithaca", accessed: "2026-11-08"}
   - {url: "https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026", title: "NYS DHCR: Good Cause Eviction law notice, posted July 16, 2026", accessed: "2026-11-11"}
   - {url: "https://ecode360.com/27390826", title: "City of Ithaca Code 258-10: renewal of rental agreements", accessed: "2026-11-08"}
-index: false
+index: true
 ---
 
 This checker tells you whether New York's Good Cause Eviction law, which the City of Ithaca [opted into in July 2024](https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections), likely covers your apartment, and if not, which exemption takes it out. It then shows the rent-increase standard a covered unit gets, and counts the 30, 60 or 90 days' written notice your landlord owes you before not renewing or raising the rent by 5% or more. That notice rule is state law and applies whether or not Good Cause covers you.

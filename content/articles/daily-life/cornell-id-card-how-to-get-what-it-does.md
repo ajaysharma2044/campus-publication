@@ -45,7 +45,7 @@ redirect_from:
 - /cornell/getting-around/cornell-id-card-how-to-get-what-it-does/
 - /getting-around/cornell-id-card-how-to-get-what-it-does/
 lead_photo: none-found 2026-11-11
-index: false
+index: true
 ---
 
 

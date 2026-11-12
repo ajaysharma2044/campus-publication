@@ -40,7 +40,7 @@ sources:
   title: Hours, System Alternative and Appeal Process, City of Ithaca
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

@@ -54,7 +54,7 @@ sources:
   title: Move-In Instructions for Ecology/Hurlburt House, Cornell Housing
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

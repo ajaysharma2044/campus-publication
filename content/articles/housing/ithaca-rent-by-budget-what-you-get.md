@@ -521,7 +521,7 @@ sources:
   title: The Outlook listing, offcampus.housing.cornell.edu
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

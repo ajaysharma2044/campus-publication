@@ -32,7 +32,7 @@ sources:
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy", title: "Cornell Housing: residential policy", accessed: "2026-11-11"}
   - {url: "https://finaid.cornell.edu/first-year-and-transfer-students-international", title: "Cornell Financial Aid: international first-year and transfer students", accessed: "2026-11-11"}
   - {url: "https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf", title: "Cornell Common Data Set 2025-26", accessed: "2026-11-11"}
-index: false
+index: true
 ---
 
 This quiz tells you whether you apply to Cornell as a transfer, as a first-year, or not at all, and then checks the one college and major you pick. You enter where you stand: high school or not, college credits, semesters finished by August 2027, your school, the Cornell college and major, your GPA, whether you have the required courses, years lived on campus elsewhere and citizenship. It answers with your applicant type, your likely standing (sophomore or junior), whether that college and major are open to you, your GPA set against the college's own figure, how many of your credits fit under the cap, whether the one-year housing rule applies, and the deadlines. The rules are Cornell's pages for the fall 2027 cycle, read on 2026-11-11.

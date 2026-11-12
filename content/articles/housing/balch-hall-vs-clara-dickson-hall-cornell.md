@@ -66,7 +66,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornel_University_-_Clara_Dickson_Hall_01.jpg
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0
-index: false
+index: true
 ---
 
 

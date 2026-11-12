@@ -46,7 +46,7 @@ sources:
   title: Storage and shipping options, Cornell Student & Campus Life
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

@@ -53,7 +53,7 @@ sources:
   title: Car Rentals, Ithaca Tompkins International Airport
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

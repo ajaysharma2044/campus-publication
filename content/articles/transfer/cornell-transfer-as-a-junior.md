@@ -109,7 +109,7 @@ images:
   license_url: ''
   author: Cornell010 at English Wikipedia
   source_url: https://commons.wikimedia.org/wiki/File:Llenroc,_Cornell_University.jpg
-index: false
+index: true
 ---
 
 ```glance

@@ -37,7 +37,7 @@ images:
 redirect_from:
   - /cornell/daily-life/pharmacy-near-cornell-campus-ithaca/
   - /daily-life/pharmacy-near-cornell-campus-ithaca/
-index: false
+index: true
 ---
 
 The nearest pharmacy is on campus: the [Cornell Health pharmacy](https://health.cornell.edu/services/pharmacy), on Level 4 just inside the Ho Plaza entrance at 110 Ho Plaza. Off campus, the closest chains and Wegmans are a short bus or car ride away. Among the pharmacies we checked, none keeps its counter open past 9 PM, even on weekdays, so "open late" in Ithaca mostly means planning ahead, or using the 24/7 vending machine at Cornell Health for basic over-the-counter items.

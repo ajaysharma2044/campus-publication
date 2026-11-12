@@ -177,7 +177,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_looking_down_Libe_Slope_to_West_Campus_01.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
-index: false
+index: true
 ---
 
 

@@ -77,7 +77,7 @@ sources:
   title: Graduate and Professional Student Campus Housing, Cornell Student and Campus Life
   accessed: '2026-11-10'
 images: []
-index: false
+index: true
 ---
 
 

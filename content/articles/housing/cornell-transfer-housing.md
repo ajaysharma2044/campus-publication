@@ -95,7 +95,7 @@ images:
   author: Kenneth C. Zirkel
   source_url: https://commons.wikimedia.org/wiki/File:Hans_Bethe_House,_Cornell_University.jpg
 kind: rewrite
-index: false
+index: true
 ---
 
 

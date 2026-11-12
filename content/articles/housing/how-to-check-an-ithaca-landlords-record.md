@@ -76,7 +76,7 @@ redirect_from:
 - /cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/
 - /housing/ithaca-landlords-to-avoid-collegetown-reviews/
 lead_photo: none-found 2026-11-11
-index: false
+index: true
 ---
 
 

@@ -20,7 +20,7 @@ sources:
   - {url: "https://admissions.cornell.edu/apply/transfer-applicants", title: "Cornell Admissions: Transfer applicants", accessed: "2026-11-11"}
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates", title: "Cornell Housing and Residential Life: New transfer undergraduates", accessed: "2026-11-11"}
   - {url: "https://scl.cornell.edu/families/first-year-families/transferfamilies", title: "Cornell Student and Campus Life: Transfer families", accessed: "2026-11-11"}
-index: false
+index: true
 ---
 
 A new Cornell transfer must live on campus for one academic year, and that year costs $96,318 billed for a hall double with the Unlimited plan at endowed or non-New York tuition, before aid, at 2026-27 prices. This calculator adds up your version: tuition for your college and residency, your room, the meal plan your hall comes with, the health plan if you keep it, and Cornell's own estimates for books and personal costs. It shows the billed total, the full cost, the cost a month, and what Cornell's income lines for aid would mean for you.

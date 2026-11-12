@@ -23,7 +23,7 @@ sources:
   - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options", title: "Storage and Shipping Options, Cornell Student and Campus Life", accessed: "2026-11-11"}
   - {url: "https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/", title: "Hunt for Housing Begins Early, Causing Stress for Students, The Cornell Daily Sun", accessed: "2026-11-11"}
   - {url: "https://cornellsun.com/2021/10/13/just-months-after-move-in-next-years-hectic-housing-search-begins/", title: "Just Months After Move-In, Next Year's Hectic Housing Search Begins, The Cornell Daily Sun", accessed: "2026-11-11"}
-index: false
+index: true
 ---
 
 You started at Cornell this fall, you live in a residence hall, most likely on North Campus, and you probably have no car. Right now the questions are how you get home for Thanksgiving and winter break, and whether a car is worth bringing at all. Housing is a planning question this year: you must spend year two in Cornell or affiliated housing too, and your junior-year lease will be decided around October of sophomore year.

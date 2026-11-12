@@ -78,7 +78,7 @@ images:
   author: Indies1
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Low_Rise_6_02.jpg
 kind: spoke
-index: false
+index: true
 ---
 
 

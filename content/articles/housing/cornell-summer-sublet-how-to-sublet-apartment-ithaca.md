@@ -90,7 +90,7 @@ kind: rewrite
 redirect_from:
 - /cornell/housing/sublet-apartment-study-abroad-semester-cornell/
 - /housing/sublet-apartment-study-abroad-semester-cornell/
-index: false
+index: true
 ---
 
 

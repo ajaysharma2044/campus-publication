@@ -137,7 +137,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/2.0
   author: desultrix
   source_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
-index: false
+index: true
 ---
 
 ```glance

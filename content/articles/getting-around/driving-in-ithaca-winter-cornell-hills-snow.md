@@ -64,7 +64,7 @@ sources:
   title: Ithaca winter 2025-26, The Cornell Daily Sun, March 2026
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 ```glance

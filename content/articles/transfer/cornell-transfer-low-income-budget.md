@@ -82,7 +82,7 @@ sources:
   accessed: '2026-11-11'
 images: []
 lead_photo: none-found 2026-11-11
-index: false
+index: true
 ---
 ```glance
 - Family income up to $75,000: grants, scholarships and work-study cover the full cost of attendance (2026-27).

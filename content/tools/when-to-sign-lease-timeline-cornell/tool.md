@@ -34,7 +34,7 @@ sources:
   - {url: "https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html", title: "Reed Group graduate student resources: life at Cornell", accessed: "2026-11-11"}
   - {url: "https://www.nysenate.gov/legislation/laws/GOB/7-108", title: "New York General Obligations Law 7-108 (move-in inspection, deposits)", accessed: "2026-11-08"}
   - {url: "https://www.cornellsun.com/article/2026/09/a-comprehensive-guide-to-apartment-hunting", title: "Cornell Daily Sun: a comprehensive guide to apartment hunting (Sept. 24, 2026)", accessed: "2026-11-11"}
-index: false
+index: true
 ---
 
 Enter your year, term, transfer, exemption and market to get the August your first lease can start and the dated steps up to it. The steps cover when to look and sign, co-op rounds, the Cornell housing application and exemption deadline, the Collegetown rush, the last cheap day to drop a backup Cornell room and the lease start.

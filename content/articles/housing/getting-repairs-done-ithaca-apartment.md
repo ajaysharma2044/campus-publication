@@ -47,7 +47,7 @@ sources:
   title: Cornell student abandons house, sleeps in library, The Cornell Daily Sun, Nov. 2018
   accessed: '2026-11-10'
 images: []
-index: false
+index: true
 ---
 
 

@@ -18,7 +18,7 @@ sources:
   - {url: "https://www.flyithaca.com/news/traveling-to-and-from-ith", title: "ITH: Traveling to and from ITH", accessed: "2026-11-11"}
   - {url: "https://www.downtownithaca.com/getting-around-visit/", title: "Downtown Ithaca Alliance: Getting around", accessed: "2026-11-11"}
   - {url: "https://www.ithaca.edu/orientation/family-and-guest-resources/transportation", title: "Ithaca College: Family and guest transportation", accessed: "2026-11-11"}
-index: false
+index: true
 ---
 
 This calculator adds up the whole round trip from each airport: the airfare you found, plus what it costs to get there and back. Driving means the parking for the days you are away. The bus means two fares per person. A taxi means two of your quotes. It then tells you which airport is cheaper and by how much. When a price is a range (the OurBus fare to Syracuse), the totals and the difference are ranges too.

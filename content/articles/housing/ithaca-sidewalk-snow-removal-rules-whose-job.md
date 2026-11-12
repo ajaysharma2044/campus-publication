@@ -50,7 +50,7 @@ images: []
 redirect_from:
   - /cornell/getting-around/ithaca-sidewalk-snow-removal-rules-whose-job/
   - /getting-around/ithaca-sidewalk-snow-removal-rules-whose-job/
-index: false
+index: true
 ---
 
 ```glance

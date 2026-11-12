@@ -55,7 +55,7 @@ images:
 redirect_from:
   - /cornell/getting-around/ithaca-winter-blues-cornell-campus-resources/
   - /getting-around/ithaca-winter-blues-cornell-campus-resources/
-index: false
+index: true
 ---
 
 ```glance

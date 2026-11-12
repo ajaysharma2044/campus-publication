@@ -92,7 +92,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Robert_Purcell_Community_Center.jpg
 subject:
 - Cornell University - Robert Purcell Community Center
-index: false
+index: true
 ---
 
 ```glance

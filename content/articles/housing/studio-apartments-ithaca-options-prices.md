@@ -101,7 +101,7 @@ sources:
   title: Ithaca Neighborhoods, Cornell Student and Campus Life
   accessed: '2026-11-11'
 images: []
-index: false
+index: true
 ---
 
 

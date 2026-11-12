@@ -20,7 +20,7 @@ sources:
   - {url: "https://www.nysenate.gov/legislation/laws/RPP/216", title: "NY Real Property Law 216: grounds for removal", accessed: "2026-11-11"}
   - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out", title: "Cornell Housing: moving in and out", accessed: "2026-11-11"}
   - {url: "https://www.nysenate.gov/legislation/laws/GOB/7-108", title: "New York General Obligations Law 7-108, Security deposits", accessed: "2026-11-11"}
-index: false
+index: true
 ---
 
 You are a junior, senior or grad student on a 10- or 12-month lease in Collegetown, downtown, Fall Creek or West Hill, most likely ending July 31, and you are deciding whether to renew, move or leave Ithaca. Two sets of choices sit in front of you: the lease itself (renewal, rent increases, repairs, the deposit and moving out), and how you get to class and, if you keep a car, where it sleeps, since campus resident permits are not open to you. Each topic below has its own path; start with housing if a renewal offer or a repair is on your mind.

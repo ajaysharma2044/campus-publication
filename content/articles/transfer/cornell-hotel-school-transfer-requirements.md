@@ -80,7 +80,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: Kenneth C. Zirkel
   source_url: https://commons.wikimedia.org/wiki/File:Statler_Hall,_Cornell_University,_west_facade.jpg
-index: false
+index: true
 ---
 
 ```glance
