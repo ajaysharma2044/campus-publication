@@ -16,7 +16,8 @@ readers:
 - international
 - low-budget
 - parent
-subject: Tompkins County courthouse Ithaca
+subject:
+- Tompkins County courthouse Ithaca
 tools:
 - ithaca-lease-fee-deposit-checker
 sources:
@@ -52,14 +53,14 @@ sources:
   accessed: '2026-11-10'
 images:
 - file: 1.webp
-  alt: The 1854 Tompkins County courthouse in Ithaca, a stucco Gothic Revival building with pointed windows and corner turrets
-  caption: The 1854 Tompkins County courthouse in Ithaca. Send a demand letter first; if the landlord ignores it, you can sue for up to $5,000 in Ithaca City Court without a lawyer.
-  credit: Jerrye & Roy Klotz, MD / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:SECOND_TOMPKINS_COUNTY_COURTHOUSE,_ITHACA,_TOMPKINS_COUNTY.jpg
-  author: Jerrye & Roy Klotz, MD
-  source_url: https://commons.wikimedia.org/wiki/File:SECOND_TOMPKINS_COUNTY_COURTHOUSE,_ITHACA,_TOMPKINS_COUNTY.jpg
+  alt: Tompkins County Family Court Ithaca New York
+  caption: Tompkins County Family Court Ithaca New York
+  credit: Kenneth C. Zirkel / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Tompkins_County_Family_Court_Ithaca_New_York.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Tompkins_County_Family_Court_Ithaca_New_York.jpg
 ---
 
 

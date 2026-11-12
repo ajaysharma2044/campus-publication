@@ -40,12 +40,16 @@ sources:
   accessed: '2026-11-11'
 images:
 - file: 1.webp
-  alt: Cornell University - Ho Plaza, looking north
-  caption: Cornell University - Ho Plaza, looking north
-  credit: P. Hughes / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Ho_Plaza,_looking_north.jpg
-  license: CC BY 4.0
-  license_url: https://creativecommons.org/licenses/by/4.0
+  alt: Caldwell-hall-cornell
+  caption: Caldwell-hall-cornell
+  credit: Dmadeo / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Caldwell-hall-cornell.JPG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  author: Dmadeo
+  source_url: https://commons.wikimedia.org/wiki/File:Caldwell-hall-cornell.JPG
+subject:
+- Caldwell Hall, Cornell University
 ---
 
 If you are on an F-1 or J-1 visa, you can work on campus for Cornell for up to 20 hours a week while classes are in session. You find the job yourself in Workday, complete the Form I-9 with the hiring department, and apply for a Social Security number once the job has started. F-1 students need no special work authorization. J-1 students need an authorization letter first. Here is the path in order, with the limits that can cost you your status.

@@ -18,7 +18,8 @@ readers:
 - student-family
 - transfer-spring
 pillar: /housing/cornell-off-campus-housing-guide/
-subject: Cornell West Campus houses
+subject:
+- Cornell West Campus houses
 tools:
 - can-i-live-off-campus-cornell-quiz
 - ithaca-rent-commute-calculator
@@ -85,14 +86,14 @@ sources:
   accessed: '2026-11-11'
 images:
 - file: 1.webp
-  alt: Llenroc, a large stone mansion used as a fraternity house at Cornell University
-  caption: Llenroc is the Cornell chapter house of Delta Phi. Greek houses count as affiliated housing for second-years, but a new transfer's first Cornell year runs on a Cornell license that a Greek offer does not cancel.
-  credit: Cornell010 at English Wikipedia / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Llenroc,_Cornell_University.jpg
-  license: Public domain
-  license_url: ''
-  author: Cornell010 at English Wikipedia
-  source_url: https://commons.wikimedia.org/wiki/File:Llenroc,_Cornell_University.jpg
+  alt: Hans Bethe House, Cornell University
+  caption: Hans Bethe House, Cornell University
+  credit: Kenneth C. Zirkel / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Hans_Bethe_House,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Hans_Bethe_House,_Cornell_University.jpg
 kind: rewrite
 ---
 

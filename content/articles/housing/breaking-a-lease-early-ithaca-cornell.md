@@ -18,7 +18,8 @@ readers:
 - international
 - parent
 pillar: /housing/cornell-off-campus-housing-guide/
-subject: Day Hall Cornell
+subject:
+- Day Hall Cornell
 tools:
 - ithaca-sublet-request-timeline
 - cornell-housing-license-cancellation-fee-calculator
@@ -56,17 +57,9 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student and Campus Life
   accessed: '2026-11-11'
-images:
-- file: 1.webp
-  alt: Day Hall, a tall stone and brick administration building on the Cornell campus, under a blue sky
-  caption: Day Hall houses Cornell Financial Aid (Room 203), which says it will not intervene in a mid-year attempt to break a lease.
-  credit: Notyourbroom / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_Day_Hall_1.jpg
-  license: CC BY 3.0
-  license_url: https://creativecommons.org/licenses/by/3.0
-  author: Notyourbroom
-  source_url: https://commons.wikimedia.org/wiki/File:Cornell_Day_Hall_1.jpg
+images: []
 kind: reader_guide
+lead_photo: none-found 2026-11-11
 ---
 
 

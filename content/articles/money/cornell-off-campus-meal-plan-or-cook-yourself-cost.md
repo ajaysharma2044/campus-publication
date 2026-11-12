@@ -17,7 +17,8 @@ readers:
 - grad-student
 - low-budget
 - parent
-subject: Collegetown, Ithaca, New York
+subject:
+- Collegetown, Ithaca, New York
 tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
@@ -65,14 +66,8 @@ sources:
 - url: https://cornellsun.com/2023/09/27/obaseki-a-brokies-guide-to-having-no-meal-plan/
   title: 'The Cornell Daily Sun: A broke student''s guide to having no meal plan, Sept. 27, 2023'
   accessed: '2026-11-11'
-images:
-- file: 1.webp
-  alt: Collegetown Wine & Spririts, Ithaca New York
-  caption: Collegetown Wine & Spririts, Ithaca New York
-  credit: Kenneth C. Zirkel / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown_Wine_%26_Spririts,_Ithaca_New_York.jpg
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
+images: []
+lead_photo: none-found 2026-11-11
 ---
 
 

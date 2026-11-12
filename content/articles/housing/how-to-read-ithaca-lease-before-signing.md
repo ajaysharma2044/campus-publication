@@ -19,7 +19,8 @@ readers:
 - parent
 - grad-student
 - transfer
-subject: Myron Taylor Hall Cornell
+subject:
+- Myron Taylor Hall Cornell
 tools:
 - ithaca-lease-fee-deposit-checker
 - ithaca-good-cause-coverage-checker
@@ -139,17 +140,9 @@ sources:
 - url: https://www.gradschool.cornell.edu/announcements/grad-tips-renting/
   title: Grad Tips for Renting, Cornell Graduate School
   accessed: '2026-11-10'
-images:
-- file: 1.webp
-  alt: The Gould Reading Room in Cornell's Myron Taylor Hall, a Gothic hall with long reading tables under tall arched windows
-  caption: The Gould Reading Room in Myron Taylor Hall, home of Cornell Law School. The school's Tenants Advocacy Program updated its free Tenants' Rights Guide in February 2026 and runs the hotline (607-301-1560) that answers lease questions before you sign.
-  credit: eflon / Flickr
-  credit_url: https://www.flickr.com/photos/23094783@N03/3662168238
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0/
-  author: eflon
-  source_url: https://www.flickr.com/photos/23094783@N03/3662168238
+images: []
 kind: spoke
+lead_photo: none-found 2026-11-11
 ---
 
 

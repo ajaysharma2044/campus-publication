@@ -1,5 +1,5 @@
 ---
-title: "How to check an Ithaca landlord's record before you sign"
+title: How to check an Ithaca landlord's record before you sign
 mode: answer
 dek: Before you sign in Ithaca, check the building's Certificate of Compliance, Cornell's safety tool and two past tenants.
 meta: 'How to check a landlord''s record in Ithaca: the certificate call, Cornell''s safety tool, questions for past tenants and what each check misses.'
@@ -17,7 +17,8 @@ readers:
 - grad-student
 - international
 pillar: /housing/cornell-off-campus-housing-guide/
-subject: Dryden Road Collegetown Ithaca
+subject:
+- Dryden Road Collegetown Ithaca
 tools:
 - ithaca-lease-fee-deposit-checker
 sources:
@@ -69,29 +70,12 @@ sources:
 - url: https://international.globallearning.cornell.edu/life-cornell/faq-international-students
   title: FAQ for international students, Cornell Global Learning
   accessed: '2026-11-11'
-images:
-- file: 1.webp
-  alt: Dryden Road in Collegetown, Ithaca, seen looking north from College Avenue, with storefronts and apartment buildings along the street
-  caption: Dryden Road from College Avenue in September 1985. Ithaca Renting's Collegetown Plaza (111 Dryden), Collegetown Center (151) and Collegetown Court (208) all sit on this road.
-  credit: Upsilon Andromedae from Chicago, Illinois, USA / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown_(438384821).jpg
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0
-  author: Upsilon Andromedae from Chicago, Illinois, USA
-  source_url: https://commons.wikimedia.org/wiki/File:Collegetown_(438384821).jpg
-- file: 2.webp
-  alt: The Dryden Road and College Avenue intersection in Collegetown at night, with traffic blurred under streetlights
-  caption: The Dryden Road and College Avenue corner, where Nick Robertson and Charlie O'Connor built The Ivy (325 College Ave); its first leases began Aug 17, 2026.
-  credit: eflon / Openverse
-  credit_url: https://www.flickr.com/photos/23094783@N03/2683568684
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0/
-  author: eflon
-  source_url: https://www.flickr.com/photos/23094783@N03/2683568684
+images: []
 kind: rewrite
 redirect_from:
-  - /cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/
-  - /housing/ithaca-landlords-to-avoid-collegetown-reviews/
+- /cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/
+- /housing/ithaca-landlords-to-avoid-collegetown-reviews/
+lead_photo: none-found 2026-11-11
 ---
 
 

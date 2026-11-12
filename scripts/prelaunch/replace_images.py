@@ -61,7 +61,7 @@ def remove_lead(page: Path, slug: str) -> None:
     text = page.read_text(encoding="utf-8")
     m = re.match(r"^---\n(.*?)\n---\n", text, re.S)
     fm = m.group(1)
-    fm2 = re.sub(r"^images:.*?(?=^\S|\Z)", "images: []\n", fm + "\n", count=1, flags=re.S | re.M).rstrip("\n")
+    fm2 = re.sub(r"^images:.*?(?=^(?![ -])\S|\Z)", "images: []\n", fm + "\n", count=1, flags=re.S | re.M).rstrip("\n")   # list items sit at column 0 ("- file:")
     page.write_text(f"---\n{fm2}\n---\n" + text[m.end():], encoding="utf-8")
     subprocess.run([sys.executable, "-c", f"import sys; sys.path.insert(0, 'scripts/v3'); import images; from pathlib import Path; images.drop_photos(Path('content/images'), {slug!r})"], cwd=REPO, check=True)
 

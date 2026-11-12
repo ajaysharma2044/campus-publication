@@ -87,14 +87,8 @@ sources:
 - url: https://ispreports.org/internet-service-providers-ithaca-ny/
   title: Internet Service Providers in Ithaca, NY, ISPReports
   accessed: '2026-11-11'
-images:
-- file: 1.webp
-  alt: Ithaca - Winter scene in Ithaca Gorge
-  caption: Ithaca - Winter scene in Ithaca Gorge
-  credit: The Corner Bookstores, Ithaca / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca_-_Winter_scene_in_Ithaca_Gorge.jpg
-  license: Public domain
-  license_url: ''
+images: []
+lead_photo: none-found 2026-11-11
 ---
 
 

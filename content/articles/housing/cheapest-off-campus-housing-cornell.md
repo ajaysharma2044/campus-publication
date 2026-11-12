@@ -18,7 +18,8 @@ readers:
 - grad-student
 - affiliated-housing
 - parent
-subject: Ithaca Commons
+subject:
+- Ithaca Commons
 tools:
 - ithaca-rent-commute-calculator
 - ithaca-lease-fee-deposit-checker
@@ -124,14 +125,14 @@ sources:
   accessed: '2026-11-11'
 images:
 - file: 1.webp
-  alt: The Ithaca Commons pedestrian street in winter, with snow on the ground and a banner reading Downtown Ithaca Winter
-  caption: The Ithaca Commons in January 2019. The cheapest downtown 3BR shares sit a few blocks from here, 0.5 to 1.5 miles from campus and a 20 to 30 minute uphill walk.
-  credit: Kenneth C. Zirkel / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca_Commons_in_winter.jpg
+  alt: Ruth Bader Ginsburg Hall, Cornell University
+  caption: Ruth Bader Ginsburg Hall, Cornell University
+  credit: Kenneth C. Zirkel / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Ruth_Bader_Ginsburg_Hall,_Cornell_University.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: Kenneth C. Zirkel
-  source_url: https://commons.wikimedia.org/wiki/File:Ithaca_Commons_in_winter.jpg
+  source_url: https://commons.wikimedia.org/wiki/File:Ruth_Bader_Ginsburg_Hall,_Cornell_University.jpg
 kind: reader_guide
 ---
 

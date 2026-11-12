@@ -112,7 +112,7 @@ sources:
 - url: https://www.greystar.com/maplewood-ithaca-ny/p_15697
   title: Maplewood Apartments, Greystar
   accessed: '2026-11-11'
-images:
+images: []
 - file: 1.webp
   alt: Rainy view north from the Thurston Avenue Bridge toward Cornell's North Campus, with Balch Hall behind the trees
   caption: North Campus from the Thurston Avenue Bridge, before the bridge was rebuilt. Visiting scholars have no guaranteed place in Cornell housing; their Cornell options are International Scholar House and, as space allows, the Hasbrouck grad apartments.

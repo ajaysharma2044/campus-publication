@@ -19,7 +19,8 @@ readers:
 - parent
 - low-budget
 - transfer-spring
-subject: Collegetown apartment buildings, College Avenue, Ithaca
+subject:
+- Collegetown apartment buildings, College Avenue, Ithaca
 tools:
 - ithaca-rent-commute-calculator
 sources:
@@ -41,7 +42,19 @@ sources:
 - url: https://drydensouth.com/availability/
   title: 'Dryden South: Availability'
   accessed: '2026-11-10'
-- url: https://www.ithacarents.com/4525-210-stewart-avenue-2br-unit----2026/27
+- url: https://www.ithacarents.com/4525-210-stewart-avenue-2br-unit
+images:
+- file: 1.webp
+  alt: Ithaca, New York - 4370299698
+  caption: Ithaca, New York - 4370299698
+  credit: Dougtone / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  author: Dougtone
+  source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+---
+-2026/27
   title: 'IthacaRents: 210 Stewart Avenue, 2BR unit'
   accessed: '2026-11-10'
 - url: https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown

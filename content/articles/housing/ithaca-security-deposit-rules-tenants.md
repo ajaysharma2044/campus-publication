@@ -81,14 +81,14 @@ sources:
   accessed: '2026-11-08'
 images:
 - file: 1.webp
-  alt: CollegeTown-2018-10-21
-  caption: CollegeTown-2018-10-21
-  credit: 山田晴通 / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:CollegeTown-2018-10-21.jpg
+  alt: College Park Apartments at Ithaca, NY 20240526
+  caption: College Park Apartments at Ithaca, NY 20240526
+  credit: 颐园居 / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:College_Park_Apartments_at_Ithaca,_NY_20240526.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
-  author: 山田晴通
-  source_url: https://commons.wikimedia.org/wiki/File:CollegeTown-2018-10-21.jpg
+  author: 颐园居
+  source_url: https://commons.wikimedia.org/wiki/File:College_Park_Apartments_at_Ithaca,_NY_20240526.jpg
 ---
 ```glance
 - Deposit cap: one month's rent, and that includes any "last month's rent," rent advance or pet deposit (New York GOL 7-108).

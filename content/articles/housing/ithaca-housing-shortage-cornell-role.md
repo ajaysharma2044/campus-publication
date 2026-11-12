@@ -15,7 +15,8 @@ readers:
 - grad-student
 - parent
 - low-budget
-subject: Ithaca Collegetown and downtown housing
+subject:
+- Ithaca Collegetown and downtown housing
 tools: []
 sources:
 - url: https://cornellsun.com/2019/10/30/fox-the-case-for-an-ithaca-tenants-union/
@@ -66,16 +67,8 @@ sources:
 - url: https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections
   title: Ithaca is the latest upstate city to opt into Good Cause renter protections, WAMC, July 12, 2024
   accessed: '2026-11-11'
-images:
-- file: 1.webp
-  alt: A new multi-storey apartment building at the corner of Tioga and Seneca streets in downtown Ithaca
-  caption: New apartment buildings at Tioga and Seneca streets downtown. About seven in 10 Ithaca households rent, thousands of Cornell students compete with residents for the same units, and Cornell's own beds shape how many do.
-  credit: P. Hughes / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca_-_Modern_Buildings.jpg
-  author: P. Hughes
-  source_url: https://commons.wikimedia.org/wiki/File:Ithaca_-_Modern_Buildings.jpg
-  license: CC BY 4.0
-  license_url: https://creativecommons.org/licenses/by/4.0
+images: []
+lead_photo: none-found 2026-11-11
 ---
 
 

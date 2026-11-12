@@ -54,15 +54,6 @@ sources:
   title: Move-In Instructions for Ecology/Hurlburt House, Cornell Housing
   accessed: '2026-11-11'
 images: []
-- file: 1.webp
-  alt: Hurlburt House, the brick building that houses Ecology House on Cornell's North Campus, in spring 1996
-  caption: Hurlburt House in spring 1996. Ecology House's 96 residents each get a double with a private bath and in-room air conditioning.
-  credit: Benjamin22b / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:EcoHouse_Spring_1996.jpg
-  author: Benjamin22b
-  source_url: https://commons.wikimedia.org/wiki/File:EcoHouse_Spring_1996.jpg
-  license: Public domain
-  license_url: ''
 ---
 
 

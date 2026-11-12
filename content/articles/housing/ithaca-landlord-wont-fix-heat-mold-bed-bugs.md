@@ -20,7 +20,8 @@ readers:
 - parent
 - accessibility
 pillar: /housing/cornell-off-campus-housing-guide/
-subject: Ithaca house
+subject:
+- Ithaca house
 tools:
 - ithaca-good-cause-coverage-checker
 sources:
@@ -87,16 +88,8 @@ sources:
 - url: https://www.ithacatu.org/
   title: Ithaca Tenants Union
   accessed: '2026-11-11'
-images:
-- file: 1.webp
-  alt: A wood-frame house on a residential street in Ithaca, New York
-  caption: A house in Ithaca, photographed in 2015. In the City of Ithaca the heat season for rentals starts Sept 15, about two weeks before the statewide Oct 1 start.
-  credit: ikrichter / Flickr
-  credit_url: https://www.flickr.com/photos/23423452@N02/21625236198
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0/
-  author: ikrichter
-  source_url: https://www.flickr.com/photos/23423452@N02/21625236198
+images: []
+lead_photo: none-found 2026-11-11
 ---
 
 

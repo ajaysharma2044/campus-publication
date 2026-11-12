@@ -18,7 +18,8 @@ readers:
 - summer-in-ithaca
 - international
 - parent
-subject: Dryden Road Ithaca
+subject:
+- Dryden Road Ithaca
 tools:
 - ithaca-lease-fee-deposit-checker
 sources:
@@ -82,17 +83,9 @@ sources:
 - url: https://www.nysenate.gov/legislation/laws/RPP/226-B
   title: Real Property Law Section 226-b, NY Senate
   accessed: '2026-11-11'
-images:
-- file: 1.webp
-  alt: Dryden Road in Collegetown, looking north from College Avenue, with storefronts and parked cars
-  caption: Dryden Road from College Avenue in September 1985. Collegetown's leases still mostly end July 31, so this stretch fills with move-out trash and furniture in the last week of July.
-  credit: Upsilon Andromedae from Chicago, Illinois, USA / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown_(438384821).jpg
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0
-  author: Upsilon Andromedae from Chicago, Illinois, USA
-  source_url: https://commons.wikimedia.org/wiki/File:Collegetown_(438384821).jpg
+images: []
 kind: spoke
+lead_photo: none-found 2026-11-11
 ---
 
 

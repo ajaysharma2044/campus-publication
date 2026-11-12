@@ -17,7 +17,8 @@ readers:
 - upper-year-renter
 - international
 - short-stay
-subject: Cayuga Lake summer Ithaca
+subject:
+- Cayuga Lake summer Ithaca
 tools:
 - ithaca-sublet-request-timeline
 sources:
@@ -96,17 +97,9 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus
   title: Summer Housing On Campus, Cornell Student & Campus Life
   accessed: '2026-11-11'
-images:
-- file: 1.webp
-  alt: Fields, trees and a country road beside Cayuga Lake under a summer sky
-  caption: 'Countryside along Cayuga Lake in summer (1991). A summer in Ithaca starts with a housing gap: Cornell dorms close in mid-May and most leases turn over on July 31.'
-  credit: 'In Memoriam: PhillipC / Flickr'
-  credit_url: https://www.flickr.com/photos/42033648@N00/219300541
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0/
-  author: 'In Memoriam: PhillipC'
-  source_url: https://www.flickr.com/photos/42033648@N00/219300541
+images: []
 kind: spoke
+lead_photo: none-found 2026-11-11
 ---
 
 

@@ -21,7 +21,8 @@ readers:
 - car-on-campus
 - upper-year-no-car
 - low-budget
-subject: Fall Creek Ithaca
+subject:
+- Fall Creek Ithaca
 tools:
 - ithaca-rent-commute-calculator
 - omniride-break-even-calculator
@@ -187,14 +188,14 @@ sources:
   accessed: '2026-11-10'
 images:
 - file: 1.webp
-  alt: Hand-colored early-1900s postcard of Fall Creek Gorge in Ithaca with a bridge spanning the gorge
-  caption: 'Fall Creek Gorge on an early-1900s postcard. The creek names the neighborhood just below campus that grad students favor: 0.5 to 1 mile from Cornell, a 20 to 30 minute uphill walk.'
-  credit: Cornell University Series / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca_-_Fall_Creek_Gorge_and_bridge_01.jpg
-  license: Public domain
-  license_url: ''
-  author: Cornell University Series
-  source_url: https://commons.wikimedia.org/wiki/File:Ithaca_-_Fall_Creek_Gorge_and_bridge_01.jpg
+  alt: Ithaca, NY 34
+  caption: Ithaca, NY 34
+  credit: LBM1948 / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca,_NY_34.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  author: LBM1948
+  source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_NY_34.jpg
 kind: reader_guide
 ---
 

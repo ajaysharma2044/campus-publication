@@ -100,16 +100,7 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Cornell Law tenants' guide
   accessed: '2026-11-11'
-images:
-- file: 1.webp
-  alt: A two-story wooden house with a pitched roof behind a lawn and trees
-  caption: The Hans Bethe House, the physicist's home in Ithaca. Whole houses and family-size apartments sit in quiet residential areas, away from the per-bed Collegetown market.
-  credit: NPS/GLOWINSKI / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Hans_Bethe_House.jpg
-  license: Public domain
-  license_url: ''
-  author: NPS/GLOWINSKI
-  source_url: https://commons.wikimedia.org/wiki/File:Hans_Bethe_House.jpg
+images: []
 kind: reader_guide
 ---
 

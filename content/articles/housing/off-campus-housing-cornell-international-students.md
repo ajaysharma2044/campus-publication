@@ -17,7 +17,8 @@ readers:
 - transfer
 - short-stay
 pillar: /housing/cornell-off-campus-housing-guide/
-subject: Willard Straight Hall Cornell
+subject:
+- Willard Straight Hall Cornell
 tools:
 - ithaca-lease-fee-deposit-checker
 sources:
@@ -78,17 +79,9 @@ sources:
 - url: https://finaid.cornell.edu/living-campus
   title: Living on Campus, Cornell Financial Aid
   accessed: '2026-11-10'
-images:
-- file: 1.webp
-  alt: Willard Straight Hall, a stone Gothic-style building with a tall tower, on a sunny day
-  caption: Willard Straight Hall, Cornell's student union, in May 2024. New degree students ride TCAT to campus free for their first year, which makes a cheaper downtown lease workable.
-  credit: 颐园居 / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_Willard_Straight_Hall_20240526.jpg
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  author: 颐园居
-  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_Willard_Straight_Hall_20240526.jpg
+images: []
 kind: reader_guide
+lead_photo: none-found 2026-11-11
 ---
 
 

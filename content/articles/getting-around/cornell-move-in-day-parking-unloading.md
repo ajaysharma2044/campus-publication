@@ -18,7 +18,8 @@ readers:
 - car-on-campus
 - accessibility
 - transfer-spring
-subject: Cornell North Campus
+subject:
+- Cornell North Campus
 tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
@@ -68,14 +69,14 @@ sources:
   accessed: '2026-11-11'
 images:
 - file: 1.webp
-  alt: Cornell University - North Campus area
-  caption: Cornell University - North Campus area
-  credit: H. K. Barnett / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_North_Campus_area.jpg
-  license: Public domain
-  license_url: ''
-  author: H. K. Barnett
-  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_North_Campus_area.jpg
+  alt: Cornell University - Low Rise 6 02
+  caption: Cornell University - Low Rise 6 02
+  credit: Indies1 / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Low_Rise_6_02.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  author: Indies1
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Low_Rise_6_02.jpg
 kind: spoke
 ---
 

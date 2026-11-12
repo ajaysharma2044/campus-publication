@@ -147,15 +147,6 @@ sources:
   title: Security Deposits, Cornell Law School Tenant Advocacy guide
   accessed: '2026-11-10'
 images: []
-- file: 1.webp
-  alt: Cornell University - North Campus area
-  caption: Cornell University - North Campus area
-  credit: H. K. Barnett / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_North_Campus_area.jpg
-  license: Public domain
-  license_url: ''
-  author: H. K. Barnett
-  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_North_Campus_area.jpg
 kind: spoke
 ---
 

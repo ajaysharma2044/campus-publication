@@ -15,7 +15,8 @@ readers:
 - transfer-spring
 - off-campus
 - parent
-subject: Cornell student ID card held up at a TCAT bus farebox, Ithaca
+subject:
+- Cornell student ID card held up at a TCAT bus farebox, Ithaca
 tools: []
 sources:
 - url: https://registrar.cornell.edu/students/services/id-cards
@@ -39,19 +40,11 @@ sources:
 - url: https://c2cbus.ipp.cornell.edu/Start.aspx
   title: Campus to Campus reservations, Cornell Transportation
   accessed: '2026-11-11'
-images:
-- file: 1.webp
-  alt: Inside a TCAT bus in Ithaca, looking toward the front door and the farebox beside the driver's seat
-  caption: The farebox at the front door of a TCAT bus. Your Cornell ID is your bus pass, your meal card and your City Bucks account, and a replacement costs $40 at 245 Day Hall.
-  credit: Hbithaca / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Interior_Shot_of_TCAT_Bus_2105.jpg
-  author: Hbithaca
-  source_url: https://commons.wikimedia.org/wiki/File:Interior_Shot_of_TCAT_Bus_2105.jpg
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
+images: []
 redirect_from:
-  - /cornell/getting-around/cornell-id-card-how-to-get-what-it-does/
-  - /getting-around/cornell-id-card-how-to-get-what-it-does/
+- /cornell/getting-around/cornell-id-card-how-to-get-what-it-does/
+- /getting-around/cornell-id-card-how-to-get-what-it-does/
+lead_photo: none-found 2026-11-11
 ---
 
 
