@@ -7,7 +7,7 @@ primary_query: Sober Living Community Cornell housing
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 97
 rewrites: ''
 readers:
@@ -19,40 +19,40 @@ tools: []
 sources:
 - url: https://www.cornellsun.com/article/2026/11/oasis-on-north-campus-cornell-opens-sober-living-community-in-court-kay-bauer-hall
   title: Cornell Opens Sober Living Community in Court-Kay-Bauer Hall, The Cornell Daily Sun, Nov. 9, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/program-houses
   title: Program Houses, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing
   title: North Campus residence halls, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall
   title: North Campus hall pages, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations
   title: Residence Hall Configurations, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans 2026-2027, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: 'Move Instructions: North Campus, Cornell Housing'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Bauer Hall, a brick wing of Court-Kay-Bauer Hall on Cornell's North Campus
@@ -70,7 +70,7 @@ images:
 - The Sober Living Community opened in fall 2026 with 38 residents.
 - It occupies the fourth floor of Bauer, part of Court-Kay-Bauer Hall on North Campus.
 - Cornell says it is not a true program house, and it needs an extra application.
-- Cornell's page does not list its room types, so the rate depends on the room you get.
+- Rent follows Cornell's residence hall rate table: $12,644 to $16,595 for 2026-27, by room type.
 ```
 
 The Sober Living Community is Cornell's newest campus housing community, on the fourth floor of Bauer in Court-Kay-Bauer Hall on North Campus. It opened in fall 2026 with 38 residents ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/11/oasis-on-north-campus-cornell-opens-sober-living-community-in-court-kay-bauer-hall)). It is for students who want to live in a sober community, as its name says.
@@ -90,7 +90,6 @@ rows:
   - {label: "Residents", value: "38 in fall 2026"}
   - {label: "Building", value: "Court-Kay-Bauer Hall, North Campus"}
   - {label: "Room layout", value: "Corridors in the hall"}
-  - {label: "Room types and air conditioning", value: "Not listed by Cornell"}
   - {label: "Room rate, 2026-27", value: "Residence hall table: $12,644 to $16,595 per academic year"}
   - {label: "Meal plan", value: "Required"}
   - {label: "How to get in", value: "Extra application inside the housing application"}
@@ -100,9 +99,11 @@ Source: The Cornell Daily Sun, Cornell Housing and Cornell's 2026-27 rate table.
 
 ## What is it like to live there?
 
-Cornell's pages do not say what daily life on the floor is like. They show only the hall's layout: rooms open off corridors ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)).
+Cornell describes the community as a residential environment for students who choose to pursue a substance-free lifestyle. When you apply, you check a box to acknowledge that you have reviewed and understand the mission and expectations of each community you list ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/program-houses)).
 
-Cornell's page does not list who qualifies, what residents agree to, or which room types the floor has. Write to housing@cornell.edu before you apply, and ask for all three. The corridor layout is described on [Cornell's residence hall configurations page](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations).
+Court-Kay-Bauer is a corridor-style hall: bedrooms open directly off a hallway, and residents share communal bathrooms ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)).
+
+Before you apply, write to housing@cornell.edu and ask what the community's expectations are and which room types the floor has.
 
 ## What does it cost?
 
@@ -118,7 +119,7 @@ Off campus, a share of a Collegetown four-bedroom has a median asking rent of $1
 
 Juniors and seniors answer an extra application inside the housing application, along with the Language House and Veterans House. The 2027-28 round ran from Sept. 1 to Sept. 27, 2026, and Cornell warns that program house beds may not be left in later stages ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
 
-Rising sophomores apply in spring. Their 2027-28 application opens Feb. 1, 2027, and closes April 4 at 11:59 p.m. Program house selection is April 12, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Cornell's page for this round does not say how the extra application works for sophomores, so ask housing@cornell.edu.
+Rising sophomores apply in spring. Their 2027-28 application opens Feb. 1, 2027, and closes April 4 at 11:59 p.m. Program house selection is April 12, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Ask housing@cornell.edu how the extra application works in the sophomore round.
 
 ```reader "If you're a sophomore deciding between campus and off campus"
 A place here counts as on-campus housing, so it meets the two-year requirement. If you would rather leave campus, check the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) first.
@@ -128,7 +129,7 @@ A place here counts as on-campus housing, so it meets the two-year requirement. 
 
 The house opened in fall 2026, and Cornell set its first review for mid-fall 2026 (Cornell Daily Sun). Ask housing@cornell.edu what the review changed before you list it.
 
-Court-Kay-Bauer is not on Cornell's list of North Campus halls open over winter break ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)). Plan where you will stay between semesters.
+Court-Kay-Bauer is not one of the halls Cornell keeps open over winter break in 2026-27 or 2027-28. Students from closed buildings can apply for limited break housing elsewhere, at $500 for the full break ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)). Plan where you will stay between semesters.
 
 Juniors and seniors who sign for 2027-28 can cancel for $50 through Jan. 31, 2027. The fee then rises in steps ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) turns your date into a number.
 
@@ -136,7 +137,7 @@ On move-in day, Court-Kay-Bauer unloading was at the Helen Newman lot in fall 20
 
 ## What to do next
 
-Email housing@cornell.edu with your three questions, then decide whether to list the community.
+Email housing@cornell.edu with your questions about expectations, room types and the sophomore application, then decide whether to list the community.
 
 Related guides:
 

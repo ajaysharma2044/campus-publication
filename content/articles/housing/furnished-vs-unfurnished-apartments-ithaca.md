@@ -15,7 +15,8 @@ readers:
 - off-campus
 - grad-student
 - low-budget
-subject: Collegetown Ithaca apartment interior
+subject:
+- Collegetown Ithaca apartment interior
 tools:
 - off-campus-move-in-checklist-cornell
 sources:
@@ -85,16 +86,8 @@ sources:
 - url: https://ivyridgetownhomes.com/
   title: Ivy Ridge Townhomes
   accessed: '2026-11-10'
-images:
-- file: 1.webp
-  alt: A student apartment complex in Ithaca, with a skybridge between two buildings.
-  caption: A student apartment complex in Ithaca, with a skybridge between two buildings. Furnished apartments usually cost little more per month than unfurnished ones; the real saving is avoiding a summer of storage.
-  credit: 颐园居 / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:College_Park_Apartments_in_Ithaca,_NY_20240526.jpg
-  author: 颐园居
-  source_url: https://commons.wikimedia.org/wiki/File:College_Park_Apartments_in_Ithaca,_NY_20240526.jpg
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
+images: []
+lead_photo: none-found 2026-11-11
 ---
 
 

@@ -97,7 +97,7 @@ For the other four Houses side by side, see [West Campus Houses compared](/corne
 
 ## What does a year in Cook cost?
 
-Cornell charges by room type, not by building ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The meal plan is where West differs. Every House resident must take the House Meal Plan, with all meals in the ten residential dining rooms, and cannot change or cancel it while living on West ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
+Cornell charges by room type, not by building ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The meal plan is where West differs. The House Meal Plan is required for residents of the West Campus House System and gives access to all meals in the ten residential dining rooms ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 ```figure
 kind: cost_table

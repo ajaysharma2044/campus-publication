@@ -161,7 +161,7 @@ Dyson lists four college courses. Each needs a [B or better](https://business.co
 | Calculus | B or better | No |
 | Microeconomics | B or better | No |
 | Statistics | B or better | No |
-| One writing or English composition course | B or better | Not named in Dyson's exam-credit rule |
+| One writing or English composition course | B or better | No: it must be a college course |
 | Macroeconomics (not on the required list) | No admission rule | No |
 
 Three habits keep these courses usable. Take them for a letter grade, since a pass mark cannot show a B. Take real calculus: [math below precalculus never transfers](https://registrar.cornell.edu/students/credit-evaluation-services). And keep every syllabus, because the Cornell department that owns the matching course decides from it whether yours is about 80% similar. Courses seven or more years old are generally not eligible.

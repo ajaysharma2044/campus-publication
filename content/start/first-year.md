@@ -10,6 +10,19 @@ kind: start_here
 readers: [first-year]
 brief: intel/getting-around/brief.md
 briefs: [intel/off-campus-housing/brief.md]
+sources:
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service", title: "Campus-to-Campus Bus Service, Cornell Facilities and Campus Services", accessed: "2026-11-11"}
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", title: "Bus services, privileges and passes, Cornell Facilities and Campus Services", accessed: "2026-11-11"}
+  - {url: "https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/", title: "OurBus moves Ithaca stop to South Cayuga Street, Finger Lakes 1", accessed: "2026-11-11"}
+  - {url: "https://www.ourbus.com/blog/?p=6269", title: "College student bus travel, OurBus blog", accessed: "2026-11-11"}
+  - {url: "https://registrar.cornell.edu/calendars-exams/academic-calendar", title: "Academic Calendar 2026-2027, Cornell Registrar", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing", title: "Winter Break Housing, Cornell Student and Campus Life", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice", title: "Winter Break Closing Checklist, Cornell Student and Campus Life", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing", title: "Cooperative Housing, Cornell Student and Campus Life", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy", title: "Residential Policy, Cornell Student and Campus Life", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options", title: "Storage and Shipping Options, Cornell Student and Campus Life", accessed: "2026-11-11"}
+  - {url: "https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/", title: "Hunt for Housing Begins Early, Causing Stress for Students, The Cornell Daily Sun", accessed: "2026-11-11"}
+  - {url: "https://cornellsun.com/2021/10/13/just-months-after-move-in-next-years-hectic-housing-search-begins/", title: "Just Months After Move-In, Next Year's Hectic Housing Search Begins, The Cornell Daily Sun", accessed: "2026-11-11"}
 ---
 
 You started at Cornell this fall, you live in a residence hall, most likely on North Campus, and you probably have no car. Right now the questions are how you get home for Thanksgiving and winter break, and whether a car is worth bringing at all. Housing is a planning question this year: you must spend year two in Cornell or affiliated housing too, and your junior-year lease will be decided around October of sophomore year.
@@ -61,7 +74,7 @@ Also plan around these: Cornell's Thanksgiving break runs Nov 25 to 29, 2026 ([R
 - **Mar 15 (the 2026 date):** students living in a fraternity or sorority house as sophomores affirm it in the Housing Application ([Cornell residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
 - **Apr 6 (the 2026 date):** housing application due, including any exemption request; Spring Housing Selection for Rising Sophomores follows in April ([Cornell residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
 - **2 p.m. Sunday, May 17 (the 2026 date):** residence halls close for the summer ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options)).
-- **Late August to October of sophomore year:** Collegetown leasing for junior year opens, and many students sign by October ([Cornell Daily Sun, 2022](https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/); [Cornell Daily Sun, 2021](https://cornellsun.com/2021/10/13/just-months-after-move-in-next-years-hectic-housing-search-begins/)).
+- **Late August to October of sophomore year:** students start looking for junior-year Collegetown leases, and some rental agencies begin renting in early September ([Cornell Daily Sun, 2022](https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/); [Cornell Daily Sun, 2021](https://cornellsun.com/2021/10/13/just-months-after-move-in-next-years-hectic-housing-search-begins/)).
 
 ## When you're done
 

@@ -14,7 +14,7 @@ sources:
   - {url: "https://ithacarenting.com/property-details/?pid=11", title: "Ithaca Renting: Whiton Hall", accessed: "2026-11-10"}
   - {url: "https://drydensouth.com/availability/", title: "Dryden South: Availability for 2027-28", accessed: "2026-11-10"}
   - {url: "https://drydensouth.com/common-questions/", title: "Dryden South: Common questions (inclusions, no parking)", accessed: "2026-11-10"}
-  - {url: "https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown", title: "IthacaRents: 114 Stewart Avenue, 2027-28", accessed: "2026-11-10"}
+  - {url: "https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown", title: "IthacaRents: 114 Stewart Avenue, 2027-28", accessed: "2026-11-11"}
   - {url: "https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights", title: "IthacaRents: 117 Thurston Ave 3BR, Cornell Heights", accessed: "2026-11-10"}
   - {url: "https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom", title: "IthacaRents: 174 Kendall Ave 4BR, South Hill", accessed: "2026-11-10"}
   - {url: "https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026", title: "Cornell Daily Sun: The Ivy to establish new luxury housing in Collegetown (Dec. 2025)", accessed: "2026-11-10"}
@@ -25,7 +25,7 @@ sources:
   - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire", title: "Cornell Off-Campus Living: Housemate compatibility questionnaire (joint and several liability)", accessed: "2026-11-10"}
   - {url: "https://finaid.cornell.edu/graduate-students", title: "Cornell Financial Aid: Graduate students cost of attendance", accessed: "2026-11-10"}
   - {url: "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/", title: "EnergySage: Electricity cost in Ithaca, NY", accessed: "2026-11-10"}
-  - {url: "https://poweroutage.us/electricity-rates/ny/ithaca", title: "PowerOutage.us: Ithaca electricity rates (search snippet)", accessed: "2026-11-08"}
+  - {url: "https://poweroutage.us/electricity-rates/ny/ithaca", title: "PowerOutage.us: Ithaca electricity rates", accessed: "2026-11-11"}
   - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes", title: "Cornell Transportation: Bus services, privileges and OmniRide passes", accessed: "2026-11-10"}
   - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students", title: "Cornell Transportation: Student parking", accessed: "2026-11-10"}
   - {url: "https://www.cityofithacany.gov/718/Dryden-Road-Garage", title: "City of Ithaca: Dryden Road Garage", accessed: "2026-11-10"}
@@ -73,25 +73,25 @@ A worked example: Collegetown Plaza's premium 4BR with 1.5 baths lists at $1,250
 
 | Number | Value | Applies to | Source |
 |---|---|---|---|
-| Ithaca Renting Collegetown, per bed | 38 priced rows in seven buildings; medians studio $1,765, 1BR $2,025, 2BR $1,377.50, 4BR $1,246.25, 6BR $800, 10BR $775, room $895; means 3BR $1,243.75, 5BR $1,102.50 | 2027-28, read 2026-11-08, re-read 2026-11-10 | [Ithaca Renting Collegetown](https://ithacarenting.com/collegetown/); [dataset](/datasets/collegetown-rent-per-bed-2027-28/) |
-| Ithaca Renting downtown, per bed | 20 priced rows in seven buildings; medians studio $1,395, 1BR $1,625, 2BR $992.50, 3BR $795, 5BR $795, 6BR $870 | mostly 2026-27, read 2026-11-08 | [Ithaca Renting downtown](https://ithacarenting.com/downtown/); [dataset](/datasets/collegetown-vs-downtown-rent-per-bed-2026/) |
+| Ithaca Renting Collegetown, per bed | 38 priced rows in seven buildings; medians studio $1,765, 1BR $2,025, 2BR $1,377.50, 4BR $1,246.25, 6BR $800, 10BR $775, room $895; means 3BR $1,243.75, 5BR $1,102.50 | 2027-28 asking prices, Nov. 2026 | [Ithaca Renting Collegetown](https://ithacarenting.com/collegetown/); [dataset](/datasets/collegetown-rent-per-bed-2027-28/) |
+| Ithaca Renting downtown, per bed | 20 priced rows in seven buildings; medians studio $1,395, 1BR $1,625, 2BR $992.50, 3BR $795, 5BR $795, 6BR $870 | mostly 2026-27 asking prices, Nov. 2026 | [Ithaca Renting downtown](https://ithacarenting.com/downtown/); [dataset](/datasets/collegetown-vs-downtown-rent-per-bed-2026/) |
 | Whiton Hall room | $965 to $1,065 a bed; electricity and Wi-Fi included | 2026-27 | [Ithaca Renting](https://ithacarenting.com/property-details/?pid=11) |
-| Dryden South, 205 Dryden Rd. | Studios $1,990 and $2,190 a person (available); ten 4BR suites $1,360 to $1,575 a person (all rented); 12-month leases from June 1; no parking | 2027-28, read 2026-11-10 | [Dryden South availability](https://drydensouth.com/availability/); [common questions](https://drydensouth.com/common-questions/) |
+| Dryden South, 205 Dryden Rd. | Studios $1,990 and $2,190 a person (available); ten 4BR suites $1,360 to $1,575 a person (all rented); 12-month leases from June 1; no parking | 2027-28 | [Dryden South availability](https://drydensouth.com/availability/); [common questions](https://drydensouth.com/common-questions/) |
 | The Ivy, 325 College Ave. | 3BR $5,500 to $5,800 a month; basement 2BR $1,595 a person after a discount | leases from Aug. 17, 2026 | [Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026) |
-| 114 Stewart Ave. | 8BR, $900 a person; utilities not stated | from June 10, 2027 | [IthacaRents](https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown) |
+| 114 Stewart Ave. | 8BR, $900 a person; furnished; off-street parking included; coin-op laundry | from June 10, 2027 | [IthacaRents](https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown) |
 | 117 Thurston Ave. | 3BR, $2,445 a month or $815 a person; heat and Wi-Fi included; parking $55 a semester | from Aug. 1, 2027 | [IthacaRents](https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights) |
 | 174 Kendall Ave. | 4BR, $2,600 a month or $650 a person plus electricity and heat; Aug. 1 to June 30 | from Aug. 1, 2027 | [IthacaRents](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom) |
 | Lansing West, 700 Warren Rd. | Base rents from $1,302 (1BR), $1,625 (2BR), $2,072 (3BR) | November 2026 | [RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx) |
-| Fall Creek, whole unit | Studio $2,600; 1BR $1,600; 2BR $2,420; 709 N. Tioga St. 1BRs at $1,600 and $1,700 | Rentable undated; listing 2026 | [Rentable](https://www.rentable.co/ithaca-ny/neighborhoods/fall-creek); [709 N. Tioga](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258) |
+| Fall Creek, whole unit | Studio $2,600; 1BR $1,600; 2BR $2,420; 709 N. Tioga St. 1BRs at $1,600 and $1,700 | Rentable typical prices; listing 2026 | [Rentable](https://www.rentable.co/ithaca-ny/neighborhoods/fall-creek); [709 N. Tioga](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258) |
 | Cornell residence hall double | $6,872 a semester, $13,744 a year; gas, electricity, garbage and internet included | AY 2026-27 | [Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) |
 | Grad housing budget, Ithaca | $19,962 a year ($1,663.50 a month) | AY 2026-27 | [Cornell Financial Aid](https://finaid.cornell.edu/graduate-students) |
 | Electricity, high | $282 a month average household bill | updated 2026-11-08 | [EnergySage](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/) |
-| Electricity, low | $104.20 a month average bill at 698 kWh | 2026, snippet | [PowerOutage.us](https://poweroutage.us/electricity-rates/ny/ithaca) |
-| TCAT fare and OmniRide | $1.50 a ride; $200 a year, free for PhD students and graduate assistants | page undated; checked 2026-11-10 | [Cornell bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes) |
-| Cornell B commuter permit | $359.77 a year; commuters only | checked 2026-11-10 | [Cornell student parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
-| Dryden Road Garage | $232 a month; no guaranteed space | checked 2026-11-10 | [City of Ithaca](https://www.cityofithacany.gov/718/Dryden-Road-Garage) |
-| City residential permit | $45 a year, to July 31; R-1 and R-2 zones | checked 2026-11-10 | [City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance); [City code](https://ecode360.com/8391421) |
-| Distances | Collegetown 0.1 to 0.5 mi; downtown 0.5 to 1.5 mi; Fall Creek 0.5 to 1 mi; Cornell Heights 1 to 4 mi; South Hill 1.5 to 3 mi; Lansing 5 to 10 mi | page as crawled 2026-11-06 | [Cornell neighborhoods](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods) |
+| Electricity, low | $104.20 a month average bill at 698 kWh | 2026 | [PowerOutage.us](https://poweroutage.us/electricity-rates/ny/ithaca) |
+| TCAT fare and OmniRide | $1.50 a ride; $200 a year, free for PhD students and graduate assistants |  | [Cornell bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes) |
+| Cornell B commuter permit | $359.77 a year; commuters only |  | [Cornell student parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
+| Dryden Road Garage | $232 a month; no guaranteed space |  | [City of Ithaca](https://www.cityofithacany.gov/718/Dryden-Road-Garage) |
+| City residential permit | $45 a year, to July 31; R-1 and R-2 zones |  | [City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance); [City code](https://ecode360.com/8391421) |
+| Distances | Collegetown 0.1 to 0.5 mi; downtown 0.5 to 1.5 mi; Fall Creek 0.5 to 1 mi; Cornell Heights 1 to 4 mi; South Hill 1.5 to 3 mi; Lansing 5 to 10 mi |  | [Cornell neighborhoods](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods) |
 
 ## One person's rent for a year, by building
 
@@ -119,7 +119,7 @@ Sources: [Ithaca Renting Collegetown](https://ithacarenting.com/collegetown/) an
 
 ## Assumptions and what the tool does not cover
 
-- All rents are asking prices, not what tenants paid. Ithaca Renting prints a range for each layout, perhaps by floor; the tool uses the midpoint and shows the range.
+- All rents are asking prices, not what tenants paid. Ithaca Renting prints a range for each layout; the tool uses the midpoint and shows the range.
 - Downtown rows are mostly 2026-27 leftovers; Collegetown rows are 2027-28. The Ivy figures are for leases that began Aug. 17, 2026.
 - Lansing West prices units dynamically. The figures are the lowest base rents shown in November 2026.
 - Electricity is a household average split evenly. EnergySage's figure comes from bills its users share, so $282 is treated as an upper bound.

@@ -22,7 +22,7 @@ sources:
 images: []
 ---
 
-Internal transfer at Cornell is possible but never guaranteed, and how hard it is depends on the college you want. Every college sets its own GPA floor and prerequisite courses, but Cornell's central page applies [one rule to all of them](https://internaltransfer.cornell.edu/apply): you must remain in your home college for two semesters before you can enroll in a new one. Meeting the requirements does not guarantee admission, and [decisions are final with no appeal](https://internaltransfer.cornell.edu/apply). Cornell does not publish internal transfer acceptance rates, so the table below compares the rules each college sets: GPA, timing, courses and deadlines.
+Internal transfer at Cornell is possible but never guaranteed, and how hard it is depends on the college you want. Each college sets its own requirements, but Cornell's central page applies [one rule to all of them](https://internaltransfer.cornell.edu/apply): you must remain in your home college for two semesters before you can enroll in a new one. Meeting the requirements does not guarantee admission, and [decisions are final with no appeal](https://internaltransfer.cornell.edu/apply). Cornell does not publish internal transfer acceptance rates, so the table below compares the rules each college sets: GPA, timing, courses and deadlines.
 
 ## The rules that apply everywhere
 
@@ -56,11 +56,11 @@ GPA is the minimum cumulative Cornell GPA each college sets. Engineering sets no
 | [Dyson (AEM)](https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/) | 3.0; 3.3 or higher is competitive | First- or second-year students only; preference to first-years | Writing seminar, ECON 1110, calculus, statistics; AP or IB not accepted for calculus, micro or statistics | Fall enrollment only. Nolan students discouraged from applying |
 | [Nolan (Hotel)](https://business.cornell.edu/admissions/undergraduate/bs-hotel-administration/application-requirements/) | 3.0 | First- or second-year students only; preference to first-years | ECON 1110 or equivalent, plus a list of business courses on the page | Fall and spring entry. Dyson students discouraged from applying |
 
-Dyson is the only page that names a competitive GPA (3.3 or higher) in addition to the floor. Older numbers floating around are stale: the Sun's 2023 article put the Arts & Sciences minimum at 2.7, while the A&S page now says 3.0.
+Dyson describes 3.3 or higher as competitive. Older numbers floating around are stale: the Sun's 2023 article put the Arts & Sciences minimum at 2.7, while the A&S page now says 3.0.
 
 ## How hard, by situation
 
-Every page says meeting the minimums does not guarantee admission, so the floor is only the start. These are the places the rules bite, from the pages above:
+Cornell says meeting the requirements does not guarantee admission, so the floor is only the start. These are the places the rules bite, from the pages above:
 
 - **Dyson and Nolan** have the tightest eligibility: first- and second-year students only, a 3.0 minimum, preference for first-years, and a [discouragement of cross-applying between the two](https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/).
 - **Arts & Sciences** is the most flexible on timing (you can apply through the first semester of junior year) but demands a [course plan that finishes on time](https://as.cornell.edu/admissions/transfer) once you are a late sophomore or junior.

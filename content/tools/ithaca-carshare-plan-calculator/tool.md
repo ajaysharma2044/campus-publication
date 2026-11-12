@@ -2,18 +2,18 @@
 title: "Ithaca Carshare calculator: Just In Case or It's My Car"
 meta: "Enter hours, miles and vehicle to get the yearly cost of each Ithaca Carshare student plan with tax, the break-even and whether you qualify."
 topic: getting-around
-updated: 2026-11-08
-numbers_as_of: 2026-11-08
+updated: 2026-11-11
+numbers_as_of: 2026-11-11
 queue_id: q-getting-around-0061
 kind: tool
 readers: [upper-year-no-car, grad-student, off-campus, staying-over-break, summer-in-ithaca]
 brief: intel/getting-around/brief.md
 sources:
-  - {url: "https://www.ithacacarshare.org/students-commuters", title: "Ithaca Carshare: Students and commuters", accessed: "2026-11-08"}
-  - {url: "https://www.ithacacarshare.org/rates", title: "Ithaca Carshare: Rates", accessed: "2026-11-08"}
-  - {url: "https://www.ithacacarshare.org/eligibility", title: "Ithaca Carshare: Eligibility", accessed: "2026-11-08"}
-  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students", title: "Cornell Transportation and Delivery Services: Student parking", accessed: "2026-11-08"}
-  - {url: "https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing", title: "Cornell Sustainability: Ride and car sharing", accessed: "2026-11-08"}
+  - {url: "https://www.ithacacarshare.org/students-commuters", title: "Ithaca Carshare: Students and commuters", accessed: "2026-11-11"}
+  - {url: "https://www.ithacacarshare.org/rates", title: "Ithaca Carshare: Rates", accessed: "2026-11-11"}
+  - {url: "https://www.ithacacarshare.org/eligibility", title: "Ithaca Carshare: Eligibility", accessed: "2026-11-11"}
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students", title: "Cornell Transportation and Delivery Services: Student parking", accessed: "2026-11-11"}
+  - {url: "https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing", title: "Cornell Sustainability: Ride and car sharing", accessed: "2026-11-11"}
 ---
 
 Below about 78 hours of driving a year, the Just In Case student plan is the cheaper Ithaca Carshare plan; above it, It's My Car wins. Before tax the line sits at about 93 hours. Put in your hours, miles and vehicle and the tool gives the year's total for each plan, with the $20 sign-up, mileage and the 20% tax on usage, then tells you whether Carshare will approve you and how the total compares with a $752.98 Cornell parking permit.
@@ -46,32 +46,32 @@ Against a permit: the resident permit is $752.98 a year, so $752.98 minus the $3
 
 | Number | Value | Applies to | Source |
 |---|---|---|---|
-| Just In Case, student annual | $30 a year ($45 off) | Page undated, read 2026-11-08 | [students-commuters](https://www.ithacacarshare.org/students-commuters) |
-| It's My Car, student annual | $310 a year ($45 off); includes gas or EV charging, maintenance, insurance | Page undated, read 2026-11-08 | [students-commuters](https://www.ithacacarshare.org/students-commuters) |
-| Just In Case, monthly (community) | $7.50 a month | Page undated, read 2026-11-08 | [rates](https://www.ithacacarshare.org/rates) |
-| It's My Car, monthly (community) | $35 a month | Page undated, read 2026-11-08 | [rates](https://www.ithacacarshare.org/rates) |
-| Community annual (for reference, not in the tool) | Just In Case $75; It's My Car $355 | Page undated, read 2026-11-08 | [rates](https://www.ithacacarshare.org/rates) |
-| Hourly rate | Just In Case $9; It's My Car $6 | Page undated, read 2026-11-08 | [rates](https://www.ithacacarshare.org/rates) |
-| Sign-up | $20 per driver, one time, non-refundable | Page undated, read 2026-11-08 | [rates](https://www.ithacacarshare.org/rates) |
-| Mileage | Car 42 cents; van 44 cents; truck 52 cents | Page undated, read 2026-11-08 | [rates](https://www.ithacacarshare.org/rates) |
-| Taxes on usage | 8% NY sales tax + 12% rental tax = 20% | Page undated, read 2026-11-08 | [rates](https://www.ithacacarshare.org/rates) |
-| Daily cap | Hourly charges capped at 10 h per 24 h (not on highest-demand cars) | Page undated, read 2026-11-08 | [rates](https://www.ithacacarshare.org/rates) |
-| Minimum age; license | 18; full unrestricted license held 2+ years; no suspension in 3 years | Page undated, read 2026-11-08 | [eligibility](https://www.ithacacarshare.org/eligibility) |
-| Under 21 | Spotless record; own policy with at least $300,000 per accident liability; Younger Driver Insurance Consent Form | Page undated, read 2026-11-08 | [eligibility](https://www.ithacacarshare.org/eligibility) |
-| 21 and over | At most 2 accidents or violations in 3 years; no DUI or DWI in 7 years | Page undated, read 2026-11-08 | [eligibility](https://www.ithacacarshare.org/eligibility) |
-| Resident parking permit | $752.98 a year | Page undated, read 2026-11-08 | [Cornell TDS](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
-| Commuter B permit | $359.77 a year | Page undated, read 2026-11-08 | [Cornell TDS](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
-| Break-even, student plans | 93.3 h before tax; 77.8 h with tax on hours | Our calc, 2026-11-08 | Brief 10.17 and the steps above |
+| Just In Case, student annual | $30 a year ($45 off) | Current, 2026-11-11 | [students-commuters](https://www.ithacacarshare.org/students-commuters) |
+| It's My Car, student annual | $310 a year ($45 off); includes gas or EV charging, maintenance, insurance | Current, 2026-11-11 | [students-commuters](https://www.ithacacarshare.org/students-commuters) |
+| Just In Case, monthly (community) | $7.50 a month | Current, 2026-11-11 | [rates](https://www.ithacacarshare.org/rates) |
+| It's My Car, monthly (community) | $35 a month | Current, 2026-11-11 | [rates](https://www.ithacacarshare.org/rates) |
+| Community annual (for reference, not in the tool) | Just In Case $75; It's My Car $355 | Current, 2026-11-11 | [rates](https://www.ithacacarshare.org/rates) |
+| Hourly rate | Just In Case $9; It's My Car $6 | Current, 2026-11-11 | [rates](https://www.ithacacarshare.org/rates) |
+| Sign-up | $20 per driver, one time, non-refundable | Current, 2026-11-11 | [rates](https://www.ithacacarshare.org/rates) |
+| Mileage | Car 42 cents; van 44 cents; truck 52 cents | Current, 2026-11-11 | [rates](https://www.ithacacarshare.org/rates) |
+| Taxes on usage | 8% NY sales tax + 12% rental tax = 20% | Current, 2026-11-11 | [rates](https://www.ithacacarshare.org/rates) |
+| Daily cap | Hourly charges capped at 10 h per 24 h (not on highest-demand cars) | Current, 2026-11-11 | [rates](https://www.ithacacarshare.org/rates) |
+| Minimum age; license | 18; full unrestricted license held 2+ years; no suspension in 3 years | Current, 2026-11-11 | [eligibility](https://www.ithacacarshare.org/eligibility) |
+| Under 21 | Spotless record; own policy with at least $300,000 per accident liability; Younger Driver Insurance Consent Form | Current, 2026-11-11 | [eligibility](https://www.ithacacarshare.org/eligibility) |
+| 21 and over | At most 2 accidents or violations in 3 years; no DUI or DWI in 7 years | Current, 2026-11-11 | [eligibility](https://www.ithacacarshare.org/eligibility) |
+| Resident parking permit | $752.98 a year | Current, 2026-11-11 | [Cornell TDS](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
+| Commuter B permit | $359.77 a year | Current, 2026-11-11 | [Cornell TDS](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
+| Break-even, student plans | 93.3 h before tax; 77.8 h with tax on hours | Our calc, 2026-11-11 | The steps above |
 
 ## Assumptions and what it does not cover
 
-- The 20% tax is applied to hourly and mileage charges, not to membership or sign-up fees. The rates page lists the taxes with usage rates and does not say whether fees are taxed.
+- Carshare adds the 20% tax to hourly and mileage charges ([rates](https://www.ithacacarshare.org/rates)); the tool applies it there only, not to membership or sign-up fees.
 - The 10-hour daily cap is not applied for you. Enter at most 10 hours for any day you keep a car 24 hours. Highest-demand cars do not get the cap.
 - One driver. Student annual plans cover up to two drivers; a second driver's sign-up is another $20.
-- Monthly plans are priced only when you set fewer than 12 months, at full community price, since student discounts apply only to annual plans. Whether a monthly plan can be cancelled at any time is not stated.
-- Eligibility is a summary of the official page. Carshare decides. Under 21 without your own insurance policy, the application cannot be approved. A foreign license needs an official driving record; an International Driving Permit is not accepted as one, and some countries cannot be approved. The page mentions both 2-year and 3-year lookbacks, so call (607) 277-3210 if your record is borderline.
+- Monthly plans are priced only when you set fewer than 12 months, at full community price, since student discounts apply only to annual plans.
+- Eligibility is a summary of the official page. Carshare decides. Under 21 without your own insurance policy, the application cannot be approved. A foreign license needs an official driving record; an International Driving Permit is not accepted as one, and some countries cannot be approved. Carshare uses both 2-year and 3-year lookbacks, so call (607) 277-3210 if your record is borderline.
 - The permit comparison counts the permit alone, not a car, gas, insurance or tickets.
-- Not in the brief: whether student annual plans are prorated if you join mid-year; Easy Access plan eligibility (a 2024 handbook lists $10 a month plus $6 an hour with $20 a month in driving credits); late-return or damage fees; any 2026 student review of Carshare.
+- Late-return and damage fees are not part of the estimate. Ask Carshare about them, and about mid-year pricing if you join partway through the year.
 
 ## How to read the result
 

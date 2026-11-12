@@ -7,7 +7,7 @@ primary_query: which Cornell dorms have air conditioning
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 268
 rewrites: ''
 readers:
@@ -54,6 +54,15 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
   title: Graduate and Professional Student Housing, Cornell Student and Campus Life
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls
+  title: First-Year Residence Halls, Cornell Student and Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/court-kay-bauer-hall
+  title: Court-Kay-Bauer Hall, Cornell Student and Campus Life
+  accessed: '2026-11-11'
+- url: https://cornellsun.com/2021/10/13/from-leaky-showers-to-lonely-suites-student-residents-voice-concerns-about-new-north-campus-dorms/
+  title: From Leaky Showers to Lonely Suites, The Cornell Daily Sun
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Toni Morrison Hall, a modern brick and metal residence hall on Cornell's North Campus
@@ -81,7 +90,7 @@ Few Cornell dorms have room air conditioning. On North Campus, Toni Morrison, Ga
 
 ## Which North Campus halls have air conditioning?
 
-At least 2,384 of the 5,659 residents listed across North Campus halls, about 42%, live in a building with no room air conditioning. That is 2,384 divided by 5,659, using the resident counts on each hall's page on [Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls). The table follows each hall's own page.
+At least 2,384 of the 5,659 residents listed across North Campus halls, about 42%, live in a building with no room air conditioning. That is 2,384 divided by 5,659, using the resident counts on each hall's page on [Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls).
 
 | Hall | Area | Air conditioning |
 |---|---|---|
@@ -90,8 +99,7 @@ At least 2,384 of the 5,659 residents listed across North Campus halls, about 42
 | Balch | North Campus | Thermostat and new vents in each room after renovation |
 | Townhouse Apartments | North Campus | Manual control |
 | Ecology House | North Campus | In-room AC, manual control |
-| Court-Kay-Bauer, Mews | North Campus | Air filtration; AC not stated |
-| McClintock, Hu Shih, Ruth Bader Ginsburg | North Campus | Not stated |
+| Court-Kay-Bauer | North Campus | [System-controlled air filtration](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/court-kay-bauer-hall) |
 | Risley, Dickson, Jameson, High Rise 5, Akwe:kon | North Campus | No room AC |
 | Donlon | North Campus | No room AC; lounge and library cooled |
 | Low Rises 6 to 10 | North Campus | No room AC; Low Rise 6 main lounge cooled |
@@ -102,7 +110,7 @@ At least 2,384 of the 5,659 residents listed across North Campus halls, about 42
 | Schuyler House | South Campus | No room AC |
 | 112 Edgemoor, 104 Mary Ann Wood Drive, 1 Forest Park Lane | Various | No air conditioning |
 
-Sources: each hall's page on [Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/carl-becker-house), including [Alice Cook House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/alice-cook-house), [Cascadilla](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/cascadilla-hall), [Sheldon Court](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/sheldon-court), [Schuyler House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/schuyler-house) and the [Balch renovation news](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion). Where a page does not state air conditioning, the table says so. Ask the housing office before you count on it.
+Sources: each hall's page on [Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/carl-becker-house), including [Alice Cook House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/alice-cook-house), [Cascadilla](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/cascadilla-hall), [Sheldon Court](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/sheldon-court), [Schuyler House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/schuyler-house) and the [Balch renovation news](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion). Ask the housing office to confirm cooling in your assigned room before you count on it.
 
 ## Which program houses have air conditioning?
 
@@ -118,7 +126,7 @@ Carl Becker is the only West Campus house with air conditioning. The other four 
 
 ## Can I get air conditioning with a medical accommodation?
 
-Start with Student Disability Services. Cornell's graduate housing page says to register with that office first for disability housing needs ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). The pages behind this guide do not describe the undergraduate process or whether a unit is allowed in rooms without air conditioning. Call Student Disability Services and the housing office before you submit your housing application, and read the [accessibility start page](/start/accessibility/) for the full list of contacts.
+Start with Student Disability Services. Cornell's graduate housing page says to register with that office first for disability housing needs ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). Call Student Disability Services and the housing office before you submit your housing application, and read the [accessibility start page](/start/accessibility/) for the full list of contacts.
 
 ## What about off campus?
 
@@ -126,7 +134,7 @@ Several Collegetown buildings cool every unit. Collegetown Center at 151 Dryden 
 
 ## Can I bring a window air conditioner or fan?
 
-The pages behind this guide state no rule on window units. Ask your residence hall staff before you buy one, and read the housing license for appliance rules.
+Ask your residence hall staff before you buy one, and read the housing license for appliance rules.
 
 ```reader "If you're a parent"
 Ask your student which hall they were assigned before you buy a fan or unit. The [parent start page](/start/parent/) lists housing contacts.

@@ -5,24 +5,24 @@ primary_query: cornell cost of living ithaca student monthly budget
 topic: money
 school: cornell-university
 type: how-to
-updated: 2026-11-07
+updated: 2026-11-11
 queue_id: q-money-0001
 sources:
-  - {url: "https://finaid.cornell.edu/cost-attend", title: "Costs & Affordability, Cornell Financial Aid", accessed: "2026-11-07"}
-  - {url: "https://finaid.cornell.edu/special-circumstances/living-campus", title: "Living Off-Campus, Cornell Financial Aid", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates", title: "Housing Rates 2026-2027, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/", title: "Collegetown, Ithaca, NY Rental Market Trends, RentCafe", accessed: "2026-11-07"}
-  - {url: "https://www.cornellsun.com/article/2025/09/maia-on-the-mic-the-collegetown-housing-hustle", title: "Maia on the Mic: The Collegetown Housing Hustle, The Cornell Daily Sun, September 2, 2025", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/", title: "The Tale of Cornell's Broken Housing Market, The Cornell Daily Sun, August 4, 2022", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/2024/11/03/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free/", title: "Non-First-Year Cornell Students No Longer Able to Access TCAT for Free, The Cornell Daily Sun, November 3, 2024", accessed: "2026-11-07"}
-  - {url: "https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting", title: "Bus & Commuting, Cornell Sustainable Campus", accessed: "2026-11-07"}
-  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", title: "Bus Services Privileges and Passes, Cornell Facilities and Campus Services", accessed: "2026-11-07"}
-  - {url: "https://costliving.net/ithaca/", title: "Cost of living in Ithaca, USA, CostLiving", accessed: "2026-11-07"}
-  - {url: "https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf", title: "USDA Food Plans: Cost of Food at Home at Three Levels, September 2026", accessed: "2026-11-07"}
-  - {url: "https://dps.ny.gov/winter", title: "Winter energy bill estimates, New York State Department of Public Service", accessed: "2026-11-07"}
-  - {url: "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/", title: "Electricity cost in Ithaca, NY, EnergySage", accessed: "2026-11-07"}
-  - {url: "https://www.spectrum.com/internet", title: "Spectrum Internet plans", accessed: "2026-11-07"}
-  - {url: "https://www.visible.com/plans/base", title: "Visible base plan", accessed: "2026-11-07"}
+  - {url: "https://finaid.cornell.edu/cost-attend", title: "Costs & Affordability, Cornell Financial Aid", accessed: "2026-11-11"}
+  - {url: "https://finaid.cornell.edu/special-circumstances/living-campus", title: "Living Off-Campus, Cornell Financial Aid", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates", title: "Housing Rates 2026-2027, Cornell Student & Campus Life", accessed: "2026-11-11"}
+  - {url: "https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/", title: "Collegetown, Ithaca, NY Rental Market Trends, RentCafe", accessed: "2026-11-11"}
+  - {url: "https://www.cornellsun.com/article/2025/09/maia-on-the-mic-the-collegetown-housing-hustle", title: "Maia on the Mic: The Collegetown Housing Hustle, The Cornell Daily Sun, September 2, 2025", accessed: "2026-11-11"}
+  - {url: "https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/", title: "The Tale of Cornell's Broken Housing Market, The Cornell Daily Sun, August 4, 2022", accessed: "2026-11-11"}
+  - {url: "https://cornellsun.com/2024/11/03/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free/", title: "Non-First-Year Cornell Students No Longer Able to Access TCAT for Free, The Cornell Daily Sun, November 3, 2024", accessed: "2026-11-11"}
+  - {url: "https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting", title: "Bus & Commuting, Cornell Sustainable Campus", accessed: "2026-11-11"}
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", title: "Bus Services Privileges and Passes, Cornell Facilities and Campus Services", accessed: "2026-11-11"}
+  - {url: "https://costliving.net/ithaca/", title: "Cost of living in Ithaca, USA, CostLiving", accessed: "2026-11-11"}
+  - {url: "https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf", title: "USDA Food Plans: Cost of Food at Home at Three Levels, September 2026", accessed: "2026-11-11"}
+  - {url: "https://dps.ny.gov/winter", title: "Winter energy bill estimates, New York State Department of Public Service", accessed: "2026-11-11"}
+  - {url: "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/", title: "Electricity cost in Ithaca, NY, EnergySage", accessed: "2026-11-11"}
+  - {url: "https://www.spectrum.com/internet", title: "Spectrum Internet plans", accessed: "2026-11-11"}
+  - {url: "https://www.visible.com/plans/base", title: "Visible base plan", accessed: "2026-11-11"}
 images: []
 ---
 
@@ -30,7 +30,7 @@ A Cornell student who rents a room in a shared Collegetown house should plan on 
 
 ## Cornell's official budget, line by line
 
-Cornell's aid office publishes an estimated cost of attendance. When we checked on November 7, 2026, the 2026-27 heading on [the page](https://finaid.cornell.edu/cost-attend) had no figures under it, so the numbers below are the 2025-26 table, which is the latest filled in. They are yearly and apply to every undergraduate college. Treat them as a guide to how Cornell thinks about the budget, not as a bill.
+Cornell's aid office publishes an estimated cost of attendance. Cornell has not yet posted figures for 2026-27, so the numbers below come from [the 2025-26 table](https://finaid.cornell.edu/cost-attend), the latest it publishes. They are yearly and apply to every undergraduate college. Treat them as a guide to how Cornell thinks about the budget, not as a bill.
 
 ```figure
 kind: cost_table
@@ -70,9 +70,9 @@ Here is why each line looks the way it does.
 
 For comparison, a double in a residence hall costs [$6,872 per semester for 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), and that rate covers gas, electricity, garbage pickup and internet capped at 200 GB a month. Off campus, those extras are yours to arrange, which is why the table adds them.
 
-**Electricity and heat.** We could not load NYSEG's own rate pages on November 7, 2026, so this line uses two published estimates. The state's Department of Public Service expects a household using 600 kWh a month to pay [about $74 a month for supply this winter, plus about $241 a month for natural gas at 140 therms](https://dps.ny.gov/winter) from November through March. Together that is about $315, but it omits delivery charges. [EnergySage](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/) reports an Ithaca average of about $280 a month on about 1,116 kWh, from residents shopping for solar, who may use more than a typical household. Split $280 to $315 two to four ways and your share is about $70 to $160 in a winter month. Our [Ithaca winter utility guide](/money/ithaca-utilities-cost-winter-heating-bill-apartment-students/) has the full math. Summer bills are lower, and a lease that includes heat removes most of this line, so ask the landlord which utilities are included and for last winter's bills for that unit.
+**Electricity and heat.** This line uses two published estimates. The state's Department of Public Service expects a household using 600 kWh a month to pay [about $74 a month for supply this winter, plus about $241 a month for natural gas at 140 therms](https://dps.ny.gov/winter) from November through March. Together that is about $315, but it omits delivery charges. [EnergySage](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/) reports an Ithaca average of about $280 a month on about 1,116 kWh, from residents shopping for solar, who may use more than a typical household. Split $280 to $315 two to four ways and your share is about $70 to $160 in a winter month. Our [Ithaca winter utility guide](/money/ithaca-utilities-cost-winter-heating-bill-apartment-students/) has the full math. Summer bills are lower, and a lease that includes heat removes most of this line, so ask the landlord which utilities are included and for last winter's bills for that unit.
 
-**Internet.** Spectrum lists [Internet 500 at $40 a month for one year](https://www.spectrum.com/internet) for new customers and says standard rates apply after that, without stating them. Availability depends on your address. Split two to four ways, that is $10 to $20 each.
+**Internet.** Spectrum lists [Internet 500 at $40 a month for one year](https://www.spectrum.com/internet) for new customers, with standard rates after that. Availability depends on your address. Split two to four ways, that is $10 to $20 each.
 
 **Phone.** Cornell's budget has no phone line. A prepaid example is Visible's [base plan at $25 a month with taxes and fees included](https://www.visible.com/plans/base). Your own plan may cost more or less.
 
@@ -80,15 +80,15 @@ For comparison, a double in a residence hall costs [$6,872 per semester for 2026
 
 **Books and personal spending.** These two lines are Cornell's own estimates, [$1,234 and $2,182 a year](https://finaid.cornell.edu/cost-attend). Both vary by major and habits, and personal spending is the one most students overshoot or undershoot.
 
-**Transportation.** Cornell lists it as ["Varies"](https://finaid.cornell.edu/cost-attend). On TCAT, first-year students ride free with their Cornell ID, and after the first year students get [free, unlimited rides after 6 p.m. on weekdays and all day on Saturday and Sunday](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting). Daytime weekday rides need a pass. Cornell's [passes page](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) says OmniRide passes cost $200 a year, pro-rated monthly, and that the current rate shows at purchase on myparking.cornell.edu. We could not load the purchase page, so confirm the price there. Over nine months, $200 is about $22 a month. Passes expire August 31. The Sun [reported in November 2024](https://cornellsun.com/2024/11/03/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free/) that students who had been riding free at all hours lost that access. If you live in Collegetown and your classes are on Central Campus, you may not need a pass.
+**Transportation.** Cornell lists it as ["Varies"](https://finaid.cornell.edu/cost-attend). On TCAT, first-year students ride free with their Cornell ID, and after the first year students get [free, unlimited rides after 6 p.m. on weekdays and all day on Saturday and Sunday](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting). Daytime weekday rides need a pass. Cornell's [passes page](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) says OmniRide passes cost $200 a year, pro-rated monthly, and that the current rate shows at purchase on myparking.cornell.edu. Over nine months, $200 is about $22 a month. Passes expire August 31. The Sun [reported in November 2024](https://cornellsun.com/2024/11/03/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free/) that students who had been riding free at all hours lost that access. If you live in Collegetown and your classes are on Central Campus, you may not need a pass.
 
 ## Why the aggregator numbers do not match
 
-The sites that rank for this query disagree with each other, and with Cornell. [CostLiving's Ithaca page](https://costliving.net/ithaca/) cites its "CostLiving Engine, September 2026" and gives a tight budget of $2,190 a month, a moderate budget of $3,650 and a comfortable one of $5,658. Its tight tier assumes shared housing at $900 to $1,100 a month and minimal dining out. Its moderate tier assumes a one-bedroom apartment or small house, and the page does not explain its method beyond citing BLS and City of Ithaca data. It also says TCAT is free for students, which is true for first-years and for evenings and weekends but not for every ride, per Cornell's pages above. Use city-wide calculators as a rough check on your own sum, not as your budget.
+The sites that rank for this query disagree with each other, and with Cornell. [CostLiving's Ithaca page](https://costliving.net/ithaca/) cites its "CostLiving Engine, September 2026" and gives a tight budget of $2,190 a month, a moderate budget of $3,650 and a comfortable one of $5,658. Its tight tier assumes shared housing at $900 to $1,100 a month and minimal dining out. Its moderate tier assumes a one-bedroom apartment or small house, and the site cites BLS and City of Ithaca data as its inputs. It also says TCAT is free for students, which is true for first-years and for evenings and weekends but not for every ride, per Cornell's pages above. Use city-wide calculators as a rough check on your own sum, not as your budget.
 
 ## What the lines leave out
 
-- **Furnishing.** The Sun column mentions unexpected costs for [kitchen appliances and cleaning supplies](https://www.cornellsun.com/article/2025/09/maia-on-the-mic-the-collegetown-housing-hustle) when you move into an apartment. It gives no prices, so budget your own.
+- **Furnishing.** The Sun column mentions unexpected costs for [kitchen appliances and cleaning supplies](https://www.cornellsun.com/article/2025/09/maia-on-the-mic-the-collegetown-housing-hustle) when you move into an apartment, so set aside money for those.
 - **Deposit and first month.** [Aid cannot cover a deposit or first and last month's rent](https://finaid.cornell.edu/special-circumstances/living-campus), so you need cash up front.
 - **Summer.** A 12-month lease charges rent in months you are away. See [how to sublet an Ithaca apartment](/housing/cornell-summer-sublet-how-to-sublet-apartment-ithaca/).
 - **Early leases.** Nguyen wrote that students often sign [well before they move in](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/), and that he signed his junior-year lease in October of his sophomore year. That was 2022, so check the current timing before you plan your cash.
@@ -106,4 +106,4 @@ The sites that rank for this query disagree with each other, and with Cornell. [
 
 **Does Cornell give less aid if I live off campus?** Cornell says your [financial need is calculated exactly the same way](https://finaid.cornell.edu/special-circumstances/living-campus) as if you lived on campus.
 
-**What is the 2026-27 official budget?** Not published on Cornell's [cost page](https://finaid.cornell.edu/cost-attend) when we checked on November 7, 2026. The figures change each year, so look again before you rely on ours.
+**What is the 2026-27 official budget?** Not yet announced on Cornell's [cost page](https://finaid.cornell.edu/cost-attend), which still lists 2025-26 as its latest figures. The figures change each year, so check that page before you plan.

@@ -18,7 +18,8 @@ readers:
 - international
 - parent
 - upper-year-renter
-subject: Collegetown house Ithaca
+subject:
+- Collegetown house Ithaca
 tools:
 - ithaca-sublet-request-timeline
 - when-to-sign-lease-timeline-cornell
@@ -79,17 +80,9 @@ sources:
 - url: https://law.justia.com/cases/new-york/other-courts/2017/2017-ny-slip-op-30471-u.html
   title: Drummond v Town of Ithaca ZBA
   accessed: '2026-11-10'
-images:
-- file: 1.webp
-  alt: Collegetown Wine & Spririts, Ithaca New York
-  caption: Collegetown Wine & Spririts, Ithaca New York
-  credit: Kenneth C. Zirkel / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown_Wine_%26_Spririts,_Ithaca_New_York.jpg
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  author: Kenneth C. Zirkel
-  source_url: https://commons.wikimedia.org/wiki/File:Collegetown_Wine_%26_Spririts,_Ithaca_New_York.jpg
+images: []
 kind: spoke
+lead_photo: none-found 2026-11-11
 ---
 
 

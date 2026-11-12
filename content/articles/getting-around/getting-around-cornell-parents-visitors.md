@@ -128,14 +128,16 @@ sources:
   accessed: '2026-11-11'
 images:
 - file: 1.webp
-  alt: Black and white photo of a car parked on a country road beneath a tall wooden railroad trestle
-  caption: A car on Route 330, now Brooktondale Road, under the old Caroline railroad trestle outside Ithaca. The trestle was 800 feet long and 85 feet high; the trains are long gone, and today a visitor without a car relies on TCAT, taxis or the C2C bus.
-  credit: Unknown author / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Brooktondale_Road_Under_Trestle_2.png
-  license: Public domain
-  license_url: ''
-  author: Unknown author
-  source_url: https://commons.wikimedia.org/wiki/File:Brooktondale_Road_Under_Trestle_2.png
+  alt: TCAT New Flyer XD40 2101
+  caption: TCAT New Flyer XD40 2101
+  credit: BrakeCoach / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:TCAT_New_Flyer_XD40_2101.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  author: BrakeCoach
+  source_url: https://commons.wikimedia.org/wiki/File:TCAT_New_Flyer_XD40_2101.jpg
+subject:
+- TCAT New Flyer XD40 2101
 ---
 
 ```glance

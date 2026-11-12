@@ -8,7 +8,8 @@ type: decision
 updated: 2026-11-11
 queue_id: q-getting-around-0042
 kind: spoke
-subject: Collegetown Ithaca
+subject:
+- Collegetown Ithaca
 readers:
 - upper-year-no-car
 - grad-student
@@ -74,14 +75,14 @@ sources:
   accessed: '2026-11-08'
 images:
 - file: 1.webp
-  alt: Old black-and-white photo of a car parked on a country road beneath a tall wooden railroad trestle
-  caption: A car on Route 330, now Brooktondale Road, under the old trestle outside Ithaca, in an undated photo from Around Caroline. Out-of-town drives like this one are where Carshare's 10-hour daily cap matters.
-  credit: Unknown author / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Brooktondale_Road_Under_Trestle.png
-  license: Public domain
-  license_url: ''
-  author: Unknown author
-  source_url: https://commons.wikimedia.org/wiki/File:Brooktondale_Road_Under_Trestle.png
+  alt: Ithaca, New York - 4370299698
+  caption: Ithaca, New York - 4370299698
+  credit: Dougtone / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  author: Dougtone
+  source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
 ---
 
 ```glance

@@ -18,7 +18,8 @@ readers:
 - staying-over-break
 - transfer-spring
 - grad-student
-subject: Ithaca street snow
+subject:
+- Ithaca street snow
 tools:
 - before-break-travel-checklist
 sources:
@@ -70,17 +71,9 @@ sources:
 - url: https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Student and Campus Life
   accessed: '2026-11-10'
-images:
-- file: 1.webp
-  alt: Ithaca - State Street from Ithaca Hotel (1)
-  caption: Ithaca - State Street from Ithaca Hotel (1)
-  credit: The Buffalo News Co., Buffalo, New York (publisher) / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca_-_State_Street_from_Ithaca_Hotel_(1).jpg
-  license: Public domain
-  license_url: ''
-  author: The Buffalo News Co., Buffalo, New York (publisher)
-  source_url: https://commons.wikimedia.org/wiki/File:Ithaca_-_State_Street_from_Ithaca_Hotel_(1).jpg
+images: []
 kind: spoke
+lead_photo: none-found 2026-11-11
 ---
 
 

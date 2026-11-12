@@ -62,19 +62,11 @@ sources:
 - url: https://ithacamarket.com/markets/rutabaga-curl/
   title: Rutabaga Curl, Ithaca Farmers Market
   accessed: '2026-11-11'
-images:
-- file: 1.webp
-  alt: Beebe Lake at Cornell in summer, with Triphammer Falls spilling over the dam at its outlet
-  caption: Beebe Lake and Triphammer Falls in summer. Skiing, skating history, a winter market and a campus gym give you winter plans, from a $10 gym day pass to $29 Monday ski nights.
-  credit: P. Hughes / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Beebe_Lake_and_Triphammer_Falls.jpg
-  author: P. Hughes
-  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Beebe_Lake_and_Triphammer_Falls.jpg
-  license: CC BY 4.0
-  license_url: https://creativecommons.org/licenses/by/4.0
+images: []
 redirect_from:
-  - /cornell/getting-around/winter-activities-ithaca-cornell-students/
-  - /getting-around/winter-activities-ithaca-cornell-students/
+- /cornell/getting-around/winter-activities-ithaca-cornell-students/
+- /getting-around/winter-activities-ithaca-cornell-students/
+lead_photo: none-found 2026-11-11
 ---
 
 ```glance

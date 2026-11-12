@@ -7,7 +7,7 @@ primary_query: ithaca apartments walkable to cornell without a car
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 149
 rewrites: ''
 readers:
@@ -22,58 +22,61 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=4
   title: Collegetown Center, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://ithacarenting.com/unit-details/?uid=461
+  title: 151 Dryden Road unit details, Ithaca Renting
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=18
   title: 210 Dryden Road, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=5
   title: Collegetown Court, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=1
   title: Collegetown Plaza, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=7
   title: Commons West, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown rentals, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/downtown/
   title: Downtown rentals, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/407-college-ave-collegetown-s-best-kept-secret-237329
   title: 407 College Ave listing, Cornell off-campus housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961
   title: Dryden South listing, Cornell off-campus housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/west-campus/ravenwood
   title: Ravenwood Apartments, Travis Hyde Properties
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampushousing.ithaca.edu/listing
   title: Off-campus housing listings, Ithaca off-campus housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/hasbrouck-apartments
   title: Hasbrouck Apartments, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and Passes, Cornell Transportation Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free
   title: Non-First-Year Cornell Students No Longer Able to Access TCAT for Free, The Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/schuyler-house
   title: Schuyler House, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/04/the-misunderstood-dorm-sheldon-court
   title: The Misunderstood Dorm Sheldon Court, The Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://livehhcayuga.com/
   title: Cayuga Place leasing site
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: College Avenue in Collegetown, Ithaca, with apartment buildings above storefronts and cars parked along the curb
@@ -106,28 +109,28 @@ Walkability costs money. The farther you go from Ho Plaza, the lower the posted 
 
 ## Which neighborhoods can I walk from?
 
-Cornell's own neighborhood guide gives distances and walk times for each area. A reading of the Ithaca marketplace inventory adds the median of each building's lowest listed price by area.
+Cornell's neighborhood guide gives distances and walk times for each area. The last column is the median of each building's lowest price on the Ithaca off-campus marketplace.
 
 | Area | Distance and walk (Cornell) | Median of cheapest listed spot |
 |---|---|---|
 | Collegetown | 0.1 to 0.5 miles; up to a quarter hour; uphill from lower Collegetown | $997.50 (74 buildings) |
-| Belle Sherman and East Hill | 1 to 2 miles (Belle Sherman); 0.75 to 2 miles (East Hill) | Not listed |
+| Belle Sherman and East Hill | 1 to 2 miles (Belle Sherman); 0.75 to 2 miles (East Hill) |  |
 | Cayuga Heights and Cornell Heights | 1 to 4 miles | $862.50 (28, Cornell Heights and North Campus edge) |
 | Fall Creek | 0.5 to 1 mile; 20 to 30 minute uphill walk; frequent bus | $828.33 (10) |
 | Downtown and The Commons | 0.5 to 1.5 miles; 20 to 30 minute uphill walk | $875 (44) |
 | South Hill | 1.5 to 3 miles; 15-minute downhill walk to downtown, then transit | $730 (8) |
-| West Hill | 4 miles; rural; not practical on foot | Not listed |
-| Lansing | 5 to 10 miles; bus or car recommended | Not listed |
+| West Hill | 4 miles; rural; not practical on foot |  |
+| Lansing | 5 to 10 miles; bus or car recommended |  |
 
 Source: [Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods) and the [Ithaca off-campus listings](https://offcampushousing.ithaca.edu/listing). Listing prices mix bases, so use the last column to compare areas, not to budget.
 
-Cornell's page gives the same walk time for Belle Sherman and East Hill, so the table keeps only their distances. Measure the walk from the exact address on a map.
+For Belle Sherman and East Hill, measure the walk from the exact address on a map.
 
 By distance alone, per the [same listings](https://offcampushousing.ithaca.edu/listing), the median cheapest spot is $1,000 within 0.5 straight-line miles of Ho Plaza (71 buildings), $900 from 0.5 to 1.0 miles (76) and $837.25 beyond one mile (38). The median falls $100 from the first band to the second, and the savings come with a bus ride.
 
 ## Which Collegetown buildings are closest?
 
-The closest buildings state their distances in feet or minutes. These are the figures on each listing, which you should confirm on a map.
+The closest buildings advertise their distance in feet or minutes. Check each one on a map before you sign.
 
 - **Collegetown Center, [151 Dryden Rd.](https://ithacarenting.com/unit-details/?uid=461)** [150 feet to Cornell's entrance](https://ithacarenting.com/property-details/?pid=4). Studios and 1-bedrooms run $1,695 to $2,545 a month for 2027-28. It has a concierge desk and laundry in the building.
 - **210 Dryden Rd.** [200 feet from Cornell's entrance](https://ithacarenting.com/property-details/?pid=18). Rooms in a shared suite start at [$695 per bed for 2027-28](https://ithacarenting.com/collegetown/).
@@ -137,7 +140,7 @@ The closest buildings state their distances in feet or minutes. These are the fi
 - **Dryden South, 205 Dryden Rd.** A ["one minute walk" per its listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961), at $1,395 to $1,990 per person, furnished.
 - **Ravenwood Apartments, 516 University Ave.** [One block from the edge of West Campus](https://www.travishyde.com/west-campus/ravenwood).
 
-Collegetown Center, Court, Plaza and 210 Dryden form the Dryden Road cluster, each listed within a block of the campus gate by [Ithaca Renting](https://ithacarenting.com/collegetown/). Each distance comes from that building's own page, linked above and in the sources list, so confirm it on a map.
+Collegetown Center, Court, Plaza and 210 Dryden form the Dryden Road cluster, each listed within a block of the campus gate by [Ithaca Renting](https://ithacarenting.com/collegetown/).
 
 The marketplace's own walk-time field does not always fit the map. It prints "30+ mins" for 102 Highland Pl, which sits about 0.36 straight-line miles from Ho Plaza, per the [inventory](https://offcampushousing.ithaca.edu/listing). Treat that field as a default, not a measurement.
 

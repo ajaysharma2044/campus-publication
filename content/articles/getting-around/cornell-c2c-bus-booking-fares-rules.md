@@ -82,14 +82,16 @@ sources:
   accessed: '2026-11-08'
 images:
 - file: 1.webp
-  alt: Buses pulled up along a campus road at Cornell with students walking past
-  caption: 'Buses on Cornell''s hilltop campus in 2012. C2C coaches board at three campus stops: North Campus, Sage Hall and B Lot.'
-  credit: Tomwsulcer / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Buses_and_students_at_Cornell_University.jpg
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  author: Tomwsulcer
-  source_url: https://commons.wikimedia.org/wiki/File:Buses_and_students_at_Cornell_University.jpg
+  alt: Cornell University - Robert Purcell Community Center
+  caption: Cornell University - Robert Purcell Community Center
+  credit: P. Hughes / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Robert_Purcell_Community_Center.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  author: P. Hughes
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Robert_Purcell_Community_Center.jpg
+subject:
+- Cornell University - Robert Purcell Community Center
 ---
 
 ```glance

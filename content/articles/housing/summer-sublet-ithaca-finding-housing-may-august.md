@@ -23,79 +23,79 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
   title: Storage and Shipping Options, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/226-B
   title: Real Property Law Section 226-b, NY State Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease
   title: Breaking a Lease, Cornell Law School Tenants Advocacy Program
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus
   title: 'Living Off Campus: tenant best practices, Cornell Student & Campus Life'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings & Resources, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.gradschool.cornell.edu/announcements/grad-tips-renting/
   title: 'Grad Tips: Renting, Cornell Graduate School'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.modernlivingrentals.com/
   title: Modern Living Rentals, Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://drydensouth.com/availability/
   title: Availability, Dryden South
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961
   title: Dryden South, Cornell Off-Campus Housing Marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown apartments, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/downtown/
   title: Downtown apartments, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing
   title: Landlords and advocates grapple with Good Cause Eviction law, The Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/731/Permit-Issuance
   title: Residential Parking Permit Issuance, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/summer-meal-plans
   title: Summer Meal Plans, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: http://www.bigredboxes.com/BRSS_Pricing
   title: BRSS storage pricing, Big Red Shipping and Storage
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://storagesquad.com/summer-storage/cornell-university/
   title: Summer storage at Cornell, Storage Squad
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.boltstorage.com/self-storage/freeville-ny
   title: Bolt Storage, 1401 Dryden Rd, Freeville
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/living-campus
   title: Living Off Campus, Cornell Financial Aid
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://global.cornell.edu/resources/immigration-advice-and-resources
   title: Immigration Advice and Resources, Cornell Global
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://international.globallearning.cornell.edu/life-cornell/faq-international-students
   title: FAQ for International Students, Cornell International Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/11/12/high-costs-and-limited-support-plague-visiting-scholars-and-fellows-at-cornell
   title: High costs and limited support plague visiting scholars, The Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
   title: Graduate and Professional Student Campus Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Building Issues and Maintenance, Cornell Law School Tenants Advocacy Program
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus
   title: Summer Housing On Campus, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Fields, trees and a country road beside Cayuga Lake under a summer sky
@@ -138,7 +138,7 @@ Start dates vary by building. Dryden South leases all [end May 31, 2027](https:/
 
 ## Where do you find a summer sublet?
 
-Start on the [Off-Campus Housing Marketplace](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources), which shows subletters only to people who prove Cornell affiliation. The Off-Campus Living email list carries sublets and roommate notices too: send "Join" as the subject with a blank body. Landlords post their own: Modern Living Rentals advertises [sublet and roommate openings from $900 per person](https://www.modernlivingrentals.com/), and Dryden South has a sublets page that said ["Nothing Currently Available"](https://drydensouth.com/availability/). The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers each channel, and June is the main sublet season.
+Start on the [Off-Campus Housing Marketplace](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources), which shows subletters only to people who prove Cornell affiliation. The Off-Campus Living email list carries sublets and roommate notices too: send "Join" as the subject with a blank body. Landlords post their own: Modern Living Rentals advertises [sublet and roommate openings from $900 per person](https://www.modernlivingrentals.com/), and Dryden South keeps a sublets page on [its own site](https://drydensouth.com/availability/). The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers each channel, and June is the main sublet season.
 
 ## What does a summer sublet cost?
 
@@ -148,7 +148,7 @@ Compare a summer sublet's price with these asking prices.
 kind: cost_table
 title: Ithaca asking prices relevant to a summer sublet
 rows:
-  - {label: "Modern Living sublets", value: "From $900 per person (period not stated)"}
+  - {label: "Modern Living sublets", value: "From $900 per person"}
   - {label: "Dryden South 2027-28 suites, 12-month lease", value: "$1,360 to $1,575 per person a month"}
   - {label: "Dryden South 2027-28 studios, 12-month lease", value: "$1,990 and $2,190 a month"}
   - {label: "Summer Combo meal plan, 2026", value: "$686 for 30 meals and $200 Summer Bucks"}
@@ -206,7 +206,7 @@ Cornell offers no storage, and items left behind when the buildings closed were 
 | Option | Posted price | Note |
 |---|---|---|
 | Big Red Shipping and Storage | $39 for a small box (3 to 4 months) | Cornell's vendor; free pickup |
-| Storage Squad | $36 for a small item (4 months) | Pickup; reservation fee not posted |
+| Storage Squad | $36 for a small item (4 months) | Pickup service |
 | Bolt Storage, 1401 Dryden Rd | From $84 a month for a 5x5 | You move it yourself |
 
 Source note: [BRSS](http://www.bigredboxes.com/BRSS_Pricing), [Storage Squad](https://storagesquad.com/summer-storage/cornell-university/), [Bolt Storage](https://www.boltstorage.com/self-storage/freeville-ny).

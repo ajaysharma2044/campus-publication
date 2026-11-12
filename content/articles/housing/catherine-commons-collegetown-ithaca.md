@@ -74,11 +74,11 @@ It is a studio-heavy building. If you want a private bedroom and your own kitche
 
 The Planning and Development Board approved the project on March 23, 2022. It replaced eleven two-story houses at Catherine Street and College Avenue. The Cornell Review reported about 360 units and a net gain of 339 bedrooms, with completion scheduled for August 2024 ([The Cornell Review](https://www.thecornellreview.org/cornells-construction-crunch-ithacas-housing-crisis-and-the-catherine-commons/)).
 
-Welliver names Integrated Acquisition & Development as the owner and developer. The Cornell Review names Novarr Mackesey as the developer. Ask the leasing office who the landlord of record is before you sign.
+Welliver, the general contractor, titles its project page for Integrated Acquisition & Development Corp. (IAD) ([Welliver](https://buildwelliver.com/projects/integrated-acquisition-development-corp-iad-catherine-commons-210-college-avenue)). The Cornell Review names Novarr Mackesey as the developer ([The Cornell Review](https://www.thecornellreview.org/cornells-construction-crunch-ithacas-housing-crisis-and-the-catherine-commons/)). Ask the leasing office who the landlord of record is before you sign.
 
 ## What does Catherine Commons cost?
 
-The marketplace shows a $1,615 to $2,479 range, and every floor plan is priced on request ("Call For Price"). Ask the leasing office whether the range is per bed or per unit, and which lease year it covers. For a neighborhood benchmark, a Sun columnist wrote that higher-end Collegetown apartments run from $1,450 for a three- or four-bedroom to upward of $2,300 for a studio ([Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/maia-on-the-mic-the-collegetown-housing-hustle)). That is a Collegetown-wide figure, not this building's rent.
+The marketplace shows a $1,615 to $2,479 range, and every floor plan is priced on request ("Call For Price"). Ask the leasing office whether the range is per bed or per unit, and which lease year it covers. For a neighborhood benchmark, a Sun columnist wrote that higher-end Collegetown apartments run from $1,450 for a three- or four-bedroom to upward of $2,300 for a studio ([Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/maia-on-the-mic-the-collegetown-housing-hustle)).
 
 Ask the leasing office for the application fee and every other fee in writing, and add them to the rent.
 

@@ -8,7 +8,8 @@ type: comparison
 updated: 2026-11-11
 queue_id: q-getting-around-0045
 kind: spoke
-subject: Ithaca Commons
+subject:
+- Ithaca Commons
 readers:
 - upper-year-no-car
 - parent
@@ -81,7 +82,7 @@ sources:
   title: Service changes for July 4 holiday weekend, The Cornell Daily Sun, July 2, 2025
   accessed: '2026-11-08'
 - url: https://www.cityofithacany.gov/196/Taxicab-Rates-Regulations
-  title: 'Taxicab Rates & Regulations, City of Ithaca'
+  title: Taxicab Rates & Regulations, City of Ithaca
   accessed: '2026-11-11'
 - url: https://www.uber.com/global/en/r/airports/ith/
   title: 'ITH Airport Dropoff: How to Get There, Uber'
@@ -91,14 +92,14 @@ sources:
   accessed: '2026-11-11'
 images:
 - file: 1.webp
-  alt: Black and white photo of a long railroad trestle high above a country road, with one car parked underneath
-  caption: Route 330, now Brooktondale Road, heading into Ithaca from the east, in a historic photo. Roads outside downtown like this one are where Visit Ithaca says app rides get scarce.
-  credit: Unknown author / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Brooktondale_Road_Under_Trestle_2.png
-  license: Public domain
-  license_url: ''
-  author: Unknown author
-  source_url: https://commons.wikimedia.org/wiki/File:Brooktondale_Road_Under_Trestle_2.png
+  alt: Pedestrian mall of Ithaca 20240526
+  caption: Pedestrian mall of Ithaca 20240526
+  credit: 颐园居 / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Pedestrian_mall_of_Ithaca_20240526.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  author: 颐园居
+  source_url: https://commons.wikimedia.org/wiki/File:Pedestrian_mall_of_Ithaca_20240526.jpg
 ---
 
 ```glance

@@ -117,18 +117,10 @@ sources:
 - url: https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university
   title: Cornell University, OurBus
   accessed: '2026-11-08'
-images:
-- file: 1.webp
-  alt: A TCAT city bus, number 2107, signed for Route 30 on an Ithaca street
-  caption: A TCAT bus in Ithaca. TCAT Routes 32 (weekdays) and 72 (weekends) link the Ithaca airport and the Commons for $1.50, a ground leg Syracuse cannot match.
-  credit: Hbithaca / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2107_on_Route_30.jpg
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  author: Hbithaca
-  source_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2107_on_Route_30.jpg
+images: []
 subject:
 - TCAT bus Ithaca
+lead_photo: none-found 2026-11-11
 ---
 ```glance
 - ITH has 2 scheduled nonstops: Delta to JFK and United to Washington Dulles. Newark ended in 2025.

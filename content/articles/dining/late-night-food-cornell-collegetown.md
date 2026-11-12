@@ -2,7 +2,7 @@
 title: 'Late night food Cornell and Collegetown: what is open'
 mode: answer
 dek: Bear Necessities on North Campus is the latest campus option, and Collegetown fills the gap after the dining rooms close.
-meta: 'Late night food at Cornell: Bear Necessities to 2 a.m., North Star Late Night, and Collegetown spots like D.P. Dough and Insomnia Cookies, plus rides home.'
+meta: 'Late night food at Cornell: Bear Necessities to 2 a.m., North Star Late Night, and off-campus spots like Insomnia Cookies and Komonz Grill, plus rides home.'
 primary_query: late night food cornell collegetown
 topic: dining
 school: cornell-university
@@ -26,9 +26,6 @@ sources:
   accessed: '2026-11-11'
 - url: https://now.dining.cornell.edu/eatery/Jansens-Market
   title: 'Cornell Dining Now: Jansen''s Market'
-  accessed: '2026-11-11'
-- url: https://now.dining.cornell.edu/eatery/Morrison-Dining
-  title: 'Cornell Dining Now: Morrison Dining'
   accessed: '2026-11-11'
 - url: https://now.dining.cornell.edu/eatery/North-Star
   title: 'Cornell Dining Now: North Star Dining Room'
@@ -85,7 +82,7 @@ images:
 ```glance
 - Bear Necessities in Robert Purcell Community Center is listed open until 2 a.m. in fall 2026, the latest on campus.
 - North Star Dining Room runs a Late Night block from 8:30 to 10:30 p.m.
-- Past that, Collegetown has D.P. Dough, Wings Over Ithaca and 7-Eleven on College Avenue.
+- Past that, Sun reporting lists Insomnia Cookies until 3 a.m. and Komonz Grill until 2 a.m. Thursday to Saturday.
 - A ride home by TCAT costs $1.50; call a taxi for the rest.
 ```
 
@@ -104,15 +101,15 @@ Four Cornell Dining spots list late hours for Nov. 11 to 17, 2026 on [Dining Now
 
 Source: Cornell Dining Now pages for [Bear Necessities](https://now.dining.cornell.edu/eatery/Bear-Necessities), [Jansen's](https://now.dining.cornell.edu/eatery/Jansens-Market), [North Star](https://now.dining.cornell.edu/eatery/North-Star) and [Cook House](https://now.dining.cornell.edu/eatery/Cook-House-Dining).
 
-Dining Now loads its hours by script, so a search result can show a stale time. Open the eatery page itself before a late trip, and ask at the door whether a meal swipe or a door price covers a Late Night meal.
+Open the eatery page before a late trip, and ask at the door whether a meal swipe or a door price covers a Late Night meal.
 
 North Star's Late Night began in spring 2023. The menu is a salad bar, pizza and pasta, build-your-own bowls and desserts. Three student athletes told the Sun in March 2024 that the food was repetitive and greasy, and one liked the quick, limited menu ([The Sun](https://www.cornellsun.com/article/2024/03/students-express-frustration-with-north-star-dinings-limited-late-night-options)).
 
 <!-- ad-break -->
 
-## What is open late in Collegetown?
+## What is open late off campus?
 
-Four Collegetown and nearby businesses appear on Cornell's City Bucks list. City Bucks is a separate balance on your ID card for participating off-campus businesses, and sales tax applies ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks)).
+Cornell's City Bucks list names four Collegetown and nearby businesses. City Bucks is a separate balance on your ID card for participating off-campus businesses, and sales tax applies ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks)).
 
 | Business | Address |
 |---|---|
@@ -123,7 +120,7 @@ Four Collegetown and nearby businesses appear on Cornell's City Bucks list. City
 
 Source: [Cornell Dining City Bucks participating businesses](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks). Call ahead for hours; 7-Eleven's number is 607-256-9672.
 
-The Cornell Daily Sun has reported hours for more late spots. Each hour below dates from the article shown, so call ahead.
+The Cornell Daily Sun has reported late hours for these spots. Each hour below dates from the article shown, so call ahead.
 
 - Insomnia Cookies is open until 3 a.m., according to a November 2025 Sun list of spots reachable without a car ([The Sun](https://cornellsun.com/article/2025/11/no-wheels-no-problem-ithaca-s-sweetest-spots)).
 - Ithaca Ghost Kitchen is open until 1 a.m. daily, and a September 2025 Sun column rated the food average. The same column praised D.P. Dough's calzones and said 7-Eleven works better on nights out ([The Sun](https://www.cornellsun.com/article/2025/09/rgcm36ewemrx)).
@@ -137,7 +134,7 @@ Check each menu for prices before you order.
 
 ## How do I get home late?
 
-TCAT, Ithaca's bus system, charges $1.50 a ride for riders without a pass ([Downtown Ithaca Alliance](https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/)). Your free-ride status depends on your class year, so read [TCAT: free for Cornell students, hours and routes](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/) before you plan around a late bus.
+TCAT, Ithaca's bus system, charges $1.50 a ride for riders without a pass ([Downtown Ithaca Alliance](https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/)). For Cornell student passes, read [TCAT: free for Cornell students, hours and routes](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/) before you plan around a late bus.
 
 For taxis, the airport's list names Collegetown Cab at 607-588-8888 and Ithaca Dispatch at 607-277-7777 ([Ithaca airport](https://flyithaca.com/taxis)). Ask for the fare when you call. For apps, see [Uber, Lyft and taxis in Ithaca](/cornell/getting-around/uber-lyft-taxi-ithaca-cornell/).
 
@@ -146,11 +143,11 @@ Bear Necessities and North Star's Late Night are on your side of the hill, so yo
 ```
 
 ```reader "If you live in Collegetown"
-You can walk to every business in the City Bucks table above. Which Collegetown block suits you is covered in [Collegetown vs. Fall Creek vs. downtown](/cornell/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/).
+Check the addresses in the City Bucks table above before a late walk. Which Collegetown block suits you is covered in [Collegetown vs. Fall Creek vs. downtown](/cornell/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/).
 ```
 
 ```reader "If you are studying late"
-Finals weeks are when Bear Necessities matters most, since it is the one campus spot open past midnight. Pair it with a study space from [24-hour study spaces for finals](/cornell/academics/cornell-24-hour-study-spaces-finals/) or the broader [best places to study at Cornell](/cornell/academics/best-places-to-study-at-cornell/).
+Finals weeks are when Bear Necessities matters most, since it is listed open until 2 a.m., the latest on campus. Jansen's Market on West Campus is listed until 1 a.m. Pair it with a study space from [24-hour study spaces for finals](/cornell/academics/cornell-24-hour-study-spaces-finals/) or the broader [best places to study at Cornell](/cornell/academics/best-places-to-study-at-cornell/).
 ```
 
 ## What to do next

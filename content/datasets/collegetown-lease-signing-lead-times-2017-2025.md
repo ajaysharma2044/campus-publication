@@ -48,10 +48,8 @@ Use it if you are:
 
 ## Method
 
-Every step comes from the topic brief, section 10.6, with context from sections 2.5, 3.2, 3.9 and 4.2. Stories were checked on 2026-11-08.
-
 1. **Collect.** Take every first-person or named lease signing with a stated month in a Cornell Daily Sun story about the Collegetown leasing rush. Six stories qualify, dated 2018-11-07, 2019-09-19, 2021-10-13, 2022-08-04, 2022-09-12 and 2025-12-02. They yield nine cases.
-2. **Date the signing.** Use the month the story gives (a day where it gives one: 2019-09-12 for Ithaca Renting's opening, 2021-09-19 for case 7). Where the story gives only an upper bound (The Ivy, leased by the story date) or no signing date (case 3), record that in the qualifier.
+2. **Date the signing.** Use the month the story gives (a day where it gives one: 2019-09-12 for Ithaca Renting's opening, 2021-09-19 for case 7). Where the story gives only an upper bound (The Ivy, leased by the story date) or only the month the search began (case 3, a February start), record that in the qualifier.
 3. **Set the move-in.** Take August of the move-in year, the month most Ithaca 12-month leases start. The Ivy's stated start, 2026-08-17, is also August.
 4. **Count.** Count calendar months from the signing month to August of the move-in year: April 2017 to August 2018 = 16; May 2017 to August 2018 = 15; February to August = 6; September to the following August = 11; October to the following August = 10; December 2025 to August 2026 = 8.
 5. **Qualify.** Mark each count "about" (month precision), "at most" (case 3, where the search began in February, so signing came 6 or fewer months ahead) or "at least" (The Ivy, signed by December 2025). Case 1 uses the article's own figure of 16.
@@ -65,13 +63,13 @@ Sample size: 9 cases from 6 stories.
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1 | 2018-11-07 | news | 12-bedroom house at 410 Elmwood Ave | 2017-04 | month | 2018-08 | 16 | about (the article's own figure) | [Sun, 2018-11-07](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/) | group lease signed in April 2017 for August 2018 |
 | 2 | 2018-11-07 | news | 10-bedroom house on North Quarry St | 2017-05 | month | 2018-08 | 15 | about | [Sun, 2018-11-07](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/) | group lease |
-| 3 | 2018-11-07 | news | 14-person house through Ithaca Renting after Greek housing plans fell through | | not_stated | | 6 | at most | [Sun, 2018-11-07](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/) | the fallback case: the house hunt began in February of the move-in year; signing date and year not stated; the article calls a 14-person lease signed within a year of move-in a possible warning sign |
+| 3 | 2018-11-07 | news | 14-person house through Ithaca Renting after Greek housing plans fell through | | | | 6 | at most | [Sun, 2018-11-07](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/) | the fallback case: the house hunt began in February of the move-in year, so the lease came 6 or fewer months ahead; the article calls a 14-person lease signed within a year of move-in a possible warning sign |
 | 4 | 2019-09-19 | news | Ithaca Renting opening day for 2020-21 leases | 2019-09-12 | day | 2020-08 | 11 | about | [Sun, 2019-09-19](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/) | leasing opened at 9 a.m. after an overnight line on the sidewalk |
 | 5 | 2021-10-13 | news | Students who had signed seven weeks into fall 2021 | 2021-10 | month | 2022-08 | 10 | about | [Sun, 2021-10-13](https://cornellsun.com/2021/10/13/just-months-after-move-in-next-years-hectic-housing-search-begins/) | the story says many had already signed; it also mentions one student who signed the prior October |
 | 6 | 2022-09-12 | news | Student who signed before Labor Day weekend two weeks after arriving | 2022-09 | month | 2023-08 | 11 | about | [Sun, 2022-09-12](https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/) | early September 2022 for 2023-24 |
 | 7 | 2022-09-12 | news | A student's previous lease (same story as case 6) | 2021-09-19 | day | 2022-08 | 11 | about | [Sun, 2022-09-12](https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/) | the same student started looking for the next lease in August 2022 |
 | 8 | 2022-08-04 | opinion | Columnist who signed in October of sophomore year | 2021-10 | month | 2022-08 | 10 | about | [Sun opinion, 2022-08-04](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/) | opinion column; the author wrote that this was late by Collegetown standards |
-| 9 | 2025-12-02 | news | The Ivy, 325 College Ave: nearly all 52 units leased before completion | 2025-12 | by end of month | 2026-08-17 | 8 | at least | [Sun, 2025-12-02](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026) | new building; leases start 2026-08-17; units were leased by the story date and individual signing dates are not stated |
+| 9 | 2025-12-02 | news | The Ivy, 325 College Ave: nearly all 52 units leased before completion | 2025-12 | by end of month | 2026-08-17 | 8 | at least | [Sun, 2025-12-02](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026) | new building; leases start 2026-08-17; units were leased by the story date |
 
 The same 9 rows are published as collegetown-lease-signing-lead-times-2017-2025.csv.
 
@@ -94,9 +92,8 @@ These dated events are context for the table, not observations in it, and are no
 ## Caveats
 
 - **Nine cases, one outlet.** Every case comes from the Cornell Daily Sun. This is a dated press record, not a survey and not a measured median.
-- **Reporters seek out early signers.** Stories about the rush quote the people who signed early or camped out, so the record leans early. Students who signed in spring rarely make the news.
+- **Reporters seek out early signers.** Stories about the rush quote the people who signed early or camped out, so the record leans early.
 - **Month precision.** Most signings are dated to the month, so each count can be off by up to a month. Two cases are bounds, not points (case 3 at most 6, case 9 at least 8).
-- **Gaps in years.** Apart from case 3, whose year is not stated, no signing is dated 2018, 2020, 2023, 2024 or 2026.
 - **Collegetown only.** The record covers Collegetown houses and buildings. Downtown, Fall Creek, Lansing and leftover units can lease later.
 
 ## How to cite
@@ -110,14 +107,14 @@ EduExplained, "Dataset: Collegetown lease signing lead times, 2017 to 2025," rec
 
 ## Related guides
 
-- [Off-campus housing at Cornell: the 2026-27 guide](/housing/cornell-off-campus-housing-guide/): the full guide to the topic
-- [When to sign a Collegetown lease, and when waiting is fine](/housing/when-to-sign-collegetown-lease-cornell/)
-- [Ithaca's 120-day lease renewal rule and the waiver](/housing/ithaca-120-day-lease-renewal-notice-rule/)
-- [Off-campus housing for sophomores planning junior year](/housing/off-campus-housing-cornell-sophomores/)
-- [Cornell transfer housing: how it actually works](/housing/cornell-transfer-housing/)
-- [Off-campus housing at Cornell: a parent's guide](/housing/cornell-off-campus-housing-for-parents/)
-- [Finding roommates off campus at Cornell and joint liability](/housing/cornell-off-campus-roommates-joint-liability/)
-- [Collegetown vs Fall Creek vs downtown Ithaca: where to live](/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/)
-- [Reading an Ithaca lease before you sign: what to check](/housing/how-to-read-ithaca-lease-before-signing/)
-- [Who can live off campus at Cornell: the rule and exemptions](/housing/cornell-residential-requirement-exemptions-live-off-campus/)
+- [Off-campus housing at Cornell: the 2026-27 guide](/cornell/housing/cornell-off-campus-housing-guide/): the full guide to the topic
+- [When to sign a Collegetown lease, and when waiting is fine](/cornell/housing/when-to-sign-collegetown-lease-cornell/)
+- [Ithaca's 120-day lease renewal rule and the waiver](/cornell/housing/ithaca-120-day-lease-renewal-notice-rule/)
+- [Off-campus housing for sophomores planning junior year](/cornell/housing/off-campus-housing-cornell-sophomores/)
+- [Cornell transfer housing: how it actually works](/cornell/housing/cornell-transfer-housing/)
+- [Off-campus housing at Cornell: a parent's guide](/cornell/housing/cornell-off-campus-housing-for-parents/)
+- [Finding roommates off campus at Cornell and joint liability](/cornell/housing/cornell-off-campus-roommates-joint-liability/)
+- [Collegetown vs Fall Creek vs downtown Ithaca: where to live](/cornell/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/)
+- [Reading an Ithaca lease before you sign: what to check](/cornell/housing/how-to-read-ithaca-lease-before-signing/)
+- [Who can live off campus at Cornell: the rule and exemptions](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/)
 - [All housing guides](/housing/)

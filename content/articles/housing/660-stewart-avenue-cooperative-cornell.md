@@ -1,8 +1,8 @@
 ---
 title: '660 Stewart Avenue co-op Cornell: cost and how to join'
 mode: answer
-dek: 660 Stewart Avenue is a 25-resident Cornell co-op in a 1902 estate below West Campus, with an optional meal plan and free on-site parking.
-meta: '660 Stewart Avenue co-op at Cornell: 25 residents in a 1902 estate, optional meal plan, free laundry and parking, 2026-27 rates from $4,981 a semester.'
+dek: 660 Stewart Avenue is a 25-resident Cornell co-op in a 1902 estate below West Campus, with an optional meal plan, free laundry and on-site parking.
+meta: '660 Stewart Avenue co-op at Cornell: 25 residents in a 1902 estate, optional meal plan, free laundry, on-site parking, 2026-27 rates from $4,981 a semester.'
 primary_query: 660 Stewart Avenue co-op Cornell
 topic: housing
 school: cornell-university
@@ -45,7 +45,7 @@ images: []
 - The house meal plan is optional: five nights a week, with one cooking night.
 ```
 
-The 660 Stewart Avenue Cooperative is a Cornell-owned co-op with 25 residents in a 1902 estate below West Campus. Its house meal plan is optional, and laundry and on-site parking are free (Cornell Housing). It takes transfer and upper-level students.
+The 660 Stewart Avenue Cooperative is a Cornell-owned co-op with 25 residents in a 1902 estate below West Campus. Its house meal plan is optional, laundry is free and the house has on-site parking (Cornell Housing). It takes transfer and upper-level students.
 
 ## What is 660 Stewart Avenue?
 
@@ -60,7 +60,7 @@ rows:
   - {label: "Residents", value: "25"}
   - {label: "Rooms", value: "Singles, doubles and triples"}
   - {label: "Meals", value: "Optional house meal plan, five nights a week with one cooking night"}
-  - {label: "Included", value: "Free laundry and on-site parking; mandatory staples program"}
+  - {label: "Included", value: "Free laundry, on-site parking and a mandatory staples program"}
   - {label: "Who can live there", value: "Transfer and upper-level students"}
   - {label: "Rates, 2026-27", value: "Single $5,640, double $4,981 per semester"}
   - {label: "Contact", value: "sixsixty@cornell.edu"}
@@ -88,9 +88,9 @@ Cornell opens 660 Stewart to transfer and upper-level students ([Cornell Housing
 
 ## What should you watch?
 
-The houses are old. The Sun reported in October 2024 that four of the eight co-ops had floors collapse in recent years ([Cornell Daily Sun](https://cornellsun.com/2024/10/21/co-op-residents-face-deteriorating-houses-increasing-rent-costs/)). Ask what has been repaired at 660 Stewart.
+The Sun reported in October 2024 that four of the eight co-ops had floors collapse in recent years ([Cornell Daily Sun](https://cornellsun.com/2024/10/21/co-op-residents-face-deteriorating-houses-increasing-rent-costs/)). Ask what has been repaired at 660 Stewart.
 
-All eight co-ops share one license, with no security deposit and a full-time student rule. See [Cornell co-ops compared](/cornell/housing/cornell-co-ops-all-eight-compared/) and our guide to [co-ops and Greek houses](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/).
+Cornell does not require an advance security deposit for campus housing ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). See [Cornell co-ops compared](/cornell/housing/cornell-co-ops-all-eight-compared/) and our guide to [co-ops and Greek houses](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/).
 
 ## What to do next
 

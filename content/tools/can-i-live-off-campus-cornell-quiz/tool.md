@@ -9,16 +9,16 @@ kind: tool
 readers: [first-year, sophomore, exempt-underclass, transfer, student-family, affiliated-housing, parent]
 brief: intel/off-campus-housing/brief.md
 sources:
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy", title: "Cornell Housing and Residential Life: residential policy", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing", title: "Cornell: requirements for qualified university-recognized campus housing", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process", title: "Cornell: off-campus housing search process", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates", title: "Cornell: housing for new transfer undergraduates", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates", title: "Cornell: 2026-27 housing rates", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028", title: "Cornell: academic year housing license 2027-2028", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing", title: "Cornell: cooperative housing", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement", title: "Cornell: qualified off-campus (affiliated) housing", accessed: "2026-11-08"}
-  - {url: "https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory", title: "Cornell Housing and Residential Life directory", accessed: "2026-11-08"}
-  - {url: "https://ithacarenting.com/collegetown/", title: "Ithaca Renting: Collegetown listings (2027-28)", accessed: "2026-11-08"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy", title: "Cornell Housing and Residential Life: residential policy", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing", title: "Cornell: requirements for qualified university-recognized campus housing", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process", title: "Cornell: off-campus housing search process", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates", title: "Cornell: housing for new transfer undergraduates", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates", title: "Cornell: 2026-27 housing rates", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028", title: "Cornell: academic year housing license 2027-2028", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing", title: "Cornell: cooperative housing", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement", title: "Cornell: qualified off-campus (affiliated) housing", accessed: "2026-11-11"}
+  - {url: "https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory", title: "Cornell Housing and Residential Life directory", accessed: "2026-11-11"}
+  - {url: "https://ithacarenting.com/collegetown/", title: "Ithaca Renting: Collegetown listings (2027-28)", accessed: "2026-11-11"}
 ---
 
 This quiz tells you whether Cornell lets you sign an off-campus lease for a given academic year, and what to file first. You answer for the year the lease covers: your class year, whether you are a transfer, your age on the first day of that year, marriage, dependents, military service, whether you live with a parent near Ithaca, and any Greek or co-op plans. It gives one of four answers: free to rent; not yet, because you qualify for an exemption that must be approved first (it names which); no, because that year belongs in Cornell or affiliated housing; or probably, because you will not be full-time in Ithaca. For the "not yet" and "no" answers it also prices the mistake of signing early: Cornell bills the full year anyway, and the lease is still owed. The rules are Cornell's 2026-27 policy, read on 2026-11-08.
@@ -81,7 +81,6 @@ The formula for the cost of signing anyway: Cornell's room rate for the year + (
 - Housing decides every exemption. A match in this quiz is not an approval.
 - Cornell's transfer page says all new transfers live on campus for one academic year, while the residential policy exempts transfers entering as juniors or seniors or with two years on campus elsewhere. The quiz follows the policy and tells transfers to get approval in writing.
 - First- and second-years with a signed Cornell license cannot cancel it unless no longer attending, exempt, or accepted to a Greek house, affiliated house or co-op before the Spring Housing Selection deadline ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
-- Not in the brief: the 2027-28 application deadline; whether an unmarried partnership counts as married; how Housing handles a fall request for the next year, which matters to an exempt sophomore facing the fall Collegetown rush; when new transfers file; the 2026-27 meal plan price; what Greek houses cost.
 
 ## How to read the result
 

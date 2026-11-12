@@ -10,6 +10,11 @@ kind: start_here
 readers: [parent]
 brief: intel/getting-around/brief.md
 briefs: [intel/off-campus-housing/brief.md, intel/transfer/brief.md]
+sources:
+  - {url: "https://commencement.cornell.edu/", title: "Cornell Commencement", accessed: "2026-11-11"}
+  - {url: "https://alumni.cornell.edu/reunion/", title: "Cornell Alumni: Reunion", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores", title: "Cornell Student and Campus Life: Spring Housing Selection for rising sophomores", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors", title: "Cornell Student and Campus Life: Fall Housing Selection for rising juniors and seniors", accessed: "2026-11-11"}
 ---
 
 You have no NetID, so you see Cornell from the outside: you pay public fares when you come for move-in, Family Weekend, Commencement or Reunion, you cannot see the Cornell housing marketplace when your student looks off campus, and you get the bill only if your student invites you to Cashnet. You are often the one paying, for trips home, for rent and the deposit, and for a transfer's required year on campus, and you may file the CSS Profile with your child. You want to know what is required, when the bills come, whether the housing is sound and when to drive to Ithaca. Each topic below has its own path; read the guides in order, and each one has the details and its sources.
@@ -33,12 +38,12 @@ You have no NetID, so you see Cornell from the outside: you pay public fares whe
 ## Dates to watch: Getting around
 
 - After Aug 1: the Move-In Ticket can be printed from the Housing and Dining Portal.
-- Mon Aug 17, Tue Aug 18 and Fri Aug 21 to Sat Aug 22: North Campus move-in (the brief infers the year as 2026).
+- Mon Aug 17, Tue Aug 18 and Fri Aug 21 to Sat Aug 22: North Campus move-in in 2026.
 - Nov 4, 2026 onward: the new C2C booking system needs a new account, even for past riders.
 - Nov 9, 2026: downtown intercity stops move, with OurBus going to 235 S. Cayuga St.
 - Mid-May: buildings close for move-out (2 p.m. Sun May 17 in 2026), and Commencement hotels often sell out.
-
-Not in the brief: the 2027 dates for Family Weekend, Commencement and Reunion.
+- May 28 to 30, 2027: [Commencement Weekend](https://commencement.cornell.edu/), with the ceremonies on Sat May 29 at Schoellkopf Field.
+- June 10 to 13, 2027: [Reunion](https://alumni.cornell.edu/reunion/).
 
 ## Read in this order: Housing
 
@@ -57,13 +62,12 @@ Not in the brief: the 2027 dates for Family Weekend, Commencement and Reunion.
 
 ## Dates to watch: Housing
 
+- Sept 1 to 27: rising juniors and seniors apply for the next year's Cornell housing ([Sept 27 in 2026](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors), for 2027-28).
 - September to November of sophomore year: groups that want Collegetown sign for junior year, and the first month and deposit may be due at signing.
 - Jan 31: the last day returning juniors and seniors can cancel a Cornell license for $50; it rises to $500 from Feb 1.
-- Apr 6 (in 2026): the Cornell housing application is due, including exemption requests.
+- Apr 4, 11:59 p.m.: rising sophomores' [housing application for 2027-28](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores) is due, and so are second-year exemption requests (Apr 6 in 2026).
 - On or about Aug 1: most leases start; the landlord must offer a move-in inspection before your student moves in.
 - July 31: most leases end, and the deposit or an itemized statement is due within 14 days of moving out.
-
-Not in the brief: the 2027 date for the Cornell housing application.
 
 ## Read in this order: Transfer
 

@@ -8,21 +8,21 @@ type: place
 updated: 2026-11-11
 queue_id: q-academics-0015
 sources:
-  - {url: "https://prehealthadvising.cornell.edu/academic-preparation", title: "Academic Preparation, Cornell Health Professions Advising", accessed: "2026-11-07"}
-  - {url: "https://chemistry.cornell.edu/advising-guide", title: "Advising Guide, Cornell Department of Chemistry", accessed: "2026-11-07"}
-  - {url: "https://classes.cornell.edu/browse/roster/FA26/class/CHEM/2070", title: "CHEM 2070 General Chemistry I, Cornell Class Roster", accessed: "2026-11-07"}
-  - {url: "https://classes.cornell.edu/browse/roster/FA26/class/CHEM/2080", title: "CHEM 2080 General Chemistry II, Cornell Class Roster", accessed: "2026-11-07"}
-  - {url: "https://classes.cornell.edu/browse/roster/FA26/class/CHEM/3570", title: "CHEM 3570 Organic Chemistry for the Life Sciences, Cornell Class Roster", accessed: "2026-11-07"}
-  - {url: "https://classes.cornell.edu/browse/roster/FA26/class/CHEM/1007", title: "CHEM 1007 Academic Support for CHEM 2070, Cornell Class Roster", accessed: "2026-11-07"}
-  - {url: "https://news.cornell.edu/node/270308", title: "Faculty Senate votes to end posting of median grades, Cornell Chronicle", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/2024/02/19/cornell-discontinues-median-grade-visibility-on-transcripts-15-years-after-inception/", title: "Cornell discontinues median grade visibility on transcripts, The Cornell Daily Sun, February 19, 2024", accessed: "2026-11-07"}
-  - {url: "https://www.cornellsun.com/article/2025/04/backlash-cocktails-and-humor-a-sit-down-with-chem-2070-professor-kyle-lancaster", title: "A sit-down with CHEM 2070 professor Kyle Lancaster, The Cornell Daily Sun, April 2025", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/2024/09/16/tias-its-time-to-weed-out-weeder-courses/", title: "Tias: It's time to weed out weeder courses, The Cornell Daily Sun, September 16, 2024", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/2022/10/12/levin-the-problem-of-weed-out-classes/", title: "Levin: The problem of weed-out classes, The Cornell Daily Sun, October 12, 2022", accessed: "2026-11-07"}
+  - {url: "https://prehealthadvising.cornell.edu/academic-preparation", title: "Academic Preparation, Cornell Health Professions Advising", accessed: "2026-11-11"}
+  - {url: "https://chemistry.cornell.edu/advising-guide", title: "Advising Guide, Cornell Department of Chemistry", accessed: "2026-11-11"}
+  - {url: "https://classes.cornell.edu/browse/roster/FA26/class/CHEM/2070", title: "CHEM 2070 General Chemistry I, Cornell Class Roster", accessed: "2026-11-11"}
+  - {url: "https://classes.cornell.edu/browse/roster/FA26/class/CHEM/2080", title: "CHEM 2080 General Chemistry II, Cornell Class Roster", accessed: "2026-11-11"}
+  - {url: "https://classes.cornell.edu/browse/roster/FA26/class/CHEM/3570", title: "CHEM 3570 Organic Chemistry for the Life Sciences, Cornell Class Roster", accessed: "2026-11-11"}
+  - {url: "https://classes.cornell.edu/browse/roster/FA26/class/CHEM/1007", title: "CHEM 1007 Academic Support for CHEM 2070, Cornell Class Roster", accessed: "2026-11-11"}
+  - {url: "https://news.cornell.edu/node/270308", title: "Faculty Senate votes to end posting of median grades, Cornell Chronicle", accessed: "2026-11-11"}
+  - {url: "https://cornellsun.com/2024/02/19/cornell-discontinues-median-grade-visibility-on-transcripts-15-years-after-inception/", title: "Cornell discontinues median grade visibility on transcripts, The Cornell Daily Sun, February 19, 2024", accessed: "2026-11-11"}
+  - {url: "https://www.cornellsun.com/article/2025/04/backlash-cocktails-and-humor-a-sit-down-with-chem-2070-professor-kyle-lancaster", title: "A sit-down with CHEM 2070 professor Kyle Lancaster, The Cornell Daily Sun, April 2025", accessed: "2026-11-11"}
+  - {url: "https://cornellsun.com/2024/09/16/tias-its-time-to-weed-out-weeder-courses/", title: "Tias: It's time to weed out weeder courses, The Cornell Daily Sun, September 16, 2024", accessed: "2026-11-11"}
+  - {url: "https://cornellsun.com/2022/10/12/levin-the-problem-of-weed-out-classes/", title: "Levin: The problem of weed-out classes, The Cornell Daily Sun, October 12, 2022", accessed: "2026-11-11"}
 images: []
 ---
 
-The course Cornell pre-meds most often call the weed-out is CHEM 2070, General Chemistry I, taken in the first year, not organic chemistry. Cornell [stopped posting course median grades in 2011](https://news.cornell.edu/node/270308) and publishes no grade distribution for either course. Below are the course sequence Cornell's pre-health office lists, the prerequisites that force the order, and what the Cornell Daily Sun and its columnists have said about how hard the first course is.
+The course Cornell pre-meds most often call the weed-out is CHEM 2070, General Chemistry I, taken in the first year, not organic chemistry. Cornell [stopped posting course median grades in 2011](https://news.cornell.edu/node/270308), so no median for either course is posted. Below are the course sequence Cornell's pre-health office lists, the prerequisites that force the order, and what the Cornell Daily Sun and its columnists have said about how hard the first course is.
 
 ## The sequence Cornell lists
 
@@ -60,7 +60,7 @@ Students see it differently. A first-year Arts & Sciences student, Asfi Tias, ar
 
 ### CHEM 2080 and organic chemistry
 
-The weed-out label at Cornell attaches to CHEM 2070, and Cornell publishes no curve for CHEM 2080 or organic. The rosters show how tightly they chain: [CHEM 2080](https://classes.cornell.edu/browse/roster/FA26/class/CHEM/2080) requires CHEM 2070 or 2090, and [CHEM 3570](https://classes.cornell.edu/browse/roster/FA26/class/CHEM/3570), Organic Chemistry for the Life Sciences, requires CHEM 2080 and 2081 (or permission of the instructor). A weak grade in 2070 therefore follows you into every course behind it. If a friend tells you what the organic curve is, ask which semester and which instructor, because Cornell publishes no curve to compare it with.
+The weed-out label at Cornell attaches to CHEM 2070. The rosters show how tightly they chain: [CHEM 2080](https://classes.cornell.edu/browse/roster/FA26/class/CHEM/2080) requires CHEM 2070 or 2090, and [CHEM 3570](https://classes.cornell.edu/browse/roster/FA26/class/CHEM/3570), Organic Chemistry for the Life Sciences, requires CHEM 2080 and 2081 (or permission of the instructor). A weak grade in 2070 therefore follows you into every course behind it. If a friend tells you what the organic curve is, ask which semester and which instructor.
 
 ## Why you cannot look up a median
 
@@ -87,7 +87,7 @@ For enrolling in these courses, see our guides to [pre-enroll and add/drop](/aca
 
 ## FAQ
 
-**Is organic chemistry the weed-out course at Cornell?** The pre-med reputation in the Sun attaches to CHEM 2070, and Cornell publishes no curve for organic.
+**Is organic chemistry the weed-out course at Cornell?** The pre-med reputation in the Sun attaches to CHEM 2070, not organic.
 
 **Can I see the median grade for CHEM 2070?** No. Cornell [stopped publishing course medians in 2011](https://news.cornell.edu/node/270308).
 

@@ -125,7 +125,7 @@ Cornell does not award merit, athletic or talent aid. Its [international aid pag
 
 If a search for "Cornell transfer scholarship" shows a $33,000 transfer scholarship, you are on the wrong school's site. That award belongs to [Cornell College in Mount Vernon, Iowa](https://www.cornellcollege.edu/financial-assistance/scholarships-awards/transfer-scholarships.shtml). So does FAFSA code 001856. Cornell University's FAFSA code is 002711.
 
-Two old Cornell aid addresses also still show up in searches: finaid.cornell.edu/apply-aid/transfer-students and finaid.cornell.edu/apply-aid/prospective-applicants. Both return a "page not found" error. The live page for US transfers is titled ["First-Year and Transfer Students, U.S."](https://finaid.cornell.edu/apply-aid/prospective-students-or-first-time-aid-applicants).
+Cornell's aid page for US transfers is titled ["First-Year and Transfer Students, U.S."](https://finaid.cornell.edu/apply-aid/prospective-students-or-first-time-aid-applicants).
 
 ## What need-based aid covers in 2026-27
 
@@ -149,7 +149,7 @@ Those are prices before aid:
 | Billed: tuition, fees, double room, Unlimited plan | $96,318 | $72,188 |
 | Full cost of attendance (adds books and personal) | $99,734 | $75,604 |
 
-Tuition figures come from the [trustees' 2026-27 budget story](https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters); the billed and total figures from Cornell's [cost of attendance page](https://finaid.cornell.edu/cost-attend). Fall 2027 entrants pay 2027-28 prices, which are not set yet; the aid office confirms them before the early April offers.
+Tuition figures come from the [trustees' 2026-27 budget story](https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters); the billed and total figures from Cornell's [cost of attendance page](https://finaid.cornell.edu/cost-attend). Fall 2027 entrants pay 2027-28 prices, which Cornell has not yet announced.
 
 ```tool cornell-transfer-cost-calculator```
 
@@ -174,7 +174,7 @@ rows:
 
 That average speaks to a belief Cornell heard from [four community college graduates in 2024](https://www.news.cornell.edu/stories/2024/05/community-college-transfers-flourish-cornell): that Cornell was too expensive for them. A counselor in the same story called it a common misconception.
 
-Two cautions. These are 2021 numbers, set against 2021 prices. And Cornell's debt figure, 33.2% of the class of 2025 borrowing an average of $25,655 in the [Common Data Set](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf), leaves out students who transferred in.
+Two cautions. These are 2021 numbers, set against 2021 prices. And Cornell's debt figure, 33.2% of the class of 2025 borrowing an average of $25,655 in the [Common Data Set](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf), counts only students who entered Cornell as first-years, not transfers.
 
 ## How to apply: forms, codes and dates
 

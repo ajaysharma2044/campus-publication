@@ -63,7 +63,7 @@
 <div class="tool-result" id="do-i-need-a-car-at-cornell-quiz-result" aria-live="polite">
 <p>Your result appears here. If it does not, every number and formula is listed on this page so you can work it out by hand.</p>
 </div>
-<p class="tq-small" data-as-of="2026-11-08">Numbers as of 2026-11-08, from Cornell, Ithaca Carshare, Ithaca Bikeshare, airport and bus pages read that day.</p>
+<p class="tq-small" data-as-of="2026-11-08">Numbers as of 2026-11-08, from Cornell, Ithaca Carshare, Ithaca Bikeshare, the Ithaca airport and bus operators.</p>
 <script>
 (function () {
   var root = document.getElementById('tool-do-i-need-a-car-at-cornell-quiz');
@@ -165,7 +165,7 @@
     } else r.push(li('You said you would not drive in Ithaca at all, so a car would mostly sit in a lot.'));
     if (dest === 'nyc') r.push(li(trips + ' round trips to NYC cost ' + m(busLo) + ' at the OurBus floor (' + m(v('ourbusFloorOneWay')) + ' each way), ' + m(busAvg) + ' at the average advertised fare (' + m(v('nycAverageFareOneWay')) + '), or ' + m(busHi) + ' on Cornell\'s C2C (' + m(v('c2cRoundTrip')) + ' round trip with a NetID).'));
     else if (dest === 'fly') r.push(li('Airfares and rides to the airport are not in our numbers. If you drive and park at ITH, long-term parking is ' + m(v('ithLongTermWeek')) + ' a week; we count one week per trip, so longer breaks cost more.'));
-    else if (dest === 'busother') r.push(li('This quiz prices NYC trips only; fares to other cities are in our bus guides.'));
+    else if (dest === 'busother') r.push(li('This quiz prices NYC trips only; check fares to other cities with the bus operators.'));
     else r.push(li('Your trip home is a drive with no good bus, the strongest reason to keep a car here. Gas and tolls are not in our numbers.'));
     if (pick !== 'permit') r.push(li('For short hops, Ithaca Bikeshare is ' + m(v('bikeUnlock')) + ' to unlock plus ' + m(v('bikePerMinute')) + ' a minute (' + m(v('bikeUnlock') + 20 * v('bikePerMinute')) + ' for 20 minutes, before tax), or ' + m(v('bikeMonth')) + ' a month.'));
 

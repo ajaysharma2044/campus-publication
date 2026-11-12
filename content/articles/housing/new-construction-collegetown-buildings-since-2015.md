@@ -1,13 +1,13 @@
 ---
 title: New Apartment Buildings in Collegetown Since 2015
 mode: answer
-dek: From the 2016 trio on College Avenue, Eddy Street and Dryden Road to The Ivy in 2026, here is what opened in Collegetown, who built it and what it costs.
-meta: 'New apartment buildings in Collegetown since 2015: the 2016 trio, Catherine Commons, The Ivy (2026) and 301 College Ave., with prices and opening dates.'
+dek: From the 2016 trio on College Avenue, Eddy Street and Dryden Road to The Ivy in 2026, here is what opened in Collegetown and what it costs.
+meta: 'New apartment buildings in Collegetown since 2015: the 2016 trio, Catherine Commons, The Ivy (2026) and 301 College Ave., with prices and what to ask before signing.'
 primary_query: new apartment buildings in collegetown since 2015
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 159
 rewrites: ''
 readers:
@@ -20,7 +20,7 @@ tools: []
 sources:
 - url: https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/
   title: Landlords say Collegetown housing hassle unlikely to change, The Cornell Daily Sun, Sept. 26, 2016
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2016/09/delayed-collegetown-apartment-opening-leaves-e2-80-88students-homeless
   title: Delayed Collegetown apartment opening leaves students homeless, The Cornell Daily Sun, Sept. 2016
   accessed: '2026-11-10'
@@ -53,10 +53,10 @@ sources:
   accessed: '2026-11-10'
 - url: https://www.modernlivingrentals.com/707-e-seneca-st
   title: 707 E. Seneca St., Modern Living Rentals
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.lambrourealestate.com/apartments/238-dryden
   title: 238 Dryden Road, Lambrou Real Estate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx
   title: Apartment search, CSP Management
   accessed: '2026-11-10'
@@ -66,6 +66,9 @@ sources:
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown properties and prices, Ithaca Renting
   accessed: '2026-11-10'
+- url: https://www.thecornellreview.org/cornells-construction-crunch-ithacas-housing-crisis-and-the-catherine-commons/
+  title: 'Cornell''s Construction Crunch: Ithaca''s Housing Crisis and The Catherine Commons, The Cornell Review, Dec. 14, 2022'
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -81,7 +84,7 @@ Collegetown's newest buildings are also its most expensive. The Ivy, an eight-st
 
 ## What opened in Collegetown in 2016?
 
-Three buildings added nearly 200 bedrooms in 2016: 307 College Ave., 327 Eddy St. and 205 Dryden Rd. ([The Cornell Daily Sun](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/)). County records list 307 College Ave. as Collegetown Crossing, built in 2016.
+Three buildings added nearly 200 bedrooms in 2016: 307 College Ave., 327 Eddy St. and 205 Dryden Rd. ([The Cornell Daily Sun](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/)). 307 College Ave. was developed by Josh Lower, a 2005 graduate ([The Cornell Daily Sun](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/)).
 
 327 Eddy St., Fontana Apartments, opened late after five delays. More than 50 students with Aug. 1 leases had no home, and the landlord offered them $30 a day or a room at the Trip Hotel on Sheraton Avenue ([The Cornell Daily Sun](https://www.cornellsun.com/article/2016/09/delayed-collegetown-apartment-opening-leaves-e2-80-88students-homeless)).
 
@@ -89,21 +92,18 @@ Three buildings added nearly 200 bedrooms in 2016: 307 College Ave., 327 Eddy St
 
 ## Which other new buildings came after?
 
-The Sun's reporting and county records name these. Opening years are stated only where a source gives one.
-
-| Building | Address | What the record says |
+| Building | Address | Details |
 |---|---|---|
 | Catherine Commons | 304 College Ave. | A "central Collegetown" new building; studios from about $2,300 (a Sun columnist) |
 | The Lux | Collegetown | One-bedrooms up to $2,625 in 2022 (Sun opinion) |
 | The Ivy | 325 College Ave. | Opened Aug. 17, 2026; 3BR $5,500 to $5,800 a month |
 | The Summit | 201 Oak Ave. | Units listed at $4,100 to $4,400 for August 2027 |
-| 238 Dryden Rd. | Dryden Road | Built 2022 per county records; no rent printed |
-| 400-404 Stewart Ave. | Stewart Avenue | Built 2018; 3BR $3,500 per month in one listing |
-| 707 E. Seneca St. | Seneca Street | Built 2015; six units, 18 bedrooms |
+| 238 Dryden Rd. | Dryden Road | Built 2022; rent on request |
+| 707 E. Seneca St. | Seneca Street | Built 2015; six three-bedroom units, 18 bedrooms |
 
-Sources: [Cornell Daily Sun, 2025](https://www.cornellsun.com/article/2025/09/maia-on-the-mic-the-collegetown-housing-hustle); [Cornell Daily Sun, 2022](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/); [Rentler](https://www.rentler.com/places-for-rent/ny/ithaca/201-oak-avenue/13135107); [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/238-dryden); [CSP Management](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx); [Modern Living Rentals](https://www.modernlivingrentals.com/707-e-seneca-st). Years built come from Tompkins County's 2026 assessment roll.
+Sources: [Cornell Daily Sun, 2025](https://www.cornellsun.com/article/2025/09/maia-on-the-mic-the-collegetown-housing-hustle); [Cornell Daily Sun, 2022](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/); [Rentler](https://www.rentler.com/places-for-rent/ny/ithaca/201-oak-avenue/13135107); [Lambrou Real Estate](https://www.lambrourealestate.com/apartments/238-dryden); [Modern Living Rentals](https://www.modernlivingrentals.com/707-e-seneca-st).
 
-No source here gives an opening year for Catherine Commons or The Lux. A Cornell Review count, undated, puts Catherine Commons' net gain at 339 bedrooms ([The Cornell Review](https://www.thecornellreview.org/cornells-construction-crunch-ithacas-housing-crisis-and-the-catherine-commons/)). To pin down either date, call the City of Ithaca Building Division at 607-274-6508.
+Catherine Commons, by developer Novarr Mackesey, replaced eleven two-story houses at Catherine Street and College Avenue with six buildings of about 360 residential units, a net gain of 339 bedrooms. The city approved construction on March 23, 2022, with completion scheduled for August 2024 ([The Cornell Review](https://www.thecornellreview.org/cornells-construction-crunch-ithacas-housing-crisis-and-the-catherine-commons/)).
 
 ## What does The Ivy cost?
 

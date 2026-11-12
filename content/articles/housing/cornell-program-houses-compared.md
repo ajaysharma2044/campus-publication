@@ -23,109 +23,109 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing
   title: Upper-level Undergraduate On-Campus Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/program-houses
   title: Program Houses (new transfer undergraduates), Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/program-houses
   title: Program Houses (new undergraduates), Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/program-houses/program-house-mission-and-expectations
   title: Program House Mission and Expectations, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/facilities
   title: Housing Facilities, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/akwekon
   title: Akwe:kon, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house
   title: Ecology House, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/equity-engagement-community-eec
   title: Equity & Engagement Community (EEC), Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/holland-international-living-center-hilc
   title: Holland International Living Center (HILC), Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam
   title: Just About Music (JAM), Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house
   title: Language House, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/latino-living-center-llc
   title: Latino Living Center (LLC), Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house
   title: Loving House, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/multicultural-living-learning-unit-mcllu
   title: Multicultural Living Learning Unit (McLLU), Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college
   title: Risley Residential College, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/sober-living-community
   title: Sober Living Community, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ujamaa-residential-college
   title: Ujamaa Residential College, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house
   title: Veterans House, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates
   title: Meal Plans & Rates, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans 2026-2027, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process
   title: Current Undergraduate Application Process (2027-2028), Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://alumni.cornell.edu/cornellians/program-houses/
   title: From 'Eco' to Ujamaa, Program Houses Offer Community, Cornellians, Aug. 28, 2023
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://news.cornell.edu/stories/2025/04/language-house-opens-students-learning-asl
   title: Language House opens to students learning ASL, Cornell Chronicle, April 1, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2021/09/new-program-house-opens-creating-community-among-student-veterans
   title: New Program House Opens, Creating Community Among Student Veterans, The Cornell Daily Sun, Sept. 19, 2021
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/02/bsu-holds-emergency-meeting-as-affinity-groups-program-houses-are-threatened-by-department-of-education-guidelines
   title: BSU Holds 'Emergency Meeting' As Affinity Groups, Program Houses Are Threatened By Department of Education Guidelines, The Cornell Daily Sun, Feb. 23, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed
   title: New Changes to Fall Housing Selection Leave Some Rising Juniors, Seniors Disappointed, The Cornell Daily Sun, Nov. 4, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/12/even-if-our-numbers-are-lower-were-still-here-indigenous-student-engagement-persists-despite-enrollment-drops
   title: '''Even If Our Numbers Are Lower, We''re Still Here'': Indigenous Student Engagement Persists Despite Enrollment Drops, The Cornell Daily Sun, Dec. 2, 2025'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/03/bsu-town-hall-addresses-housing-financial-aid-and-federal-policy-concerns
   title: BSU Town Hall Addresses Housing, Financial Aid and Federal Policy Concerns, The Cornell Daily Sun, March 25, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/05/oq5rriymdyfz
   title: '''A Major Loss for Black Students'': As Ujamaa''s Black Population Declines, Residents Say the Program House Is Failing Its Mission, The Cornell Daily Sun, May 5, 2026'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/11/oasis-on-north-campus-cornell-opens-sober-living-community-in-court-kay-bauer-hall
   title: '''Oasis on North Campus'': Cornell Opens Sober Living Community in Court-Kay-Bauer Hall, The Cornell Daily Sun, Nov. 9, 2026'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Risley Hall, the brick Gothic residence hall that houses Risley Residential College on Cornell's North Campus
@@ -242,7 +242,7 @@ The Equity & Engagement Community, or EEC, sits at 2 Forest Park Lane, at the ba
 
 Veterans House has 26 residents, including one resident advisor ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house)). It supports student veterans, but you do not need to have served. ROTC students, students with military families, and students in government or policy fields all qualify, as do graduate students. Every room is a super single. The house runs year-round, so window air conditioners are available on request at no charge.
 
-Veterans House is in the former Alpha Tau Omega house at 625 University Ave., the Sun reported when it opened. Cornell's housing directory gives the same address ([Cornell Housing facilities](https://scl.cornell.edu/residential-life/housing/facilities)). Cornell's 2027-28 selection page instead lists Veterans House at 112 Edgemoor Lane, which the same directory describes as a separate 20-bed hall. Go by 625 University Ave., and ask veterancommunity@cornell.edu which address applies to your year.
+Veterans House is in the former Alpha Tau Omega house at 625 University Ave., the Sun reported when it opened. Cornell's housing directory gives the same address ([Cornell Housing facilities](https://scl.cornell.edu/residential-life/housing/facilities)). Ask veterancommunity@cornell.edu which address applies to your year.
 
 <!-- ad-break -->
 

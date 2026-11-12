@@ -28,7 +28,7 @@ sources:
   title: Frequently Asked Questions, OurBus
   accessed: '2026-11-11'
 - url: https://www.ourbus.com/blog/ourbus-student-discount/
-  title: 'How to Make the Most of the OurBus Student Discount?, OurBus blog, July 25, 2026'
+  title: How to Make the Most of the OurBus Student Discount?, OurBus blog, July 25, 2026
   accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk
   title: OurBus expands daily service from Cornell, The Cornell Daily Sun, September 2, 2026
@@ -111,18 +111,10 @@ sources:
 - url: https://conferenceservices.cornell.edu/node/196
   title: Getting to Ithaca, Cornell Conference Services
   accessed: '2026-11-08'
-images:
-- file: 1.webp
-  alt: A TCAT city bus on Route 30 at Seneca Street Station in downtown Ithaca
-  caption: TCAT Route 30 at Seneca Street Station, downtown Ithaca. TCAT runs around town, not to Syracuse; the airport bus is OurBus.
-  credit: Hbithaca / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2107_on_Route_30.jpg
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  author: Hbithaca
-  source_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2107_on_Route_30.jpg
+images: []
 subject:
 - TCAT bus Ithaca
+lead_photo: none-found 2026-11-11
 ---
 
 ```glance

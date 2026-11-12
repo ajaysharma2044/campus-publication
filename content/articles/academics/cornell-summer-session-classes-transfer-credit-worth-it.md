@@ -8,14 +8,14 @@ type: decision
 updated: 2026-11-11
 queue_id: q-academics-0022
 sources:
-  - {url: "https://sce.cornell.edu/courses/", title: "Plan now for Summer Session 2026, Cornell SCE", accessed: "2026-11-07"}
-  - {url: "https://sce.cornell.edu/fa-advisors-summer/", title: "TO: Academic Advisors, Cornell SCE", accessed: "2026-11-07"}
-  - {url: "https://sce.cornell.edu/courses/tuition/tuition", title: "Tuition, Cornell SCE", accessed: "2026-11-07"}
-  - {url: "https://bursar.cornell.edu/students-parents/tuition-rates-and-fees", title: "Tuition Rates and Fees, Cornell Bursar", accessed: "2026-11-07"}
-  - {url: "https://as.cornell.edu/transferring-credits", title: "Transferring Credits, Cornell Arts & Sciences", accessed: "2026-11-07"}
-  - {url: "https://www.duffield.cornell.edu/transfer-credit-application-process", title: "Transfer Credit Application Process, Cornell Engineering", accessed: "2026-11-07"}
-  - {url: "https://cals.cornell.edu/undergraduate-students/cals-student-services/academic-resources/transfer-non-cornell-credit", title: "Transfer Non-Cornell Credit, Cornell CALS", accessed: "2026-11-07"}
-  - {url: "https://tompkinscortland.edu/tuition", title: "Student Accounts, Tompkins Cortland Community College", accessed: "2026-11-07"}
+  - {url: "https://sce.cornell.edu/courses/", title: "Plan now for Summer Session 2026, Cornell SCE", accessed: "2026-11-11"}
+  - {url: "https://sce.cornell.edu/fa-advisors-summer/", title: "TO: Academic Advisors, Cornell SCE", accessed: "2026-11-11"}
+  - {url: "https://sce.cornell.edu/courses/tuition/tuition", title: "Tuition, Cornell SCE", accessed: "2026-11-11"}
+  - {url: "https://bursar.cornell.edu/students-parents/tuition-rates-and-fees", title: "Tuition Rates and Fees, Cornell Bursar", accessed: "2026-11-11"}
+  - {url: "https://as.cornell.edu/transferring-credits", title: "Transferring Credits, Cornell Arts & Sciences", accessed: "2026-11-11"}
+  - {url: "https://www.duffield.cornell.edu/transfer-credit-application-process", title: "Transfer Credit Application Process, Cornell Engineering", accessed: "2026-11-11"}
+  - {url: "https://cals.cornell.edu/undergraduate-students/cals-student-services/academic-resources/transfer-non-cornell-credit", title: "Transfer Non-Cornell Credit, Cornell CALS", accessed: "2026-11-11"}
+  - {url: "https://tompkinscortland.edu/tuition", title: "Student Accounts, Tompkins Cortland Community College", accessed: "2026-11-11"}
 images: []
 ---
 
@@ -36,7 +36,7 @@ rows:
   - {label: Three-week Session 3, date: "July 13 to 31"}
 ```
 
-Enrollment for 2026 [opened March 16](https://sce.cornell.edu/fa-advisors-summer/), and each session has its own tuition, refund and add/drop deadlines. Expect a similar pattern for 2027, but check the Summer Academic Calendar. The advisor memo also caps credits: up to four in a three-week session, eight in a six-week session, ten in an eight-week session and fifteen for the whole summer, and exceeding them takes a petition the memo says is not advisable.
+Enrollment for 2026 [opened March 16](https://sce.cornell.edu/fa-advisors-summer/), and each session has its own tuition, refund and add/drop deadlines. The advisor memo also caps credits: up to four in a three-week session, eight in a six-week session, ten in an eight-week session and fifteen for the whole summer, and exceeding them takes a petition the memo says is not advisable.
 
 ## What it costs
 
@@ -74,7 +74,7 @@ Details that trip people up in Arts & Sciences:
 
 ## Taking a summer course in Ithaca or at home instead
 
-Tompkins Cortland Community College lists [$236 per credit tuition for New York residents with a Certificate of Residence and $485 for others](https://tompkinscortland.edu/tuition), plus a technology fee of $23 and a student services fee of $34 per credit hour. Confirm the summer total with Tompkins Cortland before you register. On tuition alone, three credits would be $708 against $6,039 at Cornell.
+Tompkins Cortland Community College lists [$236 per credit tuition for New York residents with a Certificate of Residence and $485 for others](https://tompkinscortland.edu/tuition). Ask Tompkins Cortland for the full summer total, including fees, before you register. On tuition alone, three credits would be $708 against $6,039 at Cornell.
 
 Two cautions, both from the college rules above. Cheaper only counts if it transfers, and the course must match something your college accepts, backed by a syllabus. Credit also transfers as credit, not as the Cornell course: A&S [does not allow transfer credit toward its distribution requirements](https://as.cornell.edu/transferring-credits), which is the kind of requirement Summer Session can fill.
 

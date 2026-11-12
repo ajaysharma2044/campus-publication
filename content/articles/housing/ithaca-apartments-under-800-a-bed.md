@@ -7,7 +7,7 @@ primary_query: ithaca apartments under 800 a bed
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 20
 rewrites: ''
 readers:
@@ -22,61 +22,61 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown properties and prices, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/downtown/
   title: Downtown properties and prices, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampushousing.ithaca.edu/listing
   title: Off-Campus Housing Marketplace listings, Ithaca College
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/kelvin-place-apartments-237474
   title: Kelvin Place Apartments listing, Cornell Off-Campus Housing Marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/auden-ithaca-7919
   title: Auden Ithaca listing, Cornell Off-Campus Housing Marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/whiton-hall-10220
   title: Whiton Hall listing, Cornell Off-Campus Housing Marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/west-campus/ravenwood
   title: Ravenwood, Travis Hyde Properties
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/3f1544f9-76c1-4375-91f6-b2400a52dbbf
   title: 119-121 Prospect St listing, PPM Homes
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/d9a5af7d-9b77-4e9a-83f0-a517e63e77cf
   title: 310-312 S Aurora St listing, PPM Homes
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4516-6-bedroom-house-for-27/28-school-year
   title: 6-bedroom house for the 27/28 school year (416 Hudson), IthacaRents
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom
   title: South Hill Kendall Ave 4-bedroom, IthacaRents
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.collegetownterrace.com/
   title: Collegetown Terrace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process
   title: Housing Search Process, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes
   title: Bus Services, Privileges and OmniRide Passes, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/
   title: Electricity cost in Ithaca, NY, EnergySage
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://safety.offcampusliving.cornell.edu/
   title: Safety Program for Off-Campus Living, Cornell and City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -102,9 +102,9 @@ Smaller landlords on the Ithaca College marketplace list cheaper big-house beds 
 | 210 Dryden Rd. | Room in shared suite | $695 to $810 | 2027-28 | 0.35 |
 | 202 Dryden Rd. | 10BR | $725 to $825 | 2027-28 | 0.35 |
 | Collegetown Plaza, 111 Dryden Rd. | 6BR | $775 to $875; $785 to $795 | 2027-28 | 0.36 |
-| 404-406 Oak Ave. | 6BR | $714 | Not printed | 0.41 |
-| 109 DeWitt Pl. (PJ Apartments) | 7BR; 6BR | $695; $795 | Not printed | 0.49 |
-| 111 DeWitt Pl. (PJ Apartments) | 8BR | $795 | Not printed | 0.49 |
+| 404-406 Oak Ave. | 6BR | $714 | Ask | 0.41 |
+| 109 DeWitt Pl. (PJ Apartments) | 7BR; 6BR | $695; $795 | Ask | 0.49 |
+| 111 DeWitt Pl. (PJ Apartments) | 8BR | $795 | Ask | 0.49 |
 
 Source: Ithaca Renting Collegetown page and Ithaca College Off-Campus Housing Marketplace, asking rents per month; distances are straight lines to Ho Plaza, not walking routes.
 
@@ -118,14 +118,14 @@ The best value on the list is a room at 130.5 University Ave. Goldenrod Real Est
 
 Travis Hyde's Ravenwood, at 516 University Ave., lists a private bedroom in a 5-bedroom, 2-bath apartment at $700 a month, with water and sewer included on that room-by-room listing ([Travis Hyde](https://www.travishyde.com/west-campus/ravenwood)). The same building's whole 3-bedrooms run $2,225 a month, which is $741.67 a bed.
 
-Auden Ithaca, 210 Lake St., advertises individual leasing, with a listed price range of $689 to $1,389 ([Cornell marketplace listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/auden-ithaca-7919)). The listing shows "Call For Price" for most floor plans and does not say which unit or basis the $689 applies to, so confirm it before you count on it. Its rent includes water, trash, cable and internet, and the building runs a private shuttle to campus.
+Auden Ithaca, 210 Lake St., advertises individual leasing, with a listed price range of $689 to $1,389 ([Cornell marketplace listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/auden-ithaca-7919)). Most floor plans are "Call For Price," so ask the leasing office which unit the $689 buys. Its rent includes water, trash, cable and internet, and the building runs a private shuttle to campus.
 
 | Building | Unit | Listed rent | Per bed | Miles to Ho Plaza |
 |---|---|---|---|---|
 | 412 University Ave. | 5BR | $3,500 | $700.00 | 0.43 |
 | Ravenwood, 516 University Ave. | Room in 5BR; 3BR | $700; $2,225 | $700.00; $741.67 | 0.44 |
 | 130.5 University Ave. (Goldenrod) | Room | $750 | $750.00 | 0.52 |
-| Auden Ithaca, 210 Lake St. | Price from (unit not stated) | $689 | Ask | 0.54 |
+| Auden Ithaca, 210 Lake St. | Individual leasing | From $689 | On request | 0.54 |
 | 414 E. Marshall St. | 3BR; 4BR | $2,250; $3,100 | $750.00; $775.00 | 0.56 |
 | 934 Stewart Ave. (Travis Hyde) | 3BR | $2,205 | $735.00 | 0.60 |
 | 408 N. Aurora St. | 5BR | $735 to $750 a bed | $735 to $750 | 0.62 |
@@ -133,28 +133,28 @@ Auden Ithaca, 210 Lake St., advertises individual leasing, with a listed price r
 | 406 Utica St., Apt. 2 | 3BR | $2,300 | $766.67 | 0.71 |
 | 431 N. Cayuga St., Apt. 2 | 3BR | $2,300 | $766.67 | 0.75 |
 
-Source: Ithaca College and Cornell off-campus housing marketplaces and Travis Hyde, asking rents per month, lease year not printed on most rows; per-bed figures are the listed rent divided by bedrooms.
+Source: Ithaca College and Cornell off-campus housing marketplaces and Travis Hyde, asking rents per month; per-bed figures are the listed rent divided by bedrooms.
 
 ## Is downtown cheaper than Collegetown for a bed under $800?
 
-Downtown has more cheap beds in mid-size units, and the price is a longer trip to campus. At Ithaca Renting, a bed in a standard 3-bedroom at the Old Cigar Factory, 108-114 E. State St., lists at $695 to $795 for 2026-27 ([Ithaca Renting downtown](https://ithacarenting.com/downtown/)). A 3-bedroom at 156 The Commons and a 5-bedroom at Cityview, 118 Prospect St., both list at $745 to $845. Those are 2026-27 and "available now" units; 2027-28 downtown prices are not yet posted. At that landlord, a downtown bed ran about 20% to 28% below a Collegetown bed of the same size ([Collegetown vs downtown dataset](/datasets/collegetown-vs-downtown-rent-per-bed-2026/)).
+Downtown has more cheap beds in mid-size units, and the price is a longer trip to campus. At Ithaca Renting, a bed in a standard 3-bedroom at the Old Cigar Factory, 108-114 E. State St., lists at $695 to $795 for 2026-27 ([Ithaca Renting downtown](https://ithacarenting.com/downtown/)). A 3-bedroom at 156 The Commons and a 5-bedroom at Cityview, 118 Prospect St., both list at $745 to $845. Those are 2026-27 and "available now" units. At that landlord, a downtown bed ran about 20% to 28% below a Collegetown bed of the same size ([Collegetown vs downtown dataset](/datasets/collegetown-vs-downtown-rent-per-bed-2026/)).
 
 Downtown houses carry the lowest prices on this list. PPM Homes lists 119-121 Prospect St., a 6-bedroom, 2-bath house, at $650 a room, with tenants paying utilities ([PPM Homes](https://www.ppmhomes.com/listings/detail/3f1544f9-76c1-4375-91f6-b2400a52dbbf)). PPM's 7-bedroom at 310-312 S. Aurora St. lists at $700 a room, also with utilities extra ([PPM Homes](https://www.ppmhomes.com/listings/detail/d9a5af7d-9b77-4e9a-83f0-a517e63e77cf)). A furnished 6-bedroom at 416 Hudson St. rents for $4,170 a month from Aug. 7, 2027, which is $695.00 a bed ($4,170 split six ways) ([IthacaRents](https://www.ithacarents.com/4516-6-bedroom-house-for-27/28-school-year)).
 
 | Building | Unit | Price per bed | Lease year | Miles to Ho Plaza |
 |---|---|---|---|---|
-| 119-121 Prospect St. (PPM Homes) | 6BR house | $650 | Not printed | 0.89 |
+| 119-121 Prospect St. (PPM Homes) | 6BR house | $650 | Ask | 0.89 |
 | 416 Hudson St. | 6BR house | $695 ($4,170 total) | 2027-28 | 0.86 |
 | Old Cigar Factory, 108-114 E. State St. | 3BR | $695 to $795 | 2026-27 | 0.86 |
-| 310-312 S. Aurora St. (PPM Homes) | 7BR house | $700 | Not printed | 0.82 |
-| 220 Pleasant St. | 6BR | $715 ($4,290 total) | Not printed | 0.91 |
-| Whiton Hall, 222 S. Aurora St. | Private room | From $730 | Not printed | 0.79 |
+| 310-312 S. Aurora St. (PPM Homes) | 7BR house | $700 | Ask | 0.82 |
+| 220 Pleasant St. | 6BR | $715 ($4,290 total) | Ask | 0.91 |
+| Whiton Hall, 222 S. Aurora St. | Private room | From $730 | Ask | 0.79 |
 | 156 The Commons | 3BR | $745 to $845 | 2026-27 | 0.83 |
 | Cityview, 118 Prospect St. | 5BR | $745 to $845 | 2026-27 | 0.89 |
 
 Source: Ithaca Renting downtown page, PPM Homes, IthacaRents, and the Ithaca College and Cornell marketplaces, asking rents per month; distances are straight lines to Ho Plaza.
 
-Whiton Hall is the downtown option closest to a dorm: private furnished rooms with a shared kitchen and baths on each floor, with heat, electricity and building Wi-Fi included ([Cornell marketplace listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/whiton-hall-10220)). Its listing prints a range of $730 to $1,200 without saying which rooms cost what.
+Whiton Hall is the downtown option closest to a dorm: private furnished rooms with a shared kitchen and baths on each floor, with heat, electricity and building Wi-Fi included ([Cornell marketplace listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/whiton-hall-10220)). Rooms run $730 to $1,200 a month on 12-month leases, with options to sublet, so ask which rooms carry the low price.
 
 South Hill adds one more: a furnished 4-bedroom at 174 Kendall Ave. rents for $2,600 a month, or $650 a person plus electricity and heat ($2,600 split four ways), on an 11-month lease from Aug. 1 to June 30, 2027-28 ([IthacaRents](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom)). It sits 1.35 miles in a straight line from Ho Plaza, measured from the address.
 
@@ -190,7 +190,7 @@ The rent per bed falls as the unit gets bigger, because a landlord spreads one k
 
 The catch is the lease. Cornell says most local leases bind housemates "jointly and severally," which means each tenant owes the whole house's rent and damages if someone else stops paying ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire)). In PPM's 7-bedroom on S. Aurora St., one housemate who leaves in March leaves that room's rent for the other six to cover, or $116.67 each. The rules on who pays, and how to protect yourself, are in [our guide to roommates and joint liability](/cornell/housing/cornell-off-campus-roommates-joint-liability/).
 
-Check the building before you check the price. The Cornell and City of Ithaca [Safety Program for Off-Campus Living](https://safety.offcampusliving.cornell.edu/) lets you look up whether a rental holds a current certificate, the city's safety inspection permit. Several of the cheapest houses on this page name no owner or manager on their listings, so read [our guide to Ithaca landlords and tenant reviews](/housing/how-to-check-an-ithaca-landlords-record/) before you send a deposit.
+Check the building before you check the price. The Cornell and City of Ithaca [Safety Program for Off-Campus Living](https://safety.offcampusliving.cornell.edu/) lets you look up whether a rental holds a current certificate, the city's safety inspection permit. Before you send a deposit, ask who owns and manages the house, and read [our guide to Ithaca landlords and tenant reviews](/housing/how-to-check-an-ithaca-landlords-record/).
 
 <!-- ad-break -->
 
@@ -208,7 +208,7 @@ The cheapest beds downtown and on South Hill trade rent for a bus ride. Register
 
 ## When do the under-$800 beds go?
 
-The big Collegetown shares go first, months before move-in. On Nov. 10, 2026, 14 of the 67 unit rows on Ithaca Renting's Collegetown page were already sold out for 2027-28, including its 8-bedroom at 105 Dryden Court and 14-bedroom at 214 Dryden Rd. ([Ithaca Renting](https://ithacarenting.com/collegetown/)). Downtown beds go later: with 2027-28 downtown prices not yet posted, a downtown 3- or 5-bedroom can be signed later in the year than a Collegetown 6-bedroom. Houses from smaller landlords post later too, with start dates from June to August 2027.
+The big Collegetown shares go first, months before move-in. On Nov. 10, 2026, 14 of the 67 unit rows on Ithaca Renting's Collegetown page were already sold out for 2027-28, including its 8-bedroom at 105 Dryden Court and 14-bedroom at 214 Dryden Rd. ([Ithaca Renting](https://ithacarenting.com/collegetown/)). Downtown beds go later: Ithaca Renting still lists most downtown units for 2026-27 or "available now" ([Ithaca Renting downtown](https://ithacarenting.com/downtown/)), so a downtown 3- or 5-bedroom can be signed later in the year than a Collegetown 6-bedroom. Houses from smaller landlords post later too, with start dates from June to August 2027.
 
 ```figure
 kind: timeline
@@ -227,13 +227,13 @@ Source: Ithaca Renting, Collegetown Terrace, the Ithaca College marketplace and 
 ## FAQ
 
 **What does Collegetown Terrace's starting rate cover?**
-Collegetown Terrace, 115 S. Quarry St., advertises "rates starting at $605" without saying for which unit or period ([Collegetown Terrace](https://www.collegetownterrace.com/)). Its marketplace listing prints a range from that figure to $2,265 with no per-bed basis. Ask which floor plan carries that price and whether it is per person before you count it.
+Collegetown Terrace, 115 S. Quarry St., advertises "rates starting at $605" and a rate lock for applicants who sign by Nov. 15, 2026 ([Collegetown Terrace](https://www.collegetownterrace.com/)). Ask which floor plan carries that price and whether it is per person before you count it.
 
 **Is a listed price per bed or per apartment?**
 Ithaca Renting and most room listings print a price per bed. Many house and apartment listings print the rent for the whole unit, such as $2,300 for a 3-bedroom. Divide by the number of bedrooms, which assumes one person per room and an even split, and confirm the basis with the landlord before you tell your housemates what each person owes.
 
 **Can a Cornell co-op beat these beds?**
-Yes. A double at Redbud, one of Cornell's eight university-owned co-ops, costs $6,974 for the 2026-27 academic year, which is $2,626 less than the $9,600 year above. Co-ops pick members house by house, starting in early November.
+Yes. A double at Red Bud Cooperative in Von Cramm costs $3,487 a semester, or $6,974 for the 2026-27 academic year, which is $2,626 less than the $9,600 year above ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Co-op rates vary by house and sometimes by room, so contact each co-op for its room rates.
 
 ## What to do next
 

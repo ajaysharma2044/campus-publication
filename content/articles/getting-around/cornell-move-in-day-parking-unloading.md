@@ -146,7 +146,7 @@ Register the plate at [MyParking.Cornell.edu](https://fcs.cornell.edu/department
 ```
 
 ```reader "If you need accessible parking or help"
-The accessible (AP) permit starts with Student Disability Services ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). To arrange accessible unloading, call the Housing and Residential Life Office at 607-255-5368 before the day ([Cornell Housing](https://scl.cornell.edu/residential-life/housing)). Uber and taxi drop-offs go to A Lot, so plan for the distance.
+The accessible (AP) permit starts with Student Disability Services ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). For housing questions, call the Housing and Residential Life Office at 607-255-5368 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing)). Uber and taxi drop-offs go to A Lot, so plan for the distance.
 ```
 
 ```reader "If you arrive in spring"

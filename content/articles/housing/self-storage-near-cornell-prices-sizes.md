@@ -20,34 +20,37 @@ tools: []
 sources:
 - url: https://www.boltstorage.com/self-storage/freeville-ny
   title: Bolt Storage, 1401 Dryden Rd, Freeville
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.boltstorage.com/self-storage/ithaca-ny
   title: Bolt Storage, 53 Pinckney Rd, Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.boltstorage.com/self-storage/lansing-ny
   title: Bolt Storage, 1101 Ridge Rd, Lansing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.storageseeker.com/self-storage/NY/dryden/storage-sense-ithaca/215442
   title: Storage Sense Ithaca, StorageSeeker
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.selfstorage.com/self-storage/new-york/ithaca/24-hour-access/
   title: 24-Hour Access Storage in Ithaca, SelfStorage.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.storagescholars.com/blog/college-storage-cost-calculator-pricing
   title: College storage cost calculator, Storage Scholars
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.storagescholars.com/cities-we-serve/ithaca-ny
   title: Storage Scholars in Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: http://www.bigredboxes.com/BRSS_Pricing
   title: BRSS storage pricing, Big Red Shipping and Storage
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://www.boltstorage.com/post/are-storage-units-month-to-month
+  title: Are storage units month to month?, Bolt Storage
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
   title: Storage and Shipping Options, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -63,13 +66,13 @@ A 5x5 self-storage unit near Cornell costs $84 a month at Bolt Storage's Dryden 
 
 ## What does self-storage near Cornell cost?
 
-Price depends on size, on whether the unit is climate controlled (kept at a steady temperature), and on whether it is drive-up (you park at the door and load straight in). The table lists what each facility posted in Nov. 2026 ([Bolt Storage](https://www.boltstorage.com/self-storage/freeville-ny)).
+Price depends on size, on whether the unit is climate controlled (kept at a steady temperature), and on whether it is drive-up (you park at the door and load straight in). The table lists each facility's prices in Nov. 2026 ([Bolt Storage](https://www.boltstorage.com/self-storage/freeville-ny)).
 
 | Facility | 5x5 | 10x10 | Other sizes and notes |
 |---|---|---|---|
 | Bolt Storage, 1401 Dryden Rd (Route 366) | $84 drive-up; $96 climate | $147 drive-up; $222 climate | 5x10 $125 drive-up, $150 climate; 24-hour gate; about 6 minutes from Cornell |
-| Bolt Storage, 53 Pinckney Rd | none posted | $128 | 5x8 or 5x10 $106; 10x20 $234; drive-up only; free lock |
-| Bolt Storage, 1101 Ridge Rd, Lansing | none posted | $122 | 5x10 $99; drive-up only |
+| Bolt Storage, 53 Pinckney Rd | None; smallest is 5x8 | $128 | 5x8 or 5x10 $106; 10x20 $234; drive-up only; free lock |
+| Bolt Storage, 1101 Ridge Rd, Lansing | None; smallest is 5x10 | $122 | 5x10 $99; drive-up only |
 | Storage Sense, 1395 Danby Rd | $89 deal, $112 regular | $190 deal | 5x10 $129 deal, $162 regular |
 
 Source note: Bolt Storage facility pages ([Dryden Road](https://www.boltstorage.com/self-storage/freeville-ny), [Pinckney Road](https://www.boltstorage.com/self-storage/ithaca-ny), [Ridge Road](https://www.boltstorage.com/self-storage/lansing-ny)); [StorageSeeker](https://www.storageseeker.com/self-storage/NY/dryden/storage-sense-ithaca/215442) for Storage Sense.
@@ -80,13 +83,13 @@ A 5x5 is 25 square feet (5 × 5). A 10x10 is 100 square feet, four times the flo
 
 ## How much does a summer of storage cost?
 
-Rent is month to month, and a summer is four months, May through August. A drive-up 5x5 costs $336 for the summer and a climate-controlled one costs $384, four months at the monthly rates in the table. Bolt's Dryden Road site asks for [10 days' notice before you move out](https://www.boltstorage.com/self-storage/freeville-ny), so give notice before you leave for fall.
+Rent is month to month, and a summer is four months, May through August. A drive-up 5x5 costs $336 for the summer and a climate-controlled one costs $384, four months at the monthly rates in the table. Bolt Storage asks for [10 days' notice before you move out](https://www.boltstorage.com/post/are-storage-units-month-to-month), so give notice before you leave for fall.
 
 Self-storage also needs transport. A pickup-truck rental costs [$30 to $60 a day](https://www.storagescholars.com/blog/college-storage-cost-calculator-pricing), and you need one trip in and one trip out. That adds $60 to $120, which puts a 5x5 at $396 to $456 for the summer. Big Red Shipping and Storage charges [$39 for a small box](http://www.bigredboxes.com/BRSS_Pricing) with pickup, storage and delivery included. Eleven small boxes cost $429, inside that range. So below about ten boxes a pickup service costs less, and above that the unit does. The [move-out options guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/) compares the pickup services in full.
 
 ## Which facility is closest, and what are the terms?
 
-Bolt Storage's Dryden Road site is the closest posted: about 6 minutes from Cornell, with a 24-hour gate, a free lock and month-to-month rent. It also requires insurance, either your own policy or a plan bought when you rent ([Bolt Storage](https://www.boltstorage.com/self-storage/freeville-ny)). The Pinckney Road and Lansing sites are drive-up only.
+Bolt Storage's Dryden Road and Pinckney Road sites are each about 6 minutes from Cornell ([Dryden Road](https://www.boltstorage.com/self-storage/freeville-ny), [Pinckney Road](https://www.boltstorage.com/self-storage/ithaca-ny)). Dryden Road has climate-controlled units, a 24-hour gate, a free lock and month-to-month rent. The Pinckney Road and Lansing sites are drive-up only.
 
 Call before you drive out.
 
@@ -100,13 +103,13 @@ Bolt Storage lets you [rent and pay online from abroad](https://www.boltstorage.
 
 ## When should you book?
 
-Cornell does not store belongings. The [housing license says](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027) storage space is not available. Residence halls closed at 2 p.m. on Sunday, May 17, 2026, and [items left behind were donated](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options). Pickup companies book up: [Storage Scholars](https://www.storagescholars.com/cities-we-serve/ithaca-ny) asks for summer bookings by early April. Self-storage units have no posted deadline, so reserve once you know your move-out date.
+Cornell does not store belongings. The [housing license says](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027) storage space is not available. Residence halls closed at 2 p.m. on Sunday, May 17, 2026, and [items left behind were donated](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options). Pickup companies book up: [Storage Scholars](https://www.storagescholars.com/cities-we-serve/ithaca-ny) asks for summer bookings by early April. Reserve a self-storage unit once you know your move-out date.
 
 If someone sublets your place furnished, your furniture can stay and you skip the unit. That route is in the [summer sublet guide](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/). For winter break, the same facilities work, and the [breaks guide](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/) covers who can stay in Cornell housing instead.
 
 ## What to do next
 
-Count your boxes and your large items. Under about ten boxes, price a pickup service first. Over ten, or with furniture, call Bolt's Dryden Road site and ask about the rent after the first month, the insurance plan and the notice period.
+Count your boxes and your large items. Under about ten boxes, price a pickup service first. Over ten, or with furniture, call Bolt's Dryden Road site and ask about the rent after the first month and whether you need insurance.
 
 ## Related guides
 

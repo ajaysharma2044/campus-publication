@@ -2,7 +2,7 @@
 title: 'Cornell and Ithaca parking tickets: fines and how to appeal'
 mode: answer
 dek: Cornell and the City of Ithaca issue separate tickets with separate fines, and you contest each one with the office that wrote it.
-meta: Ithaca parking ticket fines for Cornell lots and city streets, what late fees and impounds cost, and who to contact to appeal a ticket.
+meta: Ithaca parking ticket fines for Cornell lots and city streets, late fees, the $150 Cornell boot release fee, and who to contact to appeal a ticket.
 primary_query: ithaca parking ticket
 topic: getting-around
 school: cornell-university
@@ -45,6 +45,9 @@ sources:
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations
   title: Paying and Appealing Citations, Cornell Transportation and Delivery Services
   accessed: '2026-11-11'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations/citation-fee-schedule
+  title: Citation Fee Schedule, Cornell Transportation and Delivery Services
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -76,7 +79,7 @@ rows:
 
 ## How much are Cornell parking tickets?
 
-Cornell raised its fines on Sept. 1, 2023, the first increase since 2014 ([Cornell Transportation](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1)). Permit or payment violations are about 85% of all tickets. The amounts below are from that 2023 schedule, so confirm today's with TDS.
+Cornell raised its fines on Sept. 1, 2023, the first increase since 2014 ([Cornell Transportation](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1)). Permit or payment violations are about 85% of all tickets. Cornell's current [citation fee schedule](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations/citation-fee-schedule) lists the amounts below.
 
 | Violation | Cornell fine |
 |---|---|
@@ -90,7 +93,7 @@ Cornell raised its fines on Sept. 1, 2023, the first increase since 2014 ([Corne
 | Over the time limit | $35 |
 | Plate not visible | $10 |
 
-Source: [Cornell Daily Sun, Sept. 4, 2023](https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/).
+Sources: [Cornell citation fee schedule](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations/citation-fee-schedule); [Cornell Daily Sun, Sept. 4, 2023](https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/).
 
 Cornell enforces whenever the university is open. It pauses on official closed staff holidays until the next business day. No-parking, fire lane, reserved, service and accessible rules are never suspended ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)). Our [permit guide](/cornell/getting-around/cornell-student-parking-permit-cost-rules/) explains how to avoid the most common one, the no-permit ticket.
 
@@ -113,7 +116,7 @@ The city's fines vary by violation, and several rise with repeats within 18 mont
 | Handicap | $100, $150, $200 |
 | Abandoned vehicle | $25 |
 
-Source: [City of Ithaca](https://www.cityofithacany.gov/727/Parking-Regulations-Violations). A ticket not paid within 20 days adds a $20 penalty, and more than five unpaid tickets can mean impoundment. The city's 2027 budget plans to raise or add fines for many common violations, worth about $381,000 a year. City Manager Dominick Recckio called it a modernization ([Ithaca Voice](https://ithacavoice.org/2026/11/common-council-approves-2027-budget-city-will-remain-below-tax-cap/)). Check the current schedule before you plan around any amount.
+Source: [City of Ithaca](https://www.cityofithacany.gov/727/Parking-Regulations-Violations). A ticket not paid within 20 days adds a $20 penalty, and more than five unpaid tickets can mean impoundment. The city's 2027 budget plans to raise or add fines for many common violations, projected to bring in $381,000 in additional revenue. City Manager Dominick Recckio called it a modernization ([Ithaca Voice](https://ithacavoice.org/2026/11/common-council-approves-2027-budget-city-will-remain-below-tax-cap/)).
 
 ```reader "If you rent off campus"
 The city's tickets are the ones you will meet, because your street, meter and garage are all city property. Our [Collegetown parking guide](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/) lists the rates. See also the [off-campus renter guide](/cornell/getting-around/getting-around-ithaca-off-campus-renters/).

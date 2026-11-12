@@ -10,6 +10,16 @@ kind: start_here
 readers: [off-campus]
 brief: intel/getting-around/brief.md
 briefs: [intel/off-campus-housing/brief.md]
+sources:
+  - {url: "https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/", title: "OurBus moves Ithaca stop to South Cayuga Street, Finger Lakes 1", accessed: "2026-11-11"}
+  - {url: "https://www.cityofithacany.gov/727/Parking-Regulations-Violations", title: "City of Ithaca: Parking regulations and violations", accessed: "2026-11-11"}
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students", title: "Cornell Transportation: Student parking", accessed: "2026-11-11"}
+  - {url: "https://www.cityofithacany.gov/731/Permit-Issuance", title: "City of Ithaca: Residential parking permit issuance", accessed: "2026-11-11"}
+  - {url: "https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance", title: "Cornell Law School Tenants Advocacy: building issues and maintenance", accessed: "2026-11-11"}
+  - {url: "https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/", title: "Mehler: student tenants' rights shifting in your favor, Cornell Daily Sun", accessed: "2026-11-11"}
+  - {url: "https://www.nysenate.gov/legislation/laws/RPP/216", title: "NY Real Property Law 216: grounds for removal", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out", title: "Cornell Housing: moving in and out", accessed: "2026-11-11"}
+  - {url: "https://www.nysenate.gov/legislation/laws/GOB/7-108", title: "New York General Obligations Law 7-108, Security deposits", accessed: "2026-11-11"}
 ---
 
 You are a junior, senior or grad student on a 10- or 12-month lease in Collegetown, downtown, Fall Creek or West Hill, most likely ending July 31, and you are deciding whether to renew, move or leave Ithaca. Two sets of choices sit in front of you: the lease itself (renewal, rent increases, repairs, the deposit and moving out), and how you get to class and, if you keep a car, where it sleeps, since campus resident permits are not open to you. Each topic below has its own path; start with housing if a renewal offer or a repair is on your mind.
@@ -27,11 +37,11 @@ You are a junior, senior or grad student on a 10- or 12-month lease in Collegeto
 ## Dates to watch: Getting around
 
 - **Nov 9, 2026:** downtown stops move; TCAT's East Seneca stops are reshuffled ([FingerLakes1](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/)).
-- **Nov 1 to Apr 1:** the city's odd/even on-street parking season, when activated ([Ithaca code](https://ecode360.com/8395630)).
+- **Nov 1 to Apr 1:** the city's odd/even on-street parking season, enforced when needed, such as during a snow event ([City of Ithaca](https://www.cityofithacany.gov/727/Parking-Regulations-Violations)).
 - **Before any break:** move the car off the street.
 - **Mar 31:** last day for a prorated Cornell permit refund ([Cornell parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)).
 - **July 31:** the city residential parking permit expires; renew for the new lease year ([City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance)).
-- **Early Aug (Tue Aug 4, 2026, 9 a.m.):** Cornell student permit sales open; commuter permits prorate daily from Aug 16 ([Cornell](https://fcs.cornell.edu/node/17809)).
+- **Aug 16:** Cornell student commuter permit prices start prorating daily ([Cornell parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)).
 
 ## Read in this order: Housing
 
@@ -57,7 +67,7 @@ You are a junior, senior or grad student on a 10- or 12-month lease in Collegeto
 ## Dates to watch: Housing
 
 - **Sept 15:** Ithaca's heat season starts (to May 31) ([Cornell Law tenants' advocacy](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)).
-- **About December:** the 120-day rule's sponsor put the renewal decision for August leases here (his example) ([Cornell Sun](https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/)).
+- **About December:** Common Council member Patrick Mehler, writing in 2022, put the renewal decision for August leases here under the 120-day rule ([Cornell Sun](https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/)).
 - **30 to 90 days before your lease ends:** the Good Cause renewal notice window ([NY RPL 216](https://www.nysenate.gov/legislation/laws/RPP/216)).
 - **Two weeks before move-out:** schedule the final inspection and change your address ([Cornell](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out)).
 - **July 31:** most leases end; City residential parking permits expire ([City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance)).

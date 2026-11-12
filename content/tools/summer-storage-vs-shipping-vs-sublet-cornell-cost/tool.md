@@ -9,15 +9,15 @@ kind: tool
 readers: [off-campus, away-semester, international, low-budget, upper-year-no-car]
 brief: intel/off-campus-housing/brief.md
 sources:
-  - {url: "http://www.bigredboxes.com/BRSS_Pricing", title: "Big Red Shipping & Storage: Pricing (no year printed)", accessed: "2026-11-10"}
-  - {url: "https://www.boltstorage.com/self-storage/freeville-ny", title: "Bolt Storage: 1401 Dryden Road unit prices", accessed: "2026-11-10"}
-  - {url: "https://ithacarenting.com/collegetown/", title: "Ithaca Renting: Collegetown properties, prices and sublet rules", accessed: "2026-11-10"}
-  - {url: "https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease", title: "Cornell Law School Tenants Advocacy Program: Breaking a lease", accessed: "2026-11-10"}
-  - {url: "https://www.nysenate.gov/legislation/laws/RPP/226-B", title: "New York State Senate: Real Property Law section 226-B, right to sublease or assign", accessed: "2026-11-10"}
-  - {url: "https://drydensouth.com/availability/", title: "Dryden South: Availability", accessed: "2026-11-10"}
-  - {url: "https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university", title: "OurBus: OurBus for Cornell University", accessed: "2026-11-10"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options", title: "Cornell Student & Campus Life: Storage and shipping options", accessed: "2026-11-10"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028", title: "Cornell Student & Campus Life: Academic year housing license 2027-2028", accessed: "2026-11-10"}
+  - {url: "http://www.bigredboxes.com/BRSS_Pricing", title: "Big Red Shipping & Storage: Pricing", accessed: "2026-11-11"}
+  - {url: "https://www.boltstorage.com/self-storage/freeville-ny", title: "Bolt Storage: 1401 Dryden Road unit prices", accessed: "2026-11-11"}
+  - {url: "https://ithacarenting.com/collegetown/", title: "Ithaca Renting: Collegetown properties, prices and sublet rules", accessed: "2026-11-11"}
+  - {url: "https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease", title: "Cornell Law School Tenants Advocacy Program: Breaking a lease", accessed: "2026-11-11"}
+  - {url: "https://www.nysenate.gov/legislation/laws/RPP/226-B", title: "New York State Senate: Real Property Law section 226-B, right to sublease or assign", accessed: "2026-11-11"}
+  - {url: "https://drydensouth.com/availability/", title: "Dryden South: Availability", accessed: "2026-11-11"}
+  - {url: "https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university", title: "OurBus: OurBus for Cornell University", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options", title: "Cornell Student & Campus Life: Storage and shipping options", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028", title: "Cornell Student & Campus Life: Academic year housing license 2027-2028", accessed: "2026-11-11"}
 redirect_from:
   - /cornell/housing/summer-storage-vs-shipping-vs-sublet-cornell-cost/
   - /housing/summer-storage-vs-shipping-vs-sublet-cornell-cost/
@@ -57,10 +57,10 @@ Shipping abroad costs the most once BRSS adds its international and customs fees
 - **Months away.** The default of 3 is June, July and August. BRSS prices a 3 to 4 month term.
 - **Your share of rent.** The default, $1,246.25 a month, is the median per-bed price of an Ithaca Renting Collegetown 4-bedroom for 2027-28.
 - **Sublet rent.** What your subtenant would pay you each month. No typical Ithaca summer sublet price is published, so this starts blank. Use a real offer or listings like yours.
-- **Sublet fee.** Defaults to $20. Ithaca Renting's Collegetown page lists both a $15 fee and a $20 fee, so the tool uses the higher one.
+- **Sublet fee.** Defaults to $20. Ithaca Renting quotes both a $15 and a $20 fee for Collegetown, so the tool uses the higher one.
 - **Your things.** Boxes and loose items in BRSS's six price tiers. The default is six large boxes and one mini fridge.
 - **Self-storage price.** Defaults to $84 a month, a 5x5 drive-up unit at Bolt Storage, 1401 Dryden Road.
-- **Shipping quote.** Starts blank. BRSS ships by FedEx at rates set at pickup and posts no shipping prices, so get a quote and enter it.
+- **Shipping quote.** Starts blank. BRSS ships by FedEx at rates set at pickup, so ask BRSS or FedEx for a quote and enter it.
 
 ## The numbers and the math
 
@@ -89,16 +89,16 @@ Sources: Ithaca Renting Collegetown per-bed median and sublet fee; BRSS price li
 
 | Number | Value | Applies to | Source |
 |---|---|---|---|
-| BRSS small box (0 to 2 cu ft) | $39 | 3 to 4 month term, pickup, storage and delivery included; no year printed | [BRSS pricing](http://www.bigredboxes.com/BRSS_Pricing) |
+| BRSS small box (0 to 2 cu ft) | $39 | 3 to 4 month term, pickup, storage and delivery included | [BRSS pricing](http://www.bigredboxes.com/BRSS_Pricing) |
 | BRSS large box (2 to 4 cu ft) | $49 | Same | [BRSS pricing](http://www.bigredboxes.com/BRSS_Pricing) |
 | BRSS small item (carry-on, microwave, nightstand) | $49 | Same | [BRSS pricing](http://www.bigredboxes.com/BRSS_Pricing) |
 | BRSS medium item (mini fridge, large suitcase, desk chair, TV) | $75 | Same | [BRSS pricing](http://www.bigredboxes.com/BRSS_Pricing) |
 | BRSS large item (rug, instrument, skis) | $100 | Same | [BRSS pricing](http://www.bigredboxes.com/BRSS_Pricing) |
 | BRSS giant item (dresser, mattress, desk, couch) | $150 | Same | [BRSS pricing](http://www.bigredboxes.com/BRSS_Pricing) |
-| BRSS shipping | FedEx rates set at pickup; extra fees for international shipments | No amounts posted | [BRSS pricing](http://www.bigredboxes.com/BRSS_Pricing) |
-| Bolt Storage 5x5 drive-up unit | $84 a month, month to month, 10 days' notice to move out, insurance required | 1401 Dryden Road, Freeville; checked Nov. 10, 2026 | [Bolt Storage](https://www.boltstorage.com/self-storage/freeville-ny) |
+| BRSS shipping | FedEx rates set at pickup; extra fees for international shipments |  | [BRSS pricing](http://www.bigredboxes.com/BRSS_Pricing) |
+| Bolt Storage 5x5 drive-up unit | $84 a month, month to month, 10 days' notice to move out, insurance required | 1401 Dryden Road, Freeville; as of Nov. 10, 2026 | [Bolt Storage](https://www.boltstorage.com/self-storage/freeville-ny) |
 | Ithaca Renting Collegetown 4-bedroom, per bed | $1,246.25 median | 2027-28 | [Ithaca Renting Collegetown](https://ithacarenting.com/collegetown/) |
-| Ithaca Renting Collegetown sublet fee | $15 in one place, $20 in another, on the same page | Checked Nov. 10, 2026 | [Ithaca Renting Collegetown](https://ithacarenting.com/collegetown/) |
+| Ithaca Renting Collegetown sublet fee | $15 or $20; Ithaca Renting quotes both | As of Nov. 10, 2026 | [Ithaca Renting Collegetown](https://ithacarenting.com/collegetown/) |
 | Sublet fees in general | Allowed only if the lease lists one and it is reasonable; credit or background check fees allowed | Cornell Law guide, updated Feb. 2026 | [Cornell Law School](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease) |
 | Sublet liability | You stay responsible for the lease after a sublet | New York | [RPL 226-b](https://www.nysenate.gov/legislation/laws/RPP/226-B) |
 
@@ -109,10 +109,10 @@ For the worked example, BRSS storage is $369, so a one-way shipping quote must c
 ## Assumptions and what the tool does not cover
 
 - No typical summer sublet rent for Ithaca is published, so the tool never assumes one. A sublet that fills only some of the months lowers your income; enter the average you expect.
-- BRSS charges extra for overweight, oversized or fragile items, late reschedules, missed appointments and non-BRSS boxes. It posts no amounts, so the tool leaves them out.
+- BRSS charges extra for overweight, oversized or fragile items, late reschedules, missed appointments and non-BRSS boxes. Ask BRSS for those amounts; the tool leaves them out.
 - The self-storage figure leaves out the cost of getting there. Bolt's 1401 Dryden Road site is about 6 minutes from Cornell by car, by Bolt's estimate. It also leaves out the insurance Bolt requires.
 - Some landlords make you keep the electricity on while you sublet or store things in the apartment. Ithaca Renting does, at least enough to keep the fridge running, and it charges its sublet fee if anyone uses the apartment over the summer, even for free ([Ithaca Renting](https://ithacarenting.com/collegetown/)). The electricity bill is not counted.
-- Storage Squad and Uncle Marty's are not in the tool, because their price tiers don't line up with BRSS's. The guide works through both.
+- Storage Squad and Uncle Marty's are not in the tool, because their price tiers don't line up with BRSS's. The [move-out storage and shipping guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/) works through both.
 
 ## How to read the result
 

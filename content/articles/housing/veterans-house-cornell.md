@@ -7,7 +7,7 @@ primary_query: Veterans House Cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 99
 rewrites: ''
 readers:
@@ -19,43 +19,46 @@ tools: []
 sources:
 - url: https://www.cornellsun.com/article/2021/09/new-program-house-opens-creating-community-among-student-veterans
   title: New Program House Opens, Creating Community Among Student Veterans, The Cornell Daily Sun, Sept. 19, 2021
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college
   title: Program house resident counts, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house
   title: Program house room layouts, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/112-edgemoor
   title: 112 Edgemoor, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process
   title: Current Undergraduate Application Process (2027-2028), Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans 2026-2027, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/program-houses
   title: Program Houses (new undergraduates), Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house
+  title: Veterans House, Cornell Student & Campus Life
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -67,13 +70,13 @@ images: []
 - The house runs year-round, with window air conditioners on request.
 ```
 
-Veterans House is a Cornell program house for student veterans, with 26 residents who each have a super single room. It opened in fall 2021 in a former fraternity house at 625 University Ave. It runs all year, so you can stay between semesters (Cornell Housing).
+Veterans House is a Cornell program house built around student veterans, with 26 residents who each have a super single room. It opened in fall 2021 in a former fraternity house at 625 University Ave. It runs all year, so you can stay between semesters (Cornell Housing).
 
 ## What is Veterans House?
 
 A program house is a themed residence hall built around a shared interest or way of living. Cornell lists Veterans House at 26 residents, including one resident advisor ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house)). The Cornell Daily Sun reported that it opened in fall 2021 at 625 University Ave., the former Alpha Tau Omega house, with 26 undergraduates, 20 of them student veterans ([Cornell Daily Sun](https://www.cornellsun.com/article/2021/09/new-program-house-opens-creating-community-among-student-veterans)).
 
-Every room is a super single, and window air conditioners are available on request ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)). A super single is the highest-priced single on Cornell's rate table.
+Every room is a super single, and window air conditioners are available on request at no cost ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house)). A super single is the highest-priced single on Cornell's rate table.
 
 ```figure
 kind: cost_table
@@ -114,7 +117,7 @@ Cornell's pages list Veterans House with the Language House and the Sober Living
 
 Rising sophomores apply in spring. The 2027-28 application closes April 4, 2027 at 11:59 p.m., and Priority Program House Selection is April 12 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
-Cornell's pages do not list who qualifies for the house or what the extra application asks. Ask housing@cornell.edu before the deadline.
+The house is open to transfer, upper-level and graduate students, and you do not need past or future military service to live there. It is built around student veterans and also houses ROTC students, students with military-affiliated family members and students in fields such as government, policy, law, history and political science ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house)). For questions about the extra application, email veterancommunity@cornell.edu before the deadline.
 
 ```reader "If you're a veteran deciding whether you must live on campus"
 Cornell exempts students who served in active military, naval or air service and left under conditions other than dishonorable. ROTC participation does not count. See the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) for how to claim it, and for the other exemptions ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).

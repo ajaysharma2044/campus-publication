@@ -7,7 +7,7 @@ primary_query: cornell off campus meal plan
 topic: money
 school: cornell-university
 type: decision
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 232
 queue_id: q-money-0009
 rewrites: content/articles/money/cornell-off-campus-meal-plan-or-cook-yourself-cost.md
@@ -22,49 +22,49 @@ tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: 'Cornell Dining: Undergraduate meal plans, 2026-2027'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates
   title: 'Cornell Dining: Meal plans and rates, with 2026-2027 dining room prices'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms
   title: 'Cornell Dining: Deadlines and terms'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027
   title: 'Cornell Dining: Terms and conditions, 2026-2027'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs
   title: 'Cornell Dining: Meal plan FAQs'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental
   title: 'Cornell Dining: Bear Supplemental'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks
   title: 'Cornell Dining: City Bucks'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks/city-bucks-faqs
   title: 'Cornell Dining: City Bucks FAQs'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/about-dining/food-security
   title: 'Cornell Dining: Food security'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf
   title: 'USDA: Cost of Food at Home at Three Levels, September 2026'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fns-prod.azureedge.us/sites/default/files/resource-files/CostofFoodSep2026Thrifty.pdf
   title: 'USDA: Thrifty Food Plan, U.S. Average, September 2026'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.wegmans.com/stores/ithaca-ny
   title: 'Wegmans: Ithaca store'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2022/11/30/lack-of-nearby-grocery-stores-leave-students-with-limited-options/
   title: 'The Cornell Daily Sun: Lack of nearby grocery stores leave students with limited options, Nov. 30, 2022'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2023/05/03/culinary-autonomy-cooking-for-yourself
   title: 'The Cornell Daily Sun: Culinary autonomy, May 3, 2023'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2023/09/27/obaseki-a-brokies-guide-to-having-no-meal-plan/
   title: 'The Cornell Daily Sun: A broke student''s guide to having no meal plan, Sept. 27, 2023'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Collegetown Wine & Spririts, Ithaca New York
@@ -108,9 +108,9 @@ rows:
 
 Big Red Bucks (BRBs) are dollars on your Cornell ID for Cornell Dining locations, worth $1 each. Per semester the prices are $3,075, $2,489, $912.30, $674 and $500. Bear Choice and Bear Basic are open to all off-campus students. The last three are debit plans, for students not in on-campus housing and not on another plan.
 
-Bear Traditional is listed for upper-level and transfer students, and the page does not say whether off-campus students count. Ask Cornell Dining at dining@cornell.edu before you count on it. For the head-to-head of the three capped plans, read [Bear Traditional vs Bear Choice vs Bear Basic](/cornell/dining/bear-traditional-vs-bear-choice-vs-bear-basic-cornell/).
+Bear Traditional, $3,528 per semester for up to 14 meals a week, is the plan Cornell lets transfer students and juniors living on campus step down to from Unlimited ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms)). If you want it while renting off campus, ask Cornell Dining at dining@cornell.edu. For the head-to-head of the three capped plans, read [Bear Traditional vs Bear Choice vs Bear Basic](/cornell/dining/bear-traditional-vs-bear-choice-vs-bear-basic-cornell/).
 
-Two plans fit narrow groups. The [Collegetown Meal Plan](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans), $3,528 per semester with $436 in City Bucks, is for residents of 112 Edgemoor, Cascadilla Hall, Schuyler House, Sheldon Court, 301 College Ave and 104 Mary Ann Wood Drive. The SFL Supplemental plan is for members of recognized fraternities and sororities. The plans page lists it at $2,167.51 per semester for 127 meals, while the separate [Bear Supplemental page](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental) shows a different price, so confirm the rate with Cornell Dining.
+Two plans fit narrow groups. The [Collegetown Meal Plan](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans), $3,528 per semester with $436 in City Bucks, is for residents of 112 Edgemoor, Cascadilla Hall, Schuyler House, Sheldon Court, 301 College Ave and 104 Mary Ann Wood Drive. The SFL Supplemental plan, 127 meals and $500 in BRBs a semester, is open to every member of a recognized fraternity or sorority living off campus. Cornell Dining quotes it at $2,088.77 to $2,167.51 per semester ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans), [Bear Supplemental](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental)), so confirm the rate when you enroll.
 
 ## How much does cooking cost?
 
@@ -169,13 +169,13 @@ Bear Choice or Bear Basic cost less per swipe than a half-used Unlimited, and Be
 
 [City Bucks](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks) is a declining balance on your Cornell ID for food businesses off campus. Every registered student has an account, and you add money at get.cbord.com/cornell. It carries New York sales tax, and your balance rolls from semester to semester while you are registered ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks/city-bucks-faqs)).
 
-Cornell's list names 12 businesses, among them 7-Eleven, D.P. Dough, Five Guys, Papa John's, Tops and P&C Fresh. Wegmans and Trader Joe's are not on it ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks)). Cornell's City Bucks pages list no bonus or discount for deposits, so City Bucks is a convenience and a way for a parent to pay for food, not a way to save.
+Cornell's list names 12 businesses, among them 7-Eleven, D.P. Dough, Five Guys, Papa John's, Tops and P&C Fresh. Wegmans and Trader Joe's are not on it ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks)). Cornell offers no bonus or discount on City Bucks deposits, so City Bucks is a convenience and a way for a parent to pay for food, not a way to save.
 
 ## What rules cost students money?
 
 You can sign up for a plan or upgrade at any time ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)). Reductions close on set dates, and the last day to reduce for spring is Feb. 3, 2027 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms)). First-year students cannot reduce or cancel ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)).
 
-BRBs expire. The undergraduate plans page says May 27, 2027, and the deadlines page says May 31, 2027, so spend them by the earlier date ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). If you will not attend in spring, tell the Dining Contracts Office by Jan. 6, 2027, to avoid spring charges.
+BRBs expire. Cornell Dining gives May 27, 2027 and May 31, 2027 as the spring cutoff, so spend them by May 27 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans), [deadlines](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms)). If you will not attend in spring, tell the Dining Contracts Office by Jan. 6, 2027, to avoid spring charges ([Cornell Dining terms](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027)).
 
 ## FAQ
 

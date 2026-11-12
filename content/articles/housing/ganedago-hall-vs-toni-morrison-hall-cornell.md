@@ -20,7 +20,7 @@ tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing
   title: First-year undergraduate campus housing, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations
   title: Residence hall configurations, Cornell Student and Campus Life
   accessed: '2026-11-10'
@@ -122,7 +122,7 @@ Toni Morrison. Morrison Dining, one of Cornell's ten residential dining rooms, a
 
 ## Who lives in each?
 
-Both halls appear on Cornell's first-year hall list. Cornell also lists Ganędagǫ: and Toni Morrison among the North Campus upper-level halls, alongside Balch, Clara Dickson's north wing and the Townhouse Apartments ([Cornell upper-level housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)). First-years do not choose, because their halls come from random auto-allocation. Toni Morrison also hosts Language House, an upper-level community of more than 50 residents in suites that offers Spanish, French, Mandarin, Korean and ASL in 2026-27 ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house)). Our [first-year start page](/start/first-year/) covers how assignment works.
+Neither hall is on Cornell's [first-year hall list](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing). Cornell lists Ganędagǫ: and Toni Morrison among the North Campus upper-level halls, alongside Balch, Clara Dickson's north wing and the Townhouse Apartments ([Cornell upper-level housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)). Toni Morrison also hosts Language House, an upper-level community of more than 50 residents in suites that offers Spanish, French, Mandarin, Korean and ASL in 2026-27 ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house)). Our [first-year start page](/start/first-year/) covers how assignment works.
 
 ## What is it like to get in and out of the building?
 
@@ -135,11 +135,11 @@ For trips out, the hall sits near Jessup Road, where several buses stop. OurBus 
 Both halls are on the winter break list for 2026-27 and 2027-28. A week costs $125 and the full break costs $500, and applications run Oct. 1 to Dec. 1 ([Cornell winter break housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)). See the [staying in Ithaca over breaks guide](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/) for food and travel.
 
 ```reader "If you're a first-year"
-You cannot request either hall. If you land in one, expect a suite and air conditioning; if you do not, most older North Campus halls have neither.
+Neither hall is on Cornell's first-year hall list; Cornell lists both as North Campus upper-level halls ([Cornell upper-level housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)).
 ```
 
 ```reader "If you're a parent"
-Both halls cost the same as any other residence hall by room type, and the same meal plan rules apply. A double is $13,744 for 2026-27 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
+Cornell prices rooms by room type. A double is $13,744 for 2026-27 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 ```
 
 ## What to do next

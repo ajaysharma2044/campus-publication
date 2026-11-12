@@ -5,7 +5,7 @@ primary_query: cornell grad student stipend cost of living Ithaca enough
 topic: money
 school: cornell-university
 type: scenario
-updated: 2026-11-07
+updated: 2026-11-11
 queue_id: q-money-0015
 sources:
   - {url: "https://gradschool.cornell.edu/financial-support/stipend-rates/", title: "Stipend Rates, Cornell Graduate School", accessed: "2026-11-07"}
@@ -50,7 +50,7 @@ Two things are not obviously "included". The summer stipend is not guaranteed: t
 
 ## Rent decides everything
 
-Rent is where the budget breaks. Cornell's graduate housing at Hasbrouck is on a 12-month contract, and the 2026-27 rates per month on the [housing rates page](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) are below. Cornell says housing rates include gas, electricity, garbage pickup and internet up to 200 GB a month. For the market there are two sources that disagree. One [Zumper snapshot of October 2026](https://www.zumper.com/rent-research/near-cornell-university-ny) shows a one-bedroom averaging $1,695 and a studio $1,725; the studio is above the one-bedroom, which points to a thin sample, and the page also mentions Trumansburg, so read it as a rough guide, not a quote. [RentCafe's Collegetown figures as of October 30, 2026](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/) are higher: studio $2,006, one-bedroom $2,342, two-bedroom $3,414. Collegetown is the priciest walkable area, so expect cheaper listings farther out (see the [neighborhood comparison](/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/)).
+Rent is where the budget breaks. Cornell's graduate housing at Hasbrouck is on a 12-month contract, and the 2026-27 rates per month on the [housing rates page](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) are below. Cornell says housing rates include gas, electricity, garbage pickup and internet up to 200 GB a month. For the market there are two sources that disagree. One [Zumper snapshot of October 2026](https://www.zumper.com/rent-research/near-cornell-university-ny) shows a one-bedroom averaging $1,695 and a studio $1,725; the studio is above the one-bedroom, which points to a thin sample, so read it as a rough guide, not a quote. [RentCafe's Collegetown figures as of October 30, 2026](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/) are higher: studio $2,006, one-bedroom $2,342, two-bedroom $3,414. Collegetown is the priciest walkable area, so expect cheaper listings farther out (see the [neighborhood comparison](/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/)).
 
 | Option | Monthly rent | Per year | Share of $48,912 | Left per month (before tax) |
 |---|---|---|---|---|
@@ -75,11 +75,11 @@ rows:
 
 ## What is left after rent
 
-Rent is not the only bill. Cornell publishes no graduate-wide breakdown of food and other costs that I could find, so this is a rough estimate built from the closest 2026-27 Cornell figures. The [Johnson MBA budget](https://business.cornell.edu/admissions/graduate/mba/tuition-financing/) lists meals at $5,768, transportation at $3,754 and miscellaneous at $4,196 for the fall/spring term, and it does not say how many months that covers. As a cross-check, Cornell Global Learning gives international graduate students a [living-expense estimate of $37,418 for 2026-27, or $3,118 a month](https://international.globallearning.cornell.edu/life-cornell/tuition-and-living-expenses).
+Rent is not the only bill. Cornell publishes no graduate-wide breakdown of food and other costs, so this is a rough estimate built from the closest 2026-27 Cornell figures. The [Johnson MBA budget](https://business.cornell.edu/admissions/graduate/mba/tuition-financing/) lists meals at $5,768, transportation at $3,754 and miscellaneous at $4,196 for the fall/spring term. As a cross-check, Cornell Global Learning gives international graduate students a [living-expense estimate of $37,418 for 2026-27, or $3,118 a month](https://international.globallearning.cornell.edu/life-cornell/tuition-and-living-expenses).
 
 | Item (estimate) | Basis | Rough monthly |
 |---|---|---|
-| Groceries | $5,768 over 12 months, or 9 months if the term only | about $480 to $640 |
+| Groceries | $5,768 spread over 12 or 9 months | about $480 to $640 |
 | Phone and everything else | $4,196 miscellaneous over 12 or 9 months | about $350 to $470 |
 | Transport | Free if you use a bus pass (below); the $3,754 MBA line likely assumes more | $0 to a few hundred |
 
@@ -91,9 +91,9 @@ If your program funds you only for the nine-month year, the same 12-month rent i
 
 ## Costs the stipend rate hides, and costs it avoids
 
-- **Union dues.** The Graduate School's page on union payments says the union's website states dues are [1.44 percent of a graduate student worker's stipend](https://gradschool.cornell.edu/about/union-representation/union-dues-fees-or-charity-payments-know-your-options). On the 2026-27 minimum, $48,912 x 1.44% is about $704 a year, or about $59 a month (our arithmetic). The page says the university deducts from payroll only if you sign an authorization form; otherwise you can pay the union directly. A challenge to the union is pending at the National Labor Relations Board, [the Sun reported in March 2026](https://www.cornellsun.com/article/2026/03/graduate-student-asks-nlrb-to-question-graduate-student-union-s-legality), with no ruling reported.
+- **Union dues.** The Graduate School's page on union payments says the union's website states dues are [1.44 percent of a graduate student worker's stipend](https://gradschool.cornell.edu/about/union-representation/union-dues-fees-or-charity-payments-know-your-options). On the 2026-27 minimum, $48,912 x 1.44% is about $704 a year, or about $59 a month (our arithmetic). The page says the university deducts from payroll only if you sign an authorization form; otherwise you can pay the union directly. A challenge to the union is pending at the National Labor Relations Board, [the Sun reported in March 2026](https://www.cornellsun.com/article/2026/03/graduate-student-asks-nlrb-to-question-graduate-student-union-s-legality).
 - **Charity option.** The same page says students with a sincerely held religious, moral or ethical objection can [make a monthly charitable contribution equal to union dues](https://gradschool.cornell.edu/about/union-representation/union-dues-fees-or-charity-payments-know-your-options) instead. It lists the American Heart Association, the American Cancer Society and the United Way as eligible charities.
-- **Bus.** The Graduate School's union page says [graduate student workers in Ithaca will receive free TCAT bus passes](https://www.gradschool.cornell.edu/about/union-representation), and a September 2025 message there says doctoral students are eligible for a TCAT OmniRide pass for all years of study. You request it by emailing transportation@cornell.edu. The page does not list further conditions, so confirm yours with Transportation Services.
+- **Bus.** The Graduate School's union page says [graduate student workers in Ithaca will receive free TCAT bus passes](https://www.gradschool.cornell.edu/about/union-representation), and a September 2025 message there says doctoral students are eligible for a TCAT OmniRide pass for all years of study. You request it by emailing transportation@cornell.edu; confirm your eligibility with Transportation Services.
 - **Dental, vision and fitness.** The same page describes a [$544 benefits adjustment](https://www.gradschool.cornell.edu/about/union-representation) in the Ithaca minimum stipend for fall 2025 and fall 2026, covering dental and vision insurance costs and access to Cornell Fitness Centers. It is framed as applying to graduate student workers, not fellows, so ask your department what your appointment gets.
 - **Dependents.** A partner or child on the SHP adds the $4,092 per person figure above, and a one-income household is a very different budget from the single-person one in this article.
 

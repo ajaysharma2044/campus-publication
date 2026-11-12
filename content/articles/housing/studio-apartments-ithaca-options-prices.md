@@ -7,7 +7,7 @@ primary_query: studio apartments ithaca near cornell
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 151
 rewrites: ''
 readers:
@@ -21,79 +21,85 @@ tools:
 sources:
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown rentals, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/downtown/
   title: Downtown rentals, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=4
   title: Collegetown Center, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=5
   title: Collegetown Court, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=1
   title: Collegetown Plaza, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=10
   title: Commons Studios, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=2
   title: Colonial Building, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961
   title: Dryden South listing, Cornell off-campus housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/college-town/407%20college%20ave
   title: 407 College Ave, Travis Hyde Properties
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/downtown-ithacaf4ba8d70/carey%20building
   title: Carey Building, Travis Hyde Properties
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/availability
   title: Availability, Travis Hyde Properties
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx
   title: Apartment search, CSP Management
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampushousing.ithaca.edu/listing
   title: Off-campus housing listings, Ithaca off-campus housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/villager-apartments-100016
   title: Villager Apartments listing, Cornell off-campus housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-pinnacle-237571
   title: The Pinnacle listing, Cornell off-campus housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-aurora-at-cayuga-park-236703
   title: The Aurora at Cayuga Park listing, Cornell off-campus housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://citycentreithaca.com/
   title: City Centre Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacavoice.org/2026/07/cornell-collegetown-construction/
   title: Collegetown construction, Ithaca Voice
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148
   title: Three new developments offer different answers to Ithaca's housing needs, Tompkins Weekly
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://buildwelliver.com/projects/integrated-acquisition-development-corp-iad-catherine-commons-210-college-avenue
   title: Catherine Commons, Welliver
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.collegetownterrace.com/
   title: Collegetown Terrace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing rates, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
   title: Graduate and Professional Student Campus Housing, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue
   title: 301 College Avenue, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/238-A
   title: Real Property Law 238-a, NY Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://citycentreithaca.com/floorplans/
+  title: Floor plans, City Centre Ithaca
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
+  title: Ithaca Neighborhoods, Cornell Student and Campus Life
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -108,7 +114,7 @@ images: []
 A studio in a managed building near Cornell costs less downtown than in Collegetown, per [Ithaca Renting's median asking rents](https://ithacarenting.com/collegetown/). Older buildings on the edges list studios for less still, and the newest towers charge $2,595 and up.
 
 ```reader "If you're a grad student"
-Cornell's own Hasbrouck Apartments price studios at [$1,355 a month](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) on a 12-month contract, below every Collegetown median in this guide. Maplewood, also Cornell graduate housing, lists a studio-to-4-bedroom range of $1,075 to $1,330 with no per-bed or per-unit basis printed. The [grad housing guide](/cornell/housing/off-campus-housing-cornell-grad-students/) covers both.
+Cornell's own Hasbrouck Apartments price studios at [$1,355 a month](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) on a 12-month contract, below every Collegetown median in this guide. Maplewood, also Cornell graduate housing, lists a studio-to-4-bedroom range of $1,075 to $1,330; ask Cornell whether a quoted rate is per bed or per unit. The [grad housing guide](/cornell/housing/off-campus-housing-cornell-grad-students/) covers both.
 ```
 
 ```reader "If you're a visiting scholar or postdoc"
@@ -132,7 +138,7 @@ The median across seven priced Ithaca Renting studio rows is $1,765 a month, or 
 
 Property pages: [Court](https://ithacarenting.com/property-details/?pid=5), [Center](https://ithacarenting.com/property-details/?pid=4) and [Plaza](https://ithacarenting.com/property-details/?pid=1).
 
-**407 College Ave.** [Travis Hyde Properties](https://www.travishyde.com/college-town/407%20college%20ave) lists the building with water included. The page posts no studio prices, so ask the office for a quote.
+**407 College Ave.** [Travis Hyde Properties](https://www.travishyde.com/college-town/407%20college%20ave) lists the building with water included. Studio rent is on request, so ask the office for a quote.
 
 **Newer towers.** Four buildings sit at the top of the market.
 
@@ -141,11 +147,11 @@ Property pages: [Court](https://ithacarenting.com/property-details/?pid=5), [Cen
 - The Bear: [studios from $2,850](https://ithacavoice.org/2026/07/cornell-collegetown-construction/), in 84 units, [scheduled to open for the 2027 academic year](https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148).
 - [Catherine Commons](https://buildwelliver.com/projects/integrated-acquisition-development-corp-iad-catherine-commons-210-college-avenue), 210 College Ave: 356 apartments, 206 of them studios.
 
-Collegetown Terrace, at 115 South Quarry St, advertises [rates starting at $605](https://www.collegetownterrace.com/) with no period stated, and asks for a rate lock by Nov. 15, 2026. Ask which unit that price covers.
+Collegetown Terrace, at 115 South Quarry St, advertises [rates starting at $605](https://www.collegetownterrace.com/) and asks for a rate lock by Nov. 15, 2026. Ask which unit, and which billing period, that price covers.
 
 ## Which Collegetown-area studios cost less?
 
-Older buildings outside the managed towers list lower prices. These come from the Ithaca marketplace, where each price is per unit with no lease year printed unless noted.
+Older buildings outside the managed towers list lower prices. These come from the Ithaca marketplace, where each price is per unit. Ask each landlord which lease year a price applies to.
 
 | Address | Studio per month | Includes |
 |---|---|---|
@@ -162,7 +168,7 @@ Older buildings outside the managed towers list lower prices. These come from th
 
 Source: [Ithaca off-campus marketplace](https://offcampushousing.ithaca.edu/listing) and [CSP Management](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx). The 408 Stewart and 116 Osmun units list availability dates of June 11, Aug. 9 and Aug. 12, 2027.
 
-These lease dates matter, per the [CSP Management listings](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx). A unit that opens in August 2027 will not help a spring arrival, and the marketplace format prints no lease year for most units. Confirm the lease year and the term with the landlord before you plan around a price.
+These lease dates matter, per the [CSP Management listings](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx). A unit that opens in August 2027 will not help a spring arrival. Confirm the lease year and the term with the landlord before you plan around a price.
 
 <!-- ad-break -->
 
@@ -177,11 +183,11 @@ Downtown is cheaper per bed. Ithaca Renting's median studio is [$1,395 downtown]
 | Commons Studios, 212 E State St | $1,275 to $1,375 budget | Heat, water, electricity, trash |
 | Commons West, 107 E State St | $1,295 to $1,495 standard | Heat, water, trash |
 | Cityview, 118 Prospect St | $1,400 to $1,595 standard | Heat, water, trash |
-| Carey Building | not stated | Furnished; heat and water |
+| Carey Building | On request | Furnished; heat and water |
 
 Source: [Ithaca Renting](https://ithacarenting.com/downtown/), plus [Travis Hyde Properties](https://www.travishyde.com/downtown-ithacaf4ba8d70/carey%20building) for the Carey Building.
 
-The three Ithaca Renting buildings that include electricity, per its [downtown page](https://ithacarenting.com/downtown/), are Colonial, Commons Studios and Whiton Hall. Downtown is a 20 to 30 minute uphill walk to campus, per Cornell, so factor in a bus pass or the commute tool below.
+The three Ithaca Renting buildings that include electricity, per its [downtown page](https://ithacarenting.com/downtown/), are Colonial, Commons Studios and Whiton Hall. Downtown is a 20 to 30 minute uphill walk to campus, per [Cornell's neighborhoods page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods), so factor in a bus pass or the commute tool below.
 
 New downtown buildings charge more. [City Centre](https://citycentreithaca.com/floorplans/), a Greystar building at 301 E. State St., lists studios at $2,475.75 to $2,618.75 a month on a 15-month term. The Ithacan at 210 E Green St lists studios at $2,549 to $2,699, and Ironworks at 430 W State St lists $2,072 to $3,943, both on the marketplace. Theory Ithaca, at 445 E State St, lists a Studio A at $2,789 per bed.
 

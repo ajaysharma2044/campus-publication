@@ -33,9 +33,6 @@ sources:
 - url: https://www.cityofithacany.gov/727/Parking-Regulations-Violations
   title: Parking Regulations and Violations, City of Ithaca
   accessed: '2026-11-11'
-- url: https://ecode360.com/8395630
-  title: City of Ithaca Code, winter odd/even parking
-  accessed: '2026-11-11'
 - url: https://cityofithacany.gov/DocumentCenter/View/12559
   title: Snowplowing guide, City of Ithaca Department of Public Works
   accessed: '2026-11-11'
@@ -53,9 +50,6 @@ sources:
   accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/VAT/375
   title: N.Y. Vehicle and Traffic Law 375, New York State Senate
-  accessed: '2026-11-11'
-- url: https://emergency.cornell.edu/?p=5006
-  title: Winter Storm Fern closure notice, Cornell Emergency Management
   accessed: '2026-11-11'
 - url: https://cornellsun.com/article/2026/01/cornell-announces-ithaca-and-agritech-campuses-will-reopen-at-noon-on-monday
   title: Cornell announces campuses will reopen at noon on Monday, The Cornell Daily Sun, Jan. 2026
@@ -85,7 +79,7 @@ Leave early, favor main roads over the small side streets the city plows last, a
 
 January is the peak, with 16.6 inches in a normal month ([Northeast Regional Climate Center](https://www.nrcc.cornell.edu/wxstation/ithaca/normal.html)); our [Ithaca winter survival guide](/cornell/daily-life/ithaca-winter-survival-guide-cornell/) has the month-by-month table.
 
-The first inch of snow now falls on Nov. 25 in a normal year, five days later than under the previous 30-year normal ([Cornell Daily Sun](https://cornellsun.com/2021/11/17/delayed-first-snowfall-in-ithaca-reflects-changing-climate-patterns/)). Winter 2025-26 ran 3.1F below normal, the coldest in over a decade, with a low of -7F on Jan. 30 ([Cornell Daily Sun](https://cornellsun.com/article/2026/03/5z6poblqwoea)).
+The first inch of snow now falls on Nov. 25 in a normal year, up from Nov. 20 under the previous 30-year normal ([Cornell Daily Sun](https://cornellsun.com/2021/11/17/delayed-first-snowfall-in-ithaca-reflects-changing-climate-patterns/)). Winter 2025-26 ran 3.1F below normal, the coldest in over a decade, with a low of -7F on Jan. 30 ([Cornell Daily Sun](https://cornellsun.com/article/2026/03/5z6poblqwoea)).
 
 Daylight is short too. On Dec. 21, 2026, the sun sets at 4:36 p.m. and rises at 7:32 a.m. ([U.S. Naval Observatory](https://aa.usno.navy.mil/api/rstt/oneday?date=2026-12-21&coords=42.44,-76.50&tz=-5)). Plan on driving home in the dark.
 
@@ -118,7 +112,7 @@ rows:
 
 ## What happens on a storm day?
 
-Cornell has closed for snow. In January 2026, it closed the Ithaca and AgriTech campuses from noon Sunday, Jan. 25, to noon Monday, Jan. 26. Residence halls stayed open and status posted at emergency.cornell.edu ([Cornell Emergency Management](https://emergency.cornell.edu/?p=5006)). The city declared a state of emergency, and TCAT delayed Monday service to 10 a.m. ([Cornell Daily Sun](https://cornellsun.com/article/2026/01/cornell-announces-ithaca-and-agritech-campuses-will-reopen-at-noon-on-monday)). Break-travel storms are covered in our [winter storms guide](/cornell/getting-around/cornell-winter-storms-travel-driving-ithaca/).
+Cornell has closed for snow. In January 2026, it closed the Ithaca and AgriTech campuses from noon Sunday to noon Monday, Jan. 26. The city declared a state of emergency, and TCAT delayed Monday service to 10 a.m. ([Cornell Daily Sun](https://cornellsun.com/article/2026/01/cornell-announces-ithaca-and-agritech-campuses-will-reopen-at-noon-on-monday)). Break-travel storms are covered in our [winter storms guide](/cornell/getting-around/cornell-winter-storms-travel-driving-ithaca/).
 
 ```reader "If you're a first-year"
 Cornell discourages first-years from bringing a car, though it offers limited permits ([Cornell Family Resource Hub](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation)). Winter is the best argument for leaving it home. Our [car guide](/cornell/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) and the cost breakdown in [should I bring a car](/tools/should-i-bring-a-car-cornell-ithaca-cost/) weigh it.

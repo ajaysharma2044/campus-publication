@@ -27,100 +27,100 @@ tools:
 sources:
 - url: https://cornellsun.com/2016/10/20/students-housing-search-hampers-study-abroad
   title: 'Students: Housing Search Hampers Study Abroad, The Cornell Daily Sun, Oct. 20, 2016'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing
   title: Landlords and Advocates Grapple With Good Cause Eviction Law at Public Hearing, The Cornell Daily Sun, July 10, 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
   title: Storage and Shipping Options, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://global.cornell.edu/sites/default/files/IA_YearInReview_20182019.pdf
   title: International Affairs Year in Review 2018-2019, Cornell University
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/living-campus
   title: Living Off Campus, Cornell Office of Financial Aid and Student Employment
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ftc.gov/news-events/data-visualizations/data-spotlight/2025/12/rental-scams-hit-home-65-million-reported-losses
   title: Rental scams hit home with $65 million in reported losses, Federal Trade Commission Data Spotlight, Dec. 22, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown apartments, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://abroad.globallearning.cornell.edu/apply/deadlines
   title: Deadlines, Cornell Education Abroad
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ir.lawnet.fordham.edu/ulj/vol9/iss3/16
   title: 'NYRPL § 226-b: No Right to Sublease Without Consent, Carolyn Debra Karp, Fordham Urban Law Journal, 1981'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/226-B
   title: Real Property Law Section 226-B, Right to sublease or assign, New York State Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease
   title: Breaking a Lease, Cornell Law School Tenants Advocacy Program
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.lawny.org/node/393/new-protections-ny-state-renters
   title: New Protections for NY State Renters, Legal Assistance of Western New York
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/238-A
   title: Real Property Law Section 238-A, Fees, New York State Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/downtown/
   title: Downtown apartments, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://drydensouth.com/availability/
   title: Availability, Dryden South
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961
   title: Dryden South, 205 Dryden Road, Cornell Off-Campus Housing Marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.modernlivingrentals.com/
   title: Modern Living Rentals, Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.modernlivingrentals.com/FAQ-Apartments-Near-Cornell-University-Ithaca-Housing-FAQs-MLR-Modern-Living-Rentals
   title: 'Apartments Near Cornell University: Ithaca Housing FAQs, Modern Living Rentals'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://career.cornell.edu/resources/engineering-co-operative-education-experience-co-op/
   title: Engineering Co-operative Education Experience (Co-op), Cornell Career Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/145/Housing-Inspections
   title: Housing Inspections, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus
   title: Tenant Best Practices, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing the Lease, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
   title: General Obligations Law Section 7-108, Security deposits, New York State Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings & Resources, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/
   title: Students and Landlords Both Perpetuate Myths About Housing, University Panelist Says, The Cornell Daily Sun, Feb. 6, 2019
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithaca.com/news/local_news/ithaca-landlords-tenants-battle-craigslist-rental-scams/article_fa700738-0769-5add-9329-897f05256e6d.html
   title: Ithaca landlords, tenants battle Craigslist rental scams, Ithaca Times, May 12, 2010
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2010/12/01/police-warn-students-to-look-out-for-holiday-internet-scams/
   title: Police Warn Students to Look Out for Holiday Internet Scams, The Cornell Daily Sun, Dec. 1, 2010
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://1037qcountry.com/news/025520-ithaca-police-warn-of-nyseg-craiglist-scams/
   title: Ithaca Police warn of NYSEG, Craigslist scams, WHCU
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://police.illinois.edu/fake-sublessee/
   title: Fake sublessee, University of Illinois Division of Public Safety, Dec. 4, 2023
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images_from: summer-storage-vs-shipping-vs-sublet-cornell-cost
 images:
 - file: 1.webp
@@ -204,9 +204,9 @@ The statute sets the floor. Landlords write their own forms, fees and limits int
 | Landlord or option | Buildings | Lease shape | Sublet rules | Price signal |
 |---|---|---|---|---|
 | Ithaca Renting, Collegetown | Collegetown Court, 208 Dryden Road; Collegetown Plaza; Collegetown Center; 210 Dryden Road; 705 E. Buffalo St. | One year, starting June, July or August; dates fixed | Must be registered and approved; Collegetown sublets to Cornell students only; one per term; nothing under a month; no Airbnb; a $15 fee, and a $20 fee if anyone uses the unit over the summer | Semester studios for spring and fall 2027 at $1,575 to $1,800 a bed |
-| Ithaca Renting, downtown | Cityview, 118 Prospect St.; Whiton Hall, 222 S. Aurora St.; Old Cigar Factory, 108-114 E. State St.; Commons Studios, 212 E. State St.; others on the Commons | 12 months, "with the option to sublet" | At least 2 months per sublet; every other tenant on the lease must agree; the Rental Office must approve; a form even when no money changes hands; no graduation rentals or Airbnb | Not listed for sublets |
-| Dryden South | 205 Dryden Road | 12 months from June 1 | A sublets page, empty on Nov. 10, 2026 | Suite beds from $1,360 to $1,575 a month on 2027-28 leases, all rented on Nov. 10, 2026 |
-| Modern Living Rentals | Properties in Collegetown, East Hill and downtown, including The Ivy, 325 College Ave. | Varies by building | Advertises sublet and roommate openings for an "immediate move-in" | "From $900/person," period not stated |
+| Ithaca Renting, downtown | Cityview, 118 Prospect St.; Whiton Hall, 222 S. Aurora St.; Old Cigar Factory, 108-114 E. State St.; Commons Studios, 212 E. State St.; others on the Commons | 12 months, "with the option to sublet" | At least 2 months per sublet; every other tenant on the lease must agree; the Rental Office must approve; a form even when no money changes hands; no graduation rentals or Airbnb | On request |
+| Dryden South | 205 Dryden Road | 12 months from June 1 |  | Suite beds from $1,360 to $1,575 a month on 2027-28 leases, all rented on Nov. 10, 2026 |
+| Modern Living Rentals | Properties in Collegetown, East Hill and downtown, including The Ivy, 325 College Ave. | Varies by building | Advertises sublet and roommate openings for an "immediate move-in" | From $900 a person |
 | Cornell housing license | Residence halls, townhouses, apartments and house systems Cornell manages | Academic year | No sublets: only students Cornell assigns can live in your room | Cancel instead; see below |
 
 Sources: [Ithaca Renting, Collegetown](https://ithacarenting.com/collegetown/); [Ithaca Renting, downtown](https://ithacarenting.com/downtown/); [Dryden South availability](https://drydensouth.com/availability/) and [its Cornell marketplace listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961); [Modern Living Rentals](https://www.modernlivingrentals.com/) and [its FAQ](https://www.modernlivingrentals.com/FAQ-Apartments-Near-Cornell-University-Ithaca-Housing-FAQs-MLR-Modern-Living-Rentals); [Cornell Academic Year Housing License 2027-28](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028).
@@ -308,13 +308,12 @@ You have two markets, not one. A sublet is the cheap end if you find one through
 
 ## What a sublet costs
 
-Price a sublet against the rents landlords post for 2026-27 and 2027-28 (Ithaca Renting; Dryden South; Modern Living Rentals).
+Price a sublet against the rents landlords post for 2026-27 and 2027-28 (Ithaca Renting; Dryden South).
 
 ```figure
 kind: cost_table
 title: Ithaca asking prices a sublet competes with (per bed, per month unless noted)
 rows:
-  - {label: "Modern Living Rentals sublet and roommate openings", value: "From $900 per person (period not stated)"}
   - {label: "Dryden South suite bed, 2027-28 lease (all rented)", value: "$1,360 to $1,575"}
   - {label: "Collegetown Plaza premium four-bedroom bed, 2027-28", value: "$1,250 to $1,350"}
   - {label: "Collegetown Court standard studio, 2027-28", value: "$1,565 to $1,640"}
@@ -322,7 +321,7 @@ rows:
   - {label: "210 Dryden Road single room, spring 2027", value: "$695 to $795"}
 ```
 
-Prices from Ithaca Renting, Dryden South and Modern Living Rentals pages, Nov. 10, 2026.
+Prices from Ithaca Renting and Dryden South pages, Nov. 10, 2026.
 
 Plan around the empty-room cost. If a subtenant pays less than your rent, you cover the difference every month.
 

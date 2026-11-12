@@ -24,6 +24,9 @@ sources:
 - url: http://www.bigredboxes.com/BRSS_Pricing
   title: BRSS storage pricing, Big Red Shipping and Storage
   accessed: '2026-11-11'
+- url: http://www.bigredboxes.com/
+  title: Big Red Shipping and Storage home page
+  accessed: '2026-11-11'
 - url: https://storagesquad.com/summer-storage/cornell-university/
   title: Summer storage at Cornell, Storage Squad
   accessed: '2026-11-11'
@@ -94,7 +97,7 @@ Cornell offers no storage and its housing staff cannot give pickup crews access 
 
 ## When do you have to book?
 
-Slots run out. [Storage Scholars](https://www.storagescholars.com/cities-we-serve/ithaca-ny) asks for bookings by early April. Uncle Marty's guarantees a delivery slot for [move-out bundles](https://www.unclemartysoffice.com/move-out-bundles) ordered before May 1. BRSS has limited slots, and it marks an order "confirmed" 48 hours before the appointment.
+Slots run out. [Storage Scholars](https://www.storagescholars.com/cities-we-serve/ithaca-ny) asks for bookings by early April. Uncle Marty's guarantees a delivery slot for [move-out bundles](https://www.unclemartysoffice.com/move-out-bundles) ordered before May 1. BRSS changes every order's status to ["confirmed" 48 hours before the appointment day](http://www.bigredboxes.com/).
 
 ```reader "If you're an international student"
 Shipping home is a different service. BRSS ships through FedEx and [calculates the cost at pickup](http://www.bigredboxes.com/BRSS_Pricing) at current FedEx rates, with extra fees for international shipments and customs paperwork, so ask for the amount in writing. If you fly home, the [airport and rides guide](/cornell/getting-around/flying-home-from-cornell-airports-rides/) covers the trip itself.

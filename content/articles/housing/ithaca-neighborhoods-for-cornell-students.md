@@ -8,7 +8,7 @@ primary_query: ithaca neighborhoods for cornell students
 topic: housing
 school: cornell-university
 type: comparison
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 8
 rewrites: ''
 readers:
@@ -27,157 +27,157 @@ tools:
 sources:
 - url: https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/
   title: Cornell Students Sleep On Sidewalk for Cheaper, More Desirable Leases, The Cornell Daily Sun, Sept. 19, 2019
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown properties and prices, Ithaca Renting Company
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/downtown/
   title: Downtown properties and prices, Ithaca Renting Company
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process
   title: Current Undergraduate Application Process, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
   title: Graduate and Professional Student Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/
   title: As Cornell Requires University Housing for Sophomores, Students Weigh Options, The Cornell Daily Sun, Nov. 9, 2021
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2013/05/02/collegetown-housing-market-scrutinized/
   title: Collegetown Housing Market Scrutinized, The Cornell Daily Sun, May 2, 2013
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2009/08/common-council-endorses-c-town-plan
   title: Common Council Endorses C-Town Plan, The Cornell Daily Sun, August 2009
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2013/03/13/city-of-ithaca-considers-changes-to-zoning-that-could-transform-collegetown/
   title: City of Ithaca Considers Changes to Zoning That Could Transform Collegetown, The Cornell Daily Sun, March 13, 2013
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2014/09/07/multiple-developments-proposed-for-collegetown
   title: Multiple Developments Proposed for Collegetown, The Cornell Daily Sun, Sept. 7, 2014
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.fingerlakes1.com/2025/03/12/ithaca-proposes-zoning-changes-to-collegetown-area-allowing-taller-buildings
   title: Ithaca proposes zoning changes to Collegetown area allowing taller buildings, FingerLakes1.com, March 12, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026
   title: The Ivy to Establish New Luxury Housing in Collegetown, Opens Fall 2026, The Cornell Daily Sun, December 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacavoice.org/2026/07/cornell-collegetown-construction/
   title: 'Gallery: See what''s under construction around Ithaca this summer, The Ithaca Voice, July 7, 2026'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148
   title: Three new developments offer different answers to Ithaca's housing needs, Tompkins Weekly, Aug. 25, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithaca.com/news/ithaca/former-collegetown-fire-station-site-slated-for-16-5m-apartment-development/article_daeb3b07-ae00-497b-9e13-ac15184dc19e.html
   title: Former Collegetown Fire Station Site Slated for $16.5M Apartment Development, Ithaca Times, Feb. 5, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed
   title: 301 College Ave Opens for Student Housing, Resident Describes it as 'Incomplete,' 'Rushed', The Cornell Daily Sun, September 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/09/maia-on-the-mic-the-collegetown-housing-hustle
   title: 'MAIA ON THE MIC: The Collegetown Housing Hustle, The Cornell Daily Sun, September 2025'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/
   title: '''Desirable'' Collegetown Leases Leave Market up to 16 Months Before Residents Move in, The Cornell Daily Sun, Nov. 7, 2018'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/
   title: Students and Landlords Both Perpetuate Myths About Housing, University Panelist Says, The Cornell Daily Sun, Feb. 6, 2019
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/
   title: Collegetown, Ithaca, NY Rental Market Trends, RentCafe
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/
   title: Ithaca, NY Rental Market Trends, RentCafe
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/downtown-ithaca/
   title: Downtown Ithaca, NY Rental Market Trends, RentCafe
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/718/Dryden-Road-Garage
   title: Dryden Road Garage, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.tompkinsweekly.com/news/ithaca-proposes-collegetown-garage-project-while-facing-parking-losses-f7b7425d
   title: Ithaca proposes Collegetown garage project while facing parking losses, Tompkins Weekly, Nov. 10, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections
   title: Ithaca is the latest upstate city to opt into 'good cause' renter protections, WAMC, July 12, 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing
   title: Landlords and Advocates Grapple with Good Cause Eviction Law at Public Hearing, The Cornell Daily Sun, July 10, 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithaca.com/special_sections/newcomers_guide/ithaca-s-neighborhoods-have-subtly-distinctive-personalities/article_7186dd20-23c0-11ed-a9b6-1798d19eb7a1.html
   title: Ithaca's Neighborhoods Have Subtly Distinctive Personalities, Ithaca Times Newcomers Guide, 2022
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://townithacany.gov/wp-content/uploads/2022/01/town_of_ithaca_comp_plan_09_2014.pdf
   title: Town of Ithaca Comprehensive Plan, September 2014
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/DocumentCenter/View/1589/Cornell-Heights-Historic-District-Significance-Statement
   title: Cornell Heights Historic District Summary Significance Statement, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/10/breaking-cornell-suspends-all-fraternity-parties-social-events-for-2026-27-school-year
   title: Cornell Suspends All Fraternity Parties, Social Events for 2026-27 School Year, The Cornell Daily Sun, Oct. 13, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithaca.com/news/ithaca/common-council-sets-moratorium-on-cornell-event-permits-following-gang-rape-allegations/article_6c84a345-d112-483a-98bc-316f3b64f0a1.html
   title: Common Council Sets Moratorium on Cornell Event Permits Following Gang Rape Allegations, Ithaca Times, October 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cayugaheights.gov/departments/code-enforcement/
   title: Code Enforcement, Village of Cayuga Heights
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258
   title: 709 N Tioga St, Fall Creek, Cornell Off-Campus Housing listings
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html
   title: Life at Cornell, Reed Research Group graduate student resources (2023)
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/03/asteri-s-aftermath-displacement-dangerous-conditions-and-a-predatory-cash-for-keys-scheme
   title: 'Asteri''s Aftermath: Displacement, Dangerous Conditions and a ''Predatory'' Cash for Keys Scheme, The Cornell Daily Sun, March 2026'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacavoice.org/2015/07/often-overlooked-ithacas-northside-residents-try-building-clout/
   title: Often overlooked, Ithaca's Northside residents try building clout, The Ithaca Voice, July 7, 2015
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx
   title: Lansing West Apartments, 700 Warren Road, RentCafe
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/11/03/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free/
   title: Non-First-Year Cornell Students No Longer Able to Access TCAT for Free 24/7, The Cornell Daily Sun, Nov. 3, 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/
   title: Facing Operator and Bus Shortages, TCAT Board Prolongs Suspension of Routes 14S and 83, The Cornell Daily Sun, April 25, 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacating.com/2019/09/08/802-dryden-road-construction-update-9-2019/
   title: 802 Dryden Road Construction Update, 9/2019, Ithacating
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Building Issues and Maintenance, Cornell Law School Tenants Advocacy Program
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://townithacany.gov/welcome-new-resident-guide/
   title: 'Welcome: New Resident Guide, Town of Ithaca'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://townithacany.gov/address-verification/
   title: Address Verification, Town of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://townithacany.gov/operating-permits/
   title: Operating Permits, Town of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/
   title: Ithaca landlords must now give renters 120 days before renewing leases, WSKG, April 7, 2022
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and OmniRide Passes, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting
   title: Bus Commuting, Cornell Campus Sustainability Office
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/graduate-students
   title: 'Graduate Students: Cost of Attendance 2026-27, Cornell Financial Aid'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: College Avenue in Collegetown, Ithaca, with apartment buildings above storefronts and cars parked along the curb
@@ -202,7 +202,7 @@ On the night of Sept. 11, 2019, three Cornell sophomores spread blankets on the 
 
 Down the hill, the same company's downtown apartments draw no such line. On Nov. 10, 2026, with leasing for 2027-28 open, Ithaca Renting marked 14 of the 67 Collegetown unit types it lists as sold out ([Ithaca Renting, Collegetown](https://ithacarenting.com/collegetown/)). Its downtown list was still mostly units for 2026-27 or open to rent now, and none were marked sold out ([Ithaca Renting, downtown](https://ithacarenting.com/downtown/)).
 
-That gap is the story of where Cornell students live. Ithaca is a hill, a flat valley and a city line. The hill sets how long your walk to class is. The valley sets how much cheaper your bed is. The city line sets which rules protect you. Ten areas sit on that map, from Collegetown out to Lansing, West Hill and Varna. Cornell's neighborhoods page covers all but Northside and Varna.
+That gap is the story of where Cornell students live. Ithaca is a hill, a flat valley and a city line. The hill sets how long your walk to class is. The valley sets how much cheaper your bed is. The city line sets which rules protect you. Ten areas sit on that map, from Collegetown out to Lansing, West Hill and Varna.
 
 Cornell's residence hall double costs $13,744 for the 2026-27 academic year, with gas, electricity, garbage and internet included ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Spread over a 12-month lease, that is $1,145.33 a month. Juniors and seniors are not guaranteed a campus room ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process)). About 95% of graduate and professional students live in housing Cornell does not own ([Cornell graduate housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)).
 
@@ -211,15 +211,15 @@ Cornell's residence hall double costs $13,744 for the 2026-27 academic year, wit
 | Area | Where it is | Distance to campus (Cornell) | Walk to campus | Bus to campus | What a place costs | City of Ithaca? | Who lives there |
 |---|---|---|---|---|---|---|---|
 | Collegetown | Against the southwest edge of campus | 0.1 to 0.5 miles | Up to 15 minutes (Cornell); uphill from lower Collegetown | Walking distance | $800 to $2,025 per bed for 2027-28 at Ithaca Renting; new towers $2,595 to $7,200 per unit | Yes | Mostly undergraduates |
-| Belle Sherman and East Hill | East of Collegetown, toward East Hill Plaza | 1 to 2 miles (Belle Sherman); 0.75 to 2 miles (East Hill) | 15 to 40 minutes | Yes | No area-wide figure published | Belle Sherman yes; the Town of Ithaca holds part of East Hill | Year-round residents; grad students at Maplewood |
-| Cayuga Heights and Cornell Heights | North of campus, across Fall Creek Gorge | 1 to 4 miles | 20 to 80 minutes | Yes | No area-wide figure published | Cornell Heights yes; Cayuga Heights is a separate village | Faculty; fraternities and sororities |
+| Belle Sherman and East Hill | East of Collegetown, toward East Hill Plaza | 1 to 2 miles (Belle Sherman); 0.75 to 2 miles (East Hill) | 15 to 40 minutes | Yes | On request | Belle Sherman yes; the Town of Ithaca holds part of East Hill | Year-round residents; grad students at Maplewood |
+| Cayuga Heights and Cornell Heights | North of campus, across Fall Creek Gorge | 1 to 4 miles | 20 to 80 minutes | Yes | On request | Cornell Heights yes; Cayuga Heights is a separate village | Faculty; fraternities and sororities |
 | Fall Creek | Below campus to the west, toward the lake | 0.5 to 1 mile | 20 to 30 minutes uphill (Cornell) | Frequent | 1BR $1,600 to $1,700 at 709 N Tioga St | Yes | Grad students and families |
 | Downtown and the Commons | West of campus at the bottom of the hill | 0.5 to 1.5 miles; Commons 1 mile | 20 to 30 minutes uphill (Cornell) | Route 10 | $795 to $1,625 per bed at Ithaca Renting, mostly 2026-27 | Yes | Many grad and professional students |
-| Northside | South and west of Cascadilla Creek, down to Route 13 | Not listed by Cornell | Not listed | Not listed | No published figure | Yes | Lower-income residents; public housing |
-| South Hill | South of downtown, around Ithaca College | 1.5 to 3 miles | 15 minutes downhill to downtown (Cornell), then a bus | Downtown transfer | No area-wide figure published | Check each address; Ithaca College sits in the Town | Mostly Ithaca College students |
+| Northside | South and west of Cascadilla Creek, down to Route 13 |  |  |  | On request | Yes | Lower-income residents; public housing |
+| South Hill | South of downtown, around Ithaca College | 1.5 to 3 miles | 15 minutes downhill to downtown (Cornell), then a bus | Downtown transfer | On request | Check each address; Ithaca College sits in the Town | Mostly Ithaca College students |
 | Northeast and Lansing | North of Cayuga Heights, along Triphammer and Warren roads | 4 miles (Northeast); 5 to 10 miles (Lansing) | 80 minutes or more | Route 30 and others; bus or car | 1BR base rent from $1,302 at Lansing West | No | Many grad students |
-| West Hill | Across the inlet, northwest along the lake | 4 miles | Inconvenient, Cornell says | Route 14 to downtown, then transfer | No area-wide figure published | Check each address; the Town holds much of it | Year-round residents |
-| Varna | East of campus on Dryden Road (Route 366) | Not listed by Cornell | Not listed | Not listed | No published figure | No; Town of Dryden | Grad and professional students at Ivy Ridge |
+| West Hill | Across the inlet, northwest along the lake | 4 miles | Inconvenient, Cornell says | Route 14 to downtown, then transfer | On request | Check each address; the Town holds much of it | Year-round residents |
+| Varna | East of campus on Dryden Road (Route 366) |  |  |  | On request | No; Town of Dryden | Grad and professional students at Ivy Ridge |
 
 Sources: distances and Cornell's walk times from [Cornell's neighborhoods page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods); other walk times are EduExplained calculations at 3 mph (20 minutes a mile); rents, routes and city-line status from the sources cited in each section below.
 
@@ -281,7 +281,7 @@ East of Collegetown, the hillside turns quiet. Cornell lists Belle Sherman at 1 
 
 The name East Hill means two places. Cornell's East Hill lies east of Collegetown. The Ithaca Times uses the name for the steep blocks between downtown and Collegetown, from Fall Creek Gorge to Six Mile Creek. It says that, along with Collegetown, it is where most Cornell students move when they leave campus. Many big houses on Stewart Avenue and Quarry Street were split into apartments. Belle Sherman, around its elementary school, is mostly single-family homes built after World War II, with newer complexes off Mitchell Street, Veteran's Place and Dryden Road ([Ithaca Times](https://www.ithaca.com/special_sections/newcomers_guide/ithaca-s-neighborhoods-have-subtly-distinctive-personalities/article_7186dd20-23c0-11ed-a9b6-1798d19eb7a1.html)).
 
-East Hill crosses the city line. The Town of Ithaca's plan says its own East Hill holds a large part of Cornell, small commercial centers and most of the Town's people ([Town of Ithaca](https://townithacany.gov/wp-content/uploads/2022/01/town_of_ithaca_comp_plan_09_2014.pdf)). Cornell's graduate housing at Maplewood Apartments sits on East Hill ([Reed Group guide](https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html)). Greystar manages it, with furnished studios to four-bedrooms and all utilities included (Cornell graduate housing). East Hill and Belle Sherman have no published typical rent, so compare listings one by one against the Cornell double.
+East Hill crosses the city line. The Town of Ithaca's plan says its own East Hill holds a large part of Cornell, small commercial centers and most of the Town's people ([Town of Ithaca](https://townithacany.gov/wp-content/uploads/2022/01/town_of_ithaca_comp_plan_09_2014.pdf)). Cornell's graduate housing at Maplewood Apartments sits on East Hill ([Reed Group guide](https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html)). Greystar manages it, with furnished studios to four-bedrooms and all utilities included (Cornell graduate housing). In East Hill and Belle Sherman, compare listings one by one against the Cornell double.
 
 ### Cayuga Heights and Cornell Heights
 
@@ -319,7 +319,7 @@ Two cautions from 2026. The Seneca Street Garage closed for good on April 10, 20
 
 Northside is the City neighborhood south and west of Cascadilla Creek, down to Washington Park and Route 13 (Ithaca Times). Its residents formed Northside United in 2014. They told the Ithaca Voice in 2015 that it is one of the city's least affluent neighborhoods, with public housing and a large refugee population. One organizer said landlords on Lake Avenue tell new renters their address is in Fall Creek ([Ithaca Voice](https://ithacavoice.org/2015/07/often-overlooked-ithacas-northside-residents-try-building-clout/)).
 
-No rent survey covers Northside. If a listing says "Fall Creek" and the address is near Lake Avenue or Third Street, check a map. The renter rules do not change, since both are inside the City.
+If a listing says "Fall Creek" and the address is near Lake Avenue or Third Street, check a map. The renter rules do not change, since both are inside the City.
 
 ### South Hill
 
@@ -357,9 +357,9 @@ Cornell budgets $19,962 for a year of housing for Ithaca graduate students in 20
 
 ## The city line test
 
-The single most useful thing to know about an address is which government it sits in. The Town of Ithaca calls itself a donut, with the City of Ithaca as the hole ([Town of Ithaca](https://townithacany.gov/welcome-new-resident-guide/)). An "Ithaca, NY 14850" mailing address covers many places. The Town's own pages put the count at nine on one page and 12 or more on another. Its [address checker](https://townithacany.gov/address-verification/) tells you which one you are in.
+The single most useful thing to know about an address is which government it sits in. The Town of Ithaca calls itself a donut, with the City of Ithaca as the hole ([Town of Ithaca](https://townithacany.gov/welcome-new-resident-guide/)). An "Ithaca, NY 14850" mailing address covers many places, and the Town's [address checker](https://townithacany.gov/address-verification/) tells you which one you are in.
 
-Inside the City, three protections follow you. A landlord must give current tenants 120 days' written notice before renewing a lease or showing the unit to others. The rule covers leases of nine months or longer. A tenant can waive it only with bold, initialed language on the lease's first page ([WSKG](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/)). Cornell and the City's Building Division run an online safety tool that shows sprinklers, alarms and construction type for City rentals. It leaves out properties beyond the city limits ([Cornell safety page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments)). And Good Cause Eviction applies, with the new-building exemption above.
+Inside the City, three protections follow you. A landlord must give current tenants 120 days' written notice before renewing a lease or showing the unit to others. The rule covers leases of nine months or longer. A tenant can waive it only with bold, initialed language on the lease's first page ([WSKG](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/)). Cornell and the City's Building Division run an online safety tool that shows sprinklers, alarms and construction type for City rentals. It covers City rentals only ([Cornell safety page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments)). And Good Cause Eviction applies, with the new-building exemption above.
 
 Outside the City, other offices take over. The Town of Ithaca issues its own operating permits for buildings with three or more units, and keeps a registry for rented single-family homes ([Town of Ithaca](https://townithacany.gov/operating-permits/)). The Town does not pick up trash, so tenants or landlords hire a hauler (Town of Ithaca). Cayuga Heights, Lansing and Dryden each run their own code offices. Our guide to [City of Ithaca vs Town, Lansing and Cayuga Heights](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) goes rule by rule.
 

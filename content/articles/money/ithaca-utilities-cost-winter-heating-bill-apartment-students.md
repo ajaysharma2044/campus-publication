@@ -23,70 +23,70 @@ tools:
 sources:
 - url: https://dps.ny.gov/winter
   title: Winter Preparedness, New York State Department of Public Service
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/
   title: Cost of electricity in Ithaca, NY, EnergySage
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.fingerlakes1.com/2026/05/15/nyseg-and-rge-win-temporary-rate-hikes-as-larger-increases-still-loom/
   title: NYSEG and RG&E win temporary rate hikes as larger increases still loom, FingerLakes1
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags
   title: Trash and Yard Waste Collection Tags, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Building Issues and Maintenance, Cornell Law School Tenants Advocacy Practicum
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown properties, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/downtown/
   title: Downtown properties, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.urbanithaca.com/detailed-view-more/28/9/1
   title: 222 Dryden Rd 1A, Urban Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.urbanithaca.com/detailed-view-more/16/6/1
   title: 205 College Ave, Urban Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/listings/detail/9a1ca09a-a647-4d77-9ea4-d2578744ff39
   title: 110 Dryden Rd, 2A (Eddygate), Travis Hyde Properties
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom
   title: South Hill Kendall Ave 4-bedroom, IthacaRents
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/kelvin-place-apartments-237474
   title: Kelvin Place Apartments, Cornell Off-Campus Housing Marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095
   title: 209 Stewart Avenue, Ithaca College Off-Campus Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4385-cute-furnished-1-br-apt-in-fall-creek-that-is-closest-to-cornell
   title: 312 Farm St. 2W furnished 1-bedroom, IthacaRents
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.rentler.com/places-for-rent/ny/ithaca/325-college-ave/13257148
   title: 325 College Ave, Ithaca, Rentler
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.greystar.com/maplewood-ithaca-ny/p_15697
   title: Maplewood, Greystar
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.finaid.cornell.edu/living-campus
   title: Living Off Campus, Cornell Financial Aid
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nyseg.com/support/moving-help
   title: Moving Help, NYSEG
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ispreports.org/internet-service-providers-ithaca-ny/
   title: Internet Service Providers in Ithaca, NY, ISPReports
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Ithaca - Winter scene in Ithaca Gorge
@@ -161,10 +161,10 @@ Many Collegetown buildings include heat, so a student in those buildings pays on
 | Ithaca Renting, all Collegetown buildings | Heat, hot water; trash at Collegetown Center, Collegetown Plaza and Collegetown Court | Electricity (except 210 Dryden Rd. suites on floors 2 and 3, and rooms rented individually); internet |
 | Ithaca Renting, all downtown buildings | Heat, water, trash; electricity at the Colonial Building, Commons Studios and Whiton Hall; Wi-Fi at Whiton Hall | Electricity and internet elsewhere |
 | Urban Ithaca, 26 listings | Heat at 14 of 26 (for example, 222 Dryden Rd.) | Heat at the other 12 (for example, 205 College Ave.); internet at all 26 |
-| Travis Hyde, Eddygate, 110 Dryden Rd. | Not listed beyond fees | Electricity; trash $175 and Wi-Fi $240 per person per year |
+| Travis Hyde, Eddygate, 110 Dryden Rd. |  | Electricity; trash $175 and Wi-Fi $240 per person per year |
 | The Ivy, 325 College Ave. | Optional utility package, $150 per person per month | Whatever you leave out of the package |
-| 174 Kendall Ave., South Hill, 4 bedrooms | Nothing listed | Electricity and heat, on $650 per person rent for 2027-28 |
-| Kelvin Place, 219 Kelvin Pl. | Electricity, heat, internet, hot water, trash, water and sewer | Nothing listed, on $795 to $825 a room |
+| 174 Kendall Ave., South Hill, 4 bedrooms |  | Electricity and heat, on $650 per person rent for 2027-28 |
+| Kelvin Place, 219 Kelvin Pl. | Electricity, heat, internet, hot water, trash, water and sewer | Rent of $795 to $825 a room |
 | 209 Stewart Ave., 5 bedrooms | Heat, hot and cold water, electricity, Wi-Fi | $20 county solid waste fee plus $80 garbage fee at signing, split five ways |
 
 Sources: [Ithaca Renting Collegetown](https://ithacarenting.com/collegetown/) and [downtown](https://ithacarenting.com/downtown/) pages; Urban Ithaca listings ([222 Dryden Rd.](https://www.urbanithaca.com/detailed-view-more/28/9/1), [205 College Ave.](https://www.urbanithaca.com/detailed-view-more/16/6/1)); [Travis Hyde](https://www.travishyde.com/listings/detail/9a1ca09a-a647-4d77-9ea4-d2578744ff39); [Rentler](https://www.rentler.com/places-for-rent/ny/ithaca/325-college-ave/13257148); [IthacaRents](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom); [Cornell marketplace](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/kelvin-place-apartments-237474); [Ithaca College marketplace](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095).
@@ -179,7 +179,7 @@ If you're a graduate student: two options near campus bundle most bills. Maplewo
 
 ## How much is internet in an Ithaca apartment?
 
-Expect about $30 a month for a basic plan if your landlord doesn't include it. That is Spectrum's cheapest plan, at 100 megabits per second, and Ithaca plans run up to $120 a month ([ISPReports](https://ispreports.org/internet-service-providers-ithaca-ny/)). Those listings don't say which prices are introductory, so ask what the plan costs after the first year. Split four ways, that is $7.50 each.
+Expect about $30 a month for a basic plan if your landlord doesn't include it. That is Spectrum's cheapest plan, at 100 megabits per second, and Ithaca plans run up to $120 a month ([ISPReports](https://ispreports.org/internet-service-providers-ithaca-ny/)). Ask what the plan costs after the first year. Split four ways, that is $7.50 each.
 
 Some landlords sell their own service instead. [Ithaca Renting's](https://ithacarenting.com/collegetown/) wired service, IRIS, is optional and billed per apartment once a year: $150 for a room at 210 Dryden Rd., up to $1,400 for a 14-bedroom unit, paid by cash or check at the rental office. That top price works out to $100 a person a year. [Eddygate's](https://www.travishyde.com/listings/detail/9a1ca09a-a647-4d77-9ea4-d2578744ff39) $240 Wi-Fi fee is $20.00 a month per person.
 

@@ -21,58 +21,58 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.greystar.com/maplewood-ithaca-ny/p_15697
   title: Maplewood, Greystar
   accessed: '2026-11-11'
 - url: https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information
   title: Housing Information, Cornell College of Veterinary Medicine
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/
   title: RentCafe
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/downtown/
   title: Downtown, Ithaca Renting Company
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/graduate-students
   title: Cornell Financial Aid
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://utilitiesformyhome.com/utilities/new-york/ithaca
   title: Utilities for My Home
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/hasbrouck-apartments
   title: Hasbrouck Apartments, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
   title: Graduate Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://assembly.cornell.edu/sites/default/files/gpci_-_housing_dec_2020.pdf
   title: 'GPCI: Housing, Cornell GPSA'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
   title: Parking for Students, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.lechase.com/portfolio/greystar/
   title: Maplewood Apartments, LeChase Construction
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2018/08/12/delay-in-maplewood-housing-opening-affects-over-100-cornell-graduate-students/
   title: Delay in Maplewood Housing Opening Affects Over 100 Cornell Graduate Students, Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html
   title: Graduate Student Resources
   accessed: '2026-11-11'
 - url: https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148
   title: Three new developments offer different answers to Ithaca's housing needs, Tompkins Weekly
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus services, privileges and passes, Cornell Transportation
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://gradschool.cornell.edu/financial-support/stipend-rates/
   title: Stipend Rates, Cornell Graduate School
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus
   title: Apply for Housing On Campus, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacavoice.org/2026/07/cornell-collegetown-construction/
   title: Cornell and Collegetown construction update, The Ithaca Voice
   accessed: '2026-11-11'

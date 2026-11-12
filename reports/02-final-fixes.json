@@ -1,0 +1,1504 @@
+[
+ {
+  "file": "academics/cornell-pre-med-weed-out-courses-organic-chemistry-curve.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Fetched all 11 source URLs today with curl (all returned HTTP 200) and set accessed: \"2026-11-11\" on every source line",
+    "Opening paragraph: replaced 'publishes no grade distribution for either course' with ', so no median for either course is posted', which the Chronicle 2011 median-grades article supports",
+    "CHEM 2080/organic section: removed 'and Cornell publishes no curve for CHEM 2080 or organic' and ', because Cornell publishes no curve to compare it with'",
+    "FAQ: replaced 'and Cornell publishes no curve for organic' with 'not organic'",
+    "updated: was already 2026-11-11"
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "academics/cornell-summer-session-classes-transfer-credit-worth-it.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Updated accessed dates on all 8 frontmatter sources to 2026-11-11. All 8 were fetched today: 4 with curl (200) and the 4 SCE and Bursar pages with WebFetch, since curl gets a 403 there. Each page still supports the claims it is cited for.",
+    "Tompkins Cortland paragraph: removed the $23 technology fee and $34 student services fee. The source says those fees are not charged for Winter and Summer sessions. Tuition of $236 and $485 per credit is kept, and the line now tells readers to ask Tompkins Cortland for the full summer total, including fees.",
+    "Removed the unsourced sentence 'Expect a similar pattern for 2027, but check the Summer Academic Calendar.'",
+    "updated: 2026-11-11 was already set."
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "academics/cornell-s-u-grading-option-should-i-take.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Line 40 (CALS row): removed the unsupported claim 'CALS also caps the number of classes you can take S/U, so ask your advisor before planning several.' and replaced it with 'Check with your major department that S/U grading will meet the major requirement.', which the CALS policies page says (fetched today)",
+    "The CALS policies source already had accessed 2026-11-11; updated was already 2026-11-11"
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "academics/how-hard-is-it-to-transfer-colleges-within-cornell.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Intro: 'Every college sets its own GPA floor and prerequisite courses' changed to 'Each college sets its own requirements' (Engineering sets no GPA minimum)",
+    "After table: 'Dyson is the only page that names a competitive GPA (3.3 or higher) in addition to the floor.' rewritten as the fact 'Dyson describes 3.3 or higher as competitive.'",
+    "How hard section: 'Every page says meeting the minimums does not guarantee admission' changed to 'Cornell says meeting the requirements does not guarantee admission' (supported by internaltransfer.cornell.edu/apply, already cited and verified today by the reviewer)",
+    "updated already 2026-11-11; no sources added or removed, so no refetch was needed (all fixes were wording changes to claims the reviewer confirmed against sources fetched today)"
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "academics/cornell-arts-and-sciences-easy-distribution-courses.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Changed the title from 'Easy Cornell A&S distribution courses: what we can verify' to 'Easy Cornell A&S distribution courses' (37 chars) to remove research narration, as the reviewer asked. Slug and queue_id are unchanged.",
+    "Set accessed: 2026-11-11 on 6 sources that returned 200 today: degree-requirements, course-enrollment, the news.cornell.edu Chronicle, as.cornell.edu approve-new-curriculum, the music-videos post and the Cornell Sun. transferring-credits was already set to 2026-11-11.",
+    "Removed the minor sentence 'Any read of workload is our advice, not grade data.' from the Category by category section.",
+    "updated was already 2026-11-11."
+   ],
+   "gaps": [
+    {
+     "item": "catalog.cornell.edu distribution-codes/arts-sciences source accessed date",
+     "tried": "curl with a browser user agent (got HTTP 202 and a bot-challenge page) and WebFetch (got empty content)",
+     "outcome": "Could not fetch the page today, so its accessed date stays 2026-11-07. The body links to it are unchanged."
+    }
+   ],
+   "unresolved": "The catalog source could not be fetched today because a bot challenge blocked it, so its accessed date is still 2026-11-07. Also, the task said to keep the title, but the reviewer required a title change, and I followed the reviewer."
+  }
+ },
+ {
+  "file": "academics/cornell-24-hour-study-spaces-finals.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Fixed holiday dates in the Holiday closings bullet: the 24/7 spaces close at 4:00 p.m. on November 25 (was November 24), and the Tower Entrance and Cocktail Lounge close at 5 p.m. on December 23 (was December 24). Both checked against the hours page fetched today.",
+    "Fixed the Common mistakes bullet to read November 25 or December 23.",
+    "Removed the unsupported 'week of November 2 to 6, 2026' from the opening sentence.",
+    "Removed the unsupported 'Hours can change, and the library says so on its own pages' and kept only 'Check the hours page the day you go.'",
+    "Replaced the sentence about what the Engineering Library page covers with the fact itself: the hours page also lists the Engineering Library as 24 hours with card access.",
+    "updated was already 2026-11-11 and the hours page source already had accessed 2026-11-11, so neither needed a change."
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "academics/cornell-engineering-liberal-studies-easy-courses.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "How-to step 6: replaced the misattributed student sentence with 'One student told the Sun the cap may keep students from branching out into outside elective courses' wording ('the cap may keep students from branching out into outside electives'), matching Fair Shen's quote in the Cornell Sun article fetched today",
+    "FAQ 'Where is the approved list?': the overview page now 'links to the Engineering liberal studies site' instead of 'links to them', matching the overview page's actual link (fetched today)",
+    "updated already 2026-11-11 and both sources already accessed 2026-11-11; no frontmatter change needed"
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "daily-life/cornell-id-card-how-to-get-what-it-does.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "TCAT section: removed the made-up quote 'free for all new students with a Cornell ID card' and put in the FCS page's own wording, 'automatically get OmniRide privileges for unlimited TCAT rides' (I fetched the FCS page today to confirm it)",
+    "Glance line: changed 'free for all new students' to 'unlimited rides for new students' so it matches the FCS wording",
+    "TCAT section: cut the sentence listing first-years, graduate and PhD students and transfers, because the source does not support 'transfers'",
+    "C2C paragraph: cut 'Cornell riders book with a NetID', which no source supports",
+    "Replacement section: cut the uncited sentence 'Until the new one arrives you pay your own way...'",
+    "Lost card paragraph: cut the uncited claim 'Cornell Dining also tells students to report a lost card to the Registrar, so one call covers every use'",
+    "updated is already 2026-11-11 and every source stays dated accessed 2026-11-11"
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "dining/104west-kosher-dining-cornell.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Line 78: 'the kosher hall run with the Center for Jewish Living' changed to 'the kosher dining hall next to the Center for Jewish Living', matching the Sun text fetched today ('Kosher Dining Hall adjacent to the Center For Jewish Living'). The Sun source accessed date and updated were already 2026-11-11."
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "dining/vegetarian-vegan-options-cornell-dining.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Replaced the uncited Dining Nutrition Office line with the dietitians' contact from the nutrition-special-diets page (fetched today): 108A Appel Commons, 607-254-2389, diningnutrition@cornell.edu, now cited. That page is added to sources with accessed 2026-11-11.",
+    "Removed the Dining Now claim. The NetNutrition sentence is reworded to match the vegan-resources page (menus, allergen and ingredient details, vegan and vegetarian filters) and now cites that page. The eateries-menus source, which supported neither claim, is removed from sources.",
+    "In 'What to do next', changed 'Open Dining Now' to 'Check NetNutrition'.",
+    "Reworded the glance line and the first-year reader block to the cited fact that Unlimited is required for first-year undergraduates, and removed the claim that the plan cannot be reduced or cancelled.",
+    "Removed the stretched clause from the 2019 West Campus column about dining workers helping respectful students. The vegan-label-dairy claim is kept.",
+    "In the first-year reader block, changed 'Call the Dining Nutrition Office' to 'Contact Cornell Dining's dietitians' to match the new contact line. The updated date was already 2026-11-11."
+   ],
+   "gaps": [
+    {
+     "item": "Dining Now (now.dining.cornell.edu)",
+     "tried": "Considered adding it as a source",
+     "outcome": "Dropped the claim instead, as the reviewer allowed. NetNutrition from the vegan-resources page covers the menu check."
+    }
+   ],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "daily-life/laundry-in-cornell-dorms-cost-how-it-works.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Problem 1: I removed the line 'Cornell publishes no per-load price'. The page now says washers cost $2.00 and dryers $1.55 per cycle, the machines take no coins, the app has no per-use fee and a credit card swipe costs 25 cents. All of this is cited to the Laundry Services page (fetched today, status 200). That page is now in the frontmatter sources with accessed 2026-11-11.",
+    "Problem 2: I removed the 112 Edgemoor coin-operated claim from the glance list, the table row, the meta and the body. I also took the 112 Edgemoor source out of the frontmatter. The glance line now gives the prices and the payment fees. The parent box now says the machines take no coins, instead of mentioning quarters.",
+    "Problem 3: All existing sources now read accessed 2026-11-11. I re-fetched all 11 URLs today and every one returned 200.",
+    "Problem 4: The answer 'Not in most halls' is now 'No, except in the co-ops.' The dek and the opening now say every residential building has washers and dryers, matching the source. The parent box no longer says 'In most halls'.",
+    "The meta and dek were updated to the sourced prices. updated was already 2026-11-11. The title (52 chars), slug, reader keys and images are unchanged."
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "getting-around/biking-in-ithaca-hills-theft-where-to-buy-a-bike.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Meta: 'how steep the hills are by neighborhood' changed to 'walk time and slope direction by neighborhood'",
+    "West Hill table row: 'Rural; not practical on foot' changed to 'Rural'",
+    "Theft section: removed 'urged, not required'. It now reads 'Registration with Cornell Commuter and Parking Services is free', which the FCS page supports",
+    "Impound sentence changed to 'anything that isn't a bike rack', as the FCS page puts it",
+    "First-year reader block: replaced 'at any hour' with the Sun column's wording, 'free for the first year for all new students', and cited the column. Replaced the invented storage claim with 'bike rack or a designated residence hall storage area', citing the FCS page",
+    "Where-to-buy section: removed the Local Bike Shops / Retail Shop inference. Swamp City Community Cycles is now named as a community bike shop at 803 Cascadilla St., as the Bike Walk Tompkins page says",
+    "Winter heading changed to 'How does Cornell clear snow on campus?' so the body answers it",
+    "updated stays 2026-11-11; all cited sources already have accessed 2026-11-11"
+   ],
+   "gaps": [
+    {
+     "item": "Shop names (Gorges, Cayuga Ski & Cyclery, Boxy Bikes) that the reviewer says the Bike Walk Tompkins page lists",
+     "tried": "curl of bikewalktompkins.org/e-bikes and a search of its text for Gorges, Cayuga Ski and Boxy",
+     "outcome": "The fetched text does not contain these names, so I did not add them. The section now names Swamp City Community Cycles plus Cornell's advice to use a local shop"
+    }
+   ],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "dining/halal-food-at-cornell.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Problem 1: deleted the unsupported sentences 'That tells you the late-night options are thin. Plan your late meal before the dining rooms close.' I fetched the September 2025 Sun column today and replaced them with what it does say: the columnist saw a sign in Collegetown saying a Halal Munchies would be opening.",
+    "Problem 2: rewrote the uncited first-year sentence 'You must take the Unlimited plan'. It now reads that first-years living on campus must enroll in a meal plan and may not reduce or cancel it, and it cites the 2026-2027 terms page, which I fetched today. Unlimited auto-enrollment covers South Campus housing only, so the page no longer claims it.",
+    "Both sources were already in the frontmatter with accessed 2026-11-11, and updated was already 2026-11-11. The title, slug, readers and images are unchanged."
+   ],
+   "gaps": [
+    {
+     "item": "Problem 3: the Halal Brothers listing on the Cornell EHS food truck page ('as of May 2026')",
+     "tried": "The reviewer marked this acceptable and did not ask for a change: curl gets a 403 from EHS, and an April 2026 Wayback snapshot confirmed the listing. I did not fetch it again.",
+     "outcome": "Left as is. The 'as of May 2026' date was not checked against a fetch today."
+    }
+   ],
+   "unresolved": "The reviewer called problem 3 acceptable, so I left the Halal Brothers 'as of May 2026' wording alone. Nothing fetched today confirms that date. Everything else is fixed."
+  }
+ },
+ {
+  "file": "dining/late-night-food-cornell-collegetown.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Problem 1: the 'If you are studying late' reader block no longer says Bear Necessities is the one spot open past midnight. It now says Bear Necessities is listed until 2 a.m., the latest on campus, and Jansen's Market until 1 a.m. Both hours match the page's Dining Now table.",
+    "Problem 2: removed the 'Dining Now loads its hours by script ... stale time' narration. It now reads 'Open the eatery page before a late trip, and ask at the door...'",
+    "Problem 3: renamed the heading 'What is open late in Collegetown?' to 'What is open late off campus?' and introduced the Sun list as 'reported late hours for these spots', so the section gives the hours its heading promises. The City Bucks table still says to call ahead.",
+    "Problem 4: replaced the glance line about D.P. Dough, Wings Over Ithaca and 7-Eleven on College Avenue with the Sun-reported hours for Insomnia Cookies (3 a.m.) and Komonz Grill (2 a.m. Thursday to Saturday). The meta now names 'off-campus spots like Insomnia Cookies and Komonz Grill' in place of D.P. Dough.",
+    "Problem 5: removed the unsourced 'Your free-ride status depends on your class year'. The sentence now reads 'For Cornell student passes, read [TCAT guide]...'",
+    "Problem 6: replaced 'You can walk to every business in the City Bucks table' with 'Check the addresses in the City Bucks table above before a late walk.'",
+    "Problem 7: removed the uncited Morrison-Dining source from the frontmatter.",
+    "updated stays 2026-11-11. All remaining sources already had accessed 2026-11-11, and no new URLs were added."
+   ],
+   "gaps": [],
+   "unresolved": "none. No sources were re-fetched in this pass. Each fix either removes a claim or reuses hours the reviewer confirmed today through the Dining Now API, or Sun-reported hours that were already cited in the body."
+  }
+ },
+ {
+  "file": "getting-around/cornell-move-in-day-parking-unloading.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Line 149 (accessibility reader block): replaced 'To arrange accessible unloading, call the Housing and Residential Life Office at 607-255-5368 before the day' with 'For housing questions, call the Housing and Residential Life Office at 607-255-5368'. Re-fetched https://scl.cornell.edu/residential-life/housing today; its generic contact line confirms the number. Its accessed date was already 2026-11-11 and updated was already 2026-11-11."
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "getting-around/driving-in-ithaca-winter-cornell-hills-snow.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Removed the unsupported sentence 'Residence halls stayed open and status posted at emergency.cornell.edu' and its Cornell Emergency Management citation",
+    "Storm-day dates now read 'from noon Sunday to noon Monday, Jan. 26', matching the Cornell Daily Sun article fetched today (dated Jan. 26, 2026, says closed noon Sunday and reopens noon Monday). The calendar-derived 'Jan. 25' is gone",
+    "Removed the emergency.cornell.edu source from frontmatter (Cloudflare challenge, no longer cited)",
+    "Removed the ecode360.com/8395630 source from frontmatter (403 today, not cited in body)",
+    "First-snow sentence now reads 'up from Nov. 20 under the previous 30-year normal' instead of 'five days later', matching the quoted dates in the 2021 Sun article fetched today",
+    "updated stays 2026-11-11"
+   ],
+   "gaps": [
+    {
+     "item": "emergency.cornell.edu/?p=5006 residence-halls claim",
+     "tried": "Reviewer's curl and Wayback attempts; the Sun article fetched today does not mention residence halls",
+     "outcome": "Sentence and source removed"
+    },
+    {
+     "item": "ecode360.com/8395630",
+     "tried": "curl today",
+     "outcome": "403; removed from frontmatter because the body does not cite it"
+    }
+   ],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "getting-around/getting-around-cornell-upper-years-no-car.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Airport FAQ: removed the unsupported Route 32 weekdays / Route 72 weekends split and the free-hours inference; now says Route 32 is the airport route, cited to sustainable.cornell.edu/focus-areas/transportation/bus-commuting (already in sources, accessed 2026-11-11)",
+    "Holiday FAQ: removed uncited 'TCAT runs fewer buses then'",
+    "Downtown/West Hill reader block: 'suspended since fall 2023' changed to 'suspended indefinitely' per the Sun April 2024 article",
+    "Removed the Student Assembly Resolution 69 paragraph and its assembly.cornell.edu source (Cloudflare challenge, could not fetch today); the 'What if TCAT runs late?' heading is still answered by the habits and contacts paragraphs",
+    "Removed the Wanderu $25 to $43 NYC fare sentence and its wanderu.com source (Cloudflare challenge, could not fetch today)",
+    "Removed uncited 'Book early for the Wednesday before Thanksgiving...' sentence",
+    "updated already 2026-11-11"
+   ],
+   "gaps": [
+    {
+     "item": "SA R69 resolution text and Apr. 24, 2026 return date",
+     "tried": "curl with browser user agent on assembly.cornell.edu",
+     "outcome": "Cloudflare 'Just a moment' challenge; claim and source removed"
+    },
+    {
+     "item": "Wanderu $25 to $43 Ithaca to NYC fares",
+     "tried": "curl with browser user agent on wanderu.com",
+     "outcome": "Cloudflare challenge; claim and source removed"
+    }
+   ],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "getting-around/cornell-parking-guide-campus-collegetown-ithaca.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Removed the sentence on line 264 that gave the 2026-27 sale opening date (Tuesday, Aug. 4, 2026, 9 a.m.) and the Aug. 16 validity start, citing fcs.cornell.edu/node/17809. That URL still returns 403 today, so the claim could not be verified.",
+    "Removed the node/17809 entry from the frontmatter sources",
+    "Removed 'Cornell permit sale notice' from the key-dates sources line",
+    "Removed the node/17809 link from the Sources list at the bottom of the page. The updated date was already 2026-11-11."
+   ],
+   "gaps": [
+    {
+     "item": "fcs.cornell.edu/node/17809 (2026-27 permit sale notice)",
+     "tried": "Fetched it with curl using a browser user agent. The reviewer had also found no Wayback snapshot.",
+     "outcome": "403, so the page could not be fetched. The claim and the citation were removed, not softened."
+    },
+    {
+     "item": "'On request' price cell for the Winter overnight areas row (line 186)",
+     "tried": "Checked the reviewer's note. The reviewer confirmed the winter rules page gives no fee.",
+     "outcome": "Left unchanged. The reviewer called it a human judgment call, not a violation: keep the cell or drop the row."
+    }
+   ],
+   "unresolved": "An owner should decide whether the Winter overnight areas row keeps 'On request' in its price cell or is dropped. The winter rules source lists no fee."
+  }
+ },
+ {
+  "file": "getting-around/parking-collegetown-downtown-ithaca-garages-permits.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Re-fetched 16 sources today (city garage, parking info and regulations pages, Cornell Chronicle, FingerLakes1 x2, Ithaca Voice x3, three fcs.cornell.edu pages, Cornell Sun, 2026 budget PDF, Permit Issuance) and set every remaining accessed date to 2026-11-11",
+    "Removed the nysenate VTL 1640-e source (403 today, not used in body) and the ecode360 source (403 today); relinked the odd/even rule to the City Parking Regulations page, which states Nov 1 to Apr 1, 7 p.m. to 6 a.m., enforced only when needed",
+    "Rate table: Seneca Street row n/a cells and street rows None cells now blank",
+    "Dryden Road paragraph: 'That survey dates from October 1998.' changed to 'The Chronicle reported this in October 1998.'",
+    "Pre-2026 rate sentence: Ithaca Voice citation placed directly after the $1.50 and free 6 p.m. Friday to 8 a.m. Monday claim (verified in the article); Nov. 5 Saturday-fee vote kept as a separate sentence (same article)",
+    "FAQ visitor pass now cites Permit Issuance with the $10 fee it states",
+    "FAQ: removed the uncited $50 Cornell ticket figure",
+    "Verified unflagged-but-questioned figures: $15/30/45 odd/even fine (city fine schedule), $108 Cayuga monthly (2026 budget PDF), $381,000 fines revenue (Ithaca Voice 2027 budget)"
+   ],
+   "gaps": [
+    {
+     "item": "ecode360.com/8395630 and nysenate.gov VTL 1640-e",
+     "tried": "curl fetch today",
+     "outcome": "both returned 403; sources removed, odd/even claim recited to the City Parking Regulations page"
+    },
+    {
+     "item": "$50 Cornell parking ticket",
+     "tried": "searched fetched fcs.cornell.edu parking-students, short-term-parking-options and C2C FAQ pages",
+     "outcome": "not found; figure removed"
+    }
+   ],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "getting-around/cornell-winter-break-travel-home-2026.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Removed C2C booking step 3 ('Check that day's times in the live departure table'), a dangling reference, and renumbered the remaining steps",
+    "Reworded the 'On the way back' sentence that compared registrar and housing sources into a reader action: 'Spring term begins Jan. 25 on the registrar's calendar, so plan your return for that date.'",
+    "updated was already 2026-11-11; no new sources fetched or added"
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "getting-around/ithaca-parking-tickets-fines-how-to-appeal-cornell.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "(1) Removed the 'confirm today's with TDS' hedge in the Cornell fines section. The section now cites Cornell's live citation fee schedule (fetched today, returns 200), which matches the table amounts. That page is now in the frontmatter sources with accessed 2026-11-11, and the table's source line cites it alongside the Sun article.",
+    "(2) Removed 'Check the current schedule before you plan around any amount.' from the City fines section.",
+    "(3) Rewrote the meta so it no longer promises impound costs. It now names late fees and the $150 Cornell boot release fee, which the fee schedule supports.",
+    "(4) Changed 'worth about $381,000 a year' to 'projected to bring in $381,000 in additional revenue', matching the Ithaca Voice article re-read today.",
+    "updated was already 2026-11-11, so it was left as is."
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/alice-cook-house-cornell.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "In 'What does a year in Cook cost?', cut the unsupported clause 'cannot change or cancel it while living on West' and rewrote the sentence to what the Cornell Dining page says: the House Meal Plan is required for residents of the West Campus House System and gives access to all meals in the ten residential dining rooms (source fetched today, accessed and updated already 2026-11-11)"
+   ],
+   "gaps": [
+    {
+     "item": "Minor non-blocking note: 'Cornell charges by room type, not by building' is an inference from the rates table",
+     "tried": "Left unchanged because the reviewer marked it as not blocking and the task said to fix only the listed problems",
+     "outcome": "unchanged"
+    }
+   ],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/660-stewart-avenue-cooperative-cornell.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Dek: 'free on-site parking' changed to 'free laundry and on-site parking' (only laundry is called free)",
+    "Meta: 'free laundry and parking' changed to 'free laundry, on-site parking'",
+    "Lead: changed to 'laundry is free and the house has on-site parking'",
+    "cost_table Included row: changed to 'Free laundry, on-site parking and a mandatory staples program'",
+    "Removed the unsourced 'The houses are old.' sentence",
+    "Removed the uncited one-license and full-time-student claims. Replaced them with the no advance security deposit fact, cited to the housing rates page (re-fetched today: 'An advance security or damage deposit is not required'). That source is already in frontmatter with accessed 2026-11-11",
+    "updated was already 2026-11-11"
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/breaking-a-lease-early-ithaca-cornell.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Line 147 (reader block, one-semester stay): removed the unsupported 'limited legal protection' attribution and kept only the notice rule, now worded 'The Cornell Law guide says a month-to-month tenancy ends on one month's notice.' The reviewer had already confirmed this rule against the Cornell Law page. updated was already 2026-11-11."
+   ],
+   "gaps": [
+    {
+     "item": "4BR 2027-28 median per bed of $1,246.25 (the reviewer marked it minor and not blocking)",
+     "tried": "Left unchanged because the reviewer did not ask for a fix",
+     "outcome": "The figure comes from the fact file, which derived it from ithacarenting.com/collegetown listings. Nobody has recomputed it."
+    }
+   ],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/catherine-commons-collegetown-ithaca.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Owner line rewritten. It now says Welliver, the general contractor, titles its project page for Integrated Acquisition & Development Corp. (IAD), cited to Welliver, which I re-fetched today. The Cornell Review's Novarr Mackesey developer attribution stays and now carries its own citation.",
+    "Removed the inferred sentence 'That is a Collegetown-wide figure, not this building's rent.' after the Cornell Sun rent quote.",
+    "updated was already 2026-11-11; the accessed dates for Welliver and the Cornell Review were already 2026-11-11."
+   ],
+   "gaps": [
+    {
+     "item": "Cornell listing has no studio floor plans (minor, non-blocking)",
+     "tried": "Reviewed the note against the page text",
+     "outcome": "Left unchanged. The page attributes the range to the listing and tells readers to ask whether it is per bed or per unit; no rewrite required."
+    },
+    {
+     "item": "Review's 'scheduled for completion in August 2024' (minor)",
+     "tried": "Checked the sentence",
+     "outcome": "Left as is: it is already framed as what the Cornell Review reported."
+    }
+   ],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/can-you-have-a-pet-at-cornell-housing-rules.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Grad reader block: removed 'on East Hill' from the Maplewood sentence; the cited Cornell graduate housing page does not state it",
+    "Winston Square sentence: removed 'in northeast Ithaca'; the Winston Square FAQ only gives Winston Court",
+    "Table row for Collegetown Terrace: cut 'pet fees on request' to 'Cats and dogs allowed', since no source says fees are on request",
+    "updated was already 2026-11-11; sources and accessed dates unchanged because no claim was added"
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/collegetown-buildings-compared.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Full-for-2027-28 section: replaced unsupported '14 of its 67 ... as of Nov. 10' count with the two sold-out houses confirmed on ithacarenting.com/collegetown/ today (105 Dryden Court 8BR, 214 Dryden Road 14BR), with citation",
+    "The Ivy: changed to 'Nick Robertson and Charlie O'Connor (owner of Modern Living Rentals)'",
+    "Table: Lux & Lofts '106 units' replaced with 'Furnished' (confirmed on the marketplace listing fetched today)",
+    "Table: removed unsourced Collegetown Crossing row; meta updated from 12 to 11 large buildings",
+    "What to do next step 3: replaced unexplained 'certificate' step with 'Look up the landlord's record before you sign', which the landlord-checking guide link in the body covers",
+    "updated already 2026-11-11; all sources already accessed 2026-11-11"
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/cheapest-off-campus-housing-cornell.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Problem 1: removed the sentence 'Co-ops do not appear on Cornell Dining's list of housing that carries the meal-plan requirement.' I fetched the Cornell Dining meal plans page, the co-op overview and the second-year housing requirement page today. None of them says that co-op residents are exempt from a Cornell meal plan, so the reviewer's suggested rewrite could not be sourced.",
+    "Problem 1, figure label: changed 'Redbud co-op triple (no Cornell meal plan required)' to 'Redbud co-op triple, room only', because no fetched source supports the exemption.",
+    "Problem 2: removed the source-quality aside 'Ithaca Renting's medians come from one landlord that posts every price, and several sizes rest on one to three listings.'",
+    "Problem 3: removed 'Treat it as a ceiling for a shared apartment, since it comes from households that chose to report their bills.' and changed 'Even so, it changes' to 'It changes'.",
+    "Minor point: removed the orphan source requirements-qualified-university-recognized-campus-housing from the frontmatter because nothing in the body cites it.",
+    "updated was already '2026-11-11'. lint-content prints 0 matches and the em-dash count is 0."
+   ],
+   "gaps": [
+    {
+     "item": "Positive replacement for the co-op meal-plan sentence",
+     "tried": "Fetched the Cornell Dining undergraduate meal plans page, the cooperative housing page and the affiliated second-year housing requirement page today",
+     "outcome": "The Dining page lists which housing counts as on-campus (residence halls, West Campus House System, program houses, McGraw Place, Townhouse Community). It does not say that co-op residents need no meal plan, so the claim was removed rather than reworded."
+    }
+   ],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/collegetown-lease-dates-august-to-august.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Removed 'the largest Collegetown listing site' from the Sources paragraph; it now reads 'Ithaca Renting says its leases are one year long...' (re-fetched ithacarenting.com/collegetown today: 'Leases are for one year, beginning in June, July, or August. Each apartment has a pre-set starting and ending date')",
+    "Removed the unsupported sentence 'A private lease has no break at all.'",
+    "Lesser point: replaced 'most ... about Aug. 1 to July 31' in the dek, meta, glance line and opening with the Ithaca Renting wording (one year, starting June, July or August), and gave Aug. 1 to July 31 as the 209 Stewart Ave. example; changed H2 'Why do most...' to 'Why do many...'",
+    "updated stays 2026-11-11; Ithaca Renting accessed date was already 2026-11-11"
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/collegetown-apartments-guide-2027-28.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Problem 1: changed six rows that said 'labeled per unit, basis unclear' to 'ask whether per bed or per unit', the wording already used for Grand View House and 129 College Ave. The rows are 401-403 College Ave., 116 Delaware Ave., 802 E. Seneca St., 110 Highland Place and 112 Highland Place. For 526 Stewart Ave. Unit 23, the unit type now reads just '1BR'; the note about what the card shows is gone.",
+    "Problem 2: the other seven rows went from 'labeled per unit' to 'per unit' (126 College Ave., 113 Dewitt Place, 410 Dryden Road, 608 E. Buffalo St., 611 E. Seneca St. and West Shore Apartments). The 410 Stewart Ave. row went from 'the 8BR is labeled 2027-28' to '8BR leases for 2027-28'. 'labeled' and 'basis unclear' no longer appear anywhere in the file.",
+    "Problem 4: checked all 72 owner-of-record names in parentheses today against the NYS Tax Parcels Public feature service for Tompkins County (2025 roll year). All 72 match the parcel owner on record; a few addresses are filed as combined parcels, such as 216-24 Dryden Rd, 301&303 Eddy St and 702-710 State St E. The table intro now links the source ([NYS GIS Program Office](https://gis.ny.gov/parcels)). The Sources line under the table now names 'NYS Tax Parcels Public data for Tompkins County' instead of the county 2026 final roll, which could not be fetched. I fetched https://gis.ny.gov/parcels today; it lists Tompkins as available. It is now in the frontmatter sources with accessed: '2026-11-11'.",
+    "Problem 3 (404 check): checked the HTTP status of all 149 frontmatter source URLs today. 144 returned 200. Five returned 403 or 406, which are bot blocks rather than dead pages (rentcafe, thecornellreview and three nysenate.gov law pages). None returned 404.",
+    "updated was already 2026-11-11. Lint: 0 matches. Em dash count: 0."
+   ],
+   "gaps": [
+    {
+     "item": "accessed dates on the existing sources (most still say 2026-11-10)",
+     "tried": "Checked the HTTP status of all 149 URLs today",
+     "outcome": "A status check does not re-read each page's content, so I did not change those accessed dates. The 2026-11-11 date is only on sources whose content was actually read today."
+    },
+    {
+     "item": "Tompkins County 2026 final assessment roll (the county site)",
+     "tried": "Used curl on tompkinscountyny.gov/assessment and on the city-final-2026.pdf link",
+     "outcome": "Both returned 403 (Akamai Access Denied). I swapped in the NYS Tax Parcels Public data, which I did fetch, and checked all 72 owner names against it."
+    },
+    {
+     "item": "Ithaca College portal rows (the 'labeled per unit' rows)",
+     "tried": "None: the cited URL is the generic offcampushousing.ithaca.edu/listing page, which has no per-listing page to fetch",
+     "outcome": "I only reworded these rows, keeping the price and the per-unit basis the earlier pass recorded. The facts in them were not re-checked against a source today."
+    },
+    {
+     "item": "the 'studios' at 307 College Ave., sourced from the Urban Ithaca home page",
+     "tried": "None: the writer had already confirmed this source today (accessed 2026-11-11)",
+     "outcome": "Not re-checked."
+    }
+   ],
+   "unresolved": "Most frontmatter sources still carry accessed 2026-11-10. Today they were only checked for 404s (none are dead), not re-read, so their dates were not changed. Separately, the Ithaca College portal rows cite a generic listing URL, so their prices could not be re-checked against a source today."
+  }
+ },
+ {
+  "file": "housing/cornell-general-room-selection-timeslots-strategy.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Removed the FAQ sentence 'Rates shown earlier are projections that still need trustee approval.' None of the cited sources support it. The Room Selection FAQs fetched today has no 'trustee' text.",
+    "Kept 'Final rates for 2027-28 come out in March 2027, before the April round.' The Room Selection FAQs fetched today says final housing rates are published in March before the academic year. The updated date stays 2026-11-11 and the FAQ source's accessed date is already 2026-11-11."
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/balch-hall-vs-clara-dickson-hall-cornell.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Problem 1: removed the invented 'closed it for more than two years' claim. The renovation line now reads 'first overall renovation in six decades', matching the Cornell news page fetched today, in both the body and the Recent work table cell.",
+    "Problem 2: removed 'common landing spot when selection runs late' and the sophomore block's 'triples are what remain' advice. The Sun anecdote stays as a single reported case.",
+    "Problem 3: the page now says Balch is women only (Cornell's Balch page, fetched today, says 'Women only'). The lead, the table, the 'Who lives' section, the sophomore block and the closing advice now speak only to women, and 'ask for Balch' was dropped from the warm-weather advice.",
+    "Problem 4: removed 'Cars queue at A Lot'. The page now says arrival location and parking are on the Move-In Ticket in the Housing and Dining Portal after Aug. 1, as the North Campus move page fetched today states.",
+    "Problem 5: 'North Balch reopened in August 2024' now reads 'In July 2024, Cornell said North Balch would open to residents in August 2024 and South Balch in 2025'. 'Balch was rebuilt' now reads 'Balch has been renovated'.",
+    "updated stays 2026-11-11, and all sources already carry accessed 2026-11-11."
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/cornell-housing-costs-by-room-type.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Line 210: replaced 'Maplewood, the other graduate complex on Cornell land, is run by Greystar. Maplewood rents are on request from Greystar.' with 'Maplewood is an apartment community for graduate, faculty and professional students run by Greystar, and its rents are on request.' I checked this against the Greystar page fetched today (HTTP 200), which says the apartments are 'unique to Graduate, faculty, and professional students'. The page's Greystar source already had accessed 2026-11-11, and updated was already 2026-11-11."
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/cornell-fraternity-sorority-housing-2026-27.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Line 195 table source note: removed the unsupported claim that the other 13 MGFC chapters have no chapter house; now reads 'Of the other 13 MGFC chapters, 12 list the Office of Sorority and Fraternity Life at 136 Ho Plaza as their scorecard address.' (the reviewer's suggested wording, which matches the scorecard). The updated date was already 2026-11-11."
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/collegetown-landlords-who-owns-the-buildings.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Renamed the heading 'Who manages the most Collegetown buildings?' to 'Who are the main Collegetown managers?' (problem 1).",
+    "Removed every claim taken from the county roll, because the roll PDF still returns 403 today: the lede's pointer to the roll, Fane's 20 parcels, ENP Associates' 13, the A Collegetown Crossing LLC / 307 College Ave claim, glance line 2, the roll line in the reader block and the roll lookup in next step 1. Also removed the roll from the frontmatter sources, the dek and the meta (problem 2).",
+    "Removed 'the pattern is concentrated' and the paragraph 'Many buildings sit in single-purpose companies' (problem 3).",
+    "Dropped the derived '37 properties' from the Lambrou table row and from glance line 1. The row now reads '15 apartment listings, 16 houses of 3 to 24 bedrooms and 6 downtown units' (problem 4).",
+    "Replaced glance line 2 with The Ivy fact (52 units, nearly all leased before construction finished), which the Cornell Daily Sun source already on the page supports. Rewrote the lede and the 'Who owns' opening as advice to ask the manager which company owns the building and signs the lease. updated stays 2026-11-11."
+   ],
+   "gaps": [
+    {
+     "item": "County roll owner-of-record claims (Fane 20 parcels, ENP 13, A Collegetown Crossing LLC at 307 College Ave)",
+     "tried": "curl of the Tompkins County city-final-2026.pdf with a browser user agent",
+     "outcome": "403 (HTML error page). Removed the claims and the source instead of keeping them unverified."
+    }
+   ],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/cornell-move-in-day-dates-checklist.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Removed the unsourced 'Classes begin Aug. 24' timeline row",
+    "Cut 'dining begins with lunch' from the Aug. 17 timeline row",
+    "Removed checklist step 5 (U-Haul/trailer claim) and renumbered the last step to 5",
+    "Removed the housing@cornell.edu line from What to do next",
+    "Replaced 'in July' with 'after Aug. 1, when the Move-In Ticket becomes available', which the reviewer confirmed the cited North Campus page states",
+    "updated was already 2026-11-11"
+   ],
+   "gaps": [
+    {
+     "item": "Problem 6: the framing of 2026 facts as a checklist for the next move-in",
+     "tried": "The reviewer said this was not a policy violation and depended on fixes 1 to 5",
+     "outcome": "Left as is. The body already says fall 2027 move-in dates are not yet announced and points to the 2027 registrar dates"
+    }
+   ],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/cornell-ra-jobs-pay-housing-how-to-apply.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Cornell moved its RA pages, so the 404 URLs and the 2026-27 Wayback snapshots no longer apply. Replaced the cited position-description, selection-page and FAQ URLs (in frontmatter and body) with the live pages under /residential-life/housing/contact-cornell-housing/student-employment-cornell-residential-life/resident-advisor-ra-selection, all fetched 2026-11-11. The live pages are the 2027-2028 versions and support the stipend table ($3,930 / $4,030 / $4,130), the selection details (Oct. 13, 2026 open, Oct. 27 priority, Nov. 3 close, four essays of 450 words or less, info sessions Oct. 16/19/23/26, Nov. 2 conflict form), the 2027-28 appointment dates and the FAQ's 'approximately 200 RAs'.",
+    "Live position description prints the 2nd-semester stipend as '$3,93.00', so the 'Ask HRL' row stays. Meta changed to 'a $3,930 first-semester stipend'.",
+    "Took out the year-one figures that assumed the 2nd semester pays the 1st-semester rate ($7,860, $23,426). The glance line and lede now give the first-semester package of about $11,713 ($3,930 plus half of $15,566). In the value table, the year-one rows became a 'First-semester stipend $3,930' row, and the source note no longer states that assumption.",
+    "'By the numbers' now uses second-year stipends ($8,060): $954 left after Bear Traditional plus fee, a $21,804 swing, and $406 left on the Unlimited plan. Re-checked $7,056, $7,604, $50, $13,744 and $15,566 on the live Cornell Dining and housing-rates pages. Changed the reader block's swing to $21,804.",
+    "The on-call paragraph now cites the live FAQ, which gives the 7 p.m. to 8 a.m. hours, in-building 9 p.m. to 8 a.m. and the 15-minute response."
+   ],
+   "gaps": [
+    {
+     "item": "Second-semester RA stipend",
+     "tried": "Fetched the live 2027-2028 position description",
+     "outcome": "The page prints '$3,93.00*', so the table keeps 'Ask HRL' with the hrl-sl-selection email. No figure was invented."
+    }
+   ],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/cornell-room-swap-how-direct-swaps-work.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Removed unsourced demand claim 'A double in a popular hall trades more easily than a room most students are trying to leave.' from 'How do you request a direct swap?'",
+    "Removed unsourced sentence 'A request still waiting on the final acceptance at that moment doesn't go through.' from 'What can go wrong' item 1",
+    "Changed 'Each opens and closes at 10 a.m. Eastern time' to 'Each opens and closes at 10 a.m.' to match the room-change page",
+    "Removed the unsourced FAQ 'Can my roommate and I both swap to live together?' and its answer",
+    "updated already 2026-11-11; no sources added or removed, so frontmatter sources unchanged"
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/cornell-housing-waitlist-no-room-what-happens.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Renamed the heading 'What are my chances of getting off the waitlist?' to 'How do rooms open up on the waitlist?' so it matches what the section covers (contact details, cancellations, fee table, offer timing)",
+    "Changed the steps figure line to the Fall Housing Selection wording: 'List the areas and room types you would like to be considered for as rooms become available.' This drops 'including triples'",
+    "Removed the FAQ sentence 'The wider you rank, the more offers you can get.'",
+    "Changed 'rank every area you'd accept' to 'list the areas and room types you'd accept' in What to do next, to match the steps change",
+    "Reworded the Collegetown cost table caption to 'per bed in the shared houses, per unit for the studio'",
+    "updated was already 2026-11-11; sources were left unchanged"
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/cornell-student-storage-pickup-services.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Fetched http://www.bigredboxes.com/ today; it states all order statuses change to \"confirmed\" 48 hours before the appointment day. Rewrote the sentence in 'When do you have to book?' to: BRSS changes every order's status to [\"confirmed\" 48 hours before the appointment day](http://www.bigredboxes.com/).",
+    "Removed the unsupported 'BRSS has limited slots' clause because the fetched homepage does not say it.",
+    "Added http://www.bigredboxes.com/ to frontmatter sources with accessed 2026-11-11; updated was already 2026-11-11."
+   ],
+   "gaps": [
+    {
+     "item": "Storage Squad prices ($36/$45/$65/$75/+$20), $400 average, Room Return $750, 2011/40,000-box claims (reviewer's lesser flag)",
+     "tried": "Not refetched; the reviewer reported the page blocks automated fetchers (Incapsula/Cloudflare) and the figures match facts.csv. The fix list did not require a change.",
+     "outcome": "Left as is"
+    }
+   ],
+   "unresolved": "The Storage Squad figures could not be re-checked against the live page because it blocks automated fetchers. Everything else is settled."
+  }
+ },
+ {
+  "file": "housing/cornell-north-campus-new-dorms-vs-old-dorms.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Re-fetched all 16 frontmatter sources today (all 200) and bumped the 11 entries from accessed 2026-11-10 to 2026-11-11",
+    "AC table source line now reads 'as of Nov. 11, 2026'",
+    "Dek and image caption: 'the rest are corridor halls' changed to 'most other (North Campus) halls are corridors'",
+    "Intro: replaced 'The older halls are corridors too' with 'Most other halls are corridors, mostly without air conditioning; Anna Comstock Hall and Language House are suites, and the Townhouses are apartments.' (matches the configurations list in the body)",
+    "Fetched the Ruth Bader Ginsburg, Hu Shih and Barbara McClintock hall pages (first-year-undergraduates path), which show 504, 429 and 311 residents. Cited them inline and added them to sources with accessed 2026-11-11",
+    "Removed the '2,384 of 5,659-plus residents, about 42%' sentence because its inputs span hall pages that are not cited",
+    "updated stays 2026-11-11"
+   ],
+   "gaps": [
+    {
+     "item": "2,384 / 5,659 no-AC resident share",
+     "tried": "It would need resident counts from about a dozen hall pages that are not in sources",
+     "outcome": "Sentence removed, not softened"
+    }
+   ],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/cornell-program-houses-compared.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Fetched all 35 frontmatter source URLs with curl on 2026-11-11 (every one returned HTTP 200) and set accessed: '2026-11-11' on all of them in content/articles/housing/cornell-program-houses-compared.md",
+    "Veterans House paragraph: removed the sentence comparing two sources (2027-28 selection page lists 112 Edgemoor Lane) and 'Go by 625 University Ave.'; it now ends with the plain reader action 'Ask veterancommunity@cornell.edu which address applies to your year.' No Edgemoor reference remains on the page",
+    "Problem 3 (EEC founding-year line) was judged acceptable by the reviewer, so it was left as is; updated was already 2026-11-11",
+    "lint-content: 0 matches; em dash count: 0"
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/cornell-student-family-housing-ithaca.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Problem 1: removed the uncited phone number 607-255-5368. The sentence now tells undergraduates with a family to ask Cornell Housing about eligibility. The graduate housing page fetched today lists Hasbrouck in its On-Campus Housing section, so the 'listed under graduate and professional housing' wording stays.",
+    "Problem 2: dropped 'on North Campus'. The 12-month contract claim now cites the housing-rates page (Hasbrouck Family Options, 12-month contract). Rolling applications and the single/partner/family mix are cited to the graduate housing page, both fetched today.",
+    "Problem 3: renamed the heading 'How do partners and children get around?' to 'How does a partner get around?'. In the meta, replaced 'schools' with 'who can live with you', which a body section answers.",
+    "Problem 4: removed the uncited 'March or April' sentence and the uncited Collegetown rush sentence. 'When should you start?' now says to apply to Hasbrouck early because applications are rolling, citing the graduate housing page.",
+    "Problem 5: removed the unverifiable sentence about which buildings RentCafe's averages cover.",
+    "Problem 6: kept 'No 3BR units' for Hasbrouck. The housing-rates page fetched today lists only 1BR and 2BR family options. The reviewer marked this acceptable.",
+    "Both Cornell pages already had accessed 2026-11-11, and updated is already 2026-11-11."
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/cornell-summer-housing-options-rates-dates.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Co-op section: removed the unsupported quote \"often offer summer housing\", the claim that the page gives contacts 'for options and rates', and the 'Cornell publishes no summer co-op prices' sentence. The section now cites the rates-amenities-licenses page for the separate Co-op Housing for Summer 2026 license and the school-year co-op license through May 23, 2027 (dropped '2 p.m.', which is not on that page). It cites the cooperative-housing page for eight university-owned houses, each house handling its own membership, selection starting in early February and early November, and co-ops@cornell.edu / 607-255-3445.",
+    "Options table co-op row: 'Each house decides whether it has summer rooms' became 'Each house handles its own membership', and the cost cell 'On request from co-ops@cornell.edu' became 'Ask the house or co-ops@cornell.edu'.",
+    "Graduate reader block: replaced the unsupported 'Five co-ops, including Triphammer, Watermargin and Redbud...' sentence with the graduate housing page's statement that some co-ops are open to graduate students and that readers should contact the individual houses, now cited.",
+    "All three pages were fetched today (cooperative-housing, graduate housing, rates-amenities-licenses) and were already in the sources with accessed: 2026-11-11. The page was already set to updated: 2026-11-11."
+   ],
+   "gaps": [
+    {
+     "item": "Summer 2027 co-op availability",
+     "tried": "Fetched the rates-amenities-licenses page today",
+     "outcome": "It lists only a Co-op Housing for Summer 2026 license, so the page cites that license and makes no 2027 claim"
+    }
+   ],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/free-legal-help-cornell-renters.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Removed the unsupported sentence in the international student reader block claiming a landlord dispute does not affect visa or standing per Cornell Graduate School staff (no source fetched today supports it).",
+    "LawNY paragraph now cites the Cornell Law tenants' rights guide (source of (607) 273-3667, already in frontmatter, accessed 2026-11-11) alongside Cornell International Services (source of (315) 781-1465).",
+    "updated already 2026-11-11; title, slug, readers and images unchanged."
+   ],
+   "gaps": [],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/ganedago-hall-vs-toni-morrison-hall-cornell.md",
+  "kind": "fix",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Who lives in each: replaced the false 'Both halls appear on Cornell's first-year hall list' with 'Neither hall is on Cornell's first-year hall list' (linked to the first-year page, fetched today) and removed the unsupported random auto-allocation sentence",
+    "First-year reader block: replaced the unsupported 'cannot request / if you land in one' text with the fact that neither hall is on the first-year list and Cornell lists both as North Campus upper-level halls (cited upper-level page, fetched today)",
+    "Parent reader block: removed the unsupported 'same as any other residence hall' and 'same meal plan rules' claims; kept the $13,744 double rate, introduced by 'Cornell prices rooms by room type'",
+    "First-year housing source accessed date updated to 2026-11-11; updated stays 2026-11-11"
+   ],
+   "gaps": [
+    {
+     "item": "Table source line 'as of Nov. 10, 2026' (reviewer marked it minor)",
+     "tried": "Left as is: the configuration, dining and move-in sources behind it were last fetched 2026-11-10",
+     "outcome": "Unchanged, and not a policy violation"
+    }
+   ],
+   "unresolved": "none"
+  }
+ },
+ {
+  "file": "housing/cornell-student-veterans-housing.md",
+  "kind": "check",
+  "result": {
+   "changed": false,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "No edits needed. All facts the writer added were checked against pages fetched today, and every one is supported: (1) the Hasbrouck page (200) says Hasbrouck is for graduate and professional students; (2) the Meal Plans & Rates page (200) says undergraduates in on-campus housing, Program Houses included, must enroll in a meal plan; (3) the Undergraduate Meal Plans page (200) lists the Collegetown Meal Plan at $7,056 per year and open to 112 Edgemoor residents, plus the non-refundable $50 yearly fee; (4) the total adds up: $16,595 + $7,056 + $50 = $23,701. Both new source URLs return 200 and are in the frontmatter with accessed: 2026-11-11. No sources were replaced."
+   ],
+   "gaps": [],
+   "unresolved": ""
+  }
+ },
+ {
+  "file": "housing/hasbrouck-vs-maplewood-vs-off-campus-cornell-grad.md",
+  "kind": "check",
+  "result": {
+   "changed": false,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "No edits needed. I fetched and checked every fact the writer added or re-sourced on 2026-11-11, and each one is supported.",
+    "Ithaca Voice (added source, returns 200): online listings show Pinnacle two-bedrooms at about $3,000 a month, which matches line 137.",
+    "reedgroup Graduate Student Resources (returns 200): East Hill is a 15 to 30 minute walk from the Engineering Quad and about a 15 minute bus ride, on buses 17, 51 and 82. It also names March/April as the time to find an August lease. This matches lines 143 and 159.",
+    "Vet school housing page (returns 200): Maplewood is listed for Studio to 4BR at $1075 to $1330, and the page says it was updated as of February 2026. This matches the glance line, table and line 129.",
+    "Greystar page (returns 200): the phone number (607) 821-0248 matches line 127, and the page shows no rents.",
+    "Graduate Housing page (returns 200): it says housing applications are accepted on a rolling basis, which supports the glance line.",
+    "No sources were replaced. The one added URL resolves."
+   ],
+   "gaps": [],
+   "unresolved": ""
+  }
+ },
+ {
+  "file": "housing/ithaca-apartments-utilities-included.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Removed the Five Dewitt Place / Highland Place 'unlimited utilities' sentence. The writer had added a citation to the Ithaca College listings, but the feed rendered today (with Playwright) shows only 111 Dewitt Place, with no 'unlimited utilities' wording and no Highland Place entry.",
+    "East Pointe: added 'cable' back to the utility fee list. The East Pointe FAQ fetched today says the fee covers 'high-speed internet, cable, water, sewer, trash, and recycling', so the writer was wrong to remove it. The NYSEG electricity line is confirmed.",
+    "Set accessed to 2026-11-11 on the four sources fetched today: the Ithaca College listing, Ithaca Renting Collegetown, EnergySage and the Cornell graduate housing page.",
+    "Checked against today's fetches and left unchanged: the Maplewood row (the graduate housing page lists all utilities and an in-unit washer and dryer), the 210 Dryden Rd. sentence (supported by the Collegetown FAQ) and the EnergySage figures ($282 a month, $3,384 a year, 1,125 kWh, 25 cents vs 21 cents, based on bills from residents requesting quotes on its marketplace).",
+    "updated was already 2026-11-11"
+   ],
+   "gaps": [
+    {
+     "item": "Five Dewitt Place / Highland Place 'unlimited utilities'",
+     "tried": "Fetched the static offcampushousing.ithaca.edu/listing page (its listings load with JavaScript), then rendered it with Playwright and scrolled",
+     "outcome": "Not supported by the rendered feed, so the sentence was removed"
+    }
+   ],
+   "unresolved": "The table rows for 130.5 University and 123 Blair still cite the Ithaca College listings feed, and the writer did not re-source them. They were not re-checked here and are unchanged."
+  }
+ },
+ {
+  "file": "housing/ithaca-apartments-without-a-car-walkable.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Blanked the 'On request' price cells for Belle Sherman and East Hill, West Hill and Lansing. No fetched source says those prices are given on request, and today's Ithaca off-campus listings page shows a posted price for Lansing West Apartments ($1407 - $4889), so the label was unsupported. updated is already 2026-11-11.",
+    "Verified the added source https://ithacarenting.com/unit-details/?uid=461 (HTTP 200). It names Collegetown Center, 151 Dryden Road, which supports the linked address in the body. The pid=4 page confirms '150 feet to Cornell's entrance' and 2027-2028 studio prices starting at $1,695."
+   ],
+   "gaps": [
+    {
+     "item": "Medians in the table price column (e.g. $997.50, 74 buildings)",
+     "tried": "Fetched https://offcampushousing.ithaca.edu/listing today",
+     "outcome": "The page loads (200) but shows only a first page of listings, so the medians cannot be recomputed from it. They were not added or re-sourced in this rework (only the intro wording changed), so they were left as they were."
+    }
+   ],
+   "unresolved": "The three blanked price cells could get a real median if the full marketplace inventory is re-pulled for those areas."
+  }
+ },
+ {
+  "file": "housing/ithaca-housing-shortage-cornell-role.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "In 'How does the squeeze reach renters?', changed 'coveted units near campus go first' to 'competition is sharpest for coveted apartments near campus'. The 2021 Cornell Daily Sun article fetched today says the market is competitive 'especially for coveted apartments' near campus. It does not say those units go first. updated was already 2026-11-11."
+   ],
+   "gaps": [],
+   "unresolved": "None. Every source the writer added was fetched today and supports its line: the Cornell Review (net gain of 339 bedrooms for Catherine Commons; returned 200 with browser headers after a 406 to the plain request), the 2021 Sun article (seven weeks in, many students had already signed leases), and WAMC (Ithaca opted into Good Cause on July 10, 2024, and the law 'limits rent hikes'). Facts the writer re-sourced also check out: Ithaca Voice gives 77 units and 109 beds for The Pinnacle, the 2019 Sun column gives 73% renters and the $49,000 and $29,230 figures, and the 2019 Sun panel article quotes Off-Campus Living Manager Denise Thompson saying students can find housing later in the year. No URLs were replaced. The cornellsun.com URLs redirect to /article/ paths that return 200. The file is /Users/ajaysharma/Ads/campus-publication/content/articles/housing/ithaca-housing-shortage-cornell-role.md."
+  }
+ },
+ {
+  "file": "housing/lansing-triphammer-road-apartments.md",
+  "kind": "check",
+  "result": {
+   "changed": false,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "No edits needed. All three added sources (triphammerapts.com/faqs/, triphammerapts.com/amenities/, winstonsquareapts.com/faq/) returned 200 today and support the lines that cite them: 11- to 12-month standard leases with a monthly premium for shorter terms, free on-site parking and heat included at Triphammer, and at Winston Square no guarantors or co-signers, $45.00 monthly pet rent for one pet under 25 pounds, and heat, gas and trash included. The writer's other changes were wording removals that added no new facts."
+   ],
+   "gaps": [],
+   "unresolved": ""
+  }
+ },
+ {
+  "file": "housing/prospect-of-whitby-cooperative-cornell.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Graduate reader box: added '(female-identifying students only)' after Wait Avenue. Its Cornell page says the co-op is open only to female-identifying transfer, upper-level and graduate/professional students.",
+    "Checked against pages fetched today, all returning 200 and all supporting the page: Whitby is 'Open to transfer and upper-level students'; Wait Terrace, Triphammer, Watermargin and Redbud each list graduate students as eligible; the rising-sophomore page gives the March 15 co-op deadline for the 2027-28 application. No changes were needed there.",
+    "updated was already 2026-11-11, and all sources were already marked accessed 2026-11-11."
+   ],
+   "gaps": [],
+   "unresolved": ""
+  }
+ },
+ {
+  "file": "housing/new-construction-collegetown-buildings-since-2015.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Checked the writer's re-sourced claims by fetching each cited page today. The Cornell Review supports the Catherine Commons paragraph (Novarr Mackesey, eleven two-story houses, six buildings, about 360 units, net gain of 339 bedrooms, March 23, 2022 approval, completion scheduled for August 2024). Lambrou supports 238 Dryden Rd. being built in 2022 with $0.00 listed. Modern Living Rentals supports 707 E. Seneca being built in 2015 with six 3-bedroom units and 18 bedrooms. The Cornell Review URL returns 200.",
+    "Removed the claim that 307 College Ave. is the Collegetown Crossing project with five upper stories and a TCAT stop. The Sun article names Collegetown Crossing only in a photo caption and never ties it to 307 College Ave. Replaced it with the article's own statement that Josh Lower '05 developed 307 College Ave.",
+    "Changed accessed to 2026-11-11 for the 2016 Sun, Lambrou and Modern Living Rentals sources, which were fetched today. The updated date was already 2026-11-11."
+   ],
+   "gaps": [],
+   "unresolved": "The writer's notes flagged two items as out of scope, and I did not touch them. The table's 304 College Ave. address for Catherine Commons is not stated in the Cornell Review. The Ivy pricing paragraph has an unlinked '(The Cornell Daily Sun)' attribution."
+  }
+ },
+ {
+  "file": "housing/self-storage-near-cornell-prices-sizes.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Terms section: changed 'Dryden Road site is the closest of the four' to say the Dryden Road and Pinckney Road sites are each about 6 minutes from Cornell. The 'closest' claim was not supported because Bolt's Pinckney Rd page also says about 6 minutes from Cornell. Added a Pinckney Road citation and kept the 24-hour gate, free lock and month-to-month details, which the Dryden Rd page confirms.",
+    "Checked against live pages fetched today, no change needed: the 10 days' notice claim (Bolt month-to-month post, 200), the Pinckney Rd smallest unit of 5x8 with 5x8/5x10 at $106 and 10x10 at $128 (200), and the Lansing smallest unit of 5x10 at $99 with 10x10 at $122 (200). The one added source URL resolves. No sources were replaced."
+   ],
+   "gaps": [],
+   "unresolved": "The writer kept the StorageSeeker (Storage Sense) figures but noted the page returned 503, so they were not rechecked today. This pass did not recheck them either, because they were outside the writer's added or re-sourced items. File: /Users/ajaysharma/Ads/campus-publication/content/articles/housing/self-storage-near-cornell-prices-sizes.md"
+  }
+ },
+ {
+  "file": "housing/ithaca-apartment-buildings-mapped-compared.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Fixed the outer-ring sentence about Lansing West. It said the complex 'quotes its rent on request', but its floorplans page, fetched today, lists starting rents of $1,302 to $2,072 a month for one- to three-bedroom plans. The sentence now gives that range and cites https://www.lansingwestapts.com/floorplans/, which is already in sources with accessed 2026-11-11.",
+    "Changed the Lansing West table price cell from 'On request' to 'from $1,302 to $2,072, per unit', taken from the same floorplans page.",
+    "Cut 'with rent on request' from the Cliffside Terrace sentence, because the LiveHere page fetched today does not say that. It does list 36 units, so 'lists 36 units' stays.",
+    "Checked both replacement IthacaRents URLs (the ones ending in a trailing period). Both returned 200. The rows are confirmed: 115 Stewart Ave 2N at $1,562 with a lease start of 01/01/2027, and 5 Deibler Dr 5B at $1,250 with a lease start of 10/15/2026.",
+    "Checked the 'from Oct. 1, 2026' dates against today's pages. The 508 W. Clinton listing says '12 Months (starting 10/01/2026)'. The 219 Snyder Hill Apt A listing says 'Available from 10/01/2026'. Both were kept.",
+    "The updated date was already 2026-11-11, so it was left as is."
+   ],
+   "gaps": [
+    {
+     "item": "The 'On request' price label used across about 140 table rows",
+     "tried": "The writer applied it table-wide as the label for rows with no printed rent. I checked it only on the rows the writer named in prose: Cliffside Terrace and Lansing West.",
+     "outcome": "Left as the table convention. The Lansing West cell was wrong and is fixed. The other rows were not re-fetched one by one."
+    }
+   ],
+   "unresolved": "The page still says 61 of the 105 mapped buildings in the Cornell-City safety tool show a lapsed certificate date. The writer only reworded that line, so I did not re-fetch the tool to recount it."
+  }
+ },
+ {
+  "file": "housing/set-up-utilities-ithaca-apartment-nyseg-internet.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Heating sentence: 'Cornell suggests asking NYSEG for average annual heating bills before you commit, especially for West Hill cottages' -> 'Cornell warns that West Hill cottages are probably not insulated and suggests checking with NYSEG for average yearly heating bills' (matches the added ithaca-neighborhoods source, West Hill entry; 'before you commit' was not in the source)",
+    "Verified today (all 200): ithaca-neighborhoods (added source) supports the heating and West Hill line; FingerLakes1 supports 3.7% NYSEG electric, June 1 start and 'Final decisions on permanent utility rates are expected later this year'; Cornell checklist supports 'Arrange for telephone service and utilities to be turned on by the time you move in' (backs 'before your lease starts' and the intro); Dryden South 'What's Included' lists heat and hot water",
+    "updated already 2026-11-11; all sources accessed 2026-11-11"
+   ],
+   "gaps": [],
+   "unresolved": ""
+  }
+ },
+ {
+  "file": "housing/studio-apartments-ithaca-options-prices.md",
+  "kind": "check",
+  "result": {
+   "changed": false,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "No edits needed. I checked the two sources the writer added. Both resolve with HTTP 200 and support the lines that cite them.",
+    "Cornell Ithaca Neighborhoods page (fetched 2026-11-11): under its Downtown Ithaca entry it says 'A 20 to 30-minute uphill walk to campus'. This matches the downtown walk-time sentence.",
+    "City Centre floorplans page (fetched 2026-11-11): The Cayuga Studio is listed at $2,475.75 to $2,618.75 a month on a 15-month term at 301 E. State Street. This matches the City Centre sentence.",
+    "The writer's other changes only reword prices as 'on request' or tell the reader to ask the landlord. They add no new facts, so there was nothing more to check."
+   ],
+   "gaps": [],
+   "unresolved": ""
+  }
+ },
+ {
+  "file": "housing/veterans-house-cornell.md",
+  "kind": "check",
+  "result": {
+   "changed": false,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "No edits needed. I fetched the Veterans House page (HTTP 200) today. It supports every fact the writer added or re-sourced: the house is open to transfer, upper-level and graduate students; no prior or future military service is required; it lists the population types (student veterans, ROTC, military-affiliated family, government/policy/law/history/political science students); it has 26 residents including one Resident Advisor; every room is a super single; window AC units are free on request; it has 12-month occupancy; and the contact address is veterancommunity@cornell.edu. The source is already in frontmatter with accessed 2026-11-11."
+   ],
+   "gaps": [],
+   "unresolved": ""
+  }
+ },
+ {
+  "file": "money/cornell-international-student-jobs-on-campus-f-1-how-to-find.md",
+  "kind": "check",
+  "result": {
+   "changed": false,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "No edits needed. Checked the re-cited Federal Work Study line against international.globallearning.cornell.edu/node/182, fetched today: the page says foreign national students don't qualify for Federal Work Study and that many campus jobs are open to anyone, so the line stands.",
+    "Checked that the added source https://registrar.cornell.edu/academic-calendar resolves: it returns 200 after redirecting to registrar.cornell.edu/calendars-exams/academic-calendar, which carries the Academic Calendar. It is already in the frontmatter with accessed 2026-11-11.",
+    "The writer's other rewrites in the hours, SSN and common-mistakes sections tell the reader to check with International Services and add no facts. None of them describes what our sources lack."
+   ],
+   "gaps": [],
+   "unresolved": ""
+  }
+ },
+ {
+  "file": "housing/which-cornell-dorms-have-air-conditioning.md",
+  "kind": "check",
+  "result": {
+   "changed": false,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [],
+   "gaps": [
+    {
+     "item": "North Campus figure: 2,384 of 5,659 residents (about 42%) in halls with no room AC",
+     "tried": "Fetched the first-year residence halls listing it links to. The listing has no resident counts; it only says not every building has air conditioning. The writer did not add or re-source this figure, and the report says it was not re-verified.",
+     "outcome": "Left unchanged because it is outside the listed changes. Checking it would mean summing the resident counts on every North Campus hall page."
+    }
+   ],
+   "unresolved": "The page needed no edits. All three sources the writer added return 200 today. The Court-Kay-Bauer page says \"CKB Hall rooms have system-controlled Air Filtration\", which supports the table row. The Cornell Daily Sun article (2021-10-13) says Toni Morrison and Gan\u0119dag\u01eb residents praised the air conditioning and heating, which supports the first-year reader block. The residence-halls listing loads and says not every building has air conditioning. The writer also removed gap sentences and a table row, and that left no unsupported claims. The 2,384/5,659 figure was not re-verified (see gaps). Lint: 0 matches. Em dashes: 0. File: /Users/ajaysharma/Ads/campus-publication/content/articles/housing/which-cornell-dorms-have-air-conditioning.md"
+  }
+ },
+ {
+  "file": "housing/why-cornell-requires-sophomores-to-live-on-campus.md",
+  "kind": "check",
+  "result": {
+   "changed": false,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [],
+   "gaps": [],
+   "unresolved": "None. I fetched all six URLs today and each returned 200. Each change the writer made is supported by its source. Residential Policy: the studies link on-campus living to academic achievement, social-emotional adjustment and community, and the meal plan is there for proper nutrition and to guard against food insecurity. Chronicle 2022: new programming for first- and second-year students and building strong communities. Housing rates page: contracts are valid for the entire academic year and become binding when the housing license is signed. Housing search page: first- and second-year students should not sign a lease without an approved exemption. Meal plans page: Unlimited costs $7,604 per year. Wayback directory: Housing Operations, 607-255-5368, housing@cornell.edu. Both added sources are in the frontmatter with accessed: 2026-11-11. No edits were needed. File: /Users/ajaysharma/Ads/campus-publication/content/articles/housing/why-cornell-requires-sophomores-to-live-on-campus.md"
+  }
+ },
+ {
+  "file": "start/exempt-underclass.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "The page is at /Users/ajaysharma/Ads/campus-publication/content/start/exempt-underclass.md. The path given in the task (content/articles/start/...) does not exist.",
+    "Fetched all three sources today and all returned 200. The two Cornell Sun URLs redirect to cornellsun.com/article/... paths. The listed exemptions, the spring and fall exemption term, the rule against requests after a housing license, the one-year length, the early-September leasing and the October sophomore lease all match the fetched pages.",
+    "Rewrote the April 6, 2026 line to match the residential policy page: 'the deadline for all first- and second-year students to complete the AY 2026-27 Housing Application'. This replaces 'exemption requests included', which the source does not state. updated was already 2026-11-11."
+   ],
+   "gaps": [],
+   "unresolved": ""
+  }
+ },
+ {
+  "file": "start/first-year.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Page is at /Users/ajaysharma/Ads/campus-publication/content/start/first-year.md. The path in the task, content/articles/start/first-year.md, does not exist. The report entry is keyed as start/first-year.md.",
+    "The writer added 12 URLs to the frontmatter sources (all were already cited in the body) and replaced none. I fetched all 12 today and every one returned 200, so accessed: 2026-11-11 is accurate.",
+    "Each cited line checked against its fetched page and supported: C2C Dec 23, 2026 and Jan 6, 2027 booking links; TCAT pass expires Aug 31; OurBus stop moves to 235 S. Cayuga St on Mon Nov 9; OurBus names the Wednesday before Thanksgiving a peak day; Registrar Thanksgiving break Nov 25 to 29; Dec 1 winter break housing deadline; Dec 20, 2 p.m. winter closing; co-op rounds in early November and early February; Mar 15 Greek affirmation and Apr 6 application, with April Rising Sophomore selection; May 17, 2 p.m. summer closing.",
+    "Housing date line for late August to October of sophomore year: the old wording was 'Collegetown leasing for junior year opens, and many students sign by October'. The two Cornell Daily Sun pages do not say that. It now reads 'students start looking for junior-year Collegetown leases, and some rental agencies begin renting in early September', which the Sun 2022 article supports. updated was already 2026-11-11.",
+    "Lint finds 0 matches and the em dash count is 0. Title, slug, reader keys and image are unchanged."
+   ],
+   "gaps": [],
+   "unresolved": "The opening paragraph says the junior-year lease 'will be decided around October of sophomore year'. It has no citation and is only loosely backed by the Sun pages. It was not part of the writer's change, so I left it alone. The task's page path (content/articles/...) is wrong; the real file is content/start/first-year.md."
+  }
+ },
+ {
+  "file": "datasets/ithaca-nyc-bus-fares-nov-2026.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "C2C account sentence: 'Cornell opened a new C2C reservation system on Nov 4, 2026' changed to 'set to launch Nov 4, 2026, books 2027 travel', because the C2C FAQ (fetched 2026-11-11, 200) says only that the system is scheduled to launch then. The new-account claim for all riders is confirmed.",
+    "Caveat 'The C2C surcharge is temporary': removed 'and has announced no end date', which stated an absence. The C2C rates page (fetched 2026-11-11, 200) confirms the temporary $6 fuel and toll surcharge and the $101/$93.50/$86 fares.",
+    "Confirmed with no edit: the FingerLakes1 article (200) says OurBus moves from East Seneca St to 235 S. Cayuga St on Monday, Nov 9. The internal Thanksgiving premium dataset says 27.9% to 37.9%, mean +33.4%. Step 8's per-mile divisions are correct. updated was already 2026-11-11, and all sources show accessed 2026-11-11."
+   ],
+   "gaps": [
+    {
+     "item": "Wanderu route page (source for rows 1 to 6 and the monthly-signal caveat)",
+     "tried": "The writer ran curl on 2026-11-11; I did not refetch it.",
+     "outcome": "The writer got a 403 bot block, not a 404. The page was kept, and those figures are 2026-11-08 readings as as_of states. Its 'accessed: 2026-11-11' was not confirmed by a successful fetch today."
+    }
+   ],
+   "unresolved": "Page is at content/datasets/ithaca-nyc-bus-fares-nov-2026.md, not content/articles/datasets/. Wanderu figures could not be checked again today because of the 403."
+  }
+ },
+ {
+  "file": "datasets/ithaca-bus-fares-by-route-nov-2026.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "The page is at content/datasets/ithaca-bus-fares-by-route-nov-2026.md, not content/articles/datasets/. Edited it in place.",
+    "Swapped the C2C source the writer added. The c2c-rates page (fetched today) lists only prices and does not say the bus runs only to Manhattan. Both the body link and the frontmatter source now point to .../campus-campus-bus-service/c2c-departure-schedule, fetched today. That page shows the C2C's only NYC stops: Weill Medical at 1300 York Ave and the Cornell Club on East 44th St.",
+    "The Boston 330-mile distance in method step 6 was re-sourced to Rome2rio, but the cited rome2rio.com/s/Cornell/Boston page is for Cornell, WI (about 1,326 miles). Step 6 now links rome2rio.com/s/Ithaca/Boston, fetched today, which gives Ithaca, NY to Boston road distance of 330.7 to 332.6 miles. That URL was added to the sources with accessed: 2026-11-11.",
+    "Changed the row 9 note to 'Rome2rio Ithaca to Boston driving distance (about 330)' in both the page table and the companion CSV, so they still match.",
+    "Left updated: 2026-11-11 as it was. Lint found 0 matches and the em dash count is 0."
+   ],
+   "gaps": [
+    {
+     "item": "Rome2rio Cornell/Boston source, used for row 10 (OurBus 20 to 95, about 8 h 32 min, plus the FlixBus and Amtrak figures)",
+     "tried": "WebFetch of https://www.rome2rio.com/s/Cornell/Boston today (curl gets 403)",
+     "outcome": "The page is for Cornell, WI, not Ithaca. The writer did not add this row today, so it is outside this pass and I left it unchanged. Its figures need checking against rome2rio.com/s/Ithaca/Boston."
+    }
+   ],
+   "unresolved": "Row 10 of the table (and the matching CSV row) still cites rome2rio.com/s/Cornell/Boston, which resolves to Cornell, WI. Its OurBus, FlixBus and Amtrak planner figures may be for the wrong town and should be re-checked or removed in a follow-up pass."
+  }
+ },
+ {
+  "file": "start/off-campus.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "File is content/start/off-campus.md (not content/articles/start/). The writer only added a frontmatter sources list; I fetched all 10 URLs today.",
+    "Verified as supported: FingerLakes1 (Nov 9 OurBus/TCAT East Seneca stop moves), Cornell parking-students (no annual permit refunds after March 31, prorated schedule; commuter permits prorate daily from Aug 16), City of Ithaca 731 (residential permits valid through July 31), Cornell Law tenants' advocacy (heat season Sept 15 to May 31), Cornell Sun 2022 op-ed (August leases decide by December under 120 days), NY RPL 216 (notice 30 to 90 days before lease end), Cornell SCL moving-and-out (two weeks prior: schedule final inspection, change address), NY GOL 7-108 (14 days after vacating). Both nysenate.gov pages load with a plain curl user agent.",
+    "Odd/even line: ecode360.com/8395630 returned 403 to curl and WebFetch. I swapped the source for City of Ithaca page 727 (Parking Regulations/Violations), which I fetched today. It confirms Nov 1 to Apr 1, enforced only when needed, for example during a snow event. I updated the wording and the frontmatter source to match.",
+    "Permit sales line: fcs.cornell.edu/node/17809 returned 403, so the 'Early Aug (Tue Aug 4, 2026, 9 a.m.)' sale-opening date could not be checked and was removed. I changed the line to the supported 'Aug 16: Cornell student commuter permit prices start prorating daily' and cited the parking-students page. I also took node/17809 out of the frontmatter sources.",
+    "Sun line: the op-ed never says Mehler sponsored the 120-day rule. I replaced 'the 120-day rule's sponsor ... (his example)' with 'Common Council member Patrick Mehler, writing in 2022', which the article supports.",
+    "updated was already 2026-11-11. Title, slug, reader keys and images were not changed. lint-content.py found 0 matches and the em dash count is 0."
+   ],
+   "gaps": [
+    {
+     "item": "Cornell 2026-27 student permit sale opening date (Aug 4, 2026, 9 a.m.)",
+     "tried": "curl with a browser user agent and with a curl user agent, WebFetch on fcs.cornell.edu/node/17809; checked the parking-students page for a sale date",
+     "outcome": "403 every time and no other fetched page gives the date, so the claim was removed from the page"
+    },
+    {
+     "item": "ecode360.com/8395630 (Ithaca code, odd/even)",
+     "tried": "curl with two user agents and WebFetch",
+     "outcome": "403; replaced with City of Ithaca page 727, which supports the claim"
+    }
+   ],
+   "unresolved": "The file changed on disk after my edit (a harness notice). I did not re-read it to see what changed. The intro paragraph's claims ('most likely ending July 31', 'campus resident permits are not open to you') have no inline citation; they are not new or re-sourced today, so I left them alone."
+  }
+ },
+ {
+  "file": "datasets/cost-of-getting-around-cornell-2026-27.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "Row 6 note (page and companion CSV): 'unlimited rides for a month from first use; TCAT fare page updated 2026-09-04' is now 'unlimited rides for a month counted from the first day the pass is used'. On TCAT's page, the 'Updated 9/4/26' stamp sits at the end of the fare-capping section and does not date the whole page.",
+    "Caveats, 'Prices can change': deleted 'TCAT last updated its fare page on 2026-09-04.' for the same reason.",
+    "Checked today and supported: TCAT Monthly $45.00 and the period-pass wording (tcatbus.com/fare-pass-options, read in a browser; it returns 403 to curl and WebFetch). Cornell's permit and OmniRide prices display at purchase and prorate (permits daily, OmniRide monthly). Cornell's parking page says first come, first serve and encourages walking, biking, rideshare and TCAT. Ithaca Carshare adds 8% NY sales tax and a 12% rental tax to hourly and mileage charges (rates and students-commuters pages).",
+    "updated was already 2026-11-11. Every source already had accessed 2026-11-11, and the file is content/datasets/, not content/articles/datasets/."
+   ],
+   "gaps": [
+    {
+     "item": "TCAT fare page update date 2026-09-04",
+     "tried": "Opened tcatbus.com/fare-pass-options in a browser and read the full text",
+     "outcome": "The 'Updated 9/4/26' stamp belongs to the fare-capping section only. The claim that it dates the whole page was removed from row 6 and the caveats."
+    }
+   ],
+   "unresolved": "The replacement URL https://tcatbus.com/fare-pass-options loads in a browser but returns 403 to curl and WebFetch. That will look like a failure to automated link checkers."
+  }
+ },
+ {
+  "file": "start/parent.md",
+  "kind": "check",
+  "result": {
+   "changed": false,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "No edits needed. The page is at /Users/ajaysharma/Ads/campus-publication/content/start/parent.md, not the content/articles/start/parent.md path in the task. All 4 added sources returned HTTP 200 today.",
+    "Verified commencement.cornell.edu: 'May 28-30, 2027' and the Class of 2027 ceremonies on Saturday, May 29, 2027 at Schoellkopf Field.",
+    "Verified alumni.cornell.edu/reunion: 'Reunion 2027 - June 10-13'.",
+    "Verified the rising-sophomores page: it covers 2027-2028, and the application deadline and second-year exemption requests are both due April 4 at 11:59pm.",
+    "Verified the rising-juniors/seniors page: the 2027-28 application opens September 1 and closes September 27, and students must apply by September 27, 2026."
+   ],
+   "gaps": [],
+   "unresolved": "The '(Apr 6 in 2026)' note on the sophomore deadline line was on the page before today's rework, and today's sophomore source does not state it. I left it as is because the writer did not add it. The report's Family Weekend 2027 gap stands: no line was added for it."
+  }
+ },
+ {
+  "file": "cornell-housing-license-cancellation-fee-calculator/tool.md",
+  "kind": "check",
+  "result": {
+   "changed": false,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "No edits needed. The path in the task does not exist; the page is at /Users/ajaysharma/Ads/campus-publication/content/tools/cornell-housing-license-cancellation-fee-calculator/tool.md, and that is the file the report entry covers.",
+    "Line 76 (2026 Greek in-house affirmation by March 15, 2026; Spring Housing Selection for Rising Sophomores in April): residential-policy page fetched today (200) says both.",
+    "Line 77 (co-op license binding for the whole term; cancellation for withdrawal, leave, academic internship, graduation or study in absentia; written petition in the housing portal; per diem charge for days occupied; releases for other reasons only in exceptional circumstances and may carry a cancellation fee): the added source, Co-op Housing 2026-2027 Terms and Conditions, fetched today (200), says all of this.",
+    "Line 75 is advice to the reader to contact Housing Operations and adds no fact. Line 42 narrows the earlier wording and adds no fact. No sources were replaced, so there were no replacement URLs to check.",
+    "lint-content.py found 0 matches and the em dash count is 0."
+   ],
+   "gaps": [],
+   "unresolved": ""
+  }
+ },
+ {
+  "file": "datasets/cornell-transfer-rules-by-college-2026-27.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "File is at /Users/ajaysharma/Ads/campus-publication/content/datasets/cornell-transfer-rules-by-college-2026-27.md (not content/articles/datasets/). Confirmed all 5 cited replacement/added URLs resolve with HTTP 200 today (Dyson AEM requirements, Brooks external transfers, CALS transfer applicants, Duffield requirements, Tatkon college links).",
+    "Reversed a writer error: the live Dyson AEM page (fetched today) says external transfers 'should have a minimum 3.5 GPA' and good academic standing in each previous semester. Dyson row GPA cell now reads '3.5 and good academic standing in each previous semester', gpa_kind 'minimum'.",
+    "Updated the dependent text: opening bold line now names CALS, Dyson and AAP as printing a minimum, and only A&S and Engineering publish no figure; 'What the table shows' minimum/none lists; method step 9 counts (3 minimum, 2 typical, 2 competitive, 2 no published figure); caveat 'Only CALS, Dyson and AAP print a floor.'",
+    "Dyson contact cell (Dyson_OSS@cornell.edu) is supported by the Tatkon page, not the Dyson page, so I added an inline Tatkon Center link (already in the frontmatter sources).",
+    "Confirmed against fetched pages: Dyson 15 test-credit cap and no test credit for calculus, statistics, micro or macro (those taken in college), March 15 for fall, C or better (not C-), high-school-taught college courses excluded, no interviews; Brooks BROOKS_ADMISSIONS@cornell.edu / 607-254-3451, no articulation agreements, Brookscrediteval syllabus review, evaluation one to three weeks after acceptance, 3.5 competitive; CALS rule that external transfers cannot switch to AEM or add it as a double major; Engineering CS 1110/CS 1112 on major lists; Engineering Advising adv_engineering@cornell.edu on the Tatkon page.",
+    "Applied the same Dyson GPA fix to the companion content/datasets/cornell-transfer-rules-by-college-2026-27.csv so it matches the page. updated was already 2026-11-11. Lint shows 0 matches and the em dash count is 0 in both files."
+   ],
+   "gaps": [
+    {
+     "item": "Dyson standing limit (first-year, sophomore or rising junior only; current juniors and seniors not eligible) and the B-or-better course expectation on the live Dyson page",
+     "tried": "Dyson AEM application-requirements page fetched today",
+     "outcome": "Supported but not added. The task was to fix only what was listed, so the standing_limits cell stays blank."
+    }
+   ],
+   "unresolved": "The writer's report says the Dyson 3.5 GPA was not on the live page. It is there, in the page's transfer FAQ. Other pages from the same writer pass may have removed facts the same way and could be worth a spot check. The task path content/articles/datasets/... does not exist. The page is at content/datasets/."
+  }
+ },
+ {
+  "file": "before-break-travel-checklist/tool.md",
+  "kind": "check",
+  "result": {
+   "changed": true,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "content/tools/before-break-travel-checklist/tool.md (the page lives under content/tools, not content/articles): in the OurBus bags table row, added 'in busy periods' before '2 large bags guaranteed only with 2 seats'. The Cornell Sun 2024 article limits that guarantee to busy travel periods.",
+    "I checked the rest against pages fetched today and left it unchanged. ITH long-term parking is $8.00 for 5 to 24 hours and $40.00 weekly (flyithaca.com/parking). SYR economy has a $14.00 daily max (syrairport.org/parking). The 2026 closing facts all match the closing notice page: 2 p.m. Sun Dec 20, the $60.00 an hour charge, the Mon Dec 7 portal request, brunch Dec 20 and lunch Jan 19, and the 9 a.m. Tue Jan 19, 2027 reopening. That URL now redirects to the winter-break-closing-checklist page and returns 200. The city page supports odd/even from Nov 1 to Apr 1, 7 p.m. to 6 a.m., enforced when needed, and the 72-hour abandoned-vehicle rule.",
+    "Replacement URL https://www.cityofithacany.gov/727/Parking-Regulations-Violations returns 200 and supports the claims in its row. Of the 13 other added frontmatter URLs, 12 return 200."
+   ],
+   "gaps": [
+    {
+     "item": "Frontmatter source https://assembly.cornell.edu/resolutions/student-assembly/sa-r83-2025-2026 carries accessed: 2026-11-11",
+     "tried": "Fetched it today with a browser user agent",
+     "outcome": "Returned 403, so it was not read today. The page body does not use it (only tool.html links it), so I left it in place. Its accessed date cannot be confirmed as today."
+    }
+   ],
+   "unresolved": "The assembly.cornell.edu R83 entry's accessed: 2026-11-11 date is unverified because the site returns 403 to automated fetches. Decide whether to keep it, re-date it from a manual visit, or drop it along with its tool.html link. I did not check tool.html's content."
+  }
+ },
+ {
+  "file": "ith-or-syr-trip-cost-calculator/tool.md",
+  "kind": "check",
+  "result": {
+   "changed": false,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [],
+   "gaps": [
+    {
+     "item": "Task path content/articles/ith-or-syr-trip-cost-calculator/tool.md does not exist",
+     "tried": "Listed the directory and read the report entry, which names the file ith-or-syr-trip-cost-calculator/tool.md",
+     "outcome": "Checked /Users/ajaysharma/Ads/campus-publication/content/tools/ith-or-syr-trip-cost-calculator/tool.md instead. tool.html was not reviewed because it was outside the task."
+    }
+   ],
+   "unresolved": "Nothing needed fixing. Every claim the writer reworked was checked today against the live pages, and all three returned 200. flyithaca.com/taxis lists the companies with \"For Reservations and Pricing Call\" and online booking or quotes, which supports the new taxi line. flyithaca.com/parking shows the $8 and $9.50 rates for 5 to 24 hours and the $40 and $48 weekly rates, plus the parking line 607-220-4699. syrairport.org/parking/ shows the daily maximums ($14 Red and Purple, $16 Blue, $22 Garage) and says the $2.99 booking fee is non-refundable. The page was left unedited and its updated date was not touched. The linter finds 0 matches and the page has 0 em dashes. The only new source URL is flyithaca.com/taxis; it resolves and is listed in the frontmatter with accessed: 2026-11-11."
+  }
+ },
+ {
+  "file": "should-i-bring-a-car-cornell-ithaca-cost/tool.md",
+  "kind": "check",
+  "result": {
+   "changed": false,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "No edits needed. The page is at /Users/ajaysharma/Ads/campus-publication/content/tools/should-i-bring-a-car-cornell-ithaca-cost/tool.md (content/tools, not content/articles).",
+    "Checked on fcs.cornell.edu parking-students (fetched 2026-11-11, 200): 'permits prorate beginning August 16. Annual permits are valid through August 15' supports the Permit year row and the B permit 'prorates daily from Aug 16' cell.",
+    "Checked on ithacacarshare.org/rates (200): a full-width 'Always included: Gas & EV Charging, Maintenance, Insurance' row sits under both the Just In Case and It's My Car blocks, which supports line 125. The rates page also supports the $20 per driver fee 'for all membership applications', the higher mileage rates for vans (44c) and trucks (52c) against 42c for cars, and the 8% + 12% tax on hourly and mileage charges for each trip.",
+    "Checked on ithacacarshare.org/students-commuters (200): $30/year and $310/year are the 'Membership fee students & commuters' rates, which support both 'Students and commuters' cells.",
+    "The replacement URL (fcs.cornell.edu parking-students) resolves with 200 and was already in the sources with accessed 2026-11-11. The removed fcs.cornell.edu/node/17809 source is no longer cited anywhere in the body."
+   ],
+   "gaps": [],
+   "unresolved": ""
+  }
+ },
+ {
+  "file": "omniride-break-even-calculator/tool.md",
+  "kind": "check",
+  "result": {
+   "changed": false,
+   "lint_clean": true,
+   "emdash_count": 0,
+   "changes": [
+    "No edits needed. The page is at /Users/ajaysharma/Ads/campus-publication/content/tools/omniride-break-even-calculator/tool.md, not content/articles/. The only replacement URL (https://web.archive.org/web/20261025111637/https://tcatbus.com/fare-pass-options) returned 200 today. It supports every claim cited to it: the $1.50 fare, the $0.75 half fare for riders 60 and over and riders with a disability, the $3 daily cap reached after two $1.50 fares, the cap on the same contactless card, digital wallet or rechargeable Tcard, no cap for cash, the Tfare app, disposable Tcards or period passes, 'Updated 9/4/26', cash exact change only, the $45 monthly pass and the $20 15-ride card. The source is in the frontmatter with accessed: 2026-11-11."
+   ],
+   "gaps": [],
+   "unresolved": ""
+  }
+ }
+]

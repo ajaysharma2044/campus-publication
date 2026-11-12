@@ -2,7 +2,7 @@
 title: 'Biking in Ithaca: hills, theft and where to buy a bike'
 mode: answer
 dek: Ithaca's hills make a pedal-assist bike or the front rack on a TCAT bus worth considering, and theft makes the lock matter more than the bike.
-meta: 'Biking in Ithaca near Cornell: how steep the hills are by neighborhood, what bike theft looks like, when Bikeshare beats buying, and where to start looking.'
+meta: 'Biking in Ithaca near Cornell: walk time and slope direction by neighborhood, what bike theft looks like, when Bikeshare beats buying, and where to start looking.'
 primary_query: biking in Ithaca hills where to buy a bike Cornell
 topic: getting-around
 school: cornell-university
@@ -75,7 +75,7 @@ Campus sits on a hill above the town, so most trips from the flats climb. Cornel
 | Fall Creek | 0.5 to 1 mile | 20 to 30 minutes, uphill |
 | Downtown and The Commons | 0.5 to 1.5 miles | 20 to 30 minutes, uphill |
 | South Hill | 1.5 to 3 miles | 15 minutes downhill to downtown, then transit |
-| West Hill | 4 miles | Rural; not practical on foot |
+| West Hill | 4 miles | Rural |
 
 Judge a hill by walking it before you sign a lease. The coming-home ride is the easy half. The ride up is where a standard bike loses its appeal.
 
@@ -88,7 +88,7 @@ Pay as you go is [$1.50 to start plus $0.25 a minute](https://www.ithacabikeshar
 If you cannot decide, try Bikeshare for a month on your real route. If you ride at least four days a week, you will have spent enough to justify a bike of your own.
 
 ```reader "If you're a first-year in a North Campus or West Campus dorm"
-You can reach most places on foot or by TCAT, and first-years ride TCAT free at any hour. A bike is optional. Dorm bike storage is limited to external racks and sprinklered bike rooms, so ask your residence hall staff before you bring one.
+You can reach most places on foot or by TCAT, and bus fare is free for the first year for all new students ([The Cornell Daily Sun](https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall)). A bike is optional. If you bring one, park it at a bike rack or a designated residence hall storage area ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus)).
 ```
 
 ```reader "If you're renting in Fall Creek or downtown"
@@ -99,7 +99,7 @@ You face a 20 to 30 minute uphill walk, so a bike or Bikeshare earns its cost. P
 
 Bad enough to buy the lock before the bike. Campus police reported 51 bike and scooter thefts worth at least $41,177 in fall 2024, with one arrest and four bikes recovered intact ([The Cornell Daily Sun](https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far)). Cornell advises registering your bike and using a U-lock.
 
-Registration is free and urged, not required, through Cornell Commuter and Parking Services ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus)). Lock the frame and a wheel to a designated bike rack. Locking to a railing, signpost, tree or pole can get your bike impounded. Rules for e-bikes, charging and where you can ride are in the [bike and scooter rules guide](/cornell/getting-around/cornell-bike-ebike-scooter-rules-theft/).
+Registration with Cornell Commuter and Parking Services is free ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus)). Lock the frame and a wheel to a designated bike rack. Locking to anything that isn't a bike rack can get your bike impounded. Rules for e-bikes, charging and where you can ride are in the [bike and scooter rules guide](/cornell/getting-around/cornell-bike-ebike-scooter-rules-theft/).
 
 ## Does the TCAT bike rack help with hills?
 
@@ -107,7 +107,7 @@ Yes. Every TCAT bus has a front bike rack at no extra fare, according to Cornell
 
 ## Where can I buy a bike in Ithaca?
 
-Cornell advises having your bike adjusted at a local bike shop for a safer fit ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus)), and Bike Walk Tompkins keeps a Local Bike Shops page and a Retail Shop at Swamp City Community Cycles. To shop, search a map app for bike shops near your address and ask each one about used and student-priced bikes. Bike Walk Tompkins runs e-bike classes at Swamp City Community Cycles, 803 Cascadilla St., and requires pre-registration ([Bike Walk Tompkins](https://www.bikewalktompkins.org/e-bikes)). Call before you go.
+Cornell advises having your bike adjusted at a local bike shop for a safer fit ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus)). To shop, search a map app for bike shops near your address and ask each one about used and student-priced bikes. Swamp City Community Cycles is a community bike shop at 803 Cascadilla St., where Bike Walk Tompkins runs e-bike classes that require pre-registration ([Bike Walk Tompkins](https://www.bikewalktompkins.org/e-bikes)). Call before you go.
 
 Before you buy, check these three things:
 
@@ -115,7 +115,7 @@ Before you buy, check these three things:
 2. Brakes and gears work, because you will use both on every descent and climb.
 3. A U-lock fits in your budget as an extra, not an afterthought.
 
-## Is winter biking realistic?
+## How does Cornell clear snow on campus?
 
 Cornell Grounds clears campus roads, parking lots, steps and sidewalks and applies salt and grit to control ice, though response times vary with the rate of snowfall. Report unsafe or slippery conditions anywhere on campus to Customer Service at 607-255-5322 ([Cornell Facilities](https://fcs.cornell.edu/services/repair-maintenance/snow-removal)). The [winter biking guide](/cornell/getting-around/biking-in-ithaca-winter-cornell/) covers gear and routes.
 

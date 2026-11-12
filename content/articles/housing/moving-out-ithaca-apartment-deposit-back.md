@@ -7,7 +7,7 @@ primary_query: moving out of apartment Ithaca checklist deposit back
 topic: housing
 school: cornell-university
 type: checklist
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 229
 queue_id: q-housing-0033
 rewrites: /housing/moving-out-ithaca-apartment-deposit-back/
@@ -24,64 +24,64 @@ tools:
 sources:
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
   title: New York General Obligations Law 7-108, NY Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits
   title: Security Deposits, Cornell Law School Tenants Advocacy Program
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out
   title: Moving In and Out, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/235-I
   title: New York Real Property Law 235-i, NY Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants
   title: Tenants' Rights, New York State Attorney General
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags
   title: Trash & Yard Waste Collection Tags, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/136/Exterior-Property-Maintenance
   title: Exterior Property Maintenance, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: http://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management
   title: Recycling and Materials Management, Tompkins County
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/731/Permit-Issuance
   title: Permit Issuance, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nyseg.com/support/moving-help
   title: Moving help, NYSEG
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Building Issues and Maintenance, Cornell Law School Tenants Advocacy Program
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources
   title: Campus Living Resources, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/
   title: Tenants' Rights Guide, Cornell Law School Tenants Advocacy Program
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease
   title: Understanding Your Lease, Cornell Law School Tenants Advocacy Program
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing
   title: Landlords and advocates grapple with Good Cause Eviction law at public hearing, The Cornell Daily Sun, July 10, 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/living-campus
   title: Living Off Campus, Cornell Financial Aid
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sparefoot.com/Ithaca-NY-self-storage.html
   title: Self Storage in Ithaca, NY, SpareFoot
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
   title: Storage and Shipping Options, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961
   title: Dryden South listing, Cornell Off-Campus Housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/226-B
   title: Real Property Law Section 226-b, NY Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Dryden Road in Collegetown, looking north from College Avenue, with storefronts and parked cars
@@ -127,7 +127,7 @@ Cornell's Off-Campus Living office lays out a [two-stage checklist](https://scl.
 1. **Two weeks before.** Confirm your move-out date and time, schedule the final inspection, reread the lease and change your address with the Post Office.
 2. **One week before.** Schedule disconnection of electric, gas, phone, internet, cable and garbage service if they are in your name. Clean. Give the landlord a forwarding address.
 
-On move-out day, photograph every room, every appliance and the inside of the fridge and oven, with dates, and return every key. Cornell's [checklist page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out) has no step for the day itself, so this one is advice. For a lease that ends May 31, move every date back two months.
+On move-out day, photograph every room, every appliance and the inside of the fridge and oven, with dates, and return every key. For a lease that ends May 31, move every date back two months.
 
 ## How do you ask for the move-out inspection?
 
@@ -161,7 +161,7 @@ In a building with six or more units, the deposit sits in an interest-bearing Ne
 
 In the City of Ithaca, every bag or can of trash needs a tag. Tags cost $6.00 each or $36.00 for a sheet of six, effective Jan. 1, 2026, with one tag per container up to 35 pounds ([City of Ithaca](https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags)). Garbage can go out no more than 24 hours before pickup, and the City bars couches, mattresses and appliances stored outdoors ([City exterior property rules](https://www.cityofithacany.gov/136/Exterior-Property-Maintenance)). The [trash tags, snow and noise guide](/cornell/housing/ithaca-trash-tags-snow-noise-rules-renters/) has pickup days and where to buy tags.
 
-Furniture and bulk items can go to the county's [Recycling and Solid Waste Center at 122 Commercial Ave.](http://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management), open Monday to Saturday, 7 a.m. to 3:30 p.m. Its fees are not listed online, and a high-visibility vest is required to enter. Call the center before you load a truck.
+Furniture and bulk items can go to the county's [Recycling and Solid Waste Center at 122 Commercial Ave.](http://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management), open Monday to Saturday, 7 a.m. to 3:30 p.m. A high-visibility vest is required to enter. Call the center for fees before you load a truck.
 
 Anything you leave inside, the landlord can move and store at your cost. Out at the curb, it becomes a City violation.
 
@@ -207,7 +207,7 @@ If a subtenant lives in your room, you [stay liable for your obligations under t
 ```
 
 ```reader "If you're staying in Ithaca for the summer"
-Lease dates rarely line up. Some leases end May 31, such as [all Dryden South leases in 2027](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961), and most end July 31, with the next one starting about Aug. 1. Plan storage for the gap. Cornell's vendor, Big Red Shipping and Storage, [picks up free at apartments](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options) but posts no prices. Commercial self-storage is the other route. Your deposit clock starts when you leave, not when your next lease starts.
+Lease dates rarely line up. Some leases end May 31, such as [all Dryden South leases in 2027](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961), and most end July 31, with the next one starting about Aug. 1. Plan storage for the gap. Cornell's vendor, Big Red Shipping and Storage, [picks up free at apartments](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options); ask it for a storage quote. Commercial self-storage is the other route. Your deposit clock starts when you leave, not when your next lease starts.
 ```
 
 ```reader "If you're an international student"

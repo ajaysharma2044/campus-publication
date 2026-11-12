@@ -76,11 +76,11 @@ images:
 - Room cost depends on room type, not on which hall you pick.
 ```
 
-Balch Hall is the better pick if you want a renovated building with a thermostat in every room. Clara Dickson Hall is bigger, older and has no room air conditioning. Both are North Campus corridor halls, and a double costs [$13,744 per academic year](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) in either one.
+Balch Hall is open only to women, and for them it is the better pick if they want a renovated building with a thermostat in every room. Clara Dickson Hall is bigger, older and has no room air conditioning. Both are North Campus corridor halls, and a double costs [$13,744 per academic year](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) in either one.
 
 ## How do Balch and Dickson compare?
 
-Balch opened in 1929 and Dickson in 1946, but the buildings feel different because Balch was rebuilt and Dickson was not. Cornell's hall pages give each a different size and cooling setup ([Balch Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/balch-hall), [Clara Dickson Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/clara-dickson-hall)).
+Balch opened in 1929 and Dickson in 1946, but the buildings feel different because Balch has been renovated and Dickson has not. Cornell's hall pages give each a different size and cooling setup ([Balch Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/balch-hall), [Clara Dickson Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/clara-dickson-hall)).
 
 | | Balch Hall | Clara Dickson Hall |
 |---|---|---|
@@ -88,8 +88,8 @@ Balch opened in 1929 and Dickson in 1946, but the buildings feel different becau
 | Residents | 230+ | 460+ |
 | Room layout | Corridor | Corridor |
 | Cooling | Thermostat in each room | No room air conditioning |
-| Recent work | First full renovation in six decades | |
-| Who lives there | First-year women; also listed for upper-level students | Half first-years, half sophomores; north wing is upper-level |
+| Recent work | First overall renovation in six decades | |
+| Who lives there | Women only: first-years, also listed for upper-level students | Half first-years, half sophomores; north wing is upper-level |
 
 Source: Cornell Student & Campus Life [Balch Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/balch-hall) and [Clara Dickson Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/clara-dickson-hall) pages, [first-year housing page](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing), [hall configurations](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations) and [upper-level housing page](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing).
 
@@ -97,7 +97,7 @@ A corridor hall means a long hallway of rooms with shared bathrooms. If you want
 
 ## Which hall is newer inside?
 
-Balch. Cornell closed it for more than two years for its first full renovation in six decades. North Balch reopened in August 2024, and South Balch was planned for 2025 ([Cornell Student & Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)).
+Balch. Cornell called its recent project the hall's first overall renovation in six decades. In July 2024, Cornell said North Balch would open to residents in August 2024 and South Balch in 2025 ([Cornell Student & Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)).
 
 The work added an elevator in each of four units, new windows and HVAC vents, and a thermostat in each room for the first time. HVAC means the heating and cooling system.
 
@@ -107,20 +107,20 @@ Cornell has announced no comparable project for Dickson. When Cornell released i
 
 Balch, because each room has its own thermostat and Cornell describes its rooms as temperature controlled ([Balch Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/balch-hall)). Cornell states that Dickson rooms do not have air conditioning ([Clara Dickson Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/clara-dickson-hall)).
 
-August move-in and early September are when this matters most. If you run hot, ask for Balch or bring a strong fan. Check what the housing license allows before you buy one.
+August move-in and early September are when this matters most. If you run hot, bring a strong fan. Check what the housing license allows before you buy one.
 
 ## Who lives in each hall?
 
-Balch is open to first-year women, and Cornell also lists it with the upper-level halls ([Balch Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/balch-hall), [upper-level housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)). Dickson is split: Cornell lists its north wing as upper-level housing, and the hall as a whole is half first-years and half sophomores ([first-year housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing)).
+Balch is women only. It is open to first-year women, and Cornell also lists it with the upper-level halls ([Balch Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/balch-hall), [upper-level housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)). Dickson is split: Cornell lists its north wing as upper-level housing, and the hall as a whole is half first-years and half sophomores ([first-year housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing)).
 
-That mix makes Dickson the place where a sophomore can end up on a floor with first-years. It also makes it a common landing spot when selection runs late. The Cornell Daily Sun reported in 2025 that a sophomore transfer with the last timeslot found only Clara Dickson triples and Sheldon Court doubles left ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed)). A triple is a room for three.
+That mix makes Dickson the place where a sophomore can end up on a floor with first-years. The Cornell Daily Sun reported in 2025 that a sophomore transfer with the last timeslot found only Clara Dickson triples and Sheldon Court doubles left ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed)). A triple is a room for three.
 
 ```reader "If you're a first-year"
 Cornell assigns first-years to halls, so you do not pick between these two. The first-year guide below explains how assignment works. If you land in Dickson, expect a larger corridor community, not a suite of your own.
 ```
 
 ```reader "If you're a sophomore"
-You will choose in room selection, and the timeslot you draw decides what is left. Rank Balch above Dickson if cooling matters to you. Do not count on a double in Dickson if your slot is late, because triples are what remain.
+You will choose in room selection, and the timeslot you draw decides what is left. Balch is women only, so if you are a woman, rank Balch above Dickson if cooling matters to you.
 ```
 
 ## What does a room cost in Balch and Dickson?
@@ -145,7 +145,7 @@ rows:
 
 ## How does move-in differ?
 
-Both halls sit in North Campus and follow Cornell's North Campus move-in plan. For fall 2026, Cornell's North Campus move-in days are Aug. 17, 18, 21 and 22 ([Cornell move instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)). Cars queue at A Lot, and you need a Move-In Ticket, which Cornell issues after Aug. 1.
+Both halls sit in North Campus and follow Cornell's North Campus move-in plan. For fall 2026, Cornell's North Campus move-in days are Aug. 17, 18, 21 and 22 ([Cornell move instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)). Your arrival location and parking are on your Move-In Ticket, which Cornell posts in the Housing and Dining Portal after Aug. 1.
 
 Balch has its own page. You unload at the Balch unloading zone with no staff help, then move your car to a three-hour short-term area shown on your Move-In Ticket ([Balch move instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-balch-hall)). Cornell's North Campus list names a North Balch dock for unloading.
 
@@ -157,7 +157,7 @@ Only if you qualify for an exemption. Most first- and second-years must live on 
 
 ## Which hall should I choose?
 
-Pick Balch if cooling, a renovated building and a smaller community matter most. Pick Dickson if you want the larger hall, or if Balch rooms are gone by your timeslot. If you need to reach Cornell staff about either, Housing Operations is at 1520 Clara Dickson Hall, 607-255-5368, housing@cornell.edu ([Cornell directory](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)).
+If you are a woman, pick Balch if cooling, a renovated building and a smaller community matter most. Pick Dickson if you want the larger hall, or if Balch rooms are gone by your timeslot. If you need to reach Cornell staff about either, Housing Operations is at 1520 Clara Dickson Hall, 607-255-5368, housing@cornell.edu ([Cornell directory](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)).
 
 ## What to do next
 

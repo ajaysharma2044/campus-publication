@@ -72,9 +72,6 @@ sources:
 - url: https://www.cornellsun.com/article/2025/08/from-both-sides-of-the-hill-an-ic-transfers-perspective
   title: 'From Both Sides of the Hill: An IC Transfer''s Perspective, The Cornell Daily Sun, August 2025'
   accessed: '2026-11-11'
-- url: https://talk.collegeconfidential.com/t/cornell-class-of-2024-transfer-option/2087946
-  title: Cornell Class of 2024 Transfer Option, College Confidential
-  accessed: '2026-11-11'
 - url: https://oadi.cornell.edu/node/50
   title: EOP and HEOP transfer applicants, Cornell Office of Academic Diversity Initiatives
   accessed: '2026-11-11'
@@ -124,7 +121,7 @@ CALS is a contract college, so New York residents pay [$49,816 in tuition for 20
 ```
 
 ```reader "If you're a Transfer Option holder"
-You use the [Transfer Option application](https://admissions.cornell.edu/transfer-option-applicants) with your old portal login, pay no fee, and send the CALS extras: a resume, your course schedule, AP scores and two essays (a SlideRoom portfolio for Landscape Architecture). The deadline was March 15 for fall 2026, and the page now reads "Application Available Winter 2027". The offer is an invitation to apply, not admission, and each college sets its own conditions. Meet the CALS floors anyway: a 3.0, or 3.5 for Biological Sciences, plus your major's foundation courses. The costly mistake is skipping a backup plan for your second year.
+You use the [Transfer Option application](https://admissions.cornell.edu/transfer-option-applicants) with your old portal login, pay no fee, and send the CALS extras: a resume, your course schedule, AP scores and two essays (a SlideRoom portfolio for Landscape Architecture). The deadline was March 15 for fall 2026, and Cornell opens the next application in winter 2027. The offer is an invitation to apply, not admission, and each college sets its own conditions. Meet the CALS floors anyway: a 3.0, or 3.5 for Biological Sciences, plus your major's foundation courses. The costly mistake is skipping a backup plan for your second year.
 ```
 
 ## Who can apply, and at what standing
@@ -235,13 +232,13 @@ The one current CALS agreement is with Tompkins Cortland Community College (TC3)
 - One year at TC3 (two semesters plus a summer), then four semesters at Cornell.
 - No guarantee, and no separate deadline: you apply by March 15 like everyone else.
 
-The [Signature Pathway Program page](https://cals.cornell.edu/education/admissions/undergraduate-admissions/signature-pathway-program) names TC3 as its only partner and promises "strong admissions consideration." Older CALS agreements with SUNY Broome (2017) and SUNY Orange (2014) have no current official confirmation, so do not plan around them. The full list sits on our [pathways page](/transfer/cornell-guaranteed-transfer-pathways/).
+The [Signature Pathway Program page](https://cals.cornell.edu/education/admissions/undergraduate-admissions/signature-pathway-program) names TC3 as its only partner and promises "strong admissions consideration." The full list sits on our [pathways page](/transfer/cornell-guaranteed-transfer-pathways/).
 
 ## Transfer Option holders applying to CALS
 
 If Cornell offered you the Transfer Option as a first-year applicant, you apply after one full-time year elsewhere through the [Transfer Option application](https://admissions.cornell.edu/transfer-option-applicants), not the Common App. CALS asks for a resume, your course schedule, AP scores and two essays; Landscape Architecture adds a portfolio through SlideRoom. Everyone sends all college transcripts, the final high school transcript, the College Report and the Mid-Term Report. Decisions roll from mid-April, most in late April or early May.
 
-Is it guaranteed? The central page does not say so. Richard Ballard, who spent his first year at Ithaca College on the Transfer Option and is now a CALS junior, told [The Cornell Daily Sun in 2025](https://www.cornellsun.com/article/2025/08/from-both-sides-of-the-hill-an-ic-transfers-perspective) that it was described to him inconsistently, as guaranteed and then not. On a [2020 College Confidential decision-night thread](https://talk.collegeconfidential.com/t/cornell-class-of-2024-transfer-option/2087946), some posters cited a CALS FAQ saying holders who miss the requirements are reviewed with regular transfer applicants. More on the conditions is in our [Transfer Option guide](/transfer/cornell-transfer-option-guide/).
+Is it guaranteed? Cornell sends questions about academic requirements to the college that made the offer, so confirm your conditions with CALS admissions. Richard Ballard, who spent his first year at Ithaca College on the Transfer Option and is now a CALS junior, told [The Cornell Daily Sun in 2025](https://www.cornellsun.com/article/2025/08/from-both-sides-of-the-hill-an-ic-transfers-perspective) that it was described to him inconsistently, as guaranteed and then not. More on the conditions is in our [Transfer Option guide](/transfer/cornell-transfer-option-guide/).
 
 ## What CALS costs a transfer in 2026-27
 

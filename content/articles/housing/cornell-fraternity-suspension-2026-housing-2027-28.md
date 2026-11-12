@@ -1,5 +1,5 @@
 ---
-title: 'Does Cornell''s 2026 frat suspension change 2027-28 housing?'
+title: Does Cornell's 2026 frat suspension change 2027-28 housing?
 mode: answer
 dek: The Oct. 13, 2026 party ban does not change housing rules, but a chapter can house second-years only while Cornell recognizes it.
 meta: 'What Cornell''s 2026 fraternity suspension means for 2027-28 housing: which rules hold, which dates to watch and what to do if a chapter house closes.'
@@ -15,7 +15,8 @@ readers:
 - sophomore
 - first-year
 - parent
-subject: Fraternity houses on the Cornell campus, Ithaca
+subject:
+- Fraternity houses on the Cornell campus, Ithaca
 tools:
 - cornell-housing-license-cancellation-fee-calculator
 - when-to-sign-lease-timeline-cornell
@@ -61,14 +62,14 @@ sources:
   accessed: '2026-11-10'
 images:
 - file: 1.webp
-  alt: Hand-colored early-1900s postcard of fraternity lodges on a tree-lined street at Cornell
-  caption: Fraternity lodges at Cornell on an early-1900s postcard. The Oct. 13, 2026 party ban does not change housing rules, but a chapter can house second-years only while Cornell recognizes it.
-  credit: Rotograph Co. / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_-_Fraternity_Lodges_(Ithaca).jpg
-  author: Rotograph Co.
-  source_url: https://commons.wikimedia.org/wiki/File:Cornell_-_Fraternity_Lodges_(Ithaca).jpg
-  license: Public domain
-  license_url: ''
+  alt: Deke House (Ithaca NY)
+  caption: Deke House (Ithaca NY)
+  credit: Hlevy2 / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Deke_House_(Ithaca_NY).jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  author: Hlevy2
+  source_url: https://commons.wikimedia.org/wiki/File:Deke_House_(Ithaca_NY).jpg
 ---
 
 

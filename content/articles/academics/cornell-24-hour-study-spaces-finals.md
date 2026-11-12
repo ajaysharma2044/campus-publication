@@ -21,7 +21,7 @@ sources:
 images: []
 ---
 
-Cornell's library hours page lists these as 24-hour spaces for the week of November 2 to 6, 2026: the [Engineering Library, the Catherwood first-floor study space, the Law Library (Law community only), the Mann Library lobby, Physical Sciences (Clark) and the Uris Library Tower Entrance and Cocktail Lounge](https://spaces.library.cornell.edu/hours). Most require a Cornell ID card after the building closes. Fall 2026 study days are [December 8 to 10, and final exams run December 11 to 19](https://as.cornell.edu/index.php/registrar), so these are the rooms to know before then. Hours can change, and the library says so on its own pages, so check the hours page the day you go.
+Cornell's library hours page lists these as 24-hour spaces: the [Engineering Library, the Catherwood first-floor study space, the Law Library (Law community only), the Mann Library lobby, Physical Sciences (Clark) and the Uris Library Tower Entrance and Cocktail Lounge](https://spaces.library.cornell.edu/hours). Most require a Cornell ID card after the building closes. Fall 2026 study days are [December 8 to 10, and final exams run December 11 to 19](https://as.cornell.edu/index.php/registrar), so these are the rooms to know before then. Check the hours page the day you go.
 
 ```figure
 kind: timeline
@@ -46,13 +46,13 @@ rows:
 | Catherwood first-floor study space | Ives Hall | Listed as [24 hours on the hours page](https://spaces.library.cornell.edu/hours) |
 | Law Library | Myron Taylor Hall | [Card access for the Law community](https://spaces.library.cornell.edu/hours) |
 
-Two notes on naming. The Mann page currently calls Mann 112 the "contactless pickup area," while the 2022 Sun article described it as a [group and individual study room with printers](https://cornellsun.com/2022/03/17/mann-library-extends-study-space-hours-to-24-7/). And the Engineering Library page describes the Carpenter reading room and the Duffield atrium rather than the whole library, while the hours page lists the Engineering Library itself as 24 hours with card access. If you are heading out at 2 a.m., use the hours page.
+Two notes on naming. The Mann page currently calls Mann 112 the "contactless pickup area," while the 2022 Sun article described it as a [group and individual study room with printers](https://cornellsun.com/2022/03/17/mann-library-extends-study-space-hours-to-24-7/). The hours page also lists the Engineering Library itself as 24 hours with card access. If you are heading out at 2 a.m., use the hours page.
 
 ## Finals-week changes to expect
 
 Plan around the posted hours rather than expecting longer ones. Two things on the hours page matter most:
 
-- **Holiday closings.** The page says the [24/7 spaces close at 4:00 p.m. on November 24](https://spaces.library.cornell.edu/hours), and the Tower Entrance and Cocktail Lounge close at 5 p.m. on December 24.
+- **Holiday closings.** The page says the [24/7 spaces close at 4:00 p.m. on November 25](https://spaces.library.cornell.edu/hours), and the Tower Entrance and Cocktail Lounge close at 5 p.m. on December 23.
 - **Other libraries run set hours.** For example, the page lists Olin at 8am to midnight Monday to Thursday, Uris at 8am to 11pm, and Mann at 8am to 10pm, so only the spaces above stay open all night.
 
 Past years are only a rough guide. In December 2021, the Sun reported that Mann [extended its hours by two hours when the study period began](https://cornellsun.com/2021/12/07/as-finals-season-approaches-libraries-continue-adapting-to-student-needs/), and a 2019 article quoted Bonna Boettcher, director of Olin and Uris Libraries, as saying library hours go from five days a week to seven as finals approach. Those are old reports, not this year's schedule. The same 2019 piece described some Uris gallery-floor spaces as ["24/5"](https://cornellsun.com/2019/01/25/library-director-outlines-alternate-24-hour-study-spaces-besides-cocktail-lounge) (Sunday through Thursday nights), which is a reminder to read the day-by-day listing.
@@ -78,7 +78,7 @@ Our advice, drawn from the sources above:
 
 - Relying on a 2019 to 2022 article for hours. The spaces and rules have shifted since.
 - Forgetting your ID. Nearly every 24-hour space is card access.
-- Planning an all-nighter around December 24 or November 24, when the 24/7 spaces close in the afternoon.
+- Planning an all-nighter around November 25 or December 23, when the 24/7 spaces close in the afternoon.
 
 ## FAQ
 

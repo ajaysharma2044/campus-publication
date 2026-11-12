@@ -1,8 +1,8 @@
 ---
 title: 'Cornell dorm laundry: how it works and what it costs'
 mode: answer
-dek: Laundry rooms sit inside many Cornell halls, and students pay for the washers and dryers through the CSCPay Mobile app, while two co-ops list free laundry.
-meta: 'How laundry works in Cornell dorms: which halls have laundry rooms, coin-op machines at 112 Edgemoor, free laundry in co-ops and the Lazybones pickup price.'
+dek: Every Cornell residential building has washers and dryers, at $2.00 a wash and $1.55 a dry paid through the CSCPay Mobile app, while two co-ops list free laundry.
+meta: 'How laundry works in Cornell dorms: $2.00 washers and $1.55 dryers paid through CSCPay, which halls list laundry, free co-op laundry and Lazybones pickup.'
 primary_query: Cornell dorm laundry free how it works
 topic: daily-life
 school: cornell-university
@@ -20,36 +20,36 @@ tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/cascadilla-hall
   title: Cascadilla Hall, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/04/the-misunderstood-dorm-sheldon-court
   title: The Misunderstood Dorm, Sheldon Court, The Cornell Daily Sun, April 2026
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/112-edgemoor
-  title: 112 Edgemoor, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue
   title: 301 College Avenue, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/1-forest-park-lane
   title: 1 Forest Park Lane, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-avenue-cooperative
   title: Wait Avenue Cooperative, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/660-stewart-avenue
   title: 660 Stewart Avenue, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/sheldon-court
   title: Sheldon Court, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/housing-vendor-partnerships
   title: Housing Vendor Partnerships, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/contact-cornell-housing/your-laundry-account
   title: Your Laundry Account, Cornell Student and Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/laundry-services
+  title: Laundry Services, Cornell Student and Campus Life
   accessed: '2026-11-11'
 images: []
 redirect_from:
@@ -58,19 +58,20 @@ redirect_from:
 ---
 
 
-Many Cornell halls have laundry rooms, and you pay for the washers and dryers through the CSCPay Mobile app. The Wait Avenue and 660 Stewart Avenue co-ops list free laundry. Lazybones offers pickup laundry if you skip the machines.
+Every Cornell residential building has washers and dryers, and you pay $2.00 a wash and $1.55 a dry through the CSCPay Mobile app. The Wait Avenue and 660 Stewart Avenue co-ops list free laundry. Lazybones offers pickup laundry if you skip the machines.
 
 ```glance
+- Washers cost $2.00 and dryers $1.55 per cycle; the machines take no coins.
 - Cascadilla, Sheldon Court, 301 College Avenue and 1 Forest Park Lane list laundry rooms.
 - Dorm washers and dryers run through the CSCPay Mobile app; Cornell suggests a $25 first deposit.
-- 112 Edgemoor lists coin-operated laundry, so bring payment.
+- Paying by app has no per-use fee; a credit card swipe adds 25 cents.
 - Wait Avenue and 660 Stewart Avenue co-ops list free laundry.
 - Lazybones offers pickup laundry through Cornell's vendor page.
 ```
 
 ## Is laundry free in Cornell dorms?
 
-Not in most halls. Cornell's housing rate covers gas, electricity, garbage pick-up and internet up to 200 GB per month ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Laundry is paid separately from a laundry account you fund yourself, and 112 Edgemoor lists coin-operated machines. Cornell publishes no per-load price, so check the price in the app before your first load. The co-ops below are the exception, with free laundry. The cost of a double is in the [dorm versus off-campus guide](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) and the [housing cost dataset](/datasets/ithaca-housing-cost-by-living-situation-2026-27/).
+No, except in the co-ops. Cornell's housing rate covers gas, electricity, garbage pick-up and internet up to 200 GB per month ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Every residential building has washers and dryers, and washers are $2.00 and dryers $1.55 per cycle ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/laundry-services)). The machines take no coins. You pay from a laundry account funded in the CSCPay Mobile app, which has no per-use fee, or by inserting a credit card, which adds a 25-cent fee per swipe. The co-ops below are the exception, with free laundry. The cost of a double is in the [dorm versus off-campus guide](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) and the [housing cost dataset](/datasets/ithaca-housing-cost-by-living-situation-2026-27/).
 
 ## Which halls have laundry, and how is it set up?
 
@@ -78,7 +79,6 @@ Not in most halls. Cornell's housing rate covers gas, electricity, garbage pick-
 |---|---|
 | Cascadilla Hall, 115 Cascadilla Place | Laundry listed among its amenities ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/cascadilla-hall)) |
 | Sheldon Court, 420 College Ave. | Basement laundry with four washers and four dryers, per a resident ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/04/the-misunderstood-dorm-sheldon-court)) |
-| 112 Edgemoor Lane | Coin-operated laundry ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/112-edgemoor)) |
 | 301 College Avenue | Shared laundry ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue)) |
 | 1 Forest Park Lane | Laundry at Keeton House ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/1-forest-park-lane)) |
 | Wait Avenue Cooperative | Free laundry ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-avenue-cooperative)) |
@@ -97,7 +97,7 @@ Download the CSCPay Mobile app, create an account with your email, enter zip cod
 Lazybones picks up laundry from $1.45 per pound ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/housing-vendor-partnerships)). A 10-pound load is $14.50 at that rate (10 times 1.45).
 
 ```reader "If you're a parent"
-Ask your student which hall they live in, then check its page for laundry details before you send quarters or a laundry bag. In most halls your student pays through the CSCPay Mobile app, so a deposit there may be more useful than coins. The [parent start page](/start/parent/) lists other first-year questions.
+Ask your student which hall they live in, then check its page for laundry details before you send a laundry bag. Dorm machines take no coins; your student pays through the CSCPay Mobile app or a credit card, so funds in the app are more useful than quarters. The [parent start page](/start/parent/) lists other first-year questions.
 ```
 
 ```reader "If you're a first-year or sophomore"

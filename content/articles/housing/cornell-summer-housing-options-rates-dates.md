@@ -91,7 +91,7 @@ You have four routes. The right one depends on how many weeks you need and wheth
 | Option | Who it fits | What it costs | The catch |
 |---|---|---|---|
 | Cornell summer housing, North Campus | Any Cornell student, or a visiting student studying or working at Cornell | $57.00 or $69.50 a night, plus $1.50 | Two-week minimum; no refund for leaving early |
-| A Cornell co-op | Students who want a house and shared meals | On request from co-ops@cornell.edu | Each house decides whether it has summer rooms |
+| A Cornell co-op | Students who want a house and shared meals | Ask the house or co-ops@cornell.edu | Each house handles its own membership |
 | A sublet | Anyone who needs June and July only | Set by the tenant | You rely on someone else's lease |
 | A 12-month lease starting in June | Students staying in Ithaca next year too | From about $700 a room a month (examples below) | You pay through the next spring |
 
@@ -167,7 +167,7 @@ Your spring room ends at 2 p.m. on May 23, 2027 ([Cornell Student & Campus Life]
 
 ## Do Cornell co-ops offer summer housing?
 
-Some do. Cornell says its cooperative houses "often offer summer housing" and sends students to co-ops@cornell.edu or 607-255-3445 for options and rates ([Cornell cooperative housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). A co-op is a university-owned house where residents share the cooking and chores. Cornell publishes no summer co-op prices, so email early in the spring and ask three things: which houses have summer rooms, the price per week or month, and whether house meals run in summer. The school-year co-op license ends at 2 p.m. May 23, 2027, so a summer co-op room is a separate agreement.
+Some can. Cornell lists a separate Co-op Housing for Summer 2026 license beside its school-year co-op license, which runs through May 23, 2027 ([Cornell housing licenses](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses)), so a summer co-op room is a separate agreement. A co-op is one of eight university-owned houses where residents run the house and share kitchens. Each house handles its own membership and starts selection in early February and early November, so contact the house you want, or reach Cornell at co-ops@cornell.edu or 607-255-3445 ([Cornell cooperative housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). Ask three things: which houses have summer rooms, the price, and whether house meals run in summer.
 
 ## Is a sublet or a June lease cheaper?
 
@@ -194,7 +194,7 @@ A meal plan is optional for summer residents, and Cornell recommends one. In sum
 Every summer hall has a shared kitchen, so the cheapest plan is a small Summer Bucks balance plus your own cooking.
 
 ```reader "If you're a graduate student"
-Against the 2026-27 summer assistantship minimum of $12,228 ([Cornell Graduate School](https://gradschool.cornell.edu/financial-support/stipend-rates/)), a full summer in a campus single ($5,041.00) takes about 41 percent, and a double about 34 percent. If you are staying for the next year too, Hasbrouck Apartments on North Campus rents on 12-month contracts at $620 to $1,530 a month for 2026-27 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)) and takes applications on a rolling basis ([Cornell graduate housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). Five co-ops, including Triphammer, Watermargin and Redbud in Von Cramm Hall, accept graduate students.
+Against the 2026-27 summer assistantship minimum of $12,228 ([Cornell Graduate School](https://gradschool.cornell.edu/financial-support/stipend-rates/)), a full summer in a campus single ($5,041.00) takes about 41 percent, and a double about 34 percent. If you are staying for the next year too, Hasbrouck Apartments on North Campus rents on 12-month contracts at $620 to $1,530 a month for 2026-27 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)) and takes applications on a rolling basis ([Cornell graduate housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). Some co-ops are also open to graduate students, and Cornell says to contact the individual houses about graduate occupancy and vacancies ([Cornell graduate housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)).
 ```
 
 ```reader "If you're a visiting student or researcher"

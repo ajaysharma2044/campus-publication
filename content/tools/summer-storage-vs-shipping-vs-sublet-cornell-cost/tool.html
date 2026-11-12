@@ -12,7 +12,7 @@
     #tool-summer-storage-vs-shipping-vs-sublet-cornell-cost .sss-small { font-size: 0.875em; opacity: 0.85; }
   </style>
 
-  <p class="sss-small">Prices as of <span data-as-of="2026-11-10">Nov. 10, 2026</span>: Big Red Shipping and Storage (BRSS) per-box and per-item prices for a 3 to 4 month term with pickup and delivery included (bigredboxes.com pricing page, no year printed); Bolt Storage, 1401 Dryden Road, 5x5 drive-up unit $84 a month (boltstorage.com); Ithaca Renting Collegetown sublet fee listed as both $15 and $20 (ithacarenting.com). No typical Ithaca summer sublet rent is published, so you enter your own.</p>
+  <p class="sss-small">Prices as of <span data-as-of="2026-11-10">Nov. 10, 2026</span>: Big Red Shipping and Storage (BRSS) per-box and per-item prices for a 3 to 4 month term with pickup and delivery included (bigredboxes.com pricing page); Bolt Storage, 1401 Dryden Road, 5x5 drive-up unit $84 a month (boltstorage.com); Ithaca Renting Collegetown sublet fee quoted as both $15 and $20 (ithacarenting.com). No typical Ithaca summer sublet rent is published, so you enter your own.</p>
 
   <h3>Your lease and your summer</h3>
   <div class="sss-field">
@@ -53,11 +53,11 @@
   <div class="sss-field">
     <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-fee">Sublet fee your landlord charges, dollars</label>
     <input id="summer-storage-vs-shipping-vs-sublet-cornell-cost-fee" type="number" min="0" max="1000" step="1" value="20" inputmode="decimal">
-    <span class="sss-hint">Default: $20, the higher of the two fees on Ithaca Renting's Collegetown page ($15 and $20). Cornell Law School's tenant guide says a fee is allowed only if your lease lists it and it is reasonable.</span>
+    <span class="sss-hint">Default: $20, the higher of the two Collegetown fees Ithaca Renting quotes ($15 and $20). Cornell Law School's tenant guide says a fee is allowed only if your lease lists it and it is reasonable.</span>
   </div>
 
   <h3>Your things</h3>
-  <p class="sss-small">Count what you would pack. Tiers follow BRSS's price list; items it does not list are priced by the closest category.</p>
+  <p class="sss-small">Count what you would pack. Tiers follow BRSS's price list; price any other item by the closest category.</p>
   <div class="sss-grid">
     <div class="sss-field">
       <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-sbox">Small boxes (up to 2 cu ft)</label>
@@ -95,7 +95,7 @@
   <div class="sss-field">
     <label for="summer-storage-vs-shipping-vs-sublet-cornell-cost-ship">Shipping quote for all of it, one way, dollars</label>
     <input id="summer-storage-vs-shipping-vs-sublet-cornell-cost-ship" type="number" min="0" max="20000" step="1" value="" inputmode="decimal" placeholder="Enter a FedEx or BRSS quote">
-    <span class="sss-hint">BRSS ships by FedEx at rates set at pickup and posts no shipping prices, so get a quote first. Leave blank to skip shipping.</span>
+    <span class="sss-hint">BRSS ships by FedEx at rates set at pickup, so ask BRSS or FedEx for a quote first. Leave blank to skip shipping.</span>
   </div>
 
   <div class="sss-result" id="summer-storage-vs-shipping-vs-sublet-cornell-cost-result" aria-live="polite">
@@ -141,7 +141,7 @@
   }
   function li(t) { return "<li>" + t + "</li>"; }
 
-  var FOOT = '<p class="sss-small">Prices as of Nov. 10, 2026. BRSS: bigredboxes.com pricing page (no year printed; extra fees for overweight, oversized or fragile items and missed appointments are not posted). Bolt Storage: boltstorage.com, 1401 Dryden Road. Sublet fee: ithacarenting.com Collegetown page. ' +
+  var FOOT = '<p class="sss-small">Prices as of Nov. 10, 2026. BRSS: bigredboxes.com pricing page (ask BRSS for its extra fees for overweight, oversized or fragile items and missed appointments). Bolt Storage: boltstorage.com, 1401 Dryden Road. Sublet fee: ithacarenting.com Collegetown page. ' +
     'Estimated: your sublet price, shipping quote and item counts are your own inputs. Not counted: electricity you must keep on while subletting with some landlords, storage insurance, and a car or truck to reach a self-storage unit.</p>';
 
   function render() {

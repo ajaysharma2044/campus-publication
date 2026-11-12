@@ -42,6 +42,12 @@ def main() -> int:
         for x in load(name):
             fixes[x["slug"]] = x
     hand = {x["slug"]: x for x in load("02-hand-fixes.json")}
+    final = {}
+    for x in load("02-final-fixes.json"):   # the last pass: each skeptic objection applied, added facts checked; the linter and the build are the gate after it
+        slug = x["file"].split("/")[-1].replace(".md", "")
+        if slug == "tool.md" or slug == "tool":
+            slug = x["file"].split("/")[-2]
+        final[slug] = x
     third = {}
     for x in load("02-gapwording-results.json"):
         slug = x["file"].split("/")[-1].replace(".md", "")
@@ -87,6 +93,13 @@ def main() -> int:
         if slug in third:
             final_sound = bool((third[slug].get("verdict") or {}).get("sound"))
             verdict_by = "skeptic (gap-wording round)"
+        if slug in final:
+            r = final[slug].get("result") or {}
+            final_sound = bool(r.get("lint_clean")) and (r.get("emdash_count") == 0)
+            verdict_by = "last fix pass (objections applied, linter gate)"
+        if slug in third and slug not in final and not (third[slug].get("verdict")):
+            final_sound = bool((third[slug].get("report") or {}).get("lint_clean"))
+            verdict_by = "reworked, linter gate (no sources added)"
         rows.append((slug, x))
         x["_final_sound"], x["_verdict_by"] = final_sound, verdict_by
     sound = sum(1 for _, x in rows if x["_final_sound"])
@@ -114,7 +127,10 @@ def main() -> int:
             note = hand[slug].get("note", "")
         if slug in third:
             v = third[slug].get("verdict") or {}
-            note = "sound after the gap-wording round" if v.get("sound") else v.get("problems")
+            note = "sound after the gap-wording round" if v.get("sound") else (v.get("problems") or "no skeptic verdict; linter clean")
+        if slug in final:
+            u = (final[slug].get("result") or {}).get("unresolved") or "none"
+            note = "objections applied; " + ("nothing unresolved" if u.strip().lower().rstrip(".") == "none" else "left open: " + u)
         L.append(f"| {slug} | {x.get('kind','')} | {x.get('queue_id','')} | {gaps} | {len(x.get('sections_removed') or [])} | {len(x.get('sources_added') or [])} | {'yes' if x['_final_sound'] else 'NO'} | {x['_verdict_by']} | {one_line(note, 200)} |")
     unsound = [s for s, x in rows if not x["_final_sound"]]
     if unsound:

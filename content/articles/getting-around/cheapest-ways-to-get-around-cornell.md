@@ -144,14 +144,16 @@ sources:
   accessed: '2026-11-08'
 images:
 - file: 1.webp
-  alt: Black-and-white photo of a car parked on a country road beneath a tall wooden railroad trestle
-  caption: Route 330, now Brooktondale Road, outside Ithaca, under a rail trestle 800 feet long and 85 feet high that no longer stands. The trains are gone; today the cheap way out of Ithaca is a bus.
-  credit: Unknown author / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Brooktondale_Road_Under_Trestle_2.png
-  license: Public domain
-  license_url: ''
-  author: Unknown author
-  source_url: https://commons.wikimedia.org/wiki/File:Brooktondale_Road_Under_Trestle_2.png
+  alt: TCAT Gillig Low Floor 40 1806
+  caption: TCAT Gillig Low Floor 40 1806
+  credit: BrakeCoach / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:TCAT_Gillig_Low_Floor_40_1806.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  author: BrakeCoach
+  source_url: https://commons.wikimedia.org/wiki/File:TCAT_Gillig_Low_Floor_40_1806.jpg
+subject:
+- TCAT Gillig Low Floor 40 1806
 ---
 
 ```glance

@@ -7,7 +7,7 @@ primary_query: lansing triphammer road apartments cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 166
 rewrites: ''
 readers:
@@ -23,43 +23,52 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx
   title: Lansing West Apartments, RentCafe
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.lansingwestapts.com/
   title: Lansing West Apartments
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/triphammer-236697
   title: Triphammer Apartments, Cornell Off-Campus Housing Marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://triphammerapts.com/
   title: Triphammer Apartments
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://winstonsquareapts.com/
   title: Winston Square Apartments
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampushousing.ithaca.edu/listing
   title: Off-campus housing listings, Ithaca College
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-meadows-at-ithaca-236704
   title: The Meadows at Ithaca, Cornell Off-Campus Housing Marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/pine-hill-apartments-99962
   title: Pine Hill Apartments, Cornell Off-Campus Housing Marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information
   title: Housing Information, Cornell College of Veterinary Medicine
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html
   title: Life at Cornell, Graduate Student Resources
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Building Issues and Maintenance, Cornell Law School Tenants Advocacy
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://triphammerapts.com/faqs/
+  title: FAQs, Triphammer Apartments
+  accessed: '2026-11-11'
+- url: https://triphammerapts.com/amenities/
+  title: Amenities, Triphammer Apartments
+  accessed: '2026-11-11'
+- url: https://winstonsquareapts.com/faq/
+  title: FAQ, Winston Square Apartments
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -79,23 +88,23 @@ Cornell lists Northeast at 4 miles and Lansing at 5 to 10 miles, with a bus or c
 
 ## What do the main complexes cost?
 
-| Complex | Address | Rent printed | What the listing says |
+| Complex | Address | Rent | Details |
 |---|---|---|---|
 | Lansing West | 700 Warren Rd. and 2250 N. Triphammer Rd. | 2BR from $1,636 to $1,742 depending on site | Cats allowed, no dogs; $20 application fee |
 | Triphammer Apartments | 5 Cinema Dr. | 1BR from $1,795, 2BR from $1,950 | Heat included; free on-site parking |
-| Winston Square | 601-1 Winston Ct. | No rents printed | Heat, gas and trash included; no guarantors |
+| Winston Square | 601-1 Winston Ct. | On request | Heat, gas and trash included; no guarantors |
 | University Park | 87 Uptown Rd. | 1BR $1,400 to $1,675; 2BR $1,500 to $2,000 | 204 units |
 | The Meadows at Ithaca | 100 Graham Rd. | $1,725 to $2,495 | 111 units; electric, gas and internet included |
 | Pine Hill Apartments | 709 Triphammer Rd. | 1BR $1,390 to $1,490 | 27 units built in 1950; heat and hot water included |
 | 546 Warren Rd. | Upper and middle apartments | 1BR $1,250, 2BR $1,649 | Heat and off-street parking included |
 
-Sources: [Lansing West on RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx); [Triphammer Apartments](https://triphammerapts.com/); [Winston Square](https://winstonsquareapts.com/); the [Ithaca College listings feed](https://offcampushousing.ithaca.edu/listing) (University Park, 546 Warren); Cornell marketplace pages for [The Meadows](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-meadows-at-ithaca-236704) and [Pine Hill](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/pine-hill-apartments-99962). Most print no lease year or per-bed basis.
+Sources: [Lansing West on RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx); [Triphammer Apartments](https://triphammerapts.com/); [Winston Square](https://winstonsquareapts.com/); the [Ithaca College listings feed](https://offcampushousing.ithaca.edu/listing) (University Park, 546 Warren); Cornell marketplace pages for [The Meadows](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-meadows-at-ithaca-236704) and [Pine Hill](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/pine-hill-apartments-99962).
 
-Cornell's veterinary college lists Lansing West at $1,403 to $2,154 for one- to three-bedroom units, updated in February 2026, without saying per bed or per unit ([College of Veterinary Medicine](https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information)).
+Cornell's veterinary college lists Lansing West at $1,403 to $2,154 for one- to three-bedroom units, updated in February 2026 ([College of Veterinary Medicine](https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information)).
 
 ## What is Lansing West like?
 
-It is a large complex with plans named Otisco, Oneida, Cayuga, Keuka and Seneca and dynamic pricing that changes by unit and date ([RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx)). It is run by an affiliate of The Solomon Organization ([Lansing West](https://www.lansingwestapts.com/)). RentCafe showed one-bedroom units available now at $1,038 and $1,193 and a promotion of rent free until January 2027 for applications by Nov. 14 and move-in by Dec. 1, 2026. Pets are cats only, at $40 a month for one cat or $60 for two ([RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx)). Heat, water and internet are not stated, so ask what rent includes.
+It is a large complex with plans named Otisco, Oneida, Cayuga, Keuka and Seneca and dynamic pricing that changes by unit and date ([RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx)). It is run by an affiliate of The Solomon Organization ([Lansing West](https://www.lansingwestapts.com/)). RentCafe showed one-bedroom units available now at $1,038 and $1,193 and a promotion of rent free until January 2027 for applications by Nov. 14 and move-in by Dec. 1, 2026. Pets are cats only, at $40 a month for one cat or $60 for two ([RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx)). Ask the leasing office what rent includes.
 
 <!-- ad-break -->
 

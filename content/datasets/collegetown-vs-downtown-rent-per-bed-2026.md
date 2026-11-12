@@ -2,7 +2,7 @@
 title: "Collegetown vs downtown rent per bed, Nov 2026, 58 listings"
 meta: "Ithaca Renting per-bed asking rents, downtown vs Collegetown: downtown runs about 20% to 28% cheaper for studios to 2BRs. 58 listings read Nov 8, 2026."
 topic: housing
-updated: 2026-11-08
+updated: 2026-11-11
 as_of: 2026-11-08
 sample_size: 58
 method: "Fifty-eight priced per-bed rows (38 Collegetown for 2027-28, 20 downtown, mostly 2026-27) were hand-read from one landlord's two price pages on 2026-11-08; each range was reduced to its midpoint, midpoints were grouped by unit size into medians and means, and the Collegetown and downtown medians were compared in dollars and percent."
@@ -11,10 +11,10 @@ kind: dataset
 readers: [sophomore, low-budget, grad-student, transfer]
 brief: intel/off-campus-housing/brief.md
 sources:
-  - {url: "https://ithacarenting.com/collegetown/", title: "Ithaca Renting: Collegetown properties and prices", accessed: "2026-11-08"}
-  - {url: "https://ithacarenting.com/downtown/", title: "Ithaca Renting: Downtown properties and prices", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates", title: "Cornell Housing and Residential Life: Housing rates", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods", title: "Cornell Housing and Residential Life: Ithaca neighborhoods", accessed: "2026-11-07"}
+  - {url: "https://ithacarenting.com/collegetown/", title: "Ithaca Renting: Collegetown properties and prices", accessed: "2026-11-11"}
+  - {url: "https://ithacarenting.com/downtown/", title: "Ithaca Renting: Downtown properties and prices", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates", title: "Cornell Housing and Residential Life: Housing rates", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods", title: "Cornell Housing and Residential Life: Ithaca neighborhoods", accessed: "2026-11-11"}
 ---
 
 At the same landlord, a bed downtown costs **about 20% to 28% less** than a bed of the same unit size in Collegetown. Ithaca Renting's median per-bed asking rent on 2026-11-08 was **$1,395 downtown vs $1,765 in Collegetown for a studio**, **$1,625 vs $2,025 for a 1BR** and **$992.50 vs $1,377.50 per person in a 2BR**. That is $370, $400 and $385 a month, or **$4,440 to $4,800 a year** per bed on a 12-month lease.
@@ -44,7 +44,7 @@ Larger units are listed in both places but with one to three rows on at least on
 
 ## Method
 
-These steps are sections 3.2, 10.9 and 10.10 of the topic brief. Anyone with the two pages open can redo them.
+Anyone with the two pages open can redo these steps.
 
 1. **Read the Collegetown page.** [ithacarenting.com/collegetown](https://ithacarenting.com/collegetown/) on 2026-11-08 showed 67 unit rows, priced per bed per month as ranges. Keep a row only if it prints a range and carries a 2027-2028 tag. Drop semester-only rows, the 14 rows marked SOLD OUT, rows with no price and rows tagged only "available now". One Collegetown Center 1BR ($2,045 to $2,145) tagged both 2027-28 and available now was left out. That leaves **38 rows** (rows 1 to 38).
 2. **Read the downtown page.** [ithacarenting.com/downtown](https://ithacarenting.com/downtown/) on 2026-11-08 showed 36 rows, mostly tagged 2026-27 or available now, a few 2027-28; a "View More" link suggests more exist. Keep each priced whole-unit row. The Whiton Hall premium room ($965 to $1,065) was not used, since downtown has no other room rows to group it with. That leaves **20 rows** (rows 39 to 58).
@@ -52,8 +52,6 @@ These steps are sections 3.2, 10.9 and 10.10 of the topic brief. Anyone with the
 4. **Group by unit size** on each side and take the median and mean of the midpoints (rows 59 to 73). For a size with two rows only the mean is reported. Example, Collegetown 1BR: sorted midpoints 1,675; 1,765; 1,785; 2,020; 2,030; 2,105; 2,165; 2,495; median (2,020 + 2,030) / 2 = 2,025; mean 16,040 / 8 = 2,005.
 5. **Compare medians** for studio, 1BR and 2BR, where both sides have at least three rows (rows 74 to 85). Dollar gap = Collegetown median minus downtown median. Collegetown premium = gap / downtown median. Downtown discount = gap / Collegetown median. Annual gap = monthly gap x 12.
 6. **Set them against the Cornell double.** The 2026-27 residence hall double is $13,744 for the academic year with utilities and internet included ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)); $13,744 / 12 = $1,145.33 a month. Each median x 12 is compared with $13,744 (rows 86 to 94).
-
-The 38-row Collegetown count and every range, midpoint, median and mean on both pages were re-read against the live pages in the brief's fact check on 2026-11-08.
 
 ## The table
 
@@ -82,7 +80,7 @@ All money is US dollars, asking rent per bed per month unless the unit column sa
 | 19 | listing | collegetown | 2br | Collegetown Center | std | 2027-28 | 1360 | 1395 | 1377.5 | | | | usd_per_bed_per_month | (1360 + 1395) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
 | 20 | listing | collegetown | 2br | 705 E Buffalo St | std | 2027-28 | 1145 | 1195 | 1170 | | | | usd_per_bed_per_month | (1145 + 1195) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
 | 21 | listing | collegetown | 3br | Collegetown Court | premium | 2027-28 | 1185 | 1200 | 1192.5 | | | | usd_per_bed_per_month | (1185 + 1200) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
-| 22 | listing | collegetown | 3br | 705 E Buffalo St | not stated | 2027-28 | 1245 | 1345 | 1295 | | | | usd_per_bed_per_month | (1245 + 1345) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
+| 22 | listing | collegetown | 3br | 705 E Buffalo St | | 2027-28 | 1245 | 1345 | 1295 | | | | usd_per_bed_per_month | (1245 + 1345) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
 | 23 | listing | collegetown | 4br | Collegetown Plaza | deluxe | 2027-28 | 1295 | 1395 | 1345 | | | | usd_per_bed_per_month | (1295 + 1395) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
 | 24 | listing | collegetown | 4br | Collegetown Plaza | premium | 2027-28 | 1250 | 1350 | 1300 | | | | usd_per_bed_per_month | (1250 + 1350) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | 1.5 bath |
 | 25 | listing | collegetown | 4br | Collegetown Plaza | premium | 2027-28 | 1185 | 1200 | 1192.5 | | | | usd_per_bed_per_month | (1185 + 1200) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | 1 bath |
@@ -91,18 +89,18 @@ All money is US dollars, asking rent per bed per month unless the unit column sa
 | 28 | listing | collegetown | 5br | Collegetown Plaza | deluxe | 2027-28 | 1225 | 1275 | 1250 | | | | usd_per_bed_per_month | (1225 + 1275) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
 | 29 | listing | collegetown | 6br | Collegetown Plaza | premium | 2027-28 | 775 | 875 | 825 | | | | usd_per_bed_per_month | (775 + 875) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
 | 30 | listing | collegetown | 6br | Collegetown Plaza | std | 2027-28 | 785 | 795 | 790 | | | | usd_per_bed_per_month | (785 + 795) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
-| 31 | listing | collegetown | 6br | Aces Apartments | not stated | 2027-28 | 695 | 760 | 727.5 | | | | usd_per_bed_per_month | (695 + 760) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
-| 32 | listing | collegetown | 6br | Aces Apartments | not stated | 2027-28 | 705 | 895 | 800 | | | | usd_per_bed_per_month | (705 + 895) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
+| 31 | listing | collegetown | 6br | Aces Apartments | | 2027-28 | 695 | 760 | 727.5 | | | | usd_per_bed_per_month | (695 + 760) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
+| 32 | listing | collegetown | 6br | Aces Apartments | | 2027-28 | 705 | 895 | 800 | | | | usd_per_bed_per_month | (705 + 895) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
 | 33 | listing | collegetown | 6br | 705 E Buffalo St | premium | 2027-28 | 1020 | 1120 | 1070 | | | | usd_per_bed_per_month | (1020 + 1120) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
 | 34 | listing | collegetown | 10br | 202 Dryden Rd | std | 2027-28 | 725 | 825 | 775 | | | | usd_per_bed_per_month | (725 + 825) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
 | 35 | listing | collegetown | room_in_shared_suite | 210 Dryden Rd | std | 2027-28 | 695 | 810 | 752.5 | | | | usd_per_bed_per_month | (695 + 810) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | electricity included on floors 2-3 and in room-rented units at 210 Dryden (page) |
 | 36 | listing | collegetown | room_in_shared_suite | 210 Dryden Rd | premium | 2027-28 | 850 | 950 | 900 | | | | usd_per_bed_per_month | (850 + 950) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | electricity included on floors 2-3 and in room-rented units at 210 Dryden (page) |
-| 37 | listing | collegetown | room_in_shared_suite | 210 Dryden Rd | not stated | 2027-28 | 840 | 940 | 890 | | | | usd_per_bed_per_month | (840 + 940) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | electricity included on floors 2-3 and in room-rented units at 210 Dryden (page) |
-| 38 | listing | collegetown | room_in_shared_suite | Collegetown Plaza | not stated | 2027-28 | 895 | 995 | 945 | | | | usd_per_bed_per_month | (895 + 995) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
+| 37 | listing | collegetown | room_in_shared_suite | 210 Dryden Rd | | 2027-28 | 840 | 940 | 890 | | | | usd_per_bed_per_month | (840 + 940) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | electricity included on floors 2-3 and in room-rented units at 210 Dryden (page) |
+| 38 | listing | collegetown | room_in_shared_suite | Collegetown Plaza | | 2027-28 | 895 | 995 | 945 | | | | usd_per_bed_per_month | (895 + 995) / 2 | | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
 | 39 | listing | downtown | studio | Cityview | std | 2026-27 or available now | 1400 | 1595 | 1497.5 | | | | usd_per_bed_per_month | (1400 + 1595) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | |
 | 40 | listing | downtown | studio | Cityview | premium | 2026-27 or available now | 1495 | 1575 | 1535 | | | | usd_per_bed_per_month | (1495 + 1575) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | |
 | 41 | listing | downtown | studio | Commons West | std | 2026-27 or available now | 1295 | 1495 | 1395 | | | | usd_per_bed_per_month | (1295 + 1495) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | |
-| 42 | listing | downtown | studio | Commons West | premium | 2027-28 | 1365 | 1525 | 1445 | | | | usd_per_bed_per_month | (1365 + 1525) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | the one downtown row the brief records as tagged 2027-28 |
+| 42 | listing | downtown | studio | Commons West | premium | 2027-28 | 1365 | 1525 | 1445 | | | | usd_per_bed_per_month | (1365 + 1525) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | the one downtown row tagged 2027-28 |
 | 43 | listing | downtown | studio | Colonial Building | budget | 2026-27 or available now | 1225 | 1325 | 1275 | | | | usd_per_bed_per_month | (1225 + 1325) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | electricity included (page FAQ) |
 | 44 | listing | downtown | studio | Commons Studios | budget | 2026-27 or available now | 1275 | 1375 | 1325 | | | | usd_per_bed_per_month | (1275 + 1375) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | electricity included (page FAQ) |
 | 45 | listing | downtown | studio | Old Cigar Factory | budget | 2026-27 or available now | 1175 | 1275 | 1225 | | | | usd_per_bed_per_month | (1175 + 1275) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | |
@@ -113,12 +111,12 @@ All money is US dollars, asking rent per bed per month unless the unit column sa
 | 50 | listing | downtown | 2br | Old Cigar Factory | std | 2026-27 or available now | 850 | 875 | 862.5 | | | | usd_per_bed_per_month | (850 + 875) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | 2BR/2BA |
 | 51 | listing | downtown | 2br | Old Cigar Factory | std | 2026-27 or available now | 825 | 925 | 875 | | | | usd_per_bed_per_month | (825 + 925) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | 2BR/1BA |
 | 52 | listing | downtown | 2br | 154 The Commons | std | 2026-27 or available now | 950 | 1050 | 1000 | | | | usd_per_bed_per_month | (950 + 1050) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | |
-| 53 | listing | downtown | 2br | Cityview | std | 2026-27 or available now | 940 | 1045 | 992.5 | | | | usd_per_bed_per_month | (940 + 1045) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | the home page showed a Cityview premium 2BR at $1050-$1150 (2026-27); not on the downtown page rows used |
+| 53 | listing | downtown | 2br | Cityview | std | 2026-27 or available now | 940 | 1045 | 992.5 | | | | usd_per_bed_per_month | (940 + 1045) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | the home page showed a Cityview premium 2BR at $1050-$1150 (2026-27); the downtown page is used |
 | 54 | listing | downtown | 3br | Old Cigar Factory | std | 2026-27 or available now | 695 | 795 | 745 | | | | usd_per_bed_per_month | (695 + 795) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | 3BR/2BA |
 | 55 | listing | downtown | 3br | 156 The Commons | std | 2026-27 or available now | 745 | 845 | 795 | | | | usd_per_bed_per_month | (745 + 845) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | |
 | 56 | listing | downtown | 3br | Cityview | std | 2026-27 or available now | 815 | 895 | 855 | | | | usd_per_bed_per_month | (815 + 895) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | |
-| 57 | listing | downtown | 5br | Cityview | not stated | 2026-27 or available now | 745 | 845 | 795 | | | | usd_per_bed_per_month | (745 + 845) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | |
-| 58 | listing | downtown | 6br | Cityview | not stated | 2026-27 or available now | 815 | 925 | 870 | | | | usd_per_bed_per_month | (815 + 925) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | |
+| 57 | listing | downtown | 5br | Cityview | | 2026-27 or available now | 745 | 845 | 795 | | | | usd_per_bed_per_month | (745 + 845) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | |
+| 58 | listing | downtown | 6br | Cityview | | 2026-27 or available now | 815 | 925 | 870 | | | | usd_per_bed_per_month | (815 + 925) / 2 | | 2026-11-08 | [downtown page](https://ithacarenting.com/downtown/) | |
 | 59 | summary | collegetown | studio | | | 2027-28 | 1565 | 1950 | | 1765 | 1748.2 | | usd_per_bed_per_month | median and mean of midpoints in rows 1-7 | 7 | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | low and high are the lowest and highest range endpoints |
 | 60 | summary | collegetown | 1br | | | 2027-28 | 1625 | 2545 | | 2025 | 2005 | | usd_per_bed_per_month | median and mean of midpoints in rows 8-15 | 8 | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | median is (2020 + 2030) / 2 |
 | 61 | summary | collegetown | 2br | | | 2027-28 | 1145 | 1495 | | 1377.5 | 1346.5 | | usd_per_bed_per_month | median and mean of midpoints in rows 16-20 | 5 | 2026-11-08 | [Collegetown page](https://ithacarenting.com/collegetown/) | |
@@ -171,8 +169,8 @@ All money is US dollars, asking rent per bed per month unless the unit column sa
 - **What is included differs.** Collegetown: heat and hot water at all properties, trash at Collegetown Center, Plaza and Court, electricity paid by tenants except on 210 Dryden Rd floors 2-3 and in room-rented units. Downtown: heat, water and trash included; electricity only at the Colonial Building, Commons Studios and Whiton Hall. Parking is extra in Collegetown. The comparison does not adjust for any of this.
 - **The double is not like for like.** Cornell's $13,744 covers the academic year with utilities and internet. The comparison here uses 12 months of rent with no utilities and no summer sublet income.
 - **Same-day page differences.** Ithaca Renting's home page showed some different prices than its unit pages on the same day (for example, a Collegetown Center deluxe studio at $1,935 to $2,035 against $1,830 to $1,950). The Collegetown and downtown pages are used here.
-- **The downtown page may hold more rows.** It showed 36 rows and a "View More" link.
-- **Not in the brief:** per-row lease-year tags for the downtown rows; whether downtown units are furnished; square footage of any unit; the commute time from each building; downtown parking terms at this landlord; what any tenant actually paid; a downtown per-bed figure from any other landlord.
+- **More downtown units may be listed.** The downtown page opens with 36 rows and a "View More" link.
+- **Ask before you sign.** Ask the landlord which lease year a downtown unit is for, whether it is furnished, its square footage and the parking terms.
 
 ## How to cite
 

@@ -207,7 +207,7 @@ rows:
 ```
 Source: Cornell Student & Campus Life, Housing Rates 2026-2027. Yearly figures are the monthly rate times 12.
 
-Maplewood, the other graduate complex on Cornell land, is run by Greystar. Maplewood rents are on request from Greystar. Greystar charges a one-time $130.00 community amenity fee per leaseholder at move-in and requires renters liability insurance ([Greystar](https://www.greystar.com/maplewood-ithaca-ny/p_15697)). Call Maplewood at (607) 821-0248 for current rents. Students moving with a partner or children can compare Hasbrouck's family units with other options in [our student family housing guide](/cornell/housing/cornell-student-family-housing-ithaca/).
+Maplewood is an apartment community for graduate, faculty and professional students run by Greystar, and its rents are on request. Greystar charges a one-time $130.00 community amenity fee per leaseholder at move-in and requires renters liability insurance ([Greystar](https://www.greystar.com/maplewood-ithaca-ny/p_15697)). Call Maplewood at (607) 821-0248 for current rents. Students moving with a partner or children can compare Hasbrouck's family units with other options in [our student family housing guide](/cornell/housing/cornell-student-family-housing-ithaca/).
 
 ## When is the bill due, and what does it cost to cancel?
 

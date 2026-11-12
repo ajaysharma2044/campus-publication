@@ -7,7 +7,7 @@ primary_query: cornell student bank account best bank Ithaca students
 topic: money
 school: cornell-university
 type: comparison
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 255
 queue_id: q-money-0027
 rewrites: content/articles/money/cornell-student-bank-account-best-bank-ithaca-students.md
@@ -21,31 +21,31 @@ tools: []
 sources:
 - url: https://bursar.cornell.edu/students-parents/student-resources/local-banking-services
   title: Local Banking Services, Cornell Bursar
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://international.globallearning.cornell.edu/getting-started/your-first-week-0
   title: Your First Week, Cornell Global Learning
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://international.globallearning.cornell.edu/employment-and-taxes/apply-ssn
   title: Apply for an SSN, Cornell Global Learning
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://bursar.cornell.edu/students-parents/deposit-refunds
   title: Direct Deposit and Student Refunds, Cornell Bursar
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.alternatives.org/accounts/checking/
   title: Checking, Alternatives Federal Credit Union
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.alternatives.org/accounts/open-an-account/
   title: Open an Account, Alternatives Federal Credit Union
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.tompkinsbank.com/student-checking-101
   title: Student Checking, Tompkins Bank & Trust
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.beginnings.com/personal/deposit-accounts/banking-for-college-students
   title: Banking for College Students, Beginnings Credit Union
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.beginnings.com/about-us/about-beginnings-credit-union/who-can-become-a-member
   title: Who Can Become a Member, Beginnings Credit Union
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -67,13 +67,13 @@ The one thing you do need is a U.S. checking or savings account if you want refu
 
 ## How do Ithaca banks compare?
 
-The Bursar lists nine institutions with phone numbers but no fees, addresses or SSN rules. This table uses each bank's own page for fees and Cornell's international page for SSN rules.
+The Bursar lists nine local institutions with phone numbers. This table uses each bank's own page for fees and Cornell's international page for SSN rules.
 
 | Bank | Published fees | SSN rule |
 |---|---|---|
-| Alternatives FCU | $2 one-time enrollment, $5 kept on deposit, no checking minimum, $2 monthly fee waived with eStatements ([Alternatives](https://www.alternatives.org/accounts/checking/)) | Not stated |
-| Tompkins Bank & Trust | No monthly fee, $3.50 for paper statements, $0 to open in a branch and $25 online ([Tompkins](https://www.tompkinsbank.com/student-checking-101)) | Not stated |
-| CFCU | Not on its student page | Debit card and online banking without an SSN or ITIN |
+| Alternatives FCU | $2 one-time enrollment, $5 kept on deposit, no checking minimum, $2 monthly fee waived with eStatements ([Alternatives](https://www.alternatives.org/accounts/checking/)) | Opens with a lease showing a local address |
+| Tompkins Bank & Trust | No monthly fee, $3.50 for paper statements, $0 to open in a branch and $25 online ([Tompkins](https://www.tompkinsbank.com/student-checking-101)) | Student account without an SSN, up to age 25 |
+| CFCU | Check its fee page | Debit card and online banking without an SSN or ITIN |
 | Ithaca Community Bank | Check its fee page | Accounts, debit cards and online banking without an SSN |
 | M&T | Check its fee page | Debit cards and online banking without an SSN |
 | Bank of America | Check its fee page | Requires a driver's license and passport, in person |
@@ -90,7 +90,7 @@ rows:
   - {label: "Alternatives: membership deposit kept on account", value: "$5"}
 ```
 
-Fees change, so confirm them on each bank's page. Beginnings Credit Union uses the same phone number as CFCU, 607-257-8500, but no page states that they are one institution. Cornell's [Global Learning page](https://international.globallearning.cornell.edu/getting-started/your-first-week-0) gives its SSN rule for CFCU by that name, so ask Beginnings directly. The [Bursar's list](https://bursar.cornell.edu/students-parents/student-resources/local-banking-services) includes a Community Bank at 866-764-8638, so confirm whether it is Ithaca Community Bank before you call.
+Fees change, so confirm them on each bank's page. Beginnings Credit Union uses the same phone number as CFCU, 607-257-8500. Cornell's [Global Learning page](https://international.globallearning.cornell.edu/getting-started/your-first-week-0) gives its SSN rule for CFCU by that name, so ask Beginnings about its SSN rule directly. The [Bursar's list](https://bursar.cornell.edu/students-parents/student-resources/local-banking-services) includes a Community Bank at 866-764-8638, so confirm whether it is Ithaca Community Bank before you call.
 
 ## Which bank fits which student?
 
@@ -133,11 +133,11 @@ Open in person if you can, since Bank of America requires it. Then add the accou
 
 ## FAQ
 
-**Can I open an account before I arrive?** Cornell's pages do not say. Alternatives asks for proof of address, which many students have only after signing a lease, so ask each bank whether it accepts an application before you arrive.
+**Can I open an account before I arrive?** Ask each bank. Alternatives asks for proof of address, which many students have only after signing a lease, so ask whether it accepts an application before you arrive.
 
 **Is a credit union better than a bank?** Cornell does not rank them. Compare published fees and ATM access.
 
-**Does Cornell have a partner bank?** No. The Bursar describes bank representatives on campus at orientation but states no partnership.
+**Does Cornell have a partner bank?** No. International Services does not recommend any particular bank ([Cornell Global Learning](https://international.globallearning.cornell.edu/getting-started/your-first-week-0)), and the Bursar describes bank representatives visiting campus at orientation.
 
 ## What to do next
 

@@ -273,7 +273,7 @@ Every applicant applies to one college and, in most colleges, one major. The rul
 | Dyson exam credit (current page) | "The Dyson School does not accept advanced testing credit for calculus, statistics, microeconomics or macroeconomics"; transfer applicants must take these courses (or a more advanced equivalent) in college; at most 15 advanced standing test (AP, IB, GCE, A-level) credits; up to 60 transfer credits | https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/ | current | 2026-11-11 |
 | Dyson after admission | Transfers meet an advisor in July to review credit evaluations; Dyson_OSS@cornell.edu | https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment/college-school-links | page written for 2024 | 2026-11-11 |
 | AEM route | AEM applicants apply through Dyson; CALS transfers cannot later add AEM | https://cals.cornell.edu/education/admissions/undergraduate-admissions/transfer-applicants | current | 2026-11-11 |
-| Computer Science | Transfers apply to Engineering (B.S., admitted directly into a major) or Arts and Sciences (B.A.) and request CS; CS transfer credit reviewed by the department (snippets) | https://www.cs.cornell.edu/node/17 ; https://rproxy.cs.cornell.edu/undergrad/csmajor/transfercredits | snippet | 2026-11-11 |
+| Computer Science | Transfers apply to Engineering (B.S., admitted directly into a major) or Arts and Sciences (B.A.) and request CS; CS transfer credit reviewed by the department (snippets) | https://www.cs.cornell.edu/undergrad/csmajor/transfercredits | snippet | 2026-11-11 |
 | Bowers | Bowers College of Computing and Information Science: the EOP page does not name it (earlier note was wrong); no transfer page opened | https://oadi.cornell.edu/node/50 | | 2026-11-11 |
 
 ### 2.7 Credit evaluation: university policy
@@ -1036,7 +1036,7 @@ Everything here is experience and opinion, paraphrased and attributed, never fac
 ### 7.4 Academics and credits (4 sources plus adjustment pieces)
 
 - Spring 2023 transfers worried about closed classes at add/drop (current students had pre-enrolled in November), graduation timing, a degree audit not yet showing their credits, rigor and balance. Abbey Yang '25 said her advisor told her biology credits should count but DUST did not yet show them; one student planned 18 credits; Cynthia Cui '25 found Cornell more rural and much colder than UC Santa Barbara; another student compared the spread-out campus layout to Buffalo; college-specific orientation socials helped (https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/).
-- A 2016 UVA-to-Cornell poster said Cornell did not ask for syllabi because it had taken students from the same school, warned writing seminars were harder to transfer, and found intro biology and psychology easier; hedged and secondhand (https://talk.collegeconfidential.com/t/cornell-transfer-courses/1840413).
+- A 2016 anonymous poster (school not named; a UVA transfer is a separate acquaintance) said Cornell "didnt even look at my syllabuses", warned writing seminars were harder to transfer ("a little stingy"), and recommended intro biology and psychology; one anecdote (https://talk.collegeconfidential.com/t/cornell-transfer-courses/1840413).
 - An article by two Her Campus writers says Cornell reviewed the author's syllabi and approved most of her classes after a Transfer Option year (the article gives no entry year; it points to fall 2019; https://www.hercampus.com/school/cornell/transfer-option-blessing-disguise/).
 - Alexia Kim cited organic chemistry prelims and 12-page essays as the rigor jump (2019).
 - Silverman described switching from UCLA's quarter system to semesters.
@@ -1403,6 +1403,9 @@ First-year, fall 2025 (CDS C1): 72,523 applied, 6,077 admitted, 3,827 enrolled.
 
 ## 11. Change log
 
+- 2026-11-11: corrected the 2016 College Confidential poster's attribution (the poster did not name a school and said Cornell did not look at their syllabi; the UVA transfer is a separate person they know) after checking /transfer/cornell-transfer-credit-how-many-credits-transfer/; source https://talk.collegeconfidential.com/t/cornell-transfer-courses/1840413
+- 2026-11-11: replaced the Computer Science row's source (https://www.cs.cornell.edu/node/17 returned 404) with https://www.cs.cornell.edu/undergrad/csmajor/transfercredits, opened today: CS transfer credit only for CS 1110, 2110 and 2800, after the enrolling college's (A&S or Engineering) transfer credit form, for /transfer/cornell-engineering-transfer-guide/ (write session)
+
 - 2026-11-11: added Brooks majors (Public Policy, Health Care Policy), suggested and junior-recommended courses, letter-grade rule, no articulation agreements, math below Calculus I and PE not accepted, credit evaluation timing and admissions contacts for /transfer/cornell-brooks-school-transfer-requirements/ (write session)
 
 - 2026-11-11: added the Hotel page reread (no resume for external transfers, no "no grade below B" wording, no interviews, AP/IB in free electives only) for /transfer/cornell-hotel-school-transfer-requirements/ (write session)
@@ -1416,6 +1419,7 @@ First-year, fall 2025 (CDS C1): 72,523 applied, 6,077 admitted, 3,827 enrolled.
 - 2026-11-11: added Human Ecology course lists by major (sophomore and junior), pre-health chemistry equivalents, prep-course GPA, design supplement rule and precalculus rule for /transfer/cornell-human-ecology-transfer-requirements/ (write session)
 
 - 2026-11-11: added NY residency rules for resident tuition (determined at admission by Admissions; one year of NYS domicile; Bursar changes after the first semester, May 1 and November 1, not retroactive) for /transfer/cornell-contract-colleges-ny-resident-transfer/ (write session)
+- 2026-11-11: corrected the Bursar residency-change timing after checking /transfer/cornell-contract-colleges-ny-resident-transfer/: the Bursar FAQ says a student may apply once matriculated (no wait for a first semester), approval is effective the semester following approval and never retroactive; source https://bursar.cornell.edu/students-parents/ny-state-residency/residency-faq
 
 - 2026-11-11: added CALS Signature Pathway Program partner list (TC3 only; "strong admissions consideration"; B and 3.0) for /transfer/cornell-guaranteed-transfer-pathways/ (write session)
 

@@ -29,7 +29,8 @@ readers:
 - accessibility
 pillar: ''
 brief: intel/off-campus-housing/brief.md
-subject: Collegetown Ithaca
+subject:
+- Collegetown Ithaca
 tools:
 - can-i-live-off-campus-cornell-quiz
 - when-to-sign-lease-timeline-cornell
@@ -293,7 +294,7 @@ sources:
 - url: https://www.nysenate.gov/legislation/laws/EXC/296
   title: New York Executive Law 296, NY Senate
   accessed: '2026-11-11'
-- url: 'https://ithacarents.com/1428-three-bedroom-2,000-east-hill-in-ithaca-available-from-oct-2026'
+- url: https://ithacarents.com/1428-three-bedroom-2,000-east-hill-in-ithaca-available-from-oct-2026
   title: Three-bedroom house at 219 Snyder Hill Rd, East Hill, IthacaRents listing
   accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/ithaca-super-nice-cayuga-heights-home-adjacent-to-cornell-campus--237688
@@ -310,14 +311,14 @@ sources:
   accessed: '2026-11-11'
 images:
 - file: 1.webp
-  alt: The former home of physicist Hans Bethe in Ithaca, New York
-  caption: Hans Bethe's former house in Ithaca, in a National Park Service photo. Houses beyond Collegetown belong to the wider rental market, which leases months after the Collegetown rush.
-  credit: NPS/GLOWINSKI / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Hans_Bethe_House.jpg
-  license: Public domain
-  license_url: ''
-  author: NPS/GLOWINSKI
-  source_url: https://commons.wikimedia.org/wiki/File:Hans_Bethe_House.jpg
+  alt: Collegetown Wine & Spririts, Ithaca New York
+  caption: Collegetown Wine & Spririts, Ithaca New York
+  credit: Kenneth C. Zirkel / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown_Wine_%26_Spririts,_Ithaca_New_York.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Collegetown_Wine_%26_Spririts,_Ithaca_New_York.jpg
 ---
 
 ```glance

@@ -1,13 +1,13 @@
 ---
 title: 'Maplewood Apartments Cornell: rent, rules and residents'
 mode: answer
-dek: Maplewood is a Greystar-run complex of 872 beds on Cornell land, built for graduate, professional and faculty residents, with utilities in the rent and no prices posted.
+dek: Maplewood is a Greystar-run complex of 872 beds on Cornell land, built for graduate, professional and faculty residents, with utilities in the rent and quotes on request.
 meta: 'Maplewood Apartments at 121 Veterans Place: 444 units, furnished studio to 4BR, utilities included, a $130.00 move-in fee and a $1,075 to $1,330 price range.'
 primary_query: Maplewood Apartments Cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 112
 rewrites: ''
 readers:
@@ -19,43 +19,43 @@ tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
   title: Graduate & Professional Student On-Campus Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.greystar.com/maplewood-ithaca-ny/p_15697
   title: Maplewood Apartments, Greystar
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.lechase.com/portfolio/greystar/
   title: Greystar portfolio, LeChase Construction
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information
   title: Housing information, Cornell College of Veterinary Medicine
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://news.cornell.edu/stories/2016/02/board-gives-green-light-new-grad-student-housing
   title: Board gives green light to new grad student housing, Cornell Chronicle, Feb. 2016
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2016/02/03/trustees-approve-plans-expanding-graduate-student-housing/
   title: Trustees Approve Plans for Expanding Graduate Student Housing, The Cornell Daily Sun, Feb. 3, 2016
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2018/08/12/delay-in-maplewood-housing-opening-affects-over-100-cornell-graduate-students/
   title: Delay in Maplewood Housing Opening Affects Over 100 Cornell Graduate Students, The Cornell Daily Sun, Aug. 12, 2018
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://assembly.cornell.edu/sites/default/files/gpci_-_housing_dec_2020.pdf
   title: Graduate and Professional Student Housing report, Cornell Assemblies, Dec. 2020
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
 
 ```glance
 - Maplewood is Cornell's graduate and professional housing run by Greystar, with 444 units and 872 beds.
-- Rent includes electricity, trash, internet and cable; neither Cornell nor Greystar posts prices.
-- Cornell's vet college lists $1,075 to $1,330 for studio to 4BR, without saying per bed or per unit.
+- Rent includes electricity, trash, internet and cable; Greystar quotes rent on request.
+- Cornell's vet college lists $1,075 to $1,330 for studio to 4BR; ask Greystar whether a quote is per bed or per unit.
 - Expect a one-time $130.00 amenity fee per leaseholder plus renters insurance from a third party.
 ```
 
-Maplewood Apartments is a furnished apartment community for Cornell graduate, professional and faculty residents at 121 Veterans Place. Greystar manages it on land Cornell owns. Rent includes electricity, trash, internet and cable, but no price list is posted, so call (607) 821-0248 for a quote ([Greystar](https://www.greystar.com/maplewood-ithaca-ny/p_15697)).
+Maplewood Apartments is a furnished apartment community for Cornell graduate, professional and faculty residents at 121 Veterans Place. Greystar manages it on land Cornell owns. Rent includes electricity, trash, internet and cable, and Greystar quotes rent on request at (607) 821-0248 ([Greystar](https://www.greystar.com/maplewood-ithaca-ny/p_15697)).
 
 ## What is Maplewood Apartments?
 
@@ -70,7 +70,7 @@ rows:
   - {label: "Built", value: "2017 to 2018"}
   - {label: "Size", value: "444 units, 872 beds"}
   - {label: "Unit types", value: "Furnished studio to 4BR; five apartment buildings, 21 townhouses and stacked flats"}
-  - {label: "Price range listed by Cornell's vet college", value: "$1,075 to $1,330 (Feb. 2026; per bed or per unit not stated)"}
+  - {label: "Price range listed by Cornell's vet college", value: "$1,075 to $1,330 (Feb. 2026)"}
   - {label: "Included in rent", value: "Electricity, trash, internet, cable"}
   - {label: "Move-in fee", value: "$130.00 per leaseholder, one time"}
   - {label: "Who lives there", value: "Graduate, professional and faculty residents"}
@@ -89,9 +89,9 @@ The new buildings were built in 2017 and 2018 ([LeChase Construction](https://ww
 
 ## What does Maplewood cost?
 
-Cornell does not publish a Maplewood rate, and Greystar's page lists none either. The only public number is on the Cornell College of Veterinary Medicine housing page, which lists Maplewood at "$1,075- $1,330" for studio through 4-bedroom units, updated in February 2026. The page does not say whether that is per bed or per unit, or for what period, and notes that ranges vary with specials and availability ([Cornell vet college](https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information)).
+Cornell publishes no Maplewood rate, and Greystar quotes rent on request. The only public number is on the Cornell College of Veterinary Medicine housing page, which lists Maplewood at "$1,075- $1,330" for studio through 4-bedroom units, updated in February 2026, and notes that ranges vary with specials and availability ([Cornell vet college](https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information)).
 
-Ask Greystar for a written quote for your exact unit, and ask whether it is per bed or per unit before you compare it with anything else. For a point of comparison on campus, Cornell's own Hasbrouck rates run from $620 for a regular single in a 2-bedroom townhouse to $1,530 for a furnished family 2-bedroom townhouse per month on a 12-month contract ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
+Ask Greystar for a written quote for your exact unit, and ask whether it is per bed or per unit and for what period before you compare it with anything else. For a point of comparison on campus, Cornell's own Hasbrouck rates run from $620 for a regular single in a 2-bedroom townhouse to $1,530 for a furnished family 2-bedroom townhouse per month on a 12-month contract ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 The move-in cost to plan for is a one-time $130.00 community amenity fee per leaseholder at move-in, plus renters liability insurance bought from a third party (Greystar).
 
@@ -101,7 +101,7 @@ For how these costs fit a graduate budget, see the [monthly rent budget for Corn
 
 ## Who can live at Maplewood and how do you get a unit?
 
-Greystar markets Maplewood to graduate, faculty and professional students. Cornell's graduate housing page does not publish Maplewood prices, a lease start date or an application window, so ask Greystar at the number above for all three.
+Greystar markets Maplewood to graduate, faculty and professional students. Ask Greystar at the number above for prices, the lease start date and the application window.
 
 Visiting scholars have no guaranteed Cornell housing and compete with graduate students for units like these. The [visiting scholar and postdoc housing guide](/cornell/housing/visiting-scholar-postdoc-furnished-housing-ithaca/) covers furnished options for short stays.
 

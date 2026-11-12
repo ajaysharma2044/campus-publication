@@ -129,7 +129,7 @@ Fall finals run Dec. 11 to 19, and Dec. 19 is the last day of the term ([Cornell
 
 OurBus names the last day of December finals as one of three peak days of the year, with the Wednesday before Thanksgiving and the Friday spring break begins ([OurBus](https://www.ourbus.com/blog/?p=6269)). In 2026 that is the Saturday that ends finals.
 
-On the way back, you can move in any time before classes start with an arrival timeslot in the portal ([closing notice](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice)). The registrar's spring term begins Jan. 25, while the housing notice says one day later, so plan for the earlier date.
+On the way back, you can move in any time before classes start with an arrival timeslot in the portal ([closing notice](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice)). Spring term begins Jan. 25 on the registrar's calendar, so plan your return for that date.
 
 ```figure
 kind: timeline
@@ -174,9 +174,8 @@ Two links split the season. "2026 Travel Reservations" covers departures through
 
 1. Book the trip out on the 2026 link, for the last day of finals or closing day if you can.
 2. Book the trip back on the 2027 link, for a date after the halls reopen.
-3. Check that day's times in the live departure table.
-4. Board 10 minutes early with a photo ID that matches the booking.
-5. If you miss the bus out, cancel the return yourself. C2C keeps the missed fare and leaves the other leg booked.
+3. Board 10 minutes early with a photo ID that matches the booking.
+4. If you miss the bus out, cancel the return yourself. C2C keeps the missed fare and leaves the other leg booked.
 
 ## How do you fly home?
 

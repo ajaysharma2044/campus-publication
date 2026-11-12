@@ -9,28 +9,28 @@ kind: tool
 readers: [first-year, upper-year-no-car, car-on-campus, off-campus, grad-student, transfer-spring, summer-in-ithaca]
 brief: intel/getting-around/brief.md
 sources:
-  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students", title: "Cornell Transportation: student parking permits", accessed: "2026-11-08"}
-  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", title: "Cornell Transportation: bus services, privileges and passes", accessed: "2026-11-08"}
-  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates", title: "Cornell Campus-to-Campus bus rates", accessed: "2026-11-08"}
-  - {url: "https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny", title: "OurBus: Ithaca to New York", accessed: "2026-11-08"}
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students", title: "Cornell Transportation: student parking permits", accessed: "2026-11-11"}
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", title: "Cornell Transportation: bus services, privileges and passes", accessed: "2026-11-11"}
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates", title: "Cornell Campus-to-Campus bus rates", accessed: "2026-11-11"}
+  - {url: "https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny", title: "OurBus: Ithaca to New York", accessed: "2026-11-11"}
   - {url: "https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/", title: "Wanderu: Ithaca to New York bus", accessed: "2026-11-08"}
-  - {url: "https://www.flyithaca.com/parking", title: "Ithaca Tompkins International Airport: parking", accessed: "2026-11-08"}
-  - {url: "https://www.ithacacarshare.org/students-commuters", title: "Ithaca Carshare: students and commuters", accessed: "2026-11-08"}
-  - {url: "https://www.ithacacarshare.org/rates", title: "Ithaca Carshare: rates", accessed: "2026-11-08"}
-  - {url: "https://www.ithacacarshare.org/eligibility", title: "Ithaca Carshare: eligibility", accessed: "2026-11-08"}
-  - {url: "https://www.ithacabikeshare.org", title: "Ithaca Bikeshare", accessed: "2026-11-08"}
-  - {url: "https://www.cityofithacany.gov/731/Permit-Issuance", title: "City of Ithaca: residential parking permit issuance", accessed: "2026-11-08"}
-  - {url: "https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/", title: "Cornell Sun: on-campus parking fines increase for first time since 2014", accessed: "2026-11-08"}
-  - {url: "https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1", title: "Cornell Transportation: citation fines increasing September 1", accessed: "2026-11-08"}
+  - {url: "https://www.flyithaca.com/parking", title: "Ithaca Tompkins International Airport: parking", accessed: "2026-11-11"}
+  - {url: "https://www.ithacacarshare.org/students-commuters", title: "Ithaca Carshare: students and commuters", accessed: "2026-11-11"}
+  - {url: "https://www.ithacacarshare.org/rates", title: "Ithaca Carshare: rates", accessed: "2026-11-11"}
+  - {url: "https://www.ithacacarshare.org/eligibility", title: "Ithaca Carshare: eligibility", accessed: "2026-11-11"}
+  - {url: "https://www.ithacabikeshare.org", title: "Ithaca Bikeshare", accessed: "2026-11-11"}
+  - {url: "https://www.cityofithacany.gov/731/Permit-Issuance", title: "City of Ithaca: residential parking permit issuance", accessed: "2026-11-11"}
+  - {url: "https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/", title: "Cornell Sun: on-campus parking fines increase for first time since 2014", accessed: "2026-11-11"}
+  - {url: "https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1", title: "Cornell Transportation: citation fines increasing September 1", accessed: "2026-11-11"}
   - {url: "https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students", title: "Cornell Sun: Williams Street parking lot struggles to accommodate students", accessed: "2026-11-11"}
-  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules", title: "Cornell Transportation: winter and break parking rules", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation", title: "Cornell Family Resource Hub: parking and transportation", accessed: "2026-11-08"}
-  - {url: "https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free", title: "Cornell Sun: non-first-year students no longer able to ride TCAT free", accessed: "2026-11-08"}
-  - {url: "https://business.cornell.edu/students/by-program/mba-students/living-in-ithaca/", title: "Cornell Johnson: living in Ithaca (MBA)", accessed: "2026-11-08"}
-  - {url: "https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/", title: "Cornell Sun: TCAT prolongs suspension of routes 14S and 83", accessed: "2026-11-08"}
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules", title: "Cornell Transportation: winter and break parking rules", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation", title: "Cornell Family Resource Hub: parking and transportation", accessed: "2026-11-11"}
+  - {url: "https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free", title: "Cornell Sun: non-first-year students no longer able to ride TCAT free", accessed: "2026-11-11"}
+  - {url: "https://business.cornell.edu/students/by-program/mba-students/living-in-ithaca/", title: "Cornell Johnson: living in Ithaca (MBA)", accessed: "2026-11-11"}
+  - {url: "https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/", title: "Cornell Sun: TCAT prolongs suspension of routes 14S and 83", accessed: "2026-11-11"}
 ---
 
-This quiz tells you whether a car is worth it for your year at Cornell, and if it is, which parking permit you would need. You tell it your year, where you live, how often you go home and how, how many hours a month you would actually drive in Ithaca, and your age and license history. It answers with one of four picks: no car, no car plus an Ithaca Carshare plan, a B commuter permit, or a resident permit (or, for graduate assistants off campus, a free A or E permit). It also gives the yearly cost of getting around with and without a car, the reasons, and the rules that could stop you. Every price is from a page we read on 2026-11-08.
+This quiz tells you whether a car is worth it for your year at Cornell, and if it is, which parking permit you would need. You tell it your year, where you live, how often you go home and how, how many hours a month you would actually drive in Ithaca, and your age and license history. It answers with one of four picks: no car, no car plus an Ithaca Carshare plan, a B commuter permit, or a resident permit (or, for graduate assistants off campus, a free A or E permit). It also gives the yearly cost of getting around with and without a car, the reasons, and the rules that could stop you. Prices are as of 2026-11-08.
 
 ## Who it is for
 
@@ -77,36 +77,36 @@ This quiz tells you whether a car is worth it for your year at Cornell, and if i
 
 | Number | Value | Applies to | Source |
 |---|---|---|---|
-| Resident permit (ND, WD, SW, FH) | $752.98 a year | Page undated, read 2026-11-08 | [Cornell parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
-| B student commuter permit | $359.77 a year | Page undated, read 2026-11-08 | [Cornell parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
-| Outer Tier A or E, full assistantship | $0 | Page undated, read 2026-11-08 | [Cornell parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
-| TCAT cash fare | $1.50 | Page undated, read 2026-11-08 | [Cornell bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) |
-| OmniRide (Cornell discounted) | $200 a year | Page undated, read 2026-11-08 | [Cornell bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) |
-| C2C round trip, NetID | $187 | Page undated, read 2026-11-08 | [C2C rates](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates) |
+| Resident permit (ND, WD, SW, FH) | $752.98 a year | As of 2026-11-08 | [Cornell parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
+| B student commuter permit | $359.77 a year | As of 2026-11-08 | [Cornell parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
+| Outer Tier A or E, full assistantship | $0 | As of 2026-11-08 | [Cornell parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
+| TCAT cash fare | $1.50 | As of 2026-11-08 | [Cornell bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) |
+| OmniRide (Cornell discounted) | $200 a year | As of 2026-11-08 | [Cornell bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) |
+| C2C round trip, NetID | $187 | As of 2026-11-08 | [C2C rates](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates) |
 | OurBus Ithaca-NYC, "from" | $33 one way | 2026-11-08 | [OurBus](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny) |
 | Ithaca-NYC average advertised fare, mean of 6 carriers | $61.91 one way | Week of 2026-11-08, n = 6 carriers | [Wanderu](https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/) |
-| ITH long-term parking | $40 a week | Page undated, read 2026-11-08 | [ITH parking](https://www.flyithaca.com/parking) |
-| Carshare Just In Case, student annual | $30 a year | Page undated, read 2026-11-08 | [Carshare students](https://www.ithacacarshare.org/students-commuters) |
-| Carshare It's My Car, student annual | $310 a year | Page undated, read 2026-11-08 | [Carshare students](https://www.ithacacarshare.org/students-commuters) |
-| Carshare sign-up | $20 per driver, one time | Page undated, read 2026-11-08 | [Carshare rates](https://www.ithacacarshare.org/rates) |
-| Carshare hourly | $9 (Just In Case), $6 (It's My Car) | Page undated, read 2026-11-08 | [Carshare rates](https://www.ithacacarshare.org/rates) |
-| Carshare taxes on usage | 20% (8% sales + 12% rental tax) | Page undated, read 2026-11-08 | [Carshare rates](https://www.ithacacarshare.org/rates) |
-| Carshare mileage | 42 to 52 cents a mile | Page undated, read 2026-11-08 | [Carshare rates](https://www.ithacacarshare.org/rates) |
-| Carshare eligibility | Age 18+, license held 2+ years; under 21: own policy with $300,000 per accident liability | Page undated, read 2026-11-08 | [Carshare eligibility](https://www.ithacacarshare.org/eligibility) |
-| Bikeshare | $1.50 unlock + $0.25 a minute; $60 a month | Page undated, read 2026-11-08 | [Ithaca Bikeshare](https://www.ithacabikeshare.org) |
-| City residential parking permit | $45 a year | Page undated, read 2026-11-08 | [City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance) |
+| ITH long-term parking | $40 a week | As of 2026-11-08 | [ITH parking](https://www.flyithaca.com/parking) |
+| Carshare Just In Case, student annual | $30 a year | As of 2026-11-08 | [Carshare students](https://www.ithacacarshare.org/students-commuters) |
+| Carshare It's My Car, student annual | $310 a year | As of 2026-11-08 | [Carshare students](https://www.ithacacarshare.org/students-commuters) |
+| Carshare sign-up | $20 per driver, one time | As of 2026-11-08 | [Carshare rates](https://www.ithacacarshare.org/rates) |
+| Carshare hourly | $9 (Just In Case), $6 (It's My Car) | As of 2026-11-08 | [Carshare rates](https://www.ithacacarshare.org/rates) |
+| Carshare taxes on usage | 20% (8% sales + 12% rental tax) | As of 2026-11-08 | [Carshare rates](https://www.ithacacarshare.org/rates) |
+| Carshare mileage | 42 to 52 cents a mile | As of 2026-11-08 | [Carshare rates](https://www.ithacacarshare.org/rates) |
+| Carshare eligibility | Age 18+, license held 2+ years; under 21: own policy with $300,000 per accident liability | As of 2026-11-08 | [Carshare eligibility](https://www.ithacacarshare.org/eligibility) |
+| Bikeshare | $1.50 unlock + $0.25 a minute; $60 a month | As of 2026-11-08 | [Ithaca Bikeshare](https://www.ithacabikeshare.org) |
+| City residential parking permit | $45 a year | As of 2026-11-08 | [City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance) |
 | Ticket, no permit or payment | $50, plus $10 if unpaid in 10 days | From 2023-09-01 | [Cornell Sun](https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/); [Cornell](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1) |
 
 ## Assumptions and what the quiz does not cover
 
 - **The car itself.** The "with a car" figure is parking only: it leaves out gas, insurance, tolls, repairs and the car itself. That is why a permit can look cheaper than Carshare when it is not.
-- **Bus fares are advertised prices,** not fares anyone booked. The floor and the average come from one week of listings. Thanksgiving week ran about a third higher on other routes.
+- **Bus fares are advertised prices,** not booked fares, for the week of 2026-11-08. Holiday-week fares can differ.
 - **One week of ITH parking per flight trip.** A 14-day stay is about $80. Winter break is longer than that.
 - **Tax.** The quiz applies the 20% tax to hourly charges only. Mileage is left out.
 - **Permit sales and limits.** Permits are sold first come, first served, while space lasts, at myparking.cornell.edu. In fall 2023, students told the Cornell Sun that permits sold out within hours, and Cornell said the Williams St lot sold out faster than in earlier years. North Campus (ND) permits are extremely limited: sales are capped and open only to North Campus residents of university-owned housing.
 - **First-years and cars.** Cornell's families page says first-years are discouraged from bringing a car, and permits are limited.
 - **Proration.** Permits prorate daily (resident from Sept 1, commuter from Aug 16). A mid-year buyer pays less, but the quiz uses the full-year price.
-- **Other ways to travel.** The quiz does not price Uber, Lyft, taxis, airfares or fares home to cities other than NYC (see our bus guides).
+- **Other ways to travel.** The quiz does not price Uber, Lyft, taxis, airfares or fares home to cities other than NYC.
 
 ## How to read the result
 

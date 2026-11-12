@@ -8,7 +8,7 @@ primary_query: ithaca rent by budget
 topic: housing
 school: cornell-university
 type: cost
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 11
 rewrites: ''
 readers:
@@ -24,508 +24,506 @@ tools:
 sources:
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown properties and prices, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/graduate-students
   title: Graduate and professional cost of attendance 2026-27, Cornell Financial Aid
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampushousing.ithaca.edu/listing
   title: Listings, Ithaca College off-campus housing site
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://citycentreithaca.com/floorplans/
   title: Floor plans, City Centre Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/
   title: As Cornell requires university housing for sophomores, students weigh options, The Cornell Daily Sun, 2021
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/09/301-college-avenue-available-for-student-housing-in-2026-2027-academic-year
   title: 301 College Avenue available for student housing in 2026-2027 academic year, The Cornell Daily Sun, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacavoice.org/2026/07/cornell-collegetown-construction/
   title: 'Gallery: See what''s under construction around Ithaca this summer, The Ithaca Voice, 2026'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148
   title: Three new developments offer different answers to Ithaca's housing needs, Tompkins Weekly, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/
   title: Ithaca, NY average rent, RentCafe
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections
   title: Ithaca is the latest upstate city to opt into Good Cause renter protections, WAMC, 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://hcr.ny.gov/good-cause-eviction
   title: Good Cause Eviction, New York Homes and Community Renewal
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/downtown/
   title: Downtown properties and prices, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/3f1544f9-76c1-4375-91f6-b2400a52dbbf
   title: 119-121 Prospect St. listing, PPM Homes
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4385-cute-furnished-1-br-apt-in-fall-creek-that-is-closest-to-cornell
   title: 312 Farm St. 2W listing, Ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx
   title: Lansing West Apartments, RentCafe
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026
   title: The Ivy to establish new luxury housing in Collegetown, opens fall 2026, The Cornell Daily Sun, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/theory-ithaca-239997
   title: Theory Ithaca listing, Cornell off-campus housing site
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus services, privileges and passes, Cornell Transportation
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
   title: General Obligations Law 7-108, New York State Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/availability
   title: 403 S Cayuga St listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/66bd0b4d-53b6-40a6-8c13-61ae5f32ea9b
   title: 403 S Cayuga St listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/400-college-ave-the-heart-of-collegetown-118390
   title: 400 College Ave - The Heart of Collegetown listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/availability
   title: Lakeland Apartments listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/listings/detail/6b6707e7-3de2-48ad-8595-8c6afa4f5e64
   title: Lakeland Apartments listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/105-127-college-avenue,-apt-1-%2D-furnished-2-bedroom-with-private-patio
   title: West Shore Apartments - 127 listing, ithacarents.com
-  accessed: '2026-11-10'
-- url: https://www.ithacarents.com/2843-modern-two-bedroom-total-electric-apartment-with-eat-in-kitchen.
+  accessed: '2026-11-11'
   title: 5 Deibler Drive, 5B, Freeville NY 13053 listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/1621-135a-kendall--move-in-8/1/2026
   title: 135 Kendall Ave, 135A listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom
   title: 174 Kendall Ave listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/1428-three-bedroom-2,000-east-hill-in-ithaca-available-from-oct-2026
   title: 219 Snyder Hill Rd listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/1455-one-bedroom-800-utilities-included,-furnished,-on-east-hill-in-ithaca/-available-from-oct-2026
   title: 219 Snyder Hill Rd listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/3099-three-bed-apt,-downtown-ithaca-2,000/-avail-from-oct-2026
   title: 508 W. Clinton St listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/ff3fe33c-1d55-46fb-85bb-a4c2dd4a0bb8
   title: 107-109 Hudson St listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-old-cigar-factory-10219
   title: The Old Cigar Factory listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=9
   title: The Old Cigar Factory listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=18
   title: 210 Dryden Road listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/all-properties/
   title: The Old Cigar Factory listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4516-6-bedroom-house-for-27/28-school-year
   title: 416 Hudson listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/aces-apartment-236542
   title: Aces Apartment listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=15
   title: Aces Apartment listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/3324-gorgeous-6-bedroom-house-near-cornell-august-2027
   title: 112 Ferris Place listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/3332-gorgeous-bedrooms-near-cornell-jan-2027
   title: 112 Ferris Place listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx
   title: 220 East State Street listing, cspmgmt.managebuilding.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/87330
   title: 220 East State Street listing, cspmgmt.managebuilding.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/d9a5af7d-9b77-4e9a-83f0-a517e63e77cf
   title: 310-312 S Aurora St listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/ravenwood-apartments-237330
   title: Ravenwood Apartments listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/west-campus/ravenwood
   title: Ravenwood Apartments listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/west-campus/934%20edgecliff
   title: 934 Edgecliff listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/1616-225-pennsylvania-ave
   title: 225 Pennsylvania Ave., Units A, B, C listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/parkside-vista-237019
   title: Parkside Vista listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=19
   title: 202 Dryden Road listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cityview-apartments-10186
   title: Cityview Apartments listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=6
   title: Cityview Apartments listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=13
   title: 156 The Commons listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=1
   title: Collegetown Plaza listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/eee893d7-bfbd-4d77-8232-a818f7cab467
   title: 406-408 E Lincoln St listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/kelvin-place-apartments-237474
   title: Kelvin Place Apartments listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-pinnacle-237571
   title: The Pinnacle listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/3490-508-east-buffalo-st.-%2D-floor-2
   title: 508 East Buffalo Street, Floor 2 listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/85097
   title: 708 Stewart Ave listing, cspmgmt.managebuilding.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/85096
   title: 708 Stewart Ave listing, cspmgmt.managebuilding.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/4894290b-f93c-4f41-b96f-d870f50fd135
   title: 105 Hudson St listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights
   title: 117 Thurston Ave listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4560-large-quiet-apartment-close-to-cornell
   title: 117 Thurston Ave listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/2975-whiton-hall-%2D-rooms-in-shared-housing
   title: Whiton Hall listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/whiton-hall-10220
   title: Whiton Hall listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=11
   title: Whiton Hall listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/3331-beautiful-6-bdrm-house-near-cornell--downtown-ithaca
   title: 114 Ferris Place listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/614-stewart-ave-7751
   title: 614 Stewart Ave listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-meadows-at-ithaca-236704
   title: The Meadows at Ithaca listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/17112
   title: 116 Osmun Pl listing, cspmgmt.managebuilding.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/17114
   title: 116 Osmun Pl listing, cspmgmt.managebuilding.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/villager-apartments-100016
   title: Villager Apartments listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/evergreen-pointe-236735
   title: Evergreen Pointe listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/3763-114-stewart-avenue-%2D--2027/28-school-year-in-center-of-collegetown
   title: 114 Stewart Avenue listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/953901ea-2132-408d-9bb8-57d970e8d17e
   title: 211 Linden Avenue listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/summerhill-townhouses-7826
   title: Summerhill Townhouses listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/b41421f4-31cf-4464-a015-0c2953aa5f3a
   title: 708 E Seneca St listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/3c344295-e59b-44fd-988e-22083972c6d7
   title: 708 E Seneca St listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/listings/detail/9dc6c8ea-ccb9-4242-8aad-1995082e539a
   title: Westview Terrace listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=5
   title: Collegetown Court listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/unit-details/?uid=204
   title: Collegetown Court listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/530e3d93-ff7d-40b1-8893-3bb3dd04db40
   title: 510 E Seneca St listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/2686-t.a.i.-properties,-llc
   title: 719 Hayts Rd, 2 listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/east-pointe-236696
   title: East Pointe listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://eastpointeapartment.com/
   title: East Pointe listing, eastpointeapartment.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://eastpointeapartment.com/floorplans/
   title: East Pointe listing, eastpointeapartment.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=12
   title: 154 The Commons listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/downtown-ithacaf4ba8d70/center%20ithaca
   title: Center Ithaca listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4525-210-stewart-avenue-2br-unit-%2D--2026/27
   title: 210 Stewart Avenue, 2B listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/45134678-4882-4066-bcf6-6c4986414718
   title: 117 Hudson St listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=7
   title: Commons West Apartments listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/triphammer-236697
   title: Triphammer listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://triphammerapts.com/
   title: Triphammer listing, triphammerapts.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://triphammerapts.com/floorplans/
   title: Triphammer listing, triphammerapts.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/3040-luxurious-3-bed-3-bath-apartments
   title: The Ivy Building listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/ivy-building-10216
   title: The Ivy Building listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/college-town/407%20college%20ave
   title: 407 College Ave listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/20af9fdf-4944-4ebc-a788-00dcbef8a1a5
   title: 101 Dryden Rd listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/46a2e71c-6cd5-4492-9ccd-0e465c19ef10
   title: 101 Dryden Rd listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/8a8cd89b-f24f-4e86-b7f1-e7805c550e11
   title: 119 Stewart Ave listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/5444a5cd-d046-4f78-81bc-20370f3f13bf
   title: 119 Stewart Ave listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/27030
   title: 408 Stewart Ave listing, cspmgmt.managebuilding.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/27032
   title: 408 Stewart Ave listing, cspmgmt.managebuilding.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=14
   title: 705 East Buffalo Street listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/1075-studio-efficiencies-on-the-commons
   title: Colonial Building listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=2
   title: Colonial Building listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4419-214-stewart-avenue-%2D-unit1-a
   title: 214 Stewart Avenue (printed as 214 Steward Avenue) listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4416-214-stewart-avenue-%2D-unit-1b
   title: 214 Stewart Avenue (printed as 214 Steward Avenue) listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4417-214-stewart-avenue-%2D-unit-1-c
   title: 214 Stewart Avenue (printed as 214 Steward Avenue) listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/west-campus/lake%20st
   title: Lake Street Apartments listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/listings/detail/9191ed06-f6cc-4881-88c3-fca75077346d
   title: Lake Street Apartments listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/87384
   title: 117 Renwick Drive listing, cspmgmt.managebuilding.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/downtown-ithacaf4ba8d70/cayuga%20apartments
   title: Cayuga Apartments listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/635-1-bedroom,-deibler-heights
   title: 2 Deibler Dr., A, Freeville NY 13068 listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/51224
   title: 406 Stewart Ave listing, cspmgmt.managebuilding.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/52517
   title: 406 Stewart Ave listing, cspmgmt.managebuilding.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/48233
   title: 400-404 Stewart Ave listing, cspmgmt.managebuilding.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/48232
   title: 400-404 Stewart Ave listing, cspmgmt.managebuilding.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/fc49e2b2-ad39-499e-a5cb-5725b9fd3c25
   title: 308 Fairmount Ave listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4254-1-br-less-than-10-minute-walk-to-cornell-law-school
   title: 110 Osmun Place, 2E listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/209-college-ave-7754
   title: Grand View House listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4102-c5-victorian-old-world-experience,-ensuite-bath-each-bedroom
   title: 413 N Cayuga St., 5 listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/downtown-ithacaf4ba8d70/gateway%20commons
   title: Gateway Commons listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=10
   title: Commons Studios listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/college-town/eddygate%20apartments
   title: Eddygate Apartments listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/carey-building-21173
   title: Carey Building listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/downtown-ithacaf4ba8d70/carey%20building
   title: Carey Building listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-aurora-at-cayuga-park-236703
   title: The Aurora at Cayuga Park listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-center-236535
   title: Collegetown Center listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=4
   title: Collegetown Center listing, ithacarenting.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961
   title: Dryden South listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://drydensouth.com/availability/
   title: Dryden South listing, drydensouth.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://drydensouth.com/
   title: Dryden South listing, drydensouth.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/auden-ithaca-7919
   title: Auden Ithaca listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/pine-hill-apartments-99962
   title: Pine Hill Apartments listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/listings/detail/248c5d01-fe46-4c91-878e-e56b4947f195
   title: Lake Street Apartments listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/802-e-seneca-street-7744
   title: 802 E Seneca Street listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/21495
   title: 909 N. Cayuga St listing, cspmgmt.managebuilding.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/downtown-ithacaf4ba8d70/westminster%20hall
   title: Westminster Hall listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/listings/detail/57acb87b-b64c-4cab-b680-7c23d6705f08
   title: Westminster Hall listing, travishyde.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4563-unfurnished-sun-filled-1br-in-fall-creek-1e-walk-to-cornell--commons
   title: 310 Farm Street, Apt 1E listing, ithacarents.com
-  accessed: '2026-11-10'
-- url: https://www.ithacarents.com/4304-sunny-1br-apartment-close-to-cornell.-furnished.-january-1st-move-in.-flexible-lease.
+  accessed: '2026-11-11'
   title: 115 Stewart Ave, 2N listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/ironworks-ithaca-236868
   title: Ironworks Ithaca listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4564-furnished-1bdrm-apt-at-columbia-st.-just-a-20-min-walk-to-cornell
   title: 209 Columbia St, Apt 4 listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4413-top-floor-1br-with-views--heat--laundry-included-unit-c
   title: 130 Forest Home Drive, Units C and D listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4415-spacious-1br--office--furnished--some-utilities-included-unit-d
   title: 130 Forest Home Drive, Units C and D listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-dean-237348
   title: The Dean listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://citycentreithaca.com/
   title: City Centre Ithaca listing, citycentreithaca.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://citycentreithaca.com/amenities/
   title: City Centre Ithaca listing, citycentreithaca.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4286-fully-furnished-private-apartment--walk-to-commons,-cornell--lake
   title: 213 Park Pl, Unit 2 listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/library-place-236706
   title: Library Place listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694
   title: Collegetown Terrace listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/1d1a420c-f1df-47c9-9a54-f1122400840f
   title: 129 College Avenue listing, ppmhomes.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cayuga-place-237022
   title: Cayuga Place listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/coal-yard-apartments-7734
   title: Coal Yard Apartments listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/3525-148a-troy-road
   title: 148 Troy Road, A listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cayuga-lofts-237021
   title: Cayuga Lofts listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://livehhcayuga.com/
   title: Cayuga Lofts listing, livehhcayuga.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://livehhcayuga.com/cayuga-lofts/floor-plans
   title: Cayuga Lofts listing, livehhcayuga.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/226-linden-avenue-8104
   title: 226 Linden Avenue listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/catherine-commons-236692
   title: Catherine Commons listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/312-college-ave-236693
   title: 312 College Ave listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4558-large-unit-in-historical-house
   title: 526 Stewart Ave, 23 listing, ithacarents.com
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-outlook-240145
   title: The Outlook listing, offcampus.housing.cornell.edu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -549,7 +547,7 @@ If you only need to know whether leaving the dorm saves money, see [is off-campu
 
 The prices here come from an EduExplained inventory of 413 Ithaca buildings and houses, compiled in November 2026. It draws on 35 landlord and listing sites, plus Tompkins County and New York State parcel records for owners and building years. Of those 413 rows, 244 print at least one dollar figure. Some buildings appear twice under two address forms, so the 244 rows come down to 216 separate buildings. Every one is in the full list at the end of this page, linked to its listing pages (EduExplained inventory).
 
-An asking price is what a landlord posts, not what a tenant ends up paying. Ithaca Renting tags its Collegetown prices 2027-28 and most of its downtown prices 2026-27. Most other listings print no year, so treat those prices as the latest posted asking rent (EduExplained inventory).
+An asking price is what a landlord posts, not what a tenant ends up paying. Ithaca Renting tags its Collegetown prices 2027-28 and most of its downtown prices 2026-27. With other landlords, ask which lease year a price covers before you compare it (EduExplained inventory).
 
 Every price below is one person's cost for one month. A per-bed price stays as printed. A whole-apartment price is split evenly among its bedrooms, so a three-bedroom at $2,100 becomes $700 a person (EduExplained calculation: $2,100 divided by 3).
 
@@ -557,7 +555,7 @@ Every price below is one person's cost for one month. A per-bed price stays as p
 
 Ithaca rents come three ways. Student buildings quote a price per bed, which is what each roommate pays. Family and graduate buildings quote a price per apartment. Cornell's co-ops and residence halls quote a price per semester. Mixing them up makes a bed look cheaper or pricier than it is. Our guide to [Collegetown rent per bed](/cornell/housing/collegetown-rent-prices-per-bed-one-bedroom/) walks through the difference with Collegetown's own numbers.
 
-Some listings make the mix-up for you. On the Cornell and Ithaca College off-campus housing sites, the price field is labeled "per unit" even for rooms. A 10-bedroom house at 611 E. Seneca St. is listed at $885 "per unit" ([Ithaca College off-campus housing](https://offcampushousing.ithaca.edu/listing)). Whole houses of nine to 14 bedrooms list for $9,855 to $16,730 on the same site, so $885 can only be one person's share. Twenty-five of the 216 priced buildings carry a price like that, or only a price range with no basis. The full list marks them "ask." Get the basis in writing before you sign.
+Some listings make the mix-up for you. On the Cornell and Ithaca College off-campus housing sites, the price field is labeled "per unit" even for rooms. A 10-bedroom house at 611 E. Seneca St. is listed at $885 "per unit" ([Ithaca College off-campus housing](https://offcampushousing.ithaca.edu/listing)). Whole houses of nine to 14 bedrooms list for $9,855 to $16,730 on the same site, so $885 can only be one person's share. Twenty-five of the 216 priced buildings carry a price like that, or post a price range alone. The full list marks them "Ask." Get the basis in writing before you sign.
 
 The lease length changes the math too. Most Ithaca leases run a full year, while Cornell bills two semesters. Some new buildings run longer. City Centre, at 301 E. State St., prices its smallest studio on a 15-month term ([City Centre Ithaca](https://citycentreithaca.com/floorplans/)).
 
@@ -739,8 +737,8 @@ Cornell housing and the newest buildings sit outside the listing inventory but o
 
 | Option | Where | Who lives there | Size | Price as published | Per person a month |
 |---|---|---|---|---|---|
-| Red Bud Cooperative, triple | Von Cramm Hall | Co-op members | Cornell co-op | $2,765 a semester, 2026-27 | Not a monthly price |
-| Co-op doubles, eight houses | Near campus | Co-op members | Eight co-ops | $3,487 to $4,981 a semester, 2026-27 | Not a monthly price |
+| Red Bud Cooperative, triple | Von Cramm Hall | Co-op members | Cornell co-op | $2,765 a semester, 2026-27 | Billed per semester |
+| Co-op doubles, eight houses | Near campus | Co-op members | Eight co-ops | $3,487 to $4,981 a semester, 2026-27 | Billed per semester |
 | Hasbrouck, regular single in 2BR townhouse | North Campus | Graduate and professional students | 12-month contract | $620 a month, furnished, 2026-27 | $620.00 |
 | Hasbrouck studio | North Campus | Graduate and professional students | 12-month contract | $1,355 a month, 2026-27 | $1,355.00 |
 | Cornell residence hall double | Campus | Undergraduates | Two semesters | $6,872 a semester, 2026-27 | $1,145.33 over 12 months |
@@ -754,12 +752,12 @@ Source: Cornell housing rates; The Ithaca Voice, July 7, 2026; Tompkins Weekly, 
 
 ## Every priced building, cheapest first
 
-This is the full list of the 216 buildings and houses in the inventory that print a price (EduExplained inventory). "From" is the cheapest spot for one person a month: a per-bed or room price as printed, or a whole-apartment price split evenly among its bedrooms. "Ask" means the listing gives only a range, or labels a price "per unit" when it reads as one person's share. "Prices as listed" keeps each listing's own wording, including its basis. Miles are straight-line distances to Ho Plaza, not walking routes. Lease years appear only where the listing prints one; Ithaca Renting's Collegetown rows are 2027-28 and most of its downtown rows 2026-27.
+This is the full list of the 216 buildings and houses in the inventory that print a price (EduExplained inventory). "From" is the cheapest spot for one person a month: a per-bed or room price as printed, or a whole-apartment price split evenly among its bedrooms. "Ask" marks a building whose posted price is a range, or a "per unit" figure that reads as one person's share; ask the landlord what one person pays. "Prices as listed" keeps each listing's own wording, including its basis. Miles are straight-line distances to Ho Plaza, not walking routes. Ithaca Renting's Collegetown rows are priced for 2027-28 and most of its downtown rows for 2026-27; for other rows, ask the landlord which lease year a price covers.
 
 | From, per person a month | Building | Area, miles to Ho Plaza | Built | Units | Owner or manager listed | Prices as listed | Sources |
 |---|---|---|---|---|---|---|---|
 | $500 | 222 S Geneva Street | Downtown, 1.01 |  | 4 units | | room in 10BR $500 a month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| $500 | 320 Hillview Place, 320 HIL | Downtown, 1.01 |  | 1 unit | | 3BR $625 labeled per unit, basis unclear; 2BR $1,675 per unit; 3BR $1,500 to $2,100 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| $500 | 320 Hillview Place, 320 HIL | Downtown, 1.01 |  | 1 unit | | 3BR $625 listed per unit, ask whether per bed; 2BR $1,675 per unit; 3BR $1,500 to $2,100 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $525 | 403 S Cayuga St | Downtown, 1.08 |  | 1 listing: one room (bedroom 2)... | PPM Homes | room $525 a month | [ppmhomes.com](https://www.ppmhomes.com/availability), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/66bd0b4d-53b6-40a6-8c13-61ae5f32ea9b) |
 | $587.50 | 400 College Ave - The Heart of Collegetown, 400 College Ave | Collegetown, 0.35 |  | 15 units | PPM Homes | 2BR $1,175 per unit; 1BR $2,000 per month | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/400-college-ave-the-heart-of-collegetown-118390), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [ppmhomes.com](https://www.ppmhomes.com/availability) and 2 more listing pages |
 | $595 | 106 Cayuga Park Rd | Lansing/Northeast, 1.46 |  |  | | room $595 a month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
@@ -767,13 +765,12 @@ This is the full list of the 216 buildings and houses in the inventory that prin
 | $600 | Lakeland Apartments, 319 Highland Road | Cornell Heights/North Campus edge, 0.81 |  | 2 units | Travis Hyde | 2BR $1,625 per unit; 3BR $1,800 to $1,890 per unit; 1BR $1,420 per month; studio $1,005 per month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [travishyde.com](https://www.travishyde.com/availability), [travishyde.com](https://www.travishyde.com/listings/detail/6b6707e7-3de2-48ad-8595-8c6afa4f5e64), county and state parcel records |
 | $616.67 | Lakeside Vista, 138 Grandview Ct | South Hill, 1.14 |  |  | Harmonia Hopkins Lakeside, LLC | 3BR $1,850 per unit; 2BR $770 per bed; 3BR $925 per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $625 | West Shore Apartments - 127, 127 College Avenue, Apt #1 | Collegetown, 0.59 |  | 2 units | West Shore Apartments LLC | 2BR $1,250 to $2,500 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [ithacarents.com](https://www.ithacarents.com/105-127-college-avenue,-apt-1-%2D-furnished-2-bedroom-with-private-patio) |
-| $625 | 5 Deibler Drive, 5B, Freeville NY 13053 | not mapped |  |  | | 2BR $1,250 per unit | [ithacarents.com](https://www.ithacarents.com/2843-modern-two-bedroom-total-electric-apartment-with-eat-in-kitchen.) |
 | $650 | 119-121 Prospect St | Downtown, 0.89 |  | 1 house: 6 bedrooms | PPM Homes | room in 6BR $650 a month | [ppmhomes.com](https://www.ppmhomes.com/availability), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/3f1544f9-76c1-4375-91f6-b2400a52dbbf) |
 | $650 | 135 Kendall Ave, 135A | South Hill, 1.29 |  |  | Heritage Park Town Homes | 4BR $2,600 per unit | [ithacarents.com](https://www.ithacarents.com/1621-135a-kendall--move-in-8/1/2026) |
 | $650 | 174 Kendall Ave | South Hill, 1.35 | 1969 | 6 bedrooms | | 4BR $2,600 per unit; unit $650 per bed | [ithacarents.com](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom), county and state parcel records |
 | $666.67 | 219 Snyder Hill Rd | other, 2.35 | 1970 |  | | 3BR $2,000 per unit; 1BR $800 per month | [ithacarents.com](https://www.ithacarents.com/1428-three-bedroom-2,000-east-hill-in-ithaca-available-from-oct-2026), [ithacarents.com](https://www.ithacarents.com/1455-one-bedroom-800-utilities-included,-furnished,-on-east-hill-in-ithaca/-available-from-oct-2026), county and state parcel records |
 | $666.67 | 508 W. Clinton St | Downtown, 1.20 |  |  | | 3BR $2,000 per unit | [ithacarents.com](https://www.ithacarents.com/3099-three-bed-apt,-downtown-ithaca-2,000/-avail-from-oct-2026) |
-| $687.50 | 107-109 Hudson St | Downtown, 0.76 |  | 1 unit | PPM Homes | 2BR $1,375 labeled per unit, basis unclear; 5BR $825 labeled per unit, basis unclear; 2BR $1,375 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [ppmhomes.com](https://www.ppmhomes.com/availability), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/ff3fe33c-1d55-46fb-85bb-a4c2dd4a0bb8) and 1 more listing pages |
+| $687.50 | 107-109 Hudson St | Downtown, 0.76 |  | 1 unit | PPM Homes | 2BR $1,375 listed per unit, ask whether per bed; 5BR $825 listed per unit, ask whether per bed; 2BR $1,375 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [ppmhomes.com](https://www.ppmhomes.com/availability), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/ff3fe33c-1d55-46fb-85bb-a4c2dd4a0bb8) and 1 more listing pages |
 | $695 | The Old Cigar Factory, 108 – 114 E. State St | Downtown, 0.87 |  |  | Ithaca Renting Company | studio $1,175 to $1,275 per bed; 2BR $825 to $925 per bed; 3BR $695 to $795 per bed | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-old-cigar-factory-10219), [ithacarenting.com](https://ithacarenting.com/property-details/?pid=9), [ithacarenting.com](https://ithacarenting.com/downtown/) and 1 more listing pages |
 | $695 | 109 Dewitt Pl | Collegetown, 0.49 |  |  | PJ Apartments | 2BR $1,195 per bed; 4BR $1,195 per bed; 1BR $1,795 per bed; 5BR $995 per bed; 6BR $795 per bed; 1 more | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $695 | 210 Dryden Road | Collegetown, 0.35 | 1892 | 7 rooms (floor 2) | Ithaca Renting Company | room $695 to $950 a month | [ithacarenting.com](https://ithacarenting.com/property-details/?pid=18), [ithacarenting.com](https://ithacarenting.com/collegetown/), [ithacarenting.com](https://ithacarenting.com/all-properties/) and 1 more listing pages, county and state parcel records |
@@ -785,7 +782,7 @@ This is the full list of the 216 buildings and houses in the inventory that prin
 | $700 | 310-312 S Aurora St | Downtown, 0.82 |  | 1 house: 7 bedrooms | PPM Homes | room in 7BR $700 a month | [ppmhomes.com](https://www.ppmhomes.com/availability), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/d9a5af7d-9b77-4e9a-83f0-a517e63e77cf) |
 | $700 | 325 W Seneca St | Downtown, 1.00 |  |  | Travis Hyde | 2BR $1,400 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $700 | 412 University Ave | Cornell Heights/North Campus edge, 0.43 |  |  | | 5BR $3,500 per unit; 3BR $2,550 to $2,700 per unit; 4BR $3,200 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| $700 | Ravenwood Apartments, 516 University Ave | Cornell Heights/North Campus edge, 0.44 | 1990 | 1 unit | Travis Hyde | 5BR $3,500 to $4,400 per unit; 5BR $700 labeled per unit, basis unclear; 4BR $3,535 per unit; 3BR $2,225 to $2,480 per unit; 2BR $1,950 per unit; 2 more | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/ravenwood-apartments-237330), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [travishyde.com](https://www.travishyde.com/west-campus/ravenwood) and 4 more listing pages, county and state parcel records |
+| $700 | Ravenwood Apartments, 516 University Ave | Cornell Heights/North Campus edge, 0.44 | 1990 | 1 unit | Travis Hyde | 5BR $3,500 to $4,400 per unit; 5BR $700 listed per unit, ask whether per bed; 4BR $3,535 per unit; 3BR $2,225 to $2,480 per unit; 2BR $1,950 per unit; 2 more | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/ravenwood-apartments-237330), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [travishyde.com](https://www.travishyde.com/west-campus/ravenwood) and 4 more listing pages, county and state parcel records |
 | $700 | 615 E State St | Collegetown, 0.58 |  |  | | room $710 to $800 a month; 3BR $2,100 to $2,350 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $704 | 934 Edgecliff, 934 Stewart Avenue | Cornell Heights/North Campus edge, 0.60 | 1921 |  | Travis Hyde | 3BR $2,205 per unit; 2BR $1,408 to $1,660 per unit; 1BR $1,305 per month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [travishyde.com](https://www.travishyde.com/west-campus/934%20edgecliff), [travishyde.com](https://www.travishyde.com/availability) and 1 more listing pages, county and state parcel records |
 | $710 | 107 Mary Ln | other, 2.18 |  |  | | room $710 a month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
@@ -797,7 +794,7 @@ This is the full list of the 216 buildings and houses in the inventory that prin
 | $725 | 202 Dryden Road | Collegetown, 0.35 |  | 10 bedrooms (one apartment) | Ithaca Renting Company | 10BR $725 to $825 per bed | [ithacarenting.com](https://ithacarenting.com/property-details/?pid=19), [ithacarenting.com](https://ithacarenting.com/collegetown/), [ithacarenting.com](https://ithacarenting.com/all-properties/) and 1 more listing pages, county and state parcel records |
 | $733.33 | 79 Lower Creek Rd | Varna/Dryden, 5.45 |  |  | | 3BR $2,200 to $2,400 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $735 | 408 N Aurora St | Fall Creek, 0.62 |  |  | | 5BR $735 to $750 per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| $735 | 410 N Aurora St | not mapped |  |  | | 1BR $770 per bed; 2BR $735 per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| $735 | 410 N Aurora St |  |  |  | | 1BR $770 per bed; 2BR $735 per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $735 | Greene Property, 717 E Buffalo St | Collegetown, 0.40 |  | 22 units | | room $735 to $825 a month; studio $875 per month; 2BR $1,850 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $745 | Cityview Apartments, 118 Prospect Street | Downtown, 0.89 | 1969 |  | Ithaca Renting Company | studio $1,400 to $1,595 per bed; 2BR $940 to $1,150 per bed; 3BR $815 to $895 per bed; 5BR $745 to $845 per bed; 6BR $815 to $925 per bed | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cityview-apartments-10186), [ithacarenting.com](https://ithacarenting.com/property-details/?pid=6), [ithacarenting.com](https://ithacarenting.com/downtown/) and 2 more listing pages, county and state parcel records |
 | $745 | 156 The Commons, 156 E. State St | Downtown, 0.83 | 1869 | 2 apartments | Ithaca Renting Company | 3BR $745 to $845 per bed; 3BR $2,295 per unit | [ithacarenting.com](https://ithacarenting.com/property-details/?pid=13), [ithacarenting.com](https://ithacarenting.com/downtown/), [ithacarenting.com](https://ithacarenting.com/all-properties/) and 1 more listing pages, county and state parcel records |
@@ -815,15 +812,15 @@ This is the full list of the 216 buildings and houses in the inventory that prin
 | $795 | Kelvin Place Apartments, 219 Kelvin Pl | Cornell Heights/North Campus edge, 0.68 |  |  | | room $795 to $825 a month | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/kelvin-place-apartments-237474), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $800 | The Pinnacle, 121 Lake St | Cornell Heights/North Campus edge, 0.45 |  |  | 121-125 Lake St LLC | 2BR $1,600 to $3,800 per unit; 1BR $2,700 to $2,800 per month; studio $2,600 to $2,700 per month | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-pinnacle-237571), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $800 | 198 E King Rd | South Hill, 3.01 |  |  | | 3BR $2,400 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| $800 | 301 Dryden Rd | Collegetown, 0.35 |  |  | | room $800 to $995 a month; 3BR $2,850 per unit; unit $2,750 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| $800 | 301 Dryden Rd | Collegetown, 0.35 |  |  | | room $800 to $995 a month; 3BR $2,850 per unit; unit $2,750 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $800 | 313 S Aurora St | Downtown, 0.82 |  |  | | room in 4BR $800 a month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $800 | 316 Fall Creek Dr | Cornell Heights/North Campus edge, 0.41 |  |  | | room in 6BR $800 to $949 a month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $800 | Room in a 3-bedroom Apartment, 410 Stewart Ave | Collegetown, 0.40 |  |  | | room in 3BR $800 a month; room in 4BR $850 a month; room in 8BR $800 a month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $800 | 508 East Buffalo Street, Floor 2 | Collegetown, 0.50 |  |  | | 3BR $2,400 per unit | [ithacarents.com](https://www.ithacarents.com/3490-508-east-buffalo-st.-%2D-floor-2) |
-| $800 | 608 E Buffalo St | Collegetown, 0.43 |  | 6 units | Beer Properties | 3BR $965 labeled per unit, basis unclear; 1BR $800 per month; 2BR $800 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| $800 | 608 E Buffalo St | Collegetown, 0.43 |  | 6 units | Beer Properties | 3BR $965 listed per unit, ask whether per bed; 1BR $800 per month; 2BR $800 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $800 | 708 Stewart Ave | Cornell Heights/North Campus edge, 0.37 | 1910 |  | CSP Management | 3BR $2,400 per unit; 2BR $1,800 per unit | [cspmgmt.managebuilding.com](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx), [cspmgmt.managebuilding.com](https://cspmgmt.managebuilding.com/Resident/public/rentals/85097), [cspmgmt.managebuilding.com](https://cspmgmt.managebuilding.com/Resident/public/rentals/85096), county and state parcel records |
 | $811.88 | 105 Hudson St | Downtown, 0.77 |  | 1 house: 8 bedrooms | PPM Homes | 8BR $6,495 per unit | [ppmhomes.com](https://www.ppmhomes.com/availability), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/4894290b-f93c-4f41-b96f-d870f50fd135) |
-| $815 | 117 Thurston Ave | Cornell Heights/North Campus edge, 0.62 |  |  | | 3BR $815 per bed; 3BR $815 labeled per unit, basis unclear | [ithacarents.com](https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights), [ithacarents.com](https://www.ithacarents.com/4560-large-quiet-apartment-close-to-cornell) |
+| $815 | 117 Thurston Ave | Cornell Heights/North Campus edge, 0.62 |  |  | | 3BR $815 per bed; 3BR $815 listed per unit, ask whether per bed | [ithacarents.com](https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights), [ithacarents.com](https://www.ithacarents.com/4560-large-quiet-apartment-close-to-cornell) |
 | $815 | Whiton Hall, 222 S. Aurora St | Downtown, 0.79 | 1873 |  | Ithaca Renting Company | room $815 to $1,065 a month | [ithacarents.com](https://www.ithacarents.com/2975-whiton-hall-%2D-rooms-in-shared-housing), [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/whiton-hall-10220), [ithacarenting.com](https://ithacarenting.com/property-details/?pid=11) and 3 more listing pages, county and state parcel records |
 | $824.50 | 546 Warren Rd | Lansing/Northeast, 2.11 |  |  | | 1BR $1,250 per month; 2BR $1,649 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $825 | 103 Giles Street | Downtown, 0.73 |  |  | | 4BR $3,300 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
@@ -841,12 +838,12 @@ This is the full list of the 216 buildings and houses in the inventory that prin
 | $890 | Fall Creek Apartments Available, On Bus Line, 802 N Cayuga St | Fall Creek, 0.77 |  |  | | 1BR $890 to $900 per month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $898.33 | Evergreen Pointe, 1061 Dryden Rd | Varna/Dryden, 2.91 |  | 43 units | PG Dryden, LLC | 2BR $2,625 to $3,195 per unit; 1BR $2,495 to $2,525 per month; 3BR $2,695 per unit | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/evergreen-pointe-236735), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $900 | 114 Stewart Avenue | Collegetown, 0.56 | 1895 | 8 bedrooms | | 8BR $900 per bed | [ithacarents.com](https://www.ithacarents.com/3763-114-stewart-avenue-%2D--2027/28-school-year-in-center-of-collegetown), county and state parcel records |
-| $900 | 126 College Ave | Collegetown, 0.55 |  | 12 units | | unit $900 per bed; 6BR $1,300 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| $900 | 211 Linden Avenue | Collegetown, 0.49 |  | 2 units | PPM Homes | 3BR $3,000 to $3,300 per unit; 3BR $900 labeled per unit, basis unclear; 4BR $1,050 labeled per unit, basis unclear; room $900 a month; room in 4BR $1,050 a month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [ppmhomes.com](https://www.ppmhomes.com/availability), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/953901ea-2132-408d-9bb8-57d970e8d17e) and 1 more listing pages |
-| $900 | Summerhill Townhouses, 222 Summerhill Lane | not mapped |  |  | Ithaca Home | 3BR $2,700 to $2,750 per unit | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/summerhill-townhouses-7826), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| $900 | 126 College Ave | Collegetown, 0.55 |  | 12 units | | unit $900 per bed; 6BR $1,300 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| $900 | 211 Linden Avenue | Collegetown, 0.49 |  | 2 units | PPM Homes | 3BR $3,000 to $3,300 per unit; 3BR $900 listed per unit, ask whether per bed; 4BR $1,050 listed per unit, ask whether per bed; room $900 a month; room in 4BR $1,050 a month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [ppmhomes.com](https://www.ppmhomes.com/availability), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/953901ea-2132-408d-9bb8-57d970e8d17e) and 1 more listing pages |
+| $900 | Summerhill Townhouses, 222 Summerhill Lane |  |  |  | Ithaca Home | 3BR $2,700 to $2,750 per unit | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/summerhill-townhouses-7826), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $900 | 317 Eddy St | Collegetown, 0.39 |  |  | Goldenrod Real Estate LLC | 3BR $2,700 per unit; 2BR $1,800 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $900 | Townhouse, 406 W Green St | Downtown, 1.08 |  |  | | 2BR $1,800 to $1,900 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| $900 | 708 E Seneca St | Collegetown, 0.48 |  | 4 listings: #1 3 bedrooms | PPM Homes | 3BR $2,850 per unit; 4BR $950 labeled per unit, basis unclear; 3BR $950 per bed; room in 10BR $900 a month | [ppmhomes.com](https://www.ppmhomes.com/availability), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/b41421f4-31cf-4464-a015-0c2953aa5f3a), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/3c344295-e59b-44fd-988e-22083972c6d7) and 2 more listing pages |
+| $900 | 708 E Seneca St | Collegetown, 0.48 |  | 4 listings: #1 3 bedrooms | PPM Homes | 3BR $2,850 per unit; 4BR $950 listed per unit, ask whether per bed; 3BR $950 per bed; room in 10BR $900 a month | [ppmhomes.com](https://www.ppmhomes.com/availability), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/b41421f4-31cf-4464-a015-0c2953aa5f3a), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/3c344295-e59b-44fd-988e-22083972c6d7) and 2 more listing pages |
 | $900 | Westview Terrace, 8 Country Club Road | Cornell Heights/North Campus edge, 0.82 |  | 1 unit | Travis Hyde | 2BR $1,800 to $1,960 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [travishyde.com](https://www.travishyde.com/availability), [travishyde.com](https://www.travishyde.com/listings/detail/9dc6c8ea-ccb9-4242-8aad-1995082e539a) and 1 more listing pages, county and state parcel records |
 | $920 | 419 Triphammer Rd | Cornell Heights/North Campus edge, 0.89 |  |  | | 1BR $920 per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $925 | 111 Blair Street | Collegetown, 0.61 |  | 2 units | | 2BR $1,850 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
@@ -857,7 +854,7 @@ This is the full list of the 216 buildings and houses in the inventory that prin
 | $935 | 519 E Buffalo St | Collegetown, 0.47 |  |  | | studio $935 per month; 1BR $1,275 per month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $937.50 | 210-218 Delaware Ave, 210 Delaware Ave | Collegetown, 0.51 |  | 2 units | | 3BR $3,750 to $3,900 per unit; 4BR $3,750 to $5,000 per unit; 2BR $2,800 per unit; 1BR $1,400 per month; 5BR $6,250 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $950 | 135 Muzzy Road | South Hill, 4.34 |  | 1 unit | | 4BR $3,800 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| $950 | East Pointe, 15 E Pointe Dr | not mapped |  |  | | 1BR $2,575 to $2,585 per month; 2BR $2,625 to $3,413 per unit; 3BR $2,850 per unit | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/east-pointe-236696), [eastpointeapartment.com](https://eastpointeapartment.com/), [eastpointeapartment.com](https://eastpointeapartment.com/floorplans/) and 5 more listing pages |
+| $950 | East Pointe, 15 E Pointe Dr |  |  |  | | 1BR $2,575 to $2,585 per month; 2BR $2,625 to $3,413 per unit; 3BR $2,850 per unit | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/east-pointe-236696), [eastpointeapartment.com](https://eastpointeapartment.com/), [eastpointeapartment.com](https://eastpointeapartment.com/floorplans/) and 5 more listing pages |
 | $950 | 154 The Commons, 154 E. State Street | Downtown, 0.83 | 1874 | 2 apartments | Ithaca Renting Company | 1BR $1,525 to $1,625 per bed; 2BR $950 to $1,050 per bed | [ithacarenting.com](https://ithacarenting.com/property-details/?pid=12), [ithacarenting.com](https://ithacarenting.com/downtown/), [ithacarenting.com](https://ithacarenting.com/all-properties/), county and state parcel records |
 | $950 | Center Ithaca, 171 E State St | Downtown, 0.82 | 1981 | 1 unit | Travis Hyde | 2BR $1,900 per unit; 1BR $1,435 to $1,845 per month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [travishyde.com](https://www.travishyde.com/downtown-ithacaf4ba8d70/center%20ithaca), [travishyde.com](https://www.travishyde.com/availability) and 2 more listing pages, county and state parcel records |
 | $950 | 209 Williams Street | Collegetown, 0.37 |  |  | PJ Apartments | 3BR $3,285 per unit; 4BR $3,800 to $5,180 per unit; 9BR $9,855 per unit; 8BR $7,960 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
@@ -872,14 +869,14 @@ This is the full list of the 216 buildings and houses in the inventory that prin
 | $995 | 106 Cook St | Collegetown, 0.50 |  |  | | 4BR $995 per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $995 | 114 Highland Pl | Collegetown, 0.36 |  |  | PJ Apartments | 11BR $12,045 per unit; 3BR $2,985 to $3,585 per unit; 4BR $4,380 to $4,780 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $995 | 205 Williams Street | Collegetown, 0.37 |  |  | PJ Apartments | 1BR $1,495 per month; 8BR $7,960 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| $995 | 407 College Ave | Collegetown, 0.35 |  | 1 unit | Travis Hyde | 4BR $995 labeled per unit, basis unclear; studio $1,945 to $2,140 per month; 1BR $2,655 to $2,890 per month; room in 4BR $995 a month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [travishyde.com](https://www.travishyde.com/college-town/407%20college%20ave), [travishyde.com](https://www.travishyde.com/availability) and 2 more listing pages, county and state parcel records |
+| $995 | 407 College Ave | Collegetown, 0.35 |  | 1 unit | Travis Hyde | 4BR $995 listed per unit, ask whether per bed; studio $1,945 to $2,140 per month; 1BR $2,655 to $2,890 per month; room in 4BR $995 a month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [travishyde.com](https://www.travishyde.com/college-town/407%20college%20ave), [travishyde.com](https://www.travishyde.com/availability) and 2 more listing pages, county and state parcel records |
 | $995 | 409 Oak Ave | Collegetown, 0.42 |  |  | | 3BR $995 per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,000 | 101 Dryden Rd | Collegetown, 0.35 |  | 2 units listed: #2 1 bedroom | PPM Homes | 1BR $1,600 per month; 3BR $1,000 per bed | [ppmhomes.com](https://www.ppmhomes.com/availability), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/20af9fdf-4944-4ebc-a788-00dcbef8a1a5), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/46a2e71c-6cd5-4492-9ccd-0e465c19ef10) |
 | $1,000 | 119 Stewart Ave | Collegetown, 0.55 |  | 2 units listed: #4 1 bedroom | PPM Homes | 1BR $1,575 per month; 4BR $4,000 per unit | [ppmhomes.com](https://www.ppmhomes.com/availability), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/8a8cd89b-f24f-4e86-b7f1-e7805c550e11), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/5444a5cd-d046-4f78-81bc-20370f3f13bf) |
 | $1,000 | 408 Stewart Ave | Collegetown, 0.40 | 1920 |  | CSP Management | studio $1,150 to $1,200 per month; 3BR $3,000 per unit | [cspmgmt.managebuilding.com](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx), [cspmgmt.managebuilding.com](https://cspmgmt.managebuilding.com/Resident/public/rentals/27030), [cspmgmt.managebuilding.com](https://cspmgmt.managebuilding.com/Resident/public/rentals/27032) and 1 more listing pages, county and state parcel records |
 | $1,020 | 705 East Buffalo Street, 705 E. Buffalo Street | Collegetown, 0.41 | 1900 | 5 apartments | Ithaca Renting Company | 2BR $1,145 to $1,195 per bed; 3BR $1,245 to $1,345 per bed; 6BR $1,020 to $1,120 per bed | [ithacarenting.com](https://ithacarenting.com/property-details/?pid=14), [ithacarenting.com](https://ithacarenting.com/collegetown/), [ithacarenting.com](https://ithacarenting.com/all-properties/), county and state parcel records |
 | $1,025 | Colonial Building, 109-113 East State St | Downtown, 0.87 | 1880 |  | Ithaca Renting Company | studio $1,025 per month; studio $1,225 to $1,325 per bed | [ithacarents.com](https://www.ithacarents.com/1075-studio-efficiencies-on-the-commons), [ithacarenting.com](https://ithacarenting.com/property-details/?pid=2), [ithacarenting.com](https://ithacarenting.com/downtown/) and 2 more listing pages, county and state parcel records |
-| $1,025 | 214 Stewart Avenue (printed as 214 Steward Avenue) | Collegetown, 0.48 |  |  | | 3BR $1,150 labeled per unit, basis unclear; 2BR $2,050 per unit | [ithacarents.com](https://www.ithacarents.com/4419-214-stewart-avenue-%2D-unit1-a), [ithacarents.com](https://www.ithacarents.com/4416-214-stewart-avenue-%2D-unit-1b), [ithacarents.com](https://www.ithacarents.com/4417-214-stewart-avenue-%2D-unit-1-c) and 1 more listing pages |
+| $1,025 | 214 Stewart Avenue (printed as 214 Steward Avenue) | Collegetown, 0.48 |  |  | | 3BR $1,150 listed per unit, ask whether per bed; 2BR $2,050 per unit | [ithacarents.com](https://www.ithacarents.com/4419-214-stewart-avenue-%2D-unit1-a), [ithacarents.com](https://www.ithacarents.com/4416-214-stewart-avenue-%2D-unit-1b), [ithacarents.com](https://www.ithacarents.com/4417-214-stewart-avenue-%2D-unit-1-c) and 1 more listing pages |
 | $1,035 | Lake Street Apartments, 106 Lake St | Cornell Heights/North Campus edge, 0.44 | 1890 |  | Travis Hyde Properties | 2BR $2,070 per unit | [travishyde.com](https://www.travishyde.com/west-campus/lake%20st), [travishyde.com](https://www.travishyde.com/availability), [travishyde.com](https://www.travishyde.com/listings/detail/9191ed06-f6cc-4881-88c3-fca75077346d), county and state parcel records |
 | $1,050 | 516 East Buffalo Street | Collegetown, 0.48 |  |  | PJ Apartments | 6BR $6,300 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,050 | 523 E Buffalo Street | Collegetown, 0.47 |  | 5 units | | 1BR $1,450 to $1,595 per month; studio $1,050 per month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
@@ -893,7 +890,7 @@ This is the full list of the 216 buildings and houses in the inventory that prin
 | $1,095 | 208 Williams Street | Collegetown, 0.36 |  |  | PJ Apartments | 11BR $14,245 per unit; 4BR $5,180 per unit; 3BR $3,285 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,095 | 210 Williams Street | Collegetown, 0.36 |  |  | PJ Apartments | 2BR $2,990 per unit; 4BR $4,380 per unit; 6BR $7,500 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,100 | 2023 2-Bed 2-Bath Apartment, 101 Vera Cir unit b | West Hill, 3.96 |  |  | | 2BR $2,200 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| $1,100 | 2 Deibler Dr., A, Freeville NY 13068 | not mapped |  |  | | 1BR $1,100 per month | [ithacarents.com](https://www.ithacarents.com/635-1-bedroom,-deibler-heights) |
+| $1,100 | 2 Deibler Dr., A, Freeville NY 13068 |  |  |  | | 1BR $1,100 per month | [ithacarents.com](https://www.ithacarents.com/635-1-bedroom,-deibler-heights) |
 | $1,150 | 105 Dewitt Pl | Collegetown, 0.49 |  |  | PJ Apartments | studio $1,195 to $1,295 per month; 1BR $1,195 to $1,695 per month; 2BR $2,300 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,150 | 406 Stewart Ave | Collegetown, 0.40 | 2018 |  | CSP Management | 2BR $2,300 per unit | [cspmgmt.managebuilding.com](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx), [cspmgmt.managebuilding.com](https://cspmgmt.managebuilding.com/Resident/public/rentals/51224), [cspmgmt.managebuilding.com](https://cspmgmt.managebuilding.com/Resident/public/rentals/52517), county and state parcel records |
 | $1,150 | 514 East Buffalo Street | Collegetown, 0.48 |  |  | PJ Apartments | 9BR $10,755 per unit; 4BR $4,600 per unit; studio $1,595 per month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
@@ -905,7 +902,7 @@ This is the full list of the 216 buildings and houses in the inventory that prin
 | $1,195 | 614 East Buffalo Street | Collegetown, 0.43 |  |  | PJ Apartments | 14BR $16,730 per unit; 7BR $8,365 per unit; 1BR $1,695 per month; 2BR $2,590 per unit; 4BR $4,780 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,200 | 101 Westhaven Rd | West Hill, 2.60 |  |  | | 1BR $1,200 per month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,200 | 110 Osmun Place, 2E | Collegetown, 0.44 |  |  | | 1BR $1,200 per month | [ithacarents.com](https://www.ithacarents.com/4254-1-br-less-than-10-minute-walk-to-cornell-law-school) |
-| $1,200 | Grand View House, 209 College Ave | Collegetown, 0.48 |  | Rear addition: 2 studio, 2 1BR,... | Beer Properties | studio $1,620 per month; 2BR $1,240 to $1,450 labeled per unit, basis unclear; 3BR $1,200 to $1,240 labeled per unit, basis unclear; 1BR $1,200 to $1,900 per month; 4BR $1,200 labeled per unit, basis unclear | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/209-college-ave-7754), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| $1,200 | Grand View House, 209 College Ave | Collegetown, 0.48 |  | Rear addition: 2 studio, 2 1BR,... | Beer Properties | studio $1,620 per month; 2BR $1,240 to $1,450 listed per unit, ask whether per bed; 3BR $1,200 to $1,240 listed per unit, ask whether per bed; 1BR $1,200 to $1,900 per month; 4BR $1,200 listed per unit, ask whether per bed | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/209-college-ave-7754), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,200 | 327 Eddy St | Collegetown, 0.37 |  |  | Goldenrod Real Estate LLC | 3BR $3,600 to $3,900 per unit; 1BR $1,700 to $1,800 per month; studio $1,650 to $1,800 per month; 2BR $2,500 to $2,800 per unit; 4BR $5,200 to $5,250 per unit; 1 more | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,225 | 413 N Cayuga St., 5 | Fall Creek, 0.77 |  | 6 units | | 2BR $2,450 per unit | [ithacarents.com](https://www.ithacarents.com/4102-c5-victorian-old-world-experience,-ensuite-bath-each-bedroom) |
 | $1,236.67 | Gateway Commons, 311 E. Green St | Downtown, 0.76 | 2007 | 25 units | Travis Hyde | 1BR $1,950 to $2,430 per month; 2BR $3,045 to $3,150 per unit; 3BR $3,710 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [travishyde.com](https://www.travishyde.com/downtown-ithacaf4ba8d70/gateway%20commons), [travishyde.com](https://www.travishyde.com/availability) and 1 more listing pages, county and state parcel records |
@@ -917,23 +914,22 @@ This is the full list of the 216 buildings and houses in the inventory that prin
 | $1,313.33 | Eddygate Apartments, 110 Dryden Rd | Collegetown, 0.34 | 1995 | 1 unit | Travis Hyde | 2BR $2,850 to $3,150 per unit; 3BR $3,940 to $4,275 per unit; 1BR $2,055 to $2,395 per month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [travishyde.com](https://www.travishyde.com/college-town/eddygate%20apartments), [travishyde.com](https://www.travishyde.com/availability) and 3 more listing pages, county and state parcel records |
 | $1,325 | Carey Building, 314-320 East State Street | Downtown, 0.73 | 2016 | 20 residences (16... | Travis Hyde | 2BR $2,650 per unit; studio $1,700 to $1,855 per month | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/carey-building-21173), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [travishyde.com](https://www.travishyde.com/downtown-ithacaf4ba8d70/carey%20building) and 2 more listing pages, county and state parcel records |
 | $1,325 | 626 Stewart Ave | Cornell Heights/North Campus edge, 0.29 |  |  | | 2BR $2,650 per unit; 1BR $1,600 to $1,700 per month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| $1,346.67 | The Aurora at Cayuga Park, 301 Cayuga Park Ln | not mapped |  | 141 units | | studio $2,365 to $2,385 per month; 1BR $2,345 to $3,075 per month; 2BR $3,190 to $3,795 per unit; 3BR $4,040 per unit | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-aurora-at-cayuga-park-236703), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| $1,346.67 | The Aurora at Cayuga Park, 301 Cayuga Park Ln |  |  | 141 units | | studio $2,365 to $2,385 per month; 1BR $2,345 to $3,075 per month; 2BR $3,190 to $3,795 per unit; 3BR $4,040 per unit | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-aurora-at-cayuga-park-236703), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,360 | Collegetown Center, 151 Dryden Road | Collegetown, 0.36 |  |  | Ithaca Renting Company | studio $1,665 to $1,950 per bed; 1BR $1,995 to $2,545 per bed; 2BR $1,360 to $1,410 per bed | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-center-236535), [ithacarenting.com](https://ithacarenting.com/property-details/?pid=4), [ithacarenting.com](https://ithacarenting.com/collegetown/) and 2 more listing pages, county and state parcel records |
 | $1,360 | Dryden South, 205 Dryden Rd | Collegetown, 0.36 |  | 2 studio apartments | | 1BR $1,395 per bed; studio $1,990 to $2,190 per bed; 4BR $1,395 to $1,575 per bed; unit $1,360 to $1,575 per bed | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961), [drydensouth.com](https://drydensouth.com/availability/), [drydensouth.com](https://drydensouth.com/) and 10 more listing pages |
-| $1,363 | Fairview Apartments, 100 Fairview Square | Belle Sherman/East Hill, 0.60 |  |  | | studio $1,363 to $1,562 per month; unit $957 to $1,815 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| $1,363 | Fairview Apartments, 100 Fairview Square | Belle Sherman/East Hill, 0.60 |  |  | | studio $1,363 to $1,562 per month; unit $957 to $1,815 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,375 | 527 E Buffalo St | Collegetown, 0.47 |  |  | | 1BR $1,375 per month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| $1,389 | Auden Ithaca, 210 Lake St | Cornell Heights/North Campus edge, 0.54 |  |  | | 4BR $789 labeled per unit, basis unclear; 3BR $689 labeled per unit, basis unclear; 2BR $889 labeled per unit, basis unclear; studio $1,389 per month | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/auden-ithaca-7919), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| $1,389 | Auden Ithaca, 210 Lake St | Cornell Heights/North Campus edge, 0.54 |  |  | | 4BR $789 listed per unit, ask whether per bed; 3BR $689 listed per unit, ask whether per bed; 2BR $889 listed per unit, ask whether per bed; studio $1,389 per month | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/auden-ithaca-7919), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,390 | Pine Hill Apartments, 709 Triphammer Rd | Lansing/Northeast, 1.10 |  | 27 units (24 one-bedroom, 3... | Beer Properties | 1BR $1,390 to $1,490 per month | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/pine-hill-apartments-99962), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,400 | Lake Street Apartments, 108 Lake St | Cornell Heights/North Campus edge, 0.44 | 1890 |  | Travis Hyde | 1BR $1,400 per month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [travishyde.com](https://www.travishyde.com/availability), [travishyde.com](https://www.travishyde.com/listings/detail/248c5d01-fe46-4c91-878e-e56b4947f195), county and state parcel records |
-| $1,400 | 802 E Seneca Street, 802 E Seneca St | Collegetown, 0.45 |  | 4 apartments described (Apt.... | Beer Properties | studio $1,400 per month; 1BR $1,625 per month; 5BR $1,095 labeled per unit, basis unclear | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/802-e-seneca-street-7744), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| $1,400 | 802 E Seneca Street, 802 E Seneca St | Collegetown, 0.45 |  | 4 apartments described (Apt.... | Beer Properties | studio $1,400 per month; 1BR $1,625 per month; 5BR $1,095 listed per unit, ask whether per bed | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/802-e-seneca-street-7744), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,400 | 909 N. Cayuga St | Fall Creek, 0.78 | 1917 |  | CSP Management | 1BR $1,400 per month | [cspmgmt.managebuilding.com](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx), [cspmgmt.managebuilding.com](https://cspmgmt.managebuilding.com/Resident/public/rentals/21495), county and state parcel records |
 | $1,425 | Boathouse Landing on Cayuga Inlet, 323 Taughannock Boulevard | Downtown, 1.47 |  | 3 units | 323T, LLC | 2BR $2,850 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,435 | Westminster Hall, 321 North Tioga St | Downtown, 0.71 |  | 9 apartments | Travis Hyde Properties | 1BR $1,435 per month | [travishyde.com](https://www.travishyde.com/downtown-ithacaf4ba8d70/westminster%20hall), [travishyde.com](https://www.travishyde.com/availability), [travishyde.com](https://www.travishyde.com/listings/detail/57acb87b-b64c-4cab-b680-7c23d6705f08), county and state parcel records |
-| $1,450 | Home  near College town, 116 Delaware Ave | Collegetown, 0.58 |  |  | | 1BR $1,450 per month; 2BR $1,995 labeled per unit, basis unclear; 5BR $850 to $860 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| $1,450 | Home  near College town, 116 Delaware Ave | Collegetown, 0.58 |  |  | | 1BR $1,450 per month; 2BR $1,995 listed per unit, ask whether per bed; 5BR $850 to $860 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,495 | 115 Dewitt Pl | Collegetown, 0.48 |  |  | PJ Apartments | 6BR $8,970 per unit | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,535 | 310 Farm Street, Apt 1E | Fall Creek, 0.57 |  |  | True Renew Homes | 1BR $1,535 per month | [ithacarents.com](https://www.ithacarents.com/4563-unfurnished-sun-filled-1br-in-fall-creek-1e-walk-to-cornell--commons) |
 | $1,545 | 312 Farm Street, 2W | Fall Creek, 0.57 |  |  | True Renew Homes | 1BR $1,545 per month | [ithacarents.com](https://www.ithacarents.com/4385-cute-furnished-1-br-apt-in-fall-creek-that-is-closest-to-cornell) |
-| $1,562 | 115 Stewart Ave, 2N | Collegetown, 0.56 |  | 4 units | True Renew Homes | 1BR $1,562 per month | [ithacarents.com](https://www.ithacarents.com/4304-sunny-1br-apartment-close-to-cornell.-furnished.-january-1st-move-in.-flexible-lease.) |
 | $1,574 | Ironworks Ithaca, 430 West State Street | Downtown, 1.13 |  | 4 units | Arnot Ithaca 2, LLC | studio $2,072 to $3,943 per month; 2BR $3,148 to $5,567 per unit; 1BR $2,404 to $4,877 per month | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/ironworks-ithaca-236868), [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $1,585 | 209 Columbia St, Apt 4 | Downtown, 0.90 |  | 4 units | True Renew Homes | 1BR $1,585 per month | [ithacarents.com](https://www.ithacarents.com/4564-furnished-1bdrm-apt-at-columbia-st.-just-a-20-min-walk-to-cornell) |
 | $1,649 | 24 Dove Dr | other, 2.30 |  |  | | 1BR $1,649 per month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
@@ -946,34 +942,34 @@ This is the full list of the 216 buildings and houses in the inventory that prin
 | $2,035.38 | City Centre Ithaca, 301 E. State Street | Downtown, 0.74 |  |  | Greystar | studio $2,475.75 to $2,618.75 per month; 1BR $2,564.75 to $2,899.75 per month; 2BR $4,070.75 to $4,655.75 per unit | [citycentreithaca.com](https://citycentreithaca.com/), [citycentreithaca.com](https://citycentreithaca.com/floorplans/), [citycentreithaca.com](https://citycentreithaca.com/amenities/) and 4 more listing pages |
 | $2,155 | 213 Park Pl, Unit 2 | Downtown, 1.11 |  |  | | 1BR $2,155 per month | [ithacarents.com](https://www.ithacarents.com/4286-fully-furnished-private-apartment--walk-to-commons,-cornell--lake) |
 | $2,377 | 140 Seneca Way | Downtown, 0.67 |  | 4 units | | 1BR $2,377 to $2,665 per month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| $2,696.60 | 709 Stewart Avenue | Cornell Heights/North Campus edge, 0.37 |  |  | | 1BR $2,696.60 per month; 2BR $1,688.60 labeled per unit, basis unclear; 3BR $1,547.60 labeled per unit, basis unclear; 4BR $1,557.60 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| $2,871.60 | 120 Westbourne Lane | Cornell Heights/North Campus edge, 0.62 |  |  | | 1BR $2,871.60 per month; 3BR $1,079.60 to $1,671.60 labeled per unit, basis unclear; 4BR $1,582.60 labeled per unit, basis unclear; 5BR $1,671.60 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| $2,696.60 | 709 Stewart Avenue | Cornell Heights/North Campus edge, 0.37 |  |  | | 1BR $2,696.60 per month; 2BR $1,688.60 listed per unit, ask whether per bed; 3BR $1,547.60 listed per unit, ask whether per bed; 4BR $1,557.60 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| $2,871.60 | 120 Westbourne Lane | Cornell Heights/North Campus edge, 0.62 |  |  | | 1BR $2,871.60 per month; 3BR $1,079.60 to $1,671.60 listed per unit, ask whether per bed; 4BR $1,582.60 listed per unit, ask whether per bed; 5BR $1,671.60 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
 | $3,100 | 201 College Ave unit 5b | Collegetown, 0.51 |  |  | | 1BR $3,100 per month | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| ask | Library Place, 105 W Court St | Downtown, 0.80 |  |  | | range $2,575 to $2,995, basis and year not printed | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/library-place-236706) |
-| ask | 106 Catherine St | Collegetown, 0.46 |  |  | Goldenrod Real Estate LLC | 6BR $1,350 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| ask | West Shore Apartments -107E, 107 Elmwood Avenue | Collegetown, 0.65 |  |  | West Shore Apartments LLC | 4BR $1,025 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| ask | 108 Eddy St | Collegetown, 0.58 |  |  | Foundation Management Group | 4BR $1,400 to $1,600 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| ask | 110 Highland Pl | Collegetown, 0.36 |  |  | PJ Apartments | 2BR $1,295 labeled per unit, basis unclear; 5BR $1,295 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| ask | 112 Highland Pl | Collegetown, 0.36 |  |  | PJ Apartments | 2BR $1,295 labeled per unit, basis unclear; 5BR $1,295 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| ask | 113 Dewitt Pl | Collegetown, 0.48 |  |  | PJ Apartments | 5BR $1,195 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| ask | Collegetown Terrace, 115 South Quarry Street | Collegetown, 0.60 | 1911 |  | | range $605 to $2265, basis and year not printed | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694), county and state parcel records |
-| ask | 122 Wait Ave | Cornell Heights/North Campus edge, 0.52 |  |  | | 2BR $900 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| ask | 123 Blair St | Collegetown, 0.57 |  |  | Goldenrod Real Estate LLC | 3BR $1,360 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| ask | 129 College Avenue | Collegetown, 0.59 |  | 1 unit | PPM Homes | 8BR $750 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [ppmhomes.com](https://www.ppmhomes.com/availability), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/1d1a420c-f1df-47c9-9a54-f1122400840f) |
-| ask | Cayuga Place, 131 E Green St | Downtown, 0.89 | 2008 |  | | range $1,449 to $2,959, basis and year not printed | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cayuga-place-237022), county and state parcel records |
-| ask | Coal Yard Apartments, 143 Maple Ave | Belle Sherman/East Hill, 0.60 |  | 10 units (Building #2) | | range $1,240 to $3,750, basis and year not printed | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/coal-yard-apartments-7734) |
-| ask | 148 Troy Road, A | other, 2.69 |  |  | Heritage Park TownHouses | unit $2,600 labeled per unit, basis unclear | [ithacarents.com](https://www.ithacarents.com/3525-148a-troy-road) |
-| ask | Cayuga Lofts, 217 S Cayuga St | Downtown, 0.93 |  |  | HH Red Stone Properties LLC | range $2,599 to $2,599, basis and year not printed | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cayuga-lofts-237021), [livehhcayuga.com](https://livehhcayuga.com/), [livehhcayuga.com](https://livehhcayuga.com/cayuga-lofts/floor-plans) and 2 more listing pages |
-| ask | 226 Linden Avenue | Collegetown, 0.47 |  |  | | range $1,130 to $1,130, basis and year not printed | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/226-linden-avenue-8104) |
-| ask | Catherine Commons, 304 College Ave | Collegetown, 0.44 | 1897 |  | | range $1615 to $2479, basis and year not printed | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/catherine-commons-236692), county and state parcel records |
-| ask | 312 College Ave | Collegetown, 0.43 |  |  | | range $1429 to $2189, basis and year not printed | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/312-college-ave-236693) |
-| ask | 401-403 College Ave | Collegetown, 0.35 |  | 3 units | | 4BR $6,400 labeled per unit, basis unclear; 8BR $1,500 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| ask | 410 Dryden Rd | Collegetown, 0.41 |  |  | | 9BR $1,000 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| ask | 419 Wyckoff Ave | Cornell Heights/North Campus edge, 0.64 |  |  | | 2BR $1,025 labeled per unit, basis unclear; 3BR $990 labeled per unit, basis unclear; 6BR $965 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| ask | 526 Stewart Ave, 23 | Collegetown, 0.31 |  |  | | unit $935 labeled per unit, basis unclear | [ithacarents.com](https://www.ithacarents.com/4558-large-unit-in-historical-house) |
-| ask | 611 E Seneca St | Collegetown, 0.53 |  |  | | 10BR $885 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| ask | 808 E Seneca St | Collegetown, 0.45 |  |  | | 3BR $945 to $975 labeled per unit, basis unclear | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
-| ask | The Outlook, 815 S Aurora St | South Hill, 1.26 |  |  | | range $1,800 to $3,700, basis and year not printed | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-outlook-240145) |
+| Ask | Library Place, 105 W Court St | Downtown, 0.80 |  |  | | range $2,575 to $2,995; ask whether per bed or per unit, and the lease year | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/library-place-236706) |
+| Ask | 106 Catherine St | Collegetown, 0.46 |  |  | Goldenrod Real Estate LLC | 6BR $1,350 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| Ask | West Shore Apartments -107E, 107 Elmwood Avenue | Collegetown, 0.65 |  |  | West Shore Apartments LLC | 4BR $1,025 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| Ask | 108 Eddy St | Collegetown, 0.58 |  |  | Foundation Management Group | 4BR $1,400 to $1,600 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| Ask | 110 Highland Pl | Collegetown, 0.36 |  |  | PJ Apartments | 2BR $1,295 listed per unit, ask whether per bed; 5BR $1,295 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| Ask | 112 Highland Pl | Collegetown, 0.36 |  |  | PJ Apartments | 2BR $1,295 listed per unit, ask whether per bed; 5BR $1,295 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| Ask | 113 Dewitt Pl | Collegetown, 0.48 |  |  | PJ Apartments | 5BR $1,195 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| Ask | Collegetown Terrace, 115 South Quarry Street | Collegetown, 0.60 | 1911 |  | | range $605 to $2265; ask whether per bed or per unit, and the lease year | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694), county and state parcel records |
+| Ask | 122 Wait Ave | Cornell Heights/North Campus edge, 0.52 |  |  | | 2BR $900 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| Ask | 123 Blair St | Collegetown, 0.57 |  |  | Goldenrod Real Estate LLC | 3BR $1,360 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| Ask | 129 College Avenue | Collegetown, 0.59 |  | 1 unit | PPM Homes | 8BR $750 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing), [ppmhomes.com](https://www.ppmhomes.com/availability), [ppmhomes.com](https://www.ppmhomes.com/listings/detail/1d1a420c-f1df-47c9-9a54-f1122400840f) |
+| Ask | Cayuga Place, 131 E Green St | Downtown, 0.89 | 2008 |  | | range $1,449 to $2,959; ask whether per bed or per unit, and the lease year | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cayuga-place-237022), county and state parcel records |
+| Ask | Coal Yard Apartments, 143 Maple Ave | Belle Sherman/East Hill, 0.60 |  | 10 units (Building #2) | | range $1,240 to $3,750; ask whether per bed or per unit, and the lease year | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/coal-yard-apartments-7734) |
+| Ask | 148 Troy Road, A | other, 2.69 |  |  | Heritage Park TownHouses | unit $2,600 listed per unit, ask whether per bed | [ithacarents.com](https://www.ithacarents.com/3525-148a-troy-road) |
+| Ask | Cayuga Lofts, 217 S Cayuga St | Downtown, 0.93 |  |  | HH Red Stone Properties LLC | range $2,599 to $2,599; ask whether per bed or per unit, and the lease year | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cayuga-lofts-237021), [livehhcayuga.com](https://livehhcayuga.com/), [livehhcayuga.com](https://livehhcayuga.com/cayuga-lofts/floor-plans) and 2 more listing pages |
+| Ask | 226 Linden Avenue | Collegetown, 0.47 |  |  | | range $1,130 to $1,130; ask whether per bed or per unit, and the lease year | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/226-linden-avenue-8104) |
+| Ask | Catherine Commons, 304 College Ave | Collegetown, 0.44 | 1897 |  | | range $1615 to $2479; ask whether per bed or per unit, and the lease year | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/catherine-commons-236692), county and state parcel records |
+| Ask | 312 College Ave | Collegetown, 0.43 |  |  | | range $1429 to $2189; ask whether per bed or per unit, and the lease year | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/312-college-ave-236693) |
+| Ask | 401-403 College Ave | Collegetown, 0.35 |  | 3 units | | 4BR $6,400 listed per unit, ask whether per bed; 8BR $1,500 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| Ask | 410 Dryden Rd | Collegetown, 0.41 |  |  | | 9BR $1,000 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| Ask | 419 Wyckoff Ave | Cornell Heights/North Campus edge, 0.64 |  |  | | 2BR $1,025 listed per unit, ask whether per bed; 3BR $990 listed per unit, ask whether per bed; 6BR $965 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| Ask | 526 Stewart Ave, 23 | Collegetown, 0.31 |  |  | | unit $935 listed per unit, ask whether per bed | [ithacarents.com](https://www.ithacarents.com/4558-large-unit-in-historical-house) |
+| Ask | 611 E Seneca St | Collegetown, 0.53 |  |  | | 10BR $885 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| Ask | 808 E Seneca St | Collegetown, 0.45 |  |  | | 3BR $945 to $975 listed per unit, ask whether per bed | [offcampushousing.ithaca.edu](https://offcampushousing.ithaca.edu/listing) |
+| Ask | The Outlook, 815 S Aurora St | South Hill, 1.26 |  |  | | range $1,800 to $3,700; ask whether per bed or per unit, and the lease year | [offcampus.housing.cornell.edu](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/the-outlook-240145) |
 
 Source: EduExplained inventory of 413 Ithaca buildings, November 2026, from the landlord and listing pages linked in each row; owners, unit counts and building years from Tompkins County 2026 assessment rolls and New York State tax parcel records where shown; neighborhoods assigned from US Census geocoder coordinates with approximate boundaries.
 

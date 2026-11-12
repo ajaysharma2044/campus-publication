@@ -38,7 +38,7 @@
 <p class="tt-summary">Pick your situation and college to see your dated steps. If nothing appears, every date is in the table on this tool's page.</p>
 <ol class="tt-list"></ol>
 <p class="tool-asof" data-as-of="2026-11-11">Dates and prices as of Nov 11, 2026, from Cornell's admissions, aid, housing, health plan and registrar pages.</p>
-<p class="tool-note">Estimated: rows tagged "2026 pattern" (or 2024, 2025) show last cycle's date because Cornell has not posted the 2027 one; prices are 2026-27, and 2027-28 prices come out before early April 2027.</p>
+<p class="tool-note">Estimated: rows tagged "2026 pattern" (or 2024, 2025) show last cycle's date because Cornell has not yet announced the 2027 one; prices are 2026-27, and 2027-28 prices come out before early April 2027.</p>
 </div>
 <script>
 (function () {
@@ -139,7 +139,7 @@
   var ROWS = [
     {w: function () { return 'Now (FAFSA opened ' + fmt(v('fafsaOpen')) + ')'; }, h: 'File your aid forms early', x: aidNow, k: 'fafsaOpen'},
     {w: 'This term and spring 2027', h: function (s) { return 'Finish the courses ' + NAME[s.col] + ' looks for'; }, x: prereq, k: 'gpaGeneral'},
-    {show: function (s) { return s.to; }, w: 'Winter 2027', h: 'Transfer Option application opens', x: function () { return 'The page reads "Application Available Winter 2027." Use the Transfer Option application with your earlier portal login, not the Common App. No application fee.'; }, k: 'toDeadline2026'},
+    {show: function (s) { return s.to; }, w: 'Winter 2027', h: 'Transfer Option application opens', x: function () { return 'Cornell says "Application Available Winter 2027." Use the Transfer Option application with your earlier portal login, not the Common App. No application fee.'; }, k: 'toDeadline2026'},
     {w: 'January to March 2027', h: 'Line up your recommenders', x: function (s) { return 'Name an official at your school for the College Report (it confirms standing) and ask one instructor of a full-credit course for the Academic Evaluation. You fill in the Mid-Term Report yourself.' + (s.intl ? ' Non-English documents need official English translations.' : ''); }, k: 'materialsDeadline'},
     {w: function (s) { return s.to ? 'Mid-March 2027 (in 2026: ' + fmt(v('toDeadline2026')) + ')' : fmt(v('appDeadline')); }, p: function (s) { return s.to ? 2026 : 0; }, h: 'Application deadline', x: function (s) {
       var t = s.to ? 'Transfer Option application and aid forms; the Mid-Term Report may follow.' : 'Transfer Common App and the ' + $(v('appFee')) + ' fee or a waiver.';

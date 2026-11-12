@@ -1,7 +1,7 @@
 ---
 title: 'Prospect of Whitby co-op Cornell: cost and how to join'
 mode: answer
-dek: Prospect of Whitby is a 19-resident Cornell co-op at 228 Wait Ave. with an all-vegetarian house meal plan, open to undergraduates only.
+dek: Prospect of Whitby is a 19-resident Cornell co-op at 228 Wait Ave. with an all-vegetarian house meal plan, open to transfer and upper-level students.
 meta: 'Prospect of Whitby co-op at Cornell: 19 residents at 228 Wait Ave., founded 1965, all-vegetarian meals, 2026-27 rates from $4,318 a semester.'
 primary_query: Prospect of Whitby co-op Cornell
 topic: housing
@@ -19,19 +19,34 @@ tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/prospect-whitby
   title: Prospect of Whitby, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/news-events/news/unexpected-delights-prospect-whitby
   title: The unexpected delights at Prospect of Whitby, Cornell Student & Campus Life, Nov. 13, 2023
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing rates, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing
   title: Cooperative Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-avenue-cooperative
+  title: Wait Avenue Cooperative, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-terrace
+  title: Wait Terrace, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative
+  title: Triphammer Cooperative, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/watermargin
+  title: Watermargin, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall
+  title: Redbud Cooperative in Von Cramm Hall, Cornell Student & Campus Life
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -40,10 +55,10 @@ images: []
 - Prospect of Whitby has 19 residents at 228 Wait Ave., in 7 singles and 6 doubles.
 - The house meal plan is all vegetarian.
 - A double costs $4,318 per semester for 2026-27, and a single costs $4,889 to $5,213.
-- It takes transfer and upper-level undergraduates, and it does not list graduate students.
+- Cornell opens it to transfer and upper-level students.
 ```
 
-Prospect of Whitby is a Cornell-owned co-op at 228 Wait Ave. with 19 residents. Its house meal plan is all vegetarian. It takes transfer and upper-level undergraduates, at rates well below a residence hall (Cornell Housing).
+Prospect of Whitby is a Cornell-owned co-op at 228 Wait Ave. with 19 residents. Its house meal plan is all vegetarian. It is open to transfer and upper-level students, at rates well below a residence hall (Cornell Housing).
 
 ## What is Prospect of Whitby?
 
@@ -79,10 +94,10 @@ A hall double costs $13,744 for the year, so the Whitby double is $5,108 less. W
 
 Each co-op runs its own selection, and selection starts in early November and early February (Cornell Housing). Write to co-ops@cornell.edu or call 607-255-3445 for Whitby's steps.
 
-Rising sophomores must state their co-op plan on the 2027-28 application by March 15, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A co-op counts as affiliated housing, explained on our [affiliated housing page](/start/affiliated-housing/). To live off campus instead, check the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
+Rising sophomores must state their co-op plan on the 2027-28 application by the March 15 deadline ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A co-op counts as affiliated housing, explained on our [affiliated housing page](/start/affiliated-housing/). To live off campus instead, check the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
 ```reader "If you're a graduate student"
-Whitby does not list graduate students as eligible ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/prospect-whitby)). Five other co-op pages do: [Wait Avenue](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-avenue-cooperative), [Wait Terrace](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-terrace), [Triphammer](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative), [Watermargin](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/watermargin) and [Redbud](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall).
+Cornell opens Whitby to transfer and upper-level students ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/prospect-whitby)). Five other co-ops are open to graduate students: [Wait Avenue](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-avenue-cooperative) (female-identifying students only), [Wait Terrace](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-terrace), [Triphammer](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative), [Watermargin](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/watermargin) and [Redbud](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall).
 ```
 
 ## What should you watch?

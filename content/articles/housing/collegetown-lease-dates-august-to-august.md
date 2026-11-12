@@ -1,8 +1,8 @@
 ---
 title: When do Collegetown leases start and end?
 mode: answer
-dek: Most Collegetown leases run 12 months from about Aug. 1 to July 31, with ten-month, June and later-August variants on some units.
-meta: When do Collegetown leases start and end? Most run Aug. 1 to July 31, with June starts, Aug. 17 at The Ivy, May 31 ends and 10-month options at a premium.
+dek: Collegetown leases usually run one year, starting in June, July or August on a date set for each apartment, with ten-month options on some units.
+meta: When do Collegetown leases start and end? Leases run one year from June, July or August, with Aug. 1 starts, Aug. 17 at The Ivy, May 31 ends and 10-month options at a premium.
 primary_query: when do collegetown leases start and end
 topic: housing
 school: cornell-university
@@ -82,15 +82,15 @@ images: []
 
 
 ```glance
-- Most Collegetown leases are 12 months long and start in early August.
+- Collegetown leases are usually one year long and start in June, July or August.
 - Dates differ by unit: The Ivy began Aug. 17, 2026, and a 114 Stewart Ave. lease starts June 10, 2027.
 - Ten-month leases, August to June, exist on some units, sometimes at a premium.
 - Under a 12-month lease you pay for summer; a sublet is the usual way to recover it.
 ```
 
-Most Collegetown leases run [12 months](https://ithacarenting.com/collegetown/), from about Aug. 1 to July 31. The key date is per apartment, not per neighborhood, so read the exact start and end on the lease before you compare prices. Some units start in June, some in mid-August, and a few offer 10 months.
+Collegetown leases usually run [one year](https://ithacarenting.com/collegetown/), starting in June, July or August, and a lease such as 209 Stewart Ave.'s runs Aug. 1 to July 31. The key date is per apartment, not per neighborhood, so read the exact start and end on the lease before you compare prices. Some units start in June, some in mid-August, and a few offer 10 months.
 
-## Why do most Collegetown leases run August to August?
+## Why do many Collegetown leases run August to August?
 
 Landlords sell a year, not a semester, and the year starts when the last tenants leave and the next arrive. The 209 Stewart Avenue listing is one example, with a full rental year in the table below ([209 Stewart Ave.](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095)). Cornell's own calendar fits it. Cornell's 2026 move-in dates were Monday, Aug. 17, and Aug. 21 and 22 ([Move-In, North Campus](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)), so a student who arrives in the third week of August finds a lease already running.
 
@@ -109,7 +109,7 @@ The table lists dates printed on current listings. They are examples, not a rule
 | 174 Kendall Ave., 4BR | Aug. 1, 2027 | 11 months, ends June 30 |
 | 140 College Ave., 24BR house | August 2027 | 10 months, ends June |
 
-Sources: [The Ivy](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026), [Dryden South](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961), [114 Stewart](https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown), [117 Thurston](https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights), [416 Hudson](https://www.ithacarents.com/4516-6-bedroom-house-for-27/28-school-year), [174 Kendall](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom) and [140 College](https://www.lambrourealestate.com/140-college-ave-24-bed). Ithaca Renting, the largest Collegetown listing site, says its leases are one year long and start in June, July or August on preset dates for each apartment ([Ithaca Renting](https://ithacarenting.com/collegetown/)).
+Sources: [The Ivy](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026), [Dryden South](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961), [114 Stewart](https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown), [117 Thurston](https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights), [416 Hudson](https://www.ithacarents.com/4516-6-bedroom-house-for-27/28-school-year), [174 Kendall](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom) and [140 College](https://www.lambrourealestate.com/140-college-ave-24-bed). Ithaca Renting says its leases are one year long and start in June, July or August on preset dates for each apartment ([Ithaca Renting](https://ithacarenting.com/collegetown/)).
 
 Two lessons follow. A lease can end before August, as the current Dryden South leases do ([Dryden South](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961)), so an early end can mean moving out with no summer housing. And a lease can start before August, as at 114 Stewart, so a June start means paying for June and July rent before your own year begins.
 
@@ -133,7 +133,7 @@ Ithaca's rule requires a landlord to give current tenants 120 days' written noti
 
 ## How does a lease line up with Cornell's calendar?
 
-Cornell's own housing runs a different clock. For 2026-27 a residence-hall license ran from move-in in August 2026 through Dec. 20 and resumed Jan. 19 for the spring term ([Cornell Housing rates and licenses](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses)). A private lease has no break at all. If you hold a Cornell room as a backup for the Collegetown lease, the fee schedule is in the [Collegetown lease guide](/cornell/housing/when-to-sign-collegetown-lease-cornell/).
+Cornell's own housing runs a different clock. For 2026-27 a residence-hall license ran from move-in in August 2026 through Dec. 20 and resumed Jan. 19 for the spring term ([Cornell Housing rates and licenses](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses)). If you hold a Cornell room as a backup for the Collegetown lease, the fee schedule is in the [Collegetown lease guide](/cornell/housing/when-to-sign-collegetown-lease-cornell/).
 
 ```tool when-to-sign-lease-timeline-cornell```
 

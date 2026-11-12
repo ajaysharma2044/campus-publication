@@ -2,13 +2,13 @@
 title: 'Cornell graduate housing: Hasbrouck, Maplewood and beyond'
 mode: feature
 kicker: The Other Housing Market
-dek: Cornell owns housing for only a small share of its graduate students, so most rent in an Ithaca market built around the undergraduate calendar, and this guide covers every option, its price and its dates.
+dek: Cornell owns housing for only a small share of its graduate students, so most rent in an Ithaca market built around the undergraduate calendar, and this guide compares the options, their rents and the dates that matter.
 meta: 'Cornell graduate housing compared: Hasbrouck, Maplewood, the co-ops and Ithaca neighborhoods, with 2026-27 rents, bus passes, parking and key dates.'
 primary_query: cornell graduate housing
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 7
 rewrites: content/articles/housing/off-campus-housing-cornell-grad-students.md
 queue_id: q-housing-0053
@@ -219,13 +219,13 @@ Cornell controls three kinds of grad housing: Hasbrouck Apartments, Maplewood Ap
 | Option | Address | Opened | Size | Room or unit types | 2026-27 rate | Who lives there |
 |---|---|---|---|---|---|---|
 | Hasbrouck Apartments | Pleasant Grove Road, North Campus | Built from 1960 | 338 units, 705 residents | Studios; 1BRs; singles in shared 2BR townhouses; family 2BR apartments and townhouses | $620 to $1,530 a month, 12-month contract | Grad and professional students, couples and families; visiting faculty as space allows |
-| Maplewood Apartments | 121 Veterans Place, East Hill | Fall 2018 | 444 units, 872 beds | Furnished studios to 4BR apartments and townhouses | Not posted; Cornell's vet college listed $1,075 to $1,330 in February 2026 | Graduate, professional and faculty renters |
-| Wait Avenue Cooperative | 302 Wait Ave., North Campus | Not published | 14 residents, all women | Singles and doubles | Single $5,340 to $5,693; double $4,715 per semester | Women: transfer, upper-level and grad students |
-| Wait Terrace | 308 Wait Ave., North Campus | Not published | 13 residents | Singles and doubles | Single $5,340 to $5,693; double $4,715 per semester | Transfer, upper-level and grad students |
-| Triphammer Cooperative | 150 Triphammer Road, North Campus | Not published | 20 residents | Singles, doubles, a triple | $4,889 single; $4,317 double; $3,972 triple per semester | Transfer, upper-level and grad students |
+| Maplewood Apartments | 121 Veterans Place, East Hill | Fall 2018 | 444 units, 872 beds | Furnished studios to 4BR apartments and townhouses | On request; Cornell's vet college listed $1,075 to $1,330 in February 2026 | Graduate, professional and faculty renters |
+| Wait Avenue Cooperative | 302 Wait Ave., North Campus |  | 14 residents, all women | Singles and doubles | Single $5,340 to $5,693; double $4,715 per semester | Women: transfer, upper-level and grad students |
+| Wait Terrace | 308 Wait Ave., North Campus |  | 13 residents | Singles and doubles | Single $5,340 to $5,693; double $4,715 per semester | Transfer, upper-level and grad students |
+| Triphammer Cooperative | 150 Triphammer Road, North Campus |  | 20 residents | Singles, doubles, a triple | $4,889 single; $4,317 double; $3,972 triple per semester | Transfer, upper-level and grad students |
 | Watermargin | 103 McGraw Place, West Campus | Founded 1947 | 23 residents | Singles and doubles | Single $4,889 to $5,213; double $4,317 per semester | Transfer, upper-level and grad students |
 | Redbud Cooperative in Von Cramm Hall | 623 University Ave., West Campus | Founded 1956 | 34 residents | Singles, doubles, triples | $3,949 single; $3,487 double; $2,765 triple per semester | Transfer, upper-level and grad students |
-| International Scholar House | Not published | September 2023 | One 5-bedroom house | Furnished rooms, month to month | Not published | International visiting scholars |
+| International Scholar House |  | September 2023 | One 5-bedroom house | Furnished rooms, month to month | On request | International visiting scholars |
 
 Sources: [Cornell Housing Rates 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates); [Hasbrouck Apartments](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/hasbrouck-apartments); [Greystar's Maplewood listing](https://www.greystar.com/maplewood-ithaca-ny/p_15697); [LeChase Construction](https://www.lechase.com/portfolio/greystar/); [Cornell vet college housing list](https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information); the co-op pages for [Wait Avenue](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-avenue-cooperative), [Wait Terrace](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-terrace), [Triphammer](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative), [Watermargin](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/watermargin) and [Redbud](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall); [Cornell Daily Sun, 2024](https://cornellsun.com/2024/11/12/high-costs-and-limited-support-plague-visiting-scholars-and-fellows-at-cornell) for the Scholar House; [Cornell Chronicle, 2024](https://www.news.cornell.edu/stories/2024/01/more-75-years-students-have-made-watermargin-home) for Watermargin's founding.
 
@@ -289,7 +289,7 @@ Maplewood is the bigger of the two complexes. It sits at 121 Veterans Place, on 
 
 ![Maplewood Apartments](slot:maplewood)
 
-To get a Maplewood rent, call the leasing office at (607) 821-0248; Greystar's page posts none. It does list one fee: a $130 community amenity fee per leaseholder, due at move-in. It also requires renters liability insurance, paid to a third party (Greystar's Maplewood listing). New York law bars landlords from charging most fees before or at the start of a tenancy, apart from a background and credit check capped at $20 ([NY Real Property Law 238-a](https://www.nysenate.gov/legislation/laws/RPP/238-A)). Ask Maplewood in writing what the $130 covers before you pay it.
+Maplewood quotes rent on request: call the leasing office at (607) 821-0248. Greystar lists one fee: a $130 community amenity fee per leaseholder, due at move-in. It also requires renters liability insurance, paid to a third party (Greystar's Maplewood listing). New York law bars landlords from charging most fees before or at the start of a tenancy, apart from a background and credit check capped at $20 ([NY Real Property Law 238-a](https://www.nysenate.gov/legislation/laws/RPP/238-A)). Ask Maplewood in writing what the $130 covers before you pay it.
 
 The best public price is on Cornell's College of Veterinary Medicine list for prospective students, updated February 2026: $1,075 to $1,330 for studios to four-bedrooms (Cornell vet college housing list). Ask the leasing office whether that price is per bed or per unit before you compare it with anything else.
 
@@ -317,13 +317,13 @@ Cornell offers some visiting faculty and affiliates Hasbrouck apartments as spac
 
 Most grad students end up here. Ithaca sits among three hills with the lake to the north, and Cornell is on East Hill ([Reed Group lab manual](https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html)). Where you live decides whether your commute is a level walk, a climb or a bus ride. Cornell's own guide to neighborhoods says many graduate students prefer downtown and Fall Creek for lower rents and a city feel ([Cornell Ithaca Neighborhoods](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)).
 
-| Neighborhood | Distance and walk (Cornell's estimate) | Asking rent seen | What it suits |
+| Neighborhood | Distance and walk (Cornell's estimate) | Sample asking rent | What it suits |
 |---|---|---|---|
 | Fall Creek | 0.5 to 1 mile; 20 to 30 minute uphill walk; frequent bus | Two 1BRs at 709 N. Tioga St.: $1,600 and $1,700 a month | Grads who want a shared house near the Commons |
 | Downtown and the Commons | 0.5 to 1.5 miles; 20 to 30 minute uphill walk; frequent bus | Ithaca Renting 1BRs: $1,525 to $1,725 a month for 2026-27 | Grads who want shops and parks within walking distance |
 | East Hill and Belle Sherman | 0.75 to 2 miles; 15-minute level walk | Maplewood (see above) | Grads who want a level walk and newer complexes |
-| Cayuga Heights | 1 to 4 miles; up to a 30-minute level walk | No public price sample | Quiet; many faculty; few shops |
-| South Hill | 1.5 to 3 miles; 15-minute downhill walk to downtown, then a bus | No public price sample | Grads who don't mind a mostly Ithaca College crowd |
+| Cayuga Heights | 1 to 4 miles; up to a 30-minute level walk | On request | Quiet; many faculty; few shops |
+| South Hill | 1.5 to 3 miles; 15-minute downhill walk to downtown, then a bus | On request | Grads who don't mind a mostly Ithaca College crowd |
 | Northeast and Lansing | 4 to 10 miles; bus or car | Lansing West: $1,403 to $2,154 (February 2026) | Grads with a car or a steady bus routine |
 | Collegetown | 0.1 to 0.5 mile; up to a 15-minute walk | Ithaca Renting 1BRs: $1,625 to $2,545 a month for 2027-28 | Grads who will pay most to walk; mostly undergrads |
 
@@ -395,7 +395,7 @@ Of the options below, only a Collegetown one-bedroom and the citywide average br
 | Fall Creek 1BR at 709 N. Tioga St., $1,600 | $19,200 | $762 under | 39.3% | Electricity and garbage tags extra |
 | Downtown 1BR, Ithaca Renting median, $1,625 | $19,500 | $462 under | 39.9% | Electricity extra in most buildings |
 | Collegetown 1BR, Ithaca Renting median, $2,030 | $24,360 | $4,398 over | 49.8% | Electricity usually extra |
-| Ithaca 1BR average (RentCafe), $2,063 | $24,756 | $4,794 over | 50.6% | Not stated |
+| Ithaca 1BR average (RentCafe), $2,063 | $24,756 | $4,794 over | 50.6% |  |
 
 Sources: Cornell Housing Rates 2026-27; Cornell Financial Aid; Cornell Graduate School stipend rates; Cornell Off-Campus Housing Marketplace listing; Ithaca Renting price lists; RentCafe. Shares are the yearly cost divided by the minimum stipend.
 

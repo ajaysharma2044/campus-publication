@@ -7,7 +7,7 @@ primary_query: ithaca housing shortage cornell role
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 289
 rewrites: ''
 readers:
@@ -57,6 +57,15 @@ sources:
 - url: https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/
   title: Students and landlords both perpetuate myths about housing, The Cornell Daily Sun, Feb. 6, 2019
   accessed: '2026-11-10'
+- url: https://www.thecornellreview.org/cornells-construction-crunch-ithacas-housing-crisis-and-the-catherine-commons/
+  title: Cornell's construction crunch, Ithaca's housing crisis and the Catherine Commons, The Cornell Review
+  accessed: '2026-11-11'
+- url: https://cornellsun.com/2021/10/13/just-months-after-move-in-next-years-hectic-housing-search-begins/
+  title: Just months after move-in, next year's hectic housing search begins, The Cornell Daily Sun, Oct. 13, 2021
+  accessed: '2026-11-11'
+- url: https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections
+  title: Ithaca is the latest upstate city to opt into Good Cause renter protections, WAMC, July 12, 2024
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: A new multi-storey apartment building at the corner of Tioga and Seneca streets in downtown Ithaca
@@ -71,7 +80,7 @@ images:
 
 
 ```glance
-- About 70% of Ithaca housing is rental, so students and residents compete for one pool of units.
+- About 73% of Ithaca households rent, so students and residents compete for one pool of units.
 - Cornell houses its first- and second-year students, and the rest look off campus.
 - New Collegetown buildings add beds but start at higher rents than older units.
 - Downtown shares cost less per bed than Collegetown at the same landlord.
@@ -81,14 +90,14 @@ Ithaca has a rental-heavy housing market where Cornell undergraduates and city r
 
 ## How big is the squeeze?
 
-The numbers come from news reports, so they vary by year and source.
+These figures come from news reports of different years.
 
-- **Renters.** About 73% of households rent, from a 2019 column, or about 70% of housing is rental, from a 2021 article. The 2019 columnist, citing the Ithaca Times, said an average 2BR takes about $49,000 a year in income against a median household income of $29,230 ([The Cornell Daily Sun](https://cornellsun.com/2019/10/30/fox-the-case-for-an-ithaca-tenants-union/)). That is a gap of $19,770, or about 1.7 times the median.
+- **Renters.** About 73% of households rent, according to a 2019 column. The columnist, citing the Ithaca Times, said an average 2BR takes about $49,000 a year in income against a median household income of $29,230 ([The Cornell Daily Sun](https://cornellsun.com/2019/10/30/fox-the-case-for-an-ithaca-tenants-union/)). That is a gap of $19,770, or about 1.7 times the median.
 - **Undergraduates off campus.** About 43% of undergraduates, roughly 6,189 students, lived off campus in fall 2013 ([The Cornell Daily Sun](https://cornellsun.com/2014/09/08/fischer-jimmys-tale-of-leasing-in-collegetown/)).
 - **Graduate students.** About 95% of grads live in non-university housing ([Cornell Graduate and Professional Student Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)).
 - **Who owns Collegetown.** In 2013, landlords owned 4,013 of an estimated 6,110 Collegetown bedrooms, and eight landlords held about two-thirds of the property ([The Cornell Daily Sun](https://cornellsun.com/2013/05/02/collegetown-housing-market-scrutinized/)).
 
-These are dated. The fact file has no current city-wide vacancy rate. A source labeled 3% for Tompkins County rental vacancy is an undated aggregator figure, so it is not used here. For a current number, check the Tompkins County Planning Department.
+For a current rental vacancy rate, ask the Tompkins County Planning Department.
 
 ## What does Cornell's own housing change?
 
@@ -105,9 +114,9 @@ New supply is arriving, mostly at the top of the price range ([The Ithaca Voice]
 | The Ivy, 325 College Ave. | 52 | 81 | Studios from $2,595 a month; 3BR up to $4,900 |
 | The Bear, 215 College Ave. | 84 | 150 | Studios from $2,850 a month; 3BR up to $6,000 |
 | The Summit | 46 | about 88 | 4BR $7,200; studios and 1BR from $2,700 |
-| The Pinnacle, 121-125 Lake St. | 77 | 111 | 2BR about $3,000 |
+| The Pinnacle, 121-125 Lake St. | 77 | 109 | 2BR about $3,000 |
 
-Source: The Ithaca Voice, July 2026; Tompkins Weekly for The Pinnacle's bed count. Bed counts for The Pinnacle differ by report (111 and 109).
+Source: The Ithaca Voice, July 2026.
 
 Developers argue that more supply should help. The Pinnacle opened Aug. 1, 2026, with at least 80% graduate students, and its developer, Todd Fox, says its rents run 15% to 20% below newer Collegetown buildings and that more supply puts downward pressure on rents ([Tompkins Weekly](https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148)). Earlier waves tell a similar story. In 2016, three new buildings added nearly 200 bedrooms ([The Cornell Daily Sun](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/)). Catherine Commons later added a net 339 bedrooms ([The Cornell Review](https://www.thecornellreview.org/cornells-construction-crunch-ithacas-housing-crisis-and-the-catherine-commons/)).
 
@@ -117,7 +126,7 @@ Downtown shares cost less than Collegetown beds at the same landlord, Ithaca Ren
 
 ## How does the squeeze reach renters?
 
-It shows up in timing. Every Cornell Daily Sun account from 2012 to 2025 shows the best Collegetown units gone within weeks, though the wider market of downtown, Fall Creek and sublets has supply much later ([The Cornell Daily Sun](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/)). Ithaca opted into New York's Good Cause eviction law in 2024, which limits some rent increases, and the [Good Cause guide](/cornell/housing/ithaca-good-cause-eviction-rent-increase-students/) explains who is covered.
+It shows up in timing. Only seven weeks into the fall 2021 semester, many students had already signed leases for the following year, and competition is sharpest for coveted apartments near campus ([The Cornell Daily Sun](https://cornellsun.com/2021/10/13/just-months-after-move-in-next-years-hectic-housing-search-begins/)). Students can still find housing later in the school year, a Cornell off-campus housing official told a 2019 panel ([The Cornell Daily Sun](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/)). Ithaca opted into New York's Good Cause eviction law in July 2024, which limits rent hikes ([WAMC](https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections)), and the [Good Cause guide](/cornell/housing/ithaca-good-cause-eviction-rent-increase-students/) explains who is covered.
 
 ```reader "If you're a graduate student"
 Almost all grads rent privately, so the squeeze reaches you directly. The [graduate student off-campus guide](/cornell/housing/off-campus-housing-cornell-grad-students/) covers Hasbrouck and Maplewood and what the private market costs.

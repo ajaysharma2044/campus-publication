@@ -11,6 +11,7 @@ Inputs: reports/06-images-review.json (the first review, 207 lead images) and re
 from __future__ import annotations
 
 import json
+import pathlib
 import re
 import subprocess
 import sys
@@ -23,6 +24,8 @@ sys.path.insert(0, str(REPO / "scripts" / "v2"))
 from lib import queue as q  # noqa: E402
 
 APPLY = "--apply" in sys.argv
+SKIP = set(json.loads(pathlib.Path(sys.argv[sys.argv.index("--skip") + 1]).read_text())) if "--skip" in sys.argv else set()   # slugs to leave for a later pass
+ONLY = set(json.loads(pathlib.Path(sys.argv[sys.argv.index("--only") + 1]).read_text())) if "--only" in sys.argv else set()
 
 
 def page_for(slug: str) -> Path | None:
@@ -76,7 +79,7 @@ def main() -> int:
         r = rechecks.get(slug)
         if r:
             final, query = r["final"], (r.get("query") or query)
-        if final == "keep":
+        if final == "keep" or slug in SKIP or (ONLY and slug not in ONLY):
             continue
         plan.append((slug, final, query, x.get("reason", "")))
     print(f"{len(plan)} lead image(s) to act on: replace {sum(1 for p in plan if p[1] == 'replace')}, remove {sum(1 for p in plan if p[1] == 'remove')}")
@@ -106,6 +109,11 @@ def main() -> int:
     if APPLY:   # the scorer (scripts/prelaunch/score_pages.py) reads this: a replaced lead image passed Phase 6, a removed one leaves no image to judge
         final = {slug: ("removed" if outcome.startswith("removed") else "keep") for slug, outcome, _, _ in rows if "not found" not in outcome}
         (REPO / "reports" / "06-images-final.json").write_text(json.dumps(final, indent=1, sort_keys=True), encoding="utf-8")
+    prev = REPO / "reports" / "06-images-rows.json"
+    if APPLY:
+        old = json.loads(prev.read_text(encoding="utf-8")) if prev.exists() else {}
+        old.update({r[0]: list(r) for r in rows}); rows = [tuple(v) for v in old.values()]
+        prev.write_text(json.dumps(old, indent=1), encoding="utf-8")
     out = REPO / "reports" / "06-images.md"
     L = [f"# Phase 6: lead images ({date.today().isoformat()})", "",
          "Every lead image was judged by a reviewer (reports/06-images-review.json: shows the subject, generic, caption true, older than 20 years) and every replace or remove verdict rechecked by a skeptic (reports/06-images-rechecks.json). "

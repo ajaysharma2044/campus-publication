@@ -107,7 +107,7 @@ If you need to leave a lease for study abroad or because you are leaving school,
 
 ## What does LawNY do?
 
-LawNY handles legal emergencies and free housing help in Tompkins County, with eviction defense for income-eligible students. Its Tompkins County number is (607) 273-3667, and Cornell International Services gives (315) 781-1465 for LawNY eviction defense. Try the Tompkins number first and use the other if you get no answer ([Cornell International Services](https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources)). If you have an eviction notice, read our [eviction and vacate order guide](/cornell/housing/ithaca-eviction-vacate-order-what-to-do/) while you wait for a callback.
+LawNY handles legal emergencies and free housing help in Tompkins County, with eviction defense for income-eligible students. Its Tompkins County number is (607) 273-3667, and Cornell International Services gives (315) 781-1465 for LawNY eviction defense. Try the Tompkins number first and use the other if you get no answer ([Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/); [Cornell International Services](https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources)). If you have an eviction notice, read our [eviction and vacate order guide](/cornell/housing/ithaca-eviction-vacate-order-what-to-do/) while you wait for a callback.
 
 <!-- ad-break -->
 
@@ -147,7 +147,7 @@ Two free tools can help you decide what to ask before you call.
 For a landlord who will not fix heat, mold or pests, see the [repairs guide](/cornell/housing/ithaca-landlord-wont-fix-heat-mold-bed-bugs/). For money held back after move-out, see the [deposit rules](/cornell/housing/ithaca-security-deposit-rules-tenants/).
 
 ```reader "If you're an international student"
-The hotline gives advice regardless of income or where you live. A landlord dispute does not affect your visa or standing, according to Cornell Graduate School staff. For an eviction, LawNY helps income-eligible students, and full hotline representation is only for City of Ithaca residents, so check your address first.
+The hotline gives advice regardless of income or where you live. For an eviction, LawNY helps income-eligible students, and full hotline representation is only for City of Ithaca residents, so check your address first.
 ```
 
 ```reader "If you're a parent"

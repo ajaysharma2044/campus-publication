@@ -16,7 +16,8 @@ readers:
 - transfer-spring
 - international
 - low-budget
-subject: Risley Dining Room, Cornell University
+subject:
+- Risley Dining Room, Cornell University
 tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/food-allergies-special-diets
@@ -51,14 +52,14 @@ sources:
   accessed: '2026-11-10'
 images:
 - file: 1.webp
-  alt: Risley Hall at Cornell on a colored 1925 postcard, a long red-brick Gothic hall with a tower and a figure at the door
-  caption: Risley Hall on a 1925 postcard. Risley Dining, inside, sources its food without gluten, peanuts and tree nuts, and Cornell Dining labels eight major allergens in its dining rooms.
-  credit: Published for Cornell Co-Operative Society, Ithaca by Detroit Publishing Company / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Risley_Hall_(1925).jpg
-  author: Published for Cornell Co-Operative Society, Ithaca by Detroit Publishing Company
-  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Risley_Hall_(1925).jpg
+  alt: Cornell University - Prudence Risley Hall (1913)
+  caption: Cornell University - Prudence Risley Hall (1913)
+  credit: Published for R. C. Osborn & Co., Ithaca by Curt Teich & Co. / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Prudence_Risley_Hall_(1913).jpg
   license: Public domain
   license_url: ''
+  author: Published for R. C. Osborn & Co., Ithaca by Curt Teich & Co., Chicago
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Prudence_Risley_Hall_(1913).jpg
 ---
 
 

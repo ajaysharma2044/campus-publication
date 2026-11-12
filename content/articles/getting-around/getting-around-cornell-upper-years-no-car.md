@@ -62,9 +62,6 @@ sources:
 - url: https://www.checkmybus.com/ithaca-ny/new-york-ny
   title: Bus from Ithaca to New York, CheckMyBus
   accessed: '2026-11-11'
-- url: https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/
-  title: Ithaca to New York bus, Wanderu
-  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
   title: Parking for Students, Cornell Transportation and Delivery Services
   accessed: '2026-11-11'
@@ -79,9 +76,6 @@ sources:
   accessed: '2026-11-11'
 - url: https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/
   title: Ithaca and TCAT will move downtown bus stops Nov. 9, FingerLakes1, November 3, 2026
-  accessed: '2026-11-11'
-- url: https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026
-  title: SA R69 (2025-2026), Cornell Student Assembly
   accessed: '2026-11-11'
 images:
 - file: 1.webp
@@ -115,7 +109,7 @@ A Sun writer put the walk from North Campus to Collegetown through the Arts Quad
 ```
 
 ```reader "If you're renting downtown, in Fall Creek or on West Hill"
-Downtown is about 2 miles from campus, so you will ride daily. Two daytime rides each weekday over the school year is 300 rides, which is $450 in cash, so OmniRide is the clear buy ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). After the [Nov. 9, 2026 downtown stop changes](https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/), Route 10 stays on North Tioga Street. On West Hill, do not plan around Routes 14S or 83, which have been [suspended since fall 2023](https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/).
+Downtown is about 2 miles from campus, so you will ride daily. Two daytime rides each weekday over the school year is 300 rides, which is $450 in cash, so OmniRide is the clear buy ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). After the [Nov. 9, 2026 downtown stop changes](https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/), Route 10 stays on North Tioga Street. On West Hill, do not plan around Routes 14S or 83, which are [suspended indefinitely](https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/).
 ```
 
 ```reader "If you're a PhD student or graduate assistant"
@@ -123,7 +117,7 @@ Cornell gives PhD students and graduate assistants a [free OmniRide pass](https:
 ```
 
 ```reader "If you're paying your own way"
-Ride TCAT only in the free hours, walk the rest, and book the cheapest commercial seat home instead of Cornell's own bus. Wanderu lists carrier starting fares of [$25 to $43 to NYC](https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/). Bikeshare runs an [Easy Access plan](https://www.ithacabikeshare.org) for GO ITHACA members at or below 150% of the federal poverty guideline.
+Ride TCAT only in the free hours, walk the rest, and book the cheapest commercial seat home instead of Cornell's own bus. Bikeshare runs an [Easy Access plan](https://www.ithacabikeshare.org) for GO ITHACA members at or below 150% of the federal poverty guideline.
 ```
 
 ## What changes with TCAT after first year?
@@ -175,8 +169,6 @@ After 2:30 a.m., or off the night routes, you need a taxi, a ride-hail or your f
 
 ## What if TCAT runs late?
 
-Late buses are a known problem. In March 2026 the Student Assembly's [Resolution 69](https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026) called the buses late and unreliable and urged Cornell to fund free passes for all undergraduates and graduate workers. The president returned it on Apr. 24, 2026, so the free-hours rule above still stands.
-
 Three habits help. Track buses in the TCAT Bus Tracker or the MyStop app rather than only a map app. Leave one bus earlier for a class or an exam. In snow, check Bus Tracker before you walk to the stop.
 
 If your ID fails or goes missing, the Registrar is at 607-255-4232 and TCAT is at 607-277-RIDE (Mon. to Fri., 7:30 a.m. to 5 p.m.), both listed on Cornell's bus pass page.
@@ -219,7 +211,7 @@ With your own bike, theft is the cost to plan for. Campus police reported 51 bik
 
 ## How do I get home without a car?
 
-Cheapest first: for New York City, Cornell's own bus (C2C) costs [$93.50 one way, or $187 round trip, with a NetID](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates). [OurBus](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny) starts at $37.40 one way, and [FlixBus](https://www.checkmybus.com/ithaca-ny/new-york-ny) showed $27 for Nov. 7, 2026. These are floors, so a peak day costs more. Book early for the Wednesday before Thanksgiving, the last day of December finals and the Friday spring break begins.
+Cheapest first: for New York City, Cornell's own bus (C2C) costs [$93.50 one way, or $187 round trip, with a NetID](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates). [OurBus](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny) starts at $37.40 one way, and [FlixBus](https://www.checkmybus.com/ithaca-ny/new-york-ny) showed $27 for Nov. 7, 2026. These are floors, so a peak day costs more.
 
 ```tool cornell-bus-home-cost-calculator```
 
@@ -252,9 +244,9 @@ The inputs: four OurBus round trips at $33 each way are $264; four FlixBus round
 
 **Can I buy OmniRide partway through the year?** Yes. The pass is prorated monthly, and MyParking.Cornell.Edu shows the current price when you buy.
 
-**Is TCAT free on holidays and over breaks?** Weekday evenings and weekends stay free under the upper-year rule, but TCAT runs fewer buses then. Check TCAT's posted holiday schedule before you travel.
+**Is TCAT free on holidays and over breaks?** Weekday evenings and weekends stay free under the upper-year rule. Check TCAT's posted holiday schedule before you travel.
 
-**Can I take TCAT to the airport?** Yes. The airport's transit page lists Route 32 on weekdays and Route 72 on weekends, and weekend rides fall in your free hours. See the [airport guide](/cornell/getting-around/cornell-to-ithaca-airport-tcat-taxi-parking/).
+**Can I take TCAT to the airport?** Yes. Cornell lists [Route 32 as the airport route](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting). See the [airport guide](/cornell/getting-around/cornell-to-ithaca-airport-tcat-taxi-parking/).
 
 ## What to do next
 

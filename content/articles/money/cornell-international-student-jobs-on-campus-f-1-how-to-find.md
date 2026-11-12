@@ -5,36 +5,39 @@ primary_query: cornell international student jobs on campus F-1 how to find
 topic: money
 school: cornell-university
 type: how-to
-updated: 2026-11-07
+updated: 2026-11-11
 queue_id: q-money-0011
 sources:
 - url: https://international.globallearning.cornell.edu/node/182
   title: On-Campus Work, Cornell Office of Global Learning
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://international.globallearning.cornell.edu/node/185
   title: F-1 Curricular Practical Training, Cornell Office of Global Learning
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://international.globallearning.cornell.edu/employment-and-taxes/apply-ssn
   title: Apply for a Social Security Number, Cornell Office of Global Learning
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://international.globallearning.cornell.edu/employment-and-taxes/us-income-tax-basics
   title: U.S. Income Tax Basics, Cornell Office of Global Learning
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://studentemployment.cornell.edu/find-a-job
   title: Find a Job, Cornell Student Employment
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://studentemployment.cornell.edu/resources/i-9-form
   title: Completing Form I-9, Cornell Student Employment
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://studentemployment.cornell.edu/frequently-asked-questions
   title: Frequently Asked Questions, Cornell Student Employment
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://hr.cornell.edu/browse-self-service/workday-help-student-workers
   title: Workday Help for Student Workers, Cornell HR
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://studentaffairs.tech.cornell.edu/student-life-2/international-students/employment-and-taxes
   title: Employment and Taxes, Cornell Tech Student & Academic Affairs
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
+- url: https://registrar.cornell.edu/academic-calendar
+  title: Academic Calendar, Cornell University Registrar
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Cornell University - Ho Plaza, looking north
@@ -51,7 +54,7 @@ If you are on an F-1 or J-1 visa, you can work on campus for Cornell for up to 2
 
 Cornell's Office of Global Learning says F-1 and J-1 students are [limited to on-campus work done for Cornell and paid by the university](https://international.globallearning.cornell.edu/node/182). F-1 students can take any campus job, including one outside their field. J-1 students need an on-campus employment authorization letter before they start, and authorization can only be given [12 months at a time](https://international.globallearning.cornell.edu/node/182).
 
-Foreign national students are not eligible for Federal Work Study, but the same page says many campus jobs are open to them anyway.
+Foreign national students are not eligible for Federal Work Study, but the [on-campus work page](https://international.globallearning.cornell.edu/node/182) says many campus jobs are open to anyone.
 
 ## Hours limits
 
@@ -62,7 +65,7 @@ Foreign national students are not eligible for Federal Work Study, but the same 
 | End of a semester | Full-time only after your last class day and last exam |
 | Other non-class periods | Full-time, but it must end before classes resume |
 
-All of this comes from [Cornell's on-campus work page](https://international.globallearning.cornell.edu/node/182), which calls exactly 20 hours the weekly maximum and describes going over it, even once, as a serious violation of your immigration status. The page does not spell out how the maximum applies to several jobs. Our reading is that it covers all your campus work together, so confirm with International Services if you hold more than one job. If you think you may have gone over, contact an International Services advisor right away. Your semester dates are on the [academic calendar](https://registrar.cornell.edu/academic-calendar).
+All of this comes from [Cornell's on-campus work page](https://international.globallearning.cornell.edu/node/182), which calls exactly 20 hours the weekly maximum and describes going over it, even once, as a serious violation of your immigration status. If you hold more than one campus job, confirm with International Services how the 20-hour maximum applies to your combined hours. If you think you may have gone over, contact an International Services advisor right away. Your semester dates are on the [academic calendar](https://registrar.cornell.edu/academic-calendar).
 
 Two extra notes. The [Student Employment FAQ](https://studentemployment.cornell.edu/frequently-asked-questions) says you also cannot work during your scheduled class times. And Cornell Tech's student affairs office [encourages Masters students to limit work to 10 hours a week](https://studentaffairs.tech.cornell.edu/student-life-2/international-students/employment-and-taxes) (a Cornell Tech recommendation, not a visa rule).
 
@@ -96,7 +99,7 @@ The order trips people up: you apply for the SSN after the job exists. Cornell s
 - **Timing:** the eligibility letter is valid for 30 days, so request it when you will apply within about two weeks.
 - **Where:** the Ithaca office is at 127 West State Street, second floor of the Greenstate Building.
 
-The page does not say whether you can start working before the SSN arrives. Ask your hiring department and International Services rather than assuming. If you already have an SSN from earlier U.S. work, you do not need a new one.
+Ask your hiring department and International Services whether you can start working before the SSN arrives. If you already have an SSN from earlier U.S. work, you do not need a new one.
 
 ## Taxes
 
@@ -111,7 +114,7 @@ All of this is [Cornell's guidance](https://international.globallearning.cornell
 
 Our advice, drawn from the rules above:
 
-- Starting a second campus job without counting the first. We read the 20-hour maximum as covering all your campus work together; check with International Services.
+- Starting a second campus job without asking International Services how the 20-hour maximum applies to your combined hours.
 - Leaving the J-1 letter until after an offer. You cannot start without it.
 - Waiting on the SSN eligibility letter too long. It expires after 30 days.
 - Treating a paid internship off campus as an "on-campus" job. That is [Curricular Practical Training](https://international.globallearning.cornell.edu/node/185), which needs approval and a new I-20 before you work.

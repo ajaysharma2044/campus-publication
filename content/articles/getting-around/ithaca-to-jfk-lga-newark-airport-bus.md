@@ -15,7 +15,9 @@ readers:
 - parent
 pillar: /getting-around/getting-to-ithaca-and-around-cornell/
 brief: intel/getting-around/brief.md
-tools: [ith-or-syr-trip-cost-calculator, before-break-travel-checklist]
+tools:
+- ith-or-syr-trip-cost-calculator
+- before-break-travel-checklist
 sources:
 - url: https://www.ourbus.com/routes/ithaca-ny-to-newark-airport-nj
   title: Ithaca, NY to Newark Airport, NJ, OurBus
@@ -127,14 +129,14 @@ sources:
   accessed: '2026-11-11'
 images:
 - file: 1.webp
-  alt: TCAT Bus 2107 on Route 30
-  caption: TCAT Bus 2107 on Route 30
-  credit: Hbithaca / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2107_on_Route_30.jpg
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  author: Hbithaca
-  source_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2107_on_Route_30.jpg
+  alt: Students waiting for bus and pathways at Cornell University
+  caption: Students waiting for bus and pathways at Cornell University
+  credit: Tomwsulcer / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Students_waiting_for_bus_and_pathways_at_Cornell_University.jpg
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  author: Tomwsulcer
+  source_url: https://commons.wikimedia.org/wiki/File:Students_waiting_for_bus_and_pathways_at_Cornell_University.jpg
 subject:
 - TCAT bus Ithaca
 ---

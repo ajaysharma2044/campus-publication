@@ -7,7 +7,7 @@ primary_query: mold pests housing code complaint ithaca
 topic: housing
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 queue_id: q-housing-0035
 idea_id: 182
 rewrites: /cornell/housing/ithaca-landlord-wont-fix-heat-mold-bed-bugs/
@@ -26,67 +26,67 @@ tools:
 sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Building issues and maintenance, Cornell Law Tenants Advocacy
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/235-B
   title: Real Property Law 235-b, New York State Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Community/HNP/Bed-Bugs
   title: Bed bugs, Tompkins County Whole Health
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ccetompkins.org/your-home-money/tenant-landlord-issues
   title: Tenant-landlord issues, Cornell Cooperative Extension of Tompkins County
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/130/Building-Division
   title: Building Division, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/
   title: Tenants' rights guide, Cornell Law Tenants Advocacy
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources
   title: Campus living resources, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal
   title: Lease renewal, Cornell Law Tenants Advocacy
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/eviction-proceedings
   title: Eviction proceedings, Cornell Law Tenants Advocacy
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/landlord-access
   title: Landlord access, Cornell Law Tenants Advocacy
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/
   title: Cornell student abandons house, sleeps in library, The Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2019/03/city-council-votes-to-stiffen-penalties-for-noncompliant-landlords
   title: City Council votes to stiffen penalties for noncompliant landlords, The Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/03/asteri-s-aftermath-displacement-dangerous-conditions-and-a-predatory-cash-for-keys-scheme
   title: Asteri's aftermath, The Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe living environments, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants
   title: Tenants, New York State Attorney General
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.gradschool.cornell.edu/announcements/grad-tips-renting/
   title: 'Grad tips: renting, Cornell Graduate School'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/immigrant-tenant-rights
   title: Immigrant tenant rights, Cornell Law Tenants Advocacy
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources
   title: Legal resources, Cornell International Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
   title: Graduate and professional student campus housing, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/
   title: Students and landlords both perpetuate myths about housing, The Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacatu.org/
   title: Ithaca Tenants Union
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: A wood-frame house on a residential street in Ithaca, New York
@@ -113,7 +113,7 @@ Mold and pests are the landlord's to fix. Every New York lease carries a [warran
 
 The warranty covers the home and shared areas. They must be fit to live in and not dangerous to life, health or safety, and a lease clause waiving the warranty is void. Conditions you caused do not count.
 
-The [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance) lists what it covers: no heat, hot or cold water, electricity or plumbing; pests; mold; structural defects; lead paint; unsanitary conditions; and broken appliances the landlord supplied. Lack of air conditioning is not on that list. A code violation alone is not automatically a breach. A code violation is a failure to meet the city or town building rules, and the warranty asks whether your health or safety is affected.
+The [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance) lists what it covers: no heat, hot or cold water, electricity or plumbing; pests; mold; structural defects; lead paint; unsanitary conditions; and broken appliances the landlord supplied. A lack of air conditioning does not breach the warranty, though it may breach your lease. A code violation alone is not automatically a breach. A code violation is a failure to meet the city or town building rules, and the warranty asks whether your health or safety is affected.
 
 | Problem | The rule | What you do |
 |---|---|---|
@@ -249,7 +249,7 @@ Have your student send the repair request, since it needs the tenant's name, add
 ```
 
 ```reader "If you need disability accommodations"
-Cornell tells grad students with disability housing needs to [register with Student Disability Services first](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing). If something your lease relies on fails, such as an elevator, report it in writing the same day with photos and how it affects you. The hotline can say whether it counts as a habitability problem. The fact file has no source on reasonable accommodations from private Ithaca landlords, so ask the hotline at 607-301-1560.
+Cornell tells grad students with disability housing needs to [register with Student Disability Services first](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing). If something your lease relies on fails, such as an elevator, report it in writing the same day with photos and how it affects you. The hotline at 607-301-1560 can say whether it counts as a habitability problem and what to ask your landlord for.
 ```
 
 ## What mistakes cost the most?
@@ -262,7 +262,7 @@ Cornell tells grad students with disability housing needs to [register with Stud
 
 ## FAQ
 
-**Does my landlord have to provide air conditioning?** No. Lack of air conditioning is not on the guide's list of habitability failures.
+**Does my landlord have to provide air conditioning?** Not under the warranty of habitability, but it may breach your lease if the lease promises it ([Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)).
 
 **Can I change the locks after a break-in if the landlord won't fix the door?** Changing the locks needs the landlord's consent. Ask in writing and call the hotline.
 

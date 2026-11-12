@@ -3,11 +3,15 @@ title: "Off-campus housing: start here with an exemption"
 meta: "For Cornell first- and second-years who may qualify to live off campus: confirm the exemption, get approval, then know when and what to sign."
 topic: housing
 topics: [housing]
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-housing-0075
 kind: start_here
 readers: [exempt-underclass]
 brief: intel/off-campus-housing/brief.md
+sources:
+  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy", title: "Residential policy, Cornell Student and Campus Life", accessed: "2026-11-11"}
+  - {url: "https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/", title: "Hunt for housing begins early, causing stress for students, The Cornell Daily Sun", accessed: "2026-11-11"}
+  - {url: "https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/", title: "The tale of Cornell's broken housing market, The Cornell Daily Sun", accessed: "2026-11-11"}
 ---
 
 You are a first- or second-year who may meet one of Cornell's exemptions from the two-year residential requirement: married or partnered, a veteran, coming with legal dependents, 21 or older by the start of the year, a transfer entering as a junior or senior, or a local commuter. You may rent like an upperclass student, but only after Housing approves the exemption, and the Collegetown rush runs before the spring window. Read in this order before you sign anything.
@@ -31,10 +35,8 @@ You are a first- or second-year who may meet one of Cornell's exemptions from th
 - Early September: some Collegetown buildings open leasing for the following year (in 2022, early September), before the spring exemption window ([Cornell Sun](https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/)).
 - October: one Cornell Sun op-ed author signed a junior-year lease in October of sophomore year; do not do the same without an approved exemption ([Cornell Sun](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/)).
 - Spring and fall: the exemption term opens in the Housing application; requests are not accepted after you complete a housing license ([residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
-- April 6, 2026: the AY 2026-27 Housing Application deadline, exemption requests included ([residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
+- April 6, 2026: the deadline for all first- and second-year students to complete the AY 2026-27 Housing Application ([residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
 - Each year: an exemption lasts one academic year, so reapply ([residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
-
-Not in the brief: how Housing handles an exempt sophomore's fall request for the next academic year, and the 2027-28 application deadline.
 
 ## When you're done
 

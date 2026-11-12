@@ -66,16 +66,8 @@ sources:
 - url: https://health.cornell.edu/about/news/cold-weather-safety
   title: Cold weather safety, Cornell Health
   accessed: '2026-11-10'
-images:
-- file: 1.webp
-  alt: Cornell Central Campus in Snow - banner
-  caption: Cornell Central Campus in Snow - banner
-  credit: Harald / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_Central_Campus_in_Snow_-_banner.jpg
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0
-  author: Harald
-  source_url: https://commons.wikimedia.org/wiki/File:Cornell_Central_Campus_in_Snow_-_banner.jpg
+images: []
+lead_photo: none-found 2026-11-11
 ---
 
 ```glance

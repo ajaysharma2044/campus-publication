@@ -259,7 +259,7 @@ It is [an invitation to apply after one full-time year elsewhere](https://as.cor
 ```
 
 ```reader "If you're applying to Engineering or computer science"
-Engineering [will not review your file](https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements) unless MATH 1910, MATH 1920, PHYS 1112 with PHYS 1110, and CHEM 2090 with CHEM 2091 are done, in progress or planned. No GPA minimum is stated. You are admitted to one major and must keep it for a year. Credit is capped at 33 per full-time year and 66 in all, with a C (not C-) floor. AP Calculus BC, Chemistry and Physics C Mechanics count only with a 5. Computer science comes through Engineering (B.S.) or Arts and Sciences (B.A.).
+Engineering [will not review your file](https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements) unless MATH 1910, MATH 1920, PHYS 1112 with PHYS 1110, and CHEM 2090 with CHEM 2091 are done, in progress or planned. Engineering publishes no GPA minimum. You are admitted to one major and must keep it for a year. Credit is capped at 33 per full-time year and 66 in all, with a C (not C-) floor. AP Calculus BC, Chemistry and Physics C Mechanics count only with a 5. Computer science comes through Engineering (B.S.) or Arts and Sciences (B.A.).
 ```
 
 ```reader "If you're an international applicant"
@@ -318,7 +318,7 @@ That is internal transfer, a separate process with no Common App and no March 15
 
 ## Where you are in the cycle
 
-Today is November 11, 2026, and the open cycle is fall 2027 entry. Cornell [considers transfer applications for the fall semester only](https://admissions.cornell.edu/apply/transfer-applicants). Dates below marked "in 2026" come from the fall 2026 cycle; Cornell has not posted the 2027 versions yet.
+Today is November 11, 2026, and the open cycle is fall 2027 entry. Cornell [considers transfer applications for the fall semester only](https://admissions.cornell.edu/apply/transfer-applicants). Dates below marked "in 2026" come from the fall 2026 cycle; the 2027 dates are not yet announced.
 
 ```figure
 kind: timeline
@@ -398,9 +398,9 @@ You do not apply to Cornell in general. You apply to one college and, in most, o
 
 | College | Tuition type | GPA signal | Courses to have done or in progress | Credit cap |
 |---|---|---|---|---|
-| Arts and Sciences | Endowed | None stated; Transfer Option 3.5 each term | Juniors: the intended major's prerequisites | 60; four semesters at Cornell |
+| Arts and Sciences | Endowed | No published minimum; Transfer Option 3.5 each term | Juniors: the intended major's prerequisites | 60; four semesters at Cornell |
 | CALS | Contract | 3.0 minimum; 3.5 for Biological Sciences | Major foundations; commonly writing and biology or chemistry with lab | 60, AP up to 15 |
-| Engineering | Endowed | None stated | MATH 1910, 1920; PHYS 1112 with 1110; CHEM 2090 with 2091 | 66, 33 per full-time year |
+| Engineering | Endowed | No published minimum | MATH 1910, 1920; PHYS 1112 with 1110; CHEM 2090 with 2091 | 66, 33 per full-time year |
 | Hotel (Nolan) | Endowed | No minimum; admits generally 3.3+ | College microeconomics; Knight Institute writing course; language, chemistry, precalculus | 60, AP/IB/GCE up to 15 |
 | Human Ecology | Contract | 3.5 competitive | Sophomores: 23 credits (lab science 8, writing 6, statistics 3, precalculus or calculus 3, psychology 3) | 60, pre-college up to 15 |
 | ILR | Contract | Most admits 3.4+ | Composition, intro economics, math, a science-and-technology course | 60, AP up to 12 |
@@ -461,7 +461,7 @@ rows:
   - {label: "Above $125,000", value: "100% of demonstrated need met"}
 ```
 
-**International applicants** file the CSS Profile by [March 15, 2027](https://finaid.cornell.edu/first-year-and-transfer-students-international), generally with no fee waiver. Applying for aid makes your admission need-aware. An international applicant who does not apply by the deadline [cannot receive undergraduate aid later](https://admissions.cornell.edu/how-to-apply/transfer-international-applicants). Aid above tuition and fees is taxable, and 14% is withheld unless a treaty applies. For English proficiency, the international transfer page refers you to Cornell's Standardized Testing Policy and sets no transfer-specific TOEFL, IELTS or Duolingo score. Documents not in English need official English translations, which a teacher or school official may provide.
+**International applicants** file the CSS Profile by [March 15, 2027](https://finaid.cornell.edu/first-year-and-transfer-students-international), generally with no fee waiver. Applying for aid makes your admission need-aware. An international applicant who does not apply by the deadline [cannot receive undergraduate aid later](https://admissions.cornell.edu/how-to-apply/transfer-international-applicants). Aid above tuition and fees is taxable, and 14% is withheld unless a treaty applies. For English proficiency, Cornell applies its Standardized Testing Policy and publishes no transfer-specific TOEFL, IELTS or Duolingo minimum. Documents not in English need official English translations, which a teacher or school official may provide.
 
 **EOP and HEOP applicants** file the same forms, then send [a HEOP Transfer Certification form](https://oadi.cornell.edu/node/50) for AAP, Arts and Sciences, Engineering or Hotel, or email stateprograms@cornell.edu for CALS, Human Ecology, ILR, Brooks or Dyson. Fall 2027 applicants submit 2025 tax documents. The Office of Academic Discovery and Impact answers at 607.255.3841.
 
@@ -525,7 +525,7 @@ Sources: [Arts and Sciences](https://as.cornell.edu/admissions/admissions-requir
 
 **The SUNY Broome route** leads to an online degree, not to a residential college in Ithaca. Applications open January 2027 and the first cohort starts August 2027.
 
-**Community college students** have no preference against them. The [Cornell Chronicle reported in 2024](https://www.news.cornell.edu/stories/2024/05/community-college-transfers-flourish-cornell) that about 100 community college transfers are admitted each year, and that CALS, ILR and Human Ecology have staff dedicated to transfer students' success. Older agreements with SUNY Broome (2017), SUNY Orange (2014) and the Pathways to Success colleges (2006 to 2008) are not current pathways; ask CALS admissions (cals_admissions@cornell.edu, 607-255-2036) before relying on any of them. Every route is compared in [Is there a guaranteed transfer to Cornell?](/transfer/cornell-guaranteed-transfer-pathways/) and [Community college to Cornell](/transfer/community-college-to-cornell/).
+**Community college students** have no preference against them. The [Cornell Chronicle reported in 2024](https://www.news.cornell.edu/stories/2024/05/community-college-transfers-flourish-cornell) that about 100 community college transfers are admitted each year, and that CALS, ILR and Human Ecology have staff dedicated to transfer students' success. Older agreements with SUNY Broome (2017), SUNY Orange (2014) and the Pathways to Success colleges (2006 to 2008) are not current pathways; CALS admissions (cals_admissions@cornell.edu, 607-255-2036) can tell you what applies now. Every route is compared in [Is there a guaranteed transfer to Cornell?](/transfer/cornell-guaranteed-transfer-pathways/) and [Community college to Cornell](/transfer/community-college-to-cornell/).
 
 ## Late April to June: the decision and the bill
 

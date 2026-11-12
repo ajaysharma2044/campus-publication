@@ -16,7 +16,8 @@ readers:
 - parent
 - low-budget
 - first-year
-subject: College Avenue in Collegetown, Ithaca, New York
+subject:
+- College Avenue in Collegetown, Ithaca, New York
 tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks
@@ -36,14 +37,14 @@ sources:
   accessed: '2026-11-10'
 images:
 - file: 1.webp
-  alt: College Avenue in Collegetown, Ithaca, with apartment buildings above storefronts and cars parked along the curb
-  caption: College Avenue in Collegetown. City Bucks pay for food off campus at 12 listed businesses; this guide gives each address, phone number and type, plus the rules for adding money.
-  credit: Dougtone / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
-  author: Dougtone
-  source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
-  license: CC BY-SA 2.0
-  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  alt: Cornell University - Sheldon Court (2025)
+  caption: Cornell University - Sheldon Court (2025)
+  credit: P. Hughes / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Sheldon_Court_(2025).jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  author: P. Hughes
+  source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Sheldon_Court_(2025).jpg
 ---
 
 

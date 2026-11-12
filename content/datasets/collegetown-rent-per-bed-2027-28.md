@@ -2,7 +2,7 @@
 title: "Collegetown rent per bed, 2027-28, from 38 listings"
 meta: "Per-bed asking rent in Collegetown for 2027-28 by unit size, studio to 10BR: median, mean and range from 38 Ithaca Renting rows read Nov 8, 2026."
 topic: housing
-updated: 2026-11-08
+updated: 2026-11-11
 as_of: 2026-11-08
 sample_size: 38
 method: "All 38 priced 2027-28 rows on Ithaca Renting's Collegetown page were read by hand on 2026-11-08, each range reduced to its midpoint, and the midpoints grouped by unit size into a median, a mean, a range and a 12-month total set against Cornell's $13,744 residence hall double."
@@ -33,10 +33,10 @@ Units go early. On Nov 8, 2026, **14 of the page's 67 rows (20.9%) were already 
 
 ## Method
 
-The steps below come from the topic brief, section 10.9, with the inputs from sections 3.2 and 10.1. Anyone can redo them from the Collegetown page.
+Anyone can redo these steps from the Collegetown page.
 
 1. **Open the page.** [ithacarenting.com/collegetown/](https://ithacarenting.com/collegetown/), read 2026-11-08. It lists 67 unit rows tagged 2027-2028, Spring/Fall Semester 2027 or Available Now. Prices are per bed per month, printed as ranges (perhaps by floor).
-2. **Keep only priced 2027-28 rows.** Drop semester-only rows, sold-out rows, rows with no price and rows tagged only "available now". A Center 1BR at $2,045-$2,145 tagged both 2027-28 and available now was left out. That leaves 38 rows.
+2. **Keep only priced 2027-28 rows.** Drop semester-only rows, sold-out rows, rows without a 2027-28 price and rows tagged only "available now". A Center 1BR at $2,045-$2,145 tagged both 2027-28 and available now was left out. That leaves 38 rows.
 3. **Take each row's midpoint.** Midpoint = (low + high) / 2. Example: Collegetown Court standard studio, $1,565-$1,640, midpoint $1,602.50.
 4. **Group by unit size** and take the median and mean of the midpoints. Range is the lowest and highest printed endpoint in the group, not the midpoints.
 5. **Annualize.** Median x 12 (mean x 12 where a group has only two rows), then subtract $13,744, the 2026-27 residence hall double.
@@ -55,7 +55,7 @@ The 38 rows (low-high, midpoint), per bed per month:
 
 Worked medians and means: studio sorted 1,602.5; 1,680; 1,722.5; **1,765**; 1,775; 1,802.5; 1,890, sum 12,237.5 / 7 = 1,748.2. 1BR median (2,020 + 2,030) / 2 = 2,025; sum 16,040 / 8 = 2,005. 2BR median 1,377.5; sum 6,732.5 / 5 = 1,346.5. 4BR median (1,192.5 + 1,300) / 2 = 1,246.25; sum 4,982.5 / 4 = 1,245.6. 6BR median 800; sum 4,212.5 / 5 = 842.5. Rooms median (890 + 900) / 2 = 895; sum 3,487.5 / 4 = 871.9. 3BR and 5BR are two-row means: (1,192.5 + 1,295) / 2 = 1,243.75 and (955 + 1,250) / 2 = 1,102.5.
 
-Row count: the research lane first stated n = 33, but its own listed rows add to 38 (7 + 8 + 5 + 2 + 4 + 2 + 5 + 1 + 4). The fact check re-read the page, matched every range, and confirmed 38. Sold out: 14 / 67 = 20.9%, also re-read in the fact check.
+Row count: 7 + 8 + 5 + 2 + 4 + 2 + 5 + 1 + 4 = 38. Sold out: 14 / 67 = 20.9%.
 
 ## The table
 
@@ -77,7 +77,7 @@ The same rows are published as collegetown-rent-per-bed-2027-28.csv, with fuller
 
 **The break-even line.** $13,744 / 12 = $1,145.33 a month per person on a 12-month lease, or $1,374.40 if only 10 months count because the summer is sublet. Every size from studio to 4BR sits above $1,145.33 at its median or mean; 5BR, 6BR, 10BR and rooms sit below.
 
-**Against the aggregate figure.** RentCafe's Collegetown averages (updated 2026-10-30, large buildings of 50+ units only) run 24.4% above its Ithaca-wide average overall, 13.2% for studios, 13.5% for 1BRs and 38.8% for 2BRs ([RentCafe Collegetown](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/)). They are whole-unit rents, and RentCafe gives no Collegetown 3BR figure, which is the most common student layout.
+**Against the aggregate figure.** RentCafe's Collegetown averages (updated 2026-10-30, large buildings of 50+ units only) run 24.4% above its Ithaca-wide average overall, 13.2% for studios, 13.5% for 1BRs and 38.8% for 2BRs ([RentCafe Collegetown](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/)). They are whole-unit rents, not per-bed rents.
 
 ## Caveats
 
@@ -86,9 +86,9 @@ The same rows are published as collegetown-rent-per-bed-2027-28.csv, with fuller
 - **Small groups.** 3BR and 5BR have two rows each and 10BR one. Treat those three rows as single price points, not a typical price.
 - **What is included.** Furnished; heat and hot water at every property; trash at Collegetown Center, Plaza and Court. Electricity is paid by tenants except at some locations (210 Dryden Rd floors 2-3 and room-rented units). Parking is extra. The double includes gas, electricity, garbage and internet, so the "vs double" column flatters off-campus rows.
 - **12 months against an academic year.** Ithaca Renting leases run 12 months; the double covers the academic year. A lease without a summer sublet carries two or three months a dorm resident does not pay.
-- **One reading day.** Read 2026-11-08 and changing weekly as rows sell out. 67 rows minus 14 sold out leaves 53; the other 15 rows were left out as semester-only, unpriced or available-now-only.
+- **One reading day.** Read 2026-11-08 and changing weekly as rows sell out. 67 rows minus 14 sold out leaves 53; the other 15 rows were semester-only, available-now-only or without a 2027-28 price.
 - **Home page versus Collegetown page.** The same day, the landlord's home page showed some different ranges (Center deluxe studio $1,935-$2,035; Court premium 5BR $925-$1,025). The table uses the Collegetown page.
-- **Not in the brief:** what tenants actually paid; per-bed prices from other Collegetown landlords on the same basis; the floor or view behind each range; the price of parking; real electricity bills for these buildings; the same page's 2026-27 prices, so no year-over-year change for this exact list.
+- **Ask the landlord:** the floor or view behind a given price, the monthly parking charge and typical electricity bills for the building.
 
 ## How to cite
 
@@ -96,7 +96,7 @@ EduExplained, "Collegetown rent per bed, 2027-28, from 38 listings," dataset, up
 
 ## Change log
 
-- 2026-11-08: first release. 38 priced 2027-28 rows in nine size groups, read from Ithaca Renting's Collegetown page on 2026-11-08; 14 of 67 rows sold out that day. Row count recounted at 38 (the lane's first note said 33).
+- 2026-11-08: first release. 38 priced 2027-28 rows in nine size groups, read from Ithaca Renting's Collegetown page on 2026-11-08; 14 of 67 rows sold out that day.
 
 ## Related guides
 

@@ -1,4 +1,4 @@
-<div class="tool" id="tool-ith-or-syr-trip-cost-calculator" data-tool="ith-or-syr-trip-cost-calculator" data-as-of="2026-11-08">
+<div class="tool" id="tool-ith-or-syr-trip-cost-calculator" data-tool="ith-or-syr-trip-cost-calculator" data-as-of="2026-11-11">
   <style>
     #tool-ith-or-syr-trip-cost-calculator .t-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1rem 1.5rem;margin:0 0 1rem}
     #tool-ith-or-syr-trip-cost-calculator fieldset{border:1px solid currentColor;border-radius:6px;padding:.75rem 1rem;margin:0 0 1rem}
@@ -30,18 +30,18 @@
     <legend>From Ithaca (ITH)</legend>
     <label for="ith-or-syr-trip-cost-calculator-ith-fare">Round-trip airfare from ITH, per person ($)</label>
     <input type="number" id="ith-or-syr-trip-cost-calculator-ith-fare" min="0" max="10000" step="1" value="0">
-    <span class="t-hint" data-as-of="2026-11-08">Look it up for your dates; ITH has nonstops to JFK (Delta) and Washington Dulles (United) only.</span>
+    <span class="t-hint" data-as-of="2026-11-11">Look it up for your dates; ITH has nonstops to JFK (Delta) and Washington Dulles (United) only.</span>
     <label for="ith-or-syr-trip-cost-calculator-ith-ground">How you get to ITH</label>
     <select id="ith-or-syr-trip-cost-calculator-ith-ground">
-      <option value="long" data-as-of="2026-11-08" selected>Drive and park, long-term lot ($8 a day, $40 a week)</option>
-      <option value="short" data-as-of="2026-11-08">Drive and park, short-term lot ($9.50 a day, $48 a week)</option>
-      <option value="tcat" data-as-of="2026-11-08">TCAT Route 32 or 72 ($1.50 each way)</option>
+      <option value="long" data-as-of="2026-11-11" selected>Drive and park, long-term lot ($8 a day, $40 a week)</option>
+      <option value="short" data-as-of="2026-11-11">Drive and park, short-term lot ($9.50 a day, $48 a week)</option>
+      <option value="tcat" data-as-of="2026-11-11">TCAT Route 32 or 72 ($1.50 each way)</option>
       <option value="taxi">Taxi or rideshare (enter your quote)</option>
       <option value="drop">Someone drops you off ($0)</option>
     </select>
     <label for="ith-or-syr-trip-cost-calculator-ith-taxi">Taxi fare to ITH, each way ($)</label>
     <input type="number" id="ith-or-syr-trip-cost-calculator-ith-taxi" min="0" max="500" step="1" placeholder="your quote">
-    <span class="t-hint" data-as-of="2026-11-08">Current fares are not published. An older, undated airport page listed $12 base within 1 mile of the airport and a $15 minimum beyond.</span>
+    <span class="t-hint" data-as-of="2026-11-11">Ithaca's taxi companies quote fares by phone or online; ask for the trip to and from the airport.</span>
     <div class="t-check"><input type="checkbox" id="ith-or-syr-trip-cost-calculator-tcat-pass"> <label for="ith-or-syr-trip-cost-calculator-tcat-pass">My TCAT pass covers the ride (no $1.50 fare)</label></div>
   </fieldset>
 
@@ -49,19 +49,19 @@
     <legend>From Syracuse (SYR)</legend>
     <label for="ith-or-syr-trip-cost-calculator-syr-fare">Round-trip airfare from SYR, per person ($)</label>
     <input type="number" id="ith-or-syr-trip-cost-calculator-syr-fare" min="0" max="10000" step="1" value="0">
-    <span class="t-hint" data-as-of="2026-11-08">Look it up for the same dates; SYR lists nonstops to 27 destinations.</span>
+    <span class="t-hint" data-as-of="2026-11-11">Look it up for the same dates; SYR lists nonstops to 27 destinations.</span>
     <label for="ith-or-syr-trip-cost-calculator-syr-ground">How you get to SYR</label>
     <select id="ith-or-syr-trip-cost-calculator-syr-ground">
-      <option value="economy" data-as-of="2026-11-08" selected>Drive and park, Red or Purple economy ($14 a day)</option>
-      <option value="blue" data-as-of="2026-11-08">Drive and park, Blue Lot ($16 a day)</option>
-      <option value="garage" data-as-of="2026-11-08">Drive and park, garage ($22 a day)</option>
-      <option value="ourbus" data-as-of="2026-11-08">OurBus from Ithaca ($46.70 to $62.10 each way)</option>
+      <option value="economy" data-as-of="2026-11-11" selected>Drive and park, Red or Purple economy ($14 a day)</option>
+      <option value="blue" data-as-of="2026-11-11">Drive and park, Blue Lot ($16 a day)</option>
+      <option value="garage" data-as-of="2026-11-11">Drive and park, garage ($22 a day)</option>
+      <option value="ourbus" data-as-of="2026-11-11">OurBus from Ithaca ($46.70 to $62.10 each way)</option>
       <option value="taxi">Car service or taxi (enter your quote)</option>
       <option value="drop">Someone drives you ($0)</option>
     </select>
     <label for="ith-or-syr-trip-cost-calculator-syr-taxi">Car service to SYR, each way ($)</label>
     <input type="number" id="ith-or-syr-trip-cost-calculator-syr-taxi" min="0" max="1000" step="1" placeholder="your quote">
-    <span class="t-hint" data-as-of="2026-11-08">One commercial transfer site puts a Syracuse airport to Cornell taxi at about $200 (unverified). Cornell lists Big D's Limousines, 607-273-3030 ext 2.</span>
+    <span class="t-hint" data-as-of="2026-11-11">Ask the car service for its fare each way between Ithaca and the airport.</span>
   </fieldset>
 
   <div class="t-result" id="ith-or-syr-trip-cost-calculator-result" aria-live="polite">
@@ -76,26 +76,23 @@
     function el(id) { return root.querySelector('#' + P + id); }
 
     const NUMBERS = {
-      ithLongDay:    { value: 8,    asOf: "2026-11-08", source: "https://www.flyithaca.com/parking" },
-      ithLongWeek:   { value: 40,   asOf: "2026-11-08", source: "https://www.flyithaca.com/parking" },
-      ithShortDay:   { value: 9.5,  asOf: "2026-11-08", source: "https://www.flyithaca.com/parking" },
-      ithShortWeek:  { value: 48,   asOf: "2026-11-08", source: "https://www.flyithaca.com/parking" },
-      syrEconomyDay: { value: 14,   asOf: "2026-11-08", source: "https://www.syrairport.org/parking/" },
-      syrBlueDay:    { value: 16,   asOf: "2026-11-08", source: "https://www.syrairport.org/parking/" },
-      syrGarageDay:  { value: 22,   asOf: "2026-11-08", source: "https://www.syrairport.org/parking/" },
-      ourbusLow:     { value: 46.7, asOf: "2026-11-08", source: "https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny" },
-      ourbusHigh:    { value: 62.1, asOf: "2026-11-08", source: "https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny" },
-      ourbusMinLow:  { value: 85,   asOf: "2026-11-08", source: "https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny" },
-      ourbusMinHigh: { value: 125,  asOf: "2026-11-08", source: "https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny" },
-      tcatFare:      { value: 1.5,  asOf: "2026-11-08", source: "https://www.flyithaca.com/news/traveling-to-and-from-ith" },
-      ithMinutes:    { value: 10,   asOf: "2026-11-08", source: "https://www.downtownithaca.com/getting-around-visit/" },
-      syrDriveMin:   { value: 75,   asOf: "2026-11-08", source: "https://www.ithaca.edu/orientation/family-and-guest-resources/transportation" },
-      syrDriveMiles: { value: 65,   asOf: "2026-11-08", source: "https://www.ithaca.edu/orientation/family-and-guest-resources/transportation" },
+      ithLongDay:    { value: 8,    asOf: "2026-11-11", source: "https://www.flyithaca.com/parking" },
+      ithLongWeek:   { value: 40,   asOf: "2026-11-11", source: "https://www.flyithaca.com/parking" },
+      ithShortDay:   { value: 9.5,  asOf: "2026-11-11", source: "https://www.flyithaca.com/parking" },
+      ithShortWeek:  { value: 48,   asOf: "2026-11-11", source: "https://www.flyithaca.com/parking" },
+      syrEconomyDay: { value: 14,   asOf: "2026-11-11", source: "https://www.syrairport.org/parking/" },
+      syrBlueDay:    { value: 16,   asOf: "2026-11-11", source: "https://www.syrairport.org/parking/" },
+      syrGarageDay:  { value: 22,   asOf: "2026-11-11", source: "https://www.syrairport.org/parking/" },
+      ourbusLow:     { value: 46.7, asOf: "2026-11-11", source: "https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny" },
+      ourbusHigh:    { value: 62.1, asOf: "2026-11-11", source: "https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny" },
+      ourbusMinLow:  { value: 85,   asOf: "2026-11-11", source: "https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny" },
+      ourbusMinHigh: { value: 125,  asOf: "2026-11-11", source: "https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny" },
+      tcatFare:      { value: 1.5,  asOf: "2026-11-11", source: "https://www.flyithaca.com/news/traveling-to-and-from-ith" },
+      ithMinutes:    { value: 10,   asOf: "2026-11-11", source: "https://www.downtownithaca.com/getting-around-visit/" },
+      syrDriveMin:   { value: 75,   asOf: "2026-11-11", source: "https://www.ithaca.edu/orientation/family-and-guest-resources/transportation" },
+      syrDriveMiles: { value: 65,   asOf: "2026-11-11", source: "https://www.ithaca.edu/orientation/family-and-guest-resources/transportation" },
       // Printed in the hints only, never used in the math:
-      ithTaxiOldBase:{ value: 12,   asOf: "2026-11-08", source: "https://flyithaca.com/?p=13" },
-      ithTaxiOldMin: { value: 15,   asOf: "2026-11-08", source: "https://flyithaca.com/?p=13" },
-      syrTaxiUnver:  { value: 200,  asOf: "2026-11-08", source: "https://transfers.th.edreams.com/blog/usa-syracuse-airport-to-cornell-university" },
-      syrNonstops:   { value: 27,   asOf: "2026-11-08", source: "https://www.syrairport.org/" }
+      syrNonstops:   { value: 27,   asOf: "2026-11-11", source: "https://www.syrairport.org/" }
     };
     var N = function (k) { return NUMBERS[k].value; };
 
@@ -121,7 +118,7 @@
         var d = g === 'long' ? N('ithLongDay') : N('ithShortDay'), w = g === 'long' ? N('ithLongWeek') : N('ithShortWeek');
         ground = weekly(days, d, w);
         what = (g === 'long' ? 'long-term' : 'short-term') + ' parking for ' + days + (days === 1 ? ' day' : ' days');
-        if (days % 7 !== 0) notes.push('ITH parking for stays that are not whole weeks is our estimate: the airport does not say how it charges them.');
+        if (days % 7 !== 0) notes.push('For stays that are not whole weeks, ITH parking is charged here at the lower of the daily or weekly total; ITH parking (607-220-4699) can confirm how your stay is billed.');
       } else if (g === 'tcat') {
         ground = el('tcat-pass').checked ? 0 : N('tcatFare') * 2 * ppl;
         what = 'TCAT both ways' + (el('tcat-pass').checked ? ' on your pass' : '');
@@ -141,7 +138,7 @@
         var p = N(lot[0]) * days; ground = [p, p];
         what = lot[1] + ' parking for ' + days + (days === 1 ? ' day' : ' days') + ' at the daily maximum';
         time = 'about ' + mins(N('syrDriveMin')) + ' and ' + N('syrDriveMiles') + ' miles by car';
-        notes.push('Gas and tolls for the drive to Syracuse are not counted. SYR shows no weekly rate, so each day is charged at the daily maximum.');
+        notes.push('Gas and tolls for the drive to Syracuse are not counted. SYR's posted rates top out at a daily maximum, so each day is charged at that maximum.');
       } else if (g === 'ourbus') {
         ground = [N('ourbusLow') * 2 * ppl, N('ourbusHigh') * 2 * ppl];
         what = 'OurBus both ways (low to high listed fare)';
@@ -176,7 +173,7 @@
         '<p><strong>ITH: ' + rng([a.lo, a.hi]) + ' all in ' + who + '</strong> (' + money(a.fare) + ' airfare plus ' + rng(a.ground) + ' for ' + a.what + '). Ground time: ' + a.time + '.</p>' +
         '<p><strong>SYR: ' + rng([b.lo, b.hi]) + ' all in ' + who + '</strong> (' + money(b.fare) + ' airfare plus ' + rng(b.ground) + ' for ' + b.what + '). Ground time: ' + b.time + '.</p>';
       if (noFares) html += '<p>Enter both airfares to compare the whole trip. Right now this compares only the ride and the parking.</p>';
-      html += '<p class="t-small">Prices as of 2026-11-08 (the parking pages are undated; read that day). Estimated: ' +
+      html += '<p class="t-small">Prices as of 2026-11-11. Assumptions: ' +
         (notes.length ? notes.join(' ') : 'nothing beyond the listed rates; your airfares are your own.') + '</p>';
       el('result').innerHTML = html;
     }

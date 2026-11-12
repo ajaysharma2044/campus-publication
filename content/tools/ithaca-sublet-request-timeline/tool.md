@@ -2,7 +2,7 @@
 title: "Ithaca sublet request: 10- and 30-day dates, what to send"
 meta: "Enter your building size, sublet start and mailing date; get the landlord's 10-day and 30-day deadlines, the consent-by-silence date and what to include."
 topic: housing
-updated: 2026-11-08
+updated: 2026-11-11
 numbers_as_of: 2026-11-08
 queue_id: q-housing-0064
 kind: tool
@@ -10,7 +10,7 @@ readers: [away-semester, summer-in-ithaca, upper-year-renter]
 brief: intel/off-campus-housing/brief.md
 sources:
   - {url: "https://www.nysenate.gov/legislation/laws/RPP/226-B", title: "New York State Senate: Real Property Law section 226-B, right to sublease or assign", accessed: "2026-11-08"}
-  - {url: "https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease", title: "Cornell Law School Tenant Advocacy: Breaking a lease", accessed: "2026-11-08"}
+  - {url: "https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease", title: "Cornell Law School Tenant Advocacy: Breaking a lease", accessed: "2026-11-11"}
 ---
 
 This tool works out the dates in a New York sublet request. You enter how many units are in your building, the day your subtenant moves in, and the day you mail the request. It gives you the last day to mail, the last day the landlord can ask you for more information, the day the landlord's answer is due, and the day silence turns into consent. It also lists the seven things the request must contain. If your building has three or fewer units, it tells you instead that your lease, not the law, decides whether you can sublet.
@@ -48,13 +48,13 @@ A worked example with the tool's defaults. You mail on April 1, 2027, and the su
 
 | Number | Value | Applies to | Source |
 |---|---|---|---|
-| Building size for the sublet right | 4 or more residential units; excludes public housing, units with statutory admission criteria and co-op proprietary leases | New York; statute read 2026-11-08 | [RPL 226-B](https://www.nysenate.gov/legislation/laws/RPP/226-B) |
-| Small buildings | 3 or fewer units: the lease controls subletting | Cornell Law guide, Feb 2026; checked 2026-11-08 | [Cornell Law: Breaking a lease](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease) |
-| Landlord's window to ask for more information | 10 days after the request | New York, 4+ units; read 2026-11-08 | [RPL 226-B](https://www.nysenate.gov/legislation/laws/RPP/226-B) |
-| Landlord's deadline to answer | 30 days after the later of the request or the extra information; no answer is consent | New York, 4+ units; read 2026-11-08 | [RPL 226-B](https://www.nysenate.gov/legislation/laws/RPP/226-B) |
-| Assignment refused unreasonably | Your only remedy is release from the lease on 30 days' notice | New York; read 2026-11-08 | [RPL 226-B](https://www.nysenate.gov/legislation/laws/RPP/226-B) |
-| Tenant hotline | 607-301-1560 (the Cornell Law guide's referral for study abroad and leaving school) | Feb 2026; checked 2026-11-08 | [Cornell Law: Breaking a lease](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease) |
-| Mailing margins | 31 days (30 + 1) and 41 days (10 + 30 + 1) before move-in | Our arithmetic, 2026-11-08 | From the 10- and 30-day rules above |
+| Building size for the sublet right | 4 or more residential units; excludes public housing, units with statutory admission criteria and co-op proprietary leases | New York; as of 2026-11-08 | [RPL 226-B](https://www.nysenate.gov/legislation/laws/RPP/226-B) |
+| Small buildings | 3 or fewer units: the lease controls subletting | Cornell Law guide, Feb 2026; as of 2026-11-11 | [Cornell Law: Breaking a lease](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease) |
+| Landlord's window to ask for more information | 10 days after the request | New York, 4+ units; as of 2026-11-08 | [RPL 226-B](https://www.nysenate.gov/legislation/laws/RPP/226-B) |
+| Landlord's deadline to answer | 30 days after the later of the request or the extra information; no answer is consent | New York, 4+ units; as of 2026-11-08 | [RPL 226-B](https://www.nysenate.gov/legislation/laws/RPP/226-B) |
+| Assignment refused unreasonably | Your only remedy is release from the lease on 30 days' notice | New York; as of 2026-11-08 | [RPL 226-B](https://www.nysenate.gov/legislation/laws/RPP/226-B) |
+| Tenant hotline | 607-301-1560 (the Cornell Law guide's referral for study abroad and leaving school) | Feb 2026; as of 2026-11-11 | [Cornell Law: Breaking a lease](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease) |
+| Mailing margins | 31 days (30 + 1) and 41 days (10 + 30 + 1) before move-in | New York, 4+ units | Adds the 10- and 30-day rules above |
 
 What the request must contain, under the same law: the term of the sublet; the subtenant's name; the subtenant's addresses; your reason for subletting; your address during the sublet; the written consent of any co-tenant or guarantor; and a copy of the proposed sublease.
 
@@ -68,17 +68,16 @@ What else the law and the Cornell Law guide say:
 ## Assumptions and what the tool does not cover
 
 - The tool counts calendar days from the day you mail. The statute counts the 10 days "after the mailing" of the request and the 30 days from the mailing of the request or of the extra information, whichever is later, so delivery time does not move the dates. Mail early anyway.
-- Not in the brief: what happens when a deadline falls on a weekend or holiday. The tool flags weekend dates and moves nothing.
-- Not in the brief: what counts as a reasonable refusal. The law says consent cannot be unreasonably withheld; it does not list reasons in our sources.
-- Not in the brief: whether a landlord's request for information sent after day 10 restarts the clock. The tool restarts the 30 days from the day you sent the information, whenever the landlord asked.
-- Not in the brief: typical sublet rents or discounts in Ithaca. Two asking prices were seen on Nov 8, 2026: Modern Living sublets "from $900 per person" and a Dryden South Fall 2026 sublet at $1,395 per person. The tool does not price your sublet.
-- Not in the brief: any student account of sublet scams in Ithaca.
+- The tool flags a deadline that falls on a weekend and moves nothing. Mail early enough that a weekend date does not matter.
+- The law says consent cannot be unreasonably withheld. The Cornell Law guide gives one example of a reasonable refusal: the tenant did not follow the required notice steps or did not send the information the landlord needed to decide ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease)).
+- The tool restarts the 30 days from the day you sent the extra information, whenever the landlord asked for it.
+- The tool does not price your sublet.
 - The tool covers private leases only. Cornell housing licenses have their own cancellation deadlines, which this tool does not model.
 - This is a date calculator, not legal advice. For your lease, call the hotline above.
 
 ## How to read the result
 
-The bold line at the top is your mailing deadline: the safer date first, then the last date that works if the landlord asks nothing. Under it, a dated list runs from your mailing day to the day silence becomes consent. The last line compares that day with your move-in date. If it says the 30 days run past move-in, don't let the subtenant move in on silence. Get the landlord's yes in writing or move the start date. If you chose three or fewer units, the result says "Your lease controls," and the dates don't apply; read your sublet clause and get any yes in writing. The checklist ticks are for you; nothing is saved or sent. The date under the result is the day we read the law.
+The bold line at the top is your mailing deadline: the safer date first, then the last date that works if the landlord asks nothing. Under it, a dated list runs from your mailing day to the day silence becomes consent. The last line compares that day with your move-in date. If it says the 30 days run past move-in, don't let the subtenant move in on silence. Get the landlord's yes in writing or move the start date. If you chose three or fewer units, the result says "Your lease controls," and the dates don't apply; read your sublet clause and get any yes in writing. The checklist ticks are for you; nothing is saved or sent. The date under the result is the date the rules are current to.
 
 ## Related guides
 

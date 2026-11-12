@@ -51,7 +51,7 @@ Cornell publishes no difficulty ratings, so judge workload yourself:
 3. **Read the syllabus.** Count the papers, exams and presentations. A discussion course with weekly reading is a different semester from a lecture with two exams.
 4. **Look at the credit count.** A 3-credit course that fills a slot costs less than a 4-credit one that fills the same slot, and the rule counts courses and credits both.
 5. **Spread the groups.** Because you only need 3 groups plus the Group 7 credits, you can pick the groups whose work style you like, such as papers over problem sets, or the reverse.
-6. **Plan around the credit cap.** The Sun [reported in March 2022](https://www.cornellsun.com/article/2022/03/students-express-concern-understanding-over-new-engineering-credit-limit) that Engineering limited students to 20 credits per semester (down from 23); confirm the current limit with Duffield Engineering Advising. One student told the Sun that with the 18-credit requirement it was hard to fit outside electives. Spreading liberal studies evenly keeps a heavy technical semester from also carrying a heavy writing course.
+6. **Plan around the credit cap.** The Sun [reported in March 2022](https://www.cornellsun.com/article/2022/03/students-express-concern-understanding-over-new-engineering-credit-limit) that Engineering limited students to 20 credits per semester (down from 23); confirm the current limit with Duffield Engineering Advising. One student told the Sun the cap may keep students from branching out into outside electives. Spreading liberal studies evenly keeps a heavy technical semester from also carrying a heavy writing course.
 
 ## Petitions, and where they trap people
 
@@ -78,6 +78,6 @@ Duffield students can [petition courses not already listed or denied](https://li
 
 **Does AP credit or an S/U grade count?** Ask Duffield Engineering Advising before you count either toward the requirement.
 
-**Where is the approved list?** The [approved list](https://liberal-studies.engineering.cornell.edu/approved) and the [denied list](https://liberal-studies.engineering.cornell.edu/denied) are both published by Engineering; the [overview page](https://www.duffield.cornell.edu/courses-requirements/bachelor-science-requirements/liberal-studies) links to them.
+**Where is the approved list?** The [approved list](https://liberal-studies.engineering.cornell.edu/approved) and the [denied list](https://liberal-studies.engineering.cornell.edu/denied) are both published by Engineering; the [overview page](https://www.duffield.cornell.edu/courses-requirements/bachelor-science-requirements/liberal-studies) links to the Engineering liberal studies site.
 
 **More to read:** our [academics guides](/academics/), and [how to save on textbooks](/money/cornell-textbooks-cheap-where-to-buy-used-ithaca/) for the courses you pick.

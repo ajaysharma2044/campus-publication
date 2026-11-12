@@ -14,7 +14,8 @@ readers:
 - sophomore
 - transfer-spring
 - parent
-subject: Carl Becker House, West Campus, Cornell University
+subject:
+- Carl Becker House, West Campus, Cornell University
 tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system
@@ -49,14 +50,14 @@ sources:
   accessed: '2026-11-10'
 images:
 - file: 1.webp
-  alt: Baker Tower and the West Campus halls at Cornell seen over autumn trees, with Cayuga Lake beyond
-  caption: West Campus from the hill above it. Each of the five Houses is led by a professor who lives in the building with their family, backed by a live-in Assistant Dean and student fellows.
-  credit: Mads Bødker from Copenhagen, Denmark / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_view_(36809826).jpg
-  author: Mads Bødker from Copenhagen, Denmark
-  source_url: https://commons.wikimedia.org/wiki/File:Cornell_view_(36809826).jpg
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0
+  alt: Flora Rose House, Cornell University
+  caption: Flora Rose House, Cornell University
+  credit: Kenneth C. Zirkel / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Flora_Rose_House,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Flora_Rose_House,_Cornell_University.jpg
 ---
 
 

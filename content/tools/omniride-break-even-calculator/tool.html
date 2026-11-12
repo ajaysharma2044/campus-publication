@@ -1,4 +1,4 @@
-<div class="tool" id="tool-omniride-break-even-calculator" data-tool="omniride-break-even-calculator" data-as-of="2026-11-08">
+<div class="tool" id="tool-omniride-break-even-calculator" data-tool="omniride-break-even-calculator" data-as-of="2026-11-11">
   <style>
     #tool-omniride-break-even-calculator .obe-field { margin: 0 0 0.9rem; }
     #tool-omniride-break-even-calculator .obe-field label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
@@ -10,7 +10,7 @@
     #tool-omniride-break-even-calculator .obe-small { font-size: 0.875em; opacity: 0.85; }
   </style>
 
-  <p class="obe-small">Cornell's prices: OmniRide <span data-as-of="2026-11-08">$200 a year</span>, cash fare <span data-as-of="2026-11-08">$1.50 a ride</span>, refund until Mar 31 less <span data-as-of="2026-11-08">$40</span>. From Cornell's bus passes page, checked Nov 8, 2026 (the page is undated; TCAT's own fare page returned an error to us).</p>
+  <p class="obe-small">Cornell's prices: OmniRide <span data-as-of="2026-11-11">$200 a year</span>, cash fare <span data-as-of="2026-11-11">$1.50 a ride</span>, refund until Mar 31 less <span data-as-of="2026-11-11">$40</span>. From Cornell's bus passes page, as of Nov 11, 2026.</p>
 
   <div class="obe-field">
     <label for="omniride-break-even-calculator-status">Your status this year</label>
@@ -33,7 +33,7 @@
   <div class="obe-field">
     <label for="omniride-break-even-calculator-weeks">Weeks you ride in the pass year (to Aug 31)</label>
     <input id="omniride-break-even-calculator-weeks" type="number" min="1" max="52" step="1" value="30" inputmode="numeric">
-    <span class="obe-hint">30 weeks is our rough academic year, an assumption. Add summer weeks if you stay in Ithaca. Spring entrants: count only weeks from Jan 1 to Aug 31 after your free year.</span>
+    <span class="obe-hint">30 weeks is a rough academic year. Add summer weeks if you stay in Ithaca. Spring entrants: count only weeks from Jan 1 to Aug 31 after your free year.</span>
   </div>
 
   <div class="obe-result" id="omniride-break-even-calculator-result" aria-live="polite">
@@ -47,10 +47,10 @@
 
   var FCS = "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes";
   var NUMBERS = {
-    cashFare: { value: 1.5, asOf: "2026-11-08", source: FCS },
-    omniRide: { value: 200, asOf: "2026-11-08", source: FCS },
-    refundFee: { value: 40, asOf: "2026-11-08", source: FCS },
-    dailyCap: { value: 3, asOf: "2026-09-04", source: "https://www.tcatbus.com/ride/fare-pass-options/" }
+    cashFare: { value: 1.5, asOf: "2026-11-11", source: FCS },
+    omniRide: { value: 200, asOf: "2026-11-11", source: FCS },
+    refundFee: { value: 40, asOf: "2026-11-11", source: FCS },
+    dailyCap: { value: 3, asOf: "2026-09-04", source: "https://web.archive.org/web/20261025111637/https://tcatbus.com/fare-pass-options" }
   };
 
   function el(name) { return root.querySelector("#omniride-break-even-calculator-" + name); }
@@ -71,9 +71,8 @@
   var breakEven = Math.ceil(NUMBERS.omniRide.value / NUMBERS.cashFare.value); // 134
   var maxRefund = NUMBERS.omniRide.value - NUMBERS.refundFee.value;           // 160
 
-  var FOOT = '<p class="obe-small">Cornell prices as of Nov 8, 2026 (Cornell bus passes page check; the page is undated). ' +
-    'The $3 daily cap is from a search summary of TCAT\'s fare page, reported updated Sept 4, 2026, not read directly. ' +
-    'Estimated: your ride count and weeks are your own guess; the 30-week year is our assumption.</p>';
+  var FOOT = '<p class="obe-small">Cornell prices as of Nov 11, 2026. TCAT fares and the $3 daily cap as of Sept 4, 2026. ' +
+    'Estimated: your ride count and weeks are your own numbers; 30 weeks is a rough academic year.</p>';
 
   function render() {
     var status = statusEl.value;
@@ -100,7 +99,7 @@
     } else if (status === "spring-entrant") {
       html = "<p><strong>Free for you through Dec 31 of the year you start.</strong> Spring entrants ride free Jan 1 to Dec 31, not to Aug 31, with no extensions.</p>";
       lines.push(li("From Jan 1 after that, weekday rides before 6 p.m. cost " + money(fare) + ". At " + rides + " a week for " + weeks + " weeks: " + money(cash) + " cash."));
-      lines.push(li("An OmniRide bought in January still ends Aug 31 and is prorated monthly, so it costs less than " + money(pass) + ". Cornell shows the exact price at purchase; it is not in our research. Buy it if that price is below " + money(cash) + "."));
+      lines.push(li("An OmniRide bought in January still ends Aug 31 and is prorated monthly, so it costs less than " + money(pass) + ". Cornell shows the exact price at purchase. Buy it if that price is below " + money(cash) + "."));
       if (cash > pass) lines.push(li("Your cash total is above even the full " + money(pass) + " price, so the pass wins at any prorated price."));
     } else {
       var buy = yearRides >= breakEven;
@@ -118,7 +117,7 @@
         var perDay = rides / 5;
         var cappedWeek = 5 * Math.min(perDay * fare, NUMBERS.dailyCap.value);
         var capped = cappedWeek * weeks;
-        lines.push(li("TCAT reportedly caps a day at " + money(NUMBERS.dailyCap.value) + " at the farebox (not yet in the TFare app). If your rides spread over five weekdays, cash would be about " + money(capped) + " a year with the cap" + (capped < pass ? ", under the pass price." : ", still above the pass price.")));
+        lines.push(li("TCAT caps a day at " + money(NUMBERS.dailyCap.value) + " when you tap the same bank card, digital wallet or rechargeable Tcard (not cash or the Tfare app). If your rides spread over five weekdays, you would pay about " + money(capped) + " a year with the cap" + (capped < pass ? ", under the pass price." : ", still above the pass price.")));
       }
       lines.push(li("Changed your mind? Until Mar 31 Cornell refunds a prorated amount less " + money(NUMBERS.refundFee.value) + ", so at most " + money(maxRefund) + " back. After Mar 31, no refund."));
       lines.push(li("Bought mid-year? The price is prorated monthly; Cornell shows it at purchase."));

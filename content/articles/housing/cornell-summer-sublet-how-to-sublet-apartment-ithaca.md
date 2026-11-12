@@ -17,7 +17,8 @@ readers:
 - summer-in-ithaca
 - upper-year-renter
 - alum-landlord
-subject: Collegetown Ithaca
+subject:
+- Collegetown Ithaca
 tools:
 - ithaca-sublet-request-timeline
 sources:
@@ -87,8 +88,8 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Collegetown_Wine_%26_Spririts,_Ithaca_New_York.jpg
 kind: rewrite
 redirect_from:
-  - /cornell/housing/sublet-apartment-study-abroad-semester-cornell/
-  - /housing/sublet-apartment-study-abroad-semester-cornell/
+- /cornell/housing/sublet-apartment-study-abroad-semester-cornell/
+- /housing/sublet-apartment-study-abroad-semester-cornell/
 ---
 
 

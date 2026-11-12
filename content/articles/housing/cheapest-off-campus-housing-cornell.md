@@ -53,9 +53,6 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
-  title: Requirements for Qualified University-Recognized Campus Housing, Cornell Student & Campus Life
-  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-11'
@@ -177,7 +174,7 @@ Seventeen options come in under the double. Nearly all of them are co-ops, Hasbr
 
 Sources: Cornell's 2026-27 rates for co-ops, Hasbrouck and residence halls; [Ithaca Renting Collegetown](https://ithacarenting.com/collegetown/) (2027-28 asking rents) and [Ithaca Renting downtown](https://ithacarenting.com/downtown/) (mostly 2026-27); [RentCafe Ithaca](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/) (updated Oct. 30, 2026). Apartment medians use the midpoint of each listed price range.
 
-The co-op rows cover only the school year, so a co-op resident still needs somewhere to live in summer. Most apartment rows leave out electricity, which the double includes. Ithaca Renting's medians come from one landlord that posts every price, and several sizes rest on one to three listings.
+The co-op rows cover only the school year, so a co-op resident still needs somewhere to live in summer. Most apartment rows leave out electricity, which the double includes.
 
 ## Which options cost more than a double?
 
@@ -224,14 +221,14 @@ rows:
   - {label: "First-year double + Unlimited + $50 fee", value: "$21,398"}
   - {label: "Upper-level triple + Bear Traditional + $50 fee", value: "$19,750"}
   - {label: "Upper-level double + Bear Traditional + $50 fee", value: "$20,850"}
-  - {label: "Redbud co-op triple (no Cornell meal plan required)", value: "$5,530"}
+  - {label: "Redbud co-op triple, room only", value: "$5,530"}
 ```
 
 Source: Cornell's 2026-27 housing rates and undergraduate meal plan prices. Each total is room plus plan plus the fee.
 
 A quad is priced like a double, at $6,872 a semester. Only a one-room quad gets the triple rate. Whether rooms should be priced this differently is an open debate on campus. In an April 29, 2026 column in [The Cornell Daily Sun](https://www.cornellsun.com/article/2026/04/unequal-vs-inequitable-housing-why-all-dorms-should-cost-the-same), Ava Betnar '29 argued that Cornell should narrow the gap between single, double and triple rates.
 
-Sophomores have a cheaper door. Cornell's eight co-ops [count as second-year housing](https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement), as do Greek and other affiliated houses. Co-ops do not appear on Cornell Dining's list of housing that carries the meal-plan requirement. A Redbud triple costs $7,114 less than a residence hall triple before any meal plan.
+Sophomores have a cheaper door. Cornell's eight co-ops [count as second-year housing](https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement), as do Greek and other affiliated houses. A Redbud triple costs $7,114 less than a residence hall triple before any meal plan.
 
 ```reader "If you're a sophomore planning next year"
 Don't sign an apartment lease for your second year until your Cornell housing is settled. If you're joining a co-op or Greek house for 2027-28, affirm it by March 15, 2027. The application and exemption deadline is April 4, 2027 at 11:59 p.m. ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A second-year can cancel a Cornell license only if accepted to a co-op, Greek or affiliated house before that deadline ([Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
@@ -313,7 +310,7 @@ rows:
 
 Sources: EnergySage, City of Ithaca, Cornell Transportation, Ithaca Renting.
 
-[EnergySage](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/) puts the average Ithaca electricity bill at $282 a month. Treat it as a ceiling for a shared apartment, since it comes from households that chose to report their bills. Even so, it changes the ranking at the margins. A Collegetown 4BR bed at $1,246.25 plus $70.50 for power is $1,316.75 a month, or $15,801 a year, $2,057 over the double.
+[EnergySage](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/) puts the average Ithaca electricity bill at $282 a month. It changes the ranking at the margins. A Collegetown 4BR bed at $1,246.25 plus $70.50 for power is $1,316.75 a month, or $15,801 a year, $2,057 over the double.
 
 Trash tags cost [$6.00 each from Jan. 1, 2026](https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags), one per bag or can. Food is the other big line: off campus you buy your own groceries instead of a meal plan.
 

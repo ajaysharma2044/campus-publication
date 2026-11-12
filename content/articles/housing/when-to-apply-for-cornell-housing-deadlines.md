@@ -24,61 +24,61 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy
   title: Housing License Cancellation Policy, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions
   title: Co-op Housing 2026-2027 Terms and Conditions, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing
   title: Cooperative Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/sub/news-events/news/co-op-mosey-2024
   title: Co-op Mosey 2024, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/get-involved/sorority-fraternity-life/how-join-sorority-or-fraternity
   title: How to Join a Sorority or Fraternity, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus
   title: Apply for Housing On Campus, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs
   title: Room Selection FAQs, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process
   title: Housing Search Process, Cornell Off-Campus Living
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
   title: Requirements for Qualified University-Recognized Campus Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
   title: Housing and Residential Life Directory, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Clara Dickson Hall, a long brick residence hall with a white-columned entrance on Cornell's North Campus
@@ -157,7 +157,7 @@ Source: Cornell Student & Campus Life, Spring Housing Selection for Rising Sopho
 
 ## What is the March 15 deadline for co-ops, fraternities and sororities?
 
-It is the last day to tell Cornell you will spend sophomore year outside a residence hall ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Sophomores can meet the two-year rule in one of the eight university-owned co-ops, a recognized fraternity or sorority house, or an approved affiliated house. Declare it on the housing application. Miss the deadline, and you complete the requirement in campus housing. Housing and Residential Life checks rosters from the Office of Sorority and Fraternity Life and affiliated houses, so confirm with your house's leaders that you are on the roster. One line on the selection page still prints the year as 2026, left over from last year. The rest of the page covers 2027-28, so the deadline falls in 2027.
+It is the last day to tell Cornell you will spend sophomore year outside a residence hall ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Sophomores can meet the two-year rule in one of the eight university-owned co-ops, a recognized fraternity or sorority house, or an approved affiliated house. Declare it on the housing application. Miss the deadline, and you complete the requirement in campus housing. Housing and Residential Life checks rosters from the Office of Sorority and Fraternity Life and affiliated houses, so confirm with your house's leaders that you are on the roster.
 
 Chapter houses have two earlier tests. A sophomore must already be a member when the housing application is filed. A chapter is approved automatically only if it has a live-in advisor and four upper-level officers by Jan. 1 each year ([residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). Formal recruitment for the Interfraternity Council and Panhellenic Council runs the week before classes start each January ([Sorority and Fraternity Life](https://scl.cornell.edu/get-involved/sorority-fraternity-life/how-join-sorority-or-fraternity)). That leaves new members about two months to settle plans before the declaration deadline.
 
@@ -209,7 +209,7 @@ First-years, new transfers and sophomores cannot cancel for any other reason. Th
 
 ## When do new first-years and transfers apply?
 
-Within 10 days of getting a Cornell NetID, the university login. The application for 2026-27 opened April 1, 2026, and Cornell has not posted the 2027-28 opening date ([Apply for Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus)). New students pick a program house or a residence hall and a room type. They do not rank halls. Unless they choose a program house, a random process assigns the building ([New Undergrad Application Process](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)).
+Within 10 days of getting a Cornell NetID, the university login. The application for 2026-27 opened April 1, 2026, and Cornell has not yet announced the 2027-28 opening date ([Apply for Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus)). New students pick a program house or a residence hall and a room type. They do not rank halls. Unless they choose a program house, a random process assigns the building ([New Undergrad Application Process](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)).
 
 Confirmations go out starting in mid-June. Some students get a room. Others land on a guaranteed waitlist and get an assignment over the summer. After you sign the license, you pick a move-in timeslot, which you can change until Aug. 1. Students who need accessible housing should register with Student Disability Services as early as possible.
 
@@ -218,7 +218,7 @@ Your clock depends on when you arrive. New transfers live on campus for one acad
 ```
 
 ```reader "If you're a graduate or professional student"
-The undergraduate deadlines do not apply to you. Hasbrouck Apartments takes applications on a rolling basis for 12-month contracts. For 2026-27, current residents could renew from Feb. 3, 2026, and new applications opened at noon on April 1, 2026. Cornell has not posted 2027 dates, so watch the Apply for Housing page from early February. Questions go to the housing office at (607) 255-5368.
+The undergraduate deadlines do not apply to you. Hasbrouck Apartments takes applications on a rolling basis for 12-month contracts. For 2026-27, current residents could renew from Feb. 3, 2026, and new applications opened at noon on April 1, 2026. Dates for 2027-28 are not yet announced, so watch the Apply for Housing page from early February. Questions go to the housing office at (607) 255-5368.
 ```
 
 ```reader "If you need a disability accommodation"
@@ -234,7 +234,7 @@ Even students who already live in an open building must file the application. Fo
 ## FAQ
 
 **Who do I contact about a deadline I missed?**
-Housing Operations in 1520 Clara Dickson Hall handles exemptions, licenses and cancellations: 607-255-5368 or housing@cornell.edu ([Housing directory](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)). Cornell does not post what happens to a sophomore who misses the application deadline, so call before the deadline if you are unsure.
+Housing Operations in 1520 Clara Dickson Hall handles exemptions, licenses and cancellations: 607-255-5368 or housing@cornell.edu ([Housing directory](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)). If you think you may miss a deadline, call before it passes.
 
 ## What to do next
 

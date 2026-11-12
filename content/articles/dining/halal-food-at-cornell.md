@@ -96,7 +96,7 @@ Each Ramadan, Cornell Dining offers extended hours in select dining rooms, take-
 
 Halal Brothers, a Mediterranean food truck, is on Cornell's approved food truck list as of May 2026 ([Cornell EHS](https://ehs.cornell.edu/campus-health-safety/event-management/approved-food-truck-and-trailer-vendors)). A March 2025 Sun columnist recommended it and wrote that it stays open to 2 a.m. on weekends and 10 p.m. on weekdays ([The Sun](https://cornellsun.com/2025/03/10/cornells-abandonment-of-vegetarian-students-and-where-they-can-eat-instead)). Hours and parking spots change, so check where the truck is before a late trip.
 
-A September 2025 Sun column on late-night food listed a halal chain among its wishes for Collegetown ([The Sun](https://www.cornellsun.com/article/2025/09/rgcm36ewemrx)). That tells you the late-night options are thin. Plan your late meal before the dining rooms close.
+A September 2025 Sun column on late-night food listed a halal chain among its wishes for Collegetown; the columnist had seen a sign there saying a Halal Munchies would be opening ([The Sun](https://www.cornellsun.com/article/2025/09/rgcm36ewemrx)).
 
 If you cook, call the Ithaca stores you plan to use and ask whether they carry halal meat before you count on them. For prices and stores, read [cheap groceries in Ithaca](/cornell/money/cheap-groceries-ithaca-ny-students/).
 
@@ -107,7 +107,7 @@ Dining rooms open for fall on Aug. 17, 2026, with lunch, and spring meals start 
 
 ```reader
 If you're a first-year
-You must take the Unlimited plan, so halal at Morrison is already paid for. If you later move off campus, you choose a plan or cook; see [off-campus housing for international students](/cornell/housing/off-campus-housing-cornell-international-students/) for kitchens, and [is the Cornell meal plan worth it](/cornell/money/cornell-meal-plan-worth-it/) before you buy a plan for one station.
+First-years living on campus must enroll in a meal plan and may not reduce or cancel it, so plan to use your swipes at the Morrison halal station ([Cornell Dining terms](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027)). If you later move off campus, you choose a plan or cook; see [off-campus housing for international students](/cornell/housing/off-campus-housing-cornell-international-students/) for kitchens, and [is the Cornell meal plan worth it](/cornell/money/cornell-meal-plan-worth-it/) before you buy a plan for one station.
 ```
 
 ## What should I ask Cornell Dining?

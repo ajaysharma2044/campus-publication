@@ -85,9 +85,6 @@ sources:
 - url: https://finaid.cornell.edu/first-year-and-transfer-students-international
   title: 'First-Year and Transfer Students: International, Cornell Financial Aid'
   accessed: '2026-11-11'
-- url: https://www.collegevine.com/faq/182748/advice-for-transferring-from-community-college-to-cornell
-  title: Advice for transferring from community college to Cornell, CollegeVine
-  accessed: '2026-11-11'
 - url: https://faq.enrollment.cornell.edu/kb/article/322-are-standardized-tests-required-for-transfer-applicants/
   title: Are standardized tests required for transfer applicants? Cornell Enrollment FAQ
   accessed: '2026-11-11'
@@ -122,7 +119,7 @@ You are the typical applicant: in fall 2021, 578 of 674 incoming transfers came 
 ```
 
 ```reader "If you're a junior-entry transfer"
-The 11.7% rate is not split by standing, but Cornell's own advice is blunt. The admissions FAQ [discourages transfer after the junior year at a four-year school](https://faq.enrollment.cornell.edu/kb/article/323-can-i-transfer-to-cornell-in-my-junior-year-from-another-college/) because most colleges cap transfer credit near 60. Some doors are shut: [CALS](https://cals.cornell.edu/education/admissions/undergraduate-admissions/transfer-applicants) bars anyone with more than four semesters at a four-year school. Engineering takes juniors only in their first semester of junior standing, per its [requirements page](https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements). Check eligibility before you weigh the odds; an ineligible application has no odds at all.
+Cornell publishes no admit rate by class standing, but its own advice is blunt. The admissions FAQ [discourages transfer after the junior year at a four-year school](https://faq.enrollment.cornell.edu/kb/article/323-can-i-transfer-to-cornell-in-my-junior-year-from-another-college/) because most colleges cap transfer credit near 60. Some doors are shut: [CALS](https://cals.cornell.edu/education/admissions/undergraduate-admissions/transfer-applicants) bars anyone with more than four semesters at a four-year school. Engineering takes juniors only in their first semester of junior standing, per its [requirements page](https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements). Check eligibility before you weigh the odds; an ineligible application has no odds at all.
 ```
 
 ```reader "If you're a community college transfer"
@@ -156,7 +153,7 @@ Transfers were 14.0% of the fall 2025 new class (625 of 4,452 new students). Cor
 
 ## The rate year by year, and which numbers to trust
 
-Cornell's Common Data Set is the only primary source for the transfer admit rate. The older rows below come from admissions blogs that do not name their source; treat them as rough.
+Cornell's Common Data Set is Cornell's own report of the transfer admit rate. The older rows below are third-party estimates from admissions blogs, so read them as approximate.
 
 | Fall | Applied | Admitted | Rate | Source |
 |---|---|---|---|---|
@@ -170,7 +167,7 @@ Cornell's Common Data Set is the only primary source for the transfer admit rate
 
 On the third-party figures, the rate fell 3.4 points in one year, from 12.7% in 2023 to 9.3% in 2024, then rose to 11.7% in 2025. Applicants grew from 6,581 to 7,381 between 2023 and 2025 (12.2%, our math), while admits rose by 30. The safe reading: about one in eight to one in ten, with applicants climbing. Quote a single "stable" rate and you will be wrong within a year.
 
-Forum answers range widely. One CollegeVine reply on community college transfer claims rates vary by college from about 8% to 20%, [with no source given](https://www.collegevine.com/faq/182748/advice-for-transferring-from-community-college-to-cornell). Cornell publishes no admit rate by college or by major.
+Cornell publishes no admit rate by college or by major.
 
 ## How many transfers Cornell enrolls each fall
 
@@ -184,12 +181,12 @@ rows:
   - {label: "Fall 2018 (same article)", value: "645"}
   - {label: "Fall 2021 (July deposit data, IRP)", value: "674"}
   - {label: "Fall 2022 (Cornell Chronicle)", value: "542"}
-  - {label: "Fall 2024 (blog estimate, source unnamed)", value: "556"}
+  - {label: "Fall 2024 (third-party estimate, College Transitions)", value: "556"}
   - {label: "Fall 2025 (Common Data Set census)", value: "625"}
   - {label: "Fall 2026 (Cornell Chronicle, announcement count)", value: "603"}
 ```
 
-The 613 and 645 figures come from a Cornell spokesperson quoted by [The Cornell Daily Sun in 2018](https://www.cornellsun.com/article/2018/12/isolated-vulnerable-and-nervous-transfer-students-express-frustration-over-not-being-able-to-live-on-campus). The fall 2021 figure of 674 is July deposit data from the [IRP profile](https://irp.cornell.edu/wp-content/uploads/2021/08/Profile2021-Fall-Transfers.pdf). The Chronicle counted [542 transfers in August 2022](https://news.cornell.edu/node/324798) and [603 in August 2026](https://news.cornell.edu/node/333429), alongside 3,681 first-years; that makes transfers 14.1% of the fall 2026 new class (our math). The fall 2024 figure of 556 is the sum of a [College Transitions](https://www.collegetransitions.com/blog/cornell-transfer-acceptance-rate-requirements-application-deadlines/) by-college table with no named source. The fall 2025 count of 625 is the census number.
+The 613 and 645 figures come from a Cornell spokesperson quoted by [The Cornell Daily Sun in 2018](https://www.cornellsun.com/article/2018/12/isolated-vulnerable-and-nervous-transfer-students-express-frustration-over-not-being-able-to-live-on-campus). The fall 2021 figure of 674 is July deposit data from the [IRP profile](https://irp.cornell.edu/wp-content/uploads/2021/08/Profile2021-Fall-Transfers.pdf). The Chronicle counted [542 transfers in August 2022](https://news.cornell.edu/node/324798) and [603 in August 2026](https://news.cornell.edu/node/333429), alongside 3,681 first-years; that makes transfers 14.1% of the fall 2026 new class (our math). The fall 2024 figure of 556 is the sum of a third-party by-college table from [College Transitions](https://www.collegetransitions.com/blog/cornell-transfer-acceptance-rate-requirements-application-deadlines/). The fall 2025 count of 625 is the census number.
 
 Every count above is a fall class. The [admissions page](https://admissions.cornell.edu/apply/transfer-applicants) considers external transfer applications "for the fall semester only," so older spring figures describe a door that has closed.
 
@@ -228,7 +225,7 @@ Admitted transfers are "generally" at 3.3 or better, per the same FAQ, which cal
 | CALS | 3.0 (3.5 for Biological Sciences) | Minimum |
 | ILR | 3.4 | Typical of admits |
 | Human Ecology | 3.5 | Competitive |
-| Engineering | None stated | Required courses decide review |
+| Engineering | No GPA floor published | Required courses decide review |
 | All colleges | 3.3 | "Generally," per the FAQ |
 
 Sources: [CALS](https://cals.cornell.edu/education/admissions/undergraduate-admissions/transfer-applicants), [ILR guidelines](https://www.ilr.cornell.edu/sites/default/files-d8/2026-02/transfer-guidelines-fa-26-final.pdf), [Human Ecology](https://www.human.cornell.edu/admissions/transfer), [Engineering](https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements). Every college's number is on our [GPA by college page](/transfer/cornell-transfer-gpa-requirements-by-college/).

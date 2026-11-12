@@ -14,7 +14,8 @@ readers:
 - transfer-spring
 - off-campus
 - parent
-subject: Cascadilla Hall, Cascadilla Place, Ithaca
+subject:
+- Cascadilla Hall, Cascadilla Place, Ithaca
 tools:
 - can-i-live-off-campus-cornell-quiz
 sources:
@@ -102,16 +103,8 @@ sources:
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and Passes, Cornell Transportation
   accessed: '2026-11-10'
-images:
-- file: 1.webp
-  alt: Cascadilla Place, the stone building that became Cascadilla Hall, in a photograph from the 1860s
-  caption: Cascadilla Place in the 1860s, the former sanitorium that became Cascadilla Hall. It is one of the four halls that take transfers and holds the Service Center for the Collegetown-area halls.
-  credit: E. & H.T. Anthony (Firm) -- Publisher / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Cascadilla_Place_Cornell_University.jpg
-  author: E. & H.T. Anthony (Firm) -- Publisher
-  source_url: https://commons.wikimedia.org/wiki/File:Cascadilla_Place_Cornell_University.jpg
-  license: Public domain
-  license_url: ''
+images: []
+lead_photo: none-found 2026-11-11
 ---
 
 

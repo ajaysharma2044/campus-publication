@@ -12,7 +12,8 @@ readers:
 - alum-landlord
 pillar: /housing/cornell-off-campus-housing-guide/
 brief: intel/off-campus-housing/brief.md
-subject: Fall Creek Ithaca houses
+subject:
+- Fall Creek Ithaca houses
 tools:
 - ithaca-good-cause-coverage-checker
 - ithaca-lease-fee-deposit-checker
@@ -128,16 +129,8 @@ sources:
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown apartments, Ithaca Renting Company
   accessed: '2026-11-08'
-images:
-- file: 1.webp
-  alt: Hand-colored postcard of the Fall Creek gorge in Ithaca with a stone power house beside the falls
-  caption: Fall Creek gorge on an early-1900s postcard. The Fall Creek neighborhood below it is one of the City of Ithaca rental areas where the Certificate of Compliance and the 120-day rule apply.
-  credit: Rotograph Co. / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca_-_Fall_Creek_Gorge_and_Old_Power_House.jpg
-  license: Public domain
-  license_url: ''
-  author: Rotograph Co.
-  source_url: https://commons.wikimedia.org/wiki/File:Ithaca_-_Fall_Creek_Gorge_and_Old_Power_House.jpg
+images: []
+lead_photo: none-found 2026-11-11
 ---
 
 ```glance

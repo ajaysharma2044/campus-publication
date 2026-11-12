@@ -16,7 +16,8 @@ readers:
 - grad-student
 - international
 - parent
-subject: Cornell Arts Quad covered in snow
+subject:
+- Cornell Arts Quad covered in snow
 tools: []
 sources:
 - url: https://hr.cornell.edu/about/employment-policy-practice/employment-policies/inclement-weather
@@ -43,19 +44,11 @@ sources:
 - url: https://cityofithacany.gov/DocumentCenter/View/12559
   title: Snowplowing guide, City of Ithaca Department of Public Works
   accessed: '2026-11-10'
-images:
-- file: 1.webp
-  alt: Panorama of Cornell's central campus under deep snow, with McGraw Tower rising above the quad
-  caption: Cornell's central campus after a snowfall. Cornell closes only when the university closes, and when it does, classes are canceled and no extra work is due that day.
-  credit: Harald / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_Central_Campus_in_Snow.jpg
-  author: Harald
-  source_url: https://commons.wikimedia.org/wiki/File:Cornell_Central_Campus_in_Snow.jpg
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0
+images: []
 redirect_from:
-  - /cornell/getting-around/cornell-snow-days-class-cancellation-how-it-works/
-  - /getting-around/cornell-snow-days-class-cancellation-how-it-works/
+- /cornell/getting-around/cornell-snow-days-class-cancellation-how-it-works/
+- /getting-around/cornell-snow-days-class-cancellation-how-it-works/
+lead_photo: none-found 2026-11-11
 ---
 
 ```glance

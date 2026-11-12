@@ -57,7 +57,7 @@
 <div class="ls-summary"><p>Pick your year, start term and market to see when to look and sign. If nothing appears, every date and rule is in the table on this tool's page.</p></div>
 <ol class="ls-list"></ol>
 <p class="tool-asof" data-as-of="2026-11-08">Dates and counts as of Nov 8, 2026, from Cornell Housing pages, Ithaca Renting's Collegetown list and dated Cornell Daily Sun reports.</p>
-<p class="tool-note">Estimated: the 8-to-16-month Collegetown window comes from 9 dated signings in one newspaper (2017 to 2025), not a measured median; Cornell deadlines after spring 2026 show last year's date until Cornell posts the new one.</p>
+<p class="tool-note">Estimated: the 8-to-16-month Collegetown window comes from 9 dated signings reported by the Cornell Daily Sun (2017 to 2025). Cornell deadlines after spring 2026 show last year's date until Cornell announces the 2027 dates.</p>
 </div>
 <script>
 (function () {
@@ -157,7 +157,7 @@
       if (exempt) hx += (hx ? ' ' : '') + 'File the exemption request here when the exemption term opens (spring and fall), before you sign any Cornell housing license; documents may be needed.';
       add({k: '2027-04-06', end: '2027-04-06', np: true, when: 'Early April 2027 (' + short(v('housingApp')) + ' in 2026)', h: 'Housing application and exemption deadline for 2027-28', x: hx, src: 'housingApp'});
     }
-    if (pre && s.term === 'spring') add({k: '2027-01-01', end: '2027-01-31', when: 'Jan 2027', h: 'You arrive', x: (ug && s.xfer === 'soph' ?'On campus for spring 2027 and 2027-28. ' : '') + 'Mid-year supply is mostly sublets and semester leases. Unlimited first-year TCAT rides run to' + md(v('tcatEnd').spring, 2027) + '.', src: 'tcatEnd'});
+    if (pre && s.term === 'spring') add({k: '2027-01-01', end: '2027-01-31', when: 'Jan 2027', h: 'You arrive', x: (ug && s.xfer === 'soph' ?'On campus for spring 2027 and 2027-28. ' : '') + 'Mid-year supply is mostly sublets and semester leases. Unlimited first-year TCAT rides run to ' + md(v('tcatEnd').spring, 2027) + '.', src: 'tcatEnd'});
     if (ug && pre && s.xfer !== 'no' && s.term === 'fall') add({k: '2027-06-22', end: '2027-06-30', np: true, when: 'Late spring to June 2027', h: 'Transfer housing notice', x: 'In 2018 transfers learned on ' + short(v('xferNotice2018')) + ' whether they had campus housing.', src: 'xferNotice2018'});
     if (s.intl && Y) add({k: iso(Y, 4, 1), end: iso(Y, 7, 31), when: 'Up to ' + v('visaDays') + ' days before your program starts', h: 'Visa appointment', x: 'It cannot be earlier, so most international students sign from abroad, sight unseen. No SSN is needed to rent.', src: 'visaDays'});
 

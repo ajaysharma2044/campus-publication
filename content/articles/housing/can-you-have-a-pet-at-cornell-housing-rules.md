@@ -55,7 +55,6 @@ sources:
 - url: https://triphammerapts.com/faqs/
   title: FAQs, Triphammer Apartments
   accessed: '2026-11-11'
-- url: https://www.ithacarents.com/4304-sunny-1br-apartment-close-to-cornell.-furnished.-january-1st-move-in.-flexible-lease.
   title: 115 Stewart Ave. 1-bedroom listing, True Renew Homes on IthacaRents
   accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
@@ -121,13 +120,13 @@ Plenty do, but the rules change from one building to the next. Collegetown Terra
 
 Downtown is harder. Ithaca Renting does not allow pets in its downtown buildings except in a limited number of apartments it sets aside. Tenants in those units pay a pet rent and must give the landlord a copy of their renters insurance before moving in ([Ithaca Renting](https://ithacarenting.com/downtown/)). Its Cityview Apartments, at 118 Prospect St., lists no pets ([Cityview listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cityview-apartments-10186)).
 
-Some landlords set limits on size and type. Winston Square Apartments, on Winston Court in northeast Ithaca, allows one cat or dog per household under 25 pounds at full adult weight. It takes no puppies or kittens, and every pet must be spayed or neutered ([Winston Square FAQ](https://winstonsquareapts.com/faq/)). The Student Agencies Building, at 409 College Ave. in Collegetown, needs the landlord's written consent. It bans snakes, dogs over 80 pounds, several breeds including Akitas, Rottweilers and Siberian Huskies, and fish tanks over 5 gallons ([Student Agencies Building FAQ](https://www.thestudentagenciesbuilding.com/faq)).
+Some landlords set limits on size and type. Winston Square Apartments, on Winston Court, allows one cat or dog per household under 25 pounds at full adult weight. It takes no puppies or kittens, and every pet must be spayed or neutered ([Winston Square FAQ](https://winstonsquareapts.com/faq/)). The Student Agencies Building, at 409 College Ave. in Collegetown, needs the landlord's written consent. It bans snakes, dogs over 80 pounds, several breeds including Akitas, Rottweilers and Siberian Huskies, and fish tanks over 5 gallons ([Student Agencies Building FAQ](https://www.thestudentagenciesbuilding.com/faq)).
 
 ```figure
 kind: cost_table
 title: Pet rules at selected Ithaca apartment buildings
 rows:
-  - {label: "Collegetown Terrace, 115 S. Quarry St.", value: "Cats and dogs allowed; pet fees on request"}
+  - {label: "Collegetown Terrace, 115 S. Quarry St.", value: "Cats and dogs allowed"}
   - {label: "Lansing West, 2250 N. Triphammer Road", value: "Cats only, with approval"}
   - {label: "Winston Square, 601 Winston Court", value: "One cat or dog under 25 lb; $45 a month"}
   - {label: "The Student Agencies Building, 409 College Ave.", value: "Written consent; $250 up front plus $50 a month"}
@@ -139,12 +138,12 @@ rows:
 Sources: landlord websites and listings on Cornell's off-campus housing marketplace, as linked above and below.
 
 ```reader "If you're a grad student"
-Cornell's graduate apartments at Maplewood, run by Greystar on East Hill, are pet-friendly ([Cornell graduate housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). Ask Greystar for the rent and any pet fees before you apply. The [grad off-campus housing guide](/cornell/housing/off-campus-housing-cornell-grad-students/) compares other neighborhoods.
+Cornell's graduate apartments at Maplewood, run by Greystar, are pet-friendly ([Cornell graduate housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). Ask Greystar for the rent and any pet fees before you apply. The [grad off-campus housing guide](/cornell/housing/off-campus-housing-cornell-grad-students/) compares other neighborhoods.
 ```
 
 ## How much does a pet add to rent in Ithaca?
 
-Expect about $540 to $850 for a year at the buildings that publish their prices. Winston Square charges $45 a month in pet rent with no other pet fees, so 12 months comes to $540. A one-bedroom at 115 Stewart Ave. in lower Collegetown, listed by True Renew Homes, takes one pet of a gentle breed at the same monthly rate, which adds up to the same total over a 12-month lease ([115 Stewart Ave. listing](https://www.ithacarents.com/4304-sunny-1br-apartment-close-to-cornell.-furnished.-january-1st-move-in.-flexible-lease.)). At the Student Agencies Building, a $250 initial charge plus $50 a month for 12 months is $850.
+Expect about $540 to $850 for a year at the buildings that publish their prices. Winston Square charges $45 a month in pet rent with no other pet fees, so 12 months comes to $540. A one-bedroom at 115 Stewart Ave. in lower Collegetown, listed by True Renew Homes, takes one pet of a gentle breed at the same monthly rate, which adds up to the same total over a 12-month lease ([115 Stewart Ave.At the Student Agencies Building, a $250 initial charge plus $50 a month for 12 months is $850.
 
 Some landlords give the amounts only on request. Triphammer Apartments charges a one-time pet fee plus monthly pet rent and asks renters to call for the amounts ([Triphammer FAQ](https://triphammerapts.com/faqs/)). Get the figures in writing before you sign.
 

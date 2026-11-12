@@ -17,7 +17,8 @@ readers:
 - first-year
 - low-budget
 pillar: /housing/cornell-off-campus-housing-guide/
-subject: McGraw Tower Cornell
+subject:
+- McGraw Tower Cornell
 tools:
 - ithaca-lease-fee-deposit-checker
 - when-to-sign-lease-timeline-cornell
@@ -88,14 +89,14 @@ sources:
   accessed: '2026-11-10'
 images:
 - file: 1.webp
-  alt: The Hans Bethe House, a private home in Ithaca, New York
-  caption: The Hans Bethe House, the Ithaca home of the Cornell physicist, in a National Park Service photo. Most Cornell students who rent off campus share apartments and houses in Collegetown, just south of campus, rather than single-family homes like this one.
-  credit: NPS/GLOWINSKI / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Hans_Bethe_House.jpg
-  license: Public domain
-  license_url: ''
-  author: NPS/GLOWINSKI
-  source_url: https://commons.wikimedia.org/wiki/File:Hans_Bethe_House.jpg
+  alt: Ithaca, New York - 4370299698
+  caption: Ithaca, New York - 4370299698
+  credit: Dougtone / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  author: Dougtone
+  source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
 kind: reader_guide
 ---
 

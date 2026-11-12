@@ -21,28 +21,34 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/
   title: As Cornell requires university housing for sophomores, students weigh options, The Cornell Daily Sun, Nov. 9, 2021
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2018/08/27/university-releases-full-plan-to-expand-north-campus-to-house-100-percent-of-freshmen-and-sophomores/
   title: University releases full plan to expand North Campus, The Cornell Daily Sun, Aug. 27, 2018
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life
   title: Cornell welcomes students, marks milestone in residential life, Cornell Chronicle, Aug. 2022
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing rates, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for rising sophomores, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed
   title: New changes to fall housing selection leave some rising juniors and seniors disappointed, The Cornell Daily Sun, Nov. 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process
   title: Housing Search Process, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
+  title: 2026-2027 Undergraduate Meal Plans, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
+  title: Housing and Residential Life Directory, Cornell Student & Campus Life (archived)
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Panorama of the North Campus Residential Expansion halls at Cornell, a row of new brick residence halls along a path
@@ -60,18 +66,18 @@ images:
 - Cornell requires first- and second-year students to live on campus or in approved affiliated housing.
 - The sophomore requirement began in fall 2022, after new North Campus halls opened.
 - Exemptions exist for married, veteran, age 21 or older, commuter and some transfer students.
-- A student with no exemption is billed for the full year even if they live elsewhere.
+- First- and second-year students should not sign an off-campus lease without an approved exemption.
 ```
 
 Cornell requires first- and second-year students to live on campus because it now has the beds to do it. The rule covers full-time, Ithaca-based students for two years, including a meal plan in a residence hall ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). It applied to sophomores starting in fall 2022.
 
 ## Why did Cornell add a sophomore requirement?
 
-The short answer is capacity. In 2018, Cornell released a plan to expand North Campus with 1,200 first-year beds and 800 sophomore beds, plus 75 beds for resident advisers, staff and live-in faculty. The plan raised campus beds from 8,400 to 10,400 ([The Cornell Daily Sun](https://cornellsun.com/2018/08/27/university-releases-full-plan-to-expand-north-campus-to-house-100-percent-of-freshmen-and-sophomores/)). The newspaper's headline described the goal as housing all freshmen and sophomores.
+Capacity made it possible. In 2018, Cornell released a plan to expand North Campus with 1,200 first-year beds and 800 sophomore beds, plus 75 beds for resident advisers, staff and live-in faculty. The plan raised campus beds from 8,400 to 10,400 ([The Cornell Daily Sun](https://cornellsun.com/2018/08/27/university-releases-full-plan-to-expand-north-campus-to-house-100-percent-of-freshmen-and-sophomores/)). The newspaper's headline described the goal as housing all freshmen and sophomores.
 
 The beds then opened in two steps. Toni Morrison Hall and Ganędagǫ: Hall opened in 2021 with 800 beds. McClintock, Hu Shih and Ruth Bader Ginsburg Halls added 1,200 more for fall 2022, and the project took 6.5 years ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)). In 2021 Tim Blair, the executive director of housing and residential life, described the new space as five new dorms with about 800 beds for sophomores and 1,200 for first-years ([The Cornell Daily Sun](https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/)).
 
-Cornell's own explanation of why it wants sophomores on campus, in terms of grades, community or food access, is not on the [Residential Policy page](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy), which states the rule but not its reasons. For the university's stated reasons, ask Housing and Residential Life at housing@cornell.edu and check the Cornell Chronicle's coverage of the 2021 announcement.
+Cornell's stated reasons are academic and personal. Its [Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy) cites studies linking on-campus living to higher academic achievement, better social-emotional adjustment and a stronger ability to build community. The required meal plan, the policy says, is there to ensure proper nutrition and guard against food insecurity. When the last halls opened, the university said having first- and second-year students on campus would support new programming for them and help build strong communities ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)).
 
 ## What does the rule require, step by step?
 
@@ -81,7 +87,7 @@ The deadlines are firm. For fall 2027, rising sophomores have these dates from C
 
 ## What does a Cornell room cost, and is it more than renting?
 
-A residence hall double costs $13,744 per academic year, and the Unlimited meal plan costs $7,604 per year, for 2026-27 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Together that is $21,348 ($13,744 plus $7,604). Whether living off campus would cost less is a separate question, which the [off-campus versus dorm comparison](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) works through.
+A residence hall double costs $13,744 per academic year, and the Unlimited meal plan costs $7,604 per year, for 2026-27 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates); [Cornell meal plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). Together that is $21,348 ($13,744 plus $7,604). Whether living off campus would cost less is a separate question, which the [off-campus versus dorm comparison](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) works through.
 
 ## Who is exempt?
 
@@ -98,7 +104,7 @@ Cornell lists these exemptions in its residential policy:
 
 Source: Cornell Residential Policy.
 
-An exemption lasts one academic year, and you reapply each year ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). Requests are accepted during the open application period, not after a signed housing license. Students who neither meet the requirement nor hold an exemption are billed for the full year ([Cornell housing](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process)). See [exemptions to the residential requirement](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) for the process in full, or run the quiz.
+An exemption lasts one academic year, and you reapply each year ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). Requests are accepted during the open application period, not after a signed housing license. Housing contracts cover the entire academic year and become binding when you sign the housing license ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)), and first- and second-year undergraduates should not sign an off-campus lease without an approved exemption ([Cornell housing search](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process)). See [exemptions to the residential requirement](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) for the process in full, or run the quiz.
 
 ```tool can-i-live-off-campus-cornell-quiz
 ```
@@ -108,7 +114,7 @@ An exemption lasts one academic year, and you reapply each year ([Cornell Reside
 Housing after the second year is not guaranteed. Cornell's Housing and Residential Life said in 2025 that it must balance upper-level interest with its obligation to house first-years, transfers and rising sophomores ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed)). That is the other side of the requirement: the guarantee for the first two years uses up beds that juniors and seniors used to compete for. If you plan to leave campus after sophomore year, read [off-campus housing for sophomores](/cornell/housing/off-campus-housing-cornell-sophomores/) before you sign anything.
 
 ```reader "If you're a sophomore who wants to live off campus"
-Do not sign a lease unless you hold an approved exemption. Cornell's housing search page tells first- and second-year undergraduates the same thing. A lease without an exemption leaves you paying for both a lease and the Cornell year.
+Do not sign a lease unless you hold an approved exemption. Cornell's housing search page tells first- and second-year undergraduates the same thing. Without an exemption, the two-year requirement still applies to you.
 ```
 
 ```reader "If you're a parent"

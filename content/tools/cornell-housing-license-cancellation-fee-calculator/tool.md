@@ -9,13 +9,14 @@ kind: tool
 readers: [sophomore, upper-year-renter, away-semester, parent, affiliated-housing]
 brief: intel/off-campus-housing/brief.md
 sources:
-  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028", title: "Cornell Housing and Residential Life: Academic year housing license 2027-2028", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027", title: "Cornell Housing and Residential Life: Academic year housing license 2026-2027", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates", title: "Cornell Housing and Residential Life: Housing rates, 2026-27", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy", title: "Cornell Housing and Residential Life: Residential policy", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing", title: "Cornell Housing and Residential Life: Requirements for qualified university-recognized housing", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities", title: "Cornell Sorority and Fraternity Life: Financial obligations", accessed: "2026-11-08"}
-  - {url: "https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory", title: "Cornell Housing and Residential Life: Directory", accessed: "2026-11-08"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028", title: "Cornell Housing and Residential Life: Academic year housing license 2027-2028", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027", title: "Cornell Housing and Residential Life: Academic year housing license 2026-2027", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates", title: "Cornell Housing and Residential Life: Housing rates, 2026-27", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy", title: "Cornell Housing and Residential Life: Residential policy", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing", title: "Cornell Housing and Residential Life: Requirements for qualified university-recognized housing", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities", title: "Cornell Sorority and Fraternity Life: Financial obligations", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions", title: "Cornell Housing and Residential Life: Co-op Housing 2026-2027 Terms and Conditions", accessed: "2026-11-11"}
+  - {url: "https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory", title: "Cornell Housing and Residential Life: Directory", accessed: "2026-11-11"}
 ---
 
 This calculator tells you what Cornell charges to cancel a room on the date you cancel. Cornell housing is a license, not a lease, and its cancellation fee climbs with the calendar: $50 through Jan 31, then $500, $1,000, $2,000, and after Aug 15 half the fall room rate. Pick your status, the license year, what you are cancelling, why, the date and your room. The tool returns the fee, the penalty-free deadline if your reason qualifies, or a plain "you cannot cancel".
@@ -38,7 +39,7 @@ This calculator tells you what Cornell charges to cancel a room on the date you 
 - **What you are cancelling.** The whole year from fall, or spring only.
 - **Why.** Moving off campus; a Greek, affiliated or co-op acceptance; study away; leave; internship; graduation; or an approved exemption (first- and second-years only).
 - **Date you cancel.** Defaults to Nov 8, 2026.
-- **Room type and fall room rate.** The rate matters only after Aug 15, when the fee is half of it. The menu fills in 2026-27 residence hall rates per semester; type your own for a co-op or a 2027-28 rate.
+- **Room type and fall room rate.** The rate matters only after Aug 15, when the fee is half of it. The menu fills in 2026-27 residence hall rates per semester; type your own for a 2027-28 rate.
 
 ## The numbers and the math
 
@@ -71,9 +72,9 @@ The menu's per-semester rates other than the double are half the yearly rate, ou
 - Exemption requests are not accepted after a signed housing license is completed or during the license period; exemptions last one academic year ([residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
 - For first- and second-years, the license allows cancelling when "no longer attending". Whether study away or an internship counts is for Housing Operations to say: 1520 Clara Dickson Hall, 607-255-5368, housing@cornell.edu ([directory](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)).
 - A returning junior or senior moving into a Greek house or co-op is treated as an ordinary cancellation on the dated schedule.
-- Not in the brief: the fee, if any, when a first- or second-year cancels on a Greek, affiliated or co-op acceptance or on an exemption.
-- Not in the brief: the exact 2027 Spring Housing Selection deadline. In 2026 the selection for rising sophomores ran in April, and Greek-house residents affirmed by March 15.
-- Not in the brief: whether co-op rooms use the same license and schedule. Type a co-op's fall rate to see the 50% figure, and confirm with Housing Operations.
+- A first- or second-year cancelling on a Greek, affiliated or co-op acceptance or on an approved exemption should ask Housing Operations what, if anything, the release costs before signing with the house.
+- The 2027 Spring Housing Selection date is not yet announced. For 2026-27, students living in a sorority or fraternity house affirmed it in the Housing Application by March 15, 2026, and the Spring Housing Selection for Rising Sophomores ran in April ([residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
+- Co-op residents sign a separate Cooperative Academic Year Housing License, binding for the whole term. It allows cancellation for withdrawal, leave, an academic internship, graduation or study in absentia, requested by written petition in the housing portal, with a per diem charge for days occupied; releases for other reasons are exceptional and may carry a cancellation fee ([co-op terms](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions)). The dated schedule above is for the academic-year residence hall license, so ask Housing Operations what a co-op cancellation costs.
 - Other license charges, such as $60 a day outside the occupancy period and the $500 revocation fee, are not cancellation fees and are left out.
 
 ## How to read the result

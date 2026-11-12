@@ -43,7 +43,7 @@ Cornell accepts at most 60 transfer credits in most of its colleges, AP and IB i
 - **College credits earned before Cornell.** Courses only, not AP or IB. Count letter-graded courses with a C or better from a regionally accredited school; those are the ones that can transfer ([Registrar](https://registrar.cornell.edu/students/credit-evaluation-services)).
 - **Full-time terms completed.** Semesters or quarters. This sets your time in college before Cornell and, for Engineering, the 33-credits-a-year limit.
 - **AP, IB or A-Level credits.** What you hope Cornell grants under its own score rules. Exam credit is not automatic, and where an exam and a course overlap, only the course counts.
-- **Credits a Cornell semester.** Defaults to 15, the load the brief's model uses.
+- **Credits a Cornell semester.** Defaults to 15. Change it to the load you plan to carry.
 - **New York resident.** Changes tuition only at the contract colleges (CALS, Human Ecology, ILR, Brooks, Dyson).
 
 ## The numbers and the math
@@ -93,8 +93,8 @@ Engineering example: two full-time years elsewhere x 33 = 66, the whole cap. A t
 - Exam credit must be requested in writing from your college registrar by the last day of instruction of your first Cornell semester ([Registrar](https://registrar.cornell.edu/students/credit-evaluation-services)).
 - Loads above 15 credits a semester assume Cornell lets you carry them. They cannot get you under the four-semester floor in Arts and Sciences, ILR and Brooks.
 - Extra cost uses 2026-27 rates; 2027-28 rates are confirmed before early April 2027. It leaves out housing, food, health insurance and aid.
-- Not in the brief: the credits to graduate for CALS, ILR, Hotel, Human Ecology, Brooks, Dyson and AAP's Art and Planning programs. The tool uses the Arts and Sciences total of 120 for them and says so in the result.
-- Not in the brief: a semester residence minimum for CALS, Hotel, Human Ecology, Dyson, Engineering and AAP beyond the 60-credit rule, and Cornell's maximum credit load per semester.
+- For CALS, ILR, Hotel, Human Ecology, Brooks, Dyson and AAP's Art and Planning programs, the tool uses the Arts and Sciences total of 120 credits to graduate and says so in the result. Confirm your college's own total with its registrar.
+- In CALS, Hotel, Human Ecology, Dyson, Engineering and AAP the tool applies only the 60-credit rule. Ask your college about any semester residence rule and the most credits you may carry a semester.
 - AAP is not accepting external transfer applications for the fall 2027 B.Arch. ([AAP](https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/)); the Architecture option shows the rules for later years.
 
 ## How to read the result

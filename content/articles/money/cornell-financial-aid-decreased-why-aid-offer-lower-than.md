@@ -5,7 +5,7 @@ primary_query: cornell financial aid decreased why aid offer lower than last yea
 topic: money
 school: cornell-university
 type: how-to
-updated: 2026-11-07
+updated: 2026-11-11
 queue_id: q-money-0028
 sources:
   - {url: "https://www.finaid.cornell.edu/financial-aid-faq", title: "Financial Aid FAQ, Cornell Office of Financial Aid and Student Employment", accessed: "2026-11-07"}
@@ -56,7 +56,7 @@ The Cornell aid offer is renewed from forms you file every year. Continuing U.S.
 
 ### The FAFSA formula stopped crediting siblings in college
 
-The Cornell Daily Sun reported in January 2024 that the redesigned FAFSA, which replaced the Expected Family Contribution with the Student Aid Index, [no longer gives families extra eligibility when more than one child is in college](https://cornellsun.com/2024/01/26/new-fafsa-raises-concerns-for-students-with-siblings-in-college-complex-financial-situations/). In that article, Kevin Jensen, executive director of Cornell's Office of Financial Aid and Student Employment, said Cornell meets 100 percent of undergraduates' demonstrated need and that Cornell grant aid would be increased if federal grant aid fell because of the formula changes. That source covers the FAFSA only, and Cornell's pages do not say how siblings affect the CSS Profile calculation, so ask the aid office how your household figures were counted.
+The Cornell Daily Sun reported in January 2024 that the redesigned FAFSA, which replaced the Expected Family Contribution with the Student Aid Index, [no longer gives families extra eligibility when more than one child is in college](https://cornellsun.com/2024/01/26/new-fafsa-raises-concerns-for-students-with-siblings-in-college-complex-financial-situations/). In that article, Kevin Jensen, executive director of Cornell's Office of Financial Aid and Student Employment, said Cornell meets 100 percent of undergraduates' demonstrated need and that Cornell grant aid would be increased if federal grant aid fell because of the formula changes. That article covers the FAFSA only, so ask the aid office how your siblings and household figures were counted in your CSS Profile.
 
 ### An outside scholarship arrived
 
@@ -70,7 +70,7 @@ The same page covers loan changes that start July 1, 2026. Parent PLUS limits ar
 
 ### You missed a step or a deadline
 
-Missing paperwork is one cause of lost upperclassman aid that [uAspire describes](https://www.uaspire.org/News-Events/Why-Upperclassmen-Lose-Financial-Aid), which says upperclassmen may have to file several forms with different due dates. This is a general national source, not a Cornell one. For 2027-28, Cornell asks continuing students to file the CSS Profile [as soon as possible after October 1, 2026 and no later than February 2, 2027](https://www.finaid.cornell.edu/apply-for-aid/continuing-us-students), and the FAFSA as soon as possible after October 1, 2026. The page does not say what a late filing costs, so do not assume there is a grace period. Also answer every document request: Cornell's page says to [avoid uploading documents that have not been requested](https://www.finaid.cornell.edu/apply-for-aid/continuing-us-students).
+Missing paperwork is one cause of lost upperclassman aid that [uAspire describes](https://www.uaspire.org/News-Events/Why-Upperclassmen-Lose-Financial-Aid), which says upperclassmen may have to file several forms with different due dates. This is a general national source, not a Cornell one. For 2027-28, Cornell asks continuing students to file the CSS Profile [as soon as possible after October 1, 2026 and no later than February 2, 2027](https://www.finaid.cornell.edu/apply-for-aid/continuing-us-students), and the FAFSA as soon as possible after October 1, 2026. File by those dates rather than counting on a grace period. Also answer every document request: Cornell's page says to [avoid uploading documents that have not been requested](https://www.finaid.cornell.edu/apply-for-aid/continuing-us-students).
 
 ### Satisfactory academic progress
 
@@ -115,10 +115,10 @@ Our advice, drawn from the rules above:
 
 **Does Cornell meet full need every year?** The Daily Sun quotes the executive director of the aid office saying Cornell [meets 100 percent of undergraduates' demonstrated financial need](https://cornellsun.com/2024/01/26/new-fafsa-raises-concerns-for-students-with-siblings-in-college-complex-financial-situations/). The amount you are expected to pay can still change.
 
-**Does aid decrease automatically for upperclassmen?** Cornell's pages do not say so. A national [uAspire article](https://www.uaspire.org/News-Events/Why-Upperclassmen-Lose-Financial-Aid) describes schools that front-load awards, but it does not name Cornell, and Cornell's formula is need-based.
+**Does aid decrease automatically for upperclassmen?** Cornell publishes no such rule. A national [uAspire article](https://www.uaspire.org/News-Events/Why-Upperclassmen-Lose-Financial-Aid) describes schools that front-load awards, but it does not name Cornell, and Cornell's formula is need-based.
 
 **Do I need to reapply every year?** Yes. Continuing students file the [CSS Profile and FAFSA each year](https://www.finaid.cornell.edu/apply-for-aid/continuing-us-students).
 
-**Can I change my mind on an outside scholarship?** The FAQ does not say. Ask the aid office before you accept one if the loan reduction matters to you.
+**Can I change my mind on an outside scholarship?** Ask the aid office before you accept one if the loan reduction matters to you.
 
 Related: [Cornell monthly budget by aid situation](/money/cornell-student-budget-by-scenario-low-income-student-costs/) and [how to save money at Cornell](/money/how-to-save-money-at-cornell-student-discounts-ithaca/).

@@ -1,7 +1,7 @@
 ---
 title: "Corrections"
 meta: "How to report an error on EduExplained, what happens when you do, and how corrections are recorded on the page they affect."
-updated: 2026-11-07
+updated: 2026-11-11
 ---
 
 If something on a page is wrong, we want to know, and we will fix it quickly. A guide is only useful if the price, the date and the rule are right.
@@ -23,7 +23,7 @@ Reports from students, parents, university staff, landlords and businesses are a
 - We do not quietly change a fact and leave an old date on the page.
 - If a reader's name or words appear on a page in error, we remove or correct them as soon as the report is confirmed.
 
-## What this page does not cover
+## Disagreements about advice
 
 Disagreements about advice ("I would have picked the other bus") are not corrections, but we still read them. Write to the editor through the [contact page](/contact/).
 

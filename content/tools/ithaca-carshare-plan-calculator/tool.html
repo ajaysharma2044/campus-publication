@@ -1,4 +1,4 @@
-<div class="tool" id="tool-ithaca-carshare-plan-calculator" data-tool="ithaca-carshare-plan-calculator" data-as-of="2026-11-08">
+<div class="tool" id="tool-ithaca-carshare-plan-calculator" data-tool="ithaca-carshare-plan-calculator" data-as-of="2026-11-11">
   <style>
     #tool-ithaca-carshare-plan-calculator .icp-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 0.75rem 1rem; margin: 0 0 1rem; }
     #tool-ithaca-carshare-plan-calculator .icp-field label { display: block; font-weight: 600; margin-bottom: 0.2rem; }
@@ -71,9 +71,9 @@
   </fieldset>
 
   <div class="icp-result" aria-live="polite">
-    <p class="icp-out">Cornell-subsidized student plans: Just In Case <span data-as-of="2026-11-08">$30 a year plus $9 an hour</span>; It's My Car <span data-as-of="2026-11-08">$310 a year plus $6 an hour</span>. Both add a <span data-as-of="2026-11-08">$20 one-time sign-up</span>, mileage of <span data-as-of="2026-11-08">42 to 52 cents</span> and <span data-as-of="2026-11-08">8% sales tax plus 12% rental tax</span> on usage. Turn on JavaScript to see your yearly total.</p>
+    <p class="icp-out">Cornell-subsidized student plans: Just In Case <span data-as-of="2026-11-11">$30 a year plus $9 an hour</span>; It's My Car <span data-as-of="2026-11-11">$310 a year plus $6 an hour</span>. Both add a <span data-as-of="2026-11-11">$20 one-time sign-up</span>, mileage of <span data-as-of="2026-11-11">42 to 52 cents</span> and <span data-as-of="2026-11-11">8% sales tax plus 12% rental tax</span> on usage. Turn on JavaScript to see your yearly total.</p>
   </div>
-  <p class="icp-small">Prices as of 2026-11-08, from <a href="https://www.ithacacarshare.org/students-commuters">Ithaca Carshare student plans</a>, <a href="https://www.ithacacarshare.org/rates">rates</a> and <a href="https://www.ithacacarshare.org/eligibility">eligibility</a>, and <a href="https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students">Cornell student parking</a>. Nothing you enter is stored or sent.</p>
+  <p class="icp-small">Prices as of 2026-11-11, from <a href="https://www.ithacacarshare.org/students-commuters">Ithaca Carshare student plans</a>, <a href="https://www.ithacacarshare.org/rates">rates</a> and <a href="https://www.ithacacarshare.org/eligibility">eligibility</a>, and <a href="https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students">Cornell student parking</a>. Nothing you enter is stored or sent.</p>
 
   <script>
   (function () {
@@ -84,7 +84,7 @@
     var CR = "https://www.ithacacarshare.org/rates";
     var CE = "https://www.ithacacarshare.org/eligibility";
     var FCS = "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students";
-    var D = "2026-11-08";
+    var D = "2026-11-11";
 
     const NUMBERS = {
       jicStudentYear: { value: 30, asOf: D, source: CS },
@@ -192,10 +192,10 @@
       }
       if (age >= N("youngDriverAge")) flags.push("21 or older: at most two accidents or violations in 3 years; a DUI or DWI in the last 7 years disqualifies you.");
       flags.push("Everyone: no license suspension in the last 3 years.");
-      if (foreign) flags.push("License from abroad: send an official driving record from the issuing country. An International Driving Permit is not accepted as that record, and some countries cannot be approved. The eligibility page mentions both 2-year and 3-year lookbacks, so ask the office: (607) 277-3210.");
+      if (foreign) flags.push("License from abroad: send an official driving record from the issuing country. An International Driving Permit is not accepted as that record, and some countries cannot be approved. Carshare uses both 2-year and 3-year lookbacks, so ask the office: (607) 277-3210.");
       h.push("<p><strong>Can you join?</strong></p><ul>" + flags.map(function (f) { return "<li>" + esc(f) + "</li>"; }).join("") + "</ul>");
 
-      h.push('<p class="icp-small" data-as-of="' + D + '">Prices as of ' + D + ". Estimate: the 20% tax is applied to hourly and mileage charges, not to fees, which the rates page does not settle; the 10-hour daily cap is not applied, so enter at most 10 hours for any one day.</p>");
+      h.push('<p class="icp-small" data-as-of="' + D + '">Prices as of ' + D + ". Estimate: the 20% tax is applied to hourly and mileage charges, as Carshare bills it, not to membership or sign-up fees; the 10-hour daily cap is not applied, so enter at most 10 hours for any one day.</p>");
 
       root.querySelector(".icp-out").outerHTML = '<div class="icp-out">' + h.join("") + "</div>";
     }

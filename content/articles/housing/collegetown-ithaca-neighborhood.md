@@ -15,7 +15,8 @@ readers:
 - off-campus
 - parent
 - transfer-spring
-subject: Collegetown, College Avenue and Dryden Road, Ithaca
+subject:
+- Collegetown, College Avenue and Dryden Road, Ithaca
 tools:
 - ithaca-rent-commute-calculator
 - when-to-sign-lease-timeline-cornell
@@ -59,16 +60,8 @@ sources:
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694
   title: Collegetown Terrace, Cornell Off-Campus Housing Marketplace
   accessed: '2026-11-10'
-images:
-- file: 1.webp
-  alt: Stone arch bridge over Cascadilla Creek joining Collegetown to the Cornell campus, with a waterfall and gorge stairs below
-  caption: The stone arch bridge over Cascadilla Creek that joins Collegetown to campus, in spring 2026. Collegetown is the dense, hilly block of apartments and houses just south of central campus, where most Cornell juniors rent.
-  credit: Eddie891 / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Collegetown_bridge_over_Cascadilla_Creek,_Spring_2026.jpg
-  author: Eddie891
-  source_url: https://commons.wikimedia.org/wiki/File:Collegetown_bridge_over_Cascadilla_Creek,_Spring_2026.jpg
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
+images: []
+lead_photo: none-found 2026-11-11
 ---
 
 

@@ -9,10 +9,10 @@ kind: tool
 readers: [first-year, transfer-spring, car-on-campus, staying-over-break, international]
 brief: intel/getting-around/brief.md
 sources:
-  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus", title: "Cornell Housing: North Campus move-in instructions", accessed: "2026-11-08"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus", title: "Cornell Housing: North Campus move-in instructions", accessed: "2026-11-11"}
   - {url: "https://fcs.cornell.edu/node/17809", title: "Cornell Transportation: 2026-27 student permit sales", accessed: "2026-11-08"}
   - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students", title: "Cornell Transportation: student parking", accessed: "2026-11-08"}
-  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", title: "Cornell Transportation: bus services, privileges and passes", accessed: "2026-11-08"}
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", title: "Cornell Transportation: bus services, privileges and passes", accessed: "2026-11-11"}
   - {url: "https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free", title: "Cornell Sun: non-first-year students no longer ride TCAT free (Nov 2024)", accessed: "2026-11-08"}
   - {url: "https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk", title: "Cornell Sun: OurBus daily campus service (Sept 2026)", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing", title: "Cornell Housing: winter break housing", accessed: "2026-11-08"}
@@ -25,7 +25,7 @@ sources:
   - {url: "https://www.checkmybus.com/ithaca-ny/binghamton-ny", title: "CheckMyBus: Ithaca to Binghamton daily lowest fares", accessed: "2026-11-08"}
   - {url: "https://www.checkmybus.com/ithaca-ny/rochester-ny", title: "CheckMyBus: Ithaca to Rochester daily lowest fares", accessed: "2026-11-08"}
   - {url: "https://www.checkmybus.com/ithaca-ny/washington-dc", title: "CheckMyBus: Ithaca to Washington DC daily lowest fares", accessed: "2026-11-08"}
-  - {url: "https://www.ourbus.com/blog/?p=6269", title: "OurBus blog: NYC to Ithaca and peak travel days", accessed: "2026-11-08"}
+  - {url: "https://www.ourbus.com/blog/?p=6269", title: "OurBus blog: NYC to Ithaca and peak travel days", accessed: "2026-11-11"}
   - {url: "https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs", title: "Cornell Sun: students' storm return after Thanksgiving 2019", accessed: "2026-11-08"}
   - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules", title: "Cornell Transportation: winter and break parking rules", accessed: "2026-11-08"}
   - {url: "https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1", title: "Cornell FCS: citation fines increasing Sept 1, 2023", accessed: "2026-11-08"}
@@ -63,12 +63,12 @@ There is no money math beyond two small steps. The Thanksgiving fare rise is the
 | North Campus move-in days | Mon Aug 17, Tue Aug 18, Fri Aug 21, Sat Aug 22 | Fall 2026 | [North Campus move-in](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus) |
 | Student permit sale opens | Tue Aug 4, 2026, 9 a.m., first come first served | 2026-27 | [FCS permit sales](https://fcs.cornell.edu/node/17809) |
 | Permit year | Aug 16, 2026 to Aug 15, 2027 | 2026-27 | [FCS permit sales](https://fcs.cornell.edu/node/17809) |
-| Resident permit | $752.98 a year, prorated daily from Sept 1 | Rates set as of July 1; checked 2026-11-08 | [Student parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
+| Resident permit | $752.98 a year, prorated daily from Sept 1 | Rates effective July 1 | [Student parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
 | Commuter (B) permit | $359.77 a year, prorated daily from Aug 16 | Same | [Student parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
 | Permit refund deadline | Mar 31 (prorated) | 2026-27 | [Student parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
 | Free first-year TCAT, fall entrants | Fall registration to Aug 31 of the next year, no extensions | Current as of 2026-11-08 | [Bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) |
 | Free first-year TCAT, spring entrants | Jan 1 to Dec 31 of the same year | Same | [Bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) |
-| Transfers count as first-years for TCAT | Reporter's statement, not the TCAT manager's | Nov 2024 | [Cornell Sun](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free) |
+| Transfers count as first-years for TCAT | Reported by the Cornell Sun | Nov 2024 | [Cornell Sun](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free) |
 | TCAT cash fare | $1.50 | Current as of 2026-11-08 | [Bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) |
 | OmniRide (Cornell price) | $200 a year, prorated monthly; refund until Mar 31 less $40; expires Aug 31 | Same | [Bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) |
 | OurBus campus-to-Manhattan service | 4 to 6 trips a day from Sept 1, 2026 | Fall 2026 | [Cornell Sun](https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk) |
@@ -81,17 +81,17 @@ There is no money math beyond two small steps. The Thanksgiving fare rise is the
 | C2C booking links | "2026" link through Dec 23, 2026; "2027" link from Jan 6, 2027 | Winter break 2026-27 | [C2C service](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service) |
 | Downtown stop move | Nov 9, 2026: OurBus to 235 S. Cayuga St; TCAT East Seneca stops shift | 2026-11-09 | [FingerLakes1](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/) |
 | Yearly winter parking notice | Mid-November (2023 notice dated Nov 16) | 2023 precedent | [FCS 2023 notice](https://fcs.cornell.edu/announcements/2023-11-16/winter-parking-transportation-information) |
-| Thanksgiving-week fare rise, Binghamton | +27.9% (n = 15 dates) | Nov 23 to 27, 2026 vs earlier November; read 2026-11-08 | [CheckMyBus](https://www.checkmybus.com/ithaca-ny/binghamton-ny) |
+| Thanksgiving-week fare rise, Binghamton | +27.9% (n = 15 dates) | Nov 23 to 27, 2026 vs earlier November, fares listed Nov 8, 2026 | [CheckMyBus](https://www.checkmybus.com/ithaca-ny/binghamton-ny) |
 | Thanksgiving-week fare rise, Rochester | +34.2% (n = 17 dates) | Same | [CheckMyBus](https://www.checkmybus.com/ithaca-ny/rochester-ny) |
 | Thanksgiving-week fare rise, DC | +37.9% (n = 19 dates) | Same | [CheckMyBus](https://www.checkmybus.com/ithaca-ny/washington-dc) |
-| Wednesday before Thanksgiving, last day of December finals, Friday spring break begins | OurBus peak days | Checked by blog 2026-08-17 | [OurBus blog](https://www.ourbus.com/blog/?p=6269) |
+| Wednesday before Thanksgiving, last day of December finals, Friday spring break begins | OurBus peak days | OurBus, Aug 2026 | [OurBus blog](https://www.ourbus.com/blog/?p=6269) |
 | Storm on the Thanksgiving return | Dec 1 to 2, 2019 storm cancelled OurBus trips | 2019 | [Cornell Sun](https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs) |
 | Campus winter overnight rule | Dec 1 to Apr 1, when snow is forecast, 5 p.m. to 7:30 a.m. in designated areas only; FH, ND, SW, WD holders use their own lots | Current as of 2026-11-08 | [Winter parking rules](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules) |
 | Winter-rules fine | $50 | From Sept 1, 2023 | [Cornell Sun](https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/) |
 | No permit or payment fine | $50 (+$10 if unpaid in 10 days) | From Sept 1, 2023 | [FCS notice](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1) |
 | Residences close for winter | 2 p.m. Sun Dec 20, 2026; undergraduate residences reopen 9 a.m. Tue Jan 19, 2027 | 2026-27 | [Winter closing notice](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice) |
 | January storm | Buses banned on most highways, Jan 2019 | 2019 | [Cornell Sun](https://cornellsun.com/2019/01/20/canceled-flights-and-impromptu-housing-winter-storm-frustrates-students-travel-plans-to-cornell/) |
-| Ithaca-NYC bus fares by month | About $41 average in January vs about $66 in November | Aggregator claim, read 2026-11-08 | [Wanderu](https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/) |
+| Ithaca-NYC bus fares by month | About $41 average in January vs about $66 in November | Wanderu averages, Nov 2026 | [Wanderu](https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/) |
 | Campus winter rule and odd/even end | Apr 1 | Current as of 2026-11-08 | [Winter parking rules](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules) |
 | Summer storage booking | By early April (company advice) | 2025-26 | [Storage Scholars](https://www.storagescholars.com/cities-we-serve/ithaca-ny) |
 | SA vote on spring finals charters | Adopted Apr 16, 2026 | 2026 precedent | [SA R83](https://assembly.cornell.edu/resolutions/student-assembly/sa-r83-2025-2026) |
@@ -99,19 +99,18 @@ There is no money math beyond two small steps. The Thanksgiving fare rise is the
 | Move-out closing | 2 p.m. Sun May 17, 2026; items left are donated | Spring 2026 precedent | [Storage and shipping](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options) |
 | City residential parking permit | $45 a year; expires July 31 | Current as of 2026-11-08 | [City permits](https://www.cityofithacany.gov/731/Permit-Issuance) |
 
-## Assumptions and what the tool does not cover
+## Assumptions
 
-- "Not yet published" means Cornell had not posted a 2026-27 date as of Nov 11, 2026; the row shows the most recent precedent (2024, 2025 or 2026) instead. Check the academic calendar and housing notices before you book.
-- The North Campus move-in days are 2026 dates, weekday-matched.
-- The Thanksgiving fare rise was measured on Binghamton, Rochester and DC routes from one aggregator on Nov 8, 2026, two to three weeks out. The tool applies the average of the three routes to NYC trips as well.
+- A "not yet published" row is one where Cornell has not yet announced its 2026-27 date; the row shows the most recent precedent (2024, 2025 or 2026) instead. Check the academic calendar and housing notices before you book.
+- The Thanksgiving fare rise compares the lowest CheckMyBus fares listed on Nov 8, 2026 for the Binghamton, Rochester and DC routes, two to three weeks out. The tool applies the average of the three routes to NYC trips as well.
 - The tool applies the campus winter rule from Dec 1 to Apr 1 on nights when snow is forecast, as Cornell's winter parking page states.
-- The transfer TCAT rule rests on a Cornell Sun reporter's statement; confirm with Transportation Services at 607-255-4600.
+- The Cornell Sun reported in November 2024 that transfers count as first-years for free TCAT. Cornell's [bus-pass page](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) grants the privileges to new Cornell students; Transportation Services answers questions at 607-255-4600.
 - Academic calendar dates come from the [Registrar](https://registrar.cornell.edu/calendars-exams/academic-calendar): no classes Nov 25 to 29, 2026; fall finals end Dec 19; spring term begins Jan 25, 2027; no classes Mar 27 to Apr 4, 2027 (the tool puts the Friday peak day on Mar 26); spring finals May 15 to 22. Undergraduate residences close at 2 p.m. on Sun Dec 20, 2026 and reopen at 9 a.m. on Tue Jan 19, 2027 ([winter closing notice](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice)).
 - The tool stores nothing and sends nothing; it runs in your browser.
 
 ## How to read the result
 
-The line at the top says how many dates apply to you, how many are still ahead, and the next one. Each row gives the date in bold, then what happens and what to do. A "passed" tag means the date is behind you (your device's date). A "not yet published" tag means the date shown is last year's, or a rough window like "mid-January", because Cornell's 2026-27 date is not yet published. Rows with a date and no tag come from a 2026-27 page and can be planned around. Peak travel days are where fares rise and buses sell out, so book those first.
+The line at the top says how many dates apply to you, how many are still ahead, and the next one. Each row gives the date in bold, then what happens and what to do. A "passed" tag means the date is behind you (your device's date). A "not yet published" tag means the date shown is last year's, or a rough window like "mid-January", because Cornell's 2026-27 date is not yet published. Rows with a date and no tag are published 2026-27 dates and can be planned around. Peak travel days are where fares rise and buses sell out, so book those first.
 
 ## Related guides
 

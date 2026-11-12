@@ -75,10 +75,9 @@ kind: timeline
 title: "Fall 2026 move-in and orientation"
 rows:
   - {label: "Move-In Ticket available", date: "After Aug. 1"}
-  - {label: "First-year move-in; dining begins with lunch", date: "Aug. 17"}
+  - {label: "First-year move-in", date: "Aug. 17"}
   - {label: "Transfer move-in; Family Orientation", date: "Aug. 18"}
   - {label: "Upper-level move-in", date: "Aug. 21-22"}
-  - {label: "Classes begin", date: "Aug. 24"}
 ```
 
 Source: Cornell North Campus move-in instructions; Cornell Tatkon Center orientation page.
@@ -95,8 +94,7 @@ Do these in order. The first two happen in the Housing and Dining Portal.
 2. **Book an arrival timeslot in the portal.** The timeslot is for arrival and check-in only. It does not limit how long you can unload.
 3. **Decide how you arrive.** Uber and taxi riders go to A Lot on North Campus. Bus riders go straight to their building.
 4. **Plan the car.** After unloading, you get 3 hours of short-term parking in the area printed on your ticket. Overnight parking is not allowed in the Jessup Road unloading spaces. The details by building are in the [move-in parking and unloading guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/).
-5. **Leave the trailer at home.** In 2026, U-Hauls and trailers were turned away at North Campus.
-6. **Check your building's own page.** Each hall has its own instructions. Balch Hall has an unloading zone with no staff help, and Cascadilla moves cars to the Williams Street Lot after unloading, at the upper lot at Williams Street and Stewart Avenue ([Cornell Cascadilla instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall)).
+5. **Check your building's own page.** Each hall has its own instructions. Balch Hall has an unloading zone with no staff help, and Cascadilla moves cars to the Williams Street Lot after unloading, at the upper lot at Williams Street and Stewart Avenue ([Cornell Cascadilla instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall)).
 
 ## Where do you unload?
 
@@ -132,6 +130,6 @@ Most first-years arrive by car, Uber or bus. The [first-year getting around guid
 
 ## What to do next
 
-Check the Housing and Dining Portal in July for your assigned day, then print your ticket. The housing office can answer building-specific questions at housing@cornell.edu. Cornell's [new student resource hub](https://scl.cornell.edu/new-student-resource-hub) lists the To Do List, which went live Mar. 26 in the 2026 cycle, and the housing, health and placement-exam steps that follow in May and June.
+Check the Housing and Dining Portal after Aug. 1, when the Move-In Ticket becomes available, then print your ticket. Cornell's [new student resource hub](https://scl.cornell.edu/new-student-resource-hub) lists the To Do List, which went live Mar. 26 in the 2026 cycle, and the housing, health and placement-exam steps that follow in May and June.
 
 Related guides: [move-in parking and unloading](/cornell/getting-around/cornell-move-in-day-parking-unloading/), [first-year getting around](/cornell/getting-around/getting-around-cornell-first-year/), [care package ideas](/cornell/parents/cornell-care-package-ideas-what-to-send-student/).

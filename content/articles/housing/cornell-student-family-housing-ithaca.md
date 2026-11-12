@@ -2,7 +2,7 @@
 title: Cornell family housing for students with children
 mode: answer
 dek: Hasbrouck family units cost $1,475 to $1,530 a month with utilities; a private two-bedroom averages $2,459 before bills.
-meta: 'Cornell family housing for students with children: Hasbrouck family rates for 2026-27, private two-bedroom rents, deposits, schools and the undergraduate exemption.'
+meta: 'Cornell family housing for students with children: Hasbrouck family rates for 2026-27, private two-bedroom rents, deposits, who can live with you and the undergraduate exemption.'
 primary_query: cornell family housing students with children ithaca
 topic: housing
 school: cornell-university
@@ -125,7 +125,7 @@ The cheapest family home near Cornell is Cornell's own: Hasbrouck family 2BR tow
 
 ## What does Cornell's family housing cost?
 
-Hasbrouck Apartments, on North Campus, house graduate and professional students on 12-month contracts with rolling applications. Family and partner units hold 2 to 4 people, with no more than two adults per unit ([Graduate Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)).
+Hasbrouck Apartments house graduate and professional students, both single and with partners or families, and take applications on a rolling basis. Family and partner units hold 2 to 4 people, with no more than two adults per unit ([Graduate Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). Family units are let on 12-month contracts ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ```figure
 kind: cost_table
@@ -138,7 +138,7 @@ rows:
 
 Yearly figures are the monthly rate times 12. Demand is real: 51% of on-campus graduate households are family or partner households, and 49% are single students ([Your Cornell Community](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing/your-cornell-community)). In 2024, the Cornell Daily Sun reported that visiting scholars compete with graduate students for Hasbrouck and Maplewood, and that family housing is scarce with high upfront costs ([Cornell Daily Sun](https://cornellsun.com/2024/11/12/high-costs-and-limited-support-plague-visiting-scholars-and-fellows-at-cornell)).
 
-Maplewood, Cornell's other graduate complex, lists furnished studios to four-bedrooms ([Graduate Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). Cornell lists Hasbrouck under graduate and professional student housing, so an undergraduate with a family should ask Housing at 607-255-5368 about eligibility.
+Maplewood, Cornell's other graduate complex, lists furnished studios to four-bedrooms ([Graduate Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). Cornell lists Hasbrouck under graduate and professional student housing, so an undergraduate with a family should ask Cornell Housing about eligibility.
 
 ```reader "If you're a graduate or professional student"
 Cornell's 2026-27 Ithaca budget puts housing at $19,962 a year, or $1,663.50 a month ([Cornell Financial Aid](https://finaid.cornell.edu/graduate-students)). A Hasbrouck unfurnished townhouse is $17,700 a year, which is $2,262 under that line. Start your search with the [grad student off-campus guide](/cornell/housing/off-campus-housing-cornell-grad-students/) and the [monthly budget guide](/cornell/money/cornell-grad-student-off-campus-budget-monthly-rent-ithaca/).
@@ -156,7 +156,7 @@ Private family rents are quoted per unit, not per bed. Add utilities to any rent
 | Downtown Ithaca average | $3,246 |  | RentCafe, Nov. 6, 2026 |
 | Collegetown average | $3,414 |  | RentCafe, Oct. 30, 2026 |
 
-Sources: [Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), [Lansing West](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx), [Ithaca](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/), [Downtown Ithaca](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/downtown-ithaca/) and [Collegetown](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/). All private figures are asking rents. RentCafe's averages cover buildings of 50 or more units, so they skip the houses and small landlords where many families end up.
+Sources: [Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), [Lansing West](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx), [Ithaca](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/), [Downtown Ithaca](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/downtown-ithaca/) and [Collegetown](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/). All private figures are asking rents.
 
 Set the private numbers against the grad budget of $19,962 ([Cornell Financial Aid](https://finaid.cornell.edu/graduate-students)). An average 2BR costs $29,508 a year (2,459 times 12), which is $9,546 over that line. A Lansing West 2BR at $1,825 costs $21,900 a year, or $1,938 over, plus utilities. The calculator below adds commute costs to a rent.
 
@@ -198,7 +198,7 @@ New York law protects a family's right to live together. A landlord cannot limit
 
 The Town of Ithaca is stricter for unrelated people. It defines a family as people related by blood, marriage or adoption and limits single-family homes to one family plus one boarder ([Drummond v Town of Ithaca ZBA](https://law.justia.com/cases/new-york/other-courts/2017/2017-ny-slip-op-30471-u.html)). That bites shared student houses, not a married couple with children.
 
-## How do partners and children get around?
+## How does a partner get around?
 
 A spouse or partner with a CU ID can buy the OmniRide student pass at 116 Maple Avenue and ride night routes 90 and 92. The pass costs $200 a year, prorated monthly, and expires Aug. 31 ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). PhD students and graduate assistants get a free OmniRide pass. A B commuter permit for a student's car is $359.77 a year ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)).
 
@@ -210,7 +210,7 @@ A house with a yard can cost more than its rent says. Cornell suggests asking NY
 
 ## When should you start?
 
-Graduate guides say to start in March or April for an August start. Apply to Hasbrouck at the start of your search, since applications roll. Families do not face the undergraduate Collegetown rush that signs leases a year ahead.
+Apply to Hasbrouck at the start of your search, since Cornell accepts applications on a rolling basis ([Graduate Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)).
 
 ## What to do next
 

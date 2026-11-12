@@ -144,7 +144,7 @@ A license is not a lease, so the rules above do not apply. For study away, leave
 ```
 
 ```reader "If you're on a one-semester stay"
-The costly mistake is signing a 12-month lease for a six-month stay. Look for semester units, which Ithaca Renting lists for spring and fall 2027. A month-to-month tenancy ends on one month's notice, and the Cornell Law guide describes it as limited legal protection. If you are a spring transfer, the [transfer housing guide](/cornell/housing/cornell-transfer-housing/) covers your options.
+The costly mistake is signing a 12-month lease for a six-month stay. Look for semester units, which Ithaca Renting lists for spring and fall 2027. The Cornell Law guide says a month-to-month tenancy ends on one month's notice. If you are a spring transfer, the [transfer housing guide](/cornell/housing/cornell-transfer-housing/) covers your options.
 ```
 
 ```reader "If you're an international student"

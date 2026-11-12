@@ -121,13 +121,13 @@ kind: steps
 title: Getting on and staying on the waitlist
 rows:
   - {label: "Sign up at housing.cornell.edu once Open Room Selection ends."}
-  - {label: "Rank every area and room type you would truly accept, including triples."}
+  - {label: "List the areas and room types you would like to be considered for as rooms become available."}
   - {label: "Watch your Cornell email; offers go out through the academic year and summer."}
   - {label: "Tell the Housing office the day your plans change, so the room goes to someone else."}
 ```
 Source: Cornell Student & Campus Life, Room Selection FAQs.
 
-## What are my chances of getting off the waitlist?
+## How do rooms open up on the waitlist?
 
 To ask where you stand, call Housing Operations at 607-255-5368 or email housing@cornell.edu; the office sits at 1520 Clara Dickson Hall ([HRL directory](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)).
 
@@ -164,7 +164,7 @@ rows:
   - {label: "202 Dryden Road, 10-bedroom bed, 12 months at $725 to $825 (2027-28)", value: "$8,700 to $9,900"}
   - {label: "Collegetown Court, 208 Dryden Road, studio, 12 months at $1,565 to $1,640 (2027-28)", value: "$18,780 to $19,680"}
 ```
-Source: Cornell housing rates 2026-27; Ithaca Renting asking rents per bed per month for 2027-28. Campus rate is room only; apartment rows exclude any utilities not in the rent.
+Source: Cornell housing rates 2026-27; Ithaca Renting asking rents per month for 2027-28 (per bed in the shared houses, per unit for the studio). Campus rate is room only; apartment rows exclude any utilities not in the rent.
 
 A bed in a big Collegetown house can cost less than a campus double ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). A studio costs far more. Cornell publishes final rates each March before the academic year, so the comparison uses 2026-27 prices ([Room Selection FAQs](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs)).
 
@@ -212,11 +212,11 @@ You don't go through room selection or its waitlist. Cornell takes graduate hous
 Yes. Cornell sends late applicants to the waitlist when it opens instead of giving them a selection timeslot.
 
 **Can I pick which building I get from the waitlist?**
-Not a specific building. You rank areas and room types, and offers follow those choices. The wider you rank, the more offers you can get.
+Not a specific building. You rank areas and room types, and offers follow those choices.
 
 ## What to do next
 
-Join the waitlist and rank every area you'd accept. Then set a personal deadline for when you'll stop waiting and sign a lease, and call Housing Operations to ask where you stand before that date.
+Join the waitlist and list the areas and room types you'd accept. Then set a personal deadline for when you'll stop waiting and sign a lease, and call Housing Operations to ask where you stand before that date.
 
 **Related guides**
 - [Lease signing timeline tool](/tools/when-to-sign-lease-timeline-cornell/)

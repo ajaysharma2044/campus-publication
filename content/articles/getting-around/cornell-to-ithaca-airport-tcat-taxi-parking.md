@@ -33,7 +33,7 @@ sources:
   title: 'Taxis: A Convenient Way to Get Around, Ithaca Tompkins International Airport (Internet Archive copy, Dec. 16, 2025)'
   accessed: '2026-11-11'
 - url: https://web.archive.org/web/20261004030053/https://tcatbus.com/bus-schedules
-  title: 'Route Schedules 2026, fall 2026 service Aug. 16 to Dec. 19, TCAT (Internet Archive copy, Oct. 4, 2026)'
+  title: Route Schedules 2026, fall 2026 service Aug. 16 to Dec. 19, TCAT (Internet Archive copy, Oct. 4, 2026)
   accessed: '2026-11-11'
 - url: https://web.archive.org/web/20260913070000/https://tcatbus.com/ada/accessibility/
   title: Fixed Route Accessibility Solutions, TCAT (Internet Archive copy, Sept. 13, 2026)
@@ -92,16 +92,8 @@ sources:
 - url: https://www.syrairport.org/parking/
   title: Parking, Syracuse Hancock International Airport
   accessed: '2026-11-08'
-images:
-- file: 1.webp
-  alt: A city bus on a street in Ithaca, New York
-  caption: A bus in Ithaca. TCAT's airport runs, Route 32 on weekdays and Route 72 on weekends, go between the airport and the Commons downtown.
-  credit: Yerpo / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/w/index.php?curid=11776560
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0/
-  author: Yerpo
-  source_url: https://commons.wikimedia.org/w/index.php?curid=11776560
+images: []
+lead_photo: none-found 2026-11-11
 ---
 
 ```glance

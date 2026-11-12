@@ -1,4 +1,4 @@
-<div class="tool" id="tool-off-campus-move-in-checklist-cornell" data-tool="off-campus-move-in-checklist-cornell" data-as-of="2026-11-08">
+<div class="tool" id="tool-off-campus-move-in-checklist-cornell" data-tool="off-campus-move-in-checklist-cornell" data-as-of="2026-11-11">
   <style>
     #tool-off-campus-move-in-checklist-cornell .omc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:.75rem 1rem;margin:0 0 1rem}
     #tool-off-campus-move-in-checklist-cornell label{display:block;font-weight:600;margin-bottom:.2rem}
@@ -102,7 +102,7 @@
       trashLbs: { value: 35, asOf: D, source: U.tags },
       setOutHours: { value: 24, asOf: D, source: U.ext },
       elecLow: { value: 104.20, asOf: D, source: U.po },
-      elecHigh: { value: 280, asOf: '2026-11-01', source: U.es },
+      elecHigh: { value: 282, asOf: '2026-11-08', source: U.es },
       netLow: { value: 30, asOf: D, source: U.isp },
       netHigh: { value: 120, asOf: D, source: U.isp },
       insLow: { value: 5, asOf: '2026-09-11', source: U.sb },
@@ -141,14 +141,14 @@
       function add(g, h, isDated) { G[g].push(h); if (isDated) dated++; }
       var lo = 0, hi = 0;
       add('before', 'Accept the move-in inspection. After you sign and before you move in, the landlord must offer one; if you accept, you both sign a written record of the condition, and the landlord cannot keep deposit money for defects listed on it. ' + a(U.gol, 'GOL 7-108'));
-      add('before', 'Buy renters insurance before the keys change hands. Cornell\'s checklist says to buy it and names GradGuard as its preferred insurer (no price published); Ithaca and New York quotes run ' + n('insLow') + ' to ' + n('insHigh') + ' a month, about ' + n('insTypical') + ' typical. Check whether your lease requires proof. ' + a(U.gg, 'Cornell') + ', ' + a(U.sb, 'SafeButler'));
+      add('before', 'Buy renters insurance before the keys change hands. Cornell\'s checklist says to buy it and names GradGuard as its preferred insurer; Ithaca and New York quotes run ' + n('insLow') + ' to ' + n('insHigh') + ' a month, about ' + n('insTypical') + ' typical. Check whether your lease requires proof. ' + a(U.gg, 'Cornell') + ', ' + a(U.sb, 'SafeButler'));
       lo += NUMBERS.insLow.value; hi += NUMBERS.insHigh.value;
       if (elec) {
         add('before', 'Start electricity in a tenant\'s name for ' + fd(t0) + ': "Turn On Service" at nyseg.com, the Request for Service form at nyseg.com/Moving, or call 800.572.1111 (Mon-Fri 7 a.m. to 7 p.m.). An indoor meter needs access arranged; service off for over two years needs a safety inspection. ' + (city ? '' : 'Outside the City, confirm with the landlord which utility serves the address. ') + a(U.nyseg, 'NYSEG'), true);
         lo += NUMBERS.elecLow.value / ppl; hi += NUMBERS.elecHigh.value / ppl;
       }
       if (net) {
-        add('before', 'Order internet so it works on day one. No official source names Ithaca providers; aggregator sites list plans at ' + n('netLow') + ' to ' + n('netHigh') + ' a month for the household, promo and regular prices mixed. Ask the landlord which providers wire the building. ' + a(U.isp, 'ISP Reports'));
+        add('before', 'Order internet so it works on day one. Aggregator sites list plans at ' + n('netLow') + ' to ' + n('netHigh') + ' a month for the household, promo and regular prices mixed. Ask the landlord which providers wire the building. ' + a(U.isp, 'ISP Reports'));
         lo += NUMBERS.netLow.value / ppl; hi += NUMBERS.netHigh.value / ppl;
       }
       if (nb) add('before', 'Ask in writing what happens if the building is not ready by ' + fd(t0) + ': where you sleep, who pays, and the compensation. In 2016 Fontana (327 Eddy St) left 50+ students with Aug 1 leases waiting until September, offered a hotel or ' + n('fontanaDay') + ' a day; Cornell\'s 301 College Ave opened in Aug 2026 and a resident described it as incomplete and rushed. ' + a(U.fontana, 'Sun 2016') + ', ' + a(U.c301, 'Sun 2026'), true);
@@ -158,25 +158,25 @@
       add('day', 'Photograph every room, wall, floor, appliance and existing damage before you unpack, and keep the files with the signed condition record; Cornell\'s move-out page says to take photos at move-in and move-out. At move-out the landlord has ' + n('depositDays', NUMBERS.depositDays.value + ' days') + ' to return the deposit or itemize deductions. ' + a(U.moveOut, 'Cornell') + ', ' + a(U.gol, 'GOL 7-108'));
       if (help) add('day', 'Move-in parking for the helper: City meters ' + n('meterHour') + ' an hour (9 a.m. to 6 p.m. Mon-Sat, free Sundays), City garages ' + n('garageHour') + ' an hour, Dryden Road Garage (118 Dryden Rd) daily maximum ' + n('drydenDayMax') + '. ' + (city ? 'In a residential permit area, a ' + n('visitorPass') + ' visitor pass covers 2 weeks. ' : '') + a(U.pinfo, 'City parking') + ', ' + a(U.dryden, 'Dryden Road Garage'));
       if (tags && city) add('day', 'Buy City trash tags: ' + n('trashTag') + ' each or ' + n('trashSheet') + ' for a sheet of 6' + (Y > 2026 ? ' (2026 price; the City sets it each January 1)' : '') + ', one per can or bag up to ' + n('trashLbs', NUMBERS.trashLbs.value + ' lbs') + '. Sold at City Hall (108 E. Green St.), the Cornell Campus Store, Ace Hardware, GreenStar, P&C Fresh, Tops and Wegmans. Put trash out no more than ' + n('setOutHours', NUMBERS.setOutHours.value + ' hours') + ' before pickup and never leave a couch or mattress outside; the City\'s Resident Services Search Tool shows your pickup day. ' + a(U.tags, 'trash tags') + ', ' + a(U.ext, 'City rules'));
-      if (tags && !city) add('day', 'Trash outside the City: Town, Lansing and Cayuga Heights trash rules are not in our sources. Ask the landlord who collects it, how it is paid, and the pickup day.');
+      if (tags && !city) add('day', 'Trash outside the City: City tags do not apply. Ask the landlord who collects it, how it is paid, and the pickup day.');
       if (occ) add('month', 'Give the landlord the name of anyone living there who is not on the lease by ' + fd(t0 + NUMBERS.occupantDays.value * DAY) + ' (' + n('occupantDays', NUMBERS.occupantDays.value + ' days') + ' after move-in, or within 30 days of the landlord asking). On a one-tenant lease you may add immediate family plus one more occupant and that person\'s dependent children; on a shared lease, tenants plus occupants cannot exceed the number of tenants named. Occupants get no right to stay if you leave. ' + a(U.occ, 'RPL 235-f'), true);
       if (status === 'new') add('month', 'Ride TCAT free all year with your Cornell ID: new degree students get unlimited rides until Aug 31 after the first year (Dec 31 for spring entrants). ' + a(U.bus, 'Cornell'));
       else if (status === 'phd') add('month', 'Get your free TCAT OmniRide pass at myparking.cornell.edu (PhD students and graduate assistants); allow up to 24 hours to activate. ' + a(U.bus, 'Cornell'));
       else add('month', 'Bus: you ride TCAT free after 6 p.m. weekdays and all weekend; daytime rides cost ' + n('fare') + ', or buy OmniRide for ' + n('omniride') + ' a year (prorated monthly) at myparking.cornell.edu. ' + a(U.bus, 'Cornell'));
       if (car !== 'none') {
         var py = (M > 8 || (M === 8 && Dd > 15)) ? Y + 1 : Y, pEnd = utc(py, 8, 15), left = Math.round((pEnd - t0) / DAY) + 1;
-        var pTxt = left <= 31 ? 'Your move-in falls at the end of the permit year (permits run Aug 16 to Aug 15), so buy the next year\'s permit when sales open in early August: 2026-27 sales opened ' + n('permitSales2026', fd(utc(2026, 8, 4))) + ' at 9 a.m., first come, first served; the 2027 date is not in our sources.'
+        var pTxt = left <= 31 ? 'Your move-in falls at the end of the permit year (permits run Aug 16 to Aug 15), so buy the next year\'s permit when sales open in early August: 2026-27 sales opened ' + n('permitSales2026', fd(utc(2026, 8, 4))) + ' at 9 a.m., first come, first served. Cornell has not yet announced the 2027-28 date.'
           : 'Permits prorate daily for the ' + left + ' days left to ' + fd(pEnd) + ': about ' + n('bPermit', money(NUMBERS.bPermit.value * left / 365)) + ' (our estimate on the ' + n('bPermit') + ' annual price).';
         add('month', 'Register your plate at myparking.cornell.edu; students must register even without a permit. To park on campus, the B commuter permit is ' + n('bPermit') + ' a year, limited, B lots any time and A lots after 2:30 p.m. ' + pTxt + (status === 'phd' ? ' Graduate assistants on full assistantships can buy faculty and staff permits instead.' : '') + ' Transportation Services 607-255-4600. ' + a(U.park, 'Cornell parking') + ', ' + a(U.sales, '2026-27 sales'), true);
         var nov = M >= 11 || M < 4 || (M === 4 && Dd === 1);
         var winterTxt = nov ? 'Winter rules are already on at your move-in: ' : 'From ' + fd(utc(Y, 11, 1)) + ': ';
-        if (car === 'street' && !city) add('month', 'Street parking outside the City: Town, Lansing and Cayuga Heights parking rules are not in our sources; ask the landlord or the town office before you leave the car overnight.');
+        if (car === 'street' && !city) add('month', 'Street parking outside the City: City permits and winter rules do not apply; ask the landlord or the town or village office about overnight parking before you leave the car on the street.');
         if (car === 'street' && city) {
           var late = M === 6 || M === 7;
           add('month', 'City residential permit: ' + n('cityPermit') + ' a year at the City Clerk\'s Office if your block is in a permit area; bring your lease or a utility bill plus your registration. One plate, no partial-year price, and every permit ends July 31' + (late ? ', so one bought for a ' + MO[M - 1] + ' move-in expires ' + fd(utc(Y, 7, 31)) : '') + '. Central Collegetown (R-3) gets no street permits. Landlords cannot buy them for you. ' + a(U.cityPermit, 'City permits') + ', ' + a(U.r3, 'Cornell on R-3'), true);
           add('later', winterTxt + 'odd/even overnight parking, 7 p.m. to 6 a.m. until April 1 (odd side on odd dates), enforced when needed such as snow events; move the car at least every 24 hours on weekdays; a car unmoved ' + n('towHours', NUMBERS.towHours.value + ' hours') + ' can be towed. Text "SIREN" to 67283 for alerts. ' + a(U.regs, 'City rules'), true);
         }
-        if (car === 'garage') add('month', 'Garage permit: Dryden Road Garage monthly ' + n('drydenMonthly') + ' (24/7, "recommended for Collegetown residents", no guaranteed space) or the ' + n('drydenWorker') + ' Worker\'s Special (weekdays only); Green Street Garage about ' + n('greenMonthly') + ' a month (search snippet). Sold in 30-day steps; renew online. ' + (nov ? 'The Dryden uncovered 4th and 5th floors are closed 2 to 8 a.m. now through April.' : 'From Nov 1 the Dryden uncovered 4th and 5th floors close 2 to 8 a.m.') + ' ' + a(U.dryden, 'Dryden Road') + ', ' + a(U.green, 'Green Street'), true);
+        if (car === 'garage') add('month', 'Garage permit: Dryden Road Garage monthly ' + n('drydenMonthly') + ' (24/7, "recommended for Collegetown residents", no guaranteed space) or the ' + n('drydenWorker') + ' Worker\'s Special (weekdays only); Green Street Garage ' + n('greenMonthly') + ' a month (24/7 access). Sold in 30-day steps; renew online. ' + (nov ? 'The Dryden uncovered 4th and 5th floors are closed 2 to 8 a.m. now through April.' : 'From Nov 1 the Dryden uncovered 4th and 5th floors close 2 to 8 a.m.') + ' ' + a(U.dryden, 'Dryden Road') + ', ' + a(U.green, 'Green Street'), true);
         if (car === 'lot') add('month', 'Park only in the spaces the landlord assigns, up to the number allowed for the property; never on the grass or the sidewalk. Ask who plows the lot. ' + a(U.ext, 'City rules'));
         add('later', 'March 31: last day to return a Cornell permit for a prorated refund. Winter break: a car left on a City street may be treated as abandoned. ' + a(U.park, 'Cornell parking'), true);
       }
@@ -190,7 +190,7 @@
       });
       var cost = 'Bills on top of rent, per person: about <span data-as-of="' + D + '">' + money(lo) + ' to ' + money(hi) + ' a month</span> (' + [elec ? 'electricity' : '', net ? 'internet' : '', 'renters insurance'].filter(Boolean).join(', ') + (ppl > 1 ? ', split ' + ppl + ' ways' : '') + ')' + (tags && city ? ', plus ' + n('trashTag') + ' per trash bag' : '') + '.';
       el('result').innerHTML = '<p><strong>' + count + ' things to do for a move-in on ' + fd(t0) + ', ' + dated + ' of them tied to a date.</strong> ' + cost + '</p>' + html +
-        '<p class="omc-note" data-as-of="' + D + '">Rules and prices as of 2026-11-08 (electricity high end updated 2026-11-01). Estimated: the monthly bill range comes from household averages and quotes on commercial sites (electricity $104.20 to $280 a month, internet $30 to $120, insurance $5 to $27), not real Ithaca student bills, and the prorated permit price is our arithmetic.</p>';
+        '<p class="omc-note" data-as-of="' + D + '">Rules and prices as of 2026-11-08. Estimated: the monthly bill range comes from household averages and quotes on commercial sites (electricity $104.20 to $282 a month, internet $30 to $120, insurance $5 to $27), not real Ithaca student bills, and the prorated permit price is our arithmetic.</p>';
     }
     root.addEventListener('input', render);
     root.addEventListener('change', render);

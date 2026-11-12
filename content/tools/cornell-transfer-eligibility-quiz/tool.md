@@ -82,7 +82,7 @@ This quiz tells you whether you apply to Cornell as a transfer, as a first-year,
 | Number | Value | Applies to | Source |
 |---|---|---|---|
 | College credit to count as a transfer | 12 semester hours after high school, or full-time enrollment | fall 2027 cycle | [Cornell admissions](https://admissions.cornell.edu/apply/transfer-applicants) |
-| Semesters completed elsewhere | 2 to 4; first-semester students not eligible | crawled 2026-11-06, checked 2026-11-11 | [FAQ 330](https://faq.enrollment.cornell.edu/kb/article/330-when-should-i-apply-to-cornell-as-a-transfer/) |
+| Semesters completed elsewhere | 2 to 4; first-semester students not eligible | current | [FAQ 330](https://faq.enrollment.cornell.edu/kb/article/330-when-should-i-apply-to-cornell-as-a-transfer/) |
 | First deadline | March 15, 2027: application, $85 fee or waiver, any portfolio | fall 2027 entry | [Cornell admissions](https://admissions.cornell.edu/apply/transfer-applicants) |
 | Second deadline | April 15, 2027: College Report, Academic Evaluation, Mid-Term Report, transcripts | fall 2027 entry | [Cornell admissions](https://admissions.cornell.edu/apply/transfer-applicants) |
 | GPA of admitted transfers, Cornell-wide | "Generally" 3.3 or better | checked 2026-11-11 | [FAQ 325](https://faq.enrollment.cornell.edu/kb/article/325-does-cornell-prefer-transfer-applicants-from-certain-colleges-or-types-of-colleges/) |
@@ -93,7 +93,7 @@ This quiz tells you whether you apply to Cornell as a transfer, as a first-year,
 | Human Ecology GPA, competitive | 3.5 or higher, mostly As and Bs | current | [Human Ecology](https://www.human.cornell.edu/admissions/transfer) |
 | Brooks GPA, competitive | No minimum; 3.5 or higher "increases competitiveness" | current | [Brooks](https://publicpolicy.cornell.edu/undergraduate/apply/transfer-applicants/external-transfers/) |
 | AAP GPA minimum | 2.7 and good standing | fall 2027 cycle | [AAP](https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/) |
-| Engineering GPA | No minimum stated | 2026-27 cycle | [Engineering](https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements) |
+| Engineering GPA | No published minimum | 2026-27 cycle | [Engineering](https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements) |
 | Transfer Option, Arts and Sciences | 3.5 GPA every semester, no grade below B- | current | [Arts and Sciences](https://as.cornell.edu/admissions/admissions-requirements-and-process) |
 | TC3 to CALS Agricultural Sciences | 3.0 GPA, B or better in all transfer courses: "priority consideration" | announced Aug 7, 2025 | [CALS news](https://cals.cornell.edu/news/2025/08/cornell-cals-and-tc3-establish-transfer-pathway-for-agriculture-students) |
 | Transfer credit cap, most colleges | 60, exam credit included | 2025 policy | [Registrar](https://registrar.cornell.edu/students/credit-evaluation-services) |
@@ -113,11 +113,11 @@ The course lists the quiz prints come from each college's page: Engineering's MA
 - Standing from semesters is an estimate. Each college sets standing after the offer.
 - The credit line assumes every course earns credit up to the cap. In practice each course needs a C or better and about an 80% match to a Cornell course, decided after admission ([registrar](https://registrar.cornell.edu/students/credit-evaluation-services)).
 - Engineering's per-year cap is applied as 33 x semesters / 2, assuming full-time semesters.
-- The Biological Sciences course list comes from a search summary of the CALS major page.
-- "Students with fewer than two years elsewhere are not admitted directly to a major" in Arts and Sciences comes from a search summary of its transfer page.
+- The Biological Sciences course list is the one for sophomore-entry transfers on the [CALS major page](https://cals.cornell.edu/biological-sciences/admission-biological-sciences-major); AP, IB and GCE biology credit does not count toward it.
 - A&S is the only college whose Transfer Option conditions the quiz states; each other college sets its own.
 - The 2025-26 Common Data Set marks "No" for a minimum number of credits; the quiz follows the admissions page's 12-hour rule, which is the instruction Cornell gives applicants.
-- Not in the brief: Dyson's own GPA figure and course list for external transfers (the quiz uses the Cornell-wide 3.3); transfer admit rates by college or major; the fall 2027 Transfer Option deadline (fall 2026's was March 15, 2026); English test minimums for international applicants; how many transfers enter as sophomores versus juniors.
+- For Dyson the quiz sets your GPA against the Cornell-wide 3.3 figure and sends you to Dyson's admissions page for its course list.
+- The fall 2027 Transfer Option deadline is not yet announced; the fall 2026 deadline was March 15, 2026 ([Transfer Option applicants](https://admissions.cornell.edu/transfer-option-applicants)).
 
 ## How to read the result
 

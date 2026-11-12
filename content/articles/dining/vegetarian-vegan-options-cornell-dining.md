@@ -27,8 +27,8 @@ sources:
 - url: https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/dining-rooms
   title: 'Cornell Dining: Residential dining rooms'
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/dining/eateries-menus
-  title: 'Cornell Dining: Eateries and menus'
+- url: https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets
+  title: 'Cornell Dining: Nutrition and special diets'
   accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: 'Cornell Dining: Undergraduate meal plans, 2026-2027'
@@ -71,7 +71,7 @@ images:
 - Cornell lists dedicated vegan stations at Morrison Dining and Okenshields only, with plant-based items at every location.
 - Cafe menu boards mark vegetarian dishes "VG" and vegan dishes "VN."
 - Students disagree: a 2021 Sun column praised Risley, and a 2025 column called Morrison repetitive.
-- First-years cannot reduce or cancel the Unlimited plan, so plan restaurant backups before the semester starts.
+- The Unlimited plan is required for first-year undergraduates, so plan restaurant backups before the semester starts.
 ```
 
 Cornell Dining runs dedicated vegan stations at two dining rooms, Morrison and Okenshields, and says plant-based items appear at every campus eatery ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/nutrition-special-diets/vegan-and-vegetarian-resources-campus)). Student columnists in the Sun rate the halls very differently, so use the table below to pick where to eat.
@@ -84,7 +84,7 @@ In the dining rooms, Cornell labels its Plant Forward options at the stations. I
 
 Cornell lists ten residential dining rooms, which are the halls where one swipe buys a meal: Morrison Dining, North Star, Risley, Okenshields, Becker House, Cook House, Jansen's at Bethe House, Keeton House, Rose House and 104West! ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/dining-rooms)).
 
-To check tonight's dishes, use Dining Now for menus and NetNutrition for ingredient and allergen details. Open it on the day you plan to eat, since hours and menus change ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus)). Questions about a specific diet go to the Dining Nutrition Office at 108 Appel Commons, (607) 255-9280.
+To check dishes, many retail units post menus, allergen and ingredient details on NetNutrition, where you can filter for "vegan" or "vegetarian" ([Cornell Dining](https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/nutrition-special-diets/vegan-and-vegetarian-resources-campus)). Questions about a specific diet go to Cornell Dining's registered dietitians at 108A Appel Commons, 607-254-2389 or diningnutrition@cornell.edu ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets)).
 
 ## Which dining halls do students say work best?
 
@@ -101,7 +101,7 @@ The Sun's student columns span several years, so treat each line as one writer's
 
 Source: The Cornell Daily Sun columns of [Oct. 24, 2021](https://cornellsun.com/2021/10/24/dining-halls-as-a-vegan/), [Oct. 27, 2021](https://www.cornellsun.com/article/2021/10/okenshields-renovations-meet-mixed-reviews-from-students) and [March 10, 2025](https://cornellsun.com/2025/03/10/cornells-abandonment-of-vegetarian-students-and-where-they-can-eat-instead).
 
-The 2021 vegan writer also listed misses. A vegan grilled cheese was badly made, vegan waffles disappeared, and some days had thin vegan choices. Her tips were to check the Eatery app menus and to ask the staff. A 2019 column on West Campus food said some items labeled vegan contained dairy, and that dining workers helped when students treated them respectfully ([The Sun](https://www.cornellsun.com/article/2019/02/inocciduous-thoughts-things-ive-noticed-about-food-on-west-campus)). Ask at the station if a label matters to you.
+The 2021 vegan writer also listed misses. A vegan grilled cheese was badly made, vegan waffles disappeared, and some days had thin vegan choices. Her tips were to check the Eatery app menus and to ask the staff. A 2019 column on West Campus food said some items labeled vegan contained dairy ([The Sun](https://www.cornellsun.com/article/2019/02/inocciduous-thoughts-things-ive-noticed-about-food-on-west-campus)). Ask at the station if a label matters to you.
 
 <!-- ad-break -->
 
@@ -120,7 +120,7 @@ Singhi's 2025 column ([The Sun](https://cornellsun.com/2025/03/10/cornells-aband
 Moosewood posts weekday lunch from 11:30 a.m. to 3 p.m., dinner from 5 to 9 p.m., and weekend brunch from 11 a.m. to 2:30 p.m. It is closed Tuesdays ([Moosewood](https://moosewood.com/menu/)). Check the hours of any other spot before a late trip.
 
 ```reader "If you're a first-year"
-Unlimited is required for first-years, and you cannot reduce or cancel it ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). Call the Dining Nutrition Office before move-in to ask how your hall handles your diet. The [first-year guide](/start/first-year/) covers the rest of the dining rules.
+Unlimited is required for first-year undergraduates ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). Contact Cornell Dining's dietitians before move-in to ask how your hall handles your diet. The [first-year guide](/start/first-year/) covers the rest of the dining rules.
 ```
 
 ```reader "If you live off campus"
@@ -133,6 +133,6 @@ Co-op residents cook some of their own meals. 660 Stewart Avenue lists an option
 
 ## What to do next
 
-Open Dining Now on the day you plan to eat and look for the vegan station at Morrison or Okenshields. If the menu falls short, ask the station staff what else they can make, then fall back on a restaurant from the list above.
+Check NetNutrition on the day you plan to eat and look for the vegan station at Morrison or Okenshields. If the menu falls short, ask the station staff what else they can make, then fall back on a restaurant from the list above.
 
 Related guides: [Morrison Dining](/cornell/dining/morrison-dining-cornell/), [Okenshields](/cornell/dining/okenshields-cornell-dining/) and [the Cornell meal plan calculator](/tools/cornell-meal-plan-calculator-by-meals-a-week/).

@@ -1,5 +1,5 @@
 ---
-title: "Easy Cornell A&S distribution courses: what we can verify"
+title: "Easy Cornell A&S distribution courses"
 meta: "No official list ranks easy A&S distribution courses. Here is how to fill all 10 categories in 8 courses and find the lighter picks."
 primary_query: "cornell arts and sciences easy distribution courses"
 topic: academics
@@ -8,13 +8,13 @@ type: how-to
 updated: 2026-11-11
 queue_id: q-academics-0005
 sources:
-  - {url: "https://as.cornell.edu/degree-requirements", title: "Degree Requirements, Cornell College of Arts & Sciences", accessed: "2026-11-07"}
-  - {url: "https://as.cornell.edu/registrar/course-enrollment", title: "Course Enrollment, Cornell College of Arts & Sciences", accessed: "2026-11-07"}
+  - {url: "https://as.cornell.edu/degree-requirements", title: "Degree Requirements, Cornell College of Arts & Sciences", accessed: "2026-11-11"}
+  - {url: "https://as.cornell.edu/registrar/course-enrollment", title: "Course Enrollment, Cornell College of Arts & Sciences", accessed: "2026-11-11"}
   - {url: "https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/", title: "Distribution Codes: Arts and Sciences, Cornell University Catalog", accessed: "2026-11-07"}
-  - {url: "https://www.news.cornell.edu/stories/2018/11/arts-and-sciences-faculty-approves-new-undergrad-curriculum", title: "Arts and Sciences faculty approves new undergrad curriculum, Cornell Chronicle", accessed: "2026-11-07"}
-  - {url: "https://as.cornell.edu/news/arts-sciences-faculty-approve-new-curriculum", title: "Arts & Sciences faculty approve new curriculum, Cornell College of Arts & Sciences", accessed: "2026-11-07"}
-  - {url: "https://as.cornell.edu/news/how-complete-distribution-requirements-while-watching-music-videos", title: "How to Complete Distribution Requirements While Watching Music Videos, Cornell College of Arts & Sciences", accessed: "2026-11-07"}
-  - {url: "https://www.cornellsun.com/article/2017/09/biweekly-jokes-for-everyday-folks-how-cornell-markets-liberal-arts", title: "Biweekly Jokes for Everyday Folks: How Cornell Markets Liberal Arts, The Cornell Daily Sun, September 4, 2017", accessed: "2026-11-07"}
+  - {url: "https://www.news.cornell.edu/stories/2018/11/arts-and-sciences-faculty-approves-new-undergrad-curriculum", title: "Arts and Sciences faculty approves new undergrad curriculum, Cornell Chronicle", accessed: "2026-11-11"}
+  - {url: "https://as.cornell.edu/news/arts-sciences-faculty-approve-new-curriculum", title: "Arts & Sciences faculty approve new curriculum, Cornell College of Arts & Sciences", accessed: "2026-11-11"}
+  - {url: "https://as.cornell.edu/news/how-complete-distribution-requirements-while-watching-music-videos", title: "How to Complete Distribution Requirements While Watching Music Videos, Cornell College of Arts & Sciences", accessed: "2026-11-11"}
+  - {url: "https://www.cornellsun.com/article/2017/09/biweekly-jokes-for-everyday-folks-how-cornell-markets-liberal-arts", title: "Biweekly Jokes for Everyday Folks: How Cornell Markets Liberal Arts, The Cornell Daily Sun, September 4, 2017", accessed: "2026-11-11"}
   - {url: "https://as.cornell.edu/registrar/transferring-credits", title: "Transferring Credits, Cornell College of Arts & Sciences", accessed: "2026-11-11"}
 images:
   - {file: "1.webp", alt: "Part of the Arts Quad at Cornell, with campus buildings and lawn", caption: "The Arts Quad, home of most College of Arts & Sciences classrooms.", credit: "P. Hughes / Wikimedia Commons", credit_url: "https://commons.wikimedia.org/wiki/File:Cornell_University_-_Partial_view_of_Arts_Quad.jpg", license: "CC BY-SA 4.0", license_url: "https://creativecommons.org/licenses/by-sa/4.0"}
@@ -79,7 +79,7 @@ Before you enroll in either, check the current roster listing for an -AS code an
 
 ## Category by category: what to look for
 
-The official descriptions on the [degree requirements page](https://as.cornell.edu/degree-requirements) tell you what each category expects; the [catalog](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/) is the official per-category course list for every bullet below. Any read of workload is our advice, not grade data.
+The official descriptions on the [degree requirements page](https://as.cornell.edu/degree-requirements) tell you what each category expects; the [catalog](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/) is the official per-category course list for every bullet below.
 
 - **ALC-AS:** creative expression and analysis of texts, artworks and belief systems. Expect reading and papers more than problem sets. [Course list](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/).
 - **HST-AS:** analysis of documentary, material and oral evidence. Expect reading and papers. [Course list](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/).

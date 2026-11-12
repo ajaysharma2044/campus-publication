@@ -117,7 +117,7 @@ Apply in the spring of your first year. Cornell takes students with [two to four
 ```
 
 ```reader "If you're entering as a junior"
-Your list is longer: two composition courses, both microeconomics and macroeconomics, math, one science-and-technology course and at least 2 ILR elective credits. ILR counts at most 60 transfer and exam credits and requires four full-time semesters at Cornell. A student with 90 credits loses 30 and spends ten semesters in college, by our count. Cornell's admissions office [discourages junior-year transfer](https://faq.enrollment.cornell.edu/kb/article/323-can-i-transfer-to-cornell-in-my-junior-year-from-another-college/) from a four-year school for exactly that reason. You are exempt from the one-year campus housing rule, so start a lease search as soon as you are admitted. The costly mistake: arriving with 75 or more credits and assuming they all count.
+Your list is longer: two composition courses, both microeconomics and macroeconomics, math, one science-and-technology course and at least two courses toward ILR elective credits. ILR counts at most 60 transfer and exam credits and requires four full-time semesters at Cornell. A student with 90 credits loses 30 and spends ten semesters in college, by our count. Cornell's admissions office [discourages junior-year transfer](https://faq.enrollment.cornell.edu/kb/article/323-can-i-transfer-to-cornell-in-my-junior-year-from-another-college/) from a four-year school for exactly that reason. You are exempt from the one-year campus housing rule, so start a lease search as soon as you are admitted. The costly mistake: arriving with 75 or more credits and assuming they all count.
 ```
 
 ```reader "If you're at a community college"
@@ -144,9 +144,9 @@ ILR's course list depends on the standing you would enter with. Take every cours
 |---|---|---|
 | Writing | 1 composition or writing course | 2 composition courses |
 | Economics | 1 introductory economics course | Both microeconomics and macroeconomics |
-| Math | Math up to statistics or calculus | Math |
+| Math | Math up to statistics or calculus | Math up to statistics or calculus |
 | Science | 1 science-and-technology course (or a language course) | 1 science-and-technology course |
-| ILR electives | None listed | At least 2 ILR elective credits |
+| ILR electives | Optional; language classes count | At least 2 elective courses; language classes count |
 
 Source: [ILR transfer guidelines, fall 2026](https://www.ilr.cornell.edu/sites/default/files-d8/2026-02/transfer-guidelines-fa-26-final.pdf), updated February 10, 2026.
 

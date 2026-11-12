@@ -17,7 +17,8 @@ readers:
 - parent
 - low-budget
 - grad-student
-subject: Cornell Dining cafe counter with students ordering
+subject:
+- Cornell Dining cafe counter with students ordering
 tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs
@@ -62,16 +63,8 @@ sources:
 - url: https://cornellsun.com/2025/02/13/big-red-food-court-a-new-york-style-dining-experience-set-to-open-on-college-avenue/
   title: 'The Cornell Daily Sun: Big Red Food Court to open on College Avenue, Feb. 13, 2025'
   accessed: '2026-11-10'
-images:
-- file: 1.webp
-  alt: Inside Manndible Cafe in Mann Library at Cornell, with students at tables and the counter at the back
-  caption: Manndible Cafe in Mann Library. Big Red Bucks are a dollar-for-dollar food balance on your Cornell ID; this guide covers where they work, how to add money and when they expire.
-  credit: Notyourbroom / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_Manndible.jpg
-  author: Notyourbroom
-  source_url: https://commons.wikimedia.org/wiki/File:Cornell_Manndible.jpg
-  license: CC BY 3.0
-  license_url: https://creativecommons.org/licenses/by/3.0
+images: []
+lead_photo: none-found 2026-11-11
 ---
 
 

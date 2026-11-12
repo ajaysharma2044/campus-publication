@@ -147,7 +147,7 @@
     } else if (out === 'exempt') {
       head = 'Not yet. You qualify for an exemption, and it must be approved before you sign.';
       why.push('Your exemption' + (ex.length > 1 ? 's' : '') + ': ' + ex.join('; ') + '.');
-      steps.push('Log into the Housing application and request the exemption for that term while the window is open (spring and fall). For 2026-27 the deadline was ' + v('appDeadline') + '; the 2027-28 date is not posted in our sources yet; expect April.');
+      steps.push('Log into the Housing application and request the exemption for that term while the window is open (spring and fall). For 2026-27 the deadline was ' + v('appDeadline') + '; Cornell has not yet announced the 2027-28 date.');
       steps.push('Have documents ready; Cornell says supporting documentation may be required.' + (par === 'local' ? ' For a commuter exemption, Housing may contact you to discuss.' : ''));
       steps.push('Sign the lease only after the approval arrives.');
       steps.push('Reapply every year: an exemption lasts ' + v('exemptionYears') + ' academic year.');
@@ -163,7 +163,7 @@
 
     if (vet === 'rotc') notes.push('ROTC participation does not count as military service for the veteran exemption.');
     if (age === v('ageExempt') - 1) notes.push('Turning 21 after the year starts does not count: the age exemption needs 21 by the first day of the academic year.');
-    if (newTr && out === 'exempt' && ex.join().indexOf('transfer') >= 0) notes.push("Cornell's transfer page says all new transfers live on campus for one academic year; the residential policy exempts transfers entering as juniors or seniors or with two years on campus. Get the exemption approved in writing before signing. When new transfers file is not stated beyond the open application period.");
+    if (newTr && out === 'exempt' && ex.join().indexOf('transfer') >= 0) notes.push("Cornell's transfer page says all new transfers live on campus for one academic year; the residential policy exempts transfers entering as juniors or seniors or with two years on campus. Get the exemption approved in writing before signing.");
     if (tr === 'earlier' && under) notes.push('Transfers must reapply for any exemption each year.');
     if ((out === 'stay' || out === 'exempt') && under) {
       if (aff === 'greek-member' && year === 'soph') notes.push('A chapter house counts for year two. Be a member when you file the housing application, file it anyway, and affirm living in by ' + v('greekAffirm') + ' (the 2026-27 date). Confirmed members skip the April Spring Housing Selection for Rising Sophomores.');

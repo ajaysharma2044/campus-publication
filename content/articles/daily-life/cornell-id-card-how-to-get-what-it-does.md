@@ -59,7 +59,7 @@ Your Cornell ID card is replaced at the Registrar's ID card office, 245 Day Hall
 
 ```glance
 - A replacement ID costs $40 at 245 Day Hall, and the office issues no temporary cards.
-- The ID is your TCAT pass: free for all new students, then free evenings and weekends.
+- The ID is your TCAT pass: unlimited rides for new students, then free evenings and weekends.
 - If a bus reader rejects the card, a cash fare is $1.50.
 - Lost your card? Call the Registrar at 607-255-4232.
 ```
@@ -72,9 +72,9 @@ First cards and replacements come from the same office, in person. With a questi
 
 ## What does a replacement Cornell ID cost?
 
-A replacement costs $40, charged to your Bursar account, and Cornell has no temporary ID card ([Cornell Registrar](https://registrar.cornell.edu/students/services/id-cards)). That matters because the card does several jobs at once. Until the new one arrives you pay your own way on buses and rely on other ways to pay in dining rooms.
+A replacement costs $40, charged to your Bursar account, and Cornell has no temporary ID card ([Cornell Registrar](https://registrar.cornell.edu/students/services/id-cards)). That matters because the card does several jobs at once.
 
-If you lose it, report it to the Registrar at 607-255-4232 ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). Cornell Dining also tells students to report a lost card to the Registrar, so one call covers every use.
+If you lose it, report it to the Registrar at 607-255-4232 ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)).
 
 ## What does the Cornell ID do?
 
@@ -91,11 +91,11 @@ Source: [Cornell Transportation](https://fcs.cornell.edu/departments/transportat
 
 ### Is the Cornell ID a TCAT bus pass?
 
-Yes. New degree students get automatic unlimited TCAT rides with a Cornell ID, and Cornell calls them [free for all new students with a Cornell ID card](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). That covers first-year undergraduates, graduate and PhD students and transfers. The pass expires Aug. 31 for students who start in the fall and Dec. 31 for students who start in the spring.
+Yes. Cornell says that as a new student you [automatically get OmniRide privileges for unlimited TCAT rides](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) with your Cornell ID. The pass expires Aug. 31 for students who start in the fall and Dec. 31 for students who start in the spring.
 
 After that year, you ride free on weekday evenings after 6 p.m. and all weekend. When the farebox rejects your card, you may need to pay the $1.50 cash fare, and a bent or damaged card needs replacing before it works again ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). During free hours, drivers have been told to override a rejected ID ([The Cornell Daily Sun](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free)). The details, including the mid-October 2024 change that ended free rides at all hours for students past their first year, are in our [TCAT guide](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/).
 
-Cornell's Campus to Campus bus to New York City and Westchester is a different system. The driver checks a [photo ID that matches the name on your reservation](https://c2cbus.ipp.cornell.edu/Start.aspx) before you board, and Cornell riders book with a NetID, so see the [Campus to Campus booking guide](/cornell/getting-around/cornell-c2c-bus-booking-fares-rules/) for fares and rules.
+Cornell's Campus to Campus bus to New York City and Westchester is a different system. The driver checks a [photo ID that matches the name on your reservation](https://c2cbus.ipp.cornell.edu/Start.aspx) before you board. See the [Campus to Campus booking guide](/cornell/getting-around/cornell-c2c-bus-booking-fares-rules/) for fares and rules.
 
 ### Can your phone replace the physical card?
 

@@ -1,8 +1,8 @@
 ---
 title: 'Who owns Collegetown buildings: the landlords'
 mode: answer
-dek: The main Collegetown managers, what each one runs, and the owners of record the county assessment roll names behind the buildings.
-meta: 'Who owns Collegetown buildings: the main landlords and managers, what each one runs, owners of record on the county roll, and how each handles leasing.'
+dek: The main Collegetown managers, what each one runs, who owns the buildings, and how each handles leasing.
+meta: 'Who owns Collegetown buildings: the main landlords and managers, what each one runs, how concentrated ownership is, and how each handles leasing.'
 primary_query: who owns collegetown buildings landlords
 topic: housing
 school: cornell-university
@@ -41,9 +41,6 @@ sources:
 - url: https://ithacarenting.com/collegetown/
   title: 'Ithaca Renting: Collegetown properties and per-bed prices'
   accessed: '2026-11-11'
-- url: https://www.tompkinscountyny.gov/files/assets/county/v/1/assessment/documents/assessment-rolls/city-final-2026.pdf
-  title: City of Ithaca 2026 final assessment roll, Tompkins County
-  accessed: '2026-11-11'
 - url: https://cornellsun.com/2013/05/02/collegetown-housing-market-scrutinized/
   title: Collegetown housing market scrutinized, The Cornell Daily Sun, May 2013
   accessed: '2026-11-11'
@@ -64,20 +61,20 @@ images: []
 
 
 ```glance
-- Lambrou Real Estate lists 37 properties; Urban Ithaca lists over 120 apartments and houses.
-- The county roll lists Jason Fane, or Fane Enterprises Inc., as owner of record for 20 parcels.
+- Urban Ithaca lists over 120 apartments and houses; Lambrou lists 16 houses of 3 to 24 bedrooms.
+- The Ivy at 325 College Ave. has 52 units, nearly all leased before construction finished.
 - Ithaca Renting posts a full per-bed price list for its Collegetown units.
 - In 2013, eight landlords owned 4,013 of an estimated 6,110 Collegetown bedrooms.
 ```
 
-A small group of management companies runs much of Collegetown: Modern Living Rentals, Lambrou Real Estate, Urban Ithaca, Ithaca Renting Company and PPM Homes among them. Ask who the owner of record is before you sign; the [Tompkins County assessment roll](https://www.tompkinscountyny.gov/files/assets/county/v/1/assessment/documents/assessment-rolls/city-final-2026.pdf) lists owners by parcel.
+Modern Living Rentals, Lambrou Real Estate, Urban Ithaca, Ithaca Renting Company and PPM Homes are among the main Collegetown managers. Before you sign, ask who owns the building and which company signs the lease.
 
-## Who manages the most Collegetown buildings?
+## Who are the main Collegetown managers?
 
 | Manager | What it runs | Office |
 |---|---|---|
 | Modern Living Rentals | The Ivy, The Bear, The Summit and 309 College Ave. | 200 E. Buffalo St. |
-| Lambrou Real Estate | 37 properties: 15 apartment buildings, 16 houses of 3 to 24 bedrooms, 6 downtown units | 405 Eddy St. |
+| Lambrou Real Estate | 15 apartment listings, 16 houses of 3 to 24 bedrooms and 6 downtown units | 405 Eddy St. |
 | Urban Ithaca | "Over 120 apartments and houses," studios to 11 bedrooms | 307 College Ave. |
 | Ithaca Renting Company | 18 properties in Collegetown and downtown; per-bed prices posted | |
 | PPM Homes | Residential and commercial properties, managed since 1992; rent on request | 116 W. Buffalo St. |
@@ -88,11 +85,9 @@ Student Agencies, founded in 1894 and the oldest independent student-run company
 
 ## Who owns the buildings the managers run?
 
-A manager and an owner are not always the same. The 2026 county assessment roll shows owners of record, and the pattern is concentrated. Jason Fane, or Fane Enterprises Inc., is owner of record for 20 parcels, and ENP Associates, L.P. for 13. The roll lists owners of record by parcel, so match a manager's listing to its owner by address ([Tompkins County](https://www.tompkinscountyny.gov/files/assets/county/v/1/assessment/documents/assessment-rolls/city-final-2026.pdf)).
+A manager and an owner are not always the same, so ask the manager which company owns the building and which signs the lease.
 
 Charlie O'Connor, owner of Modern Living Rentals, developed The Ivy with Nick Robertson. The Ivy at 325 College Ave. has 52 units, and nearly all were leased before construction finished ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026)).
-
-Many buildings sit in single-purpose companies. A Collegetown Crossing LLC owns 307 College Ave. The LLC name tells you little, so ask the manager which company signs the lease ([Tompkins County](https://www.tompkinscountyny.gov/files/assets/county/v/1/assessment/documents/assessment-rolls/city-final-2026.pdf)).
 
 ## How concentrated is the market?
 
@@ -107,7 +102,7 @@ Leasing dates differ by landlord, and the Sun has recorded several. Ithaca Renti
 Dates move every year, so use [when to sign a Collegetown lease](/cornell/housing/when-to-sign-collegetown-lease-cornell/) for the current window.
 
 ```reader "If you're a parent paying the rent"
-Ask for the owner of record and the manager in writing, and ask which company signs the lease. A 2026 county roll lookup by address confirms the owner in minutes. Do not treat a manager's size as a quality signal in either direction.
+Ask for the owner and the manager in writing, and ask which company signs the lease. Do not treat a manager's size as a quality signal in either direction.
 ```
 
 ## What does it cost with each landlord?
@@ -120,6 +115,6 @@ Call the City Building Division about the building's certificate, read the lease
 
 ## What to do next
 
-1. Look up your building's owner of record on the county roll.
+1. Ask the manager which company owns the building and signs the lease.
 2. Ask the manager for lease dates and price per bed in writing.
 3. Run the certificate check before you pay a deposit.

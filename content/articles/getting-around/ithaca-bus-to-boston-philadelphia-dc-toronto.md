@@ -119,14 +119,16 @@ sources:
   accessed: '2026-11-11'
 images:
 - file: 1.webp
-  alt: Aerial view of Boston's downtown towers and harbor from a small plane
-  caption: Boston from the air on a 1978 flight from Ithaca to Logan in a Mooney M20. Today ITH has no nonstop to Boston; the direct way is a FlixBus seat of 8 to 12 hours.
-  credit: Peter Christian Riemann / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Boston_from_the_air_(1978).2.jpg
+  alt: Exterior of OurBus
+  caption: Exterior of OurBus
+  credit: SM3544 / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Exterior_of_OurBus_.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
-  author: Peter Christian Riemann
-  source_url: https://commons.wikimedia.org/wiki/File:Boston_from_the_air_(1978).2.jpg
+  author: SM3544
+  source_url: https://commons.wikimedia.org/wiki/File:Exterior_of_OurBus_.jpg
+subject:
+- Exterior of OurBus
 ---
 
 ```glance

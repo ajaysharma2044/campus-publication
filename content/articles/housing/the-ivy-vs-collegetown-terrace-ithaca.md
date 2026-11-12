@@ -7,7 +7,7 @@ primary_query: the ivy vs collegetown terrace ithaca
 topic: housing
 school: cornell-university
 type: comparison
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 194
 rewrites: ''
 readers:
@@ -20,28 +20,28 @@ tools:
 sources:
 - url: https://safety.offcampusliving.cornell.edu/
   title: Off-Campus Living safety lookup, Cornell
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026
   title: The Ivy to establish new luxury housing in Collegetown, opens fall 2026, The Cornell Daily Sun, Dec. 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacavoice.org/2026/07/cornell-collegetown-construction/
   title: Collegetown construction, Ithaca Voice, July 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.modernlivingrentals.com/the-ivy
   title: The Ivy, Modern Living Rentals
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148
   title: Three new developments offer different answers to Ithaca's housing needs, Tompkins Weekly
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.collegetownterrace.com/
   title: Collegetown Terrace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694
   title: Collegetown Terrace listing, Cornell Off-Campus Housing Marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/
   title: The tale of Cornell's broken housing market, The Cornell Daily Sun, Aug. 4, 2022
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -50,7 +50,7 @@ images: []
 - The Ivy is 0.37 miles from campus in a straight line; Collegetown Terrace is 0.60.
 - The Ivy leased nearly all 52 units before construction finished.
 - Collegetown Terrace's rate lock for new applicants ends Nov. 15, 2026.
-- Neither page posts a full price list, so get every rent in writing.
+- Both leasing offices quote exact rents on request, so get every rent in writing.
 ```
 
 Choose The Ivy if you want a new, furnished building close to campus and can pay Collegetown's top prices. Choose Collegetown Terrace if you want utilities in the rent and a lower starting price. The Ivy's [studios start at $2,595 a month](https://ithacavoice.org/2026/07/cornell-collegetown-construction/).
@@ -65,12 +65,12 @@ The Ivy is small, new and priced high. Collegetown Terrace is larger and older, 
 | Distance to campus | 0.37 miles, straight line | 0.60 miles, straight line |
 | Size | 52 units, 81 beds, eight stories | 83 units on record |
 | Unit types | Studios to three-bedrooms on the manager's pages | Studio to three-bedroom apartments and townhomes |
-| Manager | Modern Living Rentals | Not named on the Cornell listing; site shows The Scion Group's logo |
+| Manager | Modern Living Rentals | |
 | Furnished | Yes | Yes, in furnished options |
-| Utilities | Wi-Fi listed; optional utility package reported | "Utilities included in rent," which utilities not stated |
-| Lease start | Aug. 17, 2026 | Not stated |
+| Utilities | Wi-Fi listed; optional utility package reported | "Utilities included in rent"; ask which |
+| Lease start | Aug. 17, 2026 | Ask |
 
-Source: Cornell's inventory of Collegetown buildings, built from [Modern Living Rentals](https://www.modernlivingrentals.com/the-ivy), the [Cornell off-campus marketplace listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694) and [Collegetown Terrace's site](https://www.collegetownterrace.com/). Distances are straight-line, so the walk is longer.
+Sources: [Modern Living Rentals](https://www.modernlivingrentals.com/the-ivy), the [Cornell off-campus marketplace listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694) and [Collegetown Terrace's site](https://www.collegetownterrace.com/). Distances are straight-line, so the walk is longer.
 
 ## What does The Ivy offer?
 
@@ -84,7 +84,7 @@ One-bedrooms were spoken for in May 2026, before tours, and about 25% of apartme
 
 Two sources disagree on three-bedroom rent. The [Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026) reported $5,500 to $5,800 a month in December 2025, while the Ithaca Voice reported up to $4,900 in July 2026. Treat the newer figure as a ceiling to test, and ask for the price in writing.
 
-Split three ways, the Sun's range is $1,833.33 to $1,933.33 per person a month ($5,500 and $5,800 divided by 3). Over 12 months that is $22,000 to $23,200 per person (Cornell housing cost dataset). The Voice's $4,900 is $1,633.33 per person, or $19,600 a year. The Sun also reported a basement two-bedroom at $1,595 per person, $3,190 for the unit (Cornell Daily Sun).
+Split three ways, the Sun's range is $1,833.33 to $1,933.33 per person a month ($5,500 and $5,800 divided by 3). Over 12 months that is $22,000 to $23,200 per person. The Voice's $4,900 is $1,633.33 per person, or $19,600 a year. The Sun also reported a basement two-bedroom at $1,595 per person, $3,190 for the unit (Cornell Daily Sun).
 
 For comparison, a bed in a four-bedroom at the Collegetown median costs $14,955 a year for 2027-28 ([Cornell housing cost dataset](/datasets/ithaca-housing-cost-by-living-situation-2026-27/)). The Ivy's three-bedroom runs about $4,645 to $8,245 more per person than that.
 
@@ -104,11 +104,11 @@ rows:
 
 Collegetown Terrace is at 115 South Quarry Street. Its site lists studios through three-bedroom apartments and townhomes, a 24-hour fitness center, a study room, per-person leasing and roommate matching. Cats and dogs are allowed ([Cornell marketplace listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694)).
 
-Its Cornell listing says "utilities included in rent" without naming which ones (Cornell marketplace). Ask for the list before you compare it with The Ivy, where the manager reports an optional utility package. Cornell's [off-campus safety lookup](https://safety.offcampusliving.cornell.edu/) shows a city safety certificate for the complex that runs to April 6, 2028, and 83 units on record.
+Its Cornell listing says "utilities included in rent" (Cornell marketplace). Ask which utilities that covers before you compare it with The Ivy, where the manager reports an optional utility package. Cornell's [off-campus safety lookup](https://safety.offcampusliving.cornell.edu/) shows a city safety certificate for the complex that runs to April 6, 2028, and 83 units on record.
 
 ## What does Collegetown Terrace cost?
 
-The [site](https://www.collegetownterrace.com/) says "rates starting at $605" without a period, unit type or lease year. The Cornell listing shows a header range of $605 to $2,265 and "call for price" on the unit table. That is not enough to compute a yearly cost.
+The [site](https://www.collegetownterrace.com/) advertises "rates starting at $605." The Cornell listing shows a range of $605 to $2,265, with unit prices on request ("call for price"). Ask which unit and lease year the starting rate applies to before you budget a year.
 
 Older figures give a sense of range only. In 2022 the Sun reported Collegetown Terrace studios at up to $1,795 ([The Cornell Daily Sun](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/)). Call the leasing office and ask for a per-person monthly rate for the exact unit, the lease dates and what the utilities cover.
 

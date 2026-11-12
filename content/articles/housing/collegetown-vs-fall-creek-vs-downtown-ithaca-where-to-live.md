@@ -92,7 +92,7 @@ sources:
 - url: https://finaid.cornell.edu/graduate-students
   title: Graduate students, Cornell Financial Aid
   accessed: '2026-11-10'
-images:
+images: []
 - file: 1.webp
   alt: Svante Myrick, then a candidate, talking with residents on a Fall Creek sidewalk in Ithaca near the Gimme Coffee
   caption: Fall Creek in 2011, during Svante Myrick's door-to-door campaign near the Gimme Coffee. The neighborhood of subdivided houses sits 0.5 to 1 mile below campus, a 20 to 30 minute uphill walk.

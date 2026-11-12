@@ -73,7 +73,7 @@ The swap is also the only legal way to hand your room to someone. The 2027-28 li
 
 ## When can you swap rooms for 2027-28?
 
-You can swap only inside the two windows above. Each opens and closes at 10 a.m. Eastern time ([Room Change Processes](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/room-change-processes-cornell)).
+You can swap only inside the two windows above. Each opens and closes at 10 a.m. ([Room Change Processes](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/room-change-processes-cornell)).
 
 ```figure
 kind: timeline
@@ -123,7 +123,7 @@ Source: Cornell Housing and Residential Life, Room Change Processes at Cornell.
 
 A swap needs a request, the other student's acceptance, and then your own final acceptance. Until all three happen, both of you keep your original rooms. Listing your preferences doesn't commit you to anything. You can turn down any request you get, and you never have to finish a swap you started.
 
-A swap happens only when someone wants exactly what you have, and Cornell doesn't guarantee one. A double in a popular hall trades more easily than a room most students are trying to leave.
+A swap happens only when someone wants exactly what you have, and Cornell doesn't guarantee one.
 
 ## What does a swap cost compared with a room change?
 
@@ -165,7 +165,7 @@ Our [Cornell transfer housing guide](/cornell/housing/cornell-transfer-housing/)
 
 Three mistakes sink swaps, and Cornell can also move you on its own.
 
-1. **Missing the window.** Each window closes at 10 a.m. on its last day. A request still waiting on the final acceptance at that moment doesn't go through.
+1. **Missing the window.** Each window closes at 10 a.m. on its last day.
 2. **Not accepting the last step.** The student who sent the request has to accept once more after the other student says yes. Check the portal after your partner responds.
 3. **Trading outside the portal.** Moving into a friend's room without a recorded swap breaks the license rule above. It also leaves you billed for the room you were assigned.
 
@@ -178,9 +178,6 @@ Cornell's 2027 swap windows are in February and summer. During the year, you mov
 
 **Does a swap change my housing bill?**
 Under the 2027-28 license, you pay the housing charges for the room assigned to you, and they go on your Bursar account ([Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Before you accept a trade between room types, such as a double for a single, ask Housing Operations how your charges will change.
-
-**Can my roommate and I both swap to live together?**
-A swap trades two assignments, so the student you want to live with has to be the one moving out, or someone in the room you want has to trade with you. List the specific room type you want so the right student can find you.
 
 ## Who do you contact about a swap?
 

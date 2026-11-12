@@ -102,14 +102,14 @@ sources:
   accessed: '2026-11-08'
 images:
 - file: 1.webp
-  alt: Ithaca Commons (New York)
-  caption: Ithaca Commons (New York)
-  credit: Kenneth C. Zirkel / Wikimedia
-  credit_url: https://commons.wikimedia.org/wiki/File:Ithaca_Commons_(New_York).jpg
+  alt: Exterior of OurBus
+  caption: Exterior of OurBus
+  credit: SM3544 / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Exterior_of_OurBus_.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
-  author: Kenneth C. Zirkel
-  source_url: https://commons.wikimedia.org/wiki/File:Ithaca_Commons_(New_York).jpg
+  author: SM3544
+  source_url: https://commons.wikimedia.org/wiki/File:Exterior_of_OurBus_.jpg
 ---
 
 ```glance

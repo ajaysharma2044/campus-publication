@@ -182,7 +182,7 @@ Your round runs in the fall, not the spring, and campus housing is not guarantee
 Yes. The leader can hand the role to another member in the portal any time before the application closes. After that, send a request through Cornell Housing's help page and staff will make the change.
 
 **Will I know the room rates before I pick?**
-Final rates for 2027-28 come out in March 2027, before the April round. Rates shown earlier are projections that still need trustee approval.
+Final rates for 2027-28 come out in March 2027, before the April round.
 
 **Who can help during selection?**
 The Room Selection Help Desk at 607-255-5368 takes calls during every timeslot. You can also send a chat in the Housing and Dining Portal or submit a housing ticket.

@@ -2,7 +2,7 @@
 title: "Ithaca to NYC bus fares, Nov 8 2026: 6 carriers plus C2C"
 meta: "Ithaca to NYC bus fares by carrier: floor, average and departures for 6 carriers (Wanderu, Nov 8 2026) plus Cornell C2C's three fare tiers."
 topic: getting-around
-updated: 2026-11-08
+updated: 2026-11-11
 as_of: 2026-11-08
 sample_size: 6
 method: "Floor fares, average fares and daily departures for six carriers were read from one Wanderu route page on 2026-11-08 for travel Nov 8 to 14, 2026, then set against Cornell's posted C2C fares and two single operator fares, with the mean, median, C2C multiple and cost per mile calculated by hand."
@@ -11,11 +11,13 @@ kind: dataset
 readers: [low-budget, first-year, parent, upper-year-no-car]
 brief: intel/getting-around/brief.md
 sources:
-  - {url: "https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/", title: "Wanderu: Ithaca, NY to New York, NY buses", accessed: "2026-11-08"}
-  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates", title: "Cornell Transportation: Campus-to-Campus rates", accessed: "2026-11-08"}
-  - {url: "https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny", title: "OurBus: Ithaca, NY to New York, NY route page", accessed: "2026-11-08"}
-  - {url: "https://www.checkmybus.com/ithaca-ny/new-york-ny", title: "CheckMyBus: Ithaca to New York buses", accessed: "2026-11-08"}
-  - {url: "https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny", title: "Greyhound: Ithaca, NY to New York, NY", accessed: "2026-11-08"}
+  - {url: "https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/", title: "Wanderu: Ithaca, NY to New York, NY buses", accessed: "2026-11-11"}
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates", title: "Cornell Transportation: Campus-to-Campus rates", accessed: "2026-11-11"}
+  - {url: "https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny", title: "OurBus: Ithaca, NY to New York, NY route page", accessed: "2026-11-11"}
+  - {url: "https://www.checkmybus.com/ithaca-ny/new-york-ny", title: "CheckMyBus: Ithaca to New York buses", accessed: "2026-11-11"}
+  - {url: "https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny", title: "Greyhound: Ithaca, NY to New York, NY", accessed: "2026-11-11"}
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-frequently-asked-questions", title: "Cornell Transportation: C2C frequently asked questions", accessed: "2026-11-11"}
+  - {url: "https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/", title: "FingerLakes1: OurBus moves Ithaca stop to South Cayuga Street", accessed: "2026-11-11"}
 ---
 
 On Nov 8, 2026, the cheapest advertised seat from Ithaca to New York City ran **$25 to $43** across six commercial carriers, and their average fares ran **$44.54 to $82.31**. Cornell's Campus-to-Campus (C2C) bus costs **$93.50** one way with a NetID and **$101** for everyone else. That makes C2C **2.83 to 3.74 times** the cheapest commercial seat and **1.51 times** the six carriers' mean average fare.
@@ -31,16 +33,16 @@ Four things to take from it:
 
 ## Method
 
-Every step below comes from the topic brief (sections 3.1, 10.1, 10.6, 10.7 and 10.10). Anyone can redo it with the four pages linked.
+Anyone can redo every step below with the four fare pages linked.
 
 1. **Six-carrier sample.** Open the [Wanderu Ithaca to New York page](https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/) (read 2026-11-08; sample week Sun Nov 8 to Sat Nov 14, 2026). Record each carrier's "from" fare, its average fare and its departures a day. Six carriers appear: OurBus, Coach USA, Megabus, FlixBus, Greyhound, Adirondack Trailways.
 2. **Floor mean and median.** Sort the "from" fares: 25.00, 28.98, 29.00, 30.00, 37.00, 43.00. Sum 192.98; mean 192.98 / 6 = $32.16; median (29.00 + 30.00) / 2 = $29.50.
 3. **Average-fare mean and median.** Sort the averages: 44.54, 44.77, 57.13, 69.23, 73.50, 82.31. Sum 371.48; mean 371.48 / 6 = $61.91; median (57.13 + 69.23) / 2 = $63.18.
 4. **Floor against average.** 25 / 61.91 = 0.404, so the cheapest seat is about 40% of a typical average fare.
 5. **Departures.** 20 + 13 + 8 + 5 + 2 + 1 = 49 a day; OurBus share 20 / 49 = 40.8%.
-6. **C2C tiers.** Read Cornell's [C2C rates page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates) (undated; read 2026-11-07 and 2026-11-08): public $101 / $202, NetID $93.50 / $187, department account $86 / $172. A temporary $6 fuel and toll surcharge is already in each one-way fare. Base fares without it: 101 - 6 = $95; 93.50 - 6 = $87.50; 86 - 6 = $80.
+6. **C2C tiers.** Read Cornell's [C2C rates page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates) (read 2026-11-07 and 2026-11-08): public $101 / $202, NetID $93.50 / $187, department account $86 / $172. A temporary $6 fuel and toll surcharge is already in each one-way fare. Base fares without it: 101 - 6 = $95; 93.50 - 6 = $87.50; 86 - 6 = $80.
 7. **C2C multiple.** Divide the NetID fare by the cheapest commercial seats: 93.50 / 33 (OurBus route page, 2026-11-08) = 2.83; 93.50 / 27 (FlixBus, travel date Sat Nov 7, [CheckMyBus](https://www.checkmybus.com/ithaca-ny/new-york-ny), read 2026-11-08) = 3.46; 93.50 / 25 (OurBus on Wanderu) = 3.74; 93.50 / 61.91 (six-carrier mean average) = 1.51.
-8. **Cost per mile.** Divide each one-way fare by 174.8 miles, the distance on the [OurBus route page](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny). The brief gives $0.15 (FlixBus $27), $0.19 (OurBus $33) and $0.53 (C2C NetID). The other per-mile figures in the table are the same division, rounded to the cent: for example 43 / 174.8 = $0.25 and 101 / 174.8 = $0.58.
+8. **Cost per mile.** Divide each one-way fare by 174.8 miles, the distance on the [OurBus route page](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny). For example 27 / 174.8 = $0.15 (FlixBus), 33 / 174.8 = $0.19 (OurBus), 93.50 / 174.8 = $0.53 (C2C NetID), 43 / 174.8 = $0.25 and 101 / 174.8 = $0.58, each rounded to the cent.
 
 Sample size: n = 6 carriers, one aggregator, one reading day. The three C2C rows are posted prices, not samples. Rows 12 and 13 are single readings, used only for the C2C multiple.
 
@@ -66,20 +68,19 @@ All fares are US dollars, one way, unless a column says round trip. "Per mile" u
 
 The same rows are published as ithaca-nyc-bus-fares-nov-2026.csv, with a notes column for each row.
 
-Who pays which C2C fare: the public fare is open to anyone, including parents and visitors. The NetID fare covers students, faculty and staff with a valid NetID on their account; there is no separate student-only fare. The department-account fare is for Cornell or Weill business travel paid by a department, not for personal trips. Since Nov 4, 2026, every rider needs a new C2C account; signing in without a NetID means paying $101 instead of $93.50, $7.50 more a trip.
+Who pays which C2C fare: the public fare is open to anyone, including parents and visitors. The NetID fare covers students, faculty and staff with a valid NetID on their account; there is no separate student-only fare. The department-account fare is for Cornell or Weill business travel paid by a department, not for personal trips. Cornell's new C2C reservation system, set to launch Nov 4, 2026, books 2027 travel, and every rider needs a new account in it, even past riders ([C2C FAQ](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-frequently-asked-questions)); booking without a NetID means paying $101 instead of $93.50, $7.50 more a trip.
 
 ## Caveats
 
 - **Small sample, one day.** Six carriers, one aggregator, read once on 2026-11-08 for one week of travel. Fares are dynamic and will differ on the day you search.
-- **"From" is not what you pay.** A "from" fare is the cheapest seat a page advertised on the cheapest day, not a fare anyone booked. The average fares cover dates Wanderu does not state, and the number of trips behind each average is not published.
+- **"From" is not what you pay.** A "from" fare is the cheapest seat a page advertised on the cheapest day, not a fare anyone booked. Wanderu's average fares are its own figures; treat them as a guide to typical prices, not a quote.
 - **Pages disagree with each other.** OurBus showed $25 and 20 departures a day on Wanderu but "from $33" and 9 buses a day on its own route page the same day. Greyhound showed $37 and 2 departures on Wanderu but "from $43.98" (an earlier view said $37.98) and 5 departures on its own page. Wanderu's own trip totals do not agree (37, 17 and 49). Book on the operator's site and check its price there.
 - **Distance is contested.** OurBus gives 174.8 miles; Greyhound gives about 227. On 227 miles every per-mile figure would be about 23% lower (174.8 / 227 = 0.77).
-- **No break week in the sample.** Nov 8 to 14 is an ordinary week. On three other routes from Ithaca (Binghamton, Rochester, DC), Thanksgiving-week floors ran 28% to 38% higher, mean +33.3%, in a capture on the same day; NYC was not in that sample, so applying it to NYC is an assumption.
-- **Monthly signals are aggregator claims.** Wanderu showed a November average of about $66 against about $41 in January, named Nov 19, 2026 as the cheapest November date, and claimed booking about 14 days ahead is cheapest. None of that is verified.
-- **C2C rates page is undated.** It was read as current on 2026-11-07 and 2026-11-08. The $6 surcharge is called temporary with no end date; if it ends, the fares fall to the base fares shown.
+- **No break week in the sample.** Nov 8 to 14 is an ordinary week. On three other routes from Ithaca (Binghamton, Rochester, DC), Thanksgiving-week floors read the same day ran 27.9% to 37.9% higher, mean +33.4% ([Thanksgiving bus fare premium from Ithaca](/datasets/thanksgiving-bus-fare-premium-ithaca-2026/)). Book break trips early.
+- **Monthly signals are aggregator claims.** Wanderu showed a November average of about $66 against about $41 in January, named Nov 19, 2026 as the cheapest November date, and said booking about 14 days ahead is cheapest. Check the fare for your own date before you book.
+- **The C2C surcharge is temporary.** Cornell calls the $6 fuel and toll surcharge temporary; if it ends, the fares fall to the base fares shown.
 - **Stops changed on Nov 9, 2026.** OurBus's downtown Ithaca stop moved from East Seneca St to 235 S. Cayuga St from Monday, Nov 9 ([FingerLakes1](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/)). Fares were read the day before.
-- **What it does not cover.** Bag fees (OurBus guarantees one large bag; Greyhound includes one carry-on and one checked bag; C2C takes two suitcases), NYC drop-off points, travel times beyond those noted, and taxes or booking fees at checkout.
-- **Not in the brief:** C2C departures a day (departure times are posted but the day-by-day mapping was unreadable), the number of trips behind each Wanderu average, Coach USA's and Trailways' own posted fares for this week, the OurBus student discount amount, and NYC fares for Thanksgiving week or the December finals rush.
+- **Fares only.** The table leaves out bag allowances (OurBus guarantees one large bag; Greyhound includes one carry-on and one checked bag; C2C takes two suitcases), NYC drop-off points, travel times, and taxes or booking fees at checkout.
 
 ## How to cite
 

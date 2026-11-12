@@ -146,7 +146,7 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits
   title: Security Deposits, Cornell Law School Tenant Advocacy guide
   accessed: '2026-11-10'
-images:
+images: []
 - file: 1.webp
   alt: Cornell University - North Campus area
   caption: Cornell University - North Campus area

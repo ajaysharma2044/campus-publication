@@ -107,7 +107,7 @@ images:
 - Classes began Monday, August 24, 2026; most transfers enroll during add/drop, with the add deadline September 8.
 ```
 
-In fall 2026, Cornell moved transfers into their rooms on [Tuesday, August 18, the day after first-years](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation), and New Student Orientation ran August 18 to 23. Transfers attend the [same required programs as first-years](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/orientation), plus small groups and socials of their own. Fall 2027 dates are not posted yet, so plan on the 2026 pattern: arrive in mid-August, about a week before classes.
+In fall 2026, Cornell moved transfers into their rooms on [Tuesday, August 18, the day after first-years](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation), and New Student Orientation ran August 18 to 23. Transfers attend the [same required programs as first-years](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/orientation), plus small groups and socials of their own. Cornell has not yet announced fall 2027 dates, so plan on the 2026 pattern: arrive in mid-August, about a week before classes.
 
 ```reader "If you're a sophomore transfer living on campus"
 Your move-in slot is the one you picked in the Housing and Dining Portal after you signed your license. You can [change it until August 1](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process). In 2026 transfers moved in August 18, then went straight into orientation through August 23. Go to your college's program, Community at Cornell, the Orientation Leader meetings and Cornell's Caring Community; those are required. Go to the transfer small groups too. The costly mistake is skipping the Re-Entry Term Checklist in Student Center: it puts a [hold on your enrollment](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment/creating-your-schedule) the week you need to add classes.
@@ -131,7 +131,7 @@ Cornell says non-traditional students [may skip some optional orientation events
 
 ## Move-in and orientation, day by day (the 2026 pattern)
 
-Cornell posts the coming year's dates on the [New Student Orientation page](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation). The fall 2027 schedule is not there yet. Here is how fall 2026 ran, from the NSO page, the [Cornell Chronicle's August 13, 2026 story](https://news.cornell.edu/node/333429), Engineering's [transfer orientation page](https://www.duffield.cornell.edu/advising/new-engineering-students/orientation/transfer-student-orientation/) and the [registrar's calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar).
+Cornell posts the coming year's dates on the [New Student Orientation page](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation); fall 2027 dates are not yet announced. Here is how fall 2026 ran, from the NSO page, the [Cornell Chronicle's August 13, 2026 story](https://news.cornell.edu/node/333429), Engineering's [transfer orientation page](https://www.duffield.cornell.edu/advising/new-engineering-students/orientation/transfer-student-orientation/) and the [registrar's calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar).
 
 ```figure
 kind: timeline
@@ -161,7 +161,7 @@ Two things change around these dates. Your student health plan coverage starts [
 
 ### Ignore two kinds of stale dates
 
-The Tatkon Center's transfer [arrival page](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/your-arrival) still says new students move in August 19 and 20. It carries no year and is from an earlier fall; the 2026 transfer day was August 18. Trust the NSO page and the Chronicle over it.
+The Tatkon Center's transfer [arrival page](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/your-arrival) gives August 19 and 20 as move-in days; those dates are from an earlier fall. The 2026 transfer day was August 18, so go by the NSO page and the Chronicle.
 
 Search results for "Cornell transfer orientation" also mix in [Cornell College in Mount Vernon, Iowa](https://www.cornellcollege.edu/admissions/transfer-students/transfer-of-academic-credit.shtml), a different school. If a page mentions Mount Vernon or Iowa, it is not about Ithaca.
 
@@ -224,7 +224,7 @@ Two Sun pieces show why the first weeks matter. Spring 2023 transfers told the p
 - **Missing the August 1 timeslot change.** After that date your [move-in slot is fixed](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process), whatever your flight says.
 - **Leaving the Re-Entry Term Checklist undone.** It triggers an enrollment hold in the week you need to add classes. Spring 2023 transfers told the Sun that [popular classes were already full](https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/) when they could enroll; a hold makes that worse.
 - **Skipping the MATH CASE with a 4 on AP Calculus BC.** Engineering gives no credit for it, so the cost is a full semester of MATH 1910.
-- **Trusting the undated arrival page.** Its August 19 and 20 dates are from an earlier year.
+- **Going by the arrival page's August 19 and 20.** Those dates are from an earlier year; plan on the NSO page's dates.
 - **Missing the exam-credit request.** External transfers must ask the college registrar in writing for AP, IB or other exam credit by the [last day of instruction of the first semester](https://registrar.cornell.edu/students/credit-evaluation-services), December 7 in 2026. Miss it and the credit is gone.
 
 ## FAQ

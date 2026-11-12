@@ -87,9 +87,6 @@ sources:
 - url: https://www.cornellsun.com/article/2025/08/from-both-sides-of-the-hill-an-ic-transfers-perspective
   title: 'From Both Sides of the Hill: An IC Transfer''s Perspective, The Cornell Daily Sun, August 2025'
   accessed: '2026-11-11'
-- url: https://talk.collegeconfidential.com/t/cornell-transfer-courses/1840413
-  title: Cornell transfer courses, College Confidential, 2016
-  accessed: '2026-11-11'
 - url: https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/
   title: Spring transfers start Cornell mid-year and prepare for challenges ahead, The Cornell Daily Sun, January 26, 2023
   accessed: '2026-11-11'
@@ -140,13 +137,13 @@ Moving into A&S from another Cornell college is a separate process. In the 2026 
 
 You need a high school diploma or equivalent, plus 12 semester hours of college credit earned after high school or full-time enrollment at another college. Exam credit does not count toward the 12 ([Cornell admissions](https://admissions.cornell.edu/apply/transfer-applicants)). Students still in high school apply as first-years, whatever their dual-enrollment credits. Bachelor's degree holders are not eligible.
 
-A&S lists no deadline of its own, so the [central dates apply](https://as.cornell.edu/admissions/admissions-requirements-and-process). Cornell says admitted transfers [generally have a 3.3 or better](https://faq.enrollment.cornell.edu/kb/article/325-does-cornell-prefer-transfer-applicants-from-certain-colleges-or-types-of-colleges/). The same page names the essay on your interest in the program, your college grades and professor recommendations as what matters most.
+A&S uses Cornell's [central transfer dates](https://as.cornell.edu/admissions/admissions-requirements-and-process). Cornell says admitted transfers [generally have a 3.3 or better](https://faq.enrollment.cornell.edu/kb/article/325-does-cornell-prefer-transfer-applicants-from-certain-colleges-or-types-of-colleges/). The same page names the essay on your interest in the program, your college grades and professor recommendations as what matters most.
 
-A&S takes fewer transfers than CALS or ILR. Cornell's newest count by college is its 2021 profile: [102 of 674 fall 2021 transfers entered A&S](https://irp.cornell.edu/wp-content/uploads/2021/08/Profile2021-Fall-Transfers.pdf), against 243 for CALS and 116 for ILR. Across all colleges, [7,381 people applied and 864 were admitted](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf) for fall 2025, an 11.7% rate by our math.
+A&S takes fewer transfers than CALS or ILR. Cornell's newest count by college is its 2021 profile: [102 of 674 fall 2021 transfers entered A&S](https://irp.cornell.edu/wp-content/uploads/2021/08/Profile2021-Fall-Transfers.pdf), against 243 for CALS and 116 for ILR. Across all colleges, [7,381 people applied and 864 were admitted](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf) for fall 2025, an 11.7% admit rate.
 
 ## Sophomore or junior: what the 60-credit cap does
 
-A&S accepts up to 60 credits, based on your [full-time semesters elsewhere](https://as.cornell.edu/registrar/transferring-credits). You need 120 credits to graduate, and 60 of them plus four semesters must be at Cornell. Our model below assumes 15 credits a semester and every course accepted up to the cap; real evaluations go course by course.
+A&S accepts up to 60 credits, based on your [full-time semesters elsewhere](https://as.cornell.edu/registrar/transferring-credits). You need 120 credits to graduate, and 60 of them plus four semesters must be at Cornell. The table below assumes 15 credits a semester and every course accepted up to the cap; real evaluations go course by course.
 
 | Credits before Cornell | Accepted | Lost | Cornell semesters | Total semesters of college |
 |---|---|---|---|---|
@@ -186,7 +183,7 @@ Example: a hypothetical sophomore from a quarter-system school brings twelve 4-c
 
 ### The writing seminar limit
 
-AP or IB scores can [place you out of only one of the two First-Year Writing Seminars](https://as.cornell.edu/admissions/admissions-requirements-and-process). A full-time college writing course can fill one through transfer credit. A 2016 College Confidential poster who moved from UVA said, in a hedged and secondhand account, that [writing seminars were harder to transfer](https://talk.collegeconfidential.com/t/cornell-transfer-courses/1840413) than intro biology or psychology. Take your writing courses full-time and keep the syllabi.
+AP or IB scores can [place you out of only one of the two First-Year Writing Seminars](https://as.cornell.edu/admissions/admissions-requirements-and-process). A full-time college writing course can fill one through transfer credit. Take your writing courses full-time and keep the syllabi.
 
 ### Exam credit is a separate request
 
@@ -212,13 +209,13 @@ rows:
 
 ```tool cornell-transfer-timeline```
 
-Questions go to [as-transfer@cornell.edu or 607-255-4833](https://as.cornell.edu/admissions/admissions-requirements-and-process). That A&S page still shows past 2026 dates, such as the May 1 internal deadline and September 2026 information sessions, so check the year on any date it gives.
+Questions go to [as-transfer@cornell.edu or 607-255-4833](https://as.cornell.edu/admissions/admissions-requirements-and-process). Confirm 2027 dates for internal transfer and information sessions with A&S.
 
 ## The Transfer Option in A&S
 
-Some first-year applicants get a Transfer Option instead of admission. A&S calls it [not an offer of admission](https://as.cornell.edu/admissions/admissions-requirements-and-process), and Cornell's central page does not say it is guaranteed. The A&S conditions: a full-time liberal arts year, a 3.5 each semester and no grade below B-. Moving toward a more selective or sequential major may hurt you.
+Some first-year applicants get a Transfer Option instead of admission. A&S calls it [not an offer of admission](https://as.cornell.edu/admissions/admissions-requirements-and-process). The A&S conditions: a full-time liberal arts year, a 3.5 each semester and no grade below B-. Moving toward a more selective or sequential major may hurt you.
 
-A&S asks Transfer Option applicants for [no college extras](https://admissions.cornell.edu/transfer-option-applicants), unlike CALS or Human Ecology. In the 2026 cycle the deadline was March 15, and the page now shows "Application Available Winter 2027." Decisions roll from mid-April, mostly in late April or early May. Once in, you need the same 60 Cornell credits and four semesters.
+A&S asks Transfer Option applicants for [no college extras](https://admissions.cornell.edu/transfer-option-applicants), unlike CALS or Human Ecology. In the 2026 cycle the deadline was March 15, and Cornell says the 2027 application opens in winter 2027. Decisions roll from mid-April, mostly in late April or early May. Once in, you need the same 60 Cornell credits and four semesters.
 
 Richard Ballard spent his Transfer Option year at Ithaca College and is now a CALS junior. He wrote in the Sun in 2025 that the option was [described to him as guaranteed and then not](https://www.cornellsun.com/article/2025/08/from-both-sides-of-the-hill-an-ic-transfers-perspective), and that he feared the second application would be as hard as the first. Keep a sophomore-year fallback at another school.
 
